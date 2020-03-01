@@ -1,0 +1,5715 @@
+[
+	{
+		"assign": "11",
+		"jp_patterns": [
+			"なぁ、リーダー！\r\nいっしょに遊ぼうってば！！",
+			"リーダー！\r\nダイスでバトルだ！",
+			"リーダー、よろしくなっ！\r\nオレの強さ、見せてやるぜ！"
+		],
+		"tr_patterns": [
+			"Hey Leader!\r\nLet's play together!!",
+			"Leader!\r\nLet's battle using dice!",
+			"OK, Leader!\r\nI'll show you my strength!"
+		]
+	},
+	{
+		"assign": "12",
+		"jp_patterns": [
+			"よーし、やってやるってばーっ！",
+			"行けーっ！\r\nオレのダイス！",
+			"いっくぜー！\r\nいざジンジョーに、勝負！"
+		],
+		"tr_patterns": [
+			"Alright, let's do this!",
+			"Go! My dice!",
+			"Let's go!\r\nYou can do it, win or lose!"
+		]
+	},
+	{
+		"assign": "13",
+		"jp_patterns": [
+			"へへっ、どうだっ！",
+			"やった！\r\nいいぞいいぞ！",
+			"いっえーい！\r\nこのまま勝たせてもらうってば！"
+		],
+		"tr_patterns": [
+			"Hehe, how was that!",
+			"Hooray!\r\nThis is great!",
+			"Alright!\r\nHope I win!"
+		]
+	},
+	{
+		"assign": "14",
+		"jp_patterns": [
+			"げげっ！\r\n負けちゃう！！",
+			"うわーっ！\r\nズルいってば！",
+			"うええ……？\r\n手加減してくれよー。"
+		],
+		"tr_patterns": [
+			"Ack!\r\nI'm gonna lose!!",
+			"Waah!\r\nCalling it now!",
+			"Whaa...?\r\nI still need practice."
+		]
+	},
+	{
+		"assign": "15",
+		"jp_patterns": [
+			"よっしゃー！\r\nオレの勝ちだな。",
+			"やったぞ！\r\nへへへ、どうだーっ！"
+		],
+		"tr_patterns": [
+			"Yaaay!\r\nI'm the winner!",
+			"I did it!\r\nHehehe, how's that!"
+		]
+	},
+	{
+		"assign": "16",
+		"jp_patterns": [
+			"つ、強すぎるって！",
+			"そんなぁ……"
+		],
+		"tr_patterns": [
+			"T-too strong!",
+			"Is that..."
+		]
+	},
+	{
+		"assign": "17",
+		"jp_patterns": [
+			"もう一回だってば！",
+			"なんだってば？\r\n引き分けかよー！"
+		],
+		"tr_patterns": [
+			"Rematch!",
+			"Huh?\r\nA draw?!"
+		]
+	},
+	{
+		"assign": "21",
+		"jp_patterns": [
+			"えへへ、リーダー！\r\nわたしと対戦ですよ！",
+			"立派なアークスになるために\r\nがんばります！",
+			"リーダー！\r\nがんばりましょう！"
+		],
+		"tr_patterns": [
+			"Ehehe, Leader!\r\nYou'll be playing against me!",
+			"I'm doing my best to\nbecome a great ARKS!",
+			"Leader!\r\nLet's do our best!"
+		]
+	},
+	{
+		"assign": "22",
+		"jp_patterns": [
+			"それでは……行きます！",
+			"これですっ！",
+			"いい目が出ますように！"
+		],
+		"tr_patterns": [
+			"Alright then... Here I go!",
+			"This is it!",
+			"I hope I get a good roll!"
+		]
+	},
+	{
+		"assign": "23",
+		"jp_patterns": [
+			"わあーっ！\r\nどうですか、リーダー！",
+			"これなら勝てるかも！",
+			"負けませんよ！\r\n勝たせていただきます！"
+		],
+		"tr_patterns": [
+			"Wow!\r\nHow was that, Leader!",
+			"I might win this time!",
+			"I won't lose!\r\nI will come out on top!"
+		]
+	},
+	{
+		"assign": "24",
+		"jp_patterns": [
+			"ああっ、負けちゃいます……！",
+			"リーダーなら、きっと……",
+			"えぇっ！？　\r\nそんなぁ……"
+		],
+		"tr_patterns": [
+			"Ahh, I'm going to lose...!",
+			"Leader's sure to do better...",
+			"Huuh?!\r\nNot like this..."
+		]
+	},
+	{
+		"assign": "25",
+		"jp_patterns": [
+			"やりましたぁ！",
+			"えへへっ！　嬉しいです！"
+		],
+		"tr_patterns": [
+			"I did it!",
+			"Ehehe! I'm so happy!"
+		]
+	},
+	{
+		"assign": "26",
+		"jp_patterns": [
+			"リーダー、さすがです！",
+			"おめでとうございます！"
+		],
+		"tr_patterns": [
+			"Just as expected, Leader!",
+			"Congratulations!"
+		]
+	},
+	{
+		"assign": "27",
+		"jp_patterns": [
+			"ふぅ……引き分けですね。",
+			"うーん……\r\n引き分けですか……"
+		],
+		"tr_patterns": [
+			"Whew... It's a draw.",
+			"Hmm...\r\nIs it a draw...?"
+		]
+	},
+	{
+		"assign": "31",
+		"jp_patterns": [
+			"私の番ね。よろしく……",
+			"たまには息抜きも必要\r\n……ってことかしら。",
+			"……非合理的なゲームよね。\r\n別に、いいけど……"
+		],
+		"tr_patterns": [
+			"It's my turn. Greetings...",
+			"I hear it's important\r\nto relax sometimes...\r\nI wonder.",
+			"...Games are illogical.\r\nAnd yet, they are fun..."
+		]
+	},
+	{
+		"assign": "32",
+		"jp_patterns": [
+			"勝負よ……行きましょう。",
+			"勝っても負けても恨みっこなし……",
+			"どうなるかしら……楽しみね。"
+		],
+		"tr_patterns": [
+			"Let the game... begin.",
+			"Whether you win or lose,\r\nI won't hold it against you...",
+			"What will happen...\r\nI'm looking forward to finding out."
+		]
+	},
+	{
+		"assign": "33",
+		"jp_patterns": [
+			"いい結果ね……",
+			"ちょっと、出来過ぎかしら。",
+			"悪くないわね……"
+		],
+		"tr_patterns": [
+			"A good result...",
+			"Is this too good, I wonder?",
+			"Not a bad result..."
+		]
+	},
+	{
+		"assign": "34",
+		"jp_patterns": [
+			"……っ！　待って！",
+			"どうして、こんな……",
+			"結果は見えてるわ……"
+		],
+		"tr_patterns": [
+			"...Ah! Wait!",
+			"Why is this...",
+			"I can see the result..."
+		]
+	},
+	{
+		"assign": "35",
+		"jp_patterns": [
+			"……当然の結果ね。",
+			"今回は、幸運だったわ。"
+		],
+		"tr_patterns": [
+			"...This result is to be expected.",
+			"I was fortunate on this occasion."
+		]
+	},
+	{
+		"assign": "36",
+		"jp_patterns": [
+			"さすがね……\r\n貴方には、敵わないわ。",
+			"負けたわ……\r\nさすがはリーダーね。"
+		],
+		"tr_patterns": [
+			"As expected...\r\nI was no match for you.",
+			"I lost...\r\nJust as expected\r\nfrom you, Leader."
+		]
+	},
+	{
+		"assign": "37",
+		"jp_patterns": [
+			"引き分け……\r\nもう一回……ね。",
+			"まさか……引き分けるなんて。"
+		],
+		"tr_patterns": [
+			"A draw...\r\nOne more round... I see.",
+			"No way... A draw."
+		]
+	},
+	{
+		"assign": "41",
+		"jp_patterns": [
+			"さっすがリーダー！\r\nここまでくるとはねー。",
+			"俺のところまでくるとはねー。\r\nんじゃ、行きますか！",
+			"まさか、俺に勝てるなんて\r\n思ってないよね、リーダー！"
+		],
+		"tr_patterns": [
+			"Hey there, Leader!\r\nDidn't expect to see you here.",
+			"Hey, you made it to me.\r\nAlright, let's go for it!",
+			"The way I see it, Leader,\r\nthere's no way you'll beat me!"
+		]
+	},
+	{
+		"assign": "42",
+		"jp_patterns": [
+			"手加減しないぜ？",
+			"うらっ！\r\nこれでどうだっ！",
+			"さーて、どっちの運が強いかな？"
+		],
+		"tr_patterns": [
+			"Don't go easy on me, OK?",
+			"Hah!\r\nHow about this!",
+			"Well, shall we see\r\nwhose luck is better?"
+		]
+	},
+	{
+		"assign": "43",
+		"jp_patterns": [
+			"ざっと、こんなものかな！",
+			"本気出していいんだぜ。",
+			"いけるぜっ！\r\n悪いな、リーダー。"
+		],
+		"tr_patterns": [
+			"This is already over!",
+			"That's what happens\r\nwhen I go all-out.",
+			"Looking good!\r\nToo bad, Leader."
+		]
+	},
+	{
+		"assign": "44",
+		"jp_patterns": [
+			"まぁ、楽しみはこれから……さ。",
+			"まだまだ勝負はわかんないよー。",
+			"しゃーないね。\r\nいいから、ダイスを振りなよ。"
+		],
+		"tr_patterns": [
+			"Well, maybe next time, huh...",
+			"I've still got a lot to\r\nlearn about this game.",
+			"You win some, you lose some.\r\nIt's all in the luck of the dice."
+		]
+	},
+	{
+		"assign": "45",
+		"jp_patterns": [
+			"どうだいっ！\r\nこれが実力の差ってやつ？",
+			"ごめんね、リーダー。\r\n今回は俺の勝ちみたいだね。"
+		],
+		"tr_patterns": [
+			"How do you like that!\r\nJust goes to show the difference\r\nbetween you and me, huh?",
+			"Sorry about that, Leader.\r\nLooks like this round's mine."
+		]
+	},
+	{
+		"assign": "46",
+		"jp_patterns": [
+			"さっすがぁ！\r\nリーダーには敵わないねぇ！",
+			"やったねえ！\r\nさすがリーダー！"
+		],
+		"tr_patterns": [
+			"I knew it!\r\nI'm still no match for you, Leader!",
+			"Nice one!\r\nThat's why you're the Leader!"
+		]
+	},
+	{
+		"assign": "47",
+		"jp_patterns": [
+			"おやぁ？\r\n引き分けみたいだねー。",
+			"さて……と。\r\nもうひと勝負といくかい？"
+		],
+		"tr_patterns": [
+			"Oh?\r\nLooks like a draw.",
+			"Well... how about that.\r\nOne more round?"
+		]
+	},
+	{
+		"assign": "51",
+		"jp_patterns": [
+			"<%name>さん\r\n私と勝負です！",
+			"私がお相手します！",
+			"こんにちは！\r\n息抜きをするのも大切ですよ？"
+		],
+		"tr_patterns": [
+			"<%name>, you'll be\r\nplaying against me!",
+			"I'll be your opponent!",
+			"Hello!\r\nIt's important to take breaks\r\nfrom time to time, isn't it?"
+		]
+	},
+	{
+		"assign": "52",
+		"jp_patterns": [
+			"この勝負……負けませんよ！",
+			"手加減しません！\r\n本気で行きますからね！",
+			"準備はいいですか？\r\n行きますよ！"
+		],
+		"tr_patterns": [
+			"This game... I will not lose!",
+			"I won't go easy on you!\r\nI'll give this everything I have!",
+			"Are you ready?\r\nHere I go!"
+		]
+	},
+	{
+		"assign": "53",
+		"jp_patterns": [
+			"なんと！　いい目が出ましたね！",
+			"ふふふ、ラッキーです！",
+			"これなら……勝てるかも！"
+		],
+		"tr_patterns": [
+			"What?! I got a good roll!",
+			"Heheheh, I got lucky!",
+			"A roll like this... I might win!"
+		]
+	},
+	{
+		"assign": "54",
+		"jp_patterns": [
+			"あれ？　ランチャーはどこに……",
+			"き……緊急事態です！",
+			"どうしましょうか……\r\nこれだと、負けてしまうかも……"
+		],
+		"tr_patterns": [
+			"Huh? Where's my launcher...",
+			"E... emergency!",
+			"What am I going to do...\r\nI can't win with a roll like this..."
+		]
+	},
+	{
+		"assign": "55",
+		"jp_patterns": [
+			"やりました！\r\nこれが管理官の実力です！",
+			"うふふ……\r\nありがとうございます！"
+		],
+		"tr_patterns": [
+			"I did it! All in a day's\r\nwork for an administrator!",
+			"Eheheh...\r\nThank you very much!"
+		]
+	},
+	{
+		"assign": "56",
+		"jp_patterns": [
+			"さすがです。\r\n手も足も出ませんでした……",
+			"素晴らしいですね！\r\nさすがはリーダー、完敗です！"
+		],
+		"tr_patterns": [
+			"As I thought. There was\r\nnothing I could have done...",
+			"That was amazing!\r\nAs I expected, a total\r\ndefeat from Leader!"
+		]
+	},
+	{
+		"assign": "57",
+		"jp_patterns": [
+			"あらっ？\r\n引き分けですね……",
+			"リーダーが良ければ\r\nもう一度やりませんか？"
+		],
+		"tr_patterns": [
+			"Oh?\r\nIt's a draw...",
+			"Would you like to\r\ntry again, Leader?"
+		]
+	},
+	{
+		"assign": "61",
+		"jp_patterns": [
+			"いざ、参らん。\r\nわれが相手をしよう。",
+			"たまには\r\nこんな遊びも悪くない。",
+			"……われが相手で構わぬのか？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "62",
+		"jp_patterns": [
+			"吉も凶も、今はわれの手に。",
+			"賽の目は何を語る……",
+			"ふんっ！\r\nわれの力、刮目してみるがよい。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "63",
+		"jp_patterns": [
+			"フフ……\r\n運が良すぎる……",
+			"さて、どうだろうな。",
+			"ふむ、こんなものか。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "64",
+		"jp_patterns": [
+			"なに……",
+			"運が尽きたか……",
+			"これは苦しいな……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "65",
+		"jp_patterns": [
+			"ざっとこんなものだ。",
+			"これがわれの力だ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "66",
+		"jp_patterns": [
+			"……負けだ。\r\nわれが見込んだだけはあるな。",
+			"おぬし……\r\nやりよるな……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "67",
+		"jp_patterns": [
+			"もう一戦……か。",
+			"なんじゃ、引き分けか……\r\nつまらん……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "71",
+		"jp_patterns": [
+			"えへへ、リーダー！\r\nわたしと対戦ですよ！",
+			"立派なアークスになるために\r\nがんばります！",
+			"リーダー！\r\nがんばりましょう！"
+		],
+		"tr_patterns": [
+			"Ehehe, Leader!\r\nYou'll be playing against me!",
+			"I'm doing my best to\nbecome a great ARKS!",
+			"Leader!\r\nLet's do our best!"
+		]
+	},
+	{
+		"assign": "72",
+		"jp_patterns": [
+			"それでは……行きます！",
+			"これですっ！",
+			"いい目が出ますように！"
+		],
+		"tr_patterns": [
+			"Alright then... Here I go!",
+			"This is it!",
+			"I hope I get a good roll!"
+		]
+	},
+	{
+		"assign": "73",
+		"jp_patterns": [
+			"わあーっ！\r\nどうですか、リーダー！",
+			"これなら勝てるかも！",
+			"負けませんよ！\r\n勝たせていただきます！"
+		],
+		"tr_patterns": [
+			"Wow!\r\nHow was that, Leader!",
+			"I might win this time!",
+			"I won't lose!\r\nI will come out on top!"
+		]
+	},
+	{
+		"assign": "74",
+		"jp_patterns": [
+			"ああっ、負けちゃいます……！",
+			"リーダーなら、きっと……",
+			"えぇっ！？　\r\nそんなぁ……"
+		],
+		"tr_patterns": [
+			"Ahh, I'm going to lose...!",
+			"Leader's sure to do better...",
+			"Huuh?!\r\nNot like this..."
+		]
+	},
+	{
+		"assign": "75",
+		"jp_patterns": [
+			"やりましたぁ！",
+			"えへへっ！　嬉しいです！"
+		],
+		"tr_patterns": [
+			"I did it!",
+			"Ehehe! I'm so happy!"
+		]
+	},
+	{
+		"assign": "76",
+		"jp_patterns": [
+			"リーダー、さすがです！",
+			"おめでとうございます！"
+		],
+		"tr_patterns": [
+			"Just as expected, Leader!",
+			"Congratulations!"
+		]
+	},
+	{
+		"assign": "77",
+		"jp_patterns": [
+			"ふぅ……引き分けですね。",
+			"うーん……\r\n引き分けですか……"
+		],
+		"tr_patterns": [
+			"Whew... It's a draw.",
+			"Hmm...\r\nIs it a draw...?"
+		]
+	},
+	{
+		"assign": "81",
+		"jp_patterns": [
+			"仕事前の景気づけだ。\r\n俺様とひと勝負と行こうぜ。",
+			"いいところにいたな。\r\n狙った獲物は逃がさねぇぜ。",
+			"賭け事ってのは戦士の嗜みだ。\r\n相手してもらうぜ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "82",
+		"jp_patterns": [
+			"真っ赤な花になっちまいな！",
+			"銃の狙いは外さねえ。\r\nダイスの目だって……外さねぇ！",
+			"この弾丸は……\r\n勝利のお守りなのさ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "83",
+		"jp_patterns": [
+			"へへっ。悪くねぇな。\r\nそっちの番だぜ。",
+			"おっ！\r\n今日の俺様は妙にツイてるな。",
+			"なぁ、でかい目って穴ボコだらけで\r\n蜂の巣になった獲物を思い出さねぇ？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "84",
+		"jp_patterns": [
+			"ふん。いまひとつだが……\r\nまだ負けと決まっちゃいねぇ。",
+			"おいおい、なんだこりゃ。",
+			"おっと……\r\nこいつぁ、やべえな。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "85",
+		"jp_patterns": [
+			"さてと……仕事の時間だな。\r\n勝ち逃げさせてもらうぜ。",
+			"へへっ！\r\n今日も良い仕事ができそうだ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "86",
+		"jp_patterns": [
+			"おわっ！？\r\n負けちまったじゃねぇか。",
+			"しゃーねぇな。\r\n気分を切り替えてくか。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "87",
+		"jp_patterns": [
+			"引き分けかよ！\r\n次行くぞ、次っ！！",
+			"引き分けってなんだよ！\r\nもう一度だ！　さぁ、始めるぞ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "91",
+		"jp_patterns": [
+			"うふふふ……\r\nたっぷり楽しませてあげるわぁ。",
+			"ねぇ、アタシと遊んでいかない？",
+			"ご指名ありがと！\r\nステキな時間にしてあげるわ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "92",
+		"jp_patterns": [
+			"お楽しみの時間よ。\r\nアタシに身をゆだねなさぁい。",
+			"い・く・わ・よー！",
+			"この……固くて、四角くて……\r\nころがしてあげるわ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "93",
+		"jp_patterns": [
+			"うふふふ……\r\nすぐに気持ち良くしてあげる……",
+			"次はアナタの番よ。\r\nさぁ、見せてちょうだい。",
+			"どう？\r\n目をそらしちゃ、ダ・メ・よ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "94",
+		"jp_patterns": [
+			"天にも昇る心地だわぁ。\r\nゾクゾクしちゃう……",
+			"アタシ、負けちゃうの？\r\n負けちゃうのぉん！",
+			"あぁん……\r\nテイスティ……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "95",
+		"jp_patterns": [
+			"ふふっ。\r\nアタシの方が上だったわね。",
+			"ざーんねんでした。\r\nまた遊んでね。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "96",
+		"jp_patterns": [
+			"うふふふ……\r\nねじ伏せられちゃったわね。",
+			"……あら、罰ゲームは無いの？\r\nお仕置きとか、お仕置きとか……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "97",
+		"jp_patterns": [
+			"へぇ～？　ぴったり一緒。\r\nアタシたち、相性が良いのかもね。",
+			"もう一戦できるのね……\r\nゾクゾクしちゃう……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "101",
+		"jp_patterns": [
+			"ボクはパンプキンロッド！\r\nお菓子をくれなきゃイタズラしちゃうぞ！",
+			"さぁ、ボクと勝負だ！",
+			"ねぇねぇ、遊んでよ！\r\n退屈してたんだ！"
+		],
+		"tr_patterns": [
+			"It's me, Pumpkin Rod!\r\nI came to give you some treats!",
+			"I'm gonna challenge you now!",
+			"I'm bored!\r\nHey, play with me!"
+		]
+	},
+	{
+		"assign": "102",
+		"jp_patterns": [
+			"ボクが勝ったら、お菓子ちょうだい！",
+			"ハッピーハロウィーン！",
+			"待ってました！　行っくぞー！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "103",
+		"jp_patterns": [
+			"あははっ！　来た来たぁーっ！",
+			"タネも仕掛けも……\r\nな、無い無い！　ホントに無いって！",
+			"これは、勝てるかな！？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "104",
+		"jp_patterns": [
+			"うわーっと！",
+			"あわわわ！　負けちゃうー！",
+			"わーん、お菓子ーっ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "105",
+		"jp_patterns": [
+			"やったあ！\r\nねぇねぇ、もう一回やろう！",
+			"ボクの勝ちだ！\r\nとりあえず、お菓子ちょうだい！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "106",
+		"jp_patterns": [
+			"負けちゃった……\r\nリーダーはボクにイタズラとかしないの？",
+			"そんなぁ……\r\nサイコロって難しいなぁ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "107",
+		"jp_patterns": [
+			"あれれ？　引き分けだ。\r\nもっと、遊んで遊んでー！",
+			"うっわー！　ドキドキした！\r\n引き分けじゃん！　もう一回！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "111",
+		"jp_patterns": [
+			"ようこそ、ハロウィンに……\r\nここは決闘とお菓子の宴。\r\n私……ニレンカムイが相手……",
+			"サイコロは食べられないけど\r\nお菓子は食べられる……",
+			"サイコロで戦う……\r\n投げてぶつけるわけじゃない……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "112",
+		"jp_patterns": [
+			"トリック・オア・トリート……\r\nつまり……勝ったらお菓子？",
+			"トリック・オア……斬る。",
+			"手加減は……しない。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "113",
+		"jp_patterns": [
+			"ハッピーハロウィーン……\r\nハロウィンが、私を呼んでる……",
+			"お菓子……\r\nじゅるり。",
+			"これは、強いやつ……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "114",
+		"jp_patterns": [
+			"この決闘……負けるかも……\r\nトリック・オア……斬る。",
+			"あっ……\r\nやっちゃった。",
+			"魔女の魔法で……\r\nもうちょっと転がれ……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "115",
+		"jp_patterns": [
+			"決闘して、お菓子を奪う……\r\nそれがハロウィン……",
+			"勝った……\r\nお菓子……ちょうだい……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "116",
+		"jp_patterns": [
+			"……負けた？\r\nお菓子、無いの……？",
+			"負けたのはサイコロのせい。\r\n私、悪くない……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "117",
+		"jp_patterns": [
+			"お菓子を賭けた戦い……\r\nだけど、引き分け……",
+			"引き分け……\r\nもう一度、決闘できる……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "121",
+		"jp_patterns": [
+			"あなたに私をプレゼントー！\r\nギフトサックよ！",
+			"私に勝てたら\r\n素敵なプレゼントをあげちゃうわ！",
+			"ダイスのゲームね……\r\nダイスとプレゼント箱って形が似てるし\r\nなんとかなると思うの！"
+		],
+		"tr_patterns": [
+			"A present from me to you!\r\nIt's me, Gift Sack!",
+			"If you let me win, I'll\r\ngive you a present!",
+			"A game of dice... Dice and\r\npresents are pretty much the\r\nsame shape, so I think I'll manage!"
+		]
+	},
+	{
+		"assign": "122",
+		"jp_patterns": [
+			"まずはダイスをプレゼントー！\r\nうふふ、こーんなプレゼントはいかが？",
+			"残念ながら、これはゲームだから……\r\n私に勝たなくちゃプレゼントできないわ。",
+			"行くわ。\r\nプレゼント箱で鍛えたテクニック\r\n見せてあげるんだから！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "123",
+		"jp_patterns": [
+			"プレゼントの声が聞こえたわ。\r\nあなたにもプレゼントの極意が\r\n分かるかしら……",
+			"ちょっとヘビーなプレゼントだった？",
+			"これがプレゼントの力よ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "124",
+		"jp_patterns": [
+			"ええっ！？　これだけ！？",
+			"この私が、四角い物を投げて\r\n失敗するなんて……",
+			"えっとね、プレゼントをあげたくて\r\n手を抜いたわけじゃないのよ。\r\n本当よ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "125",
+		"jp_patterns": [
+			"ジーン・グール・ベェールッ！\r\nふふっ、勝っちゃったわ。\r\nごめんなさいね。",
+			"残念だったわね……\r\n次こそ私がプレゼントできるよう\r\n頑張ってね。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "126",
+		"jp_patterns": [
+			"いやぁん、ほどかないでよ。\r\nプレゼントはそっちじゃないわ。",
+			"私の負けだわ。\r\nそれじゃあ、あなたにぃー……\r\n素敵なプレゼントー！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "127",
+		"jp_patterns": [
+			"あらあら……\r\nこれじゃプレゼント交換みたいね。\r\n共にプレゼントを極めていきましょう。",
+			"引き分けなの？\r\nなら、もうひと勝負ね。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "131",
+		"jp_patterns": [
+			"謹賀新年！　あけまして\r\nインペリアルピックちゃんなのだ！\r\nよろしくなのだー！",
+			"お正月には\r\nサイコロで遊ぶのだー！",
+			"インペリアルピックちゃんと\r\n勝負するのだ！"
+		],
+		"tr_patterns": [
+			"Happy New Year! Imperial Pick's\r\nhere to bring in the new year!\r\nnGreat to see you!",
+			"Let's play with dice\r\nfor New Year's Day!",
+			"Play a round with Imperial Pick!"
+		]
+	},
+	{
+		"assign": "132",
+		"jp_patterns": [
+			"あちしの出番なのだ！\r\n行くのだー！",
+			"運試しなのだ！",
+			"レア掘りもサイコロも\r\n運の良さが大切なのだ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "133",
+		"jp_patterns": [
+			"おりょ？\r\nレア？　レアなのか？",
+			"やったあ！\r\nラッキーなのだ！",
+			"運が良いのだ！\r\nこれは今日のレア掘りでも\r\nいいものが出そうなのだ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "134",
+		"jp_patterns": [
+			"あわわわわ、大変なのだ！\r\nお宝探しの邪魔は、させないのだーっ！",
+			"わーん！\r\nアンラッキーなのだ！",
+			"運が悪いのだ……\r\nでも、代わりに今日のレア掘りでは\r\nいいものが出るかも知れないのだ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "135",
+		"jp_patterns": [
+			"わーい！　リーダーから\r\nお年玉いっぱいもらったのだーっ！",
+			"あちしの勝ちなのだ！\r\nやったー！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "136",
+		"jp_patterns": [
+			"あーれー。\r\nなにをするのだー！",
+			"負けちゃったのだ！\r\nつ、次はスゴロクで勝負なのだー！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "137",
+		"jp_patterns": [
+			"仕切り直しなのだ。\r\n気持ちが新しくなれば\r\nきっとお宝を見つけやすくなるのだ！",
+			"引き分けなのだ。\r\nリーダーも、あちしと同じくらい\r\nラッキーなのだ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "141",
+		"jp_patterns": [
+			"ば、バレンタインなんて……\r\nこのわたしには興味ないイベントだわ！",
+			"呼ばれてうれしいなんて……\r\nこれっぽっちも思ってないんだからね！",
+			"あ……あなたが勝負に勝てたら\r\nご、ご褒美をあげるわ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "142",
+		"jp_patterns": [
+			"色恋沙汰にうつつを抜かしていたら\r\n射抜くわよっ！",
+			"百発百中の弓の腕\r\nサイコロにだって通用するはずよ！",
+			"わ、わたしが勝ったら……\r\n言うことをきいてもらうからね！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "143",
+		"jp_patterns": [
+			"ふふん！\r\nこれがわたしの実力よ！",
+			"わたしの矢は甘くないわよ！\r\nサイコロだって甘くないんだから！",
+			"こ、これで勝ったら……\r\nど、ど、どうしようかしら……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "144",
+		"jp_patterns": [
+			"ええっ！？　これだけ！？",
+			"ドキドキして手元が狂ったわ……\r\nもぅっ！\r\n自分のことがわかんないーっ！",
+			"ふ、ふんっ、あなたが相手なら\r\nこれくらいでちょうどいいのよ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "145",
+		"jp_patterns": [
+			"どうしてもってお願いするなら\r\nリベンジを受けてあげてもいいのよ？",
+			"ね、ねぇ、わたしが勝ったんだから……\r\nあぁーっ、もう！　なんでもないわよ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "146",
+		"jp_patterns": [
+			"勝者であるあなたには賞品……\r\nえっ？そうじゃない？\r\n……わかってるわよっ！",
+			"もうっ！　本気だしてんじゃないわよ！\r\nバカっ！！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "147",
+		"jp_patterns": [
+			"よかった。まだ一緒にいられる……って\r\n勝負できて楽しいってことだからね！",
+			"引き分けなの？\r\nもう、なんでこうハッキリしないのよ……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "151",
+		"jp_patterns": [
+			"ギリハートです。\r\nよろしくお願いします！",
+			"ゲームのお相手ですか……\r\n了解しました。\r\nこのギリハート、承ります。",
+			"息抜きも必要ですね。\r\nですが、終わったらお仕事に戻りましょう。"
+		],
+		"tr_patterns": [
+			"It's Giri Heart.\nNice to meet you!",
+			"You're my opponent for this\ngame...ok. Giri Heart will do it.",
+			"Sometimes you need to take\na break. But, let's get back to\nbusiness when we're done here."
+		]
+	},
+	{
+		"assign": "152",
+		"jp_patterns": [
+			"では、参ります。",
+			"こういうことは\r\nあまり経験が無いのですが……",
+			"やるからには、勝ちを狙います。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "153",
+		"jp_patterns": [
+			"運が良かったんだと思います。",
+			"ええと……\r\nなんだかごめんなさい。",
+			"どうでしょうか？\r\nうまくダイスを投げられました。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "154",
+		"jp_patterns": [
+			"これは……困りましたね。",
+			"なかなか上手くいかないですね。",
+			"やっぱり私には\r\n向いていないのかも知れません……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "155",
+		"jp_patterns": [
+			"私の勝ち、ですね。\r\nでは、お仕事に戻りましょう。",
+			"やりました！　も、もう１回……\r\nいえ、そんなことをしている場合では！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "156",
+		"jp_patterns": [
+			"負けですか……\r\nさすがはリーダーですね。\r\n感服いたしました。",
+			"ば、罰ゲームだけは……\r\nカンベンしてください。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "157",
+		"jp_patterns": [
+			"ひ、引き分けですか。\r\nちょっとドキドキしました……",
+			"もう一勝負ですね。\r\nわかりました、お相手いたします。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "161",
+		"jp_patterns": [
+			"ライトニングエスパーダ、推参。\r\n俺の誇りを賭けてダイスを振ろう。",
+			"遊戯であろうと\r\nいい加減な気持ちで挑みはしない。\r\n目指すべきは常に勝利だ。",
+			"戦いの前に勝負運を試すのも一興か。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "162",
+		"jp_patterns": [
+			"いざ、往かん！",
+			"いざ尋常に、勝負。",
+			"心を研ぎ澄ませ。\r\n……ダイスを振る前に負けるぞ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "163",
+		"jp_patterns": [
+			"ふっ、ダイスは俺に味方したかな？",
+			"超えてみせるがいい。",
+			"一瞬の気合いが通じたか。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "164",
+		"jp_patterns": [
+			"闇よ……しりぞくがいい！",
+			"俺としたことが！",
+			"しまった！\r\n力量を見誤ったか！！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "165",
+		"jp_patterns": [
+			"他愛も無い遊戯における勝利ですら\r\n俺は、成長の糧としたい……",
+			"こんなものに勝因も敗因も無さそうだが\r\n気迫で勝ったと俺は信じる。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "166",
+		"jp_patterns": [
+			"さすがだ、ダイスを振っても強いとは。",
+			"負ける戦いもあるものさ。\r\nだからこそ、精進のしがいがある！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "167",
+		"jp_patterns": [
+			"拮抗したか……\r\nいいだろう、仕切り直しだ。",
+			"精神を削り合うようなギリギリの勝負\r\n実にいい。心が鍛えられる。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "171",
+		"jp_patterns": [
+			"ホワイトデーは感謝を伝える日。\r\n俺様が伝えに来てやったぜ！",
+			"ちょっくら付き合ってやるよ。\r\n……特別だぜ。",
+			"甘いか辛いか、保障はしねぇ。\r\nそれでもいいなら……こっちへ来な。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "172",
+		"jp_patterns": [
+			"俺様に心を撃ちぬかれたいのか？",
+			"あんたは\r\nこのダイスに何を賭けるんだ？",
+			"いい夢見せてやるぜっ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "173",
+		"jp_patterns": [
+			"狙った獲物は逃がしゃしねぇよ！",
+			"そーら、バッキューン！",
+			"リードしてやるぜ。\r\n付いてこれるか？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "174",
+		"jp_patterns": [
+			"ちっ……\r\nこんな時に、ついてねぇな。",
+			"なんてこった、しくじったか！",
+			"甘くねぇなぁー……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "175",
+		"jp_patterns": [
+			"あんたを泣かせていいのは\r\n俺様だけってことだよ。",
+			"おおっと、俺様に負けた以上\r\nただじゃ済まねぇぜ。覚悟しなよ？"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "176",
+		"jp_patterns": [
+			"こんなこともあるんだな。\r\nまぁ、しかたねぇか。",
+			"とっておきを受け取りな！\r\n俺様からの３倍返しだ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "177",
+		"jp_patterns": [
+			"上等上等。\r\nまだ、帰しはしねぇぜ。",
+			"ほう……いいじゃねぇか。\r\nまだまだ付き合ってもらうぜ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "181",
+		"jp_patterns": [
+			"りだ、よろしくねー。",
+			"あそぶ？\r\nでゅな、りだとあそぶー！",
+			"りだとあそぶ！\r\nわーい！　りだとあそぶー！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "182",
+		"jp_patterns": [
+			"いくよー！",
+			"さいころ、ころころ……",
+			"でゅな、がんばる！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "183",
+		"jp_patterns": [
+			"でゅなつよーい！",
+			"でゅなのかち？　かち？",
+			"わーい！\r\nでゅな、すごい？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "184",
+		"jp_patterns": [
+			"ふゅ……",
+			"なんでー？",
+			"でゅな、まけちゃう……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "185",
+		"jp_patterns": [
+			"やったぁー！\r\nでゅな、かった！",
+			"りだのまけ……\r\nりだ、いいこいいこ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "186",
+		"jp_patterns": [
+			"りだに、これあげる。どーぞ。",
+			"ふぇ……\r\nでゅな、なかないもん……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "187",
+		"jp_patterns": [
+			"ひきわけ？\r\nりだといっしょーっ！",
+			"ふたりとも、かちーっ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "191",
+		"jp_patterns": [
+			"おめでとうございますっ！\r\nエグパスカです！",
+			"あたしに会えたあなたはラッキーです！\r\nもっとラッキーなことがあるかは\r\nあなた次第です！",
+			"楽しいゲームと言えば、お祭りです！\r\nつまりこれはお祭りです！\r\n騒ぎましょう！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "192",
+		"jp_patterns": [
+			"お祭り開始ですっ！\r\nひゃっほーい！",
+			"さあさあ、みなさんお立ち会い！",
+			"のるかそるか……\r\nご覧あれー！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "193",
+		"jp_patterns": [
+			"やりました！\r\nおめでたいです！",
+			"エグパスカさんの見事なダイスロール！\r\nさあ、ここからリーダーの逆転は\r\nあるのかーっ！？",
+			"パスカさんはおめでたいから\r\n運が良いんですよ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "194",
+		"jp_patterns": [
+			"あわわー！\r\nリーダーの方がおめでたいです！",
+			"むむむー？\r\nおかしいですねー……",
+			"ごめんなさーい！\r\nあんまり盛り上がりませんでした……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "195",
+		"jp_patterns": [
+			"いっぱい騒ぎましたね！\r\nとっても楽しかったです！",
+			"勝っちゃいました！\r\nとってもおめでたいです！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "196",
+		"jp_patterns": [
+			"おおーっ、リーダーの勝ちですね。\r\nおめでとうございまーっす！",
+			"楽しかったです！\r\n……あれ？\r\nそう言えば、あたし負けちゃってます？"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "197",
+		"jp_patterns": [
+			"もう一回やりましょう！\r\nそうすれば、もう一回楽しいですよ。",
+			"もっともっと盛り上げて行きましょう！\r\nさあ、もう一回です！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "201",
+		"jp_patterns": [
+			"ダイスの目を競い合うゲームだって？\r\nんんっ、なんとも単純で退屈だ！\r\nだが相手にはなろうじゃないか！",
+			"休憩しに来たのかい、リーダー？\r\n相手がボクで\r\n不運だったかも知れないね。",
+			"欲望渦巻くカジノへようこそ……\r\nボクは配当なんかよりも\r\nキミ達の欲望ってやつに興味があるのさ"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "202",
+		"jp_patterns": [
+			"うーんっ！　活躍の準備はできているっ！",
+			"ボクの力をもってすれば、この程度……",
+			"ふぅむ、これではどうかな？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "203",
+		"jp_patterns": [
+			"ハハッ！　こんなものさ！",
+			"さぁて、ここから逆転できるかどうか……\r\n観察させてもらうとしようじゃないか。",
+			"キミの心理はいかばかりか？\r\nんんーっ、興味深い。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "204",
+		"jp_patterns": [
+			"な、なんだと！\r\nどこで間違えた！",
+			"ふ、ふん！　こういうこともあるさ！\r\nそれが確率というものだ。",
+			"ああ、これだから\r\n頭を使わないゲームは嫌なんだ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "205",
+		"jp_patterns": [
+			"当然の結果だ！\r\nなぜならボクだからね！",
+			"キミは、この結果を予測できたかい？"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "206",
+		"jp_patterns": [
+			"うん、キミにこれをあげよう。\r\n負けは負けだからね、仕方ない。",
+			"これは運なのか？\r\nいやいや、何かボクが負けた原因が？\r\nうーんっ！　どうなんだ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "207",
+		"jp_patterns": [
+			"おおっと、引き分けとは。\r\nよし、ゲームを続けようじゃないか！",
+			"さぁさぁさぁっ！\r\n勝負はまだ付いていないぞっ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "211",
+		"jp_patterns": [
+			"アンタが相手か、リーダー。\r\n……よろしく。",
+			"アンタもこういうとこに来るんだな。\r\n……別に悪くはないって。\r\nでも、なんか不思議な気がしてさ。",
+			"オレでいいなら相手になるよ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "212",
+		"jp_patterns": [
+			"いつでも行けるぜ、リーダー。",
+			"恨みっこ無しだ。行くぞ！",
+			"よく見てな。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "213",
+		"jp_patterns": [
+			"ふっ………",
+			"ざっとこんなもん、か。",
+			"悪いな、これで決まりかも知れない。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "214",
+		"jp_patterns": [
+			"なっ！？\r\nこいつはひどいな……",
+			"くそ、ミスった……",
+			"負けたか？\r\n……いや、まだ分からない。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "215",
+		"jp_patterns": [
+			"……よし。\r\nオレの勝ちだな。",
+			"悪く思うなよ、リーダー。\r\n勝負ってのはこういうもんさ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "216",
+		"jp_patterns": [
+			"あーあ、オレの負けか……\r\nこれ、やるよ。",
+			"ちぇっ。\r\n次は勝ってみせるよ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "217",
+		"jp_patterns": [
+			"まだいけるぜ！\r\n次こそ決着を付けよう！",
+			"な、なんだ引き分けか。\r\n一瞬、負けたかと思った。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "221",
+		"jp_patterns": [
+			"死をまとい……血に踊る……\r\nわらわがイブリスブラッド……\r\n闇の花嫁なり。",
+			"何故このような場所に、と？\r\n知れたこと。貴公が居るからだ。",
+			"場違いだとでも……言いたげだな。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "222",
+		"jp_patterns": [
+			"見せておくれ。\r\n汝の命のきらめきを……",
+			"よもや怖じ気づいてはおるまいな？",
+			"貴公の血を\r\n賭けてみる気は無いか……？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "223",
+		"jp_patterns": [
+			"死の先にあるもの……見たくはないか？",
+			"貴公は……乗り越えられるだろうか。",
+			"さぁ、貴公の手番よ……\r\n見ておるぞ……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "224",
+		"jp_patterns": [
+			"足りぬ……まだ足りぬ……",
+			"ああ、ここは……\r\nまぶしすぎる……",
+			"これでは……何も分からぬな。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "225",
+		"jp_patterns": [
+			"わらわに触れるものは……\r\nみな、命の炎を消していく……",
+			"わらわには勝てなんだか……\r\nそうか……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "226",
+		"jp_patterns": [
+			"しかと見届けた……",
+			"わらわになにを期待しておる？"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "227",
+		"jp_patterns": [
+			"ほう……興(きょう)が湧くな。",
+			"もう少しばかり\r\nわらわを楽しませてみせよ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "231",
+		"jp_patterns": [
+			"ニレンカムイ。\r\n……このドレス、似合う？",
+			"真っ白なドレス……\r\nなんだか、どきどきする……",
+			"見せに来た。"
+		],
+		"tr_patterns": [
+			"It's Twin Kamui.\r\n...Does this dress suit me?",
+			"A pure white dress...\r\nFor some reason, my\r\nheart's pounding...",
+			"I came to show you this."
+		]
+	},
+	{
+		"assign": "232",
+		"jp_patterns": [
+			"入刀して、ふたりの共同作業……",
+			"ふたりっきりで……遊ぶの。",
+			"戦うの。\r\n平和的に。"
+		],
+		"tr_patterns": [
+			"Let's cut the cake together...",
+			"We're playing...\nJust the two of us....",
+			"Fighting.\r\nBut peaceful."
+		]
+	},
+	{
+		"assign": "233",
+		"jp_patterns": [
+			"こんな恰好でも\r\n私は、ちゃんと戦える……",
+			"もしかして、ドレスの力……",
+			"私の素敵な所……もっと見て。"
+		],
+		"tr_patterns": [
+			"I can still fight well,\r\neven if I look like this...",
+			"Is this the power\nof the dress...?",
+			"This is my beautiful side...\r\nPlease look at me more."
+		]
+	},
+	{
+		"assign": "234",
+		"jp_patterns": [
+			"動きにくい服で戦うのも\r\n修行になるかも……",
+			"失敗しても、綺麗？",
+			"ドレスだから……\r\n気合いを入れたのに……"
+		],
+		"tr_patterns": [
+			"Fighting in clothes that are\r\nhard to move in may be\r\na useful form of training...",
+			"I may fail, but am I not still beautiful?",
+			"It was because of this dress...\r\nI feel it..."
+		]
+	},
+	{
+		"assign": "235",
+		"jp_patterns": [
+			"勝っちゃった。\r\nできれば、誉めて。",
+			"真っ赤なブーケ、受け取ってくれた？"
+		],
+		"tr_patterns": [
+			"I won.\r\nPraise me, if you can.",
+			"Did you get a bright red bouquet?"
+		]
+	},
+	{
+		"assign": "236",
+		"jp_patterns": [
+			"負けちゃった。\r\n次はもっと、がんばる……",
+			"すごい……さすがはリーダー。"
+		],
+		"tr_patterns": [
+			"I lost.\r\nNext time, I must do better...",
+			"Amazing...\nAs expected of you, Leader."
+		]
+	},
+	{
+		"assign": "237",
+		"jp_patterns": [
+			"一緒の時間が、まだ続く……",
+			"……本気、出すから。\r\n次は……本気……"
+		],
+		"tr_patterns": [
+			"Our time together will continue...",
+			"...I saw your serious side.\r\nNext time... I'll be serious too..."
+		]
+	},
+	{
+		"assign": "241",
+		"jp_patterns": [
+			"アーレスソード、カジノに参上っ！",
+			"い、いいだろ！\r\nアーレスの戦士がこういうとこに来ても！",
+			"ゲームでも手を抜かないのが\r\nアーレスの戦士の誇りだ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "242",
+		"jp_patterns": [
+			"いいぜ、相手してやるよ！",
+			"アーレスの力を見せてやる！",
+			"全力でぶん投げたら\r\nデカイ目になったりするかな？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "243",
+		"jp_patterns": [
+			"オレはいつでも、フルスロットルだぜっ！",
+			"これがオレの力！\r\nアーレスの力だ！",
+			"女神様、ありがとう！\r\n……って言ったら怒られるかな？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "244",
+		"jp_patterns": [
+			"ちょ！　まっ！",
+			"あれー？\r\nおっかしいなー……",
+			"うわーっ！\r\nごめんなさい女神様ーっ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "245",
+		"jp_patterns": [
+			"よっしゃあ、勝った！\r\nまた勝負しようぜ！",
+			"オレには守るべきものがある！\r\nだから……負けないっ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "246",
+		"jp_patterns": [
+			"スッゲーな、あんた！\r\nオレの負けだ！",
+			"次は勝ってやるぜ！\r\nアーレスの誇りに賭けて！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "247",
+		"jp_patterns": [
+			"あっはっはっはっ！\r\n次こそ勝ってやるぜ！",
+			"なんだよ！\r\n引き分けかよぉ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "251",
+		"jp_patterns": [
+			"わたくしはアーレスの女神。\r\n星々の声を聴き……守り……\r\n慈しむ存在なのです。",
+			"星々の囁きに耳を傾けるのです。",
+			"貴方の行くべき道、行うべき事を……\r\n星々は知ることでしょう。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "252",
+		"jp_patterns": [
+			"行きましょう、愛を育む命を助け\r\n未来を築くために……",
+			"地には恵みを。\r\n貴方には星々の祝福があらんことを……",
+			"星々の輝きが運命を指し示します。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "253",
+		"jp_patterns": [
+			"人には……\r\n越えてはいけない一線があるのですよ。",
+			"戒めを刻む刹那は、心が痛むものです。",
+			"人が触れるべきでない領分を\r\n侵す者には報いがありましょう。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "254",
+		"jp_patterns": [
+			"わたくしは未来に託したい。",
+			"やがてはわかり合える日が来ると\r\n私は信じております……",
+			"傷つけ合わねばならないことは\r\nなんと悲しいのでしょう……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "255",
+		"jp_patterns": [
+			"この地に……愛を……",
+			"私は……\r\n全ての命を愛します。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "256",
+		"jp_patterns": [
+			"まぁ……",
+			"せめて戦いの先に\r\n穏やかな日々があることを祈りましょう。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "257",
+		"jp_patterns": [
+			"貴方は心優しい人ですね……",
+			"戦いとは虚しいもの。\r\nそこに真の勝者など存在しません……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "261",
+		"jp_patterns": [
+			"アフタル・アールアレフです！\r\nいっぱいがんばりますから\r\nよろしくです！！",
+			"アークスの文化を調査中です！\r\nあ、遊んでるわけじゃ……ないですよ？",
+			"こんな場所が他にいくつも？\r\nアークスって、すごいんですねーっ！"
+		],
+		"tr_patterns": [
+			"It's me, Akhtar Al-alef!\r\nI'll do my best, so please\r\ntake good care of me!!",
+			"I'm investigating ARKS culture!\r\nUm, this is... a game, right?",
+			"There are places like this here?\r\nARKS really is amazing!"
+		]
+	},
+	{
+		"assign": "262",
+		"jp_patterns": [
+			"ここは綺麗なところですね！\r\nなんだかウキウキしてきます！",
+			"これはアークスの文化を調査するため。\r\n調査のためだから仕方ない！　うん！",
+			"さあゲームをしましょう！\r\n大丈夫です、ルールは覚えました！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "263",
+		"jp_patterns": [
+			"えへへへ……\r\n良い目が出ましたね。",
+			"これは……勝っちゃいましたか？\r\n勝っちゃいましたか！！",
+			"えへへへ……\r\nこれがわたしの実力です！　ぶいっ！！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "264",
+		"jp_patterns": [
+			"はぎゃっ！？\r\nやっちゃいました！",
+			"はぎゃっ！？\r\nどうしてこんなことに……？",
+			"はぎゃっ！？\r\n負けと決まったわけではないのです！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "265",
+		"jp_patterns": [
+			"うっわー！　ありがとうっ！\r\n……って、お礼を言うことでも\r\nないですね。えへへ……",
+			"勝ちました！\r\nええと……このコインって\r\nメセタに換えられます？"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "266",
+		"jp_patterns": [
+			"ま、負けを認めるしか……ない！\r\nこれあげるっ！",
+			"ああ、さようなら……\r\nわたしのレジャーコイン……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "267",
+		"jp_patterns": [
+			"引き分けだからもう一度勝負！\r\nくーっ！　燃えてきましたよ―っ！！",
+			"ええっと……\r\nあっ、これは引き分けですね！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "271",
+		"jp_patterns": [
+			"やあっ！　ぼくはリーン！\r\nよろしく頼むよ！　よろしくね！",
+			"リーン♪\r\nアークスたちの遊び場も楽しいね！",
+			"みんな変な顔して見てくるけど……\r\nぼくってめずらしい？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "272",
+		"jp_patterns": [
+			"さぁ、行こう！\r\n勝負だ！　負けないよ！",
+			"こういう勝負ならば\r\nボクだってキミに勝ってみせる！",
+			"踏み台を用意してくれないかな？\r\nボクには机が高すぎるんだ……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "273",
+		"jp_patterns": [
+			"あはははっ！\r\nやったあ！",
+			"リーン♪\r\nどうだい？　すごいだろっ！",
+			"さぁさぁ、次はキミの番だ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "274",
+		"jp_patterns": [
+			"りっ！？\r\nこれは……まずいよ！",
+			"リーン！\r\nなんてことだ！",
+			"もうちょっと腕が長ければ\r\nいい目を出せたのに……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "275",
+		"jp_patterns": [
+			"やあ、こいつはうれしいな！",
+			"ボクの勝ちだね！\r\nまた遊ぼう！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "276",
+		"jp_patterns": [
+			"リーン！　リーン！　リーンッ！！",
+			"ちぇーっ。\r\n悔しいなあ。次こそは絶対に勝つよ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "277",
+		"jp_patterns": [
+			"引き分けだね！\r\nさぁ、もう一回だ！",
+			"りりっ？\r\nこんな事もあるんだね。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "281",
+		"jp_patterns": [
+			"水着に換装いたしました。\r\nシューティングドライブです。",
+			"ゲームのお相手でしたら\r\nシューティングドライブにお任せを。",
+			"なにか？\r\nこれは水中水上戦用装備ですが。"
+		],
+		"tr_patterns": [
+			"Swimsuit equipped.\r\nShooting Drive reporting.",
+			"If you're looking for a\r\ntough opponent, leave\r\nit to Shooting Drive.",
+			"What is it?\r\nThis is equipment for\r\nunderwater combat."
+		]
+	},
+	{
+		"assign": "282",
+		"jp_patterns": [
+			"跡形も無く破壊！\r\n……してはいけないのですか？",
+			"標的はゲーム盤。\r\n弾丸はこのダイスです！",
+			"お相手を務めさせていただきます！"
+		],
+		"tr_patterns": [
+			"Total annihilation!\r\n..Should I not do that?",
+			"The target is the game board.\r\nThe shot is these dice!",
+			"Let me act as your opponent!"
+		]
+	},
+	{
+		"assign": "283",
+		"jp_patterns": [
+			"ターゲット捕捉。容赦しません。",
+			"一斉砲火です！",
+			"作戦通りの戦果です。"
+		],
+		"tr_patterns": [
+			"Target locked.\r\nI will not forgive you.",
+			"Firing all guns!",
+			"The battle is going as planned."
+		]
+	},
+	{
+		"assign": "284",
+		"jp_patterns": [
+			"不覚……！\r\n沈みます！　浮き輪を！！",
+			"暴発です！",
+			"狙いを外しました……"
+		],
+		"tr_patterns": [
+			"This feeling...!\r\nI'm sinking! Deploy flotation rings!",
+			"An accidental discharge!",
+			"I missed my target..."
+		]
+	},
+	{
+		"assign": "285",
+		"jp_patterns": [
+			"任務であれ、息抜きであれ\r\n私はお供します、マイリーダー。",
+			"リーダーに勝ってしまいました。\r\n……これでよろしかったのでしょうか。"
+		],
+		"tr_patterns": [
+			"In quest or in rest, I will\r\nbe with you, my Leader.",
+			"I've beaten you, my Leader.\r\n...Was that alright?"
+		]
+	},
+	{
+		"assign": "286",
+		"jp_patterns": [
+			"さすがは、マイリーダー。\r\n想定外です。",
+			"任務完了！\r\nお役に立てましたでしょうか。"
+		],
+		"tr_patterns": [
+			"As usual, my Leader, you\r\nexceed all expectations.",
+			"Mission complete!\r\nDid you find this useful?"
+		]
+	},
+	{
+		"assign": "287",
+		"jp_patterns": [
+			"再戦ですね。\r\nよろこんでお相手いたします。",
+			"ご心配なく。\r\n決着が付くまでお相手いたします！"
+		],
+		"tr_patterns": [
+			"A rematch. I will gladly be\r\nyour opponent once more.",
+			"Do not worry. We will play\r\nuntil a result is decided!"
+		]
+	},
+	{
+		"assign": "291",
+		"jp_patterns": [
+			"真夏のバカンスに出撃です！\r\nリーダー！\r\nいっぱい楽しみましょうね！",
+			"さぁ！　楽しんじゃいましょう！！\r\nリーダーも来てください！",
+			"こんなところで水着なんて……\r\nなんだか変な感じですね。\r\nえへへ……"
+		],
+		"tr_patterns": [
+			"It's a summer vacation sortie!\r\nLeader!\r\nLet's have plenty of fun!",
+			"Come on! Let's have fun!!\r\nYou too, Leader!",
+			"Wearing a swimsuit\r\nin a place like this...\r\nIt's kind of a strange feeling.\r\nEhehe..."
+		]
+	},
+	{
+		"assign": "292",
+		"jp_patterns": [
+			"水着の力を見せてやりますっ！\r\nさぁ！　いきますよ！！",
+			"この水着ならフォトンの吸収が\r\nいつもの倍以上ですね！！",
+			"ダイスにフォトンを込めて……\r\n投げます！！"
+		],
+		"tr_patterns": [
+			"I'll show you the\r\npower of a swimsuit!\r\nCome on! Let's go!!",
+			"My Photon absorption is\r\nhigher than usual when I\r\nwear this swimsuit!!",
+			"Charge the dice with Photons...\r\nAnd throw!!"
+		]
+	},
+	{
+		"assign": "293",
+		"jp_patterns": [
+			"いつもより……調子がいいかも！\r\nこれも水着の力？",
+			"わ！　いい感じです！\r\nやっぱり水着の力です？",
+			"次はリーダーの番ですよ！\r\nさぁ！　どうぞ！！"
+		],
+		"tr_patterns": [
+			"This is... better than usual!\r\nDid the swimsuit do this, too?",
+			"Wow! This is great!\r\nStill, is this just the swimsuit's power?",
+			"It's Leader's turn next!\r\nCome on! Go for it!!"
+		]
+	},
+	{
+		"assign": "294",
+		"jp_patterns": [
+			"み、水着が……やぶれちゃう！",
+			"うぅ……ダメでしたぁ……",
+			"リーダー……\r\n手加減してくださいね……"
+		],
+		"tr_patterns": [
+			"M-my swimsuit... It'll be ruined!",
+			"Ooh... No good...",
+			"Leader...\r\nPlease go easy on me..."
+		]
+	},
+	{
+		"assign": "295",
+		"jp_patterns": [
+			"リーダー！\r\n今年の夏も、いっぱい遊びましょうね！",
+			"リーダー！\r\n今年のバカンス、すっごく楽しいです！！"
+		],
+		"tr_patterns": [
+			"Leader!\r\nLet's have lots of fun this summer, too!",
+			"Leader!\r\nThis year's vacation is so much fun!"
+		]
+	},
+	{
+		"assign": "296",
+		"jp_patterns": [
+			"うぅ……負けましたぁ……\r\nさすがはリーダー……強いです……",
+			"きゃっ！　だ、だめですよ、リーダー！\r\nそんなことしちゃ！"
+		],
+		"tr_patterns": [
+			"Ooh... I lost...\r\nJust as expected of Leader...\r\nSo strong...",
+			"Waah! S-stop, Leader!\r\nDon't do that!"
+		]
+	},
+	{
+		"assign": "297",
+		"jp_patterns": [
+			"もう一戦ですね！\r\n思いっきり楽しんじゃいましょう！",
+			"引き分けですね。\r\nえへへ……"
+		],
+		"tr_patterns": [
+			"A rematch!\r\nLet's have as much fun as we can!",
+			"It's a draw.\r\nEhehe..."
+		]
+	},
+	{
+		"assign": "301",
+		"jp_patterns": [
+			"たまには息抜きをするのもいいわね……\r\nリーダー？",
+			"バカンスはまだ続くようね。\r\nさぁ……ひと勝負といきましょう？",
+			"なんて顔してるの、リーダー？\r\nさぁ、ダイスを手に取りなさい。"
+		],
+		"tr_patterns": [
+			"It's alright to take a\r\nbreak from time to time...\r\nLeader?",
+			"The vacation will continue.\r\nNow... Another match?",
+			"How do I look, Leader?\r\nNow, pick up the dice."
+		]
+	},
+	{
+		"assign": "302",
+		"jp_patterns": [
+			"私のテクニックは、水着でも十全よ！\r\n覚悟しなさい。",
+			"手加減しないわ。\r\n正々堂々と戦いましょう。",
+			"……いくわ。\r\nダイスに祈りなさい。"
+		],
+		"tr_patterns": [
+			"My technique is perfect,\r\neven in a swimsuit!\r\nGet ready.",
+			"I won't go easy on you.\r\nLet's make it a fair match.",
+			"...Here we go.\r\nPray to the dice."
+		]
+	},
+	{
+		"assign": "303",
+		"jp_patterns": [
+			"ふふ……いい感じね。\r\n何？　その顔は。",
+			"今年の水着よ……\r\n言いたいことでもあるの？",
+			"さて……\r\nどうするつもり、リーダー？"
+		],
+		"tr_patterns": [
+			"Heheh... This is nice.\r\nWhat is it? Your face...",
+			"This year's swimwear...\r\nIs it trying to tell me something?",
+			"Now...\r\nWhat will you do, Leader?"
+		]
+	},
+	{
+		"assign": "304",
+		"jp_patterns": [
+			"海にもいろんな顔があるのよね……\r\nどうしたものかしら……ね？",
+			"困ったわね……\r\nここからどうすればいいか……難問だわ。",
+			"さっさと勝負しなさい。\r\nほら……"
+		],
+		"tr_patterns": [
+			"The ocean has many faces...\r\nWhich one did we see this time...?",
+			"",
+			"This fight will be over quickly.\r\nLook at that..."
+		]
+	},
+	{
+		"assign": "305",
+		"jp_patterns": [
+			"私たちのバカンスに……\r\nふふ……楽しんでもらえたかしら？",
+			"いい勝負だったわ。\r\nバカンスも……いいものね。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "306",
+		"jp_patterns": [
+			"ん、もう……そういう事してると\r\n冗談じゃすまなくなるわよ？",
+			"さすがはリーダー。\r\n完敗だわ。"
+		],
+		"tr_patterns": [
+			"",
+			"As expected of you, Leader.\r\nA total defeat."
+		]
+	},
+	{
+		"assign": "307",
+		"jp_patterns": [
+			"もう一度……ね。\r\n今度は逃がさないわ。",
+			"引き分け……ね。\r\nさぁ、今度こそ勝負をつけましょう。"
+		],
+		"tr_patterns": [
+			"Again... I see.\r\nI will not retreat.",
+			"A draw... I see.\r\nCome on, let's try again."
+		]
+	},
+	{
+		"assign": "311",
+		"jp_patterns": [
+			"僕はネメシスセイバー。\r\n君がこのゲームを遊ぶというなら\r\n僕は君の相手となろう。",
+			"ゲームはいいよね。\r\n戦いと違って\r\n誰も傷つけなくていいんだから。",
+			"このゲームで\r\n度胸を鍛えることは\r\nできないかな……"
+		],
+		"tr_patterns": [
+			"I am Nemesis Saber.\r\nIf you're playing, I'll\r\nbe your opponent.",
+			"This game is good.\r\nUnlike a real battle,\r\nnobody has to get hurt.",
+			"I wonder if I can use this\r\ngame to train my courage..."
+		]
+	},
+	{
+		"assign": "312",
+		"jp_patterns": [
+			"舞い踊れ！　我がダイスっ！！",
+			"よしっ、行くよ！",
+			"いざ勝負だ！"
+		],
+		"tr_patterns": [
+			"Dance, my dice!!",
+			"Alright, let's go!",
+			"Now, game on!"
+		]
+	},
+	{
+		"assign": "313",
+		"jp_patterns": [
+			"これがネメシスの力だっ！！",
+			"ふう……\r\n緊張したよ。",
+			"ネメシスの誇りにかけて\r\n負けないよ！"
+		],
+		"tr_patterns": [
+			"This is the power of Nemesis!!",
+			"Whew...\r\nI was nervous.",
+			"The pride of Nemesis can\r\nnever be defeated!"
+		]
+	},
+	{
+		"assign": "314",
+		"jp_patterns": [
+			"教えてくれ……\r\nこの出目は本当なのか？",
+			"くっ……\r\nこれは、僕の心の弱さが\r\n招いた結果か……",
+			"ネメシスの誇りが！"
+		],
+		"tr_patterns": [
+			"Tell me...\r\nCan this outcome be true?",
+			"Damn...\r\nI was too weak. Did I bring\r\nthis result upon myself..?",
+			"The pride of Nemesis!"
+		]
+	},
+	{
+		"assign": "315",
+		"jp_patterns": [
+			"ネメシスの光を全宇宙に！",
+			"僕と勝負をしてくれてありがとう。\r\nまたやろう！"
+		],
+		"tr_patterns": [
+			"The light of Nemesis\r\nilluminates the universe!",
+			"Thank you for being my opponent.\r\nLet's do this again some time!"
+		]
+	},
+	{
+		"assign": "316",
+		"jp_patterns": [
+			"どうすればいいんだ？\r\nこの痛みは……",
+			"僕は、この敗北から\r\n学ばなければならない。"
+		],
+		"tr_patterns": [
+			"What should I do?\r\nThis pain...",
+			"I have to learn from this defeat."
+		]
+	},
+	{
+		"assign": "317",
+		"jp_patterns": [
+			"決着が付くまで\r\n僕たちは戦い続けるしかない……",
+			"引き分け、再ゲームだ。\r\n次こそは僕が勝つよ！"
+		],
+		"tr_patterns": [
+			"We'll have to keep fighting\r\nuntil a result is decided...",
+			"It's a draw, so we play again.\r\nI will win this time!"
+		]
+	},
+	{
+		"assign": "321",
+		"jp_patterns": [
+			"私はスレイヴセイバー……\r\n我が剣は欲望を糧に勝利を約する。",
+			"この場には欲望が満ちていますね。\r\n……ですが、この欲望は\r\n明るくて、暖かい。",
+			"ふふふ……\r\n感じます。あなたの欲望を……"
+		],
+		"tr_patterns": [
+			"I am Slave Saber...\r\nMy sword feeds on desire\r\nand promises victory.",
+			"There is desire in this place...\r\nBut this desire is bright and warm.",
+			"Heheheh...\r\nI feel it. Your desire..."
+		]
+	},
+	{
+		"assign": "322",
+		"jp_patterns": [
+			"スレイヴの戦いに\r\n負けは許されませんよ。",
+			"あなたの欲望は\r\n私を凌駕するでしょうか？",
+			"見極めましょう、あなたを。\r\nまずは私から行きます。"
+		],
+		"tr_patterns": [
+			"For a Slave series, defeat\r\nin battle is forbidden..",
+			"Can your desire surpass mine?",
+			"The decisive battle begins.\r\nI will make the first move."
+		]
+	},
+	{
+		"assign": "323",
+		"jp_patterns": [
+			"さぁ……\r\nあなたの欲望を見せるのです！",
+			"スレイヴを超えてごらんなさい。\r\nあなたにできるのであれば。",
+			"勝ち続けること。\r\nそれが私の役目……"
+		],
+		"tr_patterns": [
+			"Now... Show me your desire!",
+			"Now, try to do better than Slave.\r\nIf you can.",
+			"This is my purpose.\r\nI must keep winning."
+		]
+	},
+	{
+		"assign": "324",
+		"jp_patterns": [
+			"欲望とは……業の深いものですね。",
+			"私の力が通じなかった……？\r\nそんな、どうして……",
+			"私自身の欲望が\r\n結果を狂わせたのでしょうか。"
+		],
+		"tr_patterns": [
+			"Desire is... a sinful thing.",
+			"My power abandoned me...?\r\nHow could this happen...",
+			"Did a flaw in my own desires\r\nbring about this result?"
+		]
+	},
+	{
+		"assign": "325",
+		"jp_patterns": [
+			"欲望が、まだまだ足りませんね。\r\n欲望に身を任す覚悟はできましたか？",
+			"恥じることはありません。\r\n私が勝って当然なのですから。"
+		],
+		"tr_patterns": [
+			"Your desire is not yet sufficient.\r\nAre you prepared to allow\r\nyourself to become lost in it?",
+			"This is nothing to be ashamed of.\r\nIt is natural that I would win."
+		]
+	},
+	{
+		"assign": "326",
+		"jp_patterns": [
+			"求めよ……さらば与えられん。",
+			"これは、あなたの欲望が\r\n掴み取った結果。\r\n誇ってもいいのですよ。"
+		],
+		"tr_patterns": [
+			"Ask... and you shall receive.",
+			"Grasping for what you desire\r\nhas brought you this result.\r\nBe proud of it."
+		]
+	},
+	{
+		"assign": "327",
+		"jp_patterns": [
+			"お疲れですか？\r\n戦いに果てはありませんよ。",
+			"なかなかですね。\r\nですが、これではあと一歩\r\n私に届きません。"
+		],
+		"tr_patterns": [
+			"Are you feeling tired?\r\nThis battle is not over yet.",
+			"Quite good.\r\nHowever, we will not make\r\nany progress like this."
+		]
+	},
+	{
+		"assign": "331",
+		"jp_patterns": [
+			"今日は月が綺麗だからな。\r\nふふ……\r\nたまには、こういうのもいいだろう？",
+			"心静かに遊戯に興ずる……\r\nこれもまた、風流なり。",
+			"月はそこにあるのだから\r\n構わないさ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "332",
+		"jp_patterns": [
+			"では、行くぞ。\r\n俺の全力……受けてくれ！",
+			"勝ち負けの前に、まずは楽しもう。",
+			"月はどちらに微笑むか……\r\nいざ、勝負だ。"
+		],
+		"tr_patterns": [
+			"Well, let's go.\r\nWith all of my power... Take this!",
+			"Before a winner is decided, let us\r\nhave fun.",
+			"On whom shall the moon smile...?\r\nNow, let us play."
+		]
+	},
+	{
+		"assign": "333",
+		"jp_patterns": [
+			"ふふ……\r\n月は俺に味方したようだな。",
+			"悪くない。\r\nさぁ、お前の番だ。",
+			"まだ勝負は分からないぞ？"
+		],
+		"tr_patterns": [
+			"Heheh... It seems that the moon\r\nwas on my side.",
+			"Not bad.\r\nWell, your turn.",
+			""
+		]
+	},
+	{
+		"assign": "334",
+		"jp_patterns": [
+			"お前はあの月に何を見る？",
+			"今ひとつ、振るわなかったか……",
+			"まだ何が起こるか分からないぞ？\r\n勝ったと思って気を抜かないことだ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "335",
+		"jp_patterns": [
+			"月にかかる雲は、俺が晴らしてやるさ。\r\nまた今度、月でも見ながら\r\nゲームをしないか？",
+			"これもまた騎士のたしなみ。\r\n風流を解さぬ戦馬鹿とは\r\n思われたくないからな。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "336",
+		"jp_patterns": [
+			"今回は俺の負けだ。\r\n次は……負けないぜ。",
+			"勝ち負けにこだわらず\r\n楽しんでこそ、粋というもの……\r\nとは言え、負けは悔しいな。"
+		],
+		"tr_patterns": [
+			"I was defeated this time.\r\nNext time... I will not lose.",
+			"I am not concerned with the result.\r\nMerely to enjoy oneself is elegant\r\nenough...\r\nThat said, it is a pity to lose."
+		]
+	},
+	{
+		"assign": "337",
+		"jp_patterns": [
+			"これが……粋というものか。",
+			"面白い。\r\n簡単には勝たせてくれないようだな。"
+		],
+		"tr_patterns": [
+			"What would you call this...\r\nAn elegant outcome?",
+			"Interesting. It seems that\r\nvictory will not come easily."
+		]
+	},
+	{
+		"assign": "341",
+		"jp_patterns": [
+			"わたしは、ラヴィス＝ブレイド……\r\nトリック・オア・トリート、なの。",
+			"ハロウィンの衣装なの……にゃー。\r\nリーダーは、こういうの……好き？",
+			"トリック・オア・トリート、なの。\r\nお菓子をかけて、勝負なの。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "342",
+		"jp_patterns": [
+			"一緒に遊んでほしいの。",
+			"ダイスを転がしたいの……\r\nこの衣装のせい？",
+			"トリックなの。\r\nリーダーと一緒に遊ぶの。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "343",
+		"jp_patterns": [
+			"これがわたしの\r\nハロウィンのパワー……",
+			"お菓子エネルギーのおかげなの。",
+			"勝ったらリーダーに\r\nイタズラするの……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "344",
+		"jp_patterns": [
+			"リーダー\r\nわたしにイタズラするの？",
+			"お菓子、欲しいの……\r\nリーダー、お願いなの。",
+			"お菓子エネルギーが\r\n足りなかったの……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "345",
+		"jp_patterns": [
+			"リーダー\r\n一緒にお菓子、食べるの。",
+			"トリートのおすそ分けなの。\r\nハッピーハロウィン……なの。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "346",
+		"jp_patterns": [
+			"負けちゃったの……\r\nでも、楽しかったの。",
+			"負けちゃったの……\r\nだから……イタズラされるの。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "347",
+		"jp_patterns": [
+			"トリックもトリートも両方欲しいの。",
+			"引き分け……\r\nお菓子も半分こ、なの。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "351",
+		"jp_patterns": [
+			"ノクスカディナだ。\r\n……服にはツッコむなよ！？",
+			"おい、笑うなよ？\r\n俺は着ないって言ったんだからな？\r\nコレ。",
+			"たまには遊んでみるかなって……\r\nついでだ、ついで。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "352",
+		"jp_patterns": [
+			"あぁ、この恰好で戦うのかぁ……",
+			"付き合ってやるだけ\r\nありがたく思えよ？",
+			"はぁ……さっさとやるぜ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "353",
+		"jp_patterns": [
+			"楽しくなってなんかねーからな！？\r\nおい！？",
+			"面白くなってきたぜ！　フヒヒ！\r\n……あ、いや、なんでもねぇ。",
+			"フヒヒヒ……さぁて、どうする？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "354",
+		"jp_patterns": [
+			"なんだよ、うぜぇなぁ。\r\nてめぇら爆発しろ！",
+			"この恰好のせいで\r\n調子が出ねぇんだよ……",
+			"マジでウゼェ……！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "355",
+		"jp_patterns": [
+			"フヒヒヒ……変な恰好だからって\r\n油断しやがったな、ザァコが！",
+			"この恰好で油断を誘う……\r\n計画通りさ！　フヒヒヒヒ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "356",
+		"jp_patterns": [
+			"ちっ……はいはい、強い強い。",
+			"いちいちこんなのに\r\n熱くなってらんねぇよ……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "357",
+		"jp_patterns": [
+			"なぁ……もう帰ってもいいか……？",
+			"まさかもう１回とか言うのか……？"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "361",
+		"jp_patterns": [
+			"はーい♪\r\nメリークリスマス！",
+			"ブルージーサンタが\r\n気持ちよくしてあげるわ！",
+			"アタシと忘れられない\r\nクリスマスを過ごしましょう！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "362",
+		"jp_patterns": [
+			"ほらほらいくわよ。",
+			"プレゼントをかけて勝負よ！",
+			"アタシが勝ったら\r\n何をおねだりしようかしら♪"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "363",
+		"jp_patterns": [
+			"悪い子にはおしおきよ！",
+			"悪い子にプレゼントは\r\nあげられないわねぇ。",
+			"プレゼントはおあずけよ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "364",
+		"jp_patterns": [
+			"いい子にはプレゼントよ！",
+			"勝利をプレゼントしてあげる♪",
+			"ブルージーサンタは\r\nよい子の味方よ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "365",
+		"jp_patterns": [
+			"もう、キスしてあげたい！",
+			"アタシに花を持たせてくれたの？\r\n優しいのね。もう、大好き！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "366",
+		"jp_patterns": [
+			"サンタさんから\r\n特別なプレゼント……あ・げ・る！",
+			"あぁ～ん、負けちゃったぁ。\r\n勝利のごほうびは……ア・タ・シ♪"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "367",
+		"jp_patterns": [
+			"あぁん……気持ちよかったぁ……",
+			"ふたりとも気持ちよくなれるって\r\nサイコーよねぇ♪"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "371",
+		"jp_patterns": [
+			"あけましておめでとうツナーっ！！",
+			"ハッピーニューツナー！！",
+			"新しい年、めでたいツナっ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "372",
+		"jp_patterns": [
+			"初日の出と一緒に\r\nがんばるツナっ！！",
+			"新年の運試しツナっ！",
+			"ニューイヤー中トロ号！\r\nいくツナっ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "373",
+		"jp_patterns": [
+			"今年は春から縁起がいいツナ！",
+			"さっすが中トロ号ツナ！",
+			"今年は大吉ツナー！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "374",
+		"jp_patterns": [
+			"や、やり直したいツナ……",
+			"中トロ号！\r\nなんとかするツナっ！",
+			"大凶ツナっ！？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "375",
+		"jp_patterns": [
+			"こいつは新年から景気がいいツナ！",
+			"お年玉はいただいたツナっ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "376",
+		"jp_patterns": [
+			"マグロ大明神に\r\nお参りするツナよーっ！！",
+			"厄払いに行くツナっ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "377",
+		"jp_patterns": [
+			"まあまあツナ。",
+			"中吉ツナツナ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "381",
+		"jp_patterns": [
+			"ほぅ……興味深いな。",
+			"私が相手をしてやろう。",
+			"心して来るがいい。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "382",
+		"jp_patterns": [
+			"ただ、己が信じる道を歩むのみ！",
+			"遊びだろうと\r\n真剣勝負に変わりはない！",
+			"我が一投に魂を込める！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "383",
+		"jp_patterns": [
+			"よかろう。\r\nさあ、どうする？",
+			"フフ……\r\n勝利の道筋は見えた。",
+			"運も実力のうちだ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "384",
+		"jp_patterns": [
+			"なんだと！？",
+			"くっ……厳しいな。",
+			"失投とは情けない！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "385",
+		"jp_patterns": [
+			"当然の結果だ。",
+			"勝利は己で引き寄せるものだ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "386",
+		"jp_patterns": [
+			"敗戦の言い訳など見苦しいだけだ。",
+			"これで勝ったと思うなよ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "387",
+		"jp_patterns": [
+			"ふふっ……楽しませてくれる。",
+			"さぁ、もう一戦だ！\r\n次こそ白黒つけるぞ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "391",
+		"jp_patterns": [
+			"わが名はモタブの預言書。\r\nどれ……われが相手をしよう。",
+			"チョコを賭けて\r\nひと勝負といくぞ。",
+			"この衣装か？\r\nバレンタインというやつだ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "392",
+		"jp_patterns": [
+			"想いよ……未来へ届け！",
+			"チョコの行方は\r\nこのダイスに委ねるとしよう。",
+			"ダイスよ……\r\nわれが望む未来を見せよ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "393",
+		"jp_patterns": [
+			"未来はもう見えている。",
+			"結末は決まっておるよ。",
+			"ぬしの手で、未来を変えてみせよ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "394",
+		"jp_patterns": [
+			"ぬしの未来を見定めるとしよう。",
+			"勝負の行方、すなわち\r\nチョコの行方でもあるな……",
+			"われらのバレンタインの行く末は……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "395",
+		"jp_patterns": [
+			"良き未来であったようだな。",
+			"勝者たるわれの望みに従ってもらうぞ。\r\n……チョコだ。受け取るがいい。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "396",
+		"jp_patterns": [
+			"未来はひとつにあらず。\r\nさあ、チョコを受け取るがいい。",
+			"これもまた、われが望んだ未来……\r\nでは、ぬしにチョコを授けよう。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "397",
+		"jp_patterns": [
+			"ほう……\r\nこんな未来もあったか。",
+			"せっかくだ、もっと楽しまねばな。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "401",
+		"jp_patterns": [
+			"たまにはカッコつけないと。",
+			"ホワイトデーだから……\r\nたまにはね。",
+			"どしたの？\r\n俺に惚れ直した？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "402",
+		"jp_patterns": [
+			"さて……ひと仕事といきますか。",
+			"俺が勝ったら、ひとつ\r\nお願いを聞いてもらおうかな。",
+			"勝者にはご褒美がないと\r\nおもしろくないよね？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "403",
+		"jp_patterns": [
+			"悪いね……\r\n勝ちはいただくよ。",
+			"リーダーに\r\nなにをねだろうかな。",
+			"衣装の気合は\r\n伊達じゃない……でしょ？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "404",
+		"jp_patterns": [
+			"えっと……\r\nまずいな……",
+			"リーダーが強運なのか\r\n俺が不運なのか……",
+			"今回だけは\r\n勝ちたいんだけどな……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "405",
+		"jp_patterns": [
+			"ほらよ。\r\n勝者へのご褒美だ。",
+			"これが俺の願いごと。\r\n黙って受け取ってよね。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "406",
+		"jp_patterns": [
+			"これで終わり？\r\nもうひと勝負しない？",
+			"もう少しリーダーを\r\nひとり占めしたい……なんてね。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "407",
+		"jp_patterns": [
+			"ふぅん……いいね。",
+			"もう少し遊べるってことだよね。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "411",
+		"jp_patterns": [
+			"セイガーソード\r\nただいま見参！",
+			"平和的な勝負は大歓迎だ！\r\nともに楽しもう！",
+			"勝負とあらば\r\n全力で行くぞ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "412",
+		"jp_patterns": [
+			"燃えろ、セイガー！\r\nいざ勝負！",
+			"燃えろ、セイガー！\r\nこの手に勝利を！",
+			"これがセイガーの戦いだ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "413",
+		"jp_patterns": [
+			"あきらめるな！\r\nキミの勝ち筋はまだある！",
+			"さぁ、キミの番だ。\r\nあきらめない限り\r\n道は開ける！",
+			"勝負はまだついていないぞ。\r\nさぁ来い！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "414",
+		"jp_patterns": [
+			"なにっ！\r\nこれが天の采配か……",
+			"ピンチだな……\r\nだが、逆境には負けない！",
+			"なにっ！\r\nピンチには慣れているが……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "415",
+		"jp_patterns": [
+			"今日も平和を守ることができた！",
+			"宇宙の平和は俺たちが守る！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "416",
+		"jp_patterns": [
+			"ありがとう！　いい勝負だった！\r\n俺と握手だ！",
+			"さすがはリーダーだな！\r\n俺と握手だ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "417",
+		"jp_patterns": [
+			"俺たちの戦いは\r\n始まったばかりだっ！！",
+			"キミの力はそんなものじゃないはずだ！\r\nさぁ！　もう一回だ！！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "421",
+		"jp_patterns": [
+			"わたしがセイガージャベリンだよ。\r\nよろしくね！",
+			"みんなのアイドル\r\nセイガージャベリンがお相手するよ！",
+			"短い時間だけど\r\nいっぱい楽しんでね！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "422",
+		"jp_patterns": [
+			"歌え、セイガー！\r\n勝利をこの手に！",
+			"楽しい時間の\r\nはじまりだよっ！",
+			"いつだって\r\n真剣勝負！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "423",
+		"jp_patterns": [
+			"あなたは弱くない。\r\nただ、わたしが強いだけ。",
+			"うつむいてちゃダメダメ！\r\n運気が逃げちゃうよ？",
+			"あきらめないで。\r\nあなたならできるよ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "424",
+		"jp_patterns": [
+			"なにするんですかぁ！\r\n手元が狂っちゃいました……",
+			"優しくしてほしいです……",
+			"意地悪しないでくださいね？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "425",
+		"jp_patterns": [
+			"宇宙に広がれ\r\nわたしの笑顔！！",
+			"愛と希望の勝利です！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "426",
+		"jp_patterns": [
+			"わたしたちは\r\n戦うことしかできない……",
+			"戦いは勝ち負けという\r\n悲しみを生むんだね……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "427",
+		"jp_patterns": [
+			"もうひと勝負だね。\r\n……ちょっと\r\nがんばってみようかな。",
+			"やっぱり勝ちたいし\r\nがんばっちゃおうかな！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "431",
+		"jp_patterns": [
+			"【フォルニス】\r\n　フォルニスフィジスです。\r\n　こんな恰好ですが……",
+			"【ジス】もちろん、俺たちも！\r\n【フィジ】いますよ！",
+			"【フォルニス】\r\n　に、似合いますか……？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "432",
+		"jp_patterns": [
+			"【フォルニス】\r\n　あ、あんまり見ないでください……",
+			"【フォルニス】\r\n　そんなに見られたら\r\n　手元が狂っちゃいます……",
+			"【ジス】\r\n　フォルニスの動揺を誘う作戦か？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "433",
+		"jp_patterns": [
+			"【ジス】\r\n　やったな、フォルニス！",
+			"【フィジ】\r\n　このまま勝利を\r\n　いただきましょう！",
+			"【フォルニス】\r\n　これなら勝てそう……！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "434",
+		"jp_patterns": [
+			"【フォルニス】\r\n　リーダーにお願いが……\r\n　いえ、やっぱりなんでもありません。",
+			"【ジス】\r\n　フォルニスの晴れ姿に\r\n　花を持たせてやってくれよ。",
+			"【フィジ】\r\n　でも、勝負は正々堂々と、よね。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "435",
+		"jp_patterns": [
+			"【ジス】\r\n　フォルニスの幸せは\r\n　オレたちが守る！",
+			"【フィジ】\r\n　うふふ、ごめんあそばせ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "436",
+		"jp_patterns": [
+			"【フォルニス】\r\n　やっぱりドレスは\r\n　動きづらいですね……",
+			"【ジス】\r\n　ドレスじゃなければ\r\n　勝ててたかもな。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "437",
+		"jp_patterns": [
+			"【フォルニス】\r\n　えっ……？\r\n　引き分けなんてこともあるんですね。",
+			"【フィジ】\r\n　あら、仲よく\r\n　引き分けですね。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "441",
+		"jp_patterns": [
+			"星の呼び声に応え\r\nエルデトロス\r\nここに推参！！",
+			"この衣装か？\r\n彦星なのだそうだ。\r\nくわしいことはわからぬ。",
+			"我の織姫を探しているのだが……\r\n面妖な場所に来てしまったな。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "442",
+		"jp_patterns": [
+			"いざっ！！",
+			"慣れぬ恰好でも\r\n負けはせぬぞ！",
+			"勝敗を賽に委ねる\r\nそれもまた一興よ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "443",
+		"jp_patterns": [
+			"ふははははははっ！！",
+			"星の導きは\r\n我を勝利へといざなうようだ！",
+			"七夕の加護は\r\n我にあり！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "444",
+		"jp_patterns": [
+			"これがアークスのやり方か……",
+			"仕事を放棄した彦星に\r\n天が味方するはずも\r\nなかったな……",
+			"この恰好では\r\n調子が狂うな……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "445",
+		"jp_patterns": [
+			"勝利を祝え！\r\n雄叫びを上げろ！\r\nさぁ、宴に向かおうぞ！！",
+			"さぁ、勝利の乾杯といこう！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "446",
+		"jp_patterns": [
+			"我、彦星からの贈り物ぞ！\r\n勝利を受け取るがいい！",
+			"彦星からの感謝である！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "447",
+		"jp_patterns": [
+			"面白い！\r\nまさに面白い！！",
+			"決着がつくまで\r\n勝負しようではないか！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "451",
+		"jp_patterns": [
+			"ヤスミノコフ８０００Ｃであります！\r\nこ、これは、訓練用の\r\n特殊兵装なのであるます！",
+			"実力不足ゆえの特殊兵装ですので……\r\nあんまり見ないでほしいであります。",
+			"この兵装を身につけると\r\nなんだか楽しい気分になります。\r\nハッピーサマーであります！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "452",
+		"jp_patterns": [
+			"ヤスミノコフ８０００Ｃ\r\n先攻するであります！",
+			"お先に失礼するであります。\r\nてやっ！",
+			"ヤスミノコフ８０００Ｃ\r\nレジャー任務に出動であります！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "453",
+		"jp_patterns": [
+			"この兵装の私は身軽ですよ！",
+			"この兵装ですから\r\nダイスを振るのも\r\n軽やかになるであります！",
+			"兵士たるもの\r\n装備を生かせなくてはダメであります！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "454",
+		"jp_patterns": [
+			"海で水着だからって\r\n浮かれたりしません！\r\nう、浮かれてなんて……あぅ。",
+			"気合を入れ直すであります……\r\nサーイエッサーで\r\nアイアイサーであります！",
+			"うぅ……こんなところで\r\n敗北するわけには……\r\n先輩たちに、申し訳ないであります。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "455",
+		"jp_patterns": [
+			"兵士たるもの\r\nどんな装備であろうと\r\n戦えるであります！",
+			"これがヤスミノコフ合同訓練の\r\n成果であるます！\r\n……ま、また噛んじゃいましたぁ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "456",
+		"jp_patterns": [
+			"あやっ！？\r\n私に隙がありましたか？",
+			"まだまだ修行が足りないんですね……\r\n先輩に特訓をお願いするであります！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "457",
+		"jp_patterns": [
+			"あや？\r\n決着がつきませんねぇ……",
+			"引き分けなんて、認めないであります！\r\nもう一度、勝負であります！！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "461",
+		"jp_patterns": [
+			"えへへっ！\r\nアフタル、水着で登場だよ！\r\nじゃじゃーんっ！",
+			"水着、着てみたんだけど……\r\nどうかな？　似合ってるかな！？",
+			"水着で気合、入れてきたよ！\r\nリーダーになんて、負けないからね！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "462",
+		"jp_patterns": [
+			"水着パワーでがんばるからね！",
+			"水着パワー……解放！",
+			"リーダーが見とれてる隙に……\r\nえいっ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "463",
+		"jp_patterns": [
+			"今日のわたしは\r\nひと味違うんだから！",
+			"これが水着のパワーだよ！\r\nわたしだって、すごいんだから！",
+			"す、すごい……\r\n水着パワーってホントにあるんだ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "464",
+		"jp_patterns": [
+			"はぎゃっ！\r\n転んじゃった……",
+			"ねぇねぇ、もう１回！\r\nもう１回振らせて！",
+			"はぎゃっ！\r\n今のナシ！　ナシだってば！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "465",
+		"jp_patterns": [
+			"えへへ……うれしいなぁ！！",
+			"へっへーん！　勝っちゃったよ！\r\nどう？　すごい！？"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "466",
+		"jp_patterns": [
+			"うぅ……リーダー強すぎるよぉ……\r\nなんだか熱暴走しそう……",
+			"負けちゃったぁ。\r\nでも、楽しかった！\r\nバイバーイ！！　また遊んでね！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "467",
+		"jp_patterns": [
+			"あははっ、引き分けだね！\r\nよーし、もう１戦！",
+			"リーダー、気が合うね！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "471",
+		"jp_patterns": [
+			"なにを見ている……\r\n私がこういう姿をしているのは……\r\nおかしいか？",
+			"水着を着るのも千年ぶりほどだが……\r\nどうにも、心もとないな。",
+			"上着を着ると暑いのだが\r\n着ないと陽射しが肌に痛くてな……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "472",
+		"jp_patterns": [
+			"仕方ない、このまま出撃する！\r\n勝負の手は抜かないから、安心しろ！",
+			"場にそぐわぬ服装だが……ゆくぞ！",
+			"フッ……慣れぬ服装も\r\nハンデとしてちょうどいいだろう。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "473",
+		"jp_patterns": [
+			"戦闘形態になるまでもないな……\r\nこの姿でも十分だ。",
+			"慣れぬ服装で\r\nペースを乱すと思ったか？\r\n残念だったな。",
+			"これが私とお前との……実力の差だ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "474",
+		"jp_patterns": [
+			"いつもの服でないと……\r\nなにか心もとないな。",
+			"平静を保てぬとは\r\n私もまだまだ未熟……！",
+			"水着を着せられた時から\r\n術中にはまっていたのか……？\r\nこれは、アークスの陰謀か！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "475",
+		"jp_patterns": [
+			"ふぅ……アークスの水着も\r\nけっこう動きやすいものだな。",
+			"軽装には軽装なりの戦い方がある。\r\nうまくいったようだな。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "476",
+		"jp_patterns": [
+			"ちょっと待て。\r\n……やはり着替えてくる。\r\n万全の態勢で再戦だ！",
+			"対等な勝負と言うのなら\r\nお前も水着に着替えてこい！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "477",
+		"jp_patterns": [
+			"ふぅん……面白いな。\r\nもう一度、勝負といこう。",
+			"もう１回だな？\r\n望むところだ。決着をつけるぞ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "481",
+		"jp_patterns": [
+			"よぉ、また会ったな。\r\nオマエも一杯どうだ？",
+			"一杯やりながら\r\nひと勝負、ってな。",
+			"俺だよ、アギトだ。\r\nそんなにいつもと違うか？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "482",
+		"jp_patterns": [
+			"勝負とあっちゃ\r\n手加減できないぜ。",
+			"勝負には褒美が必要だろ。\r\n負けたほうが一杯おごる……どうだ？",
+			"俺が勝ったら\r\n一杯、おごってもらうぜ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "483",
+		"jp_patterns": [
+			"勝利の美酒に添えるつまみは\r\nアンタの敗北さ。",
+			"勝負を肴に一杯……\r\nなかなか悪くねぇな。",
+			"ふふ、その苦り切った表情……\r\nいいつまみになるぜ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "484",
+		"jp_patterns": [
+			"今日は酔ってるからな……\r\n手元が狂ったようだ。",
+			"まだ、酔ってないつもり\r\nだったんだが……",
+			"俺としたことが\r\n酒に呑まれちまったか……？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "485",
+		"jp_patterns": [
+			"さて、一杯、おごってもらおうか。",
+			"ふふ、今日の酒は格別に美味い。\r\nおごりとなれば尚更、な。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "486",
+		"jp_patterns": [
+			"たまには、酒でも呑んで忘れたいと\r\n思う日もあるってことさ。",
+			"ああ、敗北なんて\r\n呑んで忘れちまうに限る。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "487",
+		"jp_patterns": [
+			"引き分けたぁ、白けるぜ。\r\nいい気分だってのによぉ……\r\nさっさと終わらせるぞ。",
+			"チッ……興が冷めるぜ。\r\nさっさと白黒つけちまうぞ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "491",
+		"jp_patterns": [
+			"あ、どもども、こんにちわー。\r\nみたらしでーす。",
+			"あ、どもども、こんにちわー。\r\nみたらしでーす。",
+			"あ、どもども、こんにちわー。\r\nみたらしでーす。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "492",
+		"jp_patterns": [
+			"張り切っていこーぜ！",
+			"張り切っていこーぜ！",
+			"張り切っていこーぜ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "493",
+		"jp_patterns": [
+			"ふふふ……\r\n我ながら隙のない装備\r\n今日の私はひと味違うぜ！",
+			"ふふふ……\r\n我ながら隙のない装備\r\n今日の私はひと味違うぜ！",
+			"ふふふ……\r\n我ながら隙のない装備\r\n今日の私はひと味違うぜ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "494",
+		"jp_patterns": [
+			"私よりよい武器つけてるやんけ！",
+			"私よりよい武器つけてるやんけ！",
+			"私よりよい武器つけてるやんけ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "495",
+		"jp_patterns": [
+			"勝利の記念に\r\nいちゃいちゃスクショ撮って\r\nＳＮＳにあげて遊ぼうぜ。",
+			"勝利の記念に\r\nいちゃいちゃスクショ撮って\r\nＳＮＳにあげて遊ぼうぜ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "496",
+		"jp_patterns": [
+			"もう４日家から出てない。\r\nそしてしばらく出ない。\r\n勝つまでやるぞ！",
+			"もう４日家から出てない。\r\nそしてしばらく出ない。\r\n勝つまでやるぞ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "497",
+		"jp_patterns": [
+			"んはー、楽してレベル上げてえ。\r\nあ、再戦する？",
+			"んはー、楽してレベル上げてえ。\r\nあ、再戦する？"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "501",
+		"jp_patterns": [
+			"テトラです\r\nよろしくおねがいします！",
+			"テトラです\r\nよろしくおねがいします！",
+			"テトラです\r\nよろしくおねがいします！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "502",
+		"jp_patterns": [
+			"いきます！",
+			"いきます！",
+			"いきます！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "503",
+		"jp_patterns": [
+			"いい感じですね！",
+			"いい感じですね！",
+			"いい感じですね！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "504",
+		"jp_patterns": [
+			"緊張しちゃうかも。",
+			"緊張しちゃうかも。",
+			"緊張しちゃうかも。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "505",
+		"jp_patterns": [
+			"うれしいです！",
+			"うれしいです！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "506",
+		"jp_patterns": [
+			"おめでとうございます。",
+			"おめでとうございます。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "507",
+		"jp_patterns": [
+			"楽しんでますか？",
+			"楽しんでますか？"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "511",
+		"jp_patterns": [
+			"おーっす。\r\n俺は§イチカ§だ。\r\nよろしくな。",
+			"おーっす。\r\n俺は§イチカ§だ。\r\nよろしくな。",
+			"おーっす。\r\n俺は§イチカ§だ。\r\nよろしくな。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "512",
+		"jp_patterns": [
+			"準備は出来たな？\r\n行くぜ！",
+			"準備は出来たな？\r\n行くぜ！",
+			"準備は出来たな？\r\n行くぜ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "513",
+		"jp_patterns": [
+			"俺の敵ではない！",
+			"俺の敵ではない！",
+			"俺の敵ではない！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "514",
+		"jp_patterns": [
+			"まあまあだなー。",
+			"まあまあだなー。",
+			"まあまあだなー。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "515",
+		"jp_patterns": [
+			"ふん、他愛のない。",
+			"ふん、他愛のない。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "516",
+		"jp_patterns": [
+			"おつかれー。",
+			"おつかれー。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "517",
+		"jp_patterns": [
+			"お前もなかなかやるな！",
+			"お前もなかなかやるな！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "521",
+		"jp_patterns": [
+			"なぁ、リーダー！\r\nいっしょに遊ぼうってば！！",
+			"リーダー！\r\nダイスでバトルだ！",
+			"リーダー、よろしくなっ！\r\nオレの強さ、見せてやるぜ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "522",
+		"jp_patterns": [
+			"よーし、やってやるってばーっ！",
+			"行けーっ！\r\nオレのダイス！",
+			"いっくぜー！\r\nいざジンジョーに、勝負！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "523",
+		"jp_patterns": [
+			"へへっ、どうだっ！",
+			"やった！\r\nいいぞいいぞ！",
+			"いっえーい！\r\nこのまま勝たせてもらうってば！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "524",
+		"jp_patterns": [
+			"げげっ！\r\n負けちゃう！！",
+			"うわーっ！\r\nズルいってば！",
+			"うええ……？\r\n手加減してくれよー。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "525",
+		"jp_patterns": [
+			"よっしゃー！\r\nオレの勝ちだな。",
+			"やったぞ！\r\nへへへ、どうだーっ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "526",
+		"jp_patterns": [
+			"つ、強すぎるって！",
+			"そんなぁ……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "527",
+		"jp_patterns": [
+			"もう一回だってば！",
+			"なんだってば？\r\n引き分けかよー！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "531",
+		"jp_patterns": [
+			"えへへ、リーダー！\r\nわたしと対戦ですよ！",
+			"立派なアークスになるために\r\nがんばります！",
+			"リーダー！\r\nがんばりましょう！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "532",
+		"jp_patterns": [
+			"それでは……行きます！",
+			"これですっ！",
+			"いい目が出ますように！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "533",
+		"jp_patterns": [
+			"わあーっ！\r\nどうですか、リーダー！",
+			"これなら勝てるかも！",
+			"負けませんよ！\r\n勝たせていただきます！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "534",
+		"jp_patterns": [
+			"ああっ、負けちゃいます……！",
+			"リーダーなら、きっと……",
+			"えぇっ！？　\r\nそんなぁ……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "535",
+		"jp_patterns": [
+			"やりましたぁ！",
+			"えへへっ！　嬉しいです！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "536",
+		"jp_patterns": [
+			"リーダー、さすがです！",
+			"おめでとうございます！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "537",
+		"jp_patterns": [
+			"ふぅ……引き分けですね。",
+			"うーん……\r\n引き分けですか……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "541",
+		"jp_patterns": [
+			"私の番ね。よろしく……",
+			"たまには息抜きも必要\r\n……ってことかしら。",
+			"……非合理的なゲームよね。\r\n別に、いいけど……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "542",
+		"jp_patterns": [
+			"勝負よ……行きましょう。",
+			"勝っても負けても恨みっこなし……",
+			"どうなるかしら……楽しみね。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "543",
+		"jp_patterns": [
+			"いい結果ね……",
+			"ちょっと、出来過ぎかしら。",
+			"悪くないわね……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "544",
+		"jp_patterns": [
+			"……っ！　待って！",
+			"どうして、こんな……",
+			"結果は見えてるわ……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "545",
+		"jp_patterns": [
+			"……当然の結果ね。",
+			"今回は、幸運だったわ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "546",
+		"jp_patterns": [
+			"さすがね……\r\n貴方には、敵わないわ。",
+			"負けたわ……\r\nさすがはリーダーね。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "547",
+		"jp_patterns": [
+			"引き分け……\r\nもう一回……ね。",
+			"まさか……引き分けるなんて。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "551",
+		"jp_patterns": [
+			"さっすがリーダー！\r\nここまでくるとはねー。",
+			"俺のところまでくるとはねー。\r\nんじゃ、行きますか！",
+			"まさか、俺に勝てるなんて\r\n思ってないよね、リーダー！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "552",
+		"jp_patterns": [
+			"手加減しないぜ？",
+			"うらっ！\r\nこれでどうだっ！",
+			"さーて、どっちの運が強いかな？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "553",
+		"jp_patterns": [
+			"ざっと、こんなものかな！",
+			"本気出していいんだぜ。",
+			"いけるぜっ！\r\n悪いな、リーダー。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "554",
+		"jp_patterns": [
+			"まぁ、楽しみはこれから……さ。",
+			"まだまだ勝負はわかんないよー。",
+			"しゃーないね。\r\nいいから、ダイスを振りなよ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "555",
+		"jp_patterns": [
+			"どうだいっ！\r\nこれが実力の差ってやつ？",
+			"ごめんね、リーダー。\r\n今回は俺の勝ちみたいだね。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "556",
+		"jp_patterns": [
+			"さっすがぁ！\r\nリーダーには敵わないねぇ！",
+			"やったねえ！\r\nさすがリーダー！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "557",
+		"jp_patterns": [
+			"おやぁ？\r\n引き分けみたいだねー。",
+			"さて……と。\r\nもうひと勝負といくかい？"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "561",
+		"jp_patterns": [
+			"<%name>さん\r\n私と勝負です！",
+			"私がお相手します！",
+			"こんにちは！\r\n息抜きをするのも大切ですよ？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "562",
+		"jp_patterns": [
+			"この勝負……負けませんよ！",
+			"手加減しません！\r\n本気で行きますからね！",
+			"準備はいいですか？\r\n行きますよ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "563",
+		"jp_patterns": [
+			"なんと！　いい目が出ましたね！",
+			"ふふふ、ラッキーです！",
+			"これなら……勝てるかも！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "564",
+		"jp_patterns": [
+			"あれ？　ランチャーはどこに……",
+			"き……緊急事態です！",
+			"どうしましょうか……\r\nこれだと、負けてしまうかも……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "565",
+		"jp_patterns": [
+			"やりました！\r\nこれが管理官の実力です！",
+			"うふふ……\r\nありがとうございます！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "566",
+		"jp_patterns": [
+			"さすがです。\r\n手も足も出ませんでした……",
+			"素晴らしいですね！\r\nさすがはリーダー、完敗です！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "567",
+		"jp_patterns": [
+			"あらっ？\r\n引き分けですね……",
+			"リーダーが良ければ\r\nもう一度やりませんか？"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "571",
+		"jp_patterns": [
+			"∈ ・ω・)",
+			"∈ ・ω・)/",
+			"∈ ・ω・)ﾉ"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "572",
+		"jp_patterns": [
+			"∈ ・ω・)ノ　□",
+			"∈ ・ω・)ノ　◇",
+			"∈ｎ・ω・)ｎ　◇"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "573",
+		"jp_patterns": [
+			"∈*・ω・*)",
+			"∈ ・ω・) ♪",
+			"∈ ・ω・) ☆"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "574",
+		"jp_patterns": [
+			"∈ ・ω・)",
+			" |ω・)…",
+			"∈ ・ω・)…"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "575",
+		"jp_patterns": [
+			"∈*・ω・*)ｖ",
+			"∈ｖ・ω・)ｖ♪"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "576",
+		"jp_patterns": [
+			"∈ ；ω；)",
+			"(・ω・ ∋"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "577",
+		"jp_patterns": [
+			"∈ ・ω・)ﾉ☆",
+			"∈ ・ω・)つ□"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "581",
+		"jp_patterns": [
+			"トリック・オア・トリート……\r\nお菓子といたずら……\r\nどっちがよいですか？",
+			"トリック・オア・トリート……\r\nこの衣装は……\r\nハロウィンの正装と聞きました。",
+			"トリック・オア・トリート……\r\nこのネメシスデュアルが\r\nお相手します。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "582",
+		"jp_patterns": [
+			"いざ、参りましょう。\r\nトリートを求めて……",
+			"私が勝ったら\r\nトリートをいただきます。",
+			"いざ、参りましょう。\r\nハロウィンの運試しです。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "583",
+		"jp_patterns": [
+			"なんだか楽しい気分になってきました。",
+			"この衣装には\r\nハロウィンの加護が\r\nあるのかもしれません。",
+			"なんだか楽しいです……\r\nそちは、どうですか？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "584",
+		"jp_patterns": [
+			"そういうこと……ですか。\r\nハロウィンの悪魔の\r\nイタズラのようですね。",
+			"ハロウィンのトリック……？\r\n一筋縄ではいかないようですね。",
+			"これがハロウィンの洗礼……\r\nトリートへの道は\r\n険しいということですね……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "585",
+		"jp_patterns": [
+			"ハッピーハロウィン……\r\nすべての命が、愛というトリートで\r\n満たされますように……",
+			"ハッピーハロウィン……\r\n皆に笑顔が広がる\r\n素晴らしき日ですね。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "586",
+		"jp_patterns": [
+			"お菓子かイタズラか……\r\nそちはどっちがお好みか？",
+			"トリックでもトリートでも\r\n好きに選んでください。\r\n勝者の権利です……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "587",
+		"jp_patterns": [
+			"ハロウィンとは楽しいものですね。\r\nつい、はしゃいでしまいました。",
+			"もう１戦ですね。\r\nふふ……ハロウィンは\r\nまだ終わらせません。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "591",
+		"jp_patterns": [
+			"はじめまして、ぼくはユリシス。\r\nみんなからは\r\nユリィと呼ばれてるよ。",
+			"はじめまして、ぼくはユリシス。\r\nみんなからは\r\nユリィと呼ばれてるよ。",
+			"はじめまして、ぼくはユリシス。\r\nみんなからは\r\nユリィと呼ばれてるよ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "592",
+		"jp_patterns": [
+			"いくよっ、準備はいい？",
+			"いくよっ、準備はいい？",
+			"いくよっ、準備はいい？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "593",
+		"jp_patterns": [
+			"強くなるって\r\nこういうことなのかな。",
+			"強くなるって\r\nこういうことなのかな。",
+			"強くなるって\r\nこういうことなのかな。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "594",
+		"jp_patterns": [
+			"まだまだ、これからだ！",
+			"まだまだ、これからだ！",
+			"まだまだ、これからだ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "595",
+		"jp_patterns": [
+			"みんなの力のおかげで\r\n勝てたんだよ！",
+			"みんなの力のおかげで\r\n勝てたんだよ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "596",
+		"jp_patterns": [
+			"今回は負けてしまったけど\r\n次戦う時はきっと\r\nもっと、もっと輝けるっ！",
+			"今回は負けてしまったけど\r\n次戦う時はきっと\r\nもっと、もっと輝けるっ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "597",
+		"jp_patterns": [
+			"きみと一緒なら、どこまでも\r\n行けそうな気がする！\r\nさぁ、もう１戦だ！",
+			"きみと一緒なら、どこまでも\r\n行けそうな気がする！\r\nさぁ、もう１戦だ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "601",
+		"jp_patterns": [
+			"はじめまして。\r\n私は白羊騎士団の当主\r\nステラマリーです。",
+			"はじめまして。\r\n私は白羊騎士団の当主\r\nステラマリーです。",
+			"はじめまして。\r\n私は白羊騎士団の当主\r\nステラマリーです。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "602",
+		"jp_patterns": [
+			"真剣勝負です……\r\n騎士団の当主、今ここに！",
+			"真剣勝負です……\r\n騎士団の当主、今ここに！",
+			"真剣勝負です……\r\n騎士団の当主、今ここに！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "603",
+		"jp_patterns": [
+			"これなら、勝てそうです。\r\n届け、この想い！",
+			"これなら、勝てそうです。\r\n届け、この想い！",
+			"これなら、勝てそうです。\r\n届け、この想い！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "604",
+		"jp_patterns": [
+			"勝機はまだあるはず……\r\n祈りを、重ねます。",
+			"勝機はまだあるはず……\r\n祈りを、重ねます。",
+			"勝機はまだあるはず……\r\n祈りを、重ねます。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "605",
+		"jp_patterns": [
+			"やった、勝ちました！\r\nありがとうございました！",
+			"やった、勝ちました！\r\nありがとうございました！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "606",
+		"jp_patterns": [
+			"負けました……\r\nでも、まだ私\r\nこれで終わりではありません。",
+			"負けました……\r\nでも、まだ私\r\nこれで終わりではありません。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "607",
+		"jp_patterns": [
+			"もう１回ですね。\r\nふふっ、たくさん戦ってくれて\r\nありがとうございます。",
+			"もう１回ですね。\r\nふふっ、たくさん戦ってくれて\r\nありがとうございます。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "608",
+		"jp_patterns": [
+			"-"
+		],
+		"tr_patterns": [
+			""
+		]
+	},
+	{
+		"assign": "609",
+		"jp_patterns": [
+			"-"
+		],
+		"tr_patterns": [
+			""
+		]
+	},
+	{
+		"assign": "611",
+		"jp_patterns": [
+			"我が名はローザリンデ。\r\n正統レオリア帝国\r\n皇帝ジークムンドが次女である。",
+			"我が名はローザリンデ。\r\n正統レオリア帝国\r\n皇帝ジークムンドが次女である。",
+			"我が名はローザリンデ。\r\n正統レオリア帝国\r\n皇帝ジークムンドが次女である。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "612",
+		"jp_patterns": [
+			"いざ、参る！",
+			"いざ、参る！",
+			"いざ、参る！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "613",
+		"jp_patterns": [
+			"帝国の威信をいまここに！",
+			"帝国の威信をいまここに！",
+			"帝国の威信をいまここに！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "614",
+		"jp_patterns": [
+			"これしきっ！\r\n逆転してみせる！",
+			"これしきっ！\r\n逆転してみせる！",
+			"これしきっ！\r\n逆転してみせる！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "615",
+		"jp_patterns": [
+			"勝利の栄光は我らの手に！",
+			"勝利の栄光は我らの手に！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "616",
+		"jp_patterns": [
+			"……なんのつもりだ、貴様。\r\n敗者に情けなど不要。",
+			"……なんのつもりだ、貴様。\r\n敗者に情けなど不要。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "617",
+		"jp_patterns": [
+			"さて、勝敗を決めるとしようか。\r\nもう１戦、いくぞ！",
+			"さて、勝敗を決めるとしようか。\r\nもう１戦、いくぞ！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "621",
+		"jp_patterns": [
+			"やあ、ボクはスレイヴフェザー。\r\nダイス勝負で、親睦を\r\n深めようじゃないか。",
+			"やあ、ボクはスレイヴフェザー。\r\nダイス勝負で、親睦を\r\n深めようじゃないか。",
+			"やあ、ボクはスレイヴフェザー。\r\nダイス勝負で、親睦を\r\n深めようじゃないか。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "622",
+		"jp_patterns": [
+			"さて……頭首として\r\n手本を見せないとね。",
+			"さて……頭首として\r\n手本を見せないとね。",
+			"さて……頭首として\r\n手本を見せないとね。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "623",
+		"jp_patterns": [
+			"やぁ、これはありがたい。\r\n天使の加護かな？\r\n……なーんてね。",
+			"やぁ、これはありがたい。\r\n天使の加護かな？\r\n……なーんてね。",
+			"やぁ、これはありがたい。\r\n天使の加護かな？\r\n……なーんてね。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "624",
+		"jp_patterns": [
+			"手が届く範囲でベストなら\r\nそれでいいのさ。",
+			"手が届く範囲でベストなら\r\nそれでいいのさ。",
+			"手が届く範囲でベストなら\r\nそれでいいのさ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "625",
+		"jp_patterns": [
+			"あっはっはっはっ！\r\nやっぱり勝つと気分がいいね。",
+			"あっはっはっはっ！\r\nやっぱり勝つと気分がいいね。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "626",
+		"jp_patterns": [
+			"思い通りにいかなくて当たり前。\r\nだから、いろいろと考えて\r\n策を練るんだ。",
+			"思い通りにいかなくて当たり前。\r\nだから、いろいろと考えて\r\n策を練るんだ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "627",
+		"jp_patterns": [
+			"再戦かい？\r\nあぁ、いいよ。\r\n友達の頼みなら断れないし。",
+			"再戦かい？\r\nあぁ、いいよ。\r\n友達の頼みなら断れないし。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "631",
+		"jp_patterns": [
+			"サンタの相棒、サンタソ・レーだ！\r\n聖夜に夢を届けるぜ！\r\n夜露死苦ぅ！",
+			"サンタの相棒、サンタソ・レーだ！\r\n聖夜に夢を届けるぜ！\r\n夜露死苦ぅ！",
+			"サンタの相棒、サンタソ・レーだ！\r\n聖夜に夢を届けるぜ！\r\n夜露死苦ぅ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "632",
+		"jp_patterns": [
+			"ちんたら遊んでられねぇんだ。\r\nチョッパヤで片付けるぜ！",
+			"ちんたら遊んでられねぇんだ。\r\nチョッパヤで片付けるぜ！",
+			"ちんたら遊んでられねぇんだ。\r\nチョッパヤで片付けるぜ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "633",
+		"jp_patterns": [
+			"メリークリスマス！\r\nそーら、白熱したゲームを\r\nプレゼントだ！",
+			"メリークリスマス！\r\nそーら、白熱したゲームを\r\nプレゼントだ！",
+			"メリークリスマス！\r\nそーら、白熱したゲームを\r\nプレゼントだ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "634",
+		"jp_patterns": [
+			"マジ！？\r\nあーあ、ツイてないぜ……",
+			"マジ！？\r\nあーあ、ツイてないぜ……",
+			"マジ！？\r\nあーあ、ツイてないぜ……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "635",
+		"jp_patterns": [
+			"オレのドラテク、最高だっただろ？\r\nサイコロもハンドルも\r\n似たようなもんだ。",
+			"オレのドラテク、最高だっただろ？\r\nサイコロもハンドルも\r\n似たようなもんだ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "636",
+		"jp_patterns": [
+			"あーもう終わり終わり！\r\nさーて、マイソリの改造でもするか。",
+			"あーもう終わり終わり！\r\nさーて、マイソリの改造でもするか。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "637",
+		"jp_patterns": [
+			"にゃはは！\r\n引き分けだな！",
+			"にゃはは！\r\n引き分けだな！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "641",
+		"jp_patterns": [
+			"あけましておめでとう。\r\n新しい年……新しい想い……\r\n今年もよろしく頼む。",
+			"あけましておめでとう。\r\n新しい年……新しい想い……\r\n今年もよろしく頼む。",
+			"あけましておめでとう。\r\n新しい年……新しい想い……\r\n今年もよろしく頼む。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "642",
+		"jp_patterns": [
+			"ハッピーニューイヤー。\r\n新年の挨拶代わりにひと勝負だ。",
+			"ハッピーニューイヤー。\r\n新年の挨拶代わりにひと勝負だ。",
+			"ハッピーニューイヤー。\r\n新年の挨拶代わりにひと勝負だ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "643",
+		"jp_patterns": [
+			"エビに数の子……縁起物というのか。\r\n早速、おせちを食べたご利益が\r\nあったようだ。",
+			"エビに数の子……縁起物というのか。\r\n早速、おせちを食べたご利益が\r\nあったようだ。",
+			"エビに数の子……縁起物というのか。\r\n早速、おせちを食べたご利益が\r\nあったようだ。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "644",
+		"jp_patterns": [
+			"受け取るがいい。\r\n私からのお年玉だ。\r\n良い目を出すのだぞ？",
+			"受け取るがいい。\r\n私からのお年玉だ。\r\n良い目を出すのだぞ？",
+			"受け取るがいい。\r\n私からのお年玉だ。\r\n良い目を出すのだぞ？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "645",
+		"jp_patterns": [
+			"貴公と遊びに興じ、勝つこともできた。\r\nふふ……いい正月だな。",
+			"貴公と遊びに興じ、勝つこともできた。\r\nふふ……いい正月だな。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "646",
+		"jp_patterns": [
+			"すごい喜びようだな。\r\nふふ……今年も\r\n騒がしい１年になりそうだな。",
+			"すごい喜びようだな。\r\nふふ……今年も\r\n騒がしい１年になりそうだな。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "647",
+		"jp_patterns": [
+			"再戦か……\r\n寝正月にも飽きてきたところだ。\r\nとことん貴公に付き合うぞ！！",
+			"再戦か……\r\n寝正月にも飽きてきたところだ。\r\nとことん貴公に付き合うぞ！！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "651",
+		"jp_patterns": [
+			"俺の名はアギト……\r\nオマエも、俺を否定すんのか……",
+			"俺の名はアギト……\r\nオマエも、俺を否定すんのか……",
+			"俺の名はアギト……\r\nオマエも、俺を否定すんのか……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "652",
+		"jp_patterns": [
+			"賽を振る……\r\nこの瞬間だけが、無心になれる。",
+			"賽を振る……\r\nこの瞬間だけが、無心になれる。",
+			"賽を振る……\r\nこの瞬間だけが、無心になれる。"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "653",
+		"jp_patterns": [
+			"最強なんて興味ねぇ！\r\n俺はオマエを超えるだけだっ！！\r\nこの勝負……俺が勝つ！",
+			"最強なんて興味ねぇ！\r\n俺はオマエを超えるだけだっ！！\r\nこの勝負……俺が勝つ！",
+			"最強なんて興味ねぇ！\r\n俺はオマエを超えるだけだっ！！\r\nこの勝負……俺が勝つ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "654",
+		"jp_patterns": [
+			"まだ決着はついちゃいねぇ。\r\nこの俺を使えるか、その腕で証明しろ！",
+			"まだ決着はついちゃいねぇ。\r\nこの俺を使えるか、その腕で証明しろ！",
+			"まだ決着はついちゃいねぇ。\r\nこの俺を使えるか、その腕で証明しろ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "655",
+		"jp_patterns": [
+			"希望は持たないようにしてきたが……\r\n勝利の美酒は格別だぜ。",
+			"希望は持たないようにしてきたが……\r\n勝利の美酒は格別だぜ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "656",
+		"jp_patterns": [
+			"辛さは慣れる……\r\n悲しみは忘れられる……\r\nこの敗北も、そのうち忘れるさ……",
+			"辛さは慣れる……\r\n悲しみは忘れられる……\r\nこの敗北も、そのうち忘れるさ……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "657",
+		"jp_patterns": [
+			"時間すら俺には味方してくれない。\r\nもうしばらく、この勝負を\r\n繰り返せってことか……",
+			"時間すら俺には味方してくれない。\r\nもうしばらく、この勝負を\r\n繰り返せってことか……"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "661",
+		"jp_patterns": [
+			"えへへ……バレンタイン仮面、参上！\r\nわたしに勝ったら\r\nチョコレートあげるね！",
+			"えへへ……バレンタイン仮面、参上！\r\nわたしに勝ったら\r\nチョコレートあげるね！",
+			"えへへ……バレンタイン仮面、参上！\r\nわたしに勝ったら\r\nチョコレートあげるね！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "662",
+		"jp_patterns": [
+			"ハッピーバレンタイーン！\r\nチョコをかけた\r\n仁義なき戦いだよっ！",
+			"ハッピーバレンタイーン！\r\nチョコをかけた\r\n仁義なき戦いだよっ！",
+			"ハッピーバレンタイーン！\r\nチョコをかけた\r\n仁義なき戦いだよっ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "663",
+		"jp_patterns": [
+			"チョコっておいしいよねぇ……\r\n世界だよねぇ！\r\n宇宙だよねぇ！！",
+			"チョコっておいしいよねぇ……\r\n世界だよねぇ！\r\n宇宙だよねぇ！！",
+			"チョコっておいしいよねぇ……\r\n世界だよねぇ！\r\n宇宙だよねぇ！！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "664",
+		"jp_patterns": [
+			"わたしの好きなヒト？\r\nえ……うーんと……",
+			"わたしの好きなヒト？\r\nえ……うーんと……",
+			"わたしの好きなヒト？\r\nえ……うーんと……"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "665",
+		"jp_patterns": [
+			"これは、付き合ってくれたお礼！\r\nたっくさん持ってきたから\r\nいっぱい食べてね！",
+			"これは、付き合ってくれたお礼！\r\nたっくさん持ってきたから\r\nいっぱい食べてね！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "666",
+		"jp_patterns": [
+			"はい！　チョコあげるね！！\r\n勝ったらあげる約束だもんね。",
+			"はい！　チョコあげるね！！\r\n勝ったらあげる約束だもんね。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "667",
+		"jp_patterns": [
+			"バレンタインって楽しいね。\r\nアークスっていろんなこと\r\n考えるんだね！",
+			"バレンタインって楽しいね。\r\nアークスっていろんなこと\r\n考えるんだね！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "671",
+		"jp_patterns": [
+			"オレだよ、オレ！　クレイモアのモア！\r\nなんだよ、ヘンな顔して。\r\nオレだってわかんなかった？",
+			"オレだよ、オレ！　クレイモアのモア！\r\nなんだよ、ヘンな顔して。\r\nオレだってわかんなかった？",
+			"オレだよ、オレ！　クレイモアのモア！\r\nなんだよ、ヘンな顔して。\r\nオレだってわかんなかった？"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "672",
+		"jp_patterns": [
+			"今日のオレはひと味ちがうぜ！\r\n大人の力、見せてやるってば！",
+			"今日のオレはひと味ちがうぜ！\r\n大人の力、見せてやるってば！",
+			"今日のオレはひと味ちがうぜ！\r\n大人の力、見せてやるってば！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "673",
+		"jp_patterns": [
+			"これが大人のオレの実力だ！\r\nへへへ、でっかいってのは\r\nいい気分だな！",
+			"これが大人のオレの実力だ！\r\nへへへ、でっかいってのは\r\nいい気分だな！",
+			"これが大人のオレの実力だ！\r\nへへへ、でっかいってのは\r\nいい気分だな！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "674",
+		"jp_patterns": [
+			"リーダーたちとおんなじ\r\nおっきさだからな。\r\nかんたんには負けないぞ！",
+			"リーダーたちとおんなじ\r\nおっきさだからな。\r\nかんたんには負けないぞ！",
+			"リーダーたちとおんなじ\r\nおっきさだからな。\r\nかんたんには負けないぞ！"
+		],
+		"tr_patterns": [
+			"",
+			"",
+			""
+		]
+	},
+	{
+		"assign": "675",
+		"jp_patterns": [
+			"オレ、大人になったら\r\nやりたいことがいっぱいあったんだ！\r\nリーダー、つきあってくれよ！！",
+			"オレ、大人になったら\r\nやりたいことがいっぱいあったんだ！\r\nリーダー、つきあってくれよ！！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "676",
+		"jp_patterns": [
+			"あ、あのさ……な、なんでもない！\r\nやっぱ勝負に勝ってから言うぜ。",
+			"あ、あのさ……な、なんでもない！\r\nやっぱ勝負に勝ってから言うぜ。"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	},
+	{
+		"assign": "677",
+		"jp_patterns": [
+			"もう１戦、いこうぜ、リーダー！\r\nオレの戦うところ\r\nもっと見ててくれよな！",
+			"もう１戦、いこうぜ、リーダー！\r\nオレの戦うところ\r\nもっと見ててくれよな！"
+		],
+		"tr_patterns": [
+			"",
+			""
+		]
+	}
+]

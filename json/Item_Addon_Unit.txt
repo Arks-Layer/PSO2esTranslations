@@ -1,0 +1,541 @@
+[
+	{
+		"assign": "5400",
+		"jp_text": "サブ／アドスタミナａ",
+		"tr_text": "Sub/Add Stamina a",
+		"jp_explain": "汎用装備可能なユニット。\nＨＰをわずかに上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts HP +10."
+	},
+	{
+		"assign": "5401",
+		"jp_text": "サブ／アドスタミナｂ",
+		"tr_text": "Sub/Add Stamina b",
+		"jp_explain": "汎用装備可能なユニット。\nＨＰを少し上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts HP +20."
+	},
+	{
+		"assign": "5402",
+		"jp_text": "サブ／アドスタミナｃ",
+		"tr_text": "Sub/Add Stamina c",
+		"jp_explain": "汎用装備可能なユニット。\nＨＰを上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts HP +30."
+	},
+	{
+		"assign": "5403",
+		"jp_text": "サブ／アドスタミナｄ",
+		"tr_text": "Sub/Add Stamina d",
+		"jp_explain": "汎用装備可能なユニット。\nＨＰをかなり上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts HP +40."
+	},
+	{
+		"assign": "5404",
+		"jp_text": "サブ／アドスタミナｅ",
+		"tr_text": "Sub/Add Stamina e",
+		"jp_explain": "汎用装備可能なユニット。\nＨＰを大きく上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts HP +50."
+	},
+	{
+		"assign": "5405",
+		"jp_text": "サブ／アドスピリタａ",
+		"tr_text": "Sub/Add Spirit a",
+		"jp_explain": "汎用装備可能なユニット。\nＰＰをわずかに上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts PP +1."
+	},
+	{
+		"assign": "5406",
+		"jp_text": "サブ／アドスピリタｂ",
+		"tr_text": "Sub/Add Spirita b",
+		"jp_explain": "汎用装備可能なユニット。\nＰＰを少し上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts PP +2."
+	},
+	{
+		"assign": "5407",
+		"jp_text": "サブ／アドスピリタｃ",
+		"tr_text": "Sub/Add Spirita c",
+		"jp_explain": "汎用装備可能なユニット。\nＰＰを上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts PP +3."
+	},
+	{
+		"assign": "5408",
+		"jp_text": "サブ／アドスピリタｄ",
+		"tr_text": "Sub/Add Spirita d",
+		"jp_explain": "汎用装備可能なユニット。\nＰＰをかなり上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts PP +4."
+	},
+	{
+		"assign": "5409",
+		"jp_text": "サブ／アドスピリタｅ",
+		"tr_text": "Sub/Add Spirita e",
+		"jp_explain": "汎用装備可能なユニット。\nＰＰを大きく上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts PP +5."
+	},
+	{
+		"assign": "54010",
+		"jp_text": "サブ／フレイムレジストａ",
+		"tr_text": "Sub/Flame Resist a",
+		"jp_explain": "汎用装備可能なユニット。\n炎属性の耐性をわずかに上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Fire Resistance 4%."
+	},
+	{
+		"assign": "54011",
+		"jp_text": "サブ／フレイムレジストｂ",
+		"tr_text": "Sub/Flame Resist b",
+		"jp_explain": "汎用装備可能なユニット。\n炎属性の耐性を少し上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Fire Resistance 6%."
+	},
+	{
+		"assign": "54012",
+		"jp_text": "サブ／フレイムレジストｃ",
+		"tr_text": "Sub/Flame Resist c",
+		"jp_explain": "汎用装備可能なユニット。\n炎属性の耐性を上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Fire Resistance 8%."
+	},
+	{
+		"assign": "54013",
+		"jp_text": "サブ／アイスレジストａ",
+		"tr_text": "Sub/Ice Resist a",
+		"jp_explain": "汎用装備可能なユニット。\n氷属性の耐性をわずかに上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Ice Resistance 4%."
+	},
+	{
+		"assign": "54014",
+		"jp_text": "サブ／アイスレジストｂ",
+		"tr_text": "Sub/Ice Resist b",
+		"jp_explain": "汎用装備可能なユニット。\n氷属性の耐性を少し上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Ice Resistance 6%."
+	},
+	{
+		"assign": "54015",
+		"jp_text": "サブ／アイスレジストｃ",
+		"tr_text": "Sub/Ice Resist c",
+		"jp_explain": "汎用装備可能なユニット。\n氷属性の耐性を上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Ice Resistance 8%."
+	},
+	{
+		"assign": "54016",
+		"jp_text": "サブ／ボルトレジストａ",
+		"tr_text": "Sub/Bolt Resist a",
+		"jp_explain": "汎用装備可能なユニット。\n雷属性の耐性をわずかに上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Lightning Resistance 4%."
+	},
+	{
+		"assign": "54017",
+		"jp_text": "サブ／ボルトレジストｂ",
+		"tr_text": "Sub/Bolt Resist b",
+		"jp_explain": "汎用装備可能なユニット。\n雷属性の耐性を少し上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Lightning Resistance 6%."
+	},
+	{
+		"assign": "54018",
+		"jp_text": "サブ／ボルトレジストｃ",
+		"tr_text": "Sub/Bolt Resist c",
+		"jp_explain": "汎用装備可能なユニット。\n雷属性の耐性を上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Lightning Resistance 8%."
+	},
+	{
+		"assign": "54019",
+		"jp_text": "サブ／ストームレジストａ",
+		"tr_text": "Sub/Storm Resist a",
+		"jp_explain": "汎用装備可能なユニット。\n風属性の耐性をわずかに上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Wind Resistance 4%."
+	},
+	{
+		"assign": "54020",
+		"jp_text": "サブ／ストームレジストｂ",
+		"tr_text": "Sub/Storm Resist b",
+		"jp_explain": "汎用装備可能なユニット。\n風属性の耐性を少し上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Wind Resistance 6%."
+	},
+	{
+		"assign": "54021",
+		"jp_text": "サブ／ストームレジストｃ",
+		"tr_text": "Sub/Storm Resist c",
+		"jp_explain": "汎用装備可能なユニット。\n風属性の耐性を上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Wind Resistance 8%."
+	},
+	{
+		"assign": "54022",
+		"jp_text": "サブ／ルミナスレジストａ",
+		"tr_text": "Sub/Lumina Resist a",
+		"jp_explain": "汎用装備可能なユニット。\n光属性の耐性をわずかに上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Light Resistance 4%."
+	},
+	{
+		"assign": "54023",
+		"jp_text": "サブ／ルミナスレジストｂ",
+		"tr_text": "Sub/Lumina Resist b",
+		"jp_explain": "汎用装備可能なユニット。\n光属性の耐性を少し上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Light Resistance 6%."
+	},
+	{
+		"assign": "54024",
+		"jp_text": "サブ／ルミナスレジストｃ",
+		"tr_text": "Sub/Lumina Resist c",
+		"jp_explain": "汎用装備可能なユニット。\n光属性の耐性を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54025",
+		"jp_text": "サブ／グルームレジストａ",
+		"tr_text": "Sub/Gloom Resist a",
+		"jp_explain": "汎用装備可能なユニット。\n闇属性の耐性をわずかに上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Dark Resistance 4%."
+	},
+	{
+		"assign": "54026",
+		"jp_text": "サブ／グルームレジストｂ",
+		"tr_text": "Sub/Gloom Resist b",
+		"jp_explain": "汎用装備可能なユニット。\n闇属性の耐性を少し上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Dark Resistance 6%."
+	},
+	{
+		"assign": "54027",
+		"jp_text": "サブ／グルームレジストｃ",
+		"tr_text": "Sub/Gloom Resist c",
+		"jp_explain": "汎用装備可能なユニット。\n闇属性の耐性を上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Dark Resistance 8%."
+	},
+	{
+		"assign": "54028",
+		"jp_text": "サブ／ブロウレジストａ",
+		"tr_text": "Sub/Blow Resist a",
+		"jp_explain": "汎用装備可能なユニット。\n打撃への耐性をわずかに上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Strike Resistance 4%."
+	},
+	{
+		"assign": "54029",
+		"jp_text": "サブ／ブロウレジストｂ",
+		"tr_text": "Sub/Blow Resist b",
+		"jp_explain": "汎用装備可能なユニット。\n打撃への耐性を少し上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Strike Resistance 5%."
+	},
+	{
+		"assign": "54030",
+		"jp_text": "サブ／ブロウレジストｃ",
+		"tr_text": "Sub/Blow Resist c",
+		"jp_explain": "汎用装備可能なユニット。\n打撃への耐性を上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Strike Resistance 6%."
+	},
+	{
+		"assign": "54031",
+		"jp_text": "サブ／ショットレジストａ",
+		"tr_text": "Sub/Shot Resist a",
+		"jp_explain": "汎用装備可能なユニット。\n射撃への耐性をわずかに上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Ranged Resistance 4%."
+	},
+	{
+		"assign": "54032",
+		"jp_text": "サブ／ショットレジストｂ",
+		"tr_text": "Sub/Shot Resist b",
+		"jp_explain": "汎用装備可能なユニット。\n射撃への耐性を少し上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Ranged Resistance 5%."
+	},
+	{
+		"assign": "54033",
+		"jp_text": "サブ／ショットレジストｃ",
+		"tr_text": "Sub/Shot Resist c",
+		"jp_explain": "汎用装備可能なユニット。\n射撃への耐性を上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Ranged Resistance 6%."
+	},
+	{
+		"assign": "54034",
+		"jp_text": "サブ／アドウォールａ",
+		"tr_text": "Sub/Add Wall a",
+		"jp_explain": "汎用装備可能なユニット。\n打撃防御をわずかに上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nMarginally boosts S-DEF."
+	},
+	{
+		"assign": "54035",
+		"jp_text": "サブ／アドウォールｂ",
+		"tr_text": "Sub/Add Wall b",
+		"jp_explain": "汎用装備可能なユニット。\n打撃防御を少し上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nSlightly boosts S-DEF."
+	},
+	{
+		"assign": "54036",
+		"jp_text": "サブ／アドウォールｃ",
+		"tr_text": "Sub/Add Wall c",
+		"jp_explain": "汎用装備可能なユニット。\n打撃防御を上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nModerately Boosts S-DEF."
+	},
+	{
+		"assign": "54037",
+		"jp_text": "サブ／アドリアクトａ",
+		"tr_text": "Sub/Add React a",
+		"jp_explain": "汎用装備可能なユニット。\n射撃防御をわずかに上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nMarginally boosts R-DEF."
+	},
+	{
+		"assign": "54038",
+		"jp_text": "サブ／アドリアクトｂ",
+		"tr_text": "Sub/Add React b",
+		"jp_explain": "汎用装備可能なユニット。\n射撃防御を少し上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nSlightly boosts R-DEF."
+	},
+	{
+		"assign": "54039",
+		"jp_text": "サブ／アドリアクトｃ",
+		"tr_text": "Sub/Add React c",
+		"jp_explain": "汎用装備可能なユニット。\n射撃防御を上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nModerately Boosts R-DEF."
+	},
+	{
+		"assign": "54040",
+		"jp_text": "サブ／アドマインドａ",
+		"tr_text": "Sub/Add Mind a",
+		"jp_explain": "汎用装備可能なユニット。\n法撃防御をわずかに上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nMarginally boosts T-DEF."
+	},
+	{
+		"assign": "54041",
+		"jp_text": "サブ／アドマインドｂ",
+		"tr_text": "Sub/Add Mind b",
+		"jp_explain": "汎用装備可能なユニット。\n法撃防御を少し上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nSlightly boosts T-DEF."
+	},
+	{
+		"assign": "54042",
+		"jp_text": "サブ／アドマインドｃ",
+		"tr_text": "Sub/Add Mind c",
+		"jp_explain": "汎用装備可能なユニット。\n法撃防御を上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nModerately Boosts T-DEF."
+	},
+	{
+		"assign": "54043",
+		"jp_text": "サブ／アドウォールｄ",
+		"tr_text": "Sub/Add Wall d",
+		"jp_explain": "汎用装備可能なユニット。\n打撃防御をかなり上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nSizably boosts S-DEF."
+	},
+	{
+		"assign": "54044",
+		"jp_text": "サブ／アドウォールｅ",
+		"tr_text": "Sub/Add Wall e",
+		"jp_explain": "汎用装備可能なユニット。\n打撃防御を大きく上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nGreatly boosts S-DEF."
+	},
+	{
+		"assign": "54045",
+		"jp_text": "サブ／アドリアクトｄ",
+		"tr_text": "Sub/Add React d",
+		"jp_explain": "汎用装備可能なユニット。\n射撃防御をかなり上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nSizably boosts R-DEF."
+	},
+	{
+		"assign": "54046",
+		"jp_text": "サブ／アドリアクトｅ",
+		"tr_text": "Sub/Add React e",
+		"jp_explain": "汎用装備可能なユニット。\n射撃防御を大きく上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nGreatly boosts R-DEF."
+	},
+	{
+		"assign": "54047",
+		"jp_text": "サブ／アドマインドｄ",
+		"tr_text": "Sub/Add Mind d",
+		"jp_explain": "汎用装備可能なユニット。\n法撃防御をかなり上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nSizably boosts T-DEF."
+	},
+	{
+		"assign": "54048",
+		"jp_text": "サブ／アドマインドｅ",
+		"tr_text": "Sub/Add Mind e",
+		"jp_explain": "汎用装備可能なユニット。\n法撃防御を大きく上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nGreatly boosts T-DEF."
+	},
+	{
+		"assign": "54049",
+		"jp_text": "サブ／フレイムリード",
+		"tr_text": "Sub/Flame Lead",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n炎属性耐性とＰＰを大きく上昇させる。",
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\ngreatly increases Fire Resist & PP."
+	},
+	{
+		"assign": "54050",
+		"jp_text": "サブ／アイスリード",
+		"tr_text": "Sub/Ice Lead",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n氷属性耐性とＰＰを大きく上昇させる。",
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\ngreatly increases Ice Resist & PP."
+	},
+	{
+		"assign": "54051",
+		"jp_text": "サブ／ボルトリード",
+		"tr_text": "Sub/Bolt Lead",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n雷属性耐性とＰＰを大きく上昇させる。",
+		"tr_explain": "A general purpose unit. Using Chip\nTechnology, this unit greatly\nincreases Lightning Resist&PP."
+	},
+	{
+		"assign": "54052",
+		"jp_text": "サブ／ストームリード",
+		"tr_text": "Sub/Storm Lead",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n風属性耐性とＰＰを大きく上昇させる。",
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\ngreatly increases Wind Resist & PP."
+	},
+	{
+		"assign": "54053",
+		"jp_text": "サブ／ルミナスリード",
+		"tr_text": "Sub/Luminous Lead",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n光属性耐性とＰＰを大きく上昇させる。",
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\ngreatly increases Light Resist & PP."
+	},
+	{
+		"assign": "54054",
+		"jp_text": "サブ／グルームリード",
+		"tr_text": "Sub/Gloom Lead",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n闇属性耐性とＰＰを大きく上昇させる。",
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\ngreatly increases Dark Resist & PP."
+	},
+	{
+		"assign": "54055",
+		"jp_text": "サブ／ウェポンズバリア",
+		"tr_text": "Sub/Weapons Barrier",
+		"jp_explain": "汎用装備可能なユニット。\n全ての属性への耐性を持ち\n最大ＨＰを大幅に上昇させる。 ",
+		"tr_explain": "An equippable all-purpose unit.\nProvides resistance to all attributes\nand greatly increases maximum HP."
+	},
+	{
+		"assign": "54056",
+		"jp_text": "サブ／フォトンバリア",
+		"tr_text": "Sub/Photon Barrier",
+		"jp_explain": "汎用装備可能なユニット。\n全ての属性への耐性を持ち\n最大ＨＰを大幅に上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54057",
+		"jp_text": "サブ／フレイムリジッド",
+		"tr_text": "Sub/Flame Rigid",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n炎属性耐性とＨＰを大きく上昇させる。",
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\ngreatly increases Fire Resist & HP."
+	},
+	{
+		"assign": "54058",
+		"jp_text": "サブ／アイスリジッド",
+		"tr_text": "Sub/Ice Rigid",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n氷属性耐性とＨＰを大きく上昇させる。",
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\ngreatly increases Ice Resist & HP."
+	},
+	{
+		"assign": "54059",
+		"jp_text": "サブ／ボルトリジッド",
+		"tr_text": "Sub/Bolt Rigid",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n雷属性耐性とＨＰを大きく上昇させる。",
+		"tr_explain": "A general purpose unit. Using Chip\nTechnology, this unit greatly\nincreases Lightning Resist&HP."
+	},
+	{
+		"assign": "54060",
+		"jp_text": "サブ／ストームリジッド",
+		"tr_text": "Sub/Storm Rigid",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n風属性耐性とＨＰを大きく上昇させる。",
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\ngreatly increases Wind Resist & HP."
+	},
+	{
+		"assign": "54061",
+		"jp_text": "サブ／ルミナスリジッド",
+		"tr_text": "Sub/Luminous Rigid",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n光属性耐性とＨＰを大きく上昇させる。",
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\ngreatly increases Light Resist & HP."
+	},
+	{
+		"assign": "54062",
+		"jp_text": "サブ／グルームリジッド",
+		"tr_text": "Sub/Gloom Rigid",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n闇属性耐性とＨＰを大きく上昇させる。",
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\ngreatly increases Dark Resist & HP."
+	},
+	{
+		"assign": "54063",
+		"jp_text": "サブ／フレイムリヴォルト",
+		"tr_text": "Sub/Flame Revolt",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n炎耐性を持ち、ＨＰとＰＰを上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54064",
+		"jp_text": "サブ／アイスリヴォルト",
+		"tr_text": "Sub/Ice Revolt",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n氷耐性を持ち、ＨＰとＰＰを上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54065",
+		"jp_text": "サブ／ボルトリヴォルト",
+		"tr_text": "Sub/Bolt Revolt",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n雷耐性を持ち、ＨＰとＰＰを上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54066",
+		"jp_text": "サブ／ストームリヴォルト",
+		"tr_text": "Sub/Storm Revolt",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n風耐性を持ち、ＨＰとＰＰを上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54067",
+		"jp_text": "サブ／ルミナスリヴォルト",
+		"tr_text": "Sub/Luminous Revolt",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n光耐性を持ち、ＨＰとＰＰを上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54068",
+		"jp_text": "サブ／グルームリヴォルト",
+		"tr_text": "Sub/Gloom Revolt",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n闇耐性を持ち、ＨＰとＰＰを上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54069",
+		"jp_text": "サブ／ステラウォール",
+		"tr_text": "Sub/Stellar Wall",
+		"jp_explain": "汎用装備可能なユニット。\n打撃、射撃、法撃属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": "An equippable all-purpose unit.\nIncreases striking, shooting and tech\nresistance, as well as ATK and DEF."
+	},
+	{
+		"assign": "54070",
+		"jp_text": "サブ／フレイムグラナート",
+		"tr_text": "Sub/Flame Granato",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n炎耐性を持ち、ＨＰとＰＰを上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54071",
+		"jp_text": "サブ／アイスグラナート",
+		"tr_text": "Sub/Ice Granato",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n氷耐性を持ち、ＨＰとＰＰを上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54072",
+		"jp_text": "サブ／ボルトグラナート",
+		"tr_text": "Sub/Bolt Granato",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n雷耐性を持ち、ＨＰとＰＰを上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54073",
+		"jp_text": "サブ／ストームグラナート",
+		"tr_text": "Sub/Storm Granato",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n風耐性を持ち、ＨＰとＰＰを上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54074",
+		"jp_text": "サブ／ルミナスグラナート",
+		"tr_text": "Sub/Luminous Granato",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n光耐性を持ち、ＨＰとＰＰを上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54075",
+		"jp_text": "サブ／グルームグラナート",
+		"tr_text": "Sub/Gloom Granato",
+		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n闇耐性を持ち、ＨＰとＰＰを上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54076",
+		"jp_text": "サブ／ソリッドバリア",
+		"tr_text": "Sub/Solid Barrier",
+		"jp_explain": "汎用装備可能なユニット。\n全ての属性への耐性を持ち\n最大ＨＰを大幅に上昇させる。",
+		"tr_explain": ""
+	}
+]

@@ -1,0 +1,7302 @@
+[
+	{
+		"assign": "710",
+		"jp_text": "キュアスポット",
+		"tr_text": "Cure Support"
+	},
+	{
+		"assign": "720",
+		"jp_text": "ヒーリングスポット",
+		"tr_text": "Healing Support"
+	},
+	{
+		"assign": "810",
+		"jp_text": "コンセントレイト",
+		"tr_text": "Concentrate"
+	},
+	{
+		"assign": "820",
+		"jp_text": "コンセントレイト＋",
+		"tr_text": "Concentrate+"
+	},
+	{
+		"assign": "1010",
+		"jp_text": "ペインヒット",
+		"tr_text": "Pain Hit"
+	},
+	{
+		"assign": "1020",
+		"jp_text": "ペインヒット＋",
+		"tr_text": "Pain Hit+"
+	},
+	{
+		"assign": "1210",
+		"jp_text": "事象の変動",
+		"tr_text": "Event Alteration"
+	},
+	{
+		"assign": "1220",
+		"jp_text": "事象の改変",
+		"tr_text": "Event Modification"
+	},
+	{
+		"assign": "1410",
+		"jp_text": "アイアンウィル",
+		"tr_text": "Iron Will"
+	},
+	{
+		"assign": "1420",
+		"jp_text": "スティールウィル",
+		"tr_text": "Steel Will"
+	},
+	{
+		"assign": "1630",
+		"jp_text": "負滅の撃鉄",
+		"tr_text": "Hammer of Darker Destruction"
+	},
+	{
+		"assign": "1640",
+		"jp_text": "負滅の撃鉄＋",
+		"tr_text": "Hammer of Darker Destruction+"
+	},
+	{
+		"assign": "1650",
+		"jp_text": "機滅の陣",
+		"tr_text": "Team of Mech Destruction"
+	},
+	{
+		"assign": "1660",
+		"jp_text": "機滅の陣＋",
+		"tr_text": "Team of Mech Destruction+"
+	},
+	{
+		"assign": "1670",
+		"jp_text": "龍滅の響き",
+		"tr_text": "Song of Dragon Destruction"
+	},
+	{
+		"assign": "1680",
+		"jp_text": "龍滅の響き＋",
+		"tr_text": "Song of Dragon Destruction+"
+	},
+	{
+		"assign": "11010",
+		"jp_text": "原滅の意志",
+		"tr_text": "Will of Native Destruction"
+	},
+	{
+		"assign": "11020",
+		"jp_text": "原滅の意志＋",
+		"tr_text": "Will of Native Destruction+"
+	},
+	{
+		"assign": "11030",
+		"jp_text": "エナジーチューニング",
+		"tr_text": "Energy Tuning"
+	},
+	{
+		"assign": "11040",
+		"jp_text": "エナジーチューニング＋",
+		"tr_text": "Energy Tuning+"
+	},
+	{
+		"assign": "30009",
+		"jp_text": "ブーステッドチェイサー",
+		"tr_text": "Boosted Chaser"
+	},
+	{
+		"assign": "30010",
+		"jp_text": "ブーステッドチェイサー＋",
+		"tr_text": "Boosted Chaser+"
+	},
+	{
+		"assign": "30011",
+		"jp_text": "知識への渇望",
+		"tr_text": "Thirst for Knowledge"
+	},
+	{
+		"assign": "30012",
+		"jp_text": "真理への盲執",
+		"tr_text": "Blindness to Truth"
+	},
+	{
+		"assign": "30019",
+		"jp_text": "セイクリッドダンス",
+		"tr_text": "Sacred Dance"
+	},
+	{
+		"assign": "30020",
+		"jp_text": "セイクリッドダンス＋",
+		"tr_text": "Sacred Dance+"
+	},
+	{
+		"assign": "30021",
+		"jp_text": "破魔の一振り",
+		"tr_text": "One-Shot Exorcism"
+	},
+	{
+		"assign": "30022",
+		"jp_text": "破魔の一振り＋",
+		"tr_text": "One-Shot Exorcism+"
+	},
+	{
+		"assign": "30023",
+		"jp_text": "輝く光の絆",
+		"tr_text": "Shining Bonds of Light"
+	},
+	{
+		"assign": "30024",
+		"jp_text": "輝く光の絆＋",
+		"tr_text": "Shining Bonds of Light+"
+	},
+	{
+		"assign": "30025",
+		"jp_text": "熱き炎の絆",
+		"tr_text": "Burning Bonds of Flame"
+	},
+	{
+		"assign": "30026",
+		"jp_text": "熱き炎の絆＋",
+		"tr_text": "Burning Bonds of Flame+"
+	},
+	{
+		"assign": "30035",
+		"jp_text": "カオシックブレイク",
+		"tr_text": "Chaotic Break"
+	},
+	{
+		"assign": "30036",
+		"jp_text": "カオシックブレイク＋",
+		"tr_text": "Chaotic Break+"
+	},
+	{
+		"assign": "30037",
+		"jp_text": "エレメンタルウェイク",
+		"tr_text": "Elemental Wake"
+	},
+	{
+		"assign": "30038",
+		"jp_text": "エレメンタルウェイク＋",
+		"tr_text": "Elemental Wake+"
+	},
+	{
+		"assign": "30039",
+		"jp_text": "奇跡の歌声",
+		"tr_text": "Miraculous Singing Voice"
+	},
+	{
+		"assign": "30040",
+		"jp_text": "奇跡の歌声＋",
+		"tr_text": "Miraculous Singing Voice+"
+	},
+	{
+		"assign": "30041",
+		"jp_text": "ポテンシャルバースト・風法術",
+		"tr_text": "Potential Burst - Wind Techniques"
+	},
+	{
+		"assign": "30042",
+		"jp_text": "ポテンシャルバースト・風法術＋",
+		"tr_text": "Potential Burst - Wind Techniques+"
+	},
+	{
+		"assign": "30045",
+		"jp_text": "ポテンシャルバースト・大剣",
+		"tr_text": "Potential Burst - Sword"
+	},
+	{
+		"assign": "30046",
+		"jp_text": "ポテンシャルバースト・大剣＋",
+		"tr_text": "Potential Burst - Sword+"
+	},
+	{
+		"assign": "30049",
+		"jp_text": "神子の加護",
+		"tr_text": "Miko's Divine Protection"
+	},
+	{
+		"assign": "30050",
+		"jp_text": "神子の加護＋",
+		"tr_text": "Miko's Divine Protection+"
+	},
+	{
+		"assign": "30051",
+		"jp_text": "奮励の献身",
+		"tr_text": "Dedicated Effort"
+	},
+	{
+		"assign": "30052",
+		"jp_text": "奮励の献身＋",
+		"tr_text": "Dedicated Effort+"
+	},
+	{
+		"assign": "30055",
+		"jp_text": "ドリームブレイド",
+		"tr_text": "Dream Blade"
+	},
+	{
+		"assign": "30056",
+		"jp_text": "ドリームブレイド＋",
+		"tr_text": "Dream Blade+"
+	},
+	{
+		"assign": "30057",
+		"jp_text": "ツインスティック",
+		"tr_text": "Twin Stick"
+	},
+	{
+		"assign": "30058",
+		"jp_text": "ツインスティック＋",
+		"tr_text": "Twin Stick+"
+	},
+	{
+		"assign": "30059",
+		"jp_text": "ゴールドナンバー",
+		"tr_text": "Gold Number"
+	},
+	{
+		"assign": "30060",
+		"jp_text": "ゴールドナンバー＋",
+		"tr_text": "Gold Number+"
+	},
+	{
+		"assign": "30061",
+		"jp_text": "ポイズンブレイド",
+		"tr_text": "Poison Blade"
+	},
+	{
+		"assign": "30062",
+		"jp_text": "ポイズンブレイド＋",
+		"tr_text": "Poison Blade+"
+	},
+	{
+		"assign": "30063",
+		"jp_text": "ミラージュショット",
+		"tr_text": "Mirage Shot"
+	},
+	{
+		"assign": "30064",
+		"jp_text": "ミラージュショット＋",
+		"tr_text": "Mirage Shot+"
+	},
+	{
+		"assign": "30065",
+		"jp_text": "チップコンバージョン",
+		"tr_text": "Chip Conversion"
+	},
+	{
+		"assign": "30066",
+		"jp_text": "チップコンバージョン＋",
+		"tr_text": "Chip Conversion+"
+	},
+	{
+		"assign": "30069",
+		"jp_text": "アニバーサリーチア",
+		"tr_text": "Anniversary Cheer"
+	},
+	{
+		"assign": "30070",
+		"jp_text": "アニバーサリーチア＋",
+		"tr_text": "Anniversary Cheer+"
+	},
+	{
+		"assign": "30073",
+		"jp_text": "アークスを繋ぐ絆",
+		"tr_text": "The Bonds of ARKS"
+	},
+	{
+		"assign": "30074",
+		"jp_text": "アークスを繋ぐ絆＋",
+		"tr_text": "The Bonds of ARKS+"
+	},
+	{
+		"assign": "30075",
+		"jp_text": "ディメンションブレイズ",
+		"tr_text": "Dimension Blaze"
+	},
+	{
+		"assign": "30076",
+		"jp_text": "ディメンションブレイズ＋",
+		"tr_text": "Dimension Blaze+"
+	},
+	{
+		"assign": "30077",
+		"jp_text": "凍てつく氷の絆",
+		"tr_text": "Freezing Bonds of Ice"
+	},
+	{
+		"assign": "30078",
+		"jp_text": "凍てつく氷の絆＋",
+		"tr_text": "Freezing Bonds of Ice+"
+	},
+	{
+		"assign": "30079",
+		"jp_text": "昏き闇の絆",
+		"tr_text": "Dark Bonds of Darkness"
+	},
+	{
+		"assign": "30080",
+		"jp_text": "昏き闇の絆＋",
+		"tr_text": "Dark Bonds of Darkness+"
+	},
+	{
+		"assign": "30087",
+		"jp_text": "インフィニティブラスト",
+		"tr_text": "Infinity Blast"
+	},
+	{
+		"assign": "30088",
+		"jp_text": "インフィニティブラスト＋",
+		"tr_text": "Infinity Blast+"
+	},
+	{
+		"assign": "30091",
+		"jp_text": "灰の一扇",
+		"tr_text": "Ashen Fan"
+	},
+	{
+		"assign": "30092",
+		"jp_text": "灰の一扇＋",
+		"tr_text": "Ashen Fan+"
+	},
+	{
+		"assign": "30093",
+		"jp_text": "狂気の昇華",
+		"tr_text": "Sublimination of Insanity"
+	},
+	{
+		"assign": "30094",
+		"jp_text": "狂気の昇華＋",
+		"tr_text": "Sublimination of Insanity+"
+	},
+	{
+		"assign": "30095",
+		"jp_text": "超越の英気・大剣／抜剣",
+		"tr_text": "Transcendent Strength - Blades"
+	},
+	{
+		"assign": "30096",
+		"jp_text": "超越の英気・大剣／抜剣＋",
+		"tr_text": "Transcendent Strength - Blades+"
+	},
+	{
+		"assign": "30097",
+		"jp_text": "超越の英気・長槍",
+		"tr_text": "Transcendent Strength - Partizan"
+	},
+	{
+		"assign": "30098",
+		"jp_text": "超越の英気・長槍＋",
+		"tr_text": "Transcendent Strength - Partizan+"
+	},
+	{
+		"assign": "30099",
+		"jp_text": "超越の英気・導具",
+		"tr_text": "Transcendent Strength - Talis"
+	},
+	{
+		"assign": "30100",
+		"jp_text": "超越の英気・導具＋",
+		"tr_text": "Transcendent Strength - Talis+"
+	},
+	{
+		"assign": "31001",
+		"jp_text": "超越の英気・長杖",
+		"tr_text": "Transcendent Strength - Rod"
+	},
+	{
+		"assign": "31002",
+		"jp_text": "超越の英気・長杖＋",
+		"tr_text": "Transcendent Strength - Rod+"
+	},
+	{
+		"assign": "31003",
+		"jp_text": "超越の英気・鋼拳／自在槍",
+		"tr_text": "Transcendent Strength - Fists"
+	},
+	{
+		"assign": "31004",
+		"jp_text": "超越の英気・鋼拳／自在槍＋",
+		"tr_text": "Transcendent Strength - Fists+"
+	},
+	{
+		"assign": "31005",
+		"jp_text": "超越の英気・銃剣／長銃",
+		"tr_text": "Transcendent Strength - Snipers"
+	},
+	{
+		"assign": "31006",
+		"jp_text": "超越の英気・銃剣／長銃＋",
+		"tr_text": "Transcendent Strength - Snipers+"
+	},
+	{
+		"assign": "31007",
+		"jp_text": "パワーオブリンク",
+		"tr_text": "Power of Link"
+	},
+	{
+		"assign": "31008",
+		"jp_text": "パワーオブリンク＋",
+		"tr_text": "Power of Link+"
+	},
+	{
+		"assign": "31013",
+		"jp_text": "ダーカー・ディストラクション",
+		"tr_text": "Darker Destruction"
+	},
+	{
+		"assign": "31014",
+		"jp_text": "ダーカー・ディストラクション＋",
+		"tr_text": "Darker Destruction+"
+	},
+	{
+		"assign": "31015",
+		"jp_text": "竜の闘牙",
+		"tr_text": "Dragonic Fighting"
+	},
+	{
+		"assign": "31016",
+		"jp_text": "竜の闘牙＋",
+		"tr_text": "Dragonic Fighting+"
+	},
+	{
+		"assign": "31017",
+		"jp_text": "神速の雷光",
+		"tr_text": "Godspeed Lightning"
+	},
+	{
+		"assign": "31018",
+		"jp_text": "神速の雷光＋",
+		"tr_text": "Godspeed Lightning+"
+	},
+	{
+		"assign": "31019",
+		"jp_text": "巫女の歌声",
+		"tr_text": "Miko's Singing Voice"
+	},
+	{
+		"assign": "31020",
+		"jp_text": "巫女の歌声＋",
+		"tr_text": "Miko's Singing Voice+"
+	},
+	{
+		"assign": "31021",
+		"jp_text": "ストリームヘイスト",
+		"tr_text": "Stream Haste"
+	},
+	{
+		"assign": "31022",
+		"jp_text": "ストリームヘイスト＋",
+		"tr_text": "Stream Haste+"
+	},
+	{
+		"assign": "31023",
+		"jp_text": "コード・アサルト",
+		"tr_text": "Code: Assault"
+	},
+	{
+		"assign": "31024",
+		"jp_text": "コード・アサルト＋",
+		"tr_text": "Code: Assault+"
+	},
+	{
+		"assign": "31027",
+		"jp_text": "ポテンシャルバースト・魔装脚",
+		"tr_text": "Potential Burst - Jet Boots"
+	},
+	{
+		"assign": "31028",
+		"jp_text": "ポテンシャルバースト・魔装脚＋",
+		"tr_text": "Potential Burst - Jet Boots+"
+	},
+	{
+		"assign": "31031",
+		"jp_text": "懸命の援護",
+		"tr_text": "Eager Support"
+	},
+	{
+		"assign": "31032",
+		"jp_text": "懸命の援護＋",
+		"tr_text": "Eager Support+"
+	},
+	{
+		"assign": "31033",
+		"jp_text": "根性の狙撃",
+		"tr_text": "Determined Sniping"
+	},
+	{
+		"assign": "31034",
+		"jp_text": "根性の狙撃＋",
+		"tr_text": "Determined Sniping+"
+	},
+	{
+		"assign": "31035",
+		"jp_text": "サマーウィンド",
+		"tr_text": "Summer Wind"
+	},
+	{
+		"assign": "31036",
+		"jp_text": "サマーウィンド＋",
+		"tr_text": "Summer Wind+"
+	},
+	{
+		"assign": "31037",
+		"jp_text": "シャイニーソング",
+		"tr_text": "Shining Song"
+	},
+	{
+		"assign": "31038",
+		"jp_text": "シャイニーソング＋",
+		"tr_text": "Shining Song+"
+	},
+	{
+		"assign": "31039",
+		"jp_text": "封龍の緋珠",
+		"tr_text": "Red Gem of Dragon Sealing"
+	},
+	{
+		"assign": "31040",
+		"jp_text": "封龍の緋珠＋",
+		"tr_text": "Red Gem of Dragon Sealing+"
+	},
+	{
+		"assign": "31041",
+		"jp_text": "風烈の快刀",
+		"tr_text": "Sharp Sword of the Wind"
+	},
+	{
+		"assign": "31042",
+		"jp_text": "風烈の快刀＋",
+		"tr_text": "Sharp Sword of the Wind+"
+	},
+	{
+		"assign": "31043",
+		"jp_text": "開花する煌き",
+		"tr_text": "Blossoming Glitter"
+	},
+	{
+		"assign": "31044",
+		"jp_text": "開花する煌き＋",
+		"tr_text": "Blossoming Glitter+"
+	},
+	{
+		"assign": "31053",
+		"jp_text": "炎烈の雅羽",
+		"tr_text": "Elegant Feather's Flame"
+	},
+	{
+		"assign": "31054",
+		"jp_text": "炎烈の雅羽＋",
+		"tr_text": "Elegant Feather's Flame+"
+	},
+	{
+		"assign": "31055",
+		"jp_text": "氷烈の魔杖",
+		"tr_text": "Arctic Spirit"
+	},
+	{
+		"assign": "31056",
+		"jp_text": "氷烈の魔杖＋",
+		"tr_text": "Arctic Spirit+"
+	},
+	{
+		"assign": "31057",
+		"jp_text": "裂光の尖爪",
+		"tr_text": "Sharp Claw of Light"
+	},
+	{
+		"assign": "31058",
+		"jp_text": "裂光の尖爪＋",
+		"tr_text": "Sharp Claw of Light+"
+	},
+	{
+		"assign": "31059",
+		"jp_text": "閃火の旋律",
+		"tr_text": "Flashpoint Melody"
+	},
+	{
+		"assign": "31060",
+		"jp_text": "閃火の旋律＋",
+		"tr_text": "Flashpoint Melody+"
+	},
+	{
+		"assign": "31065",
+		"jp_text": "ネプテューンブレイク",
+		"tr_text": "Neptune Break"
+	},
+	{
+		"assign": "31066",
+		"jp_text": "ネプテューンブレイク＋",
+		"tr_text": "Neptune Break+"
+	},
+	{
+		"assign": "31069",
+		"jp_text": "必殺・烈破夢双絶掌",
+		"tr_text": "Special Dream Combo"
+	},
+	{
+		"assign": "31070",
+		"jp_text": "必殺・烈破夢双絶掌＋",
+		"tr_text": "Special Dream Combo+"
+	},
+	{
+		"assign": "31073",
+		"jp_text": "信頼の記憶",
+		"tr_text": "Memory of Trust"
+	},
+	{
+		"assign": "31074",
+		"jp_text": "心頼の軌跡",
+		"tr_text": "Memory of Trust+"
+	},
+	{
+		"assign": "31075",
+		"jp_text": "雷烈の刃脚",
+		"tr_text": "Strong Thunderous Legs"
+	},
+	{
+		"assign": "31076",
+		"jp_text": "雷烈の刃脚＋",
+		"tr_text": "Strong Thunderous Legs+"
+	},
+	{
+		"assign": "31077",
+		"jp_text": "覚醒印・鋼拳／自在槍",
+		"tr_text": "Awakening Sign - Knuckle/Lance"
+	},
+	{
+		"assign": "31078",
+		"jp_text": "覚醒印・鋼拳／自在槍＋",
+		"tr_text": "Awakening Sign - Knuckle/Lance+"
+	},
+	{
+		"assign": "31079",
+		"jp_text": "極熱の弾丸",
+		"tr_text": "Feverish Bullet"
+	},
+	{
+		"assign": "31080",
+		"jp_text": "極熱の弾丸＋",
+		"tr_text": "Feverish Bullet+"
+	},
+	{
+		"assign": "31081",
+		"jp_text": "兎角の福音",
+		"tr_text": "Any Rate of the Boon"
+	},
+	{
+		"assign": "31082",
+		"jp_text": "兎角の福音＋",
+		"tr_text": "Any Rate of the Boon+"
+	},
+	{
+		"assign": "31083",
+		"jp_text": "邪吸双攻",
+		"tr_text": "Wicked Twin Attacks"
+	},
+	{
+		"assign": "31084",
+		"jp_text": "邪吸双攻＋",
+		"tr_text": "Wicked Twin Attacks+"
+	},
+	{
+		"assign": "31089",
+		"jp_text": "天地断ち",
+		"tr_text": "Heaven and Earth Cut"
+	},
+	{
+		"assign": "31090",
+		"jp_text": "天地断ち＋",
+		"tr_text": "Heaven and Earth Cut+"
+	},
+	{
+		"assign": "31091",
+		"jp_text": "乱れ散々桜 双",
+		"tr_text": "Scattered Cherry Blossoms"
+	},
+	{
+		"assign": "31092",
+		"jp_text": "乱れ散々桜 双＋",
+		"tr_text": "Scattered Cherry Blossoms+"
+	},
+	{
+		"assign": "31095",
+		"jp_text": "ユグドラシルの風",
+		"tr_text": "Wind of Yggdrasil"
+	},
+	{
+		"assign": "31096",
+		"jp_text": "ユグドラシルの風＋",
+		"tr_text": "Wind of Yggdrasil+"
+	},
+	{
+		"assign": "31101",
+		"jp_text": "洸閃牙",
+		"tr_text": "Brilliant Flash"
+	},
+	{
+		"assign": "31102",
+		"jp_text": "洸閃牙＋",
+		"tr_text": "Brilliant Flash+"
+	},
+	{
+		"assign": "31103",
+		"jp_text": "エリアルハイド",
+		"tr_text": "Concealing Wind"
+	},
+	{
+		"assign": "31104",
+		"jp_text": "エリアルハイド＋",
+		"tr_text": "Concealing Wind+"
+	},
+	{
+		"assign": "31105",
+		"jp_text": "煌めく飛翔",
+		"tr_text": "Sparkling Flight"
+	},
+	{
+		"assign": "31106",
+		"jp_text": "煌めく飛翔＋",
+		"tr_text": "Sparkling Flight+"
+	},
+	{
+		"assign": "31107",
+		"jp_text": "紅炎の歌術",
+		"tr_text": "Song Magic of Crimson Flame"
+	},
+	{
+		"assign": "31108",
+		"jp_text": "紅炎の歌術＋",
+		"tr_text": "Song Magic of Crimson Flame"
+	},
+	{
+		"assign": "31109",
+		"jp_text": "氷下の潜力",
+		"tr_text": "Power Hidden by Ice"
+	},
+	{
+		"assign": "31110",
+		"jp_text": "氷下の潜力＋",
+		"tr_text": "Power Hidden by Ice+"
+	},
+	{
+		"assign": "31111",
+		"jp_text": "究心の境地",
+		"tr_text": "Searching of Stages"
+	},
+	{
+		"assign": "31112",
+		"jp_text": "究心の境地＋",
+		"tr_text": "Searching of Stages+"
+	},
+	{
+		"assign": "31113",
+		"jp_text": "水神の冥応",
+		"tr_text": "Water God of Providence"
+	},
+	{
+		"assign": "31114",
+		"jp_text": "水神の冥応＋",
+		"tr_text": "Water God of Providence+"
+	},
+	{
+		"assign": "31115",
+		"jp_text": "運命の加護",
+		"tr_text": "Fate's Blessing"
+	},
+	{
+		"assign": "31116",
+		"jp_text": "運命の加護＋",
+		"tr_text": "Fate's Blessing+"
+	},
+	{
+		"assign": "31117",
+		"jp_text": "雪下の贈り物",
+		"tr_text": "Gift Under the Snow"
+	},
+	{
+		"assign": "31118",
+		"jp_text": "雪下の贈り物＋",
+		"tr_text": "Gift Under the Snow+"
+	},
+	{
+		"assign": "31121",
+		"jp_text": "モアのおうえん",
+		"tr_text": "More's Cheer"
+	},
+	{
+		"assign": "31122",
+		"jp_text": "モアのおうえん＋",
+		"tr_text": "More's Cheer+"
+	},
+	{
+		"assign": "31123",
+		"jp_text": "挫けぬ心",
+		"tr_text": "Sudden Heart Crush"
+	},
+	{
+		"assign": "31124",
+		"jp_text": "挫けぬ心＋",
+		"tr_text": "Sudden Heart Crush+"
+	},
+	{
+		"assign": "31125",
+		"jp_text": "覚醒印・長槍",
+		"tr_text": "Awakening Sign - Partizan"
+	},
+	{
+		"assign": "31126",
+		"jp_text": "覚醒印・長槍＋",
+		"tr_text": "Awakening Sign - Partizan+"
+	},
+	{
+		"assign": "31127",
+		"jp_text": "特光の相転移",
+		"tr_text": "Phase Transfer of Light"
+	},
+	{
+		"assign": "31128",
+		"jp_text": "特光の相転移＋",
+		"tr_text": "Phase Transfer of Light+"
+	},
+	{
+		"assign": "31129",
+		"jp_text": "暗心剣舞",
+		"tr_text": "Black Heart Swords Dance"
+	},
+	{
+		"assign": "31130",
+		"jp_text": "暗心剣舞＋",
+		"tr_text": "Black Heart Swords Dance+"
+	},
+	{
+		"assign": "31133",
+		"jp_text": "紫妖斬",
+		"tr_text": "Violet Slash"
+	},
+	{
+		"assign": "31134",
+		"jp_text": "紫妖斬＋",
+		"tr_text": "Violet Slash+"
+	},
+	{
+		"assign": "31135",
+		"jp_text": "腕輪の力",
+		"tr_text": "Bracelet's Power"
+	},
+	{
+		"assign": "31136",
+		"jp_text": "腕輪の力＋",
+		"tr_text": "Bracelet's Power+"
+	},
+	{
+		"assign": "31139",
+		"jp_text": "観察の応用",
+		"tr_text": "Application of Observation"
+	},
+	{
+		"assign": "31140",
+		"jp_text": "観察の応用＋",
+		"tr_text": "Application of Observation+"
+	},
+	{
+		"assign": "31143",
+		"jp_text": "戦鬼",
+		"tr_text": "War Demon"
+	},
+	{
+		"assign": "31144",
+		"jp_text": "戦鬼＋",
+		"tr_text": "War Demon+"
+	},
+	{
+		"assign": "31147",
+		"jp_text": "バーサクストーム",
+		"tr_text": "Berserk Storm"
+	},
+	{
+		"assign": "31148",
+		"jp_text": "バーサクストーム＋",
+		"tr_text": "Berserk Storm+"
+	},
+	{
+		"assign": "31155",
+		"jp_text": "漆黒の烈弾",
+		"tr_text": "Powerful Bullet of Ebony"
+	},
+	{
+		"assign": "31156",
+		"jp_text": "漆黒の烈弾＋",
+		"tr_text": "Powerful Bullet of Ebony+"
+	},
+	{
+		"assign": "31157",
+		"jp_text": "二枚刃の精撃",
+		"tr_text": "Attack of Two Blades"
+	},
+	{
+		"assign": "31158",
+		"jp_text": "二枚刃の精撃＋",
+		"tr_text": "Attack of Two Blades+"
+	},
+	{
+		"assign": "31159",
+		"jp_text": "陰の理",
+		"tr_text": "Law of Shadows"
+	},
+	{
+		"assign": "31160",
+		"jp_text": "陰の理＋",
+		"tr_text": "Law of Shadows+"
+	},
+	{
+		"assign": "31161",
+		"jp_text": "ラブボルテージ",
+		"tr_text": "Love Voltage"
+	},
+	{
+		"assign": "31162",
+		"jp_text": "ラブボルテージ＋",
+		"tr_text": "Love Voltage+"
+	},
+	{
+		"assign": "31165",
+		"jp_text": "スウィートペイン",
+		"tr_text": "Sweet Pain"
+	},
+	{
+		"assign": "31166",
+		"jp_text": "スウィートペイン＋",
+		"tr_text": "Sweet Pain+"
+	},
+	{
+		"assign": "31167",
+		"jp_text": "デュアルインパクト",
+		"tr_text": "Dual Impact"
+	},
+	{
+		"assign": "31168",
+		"jp_text": "デュアルインパクト＋",
+		"tr_text": "Dual Impact+"
+	},
+	{
+		"assign": "31169",
+		"jp_text": "チア・オペレーション",
+		"tr_text": "Cheer Operation"
+	},
+	{
+		"assign": "31170",
+		"jp_text": "チア・オペレーション＋",
+		"tr_text": "Cheer Operation+"
+	},
+	{
+		"assign": "31173",
+		"jp_text": "爆裂イナヅマパンチ",
+		"tr_text": "Exploding Lightning Punch"
+	},
+	{
+		"assign": "31174",
+		"jp_text": "爆裂イナヅマパンチ＋",
+		"tr_text": "Exploding Lightning Punch+"
+	},
+	{
+		"assign": "31177",
+		"jp_text": "冬枯れの太刀",
+		"tr_text": "Sword of Winter Mortality"
+	},
+	{
+		"assign": "31178",
+		"jp_text": "冬枯れの太刀＋",
+		"tr_text": "Sword of Winter Mortality+"
+	},
+	{
+		"assign": "31179",
+		"jp_text": "クライマックスハート",
+		"tr_text": "Climax Heart"
+	},
+	{
+		"assign": "31180",
+		"jp_text": "クライマックスハート＋",
+		"tr_text": "Climax Heart+"
+	},
+	{
+		"assign": "31181",
+		"jp_text": "光芒の刺突",
+		"tr_text": "Piercing Awn of Light"
+	},
+	{
+		"assign": "31182",
+		"jp_text": "光芒の刺突＋",
+		"tr_text": "Piercing Awn of Light+"
+	},
+	{
+		"assign": "31183",
+		"jp_text": "導きの託宣",
+		"tr_text": "Oracle of Guidance"
+	},
+	{
+		"assign": "31184",
+		"jp_text": "導きの託宣＋",
+		"tr_text": "Oracle of Guidance+"
+	},
+	{
+		"assign": "31187",
+		"jp_text": "術援／氷弾風陣",
+		"tr_text": "Support Arts/Ice Bullet Wind"
+	},
+	{
+		"assign": "31188",
+		"jp_text": "術援／氷弾風陣＋",
+		"tr_text": "Support Arts/Ice Bullet Wind+"
+	},
+	{
+		"assign": "31191",
+		"jp_text": "術癒／流焔治光",
+		"tr_text": "Healing Arts/Firelight Recovery"
+	},
+	{
+		"assign": "31192",
+		"jp_text": "術癒／流焔治光＋",
+		"tr_text": "Healing Arts/Firelight Recovery+"
+	},
+	{
+		"assign": "31193",
+		"jp_text": "術闇／術者封印",
+		"tr_text": "Dark Arts/Wizard Seal"
+	},
+	{
+		"assign": "31194",
+		"jp_text": "術闇／術者封印＋",
+		"tr_text": "Dark Arts/Wizard Seal+"
+	},
+	{
+		"assign": "31195",
+		"jp_text": "心気に響く剣弾",
+		"tr_text": "Heartfelt Sword-Bullet"
+	},
+	{
+		"assign": "31196",
+		"jp_text": "心気に響く剣弾＋",
+		"tr_text": "Heartfelt Sword-Bullet+"
+	},
+	{
+		"assign": "31199",
+		"jp_text": "影隠の技巧",
+		"tr_text": "Hidden Shadow Technique"
+	},
+	{
+		"assign": "31200",
+		"jp_text": "影隠の技巧＋",
+		"tr_text": "Hidden Shadow Technique+"
+	},
+	{
+		"assign": "31205",
+		"jp_text": "セレブレーションショット",
+		"tr_text": "Celebration Shot"
+	},
+	{
+		"assign": "31206",
+		"jp_text": "セレブレーションショット＋",
+		"tr_text": "Celebration Shot+"
+	},
+	{
+		"assign": "31207",
+		"jp_text": "再生への氷祈",
+		"tr_text": "Ice Prayer of Rebirth"
+	},
+	{
+		"assign": "31208",
+		"jp_text": "再生への氷祈＋",
+		"tr_text": "Ice Prayer of Rebirth+"
+	},
+	{
+		"assign": "31209",
+		"jp_text": "機甲の究明",
+		"tr_text": "Armored Investigation"
+	},
+	{
+		"assign": "31210",
+		"jp_text": "機甲の究明＋",
+		"tr_text": "Armored Investigation+"
+	},
+	{
+		"assign": "31213",
+		"jp_text": "野生の生存術",
+		"tr_text": "Wilderness Survival Technique"
+	},
+	{
+		"assign": "31214",
+		"jp_text": "野生の生存術＋",
+		"tr_text": "Wilderness Survival Technique+"
+	},
+	{
+		"assign": "31217",
+		"jp_text": "煌めきの閃迅",
+		"tr_text": "Sparkling Glimmering Flash"
+	},
+	{
+		"assign": "31218",
+		"jp_text": "煌めきの閃迅＋",
+		"tr_text": "Sparkling Glimmering Flash+"
+	},
+	{
+		"assign": "31219",
+		"jp_text": "落花流水の舞い",
+		"tr_text": "Dance of Requited Love"
+	},
+	{
+		"assign": "31220",
+		"jp_text": "落花流水の舞い＋",
+		"tr_text": "Dance of Requited Love+"
+	},
+	{
+		"assign": "31221",
+		"jp_text": "雷輝結界",
+		"tr_text": "Shining Thunder Boundary"
+	},
+	{
+		"assign": "31222",
+		"jp_text": "雷輝結界＋",
+		"tr_text": "Shining Thunder Boundary+"
+	},
+	{
+		"assign": "31223",
+		"jp_text": "スイーツバスケット",
+		"tr_text": "Sweets Basket"
+	},
+	{
+		"assign": "31224",
+		"jp_text": "スイーツバスケット＋",
+		"tr_text": "Sweets Basket+"
+	},
+	{
+		"assign": "31225",
+		"jp_text": "近距離制圧銃撃術",
+		"tr_text": "Zero Range Shooting Master"
+	},
+	{
+		"assign": "31226",
+		"jp_text": "近距離制圧銃撃術＋",
+		"tr_text": "Zero Range Shooting Master+"
+	},
+	{
+		"assign": "31229",
+		"jp_text": "剛勇不撓の闘気",
+		"tr_text": "Brave Offensive Spirit"
+	},
+	{
+		"assign": "31230",
+		"jp_text": "剛勇不撓の闘気＋",
+		"tr_text": "Brave Offensive Spirit+"
+	},
+	{
+		"assign": "31231",
+		"jp_text": "ワンダーランド・レイン",
+		"tr_text": "Wonderland Rain"
+	},
+	{
+		"assign": "31232",
+		"jp_text": "ワンダーランド・レイン＋",
+		"tr_text": "Wonderland Rain+"
+	},
+	{
+		"assign": "31233",
+		"jp_text": "浄化への炎祈",
+		"tr_text": "Flame Prayer of Purification"
+	},
+	{
+		"assign": "31234",
+		"jp_text": "浄化への炎祈＋",
+		"tr_text": "Flame Prayer of Purification+"
+	},
+	{
+		"assign": "31235",
+		"jp_text": "多重次元共振剣",
+		"tr_text": "Multidimensional Resonating Sword"
+	},
+	{
+		"assign": "31236",
+		"jp_text": "多重次元共振剣＋",
+		"tr_text": "Multidimensional Resonating Sword+"
+	},
+	{
+		"assign": "31237",
+		"jp_text": "スチームアクセレレーション",
+		"tr_text": "Steam Acceleration"
+	},
+	{
+		"assign": "31238",
+		"jp_text": "スチームアクセレレーション＋",
+		"tr_text": "Steam Acceleration+"
+	},
+	{
+		"assign": "31239",
+		"jp_text": "フレッシュスマイル",
+		"tr_text": "Fresh Smile"
+	},
+	{
+		"assign": "31240",
+		"jp_text": "フレッシュスマイル＋",
+		"tr_text": "Fresh Smile+"
+	},
+	{
+		"assign": "31247",
+		"jp_text": "ブライトサマーデイ",
+		"tr_text": "Bright Summer Day"
+	},
+	{
+		"assign": "31248",
+		"jp_text": "ブライトサマーデイ＋",
+		"tr_text": "Bright Summer Day+"
+	},
+	{
+		"assign": "31251",
+		"jp_text": "エレメンタルブースト",
+		"tr_text": "Elemental Boost"
+	},
+	{
+		"assign": "31252",
+		"jp_text": "エレメンタルブースト＋",
+		"tr_text": "Elemental Boost+"
+	},
+	{
+		"assign": "31257",
+		"jp_text": "万象破断の連刃",
+		"tr_text": "Natural Rupturing Blades"
+	},
+	{
+		"assign": "31258",
+		"jp_text": "万象破断の連刃＋",
+		"tr_text": "Natural Rupturing Blades+"
+	},
+	{
+		"assign": "31261",
+		"jp_text": "ヴィランズ・アベニュー",
+		"tr_text": "Villain's Avenue"
+	},
+	{
+		"assign": "31262",
+		"jp_text": "ヴィランズ・アベニュー＋",
+		"tr_text": "Villain's Avenue+"
+	},
+	{
+		"assign": "31263",
+		"jp_text": "破滅と絶望の双翼刃",
+		"tr_text": "Twin Blade of Ruin and Despair"
+	},
+	{
+		"assign": "31264",
+		"jp_text": "破滅と絶望の双翼刃＋",
+		"tr_text": "Twin Blade of Ruin and Despair+"
+	},
+	{
+		"assign": "31265",
+		"jp_text": "旋転せし猛風の追走",
+		"tr_text": "Blowing Wind's Pursuit"
+	},
+	{
+		"assign": "31266",
+		"jp_text": "旋転せし猛風の追走＋",
+		"tr_text": "Blowing Wind's Pursuit+"
+	},
+	{
+		"assign": "31273",
+		"jp_text": "無限怒濤針",
+		"tr_text": "Endless Needle Waves"
+	},
+	{
+		"assign": "31274",
+		"jp_text": "無限怒濤針＋",
+		"tr_text": "Endless Needle Waves+"
+	},
+	{
+		"assign": "31275",
+		"jp_text": "炎心粋華",
+		"tr_text": "Blazing Blooming Heart"
+	},
+	{
+		"assign": "31276",
+		"jp_text": "炎心粋華＋",
+		"tr_text": "Blazing Blooming Heart+"
+	},
+	{
+		"assign": "31279",
+		"jp_text": "救済への風祈",
+		"tr_text": "Wind Prayer of Aid"
+	},
+	{
+		"assign": "31280",
+		"jp_text": "救済への風祈＋",
+		"tr_text": "Wind Prayer of Aid+"
+	},
+	{
+		"assign": "31281",
+		"jp_text": "デッドリージョーク",
+		"tr_text": "Deadly Joke"
+	},
+	{
+		"assign": "31282",
+		"jp_text": "デッドリージョーク＋",
+		"tr_text": "Deadly Joke+"
+	},
+	{
+		"assign": "31283",
+		"jp_text": "拡散爆炎榴弾",
+		"tr_text": "Exploding Incendiary Grenades"
+	},
+	{
+		"assign": "31284",
+		"jp_text": "拡散爆炎榴弾＋",
+		"tr_text": "Exploding Incendiary Grenades+"
+	},
+	{
+		"assign": "31285",
+		"jp_text": "十重二十重茨ノ槍壁",
+		"tr_text": "Wall of Countless Spears"
+	},
+	{
+		"assign": "31286",
+		"jp_text": "十重二十重茨ノ槍壁＋",
+		"tr_text": "Wall of Countless Spears+"
+	},
+	{
+		"assign": "31289",
+		"jp_text": "排除指令執行",
+		"tr_text": "Ordered to Eliminate"
+	},
+	{
+		"assign": "31290",
+		"jp_text": "排除指令執行＋",
+		"tr_text": "Ordered to Eliminate+"
+	},
+	{
+		"assign": "31293",
+		"jp_text": "砲煙たなびく爆砕の奏で",
+		"tr_text": "Explosive Performance"
+	},
+	{
+		"assign": "31294",
+		"jp_text": "砲煙たなびく爆砕の奏で＋",
+		"tr_text": "Explosive Performance+"
+	},
+	{
+		"assign": "31295",
+		"jp_text": "美女神の悪戯",
+		"tr_text": "Goddess of Beauty's Trick"
+	},
+	{
+		"assign": "31296",
+		"jp_text": "美女神の悪戯＋",
+		"tr_text": "Goddess of Beauty's Trick+"
+	},
+	{
+		"assign": "31299",
+		"jp_text": "極限効率化討伐術",
+		"tr_text": "Pursuit of Ultimate Efficiency"
+	},
+	{
+		"assign": "31300",
+		"jp_text": "極限効率化討伐術＋",
+		"tr_text": "Pursuit of Ultimate Efficiency+"
+	},
+	{
+		"assign": "31301",
+		"jp_text": "マスターオペレーション",
+		"tr_text": "Master Operation"
+	},
+	{
+		"assign": "31302",
+		"jp_text": "マスターオペレーション＋",
+		"tr_text": "Master Operation+"
+	},
+	{
+		"assign": "31303",
+		"jp_text": "磨かれし観察眼",
+		"tr_text": "Well-Honed Observation"
+	},
+	{
+		"assign": "31304",
+		"jp_text": "磨かれし観察眼＋",
+		"tr_text": "Well-Honed Observation+"
+	},
+	{
+		"assign": "31305",
+		"jp_text": "影より願いし払暁の光",
+		"tr_text": "Shadow's Wish for Sunlight"
+	},
+	{
+		"assign": "31306",
+		"jp_text": "影より願いし払暁の光＋",
+		"tr_text": "Shadow's Wish for Sunlight+"
+	},
+	{
+		"assign": "31309",
+		"jp_text": "士魂の炎",
+		"tr_text": "Flame of a Samurai's Soul"
+	},
+	{
+		"assign": "31310",
+		"jp_text": "士魂の炎＋",
+		"tr_text": "Flame of a Samurai's Soul+"
+	},
+	{
+		"assign": "31313",
+		"jp_text": "幻燈トリックランタン",
+		"tr_text": "Ghostly Trick Lantern"
+	},
+	{
+		"assign": "31314",
+		"jp_text": "幻燈トリックランタン＋",
+		"tr_text": "Ghostly Trick Lantern+"
+	},
+	{
+		"assign": "31317",
+		"jp_text": "演武・流美奮迅",
+		"tr_text": "Demonstration - Surging Approach"
+	},
+	{
+		"assign": "31318",
+		"jp_text": "演武・流美奮迅＋",
+		"tr_text": "Demonstration - Surging Approach+"
+	},
+	{
+		"assign": "31321",
+		"jp_text": "一気呵成の号砲",
+		"tr_text": "Marathon Starting Gun"
+	},
+	{
+		"assign": "31322",
+		"jp_text": "一気呵成の号砲＋",
+		"tr_text": "Marathon Starting Gun+"
+	},
+	{
+		"assign": "31323",
+		"jp_text": "ボルカノバラージ",
+		"tr_text": "Volcano Barrage"
+	},
+	{
+		"assign": "31324",
+		"jp_text": "ボルカノバラージ＋",
+		"tr_text": "Volcano Barrage+"
+	},
+	{
+		"assign": "31325",
+		"jp_text": "パーティーデコレーション",
+		"tr_text": "Party Decoration"
+	},
+	{
+		"assign": "31326",
+		"jp_text": "パーティーデコレーション＋",
+		"tr_text": "Party Decoration+"
+	},
+	{
+		"assign": "31329",
+		"jp_text": "孤高の進軍",
+		"tr_text": "Lone Advance"
+	},
+	{
+		"assign": "31330",
+		"jp_text": "孤高の進軍＋",
+		"tr_text": "Lone Advance+"
+	},
+	{
+		"assign": "31331",
+		"jp_text": "ラッピー・マーチ",
+		"tr_text": "Rappy March"
+	},
+	{
+		"assign": "31332",
+		"jp_text": "ラッピー・マーチ＋",
+		"tr_text": "Rappy March+"
+	},
+	{
+		"assign": "31333",
+		"jp_text": "六花の贈り物",
+		"tr_text": "Snowy Gift"
+	},
+	{
+		"assign": "31334",
+		"jp_text": "六花の贈り物＋",
+		"tr_text": "Snowy Gift+"
+	},
+	{
+		"assign": "31337",
+		"jp_text": "武運長久の祈願",
+		"tr_text": "Prayer for Good Fortune"
+	},
+	{
+		"assign": "31338",
+		"jp_text": "武運長久の祈願＋",
+		"tr_text": "Prayer for Good Fortune+"
+	},
+	{
+		"assign": "31341",
+		"jp_text": "崩天滅地狂迅撃",
+		"tr_text": "Sky-Breaking Earth-Shaking Mania"
+	},
+	{
+		"assign": "31342",
+		"jp_text": "崩天滅地狂迅撃＋",
+		"tr_text": "Sky-Breaking Earth-Shaking Mania+"
+	},
+	{
+		"assign": "31343",
+		"jp_text": "オレ様流バトルゲイン",
+		"tr_text": "My Own Style Battle Gain"
+	},
+	{
+		"assign": "31344",
+		"jp_text": "オレ様流バトルゲイン＋",
+		"tr_text": "My Own Style Battle Gain+"
+	},
+	{
+		"assign": "31347",
+		"jp_text": "ブレイブヴィジョン",
+		"tr_text": "Brave Vision"
+	},
+	{
+		"assign": "31348",
+		"jp_text": "ブレイブヴィジョン＋",
+		"tr_text": "Brave Vision+"
+	},
+	{
+		"assign": "31349",
+		"jp_text": "チェイスヒットゲイン",
+		"tr_text": "Chase Hit Gain"
+	},
+	{
+		"assign": "31350",
+		"jp_text": "チェイスヒットゲイン＋",
+		"tr_text": "Chase Hit Gain+"
+	},
+	{
+		"assign": "31351",
+		"jp_text": "マルチプルスナイプ",
+		"tr_text": "Multiple Snipe"
+	},
+	{
+		"assign": "31352",
+		"jp_text": "マルチプルスナイプ＋",
+		"tr_text": "Multiple Snipe+"
+	},
+	{
+		"assign": "31353",
+		"jp_text": "イノセント・メモリー",
+		"tr_text": "Innocent Memory"
+	},
+	{
+		"assign": "31354",
+		"jp_text": "イノセント・メモリー＋",
+		"tr_text": "Innocent Memory+"
+	},
+	{
+		"assign": "31357",
+		"jp_text": "無垢なる超越の勇気",
+		"tr_text": "Pure Transcendent Courage"
+	},
+	{
+		"assign": "31358",
+		"jp_text": "無垢なる超越の勇気＋",
+		"tr_text": "Pure Transcendent Courage+"
+	},
+	{
+		"assign": "31359",
+		"jp_text": "輝ける飛躍の意志",
+		"tr_text": "Radiant Determination"
+	},
+	{
+		"assign": "31360",
+		"jp_text": "輝ける飛躍の意志＋",
+		"tr_text": "Radiant Determination+"
+	},
+	{
+		"assign": "31361",
+		"jp_text": "背水の奮戦",
+		"tr_text": "Cornered Prowess"
+	},
+	{
+		"assign": "31362",
+		"jp_text": "背水の奮戦＋",
+		"tr_text": "Cornered Prowess+"
+	},
+	{
+		"assign": "31363",
+		"jp_text": "剛衝破天斬",
+		"tr_text": "Strength to Split the Heavens"
+	},
+	{
+		"assign": "31364",
+		"jp_text": "剛衝破天斬＋",
+		"tr_text": "Strength to Split the Heavens+"
+	},
+	{
+		"assign": "31365",
+		"jp_text": "フォトン・リカバリー",
+		"tr_text": "Photon Recovery"
+	},
+	{
+		"assign": "31366",
+		"jp_text": "フォトン・リカバリー＋",
+		"tr_text": "Photon Recovery+"
+	},
+	{
+		"assign": "31367",
+		"jp_text": "プレシャスプレゼント",
+		"tr_text": "Precious Present"
+	},
+	{
+		"assign": "31368",
+		"jp_text": "プレシャスプレゼント＋",
+		"tr_text": "Precious Present+"
+	},
+	{
+		"assign": "31369",
+		"jp_text": "情熱灯す灼炎の剣舞",
+		"tr_text": "Blazing Passion Swords Dance"
+	},
+	{
+		"assign": "31370",
+		"jp_text": "情熱灯す灼炎の剣舞＋",
+		"tr_text": "Blazing Passion Swords Dance+"
+	},
+	{
+		"assign": "31371",
+		"jp_text": "勇気と好奇の羽ばたき",
+		"tr_text": "Wings of Courage and Curiosity"
+	},
+	{
+		"assign": "31372",
+		"jp_text": "勇気と好奇の羽ばたき＋",
+		"tr_text": "Wings of Courage and Curiosity+"
+	},
+	{
+		"assign": "31373",
+		"jp_text": "破陣の一喝",
+		"tr_text": "Disrupting Rebuke"
+	},
+	{
+		"assign": "31374",
+		"jp_text": "破陣の一喝＋",
+		"tr_text": "Disrupting Rebuke+"
+	},
+	{
+		"assign": "31375",
+		"jp_text": "無垢無欠の氷刃",
+		"tr_text": "Immaculate Ice Blade"
+	},
+	{
+		"assign": "31376",
+		"jp_text": "無垢無欠の氷刃＋",
+		"tr_text": "Immaculate Ice Blade+"
+	},
+	{
+		"assign": "31377",
+		"jp_text": "心に抱きし陽光",
+		"tr_text": "Sunshine from the Heart"
+	},
+	{
+		"assign": "31378",
+		"jp_text": "心に抱きし陽光＋",
+		"tr_text": "Sunshine from the Heart+"
+	},
+	{
+		"assign": "31381",
+		"jp_text": "星闇の欠片",
+		"tr_text": "Dark Star Fragment"
+	},
+	{
+		"assign": "31382",
+		"jp_text": "星闇の欠片＋",
+		"tr_text": "Dark Star Fragment+"
+	},
+	{
+		"assign": "31383",
+		"jp_text": "ハートイグニッション",
+		"tr_text": "Heart Ignition"
+	},
+	{
+		"assign": "31384",
+		"jp_text": "ハートイグニッション＋",
+		"tr_text": "Heart Ignition+"
+	},
+	{
+		"assign": "31385",
+		"jp_text": "メルティスイートギフト",
+		"tr_text": "Melty Sweet Gift"
+	},
+	{
+		"assign": "31386",
+		"jp_text": "メルティスイートギフト＋",
+		"tr_text": "Melty Sweet Gift+"
+	},
+	{
+		"assign": "31387",
+		"jp_text": "ぼくらの妄想活劇",
+		"tr_text": "Our Crazy Action Scene"
+	},
+	{
+		"assign": "31388",
+		"jp_text": "ぼくらの妄想活劇＋",
+		"tr_text": "Our Crazy Action Scene+"
+	},
+	{
+		"assign": "31391",
+		"jp_text": "力と代償の寓話",
+		"tr_text": "Allegory for the Cost of Power"
+	},
+	{
+		"assign": "31392",
+		"jp_text": "力と代償の寓話＋",
+		"tr_text": "Allegory for the Cost of Power+"
+	},
+	{
+		"assign": "31393",
+		"jp_text": "淡く甘き想いのチョコ",
+		"tr_text": "Light and Sweet Chocolate"
+	},
+	{
+		"assign": "31394",
+		"jp_text": "淡く甘き想いのチョコ＋",
+		"tr_text": "Light and Sweet Chocolate+"
+	},
+	{
+		"assign": "31395",
+		"jp_text": "千射天涙の弓術",
+		"tr_text": "Arrows Rain From Heaven"
+	},
+	{
+		"assign": "31396",
+		"jp_text": "千射天涙の弓術＋",
+		"tr_text": "Arrows Rain From Heaven+"
+	},
+	{
+		"assign": "31397",
+		"jp_text": "疾風当千の刀術",
+		"tr_text": "Katana Moves With The Wind"
+	},
+	{
+		"assign": "31398",
+		"jp_text": "疾風当千の刀術＋",
+		"tr_text": "Katana Moves With The Wind+"
+	},
+	{
+		"assign": "31399",
+		"jp_text": "破岩一掌",
+		"tr_text": "Stone-Shattering Hand"
+	},
+	{
+		"assign": "31400",
+		"jp_text": "破岩一掌＋",
+		"tr_text": "Stone-Shattering Hand+"
+	},
+	{
+		"assign": "31401",
+		"jp_text": "バレットスイッチング",
+		"tr_text": "Bullet Switching"
+	},
+	{
+		"assign": "31402",
+		"jp_text": "バレットスイッチング＋",
+		"tr_text": "Bullet Switching+"
+	},
+	{
+		"assign": "31403",
+		"jp_text": "果断なる突貫",
+		"tr_text": "Decisive Strike"
+	},
+	{
+		"assign": "31404",
+		"jp_text": "果断なる突貫＋",
+		"tr_text": "Decisive Strike+"
+	},
+	{
+		"assign": "31407",
+		"jp_text": "波断ちの衝角",
+		"tr_text": "Wave-Breaking Ram"
+	},
+	{
+		"assign": "31408",
+		"jp_text": "波断ちの衝角＋",
+		"tr_text": "Wave-Breaking Ram+"
+	},
+	{
+		"assign": "31411",
+		"jp_text": "ビルドアップキャノン",
+		"tr_text": "Build-Up Cannon"
+	},
+	{
+		"assign": "31412",
+		"jp_text": "ビルドアップキャノン＋",
+		"tr_text": "Build-Up Cannon+"
+	},
+	{
+		"assign": "31413",
+		"jp_text": "光子限界収束",
+		"tr_text": "Photon Limit Convergence"
+	},
+	{
+		"assign": "31414",
+		"jp_text": "光子限界収束＋",
+		"tr_text": "Photon Limit Convergence+"
+	},
+	{
+		"assign": "31415",
+		"jp_text": "ギリギリスイートビート",
+		"tr_text": "Giri Giri Sweet Beat"
+	},
+	{
+		"assign": "31416",
+		"jp_text": "ギリギリスイートビート＋",
+		"tr_text": "Giri Giri Sweet Beat+"
+	},
+	{
+		"assign": "31421",
+		"jp_text": "魔弾・生気流転",
+		"tr_text": "Magic Bullet - Wandering Animus"
+	},
+	{
+		"assign": "31422",
+		"jp_text": "魔弾・生気流転＋",
+		"tr_text": "Magic Bullet - Wandering Animus+"
+	},
+	{
+		"assign": "31423",
+		"jp_text": "風塵旋華",
+		"tr_text": "Dust in the Wind"
+	},
+	{
+		"assign": "31424",
+		"jp_text": "風塵旋華＋",
+		"tr_text": "Dust in the Wind+"
+	},
+	{
+		"assign": "31429",
+		"jp_text": "絆の輝き",
+		"tr_text": "Radiant Bonds"
+	},
+	{
+		"assign": "31430",
+		"jp_text": "絆の輝き＋",
+		"tr_text": "Radiant Bonds+"
+	},
+	{
+		"assign": "31431",
+		"jp_text": "鍛刀乱麻",
+		"tr_text": "Disciplined Anarchy"
+	},
+	{
+		"assign": "31432",
+		"jp_text": "鍛刀乱麻＋",
+		"tr_text": "Disciplined Anarchy+"
+	},
+	{
+		"assign": "31433",
+		"jp_text": "イノセンス・スターライト",
+		"tr_text": "Innocence Starlight"
+	},
+	{
+		"assign": "31434",
+		"jp_text": "イノセンス・スターライト＋",
+		"tr_text": "Innocence Starlight+"
+	},
+	{
+		"assign": "31435",
+		"jp_text": "スニーキング・サーチ",
+		"tr_text": "Sneaking Search"
+	},
+	{
+		"assign": "31436",
+		"jp_text": "スニーキング・サーチ＋",
+		"tr_text": "Sneaking Search+"
+	},
+	{
+		"assign": "31439",
+		"jp_text": "パーフェクトコンビネーション",
+		"tr_text": "Perfect Combination"
+	},
+	{
+		"assign": "31440",
+		"jp_text": "パーフェクトコンビネーション＋",
+		"tr_text": "Perfect Combination+"
+	},
+	{
+		"assign": "31441",
+		"jp_text": "レーザーライトバレット",
+		"tr_text": "Laser Light Bullet"
+	},
+	{
+		"assign": "31442",
+		"jp_text": "レーザーライトバレット＋",
+		"tr_text": "Laser Light Bullet+"
+	},
+	{
+		"assign": "31445",
+		"jp_text": "ノーザン・ブリザード",
+		"tr_text": "Northern Blizzard"
+	},
+	{
+		"assign": "31446",
+		"jp_text": "ノーザン・ブリザード＋",
+		"tr_text": "Northern Blizzard+"
+	},
+	{
+		"assign": "31447",
+		"jp_text": "貫撃煌光炎",
+		"tr_text": "Penetrating Flare"
+	},
+	{
+		"assign": "31448",
+		"jp_text": "貫撃煌光炎＋",
+		"tr_text": "Penetrating Flare+"
+	},
+	{
+		"assign": "31449",
+		"jp_text": "メテオライトハンマー",
+		"tr_text": "Meteorite Hammer"
+	},
+	{
+		"assign": "31450",
+		"jp_text": "メテオライトハンマー＋",
+		"tr_text": "Meteorite Hammer+"
+	},
+	{
+		"assign": "31451",
+		"jp_text": "ダークナイトストーム",
+		"tr_text": "Dark Night Storm"
+	},
+	{
+		"assign": "31452",
+		"jp_text": "ダークナイトストーム＋",
+		"tr_text": "Dark Night Storm+"
+	},
+	{
+		"assign": "31455",
+		"jp_text": "天恵の小槌",
+		"tr_text": "Blessed Mallet"
+	},
+	{
+		"assign": "31456",
+		"jp_text": "天恵の小槌＋",
+		"tr_text": "Blessed Mallet+"
+	},
+	{
+		"assign": "31459",
+		"jp_text": "雪嵐隠れの剣",
+		"tr_text": "Blizzard-Cloaked Blade"
+	},
+	{
+		"assign": "31460",
+		"jp_text": "雪嵐隠れの剣＋",
+		"tr_text": "Blizzard-Cloaked Blade+"
+	},
+	{
+		"assign": "31461",
+		"jp_text": "ディメンションフリーズ",
+		"tr_text": "Dimension Freeze"
+	},
+	{
+		"assign": "31462",
+		"jp_text": "ディメンションフリーズ＋",
+		"tr_text": "Dimension Freeze+"
+	},
+	{
+		"assign": "31463",
+		"jp_text": "六世苦根毒",
+		"tr_text": "Agony Unto The Sixth Generation"
+	},
+	{
+		"assign": "31464",
+		"jp_text": "六世苦根毒＋",
+		"tr_text": "Agony Unto The Sixth Generation+"
+	},
+	{
+		"assign": "31465",
+		"jp_text": "雲心の境地",
+		"tr_text": "Clouded Heart"
+	},
+	{
+		"assign": "31466",
+		"jp_text": "雲心の境地＋",
+		"tr_text": "Clouded Heart+"
+	},
+	{
+		"assign": "31467",
+		"jp_text": "厳氷成層斬",
+		"tr_text": "Ice-Bound Slash"
+	},
+	{
+		"assign": "31468",
+		"jp_text": "厳氷成層斬＋",
+		"tr_text": "Ice-Bound Slash+"
+	},
+	{
+		"assign": "31469",
+		"jp_text": "フェアリートリック",
+		"tr_text": "Fairy Trick"
+	},
+	{
+		"assign": "31470",
+		"jp_text": "フェアリートリック＋",
+		"tr_text": "Fairy Trick+"
+	},
+	{
+		"assign": "31471",
+		"jp_text": "リング・オブ・フレンズ",
+		"tr_text": "Ring of Friends"
+	},
+	{
+		"assign": "31472",
+		"jp_text": "リング・オブ・フレンズ＋",
+		"tr_text": "Ring of Friends+"
+	},
+	{
+		"assign": "31473",
+		"jp_text": "風術の極意",
+		"tr_text": "Secret Wind Technique"
+	},
+	{
+		"assign": "31474",
+		"jp_text": "風術の極意＋",
+		"tr_text": "Secret Wind Technique+"
+	},
+	{
+		"assign": "31477",
+		"jp_text": "クリティカル・インフォメーション",
+		"tr_text": "Critical Information"
+	},
+	{
+		"assign": "31478",
+		"jp_text": "クリティカル・インフォメーション＋",
+		"tr_text": "Critical Information+"
+	},
+	{
+		"assign": "31479",
+		"jp_text": "ライジング・サン",
+		"tr_text": "Rising Sun"
+	},
+	{
+		"assign": "31480",
+		"jp_text": "ライジング・サン＋",
+		"tr_text": "Rising Sun+"
+	},
+	{
+		"assign": "31481",
+		"jp_text": "断罪の雷哭剣",
+		"tr_text": "Thunder Blade of Judgement"
+	},
+	{
+		"assign": "31482",
+		"jp_text": "断罪の雷哭剣＋",
+		"tr_text": "Thunder Blade of Judgement+"
+	},
+	{
+		"assign": "31487",
+		"jp_text": "アーマー・ピアシング",
+		"tr_text": "Armor Piercing"
+	},
+	{
+		"assign": "31488",
+		"jp_text": "アーマー・ピアシング＋",
+		"tr_text": "Armor Piercing+"
+	},
+	{
+		"assign": "31489",
+		"jp_text": "迅光の粉砕撃",
+		"tr_text": "Lightspeed Pulverizing"
+	},
+	{
+		"assign": "31490",
+		"jp_text": "迅光の粉砕撃＋",
+		"tr_text": "Lightspeed Pulverizing+"
+	},
+	{
+		"assign": "31491",
+		"jp_text": "光の抱擁",
+		"tr_text": "Light's Embrace"
+	},
+	{
+		"assign": "31492",
+		"jp_text": "光の抱擁＋",
+		"tr_text": "Light's Embrace+"
+	},
+	{
+		"assign": "31493",
+		"jp_text": "焼夷閃光掃滅",
+		"tr_text": "Incinerating Flash"
+	},
+	{
+		"assign": "31494",
+		"jp_text": "焼夷閃光掃滅＋",
+		"tr_text": "Incinerating Flash+"
+	},
+	{
+		"assign": "31495",
+		"jp_text": "ミラージュ・オアシス",
+		"tr_text": "Mirage Oasis"
+	},
+	{
+		"assign": "31496",
+		"jp_text": "ミラージュ・オアシス＋",
+		"tr_text": "Mirage Oasis+"
+	},
+	{
+		"assign": "31497",
+		"jp_text": "アンノウン・トリック",
+		"tr_text": "Unknown Trick"
+	},
+	{
+		"assign": "31498",
+		"jp_text": "アンノウン・トリック＋",
+		"tr_text": "Unknown Trick+"
+	},
+	{
+		"assign": "31501",
+		"jp_text": "モノクローム・キャスト",
+		"tr_text": "Monochrome Cast"
+	},
+	{
+		"assign": "31502",
+		"jp_text": "モノクローム・キャスト＋",
+		"tr_text": "Monochrome Cast+"
+	},
+	{
+		"assign": "31503",
+		"jp_text": "貴石の奇跡",
+		"tr_text": "Gemstone Miracle"
+	},
+	{
+		"assign": "31504",
+		"jp_text": "貴石の奇跡＋",
+		"tr_text": "Gemstone Miracle+"
+	},
+	{
+		"assign": "31505",
+		"jp_text": "瞬殺の爪",
+		"tr_text": "Instant Death Claws"
+	},
+	{
+		"assign": "31506",
+		"jp_text": "瞬殺の爪＋",
+		"tr_text": "Instant Death Claws+"
+	},
+	{
+		"assign": "31511",
+		"jp_text": "不屈の百雷槍",
+		"tr_text": "Thunder Spears of Indomitability"
+	},
+	{
+		"assign": "31512",
+		"jp_text": "不屈の百雷槍＋",
+		"tr_text": "Thunder Spears of Indomitability+"
+	},
+	{
+		"assign": "31513",
+		"jp_text": "ロマンチックバケーション",
+		"tr_text": "Romantic Vacation"
+	},
+	{
+		"assign": "31514",
+		"jp_text": "ロマンチックバケーション＋",
+		"tr_text": "Romantic Vacation+"
+	},
+	{
+		"assign": "31515",
+		"jp_text": "シャイニーパラダイス",
+		"tr_text": "Shining Paradise"
+	},
+	{
+		"assign": "31516",
+		"jp_text": "シャイニーパラダイス＋",
+		"tr_text": "Shining Paradise+"
+	},
+	{
+		"assign": "31521",
+		"jp_text": "氷晶カレイドスコープ",
+		"tr_text": "Ice Crystal Kaleidoscope"
+	},
+	{
+		"assign": "31522",
+		"jp_text": "氷晶カレイドスコープ＋",
+		"tr_text": "Ice Crystal Kaleidoscope+"
+	},
+	{
+		"assign": "31525",
+		"jp_text": "コンバットアナライズ",
+		"tr_text": "Combat Analyze"
+	},
+	{
+		"assign": "31526",
+		"jp_text": "コンバットアナライズ＋",
+		"tr_text": "Combat Analyze+"
+	},
+	{
+		"assign": "31527",
+		"jp_text": "光子強化理論",
+		"tr_text": "Photon Enhancement Theory"
+	},
+	{
+		"assign": "31528",
+		"jp_text": "光子強化理論＋",
+		"tr_text": "Photon Enhancement Theory+"
+	},
+	{
+		"assign": "31529",
+		"jp_text": "紫電万閃",
+		"tr_text": "Violet Flash"
+	},
+	{
+		"assign": "31530",
+		"jp_text": "紫電万閃＋",
+		"tr_text": "Violet Flash+"
+	},
+	{
+		"assign": "31531",
+		"jp_text": "二刃三戒",
+		"tr_text": "Two Blades, Three Commandments"
+	},
+	{
+		"assign": "31532",
+		"jp_text": "二刃三戒＋",
+		"tr_text": "Two Blades, Three Commandments+"
+	},
+	{
+		"assign": "31535",
+		"jp_text": "デュナのうたごえ",
+		"tr_text": "Duna's Singing"
+	},
+	{
+		"assign": "31536",
+		"jp_text": "デュナのうたごえ＋",
+		"tr_text": "Duna's Singing+"
+	},
+	{
+		"assign": "31537",
+		"jp_text": "ブラッディ・ルージュ",
+		"tr_text": "Bloody Rouge"
+	},
+	{
+		"assign": "31538",
+		"jp_text": "ブラッディ・ルージュ＋",
+		"tr_text": "Bloody Rouge+"
+	},
+	{
+		"assign": "31541",
+		"jp_text": "古識の鋭刃",
+		"tr_text": "Old-Fashioned Sharp Blade"
+	},
+	{
+		"assign": "31542",
+		"jp_text": "古識の鋭刃＋",
+		"tr_text": "Old-Fashioned Sharp Blade+"
+	},
+	{
+		"assign": "31545",
+		"jp_text": "パッション・バレット",
+		"tr_text": "Passion Bullet"
+	},
+	{
+		"assign": "31546",
+		"jp_text": "パッション・バレット＋",
+		"tr_text": "Passion Bullet+"
+	},
+	{
+		"assign": "31547",
+		"jp_text": "剣鬼覚醒",
+		"tr_text": "Sword Demon's Awakening"
+	},
+	{
+		"assign": "31548",
+		"jp_text": "剣鬼覚醒＋",
+		"tr_text": "Sword Demon's Awakening+"
+	},
+	{
+		"assign": "31549",
+		"jp_text": "スウィートトリック",
+		"tr_text": "Sweet Trick"
+	},
+	{
+		"assign": "31550",
+		"jp_text": "スウィートトリック＋",
+		"tr_text": "Sweet Trick+"
+	},
+	{
+		"assign": "31551",
+		"jp_text": "怒龍の闘気",
+		"tr_text": "Dragon's Rage"
+	},
+	{
+		"assign": "31552",
+		"jp_text": "怒龍の闘気＋",
+		"tr_text": "Dragon's Rage+"
+	},
+	{
+		"assign": "31553",
+		"jp_text": "トリック・オア・斬る",
+		"tr_text": "Trick or Kill"
+	},
+	{
+		"assign": "31554",
+		"jp_text": "トリック・オア・斬る＋",
+		"tr_text": "Trick or Kill+"
+	},
+	{
+		"assign": "31557",
+		"jp_text": "嵐のラッキーパワー",
+		"tr_text": "Storm's Lucky Power"
+	},
+	{
+		"assign": "31558",
+		"jp_text": "嵐のラッキーパワー＋",
+		"tr_text": "Storm's Lucky Power+"
+	},
+	{
+		"assign": "31559",
+		"jp_text": "光導く守護者の祝福",
+		"tr_text": "Guardian's Blessing"
+	},
+	{
+		"assign": "31560",
+		"jp_text": "光導く守護者の祝福＋",
+		"tr_text": "Guardian's Blessing+"
+	},
+	{
+		"assign": "31561",
+		"jp_text": "光導く守護者の祝福＋＋",
+		"tr_text": "Guardian's Blessing++"
+	},
+	{
+		"assign": "31562",
+		"jp_text": "鋭刃新生",
+		"tr_text": "Edged Creation"
+	},
+	{
+		"assign": "31563",
+		"jp_text": "鋭刃新生＋",
+		"tr_text": "Edged Creation+"
+	},
+	{
+		"assign": "31564",
+		"jp_text": "ブリッツ・ストライク",
+		"tr_text": "Blitz Strike"
+	},
+	{
+		"assign": "31565",
+		"jp_text": "ブリッツ・ストライク＋",
+		"tr_text": "Blitz Strike+"
+	},
+	{
+		"assign": "31568",
+		"jp_text": "シャイニング・レイ",
+		"tr_text": "Shining Ray"
+	},
+	{
+		"assign": "31569",
+		"jp_text": "シャイニング・レイ＋",
+		"tr_text": "Shining Ray+"
+	},
+	{
+		"assign": "31572",
+		"jp_text": "シューティングスターショット",
+		"tr_text": "Shooting Star Shot"
+	},
+	{
+		"assign": "31573",
+		"jp_text": "シューティングスターショット＋",
+		"tr_text": "Shooting Star Shot+"
+	},
+	{
+		"assign": "31574",
+		"jp_text": "クロス・クォーター・バトル",
+		"tr_text": "Close Quarter Battle"
+	},
+	{
+		"assign": "31575",
+		"jp_text": "クロス・クォーター・バトル＋",
+		"tr_text": "Close Quarter Battle+"
+	},
+	{
+		"assign": "31579",
+		"jp_text": "ディナータイム・ディライト",
+		"tr_text": "Dinnertime Delight"
+	},
+	{
+		"assign": "31580",
+		"jp_text": "ディナータイム・ディライト＋",
+		"tr_text": "Dinnertime Delight+"
+	},
+	{
+		"assign": "31583",
+		"jp_text": "業炎炸裂弾",
+		"tr_text": "Explosive Flame Bullet"
+	},
+	{
+		"assign": "31584",
+		"jp_text": "業炎炸裂弾＋",
+		"tr_text": "Explosive Flame Bullet+"
+	},
+	{
+		"assign": "31585",
+		"jp_text": "聖夜のプレゼントソング",
+		"tr_text": "Holy Night Present Song"
+	},
+	{
+		"assign": "31586",
+		"jp_text": "聖夜のプレゼントソング＋",
+		"tr_text": "Holy Night Present Song+"
+	},
+	{
+		"assign": "31587",
+		"jp_text": "ワンダフルギフト",
+		"tr_text": "Wonderful Gift"
+	},
+	{
+		"assign": "31588",
+		"jp_text": "ワンダフルギフト＋",
+		"tr_text": "Wonderful Gift+"
+	},
+	{
+		"assign": "31591",
+		"jp_text": "討魔の一矢",
+		"tr_text": "Demon-Slaying Arrow"
+	},
+	{
+		"assign": "31592",
+		"jp_text": "討魔の一矢＋",
+		"tr_text": "Demon-Slaying Arrow+"
+	},
+	{
+		"assign": "31593",
+		"jp_text": "祈りの星吹雪",
+		"tr_text": "Snowstorm Prayer"
+	},
+	{
+		"assign": "31594",
+		"jp_text": "祈りの星吹雪＋",
+		"tr_text": "Snowstorm Prayer+"
+	},
+	{
+		"assign": "31595",
+		"jp_text": "修羅無尽剣・天断",
+		"tr_text": "Unwearying Blade - Judgment"
+	},
+	{
+		"assign": "31596",
+		"jp_text": "修羅無尽剣・天断＋",
+		"tr_text": "Unwearying Blade - Judgment+"
+	},
+	{
+		"assign": "31597",
+		"jp_text": "ソウルウィッシュエナジー",
+		"tr_text": "Soul Wish Energy"
+	},
+	{
+		"assign": "31598",
+		"jp_text": "ソウルウィッシュエナジー＋",
+		"tr_text": "Soul Wish Energy+"
+	},
+	{
+		"assign": "31601",
+		"jp_text": "雷牙轟砕拳",
+		"tr_text": "Thunder Beast Howling Fist"
+	},
+	{
+		"assign": "31602",
+		"jp_text": "雷牙轟砕拳＋",
+		"tr_text": "Thunder Beast Howling Fist+"
+	},
+	{
+		"assign": "31603",
+		"jp_text": "喧嘩上等無鉄砲",
+		"tr_text": "Reckless Aggression"
+	},
+	{
+		"assign": "31604",
+		"jp_text": "喧嘩上等無鉄砲＋",
+		"tr_text": "Reckless Aggression+"
+	},
+	{
+		"assign": "31607",
+		"jp_text": "レイジィ・ティーブレイク",
+		"tr_text": "Lazy Tea Break"
+	},
+	{
+		"assign": "31608",
+		"jp_text": "レイジィ・ティーブレイク＋",
+		"tr_text": "Lazy Tea Break+"
+	},
+	{
+		"assign": "31611",
+		"jp_text": "カラクリえれきてる砲",
+		"tr_text": "Intricate Electric Artillery"
+	},
+	{
+		"assign": "31612",
+		"jp_text": "カラクリえれきてる砲＋",
+		"tr_text": "Intricate Electric Artillery+"
+	},
+	{
+		"assign": "31613",
+		"jp_text": "想い伝える勇気の一矢",
+		"tr_text": "Arrow of Heart's Desire"
+	},
+	{
+		"assign": "31614",
+		"jp_text": "想い伝える勇気の一矢＋",
+		"tr_text": "Arrow of Heart's Desire+"
+	},
+	{
+		"assign": "31615",
+		"jp_text": "スターライトブレイド",
+		"tr_text": "Starlight Blade"
+	},
+	{
+		"assign": "31616",
+		"jp_text": "スターライトブレイド＋",
+		"tr_text": "Starlight Blade+"
+	},
+	{
+		"assign": "31617",
+		"jp_text": "ラブ＆スウィート１００％",
+		"tr_text": "Love & Sweet 100%"
+	},
+	{
+		"assign": "31618",
+		"jp_text": "ラブ＆スウィート１００％＋",
+		"tr_text": "Love & Sweet 100%+"
+	},
+	{
+		"assign": "31619",
+		"jp_text": "アーレス・バーニングホーン",
+		"tr_text": "Ares Burning Horn"
+	},
+	{
+		"assign": "31620",
+		"jp_text": "アーレス・バーニングホーン＋",
+		"tr_text": "Ares Burning Horn+"
+	},
+	{
+		"assign": "31621",
+		"jp_text": "ライトニング・ブリーチ",
+		"tr_text": "Lightning Breach"
+	},
+	{
+		"assign": "31622",
+		"jp_text": "ライトニング・ブリーチ＋",
+		"tr_text": "Lightning Breach+"
+	},
+	{
+		"assign": "31623",
+		"jp_text": "ライトニング・ブリーチ＋＋",
+		"tr_text": "Lightning Breach++"
+	},
+	{
+		"assign": "31626",
+		"jp_text": "死線のバレットロンド",
+		"tr_text": "Deadline Bullet Rondo"
+	},
+	{
+		"assign": "31627",
+		"jp_text": "死線のバレットロンド＋",
+		"tr_text": "Deadline Bullet Rondo+"
+	},
+	{
+		"assign": "31628",
+		"jp_text": "ライトニングパニッシュ",
+		"tr_text": "Lightning Punish"
+	},
+	{
+		"assign": "31629",
+		"jp_text": "ライトニングパニッシュ＋",
+		"tr_text": "Lightning Punish+"
+	},
+	{
+		"assign": "31630",
+		"jp_text": "レッドブレイブ・轟炎斬",
+		"tr_text": "Red Brave - Inferno Slash"
+	},
+	{
+		"assign": "31631",
+		"jp_text": "レッドブレイブ・轟炎斬＋",
+		"tr_text": "Red Brave - Inferno Slash+"
+	},
+	{
+		"assign": "31632",
+		"jp_text": "レッドブレイブ・轟炎斬＋＋",
+		"tr_text": "Red Brave - Inferno Slash++"
+	},
+	{
+		"assign": "31636",
+		"jp_text": "双牙同調・二連咬錯",
+		"tr_text": "Harmonized Fangs - Double Bite"
+	},
+	{
+		"assign": "31637",
+		"jp_text": "双牙同調・二連咬錯＋",
+		"tr_text": "Harmonized Fangs - Double Bite+"
+	},
+	{
+		"assign": "31638",
+		"jp_text": "バーニングハートスナイパー",
+		"tr_text": "Burning Heart Sniper"
+	},
+	{
+		"assign": "31639",
+		"jp_text": "バーニングハートスナイパー＋",
+		"tr_text": "Burning Heart Sniper+"
+	},
+	{
+		"assign": "31640",
+		"jp_text": "零の助勢",
+		"tr_text": "Zero's Support"
+	},
+	{
+		"assign": "31641",
+		"jp_text": "零の助勢＋",
+		"tr_text": "Zero's Support+"
+	},
+	{
+		"assign": "31642",
+		"jp_text": "ダンシングバレット",
+		"tr_text": "Dancing Bullet"
+	},
+	{
+		"assign": "31643",
+		"jp_text": "ダンシングバレット＋",
+		"tr_text": "Dancing Bullet+"
+	},
+	{
+		"assign": "31648",
+		"jp_text": "太陽と月の神楽",
+		"tr_text": "Kagura of the Sun and the Moon"
+	},
+	{
+		"assign": "31649",
+		"jp_text": "太陽と月の神楽＋",
+		"tr_text": "Kagura of the Sun and the Moon+"
+	},
+	{
+		"assign": "31650",
+		"jp_text": "アーレス・タイフーンスティング",
+		"tr_text": "Ares Typhoon Sting"
+	},
+	{
+		"assign": "31651",
+		"jp_text": "アーレス・タイフーンスティング＋",
+		"tr_text": "Ares Typhoon Sting+"
+	},
+	{
+		"assign": "31654",
+		"jp_text": "錬気の元素刃",
+		"tr_text": "Refined Elemental Blades"
+	},
+	{
+		"assign": "31655",
+		"jp_text": "錬気の元素刃＋",
+		"tr_text": "Refined Elemental Blades+"
+	},
+	{
+		"assign": "31656",
+		"jp_text": "全砲門一斉射",
+		"tr_text": "All Guns Blazing"
+	},
+	{
+		"assign": "31657",
+		"jp_text": "全砲門一斉射＋",
+		"tr_text": "All Guns Blazing+"
+	},
+	{
+		"assign": "31658",
+		"jp_text": "感謝のアニバーサリー",
+		"tr_text": "Anniversary Gratitude"
+	},
+	{
+		"assign": "31659",
+		"jp_text": "感謝のアニバーサリー＋",
+		"tr_text": "Anniversary Gratitude"
+	},
+	{
+		"assign": "31660",
+		"jp_text": "おめでとうのうた",
+		"tr_text": "Song of Congratulation"
+	},
+	{
+		"assign": "31661",
+		"jp_text": "おめでとうのうた＋",
+		"tr_text": "Song of Congratulation+"
+	},
+	{
+		"assign": "31669",
+		"jp_text": "ホーリーブレッシング",
+		"tr_text": "Holy Blessing"
+	},
+	{
+		"assign": "31670",
+		"jp_text": "ホーリーブレッシング＋",
+		"tr_text": "Holy Blessing+"
+	},
+	{
+		"assign": "31671",
+		"jp_text": "ベルセルクウイング",
+		"tr_text": "Berserk Wing"
+	},
+	{
+		"assign": "31672",
+		"jp_text": "ベルセルクウイング＋",
+		"tr_text": "Berserk Wing+"
+	},
+	{
+		"assign": "31675",
+		"jp_text": "かんしゃのきもち",
+		"tr_text": "Feelings of Gratitude"
+	},
+	{
+		"assign": "31676",
+		"jp_text": "かんしゃのきもち＋",
+		"tr_text": "Feelings of Gratitude+"
+	},
+	{
+		"assign": "31679",
+		"jp_text": "バトルスピリット",
+		"tr_text": "Battle Spirit"
+	},
+	{
+		"assign": "31680",
+		"jp_text": "バトルスピリット＋",
+		"tr_text": "Battle Spirit+"
+	},
+	{
+		"assign": "31681",
+		"jp_text": "アーレス・トルネイドスラッシュ",
+		"tr_text": "Ares Tornado Slash"
+	},
+	{
+		"assign": "31682",
+		"jp_text": "アーレス・トルネイドスラッシュ＋",
+		"tr_text": "Ares Tornado Slash+"
+	},
+	{
+		"assign": "31683",
+		"jp_text": "アーレス☆エレクトリックライブ",
+		"tr_text": "Ares ☆ Electric Live"
+	},
+	{
+		"assign": "31684",
+		"jp_text": "アーレス☆エレクトリックライブ＋",
+		"tr_text": "Ares ☆ Electric Live+"
+	},
+	{
+		"assign": "31685",
+		"jp_text": "オペレーション・フォーユー",
+		"tr_text": "Operation For You"
+	},
+	{
+		"assign": "31686",
+		"jp_text": "オペレーション・フォーユー＋",
+		"tr_text": "Operation For You+"
+	},
+	{
+		"assign": "31687",
+		"jp_text": "グリーンシャープ・巧兵陣",
+		"tr_text": "Green Sharp - Expert Squad"
+	},
+	{
+		"assign": "31688",
+		"jp_text": "グリーンシャープ・巧兵陣＋",
+		"tr_text": "Green Sharp - Expert Squad+"
+	},
+	{
+		"assign": "31689",
+		"jp_text": "イリュージョン＆エリミネート",
+		"tr_text": "Illusion & Eliminate"
+	},
+	{
+		"assign": "31690",
+		"jp_text": "イリュージョン＆エリミネート＋",
+		"tr_text": "Illusion & Eliminate+"
+	},
+	{
+		"assign": "31691",
+		"jp_text": "イリュージョン＆エリミネート＋＋",
+		"tr_text": "Illusion & Eliminate++"
+	},
+	{
+		"assign": "31692",
+		"jp_text": "ブーストタービンパンチ",
+		"tr_text": "Boost Turbine Punch"
+	},
+	{
+		"assign": "31693",
+		"jp_text": "ブーストタービンパンチ＋",
+		"tr_text": "Boost Turbine Punch+"
+	},
+	{
+		"assign": "31694",
+		"jp_text": "月影夜桜吹雪",
+		"tr_text": "Moonlit Cherry Blossom"
+	},
+	{
+		"assign": "31695",
+		"jp_text": "月影夜桜吹雪＋",
+		"tr_text": "Moonlit Cherry Blossom+"
+	},
+	{
+		"assign": "31696",
+		"jp_text": "栄光の赤薔薇",
+		"tr_text": "Red Rose of Glory"
+	},
+	{
+		"assign": "31697",
+		"jp_text": "栄光の赤薔薇＋",
+		"tr_text": "Red Rose of Glory+"
+	},
+	{
+		"assign": "31698",
+		"jp_text": "衝撃的マッスルコンバット",
+		"tr_text": "Spectacular Muscle Combat"
+	},
+	{
+		"assign": "31699",
+		"jp_text": "衝撃的マッスルコンバット＋",
+		"tr_text": "Spectacular Muscle Combat+"
+	},
+	{
+		"assign": "31705",
+		"jp_text": "純白の誓い",
+		"tr_text": "Pure White Oath"
+	},
+	{
+		"assign": "31706",
+		"jp_text": "純白の誓い＋",
+		"tr_text": "Pure White Oath+"
+	},
+	{
+		"assign": "31707",
+		"jp_text": "激励アニマート",
+		"tr_text": "Encouragement Animato"
+	},
+	{
+		"assign": "31708",
+		"jp_text": "激励アニマート＋",
+		"tr_text": "Encouragement Animato+"
+	},
+	{
+		"assign": "31709",
+		"jp_text": "新光一刀流・風迅",
+		"tr_text": "Pristine Sword Style - Swift Wind"
+	},
+	{
+		"assign": "31710",
+		"jp_text": "新光一刀流・風迅＋",
+		"tr_text": "Pristine Sword Style - Swift Wind+"
+	},
+	{
+		"assign": "31715",
+		"jp_text": "ＥＭＥＲＡＬＤ ＨＡＲＭＯＮＹ",
+		"tr_text": "EMERALD HARMONY"
+	},
+	{
+		"assign": "31716",
+		"jp_text": "ＥＭＥＲＡＬＤ ＨＡＲＭＯＮＹ＋",
+		"tr_text": "EMERALD HARMONY+"
+	},
+	{
+		"assign": "31717",
+		"jp_text": "ＧＯＬＤ ＷＥＡＶＥＲ",
+		"tr_text": "GOLD WEAVER"
+	},
+	{
+		"assign": "31718",
+		"jp_text": "ＧＯＬＤ ＷＥＡＶＥＲ＋",
+		"tr_text": "GOLD WEAVER+"
+	},
+	{
+		"assign": "31719",
+		"jp_text": "ＬＩＢＥＲＡＴＥＤ ＦＬＡＭＥ",
+		"tr_text": "LIBERATED FLAME"
+	},
+	{
+		"assign": "31720",
+		"jp_text": "ＬＩＢＥＲＡＴＥＤ ＦＬＡＭＥ＋",
+		"tr_text": "LIBERATED FLAME+"
+	},
+	{
+		"assign": "31721",
+		"jp_text": "エンジェルライト",
+		"tr_text": "Angel Light"
+	},
+	{
+		"assign": "31722",
+		"jp_text": "エンジェルライト＋",
+		"tr_text": "Angel Light+"
+	},
+	{
+		"assign": "31723",
+		"jp_text": "アーレス・フロストステップ",
+		"tr_text": "Ares Frost Step"
+	},
+	{
+		"assign": "31724",
+		"jp_text": "アーレス・フロストステップ＋",
+		"tr_text": "Ares Frost Step+"
+	},
+	{
+		"assign": "31725",
+		"jp_text": "カオス・タクティクス",
+		"tr_text": "Chaos Tactics"
+	},
+	{
+		"assign": "31726",
+		"jp_text": "カオス・タクティクス＋",
+		"tr_text": "Chaos Tactics+"
+	},
+	{
+		"assign": "31727",
+		"jp_text": "抱擁コン・アモーレ",
+		"tr_text": "Embrace Con Amore"
+	},
+	{
+		"assign": "31728",
+		"jp_text": "抱擁コン・アモーレ＋",
+		"tr_text": "Embrace Con Amore+"
+	},
+	{
+		"assign": "31731",
+		"jp_text": "鋭盾ブルークレイバー",
+		"tr_text": "Blue Clever - Sharp Shield"
+	},
+	{
+		"assign": "31732",
+		"jp_text": "鋭盾ブルークレイバー＋",
+		"tr_text": "Blue Clever - Sharp Shield+"
+	},
+	{
+		"assign": "31736",
+		"jp_text": "致命の千刃クナイ",
+		"tr_text": "Thousand Blades of Death"
+	},
+	{
+		"assign": "31737",
+		"jp_text": "致命の千刃クナイ＋",
+		"tr_text": "Thousand Blades of Death+"
+	},
+	{
+		"assign": "31738",
+		"jp_text": "悠久なる時の祈り",
+		"tr_text": "Prayer for Eternity"
+	},
+	{
+		"assign": "31739",
+		"jp_text": "悠久なる時の祈り＋",
+		"tr_text": "Prayer for Eternity+"
+	},
+	{
+		"assign": "31740",
+		"jp_text": "その熱き心を胸に",
+		"tr_text": "With That Hot Heart In Your Chest"
+	},
+	{
+		"assign": "31741",
+		"jp_text": "その熱き心を胸に＋",
+		"tr_text": "With That Hot Heart In Your Chest+"
+	},
+	{
+		"assign": "31744",
+		"jp_text": "サンシャイン大砲撃",
+		"tr_text": "Sunshine Barrage"
+	},
+	{
+		"assign": "31745",
+		"jp_text": "サンシャイン大砲撃＋",
+		"tr_text": "Sunshine Barrage+"
+	},
+	{
+		"assign": "31746",
+		"jp_text": "オーシャンズ・ブルー",
+		"tr_text": "Ocean's Blue"
+	},
+	{
+		"assign": "31747",
+		"jp_text": "オーシャンズ・ブルー＋",
+		"tr_text": "Ocean's Blue+"
+	},
+	{
+		"assign": "31755",
+		"jp_text": "破砕の魔弾",
+		"tr_text": "Crushing Devil Bullet"
+	},
+	{
+		"assign": "31756",
+		"jp_text": "破砕の魔弾＋",
+		"tr_text": "Crushing Devil Bullet+"
+	},
+	{
+		"assign": "31761",
+		"jp_text": "アーレス・フルメタルガード",
+		"tr_text": "Ares Full Metal Guard"
+	},
+	{
+		"assign": "31762",
+		"jp_text": "アーレス・フルメタルガード＋",
+		"tr_text": "Ares Full Metal Guard+"
+	},
+	{
+		"assign": "31763",
+		"jp_text": "イエロージョイフル・満福力",
+		"tr_text": "Yellow Joyful - Full Power"
+	},
+	{
+		"assign": "31764",
+		"jp_text": "イエロージョイフル・満福力＋",
+		"tr_text": "Yellow Joyful - Full Power+"
+	},
+	{
+		"assign": "31765",
+		"jp_text": "騎士女王の大号令",
+		"tr_text": "Knightess Queen's Decree"
+	},
+	{
+		"assign": "31766",
+		"jp_text": "騎士女王の大号令＋",
+		"tr_text": "Knightess Queen's Decree+"
+	},
+	{
+		"assign": "31767",
+		"jp_text": "騎士女王の大号令＋＋",
+		"tr_text": "Knightess Queen's Decree++"
+	},
+	{
+		"assign": "31768",
+		"jp_text": "風雅月光剣",
+		"tr_text": "Elegant Moonlight Sword"
+	},
+	{
+		"assign": "31769",
+		"jp_text": "風雅月光剣＋",
+		"tr_text": "Elegant Moonlight Sword+"
+	},
+	{
+		"assign": "31770",
+		"jp_text": "ソウルサクセション",
+		"tr_text": "Soul Succession"
+	},
+	{
+		"assign": "31771",
+		"jp_text": "ソウルサクセション＋",
+		"tr_text": "Soul Succession+"
+	},
+	{
+		"assign": "31774",
+		"jp_text": "シューティングスター・ソード",
+		"tr_text": "Shooting Star Sword"
+	},
+	{
+		"assign": "31775",
+		"jp_text": "シューティングスター・ソード＋",
+		"tr_text": "Shooting Star Sword+"
+	},
+	{
+		"assign": "31776",
+		"jp_text": "サクリファイス・ブラッド",
+		"tr_text": "Sacrifice Blood"
+	},
+	{
+		"assign": "31777",
+		"jp_text": "サクリファイス・ブラッド＋",
+		"tr_text": "Sacrifice Blood+"
+	},
+	{
+		"assign": "31782",
+		"jp_text": "狂炎突撃",
+		"tr_text": "Hot-Blooded Assault"
+	},
+	{
+		"assign": "31783",
+		"jp_text": "狂炎突撃＋",
+		"tr_text": "Hot-Blooded Assault+"
+	},
+	{
+		"assign": "31784",
+		"jp_text": "一弾一殺",
+		"tr_text": "One Shot, One Kill"
+	},
+	{
+		"assign": "31785",
+		"jp_text": "一弾一殺＋",
+		"tr_text": "One Shot, One Kill+"
+	},
+	{
+		"assign": "31786",
+		"jp_text": "勝利への指揮",
+		"tr_text": "Command to Victory"
+	},
+	{
+		"assign": "31787",
+		"jp_text": "勝利への指揮＋",
+		"tr_text": "Command to Victory+"
+	},
+	{
+		"assign": "31792",
+		"jp_text": "連飛翔スワン＆レイヴン",
+		"tr_text": "Paired Fliers Swan & Raven"
+	},
+	{
+		"assign": "31793",
+		"jp_text": "連飛翔スワン＆レイヴン＋",
+		"tr_text": "Paired Fliers Swan & Raven+"
+	},
+	{
+		"assign": "31796",
+		"jp_text": "きらめき・ロリポップ",
+		"tr_text": "Twinkle Lollipop"
+	},
+	{
+		"assign": "31797",
+		"jp_text": "きらめき・ロリポップ＋",
+		"tr_text": "Twinkle Lollipop+"
+	},
+	{
+		"assign": "31798",
+		"jp_text": "ウイッチスターブレス",
+		"tr_text": "Witch Star Blessing"
+	},
+	{
+		"assign": "31799",
+		"jp_text": "ウイッチスターブレス＋",
+		"tr_text": "Witch Star Blessing+"
+	},
+	{
+		"assign": "31800",
+		"jp_text": "情熱リソルート",
+		"tr_text": "Passionate Resolute"
+	},
+	{
+		"assign": "31801",
+		"jp_text": "情熱リソルート＋",
+		"tr_text": "Passionate Resolute+"
+	},
+	{
+		"assign": "31802",
+		"jp_text": "ニャンだふるトリック",
+		"tr_text": "Pussycat's Trick"
+	},
+	{
+		"assign": "31803",
+		"jp_text": "ニャンだふるトリック＋",
+		"tr_text": "Pussycat's Trick+"
+	},
+	{
+		"assign": "31804",
+		"jp_text": "嵐舞・絶命斬",
+		"tr_text": "Storm Dance - Decapitation"
+	},
+	{
+		"assign": "31805",
+		"jp_text": "嵐舞・絶命斬＋",
+		"tr_text": "Storm Dance - Decapitation+"
+	},
+	{
+		"assign": "31806",
+		"jp_text": "嵐舞・絶命斬＋＋",
+		"tr_text": "Storm Dance - Decapitation++"
+	},
+	{
+		"assign": "31807",
+		"jp_text": "ブライトシャドウ",
+		"tr_text": "Bright Shadow"
+	},
+	{
+		"assign": "31808",
+		"jp_text": "ブライトシャドウ＋",
+		"tr_text": "Bright Shadow+"
+	},
+	{
+		"assign": "31809",
+		"jp_text": "乱れ撃つ変革の銃弾",
+		"tr_text": "Revolutionary Bullet"
+	},
+	{
+		"assign": "31810",
+		"jp_text": "乱れ撃つ変革の銃弾＋",
+		"tr_text": "Revolutionary Bullet+"
+	},
+	{
+		"assign": "31811",
+		"jp_text": "ノーブルハンティング",
+		"tr_text": "Noble Hunting"
+	},
+	{
+		"assign": "31812",
+		"jp_text": "ノーブルハンティング＋",
+		"tr_text": "Noble Hunting+"
+	},
+	{
+		"assign": "31813",
+		"jp_text": "現場突入準備よし！",
+		"tr_text": "Get Ready to Rush In!"
+	},
+	{
+		"assign": "31814",
+		"jp_text": "現場突入準備よし！＋",
+		"tr_text": "Get Ready to Rush In!+"
+	},
+	{
+		"assign": "31815",
+		"jp_text": "堅実グラーヴェ",
+		"tr_text": "Giusto e Grave"
+	},
+	{
+		"assign": "31816",
+		"jp_text": "堅実グラーヴェ＋",
+		"tr_text": "Giusto e Grave+"
+	},
+	{
+		"assign": "31817",
+		"jp_text": "聖夜の奇跡",
+		"tr_text": "Miracle of the Holy Night"
+	},
+	{
+		"assign": "31818",
+		"jp_text": "聖夜の奇跡＋",
+		"tr_text": "Miracle of the Holy Night+"
+	},
+	{
+		"assign": "31819",
+		"jp_text": "コール・ド・バレエ",
+		"tr_text": "Corps de Ballet"
+	},
+	{
+		"assign": "31820",
+		"jp_text": "コール・ド・バレエ＋",
+		"tr_text": "Corps de Ballet+"
+	},
+	{
+		"assign": "31821",
+		"jp_text": "マイティ・ファングブロー",
+		"tr_text": "Mighty Fang Blow"
+	},
+	{
+		"assign": "31822",
+		"jp_text": "マイティ・ファングブロー＋",
+		"tr_text": "Mighty Fang Blow+"
+	},
+	{
+		"assign": "31825",
+		"jp_text": "今日だけはリア充",
+		"tr_text": "One Day for Reality"
+	},
+	{
+		"assign": "31826",
+		"jp_text": "今日だけはリア充＋",
+		"tr_text": "One Day for Reality+"
+	},
+	{
+		"assign": "31827",
+		"jp_text": "深き闇へ還れ",
+		"tr_text": "Return to Deepest Darkness"
+	},
+	{
+		"assign": "31828",
+		"jp_text": "深き闇へ還れ＋",
+		"tr_text": "Return to Deepest Darkness+"
+	},
+	{
+		"assign": "31829",
+		"jp_text": "深き闇へ還れ＋＋",
+		"tr_text": "Return to Deepest Darkness++"
+	},
+	{
+		"assign": "31832",
+		"jp_text": "サンタ・エクスプレス",
+		"tr_text": "Santa Express"
+	},
+	{
+		"assign": "31833",
+		"jp_text": "サンタ・エクスプレス＋",
+		"tr_text": "Santa Express+"
+	},
+	{
+		"assign": "31836",
+		"jp_text": "良縁結びの神楽",
+		"tr_text": "Kagura of a Perfect Union"
+	},
+	{
+		"assign": "31837",
+		"jp_text": "良縁結びの神楽＋",
+		"tr_text": "Kagura of a Perfect Union+"
+	},
+	{
+		"assign": "31838",
+		"jp_text": "巫女の御利益",
+		"tr_text": "Shrine Maiden's Blessing"
+	},
+	{
+		"assign": "31839",
+		"jp_text": "巫女の御利益＋",
+		"tr_text": "Shrine Maiden's Blessing+"
+	},
+	{
+		"assign": "31854",
+		"jp_text": "親愛の風",
+		"tr_text": "Affectionate Wind"
+	},
+	{
+		"assign": "31855",
+		"jp_text": "親愛の風＋",
+		"tr_text": "Affectionate Wind+"
+	},
+	{
+		"assign": "31856",
+		"jp_text": "確殺の雷",
+		"tr_text": "Murderous Lightning"
+	},
+	{
+		"assign": "31857",
+		"jp_text": "確殺の雷＋",
+		"tr_text": "Murderous Lightning+"
+	},
+	{
+		"assign": "31860",
+		"jp_text": "ドラマティカル・ブレード",
+		"tr_text": "Dramatic Blade"
+	},
+	{
+		"assign": "31861",
+		"jp_text": "ドラマティカル・ブレード＋",
+		"tr_text": "Dramatic Blade+"
+	},
+	{
+		"assign": "31862",
+		"jp_text": "炎嵐来々",
+		"tr_text": "The Firestorm Cometh"
+	},
+	{
+		"assign": "31863",
+		"jp_text": "炎嵐来々＋",
+		"tr_text": "The Firestorm Cometh+"
+	},
+	{
+		"assign": "31866",
+		"jp_text": "フリージング・ファイア",
+		"tr_text": "Freezing Fire"
+	},
+	{
+		"assign": "31867",
+		"jp_text": "フリージング・ファイア＋",
+		"tr_text": "Freezing Fire+"
+	},
+	{
+		"assign": "31868",
+		"jp_text": "果断の炎",
+		"tr_text": "Resolute Fire"
+	},
+	{
+		"assign": "31869",
+		"jp_text": "果断の炎＋",
+		"tr_text": "Resolute Fire+"
+	},
+	{
+		"assign": "31870",
+		"jp_text": "不惑の闇",
+		"tr_text": "Practiced Darkness"
+	},
+	{
+		"assign": "31871",
+		"jp_text": "不惑の闇＋",
+		"tr_text": "Practiced Darkness+"
+	},
+	{
+		"assign": "31872",
+		"jp_text": "ビタースウィートハート",
+		"tr_text": "Bittersweet Heart"
+	},
+	{
+		"assign": "31873",
+		"jp_text": "ビタースウィートハート＋",
+		"tr_text": "Bittersweet Heart+"
+	},
+	{
+		"assign": "31874",
+		"jp_text": "フォレスト・マイスター",
+		"tr_text": "Forest Meister"
+	},
+	{
+		"assign": "31875",
+		"jp_text": "フォレスト・マイスター＋",
+		"tr_text": "Forest Meister+"
+	},
+	{
+		"assign": "31876",
+		"jp_text": "回帰へ導く守護者の断罪",
+		"tr_text": "Guiding Guardian's Guilt"
+	},
+	{
+		"assign": "31877",
+		"jp_text": "回帰へ導く守護者の断罪＋",
+		"tr_text": "Guiding Guardian's Guilt+"
+	},
+	{
+		"assign": "31878",
+		"jp_text": "回帰へ導く守護者の断罪＋＋",
+		"tr_text": "Guiding Guardian's Guilt++"
+	},
+	{
+		"assign": "31879",
+		"jp_text": "高潔の光",
+		"tr_text": "Noble Light"
+	},
+	{
+		"assign": "31880",
+		"jp_text": "高潔の光＋",
+		"tr_text": "Noble Light+"
+	},
+	{
+		"assign": "31883",
+		"jp_text": "恋の託宣",
+		"tr_text": "Prophecy of Love"
+	},
+	{
+		"assign": "31884",
+		"jp_text": "恋の託宣＋",
+		"tr_text": "Prophecy of Love+"
+	},
+	{
+		"assign": "31889",
+		"jp_text": "デスパレート・ラッシュ",
+		"tr_text": "Desperate Rush"
+	},
+	{
+		"assign": "31890",
+		"jp_text": "デスパレート・ラッシュ＋",
+		"tr_text": "Desperate Rush+"
+	},
+	{
+		"assign": "31891",
+		"jp_text": "ティアーズ オブ レティクル",
+		"tr_text": "Tears of Reticle"
+	},
+	{
+		"assign": "31892",
+		"jp_text": "ティアーズ オブ レティクル＋",
+		"tr_text": "Tears of Reticle+"
+	},
+	{
+		"assign": "31893",
+		"jp_text": "増強魔法の方程式",
+		"tr_text": "Augmented Magical Equation"
+	},
+	{
+		"assign": "31894",
+		"jp_text": "増強魔法の方程式＋",
+		"tr_text": "Augmented Magical Equation+"
+	},
+	{
+		"assign": "31895",
+		"jp_text": "プライベート・セクレタリ",
+		"tr_text": "Private Secretary"
+	},
+	{
+		"assign": "31896",
+		"jp_text": "プライベート・セクレタリ＋",
+		"tr_text": "Private Secretary+"
+	},
+	{
+		"assign": "31897",
+		"jp_text": "ホワイト・ラブトラップ",
+		"tr_text": "White Love Trap"
+	},
+	{
+		"assign": "31898",
+		"jp_text": "ホワイト・ラブトラップ＋",
+		"tr_text": "White Love Trap+"
+	},
+	{
+		"assign": "31905",
+		"jp_text": "乙女の花園",
+		"tr_text": "Maiden's Garden"
+	},
+	{
+		"assign": "31906",
+		"jp_text": "乙女の花園＋",
+		"tr_text": "Maiden's Garden+"
+	},
+	{
+		"assign": "31910",
+		"jp_text": "時にはクールに……やっぱ無理",
+		"tr_text": "Being Cool... Is Sometimes Impossible"
+	},
+	{
+		"assign": "31911",
+		"jp_text": "時にはクールに……やっぱ無理＋",
+		"tr_text": "Being Cool... Is Sometimes Impossible+"
+	},
+	{
+		"assign": "31912",
+		"jp_text": "身蝕の禍毒",
+		"tr_text": "Flesh-Devouring Toxin"
+	},
+	{
+		"assign": "31913",
+		"jp_text": "身蝕の禍毒＋",
+		"tr_text": "Flesh-Devouring Toxin+"
+	},
+	{
+		"assign": "31914",
+		"jp_text": "祝祭のチアフル・エール",
+		"tr_text": "Festival's Cheerful Ale"
+	},
+	{
+		"assign": "31915",
+		"jp_text": "祝祭のチアフル・エール＋",
+		"tr_text": "Festival's Cheerful Ale+"
+	},
+	{
+		"assign": "31916",
+		"jp_text": "雷電術式ノ拾参・クレバライト",
+		"tr_text": "Lightning Art No. 13: Clever Light"
+	},
+	{
+		"assign": "31917",
+		"jp_text": "雷電術式ノ拾参・クレバライト＋",
+		"tr_text": "Lightning Art No. 13: Clever Light+"
+	},
+	{
+		"assign": "31918",
+		"jp_text": "安らぎの子守唄",
+		"tr_text": "Comforting Lullaby"
+	},
+	{
+		"assign": "31919",
+		"jp_text": "安らぎの子守唄＋",
+		"tr_text": "Comforting Lullaby+"
+	},
+	{
+		"assign": "31920",
+		"jp_text": "烈斬スカルダークネス",
+		"tr_text": "Head Hunter - Skull Darkness"
+	},
+	{
+		"assign": "31921",
+		"jp_text": "烈斬スカルダークネス＋",
+		"tr_text": "Head Hunter - Skull Darkness+"
+	},
+	{
+		"assign": "31924",
+		"jp_text": "アイス・マスカレード",
+		"tr_text": "Ice Masquerade"
+	},
+	{
+		"assign": "31925",
+		"jp_text": "アイス・マスカレード＋",
+		"tr_text": "Ice Masquerade+"
+	},
+	{
+		"assign": "31926",
+		"jp_text": "爆破への情熱",
+		"tr_text": "Passion for Explosions"
+	},
+	{
+		"assign": "31927",
+		"jp_text": "爆破への情熱＋",
+		"tr_text": "Passion for Explosions+"
+	},
+	{
+		"assign": "31928",
+		"jp_text": "ロジカル・エッジ",
+		"tr_text": "Logical Edge"
+	},
+	{
+		"assign": "31929",
+		"jp_text": "ロジカル・エッジ＋",
+		"tr_text": "Logical Edge+"
+	},
+	{
+		"assign": "31930",
+		"jp_text": "ダークニクス・ストライク",
+		"tr_text": "Darknix Strike"
+	},
+	{
+		"assign": "31931",
+		"jp_text": "ダークニクス・ストライク＋",
+		"tr_text": "Darknix Strike+"
+	},
+	{
+		"assign": "31932",
+		"jp_text": "ふたりで歩む過去と未来",
+		"tr_text": "Past and Future Hand in Hand"
+	},
+	{
+		"assign": "31933",
+		"jp_text": "ふたりで歩む過去と未来＋",
+		"tr_text": "Past and Future Hand in Hand+"
+	},
+	{
+		"assign": "31934",
+		"jp_text": "よろしくしておくれよ！",
+		"tr_text": "Sorry I'm Late!"
+	},
+	{
+		"assign": "31935",
+		"jp_text": "よろしくしておくれよ！＋",
+		"tr_text": "Sorry I'm Late!+"
+	},
+	{
+		"assign": "31936",
+		"jp_text": "スカルフレイム幻惑弾",
+		"tr_text": "Phantom Bullet - Skull Flame"
+	},
+	{
+		"assign": "31937",
+		"jp_text": "スカルフレイム幻惑弾＋",
+		"tr_text": "Phantom Bullet - Skull Flame+"
+	},
+	{
+		"assign": "31940",
+		"jp_text": "ブラックダークジャックポット",
+		"tr_text": "Black Dark Jackpot"
+	},
+	{
+		"assign": "31941",
+		"jp_text": "ブラックダークジャックポット＋",
+		"tr_text": "Black Dark Jackpot+"
+	},
+	{
+		"assign": "31942",
+		"jp_text": "ブラックダークジャックポット＋＋",
+		"tr_text": "Black Dark Jackpot++"
+	},
+	{
+		"assign": "31943",
+		"jp_text": "憤怒の雷禍",
+		"tr_text": "Furious Thunderclap"
+	},
+	{
+		"assign": "31944",
+		"jp_text": "憤怒の雷禍＋",
+		"tr_text": "Furious Thunderclap+"
+	},
+	{
+		"assign": "31945",
+		"jp_text": "スカルエアリアル乱陣掃射",
+		"tr_text": "Random Sweep - Skull Aerial"
+	},
+	{
+		"assign": "31946",
+		"jp_text": "スカルエアリアル乱陣掃射＋",
+		"tr_text": "Random Sweep - Skull Aerial"
+	},
+	{
+		"assign": "31947",
+		"jp_text": "カラフル・フェスティバル",
+		"tr_text": "Colorful Festival"
+	},
+	{
+		"assign": "31948",
+		"jp_text": "カラフル・フェスティバル＋",
+		"tr_text": "Colorful Festival+"
+	},
+	{
+		"assign": "31955",
+		"jp_text": "１０８０・リュミナス",
+		"tr_text": "1080 Luminous"
+	},
+	{
+		"assign": "31956",
+		"jp_text": "１０８０・リュミナス＋",
+		"tr_text": "1080 Luminous+"
+	},
+	{
+		"assign": "31957",
+		"jp_text": "聖騎士の真価",
+		"tr_text": "Holy Knight's True Worth"
+	},
+	{
+		"assign": "31958",
+		"jp_text": "聖騎士の真価＋",
+		"tr_text": "Holy Knight's True Worth+"
+	},
+	{
+		"assign": "31959",
+		"jp_text": "遥かなる憧憬の光刃",
+		"tr_text": "Light Blade of Distant Dreams"
+	},
+	{
+		"assign": "31960",
+		"jp_text": "遥かなる憧憬の光刃＋",
+		"tr_text": "Light Blade of Distant Dreams+"
+	},
+	{
+		"assign": "31961",
+		"jp_text": "騎士道十戒の１、プラウエス！",
+		"tr_text": "The 1st Rule of Chivalry, Prowess!"
+	},
+	{
+		"assign": "31962",
+		"jp_text": "騎士道十戒の１、プラウエス！＋",
+		"tr_text": "The 1st Rule of Chivalry, Prowess!+"
+	},
+	{
+		"assign": "31969",
+		"jp_text": "渦中の氷壁",
+		"tr_text": "Ice Wall in the Middle of Chaos"
+	},
+	{
+		"assign": "31970",
+		"jp_text": "渦中の氷壁＋",
+		"tr_text": "Ice Wall in the Middle of Chaos+"
+	},
+	{
+		"assign": "31971",
+		"jp_text": "ウェディングメモリー",
+		"tr_text": "Wedding Memory"
+	},
+	{
+		"assign": "31972",
+		"jp_text": "ウェディングメモリー＋",
+		"tr_text": "Wedding Memory+"
+	},
+	{
+		"assign": "31975",
+		"jp_text": "闇は光を連れて",
+		"tr_text": "Light from Darkness"
+	},
+	{
+		"assign": "31976",
+		"jp_text": "闇は光を連れて＋",
+		"tr_text": "Light from Darkness+"
+	},
+	{
+		"assign": "31982",
+		"jp_text": "どんなスイーツできるかな？",
+		"tr_text": "What Sweets Can You Make?"
+	},
+	{
+		"assign": "31983",
+		"jp_text": "どんなスイーツできるかな？＋",
+		"tr_text": "What Sweets Can You Make?+"
+	},
+	{
+		"assign": "31984",
+		"jp_text": "ハピネスカーテンコール",
+		"tr_text": "Happiness Curtain Call"
+	},
+	{
+		"assign": "31985",
+		"jp_text": "ハピネスカーテンコール＋",
+		"tr_text": "Happiness Curtain Call+"
+	},
+	{
+		"assign": "31986",
+		"jp_text": "ラブ・ラブ・ラブホリック♪",
+		"tr_text": "Love-Love-Love-holic♪"
+	},
+	{
+		"assign": "31987",
+		"jp_text": "ラブ・ラブ・ラブホリック♪＋",
+		"tr_text": "Love-Love-Love-holic♪+"
+	},
+	{
+		"assign": "31988",
+		"jp_text": "紅炎瞬殺槍",
+		"tr_text": "Crimson Flame Deathspear"
+	},
+	{
+		"assign": "31989",
+		"jp_text": "紅炎瞬殺槍＋",
+		"tr_text": "Crimson Flame Deathspear+"
+	},
+	{
+		"assign": "31990",
+		"jp_text": "絶破・氷裂散華爪",
+		"tr_text": "Total Destruction - Icebane Claws"
+	},
+	{
+		"assign": "31991",
+		"jp_text": "絶破・氷裂散華爪＋",
+		"tr_text": "Total Destruction - Icebane Claws+"
+	},
+	{
+		"assign": "31995",
+		"jp_text": "颯進フルスロットル",
+		"tr_text": "Full Throttle"
+	},
+	{
+		"assign": "31996",
+		"jp_text": "颯進フルスロットル＋",
+		"tr_text": "Full Throttle+"
+	},
+	{
+		"assign": "31997",
+		"jp_text": "輝ける永遠への歌",
+		"tr_text": "Song for Eternal Light"
+	},
+	{
+		"assign": "31998",
+		"jp_text": "輝ける永遠への歌＋",
+		"tr_text": "Song for Eternal Light+"
+	},
+	{
+		"assign": "32003",
+		"jp_text": "我が名は、クラリスクレイス！",
+		"tr_text": "My Name Is Claris Claes!"
+	},
+	{
+		"assign": "32004",
+		"jp_text": "我が名は、クラリスクレイス！＋",
+		"tr_text": "My Name Is Claris Claes!+"
+	},
+	{
+		"assign": "32005",
+		"jp_text": "ガン・ガン・スプラッシュ！",
+		"tr_text": "Gun Gun Splash!"
+	},
+	{
+		"assign": "32006",
+		"jp_text": "ガン・ガン・スプラッシュ！＋",
+		"tr_text": "Gun Gun Splash!+"
+	},
+	{
+		"assign": "32007",
+		"jp_text": "ヒートアップ・シーサイド",
+		"tr_text": "Heat-Up Seaside"
+	},
+	{
+		"assign": "32008",
+		"jp_text": "ヒートアップ・シーサイド＋",
+		"tr_text": "Heat-Up Seaside+"
+	},
+	{
+		"assign": "32017",
+		"jp_text": "絶魂の刺撃",
+		"tr_text": "Soul of Eradication"
+	},
+	{
+		"assign": "32018",
+		"jp_text": "絶魂の刺撃＋",
+		"tr_text": "Soul of Eradication+"
+	},
+	{
+		"assign": "32019",
+		"jp_text": "インペリアル・リード",
+		"tr_text": "Imperial Lead"
+	},
+	{
+		"assign": "32020",
+		"jp_text": "インペリアル・リード＋",
+		"tr_text": "Imperial Lead+"
+	},
+	{
+		"assign": "32021",
+		"jp_text": "明日元気になぁれ",
+		"tr_text": "It'll Be Fine Tomorrow"
+	},
+	{
+		"assign": "32022",
+		"jp_text": "明日元気になぁれ＋",
+		"tr_text": "It'll Be Fine Tomorrow+"
+	},
+	{
+		"assign": "32025",
+		"jp_text": "絢爛武闘炎烈拳",
+		"tr_text": "Warrior's Blazing Fist"
+	},
+	{
+		"assign": "32026",
+		"jp_text": "絢爛武闘炎烈拳＋",
+		"tr_text": "Warrior's Blazing Fist+"
+	},
+	{
+		"assign": "32031",
+		"jp_text": "心までは凍らない",
+		"tr_text": "Before My Heart Freezes"
+	},
+	{
+		"assign": "32032",
+		"jp_text": "心までは凍らない＋",
+		"tr_text": "Before My Heart Freezes+"
+	},
+	{
+		"assign": "32035",
+		"jp_text": "酒呑無尽剣・月酔",
+		"tr_text": "Inebriate Blade - Moon-Drunk"
+	},
+	{
+		"assign": "32036",
+		"jp_text": "酒呑無尽剣・月酔＋",
+		"tr_text": "Inebriate Blade - Moon-Drunk+"
+	},
+	{
+		"assign": "32037",
+		"jp_text": "我が尽忠ここに在り！",
+		"tr_text": "My Loyalty is to Here!"
+	},
+	{
+		"assign": "32038",
+		"jp_text": "我が尽忠ここに在り！＋",
+		"tr_text": "My Loyalty is to Here!+"
+	},
+	{
+		"assign": "32039",
+		"jp_text": "表裏の曙光",
+		"tr_text": "Four-Eyed Glare"
+	},
+	{
+		"assign": "32040",
+		"jp_text": "表裏の曙光＋",
+		"tr_text": "Four-Eyed Glare+"
+	},
+	{
+		"assign": "32043",
+		"jp_text": "アーレス・キャノンヘイル",
+		"tr_text": "Ares Cannon Hail"
+	},
+	{
+		"assign": "32044",
+		"jp_text": "アーレス・キャノンヘイル＋",
+		"tr_text": "Ares Cannon Hail+"
+	},
+	{
+		"assign": "32047",
+		"jp_text": "雷鋭の無双逆鱗斬",
+		"tr_text": "Thundering Wrath"
+	},
+	{
+		"assign": "32048",
+		"jp_text": "雷鋭の無双逆鱗斬＋",
+		"tr_text": "Thundering Wrath+"
+	},
+	{
+		"assign": "32049",
+		"jp_text": "雷鋭の無双逆鱗斬＋＋",
+		"tr_text": "Thundering Wrath++"
+	},
+	{
+		"assign": "32050",
+		"jp_text": "１５００万かー……買っちゃお",
+		"tr_text": "15 Million... Buy It"
+	},
+	{
+		"assign": "32051",
+		"jp_text": "１５００万かー……買っちゃお＋",
+		"tr_text": "15 Million... Buy It+"
+	},
+	{
+		"assign": "32054",
+		"jp_text": "もう４日家から出てない",
+		"tr_text": "4 Day Gaming Marathon"
+	},
+	{
+		"assign": "32055",
+		"jp_text": "もう４日家から出てない＋",
+		"tr_text": "4 Day Gaming Marathon+"
+	},
+	{
+		"assign": "32067",
+		"jp_text": "四麺楚歌",
+		"tr_text": "Sing for Your Supper"
+	},
+	{
+		"assign": "32068",
+		"jp_text": "四麺楚歌＋",
+		"tr_text": "Sing for Your Supper+"
+	},
+	{
+		"assign": "32069",
+		"jp_text": "痛いの飛んでけ～",
+		"tr_text": "Pain, Pain, Fly Away~"
+	},
+	{
+		"assign": "32070",
+		"jp_text": "痛いの飛んでけ～＋",
+		"tr_text": "Pain, Pain, Fly Away~+"
+	},
+	{
+		"assign": "32071",
+		"jp_text": "出ケツ大サービス",
+		"tr_text": "Last-Second Miracle Service"
+	},
+	{
+		"assign": "32072",
+		"jp_text": "出ケツ大サービス＋",
+		"tr_text": "Last-Second Miracle Service+"
+	},
+	{
+		"assign": "32073",
+		"jp_text": "落つ～",
+		"tr_text": "Good Job~"
+	},
+	{
+		"assign": "32074",
+		"jp_text": "落つ～＋",
+		"tr_text": "Good Job~+"
+	},
+	{
+		"assign": "32075",
+		"jp_text": "入リスク",
+		"tr_text": "Counter Risk"
+	},
+	{
+		"assign": "32076",
+		"jp_text": "入リスク＋",
+		"tr_text": "Counter Risk+"
+	},
+	{
+		"assign": "32077",
+		"jp_text": "首の皮一枚",
+		"tr_text": "Skin of your Teeth"
+	},
+	{
+		"assign": "32078",
+		"jp_text": "首の皮一枚＋",
+		"tr_text": "Skin of your Teeth+"
+	},
+	{
+		"assign": "32079",
+		"jp_text": "パレットを制圧します",
+		"tr_text": ""
+	},
+	{
+		"assign": "32080",
+		"jp_text": "パレットを制圧します＋",
+		"tr_text": ""
+	},
+	{
+		"assign": "32084",
+		"jp_text": "我が身を闇に捧ぐ",
+		"tr_text": "Dedicated to Darkness"
+	},
+	{
+		"assign": "32085",
+		"jp_text": "我が身を闇に捧ぐ＋",
+		"tr_text": "Dedicated to Darkness+"
+	},
+	{
+		"assign": "32086",
+		"jp_text": "鋼のマッスルメイル",
+		"tr_text": "Steel Muscle Mail"
+	},
+	{
+		"assign": "32087",
+		"jp_text": "鋼のマッスルメイル＋",
+		"tr_text": "Steel Muscle Mail+"
+	},
+	{
+		"assign": "32092",
+		"jp_text": "忍法・分身フルボッコの術",
+		"tr_text": "Ninjutsu Art of Beatdown"
+	},
+	{
+		"assign": "32093",
+		"jp_text": "忍法・分身フルボッコの術＋",
+		"tr_text": "Ninjutsu Art of Beatdown+"
+	},
+	{
+		"assign": "32094",
+		"jp_text": "トリート・オア・トリート",
+		"tr_text": "Treat or Treat"
+	},
+	{
+		"assign": "32095",
+		"jp_text": "トリート・オア・トリート＋",
+		"tr_text": "Treat or Treat+"
+	},
+	{
+		"assign": "32096",
+		"jp_text": "幻夜のハロウィン・パレード",
+		"tr_text": "Ghostly Night - Halloween Parade"
+	},
+	{
+		"assign": "32097",
+		"jp_text": "幻夜のハロウィン・パレード＋",
+		"tr_text": "Ghostly Night - Halloween Parade+"
+	},
+	{
+		"assign": "32098",
+		"jp_text": "悔恨の闇路",
+		"tr_text": "Dark Road to Redemption"
+	},
+	{
+		"assign": "32099",
+		"jp_text": "悔恨の闇路＋",
+		"tr_text": "Dark Road to Redemption+"
+	},
+	{
+		"assign": "32106",
+		"jp_text": "ライジングヴィガー・シャイン",
+		"tr_text": "Rising Vigor - Shine"
+	},
+	{
+		"assign": "32107",
+		"jp_text": "ライジングヴィガー・フレイム",
+		"tr_text": "Rising Vigor - Flame"
+	},
+	{
+		"assign": "32108",
+		"jp_text": "ライジングヴィガー・アビス",
+		"tr_text": "Rising Vigor - Abyss"
+	},
+	{
+		"assign": "32109",
+		"jp_text": "アイス・モノランス",
+		"tr_text": "Ice Mono Lance"
+	},
+	{
+		"assign": "32110",
+		"jp_text": "ライトニング・モノランス",
+		"tr_text": "Lightning Mono Lance"
+	},
+	{
+		"assign": "32111",
+		"jp_text": "フレイム・モノランス",
+		"tr_text": "Flame Mono Lance"
+	},
+	{
+		"assign": "32112",
+		"jp_text": "獅子騎士の構え・炎",
+		"tr_text": "Lion Knight's Stance - Fire"
+	},
+	{
+		"assign": "32113",
+		"jp_text": "獅子騎士の構え・風",
+		"tr_text": "Lion Knight's Stance - Wind"
+	},
+	{
+		"assign": "32114",
+		"jp_text": "獅子騎士の構え・闇",
+		"tr_text": "Lion Knight's Stance - Dark"
+	},
+	{
+		"assign": "32115",
+		"jp_text": "雷陣パーミットサイクロン",
+		"tr_text": "Lightning-form Permit Cyclone"
+	},
+	{
+		"assign": "32116",
+		"jp_text": "光陣パーミットサイクロン",
+		"tr_text": "Light-form Permit Cyclone"
+	},
+	{
+		"assign": "32117",
+		"jp_text": "氷陣パーミットサイクロン",
+		"tr_text": "Ice-form Permit Cyclone"
+	},
+	{
+		"assign": "32121",
+		"jp_text": "ウィンド・スタンバレット",
+		"tr_text": "Wind - Stun Bullet"
+	},
+	{
+		"assign": "32122",
+		"jp_text": "アイス・スタンバレット",
+		"tr_text": "Ice - Stun Bullet"
+	},
+	{
+		"assign": "32123",
+		"jp_text": "ライトニング・スタンバレット",
+		"tr_text": "Lightning - Stun Bullet"
+	},
+	{
+		"assign": "32124",
+		"jp_text": "ドリームワーカー積立預金",
+		"tr_text": "Dream Worker Reserve Deposit"
+	},
+	{
+		"assign": "32125",
+		"jp_text": "ドリームワーカー積立預金＋",
+		"tr_text": "Dream Worker Reserve Deposit+"
+	},
+	{
+		"assign": "32126",
+		"jp_text": "アクのきわみデビ！",
+		"tr_text": "Apex of Evil - The Devil!"
+	},
+	{
+		"assign": "32127",
+		"jp_text": "アクのきわみデビ！＋",
+		"tr_text": "Apex of Evil - The Devil!+"
+	},
+	{
+		"assign": "32134",
+		"jp_text": "一刀両断、稲妻の如し",
+		"tr_text": "One Sword, Like Lightning"
+	},
+	{
+		"assign": "32135",
+		"jp_text": "一刀両断、稲妻の如し＋",
+		"tr_text": "One Sword, Like Lightning+"
+	},
+	{
+		"assign": "32136",
+		"jp_text": "ふっふっふ、何用かね？",
+		"tr_text": "Heheheh, what do you need?"
+	},
+	{
+		"assign": "32137",
+		"jp_text": "ふっふっふ、何用かね？＋",
+		"tr_text": "Heheheh, what do you need?+"
+	},
+	{
+		"assign": "32138",
+		"jp_text": "仏恥義理怒頼武",
+		"tr_text": "Leader of the Pack"
+	},
+	{
+		"assign": "32139",
+		"jp_text": "仏恥義理怒頼武＋",
+		"tr_text": "Leader of the Pack+"
+	},
+	{
+		"assign": "32143",
+		"jp_text": "ペインフル・エクスタシー",
+		"tr_text": "Painful Ecstasy"
+	},
+	{
+		"assign": "32144",
+		"jp_text": "ペインフル・エクスタシー＋",
+		"tr_text": "Painful Ecstasy+"
+	},
+	{
+		"assign": "32147",
+		"jp_text": "葉隠嵐刃・疾風",
+		"tr_text": "Camouflaged Blade - Hayate"
+	},
+	{
+		"assign": "32148",
+		"jp_text": "葉隠嵐刃・疾風＋",
+		"tr_text": "Camouflaged Blade - Hayate+"
+	},
+	{
+		"assign": "32149",
+		"jp_text": "メルティ・スノウパーティー",
+		"tr_text": "Melty Snow Party"
+	},
+	{
+		"assign": "32150",
+		"jp_text": "メルティ・スノウパーティー＋",
+		"tr_text": "Melty Snow Party+"
+	},
+	{
+		"assign": "32153",
+		"jp_text": "冥府開く恩讐の業火",
+		"tr_text": "The Hellfires of Vengeance"
+	},
+	{
+		"assign": "32154",
+		"jp_text": "冥府開く恩讐の業火＋",
+		"tr_text": "The Hellfires of Vengeance+"
+	},
+	{
+		"assign": "32155",
+		"jp_text": "冥府開く恩讐の業火＋＋",
+		"tr_text": "The Hellfires of Vengeance++"
+	},
+	{
+		"assign": "32156",
+		"jp_text": "ガブガブガブっとくらぁ！",
+		"tr_text": "Bottoms Up!"
+	},
+	{
+		"assign": "32157",
+		"jp_text": "ガブガブガブっとくらぁ！＋",
+		"tr_text": "Bottoms Up!+"
+	},
+	{
+		"assign": "32160",
+		"jp_text": "戦勝祈願の神楽",
+		"tr_text": "Kagura Praying for Victory"
+	},
+	{
+		"assign": "32161",
+		"jp_text": "戦勝祈願の神楽＋",
+		"tr_text": "Kagura Praying for Victory+"
+	},
+	{
+		"assign": "32162",
+		"jp_text": "風烈ラピッド・ファイア",
+		"tr_text": "Furious Rapid-Fire"
+	},
+	{
+		"assign": "32163",
+		"jp_text": "風烈ラピッド・ファイア＋",
+		"tr_text": "Furious Rapid-Fire+"
+	},
+	{
+		"assign": "32166",
+		"jp_text": "涼しいくらいがちょうどいい",
+		"tr_text": "No Need to Worry"
+	},
+	{
+		"assign": "32167",
+		"jp_text": "涼しいくらいがちょうどいい＋",
+		"tr_text": "No Need to Worry+"
+	},
+	{
+		"assign": "32168",
+		"jp_text": "嘆きの涙は河となり",
+		"tr_text": "Tears of Sorrow Become a River"
+	},
+	{
+		"assign": "32169",
+		"jp_text": "嘆きの涙は河となり＋",
+		"tr_text": "Tears of Sorrow Become a River+"
+	},
+	{
+		"assign": "32177",
+		"jp_text": "スケージング・クリスタル",
+		"tr_text": "Scathing Crystal"
+	},
+	{
+		"assign": "32178",
+		"jp_text": "スケージング・クリスタル＋",
+		"tr_text": "Scathing Crystal+"
+	},
+	{
+		"assign": "32179",
+		"jp_text": "奪命ピアース・レイ",
+		"tr_text": "Lifestealer Pierce Ray"
+	},
+	{
+		"assign": "32180",
+		"jp_text": "奪命ピアース・レイ＋",
+		"tr_text": "Lifestealer Pierce Ray+"
+	},
+	{
+		"assign": "32181",
+		"jp_text": "奪命ピアース・レイ＋＋",
+		"tr_text": "Lifestealer Pierce Ray++"
+	},
+	{
+		"assign": "32182",
+		"jp_text": "フィスト・フォー・プライド",
+		"tr_text": "Fist for Pride"
+	},
+	{
+		"assign": "32183",
+		"jp_text": "フィスト・フォー・プライド＋",
+		"tr_text": "Fist for Pride+"
+	},
+	{
+		"assign": "32190",
+		"jp_text": "生まれて還る光の海",
+		"tr_text": "Reborn Sea of Light"
+	},
+	{
+		"assign": "32191",
+		"jp_text": "生まれて還る光の海＋",
+		"tr_text": "Reborn Sea of Light+"
+	},
+	{
+		"assign": "32192",
+		"jp_text": "新風フレッシャーズ",
+		"tr_text": "New Style Freshers"
+	},
+	{
+		"assign": "32193",
+		"jp_text": "新風フレッシャーズ＋",
+		"tr_text": "New Style Freshers+"
+	},
+	{
+		"assign": "32196",
+		"jp_text": "キックストーム・インパクト",
+		"tr_text": "Kick Storm Impact"
+	},
+	{
+		"assign": "32197",
+		"jp_text": "キックストーム・インパクト＋",
+		"tr_text": "Kick Storm Impact+"
+	},
+	{
+		"assign": "32198",
+		"jp_text": "バディ・ザ・ボルト",
+		"tr_text": "Buddy the Bolt"
+	},
+	{
+		"assign": "32199",
+		"jp_text": "バディ・ザ・ボルト＋",
+		"tr_text": "Buddy the Bolt+"
+	},
+	{
+		"assign": "32200",
+		"jp_text": "抗体特性",
+		"tr_text": "Antibody Properties"
+	},
+	{
+		"assign": "32201",
+		"jp_text": "抗体特性＋",
+		"tr_text": "Antibody Properties+"
+	},
+	{
+		"assign": "32202",
+		"jp_text": "身を焦がせ、至誠至忠に",
+		"tr_text": "Burn Yourself to Show Loyalty"
+	},
+	{
+		"assign": "32203",
+		"jp_text": "身を焦がせ、至誠至忠に＋",
+		"tr_text": "Burn Yourself to Show Loyalty+"
+	},
+	{
+		"assign": "32204",
+		"jp_text": "身を焦がせ、至誠至忠に＋＋",
+		"tr_text": "Burn Yourself to Show Loyalty++"
+	},
+	{
+		"assign": "32207",
+		"jp_text": "ウルトラミラクル・モア",
+		"tr_text": "Ultra Miracle More"
+	},
+	{
+		"assign": "32208",
+		"jp_text": "ウルトラミラクル・モア＋",
+		"tr_text": "Ultra Miracle More+"
+	},
+	{
+		"assign": "2210",
+		"jp_text": "スタイリッシュカウンター",
+		"tr_text": "Stylish Counter"
+	},
+	{
+		"assign": "2220",
+		"jp_text": "スタイリッシュカウンター＋",
+		"tr_text": "Stylish Counter+"
+	},
+	{
+		"assign": "2310",
+		"jp_text": "スイートキュア",
+		"tr_text": "Sweet Cure"
+	},
+	{
+		"assign": "2320",
+		"jp_text": "スイートヒール",
+		"tr_text": "Sweet Heal"
+	},
+	{
+		"assign": "80110",
+		"jp_text": "ヴァルキュリア",
+		"tr_text": "Valkyria"
+	},
+	{
+		"assign": "80120",
+		"jp_text": "ヴァルキュリア＋",
+		"tr_text": "Valkyria+"
+	},
+	{
+		"assign": "80310",
+		"jp_text": "絶技：龍牙一閃",
+		"tr_text": "Special Ability: Dragon Fang Flash"
+	},
+	{
+		"assign": "80320",
+		"jp_text": "絶技：龍牙一閃＋",
+		"tr_text": "Special Ability: Dragon Fang Flash+"
+	},
+	{
+		"assign": "80610",
+		"jp_text": "天叢雲剣",
+		"tr_text": "Ama-no-Murakumo-no-Tsurugi"
+	},
+	{
+		"assign": "80620",
+		"jp_text": "天叢雲剣＋",
+		"tr_text": "Ama-no-Murakumo-no-Tsurugi+"
+	},
+	{
+		"assign": "81310",
+		"jp_text": "ソングエナジー",
+		"tr_text": "Song Energy"
+	},
+	{
+		"assign": "81320",
+		"jp_text": "ソングエナジー+",
+		"tr_text": "Song Energy+"
+	},
+	{
+		"assign": "81410",
+		"jp_text": "リカバリーＲ",
+		"tr_text": "Recovery R"
+	},
+	{
+		"assign": "81420",
+		"jp_text": "リカバリーＲ+",
+		"tr_text": "Recovery R+"
+	},
+	{
+		"assign": "81510",
+		"jp_text": "リカバリーＬ",
+		"tr_text": "Recovery L"
+	},
+	{
+		"assign": "81520",
+		"jp_text": "リカバリーＬ+",
+		"tr_text": "Recovery L+"
+	},
+	{
+		"assign": "40001",
+		"jp_text": "アビリティバースト・大剣",
+		"tr_text": "Ability Burst - Sword"
+	},
+	{
+		"assign": "40002",
+		"jp_text": "アビリティバースト・大剣＋",
+		"tr_text": "Ability Burst - Sword+"
+	},
+	{
+		"assign": "40003",
+		"jp_text": "アビリティバースト・自在槍",
+		"tr_text": "Ability Burst - Wired Lance"
+	},
+	{
+		"assign": "40004",
+		"jp_text": "アビリティバースト・自在槍＋",
+		"tr_text": "Ability Burst - Wired Lance+"
+	},
+	{
+		"assign": "40005",
+		"jp_text": "アビリティバースト・長槍",
+		"tr_text": "Ability Burst - Partizan"
+	},
+	{
+		"assign": "40006",
+		"jp_text": "アビリティバースト・長槍＋",
+		"tr_text": "Ability Burst - Partizan+"
+	},
+	{
+		"assign": "40007",
+		"jp_text": "アビリティバースト・双小剣",
+		"tr_text": "Ability Burst - Twin Daggers"
+	},
+	{
+		"assign": "40008",
+		"jp_text": "アビリティバースト・双小剣＋",
+		"tr_text": "Ability Burst - Twin Daggers+"
+	},
+	{
+		"assign": "40009",
+		"jp_text": "アビリティバースト・両剣",
+		"tr_text": "Ability Burst - Double Saber"
+	},
+	{
+		"assign": "40010",
+		"jp_text": "アビリティバースト・両剣＋",
+		"tr_text": "Ability Burst - Double Saber+"
+	},
+	{
+		"assign": "40011",
+		"jp_text": "アビリティバースト・鋼拳",
+		"tr_text": "Ability Burst - Knuckles"
+	},
+	{
+		"assign": "40012",
+		"jp_text": "アビリティバースト・鋼拳＋",
+		"tr_text": "Ability Burst - Knuckles+"
+	},
+	{
+		"assign": "40013",
+		"jp_text": "アビリティバースト・銃剣",
+		"tr_text": "Ability Burst - Gunslash"
+	},
+	{
+		"assign": "40014",
+		"jp_text": "アビリティバースト・銃剣＋",
+		"tr_text": "Ability Burst - Gunslash+"
+	},
+	{
+		"assign": "40015",
+		"jp_text": "アビリティバースト・長銃",
+		"tr_text": "Ability Burst - Assault Rifle"
+	},
+	{
+		"assign": "40016",
+		"jp_text": "アビリティバースト・長銃＋",
+		"tr_text": "Ability Burst - Assault Rifle+"
+	},
+	{
+		"assign": "40017",
+		"jp_text": "アビリティバースト・大砲",
+		"tr_text": "Ability Burst - Launcher"
+	},
+	{
+		"assign": "40018",
+		"jp_text": "アビリティバースト・大砲＋",
+		"tr_text": "Ability Burst - Launcher+"
+	},
+	{
+		"assign": "40019",
+		"jp_text": "アビリティバースト・双機銃",
+		"tr_text": "Ability Burst - Twin Machineguns"
+	},
+	{
+		"assign": "40020",
+		"jp_text": "アビリティバースト・双機銃＋",
+		"tr_text": "Ability Burst - Twin Machineguns+"
+	},
+	{
+		"assign": "40021",
+		"jp_text": "アビリティバースト・抜剣",
+		"tr_text": "Ability Burst - Katana"
+	},
+	{
+		"assign": "40022",
+		"jp_text": "アビリティバースト・抜剣＋",
+		"tr_text": "Ability Burst - Katana+"
+	},
+	{
+		"assign": "40023",
+		"jp_text": "アビリティバースト・強弓",
+		"tr_text": "Ability Burst - Bow"
+	},
+	{
+		"assign": "40024",
+		"jp_text": "アビリティバースト・強弓＋",
+		"tr_text": "Ability Burst - Bow+"
+	},
+	{
+		"assign": "40025",
+		"jp_text": "アビリティバースト・魔装脚",
+		"tr_text": "Ability Burst - Jet Boots"
+	},
+	{
+		"assign": "40026",
+		"jp_text": "アビリティバースト・魔装脚＋",
+		"tr_text": "Ability Burst - Jet Boots+"
+	},
+	{
+		"assign": "40027",
+		"jp_text": "アビリティバースト・飛翔剣",
+		"tr_text": "Ability Burst - Dual Blades"
+	},
+	{
+		"assign": "40028",
+		"jp_text": "アビリティバースト・飛翔剣＋",
+		"tr_text": "Ability Burst - Dual Blades+"
+	},
+	{
+		"assign": "40029",
+		"jp_text": "アビリティバースト・炎法術",
+		"tr_text": "Ability Burst - Fire Techniques"
+	},
+	{
+		"assign": "40030",
+		"jp_text": "アビリティバースト・炎法術＋",
+		"tr_text": "Ability Burst - Fire Techniques+"
+	},
+	{
+		"assign": "40031",
+		"jp_text": "アビリティバースト・氷法術",
+		"tr_text": "Ability Burst - Ice Techniques"
+	},
+	{
+		"assign": "40032",
+		"jp_text": "アビリティバースト・氷法術＋",
+		"tr_text": "Ability Burst - Ice Techniques+"
+	},
+	{
+		"assign": "40033",
+		"jp_text": "アビリティバースト・風法術",
+		"tr_text": "Ability Burst - Wind Techniques"
+	},
+	{
+		"assign": "40034",
+		"jp_text": "アビリティバースト・風法術＋",
+		"tr_text": "Ability Burst - Wind Techniques+"
+	},
+	{
+		"assign": "40035",
+		"jp_text": "アビリティバースト・雷法術",
+		"tr_text": "Ability Burst - Lightning Techniques"
+	},
+	{
+		"assign": "40036",
+		"jp_text": "アビリティバースト・雷法術＋",
+		"tr_text": "Ability Burst - Lightning Techniques+"
+	},
+	{
+		"assign": "40037",
+		"jp_text": "アビリティバースト・光法術",
+		"tr_text": "Ability Burst - Light Techniques"
+	},
+	{
+		"assign": "40038",
+		"jp_text": "アビリティバースト・光法術＋",
+		"tr_text": "Ability Burst - Light Techniques+"
+	},
+	{
+		"assign": "40039",
+		"jp_text": "アビリティバースト・闇法術",
+		"tr_text": "Ability Burst - Dark Techniques"
+	},
+	{
+		"assign": "40040",
+		"jp_text": "アビリティバースト・闇法術＋",
+		"tr_text": "Ability Burst - Dark Techniques+"
+	},
+	{
+		"assign": "40041",
+		"jp_text": "アビリティバースト・大剣",
+		"tr_text": "Ability Burst - Sword"
+	},
+	{
+		"assign": "40042",
+		"jp_text": "アビリティバースト・大剣＋",
+		"tr_text": "Ability Burst - Sword+"
+	},
+	{
+		"assign": "40043",
+		"jp_text": "アビリティバースト・自在槍",
+		"tr_text": "Ability Burst - Wired Lance"
+	},
+	{
+		"assign": "40044",
+		"jp_text": "アビリティバースト・自在槍＋",
+		"tr_text": "Ability Burst - Wired Lance+"
+	},
+	{
+		"assign": "40045",
+		"jp_text": "アビリティバースト・長槍",
+		"tr_text": "Ability Burst - Partizan"
+	},
+	{
+		"assign": "40046",
+		"jp_text": "アビリティバースト・長槍＋",
+		"tr_text": "Ability Burst - Partizan+"
+	},
+	{
+		"assign": "40047",
+		"jp_text": "アビリティバースト・双小剣",
+		"tr_text": "Ability Burst - Twin Daggers"
+	},
+	{
+		"assign": "40048",
+		"jp_text": "アビリティバースト・双小剣＋",
+		"tr_text": "Ability Burst - Twin Daggers+"
+	},
+	{
+		"assign": "40049",
+		"jp_text": "アビリティバースト・両剣",
+		"tr_text": "Ability Burst - Double Saber"
+	},
+	{
+		"assign": "40050",
+		"jp_text": "アビリティバースト・両剣＋",
+		"tr_text": "Ability Burst - Double Saber+"
+	},
+	{
+		"assign": "40051",
+		"jp_text": "アビリティバースト・鋼拳",
+		"tr_text": "Ability Burst - Knuckles"
+	},
+	{
+		"assign": "40052",
+		"jp_text": "アビリティバースト・鋼拳＋",
+		"tr_text": "Ability Burst - Knuckles+"
+	},
+	{
+		"assign": "40053",
+		"jp_text": "アビリティバースト・銃剣",
+		"tr_text": "Ability Burst - Gunslash"
+	},
+	{
+		"assign": "40054",
+		"jp_text": "アビリティバースト・銃剣＋",
+		"tr_text": "Ability Burst - Gunslash+"
+	},
+	{
+		"assign": "40055",
+		"jp_text": "アビリティバースト・長銃",
+		"tr_text": "Ability Burst - Assault Rifle"
+	},
+	{
+		"assign": "40056",
+		"jp_text": "アビリティバースト・長銃＋",
+		"tr_text": "Ability Burst - Assault Rifle+"
+	},
+	{
+		"assign": "40057",
+		"jp_text": "アビリティバースト・大砲",
+		"tr_text": "Ability Burst - Launcher"
+	},
+	{
+		"assign": "40058",
+		"jp_text": "アビリティバースト・大砲＋",
+		"tr_text": "Ability Burst - Launcher+"
+	},
+	{
+		"assign": "40059",
+		"jp_text": "アビリティバースト・双機銃",
+		"tr_text": "Ability Burst - Twin Machineguns"
+	},
+	{
+		"assign": "40060",
+		"jp_text": "アビリティバースト・双機銃＋",
+		"tr_text": "Ability Burst - Twin Machineguns+"
+	},
+	{
+		"assign": "40061",
+		"jp_text": "アビリティバースト・抜剣",
+		"tr_text": "Ability Burst - Katana"
+	},
+	{
+		"assign": "40062",
+		"jp_text": "アビリティバースト・抜剣＋",
+		"tr_text": "Ability Burst - Katana+"
+	},
+	{
+		"assign": "40063",
+		"jp_text": "アビリティバースト・強弓",
+		"tr_text": "Ability Burst - Bow"
+	},
+	{
+		"assign": "40064",
+		"jp_text": "アビリティバースト・強弓＋",
+		"tr_text": "Ability Burst - Bow+"
+	},
+	{
+		"assign": "40065",
+		"jp_text": "アビリティバースト・魔装脚",
+		"tr_text": "Ability Burst - Jet Boots"
+	},
+	{
+		"assign": "40066",
+		"jp_text": "アビリティバースト・魔装脚＋",
+		"tr_text": "Ability Burst - Jet Boots+"
+	},
+	{
+		"assign": "40067",
+		"jp_text": "アビリティバースト・飛翔剣",
+		"tr_text": "Ability Burst - Dual Blades"
+	},
+	{
+		"assign": "40068",
+		"jp_text": "アビリティバースト・飛翔剣＋",
+		"tr_text": "Ability Burst - Dual Blades+"
+	},
+	{
+		"assign": "40069",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40070",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40071",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40072",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40073",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40074",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40075",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40076",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40077",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40078",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40079",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40080",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40081",
+		"jp_text": "アビリティブラスト・大剣",
+		"tr_text": "Ability Blast - Sword"
+	},
+	{
+		"assign": "40082",
+		"jp_text": "アビリティブラスト・大剣＋",
+		"tr_text": "Ability Blast - Sword+"
+	},
+	{
+		"assign": "40083",
+		"jp_text": "アビリティブラスト・自在槍",
+		"tr_text": "Ability Blast - Wired Lance"
+	},
+	{
+		"assign": "40084",
+		"jp_text": "アビリティブラスト・自在槍＋",
+		"tr_text": "Ability Blast - Wired Lance+"
+	},
+	{
+		"assign": "40085",
+		"jp_text": "アビリティブラスト・長槍",
+		"tr_text": "Ability Blast - Partizan"
+	},
+	{
+		"assign": "40086",
+		"jp_text": "アビリティブラスト・長槍＋",
+		"tr_text": "Ability Blast - Partizan+"
+	},
+	{
+		"assign": "40087",
+		"jp_text": "アビリティブラスト・双小剣",
+		"tr_text": "Ability Blast - Twin Daggers"
+	},
+	{
+		"assign": "40088",
+		"jp_text": "アビリティブラスト・双小剣＋",
+		"tr_text": "Ability Blast - Twin Daggers+"
+	},
+	{
+		"assign": "40089",
+		"jp_text": "アビリティブラスト・両剣",
+		"tr_text": "Ability Blast - Double Saber"
+	},
+	{
+		"assign": "40090",
+		"jp_text": "アビリティブラスト・両剣＋",
+		"tr_text": "Ability Blast - Double Saber+"
+	},
+	{
+		"assign": "40091",
+		"jp_text": "アビリティブラスト・鋼拳",
+		"tr_text": "Ability Blast - Knuckles"
+	},
+	{
+		"assign": "40092",
+		"jp_text": "アビリティブラスト・鋼拳＋",
+		"tr_text": "Ability Blast - Knuckles+"
+	},
+	{
+		"assign": "40093",
+		"jp_text": "アビリティブラスト・銃剣",
+		"tr_text": "Ability Blast - Gunslash"
+	},
+	{
+		"assign": "40094",
+		"jp_text": "アビリティブラスト・銃剣＋",
+		"tr_text": "Ability Blast - Gunslash+"
+	},
+	{
+		"assign": "40095",
+		"jp_text": "アビリティブラスト・長銃",
+		"tr_text": "Ability Blast - Assault Rifle"
+	},
+	{
+		"assign": "40096",
+		"jp_text": "アビリティブラスト・長銃＋",
+		"tr_text": "Ability Blast - Assault Rifle+"
+	},
+	{
+		"assign": "40097",
+		"jp_text": "アビリティブラスト・大砲",
+		"tr_text": "Ability Blast - Launcher"
+	},
+	{
+		"assign": "40098",
+		"jp_text": "アビリティブラスト・大砲＋",
+		"tr_text": "Ability Blast - Launcher+"
+	},
+	{
+		"assign": "40099",
+		"jp_text": "アビリティブラスト・双機銃",
+		"tr_text": "Ability Blast - Twin Machineguns"
+	},
+	{
+		"assign": "40100",
+		"jp_text": "アビリティブラスト・双機銃＋",
+		"tr_text": "Ability Blast - Twin Machineguns+"
+	},
+	{
+		"assign": "40101",
+		"jp_text": "アビリティブラスト・長杖",
+		"tr_text": "Ability Blast - Rod"
+	},
+	{
+		"assign": "40102",
+		"jp_text": "アビリティブラスト・長杖＋",
+		"tr_text": "Ability Blast - Rod+"
+	},
+	{
+		"assign": "40103",
+		"jp_text": "アビリティブラスト・導具",
+		"tr_text": "Ability Blast - Talis"
+	},
+	{
+		"assign": "40104",
+		"jp_text": "アビリティブラスト・導具＋",
+		"tr_text": "Ability Blast - Talis+"
+	},
+	{
+		"assign": "40105",
+		"jp_text": "アビリティブラスト・短杖",
+		"tr_text": "Ability Blast - Wand"
+	},
+	{
+		"assign": "40106",
+		"jp_text": "アビリティブラスト・短杖＋",
+		"tr_text": "Ability Blast - Wand+"
+	},
+	{
+		"assign": "40107",
+		"jp_text": "アビリティブラスト・抜剣",
+		"tr_text": "Ability Blast - Katana"
+	},
+	{
+		"assign": "40108",
+		"jp_text": "アビリティブラスト・抜剣＋",
+		"tr_text": "Ability Blast - Katana+"
+	},
+	{
+		"assign": "40109",
+		"jp_text": "アビリティブラスト・強弓",
+		"tr_text": "Ability Blast - Bow"
+	},
+	{
+		"assign": "40110",
+		"jp_text": "アビリティブラスト・強弓＋",
+		"tr_text": "Ability Blast - Bow+"
+	},
+	{
+		"assign": "40111",
+		"jp_text": "アビリティブラスト・魔装脚",
+		"tr_text": "Ability Blast - Jet Boots"
+	},
+	{
+		"assign": "40112",
+		"jp_text": "アビリティブラスト・魔装脚＋",
+		"tr_text": "Ability Blast - Jet Boots+"
+	},
+	{
+		"assign": "40113",
+		"jp_text": "アビリティブラスト・飛翔剣",
+		"tr_text": "Ability Blast - Dual Blades"
+	},
+	{
+		"assign": "40114",
+		"jp_text": "アビリティブラスト・飛翔剣＋",
+		"tr_text": "Ability Blast - Dual Blades+"
+	},
+	{
+		"assign": "40115",
+		"jp_text": "アビリティバースト・大剣",
+		"tr_text": "Ability Burst - Sword"
+	},
+	{
+		"assign": "40116",
+		"jp_text": "アビリティバースト・大剣＋",
+		"tr_text": "Ability Burst - Sword+"
+	},
+	{
+		"assign": "40117",
+		"jp_text": "アビリティバースト・自在槍",
+		"tr_text": "Ability Burst - Wired Lance"
+	},
+	{
+		"assign": "40118",
+		"jp_text": "アビリティバースト・自在槍＋",
+		"tr_text": "Ability Burst - Wired Lance+"
+	},
+	{
+		"assign": "40119",
+		"jp_text": "アビリティバースト・長槍",
+		"tr_text": "Ability Burst - Partizan"
+	},
+	{
+		"assign": "40120",
+		"jp_text": "アビリティバースト・長槍＋",
+		"tr_text": "Ability Burst - Partizan+"
+	},
+	{
+		"assign": "40121",
+		"jp_text": "アビリティバースト・双小剣",
+		"tr_text": "Ability Burst - Twin Daggers"
+	},
+	{
+		"assign": "40122",
+		"jp_text": "アビリティバースト・双小剣＋",
+		"tr_text": "Ability Burst - Twin Daggers+"
+	},
+	{
+		"assign": "40123",
+		"jp_text": "アビリティバースト・両剣",
+		"tr_text": "Ability Burst - Double Saber"
+	},
+	{
+		"assign": "40124",
+		"jp_text": "アビリティバースト・両剣＋",
+		"tr_text": "Ability Burst - Double Saber+"
+	},
+	{
+		"assign": "40125",
+		"jp_text": "アビリティバースト・鋼拳",
+		"tr_text": "Ability Burst - Knuckles"
+	},
+	{
+		"assign": "40126",
+		"jp_text": "アビリティバースト・鋼拳＋",
+		"tr_text": "Ability Burst - Knuckles+"
+	},
+	{
+		"assign": "40127",
+		"jp_text": "アビリティバースト・銃剣",
+		"tr_text": "Ability Burst - Gunslash"
+	},
+	{
+		"assign": "40128",
+		"jp_text": "アビリティバースト・銃剣＋",
+		"tr_text": "Ability Burst - Gunslash+"
+	},
+	{
+		"assign": "40129",
+		"jp_text": "アビリティバースト・長銃",
+		"tr_text": "Ability Burst - Assault Rifle"
+	},
+	{
+		"assign": "40130",
+		"jp_text": "アビリティバースト・長銃＋",
+		"tr_text": "Ability Burst - Assault Rifle+"
+	},
+	{
+		"assign": "40131",
+		"jp_text": "アビリティバースト・大砲",
+		"tr_text": "Ability Burst - Launcher"
+	},
+	{
+		"assign": "40132",
+		"jp_text": "アビリティバースト・大砲＋",
+		"tr_text": "Ability Burst - Launcher+"
+	},
+	{
+		"assign": "40133",
+		"jp_text": "アビリティバースト・双機銃",
+		"tr_text": "Ability Burst - Twin Machineguns"
+	},
+	{
+		"assign": "40134",
+		"jp_text": "アビリティバースト・双機銃＋",
+		"tr_text": "Ability Burst - Twin Machineguns+"
+	},
+	{
+		"assign": "40135",
+		"jp_text": "アビリティバースト・抜剣",
+		"tr_text": "Ability Burst - Katana"
+	},
+	{
+		"assign": "40136",
+		"jp_text": "アビリティバースト・抜剣＋",
+		"tr_text": "Ability Burst - Bow+"
+	},
+	{
+		"assign": "40137",
+		"jp_text": "アビリティバースト・強弓",
+		"tr_text": "Ability Burst - Bow"
+	},
+	{
+		"assign": "40138",
+		"jp_text": "アビリティバースト・強弓＋",
+		"tr_text": "Ability Burst - Bow+"
+	},
+	{
+		"assign": "40139",
+		"jp_text": "アビリティバースト・魔装脚",
+		"tr_text": "Ability Burst - Jet Boots"
+	},
+	{
+		"assign": "40140",
+		"jp_text": "アビリティバースト・魔装脚＋",
+		"tr_text": "Ability Burst - Jet Boots+"
+	},
+	{
+		"assign": "40141",
+		"jp_text": "アビリティバースト・飛翔剣",
+		"tr_text": "Ability Burst - Dual Blades"
+	},
+	{
+		"assign": "40142",
+		"jp_text": "アビリティバースト・飛翔剣＋",
+		"tr_text": "Ability Burst - Dual Blades+"
+	},
+	{
+		"assign": "40143",
+		"jp_text": "アビリティバースト・大剣",
+		"tr_text": "Ability Burst - Sword"
+	},
+	{
+		"assign": "40144",
+		"jp_text": "アビリティバースト・大剣＋",
+		"tr_text": "Ability Burst - Sword+"
+	},
+	{
+		"assign": "40145",
+		"jp_text": "アビリティバースト・自在槍",
+		"tr_text": "Ability Burst - Wired Lance"
+	},
+	{
+		"assign": "40146",
+		"jp_text": "アビリティバースト・自在槍＋",
+		"tr_text": "Ability Burst - Wired Lance+"
+	},
+	{
+		"assign": "40147",
+		"jp_text": "アビリティバースト・長槍",
+		"tr_text": "Ability Burst - Partizan"
+	},
+	{
+		"assign": "40148",
+		"jp_text": "アビリティバースト・長槍＋",
+		"tr_text": "Ability Burst - Partizan+"
+	},
+	{
+		"assign": "40149",
+		"jp_text": "アビリティバースト・双小剣",
+		"tr_text": "Ability Burst - Twin Daggers"
+	},
+	{
+		"assign": "40150",
+		"jp_text": "アビリティバースト・双小剣＋",
+		"tr_text": "Ability Burst - Twin Daggers+"
+	},
+	{
+		"assign": "40151",
+		"jp_text": "アビリティバースト・両剣",
+		"tr_text": "Ability Burst - Double Saber"
+	},
+	{
+		"assign": "40152",
+		"jp_text": "アビリティバースト・両剣＋",
+		"tr_text": "Ability Burst - Double Saber+"
+	},
+	{
+		"assign": "40153",
+		"jp_text": "アビリティバースト・鋼拳",
+		"tr_text": "Ability Burst - Knuckles"
+	},
+	{
+		"assign": "40154",
+		"jp_text": "アビリティバースト・鋼拳＋",
+		"tr_text": "Ability Burst - Knuckles+"
+	},
+	{
+		"assign": "40155",
+		"jp_text": "アビリティバースト・銃剣",
+		"tr_text": "Ability Burst - Gunslash"
+	},
+	{
+		"assign": "40156",
+		"jp_text": "アビリティバースト・銃剣＋",
+		"tr_text": "Ability Burst - Gunslash+"
+	},
+	{
+		"assign": "40157",
+		"jp_text": "アビリティバースト・長銃",
+		"tr_text": "Ability Burst - Assault Rifle"
+	},
+	{
+		"assign": "40158",
+		"jp_text": "アビリティバースト・長銃＋",
+		"tr_text": "Ability Burst - Assault Rifle+"
+	},
+	{
+		"assign": "40159",
+		"jp_text": "アビリティバースト・大砲",
+		"tr_text": "Ability Burst - Launcher"
+	},
+	{
+		"assign": "40160",
+		"jp_text": "アビリティバースト・大砲＋",
+		"tr_text": "Ability Burst - Launcher+"
+	},
+	{
+		"assign": "40161",
+		"jp_text": "アビリティバースト・双機銃",
+		"tr_text": "Ability Burst - Twin Machineguns"
+	},
+	{
+		"assign": "40162",
+		"jp_text": "アビリティバースト・双機銃＋",
+		"tr_text": "Ability Burst - Twin Machineguns+"
+	},
+	{
+		"assign": "40163",
+		"jp_text": "アビリティバースト・抜剣",
+		"tr_text": "Ability Burst - Katana"
+	},
+	{
+		"assign": "40164",
+		"jp_text": "アビリティバースト・抜剣＋",
+		"tr_text": "Ability Burst - Katana+"
+	},
+	{
+		"assign": "40165",
+		"jp_text": "アビリティバースト・強弓",
+		"tr_text": "Ability Burst - Bow"
+	},
+	{
+		"assign": "40166",
+		"jp_text": "アビリティバースト・強弓＋",
+		"tr_text": "Ability Burst - Bow+"
+	},
+	{
+		"assign": "40167",
+		"jp_text": "アビリティバースト・魔装脚",
+		"tr_text": "Ability Burst - Jet Boots"
+	},
+	{
+		"assign": "40168",
+		"jp_text": "アビリティバースト・魔装脚＋",
+		"tr_text": "Ability Burst - Jet Boots+"
+	},
+	{
+		"assign": "40169",
+		"jp_text": "アビリティバースト・飛翔剣",
+		"tr_text": "Ability Burst - Dual Blades"
+	},
+	{
+		"assign": "40170",
+		"jp_text": "アビリティバースト・飛翔剣＋",
+		"tr_text": "Ability Burst - Dual Blades+"
+	},
+	{
+		"assign": "40171",
+		"jp_text": "アビリティバースト・大剣",
+		"tr_text": "Ability Burst - Sword"
+	},
+	{
+		"assign": "40172",
+		"jp_text": "アビリティバースト・大剣＋",
+		"tr_text": "Ability Burst - Sword+"
+	},
+	{
+		"assign": "40173",
+		"jp_text": "アビリティバースト・自在槍",
+		"tr_text": "Ability Burst - Wired Lance"
+	},
+	{
+		"assign": "40174",
+		"jp_text": "アビリティバースト・自在槍＋",
+		"tr_text": "Ability Burst - Wired Lance+"
+	},
+	{
+		"assign": "40175",
+		"jp_text": "アビリティバースト・長槍",
+		"tr_text": "Ability Burst - Partizan"
+	},
+	{
+		"assign": "40176",
+		"jp_text": "アビリティバースト・長槍＋",
+		"tr_text": "Ability Burst - Partizan+"
+	},
+	{
+		"assign": "40177",
+		"jp_text": "アビリティバースト・双小剣",
+		"tr_text": "Ability Burst - Twin Daggers"
+	},
+	{
+		"assign": "40178",
+		"jp_text": "アビリティバースト・双小剣＋",
+		"tr_text": "Ability Burst - Twin Daggers+"
+	},
+	{
+		"assign": "40179",
+		"jp_text": "アビリティバースト・両剣",
+		"tr_text": "Ability Burst - Double Saber"
+	},
+	{
+		"assign": "40180",
+		"jp_text": "アビリティバースト・両剣＋",
+		"tr_text": "Ability Burst - Double Saber+"
+	},
+	{
+		"assign": "40181",
+		"jp_text": "アビリティバースト・鋼拳",
+		"tr_text": "Ability Burst - Knuckles"
+	},
+	{
+		"assign": "40182",
+		"jp_text": "アビリティバースト・鋼拳＋",
+		"tr_text": "Ability Burst - Knuckles+"
+	},
+	{
+		"assign": "40183",
+		"jp_text": "アビリティバースト・銃剣",
+		"tr_text": "Ability Burst - Gunslash"
+	},
+	{
+		"assign": "40184",
+		"jp_text": "アビリティバースト・銃剣＋",
+		"tr_text": "Ability Burst - Gunslash+"
+	},
+	{
+		"assign": "40185",
+		"jp_text": "アビリティバースト・長銃",
+		"tr_text": "Ability Burst - Assault Rifle"
+	},
+	{
+		"assign": "40186",
+		"jp_text": "アビリティバースト・長銃＋",
+		"tr_text": "Ability Burst - Assault Rifle+"
+	},
+	{
+		"assign": "40187",
+		"jp_text": "アビリティバースト・大砲",
+		"tr_text": "Ability Burst - Launcher"
+	},
+	{
+		"assign": "40188",
+		"jp_text": "アビリティバースト・大砲＋",
+		"tr_text": "Ability Burst - Launcher+"
+	},
+	{
+		"assign": "40189",
+		"jp_text": "アビリティバースト・双機銃",
+		"tr_text": "Ability Burst - Twin Machineguns"
+	},
+	{
+		"assign": "40190",
+		"jp_text": "アビリティバースト・双機銃＋",
+		"tr_text": "Ability Burst - Twin Machineguns+"
+	},
+	{
+		"assign": "40191",
+		"jp_text": "アビリティバースト・抜剣",
+		"tr_text": "Ability Burst - Katana"
+	},
+	{
+		"assign": "40192",
+		"jp_text": "アビリティバースト・抜剣＋",
+		"tr_text": "Ability Burst - Katana+"
+	},
+	{
+		"assign": "40193",
+		"jp_text": "アビリティバースト・強弓",
+		"tr_text": "Ability Burst - Bow"
+	},
+	{
+		"assign": "40194",
+		"jp_text": "アビリティバースト・強弓＋",
+		"tr_text": "Ability Burst - Bow+"
+	},
+	{
+		"assign": "40195",
+		"jp_text": "アビリティバースト・魔装脚",
+		"tr_text": "Ability Burst - Jet Boots"
+	},
+	{
+		"assign": "40196",
+		"jp_text": "アビリティバースト・魔装脚＋",
+		"tr_text": "Ability Burst - Jet Boots+"
+	},
+	{
+		"assign": "40197",
+		"jp_text": "アビリティバースト・飛翔剣",
+		"tr_text": "Ability Burst - Dual Blades"
+	},
+	{
+		"assign": "40198",
+		"jp_text": "アビリティバースト・飛翔剣＋",
+		"tr_text": "Ability Burst - Dual Blades+"
+	},
+	{
+		"assign": "40199",
+		"jp_text": "アビリティバースト・大剣",
+		"tr_text": "Ability Burst - Sword"
+	},
+	{
+		"assign": "40200",
+		"jp_text": "アビリティバースト・大剣＋",
+		"tr_text": "Ability Burst - Sword+"
+	},
+	{
+		"assign": "40201",
+		"jp_text": "アビリティバースト・自在槍",
+		"tr_text": "Ability Burst - Wired Lance"
+	},
+	{
+		"assign": "40202",
+		"jp_text": "アビリティバースト・自在槍＋",
+		"tr_text": "Ability Burst - Wired Lance+"
+	},
+	{
+		"assign": "40203",
+		"jp_text": "アビリティバースト・長槍",
+		"tr_text": "Ability Burst - Partizan"
+	},
+	{
+		"assign": "40204",
+		"jp_text": "アビリティバースト・長槍＋",
+		"tr_text": "Ability Burst - Partizan+"
+	},
+	{
+		"assign": "40205",
+		"jp_text": "アビリティバースト・双小剣",
+		"tr_text": "Ability Burst - Twin Daggers"
+	},
+	{
+		"assign": "40206",
+		"jp_text": "アビリティバースト・双小剣＋",
+		"tr_text": "Ability Burst - Twin Daggers+"
+	},
+	{
+		"assign": "40207",
+		"jp_text": "アビリティバースト・両剣",
+		"tr_text": "Ability Burst - Double Saber"
+	},
+	{
+		"assign": "40208",
+		"jp_text": "アビリティバースト・両剣＋",
+		"tr_text": "Ability Burst - Double Saber+"
+	},
+	{
+		"assign": "40209",
+		"jp_text": "アビリティバースト・鋼拳",
+		"tr_text": "Ability Burst - Knuckles"
+	},
+	{
+		"assign": "40210",
+		"jp_text": "アビリティバースト・鋼拳＋",
+		"tr_text": "Ability Burst - Knuckles+"
+	},
+	{
+		"assign": "40211",
+		"jp_text": "アビリティバースト・銃剣",
+		"tr_text": "Ability Burst - Gunslash"
+	},
+	{
+		"assign": "40212",
+		"jp_text": "アビリティバースト・銃剣＋",
+		"tr_text": "Ability Burst - Gunslash+"
+	},
+	{
+		"assign": "40213",
+		"jp_text": "アビリティバースト・長銃",
+		"tr_text": "Ability Burst - Assault Rifle"
+	},
+	{
+		"assign": "40214",
+		"jp_text": "アビリティバースト・長銃＋",
+		"tr_text": "Ability Burst - Assault Rifle+"
+	},
+	{
+		"assign": "40215",
+		"jp_text": "アビリティバースト・大砲",
+		"tr_text": "Ability Burst - Launcher"
+	},
+	{
+		"assign": "40216",
+		"jp_text": "アビリティバースト・大砲＋",
+		"tr_text": "Ability Burst - Launcher+"
+	},
+	{
+		"assign": "40217",
+		"jp_text": "アビリティバースト・双機銃",
+		"tr_text": "Ability Burst - Twin Machineguns"
+	},
+	{
+		"assign": "40218",
+		"jp_text": "アビリティバースト・双機銃＋",
+		"tr_text": "Ability Burst - Twin Machineguns+"
+	},
+	{
+		"assign": "40219",
+		"jp_text": "アビリティバースト・抜剣",
+		"tr_text": "Ability Burst - Katana"
+	},
+	{
+		"assign": "40220",
+		"jp_text": "アビリティバースト・抜剣＋",
+		"tr_text": "Ability Burst - Katana+"
+	},
+	{
+		"assign": "40221",
+		"jp_text": "アビリティバースト・強弓",
+		"tr_text": "Ability Burst - Bow"
+	},
+	{
+		"assign": "40222",
+		"jp_text": "アビリティバースト・強弓＋",
+		"tr_text": "Ability Burst - Bow+"
+	},
+	{
+		"assign": "40223",
+		"jp_text": "アビリティバースト・魔装脚",
+		"tr_text": "Ability Burst - Jet Boots"
+	},
+	{
+		"assign": "40224",
+		"jp_text": "アビリティバースト・魔装脚＋",
+		"tr_text": "Ability Burst - Jet Boots+"
+	},
+	{
+		"assign": "40225",
+		"jp_text": "アビリティバースト・飛翔剣",
+		"tr_text": "Ability Burst - Dual Blades"
+	},
+	{
+		"assign": "40226",
+		"jp_text": "アビリティバースト・飛翔剣＋",
+		"tr_text": "Ability Burst - Dual Blades+"
+	},
+	{
+		"assign": "40227",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40228",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40229",
+		"jp_text": "ウェポンエンハンス・氷大剣",
+		"tr_text": "Wpn Enhance - Ice Sword"
+	},
+	{
+		"assign": "40230",
+		"jp_text": "ウェポンエンハンス・氷大剣＋",
+		"tr_text": "Wpn Enhance - Ice Sword+"
+	},
+	{
+		"assign": "40231",
+		"jp_text": "ウェポンエンハンス・雷大剣",
+		"tr_text": "Wpn Enhance - Lightning Sword"
+	},
+	{
+		"assign": "40232",
+		"jp_text": "ウェポンエンハンス・雷大剣＋",
+		"tr_text": "Wpn Enhance - Lightning Sword+"
+	},
+	{
+		"assign": "40233",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40234",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40235",
+		"jp_text": "ウェポンエンハンス・光大剣",
+		"tr_text": "Wpn Enhance - Light Sword"
+	},
+	{
+		"assign": "40236",
+		"jp_text": "ウェポンエンハンス・光大剣＋",
+		"tr_text": "Wpn Enhance - Light Sword+"
+	},
+	{
+		"assign": "40237",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40238",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40239",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40240",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40241",
+		"jp_text": "ウェポンエンハンス・氷自在槍",
+		"tr_text": "Wpn Enhance - Ice Wired Lance"
+	},
+	{
+		"assign": "40242",
+		"jp_text": "ウェポンエンハンス・氷自在槍＋",
+		"tr_text": "Wpn Enhance - Ice Wired Lance+"
+	},
+	{
+		"assign": "40243",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40244",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40245",
+		"jp_text": "ウェポンエンハンス・風自在槍",
+		"tr_text": "Wpn Enhance - Wind Wired Lance"
+	},
+	{
+		"assign": "40246",
+		"jp_text": "ウェポンエンハンス・風自在槍＋",
+		"tr_text": "Wpn Enhance - Wind Wired Lance+"
+	},
+	{
+		"assign": "40247",
+		"jp_text": "ウェポンエンハンス・光自在槍",
+		"tr_text": "Wpn Enhance - Light Wired Lance"
+	},
+	{
+		"assign": "40248",
+		"jp_text": "ウェポンエンハンス・光自在槍＋",
+		"tr_text": "Wpn Enhance - Light Wired Lance+"
+	},
+	{
+		"assign": "40249",
+		"jp_text": "ウェポンエンハンス・闇自在槍",
+		"tr_text": "Wpn Enhance - Dark Wired Lance"
+	},
+	{
+		"assign": "40250",
+		"jp_text": "ウェポンエンハンス・闇自在槍＋",
+		"tr_text": "Wpn Enhance - Dark Wired Lance+"
+	},
+	{
+		"assign": "40251",
+		"jp_text": "ウェポンエンハンス・炎長槍",
+		"tr_text": "Wpn Enhance - Fire Partizan"
+	},
+	{
+		"assign": "40252",
+		"jp_text": "ウェポンエンハンス・炎長槍＋",
+		"tr_text": "Wpn Enhance - Fire Partizan+"
+	},
+	{
+		"assign": "40253",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40254",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40255",
+		"jp_text": "ウェポンエンハンス・雷長槍",
+		"tr_text": "Wpn Enhance - Lightning Partizan"
+	},
+	{
+		"assign": "40256",
+		"jp_text": "ウェポンエンハンス・雷長槍＋",
+		"tr_text": "Wpn Enhance - Lightning Partizan+"
+	},
+	{
+		"assign": "40257",
+		"jp_text": "ウェポンエンハンス・風長槍",
+		"tr_text": "Wpn Enhance - Wind Partizan"
+	},
+	{
+		"assign": "40258",
+		"jp_text": "ウェポンエンハンス・風長槍＋",
+		"tr_text": "Wpn Enhance - Wind Partizan+"
+	},
+	{
+		"assign": "40259",
+		"jp_text": "ウェポンエンハンス・光長槍",
+		"tr_text": "Wpn Enhance - Light Partizan"
+	},
+	{
+		"assign": "40260",
+		"jp_text": "ウェポンエンハンス・光長槍＋",
+		"tr_text": "Wpn Enhance - Light Partizan+"
+	},
+	{
+		"assign": "40261",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40262",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40263",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40264",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40265",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40266",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40267",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40268",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40269",
+		"jp_text": "ウェポンエンハンス・風双小剣",
+		"tr_text": "Wpn Enhance - Wind Daggers"
+	},
+	{
+		"assign": "40270",
+		"jp_text": "ウェポンエンハンス・風双小剣＋",
+		"tr_text": "Wpn Enhance - Wind Daggers+"
+	},
+	{
+		"assign": "40271",
+		"jp_text": "ウェポンエンハンス・光双小剣",
+		"tr_text": "Wpn Enhance - Light Daggers"
+	},
+	{
+		"assign": "40272",
+		"jp_text": "ウェポンエンハンス・光双小剣＋",
+		"tr_text": "Wpn Enhance - Light Daggers+"
+	},
+	{
+		"assign": "40273",
+		"jp_text": "ウェポンエンハンス・闇双小剣",
+		"tr_text": "Wpn Enhance - Dark Daggers"
+	},
+	{
+		"assign": "40274",
+		"jp_text": "ウェポンエンハンス・闇双小剣＋",
+		"tr_text": "Wpn Enhance - Dark Daggers+"
+	},
+	{
+		"assign": "40275",
+		"jp_text": "ウェポンエンハンス・炎両剣",
+		"tr_text": "Wpn Enhance - Fire D. Saber"
+	},
+	{
+		"assign": "40276",
+		"jp_text": "ウェポンエンハンス・炎両剣＋",
+		"tr_text": "Wpn Enhance - Fire D. Saber+"
+	},
+	{
+		"assign": "40277",
+		"jp_text": "ウェポンエンハンス・氷両剣",
+		"tr_text": "Wpn Enhance - Ice D. Saber"
+	},
+	{
+		"assign": "40278",
+		"jp_text": "ウェポンエンハンス・氷両剣＋",
+		"tr_text": "Wpn Enhance - Ice D. Saber+"
+	},
+	{
+		"assign": "40279",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40280",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40281",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40282",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40283",
+		"jp_text": "ウェポンエンハンス・光両剣",
+		"tr_text": "Wpn Enhance - Light D. Saber"
+	},
+	{
+		"assign": "40284",
+		"jp_text": "ウェポンエンハンス・光両剣＋",
+		"tr_text": "Wpn Enhance - Light D. Saber+"
+	},
+	{
+		"assign": "40285",
+		"jp_text": "ウェポンエンハンス・闇両剣",
+		"tr_text": "Wpn Enhance - Dark D. Saber"
+	},
+	{
+		"assign": "40286",
+		"jp_text": "ウェポンエンハンス・闇両剣＋",
+		"tr_text": "Wpn Enhance - Dark D. Saber+"
+	},
+	{
+		"assign": "40287",
+		"jp_text": "ウェポンエンハンス・炎鋼拳",
+		"tr_text": "Wpn Enhance - Fire Knuckles"
+	},
+	{
+		"assign": "40288",
+		"jp_text": "ウェポンエンハンス・炎鋼拳＋",
+		"tr_text": "Wpn Enhance - Fire Knuckles+"
+	},
+	{
+		"assign": "40289",
+		"jp_text": "ウェポンエンハンス・氷鋼拳",
+		"tr_text": "Wpn Enhance - Ice Knuckles"
+	},
+	{
+		"assign": "40290",
+		"jp_text": "ウェポンエンハンス・氷鋼拳＋",
+		"tr_text": "Wpn Enhance - Fire Knuckles+"
+	},
+	{
+		"assign": "40291",
+		"jp_text": "ウェポンエンハンス・雷鋼拳",
+		"tr_text": "Wpn Enhance - Lightning Knuckles"
+	},
+	{
+		"assign": "40292",
+		"jp_text": "ウェポンエンハンス・雷鋼拳＋",
+		"tr_text": "Wpn Enhance - Lightning Knuckles+"
+	},
+	{
+		"assign": "40293",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40294",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40295",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40296",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40297",
+		"jp_text": "ウェポンエンハンス・闇鋼拳",
+		"tr_text": "Wpn Enhance - Dark Knuckles"
+	},
+	{
+		"assign": "40298",
+		"jp_text": "ウェポンエンハンス・闇鋼拳＋",
+		"tr_text": "Wpn Enhance - Dark Knuckles+"
+	},
+	{
+		"assign": "40299",
+		"jp_text": "ウェポンエンハンス・炎銃剣",
+		"tr_text": "Wpn Enhance - Fire Gunslash"
+	},
+	{
+		"assign": "40300",
+		"jp_text": "ウェポンエンハンス・炎銃剣＋",
+		"tr_text": "Wpn Enhance - Fire Gunslash+"
+	},
+	{
+		"assign": "40301",
+		"jp_text": "ウェポンエンハンス・氷銃剣",
+		"tr_text": "Wpn Enhance - Ice Gunslash"
+	},
+	{
+		"assign": "40302",
+		"jp_text": "ウェポンエンハンス・氷銃剣＋",
+		"tr_text": "Wpn Enhance - Ice Gunslash+"
+	},
+	{
+		"assign": "40303",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40304",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40305",
+		"jp_text": "ウェポンエンハンス・風銃剣",
+		"tr_text": "Wpn Enhance - Wind Gunslash"
+	},
+	{
+		"assign": "40306",
+		"jp_text": "ウェポンエンハンス・風銃剣＋",
+		"tr_text": "Wpn Enhance - Wind Gunslash+"
+	},
+	{
+		"assign": "40307",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40308",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40309",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40310",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40311",
+		"jp_text": "ウェポンエンハンス・炎抜剣",
+		"tr_text": "Wpn Enhance - Fire Katana"
+	},
+	{
+		"assign": "40312",
+		"jp_text": "ウェポンエンハンス・炎抜剣＋",
+		"tr_text": "Wpn Enhance - Fire Katana+"
+	},
+	{
+		"assign": "40313",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40314",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40315",
+		"jp_text": "ウェポンエンハンス・雷抜剣",
+		"tr_text": "Wpn Enhance - Lightning Katana"
+	},
+	{
+		"assign": "40316",
+		"jp_text": "ウェポンエンハンス・雷抜剣＋",
+		"tr_text": "Wpn Enhance - Lightning Katana+"
+	},
+	{
+		"assign": "40317",
+		"jp_text": "ウェポンエンハンス・風抜剣",
+		"tr_text": "Wpn Enhance - Wind Katana"
+	},
+	{
+		"assign": "40318",
+		"jp_text": "ウェポンエンハンス・風抜剣＋",
+		"tr_text": "Wpn Enhance - Wind Katana+"
+	},
+	{
+		"assign": "40319",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40320",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40321",
+		"jp_text": "ウェポンエンハンス・闇抜剣",
+		"tr_text": "Wpn Enhance - Dark Katana"
+	},
+	{
+		"assign": "40322",
+		"jp_text": "ウェポンエンハンス・闇抜剣＋",
+		"tr_text": "Wpn Enhance - Dark Katana+"
+	},
+	{
+		"assign": "40323",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40324",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40325",
+		"jp_text": "ウェポンエンハンス・氷飛翔剣",
+		"tr_text": "Wpn Enhance - Ice Dual Blades"
+	},
+	{
+		"assign": "40326",
+		"jp_text": "ウェポンエンハンス・氷飛翔剣＋",
+		"tr_text": "Wpn Enhance - Ice Dual Blades+"
+	},
+	{
+		"assign": "40327",
+		"jp_text": "ウェポンエンハンス・雷飛翔剣",
+		"tr_text": "Wpn Enhance - Lightning Dual Blades"
+	},
+	{
+		"assign": "40328",
+		"jp_text": "ウェポンエンハンス・雷飛翔剣＋",
+		"tr_text": "Wpn Enhance - Lightning Dual Blades+"
+	},
+	{
+		"assign": "40329",
+		"jp_text": "ウェポンエンハンス・風飛翔剣",
+		"tr_text": "Wpn Enhance - Wind Dual Blades"
+	},
+	{
+		"assign": "40330",
+		"jp_text": "ウェポンエンハンス・風飛翔剣＋",
+		"tr_text": "Wpn Enhance - Wind Dual Blades+"
+	},
+	{
+		"assign": "40331",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40332",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40333",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40334",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40335",
+		"jp_text": "ウェポンエンハンス・炎長銃",
+		"tr_text": "Wpn Enhance - Fire Assault Rifle"
+	},
+	{
+		"assign": "40336",
+		"jp_text": "ウェポンエンハンス・炎長銃＋",
+		"tr_text": "Wpn Enhance - Fire Assault Rifle+"
+	},
+	{
+		"assign": "40337",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40338",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40339",
+		"jp_text": "ウェポンエンハンス・雷長銃",
+		"tr_text": "Wpn Enhance - Lightning Assault Rifle"
+	},
+	{
+		"assign": "40340",
+		"jp_text": "ウェポンエンハンス・雷長銃＋",
+		"tr_text": "Wpn Enhance - Lightning Assault Rifle+"
+	},
+	{
+		"assign": "40341",
+		"jp_text": "ウェポンエンハンス・風長銃",
+		"tr_text": "Wpn Enhance - Wind Assault Rifle"
+	},
+	{
+		"assign": "40342",
+		"jp_text": "ウェポンエンハンス・風長銃＋",
+		"tr_text": "Wpn Enhance - Wind Assault Rifle+"
+	},
+	{
+		"assign": "40343",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40344",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40345",
+		"jp_text": "ウェポンエンハンス・闇長銃",
+		"tr_text": "Wpn Enhance - Dark Assault Rifle"
+	},
+	{
+		"assign": "40346",
+		"jp_text": "ウェポンエンハンス・闇長銃＋",
+		"tr_text": "Wpn Enhance - Dark Assault Rifle+"
+	},
+	{
+		"assign": "40347",
+		"jp_text": "ウェポンエンハンス・炎大砲",
+		"tr_text": "Wpn Enhance - Fire Launcher"
+	},
+	{
+		"assign": "40348",
+		"jp_text": "ウェポンエンハンス・炎大砲＋",
+		"tr_text": "Wpn Enhance - Fire Launcher+"
+	},
+	{
+		"assign": "40349",
+		"jp_text": "ウェポンエンハンス・氷大砲",
+		"tr_text": "Wpn Enhance - Ice Launcher"
+	},
+	{
+		"assign": "40350",
+		"jp_text": "ウェポンエンハンス・氷大砲＋",
+		"tr_text": "Wpn Enhance - Ice Launcher+"
+	},
+	{
+		"assign": "40351",
+		"jp_text": "ウェポンエンハンス・雷大砲",
+		"tr_text": "Wpn Enhance - Lightning Launcher"
+	},
+	{
+		"assign": "40352",
+		"jp_text": "ウェポンエンハンス・雷大砲＋",
+		"tr_text": "Wpn Enhance - Lightning Launcher+"
+	},
+	{
+		"assign": "40353",
+		"jp_text": "ウェポンエンハンス・風大砲",
+		"tr_text": "Wpn Enhance - Wind Launcher"
+	},
+	{
+		"assign": "40354",
+		"jp_text": "ウェポンエンハンス・風大砲＋",
+		"tr_text": "Wpn Enhance - Wind Launcher+"
+	},
+	{
+		"assign": "40355",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40356",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40357",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40358",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40359",
+		"jp_text": "ウェポンエンハンス・炎双機銃",
+		"tr_text": "Wpn Enhance - Fire T. Machineguns"
+	},
+	{
+		"assign": "40360",
+		"jp_text": "ウェポンエンハンス・炎双機銃＋",
+		"tr_text": "Wpn Enhance - Fire T. Machineguns+"
+	},
+	{
+		"assign": "40361",
+		"jp_text": "ウェポンエンハンス・氷双機銃",
+		"tr_text": "Wpn Enhance - Ice T. Machineguns"
+	},
+	{
+		"assign": "40362",
+		"jp_text": "ウェポンエンハンス・氷双機銃＋",
+		"tr_text": "Wpn Enhance - Ice T. Machineguns+"
+	},
+	{
+		"assign": "40363",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40364",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40365",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40366",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40367",
+		"jp_text": "ウェポンエンハンス・光双機銃",
+		"tr_text": "Wpn Enhance - Light T. Machineguns"
+	},
+	{
+		"assign": "40368",
+		"jp_text": "ウェポンエンハンス・光双機銃＋",
+		"tr_text": "Wpn Enhance - Light T. Machineguns+"
+	},
+	{
+		"assign": "40369",
+		"jp_text": "ウェポンエンハンス・闇双機銃",
+		"tr_text": "Wpn Enhance - Dark T. Machineguns"
+	},
+	{
+		"assign": "40370",
+		"jp_text": "ウェポンエンハンス・闇双機銃＋",
+		"tr_text": "Wpn Enhance - Dark T. Machineguns+"
+	},
+	{
+		"assign": "40371",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40372",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40373",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40374",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40375",
+		"jp_text": "ウェポンエンハンス・雷強弓",
+		"tr_text": "Wpn Enhance - Lightning Bow"
+	},
+	{
+		"assign": "40376",
+		"jp_text": "ウェポンエンハンス・雷強弓＋",
+		"tr_text": "Wpn Enhance - Lightning Bow+"
+	},
+	{
+		"assign": "40377",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40378",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40379",
+		"jp_text": "ウェポンエンハンス・光強弓",
+		"tr_text": "Wpn Enhance - Light Bow"
+	},
+	{
+		"assign": "40380",
+		"jp_text": "ウェポンエンハンス・光強弓＋",
+		"tr_text": "Wpn Enhance - Light Bow+"
+	},
+	{
+		"assign": "40381",
+		"jp_text": "ウェポンエンハンス・闇強弓",
+		"tr_text": "Wpn Enhance - Dark Bow"
+	},
+	{
+		"assign": "40382",
+		"jp_text": "ウェポンエンハンス・闇強弓＋",
+		"tr_text": "Wpn Enhance - Dark Bow+"
+	},
+	{
+		"assign": "40383",
+		"jp_text": "ウェポンエンハンス・炎魔装脚",
+		"tr_text": "Wpn Enhance - Fire Jet Boots"
+	},
+	{
+		"assign": "40384",
+		"jp_text": "ウェポンエンハンス・炎魔装脚＋",
+		"tr_text": "Wpn Enhance - Fire Jet Boots+"
+	},
+	{
+		"assign": "40385",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40386",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40387",
+		"jp_text": "ウェポンエンハンス・雷魔装脚",
+		"tr_text": "Wpn Enhance - Lightning Jet Boots"
+	},
+	{
+		"assign": "40388",
+		"jp_text": "ウェポンエンハンス・雷魔装脚＋",
+		"tr_text": "Wpn Enhance - Lightning Jet Boots+"
+	},
+	{
+		"assign": "40389",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40390",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40391",
+		"jp_text": "ウェポンエンハンス・光魔装脚",
+		"tr_text": "Wpn Enhance - Light Jet Boots"
+	},
+	{
+		"assign": "40392",
+		"jp_text": "ウェポンエンハンス・光魔装脚＋",
+		"tr_text": "Wpn Enhance - Light Jet Boots+"
+	},
+	{
+		"assign": "40393",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40394",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40395",
+		"jp_text": "ウェポンエンハンス・炎長杖",
+		"tr_text": "Wpn Enhance - Fire Rod"
+	},
+	{
+		"assign": "40396",
+		"jp_text": "ウェポンエンハンス・炎長杖＋",
+		"tr_text": "Wpn Enhance - Fire Rod+"
+	},
+	{
+		"assign": "40397",
+		"jp_text": "ウェポンエンハンス・氷長杖",
+		"tr_text": "Wpn Enhance - Ice Rod"
+	},
+	{
+		"assign": "40398",
+		"jp_text": "ウェポンエンハンス・氷長杖＋",
+		"tr_text": "Wpn Enhance - Ice Rod+"
+	},
+	{
+		"assign": "40399",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40400",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40401",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40402",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40403",
+		"jp_text": "ウェポンエンハンス・光長杖",
+		"tr_text": "Wpn Enhance - Light Rod"
+	},
+	{
+		"assign": "40404",
+		"jp_text": "ウェポンエンハンス・光長杖＋",
+		"tr_text": "Wpn Enhance - Light Rod+"
+	},
+	{
+		"assign": "40405",
+		"jp_text": "ウェポンエンハンス・闇長杖",
+		"tr_text": "Wpn Enhance - Dark Rod"
+	},
+	{
+		"assign": "40406",
+		"jp_text": "ウェポンエンハンス・闇長杖＋",
+		"tr_text": "Wpn Enhance - Dark Rod+"
+	},
+	{
+		"assign": "40407",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40408",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40409",
+		"jp_text": "ウェポンエンハンス・氷導具",
+		"tr_text": "Wpn Enhance - Ice Talis"
+	},
+	{
+		"assign": "40410",
+		"jp_text": "ウェポンエンハンス・氷導具＋",
+		"tr_text": "Wpn Enhance - Ice Talis+"
+	},
+	{
+		"assign": "40411",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40412",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40413",
+		"jp_text": "ウェポンエンハンス・風導具",
+		"tr_text": "Wpn Enhance - Wind Talis"
+	},
+	{
+		"assign": "40414",
+		"jp_text": "ウェポンエンハンス・風導具＋",
+		"tr_text": "Wpn Enhance - Wind Talis+"
+	},
+	{
+		"assign": "40415",
+		"jp_text": "ウェポンエンハンス・光導具",
+		"tr_text": "Wpn Enhance - Light Talis"
+	},
+	{
+		"assign": "40416",
+		"jp_text": "ウェポンエンハンス・光導具＋",
+		"tr_text": "Wpn Enhance - Light Talis+"
+	},
+	{
+		"assign": "40417",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40418",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40419",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40420",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40421",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40422",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40423",
+		"jp_text": "ウェポンエンハンス・雷短杖",
+		"tr_text": "Wpn Enhance - Lightning Wand"
+	},
+	{
+		"assign": "40424",
+		"jp_text": "ウェポンエンハンス・雷短杖＋",
+		"tr_text": "Wpn Enhance - Lightning Wand+"
+	},
+	{
+		"assign": "40425",
+		"jp_text": "ウェポンエンハンス・風短杖",
+		"tr_text": "Wpn Enhance - Wind Wand"
+	},
+	{
+		"assign": "40426",
+		"jp_text": "ウェポンエンハンス・風短杖＋",
+		"tr_text": "Wpn Enhance - Wind Wand+"
+	},
+	{
+		"assign": "40427",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40428",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "40429",
+		"jp_text": "ウェポンエンハンス・闇短杖",
+		"tr_text": "Wpn Enhance - Dark Wand"
+	},
+	{
+		"assign": "40430",
+		"jp_text": "ウェポンエンハンス・闇短杖＋",
+		"tr_text": "Wpn Enhance - Dark Wand+"
+	},
+	{
+		"assign": "21310",
+		"jp_text": "炎属性活性反応",
+		"tr_text": "Fire Activation Reaction"
+	},
+	{
+		"assign": "21410",
+		"jp_text": "炎属性活性反応＋",
+		"tr_text": "Fire Activation Reaction+"
+	},
+	{
+		"assign": "21510",
+		"jp_text": "氷属性活性反応",
+		"tr_text": "Ice Activation Reaction"
+	},
+	{
+		"assign": "21610",
+		"jp_text": "氷属性活性反応＋",
+		"tr_text": "Ice Activation Reaction+"
+	},
+	{
+		"assign": "21710",
+		"jp_text": "雷属性活性反応",
+		"tr_text": "Lightning Activation Reaction"
+	},
+	{
+		"assign": "21810",
+		"jp_text": "雷属性活性反応＋",
+		"tr_text": "Lightning Activation Reaction+"
+	},
+	{
+		"assign": "21910",
+		"jp_text": "風属性活性反応",
+		"tr_text": "Wind Activation Reaction"
+	},
+	{
+		"assign": "22010",
+		"jp_text": "風属性活性反応＋",
+		"tr_text": "Wind Activation Reaction+"
+	},
+	{
+		"assign": "22110",
+		"jp_text": "光属性活性反応",
+		"tr_text": "Light Activation Reaction"
+	},
+	{
+		"assign": "22210",
+		"jp_text": "光属性活性反応＋",
+		"tr_text": "Light Activation Reaction+"
+	},
+	{
+		"assign": "22310",
+		"jp_text": "闇属性活性反応",
+		"tr_text": "Dark Activation Reaction"
+	},
+	{
+		"assign": "22410",
+		"jp_text": "闇属性活性反応＋",
+		"tr_text": "Dark Activation Reaction+"
+	},
+	{
+		"assign": "3410",
+		"jp_text": "群れなす力",
+		"tr_text": "Power of the Swarm"
+	},
+	{
+		"assign": "3420",
+		"jp_text": "群れなす暴威",
+		"tr_text": "Terror of the Swarm"
+	},
+	{
+		"assign": "3510",
+		"jp_text": "闇の兆し",
+		"tr_text": "Omen of Darkness"
+	},
+	{
+		"assign": "3520",
+		"jp_text": "闇の増長",
+		"tr_text": "Growth of Darkness"
+	},
+	{
+		"assign": "3610",
+		"jp_text": "闇の胎動",
+		"tr_text": "Stirring of Darkness"
+	},
+	{
+		"assign": "3620",
+		"jp_text": "闇の躍動",
+		"tr_text": "Thrashing of Darkness"
+	},
+	{
+		"assign": "3710",
+		"jp_text": "毒の針",
+		"tr_text": "Poison Needle"
+	},
+	{
+		"assign": "3720",
+		"jp_text": "毒の撃針",
+		"tr_text": "Poison Lance"
+	},
+	{
+		"assign": "4210",
+		"jp_text": "硬殻",
+		"tr_text": "Hard Shell"
+	},
+	{
+		"assign": "4220",
+		"jp_text": "強固な硬殻",
+		"tr_text": "Rock-Hard Shell"
+	},
+	{
+		"assign": "4410",
+		"jp_text": "追撃",
+		"tr_text": "Pursuit"
+	},
+	{
+		"assign": "4420",
+		"jp_text": "捕捉追撃",
+		"tr_text": "Hot Pursuit"
+	},
+	{
+		"assign": "4610",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "4620",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "4710",
+		"jp_text": "邪気の放出",
+		"tr_text": "Emission of Malice"
+	},
+	{
+		"assign": "4720",
+		"jp_text": "邪念の噴出",
+		"tr_text": "Eruption of Malevolence"
+	},
+	{
+		"assign": "20001",
+		"jp_text": "ブレイクスピナー",
+		"tr_text": "Break Spinner"
+	},
+	{
+		"assign": "20002",
+		"jp_text": "バスタースピナー",
+		"tr_text": "Buster Spinner"
+	},
+	{
+		"assign": "5210",
+		"jp_text": "ダーカーディフェンス",
+		"tr_text": "Darker Defense"
+	},
+	{
+		"assign": "5220",
+		"jp_text": "ダーカーディフェンス＋",
+		"tr_text": "Darker Defense+"
+	},
+	{
+		"assign": "20013",
+		"jp_text": "鎌薙",
+		"tr_text": "Reaper's Scythe"
+	},
+	{
+		"assign": "20014",
+		"jp_text": "双連鎌薙",
+		"tr_text": "Reaper's Twin Scythes"
+	},
+	{
+		"assign": "20075",
+		"jp_text": "闇息への抱擁",
+		"tr_text": "Dark Embrace"
+	},
+	{
+		"assign": "20076",
+		"jp_text": "奈落への抱擁",
+		"tr_text": "Abyssal Embrace"
+	},
+	{
+		"assign": "20015",
+		"jp_text": "刹牙風",
+		"tr_text": "Evil Wind"
+	},
+	{
+		"assign": "20016",
+		"jp_text": "刹牙烈風",
+		"tr_text": "Evil Gale"
+	},
+	{
+		"assign": "20041",
+		"jp_text": "ダーティーリング",
+		"tr_text": "Dirty Ring"
+	},
+	{
+		"assign": "20042",
+		"jp_text": "ブラッディリング",
+		"tr_text": "Bloody Ring"
+	},
+	{
+		"assign": "20047",
+		"jp_text": "旋回激衝",
+		"tr_text": "Rolling Clash"
+	},
+	{
+		"assign": "20048",
+		"jp_text": "轟転激衝",
+		"tr_text": "Spinning Clash"
+	},
+	{
+		"assign": "5610",
+		"jp_text": "風の兆し",
+		"tr_text": "Omen of Wind"
+	},
+	{
+		"assign": "5620",
+		"jp_text": "風の増長",
+		"tr_text": "Growth of Wind"
+	},
+	{
+		"assign": "5710",
+		"jp_text": "風の胎動",
+		"tr_text": "Stirring of Wind"
+	},
+	{
+		"assign": "5720",
+		"jp_text": "風の躍動",
+		"tr_text": "Thrashing of Wind"
+	},
+	{
+		"assign": "5810",
+		"jp_text": "呼応する力",
+		"tr_text": "Coordinated Power"
+	},
+	{
+		"assign": "5820",
+		"jp_text": "呼応する暴威",
+		"tr_text": "Coordinated Tyranny"
+	},
+	{
+		"assign": "5910",
+		"jp_text": "遁走",
+		"tr_text": "Escape"
+	},
+	{
+		"assign": "5920",
+		"jp_text": "大遁走",
+		"tr_text": "Great Escape"
+	},
+	{
+		"assign": "6210",
+		"jp_text": "氷の兆し",
+		"tr_text": "Omen of Ice"
+	},
+	{
+		"assign": "6220",
+		"jp_text": "氷の増長",
+		"tr_text": "Growth of Ice"
+	},
+	{
+		"assign": "6310",
+		"jp_text": "氷の胎動",
+		"tr_text": "Stirring of Ice"
+	},
+	{
+		"assign": "6320",
+		"jp_text": "氷の躍動",
+		"tr_text": "Thrashing of Ice"
+	},
+	{
+		"assign": "6510",
+		"jp_text": "長鼻の突進",
+		"tr_text": "Long Nose Charge"
+	},
+	{
+		"assign": "6520",
+		"jp_text": "長鼻の猛突進",
+		"tr_text": "Long Nose Stampede"
+	},
+	{
+		"assign": "6910",
+		"jp_text": "原生種ディフェンス",
+		"tr_text": "Native Defense"
+	},
+	{
+		"assign": "6920",
+		"jp_text": "原生種ディフェンス＋",
+		"tr_text": "Native Defense+"
+	},
+	{
+		"assign": "7610",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7620",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7710",
+		"jp_text": "龍の知識「防」",
+		"tr_text": "Dragon's Knowledge [Defense]"
+	},
+	{
+		"assign": "7720",
+		"jp_text": "龍の叡智「防」",
+		"tr_text": "Dragon's Wisdom [Defense]"
+	},
+	{
+		"assign": "7810",
+		"jp_text": "龍の知識「攻」",
+		"tr_text": "Dragon's Knowledge [Attack]"
+	},
+	{
+		"assign": "7820",
+		"jp_text": "龍の叡智「攻」",
+		"tr_text": "Dragon's Wisdom [Attack]"
+	},
+	{
+		"assign": "7910",
+		"jp_text": "龍の知識「術」",
+		"tr_text": "Dragon's Knowledge [Art]"
+	},
+	{
+		"assign": "7920",
+		"jp_text": "龍の叡智「術」",
+		"tr_text": "Dragon's Wisdom [Art]"
+	},
+	{
+		"assign": "8010",
+		"jp_text": "炎の胎動",
+		"tr_text": "Stirring of Fire"
+	},
+	{
+		"assign": "8020",
+		"jp_text": "炎の躍動",
+		"tr_text": "Thrashing of Fire"
+	},
+	{
+		"assign": "8110",
+		"jp_text": "炎の兆し",
+		"tr_text": "Omen of Fire"
+	},
+	{
+		"assign": "8120",
+		"jp_text": "炎の増長",
+		"tr_text": "Growth of Fire"
+	},
+	{
+		"assign": "8210",
+		"jp_text": "龍の光の知識「防」",
+		"tr_text": "Light Dragon's Knowledge [Defense]"
+	},
+	{
+		"assign": "8220",
+		"jp_text": "龍の光の叡智「防」",
+		"tr_text": "Light Dragon's Wisdom [Defense]"
+	},
+	{
+		"assign": "8310",
+		"jp_text": "龍の光の知識「攻」",
+		"tr_text": "Light Dragon's Knowledge [Attack]"
+	},
+	{
+		"assign": "8320",
+		"jp_text": "龍の光の叡智「攻」",
+		"tr_text": "Light Dragon's Wisdom [Attack]"
+	},
+	{
+		"assign": "8410",
+		"jp_text": "龍の光の知識「術」",
+		"tr_text": "Light Dragon's Knowledge [Art]"
+	},
+	{
+		"assign": "8420",
+		"jp_text": "龍の光の叡智「術」",
+		"tr_text": "Light Dragon's Wisdom [Art]"
+	},
+	{
+		"assign": "8510",
+		"jp_text": "光の胎動",
+		"tr_text": "Stirring of Light"
+	},
+	{
+		"assign": "8520",
+		"jp_text": "光の躍動",
+		"tr_text": "Thrashing of Light"
+	},
+	{
+		"assign": "8610",
+		"jp_text": "光の兆し",
+		"tr_text": "Omen of Light"
+	},
+	{
+		"assign": "8620",
+		"jp_text": "光の増長",
+		"tr_text": "Growth of Light"
+	},
+	{
+		"assign": "8810",
+		"jp_text": "龍族ディフェンス",
+		"tr_text": "Dragon Defense"
+	},
+	{
+		"assign": "8820",
+		"jp_text": "龍族ディフェンス＋",
+		"tr_text": "Dragon Defense+"
+	},
+	{
+		"assign": "9010",
+		"jp_text": "混乱の石",
+		"tr_text": "Confusion Stone"
+	},
+	{
+		"assign": "9020",
+		"jp_text": "混乱の紫水晶",
+		"tr_text": "Confusion Gem"
+	},
+	{
+		"assign": "20023",
+		"jp_text": "晶牢光獄",
+		"tr_text": "Prismatic Prison"
+	},
+	{
+		"assign": "20024",
+		"jp_text": "壁陣・晶牢光獄",
+		"tr_text": "Fortress - Prismatic Prison"
+	},
+	{
+		"assign": "20029",
+		"jp_text": "双角突撃",
+		"tr_text": "Twin-Horned Charge"
+	},
+	{
+		"assign": "20030",
+		"jp_text": "双角突破",
+		"tr_text": "Twin-Horned Breakthrough"
+	},
+	{
+		"assign": "20031",
+		"jp_text": "二連閃光",
+		"tr_text": "Double Flash"
+	},
+	{
+		"assign": "20032",
+		"jp_text": "二連閃撃",
+		"tr_text": "Double Flare"
+	},
+	{
+		"assign": "9510",
+		"jp_text": "雷の兆し",
+		"tr_text": "Omen of Lightning"
+	},
+	{
+		"assign": "9520",
+		"jp_text": "雷の増長",
+		"tr_text": "Growth of Lightning"
+	},
+	{
+		"assign": "9610",
+		"jp_text": "雷の胎動",
+		"tr_text": "Stirring of Lightning"
+	},
+	{
+		"assign": "9620",
+		"jp_text": "雷の躍動",
+		"tr_text": "Thrashing of Lightning"
+	},
+	{
+		"assign": "9710",
+		"jp_text": "機甲種ディフェンス",
+		"tr_text": "Mech Defense"
+	},
+	{
+		"assign": "9720",
+		"jp_text": "機甲種ディフェンス＋",
+		"tr_text": "Mech Defense+"
+	},
+	{
+		"assign": "20033",
+		"jp_text": "トリプルショット",
+		"tr_text": "Triple Shot"
+	},
+	{
+		"assign": "20034",
+		"jp_text": "スリーポイントバースト",
+		"tr_text": "Three-Point Burst"
+	},
+	{
+		"assign": "20039",
+		"jp_text": "無情の大進撃",
+		"tr_text": "Heartless Advance"
+	},
+	{
+		"assign": "20040",
+		"jp_text": "無情の大蹂躙",
+		"tr_text": "Heartless Trample"
+	},
+	{
+		"assign": "25310",
+		"jp_text": "グラインドパワー２",
+		"tr_text": "Grind Power 2"
+	},
+	{
+		"assign": "25410",
+		"jp_text": "グラインドパワー１",
+		"tr_text": "Grind Power 1"
+	},
+	{
+		"assign": "20003",
+		"jp_text": "エレメンタルリベンジ",
+		"tr_text": "Elemental Revenge"
+	},
+	{
+		"assign": "20004",
+		"jp_text": "エレメンタルリベンジ＋",
+		"tr_text": "Elemental Revenge+"
+	},
+	{
+		"assign": "20021",
+		"jp_text": "活胞子",
+		"tr_text": "Active Spore"
+	},
+	{
+		"assign": "20022",
+		"jp_text": "活力胞子",
+		"tr_text": "Vitality Spore"
+	},
+	{
+		"assign": "20045",
+		"jp_text": "トラップシェル",
+		"tr_text": "Trap Shell"
+	},
+	{
+		"assign": "20046",
+		"jp_text": "リベンジシェル",
+		"tr_text": "Revenge Shell"
+	},
+	{
+		"assign": "20051",
+		"jp_text": "メルティ・ブラスト",
+		"tr_text": "Melty Blast"
+	},
+	{
+		"assign": "20052",
+		"jp_text": "メルティ・エクスプロージョン",
+		"tr_text": "Melty Explosion"
+	},
+	{
+		"assign": "20055",
+		"jp_text": "ヴァニシング・キラー",
+		"tr_text": "Vanishing Killer"
+	},
+	{
+		"assign": "20056",
+		"jp_text": "ヴァニシング・アサシン",
+		"tr_text": "Vanishing Assassin"
+	},
+	{
+		"assign": "20073",
+		"jp_text": "メタルクロー・ランページ",
+		"tr_text": "Metal Claw Rampage"
+	},
+	{
+		"assign": "20074",
+		"jp_text": "デスクロー・ランページ",
+		"tr_text": "Death Claw Rampage"
+	},
+	{
+		"assign": "20057",
+		"jp_text": "深海の魔手",
+		"tr_text": "Evil of the Deep Sea"
+	},
+	{
+		"assign": "20058",
+		"jp_text": "深海の魔鞭",
+		"tr_text": "Devil of the Deep Sea"
+	},
+	{
+		"assign": "20061",
+		"jp_text": "導きの灯明",
+		"tr_text": "Guiding Light"
+	},
+	{
+		"assign": "20062",
+		"jp_text": "進撃の灯明",
+		"tr_text": "Advancing Light"
+	},
+	{
+		"assign": "20063",
+		"jp_text": "相殺ラリアット",
+		"tr_text": "Counterweight Lariat"
+	},
+	{
+		"assign": "20064",
+		"jp_text": "過剰相殺ラリアット",
+		"tr_text": "Overweight Lariat"
+	},
+	{
+		"assign": "20067",
+		"jp_text": "攻勢の布陣",
+		"tr_text": "Offensive Formation"
+	},
+	{
+		"assign": "20068",
+		"jp_text": "制圧の布陣",
+		"tr_text": "Suppression Formation"
+	},
+	{
+		"assign": "20069",
+		"jp_text": "黒ノ断罪",
+		"tr_text": "Black Execution"
+	},
+	{
+		"assign": "20070",
+		"jp_text": "黒ノ粛清",
+		"tr_text": "Black Extermination"
+	}
+]

@@ -1,0 +1,8 @@
+*.txt       	text eol=native whitespace
+*.sh        	text eol=lf
+*.py        	text eol=native
+README.md   	text eol=native
+*.tff       	-text
+*.yml       	text eol=native
+*.bat       	text eol=crlf
+*.ps1       	text eol=crlf

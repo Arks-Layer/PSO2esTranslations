@@ -1,0 +1,387 @@
+[
+	{
+		"assign": "0",
+		"jp_text": "バーンⅠ",
+		"tr_text": "Burn I",
+		"jp_explain": "バーンLv.1を付与する",
+		"tr_explain": "Grants Burn Lv.1"
+	},
+	{
+		"assign": "1",
+		"jp_text": "バーンⅡ",
+		"tr_text": "Burn II",
+		"jp_explain": "バーンLv.2を付与する",
+		"tr_explain": "Grants Burn Lv.2"
+	},
+	{
+		"assign": "2",
+		"jp_text": "バーンⅢ",
+		"tr_text": "Burn III",
+		"jp_explain": "バーンLv.3を付与する",
+		"tr_explain": "Grants Burn Lv.3"
+	},
+	{
+		"assign": "3",
+		"jp_text": "バーンⅣ",
+		"tr_text": "Burn IV",
+		"jp_explain": "バーンLv.4を付与する",
+		"tr_explain": "Grants Burn Lv.4"
+	},
+	{
+		"assign": "4",
+		"jp_text": "バーンⅤ",
+		"tr_text": "Burn V",
+		"jp_explain": "バーンLv.5を付与する",
+		"tr_explain": "Grants Burn Lv.5"
+	},
+	{
+		"assign": "5",
+		"jp_text": "フリーズⅠ",
+		"tr_text": "Freeze I",
+		"jp_explain": "フリーズLv.1を付与する",
+		"tr_explain": "Grants Freeze Lv.1"
+	},
+	{
+		"assign": "6",
+		"jp_text": "フリーズⅡ",
+		"tr_text": "Freeze II",
+		"jp_explain": "フリーズLv.2を付与する",
+		"tr_explain": "Grants Freeze Lv.2"
+	},
+	{
+		"assign": "7",
+		"jp_text": "フリーズⅢ",
+		"tr_text": "Freeze III",
+		"jp_explain": "フリーズLv.3を付与する",
+		"tr_explain": "Grants Freeze Lv.3"
+	},
+	{
+		"assign": "8",
+		"jp_text": "フリーズⅣ",
+		"tr_text": "Freeze IV",
+		"jp_explain": "フリーズLv.4を付与する",
+		"tr_explain": "Grants Freeze Lv.4"
+	},
+	{
+		"assign": "9",
+		"jp_text": "フリーズⅤ",
+		"tr_text": "Freeze V",
+		"jp_explain": "フリーズLv.5を付与する",
+		"tr_explain": "Grants Freeze Lv.5"
+	},
+	{
+		"assign": "10",
+		"jp_text": "ショックⅠ",
+		"tr_text": "Shock I",
+		"jp_explain": "ショックLv.1を付与する",
+		"tr_explain": "Grants Shock Lv.1"
+	},
+	{
+		"assign": "11",
+		"jp_text": "ショックⅡ",
+		"tr_text": "Shock II",
+		"jp_explain": "ショックLv.2を付与する",
+		"tr_explain": "Grants Shock Lv.2"
+	},
+	{
+		"assign": "12",
+		"jp_text": "ショックⅢ",
+		"tr_text": "Shock III",
+		"jp_explain": "ショックLv.3を付与する",
+		"tr_explain": "Grants Shock Lv.3"
+	},
+	{
+		"assign": "13",
+		"jp_text": "ショックⅣ",
+		"tr_text": "Shock IV",
+		"jp_explain": "ショックLv.4を付与する",
+		"tr_explain": "Grants Shock Lv.4"
+	},
+	{
+		"assign": "14",
+		"jp_text": "ショックⅤ",
+		"tr_text": "Shock V",
+		"jp_explain": "ショックLv.5を付与する",
+		"tr_explain": "Grants Shock Lv.5"
+	},
+	{
+		"assign": "15",
+		"jp_text": "ミラージュⅠ",
+		"tr_text": "Mirage I",
+		"jp_explain": "ミラージュLv.1を付与する",
+		"tr_explain": "Grants Mirage Lv.1"
+	},
+	{
+		"assign": "16",
+		"jp_text": "ミラージュⅡ",
+		"tr_text": "Mirage II",
+		"jp_explain": "ミラージュLv.2を付与する",
+		"tr_explain": "Grants Mirage Lv.2"
+	},
+	{
+		"assign": "17",
+		"jp_text": "ミラージュⅢ",
+		"tr_text": "Mirage III",
+		"jp_explain": "ミラージュLv.3を付与する",
+		"tr_explain": "Grants Mirage Lv.3"
+	},
+	{
+		"assign": "18",
+		"jp_text": "ミラージュⅣ",
+		"tr_text": "Mirage IV",
+		"jp_explain": "ミラージュLv.4を付与する",
+		"tr_explain": "Grants Mirage Lv.4"
+	},
+	{
+		"assign": "19",
+		"jp_text": "ミラージュⅤ",
+		"tr_text": "Mirage V",
+		"jp_explain": "ミラージュLv.5を付与する",
+		"tr_explain": "Grants Mirage Lv.5"
+	},
+	{
+		"assign": "20",
+		"jp_text": "ポイズンⅠ",
+		"tr_text": "Poison I",
+		"jp_explain": "ポイズンLv.1を付与する",
+		"tr_explain": "Grants Poison Lv.1"
+	},
+	{
+		"assign": "21",
+		"jp_text": "ポイズンⅡ",
+		"tr_text": "Poison II",
+		"jp_explain": "ポイズンLv.2を付与する",
+		"tr_explain": "Grants Poison Lv.2"
+	},
+	{
+		"assign": "22",
+		"jp_text": "ポイズンⅢ",
+		"tr_text": "Poison III",
+		"jp_explain": "ポイズンLv.3を付与する",
+		"tr_explain": "Grants Poison Lv.3"
+	},
+	{
+		"assign": "23",
+		"jp_text": "ポイズンⅣ",
+		"tr_text": "Poison IV",
+		"jp_explain": "ポイズンLv.4を付与する",
+		"tr_explain": "Grants Poison Lv.4"
+	},
+	{
+		"assign": "24",
+		"jp_text": "ポイズンⅤ",
+		"tr_text": "Poison V",
+		"jp_explain": "ポイズンLv.5を付与する",
+		"tr_explain": "Grants Poison Lv.5"
+	},
+	{
+		"assign": "25",
+		"jp_text": "パニックⅠ",
+		"tr_text": "Panic I",
+		"jp_explain": "パニックLv.1を付与する",
+		"tr_explain": "Grants Panic Lv.1"
+	},
+	{
+		"assign": "26",
+		"jp_text": "パニックⅡ",
+		"tr_text": "Panic II",
+		"jp_explain": "パニックLv.2を付与する",
+		"tr_explain": "Grants Panic Lv.2"
+	},
+	{
+		"assign": "27",
+		"jp_text": "パニックⅢ",
+		"tr_text": "Panic III",
+		"jp_explain": "パニックLv.3を付与する",
+		"tr_explain": "Grants Panic Lv.3"
+	},
+	{
+		"assign": "28",
+		"jp_text": "パニックⅣ",
+		"tr_text": "Panic IV",
+		"jp_explain": "パニックLv.4を付与する",
+		"tr_explain": "Grants Panic Lv.4"
+	},
+	{
+		"assign": "29",
+		"jp_text": "パニックⅤ",
+		"tr_text": "Panic V",
+		"jp_explain": "パニックLv.5を付与する",
+		"tr_explain": "Grants Panic Lv.5"
+	},
+	{
+		"assign": "30",
+		"jp_text": "ENT_ABNダミー30",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "31",
+		"jp_text": "ENT_ABNダミー31",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32",
+		"jp_text": "ENT_ABNダミー32",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "33",
+		"jp_text": "ENT_ABNダミー33",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "34",
+		"jp_text": "ENT_ABNダミー34",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "35",
+		"jp_text": "ENT_ABNダミー35",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "36",
+		"jp_text": "ENT_ABNダミー36",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37",
+		"jp_text": "ENT_ABNダミー37",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38",
+		"jp_text": "ENT_ABNダミー38",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "39",
+		"jp_text": "ENT_ABNダミー39",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "40",
+		"jp_text": "ENT_ABNダミー40",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "41",
+		"jp_text": "ENT_ABNダミー41",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "42",
+		"jp_text": "ENT_ABNダミー42",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "43",
+		"jp_text": "ENT_ABNダミー43",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "44",
+		"jp_text": "ENT_ABNダミー44",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "45",
+		"jp_text": "ENT_ABNダミー45",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "46",
+		"jp_text": "ENT_ABNダミー46",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "47",
+		"jp_text": "ENT_ABNダミー47",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "48",
+		"jp_text": "ENT_ABNダミー48",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "49",
+		"jp_text": "ENT_ABNダミー49",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "50",
+		"jp_text": "ENT_ABNダミー50",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "51",
+		"jp_text": "ENT_ABNダミー51",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "52",
+		"jp_text": "ENT_ABNダミー52",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "53",
+		"jp_text": "ENT_ABNダミー53",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54",
+		"jp_text": "ENT_ABNダミー54",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	}
+]

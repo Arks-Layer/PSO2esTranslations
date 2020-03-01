@@ -1,0 +1,37 @@
+[
+	{
+		"assign": "None",
+		"jp_text": "なし",
+		"tr_text": "None",
+		"jp_explain": "なし",
+		"tr_explain": "None"
+	},
+	{
+		"assign": "mag_Basher",
+		"jp_text": "SP打撃/乱舞",
+		"tr_text": "SP Striking/Dance",
+		"jp_explain": "プレイヤーの周囲を攻撃する。\nヒットごとにPPを回復し\n攻撃力アップ効果を得る。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "mag_VulcanCannon",
+		"jp_text": "SP射撃/速射",
+		"tr_text": "SP Ranged/Rapid Fire",
+		"jp_explain": "敵単体に高速射撃を行い\nヒットごとにPPを回復する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "mag_TechCharger",
+		"jp_text": "SP法撃/集束",
+		"tr_text": "SP Technique/Convergence",
+		"jp_explain": "効果時間中、法撃の\nチャージ時間を短縮する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "mag_Reflector",
+		"jp_text": "SP技量/鉄壁",
+		"tr_text": "SP Dexterity/Iron Wall",
+		"jp_explain": "攻撃を受けたときに発動。\n効果時間中、ダメージを減少させ\n打ち上げや吹き飛ばしも防ぐ。",
+		"tr_explain": "Activates when attacked. It gets ten\nfeet higher. Reduces damage and\nprevents knockback."
+	}
+]

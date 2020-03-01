@@ -1,0 +1,65 @@
+[
+	{
+		"assign": "3100",
+		"jp_text": "モノメイト",
+		"tr_text": "Monomate",
+		"jp_explain": "アークス御用達の回復剤。\n使用することでＨＰが回復する。",
+		"tr_explain": "Recovery medicine for ARKS.\nRestores 30% HP when used."
+	},
+	{
+		"assign": "3101",
+		"jp_text": "ディメイト",
+		"tr_text": "Dimate",
+		"jp_explain": "アークス御用達の強化回復剤。\n使用することでＨＰが大きく回復する。",
+		"tr_explain": "Recovery medicine for ARKS.\nRestores 60% HP when used."
+	},
+	{
+		"assign": "3102",
+		"jp_text": "トリメイト",
+		"tr_text": "Trimate",
+		"jp_explain": "アークス御用達の完全回復剤。\n使用することでＨＰが全回復する。",
+		"tr_explain": "Recovery medicine for ARKS.\nRestores 100% HP when used."
+	},
+	{
+		"assign": "3106",
+		"jp_text": "ソルアトマイザー",
+		"tr_text": "Sol Atomizer",
+		"jp_explain": "広範囲に及ぶ状態異常用の治療薬。\n使用した者と、周囲にいる味方の\n状態異常を回復させることができる。",
+		"tr_explain": "Recovery medicine for ARKS.\nCures status ailments of all\nnearby players."
+	},
+	{
+		"assign": "3107",
+		"jp_text": "ムーンアトマイザー",
+		"tr_text": "Moon Atomizer",
+		"jp_explain": "広範囲に及ぶ復活薬。\n使用した者の周囲にいる戦闘不能状態の\n味方を復活させることができる。",
+		"tr_explain": "Recovery medicine for ARKS.\nRevives nearby fallen players\nwith 50% HP."
+	},
+	{
+		"assign": "3108",
+		"jp_text": "スターアトマイザー",
+		"tr_text": "Star Atomizer",
+		"jp_explain": "広範囲に及ぶ回復剤。\n使用した者と、周囲にいる味方のＨＰを\n大きく回復させ、状態異常も回復する。",
+		"tr_explain": "Recovery medicine for ARKS.\nCures status ailments of all nearby\nplayers and recovers their HP."
+	},
+	{
+		"assign": "31010",
+		"jp_text": "コスモアトマイザー",
+		"tr_text": "Cosmo Atomizer",
+		"jp_explain": "広範囲に及ぶ完全回復剤。\n使用した者と、周囲にいる味方を\n完全な状態まで回復させる。",
+		"tr_explain": "An extensive full recovery medicine.\nCompletely restores any player to\nmaximum health and free of ailments."
+	},
+	{
+		"assign": "31011",
+		"jp_text": "シフタライド",
+		"tr_text": "Shiftaride",
+		"jp_explain": "広範囲に及ぶ攻撃強化剤。\n使用した者と、周囲にいる味方の\n攻撃力を強化する。",
+		"tr_explain": "Increases the attack of all\nnearby players for a limited time."
+	},
+	{
+		"assign": "31012",
+		"jp_text": "デバンライド",
+		"tr_text": "Debanride",
+		"jp_explain": "広範囲に及ぶ防御強化剤。\n使用した者と、周囲にいる味方の\n防御力を強化する。",
+		"tr_explain": "Increases the defense of all\nnearby players for a limited time."
+	}
+]

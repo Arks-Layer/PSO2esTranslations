@@ -1,0 +1,492 @@
+[
+	{
+		"assign": "0",
+		"jp_text": "ブロウレジストⅠ",
+		"tr_text": "Blow Resist I",
+		"jp_explain": "打撃軽減+3",
+		"tr_explain": "Strike Resistance +3"
+	},
+	{
+		"assign": "1",
+		"jp_text": "ブロウレジストⅡ",
+		"tr_text": "Blow Resist II",
+		"jp_explain": "打撃軽減+4",
+		"tr_explain": "Strike Resistance +4"
+	},
+	{
+		"assign": "2",
+		"jp_text": "ブロウレジストⅢ",
+		"tr_text": "Blow Resist III",
+		"jp_explain": "打撃軽減+5",
+		"tr_explain": "Strike Resistance +5"
+	},
+	{
+		"assign": "3",
+		"jp_text": "ブロウレジストⅣ",
+		"tr_text": "Blow Resist IV",
+		"jp_explain": "打撃軽減+6",
+		"tr_explain": "Strike Resistance +6"
+	},
+	{
+		"assign": "4",
+		"jp_text": "ブロウレジストⅤ",
+		"tr_text": "Blow Resist V",
+		"jp_explain": "打撃軽減+7",
+		"tr_explain": "Strike Resistance +7"
+	},
+	{
+		"assign": "5",
+		"jp_text": "ショットレジストⅠ",
+		"tr_text": "Shot Resist I",
+		"jp_explain": "射撃軽減+3",
+		"tr_explain": "Range Resistance +3"
+	},
+	{
+		"assign": "6",
+		"jp_text": "ショットレジストⅡ",
+		"tr_text": "Shot Resist II",
+		"jp_explain": "射撃軽減+4",
+		"tr_explain": "Range Resistance +4"
+	},
+	{
+		"assign": "7",
+		"jp_text": "ショットレジストⅢ",
+		"tr_text": "Shot Resist III",
+		"jp_explain": "射撃軽減+5",
+		"tr_explain": "Range Resistance +5"
+	},
+	{
+		"assign": "8",
+		"jp_text": "ショットレジストⅣ",
+		"tr_text": "Shot Resist IV",
+		"jp_explain": "射撃軽減+6",
+		"tr_explain": "Range Resistance +6"
+	},
+	{
+		"assign": "9",
+		"jp_text": "ショットレジストⅤ",
+		"tr_text": "Shot Resist V",
+		"jp_explain": "射撃軽減+7",
+		"tr_explain": "Range Resistance +7"
+	},
+	{
+		"assign": "10",
+		"jp_text": "マインドレジストⅠ",
+		"tr_text": "Mind Resist I",
+		"jp_explain": "法撃軽減+3",
+		"tr_explain": "Tech Resistance +3"
+	},
+	{
+		"assign": "11",
+		"jp_text": "マインドレジストⅡ",
+		"tr_text": "Mind Resist II",
+		"jp_explain": "法撃軽減+4",
+		"tr_explain": "Tech Resistance +4"
+	},
+	{
+		"assign": "12",
+		"jp_text": "マインドレジストⅢ",
+		"tr_text": "Mind Resist III",
+		"jp_explain": "法撃軽減+5",
+		"tr_explain": "Tech Resistance +5"
+	},
+	{
+		"assign": "13",
+		"jp_text": "マインドレジストⅣ",
+		"tr_text": "Mind Resist IV",
+		"jp_explain": "法撃軽減+6",
+		"tr_explain": "Tech Resistance +6"
+	},
+	{
+		"assign": "14",
+		"jp_text": "マインドレジストⅤ",
+		"tr_text": "Mind Resist V",
+		"jp_explain": "法撃軽減+7",
+		"tr_explain": "Tech Resistance +7"
+	},
+	{
+		"assign": "15",
+		"jp_text": "フレイムレジストⅠ",
+		"tr_text": "Flame Resist I",
+		"jp_explain": "炎耐性+3",
+		"tr_explain": "Fire Resistance +3"
+	},
+	{
+		"assign": "16",
+		"jp_text": "フレイムレジストⅡ",
+		"tr_text": "Flame Resist II",
+		"jp_explain": "炎耐性+4",
+		"tr_explain": "Fire Resistance +4"
+	},
+	{
+		"assign": "17",
+		"jp_text": "フレイムレジストⅢ",
+		"tr_text": "Flame Resist III",
+		"jp_explain": "炎耐性+5",
+		"tr_explain": "Fire Resistance +5"
+	},
+	{
+		"assign": "18",
+		"jp_text": "フレイムレジストⅣ",
+		"tr_text": "Flame Resist IV",
+		"jp_explain": "炎耐性+6",
+		"tr_explain": "Fire Resistance +6"
+	},
+	{
+		"assign": "19",
+		"jp_text": "フレイムレジストⅤ",
+		"tr_text": "Flame Resist V",
+		"jp_explain": "炎耐性+7",
+		"tr_explain": "Fire Resistance +7"
+	},
+	{
+		"assign": "20",
+		"jp_text": "アイスレジストⅠ",
+		"tr_text": "Ice Resist I",
+		"jp_explain": "氷耐性+3",
+		"tr_explain": "Ice Resistance +3"
+	},
+	{
+		"assign": "21",
+		"jp_text": "アイスレジストⅡ",
+		"tr_text": "Ice Resist II",
+		"jp_explain": "氷耐性+4",
+		"tr_explain": "Ice Resistance +4"
+	},
+	{
+		"assign": "22",
+		"jp_text": "アイスレジストⅢ",
+		"tr_text": "Ice Resist III",
+		"jp_explain": "氷耐性+5",
+		"tr_explain": "Ice Resistance +5"
+	},
+	{
+		"assign": "23",
+		"jp_text": "アイスレジストⅣ",
+		"tr_text": "Ice Resist IV",
+		"jp_explain": "氷耐性+6",
+		"tr_explain": "Ice Resistance +6"
+	},
+	{
+		"assign": "24",
+		"jp_text": "アイスレジストⅤ",
+		"tr_text": "Ice Resist V",
+		"jp_explain": "氷耐性+7",
+		"tr_explain": "Ice Resistance +7"
+	},
+	{
+		"assign": "25",
+		"jp_text": "ショックレジストⅠ",
+		"tr_text": "Shock Resist I",
+		"jp_explain": "雷耐性+3",
+		"tr_explain": "Lightning Resistance +3"
+	},
+	{
+		"assign": "26",
+		"jp_text": "ショックレジストⅡ",
+		"tr_text": "Shock Resist II",
+		"jp_explain": "雷耐性+4",
+		"tr_explain": "Lightning Resistance +4"
+	},
+	{
+		"assign": "27",
+		"jp_text": "ショックレジストⅢ",
+		"tr_text": "Shock Resist III",
+		"jp_explain": "雷耐性+5",
+		"tr_explain": "Lightning Resistance +5"
+	},
+	{
+		"assign": "28",
+		"jp_text": "ショックレジストⅣ",
+		"tr_text": "Shock Resist IV",
+		"jp_explain": "雷耐性+6",
+		"tr_explain": "Lightning Resistance +6"
+	},
+	{
+		"assign": "29",
+		"jp_text": "ショックレジストⅤ",
+		"tr_text": "Shock Resist V",
+		"jp_explain": "雷耐性+7",
+		"tr_explain": "Lightning Resistance +7"
+	},
+	{
+		"assign": "30",
+		"jp_text": "ウィンドレジストⅠ",
+		"tr_text": "Wind Resist I",
+		"jp_explain": "風耐性+3",
+		"tr_explain": "Wind Resistance +3"
+	},
+	{
+		"assign": "31",
+		"jp_text": "ウィンドレジストⅡ",
+		"tr_text": "Wind Resist II",
+		"jp_explain": "風耐性+4",
+		"tr_explain": "Wind Resistance +4"
+	},
+	{
+		"assign": "32",
+		"jp_text": "ウィンドレジストⅢ",
+		"tr_text": "Wind Resist III",
+		"jp_explain": "風耐性+5",
+		"tr_explain": "Wind Resistance +5"
+	},
+	{
+		"assign": "33",
+		"jp_text": "ウィンドレジストⅣ",
+		"tr_text": "Wind Resist IV",
+		"jp_explain": "風耐性+6",
+		"tr_explain": "Wind Resistance +6"
+	},
+	{
+		"assign": "34",
+		"jp_text": "ウィンドレジストⅤ",
+		"tr_text": "Wind Resist V",
+		"jp_explain": "風耐性+7",
+		"tr_explain": "Wind Resistance +7"
+	},
+	{
+		"assign": "35",
+		"jp_text": "ライトレジストⅠ",
+		"tr_text": "Light Resist I",
+		"jp_explain": "光耐性+3",
+		"tr_explain": "Light Resistance +3"
+	},
+	{
+		"assign": "36",
+		"jp_text": "ライトレジストⅡ",
+		"tr_text": "Light Resist II",
+		"jp_explain": "光耐性+4",
+		"tr_explain": "Light Resistance +4"
+	},
+	{
+		"assign": "37",
+		"jp_text": "ライトレジストⅢ",
+		"tr_text": "Light Resist III",
+		"jp_explain": "光耐性+5",
+		"tr_explain": "Light Resistance +5"
+	},
+	{
+		"assign": "38",
+		"jp_text": "ライトレジストⅣ",
+		"tr_text": "Light Resist IV",
+		"jp_explain": "光耐性+6",
+		"tr_explain": "Light Resistance +6"
+	},
+	{
+		"assign": "39",
+		"jp_text": "ライトレジストⅤ",
+		"tr_text": "Light Resist V",
+		"jp_explain": "光耐性+7",
+		"tr_explain": "Light Resistance +7"
+	},
+	{
+		"assign": "40",
+		"jp_text": "グルームレジストⅠ",
+		"tr_text": "Gloom Resist I",
+		"jp_explain": "闇耐性+3",
+		"tr_explain": "Dark Resistance +3"
+	},
+	{
+		"assign": "41",
+		"jp_text": "グルームレジストⅡ",
+		"tr_text": "Gloom Resist II",
+		"jp_explain": "闇耐性+4",
+		"tr_explain": "Dark Resistance +4"
+	},
+	{
+		"assign": "42",
+		"jp_text": "グルームレジストⅢ",
+		"tr_text": "Gloom Resist III",
+		"jp_explain": "闇耐性+5",
+		"tr_explain": "Dark Resistance +5"
+	},
+	{
+		"assign": "43",
+		"jp_text": "グルームレジストⅣ",
+		"tr_text": "Gloom Resist IV",
+		"jp_explain": "闇耐性+6",
+		"tr_explain": "Dark Resistance +6"
+	},
+	{
+		"assign": "44",
+		"jp_text": "グルームレジストⅤ",
+		"tr_text": "Gloom Resist V",
+		"jp_explain": "闇耐性+7",
+		"tr_explain": "Dark Resistance +7"
+	},
+	{
+		"assign": "45",
+		"jp_text": "オールレジストⅠ",
+		"tr_text": "All Resist I",
+		"jp_explain": "全耐性/全軽減+1",
+		"tr_explain": "All Resistance +1"
+	},
+	{
+		"assign": "46",
+		"jp_text": "オールレジストⅡ",
+		"tr_text": "All Resist II",
+		"jp_explain": "全耐性/全軽減+2",
+		"tr_explain": "All Resistance +2"
+	},
+	{
+		"assign": "47",
+		"jp_text": "オールレジストⅢ",
+		"tr_text": "All Resist III",
+		"jp_explain": "全耐性/全軽減+3",
+		"tr_explain": "All Resistance +3"
+	},
+	{
+		"assign": "48",
+		"jp_text": "オールレジストⅣ",
+		"tr_text": "All Resist IV",
+		"jp_explain": "全耐性/全軽減+4",
+		"tr_explain": "All Resistance +4"
+	},
+	{
+		"assign": "49",
+		"jp_text": "オールレジストⅤ",
+		"tr_text": "All Resist V",
+		"jp_explain": "全耐性/全軽減+5",
+		"tr_explain": "All Resistance +5"
+	},
+	{
+		"assign": "50",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "51",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "52",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "53",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "55",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "56",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "57",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "58",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "59",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "60",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "61",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "62",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "63",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "64",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "65",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "66",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "67",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "68",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	},
+	{
+		"assign": "69",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "---",
+		"tr_explain": ""
+	}
+]
