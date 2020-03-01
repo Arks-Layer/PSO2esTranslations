@@ -14,8 +14,8 @@
 
 
 * SEGAC - For the libs that power the trans tool (lol)
-* PolCPP - Aka Rupikachu for the tool
-* AIDA - Initial translations
+* PolCPP (Rupikachu) - for the tool
+* Aida - Initial translations
 * Logokas - A lot of UI translation work
 * SynthSy - Translation work
 * Alam Arias - Adding travis support and other stuff 
