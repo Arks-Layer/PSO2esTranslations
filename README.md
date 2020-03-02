@@ -33,7 +33,6 @@
  12. Hasta que alguien del equipo observe los cambios que has realizado estos serán a combinados con el parche de traducción.
 ### Para tener en cuenta
 * Solo edita los archivos .txt en la carpeta **[JSON]**
-* Puedes crear una **[Issue]** para abrir una discusión sobre las traducciones con otros traductores. Por favor ten en cuenta que las discusiones que no estén relacionadas con la traducción, serán eliminadas sin ninguna advertencia.
 * Este no es compatible con caracteres con tilde o diéresis, asi que evitar usarlas, y de igual manera, la ñ debe ser reemplazada con й.
 
 ## Creditos de la Version en Español
@@ -80,5 +79,4 @@
 
 [PSO2 en Español]: https://github.com/Arks-Layer/PSO2ENPatchCSV/tree/ES
 [ESBreaker]: https://github.com/PolCPP/ESBreaker
-[Issue]: https://github.com/TheBlazter/PSO2es-Translation/issues  
-[JSON]: https://github.com/TheBlazter/PSO2es-Translation/tree/master/json
+[JSON]: https://github.com/Arks-Layer/PSO2esTranslations/tree/ES/json
