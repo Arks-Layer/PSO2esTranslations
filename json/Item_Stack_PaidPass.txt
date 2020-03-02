@@ -11,14 +11,14 @@
 		"jp_text": "カラーチェンジパス",
 		"tr_text": "Color Change Pass",
 		"jp_explain": "コスチュームのカラー変更パス\nエステにてカラーリングの変更が可能。\n利用するたびにパスは消費される。",
-		"tr_explain": "Allows you to recolor your\ncharacter from the Beauty Salon."
+		"tr_explain": "Permite recolorear un traje\n o tu personaje cast desde el\nSalon de Belleza."
 	},
 	{
 		"assign": "32104",
 		"jp_text": "スキルツリー追加パス",
 		"tr_text": "Add. Skill Tree Pass",
 		"jp_explain": "クラスカウンターで使われるパス。\n新規のスキルツリーを１枚追加できる。\n１キャラクター２０枚まで拡張可能。",
-		"tr_explain": "Adds an additional Skill Tree\nto a selected class, up to\n20 trees on a single class."
+		"tr_explain": "Agrega un Skill Tree en la\nclase seleccionada, es posible\ntener 20 skill tree por clase."
 	},
 	{
 		"assign": "32105",
@@ -46,161 +46,161 @@
 		"jp_text": "強化成功率＋５％",
 		"tr_text": "Grind Success Rate +5%",
 		"jp_explain": "旧式武器、防具、キャンディー用の\n強化補助素材。強化時に使用することで\n成功率を５％上昇させる。",
-		"tr_explain": "Increase the success rate\nby 5% when grinding equipment."
+		"tr_explain": "Aumenta el chance en un 5%\ncuando mejoras el equipo."
 	},
 	{
 		"assign": "32109",
 		"jp_text": "強化成功率＋１０％",
 		"tr_text": "Grind Success Rate +10%",
 		"jp_explain": "旧式武器、防具、キャンディー用の\n強化補助素材。強化時に使用することで\n成功率を１０％上昇させる。",
-		"tr_explain": "Increase the success rate\nby 10% when grinding equipment."
+		"tr_explain": "Aumenta el chance en un 10%\ncuando mejoras el equipo."
 	},
 	{
 		"assign": "321010",
 		"jp_text": "強化成功率＋２０％",
 		"tr_text": "Grind Success Rate +20%",
 		"jp_explain": "旧式武器、防具、キャンディー用の\n強化補助素材。強化時に使用することで\n成功率を２０％上昇させる。",
-		"tr_explain": "Increase the success rate\nby 20% when grinding equipment."
+		"tr_explain": "Aumenta el chance en un 20%\ncuando mejoras el equipo."
 	},
 	{
 		"assign": "321011",
 		"jp_text": "強化スキップ（→７）",
 		"tr_text": "Grind Skip (→7)",
 		"jp_explain": "旧式武器、ユニット用の強化補助素材。\n強化値が＋６以下の時に使用すると\n＋７まで一気に強化することができる。",
-		"tr_explain": "Instantly grinds to +7 when the item\ngrinding is +6 or lower. Cannot be\ntraded or sold to other players."
+		"tr_explain": "Mejora de inmediato a +7 un equipo\nque este debajo de +6. No puede ser\nvendido o cambiado a otros jugadores."
 	},
 	{
 		"assign": "321012",
 		"jp_text": "強化リスク軽減（＋１）",
 		"tr_text": "Grind Risk Reduction (+1)",
 		"jp_explain": "旧式武器、ユニット用の原型保護素材。\n強化時に使用することで\n強化失敗時のリスクを１段階低減する。",
-		"tr_explain": "Used when grinding equipment.\nDecreases grinding risk by 1."
+		"tr_explain": "Usado en la mejora de equipo.\nReduce el riesgo de fallo por 1."
 	},
 	{
 		"assign": "321013",
 		"jp_text": "強化リスク軽減（完全）",
 		"tr_text": "Grind Risk Reduction (Full)",
 		"jp_explain": "旧式武器、ユニット用の原型保護素材。\n強化時に使用することで\n強化失敗時のリスクを打ち消す。",
-		"tr_explain": "Used when grinding equipment.\nCompletely removes grinding risk."
+		"tr_explain": "Usado en la mejora de equipo.\nReduce el riesgo de fallo por completo."
 	},
 	{
 		"assign": "321014",
 		"jp_text": "属性強化＋５％",
 		"tr_text": "Attribute Enhance +5%",
 		"jp_explain": "属性強化用の強化補助素材。\n属性強化時に使用することで\n属性値を５％底上げする。",
-		"tr_explain": "Used when grinding attributes.\nIncreases weapon attribute by 5%."
+		"tr_explain": "Cuando estas mejorando el atributo.\nAumenta el atributo del arma un 5%."
 	},
 	{
 		"assign": "321015",
 		"jp_text": "属性変化（炎属性）",
 		"tr_text": "Attribute Change (Fire)",
 		"jp_explain": "属性強化用の強化変成素材。\n属性強化時に使用することで\n【炎】属性へと変化させる。",
-		"tr_explain": "Used when grinding attributes.\nChanges weapon attribute to \"Fire\"."
+		"tr_explain": "Cuando estas mejorando el atributo.\nCambia el atributo del arma ha\n\"Fuego\"."
 	},
 	{
 		"assign": "321016",
 		"jp_text": "属性変化（氷属性）",
 		"tr_text": "Attribute Change (Ice)",
 		"jp_explain": "属性強化用の強化変成素材。\n属性強化時に使用することで\n【氷】属性へと変化させる。",
-		"tr_explain": "Used when grinding attributes.\nChanges weapon attribute to \"Ice\"."
+		"tr_explain": "Cuando estas mejorando el atributo.\nCambia el atributo del arma ha\n\"Hielo\"."
 	},
 	{
 		"assign": "321017",
 		"jp_text": "属性変化（雷属性）",
 		"tr_text": "Attribute Change (Lightning)",
 		"jp_explain": "属性強化用の強化変成素材。\n属性強化時に使用することで\n【雷】属性へと変化させる。",
-		"tr_explain": "Used when grinding attributes.\nChanges weapon attribute\nto \"Lightning\"."
+		"tr_explain": "Cuando estas mejorando el atributo.\nChanges weapon attribute\nto \"Trueno\"."
 	},
 	{
 		"assign": "321018",
 		"jp_text": "属性変化（風属性）",
 		"tr_text": "Attribute Change (Wind)",
 		"jp_explain": "属性強化用の強化変成素材。\n属性強化時に使用することで\n【風】属性へと変化させる。",
-		"tr_explain": "Used when grinding attributes.\nChanges weapon attribute to \"Wind\"."
+		"tr_explain": "Cuando estas mejorando el atributo.\nCambia el atributo del arma ha\n\"Viento\"."
 	},
 	{
 		"assign": "321019",
 		"jp_text": "属性変化（光属性）",
 		"tr_text": "Attribute Change (Light)",
 		"jp_explain": "属性強化用の強化変成素材。\n属性強化時に使用することで\n【光】属性へと変化させる。",
-		"tr_explain": "Used when grinding attributes.\nChanges weapon attribute to \"Light\"."
+		"tr_explain": "Cuando estas mejorando el atributo.\nCambia el atributo del arma ha\n\"Luz\"."
 	},
 	{
 		"assign": "321020",
 		"jp_text": "属性変化（闇属性）",
 		"tr_text": "Attribute Change (Dark)",
 		"jp_explain": "属性強化用の強化変成素材。\n属性強化時に使用することで\n【闇】属性へと変化させる。",
-		"tr_explain": "Used when grinding attributes.\nChanges weapon attribute to \"Dark\"."
+		"tr_explain": "Cuando estas mejorando el atributo.\nCambia el atributo del arma ha\n\"Oscuridad\"."
 	},
 	{
 		"assign": "321021",
 		"jp_text": "能力追加成功率＋５％",
 		"tr_text": "Ability Success Rate +5%",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n成功率を５％上昇させる。",
-		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 5%."
+		"tr_explain": "Cuando agregas una Habilidad\na tu equipo.\nAumenta el chance de exito en 5%."
 	},
 	{
 		"assign": "321022",
 		"jp_text": "能力追加成功率＋１０％",
 		"tr_text": "Ability Success Rate +10%",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n成功率を１０％上昇させる。",
-		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 10%."
+		"tr_explain": "Cuando agregas una Habilidad\na tu equipo.\nAumenta el chance de exito en 10%."
 	},
 	{
 		"assign": "321023",
 		"jp_text": "能力追加成功率＋２０％",
 		"tr_text": "Ability Success Rate +20%",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n成功率を２０％上昇させる。",
-		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 20%."
+		"tr_explain": "Cuando agregas una Habilidad\na tu equipo.\nAumenta el chance de exito en 20%."
 	},
 	{
 		"assign": "321024",
 		"jp_text": "特殊能力追加（打撃）",
 		"tr_text": "Add Ability Power Boost",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【打撃】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Power Boost\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Power Boost\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "321025",
 		"jp_text": "特殊能力追加（射撃）",
 		"tr_text": "Add Ability Shoot Boost",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【射撃】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Shooting Boost\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Shooting Boost\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "321026",
 		"jp_text": "特殊能力追加（法撃）",
 		"tr_text": "Add Ability Tech Boost",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【法撃】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Technique Boost\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Technique Boost\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "321027",
 		"jp_text": "特殊能力追加（ＨＰ）",
 		"tr_text": "Add Ability Stamina Boost",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ＨＰ】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Stamina Boost\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Stamina Boost\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "321028",
 		"jp_text": "特殊能力追加（ＰＰ）",
 		"tr_text": "Add Ability Spirita Boost",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ＰＰ】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Spirita Boost\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Spirita Boost\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "321030",
 		"jp_text": "強化成功率＋３０％",
 		"tr_text": "Grind Success Rate +30%",
 		"jp_explain": "旧式武器、防具、キャンディー用の\n強化補助素材。強化時に使用することで\n成功率を３０％上昇させる。",
-		"tr_explain": "Increase the success rate\nby 30% when grinding equipment."
+		"tr_explain": "Aumenta el chance en un 30%\ncuando mejoras el equipo."
 	},
 	{
 		"assign": "321031",
 		"jp_text": "能力追加成功率＋３０％",
 		"tr_text": "Ability Success Rate +30%",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n成功率を３０％上昇させる。",
-		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 30%."
+		"tr_explain": "Cuando agregas una Habilidad\na tu equipo.\nAumenta el chance de exito en 30%."
 	},
 	{
 		"assign": "321032",
@@ -214,77 +214,77 @@
 		"jp_text": "★１０武器購入パス",
 		"tr_text": "10★ Weapon Exchange Pass",
 		"jp_explain": "特定レアリティ武器の購入パス。\nマイショップで【★１０】武器を\n購入する際に消費される。",
-		"tr_explain": "A pass that grants the purchase\nof 10★ weapons from My Shop."
+		"tr_explain": "Un pase que permite comprar\narmas de 10★ de My Shop."
 	},
 	{
 		"assign": "321034",
 		"jp_text": "★１１武器購入パス",
 		"tr_text": "11★ Weapon Exchange Pass",
 		"jp_explain": "特定レアリティ武器の購入パス。\nマイショップで【★１１】武器を\n購入する際に消費される。",
-		"tr_explain": "A pass that grants the purchase\nof 11★ weapons from My Shop."
+		"tr_explain": "Un pase que permite comprar\narmas de 11★ de My Shop."
 	},
 	{
 		"assign": "321035",
 		"jp_text": "★１２武器購入パス",
 		"tr_text": "12★ Weapon Exchange Pass",
 		"jp_explain": "特定レアリティ武器の購入パス。\nマイショップで【★１２】武器を\n購入する際に消費される。",
-		"tr_explain": "A pass that grants the purchase\nof 12★ weapons from My Shop."
+		"tr_explain": "Un pase que permite comprar\narmas de 12★ de My Shop."
 	},
 	{
 		"assign": "321039",
 		"jp_text": "★１０ユニット購入パス",
 		"tr_text": "10★ Unit Exchange Pass",
 		"jp_explain": "特定レアリティユニットの購入パス。\nマイショップで【★１０】ユニットを\n購入する際に消費される。",
-		"tr_explain": "A pass that grants the purchase\nof 10★ units from My Shop."
+		"tr_explain": "Un pase que permite comprar\nunits de 10★ de My Shop."
 	},
 	{
 		"assign": "321040",
 		"jp_text": "★１１ユニット購入パス",
 		"tr_text": "11★ Unit Exchange Pass",
 		"jp_explain": "特定レアリティユニットの購入パス。\nマイショップで【★１１】ユニットを\n購入する際に消費される。",
-		"tr_explain": "A pass that grants the purchase\nof 11★ units from My Shop."
+		"tr_explain": "Un pase que permite comprar\nunits de 11★ de My Shop."
 	},
 	{
 		"assign": "321047",
 		"jp_text": "強化成功（１００％）",
 		"tr_text": "Grind Success (100%)",
 		"jp_explain": "旧式武器、防具、キャンディー用の\n強化補助素材。強化時に使用することで\n確実に成功させる。",
-		"tr_explain": "Support item for grinding equipment.\nGuarantees that one grind will be\nsuccessful."
+		"tr_explain": "Aumenta el chance en un 100%\ncuando mejoras el equipo."
 	},
 	{
 		"assign": "321048",
 		"jp_text": "強化リスク軽減（＋２）",
 		"tr_text": "Grind Risk Reduction (+2)",
 		"jp_explain": "旧式武器、ユニット用の原型保護素材。\n強化時に使用することで\n強化失敗時のリスクを２段階低減する。",
-		"tr_explain": "Used when grinding equipment.\nDecreases grinding risk by 2."
+		"tr_explain": "Usado en la mejora de equipo.\nReduce el riesgo de fallo por 2."
 	},
 	{
 		"assign": "321051",
 		"jp_text": "属性強化＋１０％",
 		"tr_text": "Attribute Enhance +10%",
 		"jp_explain": "属性強化用の強化補助素材。\n属性強化時に使用することで\n属性値を１０％底上げする。",
-		"tr_explain": "Used when grinding attributes.\nIncreases weapon attribute by 10%."
+		"tr_explain": "Cuando estas mejorando el atributo.\nAumenta el atributo del arma un 10%."
 	},
 	{
 		"assign": "321054",
 		"jp_text": "能力追加成功率＋４０％",
-		"tr_text": "Ability Success Rate +40%",
+		"tr_text": " Ability Success Rate +40%",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n成功率を４０％上昇させる。",
-		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 40%"
+		"tr_explain": "Cuando agregas una Habilidad\na tu equipo.\nAumenta el chance de exito en 40%"
 	},
 	{
 		"assign": "321055",
 		"jp_text": "能力追加成功率＋５０％",
 		"tr_text": "Ability Success Rate +50%",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n成功率を５０％上昇させる。",
-		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 50%"
+		"tr_explain": "Cuando agregas una Habilidad\na tu equipo.\nAumenta el chance de exito en 50%"
 	},
 	{
 		"assign": "321056",
 		"jp_text": "能力追加成功（１００％）",
 		"tr_text": "Ability Success Rate +100%",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n確実に成功させる。",
-		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 100%"
+		"tr_explain": "Cuando agregas una Habilidad\na tu equipo.\nAumenta el chance de exito en 100%"
 	},
 	{
 		"assign": "321057",
@@ -312,189 +312,189 @@
 		"jp_text": "リリパリウムフルチャージ",
 		"tr_text": "Lilliparium Full Charge",
 		"jp_explain": "現在所持している全ての\nクラフトエネルギーを\n全回復させる。",
-		"tr_explain": "Reduces the cooldown of all craft\nlines completely."
+		"tr_explain": "Reduce el tiempo de espera de todas\nlas lineas de crafteo por completo."
 	},
 	{
 		"assign": "321061",
 		"jp_text": "リリパリウム（極小）",
 		"tr_text": "Lilliparium (Mini)",
 		"jp_explain": "選択したクラフトエネルギーを\n１５分回復させる。",
-		"tr_explain": "Reduces the cooldown of a craft\nline by 15 minutes."
+		"tr_explain": "Reduce el tiempo de espera\nde una linea de crafteo 15 minutos."
 	},
 	{
 		"assign": "321062",
 		"jp_text": "リリパリウム（小）",
 		"tr_text": "Lilliparium (Small)",
 		"jp_explain": "選択したクラフトエネルギーを\n３０分回復させる。",
-		"tr_explain": "Reduces the cooldown of a craft\nline by 30 minutes."
+		"tr_explain": "Reduce el tiempo de espera\nde una linea de crafteo 30 minutos."
 	},
 	{
 		"assign": "321066",
 		"jp_text": "リリパリウム（極大）",
 		"tr_text": "Lilliparium (Max)",
 		"jp_explain": "選択したクラフトエネルギーを\n１２時間回復させる。",
-		"tr_explain": "Reduces the cooldown of a single\ncraft line by 12 hours."
+		"tr_explain": "Reduce el tiempo de espera\nde una linea de crafteo 12 horas."
 	},
 	{
 		"assign": "321067",
 		"jp_text": "クラス追加（ハンター）",
 		"tr_text": "Add Class (Hunter)",
 		"jp_explain": "武装エクステンド実行時に\nハンターのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"Hunter\"\nto equipment when extended."
+		"tr_explain": "Aйade la clase \"Hunter\"\na un equipo cuando es extendido."
 	},
 	{
 		"assign": "321068",
 		"jp_text": "クラス追加（レンジャー）",
 		"tr_text": "Add Class (Ranger)",
 		"jp_explain": "武装エクステンド実行時に\nレンジャーのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"Ranger\"\nto equipment when extended."
+		"tr_explain": "Aйade la clase \"Ranger\"\na un equipo cuando es extendido."
 	},
 	{
 		"assign": "321069",
 		"jp_text": "クラス追加（フォース）",
 		"tr_text": "Add Class (Force)",
 		"jp_explain": "武装エクステンド実行時に\nフォースのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"Force\"\nto equipment when extended."
+		"tr_explain": "Aйade la clase \"Force\"\na un equipo cuando es extendido."
 	},
 	{
 		"assign": "321070",
 		"jp_text": "クラス追加（ファイター）",
 		"tr_text": "Add Class (Fighter)",
 		"jp_explain": "武装エクステンド実行時に\nファイターのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"Fighter\"\nto equipment when extended."
+		"tr_explain": "Aйade la clase \"Fighter\"\na un equipo cuando es extendido."
 	},
 	{
 		"assign": "321071",
 		"jp_text": "クラス追加（ガンナー）",
 		"tr_text": "Add Class (Gunner)",
 		"jp_explain": "武装エクステンド実行時に\nガンナーのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"Gunner\"\nto equipment when extended."
+		"tr_explain": "Aйade la clase \"Gunner\"\na un equipo cuando es extendido."
 	},
 	{
 		"assign": "321072",
 		"jp_text": "クラス追加（テクター）",
 		"tr_text": "Add Class (Techer)",
 		"jp_explain": "武装エクステンド実行時に\nテクターのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"Techer\"\nto equipment when extended."
+		"tr_explain": "Aйade la clase \"Techer\"\na un equipo cuando es extendido."
 	},
 	{
 		"assign": "321073",
 		"jp_text": "クラス追加（ブレイバー）",
 		"tr_text": "Add Class (Braver)",
 		"jp_explain": "武装エクステンド実行時に\nブレイバーのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"Braver\"\nto equipment when extended."
+		"tr_explain": "Aйade la clase \"Braver\"\na un equipo cuando es extendido."
 	},
 	{
 		"assign": "321074",
 		"jp_text": "装備条件変更（打撃）",
 		"tr_text": "Equip. Condition Swap (S-ATK)",
 		"jp_explain": "武装エクステンド実行時に\n装備条件を打撃に\n変更する。",
-		"tr_explain": "Swaps the equipment requirement\nwhen used during equipment\nextension with S-ATK."
+		"tr_explain": "Cambia el requisito de una pieza\nde equipo cuando es realizada una\nextension por S-ATK."
 	},
 	{
 		"assign": "321075",
 		"jp_text": "装備条件変更（射撃）",
 		"tr_text": "Equip. Condition Swap (R-ATK)",
 		"jp_explain": "武装エクステンド実行時に\n装備条件を射撃に\n変更する。",
-		"tr_explain": "Swaps the equipment requirement\nwhen used during equipment\nextension with R-ATK."
+		"tr_explain": "Cambia el requisito de una pieza\nde equipo cuando es realizada una\nextension por R-ATK."
 	},
 	{
 		"assign": "321076",
 		"jp_text": "装備条件変更（法撃）",
 		"tr_text": "Equip. Condition Swap (T-ATK)",
 		"jp_explain": "武装エクステンド実行時に\n装備条件を法撃に\n変更する。",
-		"tr_explain": "Swaps the equipment requirement\nwhen used during equipment\nextension with T-ATK."
+		"tr_explain": "Cambia el requisito de una pieza\nde equipo cuando es realizada una\nextension por T-ATK."
 	},
 	{
 		"assign": "321077",
 		"jp_text": "装備条件変更（技量）",
 		"tr_text": "Equip. Condition Swap (DEX)",
 		"jp_explain": "武装エクステンド実行時に\n装備条件を技量に\n変更する。",
-		"tr_explain": "Swaps the equipment requirement\nwhen used during equipment\nextension with DEX."
+		"tr_explain": "Cambia el requisito de una pieza\nde equipo cuando es realizada una\nextension por DEX."
 	},
 	{
 		"assign": "321078",
 		"jp_text": "装備条件変更（打撃防御）",
 		"tr_text": "Equip. Condition Swap (S-DEF)",
 		"jp_explain": "武装エクステンド実行時に\n装備条件を打撃防御に\n変更する。",
-		"tr_explain": "Swaps the equipment requirement\nwhen used during equipment\nextension with S-DEF."
+		"tr_explain": "Cambia el requisito de una pieza\nde equipo cuando es realizada una\nextension por S-DEF."
 	},
 	{
 		"assign": "321079",
 		"jp_text": "装備条件変更（射撃防御）",
 		"tr_text": "Equip. Condition Swap (R-DEF)",
 		"jp_explain": "武装エクステンド実行時に\n装備条件を射撃防御に\n変更する。",
-		"tr_explain": "Swaps the equipment requirement\nwhen used during equipment\nextension with R-DEF."
+		"tr_explain": "Cambia el requisito de una pieza\nde equipo cuando es realizada una\nextension por R-DEF."
 	},
 	{
 		"assign": "321080",
 		"jp_text": "装備条件変更（法撃防御）",
 		"tr_text": "Equip. Condition Swap (T-DEF)",
 		"jp_explain": "武装エクステンド実行時に\n装備条件を法撃防御に\n変更する。",
-		"tr_explain": "Swaps the equipment requirement\nwhen used during equipment\nextension with T-DEF."
+		"tr_explain": "Cambia el requisito de una pieza\nde equipo cuando es realizada una\nextension por T-DEF."
 	},
 	{
 		"assign": "321081",
 		"jp_text": "装備条件緩和＋１０％",
 		"tr_text": "Relax Equip. Conditions +10%",
 		"jp_explain": "武装エクステンド実行時に\n装備条件を１０％緩和する。",
-		"tr_explain": "Decreases the required stat of\nthe extended equipment by 10%."
+		"tr_explain": "Reduce el requisito de stats de\nel equipo extendido en un 10%."
 	},
 	{
 		"assign": "321082",
 		"jp_text": "装備条件緩和＋２０％",
 		"tr_text": "Relax Equip. Conditions +20%",
 		"jp_explain": "武装エクステンド実行時に\n装備条件を２０％緩和する。",
-		"tr_explain": "Decreases the required stat of\nthe extended equipment by 20%."
+		"tr_explain": "Reduce el requisito de stats de\nel equipo extendido en un 20%."
 	},
 	{
 		"assign": "321083",
 		"jp_text": "装備条件緩和＋３０％",
 		"tr_text": "Relax Equip. Conditions +30%",
 		"jp_explain": "武装エクステンド実行時に\n装備条件を３０％緩和する。",
-		"tr_explain": "Decreases the required stat of\nthe extended equipment by 30%."
+		"tr_explain": "Reduce el requisito de stats de\nel equipo extendido en un 30%."
 	},
 	{
 		"assign": "321086",
 		"jp_text": "メリット値＋１０％",
 		"tr_text": "Merit Value +10%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nメリットの下限値を\n１０％上昇させる。",
-		"tr_explain": "Increases the merit value by 10%\nwhen customizing techniques."
+		"tr_explain": "Incrementa el merito en un 10%\ncuando personalizas tecnicas."
 	},
 	{
 		"assign": "321087",
 		"jp_text": "メリット値＋２０％",
 		"tr_text": "Merit Value +20%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nメリットの下限値を\n２０％上昇させる。",
-		"tr_explain": "Increases the merit value by 20%\nwhen customizing techniques."
+		"tr_explain": "Incrementa el merito en un 20%\ncuando personalizas tecnicas."
 	},
 	{
 		"assign": "321088",
 		"jp_text": "メリット値＋３０％",
 		"tr_text": "Merit Value +30%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nメリットの下限値を\n３０％上昇させる。",
-		"tr_explain": "Increases the merit value by 30%\nwhen customizing techniques."
+		"tr_explain": "Incrementa el merito en un 30%\ncuando personalizas tecnicas."
 	},
 	{
 		"assign": "321091",
 		"jp_text": "デメリット値－１０％",
 		"tr_text": "Demerit Value -10%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nデメリットの上限値を\n１０％軽減させる。",
-		"tr_explain": "Decreases the demerit value by -10%\nwhen customizing techniques."
+		"tr_explain": "Reduce el demerito en un -10%\ncuando personalizas tecnicas."
 	},
 	{
 		"assign": "321092",
 		"jp_text": "デメリット値－２０％",
 		"tr_text": "Demerit Value -20%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nデメリットの上限値を\n２０％軽減させる。",
-		"tr_explain": "Decreases the demerit value by -20%\nwhen customizing techniques."
+		"tr_explain": "Reduce el demerito en un -20%\ncuando personalizas tecnicas."
 	},
 	{
 		"assign": "321093",
 		"jp_text": "デメリット値－３０％",
 		"tr_text": "Demerit Value -30%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nデメリットの上限値を\n３０％軽減させる。",
-		"tr_explain": "Decreases the demerit value by -30%\nwhen customizing techniques."
+		"tr_explain": "Reduce el demerito en un -30%\ncuando personalizas tecnicas."
 	},
 	{
 		"assign": "321096",
@@ -508,7 +508,7 @@
 		"jp_text": "マグ形態変更パス",
 		"tr_text": "Mag Form Change Pass",
 		"jp_explain": "マグ形態変更機能利用パス。\n登録済リストからマグ形態を選択できる。\n利用するたびにパスは消費される。",
-		"tr_explain": "Allows you to select the form\nof your Mag. Pass is consumed\nwhen you select a form."
+		"tr_explain": "Te permite seleccionar la forma\nde tu Mag. El pase es consumido\ncuando seleccionas una forma."
 	},
 	{
 		"assign": "321098",
@@ -536,84 +536,84 @@
 		"jp_text": "効果時間延長＋７日",
 		"tr_text": "Timed Effect Extension +7 Days",
 		"jp_explain": "時限能力インストール実行時に\nデータの効果時間を７日\n延長させる。",
-		"tr_explain": "Extends the expiration of\na Timed Ability by 7 days."
+		"tr_explain": "Extiende la fecha de expiracion\nde una Timed Ability por 7 dias."
 	},
 	{
 		"assign": "3210114",
 		"jp_text": "クラス追加（バウンサー）",
 		"tr_text": "Add Class (Bouncer)",
 		"jp_explain": "武装エクステンド実行時に\nバウンサーのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"Bouncer\"\nto equipment when extended."
+		"tr_explain": "Aйade la clase \"Bouncer\"\na un equipo cuando es extendido."
 	},
 	{
 		"assign": "3210115",
 		"jp_text": "特殊能力追加（打撃＆ＰＰ）",
 		"tr_text": "Add Ability (Strike&PP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【打撃＆ＰＰ】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Noble Power\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Noble Power\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "3210116",
 		"jp_text": "特殊能力追加（射撃＆ＰＰ）",
 		"tr_text": "Add Ability (Shoot&PP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【射撃＆ＰＰ】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Noble Shot\" when\nused in Special Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Noble Shot\" when\nused in Special Ability Synthesis."
 	},
 	{
 		"assign": "3210117",
 		"jp_text": "特殊能力追加（法撃＆ＰＰ）",
 		"tr_text": "Add Ability (Tech&PP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【法撃＆ＰＰ】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Noble Technique\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Noble Technique\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "3210118",
 		"jp_text": "特殊能力追加（ＨＰ＆ＰＰ）",
 		"tr_text": "Add Ability (Stamina&PP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ＨＰ＆ＰＰ】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Noble Stamina\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Noble Stamina\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "3210119",
 		"jp_text": "カスタムタイプ１＋１０％",
 		"tr_text": "Custom Type 1 +10%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ１の効果値を\n１０％向上させる。",
-		"tr_explain": "Used during customization crafts.\nCustom Type 1 effect boosted\nby 10%."
+		"tr_explain": "Usado durante el crafteo.\nEfecto de Custom Type 1 mejorado\nen un 10%."
 	},
 	{
 		"assign": "3210120",
 		"jp_text": "カスタムタイプ１＋２０％",
 		"tr_text": "Custom Type 1 +20%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ１の効果値を\n２０％向上させる。",
-		"tr_explain": "Used during customization crafts.\nCustom Type 1 effect boosted\nby 20%."
+		"tr_explain": "Usado durante el crafteo.\nEfecto de Custom Type 1 mejorado\nen un 20%."
 	},
 	{
 		"assign": "3210121",
 		"jp_text": "カスタムタイプ１＋３０％",
 		"tr_text": "Custom Type 1 +30%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ１の効果値を\n３０％向上させる。",
-		"tr_explain": "Used during customization crafts.\nCustom Type 1 effect boosted\nby 30%."
+		"tr_explain": "Usado durante el crafteo.\nEfecto de Custom Type 1 mejorado\nen un 30%."
 	},
 	{
 		"assign": "3210124",
 		"jp_text": "カスタムタイプ２＋１０％",
 		"tr_text": "Custom Type 2 +10%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ２の効果値を\n１０％向上させる。",
-		"tr_explain": "Used during customization crafts.\nCustom Type 2 effect boosted\nby 10%."
+		"tr_explain": "Usado durante el crafteo.\nEfecto de Custom Type 2 mejorado\nen un 10%."
 	},
 	{
 		"assign": "3210125",
 		"jp_text": "カスタムタイプ２＋２０％",
 		"tr_text": "Custom Type 2 +20%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ２の効果値を\n２０％向上させる。",
-		"tr_explain": "Used during customization crafts.\nCustom Type 2 effect boosted\nby 20%."
+		"tr_explain": "Usado durante el crafteo.\nEfecto de Custom Type 2 mejorado\nen un 20%."
 	},
 	{
 		"assign": "3210126",
 		"jp_text": "カスタムタイプ２＋３０％",
 		"tr_text": "Custom Type 2 +30%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ２の効果値を\n３０％向上させる。",
-		"tr_explain": "Used during customization crafts.\nCustom Type 2 effect boosted\nby 30%."
+		"tr_explain": "Usado durante el crafteo.\nEfecto de Custom Type 2 mejorado\nen un 30%."
 	},
 	{
 		"assign": "3210129",
@@ -627,21 +627,21 @@
 		"jp_text": "リリパリウムオール（極大）",
 		"tr_text": "Lilliparium All (Max)",
 		"jp_explain": "現在所持している全ての\nクラフトエネルギーを\n１２時間回復させる。",
-		"tr_explain": "Reduces the cooldown of all craft\nlines by 12 hours."
+		"tr_explain": "Reduce el tiempo de espera de\ntodas las lineas de crafteo 12 horas."
 	},
 	{
 		"assign": "3210136",
 		"jp_text": "強化スキップ（→５）",
 		"tr_text": "Grind Skip (→5)",
 		"jp_explain": "旧式武器、ユニット用の強化補助素材。\n強化値が＋４以下の時に使用すると\n＋５まで一気に強化することができる。",
-		"tr_explain": "Instantly grinds to +5 when the item\ngrinding is +4 or lower. Cannot be\ntraded or sold to other players."
+		"tr_explain": "Mejora de inmediato a +5 un equipo\nque este debajo de +4. No puede ser\nvendido o cambiado a otros jugadores."
 	},
 	{
 		"assign": "3210139",
 		"jp_text": "クラス追加（サモナー）",
 		"tr_text": "Add Class (Summoner)",
 		"jp_explain": "武装エクステンド実行時に\nサモナーのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"Summoner\"\nto equipment when extended."
+		"tr_explain": "Aйade la clase \"Summoner\"\na un equipo cuando es extendido."
 	},
 	{
 		"assign": "3210140",
@@ -718,273 +718,273 @@
 		"jp_text": "キャンディーイレイサー",
 		"tr_text": "Candy Eraser",
 		"jp_explain": "指定したペットのキャンディーボックスに\nセットしたキャンディーを１つ削除する。\n削除したキャンディーは失われる。",
-		"tr_explain": "Destroys one Candy from\na selected Pet Candy Box."
+		"tr_explain": "Destruye un dulce\nde una Pet Candy Box."
 	},
 	{
 		"assign": "3210151",
 		"jp_text": "全キャンディーイレイサー",
 		"tr_text": "All Candy Eraser",
 		"jp_explain": "指定したペットのキャンディーボックスに\nセットしたキャンディーを全て削除する。\n削除したキャンディーは失われる。",
-		"tr_explain": "Destroys all specified Candy\nfrom a selected Pet Candy Box."
+		"tr_explain": "Destruye los dulces\nde una Pet Candy Box."
 	},
 	{
 		"assign": "3210152",
 		"jp_text": "キャンディーリムーバー",
 		"tr_text": "Candy Remover",
 		"jp_explain": "指定したペットのキャンディーボックスに\nセットしたキャンディーを１つ\nアイテムパックに戻す。",
-		"tr_explain": "Returns one set Candy from\na Candy Box back to\nyour item pack."
+		"tr_explain": "Retoma un dulce\nde una Candy Box de vuelta a\ntu inventario."
 	},
 	{
 		"assign": "3210153",
 		"jp_text": "全キャンディーリムーバー",
 		"tr_text": "All Candy Remover",
 		"jp_explain": "指定したペットのキャンディーボックスに\nセットしたキャンディーを全て\nアイテムパックに戻す。",
-		"tr_explain": "Returns all set Candy from a\nCandy Box back to your\nitem pack."
+		"tr_explain": "Retoma los dulces\nde una Candy Box de vuelta a\ntu inventario."
 	},
 	{
 		"assign": "3210154",
 		"jp_text": "キャラメルクラッシャー",
 		"tr_text": "Caramel Crusher",
 		"jp_explain": "指定したペットのキャンディーボックスに\nセットされたキャラメルブロックを\n１つ削除する。",
-		"tr_explain": "Destroys one Caramel Cube\nfrom a selected\nPet Candy Box"
+		"tr_explain": "Destruye un Caramel Cube\nde una Pet Candy Box."
 	},
 	{
 		"assign": "3210155",
 		"jp_text": "よいピッケル",
-		"tr_text": "Good Pickaxe",
+		"tr_text": "Piqueta Buena",
 		"jp_explain": "ギャザリングで採取を行える。\nレア採取発生率＋５％",
-		"tr_explain": "A tool for Harvesting.\nRare Collect Rate +5%"
+		"tr_explain": "Una herramienta para recolectar.\nChance de Suerte +5%"
 	},
 	{
 		"assign": "3210156",
 		"jp_text": "電撃ピッケル",
-		"tr_text": "Dengeki Pickaxe",
+		"tr_text": "Piqueta Dengeki",
 		"jp_explain": "ギャザリングで\nボーナス付き採取を行える。\nレア採取発生率＋８０％\n<yellow>有効期限／２０１７年１２月６日１１時００分<c>",
-		"tr_explain": "A tool for Harvesting.\nRare Collect Rate +80%\n<yellow>Expires Dec 6, 11:00 JST<c>"
+		"tr_explain": "Una herramienta para recolectar.\nChance de Suerte +80%\n<yellow>Expira Dic 6, 2017 11:00 JST<c>"
 	},
 	{
 		"assign": "3210157",
 		"jp_text": "ファミ通ピッケル",
-		"tr_text": "Famitsu Pickaxe",
+		"tr_text": "Piqueta Famitsu",
 		"jp_explain": "ギャザリングで\nボーナス付き採取を行える。\nレア採取発生率＋８０％\n<yellow>有効期限／２０１６年１２月７日１１時００分<c>",
-		"tr_explain": "A tool for Harvesting.\nRare Collect Rate +80%\n<yellow>Expires Dec 7, 2016 11:00 JST<c>"
+		"tr_explain": "Una herramienta para recolectar.\nChance de Suerte +80%\n<yellow>Expira Dic 7, 2016 11:00 JST<c>"
 	},
 	{
 		"assign": "3210158",
 		"jp_text": "【極み】ピッケル",
-		"tr_text": "[Master] Pickaxe",
+		"tr_text": "Piqueta [Maestra]",
 		"jp_explain": "ギャザリングで採取を行える。\nレア採取発生率＋１００％",
-		"tr_explain": "A tool for Harvesting.\nRare Collect Rate +100%"
+		"tr_explain": "Una herramienta para recolectar.\nChance de Suerte +100%"
 	},
 	{
 		"assign": "3210159",
 		"jp_text": "よい釣り竿",
-		"tr_text": "Good Fishing Rod",
+		"tr_text": "Caйa de Pescar Buena",
 		"jp_explain": "ギャザリングで釣りを行える。\nレア釣り発生率＋５％",
-		"tr_explain": "A tool for Fishing.\nRare Fishing Rate +5%"
+		"tr_explain": "Una herramienta para pescar.\nChance de Suerte +5%"
 	},
 	{
 		"assign": "3210160",
 		"jp_text": "電撃釣り竿",
-		"tr_text": "Dengeki Fishing Rod",
+		"tr_text": "Caйa de Pescar Dengeki",
 		"jp_explain": "ギャザリングで\nボーナス付き釣りを行える。\nレア釣り発生率＋８０％\n<yellow>有効期限／２０１７年１２月６日１１時００分<c>",
-		"tr_explain": "A tool for Fishing.\nRare Fishing Rate +80%\n<yellow>Expires Dec 6, 11:00 JST<c>"
+		"tr_explain": "Una herramienta para pescar.\nChance de Suerte +80%\n<yellow>Expira Dic 6, 2017 11:00 JST<c>"
 	},
 	{
 		"assign": "3210161",
 		"jp_text": "ファミ通釣り竿",
-		"tr_text": "Famitsu Fishing Rod",
+		"tr_text": "Caйa de Pescar Famitsu",
 		"jp_explain": "ギャザリングで\nボーナス付き釣りを行える。\nレア釣り発生率＋８０％\n<yellow>有効期限／２０１６年１２月７日１１時００分<c>",
-		"tr_explain": "A tool for Fishing.\nRare Fishing Rate +80%\n<yellow>Expires Dec 7, 2016 11:00 JST<c>"
+		"tr_explain": "Una herramienta para pescar.\nChance de Suerte +80%\n<yellow>Expira Dic 7, 2016 11:00 JST<c>"
 	},
 	{
 		"assign": "3210162",
 		"jp_text": "【極み】釣り竿",
-		"tr_text": "[Master] Fishing Rod",
+		"tr_text": "Caйa de Pescar [Maestra]",
 		"jp_explain": "ギャザリングで釣りを行える。\nレア釣り発生率＋１００％",
-		"tr_explain": "A tool for Fishing.\nRare Fishing Rate +100%"
+		"tr_explain": "Una herramienta para pescar.\nChance de Suerte +100%"
 	},
 	{
 		"assign": "3210163",
 		"jp_text": "採取スタミナドリンク",
-		"tr_text": "Harvesting Stam. Drink",
+		"tr_text": "Bebida Stam. Mineria",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210164",
 		"jp_text": "採取スタドリ０１",
-		"tr_text": "Collect Stam. Drink 01",
+		"tr_text": "Bebida Stam. Mineria 01",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210165",
 		"jp_text": "採取スタドリ０２",
-		"tr_text": "Collect Stam. Drink 02",
+		"tr_text": "Bebida Stam. Mineria 02",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210166",
 		"jp_text": "採取スタドリ０３",
-		"tr_text": "Collect Stam. Drink 03",
+		"tr_text": "Bebida Stam. Mineria 03",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210167",
 		"jp_text": "採取スタドリ０４",
-		"tr_text": "Collect Stam. Drink 04",
+		"tr_text": "Bebida Stam. Mineria 04",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210168",
 		"jp_text": "採取スタドリ０５",
-		"tr_text": "Collect Stam. Drink 05",
+		"tr_text": "Bebida Stam. Mineria 05",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210169",
 		"jp_text": "採取スタドリ０６",
-		"tr_text": "Collect Stam. Drink 06",
+		"tr_text": "Bebida Stam. Mineria 06",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210170",
 		"jp_text": "採取スタドリ０７",
-		"tr_text": "Collect Stam. Drink 07",
+		"tr_text": "Bebida Stam. Mineria 07",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210171",
 		"jp_text": "採取スタドリ０８",
-		"tr_text": "Collect Stam. Drink 08",
+		"tr_text": "Bebida Stam. Mineria 08",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210172",
 		"jp_text": "採取スタドリ０９",
-		"tr_text": "Collect Stam. Drink 09",
+		"tr_text": "Bebida Stam. Mineria 09",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210173",
 		"jp_text": "採取スタドリ１０",
-		"tr_text": "Collect Stam. Drink 10",
+		"tr_text": "Bebida Stam. Mineria 10",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210175",
 		"jp_text": "釣りスタミナドリンク",
-		"tr_text": "Fishing Stam. Drink",
+		"tr_text": "Bebida Stam. Pesca",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n釣りスタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210176",
 		"jp_text": "釣りスタドリ０１",
-		"tr_text": "Fishing Stam. Drink 01",
+		"tr_text": "Bebida Stam. Pesca 01",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n釣りスタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210177",
 		"jp_text": "釣りスタドリ０２",
-		"tr_text": "Fishing Stam. Drink 02",
+		"tr_text": "Bebida Stam. Pesca 02",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n釣りスタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210178",
 		"jp_text": "釣りスタドリ０３",
-		"tr_text": "Fishing Stam. Drink 03",
+		"tr_text": "Bebida Stam. Pesca 03",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n釣りスタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210179",
 		"jp_text": "釣りスタドリ０４",
-		"tr_text": "Fishing Stam. Drink 04",
+		"tr_text": "Bebida Stam. Pesca 04",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n釣りスタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210180",
 		"jp_text": "釣りスタドリ０５",
-		"tr_text": "Fishing Stam. Drink 05",
+		"tr_text": "Bebida Stam. Pesca 05",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n釣りスタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210181",
 		"jp_text": "釣りスタドリ０６",
-		"tr_text": "Fishing Stam. Drink 06",
+		"tr_text": "Bebida Stam. Pesca 06",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n釣りスタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210182",
 		"jp_text": "釣りスタドリ０７",
-		"tr_text": "Fishing Stam. Drink 07",
+		"tr_text": "Bebida Stam. Pesca 07",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n釣りスタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210183",
 		"jp_text": "釣りスタドリ０８",
-		"tr_text": "Fishing Stam. Drink 08",
+		"tr_text": "Bebida Stam. Pesca 08",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n釣りスタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210184",
 		"jp_text": "釣りスタドリ０９",
-		"tr_text": "Fishing Stam. Drink 09",
+		"tr_text": "Bebida Stam. Pesca 09",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n釣りスタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210185",
 		"jp_text": "釣りスタドリ１０",
-		"tr_text": "Fishing Stam. Drink 10",
+		"tr_text": "Bebida Stam. Pesca 10",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n釣りスタミナが１００回復する。",
-		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
+		"tr_explain": "Suplemento nutritivo\nque esta hecho para Recoleccion.\nRecupera 100 de Stamina."
 	},
 	{
 		"assign": "3210189",
 		"jp_text": "強化大成功確率＋２０％",
 		"tr_text": "Great Grind Success +20%",
 		"jp_explain": "新世武器用の強化補助素材。\n強化時に使用することで\n大成功確率を２０％上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, success\nprobability rate boosted by 20%."
+		"tr_explain": "Material usado en Armas NT.\nIncrementa el chance de mejora\npotenciada en 20%."
 	},
 	{
 		"assign": "3210190",
 		"jp_text": "強化大成功確率＋３０％",
 		"tr_text": "Great Grind Success +30%",
 		"jp_explain": "新世武器用の強化補助素材。\n強化時に使用することで\n大成功確率を３０％上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, success\nprobability rate boosted by 30%."
+		"tr_explain": "Material usado en Armas NT.\nIncrementa el chance de mejora\npotenciada en 30%."
 	},
 	{
 		"assign": "3210192",
 		"jp_text": "強化大成功確率＋５０％",
 		"tr_text": "Great Grind Success +50%",
 		"jp_explain": "新世武器用の強化補助素材。\n強化時に使用することで\n大成功確率を５０％上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, success\nprobability rate boosted by 50%."
+		"tr_explain": "Material usado en Armas NT.\nIncrementa el chance de mejora\npotenciada en 50%."
 	},
 	{
 		"assign": "3210193",
 		"jp_text": "強化大成功（１００％）",
 		"tr_text": "Great Grind Success (100%)",
 		"jp_explain": "新世武器用の強化補助素材。\n強化時に使用することで\n確実に大成功を発生させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, success\nprobability rate boosted by 100%."
+		"tr_explain": "Material usado en Armas NT.\nIncrementa el chance de mejora\npotenciada en 100%."
 	},
 	{
 		"assign": "3210194",
@@ -1068,35 +1068,35 @@
 		"jp_text": "特殊能力追加（攻撃総合）",
 		"tr_text": "Add Ability (Attack Fusion)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【攻撃総合】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Offensive Boost\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Offensive Boost\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "3210206",
 		"jp_text": "特殊能力追加（防御総合）",
 		"tr_text": "Add Ability (Def. Fusion)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【防御総合】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Defense Boost\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Defense Boost\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "3210207",
 		"jp_text": "特殊能力追加（攻撃継承）",
 		"tr_text": "Add Ability (Attack Transfer)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【攻撃継承】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Attack Receptor\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Attack Receptor\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "3210208",
 		"jp_text": "特殊能力追加（防御継承）",
 		"tr_text": "Add Ability (Def. Transfer)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【防御継承】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Guard Receptor\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Guard Receptor\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "3210209",
 		"jp_text": "特殊能力追加（心身継承）",
 		"tr_text": "Add Ability (Mind&Body)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【心身継承】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Photon Receptor\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Photon Receptor\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "3210210",
@@ -1173,49 +1173,49 @@
 		"jp_text": "特殊能力追加（ＧＲＭ）",
 		"tr_text": "Add Ability (GRM)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ＧＲＭ】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"GRM Boost\" when\nused in Special Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"GRM Boost\" when\nused in Special Ability Synthesis."
 	},
 	{
 		"assign": "3210221",
 		"jp_text": "特殊能力追加（テノラ）",
 		"tr_text": "Add Ability (Tenora)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【テノラ】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Tenora Boost\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Tenora Boost\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "3210222",
 		"jp_text": "特殊能力追加（ヨウメイ）",
 		"tr_text": "Add Ability (Yohmei)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ヨウメイ】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Yohmei Boost\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Yohmei Boost\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "3210223",
 		"jp_text": "特殊能力（打撃＆ＰＰ/２）",
 		"tr_text": "Add Ability (Strike&PP/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【打撃＆ＰＰ/２】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Elegant Power\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Elegant Power\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "3210224",
 		"jp_text": "特殊能力（射撃＆ＰＰ/２）",
 		"tr_text": "Add Ability (Shoot&PP/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【射撃＆ＰＰ/２】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Elegant Shoot\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Elegant Shoot\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "3210225",
 		"jp_text": "特殊能力（法撃＆ＰＰ/２）",
 		"tr_text": "Add Ability (Tech&PP/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【法撃＆ＰＰ/２】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Elegant\nTechnique\" when used in Special\nAbility Synthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Elegant Technique\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "3210226",
 		"jp_text": "特殊能力（ＨＰ＆ＰＰ/２）",
 		"tr_text": "Add Ability (Stamina&PP/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ＨＰ＆ＰＰ/２】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Elegant Stamina\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Elegant Stamina\"\ncuando es usado en la sistesis."
 	},
 	{
 		"assign": "3210227",
@@ -1234,212 +1234,212 @@
 	{
 		"assign": "3210229",
 		"jp_text": "クエスト報酬獲得１",
-		"tr_text": "Quest Reward 1",
+		"tr_text": "Recompensa de Mision 1",
 		"jp_explain": "追加のクエスト報酬を得られる。",
-		"tr_explain": "Additional quest rewards can be\nobtained."
+		"tr_explain": "Una recompensa adicional\npuede ser obtenida."
 	},
 	{
 		"assign": "3210230",
 		"jp_text": "クエスト報酬獲得２",
-		"tr_text": "Quest Reward 2",
+		"tr_text": "Recompensa de Mision 2",
 		"jp_explain": "追加のクエスト報酬を得られる。",
-		"tr_explain": "Additional quest rewards can be\nobtained."
+		"tr_explain": "Una recompensa adicional\npuede ser obtenida."
 	},
 	{
 		"assign": "3210231",
 		"jp_text": "属性強化＋２％",
 		"tr_text": "Attribute Enhance +2%",
 		"jp_explain": "属性強化用の強化補助素材。\n属性強化時に使用することで\n属性値を２％底上げする。",
-		"tr_explain": "Used when grinding attributes.\nIncreases weapon attribute by 2%."
+		"tr_explain": "Cuando estas mejorando el atributo.\nAumenta el atributo del arma un 2%."
 	},
 	{
 		"assign": "3210232",
 		"jp_text": "強化値上限＋１",
 		"tr_text": "Grind Cap +1",
 		"jp_explain": "新世武器用の強化補助素材。\n強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, the grind cap is\nboosted by +1."
+		"tr_explain": "Material usado en Armas NT. \nDurante la mejora, el grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210233",
 		"jp_text": "強化値上限＋１／大剣",
 		"tr_text": "Grind Cap +1/Sword",
 		"jp_explain": "新世武器用の強化補助素材。\n『大剣』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, Sword grind cap is\nboosted by +1."
+		"tr_explain": "Material usado en Armas NT. \nDurante la mejora, Sword grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210234",
 		"jp_text": "強化値上限＋１／自在槍",
 		"tr_text": "Grind Cap +1/Wired Lance",
 		"jp_explain": "新世武器用の強化補助素材。\n『自在槍』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Wired Lance\ngrind cap is boosted by +1."
+		"tr_explain": "Material usado en Armas NT.\nDurante la mejora, W.Lance grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210235",
 		"jp_text": "強化値上限＋１／長槍",
 		"tr_text": "Grind Cap +1/Partizan",
 		"jp_explain": "新世武器用の強化補助素材。\n『長槍』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, Partizan grind cap\nis boosted by +1."
+		"tr_explain": "Material usado en Armas NT. \nDurante la mejora, Partizan grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210236",
 		"jp_text": "強化値上限＋１／双小剣",
 		"tr_text": "Grind Cap +1/Twin Dagger",
 		"jp_explain": "新世武器用の強化補助素材。\n『双小剣』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, Twin Dagger grind\ncap is boosted by +1."
+		"tr_explain": "Material usado en Armas NT. \nDurante la mejora, Twin Dagger grind\ncap es aumentado en +1."
 	},
 	{
 		"assign": "3210237",
 		"jp_text": "強化値上限＋１／両剣",
 		"tr_text": "Grind Cap +1/Double Saber",
 		"jp_explain": "新世武器用の強化補助素材。\n『両剣』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, Double Saber grind\ncap is boosted by +1."
+		"tr_explain": "Material usado en Armas NT. \nDurante la mejora, Double Saber grind\ncap es aumentado en +1."
 	},
 	{
 		"assign": "3210238",
 		"jp_text": "強化値上限＋１／鋼拳",
 		"tr_text": "Grind Cap +1/Knuckles",
 		"jp_explain": "新世武器用の強化補助素材。\n『鋼拳』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, Knuckles grind cap\nis boosted by +1."
+		"tr_explain": "Material usado en Armas NT. \nDurante la mejora, Knuckles grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210239",
 		"jp_text": "強化値上限＋１／銃剣",
 		"tr_text": "Grind Cap +1/Gunslash",
 		"jp_explain": "新世武器用の強化補助素材。\n『銃剣』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, Gunslash grind cap\nis boosted by +1."
+		"tr_explain": "Material usado en Armas NT. \nDurante la mejora, Gunslash grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210240",
 		"jp_text": "強化値上限＋１／長銃",
 		"tr_text": "Grind Cap +1/Assault Rifle",
 		"jp_explain": "新世武器用の強化補助素材。\n『長銃』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Assault Rifle\ngrind cap is boosted by +1."
+		"tr_explain": "Material usado en Armas NT.\nDurante la mejora, A.Rifle grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210241",
 		"jp_text": "強化値上限＋１／大砲",
 		"tr_text": "Grind Cap +1/Launcher",
 		"jp_explain": "新世武器用の強化補助素材。\n『大砲』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, Launcher grind cap\nis boosted by +1."
+		"tr_explain": "Material usado en Armas NT. \nDurante la mejora, Launcher grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210242",
 		"jp_text": "強化値上限＋１／双機銃",
 		"tr_text": "Grind Cap +1/Twin Machineguns",
 		"jp_explain": "新世武器用の強化補助素材。\n『双機銃』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, Twin Machinegun\ngrind cap is boosted by +1."
+		"tr_explain": "Material usado en Armas NT. \nDurante la mejora, TMG grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210243",
 		"jp_text": "強化値上限＋１／長杖",
 		"tr_text": "Grind Cap +1/Rod",
 		"jp_explain": "新世武器用の強化補助素材。\n『長杖』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Rod\ngrind cap is boosted by +1"
+		"tr_explain": "Material usado en Armas NT.\nDurante la mejora, Rod grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210244",
 		"jp_text": "強化値上限＋１／導具",
 		"tr_text": "Grind Cap +1/Talis",
 		"jp_explain": "新世武器用の強化補助素材。\n『導具』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Talis\ngrind cap is boosted by +1"
+		"tr_explain": "Material usado en Armas NT.\nDurante la mejora, Talis grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210245",
 		"jp_text": "強化値上限＋１／短杖",
 		"tr_text": "Grind Cap +1/Wand",
 		"jp_explain": "新世武器用の強化補助素材。\n『短杖』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Wand\ngrind cap is boosted by +1"
+		"tr_explain": "Material usado en Armas NT.\nDurante la mejora, Wand grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210246",
 		"jp_text": "強化値上限＋１／抜剣",
 		"tr_text": "Grind Cap +1/Katana",
 		"jp_explain": "新世武器用の強化補助素材。\n『抜剣』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Katana\ngrind cap is boosted by +1"
+		"tr_explain": "Material usado en Armas NT.\nDurante la mejora, Katana grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210247",
 		"jp_text": "強化値上限＋１／強弓",
 		"tr_text": "Grind Cap +1/Bullet Bow",
 		"jp_explain": "新世武器用の強化補助素材。\n『強弓』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Bow\ngrind cap is boosted by +1"
+		"tr_explain": "Material usado en Armas NT.\nDurante la mejora, Bow grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210248",
 		"jp_text": "強化値上限＋１／魔装脚",
 		"tr_text": "Grind Cap +1/Jet Boots",
 		"jp_explain": "新世武器用の強化補助素材。\n『魔装脚』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Jet Boots\ngrind cap is boosted by +1"
+		"tr_explain": "Material usado en Armas NT.\nDurante la mejora, Jet Boots grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210249",
 		"jp_text": "強化値上限＋１／飛翔剣",
 		"tr_text": "Grind Cap +1/Dual Blade",
 		"jp_explain": "新世武器用の強化補助素材。\n『飛翔剣』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, D. Blades\ngrind cap is boosted by +1"
+		"tr_explain": "Material usado en Armas NT.\nDurante la mejora, D. Blades grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210250",
 		"jp_text": "強化値上限＋１／奏具",
 		"tr_text": "Grind Cap +1/Takt",
 		"jp_explain": "新世武器用の強化補助素材。\n『奏具』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Takt\ngrind cap is boosted by +1"
+		"tr_explain": "Material usado en Armas NT.\nDurante la mejora, Takt grind cap\nes aumentado en +1."
 	},
 	{
 		"assign": "3210270",
 		"jp_text": "カスタムタイプ１＋６０％",
 		"tr_text": "Custom Type 1 +60%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ１の効果値を\n６０％向上させる。",
-		"tr_explain": "Used during customization crafts.\nCustom Type 1 effect boosted by\n60%."
+		"tr_explain": "Usado durante el crafteo.\nCustom Type 1 effect boosted by\n60%."
 	},
 	{
 		"assign": "3210271",
 		"jp_text": "カスタムタイプ２＋６０％",
 		"tr_text": "Custom Type 2 +60%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ２の効果値を\n６０％向上させる。",
-		"tr_explain": "Used during customization crafts.\nCustom Type 2 effect boosted\nby 60%."
+		"tr_explain": "Usado durante el crafteo.\nEfecto de Custom Type 2 mejorado\nen un 60%."
 	},
 	{
 		"assign": "3210272",
 		"jp_text": "メリット値＋６０％",
 		"tr_text": "Merit Value +60%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nメリットの下限値を\n６０％上昇させる。",
-		"tr_explain": "Increases the merit value by 60%\nwhen customizing techniques."
+		"tr_explain": "Incrementa el merito en un 60%\ncuando personalizas tecnicas."
 	},
 	{
 		"assign": "3210273",
 		"jp_text": "デメリット値－６０％",
 		"tr_text": "Demerit Value -60%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nデメリットの上限値を\n６０％軽減させる。",
-		"tr_explain": "Decreases the demerit value by\n-60% when customizing techniques."
+		"tr_explain": "Reduce el demerito en un\n-60% cuando personalizas tecnicas."
 	},
 	{
 		"assign": "3210274",
 		"jp_text": "カスタムタイプ１＋７０％",
 		"tr_text": "Custom Type 1 +70%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ１の効果値を\n７０％向上させる。",
-		"tr_explain": "Used during customization crafts.\nCustom Type 1 effect boosted\nby 70%."
+		"tr_explain": "Usado durante el crafteo.\nEfecto de Custom Type 1 mejorado\nen un 70%."
 	},
 	{
 		"assign": "3210275",
 		"jp_text": "カスタムタイプ２＋７０％",
 		"tr_text": "Custom Type 2 +70%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ２の効果値を\n７０％向上させる。",
-		"tr_explain": "Used during customization crafts.\nCustom Type 2 effect boosted\nby 70%."
+		"tr_explain": "Usado durante el crafteo.\nEfecto de Custom Type 2 mejorado\nen un 70%."
 	},
 	{
 		"assign": "3210276",
 		"jp_text": "メリット値＋７０％",
 		"tr_text": "Merit Value +70%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nメリットの下限値を\n７０％上昇させる。",
-		"tr_explain": "Increases the merit value by 70%\nwhen customizing techniques."
+		"tr_explain": "Incrementa el merito en un 70%\ncuando personalizas tecnicas."
 	},
 	{
 		"assign": "3210277",
 		"jp_text": "デメリット値－７０％",
 		"tr_text": "Demerit Value -70%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nデメリットの上限値を\n７０％軽減させる。",
-		"tr_explain": "Decreases the demerit value by -70%\nwhen customizing techniques."
+		"tr_explain": "Reduce el demerito en un -70%\ncuando personalizas tecnicas."
 	},
 	{
 		"assign": "3210278",
@@ -1453,105 +1453,105 @@
 		"jp_text": "能力追加成功率＋４５％",
 		"tr_text": "Ability Success Rate +45%",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n成功率を４５％上昇させる。",
-		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 45%"
+		"tr_explain": "Cuando agregas una Habilidad\na tu equipo.\nAumenta el chance de exito en 45%"
 	},
 	{
 		"assign": "3210283",
 		"jp_text": "特殊能力保護（４枠以下）",
-		"tr_text": "Ability Protection (4s or lower)",
+		"tr_text": "Ability Protection (4s o menos)",
 		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが４スロット以下<c>",
-		"tr_explain": "Returns the Special Abilities that\nwere lost from synthesis.\n<yellow>Only works on 4 slots or lower.<c>"
+		"tr_explain": "Regresa Special Abilities que se\nperdieron durante la sintesis.\n<yellow>Solo funciona con 4 slots o menos.<c>"
 	},
 	{
 		"assign": "3210284",
 		"jp_text": "特殊能力保護（５枠以下）",
-		"tr_text": "Ability Protection (5s or lower)",
+		"tr_text": "Ability Protection (5s o menos)",
 		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが５スロット以下<c>",
-		"tr_explain": "Returns the Special Abilities that\nwere lost from synthesis.\n<yellow>Only works on 5 slots or lower.<c>"
+		"tr_explain": "Regresa Special Abilities que se\nperdieron durante la sintesis.\n<yellow>Solo funciona con 5 slots o menos.<c>"
 	},
 	{
 		"assign": "3210285",
 		"jp_text": "特殊能力保護（６枠以下）",
-		"tr_text": "Ability Protection (6s or lower)",
+		"tr_text": "Ability Protection (6s o menos)",
 		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが６スロット以下<c>",
-		"tr_explain": "Returns the Special Abilities that\nwere lost from synthesis.\n<yellow>Only works on 6 slots or lower.<c>"
+		"tr_explain": "Regresa Special Abilities que se\nperdieron durante la sintesis.\n<yellow>Solo funciona con 6 slots o menos.<c>"
 	},
 	{
 		"assign": "3210288",
 		"jp_text": "特殊能力（打撃＆ＰＰ/３）",
 		"tr_text": "Add Ability (Strike&PP/3)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【打撃＆ＰＰ/３】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Grace Power\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Grace Power\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210289",
 		"jp_text": "特殊能力（射撃＆ＰＰ/３）",
 		"tr_text": "Add Ability (Shoot&PP/3)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【射撃＆ＰＰ/３】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Grace Shoot\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Grace Shoot\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210290",
 		"jp_text": "特殊能力（法撃＆ＰＰ/３）",
 		"tr_text": "Add Ability (Tech&PP/3)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【法撃＆ＰＰ/３】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Grace Tech\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Grace Tech\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210291",
 		"jp_text": "特殊能力（ＨＰ＆ＰＰ/３）",
 		"tr_text": "Add Ability (Stamina&PP/3)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ＨＰ＆ＰＰ/３】の特殊能力を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Grace Stamina\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Grace Stamina\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210296",
 		"jp_text": "Ｓ１追加：光子縮減２",
 		"tr_text": "S1 Add:Photon Reduction 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：光子縮減２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Photon Reduction 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S1:Photon Reduction 2\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210297",
 		"jp_text": "Ｓ１追加：滅域輝与２",
 		"tr_text": "S1 Add:Brilliant Ruin 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：滅域輝与２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Brilliant Ruin 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S1:Brilliant Ruin 2\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210298",
 		"jp_text": "Ｓ１追加：時流の志",
 		"tr_text": "S1 Add:Flowing Intent",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：時流の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Flowing Intent\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S1:Flowing Intent\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210299",
 		"jp_text": "Ｓ１追加：死中の志",
 		"tr_text": "S1 Add:Lethal Intent",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：死中の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Lethal Intent\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S1:Lethal Intent\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210300",
 		"jp_text": "Ｓ１追加：賭死の撃",
 		"tr_text": "S1 Add:Reckless Strike",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：賭死の撃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Reckless Strike\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S1:Reckless Strike\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210301",
 		"jp_text": "Ｓ１追加：錬成の志",
 		"tr_text": "S1 Add:Augment Intent",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：錬成の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Augment Intent\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S1:Augment Intent\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210302",
 		"jp_text": "Ｓ１追加：失力の蝕",
 		"tr_text": "S1 Add:Eclipsing Decay",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：失力の蝕を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Eclipsing Decay\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S1:Eclipsing Decay\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210303",
@@ -1649,56 +1649,56 @@
 		"jp_text": "Ｓ２追加：月葉影の歌",
 		"tr_text": "S2 Add:Umbrageous Melody",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：月葉影の歌を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Umbrageous Melody\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S2:Umbrageous Melody\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210317",
 		"jp_text": "Ｓ２追加：花海雪の縮減２",
 		"tr_text": "S2 Add:Nature's Reduction 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：花海雪の縮減２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Nature's Reduction 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S2:Nature's Reduction 2\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210318",
 		"jp_text": "Ｓ２追加：月葉影の輝剰２",
 		"tr_text": "S2 Add:Umbrageous Radiance 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：月葉影の輝剰２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Umbrageous Radiance 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S2:Umbrageous Radiance 2\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210319",
 		"jp_text": "Ｓ２追加：妙技の巧２",
 		"tr_text": "S2 Add:Wise Skill 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：妙技の巧２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Wise Skill 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S2:Wise Skill 2\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210320",
 		"jp_text": "Ｓ２追加：妙撃の志２",
 		"tr_text": "S2 Add:Skilled Strike 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：妙撃の志２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Skilled Strike 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S2:Skilled Strike 2\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210321",
 		"jp_text": "Ｓ２追加：輝剰の撃２",
 		"tr_text": "S2 Add:Radiant Strike 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：輝剰の撃２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Radiant Strike 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S2:Radiant Strike 2\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210323",
 		"jp_text": "Ｓ２追加：走者高揚",
 		"tr_text": "S2 Add:Runner's High",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：走者高揚を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Runner's High\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S2:Runner's High\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210324",
 		"jp_text": "Ｓ２追加：技巧縮減",
 		"tr_text": "S2 Add:Skill Reduction",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：技巧縮減を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Skill Reduction\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S2:Skill Reduction\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210330",
@@ -1747,63 +1747,63 @@
 		"jp_text": "Ｓ３追加：花海雪の歌",
 		"tr_text": "S3 Add:Nature's Melody",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：花海雪の歌を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Nature's Melody\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S3:Nature's Melody\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210337",
 		"jp_text": "Ｓ３追加：花海雪の輝勢２",
 		"tr_text": "S3 Add:Nature's Gleam 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：花海雪の輝勢２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Nature's Gleam 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S3:Nature's Radiance 2\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210338",
 		"jp_text": "Ｓ３追加：時流の恵",
 		"tr_text": "S3 Add:Flowing Grace",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：時流の恵を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Flowing Grace\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S3:Flowing Grace\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210339",
 		"jp_text": "Ｓ３追加：時流活与２",
 		"tr_text": "S3 Add:Flowing Exhilaration 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：時流活与２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Flowing Exhilaration 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S3:Flowing Exhilaration 2\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210340",
 		"jp_text": "Ｓ３追加：輝勢の恵２",
 		"tr_text": "S3 Add:Radiating Grace 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：輝勢の恵２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Radiating Grace 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S3:Radiating Grace 2\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210341",
 		"jp_text": "Ｓ３追加：静心活与",
 		"tr_text": "S3 Add:Calming Exhilaration",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：静心活与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Calming Exhilaration\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S3:Calming Exhilaration\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210342",
 		"jp_text": "Ｓ３追加：撃流の備",
 		"tr_text": "S3 Add:Fortifying Strike",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流の備を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Fortifying Strike\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S3:Fortifying Strike\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210343",
 		"jp_text": "Ｓ３追加：撃流縮減",
 		"tr_text": "S3 Add:Curtailed Strike",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流縮減を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Curtailed Strike\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S3:Curtailed Strike\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210344",
 		"jp_text": "Ｓ３追加：撃流の巧",
 		"tr_text": "S3 Add:Wise Strike",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流の巧を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Wise Strike\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S3:Wise Strike\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210347",
@@ -1859,35 +1859,35 @@
 		"jp_text": "Ｓ４追加：天輝の守護",
 		"tr_text": "S4 Add:Heavenly Protection",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：天輝の守護を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Heavenly Protection\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S4:Heavenly Protection\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210358",
 		"jp_text": "Ｓ４追加：静心の志",
 		"tr_text": "S4 Add:Calming Intent",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：静心の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Calming Intent\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S4:Calming Intent\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210359",
 		"jp_text": "Ｓ４追加：妙撃の秤",
 		"tr_text": "S4 Add:Mysterious Strike",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：妙撃の秤を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Mysterious Strike\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S4:Mysterious Strike\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210360",
 		"jp_text": "Ｓ４追加：聖者の盾",
 		"tr_text": "S4 Add:Saint Shield",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：聖者の盾を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Saint Shield\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S4:Saint Shield\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210362",
 		"jp_text": "Ｓ４追加：六色の輝秤",
 		"tr_text": "S4 Add:Harmonized Rainbow",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：六色の輝秤を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Harmonized Rainbow\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar SSA.\nOtorga \"S4:Harmonized Rainbow\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210363",
@@ -2041,14 +2041,14 @@
 		"jp_text": "特殊能力（マーク継承）",
 		"tr_text": "Add Ability (Mark Receptor)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【マークレセプター】を追加する。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Mark Receptor\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Mark Receptor\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210458",
 		"jp_text": "特殊能力（カタリスト継承）",
 		"tr_text": "Add Ability (Catalyst Receptor)",
-		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【カタリストレセプター】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Catalyst Receptor\"\nwhen used in Ability Synthesis."
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【カタリストレセプター】を追加する。",
+		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Catalyst Receptor\"\ncuando se usa en Ability Synthesis."
 	},
 	{
 		"assign": "3210459",
