@@ -1,37 +1,21 @@
-os: linux
-env:
-  - PARALLEL="--block 43K"
-
-dist: bionic
-
-cache:
-  apt: true
-
+language: python
+python: 3.7
+dist: xenial
 addons:
-  apt:
-    update: true
-    packages:
-    - parallel
-    - jq
+    apt:
+      update: true
 
 script:
-  - ./_sh/dupfolders.sh
-  - ./_sh/dupfiles.sh
-  - git remote add -f --tags upstream https://github.com/Arks-Layer/PSO2ENPatchCSV.git 2> /dev/null
-  - ./_sh/UTF8.sh
-  - ./_sh/EOL.sh
-  - ./_sh/BOM.sh
-  - ./_sh/CSV.sh
-  - ./_sh/ODD.sh
-  - ./_sh/checkFiles.sh
-  - ./_sh/MovedFiles.sh
-  - ./_sh/quote.sh
-  - ./_sh/dupCSV.sh
-  - ./_sh/check.sh
-  - ./_sh/command.sh
-  - ./_sh/Fonts.sh
-
-install:
-  - true
-
-language: python
+  - ./_py/checkjson.py && ./_sh/coverage.sh
+  - ./_py/tidy-json.py && git diff --exit-code
+  - ./_py/dupcheck.py
+  - ./_py/dupassign.py
+  - ./_py/DiceLen.py
+  - ./_py/ItemLen.py
+  - ./_py/ItemDescLen.py
+  - ./_py/StoryBTNFont.py
+  - ./_py/StoryFont.py
+  - ./_py/ChipFont.py
+  - ./_py/ChipDescLong.py
+  - ./_py/DiceFont.py
+  - ./_py/ItemFont.py
