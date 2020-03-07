@@ -1,0 +1,246 @@
+defaults: &defaults
+  working_directory: ~/repo
+  docker:
+    - image: python:3-stretch
+
+version: 2
+jobs:
+  verify:
+    <<: *defaults
+    steps:
+      - checkout
+      - run:
+          name: Making report folder
+          command: /bin/mkdir -p /tmp/PSO2es
+      - run:
+          name: Check for vaild JSONs
+          command: ./_py/checkjson.py | /usr/bin/tee /tmp/PSO2es/checkjson.txt
+      - store_artifacts:
+          path: /tmp/PSO2es/
+          destination: Reports
+
+  tests:
+    <<: *defaults
+    steps:
+      - run:
+          name: Making report folder
+          command: /bin/mkdir -p /tmp/PSO2es
+      - checkout
+      - run:
+          name: Report Coverage
+          command: /bin/sh ./_sh/coverage.sh | /usr/bin/tee /tmp/PSO2es/coverage.txt
+      - run:
+          name: Checking for item mapping
+          command: ./_py/dupcheck.py | /usr/bin/tee /tmp/PSO2es/dupcheck.txt
+      - run:
+          name: Do we give the same name to 2+ entries?
+          command: ./_py/dupassign.py | /usr/bin/tee /tmp/PSO2es/dupassign.txt
+      - run:
+          name: Checking if Dice Chat have too many lines
+          command: ./_py/DiceLen.py | /usr/bin/tee /tmp/PSO2es/DiceLen.txt
+      - run:
+          name: Items' name too long for search box?
+          command: ./_py/ItemLen.py | /usr/bin/tee /tmp/PSO2es/ItemLen.txt
+      - run:
+          name: Checking if Item Desc have too many lines
+          command: ./_py/ItemDescLen.py | /usr/bin/tee /tmp/PSO2es/ItemDescLen.txt
+      - run:
+          name: Is JSON files Tidy?
+          command: ./_py/tidy-json.py
+      - run:
+          name: Tidy changes
+          command: /usr/bin/git diff --exit-code | /usr/bin/tee /tmp/PSO2es/tidy.diff
+          when: on_fail
+      - run:
+          name: Apply Tidy changes
+          command: /usr/bin/git add -u
+          when: on_fail
+      - run:
+          name: Any text needs to be normalized?
+          command: ./_tools/normalize.py | /usr/bin/tee /tmp/PSO2es/normalize.txt
+      - run:
+          name: Normalize changes
+          command: /usr/bin/git diff --exit-code | /usr/bin/tee /tmp/PSO2es/normalize.diff
+          when: on_fail
+      - run:
+          name: Apply normalize changes
+          command: /usr/bin/git add -u
+          when: on_fail
+      - store_artifacts:
+          path: /tmp/PSO2es/
+          destination: Reports
+
+  tests_font:
+    <<: *defaults
+    steps:
+      - run:
+          name: Making report folder
+          command: /bin/mkdir -p /tmp/PSO2es
+      - checkout
+      - restore_cache:
+          key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
+      - run:
+          name: install Python packages
+          command: pip install -r requirements.txt
+      - save_cache:
+          key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
+          paths:
+            - ~/.cache/pip
+      - run:
+          name: Is Story Buttons too big?
+          command: ./_py/StoryBTNFont.py | /usr/bin/tee /tmp/PSO2es/StoryBTNFont.txt
+      - run:
+          name: Is Story text too big?
+          command: ./_py/StoryFont.py | /usr/bin/tee /tmp/PSO2es/StoryFont.txt
+      - run:
+          name: Are Chips name too big?
+          command: ./_py/ChipFont.py | /usr/bin/tee /tmp/PSO2es/ChipFont.txt
+      - run:
+          name: Are Chips' long Desc too long?
+          command: ./_py/ChipDescLong.py | /usr/bin/tee /tmp/PSO2es/ChipDescLong.txt
+      - run:
+          name: Word wrap changes for Chips' Long Descs
+          command: /usr/bin/git diff --exit-code | /usr/bin/tee /tmp/PSO2es/ChipDescLong.diff
+          when: on_fail
+      - run:
+          name: Apply word wrap changes
+          command: /usr/bin/git add -u
+          when: on_fail
+      - run:
+          name: Are the Dice Chat too big?
+          command: ./_py/DiceFont.py | /usr/bin/tee /tmp/PSO2es/DictFont.txt
+      - run:
+          name: Are the Items' name too big?
+          command: ./_py/ItemFont.py | /usr/bin/tee /tmp/PSO2es/ItemFont.txt
+      - store_artifacts:
+          path: /tmp/PSO2es/
+          destination: Reports
+
+  font_big:
+    <<: *defaults
+    steps:
+      - run:
+          name: Making report folder
+          command: /bin/mkdir -p /tmp/PSO2es
+      - checkout
+      - restore_cache:
+          key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
+      - run:
+          name: install Python packages
+          command: pip install -r requirements.txt
+      - save_cache:
+          key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
+          paths:
+            - ~/.cache/pip
+      - run:
+          name: Are the Items' Desc too big?
+          command: ./_py/ItemDescFont.py | /usr/bin/tee /tmp/PSO2es/ItemDescFont.txt
+      - run:
+          name: Word wrap changes for Items' Descs
+          command: /usr/bin/git diff --exit-code | /usr/bin/tee /tmp/PSO2es/ItemDescFont.diff
+          when: on_fail
+      - run:
+          name: Apply changes
+          command: /usr/bin/git add -u
+          when: on_fail
+      - store_artifacts:
+          path: /tmp/PSO2es/
+          destination: Reports
+
+  build:
+    working_directory: ~/repo
+    docker:
+      - image: mono:latest
+    steps:
+      - run:
+          name: update APT listing
+          command: apt-get -qq update
+      - run:
+          name: Install git, wget, unzip, zip and ssh
+          command: apt-get -qq -y --no-install-recommends install git wget unzip zip openssh-client
+      - checkout
+      - restore_cache:
+          keys:
+            # Find the most recent cache used from any branch
+            - v1-APK-
+      - run:
+          name: Download APKs files
+          command: /bin/bash ./.circleci/prebuild.sh .
+      - run:
+          name: Move needed DLLs
+          command: /bin/mv -v lib/ContentsSerializer.dll lib/Assembly-CSharp-firstpass.dll lib/UnityEngine.dll lib/protobuf-net.dll lib/ProtoBuffSerializer.dll .
+      - run:
+          name: Remove extra DLLs
+          command: /bin/rm -v lib/*.dll
+      - run:
+          name: Link PSO2 APK for caching
+          command: /bin/ln -s -v lib/*.apk PSO2es.apk
+      - save_cache:
+          key: v1-APK-{{ checksum "PSO2es.apk" }}
+          paths:
+            - lib/
+      - restore_cache:
+          keys:
+            - v1-Databases-
+      - run:
+          name: Download JP Context
+          command: /usr/bin/wget "http://pso2es.10nub.es/patchJP.zip" --no-http-keep-alive --dns-timeout=15 --read-timeout=30 --timestamping
+      - run:
+          name: Unpack JP Context
+          command: /usr/bin/unzip -xuoq patchJP.zip -d Databases
+      - save_cache:
+          key: v1-Databases-{{ checksum "patchJP.zip" }}
+          paths:
+            - patchJP.zip
+      - restore_cache:
+          keys:
+            - v1-esbreaker-
+      - run:
+          name: Download ESBreaker
+          command: /usr/bin/wget "http://pso2es.10nub.es/esbreaker.zip" --no-http-keep-alive --dns-timeout=15 --read-timeout=30 --timestamping
+      - run:
+          name: Unpack ESBreaker
+          command: /usr/bin/unzip -xuoq esbreaker.zip
+      - save_cache:
+          key: v1-esbreaker-{{ checksum "esbreaker.zip" }}
+          paths:
+            - esbreaker.zip
+      - run:
+          name: Get GIT version
+          command: /usr/bin/git describe --always --tags | /usr/bin/tee /tmp/patchBeta.txt
+      - run:
+          name: Making report folder
+          command: mkdir -p /tmp/PSO2es
+      - run:
+          name: Run ESBreaker
+          command: /usr/bin/mono ESBreakerCLI.exe | /usr/bin/tee /tmp/PSO2es/ESBreaker.txt
+      - run:
+          name: Packing Patch
+          command: cd output/ && /usr/bin/zip -r /tmp/patchBeta.zip .
+      - run:
+          name: Leftover changes
+          command: /usr/bin/git diff --exit-code | /usr/bin/tee /tmp/PSO2es/ESBreaker.diff
+      - store_artifacts:
+          path: /tmp/patchBeta.zip
+          destination: patchBeta.zip
+      - store_artifacts:
+          path: /tmp/patchBeta.txt
+          destination: patchBeta.txt
+      - store_artifacts:
+          path: /tmp/PSO2es/
+          destination: Reports
+
+workflows:
+  version: 2
+  verify-test&build:
+    jobs:
+      - verify
+      - font_big:
+          requires:
+            - verify
+      - tests_font:
+          requires:
+            - verify
+      - tests:
+          requires:
+            - verify
