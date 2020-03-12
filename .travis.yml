@@ -10,8 +10,6 @@ script:
   - ./_py/tidy-json.py && git diff --exit-code
   - ./_py/dupcheck.py
   - ./_py/dupassign.py
-  - ./_py/DiceLen.py
-  - ./_py/ItemLen.py
   - ./_py/ItemDescLen.py
   - ./_py/StoryBTNFont.py
   - ./_py/StoryFont.py
@@ -19,3 +17,7 @@ script:
   - ./_py/ChipDescLong.py
   - ./_py/DiceFont.py
   - ./_py/ItemFont.py
+  - ./_py/DiceLen.py
+  - ./_py/ItemLen.py
+  - ./_py/BlockLen.py
+  - ./_py/TitleLen.py
