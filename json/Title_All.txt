@@ -231,13 +231,6 @@
 		"tr_text": "Galactic Fighting Soul"
 	},
 	{
-		"assign": "0",
-		"jp_explain": "",
-		"jp_text": "天穣の闘将",
-		"tr_explain": "Reach Lv. 70 as Fighter",
-		"tr_text": "Heavenly Brave"
-	},
-	{
 		"assign": "100500400",
 		"jp_explain": "",
 		"jp_text": "硝煙を纏う銃士",
@@ -399,13 +392,6 @@
 		"tr_text": "Lightning Beast Slayer"
 	},
 	{
-		"assign": "0",
-		"jp_explain": "",
-		"jp_text": "ボクと勝負ニャウ",
-		"tr_explain": "",
-		"tr_text": ",I Challenged Nyau!"
-	},
-	{
 		"assign": "100700400",
 		"jp_explain": "",
 		"jp_text": "歪精を討ちし者",
@@ -551,20 +537,6 @@
 		"jp_text": "深遠を越える光",
 		"tr_explain": "Defeat Profound Darkness 30 times",
 		"tr_text": "Light That Surpasses Darkness"
-	},
-	{
-		"assign": "0",
-		"jp_explain": "",
-		"jp_text": "謎の場所先派遣員",
-		"tr_explain": "Connect from a net cafe for 48 hours",
-		"tr_text": "Mystery Location Temp"
-	},
-	{
-		"assign": "0",
-		"jp_explain": "",
-		"jp_text": "謎の場所開拓者",
-		"tr_explain": "Connect from a net cafe for 96 hours",
-		"tr_text": "Mystery Location Pioneer"
 	},
 	{
 		"assign": "100800000",
@@ -1883,21 +1855,21 @@
 		"tr_text": "Splendid Experimental Target"
 	},
 	{
-		"assign": "0",
+		"assign": "302000030",
 		"jp_explain": "",
 		"jp_text": "被験体",
 		"tr_explain": "Complete 25 Abduction quests",
 		"tr_text": "Test Subject"
 	},
 	{
-		"assign": "0",
+		"assign": "302000040",
 		"jp_explain": "",
 		"jp_text": "上級被験体",
 		"tr_explain": "Complete 50 Abduction quests",
 		"tr_text": "Advanced Test Subject"
 	},
 	{
-		"assign": "0",
+		"assign": "302000050",
 		"jp_explain": "",
 		"jp_text": "特級被験体",
 		"tr_explain": "Complete 75 Abduction quests",
@@ -2492,13 +2464,6 @@
 		"tr_text": "Friends With Nagisa"
 	},
 	{
-		"assign": "0",
-		"jp_explain": "",
-		"jp_text": "朱鬼姫シキと知り合い",
-		"tr_explain": "Obtain Akaoni-hime Shiki's Partner Card",
-		"tr_text": "Friends With Akaoni-hime Shiki"
-	},
-	{
 		"assign": "400103200",
 		"jp_explain": "",
 		"jp_text": "クララと知り合い",
@@ -2518,13 +2483,6 @@
 		"jp_text": "キジカと知り合い",
 		"tr_explain": "Obtain Kijika's Partner Card",
 		"tr_text": "Friends With Kijika"
-	},
-	{
-		"assign": "0",
-		"jp_explain": "",
-		"jp_text": "朱鬼坊オウドと知り合い",
-		"tr_explain": "Obtain Akeoni-bou Oudo's Partner Card",
-		"tr_text": "Friends With Akeoni-bou Oudo"
 	},
 	{
 		"assign": "400200000",
@@ -2961,20 +2919,6 @@
 		"tr_text": "Nagisa's Friend"
 	},
 	{
-		"assign": "0",
-		"jp_explain": "",
-		"jp_text": "朱鬼姫シキの協力者",
-		"tr_explain": "Clear 10 quests with Akeoni-hime Shiki\nin the party",
-		"tr_text": "Akeoni-hime Shiki's Cooperator"
-	},
-	{
-		"assign": "0",
-		"jp_explain": "",
-		"jp_text": "朱鬼姫シキの友達",
-		"tr_explain": "Clear 100 quests with Akeoni-hime Shiki\nin the party",
-		"tr_text": "Akeoni-hime Shiki's Friend"
-	},
-	{
 		"assign": "400203201",
 		"jp_explain": "",
 		"jp_text": "クララの友達",
@@ -3008,20 +2952,6 @@
 		"jp_text": "キジカの友達",
 		"tr_explain": "Clear 100 quests with Kijika\nin the party",
 		"tr_text": "Kijika's Friend"
-	},
-	{
-		"assign": "0",
-		"jp_explain": "",
-		"jp_text": "朱鬼坊オウドの協力者",
-		"tr_explain": "Clear 10 quests with Akeoni-bou Oudo\nin the party",
-		"tr_text": "Akeoni-bou Oudo's Cooperator"
-	},
-	{
-		"assign": "0",
-		"jp_explain": "",
-		"jp_text": "朱鬼坊オウドの友達",
-		"tr_explain": "Clear 100 quests with Akeoni-bou Oudo\nin the party",
-		"tr_text": "Akeoni-bou Oudo's Friend"
 	},
 	{
 		"assign": "500100000",
@@ -3183,13 +3113,6 @@
 		"jp_text": "豪運の勝負師",
 		"tr_explain": "Win 15 bonus rounds of Black Nyack",
 		"tr_text": "Tremendously Lucky Gambler"
-	},
-	{
-		"assign": "0",
-		"jp_explain": "",
-		"jp_text": "SPカードで勝利ニャウ",
-		"tr_explain": "",
-		"tr_text": ",SP Card Victory Nyau!"
 	},
 	{
 		"assign": "500501010",
@@ -6197,6 +6120,20 @@
 	{
 		"assign": "0",
 		"jp_explain": "",
+		"jp_text": "謎の場所先派遣員",
+		"tr_explain": "Connect from a net cafe for 48 hours",
+		"tr_text": "Mystery Location Temp"
+	},
+	{
+		"assign": "0",
+		"jp_explain": "",
+		"jp_text": "謎の場所開拓者",
+		"tr_explain": "Connect from a net cafe for 96 hours",
+		"tr_text": "Mystery Location Pioneer"
+	},
+	{
+		"assign": "0",
+		"jp_explain": "",
 		"jp_text": "謎の場所特派員",
 		"tr_explain": "Connect from a net cafe for 144 hours",
 		"tr_text": "Mystery Location Member"
@@ -7931,7 +7868,7 @@
 		"tr_text": "Black Dragon's Nemesis"
 	},
 	{
-		"assign": "0",
+		"assign": "100704110",
 		"jp_explain": "",
 		"jp_text": "ドラゴンパニッシャー",
 		"tr_explain": "Defeat Dragon Atrum 30 times",
@@ -10045,13 +9982,6 @@
 		"tr_explain": ""
 	},
 	{
-		"assign": "100704110",
-		"jp_text": "ドラゴンパニッシャ―",
-		"tr_text": "",
-		"jp_explain": "",
-		"tr_explain": ""
-	},
-	{
 		"assign": "100704240",
 		"jp_text": "宙滅の陰謀を防ぐ者",
 		"tr_text": "",
@@ -11482,27 +11412,6 @@
 	{
 		"assign": "300791520",
 		"jp_text": "闇の狂宴に幕を下ろす者",
-		"tr_text": "",
-		"jp_explain": "",
-		"tr_explain": ""
-	},
-	{
-		"assign": "302000030",
-		"jp_text": "被検体",
-		"tr_text": "",
-		"jp_explain": "",
-		"tr_explain": ""
-	},
-	{
-		"assign": "302000040",
-		"jp_text": "上級被検体",
-		"tr_text": "",
-		"jp_explain": "",
-		"tr_explain": ""
-	},
-	{
-		"assign": "302000050",
-		"jp_text": "特級被検体",
 		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": ""
@@ -13435,9 +13344,9 @@
 	{
 		"assign": "500500910",
 		"jp_text": "ＳＰカードで勝利ニャウ！",
-		"tr_text": "",
+		"tr_text": "SP Card Victory Nyau!",
 		"jp_explain": "",
-		"tr_explain": ""
+		"tr_explain": "Win Black Nyack with 3 SP cards"
 	},
 	{
 		"assign": "500504000",
