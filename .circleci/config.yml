@@ -13,7 +13,7 @@ jobs:
           name: Making report folder
           command: /bin/mkdir -p /tmp/PSO2es
       - run:
-          name: Check for vaild JSONs
+          name: Checking for vaild JSONs
           command: ./_py/checkjson.py | /usr/bin/tee /tmp/PSO2es/checkjson.txt
       - store_artifacts:
           path: /tmp/PSO2es/
@@ -27,43 +27,49 @@ jobs:
           command: /bin/mkdir -p /tmp/PSO2es
       - checkout
       - run:
-          name: Report Coverage
+          name: Checking translation progress
           command: /bin/sh ./_sh/coverage.sh | /usr/bin/tee /tmp/PSO2es/coverage.txt
       - run:
-          name: Checking for item mapping
+          name: Checking for existing item mappings
           command: ./_py/dupcheck.py | /usr/bin/tee /tmp/PSO2es/dupcheck.txt
       - run:
-          name: Do we give the same name to 2+ entries?
+          name: Checking for duplicate entries
           command: ./_py/dupassign.py | /usr/bin/tee /tmp/PSO2es/dupassign.txt
       - run:
-          name: Checking if Dice Chat have too many lines
+          name: Checking if Dice Chat has too many lines
           command: ./_py/DiceLen.py | /usr/bin/tee /tmp/PSO2es/DiceLen.txt
       - run:
-          name: Items' name too long for search box?
+          name: Checking if item names are too long
           command: ./_py/ItemLen.py | /usr/bin/tee /tmp/PSO2es/ItemLen.txt
       - run:
-          name: Checking if Item Desc have too many lines
+          name: Checking if title names are too long
+          command: ./_py/TitleLen.py | /usr/bin/tee /tmp/PSO2es/TitleLen.txt
+      - run:
+          name: Checking if block names are too long
+          command: ./_py/BlockLen.py | /usr/bin/tee /tmp/PSO2es/BlockLen.txt
+      - run:
+          name: Checking if item descriptions have too many lines
           command: ./_py/ItemDescLen.py | /usr/bin/tee /tmp/PSO2es/ItemDescLen.txt
       - run:
-          name: Is JSON files Tidy?
+          name: Checking if JSON files are tidy
           command: ./_py/tidy-json.py
       - run:
           name: Tidy changes
           command: /usr/bin/git diff --exit-code | /usr/bin/tee /tmp/PSO2es/tidy.diff
           when: on_fail
       - run:
-          name: Apply Tidy changes
+          name: Applying Tidy changes
           command: /usr/bin/git add -u
           when: on_fail
       - run:
-          name: Any text needs to be normalized?
+          name: Checking if any text needs to be normalized
           command: ./_tools/normalize.py | /usr/bin/tee /tmp/PSO2es/normalize.txt
       - run:
           name: Normalize changes
           command: /usr/bin/git diff --exit-code | /usr/bin/tee /tmp/PSO2es/normalize.diff
           when: on_fail
       - run:
-          name: Apply normalize changes
+          name: Applying normalize changes
           command: /usr/bin/git add -u
           when: on_fail
       - store_artifacts:
@@ -80,37 +86,37 @@ jobs:
       - restore_cache:
           key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
       - run:
-          name: install Python packages
+          name: Install Python packages
           command: pip install -r requirements.txt
       - save_cache:
           key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
           paths:
             - ~/.cache/pip
       - run:
-          name: Is Story Buttons too big?
+          name: Checking if story buttons are too long
           command: ./_py/StoryBTNFont.py | /usr/bin/tee /tmp/PSO2es/StoryBTNFont.txt
       - run:
-          name: Is Story text too big?
+          name: Checking if any story text is too long
           command: ./_py/StoryFont.py | /usr/bin/tee /tmp/PSO2es/StoryFont.txt
       - run:
-          name: Are Chips name too big?
+          name: Checking if chip names are too long
           command: ./_py/ChipFont.py | /usr/bin/tee /tmp/PSO2es/ChipFont.txt
       - run:
-          name: Are Chips' long Desc too long?
+          name: Checking if chip descriptions are too long
           command: ./_py/ChipDescLong.py | /usr/bin/tee /tmp/PSO2es/ChipDescLong.txt
       - run:
-          name: Word wrap changes for Chips' Long Descs
+          name: Word wrap changes for long chip descriptions
           command: /usr/bin/git diff --exit-code | /usr/bin/tee /tmp/PSO2es/ChipDescLong.diff
           when: on_fail
       - run:
-          name: Apply word wrap changes
+          name: Applying word wrap changes
           command: /usr/bin/git add -u
           when: on_fail
       - run:
-          name: Are the Dice Chat too big?
+          name: Checking if any dice chat text is too long
           command: ./_py/DiceFont.py | /usr/bin/tee /tmp/PSO2es/DictFont.txt
       - run:
-          name: Are the Items' name too big?
+          name: Checking if item names are too long
           command: ./_py/ItemFont.py | /usr/bin/tee /tmp/PSO2es/ItemFont.txt
       - store_artifacts:
           path: /tmp/PSO2es/
@@ -126,21 +132,21 @@ jobs:
       - restore_cache:
           key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
       - run:
-          name: install Python packages
+          name: Install Python packages
           command: pip install -r requirements.txt
       - save_cache:
           key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
           paths:
             - ~/.cache/pip
       - run:
-          name: Are the Items' Desc too big?
+          name: Checking if item descriptions are too long
           command: ./_py/ItemDescFont.py | /usr/bin/tee /tmp/PSO2es/ItemDescFont.txt
       - run:
-          name: Word wrap changes for Items' Descs
+          name: Word wrap changes for long item descriptions
           command: /usr/bin/git diff --exit-code | /usr/bin/tee /tmp/PSO2es/ItemDescFont.diff
           when: on_fail
       - run:
-          name: Apply changes
+          name: Applying changes
           command: /usr/bin/git add -u
           when: on_fail
       - store_artifacts:
@@ -153,7 +159,7 @@ jobs:
       - image: mono:latest
     steps:
       - run:
-          name: update APT listing
+          name: Update APT listing
           command: apt-get -qq update
       - run:
           name: Install git, wget, unzip, zip and ssh
@@ -167,7 +173,7 @@ jobs:
           name: Download APKs files
           command: /bin/bash ./.circleci/prebuild.sh .
       - run:
-          name: Move needed DLLs
+          name: Move required DLLs
           command: /bin/mv -v lib/ContentsSerializer.dll lib/Assembly-CSharp-firstpass.dll lib/UnityEngine.dll lib/protobuf-net.dll lib/ProtoBuffSerializer.dll .
       - run:
           name: Remove extra DLLs
