@@ -1,6 +1,6 @@
 # Phantasy Star Online 2 es English translation project
 
-[![CircleCI](https://circleci.com/gh/PolCPP/PSO2es-Translation/tree/master.svg?style=svg)](https://circleci.com/gh/PolCPP/workflows/PSO2es-Translation/tree/master)
+[![CircleCI](https://circleci.com/gh/Arks-Layer/PSO2esTranslations/tree/EN.svg?style=svg)](https://circleci.com/gh/Arks-Layer/workflows/PSO2esTranslations/tree/EN)
 
 ## Usage
 

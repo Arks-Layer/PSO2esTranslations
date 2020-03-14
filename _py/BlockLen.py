@@ -25,37 +25,13 @@ else:
 
 FS = dict()
 
-items_files = [
+block_files = [
     os.path.join(dirpath, f)
     for dirpath, dirnames, files in os.walk(dir)
-    for f in fnmatch.filter(files, 'Item_*.txt')
+    for f in fnmatch.filter(files, 'Block_*.txt')
 ]
 
-items_files += [
-    os.path.join(dirpath, f)
-    for dirpath, dirnames, files in os.walk(dir)
-    for f in fnmatch.filter(files, 'Explain_Actor_*.txt')
-]
-
-items_files += [
-    os.path.join(dirpath, f)
-    for dirpath, dirnames, files in os.walk(dir)
-    for f in fnmatch.filter(files, 'Explain_SkillRing.txt')
-]
-
-items_files += [
-    os.path.join(dirpath, f)
-    for dirpath, dirnames, files in os.walk(dir)
-    for f in fnmatch.filter(files, 'Explain_System.txt')
-]
-
-items_files += [
-    os.path.join(dirpath, f)
-    for dirpath, dirnames, files in os.walk(dir)
-    for f in fnmatch.filter(files, 'Items_Leftovers.txt')
-]
-
-for files in items_files:
+for files in block_files:
     with codecs.open(files, mode='r', encoding='utf-8') as json_file:
         djson = json.load(json_file)
         for entry in djson:
@@ -70,15 +46,11 @@ FSs = OrderedDict(sorted(FSk.items(), key=lambda t: t[1]))
 
 if len(sys.argv) == 3:
     print(json.dumps(FSs, ensure_ascii=ensure_ascii, indent=indent, sort_keys=False))
-else:  # JP MAX: 22
-    FSWP = OrderedDict((key, value) for key, value in FSs.items() if value >= 32)
-    for e, s in FSWP.items():  # MAX: ???
+else:
+    FSWP = OrderedDict((key, value) for key, value in FSs.items() if value >= 28)
+    for e, s in FSWP.items():
         counterr += 1
-        print(u"Item Name '{}' is too long: {}".format(e, s))
-
-
-# Do not fail
-counterr = -counterr
+        print(u"Block Name '{}' is too long: {}".format(e, s))
 
 if counterr > 0:
     sys.exit("Issues found")
