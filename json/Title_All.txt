@@ -900,7 +900,7 @@
 		"jp_explain": "",
 		"jp_text": "鮮やかなる死の改槍",
 		"tr_explain": "Mejorar Diabolic Gauntlet a +10",
-		"tr_text": "Vibrant Death's Revised Wired Lance"
+		"tr_text": "Vibrant Death's Wired Lance"
 	},
 	{
 		"assign": "200101300",
@@ -2006,7 +2006,7 @@
 		"jp_explain": "",
 		"jp_text": "氷獄極限への挑戦者",
 		"tr_explain": "Completar 100 Ordenes de Piso en\nMision Extrema: Glacial Machinery",
-		"tr_text": "Challenger of the Glacial Expanse"
+		"tr_text": "Challenger of Glacial Expanse"
 	},
 	{
 		"assign": "303100030",
@@ -2076,7 +2076,7 @@
 		"jp_explain": "",
 		"jp_text": "淵獄極限への挑戦者",
 		"tr_explain": "Completar 100 Ordenes de Piso en\nMision Extrema: Forsaken Aquatics",
-		"tr_text": "Challenger of the Abyssal Expanse"
+		"tr_text": "Challenger of Abyssal Expanse"
 	},
 	{
 		"assign": "303120030",
@@ -3301,7 +3301,7 @@
 		"jp_explain": "",
 		"jp_text": "時限加工師体験",
 		"tr_explain": "Alcanzar Instalacion de\nHabilidades Temporales Nv.10",
-		"tr_text": "Dabbles In Timed Effect Processing"
+		"tr_text": "Dabbles In Timed Effects"
 	},
 	{
 		"assign": "600000310",
@@ -3658,21 +3658,21 @@
 		"jp_explain": "",
 		"jp_text": "時限加工中級者",
 		"tr_explain": "Realizar 50 Crafteos Diarios de\nInstalacion de\nHabilidades Temporales",
-		"tr_text": "Timed Effect Creation Intermediate"
+		"tr_text": "Timed Effects Intermediate"
 	},
 	{
 		"assign": "600200330",
 		"jp_explain": "",
 		"jp_text": "時限加工上級者",
 		"tr_explain": "Realizar 100 Crafteos Diarios de\nInstalacion de\nHabilidades Temporales",
-		"tr_text": "Timed Effect Creation Advanced"
+		"tr_text": "Timed Effects Advanced"
 	},
 	{
 		"assign": "600200340",
 		"jp_explain": "",
 		"jp_text": "時限加工会得者",
 		"tr_explain": "Realiza 250 Instalacion de\nHabilidades Temporales",
-		"tr_text": "Understands Timed Effect Creation Well"
+		"tr_text": "Understands Timed Effects"
 	},
 	{
 		"assign": "600200350",
@@ -3686,14 +3686,14 @@
 		"jp_explain": "",
 		"jp_text": "時限加工専心者",
 		"tr_explain": "Realiza 1,000 Instalacion de\nHabilidades Temporales",
-		"tr_text": "Dedicated to Timed Effect Creation"
+		"tr_text": "Dedicated to Timed Effects"
 	},
 	{
 		"assign": "600200400",
 		"jp_explain": "",
 		"jp_text": "戦技錬磨体験者",
 		"tr_explain": "Realizar 10 Crafteos Diarios de\nPersonalizacion de\nArtes Photonicos",
-		"tr_text": "Has Tried Customizing Photon Arts"
+		"tr_text": "Tried Customizing Photon Arts"
 	},
 	{
 		"assign": "600200410",
@@ -4106,7 +4106,7 @@
 		"jp_explain": "",
 		"jp_text": "鍛冶請負中級",
 		"tr_explain": "Realizar 25 Crafteos Diarios de\nExtencion de Equipo",
-		"tr_text": "Intermediate Smithing Contractor"
+		"tr_text": "Mid-Level Smithing Contractor"
 	},
 	{
 		"assign": "600501020",
@@ -4155,7 +4155,7 @@
 		"jp_explain": "",
 		"jp_text": "調律請負中級",
 		"tr_explain": "Realizar 25 Crafteos Diarios de\nPersonalizacion de\nTecnicas",
-		"tr_text": "Intermediate Tuning Contractor"
+		"tr_text": "Mid-Level Tuning Contractor"
 	},
 	{
 		"assign": "600502020",
@@ -4204,7 +4204,7 @@
 		"jp_explain": "",
 		"jp_text": "加工請負中級",
 		"tr_explain": "Realizar 25 Crafteos Diarios de\nInstalacion de\nHabilidades Temporales",
-		"tr_text": "Intermediate Processing Contractor"
+		"tr_text": "Mid-Level Processing Contractor"
 	},
 	{
 		"assign": "600503020",
@@ -4246,49 +4246,49 @@
 		"jp_explain": "",
 		"jp_text": "戦技錬磨請負初級",
 		"tr_explain": "Realizar 5 Crafteos Diarios de\nPersonalizacion de\nArte Photonico",
-		"tr_text": "Elementary Customization Contractor"
+		"tr_text": "Elementary Custom Contractor"
 	},
 	{
 		"assign": "600504010",
 		"jp_explain": "",
 		"jp_text": "戦技錬磨請負中級",
 		"tr_explain": "Realizar 10 Crafteos Diarios de\nPersonalizacion de\nArte Photonico",
-		"tr_text": "Intermediate Customization Contractor"
+		"tr_text": "Mid-Level Custom Contractor"
 	},
 	{
 		"assign": "600504020",
 		"jp_explain": "",
 		"jp_text": "戦技錬磨請負上級",
 		"tr_explain": "Realizar 20 Crafteos Diarios de\nArte Photonico",
-		"tr_text": "Advanced Customization Contractor"
+		"tr_text": "Advanced Custom Contractor"
 	},
 	{
 		"assign": "600504030",
 		"jp_explain": "",
 		"jp_text": "戦技錬磨請負初段",
 		"tr_explain": "Realizar 30 Crafteos Diarios de\nArte Photonico",
-		"tr_text": "D-Grade Customization Contractor"
+		"tr_text": "D-Grade Custom Contractor"
 	},
 	{
 		"assign": "600504040",
 		"jp_explain": "",
 		"jp_text": "戦技錬磨請負二段",
 		"tr_explain": "Realizar 50 Crafteos Diarios de\nPersonalizacion de\nArte Photonico",
-		"tr_text": "C-Grade Customization Contractor"
+		"tr_text": "C-Grade Custom Contractor"
 	},
 	{
 		"assign": "600504050",
 		"jp_explain": "",
 		"jp_text": "戦技錬磨請負三段",
 		"tr_explain": "Realizar 70 Crafteos Diarios de\nPersonalizacion de\nArte Photonico",
-		"tr_text": "B-Grade Customization Contractor"
+		"tr_text": "B-Grade Custom Contractor"
 	},
 	{
 		"assign": "600504060",
 		"jp_explain": "",
 		"jp_text": "戦技錬磨請負四段",
 		"tr_explain": "Realizar 90 Crafteos Diarios de\nPersonalizacion de\nArte Photonico",
-		"tr_text": "A-Grade Customization Contractor"
+		"tr_text": "A-Grade Custom Contractor"
 	},
 	{
 		"assign": "100500330",
@@ -5303,7 +5303,7 @@
 		"jp_explain": "",
 		"jp_text": "壊れた歴史の体験者",
 		"tr_explain": "Completar el Matterboard EP1-8",
-		"tr_text": "One Who Experiences Destroyed History"
+		"tr_text": "Experiences Destroyed History"
 	},
 	{
 		"assign": "300200800",
@@ -5422,7 +5422,7 @@
 		"jp_explain": "",
 		"jp_text": "壊れた歴史を憂う者",
 		"tr_explain": "Completar el Matterboard EP1-8",
-		"tr_text": "One Who Laments Destroyed History"
+		"tr_text": "Laments Destroyed History"
 	},
 	{
 		"assign": "300300800",
@@ -5520,7 +5520,7 @@
 		"jp_explain": "",
 		"jp_text": "独極限界への挑戦者",
 		"tr_explain": "Completar 25 Stage Orders in \nSolo Training: Heaven and Hell",
-		"tr_text": "Challenger to the Ultimate Boundary"
+		"tr_text": "Challenger to Ultimate Boundary"
 	},
 	{
 		"assign": "209002040",
@@ -5534,7 +5534,7 @@
 		"jp_explain": "",
 		"jp_text": "類い稀なる新世の創造主",
 		"tr_explain": "Mejorar 1 Arma NT de rareza ★13\n o superior a +35",
-		"tr_text": "Rare Creators of the New Generation"
+		"tr_text": "Artisan of the New Generation"
 	},
 	{
 		"assign": "100500830",
@@ -5765,7 +5765,7 @@
 		"jp_explain": "",
 		"jp_text": "不確かな未来に向かう者",
 		"tr_explain": "Completa Matterboards del Episodio 3\n<yellow>※Hacer EP3-8 es opcional<c>",
-		"tr_text": "One Who Lives In Uncertain Future"
+		"tr_text": "Lives In Uncertain Future"
 	},
 	{
 		"assign": "300400030",
@@ -5877,7 +5877,7 @@
 		"jp_explain": "",
 		"jp_text": "独極極限への挑戦者",
 		"tr_explain": "Completar 50 Stage Orders in \nSolo Training: Heaven and Hell",
-		"tr_text": "Challenger of the Solitary Expanse"
+		"tr_text": "Challenger of Solitary Expanse"
 	},
 	{
 		"assign": "303140030",
