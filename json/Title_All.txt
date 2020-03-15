@@ -1,24 +1,6 @@
 [
 	{
 		"assign": "0",
-		"jp_text": "グランプリ2016",
-		"tr_text": "Grand Prix 2016",
-		"tr_explain": "Completa las Clasificaciones\na ARKS GP2016"
-	},
-	{
-		"assign": "0",
-		"jp_text": "メリークリスマス!",
-		"tr_text": "Merry Christmas!",
-		"tr_explain": "Complete the Emergency Quest\nMerry Christmas on Ice 2018 1 vez"
-	},
-	{
-		"assign": "0",
-		"jp_text": "繋がる思いの体現者",
-		"tr_text": "Embodiment of Connected Thoughts",
-		"tr_explain": ""
-	},
-	{
-		"assign": "0",
 		"jp_text": "謎の場所先派遣員",
 		"tr_text": "Temporal en un Lugar Misterioso",
 		"tr_explain": "Conectarse desde un\nNetCafe por 48 Horas"
@@ -1784,8 +1766,8 @@
 	{
 		"assign": "102000010",
 		"jp_text": "メリークリスマス！",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Merry Christmas!",
+		"tr_explain": "Complete the Emergency Quest\nMerry Christmas on Ice 2018 1 time"
 	},
 	{
 		"assign": "102000020",
@@ -4731,7 +4713,7 @@
 		"assign": "207002005",
 		"jp_text": "類い稀なる新世の創造主",
 		"tr_text": "Artisan of the New Generation",
-		"tr_explain": "Mejorar 1 Arma NT de rareza ★13\n o superior a +35"
+		"tr_explain": "Mejorar 1 Arma NT de rareza ★13\no superior a +35"
 	},
 	{
 		"assign": "208001000",
@@ -4766,7 +4748,7 @@
 	{
 		"assign": "209002001",
 		"jp_text": "ハンター新世強化の開拓者",
-		"tr_text": "Pioneer of Hunter NT Upgrades",
+		"tr_text": "Pionero en Mejoras NT de Hunter",
 		"tr_explain": "Mejora un Arma NT de Hunter\n★13 o superior hasta +35"
 	},
 	{
@@ -4851,7 +4833,7 @@
 		"assign": "209100000",
 		"jp_text": "バル・リノベーター",
 		"tr_text": "Val Renovator",
-		"tr_explain": "Mejora un Arma de Val Series\n a +35"
+		"tr_explain": "Mejora un Arma de Val Series\na +35"
 	},
 	{
 		"assign": "300000000",
@@ -5925,7 +5907,7 @@
 		"assign": "300780160",
 		"jp_text": "ダークファルス【巨躯】復活の突破者",
 		"tr_text": "[Elder] Resurrection Ace",
-		"tr_explain": "Vencer a DF [Elder] en \nMision Omnibus de EP1 en Grado S"
+		"tr_explain": "Vencer a DF [Elder] en\nMision Omnibus de EP1 en Grado S"
 	},
 	{
 		"assign": "300780170",
@@ -5955,7 +5937,7 @@
 		"assign": "300780210",
 		"jp_text": "最後のさよならの突破者",
 		"tr_text": "The Final Goodbye Ace",
-		"tr_explain": "Completar The Last Goodbye en \nMision Omnibus de EP1 en Grado S"
+		"tr_explain": "Completar The Last Goodbye en\nMision Omnibus de EP1 en Grado S"
 	},
 	{
 		"assign": "300780300",
@@ -7094,20 +7076,20 @@
 	{
 		"assign": "303131200",
 		"jp_text": "グランプリ２０１６",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Grand Prix 2016",
+		"tr_explain": "Clear the ARKS GP 2016 Qualifiers"
 	},
 	{
 		"assign": "303131300",
 		"jp_text": "グランプリ２０１６本戦走破",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Grand Prix 2016 Competitor",
+		"tr_explain": "Clear the ARKS GP 2016 Main Battle"
 	},
 	{
 		"assign": "303131400",
 		"jp_text": "グランプリ２０１６決勝走破",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Grand Prix 2016 Finalist",
+		"tr_explain": "Clear the ARKS GP 2016 Finals"
 	},
 	{
 		"assign": "303131500",
@@ -7119,31 +7101,30 @@
 		"assign": "303140000",
 		"jp_text": "独極境界への挑戦者",
 		"tr_text": "Challenger to the Polar Boundary",
-		"tr_explain": "Completar 10 Stage Orders in \nSolo Training: Heaven and Hell"
+		"tr_explain": "Completar 10 Stage Orders in\nSolo Training: Heaven and Hell"
 	},
 	{
 		"assign": "303140010",
 		"jp_text": "独極限界への挑戦者",
 		"tr_text": "Challenger to Ultimate Boundary",
-		"tr_explain": "Completar 25 Stage Orders in \nSolo Training: Heaven and Hell"
+		"tr_explain": "Completar 25 Stage Orders in\nSolo Training: Heaven and Hell"
 	},
 	{
 		"assign": "303140020",
 		"jp_text": "独極極限への挑戦者",
 		"tr_text": "Challenger of Solitary Expanse",
-		"tr_explain": "Completar 50 Stage Orders in \nSolo Training: Heaven and Hell"
+		"tr_explain": "Completar 50 Stage Orders in\nSolo Training: Heaven and Hell"
 	},
 	{
 		"assign": "303140030",
 		"jp_text": "リミットエクシーダー",
 		"tr_text": "Limit Exceeder",
-		"tr_explain": "Completar 100 Stage Orders in \nSolo Training: Heaven and Hell"
-	},
+		"tr_explain": "Completar 100 Stage Orders in\nSolo Training: Heaven and Hell"
 	{
 		"assign": "303140040",
 		"jp_text": "独極を超えし者",
 		"tr_text": "Transcended Solitary Confinement",
-		"tr_explain": "Completar 150 Stage Orders in \nSolo Training: Heaven and Hell"
+		"tr_explain": "Completar 150 Stage Orders in\nSolo Training: Heaven and Hell"
 	},
 	{
 		"assign": "303150000",
@@ -8642,8 +8623,8 @@
 	{
 		"assign": "400121100",
 		"jp_text": "ポリタンのフレンド",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Polytan's Friend",
+		"tr_explain": "Obtain Polytan's Partner Card"
 	},
 	{
 		"assign": "400121200",
@@ -8654,200 +8635,200 @@
 	{
 		"assign": "400121300",
 		"jp_text": "ブルージーレクイエムと知り合い",
-		"tr_text": "Compaйero de Bluesy",
-		"tr_explain": "Obtener la Tarjeta de Compaйero de\nBluesy"
+		"tr_text": "Compaйero de Bluesy Requiem",
+		"tr_explain": "Obtener la Tarjeta de Compaйero de\nBluesy Requiem"
 	},
 	{
 		"assign": "400121400",
 		"jp_text": "パティとサンタ捜し",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Patty's Sought-After Santa",
+		"tr_explain": "Obtain Patty (Christmas)'s\nPartner Card"
 	},
 	{
 		"assign": "400121500",
 		"jp_text": "ティアとサンタ捜し",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Tea's Sought-After Santa",
+		"tr_explain": "Obtain Tea (Christmas)'s\nPartner Card"
 	},
 	{
 		"assign": "400121600",
 		"jp_text": "オークゥと知り合い",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friends with Och",
+		"tr_explain": "Obtain Och's Partner Card"
 	},
 	{
 		"assign": "400121700",
 		"jp_text": "フルと知り合い",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friends with Phul",
+		"tr_explain": "Obtain Phul's Partner Card"
 	},
 	{
 		"assign": "400121800",
 		"jp_text": "エンガとホワイトデー参加",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Joined Enga for White Day",
+		"tr_explain": "Obtain Enga (White Day)'s\nPartner Card"
 	},
 	{
 		"assign": "400121900",
 		"jp_text": "ヒューイとビーチウォーズ参加",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Joined Huey for Beach Wars",
+		"tr_explain": "Obtain Huey (Summer)'s\nPartner Card"
 	},
 	{
 		"assign": "400122000",
 		"jp_text": "ニレンカムイと知り合い",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friends with Twin Kamui",
+		"tr_explain": "Obtain Twin Kamui's Partner Card"
 	},
 	{
 		"assign": "400122100",
 		"jp_text": "ライトニングエスパーダの知人",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friends with Lightning Espada",
+		"tr_explain": "Obtain Lightning Espada's Partner Card"
 	},
 	{
 		"assign": "400122200",
 		"jp_text": "ノクスカディナと知り合い",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friends with Nox Cadina",
+		"tr_explain": "Obtain Nox Cadina's Partner Card"
 	},
 	{
 		"assign": "400122300",
 		"jp_text": "シューティングドライブの知人",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friends with Shooting Drive",
+		"tr_explain": "Obtain Shooting Drive's Partner Card"
 	},
 	{
 		"assign": "400122400",
 		"jp_text": "ラヴィス＝ブレイドと知り合い",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friends with Lavis Blade",
+		"tr_explain": "Obtain Lavis Blade's Partner Card"
 	},
 	{
 		"assign": "400122500",
 		"jp_text": "マトイとハロウィンパーティー",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Matoi's Halloween Party",
+		"tr_explain": "Obtain Matoi (Halloween)'s\nPartner Card"
 	},
 	{
 		"assign": "400122600",
 		"jp_text": "シエラとハロウィンパーティー",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Xiera's Halloween Party",
+		"tr_explain": "Obtain Xiera (Halloween)'s\nPartner Card"
 	},
 	{
 		"assign": "400122700",
 		"jp_text": "パートニャーと知り合い",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friends with Partnya",
+		"tr_explain": "Obtain Partnya's Partner Card"
 	},
 	{
 		"assign": "400122800",
 		"jp_text": "ヒツギとクリスマスデート",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Hitsugi's Christmas Date",
+		"tr_explain": "Obtain Hitsugi (Christmas)'s\nPartner Card"
 	},
 	{
 		"assign": "400122900",
 		"jp_text": "コオリとクリスマスデート",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Kohri's Christmas Date",
+		"tr_explain": "Obtain Kohri (Christmas)'s\nPartner Card"
 	},
 	{
 		"assign": "400123000",
 		"jp_text": "ユクちゃんのバレンタイン仲間",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Yu-chan's Valentine Companion",
+		"tr_explain": "Obtain Yucreta (Valentines)'s\nPartner Card"
 	},
 	{
 		"assign": "400123100",
 		"jp_text": "アフィンのホワイトデー仲間",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Afin's White Day Companion",
+		"tr_explain": "Obtain Afin (White Day)'s\nPartner Card"
 	},
 	{
 		"assign": "400123200",
 		"jp_text": "キョクヤの同胞",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Kyokuya's Compatriot",
+		"tr_explain": "Obtain Kyokuya's Partner Card"
 	},
 	{
 		"assign": "400123300",
 		"jp_text": "スペース・ツナの知人",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friends with Space Tuna",
+		"tr_explain": "Obtain Space Tuna's Partner Card"
 	},
 	{
 		"assign": "400123400",
 		"jp_text": "フォルニスフィジスの知人",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friends with Fornis Physis",
+		"tr_explain": "Obtain Fornis Physis's Partner Card"
 	},
 	{
 		"assign": "400123500",
 		"jp_text": "ヤスミノコフ8000Cの知人",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friends with Yasminkov 8000C",
+		"tr_explain": "Obtain Yasminkov 8000C's Partner Card"
 	},
 	{
 		"assign": "400123600",
 		"jp_text": "エルデトロスの知人",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friends with Eldetross",
+		"tr_explain": "Obtain Eldetross's Partner Card"
 	},
 	{
 		"assign": "400123700",
 		"jp_text": "アギトの知人",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friends with Agito",
+		"tr_explain": "Obtain Agito's Partner Card"
 	},
 	{
 		"assign": "400123800",
 		"jp_text": "みたらしのフレンド",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Mitarashi's Friend",
+		"tr_explain": "Obtain Mitarashi's Partner Card"
 	},
 	{
 		"assign": "400123900",
 		"jp_text": "テトラのフレンド",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Tetra's Friend",
+		"tr_explain": "Obtain Tetra's Partner Card"
 	},
 	{
 		"assign": "400124000",
 		"jp_text": "§イチカ§のフレンド",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "§Ichika§'s Friend",
+		"tr_explain": "Obtain §Ichika§'s Partner Card"
 	},
 	{
 		"assign": "400124100",
 		"jp_text": "ルコットのお客様",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Lucotte's Customer",
+		"tr_explain": "Obtain Lucotte's Partner Card"
 	},
 	{
 		"assign": "400124200",
 		"jp_text": "ルーサーとクリスマス研究",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Luther's Christmas Researcher",
+		"tr_explain": "Obtain Luther (Christmas)'s\nPartner Card"
 	},
 	{
 		"assign": "400124300",
 		"jp_text": "ハリエットのサンタ様",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Harriet's Santa",
+		"tr_explain": "Obtain Harriet (Christmas)'s\nPartner Card"
 	},
 	{
 		"assign": "400124400",
 		"jp_text": "ストラトスのチョコ手伝い",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Stratos's Chocolate Helper",
+		"tr_explain": "Obtain Stratos (Valentines)'s\nPartner Card"
 	},
 	{
 		"assign": "400124500",
 		"jp_text": "キョクヤのホワイト仲間",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Kyokuya's White Day Friend",
+		"tr_explain": "Obtain Kyokuya (White Day)'s\nPartner Card"
 	},
 	{
 		"assign": "400200000",
@@ -9656,422 +9637,422 @@
 	{
 		"assign": "400221100",
 		"jp_text": "ポリタンのブラザー",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Polytan's Brother",
+		"tr_explain": "Clear 10 Quests with Polytan\nin the party"
 	},
 	{
 		"assign": "400221101",
 		"jp_text": "ポリタンファミリー",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Polytan Family",
+		"tr_explain": "Clear 100 Quests with Polytan\nin the party"
 	},
 	{
 		"assign": "400221200",
 		"jp_text": "アヴェンジャーの協力者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Avenger's Cooperator",
+		"tr_explain": "Clear 10 Quests with Avenger\nin the party"
 	},
 	{
 		"assign": "400221201",
 		"jp_text": "アヴェンジャーの友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Avenger's Friend",
+		"tr_explain": "Clear 100 Quests with Avenger\nin the party"
 	},
 	{
 		"assign": "400221300",
 		"jp_text": "ブルージーレクイエムのお気に入り",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Bluesy Requiem's Favorite",
+		"tr_explain": "Clear 10 Quests with Bluesy Requiem\nin the party"
 	},
 	{
 		"assign": "400221301",
 		"jp_text": "ブルージーレクイエムの下僕",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Bluesy Requiem's Servant",
+		"tr_explain": "Clear 100 Quests with Bluesy Requiem\nin the party"
 	},
 	{
 		"assign": "400221400",
 		"jp_text": "パティのサンタクロース",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Patty's Santa Claus",
+		"tr_explain": "Clear 10 Quests with Patty\n(Christmas) in the party"
 	},
 	{
 		"assign": "400221401",
 		"jp_text": "パティのクリスマスフレンド",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Patty's Christmas Friend",
+		"tr_explain": "Clear 100 Quests with Patty\n(Christmas) in the party"
 	},
 	{
 		"assign": "400221500",
 		"jp_text": "ティアのサンタクロース",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Tea's Santa Claus",
+		"tr_explain": "Clear 10 Quests with Tea\n(Christmas) in the party"
 	},
 	{
 		"assign": "400221501",
 		"jp_text": "ティアのクリスマスフレンド",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Tea's Christmas Friend",
+		"tr_explain": "Clear 100 Quests with Tea\n(Christmas) in the party"
 	},
 	{
 		"assign": "400221600",
 		"jp_text": "オークゥの友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Och's Friend",
+		"tr_explain": "Clear 10 Quests with Och\nin the party"
 	},
 	{
 		"assign": "400221601",
 		"jp_text": "オークゥの生徒",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Och's Student",
+		"tr_explain": "Clear 100 Quests with Och\nin the party"
 	},
 	{
 		"assign": "400221700",
 		"jp_text": "フルの友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Phul's Friend",
+		"tr_explain": "Clear 10 Quests with Phul\nin the party"
 	},
 	{
 		"assign": "400221701",
 		"jp_text": "フルの生徒",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Phul's Student",
+		"tr_explain": "Clear 100 Quests with Phul\nin the party"
 	},
 	{
 		"assign": "400221800",
 		"jp_text": "エンガのホワイトデー仲間",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Enga's White Day Comrade",
+		"tr_explain": "Clear 10 Quests with Enga\n(White Day) in the party"
 	},
 	{
 		"assign": "400221801",
 		"jp_text": "エンガのホワイトデーフレンド",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Enga's White Day Friend",
+		"tr_explain": "Clear 100 Quests with Enga\n(White Day) in the party"
 	},
 	{
 		"assign": "400221900",
 		"jp_text": "ヒューイとビーチウォーズ仲間",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Huey's Summer Comrade",
+		"tr_explain": "Clear 10 Quests with Huey\n(Summer) in the party"
 	},
 	{
 		"assign": "400221901",
 		"jp_text": "ヒューイの常夏フレンド",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Huey's Summer Friend",
+		"tr_explain": "Clear 100 Quests with Huey\n(Summer) in the party"
 	},
 	{
 		"assign": "400222000",
 		"jp_text": "ニレンカムイの友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Twin Kamui's Friend",
+		"tr_explain": "Clear 10 Quests with Twin Kamui\nin the party"
 	},
 	{
 		"assign": "400222001",
 		"jp_text": "ニレンカムイの親友",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Twin Kamui's Close Friend",
+		"tr_explain": "Clear 100 Quests with Twin Kamui\nin the party"
 	},
 	{
 		"assign": "400222100",
 		"jp_text": "ライトニングエスパーダの友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Lightning Espada's Friend",
+		"tr_explain": "Clear 10 Quests with Lightning Espada\nin the party"
 	},
 	{
 		"assign": "400222101",
 		"jp_text": "ライトニングエスパーダの親友",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Lightning Espada's Close Friend",
+		"tr_explain": "Clear 100 Quests with Lightning Espada\nin the party"
 	},
 	{
 		"assign": "400222200",
 		"jp_text": "ノクスカディナの友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Nox Cadina's Friend",
+		"tr_explain": "Clear 10 Quests with Nox Cadina\nin the party"
 	},
 	{
 		"assign": "400222201",
 		"jp_text": "ノクスカディナの親友",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Nox Cadina's Close Friend",
+		"tr_explain": "Clear 100 Quests with Nox Cadina\nin the party"
 	},
 	{
 		"assign": "400222300",
 		"jp_text": "シューティングドライブの友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Shooting Drive's Friend",
+		"tr_explain": "Clear 10 Quests with Shooting Drive\nin the party"
 	},
 	{
 		"assign": "400222301",
 		"jp_text": "シューティングドライブの親友",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Shooting Drive's Close Friend",
+		"tr_explain": "Clear 100 Quests with Shooting Drive\nin the party"
 	},
 	{
 		"assign": "400222400",
 		"jp_text": "ラヴィス＝ブレイドの友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Lavis Blade's Friend",
+		"tr_explain": "Clear 10 Quests with Lavis Blade\nin the party"
 	},
 	{
 		"assign": "400222401",
 		"jp_text": "ラヴィス＝ブレイドの親友",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Lavis Blade's Close Friend",
+		"tr_explain": "Clear 100 Quests with Lavis Blade\nin the party"
 	},
 	{
 		"assign": "400222500",
 		"jp_text": "マトイのハロウィン仲間",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Matoi's Halloween Comrade",
+		"tr_explain": "Clear 10 Quests with Matoi\n(Halloween) in the party"
 	},
 	{
 		"assign": "400222501",
 		"jp_text": "いたずらしちゃうぞ！",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Let's Play a Trick!",
+		"tr_explain": "Clear 100 Quests with Matoi\n(Halloween) in the party"
 	},
 	{
 		"assign": "400222600",
 		"jp_text": "シエラのハロウィン仲間",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Xiera's Halloween Comrade",
+		"tr_explain": "Clear 10 Quests with Xiera\n(Halloween) in the party"
 	},
 	{
 		"assign": "400222601",
 		"jp_text": "おばけだぞー！",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Boo, It's a Ghost!",
+		"tr_explain": "Clear 100 Quests with Xiera\n(Halloween) in the party"
 	},
 	{
 		"assign": "400222700",
 		"jp_text": "パートニャーの旦那さん",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Partnya's Master",
+		"tr_explain": "Clear 10 Quests with Partnya\nin the party"
 	},
 	{
 		"assign": "400222701",
 		"jp_text": "パートニャー自慢の旦那さん",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Partnya's Proud Master",
+		"tr_explain": "Clear 100 Quests with Partnya\nin the party"
 	},
 	{
 		"assign": "400222800",
 		"jp_text": "ヒツギのクリスマス仲間",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Hitsugi's Christmas Comrade",
+		"tr_explain": "Clear 10 Quests with Hitsugi\n(Christmas) in the party"
 	},
 	{
 		"assign": "400222801",
 		"jp_text": "ヒツギのクリスマスフレンド",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Hitsugi's Christmas Friend",
+		"tr_explain": "Clear 100 Quests with Hitsugi\n(Christmas) in the party"
 	},
 	{
 		"assign": "400222900",
 		"jp_text": "コオリのクリスマス仲間",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Kohri's Christmas Comrade",
+		"tr_explain": "Clear 10 Quests with Kohri\n(Christmas) in the party"
 	},
 	{
 		"assign": "400222901",
 		"jp_text": "コオリのクリスマスフレンド",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Kohri's Christmas Friend",
+		"tr_explain": "Clear 100 Quests with Kohri\n(Christmas) in the party"
 	},
 	{
 		"assign": "400223000",
 		"jp_text": "ユクちゃんのバレンタイン友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Yu-chan's Valentine Friend",
+		"tr_explain": "Clear 10 Quests with Yucreta\n(Valentines) in the party"
 	},
 	{
 		"assign": "400223001",
 		"jp_text": "ユクちゃんといっしょ！",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Together with Yu-chan!",
+		"tr_explain": "Clear 100 Quests with Yucreta\n(Valentines) in the party"
 	},
 	{
 		"assign": "400223100",
 		"jp_text": "アフィンのホワイトデー友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Afin's White Day Friend",
+		"tr_explain": "Clear 10 Quests with Afin\n(White Day) in the party"
 	},
 	{
 		"assign": "400223101",
 		"jp_text": "アフィンの相談相手",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Afin's Advisor",
+		"tr_explain": "Clear 100 Quests with Afin\n(White Day) in the party"
 	},
 	{
 		"assign": "400223200",
 		"jp_text": "キョクヤの盟友",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Kyokuya's Ally",
+		"tr_explain": "Clear 10 Quests with Kyokuya\nin the party"
 	},
 	{
 		"assign": "400223201",
 		"jp_text": "キョクヤの好敵手",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Kyokuya's Rival",
+		"tr_explain": "Clear 100 Quests with Kyokuya\nin the party"
 	},
 	{
 		"assign": "400223300",
 		"jp_text": "スペース・ツナの友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Space Tuna's Friend",
+		"tr_explain": "Clear 10 Quests with Space Tuna\nin the party"
 	},
 	{
 		"assign": "400223301",
 		"jp_text": "スペース・ツナの親友",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Space Tuna's Close Friend",
+		"tr_explain": "Clear 100 Quests with Space Tuna\nin the party"
 	},
 	{
 		"assign": "400223400",
 		"jp_text": "フォルニスフィジスの友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Fornis Physis's Friend",
+		"tr_explain": "Clear 10 Quests with Fornis Physis\nin the party"
 	},
 	{
 		"assign": "400223401",
 		"jp_text": "フォルニスフィジスの親友",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Fornis Physis's Close Friend",
+		"tr_explain": "Clear 100 Quests with Fornis Physis\nin the party"
 	},
 	{
 		"assign": "400223500",
 		"jp_text": "ヤスミノコフ8000Cの友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Yasminkov 8000C's Friend",
+		"tr_explain": "Clear 10 Quests with Yasminkov 8000C\nin the party"
 	},
 	{
 		"assign": "400223501",
 		"jp_text": "ヤスミノコフ8000Cの親友",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Yasminkov 8000C's Close Friend",
+		"tr_explain": "Clear 100 Quests with Yasminkov 8000C\nin the party"
 	},
 	{
 		"assign": "400223600",
 		"jp_text": "エルデトロスの友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Eldetross's Friend",
+		"tr_explain": "Clear 10 Quests with Eldetross\nin the party"
 	},
 	{
 		"assign": "400223601",
 		"jp_text": "エルデトロスの親友",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Eldetross's Close Friend",
+		"tr_explain": "Clear 100 Quests with Eldetross\nin the party"
 	},
 	{
 		"assign": "400223700",
 		"jp_text": "アギトの友達",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Agito's Friend",
+		"tr_explain": "Clear 10 Quests with Agito\nin the party"
 	},
 	{
 		"assign": "400223701",
 		"jp_text": "アギトの親友",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Agito's Best Friend",
+		"tr_explain": "Clear 100 Quests with Agito\nin the party"
 	},
 	{
 		"assign": "400223800",
 		"jp_text": "みたらしのクエスト仲間",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Mitarashi's Quest Buddy",
+		"tr_explain": "Clear 10 Quests with Mitarashi\nin the party"
 	},
 	{
 		"assign": "400223801",
 		"jp_text": "年齢はファンタジー",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Age is a Fantasy",
+		"tr_explain": "Clear 100 Quests with Mitarashi\nin the party"
 	},
 	{
 		"assign": "400223900",
 		"jp_text": "テトラのスクショ仲間",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Tetra's Online Friend",
+		"tr_explain": "Clear 10 Quests with Tetra\nin the party"
 	},
 	{
 		"assign": "400223901",
 		"jp_text": "めっちゃ重要",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Really Important",
+		"tr_explain": "Clear 100 Quests with Tetra\nin the party"
 	},
 	{
 		"assign": "400224000",
 		"jp_text": "§イチカ§の闇の眷属",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "§イチカ§'s Dark Kin",
+		"tr_explain": "Clear 10 Quests with §Ichika§\nin the party"
 	},
 	{
 		"assign": "400224001",
 		"jp_text": "メカアニメによくあるやつ",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Often Watches Mecha Anime",
+		"tr_explain": "Clear 100 Quests with §Ichika§\nin the party"
 	},
 	{
 		"assign": "400224100",
 		"jp_text": "ルコットのメイド長",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Lucotte's Employer",
+		"tr_explain": "Clear 10 Quests with Lucotte\nin the party"
 	},
 	{
 		"assign": "400224101",
 		"jp_text": "ルコットのマスター",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Lucotte's Master",
+		"tr_explain": "Clear 100 Quests with Lucotte\nin the party"
 	},
 	{
 		"assign": "400224200",
 		"jp_text": "ルーサーとクリスマス実験",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Luther's Christmas Experiment",
+		"tr_explain": "Clear 10 Quests with Luther\n(Christmas) in the party"
 	},
 	{
 		"assign": "400224201",
 		"jp_text": "ルーサーと聖夜に乾杯",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Luther's Xmas Cheer",
+		"tr_explain": "Clear 100 Quests with Luther\n(Christmas) in the party"
 	},
 	{
 		"assign": "400224300",
 		"jp_text": "ハリエットとサンタフレンド",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Harriet's Santa Friend",
+		"tr_explain": "Clear 10 Quests with Harriet\n(Christmas) in the party"
 	},
 	{
 		"assign": "400224301",
 		"jp_text": "ハリエットと聖夜のディナー",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Harriet's Xmas Dinner Guest",
+		"tr_explain": "Clear 100 Quests with Harriet\n(Christmas) in the party"
 	},
 	{
 		"assign": "400224400",
 		"jp_text": "ストラトスのチョコ友",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Stratos's Chocolate Friend",
+		"tr_explain": "Clear 10 Quests with Stratos\n(Valentines) in the party"
 	},
 	{
 		"assign": "400224401",
 		"jp_text": "ストラトスとバレンタイン",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "With Stratos on Valentine's Day",
+		"tr_explain": "Clear 100 Quests with Stratos\n(Valentines) in the party"
 	},
 	{
 		"assign": "400224500",
 		"jp_text": "キョクヤのホワイト盟友",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Kyokuya's White Day Ally",
+		"tr_explain": "Clear 10 Quests with Kyokuya\n(White Day) in the party"
 	},
 	{
 		"assign": "400224501",
 		"jp_text": "キョクヤとホワイトデー",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "With Kyokuya on White Day",
+		"tr_explain": "Clear 100 Quests with Kyokuya\n(White Day) in the party"
 	},
 	{
 		"assign": "500100000",
@@ -10185,13 +10166,13 @@
 		"assign": "500500202",
 		"jp_text": "スターＳバースト",
 		"tr_text": "Star S Buster",
-		"tr_explain": "Trigger 100 PSE Bursts in \nMesetan Shooter"
+		"tr_explain": "Trigger 100 PSE Bursts in\nMesetan Shooter"
 	},
 	{
 		"assign": "500500203",
 		"jp_text": "コスモＳバースト",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Cosmo S Burster",
+		"tr_explain": "Trigger 200 PSE Bursts in\nMesetan Shooter"
 	},
 	{
 		"assign": "500500300",
