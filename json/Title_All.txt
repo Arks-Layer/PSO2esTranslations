@@ -1,29 +1,5 @@
 [
 	{
-		"assign": "100600001",
-		"jp_text": "謎の場所先派遣員",
-		"tr_text": "Mystery Location Temp",
-		"tr_explain": "Connect from a net cafe for 48 hours"
-	},
-	{
-		"assign": "0",
-		"jp_text": "謎の場所開拓者",
-		"tr_text": "Mystery Location Pioneer",
-		"tr_explain": "Connect from a net cafe for 96 hours"
-	},
-	{
-		"assign": "0",
-		"jp_text": "謎の場所特派員",
-		"tr_text": "Mystery Location Member",
-		"tr_explain": "Connect from a net cafe for 144 hours"
-	},
-	{
-		"assign": "0",
-		"jp_text": "謎の場所特使",
-		"tr_text": "Mystery Location Envoy",
-		"tr_explain": "Connect from a net cafe for 192 hours"
-	},
-	{
 		"assign": "100000000",
 		"jp_text": "新人アークス",
 		"tr_text": "ARKS Recruit",
@@ -864,10 +840,28 @@
 		"tr_explain": "Reach Lv. 75 as any class"
 	},
 	{
+		"assign": "100600001",
+		"jp_text": "謎の場所先派遣員",
+		"tr_text": "Mystery Location Temp",
+		"tr_explain": "Connect from a net cafe for 48 hours"
+	},
+	{
 		"assign": "0",
-		"jp_text": "謎の場所先遣隊員",
-		"tr_text": "",
-		"tr_explain": ""
+		"jp_text": "謎の場所開拓者",
+		"tr_text": "Mystery Location Pioneer",
+		"tr_explain": "Connect from a net cafe for 96 hours"
+	},
+	{
+		"assign": "0",
+		"jp_text": "謎の場所特派員",
+		"tr_text": "Mystery Location Member",
+		"tr_explain": "Connect from a net cafe for 144 hours"
+	},
+	{
+		"assign": "0",
+		"jp_text": "謎の場所特使",
+		"tr_text": "Mystery Location Envoy",
+		"tr_explain": "Connect from a net cafe for 192 hours"
 	},
 	{
 		"assign": "100600010",
