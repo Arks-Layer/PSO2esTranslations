@@ -1,29 +1,5 @@
 [
 	{
-		"assign": "0",
-		"jp_text": "謎の場所先派遣員",
-		"tr_text": "Тайна местонахождения образца",
-		"tr_explain": "Находитесь онлайн\nв интернет-кафе 48 часов"
-	},
-	{
-		"assign": "0",
-		"jp_text": "謎の場所特使",
-		"tr_text": "Посланник тайного места",
-		"tr_explain": "Находитесь онлайн\nв интернет-кафе 192 часа"
-	},
-	{
-		"assign": "0",
-		"jp_text": "謎の場所特派員",
-		"tr_text": "Участник тайного места",
-		"tr_explain": "Находитесь онлайн\nв интернет-кафе 144 часа"
-	},
-	{
-		"assign": "0",
-		"jp_text": "謎の場所開拓者",
-		"tr_text": "Тайна местонахожд. первопроходца",
-		"tr_explain": "Находитесь онлайн\nв интернет-кафе 96 часов"
-	},
-	{
 		"assign": "100000000",
 		"jp_text": "新人アークス",
 		"tr_text": "Рекрут ARKS",
@@ -865,9 +841,26 @@
 	},
 	{
 		"assign": "100600001",
-		"jp_text": "謎の場所先遣隊員",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Тайна местонахождения образца",
+		"tr_explain": "Находитесь онлайн\nв интернет-кафе 48 часов"
+	},
+	{
+		"assign": "0",
+		"jp_text": "謎の場所開拓者",
+		"tr_text": "Тайна местонахожд. первопроходца",
+		"tr_explain": "Находитесь онлайн\nв интернет-кафе 96 часов"
+	},
+	{
+		"assign": "0",
+		"jp_text": "謎の場所特派員",
+		"tr_text": "Участник тайного места",
+		"tr_explain": "Находитесь онлайн\nв интернет-кафе 144 часа"
+	},
+	{
+		"assign": "0",
+		"jp_text": "謎の場所特使",
+		"tr_text": "Посланник тайного места",
+		"tr_explain": "Находитесь онлайн\nв интернет-кафе 192 часа"
 	},
 	{
 		"assign": "100600010",
@@ -2096,38 +2089,38 @@
 	{
 		"assign": "106600000",
 		"jp_text": "エトワールに相応しい者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "A Worthy Etoile",
+		"tr_explain": "Obtain the Etoile License"
 	},
 	{
 		"assign": "106600010",
 		"jp_text": "友を照らすエトワール",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Etoile Illuminating a Friend",
+		"tr_explain": "Obtain the Etoile Level Cap\nLicense I"
 	},
 	{
 		"assign": "106600020",
 		"jp_text": "人々を照らすエトワール",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Etoile Illuminating the People",
+		"tr_explain": "Obtain the Etoile Level Cap\nLicense II"
 	},
 	{
 		"assign": "106600030",
 		"jp_text": "惑星を照らすエトワール",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Etoile Illuminating the Planet",
+		"tr_explain": "Obtain the Etoile Level Cap\nLicense III"
 	},
 	{
 		"assign": "106600040",
 		"jp_text": "希望を照らすエトワール",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Etoile Illuminating Hope",
+		"tr_explain": "Obtain the Etoile Level Cap\nLicense IV"
 	},
 	{
 		"assign": "106600050",
 		"jp_text": "未来を照らすエトワール",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Etoile Illuminating the Future",
+		"tr_explain": "Obtain the Etoile Level Cap\nLicense V"
 	},
 	{
 		"assign": "107000000",
@@ -3512,13 +3505,13 @@
 	{
 		"assign": "202200700",
 		"jp_text": "龍族に近い存在",
-		"tr_text": "Близкий к племени драконов",
+		"tr_text": "Близкий к Драконкинов",
 		"tr_explain": "Заточите Dinia Launcher на +10"
 	},
 	{
 		"assign": "202200710",
 		"jp_text": "龍族の隣人",
-		"tr_text": "Сосед племени драконов",
+		"tr_text": "Сосед Драконкинов",
 		"tr_explain": "Заточите Sadiena Launcher на +10"
 	},
 	{
@@ -3596,44 +3589,44 @@
 	{
 		"assign": "202300000",
 		"jp_text": "豪胆なる双銃射手",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Bold Twin Shooter",
+		"tr_explain": "Grind Radiegle to +10"
 	},
 	{
 		"assign": "202300010",
 		"jp_text": "改新する猛き双銃士",
-		"tr_text": "Бешеный Акимбо хитман",
+		"tr_text": "Revised Fierce Twin Gunner",
 		"tr_explain": "Заточите Lambda Radiegle на +10"
 	},
 	{
 		"assign": "202300100",
 		"jp_text": "究理の双銃射手",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Learned Twin Shooter",
+		"tr_explain": "Grind Sarcueid to +10"
 	},
 	{
 		"assign": "202300110",
 		"jp_text": "改新する究理の双銃士",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Revised Learned Twin Gunner",
+		"tr_explain": "Grind Lambda Sarcueid to +10"
 	},
 	{
 		"assign": "202300200",
 		"jp_text": "森羅の認識者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Perceiver of the Whole World",
+		"tr_explain": "Grind Fuyusion to +10"
 	},
 	{
 		"assign": "202300210",
 		"jp_text": "万象の理解者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Understander of All in Creation",
+		"tr_explain": "Grind Lambda Fuyusion to +10"
 	},
 	{
 		"assign": "202300300",
 		"jp_text": "頑健の体現者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Embodiment of Health",
+		"tr_explain": "Grind Aresvis to +10"
 	},
 	{
 		"assign": "202300310",
@@ -3644,8 +3637,8 @@
 	{
 		"assign": "202300400",
 		"jp_text": "凍える絶佳",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Frozen Beauty",
+		"tr_explain": "Grind H&S25 Justice to +10"
 	},
 	{
 		"assign": "202300600",
@@ -3656,8 +3649,8 @@
 	{
 		"assign": "202300800",
 		"jp_text": "実直の極致",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Epitome of Honesty",
+		"tr_explain": "Grind Yasminkov 9000M to +10"
 	},
 	{
 		"assign": "202300900",
@@ -3680,98 +3673,98 @@
 	{
 		"assign": "202301010",
 		"jp_text": "幾何を刻まれし者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Geometry Carver",
+		"tr_explain": "Grind Fleetmalinca to +10"
 	},
 	{
 		"assign": "202301100",
 		"jp_text": "白狼を超えし者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Surpasser of the White Wolf",
+		"tr_explain": "Grind Banshee's Roar to +10"
 	},
 	{
 		"assign": "202301200",
 		"jp_text": "古代文明の使者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Messenger of the Ancients",
+		"tr_explain": "Grind Sparmachinegun to +10"
 	},
 	{
 		"assign": "202301600",
 		"jp_text": "禁忌の双怨銃",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Forbidden Malicious Twinguns",
+		"tr_explain": "Grind Acidase to +10"
 	},
 	{
 		"assign": "202301800",
 		"jp_text": "変形せし機甲の双銃",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Transformer's Armored Twingun",
+		"tr_explain": "Grind Mizer Bullet to +10"
 	},
 	{
 		"assign": "202301810",
 		"jp_text": "自在なる機甲の双銃",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Shapeshifter's Armored Twingun",
+		"tr_explain": "Grind Zexia Bullet to +10"
 	},
 	{
 		"assign": "202301900",
 		"jp_text": "銀狼を打倒せし者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Overthrower of the Silver Wolf",
+		"tr_explain": "Grind Elena's Roar to +10"
 	},
 	{
 		"assign": "203000000",
 		"jp_text": "流麗なる長杖",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Elegant Staff",
+		"tr_explain": "Grind Red Processor to +10"
 	},
 	{
 		"assign": "203000010",
 		"jp_text": "白光抱く長杖",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Light-Bearing Staff",
+		"tr_explain": "Grind Siege Processor to +10"
 	},
 	{
 		"assign": "203000050",
 		"jp_text": "清廉たる長杖",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Pure Staff",
+		"tr_explain": "Grind Garland to +10"
 	},
 	{
 		"assign": "203000060",
 		"jp_text": "清廉潔白たる長杖",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Innocent White Staff",
+		"tr_explain": "Grind Lambda Garland to +10"
 	},
 	{
 		"assign": "203000100",
 		"jp_text": "専心守護の救世主",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Guardian Messiah",
+		"tr_explain": "Grind Salvador to +10"
 	},
 	{
 		"assign": "203000110",
 		"jp_text": "守護の福音",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Evangelised Protector",
+		"tr_explain": "Grind Lambda Salvador to +10"
 	},
 	{
 		"assign": "203000200",
 		"jp_text": "愛らしさの具現",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Embodiment of Loveliness",
+		"tr_explain": "Grind Stella Twinkle to +10"
 	},
 	{
 		"assign": "203000210",
 		"jp_text": "星のきらめきを抱く者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Bearer of Glittering Stars",
+		"tr_explain": "Grind Milky Twinkle to +10"
 	},
 	{
 		"assign": "203000300",
 		"jp_text": "翼を抱きし存在",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Cradling Wings",
+		"tr_explain": "Grind Clarita Visas to +10"
 	},
 	{
 		"assign": "203000400",
@@ -3782,32 +3775,32 @@
 	{
 		"assign": "203000450",
 		"jp_text": "明月の担い手",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Bearer of Tomorrows",
+		"tr_explain": "Grind Twilight Rune to +10"
 	},
 	{
 		"assign": "203000500",
 		"jp_text": "生命の守人",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Guardian of Life",
+		"tr_explain": "Grind Seitenweise to +10"
 	},
 	{
 		"assign": "203000520",
 		"jp_text": "生命を生み出す者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Creator of Life",
+		"tr_explain": "Grind Seitenheise to +10"
 	},
 	{
 		"assign": "203000600",
 		"jp_text": "凍土結晶の操主",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Controller of the Frozen Tundra",
+		"tr_explain": "Grind Vifroze to +10"
 	},
 	{
 		"assign": "203000610",
 		"jp_text": "絶対零度の操主",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Controller of Absolute Zero",
+		"tr_explain": "Grind Meliofroze to +10"
 	},
 	{
 		"assign": "203000650",
@@ -3818,20 +3811,20 @@
 	{
 		"assign": "203000660",
 		"jp_text": "幾何描く指先",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Geometry Tracer",
+		"tr_explain": "Grind Rubiascient to +10"
 	},
 	{
 		"assign": "203000700",
 		"jp_text": "龍族の協調者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Dragonkin Collaborator",
+		"tr_explain": "Grind Dinia Rod to +10"
 	},
 	{
 		"assign": "203000710",
 		"jp_text": "龍族に近しき者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Close to the Dragonkin",
+		"tr_explain": "Grind Sadiel Rod to +10"
 	},
 	{
 		"assign": "203000800",
@@ -3842,20 +3835,20 @@
 	{
 		"assign": "203000900",
 		"jp_text": "大翼に憧れし者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Longing for Wings",
+		"tr_explain": "Grind Windy Shaft to +10"
 	},
 	{
 		"assign": "203001100",
 		"jp_text": "不幸の招き手",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Beckoner of Misfortune",
+		"tr_explain": "Grind Demonic Fork to +10"
 	},
 	{
 		"assign": "203001200",
 		"jp_text": "気まぐれないたずら者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Whimsical Trickster",
+		"tr_explain": "Grind Pumpkin Rod to +10"
 	},
 	{
 		"assign": "203001400",
@@ -3872,8 +3865,8 @@
 	{
 		"assign": "203001800",
 		"jp_text": "ツッコミ役",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Buffoon Punisher",
+		"tr_explain": "Grind Pico Pico Hammer to +10"
 	},
 	{
 		"assign": "203001900",
@@ -3884,74 +3877,74 @@
 	{
 		"assign": "203002000",
 		"jp_text": "狂気を制す者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Controller of Madness",
+		"tr_explain": "Grind Chrome Evol to +10"
 	},
 	{
 		"assign": "203100000",
 		"jp_text": "猛々しき導具",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Ferocious Guide",
+		"tr_explain": "Grind Visburn to +10"
 	},
 	{
 		"assign": "203100010",
 		"jp_text": "改新せし猛き導具",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Revised Fierce Guide",
+		"tr_explain": "Grind Lambda Visburn to +10"
 	},
 	{
 		"assign": "203100100",
 		"jp_text": "華美流麗なる導具",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Beautiful Guide",
+		"tr_explain": "Grind Rosa Crane to +10"
 	},
 	{
 		"assign": "203100110",
 		"jp_text": "空色の旅人",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Sky-Blue Traveller",
+		"tr_explain": "Grind Blue Crane to +10"
 	},
 	{
 		"assign": "203100200",
 		"jp_text": "実直堅牢なる導具",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Straightforward Guide",
+		"tr_explain": "Grind Hard Quartz to +10"
 	},
 	{
 		"assign": "203100210",
 		"jp_text": "改新せし質実の導具",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Revised Simple Guide",
+		"tr_explain": "Grind Lambda Hard Quartz to +10"
 	},
 	{
 		"assign": "203100300",
 		"jp_text": "遊び心の具現存在",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Embodiment of Playfulness",
+		"tr_explain": "Grind Wonder Collet to +10"
 	},
 	{
 		"assign": "203100310",
 		"jp_text": "遊戯じゃすまない",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Sorry for Playing",
+		"tr_explain": "Grind Bloomy Collet to +10"
 	},
 	{
 		"assign": "203100400",
 		"jp_text": "古典の担い手",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Bearer of the Classics",
+		"tr_explain": "Grind Talis Legacy to +10"
 	},
 	{
 		"assign": "203100500",
 		"jp_text": "奇怪なる祈祷師",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Bizarre Shaman",
+		"tr_explain": "Grind Hitogata to +10"
 	},
 	{
 		"assign": "203100600",
 		"jp_text": "今代の陰陽師",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Modern-Day Onmyouji",
+		"tr_explain": "Grind Onmyou Kikami to +10"
 	},
 	{
 		"assign": "203100700",
@@ -3968,26 +3961,26 @@
 	{
 		"assign": "203100800",
 		"jp_text": "熱砂を超えし導き手",
-		"tr_text": "Пустынный кочевник",
+		"tr_text": "Guide Through Scorching Sands",
 		"tr_explain": "Заточите Metali Solidom на +10"
 	},
 	{
 		"assign": "203100810",
 		"jp_text": "陽炎に揺蕩う導き手",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Guide Through Hazy Heat",
+		"tr_explain": "Grind Metali Ignis to +10"
 	},
 	{
 		"assign": "203100900",
 		"jp_text": "幸福のしるべ",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friend of Happiness",
+		"tr_explain": "Grind Rappy Fan Fan to +10"
 	},
 	{
 		"assign": "203100910",
 		"jp_text": "天幸のしるべ",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Friend of Providence",
+		"tr_explain": "Grind White Rappy Fan to +10"
 	},
 	{
 		"assign": "203100920",
@@ -4004,86 +3997,86 @@
 	{
 		"assign": "203101000",
 		"jp_text": "一球入魂",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "One Ball from the Heart",
+		"tr_explain": "Grind Solid Straight to +10"
 	},
 	{
 		"assign": "203101100",
 		"jp_text": "古式の呪い師",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Ancient Curse",
+		"tr_explain": "Grind Mahu to +10"
 	},
 	{
 		"assign": "203101300",
 		"jp_text": "華美なる踊り子",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Gorgeous Dancer",
+		"tr_explain": "Grind Maisen to +10"
 	},
 	{
 		"assign": "203101400",
 		"jp_text": "機甲素子の操手",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Armored Device Driver",
+		"tr_explain": "Grind Vardha Bit to +10"
 	},
 	{
 		"assign": "203101500",
 		"jp_text": "練り上げられし思念",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Refiner of Thoughts",
+		"tr_explain": "Grind Gadianna to +10"
 	},
 	{
 		"assign": "203101900",
 		"jp_text": "遺されし太古の導具",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Discarded Ancient Tool",
+		"tr_explain": "Grind Liewen Book to +10"
 	},
 	{
 		"assign": "203101920",
 		"jp_text": "遺されし伝承の導具",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Discarded Traditional Tool",
+		"tr_explain": "Grind Ebel Book to +10"
 	},
 	{
 		"assign": "203102100",
 		"jp_text": "大王機甲の操手",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Armored Emperor's Driver",
+		"tr_explain": "Grind King's Bit to +10"
 	},
 	{
 		"assign": "203200000",
 		"jp_text": "遺物の担い手",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Relic Bearer",
+		"tr_explain": "Grind Regalia to +10"
 	},
 	{
 		"assign": "203200100",
 		"jp_text": "強固なる短杖",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Strengthening Wand",
+		"tr_explain": "Grind Cless Digger to +10"
 	},
 	{
 		"assign": "203200200",
 		"jp_text": "愛らしい短杖",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Lovely Wand",
+		"tr_explain": "Grind Carino Light to +10"
 	},
 	{
 		"assign": "203200210",
 		"jp_text": "夢見る者の短杖",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Dreamer's Wand",
+		"tr_explain": "Grind Carino Dessert to +10"
 	},
 	{
 		"assign": "203200300",
 		"jp_text": "剛健なる導士",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Fortified Scholar",
+		"tr_explain": "Grind Hexagraph to +10"
 	},
 	{
 		"assign": "203200310",
 		"jp_text": "改新せし剛健の導具",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Revised Invigorated Scholar",
+		"tr_explain": "Grind Lambda Hexagraph to +10"
 	},
 	{
 		"assign": "203200400",
@@ -4118,56 +4111,56 @@
 	{
 		"assign": "203201000",
 		"jp_text": "導士に金棒",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Scholar's Club",
+		"tr_explain": "Grind Konsaikon to +10"
 	},
 	{
 		"assign": "203201100",
 		"jp_text": "伝承を顕現する者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Manifestor of Ancient Lore",
+		"tr_explain": "Grind Divine Tsukuyomi to +10"
 	},
 	{
 		"assign": "203201200",
 		"jp_text": "清白なる短杖",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Pure White Wand",
+		"tr_explain": "Grind Schmidtore to +10"
 	},
 	{
 		"assign": "203201210",
 		"jp_text": "打ち砕く短杖",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Crushing Wand",
+		"tr_explain": "Grind Komlotore to +10"
 	},
 	{
 		"assign": "203201300",
 		"jp_text": "寒威担う杖",
-		"tr_text": "Тростник холодной манипуляции",
+		"tr_text": "Cold-Carrying Cane",
 		"tr_explain": "Заточите Cornelia на +10"
 	},
 	{
 		"assign": "203201310",
 		"jp_text": "凍れる結晶の短杖",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Frozen Crystal Wand",
+		"tr_explain": "Grind Remilnelia to +10"
 	},
 	{
 		"assign": "203201400",
 		"jp_text": "発振する導杖",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Oscillating Guidestick",
+		"tr_explain": "Grind Guarditorch to +10"
 	},
 	{
 		"assign": "203201900",
 		"jp_text": "禁忌の夢杖",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Forbidden Dream Wand",
+		"tr_explain": "Grind Grim Grin to +10"
 	},
 	{
 		"assign": "203202000",
 		"jp_text": "蒼き龍の使役者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Blue Dragon's Messenger",
+		"tr_explain": "Grind Baridran Wand to +10"
 	},
 	{
 		"assign": "204070000",
@@ -4694,20 +4687,20 @@
 	{
 		"assign": "207001000",
 		"jp_text": "新世強化の道を歩む者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Pioneer of a New Age",
+		"tr_explain": "Grind a New-Type weapon to +30"
 	},
 	{
 		"assign": "207001010",
 		"jp_text": "新世強化の標となる者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Signpost of a New Age",
+		"tr_explain": "Grind a New-Type weapon to +35"
 	},
 	{
 		"assign": "207002000",
 		"jp_text": "新世強化の導き手",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Guide to a New Age",
+		"tr_explain": "Grind 10 New-Type weapons to +35"
 	},
 	{
 		"assign": "207002005",
@@ -4730,20 +4723,20 @@
 	{
 		"assign": "209001000",
 		"jp_text": "真なる力の解放者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Releaser of Hidden Powers",
+		"tr_explain": "Add a Special Ability Factor to an item"
 	},
 	{
 		"assign": "209001001",
 		"jp_text": "真なる力を研ぐ者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Honer of Hidden Powers",
+		"tr_explain": "Add 5 Special Ability Factors to items"
 	},
 	{
 		"assign": "209001002",
 		"jp_text": "真なる力を極めし者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Master of Hidden Powers",
+		"tr_explain": "Add 10 Special Ability Factors to items"
 	},
 	{
 		"assign": "209002001",
@@ -4814,20 +4807,20 @@
 	{
 		"assign": "209002055",
 		"jp_text": "エトワール新世強化の開拓者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Pioneer of Etoile NT Upgrades",
+		"tr_explain": "Grind a Fighter, Techer, or Bouncer\n★13 or higher NT weapon to +35"
 	},
 	{
 		"assign": "209003010",
 		"jp_text": "堅牢なる防具の創造主",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Creator of Robust Armor",
+		"tr_explain": "Grind a ★13 or higher Unit to +10"
 	},
 	{
 		"assign": "209003020",
 		"jp_text": "金城鉄壁",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Impregnable Iron Wall",
+		"tr_explain": "Equip a ★13+ Arm, Leg, and Rear Unit\neach with a grind value of +10"
 	},
 	{
 		"assign": "209100000",
@@ -5030,8 +5023,8 @@
 	{
 		"assign": "300001011",
 		"jp_text": "エトワールの極致を志す者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Seeker of Etoile Perfection",
+		"tr_explain": "Clear Lucotte's \"The Perfect Etoile IV\"\nClient Order"
 	},
 	{
 		"assign": "300100000",
@@ -5084,8 +5077,8 @@
 	{
 		"assign": "300100800",
 		"jp_text": "偶像に見初められし者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "One Who Was Noticed by the Idol",
+		"tr_explain": "Obtain the EP1-9 Matterboard"
 	},
 	{
 		"assign": "300100900",
@@ -5228,7 +5221,7 @@
 	{
 		"assign": "300200700",
 		"jp_text": "壊れた歴史の体験者",
-		"tr_text": "Опыт разрушенной истории",
+		"tr_text": "One Who Experienced History",
 		"tr_explain": "Выполните карту событий\n1 эп. 8 гл. (EP1-8)"
 	},
 	{
@@ -5378,7 +5371,7 @@
 	{
 		"assign": "300300700",
 		"jp_text": "壊れた歴史を憂う者",
-		"tr_text": "Плач разрушивший историю",
+		"tr_text": "One Who Lamented History",
 		"tr_explain": "Завершите карту событий\n1 эп. 8 гл. (EP1-8)"
 	},
 	{
@@ -11432,50 +11425,50 @@
 	{
 		"assign": "800100000",
 		"jp_text": "彫環師見習い",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Ringsmith Apprentice",
+		"tr_explain": "Grind 1 Skill Ring to +5"
 	},
 	{
 		"assign": "800100001",
 		"jp_text": "一級彫環師",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "First-Grade Ringsmith",
+		"tr_explain": "Grind 5 Skill Rings to +5"
 	},
 	{
 		"assign": "800100002",
 		"jp_text": "一流彫環師",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Top-Notch Ringsmith",
+		"tr_explain": "Grind 10 Skill Rings to +5"
 	},
 	{
 		"assign": "800100003",
 		"jp_text": "著名な彫環師",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Renowned Ringsmith",
+		"tr_explain": "Grind 15 Skill Rings to +5"
 	},
 	{
 		"assign": "800100100",
 		"jp_text": "彫環師初段",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Ringsmith, First Class",
+		"tr_explain": "Grind 1 Skill Ring to +10"
 	},
 	{
 		"assign": "800100101",
 		"jp_text": "彫環師二段",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Ringsmith, Second Class",
+		"tr_explain": "Grind 5 Skill Rings to +10"
 	},
 	{
 		"assign": "800100102",
 		"jp_text": "彫環師三段",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Ringsmith, Third Class",
+		"tr_explain": "Grind 10 Skill Rings to +10"
 	},
 	{
 		"assign": "800100103",
 		"jp_text": "彫環師四段",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Ringsmith, Fourth Class",
+		"tr_explain": "Grind 15 Skill Rings to +10"
 	},
 	{
 		"assign": "800100200",
