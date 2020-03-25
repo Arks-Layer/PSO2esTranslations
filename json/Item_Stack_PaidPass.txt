@@ -1479,9 +1479,9 @@
 	{
 		"assign": "3210286",
 		"jp_text": "特殊能力保護（７枠以下）",
-		"tr_text": "",
+		"tr_text": "Ability Protection (7s or lower)",
 		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが７スロット以下<c>",
-		"tr_explain": ""
+		"tr_explain": "Returns the Special Abilities that\nwere lost from synthesis.\n<yellow>Only works on 7 slots or lower.<c>"
 	},
 	{
 		"assign": "3210288",
@@ -1962,9 +1962,9 @@
 	{
 		"assign": "3210395",
 		"jp_text": "Ｓ５追加：活器応変",
-		"tr_text": "",
+		"tr_text": "S5 Add:Vigorous Response",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：活器応変を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Vigorous Response\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210396",
@@ -1997,9 +1997,9 @@
 	{
 		"assign": "3210400",
 		"jp_text": "Ｓ６追加：癒蝕頑強",
-		"tr_text": "",
+		"tr_text": "S6 Add:Ironclad Illness",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：癒蝕頑強を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:Ironclad Illness\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210426",
@@ -2158,9 +2158,9 @@
 	{
 		"assign": "3210482",
 		"jp_text": "Ｓ３追加：強闘の志",
-		"tr_text": "",
+		"tr_text": "S3 Add:Powering Intent",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：強闘の志を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Powering Intent\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210492",
@@ -2305,9 +2305,9 @@
 	{
 		"assign": "3210537",
 		"jp_text": "Ｓ６追加：超限活器",
-		"tr_text": "",
+		"tr_text": "S6 Add:Overlimit",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：超限活器を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:Overlimit\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210538",
@@ -2438,23 +2438,23 @@
 	{
 		"assign": "3210559",
 		"jp_text": "Ｓ４追加：滅域分与",
-		"tr_text": "",
+		"tr_text": "S4 Add: Shared Ruin",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：滅域分与を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Shared Ruin\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210560",
 		"jp_text": "Ｓ５追加：追蝕の縛",
-		"tr_text": "",
+		"tr_text": "S5 Add:Tethered Eclipse",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：追蝕の縛を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Tethered Eclipse\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210562",
 		"jp_text": "Ｓ７追加：法護の与",
-		"tr_text": "",
+		"tr_text": "S7 Add:Sentinel's Gift",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：法護の与を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Sentinel's Gift\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210563",
