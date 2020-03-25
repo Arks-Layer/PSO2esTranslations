@@ -1477,6 +1477,13 @@
 		"tr_explain": "Returns the Special Abilities that\nwere lost from synthesis.\n<yellow>Only works on 6 slots or lower.<c>"
 	},
 	{
+		"assign": "3210286",
+		"jp_text": "特殊能力保護（７枠以下）",
+		"tr_text": "",
+		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが７スロット以下<c>",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210288",
 		"jp_text": "特殊能力（打撃＆ＰＰ/３）",
 		"tr_text": "Add Ability (Strike&PP/3)",
@@ -1946,6 +1953,20 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Anthesis Cultivation\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210394",
+		"jp_text": "Ｓ５追加：瞬術略唱",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：瞬術略唱を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210395",
+		"jp_text": "Ｓ５追加：活器応変",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：活器応変を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210396",
 		"jp_text": "Ｓ６追加：守護の備",
 		"tr_text": "S6 Add:Guardian Armor",
@@ -2413,5 +2434,75 @@
 		"tr_text": "Ability Success Rate +60%",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n成功率を６０％上昇させる。",
 		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 60%"
+	},
+	{
+		"assign": "3210559",
+		"jp_text": "Ｓ４追加：滅域分与",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：滅域分与を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210560",
+		"jp_text": "Ｓ５追加：追蝕の縛",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：追蝕の縛を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210562",
+		"jp_text": "Ｓ７追加：法護の与",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：法護の与を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210563",
+		"jp_text": "Ｓ２追加：六色の志",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：六色の志を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210564",
+		"jp_text": "Ｓ２追加：六色の活与",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：六色の活与を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210565",
+		"jp_text": "Ｓ２追加：月葉影の歌２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：月葉影の歌２を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210566",
+		"jp_text": "Ｓ３追加：花海雪の歌２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：花海雪の歌２を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210567",
+		"jp_text": "Ｓ３追加：六色の縮減",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：六色の縮減を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210568",
+		"jp_text": "Ｓ３追加：六色の輝剰",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：六色の輝剰を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210569",
+		"jp_text": "Ｓ３追加：六色の輝勢",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：六色の輝勢を付与。",
+		"tr_explain": ""
 	}
 ]
