@@ -2955,6 +2955,16 @@
 		"tr_text": "Villiga Zigninde"
 	},
 	{
+		"assign": "CY3Des",
+		"jp_text": "グラーブエクゼクル",
+		"tr_text": ""
+	},
+	{
+		"assign": "CY3DesG",
+		"jp_text": "ギルディナエクゼクル",
+		"tr_text": ""
+	},
+	{
 		"assign": "D2DMag",
 		"jp_text": "エボリオン・ドラゴン",
 		"tr_text": "Evolion Dragon"
@@ -3303,6 +3313,11 @@
 		"assign": "BirdCentaurST0",
 		"jp_text": "ファルザード",
 		"tr_text": "Falzad"
+	},
+	{
+		"assign": "BirdCentaurST1",
+		"jp_text": "ファルザード",
+		"tr_text": ""
 	},
 	{
 		"assign": "BirdCrestW0",
@@ -3680,6 +3695,11 @@
 		"tr_text": "Akhtar"
 	},
 	{
+		"assign": "DpAbyssHumanST1",
+		"jp_text": "アフタル",
+		"tr_text": ""
+	},
+	{
 		"assign": "VehicleEnemyST0",
 		"jp_text": "Ａ．Ｉ．ＳタイプＳ",
 		"tr_text": "A.I.S. Type-S"
@@ -3688,6 +3708,16 @@
 		"assign": "VehicleEnemyST1",
 		"jp_text": "Ａ．Ｉ．ＳタイプＳβ",
 		"tr_text": "A.I.S. Type-S β"
+	},
+	{
+		"assign": "DpFishElderST0",
+		"jp_text": "ダークファルス・ハダージェ",
+		"tr_text": ""
+	},
+	{
+		"assign": "DpFishElderST1",
+		"jp_text": "ダークファルス・ハダージェ",
+		"tr_text": ""
 	},
 	{
 		"assign": "PantherBRareQU0",
@@ -4730,6 +4760,11 @@
 		"tr_text": "Falzad EX"
 	},
 	{
+		"assign": "BirdCentaurST1Ex",
+		"jp_text": "ファルザードＥｘ",
+		"tr_text": ""
+	},
+	{
 		"assign": "BirdCrestEx",
 		"jp_text": "ドリュアーダＥｘ",
 		"tr_text": "Doluahda EX"
@@ -5175,6 +5210,11 @@
 		"tr_text": "Akhtar EX"
 	},
 	{
+		"assign": "DpAbyssHumanST1Ex",
+		"jp_text": "アフタルＥｘ",
+		"tr_text": ""
+	},
+	{
 		"assign": "VehicleEnemyST0Ex",
 		"jp_text": "Ａ．Ｉ．ＳタイプＳαＥｘ",
 		"tr_text": "A.I.S. Type-S α EX"
@@ -5183,6 +5223,16 @@
 		"assign": "VehicleEnemyST1Ex",
 		"jp_text": "Ａ．Ｉ．ＳタイプＳβＥｘ",
 		"tr_text": "A.I.S. Type-S β EX"
+	},
+	{
+		"assign": "DpFishElderST0Ex",
+		"jp_text": "ダークファルス・ハダージェＥｘ",
+		"tr_text": ""
+	},
+	{
+		"assign": "DpFishElderST1Ex",
+		"jp_text": "ダークファルス・ハダージェＥｘ",
+		"tr_text": ""
 	},
 	{
 		"assign": "PantherBRareQU0Ex",

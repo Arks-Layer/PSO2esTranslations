@@ -758,14 +758,21 @@
 	{
 		"assign": "130187",
 		"jp_text": "ディアジンラオド",
-		"tr_text": "Dia Jinraodu",
+		"tr_text": "Dia Jinraod",
 		"jp_explain": "臨界寸前まで圧縮したフォトンを\n核に使用した長槍。核から溢れ出す\nフォトンが刀身の硬度を高めている。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "130188",
+		"jp_text": "グラテスジンラオド",
+		"tr_text": "Grates Jinraod",
+		"jp_explain": "臨界寸前まで圧縮したフォトンの\n制御に成功した長槍。内部でフォトンを\n循環させ、刀身の硬度を最大に高めた。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "130189",
 		"jp_text": "ギクスジンラオド",
-		"tr_text": "Gix Jinraodu",
+		"tr_text": "Gix Jinraod",
 		"jp_explain": "臨界寸前まで圧縮したフォトンと\n同調した長槍。装者の精神とリンクし\n覚悟に応じるように刃は硬度を高める。",
 		"tr_explain": ""
 	},
@@ -872,6 +879,13 @@
 		"jp_text": "サグーズミラージュ",
 		"tr_text": "Saguz Mirage",
 		"jp_explain": "新開発のフォトンリング機構を搭載した\n長槍。部品が共鳴し発生するリングが\n装者の察知能力を高め戦闘を補助する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "130222",
+		"jp_text": "サグーズノヴァ",
+		"tr_text": "Saguz Nova",
+		"jp_explain": "新開発のフォトンリング機構を搭載した\n長槍。リングから発生する波動が\n極限まで刃の貫通力を高める。",
 		"tr_explain": ""
 	},
 	{
@@ -1232,6 +1246,20 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "130312",
+		"jp_text": "ラウスティル",
+		"tr_text": "Rau Stil",
+		"jp_explain": "武器としての機能のみを追求した長槍。\n形はシンプルながら洗練されており\n高性能で貫通力に優れる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "130313",
+		"jp_text": "ラウピュラス",
+		"tr_text": "Rau Puras",
+		"jp_explain": "武器としての機能のみを追求した長槍。\n一切の華美さを捨て去った姿で\n真っ直ぐに標的を貫く。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "130314",
 		"jp_text": "ブルージーレクイエム-NT",
 		"tr_text": "Bluesy Requiem-NT",
@@ -1383,6 +1411,13 @@
 		"jp_text": "ランデドルダスク",
 		"tr_text": "Landedor Dusk",
 		"jp_explain": "可燃性フォトンの実証実験のため\n開発された長槍。細身で鋭い\nフォルムがスタイリッシュ。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "130381",
+		"jp_text": "メガリスグレイヴ",
+		"tr_text": "Megalis Glaive",
+		"jp_explain": "巨大な体躯でそびえ立つ大型閃機種の\n武器を模した長槍。残骸より採取した\n因子で能力を増幅し、敵を無情に砕く。",
 		"tr_explain": ""
 	}
 ]
