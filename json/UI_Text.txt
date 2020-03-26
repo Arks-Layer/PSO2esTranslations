@@ -6561,8 +6561,8 @@
 	},
 	{
 		"assign": "scratch_bonus_menu_complete",
-		"jp_text": "この回数ボーナスは獲得済みです。",
-		"tr_text": "Scratch Complete."
+		"jp_text": "すべてのボーナスを獲得済みです。",
+		"tr_text": ""
 	},
 	{
 		"assign": "scratch_bonus_menu_ac",
@@ -10108,6 +10108,11 @@
 		"assign": "menu_sub_button_sale_item",
 		"jp_text": "アイテム売却",
 		"tr_text": "Sell Items"
+	},
+	{
+		"assign": "menu_sub_button_sale_auto",
+		"jp_text": "自動売却設定",
+		"tr_text": ""
 	},
 	{
 		"assign": "menu_sub_button_system_site",
@@ -19565,6 +19570,16 @@
 		"tr_text": "Congratulations on clearing Season 3 Ch. 7\nQuest 4-4 \"振られる手\"!\nYou have received the Clear Reward below.\nPlease check your Reception Box."
 	},
 	{
+		"assign": "quest_clear_reward_dialog_title_6274005",
+		"jp_text": "ストーリークエスト Season3　8章4-5",
+		"tr_text": ""
+	},
+	{
+		"assign": "quest_clear_reward_dialog_body_6274005",
+		"jp_text": "Season3　8章4-5「希望　それは、青空の先へ」\nクリアおめでとうございます！\n以下のクリア報酬をプレゼントいたしました。\n受け取りボックスをご確認ください。",
+		"tr_text": ""
+	},
+	{
 		"assign": "recommended_equipment",
 		"jp_text": "おすすめ装備",
 		"tr_text": "Recommended Equipment"
@@ -22622,6 +22637,286 @@
 	{
 		"assign": "conditional_title",
 		"jp_text": "経験値{0}倍！！",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_maintenance_title",
+		"jp_text": "メンテナンス",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_maintenance_pso2_title",
+		"jp_text": "PSO2スクラッチ",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_maintenance_point_scrach_title",
+		"jp_text": "メンテナンス",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_maintenance_es",
+		"jp_text": "スクラッチは\n現在メンテナンス中です。",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_maintenance_pso2",
+		"jp_text": "ＰＳＯ２のスクラッチは\n現在引くことができません。",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_maintenance_point",
+		"jp_text": "ポイントスクラッチは\n現在メンテナンス中です。",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_interlocking_pso2_title",
+		"jp_text": "「PSO2連動機能」について",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_interlocking_pso2",
+		"jp_text": "『ＰＳＯ２』と連動すると\n「ファンタシースターオンライン２」で開催されている\nスクラッチを引くことができるようになります。\n連動は、メニューの「連動」から行うことができます。",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_ticket",
+		"jp_text": "チケットで引く",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_detail",
+		"jp_text": "スクラッチ詳細",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_term_maintenance",
+		"jp_text": "<%month>月<%day>日（<%week>)\n定期メンテナンスまで",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_term_day",
+		"jp_text": "<%month>月<%day>日（<%week>)\n<%hour>時<%minute>分まで",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_term_monday",
+		"jp_text": "月",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_term_tuesday",
+		"jp_text": "火",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_term_wednesday",
+		"jp_text": "水",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_term_thursday",
+		"jp_text": "木",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_term_friday",
+		"jp_text": "金",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_term_saturday",
+		"jp_text": "土",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_term_sunday",
+		"jp_text": "日",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_button_pso2",
+		"jp_text": "PSO2",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_button_es",
+		"jp_text": "es",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_point_text",
+		"jp_text": "「スクラッチポイント」は「ｅｓスクラッチ」を<%AC>で引いた時にもらえます。\n各レアリティのボタンから、ラインナップが確認できます。",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_have_medal",
+		"jp_text": "所持ラッピーメダル <color=#68a0a7>/</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_have_iac",
+		"jp_text": "所持<%AC> <color=#68a0a7>/</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_have_ac",
+		"jp_text": "所持<%AC> <color=#68a0a7>/</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_have_ac_ticket",
+		"jp_text": "所持ＡＣスクラッチ券 <color=#68a0a7>/</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_have_fun",
+		"jp_text": "所持ＦＵＮ <color=#68a0a7>/</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_have_scrach_point",
+		"jp_text": "所持スクラッチポイント <color=#68a0a7>/</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_have_ac_gold_ticket",
+		"jp_text": "所持ＡＣスクラッチゴールド券 <color=#68a0a7>/</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_have_es_ticket",
+		"jp_text": "所持スクラッチチケット <color=#68a0a7>/</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_have_weaponoid_ticket",
+		"jp_text": "所持ウェポノイド確定スクラッチチケット <color=#68a0a7>/</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_featured_count",
+		"jp_text": "<%count>回お得！",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_weaponoid_bonus_count",
+		"jp_text": "あと",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_get_rare_chip",
+		"jp_text": "★<%num>GET！",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_bonus_menu_new_info",
+		"jp_text": "あと<color=#ffff00>{0}回</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_bonus_menu_new_next_bonus",
+		"jp_text": "次のボーナスまで",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_bonus_menu_new_detail",
+		"jp_text": "詳細",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_dialog_rarity_ticket",
+		"jp_text": "レアリティ確定券{0}枚で\n{1}を{2}回引きます。\nよろしいですか？\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_dialog_ac",
+		"jp_text": " <color=yellow>{0}</color><%AC>で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_dialog_fun",
+		"jp_text": " <color=yellow>{0}</color>ＦＵＮで\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_dialog_ac_scratch_ticket",
+		"jp_text": "ＡＣスクラッチ券 <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_dialog_ac_gold_scratch",
+		"jp_text": "ＡＣスクラッチゴールド券 <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_dialog_rappy_medal_scratch",
+		"jp_text": "ラッピーメダル <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_dialog_scratch_ticket",
+		"jp_text": "スクラッチチケット <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_have_ac_gold_ticket",
+		"jp_text": "所持ＡＣスクラッチゴールド券",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_have_rappy_medal",
+		"jp_text": "所持ラッピーメダル",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_have_scratch_es_ticket",
+		"jp_text": "所持スクラッチチケット",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_have_rarity_ticket",
+		"jp_text": "所持 レアリティ確定チケット",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_have_fun",
+		"jp_text": "所持ＦＵＮ",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_have_ac",
+		"jp_text": "所持<%AC>",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_have_iac",
+		"jp_text": "所持<%AC>",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_show_count",
+		"jp_text": "{0}枚 ⇒ {1}枚",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_show_point",
+		"jp_text": "{0} ⇒ {1}",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_have_scratch_ac_ticket",
+		"jp_text": "所持ＡＣスクラッチ券",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_weaponoid_text",
+		"jp_text": "「ｅｓ1スクラッチ」<%AC>11回引き3回ごとに、券を1枚もらえます。\n選択したウェポノイドチップの中から1枚を獲得できます。",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_limited_time",
+		"jp_text": "期間限定",
 		"tr_text": ""
 	}
 ]

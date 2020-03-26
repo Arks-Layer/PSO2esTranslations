@@ -836,8 +836,8 @@
 		"assign": "KatanaPA09",
 		"jp_text": "カザンナデシコ",
 		"tr_text": "Kazan-nadeshiko",
-		"jp_explain": "『抜剣』用のフォトンアーツ。\n精神統一した後、無慈悲の一撃を放つ。\nカタナギア発動中はギアゲージ回復。",
-		"tr_explain": "Katana Photon Art.\nConcentrate, then unleash a ruthless\nstrike. Refills active Katana Gear."
+		"jp_explain": "『抜剣』用のフォトンアーツ。\n精神統一した後、無慈悲の一撃を放つ。\nカタナギア解放中ギア減少速度が低下。",
+		"tr_explain": "Katana Photon Art.\nConcentrate, then unleash a ruthless\nstrike. Reduces Gear drain rate."
 	},
 	{
 		"assign": "KatanaPA10",
@@ -2055,6 +2055,20 @@
 		"jp_text": "プロミネンスアサイル",
 		"tr_text": "",
 		"jp_explain": "『大砲』用の解式ＰＡ。\n空中から一点集中で砲弾を連射し\n最後に威力抜群の爆撃を放つ。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "MachinegunGPA01",
+		"jp_text": "カラミティバレット",
+		"tr_text": "",
+		"jp_explain": "『双機銃』用の解式ＰＡ。\n連射を繰り返し、最後に強力な凝縮弾を\n２発放つ。攻撃間に位置調整可。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "KnuckleGPA01",
+		"jp_text": "フェイタルノックアウト",
+		"tr_text": "",
+		"jp_explain": "『鋼拳』用の解式ＰＡ。カウンター可。\n力を極限までため、強烈なパンチの後\n地が割れるほどの衝撃波を叩き付ける。",
 		"tr_explain": ""
 	}
 ]
