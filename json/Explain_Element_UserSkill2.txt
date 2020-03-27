@@ -122,7 +122,7 @@
 		"assign": "17",
 		"jp_text": "Ｓ５：反撃鋭刃",
 		"tr_text": "",
-		"jp_explain": "カウンター威力が上昇。\nブレイバーでの\nカウンター成功時\nギアが最大まで上昇。\n威力2％上昇。抜剣限定。",
+		"jp_explain": "カウンター威力が上昇。\nブレイバーでの\nカウンター成功時\nギアが上昇。\n威力2％上昇。抜剣限定。",
 		"tr_explain": ""
 	},
 	{
@@ -197,16 +197,16 @@
 	},
 	{
 		"assign": "28",
-		"jp_text": "-",
+		"jp_text": "Ｓ５：瞬術略唱",
 		"tr_text": "",
-		"jp_explain": "-",
+		"jp_explain": "テクニックの与ダメージ\nが常時40％減少するが\nテクニック使用後に\n同属性テクニックＪＡで\nチャージ時間大幅短縮。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "29",
-		"jp_text": "-",
+		"jp_text": "Ｓ５：活器応変",
 		"tr_text": "",
-		"jp_explain": "-",
+		"jp_explain": "最大ＨＰ1000から\n追加効果が発動し\nＨＰが500増加ごとに\n追加効果が発生する。\n追加効果最大値3000",
 		"tr_explain": ""
 	},
 	{
@@ -302,65 +302,65 @@
 	},
 	{
 		"assign": "43",
-		"jp_text": "-",
+		"jp_text": "Ｓ４：滅域分与",
 		"tr_text": "",
-		"jp_explain": "-",
+		"jp_explain": "一定の範囲内で\nエネミーが死亡した時\nＰＴメンバーと自身の\nＨＰとＰＰを回復。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "44",
-		"jp_text": "-",
+		"jp_text": "Ｓ５：追蝕の縛",
 		"tr_text": "",
-		"jp_explain": "-",
+		"jp_explain": "状態異常中の\nエネミーに対して\n威力が3％上昇し\n40%の確率で\nバインド状態にする。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "45",
-		"jp_text": "-",
+		"jp_text": "Ｓ２：六色の志",
 		"tr_text": "",
-		"jp_explain": "-",
+		"jp_explain": "花・海・葉・月・雪・影の\nいずれかが発動中\n与ダメージが5％上昇。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "46",
-		"jp_text": "-",
+		"jp_text": "Ｓ２：六色の活与",
 		"tr_text": "",
-		"jp_explain": "-",
+		"jp_explain": "花・海・葉・月・雪・影の\nいずれかが発動中\n毎秒ＨＰが3％回復。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "47",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
+		"jp_text": "Ｓ２：月葉影の歌２",
+		"tr_text": "S2:Umbrageous Melody 2",
+		"jp_explain": "月ノ黄閃、葉ノ緑閃または\n影ノ黒閃が発動中、毎秒\n威力が上昇、最大で7％。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "48",
-		"jp_text": "-",
+		"jp_text": "Ｓ３：花海雪の歌２",
 		"tr_text": "",
-		"jp_explain": "-",
+		"jp_explain": "花ノ赤閃、海ノ青閃または\n雪ノ白閃が発動中、毎秒\n威力が上昇、最大で7％。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "49",
-		"jp_text": "-",
+		"jp_text": "Ｓ３：六色の縮減",
 		"tr_text": "",
-		"jp_explain": "-",
+		"jp_explain": "花・海・葉・月・雪・影の\nいずれかが発動中\nＰＰ消費量を20％軽減。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "50",
-		"jp_text": "-",
+		"jp_text": "Ｓ３：六色の輝剰",
 		"tr_text": "",
-		"jp_explain": "-",
+		"jp_explain": "花・海・葉・月・雪・影の\nいずれかが発動中\n攻撃時ＰＰ回復量が\n45％上昇する。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "51",
-		"jp_text": "-",
+		"jp_text": "Ｓ３：六色の輝勢",
 		"tr_text": "",
-		"jp_explain": "-",
+		"jp_explain": "花・海・葉・月・雪・影の\nいずれかが発動中\nＰＰ自然回復量40％上昇。",
 		"tr_explain": ""
 	},
 	{
@@ -2031,10 +2031,10 @@
 	},
 	{
 		"assign": "290",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ７：法護の与",
+		"tr_text": "S7:Sentinel's Gift",
+		"jp_explain": "テックＣパリング成功時\nＨＰを5％回復し\nＰＰを10回復。",
+		"tr_explain": "Upon a successful Tech\nCharge Parry, recover 5%\nHP and 10 PP."
 	},
 	{
 		"assign": "291",

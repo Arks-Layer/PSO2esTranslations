@@ -163,7 +163,7 @@
 	{
 		"assign": "35025",
 		"jp_text": "セン・タク・キー",
-		"tr_text": "Sen Taku Ki",
+		"tr_text": "",
 		"jp_explain": "マイルームに設置可能な洗濯機。\nすでに廃れた機器だが、こちらのほうが\n綺麗になると使用を続ける人もいる。",
 		"tr_explain": "A washing machine for My Room.\nAn obsolete home appliance, but\nsome people still use it for washing."
 	},
@@ -6645,7 +6645,7 @@
 	{
 		"assign": "3501046",
 		"jp_text": "アークスフェスマット",
-		"tr_text": "ARCS Festival Mat",
+		"tr_text": "ARKS Festival Mat",
 		"jp_explain": "マイルームの床に敷くためのマット。\n美麗なイラストがプリントされており\n踏むに踏めない一品。",
 		"tr_explain": ""
 	},
@@ -6862,7 +6862,7 @@
 	{
 		"assign": "3501077",
 		"jp_text": "電子ドラムセット",
-		"tr_text": "",
+		"tr_text": "Electronic Drum Set",
 		"jp_explain": "マイルームに設置可能な打楽器。\n最新の電子ドラムセット。\n演奏もできる。",
 		"tr_explain": ""
 	},
@@ -7184,7 +7184,7 @@
 	{
 		"assign": "3501123",
 		"jp_text": "ソージ用具",
-		"tr_text": "Cleaning Tools",
+		"tr_text": "Cleaning Equipment",
 		"jp_explain": "マイルームに設置可能なオブジェクト。\n掃除用具が一式揃ったロッカー。\n清掃の時間には、大活躍。",
 		"tr_explain": ""
 	},
@@ -8724,7 +8724,7 @@
 	{
 		"assign": "3501373",
 		"jp_text": "パートナーフトン",
-		"tr_text": "Partner Futon",
+		"tr_text": "",
 		"jp_explain": "マイルームに設置可能なオブジェクト。\nサポートパートナーを召喚し\nさまざまな指示を出すことができる。",
 		"tr_explain": ""
 	},
@@ -9277,7 +9277,7 @@
 	{
 		"assign": "3501457",
 		"jp_text": "５周年イラストマット",
-		"tr_text": "",
+		"tr_text": "5th Anniversary Illust. Mat",
 		"jp_explain": "マイルームの床に敷くためのマット。\n美麗なイラストがプリントされており\n踏むに踏めない一品。",
 		"tr_explain": ""
 	},
@@ -10012,7 +10012,7 @@
 	{
 		"assign": "3501605",
 		"jp_text": "ｒｔｆぎゅｈｋｌマット",
-		"tr_text": "",
+		"tr_text": "rtfgyuhkl Mat",
 		"jp_explain": "マイルームの床に敷くためのマット。\nｒｔｆぎゅｈｋｌのマット。みんなと\n自由気ままにアークスをしている。",
 		"tr_explain": ""
 	},
@@ -10264,7 +10264,7 @@
 	{
 		"assign": "3501645",
 		"jp_text": "アドベントカレンダー",
-		"tr_text": "",
+		"tr_text": "Advent Calendar",
 		"jp_explain": "マイルームに設置可能な装飾品。\nお菓子の小箱を毎日ひとつずつ開けて\nクリスマス当日を心待ちにするもの。",
 		"tr_explain": ""
 	},
@@ -10278,14 +10278,14 @@
 	{
 		"assign": "3501648",
 		"jp_text": "ファーストバーガー",
-		"tr_text": "",
+		"tr_text": "Fast Food Burger",
 		"jp_explain": "マイルームに設置可能な食べ物。\nハンバーガーを食す戦略は数多にあるが\n中身を飛び出させない調整が肝要だ。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501651",
 		"jp_text": "壁掛けワインラック",
-		"tr_text": "",
+		"tr_text": "Wall-Mounted Wine Rack",
 		"jp_explain": "マイルームに設置可能なワインラック。\nオシャレなワインが収納されている。\n飲みすぎにはご注意。",
 		"tr_explain": ""
 	},
@@ -11335,28 +11335,42 @@
 	{
 		"assign": "3501802",
 		"jp_text": "ＥＰオラクル４巻ポスター",
-		"tr_text": "",
+		"tr_text": "EP Oracle Vol.4 Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nファンタシースターオンライン２\nエピソード・オラクルのポスター。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501803",
 		"jp_text": "ＥＰオラクル５巻ポスター",
-		"tr_text": "",
+		"tr_text": "EP Oracle Vol.5 Poster",
+		"jp_explain": "マイルームの壁に設置する装飾品。\nファンタシースターオンライン２\nエピソード・オラクルのポスター。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501804",
+		"jp_text": "ＥＰオラクル６巻ポスター",
+		"tr_text": "EP Oracle Vol.6 Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nファンタシースターオンライン２\nエピソード・オラクルのポスター。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501805",
 		"jp_text": "ＣＤパッケージマット１７",
-		"tr_text": "",
+		"tr_text": "CD Package Mat 17",
+		"jp_explain": "マイルームの床に敷くためのマット。\n美麗なイラストがプリントされており\n踏むに踏めない一品。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501806",
+		"jp_text": "ＣＤパッケージマット１９",
+		"tr_text": "CD Package Mat 19",
 		"jp_explain": "マイルームの床に敷くためのマット。\n美麗なイラストがプリントされており\n踏むに踏めない一品。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501807",
 		"jp_text": "ＣＤパッケージマット１８",
-		"tr_text": "",
+		"tr_text": "CD Package Mat 18",
 		"jp_explain": "マイルームの床に敷くためのマット。\n美麗なイラストがプリントされており\n踏むに踏めない一品。",
 		"tr_explain": ""
 	},
@@ -11484,6 +11498,97 @@
 		"jp_text": "ＥＰオラクルマットＤ",
 		"tr_text": "EP Oracle Mat D",
 		"jp_explain": "マイルームの床に敷くためのマット。\nＥＰオラクルのウルクが\n描かれた大判ビジュアルマット。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501834",
+		"jp_text": "ＥＰオラクルマットＥ",
+		"tr_text": "EP Oracle Mat E",
+		"jp_explain": "マイルームの床に敷くためのマット。\nＥＰオラクルのパティとティアが\n描かれた大判ビジュアルマット。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501836",
+		"jp_text": "ＣＤパッケージマット２０",
+		"tr_text": "CD Package Mat 20",
+		"jp_explain": "マイルームの床に敷くためのマット。\n美麗なイラストがプリントされており\n踏むに踏めない一品。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501837",
+		"jp_text": "ＣＤパッケージマット２１",
+		"tr_text": "CD Package Mat 21",
+		"jp_explain": "マイルームの床に敷くためのマット。\n美麗なイラストがプリントされており\n踏むに踏めない一品。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501838",
+		"jp_text": "ぷそ煮コミ壁シール１",
+		"tr_text": "Puso ni Comi Wall Sticker 1",
+		"jp_explain": "マイルームの壁に設置する装飾品。\nぷそ煮コミコミックス１巻の\n表紙ポスター。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501839",
+		"jp_text": "ぷそ煮コミ壁シール２",
+		"tr_text": "Puso ni Comi Wall Sticker 2",
+		"jp_explain": "マイルームの壁に設置する装飾品。\nぷそ煮コミコミックス２巻の\n表紙ポスター。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501840",
+		"jp_text": "ぷそ煮コミ壁シール３",
+		"tr_text": "Puso ni Comi Wall Sticker 3",
+		"jp_explain": "マイルームの壁に設置する装飾品。\nぷそ煮コミコミックス３巻の\n表紙ポスター。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501841",
+		"jp_text": "みたらしポスター",
+		"tr_text": "Mitarashi Poster",
+		"jp_explain": "マイルームの壁に設置する装飾品。\nみたらしの大判ポスター。\n「みたらしさんの今日のコス」",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501842",
+		"jp_text": "みたらし＆ゼクトポスター",
+		"tr_text": "Mitarashi & Zekt Poster",
+		"jp_explain": "マイルームの壁に設置する装飾品。\nみたらしとゼクトの大判ポスター。\n「マジカルロボ★ゼクト」",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501843",
+		"jp_text": "ＥＰ６パッケージポスター",
+		"tr_text": "EP6 Package Poster",
+		"jp_explain": "マイルームの壁に設置する装飾品。\nＥＰ６デラックスパッケージの\nポスター。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501844",
+		"jp_text": "ホルシードポスター",
+		"tr_text": "Khorshid Poster",
+		"jp_explain": "マイルームの壁に設置する装飾品。\nホルシードのグラビアポスター。\n「貴公と共にゆこう。よろしく頼む」",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501845",
+		"jp_text": "ホルシードパネル",
+		"tr_text": "Khorshid Panel",
+		"jp_explain": "マイルームに設置可能な装飾品。\n戦闘形態ホルシードのパネル。\n弱い心に打ち克つ気合を入れてくれる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501847",
+		"jp_text": "「新サクラ大戦」ポスター",
+		"tr_text": "Shin Sakura Wars Poster",
+		"jp_explain": "マイルームの壁に設置する装飾品。\n新サクラ大戦パッケージイラストの\nポスター。「太正桜に、浪漫の嵐」",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3501848",
+		"jp_text": "ゲキゾウくん",
+		"tr_text": "Gekizou-kun",
+		"jp_explain": "マイルームに設置可能な装飾品。\n大帝国劇場のマスコットキャラクター。\n愛くるしい姿が、子供達に大人気。",
 		"tr_explain": ""
 	}
 ]

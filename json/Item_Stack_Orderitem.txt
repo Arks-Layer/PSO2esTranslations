@@ -4935,6 +4935,13 @@
 		"tr_explain": "Beautiful snow crystals with unique\nproperties. PSO2es only item.\nCan be exchanged for prizes."
 	},
 	{
+		"assign": "330781",
+		"jp_text": "チップのかけら２０２０",
+		"tr_text": "Chip Fragment 2020",
+		"jp_explain": "破損したチップのかけら。\nまばゆい金色に輝いている。",
+		"tr_explain": "Fragments of a broken chip.\nThey have a dazzling gold shine."
+	},
+	{
 		"assign": "330798",
 		"jp_text": "時還石クロノス",
 		"tr_text": "Time Reversal Stone Chronos",
@@ -5010,5 +5017,40 @@
 		"tr_text": "Liberate Unlocker",
 		"jp_explain": "ノヴェルシリーズの封鎖機能を解除する\n秘密鍵。暗号化されている機能を復号し\nすべての能力を発揮させることが可能。",
 		"tr_explain": "A crypto-key that releases the limiter\non the Novel series. It can fully\nunlock its potential to its maximum."
+	},
+	{
+		"assign": "330857",
+		"jp_text": "閃機片エメル",
+		"tr_text": "Luminmech Emer Fragment",
+		"jp_explain": "閃機種との交戦データ解析の際に\n生成される小容量データ。\n特定の希少武器を作成する際に必要。",
+		"tr_explain": "Small data fragment generated from\nbattle analysis of Luminmechs. Used\nto create certain rare weapons."
+	},
+	{
+		"assign": "330858",
+		"jp_text": "閃機晶グラーニア",
+		"tr_text": "Luminmech Grainne Crystal",
+		"jp_explain": "閃機種との交戦データ解析の際に\n生成される大容量データ。\n特定の希少武器を作成する際に必要。",
+		"tr_explain": "Large data fragment generated from\nbattle analysis of Luminmechs. Used\nto create certain rare weapons."
+	},
+	{
+		"assign": "330860",
+		"jp_text": "モジュール／ヴァルナ",
+		"tr_text": "Module/Varuna",
+		"jp_explain": "ディバイドクエストで再現された\n義の男神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
+		"tr_explain": "Material obtained from battle with\nthe simulated God of Fidelity.\nRequired for certain rare weapons."
+	},
+	{
+		"assign": "330861",
+		"jp_text": "モジュール／ミトラ",
+		"tr_text": "Module/Mitra",
+		"jp_explain": "ディバイドクエストで再現された\n偽の女神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
+		"tr_explain": "Material obtained from battle with\nthe simulated Goddess of Imitation.\nRequired for certain rare weapons."
+	},
+	{
+		"assign": "330862",
+		"jp_text": "モジュール／エクゼクル",
+		"tr_text": "Module/Execour",
+		"jp_explain": "ディバイドクエストで再現された\n大型閃機種との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
+		"tr_explain": "Material obtained from battle with\nthe simulated giant Luminmech.\nRequired for certain rare weapons."
 	}
 ]
