@@ -66,7 +66,13 @@ character_names = {
     "レイニール＆ガイルズ": "Reinier & Gaels", "ガイルズ&エイトライ&ヴィトル": "Gaels, Eightrei & Vitol",
     "ガイルズ＆レイニール＆トライヴィン": "Gaels, Reinier & Tryvin",
     "ガイルズ＆トライヴィン＆レイニール": "Gaels, Tryvin & Reinier",
-    "ナレーション": "Narration", "？？？": "???",
+    "研究員": "Researcher", "セイガーソード": "Seiga Sword", #Seiga
+    "セイガーシールド": "Seiga Shield", "セイガージャベリン": "Seiga Javelin",
+    "セイガーズ": "Seigas", "セイガーランチャー": "Seiga Launcher",
+    "セイガーアーチャー": "Seiga Archer", "スカルシュクター": "Skull Schecter",
+    "スカルソーサラー": "Skull Sorcerer", "スカルフェジサー": "Skull Feschieser",
+    "男性客": "Male Customer",
+    "ナレーション": "Narration", "？？？": "???" #Generics
     }
 
 for name in file_names:
