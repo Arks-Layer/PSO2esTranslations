@@ -12,7 +12,7 @@ file_names = ["Season1", "Season2", "Season3",
               "Side", "Special"]
 
 character_names = {
-    "セラフィ": "Seraphy", "ジェネ": "Gene",
+    "セラフィ": "Seraphy", "ジェネ": "Gene", #Season 1
     "モア": "More", "ザッカード": "Zackard",
     "ブルーノ": "Bruno", "リリーパ族": "Lillipan",
     "ダンテ": "Dante", "アネット": "Annette",
@@ -20,14 +20,14 @@ character_names = {
     "アネット・モア": "Annette & More", "フェル": "Fel",
     "ロード": "Lord", "アネット・ブルーノ": "Annette & Bruno",
     "青年アークス": "Young ARKS", "女性アークス": "Female ARKS",
-    "泣いてる女性": "Crying Woman", "ヘイド": "Hade",
+    "泣いてる女性": "Crying Woman", "ヘイド": "Hade", #Season 2
     "アナティス": "Anatis", "デュナ": "Duna",
     "若い研究員": "Younger Researcher", "老年の研究員": "Older Researcher",
     "シュトラ": "Stra", "カラミティ": "Calamity",
     "クシャネビュラ": "Kuscha Nebula", "次席と呼ばれた女性": "His \"Lovely Assistant\"",
     "クーナ": "Quna", "アネット&ブルーノ": "Annette & Bruno",
     "ヘイズ・ドラール": "Haze Draal", "研究者": "Researcher",
-    "リーン": "Lien", "アフタル": "Akhtar",
+    "リーン": "Lien", "アフタル": "Akhtar", #Season 3
     "ホルシード": "Khorshid", "ソルーシュ": "Soroush",
     "ファルザード": "Falzad", "スレイマン": "Suleiman",
     "ナスリーン": "Nasreen", "アフタル&ホルシード": "Akhtar & Khorshid",
@@ -40,7 +40,7 @@ character_names = {
     "闇の残滓": "Dark Remnant", "アークス警備員　Ａ": "ARKS Guard A",
     "アークス警備員　Ｂ": "ARKS Guard B", "アフタル＆ホルシード": "Akhtar & Khorshid",
     "　【残影】　": " [Haddaj] ", "【残影】": "[Haddaj]",
-    "女性チップ研究員": "Female Chip Researcher", "アーレスカイゼル": "Ares Kaiser",
+    "女性チップ研究員": "Female Chip Researcher", "アーレスカイゼル": "Ares Kaiser", #Ares
     "アーレスパルチザン": "Ares Partizan", "アーレスランス": "Ares Lance",
     "アーレスソード": "Ares Sword", "チップ研究所　管理官": "Chip Laboratory Officer",
     "アーレスリュウガ": "Ares Ryuuga", "アーレスブーツ": "Ares Boots",
@@ -50,7 +50,7 @@ character_names = {
     "パルチザン&ソード": "Partizan & Sword", "ブーツ&バスター": "Boots & Buster",
     "アーレスライフル": "Ares Rifle", "バスター＆ソード": "Buster & Sword",
     "ランス＆パルチザン＆ブーツ": "Lance, Partizan & Boots", "ライフル＆リュウガ": "Rifle & Ryuuga",
-    "ネメシスシューズ": "Nemesis Shoes", "ネメシスデュアル": "Nemesis Dual",
+    "ネメシスシューズ": "Nemesis Shoes", "ネメシスデュアル": "Nemesis Dual", #Nemesis
     "ネメシスクーガ": "Nemesis Kuuga", "ネメシスキャリバー": "Nemesis Calibur",
     "ネメシスセイバー": "Nemesis Saber", "ネメシスチェイン": "Nemesis Chain",
     "アークスの男性": "Male ARKS", "スレイヴフェザー": "Slave Feather",
@@ -58,7 +58,7 @@ character_names = {
     "スレイヴクーガ": "Slave Kuuga", "スレイヴセイバー": "Slave Saber",
     "研究所職員A": "Laboratory Staff Member A", "研究所職員B": "Laboratory Staff Member B",
     "研究職員C": "Laboratory Staff Member C",
-    "レイニールオービット": "Reinier Orbit", "フロティアオービット": "Flotia Orbit",
+    "レイニールオービット": "Reinier Orbit", "フロティアオービット": "Flotia Orbit", #Orbit
     "ガイルズオービット": "Gaels Orbit", "カブラカン": "Cabracan",
     "トライヴィンオービット": "Tryvin Orbit", "エイトライオービット": "Eightrei Orbit",
     "トライヴィン＆エイトライ": "Tryvin & Eightrei", "ヴィトルオービット": "Vitol Orbit",
