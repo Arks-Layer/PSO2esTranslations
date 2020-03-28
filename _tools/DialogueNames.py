@@ -20,6 +20,13 @@ character_names = {
     "アネット・モア": "Annette & More", "フェル": "Fel",
     "ロード": "Lord", "アネット・ブルーノ": "Annette & Bruno",
     "青年アークス": "Young ARKS", "女性アークス": "Female ARKS",
+    "泣いてる女性": "Crying Woman", "ヘイド": "Hade",
+    "アナティス": "Anatis", "デュナ": "Duna",
+    "若い研究員": "Younger Researcher", "老年の研究員": "Older Researcher",
+    "シュトラ": "Stra", "カラミティ": "Calamity",
+    "クシャネビュラ": "Kuscha Nebula", "次席と呼ばれた女性": "His \"Lovely Assistant\"",
+    "クーナ": "Quna", "アネット&ブルーノ": "Annette & Bruno",
+    "ヘイズ・ドラール": "Haze Draal", "研究者": "Researcher",
     "": "", "？？？": "???",
     }
 
