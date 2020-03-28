@@ -57,7 +57,15 @@ character_names = {
     "スレイヴバレット": "Slave Bullet", "スレイヴキャノン": "Slave Cannon",
     "スレイヴクーガ": "Slave Kuuga", "スレイヴセイバー": "Slave Saber",
     "研究所職員A": "Laboratory Staff Member A", "研究所職員B": "Laboratory Staff Member B",
-    "研究職員C": "Laboratory Staff Member C", "": "",
+    "研究職員C": "Laboratory Staff Member C",
+    "レイニールオービット": "Reinier Orbit", "フロティアオービット": "Flotia Orbit",
+    "ガイルズオービット": "Gaels Orbit", "カブラカン": "Cabracan",
+    "トライヴィンオービット": "Tryvin Orbit", "エイトライオービット": "Eightrei Orbit",
+    "トライヴィン＆エイトライ": "Tryvin & Eightrei", "ヴィトルオービット": "Vitol Orbit",
+    "トライヴィン＆エイトライ＆ヴィトル": "Tryvin, Eightrei & Vitol",
+    "レイニール＆ガイルズ": "Reinier & Gaels", "ガイルズ&エイトライ&ヴィトル": "Gaels, Eightrei & Vitol",
+    "ガイルズ＆レイニール＆トライヴィン": "Gaels, Reinier & Tryvin",
+    "ガイルズ＆トライヴィン＆レイニール": "Gaels, Tryvin & Reinier",
     "ナレーション": "Narration", "？？？": "???",
     }
 
