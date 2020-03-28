@@ -12,6 +12,14 @@ file_names = ["Season1", "Season2", "Season3",
               "Side", "Special"]
 
 character_names = {
+    "セラフィ": "Seraphy", "ジェネ": "Gene",
+    "モア": "More", "ザッカード": "Zackard",
+    "ブルーノ": "Bruno", "リリーパ族": "Lillipan",
+    "ダンテ": "Dante", "アネット": "Annette",
+    "レヴィ": "Levi", "ジェネ・モア": "Gene & More",
+    "アネット・モア": "Annette & More", "フェル": "Fel",
+    "ロード": "Lord", "アネット・ブルーノ": "Annette & Bruno",
+    "青年アークス": "Young ARKS", "女性アークス": "Female ARKS",
     "": "", "？？？": "???",
     }
 
