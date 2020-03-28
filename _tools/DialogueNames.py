@@ -198,6 +198,16 @@ character_names = {
     "アフタル＆ジェネ": "Akhtar & Gene", "スウィートキャンディ": "Sweet Candy",
     "たまたま近くにいた男性アークス": "Passerby ARKS",
     "もっとたまたま近くにいた女性アークス": "Passing Female ARKS",
+    "水着三人娘": "Annette, Gene and Bluesy", "カラミテイ": "Calamity", #Seasonal scenes
+    "ジェネ＆アネット＆シューティングドライブ": "Gene, Annette and Shooting Drive",
+    "ヴェルドバズ": "Vert Buzz", "アフタル＆ジェネ＆アネット": "Akhtar, Gene & Annette",
+    "Tヤスミノコフ２０００Ｈ": "Twin Yasminkov 2000H", "サンタソ・レー": "Santa Sleigh",
+    "サンタ包囲網作戦メンバー": "Operation: Catch Santa Members", "サンタクロース": "Santa Claus",
+    "神杖ツクヨミ": "Divine Tsukuyomi", "アリスティン": "Aristin",
+    "禍杖ノチウハウ": "Evil Nochiuhau", "ドリームマスター": "Dream Master",
+    "華天狼": "Katen Rou", "カザミノタチ": "Kazami-no-tachi",
+    "グランディア": "Grandia", "シェルオプス": "Shell Opus",
+    "ジェネ＆仲間たち": "Gene & Friends",
     "ナレーション": "Narration", "？？？": "???" #Generics
     }
 
