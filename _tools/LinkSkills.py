@@ -139,8 +139,13 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
     "Rush Arts Damage Up":      lambda x:   x.replace("ラッシュアーツのダメージ量を ",
                                                       "Boosts Rush Arts damage by ")
                                              .replace("％ 増加する。",
-                                                      "%."), 
-#    "Shield":                   lambda 
+                                                      "%."),
+    "Shield":                   lambda x:   x.replace("ＨＰの最大値の ",
+                                                      "Grants you a shield that prevents damage up to\\n")
+                                             .replace("％ 分のダメージを\\n防ぐ効果をＨＰに上乗せする。\\n"
+                                                      "さらにアビリティレベルに応じて、上乗せする値が増える。",
+                                                      "% of your maximum HP + 1% x this chip's\\n"
+                                                      "ability level."), 
     }
 
 unknowns = []
