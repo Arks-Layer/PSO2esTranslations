@@ -3,7 +3,6 @@
 import codecs
 import json
 import os
-import regex
 import shutil
 
 json_loc = os.path.join("..", "json")
