@@ -36,7 +36,7 @@ skill_names = {
     "属性値上限アップ": "Maximum Element Up",
     "技・法終了時パラメータＵＰ": "Parameters Up After PA/Tech",
     "プレイヤーパラメータ加算": "Player Parameter Increase",
-    "プレイヤーパラメータ増加": "Player Parameters Up",
+    "プレイヤーパラメータ増加": "Player Parameter Boost",
     "ラッシュアーツダメージアップ": "Rush Arts Damage Up",
     "シールド": "Shield"
     }
@@ -128,14 +128,14 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                                           "% for 10 seconds when\\n"
                                                           "the Just Attack ring appears after\\n"
                                                           "using the linked PA/Tech."),
+    "Player Parameter Boost":       lambda x:   x.replace("プレイヤーの 攻撃力全般 を ",
+                                                          "Boosts player ATK by ")
+                                                 .replace("％ 増加する。",
+                                                          "%."),
     "Player Parameter Increase":    lambda x:   x.replace("プレイヤーの HP を ",
                                                           "Increases player HP by ")
                                                  .replace(" 上昇する。\\nさらにアビリティレベルに応じて、上昇量が増える。",
                                                           " + 10 x this chip's\\nability level."),
-    "Player Parameters Up":       lambda x:   x.replace("プレイヤーの 攻撃力全般 を ",
-                                                          "Boosts player ATK by ")
-                                                 .replace("％ 増加する。",
-                                                          "%."),
     "Rush Arts Damage Up":          lambda x:   x.replace("ラッシュアーツのダメージ量を ",
                                                           "Boosts Rush Arts damage by ")
                                                  .replace("％ 増加する。",
