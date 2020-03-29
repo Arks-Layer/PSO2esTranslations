@@ -41,6 +41,13 @@ skill_names = {
     "シールド": "Shield"
     }
 
+skill_effects = {
+    "Action CP Recovery": lambda x: x.replace("スライド操作時 に\\nＣＰが ", "Slide Actions have a chance to recover ").
+                                          replace(" 回復する。(発動確率： 小 )", " CP.\\n(Activation rate: Low)"),
+    "Action HP Recovery": lambda x: x.replace("スライド操作時 に\\nＨＰが ", "Slide Actions have a chance to recover ").
+                                          replace("％ 回復する。(発動確率： 小 )", "% HP.\\n(Activation rate: Low)"),
+    }
+
 unknowns = []
 
 for skill in skills:
@@ -51,7 +58,14 @@ for skill in skills:
             if skill["jp_explainShort"] not in unknowns:
                 print("Unknown short description in {0}: {1}".format(skills_file_name, skill["jp_explainShort"]))
                 unknowns.append(skill["jp_explainShort"])
-        
+    
+    if skill["jp_explainLong"] != "" and skill["tr_explainLong"] == "":
+        skill_text = skill["jp_explainLong"]
+
+        if skill["tr_explainShort"] in skill_effects:
+            skill_text = skill_effects[skill["tr_explainShort"]](skill_text)
+            skill["tr_explainLong"] = skill_text
+
 skills_file = codecs.open(os.path.join(json_loc, skills_file_name),
                          mode = 'w', encoding = 'utf-8')
 json.dump(skills, skills_file, ensure_ascii=False, indent="\t", sort_keys=False)
