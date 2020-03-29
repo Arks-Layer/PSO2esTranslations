@@ -105,7 +105,13 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                              .replace("％ 回復する。\\nアビリティレベルに応じて回復するタイミングが早くなる。",
                                                       "% of max HP at regular intervals.\\n"
                                                       "Recovery speed increases based on this chip's\\nability level."),
-#    "Knockdown/Flinch Immune":  lambda 
+    "Knockdown/Flinch Immune":  lambda x:   x.replace("装備した必殺技・法術発動時に、一定時間\\n"
+                                                      "ダウン・のけぞり無効となる効果を付与する。\\n"
+                                                      "（必殺技・法術終了時に効果も終了する）",
+                                                      "Makes you immune to knockdown and\\n"
+                                                      "flinching while you perform the linked\\n"
+                                                      "PA/Technique. (Effect ends when the\\n"
+                                                      "PA/Technique does.)") 
 #    "Maximum Element Up":       lambda 
 #    "PA/Tech JA Parameters Up": lambda 
 #    "Player Parameter Increase":lambda 
