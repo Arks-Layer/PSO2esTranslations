@@ -128,7 +128,10 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                                       "% for 10 seconds when\\n"
                                                       "the Just Attack ring appears after\\n"
                                                       "using the linked PA/Tech."), 
-#    "Player Parameter Increase":lambda 
+    "Player Parameter Increase":lambda x:   x.replace("プレイヤーの HP を ",
+                                                      "Increases player HP by ")
+                                             .replace(" 上昇する。\\nさらにアビリティレベルに応じて、上昇量が増える。",
+                                                      " + 10 x this chip's\\nability level."), 
 #    "Player Parameters Up":     lambda 
 #    "Rush Arts Damage Up":      lambda 
 #    "Shield":                   lambda 
