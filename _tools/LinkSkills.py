@@ -34,7 +34,7 @@ skill_names = {
     "ＨＰ自動回復": "HP Regeneration",
     "ダウン・のけぞり無効付与": "Knockdown/Flinch Immune",
     "属性値上限アップ": "Maximum Element Up",
-    "技・法終了時パラメータＵＰ": "PA/Tech JA Parameters Up",
+    "技・法終了時パラメータＵＰ": "Parameters Up After PA/Tech",
     "プレイヤーパラメータ加算": "Player Parameter Increase",
     "プレイヤーパラメータ増加": "Player Parameters Up",
     "ラッシュアーツダメージアップ": "Rush Arts Damage Up",
@@ -117,7 +117,7 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                                       " by ")
                                              .replace(" 上昇する。",
                                                       "."),
-    "PA/Tech JA Parameters Up": lambda x:   x.replace("装備先のチップ発動後\\n"
+    "Parameters Up After PA/Tech": lambda x:   x.replace("装備先のチップ発動後\\n"
                                                       "ジャストアタック可能なタイミングから\\n一定時間、 ",
                                                       "Boosts ")
                                              .replace("攻撃力全般 を ",
