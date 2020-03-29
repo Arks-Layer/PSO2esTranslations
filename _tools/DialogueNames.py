@@ -213,7 +213,6 @@ character_names = {
 
 for name in file_names:
     items_file_name = name + "_Text" + ".txt"
-    item_type = name[1]
     
     try:
         items_file = codecs.open(os.path.join(json_loc, items_file_name),
