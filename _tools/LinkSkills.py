@@ -67,7 +67,7 @@ for skill in skills:
             skill["tr_explainLong"] = skill_text
 
 skills_file = codecs.open(os.path.join(json_loc, skills_file_name),
-                         mode = 'w', encoding = 'utf-8')
+                          mode = 'w', encoding = 'utf-8')
 json.dump(skills, skills_file, ensure_ascii=False, indent="\t", sort_keys=False)
 skills_file.write("\n")
 skills_file.close()
