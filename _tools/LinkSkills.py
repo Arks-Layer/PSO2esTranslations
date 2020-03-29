@@ -42,37 +42,37 @@ skill_names = {
     }
 
 skill_effects = {
-    "Action CP Recovery": lambda x: x.replace("スライド操作時 に\\nＣＰが ",
-                                              "Slide Actions have a chance to recover ")
-                                     .replace(" 回復する。(発動確率： 小 )",
-                                              " CP.\\n(Activation rate: Low)"),
-    "Action HP Recovery": lambda x: x.replace("スライド操作時 に\\nＨＰが ",
-                                              "Slide Actions have a chance to recover ")
-                                     .replace("％ 回復する。(発動確率： 小 )",
-                                              "% HP.\\n(Activation rate: Low)"),
-    "Activation Rate Up": lambda x: x.replace("装備したサポートチップの発動率が ",
-                                              "Increases linked Support Chip's\\nactivation rate by ")
-                                     .replace("％ 上昇する。",
-                                              "%."),
-    "Additional Damage": lambda x: x.replace("装備した必殺技・法術がヒットした時に\\n追加で ",
-                                             "Deals an additional ")
-                                    .replace("％ のダメージを与える。",
-                                             "% damage when\\nhitting with the linked PA/Tech.\\n"
-                                             "<color=yellow>[Chase]</color>"),
-    "Chip Parameter Boost": lambda x: x.replace("装備したチップの ",
-                                              "Boosts linked chip's ")
-                                       .replace(" を ",
-                                                " by ")
-                                       .replace("％",
-                                                "%")
-                                       .replace(" 増加する。",
-                                                ".")
-                                       .replace("\\n",
-                                                "\\nand boosts its "),
-    "CP Consumption Down": lambda x: x.replace("装備したアクティブチップの消費ＣＰが ",
-                                               "Reduces the CP consumption of a linked\\nActive Chip by ")
-                                      .replace("％ 減少する。",
-                                               "%."),
+    "Action CP Recovery":   lambda x:   x.replace("スライド操作時 に\\nＣＰが ",
+                                                  "Slide Actions have a chance to recover ")
+                                         .replace(" 回復する。(発動確率： 小 )",
+                                                  " CP.\\n(Activation rate: Low)"),
+    "Action HP Recovery":   lambda x:   x.replace("スライド操作時 に\\nＨＰが ",
+                                                  "Slide Actions have a chance to recover ")
+                                         .replace("％ 回復する。(発動確率： 小 )",
+                                                  "% HP.\\n(Activation rate: Low)"),
+    "Activation Rate Up":   lambda x:   x.replace("装備したサポートチップの発動率が ",
+                                                  "Increases linked Support Chip's\\nactivation rate by ")
+                                         .replace("％ 上昇する。",
+                                                  "%."),
+    "Additional Damage":    lambda x:   x.replace("装備した必殺技・法術がヒットした時に\\n追加で ",
+                                                  "Deals an additional ")
+                                         .replace("％ のダメージを与える。",
+                                                  "% damage when\\nhitting with the linked PA/Tech.\\n"
+                                                  "<color=yellow>[Chase]</color>"),
+    "Chip Parameter Boost": lambda x:   x.replace("装備したチップの ",
+                                                  "Boosts linked chip's ")
+                                         .replace(" を ",
+                                                  " by ")
+                                         .replace("％",
+                                                  "%")
+                                         .replace(" 増加する。",
+                                                  ".")
+                                         .replace("\\n",
+                                                  "\\nand boosts its "),
+    "CP Consumption Down":  lambda x:   x.replace("装備したアクティブチップの消費ＣＰが ",
+                                                  "Reduces the CP consumption of a linked\\nActive Chip by ")
+                                         .replace("％ 減少する。",
+                                                  "%."),
     }
 
 unknowns = []
