@@ -96,7 +96,10 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                          .replace("％ 増加する。",
                                                   "%\\nagainst enemies weak to it.\\n"
                                                   "<color=yellow>[S-Frame]</color>"),
-#    "Extend Effect Time": 
+    "Extend Effect Time":   lambda x:   x.replace("装備したチップのアビリティ効果時間を ",
+                                                  "Extends the linked chip's effect duration\\nby ")
+                                         .replace("秒 延長する。",
+                                                  " seconds."),
 #    "HP Regeneration": 
 #    "Knockdown/Flinch Immune": 
 #    "Maximum Element Up": 
