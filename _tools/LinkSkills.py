@@ -136,7 +136,10 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                                       "Boosts player ATK by ")
                                              .replace("％ 増加する。",
                                                       "%."),
-#    "Rush Arts Damage Up":      lambda 
+    "Rush Arts Damage Up":      lambda x:   x.replace("ラッシュアーツのダメージ量を ",
+                                                      "Boosts Rush Arts damage by ")
+                                             .replace("％ 増加する。",
+                                                      "%."), 
 #    "Shield":                   lambda 
     }
 
