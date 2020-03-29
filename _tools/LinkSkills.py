@@ -7,6 +7,7 @@ import shutil
 
 json_loc = os.path.join("..", "json")
 
+# load JSON from file
 skills_file_name = "ChipExplain_BoostSkillExplain.txt"
 try:
     skills_file = codecs.open(os.path.join(json_loc, skills_file_name),
@@ -40,7 +41,7 @@ skill_names = {
     "シールド": "Shield"
     }
 
-skill_effects = {
+skill_effects = { # dictionary of lambdas because there's no such thing as switch-case in python
     "Action CP Recovery":   lambda x:   x.replace("スライド操作時 に\\nＣＰが ",
                                                   "Slide Actions have a chance to recover ")
                                          .replace(" 回復する。(発動確率： 小 )",
@@ -104,6 +105,7 @@ skill_effects = {
 unknowns = []
 
 for skill in skills:
+    # translate short descriptions
     if skill["jp_explainShort"] != "" and skill["tr_explainShort"] == "":
         if skill["jp_explainShort"] in skill_names:
             skill["tr_explainShort"] = skill_names[skill["jp_explainShort"]]
@@ -112,19 +114,23 @@ for skill in skills:
                 print("Unknown short description in {0}: {1}".format(skills_file_name, skill["jp_explainShort"]))
                 unknowns.append(skill["jp_explainShort"])
     
+    # translate long descriptions
     if skill["jp_explainLong"] != "": #and skill["tr_explainLong"] == "":
         skill_text = skill["jp_explainLong"]
 
         if skill["tr_explainShort"] in skill_effects:
+            # elements are used in multiple skill types
             skill_text = skill_text.replace("炎属性", "Fire Element")
             skill_text = skill_text.replace("氷属性", "Ice Element")
             skill_text = skill_text.replace("雷属性", "Lightning Element")
             skill_text = skill_text.replace("風属性", "Wind Element")
             skill_text = skill_text.replace("光属性", "Light Element")
             skill_text = skill_text.replace("闇属性", "Dark Element")
+            # translation depends on skill type, so:
             skill_text = skill_effects[skill["tr_explainShort"]](skill_text)
             skill["tr_explainLong"] = skill_text
 
+# write JSON back to file
 skills_file = codecs.open(os.path.join(json_loc, skills_file_name),
                           mode = 'w', encoding = 'utf-8')
 json.dump(skills, skills_file, ensure_ascii=False, indent="\t", sort_keys=False)
