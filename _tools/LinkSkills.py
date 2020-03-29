@@ -116,7 +116,7 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                              .replace(" の上限値が ",
                                                       " by ")
                                              .replace(" 上昇する。",
-                                                      "."), 
+                                                      "."),
     "PA/Tech JA Parameters Up": lambda x:   x.replace("装備先のチップ発動後\\n"
                                                       "ジャストアタック可能なタイミングから\\n一定時間、 ",
                                                       "Boosts ")
@@ -127,11 +127,11 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                              .replace("％ 増加する。",
                                                       "% for 10 seconds when\\n"
                                                       "the Just Attack ring appears after\\n"
-                                                      "using the linked PA/Tech."), 
+                                                      "using the linked PA/Tech."),
     "Player Parameter Increase":lambda x:   x.replace("プレイヤーの HP を ",
                                                       "Increases player HP by ")
                                              .replace(" 上昇する。\\nさらにアビリティレベルに応じて、上昇量が増える。",
-                                                      " + 10 x this chip's\\nability level."), 
+                                                      " + 10 x this chip's\\nability level."),
 #    "Player Parameters Up":     lambda 
 #    "Rush Arts Damage Up":      lambda 
 #    "Shield":                   lambda 
