@@ -86,6 +86,17 @@ skill_effects = {
                                                   "Boosts the damage of the linked PA/Tech by ")
                                          .replace("％ 増加する。",
                                                   "%."),
+#    "Damage Up Vs. Status": 
+#    "Element Damage Up": 
+#    "Extend Effect Time": 
+#    "HP Regeneration": 
+#    "Knockdown/Flinch Immune": 
+#    "Maximum Element Up": 
+#    "PA/Tech JA Parameters Up": 
+#    "Player Parameter Increase": 
+#    "Player Parameters Up": 
+#    "Rush Arts Damage Up": 
+#    "Shield"
     }
 
 unknowns = []
