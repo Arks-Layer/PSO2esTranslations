@@ -42,72 +42,72 @@ skill_names = {
     }
 
 skill_effects = { # dictionary of lambdas because there's no such thing as switch-case in python
-    "Action CP Recovery":   lambda x:   x.replace("スライド操作時 に\\nＣＰが ",
-                                                  "Slide Actions have a chance to recover ")
-                                         .replace(" 回復する。(発動確率： 小 )",
-                                                  " CP.\\n(Activation rate: Low)"),
-    "Action HP Recovery":   lambda x:   x.replace("スライド操作時 に\\nＨＰが ",
-                                                  "Slide Actions have a chance to recover ")
-                                         .replace("％ 回復する。(発動確率： 小 )",
-                                                  "% HP.\\n(Activation rate: Low)"),
-    "Activation Rate Up":   lambda x:   x.replace("装備したサポートチップの発動率が ",
-                                                  "Increases linked Support Chip's\\nactivation rate by ")
-                                         .replace("％ 上昇する。",
-                                                  "%."),
-    "Additional Damage":    lambda x:   x.replace("装備した必殺技・法術がヒットした時に\\n追加で ",
-                                                  "Deals an additional ")
-                                         .replace("％ のダメージを与える。",
-                                                  "% damage when\\nhitting with the linked PA/Tech.\\n"
-                                                  "<color=yellow>[Chase]</color>"),
-    "Chip Parameter Boost": lambda x:   x.replace("装備したチップの ",
-                                                  "Boosts linked chip's ")
-                                         .replace(" を ",
-                                                  " by ")
-                                         .replace("％",
-                                                  "%")
-                                         .replace(" 増加する。",
-                                                  ".")
-                                         .replace("\\n",
-                                                  "\\nand boosts its "),
-    "CP Consumption Down":  lambda x:   x.replace("装備したアクティブチップの消費ＣＰが ",
-                                                  "Reduces the CP consumption of a linked\\nActive Chip by ")
-                                         .replace("％ 減少する。",
-                                                  "%."),
-    "CP Usage Reduced":     lambda x:   x.replace("装備したチップの消費ＣＰを ",
-                                                  "Reduces the linked chip's CP consumption by ")
-                                         .replace("％ 軽減する。",
-                                                  "%."),
-    "Damage Taken Down":    lambda x:   x.replace("装備した必殺技・法術発動中は\\n受けるダメージを ",
-                                                  "While using the linked PA/Tech, reduces\\n"
-                                                  "damage taken by ")
-                                         .replace("％ 軽減する。",
-                                                  "%."),
-    "Damage Up":            lambda x:   x.replace("装備した必殺技・法術のダメージ量を ",
-                                                  "Boosts the damage of the linked PA/Tech by ")
-                                         .replace("％ 増加する。",
-                                                  "%."),
-    "Damage Up Vs. Status": lambda x:   x.replace("状態異常の敵に対して、装備した必殺技・法術の\\nダメージ量を ",
-                                                  "Boosts the damage of the linked PA/Tech by ")
-                                         .replace("％ 増加する。",
-                                                  "%\\nagainst enemies affected by a status effect."),
-    "Element Damage Up":    lambda x:   "Boosts " + x
-                                         .replace(" が弱点の敵に対し\\nその属性によるダメージを ",
-                                                  " damage by ")
-                                         .replace("％ 増加する。",
-                                                  "%\\nagainst enemies weak to it.\\n"
-                                                  "<color=yellow>[S-Frame]</color>"),
-    "Effect Duration Extended":   lambda x:   x.replace("装備したチップのアビリティ効果時間を ",
-                                                  "Extends the linked chip's effect duration\\nby ")
-                                         .replace("秒 延長する。",
-                                                  " seconds."),
-#    "HP Regeneration": 
-#    "Knockdown/Flinch Immune": 
-#    "Maximum Element Up": 
-#    "PA/Tech JA Parameters Up": 
-#    "Player Parameter Increase": 
-#    "Player Parameters Up": 
-#    "Rush Arts Damage Up": 
-#    "Shield"
+    "Action CP Recovery":       lambda x:   x.replace("スライド操作時 に\\nＣＰが ",
+                                                      "Slide Actions have a chance to recover ")
+                                             .replace(" 回復する。(発動確率： 小 )",
+                                                      " CP.\\n(Activation rate: Low)"),
+    "Action HP Recovery":       lambda x:   x.replace("スライド操作時 に\\nＨＰが ",
+                                                      "Slide Actions have a chance to recover ")
+                                             .replace("％ 回復する。(発動確率： 小 )",
+                                                      "% HP.\\n(Activation rate: Low)"),
+    "Activation Rate Up":       lambda x:   x.replace("装備したサポートチップの発動率が ",
+                                                      "Increases linked Support Chip's\\nactivation rate by ")
+                                             .replace("％ 上昇する。",
+                                                      "%."),
+    "Additional Damage":        lambda x:   x.replace("装備した必殺技・法術がヒットした時に\\n追加で ",
+                                                      "Deals an additional ")
+                                             .replace("％ のダメージを与える。",
+                                                      "% damage when\\nhitting with the linked PA/Tech.\\n"
+                                                      "<color=yellow>[Chase]</color>"),
+    "Chip Parameter Boost":     lambda x:   x.replace("装備したチップの ",
+                                                      "Boosts linked chip's ")
+                                             .replace(" を ",
+                                                      " by ")
+                                             .replace("％",
+                                                      "%")
+                                             .replace(" 増加する。",
+                                                      ".")
+                                             .replace("\\n",
+                                                      "\\nand boosts its "),
+    "CP Consumption Down":      lambda x:   x.replace("装備したアクティブチップの消費ＣＰが ",
+                                                      "Reduces the CP consumption of a linked\\nActive Chip by ")
+                                             .replace("％ 減少する。",
+                                                      "%."),
+    "CP Usage Reduced":         lambda x:   x.replace("装備したチップの消費ＣＰを ",
+                                                      "Reduces the linked chip's CP consumption by ")
+                                             .replace("％ 軽減する。",
+                                                      "%."),
+    "Damage Taken Down":        lambda x:   x.replace("装備した必殺技・法術発動中は\\n受けるダメージを ",
+                                                      "While using the linked PA/Tech, reduces\\n"
+                                                      "damage taken by ")
+                                             .replace("％ 軽減する。",
+                                                      "%."),
+    "Damage Up":                lambda x:   x.replace("装備した必殺技・法術のダメージ量を ",
+                                                      "Boosts the damage of the linked PA/Tech by ")
+                                             .replace("％ 増加する。",
+                                                      "%."),
+    "Damage Up Vs. Status":     lambda x:   x.replace("状態異常の敵に対して、装備した必殺技・法術の\\nダメージ量を ",
+                                                      "Boosts the damage of the linked PA/Tech by ")
+                                             .replace("％ 増加する。",
+                                                      "%\\nagainst enemies affected by a status effect."),
+    "Element Damage Up":        lambda x:   "Boosts " + x
+                                             .replace(" が弱点の敵に対し\\nその属性によるダメージを ",
+                                                      " damage by ")
+                                             .replace("％ 増加する。",
+                                                      "%\\nagainst enemies weak to it.\\n"
+                                                      "<color=yellow>[S-Frame]</color>"),
+    "Effect Duration Extended": lambda x:   x.replace("装備したチップのアビリティ効果時間を ",
+                                                      "Extends the linked chip's effect duration\\nby ")
+                                             .replace("秒 延長する。",
+                                                      " seconds."),
+#    "HP Regeneration":          lambda 
+#    "Knockdown/Flinch Immune":  lambda 
+#    "Maximum Element Up":       lambda 
+#    "PA/Tech JA Parameters Up": lambda 
+#    "Player Parameter Increase":lambda 
+#    "Player Parameters Up":     lambda 
+#    "Rush Arts Damage Up":      lambda 
+#    "Shield":                   lambda 
     }
 
 unknowns = []
