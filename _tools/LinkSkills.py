@@ -117,7 +117,17 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                                       " by ")
                                              .replace(" 上昇する。",
                                                       "."), 
-#    "PA/Tech JA Parameters Up": lambda 
+    "PA/Tech JA Parameters Up": lambda x:   x.replace("装備先のチップ発動後\\n"
+                                                      "ジャストアタック可能なタイミングから\\n一定時間、 ",
+                                                      "Boosts ")
+                                             .replace("攻撃力全般 を ",
+                                                      "ATK by ")
+                                             .replace("防御力全般 を ",
+                                                      "DEF by ")
+                                             .replace("％ 増加する。",
+                                                      "% for 10 seconds when\\n"
+                                                      "the Just Attack ring appears after\\n"
+                                                      "using the linked PA/Tech."), 
 #    "Player Parameter Increase":lambda 
 #    "Player Parameters Up":     lambda 
 #    "Rush Arts Damage Up":      lambda 
