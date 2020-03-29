@@ -90,7 +90,12 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                                   "Boosts the damage of the linked PA/Tech by ")
                                          .replace("％ 増加する。",
                                                   "%\\nagainst enemies affected by a status effect."),
-#    "Element Damage Up": 
+    "Element Damage Up":    lambda x:   "Boosts " + x
+                                         .replace(" が弱点の敵に対し\\nその属性によるダメージを ",
+                                                  " damage by ")
+                                         .replace("％ 増加する。",
+                                                  "%\\nagainst enemies weak to it.\\n"
+                                                  "<color=yellow>[S-Frame]</color>"),
 #    "Extend Effect Time": 
 #    "HP Regeneration": 
 #    "Knockdown/Flinch Immune": 
