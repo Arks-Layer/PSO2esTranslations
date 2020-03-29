@@ -100,7 +100,11 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                                       "Extends the linked chip's effect duration\\nby ")
                                              .replace("秒 延長する。",
                                                       " seconds."),
-#    "HP Regeneration":          lambda 
+    "HP Regeneration":          lambda x:   x.replace("定期的にＨＰを ",
+                                                      "Recovers ")
+                                             .replace("％ 回復する。\\nアビリティレベルに応じて回復するタイミングが早くなる。",
+                                                      "% of max HP at regular intervals.\\n"
+                                                      "Recovery speed increases based on this chip's\\nability level."),
 #    "Knockdown/Flinch Immune":  lambda 
 #    "Maximum Element Up":       lambda 
 #    "PA/Tech JA Parameters Up": lambda 
