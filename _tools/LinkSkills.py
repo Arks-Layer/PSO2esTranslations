@@ -132,7 +132,10 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                                       "Increases player HP by ")
                                              .replace(" 上昇する。\\nさらにアビリティレベルに応じて、上昇量が増える。",
                                                       " + 10 x this chip's\\nability level."),
-#    "Player Parameters Up":     lambda 
+    "Player Parameters Up":     lambda x:   x.replace("プレイヤーの 攻撃力全般 を ",
+                                                      "Boosts player ATK by ")
+                                             .replace("％ 増加する。",
+                                                      "%."),
 #    "Rush Arts Damage Up":      lambda 
 #    "Shield":                   lambda 
     }
