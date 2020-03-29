@@ -30,7 +30,7 @@ skill_names = {
     "ダメージアップ": "Damage Up",
     "敵状態異常時ダメージアップ": "Damage Up Vs. Status",
     "属性ダメージアップ": "Element Damage Up",
-    "効果時間延長": "Extend Effect Time",
+    "効果時間延長": "Effect Duration Extended",
     "ＨＰ自動回復": "HP Regeneration",
     "ダウン・のけぞり無効付与": "Knockdown/Flinch Immune",
     "属性値上限アップ": "Maximum Element Up",
@@ -96,7 +96,7 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                          .replace("％ 増加する。",
                                                   "%\\nagainst enemies weak to it.\\n"
                                                   "<color=yellow>[S-Frame]</color>"),
-    "Extend Effect Time":   lambda x:   x.replace("装備したチップのアビリティ効果時間を ",
+    "Effect Duration Extended":   lambda x:   x.replace("装備したチップのアビリティ効果時間を ",
                                                   "Extends the linked chip's effect duration\\nby ")
                                          .replace("秒 延長する。",
                                                   " seconds."),
