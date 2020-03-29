@@ -161,7 +161,7 @@ for skill in skills:
                 unknowns.append(skill["jp_explainShort"])
     
     # translate long descriptions
-    if skill["jp_explainLong"] != "": #and skill["tr_explainLong"] == "":
+    if skill["jp_explainLong"] != "" and skill["tr_explainLong"] == "":
         skill_text = skill["jp_explainLong"]
 
         if skill["tr_explainShort"] in skill_effects:
