@@ -86,7 +86,10 @@ skill_effects = {
                                                   "Boosts the damage of the linked PA/Tech by ")
                                          .replace("％ 増加する。",
                                                   "%."),
-#    "Damage Up Vs. Status": 
+    "Damage Up Vs. Status": lambda x:   x.replace("状態異常の敵に対して、装備した必殺技・法術の\\nダメージ量を ",
+                                                  "Boosts the damage of the linked PA/Tech by ")
+                                         .replace("％ 増加する。",
+                                                  "%\\nagainst enemies affected by a status effect."),
 #    "Element Damage Up": 
 #    "Extend Effect Time": 
 #    "HP Regeneration": 
