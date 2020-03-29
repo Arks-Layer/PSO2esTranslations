@@ -73,6 +73,19 @@ skill_effects = {
                                                   "Reduces the CP consumption of a linked\\nActive Chip by ")
                                          .replace("％ 減少する。",
                                                   "%."),
+    "CP Usage Reduced":     lambda x:   x.replace("装備したチップの消費ＣＰを ",
+                                                  "Reduces the linked chip's CP consumption by ")
+                                         .replace("％ 軽減する。",
+                                                  "%."),
+    "Damage Taken Down":    lambda x:   x.replace("装備した必殺技・法術発動中は\\n受けるダメージを ",
+                                                  "While using the linked PA/Tech, reduces\\n"
+                                                  "damage taken by ")
+                                         .replace("％ 軽減する。",
+                                                  "%."),
+    "Damage Up":            lambda x:   x.replace("装備した必殺技・法術のダメージ量を ",
+                                                  "Boosts the damage of the linked PA/Tech by ")
+                                         .replace("％ 増加する。",
+                                                  "%."),
     }
 
 unknowns = []
