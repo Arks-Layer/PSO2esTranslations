@@ -62,17 +62,38 @@ skill_effects = {
     "Chip Parameter Boost": lambda x: x.replace("装備したチップの ",
                                               "Boosts linked chip's ")
                                        .replace(" を ",
-                                                " by ").
+                                                " by ")
                                        .replace("％",
-                                                "%").
+                                                "%")
                                        .replace(" 増加する。",
-                                                ".").
+                                                ".")
                                        .replace("\\n",
                                                 "\\nand boosts its "),
     "CP Consumption Down": lambda x: x.replace("装備したアクティブチップの消費ＣＰが ",
                                                "Reduces the CP consumption of a linked\\nActive Chip by ")
                                       .replace("％ 減少する。",
                                                "%."),
+    "CP Usage Reduced": lambda x: x.replace("装備したチップの消費ＣＰを ",
+                                            "Reduces the linked chip's CP consumption by ")
+                                   .replace("％ 軽減する。",
+                                            "%."),
+    "Damage Taken Down": lambda x: x.replace("",
+                                             "While using the linked PA/Tech, reduces\\n"
+                                             "damage taken by ")
+                                    .replace("％ 軽減する。",
+                                             "%."),
+#    "Damage Up": 
+#    "Damage Up Vs. Status": 
+#    "Element Damage Up": 
+#    "Extend Effect Time": 
+#    "HP Regeneration": 
+#    "Knockdown/Flinch Immune": 
+#    "Maximum Element Up": 
+#    "PA/Tech JA Parameters Up": 
+#    "Player Parameter Increase": 
+#    "Player Parameters Up": 
+#    "Rush Arts Damage Up": 
+#    "Shield"
     }
 
 unknowns = []
