@@ -62,11 +62,11 @@ skill_effects = {
     "Chip Parameter Boost": lambda x: x.replace("装備したチップの ",
                                               "Boosts linked chip's ")
                                        .replace(" を ",
-                                                " by ").
+                                                " by ")
                                        .replace("％",
-                                                "%").
+                                                "%")
                                        .replace(" 増加する。",
-                                                ".").
+                                                ".")
                                        .replace("\\n",
                                                 "\\nand boosts its "),
     "CP Consumption Down": lambda x: x.replace("装備したアクティブチップの消費ＣＰが ",
