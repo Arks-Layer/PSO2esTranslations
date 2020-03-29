@@ -42,10 +42,37 @@ skill_names = {
     }
 
 skill_effects = {
-    "Action CP Recovery": lambda x: x.replace("スライド操作時 に\\nＣＰが ", "Slide Actions have a chance to recover ").
-                                          replace(" 回復する。(発動確率： 小 )", " CP.\\n(Activation rate: Low)"),
-    "Action HP Recovery": lambda x: x.replace("スライド操作時 に\\nＨＰが ", "Slide Actions have a chance to recover ").
-                                          replace("％ 回復する。(発動確率： 小 )", "% HP.\\n(Activation rate: Low)"),
+    "Action CP Recovery": lambda x: x.replace("スライド操作時 に\\nＣＰが ",
+                                              "Slide Actions have a chance to recover ").
+                                          replace(" 回復する。(発動確率： 小 )",
+                                                  " CP.\\n(Activation rate: Low)"),
+    "Action HP Recovery": lambda x: x.replace("スライド操作時 に\\nＨＰが ",
+                                              "Slide Actions have a chance to recover ").
+                                          replace("％ 回復する。(発動確率： 小 )",
+                                                  "% HP.\\n(Activation rate: Low)"),
+    "Activation Rate Up": lambda x: x.replace("装備したサポートチップの発動率が ",
+                                              "Increases linked Support Chip's\\nactivation rate by ").
+                                          replace("％ 上昇する。",
+                                                  "%."),
+    "Additional Damage": lambda x: x.replace("装備した必殺技・法術がヒットした時に\\n追加で ",
+                                              "Deals an additional ").
+                                          replace("％ のダメージを与える。",
+                                                  "% damage when\\nhitting with the linked PA/Tech.\\n"
+                                                  "<color=yellow>[Chase]</color>"),
+    "Chip Parameter Boost": lambda x: x.replace("装備したチップの ",
+                                              "Boosts linked chip's ").
+                                          replace("％",
+                                                  "%").
+                                          replace(" を ",
+                                                  " by ").
+                                          replace("\\n",
+                                                  "\\nand boosts its ").
+                                          replace(" 増加する。",
+                                                  "."),
+    "CP Consumption Down": lambda x: x.replace("装備したアクティブチップの消費ＣＰが ",
+                                              "Reduces the CP consumption of a linked\\nActive Chip by ").
+                                          replace("％ 減少する。",
+                                                  "%."),
     }
 
 unknowns = []
@@ -59,10 +86,16 @@ for skill in skills:
                 print("Unknown short description in {0}: {1}".format(skills_file_name, skill["jp_explainShort"]))
                 unknowns.append(skill["jp_explainShort"])
     
-    if skill["jp_explainLong"] != "" and skill["tr_explainLong"] == "":
+    if skill["jp_explainLong"] != "": #and skill["tr_explainLong"] == "":
         skill_text = skill["jp_explainLong"]
 
         if skill["tr_explainShort"] in skill_effects:
+            skill_text = skill_text.replace("炎属性", "Fire Element")
+            skill_text = skill_text.replace("氷属性", "Ice Element")
+            skill_text = skill_text.replace("雷属性", "Lightning Element")
+            skill_text = skill_text.replace("風属性", "Wind Element")
+            skill_text = skill_text.replace("光属性", "Light Element")
+            skill_text = skill_text.replace("闇属性", "Dark Element")
             skill_text = skill_effects[skill["tr_explainShort"]](skill_text)
             skill["tr_explainLong"] = skill_text
 
