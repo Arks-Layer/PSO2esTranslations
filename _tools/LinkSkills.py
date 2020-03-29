@@ -18,8 +18,40 @@ skills = json.load(skills_file)
 print("{0} loaded.".format(skills_file_name))
 skills_file.close()
 
+skill_names = {
+    "特定操作時ＣＰ回復": "Action CP Recovery",
+    "特定操作時ＨＰ回復": "Action HP Recovery",
+    "発動率アップ": "Activation Rate Up",
+    "追加ダメージ付与": "Additional Damage",
+    "チップパラメータ増加": "Chip Parameter Boost",
+    "発動ＣＰダウン": "CP Consumption Down",
+    "ＣＰ消費量軽減": "CP Usage Reduced",
+    "ダメージカット付与": "Damage Taken Down",
+    "ダメージアップ": "Damage Up",
+    "敵状態異常時ダメージアップ": "Damage Up Vs. Status",
+    "属性ダメージアップ": "Element Damage Up",
+    "効果時間延長": "Extend Effect Time",
+    "ＨＰ自動回復": "HP Regeneration",
+    "ダウン・のけぞり無効付与": "Knockdown/Flinch Immune",
+    "属性値上限アップ": "Maximum Element Up",
+    "技・法終了時パラメータＵＰ": "PA/Tech JA Parameters Up",
+    "プレイヤーパラメータ加算": "Player Parameter Increase",
+    "プレイヤーパラメータ増加": "Player Parameters Up",
+    "ラッシュアーツダメージアップ": "Rush Arts Damage Up",
+    "シールド": "Shield"
+    }
+
 unknowns = []
 
+for skill in skills:
+    if skill["jp_explainShort"] != "" and skill["tr_explainShort"] == "":
+        if skill["jp_explainShort"] in skill_names:
+            skill["tr_explainShort"] = skill_names[skill["jp_explainShort"]]
+        else:
+            if skill["jp_explainShort"] not in unknowns:
+                print("Unknown short description in {0}: {1}".format(skills_file_name, skill["jp_explainShort"]))
+                unknowns.append(skill["jp_explainShort"])
+        
 skills_file = codecs.open(os.path.join(json_loc, skills_file_name),
                          mode = 'w', encoding = 'utf-8')
 json.dump(skills, skills_file, ensure_ascii=False, indent="\t", sort_keys=False)
