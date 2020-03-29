@@ -111,8 +111,12 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                                       "Makes you immune to knockdown and\\n"
                                                       "flinching while you perform the linked\\n"
                                                       "PA/Technique. (Effect ends when the\\n"
-                                                      "PA/Technique does.)") 
-#    "Maximum Element Up":       lambda 
+                                                      "PA/Technique does.)"),
+    "Maximum Element Up":       lambda x:   "Increases your maximum " + x
+                                             .replace(" の上限値が ",
+                                                      " by ")
+                                             .replace(" 上昇する。",
+                                                      "."), 
 #    "PA/Tech JA Parameters Up": lambda 
 #    "Player Parameter Increase":lambda 
 #    "Player Parameters Up":     lambda 
