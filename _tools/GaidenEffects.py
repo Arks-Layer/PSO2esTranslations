@@ -90,7 +90,8 @@ for effect in effect_names:
                 if description["assign"] == effect_assign:
                     effect_text = description["jp_text"]
             
-                    # elements are used in multiple effect types
+                    # some things are used in multiple effect types
+                    effect_text = effect_text.replace("ＨＰ", "HP")
                     effect_text = effect_text.replace("炎属性", "Fire Element")
                     effect_text = effect_text.replace("氷属性", "Ice Element")
                     effect_text = effect_text.replace("雷属性", "Lightning Element")
