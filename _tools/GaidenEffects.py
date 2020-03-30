@@ -47,7 +47,7 @@ effect_effects = { # dictionary of lambdas because there's no such thing as swit
                                                   "This chip's activation rate is increased by ")
                                          .replace("％上昇する。",
                                                   "%."),
-    "Bonus Element":        lambda x:   x.replace("このチップを装備した時の属性値上昇を\n",
+    "Bonus Element":        lambda x:   x.replace("このチップを装備した時のElement値上昇を\n",
                                                   "This chip's element value is also added\nto the ")
                                          .replace("に対しても適用する。",
                                                   " when equipped."),
@@ -63,11 +63,11 @@ effect_effects = { # dictionary of lambdas because there's no such thing as swit
                                          .replace("減少する。",
                                                   "."),
     "Effect Broadened":     lambda x:   x.replace("このチップのアビリティの効果の対象に\n",
-                                                  "This chip's ability now also covers\nthe ")
+                                                  "This chip's ability now also covers\n")
                                          .replace("このチップのアビリティ①の効果の対象に\n",
-                                                  "This chip's 1st ability now also covers\nthe ")
+                                                  "This chip's 1st ability now also covers\n")
                                          .replace("このチップのアビリティ②の効果の対象に\n",
-                                                  "This chip's 2nd ability now also covers\nthe ")
+                                                  "This chip's 2nd ability now also covers\n")
                                          .replace("を追加する。",
                                                   "."),
     "Effect Extended":      lambda x:   x.replace("このチップのアビリティの効果時間を",
@@ -96,12 +96,14 @@ for effect in effect_names:
             
                     # some things are used in multiple effect types
                     effect_text = effect_text.replace("ＨＰ", "HP")
-                    effect_text = effect_text.replace("炎属性", "Fire Element")
-                    effect_text = effect_text.replace("氷属性", "Ice Element")
-                    effect_text = effect_text.replace("雷属性", "Lightning Element")
-                    effect_text = effect_text.replace("風属性", "Wind Element")
-                    effect_text = effect_text.replace("光属性", "Light Element")
-                    effect_text = effect_text.replace("闇属性", "Dark Element")
+                    effect_text = effect_text.replace("法術", "Techs")
+                    effect_text = effect_text.replace("炎", "Fire ")
+                    effect_text = effect_text.replace("氷", "Ice ")
+                    effect_text = effect_text.replace("雷", "Lightning ")
+                    effect_text = effect_text.replace("風", "Wind ")
+                    effect_text = effect_text.replace("光", "Light ")
+                    effect_text = effect_text.replace("闇", "Dark ")
+                    effect_text = effect_text.replace("属性", "Element")
                     # translation depends on effect type, so:
                     effect_text = effect_effects[effect["tr_text"]](effect_text)
                     description["tr_text"] = effect_text
