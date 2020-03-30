@@ -6562,7 +6562,7 @@
 	{
 		"assign": "scratch_bonus_menu_complete",
 		"jp_text": "すべてのボーナスを獲得済みです。",
-		"tr_text": ""
+		"tr_text": "All bonuses have been earned."
 	},
 	{
 		"assign": "scratch_bonus_menu_ac",
@@ -10112,7 +10112,7 @@
 	{
 		"assign": "menu_sub_button_sale_auto",
 		"jp_text": "自動売却設定",
-		"tr_text": ""
+		"tr_text": "Auto-Sale Settings"
 	},
 	{
 		"assign": "menu_sub_button_system_site",
@@ -19572,12 +19572,12 @@
 	{
 		"assign": "quest_clear_reward_dialog_title_6274005",
 		"jp_text": "ストーリークエスト Season3　8章4-5",
-		"tr_text": ""
+		"tr_text": "Story Quest Season 3 Ch.8 4-5 Clear"
 	},
 	{
 		"assign": "quest_clear_reward_dialog_body_6274005",
 		"jp_text": "Season3　8章4-5「希望　それは、青空の先へ」\nクリアおめでとうございます！\n以下のクリア報酬をプレゼントいたしました。\n受け取りボックスをご確認ください。",
-		"tr_text": ""
+		"tr_text": "Congratulations on clearing Season 3 Ch. 8\nQuest 4-5 \"希望　それは、青空の先へ\"!\nYou have received the Clear Reward below.\nPlease check your Reception Box."
 	},
 	{
 		"assign": "recommended_equipment",
@@ -19672,7 +19672,7 @@
 	{
 		"assign": "acceptbox_sale_meseta_over_dialog_text",
 		"jp_text": "メセタの所持数をオーバーしているので\n売却することができません。",
-		"tr_text": ""
+		"tr_text": "You cannot sell this because your\nMeseta would exceed the maximum limit."
 	},
 	{
 		"assign": "acceptbox_sale_failed_dialog_title",
@@ -22607,32 +22607,32 @@
 	{
 		"assign": "conditional_booster_term_day",
 		"jp_text": "<%day>日",
-		"tr_text": ""
+		"tr_text": "<%day> days"
 	},
 	{
 		"assign": "conditional_booster_term_hour",
 		"jp_text": "<color=red><%hour>時間<%minute>分</color>",
-		"tr_text": ""
+		"tr_text": "<color=red><%hour> hours <%minute> minutes</color>"
 	},
 	{
 		"assign": "conditional_booster_term_minute",
 		"jp_text": "<color=red><%minute>分</color>",
-		"tr_text": ""
+		"tr_text": "<color=red><%minute> minutes</color>"
 	},
 	{
 		"assign": "conditional_booster_time_over",
 		"jp_text": "<color=red>0分</color>",
-		"tr_text": ""
+		"tr_text": "<color=red>0 minutes</color>"
 	},
 	{
 		"assign": "conditional_time_over_remaining_today",
 		"jp_text": "<color=red>終了まで</color>",
-		"tr_text": ""
+		"tr_text": "<color=red> remaining</color>"
 	},
 	{
 		"assign": "conditional_time_over_remaining",
 		"jp_text": "終了まで",
-		"tr_text": ""
+		"tr_text": " remaining"
 	},
 	{
 		"assign": "conditional_title",
@@ -22642,167 +22642,167 @@
 	{
 		"assign": "scrach_maintenance_title",
 		"jp_text": "メンテナンス",
-		"tr_text": ""
+		"tr_text": "Maintenance"
 	},
 	{
 		"assign": "scrach_maintenance_pso2_title",
 		"jp_text": "PSO2スクラッチ",
-		"tr_text": ""
+		"tr_text": "PSO2 Scratch"
 	},
 	{
 		"assign": "scrach_maintenance_point_scrach_title",
 		"jp_text": "メンテナンス",
-		"tr_text": ""
+		"tr_text": "Maintenance"
 	},
 	{
 		"assign": "scrach_maintenance_es",
 		"jp_text": "スクラッチは\n現在メンテナンス中です。",
-		"tr_text": ""
+		"tr_text": "Scratch is currently under maintenance."
 	},
 	{
 		"assign": "scrach_maintenance_pso2",
 		"jp_text": "ＰＳＯ２のスクラッチは\n現在引くことができません。",
-		"tr_text": ""
+		"tr_text": "You cannot draw from the\nPSO2 scratch at present."
 	},
 	{
 		"assign": "scrach_maintenance_point",
 		"jp_text": "ポイントスクラッチは\n現在メンテナンス中です。",
-		"tr_text": ""
+		"tr_text": "Point Scratch is currently under maintenance."
 	},
 	{
 		"assign": "scrach_interlocking_pso2_title",
 		"jp_text": "「PSO2連動機能」について",
-		"tr_text": ""
+		"tr_text": "Linking with PSO2"
 	},
 	{
 		"assign": "scrach_interlocking_pso2",
 		"jp_text": "『ＰＳＯ２』と連動すると\n「ファンタシースターオンライン２」で開催されている\nスクラッチを引くことができるようになります。\n連動は、メニューの「連動」から行うことができます。",
-		"tr_text": ""
+		"tr_text": "When you are linked with PSO2, you can\ndraw from scratches available in PSO2.\nLinking can be performed from  \"Link\nFunctions\" on the menu."
 	},
 	{
 		"assign": "scrach_ticket",
 		"jp_text": "チケットで引く",
-		"tr_text": ""
+		"tr_text": "Draw with Ticket"
 	},
 	{
 		"assign": "scrach_detail",
 		"jp_text": "スクラッチ詳細",
-		"tr_text": ""
+		"tr_text": "Scratch Details"
 	},
 	{
 		"assign": "scrach_term_maintenance",
 		"jp_text": "<%month>月<%day>日（<%week>)\n定期メンテナンスまで",
-		"tr_text": ""
+		"tr_text": "Regular maintenance:\n<%month> <%day> (<%week>)"
 	},
 	{
 		"assign": "scrach_term_day",
 		"jp_text": "<%month>月<%day>日（<%week>)\n<%hour>時<%minute>分まで",
-		"tr_text": ""
+		"tr_text": "Until <%month> <%day> (<%week>) <%hour>:<%minute>"
 	},
 	{
 		"assign": "scrach_term_monday",
 		"jp_text": "月",
-		"tr_text": ""
+		"tr_text": "Monday"
 	},
 	{
 		"assign": "scrach_term_tuesday",
 		"jp_text": "火",
-		"tr_text": ""
+		"tr_text": "Tuesday"
 	},
 	{
 		"assign": "scrach_term_wednesday",
 		"jp_text": "水",
-		"tr_text": ""
+		"tr_text": "Wednesday"
 	},
 	{
 		"assign": "scrach_term_thursday",
 		"jp_text": "木",
-		"tr_text": ""
+		"tr_text": "Thursday"
 	},
 	{
 		"assign": "scrach_term_friday",
 		"jp_text": "金",
-		"tr_text": ""
+		"tr_text": "Friday"
 	},
 	{
 		"assign": "scrach_term_saturday",
 		"jp_text": "土",
-		"tr_text": ""
+		"tr_text": "Saturday"
 	},
 	{
 		"assign": "scrach_term_sunday",
 		"jp_text": "日",
-		"tr_text": ""
+		"tr_text": "Sunday"
 	},
 	{
 		"assign": "scrach_button_pso2",
 		"jp_text": "PSO2",
-		"tr_text": ""
+		"tr_text": "PSO2"
 	},
 	{
 		"assign": "scrach_button_es",
 		"jp_text": "es",
-		"tr_text": ""
+		"tr_text": "es"
 	},
 	{
 		"assign": "scratch_point_text",
 		"jp_text": "「スクラッチポイント」は「ｅｓスクラッチ」を<%AC>で引いた時にもらえます。\n各レアリティのボタンから、ラインナップが確認できます。",
-		"tr_text": ""
+		"tr_text": "You earn Scratch Points when you\nspend <AC> on es Scratch.\nYou can check the available prizes\nwith each rarity button."
 	},
 	{
 		"assign": "scrach_have_medal",
 		"jp_text": "所持ラッピーメダル <color=#68a0a7>/</color>",
-		"tr_text": ""
+		"tr_text": "Rappy Medals owned <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "scrach_have_iac",
 		"jp_text": "所持<%AC> <color=#68a0a7>/</color>",
-		"tr_text": ""
+		"tr_text": "<%AC> owned <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "scrach_have_ac",
 		"jp_text": "所持<%AC> <color=#68a0a7>/</color>",
-		"tr_text": ""
+		"tr_text": "<%AC> owned <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "scrach_have_ac_ticket",
 		"jp_text": "所持ＡＣスクラッチ券 <color=#68a0a7>/</color>",
-		"tr_text": ""
+		"tr_text": "AC Scratch tickets owned <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "scrach_have_fun",
 		"jp_text": "所持ＦＵＮ <color=#68a0a7>/</color>",
-		"tr_text": ""
+		"tr_text": "FUN owned <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "scrach_have_scrach_point",
 		"jp_text": "所持スクラッチポイント <color=#68a0a7>/</color>",
-		"tr_text": ""
+		"tr_text": "Scratch Points owned <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "scrach_have_ac_gold_ticket",
 		"jp_text": "所持ＡＣスクラッチゴールド券 <color=#68a0a7>/</color>",
-		"tr_text": ""
+		"tr_text": "AC Scratch Gold tickets owned <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "scrach_have_es_ticket",
 		"jp_text": "所持スクラッチチケット <color=#68a0a7>/</color>",
-		"tr_text": ""
+		"tr_text": "Scratch tickets owned <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "scrach_have_weaponoid_ticket",
 		"jp_text": "所持ウェポノイド確定スクラッチチケット <color=#68a0a7>/</color>",
-		"tr_text": ""
+		"tr_text": "Weaponoid Scratch tickets owned <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "scratch_featured_count",
 		"jp_text": "<%count>回お得！",
-		"tr_text": ""
+		"tr_text": "<%count> GET!"
 	},
 	{
 		"assign": "scratch_weaponoid_bonus_count",
 		"jp_text": "あと",
-		"tr_text": ""
+		"tr_text": "remaining"
 	},
 	{
 		"assign": "scratch_get_rare_chip",
@@ -22812,111 +22812,111 @@
 	{
 		"assign": "scratch_bonus_menu_new_info",
 		"jp_text": "あと<color=#ffff00>{0}回</color>",
-		"tr_text": ""
+		"tr_text": "<color=#ffff00>{0}</color> remaining"
 	},
 	{
 		"assign": "scratch_bonus_menu_new_next_bonus",
 		"jp_text": "次のボーナスまで",
-		"tr_text": ""
+		"tr_text": "Nex bonus at:"
 	},
 	{
 		"assign": "scratch_bonus_menu_new_detail",
 		"jp_text": "詳細",
-		"tr_text": ""
+		"tr_text": "Details"
 	},
 	{
 		"assign": "scratch_dialog_rarity_ticket",
 		"jp_text": "レアリティ確定券{0}枚で\n{1}を{2}回引きます。\nよろしいですか？\n\n",
-		"tr_text": ""
+		"tr_text": "Spending {0} Rarity Confirmation tickets\nto draw {2} times on {1}.\nDo you wish to continue?\n\n"
 	},
 	{
 		"assign": "scratch_dialog_ac",
 		"jp_text": " <color=yellow>{0}</color><%AC>で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
-		"tr_text": ""
+		"tr_text": "Using <color=yellow>{0}</color> <%AC>\nto draw from \"{1}\" <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
 	},
 	{
 		"assign": "scratch_dialog_fun",
 		"jp_text": " <color=yellow>{0}</color>ＦＵＮで\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
-		"tr_text": ""
+		"tr_text": "Using <color=yellow>{0}</color> FUN\nto draw from \"{1}\" <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
 	},
 	{
 		"assign": "scratch_dialog_ac_scratch_ticket",
 		"jp_text": "ＡＣスクラッチ券 <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
-		"tr_text": ""
+		"tr_text": "Using <color=yellow>{0}</color> AC Scratch tickets\nto draw from \"{1}\" <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
 	},
 	{
 		"assign": "scratch_dialog_ac_gold_scratch",
 		"jp_text": "ＡＣスクラッチゴールド券 <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
-		"tr_text": ""
+		"tr_text": "Using <color=yellow>{0}</color> AC Scratch gold tickets\nto draw from \"{1}\" <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
 	},
 	{
 		"assign": "scratch_dialog_rappy_medal_scratch",
 		"jp_text": "ラッピーメダル <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
-		"tr_text": ""
+		"tr_text": "Using <color=yellow>{0}</color> Rappy medals\nto draw from \"{1}\" <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
 	},
 	{
 		"assign": "scratch_dialog_scratch_ticket",
 		"jp_text": "スクラッチチケット <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
-		"tr_text": ""
+		"tr_text": "Using <color=yellow>{0}</color> scratch tickets\nto draw from \"{1}\" <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
 	},
 	{
 		"assign": "scratch_have_ac_gold_ticket",
 		"jp_text": "所持ＡＣスクラッチゴールド券",
-		"tr_text": ""
+		"tr_text": "AC Scratch gold tickets owned"
 	},
 	{
 		"assign": "scratch_have_rappy_medal",
 		"jp_text": "所持ラッピーメダル",
-		"tr_text": ""
+		"tr_text": "Rappy Medals owned"
 	},
 	{
 		"assign": "scratch_have_scratch_es_ticket",
 		"jp_text": "所持スクラッチチケット",
-		"tr_text": ""
+		"tr_text": "Scratch tickets owned"
 	},
 	{
 		"assign": "scratch_have_rarity_ticket",
 		"jp_text": "所持 レアリティ確定チケット",
-		"tr_text": ""
+		"tr_text": "Rarity Confirmation tickets owned"
 	},
 	{
 		"assign": "scratch_have_fun",
 		"jp_text": "所持ＦＵＮ",
-		"tr_text": ""
+		"tr_text": "FUN owned"
 	},
 	{
 		"assign": "scratch_have_ac",
 		"jp_text": "所持<%AC>",
-		"tr_text": ""
+		"tr_text": "<%AC> owned"
 	},
 	{
 		"assign": "scratch_have_iac",
 		"jp_text": "所持<%AC>",
-		"tr_text": ""
+		"tr_text": "<%AC> owned"
 	},
 	{
 		"assign": "scratch_show_count",
 		"jp_text": "{0}枚 ⇒ {1}枚",
-		"tr_text": ""
+		"tr_text": "{0} ⇒ {1}"
 	},
 	{
 		"assign": "scratch_show_point",
 		"jp_text": "{0} ⇒ {1}",
-		"tr_text": ""
+		"tr_text": "{0} ⇒ {1}"
 	},
 	{
 		"assign": "scratch_have_scratch_ac_ticket",
 		"jp_text": "所持ＡＣスクラッチ券",
-		"tr_text": ""
+		"tr_text": "AC Scratch tickets owned"
 	},
 	{
 		"assign": "scratch_weaponoid_text",
 		"jp_text": "「ｅｓ1スクラッチ」<%AC>11回引き3回ごとに、券を1枚もらえます。\n選択したウェポノイドチップの中から1枚を獲得できます。",
-		"tr_text": ""
+		"tr_text": "You receive 1 ticket every 3 times you spend\n<%AC> to draw 11 times on es1 Scratch.\nYou can select one of the below Weaponoid chips."
 	},
 	{
 		"assign": "scratch_limited_time",
 		"jp_text": "期間限定",
-		"tr_text": ""
+		"tr_text": "Limited"
 	}
 ]
