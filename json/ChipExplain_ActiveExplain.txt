@@ -732,14 +732,14 @@
 		"jp_explainShort": "属性種類数ダメージ大増加＋定期ＣＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中チップの属性種類数に応じて\n　　 攻撃力を大きく増加する。\n② 装備中チップの属性種類数に応じて\n　　 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts damage by 8% x the number of different\n     chip elements equipped.\n<color=yellow>SP: </color>Boosts damage by 10% x the number of different\n     chip elements equipped.\n     <color=yellow>[E-Frame]</color>\n②  Recovers CP by 0.4 x the number of different chip\n     elements equipped every 5 seconds.\n<color=yellow>SP: </color>Recovers CP by 0.8 x the number of different chip\n     elements equipped every 5 seconds.\n[Effect Duration] 50 seconds"
+		"tr_explainLong": "①  Boosts damage by 8% x the number of different\n     chip elements equipped.\n<color=yellow>SP: </color>Boosts damage by 10% x the number of different\n     chip elements equipped.\n     <color=yellow>[E-Frame]</color>\n②  Recovers 0 CP.4 x the number of different chip\n     elements equipped every 5 seconds.\n<color=yellow>SP: </color>Recovers 0 CP.8 x the number of different chip\n     elements equipped every 5 seconds.\n[Effect Duration] 50 seconds"
 	},
 	{
 		"assign": "31138",
 		"jp_explainShort": "属性種類数ダメージ劇的増＋定期ＣＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中チップの属性種類数に応じて\n　　 攻撃力を劇的に増加する。\n② 装備中チップの属性種類数に応じて\n　　 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts damage by 11% x the number of different\n     chip elements equipped.\n<color=yellow>SP: </color>Boosts damage by 13% x the number of different\n     chip elements equipped.\n     <color=yellow>[E-Frame]</color>\n②  Recovers CP by 1 x the number of different chip\n     elements equipped every 5 seconds.\n<color=yellow>SP: </color>Recovers CP by 1.2 x the number of different chip\n     elements equipped every 5 seconds.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Boosts damage by 11% x the number of different\n     chip elements equipped.\n<color=yellow>SP: </color>Boosts damage by 13% x the number of different\n     chip elements equipped.\n     <color=yellow>[E-Frame]</color>\n②  Recovers 1 CP x the number of different chip\n     elements equipped every 5 seconds.\n<color=yellow>SP: </color>Recovers 1 CP.2 x the number of different chip\n     elements equipped every 5 seconds.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31141",
@@ -802,14 +802,14 @@
 		"jp_explainShort": "攻撃力が劇的増加＋定期的にＣＰが回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts damage by 70%.\n<color=yellow>SP: </color>Boosts damage by 80%.\n     <color=yellow>[E-Frame]</color>\n②  Recovers CP by 3 every 3.3 seconds.\n<color=yellow>SP: </color>Recovers CP by 4 every 3.3 seconds.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Boosts damage by 70%.\n<color=yellow>SP: </color>Boosts damage by 80%.\n     <color=yellow>[E-Frame]</color>\n②  Recovers 3 CP every 3.3 seconds.\n<color=yellow>SP: </color>Recovers 4 CP every 3.3 seconds.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31186",
 		"jp_explainShort": "攻撃力が劇的増加＋定期的にＣＰが回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts damage by 90%.\n<color=yellow>SP: </color>Boosts damage by 100%.\n     <color=yellow>[E-Frame]</color>\n②  Recovers CP by 5 every 3.3 seconds.\n<color=yellow>SP: </color>Recovers CP by 6 every 3.3 seconds.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Boosts damage by 90%.\n<color=yellow>SP: </color>Boosts damage by 100%.\n     <color=yellow>[E-Frame]</color>\n②  Recovers 5 CP every 3.3 seconds.\n<color=yellow>SP: </color>Recovers 6 CP every 3.3 seconds.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31189",
@@ -942,14 +942,14 @@
 		"jp_explainShort": "攻撃力絶大増加＋定期的にＣＰが微回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts damage by 160%.\n<color=yellow>SP: </color>  Boosts damage by 170%.\n     <color=yellow>[E-Frame]</color>\n②  Recovers CP by 4 every 10 seconds.\n<color=yellow>SP: </color>Recovers CP by 6 every 10 seconds.\n[Effect Duration] 50 seconds"
+		"tr_explainLong": "①  Boosts damage by 160%.\n<color=yellow>SP: </color>  Boosts damage by 170%.\n     <color=yellow>[E-Frame]</color>\n②  Recovers 4 CP every 10 seconds.\n<color=yellow>SP: </color>Recovers 6 CP every 10 seconds.\n[Effect Duration] 50 seconds"
 	},
 	{
 		"assign": "31246",
 		"jp_explainShort": "攻撃力絶大増加＋定期的にＣＰが回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 定期的にＣＰを回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts damage by 190%.\n<color=yellow>SP: </color>Boosts damage by 210%.\n     <color=yellow>[E-Frame]</color>\n②  Recovers CP by 8 every 10 seconds.\n<color=yellow>SP: </color>Recovers CP by 10 every 10 seconds.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Boosts damage by 190%.\n<color=yellow>SP: </color>Boosts damage by 210%.\n     <color=yellow>[E-Frame]</color>\n②  Recovers 8 CP every 10 seconds.\n<color=yellow>SP: </color>Recovers 10 CP every 10 seconds.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31249",
@@ -1432,14 +1432,14 @@
 		"jp_explainShort": "ＨＰ・ＣＰ特大回復＋追加特大ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 敵に追加で特大ダメージを与える。\n② ＨＰを劇的に回復する。\n③ ＣＰを劇的に回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Deals an additional 105% damage to enemies.\n<color=yellow>SP: </color>Deals an additional 110% damage to enemies.\n     <color=yellow>[Chase]</color>\n②  Recovers HP by 97%.\n<color=yellow>SP: </color>Recovers HP by 98%.\n③  Recovers CP by 97.\n<color=yellow>SP: </color>Recovers CP by 98.\n[Effect Duration] 50 seconds"
+		"tr_explainLong": "①  Deals an additional 105% damage to enemies.\n<color=yellow>SP: </color>Deals an additional 110% damage to enemies.\n     <color=yellow>[Chase]</color>\n②  Recovers HP by 97%.\n<color=yellow>SP: </color>Recovers HP by 98%.\n③  Recovers 97 CP.\n<color=yellow>SP: </color>Recovers 98 CP.\n[Effect Duration] 50 seconds"
 	},
 	{
 		"assign": "31524",
 		"jp_explainShort": "ＨＰ・ＣＰ特大回復＋追加特大ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 敵に追加で特大ダメージを与える。\n② ＨＰを劇的に回復する。\n③ ＣＰを劇的に回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Deals an additional 115% damage to enemies.\n<color=yellow>SP: </color>Deals an additional 120% damage to enemies.\n     <color=yellow>[Chase]</color>\n②  Recovers HP by 99%.\n<color=yellow>SP: </color>Recovers HP by 100%.\n③  Recovers CP by 99.\n<color=yellow>SP: </color>Recovers CP by 100.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Deals an additional 115% damage to enemies.\n<color=yellow>SP: </color>Deals an additional 120% damage to enemies.\n     <color=yellow>[Chase]</color>\n②  Recovers HP by 99%.\n<color=yellow>SP: </color>Recovers HP by 100%.\n③  Recovers 99 CP.\n<color=yellow>SP: </color>Recovers 100 CP.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31533",
@@ -1607,14 +1607,14 @@
 		"jp_explainShort": "ジャストアタックごと攻撃力小強化＋ＣＰ最大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に強化する。\n② アビリティレベルに応じてジャストアタックごとに\n　　 攻撃力をわずかに強化する。\n③ ＣＰの最大値を増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Increases your ATK by 1000.\n<color=yellow>SP: </color>Increases your ATK by 1500.\n②  Increases your ATK by 15 x this chip's ability\n     level each time you successfully perform a Just\n     Attack.\n③  Increases your maximum CP by 30.\n[Effect Duration] 50 seconds"
 	},
 	{
 		"assign": "31610",
 		"jp_explainShort": "ジャストアタックごと攻撃力小強化＋ＣＰ最大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に強化する。\n② アビリティレベルに応じてジャストアタックごとに\n　　 攻撃力をわずかに強化する。\n③ ＣＰの最大値を増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Increases your ATK by 2000.\n<color=yellow>SP: </color>Increases your ATK by 2500.\n②  Increases your ATK by 15 x this chip's ability\n     level each time you successfully perform a Just\n     Attack.\n③  Increases your maximum CP by 30.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31624",
@@ -1859,14 +1859,14 @@
 		"jp_explainShort": "威力絶大増加＋定期的にＣＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 威力を絶大に増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts power by 180%.\n<color=yellow>SP: </color>Boosts power by 190%.\n     <color=yellow>[F-Frame]</color>\n②  Recovers CP by 5 every 10 seconds.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Boosts power by 180%.\n<color=yellow>SP: </color>Boosts power by 190%.\n     <color=yellow>[F-Frame]</color>\n②  Recovers 5 CP every 10 seconds.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31743",
 		"jp_explainShort": "威力超絶増加＋定期的にＣＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 威力を超絶に増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts power by 200%.\n<color=yellow>SP: </color>Boosts power by 210%.\n     <color=yellow>[F-Frame]</color>\n②  Recovers CP by 5 every 10 seconds.\n[Effect Duration] 70 seconds"
+		"tr_explainLong": "①  Boosts power by 200%.\n<color=yellow>SP: </color>Boosts power by 210%.\n     <color=yellow>[F-Frame]</color>\n②  Recovers 5 CP every 10 seconds.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "31748",
@@ -2034,14 +2034,14 @@
 		"jp_explainShort": "有効弱点ダメージ劇的増＋ＣＰ最大増・回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃対象の敵の弱点に有効な属性で\n　　 攻撃した場合に与えるダメージを劇的に増加する。\n② ＣＰの最大値が上昇する。\n③ ＣＰを回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts damage by 70% against enemy\n     elemental weaknesses.\n<color=yellow>SP</color>: Boosts damage by 80% against enemy\n     elemental weaknesses.\n     <color=yellow>[D-Frame]</color>\n②  Increases your maximum CP by 20.\n③    Recovers CP by 20.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Boosts damage by 70% against enemy\n     elemental weaknesses.\n<color=yellow>SP</color>: Boosts damage by 80% against enemy\n     elemental weaknesses.\n     <color=yellow>[D-Frame]</color>\n②  Increases your maximum CP by 20.\n③    Recovers 20 CP.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31824",
 		"jp_explainShort": "有効弱点ダメージ劇的増＋ＣＰ最大増・回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃対象の敵の弱点に有効な属性で\n　　 攻撃した場合に与えるダメージを劇的に増加する。\n② ＣＰの最大値が上昇する。\n③ ＣＰを回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts damage by 90% against enemy\n     elemental weaknesses.\n<color=yellow>SP</color>: Boosts damage by 100% against enemy\n     elemental weaknesses.\n     <color=yellow>[D-Frame]</color>\n②  Increases your maximum CP by 20.\n③    Recovers CP by 20.\n[Effect Duration] 70 seconds"
+		"tr_explainLong": "①  Boosts damage by 90% against enemy\n     elemental weaknesses.\n<color=yellow>SP</color>: Boosts damage by 100% against enemy\n     elemental weaknesses.\n     <color=yellow>[D-Frame]</color>\n②  Increases your maximum CP by 20.\n③    Recovers 20 CP.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "31830",
@@ -2244,14 +2244,14 @@
 		"jp_explainShort": "雷枚数ＪＡ威力超絶増加＋ＪＡ成功３回毎ＣＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の雷属性チップの枚数に応じて\n　　 ジャストアタックの威力を超絶に増加する。\n② ジャストアタックを３回成功させるごとに\n　　 ＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts the damage of Just Attacks by 35% x\n     the number of Lightning chips equipped.\n<color=yellow>SP: </color>Boosts the damage of Just Attacks by 40% x\n     the number of Lightning chips equipped.\n     <color=yellow>[T-Frame]</color>\n②  Recovers CP by 5 each time you successfully\n     perform 3 Just Attacks.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Boosts the damage of Just Attacks by 35% x\n     the number of Lightning chips equipped.\n<color=yellow>SP: </color>Boosts the damage of Just Attacks by 40% x\n     the number of Lightning chips equipped.\n     <color=yellow>[T-Frame]</color>\n②  Recovers 5 CP each time you successfully\n     perform 3 Just Attacks.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31900",
 		"jp_explainShort": "雷枚数ＪＡ威力超絶増加＋ＪＡ成功３回毎ＣＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の雷属性チップの枚数に応じて\n　　 ジャストアタックの威力を超絶に増加する。\n② ジャストアタックを３回成功させるごとに\n　　 ＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts the damage of Just Attacks by 45% x\n     the number of Lightning chips equipped.\n<color=yellow>SP: </color>Boosts the damage of Just Attacks by 50% x\n     the number of Lightning chips equipped.\n     <color=yellow>[T-Frame]</color>\n②  Recovers CP by 5 each time you successfully\n     perform 3 Just Attacks\n[Effect Duration] 70 seconds"
+		"tr_explainLong": "①  Boosts the damage of Just Attacks by 45% x\n     the number of Lightning chips equipped.\n<color=yellow>SP: </color>Boosts the damage of Just Attacks by 50% x\n     the number of Lightning chips equipped.\n     <color=yellow>[T-Frame]</color>\n②  Recovers 5 CP each time you successfully\n     perform 3 Just Attacks\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "31901",
@@ -2335,14 +2335,14 @@
 		"jp_explainShort": "属性攻撃力を絶大増加＋定期的にＣＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルと炎・雷・闇属性の合計値に応じて\n　　 属性攻撃力を絶大に増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts elemental power by 5% + 8% x this chip's\n     ability level x your total Fire, Lightning and Dark\n     elements (max. total: 750) / 750.\n<color=yellow>SP: </color>Boosts elemental power by 5% + 9% x this chip's\n     ability level x your total Fire, Lightning and Dark\n     elements (max. total: 750) / 750.\n     <color=yellow>[R-Frame]</color>\n②  Recovers CP by 5 every 4.9 seconds.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Boosts elemental power by 5% + 8% x this chip's\n     ability level x your total Fire, Lightning and Dark\n     elements (max. total: 750) / 750.\n<color=yellow>SP: </color>Boosts elemental power by 5% + 9% x this chip's\n     ability level x your total Fire, Lightning and Dark\n     elements (max. total: 750) / 750.\n     <color=yellow>[R-Frame]</color>\n②  Recovers 5 CP every 4.9 seconds.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31950",
 		"jp_explainShort": "属性攻撃力を絶大増加＋定期的にＣＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルと炎・雷・闇属性の合計値に応じて\n　　 属性攻撃力を絶大に増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts elemental power by 5% + 10% x this chip's\n     ability level x your total Fire, Lightning and Dark\n     elements (max. total: 750) / 750.\n<color=yellow>SP: </color>Boosts elemental power by 5% + 11% x this chip's\n     ability level x your total Fire, Lightning and Dark\n     elements (max. total: 750) / 750.\n     <color=yellow>[R-Frame]</color>\n②  Recovers CP by 5 every 4.9 seconds.\n[Effect Duration] 70 seconds"
+		"tr_explainLong": "①  Boosts elemental power by 5% + 10% x this chip's\n     ability level x your total Fire, Lightning and Dark\n     elements (max. total: 750) / 750.\n<color=yellow>SP: </color>Boosts elemental power by 5% + 11% x this chip's\n     ability level x your total Fire, Lightning and Dark\n     elements (max. total: 750) / 750.\n     <color=yellow>[R-Frame]</color>\n②  Recovers 5 CP every 4.9 seconds.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "31951",
@@ -2573,14 +2573,14 @@
 		"jp_explainShort": "アネット抱き枕",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルと雷・風属性の合計値に応じて\n　　 属性攻撃力を増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts elemental power by 30% + ??% x your\n     total Lightning and Wind elements (max. total: 500)\n     / 500.\n<color=yellow>SP: </color>Boosts elemental power by 40% + ??% x your\n     total Lightning and Wind elements (max. total: 500)\n     / 500.\n     <color=yellow>[R-Frame]</color>\n②  Recovers CP by 5 every 4.9 seconds.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Boosts elemental power by 30% + ??% x your\n     total Lightning and Wind elements (max. total: 500)\n     / 500.\n<color=yellow>SP: </color>Boosts elemental power by 40% + ??% x your\n     total Lightning and Wind elements (max. total: 500)\n     / 500.\n     <color=yellow>[R-Frame]</color>\n②  Recovers 5 CP every 4.9 seconds.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "32024",
 		"jp_explainShort": "アネット抱き枕（解放後）",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルと雷・風属性の合計値に応じて\n　　 属性攻撃力を大きく増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts elemental power by 50% + ??% x your\n     total Lightning and Wind elements (max. total: 500)\n     / 500.\n<color=yellow>SP: </color>Boosts elemental power by 60% + ??% x your\n     total Lightning and Wind elements (max. total: 500)\n     / 500.\n     <color=yellow>[R-Frame]</color>\n②  Recovers CP by 5 every 4.9 seconds.\n[Effect Duration] 70 seconds"
+		"tr_explainLong": "①  Boosts elemental power by 50% + ??% x your\n     total Lightning and Wind elements (max. total: 500)\n     / 500.\n<color=yellow>SP: </color>Boosts elemental power by 60% + ??% x your\n     total Lightning and Wind elements (max. total: 500)\n     / 500.\n     <color=yellow>[R-Frame]</color>\n②  Recovers 5 CP every 4.9 seconds.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "32027",
@@ -2797,14 +2797,14 @@
 		"jp_explainShort": "敵を空中に斬り上げる大剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃ダメージを劇的に増加する。\n② 必殺技・法術チップが光属性か攻撃対象の\n　　 敵の弱点に有効な属性の場合\n　　 威力をわずかに増加する。\n③ 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts attack damage by 80%.\n<color=yellow>SP: </color>Boosts attack damage by 90%.\n     <color=yellow>[W-Frame]</color>\n②  Boosts damage by 19% if the equipped weapon's\n     element is Light, or if it matches the target's\n     elemental weakness.\n<color=yellow>SP: </color>Boosts damage by 20% if the equipped weapon's\n     element is Light, or if it matches the target's\n     elemental weakness.\n     <color=yellow>[H-Frame]</color>\n③  Recovers CP by 5 every 10 seconds.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Boosts attack damage by 80%.\n<color=yellow>SP: </color>Boosts attack damage by 90%.\n     <color=yellow>[W-Frame]</color>\n②  Boosts damage by 19% if the equipped weapon's\n     element is Light, or if it matches the target's\n     elemental weakness.\n<color=yellow>SP: </color>Boosts damage by 20% if the equipped weapon's\n     element is Light, or if it matches the target's\n     elemental weakness.\n     <color=yellow>[H-Frame]</color>\n③  Recovers 5 CP every 10 seconds.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "32129",
 		"jp_explainShort": "敵を空中に斬り上げる大剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃ダメージを劇的に増加する。\n② 必殺技・法術チップが光属性か攻撃対象の\n　　 敵の弱点に有効な属性の場合\n　　 威力をわずかに増加する。\n③ 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts attack damage by 100%.\n<color=yellow>SP: </color>Boosts attack damage by 110%.\n     <color=yellow>[W-Frame]</color>\n②  Boosts damage by 21% if the equipped weapon's\n     element is Light, or if it matches the target's\n     elemental weakness.\n<color=yellow>SP: </color>Boosts damage by 22% if the equipped weapon's\n     element is Light, or if it matches the target's\n     elemental weakness.\n     <color=yellow>[H-Frame]</color>\n③  Recovers CP by 5 every 10 seconds.\n[Effect Duration] 70 seconds"
+		"tr_explainLong": "①  Boosts attack damage by 100%.\n<color=yellow>SP: </color>Boosts attack damage by 110%.\n     <color=yellow>[W-Frame]</color>\n②  Boosts damage by 21% if the equipped weapon's\n     element is Light, or if it matches the target's\n     elemental weakness.\n<color=yellow>SP: </color>Boosts damage by 22% if the equipped weapon's\n     element is Light, or if it matches the target's\n     elemental weakness.\n     <color=yellow>[H-Frame]</color>\n③  Recovers 5 CP every 10 seconds.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "32130",
@@ -2825,14 +2825,14 @@
 		"jp_explainShort": "敵を空中に斬り上げる大剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 炎・風・光属性の合計値に応じて\n　　 属性攻撃力を超絶に増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts elemental power by 280% x your total\n     Fire, Wind and Light elements\n     (max. total: 500) / 500.\n<color=yellow>SP: </color>Boosts elemental power by 290% x your total\n     Fire, Wind and Light elements\n     (max. total: 500) / 500.\n     <color=yellow>[R-Frame]</color>\n②  Recovers CP by 5 every 4.9 seconds.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Boosts elemental power by 280% x your total\n     Fire, Wind and Light elements\n     (max. total: 500) / 500.\n<color=yellow>SP: </color>Boosts elemental power by 290% x your total\n     Fire, Wind and Light elements\n     (max. total: 500) / 500.\n     <color=yellow>[R-Frame]</color>\n②  Recovers 5 CP every 4.9 seconds.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "32133",
 		"jp_explainShort": "敵を空中に斬り上げる大剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 炎・風・光属性の合計値に応じて\n　　 属性攻撃力を極度に増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts elemental power by 300% x your total\n     Fire, Wind and Light elements\n     (max. total: 500) / 500.\n<color=yellow>SP: </color>Boosts elemental power by 310% x your total\n     Fire, Wind and Light elements\n     (max. total: 500) / 500.\n     <color=yellow>[R-Frame]</color>\n②  Recovers CP by 5 every 4.9 seconds.\n[Effect Duration] 70 seconds"
+		"tr_explainLong": "①  Boosts elemental power by 300% x your total\n     Fire, Wind and Light elements\n     (max. total: 500) / 500.\n<color=yellow>SP: </color>Boosts elemental power by 310% x your total\n     Fire, Wind and Light elements\n     (max. total: 500) / 500.\n     <color=yellow>[R-Frame]</color>\n②  Recovers 5 CP every 4.9 seconds.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "32140",
@@ -2902,14 +2902,14 @@
 		"jp_explainShort": "空中で回転攻撃を行う大剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃ダメージを絶大に増加する。\n② 装備中の敵の弱点に有効な属性のチップ数に応じて\n　　 属性によるダメージを増加する。\n③ 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts attack damage by 120%.\n<color=yellow>SP: </color>Boosts attack damage by 130%.\n     <color=yellow>[W-Frame]</color>\n②  Boosts damage by 5% x the number of equipped\n     chips of an element the target enemy is weak to.\n     <color=yellow>[S-Frame]</color>\n③  Recovers CP by 5 every 10 seconds.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Boosts attack damage by 120%.\n<color=yellow>SP: </color>Boosts attack damage by 130%.\n     <color=yellow>[W-Frame]</color>\n②  Boosts damage by 5% x the number of equipped\n     chips of an element the target enemy is weak to.\n     <color=yellow>[S-Frame]</color>\n③  Recovers 5 CP every 10 seconds.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "32165",
 		"jp_explainShort": "空中で回転攻撃を行う大剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃ダメージを絶大に増加する。\n② 装備中の敵の弱点に有効な属性のチップ数に応じて\n　　 属性によるダメージを増加する。\n③ 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts attack damage by 140%.\n<color=yellow>SP: </color>Boosts attack damage by 150%.\n     <color=yellow>[W-Frame]</color>\n②  Boosts damage by 5% x the number of equipped\n     chips of an element the target enemy is weak to.\n     <color=yellow>[S-Frame]</color>\n③  Recovers CP by 5 every 10 seconds.\n[Effect Duration] 70 seconds"
+		"tr_explainLong": "①  Boosts attack damage by 140%.\n<color=yellow>SP: </color>Boosts attack damage by 150%.\n     <color=yellow>[W-Frame]</color>\n②  Boosts damage by 5% x the number of equipped\n     chips of an element the target enemy is weak to.\n     <color=yellow>[S-Frame]</color>\n③  Recovers 5 CP every 10 seconds.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "32173",
@@ -2993,105 +2993,105 @@
 		"jp_explainShort": "対象を高速回転させる自在槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 敵に追加で超絶ダメージを与える。\n② 自身の通常攻撃と移動のスピードを加速する。\n③ 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Deals an additional ???% damage to enemies.\n     (<color=orange>Overwhelming</color>)\n     <color=yellow>[Chase]</color>\n②  Speeds up movement and normal attacks by ??%.\n③  Recovers CP by ? every ? seconds.\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Deals an additional 250% damage to enemies.\n<color=yellow>SP: </color>Deals an additional 260% damage to enemies.\n     <color=yellow>[Chase]</color>\n②  Speeds up movement and normal attacks by ??%.\n③  Recovers 5 CP every 4.9 seconds.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "32189",
 		"jp_explainShort": "対象を高速回転させる自在槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 敵に追加で超絶ダメージを与える。\n② 自身の通常攻撃と移動のスピードを加速する。\n③ 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Deals an additional ???% damage to enemies.\n     (<color=orange>Overwhelming</color>)\n     <color=yellow>[Chase]</color>\n②  Speeds up movement and normal attacks by ??%.\n③  Recovers CP by ? every ? seconds.\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Deals an additional 270% damage to enemies.\n<color=yellow>SP: </color>Deals an additional 280% damage to enemies.\n     <color=yellow>[Chase]</color>\n②  Speeds up movement and normal attacks by ??%.\n③  Recovers 5 CP every 4.9 seconds.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "32194",
 		"jp_explainShort": "対象を高速回転させる自在槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 定期的に攻撃力をわずかに増加する。（最大時：劇的）\n② 敵から受けるダメージを軽減する。\n[効果時間]長い時間",
-		"tr_explainLong": "① Boosts damage by ??% every ? seconds.\n     (Maximum boost: ??%)\n     (Slight, maximum Dramatic)\n② Reduces damage taken from enemies by 20%.\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by ??% every ? seconds.\n     (Maximum boost: ??%)\n② Reduces damage taken from enemies by 20%.\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32195",
 		"jp_explainShort": "対象を高速回転させる自在槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 定期的に攻撃力をわずかに増加する。（最大時：劇的）\n② 敵から受けるダメージを軽減する。\n[効果時間]長い時間",
-		"tr_explainLong": "① Boosts damage by ??% every ? seconds.\n     (Maximum boost: ??%)\n     (Slight, maximum Dramatic)\n② Reduces damage taken from enemies by 20%.\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by ??% every ? seconds.\n     (Maximum boost: ??%)\n② Reduces damage taken from enemies by 20%.\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32215",
 		"jp_explainShort": "奇妙な動きで乱舞する長槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技・法術チップが攻撃対象の\n　　 敵の弱点に有効な属性の場合\n　　 威力を超絶に増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by ???% when attacking with a\n     PA or Tech chip of an element the target is\n     weak to.\n     <color=yellow>(Great)</color>\n②  Recovers ? CP every 4.9 seconds.\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32216",
 		"jp_explainShort": "奇妙な動きで乱舞する長槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技・法術チップが攻撃対象の\n　　 敵の弱点に有効な属性の場合\n　　 威力を超絶に増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by ???% when attacking with a\n     PA or Tech chip of an element the target is\n     weak to.\n     <color=yellow>(Great)</color>\n②  Recovers ? CP every 4.9 seconds.\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32226",
 		"jp_explainShort": "奇妙な動きで乱舞する長槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 定期的に攻撃力をわずかに増加する。（最大時：絶大）\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by ??% every ? seconds.\n     (Maximum boost: ??%)\n②  Reduces CP consumption by ??%.\n     (Even applies to this chip's activation cost)\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32227",
 		"jp_explainShort": "奇妙な動きで乱舞する長槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 定期的に攻撃力をわずかに増加する。（最大時：絶大）\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by ??% every ? seconds.\n     (Maximum boost: ??%)\n②  Reduces CP consumption by ??%.\n     (Even applies to this chip's activation cost)\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32228",
 		"jp_explainShort": "奇妙な動きで乱舞する長槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 光属性を大きく強化する。\n② 敵に追加で特大ダメージを与える。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Increases your Light Element by ??.\n②  Deals an additional ??% damage to enemies.\n     <color=yellow>[Chase]</color>\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32229",
 		"jp_explainShort": "奇妙な動きで乱舞する長槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 光属性を劇的に強化する。\n② 敵に追加で特大ダメージを与える。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Increases your Light Element by ??.\n②  Deals an additional ??% damage to enemies.\n     <color=yellow>[Chase]</color>\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32230",
 		"jp_explainShort": "奇妙な動きで乱舞する長槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 威力を絶大に増加する。\n② ボス戦とタワークエストで\n　　 装備中の光属性チップの枚数に応じて\n　　 ①の効果の威力をさらに超絶に増加する。\n③ リンクスロットに装備したチップの属性が光属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts power by 130%.\n<color=yellow>SP: </color>Boosts power by 140%.\n     <color=yellow>[F-Frame]</color>\n②  Further boosts the effect of ① in boss battles\n     and Tower Quests by 40% x the number of\n     Light chips equipped.\n③  Extends the Effect Duration of chips' abilities by\n     10 seconds when they activate, if there is a\n     Light chip in this chip's Link Slot.\n④  While this chip is equipped, the equip costs of\n     Light PAs and Techs are halved.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "32231",
 		"jp_explainShort": "奇妙な動きで乱舞する長槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 威力を絶大に増加する。\n② ボス戦とタワークエストで\n　　 装備中の光属性チップの枚数に応じて\n　　 ①の効果の威力をさらに超絶に増加する。\n③ リンクスロットに装備したチップの属性が光属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts power by 150%.\n<color=yellow>SP: </color>Boosts power by 160%.\n     <color=yellow>[F-Frame]</color>\n②  Further boosts the effect of ① in boss battles\n     and Tower Quests by 40% x the number of\n     Light chips equipped.\n③  Extends the Effect Duration of chips' abilities by\n     10 seconds when they activate, if there is a\n     Light chip in this chip's Link Slot.\n④  While this chip is equipped, the equip costs of\n     Light PAs and Techs are halved.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "32232",
 		"jp_explainShort": "奇妙な動きで乱舞する長槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 威力を絶大に増加する。\n② ボス戦とタワークエストで\n　　 装備中の光属性チップの枚数に応じて\n　　 ①の効果の威力をさらに超絶に増加する。\n③ リンクスロットに装備したチップの属性が光属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts power by 170%.\n<color=yellow>SP: </color>Boosts power by 180%.\n     <color=yellow>[F-Frame]</color>\n②  Further boosts the effect of ① in boss battles\n     and Tower Quests by 40% x the number of\n     Light chips equipped.\n③  Extends the Effect Duration of chips' abilities by\n     10 seconds when they activate, if there is a\n     Light chip in this chip's Link Slot.\n④  While this chip is equipped, the equip costs of\n     all PAs and Techs are halved.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "32239",
 		"jp_explainShort": "奇妙な動きで乱舞する長槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃対象の敵の弱点に有効な属性による\n　　 ダメージを極度に増加する。\n② 攻撃対象の敵の弱点属性を劇的に強化する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts elemental damage by ???% against\n     enemies weak to that element.\n     <color=yellow>[S-Frame]</color>\n②  Increases all Elements that the target is weak\n     to by ???.\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32240",
 		"jp_explainShort": "奇妙な動きで乱舞する長槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃対象の敵の弱点に有効な属性による\n　　 ダメージを極度に増加する。\n② 攻撃対象の敵の弱点属性を劇的に強化する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts elemental damage by ???% against\n     enemies weak to that element.\n     <color=yellow>[S-Frame]</color>\n②  Increases all Elements that the target is weak\n     to by ???.\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "35002",
@@ -6822,112 +6822,112 @@
 		"jp_explainShort": "竜巻を発生させる風属性中級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「魔装脚用の必殺技」\n尋常ならざる速さで左右へ蹴り抜ける。\nその後、周囲に回転攻撃を放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Jet Boots PA]\nKick left and right at blinding speed.\nThen perform a rolling attack around yourself."
 	},
 	{
 		"assign": "60272",
 		"jp_explainShort": "敵を吸引する竜巻を生む風属性中級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「魔装脚用の必殺技」\n尋常ならざる速さで左右へ蹴り抜ける。\nその後、周囲に回転攻撃を放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Jet Boots PA]\nKick left and right at blinding speed.\nThen perform a rolling attack around yourself."
 	},
 	{
 		"assign": "60273",
 		"jp_explainShort": "敵を吸引する竜巻を生む風属性中級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「魔装脚用の必殺技」\n尋常ならざる速さで左右へ蹴り抜ける。\nその後、周囲に回転攻撃を放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Jet Boots PA]\nKick left and right at blinding speed.\nThen perform a rolling attack around yourself."
 	},
 	{
 		"assign": "60274",
 		"jp_explainShort": "凝縮した風を前方に放つ風属性上級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「魔装脚用の必殺技」\n尋常ならざる速さで左右へ蹴り抜ける。\nその後、周囲に回転攻撃を放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Jet Boots PA]\nKick left and right at blinding speed.\nThen perform a rolling attack around yourself."
 	},
 	{
 		"assign": "60275",
 		"jp_explainShort": "凝縮した風を前方に放つ風属性上級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「魔装脚用の必殺技」\n尋常ならざる速さで左右へ蹴り抜ける。\nその後、周囲に回転攻撃を放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Jet Boots PA]\nKick left and right at blinding speed.\nThen perform a rolling attack around yourself."
 	},
 	{
 		"assign": "60276",
 		"jp_explainShort": "凝縮した風を前方に放つ風属性上級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「魔装脚用の必殺技」\n尋常ならざる速さで左右へ蹴り抜ける。\nその後、周囲に回転攻撃を放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Jet Boots PA]\nKick left and right at blinding speed.\nThen perform a rolling attack around yourself."
 	},
 	{
 		"assign": "60277",
 		"jp_explainShort": "凝縮した風を前方に放つ風属性上級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「魔装脚用の必殺技」\n尋常ならざる速さで左右へ蹴り抜ける。\nその後、周囲に回転攻撃を放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Jet Boots PA]\nKick left and right at blinding speed.\nThen perform a rolling attack around yourself."
 	},
 	{
 		"assign": "60278",
 		"jp_explainShort": "凝縮した風を前方に放つ風属性上級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「魔装脚用の必殺技」\n尋常ならざる速さで左右へ蹴り抜ける。\nその後、周囲に回転攻撃を放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Jet Boots PA]\nKick left and right at blinding speed.\nThen perform a rolling attack around yourself."
 	},
 	{
 		"assign": "60279",
 		"jp_explainShort": "凝縮した風を前方に放つ風属性上級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「大砲用の必殺技」\n高威力グレネード弾を発射。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Launcher PA]\nFire a high-power grenade."
 	},
 	{
 		"assign": "60280",
 		"jp_explainShort": "光の矢を頭上に降らせる光属性初級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「大砲用の必殺技」\n高威力グレネード弾を発射。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Launcher PA]\nFire a high-power grenade."
 	},
 	{
 		"assign": "60281",
 		"jp_explainShort": "光の矢を頭上に降らせる光属性初級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「大砲用の必殺技」\n高威力グレネード弾を発射。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Launcher PA]\nFire a high-power grenade."
 	},
 	{
 		"assign": "60282",
 		"jp_explainShort": "光の矢を頭上に降らせる光属性初級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「大砲用の必殺技」\n高威力グレネード弾を発射。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Launcher PA]\nFire a high-power grenade."
 	},
 	{
 		"assign": "60283",
 		"jp_explainShort": "光の矢を頭上に降らせる光属性初級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「大砲用の必殺技」\n高威力グレネード弾を発射。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Launcher PA]\nFire a high-power grenade."
 	},
 	{
 		"assign": "60284",
 		"jp_explainShort": "光の矢を頭上に降らせる光属性初級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「大砲用の必殺技」\n高威力グレネード弾を発射。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Launcher PA]\nFire a high-power grenade."
 	},
 	{
 		"assign": "60285",
 		"jp_explainShort": "光の矢を頭上に降らせる光属性初級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「大砲用の必殺技」\n高威力グレネード弾を発射。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Launcher PA]\nFire a high-power grenade."
 	},
 	{
 		"assign": "60286",
 		"jp_explainShort": "光の剣で敵をなぎはらう光属性中級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "「大砲用の必殺技」\n高威力グレネード弾を発射。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Launcher PA]\nFire a high-power grenade."
 	},
 	{
 		"assign": "70110",
