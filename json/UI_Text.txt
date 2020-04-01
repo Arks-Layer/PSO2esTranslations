@@ -18152,7 +18152,7 @@
 	{
 		"assign": "filter_wepstate",
 		"jp_text": "ウェポノイド能力",
-		"tr_text": "Weaponoid Ability"
+		"tr_text": "Gaiden Effect"
 	},
 	{
 		"assign": "filter_user",
@@ -18302,12 +18302,12 @@
 	{
 		"assign": "filter_wepreleasebef",
 		"jp_text": "能力解放前",
-		"tr_text": "Normal"
+		"tr_text": "Not Unlocked"
 	},
 	{
 		"assign": "filter_wepreleaseaft",
 		"jp_text": "能力解放後",
-		"tr_text": "Released"
+		"tr_text": "Unlocked"
 	},
 	{
 		"assign": "filter_favorite",
