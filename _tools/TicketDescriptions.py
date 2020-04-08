@@ -189,8 +189,13 @@ cv_names = {
     "引坂 理絵": "Rie Hikisaka", "増田 俊樹": "Toshiki Masuda",
     "斉藤 壮馬": "Soma Saito", "藤田 茜": "Akane Fujita",
     "小松 未可子": "Mikako Komatsu", "本渡 楓": "Kaede Hondo",
-    "ポポナ": "Popona",
-    "？？？": "???", "Ｍ・Ａ・Ｏ": "M・A・O"
+    "ポポナ": "Popona", "清水 彩香": "Ayaka Shimizu",
+    "藤本 結衣": "Yui Fujimoto", "古賀 葵": "Aoi Koga",
+    "矢島 晶子": "Akiko Yajima", "藤田 曜子": "Yoko Fujita",
+    "天野 名雪": "Nayuki Amano", "佐藤 友啓": "Tomohiro Sato",
+    "千本木 彩花": "Sayaka Senbongi", "ゆかな": "Yukana",
+    "？？？": "???", "Ｍ・Ａ・Ｏ": "M・A・O",
+    "": "Unknown"
     }
 
 for item in items:

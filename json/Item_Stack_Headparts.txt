@@ -1708,11 +1708,25 @@
 		"tr_explain": "Unlocks the male Cast head\n\"Crysto Head\"\nfor use in the Beauty Salon."
 	},
 	{
+		"assign": "3160260",
+		"jp_text": "クリスト・ヘッドＣＶ",
+		"tr_text": "Crysto Head CV",
+		"jp_explain": "チケットを使用すると、新しい頭部の\nクリスト・ヘッドＣＶが選択可能。\nキャスト男性のみ使用可能。",
+		"tr_explain": "Unlocks the male Cast head\n\"Crysto Head CV\"\nfor use in the Beauty Salon."
+	},
+	{
 		"assign": "3160262",
 		"jp_text": "マーヴ・ヘッド",
 		"tr_text": "Marv Head",
 		"jp_explain": "チケットを使用すると、新しい頭部の\nマーヴ・ヘッドが選択可能。\nキャスト女性のみ使用可能。",
 		"tr_explain": "Unlocks the female Cast head\n\"Marv Head\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3160263",
+		"jp_text": "マーヴ・ヘッドＣＶ",
+		"tr_text": "Marv Head CV",
+		"jp_explain": "チケットを使用すると、新しい頭部の\nマーヴ・ヘッドＣＶが選択可能。\nキャスト女性のみ使用可能。",
+		"tr_explain": "Unlocks the female Cast head\n\"Marv Head CV\"\nfor use in the Beauty Salon."
 	},
 	{
 		"assign": "3160265",
@@ -2070,5 +2084,19 @@
 		"tr_text": "Liner Head",
 		"jp_explain": "チケットを使用すると、新しい頭部の\nライナー・ヘッドが選択可能。\nキャスト男性のみ使用可能。",
 		"tr_explain": "Unlocks the male Cast head\n\"Liner Head\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3160367",
+		"jp_text": "ヴァローナ・ヘッド",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい頭部の\nヴァローナ・ヘッドが選択可能。\nキャスト男性のみ使用可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3160368",
+		"jp_text": "フルータ・ヘッド",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい頭部の\nフルータ・ヘッドが選択可能。\nキャスト女性のみ使用可能。",
+		"tr_explain": ""
 	}
 ]

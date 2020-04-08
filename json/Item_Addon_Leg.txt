@@ -1050,6 +1050,20 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "530245",
+		"jp_text": "レッグ／ミラージュセル",
+		"tr_text": "Leg/Mirage Cell",
+		"jp_explain": "脚部ユニット。最新技術を用いた装甲。\n打射法、雷属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530246",
+		"jp_text": "レッグ／ノヴァセル",
+		"tr_text": "Leg/Nova Cell",
+		"jp_explain": "脚部ユニット。最新技術を用いた装甲。\n打射法、雷属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "530247",
 		"jp_text": "レッグ／インヴェリーフ",
 		"tr_text": "Leg/Invarif",
@@ -1215,6 +1229,132 @@
 		"jp_text": "レッグ／オフゼトロジー",
 		"tr_text": "Leg/Austology",
 		"jp_explain": "脚部ユニット。【深遠なる闇】の残骸。\n打射法撃、氷、風、光属性の耐性と\nＨＰ、ＰＰ、各種防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530293",
+		"jp_text": "レッグ／クローズリー",
+		"tr_text": "Leg/Close Lee",
+		"jp_explain": "脚部ユニット。戦闘用軽量強化装甲。\n打射法撃、炎、闇属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530294",
+		"jp_text": "レッグ／シャープバル",
+		"tr_text": "Leg/Sharp Bal",
+		"jp_explain": "脚部ユニット。フォトン循環を補助。\n打射法撃、雷、風属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530295",
+		"jp_text": "レッグ／センシアスオル",
+		"tr_text": "Leg/Sensias All",
+		"jp_explain": "脚部ユニット。フォトン励起を促進。\n打射法撃、氷、光属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530296",
+		"jp_text": "レッグ／レーベンスタ",
+		"tr_text": "Leg/Raven Star",
+		"jp_explain": "脚部ユニット。鋭い角を持つ翼が特徴。\n打射法撃、光属性の耐性と\n打撃、射撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530297",
+		"jp_text": "レッグ／イェーガーレイ",
+		"tr_text": "Leg/Jaeger Ray",
+		"jp_explain": "脚部ユニット。洗練さを持つフォルム。\n打射法撃、炎属性の耐性と\n射撃、法撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530298",
+		"jp_text": "レッグ／ルイリヴァイゼ",
+		"tr_text": "Leg/Ruili Weisse",
+		"jp_explain": "脚部ユニット。優美な曲線を描く。\n打射法撃、風属性の耐性と\n打撃、法撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530299",
+		"jp_text": "レッグ／エクエスグラ",
+		"tr_text": "Leg/Eques Gra",
+		"jp_explain": "脚部ユニット。衝撃を吸収する。\n打射法撃、氷属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530300",
+		"jp_text": "レッグ／ウィングヴァル",
+		"tr_text": "Leg/Wing Val",
+		"jp_explain": "脚部ユニット。防御に特化している。\n打射法撃、雷属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530301",
+		"jp_text": "レッグ／フィールニエレ",
+		"tr_text": "Leg/Feel Niere",
+		"jp_explain": "脚部ユニット。フォトン吸収を促す。\n打射法撃、闇属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530302",
+		"jp_text": "レッグ／ネイバーリル",
+		"tr_text": "Leg/Neighbor Riru",
+		"jp_explain": "脚部ユニット。威圧感を持つフォルム。\n打射法撃、闇属性の耐性と\n打撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530303",
+		"jp_text": "レッグ／サウザンメル",
+		"tr_text": "Leg/Thousand Mel",
+		"jp_explain": "脚部ユニット。抗衝撃軽量素材を採用。\n打射法撃、氷属性の耐性と\n射撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530304",
+		"jp_text": "レッグ／マギカミラ",
+		"tr_text": "Leg/Magica Mirr",
+		"jp_explain": "脚部ユニット。可愛さを重視した設計。\n打射法撃、雷属性の耐性と\n法撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530305",
+		"jp_text": "レッグ／ロニアポル",
+		"tr_text": "Leg/Ronia Pol",
+		"jp_explain": "脚部ユニット。機動性を最優先に設計。\n打撃、射撃、法撃の耐性と\n最大ＨＰ、各種防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530306",
+		"jp_text": "レッグ／ディスタデミ",
+		"tr_text": "Leg/Dista Demi",
+		"jp_explain": "脚部ユニット。信頼度高い防御性能。\n打撃、射撃、法撃の耐性と\n最大ＨＰ、各種防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530307",
+		"jp_text": "レッグ／ファウマトアノ",
+		"tr_text": "Leg/Fauma Toano",
+		"jp_explain": "脚部ユニット。広い範囲を防護する。\n打撃、射撃、法撃の耐性と\n最大ＨＰ、各種防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530308",
+		"jp_text": "レッグ／ローズリー",
+		"tr_text": "Leg/Rose Lee",
+		"jp_explain": "脚部ユニット。スリムで軽量のパーツ。\n打射法撃、雷属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530309",
+		"jp_text": "レッグ／ディールニエ",
+		"tr_text": "Leg/Deal Nie",
+		"jp_explain": "脚部ユニット。強固で軽量な装甲。\n打射法撃、闇属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530310",
+		"jp_text": "レッグ／ファーネンリオ",
+		"tr_text": "Leg/Fanen Rio",
+		"jp_explain": "脚部ユニット。鋭く尖った形状が特徴。\n打射法撃、氷属性の耐性と\n各種攻撃、防御を上昇させる。",
 		"tr_explain": ""
 	}
 ]
