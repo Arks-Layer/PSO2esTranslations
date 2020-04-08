@@ -18152,7 +18152,7 @@
 	{
 		"assign": "filter_wepstate",
 		"jp_text": "ウェポノイド能力",
-		"tr_text": "Weaponoid Ability"
+		"tr_text": "Gaiden Effect"
 	},
 	{
 		"assign": "filter_user",
@@ -18302,12 +18302,12 @@
 	{
 		"assign": "filter_wepreleasebef",
 		"jp_text": "能力解放前",
-		"tr_text": "Normal"
+		"tr_text": "Not Unlocked"
 	},
 	{
 		"assign": "filter_wepreleaseaft",
 		"jp_text": "能力解放後",
-		"tr_text": "Released"
+		"tr_text": "Unlocked"
 	},
 	{
 		"assign": "filter_favorite",
@@ -22692,12 +22692,12 @@
 	{
 		"assign": "scrach_term_maintenance",
 		"jp_text": "<%month>月<%day>日（<%week>)\n定期メンテナンスまで",
-		"tr_text": "Regular maintenance:\n<%month> <%day> (<%week>)"
+		"tr_text": "Regular maintenance:\n<%month>/<%day> (<%week>)"
 	},
 	{
 		"assign": "scrach_term_day",
 		"jp_text": "<%month>月<%day>日（<%week>)\n<%hour>時<%minute>分まで",
-		"tr_text": "Until <%month> <%day> (<%week>) <%hour>:<%minute>"
+		"tr_text": "Ends <%month>/<%day> (<%week>) <%hour>:<%minute>"
 	},
 	{
 		"assign": "scrach_term_monday",
@@ -22832,32 +22832,32 @@
 	{
 		"assign": "scratch_dialog_ac",
 		"jp_text": " <color=yellow>{0}</color><%AC>で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
-		"tr_text": "Using <color=yellow>{0}</color> <%AC>\nto draw from \"{1}\" <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
+		"tr_text": "Using <color=yellow>{0}</color> <%AC>\nto draw from {1} <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
 	},
 	{
 		"assign": "scratch_dialog_fun",
 		"jp_text": " <color=yellow>{0}</color>ＦＵＮで\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
-		"tr_text": "Using <color=yellow>{0}</color> FUN\nto draw from \"{1}\" <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
+		"tr_text": "Using <color=yellow>{0}</color> FUN\nto draw from {1} <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
 	},
 	{
 		"assign": "scratch_dialog_ac_scratch_ticket",
 		"jp_text": "ＡＣスクラッチ券 <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
-		"tr_text": "Using <color=yellow>{0}</color> AC Scratch tickets\nto draw from \"{1}\" <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
+		"tr_text": "Using <color=yellow>{0}</color> AC Scratch tickets\nto draw from {1} <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
 	},
 	{
 		"assign": "scratch_dialog_ac_gold_scratch",
 		"jp_text": "ＡＣスクラッチゴールド券 <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
-		"tr_text": "Using <color=yellow>{0}</color> AC Scratch gold tickets\nto draw from \"{1}\" <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
+		"tr_text": "Using <color=yellow>{0}</color> AC Scratch gold tickets\nto draw from {1} <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
 	},
 	{
 		"assign": "scratch_dialog_rappy_medal_scratch",
 		"jp_text": "ラッピーメダル <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
-		"tr_text": "Using <color=yellow>{0}</color> Rappy medals\nto draw from \"{1}\" <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
+		"tr_text": "Using <color=yellow>{0}</color> Rappy medals\nto draw from {1} <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
 	},
 	{
 		"assign": "scratch_dialog_scratch_ticket",
 		"jp_text": "スクラッチチケット <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
-		"tr_text": "Using <color=yellow>{0}</color> scratch tickets\nto draw from \"{1}\" <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
+		"tr_text": "Using <color=yellow>{0}</color> scratch tickets\nto draw from {1} <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
 	},
 	{
 		"assign": "scratch_have_ac_gold_ticket",
@@ -22867,17 +22867,17 @@
 	{
 		"assign": "scratch_have_rappy_medal",
 		"jp_text": "所持ラッピーメダル",
-		"tr_text": "Rappy Medals owned"
+		"tr_text": "Medals owned"
 	},
 	{
 		"assign": "scratch_have_scratch_es_ticket",
 		"jp_text": "所持スクラッチチケット",
-		"tr_text": "Scratch tickets owned"
+		"tr_text": "Tickets owned"
 	},
 	{
 		"assign": "scratch_have_rarity_ticket",
 		"jp_text": "所持 レアリティ確定チケット",
-		"tr_text": "Rarity Confirmation tickets owned"
+		"tr_text": "Tickets owned"
 	},
 	{
 		"assign": "scratch_have_fun",
