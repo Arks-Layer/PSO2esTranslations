@@ -1746,15 +1746,15 @@
 		"assign": "249",
 		"jp_text": "バトルロッドⅡ",
 		"tr_text": "Battle Rod II",
-		"jp_explain": "HP+25",
-		"tr_explain": "HP +25"
+		"jp_explain": "HP+30",
+		"tr_explain": "HP +30"
 	},
 	{
 		"assign": "250",
 		"jp_text": "バトルロッドⅢ",
 		"tr_text": "Battle Rod III",
-		"jp_explain": "HP+50",
-		"tr_explain": "HP +50"
+		"jp_explain": "HP+70",
+		"tr_explain": "HP +70"
 	},
 	{
 		"assign": "251",
@@ -2081,7 +2081,7 @@
 	{
 		"assign": "297",
 		"jp_text": "アプレジナ・レヴリー",
-		"tr_text": "Apprezina Reverie",
+		"tr_text": "Appregina Reverie",
 		"jp_explain": "打撃+20 射撃+40\n法撃+20 HP-10 PP-1",
 		"tr_explain": "S-ATK +20 R-ATK +40\nT-ATK +20 HP -10\nPP -1"
 	},
@@ -2559,6 +2559,48 @@
 		"jp_text": "イクシードレセプター",
 		"tr_text": "",
 		"jp_explain": "イクシード系特殊能力の\n継承成功率を大幅に上昇\n全+10",
+		"tr_explain": ""
+	},
+	{
+		"assign": "366",
+		"jp_text": "バトルブーツⅠ",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "367",
+		"jp_text": "バトルブーツⅡ",
+		"tr_text": "",
+		"jp_explain": "HP+10",
+		"tr_explain": ""
+	},
+	{
+		"assign": "368",
+		"jp_text": "バトルブーツⅢ",
+		"tr_text": "",
+		"jp_explain": "HP+30",
+		"tr_explain": ""
+	},
+	{
+		"assign": "369",
+		"jp_text": "エクゼクル・グレア",
+		"tr_text": "",
+		"jp_explain": "打撃+20 射撃+20\n法撃+20 打防+50\n射防+50 法防+50",
+		"tr_explain": ""
+	},
+	{
+		"assign": "370",
+		"jp_text": "ミトラ・グレア",
+		"tr_text": "",
+		"jp_explain": "打撃+30 射撃+30\n打防+20 射防+20\n法防+20 HP+20 PP+2",
+		"tr_explain": ""
+	},
+	{
+		"assign": "371",
+		"jp_text": "ヴァルナ・グレア",
+		"tr_text": "",
+		"jp_explain": "打撃+30 法撃+30\n打防+20 射防+20\n法防+20 HP+20 PP+2",
 		"tr_explain": ""
 	}
 ]

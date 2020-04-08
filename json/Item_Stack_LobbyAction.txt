@@ -2774,14 +2774,14 @@
 	{
 		"assign": "3230402",
 		"jp_text": "388「ＮＯＶＡポーズ１」",
-		"tr_text": "388 \"NOVA Pose 1\"",
+		"tr_text": "388 \"Nova Pose 1\"",
 		"jp_explain": "ロビアク『ＮＯＶＡポーズ１』\nを全キャラクターで使用可能になる。",
 		"tr_explain": "Unlocks the new lobby action\n\"NOVA Pose 1\"."
 	},
 	{
 		"assign": "3230403",
 		"jp_text": "389「ＮＯＶＡポーズ２」",
-		"tr_text": "389 \"NOVA Pose 2\"",
+		"tr_text": "389 \"Nova Pose 2\"",
 		"jp_explain": "ロビアク『ＮＯＶＡポーズ２』\nを全キャラクターで使用可能になる。",
 		"tr_explain": "Unlocks the new lobby action\n\"NOVA Pose 2\"."
 	},
@@ -4071,7 +4071,7 @@
 		"jp_text": "577「エトワールポーズ」",
 		"tr_text": "577 \"Etoile Pose\"",
 		"jp_explain": "ロビアク『エトワールポーズ』\nを全キャラクターで使用可能になる。\n対応機能：武器装備反映\n<yellow>“PS Vita”では武器装備の反映不可<c>",
-		"tr_explain": "Unlocks the new lobby action\n\"Etoile Pose\".\nShows equipment, has extra actions.\n<yellow>Doesn't show some weps, or on Vita<c>"
+		"tr_explain": "Unlocks the new lobby action\n\"Etoile Pose\".\nShows your equipment.\n<yellow>Doesn't show some weps, or on Vita<c>"
 	},
 	{
 		"assign": "3230592",
@@ -4151,6 +4151,20 @@
 		"tr_explain": "Unlocks the new lobby action\n\"EP Oracle 2\".\nUse action buttons for extra actions."
 	},
 	{
+		"assign": "3230604",
+		"jp_text": "590「ＥＰオラクル３」",
+		"tr_text": "590 \"EP Oracle 3\"",
+		"jp_explain": "ロビアク『ＥＰオラクル３』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
+		"tr_explain": "Unlocks the new lobby action\n\"EP Oracle 2\".\nUse action buttons for extra actions."
+	},
+	{
+		"assign": "3230605",
+		"jp_text": "591「ＥＰオラクル通信」",
+		"tr_text": "591 \"EP Oracle Communication\"",
+		"jp_explain": "ロビアク『ＥＰオラクル通信』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
+		"tr_explain": "Unlocks the new lobby action\n\"EP Oracle Communication\".\nUse action buttons for extra actions."
+	},
+	{
 		"assign": "3230606",
 		"jp_text": "592「二代目ＫＫポーズ」",
 		"tr_text": "592 \"2nd Gen. CC Pose\"",
@@ -4198,5 +4212,110 @@
 		"tr_text": "598 \"Office Chair\"",
 		"jp_explain": "ロビアク『オフィスチェア』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
 		"tr_explain": "Unlocks the new lobby action\n\"Office Chair\".\nUse action buttons for extra actions."
+	},
+	{
+		"assign": "3230616",
+		"jp_text": "602「ソニック／テイルス」",
+		"tr_text": "602 \"Sonic/Tails\"",
+		"jp_explain": "ロビアク『ソニック／テイルス』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
+		"tr_explain": "Unlocks the new lobby action\n\"Sonic/Tails\".\nUse action buttons for extra actions."
+	},
+	{
+		"assign": "3230617",
+		"jp_text": "603「抱き枕」",
+		"tr_text": "603 \"Body Pillow\"",
+		"jp_explain": "ロビアク『抱き枕』\nを全キャラクターで使用可能になる。\n対応機能：武器装備反映\n<yellow>“PS Vita”では武器装備の反映不可<c>",
+		"tr_explain": "Unlocks the new lobby action\n\"Body Pillow\".\nShows your equipment.\n<yellow>Doesn't show some weps, or on Vita<c>"
+	},
+	{
+		"assign": "3230618",
+		"jp_text": "604「ホルシード＆アフタル」",
+		"tr_text": "604 \"Khorshid & Akhtar\"",
+		"jp_explain": "ロビアク『ホルシード＆アフタル』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
+		"tr_explain": "Unlocks the new lobby action\n\"Khorshid & Akhtar\".\nUse action buttons for extra actions."
+	},
+	{
+		"assign": "3230619",
+		"jp_text": "605「ジェネポーズ」",
+		"tr_text": "605 \"Gene Pose\"",
+		"jp_explain": "ロビアク『ジェネポーズ』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生／武器装備反映\n<yellow>“PS Vita”では武器装備の反映不可<c>",
+		"tr_explain": "Unlocks the new lobby action\n\"Gene Pose\".\nShows equipment, has extra actions.\n<yellow>Doesn't show some weps, or on Vita<c>"
+	},
+	{
+		"assign": "3230621",
+		"jp_text": "607「時計ポーズ」",
+		"tr_text": "607 \"Clock Pose\"",
+		"jp_explain": "ロビアク『時計ポーズ』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
+		"tr_explain": "Unlocks the new lobby action\n\"Clock Pose\".\nUse action buttons for extra actions."
+	},
+	{
+		"assign": "3230622",
+		"jp_text": "608「ゼクト＆みたらし」",
+		"tr_text": "608 \"Zekt & Mitarashi\"",
+		"jp_explain": "ロビアク『ゼクト＆みたらし』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
+		"tr_explain": "Unlocks the new lobby action\n\"Zekt & Mitarashi\".\nUse action buttons for extra actions."
+	},
+	{
+		"assign": "3230623",
+		"jp_text": "609「Ｖｏパフォーマンス１０」",
+		"tr_text": "609 \"Vo Performance 10\"",
+		"jp_explain": "ロビアク『Ｖｏパフォーマンス１０』\nを全キャラクターで使用可能になる。",
+		"tr_explain": "Unlocks the new lobby action\n\"Vo Performance 10\"."
+	},
+	{
+		"assign": "3230624",
+		"jp_text": "610「タクトポーズ」",
+		"tr_text": "610 \"Takt Pose\"",
+		"jp_explain": "ロビアク『タクトポーズ』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生／武器装備反映\n<yellow>“PS Vita”では武器装備の反映不可<c>",
+		"tr_explain": "Unlocks the new lobby action\n\"Takt Pose\".\nShows equipment, has extra actions.\n<yellow>Doesn't show some weps, or on Vita<c>"
+	},
+	{
+		"assign": "3230625",
+		"jp_text": "611「エッグレース」",
+		"tr_text": "611 \"Egg Race\"",
+		"jp_explain": "ロビアク『エッグレース』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3230626",
+		"jp_text": "612「パルチザンポーズ」",
+		"tr_text": "",
+		"jp_explain": "ロビアク『パルチザンポーズ』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生／武器装備反映\n<yellow>“PS Vita”では武器装備の反映不可<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3230627",
+		"jp_text": "613「どこでもピクニック１」",
+		"tr_text": "",
+		"jp_explain": "ロビアク『どこでもピクニック１』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3230640",
+		"jp_text": "626「Ｅｔ＆Ｐｈ」",
+		"tr_text": "626 \"Et & Ph\"",
+		"jp_explain": "ロビアク『Ｅｔ＆Ｐｈ』\nを全キャラクターで使用可能になる。\n対応機能：武器装備反映\n<yellow>“PS Vita”と一部武器では反映不可<c>",
+		"tr_explain": "Unlocks the new lobby action\n\"Et & Ph\".\nShows equipment, has extra actions.\n<yellow>Doesn't show some weps, or on Vita<c>"
+	},
+	{
+		"assign": "3230641",
+		"jp_text": "627「新サクラ大戦Ａ」",
+		"tr_text": "",
+		"jp_explain": "ロビアク『新サクラ大戦Ａ』\nを全キャラクターで使用可能になる。\n対応機能：武器装備反映\n<yellow>“PS Vita”と一部武器では反映不可<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3230642",
+		"jp_text": "628「新サクラ大戦Ｂ」",
+		"tr_text": "",
+		"jp_explain": "ロビアク『新サクラ大戦Ｂ』\nを全キャラクターで使用可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3230675",
+		"jp_text": "661「どこでもピクニック２」",
+		"tr_text": "",
+		"jp_explain": "ロビアク『どこでもピクニック２』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
+		"tr_explain": ""
 	}
 ]
