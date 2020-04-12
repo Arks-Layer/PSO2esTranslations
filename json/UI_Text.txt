@@ -16987,12 +16987,12 @@
 	{
 		"assign": "SideSt_Select_Area_Title",
 		"jp_text": "外伝クエストエリア選択",
-		"tr_text": "Gaiden Area Select"
+		"tr_text": "Gaiden Areas"
 	},
 	{
 		"assign": "SideSt_Select_Quest_Title",
 		"jp_text": "外伝クエスト選択",
-		"tr_text": "Gaiden Quest Select"
+		"tr_text": "Gaiden Quests"
 	},
 	{
 		"assign": "SideSt_Select_No_Quest",
@@ -17017,7 +17017,7 @@
 	{
 		"assign": "SideSt_Weaponoid_Window_Title",
 		"jp_text": "外伝チップ一覧",
-		"tr_text": ""
+		"tr_text": "Gaiden Chip List"
 	},
 	{
 		"assign": "SideSt_Weaponoid_Sort_Normal",
@@ -17237,22 +17237,22 @@
 	{
 		"assign": "sidestory_voice_playbtn_word1",
 		"jp_text": "セリフ１",
-		"tr_text": ""
+		"tr_text": "Line 1"
 	},
 	{
 		"assign": "sidestory_voice_playbtn_word2",
 		"jp_text": "セリフ２",
-		"tr_text": ""
+		"tr_text": "Line 2"
 	},
 	{
 		"assign": "sidestory_voice_playbtn_word3",
 		"jp_text": "セリフ３",
-		"tr_text": ""
+		"tr_text": "Line 3"
 	},
 	{
 		"assign": "sidestory_voice_playbtn_word4",
 		"jp_text": "セリフ４",
-		"tr_text": ""
+		"tr_text": "Line 4"
 	},
 	{
 		"assign": "sidestory_story_replay_unknownsotry",
@@ -17367,17 +17367,17 @@
 	{
 		"assign": "sidestory_guide_message_01",
 		"jp_text": "<color=#f0df60>キャラクターの外伝クエストに出発できます。クエストは、外伝のあるキャラクターのチップを装備してクエストをプレイすることで解放されます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>From here, you can start a Gaiden Quest for this character. Gaiden Quests are unlocked by clearing quests while equipped with the character's chip.</color>"
 	},
 	{
 		"assign": "sidestory_guide_message_02",
 		"jp_text": "<color=#f0df60>外伝が配信されているキャラクターの一覧です。入手済みの外伝チップは明るく表示されます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>This is a list of all characters with available Gaidens. Chips you have obtained will be shown lit up.</color>"
 	},
 	{
 		"assign": "sidestory_guide_message_03",
 		"jp_text": "<color=#f0df60>キャラクターのさまざまな情報を確認することができます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Here, you can check various things relating to the character.</color>"
 	},
 	{
 		"assign": "weaponoid_boost_info_commingsoon",
@@ -18807,7 +18807,7 @@
 	{
 		"assign": "acceptbox_chip_over_message",
 		"jp_text": "チップパックの空き容量不足のため、受け取れません。\n\nチップパックを拡張するか\n強化／売却をして整理してください。",
-		"tr_text": ""
+		"tr_text": "Could not receive due to lack of space in your Chip Pack.\n\nPlease either expand your Chip Pack\nor get rid of some chips by selling them\nor using them as Grind material."
 	},
 	{
 		"assign": "acceptbox_item_over_message",
@@ -18822,7 +18822,7 @@
 	{
 		"assign": "acceptbox_materialchip_over_message",
 		"jp_text": "素材の保有数の上限を超えるため、受け取れません。\n\n各素材の保有数は「チップ倉庫拡張」で増やすことができます。\nチップ倉庫拡張／強化／売却をして整理してください。",
-		"tr_text": ""
+		"tr_text": "Cannot receive as you have reached your\nmaximum limit for materials.\n\nYou can increase your limit by expanding your Chip Storage.\nPlease clear some space by selling/using chips\nor by expanding Chip Storage."
 	},
 	{
 		"assign": "acceptbox_dialog_items",
@@ -18907,27 +18907,27 @@
 	{
 		"assign": "base_item_special_weapon",
 		"jp_text": "?",
-		"tr_text": ""
+		"tr_text": "?"
 	},
 	{
 		"assign": "base_item_per",
 		"jp_text": "%",
-		"tr_text": ""
+		"tr_text": "%"
 	},
 	{
 		"assign": "base_item_plus",
 		"jp_text": "+",
-		"tr_text": ""
+		"tr_text": "+"
 	},
 	{
 		"assign": "base_item_lv",
 		"jp_text": "Lv.",
-		"tr_text": ""
+		"tr_text": "Lv."
 	},
 	{
 		"assign": "base_item_num_format",
 		"jp_text": "×{0}",
-		"tr_text": ""
+		"tr_text": "x {0}"
 	},
 	{
 		"assign": "menu_pso2_collect_search",
@@ -20927,22 +20927,22 @@
 	{
 		"assign": "towerquest_ranking_undercount_title",
 		"jp_text": "タワーランキングの集計中",
-		"tr_text": "Compiling tower ranking"
+		"tr_text": "Compiling Tower Ranking"
 	},
 	{
 		"assign": "towerquest_ranking_undercount_body",
 		"jp_text": "ランキング報酬の受け取り期間\n\n　受け取り開始　<%StartTime>\n　受け取り終了　<%EndTime>",
-		"tr_text": ""
+		"tr_text": "Ranking reward availability period:\n\nStart time: <%StartTime>\nEnd time: <%EndTime>"
 	},
 	{
 		"assign": "towerquest_ranking_expired_title",
 		"jp_text": "ランキング報酬の受け取り期限切れ",
-		"tr_text": ""
+		"tr_text": "Ranking Rewards Expired"
 	},
 	{
 		"assign": "towerquest_ranking_expired_body",
 		"jp_text": "ランキング報酬の受け取り期間を過ぎたため\n報酬は受け取れません。\n\n　受け取り終了　<%EndTime>",
-		"tr_text": ""
+		"tr_text": "You cannot receive ranking rewards\nbecause the availability period has ended.\n\nEnd time: <%EndTime>"
 	},
 	{
 		"assign": "towerquest_top_target_time",
@@ -20957,7 +20957,7 @@
 	{
 		"assign": "towerquest_time_format",
 		"jp_text": "{0:0}：{1:00}．{2:00}",
-		"tr_text": "{0:0}：{1:00}．{2:00}"
+		"tr_text": "{0:0}:{1:00}, {2:00}"
 	},
 	{
 		"assign": "towerquest_fp_linetext_player_condition",
