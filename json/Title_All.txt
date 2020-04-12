@@ -1244,43 +1244,43 @@
 	{
 		"assign": "100704300",
 		"jp_text": "断罪の閃機を討ちし者",
-		"tr_text": "Attacked the Luminescent Judge",
+		"tr_text": "Slayed the Luminous Judge",
 		"tr_explain": "Defeat Nemes Ange once"
 	},
 	{
 		"assign": "100704310",
 		"jp_text": "断罪の閃機を絶つ者",
-		"tr_text": "Felled the Luminescent Judge",
+		"tr_text": "Broke the Luminous Judge",
 		"tr_explain": "Defeat Nemes Ange 10 times"
 	},
 	{
 		"assign": "100704320",
 		"jp_text": "断罪の閃機を滅する者",
-		"tr_text": "Destroyed the Luminescent Judge",
+		"tr_text": "Destroyed the Luminous Judge",
 		"tr_explain": "Defeat Nemes Ange 30 times"
 	},
 	{
 		"assign": "100704330",
 		"jp_text": "終の閃機を討ちし者",
-		"tr_text": "Attacked the Luminescent Wall",
+		"tr_text": "Slayed the Luminous Wall",
 		"tr_explain": "Defeat Demoire Dominus once"
 	},
 	{
 		"assign": "100704340",
 		"jp_text": "終の閃機を絶つ者",
-		"tr_text": "Felled the Luminescent Wall",
+		"tr_text": "Broke the Luminous Wall",
 		"tr_explain": "Defeat Demoire Dominus 10 times"
 	},
 	{
 		"assign": "100704350",
 		"jp_text": "終の閃機を滅する者",
-		"tr_text": "Destroyed the Luminescent Wall",
+		"tr_text": "Destroyed the Luminous Wall",
 		"tr_explain": "Defeat Demoire Dominus 30 times"
 	},
 	{
 		"assign": "100704360",
 		"jp_text": "疾駆の閃機を討ちし者",
-		"tr_text": "Felled the Luminescent Runner",
+		"tr_text": "Slayed the Luminous Runner",
 		"tr_explain": "Defeat Avar Nemesis once"
 	},
 	{
@@ -1336,6 +1336,24 @@
 		"jp_text": "猛る悪神を脅かす者",
 		"tr_text": "Угрожающий жестоким богам",
 		"tr_explain": "Победите Магацу Ретарга 30 раз"
+	},
+	{
+		"assign": "100704460",
+		"jp_text": "破壊の閃機を討ちし者",
+		"tr_text": "Slayed the Luminous Destroyer",
+		"tr_explain": "Defeat Grav Execour once"
+	},
+	{
+		"assign": "100704470",
+		"jp_text": "破壊の閃機を絶つ者",
+		"tr_text": "Broke the Luminous Destroyer",
+		"tr_explain": "Defeat Grav Execour 10 times"
+	},
+	{
+		"assign": "100704480",
+		"jp_text": "破壊の閃機を滅する者",
+		"tr_text": "Destroyed the Luminous Destroyer",
+		"tr_explain": "Defeat Grav Execour 30 times"
 	},
 	{
 		"assign": "100705000",
@@ -1424,7 +1442,7 @@
 	{
 		"assign": "100705140",
 		"jp_text": "幻創の神を超えし者",
-		"tr_text": "Surpassor of the Phantom God",
+		"tr_text": "Surpasser of the Phantom God",
 		"tr_explain": "Defeat Deus ESC-A Gracia 30 times"
 	},
 	{
@@ -7780,6 +7798,84 @@
 		"jp_text": "汎用人型決戦兵器",
 		"tr_text": "All-Purpose Humanoid Weapon",
 		"tr_explain": "Clear The Sixth Angel\nwith an S rank on UH"
+	},
+	{
+		"assign": "304301000",
+		"jp_text": "正しき選択を見つけし者",
+		"tr_text": "One Who Saw the Right Choice",
+		"tr_explain": "Earn 5,000,000 total Divide Points"
+	},
+	{
+		"assign": "304301010",
+		"jp_text": "正しき選択を探りし者",
+		"tr_text": "One Who Sought the Right Choice",
+		"tr_explain": "Earn 25,000,000 total Divide Points"
+	},
+	{
+		"assign": "304301020",
+		"jp_text": "正しき選択を進みし者",
+		"tr_text": "One Who Made the Right Choice",
+		"tr_explain": "Earn 50,000,000 total Divide Points"
+	},
+	{
+		"assign": "304301030",
+		"jp_text": "正しき選択を導く者",
+		"tr_text": "One Who Showed the Right Choice",
+		"tr_explain": "Earn 75,000,000 total Divide Points"
+	},
+	{
+		"assign": "304301040",
+		"jp_text": "正しき選択を見極めし者",
+		"tr_text": "One Who Knows the Right Choice",
+		"tr_explain": "Earn 100,000,000 total Divide Points"
+	},
+	{
+		"assign": "304302000",
+		"jp_text": "逆境に遭いし者",
+		"tr_text": "One Who Met Adversity",
+		"tr_explain": "Earn 250,000 weekly Divide Points"
+	},
+	{
+		"assign": "304302010",
+		"jp_text": "逆境に抗いし者",
+		"tr_text": "One Who Resisted Adversity",
+		"tr_explain": "Earn 500,000 weekly Divide Points"
+	},
+	{
+		"assign": "304302020",
+		"jp_text": "逆境と戦いし者",
+		"tr_text": "One Who Fought Adversity",
+		"tr_explain": "Earn 1,000,000 weekly Divide Points"
+	},
+	{
+		"assign": "304302030",
+		"jp_text": "逆境に打ち勝つ者",
+		"tr_text": "One Who Overcame Adversity",
+		"tr_explain": "Earn 2,000,000 weekly Divide Points"
+	},
+	{
+		"assign": "304302040",
+		"jp_text": "逆境を揺ね退けし者",
+		"tr_text": "One Who Overthrew Adversity",
+		"tr_explain": "Earn 3,000,000 weekly Divide Points"
+	},
+	{
+		"assign": "304303000",
+		"jp_text": "分割世界を抜ける者",
+		"tr_text": "Escaper of the Divided World",
+		"tr_explain": "Clear a Divide Quest at Step 10"
+	},
+	{
+		"assign": "304303010",
+		"jp_text": "分割世界を駆ける者",
+		"tr_text": "Traveller of the Divided World",
+		"tr_explain": "Clear a Divide Quest at Step 20"
+	},
+	{
+		"assign": "304303020",
+		"jp_text": "分割世界 を統べる者",
+		"tr_text": "Controller of the Divided World",
+		"tr_explain": "Clear a Divide Quest at Step 30"
 	},
 	{
 		"assign": "307000000",
