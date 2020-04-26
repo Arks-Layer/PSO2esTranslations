@@ -626,7 +626,7 @@
 	{
 		"assign": "100500840",
 		"jp_text": "天壌の司令官",
-		"tr_text": "Heavenly Commander",
+		"tr_text": "Heavenly Captain",
 		"tr_explain": "Reach Lv. 75 as Summoner\n<yellow>Class Boost: HP +10, S-DEF +40\nR-DEF +40, T-DEF +40<c>"
 	},
 	{
@@ -7474,6 +7474,30 @@
 		"jp_text": "闇の痕跡を拭う者",
 		"tr_text": "Wiper Away of Dark Traces",
 		"tr_explain": "Clear Training: Traces of Darkness\non Ultra Hard"
+	},
+	{
+		"assign": "305004000",
+		"jp_text": "熾烈な防衛訓練を制し者",
+		"tr_text": "Harsh Training Masterer",
+		"tr_explain": "Clear Mining Base Defense Practice: VR\nwith an S rank on Ultra Hard"
+	},
+	{
+		"assign": "305004010",
+		"jp_text": "苛酷なる防衛訓練の新鋭",
+		"tr_text": "Tough Training Up-and-Comer",
+		"tr_explain": "Clear Mining Base Defense Practice: VR\non Ultra Hard once"
+	},
+	{
+		"assign": "305004020",
+		"jp_text": "",
+		"tr_text": "",
+		"tr_explain": "Clear Mining Base Defense Practice: VR\non Ultra Hard 5 times"
+	},
+	{
+		"assign": "305004030",
+		"jp_text": "",
+		"tr_text": "",
+		"tr_explain": "Clear Mining Base Defense Practice: VR\non Ultra Hard 10 times"
 	},
 	{
 		"assign": "306000000",
