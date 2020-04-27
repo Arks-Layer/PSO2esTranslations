@@ -626,7 +626,7 @@
 	{
 		"assign": "100500840",
 		"jp_text": "天壌の司令官",
-		"tr_text": "Heavenly Commander",
+		"tr_text": "Heavenly Captain",
 		"tr_explain": "Alcanzar Nv.75 como Summoner\n<yellow>Mejora Clase: HP +10, S-DEF +40\nR-DEF +40, T-DEF +40<c>"
 	},
 	{
@@ -6895,7 +6895,7 @@
 	},
 	{
 		"assign": "303061210",
-		"jp_text": "幻創の極限を超えし明星",
+		"jp_text": "幻創の極限を越えし明星",
 		"tr_text": "Phantom-Breaking Star",
 		"tr_explain": "Complete floor 5 of EX Training:\nTerran Phantoms as a Etoile"
 	},
@@ -7410,6 +7410,12 @@
 		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Guardians & the Maiden's Power\"\nwith an S rank on Normal"
 	},
 	{
+		"assign": "304200060",
+		"jp_text": "地球を守りし者",
+		"tr_text": "One Who Protected the Earth",
+		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Demise Approaches Earth\"\nwith an S rank on Normal"
+	},
+	{
 		"assign": "305000000",
 		"jp_text": "最強に挑みし者",
 		"tr_text": "Claimant to be the Strongest",
@@ -7468,6 +7474,30 @@
 		"jp_text": "闇の痕跡を拭う者",
 		"tr_text": "Wiper Away of Dark Traces",
 		"tr_explain": "Clear Training: Traces of Darkness\non Ultra Hard"
+	},
+	{
+		"assign": "305004000",
+		"jp_text": "熾烈な防衛訓練を制し者",
+		"tr_text": "Harsh Training Master",
+		"tr_explain": "Clear Mining Base Defense Practice: VR\nwith an S rank on Ultra Hard"
+	},
+	{
+		"assign": "305004010",
+		"jp_text": "苛酷なる防衛訓練の新鋭",
+		"tr_text": "Tough Training Contender",
+		"tr_explain": "Clear Mining Base Defense Practice: VR\non Ultra Hard once"
+	},
+	{
+		"assign": "305004020",
+		"jp_text": "苛酷なる防衛訓練の勇士",
+		"tr_text": "Tough Training Challenger",
+		"tr_explain": "Clear Mining Base Defense Practice: VR\non Ultra Hard 5 times"
+	},
+	{
+		"assign": "305004030",
+		"jp_text": "苛酷なる防衛訓練の豪傑",
+		"tr_text": "Tough Training Champion",
+		"tr_explain": "Clear Mining Base Defense Practice: VR\non Ultra Hard 10 times"
 	},
 	{
 		"assign": "306000000",
@@ -7855,7 +7885,7 @@
 	},
 	{
 		"assign": "304302040",
-		"jp_text": "逆境を揺ね退けし者",
+		"jp_text": "逆境を撥ね退けし者",
 		"tr_text": "One Who Overthrew Adversity",
 		"tr_explain": "Earn 3,000,000 weekly Divide Points"
 	},
