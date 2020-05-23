@@ -5117,17 +5117,17 @@
 	{
 		"assign": "myshop_sales_tab_3",
 		"jp_text": "回収状況",
-		"tr_text": "Collections"
+		"tr_text": "Payment"
 	},
 	{
 		"assign": "myshop_sales_collect_true",
 		"jp_text": "回収済み",
-		"tr_text": "Collected"
+		"tr_text": "Claimed"
 	},
 	{
 		"assign": "myshop_sales_collect_false",
 		"jp_text": "<color=#f0df60>未回収</color>",
-		"tr_text": "<color=#f0df60>Unpaid</color>"
+		"tr_text": "<color=#f0df60>Unclaimed</color>"
 	},
 	{
 		"assign": "myshop_sales_label",
