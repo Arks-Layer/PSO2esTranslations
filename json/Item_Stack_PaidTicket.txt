@@ -1295,6 +1295,27 @@
 		"tr_explain": "Use to immediately receive\n5,000,000 EXP."
 	},
 	{
+		"assign": "3200199",
+		"jp_text": "ミッションパススター券",
+		"tr_text": "Mission Pass Star Ticket",
+		"jp_explain": "ミッションパス用のチケット。\n使用するとスターを１つ増加する。",
+		"tr_explain": "A ticket for your Mission Pass.\nUse to immediately receive 1 Star."
+	},
+	{
+		"assign": "3200204",
+		"jp_text": "ミッションパスティア券",
+		"tr_text": "Mission Pass Tier Ticket",
+		"jp_explain": "ミッションパス用のチケット。\n使用するとティアを１つ増加する。",
+		"tr_explain": "A ticket for your Mission Pass.\nUse to increase your Tier by 1."
+	},
+	{
+		"assign": "3200205",
+		"jp_text": "ミッションパスゴールド券",
+		"tr_text": "Mission Pass Gold Ticket",
+		"jp_explain": "ミッションパス用のチケット。\n使用すると現在のシーズンのみ\nゴールド報酬が獲得可能になる。",
+		"tr_explain": "A ticket for your Mission Pass.\nUse to receive Gold rewards for\nthe current season."
+	},
+	{
 		"assign": "3200206",
 		"jp_text": "経験値獲得２２２万",
 		"tr_text": "2,220,000 EXP Ticket",
@@ -1314,5 +1335,12 @@
 		"tr_text": "Material Storage 15 Days",
 		"jp_explain": "素材倉庫の利用許可チケット。\nオーダーアイテム／素材を格納する\n素材倉庫が１５日間利用可能になる。",
 		"tr_explain": "Ticket permission for Material\nStorage. Stores Materials and\nOrder Items for 15 days."
+	},
+	{
+		"assign": "3200278",
+		"jp_text": "経験値獲得５０万",
+		"tr_text": "500,000 EXP Ticket",
+		"jp_explain": "経験値の授与申請チケット。\n使用したクラスの経験値を\n【５０万】獲得可能。",
+		"tr_explain": "Use to immediately receive\n500,000 EXP."
 	}
 ]
