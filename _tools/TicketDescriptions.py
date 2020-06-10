@@ -193,7 +193,8 @@ cv_names = {
     "藤本 結衣": "Yui Fujimoto", "古賀 葵": "Aoi Koga",
     "矢島 晶子": "Akiko Yajima", "藤田 曜子": "Yoko Fujita",
     "天野 名雪": "Nayuki Amano", "佐藤 友啓": "Tomohiro Sato",
-    "千本木 彩花": "Sayaka Senbongi", "ゆかな": "Yukana",
+    "千本木 彩花": "Sayaka Senbongi", "ゆかな": "Yukana Nogami",
+    "佐武 宇綺": "Uki Satake", 
     "？？？": "???", "Ｍ・Ａ・Ｏ": "M・A・O",
     "": "Unknown"
     }
