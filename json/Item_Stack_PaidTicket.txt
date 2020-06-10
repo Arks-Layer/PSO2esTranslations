@@ -1107,10 +1107,10 @@
 	},
 	{
 		"assign": "3200169",
-		"jp_text": "ストライクガスト／Ｒ ",
-		"tr_text": "Strike Gust/R",
+		"jp_text": "ストライクガスト／Ｒ",
+		"tr_text": "",
 		"jp_explain": "使用すると該当ＰＡの\nカスタマイズをリセットする。",
-		"tr_explain": "Reset PA crafts back\nto defaults when used."
+		"tr_explain": ""
 	},
 	{
 		"assign": "3200170",
@@ -1335,6 +1335,489 @@
 		"tr_text": "Material Storage 15 Days",
 		"jp_explain": "素材倉庫の利用許可チケット。\nオーダーアイテム／素材を格納する\n素材倉庫が１５日間利用可能になる。",
 		"tr_explain": "Ticket permission for Material\nStorage. Stores Materials and\nOrder Items for 15 days."
+	},
+	{
+		"assign": "3200209",
+		"jp_text": "ナギサのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ナギサ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200210",
+		"jp_text": "ジェネのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ジェネ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200211",
+		"jp_text": "イツキのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「イツキ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200212",
+		"jp_text": "イツキのＰＣ２",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「イツキ２」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200213",
+		"jp_text": "ＲＩＮＡのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ＲＩＮＡ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200214",
+		"jp_text": "ＳＯＲＯのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ＳＯＲＯ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200215",
+		"jp_text": "†コア†のＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「†コア†」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200216",
+		"jp_text": "リリカのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「リリカ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200217",
+		"jp_text": "ムサシのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ムサシ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200218",
+		"jp_text": "弓子のＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「弓子」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200219",
+		"jp_text": "ラスト侍のＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ラスト侍」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200220",
+		"jp_text": "キッドのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「キッド」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200221",
+		"jp_text": "シルバのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「シルバ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200222",
+		"jp_text": "イーサンのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「イーサン」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200223",
+		"jp_text": "カレンのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「カレン」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200224",
+		"jp_text": "オーガキャッツのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「オーガキャッツ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200225",
+		"jp_text": "マスターネズミのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「マスターネズミ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200226",
+		"jp_text": "エミリアのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「エミリア」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200227",
+		"jp_text": "ヴィヴィアンのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ヴィヴィアン」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200228",
+		"jp_text": "ジェネのＰＣ２",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ジェネ２」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200229",
+		"jp_text": "ジェネのＰＣ３",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ジェネ３」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200230",
+		"jp_text": "アネットのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「アネット」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200231",
+		"jp_text": "ブルーノのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ブルーノ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200232",
+		"jp_text": "ライアのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ライア」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200233",
+		"jp_text": "ルミアのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ルミア」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200234",
+		"jp_text": "ヤミガラスのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ヤミガラス」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200235",
+		"jp_text": "アヴェンジャーのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「アヴェンジャー」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200236",
+		"jp_text": "ブルージーＲのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ブルージーＲ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200237",
+		"jp_text": "ニレンカムイのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ニレンカムイ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200238",
+		"jp_text": "ライトニングＥのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ライトニングＥ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200239",
+		"jp_text": "シューティングＤのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「シューティングＤ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200240",
+		"jp_text": "ラヴィス=ブレイドのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ラヴィス=ブレイド」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200241",
+		"jp_text": "ノクスカディナのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ノクスカディナ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200242",
+		"jp_text": "ジェネのＰＣ４",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ジェネ４」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200243",
+		"jp_text": "アネットのＰＣ２",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「アネット２」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200244",
+		"jp_text": "ブルージーＲのＰＣ２",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ブルージーＲ２」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200245",
+		"jp_text": "スペース・ツナのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「スペース・ツナ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200246",
+		"jp_text": "フォルニスフィジスのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「フォルニスフィジス」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200247",
+		"jp_text": "ヤスミ８０００ＣのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ヤスミ８０００Ｃ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200248",
+		"jp_text": "エルデトロスのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「エルデトロス」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200249",
+		"jp_text": "アギトのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「アギト」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200250",
+		"jp_text": "朱鬼姫シキのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「朱鬼姫シキ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200251",
+		"jp_text": "朱鬼坊オウドのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「朱鬼坊オウド」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200252",
+		"jp_text": "藍鬼姫シキのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「藍鬼姫シキ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200253",
+		"jp_text": "藍鬼坊オウドのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「藍鬼坊オウド」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200254",
+		"jp_text": "クララのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「クララ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200255",
+		"jp_text": "ニクスのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ニクス」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200256",
+		"jp_text": "キジカのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「キジカ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200257",
+		"jp_text": "りらのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「りら」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200258",
+		"jp_text": "クイナのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「クイナ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200259",
+		"jp_text": "エリのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「エリ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200260",
+		"jp_text": "ポリタンのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ポリタン」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200261",
+		"jp_text": "パートニャーのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「パートニャー」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200262",
+		"jp_text": "マトイのＰＣ２",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「マトイ２」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200263",
+		"jp_text": "パティのＰＣ２",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「パティ２」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200264",
+		"jp_text": "ティアのＰＣ２",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ティア２」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200265",
+		"jp_text": "オークゥのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「オークゥ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200266",
+		"jp_text": "フルのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「フル」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200267",
+		"jp_text": "エンガのＰＣ２",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「エンガ２」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200268",
+		"jp_text": "ヒューイのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ヒューイ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200269",
+		"jp_text": "シエラのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「シエラ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200270",
+		"jp_text": "ヒツギのＰＣ２",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ヒツギ２」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200271",
+		"jp_text": "コオリのＰＣ２",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「コオリ２」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200272",
+		"jp_text": "ユクリータのＰＣ２",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ユクリータ２」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200273",
+		"jp_text": "アフィンのＰＣ２",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「アフィン２」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200274",
+		"jp_text": "ハリエットのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ハリエット」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200275",
+		"jp_text": "ルーサーのＰＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ルーサー」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200276",
+		"jp_text": "ストラトスのＰＣ２",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「ストラトス２」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200277",
+		"jp_text": "キョクヤのＰＣ２",
+		"tr_text": "",
+		"jp_explain": "使用すると\n「キョクヤ２」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "3200278",
