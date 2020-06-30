@@ -261,7 +261,7 @@
 	{
 		"assign": "53046",
 		"jp_text": "レッグ／ネグロウィッチ",
-		"tr_text": "Leg/Negro Witch",
+		"tr_text": "Leg/Nero Witch",
 		"jp_explain": "脚部ユニット。硬飛膜で機動性を確保。\n風属性への耐性と\n法撃防御を上昇させる。",
 		"tr_explain": ""
 	},
@@ -1162,6 +1162,20 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "530275",
+		"jp_text": "レッグ／バルクヴァル",
+		"tr_text": "Leg/Val Kuvale",
+		"jp_explain": "脚部ユニット。損傷と欠損が激しい。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530276",
+		"jp_text": "レッグ／アトラクヴァル",
+		"tr_text": "Leg/Atlas Kuvale",
+		"jp_explain": "脚部ユニット。発掘後、美しく修復。\n打射法撃の耐性、最大ＨＰ、ＰＰ\n各種攻撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "530277",
 		"jp_text": "レッグ／ノヴェルマス",
 		"tr_text": "Leg/Novel Mass",
@@ -1355,6 +1369,13 @@
 		"jp_text": "レッグ／ファーネンリオ",
 		"tr_text": "Leg/Fanen Rio",
 		"jp_explain": "脚部ユニット。鋭く尖った形状が特徴。\n打射法撃、氷属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "530311",
+		"jp_text": "レッグ／オフゼリーヴル",
+		"tr_text": "Leg/Austerevel",
+		"jp_explain": "脚部ユニット。【深遠なる闇】の残骸。\n打射法撃、氷、風、光属性の耐性と\nＨＰ、ＰＰ、各種防御を上昇させる。",
 		"tr_explain": ""
 	}
 ]

@@ -207,7 +207,9 @@ character_names = {
     "禍杖ノチウハウ": "Evil Nochiuhau", "ドリームマスター": "Dream Master",
     "華天狼": "Katen Rou", "カザミノタチ": "Kazami-no-tachi",
     "グランディア": "Grandia", "シェルオプス": "Shell Opus",
-    "ジェネ＆仲間たち": "Gene & Friends",
+    "ジェネ＆仲間たち": "Gene & Friends", "ローズサーバー": "Rose Server",
+    "デュエルゲイズ": "Duel Gaze", "セイガーズ　－1": "Other Seigas",
+    "ショーの観客たち": "Spectators",
     "ナレーション": "Narration", "？？？": "???" #Generics
     }
 

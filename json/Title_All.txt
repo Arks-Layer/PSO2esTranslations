@@ -816,6 +816,18 @@
 		"tr_explain": "Достигните 95ур. Этуалем"
 	},
 	{
+		"assign": "100502000",
+		"jp_text": "隻手にて衝天を刻みし者",
+		"tr_text": "Supreme First-Class",
+		"tr_explain": "Obtain 5 or more Lv.95 Class Level\ntitles"
+	},
+	{
+		"assign": "100502010",
+		"jp_text": "",
+		"tr_text": "",
+		"tr_explain": "Obtain 10 or more Lv.95 Class Level\ntitles"
+	},
+	{
 		"assign": "100510000",
 		"jp_text": "打撃を極めし者",
 		"tr_text": "Мастер ближнего боя",
@@ -1011,19 +1023,19 @@
 		"assign": "100701000",
 		"jp_text": "悪神を止める者",
 		"tr_text": "Усмиритель злых богов",
-		"tr_explain": "Победите Магацу Сай 1 раз"
+		"tr_explain": "Победите Магацу 1 раз"
 	},
 	{
 		"assign": "100701010",
 		"jp_text": "悪神を討つ者",
 		"tr_text": "Разрушитель злых богов",
-		"tr_explain": "Победите Магацу Сай 50 раз"
+		"tr_explain": "Победите Магацу 50 раз"
 	},
 	{
 		"assign": "100701020",
 		"jp_text": "悪神を祓う者",
 		"tr_text": "Очиститель злых богов",
-		"tr_explain": "Победите Магацу Сай 100 раз"
+		"tr_explain": "Победите Магацу 100 раз"
 	},
 	{
 		"assign": "100702000",
@@ -2877,7 +2889,7 @@
 		"assign": "200301800",
 		"jp_text": "斬り裂く双鋏",
 		"tr_text": "Разрывные парные ножницы",
-		"tr_explain": "Заточите Gwanah Dagger на +10"
+		"tr_explain": "Заточите Gwanah Daggers на +10"
 	},
 	{
 		"assign": "200400000",
@@ -5949,7 +5961,7 @@
 		"assign": "300780210",
 		"jp_text": "最後のさよならの突破者",
 		"tr_text": "Последний прощальный разрушитель",
-		"tr_explain": ""
+		"tr_explain": "Завершите сюжетный квест Эп.1\n\"The Final Goodbye\"\nс S рангом на Нормально"
 	},
 	{
 		"assign": "300780300",
@@ -6003,7 +6015,7 @@
 		"assign": "300780460",
 		"jp_text": "現れる偽りの覇者【敗者】の突破者",
 		"tr_text": "Paragon of Deceit: [Loser] Ace",
-		"tr_explain": "Clear the EPISODE 2 Story Quest\n\"Paragon of Deceit: [Loser]\"\nwith an S rank on Normal"
+		"tr_explain": "Завершите сюжетный квест Эп.2\n\"Paragon of Deceit: [Loser]\"\nс S рангом на Нормально"
 	},
 	{
 		"assign": "300780470",
@@ -7395,25 +7407,25 @@
 		"assign": "304200030",
 		"jp_text": "甦りし希望を迎えし者",
 		"tr_text": "One Who Revived Hope",
-		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Decision of a Young Lady\"\nwith an S rank on Normal"
+		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Decision of a Young Lady\"\nwith an S rank on Hardcore"
 	},
 	{
 		"assign": "304200040",
 		"jp_text": "反撃の狼煙を上げし者",
 		"tr_text": "One Who Launched a Counterattack",
-		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"Turning the Tables\"\nwith an S rank on Normal"
+		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"Turning the Tables\"\nwith an S rank on Hardcore"
 	},
 	{
 		"assign": "304200050",
 		"jp_text": "神子と共に立ち向かいし者",
 		"tr_text": "One Who Stood With the Miko",
-		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Guardians & the Maiden's Power\"\nwith an S rank on Normal"
+		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Guardians & the Maiden's Power\"\nwith an S rank on Hardcore"
 	},
 	{
 		"assign": "304200060",
 		"jp_text": "地球を守りし者",
 		"tr_text": "One Who Protected the Earth",
-		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Demise Approaches Earth\"\nwith an S rank on Normal"
+		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Demise Approaches Earth\"\nwith an S rank on Hardcore"
 	},
 	{
 		"assign": "305000000",
@@ -7906,6 +7918,12 @@
 		"jp_text": "分割世界を統べる者",
 		"tr_text": "Controller of the Divided World",
 		"tr_explain": "Clear a Divide Quest at Step 30"
+	},
+	{
+		"assign": "306100000",
+		"jp_text": "異なる【敗者】を超えし者",
+		"tr_text": "Bested the New [Loser]",
+		"tr_explain": "Trigger Quest: S-Rank clear\n\"Rebirth of Desire for Knowledge\"\non Ultra Hard"
 	},
 	{
 		"assign": "307000000",
@@ -10172,7 +10190,7 @@
 	{
 		"assign": "400224000",
 		"jp_text": "§イチカ§の闇の眷属",
-		"tr_text": "§イチカ§'s Dark Kin",
+		"tr_text": "§Ichika§'s Dark Kin",
 		"tr_explain": "Clear 10 Quests with §Ichika§\nin the party"
 	},
 	{
