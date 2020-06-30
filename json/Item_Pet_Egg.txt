@@ -795,7 +795,7 @@
 		"jp_text": "ラッピーエッグ★１４",
 		"tr_text": "Rappy Egg 14★",
 		"jp_explain": "ペット「ラッピー」のエッグ。\n使用するとラッピーが\nペット登録され、育成可能となる。",
-		"tr_explain": "Rappy-type Egg.\nUse it to register\nand raise this pet."
+		"tr_explain": "Rappy-type Egg.\nUse it to register and raise\nthis pet."
 	},
 	{
 		"assign": "1210147",
@@ -828,8 +828,22 @@
 	{
 		"assign": "1210307",
 		"jp_text": "ＥＸＰエッグ★１４",
-		"tr_text": "",
+		"tr_text": "EXP Egg 14★",
 		"jp_explain": "ペット育成促進用のエッグ。\nペットとして育成はできないが\nエッグ合成に使用可能。",
-		"tr_explain": ""
+		"tr_explain": "Facilitates Pet growth.\nWill not register a pet, but\ncan be used for synthesis."
+	},
+	{
+		"assign": "1210308",
+		"jp_text": "グラスエッグ★１４",
+		"tr_text": "Glass Egg 14★",
+		"jp_explain": "ペット「グラス」のエッグ。\n使用するかレドランからレアリティ進化\nすることでペット登録される。",
+		"tr_explain": "Glass-type Egg.\nUse it to register and raise\nthis pet."
+	},
+	{
+		"assign": "1210309",
+		"jp_text": "グラスＳエッグ★１４",
+		"tr_text": "Glass S Egg 14★",
+		"jp_explain": "ペット「グラス」のエッグ。\n使用するかレドランからレアリティ進化\nすることでペット登録される。",
+		"tr_explain": "Glass-type Egg.\nUse it to register and raise\nthis pet."
 	}
 ]

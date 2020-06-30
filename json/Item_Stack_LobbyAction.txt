@@ -3455,7 +3455,7 @@
 		"jp_text": "489「湯もみ」",
 		"tr_text": "489 \"Yumomi\"",
 		"jp_explain": "ロビアク『湯もみ』\nを全キャラクターで使用可能になる。",
-		"tr_explain": "Aprende una nueva accion de lobby\n\"Stir Hot Water\"."
+		"tr_explain": "Aprende una nueva accion de lobby\n\"Yumomi\"."
 	},
 	{
 		"assign": "3230504",
@@ -3579,7 +3579,7 @@
 	{
 		"assign": "3230521",
 		"jp_text": "507「斜めポーズ」",
-		"tr_text": "507 \"Slanted Pose\"",
+		"tr_text": "507 \"Lean Pose\"",
 		"jp_explain": "ロビアク『斜めポーズ』\nを全キャラクターで使用可能になる。",
 		"tr_explain": "Aprende una nueva accion de lobby\n\"Slanted Pose\"."
 	},
@@ -4251,9 +4251,9 @@
 	{
 		"assign": "3230622",
 		"jp_text": "608「ゼクト＆みたらし」",
-		"tr_text": "608 \"Zekt & Mitarashi\"",
+		"tr_text": "608 \"Zect & Mitarashi\"",
 		"jp_explain": "ロビアク『ゼクト＆みたらし』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
-		"tr_explain": "Aprende una nueva accion de lobby\n\"Zekt & Mitarashi\".\nUse action buttons for extra actions."
+		"tr_explain": "Aprende una nueva accion de lobby\n\"Zect & Mitarashi\".\nUse action buttons for extra actions."
 	},
 	{
 		"assign": "3230623",
@@ -4279,9 +4279,9 @@
 	{
 		"assign": "3230626",
 		"jp_text": "612「パルチザンポーズ」",
-		"tr_text": "612 \"Partisan Pose\"",
+		"tr_text": "612 \"Partizan Pose\"",
 		"jp_explain": "ロビアク『パルチザンポーズ』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生／武器装備反映\n<yellow>“PS Vita”では武器装備の反映不可<c>",
-		"tr_explain": "Unlocks the new lobby action\n\"Partisan Pose\".\nShows equipment, has extra actions.\n<yellow>Doesn't show some weps, or on Vita<c>"
+		"tr_explain": "Unlocks the new lobby action\n\"Partizan Pose\".\nShows equipment, has extra actions.\n<yellow>Doesn't show some weps, or on Vita<c>"
 	},
 	{
 		"assign": "3230627",
@@ -4289,6 +4289,69 @@
 		"tr_text": "613 \"Impromptu Picnic 1\"",
 		"jp_explain": "ロビアク『どこでもピクニック１』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
 		"tr_explain": "Unlocks the new lobby action\n\"Impromptu Picnic 1\".\nUse action buttons for extra actions."
+	},
+	{
+		"assign": "3230628",
+		"jp_text": "614「ナックルポーズ」",
+		"tr_text": "614 \"Knuckle Pose\"",
+		"jp_explain": "ロビアク『ナックルポーズ』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生／武器装備反映\n<yellow>“PS Vita”と一部武器では反映不可<c>",
+		"tr_explain": "Unlocks the new lobby action\n\"Knuckle Pose\".\nShows equipment, has extra actions.\n<yellow>Doesn't show some weps, or on Vita<c>"
+	},
+	{
+		"assign": "3230629",
+		"jp_text": "615「端末操作３」",
+		"tr_text": "615 \"Terminal 3\"",
+		"jp_explain": "ロビアク『端末操作３』\nを全キャラクターで使用可能になる。",
+		"tr_explain": "Unlocks the new lobby action\n\"Terminal 3\"."
+	},
+	{
+		"assign": "3230630",
+		"jp_text": "616「ダンス５９」",
+		"tr_text": "616 \"Dance 59\"",
+		"jp_explain": "ロビアク『ダンス５９』\nを全キャラクターで使用可能になる。",
+		"tr_explain": "Unlocks the new lobby action\n\"Dance 59\"."
+	},
+	{
+		"assign": "3230631",
+		"jp_text": "617「ＰＷ×ＰＳＯ２」",
+		"tr_text": "617 \"PW x PSO2\"",
+		"jp_explain": "ロビアク『ＰＷ×ＰＳＯ２』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
+		"tr_explain": "Unlocks the new lobby action\n\"PW x PSO2\".\nUse action buttons for extra actions."
+	},
+	{
+		"assign": "3230632",
+		"jp_text": "618「ＰＲポーズ３」",
+		"tr_text": "618 \"PR Pose 3\"",
+		"jp_explain": "ロビアク『ＰＲポーズ３』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
+		"tr_explain": "Unlocks the new lobby action\n\"PR Pose 3\".\nUse action buttons for extra actions."
+	},
+	{
+		"assign": "3230634",
+		"jp_text": "620「ガンスラッシュポーズ」",
+		"tr_text": "620 \"Gunslash Pose\"",
+		"jp_explain": "ロビアク『ガンスラッシュポーズ』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生／武器装備反映\n<yellow>“PS Vita”と一部武器では反映不可<c>",
+		"tr_explain": "Unlocks the new lobby action\n\"Gunslash Pose\".\nShows equipment, has extra actions.\n<yellow>Doesn't show some weps, or on Vita<c>"
+	},
+	{
+		"assign": "3230636",
+		"jp_text": "622「ティーカップ」",
+		"tr_text": "622 \"Teacup\"",
+		"jp_explain": "ロビアク『ティーカップ』\nを全キャラクターで使用可能になる。",
+		"tr_explain": "Unlocks the new lobby action\n\"Teacup\"."
+	},
+	{
+		"assign": "3230637",
+		"jp_text": "623「アスレチック」",
+		"tr_text": "",
+		"jp_explain": "ロビアク『アスレチック』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3230638",
+		"jp_text": "624「風船ガムで飛ぶ」",
+		"tr_text": "",
+		"jp_explain": "ロビアク『風船ガムで飛ぶ』\nを全キャラクターで使用可能になる。\n対応機能：ボタン派生",
+		"tr_explain": ""
 	},
 	{
 		"assign": "3230640",
