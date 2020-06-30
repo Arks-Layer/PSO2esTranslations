@@ -816,6 +816,18 @@
 		"tr_explain": "Alcanzar Nv.95 como Etoile"
 	},
 	{
+		"assign": "100502000",
+		"jp_text": "隻手にて衝天を刻みし者",
+		"tr_text": "Supreme First-Class",
+		"tr_explain": "Obtain 5 or more Lv.95 Class Level\ntitles"
+	},
+	{
+		"assign": "100502010",
+		"jp_text": "",
+		"tr_text": "",
+		"tr_explain": "Obtain 10 or more Lv.95 Class Level\ntitles"
+	},
+	{
 		"assign": "100510000",
 		"jp_text": "打撃を極めし者",
 		"tr_text": "Maestro del Striking",
@@ -1011,19 +1023,19 @@
 		"assign": "100701000",
 		"jp_text": "悪神を止める者",
 		"tr_text": "Supresor de Deidades Malignas",
-		"tr_explain": "Derrotar a Magatsu Sai\n1 vez"
+		"tr_explain": "Derrotar a Magatsu\n1 vez"
 	},
 	{
 		"assign": "100701010",
 		"jp_text": "悪神を討つ者",
 		"tr_text": "Destructor de Deidades Malignas",
-		"tr_explain": "Derrotar a Magatsu Sai\n50 veces"
+		"tr_explain": "Derrotar a Magatsu\n50 veces"
 	},
 	{
 		"assign": "100701020",
 		"jp_text": "悪神を祓う者",
 		"tr_text": "Purificador de Deidades Malignas",
-		"tr_explain": "Derrotar a Magatsu Sai\n100 veces"
+		"tr_explain": "Derrotar a Magatsu\n100 veces"
 	},
 	{
 		"assign": "100702000",
@@ -2877,7 +2889,7 @@
 		"assign": "200301800",
 		"jp_text": "斬り裂く双鋏",
 		"tr_text": "Tearing Twin Scissors",
-		"tr_explain": "Mejorar Gwanah Dagger a +10"
+		"tr_explain": "Mejorar Gwanah Daggers a +10"
 	},
 	{
 		"assign": "200400000",
@@ -6003,7 +6015,7 @@
 		"assign": "300780460",
 		"jp_text": "現れる偽りの覇者【敗者】の突破者",
 		"tr_text": "Paragon of Deceit: [Loser] Ace",
-		"tr_explain": "Clear the EPISODE 2 Story Quest\n\"Paragon of Deceit: [Loser]\"\nwith an S rank on Normal"
+		"tr_explain": "Clear the EPISODE 2 Story Quest\n\"Paragon of Deceit: [Loser]\"\nwith an S rank on Hardcore"
 	},
 	{
 		"assign": "300780470",
@@ -7395,25 +7407,25 @@
 		"assign": "304200030",
 		"jp_text": "甦りし希望を迎えし者",
 		"tr_text": "One Who Revived Hope",
-		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Decision of a Young Lady\"\nwith an S rank on Normal"
+		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Decision of a Young Lady\"\nwith an S rank on Hardcore"
 	},
 	{
 		"assign": "304200040",
 		"jp_text": "反撃の狼煙を上げし者",
 		"tr_text": "One Who Launched a Counterattack",
-		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"Turning the Tables\"\nwith an S rank on Normal"
+		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"Turning the Tables\"\nwith an S rank on Hardcore"
 	},
 	{
 		"assign": "304200050",
 		"jp_text": "神子と共に立ち向かいし者",
 		"tr_text": "One Who Stood With the Miko",
-		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Guardians & the Maiden's Power\"\nwith an S rank on Normal"
+		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Guardians & the Maiden's Power\"\nwith an S rank on Hardcore"
 	},
 	{
 		"assign": "304200060",
 		"jp_text": "地球を守りし者",
 		"tr_text": "One Who Protected the Earth",
-		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Demise Approaches Earth\"\nwith an S rank on Normal"
+		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Demise Approaches Earth\"\nwith an S rank on Hardcore"
 	},
 	{
 		"assign": "305000000",
@@ -7906,6 +7918,12 @@
 		"jp_text": "分割世界を統べる者",
 		"tr_text": "Controller of the Divided World",
 		"tr_explain": "Clear a Divide Quest at Step 30"
+	},
+	{
+		"assign": "306100000",
+		"jp_text": "異なる【敗者】を超えし者",
+		"tr_text": "Bested the New [Loser]",
+		"tr_explain": "Trigger Quest: S-Rank clear\n\"Rebirth of Desire for Knowledge\"\non Ultra Hard"
 	},
 	{
 		"assign": "307000000",

@@ -1185,14 +1185,14 @@
 	{
 		"assign": "1100298",
 		"jp_text": "アルバＴマシンガン-NT",
-		"tr_text": "Alva T. Machinegun-NT",
+		"tr_text": "Alva T. Machineguns-NT",
 		"jp_explain": "アークスで使用される改良型の双機銃。\n砲身を伸張して射程不足を克服し\n弾倉の改良により連射性能も向上した。",
 		"tr_explain": "Improved twin machineguns used by\nARKS. The barrel was extended for\nrange, and the magazine is improved."
 	},
 	{
 		"assign": "1100299",
 		"jp_text": "ヴィタＴマシンガン-NT",
-		"tr_text": "Vita T. Machinegun-NT",
+		"tr_text": "Vita T. Machineguns-NT",
 		"jp_explain": "基礎モデルに改良を加えた双機銃。\n課題であった衝撃吸収と安定性を確保し\n一層の軽量化がなされた。",
 		"tr_explain": "Machineguns that further improve on\nthe base model. Has shock absorbers\nto improve stability and save weight."
 	},
@@ -1362,6 +1362,20 @@
 		"jp_text": "アレティアスウィープ",
 		"tr_text": "Aletheia Sweep",
 		"jp_explain": "古より伝わる陽光の双機銃。\n聖なる光に包まれし祝福の弾丸は\n災禍を撃ち抜き、平穏をもたらす。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1100331",
+		"jp_text": "クリーサバラージャ",
+		"tr_text": "Krisa Baraja",
+		"jp_explain": "豪華絢爛な装飾が施された双機銃。\n小振りながらも強く美しい一対の銃は\n空を舞い飛ぶ鳥を想起させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1100332",
+		"jp_text": "ミリオンバラージャ",
+		"tr_text": "Million Baraja",
+		"jp_explain": "豪華絢爛な装飾が施された双機銃。\n形状が異なる左右の銃を組み合わせれば\nたちまち弾雨の嵐を巻き起こす。",
 		"tr_explain": ""
 	},
 	{

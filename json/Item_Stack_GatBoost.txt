@@ -32,7 +32,7 @@
 		"jp_text": "森林アユのトマト煮",
 		"tr_text": "Fresh Tomato Stewed Sweetfish",
 		"jp_explain": "時間を掛けて煮込んだ魚の料理。\n【３分間】大型取得率＋１００％\n追加採取、釣り率＋２０％\n<yellow>同種の料理は効果が上書きされます。<c>",
-		"tr_explain": "Simmered fish dish.\n[3 min] +100% Large Material Rate\n+20% Extra Harvest&Fishing Rate\n<yellow>Same dish will overwrite the effect.<c>"
+		"tr_explain": "Simmered fish dish.\n[3 min] +100% Large Material Rate\n+20% Extra Harvest/Fishing Rate\n<yellow>Same dish will overwrite the effect.<c>"
 	},
 	{
 		"assign": "35008",
@@ -46,26 +46,26 @@
 		"jp_text": "遺跡エビのかき揚げ",
 		"tr_text": "Ruins Shrimp Tempura",
 		"jp_explain": "小さなエビを衣でつなぎ、揚げた料理。\n【３分間】中型取得率＋１００％\n追加採取、釣り率＋２０％\n<yellow>同種の料理は効果が上書きされます。<c>",
-		"tr_explain": "Battered deep-fried fish dish.\n[3 min] +100% Medium Material Rate\n+20% Extra Harvest&Fishing Rate\n<yellow>Same dish will overwrite the effect.<c>"
+		"tr_explain": "Battered deep-fried fish dish.\n[3 min] +100% Medium Material Rate\n+20% Extra Harvest/Fishing Rate\n<yellow>Same dish will overwrite the effect.<c>"
 	},
 	{
 		"assign": "350010",
 		"jp_text": "海岸ハギの塩焼き",
-		"tr_text": "Coast Grilled Triggerfish",
+		"tr_text": "Grilled Coast Filefish",
 		"jp_explain": "魚に塩を振って焼いたシンプルな料理。\n【３分間】果実取得率＋４００％\n追加採取率＋５％\n<yellow>同種の料理は効果が上書きされます。<c>",
 		"tr_explain": "Smoky fish dish sprinkled with salt.\n[3 min] +400% Fruit Rate\n+5% Extra Harvest Rate\n<yellow>Same dish will overwrite the effect.<c>"
 	},
 	{
 		"assign": "350011",
 		"jp_text": "海岸ムール貝のオイルづけ",
-		"tr_text": "Coast Moule with Oil",
+		"tr_text": "Coast Mussels with Oil",
 		"jp_explain": "ボイルした貝をオイルづけにした料理。\n【３分間】小型取得率＋１００％\n追加採取、釣り率＋２０％\n<yellow>同種の料理は効果が上書きされます。<c>",
-		"tr_explain": "Boiled mussels served with olive oil.\n[3 min] +100% Small Material Rate\n+20% Extra Harvest&Fishing Rate\n<yellow>Same dish will overwrite the effect.<c>"
+		"tr_explain": "Boiled mussels served with olive oil.\n[3 min] +100% Small Material Rate\n+20% Extra Harvest/Fishing Rate\n<yellow>Same dish will overwrite the effect.<c>"
 	},
 	{
 		"assign": "350012",
 		"jp_text": "東京マダイの照り焼き",
-		"tr_text": "Tokyo Teriyaki Tai Fish",
+		"tr_text": "Teriyaki Tokyo Seabream",
 		"jp_explain": "切り身に醤油をつけながら焼いた料理。\n【３分間】鉱石取得率＋４００％\n追加採取率＋５％\n<yellow>同種の料理は効果が上書きされます。<c>",
 		"tr_explain": "Fillet broiled with a glaze of sauce.\n[3 min] +400% Mineral Rate\n+5% Extra Harvest Rate\n<yellow>Same dish will overwrite the effect.<c>"
 	},
@@ -149,14 +149,14 @@
 	{
 		"assign": "350024",
 		"jp_text": "採掘場跡タチウオのソテー",
-		"tr_text": "Quarry Fried Cutlass",
+		"tr_text": "Fried Quarry Cutlass",
 		"jp_explain": "フルーツソースを用いた魚料理。\n【３分間】魚類取得率＋４００％\n追加釣り率＋５％\n<yellow>同種の料理は効果が上書きされます。<c>",
 		"tr_explain": "Seafood dish served with fruit sauce.\n[3 min] +400% Fish Rate\n+5% Extra Fishing Rate\n<yellow>Same dish will overwrite the effect.<c>"
 	},
 	{
 		"assign": "350025",
 		"jp_text": "浮上施設ミントのムニエル",
-		"tr_text": "Facility Peppermint Meuniere",
+		"tr_text": "Facility Mint Meuniere",
 		"jp_explain": "魚の切り身をバターで焼いた魚料理。\n【５分間】甲殻類取得率＋２００％\n追加釣り率＋５％\n<yellow>同種の料理は効果が上書きされます。<c>",
 		"tr_explain": "Fish fillet pan fried in butter.\n[5 min] +200% Crustacean Rate\n+5% Extra Fishing Rate\n<yellow>Same dish will overwrite the effect.<c>"
 	},
@@ -205,7 +205,7 @@
 	{
 		"assign": "350032",
 		"jp_text": "浮上施設ニジエビの清蒸",
-		"tr_text": "Facility Steamed Rainbow Shrimp",
+		"tr_text": "Steamed Facility Mantis Shrimp",
 		"jp_explain": "新鮮な魚介類を使った蒸し料理。\n【５分間】鉱石取得率＋２００％\n追加採取率＋５％\n<yellow>同種の料理は効果が上書きされます。<c>",
 		"tr_explain": "Freshly steamed seafood dish.\n[5 min] +200% Mineral Rate\n+5% Extra Harvest Rate\n<yellow>Same dish will overwrite the effect.<c>"
 	},
@@ -240,14 +240,14 @@
 	{
 		"assign": "350037",
 		"jp_text": "火山洞窟イワナのポワレ",
-		"tr_text": "Pan Fried Char",
+		"tr_text": "Pan-Fried Caves Char",
 		"jp_explain": "魚介類を蒸し焼きにした料理。\n【５分間】小型取得率＋１００％\n追加採取、釣り率＋２０％\n<yellow>同種の料理は効果が上書きされます。<c>",
 		"tr_explain": "Flavorful sauteed fish dish.\n[5 min] +100% Small Material Rate\n+20% Extra Harvest/Fishing Rate\n<yellow>Same dish will overwrite the effect.<c>"
 	},
 	{
 		"assign": "350038",
 		"jp_text": "地下坑道シャコのグリエ",
-		"tr_text": "Grilled Tunnels Shrimp",
+		"tr_text": "Grilled Tunnels Mantis Shrimp",
 		"jp_explain": "新鮮な魚介類を網焼きした料理。\n【５分間】野菜取得率＋４００％\n追加採取率＋５％\n<yellow>同種の料理は効果が上書きされます。<c>",
 		"tr_explain": "Freshly grilled shrimp dish.\n[5 min] +400% Vegetable Rate\n+5% Extra Harvest Rate\n<yellow>Same dish will overwrite the effect.<c>"
 	},
@@ -277,7 +277,7 @@
 		"jp_text": "シーフードブロシェット",
 		"tr_text": "Seafood Brochette",
 		"jp_explain": "魚介類を串に刺して焼いた料理。\n【５分間】大型取得率＋１００％\n追加採取、釣り率＋２０％\n<yellow>同種の料理は効果が上書きされます。<c>",
-		"tr_explain": "Seafood cooked on a large skewer.\n[5 min] +100% Large Material Rate\n+20% Extra Harvest&Fishing Rate\n<yellow>Same dish will overwrite the effect.<c>"
+		"tr_explain": "Seafood cooked on a large skewer.\n[5 min] +100% Large Material Rate\n+20% Extra Harvest/Fishing Rate\n<yellow>Same dish will overwrite the effect.<c>"
 	},
 	{
 		"assign": "350043",
@@ -331,7 +331,7 @@
 	{
 		"assign": "350050",
 		"jp_text": "龍祭壇ライギョのフライ",
-		"tr_text": "Deep-fried Sanctum Snakehead",
+		"tr_text": "Deep-Fried Sanctum Snakehead",
 		"jp_explain": "具材にパン粉などを付けて揚げた料理。\n【３分間】大型取得率＋２００％\n追加採取、釣り率＋２０％\n<yellow>同種の料理は効果が上書きされます。<c>",
 		"tr_explain": "Deep-fried dish with bread crumbs.\n[3 min] +200% Large Material Rate\n+20% Extra Harvest/Fishing Rate\n<yellow>Same dish will overwrite the effect.<c>"
 	},
