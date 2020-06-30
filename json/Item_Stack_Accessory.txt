@@ -511,6 +511,13 @@
 		"tr_explain": "Unlocks the accessory\n\"Za Oodan Mask\"\nfor use in the Beauty Salon."
 	},
 	{
+		"assign": "38075",
+		"jp_text": "ソニックのおめんＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nソニックのおめんＣが選択可能。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "38076",
 		"jp_text": "ソニックのおめん",
 		"tr_text": "Sonic Mask",
@@ -2039,7 +2046,7 @@
 	{
 		"assign": "380299",
 		"jp_text": "ニードリル",
-		"tr_text": "Knee Drills",
+		"tr_text": "Knee Drill",
 		"jp_explain": "使用すると、新しいアクセサリーの\nニードリルが選択可能。",
 		"tr_explain": "Unlocks the accessory\n\"Knee Drills\"\nfor use in the Beauty Salon."
 	},
@@ -4937,9 +4944,9 @@
 	{
 		"assign": "380787",
 		"jp_text": "ショルダーカバー",
-		"tr_text": "Shoulder Cover",
+		"tr_text": "Shoulder Covers",
 		"jp_explain": "使用すると、新しいアクセサリーの\nショルダーカバーが選択可能。",
-		"tr_explain": "Unlocks the accessory\n\"Shoulder Cover\"\nfor use in the Beauty Salon."
+		"tr_explain": "Unlocks the accessory\n\"Shoulder Covers\"\nfor use in the Beauty Salon."
 	},
 	{
 		"assign": "380788",
@@ -5434,7 +5441,7 @@
 	{
 		"assign": "380858",
 		"jp_text": "アームブレード",
-		"tr_text": "Arm Blade",
+		"tr_text": "Arm Blades",
 		"jp_explain": "使用すると、新しいアクセサリーの\nアームブレードが選択可能。",
 		"tr_explain": "Unlocks the accessory\n\"Arm Blade\"\nfor use in the Beauty Salon."
 	},
@@ -31087,11 +31094,39 @@
 		"tr_explain": "Unlocks the accessory\n\"Margareta Tin Badge\"\nfor use in the Beauty Salon."
 	},
 	{
+		"assign": "3804846",
+		"jp_text": "マトイ缶バッチ",
+		"tr_text": "Matoi Tin Badge",
+		"jp_explain": "使用すると、新しいアクセサリーの\nマトイ缶バッチが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Matoi Tin Badge\"\nfor use in the Beauty Salon."
+	},
+	{
 		"assign": "3804847",
 		"jp_text": "ハリエット缶バッヂ",
 		"tr_text": "Harriet Tin Badge",
 		"jp_explain": "使用すると、新しいアクセサリーの\nハリエット缶バッヂが選択可能。",
 		"tr_explain": "Unlocks the accessory\n\"Harriet Tin Badge\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804848",
+		"jp_text": "ルーサー缶バッチ",
+		"tr_text": "Luther Tin Badge",
+		"jp_explain": "使用すると、新しいアクセサリーの\nルーサー缶バッチが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Luther Tin Badge\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804849",
+		"jp_text": "ヒツギ缶バッチ",
+		"tr_text": "Hitsugi Tin Badge",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヒツギ缶バッチが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Hitsugi Tin Badge\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804850",
+		"jp_text": "エルミル缶バッチ",
+		"tr_text": "Elmir Tin Badge",
+		"jp_explain": "使用すると、新しいアクセサリーの\nエルミル缶バッチが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Elmir Tin Badge\"\nfor use in the Beauty Salon."
 	},
 	{
 		"assign": "3804851",
@@ -31563,10 +31598,654 @@
 		"tr_explain": "Unlocks the accessory\n\"Piena Bracelet B\"\nfor use in the Beauty Salon."
 	},
 	{
+		"assign": "3804920",
+		"jp_text": "マリス帽",
+		"tr_text": "Malice Hat",
+		"jp_explain": "使用すると、新しいアクセサリーの\nマリス帽が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Malice Hat\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804921",
+		"jp_text": "エクスピアシオン帽",
+		"tr_text": "Expiation Hat",
+		"jp_explain": "使用すると、新しいアクセサリーの\nエクスピアシオン帽が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Expiation Hat\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804922",
+		"jp_text": "クリオーネ頭飾り",
+		"tr_text": "Clione Hair Ornament",
+		"jp_explain": "使用すると、新しいアクセサリーの\nクリオーネ頭飾りが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Clione Hair Ornament\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804923",
+		"jp_text": "キョンキョンロリィ帽",
+		"tr_text": "Kyon Kyon Loli Hat",
+		"jp_explain": "使用すると、新しいアクセサリーの\nキョンキョンロリィ帽が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Kyon Kyon Loli Hat\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804924",
+		"jp_text": "キョンキョンロリィ髪飾り",
+		"tr_text": "Kyon Kyon Hair Ornaments",
+		"jp_explain": "使用すると、新しいアクセサリーの\nキョンキョンロリィ髪飾りが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Kyon Kyon Hair Ornaments\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804925",
+		"jp_text": "アトルスクヘッドフォン",
+		"tr_text": "Atolsk Headphones",
+		"jp_explain": "使用すると、新しいアクセサリーの\nアトルスクヘッドフォンが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Atolsk Headphones\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804926",
+		"jp_text": "ＭＦＤＢキャップＡ",
+		"tr_text": "MFDB Cap A",
+		"jp_explain": "使用すると、新しいアクセサリーの\nＭＦＤＢキャップＡが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"MFDB Cap A\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804927",
+		"jp_text": "ＭＦＤＢキャップＢ",
+		"tr_text": "MFDB Cap B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nＭＦＤＢキャップＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"MFDB Cap B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804928",
+		"jp_text": "ＭＦＤＢブーツ",
+		"tr_text": "MFDB Boots",
+		"jp_explain": "使用すると、新しいアクセサリーの\nＭＦＤＢブーツが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"MFDB Boots\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804929",
+		"jp_text": "ＭＦＤＢしっぽ",
+		"tr_text": "MFDB Tail",
+		"jp_explain": "使用すると、新しいアクセサリーの\nＭＦＤＢしっぽが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"MFDB Tail\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804930",
+		"jp_text": "ポリゴノイド腰パーツ",
+		"tr_text": "Poly Waist Parts",
+		"jp_explain": "使用すると、新しいアクセサリーの\nポリゴノイド腰パーツが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Poly Waist Parts\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804931",
+		"jp_text": "ポリゴノイド腰パーツ　月",
+		"tr_text": "Poly Waist Parts Moon",
+		"jp_explain": "使用すると、新しいアクセサリーの\nポリゴノイド腰パーツ　月が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Poly Waist Parts Moon\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804932",
+		"jp_text": "ポリゴノイド腰パーツ　虹",
+		"tr_text": "Poly Waist Parts Rainbow",
+		"jp_explain": "使用すると、新しいアクセサリーの\nポリゴノイド腰パーツ　虹が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Poly Waist Parts Rainbow\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804933",
+		"jp_text": "ポリゴノイド腰パーツ　燃",
+		"tr_text": "Poly Waist Parts Burning",
+		"jp_explain": "使用すると、新しいアクセサリーの\nポリゴノイド腰パーツ　燃が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Poly Waist Parts Burning\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804934",
+		"jp_text": "ポリゴノイド腰パーツ　空",
+		"tr_text": "Poly Waist Parts Sky",
+		"jp_explain": "使用すると、新しいアクセサリーの\nポリゴノイド腰パーツ　空が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Poly Waist Parts Sky\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804935",
+		"jp_text": "アステロード髪飾り",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nアステロード髪飾りが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804936",
+		"jp_text": "耳隠しエクステ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n耳隠しエクステが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804937",
+		"jp_text": "ハーフアームドマスク",
+		"tr_text": "Half Armed Mask",
+		"jp_explain": "使用すると、新しいアクセサリーの\nハーフアームドマスクが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Half Armed Mask\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804938",
+		"jp_text": "ハーフアームドマスク　緑",
+		"tr_text": "Half Armed Mask Green",
+		"jp_explain": "使用すると、新しいアクセサリーの\nハーフアームドマスク　緑が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Half Armed Mask Green\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804939",
+		"jp_text": "ハーフアームドマスク　白",
+		"tr_text": "Half Armed Mask White",
+		"jp_explain": "使用すると、新しいアクセサリーの\nハーフアームドマスク　白が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Half Armed Mask White\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804940",
+		"jp_text": "ハーフアームドマスク　赤",
+		"tr_text": "Half Armed Mask Red",
+		"jp_explain": "使用すると、新しいアクセサリーの\nハーフアームドマスク　赤が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Half Armed Mask Red\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804941",
+		"jp_text": "ハーフアームドマスク　青",
+		"tr_text": "Half Armed Mask Blue",
+		"jp_explain": "使用すると、新しいアクセサリーの\nハーフアームドマスク　青が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Half Armed Mask Blue\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804942",
+		"jp_text": "メカニカルスパイン　黒",
+		"tr_text": "Mechanical Spine Black",
+		"jp_explain": "使用すると、新しいアクセサリーの\nメカニカルスパイン　黒が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Mechanical Spine Black\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804943",
+		"jp_text": "メカニカルスパイン　白",
+		"tr_text": "Mechanical Spine White",
+		"jp_explain": "使用すると、新しいアクセサリーの\nメカニカルスパイン　白が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Mechanical Spine White\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804944",
+		"jp_text": "アニマルレッグ",
+		"tr_text": "Animal Legs",
+		"jp_explain": "使用すると、新しいアクセサリーの\nアニマルレッグが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Animal Legs\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804945",
+		"jp_text": "スモーキーフォトン　水",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nスモーキーフォトン　水が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804946",
+		"jp_text": "スモーキーフォトン　赤",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nスモーキーフォトン　赤が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804947",
+		"jp_text": "タイツもも",
+		"tr_text": "Thigh Tights",
+		"jp_explain": "使用すると、新しいアクセサリーの\nタイツももが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Thigh Tights\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804948",
+		"jp_text": "ヒトミマスクＡ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヒトミマスクＡが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804949",
+		"jp_text": "ヒトミマスクＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヒトミマスクＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804950",
+		"jp_text": "メセタサークル",
+		"tr_text": "Meseta Circle",
+		"jp_explain": "使用すると、新しいアクセサリーの\nメセタサークルが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Meseta Circle\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804951",
+		"jp_text": "立体ワイルドヒゲ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n立体ワイルドヒゲが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804952",
+		"jp_text": "ビフレストオービット",
+		"tr_text": "Bifrost Orbit",
+		"jp_explain": "使用すると、新しいアクセサリーの\nビフレストオービットが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Bifrost Orbit\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804953",
+		"jp_text": "ビフレストミラージュ",
+		"tr_text": "Bifrost Mirage",
+		"jp_explain": "使用すると、新しいアクセサリーの\nビフレストミラージュが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Bifrost Mirage\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804954",
+		"jp_text": "フォトバックブース　白",
+		"tr_text": "Chroma Key Screen White",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフォトバックブース　白が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Chroma Key Screen White\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804955",
+		"jp_text": "フォトバックブース　黒",
+		"tr_text": "Chroma Key Screen Black",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフォトバックブース　黒が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Chroma Key Screen Black\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804956",
+		"jp_text": "フォトバックブース　緑",
+		"tr_text": "Chroma Key Screen Green",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフォトバックブース　緑が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Chroma Key Screen Green\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804957",
+		"jp_text": "フォトバックブース　青",
+		"tr_text": "Chroma Key Screen Blue",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフォトバックブース　青が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Chroma Key Screen Blue\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804958",
+		"jp_text": "ＳＦ風爆乳パッド　白",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nＳＦ風爆乳パッド　白が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804959",
+		"jp_text": "ＳＦ風爆乳パッド　黒",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nＳＦ風爆乳パッド　黒が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804960",
+		"jp_text": "和服風爆乳パッド　白",
+		"tr_text": "Kimono Breasts Pad White",
+		"jp_explain": "使用すると、新しいアクセサリーの\n和服風爆乳パッド　白が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Kimono Breasts Pad White\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804961",
+		"jp_text": "和服風爆乳パッド　黒",
+		"tr_text": "Kimono Breasts Pad Black",
+		"jp_explain": "使用すると、新しいアクセサリーの\n和服風爆乳パッド　黒が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Kimono Breasts Pad Black\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804962",
+		"jp_text": "光糸のかんざし",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n光糸のかんざしが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804963",
+		"jp_text": "光糸のかんざし　赤",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n光糸のかんざし　赤が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804964",
+		"jp_text": "光糸のかんざし　水",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n光糸のかんざし　水が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804965",
+		"jp_text": "光糸のかんざし　緑",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n光糸のかんざし　緑が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804966",
+		"jp_text": "光糸のかんざし　紫",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n光糸のかんざし　紫が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804967",
+		"jp_text": "光糸のかんざし　黄",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n光糸のかんざし　黄が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804968",
+		"jp_text": "ロングＬリボンＡ",
+		"tr_text": "Long L Ribbon A",
+		"jp_explain": "使用すると、新しいアクセサリーの\nロングＬリボンＡが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Long L Ribbon A\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804969",
+		"jp_text": "ロングＬリボンＢ",
+		"tr_text": "Long L Ribbon B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nロングＬリボンＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Long L Ribbon B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804970",
+		"jp_text": "ロングＬリボンＣ",
+		"tr_text": "Long L Ribbon C",
+		"jp_explain": "使用すると、新しいアクセサリーの\nロングＬリボンＣが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Long L Ribbon C\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804971",
+		"jp_text": "バラエティマスクＡ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバラエティマスクＡが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804972",
+		"jp_text": "にゃんこフェイス",
+		"tr_text": "Nyanko Face",
+		"jp_explain": "使用すると、新しいアクセサリーの\nにゃんこフェイスが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Nyanko Face\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804973",
+		"jp_text": "アクションテール",
+		"tr_text": "Action Tail",
+		"jp_explain": "使用すると、新しいアクセサリーの\nアクションテールが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Action Tail\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804974",
+		"jp_text": "バラエティマスクＤ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバラエティマスクＤが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804975",
+		"jp_text": "個性舌　桃",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n個性舌　桃が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804976",
+		"jp_text": "個性舌　紫",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n個性舌　紫が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804977",
+		"jp_text": "個性舌　青",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n個性舌　青が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804978",
+		"jp_text": "飛び散る火花",
+		"tr_text": "Flying Sparks",
+		"jp_explain": "使用すると、新しいアクセサリーの\n飛び散る火花が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Flying Sparks\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804979",
+		"jp_text": "閃光眼エフェクトＡ",
+		"tr_text": "Eye Glint A",
+		"jp_explain": "使用すると、新しいアクセサリーの\n閃光眼エフェクトＡが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Eye Glint A\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804980",
+		"jp_text": "閃光眼エフェクトＢ",
+		"tr_text": "Eye Glint B",
+		"jp_explain": "使用すると、新しいアクセサリーの\n閃光眼エフェクトＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Eye Glint B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804981",
+		"jp_text": "オニツキミコンリボンＢ",
+		"tr_text": "Onitsukimikon Ribbon B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nオニツキミコンリボンＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Onitsukimikon Ribbon B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804982",
+		"jp_text": "オニツキミコンツノＢ",
+		"tr_text": "Onitsukimikon Horns B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nオニツキミコンツノＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Onitsukimikon Horns B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804983",
+		"jp_text": "オニツキミコンマフラーＢ",
+		"tr_text": "Onitsukimikon Muffler B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nオニツキミコンマフラーＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Onitsukimikon Muffler B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804984",
+		"jp_text": "モルフォルテシモハットＢ",
+		"tr_text": "Morphortissimo Hat B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nモルフォルテシモハットＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Morphortissimo Hat B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804985",
+		"jp_text": "モルフォルテシモアクセＢ",
+		"tr_text": "Morphortissimo Accessory B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nモルフォルテシモアクセＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Morphortissimo Accessory B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804986",
+		"jp_text": "ブレイシーズアニマイヤーＢ",
+		"tr_text": "Braces Anima Ears B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nブレイシーズアニマイヤーＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Braces Anima Ears B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804987",
+		"jp_text": "ブレイシーズアニマリボンＢ",
+		"tr_text": "Braces Anima Ribbon B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nブレイシーズアニマリボンＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Braces Anima Ribbon B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804988",
+		"jp_text": "ブラックラージツインリボン",
+		"tr_text": "Black Large Twin Ribbon",
+		"jp_explain": "使用すると、新しいアクセサリーの\nブラックラージツインリボンが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Black Large Twin Ribbon\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804989",
+		"jp_text": "フレイランツェインカムＢ",
+		"tr_text": "Frei Lanze Intercom B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフレイランツェインカムＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Frei Lanze Intercom B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804990",
+		"jp_text": "メカニカルＡマフラー　黒",
+		"tr_text": "Mechanical A Scarf Black",
+		"jp_explain": "使用すると、新しいアクセサリーの\nメカニカルＡマフラー　黒が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Mechanical A Scarf Black\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804991",
+		"jp_text": "爆乳パッドＢ",
+		"tr_text": "Enormous Breasts Pad B",
+		"jp_explain": "使用すると、新しいアクセサリーの\n爆乳パッドＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Enormous Breasts Pad B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804992",
+		"jp_text": "つけフリルそでＢ",
+		"tr_text": "Frilled Sleeves B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nつけフリルそでＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Frilled Sleeves B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804993",
+		"jp_text": "スカートスタビライザーＤ",
+		"tr_text": "Skirt Stabilizer D",
+		"jp_explain": "使用すると、新しいアクセサリーの\nスカートスタビライザーＤが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Skirt Stabilizer D\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804994",
+		"jp_text": "えり巻きネコＢ",
+		"tr_text": "Cat Scarf B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nえり巻きネコＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Cat Scarf B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804995",
+		"jp_text": "メタルクォーツウィングＡ　赤",
+		"tr_text": "Metal Quartz Wings A Red",
+		"jp_explain": "使用すると、新しいアクセサリーの\nメタルクォーツウィングＡ　赤が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Metal Quartz Wings A Red\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804996",
+		"jp_text": "メタルクォーツウィングＢ　赤",
+		"tr_text": "Metal Quartz Wings B Red",
+		"jp_explain": "使用すると、新しいアクセサリーの\nメタルクォーツウィングＢ　赤が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Metal Quartz Wings B Red\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804997",
+		"jp_text": "ヒュージＴソードユニットＣ",
+		"tr_text": "Huge T Sword Unit C",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヒュージＴソードユニットＣが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Huge T Sword Unit C\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804998",
+		"jp_text": "盛りまつげＢ",
+		"tr_text": "Peak Eyelashes B",
+		"jp_explain": "使用すると、新しいアクセサリーの\n盛りまつげＢが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Peak Eyelashes B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804999",
+		"jp_text": "スターバレットエクステ桃金",
+		"tr_text": "Star Extensions Rose & Gold",
+		"jp_explain": "使用すると、新しいアクセサリーの\nスターバレットエクステ桃金が選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Star Extensions Rose & Gold\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3805000",
+		"jp_text": "デュアルアイＡ　黒",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nデュアルアイＡ　黒が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805001",
+		"jp_text": "ヒヨリユキアメリボンＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヒヨリユキアメリボンＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805002",
+		"jp_text": "ヒヨリユキアメピアスＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヒヨリユキアメピアスＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805003",
+		"jp_text": "ブレイズＰアクセＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nブレイズＰアクセＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805004",
+		"jp_text": "ギア・Ｄ・ウィングＡ　桃",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nギア・Ｄ・ウィングＡ　桃が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805005",
+		"jp_text": "ギア・Ｄ・ウィングＢ　桃",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nギア・Ｄ・ウィングＢ　桃が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805006",
+		"jp_text": "ポップ・ラ・フードＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nポップ・ラ・フードＣが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805007",
+		"jp_text": "ポップ・ラ・マフラーＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nポップ・ラ・マフラーＣが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805008",
+		"jp_text": "ポップ・ラ・リボンＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nポップ・ラ・リボンＣが選択可能。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3805009",
 		"jp_text": "ホルシードＤＮウィングＢ",
 		"tr_text": "Khorshid DN Wings B",
 		"jp_explain": "使用すると、新しいアクセサリーの\nホルシードＤＮウィングＢが選択可能。",
 		"tr_explain": "Unlocks the accessory\n\"Khorshid DN Wings B\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3805010",
+		"jp_text": "ビフレストノヴァ",
+		"tr_text": "Bifrost Nova",
+		"jp_explain": "使用すると、新しいアクセサリーの\nビフレストノヴァが選択可能。",
+		"tr_explain": "Unlocks the accessory\n\"Bifrost Nova\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3805146",
+		"jp_text": "バラエティマスクＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバラエティマスクＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805147",
+		"jp_text": "バラエティマスクＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバラエティマスクＣが選択可能。",
+		"tr_explain": ""
 	}
 ]
