@@ -818,13 +818,13 @@
 	{
 		"assign": "100502000",
 		"jp_text": "隻手にて衝天を刻みし者",
-		"tr_text": "Supreme First-Class",
+		"tr_text": "One Who Touched Greatness",
 		"tr_explain": "Obtain 5 or more Lv.95 Class Level\ntitles"
 	},
 	{
 		"assign": "100502010",
-		"jp_text": "",
-		"tr_text": "",
+		"jp_text": "双手にて衝天を刻みし者",
+		"tr_text": "One Who Grasped Greatness",
 		"tr_explain": "Obtain 10 or more Lv.95 Class Level\ntitles"
 	},
 	{
@@ -1872,10 +1872,22 @@
 		"tr_explain": "Raise a Redran Pet to Lv.80"
 	},
 	{
+		"assign": "102100120",
+		"jp_text": "グラスマスター",
+		"tr_text": "Glass Master",
+		"tr_explain": "Raise a Glass Pet to Lv.80"
+	},
+	{
 		"assign": "102100200",
 		"jp_text": "サモナーペット育成の探求者",
 		"tr_text": "Pursuer of Pet Training",
 		"tr_explain": "Raise any Pet to Lv.130"
+	},
+	{
+		"assign": "102100300",
+		"jp_text": "もふもふ愛好家",
+		"tr_text": "Fluffiness Maniac",
+		"tr_explain": "Obtain 10 or more Pet Level titles"
 	},
 	{
 		"assign": "102200000",
@@ -5736,6 +5748,18 @@
 		"tr_explain": "Clear the EPISODE 4 Story Quest\n\"Duel\" as an Etoile"
 	},
 	{
+		"assign": "300720300",
+		"jp_text": "魔人を隻手に収めし者",
+		"tr_text": "One Who Touched Demonhood",
+		"tr_explain": "Obtain 5 or more titles for\nclearing the EPISODE 4 Story Quest\n\"Duel\" as different classes"
+	},
+	{
+		"assign": "300720310",
+		"jp_text": "魔人を双手に収めし者",
+		"tr_text": "One Who Grasped Demonhood",
+		"tr_explain": "Obtain 10 or more titles for\nclearing the EPISODE 4 Story Quest\n\"Duel\" as different classes"
+	},
+	{
 		"assign": "300730000",
 		"jp_text": "壊世火山の制覇者",
 		"tr_text": "Conquerer of the Corrupted Caves",
@@ -6828,6 +6852,18 @@
 		"tr_explain": "Complete floor 5 of Solo Training:\nPhanatical Phantoms as an Etoile"
 	},
 	{
+		"assign": "303050300",
+		"jp_text": "狂想を隻手に刻む者",
+		"tr_text": "One Who Touched Phanaticism",
+		"tr_explain": "Obtain 5 or more titles for\ncompleting floor 5 of Solo Training:\nPhanatical Phantoms as different classes"
+	},
+	{
+		"assign": "303050310",
+		"jp_text": "狂想を双手に刻む者",
+		"tr_text": "One Who Grasped Phanaticism",
+		"tr_explain": "Obtain 10 or more titles for\ncompleting floor 5 of Solo Training:\nPhanatical Phantoms as different classes"
+	},
+	{
 		"assign": "303060000",
 		"jp_text": "幻獄の先駆者",
 		"tr_text": "Phanatical Pioneer",
@@ -7428,6 +7464,12 @@
 		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The Demise Approaches Earth\"\nwith an S rank on Hardcore"
 	},
 	{
+		"assign": "304200070",
+		"jp_text": "異界の霊脈を掌中せし者",
+		"tr_text": "One Who Manipulated Spirits",
+		"tr_explain": "Clear the EPISODE 6 Story Quest\n\"The End of the God of Fidelity\"\nwith an S rank on Hardcore"
+	},
+	{
 		"assign": "305000000",
 		"jp_text": "最強に挑みし者",
 		"tr_text": "Claimant to be the Strongest",
@@ -7822,6 +7864,18 @@
 		"jp_text": "昏き闇を超えし明星",
 		"tr_text": "Star Who Overcame Darkness",
 		"tr_explain": "Clear Endless Darkness on UH\nas an Etoile"
+	},
+	{
+		"assign": "306123010",
+		"jp_text": "昏き闇を隻手に宿す者",
+		"tr_text": "One Who Touched Darkness",
+		"tr_explain": "Obtain 5 or more titles for\nclearing Endless Darkness\non UH as different classes"
+	},
+	{
+		"assign": "306123020",
+		"jp_text": "昏き闇を双手に宿す者",
+		"tr_text": "One Who Grasped Darkness",
+		"tr_explain": "Obtain 10 or more titles for\nclearing Endless Darkness\non UH as different classes"
 	},
 	{
 		"assign": "306420010",
@@ -9034,6 +9088,30 @@
 		"jp_text": "キョクヤのホワイト仲間",
 		"tr_text": "Kyokuya's White Day Friend",
 		"tr_explain": "Obtain Kyokuya (White Day)'s\nPartner Card"
+	},
+	{
+		"assign": "400124600",
+		"jp_text": "猫ノ宮♪のフレンド",
+		"tr_text": "Nekonomiya♪'s Friend",
+		"tr_explain": "Obtain Nekonomiya♪'s\nPartner Card"
+	},
+	{
+		"assign": "400124700",
+		"jp_text": "ゼクトのフレンド",
+		"tr_text": "Zect's Friend",
+		"tr_explain": "Obtain Magical Robo ★ Zect's\nPartner Card"
+	},
+	{
+		"assign": "400124800",
+		"jp_text": "牧野のフレンド",
+		"tr_text": "Makino's Friend",
+		"tr_explain": "Obtain Makino's\nPartner Card"
+	},
+	{
+		"assign": "400124900",
+		"jp_text": "ドルチェのフレンド",
+		"tr_text": "Dolce's Friend",
+		"tr_explain": "Obtain Dolce's\nPartner Card"
 	},
 	{
 		"assign": "400200000",
@@ -10258,6 +10336,54 @@
 		"jp_text": "キョクヤとホワイトデー",
 		"tr_text": "With Kyokuya on White Day",
 		"tr_explain": "Clear 100 Quests with Kyokuya\n(White Day) in the party"
+	},
+	{
+		"assign": "400224600",
+		"jp_text": "猫ノ宮♪のネカマ仲間",
+		"tr_text": "Nekonomiya♪'s G.I.R.L. Friend",
+		"tr_explain": "Clear 10 Quests with Nekonomiya♪\nin the party"
+	},
+	{
+		"assign": "400224601",
+		"jp_text": "恋色ボイスチェンジャー",
+		"tr_text": "Voice Changer",
+		"tr_explain": "Clear 100 Quests with Nekonomiya♪\nin the party"
+	},
+	{
+		"assign": "400224700",
+		"jp_text": "ゼクトのメカ仲間",
+		"tr_text": "Zect's Mecha Buddy",
+		"tr_explain": "Clear 10 Quests with\nMagical Robo ★ Zect in the party"
+	},
+	{
+		"assign": "400224701",
+		"jp_text": "踏まれたい",
+		"tr_text": "Wants to be Stepped On",
+		"tr_explain": "Clear 100 Quests with\nMagical Robo ★ Zect in the party"
+	},
+	{
+		"assign": "400224800",
+		"jp_text": "牧野の早起き仲間",
+		"tr_text": "Makino's Fellow Early Bird",
+		"tr_explain": "Clear 10 Quests with Makino\nin the party"
+	},
+	{
+		"assign": "400224801",
+		"jp_text": "個人情報には気を付けよう",
+		"tr_text": "Careful with Personal Info",
+		"tr_explain": "Clear 100 Quests with Makino\nin the party"
+	},
+	{
+		"assign": "400224900",
+		"jp_text": "ドルチェのニチアサ仲間",
+		"tr_text": "Dolce's Kids' TV Companion",
+		"tr_explain": "Clear 10 Quests with Dolce\nin the party"
+	},
+	{
+		"assign": "400224901",
+		"jp_text": "リアルで近い人？",
+		"tr_text": "Close in Real Life?",
+		"tr_explain": "Clear 100 Quests with Dolce\nin the party"
 	},
 	{
 		"assign": "500100000",
