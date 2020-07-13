@@ -7187,7 +7187,7 @@
 	{
 		"assign": "questresult_dps_title",
 		"jp_text": "ダメージ記録",
-		"tr_text": "Damage Record"
+		"tr_text": "Damage Total"
 	},
 	{
 		"assign": "questresult_rematch_button_title",
@@ -9997,7 +9997,7 @@
 	{
 		"assign": "menu_main_formation_info",
 		"jp_text": "※「売却」「交換ショップ」は、MENUの「ショップ」へ移動しました。",
-		"tr_text": "※\"Sell\" and \"Exchange Shop\" have been\nmoved to the Shop tab."
+		"tr_text": "※\"Sell\" and \"Exchange Shop\"\nhave been moved to the Shop tab."
 	},
 	{
 		"assign": "menu_main_button_ac_shop",
@@ -14902,7 +14902,7 @@
 	{
 		"assign": "raid_n_dps01",
 		"jp_text": "自己ベスト更新を目指してがんばってください。\n私も、せいいっぱい応援しています！",
-		"tr_text": ""
+		"tr_text": "Do your best to set a new Personal Best.\nYou have my utmost support!"
 	},
 	{
 		"assign": "raid_log_00",
@@ -15612,7 +15612,7 @@
 	{
 		"assign": "raidEvent_ClearCount",
 		"jp_text": "達成数",
-		"tr_text": "Number Achieved"
+		"tr_text": "Cleared: "
 	},
 	{
 		"assign": "raid_event_guide_00",
@@ -22117,12 +22117,12 @@
 	{
 		"assign": "raid_dps_achievement_button",
 		"jp_text": "達成報酬",
-		"tr_text": "Achievements"
+		"tr_text": "Challenges"
 	},
 	{
 		"assign": "raid_dps_my_best",
 		"jp_text": "自己ベスト",
-		"tr_text": "Personal Best"
+		"tr_text": "P. Best"
 	},
 	{
 		"assign": "raid_dps_not_joined",
@@ -22147,12 +22147,12 @@
 	{
 		"assign": "raid_dps_title_update_time",
 		"jp_text": "※30分ごとに更新",
-		"tr_text": "※Updated every 30 min."
+		"tr_text": "※Updated every 30 minutes"
 	},
 	{
 		"assign": "raid_dps_reward_info",
 		"jp_text": "報酬情報",
-		"tr_text": "Reward Information"
+		"tr_text": "Reward\nInformation"
 	},
 	{
 		"assign": "raid_dps_ranking_unit",
@@ -22172,7 +22172,7 @@
 	{
 		"assign": "raid_dps_return_button",
 		"jp_text": "戻る",
-		"tr_text": ""
+		"tr_text": "Back"
 	},
 	{
 		"assign": "raid_event_current_button",
@@ -22192,7 +22192,7 @@
 	{
 		"assign": "DPSEvent_Achievement_Text_0-2-23",
 		"jp_text": "自己ベスト{1:#,0}達成 \n[{0:#,0} / {1:#,0}]",
-		"tr_text": " Set a Personal Best {1:#,0} times [{0:#,0} / {1:#,0}]"
+		"tr_text": " Set a Personal Best of {1:#,0}\n[{0:#,0} / {1:#,0}]"
 	},
 	{
 		"assign": "window_help_LM34",
