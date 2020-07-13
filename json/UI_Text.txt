@@ -2642,7 +2642,7 @@
 	{
 		"assign": "labo_guide_15",
 		"jp_text": "<color=#f0df60>チップ特装・プラグ強化をしたいチップを選択してください。チップ特装は最大レベルに達しているチップのみ、プラグ強化はすでに特装したチップが対象です。</color>",
-		"tr_text": "<color=#f0df60>Select a chip for specialization or Plug-In. You can only specialize a chip that has reached its maximum level, and you can only Plug-In to specialized chips.</color>"
+		"tr_text": "<color=#f0df60>IMPORTANT, READ THIS: The translation patch has an unfixable bug on this menu that will make the game lock up. To Specialize or Plug-In a chip, you must first uninstall the translation patch. You can use the PSO2es Tweaker to do this.</color>"
 	},
 	{
 		"assign": "labo_guide_16",
