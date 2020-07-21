@@ -4190,7 +4190,7 @@
 		"jp_text": "セガサターンマスク",
 		"tr_text": "Sega Saturn Mask",
 		"jp_explain": "使用すると、新しいアクセサリーの\nセガサターンマスクが選択可能。",
-		"tr_explain": "Unlocks the accessory\n\"SEGA Saturn Mask\"\nfor use in the Beauty Salon."
+		"tr_explain": "Unlocks the accessory\n\"Sega Saturn Mask\"\nfor use in the Beauty Salon."
 	},
 	{
 		"assign": "380675",
@@ -30030,6 +30030,20 @@
 		"tr_explain": "Unlocks the accessory\n\"Magic Circle Red\"\nfor use in the Beauty Salon."
 	},
 	{
+		"assign": "3804674",
+		"jp_text": "魔法陣　黄",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n魔法陣　黄が選択可能。\n<yellow>※サイズ調整はできません。<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804675",
+		"jp_text": "魔法陣　緑",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n魔法陣　緑が選択可能。\n<yellow>※サイズ調整はできません。<c>",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3804676",
 		"jp_text": "魔法陣　紫",
 		"tr_text": "Magic Circle Purple",
@@ -30049,6 +30063,20 @@
 		"tr_text": "Stream Wings Red",
 		"jp_explain": "使用すると、新しいアクセサリーの\nストリームウィング　赤が選択可能。",
 		"tr_explain": "Unlocks the accessory\n\"Stream Wings Red\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3804679",
+		"jp_text": "ストリームウィング　黄",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nストリームウィング　黄が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804680",
+		"jp_text": "ストリームウィング　緑",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nストリームウィング　緑が選択可能。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "3804681",
@@ -30870,6 +30898,27 @@
 		"tr_explain": "Unlocks the accessory\n\"Flammegash Neck B\"\nfor use in the Beauty Salon."
 	},
 	{
+		"assign": "3804806",
+		"jp_text": "マルガレータの髪飾り",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nマルガレータの髪飾りが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804808",
+		"jp_text": "マルガレータの背中飾り",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nマルガレータの背中飾りが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804810",
+		"jp_text": "マルガレータの首飾り",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nマルガレータの首飾りが選択可能。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3804812",
 		"jp_text": "シェイカーマスク",
 		"tr_text": "Shaker Mask",
@@ -31598,6 +31647,13 @@
 		"tr_explain": "Unlocks the accessory\n\"Piena Bracelet B\"\nfor use in the Beauty Salon."
 	},
 	{
+		"assign": "3804919",
+		"jp_text": "イノセント・ゼロ襟",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nイノセント・ゼロ襟が選択可能。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3804920",
 		"jp_text": "マリス帽",
 		"tr_text": "Malice Hat",
@@ -32235,6 +32291,825 @@
 		"tr_explain": "Unlocks the accessory\n\"Bifrost Nova\"\nfor use in the Beauty Salon."
 	},
 	{
+		"assign": "3805011",
+		"jp_text": "トゥルーブルームＡ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nトゥルーブルームＡが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805012",
+		"jp_text": "トゥルーブルームＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nトゥルーブルームＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805013",
+		"jp_text": "トゥルーブルームＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nトゥルーブルームＣが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805014",
+		"jp_text": "トゥルーヘッドギア",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nトゥルーヘッドギアが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805015",
+		"jp_text": "戦神衣の機翼",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n戦神衣の機翼が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805016",
+		"jp_text": "戦神衣の頭羽",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n戦神衣の頭羽が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805017",
+		"jp_text": "火を継ぐリボン",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n火を継ぐリボンが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805018",
+		"jp_text": "火を継ぐ髪飾り",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n火を継ぐ髪飾りが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805019",
+		"jp_text": "火を継ぐ蛇翼Ａ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n火を継ぐ蛇翼Ａが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805020",
+		"jp_text": "火を継ぐ蛇翼Ｂ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n火を継ぐ蛇翼Ｂが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805031",
+		"jp_text": "二代目ＫＫのエクステ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n二代目ＫＫのエクステが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805040",
+		"jp_text": "プリエールヴェール",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nプリエールヴェールが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805041",
+		"jp_text": "フルートヴェール",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフルートヴェールが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805042",
+		"jp_text": "フルートリボン",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフルートリボンが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805043",
+		"jp_text": "フルートピアス",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフルートピアスが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805044",
+		"jp_text": "クレイン綿帽子",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nクレイン綿帽子が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805045",
+		"jp_text": "クレイン羽飾り",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nクレイン羽飾りが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805046",
+		"jp_text": "ツヤノヘアアクセ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nツヤノヘアアクセが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805047",
+		"jp_text": "ツヤノリボン",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nツヤノリボンが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805048",
+		"jp_text": "ポーチカヘアアクセ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nポーチカヘアアクセが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805049",
+		"jp_text": "ゲザングピアス",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nゲザングピアスが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805050",
+		"jp_text": "シュテックガスマスク",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nシュテックガスマスクが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805051",
+		"jp_text": "シバの髪飾り",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nシバの髪飾りが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805052",
+		"jp_text": "シバのピアス",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nシバのピアスが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805053",
+		"jp_text": "ミトラの首飾り",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nミトラの首飾りが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805054",
+		"jp_text": "ミトラのマント",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nミトラのマントが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805055",
+		"jp_text": "ミトラのフード",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nミトラのフードが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805056",
+		"jp_text": "ヴァルナの装飾",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヴァルナの装飾が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805057",
+		"jp_text": "マリンコサージュ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nマリンコサージュが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805058",
+		"jp_text": "フェダーヘアピンＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフェダーヘアピンＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805059",
+		"jp_text": "ジェネのサマーベレー帽",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nジェネのサマーベレー帽が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805060",
+		"jp_text": "ジェネのデッキシューズ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nジェネのデッキシューズが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805061",
+		"jp_text": "ステラヘッドギア２Ｃ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nステラヘッドギア２Ｃが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805062",
+		"jp_text": "和風リボン",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n和風リボンが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805063",
+		"jp_text": "ファンシーウィング　紫",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nファンシーウィング　紫が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805064",
+		"jp_text": "ファンシーウィング　青",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nファンシーウィング　青が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805065",
+		"jp_text": "ファンシーウィング　緑",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nファンシーウィング　緑が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805066",
+		"jp_text": "チェーンテイル",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nチェーンテイルが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805067",
+		"jp_text": "腰フリル　赤",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n腰フリル　赤が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805068",
+		"jp_text": "腰フリル　水",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n腰フリル　水が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805069",
+		"jp_text": "腰フリル　黒",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n腰フリル　黒が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805070",
+		"jp_text": "腰フリル　紺",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n腰フリル　紺が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805071",
+		"jp_text": "たれネコ耳　灰",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nたれネコ耳　灰が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805072",
+		"jp_text": "たれネコ耳　茶",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nたれネコ耳　茶が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805073",
+		"jp_text": "たれネコ耳　黒",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nたれネコ耳　黒が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805074",
+		"jp_text": "ワイヤーバタフライＡ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nワイヤーバタフライＡが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805075",
+		"jp_text": "ワイヤーバタフライＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nワイヤーバタフライＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805076",
+		"jp_text": "バタフライウィング　紫",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバタフライウィング　紫が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805077",
+		"jp_text": "バタフライウィング　青",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバタフライウィング　青が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805078",
+		"jp_text": "バタフライウィング　赤",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバタフライウィング　赤が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805079",
+		"jp_text": "ダークバタフライ　赤",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nダークバタフライ　赤が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805080",
+		"jp_text": "ダークバタフライ　紫",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nダークバタフライ　紫が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805081",
+		"jp_text": "ダークバタフライ　青",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nダークバタフライ　青が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805082",
+		"jp_text": "頭乗せパイロット",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n頭乗せパイロットが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805083",
+		"jp_text": "くわえチョコバナナ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nくわえチョコバナナが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805084",
+		"jp_text": "くわえチョコバナナ　白",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nくわえチョコバナナ　白が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805085",
+		"jp_text": "くわえチョコバナナ　苺",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nくわえチョコバナナ　苺が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805086",
+		"jp_text": "フロートナイフ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフロートナイフが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805087",
+		"jp_text": "バックパレオＡ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバックパレオＡが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805088",
+		"jp_text": "バックパレオＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバックパレオＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805089",
+		"jp_text": "バックパレオＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバックパレオＣが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805090",
+		"jp_text": "バックパレオＤ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバックパレオＤが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805091",
+		"jp_text": "プリーツパレオ　赤",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nプリーツパレオ　赤が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805092",
+		"jp_text": "プリーツパレオ　青",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nプリーツパレオ　青が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805093",
+		"jp_text": "プリーツパレオ　黒",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nプリーツパレオ　黒が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805094",
+		"jp_text": "ぽわぽわエフェクト",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nぽわぽわエフェクトが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805095",
+		"jp_text": "ネコ耳風エクステ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nネコ耳風エクステが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805096",
+		"jp_text": "カジュアルソナー　青",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nカジュアルソナー　青が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805097",
+		"jp_text": "カジュアルソナー　橙",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nカジュアルソナー　橙が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805098",
+		"jp_text": "カジュアルソナー　緑",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nカジュアルソナー　緑が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805099",
+		"jp_text": "カジュアルソナー　黄",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nカジュアルソナー　黄が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805100",
+		"jp_text": "腰リボン　赤",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n腰リボン　赤が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805101",
+		"jp_text": "腰リボン　青",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n腰リボン　青が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805102",
+		"jp_text": "腰リボン　黒",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n腰リボン　黒が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805103",
+		"jp_text": "ラッピー水筒",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nラッピー水筒が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805104",
+		"jp_text": "ラブラッピー水筒",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nラブラッピー水筒が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805105",
+		"jp_text": "サークルキーボード　青",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nサークルキーボード　青が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805106",
+		"jp_text": "サークルキーボード　桃",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nサークルキーボード　桃が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805107",
+		"jp_text": "サークルキーボード　緑",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nサークルキーボード　緑が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805108",
+		"jp_text": "ヘキサウィング　水",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヘキサウィング　水が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805109",
+		"jp_text": "ヘキサウィング　青",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヘキサウィング　青が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805110",
+		"jp_text": "ヘキサウィング　赤",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヘキサウィング　赤が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805111",
+		"jp_text": "炎の角　赤",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n炎の角　赤が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805112",
+		"jp_text": "炎の角　紫",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n炎の角　紫が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805113",
+		"jp_text": "非対称リボンタイＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n非対称リボンタイＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805114",
+		"jp_text": "ノッツェティアラＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nノッツェティアラＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805115",
+		"jp_text": "ダブルリボンコサージュＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nダブルリボンコサージュＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805116",
+		"jp_text": "ゴシック風フードＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nゴシック風フードＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805117",
+		"jp_text": "ツートンコサージュＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nツートンコサージュＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805118",
+		"jp_text": "フェイスベールＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフェイスベールＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805119",
+		"jp_text": "アンクルウィングＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nアンクルウィングＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805120",
+		"jp_text": "星空リボンＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n星空リボンＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805121",
+		"jp_text": "星空ストールＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n星空ストールＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805122",
+		"jp_text": "ムジンオオダスキＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nムジンオオダスキＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805123",
+		"jp_text": "カレイリボンＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nカレイリボンＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805124",
+		"jp_text": "ドラゴンアームＬ　Ｂ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nドラゴンアームＬ　Ｂが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805125",
+		"jp_text": "ドラゴンアームＲ　Ｂ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nドラゴンアームＲ　Ｂが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805126",
+		"jp_text": "メカニカルヒヅメＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nメカニカルヒヅメＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805127",
+		"jp_text": "アネットの麦わら帽子Ｂ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nアネットの麦わら帽子Ｂが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805128",
+		"jp_text": "アルカーノリボンＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nアルカーノリボンＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805129",
+		"jp_text": "アルカーノウェストリボンＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nアルカーノウェストリボンＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805130",
+		"jp_text": "シャークヘッドＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nシャークヘッドＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805131",
+		"jp_text": "スカートブースターＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nスカートブースターＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805132",
+		"jp_text": "スタッズベルトＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nスタッズベルトＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805133",
+		"jp_text": "ヴェーグハットＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヴェーグハットＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805134",
+		"jp_text": "ヴェーグアイパッチＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヴェーグアイパッチＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805135",
+		"jp_text": "シャムス髪飾りＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nシャムス髪飾りＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805136",
+		"jp_text": "シャムス背中飾りＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nシャムス背中飾りＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805137",
+		"jp_text": "カムラ髪飾りＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nカムラ髪飾りＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805138",
+		"jp_text": "カムラ背中飾りＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nカムラ背中飾りＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805139",
+		"jp_text": "ヘンネスヘッドドレスＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヘンネスヘッドドレスＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805140",
+		"jp_text": "ヘンネスリボンＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヘンネスリボンＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805141",
+		"jp_text": "小悪魔風メイドブリムＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n小悪魔風メイドブリムＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805142",
+		"jp_text": "セクシーメイドブリムＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nセクシーメイドブリムＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805143",
+		"jp_text": "ショルダーフィンＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nショルダーフィンＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805144",
+		"jp_text": "ショルダーメイルＬ　Ｂ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nショルダーメイルＬ　Ｂが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805145",
+		"jp_text": "ショルダーメイルＲ　Ｂ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nショルダーメイルＲ　Ｂが選択可能。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3805146",
 		"jp_text": "バラエティマスクＢ",
 		"tr_text": "Variety Mask B",
@@ -32247,5 +33122,12 @@
 		"tr_text": "Variety Mask C",
 		"jp_explain": "使用すると、新しいアクセサリーの\nバラエティマスクＣが選択可能。",
 		"tr_explain": "Unlocks the accessory\n\"Variety Mask C\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3805149",
+		"jp_text": "フェダーヘアピンＡ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフェダーヘアピンＡが選択可能。",
+		"tr_explain": ""
 	}
 ]

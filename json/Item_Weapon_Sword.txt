@@ -655,7 +655,7 @@
 		"jp_text": "ダルスソレイド",
 		"tr_text": "Dalz Soleid",
 		"jp_explain": "ダークファルスの身体機能を武器として\n使用可能にした大剣。オリジナルが持つ\n武器との組み合わせで猛攻を再現。",
-		"tr_explain": "Sword using parts of Dark Falz.\nThe original Fierce Attack\nimbued into a weapon."
+		"tr_explain": "Sword using parts of a Dark Falz.\nYou can replicate the fierce attacks\nthat the original did with this weapon."
 	},
 	{
 		"assign": "110146",
@@ -1386,6 +1386,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "110373",
+		"jp_text": "ニーケエスパディオ",
+		"tr_text": "",
+		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った大剣。その刃は標的を\n躊躇なく切り刻み、勝利に導く。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "110374",
 		"jp_text": "ジェンスティル",
 		"tr_text": "Gen Stil",
@@ -1568,17 +1575,31 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "110446",
+		"jp_text": "光纏剣クラースエッジ",
+		"tr_text": "",
+		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った大剣。\nその斬撃が、明日を創り出す。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "110451",
 		"jp_text": "タルナーダ-NT",
 		"tr_text": "Tarnada-NT",
 		"jp_explain": "古典と最新鋭技術の合いの子の大剣。\n巨大な見た目に反し携帯性に優れ\n非戦闘時はコンパクトな形に収まる。",
-		"tr_explain": ""
+		"tr_explain": "A sword that combines older and\ncutting-edge technology. Returns\nto a portable form out of combat."
 	},
 	{
 		"assign": "110465",
 		"jp_text": "ボンズアシェット",
 		"tr_text": "Bonds Hachette",
 		"jp_explain": "大きな斧の形をした大剣。\n魅力的な模様の布地と羽根の飾りは\n勇敢な戦士であることを象徴している。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "110477",
+		"jp_text": "闇征剣アジェルエッジ",
+		"tr_text": "",
+		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた大剣。\n悲しき流転の宿命に彩られている。",
 		"tr_explain": ""
 	}
 ]

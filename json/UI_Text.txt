@@ -6285,6 +6285,11 @@
 		"tr_text": "Champion"
 	},
 	{
+		"assign": "reward_trigger",
+		"jp_text": "【<color=#ffff00>{0}トリガー獲得</color>】",
+		"tr_text": ""
+	},
+	{
 		"assign": "relief_dialog_no_select_t",
 		"jp_text": "救援確認",
 		"tr_text": "Confirm Rescue"
@@ -12221,8 +12226,8 @@
 	},
 	{
 		"assign": "tu_0006_w15_b",
-		"jp_text": "スクラッチメニューにおいて、\n『PSO2』で販売されているスクラッチを\n購入できるようになりました。",
-		"tr_text": "Scratches from PSO2 are now available."
+		"jp_text": "『PSO2』で配信されているスクラッチを引けるようになりました。\nスクラッチ画面の左上にあるボタンを押すと\n『PSO2』と『PSO2es』のスクラッチを切り替えられます。",
+		"tr_text": ""
 	},
 	{
 		"assign": "tu_0006_w16_b",
@@ -17830,6 +17835,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "lookback_series2_chapter_5",
+		"jp_text": "外典　因縁は捩れ未来を拓く",
+		"tr_text": ""
+	},
+	{
 		"assign": "lookback_maintitle_7",
 		"jp_text": "ハーモニー　オブ　オービット",
 		"tr_text": "Harmony of Orbit"
@@ -19346,18 +19356,23 @@
 	},
 	{
 		"assign": "scratch_pickup_select_window_title",
-		"jp_text": "ウェポノイド確定スクラッチ★{0}チップ選択",
+		"jp_text": "ドリームスクラッチ★{0}チップ選択",
 		"tr_text": ""
 	},
 	{
 		"assign": "scratch_pickup_select_window_select",
-		"jp_text": "ウェポノイド確定スクラッチに封入したい★{0}のチップを{1}個選んでください。",
+		"jp_text": "ドリームスクラッチに封入したい★{0}のチップを{1}個選んでください。",
 		"tr_text": ""
 	},
 	{
 		"assign": "scratch_pickup_select_window_count",
 		"jp_text": "あと<color=yellow>{0}</color>個",
 		"tr_text": "<color=yellow>{0}</color>"
+	},
+	{
+		"assign": "scratch_pickup_select_confirm_window_title",
+		"jp_text": "ドリームスクラッチ封入確認  ",
+		"tr_text": ""
 	},
 	{
 		"assign": "scratch_pickup_select_guide",
@@ -19376,12 +19391,12 @@
 	},
 	{
 		"assign": "scratch_pickup_get_item_name",
-		"jp_text": "ウェポノイド確定スクラッチ報酬！\n {0} を入手しました！",
+		"jp_text": "ドリームスクラッチ報酬！\n {0} を入手しました！",
 		"tr_text": ""
 	},
 	{
 		"assign": "scratch_pickup_pickup_to_count",
-		"jp_text": "確定スクラッチまで",
+		"jp_text": "ドリームスクラッチまで",
 		"tr_text": ""
 	},
 	{
@@ -19396,8 +19411,8 @@
 	},
 	{
 		"assign": "scratch_pickup_bonus_window_title",
-		"jp_text": "ウェポノイド確定スクラッチ報酬確認",
-		"tr_text": "Weaponoid Scratch Compensation"
+		"jp_text": "ドリームスクラッチ報酬確認",
+		"tr_text": ""
 	},
 	{
 		"assign": "scratch_pickup_bonus_get_item_count",
@@ -19411,7 +19426,7 @@
 	},
 	{
 		"assign": "scratch_pickup_select_fix_text",
-		"jp_text": "確定スクラッチには次のチップが入ります。よろしいですか？",
+		"jp_text": "次のチップが封入されます。よろしいですか？",
 		"tr_text": ""
 	},
 	{
@@ -19451,7 +19466,7 @@
 	},
 	{
 		"assign": "scratch_pickup_reset_finish_body",
-		"jp_text": "確定スクラッチの内容をリセットしました。\n封入するチップを選びなおしてください。",
+		"jp_text": "ドリームスクラッチの内容をリセットしました。\n封入するチップを選びなおしてください。",
 		"tr_text": ""
 	},
 	{
@@ -19673,6 +19688,16 @@
 		"assign": "quest_clear_reward_dialog_body_6274005",
 		"jp_text": "Season3　8章4-5「希望　それは、青空の先へ」\nクリアおめでとうございます！\n以下のクリア報酬をプレゼントいたしました。\n受け取りボックスをご確認ください。",
 		"tr_text": "Congratulations on clearing Season 3 Ch. 8\nQuest 4-5 \"希望　それは、青空の先へ\"!\nYou have received the Clear Reward below.\nPlease check your Reception Box."
+	},
+	{
+		"assign": "quest_clear_reward_dialog_title_5022604",
+		"jp_text": "シリーズクエストクリア！",
+		"tr_text": ""
+	},
+	{
+		"assign": "quest_clear_reward_dialog_body_5022604",
+		"jp_text": "クラン オブ ネメシス＆スレイヴ\n外典 第4話「光の救世主」\nクリアおめでとうございます！\n以下のクリア報酬をプレゼントいたしました。\n受け取りボックスをご確認ください。",
+		"tr_text": ""
 	},
 	{
 		"assign": "recommended_equipment",
@@ -23246,8 +23271,8 @@
 	},
 	{
 		"assign": "scratch_weaponoid_text",
-		"jp_text": "「ｅｓ1スクラッチ」<%AC>11回引き3回ごとに、券を1枚もらえます。\n選択したウェポノイドチップの中から1枚を獲得できます。",
-		"tr_text": "You receive 1 ticket every 3 times you spend\n<%AC> to draw 11 times on es1 Scratch.\nYou can select one of the below Weaponoid chips."
+		"jp_text": "「ｅｓ1スクラッチ」<%AC>11回引き3回ごとに、コインを1枚もらえます。\n選択したウェポノイドチップの中から1枚を獲得できます。",
+		"tr_text": ""
 	},
 	{
 		"assign": "scratch_limited_time",
@@ -23372,6 +23397,61 @@
 	{
 		"assign": "check_story_play_dialog_message",
 		"jp_text": "ストーリーを再生しますか？",
+		"tr_text": ""
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_button",
+		"jp_text": "交換",
+		"tr_text": ""
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_title",
+		"jp_text": "トリガー交換",
+		"tr_text": ""
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_message",
+		"jp_text": "超級トリガー <color=yellow>{0}</color>個を\n覇級トリガー <color=yellow>{1}</color>個に交換します。",
+		"tr_text": ""
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_sp_trigger_name",
+		"jp_text": "・超級トリガー",
+		"tr_text": ""
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_absolute_trigger_name",
+		"jp_text": "・覇級トリガー",
+		"tr_text": ""
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_trigger_num",
+		"jp_text": "所持数：",
+		"tr_text": ""
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_trigger_num_before_after",
+		"jp_text": "{0:#,0}個　⇒　{1:#,0}個",
+		"tr_text": ""
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_finish_dialog_title",
+		"jp_text": "トリガー交換",
+		"tr_text": ""
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_finish_dialog_message",
+		"jp_text": "交換が完了しました。",
+		"tr_text": ""
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_disable_dialog_title",
+		"jp_text": "所持トリガー不足",
+		"tr_text": ""
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_disable_dialog_message",
+		"jp_text": "トリガーが不足しています。\n\n交換に必要なトリガー\n　 ・超級トリガー：{0}個",
 		"tr_text": ""
 	}
 ]
