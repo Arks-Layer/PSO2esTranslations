@@ -209,7 +209,13 @@ character_names = {
     "グランディア": "Grandia", "シェルオプス": "Shell Opus",
     "ジェネ＆仲間たち": "Gene & Friends", "ローズサーバー": "Rose Server",
     "デュエルゲイズ": "Duel Gaze", "セイガーズ　－1": "Other Seigas",
-    "ショーの観客たち": "Spectators",
+    "ショーの観客たち": "Spectators", "市民Ａ": "Citizen A",
+    "アークス隊員Ａ": "ARKS Member A", "アークス隊員B": "ARKS Member B",
+    "スレイヴキャリバー": "Slave Calibur", "ネメシスランス": "Nemesis Lance",
+    "研究所職員": "Laboratory Staff", "アナウンス": "Announcement",
+    "ナレーション(手紙)": "Narration (Letter)", "スサノグレン": "Susano Guren",
+    "みんな": "Everyone", "男性ウェポノイド陣": "Male Weaponoids",
+    "スマッシュハリセン": "Smash Harisen",
     "ナレーション": "Narration", "？？？": "???" #Generics
     }
 
