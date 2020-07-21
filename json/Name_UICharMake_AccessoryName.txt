@@ -980,21 +980,6 @@
 		"tr_text": "Yellow Peacock Cap"
 	},
 	{
-		"assign": "No02020",
-		"jp_text": "",
-		"tr_text": ""
-	},
-	{
-		"assign": "No02021",
-		"jp_text": "",
-		"tr_text": ""
-	},
-	{
-		"assign": "No02022",
-		"jp_text": "",
-		"tr_text": ""
-	},
-	{
 		"assign": "No02030",
 		"jp_text": "",
 		"tr_text": ""
@@ -1848,6 +1833,11 @@
 		"assign": "No03660",
 		"jp_text": "フェイスベール",
 		"tr_text": "Face Veil"
+	},
+	{
+		"assign": "No03661",
+		"jp_text": "フェイスベールＢ",
+		"tr_text": ""
 	},
 	{
 		"assign": "No03670",
@@ -6418,6 +6408,11 @@
 		"assign": "No08640",
 		"jp_text": "ドリームキャストマスク",
 		"tr_text": "Dreamcast Mask"
+	},
+	{
+		"assign": "No08641",
+		"jp_text": "ドリームキャストマスクＮＡ",
+		"tr_text": ""
 	},
 	{
 		"assign": "No08650",
@@ -11775,6 +11770,11 @@
 		"tr_text": "Starry Sky Ribbon"
 	},
 	{
+		"assign": "No14351",
+		"jp_text": "星空リボンＢ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No14360",
 		"jp_text": "アサガオコサージュ",
 		"tr_text": "Asagao Corsage"
@@ -11893,6 +11893,11 @@
 		"assign": "No14530",
 		"jp_text": "星空ストール",
 		"tr_text": "Starry Sky Stole"
+	},
+	{
+		"assign": "No14531",
+		"jp_text": "星空ストールＢ",
+		"tr_text": ""
 	},
 	{
 		"assign": "No14540",
@@ -16030,6 +16035,11 @@
 		"tr_text": "Skirt Booster"
 	},
 	{
+		"assign": "No18671",
+		"jp_text": "スカートブースターＢ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No18680",
 		"jp_text": "ショルダーガトリングＬ",
 		"tr_text": "Shoulder Gatling L"
@@ -16317,6 +16327,16 @@
 	{
 		"assign": "No18981",
 		"jp_text": "ドラゴンアームＲ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No18982",
+		"jp_text": "ドラゴンアームＬ　Ｂ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No18983",
+		"jp_text": "ドラゴンアームＲ　Ｂ",
 		"tr_text": ""
 	},
 	{
@@ -16812,6 +16832,11 @@
 	{
 		"assign": "No19460",
 		"jp_text": "アンクルウィング",
+		"tr_text": ""
+	},
+	{
+		"assign": "No19461",
+		"jp_text": "アンクルウィングＢ",
 		"tr_text": ""
 	},
 	{
@@ -18165,6 +18190,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No20772",
+		"jp_text": "ステラヘッドギア２Ｃ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No20779",
 		"jp_text": "",
 		"tr_text": ""
@@ -18465,6 +18495,16 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No21082",
+		"jp_text": "ショルダーメイルＬ　Ｂ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No21083",
+		"jp_text": "ショルダーメイルＲ　Ｂ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No21090",
 		"jp_text": "アームメイルＬ",
 		"tr_text": ""
@@ -18647,6 +18687,11 @@
 	{
 		"assign": "No21300",
 		"jp_text": "ノッツェティアラ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No21301",
+		"jp_text": "ノッツェティアラＢ",
 		"tr_text": ""
 	},
 	{
@@ -19880,8 +19925,18 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No22580",
+		"jp_text": "シバの髪飾り",
+		"tr_text": ""
+	},
+	{
 		"assign": "No22589",
 		"jp_text": "",
+		"tr_text": ""
+	},
+	{
+		"assign": "No22590",
+		"jp_text": "ミトラのフード",
 		"tr_text": ""
 	},
 	{
@@ -19890,13 +19945,28 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No22600",
+		"jp_text": "ミトラのマント",
+		"tr_text": ""
+	},
+	{
 		"assign": "No22609",
 		"jp_text": "",
 		"tr_text": ""
 	},
 	{
+		"assign": "No22610",
+		"jp_text": "ミトラの首飾り",
+		"tr_text": ""
+	},
+	{
 		"assign": "No22619",
 		"jp_text": "",
+		"tr_text": ""
+	},
+	{
+		"assign": "No22620",
+		"jp_text": "ヴァルナの装飾",
 		"tr_text": ""
 	},
 	{
@@ -19987,6 +20057,11 @@
 	{
 		"assign": "No22760",
 		"jp_text": "頭乗りこぶた",
+		"tr_text": ""
+	},
+	{
+		"assign": "No22770",
+		"jp_text": "シバのピアス",
 		"tr_text": ""
 	},
 	{
@@ -22095,8 +22170,18 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No25111",
+		"jp_text": "非対称リボンタイＢ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No25120",
 		"jp_text": "ツートンコサージュ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No25121",
+		"jp_text": "ツートンコサージュＢ",
 		"tr_text": ""
 	},
 	{
@@ -22115,8 +22200,18 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No25161",
+		"jp_text": "ヴェーグハットＢ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No25170",
 		"jp_text": "ヴェーグアイパッチ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No25171",
+		"jp_text": "ヴェーグアイパッチＢ",
 		"tr_text": ""
 	},
 	{
@@ -22125,8 +22220,18 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No25181",
+		"jp_text": "ヘンネスヘッドドレスＢ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No25190",
 		"jp_text": "ヘンネスリボン",
+		"tr_text": ""
+	},
+	{
+		"assign": "No25191",
+		"jp_text": "ヘンネスリボンＢ",
 		"tr_text": ""
 	},
 	{
@@ -22175,8 +22280,18 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No25241",
+		"jp_text": "ダブルリボンコサージュＢ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No25250",
 		"jp_text": "小悪魔風メイドブリム",
+		"tr_text": ""
+	},
+	{
+		"assign": "No25251",
+		"jp_text": "小悪魔風メイドブリムＢ",
 		"tr_text": ""
 	},
 	{
@@ -22217,6 +22332,11 @@
 	{
 		"assign": "No25300",
 		"jp_text": "ショルダーフィン",
+		"tr_text": ""
+	},
+	{
+		"assign": "No25301",
+		"jp_text": "ショルダーフィンＢ",
 		"tr_text": ""
 	},
 	{
@@ -22310,8 +22430,18 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No25371",
+		"jp_text": "ムジンオオダスキＢ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No25380",
 		"jp_text": "カレイリボン",
+		"tr_text": ""
+	},
+	{
+		"assign": "No25381",
+		"jp_text": "カレイリボンＢ",
 		"tr_text": ""
 	},
 	{
@@ -22320,8 +22450,18 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No25391",
+		"jp_text": "シャムス背中飾りＢ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No25400",
 		"jp_text": "シャムス髪飾り",
+		"tr_text": ""
+	},
+	{
+		"assign": "No25401",
+		"jp_text": "シャムス髪飾りＢ",
 		"tr_text": ""
 	},
 	{
@@ -22330,8 +22470,18 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No25411",
+		"jp_text": "カムラ髪飾りＢ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No25420",
 		"jp_text": "カムラ背中飾り",
+		"tr_text": ""
+	},
+	{
+		"assign": "No25421",
+		"jp_text": "カムラ背中飾りＢ",
 		"tr_text": ""
 	},
 	{
@@ -22405,6 +22555,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No25501",
+		"jp_text": "ゴシック風フードＢ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No25510",
 		"jp_text": "リバティーヘッドギア",
 		"tr_text": ""
@@ -22425,13 +22580,28 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No25541",
+		"jp_text": "アルカーノリボンＢ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No25550",
 		"jp_text": "アルカーノウェストリボン",
 		"tr_text": ""
 	},
 	{
+		"assign": "No25551",
+		"jp_text": "アルカーノウェストリボンＢ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No25560",
 		"jp_text": "セクシーメイドブリム",
+		"tr_text": ""
+	},
+	{
+		"assign": "No25561",
+		"jp_text": "セクシーメイドブリムＢ",
 		"tr_text": ""
 	},
 	{
@@ -22525,6 +22695,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No25691",
+		"jp_text": "シャークヘッドＢ",
+		"tr_text": ""
+	},
+	{
 		"assign": "No25700",
 		"jp_text": "ジェネのハイビスカス",
 		"tr_text": ""
@@ -22532,6 +22707,11 @@
 	{
 		"assign": "No25710",
 		"jp_text": "アネットの麦わら帽子",
+		"tr_text": ""
+	},
+	{
+		"assign": "No25711",
+		"jp_text": "アネットの麦わら帽子Ｂ",
 		"tr_text": ""
 	},
 	{
@@ -22567,6 +22747,11 @@
 	{
 		"assign": "No25800",
 		"jp_text": "メカニカルヒヅメ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No25801",
+		"jp_text": "メカニカルヒヅメＢ",
 		"tr_text": ""
 	},
 	{
@@ -22732,6 +22917,11 @@
 	{
 		"assign": "No26020",
 		"jp_text": "スタッズベルト",
+		"tr_text": ""
+	},
+	{
+		"assign": "No26021",
+		"jp_text": "スタッズベルトＢ",
 		"tr_text": ""
 	},
 	{
@@ -23700,6 +23890,16 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No27362",
+		"jp_text": "魔法陣　黄",
+		"tr_text": ""
+	},
+	{
+		"assign": "No27363",
+		"jp_text": "魔法陣　緑",
+		"tr_text": ""
+	},
+	{
 		"assign": "No27364",
 		"jp_text": "魔法陣　紫",
 		"tr_text": ""
@@ -23712,6 +23912,16 @@
 	{
 		"assign": "No27371",
 		"jp_text": "ストリームウィング　赤",
+		"tr_text": ""
+	},
+	{
+		"assign": "No27372",
+		"jp_text": "ストリームウィング　黄",
+		"tr_text": ""
+	},
+	{
+		"assign": "No27373",
+		"jp_text": "ストリームウィング　緑",
 		"tr_text": ""
 	},
 	{
@@ -24060,8 +24270,18 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No27990",
+		"jp_text": "イノセント・ゼロ襟",
+		"tr_text": ""
+	},
+	{
 		"assign": "No28000",
 		"jp_text": "亞悪巣ピアス",
+		"tr_text": ""
+	},
+	{
+		"assign": "No28010",
+		"jp_text": "マルガレータの髪飾り",
 		"tr_text": ""
 	},
 	{
@@ -24070,8 +24290,18 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No28020",
+		"jp_text": "マルガレータの首飾り",
+		"tr_text": ""
+	},
+	{
 		"assign": "No28029",
 		"jp_text": "",
+		"tr_text": ""
+	},
+	{
+		"assign": "No28030",
+		"jp_text": "マルガレータの背中飾り",
 		"tr_text": ""
 	},
 	{
@@ -24165,6 +24395,26 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No28140",
+		"jp_text": "戦神衣の機翼",
+		"tr_text": ""
+	},
+	{
+		"assign": "No28149",
+		"jp_text": "",
+		"tr_text": ""
+	},
+	{
+		"assign": "No28150",
+		"jp_text": "戦神衣の頭羽",
+		"tr_text": ""
+	},
+	{
+		"assign": "No28159",
+		"jp_text": "",
+		"tr_text": ""
+	},
+	{
 		"assign": "No28160",
 		"jp_text": "ハートチョココサージュ",
 		"tr_text": ""
@@ -24212,6 +24462,11 @@
 	{
 		"assign": "No28220",
 		"jp_text": "シェイカーマスク",
+		"tr_text": ""
+	},
+	{
+		"assign": "No28230",
+		"jp_text": "和風リボン",
 		"tr_text": ""
 	},
 	{
@@ -24540,6 +24795,16 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No28700",
+		"jp_text": "トゥルーヘッドギア",
+		"tr_text": ""
+	},
+	{
+		"assign": "No28709",
+		"jp_text": "",
+		"tr_text": ""
+	},
+	{
 		"assign": "No28710",
 		"jp_text": "プワゾンカチューシャ",
 		"tr_text": ""
@@ -24825,7 +25090,77 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No28970",
+		"jp_text": "トゥルーブルームＡ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No28979",
+		"jp_text": "",
+		"tr_text": ""
+	},
+	{
+		"assign": "No28980",
+		"jp_text": "トゥルーブルームＢ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No28989",
+		"jp_text": "",
+		"tr_text": ""
+	},
+	{
+		"assign": "No28990",
+		"jp_text": "トゥルーブルームＣ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No28999",
+		"jp_text": "",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29000",
+		"jp_text": "火を継ぐ蛇翼Ａ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29009",
+		"jp_text": "",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29010",
+		"jp_text": "火を継ぐ蛇翼Ｂ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29019",
+		"jp_text": "",
+		"tr_text": ""
+	},
+	{
 		"assign": "No2902",
+		"jp_text": "",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29020",
+		"jp_text": "火を継ぐリボン",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29029",
+		"jp_text": "",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29030",
+		"jp_text": "火を継ぐ髪飾り",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29039",
 		"jp_text": "",
 		"tr_text": ""
 	},
@@ -24900,8 +25235,338 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "No29220",
+		"jp_text": "プリエールヴェール",
+		"tr_text": ""
+	},
+	{
 		"assign": "No29240",
 		"jp_text": "エナジーウィング",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29260",
+		"jp_text": "ジェネのデッキシューズ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29270",
+		"jp_text": "ジェネのサマーベレー帽",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29300",
+		"jp_text": "カジュアルソナー　青",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29301",
+		"jp_text": "カジュアルソナー　橙",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29302",
+		"jp_text": "カジュアルソナー　緑",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29303",
+		"jp_text": "カジュアルソナー　黄",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29320",
+		"jp_text": "腰フリル　赤",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29321",
+		"jp_text": "腰フリル　水",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29322",
+		"jp_text": "腰フリル　黒",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29323",
+		"jp_text": "腰フリル　紺",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29330",
+		"jp_text": "頭乗せパイロット",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29340",
+		"jp_text": "フロートナイフ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29440",
+		"jp_text": "シュテックガスマスク",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29450",
+		"jp_text": "ツヤノヘアアクセ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29460",
+		"jp_text": "ツヤノリボン",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29470",
+		"jp_text": "クレイン綿帽子",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29480",
+		"jp_text": "クレイン羽飾り",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29490",
+		"jp_text": "バックパレオＡ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29491",
+		"jp_text": "バックパレオＢ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29492",
+		"jp_text": "バックパレオＣ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29493",
+		"jp_text": "バックパレオＤ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29500",
+		"jp_text": "ヘキサウィング　水",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29501",
+		"jp_text": "ヘキサウィング　青",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29502",
+		"jp_text": "ヘキサウィング　赤",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29510",
+		"jp_text": "たれネコ耳　灰",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29511",
+		"jp_text": "たれネコ耳　茶",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29512",
+		"jp_text": "たれネコ耳　黒",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29520",
+		"jp_text": "腰リボン　赤",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29521",
+		"jp_text": "腰リボン　青",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29522",
+		"jp_text": "腰リボン　黒",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29530",
+		"jp_text": "プリーツパレオ　赤",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29531",
+		"jp_text": "プリーツパレオ　青",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29532",
+		"jp_text": "プリーツパレオ　黒",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29540",
+		"jp_text": "ファンシーウィング　紫",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29541",
+		"jp_text": "ファンシーウィング　青",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29542",
+		"jp_text": "ファンシーウィング　緑",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29550",
+		"jp_text": "ぽわぽわエフェクト",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29660",
+		"jp_text": "ワイヤーバタフライＡ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29661",
+		"jp_text": "ワイヤーバタフライＢ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29710",
+		"jp_text": "ゲザングピアス",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29720",
+		"jp_text": "サークルキーボード　青",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29721",
+		"jp_text": "サークルキーボード　桃",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29722",
+		"jp_text": "サークルキーボード　緑",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29730",
+		"jp_text": "くわえチョコバナナ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29731",
+		"jp_text": "くわえチョコバナナ　白",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29732",
+		"jp_text": "くわえチョコバナナ　苺",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29740",
+		"jp_text": "マリンコサージュ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29750",
+		"jp_text": "ポーチカヘアアクセ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29760",
+		"jp_text": "フルートヴェール",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29770",
+		"jp_text": "フルートリボン",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29780",
+		"jp_text": "フルートピアス",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29790",
+		"jp_text": "バタフライウィング　紫",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29791",
+		"jp_text": "バタフライウィング　青",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29792",
+		"jp_text": "バタフライウィング　赤",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29800",
+		"jp_text": "ダークバタフライ　赤",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29801",
+		"jp_text": "ダークバタフライ　紫",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29802",
+		"jp_text": "ダークバタフライ　青",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29810",
+		"jp_text": "ラッピー水筒",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29811",
+		"jp_text": "ラブラッピー水筒",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29870",
+		"jp_text": "チェーンテイル",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29880",
+		"jp_text": "炎の角　赤",
+		"tr_text": ""
+	},
+	{
+		"assign": "No29881",
+		"jp_text": "炎の角　紫",
+		"tr_text": ""
+	},
+	{
+		"assign": "No30010",
+		"jp_text": "フェダーヘアピンＢ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No30011",
+		"jp_text": "フェダーヘアピンＡ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No30050",
+		"jp_text": "ネコ耳風エクステ",
 		"tr_text": ""
 	},
 	{
@@ -24917,6 +25582,11 @@
 	{
 		"assign": "No30100",
 		"jp_text": "バラエティマスクＣ",
+		"tr_text": ""
+	},
+	{
+		"assign": "No30450",
+		"jp_text": "二代目ＫＫのエクステ",
 		"tr_text": ""
 	},
 	{

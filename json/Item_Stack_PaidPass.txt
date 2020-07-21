@@ -2436,6 +2436,13 @@
 		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 60%"
 	},
 	{
+		"assign": "3210556",
+		"jp_text": "Ｓ６追加：奇跡再演",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：奇跡再演を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210559",
 		"jp_text": "Ｓ４追加：滅域分与",
 		"tr_text": "S4 Add:Shared Ruin",
@@ -2520,11 +2527,95 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Calming Expanse\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210574",
+		"jp_text": "Ｓ５追加：領域加勢",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：領域加勢を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210576",
+		"jp_text": "Ｓ７追加：視敵無双",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：視敵無双を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210578",
 		"jp_text": "Ｓ４追加：追蝕の志",
 		"tr_text": "S4 Add:Pursuing Intent",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：追蝕の志を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Pursuing Intent\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210586",
+		"jp_text": "Ｓ１追加：輝充の志２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：輝充の志２を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210599",
+		"jp_text": "Ｓ２追加：気輝応変",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：気輝応変を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210600",
+		"jp_text": "Ｓ２追加：火炎の備志",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：火炎の備志を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210601",
+		"jp_text": "Ｓ２追加：氷雪の備志",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：氷雪の備志を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210602",
+		"jp_text": "Ｓ２追加：轟雷の備志",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：轟雷の備志を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210603",
+		"jp_text": "Ｓ２追加：暴風の備志",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：暴風の備志を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210604",
+		"jp_text": "Ｓ２追加：光明の備志",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：光明の備志を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210605",
+		"jp_text": "Ｓ２追加：暗闇の備志",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：暗闇の備志を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210606",
+		"jp_text": "Ｓ３追加：光子縮減",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：光子縮減を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210607",
+		"jp_text": "Ｓ３追加：瞬連の輝",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：瞬連の輝を付与。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "3210608",
@@ -2539,5 +2630,131 @@
 		"tr_text": "Ability Success Rate +65%",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n成功率を６５％上昇させる。",
 		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 65%."
+	},
+	{
+		"assign": "3210611",
+		"jp_text": "Ｓ１追加Ｒ：失力の蝕",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：失力の蝕を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210612",
+		"jp_text": "Ｓ１追加Ｒ：死中の志",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：死中の志を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210613",
+		"jp_text": "Ｓ１追加Ｒ：時流の志",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：時流の志を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210626",
+		"jp_text": "Ｓ２追加Ｒ：技巧縮減",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：技巧縮減を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210627",
+		"jp_text": "Ｓ２追加Ｒ：妙撃の志２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：妙撃の志２を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210643",
+		"jp_text": "Ｓ３追加Ｒ：撃流の備",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流の備を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210644",
+		"jp_text": "Ｓ３追加Ｒ：撃流縮減",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流縮減を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210645",
+		"jp_text": "Ｓ３追加Ｒ：撃流の巧",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流の巧を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210646",
+		"jp_text": "Ｓ３追加Ｒ：時流の恵",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：時流の恵を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210647",
+		"jp_text": "Ｓ３追加Ｒ：花海雪の歌",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：花海雪の歌を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210662",
+		"jp_text": "Ｓ４追加Ｒ：静心の志",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：静心の志を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210709",
+		"jp_text": "特殊能力Ｒ（センテンスＰ）",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・パワー】を追加。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210710",
+		"jp_text": "特殊能力Ｒ（センテンスＳ）",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・シュート】を追加。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210711",
+		"jp_text": "特殊能力Ｒ（センテンスＴ）",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・テクニック】を追加。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210712",
+		"jp_text": "特殊能力Ｒ（エーテルＳ）",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【エーテル・ソール】を追加。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210713",
+		"jp_text": "特殊能力Ｒ（ファクターＣ）",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ファクター・カタリスト】を追加。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210714",
+		"jp_text": "特殊能力Ｒ（オメガＭ）",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【オメガ・メモリア】を追加。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210715",
+		"jp_text": "特殊能力Ｒ（レヴリーＣ）",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【レヴリー・カタリスト】を追加。",
+		"tr_explain": ""
 	}
 ]
