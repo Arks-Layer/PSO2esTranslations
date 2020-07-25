@@ -5058,14 +5058,14 @@
 		"jp_explainShort": "アビＬｖ技法増加＋ダメージ防御＋バーン付与",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて必殺技・法術チップの\n　　 威力を大きく増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵からダメージを受けた時\n　　 一定確率で「バーン」効果を与える。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts all PAs and Techs by 2% x this chip's ability\n     level.\nSP: Boosts all PAs and Techs by 3% x this chip's ability     level.\n<color=yellow>[K-Frame]</color>②  Grants you a barrier that prevents damage up to\n     3% of your maximum HP x this chip's ability level.\n③  Responds to damage from the targeted enemy\n     with a 100% chance to inflict [Burn].\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31931",
 		"jp_explainShort": "アビＬｖ技法大増加＋ダメージ防御＋バーン付与",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて必殺技・法術チップの\n　　 威力を劇的に増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵からダメージを受けた時\n　　 一定確率で「バーン」効果を与える。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts all PAs and Techs by 4% x this chip's ability\n     level.\nSP: Boosts all PAs and Techs by 5% x this chip's ability     level.\n<color=yellow>[K-Frame]</color>②  Grants you a barrier that prevents damage up to\n     3% of your maximum HP x this chip's ability level.\n③  Responds to damage from the targeted enemy\n     with a 100% chance to inflict [Burn].\n[Activation Trigger] Landing an attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31932",
@@ -8551,7 +8551,7 @@
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 風属性の武器の場合に威力をわずかに増加する。\n② 大剣の場合に攻撃力をわずかに増加する。\n③ 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 20% if equipped with\n     a Wind weapon.\n<color=yellow>SP: </color>Boosts damage by 25% if equipped with\n     a Wind weapon.\n     <color=yellow>[M-Frame]</color>\n②  Boosts damage by 20% if equipped with\n     a Sword.\n<color=yellow>SP: </color>Boosts damage by 25% if equipped with\n     a Sword.\n     <color=yellow>[N-Frame]</color>\n③  Recovers HP by 10% every 6 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "40234",
@@ -9244,7 +9244,7 @@
 		"jp_explainShort": "攻撃３回毎に攻撃力小強化＋追加小ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 光属性の武器の場合に威力を増加する。\n② 飛翔剣の場合に攻撃力を増加する。\n③ 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 30% if equipped with\n     a Light weapon.\n<color=yellow>SP: </color>Boosts damage by 35% if equipped with\n     a Light weapon.\n     <color=yellow>[M-Frame]</color>\n②  Boosts damage by 30% if equipped with\n     Dual Blades.\n<color=yellow>SP: </color>Boosts damage by 35% if equipped with\n     Dual Blades.\n     <color=yellow>[N-Frame]</color>\n③  Recovers HP by 10% every 6 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "40333",
@@ -9531,14 +9531,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 氷属性の武器の場合に威力をわずかに増加する。\n② 強弓の場合に攻撃力をわずかに増加する。\n③ 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 20% if equipped with\n     an Iceweapon.\n<color=yellow>SP: </color>Boosts damage by 25% if equipped with\n     an Iceweapon.\n     <color=yellow>[M-Frame]</color>\n②  Boosts damage by 20% if equipped with\n     a Bullet Bow.\n<color=yellow>SP: </color>Boosts damage by 25% if equipped with\n     a Bullet Bow.\n     <color=yellow>[N-Frame]</color>\n③  Recovers HP by 10% every 6 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "40374",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 氷属性の武器の場合に威力を増加する。\n② 強弓の場合に攻撃力を増加する。\n③ 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 30% if equipped with\n     an Iceweapon.\n<color=yellow>SP: </color>Boosts damage by 35% if equipped with\n     an Iceweapon.\n     <color=yellow>[M-Frame]</color>\n②  Boosts damage by 30% if equipped with\n     a Bullet Bow.\n<color=yellow>SP: </color>Boosts damage by 35% if equipped with\n     a Bullet Bow.\n     <color=yellow>[N-Frame]</color>\n③  Recovers HP by 10% every 6 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "40375",
@@ -9867,14 +9867,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 氷属性の武器の場合に威力をわずかに増加する。\n② 短杖の場合に攻撃力をわずかに増加する。\n③ 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 20% if equipped with\n     an Iceweapon.\n<color=yellow>SP: </color>Boosts damage by 25% if equipped with\n     an Iceweapon.\n     <color=yellow>[M-Frame]</color>\n②  Boosts damage by 20% if equipped with\n     a Wand.\n<color=yellow>SP: </color>Boosts damage by 25% if equipped with\n     a Wand.\n     <color=yellow>[N-Frame]</color>\n③  Recovers HP by 10% every 6 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "40422",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 氷属性の武器の場合に威力を増加する。\n② 短杖の場合に攻撃力を増加する。\n③ 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 30% if equipped with\n     an Iceweapon.\n<color=yellow>SP: </color>Boosts damage by 35% if equipped with\n     an Iceweapon.\n     <color=yellow>[M-Frame]</color>\n②  Boosts damage by 30% if equipped with\n     a Wand.\n<color=yellow>SP: </color>Boosts damage by 35% if equipped with\n     a Wand.\n     <color=yellow>[N-Frame]</color>\n③  Recovers HP by 10% every 6 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "40423",
