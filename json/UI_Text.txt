@@ -6287,7 +6287,7 @@
 	{
 		"assign": "reward_trigger",
 		"jp_text": "【<color=#ffff00>{0}トリガー獲得</color>】",
-		"tr_text": ""
+		"tr_text": "[<color=#ffff00>{0} Triggers earned</color>]"
 	},
 	{
 		"assign": "relief_dialog_no_select_t",
@@ -12227,7 +12227,7 @@
 	{
 		"assign": "tu_0006_w15_b",
 		"jp_text": "『PSO2』で配信されているスクラッチを引けるようになりました。\nスクラッチ画面の左上にあるボタンを押すと\n『PSO2』と『PSO2es』のスクラッチを切り替えられます。",
-		"tr_text": ""
+		"tr_text": "Scratches from PSO2 are now available.\nPress the button in the top left corner to switch\nbetween scratches from PSO2 and PSO2es."
 	},
 	{
 		"assign": "tu_0006_w16_b",
@@ -19337,12 +19337,12 @@
 	{
 		"assign": "chip_depot_guide_00",
 		"jp_text": "<color=#f0df60>チップ倉庫に預けるチップを選択してください。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Select chips to deposit in chip storage.</color>"
 	},
 	{
 		"assign": "chip_depot_guide_01",
 		"jp_text": "<color=#f0df60>チップパックへ取り出すチップを選択してください。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Select chips to withdraw from chip storage.</color>"
 	},
 	{
 		"assign": "chip_depot_expand_num",
@@ -19352,17 +19352,17 @@
 	{
 		"assign": "chip_depot_dialog_b_02",
 		"jp_text": "チップ倉庫が最大まで拡張されているので\nこれ以上拡張できません。 ",
-		"tr_text": ""
+		"tr_text": "Your chip storage has been expanded\nto its maximum size.\nIt cannot be expanded any further."
 	},
 	{
 		"assign": "scratch_pickup_select_window_title",
 		"jp_text": "ドリームスクラッチ★{0}チップ選択",
-		"tr_text": ""
+		"tr_text": "Dream Scratch ★{0} Chip Selection"
 	},
 	{
 		"assign": "scratch_pickup_select_window_select",
 		"jp_text": "ドリームスクラッチに封入したい★{0}のチップを{1}個選んでください。",
-		"tr_text": ""
+		"tr_text": "Select chips that you want to\nadd to the ★{0}Dream Scratch."
 	},
 	{
 		"assign": "scratch_pickup_select_window_count",
@@ -19372,27 +19372,27 @@
 	{
 		"assign": "scratch_pickup_select_confirm_window_title",
 		"jp_text": "ドリームスクラッチ封入確認  ",
-		"tr_text": ""
+		"tr_text": "Confirm Dream Scratch Contents"
 	},
 	{
 		"assign": "scratch_pickup_select_guide",
 		"jp_text": "<color=#f0df60>欲しいウェポノイドチップを選択してスクラッチを引き、ウェポノイドチップを１枚獲得しよう！</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Select the Weaponoid chips you want to scratch for, and draw 1 guaranteed Weaponoid chip!</color>"
 	},
 	{
 		"assign": "scratch_pickup_get_bonus_item_name",
 		"jp_text": "回数ボーナスで\n「{0}」を入手しました",
-		"tr_text": ""
+		"tr_text": "Received {0} as a Freqency Bonus"
 	},
 	{
 		"assign": "scratch_get_item_name_count",
 		"jp_text": "{0}　×　{1}",
-		"tr_text": ""
+		"tr_text": "{0} x {1}"
 	},
 	{
 		"assign": "scratch_pickup_get_item_name",
 		"jp_text": "ドリームスクラッチ報酬！\n {0} を入手しました！",
-		"tr_text": ""
+		"tr_text": "Dream Scratch reward!\nReceived {0}!"
 	},
 	{
 		"assign": "scratch_pickup_pickup_to_count",
@@ -19412,7 +19412,7 @@
 	{
 		"assign": "scratch_pickup_bonus_window_title",
 		"jp_text": "ドリームスクラッチ報酬確認",
-		"tr_text": ""
+		"tr_text": "Dream Scratch Bonus"
 	},
 	{
 		"assign": "scratch_pickup_bonus_get_item_count",
@@ -19692,12 +19692,12 @@
 	{
 		"assign": "quest_clear_reward_dialog_title_5022604",
 		"jp_text": "シリーズクエストクリア！",
-		"tr_text": ""
+		"tr_text": "Series Quest Clear!"
 	},
 	{
 		"assign": "quest_clear_reward_dialog_body_5022604",
 		"jp_text": "クラン オブ ネメシス＆スレイヴ\n外典 第4話「光の救世主」\nクリアおめでとうございます！\n以下のクリア報酬をプレゼントいたしました。\n受け取りボックスをご確認ください。",
-		"tr_text": ""
+		"tr_text": "Congratulations on clearing Clan of Nemesis & Slave\nExtra Episode 4 \"光の救世主\"!\nYou have received the Clear Reward below.\nPlease check your Reception Box."
 	},
 	{
 		"assign": "recommended_equipment",
@@ -23272,7 +23272,7 @@
 	{
 		"assign": "scratch_weaponoid_text",
 		"jp_text": "「ｅｓ1スクラッチ」<%AC>11回引き3回ごとに、コインを1枚もらえます。\n選択したウェポノイドチップの中から1枚を獲得できます。",
-		"tr_text": ""
+		"tr_text": "You receive 1 Coin every 3 times you spend\n<%AC> to draw 11 times on es1 Scratch.\nYou can select one of the below Weaponoid chips."
 	},
 	{
 		"assign": "scratch_limited_time",
@@ -23392,66 +23392,66 @@
 	{
 		"assign": "check_story_play_dialog_title",
 		"jp_text": "ストーリー再生確認",
-		"tr_text": ""
+		"tr_text": "Story Playback Confirmation"
 	},
 	{
 		"assign": "check_story_play_dialog_message",
 		"jp_text": "ストーリーを再生しますか？",
-		"tr_text": ""
+		"tr_text": "Do you want to replay the story?"
 	},
 	{
 		"assign": "emergency_quest_trade_trigger_button",
 		"jp_text": "交換",
-		"tr_text": ""
+		"tr_text": "Exchange"
 	},
 	{
 		"assign": "emergency_quest_trade_trigger_dialog_title",
 		"jp_text": "トリガー交換",
-		"tr_text": ""
+		"tr_text": "Trigger Exchange"
 	},
 	{
 		"assign": "emergency_quest_trade_trigger_dialog_message",
 		"jp_text": "超級トリガー <color=yellow>{0}</color>個を\n覇級トリガー <color=yellow>{1}</color>個に交換します。",
-		"tr_text": ""
+		"tr_text": "Trading <color=yellow>{0}</color> Super Hard Triggers\nfor <color=yellow>{1}</color> Extra Hard Triggers."
 	},
 	{
 		"assign": "emergency_quest_trade_trigger_dialog_sp_trigger_name",
 		"jp_text": "・超級トリガー",
-		"tr_text": ""
+		"tr_text": "・Super Hard Triggers"
 	},
 	{
 		"assign": "emergency_quest_trade_trigger_dialog_absolute_trigger_name",
 		"jp_text": "・覇級トリガー",
-		"tr_text": ""
+		"tr_text": "・Extra Hard Triggers"
 	},
 	{
 		"assign": "emergency_quest_trade_trigger_dialog_trigger_num",
 		"jp_text": "所持数：",
-		"tr_text": ""
+		"tr_text": " owned: "
 	},
 	{
 		"assign": "emergency_quest_trade_trigger_dialog_trigger_num_before_after",
 		"jp_text": "{0:#,0}個　⇒　{1:#,0}個",
-		"tr_text": ""
+		"tr_text": "{0:#,0}　⇒　{1:#,0}"
 	},
 	{
 		"assign": "emergency_quest_trade_trigger_finish_dialog_title",
 		"jp_text": "トリガー交換",
-		"tr_text": ""
+		"tr_text": "Trigger Exchange"
 	},
 	{
 		"assign": "emergency_quest_trade_trigger_finish_dialog_message",
 		"jp_text": "交換が完了しました。",
-		"tr_text": ""
+		"tr_text": "Exchange complete."
 	},
 	{
 		"assign": "emergency_quest_trade_trigger_disable_dialog_title",
 		"jp_text": "所持トリガー不足",
-		"tr_text": ""
+		"tr_text": "Insufficient Triggers"
 	},
 	{
 		"assign": "emergency_quest_trade_trigger_disable_dialog_message",
 		"jp_text": "トリガーが不足しています。\n\n交換に必要なトリガー\n　 ・超級トリガー：{0}個",
-		"tr_text": ""
+		"tr_text": "You do not have enough Triggers to exchange.\nTriggers needed:\n・Super Hard: {0}"
 	}
 ]
