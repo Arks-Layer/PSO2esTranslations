@@ -522,14 +522,14 @@
 		"jp_explainShort": "ＣＰ最大値増加＋ＣＰ回復速度を劇的強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ＣＰの最大値を増加する。\n② ＣＰの回復速度を劇的に強化する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Increases your maximum CP by 30.\n<color=yellow>SP: </color>Increases your maximum CP by 40.\n②  Boosts your CP regeneration speed by 100%.\n[Effect Duration] 35 seconds"
+		"tr_explainLong": "①  Increases your maximum CP by 30.\n<color=yellow>SP: </color>Increases your maximum CP by 40.\n②  Boosts your CP recovery by 100%.\n[Effect Duration] 35 seconds"
 	},
 	{
 		"assign": "31010",
 		"jp_explainShort": "ＣＰ最大値増加＋ＣＰ回復速度を劇的強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ＣＰの最大値を増加する。\n② ＣＰの回復速度を劇的に強化する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Increases your maximum CP by 50.\n<color=yellow>SP: </color>Increases your maximum CP by 60.\n②  Boosts your CP regeneration speed by 100%.\n[Effect Duration] 40 seconds"
+		"tr_explainLong": "①  Increases your maximum CP by 50.\n<color=yellow>SP: </color>Increases your maximum CP by 60.\n②  Boosts your CP recovery by 100%.\n[Effect Duration] 40 seconds"
 	},
 	{
 		"assign": "31011",
@@ -1656,14 +1656,14 @@
 		"jp_explainShort": "アビリティＬｖ攻撃劇的増＋ＣＰ回復速度強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて攻撃力を劇的に増加する。\n② ＣＰの回復速度を劇的に強化する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts damage by 10% + 10% x this chip's ability\n     level.\n<color=yellow>SP: </color>Boosts damage by 20% + 10% x this chip's ability\n     level.\n     <color=yellow>[E-Frame]</color>\n②  Boosts your CP regeneration speed by 100%.\n[Effect Duration] 50 seconds"
+		"tr_explainLong": "①  Boosts damage by 10% + 10% x this chip's ability\n     level.\n<color=yellow>SP: </color>Boosts damage by 20% + 10% x this chip's ability\n     level.\n     <color=yellow>[E-Frame]</color>\n②  Boosts your CP recovery by 100%.\n[Effect Duration] 50 seconds"
 	},
 	{
 		"assign": "31645",
 		"jp_explainShort": "アビリティＬｖ攻撃絶大増＋ＣＰ回復速度強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて攻撃力を絶大に増加する。\n② ＣＰの回復速度を劇的に強化する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts damage by 30% + 10% x this chip's ability\n     level.\n<color=yellow>SP: </color>Boosts damage by 40% + 10% x this chip's ability\n     level.\n     <color=yellow>[E-Frame]</color>\n②  Boosts your CP regeneration speed by 100%.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Boosts damage by 30% + 10% x this chip's ability\n     level.\n<color=yellow>SP: </color>Boosts damage by 40% + 10% x this chip's ability\n     level.\n     <color=yellow>[E-Frame]</color>\n②  Boosts your CP recovery by 100%.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31646",
@@ -2188,14 +2188,14 @@
 		"jp_explainShort": "攻撃力超絶強化＋ＣＰ回復速度強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に強化する。\n② ＣＰの回復速度を劇的に強化する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Increases your ATK by 9000.\n<color=yellow>SP: </color>Increases your ATK by 10000.\n②  Boosts your CP regeneration speed by 100%.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Increases your ATK by 9000.\n<color=yellow>SP: </color>Increases your ATK by 10000.\n②  Boosts your CP recovery by 100%.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31865",
 		"jp_explainShort": "攻撃力超絶強化＋ＣＰ回復速度強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に強化する。\n② ＣＰの回復速度を劇的に強化する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Increases your ATK by 11000.\n<color=yellow>SP: </color>Increases your ATK by 12000.\n②  Boosts your CP regeneration speed by 100%.\n[Effect Duration] 70 seconds"
+		"tr_explainLong": "①  Increases your ATK by 11000.\n<color=yellow>SP: </color>Increases your ATK by 12000.\n②  Boosts your CP recovery by 100%.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "31881",
@@ -2230,14 +2230,14 @@
 		"jp_explainShort": "定期ＨＰ減少＋与ダメージ増＋ＣＰ回復速度強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 定期的にＨＰが最大ＨＰの５％減少する代わりに\n　　 与えるダメージを超絶に増加する。\n　　 （ＨＰは最低でも１残る）\n　　 ただし、ＨＰが５％未満の場合\n　　 このチップを発動できない。\n② ＣＰの回復速度を劇的に強化する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts damage by 250% in exchange for losing\n     5% of your HP every second.\n<color=yellow>SP: </color>Boosts damage by 260% in exchange for losing\n     5% of your HP every second.\n     (Cannot reduce your HP below 1).\n     You cannot activate this chip when below 5% HP.\n     <color=yellow>[Y-Frame]</color>\n②  Boosts your CP regeneration speed by 100%.\n[Effect Duration] 60 seconds"
+		"tr_explainLong": "①  Boosts damage by 250% in exchange for losing\n     5% of your HP every second.\n<color=yellow>SP: </color>Boosts damage by 260% in exchange for losing\n     5% of your HP every second.\n     (Cannot reduce your HP below 1).\n     You cannot activate this chip when below 5% HP.\n     <color=yellow>[Y-Frame]</color>\n②  Boosts your CP recovery by 100%.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31888",
 		"jp_explainShort": "定期ＨＰ減少＋与ダメージ増＋ＣＰ回復速度強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 定期的にＨＰが最大ＨＰの５％減少する代わりに\n　　 与えるダメージを超絶に増加する。\n　　 （ＨＰは最低でも１残る）\n　　 ただし、ＨＰが５％未満の場合\n　　 このチップを発動できない。\n② ＣＰの回復速度を劇的に強化する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts damage by 270% in exchange for losing\n     5% of your HP every second.\n<color=yellow>SP: </color>Boosts damage by 280% in exchange for losing\n     5% of your HP every second.\n     (Cannot reduce your HP below 1).\n     You cannot activate this chip when below 5% HP.\n     <color=yellow>[Y-Frame]</color>\n②  Boosts your CP regeneration speed by 100%.\n[Effect Duration] 70 seconds"
+		"tr_explainLong": "①  Boosts damage by 270% in exchange for losing\n     5% of your HP every second.\n<color=yellow>SP: </color>Boosts damage by 280% in exchange for losing\n     5% of your HP every second.\n     (Cannot reduce your HP below 1).\n     You cannot activate this chip when below 5% HP.\n     <color=yellow>[Y-Frame]</color>\n②  Boosts your CP recovery by 100%.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "31899",
