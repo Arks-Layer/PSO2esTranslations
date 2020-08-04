@@ -6759,14 +6759,14 @@
 		"jp_explainShort": "定期的にＨＰが小回復＋大剣の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃対象の敵が闇属性弱点の場合に\n　　 アビリティレベルに応じて\n　　 与えるダメージを大きく増加する。\n② 闇属性の上限値が上昇する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "①  Boosts damage by ??% + ?% x this chip's ability\n     level against enemies weak to Dark.\n     <color=yellow>[D-Frame]</color>\n②  Increases your maximum Dark value by ??.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by 25% + 2% x this chip's ability\n     level against enemies weak to Dark.\n<color=yellow>SP: </color>Boosts damage by 35% + 2% x this chip's ability\n     level against enemies weak to Dark.\n     <color=yellow>[D-Frame]</color>\n②  Increases your maximum Dark value by 10.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "32319",
 		"jp_explainShort": "定期的にＨＰが小回復＋大剣の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃対象の敵が闇属性弱点の場合に\n　　 アビリティレベルに応じて\n　　 与えるダメージを劇的に増加する。\n② 闇属性の上限値が上昇する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "①  Boosts damage by ??% + ?% x this chip's ability\n     level against enemies weak to Dark.\n     <color=yellow>[D-Frame]</color>\n②  Increases your maximum Dark value by ??.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by 45% + 2% x this chip's ability\n     level against enemies weak to Dark.\n<color=yellow>SP: </color>Boosts damage by 55% + 2% x this chip's ability\n     level against enemies weak to Dark.\n     <color=yellow>[D-Frame]</color>\n②  Increases your maximum Dark value by 10.\n[Activation Trigger] Landing an attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "32320",
