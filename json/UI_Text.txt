@@ -2642,7 +2642,7 @@
 	{
 		"assign": "labo_guide_15",
 		"jp_text": "<color=#f0df60>チップ特装・プラグ強化をしたいチップを選択してください。チップ特装は最大レベルに達しているチップのみ、プラグ強化はすでに特装したチップが対象です。</color>",
-		"tr_text": "<color=#f0df60>Select a chip for specialization or Plug-In. You can only specialize a chip that has reached its maximum level, and you can only Plug-In to specialized chips.</color>"
+		"tr_text": "<color=#f0df60>IMPORTANT, READ THIS: The translation patch has an unfixable bug on this menu that will make the game lock up. To Specialize or Plug-In a chip, you must first uninstall the translation patch. You can use the PSO2es Tweaker to do this.</color>"
 	},
 	{
 		"assign": "labo_guide_16",
@@ -6285,6 +6285,11 @@
 		"tr_text": "Champion"
 	},
 	{
+		"assign": "reward_trigger",
+		"jp_text": "【<color=#ffff00>{0}トリガー獲得</color>】",
+		"tr_text": "[<color=#ffff00>{0} Triggers earned</color>]"
+	},
+	{
 		"assign": "relief_dialog_no_select_t",
 		"jp_text": "救援確認",
 		"tr_text": "Confirm Rescue"
@@ -7187,7 +7192,7 @@
 	{
 		"assign": "questresult_dps_title",
 		"jp_text": "ダメージ記録",
-		"tr_text": "Damage Record"
+		"tr_text": "Damage Total"
 	},
 	{
 		"assign": "questresult_rematch_button_title",
@@ -9997,7 +10002,7 @@
 	{
 		"assign": "menu_main_formation_info",
 		"jp_text": "※「売却」「交換ショップ」は、MENUの「ショップ」へ移動しました。",
-		"tr_text": "※\"Sell\" and \"Exchange Shop\" have been\nmoved to the Shop tab."
+		"tr_text": "※\"Sell\" and \"Exchange Shop\" have\nbeen moved to the Shop tab."
 	},
 	{
 		"assign": "menu_main_button_ac_shop",
@@ -12221,8 +12226,8 @@
 	},
 	{
 		"assign": "tu_0006_w15_b",
-		"jp_text": "スクラッチメニューにおいて、\n『PSO2』で販売されているスクラッチを\n購入できるようになりました。",
-		"tr_text": "Scratches from PSO2 are now available."
+		"jp_text": "『PSO2』で配信されているスクラッチを引けるようになりました。\nスクラッチ画面の左上にあるボタンを押すと\n『PSO2』と『PSO2es』のスクラッチを切り替えられます。",
+		"tr_text": "Scratches from PSO2 are now available.\nPress the button in the top left corner to switch\nbetween scratches from PSO2 and PSO2es."
 	},
 	{
 		"assign": "tu_0006_w16_b",
@@ -13062,7 +13067,7 @@
 	{
 		"assign": "es_0009_n00_b",
 		"jp_text": "<color=black>た、大変です！\n市街地エリアに、ダーカーの群れが多数出現！</color>",
-		"tr_text": "<color=black>THIS IS AN EMERGENCY!\nDARKERS HAVE STARTED TO APPEAR OUT\nOF KNOWWHERE IN THE CITY AREA!</color>"
+		"tr_text": "<color=black>THIS IS AN EMERGENCY!\nDARKERS HAVE STARTED TO APPEAR OUT\nOF NOWHERE IN THE CITY AREA!</color>"
 	},
 	{
 		"assign": "es_0009_n01_b",
@@ -14867,7 +14872,7 @@
 	{
 		"assign": "raid_n_clear_dps",
 		"jp_text": "お疲れ様でした。満足のいく戦闘はできましたか？\nより高いダメージを目指して、再チャレンジです！",
-		"tr_text": "Thank you for your hard work. Did you enjoy that battle?\nWhy not try again and aim to deal even more damage!"
+		"tr_text": "Thank you for your hard work. Did you enjoy\nthat battle? Why not try again and aim to\ndeal even more damage!"
 	},
 	{
 		"assign": "raid_n_hp01",
@@ -14902,7 +14907,7 @@
 	{
 		"assign": "raid_n_dps01",
 		"jp_text": "自己ベスト更新を目指してがんばってください。\n私も、せいいっぱい応援しています！",
-		"tr_text": ""
+		"tr_text": "Do your best to set a new Personal Best.\nYou have my utmost support!"
 	},
 	{
 		"assign": "raid_log_00",
@@ -15612,7 +15617,7 @@
 	{
 		"assign": "raidEvent_ClearCount",
 		"jp_text": "達成数",
-		"tr_text": "Number Achieved"
+		"tr_text": "Cleared: "
 	},
 	{
 		"assign": "raid_event_guide_00",
@@ -17830,6 +17835,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "lookback_series2_chapter_5",
+		"jp_text": "外典　因縁は捩れ未来を拓く",
+		"tr_text": ""
+	},
+	{
 		"assign": "lookback_maintitle_7",
 		"jp_text": "ハーモニー　オブ　オービット",
 		"tr_text": "Harmony of Orbit"
@@ -19327,12 +19337,12 @@
 	{
 		"assign": "chip_depot_guide_00",
 		"jp_text": "<color=#f0df60>チップ倉庫に預けるチップを選択してください。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Select chips to deposit in chip storage.</color>"
 	},
 	{
 		"assign": "chip_depot_guide_01",
 		"jp_text": "<color=#f0df60>チップパックへ取り出すチップを選択してください。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Select chips to withdraw from chip storage.</color>"
 	},
 	{
 		"assign": "chip_depot_expand_num",
@@ -19342,17 +19352,17 @@
 	{
 		"assign": "chip_depot_dialog_b_02",
 		"jp_text": "チップ倉庫が最大まで拡張されているので\nこれ以上拡張できません。 ",
-		"tr_text": ""
+		"tr_text": "Your chip storage has been expanded\nto its maximum size.\nIt cannot be expanded any further."
 	},
 	{
 		"assign": "scratch_pickup_select_window_title",
-		"jp_text": "ウェポノイド確定スクラッチ★{0}チップ選択",
-		"tr_text": ""
+		"jp_text": "ドリームスクラッチ★{0}チップ選択",
+		"tr_text": "Dream Scratch ★{0} Chip Selection"
 	},
 	{
 		"assign": "scratch_pickup_select_window_select",
-		"jp_text": "ウェポノイド確定スクラッチに封入したい★{0}のチップを{1}個選んでください。",
-		"tr_text": ""
+		"jp_text": "ドリームスクラッチに封入したい★{0}のチップを{1}個選んでください。",
+		"tr_text": "Select chips that you want to\nadd to the ★{0}Dream Scratch."
 	},
 	{
 		"assign": "scratch_pickup_select_window_count",
@@ -19360,28 +19370,33 @@
 		"tr_text": "<color=yellow>{0}</color>"
 	},
 	{
+		"assign": "scratch_pickup_select_confirm_window_title",
+		"jp_text": "ドリームスクラッチ封入確認  ",
+		"tr_text": "Confirm Dream Scratch Contents"
+	},
+	{
 		"assign": "scratch_pickup_select_guide",
 		"jp_text": "<color=#f0df60>欲しいウェポノイドチップを選択してスクラッチを引き、ウェポノイドチップを１枚獲得しよう！</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Select the Weaponoid chips you want to scratch for, and draw 1 guaranteed Weaponoid chip!</color>"
 	},
 	{
 		"assign": "scratch_pickup_get_bonus_item_name",
 		"jp_text": "回数ボーナスで\n「{0}」を入手しました",
-		"tr_text": ""
+		"tr_text": "Received {0} as a Freqency Bonus"
 	},
 	{
 		"assign": "scratch_get_item_name_count",
 		"jp_text": "{0}　×　{1}",
-		"tr_text": ""
+		"tr_text": "{0} x {1}"
 	},
 	{
 		"assign": "scratch_pickup_get_item_name",
-		"jp_text": "ウェポノイド確定スクラッチ報酬！\n {0} を入手しました！",
-		"tr_text": ""
+		"jp_text": "ドリームスクラッチ報酬！\n {0} を入手しました！",
+		"tr_text": "Dream Scratch reward!\nReceived {0}!"
 	},
 	{
 		"assign": "scratch_pickup_pickup_to_count",
-		"jp_text": "確定スクラッチまで",
+		"jp_text": "ドリームスクラッチまで",
 		"tr_text": ""
 	},
 	{
@@ -19396,8 +19411,8 @@
 	},
 	{
 		"assign": "scratch_pickup_bonus_window_title",
-		"jp_text": "ウェポノイド確定スクラッチ報酬確認",
-		"tr_text": "Weaponoid Scratch Compensation"
+		"jp_text": "ドリームスクラッチ報酬確認",
+		"tr_text": "Dream Scratch Bonus"
 	},
 	{
 		"assign": "scratch_pickup_bonus_get_item_count",
@@ -19411,7 +19426,7 @@
 	},
 	{
 		"assign": "scratch_pickup_select_fix_text",
-		"jp_text": "確定スクラッチには次のチップが入ります。よろしいですか？",
+		"jp_text": "次のチップが封入されます。よろしいですか？",
 		"tr_text": ""
 	},
 	{
@@ -19451,7 +19466,7 @@
 	},
 	{
 		"assign": "scratch_pickup_reset_finish_body",
-		"jp_text": "確定スクラッチの内容をリセットしました。\n封入するチップを選びなおしてください。",
+		"jp_text": "ドリームスクラッチの内容をリセットしました。\n封入するチップを選びなおしてください。",
 		"tr_text": ""
 	},
 	{
@@ -19675,6 +19690,16 @@
 		"tr_text": "Congratulations on clearing Season 3 Ch. 8\nQuest 4-5 \"希望　それは、青空の先へ\"!\nYou have received the Clear Reward below.\nPlease check your Reception Box."
 	},
 	{
+		"assign": "quest_clear_reward_dialog_title_5022604",
+		"jp_text": "シリーズクエストクリア！",
+		"tr_text": "Series Quest Clear!"
+	},
+	{
+		"assign": "quest_clear_reward_dialog_body_5022604",
+		"jp_text": "クラン オブ ネメシス＆スレイヴ\n外典 第4話「光の救世主」\nクリアおめでとうございます！\n以下のクリア報酬をプレゼントいたしました。\n受け取りボックスをご確認ください。",
+		"tr_text": "Congratulations on clearing Clan of Nemesis & Slave\nExtra Episode 4 \"光の救世主\"!\nYou have received the Clear Reward below.\nPlease check your Reception Box."
+	},
+	{
 		"assign": "recommended_equipment",
 		"jp_text": "おすすめ装備",
 		"tr_text": "Recommended Equipment"
@@ -19792,17 +19817,17 @@
 	{
 		"assign": "acceptbox_window_receive_tab_title",
 		"jp_text": "受取",
-		"tr_text": "Receive"
+		"tr_text": "Grab"
 	},
 	{
 		"assign": "acceptbox_window_sale_tab_title",
 		"jp_text": "個別売却",
-		"tr_text": "Manual Sale"
+		"tr_text": "Manual\nSale"
 	},
 	{
 		"assign": "acceptbox_window_all_sale_tabl_title",
 		"jp_text": "一括売却",
-		"tr_text": "Bulk Sale"
+		"tr_text": "Bulk\nSale"
 	},
 	{
 		"assign": "acceptbox_no_sale_item",
@@ -20322,7 +20347,7 @@
 	{
 		"assign": "quest_linkskill_window_title",
 		"jp_text": "出発確認",
-		"tr_text": "Confirm Depart"
+		"tr_text": "Confirm"
 	},
 	{
 		"assign": "quest_linkskill_linkslot",
@@ -22117,12 +22142,12 @@
 	{
 		"assign": "raid_dps_achievement_button",
 		"jp_text": "達成報酬",
-		"tr_text": "Achievements"
+		"tr_text": "Challenges"
 	},
 	{
 		"assign": "raid_dps_my_best",
 		"jp_text": "自己ベスト",
-		"tr_text": "Personal Best"
+		"tr_text": "P. Best"
 	},
 	{
 		"assign": "raid_dps_not_joined",
@@ -22147,12 +22172,12 @@
 	{
 		"assign": "raid_dps_title_update_time",
 		"jp_text": "※30分ごとに更新",
-		"tr_text": "※Updated every 30 min."
+		"tr_text": "※Updated every 30 minutes"
 	},
 	{
 		"assign": "raid_dps_reward_info",
 		"jp_text": "報酬情報",
-		"tr_text": "Reward Information"
+		"tr_text": "Reward\nInformation"
 	},
 	{
 		"assign": "raid_dps_ranking_unit",
@@ -22172,7 +22197,7 @@
 	{
 		"assign": "raid_dps_return_button",
 		"jp_text": "戻る",
-		"tr_text": ""
+		"tr_text": "Back"
 	},
 	{
 		"assign": "raid_event_current_button",
@@ -22192,7 +22217,7 @@
 	{
 		"assign": "DPSEvent_Achievement_Text_0-2-23",
 		"jp_text": "自己ベスト{1:#,0}達成 \n[{0:#,0} / {1:#,0}]",
-		"tr_text": " Set a Personal Best {1:#,0} times [{0:#,0} / {1:#,0}]"
+		"tr_text": " Set a Personal Best of {1:#,0}\n[{0:#,0} / {1:#,0}]"
 	},
 	{
 		"assign": "window_help_LM34",
@@ -23082,7 +23107,7 @@
 	{
 		"assign": "scratch_point_text",
 		"jp_text": "「スクラッチポイント」は「ｅｓスクラッチ」を<%AC>で引いた時にもらえます。\n各レアリティのボタンから、ラインナップが確認できます。",
-		"tr_text": "You earn Scratch Points when you\nspend <AC> on es Scratch.\nYou can check the available prizes\nwith each rarity button."
+		"tr_text": "You earn Scratch Points when you spend\n<AC> on es Scratch. You can check the\navailable prizes with each rarity button."
 	},
 	{
 		"assign": "scrach_have_medal",
@@ -23246,8 +23271,8 @@
 	},
 	{
 		"assign": "scratch_weaponoid_text",
-		"jp_text": "「ｅｓ1スクラッチ」<%AC>11回引き3回ごとに、券を1枚もらえます。\n選択したウェポノイドチップの中から1枚を獲得できます。",
-		"tr_text": "You receive 1 ticket every 3 times you spend\n<%AC> to draw 11 times on es1 Scratch.\nYou can select one of the below Weaponoid chips."
+		"jp_text": "「ｅｓ1スクラッチ」<%AC>11回引き3回ごとに、コインを1枚もらえます。\n選択したウェポノイドチップの中から1枚を獲得できます。",
+		"tr_text": "You receive 1 Coin every 3 times you spend\n<%AC> to draw 11 times on es1 Scratch.\nYou can select one of the below Weaponoid chips."
 	},
 	{
 		"assign": "scratch_limited_time",
@@ -23367,11 +23392,66 @@
 	{
 		"assign": "check_story_play_dialog_title",
 		"jp_text": "ストーリー再生確認",
-		"tr_text": ""
+		"tr_text": "Story Playback Confirmation"
 	},
 	{
 		"assign": "check_story_play_dialog_message",
 		"jp_text": "ストーリーを再生しますか？",
-		"tr_text": ""
+		"tr_text": "Do you want to replay the story?"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_button",
+		"jp_text": "交換",
+		"tr_text": "Exchange"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_title",
+		"jp_text": "トリガー交換",
+		"tr_text": "Trigger Exchange"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_message",
+		"jp_text": "超級トリガー <color=yellow>{0}</color>個を\n覇級トリガー <color=yellow>{1}</color>個に交換します。",
+		"tr_text": "Trading <color=yellow>{0}</color> Super Hard Triggers\nfor <color=yellow>{1}</color> Extra Hard Triggers."
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_sp_trigger_name",
+		"jp_text": "・超級トリガー",
+		"tr_text": "・Super Hard Triggers"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_absolute_trigger_name",
+		"jp_text": "・覇級トリガー",
+		"tr_text": "・Extra Hard Triggers"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_trigger_num",
+		"jp_text": "所持数：",
+		"tr_text": " owned: "
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_trigger_num_before_after",
+		"jp_text": "{0:#,0}個　⇒　{1:#,0}個",
+		"tr_text": "{0:#,0}　⇒　{1:#,0}"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_finish_dialog_title",
+		"jp_text": "トリガー交換",
+		"tr_text": "Trigger Exchange"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_finish_dialog_message",
+		"jp_text": "交換が完了しました。",
+		"tr_text": "Exchange complete."
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_disable_dialog_title",
+		"jp_text": "所持トリガー不足",
+		"tr_text": "Insufficient Triggers"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_disable_dialog_message",
+		"jp_text": "トリガーが不足しています。\n\n交換に必要なトリガー\n　 ・超級トリガー：{0}個",
+		"tr_text": "You do not have enough Triggers to exchange.\nTriggers needed:\n・Super Hard: {0}"
 	}
 ]

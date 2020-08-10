@@ -1143,14 +1143,14 @@
 	{
 		"assign": "160252",
 		"jp_text": "クリーサジャマダハル",
-		"tr_text": "Krisa Jamadahar",
+		"tr_text": "Krisa Jamadhar",
 		"jp_explain": "豪華絢爛な装飾が施された鋼拳。\nその美しさは、武器として使うことを\n思わずためらってしまうほど。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "160253",
 		"jp_text": "ミリオンジャマダハル",
-		"tr_text": "Million Jamadahar",
+		"tr_text": "Million Jamadhar",
 		"jp_explain": "豪華絢爛な装飾が施された鋼拳。\n拳打に乗せて襲いかかる三連の刃は\n敵の装甲を穿ち、深い傷を刻む。",
 		"tr_explain": ""
 	},
@@ -1313,7 +1313,7 @@
 		"jp_text": "オフスティアフィスト-NT",
 		"tr_text": "Austere Fist-NT",
 		"jp_explain": "負の力を識り、制することで転化した\n浄化の鋼拳。装者は己に打ち克ち\n猛き覇者へと昇華し、梟雄を討つ。",
-		"tr_explain": ""
+		"tr_explain": "A Purified Knuckle.\nIts loud roar crushes evil\nwith its awesome power."
 	},
 	{
 		"assign": "160289",
@@ -1407,10 +1407,24 @@
 		"tr_explain": "Knuckles based on a sacred\nbeast. Favored by ARKS whose\npatron is the Turtle of the North."
 	},
 	{
+		"assign": "160317",
+		"jp_text": "光纏拳クラースノッカー",
+		"tr_text": "Lightweaver Cras Knocker",
+		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った鋼拳。\nその崩撃が、希望への障壁を砕く。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "160321",
 		"jp_text": "スチームナックル-NT",
 		"tr_text": "Steam Knuckles-NT",
 		"jp_explain": "フォトンで温めた蒸気で稼働する鋼拳。\n無骨なフォルムをしているが、蒸気が\n煙のようにわき出る姿はかわいらしい。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "160335",
+		"jp_text": "闇征拳アジェルノッカー",
+		"tr_text": "Darkbanisher Ayer Knocker",
+		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた鋼拳。\n繰り返す苦境に立ち向かい続ける。",
 		"tr_explain": ""
 	}
 ]

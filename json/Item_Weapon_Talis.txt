@@ -1361,7 +1361,7 @@
 		"assign": "1120322",
 		"jp_text": "ニーケユデクス",
 		"tr_text": "Nieke Judix",
-		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った導具。目標を捉え\n審判を施し、戦いを勝利に導く。",
+		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った導具。目標を捉え\n審判を下し、戦いを勝利に導く。",
 		"tr_explain": ""
 	},
 	{
@@ -1425,7 +1425,7 @@
 		"jp_text": "オフスティアアルム-NT",
 		"tr_text": "Austere Arm-NT",
 		"jp_explain": "負の力を識り、制することで転化した\n浄化の導具。与えられた大いなる智慧は\n弱きを救い、安寧をもたらす力となる。",
-		"tr_explain": ""
+		"tr_explain": "A purified Talis. Its amazing power\nbrings wisdom and salvation to the\nweak and hopeless."
 	},
 	{
 		"assign": "1120333",
@@ -1512,17 +1512,31 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1120364",
+		"jp_text": "光纏符クラースタリス",
+		"tr_text": "Lightweaver Cras Talis",
+		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った導具。\nその祈りが、新しい道を生む。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1120365",
 		"jp_text": "フロティアオービット-NT",
 		"tr_text": "Flotia Orbit-NT",
 		"jp_explain": "新開発のフォトンリング機構を搭載した\n導具。展開された部品が合体し\n万象を操る刃へと姿を変える。",
-		"tr_explain": ""
+		"tr_explain": "A Talis with a Photon Ring Device. Its\nexpanded parts allow it to influence\nphotons spread across the universe."
 	},
 	{
 		"assign": "1120369",
 		"jp_text": "デュエルゲイズ-NT",
 		"tr_text": "Duel Gaze-NT",
 		"jp_explain": "カードゲーム用デバイスを戦闘用に\n改造した導具。\n全クラス装備可能な、特殊な武器。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1120380",
+		"jp_text": "闇征符アジェルタリス",
+		"tr_text": "Darkbanisher Ayer Talis",
+		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた導具。\n届かぬ祈りが運命の環に寄り添う。",
 		"tr_explain": ""
 	}
 ]
