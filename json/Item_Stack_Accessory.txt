@@ -513,9 +513,9 @@
 	{
 		"assign": "38075",
 		"jp_text": "ソニックのおめんＣ",
-		"tr_text": "",
+		"tr_text": "Sonic Mask C",
 		"jp_explain": "使用すると、新しいアクセサリーの\nソニックのおめんＣが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Sonic Mask C\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "38076",
@@ -4188,9 +4188,9 @@
 	{
 		"assign": "380674",
 		"jp_text": "セガサターンマスク",
-		"tr_text": "SEGA Saturn Mask",
+		"tr_text": "Sega Saturn Mask",
 		"jp_explain": "使用すると、新しいアクセサリーの\nセガサターンマスクが選択可能。",
-		"tr_explain": "Desbloquea el accesorio\n\"SEGA Saturn Mask\"\npara usar en el Estilista."
+		"tr_explain": "Desbloquea el accesorio\n\"Sega Saturn Mask\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "380675",
@@ -4727,9 +4727,9 @@
 	{
 		"assign": "380755",
 		"jp_text": "新光漢大兜",
-		"tr_text": "Pristine Grand Kabuto",
+		"tr_text": "Pristine Grand Helmet",
 		"jp_explain": "使用すると、新しいアクセサリーの\n新光漢大兜が選択可能。",
-		"tr_explain": "Desbloquea el accesorio\n\"Pristine Grand Kabuto\"\npara usar en el Estilista."
+		"tr_explain": "Desbloquea el accesorio\n\"Pristine Grand Helmet\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "380756",
@@ -26966,9 +26966,9 @@
 	{
 		"assign": "3804202",
 		"jp_text": "ギルナス首枕",
-		"tr_text": "Gilnas Neck pillow",
+		"tr_text": "Gilnas Neck Pillow",
 		"jp_explain": "使用すると、新しいアクセサリーの\nギルナス首枕が選択可能。",
-		"tr_explain": "Desbloquea el accesorio\n\"Gilnas Neck pillow\"\npara usar en el Estilista."
+		"tr_explain": "Desbloquea el accesorio\n\"Gilnas Neck Pillow\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804203",
@@ -30030,6 +30030,20 @@
 		"tr_explain": "Desbloquea el accesorio\n\"Magic Circle Red\"\npara usar en el Estilista."
 	},
 	{
+		"assign": "3804674",
+		"jp_text": "魔法陣　黄",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n魔法陣　黄が選択可能。\n<yellow>※サイズ調整はできません。<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804675",
+		"jp_text": "魔法陣　緑",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n魔法陣　緑が選択可能。\n<yellow>※サイズ調整はできません。<c>",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3804676",
 		"jp_text": "魔法陣　紫",
 		"tr_text": "Magic Circle Purple",
@@ -30049,6 +30063,20 @@
 		"tr_text": "Stream Wings Red",
 		"jp_explain": "使用すると、新しいアクセサリーの\nストリームウィング　赤が選択可能。",
 		"tr_explain": "Desbloquea el accesorio\n\"Stream Wings Red\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3804679",
+		"jp_text": "ストリームウィング　黄",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nストリームウィング　黄が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3804680",
+		"jp_text": "ストリームウィング　緑",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nストリームウィング　緑が選択可能。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "3804681",
@@ -30870,6 +30898,27 @@
 		"tr_explain": "Desbloquea el accesorio\n\"Flammegash Neck B\"\npara usar en el Estilista."
 	},
 	{
+		"assign": "3804806",
+		"jp_text": "マルガレータの髪飾り",
+		"tr_text": "Margareta Hair Ornament",
+		"jp_explain": "使用すると、新しいアクセサリーの\nマルガレータの髪飾りが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Margareta Hair Ornament\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3804808",
+		"jp_text": "マルガレータの背中飾り",
+		"tr_text": "Margareta Back Decoration",
+		"jp_explain": "使用すると、新しいアクセサリーの\nマルガレータの背中飾りが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Margareta Back Decoration\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3804810",
+		"jp_text": "マルガレータの首飾り",
+		"tr_text": "Margareta Necklace",
+		"jp_explain": "使用すると、新しいアクセサリーの\nマルガレータの首飾りが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Margareta Necklace\"\npara usar en el Estilista."
+	},
+	{
 		"assign": "3804812",
 		"jp_text": "シェイカーマスク",
 		"tr_text": "Shaker Mask",
@@ -31598,6 +31647,13 @@
 		"tr_explain": "Desbloquea el accesorio\n\"Piena Bracelet B\"\npara usar en el Estilista."
 	},
 	{
+		"assign": "3804919",
+		"jp_text": "イノセント・ゼロ襟",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nイノセント・ゼロ襟が選択可能。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3804920",
 		"jp_text": "マリス帽",
 		"tr_text": "Malice Hat",
@@ -31705,16 +31761,16 @@
 	{
 		"assign": "3804935",
 		"jp_text": "アステロード髪飾り",
-		"tr_text": "",
+		"tr_text": "Asteraude Hair Ornament",
 		"jp_explain": "使用すると、新しいアクセサリーの\nアステロード髪飾りが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Asteraude Hair Ornament\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804936",
 		"jp_text": "耳隠しエクステ",
-		"tr_text": "",
+		"tr_text": "Ear Cover Extensions",
 		"jp_explain": "使用すると、新しいアクセサリーの\n耳隠しエクステが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Ear Cover Extensions\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804937",
@@ -31775,16 +31831,16 @@
 	{
 		"assign": "3804945",
 		"jp_text": "スモーキーフォトン　水",
-		"tr_text": "",
+		"tr_text": "Smokey Photon Aqua",
 		"jp_explain": "使用すると、新しいアクセサリーの\nスモーキーフォトン　水が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Smokey Photon Aqua\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804946",
 		"jp_text": "スモーキーフォトン　赤",
-		"tr_text": "",
+		"tr_text": "Smokey Photon Red",
 		"jp_explain": "使用すると、新しいアクセサリーの\nスモーキーフォトン　赤が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Smokey Photon Red\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804947",
@@ -31796,16 +31852,16 @@
 	{
 		"assign": "3804948",
 		"jp_text": "ヒトミマスクＡ",
-		"tr_text": "",
+		"tr_text": "Eye Mask A",
 		"jp_explain": "使用すると、新しいアクセサリーの\nヒトミマスクＡが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Eye Mask A\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804949",
 		"jp_text": "ヒトミマスクＢ",
-		"tr_text": "",
+		"tr_text": "Eye Mask B",
 		"jp_explain": "使用すると、新しいアクセサリーの\nヒトミマスクＢが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Eye Mask B\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804950",
@@ -31817,9 +31873,9 @@
 	{
 		"assign": "3804951",
 		"jp_text": "立体ワイルドヒゲ",
-		"tr_text": "",
+		"tr_text": "3D Wild Beard",
 		"jp_explain": "使用すると、新しいアクセサリーの\n立体ワイルドヒゲが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"3D Wild Beard\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804952",
@@ -31866,16 +31922,16 @@
 	{
 		"assign": "3804958",
 		"jp_text": "ＳＦ風爆乳パッド　白",
-		"tr_text": "",
+		"tr_text": "SF Breasts Pad White",
 		"jp_explain": "使用すると、新しいアクセサリーの\nＳＦ風爆乳パッド　白が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"SF Breasts Pad White\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804959",
 		"jp_text": "ＳＦ風爆乳パッド　黒",
-		"tr_text": "",
+		"tr_text": "SF Breasts Pad Black",
 		"jp_explain": "使用すると、新しいアクセサリーの\nＳＦ風爆乳パッド　黒が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"SF Breasts Pad Black\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804960",
@@ -31894,44 +31950,44 @@
 	{
 		"assign": "3804962",
 		"jp_text": "光糸のかんざし",
-		"tr_text": "",
+		"tr_text": "Light String Hairpin",
 		"jp_explain": "使用すると、新しいアクセサリーの\n光糸のかんざしが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Light String Hairpin\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804963",
 		"jp_text": "光糸のかんざし　赤",
-		"tr_text": "",
+		"tr_text": "Light String Hairpin Red",
 		"jp_explain": "使用すると、新しいアクセサリーの\n光糸のかんざし　赤が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Light String Hairpin Red\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804964",
 		"jp_text": "光糸のかんざし　水",
-		"tr_text": "",
+		"tr_text": "Light String Hairpin Aqua",
 		"jp_explain": "使用すると、新しいアクセサリーの\n光糸のかんざし　水が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Light String Hairpin Aqua\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804965",
 		"jp_text": "光糸のかんざし　緑",
-		"tr_text": "",
+		"tr_text": "Light String Hairpin Green",
 		"jp_explain": "使用すると、新しいアクセサリーの\n光糸のかんざし　緑が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Light String Hairpin Green\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804966",
 		"jp_text": "光糸のかんざし　紫",
-		"tr_text": "",
+		"tr_text": "Light String Hairpin Purple",
 		"jp_explain": "使用すると、新しいアクセサリーの\n光糸のかんざし　紫が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Light String Hairpin Purple\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804967",
 		"jp_text": "光糸のかんざし　黄",
-		"tr_text": "",
+		"tr_text": "Light String Hairpin Yellow",
 		"jp_explain": "使用すると、新しいアクセサリーの\n光糸のかんざし　黄が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Light String Hairpin Yellow\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804968",
@@ -31957,9 +32013,9 @@
 	{
 		"assign": "3804971",
 		"jp_text": "バラエティマスクＡ",
-		"tr_text": "",
+		"tr_text": "Variety Mask A",
 		"jp_explain": "使用すると、新しいアクセサリーの\nバラエティマスクＡが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Variety Mask A\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804972",
@@ -31978,30 +32034,30 @@
 	{
 		"assign": "3804974",
 		"jp_text": "バラエティマスクＤ",
-		"tr_text": "",
+		"tr_text": "Variety Mask D",
 		"jp_explain": "使用すると、新しいアクセサリーの\nバラエティマスクＤが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Variety Mask D\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804975",
 		"jp_text": "個性舌　桃",
-		"tr_text": "",
+		"tr_text": "Quirk Tongue Pink",
 		"jp_explain": "使用すると、新しいアクセサリーの\n個性舌　桃が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Quirk Tongue Pink\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804976",
 		"jp_text": "個性舌　紫",
-		"tr_text": "",
+		"tr_text": "Quirk Tongue Purple",
 		"jp_explain": "使用すると、新しいアクセサリーの\n個性舌　紫が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Quirk Tongue Purple\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804977",
 		"jp_text": "個性舌　青",
-		"tr_text": "",
+		"tr_text": "Quirk Tongue Blue",
 		"jp_explain": "使用すると、新しいアクセサリーの\n個性舌　青が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Quirk Tongue Blue\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3804978",
@@ -32160,65 +32216,65 @@
 	{
 		"assign": "3805000",
 		"jp_text": "デュアルアイＡ　黒",
-		"tr_text": "",
+		"tr_text": "Dual Eyes A Black",
 		"jp_explain": "使用すると、新しいアクセサリーの\nデュアルアイＡ　黒が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Dual Eyes A Black\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3805001",
 		"jp_text": "ヒヨリユキアメリボンＢ",
-		"tr_text": "",
+		"tr_text": "Hiyori Yukiame Ribbon B",
 		"jp_explain": "使用すると、新しいアクセサリーの\nヒヨリユキアメリボンＢが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Hiyori Yukiame Ribbon B\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3805002",
 		"jp_text": "ヒヨリユキアメピアスＢ",
-		"tr_text": "",
+		"tr_text": "Hiyori Yukiame Earrings B",
 		"jp_explain": "使用すると、新しいアクセサリーの\nヒヨリユキアメピアスＢが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Hiyori Yukiame Earrings B\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3805003",
 		"jp_text": "ブレイズＰアクセＢ",
-		"tr_text": "",
+		"tr_text": "Blaze P Accessory B",
 		"jp_explain": "使用すると、新しいアクセサリーの\nブレイズＰアクセＢが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Blaze P Accessory B\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3805004",
 		"jp_text": "ギア・Ｄ・ウィングＡ　桃",
-		"tr_text": "",
+		"tr_text": "Gear D Wing A Pink",
 		"jp_explain": "使用すると、新しいアクセサリーの\nギア・Ｄ・ウィングＡ　桃が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Gear D Wing A Pink\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3805005",
 		"jp_text": "ギア・Ｄ・ウィングＢ　桃",
-		"tr_text": "",
+		"tr_text": "Gear D Wing B Pink",
 		"jp_explain": "使用すると、新しいアクセサリーの\nギア・Ｄ・ウィングＢ　桃が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Gear D Wing B Pink\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3805006",
 		"jp_text": "ポップ・ラ・フードＣ",
-		"tr_text": "",
+		"tr_text": "Pop La Hood C",
 		"jp_explain": "使用すると、新しいアクセサリーの\nポップ・ラ・フードＣが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Pop La Hood C\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3805007",
 		"jp_text": "ポップ・ラ・マフラーＣ",
-		"tr_text": "",
+		"tr_text": "Pop La Scarf C",
 		"jp_explain": "使用すると、新しいアクセサリーの\nポップ・ラ・マフラーＣが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Pop La Scarf C\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3805008",
 		"jp_text": "ポップ・ラ・リボンＣ",
-		"tr_text": "",
+		"tr_text": "Pop La Ribbon C",
 		"jp_explain": "使用すると、新しいアクセサリーの\nポップ・ラ・リボンＣが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Pop La Ribbon C\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3805009",
@@ -32235,17 +32291,843 @@
 		"tr_explain": "Desbloquea el accesorio\n\"Bifrost Nova\"\npara usar en el Estilista."
 	},
 	{
+		"assign": "3805011",
+		"jp_text": "トゥルーブルームＡ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nトゥルーブルームＡが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805012",
+		"jp_text": "トゥルーブルームＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nトゥルーブルームＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805013",
+		"jp_text": "トゥルーブルームＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nトゥルーブルームＣが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805014",
+		"jp_text": "トゥルーヘッドギア",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nトゥルーヘッドギアが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805015",
+		"jp_text": "戦神衣の機翼",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n戦神衣の機翼が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805016",
+		"jp_text": "戦神衣の頭羽",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n戦神衣の頭羽が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805017",
+		"jp_text": "火を継ぐリボン",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n火を継ぐリボンが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805018",
+		"jp_text": "火を継ぐ髪飾り",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n火を継ぐ髪飾りが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805019",
+		"jp_text": "火を継ぐ蛇翼Ａ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n火を継ぐ蛇翼Ａが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805020",
+		"jp_text": "火を継ぐ蛇翼Ｂ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n火を継ぐ蛇翼Ｂが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805031",
+		"jp_text": "二代目ＫＫのエクステ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n二代目ＫＫのエクステが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805040",
+		"jp_text": "プリエールヴェール",
+		"tr_text": "Priere Veil",
+		"jp_explain": "使用すると、新しいアクセサリーの\nプリエールヴェールが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Priere Veil\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805041",
+		"jp_text": "フルートヴェール",
+		"tr_text": "Flute Veil",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフルートヴェールが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Flute Veil\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805042",
+		"jp_text": "フルートリボン",
+		"tr_text": "Flute Ribbon",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフルートリボンが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Flute Ribbon\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805043",
+		"jp_text": "フルートピアス",
+		"tr_text": "Flute Earrings",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフルートピアスが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Flute Earrings\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805044",
+		"jp_text": "クレイン綿帽子",
+		"tr_text": "Crane Wataboshi",
+		"jp_explain": "使用すると、新しいアクセサリーの\nクレイン綿帽子が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Crane Wataboshi\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805045",
+		"jp_text": "クレイン羽飾り",
+		"tr_text": "Crane Feather Decoration",
+		"jp_explain": "使用すると、新しいアクセサリーの\nクレイン羽飾りが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Crane Feather Decoration\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805046",
+		"jp_text": "ツヤノヘアアクセ",
+		"tr_text": "Lustrous Hair Accessory",
+		"jp_explain": "使用すると、新しいアクセサリーの\nツヤノヘアアクセが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Lustrous Hair Accessory\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805047",
+		"jp_text": "ツヤノリボン",
+		"tr_text": "Lustrous Ribbon",
+		"jp_explain": "使用すると、新しいアクセサリーの\nツヤノリボンが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Lustrous Ribbon\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805048",
+		"jp_text": "ポーチカヘアアクセ",
+		"tr_text": "Pochka Hair Accessory",
+		"jp_explain": "使用すると、新しいアクセサリーの\nポーチカヘアアクセが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Pochka Hair Accessory\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805049",
+		"jp_text": "ゲザングピアス",
+		"tr_text": "Gesang Earrings",
+		"jp_explain": "使用すると、新しいアクセサリーの\nゲザングピアスが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Gesang Earrings\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805050",
+		"jp_text": "シュテックガスマスク",
+		"tr_text": "Steck Gas Mask",
+		"jp_explain": "使用すると、新しいアクセサリーの\nシュテックガスマスクが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Steck Gas Mask\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805051",
+		"jp_text": "シバの髪飾り",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nシバの髪飾りが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805052",
+		"jp_text": "シバのピアス",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nシバのピアスが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805053",
+		"jp_text": "ミトラの首飾り",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nミトラの首飾りが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805054",
+		"jp_text": "ミトラのマント",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nミトラのマントが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805055",
+		"jp_text": "ミトラのフード",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nミトラのフードが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805056",
+		"jp_text": "ヴァルナの装飾",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヴァルナの装飾が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805057",
+		"jp_text": "マリンコサージュ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nマリンコサージュが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805058",
+		"jp_text": "フェダーヘアピンＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフェダーヘアピンＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805059",
+		"jp_text": "ジェネのサマーベレー帽",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nジェネのサマーベレー帽が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805060",
+		"jp_text": "ジェネのデッキシューズ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nジェネのデッキシューズが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805061",
+		"jp_text": "ステラヘッドギア２Ｃ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nステラヘッドギア２Ｃが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805062",
+		"jp_text": "和風リボン",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n和風リボンが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805063",
+		"jp_text": "ファンシーウィング　紫",
+		"tr_text": "Fancy Wings Purple",
+		"jp_explain": "使用すると、新しいアクセサリーの\nファンシーウィング　紫が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Fancy Wings Purple\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805064",
+		"jp_text": "ファンシーウィング　青",
+		"tr_text": "Fancy Wings Blue",
+		"jp_explain": "使用すると、新しいアクセサリーの\nファンシーウィング　青が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Fancy Wings Blue\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805065",
+		"jp_text": "ファンシーウィング　緑",
+		"tr_text": "Fancy Wings Green",
+		"jp_explain": "使用すると、新しいアクセサリーの\nファンシーウィング　緑が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Fancy Wings Green\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805066",
+		"jp_text": "チェーンテイル",
+		"tr_text": "Chain Tail",
+		"jp_explain": "使用すると、新しいアクセサリーの\nチェーンテイルが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Chain Tail\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805067",
+		"jp_text": "腰フリル　赤",
+		"tr_text": "Waist Frills Red",
+		"jp_explain": "使用すると、新しいアクセサリーの\n腰フリル　赤が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Waist Frills Red\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805068",
+		"jp_text": "腰フリル　水",
+		"tr_text": "Waist Frills Aqua",
+		"jp_explain": "使用すると、新しいアクセサリーの\n腰フリル　水が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Waist Frills Aqua\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805069",
+		"jp_text": "腰フリル　黒",
+		"tr_text": "Waist Frills Black",
+		"jp_explain": "使用すると、新しいアクセサリーの\n腰フリル　黒が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Waist Frills Black\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805070",
+		"jp_text": "腰フリル　紺",
+		"tr_text": "Waist Frills Navy",
+		"jp_explain": "使用すると、新しいアクセサリーの\n腰フリル　紺が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Waist Frills Navy\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805071",
+		"jp_text": "たれネコ耳　灰",
+		"tr_text": "Drooping Cat Ears Gray",
+		"jp_explain": "使用すると、新しいアクセサリーの\nたれネコ耳　灰が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Drooping Cat Ears Gray\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805072",
+		"jp_text": "たれネコ耳　茶",
+		"tr_text": "Drooping Cat Ears Brown",
+		"jp_explain": "使用すると、新しいアクセサリーの\nたれネコ耳　茶が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Drooping Cat Ears Brown\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805073",
+		"jp_text": "たれネコ耳　黒",
+		"tr_text": "Drooping Cat Ears Black",
+		"jp_explain": "使用すると、新しいアクセサリーの\nたれネコ耳　黒が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Drooping Cat Ears Black\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805074",
+		"jp_text": "ワイヤーバタフライＡ",
+		"tr_text": "Wire Butterflies A",
+		"jp_explain": "使用すると、新しいアクセサリーの\nワイヤーバタフライＡが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Wire Butterflies A\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805075",
+		"jp_text": "ワイヤーバタフライＢ",
+		"tr_text": "Wire Butterflies B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nワイヤーバタフライＢが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Wire Butterflies B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805076",
+		"jp_text": "バタフライウィング　紫",
+		"tr_text": "Butterfly Wings Purple",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバタフライウィング　紫が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Butterfly Wings Purple\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805077",
+		"jp_text": "バタフライウィング　青",
+		"tr_text": "Butterfly Wings Blue",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバタフライウィング　青が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Butterfly Wings Blue\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805078",
+		"jp_text": "バタフライウィング　赤",
+		"tr_text": "Butterfly Wings Red",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバタフライウィング　赤が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Butterfly Wings Red\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805079",
+		"jp_text": "ダークバタフライ　赤",
+		"tr_text": "Dark Butterflies Red",
+		"jp_explain": "使用すると、新しいアクセサリーの\nダークバタフライ　赤が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Dark Butterflies Red\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805080",
+		"jp_text": "ダークバタフライ　紫",
+		"tr_text": "Dark Butterflies Purple",
+		"jp_explain": "使用すると、新しいアクセサリーの\nダークバタフライ　紫が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Dark Butterflies Purple\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805081",
+		"jp_text": "ダークバタフライ　青",
+		"tr_text": "Dark Butterflies Blue",
+		"jp_explain": "使用すると、新しいアクセサリーの\nダークバタフライ　青が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Dark Butterflies Blue\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805082",
+		"jp_text": "頭乗せパイロット",
+		"tr_text": "Perched Pilot",
+		"jp_explain": "使用すると、新しいアクセサリーの\n頭乗せパイロットが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Perched Pilot\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805083",
+		"jp_text": "くわえチョコバナナ",
+		"tr_text": "Bitten Choco Banana",
+		"jp_explain": "使用すると、新しいアクセサリーの\nくわえチョコバナナが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Bitten Choco Banana\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805084",
+		"jp_text": "くわえチョコバナナ　白",
+		"tr_text": "Bitten Choco Banana White",
+		"jp_explain": "使用すると、新しいアクセサリーの\nくわえチョコバナナ　白が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Bitten Choco Banana White\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805085",
+		"jp_text": "くわえチョコバナナ　苺",
+		"tr_text": "Bitten Choco Banana Strawberry",
+		"jp_explain": "使用すると、新しいアクセサリーの\nくわえチョコバナナ　苺が選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Bitten Choco Banana Strawberry\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805086",
+		"jp_text": "フロートナイフ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフロートナイフが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805087",
+		"jp_text": "バックパレオＡ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバックパレオＡが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805088",
+		"jp_text": "バックパレオＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバックパレオＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805089",
+		"jp_text": "バックパレオＣ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバックパレオＣが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805090",
+		"jp_text": "バックパレオＤ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nバックパレオＤが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805091",
+		"jp_text": "プリーツパレオ　赤",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nプリーツパレオ　赤が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805092",
+		"jp_text": "プリーツパレオ　青",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nプリーツパレオ　青が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805093",
+		"jp_text": "プリーツパレオ　黒",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nプリーツパレオ　黒が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805094",
+		"jp_text": "ぽわぽわエフェクト",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nぽわぽわエフェクトが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805095",
+		"jp_text": "ネコ耳風エクステ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nネコ耳風エクステが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805096",
+		"jp_text": "カジュアルソナー　青",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nカジュアルソナー　青が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805097",
+		"jp_text": "カジュアルソナー　橙",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nカジュアルソナー　橙が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805098",
+		"jp_text": "カジュアルソナー　緑",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nカジュアルソナー　緑が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805099",
+		"jp_text": "カジュアルソナー　黄",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nカジュアルソナー　黄が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805100",
+		"jp_text": "腰リボン　赤",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n腰リボン　赤が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805101",
+		"jp_text": "腰リボン　青",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n腰リボン　青が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805102",
+		"jp_text": "腰リボン　黒",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n腰リボン　黒が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805103",
+		"jp_text": "ラッピー水筒",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nラッピー水筒が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805104",
+		"jp_text": "ラブラッピー水筒",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nラブラッピー水筒が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805105",
+		"jp_text": "サークルキーボード　青",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nサークルキーボード　青が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805106",
+		"jp_text": "サークルキーボード　桃",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nサークルキーボード　桃が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805107",
+		"jp_text": "サークルキーボード　緑",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nサークルキーボード　緑が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805108",
+		"jp_text": "ヘキサウィング　水",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヘキサウィング　水が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805109",
+		"jp_text": "ヘキサウィング　青",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヘキサウィング　青が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805110",
+		"jp_text": "ヘキサウィング　赤",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヘキサウィング　赤が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805111",
+		"jp_text": "炎の角　赤",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n炎の角　赤が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805112",
+		"jp_text": "炎の角　紫",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n炎の角　紫が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805113",
+		"jp_text": "非対称リボンタイＢ",
+		"tr_text": "Asymmetric Ribbon Tie B",
+		"jp_explain": "使用すると、新しいアクセサリーの\n非対称リボンタイＢが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Asymmetric Ribbon Tie B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805114",
+		"jp_text": "ノッツェティアラＢ",
+		"tr_text": "Nozze Tiara B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nノッツェティアラＢが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Nozze Tiara B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805115",
+		"jp_text": "ダブルリボンコサージュＢ",
+		"tr_text": "Double Ribbon Corsage B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nダブルリボンコサージュＢが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Double Ribbon Corsage B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805116",
+		"jp_text": "ゴシック風フードＢ",
+		"tr_text": "Gothic Style Hood B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nゴシック風フードＢが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Gothic Style Hood B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805117",
+		"jp_text": "ツートンコサージュＢ",
+		"tr_text": "Two-Tone Corsage B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nツートンコサージュＢが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Two-Tone Corsage B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805118",
+		"jp_text": "フェイスベールＢ",
+		"tr_text": "Face Veil B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフェイスベールＢが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Face Veil B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805119",
+		"jp_text": "アンクルウィングＢ",
+		"tr_text": "Ankle Wings B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nアンクルウィングＢが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Ankle Wings B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805120",
+		"jp_text": "星空リボンＢ",
+		"tr_text": "Starry Sky Ribbon B",
+		"jp_explain": "使用すると、新しいアクセサリーの\n星空リボンＢが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Starry Sky Ribbon B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805121",
+		"jp_text": "星空ストールＢ",
+		"tr_text": "Starry Sky Stole B",
+		"jp_explain": "使用すると、新しいアクセサリーの\n星空ストールＢが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Starry Sky Stole B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805122",
+		"jp_text": "ムジンオオダスキＢ",
+		"tr_text": "Mujin Odasuki B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nムジンオオダスキＢが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Mujin Odasuki B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805123",
+		"jp_text": "カレイリボンＢ",
+		"tr_text": "Karei Ribbon B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nカレイリボンＢが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Karei Ribbon B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805124",
+		"jp_text": "ドラゴンアームＬ　Ｂ",
+		"tr_text": "Dragon Arm L B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nドラゴンアームＬ　Ｂが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Dragon Arm L B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805125",
+		"jp_text": "ドラゴンアームＲ　Ｂ",
+		"tr_text": "Dragon Arm R B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nドラゴンアームＲ　Ｂが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Dragon Arm R B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805126",
+		"jp_text": "メカニカルヒヅメＢ",
+		"tr_text": "Mechanical Hooves B",
+		"jp_explain": "使用すると、新しいアクセサリーの\nメカニカルヒヅメＢが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Mechanical Hooves B\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805127",
+		"jp_text": "アネットの麦わら帽子Ｂ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nアネットの麦わら帽子Ｂが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805128",
+		"jp_text": "アルカーノリボンＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nアルカーノリボンＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805129",
+		"jp_text": "アルカーノウェストリボンＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nアルカーノウェストリボンＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805130",
+		"jp_text": "シャークヘッドＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nシャークヘッドＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805131",
+		"jp_text": "スカートブースターＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nスカートブースターＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805132",
+		"jp_text": "スタッズベルトＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nスタッズベルトＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805133",
+		"jp_text": "ヴェーグハットＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヴェーグハットＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805134",
+		"jp_text": "ヴェーグアイパッチＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヴェーグアイパッチＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805135",
+		"jp_text": "シャムス髪飾りＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nシャムス髪飾りＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805136",
+		"jp_text": "シャムス背中飾りＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nシャムス背中飾りＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805137",
+		"jp_text": "カムラ髪飾りＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nカムラ髪飾りＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805138",
+		"jp_text": "カムラ背中飾りＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nカムラ背中飾りＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805139",
+		"jp_text": "ヘンネスヘッドドレスＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヘンネスヘッドドレスＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805140",
+		"jp_text": "ヘンネスリボンＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nヘンネスリボンＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805141",
+		"jp_text": "小悪魔風メイドブリムＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\n小悪魔風メイドブリムＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805142",
+		"jp_text": "セクシーメイドブリムＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nセクシーメイドブリムＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805143",
+		"jp_text": "ショルダーフィンＢ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nショルダーフィンＢが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805144",
+		"jp_text": "ショルダーメイルＬ　Ｂ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nショルダーメイルＬ　Ｂが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3805145",
+		"jp_text": "ショルダーメイルＲ　Ｂ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nショルダーメイルＲ　Ｂが選択可能。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3805146",
 		"jp_text": "バラエティマスクＢ",
-		"tr_text": "",
+		"tr_text": "Variety Mask B",
 		"jp_explain": "使用すると、新しいアクセサリーの\nバラエティマスクＢが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Desbloquea el accesorio\n\"Variety Mask B\"\npara usar en el Estilista."
 	},
 	{
 		"assign": "3805147",
 		"jp_text": "バラエティマスクＣ",
-		"tr_text": "",
+		"tr_text": "Variety Mask C",
 		"jp_explain": "使用すると、新しいアクセサリーの\nバラエティマスクＣが選択可能。",
+		"tr_explain": "Desbloquea el accesorio\n\"Variety Mask C\"\npara usar en el Estilista."
+	},
+	{
+		"assign": "3805149",
+		"jp_text": "フェダーヘアピンＡ",
+		"tr_text": "",
+		"jp_explain": "使用すると、新しいアクセサリーの\nフェダーヘアピンＡが選択可能。",
 		"tr_explain": ""
 	}
 ]
