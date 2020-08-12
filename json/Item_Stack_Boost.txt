@@ -44,21 +44,21 @@
 	{
 		"assign": "3209",
 		"jp_text": "獲得メセタ＋１０％",
-		"tr_text": "Meseta Gained +10%",
+		"tr_text": "Meseta Boost +10%",
 		"jp_explain": "獲得メセタ上昇のブーストアイテム。\n使用してから【３０分】の間だけ\n獲得メセタを１０％アップさせる。",
 		"tr_explain": "Boosts Meseta dropped by 10%.\nDuration lasts for 30 minutes\non the field."
 	},
 	{
 		"assign": "32010",
 		"jp_text": "獲得メセタ＋５０％",
-		"tr_text": "Meseta Gained +50%",
+		"tr_text": "Meseta Boost +50%",
 		"jp_explain": "獲得メセタ上昇のブーストアイテム。\n使用してから【３０分】の間だけ\n獲得メセタを５０％アップさせる。",
 		"tr_explain": "Boosts Meseta dropped by 50%.\nDuration lasts for 30 minutes\non the field."
 	},
 	{
 		"assign": "32011",
 		"jp_text": "獲得メセタ＋１００％",
-		"tr_text": "Meseta Gained +100%",
+		"tr_text": "Meseta Boost +100%",
 		"jp_explain": "獲得メセタ上昇のブーストアイテム。\n使用してから【３０分】の間だけ\n獲得メセタを１００％アップさせる。",
 		"tr_explain": "Boosts Meseta dropped by 100%.\nDuration lasts for 30 minutes\non the field."
 	},
@@ -93,14 +93,14 @@
 	{
 		"assign": "32018",
 		"jp_text": "獲得メセタ＋２５％",
-		"tr_text": "Meseta Gained +25%",
+		"tr_text": "Meseta Boost +25%",
 		"jp_explain": "獲得メセタ上昇のブーストアイテム。\n使用してから【３０分】の間だけ\n獲得メセタを２５％アップさせる。",
 		"tr_explain": "Boosts Meseta dropped by 25%.\nDuration lasts for 30 minutes\non the field."
 	},
 	{
 		"assign": "32019",
 		"jp_text": "獲得メセタ＋７５％",
-		"tr_text": "Meseta Gained +75%",
+		"tr_text": "Meseta Boost +75%",
 		"jp_explain": "獲得メセタ上昇のブーストアイテム。\n使用してから【３０分】の間だけ\n獲得メセタを７５％アップさせる。",
 		"tr_explain": "Boosts Meseta dropped by 75%.\nDuration lasts for 30 minutes\non the field."
 	},
@@ -487,7 +487,7 @@
 		"jp_text": "７１１アイスコーヒー",
 		"tr_text": "711 Iced Coffee",
 		"jp_explain": "セブン-イレブンのコーヒー。\n【１０分間】獲得メセタ＋５０％\nレアドロップ倍率＋２５％",
-		"tr_explain": "An iced coffee from Seven-Eleven.\n[10 min] Rare Drop Rate +25%\nMeseta gained +50%"
+		"tr_explain": "An iced coffee from Seven-Eleven.\n[10 min] Rare Drop Rate +25%\nMeseta boost +50%"
 	},
 	{
 		"assign": "32091",
@@ -555,16 +555,16 @@
 	{
 		"assign": "320100",
 		"jp_text": "ＥＸ獲得メセタ＋７５％",
-		"tr_text": "EX Meseta Boost +75%",
+		"tr_text": "EX Meseta Gained +75%",
 		"jp_explain": "三種複合のブーストアイテム。\n獲得メセタが７５％アップ。\n経験値、レアドロップが２５％アップ。",
-		"tr_explain": "Boosts Three Items.\nMeseta Gained +75%\nEXP and Rare Drop Rate +25%."
+		"tr_explain": "Boosts Three Items.\nMeseta boost +75%\nEXP and Rare Drop Rate +25%."
 	},
 	{
 		"assign": "320101",
 		"jp_text": "ＥＸトライブースト＋５０％",
 		"tr_text": "EX Tri-Boost +50%",
 		"jp_explain": "三種複合のブーストアイテム。\n獲得メセタ、経験値、レアドロップが\n５０％アップ。",
-		"tr_explain": "Boosts three items.\nMeseta gained, EXP gained and\nRare Drop Rate +50%."
+		"tr_explain": "Boosts three items.\nMeseta boost, EXP gained and\nRare Drop Rate +50%."
 	},
 	{
 		"assign": "320102",
@@ -620,7 +620,7 @@
 		"jp_text": "ＥＸトライブースト＋１５０％",
 		"tr_text": "EX Tri-Boost +150%",
 		"jp_explain": "三種複合のブーストアイテム。\n獲得メセタ、経験値、レアドロップが\n１５０％アップ。",
-		"tr_explain": "Boosts three items.\nMeseta gained, EXP gained and\nRare Drop Rate +150%."
+		"tr_explain": "Boosts three items.\nMeseta boost, EXP gained and\nRare Drop Rate +150%."
 	},
 	{
 		"assign": "320110",
@@ -795,7 +795,7 @@
 		"jp_text": "ＥＸトライブースト＋２００％",
 		"tr_text": "EX Tri-Boost +200%",
 		"jp_explain": "三種複合のブーストアイテム。\n獲得メセタ、経験値、レアドロップが\n２００％アップ。",
-		"tr_explain": "Boosts three items.\nMeseta gained, EXP gained and\nRare Drop Rate +200%."
+		"tr_explain": "Boosts three items.\nMeseta boost, EXP gained and\nRare Drop Rate +200%."
 	},
 	{
 		"assign": "320146",
@@ -863,30 +863,30 @@
 	{
 		"assign": "320155",
 		"jp_text": "ＥＸ獲得メセタ＋５０％",
-		"tr_text": "EX Meseta Gained +50%",
+		"tr_text": "EX Meseta Boost +50%",
 		"jp_explain": "三種複合のブーストアイテム。\n獲得メセタが５０％アップ。\n経験値、レアドロップが１５％アップ。",
-		"tr_explain": "Boosts three items.\nMeseta gained +50%\nRare Drop Rate and EXP +15%."
+		"tr_explain": "Boosts three items.\nMeseta boost +50%\nRare Drop Rate and EXP +15%."
 	},
 	{
 		"assign": "320156",
 		"jp_text": "ＥＸ獲得メセタ＋１００％",
-		"tr_text": "EX Meseta Gained +100%",
+		"tr_text": "EX Meseta Boost +100%",
 		"jp_explain": "三種複合のブーストアイテム。\n獲得メセタが１００％アップ。\n経験値、レアドロップが５０％アップ。",
-		"tr_explain": "Boosts three items.\nMeseta gained +100%\nRare Drop Rate and EXP +50%."
+		"tr_explain": "Boosts three items.\nMeseta boost +100%\nRare Drop Rate and EXP +50%."
 	},
 	{
 		"assign": "320157",
 		"jp_text": "ＥＸ獲得メセタ＋１５０％",
-		"tr_text": "EX Meseta Gained +150%",
+		"tr_text": "EX Meseta Boost +150%",
 		"jp_explain": "三種複合のブーストアイテム。\n獲得メセタが１５０％アップ。\n経験値、レアドロップが７５％アップ。",
-		"tr_explain": "Boosts three items.\nMeseta gained +150%\nRare Drop Rate and EXP +75%."
+		"tr_explain": "Boosts three items.\nMeseta boost +150%\nRare Drop Rate and EXP +75%."
 	},
 	{
 		"assign": "320158",
 		"jp_text": "ＥＸトライブースト＋１００％",
 		"tr_text": "EX Tri-Boost +100%",
 		"jp_explain": "三種複合のブーストアイテム。\n獲得メセタ、経験値、レアドロップが\n１００％アップ。",
-		"tr_explain": "Boosts three items.\nMeseta gained, EXP gained and\nRare Drop Rate +100%."
+		"tr_explain": "Boosts three items.\nMeseta boost, EXP gained and\nRare Drop Rate +100%."
 	},
 	{
 		"assign": "320159",
@@ -921,63 +921,63 @@
 		"jp_text": "ビーチ２０１９＋１００％",
 		"tr_text": "Beach 2019 +100%",
 		"jp_explain": "ビーチウォーズ２０１９！\n限定のブーストアイテム。獲得メセタ・\n経験値・レアドロップ倍率＋１００％。",
-		"tr_explain": "Beach Wars 2019!\nLimited Boost Item. Meseta gained,\nEXP gained, & Rare Drop Rate +100%."
+		"tr_explain": "Beach Wars 2019!\nLimited Boost Item. Meseta Boost,\nEXP gained, & Rare Drop Rate +100%."
 	},
 	{
 		"assign": "320174",
 		"jp_text": "戦艦撃破＋１００％",
 		"tr_text": "Battleship Demolition +100%",
 		"jp_explain": "艦隊迎撃戦：戦艦撃破\n限定のブーストアイテム。獲得メセタ・\n経験値・レアドロップ倍率＋１００％。",
-		"tr_explain": "Armada: Battleship Demolition\nLimited Boost Item. Meseta gained,\nEXP gained, & Rare Drop Rate +100%."
+		"tr_explain": "Armada: Battleship Demolition\nLimited Boost Item. Meseta Boost,\nEXP gained, & Rare Drop Rate +100%."
 	},
 	{
 		"assign": "320175",
 		"jp_text": "戦道２０１９＋１００％",
 		"tr_text": "Regiment 2019 +100%",
 		"jp_explain": "禍魂集いし戦道２０１９\n限定のブーストアイテム。獲得メセタ・\n経験値・レアドロップ倍率＋１００％。",
-		"tr_explain": "Regiment of the Wicked 2019\nLimited Boost Item. Meseta gained,\nEXP gained, & Rare Drop Rate +100%."
+		"tr_explain": "Regiment of the Wicked 2019\nLimited Boost Item. Meseta Boost,\nEXP gained, & Rare Drop Rate +100%."
 	},
 	{
 		"assign": "320176",
 		"jp_text": "紅き閃機＋１００％",
 		"tr_text": "Scarlet Space Splitter +100%",
 		"jp_explain": "宇宙を斬り裂く紅き閃機\n限定のブーストアイテム。獲得メセタ・\n経験値・レアドロップ倍率＋１００％。",
-		"tr_explain": "Scarlet Space Splitter\nLimited Boost Item. Meseta gained,\nEXP gained, & Rare Drop Rate +100%."
+		"tr_explain": "Scarlet Space Splitter\nLimited Boost Item. Meseta Boost,\nEXP gained, & Rare Drop Rate +100%."
 	},
 	{
 		"assign": "320177",
 		"jp_text": "トリトリ２０１９＋１００％",
 		"tr_text": "Trick 2019 +100%",
 		"jp_explain": "トリックオアトリート２０１９！\n限定のブーストアイテム。獲得メセタ・\n経験値・レアドロップ倍率＋１００％。",
-		"tr_explain": "Trick or Treat 2019\nLimited Boost Item. Meseta gained,\nEXP gained, & Rare Drop Rate +100%."
+		"tr_explain": "Trick or Treat 2019\nLimited Boost Item. Meseta Boost,\nEXP gained, & Rare Drop Rate +100%."
 	},
 	{
 		"assign": "320178",
 		"jp_text": "第６使徒殲滅作戦＋１００％",
 		"tr_text": "Sixth Angel +100%",
 		"jp_explain": "第６使徒殲滅作戦\n限定のブーストアイテム。獲得メセタ・\n経験値・レアドロップ倍率＋１００％。",
-		"tr_explain": "The Sixth Angel\nLimited Boost Item. Meseta gained,\nEXP gained, & Rare Drop Rate +100%."
+		"tr_explain": "The Sixth Angel\nLimited Boost Item. Meseta Boost,\nEXP gained, & Rare Drop Rate +100%."
 	},
 	{
 		"assign": "320179",
 		"jp_text": "メリクリ２０１９＋１００％",
 		"tr_text": "Xmas 2019 +100%",
 		"jp_explain": "氷上のメリークリスマス２０１９\n限定のブーストアイテム。獲得メセタ・\n経験値・レアドロップ倍率＋１００％。",
-		"tr_explain": "A Merry Christmas on Ice 2019\nLimited Boost Item. Meseta gained,\nEXP gained, & Rare Drop Rate +100%."
+		"tr_explain": "A Merry Christmas on Ice 2019\nLimited Boost Item. Meseta Boost,\nEXP gained, & Rare Drop Rate +100%."
 	},
 	{
 		"assign": "320180",
 		"jp_text": "巨なる躯＋１００％",
 		"tr_text": "Elder +100%",
 		"jp_explain": "深遠に至りし巨なる躯\n限定のブーストアイテム。獲得メセタ・\n経験値・レアドロップ倍率＋１００％。",
-		"tr_explain": "Utterly Profound\nLimited Boost Item. Meseta gained,\nEXP gained, & Rare Drop Rate +100%."
+		"tr_explain": "Utterly Profound\nLimited Boost Item. Meseta Boost,\nEXP gained, & Rare Drop Rate +100%."
 	},
 	{
 		"assign": "320181",
 		"jp_text": "災禍の凶神＋１００％",
 		"tr_text": "Space Magatsu +100%",
 		"jp_explain": "天地を葬る災禍の凶神\n限定のブーストアイテム。獲得メセタ・\n経験値・レアドロップ倍率＋１００％。",
-		"tr_explain": "The Cosmic Calamity\nLimited Boost Item. Meseta gained,\nEXP gained, & Rare Drop Rate +100%."
+		"tr_explain": "The Cosmic Calamity\nLimited Boost Item. Meseta Boost,\nEXP gained, & Rare Drop Rate +100%."
 	},
 	{
 		"assign": "320182",
@@ -1068,21 +1068,21 @@
 		"jp_text": "ＥＸトライブースト＋１２５％",
 		"tr_text": "EX Tri-Boost +125%",
 		"jp_explain": "三種複合のブーストアイテム。\n獲得メセタ、経験値、レアドロップが\n１２５％アップ。",
-		"tr_explain": "Boosts three items.\nMeseta gained, EXP gained and\nRare Drop Rate +125%."
+		"tr_explain": "Boosts three items.\nMeseta boost, EXP gained and\nRare Drop Rate +125%."
 	},
 	{
 		"assign": "320195",
 		"jp_text": "ＥＸトライブースト＋１７５％",
 		"tr_text": "EX Tri-Boost +175%",
 		"jp_explain": "三種複合のブーストアイテム。\n獲得メセタ、経験値、レアドロップが\n１７５％アップ。",
-		"tr_explain": "Boosts three items.\nMeseta gained, EXP gained and\nRare Drop Rate +175%."
+		"tr_explain": "Boosts three items.\nMeseta boost, EXP gained and\nRare Drop Rate +175%."
 	},
 	{
 		"assign": "320196",
 		"jp_text": "ＥＸトライブースト＋２５０％",
 		"tr_text": "EX Tri-Boost +250%",
 		"jp_explain": "三種複合のブーストアイテム。\n獲得メセタ、経験値、レアドロップが\n２５０％アップ。",
-		"tr_explain": "Boosts three items.\nMeseta gained, EXP gained and\nRare Drop Rate +250%."
+		"tr_explain": "Boosts three items.\nMeseta boost, EXP gained and\nRare Drop Rate +250%."
 	},
 	{
 		"assign": "320197",
