@@ -1,44 +1,21 @@
-# Phantasy Star Online 2 es English translation project
+# 판타시 스타 온라인 2 es 한국어 번역 프로젝트
 
 [![CircleCI](https://circleci.com/gh/Arks-Layer/PSO2esTranslations/tree/EN.svg?style=svg)](https://circleci.com/gh/Arks-Layer/workflows/PSO2esTranslations/tree/EN)
 
-## Usage
+## 사용법
 
-1. Get ESBreaker from its repository https://github.com/PolCPP/ESBreaker
-2. Copy the JSON files to the JSON directory (if it's not there create it on the same level as the EXE).
-3. Follow the usage instructions on the ESBreaker repo
-3. Run ESBreaker (it may take a while).
-4. Grab the Output files from the output directory and put them on your android device.
+1. 다음 웹사이트에서 PSO2es 다운로드https://github.com/PolCPP/ESBreaker
+2. JSON파일을 JSON폴더에 넣으세요 (if it's not there create it on the same level as the EXE).
+3. ESBreaker repo의 설명을 참조하세요.
+3. ESBreaker 실행 (꽤 오래걸릴 수 있습니다).
+4. Output폴더에 있는 파일을 android 기기에 넣으세요.
 
 ## Credits
 
 
 * SEGAC - For the libs that power the trans tool (lol)
 * PolCPP (Rupikachu) - for the tool
-* Aida - Initial translations
-* Logokas - A lot of UI translation work
-* SynthSy - Translation work
-* Alam Arias - Adding travis support and other stuff 
-* Bumped.org - Item Names and Wonderful other translations
-* ARKS-Visiphone - Weapon names and other neat stuff
-* Nyaato - Misc. translations
-* YukaLily - Misc. translations
-* Nora - Misc. translations
-* Dabir - Translation Work
-* Snack - Story translation work
+* focuslite - 번역 및 담당자
 
 ## License
-
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                    Version 2, December 2004
- 
- Copyright (C) 2004 Sam Hocevar
-  14 rue de Plaisance, 75014 Paris, France
- Everyone is permitted to copy and distribute verbatim or modified
- copies of this license document, and changing it is allowed as long
- as the name is changed.
- 
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
- 
-  0. You just DO WHAT THE FUCK YOU WANT TO.
+아몰랑
