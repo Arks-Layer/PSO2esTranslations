@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [
 	{
 		"assign": "TypeNon",
@@ -335,4 +336,343 @@
 		"jp_explain": "トリガーアクション説明47",
 		"tr_explain": ""
 	}
+=======
+[
+	{
+		"assign": "TypeNon",
+		"jp_text": "なし",
+		"tr_text": "",
+		"jp_explain": "なし",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type2_1_1",
+		"jp_text": "支援/ＨＰ回復Ａ",
+		"tr_text": "",
+		"jp_explain": "主人の体力低下時に回復支援を行う。\n発動率は高く、回復量が低い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type2_1_2",
+		"jp_text": "支援/ＨＰ回復Ｂ",
+		"tr_text": "",
+		"jp_explain": "主人の体力低下時に回復支援を行う。\n発動率は普通で、回復量も普通。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type2_1_3",
+		"jp_text": "支援/ＨＰ回復Ｃ",
+		"tr_text": "",
+		"jp_explain": "主人の体力低下時に回復支援を行う。\n発動率は低く、回復量が高い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type1_4_1",
+		"jp_text": "支援/能力上昇Ａ",
+		"tr_text": "",
+		"jp_explain": "エリア変更時に能力上昇支援を行う。\n発動率は低く、インターバルは短い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type1_4_2",
+		"jp_text": "支援/能力上昇Ｂ",
+		"tr_text": "",
+		"jp_explain": "エリア変更時に能力上昇支援を行う。\n発動率は普通、インターバルも普通。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type1_4_3",
+		"jp_text": "支援/能力上昇Ｃ",
+		"tr_text": "",
+		"jp_explain": "エリア変更時に能力上昇支援を行う。\n発動率が高く、インターバルも長い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type1_8_1",
+		"jp_text": "支援/ＰＰ回復Ａ",
+		"tr_text": "",
+		"jp_explain": "エリア変更時にＰＰ回復支援を行う。\n発動率が高く、効果時間が短い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type1_8_2",
+		"jp_text": "支援/ＰＰ回復Ｂ",
+		"tr_text": "",
+		"jp_explain": "エリア変更時にＰＰ回復支援を行う。\n発動率が普通、効果時間も普通。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type1_8_3",
+		"jp_text": "支援/ＰＰ回復Ｃ",
+		"tr_text": "",
+		"jp_explain": "エリア変更時にＰＰ回復支援を行う。\n発動率が低く、効果時間が長い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type4_5_1",
+		"jp_text": "支援/状態異常Ａ",
+		"tr_text": "",
+		"jp_explain": "状態異常時に異常回復支援を行う。\n発動率は低く、インターバルは短い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type4_5_2",
+		"jp_text": "支援/状態異常Ｂ",
+		"tr_text": "",
+		"jp_explain": "状態異常時に異常回復支援を行う。\n発動率が普通で、インターバルも普通。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type4_5_3",
+		"jp_text": "支援/状態異常Ｃ",
+		"tr_text": "",
+		"jp_explain": "状態異常時に異常回復支援を行う。\n発動率が高く、インターバルは長い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type5_6_1",
+		"jp_text": "支援/無敵Ａ",
+		"tr_text": "",
+		"jp_explain": "ゲージ満タン時に無敵支援を行う。\n効果時間が短い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type5_6_2",
+		"jp_text": "支援/無敵Ｃ",
+		"tr_text": "",
+		"jp_explain": "ゲージ満タン時に無敵支援を行う。\n効果時間が普通。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type5_6_3",
+		"jp_text": "支援/無敵３",
+		"tr_text": "",
+		"jp_explain": "ゲージ満タン時に無敵支援を行う。\n効果時間が長い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type5_4_1",
+		"jp_text": "支援/能力上昇Ｄ",
+		"tr_text": "",
+		"jp_explain": "ゲージ満タン時に能力上昇支援を行う。\nインターバルが長い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type5_4_2",
+		"jp_text": "支援/能力上昇Ｅ",
+		"tr_text": "",
+		"jp_explain": "ゲージ満タン時に能力上昇支援を行う。\nインターバルが普通。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type5_4_3",
+		"jp_text": "支援/能力上昇Ｆ",
+		"tr_text": "",
+		"jp_explain": "ゲージ満タン時に能力上昇支援を行う。\nインターバルが短い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type5_8_1",
+		"jp_text": "支援/ＰＰ回復Ｄ",
+		"tr_text": "",
+		"jp_explain": "ゲージ満タン時にＰＰ回復支援を行う。\n効果時間が短い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type5_8_2",
+		"jp_text": "支援/ＰＰ回復Ｅ",
+		"tr_text": "",
+		"jp_explain": "ゲージ満タン時にＰＰ回復支援を行う。\n効果時間が普通。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type5_8_3",
+		"jp_text": "支援/ＰＰ回復Ｆ",
+		"tr_text": "",
+		"jp_explain": "ゲージ満タン時にＰＰ回復支援を行う。\n効果時間が長い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type6_4_1",
+		"jp_text": "支援/能力上昇Ｇ",
+		"tr_text": "",
+		"jp_explain": "Ｅトライアル時に能力上昇支援を行う。\n発動率は低く、インターバルは短い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type6_4_2",
+		"jp_text": "支援/能力上昇Ｈ",
+		"tr_text": "",
+		"jp_explain": "Ｅトライアル時に能力上昇支援を行う。\n発動率は普通、インターバルも普通。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type6_4_3",
+		"jp_text": "支援/能力上昇Ｉ",
+		"tr_text": "",
+		"jp_explain": "Ｅトライアル時に能力上昇支援を行う。\n発動率は高く、インターバルは長い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type6_8_1",
+		"jp_text": "支援/ＰＰ回復Ｇ",
+		"tr_text": "",
+		"jp_explain": "Ｅトライアル時にＰＰ回復支援を行う。\n発動率が高く、効果時間が短い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type6_8_2",
+		"jp_text": "支援/ＰＰ回復Ｈ",
+		"tr_text": "",
+		"jp_explain": "Ｅトライアル時にＰＰ回復支援を行う。\n発動率が普通、効果時間も普通。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type6_8_3",
+		"jp_text": "支援/ＰＰ回復Ｉ",
+		"tr_text": "",
+		"jp_explain": "Ｅトライアル時にＰＰ回復支援を行う。\n発動率が低く、効果時間が長い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type3_7_1",
+		"jp_text": "支援/復活Ａ",
+		"tr_text": "",
+		"jp_explain": "戦闘不能時に復活支援を行う。\n発動は非常に稀。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type3_7_2",
+		"jp_text": "支援/復活Ｂ",
+		"tr_text": "",
+		"jp_explain": "戦闘不能時に復活支援を行う。\n発動は稀。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_1_1",
+		"jp_text": "支援/ＨＰ回復Ｊ",
+		"tr_text": "",
+		"jp_explain": "一定間隔でＨＰ回復支援を行う。\n間隔が短めで、回復量が少ない。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_1_2",
+		"jp_text": "支援/ＨＰ回復Ｋ",
+		"tr_text": "",
+		"jp_explain": "一定間隔でＨＰ回復支援を行う。\n間隔が普通で、回復量も普通。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_1_3",
+		"jp_text": "支援/ＨＰ回復Ｌ",
+		"tr_text": "",
+		"jp_explain": "一定間隔でＨＰ回復支援を行う。\n間隔が長めで、回復量も多い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_4_1",
+		"jp_text": "支援/能力上昇Ｊ",
+		"tr_text": "",
+		"jp_explain": "一定間隔で能力上昇支援を行う。\n間隔が長め。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_4_2",
+		"jp_text": "支援/能力上昇Ｋ",
+		"tr_text": "",
+		"jp_explain": "一定間隔で能力上昇支援を行う。\n間隔が普通。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_4_3",
+		"jp_text": "支援/能力上昇Ｌ",
+		"tr_text": "",
+		"jp_explain": "一定間隔で能力上昇支援を行う。\n間隔が短め。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_8_1",
+		"jp_text": "支援/ＰＰ回復Ｊ",
+		"tr_text": "",
+		"jp_explain": "一定間隔でＰＰ回復支援を行う。\n間隔が短めで、効果時間も短い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_8_2",
+		"jp_text": "支援/ＰＰ回復Ｋ",
+		"tr_text": "",
+		"jp_explain": "一定間隔でＰＰ回復支援を行う。\n間隔が普通で、効果時間も普通。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_8_3",
+		"jp_text": "支援/ＰＰ回復Ｌ",
+		"tr_text": "",
+		"jp_explain": "一定間隔でＰＰ回復支援を行う。\n間隔が長めで、効果時間も長い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_9_1",
+		"jp_text": "生産/ＨＰ回復系",
+		"tr_text": "",
+		"jp_explain": "一定時間経過でモノメイトなどの\n消費系アイテムを生産する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_9_2",
+		"jp_text": "生産/範囲回復系",
+		"tr_text": "",
+		"jp_explain": "一定時間経過でソルアトマイザーなどの\n消費系アイテムを生産する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_9_3",
+		"jp_text": "生産/トラップ系",
+		"tr_text": "",
+		"jp_explain": "一定時間経過でトラップなどの\nツール系アイテムを生産する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_9_4",
+		"jp_text": "生産/特殊系１",
+		"tr_text": "",
+		"jp_explain": "一定時間経過でデバイスなどの\n特殊なアイテムを生産する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_9_5",
+		"jp_text": "生産/特殊系２",
+		"tr_text": "",
+		"jp_explain": "トリガーアクション説明43",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_9_6",
+		"jp_text": "生産/特殊系３",
+		"tr_text": "",
+		"jp_explain": "トリガーアクション説明44",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_9_7",
+		"jp_text": "生産/特殊系４",
+		"tr_text": "",
+		"jp_explain": "トリガーアクション説明45",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_9_8",
+		"jp_text": "トリガーアクション46",
+		"tr_text": "",
+		"jp_explain": "トリガーアクション説明46",
+		"tr_explain": ""
+	},
+	{
+		"assign": "Type7_9_9",
+		"jp_text": "トリガーアクション47",
+		"tr_text": "",
+		"jp_explain": "トリガーアクション説明47",
+		"tr_explain": ""
+	}
+>>>>>>> Stashed changes
 ]

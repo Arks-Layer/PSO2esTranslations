@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [
 	{
 		"assign": "7100",
@@ -20,4 +21,28 @@
 		"jp_explain": "装備中のレッグユニットに\n時限能力を付加する。",
 		"tr_explain": ""
 	}
+=======
+[
+	{
+		"assign": "7100",
+		"jp_text": "時限能力データ／リア",
+		"tr_text": "",
+		"jp_explain": "装備中のリアユニットに\n時限能力を付加する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "7101",
+		"jp_text": "時限能力データ／アーム",
+		"tr_text": "",
+		"jp_explain": "装備中のアームユニットに\n時限能力を付加する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "7102",
+		"jp_text": "時限能力データ／レッグ",
+		"tr_text": "",
+		"jp_explain": "装備中のレッグユニットに\n時限能力を付加する。",
+		"tr_explain": ""
+	}
+>>>>>>> Stashed changes
 ]
