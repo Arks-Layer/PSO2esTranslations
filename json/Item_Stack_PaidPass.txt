@@ -373,7 +373,7 @@
 	{
 		"assign": "321072",
 		"jp_text": "クラス追加（テクター）",
-		"tr_text": "Add Class (Techer)",
+		"tr_text": "Add Class (법격er)",
 		"jp_explain": "武装エクステンド実行時に\nテクターのクラス追加が\n必ず発生するようになる。",
 		"tr_explain": "Adds the class \"Techer\"\nto equipment when extended."
 	},
@@ -548,21 +548,21 @@
 	{
 		"assign": "3210115",
 		"jp_text": "特殊能力追加（打撃＆ＰＰ）",
-		"tr_text": "특수 능력 추가 (Strike&PP)",
+		"tr_text": "특수 능력 추가 (타격&PP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【打撃＆ＰＰ】の特殊能力を追加する。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Noble Power\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210116",
 		"jp_text": "特殊能力追加（射撃＆ＰＰ）",
-		"tr_text": "특수 능력 추가 (Shoot&PP)",
+		"tr_text": "특수 능력 추가 (사격&PP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【射撃＆ＰＰ】の特殊能力を追加する。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Noble Shot\" when\nused in Special Ability Synthesis."
 	},
 	{
 		"assign": "3210117",
 		"jp_text": "特殊能力追加（法撃＆ＰＰ）",
-		"tr_text": "특수 능력 추가 (Tech&PP)",
+		"tr_text": "특수 능력 추가 (법격&PP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【法撃＆ＰＰ】の特殊能力を追加する。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Noble Technique\"\nwhen used in Special Ability\nSynthesis."
 	},
@@ -618,7 +618,7 @@
 	{
 		"assign": "3210129",
 		"jp_text": "オーナー登録解除パス",
-		"tr_text": "Owner Cancel Pass",
+		"tr_text": "오너 등록 해제 패스",
 		"jp_explain": "オーナー登録の解除申請パス。\nアイテムラボにて、★１３以下の武器と\n★１２以下のユニットに使用可能。",
 		"tr_explain": "Removes the account binding of up\nto ★13 weapons or up to ★12 units."
 	},
@@ -1066,14 +1066,14 @@
 	{
 		"assign": "3210205",
 		"jp_text": "特殊能力追加（攻撃総合）",
-		"tr_text": "특수 능력 추가 (Attack Fusion)",
+		"tr_text": "특수 능력 추가 (공격 종합)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【攻撃総合】の特殊能力を追加する。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Offensive Boost\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210206",
 		"jp_text": "特殊能力追加（防御総合）",
-		"tr_text": "특수 능력 추가 (Def. Fusion)",
+		"tr_text": "특수 능력 추가 (방어 종합)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【防御総合】の特殊能力を追加する。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Defense Boost\"\nwhen used in Special Ability\nSynthesis."
 	},
@@ -1192,21 +1192,21 @@
 	{
 		"assign": "3210223",
 		"jp_text": "特殊能力（打撃＆ＰＰ/２）",
-		"tr_text": "특수 능력 추가 (Strike&PP/2)",
+		"tr_text": "특수 능력 추가 (타격&PP/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【打撃＆ＰＰ/２】の特殊能力を追加する。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Elegant Power\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210224",
 		"jp_text": "特殊能力（射撃＆ＰＰ/２）",
-		"tr_text": "특수 능력 추가 (Shoot&PP/2)",
+		"tr_text": "특수 능력 추가 (사격&PP/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【射撃＆ＰＰ/２】の特殊能力を追加する。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Elegant Shoot\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210225",
 		"jp_text": "特殊能力（法撃＆ＰＰ/２）",
-		"tr_text": "특수 능력 추가 (Tech&PP/2)",
+		"tr_text": "특수 능력 추가 (법격&PP/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【法撃＆ＰＰ/２】の特殊能力を追加する。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Elegant\nTechnique\" when used in Special\nAbility Synthesis."
 	},
@@ -1486,21 +1486,21 @@
 	{
 		"assign": "3210288",
 		"jp_text": "特殊能力（打撃＆ＰＰ/３）",
-		"tr_text": "특수 능력 추가 (Strike&PP/3)",
+		"tr_text": "특수 능력 추가 (타격&PP/3)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【打撃＆ＰＰ/３】の特殊能力を追加する。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Grace Power\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210289",
 		"jp_text": "特殊能力（射撃＆ＰＰ/３）",
-		"tr_text": "특수 능력 추가 (Shoot&PP/3)",
+		"tr_text": "특수 능력 추가 (사격&PP/3)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【射撃＆ＰＰ/３】の特殊能力を追加する。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Grace Shoot\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210290",
 		"jp_text": "特殊能力（法撃＆ＰＰ/３）",
-		"tr_text": "특수 능력 추가 (Tech&PP/3)",
+		"tr_text": "특수 능력 추가 (법격&PP/3)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【法撃＆ＰＰ/３】の特殊能力を追加する。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Grace Tech\"\nwhen used in Ability Synthesis."
 	},
@@ -2165,86 +2165,86 @@
 	{
 		"assign": "3210492",
 		"jp_text": "特殊能力（センテンスＰ）",
-		"tr_text": "특수 능력 추가 (Sentence P)",
+		"tr_text": "특수 능력 추가 (센텐스 P)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・パワー】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Sentence Power\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"센텐스 Power\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210493",
 		"jp_text": "特殊能力（センテンスＳ）",
-		"tr_text": "특수 능력 추가 (Sentence S)",
+		"tr_text": "특수 능력 추가 (센텐스 S)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・シュート】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Sentence Shoot\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"센텐스 Shoot\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210494",
 		"jp_text": "特殊能力（センテンスＴ）",
-		"tr_text": "특수 능력 추가 (Sentence T)",
+		"tr_text": "특수 능력 추가 (센텐스 T)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・テクニック】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Sentence\nTechnique\" used in Ability Synthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"센텐스\nTechnique\" used in Ability Synthesis."
 	},
 	{
 		"assign": "3210496",
 		"jp_text": "特殊能力（エーテルＳ）",
-		"tr_text": "특수 능력 추가 (Ether S)",
+		"tr_text": "특수 능력 추가 (에테르 S)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【エーテル・ソール】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Ether Soul\"\nused in Ability Synthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"에테르 Soul\"\nused in Ability Synthesis."
 	},
 	{
 		"assign": "3210497",
 		"jp_text": "特殊能力（ファクターＣ）",
-		"tr_text": "특수 능력 추가 (Factor C)",
+		"tr_text": "특수 능력 추가 (팩터 C)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ファクター・カタリスト】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Factor Catalyst\"\nused in Ability Synthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"팩터 Catalyst\"\nused in Ability Synthesis."
 	},
 	{
 		"assign": "3210498",
 		"jp_text": "特殊能力（オメガＭ）",
-		"tr_text": "특수 능력 추가 (Omega M)",
+		"tr_text": "특수 능력 추가 (오메가 M)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【オメガ・メモリア】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Omega Memoria\"\nused in Ability Synthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"오메가 Memoria\"\nused in Ability Synthesis."
 	},
 	{
 		"assign": "3210499",
 		"jp_text": "特殊能力（レヴリーＣ）",
-		"tr_text": "특수 능력 추가 (Reverie C)",
+		"tr_text": "특수 능력 추가 (레브리 C)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【レヴリー・カタリスト】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Reverie Catalyst\"\nused in Ability Synthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"레브리 Catalyst\"\nused in Ability Synthesis."
 	},
 	{
 		"assign": "3210500",
 		"jp_text": "特殊能力（グランドＰ）",
-		"tr_text": "특수 능력 추가 (Grand P)",
+		"tr_text": "특수 능력 추가 (그랜드 P)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【グランド・パワー】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Grand Power\"\nused in Ability Synthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"그랜드 Power\"\nused in Ability Synthesis."
 	},
 	{
 		"assign": "3210501",
 		"jp_text": "特殊能力（グランドＳ）",
-		"tr_text": "특수 능력 추가 (Grand S)",
+		"tr_text": "특수 능력 추가 (그랜드 S)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【グランド・シュート】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Grand Shoot\"\nused in Ability Synthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"그랜드 Shoot\"\nused in Ability Synthesis."
 	},
 	{
 		"assign": "3210502",
 		"jp_text": "特殊能力（グランドＴ）",
-		"tr_text": "특수 능력 추가 (Grand T)",
+		"tr_text": "특수 능력 추가 (그랜드 T)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【グランド・テクニック】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Grand Technique\"\nused in Ability Synthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"그랜드 Technique\"\nused in Ability Synthesis."
 	},
 	{
 		"assign": "3210503",
 		"jp_text": "特殊能力（グランドＨＰ）",
-		"tr_text": "특수 능력 추가 (Grand HP)",
+		"tr_text": "특수 능력 추가 (그랜드 HP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【グランド・スタミナ】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Grand Stamina\"\nused in Ability Synthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"그랜드 Stamina\"\nused in Ability Synthesis."
 	},
 	{
 		"assign": "3210504",
 		"jp_text": "特殊能力（グランドＰＰ）",
-		"tr_text": "특수 능력 추가 (Grand PP)",
+		"tr_text": "특수 능력 추가 (그랜드 PP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【グランド・スピリタ】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Grand Spirita\"\nused in Ability Synthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"그랜드 Spirita\"\nused in Ability Synthesis."
 	},
 	{
 		"assign": "3210511",
@@ -2284,14 +2284,14 @@
 	{
 		"assign": "3210534",
 		"jp_text": "特殊能力（攻撃総合/２）",
-		"tr_text": "특수 능력 추가 (Attack Fusion/2)",
+		"tr_text": "특수 능력 추가 (공격 종합/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【攻撃総合/２】を追加。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Attack Boost\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210535",
 		"jp_text": "特殊能力（防御総合/２）",
-		"tr_text": "특수 능력 추가 (Def. Fusion/2)",
+		"tr_text": "특수 능력 추가 (방어 종합/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【防御総合/２】を追加。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Guard Boost\"\nwhen used in Special Ability\nSynthesis."
 	},
@@ -2375,14 +2375,14 @@
 	{
 		"assign": "3210547",
 		"jp_text": "特殊能力（シュートⅥ）",
-		"tr_text": "특수 능력 추가 (Shoot VI)",
+		"tr_text": "특수 능력 추가 (사격 VI)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【シュートⅥ】を追加。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Shoot VI\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210548",
 		"jp_text": "特殊能力（テクニックⅥ）",
-		"tr_text": "특수 능력 추가 (Tech VI)",
+		"tr_text": "특수 능력 추가 (법격 VI)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【テクニックⅥ】を追加。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Tech VI\"\nwhen used in Special Ability\nSynthesis."
 	},
@@ -2396,30 +2396,30 @@
 	{
 		"assign": "3210550",
 		"jp_text": "特殊能力（Ｍジョイオ）",
-		"tr_text": "특수 능력 추가 (Mark Joyo)",
+		"tr_text": "특수 능력 추가 (M 죠이오)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【マーク・ジョイオ】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Mark Joyo\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"M 죠이오\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210551",
 		"jp_text": "特殊能力（Ｍカレジナ）",
-		"tr_text": "특수 능력 추가 (Mark Couragena)",
+		"tr_text": "특수 능력 추가 (M 카레지나)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【マーク・カレジナ】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Mark Couragena\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"M 카레지나\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210552",
 		"jp_text": "特殊能力（Ｍアンガル）",
-		"tr_text": "특수 능력 추가 (Mark Angar)",
+		"tr_text": "특수 능력 추가 (M 앙갈)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【マーク・アンガル】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Mark Angar\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"M 앙갈\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210553",
 		"jp_text": "特殊能力（Ｍグリフ）",
-		"tr_text": "특수 능력 추가 (Mark Grif)",
+		"tr_text": "특수 능력 추가 (M 그리프)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【マーク・グリフ】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Mark Grif\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"M 그리프\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210554",
@@ -2452,9 +2452,9 @@
 	{
 		"assign": "3210560",
 		"jp_text": "Ｓ５追加：追蝕の縛",
-		"tr_text": "S5 Add:Tethered Eclipse",
+		"tr_text": "S5 Add:T에테르ed Eclipse",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：追蝕の縛を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Tethered Eclipse\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:T에테르ed Eclipse\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210562",
@@ -2711,50 +2711,50 @@
 	{
 		"assign": "3210709",
 		"jp_text": "特殊能力Ｒ（センテンスＰ）",
-		"tr_text": "특수 능력 추가 R (Sentence P)",
+		"tr_text": "특수 능력 추가 R (센텐스 P)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・パワー】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Sentence Power\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"센텐스 Power\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210710",
 		"jp_text": "特殊能力Ｒ（センテンスＳ）",
-		"tr_text": "특수 능력 추가 R (Sentence R)",
+		"tr_text": "특수 능력 추가 R (센텐스 R)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・シュート】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Sentence Shoot\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"센텐스 Shoot\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210711",
 		"jp_text": "特殊能力Ｒ（センテンスＴ）",
-		"tr_text": "특수 능력 추가 R (Sentence T)",
+		"tr_text": "특수 능력 추가 R (센텐스 T)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・テクニック】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Sentence\nTechnique\"when used in Special\nAbility Synthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"센텐스\nTechnique\"when used in Special\nAbility Synthesis."
 	},
 	{
 		"assign": "3210712",
 		"jp_text": "特殊能力Ｒ（エーテルＳ）",
-		"tr_text": "특수 능력 추가 R (Ether S)",
+		"tr_text": "특수 능력 추가 R (에테르 S)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【エーテル・ソール】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Ether Soul\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"에테르 Soul\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210713",
 		"jp_text": "特殊能力Ｒ（ファクターＣ）",
-		"tr_text": "특수 능력 추가 R (Factor C)",
+		"tr_text": "특수 능력 추가 R (팩터 C)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ファクター・カタリスト】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Factor Catalyst\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"팩터 Catalyst\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210714",
 		"jp_text": "特殊能力Ｒ（オメガＭ）",
-		"tr_text": "특수 능력 추가 R (Omega M)",
+		"tr_text": "특수 능력 추가 R (오메가 M)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【オメガ・メモリア】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Omega Memoria\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"오메가 Memoria\"\nwhen used in Special Ability\nSynthesis."
 	},
 	{
 		"assign": "3210715",
 		"jp_text": "特殊能力Ｒ（レヴリーＣ）",
-		"tr_text": "특수 능력 추가 R (Reverie C)",
+		"tr_text": "특수 능력 추가 R (레브리 C)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【レヴリー・カタリスト】を追加。",
-		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Reverie Catalyst\"\nwhen used in Special Ability\nSynthesis."
+		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"레브리 Catalyst\"\nwhen used in Special Ability\nSynthesis."
 	}
 ]
