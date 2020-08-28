@@ -151,7 +151,7 @@
 		"jp_text": "ホワイトデーショコラ",
 		"tr_text": "화이트 데이 쇼콜라",
 		"jp_explain": "ナウラ三姉妹お手製の季節限定商品。\n丹精込めた特製ホワイトデーショコラ。\n食べると体の底から元気が湧いてくる。",
-		"tr_explain": "Limited handmade goods from the\nNaura Sisters. A deluxe 화이트 데이\nchocolat. [30 min] DEX+30 PP+3"
+		"tr_explain": "Limited handmade goods from the\nNaura Sisters. A deluxe 화이트 데이\n쇼콜라. [30 min] DEX+30 PP+3"
 	},
 	{
 		"assign": "32027",
@@ -284,21 +284,21 @@
 		"jp_text": "ミートレーション",
 		"tr_text": "미트 레이션",
 		"jp_explain": "アークスへ支給される携帯食料。\n塩加減と旨味が絶妙な肉パテが美味。\n【１０分間】打撃力＋３０　ＰＰ＋３",
-		"tr_explain": "ARKS portable MRE.\nSeasoned Meat Patties.\nFor 10 minutes, S-ATK+30 PP+3"
+		"tr_explain": "ARKS portable MRE.\nSeasoned Meat Patties.\nFor 10 minutes, 타격력+30 PP+3"
 	},
 	{
 		"assign": "32062",
 		"jp_text": "フィッシュレーション",
 		"tr_text": "피쉬 레이션",
 		"jp_explain": "アークスへ支給される携帯食料。\n絶妙な味付けの脂の乗った煮魚入り。\n【１０分間】射撃力＋３０　ＰＰ＋３",
-		"tr_explain": "ARKS portable MRE.\nBoiled Fat-free Seasoned Fish.\nFor 10 minutes, R-ATK+30 PP+3"
+		"tr_explain": "ARKS portable MRE.\nBoiled Fat-free Seasoned Fish.\nFor 10 minutes, 사격력+30 PP+3"
 	},
 	{
 		"assign": "32063",
 		"jp_text": "ベジタブルレーション",
 		"tr_text": "베지터블 레이션",
 		"jp_explain": "アークスへ支給される携帯食料。\nスパイシーな豆の煮込みが人気の一品。\n【１０分間】法撃力＋３０　ＰＰ＋３",
-		"tr_explain": "ARKS portable MRE.\nThe popular Spicy Bean Stew.\nFor 10 minutes, T-ATK+30 PP+3"
+		"tr_explain": "ARKS portable MRE.\nThe popular Spicy Bean Stew.\nFor 10 minutes, 법격력+30 PP+3"
 	},
 	{
 		"assign": "32064",
@@ -424,42 +424,42 @@
 		"jp_text": "パティのチョコ’１６",
 		"tr_text": "파티의 초콜릿 2016",
 		"jp_explain": "パティからもらった\n手作りバレンタインチョコ。\n【５分間】打撃力とＨＰ＋１００",
-		"tr_explain": "Handmade 초콜릿\nfrom Patty.\nS-ATK & HP+100"
+		"tr_explain": "Handmade 초콜릿\nfrom Patty.\n타격력 & HP+100"
 	},
 	{
 		"assign": "32082",
 		"jp_text": "ティアのチョコ’１６",
 		"tr_text": "티아의 초콜릿 2016",
 		"jp_explain": "ティアからもらった\n手作りバレンタインチョコ。\n【５分間】法撃力とＨＰ＋１００",
-		"tr_explain": "Handmade 초콜릿\nfrom Tea.\nT-ATK & HP+100"
+		"tr_explain": "Handmade 초콜릿\nfrom Tea.\n법격력 & HP+100"
 	},
 	{
 		"assign": "32083",
 		"jp_text": "イオのチョコ’１６",
 		"tr_text": "이오의 초콜릿 2016",
 		"jp_explain": "イオからもらった\n手作りバレンタインチョコ。\n【５分間】射撃力とＨＰ＋１００",
-		"tr_explain": "Handmade 초콜릿\nfrom Io.\nR-ATK & HP+100"
+		"tr_explain": "Handmade 초콜릿\nfrom Io.\n사격력 & HP+100"
 	},
 	{
 		"assign": "32084",
 		"jp_text": "メルランディアのチョコ’１６",
 		"tr_text": "멜란디아의 초콜릿 2016",
 		"jp_explain": "メルランディアからもらった\n手作りバレンタインチョコ。\n【５分間】法撃力＋１００、ＰＰ＋１０",
-		"tr_explain": "Handmade 초콜릿\nfrom Melrondia.\nT-ATK+100, PP+10"
+		"tr_explain": "Handmade 초콜릿\nfrom Melrondia.\n법격력+100, PP+10"
 	},
 	{
 		"assign": "32085",
 		"jp_text": "アザナミのチョコ’１６",
 		"tr_text": "아자나미의 초콜릿 2016",
 		"jp_explain": "アザナミからもらった\n手作りバレンタインチョコ。\n【５分間】打撃力＋１００、ＰＰ＋１０",
-		"tr_explain": "Handmade 초콜릿\nfrom Azanami.\nS-ATK+100, PP+10"
+		"tr_explain": "Handmade 초콜릿\nfrom Azanami.\n타격력+100, PP+10"
 	},
 	{
 		"assign": "32086",
 		"jp_text": "ユクリータのチョコ’１６",
 		"tr_text": "유크리타의 초콜릿 2016",
 		"jp_explain": "ユクリータからもらった\n手作りバレンタインチョコ。\n【５分間】射撃力＋１００、ＰＰ＋１０",
-		"tr_explain": "Handmade 초콜릿\nfrom Yucreta.\nR-ATK+100, PP+10"
+		"tr_explain": "Handmade 초콜릿\nfrom Yucreta.\n사격력+100, PP+10"
 	},
 	{
 		"assign": "32087",
@@ -494,47 +494,47 @@
 		"jp_text": "ウイダーinゼリー",
 		"tr_text": "웨이더 인 젤리",
 		"jp_explain": "すばやく手軽に栄養補給ができて\n適度な腹持ちを提供するゼリー飲料。\n【１０分間】打・射＋７０　ＰＰ＋１１",
-		"tr_explain": "Quick and easy nutritious\njelly drink for a moderate diet.\nS-ATK&R-ATK+70 PP+11"
+		"tr_explain": "Quick and easy nutritious\njelly drink for a moderate diet.\n타격력&사격력+70 PP+11"
 	},
 	{
 		"assign": "32092",
 		"jp_text": "即攻元気",
 		"tr_text": "즉공원기",
 		"jp_explain": "今日の元気を即攻サポート！\nガンバル時の元気補給！\n【１０分間】打・射＋７０　ＨＰ＋１１０",
-		"tr_explain": "This will support your\nvitality today!\nS-ATK&R-ATK+70 HP+110 [10 min]"
+		"tr_explain": "This will support your\nvitality today!\n타격력&사격력+70 HP+110 [10 min]"
 	},
 	{
 		"assign": "32093",
 		"jp_text": "Ｃ１０００ １日分のビタミンゼリー",
 		"tr_text": "C1000 1일분의 비타민 젤리",
 		"jp_explain": "爽やかなグレープフルーツ味とともに\nビタミン全１３種類でカラダを整える。\n【１０分間】打・法＋７０　ＨＰ＋１１０",
-		"tr_explain": "Refreshing Grapefruit taste\nwith 13 types of vitamins.\nS-ATK&T-ATK+70 HP+110 [10 min]"
+		"tr_explain": "Refreshing Grapefruit taste\nwith 13 types of vitamins.\n타격력&법격력+70 HP+110 [10 min]"
 	},
 	{
 		"assign": "32094",
 		"jp_text": "곤약젤리",
 		"tr_text": "MannanLife Konjac Jelly",
 		"jp_explain": "果汁で味付けしたフルーツこんにゃく。\nおなかの調子を整える。\n【１０分間】射・法＋７０　ＰＰ＋１１",
-		"tr_explain": "Konjac Jelly with fruit juice.\nIt tones the stomach.\nR-ATK&T-ATK+70 PP+11 [10 min]"
+		"tr_explain": "Konjac Jelly with fruit juice.\nIt tones the stomach.\n사격력&법격력+70 PP+11 [10 min]"
 	},
 	{
 		"assign": "32095",
 		"jp_text": "ミニッツメイド朝バナナ",
 		"tr_text": "미닛메이드 아침 바나나",
 		"jp_explain": "朝食代わりに最適なバナナ２個分の\n栄養が摂れるゼリー飲料。\n【１０分間】打・法＋７０　ＰＰ＋１１",
-		"tr_explain": "Breakfast Jelly Drink\nwith 2 pieces of banana.\nS-ATK&T-ATK+70 PP+11 [10 min]"
+		"tr_explain": "Breakfast Jelly Drink\nwith 2 pieces of banana.\n타격력&법격력+70 PP+11 [10 min]"
 	},
 	{
 		"assign": "32096",
 		"jp_text": "リリーパ族オムライス",
-		"tr_text": "Lillipan Omelette",
+		"tr_text": "리리파족 오므라이스",
 		"jp_explain": "ＰＳＯ２アークスカフェのコラボフード。\n【３０分間】打・射・法・ＨＰ＋１００\nＰＰ＋１０　レアドロップ＋５０％",
 		"tr_explain": "PSO2 ARKS Cafe collab food.\nBoosts ATK and HP by 100\nPP+10 and RDR+50%. [30 min]"
 	},
 	{
 		"assign": "32097",
 		"jp_text": "４周年記念ドーナッツ",
-		"tr_text": "4th 주년 기념 도넛",
+		"tr_text": "4주년 기념 도넛",
 		"jp_explain": "アークスに感謝し、日々の任務を\n労うべく考案された特製ドーナッツ。\n【５分間】トライブースト＋５０％",
 		"tr_explain": "A special 도넛 created to thank\nARKS for all their hard work.\n[5 min] 트라이 부스트 +50%"
 	},
@@ -548,14 +548,14 @@
 	{
 		"assign": "32099",
 		"jp_text": "ＥＸ獲得経験値＋７５％",
-		"tr_text": "EX Experience Boost +75%",
+		"tr_text": "EX 획득 경험치 +75%",
 		"jp_explain": "三種複合のブーストアイテム。\n獲得経験値が７５％アップ。\n獲得メセタ、レアドロップが２５％アップ。",
 		"tr_explain": "Boosts Three Items.\nEXP Gained +75%\nMeseta and 레어 드롭 배율 +25%."
 	},
 	{
 		"assign": "320100",
 		"jp_text": "ＥＸ獲得メセタ＋７５％",
-		"tr_text": "EX Meseta Gained +75%",
+		"tr_text": "EX 획득 메세타 +75%",
 		"jp_explain": "三種複合のブーストアイテム。\n獲得メセタが７５％アップ。\n経験値、レアドロップが２５％アップ。",
 		"tr_explain": "Boosts Three Items.\n획득 메세타 +75%\nEXP and 레어 드롭 배율 +25%."
 	},
@@ -576,9 +576,9 @@
 	{
 		"assign": "320103",
 		"jp_text": "ファミ通ドーナッツ",
-		"tr_text": "Famitsu 도넛",
+		"tr_text": "패미통 도넛",
 		"jp_explain": "ファミ通のドーナッツ。\n【５分間】トライブースト＋５０％",
-		"tr_explain": "Famitsu 도넛.\nFor 5 minutes, Tri-Boot+50%"
+		"tr_explain": "패미통 도넛.\nFor 5 minutes, Tri-Boot+50%"
 	},
 	{
 		"assign": "320104",
@@ -590,23 +590,23 @@
 	{
 		"assign": "320105",
 		"jp_text": "新年祭記念ドーナッツ’１７",
-		"tr_text": "New Year Carnival 도넛'17",
+		"tr_text": "신년제 기념 도넛'17",
 		"jp_explain": "新たな年の到来を祝い\n作成された特製ドーナッツ。\n【５分間】トライブースト＋５０％",
 		"tr_explain": "A 도넛 that celebrates the\ncoming of a new year.\n[5 min] 트라이 부스트 +50%"
 	},
 	{
 		"assign": "320106",
 		"jp_text": "ＲＩＮＡのチョコ",
-		"tr_text": "RINA 초콜릿",
+		"tr_text": "RINA의 초콜릿",
 		"jp_explain": "ＲＩＮＡからもらった手作りチョコ。\n【５分間】射撃力＋１００、ＰＰ＋５\nレアドロップ倍率＋７５％",
-		"tr_explain": "Handmade gifts from RINA.\n[5 min] R-ATK+100 PP +5\n레어 드롭 배율 +75%"
+		"tr_explain": "Handmade gifts from RINA.\n[5 min] 사격력+100 PP +5\n레어 드롭 배율 +75%"
 	},
 	{
 		"assign": "320107",
 		"jp_text": "イツキのショコラ",
-		"tr_text": "Itsuki Chocolat",
+		"tr_text": "이츠키의 쇼콜라",
 		"jp_explain": "イツキからもらった特製ショコラ。\n【５分間】打・射＋５０　ＨＰ＋５０\nレアドロップ倍率＋７５％",
-		"tr_explain": "Special Chocolat from Itsuki.\n[5 min]S&R-ATK+50 HP+50\n레어 드롭 배율 +75%"
+		"tr_explain": "Special 쇼콜라 from Itsuki.\n[5 min]S&사격력+50 HP+50\n레어 드롭 배율 +75%"
 	},
 	{
 		"assign": "320108",
@@ -632,56 +632,56 @@
 	{
 		"assign": "320111",
 		"jp_text": "プレーンマカロン’１７",
-		"tr_text": "플레인Macaron '17",
+		"tr_text": "플레인 마카롱 '17",
 		"jp_explain": "キャンペーンの開催に合わせ\n作成された特製マカロン。\n【５分間】トライブースト＋５０％",
 		"tr_explain": "A special macaron created for a\ncampaign.\n[5 min] 트라이 부스트 +50%"
 	},
 	{
 		"assign": "320123",
 		"jp_text": "電撃ドーナッツ",
-		"tr_text": "Dengeki 도넛",
+		"tr_text": "전격 도넛",
 		"jp_explain": "電撃PlayStationのドーナッツ。\n【５分間】トライブースト＋５０％",
-		"tr_explain": "Dengeki Playstation 도넛.\n[5 min] 트라이 부스트 50%"
+		"tr_explain": "전격 Playstation 도넛.\n[5 min] 트라이 부스트 50%"
 	},
 	{
 		"assign": "320124",
 		"jp_text": "オークゥとフルのチョコ",
-		"tr_text": "Och & Phul 초콜릿",
+		"tr_text": "오쿠와 풀의 초콜릿",
 		"jp_explain": "オークゥとフルからの手作りチョコ。\n【５分間】ＨＰ＋５０　ＰＰ＋５\nレアドロップ倍率＋７５％",
 		"tr_explain": "Handmade 초콜릿 from Och\nand Phul. [5 min] HP +50 PP +5\n레어 드롭 배율 +75%"
 	},
 	{
 		"assign": "320125",
 		"jp_text": "ヒツギとコオリのチョコ",
-		"tr_text": "Hitsugi & Kohri 초콜릿",
+		"tr_text": "히츠기와 코오리의 초콜릿",
 		"jp_explain": "ヒツギとコオリからの手作りチョコ。\n【５分間】ＨＰ＋５０　ＰＰ＋５\nレアドロップ倍率＋７５％",
 		"tr_explain": "Handmade 초콜릿 from Hitsugi\nand Kohri. [5 min] HP +50 PP +5\n레어 드롭 배율 +75%"
 	},
 	{
 		"assign": "320126",
 		"jp_text": "マトイのチョコ",
-		"tr_text": "Matoi 초콜릿",
+		"tr_text": "마토이 초콜릿",
 		"jp_explain": "マトイからの手作りチョコ。\n【５分間】ＨＰ＋５０　ＰＰ＋５\nレアドロップ倍率＋７５％",
 		"tr_explain": "Handmade 초콜릿 from Matoi.\n[5 min] HP +50 PP +5\n레어 드롭 배율 +75%"
 	},
 	{
 		"assign": "320127",
 		"jp_text": "ストラトスのチョコ",
-		"tr_text": "Stratos 초콜릿",
+		"tr_text": "스트라토스 초콜릿",
 		"jp_explain": "ストラトスからの手作りチョコ。\n【５分間】ＨＰ＋５０　ＰＰ＋５\nレアドロップ倍率＋７５％",
-		"tr_explain": "Handmade 초콜릿 from Stratos.\n[5 min] HP +50 PP +5\n레어 드롭 배율 +75%"
+		"tr_explain": "Handmade 초콜릿 from 스트라토스.\n[5 min] HP +50 PP +5\n레어 드롭 배율 +75%"
 	},
 	{
 		"assign": "320128",
 		"jp_text": "ファレグのチョコ",
-		"tr_text": "Phaleg 초콜릿",
+		"tr_text": "파레그 초콜릿",
 		"jp_explain": "ファレグからの手作りチョコ。\n【５分間】打射法撃力＋２００",
-		"tr_explain": "Handmade 초콜릿 from Phaleg.\n[5 min] ATK +200"
+		"tr_explain": "Handmade 초콜릿 from 파레그.\n[5 min] ATK +200"
 	},
 	{
 		"assign": "320129",
 		"jp_text": "新年祭記念ドーナッツ’１８",
-		"tr_text": "New Years Memorial 도넛'18",
+		"tr_text": "신년제 기념 도넛 도넛'18",
 		"jp_explain": "新たな年の到来を祝い\n作成された特製ドーナッツ。\n【５分間】トライブースト＋５０％",
 		"tr_explain": "A special 도넛 that was created\nfor the coming of a new year.\n[5 min] 트라이 부스트 +50%"
 	},
@@ -695,16 +695,16 @@
 	{
 		"assign": "320131",
 		"jp_text": "６周年記念ドーナッツ",
-		"tr_text": "6th 주년 기념 도넛",
+		"tr_text": "6주년 기념 도넛",
 		"jp_explain": "アークスに感謝し、日々の任務を\n労うべく考案された特製ドーナッツ。\n【５分間】トライブースト＋５０％",
 		"tr_explain": "A special 도넛 created to thank\nARKS for all their hard work.\n[5 min] 트라이 부스트 +50%"
 	},
 	{
 		"assign": "320132",
 		"jp_text": "ナスナカン特製酢豚",
-		"tr_text": "Nasunakan's Sweet & Sour Pork",
+		"tr_text": "나스나칸 특제 탕수육",
 		"jp_explain": "ナスナカンより贈られた特製酢豚。\n【３０分間】全ステータス＋１０\nレアドロップ倍率＋５０％",
-		"tr_explain": "Nasunakan's Sweet & Sour Pork.\n[30 min] All +10\n레어 드롭 배율 +50%."
+		"tr_explain": "나스나칸 특제 탕수육.\n[30 min] All +10\n레어 드롭 배율 +50%."
 	},
 	{
 		"assign": "320133",
@@ -716,28 +716,28 @@
 	{
 		"assign": "320134",
 		"jp_text": "からあげクン",
-		"tr_text": "Kara-age Kun",
+		"tr_text": "카라아게군",
 		"jp_explain": "ローソンのからあげクン。\n【１０分間】打・射・法撃力＋２００　ＰＰ＋１０\nレアドロップ倍率＋２５％",
 		"tr_explain": "Lawson's Fried Chicken.\n[10 min] ATK +200 PP +10\n레어 드롭 배율 +25%."
 	},
 	{
 		"assign": "320135",
 		"jp_text": "ブタキム",
-		"tr_text": "Pork Kim",
+		"tr_text": "포크 김",
 		"jp_explain": "エースコックのブタキムラーメン。\n【１０分間】打・射・法撃力＋２００　ＨＰ＋１００\nレアドロップ倍率＋２５％",
-		"tr_explain": "Pork kimchi noodles from Acecook.\n[10 min] ATK +200 HP +100\n레어 드롭 배율 +25%."
+		"tr_explain": "포크 김chi noodles from Acecook.\n[10 min] ATK +200 HP +100\n레어 드롭 배율 +25%."
 	},
 	{
 		"assign": "320136",
 		"jp_text": "こんがり肉",
-		"tr_text": "Well-Done Steak",
+		"tr_text": "잘 익은 고기",
 		"jp_explain": "こんがりと焼けた肉。\n【６分間】ＰＰ＋２５\nレアドロップ倍率＋５０％",
 		"tr_explain": "Broiled and baked meat.\n[6 min] PP +25\n레어 드롭 배율 +50%"
 	},
 	{
 		"assign": "320137",
 		"jp_text": "わさビーフ",
-		"tr_text": "Wasabeef",
+		"tr_text": "와사비프",
 		"jp_explain": "わさびが効いたわさビーフ。\n【１０分間】打・射・法撃力＋２００\n打・射・法防御＋１００\nレアドロップ倍率＋２５％",
 		"tr_explain": "Beef flavored with wasabi.\n[10 min] ATK +200 DEF +100\n레어 드롭 배율 +25%"
 	},
@@ -758,35 +758,35 @@
 	{
 		"assign": "320140",
 		"jp_text": "ルーサーの全知パフェ",
-		"tr_text": "Luther's Omniscience Parfait",
+		"tr_text": "루서의 전지 파르페",
 		"jp_explain": "ＰＳＯ２アークスカフェのコラボスイーツ。\n【１０分間】打・射・法撃力＋２００\nレアドロップ倍率＋２５％\n獲得経験値＋５０％",
 		"tr_explain": "A PSO2 ARKS Cafe Collab item.\n[10 min] ATK +200\n레어 드롭 배율 +25% EXP +50%"
 	},
 	{
 		"assign": "320141",
 		"jp_text": "ＶＶ特製打撃カレー",
-		"tr_text": "VV Deluxe Striking Curry",
+		"tr_text": "VV 특제 타격 카레",
 		"jp_explain": "ヴィレッジヴァンガードの特製カレー。\n【１０分間】打撃力＋２００　ＨＰ＋１００\nＰＰ＋１０　レアドロップ倍率＋２５％",
-		"tr_explain": "Village Vanguard Deluxe Curry.\n[10 min] S-ATK +200 HP +100\nPP +10 레어 드롭 배율 +25%"
+		"tr_explain": "Village Vanguard Deluxe Curry.\n[10 min] 타격력 +200 HP +100\nPP +10 레어 드롭 배율 +25%"
 	},
 	{
 		"assign": "320142",
 		"jp_text": "ＶＶ特製射撃カレー",
-		"tr_text": "VV Deluxe Shooting Curry",
+		"tr_text": "VV 특제 사격 카레",
 		"jp_explain": "ヴィレッジヴァンガードの特製カレー。\n【１０分間】射撃力＋２００　ＨＰ＋１００\nＰＰ＋１０　レアドロップ倍率＋２５％",
-		"tr_explain": "Village Vanguard Deluxe Curry.\n[10 min] R-ATK +200 HP +100\nPP +10 레어 드롭 배율 +25%"
+		"tr_explain": "Village Vanguard Deluxe Curry.\n[10 min] 사격력 +200 HP +100\nPP +10 레어 드롭 배율 +25%"
 	},
 	{
 		"assign": "320143",
 		"jp_text": "ＶＶ特製法撃カレー",
-		"tr_text": "VV Deluxe Technique Curry",
+		"tr_text": "VV 특제 법격 카레",
 		"jp_explain": "ヴィレッジヴァンガードの特製カレー。\n【１０分間】法撃力＋２００　ＨＰ＋１００\nＰＰ＋１０　レアドロップ倍率＋２５％",
-		"tr_explain": "Village Vanguard Deluxe Curry.\n[10 min] T-ATK +200 HP +100\nPP +10 레어 드롭 배율 +25%"
+		"tr_explain": "Village Vanguard Deluxe Curry.\n[10 min] 법격력 +200 HP +100\nPP +10 레어 드롭 배율 +25%"
 	},
 	{
 		"assign": "320144",
 		"jp_text": "新年祭記念ドーナッツ’１９",
-		"tr_text": "New Years Memorial 도넛 '19",
+		"tr_text": "신년제 기념 도넛 도넛 '19",
 		"jp_explain": "新たな年の到来を祝い\n作成された特製ドーナッツ。\n【５分間】トライブースト＋５０％",
 		"tr_explain": "A special 도넛 that was created\nfor the coming of a new year.\n[5 min] 트라이 부스트 +50%"
 	},
@@ -800,7 +800,7 @@
 	{
 		"assign": "320146",
 		"jp_text": "イドラ風ステーキ",
-		"tr_text": "Idola-style Steak",
+		"tr_text": "이돌라풍 스테이크",
 		"jp_explain": "アスタル亭で提供される名物料理。\n【５分間】打・射・法撃力＋１５０\n獲得経験値＋１５０％",
 		"tr_explain": "Astal House specialty steak.\n[5 min] ATK +150 EXP +150%."
 	},
@@ -814,9 +814,9 @@
 	{
 		"assign": "320148",
 		"jp_text": "ナスナカン特製酢豚’１９",
-		"tr_text": "Sweet & Sour Pork '19",
+		"tr_text": "나스나칸의 특제 탕수육 '19",
 		"jp_explain": "ナスナカンより贈られた特製酢豚。\n【３０分間】全ステータス＋１０\nレアドロップ倍率＋５０％",
-		"tr_explain": "Sweet & sour pork from Nasunakan.\n[30 min] All +10\n레어 드롭 배율 +50%"
+		"tr_explain": "나스나칸의 특제 탕수육 from Nasunakan.\n[30 min] All +10\n레어 드롭 배율 +50%"
 	},
 	{
 		"assign": "320149",
@@ -1038,9 +1038,9 @@
 	{
 		"assign": "320190",
 		"jp_text": "ナスナカン特製酢豚’２０",
-		"tr_text": "Sweet & Sour Pork '20",
+		"tr_text": "나스나칸의 특제 탕수육 '20",
 		"jp_explain": "ナスナカンより贈られた特製酢豚。\n【３０分間】全ステータス＋１０\nレアドロップ倍率＋５０％",
-		"tr_explain": "Sweet & sour pork from Nasunakan.\n[30 min] All +10\n레어 드롭 배율 +50%"
+		"tr_explain": "나스나칸의 특제 탕수육 from Nasunakan.\n[30 min] All +10\n레어 드롭 배율 +50%"
 	},
 	{
 		"assign": "320191",
