@@ -4,62 +4,62 @@
 		"jp_text": "モノメイト",
 		"tr_text": "모노메이트",
 		"jp_explain": "アークス御用達の回復剤。\n使用することでＨＰが回復する。",
-		"tr_explain": "Recovery medicine for ARKS.\nRestores 30% HP when used."
+		"tr_explain": "아크스 납품 업체의 회복제.\n사용하는 걸로 HP를 회복한다."
 	},
 	{
 		"assign": "3101",
 		"jp_text": "ディメイト",
 		"tr_text": "디메이트",
 		"jp_explain": "アークス御用達の強化回復剤。\n使用することでＨＰが大きく回復する。",
-		"tr_explain": "Recovery medicine for ARKS.\nRestores 60% HP when used."
+		"tr_explain": "아크스 납품 업체의 강화 회복제.\n사용하는 걸로 HP를 크게 회복한다."
 	},
 	{
 		"assign": "3102",
 		"jp_text": "トリメイト",
 		"tr_text": "트리메이트",
 		"jp_explain": "アークス御用達の完全回復剤。\n使用することでＨＰが全回復する。",
-		"tr_explain": "Recovery medicine for ARKS.\nRestores 100% HP when used."
+		"tr_explain": "아크스 납품 업체의 완전 회복제.\n사용하는 걸로 HP를 전부 회복한다."
 	},
 	{
 		"assign": "3106",
 		"jp_text": "ソルアトマイザー",
 		"tr_text": "솔 아토마이저",
 		"jp_explain": "広範囲に及ぶ状態異常用の治療薬。\n使用した者と、周囲にいる味方の\n状態異常を回復させることができる。",
-		"tr_explain": "Recovery medicine for ARKS.\nCures status ailments of all\nnearby players."
+		"tr_explain": "광범위에 이르는 상태 이상용 치료약.\n사용한 사람과 주변에 있는 아군의\n상태 이상을 회복시킬 수 있다."
 	},
 	{
 		"assign": "3107",
 		"jp_text": "ムーンアトマイザー",
 		"tr_text": "문 아토마이저",
 		"jp_explain": "広範囲に及ぶ復活薬。\n使用した者の周囲にいる戦闘不能状態の\n味方を復活させることができる。",
-		"tr_explain": "Recovery medicine for ARKS.\nRevives nearby fallen players\nwith 50% HP."
+		"tr_explain": "광범위에 이르는 부활약.\n사용한 사람 주변에 있는 전투불능 상태인\n아군을 부활시킬 수 있다."
 	},
 	{
 		"assign": "3108",
 		"jp_text": "スターアトマイザー",
 		"tr_text": "스타 아토마이저",
 		"jp_explain": "広範囲に及ぶ回復剤。\n使用した者と、周囲にいる味方のＨＰを\n大きく回復させ、状態異常も回復する。",
-		"tr_explain": "Recovery medicine for ARKS.\nCures status ailments of all nearby\nplayers and recovers their HP."
+		"tr_explain": "광범위에 이르는 회복제.\n사용한 사람과 주변에 있는 아군의 HP를\n크게 회복시켜 상태 이상도 회복한다."
 	},
 	{
 		"assign": "31010",
 		"jp_text": "コスモアトマイザー",
 		"tr_text": "코스모 아토마이저",
 		"jp_explain": "広範囲に及ぶ完全回復剤。\n使用した者と、周囲にいる味方を\n完全な状態まで回復させる。",
-		"tr_explain": "An extensive full recovery medicine.\nCompletely restores any player to\nmaximum health and free of ailments."
+		"tr_explain": "광범위에 이르는 완전 회복제.\n사용한 사람과 주변에 있는 아군을\n완전한 상태까지 회복시킨다."
 	},
 	{
 		"assign": "31011",
 		"jp_text": "シフタライド",
-		"tr_text": "시프타라이드",
+		"tr_text": "시프타 라이드",
 		"jp_explain": "広範囲に及ぶ攻撃強化剤。\n使用した者と、周囲にいる味方の\n攻撃力を強化する。",
-		"tr_explain": "Increases the attack of all\nnearby players for a limited time."
+		"tr_explain": "광범위에 이르는 공격 강화제.\n사용한 사람과 주변에 있는 아군의\n공격력을 강화한다."
 	},
 	{
 		"assign": "31012",
 		"jp_text": "デバンライド",
-		"tr_text": "데반라이드",
+		"tr_text": "데반 라이드",
 		"jp_explain": "広範囲に及ぶ防御強化剤。\n使用した者と、周囲にいる味方の\n防御力を強化する。",
-		"tr_explain": "Increases the defense of all\nnearby players for a limited time."
+		"tr_explain": "광범위에 이르는 방어 강화제.\n사용한 사람과 주변에 있는 아군의\n방어력을 강화한다."
 	}
 ]
