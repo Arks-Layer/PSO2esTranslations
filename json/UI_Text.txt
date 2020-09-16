@@ -5755,6 +5755,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "quest_counter_header_dps",
+		"jp_text": "限界チャレンジ",
+		"tr_text": ""
+	},
+	{
 		"assign": "quest_counter_header_special",
 		"jp_text": "スペシャルクエスト",
 		"tr_text": ""
@@ -6637,6 +6642,11 @@
 	{
 		"assign": "quest_load_01",
 		"jp_text": "通信中",
+		"tr_text": ""
+	},
+	{
+		"assign": "quest_text_err",
+		"jp_text": "<color=#f0df60>＜セラフィのアドバイスを活用しよう＞</color>\n私のアドバイス、ご活用いただけていますか？\n困ったときや、行き詰ったとき\n少しでもお役に立てていれば嬉しいです。",
 		"tr_text": ""
 	},
 	{
@@ -7897,6 +7907,11 @@
 	{
 		"assign": "etoile",
 		"jp_text": "エトワール",
+		"tr_text": ""
+	},
+	{
+		"assign": "luster",
+		"jp_text": "ラスター",
 		"tr_text": ""
 	},
 	{
@@ -12191,7 +12206,7 @@
 	},
 	{
 		"assign": "tu_0006_w09_b",
-		"jp_text": "Windows PC、PlayStation®Vita、PlayStation®4で\nサービス中の『PSO2』や『PSO2 クラウド』と連動すると\n現在のキャラクターのまま『PSO2』をプレイすることができます。",
+		"jp_text": "Windows PC、PlayStation®4で\nサービス中の『PSO2』や『PSO2 クラウド』と連動すると\n現在のキャラクターのまま『PSO2』をプレイすることができます。",
 		"tr_text": ""
 	},
 	{
@@ -12536,7 +12551,7 @@
 	},
 	{
 		"assign": "wh_28_00",
-		"jp_text": "緊急クエストでオペレーションスコアをためると\n緊急イベントの「イベント報酬」のページから\nさまざまな報酬を受け取れます。",
+		"jp_text": "緊急クエストでオペレーションスコアをためると\n緊急イベントの「緊急ミッション」のページから\nさまざまな報酬を受け取れます。",
 		"tr_text": ""
 	},
 	{
@@ -15461,7 +15476,7 @@
 	},
 	{
 		"assign": "RaidEvent_tab_02",
-		"jp_text": "ボーナススクラッチ",
+		"jp_text": "ボーナス\nスクラッチ",
 		"tr_text": ""
 	},
 	{
@@ -15470,108 +15485,203 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "RaidEvent_Achievement_Title",
+		"jp_text": "緊急ミッション",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Remain",
+		"jp_text": "残り {0}",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_GetAll",
+		"jp_text": "すべて受け取る",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Sort",
+		"jp_text": "並び替え",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Sort_Completed",
+		"jp_text": "受取可能",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Sort_PreComplete",
+		"jp_text": "挑戦可能",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Sort_HasReceived",
+		"jp_text": "受取済",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Sort_Ended",
+		"jp_text": "未達成",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_AchievementItems",
+		"jp_text": "イベント期間限定",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_AchievementUnionItems",
+		"jp_text": "オペレーションスコア",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_DailyAchievementItems",
+		"jp_text": "デイリー",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Receive",
+		"jp_text": "受け取る",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Ended",
+		"jp_text": "終了",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Return",
+		"jp_text": "戻る",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_RewardText",
+		"jp_text": "<color=#f39800>報酬</color> {0}",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_LevelText",
+		"jp_text": "<color=#ffff00>達成度({0}/{1})</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_esOrder",
+		"jp_text": "esミッション",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Getitem_Dialog_Title",
+		"jp_text": "受け取り完了",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Getallitem_Dialog_Title",
+		"jp_text": "一括受け取り完了",
+		"tr_text": ""
+	},
+	{
 		"assign": "RaidEvent_Achievement_Text_0-1-0",
-		"jp_text": "実績を{1}個達成 [{0} / {1}]",
+		"jp_text": "イベント期間限定のミッションを{0}個達成",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-1",
-		"jp_text": "合計{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "合計{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-2",
-		"jp_text": "初級を{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "初級を{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-3",
-		"jp_text": "中級を{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "中級を{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-4",
-		"jp_text": "上級を{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "上級を{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-5",
-		"jp_text": "救援を{1}回行う [{0} / {1}]",
+		"jp_text": "救援を{0}回行う",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-6",
-		"jp_text": "オペレーションスコア [{0:#,0} / {1:#,0}]",
+		"jp_text": "オペレーションスコア{0:#,0}pt達成",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-8",
-		"jp_text": "タイプCを{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "タイプCを{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-9",
-		"jp_text": "特異種を{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "特異種を{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-10",
-		"jp_text": "狂暴種を{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "狂暴種を{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-11",
-		"jp_text": "大型種を{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "大型種を{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-12",
-		"jp_text": "小型種を{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "小型種を{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-17",
-		"jp_text": "未知種を{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "未知種を{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-18",
-		"jp_text": "超級を{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "超級を{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-20",
-		"jp_text": "覇級を{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "覇級を{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-22",
-		"jp_text": "覇滅種を{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "覇滅種を{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-0",
-		"jp_text": "デイリー実績を{1}個達成 [{0} / {1}]",
+		"jp_text": "デイリーの緊急ミッションを{0}個達成",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-1",
-		"jp_text": "合計{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "合計{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-2",
-		"jp_text": "初級を{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "初級を{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-3",
-		"jp_text": "中級を{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "中級を{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-4",
-		"jp_text": "上級を{1}回発見討伐 [{0} / {1}]",
+		"jp_text": "上級を{0}回発見討伐",
 		"tr_text": ""
 	},
 	{
@@ -15707,6 +15817,11 @@
 	{
 		"assign": "raid_os_ranking_rank",
 		"jp_text": "{0}位",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_mission_all_clear",
+		"jp_text": "<color=yellow>ALL CLEAR</color>",
 		"tr_text": ""
 	},
 	{
@@ -16486,7 +16601,7 @@
 	},
 	{
 		"assign": "wh_32_05",
-		"jp_text": "＜合成可能回数について＞\nチップ合成、エッグ合成の残り合成可能回数は、ペットごとに管理され、\n4：00、12：00、20：00のタイミングごとに、３回まで利用できます。",
+		"jp_text": "＜合成可能回数について＞\n合成可能回数は、ペットごとにカウントされ\n4：00、12：00、20：00 のタイミングでリセットされます。",
 		"tr_text": ""
 	},
 	{
@@ -19700,6 +19815,16 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "quest_clear_reward_dialog_title_5022608",
+		"jp_text": "シリーズクエストクリア！",
+		"tr_text": ""
+	},
+	{
+		"assign": "quest_clear_reward_dialog_body_5022608",
+		"jp_text": "クラン オブ ネメシス＆スレイヴ\n外典 第8話「昨日の敵は今日の」\nクリアおめでとうございます！\n以下のクリア報酬をプレゼントいたしました。\n受け取りボックスをご確認ください。",
+		"tr_text": ""
+	},
+	{
 		"assign": "recommended_equipment",
 		"jp_text": "おすすめ装備",
 		"tr_text": ""
@@ -21416,7 +21541,7 @@
 	},
 	{
 		"assign": "wh_41_03",
-		"jp_text": "＜合成可能回数について＞ \n チップ合成の残り合成可能回数は\n 4：00、12：00、20：00のタイミングごとに、３回まで利用できます。",
+		"jp_text": "＜合成可能回数について＞\n合成可能回数は、フォームごとにカウントされ\n4：00、12：00、20：00 のタイミングでリセットされます。",
 		"tr_text": ""
 	},
 	{
@@ -21756,17 +21881,47 @@
 	},
 	{
 		"assign": "dailyorder_guide_00",
-		"jp_text": "<color=#f0df60>esオーダーをクリアすることで報酬を獲得できます。</color>",
+		"jp_text": "<color=#f0df60>esミッションを達成することで報酬を獲得できます。</color>",
 		"tr_text": ""
 	},
 	{
 		"assign": "dailyorder_no_item",
-		"jp_text": "現在達成できるesオーダーはありません。",
+		"jp_text": "現在達成できるesミッションはありません。",
 		"tr_text": ""
 	},
 	{
 		"assign": "window_help_LM30",
-		"jp_text": "wh_44_01,\nデイリー及びウィークリーのesオーダーをクリアすることで報酬がもらえます。\n報酬はesオーダーの達成時に、自動的に「受け取りボックス」に送られます。",
+		"jp_text": "wh_44_01,\nミッションを達成することで報酬がもらえます。\n報酬は、ミッションを達成すると自動的に「受け取りボックス」に送られます。\nイベント開催時など、<color=yellow>期間限定ミッション</color>が発生することもあります。,",
+		"tr_text": ""
+	},
+	{
+		"assign": "dailyorder_title",
+		"jp_text": "esミッション",
+		"tr_text": ""
+	},
+	{
+		"assign": "dailyorder_level",
+		"jp_text": "<color=#ffff00>達成度({0}/{1})</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "dailyorder_reward",
+		"jp_text": "<color=#f39800>報酬</color> {0}",
+		"tr_text": ""
+	},
+	{
+		"assign": "dailyorder_move",
+		"jp_text": "移動",
+		"tr_text": ""
+	},
+	{
+		"assign": "dailyorder_emergency_mission",
+		"jp_text": "緊急ミッション",
+		"tr_text": ""
+	},
+	{
+		"assign": "dailyorder_mainte_expire",
+		"jp_text": "{0} メンテまで",
 		"tr_text": ""
 	},
 	{
@@ -22111,17 +22266,17 @@
 	},
 	{
 		"assign": "raiddps_guid_top",
-		"jp_text": "<color=yellow>緊急チャレンジの進行状況画面です。「遊び方」バナーから詳しい遊び方を確認できます。</color>",
+		"jp_text": "<color=yellow>限界チャレンジの進行状況画面です。「遊び方」バナーから詳しい遊び方を確認できます。</color>",
 		"tr_text": ""
 	},
 	{
 		"assign": "raiddps_guid_ranking",
-		"jp_text": "<color=yellow>緊急チャレンジの順位です。</color>",
+		"jp_text": "<color=yellow>限界チャレンジの順位です。</color>",
 		"tr_text": ""
 	},
 	{
 		"assign": "raiddps_guid_achievement",
-		"jp_text": "<color=yellow>緊急チャレンジの達成報酬です。入手条件を満たすと、報酬を受け取ることができます。</color>",
+		"jp_text": "<color=yellow>限界チャレンジの達成報酬です。入手条件を満たすと、報酬を受け取ることができます。</color>",
 		"tr_text": ""
 	},
 	{
@@ -22221,7 +22376,7 @@
 	},
 	{
 		"assign": "window_help_LM34",
-		"jp_text": "wh_48_01,\n「緊急チャレンジ」は、「1分間のうちに与えた総ダメージ数」を\n他のプレイヤーとランキング形式で競います。,\nwh_48_01,\n緊急チャレンジのプレイには、オペレーションポイント（ＯＰ）を\n1ポイント消費します。\n初回のみ、ＯＰを消費せずに挑戦することができます。,\nwh_48_02,\nこのイベントで登場するエネミーには、ＨＰがありません。\n画面左上にはＨＰゲージの代わりに、与えたダメージの合計値が表示されます。\n1分間の制限時間内で、エネミーにより多くのダメージ与えてください。,\nwh_48_03,\n1分間に与えたダメージの自己ベストが、イベントランキングに登録されます。\nイベント終了時の順位に応じて、報酬を獲得することができますので\n上位へのランクインを目指しましょう！,",
+		"jp_text": "wh_48_01,\n「限界チャレンジ」は、「1分間のうちに与えた総ダメージ数」を\n他のプレイヤーとランキング形式で競います。,\nwh_48_01,\n限界チャレンジのプレイには、オペレーションポイント（ＯＰ）を\n1ポイント消費します。\n初回のみ、ＯＰを消費せずに挑戦することができます。,\nwh_48_02,\nこのイベントで登場するエネミーには、ＨＰがありません。\n画面左上にはＨＰゲージの代わりに、与えたダメージの合計値が表示されます。\n1分間の制限時間内で、エネミーにより多くのダメージを与えてください。,\nwh_48_03,\n1分間に与えたダメージの自己ベストが、イベントランキングに登録されます。\nイベント終了時の順位に応じて、報酬を獲得することができますので\n上位へのランクインを目指しましょう！,",
 		"tr_text": ""
 	},
 	{
@@ -22776,7 +22931,7 @@
 	},
 	{
 		"assign": "auto_sale_setting_guide_message",
-		"jp_text": "<color=#f0df60>クエストで入手したアイテムを、受け取りボックスから「一括売却」する設定を行います。</color>",
+		"jp_text": "<color=#f0df60>クエストやＦＵＮチップスクラッチで入手したアイテムとチップを、受け取りボックスへ送り、「一括売却」する設定を行います。</color>",
 		"tr_text": ""
 	},
 	{
@@ -22795,6 +22950,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "auto_sale_setting_chip_tab",
+		"jp_text": "チップ",
+		"tr_text": ""
+	},
+	{
 		"assign": "auto_sale_setting_tab_on",
 		"jp_text": "ON",
 		"tr_text": ""
@@ -22806,7 +22966,12 @@
 	},
 	{
 		"assign": "auto_sale_setting_disc",
-		"jp_text": "<color=#f0df60>※全ての条件を満たすと、「一括売却」に登録されます。</color>",
+		"jp_text": "<color=#f0df60>全ての条件を満たすと、「一括売却」に登録されます。</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_sale_setting_disc_chip",
+		"jp_text": "<color=#f0df60>レアリティを設定すると、「一括売却」に登録されます。</color>",
 		"tr_text": ""
 	},
 	{
@@ -22850,6 +23015,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "auto_sale_setting_exclusion_dialog_title_chip",
+		"jp_text": "保護設定 / チップ",
+		"tr_text": ""
+	},
+	{
 		"assign": "auto_sale_setting_exclusion_dialog_disc_off",
 		"jp_text": "<color=#f0df60>受取一括売却設定が\n「ON」になると変更できます。</color>",
 		"tr_text": ""
@@ -22857,6 +23027,16 @@
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_disc_on",
 		"jp_text": "<color=#f0df60>特殊能力付きアイテムを保護し\n一括売却の対象外にします。</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_disc_chip_off",
+		"jp_text": "<color=#f0df60>受取一括売却設定が\n「ON」になると変更できます。</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_disc_chip_on",
+		"jp_text": "<color=#f0df60>保護したカテゴリのチップを\n一括売却の対象外にします。</color>",
 		"tr_text": ""
 	},
 	{
@@ -22877,6 +23057,16 @@
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_factor_receptor",
 		"jp_text": "ファクターレセプター",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_chip_pate",
+		"jp_text": "必殺技・法術",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_chip_mag",
+		"jp_text": "マグ",
 		"tr_text": ""
 	},
 	{
@@ -22950,6 +23140,16 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "auto_sale_setting_chip_explanation",
+		"jp_text": "※初めて入手するチップや\n　　素材チップは対象に含まれません。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_sale_setting_chip_info_button",
+		"jp_text": "一括売却チップ一覧",
+		"tr_text": ""
+	},
+	{
 		"assign": "acceptbox_goto_all_sale_setting_button",
 		"jp_text": "一括売却設定",
 		"tr_text": ""
@@ -22996,7 +23196,12 @@
 	},
 	{
 		"assign": "window_help_LM43",
-		"jp_text": "wh_56_01,\n<color=yellow>クエストで入手した「武器」「ユニット」</color>を\n受け取りボックスから<color=yellow>「一括売却」</color>することができます。\n一括売却設定に該当するアイテムは、自動的に受け取りボックスに送られます。,\nwh_56_02,\n一括売却するアイテムの<color=yellow>「レアリティ」</color>と<color=yellow>「特殊能力数」</color>を設定します。\n特殊能力の<color=yellow>ロック</color>で、特殊能力付きアイテムを<color=yellow>保護</color>できます。\n※PSO2連動キャラクターでのみ、アイテム詳細から特殊能力を確認できます。,",
+		"jp_text": "wh_56_01,\n<color=yellow>クエストやＦＵＮチップスクラッチで入手した「武器」「ユニット」「チップ」</color>を\n受け取りボックスから<color=yellow>「一括売却」</color>することができます。\n一括売却設定に該当するアイテムは、自動的に受け取りボックスに送られます。,\nwh_56_02,\n武器・ユニットは、一括売却する<color=yellow>「レアリティ」</color>と<color=yellow>「特殊能力数」</color>を設定します。\n特殊能力の<color=yellow>ロック</color>で、特殊能力付きアイテムを<color=yellow>保護</color>できます。\n※PSO2連動キャラクターでのみ、アイテム詳細から特殊能力を確認できます。,",
+		"tr_text": ""
+	},
+	{
+		"assign": "window_help_LM44",
+		"jp_text": "wh_58_01,\nチップは、一括売却する<color=yellow>「レアリティ」</color>を設定します。\nカテゴリの<color=yellow>ロック</color>で、そのカテゴリのチップを<color=yellow>保護</color>できます。\n※FUNチップスクラッチの排出チップも一括売却の対象になります。,",
 		"tr_text": ""
 	},
 	{
@@ -23452,6 +23657,26 @@
 	{
 		"assign": "emergency_quest_trade_trigger_disable_dialog_message",
 		"jp_text": "トリガーが不足しています。\n\n交換に必要なトリガー\n　 ・超級トリガー：{0}個",
+		"tr_text": ""
+	},
+	{
+		"assign": "quest_counter_raid_current_new_rank",
+		"jp_text": "<color=#ffff00><%rank>ランク討伐達成</color>まで / ",
+		"tr_text": ""
+	},
+	{
+		"assign": "quest_counter_raid_current_new_rank_time",
+		"jp_text": "<%hh>:<%mm>:<%ss>",
+		"tr_text": ""
+	},
+	{
+		"assign": "quest_counter_raid_current_new_rank_b",
+		"jp_text": "<color=#ffff00>クエストクリアでBランク討伐</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_event_page_term",
+		"jp_text": "<%year>年<%month>月<%day>日(<%week>)<size=12>まで</size>",
 		"tr_text": ""
 	}
 ]
