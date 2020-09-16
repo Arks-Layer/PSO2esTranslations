@@ -619,7 +619,7 @@
 		"assign": "3210129",
 		"jp_text": "オーナー登録解除パス",
 		"tr_text": "Owner Cancel Pass",
-		"jp_explain": "オーナー登録の解除申請パス。\nアイテムラボにて、★１３以下の武器と\n★１２以下のユニットに使用可能。",
+		"jp_explain": "オーナー登録の解除申請パス。\nアイテムラボにて、★１４以下の武器と\n★１２以下のユニットに使用可能。 ",
 		"tr_explain": "Removes the account binding of up\nto ★13 weapons or up to ★12 units."
 	},
 	{
@@ -1507,7 +1507,7 @@
 	{
 		"assign": "3210291",
 		"jp_text": "特殊能力（ＨＰ＆ＰＰ/３）",
-		"tr_text": "Add Ability (HP&PP/3)",
+		"tr_text": "Add Ability (Stamina&PP/3)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ＨＰ＆ＰＰ/３】の特殊能力を追加する。",
 		"tr_explain": "Material used in Special Ability\nSynthesis. Grants \"Grace Stamina\"\nwhen used in Ability Synthesis."
 	},
@@ -2163,6 +2163,27 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Powering Intent\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210489",
+		"jp_text": "特殊能力（アストラルＳ）",
+		"tr_text": "Add Ability (Astral S)",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【アストラル・ソール】を追加。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"Astral Soul\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210490",
+		"jp_text": "特殊能力（エーテルＦ）",
+		"tr_text": "Add Ability (Ether F)",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【エーテル・ファクター】を追加。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"Ether Factor\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210491",
+		"jp_text": "特殊能力（マナレヴリー）",
+		"tr_text": "Add Ability (Mana Reverie)",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【マナ・レヴリー】を追加。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"Mana Reverie\"\nwhen used in Ability Synthesis."
+	},
+	{
 		"assign": "3210492",
 		"jp_text": "特殊能力（センテンスＰ）",
 		"tr_text": "Add Ability (Sentence P)",
@@ -2541,6 +2562,13 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Descried Warrior\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210577",
+		"jp_text": "Ｓ５追加：堅守の秤",
+		"tr_text": "S5 Add:Aegis Balance",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：堅守の秤を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Aegis Balance\"\nwhen used in Ability Synthesis."
+	},
+	{
 		"assign": "3210578",
 		"jp_text": "Ｓ４追加：追蝕の志",
 		"tr_text": "S4 Add:Pursuing Intent",
@@ -2553,6 +2581,20 @@
 		"tr_text": "S1 Add:Brilliant Intent 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：輝充の志２を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Brilliant Intent 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210592",
+		"jp_text": "Ｓ２追加：保天輝地２",
+		"tr_text": "S2 Add:Heavenly Keeper 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：保天輝地２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Heavenly Keeper 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210596",
+		"jp_text": "Ｓ１追加：強闘の志",
+		"tr_text": "S1 Add:Powering Intent",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：強闘の志を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Powering Intent\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210599",
@@ -2707,6 +2749,27 @@
 		"tr_text": "S4 Add R:Calming Intent",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：静心の志を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Calming Intent\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210679",
+		"jp_text": "Ｓ６追加Ｒ：癒蝕頑強",
+		"tr_text": "S6 Add R:Ironclad Illness",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：癒蝕頑強を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:Ironclad Illness\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210689",
+		"jp_text": "Ｓ７追加Ｒ：輝静の恵",
+		"tr_text": "S7 Add R:Glowing Grace",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：輝静の恵を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Glowing Grace\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210699",
+		"jp_text": "Ｓ８追加Ｒ：舞空の援",
+		"tr_text": "S8 Add R:Sky Dance's Boon",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ８：舞空の援を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S8:Sky Dance's Boon\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210709",

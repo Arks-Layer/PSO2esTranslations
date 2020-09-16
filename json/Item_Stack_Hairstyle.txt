@@ -324,7 +324,7 @@
 	{
 		"assign": "315049",
 		"jp_text": "ロング三つ編み",
-		"tr_text": "Long Braid",
+		"tr_text": "Long Braids",
 		"jp_explain": "チケットを使用すると、新しい髪型の\nロング三つ編みが選択可能。",
 		"tr_explain": "Unlocks the hairstyle\n\"Long Braid\"\nfor use in the Beauty Salon."
 	},
@@ -579,6 +579,76 @@
 		"tr_text": "Casual Hanging Twin",
 		"jp_explain": "チケットを使用すると、新しい髪型の\nカジュアルたれツインが選択可能。\n女性のみ使用可能。",
 		"tr_explain": "Unlocks the female-only hairstyle\n\"Casual Hanging Twin\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "315090",
+		"jp_text": "そよかぜロングヘアー",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nそよかぜロングヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "315092",
+		"jp_text": "Ｖ系逆毛ヘアー",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nＶ系逆毛ヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "315093",
+		"jp_text": "ラフアシメショート",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nラフアシメショートが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "315096",
+		"jp_text": "ツバサヘアー",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nツバサヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "315097",
+		"jp_text": "ふんわりセミロング",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nふんわりセミロングが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "315098",
+		"jp_text": "ショートパーマ",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nショートパーマが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "315099",
+		"jp_text": "トゲモヒカンヘアー",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nトゲモヒカンヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3150102",
+		"jp_text": "お団子風ヘアー",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nお団子風ヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3150105",
+		"jp_text": "細おさげヘアー",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\n細おさげヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3150106",
+		"jp_text": "深め段カットロング",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\n深め段カットロングが選択可能。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "3150107",
@@ -2697,9 +2767,9 @@
 	{
 		"assign": "3150442",
 		"jp_text": "シルバＲヘアー",
-		"tr_text": "Silvia R Hair",
+		"tr_text": "Silva R Hair",
 		"jp_explain": "チケットを使用すると、新しい髪型の\nシルバＲヘアーが選択可能。",
-		"tr_explain": "Unlocks the hairstyle\n\"Silvia R Hair\"\nfor use in the Beauty Salon."
+		"tr_explain": "Unlocks the hairstyle\n\"Silva R Hair\"\nfor use in the Beauty Salon."
 	},
 	{
 		"assign": "3150443",
@@ -5873,6 +5943,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "31501013",
+		"jp_text": "イデアツインループＧＶ",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nイデアツインループＧＶが選択可能。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "31501014",
 		"jp_text": "クレインヘアー１",
 		"tr_text": "Crane Hair 1",
@@ -5969,5 +6046,96 @@
 		"tr_text": "Hitsugi Ponytail 3",
 		"jp_explain": "チケットを使用すると、新しい髪型の\nヒツギポニーテール３が選択可能。",
 		"tr_explain": "Unlocks the hairstyle\n\"Hitsugi Ponytail 3\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "31501030",
+		"jp_text": "サードゥオヘアー",
+		"tr_text": "Saduo Hair",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nサードゥオヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "31501031",
+		"jp_text": "ソフィスヘアー",
+		"tr_text": "Sophis Hair",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nソフィスヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "31501032",
+		"jp_text": "ビクシュラリボンヘアー",
+		"tr_text": "Bixula Ribbon Hair",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nビクシュラリボンヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "31501033",
+		"jp_text": "ビクシュラヘアー",
+		"tr_text": "Bixula Hair",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nビクシュラヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "31501034",
+		"jp_text": "艶武巴ヘアー",
+		"tr_text": "Illustrious Hair",
+		"jp_explain": "チケットを使用すると、新しい髪型の\n艶武巴ヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "31501035",
+		"jp_text": "イグニスヘアー",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nイグニスヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "31501036",
+		"jp_text": "カザミノタチヘアー",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nカザミノタチヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "31501037",
+		"jp_text": "オプトレイオンヘアー",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nオプトレイオンヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "31501038",
+		"jp_text": "エルダーペインヘアー",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nエルダーペインヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "31501039",
+		"jp_text": "サイカ・ヒョウリヘアー",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\nサイカ・ヒョウリヘアーが選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "31501040",
+		"jp_text": "響裕太の髪型",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\n響裕太の髪型が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "31501041",
+		"jp_text": "宝多六花の髪型",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\n宝多六花の髪型が選択可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "31501042",
+		"jp_text": "新条アカネの髪型",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい髪型の\n新条アカネの髪型が選択可能。",
+		"tr_explain": ""
 	}
 ]
