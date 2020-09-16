@@ -4942,6 +4942,13 @@
 		"tr_explain": "Fragments of a broken chip.\nThey have a dazzling gold shine."
 	},
 	{
+		"assign": "330782",
+		"jp_text": "虹色のリボン２０２０",
+		"tr_text": "",
+		"jp_explain": "胸に付けるための虹色をしたリボン。\n専用交換ショップで景品と交換できる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "330798",
 		"jp_text": "時還石クロノス",
 		"tr_text": "Time Reversal Stone Chronos",
@@ -4996,6 +5003,20 @@
 		"tr_text": "Divine Eyestone Graeae",
 		"jp_explain": "終焉をもたらす大いなる闇を祓い\n宇宙の起源を見つめる不思議な石。\n光を纏う武器へと進化させる素材。",
 		"tr_explain": "A mysterious stone which glared\nat the origins of the universe.\nEvolves weapons that weave light."
+	},
+	{
+		"assign": "330810",
+		"jp_text": "シャイニーソウル",
+		"tr_text": "",
+		"jp_explain": "生成過程が不明な、眩い光を放つ結晶。\n別名「輝魂鉱石」と呼ばれている。\n依頼者：<c a1ff6d>Sighx<c>　再受注可能",
+		"tr_explain": ""
+	},
+	{
+		"assign": "330811",
+		"jp_text": "ウォータークリスタル",
+		"tr_text": "",
+		"jp_explain": "吸水性が高く柔らかい、青く輝く結晶。\n最高級の砥石として重宝されている。\n依頼者：<c a1ff6d>エクル<c>　再受注可能",
+		"tr_explain": ""
 	},
 	{
 		"assign": "330849",
@@ -5068,24 +5089,31 @@
 		"tr_explain": "Large data fragment generated from\nbattle analysis of Luminmechs. Used\nto create certain rare weapons."
 	},
 	{
+		"assign": "330859",
+		"jp_text": "モジュール／シバ",
+		"tr_text": "",
+		"jp_explain": "ＶＲ訓練で再現された\n終の女神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "330860",
 		"jp_text": "モジュール／ヴァルナ",
 		"tr_text": "Module/Varuna",
-		"jp_explain": "ディバイドクエストで再現された\n義の男神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
+		"jp_explain": "ＶＲ訓練で再現された\n義の男神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
 		"tr_explain": "Material obtained from battle with\nthe simulated God of Fidelity.\nRequired for certain rare weapons."
 	},
 	{
 		"assign": "330861",
 		"jp_text": "モジュール／ミトラ",
 		"tr_text": "Module/Mitra",
-		"jp_explain": "ディバイドクエストで再現された\n偽の女神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
+		"jp_explain": "ＶＲ訓練で再現された\n偽の女神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
 		"tr_explain": "Material obtained from battle with\nthe simulated Goddess of Imitation.\nRequired for certain rare weapons."
 	},
 	{
 		"assign": "330862",
 		"jp_text": "モジュール／エクゼクル",
 		"tr_text": "Module/Execour",
-		"jp_explain": "ディバイドクエストで再現された\n大型閃機種との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
+		"jp_explain": "ＶＲ訓練で再現された\n大型閃機種との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
 		"tr_explain": "Material obtained from battle with\nthe simulated giant Luminmech.\nRequired for certain rare weapons."
 	}
 ]
