@@ -3770,7 +3770,7 @@
 	{
 		"eventNo": "20",
 		"jp_name": "ブラスハウル",
-		"tr_name": "Brass Howl",
+		"tr_name": "Brass Haul",
 		"jp_text": "お前の相棒として、一緒に戦ってきたんだ。<%br>こういう時だけ仲間外れか？",
 		"tr_text": "",
 		"fileID": 4
@@ -4194,7 +4194,7 @@
 	{
 		"eventNo": "23",
 		"jp_name": "ノクスシャリオ",
-		"tr_name": "Nox Chariot",
+		"tr_name": "Nox Chario",
 		"jp_text": "美人が揃ってるなぁ。<%br>さすがはリーダー、俺も楽しませてもらうぜ。",
 		"tr_text": "",
 		"fileID": 4
@@ -7110,5 +7110,917 @@
 		"jp_text": "",
 		"tr_text": "",
 		"fileID": 7
+	},
+	{
+		"eventNo": "0",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "妙に、ジェネたちが浮かれているな。<%br>なにかあったのか？　６周年とか言っているが……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "1",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "へへー！　お姉ちゃんは知らないでしょ。<%br>実はね……このＰＳＯ２ｅｓは、今年で６周年なの！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "2",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "ほぅ……それで、なにが６周年なのだ？",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "3",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "え、え……えぇと……<%br>うわーん、助けて、ジェネさーん！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "4",
+		"jp_name": "ジェネ",
+		"tr_name": "Gene",
+		"jp_text": "もぅ、しかたがないですねぇ、アフタルさんは。<%br>６周年っていうのはですねぇ……あれ？",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "5",
+		"jp_name": "ジェネ",
+		"tr_name": "Gene",
+		"jp_text": "もぅ、しかたがないですねぇ、アフタルさんは。<%br>６周年っていうのはですねぇ……あれ？",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "6",
+		"jp_name": "ブルーノ",
+		"tr_name": "Bruno",
+		"jp_text": "説明しよう！　６周年っていうのはね……<%br>俺たちの冒険が始まってから、６年が経つってことで……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "7",
+		"jp_name": "モア",
+		"tr_name": "More",
+		"jp_text": "オレたちがリーダーと出会ってから……<%br>もう６年になるってことさ！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "8",
+		"jp_name": "セラフィ",
+		"tr_name": "Seraphy",
+		"jp_text": "６周年はお祝いだけじゃありませんよ。<%br>６周年は区切りの年！　気を引き締めていきましょう！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "9",
+		"jp_name": "アネット",
+		"tr_name": "Annette",
+		"jp_text": "確かに……そうね。<%br>初心に戻った気持ちでこれからもがんばらないと。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "10",
+		"jp_name": "セラフィ",
+		"tr_name": "Seraphy",
+		"jp_text": "さすがは、アネットさん。<%br>いいこと言いますね！　初心に戻る……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "11",
+		"jp_name": "",
+		"tr_name": "",
+		"jp_text": "",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "12",
+		"jp_name": "セラフィ",
+		"tr_name": "Seraphy",
+		"jp_text": "つまり、こういうことですね！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "13",
+		"jp_name": "アネット",
+		"tr_name": "Annette",
+		"jp_text": "せ、セラフィさん……<%br>そ……そういうことでは……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "14",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "す……すごいよ、セラフィさん！！<%br>どうやるの！　わたしもやってみたい！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "15",
+		"jp_name": "セラフィ",
+		"tr_name": "Seraphy",
+		"jp_text": "簡単ですよ。おなかの下のほうに<%br>ぐっと力を込めて……静かな怒りに身を任せて……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "16",
+		"jp_name": "ブルーノ",
+		"tr_name": "Bruno",
+		"jp_text": "無理無理！　俺たちには無理だって！<%br>アフタルちゃんも本気にしないの！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "17",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "なるほど……６周年というのは<%br>かくし芸大会のようなものなのだな。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "18",
+		"jp_name": "アネット",
+		"tr_name": "Annette",
+		"jp_text": "こんなことができるのは、セラフィさんぐらいの……<%br>って、６周年のお祝いはどうなったの？",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "19",
+		"jp_name": "ジェネ",
+		"tr_name": "Gene",
+		"jp_text": "そ、そうですよ！　６周年なんですから……<%br>今年もみんなでパーティーをしませんか？",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "20",
+		"jp_name": "ジェネ",
+		"tr_name": "Gene",
+		"jp_text": "そ、そうですよ！　６周年なんですから……<%br>今年もみんなでパーティーをしませんか？",
+		"tr_text": "",
+		"jp_buttons": [
+			"パーティー？　なんかイヤな予感が……",
+			"いいね！　みんなでやろう！！"
+		],
+		"tr_buttons": [
+			"",
+			""
+		],
+		"fileID": 8
+	},
+	{
+		"eventNo": "21",
+		"jp_name": "アネット",
+		"tr_name": "Annette",
+		"jp_text": "……？　リーダー、どうしたの？<%br>なんか、微妙な顔をしているけど……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "22",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "そうだよ！　パーティーだよ！！　楽しみだね！<%br>お姉ちゃん！　わたしたちもなにかかくし芸しよう！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "23",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "うむ……そうだな。<%br>だが、その前に……初心忘るべからず。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "24",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "アークスの本分は、惑星の探索。<%br>リーダー、最近の平和で腕はなまっていないか？",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "25",
+		"jp_name": "",
+		"tr_name": "",
+		"jp_text": "",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "26",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "貴様の初心……<%br>私とアフタルとで確かめさせてもらうぞ。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "27",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "え？　わたしも！？",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "28",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "当たり前だ。生身の体を手に入れて……<%br>不摂生が続いていただろう。体重……最近、計ったか？",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "29",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "はぎゃっ！　ど、どうして、そのことを……<%br>うう……お姉ちゃん、直球すぎるよ……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "30",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "しょうがないなぁ……ダークニクスボディ、カモン！<%br>チェーンジ……バトルスタイル！！　スイッチオン！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "31",
+		"jp_name": "",
+		"tr_name": "",
+		"jp_text": "",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "32",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "生身で運動しないと……<%br>ダイエットにはならないと思うんだけどなぁ……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "33",
+		"jp_name": "ブルーノ",
+		"tr_name": "Bruno",
+		"jp_text": "ちっちっちっ……ホルシードたちも強いと思うけど……<%br>この宇宙じゃ……２番目だ。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "34",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "ほぅ……だったら、１番は？",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "35",
+		"jp_name": "モア",
+		"tr_name": "More",
+		"jp_text": "俺たちのリーダーに決まってるだろ！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "36",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "ならば……こちらも本気を出させてもらおう！<%br>ハァァァァッ！！　目覚めの時、歩み行け……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "37",
+		"jp_name": "",
+		"tr_name": "",
+		"jp_text": "",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "38",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "アフタル……お前も変身しろ！<%br>全力で行くぞ！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "39",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "お姉ちゃんは言い出したら、聞かないんだから。<%br>仕方ないなぁ……　眠れ、さぁ穏やかに……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "40",
+		"jp_name": "",
+		"tr_name": "",
+		"jp_text": "",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "41",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "ごめんね、リーダー。<%br>こうなった以上……本気で行くからね！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "42",
+		"jp_name": "ジェネ",
+		"tr_name": "Gene",
+		"jp_text": "わたし達はパーティーの準備をしていますから<%br>はやく切り上げて、帰ってきてくださいねー。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "43",
+		"jp_name": "アフタル&ホルシード",
+		"tr_name": "Akhtar & Khorshid",
+		"jp_text": "いざ！　尋常に勝負！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "0",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "リーダーの初心の覚悟……見せてもらった。<%br>その動きに迷いはないようだな。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "1",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "もう……お姉ちゃんったら。<%br>あ……なんか本が落ちたよ。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "2",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "……ん？　「今日から始めるダイエット」？",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "3",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "もしかして……お姉ちゃんも……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "4",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "ち、ちが……！！<%br>そ……それは……お前のた、ために……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "5",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "しょーがないよねー。<%br>アークスシップのごはん、おいしいもんねー。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "6",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "カーネベデでも、やっと食料の自給が<%br>できるようになってきたしねー。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "7",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "そりゃ、いっぱい食べちゃうよねー。<%br>ダイエットもしなきゃだよねー。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "8",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "くっ……こ、殺せ……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "9",
+		"jp_name": "ブルーノ",
+		"tr_name": "Bruno",
+		"jp_text": "はいはい、そこまでそこまで。<%br>ホルシードも運動するなら、生身じゃなきゃ。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "10",
+		"jp_name": "ジェネ",
+		"tr_name": "Gene",
+		"jp_text": "パーティーの準備ができましたから<%br>リーダーもホルシードさんも、こっちに来てくださいー！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "11",
+		"jp_name": "ジェネ",
+		"tr_name": "Gene",
+		"jp_text": "ごちそう、たくさん用意しましたから<%br>ホルシードさんもアフタルさんも生身に戻ってくださいね。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "12",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "ほらほら、行くよ、お姉ちゃん！<%br>ごちそういっぱいだって！　楽しみだね！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "13",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "くっ……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "14",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "はぁぁぁ……こ、これは……<%br>こんなにもケーキが……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "15",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "ほらほら！　お姉ちゃんの好きなドーナツもあるよ！<%br>から揚げも！　うわっ！！　ハンバーグまで！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "16",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "ここは……楽園か。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "17",
+		"jp_name": "デュナ",
+		"tr_name": "Duna",
+		"jp_text": "ほるしどー！　あふたー！　こっちこっちー！<%br>もう、ごちそうたべてるよーっ！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "18",
+		"jp_name": "アナティス",
+		"tr_name": "Anatis",
+		"jp_text": "ふふ……お先に楽しませてもらってます。<%br>ほら、デュナ、お口からアイスがこぼれてるわよ。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "19",
+		"jp_name": "レヴィ",
+		"tr_name": "Levi",
+		"jp_text": "あーん！　このクッキーおいしい！！<%br>なんか船の絵が描いてあるし！　ほら！　デュナも！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "20",
+		"jp_name": "フェル",
+		"tr_name": "Fel",
+		"jp_text": "お子様がふたり……レヴィ、お菓子はいっぱいあるから<%br>持って帰ろうとしないで。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "21",
+		"jp_name": "ダンテ",
+		"tr_name": "Dante",
+		"jp_text": "いやいや、緊急任務だって呼ばれて来てみたら……<%br>ホントにキミ達はパーティーが好きだよね。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "22",
+		"jp_name": "モア",
+		"tr_name": "More",
+		"jp_text": "へへーん！　いいだろ！<%br>オレが呼んでやったんだから、感謝しろよな！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "23",
+		"jp_name": "ダンテ",
+		"tr_name": "Dante",
+		"jp_text": "はいはい、ありがとうございます。こうやって<%br>シップに来られるの……リーダーのおかげだよね。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "24",
+		"jp_name": "カラミティ",
+		"tr_name": "Calamity",
+		"jp_text": "んっんーっ！　ようやく君たちも<%br>リーダーの偉大さに気づいたようだな！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "25",
+		"jp_name": "シュトラ",
+		"tr_name": "Stra",
+		"jp_text": "オレ達のリーダーだからな。<%br>リーダーのおかげで、オレ達は戦えてるんだ。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "26",
+		"jp_name": "イグニス",
+		"tr_name": "Ignis",
+		"jp_text": "……そうだな。<%br>リーダーといると、落ち着いて戦える。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "27",
+		"jp_name": "エルダーペイン",
+		"tr_name": "Elder Pain",
+		"jp_text": "我らがここにいられるのも……<%br>すべてはリーダーが認めてくれたからだ。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "28",
+		"jp_name": "グランディア",
+		"tr_name": "Grandia",
+		"jp_text": "６年……長いようで短かった。<%br>たくさんの思い出が、ここにある……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "29",
+		"jp_name": "禍杖ノチウハウ",
+		"tr_name": "Evil Nochiuhau",
+		"jp_text": "そうだね。戦友……いや、親友たちに<%br>出会えたのもいい思い出だ……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "30",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "へぇ、亀の甲より、年の功って……<%br>はぎゃっ！！　おばあちゃん……痛いよぉ！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "31",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "へぇ、亀の甲より、年の功って……<%br>はぎゃっ！！　おばあちゃん……痛いよぉ！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "32",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "言わんこっちゃない……<%br>アフタルはもう少し、礼節を覚えんとな。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "33",
+		"jp_name": "バレットクナイ",
+		"tr_name": "Bullet Kunai",
+		"jp_text": "フフ……ライバルだったとしても<%br>ともに戦ううちに、わかりあえる仲間になる……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "34",
+		"jp_name": "オプトレイオン",
+		"tr_name": "Optreion",
+		"jp_text": "それがアークス！　ボクたちのリーダー！<%br>リーダーがいるから、がんばれるんだ！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "35",
+		"jp_name": "カザミノタチ",
+		"tr_name": "Kazami-no-tachi",
+		"jp_text": "今までも、そして……これからも！<%br>リーダーが、みんながいる限り、がんばれます！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "36",
+		"jp_name": "サイカ・ヒョウリ",
+		"tr_name": "Saika Hyouri",
+		"jp_text": "そうだ……な。今ならわかる……<%br>俺たちはリーダーに会うために生まれてきたと。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "37",
+		"jp_name": "シェルオプス",
+		"tr_name": "Shell Opus",
+		"jp_text": "リーダー、わたしたちに出会ってくれて……<%br>本当にありがとう……本当にうれしい。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "38",
+		"jp_name": "ナスリーン",
+		"tr_name": "Nasreen",
+		"jp_text": "お待たせしました！<%br>まだ……パーティーは続いてますよね。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "39",
+		"jp_name": "スレイマン",
+		"tr_name": "Suleiman",
+		"jp_text": "いやぁ、すみません。<%br>ちょっと研究がガタついていまして……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "40",
+		"jp_name": "ブルーノ",
+		"tr_name": "Bruno",
+		"jp_text": "あれ？　ファルザードの旦那はどうしたの？<%br>招待しといたんだけど……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "41",
+		"jp_name": "ナスリーン",
+		"tr_name": "Nasreen",
+		"jp_text": "ファルザード様は……やはりやるべきことを<%br>すべて終わらせてからにしたい……と。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "42",
+		"jp_name": "ブルーノ",
+		"tr_name": "Bruno",
+		"jp_text": "かーっ！　マジメだねぇ、あの男は。<%br>ナスリーンも大変だろ？",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "43",
+		"jp_name": "ナスリーン",
+		"tr_name": "Nasreen",
+		"jp_text": "いえ、私はあの方の力になれるだけで……",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "44",
+		"jp_name": "スレイマン",
+		"tr_name": "Suleiman",
+		"jp_text": "いやいや、ファルザードさんとの研究のおかげで<%br>ボクのタイプＳも格段の進歩を遂げました！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "45",
+		"jp_name": "アネット",
+		"tr_name": "Annette",
+		"jp_text": "順調なようね。<%br>今も、カーネベデと行き来してるの？",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "46",
+		"jp_name": "スレイマン",
+		"tr_name": "Suleiman",
+		"jp_text": "ええ、ナスリーンさんも協力してくれてますから。<%br>毎日、研究に大忙しですよ！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "47",
+		"jp_name": "ナスリーン",
+		"tr_name": "Nasreen",
+		"jp_text": "もう一度、このアークスの恰好をするとは……<%br>思いもよりませんでしたが。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "48",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "エルジマルトの今があるのは……リーダーのおかげだ。<%br>改めて言わせてくれ。本当にありがとう。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "49",
+		"jp_name": "ダンテ",
+		"tr_name": "Dante",
+		"jp_text": "それを言うなら、トランスエネミーの<%br>未来を作ってくれたのもリーダーだよ。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "50",
+		"jp_name": "デュナ",
+		"tr_name": "Duna",
+		"jp_text": "りだ！　ありあとーございました！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "51",
+		"jp_name": "モア",
+		"tr_name": "More",
+		"jp_text": "そういえば……オレたち<%br>リーダーにちゃんとお礼って言ってなかったな！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "52",
+		"jp_name": "アネット",
+		"tr_name": "Annette",
+		"jp_text": "リーダー、ありがとう。<%br>今の私たちがいるのは、貴方のおかげよ。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "53",
+		"jp_name": "ブルーノ",
+		"tr_name": "Bruno",
+		"jp_text": "こんな時じゃないと、恥ずかしくて言えないし……<%br>サンキュな、リーダー！　尊敬してるよ。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "54",
+		"jp_name": "モア",
+		"tr_name": "More",
+		"jp_text": "ありがとな、リーダー！<%br>オレ、いつかリーダーみたいなアークスになるよ！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "55",
+		"jp_name": "ジェネ",
+		"tr_name": "Gene",
+		"jp_text": "リーダー……わたし達に出会ってくれて……<%br>本当にありがとうございます。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "56",
+		"jp_name": "ジェネ",
+		"tr_name": "Gene",
+		"jp_text": "これからもずっと……<%br>リーダーと一緒に冒険させてくれますか？",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "57",
+		"jp_name": "ジェネ",
+		"tr_name": "Gene",
+		"jp_text": "これからもずっと……<%br>リーダーと一緒に冒険させてくれますか？",
+		"tr_text": "",
+		"jp_buttons": [
+			"もちろんだよ！",
+			"みんな……これからもよろしく！"
+		],
+		"tr_buttons": [
+			"",
+			""
+		],
+		"fileID": 8
+	},
+	{
+		"eventNo": "58",
+		"jp_name": "ジェネ",
+		"tr_name": "Gene",
+		"jp_text": "……リーダー！<%br>ありがとうございます！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "59",
+		"jp_name": "ジェネ",
+		"tr_name": "Gene",
+		"jp_text": "……リーダー！<%br>ありがとうございます！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "60",
+		"jp_name": "ホルシード",
+		"tr_name": "Khorshid",
+		"jp_text": "リーダーがいるからこそ<%br>素晴らしい仲間たちが集まってくるのだな。",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "61",
+		"jp_name": "アフタル",
+		"tr_name": "Akhtar",
+		"jp_text": "わたし、リーダーと一緒に冒険できて<%br>本当によかった！　ありがとう！　大好きっ！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "62",
+		"jp_name": "セラフィ",
+		"tr_name": "Seraphy",
+		"jp_text": "それでは……６周年を記念して<%br>みんなで写真を撮りませんか！？",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "63",
+		"jp_name": "モア",
+		"tr_name": "More",
+		"jp_text": "そうだな！<%br>じゃあ、みんなこっちに集まってくれよ！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "64",
+		"jp_name": "モア",
+		"tr_name": "More",
+		"jp_text": "準備はいいか！<%br>それじゃ……チーズ！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "65",
+		"jp_name": "",
+		"tr_name": "",
+		"jp_text": "",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "66",
+		"jp_name": "ジェネ＆仲間たち",
+		"tr_name": "Gene & Friends",
+		"jp_text": "リーダー！　６周年、ありがとうございます！！<%br>これからもＰＳＯ２ｅｓをよろしくお願いしますっ！！",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "67",
+		"jp_name": "",
+		"tr_name": "",
+		"jp_text": "",
+		"tr_text": "",
+		"fileID": 8
 	}
 ]

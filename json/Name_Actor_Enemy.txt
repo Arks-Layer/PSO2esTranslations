@@ -2955,6 +2955,16 @@
 		"tr_text": "Villiga Zigninde"
 	},
 	{
+		"assign": "CY3Des",
+		"jp_text": "グラーブエクゼクル",
+		"tr_text": "Grav Execour"
+	},
+	{
+		"assign": "CY3DesG",
+		"jp_text": "ギルディナエクゼクル",
+		"tr_text": "Gildina Execour"
+	},
+	{
 		"assign": "D2DMag",
 		"jp_text": "エボリオン・ドラゴン",
 		"tr_text": "Evolion Dragon"
@@ -2968,6 +2978,11 @@
 		"assign": "P4Tra",
 		"jp_text": "リーゼス・ギドール",
 		"tr_text": "Lizeth Ghidour"
+	},
+	{
+		"assign": "BKB",
+		"jp_text": "グンネカヅチ",
+		"tr_text": "Gunne Kazuchi"
 	},
 	{
 		"assign": "AAADebugEnemyMoveUpdown",
@@ -3305,6 +3320,11 @@
 		"tr_text": "Falzad"
 	},
 	{
+		"assign": "BirdCentaurST1",
+		"jp_text": "ファルザード",
+		"tr_text": "Falzad"
+	},
+	{
 		"assign": "BirdCrestW0",
 		"jp_text": "DWドリュアーダ",
 		"tr_text": "DW Doluahda"
@@ -3463,6 +3483,36 @@
 		"assign": "MachineLittleBossSP1",
 		"jp_text": "ヴァーダーソーマ＋",
 		"tr_text": "Vardha Soma+"
+	},
+	{
+		"assign": "UltHologramRobotSP1",
+		"jp_text": "シノワラピドゥス＋",
+		"tr_text": "Sinow Rapidus+"
+	},
+	{
+		"assign": "UltMachineWolfSP1",
+		"jp_text": "カイザーバルガー＋",
+		"tr_text": "Kaiser Vargr+"
+	},
+	{
+		"assign": "UltMachineCCanonSP1",
+		"jp_text": "ブレードディンゲール＋",
+		"tr_text": "Blade Dingell+"
+	},
+	{
+		"assign": "UltMachineLittleBossSP1",
+		"jp_text": "ゼータ・グランゾ＋",
+		"tr_text": "Zeta Guranz+"
+	},
+	{
+		"assign": "UltMechaPanthBladeSP1",
+		"jp_text": "ファルケ・レオーネ＋",
+		"tr_text": "Falke Leone+"
+	},
+	{
+		"assign": "UltMechaPanthBusterSP1",
+		"jp_text": "ヴリマ・レオパード+",
+		"tr_text": "Vlima Leopard+"
 	},
 	{
 		"assign": "DragonRizardmanASP1",
@@ -3680,6 +3730,11 @@
 		"tr_text": "Akhtar"
 	},
 	{
+		"assign": "DpAbyssHumanST1",
+		"jp_text": "アフタル",
+		"tr_text": "Akhtar"
+	},
+	{
 		"assign": "VehicleEnemyST0",
 		"jp_text": "Ａ．Ｉ．ＳタイプＳ",
 		"tr_text": "A.I.S. Type-S"
@@ -3688,6 +3743,16 @@
 		"assign": "VehicleEnemyST1",
 		"jp_text": "Ａ．Ｉ．ＳタイプＳβ",
 		"tr_text": "A.I.S. Type-S β"
+	},
+	{
+		"assign": "DpFishElderST0",
+		"jp_text": "ダークファルス・ハダージェ",
+		"tr_text": "Dark Falz Haddaj"
+	},
+	{
+		"assign": "DpFishElderST1",
+		"jp_text": "ダークファルス・ハダージェ",
+		"tr_text": "Dark Falz Haddaj"
 	},
 	{
 		"assign": "PantherBRareQU0",
@@ -4730,6 +4795,11 @@
 		"tr_text": "Falzad EX"
 	},
 	{
+		"assign": "BirdCentaurST1Ex",
+		"jp_text": "ファルザードＥｘ",
+		"tr_text": "Falzad EX"
+	},
+	{
 		"assign": "BirdCrestEx",
 		"jp_text": "ドリュアーダＥｘ",
 		"tr_text": "Doluahda EX"
@@ -5175,6 +5245,11 @@
 		"tr_text": "Akhtar EX"
 	},
 	{
+		"assign": "DpAbyssHumanST1Ex",
+		"jp_text": "アフタルＥｘ",
+		"tr_text": "Akhtar EX"
+	},
+	{
 		"assign": "VehicleEnemyST0Ex",
 		"jp_text": "Ａ．Ｉ．ＳタイプＳαＥｘ",
 		"tr_text": "A.I.S. Type-S α EX"
@@ -5183,6 +5258,16 @@
 		"assign": "VehicleEnemyST1Ex",
 		"jp_text": "Ａ．Ｉ．ＳタイプＳβＥｘ",
 		"tr_text": "A.I.S. Type-S β EX"
+	},
+	{
+		"assign": "DpFishElderST0Ex",
+		"jp_text": "ダークファルス・ハダージェＥｘ",
+		"tr_text": "Dark Falz Haddaj EX"
+	},
+	{
+		"assign": "DpFishElderST1Ex",
+		"jp_text": "ダークファルス・ハダージェＥｘ",
+		"tr_text": "Dark Falz Haddaj EX"
 	},
 	{
 		"assign": "PantherBRareQU0Ex",

@@ -340,6 +340,11 @@
 		"tr_text": "Purchased {0}."
 	},
 	{
+		"assign": "acshop_dialog_b_18_bonus",
+		"jp_text": "おまけのアイテムは、受け取りボックスへ送られます。",
+		"tr_text": "Bonus items will be sent to your Reception Box."
+	},
+	{
 		"assign": "acshop_dialog_t_19",
 		"jp_text": "<%AC>チャージ",
 		"tr_text": "<%AC> Charge"
@@ -761,8 +766,8 @@
 	},
 	{
 		"assign": "mshop_dialog_b_00",
-		"jp_text": "チップを{0}メセタで売却します。\nよろしいですか？",
-		"tr_text": "You will receive {0} Meseta for selling the\nselected chip(s). Continue?"
+		"jp_text": "チップを<color=yellow>{0}</color>メセタで売却します。\nよろしいですか？",
+		"tr_text": "You will receive <color=yellow>{0}</color> Meseta for selling the\nselected chip(s). Continue?"
 	},
 	{
 		"assign": "mshop_dialog_b_00_rare",
@@ -786,8 +791,8 @@
 	},
 	{
 		"assign": "mshop_dialog_b_02",
-		"jp_text": "アイテムを{0}メセタで売却します。\nよろしいですか？",
-		"tr_text": "You will receive {0} Meseta for selling the\nselected item(s). Continue?"
+		"jp_text": "アイテムを<color=yellow>{0}</color>メセタで売却します。\nよろしいですか？",
+		"tr_text": "You will receive <color=yellow>{0}</color> Meseta for selling the\nselected item(s). Continue?"
 	},
 	{
 		"assign": "mshop_dialog_b_02_rare",
@@ -5117,17 +5122,17 @@
 	{
 		"assign": "myshop_sales_tab_3",
 		"jp_text": "回収状況",
-		"tr_text": "Collections"
+		"tr_text": "Payment"
 	},
 	{
 		"assign": "myshop_sales_collect_true",
 		"jp_text": "回収済み",
-		"tr_text": "Collected"
+		"tr_text": "Claimed"
 	},
 	{
 		"assign": "myshop_sales_collect_false",
 		"jp_text": "<color=#f0df60>未回収</color>",
-		"tr_text": "<color=#f0df60>Unpaid</color>"
+		"tr_text": "<color=#f0df60>Unclaimed</color>"
 	},
 	{
 		"assign": "myshop_sales_label",
@@ -6536,8 +6541,8 @@
 	},
 	{
 		"assign": "scratch_dialog_b_13",
-		"jp_text": "スクラッチチケット{0}枚で\n{1}を{2}回引きます。\nよろしいですか？\n現在の所持スクラッチチケット：{3}枚\n",
-		"tr_text": "Using {0} tickets to draw\n{1} {2} times.\nAre you sure?\nScratch tickets owned: {3}\n"
+		"jp_text": "esスクラッチコイン{0}枚で\n{1}を{2}回引きます。\nよろしいですか？\n現在の所持esスクラッチコイン：{3}枚\n",
+		"tr_text": "Using {0} es Scratch Coins to draw\n{1} {2} times.\nAre you sure?\nScratch tickets owned: {3}\n"
 	},
 	{
 		"assign": "scratch_button_rappy11",
@@ -6561,8 +6566,8 @@
 	},
 	{
 		"assign": "scratch_bonus_menu_complete",
-		"jp_text": "この回数ボーナスは獲得済みです。",
-		"tr_text": "Scratch Complete."
+		"jp_text": "すべてのボーナスを獲得済みです。",
+		"tr_text": "All bonuses have been earned."
 	},
 	{
 		"assign": "scratch_bonus_menu_ac",
@@ -6616,8 +6621,8 @@
 	},
 	{
 		"assign": "window_help_LM31",
-		"jp_text": "スクラッチチケットは、特定のスクラッチを引くことができるチケットです。\n<color=yellow>特定のスクラッチ以外は引けません</color>ので、引き忘れにご注意ください。\nスクラッチチケットとラッピーメダルでは、チケットから先に使用されます。",
-		"tr_text": "Scratch tickets are tickets that can be\nused to draw from a specific scratch.\n<color=yellow>They can only be used on specific scratches,</color>\nso be careful when drawing.\nWhen you have both scratch tickets and Rappy\nMedals, scratch tickets will be used first."
+		"jp_text": "esスクラッチコインは、特定のスクラッチを引くことができるチケットです。\n<color=yellow>特定のスクラッチ以外は引けません</color>ので、引き忘れにご注意ください。\nesスクラッチコインとラッピーメダルでは、チケットから先に使用されます。",
+		"tr_text": "es Scratch Coins are tickets that can be\nused to draw from a specific scratch.\n<color=yellow>They can only be used on specific scratches,</color>\nso be careful when drawing.\nIf you have both es Scratch Coins and Rappy\nMedals, es Scratch Coins will be used first."
 	},
 	{
 		"assign": "quest_load",
@@ -9855,6 +9860,21 @@
 		"tr_text": "Rappy Medals"
 	},
 	{
+		"assign": "menu_charainfo_label_confirm_ticket_11",
+		"jp_text": "★11キャラ・ウェポノイドスクラッチ券",
+		"tr_text": "★11 Character/Weaponoid Ticket"
+	},
+	{
+		"assign": "menu_charainfo_label_confirm_ticket_12",
+		"jp_text": "★12キャラ・ウェポノイドスクラッチ券",
+		"tr_text": "★12 Character/Weaponoid Ticket"
+	},
+	{
+		"assign": "menu_charainfo_label_confirm_ticket_13",
+		"jp_text": "★13キャラ・ウェポノイドスクラッチ券",
+		"tr_text": "★13 Character/Weaponoid Ticket"
+	},
+	{
 		"assign": "menu_charainfo_label_oprecovery",
 		"jp_text": "OP回復薬",
 		"tr_text": "OP Recovery Meds"
@@ -9973,6 +9993,11 @@
 		"assign": "menu_main_button_recycle",
 		"jp_text": "交換ショップ",
 		"tr_text": "Exchange Shop"
+	},
+	{
+		"assign": "menu_main_formation_info",
+		"jp_text": "※「売却」「交換ショップ」は、MENUの「ショップ」へ移動しました。",
+		"tr_text": "※\"Sell\" and \"Exchange Shop\" have been\nmoved to the Shop tab."
 	},
 	{
 		"assign": "menu_main_button_ac_shop",
@@ -10108,6 +10133,11 @@
 		"assign": "menu_sub_button_sale_item",
 		"jp_text": "アイテム売却",
 		"tr_text": "Sell Items"
+	},
+	{
+		"assign": "menu_sub_button_sale_auto",
+		"jp_text": "受取一括売却設定",
+		"tr_text": "Bulk Sale Settings"
 	},
 	{
 		"assign": "menu_sub_button_system_site",
@@ -11200,6 +11230,46 @@
 		"tr_text": "First"
 	},
 	{
+		"assign": "confirm_scratch_title",
+		"jp_text": "スクラッチ券選択",
+		"tr_text": "Scratch Ticket Selection"
+	},
+	{
+		"assign": "confirm_scratch_ticket_name_11",
+		"jp_text": "★11キャラ・ウェポノイドスクラッチ券",
+		"tr_text": "★11 Character/Weaponoid Ticket"
+	},
+	{
+		"assign": "confirm_scratch_ticket_name_12",
+		"jp_text": "★12キャラ・ウェポノイドスクラッチ券",
+		"tr_text": "★12 Character/Weaponoid Ticket"
+	},
+	{
+		"assign": "confirm_scratch_ticket_name_13",
+		"jp_text": "★13キャラ・ウェポノイドスクラッチ券",
+		"tr_text": "★13 Character/Weaponoid Ticket"
+	},
+	{
+		"assign": "confirm_scratch_num_title",
+		"jp_text": "所持数：",
+		"tr_text": "Owned: "
+	},
+	{
+		"assign": "confirm_scratch_num_text",
+		"jp_text": "{0}枚",
+		"tr_text": "{0}"
+	},
+	{
+		"assign": "confirm_scratch_button",
+		"jp_text": "使用する",
+		"tr_text": "Use"
+	},
+	{
+		"assign": "confirm_scratch_close",
+		"jp_text": "閉じる",
+		"tr_text": "Close"
+	},
+	{
 		"assign": "ac_window_title",
 		"jp_text": "購入AC額選択",
 		"tr_text": "AC Selection"
@@ -11228,6 +11298,21 @@
 		"assign": "ac_price",
 		"jp_text": "{0}円",
 		"tr_text": "{0} yen"
+	},
+	{
+		"assign": "ac_purchased",
+		"jp_text": "購入済",
+		"tr_text": "Purchased"
+	},
+	{
+		"assign": "ac_limited",
+		"jp_text": "{0} メンテまで",
+		"tr_text": "{0} until maint."
+	},
+	{
+		"assign": "ac_detail_button_text",
+		"jp_text": "ボーナス詳細",
+		"tr_text": "Bonus Details"
 	},
 	{
 		"assign": "return",
@@ -15411,8 +15496,8 @@
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-6",
-		"jp_text": "オペレーションスコア [{0} / {1}]",
-		"tr_text": " Operations Score [{0}/{1}]"
+		"jp_text": "オペレーションスコア [{0:#,0} / {1:#,0}]",
+		"tr_text": " Operations Score [{0:#,0}/{1:#,0}]"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-8",
@@ -15463,6 +15548,11 @@
 		"assign": "RaidEvent_Achievement_Text_1-1-0",
 		"jp_text": "デイリー実績を{1}個達成 [{0} / {1}]",
 		"tr_text": " Clear {1} Daily Achievements [{0}/{1}]"
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_1-1-1",
+		"jp_text": "合計{1}回発見討伐 [{0} / {1}]",
+		"tr_text": "Defeat {1} enemies [{0}/{1}]"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-2",
@@ -16982,12 +17072,12 @@
 	{
 		"assign": "SideSt_Select_Area_Title",
 		"jp_text": "外伝クエストエリア選択",
-		"tr_text": "Gaiden Area Select"
+		"tr_text": "Gaiden Areas"
 	},
 	{
 		"assign": "SideSt_Select_Quest_Title",
 		"jp_text": "外伝クエスト選択",
-		"tr_text": "Gaiden Quest Select"
+		"tr_text": "Gaiden Quests"
 	},
 	{
 		"assign": "SideSt_Select_No_Quest",
@@ -17012,7 +17102,7 @@
 	{
 		"assign": "SideSt_Weaponoid_Window_Title",
 		"jp_text": "外伝チップ一覧",
-		"tr_text": ""
+		"tr_text": "Gaiden Chip List"
 	},
 	{
 		"assign": "SideSt_Weaponoid_Sort_Normal",
@@ -17232,22 +17322,22 @@
 	{
 		"assign": "sidestory_voice_playbtn_word1",
 		"jp_text": "セリフ１",
-		"tr_text": ""
+		"tr_text": "Line 1"
 	},
 	{
 		"assign": "sidestory_voice_playbtn_word2",
 		"jp_text": "セリフ２",
-		"tr_text": ""
+		"tr_text": "Line 2"
 	},
 	{
 		"assign": "sidestory_voice_playbtn_word3",
 		"jp_text": "セリフ３",
-		"tr_text": ""
+		"tr_text": "Line 3"
 	},
 	{
 		"assign": "sidestory_voice_playbtn_word4",
 		"jp_text": "セリフ４",
-		"tr_text": ""
+		"tr_text": "Line 4"
 	},
 	{
 		"assign": "sidestory_story_replay_unknownsotry",
@@ -17362,17 +17452,17 @@
 	{
 		"assign": "sidestory_guide_message_01",
 		"jp_text": "<color=#f0df60>キャラクターの外伝クエストに出発できます。クエストは、外伝のあるキャラクターのチップを装備してクエストをプレイすることで解放されます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>From here, you can start a Gaiden Quest for this character. Gaiden Quests are unlocked by clearing quests while equipped with the character's chip.</color>"
 	},
 	{
 		"assign": "sidestory_guide_message_02",
 		"jp_text": "<color=#f0df60>外伝が配信されているキャラクターの一覧です。入手済みの外伝チップは明るく表示されます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>This is a list of all characters with available Gaidens. Chips you have obtained will be shown lit up.</color>"
 	},
 	{
 		"assign": "sidestory_guide_message_03",
 		"jp_text": "<color=#f0df60>キャラクターのさまざまな情報を確認することができます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Here, you can check various things relating to the character.</color>"
 	},
 	{
 		"assign": "weaponoid_boost_info_commingsoon",
@@ -17628,6 +17718,11 @@
 		"assign": "lookback_special_chapter_7",
 		"jp_text": "初詣ヒットパレード！！",
 		"tr_text": "New Year Hit Parade!!"
+	},
+	{
+		"assign": "lookback_special_chapter_8",
+		"jp_text": "６周年オールスター感謝祭り",
+		"tr_text": "6th Anniversary All-Star"
 	},
 	{
 		"assign": "lookback_maintitle_4",
@@ -18147,7 +18242,7 @@
 	{
 		"assign": "filter_wepstate",
 		"jp_text": "ウェポノイド能力",
-		"tr_text": "Weaponoid Ability"
+		"tr_text": "Gaiden Effect"
 	},
 	{
 		"assign": "filter_user",
@@ -18297,12 +18392,12 @@
 	{
 		"assign": "filter_wepreleasebef",
 		"jp_text": "能力解放前",
-		"tr_text": "Normal"
+		"tr_text": "Not Unlocked"
 	},
 	{
 		"assign": "filter_wepreleaseaft",
 		"jp_text": "能力解放後",
-		"tr_text": "Released"
+		"tr_text": "Unlocked"
 	},
 	{
 		"assign": "filter_favorite",
@@ -18626,8 +18721,8 @@
 	},
 	{
 		"assign": "acceptbox_guide_00",
-		"jp_text": "<color=#f0df60>受け取りボックスの中には、受け取り期限のあるアイテムがあります。期限が過ぎると受け取れなくなりますので、ご注意ください。</color>",
-		"tr_text": "<color=#f0df60>There are items with a deadline. Once the deadline has passed, you will be unable to redeem the items.</color>"
+		"jp_text": "<color=#f0df60>受け取り期限のあるアイテムにご注意ください。「一括売却」に登録されたアイテムは「選択対象を受け取る」で受け取れます。</color>",
+		"tr_text": ""
 	},
 	{
 		"assign": "acceptbox_title",
@@ -18646,8 +18741,8 @@
 	},
 	{
 		"assign": "acceptbox_recieve_num",
-		"jp_text": "保存数",
-		"tr_text": "Saved"
+		"jp_text": "保存数　",
+		"tr_text": "Saved: "
 	},
 	{
 		"assign": "acceptbox_sort_standard",
@@ -18673,6 +18768,11 @@
 		"assign": "acceptbox_sort_point",
 		"jp_text": "ポイント優先",
 		"tr_text": "Sort Point"
+	},
+	{
+		"assign": "acceptbox_sort_all_sale",
+		"jp_text": "売却優先",
+		"tr_text": "Sell Priority"
 	},
 	{
 		"assign": "acceptbox_sort",
@@ -18796,13 +18896,13 @@
 	},
 	{
 		"assign": "acceptbox_dialog_b_5",
-		"jp_text": "以下のアイテムを受け取りました。",
-		"tr_text": "Accepted the items."
+		"jp_text": "以下のアイテムを受け取りました。\n※「一括売却」に登録されているアイテムは\n　　「選択対象を受け取る」で受け取ることができます。",
+		"tr_text": "Received the below items.\n※Items designated for Bulk Sale can be\n   received with \"Grab Selected\"."
 	},
 	{
 		"assign": "acceptbox_chip_over_message",
 		"jp_text": "チップパックの空き容量不足のため、受け取れません。\n\nチップパックを拡張するか\n強化／売却をして整理してください。",
-		"tr_text": ""
+		"tr_text": "Could not receive due to lack of space in your Chip Pack.\n\nPlease either expand your Chip Pack\nor get rid of some chips by selling them\nor using them as Grind material."
 	},
 	{
 		"assign": "acceptbox_item_over_message",
@@ -18817,7 +18917,7 @@
 	{
 		"assign": "acceptbox_materialchip_over_message",
 		"jp_text": "素材の保有数の上限を超えるため、受け取れません。\n\n各素材の保有数は「チップ倉庫拡張」で増やすことができます。\nチップ倉庫拡張／強化／売却をして整理してください。",
-		"tr_text": ""
+		"tr_text": "Cannot receive as you have reached your\nmaximum limit for materials.\n\nYou can increase your limit by expanding your Chip Storage.\nPlease clear some space by selling/using chips\nor by expanding Chip Storage."
 	},
 	{
 		"assign": "acceptbox_dialog_items",
@@ -18902,27 +19002,27 @@
 	{
 		"assign": "base_item_special_weapon",
 		"jp_text": "?",
-		"tr_text": ""
+		"tr_text": "?"
 	},
 	{
 		"assign": "base_item_per",
 		"jp_text": "%",
-		"tr_text": ""
+		"tr_text": "%"
 	},
 	{
 		"assign": "base_item_plus",
 		"jp_text": "+",
-		"tr_text": ""
+		"tr_text": "+"
 	},
 	{
 		"assign": "base_item_lv",
 		"jp_text": "Lv.",
-		"tr_text": ""
+		"tr_text": "Lv."
 	},
 	{
 		"assign": "base_item_num_format",
 		"jp_text": "×{0}",
-		"tr_text": ""
+		"tr_text": "x {0}"
 	},
 	{
 		"assign": "menu_pso2_collect_search",
@@ -19565,6 +19665,16 @@
 		"tr_text": "Congratulations on clearing Season 3 Ch. 7\nQuest 4-4 \"振られる手\"!\nYou have received the Clear Reward below.\nPlease check your Reception Box."
 	},
 	{
+		"assign": "quest_clear_reward_dialog_title_6274005",
+		"jp_text": "ストーリークエスト Season3　8章4-5",
+		"tr_text": "Story Quest Season 3 Ch.8 4-5 Clear"
+	},
+	{
+		"assign": "quest_clear_reward_dialog_body_6274005",
+		"jp_text": "Season3　8章4-5「希望　それは、青空の先へ」\nクリアおめでとうございます！\n以下のクリア報酬をプレゼントいたしました。\n受け取りボックスをご確認ください。",
+		"tr_text": "Congratulations on clearing Season 3 Ch. 8\nQuest 4-5 \"希望　それは、青空の先へ\"!\nYou have received the Clear Reward below.\nPlease check your Reception Box."
+	},
+	{
 		"assign": "recommended_equipment",
 		"jp_text": "おすすめ装備",
 		"tr_text": "Recommended Equipment"
@@ -19606,8 +19716,13 @@
 	},
 	{
 		"assign": "acceptbox_sale_window_title",
-		"jp_text": "受け取りボックス 売却一覧",
-		"tr_text": "Reception Box Sales "
+		"jp_text": "受け取りボックス 個別売却",
+		"tr_text": "Manual Sales from Reception Box"
+	},
+	{
+		"assign": "acceptbox_all_sale_window_title",
+		"jp_text": "受け取りボックス 一括売却",
+		"tr_text": "Bulk Sales from Reception Box"
 	},
 	{
 		"assign": "acceptbox_sale_button_title",
@@ -19616,8 +19731,8 @@
 	},
 	{
 		"assign": "acceptbox_sale_selected_count",
-		"jp_text": "選択数  <%num><color=#68a0a7>/</color><%max>",
-		"tr_text": "No. <%num><color=#68a0a7>/</color><%max>"
+		"jp_text": "売却数  <%num><color=#68a0a7>/</color><%max>",
+		"tr_text": "Selling: <%num><color=#68a0a7>/</color><%max>"
 	},
 	{
 		"assign": "acceptbox_sale_confirm_dialog_title",
@@ -19626,8 +19741,8 @@
 	},
 	{
 		"assign": "acceptbox_sale_confirm_dialog_text",
-		"jp_text": "アイテムを<%meseta>メセタで売却します。\nよろしいですか？",
-		"tr_text": "This will sell the selected item(s)\nfor <color=#e5e500><%meseta></color> Meseta. Continue?"
+		"jp_text": "アイテムを<color=yellow><%meseta></color>メセタで売却します。\nよろしいですか？",
+		"tr_text": "Items will be sold for <color=yellow><%meseta></color> Meseta.\nDo you wish to continue?"
 	},
 	{
 		"assign": "acceptbox_sale_now_meseta_title",
@@ -19657,7 +19772,7 @@
 	{
 		"assign": "acceptbox_sale_meseta_over_dialog_text",
 		"jp_text": "メセタの所持数をオーバーしているので\n売却することができません。",
-		"tr_text": ""
+		"tr_text": "You cannot sell this because your\nMeseta would exceed the maximum limit."
 	},
 	{
 		"assign": "acceptbox_sale_failed_dialog_title",
@@ -19667,7 +19782,7 @@
 	{
 		"assign": "acceptbox_sale_failed_dialog_text",
 		"jp_text": "期限切れのアイテムは売却することが\nできませんでした。",
-		"tr_text": ""
+		"tr_text": "Items in your Reception Box expired\nbefore they could be sold."
 	},
 	{
 		"assign": "acceptbox_sale_failed_dialog_item_price",
@@ -19681,8 +19796,13 @@
 	},
 	{
 		"assign": "acceptbox_window_sale_tab_title",
-		"jp_text": "売却",
-		"tr_text": "Sell"
+		"jp_text": "個別売却",
+		"tr_text": "Manual Sale"
+	},
+	{
+		"assign": "acceptbox_window_all_sale_tabl_title",
+		"jp_text": "一括売却",
+		"tr_text": "Bulk Sale"
 	},
 	{
 		"assign": "acceptbox_no_sale_item",
@@ -19707,7 +19827,7 @@
 	{
 		"assign": "acceptbox_sale_rare_warning_dialog_text",
 		"jp_text": "選択したアイテムの中に<color=#ff0000>★７以上</color>のものが\n含まれています。本当に売却しますか？",
-		"tr_text": ""
+		"tr_text": "You are about to sell item(s) of rarity <color=#ff0000>★７ or higher</color>.\nDo you wish to continue?"
 	},
 	{
 		"assign": "acceptbox_sale_stargem_warning_dialog_title",
@@ -19717,7 +19837,7 @@
 	{
 		"assign": "acceptbox_sale_stargem_warning_dialog_text",
 		"jp_text": "<color=#ff0000>選択したアイテムの中に\nスタージェムを入手していないものが\n含まれています。</color>\n本当に売却しますか？",
-		"tr_text": ""
+		"tr_text": "<color=#ff0000>You are about to sell items with\nunclaimed Star Gems.</color>\nDo you wish to continue?"
 	},
 	{
 		"assign": "leisure_title",
@@ -20133,6 +20253,11 @@
 		"assign": "equip_child_chip_window_title",
 		"jp_text": "リンクチップ選択",
 		"tr_text": "Select Chip Link"
+	},
+	{
+		"assign": "equip_child_chip_total_num",
+		"jp_text": "{0}<color=\"#688ca7\">/</color> {1}",
+		"tr_text": ""
 	},
 	{
 		"assign": "equip_guide_16",
@@ -20912,22 +21037,22 @@
 	{
 		"assign": "towerquest_ranking_undercount_title",
 		"jp_text": "タワーランキングの集計中",
-		"tr_text": "Compiling tower ranking"
+		"tr_text": "Compiling Tower Ranking"
 	},
 	{
 		"assign": "towerquest_ranking_undercount_body",
 		"jp_text": "ランキング報酬の受け取り期間\n\n　受け取り開始　<%StartTime>\n　受け取り終了　<%EndTime>",
-		"tr_text": ""
+		"tr_text": "Ranking reward availability period:\n\nStart time: <%StartTime>\nEnd time: <%EndTime>"
 	},
 	{
 		"assign": "towerquest_ranking_expired_title",
 		"jp_text": "ランキング報酬の受け取り期限切れ",
-		"tr_text": ""
+		"tr_text": "Ranking Rewards Expired"
 	},
 	{
 		"assign": "towerquest_ranking_expired_body",
 		"jp_text": "ランキング報酬の受け取り期間を過ぎたため\n報酬は受け取れません。\n\n　受け取り終了　<%EndTime>",
-		"tr_text": ""
+		"tr_text": "You cannot receive ranking rewards\nbecause the availability period has ended.\n\nEnd time: <%EndTime>"
 	},
 	{
 		"assign": "towerquest_top_target_time",
@@ -20942,7 +21067,7 @@
 	{
 		"assign": "towerquest_time_format",
 		"jp_text": "{0:0}：{1:00}．{2:00}",
-		"tr_text": "{0:0}：{1:00}．{2:00}"
+		"tr_text": "{0:0}:{1:00}, {2:00}"
 	},
 	{
 		"assign": "towerquest_fp_linetext_player_condition",
@@ -21381,8 +21506,8 @@
 	},
 	{
 		"assign": "chip_grind_material_select_count",
-		"jp_text": "選択数 {0}<color=\\\"#688ca7\\\">/</color>{1}",
-		"tr_text": ""
+		"jp_text": "選択数 {0}<color=\"#688ca7\">/</color>{1}",
+		"tr_text": "Selected: {0}<color=\"#688ca7\">/</color>{1}"
 	},
 	{
 		"assign": "stack_chip_window_label",
@@ -22066,8 +22191,8 @@
 	},
 	{
 		"assign": "DPSEvent_Achievement_Text_0-2-23",
-		"jp_text": "自己ベスト{1}達成 \n[{0} / {1}]",
-		"tr_text": " Get a Personal Best {1} times [{0}/{1}]"
+		"jp_text": "自己ベスト{1:#,0}達成 \n[{0:#,0} / {1:#,0}]",
+		"tr_text": " Set a Personal Best {1:#,0} times [{0:#,0} / {1:#,0}]"
 	},
 	{
 		"assign": "window_help_LM34",
@@ -22452,7 +22577,7 @@
 	{
 		"assign": "chip_details_chip_awake_head",
 		"jp_text": "特装プラグ",
-		"tr_text": "Plug Details"
+		"tr_text": "Plug"
 	},
 	{
 		"assign": "chip_details_chip_awake_skilllv",
@@ -22592,36 +22717,661 @@
 	{
 		"assign": "conditional_booster_term_day",
 		"jp_text": "<%day>日",
-		"tr_text": ""
+		"tr_text": "<%day> days"
 	},
 	{
 		"assign": "conditional_booster_term_hour",
 		"jp_text": "<color=red><%hour>時間<%minute>分</color>",
-		"tr_text": ""
+		"tr_text": "<color=red><%hour> hours <%minute> minutes</color>"
 	},
 	{
 		"assign": "conditional_booster_term_minute",
 		"jp_text": "<color=red><%minute>分</color>",
-		"tr_text": ""
+		"tr_text": "<color=red><%minute> minutes</color>"
 	},
 	{
 		"assign": "conditional_booster_time_over",
 		"jp_text": "<color=red>0分</color>",
-		"tr_text": ""
+		"tr_text": "<color=red>0 minutes</color>"
 	},
 	{
 		"assign": "conditional_time_over_remaining_today",
 		"jp_text": "<color=red>終了まで</color>",
-		"tr_text": ""
+		"tr_text": "<color=red> remaining</color>"
 	},
 	{
 		"assign": "conditional_time_over_remaining",
 		"jp_text": "終了まで",
-		"tr_text": ""
+		"tr_text": " remaining"
 	},
 	{
 		"assign": "conditional_title",
 		"jp_text": "経験値{0}倍！！",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_sale_setting_guide_message",
+		"jp_text": "<color=#f0df60>クエストで入手したアイテムを、受け取りボックスから「一括売却」する設定を行います。</color>",
+		"tr_text": "<color=#f0df60>Select items to be automatically sold in bulk from the Reception Box.</color>"
+	},
+	{
+		"assign": "auto_sale_setting_window_title",
+		"jp_text": "受取一括売却設定",
+		"tr_text": "Receipt Bulk Sale Settings"
+	},
+	{
+		"assign": "auto_sale_setting_weapon_tab",
+		"jp_text": "武器",
+		"tr_text": "Weapons"
+	},
+	{
+		"assign": "auto_sale_setting_unit_tab",
+		"jp_text": "ユニット",
+		"tr_text": "Units"
+	},
+	{
+		"assign": "auto_sale_setting_tab_on",
+		"jp_text": "ON",
+		"tr_text": "ON"
+	},
+	{
+		"assign": "auto_sale_setting_tab_off",
+		"jp_text": "OFF",
+		"tr_text": "OFF"
+	},
+	{
+		"assign": "auto_sale_setting_disc",
+		"jp_text": "<color=#f0df60>※全ての条件を満たすと、「一括売却」に登録されます。</color>",
+		"tr_text": "<color=#f0df60>※All matching items will be designated for Bulk Sale.</color>"
+	},
+	{
+		"assign": "auto_sale_setting_rarity_text",
+		"jp_text": "レアリティ",
+		"tr_text": "Rarity"
+	},
+	{
+		"assign": "auto_sale_setting_rarity_off",
+		"jp_text": "未設定",
+		"tr_text": "Not set"
+	},
+	{
+		"assign": "auto_sale_setting_rarity_on",
+		"jp_text": "以下",
+		"tr_text": "   or less"
+	},
+	{
+		"assign": "auto_sale_setting_slot_text",
+		"jp_text": "特殊能力数",
+		"tr_text": "Ability #"
+	},
+	{
+		"assign": "auto_sale_setting_slot_off",
+		"jp_text": "未設定",
+		"tr_text": "Not set"
+	},
+	{
+		"assign": "auto_sale_setting_slot_on",
+		"jp_text": "{0} 以下",
+		"tr_text": "{0} or less"
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_title_weapon",
+		"jp_text": "保護設定 / 武器",
+		"tr_text": "Exclusions / Weapons"
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_title_unit",
+		"jp_text": "保護設定 / ユニット",
+		"tr_text": "Exclusions / Units"
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_disc_off",
+		"jp_text": "<color=#f0df60>受取一括売却設定が\n「ON」になると変更できます。</color>",
+		"tr_text": "<color=#f0df60>Can only be changed when\nBulk Sale is set to ON.</color>"
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_disc_on",
+		"jp_text": "<color=#f0df60>特殊能力付きアイテムを保護し\n一括売却の対象外にします。</color>",
+		"tr_text": "<color=#f0df60>You can protect certain Special\nAbilities from Bulk Sale.</color>"
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_soul_receptor",
+		"jp_text": "ソールレセプター",
+		"tr_text": "Soul Receptor"
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_gift_receptor",
+		"jp_text": "ギフトレセプター",
+		"tr_text": "Gift Receptor"
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_elegant_receptor",
+		"jp_text": "エクストレセプター",
+		"tr_text": "Extreceptor"
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_factor_receptor",
+		"jp_text": "ファクターレセプター",
+		"tr_text": "Factor Receptor"
+	},
+	{
+		"assign": "auto_sale_setting_save_button",
+		"jp_text": "設定を保存",
+		"tr_text": "Save settings"
+	},
+	{
+		"assign": "auto_sale_setting_save_dialog_title",
+		"jp_text": "受取一括売却設定の保存",
+		"tr_text": "Saving Bulk Sale Settings"
+	},
+	{
+		"assign": "auto_sale_setting_save_dialog_message",
+		"jp_text": "次の設定を保存します。\nよろしいですか？",
+		"tr_text": "This will save the below settings.\nDo you wish to continue?"
+	},
+	{
+		"assign": "auto_sale_setting_save_dialog_sale",
+		"jp_text": "<color=cyan>■受取一括売却設定</color>",
+		"tr_text": "<color=cyan>■Bulk Sale Settings</color>"
+	},
+	{
+		"assign": "auto_sale_setting_save_dialog_weapon",
+		"jp_text": "武器",
+		"tr_text": "Weapons"
+	},
+	{
+		"assign": "auto_sale_setting_save_dialog_unit",
+		"jp_text": "ユニット",
+		"tr_text": "Units"
+	},
+	{
+		"assign": "auto_sale_setting_save_dialog_rarity",
+		"jp_text": "レアリティ   /",
+		"tr_text": "Rarity"
+	},
+	{
+		"assign": "auto_sale_setting_save_dialog_slot",
+		"jp_text": "特殊能力数/",
+		"tr_text": "Ability #"
+	},
+	{
+		"assign": "auto_sale_setting_save_dialog_exclusion",
+		"jp_text": "<color=cyan>■保護設定</color>",
+		"tr_text": "<color=cyan>■Protected abilities</color>"
+	},
+	{
+		"assign": "auto_sale_setting_save_dialog_exclusion_not_setting",
+		"jp_text": "未設定",
+		"tr_text": "Not set"
+	},
+	{
+		"assign": "auto_sale_setting_save_finish_dialog_title",
+		"jp_text": "受取一括売却設定の保存",
+		"tr_text": "Saving Bulk Sale Settings"
+	},
+	{
+		"assign": "auto_sale_setting_save_finish_dialog_message",
+		"jp_text": "設定を保存しました。\nこの設定は、次回のプレイから適用されます。",
+		"tr_text": "Your settings have been saved.\nThese settings will be applied the\nnext time you play."
+	},
+	{
+		"assign": "auto_sale_setting_save_check_dialog_title",
+		"jp_text": "受取一括売却設定の保存",
+		"tr_text": "Saving Bulk Sale Settings"
+	},
+	{
+		"assign": "auto_sale_setting_save_check_dialog_message",
+		"jp_text": "設定が変更されています。\n保存していない設定は破棄されますが\nよろしいですか？",
+		"tr_text": "Your settings have been changed.\nUnsaved changes will be lost.\nDo you wish to continue?"
+	},
+	{
+		"assign": "acceptbox_goto_all_sale_setting_button",
+		"jp_text": "一括売却設定",
+		"tr_text": "Bulk Sale\nSettings"
+	},
+	{
+		"assign": "acceptbox_all_sale_button",
+		"jp_text": "全て売却",
+		"tr_text": "Sell All"
+	},
+	{
+		"assign": "acceptbox_all_sale_dialog_title",
+		"jp_text": "一括売却確認",
+		"tr_text": "Bulk Sale Confirmation"
+	},
+	{
+		"assign": "acceptbox_all_sale_dialog_message",
+		"jp_text": "一括売却に登録されたアイテムを\n<color=yellow><%sale_meseta></color>メセタで売却します。\nよろしいですか？",
+		"tr_text": "Items designated for bulk sale\nwill be sold for <color=yellow><%sale_meseta></color> Meseta.\nDo you wish to continue?"
+	},
+	{
+		"assign": "acceptbox_all_sale_dialog_meseta_title",
+		"jp_text": "所持メセタ",
+		"tr_text": "Meseta owned:"
+	},
+	{
+		"assign": "acceptbox_all_sale_dialog_meseta_message",
+		"jp_text": "<%num>　⇒　<%after>",
+		"tr_text": ""
+	},
+	{
+		"assign": "acceptbox_no_all_sale_item",
+		"jp_text": "売却出来るアイテムはありません。",
+		"tr_text": "No items designated for sale."
+	},
+	{
+		"assign": "acceptbox_all_sale_icon_text",
+		"jp_text": "一括",
+		"tr_text": "All"
+	},
+	{
+		"assign": "acceptbox_show_num_max_over",
+		"jp_text": "999+",
+		"tr_text": "999+"
+	},
+	{
+		"assign": "window_help_LM43",
+		"jp_text": "wh_56_01,\n<color=yellow>クエストで入手した「武器」「ユニット」</color>を\n受け取りボックスから<color=yellow>「一括売却」</color>することができます。\n一括売却設定に該当するアイテムは、自動的に受け取りボックスに送られます。,\nwh_56_02,\n一括売却するアイテムの<color=yellow>「レアリティ」</color>と<color=yellow>「特殊能力数」</color>を設定します。\n特殊能力の<color=yellow>ロック</color>で、特殊能力付きアイテムを<color=yellow>保護</color>できます。\n※PSO2連動キャラクターでのみ、アイテム詳細から特殊能力を確認できます。,",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_maintenance_title",
+		"jp_text": "メンテナンス",
+		"tr_text": "Maintenance"
+	},
+	{
+		"assign": "scrach_maintenance_pso2_title",
+		"jp_text": "PSO2スクラッチ",
+		"tr_text": "PSO2 Scratch"
+	},
+	{
+		"assign": "scrach_maintenance_point_scrach_title",
+		"jp_text": "メンテナンス",
+		"tr_text": "Maintenance"
+	},
+	{
+		"assign": "scrach_maintenance_es",
+		"jp_text": "スクラッチは\n現在メンテナンス中です。",
+		"tr_text": "Scratch is currently under maintenance."
+	},
+	{
+		"assign": "scrach_maintenance_pso2",
+		"jp_text": "ＰＳＯ２のスクラッチは\n現在引くことができません。",
+		"tr_text": "You cannot draw from the\nPSO2 scratch at present."
+	},
+	{
+		"assign": "scrach_maintenance_point",
+		"jp_text": "ポイントスクラッチは\n現在メンテナンス中です。",
+		"tr_text": "Point Scratch is currently under maintenance."
+	},
+	{
+		"assign": "scrach_interlocking_pso2_title",
+		"jp_text": "「PSO2連動機能」について",
+		"tr_text": "Linking with PSO2"
+	},
+	{
+		"assign": "scrach_interlocking_pso2",
+		"jp_text": "『ＰＳＯ２』と連動すると\n「ファンタシースターオンライン２」で開催されている\nスクラッチを引くことができるようになります。\n連動は、メニューの「連動」から行うことができます。",
+		"tr_text": "When you are linked with PSO2, you can\ndraw from scratches available in PSO2.\nLinking can be performed from  \"Link\nFunctions\" on the menu."
+	},
+	{
+		"assign": "scrach_ticket",
+		"jp_text": "チケットで引く",
+		"tr_text": "Draw with Ticket"
+	},
+	{
+		"assign": "scrach_detail",
+		"jp_text": "スクラッチ詳細",
+		"tr_text": "Scratch Details"
+	},
+	{
+		"assign": "scrach_term_maintenance",
+		"jp_text": "<%month>月<%day>日（<%week>)\n定期メンテナンスまで",
+		"tr_text": "Regular maintenance:\n<%month>/<%day> (<%week>)"
+	},
+	{
+		"assign": "scrach_term_day",
+		"jp_text": "<%month>月<%day>日（<%week>)\n<%hour>時<%minute>分まで",
+		"tr_text": "Ends <%month>/<%day> (<%week>) <%hour>:<%minute>"
+	},
+	{
+		"assign": "scrach_term_monday",
+		"jp_text": "月",
+		"tr_text": "Monday"
+	},
+	{
+		"assign": "scrach_term_tuesday",
+		"jp_text": "火",
+		"tr_text": "Tuesday"
+	},
+	{
+		"assign": "scrach_term_wednesday",
+		"jp_text": "水",
+		"tr_text": "Wednesday"
+	},
+	{
+		"assign": "scrach_term_thursday",
+		"jp_text": "木",
+		"tr_text": "Thursday"
+	},
+	{
+		"assign": "scrach_term_friday",
+		"jp_text": "金",
+		"tr_text": "Friday"
+	},
+	{
+		"assign": "scrach_term_saturday",
+		"jp_text": "土",
+		"tr_text": "Saturday"
+	},
+	{
+		"assign": "scrach_term_sunday",
+		"jp_text": "日",
+		"tr_text": "Sunday"
+	},
+	{
+		"assign": "scrach_button_pso2",
+		"jp_text": "PSO2",
+		"tr_text": "PSO2"
+	},
+	{
+		"assign": "scrach_button_es",
+		"jp_text": "es",
+		"tr_text": "es"
+	},
+	{
+		"assign": "scratch_point_text",
+		"jp_text": "「スクラッチポイント」は「ｅｓスクラッチ」を<%AC>で引いた時にもらえます。\n各レアリティのボタンから、ラインナップが確認できます。",
+		"tr_text": "You earn Scratch Points when you\nspend <AC> on es Scratch.\nYou can check the available prizes\nwith each rarity button."
+	},
+	{
+		"assign": "scrach_have_medal",
+		"jp_text": "所持ラッピーメダル <color=#68a0a7>/</color>",
+		"tr_text": "Rappy Medals owned: <color=#68a0a7>/</color>"
+	},
+	{
+		"assign": "scrach_have_iac",
+		"jp_text": "所持<%AC> <color=#68a0a7>/</color>",
+		"tr_text": "<%AC> owned: <color=#68a0a7>/</color>"
+	},
+	{
+		"assign": "scrach_have_ac",
+		"jp_text": "所持<%AC> <color=#68a0a7>/</color>",
+		"tr_text": "<%AC> owned: <color=#68a0a7>/</color>"
+	},
+	{
+		"assign": "scrach_have_ac_ticket",
+		"jp_text": "所持ＡＣスクラッチ券 <color=#68a0a7>/</color>",
+		"tr_text": "AC Scratch tickets owned: <color=#68a0a7>/</color>"
+	},
+	{
+		"assign": "scrach_have_fun",
+		"jp_text": "所持ＦＵＮ <color=#68a0a7>/</color>",
+		"tr_text": "FUN owned: <color=#68a0a7>/</color>"
+	},
+	{
+		"assign": "scrach_have_scrach_point",
+		"jp_text": "所持スクラッチポイント <color=#68a0a7>/</color>",
+		"tr_text": "Scratch Points owned: <color=#68a0a7>/</color>"
+	},
+	{
+		"assign": "scrach_have_ac_gold_ticket",
+		"jp_text": "所持ＡＣスクラッチゴールド券 <color=#68a0a7>/</color>",
+		"tr_text": "AC Scratch Gold Tickets owned: <color=#68a0a7>/</color>"
+	},
+	{
+		"assign": "scrach_have_es_ticket",
+		"jp_text": "所持esスクラッチコイン <color=#68a0a7>/</color>",
+		"tr_text": "ea Scratch Coins owned: <color=#68a0a7>/</color>"
+	},
+	{
+		"assign": "scrach_have_weaponoid_ticket",
+		"jp_text": "所持ドリームスクラッチコイン <color=#68a0a7>/</color>",
+		"tr_text": "Dream Scratch Coins owned: <color=#68a0a7>/</color>"
+	},
+	{
+		"assign": "scratch_featured_count",
+		"jp_text": "<%count>回お得！",
+		"tr_text": "<%count> GET!"
+	},
+	{
+		"assign": "scratch_weaponoid_bonus_count",
+		"jp_text": "あと",
+		"tr_text": "remaining"
+	},
+	{
+		"assign": "scratch_get_rare_chip",
+		"jp_text": "★<%num>GET！",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_bonus_menu_new_info",
+		"jp_text": "あと<color=#ffff00>{0}回</color>",
+		"tr_text": "<color=#ffff00>{0}</color> remaining"
+	},
+	{
+		"assign": "scratch_bonus_menu_new_next_bonus",
+		"jp_text": "次のボーナスまで",
+		"tr_text": "Next bonus at:"
+	},
+	{
+		"assign": "scratch_bonus_menu_new_detail",
+		"jp_text": "詳細",
+		"tr_text": "Details"
+	},
+	{
+		"assign": "scratch_dialog_rarity_ticket",
+		"jp_text": "{0} <color=yellow>{1}</color>枚で\n{2}を<color=yellow>{3}</color>回引きます。\nよろしいですか？\n\n",
+		"tr_text": "Using <color=yellow>{1}</color> {0}\nto draw from {2} <color=yellow>{3}</color> times.\nDo you wish to continue?\n\n"
+	},
+	{
+		"assign": "scratch_dialog_ac",
+		"jp_text": " <color=yellow>{0}</color><%AC>で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
+		"tr_text": "Using <color=yellow>{0}</color> <%AC>\nto draw from {1} <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
+	},
+	{
+		"assign": "scratch_dialog_fun",
+		"jp_text": " <color=yellow>{0}</color>ＦＵＮで\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
+		"tr_text": "Using <color=yellow>{0}</color> FUN\nto draw from {1} <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
+	},
+	{
+		"assign": "scratch_dialog_ac_scratch_ticket",
+		"jp_text": "ＡＣスクラッチ券 <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
+		"tr_text": "Using <color=yellow>{0}</color> AC Scratch tickets\nto draw from {1} <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
+	},
+	{
+		"assign": "scratch_dialog_ac_gold_scratch",
+		"jp_text": "ＡＣスクラッチゴールド券 <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
+		"tr_text": "Using <color=yellow>{0}</color> AC Scratch gold tickets\nto draw from {1} <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
+	},
+	{
+		"assign": "scratch_dialog_rappy_medal_scratch",
+		"jp_text": "ラッピーメダル <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
+		"tr_text": "Using <color=yellow>{0}</color> Rappy medals\nto draw from {1} <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
+	},
+	{
+		"assign": "scratch_dialog_scratch_ticket",
+		"jp_text": "esスクラッチコイン <color=yellow>{0}</color>枚で\n「{1}」を <color=yellow>{2}回</color>引きます。\nよろしいですか？\n\n",
+		"tr_text": "Using <color=yellow>{0}</color> es Scratch Coins\nto draw from {1} <color=yellow>{2}</color> times.\nDo you wish to continue?\n\n"
+	},
+	{
+		"assign": "scratch_have_ac_gold_ticket",
+		"jp_text": "所持ＡＣスクラッチゴールド券",
+		"tr_text": "AC Scratch gold tickets owned"
+	},
+	{
+		"assign": "scratch_have_rappy_medal",
+		"jp_text": "所持ラッピーメダル",
+		"tr_text": "Medals owned"
+	},
+	{
+		"assign": "scratch_have_scratch_es_ticket",
+		"jp_text": "所持esスクラッチコイン",
+		"tr_text": "es Scratch Coins owned"
+	},
+	{
+		"assign": "scratch_have_rarity_ticket",
+		"jp_text": "所持チケット",
+		"tr_text": "Tickets owned"
+	},
+	{
+		"assign": "scratch_have_fun",
+		"jp_text": "所持ＦＵＮ",
+		"tr_text": "FUN owned"
+	},
+	{
+		"assign": "scratch_have_ac",
+		"jp_text": "所持<%AC>",
+		"tr_text": "<%AC> owned"
+	},
+	{
+		"assign": "scratch_have_iac",
+		"jp_text": "所持<%AC>",
+		"tr_text": "<%AC> owned"
+	},
+	{
+		"assign": "scratch_show_count",
+		"jp_text": "{0}枚 ⇒ {1}枚",
+		"tr_text": "{0} ⇒ {1}"
+	},
+	{
+		"assign": "scratch_show_point",
+		"jp_text": "{0} ⇒ {1}",
+		"tr_text": "{0} ⇒ {1}"
+	},
+	{
+		"assign": "scratch_have_scratch_ac_ticket",
+		"jp_text": "所持ＡＣスクラッチ券",
+		"tr_text": "AC Scratch tickets owned"
+	},
+	{
+		"assign": "scratch_weaponoid_text",
+		"jp_text": "「ｅｓ1スクラッチ」<%AC>11回引き3回ごとに、券を1枚もらえます。\n選択したウェポノイドチップの中から1枚を獲得できます。",
+		"tr_text": "You receive 1 ticket every 3 times you spend\n<%AC> to draw 11 times on es1 Scratch.\nYou can select one of the below Weaponoid chips."
+	},
+	{
+		"assign": "scratch_limited_time",
+		"jp_text": "期間限定",
+		"tr_text": "Limited"
+	},
+	{
+		"assign": "scratch_bonus_next",
+		"jp_text": "NEXT>>",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_dialog_new_b_01",
+		"jp_text": "ボーナスポイント <color=yellow>{0}</color>ptで\nボーナススクラッチ\n「{1}」を<color=yellow>{2}</color>回引きます。\nよろしいですか？\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_have_point",
+		"jp_text": "所持ポイント",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_title",
+		"jp_text": "ボーナスポイント「{0}」",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_now_stage",
+		"jp_text": "<color=#ffff00>STAGE{0}　</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_all_items",
+		"jp_text": "<size=16>あと </size>{0}<size=16>回</size>",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_all_items_reset",
+		"jp_text": "<size=16>あと </size>{0}<size=16>回 でリセット</size>",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_stage_info",
+		"jp_text": "<color=#ffff00>STAGE{0}</color>で\nもらえる！",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_bonus_new_point",
+		"jp_text": "<color=#e25f04>{0}</color><size=25>pt</size>",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_bonus_show_point",
+		"jp_text": "{0}pt ⇒ {1}pt",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_bonus_retry_conect",
+		"jp_text": "データの通信に失敗しました。\nリトライしますか？",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_connect_cancel",
+		"jp_text": "通信を中断して\n現在までのスクラッチ結果を表示します。\nよろしいですか？",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_connect_first_cancel",
+		"jp_text": "中断しますか？",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_connect_cancel_title",
+		"jp_text": "スクラッチの中断",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_page_view",
+		"jp_text": "{0}<color=#688CA7> / </color>{1}",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_page_previous",
+		"jp_text": "前",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_page_next",
+		"jp_text": "次",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_page_first",
+		"jp_text": "最初",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_page_last",
+		"jp_text": "最後",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_scratch_stack_count",
+		"jp_text": "×{0}",
+		"tr_text": ""
+	},
+	{
+		"assign": "acceptbox_accept_failed_dialog_title",
+		"jp_text": "受け取りボックス　期限切れ",
+		"tr_text": ""
+	},
+	{
+		"assign": "acceptbox_accept_failed_dialog_message",
+		"jp_text": "期限切れのアイテムは受け取ることが\nできませんでした。",
+		"tr_text": ""
+	},
+	{
+		"assign": "check_story_play_dialog_title",
+		"jp_text": "ストーリー再生確認",
+		"tr_text": ""
+	},
+	{
+		"assign": "check_story_play_dialog_message",
+		"jp_text": "ストーリーを再生しますか？",
 		"tr_text": ""
 	}
 ]

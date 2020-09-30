@@ -499,7 +499,7 @@
 	{
 		"assign": "37080",
 		"jp_text": "ＰＳＺＥＲＯメモリ",
-		"tr_text": "PSZERO Memory",
+		"tr_text": "PSZero Memory",
 		"jp_explain": "表面に特徴的な絵が描かれている\n何らかの記録媒体。内部データが復元\nできれば有用なものとなる。",
 		"tr_explain": "A recording device with a distinctive\nimage on its surface. The data\ninside could be useful if restored."
 	},
@@ -567,6 +567,13 @@
 		"tr_explain": "A storage device with a distinctive\nimage on its surface. The data inside\ncould be used to make fun things."
 	},
 	{
+		"assign": "37090",
+		"jp_text": "ミッションバッヂ",
+		"tr_text": "Mission Badge",
+		"jp_explain": "ミッションパス等で入手可能なバッヂ。\nミッションパスリサイクルショップで\n他のアイテムと交換できる。",
+		"tr_explain": "A badge that can be obtained from\na Mission Pass. Can be exchanged\nfor items at the Mission Pass Shop."
+	},
+	{
 		"assign": "37091",
 		"jp_text": "コバルトメダル",
 		"tr_text": "Cobalt Medal",
@@ -586,5 +593,40 @@
 		"tr_text": "Sage Crest",
 		"jp_explain": "様々な戦場で活躍したアークスの証。\n提示することで、ジグの持つ\n貴重なアイテムと交換ができる。",
 		"tr_explain": "Proof of an ARKS who took part in\nmany great battles. Can be traded\nto Zieg in exchange for items."
+	},
+	{
+		"assign": "370105",
+		"jp_text": "ディバイドメダル",
+		"tr_text": "Divide Medal",
+		"jp_explain": "ディバイドクエストで活躍した証。\nメダル交換ショップにて\n貴重なアイテムと交換可能。",
+		"tr_explain": "Proof of a Divide Quest.\nCan be exchanged for valuable\nitems at the Medal Exchange Shop."
+	},
+	{
+		"assign": "370106",
+		"jp_text": "ぷそ煮コミメモリ３",
+		"tr_text": "Puso Comic Memory 3",
+		"jp_explain": "表面に特徴的な絵が描かれている\n何らかの記憶媒体。内部データから\n楽しいものが作れそう。",
+		"tr_explain": "A storage device with a distinctive\nimage on its surface. The data inside\ncould be used to make fun things."
+	},
+	{
+		"assign": "370107",
+		"jp_text": "特殊能力移植パス",
+		"tr_text": "Ability Transfer Pass",
+		"jp_explain": "特殊能力移植の機能利用パス。\nアイテムラボにて素材の武器・防具から\n特殊能力を移植可。利用でパスを消費。",
+		"tr_explain": "Pass giving access to the Special\nAbility Transfer system at the Item\nLab. Consumed on use."
+	},
+	{
+		"assign": "370109",
+		"jp_text": "８周年記念バッヂ",
+		"tr_text": "8th Anniversary Badge",
+		"jp_explain": "８周年記念に作られた、特徴的な紋章が\n刻印されたバッヂ。提示することで\n様々なアイテムと交換可能。",
+		"tr_explain": "An unique engraved emblem made\nfor the 8th anniversary.\nCan be traded for prizes."
+	},
+	{
+		"assign": "370110",
+		"jp_text": "８周年記念抽選券",
+		"tr_text": "8th Anniversary Lotto Ticket",
+		"jp_explain": "「ARKS CONNECT MEMORIES」の\nイベント後にアイテムやリアルグッズの\n抽選権が得られる、特殊なアイテム。",
+		"tr_explain": ""
 	}
 ]

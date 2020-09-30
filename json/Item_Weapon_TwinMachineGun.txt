@@ -987,6 +987,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1100242",
+		"jp_text": "グラテスカフィール",
+		"tr_text": "Grates Kafir",
+		"jp_explain": "臨界寸前まで圧縮したフォトンの\n制御に成功した双機銃。フレームを\n強化し、使用者にかかる負担を抑えた。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1100243",
 		"jp_text": "ギクスカフィール",
 		"tr_text": "Gix Kafir",
@@ -1054,6 +1061,13 @@
 		"jp_text": "ミストールミラージュ",
 		"tr_text": "Mistral Mirage",
 		"jp_explain": "新開発のフォトンリング機構を搭載した\n双機銃。リングを通して部品同士が\n共鳴し、弾丸の威力を高める。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1100256",
+		"jp_text": "ミストールノヴァ",
+		"tr_text": "Mistral Nova",
+		"jp_explain": "新開発のフォトンリング機構を搭載した\n双機銃。リングから発生する波動が\n弾丸の貫通力を極限まで高める。",
 		"tr_explain": ""
 	},
 	{
@@ -1171,14 +1185,14 @@
 	{
 		"assign": "1100298",
 		"jp_text": "アルバＴマシンガン-NT",
-		"tr_text": "Alva T. Machinegun-NT",
+		"tr_text": "Alva T. Machineguns-NT",
 		"jp_explain": "アークスで使用される改良型の双機銃。\n砲身を伸張して射程不足を克服し\n弾倉の改良により連射性能も向上した。",
 		"tr_explain": "Improved twin machineguns used by\nARKS. The barrel was extended for\nrange, and the magazine is improved."
 	},
 	{
 		"assign": "1100299",
 		"jp_text": "ヴィタＴマシンガン-NT",
-		"tr_text": "Vita T. Machinegun-NT",
+		"tr_text": "Vita T. Machineguns-NT",
 		"jp_explain": "基礎モデルに改良を加えた双機銃。\n課題であった衝撃吸収と安定性を確保し\n一層の軽量化がなされた。",
 		"tr_explain": "Machineguns that further improve on\nthe base model. Has shock absorbers\nto improve stability and save weight."
 	},
@@ -1351,11 +1365,32 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1100331",
+		"jp_text": "クリーサバラージャ",
+		"tr_text": "Krisa Baraja",
+		"jp_explain": "豪華絢爛な装飾が施された双機銃。\n小振りながらも強く美しい一対の銃は\n空を舞い飛ぶ鳥を想起させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1100332",
+		"jp_text": "ミリオンバラージャ",
+		"tr_text": "Million Baraja",
+		"jp_explain": "豪華絢爛な装飾が施された双機銃。\n形状が異なる左右の銃を組み合わせれば\nたちまち弾雨の嵐を巻き起こす。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1100335",
 		"jp_text": "クヴェレウィンディア",
 		"tr_text": "Quelle Windea",
 		"jp_explain": "自然現象が形になったという双機銃。\nまといつくように吹き荒れる烈風は\n弾丸と化して、標的を撃ち抜く。",
 		"tr_explain": "A set of machineguns formed by a\nnatural phenomenon. Its bullets are\nmade from a violent gale of wind."
+	},
+	{
+		"assign": "1100338",
+		"jp_text": "ヴォルテクスグラス",
+		"tr_text": "Vortex Glass",
+		"jp_explain": "独立型の支援兵器を搭載した双機銃。\n本体とレーザー砲の支援射撃を\n合わせることで激しい弾幕を展開する。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "1100342",
@@ -1383,7 +1418,7 @@
 		"jp_text": "ノヴェルＴマシンガン",
 		"tr_text": "Novel T. Machinegun",
 		"jp_explain": "新技術により開発された双機銃。\n次期主力を担う武器として作られた。\n一部の機能が制限されている。",
-		"tr_explain": "Machineguns made with new tech\nto be the next-gen main weapon.\nIt seems to have a hard cover."
+		"tr_explain": "Machineguns made with new tech\nto be the next-gen main weapon.\nThey seem to have a hard cover."
 	},
 	{
 		"assign": "1100346",
@@ -1446,6 +1481,20 @@
 		"jp_text": "アトララッダ・イクス",
 		"tr_text": "Atlas Radda Ex",
 		"jp_explain": "過去に戦場となった地域から発掘された\n双機銃。眠りより目覚めた碧き宝石は\n秘めた凄まじき力を解き放つ。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1100360",
+		"jp_text": "バイスティル",
+		"tr_text": "Vai Stil",
+		"jp_explain": "武器としての機能のみを追求した\n双機銃。素直な見た目とは裏腹に\n圧倒的な威力と操作性を誇る。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1100361",
+		"jp_text": "バイピュラス",
+		"tr_text": "Vai Puras",
+		"jp_explain": "武器としての機能のみを追求した\n双機銃。圧倒的な威力と扱いやすさで\n無情に標的を撃ち抜く。",
 		"tr_explain": ""
 	},
 	{

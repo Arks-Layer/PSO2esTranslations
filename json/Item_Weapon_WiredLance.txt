@@ -352,7 +352,7 @@
 	{
 		"assign": "12053",
 		"jp_text": "ブルートネグロ",
-		"tr_text": "Brute Negro",
+		"tr_text": "Brute Nero",
 		"jp_explain": "忌まわしいフォルムが特徴の自在槍。\n漆黒を帯びた刀身とフォトンの刃は\n振るうたびに呪詛を振りまくという。",
 		"tr_explain": ""
 	},
@@ -786,8 +786,15 @@
 	{
 		"assign": "120177",
 		"jp_text": "ディアギルミナド",
-		"tr_text": "Dia Gilminado",
+		"tr_text": "Dia Gilminadu",
 		"jp_explain": "臨界寸前まで圧縮したフォトンを\n核に使用した自在槍。ワイヤーを必要と\nせず、大気中のフォトンで刃を操る。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "120178",
+		"jp_text": "グラテスギルミナド",
+		"tr_text": "Grates Gilminadu",
+		"jp_explain": "臨界寸前まで圧縮したフォトンの\n制御に成功した自在槍。刃の制御が\nより精密に行えるよう調整された。",
 		"tr_explain": ""
 	},
 	{
@@ -924,6 +931,13 @@
 		"tr_explain": "Fearsome wired lances bearing twin\npowers. While difficult to handle, the\npowerful blades annihilate the enemy."
 	},
 	{
+		"assign": "120220",
+		"jp_text": "アクルドグルズ",
+		"tr_text": "Aculd Gulls",
+		"jp_explain": "異なる力を宿した恐るべき自在槍。\n深き闇の力と轟く雷の力を秘めた\n刃は凄まじく、標的を無情に切り刻む。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "120222",
 		"jp_text": "レイランス",
 		"tr_text": "Ray Lance",
@@ -949,6 +963,13 @@
 		"jp_text": "レイニールミラージュ",
 		"tr_text": "Reinier Mirage",
 		"jp_explain": "新開発のフォトンリング機構を搭載した\n自在槍。部品が共鳴し発生するリングが\n装者の索敵能力を補助する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "120226",
+		"jp_text": "レイニールノヴァ",
+		"tr_text": "Reiner Nova",
+		"jp_explain": "新開発のフォトンリング機構を搭載した\n自在槍。リングから発生する波動が\n星さえも貫く威力を生み出す。",
 		"tr_explain": ""
 	},
 	{
@@ -1141,6 +1162,20 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "120257",
+		"jp_text": "クリーサウルミー",
+		"tr_text": "Krisa Urumi",
+		"jp_explain": "豪華絢爛な装飾が施された自在槍。\n振るえば黄金の刃と数多の宝石が\n舞い散り、まばゆい閃光となる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "120258",
+		"jp_text": "ミリオンウルミー",
+		"tr_text": "Million Urumi",
+		"jp_explain": "豪華絢爛な装飾が施された自在槍。\n鋭い刃の変幻自在な動きで敵を捉え\nわずかな抵抗も許さずに引き裂く。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "120259",
 		"jp_text": "クヴェレグリッター",
 		"tr_text": "Quelle Glitter",
@@ -1187,7 +1222,7 @@
 		"jp_text": "ノヴェルランス",
 		"tr_text": "Novel Lance",
 		"jp_explain": "新技術により開発された自在槍。\n次期主力を担う武器として作られた。\n硬い鞘のようなもので覆われている。",
-		"tr_explain": "Wired Lances made with new tech\nto be the next-gen main weapon.\nIt seems to have a hard cover."
+		"tr_explain": "Wired Lances made with new tech\nto be the next-gen main weapon.\nThey seem to have a hard cover."
 	},
 	{
 		"assign": "120274",
@@ -1251,6 +1286,20 @@
 		"tr_text": "Ranma-NT",
 		"jp_explain": "舞い散る枯葉の如く、音もなく\nその刃を敵へと到達させる自在槍。\n触れる者を嵐のように斬り刻む。",
 		"tr_explain": "Like dead leaves falling from trees,\nits blades silently reach the enemy.\nTheir blades shreds its victims."
+	},
+	{
+		"assign": "120287",
+		"jp_text": "クルヴァスティル",
+		"tr_text": "Cruva Stil",
+		"jp_explain": "武器としての機能のみを追求した\n自在槍。高い威力と操作性だけでなく\n洗練された形状も特徴。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "120288",
+		"jp_text": "クルヴァピュラス",
+		"tr_text": "Cruva Puras",
+		"jp_explain": "武器としての機能のみを追求した\n自在槍。極限までに高められた操作性で\n標的を追い詰め、確実に貫く。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "120289",
@@ -1362,7 +1411,7 @@
 		"jp_text": "シホウセイリュウ",
 		"tr_text": "Shihou Seiryu",
 		"jp_explain": "とある地域の神聖な生物をモチーフに\n作られた自在槍。東方を守護する霊獣に\nあやかりたいアークスが愛用する。",
-		"tr_explain": ""
+		"tr_explain": "Wired Lances based on a sacred\nbeast. Favored by ARKS whose\npatron is the Dragon of the East."
 	},
 	{
 		"assign": "120315",

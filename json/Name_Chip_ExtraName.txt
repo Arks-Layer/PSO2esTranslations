@@ -1311,13 +1311,13 @@
 	},
 	{
 		"assign": "4737",
-		"jp_text": "-",
-		"tr_text": ""
+		"jp_text": "炎の双小剣 爆化",
+		"tr_text": "Fire Twin Daggers - Magnification"
 	},
 	{
 		"assign": "4738",
-		"jp_text": "-",
-		"tr_text": ""
+		"jp_text": "炎の双小剣 爆化＋",
+		"tr_text": "Fire Twin Daggers - Magnification+"
 	},
 	{
 		"assign": "4739",
@@ -1511,13 +1511,13 @@
 	},
 	{
 		"assign": "4777",
-		"jp_text": "-",
-		"tr_text": ""
+		"jp_text": "雷の銃剣 爆化",
+		"tr_text": "Lightning Gunslash - Magnification"
 	},
 	{
 		"assign": "4778",
-		"jp_text": "-",
-		"tr_text": ""
+		"jp_text": "雷の銃剣 爆化＋",
+		"tr_text": "Lightning Gunslash - Magnification+"
 	},
 	{
 		"assign": "4779",
@@ -1941,13 +1941,13 @@
 	},
 	{
 		"assign": "4863",
-		"jp_text": "-",
-		"tr_text": ""
+		"jp_text": "風の魔装脚 爆化",
+		"tr_text": "Wind Jet Boots - Magnification"
 	},
 	{
 		"assign": "4864",
-		"jp_text": "-",
-		"tr_text": ""
+		"jp_text": "風の魔装脚 爆化＋",
+		"tr_text": "Wind Jet Boots - Magnification+"
 	},
 	{
 		"assign": "4865",
@@ -2081,13 +2081,13 @@
 	},
 	{
 		"assign": "4891",
-		"jp_text": "-",
-		"tr_text": ""
+		"jp_text": "闇の導具 爆化",
+		"tr_text": "Dark Talis - Magnification"
 	},
 	{
 		"assign": "4892",
-		"jp_text": "-",
-		"tr_text": ""
+		"jp_text": "闇の導具 爆化＋",
+		"tr_text": "Dark Talis - Magnification+"
 	},
 	{
 		"assign": "4893",
@@ -2361,13 +2361,13 @@
 	},
 	{
 		"assign": "1217",
-		"jp_text": "-",
-		"tr_text": ""
+		"jp_text": "ホールディングカレント１（自在槍/風）",
+		"tr_text": "Holding Current 1 (PA/Wind)"
 	},
 	{
 		"assign": "1218",
-		"jp_text": "-",
-		"tr_text": ""
+		"jp_text": "ホールディングカレント１＋（自在槍/風）",
+		"tr_text": "Holding Current 1+ (PA/Wind)"
 	},
 	{
 		"assign": "1221",
@@ -3821,12 +3821,12 @@
 	},
 	{
 		"assign": "2115",
-		"jp_text": "-",
+		"jp_text": "アサギリレンダン１（抜剣/風）",
 		"tr_text": ""
 	},
 	{
 		"assign": "2116",
-		"jp_text": "-",
+		"jp_text": "アサギリレンダン１＋（抜剣/風）",
 		"tr_text": ""
 	},
 	{
@@ -5478,5 +5478,165 @@
 		"assign": "4596",
 		"jp_text": "イル・メギドＥＸ＋（闇の法術）",
 		"tr_text": "Ilmegid EX+ (Dark Technique)"
+	},
+	{
+		"assign": "2315",
+		"jp_text": "モーメントゲイル１（魔装脚/炎）",
+		"tr_text": "Moment Gale 1 (PA/Fire)"
+	},
+	{
+		"assign": "2316",
+		"jp_text": "モーメントゲイル１＋（魔装脚/炎）",
+		"tr_text": "Moment Gale 1+ (PA/Fire)"
+	},
+	{
+		"assign": "2335",
+		"jp_text": "モーメントゲイル２（魔装脚/光）",
+		"tr_text": "Moment Gale 2 (PA/Light)"
+	},
+	{
+		"assign": "2336",
+		"jp_text": "モーメントゲイル２＋（魔装脚/光）",
+		"tr_text": "Moment Gale 2+ (PA/Light)"
+	},
+	{
+		"assign": "2355",
+		"jp_text": "モーメントゲイル３（魔装脚/闇）",
+		"tr_text": "Moment Gale 3 (PA/Dark)"
+	},
+	{
+		"assign": "2356",
+		"jp_text": "モーメントゲイル３＋（魔装脚/闇）",
+		"tr_text": "Moment Gale 3+ (PA/Dark)"
+	},
+	{
+		"assign": "2375",
+		"jp_text": "モーメントゲイルＥＸ（魔装脚/風）",
+		"tr_text": "Moment Gale EX (PA/Wind)"
+	},
+	{
+		"assign": "2376",
+		"jp_text": "モーメントゲイルＥＸ＋（魔装脚/風）",
+		"tr_text": "Moment Gale EX+ (PA/Wind)"
+	},
+	{
+		"assign": "1915",
+		"jp_text": "コスモスブレイカー１（大砲/風）",
+		"tr_text": "Cosmos Breaker 1 (PA/Wind)"
+	},
+	{
+		"assign": "1916",
+		"jp_text": "コスモスブレイカー１＋（大砲/風）",
+		"tr_text": "Cosmos Breaker 1+ (PA/Wind)"
+	},
+	{
+		"assign": "1935",
+		"jp_text": "コスモスブレイカー２（大砲/炎）",
+		"tr_text": "Cosmos Breaker 2 (PA/Fire)"
+	},
+	{
+		"assign": "1936",
+		"jp_text": "コスモスブレイカー２＋（大砲/炎）",
+		"tr_text": "Cosmos Breaker 2+ (PA/Fire)"
+	},
+	{
+		"assign": "1955",
+		"jp_text": "コスモスブレイカー３（大砲/光）",
+		"tr_text": "Cosmos Breaker 3 (PA/Light)"
+	},
+	{
+		"assign": "1956",
+		"jp_text": "コスモスブレイカー３＋（大砲/光）",
+		"tr_text": "Cosmos Breaker 3+ (PA/Light)"
+	},
+	{
+		"assign": "1975",
+		"jp_text": "コスモスブレイカーＥＸ（大砲/闇）",
+		"tr_text": "Cosmos Breaker EX (PA/Dark)"
+	},
+	{
+		"assign": "1976",
+		"jp_text": "コスモスブレイカーＥＸ＋（大砲/闇）",
+		"tr_text": "Cosmos Breaker EX+ (PA/Dark)"
+	},
+	{
+		"assign": "1317",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "1318",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "1337",
+		"jp_text": "ライジングフラッグ２（長槍/雷）",
+		"tr_text": "Rising Flag 2 (PA/Lightning)"
+	},
+	{
+		"assign": "1338",
+		"jp_text": "ライジングフラッグ２＋（長槍/雷）",
+		"tr_text": "Rising Flag 2+ (PA/Lightning)"
+	},
+	{
+		"assign": "1357",
+		"jp_text": "ライジングフラッグ３（長槍/氷）",
+		"tr_text": "Rising Flag 3 (PA/Ice)"
+	},
+	{
+		"assign": "1358",
+		"jp_text": "ライジングフラッグ３＋（長槍/氷）",
+		"tr_text": "Rising Flag 3+ (PA/Ice)"
+	},
+	{
+		"assign": "1377",
+		"jp_text": "ライジングフラッグＥＸ（長槍/闇）",
+		"tr_text": "Rising Flag EX (PA/Dark)"
+	},
+	{
+		"assign": "1378",
+		"jp_text": "ライジングフラッグＥＸ＋（長槍/闇）",
+		"tr_text": "Rising Flag EX+ (PA/Dark)"
+	},
+	{
+		"assign": "1615",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "1616",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "1635",
+		"jp_text": "フラッシュサウザンド２（鋼拳/風）",
+		"tr_text": "Flash Thousand 2 (PA/Wind)"
+	},
+	{
+		"assign": "1636",
+		"jp_text": "フラッシュサウザンド２＋（鋼拳/風）",
+		"tr_text": "Flash Thousand 2+ (PA/Wind)"
+	},
+	{
+		"assign": "1657",
+		"jp_text": "フラッシュサウザンド３（鋼拳/光）",
+		"tr_text": "Flash Thousand 3 (PA/Light)"
+	},
+	{
+		"assign": "1658",
+		"jp_text": "フラッシュサウザンド３＋（鋼拳/光）",
+		"tr_text": "Flash Thousand 3+ (PA/Light)"
+	},
+	{
+		"assign": "1677",
+		"jp_text": "フラッシュサウザンドＥＸ（鋼拳/雷）",
+		"tr_text": "Flash Thousand EX (PA/Lightning)"
+	},
+	{
+		"assign": "1678",
+		"jp_text": "フラッシュサウザンドＥＸ＋（鋼拳/雷）",
+		"tr_text": "Flash Thousand EX+ (PA/Lightning)"
 	}
 ]
