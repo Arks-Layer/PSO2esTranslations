@@ -215,8 +215,11 @@ character_names = {
     "研究所職員": "Laboratory Staff", "アナウンス": "Announcement",
     "ナレーション(手紙)": "Narration (Letter)", "スサノグレン": "Susano Guren",
     "みんな": "Everyone", "男性ウェポノイド陣": "Male Weaponoids",
-    "スマッシュハリセン": "Smash Harisen",
-    "ナレーション": "Narration", "？？？": "???" #Generics
+    "スマッシュハリセン": "Smash Harisen", "女性客": "Female Customer",
+    "ガラの悪い男性アークス": "Vulgar Male ARKS", "ヤスミノコフ８０００C": "Yasminkov 8000C",
+    "モア&ウェポノイドたち": "More & Weaponoids",
+    "ナレーション": "Narration", "ナレーション（ジェネ）": "Narration (Gene)",
+    "？？？": "???" #Generics
     }
 
 for name in file_names:
