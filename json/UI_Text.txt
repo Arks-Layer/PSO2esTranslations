@@ -5757,7 +5757,7 @@
 	{
 		"assign": "quest_counter_header_dps",
 		"jp_text": "限界チャレンジ",
-		"tr_text": ""
+		"tr_text": "Challenge Test"
 	},
 	{
 		"assign": "quest_counter_header_special",
@@ -6647,7 +6647,7 @@
 	{
 		"assign": "quest_text_err",
 		"jp_text": "<color=#f0df60>＜セラフィのアドバイスを活用しよう＞</color>\n私のアドバイス、ご活用いただけていますか？\n困ったときや、行き詰ったとき\n少しでもお役に立てていれば嬉しいです。",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60><Use Seraphy's Advice></color>\nHave you been using my advice?\nI'd like to be able to help you out when\nyou get stuck or you're having trouble,\neven if it's only a little."
 	},
 	{
 		"assign": "quest_line_00",
@@ -7912,7 +7912,7 @@
 	{
 		"assign": "luster",
 		"jp_text": "ラスター",
-		"tr_text": ""
+		"tr_text": "Luster"
 	},
 	{
 		"assign": "ship_01",
@@ -12552,7 +12552,7 @@
 	{
 		"assign": "wh_28_00",
 		"jp_text": "緊急クエストでオペレーションスコアをためると\n緊急イベントの「緊急ミッション」のページから\nさまざまな報酬を受け取れます。",
-		"tr_text": ""
+		"tr_text": "When viewing your Operation Score,\nyou can receive various rewards\nfrom the \"Emergency Mission\" tab."
 	},
 	{
 		"assign": "wh_28_01",
@@ -15477,7 +15477,7 @@
 	{
 		"assign": "RaidEvent_tab_02",
 		"jp_text": "ボーナス\nスクラッチ",
-		"tr_text": ""
+		"tr_text": "Bonus\nScratch"
 	},
 	{
 		"assign": "RaidEvent_tab_03",
@@ -15487,17 +15487,17 @@
 	{
 		"assign": "RaidEvent_Achievement_Title",
 		"jp_text": "緊急ミッション",
-		"tr_text": ""
+		"tr_text": "Emergency Mission"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Remain",
 		"jp_text": "残り {0}",
-		"tr_text": ""
+		"tr_text": "{0} left"
 	},
 	{
 		"assign": "RaidEvent_Achievement_GetAll",
 		"jp_text": "すべて受け取る",
-		"tr_text": ""
+		"tr_text": "Receive All"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Sort",
@@ -15512,32 +15512,32 @@
 	{
 		"assign": "RaidEvent_Achievement_Sort_PreComplete",
 		"jp_text": "挑戦可能",
-		"tr_text": ""
+		"tr_text": "Incomplete"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Sort_HasReceived",
 		"jp_text": "受取済",
-		"tr_text": ""
+		"tr_text": "Received"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Sort_Ended",
 		"jp_text": "未達成",
-		"tr_text": ""
+		"tr_text": "Failed"
 	},
 	{
 		"assign": "RaidEvent_Achievement_AchievementItems",
 		"jp_text": "イベント期間限定",
-		"tr_text": ""
+		"tr_text": "Time-Limited"
 	},
 	{
 		"assign": "RaidEvent_Achievement_AchievementUnionItems",
 		"jp_text": "オペレーションスコア",
-		"tr_text": ""
+		"tr_text": "Operation Score"
 	},
 	{
 		"assign": "RaidEvent_Achievement_DailyAchievementItems",
 		"jp_text": "デイリー",
-		"tr_text": ""
+		"tr_text": "Daily"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Receive",
@@ -15547,7 +15547,7 @@
 	{
 		"assign": "RaidEvent_Achievement_Ended",
 		"jp_text": "終了",
-		"tr_text": ""
+		"tr_text": "Ended"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Return",
@@ -15557,132 +15557,132 @@
 	{
 		"assign": "RaidEvent_Achievement_RewardText",
 		"jp_text": "<color=#f39800>報酬</color> {0}",
-		"tr_text": ""
+		"tr_text": "<color=#f39800>Reward:</color> {0}"
 	},
 	{
 		"assign": "RaidEvent_Achievement_LevelText",
 		"jp_text": "<color=#ffff00>達成度({0}/{1})</color>",
-		"tr_text": ""
+		"tr_text": "<color=#ffff00>Level ({0}/{1})</color>"
 	},
 	{
 		"assign": "RaidEvent_Achievement_esOrder",
 		"jp_text": "esミッション",
-		"tr_text": ""
+		"tr_text": "es Mission"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Getitem_Dialog_Title",
 		"jp_text": "受け取り完了",
-		"tr_text": "Reception Complete"
+		"tr_text": "Items Received"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Getallitem_Dialog_Title",
 		"jp_text": "一括受け取り完了",
-		"tr_text": ""
+		"tr_text": "All Items Received"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-0",
 		"jp_text": "イベント期間限定のミッションを{0}個達成",
-		"tr_text": ""
+		"tr_text": "Complete {0} missions during the event"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-1",
 		"jp_text": "合計{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} total enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-2",
 		"jp_text": "初級を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Normal enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-3",
 		"jp_text": "中級を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Hard enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-4",
 		"jp_text": "上級を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Very Hard enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-5",
 		"jp_text": "救援を{0}回行う",
-		"tr_text": ""
+		"tr_text": "Go to the rescue {0} times"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-6",
 		"jp_text": "オペレーションスコア{0:#,0}pt達成",
-		"tr_text": ""
+		"tr_text": "Reach an Operation Score of {0:#,0}"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-8",
 		"jp_text": "タイプCを{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Type-C enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-9",
 		"jp_text": "特異種を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Exceptional enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-10",
 		"jp_text": "狂暴種を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Violent enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-11",
 		"jp_text": "大型種を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Large enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-12",
 		"jp_text": "小型種を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Small enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-17",
 		"jp_text": "未知種を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Unknown enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-18",
 		"jp_text": "超級を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Super Hard enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-20",
 		"jp_text": "覇級を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Extra Hard enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-22",
 		"jp_text": "覇滅種を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Superior enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-0",
 		"jp_text": "デイリーの緊急ミッションを{0}個達成",
-		"tr_text": ""
+		"tr_text": "Clear {0} Daily Emergency Missions"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-1",
 		"jp_text": "合計{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} total enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-2",
 		"jp_text": "初級を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Normal enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-3",
 		"jp_text": "中級を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Hard enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-4",
 		"jp_text": "上級を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Very Hard enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_list_00",
@@ -15722,7 +15722,7 @@
 	{
 		"assign": "raidEvent_SortType_2",
 		"jp_text": "受取可能",
-		"tr_text": ""
+		"tr_text": "Receivable"
 	},
 	{
 		"assign": "raidEvent_ClearCount",
@@ -15977,7 +15977,7 @@
 	{
 		"assign": "menu_invite_reward_list_receive",
 		"jp_text": "受け取る",
-		"tr_text": ""
+		"tr_text": "Receive"
 	},
 	{
 		"assign": "invite_dialog_t_01",
@@ -16597,12 +16597,12 @@
 	{
 		"assign": "wh_32_04",
 		"jp_text": "＜連動経験値について＞\nペットにエッグ、またはチップを合成すると\nそのアイテムのレアリティに応じて連動経験値がたまります。",
-		"tr_text": ""
+		"tr_text": "<Linked EXP>\nWhen you Synthesize a chip or an egg\ninto a Pet, you will receive Linked EXP\nbased on the rarity of the item used."
 	},
 	{
 		"assign": "wh_32_05",
 		"jp_text": "＜合成可能回数について＞\n合成可能回数は、ペットごとにカウントされ\n4：00、12：00、20：00 のタイミングでリセットされます。",
-		"tr_text": ""
+		"tr_text": "<Maximum Synthesis Counters>\nEach Pet has its own Synthesis count.\nThey reset at 04:00, 12:00 and 20:00 JST."
 	},
 	{
 		"assign": "wh_32_06",
@@ -18997,7 +18997,7 @@
 	{
 		"assign": "acceptbox_dialog_t_3",
 		"jp_text": "受け取り完了",
-		"tr_text": ""
+		"tr_text": "Items Received"
 	},
 	{
 		"assign": "acceptbox_dialog_b_3",
@@ -19817,12 +19817,12 @@
 	{
 		"assign": "quest_clear_reward_dialog_title_5022608",
 		"jp_text": "シリーズクエストクリア！",
-		"tr_text": ""
+		"tr_text": "Series Quest Clear!"
 	},
 	{
 		"assign": "quest_clear_reward_dialog_body_5022608",
 		"jp_text": "クラン オブ ネメシス＆スレイヴ\n外典 第8話「昨日の敵は今日の」\nクリアおめでとうございます！\n以下のクリア報酬をプレゼントいたしました。\n受け取りボックスをご確認ください。",
-		"tr_text": ""
+		"tr_text": "Congratulations on clearing Clan of Nemesis & Slave\nExtra Episode 8 \"昨日の敵は今日の\"!\nYou have received the Clear Reward below.\nPlease check your Reception Box."
 	},
 	{
 		"assign": "recommended_equipment",
@@ -21532,22 +21532,22 @@
 	{
 		"assign": "wh_41_01",
 		"jp_text": "＜ダークブラスト訓練について＞ \nこのメニューでは、『ＰＳＯ２』で習得しているダークブラストに\nチップを合成し、ダークブラストＥＸＰを獲得することができます。",
-		"tr_text": ""
+		"tr_text": "<Dark Blast Training>\nIn this menu, you can earn Dark Blast\nEXP by synthesizing chips into the\nDark Blasts you have earned in PSO2."
 	},
 	{
 		"assign": "wh_41_02",
 		"jp_text": "チップを合成すると、チップのレアリティやカテゴリに応じた\nダークブラストＥＸＰが付与されます。",
-		"tr_text": ""
+		"tr_text": "Synthesizing chips into a Dark Blast will give Dark Blast EXP based on the rarity and type of the chip."
 	},
 	{
 		"assign": "wh_41_03",
 		"jp_text": "＜合成可能回数について＞\n合成可能回数は、フォームごとにカウントされ\n4：00、12：00、20：00 のタイミングでリセットされます。",
-		"tr_text": ""
+		"tr_text": "<Maximum Synthesis Counters>\nEach Form has its own synthesis count.\nThey reset at 04:00, 12:00 and 20:00 JST."
 	},
 	{
 		"assign": "wh_41_04",
 		"jp_text": "また、合成可能回数は、<%AC>で回復することもできます。",
-		"tr_text": ""
+		"tr_text": "You can also reset your available synthesis counts\nby spending <%AC>."
 	},
 	{
 		"assign": "darkerblast_exp_over_title",
@@ -21562,12 +21562,12 @@
 	{
 		"assign": "darkerblast_give_num_format",
 		"jp_text": "× {0}",
-		"tr_text": ""
+		"tr_text": "x {0}"
 	},
 	{
 		"assign": "pet_give_num_format",
 		"jp_text": "× {0}",
-		"tr_text": ""
+		"tr_text": "x {0}"
 	},
 	{
 		"assign": "window_help_LM28",
@@ -21882,12 +21882,12 @@
 	{
 		"assign": "dailyorder_guide_00",
 		"jp_text": "<color=#f0df60>esミッションを達成することで報酬を獲得できます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Earn rewards by completing es Missions.</color>"
 	},
 	{
 		"assign": "dailyorder_no_item",
 		"jp_text": "現在達成できるesミッションはありません。",
-		"tr_text": ""
+		"tr_text": "There are no es Missions available."
 	},
 	{
 		"assign": "window_help_LM30",
@@ -21897,42 +21897,42 @@
 	{
 		"assign": "dailyorder_title",
 		"jp_text": "esミッション",
-		"tr_text": ""
+		"tr_text": "es Missions"
 	},
 	{
 		"assign": "dailyorder_level",
 		"jp_text": "<color=#ffff00>達成度({0}/{1})</color>",
-		"tr_text": ""
+		"tr_text": "<color=#ffff00>Level ({0}/{1})</color>"
 	},
 	{
 		"assign": "dailyorder_reward",
 		"jp_text": "<color=#f39800>報酬</color> {0}",
-		"tr_text": ""
+		"tr_text": "<color=#f39800>Reward:</color> {0}"
 	},
 	{
 		"assign": "dailyorder_move",
 		"jp_text": "移動",
-		"tr_text": ""
+		"tr_text": "Move"
 	},
 	{
 		"assign": "dailyorder_emergency_mission",
 		"jp_text": "緊急ミッション",
-		"tr_text": ""
+		"tr_text": "Emergency Missions"
 	},
 	{
 		"assign": "dailyorder_mainte_expire",
 		"jp_text": "{0} メンテまで",
-		"tr_text": ""
+		"tr_text": "{0} until maint."
 	},
 	{
 		"assign": "trigger_burst_used_num_yellow",
 		"jp_text": "<color=yellow>【x{0}】</color>",
-		"tr_text": ""
+		"tr_text": "<color=yellow>[x{0}]</color>"
 	},
 	{
 		"assign": "trigger_burst_used_num_red",
 		"jp_text": "<color=red>【x{0}】</color>",
-		"tr_text": ""
+		"tr_text": "<color=red>[x{0}]</color>"
 	},
 	{
 		"assign": "weapon_potential_awake_title",
@@ -22257,7 +22257,7 @@
 	{
 		"assign": "fellow_list_sort_order_title",
 		"jp_text": "並び替え",
-		"tr_text": ""
+		"tr_text": "Sort"
 	},
 	{
 		"assign": "fellow_list_blank_guide_message",
@@ -22267,17 +22267,17 @@
 	{
 		"assign": "raiddps_guid_top",
 		"jp_text": "<color=yellow>限界チャレンジの進行状況画面です。「遊び方」バナーから詳しい遊び方を確認できます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=yellow>This is the Challenge Test progress screen. Select \"How to Play\" to find out how to participate.</color>"
 	},
 	{
 		"assign": "raiddps_guid_ranking",
 		"jp_text": "<color=yellow>限界チャレンジの順位です。</color>",
-		"tr_text": ""
+		"tr_text": "<color=yellow>This is the Challenge Test rankings.</color>"
 	},
 	{
 		"assign": "raiddps_guid_achievement",
 		"jp_text": "<color=yellow>限界チャレンジの達成報酬です。入手条件を満たすと、報酬を受け取ることができます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=yellow>These are the Challenge Test Achievements. You can receive rewards if you have met the Achivement requirements.</color>"
 	},
 	{
 		"assign": "raiddps_banner_how_to_play",
@@ -22352,7 +22352,7 @@
 	{
 		"assign": "raid_dps_return_button",
 		"jp_text": "戻る",
-		"tr_text": ""
+		"tr_text": "Return"
 	},
 	{
 		"assign": "raid_event_current_button",
@@ -22932,7 +22932,7 @@
 	{
 		"assign": "auto_sale_setting_guide_message",
 		"jp_text": "<color=#f0df60>クエストやＦＵＮチップスクラッチで入手したアイテムとチップを、受け取りボックスへ送り、「一括売却」する設定を行います。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Select items obtained from quests and FUN Chip Scratches to be automatically sold in bulk from the Reception Box.</color>"
 	},
 	{
 		"assign": "auto_sale_setting_window_title",
@@ -22952,7 +22952,7 @@
 	{
 		"assign": "auto_sale_setting_chip_tab",
 		"jp_text": "チップ",
-		"tr_text": ""
+		"tr_text": "Chips"
 	},
 	{
 		"assign": "auto_sale_setting_tab_on",
@@ -22967,12 +22967,12 @@
 	{
 		"assign": "auto_sale_setting_disc",
 		"jp_text": "<color=#f0df60>全ての条件を満たすと、「一括売却」に登録されます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>All matching items will be designated for Bulk Sale.</color>"
 	},
 	{
 		"assign": "auto_sale_setting_disc_chip",
 		"jp_text": "<color=#f0df60>レアリティを設定すると、「一括売却」に登録されます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>※All items of this rarity will be designated for Bulk Sale.</color>"
 	},
 	{
 		"assign": "auto_sale_setting_rarity_text",
@@ -23017,7 +23017,7 @@
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_title_chip",
 		"jp_text": "保護設定 / チップ",
-		"tr_text": ""
+		"tr_text": "Exclusions / Chips"
 	},
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_disc_off",
@@ -23032,12 +23032,12 @@
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_disc_chip_off",
 		"jp_text": "<color=#f0df60>受取一括売却設定が\n「ON」になると変更できます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Can only be changed when\nBulk Sale is set to ON.</color>"
 	},
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_disc_chip_on",
 		"jp_text": "<color=#f0df60>保護したカテゴリのチップを\n一括売却の対象外にします。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>You can protect certain chip\ncategories from Bulk Sale.</color>"
 	},
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_soul_receptor",
@@ -23062,12 +23062,12 @@
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_chip_pate",
 		"jp_text": "必殺技・法術",
-		"tr_text": ""
+		"tr_text": "PAs/Techs"
 	},
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_chip_mag",
 		"jp_text": "マグ",
-		"tr_text": ""
+		"tr_text": "Mags"
 	},
 	{
 		"assign": "auto_sale_setting_save_button",
@@ -23142,12 +23142,12 @@
 	{
 		"assign": "auto_sale_setting_chip_explanation",
 		"jp_text": "※初めて入手するチップや\n　　素材チップは対象に含まれません。",
-		"tr_text": ""
+		"tr_text": "※New chips and material\n   chips are not included."
 	},
 	{
 		"assign": "auto_sale_setting_chip_info_button",
 		"jp_text": "一括売却チップ一覧",
-		"tr_text": ""
+		"tr_text": "Chip Bulk Sale List"
 	},
 	{
 		"assign": "acceptbox_goto_all_sale_setting_button",
@@ -23662,7 +23662,7 @@
 	{
 		"assign": "quest_counter_raid_current_new_rank",
 		"jp_text": "<color=#ffff00><%rank>ランク討伐達成</color>まで / ",
-		"tr_text": ""
+		"tr_text": "<color=#ffff00>Rank <%rank> achieved</color> / "
 	},
 	{
 		"assign": "quest_counter_raid_current_new_rank_time",
@@ -23672,11 +23672,11 @@
 	{
 		"assign": "quest_counter_raid_current_new_rank_b",
 		"jp_text": "<color=#ffff00>クエストクリアでBランク討伐</color>",
-		"tr_text": ""
+		"tr_text": "<color=#ffff00>Quest clear rank B achieved</color>"
 	},
 	{
 		"assign": "raid_event_page_term",
 		"jp_text": "<%year>年<%month>月<%day>日(<%week>)<size=12>まで</size>",
-		"tr_text": ""
+		"tr_text": "<%year>-<%month>-<%day> (<%week>)<size=12></size>"
 	}
 ]
