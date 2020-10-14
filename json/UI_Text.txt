@@ -15562,7 +15562,7 @@
 	{
 		"assign": "RaidEvent_Achievement_LevelText",
 		"jp_text": "<color=#ffff00>達成度({0}/{1})</color>",
-		"tr_text": "<color=#ffff00>Level ({0}/{1})</color>"
+		"tr_text": "<color=#ffff00>Completed: {0}/{1}</color>"
 	},
 	{
 		"assign": "RaidEvent_Achievement_esOrder",
@@ -21902,7 +21902,7 @@
 	{
 		"assign": "dailyorder_level",
 		"jp_text": "<color=#ffff00>達成度({0}/{1})</color>",
-		"tr_text": "<color=#ffff00>Level ({0}/{1})</color>"
+		"tr_text": "<color=#ffff00>Completed: {0}/{1}</color>"
 	},
 	{
 		"assign": "dailyorder_reward",
@@ -21912,7 +21912,7 @@
 	{
 		"assign": "dailyorder_move",
 		"jp_text": "移動",
-		"tr_text": "Move"
+		"tr_text": "Go To"
 	},
 	{
 		"assign": "dailyorder_emergency_mission",
@@ -21922,7 +21922,7 @@
 	{
 		"assign": "dailyorder_mainte_expire",
 		"jp_text": "{0} メンテまで",
-		"tr_text": "{0} until maint."
+		"tr_text": "Expires {0}"
 	},
 	{
 		"assign": "trigger_burst_used_num_yellow",
