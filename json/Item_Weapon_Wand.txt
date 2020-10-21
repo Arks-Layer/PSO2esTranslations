@@ -207,7 +207,7 @@
 		"jp_text": "アダマンの杖",
 		"tr_text": "Mace of Adaman",
 		"jp_explain": "魔石『アダマン』を用いた短杖。\n含有フォトンが氷属性に偏っており\n常に先端が冷気を帯びている。",
-		"tr_explain": "This wand uses Adaman Spellstones.\nIts spiked head is tinged with cold\ndue to the ice-based photons it uses."
+		"tr_explain": ""
 	},
 	{
 		"assign": "113030",
@@ -289,9 +289,9 @@
 	{
 		"assign": "113043",
 		"jp_text": "ウィンドミル／ナハト",
-		"tr_text": "Windmill / Nacht",
+		"tr_text": "Windmill / 나흐트",
 		"jp_explain": "闇夜の色を抱く短杖。\n出自の仔細は不明だが、性能は高く\n所有者に大きな力を抱かせる。",
-		"tr_explain": "A wand painted black as night. Its\norigins are unknown, but it inspires\ngreatness in its owner."
+		"tr_explain": ""
 	},
 	{
 		"assign": "113044",
@@ -324,7 +324,7 @@
 	{
 		"assign": "113048",
 		"jp_text": "ブラディグリン",
-		"tr_text": "Bloody Grin",
+		"tr_text": "블러디 Grin",
 		"jp_explain": "過度の干渉を受け変質した短杖。\n大気のフォトンを侵食するように集め\n装者へと還元する。",
 		"tr_explain": ""
 	},
@@ -340,7 +340,7 @@
 		"jp_text": "アーレスウォンド",
 		"tr_text": "Ares Wand",
 		"jp_explain": "白魚の幻獣の力を宿した短杖。装者に\nフォトンブラストの効果で惑わぬ力を\n与え、効率的にフォトンを集束する。",
-		"tr_explain": "A wand harboring the power of a\nPhoton Blast. It focuses the wielder's\nPhotons with perplexing strength."
+		"tr_explain": ""
 	},
 	{
 		"assign": "113051",
@@ -389,7 +389,7 @@
 		"jp_text": "宝剣バルムンク",
 		"tr_text": "Precious Sword Balmung",
 		"jp_explain": "全身を貴重な宝石のみで構成した短杖。\nその構造上、もはや杖ではなく剣であり\n増幅された法力によって敵を両断する。",
-		"tr_explain": "A wand made entirely out of jewelry.\nAs a sword, it can split enemies in\ntwo with its amplified tech power."
+		"tr_explain": ""
 	},
 	{
 		"assign": "113062",
@@ -403,21 +403,21 @@
 		"jp_text": "ステルスウェポン：ＷＡ",
 		"tr_text": "Stealth Weapon: WA",
 		"jp_explain": "認識不能な武器。\n形状はウォンド型。",
-		"tr_explain": "Unknown Weapon.\nSeems to be of the Wand-type."
+		"tr_explain": ""
 	},
 	{
 		"assign": "113067",
 		"jp_text": "赤のウォンド",
 		"tr_text": "Red Wand",
 		"jp_explain": "試験的にカラーリングを\nシンボリックにした短杖。\n目映い赤色は必然的に目を引く。",
-		"tr_explain": "A wand whose experimental coloring\nhas become iconic. The dazzling red\ncatches the eye."
+		"tr_explain": ""
 	},
 	{
 		"assign": "113068",
 		"jp_text": "青のウォンド",
 		"tr_text": "Blue Wand",
 		"jp_explain": "試験的にカラーリングを\nシンボリックにした短杖。\n目映い青色は必然的に目を引く。",
-		"tr_explain": "A wand whose experimental coloring\nhas become iconic. The dazzling blue\ncatches the eye."
+		"tr_explain": ""
 	},
 	{
 		"assign": "113070",
@@ -501,7 +501,7 @@
 		"jp_text": "マジカルピース",
 		"tr_text": "Magical Piece",
 		"jp_explain": "先端に備えた魔石がテクニックの\n威力を増幅させる魔法の短杖。\n愛の力も増幅させるという。",
-		"tr_explain": "The magic stone at this wand's tip\namplifies the power of its Techniques,\nbut also amplifies the power of love."
+		"tr_explain": ""
 	},
 	{
 		"assign": "113094",
@@ -597,21 +597,21 @@
 	{
 		"assign": "1130123",
 		"jp_text": "バイオパイラス",
-		"tr_text": "Bio Pyrus",
+		"tr_text": "바이오 Pyrus",
 		"jp_explain": "最先端の生体工学を応用し開発された\n短杖。フォトンバランス自己制御機構の\n働きにより、大型だが扱いやすい。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1130124",
 		"jp_text": "ライブパイラス",
-		"tr_text": "Live Pyrus",
+		"tr_text": "라이브 Pyrus",
 		"jp_explain": "最先端の生体工学を応用し開発された\n短杖。充填された高純度培養液が常に\n法撃力を蓄積し爆発的攻撃を仕掛ける。",
-		"tr_explain": "A wand made with state-of-the-art\nbioengineering. Enhanced with a\nhigh-purity culture solution."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130125",
 		"jp_text": "ブラッドパイラス",
-		"tr_text": "Blood Pyrus",
+		"tr_text": "블러드 Pyrus",
 		"jp_explain": "最先端の生体工学を応用し開発された\n短杖。生細胞液の循環により赤味を帯び\nあらゆる状況下での機能低下を防ぐ。",
 		"tr_explain": ""
 	},
@@ -730,7 +730,7 @@
 	{
 		"assign": "1130161",
 		"jp_text": "新光小槌",
-		"tr_text": "Pristine Small Hammer",
+		"tr_text": "신광Small Hammer",
 		"jp_explain": "伝承上の大国の意匠を模した短杖。\n伝統的な模様が全体に描かれており\n美術品としての評価も高い。",
 		"tr_explain": ""
 	},
@@ -781,14 +781,14 @@
 		"jp_text": "ネメシスクロス",
 		"tr_text": "Nemesis Cross",
 		"jp_explain": "古の時代に封印された聖なる短杖。\n装者の精神と同調することで\n秘められた浄化の力を発揮する。",
-		"tr_explain": "A sealed holy weapon from an early\nera. It releases its hidden purifying\npower in tandem with the user's will."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130187",
 		"jp_text": "スレイヴクロス",
 		"tr_text": "Slave Cross",
 		"jp_explain": "古の時代に封印された邪なる短杖。\n装者の闘争本能に呼応して\n封じられた破壊の力を発揮する。",
-		"tr_explain": "A sealed devil weapon from an early\nera. The user's hardships will call the\npower of destruction sealed within."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130188",
@@ -814,7 +814,7 @@
 	{
 		"assign": "1130197",
 		"jp_text": "イデアルヘクセ",
-		"tr_text": "Ideal Hexe",
+		"tr_text": "이데알 Hexe",
 		"jp_explain": "新開発のフォトンジェネレーターを\n搭載した短杖。発せられる\nフォトンの輝きは次代の証とされる。",
 		"tr_explain": ""
 	},
@@ -828,21 +828,21 @@
 	{
 		"assign": "1130211",
 		"jp_text": "ノクスキュクロス",
-		"tr_text": "Nox Qucross",
+		"tr_text": "녹스 Qucross",
 		"jp_explain": "外法にも近い特別な儀式によって\n生み出された黒き短杖。\n装者も恐怖するほどの強大な力を宿す。",
-		"tr_explain": "A black wand produced in an illicit\nritual. The mighty power it holds\nterrifies even its wielder."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130212",
 		"jp_text": "レーテキュクロス",
-		"tr_text": "Raete Qucross",
+		"tr_text": "레테 Qucross",
 		"jp_explain": "正当な手順を経た儀式により\n生み出された白き短杖。\n装者を守護する、絶大な力を宿す。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1130213",
 		"jp_text": "キュクロスアリオン",
-		"tr_text": "Qucross Arion",
+		"tr_text": "Qucross 아리온",
 		"jp_explain": "数多の儀式を施し、錬成の果てに\n生み出された紫の短杖。\n装者の感情を力に変えると言われる。",
 		"tr_explain": ""
 	},
@@ -884,70 +884,70 @@
 	{
 		"assign": "1130230",
 		"jp_text": "バジリスアマド",
-		"tr_text": "Basilis Amado",
+		"tr_text": "바지리스 Amado",
 		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n短杖。フォトンを過剰に取り込むため\n法撃性能は優れているが、扱いづらい。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1130235",
 		"jp_text": "ディアルナン",
-		"tr_text": "Dia Renan",
+		"tr_text": "디아 Renan",
 		"jp_explain": "臨界寸前まで圧縮したフォトンを\n核に使用した短杖。フォトン感応を\n限界まで引き上げるため制御が難しい。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1130236",
 		"jp_text": "グラテスルナン",
-		"tr_text": "Grates Renan",
+		"tr_text": "그라테스 Renan",
 		"jp_explain": "臨界寸前まで圧縮したフォトンの\n制御に成功した短杖。テクニックの\n使用を補助する機構が内蔵されている。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1130237",
 		"jp_text": "ギクスルナン",
-		"tr_text": "Gix Renan",
+		"tr_text": "기크스 Renan",
 		"jp_explain": "臨界寸前まで圧縮したフォトンと\n同調した短杖。装者の精神とリンクし\n想いの力がテクニックを強化する。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1130238",
 		"jp_text": "インヴェイドアックス",
-		"tr_text": "Invade Axe",
+		"tr_text": "인베이드 Axe",
 		"jp_explain": "【深遠なる闇】より生まれし負の短杖。\n装者に万の叡知を与えるが\n絶対的な力の信奉者へと変貌させる。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1130239",
 		"jp_text": "オフスティアアックス",
-		"tr_text": "Austere Axe",
+		"tr_text": "옵스티어 Axe",
 		"jp_explain": "負の力を識り、制することで転化した\n浄化の短杖。与えられた大いなる明智は\n災難を鎮め、平安をもたらす力となる。",
-		"tr_explain": "A purified wand. Its great wisdom\ncalms disasters through the power\nof peace."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130241",
 		"jp_text": "壊杖ファンタズマ",
 		"tr_text": "Corrupted Wand Phantasma",
 		"jp_explain": "￥黒衣マトイウォンド",
-		"tr_explain": "￥Black Robed Matoi Wand"
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130242",
 		"jp_text": "エイトライオービット",
-		"tr_text": "Eightrei Orbit",
+		"tr_text": "Eightrei 오비트",
 		"jp_explain": "新開発のフォトンリング機構を搭載した\n短杖。展開された部品が合体し\n万象を守護する刃へと姿を変える。",
-		"tr_explain": "A Wand with a Photon Ring Device.\nThe expanded parts can form into a\nblade that can protect the universe."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130243",
 		"jp_text": "エイトライミラージュ",
-		"tr_text": "Eightrei Mirage",
+		"tr_text": "Eightrei 미라쥬",
 		"jp_explain": "新開発のフォトンリング機構を搭載した\n短杖。部品が共鳴し発生するリングが\nテクニック行使を自動で最適化する。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1130244",
 		"jp_text": "エイトライノヴァ",
-		"tr_text": "Eightrei Nova",
+		"tr_text": "Eightrei 노바",
 		"jp_explain": "新開発のフォトンリング機構を搭載した\n短杖。リングから発生する波動により\n高いフォトン伝導率を維持している。",
 		"tr_explain": ""
 	},
@@ -1019,7 +1019,7 @@
 		"jp_text": "フォームサイス",
 		"tr_text": "Form Scythe",
 		"jp_explain": "近接武器の設計図を基に開発された\n短杖。鎌の設計が基となっており\n軽量ながらも高い切れ味を発揮する。",
-		"tr_explain": "A prototype wand based on a\nscythe. Its lightweight structure\nexhibits unparalleled cutting force."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130271",
@@ -1033,21 +1033,21 @@
 		"jp_text": "レイウォンド",
 		"tr_text": "Ray Wand",
 		"jp_explain": "次世代の主力として開発された短杖。\n基礎モデルの直系の後継機であり\n出力、安定性共に高いスペックを誇る。",
-		"tr_explain": "A Wand developed as the latest\nmodel, boasting high photon stability\nwith next-gen specifications."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130281",
 		"jp_text": "ユニオンウォンド",
 		"tr_text": "Union Wand",
 		"jp_explain": "次世代の主力として開発された短杖。\n専用ブーストパーツが装着されたことで\n限界を超えた性能を発揮する。",
-		"tr_explain": "A Wand developed as the latest\nmodel. Augmented with boost parts,\nits performance exceeds its limits."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130282",
 		"jp_text": "フォルニスレシオード",
 		"tr_text": "Fornis Ratioed",
 		"jp_explain": "異なる力を宿した恐るべき短杖。\n燃えさかる炎と轟く雷の力は強力で\n苛烈なまでの法撃力をもたらす。",
-		"tr_explain": "A fearsome wand bearing twin\npowers. Blazing fire and crashing\nthunder amplify its Techniques."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130283",
@@ -1159,14 +1159,14 @@
 		"jp_text": "宝剣バルムンク-NT",
 		"tr_text": "Precious Sword Balmung-NT",
 		"jp_explain": "全身を貴重な宝石のみで構成した短杖。\nその構造上、もはや杖ではなく剣であり\n増幅された法力によって敵を両断する。",
-		"tr_explain": "A wand made entirely out of jewelry.\nAs a sword, it can split enemies in\ntwo with its amplified tech power."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130299",
 		"jp_text": "ノクスキュクロス-NT",
-		"tr_text": "Nox Qucross-NT",
+		"tr_text": "녹스 Qucross-NT",
 		"jp_explain": "外法にも近い特別な儀式によって\n生み出された黒き短杖。\n装者も恐怖するほどの強大な力を宿す。",
-		"tr_explain": "A black wand produced in an illicit\nritual. The mighty power it holds\nterrifies even its wielder."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130300",
@@ -1201,14 +1201,14 @@
 		"jp_text": "寒覇",
 		"tr_text": "Kanpa",
 		"jp_explain": "極寒の地に住まう民族の長が所有したと\n言われている短杖。雪雲を操り\nそれによって集落を守っていたという。",
-		"tr_explain": "A Wand seized from the ruler of the\nfrigid lands. It was used to conceal\nthe settlements within a snowstorm."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130314",
 		"jp_text": "アストラデプリ",
 		"tr_text": "Astra Depri",
 		"jp_explain": "マザーの残滓たる、幻創の短杖。\n装者は、杖からテクニックを使うための\n道具とされているかのように感じる。",
-		"tr_explain": "A Phantom wand imbued with\nMother's power. It makes tools of its\nusers, depriving them of volition."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130316",
@@ -1241,7 +1241,7 @@
 	{
 		"assign": "1130320",
 		"jp_text": "クリーサメイス",
-		"tr_text": "Krisa Mace",
+		"tr_text": "크리사 Mace",
 		"jp_explain": "豪華絢爛な装飾が施された短杖。\n美しく飾り立てられただけでなく\nどこか機能美も感じさせる。",
 		"tr_explain": ""
 	},
@@ -1255,14 +1255,14 @@
 	{
 		"assign": "1130323",
 		"jp_text": "リュミエルクレール",
-		"tr_text": "Lumiere Claire",
+		"tr_text": "류미엘 Claire",
 		"jp_explain": "古より伝わる陽光の短杖。\n解き放たれし聖なる光の欠片は\n闇を絶ち、祝福に満ちた世を築く。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1130324",
 		"jp_text": "ジュティスクレール",
-		"tr_text": "Jutus Claire",
+		"tr_text": "쥬티스 Claire",
 		"jp_explain": "古より伝わる陽光の短杖。\n清廉なる術士に紡がれし光の祝福は\n生者に力を授け、闇を束縛せん。",
 		"tr_explain": ""
 	},
@@ -1348,14 +1348,14 @@
 		"jp_text": "ノヴェルウォンド",
 		"tr_text": "Novel Wand",
 		"jp_explain": "新技術により開発された短杖。\n次期主力を担う武器として作られた。\n一部機能が制限されている。",
-		"tr_explain": "A wand made with new tech\nto be the next-gen main weapon.\nIt seems to have a hard cover."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130370",
 		"jp_text": "リバレイトウォンド",
 		"tr_text": "Liberate Wand",
 		"jp_explain": "新技術により開発された短杖。\n次期主力を担う武器の真なる姿。\n高い法撃性能と安定性を誇る。",
-		"tr_explain": "A wand made with new tech.\nThe true form of the next-gen\nweapon, high in power and stability."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130371",
@@ -1390,14 +1390,14 @@
 		"jp_text": "ネメシスクロス-NT",
 		"tr_text": "Nemesis Cross-NT",
 		"jp_explain": "古の時代に封印された聖なる短杖。\n装者の精神と同調することで\n秘められた浄化の力を発揮する。",
-		"tr_explain": "A sealed holy weapon from an early\nera. It releases its hidden purifying\npower in tandem with the user's will."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130387",
 		"jp_text": "スレイヴクロス-NT",
 		"tr_text": "Slave Cross-NT",
 		"jp_explain": "古の時代に封印された邪なる短杖。\n装者の闘争本能に呼応して\n封じられた破壊の力を発揮する。",
-		"tr_explain": "A sealed devil weapon from an early\nera. The user's hardships will call the\npower of destruction sealed within."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130388",
@@ -1409,23 +1409,23 @@
 	{
 		"assign": "1130393",
 		"jp_text": "インヴェイドアックス-NT",
-		"tr_text": "Invade Axe-NT",
+		"tr_text": "인베이드 Axe-NT",
 		"jp_explain": "【深遠なる闇】より生まれし負の短杖。\n装者に万の叡知を与えるが\n絶対的な力の信奉者へと変貌させる。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1130394",
 		"jp_text": "オフスティアアックス-NT",
-		"tr_text": "Austere Axe-NT",
+		"tr_text": "옵스티어 Axe-NT",
 		"jp_explain": "負の力を識り、制することで転化した\n浄化の短杖。与えられた大いなる明智は\n災難を鎮め、平安をもたらす力となる。",
-		"tr_explain": "A purified wand. Its great wisdom\ncalms disasters through the power\nof peace."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130395",
 		"jp_text": "ホムラノトモシビ",
-		"tr_text": "Homura no Tomoshibi",
+		"tr_text": "호무라노 Tomoshibi",
 		"jp_explain": "とある地方の伝統意匠を取り入れた\n短杖。絶え間なく燃える灯火を\nあらわす意匠は、美しく厳か。",
-		"tr_explain": "A wand based on a traditional design.\nThe beautiful design represents an\neternal flame."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130397",
@@ -1451,35 +1451,35 @@
 	{
 		"assign": "1130403",
 		"jp_text": "グレンノトモシビ",
-		"tr_text": "Guren no Tomoshibi",
+		"tr_text": "그렌노 Tomoshibi",
 		"jp_explain": "とある地方の伝統意匠を取り入れた\n紅蓮の短杖。絶え間なく燃える灯火を\nあらわす意匠は、美しく厳か。",
-		"tr_explain": "A crimson-flamed wand based on a\ntraditional design. The beautiful\ndesign represents an eternal flame."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130404",
 		"jp_text": "シエンノトモシビ",
-		"tr_text": "Shien no Tomoshibi",
+		"tr_text": "시엔노 Tomoshibi",
 		"jp_explain": "とある地方の伝統意匠を取り入れた\n紫炎の短杖。絶え間なく燃える灯火を\nあらわす意匠は、美しく厳か。",
-		"tr_explain": "A violet-flamed wand based on a\ntraditional design. The beautiful\ndesign represents an eternal flame."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130406",
 		"jp_text": "アーレスウォンド-NT",
 		"tr_text": "Ares Wand-NT",
 		"jp_explain": "白魚の幻獣の力を宿した短杖。装者に\nフォトンブラストの効果で惑わぬ力を\n与え、効率的にフォトンを集束する。",
-		"tr_explain": "A wand harboring the power of a\nPhoton Blast. It focuses the wielder's\nPhotons with perplexing strength."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130407",
 		"jp_text": "セレイグナトス",
-		"tr_text": "Ceres Ignatos",
+		"tr_text": "셀레 Ignatos",
 		"jp_explain": "太古の時代を思い起こさせる短杖。\n失われた技術で作られており\n再現が望まれている。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1130408",
 		"jp_text": "セレイグナトス・ザラ",
-		"tr_text": "Ceres Ignatos Zara",
+		"tr_text": "셀레 Ignatos 자라",
 		"jp_explain": "太古の時代を思わせる短杖。\n神秘の力は目覚め、みなぎる活力は\nすべて扱う者のフォトンへと変わる。",
 		"tr_explain": ""
 	},
@@ -1514,9 +1514,9 @@
 	{
 		"assign": "1130452",
 		"jp_text": "エイトライオービット-NT",
-		"tr_text": "Eightrei Orbit-NT",
+		"tr_text": "Eightrei 오비트-NT",
 		"jp_explain": "新開発のフォトンリング機構を搭載した\n短杖。展開された部品が合体し\n万象を守護する刃へと姿を変える。",
-		"tr_explain": "A Wand with a Photon Ring Device.\nThe expanded parts can form into a\nblade that can protect the universe."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1130453",
