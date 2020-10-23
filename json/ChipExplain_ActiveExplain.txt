@@ -508,14 +508,14 @@
 		"jp_explainShort": "攻撃力を劇的強化＋定期的にＨＰを小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 現在のＨＰを９０％減少させる。\n② 攻撃力を劇的に強化する。\n③ 定期的にＨＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Cuts current HP by 90%.\n②  Increases your ATK by ???.\n③  Recovers HP by ??% every ? seconds.\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "30090",
 		"jp_explainShort": "攻撃力を劇的強化＋定期的にＨＰを小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 現在のＨＰを９０％減少させる。\n② 攻撃力を劇的に強化する。\n③ 定期的にＨＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Cuts current HP by 90%.\n②  Increases your ATK by ???.\n③  Recovers HP by ??% every ? seconds.\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "31009",
@@ -3217,7 +3217,7 @@
 		"jp_explainShort": "目標を追って跳躍する双小剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 定期的にＣＰが減少する代わりに\n　　 与えるダメージを超絶に増加する。\n② ＣＰの回復速度を劇的に強化する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts damage by ???% in exchange for losing\n     ? CP every ?? seconds.\n     <color=yellow>[U-Frame]</color>\n② Boosts your CP recovery by 100%.\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by 290% in exchange for losing\n     ? CP every ?? seconds.\n<color=yellow>SP: </color>Boosts damage by 300% in exchange for losing\n     ? CP every ?? seconds.\n     <color=yellow>[U-Frame]</color>\n② Boosts your CP recovery by 100%.\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32290",
@@ -3245,84 +3245,84 @@
 		"jp_explainShort": "身体を回転させ突撃する両剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 定期的に一定確率で\n　　 ランダムな状態異常になる代わりに\n　　 装備中チップの属性種類数に応じて\n　　 攻撃力を絶大に増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Increases your ATK by ???? x the number of\n     different chip elements equipped in exchange for\n     having a chance to inflict a random status\n     effect on you every ? seconds.\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by 100% + 5% x the number of\n     different chip elements equipped in exchange for\n     having a chance to inflict a random status\n     effect on you every ? seconds.\n<color=yellow>SP: </color>Boosts damage by 105% + 5% x the number of\n     different chip elements equipped in exchange for\n     having a chance to inflict a random status\n     effect on you every ? seconds.\n     <color=yellow>[U-Frame]</color>\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "32298",
 		"jp_explainShort": "身体を回転させ突撃する両剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 定期的に一定確率で\n　　 ランダムな状態異常になる代わりに\n　　 装備中チップの属性種類数に応じて\n　　 攻撃力を絶大に増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "①  Increases your ATK by ???? x the number of\n     different chip elements equipped in exchange for\n     having a chance to inflict a random status\n     effect on you every ? seconds.\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by 110% + 5% x the number of\n     different chip elements equipped in exchange for\n     having a chance to inflict a random status\n     effect on you every ? seconds.\n<color=yellow>SP: </color>Boosts damage by 115% + 5% x the number of\n     different chip elements equipped in exchange for\n     having a chance to inflict a random status\n     effect on you every ? seconds.\n     <color=yellow>[U-Frame]</color>\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "32301",
 		"jp_explainShort": "身体を回転させ突撃する両剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃ダメージを劇的に増加する。\r\n② すべての種族に対して与えるダメージを絶大に増加する。\r\n③ 光属性の属性値と上限値が上昇する。\r\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts attack damage by ??%.\r\n     <color=yellow>[W-Frame]</color>\r\n②  Boosts damage against all races by ???%.\r\n     <color=yellow>[B-Frame]</color>\r\n③  Increases your Light Element and your maximum\r\n     Light value by 20.\r\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32302",
 		"jp_explainShort": "身体を回転させ突撃する両剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃ダメージを劇的に増加する。\r\n② すべての種族に対して与えるダメージを絶大に増加する。\r\n③ 光属性の属性値と上限値が上昇する。\r\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts attack damage by 65%.\r\n     <color=yellow>[W-Frame]</color>\r\n②  Boosts damage against all races by 145%.\r\n     <color=yellow>[B-Frame]</color>\r\n③  Increases your Light Element and your maximum\r\n     Light value by 20.\r\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32328",
 		"jp_explainShort": "身体を回転させ突撃する両剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃対象の敵の弱点に有効な属性による\n　　 ダメージを超絶に増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n③ 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts elemental damage by 260% against\n     enemies weak to that element.\n<color=yellow>SP: </color>Boosts elemental damage by 270% against\n     enemies weak to that element.\n     <color=yellow>[S-Frame]</color>\n②  Reduces CP consumption by 18%.\n     (Even applies to this chip's activation cost)\n③  Recovers 5 CP every ? seconds.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "32329",
 		"jp_explainShort": "身体を回転させ突撃する両剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃対象の敵の弱点に有効な属性による\n　　 ダメージを超絶に増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n③ 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts elemental damage by 280% against\n     enemies weak to that element.\n<color=yellow>SP: </color>Boosts elemental damage by 290% against\n     enemies weak to that element.\n     <color=yellow>[S-Frame]</color>\n② Reduces CP consumption by 18%.\n     (Even applies to this chip's activation cost)\n③  Recovers 5 CP every ? seconds.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "32333",
 		"jp_explainShort": "身体を回転させ突撃する両剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃ダメージを超絶に増加する。\n② 装備中チップの属性種類数に応じて\n　　 敵に与えるダメージを\n　　 装備中の武器における上限値に収束する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts attack damage by ???%.\n     <color=yellow>[W-Frame]</color>\n②  Increases critical hit rate based on the number\n     of different chip elements equipped.\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32334",
 		"jp_explainShort": "身体を回転させ突撃する両剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃ダメージを超絶に増加する。\n② 装備中チップの属性種類数に応じて\n　　 敵に与えるダメージを\n　　 装備中の武器における上限値に収束する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts attack damage by ???%.\n     <color=yellow>[W-Frame]</color>\n②  Increases critical hit rate based on the number\n     of different chip elements equipped.\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32339",
 		"jp_explainShort": "身体を回転させ突撃する両剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃対象の敵の弱点に有効な属性で\n　　 攻撃した場合に与えるダメージを超絶に増加する。\n② 全属性の属性値と上限値が上昇する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 275% against enemy\n     elemental weaknesses.\n<color=yellow>SP: </color>Boosts damage by 285% against enemy\n     elemental weaknesses.\n     <color=yellow>[D-Frame]</color>\n②  Increases all Elements and all maximum values\n     by 20.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "32340",
 		"jp_explainShort": "身体を回転させ突撃する両剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃対象の敵の弱点に有効な属性で\n　　 攻撃した場合に与えるダメージを超絶に増加する。\n② 全属性の属性値と上限値が上昇する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 295% against enemy\n     elemental weaknesses.\n<color=yellow>SP: </color>Boosts damage by 305% against enemy\n     elemental weaknesses.\n     <color=yellow>[D-Frame]</color>\n②  Increases all Elements and all maximum values\n     by 20.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "32345",
 		"jp_explainShort": "身体を回転させ突撃する両剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 定期的に攻撃力をわずかに増加する。（最大時：大きく）\n② 敵から受けるダメージを大きく軽減する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by ??% every ? seconds.\n     (Maximum boost: ???%)\n②  Reduces damage taken from enemies by ??%.\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32346",
 		"jp_explainShort": "身体を回転させ突撃する両剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 定期的に攻撃力をわずかに増加する。（最大時：大きく）\n② 敵から受けるダメージを大きく軽減する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by ??% every ? seconds.\n     (Maximum boost: ???%)\n②  Reduces damage taken from enemies by ??%.\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "35002",
@@ -4967,28 +4967,28 @@
 		"jp_explainShort": "神速の攻撃を行う抜剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "「長槍専用」\n舞う動作を行った後に範囲攻撃を放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Partizan-exclusive]\nDance, then fire off a ranged attack."
 	},
 	{
 		"assign": "51720",
 		"jp_explainShort": "神速の攻撃を行う抜剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "「長槍専用」\n舞う動作を行った後に範囲攻撃を放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Partizan-exclusive]\nDance, then fire off a ranged attack."
 	},
 	{
 		"assign": "51810",
 		"jp_explainShort": "神速の攻撃を行う抜剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "「鋼拳専用」\n回避動作後にジャストアタックとなる一撃を放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Knuckles-exclusive]\nEvade an attack then hit back with a Just Attack."
 	},
 	{
 		"assign": "51820",
 		"jp_explainShort": "神速の攻撃を行う抜剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "「鋼拳専用」\n回避動作後にジャストアタックとなる一撃を放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Knuckles-exclusive]\nEvade an attack then hit back with a Just Attack."
 	},
 	{
 		"assign": "51910",
@@ -7389,112 +7389,112 @@
 		"jp_explainShort": "光属性を小強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "「双小剣用の必殺技」\n前方広範囲を巻き込むような\n斬撃の波を繰り返し、放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Twin Daggers PA]\nRepeatedly fire off slashing waves that\ncover a wide area ahead of you."
 	},
 	{
 		"assign": "60320",
 		"jp_explainShort": "光属性を強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "「双小剣用の必殺技」\n前方広範囲を巻き込むような\n斬撃の波を繰り返し、放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Twin Daggers PA]\nRepeatedly fire off slashing waves that\ncover a wide area ahead of you."
 	},
 	{
 		"assign": "60321",
 		"jp_explainShort": "闇属性を小強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "「双小剣用の必殺技」\n前方広範囲を巻き込むような\n斬撃の波を繰り返し、放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Twin Daggers PA]\nRepeatedly fire off slashing waves that\ncover a wide area ahead of you."
 	},
 	{
 		"assign": "60322",
 		"jp_explainShort": "闇属性を強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "「双小剣用の必殺技」\n前方広範囲を巻き込むような\n斬撃の波を繰り返し、放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Twin Daggers PA]\nRepeatedly fire off slashing waves that\ncover a wide area ahead of you."
 	},
 	{
 		"assign": "60323",
 		"jp_explainShort": "闇属性の法撃による中ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "「双小剣用の必殺技」\n前方広範囲を巻き込むような\n斬撃の波を繰り返し、放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Twin Daggers PA]\nRepeatedly fire off slashing waves that\ncover a wide area ahead of you."
 	},
 	{
 		"assign": "60324",
 		"jp_explainShort": "闇属性の法撃による中ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "「双小剣用の必殺技」\n前方広範囲を巻き込むような\n斬撃の波を繰り返し、放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Twin Daggers PA]\nRepeatedly fire off slashing waves that\ncover a wide area ahead of you."
 	},
 	{
 		"assign": "60325",
 		"jp_explainShort": "中ダメージ＋一定確率で「ポイズン」",
 		"tr_explainShort": "",
 		"jp_explainLong": "「双小剣用の必殺技」\n前方広範囲を巻き込むような\n斬撃の波を繰り返し、放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Twin Daggers PA]\nRepeatedly fire off slashing waves that\ncover a wide area ahead of you."
 	},
 	{
 		"assign": "60326",
 		"jp_explainShort": "中ダメージ＋一定確率で「ポイズン」",
 		"tr_explainShort": "",
 		"jp_explainLong": "「双小剣用の必殺技」\n前方広範囲を巻き込むような\n斬撃の波を繰り返し、放つ。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Twin Daggers PA]\nRepeatedly fire off slashing waves that\ncover a wide area ahead of you."
 	},
 	{
 		"assign": "60327",
 		"jp_explainShort": "プレイヤーの闇属性を劇的強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "「強弓用の必殺技」\n追尾性能が付与された\n複数の矢を同時に発射する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Bullet Bow PA]\nFire multiple arrows simultaneously\nthat home in on the target."
 	},
 	{
 		"assign": "60328",
 		"jp_explainShort": "プレイヤーの闇属性を劇的強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "「強弓用の必殺技」\n追尾性能が付与された\n複数の矢を同時に発射する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Bullet Bow PA]\nFire multiple arrows simultaneously\nthat home in on the target."
 	},
 	{
 		"assign": "60329",
 		"jp_explainShort": "全体に闇属性の法撃による中ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "「強弓用の必殺技」\n追尾性能が付与された\n複数の矢を同時に発射する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Bullet Bow PA]\nFire multiple arrows simultaneously\nthat home in on the target."
 	},
 	{
 		"assign": "60330",
 		"jp_explainShort": "全体に闇属性の法撃による大ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "「強弓用の必殺技」\n追尾性能が付与された\n複数の矢を同時に発射する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Bullet Bow PA]\nFire multiple arrows simultaneously\nthat home in on the target."
 	},
 	{
 		"assign": "60331",
 		"jp_explainShort": "攻撃時に追加で小ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "「強弓用の必殺技」\n追尾性能が付与された\n複数の矢を同時に発射する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Bullet Bow PA]\nFire multiple arrows simultaneously\nthat home in on the target."
 	},
 	{
 		"assign": "60332",
 		"jp_explainShort": "攻撃時に追加で小ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "「強弓用の必殺技」\n追尾性能が付与された\n複数の矢を同時に発射する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Bullet Bow PA]\nFire multiple arrows simultaneously\nthat home in on the target."
 	},
 	{
 		"assign": "60333",
 		"jp_explainShort": "敵から受けるダメージを軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "「強弓用の必殺技」\n追尾性能が付与された\n複数の矢を同時に発射する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Bullet Bow PA]\nFire multiple arrows simultaneously\nthat home in on the target."
 	},
 	{
 		"assign": "60334",
 		"jp_explainShort": "敵から受けるダメージを大軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "「強弓用の必殺技」\n追尾性能が付与された\n複数の矢を同時に発射する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Bullet Bow PA]\nFire multiple arrows simultaneously\nthat home in on the target."
 	},
 	{
 		"assign": "70110",
