@@ -1620,6 +1620,12 @@
 		"tr_explain": "Clear Special Training: Episodes 1~4\nwith an S rank on XH or higher"
 	},
 	{
+		"assign": "101100120",
+		"jp_text": "熾烈な艦破訓練を制し者",
+		"tr_text": "Harsh Fleet Master",
+		"tr_explain": "Clear Mourning of Demise\nwith an S rank on UH"
+	},
+	{
 		"assign": "101100200",
 		"jp_text": "アークス検定２０１７合格者",
 		"tr_text": "ARKS Exam 2017 Certified",
@@ -2037,7 +2043,7 @@
 		"assign": "103000000",
 		"jp_text": "初等訓練生",
 		"tr_text": "Elementary Trainee",
-		"tr_explain": "Complete all the basic training quests"
+		"tr_explain": "Complete the Common, Hunter,\nRanger, Force, Braver, Bouncer\nand Summoner training quests"
 	},
 	{
 		"assign": "104000000",
@@ -2193,7 +2199,7 @@
 		"assign": "107000040",
 		"jp_text": "ダークブラスター",
 		"tr_text": "Dark Blaster",
-		"tr_explain": "Earn enough EXP to fully unlock\nDark Blast Elder Form"
+		"tr_explain": "Earn enough EXP to fully master\nDark Blast Elder Form"
 	},
 	{
 		"assign": "107000050",
@@ -2229,7 +2235,7 @@
 		"assign": "107001040",
 		"jp_text": "ダークブラスター【敗者】",
 		"tr_text": "Dark Blaster [Loser]",
-		"tr_explain": "Earn enough EXP to fully unlock\nDark Blast Loser Form"
+		"tr_explain": "Earn enough EXP to fully master\nDark Blast Loser Form"
 	},
 	{
 		"assign": "107001050",
@@ -2265,7 +2271,7 @@
 		"assign": "107002040",
 		"jp_text": "ダークブラスター【若人】",
 		"tr_text": "Dark Blaster [Apprentice]",
-		"tr_explain": "Earn enough EXP to fully unlock\nDark Blast Apprentice Form"
+		"tr_explain": "Earn enough EXP to fully master\nDark Blast Apprentice Form"
 	},
 	{
 		"assign": "107002050",
@@ -2301,7 +2307,7 @@
 		"assign": "107003040",
 		"jp_text": "ダークブラスター【双子】",
 		"tr_text": "Dark Blaster [Double]",
-		"tr_explain": "Earn enough EXP to fully unlock\nDark Blast Double Form"
+		"tr_explain": "Earn enough EXP to fully master\nDark Blast Double Form"
 	},
 	{
 		"assign": "107003050",
@@ -7580,25 +7586,25 @@
 	{
 		"assign": "305004000",
 		"jp_text": "熾烈な防衛訓練を制し者",
-		"tr_text": "Harsh Training Master",
+		"tr_text": "Harsh Defense Master",
 		"tr_explain": "Clear Mining Base Defense Practice: VR\nwith an S rank on Ultra Hard"
 	},
 	{
 		"assign": "305004010",
 		"jp_text": "苛酷なる防衛訓練の新鋭",
-		"tr_text": "Tough Training Contender",
+		"tr_text": "Tough Defense Contender",
 		"tr_explain": "Clear Mining Base Defense Practice: VR\non Ultra Hard once"
 	},
 	{
 		"assign": "305004020",
 		"jp_text": "苛酷なる防衛訓練の勇士",
-		"tr_text": "Tough Training Challenger",
+		"tr_text": "Tough Defense Challenger",
 		"tr_explain": "Clear Mining Base Defense Practice: VR\non Ultra Hard 5 times"
 	},
 	{
 		"assign": "305004030",
 		"jp_text": "苛酷なる防衛訓練の豪傑",
-		"tr_text": "Tough Training Champion",
+		"tr_text": "Tough Defense Champion",
 		"tr_explain": "Clear Mining Base Defense Practice: VR\non Ultra Hard 10 times"
 	},
 	{
@@ -8222,7 +8228,7 @@
 	{
 		"assign": "309000040",
 		"jp_text": "エンドレスフレンド",
-		"tr_text": "Endless Friend",
+		"tr_text": "Endless Friendship",
 		"tr_explain": "Achieve a Free score of 30,000,000\nin Endless: Memories Beyond"
 	},
 	{
@@ -8240,7 +8246,7 @@
 	{
 		"assign": "309000070",
 		"jp_text": "フォーエバーフレンド",
-		"tr_text": "Forever Friend",
+		"tr_text": "Forever Friendship",
 		"tr_explain": "Achieve a Free score of 140,000,000\nin Endless: Memories Beyond"
 	},
 	{
@@ -8366,7 +8372,7 @@
 	{
 		"assign": "309000340",
 		"jp_text": "エターナルフレンド",
-		"tr_text": "Eternal Friend",
+		"tr_text": "Eternal Friendship",
 		"tr_explain": "Achieve a Free score of 118,000,000\nin Endless: Eternal Rondo"
 	},
 	{
@@ -10491,25 +10497,25 @@
 		"assign": "500500000",
 		"jp_text": "勝負師の誕生",
 		"tr_text": "Birth of a Gambler",
-		"tr_explain": "Obtain a total of 100 Casino Coins"
+		"tr_explain": "Possess a total of 100 Casino Coins\nand access the Title Counter"
 	},
 	{
 		"assign": "500500001",
 		"jp_text": "勝負師の卵",
 		"tr_text": "Young Gambler",
-		"tr_explain": "Obtain a total of 1,000 Casino Coins"
+		"tr_explain": "Possess a total of 1,000 Casino Coins\nand access the Title Counter"
 	},
 	{
 		"assign": "500500002",
 		"jp_text": "一流勝負師",
 		"tr_text": "First-Class Gambler",
-		"tr_explain": "Obtain a total of 5,000 Casino Coins"
+		"tr_explain": "Possess a total of 5,000 Casino Coins\nand access the Title Counter"
 	},
 	{
 		"assign": "500500003",
 		"jp_text": "真剣師",
 		"tr_text": "Serious Gambler",
-		"tr_explain": "Obtain a total of 10,000 Casino Coins"
+		"tr_explain": "Possess a total of 10,000 Casino Coins\nand access the Title Counter"
 	},
 	{
 		"assign": "500500100",
@@ -10592,7 +10598,7 @@
 	{
 		"assign": "500500600",
 		"jp_text": "りりっ！",
-		"tr_text": "Lilichu!",
+		"tr_text": "Lilili!",
 		"tr_explain": "Find the hidden Lillipan in the Casino"
 	},
 	{
@@ -10809,31 +10815,31 @@
 		"assign": "600000100",
 		"jp_text": "鍛冶体験",
 		"tr_text": "Dabbles In Smithing",
-		"tr_explain": "Reach Weapon Extension Lv.10"
+		"tr_explain": "Reach Equipment Extension Lv.10"
 	},
 	{
 		"assign": "600000110",
 		"jp_text": "見習い鍛冶師",
 		"tr_text": "Apprentice Blacksmith",
-		"tr_explain": "Reach Weapon Extension Lv.20"
+		"tr_explain": "Reach Equipment Extension Lv.20"
 	},
 	{
 		"assign": "600000120",
 		"jp_text": "新米鍛冶師",
 		"tr_text": "Budding Blacksmith",
-		"tr_explain": "Reach Weapon Extension Lv.30"
+		"tr_explain": "Reach Equipment Extension Lv.30"
 	},
 	{
 		"assign": "600000130",
 		"jp_text": "熟練鍛冶師",
 		"tr_text": "Skilled Blacksmith",
-		"tr_explain": "Reach Weapon Extension Lv.40"
+		"tr_explain": "Reach Equipment Extension Lv.40"
 	},
 	{
 		"assign": "600000140",
 		"jp_text": "精鋭鍛冶師",
 		"tr_text": "Elite Blacksmith",
-		"tr_explain": "Reach Weapon Extension Lv.50"
+		"tr_explain": "Reach Equipment Extension Lv.50"
 	},
 	{
 		"assign": "600000200",
@@ -10922,38 +10928,38 @@
 	{
 		"assign": "600100100",
 		"jp_text": "見習い武器匠",
-		"tr_text": "Apprentice Weapon Worker",
-		"tr_explain": "Complete 10 Weapon Extension requests"
+		"tr_text": "Apprentice Equipment Worker",
+		"tr_explain": "Complete 10 Equipment Extension requests"
 	},
 	{
 		"assign": "600100110",
 		"jp_text": "新米武器匠",
-		"tr_text": "Budding Weapon Worker",
-		"tr_explain": "Complete 25 Weapon Extension requests"
+		"tr_text": "Budding Equipment Worker",
+		"tr_explain": "Complete 25 Equipment Extension requests"
 	},
 	{
 		"assign": "600100120",
 		"jp_text": "中堅武器匠",
-		"tr_text": "Trained Weapon Worker",
-		"tr_explain": "Complete 50 Weapon Extension requests"
+		"tr_text": "Trained Equipment Worker",
+		"tr_explain": "Complete 50 Equipment Extension requests"
 	},
 	{
 		"assign": "600100130",
 		"jp_text": "上級武器匠",
-		"tr_text": "Advanced Weapon Worker",
-		"tr_explain": "Complete 100 Weapon Extension requests"
+		"tr_text": "Advanced Equipment Worker",
+		"tr_explain": "Complete 100 Equipment Extension requests"
 	},
 	{
 		"assign": "600100140",
 		"jp_text": "熟練の武器匠",
-		"tr_text": "Weapon Working Artisan",
-		"tr_explain": "Complete 200 Weapon Extension requests"
+		"tr_text": "Equipment Working Artisan",
+		"tr_explain": "Complete 200 Equipment Extension requests"
 	},
 	{
 		"assign": "600100150",
 		"jp_text": "著名な武器匠",
-		"tr_text": "Weapon Working Master",
-		"tr_explain": "Complete 300 Weapon Extension requests"
+		"tr_text": "Equipment Working Master",
+		"tr_explain": "Complete 300 Equipment Extension requests"
 	},
 	{
 		"assign": "600100200",
@@ -11067,49 +11073,49 @@
 		"assign": "600200100",
 		"jp_text": "鍛冶体験者",
 		"tr_text": "Has Tried Extending",
-		"tr_explain": "Perform 10 Weapon Extensions"
+		"tr_explain": "Perform 10 Equipment Extensions"
 	},
 	{
 		"assign": "600200110",
 		"jp_text": "鍛冶初心者",
 		"tr_text": "Extending Beginner",
-		"tr_explain": "Perform 25 Weapon Extensions"
+		"tr_explain": "Perform 25 Equipment Extensions"
 	},
 	{
 		"assign": "600200120",
 		"jp_text": "鍛冶中級者",
 		"tr_text": "Extending Intermediate",
-		"tr_explain": "Perform 50 Weapon Extensions"
+		"tr_explain": "Perform 50 Equipment Extensions"
 	},
 	{
 		"assign": "600200130",
 		"jp_text": "鍛冶上級者",
 		"tr_text": "Extending Advanced",
-		"tr_explain": "Perform 100 Weapon Extensions"
+		"tr_explain": "Perform 100 Equipment Extensions"
 	},
 	{
 		"assign": "600200140",
 		"jp_text": "鍛冶会得者",
 		"tr_text": "Understands Extension",
-		"tr_explain": "Perform 250 Weapon Extensions"
+		"tr_explain": "Perform 250 Equipment Extensions"
 	},
 	{
 		"assign": "600200150",
 		"jp_text": "鍛冶研究者",
 		"tr_text": "Extension Researcher",
-		"tr_explain": "Perform 500 Weapon Extensions"
+		"tr_explain": "Perform 500 Equipment Extensions"
 	},
 	{
 		"assign": "600200160",
 		"jp_text": "鍛冶専心者",
 		"tr_text": "Dedicated to Extension",
-		"tr_explain": "Perform 1,000 Weapon Extensions"
+		"tr_explain": "Perform 1,000 Equipment Extensions"
 	},
 	{
 		"assign": "600200170",
 		"jp_text": "一心不乱の鍛冶者",
 		"tr_text": "Extends Wholeheartedly",
-		"tr_explain": "Perform 1,500 Weapon Extensions"
+		"tr_explain": "Perform 1,500 Equipment Extensions"
 	},
 	{
 		"assign": "600200200",
@@ -11763,7 +11769,7 @@
 		"assign": "700300002",
 		"jp_text": "スターＧフィーバー",
 		"tr_text": "Star G Fever",
-		"tr_explain": "Trigger a Fever while gathering 100 time"
+		"tr_explain": "Trigger a Fever while gathering 100 times"
 	},
 	{
 		"assign": "700600000",
