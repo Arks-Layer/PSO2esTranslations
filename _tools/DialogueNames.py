@@ -50,6 +50,7 @@ character_names = {
     "パルチザン&ソード": "Partizan & Sword", "ブーツ&バスター": "Boots & Buster",
     "アーレスライフル": "Ares Rifle", "バスター＆ソード": "Buster & Sword",
     "ランス＆パルチザン＆ブーツ": "Lance, Partizan & Boots", "ライフル＆リュウガ": "Rifle & Ryuuga",
+    "アーレスエッジ": "Ares Edge",
     "ネメシスシューズ": "Nemesis Shoes", "ネメシスデュアル": "Nemesis Dual", #Nemesis
     "ネメシスクーガ": "Nemesis Kuuga", "ネメシスキャリバー": "Nemesis Calibur",
     "ネメシスセイバー": "Nemesis Saber", "ネメシスチェイン": "Nemesis Chain",
@@ -217,8 +218,12 @@ character_names = {
     "みんな": "Everyone", "男性ウェポノイド陣": "Male Weaponoids",
     "スマッシュハリセン": "Smash Harisen", "女性客": "Female Customer",
     "ガラの悪い男性アークス": "Vulgar Male ARKS", "ヤスミノコフ８０００C": "Yasminkov 8000C",
+    "オフスティアシューター": "Austere Shooter", "新光大刃": "Pristine Greatsword",
     "モア&ウェポノイドたち": "More & Weaponoids",
     "ナレーション": "Narration", "ナレーション（ジェネ）": "Narration (Gene)",
+    "ジェネ（ナレーション）": "Gene (Narration)", "アークス": "ARKS",
+    "第１６防衛中隊": "16th Defense Company", "第２地質調査隊": "2nd Geological Survey Squad",
+    "第１２防衛中隊": "12th Defense Company",
     "？？？": "???" #Generics
     }
 
