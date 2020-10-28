@@ -6556,14 +6556,14 @@
 		"jp_explainShort": "定期的にＨＰが小回復＋飛翔剣の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 威力を大きく増加する。 \n② 装備中の炎属性チップの枚数に応じて\n　　 属性によるダメージを大きく増加する。\n③ 定期的にCPをわずかに回復する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "①  Boosts power by ??%.\n     <color=yellow>[F-Frame]</color>\n②  Boosts elemental damage by ??% x the number\n     of Fire chips equipped.\n     <color=yellow>[S-Frame]</color>\n③  Recovers ? CP every ?? seconds.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts power by 45%.\n<color=yellow>SP: </color>Boosts power by 50%.\n     <color=yellow>[F-Frame]</color>\n②  Boosts elemental damage by 7% x the number\n     of Fire chips equipped.\n     <color=yellow>[S-Frame]</color>\n③  Recovers ? CP every ?? seconds.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32281",
 		"jp_explainShort": "定期的にＨＰが小回復＋大剣の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 威力を劇的に増加する。 \n② 装備中の炎属性チップの枚数に応じて\n　　 属性によるダメージを大きく増加する。\n③ 定期的にCPをわずかに回復する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts power by ??%.\n     <color=yellow>[F-Frame]</color>\n②  Boosts elemental damage by ??% x the number\n     of Fire chips equipped.\n     <color=yellow>[S-Frame]</color>\n③  Recovers ? CP every ?? seconds.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts power by 65%.\n<color=yellow>SP: </color>Boosts power by 70%.\n     <color=yellow>[F-Frame]</color>\n②  Boosts elemental damage by 7% x the number\n     of Fire chips equipped.\n     <color=yellow>[S-Frame]</color>\n③  Recovers ? CP every ?? seconds.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32282",
@@ -6612,14 +6612,14 @@
 		"jp_explainShort": "定期的にＨＰが小回復＋双小剣の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ランダムに攻撃力を増加する。（最大時：絶大）\n② 効果時間終了時に稀に現在ＨＰの５０％の\n　　 ダメージを受ける。\n③ 効果時間終了時に稀にＣＰを回復する。\n[発動条件]ジャストアタック成功時\n[効果時間]短い時間",
-		"tr_explainLong": "①  Boosts damage by a random amount.\n     (Maximum boost: ???%)\n     <color=yellow>[?-Frame]</color>\n②  Has a rare chance to make you lose 50% of\n     your current HP when this effect ends.\n③  Has a rare chance to recover ?? CP when this\n     effect ends.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by a random amount between\n     95% and 190%.\n<color=yellow>SP: </color>Boosts damage by a random amount between\n     100% and 195%.\n     <color=yellow>[2G-Frame]</color>\n②  Has a rare chance to make you lose 50% of\n     your current HP when this effect ends.\n③  Has a rare chance to recover ?? CP when this\n     effect ends.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32294",
 		"jp_explainShort": "定期的にＨＰが小回復＋両剣の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ランダムに攻撃力を増加する。（最大時：超絶）\n② 効果時間終了時に稀に現在ＨＰの５０％の\n　　 ダメージを受ける。\n③ 効果時間終了時に稀にＣＰを回復する。\n[発動条件]ジャストアタック成功時\n[効果時間]短い時間",
-		"tr_explainLong": "①  Boosts damage by a random amount.\n     (Maximum boost: ???%)\n     <color=yellow>[?-Frame]</color>\n②  Has a rare chance to make you lose 50% of\n     your current HP when this effect ends.\n③  Has a rare chance to recover ?? CP when this\n     effect ends.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by a random amount between\n     105% and 200%.\n<color=yellow>SP: </color>Boosts damage by a random amount between\n     110% and 205%.\n     <color=yellow>[2G-Frame]</color>\n②  Has a rare chance to make you lose 50% of\n     your current HP when this effect ends.\n③  Has a rare chance to recover ?? CP when this\n     effect ends.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32295",
@@ -6640,28 +6640,28 @@
 		"jp_explainShort": "定期的にＨＰが小回復＋鋼拳の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃対象の敵の弱点に有効な属性で\n　　 攻撃した場合に与えるダメージを劇的に増加する。\n② 全てのエリアの戦闘で攻撃力を劇的に増加する。\n③ 定期的にＣＰを回復する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "①  Boosts damage by ???% against enemy\n     elemental weaknesses.\n     <color=yellow>[D-Frame]</color>\n②  Boosts damage by ???% when fighting in any\n     area.\n     <color=yellow>[I-Frame]</color>\n③  Recovers ?? CP every ? seconds.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by 100% against enemy\n     elemental weaknesses.\n<color=yellow>SP: </color>Boosts damage by 105% against enemy\n     elemental weaknesses.\n     <color=yellow>[D-Frame]</color>\n②  Boosts damage by 95% when fighting in any\n     area.\n     <color=yellow>[I-Frame]</color>\n③  Recovers 10 CP every 5 seconds.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32300",
 		"jp_explainShort": "定期的にＨＰが小回復＋銃剣の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃対象の敵の弱点に有効な属性で\n　　 攻撃した場合に与えるダメージを劇的に増加する。\n② 全てのエリアの戦闘で攻撃力を劇的に増加する。\n③ 定期的にＣＰを回復する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "①  Boosts damage by ???% against enemy\n     elemental weaknesses.\n     <color=yellow>[D-Frame]</color>\n②  Boosts damage by ???% when fighting in any\n     area.\n     <color=yellow>[I-Frame]</color>\n③  Recovers ?? CP every ? seconds.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by 110% against enemy\n     elemental weaknesses.\n<color=yellow>SP: </color>Boosts damage by 115% against enemy\n     elemental weaknesses.\n     <color=yellow>[D-Frame]</color>\n②  Boosts damage by 95% when fighting in any\n     area.\n     <color=yellow>[I-Frame]</color>\n③  Recovers 10 CP every 5 seconds.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "32303",
 		"jp_explainShort": "定期的にＨＰが小回復＋銃剣の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 威力を超絶に増加する。\r\n② 定期的にＨＰをわずかに回復する。\r\n[発動条件]アクティブチップ発動時\r\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts power by 275%.\r\n<color=yellow>SP: </color>Boosts power by 285%.\r\n     <color=yellow>[F-Frame]</color>\r\n②  Recovers HP by ?% every ? seconds.\r\n[Activation Trigger] Activating an Active Chip\r\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "32304",
 		"jp_explainShort": "定期的にＨＰが小回復＋長銃の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 威力を超絶に増加する。\r\n② 定期的にＨＰをわずかに回復する。\r\n[発動条件]アクティブチップ発動時\r\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts power by 295%.\r\n<color=yellow>SP: </color>Boosts power by 305%.\r\n     <color=yellow>[F-Frame]</color>\r\n②  Recovers HP by ?% every ? seconds.\r\n[Activation Trigger] Activating an Active Chip\r\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "32305",
@@ -6696,14 +6696,14 @@
 		"jp_explainShort": "定期的にＨＰが小回復＋双機銃の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ターゲットしている敵との距離が近いほど\n　　 攻撃力を超絶に強化する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "①  Increases your ATK by up to ???? based on\n     how close you are to the target.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Increases your ATK by up to ???? based on\n     how close you are to the target.\n[Activation Trigger] Landing an attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "32310",
 		"jp_explainShort": "定期的にＨＰが小回復＋抜剣の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ターゲットしている敵との距離が近いほど\n　　 攻撃力を超絶に強化する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "①  Increases your ATK by up to 12000 based on\n     how close you are to the target.\n<color=yellow>SP: </color>Increases your ATK by up to 12500 based on\n     how close you are to the target.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Increases your ATK by up to 12000 based on\n     how close you are to the target.\n<color=yellow>SP: </color>Increases your ATK by up to 12500 based on\n     how close you are to the target.\n[Activation Trigger] Landing an attack\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "32311",
@@ -6815,49 +6815,49 @@
 		"jp_explainShort": "定期的にＨＰが小回復＋両剣の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の風属性チップの枚数に応じて\n　　 属性攻撃力を絶大に増加する。\n② 装備中の風属性チップの枚数に応じて、風属性の\n　　 チップの発動率を上昇する。\n③ 発動率上昇の効果を持つチップと組み合わせた場合\n　　 風属性のチップの発動率上昇の効果を強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts elemental power by 135% + 10% x the\n     number of Wind chips equipped.\n<color=yellow>SP: </color>Boosts elemental power by 145% + 10% x the\n     number of Wind chips equipped.\n     <color=yellow>[R-Frame]</color>\n②  Increases the activation rates of Wind\n     Support Chips by 2% x the number of Wind\n     chips equipped.\n     (Stacks with other activation rate increases)\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "32327",
 		"jp_explainShort": "定期的にＨＰが小回復＋両剣の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の風属性チップの枚数に応じて\n　　 属性攻撃力を超絶に増加する。\n② 装備中の風属性チップの枚数に応じて、風属性の\n　　 チップの発動率を上昇する。\n③ 発動率上昇の効果を持つチップと組み合わせた場合\n　　 風属性のチップの発動率上昇の効果を強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts elemental power by 155% + 10% x the\n     number of Wind chips equipped.\n<color=yellow>SP: </color>Boosts elemental power by 165% + 10% x the\n     number of Wind chips equipped.\n     <color=yellow>[R-Frame]</color>\n②  Increases the activation rates of Wind\n     Support Chips by 2% x the number of Wind\n     chips equipped.\n     (Stacks with other activation rate increases)\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "32330",
 		"jp_explainShort": "定期的にＨＰが小回復＋鋼拳の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 威力を絶大に増加する。\n② ボス戦とタワークエストで\n　　 装備中の氷属性チップの枚数に応じて\n　　 ①の効果の威力をさらに超絶に増加する。\n③ リンクスロットに装備したチップの属性が氷属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は氷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts power by 130%.\n<color=yellow>SP: </color>Boosts power by 140%.\n     <color=yellow>[F-Frame]</color>\n②  Further boosts the effect of ① in boss battles\n     and Tower Quests by 40% x the number of\n     Ice chips equipped.\n③  Extends the Effect Duration of chips' abilities by\n     10 seconds if there is an Ice chip in this chip's\n     Link Slot.\n④  While this chip is equipped, the equip costs of\n     Ice PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "32331",
 		"jp_explainShort": "定期的にＨＰが小回復＋鋼拳の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 威力を絶大に増加する。\n② ボス戦とタワークエストで\n　　 装備中の氷属性チップの枚数に応じて\n　　 ①の効果の威力をさらに超絶に増加する。\n③ リンクスロットに装備したチップの属性が氷属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は氷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts power by 150%.\n<color=yellow>SP: </color>Boosts power by 160%.\n     <color=yellow>[F-Frame]</color>\n②  Further boosts the effect of ① in boss battles\n     and Tower Quests by 40% x the number of\n     Ice chips equipped.\n③  Extends the Effect Duration of chips' abilities by\n     10 seconds if there is an Ice chip in this chip's\n     Link Slot.\n④  While this chip is equipped, the equip costs of\n     Ice PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "32332",
 		"jp_explainShort": "定期的にＨＰが小回復＋銃剣の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 威力を絶大に増加する。\n② ボス戦とタワークエストで\n　　 装備中の氷属性チップの枚数に応じて\n　　 ①の効果の威力をさらに超絶に増加する。\n③ リンクスロットに装備したチップの属性が氷属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts power by 170%.\n<color=yellow>SP: </color>Boosts power by 180%.\n     <color=yellow>[F-Frame]</color>\n②  Further boosts the effect of ① in boss battles\n     and Tower Quests by 40% x the number of\n     Ice chips equipped.\n③  Extends the Effect Duration of chips' abilities by\n     10 seconds if there is an Ice chip in this chip's\n     Link Slot.\n④  While this chip is equipped, the equip costs of\n     all PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "32335",
 		"jp_explainShort": "定期的にＨＰが小回復＋銃剣の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃にランダムで特定の状態異常効果を付与する。\n② 攻撃対象の敵からダメージを受けた時\n　　 一定確率でランダムな状態異常効果を付与する。\n③ 状態異常の敵に対してダメージを超絶に増加する。\n④ 状態異常の敵から受けるダメージを軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives normal attacks a chance to inflict random\n     status effects.\n②  Responds to damage from the targeted enemy\n     by inflicting random status effects.\n③  Boosts damage by 290% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 300% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n④  Reduces damage taken from enemies affected\n     by status effects by ??%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "32336",
 		"jp_explainShort": "定期的にＨＰが小回復＋長銃の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃にランダムで特定の状態異常効果を付与する。\n② 攻撃対象の敵からダメージを受けた時\n　　 一定確率でランダムな状態異常効果を付与する。\n③ 状態異常の敵に対してダメージを極度に増加する。\n④ 状態異常の敵から受けるダメージを軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives normal attacks a chance to inflict random\n     status effects.\n②  Responds to damage from the targeted enemy\n     by inflicting random status effects.\n③  Boosts damage by 310% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 320% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n④  Reduces damage taken from enemies affected\n     by status effects by ??%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "32337",
@@ -6878,28 +6878,28 @@
 		"jp_explainShort": "定期的にＨＰが小回復＋大砲の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 敵に追加で大ダメージを与える。\n② ＨＰを中回復する。\n③ ＣＰを回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Deals an additional ??% damage to enemies.\n     <color=yellow>[Chase]</color>\n②  Recovers HP by ??%.\n③ Recovers ?? CP.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32342",
 		"jp_explainShort": "定期的にＨＰが小回復＋双機銃の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 敵に追加で大ダメージを与える。\n② ＨＰを中回復する。\n③ ＣＰを回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Deals an additional ??% damage to enemies.\n     <color=yellow>[Chase]</color>\n②  Recovers HP by ??%.\n③ Recovers ?? CP.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32343",
 		"jp_explainShort": "定期的にＨＰが小回復＋双機銃の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ジャストアタックの威力を大きく増加する。\n② 定期的にＨＰをわずかに回復する。\n③ 定期的にＣＰを回復する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts the damage of Just Attacks by 54%.\n<color=yellow>SP: </color>Boosts the damage of Just Attacks by 59%.\n     <color=yellow>[T-Frame]</color>\n②  Recovers HP by 10% every 5 seconds.\n③  Recovers CP by ?? every ? seconds.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "32344",
 		"jp_explainShort": "定期的にＨＰが小回復＋抜剣の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ジャストアタックの威力を大きく増加する。\n② 定期的にＨＰをわずかに回復する。\n③ 定期的にＣＰを回復する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts the damage of Just Attacks by ??%.\n     <color=yellow>[T-Frame]</color>\n②  Recovers HP by 10% every 5 seconds.\n③  Recovers CP by ?? every ? seconds.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32347",
