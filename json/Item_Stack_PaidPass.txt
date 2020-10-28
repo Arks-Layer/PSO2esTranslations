@@ -1486,9 +1486,9 @@
 	{
 		"assign": "3210287",
 		"jp_text": "特殊能力保護（８枠以下）",
-		"tr_text": "",
+		"tr_text": "Ability Protection (8s or lower)",
 		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが８スロット以下<c>",
-		"tr_explain": ""
+		"tr_explain": "Returns the Special Abilities that\nwere lost from synthesis.\n<yellow>Only works on 8 slots or lower.<c>"
 	},
 	{
 		"assign": "3210288",
