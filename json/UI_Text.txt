@@ -1000,6 +1000,16 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "rshop_dialog_b_13_1",
+		"jp_text": "レアエネミーポイントが足りません。\r\n\r\n所持レアエネミーポイント　⇒　{0:N0}pt\r\n必要レアエネミーポイント　⇒　{1:N0}pt\r\n不足レアエネミーポイント　⇒　<color=#ff0000>{2:N0}pt</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "rshop_dialog_b_13",
+		"jp_text": "「{0}」\r\nと、レアエネミーポイントを交換します。よろしいですか？\r\n\r\n所持レアエネミーポイント　⇒　{1:N0}pt\r\n必要レアエネミーポイント　⇒　{2:N0}pt\r\n残りレアエネミーポイント　⇒　{3:N0}pt",
+		"tr_text": ""
+	},
+	{
 		"assign": "arcscard_guide_00",
 		"jp_text": "<color=#f0df60>編集したいメッセージをタッチしてください。</color>",
 		"tr_text": ""
@@ -2647,6 +2657,46 @@
 	{
 		"assign": "labo_guide_16",
 		"jp_text": "<color=#f0df60>実行する項目を選んでください。チップLvが最大レベルに達し、必要な素材チップが全てそろうと、チップ特装・プラグ強化が可能になります。</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "labo_dialog_t_32",
+		"jp_text": "消費素材チップ確認",
+		"tr_text": ""
+	},
+	{
+		"assign": "labo_dialog_b_32_1_1",
+		"jp_text": "次のチップを使用して、チップ強化を実行します。\nよろしいですか？",
+		"tr_text": ""
+	},
+	{
+		"assign": "labo_dialog_b_32_1_2",
+		"jp_text": "現在選択されているチップです。\n<size=20>※キング・ラッピー以外のラッピー系チップが自動選択されます。</size>",
+		"tr_text": ""
+	},
+	{
+		"assign": "labo_dialog_b_32_2",
+		"jp_text": "素材チップ",
+		"tr_text": ""
+	},
+	{
+		"assign": "labo_dialog_t_33",
+		"jp_text": "Lv最大強化チップ選択",
+		"tr_text": ""
+	},
+	{
+		"assign": "labo_dialog_b_33",
+		"jp_text": "自動選択できるチップがありません。\n※キング・ラッピー以外のラッピー系チップが\n　　自動選択されます。",
+		"tr_text": ""
+	},
+	{
+		"assign": "labo_dialog_t_34",
+		"jp_text": "アビリティ強化チップ選択",
+		"tr_text": ""
+	},
+	{
+		"assign": "labo_dialog_b_34",
+		"jp_text": "自動選択できるチップがありません。\n※ニャウ系チップ等、一部チップは\n　　自動選択されません。",
 		"tr_text": ""
 	},
 	{
@@ -8596,12 +8646,42 @@
 	},
 	{
 		"assign": "ui_chip_recommend",
-		"jp_text": "おすすめ選択",
+		"jp_text": "Lv最大強化",
 		"tr_text": ""
 	},
 	{
 		"assign": "ui_chip_recommend_ability",
 		"jp_text": "アビリティ強化",
+		"tr_text": ""
+	},
+	{
+		"assign": "ui_chip_button_goto_grind",
+		"jp_text": "チップ強化へ",
+		"tr_text": ""
+	},
+	{
+		"assign": "ui_chip_button_goto_release",
+		"jp_text": "チップ解放へ",
+		"tr_text": ""
+	},
+	{
+		"assign": "ui_chip_button_goto_awake",
+		"jp_text": "チップ特装へ",
+		"tr_text": ""
+	},
+	{
+		"assign": "ui_chip_button_lvmax_text",
+		"jp_text": "チップLvを強化可能な最大値まで強化します。",
+		"tr_text": ""
+	},
+	{
+		"assign": "ui_chip_button_lvmax_confirm",
+		"jp_text": "消費する素材を確認",
+		"tr_text": ""
+	},
+	{
+		"assign": "ui_chip_button_lvmax_cancel",
+		"jp_text": "やめる",
 		"tr_text": ""
 	},
 	{
@@ -12556,7 +12636,7 @@
 	},
 	{
 		"assign": "wh_28_01",
-		"jp_text": "報酬を受け取るための達成条件は\nオペレーションスコア以外にも多数あります。\nくわしくはイベント報酬ページで確認してみましょう！",
+		"jp_text": "報酬を受け取るための達成条件は\nオペレーションスコア以外にも多数あります。\nくわしくは緊急ミッションページで確認してみましょう！",
 		"tr_text": ""
 	},
 	{
@@ -17867,6 +17947,11 @@
 	{
 		"assign": "lookback_arles_chapter_3",
 		"jp_text": "第３章　裏切りと絆",
+		"tr_text": ""
+	},
+	{
+		"assign": "lookback_arles_chapter_4",
+		"jp_text": "第４章　三柱の女神",
 		"tr_text": ""
 	},
 	{
@@ -23677,6 +23762,31 @@
 	{
 		"assign": "raid_event_page_term",
 		"jp_text": "<%year>年<%month>月<%day>日(<%week>)<size=12>まで</size>",
+		"tr_text": ""
+	},
+	{
+		"assign": "rshop_dialog_change_rare_enemy_point",
+		"jp_text": "レアエネミーポイント×<%num>\r\nと、以下のアイテムを交換します。よろしいですか？",
+		"tr_text": ""
+	},
+	{
+		"assign": "rshop_dialog_button_chip_pack",
+		"jp_text": "チップパックのみ",
+		"tr_text": ""
+	},
+	{
+		"assign": "rshop_dialog_button_receive",
+		"jp_text": "受け取りボックスのみ",
+		"tr_text": ""
+	},
+	{
+		"assign": "rshop_dialog_button_chip_pack_receive",
+		"jp_text": "全て",
+		"tr_text": ""
+	},
+	{
+		"assign": "rshop_dialog_rare_enemy_point_select_target",
+		"jp_text": "所持している全てのレアエネミーチップを\nレアエネミーポイントに一括交換します。\nよろしいですか？\n\n<color=#ff0000>※交換したくないチップは\n　　チップ詳細の画面からロックしてください。</color>\n\n■所持レアエネミーチップ\nチップパック：<%packnum>枚\n受け取りボックス：<%boxnum>枚",
 		"tr_text": ""
 	}
 ]
