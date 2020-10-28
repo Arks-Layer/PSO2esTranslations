@@ -771,10 +771,10 @@
 	},
 	{
 		"assign": "110",
-		"jp_text": "ドラゴン・フィーバー",
-		"tr_text": "Dragon Fever",
-		"jp_explain": "射撃+10 技量+5\nPP+2",
-		"tr_explain": "R-ATK +10 T-DEF +5\nPP +2"
+		"jp_text": "ドラグ・フィーバー",
+		"tr_text": "",
+		"jp_explain": "技量+5 射防+10\nHP+5 PP+1",
+		"tr_explain": ""
 	},
 	{
 		"assign": "111",
@@ -946,9 +946,9 @@
 	},
 	{
 		"assign": "135",
-		"jp_text": "ENT_フィーバー08",
+		"jp_text": "タッキ・フィーバー",
 		"tr_text": "",
-		"jp_explain": "---",
+		"jp_explain": "技量+5 法防+10\nHP+5 PP+1",
 		"tr_explain": ""
 	},
 	{
@@ -2643,6 +2643,41 @@
 		"jp_text": "ガーディアン・ソール",
 		"tr_text": "",
 		"jp_explain": "全+70 HP+70 PP+7",
+		"tr_explain": ""
+	},
+	{
+		"assign": "378",
+		"jp_text": "-",
+		"tr_text": "",
+		"jp_explain": "-",
+		"tr_explain": ""
+	},
+	{
+		"assign": "379",
+		"jp_text": "リガンド・アルマ",
+		"tr_text": "",
+		"jp_explain": "打撃+40 HP+30 PP+3",
+		"tr_explain": ""
+	},
+	{
+		"assign": "380",
+		"jp_text": "リガンド・ティロ",
+		"tr_text": "",
+		"jp_explain": "射撃+40 HP+30 PP+3",
+		"tr_explain": ""
+	},
+	{
+		"assign": "381",
+		"jp_text": "リガンド・マギア",
+		"tr_text": "",
+		"jp_explain": "法撃+40 HP+30 PP+3",
+		"tr_explain": ""
+	},
+	{
+		"assign": "382",
+		"jp_text": "レヴリーレセプター",
+		"tr_text": "",
+		"jp_explain": "レヴリー系特殊能力の\n継承成功率を大幅に上昇\n全+10",
 		"tr_explain": ""
 	}
 ]

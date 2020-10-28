@@ -448,6 +448,13 @@
 		"tr_explain": "A costume based on a girl found in\nancient literature. The wearer will\nencounter many curious things."
 	},
 	{
+		"assign": "240140",
+		"jp_text": "リブルガール桜[Ou]",
+		"tr_text": "",
+		"jp_explain": "古い文献に記された少女のデータを\n基に作られた衣装。着用していると\n不思議な出来事に出会うらしい。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "240143",
 		"jp_text": "ヘルガ・レプカ[Ou]",
 		"tr_text": "Helga Repca [Ou]",
@@ -1232,6 +1239,13 @@
 		"tr_explain": "An outfit made for the autumn\nfestival. Made in the shape of wings,\nit has cute decorations all over it."
 	},
 	{
+		"assign": "240363",
+		"jp_text": "プロウラークラスタ冬[Ou]",
+		"tr_text": "",
+		"jp_explain": "秋に催される祝祭用に作られた衣装。\n翼をイメージしたデザインで\n所々についた装飾がとってもキュート。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "240365",
 		"jp_text": "ハーミディオマントＦ[Ou]",
 		"tr_text": "Hermedio Cloak F [Ou]",
@@ -1251,6 +1265,13 @@
 		"tr_text": "Aru Black Suit F [Ou]",
 		"jp_explain": "覚醒したアルの身を覆う漆黒の衣。\nダークファルスの戦闘衣に似ているが\n纏うフォトンは穏やかなもの。",
 		"tr_explain": "A jet-black garment worn by Aru.\nSimilar to a Dark Falz battlesuit, but\nwoven from calm, gentle Photons."
+	},
+	{
+		"assign": "240370",
+		"jp_text": "アルの黒衣Ｆ紅[Ou]",
+		"tr_text": "",
+		"jp_explain": "覚醒したアルの身を覆う漆黒の衣。\nダークファルスの戦闘衣に似ているが\n纏うフォトンは穏やかなもの。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "240374",
@@ -2212,6 +2233,13 @@
 		"tr_explain": "A simple thick coat with a distinctive\ncollar. This mature yet cute piece\nalso incorporates pop-style elements."
 	},
 	{
+		"assign": "240644",
+		"jp_text": "セーラー風コート雪[Ou]",
+		"tr_text": "",
+		"jp_explain": "特徴的な襟が付いた厚手のコート。\nシンプルな配色ながら、ポップな\n要素も取り入れた大人かわいい一枚。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "240646",
 		"jp_text": "ビハインドザダスクv2[Ou]",
 		"tr_text": "Behind The Dusk V2 [Ou]",
@@ -2280,6 +2308,13 @@
 		"tr_text": "Xirys Ruin F [Ou]",
 		"jp_explain": "成長したシャオが身に纏う服。\n彼自身が覚悟を決めて纏うことを決めた\n在りし日のシオンを意識した服装。",
 		"tr_explain": "Outfit worn by the adult Xiao.\nHe intentionally chose an appearance\nreminiscent of how Xion used to look."
+	},
+	{
+		"assign": "240678",
+		"jp_text": "シーリスルインＦ鋼[Ou]",
+		"tr_text": "",
+		"jp_explain": "成長したシャオが身に纏う服。\n彼自身が覚悟を決めて纏うことを決めた\n在りし日のシオンを意識した服装。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "240681",
@@ -2492,11 +2527,25 @@
 		"tr_explain": "A cute backpack with a cat design.\nMatches all kinds of outfits, adding\na sense of playfulness to them."
 	},
 	{
+		"assign": "240755",
+		"jp_text": "キャットリュックＦ雪[Ou]",
+		"tr_text": "",
+		"jp_explain": "猫のデザインのかわいいリュック。\nきちんと感を崩さずに茶目っ気を加え\n様々なコーデに合わせやすいアイテム。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "240758",
 		"jp_text": "ロードゥクロープ[Ou]",
 		"tr_text": "Lord Crope [Ou]",
 		"jp_explain": "とある惑星の御伽噺がモチーフの衣装。\n可憐でありつつも落ち着いたデザインは\n戦場でも人目を惹きつける。",
 		"tr_explain": "Costume based on a fairy tale from\na certain planet. Cute yet calm, it\ndraws attention on the battlefield."
+	},
+	{
+		"assign": "240759",
+		"jp_text": "ロードゥクロープ月[Ou]",
+		"tr_text": "",
+		"jp_explain": "とある惑星の御伽噺がモチーフの衣装。\n可憐でありつつも落ち着いたデザインは\n戦場でも人目を惹きつける。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "240762",
@@ -2506,11 +2555,25 @@
 		"tr_explain": "A dress based on the motif of a bat\ncircling in the night sky. Its vibrant\ndetails give it a novel elegance."
 	},
 	{
+		"assign": "240763",
+		"jp_text": "リリアックライラ雪[Ou]",
+		"tr_text": "",
+		"jp_explain": "夜空を旋回し、闇と戯れるコウモリを\nモチーフにしたドレス。躍動感ある\nディテールが斬新な優雅さを演出する。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "240766",
 		"jp_text": "ステルラアーダ[Ou]",
 		"tr_text": "Stella Ardor [Ou]",
 		"jp_explain": "星々が降り注ぐ秋の夜を表現した衣装。\n溶けるような曲線と強気の裾が織りなす\nシルエットが、無邪気さを際立てる。",
 		"tr_explain": "A costume based on falling stars on\nan autumn night. Its blended curves\ngive it an innocent silhouette."
+	},
+	{
+		"assign": "240767",
+		"jp_text": "ステルラアーダ雪[Ou]",
+		"tr_text": "",
+		"jp_explain": "星々が降り注ぐ秋の夜を表現した衣装。\n溶けるような曲線と強気の裾が織りなす\nシルエットが、無邪気さを際立てる。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "240770",
@@ -2525,6 +2588,13 @@
 		"tr_text": "Lysti Zyllphi [Ou]",
 		"jp_explain": "とある星の幻想生物を模した衣装。\n躍動感溢れるフォルムは敵をも魅了し\n戦場で威厳を放つ。",
 		"tr_explain": "Costume imitating a certain fantasy\ncreature. Its lively shape and dignified\nappearance attracts enemies."
+	},
+	{
+		"assign": "240775",
+		"jp_text": "リスティジルフィ紅[Ou]",
+		"tr_text": "",
+		"jp_explain": "とある星の幻想生物を模した衣装。\n躍動感溢れるフォルムは敵をも魅了し\n戦場で威厳を放つ。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "240778",
@@ -2560,6 +2630,20 @@
 		"tr_text": "Liberty Cluster [Ou]",
 		"jp_explain": "肌を防護する為に露出を極力控えた\n探索用服。纏う者のフォトンの\n流出を抑える機能も備わっている。",
 		"tr_explain": "Explorers' clothing which protects\nthe wearer and reduces Photon loss\nby exposing a minimal amount of skin."
+	},
+	{
+		"assign": "240798",
+		"jp_text": "リバティークラスタ影[Ou]",
+		"tr_text": "",
+		"jp_explain": "肌を防護する為に露出を極力控えた\n探索用服。纏う者のフォトンの\n流出を抑える機能も備わっている。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "240799",
+		"jp_text": "リバティークラスタ雪[Ou]",
+		"tr_text": "",
+		"jp_explain": "肌を防護する為に露出を極力控えた\n探索用服。纏う者のフォトンの\n流出を抑える機能も備わっている。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "240802",
@@ -2611,11 +2695,25 @@
 		"tr_explain": "An elegant wisteria-patterned outfit.\nThe dappled purple is so beautiful\nthat it even attracts butterflies."
 	},
 	{
+		"assign": "240823",
+		"jp_text": "藤花姫　紅[Ou]",
+		"tr_text": "",
+		"jp_explain": "優雅で華麗な藤の模様が施された衣装。\n艶やかな紫をにじませた模様は麗しく\n舞う蝶も慕い寄るほど。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "240826",
 		"jp_text": "鈴蘭姫[Ou]",
 		"tr_text": "Convallaria Dame [Ou]",
 		"jp_explain": "清楚で可憐な鈴蘭模様で彩られた衣装。\n柔らかな白が咲き零れる姿が愛しく\n飛ぶ鳥も酔いしれるほど。",
 		"tr_explain": "A pretty convallaria-patterned outfit.\nThe soft white blossom design is so\nbeautful that it even attracts birds."
+	},
+	{
+		"assign": "240827",
+		"jp_text": "鈴蘭姫　紅[Ou]",
+		"tr_text": "",
+		"jp_explain": "清楚で可憐な鈴蘭模様で彩られた衣装。\n柔らかな白が咲き零れる姿が愛しく\n飛ぶ鳥も酔いしれるほど。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "240830",
@@ -2630,6 +2728,20 @@
 		"tr_text": "Candy Crown [Ou]",
 		"jp_explain": "テクニック行使者の要望に応じ\nフォトンへの感応を重点に置いた\nアークス用の戦闘服。",
 		"tr_explain": "ARKS combat clothing that focuses\non Photon sensitivity. Made at the\nrequest of Technique users."
+	},
+	{
+		"assign": "240835",
+		"jp_text": "キャンディークラウン鋼[Ou]",
+		"tr_text": "",
+		"jp_explain": "テクニック行使者の要望に応じ\nフォトンへの感応を重点に置いた\nアークス用の戦闘服。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "240836",
+		"jp_text": "キャンディークラウン桜[Ou]",
+		"tr_text": "",
+		"jp_explain": "テクニック行使者の要望に応じ\nフォトンへの感応を重点に置いた\nアークス用の戦闘服。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "240838",
@@ -2653,11 +2765,39 @@
 		"tr_explain": "Tailored clothes designed to be\neasy to move in. Promotes efficient\nPhoton absorption and circulation."
 	},
 	{
+		"assign": "240844",
+		"jp_text": "イージークラスタＦ雪[Ou]",
+		"tr_text": "",
+		"jp_explain": "平時に着用するため、動きやすく\n仕立てた服装。纏う者のフォトンの\n吸収を促進し、効率よく循環させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "240845",
+		"jp_text": "イージークラスタＦ栗[Ou]",
+		"tr_text": "",
+		"jp_explain": "平時に着用するため、動きやすく\n仕立てた服装。纏う者のフォトンの\n吸収を促進し、効率よく循環させる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "240847",
 		"jp_text": "エレガンテメーアＦ[Ou]",
 		"tr_text": "Elegante Meer F [Ou]",
 		"jp_explain": "洗練されたシルエットの戦闘服。\n上質な素材を用い、機能性を高めつつ\n光沢感を印象的に演出する一着。",
 		"tr_explain": "A battlesuit with a sophisticated\nsilhouette. Makes use of high-quality\nmaterials to enhance its functionality."
+	},
+	{
+		"assign": "240848",
+		"jp_text": "エレガンテメーアＦ夜[Ou]",
+		"tr_text": "",
+		"jp_explain": "洗練されたシルエットの戦闘服。\n上質な素材を用い、機能性を高めつつ\n光沢感を印象的に演出する一着。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "240849",
+		"jp_text": "エレガンテメーアＦ紅[Ou]",
+		"tr_text": "",
+		"jp_explain": "洗練されたシルエットの戦闘服。\n上質な素材を用い、機能性を高めつつ\n光沢感を印象的に演出する一着。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "240851",
@@ -2735,6 +2875,20 @@
 		"tr_text": "Ol Blink F [Ou]",
 		"jp_explain": "一時アークス内で流行した、ラフながら\nファッション性に優れた服装。\n着用するだけで身も心も軽くなる。",
 		"tr_explain": "A rough, stylish outfit popular\namong ARKS for a time. Wearing it\nmakes your mind and body lighter."
+	},
+	{
+		"assign": "240889",
+		"jp_text": "オールブリンクＦ影[Ou]",
+		"tr_text": "",
+		"jp_explain": "一時アークス内で流行した、ラフながら\nファッション性に優れた服装。\n着用するだけで身も心も軽くなる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "240890",
+		"jp_text": "オールブリンクＦ月[Ou]",
+		"tr_text": "",
+		"jp_explain": "一時アークス内で流行した、ラフながら\nファッション性に優れた服装。\n着用するだけで身も心も軽くなる。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "240892",
@@ -3022,5 +3176,82 @@
 		"tr_text": "Suit Jacket F [Ou]",
 		"jp_explain": "シンプルなスーツジャケット。\nビジネス向けにデザインされており\n袖口にあるラインがワンポイント。",
 		"tr_explain": "A simple suit jacket. Designed for\nbusiness use, the cuffs are straight\nand even all the way around."
+	},
+	{
+		"assign": "2401021",
+		"jp_text": "ソルジャーズメロウ影[Ou]",
+		"tr_text": "",
+		"jp_explain": "アークスに支給された平時用の服。\n緊急時に戦闘服にすぐに着替えられるよう\n素早い脱衣が可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "2401022",
+		"jp_text": "ソルジャーズメロウ紅[Ou]",
+		"tr_text": "",
+		"jp_explain": "アークスに支給された平時用の服。\n緊急時に戦闘服にすぐに着替えられるよう\n素早い脱衣が可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "2401024",
+		"jp_text": "ソルジャーズラフ影[Ou]",
+		"tr_text": "",
+		"jp_explain": "アークスに支給された平時用の服。\n長時間の着用でも疲れないように\n設計されており、柔らかくて軽い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "2401025",
+		"jp_text": "ソルジャーズラフ銀[Ou]",
+		"tr_text": "",
+		"jp_explain": "アークスに支給された平時用の服。\n長時間の着用でも疲れないように\n設計されており、柔らかくて軽い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "2401027",
+		"jp_text": "アンベリールデリカ[Ou]",
+		"tr_text": "",
+		"jp_explain": "繊細な透明感と高貴な雰囲気をレースで\n表現した衣装。着心地は軽やかで\n何気ないそぶりからも気品があふれる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "2401031",
+		"jp_text": "モッズコートＦ[Ou]",
+		"tr_text": "",
+		"jp_explain": "カジュアルにもパンクにも着こなせる\n女性服。流行りすたりを受けない定番の\nアイテムとして一枚は持っておきたい。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "2401035",
+		"jp_text": "ヘレティッククイーン[Ou]",
+		"tr_text": "",
+		"jp_explain": "異質なほどに尖った雰囲気を持つ服装。\n服の一部などが硬質化しており\n相手にえもいわれぬ威圧感を与える。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "2401036",
+		"jp_text": "ヘレティッククイーン空[Ou]",
+		"tr_text": "",
+		"jp_explain": "異質なほどに尖った雰囲気を持つ服装。\n服の一部などが硬質化しており\n相手にえもいわれぬ威圧感を与える。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "2401037",
+		"jp_text": "ヘレティッククイーン栗[Ou]",
+		"tr_text": "",
+		"jp_explain": "異質なほどに尖った雰囲気を持つ服装。\n服の一部などが硬質化しており\n相手にえもいわれぬ威圧感を与える。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "2401039",
+		"jp_text": "ルミネスゾーナ[Ou]",
+		"tr_text": "",
+		"jp_explain": "大胆に編み込まれたベルトが印象的な\n洗練されたデザインの戦闘服。\n淡く発光する肩のパーツが人目を奪う。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "2401043",
+		"jp_text": "フィリルゾーナＦ[Ou]",
+		"tr_text": "",
+		"jp_explain": "大胆に編み込まれたベルトが印象的な\n洗練されたデザインの戦闘服。\n袖を通すと冷たく哀しい雰囲気を纏う。",
+		"tr_explain": ""
 	}
 ]

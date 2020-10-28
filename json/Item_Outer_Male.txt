@@ -847,6 +847,13 @@
 		"tr_explain": "A jet-black garment worn by Aru.\nSimilar to a Dark Falz battlesuit, but\nwoven from calm, gentle Photons."
 	},
 	{
+		"assign": "230260",
+		"jp_text": "アルの黒衣Ｍ紅[Ou]",
+		"tr_text": "",
+		"jp_explain": "覚醒したアルの身を覆う漆黒の衣。\nダークファルスの戦闘衣に似ているが\n纏うフォトンは穏やかなもの。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "230263",
 		"jp_text": "アヴェンジャー[Ou]",
 		"tr_text": "Avenger [Ou]",
@@ -1309,6 +1316,13 @@
 		"tr_explain": "A tailed coat with a dignified look.\nIts unique patterns and bone-like\ndecorations are made to intimidate."
 	},
 	{
+		"assign": "230381",
+		"jp_text": "イービルテラー玄[Ou]",
+		"tr_text": "",
+		"jp_explain": "禍々しい装いのテイルコート。\n独特の模様や骨を思わせる装飾など\n威圧感を与えるデザインになっている。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "230383",
 		"jp_text": "東衣真君[Ou]",
 		"tr_text": "Eastern Astral [Ou]",
@@ -1533,6 +1547,13 @@
 		"tr_explain": "Outfit worn by the adult Xiao.\nHe intentionally chose an appearance\nreminiscent of how Xion used to look."
 	},
 	{
+		"assign": "230464",
+		"jp_text": "シーリスルインＭ鋼[Ou]",
+		"tr_text": "",
+		"jp_explain": "成長したシャオが身に纏う服。\n彼自身が覚悟を決めて纏うことを決めた\n在りし日のシオンを意識した服装。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "230467",
 		"jp_text": "エルミル戦闘衣[Ou]",
 		"tr_text": "Elmir Battle Suit [Ou]",
@@ -1680,6 +1701,13 @@
 		"tr_explain": "Costume based on a fairy tale\nfrom a certain planet. Said to grant\nincreased ferocity and stamina."
 	},
 	{
+		"assign": "230520",
+		"jp_text": "ロードゥファンガス月[Ou]",
+		"tr_text": "",
+		"jp_explain": "とある惑星の御伽噺がモチーフの衣装。\n身に纏うと気持ちが奮い立ち\n猛々しく戦うことができるという。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "230523",
 		"jp_text": "ロング袖パーカーＭ[Ou]",
 		"tr_text": "Long Sleeve Parka M [Ou]",
@@ -1694,11 +1722,25 @@
 		"tr_explain": "A cute backpack with a cat design.\nMatches all kinds of outfits, adding\na sense of playfulness to them."
 	},
 	{
+		"assign": "230528",
+		"jp_text": "キャットリュックＭ雪[Ou]",
+		"tr_text": "",
+		"jp_explain": "猫のデザインのかわいいリュック。\nきちんと感を崩さずに茶目っ気を加え\n様々なコーデに合わせやすいアイテム。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "230531",
 		"jp_text": "リスティボワーヌ[Ou]",
 		"tr_text": "Lysti Buone [Ou]",
 		"jp_explain": "とある星の幻想生物を模した衣装。\n気品と風格が漂うデザインでありつつ\n非常に軽く、機動性にも優れている。",
 		"tr_explain": "Costume imitating a certain fantasy\ncreature. This dignified, elegant\ndesign is also light and mobile."
+	},
+	{
+		"assign": "230532",
+		"jp_text": "リスティボワーヌ紅[Ou]",
+		"tr_text": "",
+		"jp_explain": "とある星の幻想生物を模した衣装。\n気品と風格が漂うデザインでありつつ\n非常に軽く、機動性にも優れている。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "230535",
@@ -1743,6 +1785,20 @@
 		"tr_explain": "Civilian clothing provided by ARKS.\nAdjusts its temperature automatically\nto provide maximum comfort."
 	},
 	{
+		"assign": "230553",
+		"jp_text": "ソルジャーズレスト影[Ou]",
+		"tr_text": "",
+		"jp_explain": "アークスに支給された平時用の服。\n休息を快適に過ごせるよう、周囲の\n環境に合わせた温度調整機能付き。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "230554",
+		"jp_text": "ソルジャーズレスト紅[Ou]",
+		"tr_text": "",
+		"jp_explain": "アークスに支給された平時用の服。\n休息を快適に過ごせるよう、周囲の\n環境に合わせた温度調整機能付き。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "230556",
 		"jp_text": "ソルジャーズフリー[Ou]",
 		"tr_text": "Soldier's Free [Ou]",
@@ -1750,11 +1806,39 @@
 		"tr_explain": "Civilian clothing provided by ARKS.\nWith comfort as a top priority, it's light\nas a feather and highly flexible."
 	},
 	{
+		"assign": "230557",
+		"jp_text": "ソルジャーズフリー影[Ou]",
+		"tr_text": "",
+		"jp_explain": "アークスに支給された平時用の服。\n着心地が重視されており、羽のように\n軽い上に、柔軟性も富んでいる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "230558",
+		"jp_text": "ソルジャーズフリー鋼[Ou]",
+		"tr_text": "",
+		"jp_explain": "アークスに支給された平時用の服。\n着心地が重視されており、羽のように\n軽い上に、柔軟性も富んでいる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "230560",
 		"jp_text": "ヘレティックロード[Ou]",
 		"tr_text": "Heretic Lord [Ou]",
 		"jp_explain": "異質なほどに尖った雰囲気を持つ服装。\n服の一部などが硬質化しており\n相手にえもいわれぬ威圧感を与える。",
 		"tr_explain": "An outfit with a distinctly sharp\naura. Parts of it have been\nreinforced to intimidate one's enemy."
+	},
+	{
+		"assign": "230561",
+		"jp_text": "ヘレティックロード空[Ou]",
+		"tr_text": "",
+		"jp_explain": "異質なほどに尖った雰囲気を持つ服装。\n服の一部などが硬質化しており\n相手にえもいわれぬ威圧感を与える。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "230562",
+		"jp_text": "ヘレティックロード栗[Ou]",
+		"tr_text": "",
+		"jp_explain": "異質なほどに尖った雰囲気を持つ服装。\n服の一部などが硬質化しており\n相手にえもいわれぬ威圧感を与える。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "230564",
@@ -1771,11 +1855,39 @@
 		"tr_explain": "Tailored clothes designed to be\neasy to move in. Promotes efficient\nPhoton absorption and circulation."
 	},
 	{
+		"assign": "230566",
+		"jp_text": "イージークラスタＭ雪[Ou]",
+		"tr_text": "",
+		"jp_explain": "平時に着用するため、動きやすく\n仕立てた服装。纏う者のフォトンの\n吸収を促進し、効率よく循環させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "230567",
+		"jp_text": "イージークラスタＭ栗[Ou]",
+		"tr_text": "",
+		"jp_explain": "平時に着用するため、動きやすく\n仕立てた服装。纏う者のフォトンの\n吸収を促進し、効率よく循環させる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "230569",
 		"jp_text": "エレガンテメーアＭ[Ou]",
 		"tr_text": "Elegante Meer M [Ou]",
 		"jp_explain": "洗練されたシルエットの戦闘服。\n上質な素材を用い、機能性を高めつつ\n光沢感を印象的に演出する一着。",
 		"tr_explain": "A battlesuit with a sophisticated\nsilhouette. Makes use of high-quality\nmaterials to enhance its functionality."
+	},
+	{
+		"assign": "230570",
+		"jp_text": "エレガンテメーアＭ夜[Ou]",
+		"tr_text": "",
+		"jp_explain": "洗練されたシルエットの戦闘服。\n上質な素材を用い、機能性を高めつつ\n光沢感を印象的に演出する一着。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "230571",
+		"jp_text": "エレガンテメーアＭ紅[Ou]",
+		"tr_text": "",
+		"jp_explain": "洗練されたシルエットの戦闘服。\n上質な素材を用い、機能性を高めつつ\n光沢感を印象的に演出する一着。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "230573",
@@ -1811,6 +1923,20 @@
 		"tr_text": "Ol Blink M [Ou]",
 		"jp_explain": "一時アークス内で流行した、ラフながら\nファッション性に優れた服装。\n着用するだけで身も心も軽くなる。",
 		"tr_explain": "A rough, stylish outfit popular\namong ARKS for a time. Wearing it\nmakes your mind and body lighter."
+	},
+	{
+		"assign": "230593",
+		"jp_text": "オールブリンクＭ影[Ou]",
+		"tr_text": "",
+		"jp_explain": "一時アークス内で流行した、ラフながら\nファッション性に優れた服装。\n着用するだけで身も心も軽くなる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "230594",
+		"jp_text": "オールブリンクＭ月[Ou]",
+		"tr_text": "",
+		"jp_explain": "一時アークス内で流行した、ラフながら\nファッション性に優れた服装。\n着用するだけで身も心も軽くなる。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "230596",
@@ -1930,5 +2056,54 @@
 		"tr_text": "Combat Jacket M [Ou]",
 		"jp_explain": "戦闘行動時に着用する服装。\n機動性と携行能力を最重視して作られ\n多くの男性戦闘員に愛用されている。",
 		"tr_explain": "Clothing worn during combat. Used\nby male fighters who focus on\nmobility and carrying capacity."
+	},
+	{
+		"assign": "230658",
+		"jp_text": "ヴォイドレコーダー銀[Ou]",
+		"tr_text": "",
+		"jp_explain": "虚空機関の総長たるルーサーの服装。\n身体のフォルムに合わせ、常時最適化を\n行う、未知の素材が用いられている。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "230659",
+		"jp_text": "ヴォイドレコーダー紅[Ou]",
+		"tr_text": "",
+		"jp_explain": "虚空機関の総長たるルーサーの服装。\n身体のフォルムに合わせ、常時最適化を\n行う、未知の素材が用いられている。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "230661",
+		"jp_text": "ジェントルヴァンプ[Ou]",
+		"tr_text": "",
+		"jp_explain": "伝承に登場する鮮血を啜る不死の貴族を\nモチーフにした衣装。噛まれたら最後\n血を求めて彷徨うようになるという。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "230662",
+		"jp_text": "ジェントルヴァンプ影[Ou]",
+		"tr_text": "",
+		"jp_explain": "伝承に登場する鮮血を啜る不死の貴族を\nモチーフにした衣装。噛まれたら最後\n血を求めて彷徨うようになるという。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "230665",
+		"jp_text": "フリークスフリークＭ[Ou]",
+		"tr_text": "",
+		"jp_explain": "次世代アークス武器研究所開発部門の\nA.I.S専属チームに支給される服。\nぞんざいに扱われ、いつもしわくちゃ。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "230669",
+		"jp_text": "フィリルゾーナ[Ou]",
+		"tr_text": "",
+		"jp_explain": "大胆に編み込まれたベルトが印象的な\n洗練されたデザインの戦闘服。\n袖を通すと冷たく哀しい雰囲気を纏う。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "230673",
+		"jp_text": "ルミネスゾーナＭ[Ou]",
+		"tr_text": "",
+		"jp_explain": "大胆に編み込まれたベルトが印象的な\n洗練されたデザインの戦闘服。\n淡く発光する肩のパーツが人目を奪う。",
+		"tr_explain": ""
 	}
 ]
