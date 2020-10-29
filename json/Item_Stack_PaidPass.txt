@@ -1484,6 +1484,13 @@
 		"tr_explain": "Returns the Special Abilities that\nwere lost from synthesis.\n<yellow>Only works on 7 slot슬롯 이하.<c>"
 	},
 	{
+		"assign": "3210287",
+		"jp_text": "特殊能力保護（８枠以下）",
+		"tr_text": "",
+		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが８スロット以下<c>",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210288",
 		"jp_text": "特殊能力（打撃＆ＰＰ/３）",
 		"tr_text": "특수능력 (타격&PP/3)",
@@ -2541,6 +2548,20 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:창기천유\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210571",
+		"jp_text": "Ｓ５追加：連鎖輝与",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：連鎖輝与を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210572",
+		"jp_text": "Ｓ５追加：静心四連",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：静心四連を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210573",
 		"jp_text": "Ｓ５追加：静心拡域",
 		"tr_text": "S5 추가:정심확역",
@@ -2553,6 +2574,13 @@
 		"tr_text": "S5 추가:영역가세",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：領域加勢を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:영역가세\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210575",
+		"jp_text": "Ｓ５追加：回避輝与",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：回避輝与を付与。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "3210576",
@@ -2576,6 +2604,48 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:추식의 지\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210579",
+		"jp_text": "Ｓ２追加：瞬乱巧志",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：瞬乱巧志を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210581",
+		"jp_text": "Ｓ１追加：剛撃の志２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：剛撃の志２を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210582",
+		"jp_text": "Ｓ２追加：光子縮減３",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：光子縮減３を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210583",
+		"jp_text": "Ｓ３追加：活実の志２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：活実の志２を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210584",
+		"jp_text": "Ｓ３追加：輝剰の撃３",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：輝剰の撃３を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210585",
+		"jp_text": "Ｓ２追加：守護の備２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：守護の備２を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210586",
 		"jp_text": "Ｓ１追加：輝充の志２",
 		"tr_text": "S1 추가:휘충의 지 2",
@@ -2583,10 +2653,52 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:휘충의 지 2\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210587",
+		"jp_text": "Ｓ３追加：輝勢の恵３",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：輝勢の恵３を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210589",
+		"jp_text": "Ｓ２追加：瞬乱縮減２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：瞬乱縮減２を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210590",
+		"jp_text": "Ｓ２追加：服薬の恵２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：服薬の恵２を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210591",
+		"jp_text": "Ｓ１追加：錬成の志２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：錬成の志２を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210592",
 		"jp_text": "Ｓ２追加：保天輝地２",
 		"tr_text": "S2 추가:보천휘지 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：保天輝地２を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210593",
+		"jp_text": "Ｓ１追加：光子の秤２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：光子の秤２を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210594",
+		"jp_text": "Ｓ１追加：戦友の加護２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：戦友の加護２を付与。",
 		"tr_explain": ""
 	},
 	{
@@ -2695,6 +2807,20 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:시류의 지\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210614",
+		"jp_text": "Ｓ１追加：時流の恵",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：時流の恵を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210615",
+		"jp_text": "Ｓ１追加Ｒ：剛撃の志２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：剛撃の志２を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210626",
 		"jp_text": "Ｓ２追加Ｒ：技巧縮減",
 		"tr_text": "S2 추가 R:기교축감",
@@ -2707,6 +2833,13 @@
 		"tr_text": "S2 추가 R:묘격의 지 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：妙撃の志２を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:묘격의 지 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210628",
+		"jp_text": "Ｓ２追加Ｒ：瞬乱巧志",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：瞬乱巧志を付与。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "3210643",
@@ -2744,6 +2877,13 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:화해설의 가\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210648",
+		"jp_text": "Ｓ３追加Ｒ：妙撃の志",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：妙撃の志を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210662",
 		"jp_text": "Ｓ４追加Ｒ：静心の志",
 		"tr_text": "S4 추가 R:정심의 지",
@@ -2751,10 +2891,45 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:정심의 지\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210663",
+		"jp_text": "Ｓ４追加Ｒ：累加追撃",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：累加追撃を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210672",
+		"jp_text": "Ｓ５追加：終撃応与",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：終撃応与を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210673",
+		"jp_text": "Ｓ５追加Ｒ：錬成萌花",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：錬成萌花を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210679",
 		"jp_text": "Ｓ６追加Ｒ：癒蝕頑強",
 		"tr_text": "S6 추가R:유식완강",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：癒蝕頑強を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210680",
+		"jp_text": "Ｓ６追加：六色の盾",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：六色の盾を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210681",
+		"jp_text": "Ｓ６追加：累加拡域",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：累加拡域を付与。",
 		"tr_explain": ""
 	},
 	{
@@ -2765,10 +2940,31 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "3210690",
+		"jp_text": "Ｓ７追加：六色の巧",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：六色の巧を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210691",
+		"jp_text": "Ｓ７追加：注技縮地",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：注技縮地を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210699",
 		"jp_text": "Ｓ８追加Ｒ：舞空の援",
 		"tr_text": "S8 추가R:무공의 원",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ８：舞空の援を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210700",
+		"jp_text": "Ｓ８追加：六色の蝕",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ８：六色の蝕を付与。",
 		"tr_explain": ""
 	},
 	{
