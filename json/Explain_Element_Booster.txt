@@ -772,9 +772,9 @@
 	{
 		"assign": "110",
 		"jp_text": "ドラグ・フィーバー",
-		"tr_text": "",
+		"tr_text": "Drago Fever",
 		"jp_explain": "技量+5 射防+10\nHP+5 PP+1",
-		"tr_explain": ""
+		"tr_explain": "DEX +5 R-DEF +10\nHP +5 PP +1"
 	},
 	{
 		"assign": "111",
@@ -947,9 +947,9 @@
 	{
 		"assign": "135",
 		"jp_text": "タッキ・フィーバー",
-		"tr_text": "",
+		"tr_text": "Turkey Fever",
 		"jp_explain": "技量+5 法防+10\nHP+5 PP+1",
-		"tr_explain": ""
+		"tr_explain": "DEX +5 T-DEF +10\nHP +5 PP +1"
 	},
 	{
 		"assign": "136",
@@ -2655,29 +2655,29 @@
 	{
 		"assign": "379",
 		"jp_text": "リガンド・アルマ",
-		"tr_text": "",
+		"tr_text": "Ligand Arma",
 		"jp_explain": "打撃+40 HP+30 PP+3",
-		"tr_explain": ""
+		"tr_explain": "S-ATK +40 HP +30\nPP +3"
 	},
 	{
 		"assign": "380",
 		"jp_text": "リガンド・ティロ",
-		"tr_text": "",
+		"tr_text": "Ligand Tiro",
 		"jp_explain": "射撃+40 HP+30 PP+3",
-		"tr_explain": ""
+		"tr_explain": "R-ATK +40 HP +30\nPP +3"
 	},
 	{
 		"assign": "381",
 		"jp_text": "リガンド・マギア",
-		"tr_text": "",
+		"tr_text": "Ligand Magia",
 		"jp_explain": "法撃+40 HP+30 PP+3",
-		"tr_explain": ""
+		"tr_explain": "T-ATK +40 HP +30\nPP +3"
 	},
 	{
 		"assign": "382",
 		"jp_text": "レヴリーレセプター",
-		"tr_text": "",
+		"tr_text": "Reverie Receptor",
 		"jp_explain": "レヴリー系特殊能力の\n継承成功率を大幅に上昇\n全+10",
-		"tr_explain": ""
+		"tr_explain": "Boosts Reverie-type\nability transfer rates.\nAll +10"
 	}
 ]
