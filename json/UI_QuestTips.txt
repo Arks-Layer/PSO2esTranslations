@@ -306,8 +306,8 @@
 	},
 	{
 		"assign": "0061",
-		"jp_text": "<color=#f0df60>＜全属性共鳴・攻に関して＞</color>\n武器には「全属性共鳴・攻」という能力を持つものがあり\n装備中の武器・チップの全属性の合計値に応じて\n武器の攻撃力が強化されます。\n緊急クエストの超級でまれに手に入りますよ！",
-		"tr_text": "<color=#f0df60><All Elemental Resonance - Attack></color>\nSome weapons have the ability \"All Elemental\nResonance - Attack\", which increases their ATK\nbased on how much total element you have.\nYou can obtain these weapons as rare rewards\nfrom Super Hard Emergency Quests!"
+		"jp_text": "<color=#f0df60>＜全属性共鳴・攻に関して＞</color>\n武器には「全属性共鳴・攻」という能力を持つものがあり\n装備中の武器・チップの全属性の合計値に応じて\n武器の攻撃力が強化されます。\n緊急クエストの超級以上でまれに手に入りますよ！",
+		"tr_text": ""
 	},
 	{
 		"assign": "0062",
@@ -611,8 +611,8 @@
 	},
 	{
 		"assign": "0122",
-		"jp_text": "<color=#f0df60>＜「オペレーションスコア」とは＞</color>\n緊急クエストをクリアすると、\n作戦への貢献度を示す\nオペレーションスコアが獲得できますよ。",
-		"tr_text": "<color=#f0df60>What is \"Operation Score\"?</color>\nWhen you clear an Emergency Quest, you\nearn Operation Score points based on how\nmuch you contributed to the battle."
+		"jp_text": "<color=#f0df60>＜「オペレーションスコア」とは＞</color>\nオペレーションスコアは、緊急クエストを\nプレイすることで獲得できる貢献度ポイントです。\n獲得することで、緊急ミッションが達成され\n報酬を受け取ることができますよ！",
+		"tr_text": ""
 	},
 	{
 		"assign": "0123",
@@ -1036,13 +1036,13 @@
 	},
 	{
 		"assign": "0207",
-		"jp_text": "<color=#f0df60>＜覇級クエストに挑戦しよう＞</color>\n超級クエストをクリアすると、「覇級トリガー」が\n手に入ることがあります。\nクエストカウンターで覇級クエストを選択すると\n覇級クエストに出発することができますよ！",
-		"tr_text": "<color=#f0df60><Challenge a Tougher Quest></color>\nWhen you clear a Super Hard Emergency\nQuest, you will obtain an Extra Hard\nTrigger. This Extra Hard Trigger will\nlet you select the Extra Hard difficulty\nwhen starting an Emergency Quest!"
+		"jp_text": "<color=#f0df60>＜覇級クエストに挑戦しよう＞</color>\n覇級クエストは「覇級トリガー」を使用することで\nプレイすることができます。\n覇級トリガーは「交換ショップ」や「トリガー交換」で\n超級トリガーと交換することで入手できますよ！",
+		"tr_text": ""
 	},
 	{
 		"assign": "0208",
-		"jp_text": "<color=#f0df60>＜超級クエストに挑戦しよう＞</color>\n「緊急イベント」画面からボーナススクラッチを引くと\n「超級トリガー」が手に入ることがあります。\nクエストカウンターで超級クエストを選択すると\n超級クエストに出発することができますよ！",
-		"tr_text": "<color=#f0df60><Challenge a Super Hard Quest></color>\nWhen you draw from the Bonus Scratch,\nyou may receive a Super Hard Trigger.\nYou can use this Trigger to start a Super\nHard Emergency Quest!"
+		"jp_text": "<color=#f0df60>＜超級クエストに挑戦しよう＞</color>\n超級クエストは「超級トリガー」を使用することで\nプレイすることができます。\n超級トリガーは「ボーナススクラッチ」などで\n入手することができますよ！",
+		"tr_text": ""
 	},
 	{
 		"assign": "0209",
@@ -1418,5 +1418,20 @@
 		"assign": "0283",
 		"jp_text": "<color=#f0df60>＜1分間！超強力エネミーに挑め！＞</color>\nこのクエストでは「1分間のうちに与えた総ダメージ数」を\n他のプレイヤーとランキング形式で競います。\n出現するエネミーはとても強力です！\nより短時間で高ダメージを目指しましょう！",
 		"tr_text": "<color=#f0df60><Take the 1 Minute Challenge!></color>\nIn this quest, you will be competing against other\nplayers to see how much damage you can deal\nin 1 minute. The enemies you will be facing are\nvery powerful, so hit them fast and hit them hard!"
+	},
+	{
+		"assign": "0284",
+		"jp_text": "<color=#f0df60>＜OP回復薬のボーナス効果を活用しよう！＞</color>\n「OP回復薬」「OP回復薬ミニ」を使用すると\n出撃に必要なOPを回復することができます。\n特に「OP回復薬」は、使用すると30分間だけ\n攻撃力・防御力・CP回復力などのどれかがアップしたり\nフレンドをすぐに再同行させたりできますよ！",
+		"tr_text": ""
+	},
+	{
+		"assign": "0285",
+		"jp_text": "<color=#f0df60>＜レアなエネミーチップはポイントへ交換！＞</color>\nレアエネミーのチップを入手したら\n交換ショップで「レアエネミーポイント」に\n交換しましょう！\nレアエネミーポイントは集めることで\n様々なアイテムと交換できますよ！",
+		"tr_text": ""
+	},
+	{
+		"assign": "0286",
+		"jp_text": "<color=#f0df60>＜属性限界突破のユニットを手に入れよう！＞</color>\nユニットの中には、「属性限界突破」という\n属性の限界値を上げる効果がついたものがあります。\n交換ショップの「レアエネミーポイント交換」や\n「マテリアル・ゼロ交換」などで入手できますよ！",
+		"tr_text": ""
 	}
 ]
