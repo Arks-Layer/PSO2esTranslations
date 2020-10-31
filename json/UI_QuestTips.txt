@@ -307,7 +307,7 @@
 	{
 		"assign": "0061",
 		"jp_text": "<color=#f0df60>＜全属性共鳴・攻に関して＞</color>\n武器には「全属性共鳴・攻」という能力を持つものがあり\n装備中の武器・チップの全属性の合計値に応じて\n武器の攻撃力が強化されます。\n緊急クエストの超級以上でまれに手に入りますよ！",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60><All Elemental Resonance - Attack></color>\nSome weapons have the ability \"All Elemental\nResonance - Attack\", which increases their ATK\nbased on how much total element you have.\nYou can obtain these weapons as rare rewards\nfrom Emergency Quests on Super Hard or higher!"
 	},
 	{
 		"assign": "0062",
@@ -612,7 +612,7 @@
 	{
 		"assign": "0122",
 		"jp_text": "<color=#f0df60>＜「オペレーションスコア」とは＞</color>\nオペレーションスコアは、緊急クエストを\nプレイすることで獲得できる貢献度ポイントです。\n獲得することで、緊急ミッションが達成され\n報酬を受け取ることができますよ！",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>What is \"Operation Score\"?</color>\nYou earn Operation Score points when\nyou contribute to the Emergency Quest.\nUse it to complete Emergency Missions\nand obtain cool rewards!"
 	},
 	{
 		"assign": "0123",
@@ -962,7 +962,7 @@
 	{
 		"assign": "0192",
 		"jp_text": "<color=#f0df60>＜レアチップをゲットしよう！＞</color>\nこのクエストでは、ごくまれに\nチップ「ルーライラ」が手に入りますよ！\nたくさん集めてアビリティのレベルを上げましょう！",
-		"tr_text": "<color=#f0df60><></color>\nIn this quest, you will frequently get the chip\n\"Rulyra\"! Get as many as you can and\nraise its ability level!"
+		"tr_text": "<color=#f0df60><Get Rare Chips!></color>\nIn this quest, you will frequently get the chip\n\"Rulyra\"! Get as many as you can and\nraise its ability level!"
 	},
 	{
 		"assign": "0193",
@@ -1037,12 +1037,12 @@
 	{
 		"assign": "0207",
 		"jp_text": "<color=#f0df60>＜覇級クエストに挑戦しよう＞</color>\n覇級クエストは「覇級トリガー」を使用することで\nプレイすることができます。\n覇級トリガーは「交換ショップ」や「トリガー交換」で\n超級トリガーと交換することで入手できますよ！",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60><Challenge a Tougher Quest></color>\nYou can use Extra Hard Triggers to challenge\nan Extra Hard quest.\nYou can obtain Extra Hard Triggers by\ntrading Super Hard Triggers for them\nat the Exchange Shop or Trigger Exchange!"
 	},
 	{
 		"assign": "0208",
 		"jp_text": "<color=#f0df60>＜超級クエストに挑戦しよう＞</color>\n超級クエストは「超級トリガー」を使用することで\nプレイすることができます。\n超級トリガーは「ボーナススクラッチ」などで\n入手することができますよ！",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60><Challenge a Super Hard Quest></color>\nYou can use Super Hard Triggers to challenge\na Super Hard quest.\nYou can obtain Super Hard Triggers by\ndrawing on the Bonus Scratch!"
 	},
 	{
 		"assign": "0209",
@@ -1422,16 +1422,16 @@
 	{
 		"assign": "0284",
 		"jp_text": "<color=#f0df60>＜OP回復薬のボーナス効果を活用しよう！＞</color>\n「OP回復薬」「OP回復薬ミニ」を使用すると\n出撃に必要なOPを回復することができます。\n特に「OP回復薬」は、使用すると30分間だけ\n攻撃力・防御力・CP回復力などのどれかがアップしたり\nフレンドをすぐに再同行させたりできますよ！",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Use OP Recovery Bonus Effects!</color>\nWhen you've run out of OP to challenge quests,\nyou can use OP Recovery Meds or Mini Meds to\ngain more. OP Recovery Meds also give you\nextra ATK, DEF or CP recovery and makes all\nyour Friend Partners available immediately!"
 	},
 	{
 		"assign": "0285",
 		"jp_text": "<color=#f0df60>＜レアなエネミーチップはポイントへ交換！＞</color>\nレアエネミーのチップを入手したら\n交換ショップで「レアエネミーポイント」に\n交換しましょう！\nレアエネミーポイントは集めることで\n様々なアイテムと交換できますよ！",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60><Exchange Rare Enemy Chips for Points!></color>\nWhen you get Rare Enemy Chips, you can\nexchange them for Rare Enemy Points\nat the Exchange Shop!\nWhen you collect enough Rare Enemy\nPoints, you can trade them for prizes!"
 	},
 	{
 		"assign": "0286",
 		"jp_text": "<color=#f0df60>＜属性限界突破のユニットを手に入れよう！＞</color>\nユニットの中には、「属性限界突破」という\n属性の限界値を上げる効果がついたものがあります。\n交換ショップの「レアエネミーポイント交換」や\n「マテリアル・ゼロ交換」などで入手できますよ！",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60><Break the Element Limit with Units!</color>\nSome units have an ability called Element Limit\nBreak, which increases your maximum Element\nvalues when they're equipped.\nYou can get these units at the Material Zero\nExchange or the Rare Enemy Point Exchange!"
 	}
 ]
