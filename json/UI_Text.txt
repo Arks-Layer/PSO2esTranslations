@@ -1002,12 +1002,12 @@
 	{
 		"assign": "rshop_dialog_b_13_1",
 		"jp_text": "レアエネミーポイントが足りません。\r\n\r\n所持レアエネミーポイント　⇒　{0:N0}pt\r\n必要レアエネミーポイント　⇒　{1:N0}pt\r\n不足レアエネミーポイント　⇒　<color=#ff0000>{2:N0}pt</color>",
-		"tr_text": ""
+		"tr_text": "Insufficient Rare Enemy points.\r\n\r\nOwned Rare Enemy Points ⇒ {0:N0}\r\nRequired Rare Enemy Points ⇒ {1:N0}pt\r\nMissing Rare Enemy Points ⇒ <color=#ff0000>{2:N0}</color>"
 	},
 	{
 		"assign": "rshop_dialog_b_13",
 		"jp_text": "「{0}」\r\nと、レアエネミーポイントを交換します。よろしいですか？\r\n\r\n所持レアエネミーポイント　⇒　{1:N0}pt\r\n必要レアエネミーポイント　⇒　{2:N0}pt\r\n残りレアエネミーポイント　⇒　{3:N0}pt",
-		"tr_text": ""
+		"tr_text": "Now exchanging Rare Enemy Points for\n{0}.\nDo you wish to continue?\n\nOwned Rare Enemy Points ⇒ {1:N0}pt\nRequired Rare Enemy Points ⇒ {2:N0}pt\nRemaining Rare Enemy Points ⇒ {3:N0}pt"
 	},
 	{
 		"assign": "arcscard_guide_00",
@@ -2587,7 +2587,7 @@
 	{
 		"assign": "labo_dialog_b_18",
 		"jp_text": "強化に成功しました。",
-		"tr_text": ""
+		"tr_text": "Enhancement successful."
 	},
 	{
 		"assign": "labo_guide_09",
@@ -2647,7 +2647,7 @@
 	{
 		"assign": "labo_dialog_b_22",
 		"jp_text": "特殊能力追加が完了しました。",
-		"tr_text": ""
+		"tr_text": "Special ability addition complete."
 	},
 	{
 		"assign": "labo_guide_15",
@@ -2662,17 +2662,17 @@
 	{
 		"assign": "labo_dialog_t_32",
 		"jp_text": "消費素材チップ確認",
-		"tr_text": ""
+		"tr_text": "Consumed Material Confirmation"
 	},
 	{
 		"assign": "labo_dialog_b_32_1_1",
 		"jp_text": "次のチップを使用して、チップ強化を実行します。\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "Now using the below chips for Chip Grinding.\nDo you wish to continue?"
 	},
 	{
 		"assign": "labo_dialog_b_32_1_2",
 		"jp_text": "現在選択されているチップです。\n<size=20>※キング・ラッピー以外のラッピー系チップが自動選択されます。</size>",
-		"tr_text": ""
+		"tr_text": "These are the currently selected chips.\n<size=20>※Non-King Rappy chips are automatically selected.</size>"
 	},
 	{
 		"assign": "labo_dialog_b_32_2",
@@ -2682,22 +2682,22 @@
 	{
 		"assign": "labo_dialog_t_33",
 		"jp_text": "Lv最大強化チップ選択",
-		"tr_text": ""
+		"tr_text": "Max Lv. Selection"
 	},
 	{
 		"assign": "labo_dialog_b_33",
 		"jp_text": "自動選択できるチップがありません。\n※キング・ラッピー以外のラッピー系チップが\n　　自動選択されます。",
-		"tr_text": ""
+		"tr_text": "There are no chips that can be automatically selected.\n※Non-King Rappy chips are automatically selected."
 	},
 	{
 		"assign": "labo_dialog_t_34",
 		"jp_text": "アビリティ強化チップ選択",
-		"tr_text": ""
+		"tr_text": "Ability Enhancement Selection"
 	},
 	{
 		"assign": "labo_dialog_b_34",
 		"jp_text": "自動選択できるチップがありません。\n※ニャウ系チップ等、一部チップは\n　　自動選択されません。",
-		"tr_text": ""
+		"tr_text": "There are no chips that can be automatically selected.\n※Some chips, such as Nyau, are\n   not automatically selected."
 	},
 	{
 		"assign": "chipevo_npc_t_00",
@@ -8632,7 +8632,7 @@
 	{
 		"assign": "ui_chip_material",
 		"jp_text": "素材チップ",
-		"tr_text": ""
+		"tr_text": "Chip Material(s)"
 	},
 	{
 		"assign": "ui_chip_release",
@@ -8647,7 +8647,7 @@
 	{
 		"assign": "ui_chip_recommend",
 		"jp_text": "Lv最大強化",
-		"tr_text": ""
+		"tr_text": "Maximise Lv."
 	},
 	{
 		"assign": "ui_chip_recommend_ability",
@@ -8657,27 +8657,27 @@
 	{
 		"assign": "ui_chip_button_goto_grind",
 		"jp_text": "チップ強化へ",
-		"tr_text": ""
+		"tr_text": "Grind Chips"
 	},
 	{
 		"assign": "ui_chip_button_goto_release",
 		"jp_text": "チップ解放へ",
-		"tr_text": ""
+		"tr_text": "Release Chips"
 	},
 	{
 		"assign": "ui_chip_button_goto_awake",
 		"jp_text": "チップ特装へ",
-		"tr_text": ""
+		"tr_text": "Plug Chips"
 	},
 	{
 		"assign": "ui_chip_button_lvmax_text",
 		"jp_text": "チップLvを強化可能な最大値まで強化します。",
-		"tr_text": ""
+		"tr_text": "Grinds the chip to its highest possible level."
 	},
 	{
 		"assign": "ui_chip_button_lvmax_confirm",
 		"jp_text": "消費する素材を確認",
-		"tr_text": ""
+		"tr_text": "Check Materials"
 	},
 	{
 		"assign": "ui_chip_button_lvmax_cancel",
@@ -12637,7 +12637,7 @@
 	{
 		"assign": "wh_28_01",
 		"jp_text": "報酬を受け取るための達成条件は\nオペレーションスコア以外にも多数あります。\nくわしくは緊急ミッションページで確認してみましょう！",
-		"tr_text": ""
+		"tr_text": "Certain rewards have special\nconditions in order to be redeemed.\nCheck back frequently as possible!"
 	},
 	{
 		"assign": "wh_29_00",
@@ -20342,7 +20342,7 @@
 	{
 		"assign": "photondice_result_lose_dialog_button_no",
 		"jp_text": "やめる",
-		"tr_text": ""
+		"tr_text": "Quit"
 	},
 	{
 		"assign": "photondice_error_payback_dialog_t_01",
@@ -23767,26 +23767,26 @@
 	{
 		"assign": "rshop_dialog_change_rare_enemy_point",
 		"jp_text": "レアエネミーポイント×<%num>\r\nと、以下のアイテムを交換します。よろしいですか？",
-		"tr_text": ""
+		"tr_text": "Exchanging the below items\r\nfor <%num> Rare Enemy Points.\r\nDo you wish to continue?"
 	},
 	{
 		"assign": "rshop_dialog_button_chip_pack",
 		"jp_text": "チップパックのみ",
-		"tr_text": ""
+		"tr_text": "Chip Pack only"
 	},
 	{
 		"assign": "rshop_dialog_button_receive",
 		"jp_text": "受け取りボックスのみ",
-		"tr_text": ""
+		"tr_text": "Reception Box only"
 	},
 	{
 		"assign": "rshop_dialog_button_chip_pack_receive",
 		"jp_text": "全て",
-		"tr_text": ""
+		"tr_text": "All"
 	},
 	{
 		"assign": "rshop_dialog_rare_enemy_point_select_target",
 		"jp_text": "所持している全てのレアエネミーチップを\nレアエネミーポイントに一括交換します。\nよろしいですか？\n\n<color=#ff0000>※交換したくないチップは\n　　チップ詳細の画面からロックしてください。</color>\n\n■所持レアエネミーチップ\nチップパック：<%packnum>枚\n受け取りボックス：<%boxnum>枚",
-		"tr_text": ""
+		"tr_text": "Exchanging all owned Rare Enemy chips\nfor Rare Enemy Points simultaneously.\nDo you wish to continue?\n\n<color=#ff0000>※If you do not want to exchange a chip,\n   please return and Favourite it.\nRare Enemy chips in Chip Pack: <%packnum>\nRare Enemy chips in Receptino Box: <%boxnum>"
 	}
 ]
