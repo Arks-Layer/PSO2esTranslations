@@ -2672,7 +2672,7 @@
 	{
 		"assign": "labo_dialog_b_32_1_2",
 		"jp_text": "現在選択されているチップです。\n<size=20>※キング・ラッピー以外のラッピー系チップが自動選択されます。</size>",
-		"tr_text": "These are the currently selected chips.\n<size=20>※Non-King Rappy chips are automatically selected.</size>"
+		"tr_text": "These are the currently selected chips.\n<size=20>※Rappy chips have been automatically selected.</size>"
 	},
 	{
 		"assign": "labo_dialog_b_32_2",
@@ -2687,7 +2687,7 @@
 	{
 		"assign": "labo_dialog_b_33",
 		"jp_text": "自動選択できるチップがありません。\n※キング・ラッピー以外のラッピー系チップが\n　　自動選択されます。",
-		"tr_text": "There are no chips that can be automatically selected.\n※Non-King Rappy chips are automatically selected."
+		"tr_text": "No chips can be automatically selected.\n※Rappy chips are automatically selected."
 	},
 	{
 		"assign": "labo_dialog_t_34",
@@ -2697,7 +2697,7 @@
 	{
 		"assign": "labo_dialog_b_34",
 		"jp_text": "自動選択できるチップがありません。\n※ニャウ系チップ等、一部チップは\n　　自動選択されません。",
-		"tr_text": "There are no chips that can be automatically selected.\n※Some chips, such as Nyau, are\n   not automatically selected."
+		"tr_text": "No chips can be automatically selected.\n※Some chips, such as Nyau, are not\n   automatically selected."
 	},
 	{
 		"assign": "chipevo_npc_t_00",
@@ -8667,7 +8667,7 @@
 	{
 		"assign": "ui_chip_button_goto_awake",
 		"jp_text": "チップ特装へ",
-		"tr_text": "Plug Chips"
+		"tr_text": "Chip Plugs"
 	},
 	{
 		"assign": "ui_chip_button_lvmax_text",
@@ -23787,6 +23787,6 @@
 	{
 		"assign": "rshop_dialog_rare_enemy_point_select_target",
 		"jp_text": "所持している全てのレアエネミーチップを\nレアエネミーポイントに一括交換します。\nよろしいですか？\n\n<color=#ff0000>※交換したくないチップは\n　　チップ詳細の画面からロックしてください。</color>\n\n■所持レアエネミーチップ\nチップパック：<%packnum>枚\n受け取りボックス：<%boxnum>枚",
-		"tr_text": "Exchanging all owned Rare Enemy chips\nfor Rare Enemy Points simultaneously.\nDo you wish to continue?\n\n<color=#ff0000>※If you do not want to exchange a chip,\n   please return and Favourite it.\nRare Enemy chips in Chip Pack: <%packnum>\nRare Enemy chips in Receptino Box: <%boxnum>"
+		"tr_text": "Exchanging all owned Rare Enemy chips for\nRare Enemy Points simultaneously.\nDo you wish to continue?\n\n<color=#ff0000>※If you do not want to exchange a chip, please\n   return and Favourite it.\nRare Enemy chips in Chip Pack: <%packnum>\nRare Enemy chips in Receptino Box: <%boxnum>"
 	}
 ]
