@@ -7039,42 +7039,42 @@
 		"jp_explainShort": "定期的にＨＰが小回復＋銃剣の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ＨＰが最大ＨＰの３０％減少する代わりに\n　　 攻撃力を劇的に増加する。（ＨＰは最低でも１残る）\n② 効果時間終了時にＨＰを中回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "①  Boosts damage by ???% in exchange for losing\n     HP equal to 30% of your maximum HP.\n     (Cannot reduce your HP below 1.)\n     <color=yellow>[U-Frame]</color>\n②  Recovers HP by ??% when this effect ends.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by 95% in exchange for losing\n     HP equal to 30% of your maximum HP.\n<color=yellow>SP: </color>Boosts damage by 105% in exchange for losing\n     HP equal to 30% of your maximum HP.\n     (Cannot reduce your HP below 1.)\n     <color=yellow>[U-Frame]</color>\n②  Recovers HP by 30% when this effect ends.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "32369",
 		"jp_explainShort": "定期的にＨＰが小回復＋銃剣の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ＨＰが最大ＨＰの３０％減少する代わりに\n　　 攻撃力を劇的に増加する。（ＨＰは最低でも１残る）\n② 効果時間終了時にＨＰを中回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "①  Boosts damage by ???% in exchange for losing\n     HP equal to 30% of your maximum HP.\n     (Cannot reduce your HP below 1.)\n     <color=yellow>[U-Frame]</color>\n②  Recovers HP by ??% when this effect ends.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by 115% in exchange for losing\n     HP equal to 30% of your maximum HP.\n<color=yellow>SP: </color>Boosts damage by 125% in exchange for losing\n     HP equal to 30% of your maximum HP.\n     (Cannot reduce your HP below 1.)\n     <color=yellow>[U-Frame]</color>\n②  Recovers HP by 30% when this effect ends.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "32373",
 		"jp_explainShort": "定期的にＨＰが小回復＋長銃の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて\n　　 すべての種族に与えるダメージを超絶に増加する。\n[発動条件]ジャストアタック成功時",
-		"tr_explainLong": "①  Boosts damage against all races based on this\n     chip's ability level.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Successful Just Attack"
+		"tr_explainLong": "①  Boosts damage against all races by 145% +\n     5% x this chip's ability level.\n<color=yellow>SP: </color>Boosts damage against all races by 155% +\n     5% x this chip's ability level.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Successful Just Attack"
 	},
 	{
 		"assign": "32374",
 		"jp_explainShort": "定期的にＨＰが小回復＋長銃の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて\n　　 すべての種族に与えるダメージを超絶に増加する。\n[発動条件]ジャストアタック成功時",
-		"tr_explainLong": "①  Boosts damage against all races based on this\n     chip's ability level.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Successful Just Attack"
+		"tr_explainLong": "①  Boosts damage against all races by 165% +\n     5% x this chip's ability level.\n<color=yellow>SP: </color>Boosts damage against all races by 175% +\n     5% x this chip's ability level.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Successful Just Attack"
 	},
 	{
 		"assign": "32375",
 		"jp_explainShort": "定期的にＨＰが小回復＋大砲の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて\n　　 必殺技・法術の威力を超絶に強化する。\n[発動条件]ジャストアタック成功時",
-		"tr_explainLong": "①  Boosts the power of PAs and Techs based on\n     this chip's ability level.\n     <color=yellow>[A-Frame]</color>\n[Activation Trigger] Successful Just Attack"
+		"tr_explainLong": "①  Boosts the power of PAs and Techs by 135% +\n     5% x this chip's ability level.\n<color=yellow>SP: </color>Boosts the power of PAs and Techs by 145% +\n     5% x this chip's ability level.\n     <color=yellow>[A-Frame]</color>\n[Activation Trigger] Successful Just Attack"
 	},
 	{
 		"assign": "32376",
 		"jp_explainShort": "定期的にＨＰが小回復＋大砲の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて\n　　 必殺技・法術の威力を超絶に強化する。\n[発動条件]ジャストアタック成功時",
-		"tr_explainLong": "①  Boosts the power of PAs and Techs based on\n     this chip's ability level.\n     <color=yellow>[A-Frame]</color>\n[Activation Trigger] Successful Just Attack"
+		"tr_explainLong": "①  Boosts the power of PAs and Techs by 155% +\n     5% x this chip's ability level.\n<color=yellow>SP: </color>Boosts the power of PAs and Techs by 165% +\n     5% x this chip's ability level.\n     <color=yellow>[A-Frame]</color>\n[Activation Trigger] Successful Just Attack"
 	},
 	{
 		"assign": "32377",
