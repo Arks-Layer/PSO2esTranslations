@@ -42,7 +42,7 @@ for files in json_files:
                         # Filter out names that are just stars
                         and (re.match(r'^[￥\\]', str(rmid[checkjp])) is None)
                         # Filter out anything that starts with a backslash
-                        and (re.match(r'^[a-zA-Z\.]+$', str(rmid[checkjp])) is None)
+                        and (re.match(r'^[a-zA-Z0-9 \-\'\"\&\:\,\.\!\(\)\\]+$', str(rmid[checkjp])) is None)
                         # Filter out names that are already fully in English
                         and (re.fullmatch(r'^\d+$', str(rmid[checkjp])) is None)
                         # Filter out names that are just numbers - even if these aren't dummy strings, the numbers alone are fine
