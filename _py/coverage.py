@@ -40,7 +40,7 @@ for files in json_files:
                         and (rmid[checkjp] not in ["", "-", "－", "---", "仮設定", "仮テキスト"])
                         and (re.fullmatch(r'^\＊+$', str(rmid[checkjp])) is None)
                         # Filter out names that are just stars
-                        and (re.match(r'^\\', str(rmid[checkjp])) is None)
+                        and (re.match(r'^[￥\\]', str(rmid[checkjp])) is None)
                         # Filter out anything that starts with a backslash
                         and (re.match(r'^[a-zA-Z\.]+$', str(rmid[checkjp])) is None)
                         # Filter out names that are already fully in English
