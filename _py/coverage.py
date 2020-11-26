@@ -38,6 +38,10 @@ for files in json_files:
                     if (
                         (checkjp in rmid)
                         and (rmid[checkjp] not in ["", "-", "－", "---", "仮設定", "仮テキスト"])
+                        and (re.fullmatch(r'^\＊+$', str(rmid[checkjp])) is None)
+                        # Filter out names that are just stars
+                        and (re.match(r'^\\', str(rmid[checkjp])) is None)
+                        # Filter out anything that starts with a backslash
                         and (re.fullmatch(r'^\d+$', str(rmid[checkjp])) is None)
                         # Filter out names that are just numbers - even if these aren't dummy strings, the numbers alone are fine
                         and (re.fullmatch(r'ENT_(ABN|SP)ダミー\d+', str(rmid[checkjp])) is None)
