@@ -58,8 +58,7 @@ for files in json_files:
             # print ("%s/%s" % (countin, countout))
             if (countin):
                 countper = "{:06.1%}".format(float(countout) / float(countin))
-                bufout += '\n{0}\t{1}'.format(countper, files)
-                bufout += ' ({0}/{1})'.format(countout, countin)
+                bufout += '\n{0} ({1}/{2})\t{3}'.format(countper, countout, countin, files)
             else:
                 bufout += '\n{0}\t:{1}'.format("No translatable lines found ", files)
         except ValueError as e:
