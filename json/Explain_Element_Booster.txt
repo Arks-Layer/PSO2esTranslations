@@ -1297,112 +1297,112 @@
 	{
 		"assign": "185",
 		"jp_text": "打撃ＨＰアップ",
-		"tr_text": "Strike HP Up",
+		"tr_text": "S-ATK & HP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "186",
 		"jp_text": "射撃ＨＰアップ",
-		"tr_text": "Ranged HP Up",
+		"tr_text": "R-ATK & HP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "187",
 		"jp_text": "法撃ＨＰアップ",
-		"tr_text": "Tech HP Up",
+		"tr_text": "T-ATK & HP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "188",
 		"jp_text": "技量ＨＰアップ",
-		"tr_text": "DEX HP Up",
+		"tr_text": "DEX & HP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "189",
 		"jp_text": "打撃ＰＰアップ",
-		"tr_text": "Strike PP Up",
+		"tr_text": "S-aTK & PP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "190",
 		"jp_text": "射撃ＰＰアップ",
-		"tr_text": "Ranged PP Up",
+		"tr_text": "R-ATK & PP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "191",
 		"jp_text": "法撃ＰＰアップ",
-		"tr_text": "Tech PP Up",
+		"tr_text": "T-ATK & PP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "192",
 		"jp_text": "技量ＰＰアップ",
-		"tr_text": "DEX PP Up",
+		"tr_text": "DEX & PP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "193",
 		"jp_text": "ＨＰＰＰアップ",
-		"tr_text": "HP PP Up",
+		"tr_text": "HP & PP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "194",
 		"jp_text": "ＰＰＨＰアップ",
-		"tr_text": "PP HP Up",
+		"tr_text": "PP & HP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "195",
 		"jp_text": "打撃射撃アップ",
-		"tr_text": "Strike and Ranged Atk Up",
+		"tr_text": "S-ATK & R-ATK Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "196",
 		"jp_text": "打撃法撃アップ",
-		"tr_text": "",
+		"tr_text": "S-ATK & T-ATK Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "197",
 		"jp_text": "打撃技量アップ",
-		"tr_text": "",
+		"tr_text": "S-ATK & DEX Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "198",
 		"jp_text": "射撃法撃アップ",
-		"tr_text": "",
+		"tr_text": "R-ATK & T-ATK Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "199",
 		"jp_text": "射撃技量アップ",
-		"tr_text": "",
+		"tr_text": "R-ATK & DEX Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "200",
 		"jp_text": "法撃技量アップ",
-		"tr_text": "",
+		"tr_text": "T-ATK & DEX Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
@@ -1647,7 +1647,7 @@
 	{
 		"assign": "235",
 		"jp_text": "打射法撃ＰＰアップ",
-		"tr_text": "",
+		"tr_text": "All ATK & PP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
@@ -1822,7 +1822,7 @@
 	{
 		"assign": "260",
 		"jp_text": "poka19",
-		"tr_text": "",
+		"tr_text": "battlemode19",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
@@ -2573,14 +2573,14 @@
 		"jp_text": "バトルブーツⅡ",
 		"tr_text": "Battle Boots II",
 		"jp_explain": "HP+10",
-		"tr_explain": "HP+10"
+		"tr_explain": "HP +10"
 	},
 	{
 		"assign": "368",
 		"jp_text": "バトルブーツⅢ",
 		"tr_text": "Battle Boots III",
 		"jp_explain": "HP+30",
-		"tr_explain": "HP+30"
+		"tr_explain": "HP +30"
 	},
 	{
 		"assign": "369",
