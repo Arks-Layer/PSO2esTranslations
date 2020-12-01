@@ -46,8 +46,8 @@ for files in json_files:
                         # Filter out names that are already fully in English
                         and (re.fullmatch(r'^\d+$', str(rmid[checkjp])) is None)
                         # Filter out names that are just numbers - even if these aren't dummy strings, the numbers alone are fine
-                        and (re.fullmatch(r'ENT_(ABN|SP)ダミー\d+', str(rmid[checkjp])) is None)
-                       ):  # Filter out dummy strings from Explain_Element_Abnormal and Explain_Element_Special
+                        and (re.match(r'^ENT_', str(rmid[checkjp])) is None)
+                       ):  # Filter out dummy strings from Explain_Element_ files
 
                         countin += 1
                         checktr = "tr_" + checkname
