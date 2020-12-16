@@ -1001,13 +1001,13 @@
 	},
 	{
 		"assign": "rshop_dialog_b_13_1",
-		"jp_text": "レアエネミーポイントが足りません。\r\n\r\n所持レアエネミーポイント　⇒　{0:N0}pt\r\n必要レアエネミーポイント　⇒　{1:N0}pt\r\n不足レアエネミーポイント　⇒　<color=#ff0000>{2:N0}pt</color>",
-		"tr_text": "Insufficient Rare Enemy points.\r\n\r\nOwned Rare Enemy Points ⇒ {0:N0}\r\nRequired Rare Enemy Points ⇒ {1:N0}pt\r\nMissing Rare Enemy Points ⇒ <color=#ff0000>{2:N0}</color>"
+		"jp_text": "レアエネミーポイントが足りません。\n\n所持レアエネミーポイント　⇒　{0:N0}pt\n必要レアエネミーポイント　⇒　{1:N0}pt\n不足レアエネミーポイント　⇒　<color=#ff0000>{2:N0}pt</color>",
+		"tr_text": ""
 	},
 	{
 		"assign": "rshop_dialog_b_13",
-		"jp_text": "「{0}」\r\nと、レアエネミーポイントを交換します。よろしいですか？\r\n\r\n所持レアエネミーポイント　⇒　{1:N0}pt\r\n必要レアエネミーポイント　⇒　{2:N0}pt\r\n残りレアエネミーポイント　⇒　{3:N0}pt",
-		"tr_text": "Now exchanging Rare Enemy Points for\n{0}.\nDo you wish to continue?\n\nOwned Rare Enemy Points ⇒ {1:N0}pt\nRequired Rare Enemy Points ⇒ {2:N0}pt\nRemaining Rare Enemy Points ⇒ {3:N0}pt"
+		"jp_text": "「{0}」\nと、レアエネミーポイントを交換します。よろしいですか？\n\n所持レアエネミーポイント　⇒　{1:N0}pt\n必要レアエネミーポイント　⇒　{2:N0}pt\n残りレアエネミーポイント　⇒　{3:N0}pt",
+		"tr_text": ""
 	},
 	{
 		"assign": "arcscard_guide_00",
@@ -5800,14 +5800,14 @@
 		"tr_text": "ARKS Quest"
 	},
 	{
-		"assign": "quest_counter_header_emergency",
-		"jp_text": "緊急クエスト",
-		"tr_text": "Emergency Quest"
-	},
-	{
 		"assign": "quest_counter_header_dps",
 		"jp_text": "限界チャレンジ",
 		"tr_text": "Challenge Test"
+	},
+	{
+		"assign": "quest_counter_header_emergency",
+		"jp_text": "緊急クエスト",
+		"tr_text": "Emergency Quest"
 	},
 	{
 		"assign": "quest_counter_header_special",
@@ -8698,6 +8698,11 @@
 		"assign": "ui_chip_release_attribute_change_info",
 		"jp_text": "チップ解放（属性変換）内容",
 		"tr_text": "Chip Release (Conversion) Info"
+	},
+	{
+		"assign": "ui_chip_available_info",
+		"jp_text": "チップを長押しで入手先確認！",
+		"tr_text": ""
 	},
 	{
 		"assign": "ui_chip_button_reinforce",
@@ -20815,6 +20820,16 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "chip_details_available",
+		"jp_text": "主な入手先",
+		"tr_text": ""
+	},
+	{
+		"assign": "chip_details_available_moveto",
+		"jp_text": "移動",
+		"tr_text": "Go To"
+	},
+	{
 		"assign": "wh_38_01",
 		"jp_text": "ウェポノイドやキャラクターなど、特定のチップを対象に\nリンクスロットが追加されました。リンクスロットに\n別のチップを装備させると、装備したチップのパラメータを強化できます。",
 		"tr_text": "Certain chips, such as Weaponoid and Character chips,\nhave link slots. By equipping another chip to the link slot,\nyou can enhance the equipped chip's parameters."
@@ -21997,7 +22012,7 @@
 	{
 		"assign": "dailyorder_move",
 		"jp_text": "移動",
-		"tr_text": "Go To"
+		"tr_text": ""
 	},
 	{
 		"assign": "dailyorder_emergency_mission",
@@ -23145,6 +23160,11 @@
 		"tr_text": "Factor Receptor"
 	},
 	{
+		"assign": "auto_sale_setting_exclusion_dialog_reverie_receptor",
+		"jp_text": "レヴリーレセプター",
+		"tr_text": ""
+	},
+	{
 		"assign": "auto_sale_setting_exclusion_dialog_chip_pate",
 		"jp_text": "必殺技・法術",
 		"tr_text": "PAs/Techs"
@@ -23765,9 +23785,14 @@
 		"tr_text": "<%year>-<%month>-<%day> (<%week>)<size=12></size>"
 	},
 	{
+		"assign": "raid_event_quest_list_term",
+		"jp_text": "<%year>/<%month>/<%day> <%hour>：<%minute> まで",
+		"tr_text": ""
+	},
+	{
 		"assign": "rshop_dialog_change_rare_enemy_point",
-		"jp_text": "レアエネミーポイント×<%num>\r\nと、以下のアイテムを交換します。よろしいですか？",
-		"tr_text": "Exchanging the below items\r\nfor <%num> Rare Enemy Points.\r\nDo you wish to continue?"
+		"jp_text": "レアエネミーポイント×<%num>\nと、以下のアイテムを交換します。よろしいですか？",
+		"tr_text": ""
 	},
 	{
 		"assign": "rshop_dialog_button_chip_pack",
@@ -23788,5 +23813,115 @@
 		"assign": "rshop_dialog_rare_enemy_point_select_target",
 		"jp_text": "所持している全てのレアエネミーチップを\nレアエネミーポイントに一括交換します。\nよろしいですか？\n\n<color=#ff0000>※交換したくないチップは\n　　チップ詳細の画面からロックしてください。</color>\n\n■所持レアエネミーチップ\nチップパック：<%packnum>枚\n受け取りボックス：<%boxnum>枚",
 		"tr_text": "Exchanging all owned Rare Enemy chips for\nRare Enemy Points simultaneously.\nDo you wish to continue?\n\n<color=#ff0000>※If you do not want to exchange a chip, please\n   return and Favorite it.</color>\nRare Enemy chips in Chip Pack: <%packnum>\nRare Enemy chips in Reception Box: <%boxnum>"
+	},
+	{
+		"assign": "lobby_survival_ranking",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_ranking_num",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_mission",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_mission_num",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_mission_button",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_score",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_score_num",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_sore_unit",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_guide",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_guide_ranking",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_guide_mission",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_slash",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_summary_tab_info",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_summary_tab_reward",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_summary_attribute",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_summary_enemy",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_summary_reward",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_return_dialog_title",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_return_dialog_message",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_return_dialog_return_button",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_return_dialog_end_button",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_quest_name",
+		"jp_text": "-",
+		"tr_text": ""
 	}
 ]
