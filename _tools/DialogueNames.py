@@ -223,7 +223,12 @@ character_names = {
     "ナレーション": "Narration", "ナレーション（ジェネ）": "Narration (Gene)",
     "ジェネ（ナレーション）": "Gene (Narration)", "アークス": "ARKS",
     "第１６防衛中隊": "16th Defense Company", "第２地質調査隊": "2nd Geological Survey Squad",
-    "第１２防衛中隊": "12th Defense Company",
+    "第１２防衛中隊": "12th Defense Company", "エネミーの群れ": "Enemy Swarm",
+    "逃げてきたアークス": "Escaped ARKS", "サミットムーン": "Summit Moon",
+    "アストラリープ": "Astra Reap", "大サンタ": "Great Santa",
+    "アンブラステッキ": "Umblla Stick", "ハイパーサンライト": "Hyper Sunlight",
+    "ハイパーナイトパレード": "Hyper Night Parade", "ダーカーバスターズ": "Darker Busters",
+    "セラフィと最高の友人たち": "Seraphy and her Friends",
     "？？？": "???" #Generics
     }
 
