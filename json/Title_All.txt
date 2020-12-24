@@ -5988,6 +5988,12 @@
 		"tr_explain": "Clear the EPISODE 4 Story Quest\n\"Duel\" as an Etoile"
 	},
 	{
+		"assign": "300720210",
+		"jp_text": "魔人を超えし輝手",
+		"tr_text": "Light Who Bested The Demon",
+		"tr_explain": "Clear the EPISODE 4 Story Quest\n\"Duel\" as a Luster"
+	},
+	{
 		"assign": "300720300",
 		"jp_text": "魔人を隻手に収めし者",
 		"tr_text": "One Who Touched Demonhood",
@@ -7116,6 +7122,12 @@
 		"tr_explain": "Complete floor 5 of Solo Training:\nPhanatical Phantoms as an Etoile"
 	},
 	{
+		"assign": "303050220",
+		"jp_text": "狂想を破りし無双の輝手",
+		"tr_text": "Phantom-Slaying Light",
+		"tr_explain": "Complete floor 5 of Solo Training:\nPhanatical Phantoms as a Luster"
+	},
+	{
 		"assign": "303050300",
 		"jp_text": "狂想を隻手に刻む者",
 		"tr_text": "One Who Touched Phanaticism",
@@ -7209,61 +7221,187 @@
 		"assign": "303061210",
 		"jp_text": "幻創の極限を越えし明星",
 		"tr_text": "Phantom-Breaking Star",
-		"tr_explain": "Complete floor 5 of EX Training:\nTerran Phantoms as a Etoile"
+		"tr_explain": "Complete floor 5 of EX Training:\nTerran Phantoms as an Etoile"
+	},
+	{
+		"assign": "303061220",
+		"jp_text": "幻創の極限を越えし輝手",
+		"tr_text": "Phantom-Breaking Light",
+		"tr_explain": "Complete floor 5 of EX Training:\nTerran Phantoms as a Luster"
 	},
 	{
 		"assign": "303070000",
 		"jp_text": "異界の孤軍奮闘",
-		"tr_text": "",
+		"tr_text": "Lone Warrior of the Worlds",
 		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond"
 	},
 	{
 		"assign": "303070010",
 		"jp_text": "異界の死闘奮迅",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Conqueror of the Worlds",
+		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond with an S rank"
+	},
+	{
+		"assign": "3030702",
+		"jp_text": "異界を破りし無双の戦士",
+		"tr_text": "World-Conquering Warrior",
+		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond as a Hunter"
+	},
+	{
+		"assign": "3030702",
+		"jp_text": "異界を破りし無双の射手",
+		"tr_text": "World-Conquering Marksman",
+		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond as a Ranger"
+	},
+	{
+		"assign": "3030702",
+		"jp_text": "異界を破りし無双の導士",
+		"tr_text": "World-Conquering Sage",
+		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond as a Force"
+	},
+	{
+		"assign": "3030702",
+		"jp_text": "異界を破りし無双の闘士",
+		"tr_text": "World-Conquering Brawler",
+		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond as a Fighter"
+	},
+	{
+		"assign": "3030702",
+		"jp_text": "異界を破りし無双の銃士",
+		"tr_text": "World-Conquering Gunslinger",
+		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond as a Gunner"
+	},
+	{
+		"assign": "3030702",
+		"jp_text": "異界を破りし無双の術士",
+		"tr_text": "World-Conquering Magician",
+		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond as a Techer"
+	},
+	{
+		"assign": "3030702",
+		"jp_text": "異界を破りし無双の達人",
+		"tr_text": "World-Conquering Master",
+		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond as a Braver"
+	},
+	{
+		"assign": "3030702",
+		"jp_text": "異界を破りし無双の躍者",
+		"tr_text": "World-Conquering Dancer",
+		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond as a Bouncer"
+	},
+	{
+		"assign": "3030702",
+		"jp_text": "異界を破りし無双の操手",
+		"tr_text": "World-Conquering Conductor",
+		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond as a Summoner"
+	},
+	{
+		"assign": "3030702",
+		"jp_text": "異界を破りし無双の英雄",
+		"tr_text": "World-Conquering Hero",
+		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond as a Hero"
+	},
+	{
+		"assign": "3030702",
+		"jp_text": "異界を破りし無双の亡霊",
+		"tr_text": "World-Conquering Specter",
+		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond as a Phantom"
 	},
 	{
 		"assign": "303070210",
 		"jp_text": "異界を破りし無双の明星",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "World-Conquering Star",
+		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond as an Etoile"
+	},
+	{
+		"assign": "303070220",
+		"jp_text": "異界を破りし無双の輝手",
+		"tr_text": "World-Conquering Light",
+		"tr_explain": "Clear 5 stages of Solo Training:\nWorlds Beyond as a Luster"
 	},
 	{
 		"assign": "303080000",
 		"jp_text": "異獄の先駆者",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "Pioneer of the Worlds",
+		"tr_explain": "Clear 5 stages of Extreme Training:\nWorlds Beyond"
 	},
 	{
 		"assign": "303081100",
 		"jp_text": "異界の極限を越えし戦士",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "World-Beating Warrior",
+		"tr_explain": "Clear 5 stages of Extreme Training:\nWorlds Beyond with an S rank as a Hunter"
+	},
+	{
+		"assign": "303081110",
+		"jp_text": "異界の極限を越えし射手",
+		"tr_text": "World-Beating Marksman",
+		"tr_explain": "Clear 5 stages of Extreme Training:\nWorlds Beyond with an S rank as a Ranger"
+	},
+	{
+		"assign": "303081120",
+		"jp_text": "異界の極限を越えし導士",
+		"tr_text": "World-Beating Sage",
+		"tr_explain": "Clear 5 stages of Extreme Training:\nWorlds Beyond with an S rank as a Force"
 	},
 	{
 		"assign": "303081130",
 		"jp_text": "異界の極限を越えし闘士",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "World-Beating Brawler",
+		"tr_explain": "Clear 5 stages of Extreme Training:\nWorlds Beyond with an S rank as a Fighter"
+	},
+	{
+		"assign": "303081140",
+		"jp_text": "異界の極限を越えし銃士",
+		"tr_text": "World-Beating Gunslinger",
+		"tr_explain": "Clear 5 stages of Extreme Training:\nWorlds Beyond with an S rank as a Gunner"
+	},
+	{
+		"assign": "303081150",
+		"jp_text": "異界の極限を越えし術士",
+		"tr_text": "World-Beating Magician",
+		"tr_explain": "Clear 5 stages of Extreme Training:\nWorlds Beyond with an S rank as a Techer"
+	},
+	{
+		"assign": "303081160",
+		"jp_text": "異界の極限を越えし達人",
+		"tr_text": "World-Beating Master",
+		"tr_explain": "Clear 5 stages of Extreme Training:\nWorlds Beyond with an S rank as a Braver"
+	},
+	{
+		"assign": "303081170",
+		"jp_text": "異界の極限を越えし躍者",
+		"tr_text": "World-Beating Dancer",
+		"tr_explain": "Clear 5 stages of Extreme Training:\nWorlds Beyond with an S rank as a Bouncer"
+	},
+	{
+		"assign": "303081180",
+		"jp_text": "異界の極限を越えし操手",
+		"tr_text": "World-Beating Conductor",
+		"tr_explain": "Clear 5 stages of Extreme Training:\nWorlds Beyond with an S rank as a Summoner"
 	},
 	{
 		"assign": "303081190",
 		"jp_text": "異界の極限を越えし英雄",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "World-Beating Hero",
+		"tr_explain": "Clear 5 stages of Extreme Training:\nWorlds Beyond with an S rank as a Hero"
 	},
 	{
 		"assign": "303081200",
 		"jp_text": "異界の極限を越えし亡霊",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "World-Beating Specter",
+		"tr_explain": "Clear 5 stages of Extreme Training:\nWorlds Beyond with an S rank as a Phantom"
 	},
 	{
 		"assign": "303081210",
 		"jp_text": "異界の極限を越えし明星",
-		"tr_text": "",
-		"tr_explain": ""
+		"tr_text": "World-Beating Star",
+		"tr_explain": "Clear 5 stages of Extreme Training:\nWorlds Beyond with an S rank as an Etoile"
+	},
+	{
+		"assign": "303081220",
+		"jp_text": "異界の極限を超えし輝手",
+		"tr_text": "World-Beating Light",
+		"tr_explain": "Clear 5 stages of Extreme Training:\nWorlds Beyond with an S rank as a Luster"
 	},
 	{
 		"assign": "303100000",
