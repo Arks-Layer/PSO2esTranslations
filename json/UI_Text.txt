@@ -487,7 +487,7 @@
 	{
 		"assign": "acshop_dialog_b_32_2",
 		"jp_text": "OPが不足しているためクエストに出発できません。\n<%AC>を消費してOP回復薬を使用しますか？\n（OP回復薬を所持していない場合は、\n　<%AC>を消費して、OPを全回復させることができます）\n\n出発に必要なOP：<%consume_exdrive>\n現在のOP：<%current_exdrive>\n\n必要<%item_name>：<%consume_oprecovery_pass>個\n所持<%item_name>：<%current_oprecovery_pass>",
-		"tr_text": ""
+		"tr_text": "You lack the required OP to start the quest.\nWould you like to spend <%AC> on OP Recovery Meds?\n(If you do not have OP Recovery Meds,\nyou can buy them with <%AC>.)\n\nOP required: <%consume_exdrive>\nCurrent OP: <%current_exdrive>\n\n<%item_name> needed: <%consume_oprecovery_pass>\n<%item_name> owned: <%current_oprecovery_pass>"
 	},
 	{
 		"assign": "acshop_dialog_t_33",
@@ -712,12 +712,12 @@
 	{
 		"assign": "current_dp_per_max_view",
 		"jp_text": "<color=#ffa500{0}>{1}</color>/{2}",
-		"tr_text": ""
+		"tr_text": "<color=#ffa500{0}>{1}</color>/{2}"
 	},
 	{
 		"assign": "current_dp_per_max_view_ex",
 		"jp_text": "<color=#ffa500{0}>{1}</color>/{2}",
-		"tr_text": ""
+		"tr_text": "<color=#ffa500{0}>{1}</color>/{2}"
 	},
 	{
 		"assign": "mshop_npc_t_00",
@@ -1002,12 +1002,12 @@
 	{
 		"assign": "rshop_dialog_b_13_1",
 		"jp_text": "レアエネミーポイントが足りません。\n\n所持レアエネミーポイント　⇒　{0:N0}pt\n必要レアエネミーポイント　⇒　{1:N0}pt\n不足レアエネミーポイント　⇒　<color=#ff0000>{2:N0}pt</color>",
-		"tr_text": ""
+		"tr_text": "Insufficient Rare Enemy points.\r\n\r\nOwned Rare Enemy Points ⇒ {0:N0}\r\nRequired Rare Enemy Points ⇒ {1:N0}pt\r\nMissing Rare Enemy Points ⇒ <color=#ff0000>{2:N0}</color>"
 	},
 	{
 		"assign": "rshop_dialog_b_13",
 		"jp_text": "「{0}」\nと、レアエネミーポイントを交換します。よろしいですか？\n\n所持レアエネミーポイント　⇒　{1:N0}pt\n必要レアエネミーポイント　⇒　{2:N0}pt\n残りレアエネミーポイント　⇒　{3:N0}pt",
-		"tr_text": ""
+		"tr_text": "Now exchanging Rare Enemy Points for\n{0}.\nDo you wish to continue?\n\nOwned Rare Enemy Points ⇒ {1:N0}pt\nRequired Rare Enemy Points ⇒ {2:N0}pt\nRemaining Rare Enemy Points ⇒ {3:N0}pt"
 	},
 	{
 		"assign": "arcscard_guide_00",
@@ -1697,7 +1697,7 @@
 	{
 		"assign": "equip_guide_11",
 		"jp_text": "<color=#f0df60>コスチューム、パーツをタッチすると、装備の変更を行うことができます。アイテムのアイコンを長押しすると、詳細情報を確認できます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>You can change your equipment by touching costumes and parts. Press and hold on an item icon for more information about it.</color>"
 	},
 	{
 		"assign": "equip_guide_04",
@@ -1872,7 +1872,7 @@
 	{
 		"assign": "equip_dialog_b_13",
 		"jp_text": "現在装備している武器を変更すると\n総チップコストをオーバーするチップがあります。\n\n右側に装備しているチップから解除されますが\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "If you change your current weapon,\nsome of your chips will exceed your\ntotal maximum Chip Cost.\n\nChips will be unequipped starting\nfrom the rightmost side.\nDo you wish to continue?"
 	},
 	{
 		"assign": "equip_dialog_t_14",
@@ -8722,7 +8722,7 @@
 	{
 		"assign": "ui_chip_percent",
 		"jp_text": "{0}%",
-		"tr_text": ""
+		"tr_text": "{0}%"
 	},
 	{
 		"assign": "favorite_register",
@@ -20822,7 +20822,7 @@
 	{
 		"assign": "chip_details_available",
 		"jp_text": "主な入手先",
-		"tr_text": ""
+		"tr_text": "Main Sources"
 	},
 	{
 		"assign": "chip_details_available_moveto",
@@ -22012,7 +22012,7 @@
 	{
 		"assign": "dailyorder_move",
 		"jp_text": "移動",
-		"tr_text": ""
+		"tr_text": "Go To"
 	},
 	{
 		"assign": "dailyorder_emergency_mission",
@@ -23162,7 +23162,7 @@
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_reverie_receptor",
 		"jp_text": "レヴリーレセプター",
-		"tr_text": ""
+		"tr_text": "Reverie Receptor"
 	},
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_chip_pate",
@@ -23282,7 +23282,7 @@
 	{
 		"assign": "acceptbox_all_sale_dialog_meseta_message",
 		"jp_text": "<%num>　⇒　<%after>",
-		"tr_text": ""
+		"tr_text": "<%num> ⇒ <%after>"
 	},
 	{
 		"assign": "acceptbox_no_all_sale_item",
@@ -23477,7 +23477,7 @@
 	{
 		"assign": "scratch_get_rare_chip",
 		"jp_text": "★<%num>GET！",
-		"tr_text": ""
+		"tr_text": "★<%num> GET!"
 	},
 	{
 		"assign": "scratch_bonus_menu_new_info",
@@ -23592,62 +23592,62 @@
 	{
 		"assign": "scratch_bonus_next",
 		"jp_text": "NEXT>>",
-		"tr_text": ""
+		"tr_text": "NEXT>>"
 	},
 	{
 		"assign": "raid_scratch_dialog_new_b_01",
 		"jp_text": "ボーナスポイント <color=yellow>{0}</color>ptで\nボーナススクラッチ\n「{1}」を<color=yellow>{2}</color>回引きます。\nよろしいですか？\n",
-		"tr_text": ""
+		"tr_text": "Now spending <color=yellow>{0}</color> Bonus Points\nto draw {2} times on the\n{1} Bonus Scratch.\nDo you wish to continue?"
 	},
 	{
 		"assign": "raid_scratch_have_point",
 		"jp_text": "所持ポイント",
-		"tr_text": ""
+		"tr_text": "Points Owned"
 	},
 	{
 		"assign": "raid_scratch_title",
 		"jp_text": "ボーナスポイント「{0}」",
-		"tr_text": ""
+		"tr_text": "Bonus Points [{0}]"
 	},
 	{
 		"assign": "raid_scratch_now_stage",
 		"jp_text": "<color=#ffff00>STAGE{0}　</color>",
-		"tr_text": ""
+		"tr_text": "<color=#ffff00>STAGE {0}  </color>"
 	},
 	{
 		"assign": "raid_scratch_all_items",
 		"jp_text": "<size=16>あと </size>{0}<size=16>回</size>",
-		"tr_text": ""
+		"tr_text": "{0} <size=16>left</size>"
 	},
 	{
 		"assign": "raid_scratch_all_items_reset",
 		"jp_text": "<size=16>あと </size>{0}<size=16>回 でリセット</size>",
-		"tr_text": ""
+		"tr_text": "{0}<size=16>until reset</size>"
 	},
 	{
 		"assign": "raid_scratch_stage_info",
 		"jp_text": "<color=#ffff00>STAGE{0}</color>で\nもらえる！",
-		"tr_text": ""
+		"tr_text": "<color=#ffff00>STAGE {0}</color>\nreached!"
 	},
 	{
 		"assign": "raid_scratch_bonus_new_point",
 		"jp_text": "<color=#e25f04>{0}</color><size=25>pt</size>",
-		"tr_text": ""
+		"tr_text": "<color=#e25f04>{0}</color><size=25>pt</size>"
 	},
 	{
 		"assign": "raid_scratch_bonus_show_point",
 		"jp_text": "{0}pt ⇒ {1}pt",
-		"tr_text": ""
+		"tr_text": "{0}pt ⇒ {1}pt"
 	},
 	{
 		"assign": "raid_scratch_bonus_retry_conect",
 		"jp_text": "データの通信に失敗しました。\nリトライしますか？",
-		"tr_text": ""
+		"tr_text": "Communication failure.\nDo you wish to retry?"
 	},
 	{
 		"assign": "raid_scratch_connect_cancel",
 		"jp_text": "通信を中断して\n現在までのスクラッチ結果を表示します。\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "Communication has been interrupted.\nThese are the items you have\nbeen awarded so far.\nDo you wish to stop here?"
 	},
 	{
 		"assign": "raid_scratch_connect_first_cancel",
@@ -23657,37 +23657,37 @@
 	{
 		"assign": "raid_scratch_connect_cancel_title",
 		"jp_text": "スクラッチの中断",
-		"tr_text": ""
+		"tr_text": "Scratching Interrupted"
 	},
 	{
 		"assign": "raid_scratch_page_view",
 		"jp_text": "{0}<color=#688CA7> / </color>{1}",
-		"tr_text": ""
+		"tr_text": "{0}<color=#688CA7> / </color>{1}"
 	},
 	{
 		"assign": "raid_scratch_page_previous",
 		"jp_text": "前",
-		"tr_text": ""
+		"tr_text": "Prev."
 	},
 	{
 		"assign": "raid_scratch_page_next",
 		"jp_text": "次",
-		"tr_text": ""
+		"tr_text": "Next"
 	},
 	{
 		"assign": "raid_scratch_page_first",
 		"jp_text": "最初",
-		"tr_text": ""
+		"tr_text": "First"
 	},
 	{
 		"assign": "raid_scratch_page_last",
 		"jp_text": "最後",
-		"tr_text": ""
+		"tr_text": "Last"
 	},
 	{
 		"assign": "raid_scratch_stack_count",
 		"jp_text": "×{0}",
-		"tr_text": ""
+		"tr_text": "x {0}"
 	},
 	{
 		"assign": "acceptbox_accept_failed_dialog_title",
@@ -23772,7 +23772,7 @@
 	{
 		"assign": "quest_counter_raid_current_new_rank_time",
 		"jp_text": "<%hh>:<%mm>:<%ss>",
-		"tr_text": ""
+		"tr_text": "<%hh>:<%mm>:<%ss>"
 	},
 	{
 		"assign": "quest_counter_raid_current_new_rank_b",
@@ -23792,7 +23792,7 @@
 	{
 		"assign": "rshop_dialog_change_rare_enemy_point",
 		"jp_text": "レアエネミーポイント×<%num>\nと、以下のアイテムを交換します。よろしいですか？",
-		"tr_text": ""
+		"tr_text": "Exchanging the below items\nfor <%num> Rare Enemy Points.\nDo you wish to continue?"
 	},
 	{
 		"assign": "rshop_dialog_button_chip_pack",
