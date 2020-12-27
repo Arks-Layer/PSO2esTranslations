@@ -42,8 +42,8 @@ for files in json_files:
                         # Filter out names that are just stars
                         and (re.match(r'^(＊￥)|(＊\\)|(ef_)|(bg_)(？？？.)', str(rmid[checkjp])) is None)
                         # Filter out anything that starts with a backslash or ef_/bg_
-                        and (re.match(r'^[a-zA-Z0-9 \-\'\"\&\:\,\.\!\(\)\\]+$', str(rmid[checkjp])) is None)
-                        # Filter out names that are already fully in English
+                        and (re.match(r'^[a-zA-Z0-9 \-\'\"\&\:\,\.\!\(\)\{\}\\]+$', str(rmid[checkjp])) is None)
+                        # Filter out things that don't need translating
                         and (re.match(r'^ENT_', str(rmid[checkjp])) is None)
                        ):  # Filter out dummy strings from Explain_Element_ files
 
