@@ -33,6 +33,10 @@ generic_lines = {
         "This seems to be an illustration\nchip featuring someone who\nappears in PSO2 or PSO2es.",
     "もしかしたら\nいつもと違う一面が見られるかも？\nぜひコレクションに加えてくださいね！":
         "Maybe you'll get to see\nanother side of them?\nPlease do your best to\nadd it to your collection!",
+    "必殺技を記録した\nチップのようです。": 
+        "This seems to be a Photon Art chip.",
+    "装備したらどのような\n必殺技を繰り出せるのでしょう……！？\nすごく楽しみですね！":
+        "What kind of Photon Art can you\nperform by equipping this...?!\nI look forward to finding out!",
     "": ""
     }
 
