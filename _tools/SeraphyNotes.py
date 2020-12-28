@@ -91,6 +91,8 @@ generic_lines = {
         "This chip seems to hold data\nfrom an enemy life form.",
     "いつも戦っているエネミーの能力が\nチップになっています！\nどんな力を持っているのか\n楽しみですね！":
         "One of our enemies, fighting\nfor us in the form of a chip!\nI'm looking forward to seeing\nwhat kind of power it has!",
+    "エネミーの力さえも味方にして\n戦闘を有利に進めちゃいましょう！":
+        "Even enemies' power can\nhelp you out in battle!",
     "": ""
     }
 
