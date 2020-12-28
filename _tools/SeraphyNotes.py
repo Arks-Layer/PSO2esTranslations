@@ -45,6 +45,8 @@ generic_lines = {
         "This seems to be a special\ncollaboration chip that links\nPSO2es with something else.",
     "コラボならではのチップ効果が\nあるかもしれませんね！\n入手しましたら\nぜひ見せに来てください！":
         "Collab chips can have special\nunique effects!\nIf you get one, please come\nback here and show me!",
+    "『ＰＳＯ２ ＴＨＥ ＡＮＩＭＡＴＩＯＮ』に\n登場する方々が描かれた\nイラストチップのようです。":
+        "This seems to be an illustration\nchip featuring someone who\nappears in PSO2 the Animation.",
     "必殺技を記録した\nチップのようです。": 
         "This seems to be a Photon Art chip.",
     "装備したらどのような\n必殺技を繰り出せるのでしょう……！？\nすごく楽しみですね！":
