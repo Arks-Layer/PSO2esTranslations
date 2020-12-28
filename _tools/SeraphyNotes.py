@@ -159,6 +159,10 @@ generic_lines = {
         "This is a Material Chip mostly used\nto release powerful <%ele> chips.\nYou can obtain it from Daily Quests.",
     "主に<%ele>属性の\n一部の強力なチップの解放に\n必要な素材チップとなります。\n緊急クエストや交換ショップなどで\n入手可能ですよ。":
         "This is a Material Chip mostly used\nto release powerful <%ele> chips.\nYou can obtain it from Emergency\nQuests and the Exchange Shop.",
+    "★１３チップの特徴として\nこのチップを装備した時に\n<%ele>属性の必殺技・法術の\nチップコストが減少します！":
+        "As a ★13 chip, equipping it will\nreduce the equip cost of <%ele>\nelement PAs and Techniques!",
+    "真・解放した★１３チップは\n全属性の必殺技・法術の\nチップコストが減少します！":
+        "As a fully released ★13 chip,\nequipping it reduces the equip\ncosts of all PAs and Techniques!",
     "": ""
     }
 
