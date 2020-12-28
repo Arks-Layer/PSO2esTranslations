@@ -195,6 +195,12 @@ generic_lines = {
         "To release this chip and convert\nits Element, you will need these\nmaterial chips.",
     "属性は、<%ele>属性に特化したものに\nなっています。\nエネミーによって\n使い分けてみてくださいね。":
         "This chip is intended for use\nwith the <%ele> element.\nTry to choose chips whose\nelements are appropriate for\nthe enemies you'll face.",
+    "属性は、炎属性に特化したものに\nなっています。\nエネミーによって\n使い分けてみてくださいね。":
+        "This chip is intended for use\nwith the Fire element.\nTry to choose chips whose\nelements are appropriate for\nthe enemies you'll face.",
+    "属性は、闇属性に特化したものに\nなっています。\nエネミーによって\n使い分けてみてくださいね。":
+        "This chip is intended for use\nwith the Dark element.\nTry to choose chips whose\nelements are appropriate for\nthe enemies you'll face.",
+    "属性は、風属性に特化したものに\nなっています。\nエネミーによって\n使い分けてみてくださいね。":
+        "This chip is intended for use\nwith the Wind element.\nTry to choose chips whose\nelements are appropriate for\nthe enemies you'll face.",
     "": ""
     }
 
