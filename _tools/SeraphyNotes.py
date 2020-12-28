@@ -75,6 +75,10 @@ generic_lines = {
         "This seems to be\na Technique chip.",
     "装備したらどのような\n法術を繰り出せるのでしょう……！？\nすごく楽しみですね！":
         "What kind of Technique can you\nperform by equipping this...?!\nI look forward to finding out!",
+    "アイテムの効用が記録された\nチップのようです。":
+        "This seems to be a chip\ncontaining the effect of\nsome kind of utility item.",
+    "どんな効果があるのか\nぜひ入手して確かめてみてください！":
+        "Please get one so we can see\nwhat kind of effect it has!",
     "": ""
     }
 
