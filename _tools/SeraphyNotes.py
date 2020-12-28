@@ -21,6 +21,8 @@ notes_file.close()
 generic_lines = {
     "アビリティは\n「<%abi>」。":
         "Its ability is called\n\"<%abi>\".",
+    "アビリティは\n「<%abi>」。\n効果の内容は、チップの詳細情報で\n確認できますよ。":
+        "Its ability is called\n\"<%abi>\".\nYou can see what it does by\nchecking the chip's details.",
     "解放には\nこのようなチップが必要です。":
         "To release this chip, you will\nneed these material chips.",
     "素材チップは\n日替わりクエストなどで\n手に入りますよ！\nぜひ解放してみてくださいね！":
