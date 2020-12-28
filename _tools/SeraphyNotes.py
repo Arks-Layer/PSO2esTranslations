@@ -23,6 +23,8 @@ generic_lines = {
         "To release this chip, you will\nneed these material chips.",
     "素材チップは\n日替わりクエストなどで\n手に入りますよ！\nぜひ解放してみてくださいね！":
         "Material chips can be acquired from\nDaily Quests. Please gather materials\nand release this chip!",
+    "ぜひ解放してみてくださいね！":
+        "Please release it as\nsoon as you can!",
     "チップが解放され\nアビリティ性能が高まりました！":
         "This chip has been released, and\nits ability has been enhanced!",
     "ますます強力になった効果を\nぜひ試してみてくださいね！":
