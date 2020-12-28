@@ -93,6 +93,8 @@ generic_lines = {
         "One of our enemies, fighting\nfor us in the form of a chip!\nI'm looking forward to seeing\nwhat kind of power it has!",
     "エネミーの力さえも味方にして\n戦闘を有利に進めちゃいましょう！":
         "Even enemies' power can\nhelp you out in battle!",
+    "このチップは、まれに発生する\n緊急クエストで入手できるようです。\n発生の際は\nぜひ挑戦してみてくださいね！":
+        "This chip seems to be available\nin rarely-occurring Emergency\nQuests. If one comes along,\nplease give it a try!",
     "": ""
     }
 
