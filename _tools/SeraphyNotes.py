@@ -131,6 +131,8 @@ generic_lines = {
         "It should be very effective if you use\nit when you're knocking seven bells\nout of an enemy with a Photon Art!\nPlease, you have to get one!",
     "しかも、アビリティレベルを\nなんと２０まで上げることが可能です！\nアビリティレベルを上げるほど\nチップの発動率が向上しますよ。":
         "What's more, you can raise its\nability level all the way to 20!\nRaising a chip's ability level will\nmake it activate more often.",
+    "このチップは、アビリティレベルを\n２０まで上げることが可能です！\nアビリティレベルを上げるほど\nチップの発動率が向上しますよ。":
+        "This chip's ability level can be raised\nall the way to 20!\nRaising a chip's ability level will\nmake it activate more often.",
     "チップの新技術により生まれた\n「ウェポノイドチップ」の\nひとつのようです。":
         "This seems to be one of the\nnext-generation \"Weaponoid\" chips.",
     "通常のチップよりも\n強力な効果だと聞きますが\n一体どんなチップなんでしょう？":
