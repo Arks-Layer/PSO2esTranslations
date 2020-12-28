@@ -71,6 +71,10 @@ generic_lines = {
         "This chip is for Dual Blades only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
     "このチップは<%wep>専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
         "This chip is for <%wep> only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "法術を記録した\nチップのようです。":
+        "This seems to be\na Technique chip.",
+    "装備したらどのような\n法術を繰り出せるのでしょう……！？\nすごく楽しみですね！":
+        "What kind of Technique can you\nperform by equipping this...?!\nI look forward to finding out!",
     "": ""
     }
 
