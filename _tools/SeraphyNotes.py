@@ -107,6 +107,10 @@ generic_lines = {
         "This is a chip of a special\nenemy that's travelled\nacross space and time.",
     "このチップは\n強化合成の素材として使用すると\nたくさんの経験値を得ることが\nできるようです。\nぜひ、利用してみてくださいね！":
         "It seems like you'll get a lot of\nGrind EXP if you use this chip\nas material for Chip Grinding.\nGo ahead and use it!",
+    "アビリティのレベルをアップさせる\nすごく便利なチップのようです！":
+        "This seems to be a very useful\nchip that can raise the ability\nlevels of other chips!",
+    "アビリティレベルが上がると\n消費ＣＰが下がったり\nチップ効果の発動率が上がったりと\nいいことがたくさんありますよ！":
+        "Raising a chip's ability level\ncan have many positive effects,\nsuch as raising its activation\nrate or lowering its CP cost!",
     "": ""
     }
 
