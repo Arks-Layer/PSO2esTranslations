@@ -103,6 +103,10 @@ generic_lines = {
         "This is a highly mysterious\nunidentified chip. If you get\none, please show it to me!",
     "あら……\nなんだか、かわいい鳴き声が\n聞こえてくるような……":
         "Oh my...\nI feel like I can hear a\ncute cry coming from it...",
+    "時空を超えて出現する特殊エネミーの\nチップのようです。":
+        "This is a chip of a special\nenemy that's travelled\nacross space and time.",
+    "このチップは\n強化合成の素材として使用すると\nたくさんの経験値を得ることが\nできるようです。\nぜひ、利用してみてくださいね！":
+        "It seems like you'll get a lot of\nGrind EXP if you use this chip\nas material for Chip Grinding.\nGo ahead and use it!",
     "": ""
     }
 
