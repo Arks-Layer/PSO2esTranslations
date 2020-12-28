@@ -153,6 +153,8 @@ generic_lines = {
         "This chip's ability is called\n<%abi>.\nIt boosts <%wep> PAs and\nrecovers HP when you hit an enemy\nwith an attack!",
     "<%wep>を使うかたならば\nぜひ入手したいチップですね！":
         "You'll definitely want to get this\nchip if you like <%wep> PAs!",
+    "アビリティは\n「<%abi>」。\n攻撃ヒット時、装備中の武器が\n<%ele>属性の場合に\n攻撃の威力が増加されます。":
+        "Its ability is called\n\"<%abi>\".It increases your ATK if your\nweapon's element is <%ele>\nand you hit with an attack.",
     "": ""
     }
 
