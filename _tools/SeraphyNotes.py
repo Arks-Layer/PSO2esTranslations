@@ -155,6 +155,10 @@ generic_lines = {
         "You'll definitely want to get this\nchip if you like <%wep> PAs!",
     "アビリティは\n「<%abi>」。\n攻撃ヒット時、装備中の武器が\n<%ele>属性の場合に\n攻撃の威力が増加されます。":
         "Its ability is called\n\"<%abi>\".It increases your ATK if your\nweapon's element is <%ele>\nand you hit with an attack.",
+    "主に<%ele>属性の\n一部の強力なチップの解放に\n必要な素材チップとなります。\n日替わりのデイリークエストで\n入手可能ですよ。":
+        "This is a Material Chip mostly used\nto release powerful <%ele> chips.\nYou can obtain it from Daily Quests.",
+    "主に<%ele>属性の\n一部の強力なチップの解放に\n必要な素材チップとなります。\n緊急クエストや交換ショップなどで\n入手可能ですよ。":
+        "This is a Material Chip mostly used\nto release powerful <%ele> chips.\nYou can obtain it from Emergency\nQuests and the Exchange Shop.",
     "": ""
     }
 
