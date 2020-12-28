@@ -115,6 +115,8 @@ generic_lines = {
         "Raising a chip's ability level\ncan have many positive effects,\nsuch as raising its activation\nrate or lowering its CP cost!",
     "チップのアビリティレベルが\nアップすれば、消費ＣＰが下がったり\nチップ効果の発動率が上がったりと\nいいことがたくさん！\nどんどん強化していきましょう！":
         "If you raise a chip's ability level, its\nCP consumption will decrease or its\nactivation rate will increase.\nAll sorts of good things can happen!\nBe sure to raise chips' ability levels\nwhenever you can!",
+    "なんと、<%ele>属性で\n★１２以下のチップの\n強化素材として使用すると\nそのチップのアビリティレベルを\n１つアップさせる効果があるんです。":
+        "When used to grind a <%ele>\nelement chip of ★１２ rarity or less,\nit raises that chip's ability level by 1.",
     "必殺技を強化する効果を持つ\nチップのようです。":
         "This seems to be a chip whose\nability strengthens Photon Arts.",
     "必殺技をバンバン使われる場合は\nとても有効ですよ！\nぜひ入手してくださいね！":
