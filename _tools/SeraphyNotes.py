@@ -87,6 +87,10 @@ generic_lines = {
         "This is a Material Chip used to\nrelease all kinds of chips.\nYou can obtain it from Daily Quests\nand from the FUN Chip Scratch.",
     "様々なチップ解放に\n必要な素材チップとなります。\n各曜日の日替わりクエストで\n入手可能ですよ。":
         "This is a Material Chip used to\nrelease all kinds of chips.\nYou can obtain it from Daily Quests.",
+    "エネミーの生体を記録した\nチップのようです。":
+        "This chip seems to hold data\nfrom an enemy life form.",
+    "いつも戦っているエネミーの能力が\nチップになっています！\nどんな力を持っているのか\n楽しみですね！":
+        "One of our enemies, fighting\nfor us in the form of a chip!\nI'm looking forward to seeing\nwhat kind of power it has!",
     "": ""
     }
 
