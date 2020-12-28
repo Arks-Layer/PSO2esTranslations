@@ -117,6 +117,8 @@ generic_lines = {
         "This seems to be a chip whose\nability strengthens Photon Arts.",
     "必殺技をバンバン使われる場合は\nとても有効ですよ！\nぜひ入手してくださいね！":
         "It should be very effective if you use\nit when you're knocking seven bells\nout of an enemy with a Photon Art!\nPlease, you have to get one!",
+    "しかも、アビリティレベルを\nなんと２０まで上げることが可能です！\nアビリティレベルを上げるほど\nチップの発動率が向上しますよ。":
+        "What's more, you can raise its\nability level all the way to 20!\nRaising a chip's ability level will\nmake it activate more often.",
     "": ""
     }
 
