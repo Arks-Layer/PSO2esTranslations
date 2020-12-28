@@ -113,6 +113,10 @@ generic_lines = {
         "Raising a chip's ability level\ncan have many positive effects,\nsuch as raising its activation\nrate or lowering its CP cost!",
     "チップのアビリティレベルが\nアップすれば、消費ＣＰが下がったり\nチップ効果の発動率が上がったりと\nいいことがたくさん！\nどんどん強化していきましょう！":
         "If you raise a chip's ability level, its\nCP consumption will decrease or its\nactivation rate will increase.\nAll sorts of good things can happen!\nBe sure to raise chips' ability levels\nwhenever you can!",
+    "必殺技を強化する効果を持つ\nチップのようです。":
+        "This seems to be a chip whose\nability strengthens Photon Arts.",
+    "必殺技をバンバン使われる場合は\nとても有効ですよ！\nぜひ入手してくださいね！":
+        "It should be very effective if you use\nit when you're knocking seven bells\nout of an enemy with a Photon Art!\nPlease, you have to get one!",
     "": ""
     }
 
