@@ -37,6 +37,36 @@ generic_lines = {
         "This seems to be a Photon Art chip.",
     "装備したらどのような\n必殺技を繰り出せるのでしょう……！？\nすごく楽しみですね！":
         "What kind of Photon Art can you\nperform by equipping this...?!\nI look forward to finding out!",
+    "このチップは大剣専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for Sword only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "このチップは自在専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for Wired Lance only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "このチップは長槍専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for Partizan only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "このチップは双小専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for Twin Daggers only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "このチップは両剣専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for Double Saber only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "このチップは鋼拳専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for Knuckles only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "このチップは銃剣専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for Gunslash only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "このチップは長銃専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for Assault Rifle only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "このチップは大砲専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for Launcher only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "このチップは双機専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for Twin Machineguns only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "このチップは抜剣専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for Katana only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "このチップは強弓専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for Bullet Bow only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "このチップは魔装脚専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for Jet Boots only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "このチップは 飛翔剣 専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for Dual Blades only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
+    "このチップは<%wep>専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+        "This chip is for <%wep> only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
     "": ""
     }
 
