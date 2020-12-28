@@ -79,6 +79,14 @@ generic_lines = {
         "This seems to be a chip\ncontaining the effect of\nsome kind of utility item.",
     "どんな効果があるのか\nぜひ入手して確かめてみてください！":
         "Please get one so we can see\nwhat kind of effect it has!",
+    "主に<%ele>属性のチップの解放に\n必要な素材チップとなります。\nＦＵＮチップスクラッチや\n日替わりのデイリークエストで\n入手可能ですよ。":
+        "This is a Material Chip mostly used\nto release <%ele> chips.\nYou can obtain it from Daily Quests\nand from the FUN Chip Scratch.",
+    "主にアークスのチップの解放に\n必要な素材チップとなります。\nＦＵＮチップスクラッチや\n日替わりのデイリークエストで\n入手可能ですよ。":
+        "This is a Material Chip mostly used\nto release ARKS chips.\nYou can obtain it from Daily Quests\nand from the FUN Chip Scratch.",
+    "様々なチップ解放に\n必要な素材チップとなります。\nＦＵＮチップスクラッチや\n各曜日の日替わりクエストで\n入手可能ですよ。":
+        "This is a Material Chip used to\nrelease all kinds of chips.\nYou can obtain it from Daily Quests\nand from the FUN Chip Scratch.",
+    "様々なチップ解放に\n必要な素材チップとなります。\n各曜日の日替わりクエストで\n入手可能ですよ。":
+        "This is a Material Chip used to\nrelease all kinds of chips.\nYou can obtain it from Daily Quests.",
     "": ""
     }
 
