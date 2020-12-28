@@ -34,6 +34,10 @@ for files in json_files:
             linenames = ["text", "name", "title", "explain", "explainShort", "explainLong", "patterns"]
             for rmid in djson:
                 for checkname in linenames:
+                    if checkname == "explainShort" and (files.find("ActiveExplain") or files.find("SupportExplain")):
+                        continue
+                    # Exclude short descriptions for chip files (but not link skills)
+                    
                     checkjp = "jp_" + checkname
                     if (
                         (checkjp in rmid)
