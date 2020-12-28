@@ -19,6 +19,8 @@ print("{0} loaded.".format(notes_file_name))
 notes_file.close()
 
 generic_lines = {
+    "アビリティは\n「<%abi>」。":
+        "Its ability is called\n\"<%abi>\".",
     "解放には\nこのようなチップが必要です。":
         "To release this chip, you will\nneed these material chips.",
     "素材チップは\n日替わりクエストなどで\n手に入りますよ！\nぜひ解放してみてくださいね！":
