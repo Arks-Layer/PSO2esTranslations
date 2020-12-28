@@ -99,6 +99,10 @@ generic_lines = {
         "This chip is mainly used for\ntrading at the Exchange Shop,\nbut it also has a Limited Effect\nin certain Emergency Quests.",
     "交換する前に、チップを解放して\nこのチップ研究室の発見数を\n増やしておくのもお忘れなく！\n発見数が一定の数になるごとに\n私からお礼をさせていただきますよ！":
         "Don't forget to release it before\nyou trade it in, so you can increase\nthe number of discoveries in the\nChip Lab! Each time your total\ndiscoveries reaches a certain\namount, I'll have a reward for you!",
+    "正体不明の謎のチップです。\nもし入手されましたら\nぜひ、見せてくださいね！":
+        "This is a highly mysterious\nunidentified chip. If you get\none, please show it to me!",
+    "あら……\nなんだか、かわいい鳴き声が\n聞こえてくるような……":
+        "Oh my...\nI feel like I can hear a\ncute cry coming from it...",
     "": ""
     }
 
