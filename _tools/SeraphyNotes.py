@@ -22,7 +22,7 @@ generic_lines = {
     "『ＰＳＯ２』や『ＰＳＯ２ｅｓ』に\n登場する方々の記憶や技術が込められた\nチップのようです。":
         "This seems to be a chip containing the\nmemories and skills of someone who\nappears in PSO2 or PSO2es.",
     "どのような効果なのでしょう……？\n<%CHARANAME>さんの\n入手情報、お待ちしております！":
-        "What kind of effect is it...?\n<%CHARANAME>, we need you\nto get your hands\non one so that we can find out!",
+        "What kind of effect is it...?\n<%CHARANAME>,\nwe need you to get your hands\non one so that we can find out!",
     "解放には\nこのようなチップが必要です。":
         "To release this chip, you will\nneed these material chips.",
     "素材チップは\n日替わりクエストなどで\n手に入りますよ！\nぜひ解放してみてくださいね！":
