@@ -167,6 +167,8 @@ generic_lines = {
         "To release this chip further, you\nwill need these material chips.",
     "素材チップは\n緊急クエストなどで\n手に入りますよ！\nぜひ解放してみてくださいね！":
         "You can obtain these chips from\nEmergency Quests. Please gather\nmaterials and fully release this chip!",
+    "チップが真・解放されアビリティが\n「<%abi>」に\nなりました！\n性能もさらに強化されていますよ！":
+        "This chip has been fully\nreleased, and its ability is now\n\"<%abi>\"!\nYou can also enhance its\nperformance even further!",
     "真・解放した★１３チップは\n全属性の必殺技・法術の\nチップコストが減少します！":
         "As a fully released ★13 chip,\nequipping it reduces the equip\ncosts of all PAs and Techniques!",
     "": ""
