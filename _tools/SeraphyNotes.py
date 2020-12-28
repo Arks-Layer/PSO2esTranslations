@@ -123,6 +123,8 @@ generic_lines = {
         "This seems to be one of the\nnext-generation \"Weaponoid\" chips.",
     "通常のチップよりも\n強力な効果だと聞きますが\n一体どんなチップなんでしょう？":
         "I've heard that they have stronger\neffects than other chips.\nWhat kind of chip could it be?",
+    "こちらは\nチップの新技術によって生まれた\n新世代のチップ「ウェポノイドチップ」\nのひとつです。":
+        "This is one of the next-generation\n\"Weaponoid\" chips created from the\nlatest advances in chip technology.",
     "": ""
     }
 
