@@ -19,10 +19,6 @@ print("{0} loaded.".format(notes_file_name))
 notes_file.close()
 
 generic_lines = {
-    "『ＰＳＯ２』や『ＰＳＯ２ｅｓ』に\n登場する方々の記憶や技術が込められた\nチップのようです。":
-        "This seems to be a chip containing the\nmemories and skills of someone who\nappears in PSO2 or PSO2es.",
-    "どのような効果なのでしょう……？\n<%CHARANAME>さんの\n入手情報、お待ちしております！":
-        "What kind of effect is it...?\n<%CHARANAME>,\nwe need you to get your hands\non one so that we can find out!",
     "解放には\nこのようなチップが必要です。":
         "To release this chip, you will\nneed these material chips.",
     "素材チップは\n日替わりクエストなどで\n手に入りますよ！\nぜひ解放してみてくださいね！":
@@ -31,6 +27,10 @@ generic_lines = {
         "This chip has been released, and\nits ability has been enhanced!",
     "ますます強力になった効果を\nぜひ試してみてくださいね！":
         "Please, try using it again\nand see for yourself how\nmuch stronger it is!",
+    "『ＰＳＯ２』や『ＰＳＯ２ｅｓ』に\n登場する方々の記憶や技術が込められた\nチップのようです。":
+        "This seems to be a chip containing the\nmemories and skills of someone who\nappears in PSO2 or PSO2es.",
+    "どのような効果なのでしょう……？\n<%CHARANAME>さんの\n入手情報、お待ちしております！":
+        "What kind of effect is it...?\n<%CHARANAME>,\nwe need you to get your hands\non one so that we can find out!",
     "チップが解放されアビリティが\n「<%abi>」に\nなりました！\n性能もより強化されていますよ！":
         "This chip has been released,\nand its ability has become\n\"<%abi>\"!\nIts performance can also be\nenhanced even further than before!",
     "『ＰＳＯ２』や『ＰＳＯ２ｅｓ』に\n登場する方々が描かれた\nイラストチップのようです。":
