@@ -193,6 +193,8 @@ generic_lines = {
         "You can release this chip to\nconvert its element to a different\none as many times as you like.",
     "解放（属性変換）には\nこのようなチップが必要です。":
         "To release this chip and convert\nits Element, you will need these\nmaterial chips.",
+    "属性は、<%ele>属性に特化したものに\nなっています。\nエネミーによって\n使い分けてみてくださいね。":
+        "This chip is intended for use\nwith the <%ele> element.\nTry to choose chips whose\nelements are appropriate for\nthe enemies you'll face.",
     "": ""
     }
 
@@ -200,7 +202,7 @@ unknowns = {}
 
 for note in notes:
     # translate generic lines
-    if note["jp_text"] != "" and note["tr_text"] == "":
+    if note["jp_text"] != "":# and note["tr_text"] == "":
         if note["jp_text"] in generic_lines:
             note["tr_text"] = generic_lines[note["jp_text"]]
         else:
