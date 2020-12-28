@@ -95,6 +95,10 @@ generic_lines = {
         "Even enemies' power can\nhelp you out in battle!",
     "このチップは、まれに発生する\n緊急クエストで入手できるようです。\n発生の際は\nぜひ挑戦してみてくださいね！":
         "This chip seems to be available\nin rarely-occurring Emergency\nQuests. If one comes along,\nplease give it a try!",
+    "このチップはどちらかというと\nショップでの交換や\n緊急クエスト時の期間限定効果が\nおもな用途になっています。":
+        "This chip is mainly used for\ntrading at the Exchange Shop,\nbut it also has a Limited Effect\nin certain Emergency Quests.",
+    "交換する前に、チップを解放して\nこのチップ研究室の発見数を\n増やしておくのもお忘れなく！\n発見数が一定の数になるごとに\n私からお礼をさせていただきますよ！":
+        "Don't forget to release it before\nyou trade it in, so you can increase\nthe number of discoveries in the\nChip Lab! Each time your total\ndiscoveries reaches a certain\namount, I'll have a reward for you!",
     "": ""
     }
 
