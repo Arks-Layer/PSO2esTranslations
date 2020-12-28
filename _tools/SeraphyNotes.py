@@ -147,6 +147,10 @@ generic_lines = {
         "It should be very effective\nif you can equip it with an\nappropriate weapon!\nPlease, you have to get one!",
     "よく使う武器と\n組み合わせることができれば\nとても有効ですよ！\nぜひ入手してくださいね！":
         "It should be very effective if\nyou pair it with a weapon\ntype that you use often!\nPlease, you have to get one!",
+    "アビリティは\n「<%abi>」。\nエネミーに攻撃をヒットさせると\n<%wep>の必殺技チップの威力がアップ\n＆ＨＰが徐々に回復します！":
+        "This chip's ability is called\n<%abi>.\nIt boosts <%wep> PAs and\nrecovers HP when you hit an enemy\nwith an attack!",
+    "<%wep>を使うかたならば\nぜひ入手したいチップですね！":
+        "You'll definitely want to get this\nchip if you like <%wep> PAs!",
     "": ""
     }
 
