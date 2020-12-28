@@ -99,6 +99,10 @@ generic_lines = {
         "This is a material chip used to\nrelease all kinds of chips.\nYou can obtain it from Daily Quests\nand from the FUN Chip Scratch.",
     "様々なチップ解放に\n必要な素材チップとなります。\n各曜日の日替わりクエストで\n入手可能ですよ。":
         "This is a material chip used to\nrelease all kinds of chips.\nYou can obtain it from Daily Quests.",
+    "主に<%ele>属性の\n一部の強力なチップの解放に\n必要な素材チップとなります。\n日替わりのデイリークエストで\n入手可能ですよ。":
+        "This is a material chip mostly used\nto release powerful <%ele> chips.\nYou can obtain it from Daily Quests.",
+    "主に<%ele>属性の\n一部の強力なチップの解放に\n必要な素材チップとなります。\n緊急クエストや交換ショップなどで\n入手可能ですよ。":
+        "This is a material chip mostly used\nto release powerful <%ele> chips.\nYou can obtain it from Emergency\nQuests and the Exchange Shop.",
     "エネミーの生体を記録した\nチップのようです。":
         "This chip seems to hold data\nfrom an enemy life form.",
     "いつも戦っているエネミーの能力が\nチップになっています！\nどんな力を持っているのか\n楽しみですね！":
@@ -155,10 +159,6 @@ generic_lines = {
         "You'll definitely want to get this\nchip if you like <%wep> PAs!",
     "アビリティは\n「<%abi>」。\n攻撃ヒット時、装備中の武器が\n<%ele>属性の場合に\n攻撃の威力が増加されます。":
         "Its ability is called\n\"<%abi>\".It increases your ATK if your\nweapon's element is <%ele>\nand you hit with an attack.",
-    "主に<%ele>属性の\n一部の強力なチップの解放に\n必要な素材チップとなります。\n日替わりのデイリークエストで\n入手可能ですよ。":
-        "This is a material chip mostly used\nto release powerful <%ele> chips.\nYou can obtain it from Daily Quests.",
-    "主に<%ele>属性の\n一部の強力なチップの解放に\n必要な素材チップとなります。\n緊急クエストや交換ショップなどで\n入手可能ですよ。":
-        "This is a material chip mostly used\nto release powerful <%ele> chips.\nYou can obtain it from Emergency\nQuests and the Exchange Shop.",
     "★１３チップの特徴として\nこのチップを装備した時に\n<%ele>属性の必殺技・法術の\nチップコストが減少します！":
         "As a ★13 chip, equipping it will\nreduce the equip cost of <%ele>\nelement PAs and Techniques!",
     "ですが、このチップは\nまだ力を秘めているようです。\nさらなる解放が可能と思われます！":
