@@ -27,6 +27,10 @@ generic_lines = {
         "To release this chip, you will\nneed these material chips.",
     "素材チップは\n日替わりクエストなどで\n手に入りますよ！\nぜひ解放してみてくださいね！":
         "Material chips can be acquired from\nDaily Quests. Please gather materials\nand release this chip!",
+    "チップが解放され\nアビリティ性能が高まりました！":
+        "This chip has been released, and\nits ability has been enhanced!",
+    "ますます強力になった効果を\nぜひ試してみてくださいね！":
+        "Please, try using it again\nand see for yourself how\nmuch stronger it is!",
     "チップが解放されアビリティが\n「<%abi>」に\nなりました！\n性能もより強化されていますよ！":
         "This chip has been released,\nand its ability has become\n\"<%abi>\"!\nIts performance can also be\nenhanced even further than before!",
     "『ＰＳＯ２』や『ＰＳＯ２ｅｓ』に\n登場する方々が描かれた\nイラストチップのようです。":
