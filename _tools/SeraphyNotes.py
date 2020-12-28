@@ -143,6 +143,8 @@ generic_lines = {
         "This is one of the next-generation\n\"Weaponoid\" chips created from the\nlatest advances in chip technology.",
     "特定の武器を強化する効果を持つ\nチップのようです。":
         "This seems to be a chip that boosts\ncertain kinds of weapons.",
+    "特定の武器を強化する\n効果を持つチップのようです。":
+        "This seems to be a chip that boosts\ncertain kinds of weapons.",
     "武器と合わせて装備すると\nとても有効ですよ！\nぜひ入手してくださいね！":
         "It should be very effective\nif you can equip it with an\nappropriate weapon!\nPlease, you have to get one!",
     "よく使う武器と\n組み合わせることができれば\nとても有効ですよ！\nぜひ入手してくださいね！":
