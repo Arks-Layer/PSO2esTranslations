@@ -185,6 +185,10 @@ generic_lines = {
         "This chip seems to be recording\nthe technology and uses of a Mag.",
     "このチップはリンクスロット限定で\nチップパレットには装備できません。\n他のチップと組み合わせることで\n効果を発揮します！":
         "It's limited to Link Slots, so you can't\nequip it on your main Chip Palette.\nYou should get good results from\ncombining it with another chip!",
+    "このチップは、★９以上のチップの\nリンクスロットに装備できます。\n<%ele>属性のチップに装備すると\nリンクスキルが発生します。":
+        "This chip can be equipped in the\nLink Slot of a ★9 or higher chip.\nIf equipped to a <%ele> element\nchip, its Link Skill will activate.",
+    "チップの解放（属性変換）は\n何度でも可能です。":
+        "You can release this chip to\nconvert its element to a different\none as many times as you like.",
     "": ""
     }
 
