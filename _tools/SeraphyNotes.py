@@ -105,6 +105,14 @@ generic_lines = {
         "This is a material chip mostly used\nto release powerful <%ele> chips.\nYou can obtain it from Daily Quests.",
     "主に<%ele>属性の\n一部の強力なチップの解放に\n必要な素材チップとなります。\n緊急クエストや交換ショップなどで\n入手可能ですよ。":
         "This is a material chip mostly used\nto release powerful <%ele> chips.\nYou can obtain it from Emergency\nQuests and the Exchange Shop.",
+    "チップ特装に必要な素材チップです。\n日替わりのデイリークエストなどで\n入手可能です。":
+        "This is a material chip used\nfor Chip Specialization. It can\nbe obtained from Daily Quests.",
+    "チップ特装に必要な素材チップです。\nクエストなどで入手可能です。":
+        "This is a material chip used\nfor Chip Specialization. It can\nbe obtained from various quests.",
+    "特装プラグ強化に必要な\n素材チップです。\n日替わりのデイリークエストなどで\n入手可能です。":
+        "This is a material chip used for\nupgrading Specialized Plugs.\nIt can be obtained from Daily Quests.",
+    "特装プラグ強化に必要な\n素材チップです。\nクエストなどで入手可能です。":
+        "This is a material chip used for\nupgrading Specialized Plugs.\nIt can be obtained from various quests.",
     "エネミーの生体を記録した\nチップのようです。":
         "This chip seems to hold data\nfrom an enemy life form.",
     "いつも戦っているエネミーの能力が\nチップになっています！\nどんな力を持っているのか\n楽しみですね！":
