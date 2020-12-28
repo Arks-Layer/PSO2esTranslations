@@ -181,6 +181,10 @@ generic_lines = {
         "This chip has been fully\nreleased, and its ability is now\n\"<%abi>\"!\nYou can also enhance its\nperformance even further!",
     "真・解放した★１３チップは\n全属性の必殺技・法術の\nチップコストが減少します！":
         "As a fully released ★13 chip,\nequipping it reduces the equip\ncosts of all PAs and Techniques!",
+    "マグの性能や技術を記録した\nチップのようです。":
+        "This chip seems to be recording\nthe technology and uses of a Mag.",
+    "このチップはリンクスロット限定で\nチップパレットには装備できません。\n他のチップと組み合わせることで\n効果を発揮します！":
+        "It's limited to Link Slots, so you can't\nequip it on your main Chip Palette.\nYou should get good results from\ncombining it with another chip!",
     "": ""
     }
 
