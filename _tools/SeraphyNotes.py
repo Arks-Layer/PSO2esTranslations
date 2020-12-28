@@ -189,6 +189,8 @@ generic_lines = {
         "This chip can be equipped in the\nLink Slot of a ★9 or higher chip.\nIf equipped to a <%ele> element\nchip, its Link Skill will activate.",
     "チップの解放（属性変換）は\n何度でも可能です。":
         "You can release this chip to\nconvert its element to a different\none as many times as you like.",
+    "解放（属性変換）には\nこのようなチップが必要です。":
+        "To release this chip and convert\nits Element, you will need these\nmaterial chips.",
     "": ""
     }
 
