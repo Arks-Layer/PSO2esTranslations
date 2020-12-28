@@ -43,7 +43,7 @@ generic_lines = {
         "What kind of Photon Art can you\nperform by equipping this...?!\nI look forward to finding out!",
     "このチップは大剣専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
         "This chip is for Sword only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
-    "このチップは自在専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
+    "このチップは自在槍専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
         "This chip is for Wired Lance only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
     "このチップは長槍専用となります。\n入手された際は\n武器と合わせて装備してくださいね。":
         "This chip is for Partizan only.\nBe sure to equip an appropriate\nweapon before you try to use it.",
