@@ -1274,6 +1274,13 @@
 		"tr_explain": "Unlocks the eyes\n\"Manga-Style Eyes I\"\nfor use in the Beauty Salon."
 	},
 	{
+		"assign": "3260183",
+		"jp_text": "シバアイ",
+		"tr_text": "Shiva Eyes",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nシバアイが選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Shiva Eyes\"\nfor use in the Beauty Salon."
+	},
+	{
 		"assign": "3260184",
 		"jp_text": "細縦長瞳",
 		"tr_text": "Fine Vertical Eyes",
@@ -1521,16 +1528,16 @@
 	{
 		"assign": "3260220",
 		"jp_text": "イラスト風瞳Ｅ",
-		"tr_text": "Illustration Style Eyes E",
+		"tr_text": "Illustration-Style Eyes E",
 		"jp_explain": "チケットを使用すると、新しい瞳の\nイラスト風瞳Ｅが選択可能。",
-		"tr_explain": "Unlocks the eyes\n\"Illustration Style Eyes E\"\nfor use in the Beauty Salon."
+		"tr_explain": "Unlocks the eyes\n\"Illustration-Style Eyes E\"\nfor use in the Beauty Salon."
 	},
 	{
 		"assign": "3260221",
 		"jp_text": "イラスト風瞳Ｆ",
-		"tr_text": "Illustration Style Eyes F",
+		"tr_text": "Illustration-Style Eyes F",
 		"jp_explain": "チケットを使用すると、新しい瞳の\nイラスト風瞳Ｆが選択可能。",
-		"tr_explain": "Unlocks the eyes\n\"Illustration Style Eyes F\"\nfor use in the Beauty Salon."
+		"tr_explain": "Unlocks the eyes\n\"Illustration-Style Eyes F\"\nfor use in the Beauty Salon."
 	},
 	{
 		"assign": "3260222",
@@ -1577,16 +1584,16 @@
 	{
 		"assign": "3260228",
 		"jp_text": "ダークアイＤ　大",
-		"tr_text": "",
+		"tr_text": "Dark Eyes D L",
 		"jp_explain": "チケットを使用すると、新しい瞳の\nダークアイＤ　大が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Unlocks the eyes\n\"Dark Eyes D L\"\nfor use in the Beauty Salon."
 	},
 	{
 		"assign": "3260229",
 		"jp_text": "ダークアイＤ　小",
-		"tr_text": "",
+		"tr_text": "Dark Eyes D S",
 		"jp_explain": "チケットを使用すると、新しい瞳の\nダークアイＤ　小が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "Unlocks the eyes\n\"Dark Eyes D S\"\nfor use in the Beauty Salon."
 	},
 	{
 		"assign": "3260230",
@@ -1615,5 +1622,180 @@
 		"tr_text": "Colorless Pupil Eyes B S",
 		"jp_explain": "チケットを使用すると、新しい瞳の\n瞳孔無色瞳Ｂ　小が選択可能。",
 		"tr_explain": "Unlocks the eyes\n\"Colorless Pupil Eyes B S\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260235",
+		"jp_text": "ジュエルアイＣ　大",
+		"tr_text": "Jewel Eyes C L",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nジュエルアイＣ　大が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Jewel Eyes C L\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260236",
+		"jp_text": "ジュエルアイＣ　小",
+		"tr_text": "Jewel Eyes C S",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nジュエルアイＣ　小が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Jewel Eyes C S\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260237",
+		"jp_text": "オービットアイ　大",
+		"tr_text": "Orbit Eyes L",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nオービットアイ　大が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Orbit Eyes L\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260238",
+		"jp_text": "オービットアイ　小",
+		"tr_text": "Orbit Eyes S",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nオービットアイ　小が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Orbit Eyes S\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260239",
+		"jp_text": "ハーフカラー瞳　大",
+		"tr_text": "Half Color Eyes L",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nハーフカラー瞳　大が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Half Color Eyes L\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260240",
+		"jp_text": "ハーフカラー瞳　小",
+		"tr_text": "Half Color Eyes S",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nハーフカラー瞳　小が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Half Color Eyes S\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260241",
+		"jp_text": "格子ハイライトアイ　大",
+		"tr_text": "Barred Highlight Eyes L",
+		"jp_explain": "チケットを使用すると、新しい瞳の\n格子ハイライトアイ　大が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Barred Highlight Eyes L\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260242",
+		"jp_text": "格子ハイライトアイ　小",
+		"tr_text": "Barred Highlight Eyes S",
+		"jp_explain": "チケットを使用すると、新しい瞳の\n格子ハイライトアイ　小が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Barred Highlight Eyes S\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260243",
+		"jp_text": "サードゥオアイ",
+		"tr_text": "Saduo Eyes",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nサードゥオアイが選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Saduo Eyes\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260244",
+		"jp_text": "カザミノタチアイ",
+		"tr_text": "Kazami-no-tachi Eyes",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nカザミノタチアイが選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Kazami-no-tachi Eyes\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260245",
+		"jp_text": "オプトレイオンアイ",
+		"tr_text": "Optreion Eyes",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nオプトレイオンアイが選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Optreion Eyes\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260246",
+		"jp_text": "くっきり瞳孔Ｃ",
+		"tr_text": "Bold Pupils C",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nくっきり瞳孔Ｃが選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Bold Pupils C\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260247",
+		"jp_text": "ハイライトなしＥ　大",
+		"tr_text": "No Highlights E L",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nハイライトなしＥ　大が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"No Highlights E L\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260248",
+		"jp_text": "ハイライトなしＥ　小",
+		"tr_text": "No Highlights E S",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nハイライトなしＥ　小が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"No Highlights E S\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260249",
+		"jp_text": "ホープレスアイ　大",
+		"tr_text": "Hopeless Eyes L",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nホープレスアイ　大が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Hopeless Eyes L\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260250",
+		"jp_text": "ホープレスアイ　小",
+		"tr_text": "Hopeless Eyes S",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nホープレスアイ　小が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Hopeless Eyes S\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260251",
+		"jp_text": "アステロイドアイ　大",
+		"tr_text": "Asteroid Eyes L",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nアステロイドアイ　大が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Asteroid Eyes L\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260252",
+		"jp_text": "アステロイドアイ　小",
+		"tr_text": "Asteroid Eyes S",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nアステロイドアイ　小が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Asteroid Eyes S\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260253",
+		"jp_text": "夜光瞳Ｃ　大",
+		"tr_text": "Noctilucent Eyes C L",
+		"jp_explain": "チケットを使用すると、新しい瞳の\n夜光瞳Ｃ　大が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Noctilucent Eyes C L\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260254",
+		"jp_text": "夜光瞳Ｃ　小",
+		"tr_text": "Noctilucent Eyes C S",
+		"jp_explain": "チケットを使用すると、新しい瞳の\n夜光瞳Ｃ　小が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Noctilucent Eyes C S\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260255",
+		"jp_text": "グラデーションネコ目　大",
+		"tr_text": "Gradation Cat Eyes L",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nグラデーションネコ目　大が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Gradation Cat Eyes L\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260256",
+		"jp_text": "グラデーションネコ目　小",
+		"tr_text": "Gradation Cat Eyes S",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nグラデーションネコ目　小が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Gradation Cat Eyes S\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260257",
+		"jp_text": "スプレンダーアイ　大",
+		"tr_text": "Splendor Eyes L",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nスプレンダーアイ　大が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Splendor Eyes L\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260258",
+		"jp_text": "スプレンダーアイ　小",
+		"tr_text": "Splendor Eyes S",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nスプレンダーアイ　小が選択可能。",
+		"tr_explain": "Unlocks the eyes\n\"Splendor Eyes S\"\nfor use in the Beauty Salon."
+	},
+	{
+		"assign": "3260259",
+		"jp_text": "ルコットアイ",
+		"tr_text": "",
+		"jp_explain": "チケットを使用すると、新しい瞳の\nルコットアイが選択可能。",
+		"tr_explain": ""
 	}
 ]

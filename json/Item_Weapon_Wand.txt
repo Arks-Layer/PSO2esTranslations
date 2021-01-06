@@ -207,7 +207,7 @@
 		"jp_text": "アダマンの杖",
 		"tr_text": "Mace of Adaman",
 		"jp_explain": "魔石『アダマン』を用いた短杖。\n含有フォトンが氷属性に偏っており\n常に先端が冷気を帯びている。",
-		"tr_explain": "This wand uses Adaman Spellstones.\nIts spiked head is tinged with cold\ndue to the ice-based photons it uses."
+		"tr_explain": "This wand uses Adaman Spellstones.\nIts spiked head is tinged with cold\ndue to the ice-based Photons it uses."
 	},
 	{
 		"assign": "113030",
@@ -695,7 +695,7 @@
 	{
 		"assign": "1130148",
 		"jp_text": "サージュストラ",
-		"tr_text": "Sage Sutra",
+		"tr_text": "Surge Sutra",
 		"jp_explain": "大気中のフォトンが励起しやすい素材で\nできた短杖。華美なデザインだが\n使用者にもたらす法撃力は確かなもの。",
 		"tr_explain": ""
 	},
@@ -889,6 +889,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1130231",
+		"jp_text": "ネブロスアマド",
+		"tr_text": "Nebulos Amado",
+		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n短杖。禍々しい見た目だが、性能が\n非常に高く、熟練者が好んで使う。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1130235",
 		"jp_text": "ディアルナン",
 		"tr_text": "Dia Renan",
@@ -1033,7 +1040,7 @@
 		"jp_text": "レイウォンド",
 		"tr_text": "Ray Wand",
 		"jp_explain": "次世代の主力として開発された短杖。\n基礎モデルの直系の後継機であり\n出力、安定性共に高いスペックを誇る。",
-		"tr_explain": "A Wand developed as the latest\nmodel, boasting high photon stability\nwith next-gen specifications."
+		"tr_explain": "A Wand developed as the latest\nmodel, boasting high Photon stability\nwith next-gen specifications."
 	},
 	{
 		"assign": "1130281",
@@ -1381,7 +1388,7 @@
 	{
 		"assign": "1130385",
 		"jp_text": "ニーケコルセア",
-		"tr_text": "Nieke Corsair",
+		"tr_text": "Nike Corsair",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った短杖。敵に恐怖を与える刃は\n味方を鼓舞し、勝利という未来を繋ぐ。",
 		"tr_explain": ""
 	},
@@ -1418,7 +1425,7 @@
 		"jp_text": "オフスティアアックス-NT",
 		"tr_text": "Austere Axe-NT",
 		"jp_explain": "負の力を識り、制することで転化した\n浄化の短杖。与えられた大いなる明智は\n災難を鎮め、平安をもたらす力となる。",
-		"tr_explain": ""
+		"tr_explain": "A purified wand. Its great wisdom\ncalms disasters through the power\nof peace."
 	},
 	{
 		"assign": "1130395",
@@ -1432,21 +1439,21 @@
 		"jp_text": "深遠棍アスピラシオン",
 		"tr_text": "Profound Aspiraxion",
 		"jp_explain": "終わりなき物語を辿る者の絶望により\n生み出された短杖。一縷の望みも\n赦されぬ悲嘆にくれ、理想を失う。",
-		"tr_explain": ""
+		"tr_explain": "A wand born of endless despair.\nAll hope, even the tiniest sliver, shall\nbe drowned in irreconcilable grief."
 	},
 	{
 		"assign": "1130398",
 		"jp_text": "星震棍アスピラシオン",
 		"tr_text": "Celestial Aspiraxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した短杖。希望の灯火は虚無を\n打ち消し、確固たる力をもたらす。",
-		"tr_explain": ""
+		"tr_explain": "A wand touched by a time traveller's\nheart. The light of its hope provides\na bulwark against the darkness."
 	},
 	{
 		"assign": "1130399",
 		"jp_text": "光跡棍アスピラシオン",
 		"tr_text": "Lightstream Aspiraxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ短杖。灯火を宿した希望は\n力となり、光輝ある明日へと導く。",
-		"tr_explain": ""
+		"tr_explain": "A wand that links the stars, bonded to\na time traveller. The light of hope\nwithin will lead to a shining tomorrow."
 	},
 	{
 		"assign": "1130403",
@@ -1505,11 +1512,25 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1130443",
+		"jp_text": "アークサーペント",
+		"tr_text": "Arc Serpent",
+		"jp_explain": "遥か神話の時代に高名な術師が\n所持していたとされる短杖。神聖な光に\n満ち、迷える者に正しき道を示す。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1130451",
+		"jp_text": "光纏棍クラースヴァージ",
+		"tr_text": "Lightweaver Cras Virge",
+		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った短杖。\nその信念が、未来を引き寄せる。",
+		"tr_explain": "A wand that wove the light that\nvanquished darkness. From its beliefs,\nthe future is drawn into being."
+	},
+	{
 		"assign": "1130452",
 		"jp_text": "エイトライオービット-NT",
 		"tr_text": "Eightrei Orbit-NT",
 		"jp_explain": "新開発のフォトンリング機構を搭載した\n短杖。展開された部品が合体し\n万象を守護する刃へと姿を変える。",
-		"tr_explain": ""
+		"tr_explain": "A Wand with a Photon Ring Device.\nThe expanded parts can form into a\nblade that can protect the universe."
 	},
 	{
 		"assign": "1130453",
@@ -1531,5 +1552,33 @@
 		"tr_text": "Flotea Wand",
 		"jp_explain": "フォトンの刃が虹色にきらめく短杖。\nポータビリティを重視し、納刀時は\n刃と柄が格納され、浮遊形態となる。",
 		"tr_explain": ""
+	},
+	{
+		"assign": "1130472",
+		"jp_text": "フィンブルエール",
+		"tr_text": "Fimbul Aile",
+		"jp_explain": "重厚な気高さを漂わせる短杖。\n宝石は戦闘を重ねる度に輝きを増し\n周囲のフォトンを活性化させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1130480",
+		"jp_text": "￥Ｅデモニア２短杖ＣＶ２",
+		"tr_text": "",
+		"jp_explain": "￥Ｅデモニア２短杖ＣＶ２",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1130481",
+		"jp_text": "フルクシオキューマ",
+		"tr_text": "Fluxio Kyuma",
+		"jp_explain": "流線美と機能性を備え持つ短杖。\n鋭いエッジと滑らかな輪郭を両立させた\n刃は、流れる軌跡で敵を斬り裂く。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1130483",
+		"jp_text": "闇征棍アジェルヴァージ",
+		"tr_text": "Darkbanisher Ayer Virge",
+		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた短杖。\n流転の運命をやがて光へと導く。",
+		"tr_explain": "A wand that will give up anything to\nprotect the universe. Guides fate on\nits path to ultimately reach the light."
 	}
 ]

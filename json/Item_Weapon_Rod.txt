@@ -1015,6 +1015,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1110262",
+		"jp_text": "シャフトインクルシオ",
+		"tr_text": "Shaft Inclusio",
+		"jp_explain": "新開発の演算装置を搭載した長杖。\n追従を許さぬ高い処理能力で\nフォトン制御力の限界に迫る。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1110265",
 		"jp_text": "リグファーシー",
 		"tr_text": "Rig Farse",
@@ -1061,7 +1068,7 @@
 		"jp_text": "レイロッド",
 		"tr_text": "Ray Rod",
 		"jp_explain": "次世代の主力として開発された長杖。\n基礎モデルの直系の後継機であり\n出力、安定性共に高いスペックを誇る。",
-		"tr_explain": "A Rod developed as the latest\nmodel, boasting high photon stability\nwith next-gen specifications."
+		"tr_explain": "A Rod developed as the latest\nmodel, boasting high Photon stability\nwith next-gen specifications."
 	},
 	{
 		"assign": "1110278",
@@ -1096,7 +1103,7 @@
 		"jp_text": "フォルニステルナーゼ",
 		"tr_text": "Fornis Telnaze",
 		"jp_explain": "異なる力を宿した恐るべき長杖。\n雷鳴のように猛々しいフォトンと\n抜きん出た法撃力を有している。",
-		"tr_explain": "A fearsome rod bearing twin\npowers. Its photons are as fierce as\nlightning, amplifying its Techniques."
+		"tr_explain": "A fearsome rod bearing twin\npowers. Its Photons are as fierce as\nlightning, amplifying its Techniques."
 	},
 	{
 		"assign": "1110283",
@@ -1500,8 +1507,8 @@
 	{
 		"assign": "1110375",
 		"jp_text": "ニーケソレイユ",
-		"tr_text": "Nieke Soleil",
-		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った長杖。フォトンの共鳴から\n放たれる法撃は、勝利を確実に掴む。",
+		"tr_text": "Nike Soleil",
+		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った長杖。幾重にも増幅され\n放たれるテクニックが勝利をもたらす。",
 		"tr_explain": ""
 	},
 	{
@@ -1544,7 +1551,7 @@
 		"jp_text": "オフスティアソーサラー-NT",
 		"tr_text": "Austere Sorcerer-NT",
 		"jp_explain": "負の力を識り、制することで転化した\n浄化の長杖。与えられた大いなる智慧は\n悪者を倒し、平穏をもたらす力となる。",
-		"tr_explain": ""
+		"tr_explain": "A purified Rod. Its great wisdom\nbrings justice through peace that\nvanquishes evil."
 	},
 	{
 		"assign": "1110392",
@@ -1614,21 +1621,21 @@
 		"jp_text": "深遠杖サルバシオン",
 		"tr_text": "Profound Salvaxion",
 		"jp_explain": "終わりなき物語を辿る者の絶望により\n生み出された長杖。無常なる闇に心は\n巣食われ、負への妄執に取り憑かれる。",
-		"tr_explain": ""
+		"tr_explain": "A rod born of endless despair. Its\nheart devoured by darkness, it has\nbecome obssessed with foul illusions."
 	},
 	{
 		"assign": "1110410",
 		"jp_text": "星震杖サルバシオン",
 		"tr_text": "Celestial Salvaxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した長杖。妄執を捨てた想いは\n闇をほどき、猛る勇気を呼び覚ます。",
-		"tr_explain": ""
+		"tr_explain": "A rod touched by a time traveller's\nheart. Freed from dark illusions, its\nfierce courage has awakened."
 	},
 	{
 		"assign": "1110411",
 		"jp_text": "光跡杖サルバシオン",
 		"tr_text": "Lightstream Salvaxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ長杖。果敢なる勇気は、加護を\nもたらし未来の曙光を確約する。",
-		"tr_explain": ""
+		"tr_explain": "A rod that links the stars, bonded\nto a time traveller. Its courage is a\npromise to protect tomorrow's dawn."
 	},
 	{
 		"assign": "1110414",
@@ -1673,6 +1680,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1110445",
+		"jp_text": "光纏杖クラースステッキ",
+		"tr_text": "Lightweaver Cras Cane",
+		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った長杖。\nその願いが、明日を紡ぎだす。",
+		"tr_explain": "A rod that wove the light that\nvanquished darkness. From its hopes,\nthe fabric of tomorrow is spun."
+	},
+	{
 		"assign": "1110446",
 		"jp_text": "タリシャンテオーブ",
 		"tr_text": "Talishante Orb",
@@ -1687,10 +1701,38 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1110448",
+		"jp_text": "セイロスモーズ",
+		"tr_text": "Seiros Mohs",
+		"jp_explain": "闇に飲まれた魂が宿るとされる長杖。\nひとたび振りかざせば、万事を終極へ\n引きずり込むといわれている。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1110455",
 		"jp_text": "アンブラステッキ-NT",
 		"tr_text": "Umblla Stick-NT",
 		"jp_explain": "異次元よりの来訪者が、気まぐれに\n置いていったステキなステッキ。\n全クラス装備可能な、特殊な長杖。",
+		"tr_explain": "A Rod from another dimension.\nNicely crafted for a whimsical visitor."
+	},
+	{
+		"assign": "1110470",
+		"jp_text": "￥黒十字ＰｈデモニアＲＣＶ２",
+		"tr_text": "",
+		"jp_explain": "￥黒十字ＰｈデモニアＲＣＶ２",
 		"tr_explain": ""
+	},
+	{
+		"assign": "1110471",
+		"jp_text": "フルクシオガルラ",
+		"tr_text": "Fluxio Garla",
+		"jp_explain": "流線美と機能性を備え持つ長杖。\n流れる川の波紋を想起させるフォルムが\nフォトンを効率良く励起させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1110473",
+		"jp_text": "闇征杖アジェルステッキ",
+		"tr_text": "Darkbanisher Ayer Cane",
+		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた長杖。\n永遠の環をその身に宿している。",
+		"tr_explain": "A rod that will give up anything to\nprotect the universe. Houses the\ncycle of eternity within its body."
 	}
 ]

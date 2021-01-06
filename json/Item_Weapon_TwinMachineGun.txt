@@ -25,21 +25,21 @@
 		"jp_text": "ツインアサルト",
 		"tr_text": "Twin Assault",
 		"jp_explain": "アークスで正式採用されている双機銃。\n攻撃力を追求した上級モデルで携帯性は\nそのままに、連射性能を向上させた。",
-		"tr_explain": ""
+		"tr_explain": "Twin machineguns adopted by ARKS.\nA high-end model that maintains\nportability while enhancing fire rate."
 	},
 	{
 		"assign": "11004",
 		"jp_text": "アルバＴアサルト",
 		"tr_text": "Alva Twin Assault",
 		"jp_explain": "アークスで使用される改良型の双機銃。\n射程の長さを追求した上級モデルで\n弾倉の大型化で連射性能も向上した。",
-		"tr_explain": ""
+		"tr_explain": "Improved twin machineguns used by\nARKS. A high-end model with increased\nrange and a larger magazine."
 	},
 	{
 		"assign": "11005",
 		"jp_text": "ヴィタＴアサルト",
 		"tr_text": "Vita Twin Assault",
 		"jp_explain": "基礎モデルに改良を加えた双機銃。\nフォトン保持力の高い大型弾倉と砲身で\n全体的に性能が向上した。",
-		"tr_explain": ""
+		"tr_explain": "Machineguns that further improve on\nthe base model. Its Photon-retentive\nbarrel improves overall performance."
 	},
 	{
 		"assign": "11006",
@@ -200,7 +200,7 @@
 		"jp_text": "Ｈ＆Ｓ２５ジャスティス",
 		"tr_text": "H&S25 Justice",
 		"jp_explain": "珠玉の一品として名高い双機銃。\n凍り付くほどに洗練された\nフォトンの弾が、敵を射貫く。",
-		"tr_explain": "An iconic pair of machineguns. Its\nphoton bullets are refined into a\nconfiguration that freezes enemies."
+		"tr_explain": "An iconic pair of machineguns. Its\nPhoton bullets are refined into a\nconfiguration that freezes enemies."
 	},
 	{
 		"assign": "110030",
@@ -893,7 +893,7 @@
 		"jp_text": "デュアルバード",
 		"tr_text": "Dual Bird",
 		"jp_explain": "強力無比な弾を繰り出すことが出来る\n双機銃。青と赤の弾丸が放たれる時\n瞬く間に全てが無に還る。",
-		"tr_explain": ""
+		"tr_explain": "Twin guns bearing unrivalled power.\nThe red and blue bullets reduce their\ntarget to nothing in an instant."
 	},
 	{
 		"assign": "1100211",
@@ -998,14 +998,14 @@
 		"jp_text": "ギクスカフィール",
 		"tr_text": "Gix Kafir",
 		"jp_explain": "臨界寸前まで圧縮したフォトンと\n同調した双機銃。装者の精神とリンクし\n感情の昂ぶりが弾丸を強化する。",
-		"tr_explain": "Twin machineguns synchronized with\ncritically compressed photons. Their\nbullets draw on the user's emotions."
+		"tr_explain": "Twin machineguns synchronized with\ncritically compressed Photons. Their\nbullets draw on the user's emotions."
 	},
 	{
 		"assign": "1100244",
 		"jp_text": "インヴェイドレイン",
 		"tr_text": "Invade Rain",
 		"jp_explain": "【深遠なる闇】より生まれし負の\n双機銃。装者は不動の精神を有するが\n戦禍をもたらす戦鬼となる。",
-		"tr_explain": "A pair of machineguns born from the\n[Profound Darkness]. Its said that it\nbecomes a demon of destruction."
+		"tr_explain": "A pair of machineguns born from the\n[Profound Darkness]. It's said that it\nbecomes a demon of destruction."
 	},
 	{
 		"assign": "1100245",
@@ -1031,7 +1031,7 @@
 	{
 		"assign": "1100250",
 		"jp_text": "アクルドフィジス",
-		"tr_text": "Aculd Phsis",
+		"tr_text": "Aculd Physis",
 		"jp_explain": "異なる力を宿した恐るべき双機銃。\nまばゆい光と無情な闇の力を持った\n弾丸は、あらゆるものを貫くという。",
 		"tr_explain": ""
 	},
@@ -1106,6 +1106,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1100279",
+		"jp_text": "バレットインクルシオ",
+		"tr_text": "Bullet Inclusio",
+		"jp_explain": "新開発の演算装置を搭載した双機銃。\n極限までに高められた処理能力で\n限界まで最適化された操作性を実現。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1100281",
 		"jp_text": "アウラディアズス",
 		"tr_text": "Aura Diazuth",
@@ -1166,7 +1173,7 @@
 		"jp_text": "レイＴマシンガン",
 		"tr_text": "Ray Twin Machineguns",
 		"jp_explain": "次世代の主力として開発された双機銃。\n基礎モデルの直系の後継機であり\n出力、安定性共に高いスペックを誇る。",
-		"tr_explain": "Machineguns developed as the latest\nmodel, boasting high photon stability\nwith next-gen specifications."
+		"tr_explain": "Machineguns developed as the latest\nmodel, boasting high Photon stability\nwith next-gen specifications."
 	},
 	{
 		"assign": "1100296",
@@ -1264,7 +1271,7 @@
 		"jp_text": "パンドラエクストリーム-NT",
 		"tr_text": "Pandora Extreme-NT",
 		"jp_explain": "ただ一つの希望を守るという双機銃。\n死角のない攻撃を可能とし、一切の\n災厄を寄せ付けない。",
-		"tr_explain": ""
+		"tr_explain": "Ordinary machineguns that keep\nhope alive. Attacks from these guns\nare flawless and accident free."
 	},
 	{
 		"assign": "1100310",
@@ -1453,7 +1460,7 @@
 		"jp_text": "Ｈ＆Ｓ２５ジャスティス-NT",
 		"tr_text": "H&S25 Justice-NT",
 		"jp_explain": "珠玉の一品として名高い双機銃。\n凍り付くほどに洗練された\nフォトンの弾が、敵を射貫く。",
-		"tr_explain": "An iconic pair of machineguns. Its\nphoton bullets are refined into a\nconfiguration that freezes enemies."
+		"tr_explain": "An iconic pair of machineguns. Its\nPhoton bullets are refined into a\nconfiguration that freezes enemies."
 	},
 	{
 		"assign": "1100353",
@@ -1507,8 +1514,8 @@
 	{
 		"assign": "1100366",
 		"jp_text": "ニーケグラオザム",
-		"tr_text": "Nieke Grauzam",
-		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った双機銃。備えたフォトン刃と\n無数の弾丸で勝利を確実に撃ち貫く。",
+		"tr_text": "Nike Grauzam",
+		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った双機銃。絶え間なく放たれる\n無数の弾丸で勝利を確実に撃ち貫く。",
 		"tr_explain": ""
 	},
 	{
@@ -1551,35 +1558,35 @@
 		"jp_text": "インヴェイドレイン-NT",
 		"tr_text": "Invade Rain-NT",
 		"jp_explain": "【深遠なる闇】より生まれし負の\n双機銃。装者は不動の精神を有するが\n戦禍をもたらす戦鬼となる。",
-		"tr_explain": "A pair of machineguns born from the\n[Profound Darkness]. Its said that it\nbecomes a demon of destruction."
+		"tr_explain": "A pair of machineguns born from the\n[Profound Darkness]. It's said that it\nbecomes a demon of destruction."
 	},
 	{
 		"assign": "1100375",
 		"jp_text": "オフスティアレイン-NT",
 		"tr_text": "Austere Rain-NT",
 		"jp_explain": "負の力を識り、制することで転化した\n浄化の双機銃。もたらされた屈しない\n精神は、難境を乗り越える力となる。",
-		"tr_explain": ""
+		"tr_explain": "Twin purified machineguns. They\ngrant weak spirits the power to\novercome any difficulty."
 	},
 	{
 		"assign": "1100376",
 		"jp_text": "深遠弾エヘクシオン",
 		"tr_text": "Profound Execuxion",
 		"jp_explain": "終わりなき物語を辿る者の絶望により\n生み出された双機銃。深い悲しみの闇を\n宿した弾は、一切の希望を拒絶する。",
-		"tr_explain": ""
+		"tr_explain": "Twin machineguns born of endless\ndespair. Their bullets, drenched in the\ndarkness of sorrow, reject all hope."
 	},
 	{
 		"assign": "1100377",
 		"jp_text": "星震弾エヘクシオン",
 		"tr_text": "Celestial Execuxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した双機銃。純粋なる願いを宿した\n星の弾は、輝きをまとい闇を撃ち抜く。",
-		"tr_explain": ""
+		"tr_explain": "Twin machineguns touched by a time\ntraveller's heart. The hopes of their\ncelestial bullets pierce the darkness."
 	},
 	{
 		"assign": "1100378",
 		"jp_text": "光跡弾エヘクシオン",
 		"tr_text": "Lightstream Execuxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ双機銃。星の輝きを宿した弾は\n闇も負も希望へと変え、未来を築く。",
-		"tr_explain": ""
+		"tr_explain": "Twin machineguns that link the stars,\nbonded to a time traveller. Their star-\nbright bullets turn negativity into hope."
 	},
 	{
 		"assign": "1100384",
@@ -1642,7 +1649,7 @@
 		"jp_text": "ヤスミノコフ８０００Ｃ-NT",
 		"tr_text": "Yasminkov 8000C-NT",
 		"jp_explain": "一風変わったヤスミノコフ型双機銃。\nヘリカルマガジンを採用することで\nコンパクトながら屈指の装填数を誇る。",
-		"tr_explain": "An unusual shaped pair of guns. By\nadopting a helical magazine, it offers\ninstant reloading of ammo in seconds."
+		"tr_explain": "Unusual Yasminkov twin machineguns.\nTheir helical magazines give them the\nability to\nfully reload in seconds."
 	},
 	{
 		"assign": "1100402",
@@ -1652,11 +1659,25 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1100409",
+		"jp_text": "ブラックダークネス",
+		"tr_text": "Black Darkness",
+		"jp_explain": "ずっしりと重量感のある双機銃。\n燃費が良く、少量のエネルギーで\n長時間戦い続けることが可能。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1100410",
 		"jp_text": "スカルフェジサー-NT",
 		"tr_text": "Skull Feschieser-NT",
 		"jp_explain": "死者の念が乗り移ったとされる禍々しき\nオーラを放つ双機銃。放たれたら最後\nその弾丸からは逃れられないという。",
-		"tr_explain": ""
+		"tr_explain": "Twin machineguns whose shots\nemanate a deathly aura. It it said\nthat none can escape their bullets."
+	},
+	{
+		"assign": "1100416",
+		"jp_text": "光纏弾クラースバレル",
+		"tr_text": "Lightweaver Cras Barrel",
+		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った双機銃。\nその乱撃が、希望への架け橋となる。",
+		"tr_explain": "Twin machineguns that wove the\nlight that vanquished darkness. From\ntheir fury, the bridge to hope is built."
 	},
 	{
 		"assign": "1100419",
@@ -1678,5 +1699,33 @@
 		"tr_text": "Rose Server-NT",
 		"jp_explain": "家事を取り仕切る家令が好む双機銃。\nこのタイプでは初めてお茶を注ぐ機能を\n再現し、カムフラージュ可能になった。",
 		"tr_explain": ""
+	},
+	{
+		"assign": "1100429",
+		"jp_text": "アデルクルーヴェ",
+		"tr_text": "Adel Kluwe",
+		"jp_explain": "あらゆる罪を焼き尽くす猛火を\n纏うとされる双機銃。驚異的な熱が\nこめられた弾は唯一無二の貫通力。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1100434",
+		"jp_text": "ヴィアンクルーヴェ",
+		"tr_text": "Vian Kluwe",
+		"jp_explain": "あらゆる罪を焼き尽くす猛火を\n纏うとされる双機銃。煌々と輝く\n銃身は高潔な道義心を内包している。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1100435",
+		"jp_text": "フルクシオボレア",
+		"tr_text": "Fluxio Borea",
+		"jp_explain": "流線美と機能性を備え持つ双機銃。\n円状の持ち手が高いグリップ力を持ち\n内部の演算装置で弱点を突き止める。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1100437",
+		"jp_text": "闇征弾アジェルバレル",
+		"tr_text": "Darkbanisher Ayer Barrel",
+		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた双機銃。\n因果の終端を探し続ける。",
+		"tr_explain": "Twin machineguns that will give up\nanything to protect the universe. They\nseek an end to cause and effect."
 	}
 ]

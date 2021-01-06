@@ -11,7 +11,7 @@
 		"jp_text": "＊ＳＷ‐ティアダウナー",
 		"tr_text": "＊SW-Teardowner",
 		"jp_explain": "境界を破り、出現した大剣型武器迷彩。\n桁違いの大きさを誇る刀身が特徴で\nその斬撃は時空すら越えると言われる。",
-		"tr_explain": "Sword camo that broke the borders\nwhen it appeared. Known for its size,\nrumored to cut space and time."
+		"tr_explain": "Sword camo that broke the borders\nwhen it appeared. Known for its size,\nsaid to be able to cut space and time."
 	},
 	{
 		"assign": "10102",
@@ -40,6 +40,27 @@
 		"tr_text": "＊Ea: Sword of Rupture",
 		"jp_explain": "英雄王ギルガメッシュの大剣型武器迷彩。\n死の国の原典にして生命の記憶の原初。\n真実を識り、地獄を作り上げる。",
 		"tr_explain": "Sword camo wielded by the King of\nHeroes. Primordial sword of the\nBabylonian myth, and gateway to hell."
+	},
+	{
+		"assign": "10106",
+		"jp_text": "＊ボードグレイ",
+		"tr_text": "＊Bode Gray",
+		"jp_explain": "生体反応が認められないにもかかわらず\n生命体の様に振舞う大剣型武器迷彩。\nコアから放たれる光が何かを訴える。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "10107",
+		"jp_text": "＊ボードメタル",
+		"tr_text": "＊Bode Metal",
+		"jp_explain": "生体反応が認められないにもかかわらず\n生命体の様に振舞う大剣型武器迷彩。\nひび割れも雰囲気のための装飾の一部。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "10108",
+		"jp_text": "＊ボードスチル",
+		"tr_text": "＊Bode Steel",
+		"jp_explain": "生体反応が認められないにもかかわらず\n生命体の様に振舞う大剣型武器迷彩。\n冷たいオーラが敵の肝を冷やす。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "10109",
@@ -228,7 +249,7 @@
 		"jp_text": "＊コートエッジ",
 		"tr_text": "＊Coat Edge",
 		"jp_explain": "実体剣に寄せたフォルムを持つ大剣型\n武器迷彩。フォトンコートで刃を包み\n無駄を抑えつつ、高い攻撃力を保つ。",
-		"tr_explain": ""
+		"tr_explain": "A sword camo featuring a large form\nfactor. A thin coating of Photons\ngives it high attack power."
 	},
 	{
 		"assign": "101038",
@@ -305,7 +326,7 @@
 		"jp_text": "＊バトルソード",
 		"tr_text": "＊Battle Sword",
 		"jp_explain": "バトルアリーナ専用の大剣型\n武器迷彩。戦技比較用に、力量が\n発揮されるよう調整がされている。",
-		"tr_explain": "Sword weapon camo from\nthe Battle Arena. Carefully tuned for\nuse in skill-testing mock battles."
+		"tr_explain": "A Sword-type camo from\nthe Battle Arena. Carefully tuned\nfor use in skill testing mock battles."
 	},
 	{
 		"assign": "101049",
@@ -368,7 +389,7 @@
 		"jp_text": "＊トール・ハンマー",
 		"tr_text": "＊Thor's Hammer",
 		"jp_explain": "アラトロン＝トルストイの\n具現武装を模して作られた武器迷彩。\n雷神の名を持つとおり、雷をまとう。",
-		"tr_explain": ""
+		"tr_explain": "Camo imitating the embodied weapon\nof Aratron Tolstoy. Named for the\nGod of Thunder, it is clad in lightning."
 	},
 	{
 		"assign": "101058",
@@ -494,14 +515,14 @@
 		"jp_text": "＊ラコニウムソード",
 		"tr_text": "＊Laconium Sword",
 		"jp_explain": "剣の巫女アリサの持つ伝承の剣を\n模した武器迷彩。澄んだ青色の刀身は\n美しく、本物と見紛うほど。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo imitating the sword of\nAlisa the Sword Maiden. The shining\nblue blade looks completely authentic."
 	},
 	{
 		"assign": "101078",
 		"jp_text": "＊ハリエットの剣",
 		"tr_text": "＊Harriet Sword",
 		"jp_explain": "ハリエットが所持する剣を模した\n武器迷彩。クエント王国の国章が\n刻まれた気品あるデザインが特徴。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo imitating the sword\nused by Harriet. This refined design\nis engraved with Cuent's emblem."
 	},
 	{
 		"assign": "101079",
@@ -522,7 +543,7 @@
 		"jp_text": "＊コートエッジＤ",
 		"tr_text": "＊Coat Edge D",
 		"jp_explain": "実体剣に寄せたフォルムを持つ大剣型\n武器迷彩。黒く禍々しいフォトン\nコートが使用者に比類なき力を与える。",
-		"tr_explain": ""
+		"tr_explain": "A sword camo featuring a large form\nfactor. A thin coating of negaphotons\ngives it unrivalled attack power."
 	},
 	{
 		"assign": "101093",
@@ -609,6 +630,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1010106",
+		"jp_text": "＊オラクル戦隊セイガーズ",
+		"tr_text": "＊Oracle Squadron Seigas",
+		"jp_explain": "世界征服を企む悪の組織と戦うために\n作られた武器迷彩。正義の心に従い\n悪を討ち、人々の平和を守る！",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1010107",
 		"jp_text": "＊ランドルオービット",
 		"tr_text": "＊Randle Orbit",
@@ -634,7 +662,28 @@
 		"jp_text": "＊ウォリアーソード",
 		"tr_text": "＊Warrior Sword",
 		"jp_explain": "バトルアリーナ専用の大剣型\n武器迷彩。戦技比較用に、力量が\n発揮されるよう調整がされている。",
-		"tr_explain": "Sword weapon camo from\nthe Battle Arena. Carefully tuned for\nuse in skill-testing mock battles."
+		"tr_explain": "A Sword-type camo from\nthe Battle Arena. Carefully tuned\nfor use in skill testing mock battles."
+	},
+	{
+		"assign": "1010111",
+		"jp_text": "＊アーレスクリーガ",
+		"tr_text": "＊Ares Krieger",
+		"jp_explain": "幻獣たちの力を宿した武器迷彩。\n装者にフォトンブラストの効果で\n挫けぬ力を与え、敵を圧倒する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1010112",
+		"jp_text": "＊ネメシスセリカ",
+		"tr_text": "＊Nemesis Celica",
+		"jp_explain": "古の時代に封印された聖なる武器迷彩。\n装者の精神と同調することで\n秘められた浄化の力を発揮する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1010113",
+		"jp_text": "＊スレイヴセリカ",
+		"tr_text": "＊Slave Celica",
+		"jp_explain": "古の時代に封印された邪なる武器迷彩。\n装者の闘争本能に呼応して\n封じられた破壊の力を発揮する。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "1010115",
@@ -662,6 +711,153 @@
 		"jp_text": "＊呪刃エンレイ",
 		"tr_text": "＊Cursed Sword Enrei",
 		"jp_explain": "数多の人を斬ったことで怪異に転じたと\n伝えられている大剣型武器迷彩。\n封印されし呪いの力で敵を斬り伏せる。",
+		"tr_explain": "A sword camo that changed after\ncutting down many people.\nEmpowered by the curse sealed within."
+	},
+	{
+		"assign": "1010120",
+		"jp_text": "＊天遂リタヴラタ",
+		"tr_text": "＊Heaven Ender Ritavrata",
+		"jp_explain": "創世器「天遂リタヴラタ」を模して\n作られた武器迷彩。本来は\n阻む者すべてを斬り裂く力を持つ。",
+		"tr_explain": "Weapon camo of the Genesis Weapon\n\"Heaven Ender Ritavrata\". Can cut\nthrough any who stand in its way."
+	},
+	{
+		"assign": "1010121",
+		"jp_text": "＊ロンヴェマキラー",
+		"tr_text": "＊Ronvema Killer",
+		"jp_explain": "大型の人型閃機種が持つ剣を模して\n作られた大剣型武器迷彩。\n目に焼き付く鮮紅で標的を両断する。",
+		"tr_explain": "Sword camo based on the blade of a\nlarge Luminmech. The eye-catching\ncrimson can cut through any target."
+	},
+	{
+		"assign": "1010123",
+		"jp_text": "＊グリッドマンキャリバー",
+		"tr_text": "＊Gridman Calibur",
+		"jp_explain": "グリッドマンの武器のひとつ\nグリッドマンキャリバーを模した\n武器迷彩。黄金の刃が敵を断つ。",
+		"tr_explain": "A weapon camo that mimics the\nGridman Calibur. Its golden blade\ncan cut down any enemy."
+	},
+	{
+		"assign": "1010124",
+		"jp_text": "＊インヴェイドデストロイ",
+		"tr_text": "＊Invade Destroy",
+		"jp_explain": "【深遠なる闇】より生まれし\n負の武器迷彩。使用者は比類なき力を\n手にするが、破壊の意志に支配される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1010125",
+		"jp_text": "＊オフスティアライトネス",
+		"tr_text": "＊Austere Lightness",
+		"jp_explain": "負の力を識り、制することで転化した\n浄化の武器迷彩。もたらされた\n強大な力は、弱きを救い、悪を討つ。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1010126",
+		"jp_text": "＊ゼイネシスアンガジマ",
+		"tr_text": "＊Zeinesis Angajima",
+		"jp_explain": "幻創の主より生まれた大樹の武器迷彩。\n揺るがぬ強き意志で困難と対峙した者に\n全てを解放する力をもたらす。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1010127",
+		"jp_text": "＊クリファドルサンチマン",
+		"tr_text": "＊Qliphad Ressentiment",
+		"jp_explain": "理から外れ虚無と化した大樹の\n武器迷彩。使用者は己が欲に溺れ\n絶望から全てを葬らんとする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1010128",
+		"jp_text": "＊深遠器シニシオン",
+		"tr_text": "＊Profound Sinixion",
+		"jp_explain": "終わりなき物語を辿る者の絶望により\n生み出された武器迷彩。闇に沈み果てた\n精神は虚無と同化し、希望を拒絶する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1010129",
+		"jp_text": "＊星震器プレアシオン",
+		"tr_text": "＊Celestial Pleaxion",
+		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した武器迷彩。純粋な願いを込めた\n力を呼び覚まし、世界に光を届ける。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1010130",
+		"jp_text": "＊光跡器クリエシオン",
+		"tr_text": "＊Lightstream Creaxion",
+		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ武器迷彩。輝く想いを宿し\n揺るぎない意志と共に未来へ歩み出す。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1010131",
+		"jp_text": "＊コートウェポン",
+		"tr_text": "＊Coat Weapon",
+		"jp_explain": "シンプルなフォルムの武器迷彩。\n薄いフォトンコートが施されており\n極限まで鋭さを求めた。",
+		"tr_explain": "A weapon camo featuring a simple\nform factor. A thin coating of Photons\nhas boosted its power to its limit."
+	},
+	{
+		"assign": "1010134",
+		"jp_text": "＊雅緋の黒刀",
+		"tr_text": "＊Miyabi Black Sword",
+		"jp_explain": "秘立蛇女子学園三年生、雅緋が使用する\n黒刀を模した武器迷彩。黒炎を纏い\n敵と定めた者を容赦なく斬り捨てる。",
+		"tr_explain": "Weapon camo based on the black\nsword used by Miyabi. It mercilessly\nslashes those deemed to be enemies."
+	},
+	{
+		"assign": "1010136",
+		"jp_text": "＊ツミキリ",
+		"tr_text": "＊Tsumikiri J-Sword",
+		"jp_explain": "オロチアギトの裏に位置する大剣型\n武器迷彩。アギトと同じ材質の刀身に\n罪の刻印が刻まれている。",
+		"tr_explain": "Sword camo that mirrors Orochiagito.\nMade from the same material as\nAgito, its blade is carved with a seal."
+	},
+	{
+		"assign": "1010137",
+		"jp_text": "＊コートウェポンＤ",
+		"tr_text": "＊Coat Weapon D",
+		"jp_explain": "シンプルなフォルムの武器迷彩。\n黒く禍々しいフォトンコートが施され\n強大なパワーを使用者にもたらす。",
+		"tr_explain": "A weapon camo featuring a simple\nform factor. A thin coating of\nnegaphotons gives it immense power."
+	},
+	{
+		"assign": "1010138",
+		"jp_text": "＊勇者の聖剣",
+		"tr_text": "＊Legendary Hero's Bat",
+		"jp_explain": "春日一番が引き抜いた、選ばれし者に\nのみ引き抜けると伝えられる武器迷彩。\n実際は有刺鉄線を巻いたただのバット。",
+		"tr_explain": "A weapon camo that no one, but\nIchiban Kasuga could wield. It's\nactually a bat wrapped in barb wire."
+	},
+	{
+		"assign": "1010139",
+		"jp_text": "＊ファータセイバー",
+		"tr_text": "＊Fata Saber",
+		"jp_explain": "妖精によりもたらされたと言われる\n武器迷彩。もともと異なる二つの武器が\n妖精の術により一つに合体したという。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1010142",
+		"jp_text": "＊￥戦国無骨複合",
+		"tr_text": "",
+		"jp_explain": "＊￥戦国無骨複合",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1010143",
+		"jp_text": "＊レイゲンリアーム",
+		"tr_text": "＊Reigan Rearm",
+		"jp_explain": "大勢のためでなく、ただひとりのために\n刀匠ジグが創り上げた武器迷彩。\nそれは、彼の錬磨の結晶。",
+		"tr_explain": "Weapon camo created by Zieg. Made\nnot for mass distribution, but for just\none person. The fruit of all his work."
+	},
+	{
+		"assign": "1010154",
+		"jp_text": "＊ファーレンフォージング",
+		"tr_text": "＊Fahrenforging",
+		"jp_explain": "大勢のためでなく、ただひとりのために\n刀匠ジグが創り上げた武器迷彩。\nそれは、彼の情熱の結晶。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1010155",
+		"jp_text": "＊フォルティレーベ",
+		"tr_text": "",
+		"jp_explain": "生と死の狭間に鎮座している\n命の番人が持つという武器迷彩。\n魂の灯火を取り込み、輝きを放つ。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1010156",
+		"jp_text": "＊ザンバ",
+		"tr_text": "＊Zanba",
+		"jp_explain": "無骨という表現が最も正しい大剣型\n武器迷彩。すべてを叩き潰すような\n類い稀な存在感を放つ。",
 		"tr_explain": ""
 	}
 ]

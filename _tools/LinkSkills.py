@@ -34,7 +34,7 @@ skill_names = {
     "ＨＰ自動回復": "HP Regeneration",
     "ダウン・のけぞり無効付与": "Knockdown/Flinch Immune",
     "属性値上限アップ": "Maximum Element Up",
-    "技・法終了時パラメータＵＰ": "Parameters Up After PA/Tech",
+    "技・法終了時パラメータＵＰ": "Params Up After PA/Tech",
     "プレイヤーパラメータ加算": "Player Parameter Increase",
     "プレイヤーパラメータ増加": "Player Parameter Boost",
     "ラッシュアーツダメージアップ": "Rush Arts Damage Up",

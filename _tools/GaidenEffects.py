@@ -63,11 +63,11 @@ effect_effects = { # dictionary of lambdas because there's no such thing as swit
                                          .replace("減少する。",
                                                   "."),
     "Effect Broadened":     lambda x:   x.replace("このチップのアビリティの効果の対象に\n",
-                                                  "This chip's ability now also covers\n")
+                                                  "This chip's ability now also covers\nthe ")
                                          .replace("このチップのアビリティ①の効果の対象に\n",
-                                                  "This chip's 1st ability now also covers\n")
+                                                  "This chip's 1st ability now also covers\nthe ")
                                          .replace("このチップのアビリティ②の効果の対象に\n",
-                                                  "This chip's 2nd ability now also covers\n")
+                                                  "This chip's 2nd ability now also covers\nthe ")
                                          .replace("を追加する。",
                                                   "."),
     "Effect Extended":      lambda x:   x.replace("このチップのアビリティの効果時間を",

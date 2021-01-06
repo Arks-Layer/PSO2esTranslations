@@ -382,12 +382,12 @@
 	{
 		"assign": "95",
 		"jp_text": "エコー<レイドスフィーダ>",
-		"tr_text": "Echo <Raid Sufida>"
+		"tr_text": "Echo <Raid Sfida>"
 	},
 	{
 		"assign": "96",
 		"jp_text": "修練闘士 エコー<レイドスフィーダ>",
-		"tr_text": "Militant Echo <Raid Sufida>"
+		"tr_text": "Militant Echo <Raid Sfida>"
 	},
 	{
 		"assign": "97",
@@ -1942,12 +1942,12 @@
 	{
 		"assign": "599",
 		"jp_text": "二代目クラリスクレイス[プレミアム]",
-		"tr_text": "2nd Gen. Klaris Klaes [Premium]"
+		"tr_text": "2nd Gen. Claris Claes [Premium]"
 	},
 	{
 		"assign": "600",
 		"jp_text": "二代目クラリスクレイス[Ｓプレミアム]",
-		"tr_text": "2nd Gen. Klaris Klaes [S Premium]"
+		"tr_text": "2nd Gen. Claris Claes [S Premium]"
 	},
 	{
 		"assign": "601",
@@ -5127,12 +5127,12 @@
 	{
 		"assign": "7402",
 		"jp_text": "茫漠の贖罪者 サイカ・ヒョウリ",
-		"tr_text": "Nebulous Redeemer Saika Hyouri"
+		"tr_text": "Nebulous Atoner Saika Hyouri"
 	},
 	{
 		"assign": "7403",
 		"jp_text": "真・茫漠の贖罪者 サイカ・ヒョウリ",
-		"tr_text": "The Nebulous Redeemer Saika Hyouri"
+		"tr_text": "The Nebulous Atoner Saika Hyouri"
 	},
 	{
 		"assign": "7404",
@@ -7238,5 +7238,700 @@
 		"assign": "7833",
 		"jp_text": "情熱のかけ橋 ハイパーナイトパレード",
 		"tr_text": "Emissary of Passion Hyper Night Rainbow"
+	},
+	{
+		"assign": "7834",
+		"jp_text": "２代目クラリスクレイス[ＴＣＧ]",
+		"tr_text": "2nd Gen. Claris Claes [TCG]"
+	},
+	{
+		"assign": "7835",
+		"jp_text": "２代目クラリスクレイス[ＳＴＣＧ]",
+		"tr_text": "2nd Gen. Claris Claes [S TCG]"
+	},
+	{
+		"assign": "7836",
+		"jp_text": "バルアルズ",
+		"tr_text": "Val Ars"
+	},
+	{
+		"assign": "7837",
+		"jp_text": "首無しの騎士 バルアルズ",
+		"tr_text": "Headless Knight Val Ars"
+	},
+	{
+		"assign": "7838",
+		"jp_text": "呪斬ガエン",
+		"tr_text": "Cursed Slayer Gaen"
+	},
+	{
+		"assign": "7839",
+		"jp_text": "怨嗟の依り代 呪斬ガエン",
+		"tr_text": "Grudge Incarnate Cursed Slayer Gaen"
+	},
+	{
+		"assign": "7840",
+		"jp_text": "真・怨嗟の依り代 呪斬ガエン",
+		"tr_text": "The Grudge Incarnate Cursed Slayer Gaen"
+	},
+	{
+		"assign": "7841",
+		"jp_text": "カジノライク",
+		"tr_text": "Casino Like"
+	},
+	{
+		"assign": "7842",
+		"jp_text": "オールインの勝負師 カジノライク",
+		"tr_text": "All-In Gambler Casino Like"
+	},
+	{
+		"assign": "7843",
+		"jp_text": "ハイパーサンライト",
+		"tr_text": "Hyper Sunlight"
+	},
+	{
+		"assign": "7844",
+		"jp_text": "友情のかけ橋 ハイパーサンライト",
+		"tr_text": "Emissary of Friendship Hyper Sunlight"
+	},
+	{
+		"assign": "7845",
+		"jp_text": "カラカサジコミ",
+		"tr_text": "Karakasa Jikomi"
+	},
+	{
+		"assign": "7846",
+		"jp_text": "あなたのそばに カラカサジコミ",
+		"tr_text": "Next to You Karakasa Jikomi"
+	},
+	{
+		"assign": "7847",
+		"jp_text": "カザミノタチ[サマーバケーション]",
+		"tr_text": "Kazami-no-tachi [Summer Vacation]"
+	},
+	{
+		"assign": "7848",
+		"jp_text": "カザミノタチ[Ｓサマーバケーション]",
+		"tr_text": "Kazami-no-tachi [S Summer Vacation]"
+	},
+	{
+		"assign": "7849",
+		"jp_text": "波打ち際のアフタル[サマバケ]",
+		"tr_text": "Beach Akhtar [Summer Vacation]"
+	},
+	{
+		"assign": "7850",
+		"jp_text": "波打ち際のアフタル[Ｓサマバケ]",
+		"tr_text": "Beach Akhtar [S Summer Vacation]"
+	},
+	{
+		"assign": "7851",
+		"jp_text": "波しぶきのホルシード[サマバケ]",
+		"tr_text": "Splashing Khorshid [Summer Vacation]"
+	},
+	{
+		"assign": "7852",
+		"jp_text": "波しぶきのホルシード[Ｓサマバケ]",
+		"tr_text": "Splashing Khorshid [S Summer Vacation]"
+	},
+	{
+		"assign": "7853",
+		"jp_text": "ネメシスランス",
+		"tr_text": "Nemesis Lance"
+	},
+	{
+		"assign": "7854",
+		"jp_text": "峻厳なる天使 ネメシスランス",
+		"tr_text": "Draconian Angel Nemesis Lance"
+	},
+	{
+		"assign": "7855",
+		"jp_text": "スレイヴキャリバー",
+		"tr_text": "Slave Calibur"
+	},
+	{
+		"assign": "7856",
+		"jp_text": "暴虐の異端者 スレイヴキャリバー",
+		"tr_text": "Violent Heretic Slave Calibur"
+	},
+	{
+		"assign": "7857",
+		"jp_text": "エクシウムバンカー",
+		"tr_text": "Exium Bunker"
+	},
+	{
+		"assign": "7858",
+		"jp_text": "ゼロの復讐者 エクシウムバンカー",
+		"tr_text": "Zero Avenger Exium Bunker"
+	},
+	{
+		"assign": "7859",
+		"jp_text": "アナティス",
+		"tr_text": "Anatis"
+	},
+	{
+		"assign": "7860",
+		"jp_text": "海より深き愛抱きし母 アナティス",
+		"tr_text": "Mother's Love Deeper than the Sea Anatis"
+	},
+	{
+		"assign": "7861",
+		"jp_text": "アトラスレヒト",
+		"tr_text": "Atlas Slecht"
+	},
+	{
+		"assign": "7862",
+		"jp_text": "寛仁大度なる王子 アトラスレヒト",
+		"tr_text": "Magnanimous Prince Atlas Slecht"
+	},
+	{
+		"assign": "7863",
+		"jp_text": "ヤスミノコフ９０００Ｍ",
+		"tr_text": "Yasminkov 9000M"
+	},
+	{
+		"assign": "7864",
+		"jp_text": "鉄血幼将 ヤスミノコフ９０００Ｍ",
+		"tr_text": "Iron-Blooded General Yasminkov 9000M"
+	},
+	{
+		"assign": "7865",
+		"jp_text": "真・鉄血幼将 ヤスミノコフ９０００Ｍ",
+		"tr_text": "The Iron-Blooded General Yasminkov 9000M"
+	},
+	{
+		"assign": "7866",
+		"jp_text": "カトリ[ＴＣＧ]",
+		"tr_text": "Katori [TCG]"
+	},
+	{
+		"assign": "7867",
+		"jp_text": "カトリ[ＳＴＣＧ]",
+		"tr_text": "Katori [S TCG]"
+	},
+	{
+		"assign": "7868",
+		"jp_text": "カブラカン[ＴＣＧ]",
+		"tr_text": "Cabracan [TCG]"
+	},
+	{
+		"assign": "7869",
+		"jp_text": "カブラカン[ＳＴＣＧ]",
+		"tr_text": "Cabracan [S TCG]"
+	},
+	{
+		"assign": "7870",
+		"jp_text": "マトイ[サマーバケーション]",
+		"tr_text": "Matoi [Summer Vacation]"
+	},
+	{
+		"assign": "7871",
+		"jp_text": "マトイ[Ｓサマーバケーション]",
+		"tr_text": "Matoi [S Summer Vacation]"
+	},
+	{
+		"assign": "7872",
+		"jp_text": "ハリエット[サマーバケーション]",
+		"tr_text": "Harriet [Summer Vacation]"
+	},
+	{
+		"assign": "7873",
+		"jp_text": "ハリエット[Ｓサマーバケーション]",
+		"tr_text": "Harriet [S Summer Vacation]"
+	},
+	{
+		"assign": "7874",
+		"jp_text": "シオンの弟 シャオ[ＴＣＧ]",
+		"tr_text": "Xion's Little Brother Xiao [TCG]"
+	},
+	{
+		"assign": "7875",
+		"jp_text": "シオンの弟 シャオ[ＳＴＣＧ]",
+		"tr_text": "Xion's Little Brother Xiao [S TCG]"
+	},
+	{
+		"assign": "7876",
+		"jp_text": "トリディアシュタヤー",
+		"tr_text": "Tridia Shooter"
+	},
+	{
+		"assign": "7877",
+		"jp_text": "銀河パトローラー トリディアシュタヤー",
+		"tr_text": "Galaxy Patroller Tridia Shooter"
+	},
+	{
+		"assign": "7878",
+		"jp_text": "ユキガラス",
+		"tr_text": "Yukigarasu"
+	},
+	{
+		"assign": "7879",
+		"jp_text": "思慕の恋刃 ユキガラス",
+		"tr_text": "Blade of Longing Yukigarasu"
+	},
+	{
+		"assign": "7880",
+		"jp_text": "真・思慕の恋刃 ユキガラス",
+		"tr_text": "The Blade of Longing Yukigarasu"
+	},
+	{
+		"assign": "7881",
+		"jp_text": "ジェネ バニーVer.",
+		"tr_text": "Gene Bunny Ver."
+	},
+	{
+		"assign": "7882",
+		"jp_text": "幸運のしっぽ ジェネ バニーVer.",
+		"tr_text": "Lucky Tail Gene Bunny Ver."
+	},
+	{
+		"assign": "7883",
+		"jp_text": "サイカ・ヒョウリ[文学の秋]",
+		"tr_text": "Saika Hyouri [Fall Reading]"
+	},
+	{
+		"assign": "7884",
+		"jp_text": "サイカ・ヒョウリ[Ｓ文学の秋]",
+		"tr_text": "Saika Hyouri [S Fall Reading]"
+	},
+	{
+		"assign": "7885",
+		"jp_text": "？？？（アート班）",
+		"tr_text": ""
+	},
+	{
+		"assign": "7886",
+		"jp_text": "？？？（アート班）　解放",
+		"tr_text": ""
+	},
+	{
+		"assign": "7887",
+		"jp_text": "マルガレータ[ハロウィン]",
+		"tr_text": "Margareta [Halloween]"
+	},
+	{
+		"assign": "7888",
+		"jp_text": "マルガレータ[Ｓハロウィン]",
+		"tr_text": "Margareta [S Halloween]"
+	},
+	{
+		"assign": "7889",
+		"jp_text": "カラミティスマッシャー",
+		"tr_text": "Calamity Smasher"
+	},
+	{
+		"assign": "7890",
+		"jp_text": "夢と希望と カラミティスマッシャー",
+		"tr_text": "Hopes and Dreams Calamity Smasher"
+	},
+	{
+		"assign": "7891",
+		"jp_text": "ビターソング",
+		"tr_text": "Bitter Song"
+	},
+	{
+		"assign": "7892",
+		"jp_text": "ハートフルシャウト ビターソング",
+		"tr_text": "Heartful Shout Bitter Song"
+	},
+	{
+		"assign": "7893",
+		"jp_text": "風花",
+		"tr_text": "Kazahana"
+	},
+	{
+		"assign": "7894",
+		"jp_text": "久遠の追想華 風花",
+		"tr_text": "Memories of Eternity Kazahana"
+	},
+	{
+		"assign": "7895",
+		"jp_text": "サラ[ＴＣＧ]",
+		"tr_text": "Sara [TCG]"
+	},
+	{
+		"assign": "7896",
+		"jp_text": "サラ[ＳＴＣＧ]",
+		"tr_text": "Sara [S TCG]"
+	},
+	{
+		"assign": "7897",
+		"jp_text": "眠れる才覚 テオドール[ＴＣＧ]",
+		"tr_text": "Dormant Talent Theodore [TCG]"
+	},
+	{
+		"assign": "7898",
+		"jp_text": "眠れる才覚 テオドール[ＳＴＣＧ]",
+		"tr_text": "Dormant Talent Theodore [S TCG]"
+	},
+	{
+		"assign": "7899",
+		"jp_text": "サステインロック",
+		"tr_text": "Sustain Rock"
+	},
+	{
+		"assign": "7900",
+		"jp_text": "ハード系広報隊 サステインロック",
+		"tr_text": "Face of Hard Rock Sustain Rock"
+	},
+	{
+		"assign": "7901",
+		"jp_text": "コンゴウ",
+		"tr_text": "Kongou"
+	},
+	{
+		"assign": "7902",
+		"jp_text": "精緻無欠の姫騎士 コンゴウ",
+		"tr_text": "Flawless Knightess Kongou"
+	},
+	{
+		"assign": "7903",
+		"jp_text": "真・精緻無欠の姫騎士 コンゴウ",
+		"tr_text": "The Flawless Knightess Kongou"
+	},
+	{
+		"assign": "7904",
+		"jp_text": "オプトレイオン[ハロウィン]",
+		"tr_text": "Optreion [Halloween]"
+	},
+	{
+		"assign": "7905",
+		"jp_text": "オプトレイオン[Ｓハロウィン]",
+		"tr_text": "Optreion [S Halloween]"
+	},
+	{
+		"assign": "7906",
+		"jp_text": "エルダーペイン[晩秋の侍]",
+		"tr_text": "Elder Pain [Fall Samurai]"
+	},
+	{
+		"assign": "7907",
+		"jp_text": "エルダーペイン[Ｓ晩秋の侍]",
+		"tr_text": "Elder Pain [S Fall Samurai]"
+	},
+	{
+		"assign": "7908",
+		"jp_text": "マザー[ホワイトクリスマス]",
+		"tr_text": "Mother [White Christmas]"
+	},
+	{
+		"assign": "7909",
+		"jp_text": "マザー[Ｓホワイトクリスマス]",
+		"tr_text": "Mother [S White Christmas]"
+	},
+	{
+		"assign": "7910",
+		"jp_text": "シバ[ホワイトクリスマス]",
+		"tr_text": "Shiva [White Christmas]"
+	},
+	{
+		"assign": "7911",
+		"jp_text": "シバ[Ｓホワイトクリスマス]",
+		"tr_text": "Shiva [S White Christmas]"
+	},
+	{
+		"assign": "7912",
+		"jp_text": "ゴーストハット",
+		"tr_text": "Ghost Hat"
+	},
+	{
+		"assign": "7913",
+		"jp_text": "ハッピーナイトメア ゴーストハット",
+		"tr_text": "Happy Nightmare Ghost Hat"
+	},
+	{
+		"assign": "7914",
+		"jp_text": "シャライラカプリス",
+		"tr_text": "Chalyra Caprice"
+	},
+	{
+		"assign": "7915",
+		"jp_text": "ＫＡＷＡＩＩ系 シャライラカプリス",
+		"tr_text": "KAWAII Series Chalyra Caprice"
+	},
+	{
+		"assign": "7916",
+		"jp_text": "シエンノオオダチ",
+		"tr_text": "Shien no Odachi"
+	},
+	{
+		"assign": "7917",
+		"jp_text": "典雅武侠 シエンノオオダチ",
+		"tr_text": "Refined Chevalier Shien no Odachi"
+	},
+	{
+		"assign": "7918",
+		"jp_text": "トウユエン",
+		"tr_text": "Touyuen"
+	},
+	{
+		"assign": "7919",
+		"jp_text": "千古の童子 トウユエン",
+		"tr_text": "Ancient Child Touyuen"
+	},
+	{
+		"assign": "7920",
+		"jp_text": "真・千古の童子 トウユエン",
+		"tr_text": "The Ancient Child Touyuen"
+	},
+	{
+		"assign": "7921",
+		"jp_text": "覚醒ダークニクス アフタル",
+		"tr_text": "Awakened Darknix Akhtar"
+	},
+	{
+		"assign": "7922",
+		"jp_text": "未来標す星の歌姫 アフタル",
+		"tr_text": "Star Diva of the Future Akhtar"
+	},
+	{
+		"assign": "7923",
+		"jp_text": "覚醒ダークニクス ホルシード",
+		"tr_text": "Awakened Darknix Khorshid"
+	},
+	{
+		"assign": "7924",
+		"jp_text": "希望輝く太陽の歌姫 ホルシード",
+		"tr_text": "Sun Diva of Hope Khorshid"
+	},
+	{
+		"assign": "7925",
+		"jp_text": "努力家 ウルク[ＴＣＧ]",
+		"tr_text": "Hard Worker Ulc [TCG]"
+	},
+	{
+		"assign": "7926",
+		"jp_text": "努力家 ウルク[ＳＴＣＧ]",
+		"tr_text": "Hard Worker Ulc [S TCG]"
+	},
+	{
+		"assign": "7927",
+		"jp_text": "スコークラヴィア",
+		"tr_text": "Scroll Klavier"
+	},
+	{
+		"assign": "7928",
+		"jp_text": "ジャムハーモニー　スコークラヴィア",
+		"tr_text": "Jam Harmony Scroll Klavier"
+	},
+	{
+		"assign": "7929",
+		"jp_text": "アンブラステッキ[クリスマス]",
+		"tr_text": "Umblla Stick [Christmas]"
+	},
+	{
+		"assign": "7930",
+		"jp_text": "アンブラステッキ[Ｓクリスマス]",
+		"tr_text": "Umblla Stick [S Christmas]"
+	},
+	{
+		"assign": "7931",
+		"jp_text": "夜明けのジェネ[ニューイヤー]",
+		"tr_text": "New Dawn Gene [New Year]"
+	},
+	{
+		"assign": "7932",
+		"jp_text": "夜明けのジェネ[Ｓニューイヤー]",
+		"tr_text": "New Dawn Gene [S New Year]"
+	},
+	{
+		"assign": "7933",
+		"jp_text": "リサ[ニューイヤー]",
+		"tr_text": "Lisa [New Year]"
+	},
+	{
+		"assign": "7934",
+		"jp_text": "リサ[Ｓニューイヤー]",
+		"tr_text": "Lisa [S New Year]"
+	},
+	{
+		"assign": "7935",
+		"jp_text": "ステルクイセーラ",
+		"tr_text": "Stelk Isera"
+	},
+	{
+		"assign": "7936",
+		"jp_text": "彩光の一矢　ステルクイセーラ",
+		"tr_text": "Light-Painting Arrow Stelk Isera"
+	},
+	{
+		"assign": "7937",
+		"jp_text": "バルレトラ",
+		"tr_text": "Val Retra"
+	},
+	{
+		"assign": "7938",
+		"jp_text": "魔導を識る者 バルレトラ",
+		"tr_text": "Magical Scholar Val Retra"
+	},
+	{
+		"assign": "7939",
+		"jp_text": "リュミエルクレール",
+		"tr_text": "Lumiere Claire"
+	},
+	{
+		"assign": "7940",
+		"jp_text": "善なる光耀 リュミエルクレール",
+		"tr_text": "Light of Virtue Lumiere Claire"
+	},
+	{
+		"assign": "7941",
+		"jp_text": "ダンテ",
+		"tr_text": "Dante"
+	},
+	{
+		"assign": "7942",
+		"jp_text": "反逆の笑み ダンテ",
+		"tr_text": "Rebellious Grin Dante"
+	},
+	{
+		"assign": "7943",
+		"jp_text": "シュタルクブラッシュ",
+		"tr_text": "Stark Brush"
+	},
+	{
+		"assign": "7944",
+		"jp_text": "歴遊の朱墨 シュタルクブラッシュ",
+		"tr_text": "Red Ink Paintbrush Stark Brush"
+	},
+	{
+		"assign": "7945",
+		"jp_text": "ヤサカニノマガタマ",
+		"tr_text": "Yasakani no Magatama"
+	},
+	{
+		"assign": "7946",
+		"jp_text": "天道の戦巫女 ヤサカニノマガタマ",
+		"tr_text": "Priestess of War Yasakani no Magatama"
+	},
+	{
+		"assign": "7947",
+		"jp_text": "真・天道の戦巫女 ヤサカニノマガタマ",
+		"tr_text": "The Priestess of War Yasakani no Magatama"
+	},
+	{
+		"assign": "7948",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7949",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7950",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7951",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7952",
+		"jp_text": "ガレトショコラ",
+		"tr_text": "Galette Chocolat"
+	},
+	{
+		"assign": "7953",
+		"jp_text": "流行の最先端 ガレトショコラ",
+		"tr_text": "Trend Leader Galette Chocolat"
+	},
+	{
+		"assign": "7954",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7955",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7956",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7957",
+		"jp_text": "甘い想いのジェネ[バレンタイン]",
+		"tr_text": "Sweet Feelings Gene [Valentine]"
+	},
+	{
+		"assign": "7958",
+		"jp_text": "甘い想いのジェネ[Sバレンタイン]",
+		"tr_text": "Sweet Feelings Gene [S Valentine]"
+	},
+	{
+		"assign": "7959",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7960",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7961",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7962",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7963",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7964",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7965",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7966",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7967",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7968",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7969",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7970",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "7971",
+		"jp_text": "トワイライトルーン",
+		"tr_text": "Twilight Rune"
+	},
+	{
+		"assign": "7972",
+		"jp_text": "巡る月の女神 トワイライトルーン",
+		"tr_text": "Goddess of the Moon Twilight Rune"
 	}
 ]

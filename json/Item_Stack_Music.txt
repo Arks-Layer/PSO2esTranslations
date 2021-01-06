@@ -44,7 +44,7 @@
 	{
 		"assign": "31906",
 		"jp_text": "PSO2 イベント「哀」",
-		"tr_text": "PSO2 Event \"Sorrow\"",
+		"tr_text": "PSO2 Event \"Sadness\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃７９\n『Adagio Distress』",
 		"tr_explain": "A music disk for your jukebox.\nPhantasy Star Online 2 #79\n\"Adagio Distress\""
 	},
@@ -774,7 +774,7 @@
 		"jp_text": "IDOLA:immortal feather",
 		"tr_text": "IDOLA:immortal feather",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ ＃０７　『\"IDOLA\"\nhave the immortal feather』",
-		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online #07\n\"'IDOLA' have the imortal feather\""
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online #07\n\"'IDOLA' have the immortal feather\""
 	},
 	{
 		"assign": "3190111",
@@ -1908,7 +1908,7 @@
 		"jp_text": "風疾る道",
 		"tr_text": "Kaze Hashiru Michi",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＳＨ ＃０２\n『風疾る道』",
-		"tr_explain": "A music disc for your jukebox.\nShining Hearts #02\n\"\"Windy Path\""
+		"tr_explain": "A music disc for your jukebox.\nShining Hearts #02\n\"Windy Path\""
 	},
 	{
 		"assign": "3190290",
@@ -2548,6 +2548,13 @@
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Universe #13\n\"Brave Fight\""
 	},
 	{
+		"assign": "3190382",
+		"jp_text": "Leavin flow",
+		"tr_text": "Leavin flow",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ ＃４９\n『Leavin flow』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online #49\n\"Leavin flow\""
+	},
+	{
 		"assign": "3190384",
 		"jp_text": "Valentine (PSO)",
 		"tr_text": "Valentine (PSO)",
@@ -2602,6 +2609,20 @@
 		"tr_text": "Shitenkaku",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＵ ＃０７\n『Shitenkaku』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Universe #07\n\"Shitenkaku\""
+	},
+	{
+		"assign": "3190394",
+		"jp_text": "Versus1",
+		"tr_text": "Versus 1",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ ＃４７\n『Versus1 -Tricktrack-』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online #47\n\"Versus 1\n-Tricktrack-\""
+	},
+	{
+		"assign": "3190395",
+		"jp_text": "Versus2",
+		"tr_text": "Versus 2",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ ＃４８\n『Versus2\n  -A longing to ancient times-』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online #48\n\"Versus 2\n-A longing to ancient times-\""
 	},
 	{
 		"assign": "3190396",
@@ -2991,16 +3012,16 @@
 	{
 		"assign": "3190456",
 		"jp_text": "ＶＤ「二人の管理者」",
-		"tr_text": "VD [Two Administrators]",
+		"tr_text": "VD \"Two Administrators\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ＶＤ ＃１１\n『ＶＤ「二人の管理者」』",
-		"tr_explain": "A music disc for your jukebox.\nPSO2 Vocal Disc #11\n\"VD [Two Administrators]\""
+		"tr_explain": "A music disc for your jukebox.\nPSO2 Vocal Disc #11\n\"VD \"Two Administrators\"\""
 	},
 	{
 		"assign": "3190457",
 		"jp_text": "ＶＤ「マザー・クラスタの世間話」",
-		"tr_text": "VD [Mother Cluster Chatting]",
+		"tr_text": "VD \"Mother Cluster Chatting\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ＶＤ ＃１２\n『ＶＤ「マザー・クラスタの世間話」』",
-		"tr_explain": "A music disc for your jukebox.\nPSO2 Vocal Disc #12\n\"VD [Mother Cluster Chatting]\""
+		"tr_explain": "A music disc for your jukebox.\nPSO2 Vocal Disc #12\n\"VD \"Mother Cluster Chatting\"\""
 	},
 	{
 		"assign": "3190458",
@@ -3054,16 +3075,16 @@
 	{
 		"assign": "3190465",
 		"jp_text": "ＶＤ「一位なのに……！」",
-		"tr_text": "VD [Still No. 1...!]",
+		"tr_text": "VD \"Still No. 1...!\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ＶＤ ＃１３\n『ＶＤ「一位なのに……！」』",
-		"tr_explain": "A music disc for your jukebox.\nPSO2 Vocal Disc #13\n\"VD [Still No. 1...!]\""
+		"tr_explain": "A music disc for your jukebox.\nPSO2 Vocal Disc #13\n\"VD \"Still No. 1...!\"\""
 	},
 	{
 		"assign": "3190466",
 		"jp_text": "Destiny",
 		"tr_text": "Destiny",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ＥＯ ＃０１\n『Destiny』",
-		"tr_explain": "A music disc for your jukebox.\nPSO2 Episode Oracle #01\n\"Desting\""
+		"tr_explain": "A music disc for your jukebox.\nPSO2 Episode Oracle #01\n\"Destiny\""
 	},
 	{
 		"assign": "3190467",
@@ -3103,7 +3124,7 @@
 	{
 		"assign": "3190477",
 		"jp_text": "PSO2 イベント「形勢逆転」",
-		"tr_text": "PSO2 Event [Tables Turn]",
+		"tr_text": "PSO2 Event \"Tables Turn\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃１８４\n『INVERRUCION』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #184\n\"INVERRUCION\""
 	},
@@ -3117,56 +3138,56 @@
 	{
 		"assign": "3190479",
 		"jp_text": "PSO2　イベント「伝承の英雄」",
-		"tr_text": "PSO2 Event [Legendary Hero]",
+		"tr_text": "PSO2 Event \"Legendary Hero\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃１８１\n『HIELNDAL』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #181\n\"HIELNDAL\""
 	},
 	{
 		"assign": "3190480",
 		"jp_text": "PSO2 イベント「魔物種戦」",
-		"tr_text": "PSO2 Event [Demon Battle]",
+		"tr_text": "PSO2 Event \"Demon Battle\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃１８０（曲調変更可）\n『BATALLURA』",
 		"tr_explain": "A multi-track disc for your jukebox.\nPhantasy Star Online 2 #180\n\"BATALLURA\""
 	},
 	{
 		"assign": "3190481",
 		"jp_text": "PSO2　イベント「ＤＦの力」",
-		"tr_text": "PSO2 Event [The Power of DF]",
+		"tr_text": "PSO2 Event \"The Power of DF\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃１７９\n『TWOROPANZAL』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #179\n\"TWOROPANZAL\""
 	},
 	{
 		"assign": "3190482",
 		"jp_text": "PSO2 イベント「エピック」",
-		"tr_text": "PSO2 Event [Epic]",
+		"tr_text": "PSO2 Event \"Epic\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃１７７\n『REDIRTO』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #177\n\"REDIRTO\""
 	},
 	{
 		"assign": "3190483",
 		"jp_text": "PSO2 イベント「イス=アルス」",
-		"tr_text": "PSO2 Event [Es-Ars]",
+		"tr_text": "PSO2 Event \"Es-Ars\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃１７８\n『CUELCIO』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #178\n\"CUELCIO\""
 	},
 	{
 		"assign": "3190484",
 		"jp_text": "PSO2 イベント「クエント」",
-		"tr_text": "PSO2 Event [Cuent]",
+		"tr_text": "PSO2 Event \"Cuent\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃１７５\n『REIGIO』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #175\n\"REIGIO\""
 	},
 	{
 		"assign": "3190485",
 		"jp_text": "PSO2 イベント「ヴェルン」",
-		"tr_text": "PSO2 Event [Verun]",
+		"tr_text": "PSO2 Event \"Verun\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃１７６\n『TOLDIS』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #176\n\"TOLDIS\""
 	},
 	{
 		"assign": "3190486",
 		"jp_text": "PSO2 イベント「エルミル」",
-		"tr_text": "PSO2 Event [Elmir]",
+		"tr_text": "PSO2 Event \"Elmir\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃１７４\n『ELMIR』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #174\n\"ELMIR\""
 	},
@@ -3194,7 +3215,7 @@
 	{
 		"assign": "3190490",
 		"jp_text": "デウス・エスカ「後半戦」",
-		"tr_text": "Deus Esca [Second Half Battle]",
+		"tr_text": "Deus Esca \"Second Half Battle\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃１７３（曲調変更可）\n『The whole new world -from \"EDEN\"-』",
 		"tr_explain": "A multi-track disc for your jukebox.\nPhantasy Star Online 2 #173\n\"The whole new world -from 'EDEN'-\""
 	},
@@ -3208,14 +3229,14 @@
 	{
 		"assign": "3190492",
 		"jp_text": "輪廻の徒花「待機所１」",
-		"tr_text": "Perennial Apocalypse [Wait 1]",
+		"tr_text": "Perennial Apocalypse \"Wait 1\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃１６０（曲調変更可）\n『Cocytus』",
 		"tr_explain": "A multi-track disc for your jukebox.\nPhantasy Star Online 2 #160\n\"Cocytus\""
 	},
 	{
 		"assign": "3190493",
 		"jp_text": "輪廻の徒花「待機所２」",
-		"tr_text": "Perennial Apocalypse [Wait 2]",
+		"tr_text": "Perennial Apocalypse \"Wait 2\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃１６１（曲調変更可）\n『Abyss』",
 		"tr_explain": "A multi-track disc for your jukebox.\nPhantasy Star Online 2 #161\n\"Abyss\""
 	},
@@ -3642,37 +3663,37 @@
 	{
 		"assign": "3190555",
 		"jp_text": "潮騒のファンタジー",
-		"tr_text": "The Sound of Surfing",
+		"tr_text": "Fantasy of the Sound of Surf",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＳＲ ＃０６\n『潮騒のファンタジー』",
 		"tr_explain": "A music disc for your jukebox.\nShining Resonance #06\n\"Fantasy of the Sound of Surf\""
 	},
 	{
 		"assign": "3190556",
 		"jp_text": "初音うららかに",
-		"tr_text": "Hatsune Uraraka ni",
+		"tr_text": "Prelude of Spring",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＳＲ ＃０７\n『初音うららかに』",
-		"tr_explain": "A music disc for your jukebox.\nShining Resonance #07\n\"Hatsune Uraraka ni\""
+		"tr_explain": "A music disc for your jukebox.\nShining Resonance #07\n\"Prelude of Spring\""
 	},
 	{
 		"assign": "3190557",
 		"jp_text": "日輪の煌き",
-		"tr_text": "Nichirin no Kirameki",
+		"tr_text": "Aurora of the Sun Disk",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＳＲ ＃０８\n『日輪の煌き』",
-		"tr_explain": "A music disc for your jukebox.\nShining Resonance #08\n\"Nichirin no Kirameki\""
+		"tr_explain": "A music disc for your jukebox.\nShining Resonance #08\n\"Aurora of the Sun Disk\""
 	},
 	{
 		"assign": "3190558",
 		"jp_text": "微笑みのなる樹",
-		"tr_text": "Hohoemi no Naru Ki",
+		"tr_text": "A Tree that Bears Happiness",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＳＲ ＃０９\n『微笑みのなる樹』",
-		"tr_explain": "A music disc for your jukebox.\nShining Resonance #09\n\"Hohoemi no Naru Ki\""
+		"tr_explain": "A music disc for your jukebox.\nShining Resonance #09\n\"A Tree that Bears Happiness\""
 	},
 	{
 		"assign": "3190559",
 		"jp_text": "雪華の雫",
-		"tr_text": "Sekka no Shizuku",
+		"tr_text": "Trickling Snowflakes",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＳＲ ＃１０\n『雪華の雫』",
-		"tr_explain": "A music disc for your jukebox.\nShining Resonance #10\n\"Sekka no Shizuku\""
+		"tr_explain": "A music disc for your jukebox.\nShining Resonance #10\n\"Trickling Snowflakes\""
 	},
 	{
 		"assign": "3190560",
@@ -3749,7 +3770,7 @@
 		"jp_text": "夢のつづき",
 		"tr_text": "Continuation of the Dream",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＳＫＲ２ ＃０１\n『夢のつづき』",
-		"tr_explain": "A music disc for your jukebox.\nSakura Wars 2 #01\n\"Continuation of the Dreamm\""
+		"tr_explain": "A music disc for your jukebox.\nSakura Wars 2 #01\n\"Continuation of the Dream\""
 	},
 	{
 		"assign": "3190573",
@@ -4508,6 +4529,97 @@
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #215\n\"As One\""
 	},
 	{
+		"assign": "3190705",
+		"jp_text": "After the story1",
+		"tr_text": "After the Story 1",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ ＃５０\n『After the story1』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online #50\n\"After the Story 1\""
+	},
+	{
+		"assign": "3190706",
+		"jp_text": "After the story2",
+		"tr_text": "After the Story 2",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ ＃５１\n『After the story2』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online #51\n\"After the Story 2\""
+	},
+	{
+		"assign": "3190707",
+		"jp_text": "Silent palace",
+		"tr_text": "Silent Palace",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ ＃５２\n『Silent palace』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online #52\n\"Silent Palace\""
+	},
+	{
+		"assign": "3190708",
+		"jp_text": "scarlet resolve",
+		"tr_text": "Scarlet Resolve",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ＣＳ０４ ＃０６\n『scarlet resolve』",
+		"tr_explain": "A music disc for your jukebox.\nPSO2 Character Song 4 #06\n\"Scarlet Resolve\""
+	},
+	{
+		"assign": "3190709",
+		"jp_text": "遵情マリアージュ",
+		"tr_text": "Spontaneous Marriage",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ＣＳ０４ ＃０７\n『遵情マリアージュ』",
+		"tr_explain": "A music disc for your jukebox.\nPSO2 Character Song 4 #07\n\"Spontaneous Marriage\""
+	},
+	{
+		"assign": "3190710",
+		"jp_text": "放課後スペシャリティメモリー",
+		"tr_text": "After-School Specialty Memory",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ＣＳ０４ ＃０８\n『放課後スペシャリティメモリー』",
+		"tr_explain": "A music disc for your jukebox.\nPSO2 Character Song 4 #08\n\"After-School Specialty Memory\""
+	},
+	{
+		"assign": "3190712",
+		"jp_text": "終わりなき物語（Sunny ver.）",
+		"tr_text": "Owari Naki Monogatari (Sunny ver.)",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ＡＮＩＣＳ２ ＃０６\n『終わりなき物語（Sunny ver.）』",
+		"tr_explain": "A music disc for your jukebox.\nPSO2 the Anime Chara Song 2 #06\n\"Story Without End (Sunny ver.)\""
+	},
+	{
+		"assign": "3190713",
+		"jp_text": "CODE",
+		"tr_text": "CODE",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ ＃５３\n『CODE』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online #53\n\"CODE\""
+	},
+	{
+		"assign": "3190714",
+		"jp_text": "Nebula Montana PART1",
+		"tr_text": "Nebula Montana Part 1",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ ＃５４\n『Nebula Montana PART1\n -ネピュラ高地01-』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online #54\n\"Nebula Montana Part 1\"\n(Nebula Highlands 01)"
+	},
+	{
+		"assign": "3190715",
+		"jp_text": "Nebula Montana PART2",
+		"tr_text": "Nebula Montana Part 2",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ ＃５５\n『Nebula Montana PART2\n -ネピュラ高地02-』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online #55\n\"Nebula Montana Part 2\"\n(Nebula Highlands 02)"
+	},
+	{
+		"assign": "3190716",
+		"jp_text": "Tener Sinus",
+		"tr_text": "Tener Sinus",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ ＃５６\n『Tener Sinus -テネル海岸-』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online #56\n\"Tener Sinus\"\n(Tener Coast)"
+	},
+	{
+		"assign": "3190717",
+		"jp_text": "Lupus Silva PART1",
+		"tr_text": "Lupus Silva Part 1",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ ＃５７\n『Lupus Silva PART1 -ルプスの森01-』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online #57\n\"Lupus Silva Part 1\n(Lupus Forest 01)\""
+	},
+	{
+		"assign": "3190718",
+		"jp_text": "Ravum Aedes Sacra",
+		"tr_text": "Ravum Aedes Sacra",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ ＃５８\n『Ravum Aedes Sacra -ラウムの神殿-』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online #58\n\"Ravum Aedes Sacra\n(Ravum Temple)\""
+	},
+	{
 		"assign": "3190799",
 		"jp_text": "Phronesis",
 		"tr_text": "Phronesis",
@@ -4802,6 +4914,76 @@
 		"tr_explain": "A music disc for your jukebox.\nShin Sakura Wars #01\n\"Declaration! Imperial Assault <New>\""
 	},
 	{
+		"assign": "3190845",
+		"jp_text": "Catch the Wave",
+		"tr_text": "Catch the Wave",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＶＯＣＬ ＃０３\n『Catch the Wave』",
+		"tr_explain": "A music disc for your jukebox.\nVocaloid #03\n\"Catch the Wave\""
+	},
+	{
+		"assign": "3190846",
+		"jp_text": "エイリアンエイリアン",
+		"tr_text": "Alien Alien",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＶＯＣＬ ＃０４\n『エイリアンエイリアン』",
+		"tr_explain": "A music disc for your jukebox.\nVocaloid #04\n\"Alien Alien\""
+	},
+	{
+		"assign": "3190847",
+		"jp_text": "ネトゲ廃人シュプレヒコール",
+		"tr_text": "The MMORPG Addict's Anthem",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＶＯＣＬ ＃０５\n『ネトゲ廃人シュプレヒコール』",
+		"tr_explain": "A music disc for your jukebox.\nVocaloid #05\n\"The MMORPG Addict's Anthem\""
+	},
+	{
+		"assign": "3190848",
+		"jp_text": "みくみくにしてあげる♪",
+		"tr_text": "I'll Miku-Miku You",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＶＯＣＬ ＃０６\n『みくみくにしてあげる♪【してやんよ】』",
+		"tr_explain": "A music disc for your jukebox.\nVocaloid #06\n\"I'll Miku-Miku You♪ (For Reals)\""
+	},
+	{
+		"assign": "3190849",
+		"jp_text": "ワールズエンド・ダンスホール",
+		"tr_text": "World's End Dance Hall",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＶＯＣＬ ＃０７\n『ワールズエンド・ダンスホール』",
+		"tr_explain": "A music disc for your jukebox.\nVocaloid #07\n\"World's End Dance Hall\""
+	},
+	{
+		"assign": "3190850",
+		"jp_text": "AFTER BURNER",
+		"tr_text": "AFTER BURNER",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＶＯＣＬ ＃０８\n『AFTER BURNER』",
+		"tr_explain": "A music disc for your jukebox.\nVocaloid #08\n\"AFTER BURNER\""
+	},
+	{
+		"assign": "3190851",
+		"jp_text": "スノーマン ver.KAITO",
+		"tr_text": "Snowman (KAITO ver)",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＶＯＣＬ ＃０９\n『スノーマン ver.KAITO』",
+		"tr_explain": "A music disc for your jukebox.\nVocaloid #09\n\"Snowman (KAITO ver)\""
+	},
+	{
+		"assign": "3190852",
+		"jp_text": "ルカルカ★ナイトフィーバー",
+		"tr_text": "Luka Luka★Night Fever",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＶＯＣＬ ＃１０\n『ルカルカ★ナイトフィーバー』",
+		"tr_explain": "A music disc for your jukebox.\nVocaloid #10\n\"Luka Luka★Night Fever\""
+	},
+	{
+		"assign": "3190853",
+		"jp_text": "アカリがやってきたぞっ",
+		"tr_text": "Akari Has Arrived",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＡＫＲ ＃０１\n『アカリがやってきたぞっ』",
+		"tr_explain": "A music disc for your jukebox.\nKizuna Akari #01\n\"Akari Has Arrived\""
+	},
+	{
+		"assign": "3190854",
+		"jp_text": "星海クリティカル",
+		"tr_text": "Star Sea Critical",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＡＫＲ ＃０２\n『星海クリティカル』",
+		"tr_explain": "A music disc for your jukebox.\nKizuna Akari #02\n\"Star Sea Critical\""
+	},
+	{
 		"assign": "3190899",
 		"jp_text": "エネミーラッシュ「待機所」",
 		"tr_text": "Enemy Rush \"Waiting\"",
@@ -4965,35 +5147,35 @@
 	{
 		"assign": "3190922",
 		"jp_text": "PSO2 イベント「ピンチ」",
-		"tr_text": "PSO2 Event [Pinch]",
+		"tr_text": "PSO2 Event \"Pinch\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２０５\n『CUARUSSIS』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #205\n\"CUARUSSIS\""
 	},
 	{
 		"assign": "3190923",
 		"jp_text": "PSO2 イベント「EP5不穏」",
-		"tr_text": "PSO2 Event [EP5 Disquiet]",
+		"tr_text": "PSO2 Event \"EP5 Disquiet\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２０６\n『DOMINABLE』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #206\n\"DOMINABLE\""
 	},
 	{
 		"assign": "3190924",
 		"jp_text": "PSO2 イベント「決起」",
-		"tr_text": "PSO2 Event [Uprising]",
+		"tr_text": "PSO2 Event \"Uprising\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２０７\n『LEALT』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #207\n\"LEALT\""
 	},
 	{
 		"assign": "3190925",
 		"jp_text": "PSO2 イベント「悲哀」",
-		"tr_text": "PSO2 Event [Sorrow]",
+		"tr_text": "PSO2 Event \"Sorrow\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２０８\n『DALLAR』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #208\n\"DALLAR\""
 	},
 	{
 		"assign": "3190926",
 		"jp_text": "PSO2 イベント「EP5穏やか」",
-		"tr_text": "PSO2 Event [EP5 Tranquil]",
+		"tr_text": "PSO2 Event \"EP5 Tranquil\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２０９\n『SEPARANQUIL』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #209\n\"SEPARANQUIL\""
 	},
@@ -5045,5 +5227,152 @@
 		"tr_text": "PSO2 Event \"EP6 Daily Life\"",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２１７\n『NONBIRI in Oracle』",
 		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #217\n\"NONBIRI in Oracle\""
+	},
+	{
+		"assign": "3190934",
+		"jp_text": "ペルソナ「待機所」",
+		"tr_text": "Persona \"Standby Area\"",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２１８\n『TIRRANAL』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #218\n\"TIRRANAL\""
+	},
+	{
+		"assign": "3190936",
+		"jp_text": "PSO2 イベント「伝承の終わり」",
+		"tr_text": "PSO2 Event \"End of Tradition\"",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２２０\n『The Beginning of the Demise』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #220\n\"The Beginning of the Demise\""
+	},
+	{
+		"assign": "3190937",
+		"jp_text": "PSO2 イベント「フォトナー」",
+		"tr_text": "PSO2 Event \"Photoner\"",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２２１\n『PHotoner』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #221\n\"PHotoner\""
+	},
+	{
+		"assign": "3190938",
+		"jp_text": "フォトナー戦",
+		"tr_text": "Photoner Battle",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２２２\n『PH-OPS』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #222\n\"PH-OPS\""
+	},
+	{
+		"assign": "3190939",
+		"jp_text": "PSO2 イベント「シバ」",
+		"tr_text": "PSO2 Event \"Shiva\"",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２２３\n『S-IV-A』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #223\n\"SH-IV-A\""
+	},
+	{
+		"assign": "3190940",
+		"jp_text": "PSO2 イベント「シバ戦」",
+		"tr_text": "PSO2 Event \"Shiva Battle\"",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２２４\n『Awesome Siva』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #224\n\"Awesome Shiva\""
+	},
+	{
+		"assign": "3190943",
+		"jp_text": "PSO2 イベント「EP5コミカル」",
+		"tr_text": "PSO2 Event \"EP5 Comedy\"",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２２７\n『DFs' Nounai Kaigi!』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #227\n\"DFs' Nounai Kaigi!\""
+	},
+	{
+		"assign": "3190944",
+		"jp_text": "アプレンティス「後半戦」",
+		"tr_text": "Apprentice \"Second Half Battle\"",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２２８（曲調変更可）\n『DYREINA』",
+		"tr_explain": "A multi-track disc for your jukebox.\nPhantasy Star Online 2 #228\n\"DYREINA\""
+	},
+	{
+		"assign": "3190945",
+		"jp_text": "EP5敗者戦",
+		"tr_text": "EP5 Loser Battle",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２２９（曲調変更可）\n『MIERNO \"IDOLA\"』",
+		"tr_explain": "A multi-track disc for your jukebox.\nPhantasy Star Online 2 #229\n\"MIERNO \"IDOLA\"\""
+	},
+	{
+		"assign": "3190946",
+		"jp_text": "エルミル戦",
+		"tr_text": "Elmir Battle",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２３０\n『ESTUGA』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #230\n\"ESTUGA\""
+	},
+	{
+		"assign": "3190947",
+		"jp_text": "ＤＦ・ペルソナ戦【巨躯】",
+		"tr_text": "DF Persona Battle [Elder]",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２３１（曲調変更可）\n『PERSOSIAL Q VOLENTH』",
+		"tr_explain": "A multi-track disc for your jukebox.\nPhantasy Star Online 2 #231\n\"PERSOSIAL Q VOLENTH\""
+	},
+	{
+		"assign": "3190948",
+		"jp_text": "ＤＦ・ペルソナ戦【敗者】",
+		"tr_text": "DF Persona Battle [Loser]",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２３２（曲調変更可）\n『PERSOSIAL Q KONUCER』",
+		"tr_explain": "A multi-track disc for your jukebox.\nPhantasy Star Online 2 #232\n\"PERSOSIAL Q KONUCER\""
+	},
+	{
+		"assign": "3190949",
+		"jp_text": "ＤＦ・ペルソナ戦【若人】",
+		"tr_text": "DF Persona Battle [Apprentice]",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２３３（曲調変更可）\n『PERSOSIAL Q VIRTULA』",
+		"tr_explain": "A multi-track disc for your jukebox.\nPhantasy Star Online 2 #233\n\"PERSOSIAL Q VIRTULA\""
+	},
+	{
+		"assign": "3190950",
+		"jp_text": "ＤＦ・ペルソナ戦【双子】",
+		"tr_text": "DF Persona Battle [Double]",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２３４（曲調変更可）\n『PERSOSIAL Q CAOCITAL』",
+		"tr_explain": "A multi-track disc for your jukebox.\nPhantasy Star Online 2 #234\n\"PERSOSIAL Q CAOCITAL\""
+	},
+	{
+		"assign": "3190951",
+		"jp_text": "ＤＦ・ペルソナ戦最終形態",
+		"tr_text": "DF Persona Battle Final Form",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２３５（曲調変更可）\n『Over the Universe』",
+		"tr_explain": "A multi-track disc for your jukebox.\nPhantasy Star Online 2 #235\n\"Over the Universe\""
+	},
+	{
+		"assign": "3190952",
+		"jp_text": "ＤＦ・ペルソナ終盤戦",
+		"tr_text": "DF Persona Battle Last Phase",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２３６（曲調変更可）\n『NUERALMO - The whole new world』",
+		"tr_explain": "A multi-track disc for your jukebox.\nPhantasy Star Online 2 #236\n\"NUERALMO - The whole new world\""
+	},
+	{
+		"assign": "3190953",
+		"jp_text": "PSO2 イベント「EP5殺陣」",
+		"tr_text": "PSO2 Event \"EP5 Sword Fight\"",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２３７\n『VOLUENTE』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #237\n\"VOLUENTE\""
+	},
+	{
+		"assign": "3190954",
+		"jp_text": "PSO2 イベント「EP5強敵1」",
+		"tr_text": "PSO2 Event \"EP5 Strong Foe 1\"",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２３８\n『MUJELEO』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #238\n\"MUJELEO\""
+	},
+	{
+		"assign": "3190955",
+		"jp_text": "PSO2 イベント「EP5のどか」",
+		"tr_text": "PSO2 Event \"EP5 Climax\"",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２３９\n『PAFICIO』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #239\n\"PAFICIO\""
+	},
+	{
+		"assign": "3190956",
+		"jp_text": "PSO2 イベント「EP5強敵2」",
+		"tr_text": "PSO2 Event \"EP5 Strong Foe 2\"",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２４０\n『POLMIG』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #240\n\"POLMIG\""
+	},
+	{
+		"assign": "3190957",
+		"jp_text": "PSO2 イベント「アルマ2」",
+		"tr_text": "PSO2 Event \"Alma 2\"",
+		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃２４１\n『Alma, the Master of Magic』",
+		"tr_explain": "A music disc for your jukebox.\nPhantasy Star Online 2 #241\n\"Alma, the Master of Magic\""
 	}
 ]

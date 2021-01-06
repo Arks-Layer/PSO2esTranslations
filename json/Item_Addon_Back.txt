@@ -163,7 +163,7 @@
 	{
 		"assign": "51029",
 		"jp_text": "リア／フェニバイル",
-		"tr_text": "Rear/Fen Ibiel",
+		"tr_text": "Rear/Feni Biel",
 		"jp_explain": "背部ユニット。藍色剣形翼が上体保護。\n打撃、光属性への耐性と\n打撃防御を上昇させる。",
 		"tr_explain": ""
 	},
@@ -1087,7 +1087,7 @@
 	{
 		"assign": "510195",
 		"jp_text": "リア／カレンホウヨク",
-		"tr_text": "Rear/Karen Houyoko",
+		"tr_text": "Rear/Karen Houyoku",
 		"jp_explain": "背部ユニット。真紅の翼形装甲が特徴。\n打射法撃、炎、氷、風属性の耐性と\n各種攻撃、防御を上昇させる。",
 		"tr_explain": ""
 	},
@@ -1101,14 +1101,14 @@
 	{
 		"assign": "510197",
 		"jp_text": "リア／ブリサエーリ",
-		"tr_text": "Rear/Brisa Aeri",
+		"tr_text": "Rear/Brisa Eri",
 		"jp_explain": "背部ユニット。繊細な造りが特徴。\n打撃、射撃、炎、風、光属性の耐性と\n射撃防御を上昇させる。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "510199",
 		"jp_text": "リア／ベンダエーリ",
-		"tr_text": "Rear/Benda Aeri",
+		"tr_text": "Rear/Benda Eri",
 		"jp_explain": "背部ユニット。繊細な造りが特徴。\n打撃、射撃への耐性と\n最大ＨＰと各種防御を上昇させる。",
 		"tr_explain": ""
 	},
@@ -1418,14 +1418,14 @@
 		"jp_text": "リア／星震纏ミシオン",
 		"tr_text": "Rear/Celestial Mixion",
 		"jp_explain": "背部ユニット。世界を想う心を宿す。\n打射法撃、闇属性の耐性と\n各種攻撃、防御を上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "Rear unit that holds the world in its\nheart. Increases ATK, DEF & strike,\nshoot, tech and Dark resistance."
 	},
 	{
 		"assign": "510329",
 		"jp_text": "リア／光跡纏ミシオン",
 		"tr_text": "Rear/Lightstream Mixion",
 		"jp_explain": "背部ユニット。星と絆を繋ぐ力を宿す。\n打射法撃、光、闇属性の耐性と\n各種攻撃、防御を上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "Rear unit that links to the stars.\nIncreases ATK, DEF & strike, shoot,\ntech, Light and Dark resistance."
 	},
 	{
 		"assign": "510330",
@@ -1454,6 +1454,13 @@
 		"tr_text": "Rear/Avion Dusk",
 		"jp_explain": "背部ユニット。赤基調の大型翼状装甲。\n打射法撃の耐性と最大ＰＰ\n各種攻撃、防御を上昇させる。",
 		"tr_explain": ""
+	},
+	{
+		"assign": "510334",
+		"jp_text": "リア／クラースダイヌ",
+		"tr_text": "Rear/Cras Dyne",
+		"jp_explain": "背部ユニット。輝く未来を創り出す。\n打射法撃、炎、氷、雷、風属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": "Rear unit that creates a bright future.\nIncreases ATK, DEF & strike, shoot,\ntech, Fire, Ice, Bolt and Wind Resist."
 	},
 	{
 		"assign": "510335",
@@ -1594,5 +1601,12 @@
 		"tr_text": "Rear/Austehazara",
 		"jp_explain": "背部ユニット。【深遠なる闇】の残骸。\n打射法撃、氷、風、光属性の耐性と\nＨＰ、ＰＰ、各種防御を上昇させる。",
 		"tr_explain": ""
+	},
+	{
+		"assign": "510356",
+		"jp_text": "リア／光跡纏パシオン",
+		"tr_text": "Rear/Lightstream Paxion",
+		"jp_explain": "背部ユニット。星と絆を繋ぐ力を宿す。\n打射法撃、光、闇属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": "Rear unit that links to the stars.\nIncreases ATK, DEF & strike, shoot,\ntech, Light and Dark resistance."
 	}
 ]
