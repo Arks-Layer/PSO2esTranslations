@@ -163,7 +163,7 @@
 	{
 		"assign": "53029",
 		"jp_text": "レッグ／フェネアジス",
-		"tr_text": "Leg/Fen Aegis",
+		"tr_text": "Leg/Fene Aegis",
 		"jp_explain": "脚部ユニット。藍色剣形殻が強力保護。\n打撃、光属性への耐性と\n打撃防御を上昇させる。",
 		"tr_explain": ""
 	},
@@ -254,7 +254,7 @@
 	{
 		"assign": "53045",
 		"jp_text": "レッグ／ザンスラスタ",
-		"tr_text": "Leg/Zan Thrust",
+		"tr_text": "Leg/Zan Thruster",
 		"jp_explain": "脚部ユニット。先鋭な装甲で保護。\n射撃、光、闇属性への耐性と\n射撃防御を上昇させる。",
 		"tr_explain": ""
 	},
@@ -1229,14 +1229,14 @@
 		"jp_text": "レッグ／星震飾ディシオン",
 		"tr_text": "Leg/Celestial Dixion",
 		"jp_explain": "脚部ユニット。世界を想う心を宿す。\n打射法撃、闇属性の耐性と\n各種攻撃、防御を上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "Leg unit that holds the world in its\nheart. Increases ATK, DEF & strike,\nshoot, tech and Dark resistance."
 	},
 	{
 		"assign": "530289",
 		"jp_text": "レッグ／光跡飾ディシオン",
 		"tr_text": "Leg/Lightstream Dixion",
 		"jp_explain": "脚部ユニット。星と絆を繋ぐ力を宿す。\n打射法撃、光、闇属性の耐性と\n各種攻撃、防御を上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "Rear unit that links to the stars.\nIncreases ATK, DEF & strike, shoot,\ntech, Light and Dark resistance."
 	},
 	{
 		"assign": "530290",
@@ -1244,6 +1244,13 @@
 		"tr_text": "Leg/Austology",
 		"jp_explain": "脚部ユニット。【深遠なる闇】の残骸。\n打射法撃、氷、風、光属性の耐性と\nＨＰ、ＰＰ、各種防御を上昇させる。",
 		"tr_explain": ""
+	},
+	{
+		"assign": "530291",
+		"jp_text": "レッグ／クラースメント",
+		"tr_text": "Leg/Cras Ment",
+		"jp_explain": "脚部ユニット。輝く未来を創り出す。\n打射法撃、炎、氷、雷、風属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": "Leg unit that creates a bright future.\nIncreases ATK, DEF & strike, shoot,\ntech, Fire, Ice, Bolt and Wind Resist."
 	},
 	{
 		"assign": "530293",
@@ -1377,5 +1384,12 @@
 		"tr_text": "Leg/Austerevel",
 		"jp_explain": "脚部ユニット。【深遠なる闇】の残骸。\n打射法撃、氷、風、光属性の耐性と\nＨＰ、ＰＰ、各種防御を上昇させる。",
 		"tr_explain": ""
+	},
+	{
+		"assign": "530312",
+		"jp_text": "レッグ／光跡飾ラシオン",
+		"tr_text": "Leg/Lightstream Raxion",
+		"jp_explain": "脚部ユニット。星と絆を繋ぐ力を宿す。\n打射法撃、光、闇属性の耐性と\n各種攻撃、防御を上昇させる。",
+		"tr_explain": "Rear unit that links to the stars.\nIncreases ATK, DEF & strike, shoot,\ntech, Light and Dark resistance."
 	}
 ]

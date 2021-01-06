@@ -44,7 +44,7 @@
 	{
 		"assign": "6",
 		"jp_text": "Ｓ４：追蝕の巧",
-		"tr_text": "S4:Pursuing Eclipse",
+		"tr_text": "S4:Pursuing Skill",
 		"jp_explain": "状態異常、ジェルン\nウィークバレットが\n発動中のエネミーへの\nクリティカル率が\n50%上昇する。",
 		"tr_explain": "Boosts critical hit rate\nby 50% against enemies\naffected by Jellen,\nWeak Bullet or a status\neffect."
 	},
@@ -212,7 +212,7 @@
 	{
 		"assign": "30",
 		"jp_text": "Ｓ４：追蝕輝剰",
-		"tr_text": "S4:Radiant Eclipse",
+		"tr_text": "S4:Pursuing Radiance",
 		"jp_explain": "状態異常、ジェルン\nウィークバレット効果が\n発生中のエネミー攻撃時\nＰＰ回復量が60％上昇。",
 		"tr_explain": "Boosts attack PP\nrecovery by 60% when\nattacking an enemy\naffected by status,\nJellen or Weak Bullet."
 	},
@@ -368,7 +368,7 @@
 		"jp_text": "Ｓ５：槍機天悠",
 		"tr_text": "S5:Angelic Respite",
 		"jp_explain": "ギア最大時、空中では\nギアを消費しなくなる。\n威力2％上昇。長槍限定。",
-		"tr_explain": "At maximum Gear, you\nconsume no Gear while\nin the air. Partizan only."
+		"tr_explain": "At maximum Gear, you\nconsume no Gear while\nin the air.\nBoosts damage by 2%.\nPartizan only."
 	},
 	{
 		"assign": "53",
@@ -389,154 +389,154 @@
 		"jp_text": "Ｓ５：静心拡域",
 		"tr_text": "S5:Calming Expanse",
 		"jp_explain": "通常攻撃に\n範囲攻撃が追加され\n確率でスタン付与。\n威力2％上昇。長銃限定。",
-		"tr_explain": "Adds an extra wide-area\nattack and a chance to\nstun to normal attacks.\nAssault Rifles only."
+		"tr_explain": "Adds an extra wide-area\nattack and a chance to\nstun to normal attacks.\nBoosts damage by 2%.\nAssault Rifles only."
 	},
 	{
 		"assign": "56",
 		"jp_text": "Ｓ５：領域加勢",
 		"tr_text": "S5:Area Support",
 		"jp_explain": "クリティカルフィールド\nＥＰＰＲＦの効果が\n有効時、フィールド毎に\n効果が発生。",
-		"tr_explain": "When either Critical\nField or EPPR are\nactive, gain the\neffects of both\nfields instead."
+		"tr_explain": "Gain additional bonus\neffects to Critical Field\nand EPPR when either\nare active."
 	},
 	{
 		"assign": "57",
 		"jp_text": "Ｓ５：回避輝与",
 		"tr_text": "S5:Swift Radiance",
 		"jp_explain": "ＰＰ自然回復が停止。\n攻撃時ＰＰ回復量が\n50％上昇、回避成功時\nＰＰが100回復。\n威力2％上昇。鋼拳限定。",
-		"tr_explain": "Reduces PP regeneration\nto 0. Boosts attack PP\nrecovery by 50% and\nrecovers 100 PP on a\nsuccessful dodge."
+		"tr_explain": "Halts PP regen. Boosts\nattack PP recov. by 50%,\ndodging attacks recovers\n100 PP. Boosts damage\nby 2%. Knuckles only."
 	},
 	{
 		"assign": "58",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ５：堅守の秤",
+		"tr_text": "S5:Aegis Balance",
+		"jp_explain": "威力が4％上昇。\n被ダメージ時\nＰＰを20消費して\nダメージを25％軽減する。\nフォース限定。",
+		"tr_explain": "Boosts damage by 4%.\nWhen damaged, reduces\ndamage taken by 25%\nat the cost of 20 PP.\nForce only."
 	},
 	{
 		"assign": "59",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ４：追蝕の志",
+		"tr_text": "S4:Pursuing Intent",
+		"jp_explain": "状態異常、ジェルン\nウィークバレット効果が\n発生中のエネミー攻撃時\n威力が4％上昇。",
+		"tr_explain": "Boosts damage by 4%\nagainst enemies inflicted\nwith status effects, Jellen\nor Weak Bullet."
 	},
 	{
 		"assign": "60",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ２：瞬乱巧志",
+		"tr_text": "S2:Instant Purpose",
+		"jp_explain": "別のＰＡやテクニックを\nジャストアタックすると\nクリティカル威力2％\nクリティカル率15％上昇。",
+		"tr_explain": "Boosts critical hit damage\nby 2% and increases crit\nrate by 15% when Just\nAttacking different PAs\nand Techniques."
 	},
 	{
 		"assign": "61",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ３：素撃の志",
+		"tr_text": "S3:Facile Intent",
+		"jp_explain": "非クリティカル時の\n威力が5％上昇。",
+		"tr_explain": "Boosts non-critical hit\ndamage by 5%."
 	},
 	{
 		"assign": "62",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ１：剛撃の志２",
+		"tr_text": "S1:Offensive Intent 2",
+		"jp_explain": "与ダメージが4％上昇。",
+		"tr_explain": "Boosts damage by 4%."
 	},
 	{
 		"assign": "63",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ２：光子縮減３",
+		"tr_text": "S2:Photon Reduction 3",
+		"jp_explain": "ＰＰ消費量を15％軽減。",
+		"tr_explain": "Reduces PP consumption\nby 15%."
 	},
 	{
 		"assign": "64",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ３：活実の志２",
+		"tr_text": "S3:Vital Intent 2",
+		"jp_explain": "ＨＰが80％以上の時\n与ダメージが5％上昇。",
+		"tr_explain": "Boosts damage by 5%\nwhile HP is 80% or more."
 	},
 	{
 		"assign": "65",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ３：輝剰の撃３",
+		"tr_text": "S3:Radiant Strike 3",
+		"jp_explain": "攻撃時のＰＰ回復量が\n35％上昇する。",
+		"tr_explain": "Boosts attack PP\nrecovery by 35%."
 	},
 	{
 		"assign": "66",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ２：守護の備２",
+		"tr_text": "S2:Guardian Armor 2",
+		"jp_explain": "被ダメージを10％軽減。",
+		"tr_explain": "Reduces damage taken\nby 10%."
 	},
 	{
 		"assign": "67",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ１：輝充の志２",
+		"tr_text": "S1:Brilliant Intent 2",
+		"jp_explain": "ＰＰが40％以上の時\n与ダメージが5％上昇。",
+		"tr_explain": "Boosts damage by 5%\nwhile PP is at 40%\nor above."
 	},
 	{
 		"assign": "68",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ３：輝勢の恵３",
+		"tr_text": "S3:Radiating Grace 3",
+		"jp_explain": "ＰＰの自然回復速度が\n25％上昇する。",
+		"tr_explain": "Boosts PP regeneration\nby 25%."
 	},
 	{
 		"assign": "69",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ２：瞬撃繚乱２",
+		"tr_text": "S2:Immediate Profusion 2",
+		"jp_explain": "別のＰＡやテクニックを\nジャストアタックすると\n与ダメージが5％上昇。",
+		"tr_explain": "Boosts damage by 5%\nwhen Just Attacking\ndifferent PAs or Techs."
 	},
 	{
 		"assign": "70",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ２：瞬乱縮減２",
+		"tr_text": "S2:Instant Reduction 2",
+		"jp_explain": "別のＰＡやテクニックを\nジャストアタックすると\nＰＰ消費量を20％軽減。",
+		"tr_explain": "Reduces your PP\nconsumption by 20%\nwhen Just Attacking\ndifferent PAs or Techs."
 	},
 	{
 		"assign": "71",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ２：服薬の恵２",
+		"tr_text": "S2:Medicinal Wisdom 2",
+		"jp_explain": "メイト系アイテム使用時\nさらにＰＰが回復する。\n効果量は種類で変わる。",
+		"tr_explain": "Recovers PP when\na -mate item is used.\nPP recovered depends\non type of mate."
 	},
 	{
 		"assign": "72",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ１：錬成の志２",
+		"tr_text": "S1:Augment Intent 2",
+		"jp_explain": "特殊能力の付与数に\n応じて威力上昇。\n最大で6％。",
+		"tr_explain": "Boosts power\nfor each special ability\nadded to the item.\nMax: 6%."
 	},
 	{
 		"assign": "73",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ２：保天輝地２",
+		"tr_text": "S2:Heavenly Keeper 2",
+		"jp_explain": "空中時では、ＰＰ消費量が\n15％軽減。地上時では\n自然ＰＰ回復量が25％\nかつ地上での攻撃時では\nＰＰ回復量が35％上昇。",
+		"tr_explain": "In the air, reduces PP\nconsumption by 15%.\nOn the ground, boosts\nPP regeneration by 25%\nand attack PP recovery\nby 35%."
 	},
 	{
 		"assign": "74",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ１：光子の秤２",
+		"tr_text": "S1:Photon Balance 2",
+		"jp_explain": "ＰＰ消費量が\n4％増加する代わりに\nＰＡとテクニックの威力が\n6％上昇する。",
+		"tr_explain": "Raises PP\nconsumption by 4%,\nbut boosts PA and\nTech damage by 6%."
 	},
 	{
 		"assign": "75",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ１：戦友の加護２",
+		"tr_text": "S1:Collaborator Liberator 2",
+		"jp_explain": "パーティー人数が２人\n以上の場合、人数に\n応じて、PP消費軽減\nクリティカル率上昇\n威力上昇効果が発動。 ",
+		"tr_explain": "Reduces PP consumption,\nboosts critical rate and\nboosts power based on\nthe number of people in\nyour party (min. 2)."
 	},
 	{
 		"assign": "76",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ５：終撃応与",
+		"tr_text": "S5:Parting Gift",
+		"jp_explain": "抜刀時のダメージ量に\n応じて、納刀時に\nHPとPPを回復。\n威力2％上昇。",
+		"tr_explain": "Recovers HP and PP\nwhen you sheathe your\nweapon, based on how\nmuch damage you dealt\nwhen it was drawn.\nBoosts damage by 2%."
 	},
 	{
 		"assign": "77",
@@ -1579,7 +1579,7 @@
 		"jp_text": "Ｓ６：守護の備",
 		"tr_text": "S6:Guardian Armor",
 		"jp_explain": "被ダメージを7％軽減。",
-		"tr_explain": "Reduces damage\ntaken by 7%."
+		"tr_explain": "Reduces damage taken\nby 7%."
 	},
 	{
 		"assign": "226",
@@ -2041,42 +2041,42 @@
 		"jp_text": "Ｓ７：視敵無双",
 		"tr_text": "S7:Descried Warrior",
 		"jp_explain": "自身を狙う敵に対して\n威力1％上昇し\n被ダメージ15％軽減。",
-		"tr_explain": "Boosts damage by 1%\n& reduces damage\ntaken by enemies\ntargeting you by\n15%."
+		"tr_explain": "Boosts damage against\nenemies targeting you\nby 1% and reduces\ndamage taken from them\nby 15%."
 	},
 	{
 		"assign": "292",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ６：六色の盾",
+		"tr_text": "S6:Rainbow's Shield",
+		"jp_explain": "花・海・葉・月・雪・影の\nいずれかが発動中\n一定確率で被ダメージを\n大幅に軽減する。",
+		"tr_explain": "While Petal, Ocean,\nLeaf, Moon, Snow or\nShadow Flash is active:\nGrants a chance to\ndrastically reduce\ndamage taken."
 	},
 	{
 		"assign": "293",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ７：六色の巧",
+		"tr_text": "S7:Rainbow's Skill",
+		"jp_explain": "花・海・葉・月・雪・影の\nいずれかが発動中\nクリティカル率上昇。",
+		"tr_explain": "While Petal, Ocean,\nLeaf, Moon, Snow or\nShadow Flash is active:\nIncreases critical hit rate."
 	},
 	{
 		"assign": "294",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ８：六色の蝕",
+		"tr_text": "S8:Rainbow's Decay",
+		"jp_explain": "花・海・葉・月・雪・影の\nいずれかが発動中\n攻撃時にランダムな\n状態異常にする。",
+		"tr_explain": "While Petal, Ocean,\nLeaf, Moon, Snow or\nShadow Flash is active:\nMakes attacks inflict\nrandom status effects."
 	},
 	{
 		"assign": "295",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ６：累加拡域",
+		"tr_text": "S6:Raising Expanse",
+		"jp_explain": "累加追撃による\n追加ダメージが\n範囲攻撃に変化。",
+		"tr_explain": "Alters the range of\nRaising Pursuit's bonus\nattack damage."
 	},
 	{
 		"assign": "296",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ７：注技縮地",
+		"tr_text": "S7:Amended Movement",
+		"jp_explain": "PAチャージ中の\n移動速度を上昇。",
+		"tr_explain": "Boosts movement speed\nwhile charging PAs."
 	},
 	{
 		"assign": "297",

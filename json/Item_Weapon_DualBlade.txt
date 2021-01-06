@@ -375,7 +375,7 @@
 		"jp_text": "イグニス",
 		"tr_text": "Ignis",
 		"jp_explain": "フォトンエネルギーパックを内蔵する\n飛翔剣。双方向から襲い掛かる二層の\n刃が、攻撃をより正確なものにする。",
-		"tr_explain": ""
+		"tr_explain": "Dual Blades with a built-in Photon\nenergy pack. The two-layered blades\ncatch their prey and slash them apart."
 	},
 	{
 		"assign": "117094",
@@ -683,7 +683,7 @@
 		"jp_text": "オフスティアセイヴァー",
 		"tr_text": "Austere Savior",
 		"jp_explain": "負の力を識り、制することで転化した\n浄化の飛翔剣。その比類なき武勇は\n悪しきを砕き、至高の力となる。",
-		"tr_explain": "A purified Dual Blade. Its unparalled\nprowess crushes evil with its\nsupreme power."
+		"tr_explain": "A purified Dual Blade. Its unparalleled\nprowess crushes evil with its\nsupreme power."
 	},
 	{
 		"assign": "1170197",
@@ -767,7 +767,7 @@
 		"jp_text": "レイＤブレード",
 		"tr_text": "Ray Dual Blade",
 		"jp_explain": "次世代の主力として開発された飛翔剣。\n基礎モデルの直系の後継機であり\n出力、安定性共に高いスペックを誇る。",
-		"tr_explain": "Dual Blades developed as the latest\nmodel, boasting high photon stability\nwith next-gen specifications."
+		"tr_explain": "Dual Blades developed as the latest\nmodel, boasting high Photon stability\nwith next-gen specifications."
 	},
 	{
 		"assign": "1170225",
@@ -775,6 +775,13 @@
 		"tr_text": "Union Dual Blade",
 		"jp_explain": "次世代の主力として開発された飛翔剣。\n専用ブーストパーツが装着されたことで\n限界を超えた性能を発揮する。",
 		"tr_explain": "Dual Blades developed as the latest\nmodel. Augmented with boost parts,\nits performance exceeds its limits."
+	},
+	{
+		"assign": "1170231",
+		"jp_text": "ＲＡブレード",
+		"tr_text": "RA Blade",
+		"jp_explain": "ライドロイドのパーツを流用した飛翔剣。\n補助的な出力ながら、ブースターで\n加速することによって威力を補っている。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "1170232",
@@ -984,7 +991,7 @@
 		"jp_text": "ユピテルトゥルス",
 		"tr_text": "Jupiter Tullus",
 		"jp_explain": "鋭い雷霆をイメージした飛翔剣。\n閉じ込めている雷が尖鋭的な形状から\n激しく放電している。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades in the form of nimble\nlightning. The discharges are caused\nby the compressed lightning blades."
 	},
 	{
 		"assign": "1170280",
@@ -1094,8 +1101,8 @@
 	{
 		"assign": "1170304",
 		"jp_text": "ニーケリーパー",
-		"tr_text": "Nieke Reaper",
-		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った飛翔剣。刃の数だけ\n標的を切り裂き、勝利の道を切り開く。",
+		"tr_text": "Nike Reaper",
+		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った飛翔剣。両の刃の数だけ\n標的を切り裂き、勝利の道を切り開く。",
 		"tr_explain": ""
 	},
 	{
@@ -1152,7 +1159,7 @@
 		"jp_text": "オフスティアセイヴァー-NT",
 		"tr_text": "Austere Savior-NT",
 		"jp_explain": "負の力を識り、制することで転化した\n浄化の飛翔剣。その比類なき武勇は\n悪しきを砕き、至高の力となる。",
-		"tr_explain": "A purified Dual Blade. Its unparalled\nprowess crushes evil with its\nsupreme power."
+		"tr_explain": "A purified Dual Blade. Its unparalleled\nprowess crushes evil with its\nsupreme power."
 	},
 	{
 		"assign": "1170321",
@@ -1166,21 +1173,21 @@
 		"jp_text": "深遠翔クレアシオン",
 		"tr_text": "Profound Creaxion",
 		"jp_explain": "終わりなき物語を辿る者の絶望により\n生み出された飛翔剣。渦巻く闇の声に\n絡みつかれた刃は、光ある者を拒む。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades born of endless despair.\nDark whispers have corrupted them,\nturning them against all users of light."
 	},
 	{
 		"assign": "1170323",
 		"jp_text": "星震翔クレアシオン",
 		"tr_text": "Celestial Creaxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した飛翔剣。祈りは希望を宿し\n果てぬ悲しみを終わらせる刃となる。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades touched by a time\ntraveller's heart. Their hope-filled\nblades bring an end to endless sorrow."
 	},
 	{
 		"assign": "1170324",
 		"jp_text": "光跡翔クレアシオン",
 		"tr_text": "Lightstream Creaxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ飛翔剣。刃に比類なき意志が\nみなぎり、新たな未来をもたらす。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades that link the stars, bonded\nto a time traveller. The unequalled will\nof their blades brings a new future."
 	},
 	{
 		"assign": "1170325",
@@ -1253,6 +1260,20 @@
 		"tr_explain": "Dual Blades based on a sacred\nbeast. Favored by ARKS whose\npatron is the Phoenix of the South."
 	},
 	{
+		"assign": "1170355",
+		"jp_text": "ワールドオブガーディアン",
+		"tr_text": "World of Guardians",
+		"jp_explain": "選ばれし者が手にした時、真の力を表す\n運命の飛翔剣。古から、世界の秩序を\n司る鍵として存在し続けるという。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1170362",
+		"jp_text": "光纏翔クラースグライド",
+		"tr_text": "Lightweaver Cras Glide",
+		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った飛翔剣。\nその翔撃が、未来を掴み取る。",
+		"tr_explain": "Dual Blades that wove the light that\nvanquished darkness. By their Photon\nBlades, the future is grasped."
+	},
+	{
 		"assign": "1170369",
 		"jp_text": "フローテアブレード",
 		"tr_text": "Flotea Blade",
@@ -1260,10 +1281,45 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1170375",
+		"jp_text": "フィンブルリート",
+		"tr_text": "Fimbul Reed",
+		"jp_explain": "重厚な気高さを漂わせる飛翔剣。\n吸い込まれるほど美しい宝石は\nフォトンの制御力を底上げしてくれる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1170376",
 		"jp_text": "ニレンオロチ-NT",
 		"tr_text": "Twin Orochi-NT",
 		"jp_explain": "稀代の名匠ドウセツが鍛えし飛翔剣。\n芸術の域に達している美しき刀身は\n幾星霜の時を経ても衰えることはない。",
+		"tr_explain": "Dual blades forged by the master\ncraftsman Dosetsu. Despite their long\nhistory, they have never worn out."
+	},
+	{
+		"assign": "1170383",
+		"jp_text": "￥Ｅデモニア２飛翔剣ＣＶ２",
+		"tr_text": "",
+		"jp_explain": "￥Ｅデモニア２飛翔剣ＣＶ２",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1170384",
+		"jp_text": "フルクシオマローソ",
+		"tr_text": "Fluxio Maroso",
+		"jp_explain": "流線美と機能性を備え持つ飛翔剣。\n複雑な輪郭は美しいだけでなく\n低負荷で長時間の戦闘も疲れない。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1170386",
+		"jp_text": "闇征翔アジェルグライド",
+		"tr_text": "Darkbanisher Ayer Glide",
+		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた飛翔剣。\n久遠の環の内に生きる覚悟を極めた。",
+		"tr_explain": "Dual blades that will give up anything\nto protect the universe. They are\nprepared to exist in an eternal cycle."
+	},
+	{
+		"assign": "1170391",
+		"jp_text": "イグニス-NT",
+		"tr_text": "Ignis-NT",
+		"jp_explain": "フォトンエネルギーパックを内蔵する\n飛翔剣。双方向から襲い掛かる二層の\n刃が、攻撃をより正確なものにする。",
 		"tr_explain": ""
 	}
 ]

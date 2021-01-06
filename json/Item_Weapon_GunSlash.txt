@@ -424,7 +424,7 @@
 		"jp_text": "機甲剣メックカタール",
 		"tr_text": "Mech Katar",
 		"jp_explain": "武器を身体の一部のように扱う研究を\n基に作られた銃剣。手の甲に直接装着し\nフォトン感応力を最大限に引き出す。",
-		"tr_explain": "A weapon based on research that\nuses the body as a weapon. When\nused, it applies max photon response."
+		"tr_explain": "A weapon based on research that\nuses the body as a weapon. When\nused, it applies max Photon response."
 	},
 	{
 		"assign": "17075",
@@ -480,7 +480,7 @@
 		"jp_text": "ブリンガーライフル",
 		"tr_text": "Bringer's Rifle",
 		"jp_explain": "ある天才博士が生み出したといわれる\n超高性能銃剣。何らかの有機体から\n作られているようだが、詳細は不明。",
-		"tr_explain": "It's said that a brilliant doctor\ncreated this weapon. Its made\nfrom unknown biological parts..."
+		"tr_explain": "It's said that a brilliant doctor\ncreated this weapon. It's made\nfrom unknown biological parts..."
 	},
 	{
 		"assign": "17092",
@@ -632,7 +632,7 @@
 	{
 		"assign": "170135",
 		"jp_text": "テスロカーディン",
-		"tr_text": "Tesro Cadin",
+		"tr_text": "Tesrocardin",
 		"jp_explain": "機能性を重視して開発された銃剣。\n内部構造を見直したことで\nフレームの安定度が増した。",
 		"tr_explain": ""
 	},
@@ -697,7 +697,7 @@
 		"jp_text": "サインバーン",
 		"tr_text": "Sign Burn",
 		"jp_explain": "カジノのヴォル・ドラゴン像を模して\n製造された銃剣。黄金の外形は\n実力を証明するかのように煌めく。",
-		"tr_explain": ""
+		"tr_explain": "Gunslash made to resemble the Vol\nDragon in the Casino. Its golden form\nshines as if advertising your skill."
 	},
 	{
 		"assign": "170166",
@@ -718,7 +718,7 @@
 		"jp_text": "イデアルバネット",
 		"tr_text": "Ideal Banette",
 		"jp_explain": "新開発のフォトンジェネレーターを\n搭載した銃剣。発せられる\nフォトンの輝きは次代の証とされる。",
-		"tr_explain": "A weapon powered by a photon\ngenerator. Its shining photons are\nsaid to be the sign of the next era."
+		"tr_explain": "A weapon powered by a Photon\ngenerator. Its shining Photons are\nsaid to be the sign of the next era."
 	},
 	{
 		"assign": "170171",
@@ -732,7 +732,7 @@
 		"jp_text": "リンドオネット",
 		"tr_text": "Lind Onett",
 		"jp_explain": "次元を越えるほどの力を秘めた銃剣。\n眩いフォトンの輝きが持つ力は\n空間を歪めるといわれている。",
-		"tr_explain": "A weapon that holds the power\nof dimensions. Its said to distort\nspace with its gleaming photons."
+		"tr_explain": "A weapon that holds the power\nof dimensions. It's said to distort\nspace with its gleaming Photons."
 	},
 	{
 		"assign": "170177",
@@ -788,6 +788,13 @@
 		"jp_text": "バジリスディソニア",
 		"tr_text": "Basilis Dysonia",
 		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n銃剣。精度、威力ともに非常に高く\n素早く的確に敵を一掃できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "170189",
+		"jp_text": "ネブロスディソニア",
+		"tr_text": "Nebulos Dysonia",
+		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n銃剣。素早く敵を仕留める為に特化した\n構造だが、扱いやすさと高性能を誇る。",
 		"tr_explain": ""
 	},
 	{
@@ -893,7 +900,7 @@
 		"jp_text": "レイスラッシュ",
 		"tr_text": "Ray Slash",
 		"jp_explain": "次世代の主力として開発された銃剣。\n基礎モデルの直系の後継機であり\n出力、安定性共に高いスペックを誇る。",
-		"tr_explain": "A Gunslash developed as the latest\nmodel, boasting high photon stability\nwith next-gen specifications."
+		"tr_explain": "A Gunslash developed as the latest\nmodel, boasting high Photon stability\nwith next-gen specifications."
 	},
 	{
 		"assign": "170226",
@@ -1019,7 +1026,7 @@
 		"jp_text": "機甲剣メックカタール-NT",
 		"tr_text": "Mech Katar-NT",
 		"jp_explain": "武器を身体の一部のように扱う研究を\n基に作られた銃剣。手の甲に直接装着し\nフォトン感応力を最大限に引き出す。",
-		"tr_explain": ""
+		"tr_explain": "A weapon based on research that\nuses the body as a weapon. When\nused, it applies max Photon response."
 	},
 	{
 		"assign": "170244",
@@ -1141,6 +1148,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "170267",
+		"jp_text": "ヴォルテクスラーマ",
+		"tr_text": "Vortex Rama",
+		"jp_explain": "独立型の支援兵器を搭載した銃剣。\n戦闘ＡＩ搭載の支援兵器が導入され\n隙の無い戦闘が可能となっている。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "170279",
 		"jp_text": "レイデュプル-NT",
 		"tr_text": "Ray Duplex-NT",
@@ -1206,8 +1220,8 @@
 	{
 		"assign": "170293",
 		"jp_text": "ニーケガンシクル",
-		"tr_text": "Nieke Gunsickle",
-		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った銃剣。勝利への道を塞ぐ\n標的を鎌さながらに根こそぎ薙ぎ払う。",
+		"tr_text": "Nike Gunsickle",
+		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った銃剣。その鎌のような刃で\n勝利への道を塞ぐ全てを薙ぎ払う。",
 		"tr_explain": ""
 	},
 	{
@@ -1285,21 +1299,21 @@
 		"jp_text": "深遠刻インテンシオン",
 		"tr_text": "Profound Intenxion",
 		"jp_explain": "終わりなき物語を辿る者の絶望により\n生み出された銃剣。重く深い闇の力は\n心を負へと傾け、希望の意思を滅する。",
-		"tr_explain": ""
+		"tr_explain": "A gunslash born of endless despair.\nThe weight of the darkness upon it\nhas crushed all hope from its heart."
 	},
 	{
 		"assign": "170310",
 		"jp_text": "星震刻インテンシオン",
 		"tr_text": "Celestial Intenxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した銃剣。深き負から抜け出し\n星光を宿した刃は、闇を切り払う。",
-		"tr_explain": ""
+		"tr_explain": "A gunslash touched by a time\ntraveller's heart. Harboring starlight,\nits blade now cuts through darkness."
 	},
 	{
 		"assign": "170311",
 		"jp_text": "光跡刻インテンシオン",
 		"tr_text": "Lightstream Intenxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ銃剣。強き想いの刃は\n自らの意思を貫き、光ある未来を築く。",
-		"tr_explain": ""
+		"tr_explain": "A gunslash that links the stars, bonded\nto a time traveller. Its blade follows its\nown intentions to build a bright future."
 	},
 	{
 		"assign": "170312",
@@ -1362,14 +1376,21 @@
 		"jp_text": "スカルシュクター-NT",
 		"tr_text": "Skull Schecter-NT",
 		"jp_explain": "死者の念が乗り移ったとされる禍々しき\nオーラを放つ銃剣。仄かに輝く青い光に\n狙われたら最後、死が訪れるという。",
-		"tr_explain": ""
+		"tr_explain": "A weapon that holds the cold feeling\nof death. Its blue aura shines the\nway towards death's door."
 	},
 	{
 		"assign": "170331",
 		"jp_text": "アキシオン-NT",
 		"tr_text": "Axeon-NT",
 		"jp_explain": "バカでかい剣と銃を組み合わせた銃剣。\nムリヤリ作った改造品のため\nバランスが無茶苦茶で使い手を選ぶ。",
-		"tr_explain": ""
+		"tr_explain": "A weapon cobbled together from\na sword and a gun, without any\nsort of thought for balance."
+	},
+	{
+		"assign": "170335",
+		"jp_text": "光纏刻クラースティア",
+		"tr_text": "Lightweaver Cras Tier",
+		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った銃剣。\nその銃撃が、明日を照らし出す。",
+		"tr_explain": "A gunslash that wove the light that\nvanquished darkness. By its blade\nand bullets, the future is illuminated."
 	},
 	{
 		"assign": "170339",
@@ -1390,6 +1411,34 @@
 		"jp_text": "ＥＸＰウェポン２-NT",
 		"tr_text": "EXP Weapon 2-NT",
 		"jp_explain": "新世武器の強化に使う素材用銃剣。\n専用の特殊能力により新世武器強化の\n獲得強化ＥＸＰを大きく増加させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "170354",
+		"jp_text": "タロンシュナイデル",
+		"tr_text": "Talon Schneider",
+		"jp_explain": "鋼機を意識した鋭い鉤爪のフォルムが\n特徴的な銃剣。軽量ながら頑丈さに優れ\n襲いかかる敵をたやすく破壊する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "170356",
+		"jp_text": "フルクシオタラッサ",
+		"tr_text": "Fluxio Thalassa",
+		"jp_explain": "流線美と機能性を備え持つ銃剣。\n目を惹くスマートなデザインも人気だが\n同時に高い精密性も実現している。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "170358",
+		"jp_text": "闇征刻アジェルティア",
+		"tr_text": "Darkbanisher Ayer Tier",
+		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた銃剣。\n循環する世界でも折れない心を持つ。",
+		"tr_explain": "A gunslash that will give up anything\nto protect the universe. Even in a\ncyclical world, its heart is unbreakable."
+	},
+	{
+		"assign": "170362",
+		"jp_text": "リュミグニー",
+		"tr_text": "Lumigunny",
+		"jp_explain": "武術に長けた正義感の強いアークスが\n好んで使う銃剣。随所にちりばめられた\n宝石が使用者に力を与えるとされる。",
 		"tr_explain": ""
 	}
 ]

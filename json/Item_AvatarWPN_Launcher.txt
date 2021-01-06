@@ -18,14 +18,35 @@
 		"jp_text": "＊ザメリーキャノン",
 		"tr_text": "＊The Merry Cannon",
 		"jp_explain": "リリーパ族の姿を模した弾をくわえた\n武器迷彩。砲身はサメを模し、食うか\n食われるかの緊迫した状況を演出する。",
-		"tr_explain": "Launcher-type camo that fires what\nseems to be a Lillipan. Modeled after\na shark, imitating a deadly encounter."
+		"tr_explain": "Weapon camouflage that fires what\nseems to be a Lillipan. Modeled after\na shark, imitating a deadly encounter."
 	},
 	{
 		"assign": "10903",
 		"jp_text": "＊単式炸薬砲・猛虎",
 		"tr_text": "＊Blast Cannon Mouko",
 		"jp_explain": "境界を破り、出現した大砲型武器迷彩。\n炸薬弾頭を用いる機関砲の単射タイプで\n遠距離戦での運用が可能。",
-		"tr_explain": "Launcher-type camo that broke the\nborders when it appeared. Fires\nexplosive warheads long distances."
+		"tr_explain": "Launcher camo that broke the borders\nwhen it appeared. Made for long-range\nbattles, it fires explosive warheads."
+	},
+	{
+		"assign": "10904",
+		"jp_text": "＊リュミルピルマ",
+		"tr_text": "＊Lumir Pirma",
+		"jp_explain": "武術に長けた正義感の強いアークスが\n好んで使用する大砲型武器迷彩。\n巻き付く金の龍が加護を与える。",
+		"tr_explain": "Launcher camo for warriors with a\nstrong sense of justice. The golden\ndragon gives its protective blessing."
+	},
+	{
+		"assign": "10905",
+		"jp_text": "＊リュミルプラレ",
+		"tr_text": "＊Lumir Prale",
+		"jp_explain": "武術に長けた正義感の強いアークスが\n好んで使用する大砲型武器迷彩。\n銀の龍から無尽蔵の力が湧いてくる。",
+		"tr_explain": "Launcher camo for warriors with a\nstrong sense of justice. The silver\ndragon gives inexhaustible power."
+	},
+	{
+		"assign": "10906",
+		"jp_text": "＊リュミルパルド",
+		"tr_text": "＊Lumir Prad",
+		"jp_explain": "武術に長けた正義感の強いアークスが\n好んで使用する大砲型武器迷彩。龍は\n災厄を遠ざけると言われている。",
+		"tr_explain": "Launcher camo for warriors with a\nstrong sense of justice. The dragon\nis said to keep calamity at bay."
 	},
 	{
 		"assign": "10907",
@@ -123,7 +144,7 @@
 		"jp_text": "＊龍眼砲バルモニウム",
 		"tr_text": "＊Dragon Eye Cannon Barmonium",
 		"jp_explain": "生体実験兵器として育てられた双子の\n妹が所持する、伝説の楽器「竜刃器」の\nひとつを模した大砲型武器迷彩。",
-		"tr_explain": "Weapon camo imitating the legendary\nDragon Instrument of a twin sister\nwho was raised as a living weapon."
+		"tr_explain": "Launcher-type camo based on the\nArmonic used by a twin sister who\nwas raised as a living weapon."
 	},
 	{
 		"assign": "109022",
@@ -249,14 +270,14 @@
 		"jp_text": "＊バトルランチャー",
 		"tr_text": "＊Battle Launcher",
 		"jp_explain": "バトルアリーナ専用の大砲型\n武器迷彩。戦技比較用に、力量が\n発揮されるよう調整がされている。",
-		"tr_explain": "Launcher weapon camo from\nthe Battle Arena. Carefully tuned for\nuse in skill-testing mock battles."
+		"tr_explain": "A Launcher-type camo from\nthe Battle Arena. Carefully tuned\nfor use in skill testing mock battles."
 	},
 	{
 		"assign": "109049",
 		"jp_text": "＊ウォリアーランチャー",
 		"tr_text": "＊Warrior Launcher",
 		"jp_explain": "バトルアリーナ専用の大砲型\n武器迷彩。戦技比較用に、力量が\n発揮されるよう調整がされている。",
-		"tr_explain": "Launcher weapon camo from\nthe Battle Arena. Carefully tuned for\nuse in skill-testing mock battles."
+		"tr_explain": "A Launcher-type camo from\nthe Battle Arena. Carefully tuned\nfor use in skill testing mock battles."
 	},
 	{
 		"assign": "109050",
@@ -264,5 +285,12 @@
 		"tr_text": "＊Adholm Durke",
 		"jp_explain": "さらに軽く、さらに頑丈をコンセプトに\n作られた自動変形大砲型武器迷彩。\n扱いやすいミニマムな砲身が人気。",
 		"tr_explain": "Transformable launcher camo made\nto be lightweight and robust. Its\nsmall barrel makes it easy to handle."
+	},
+	{
+		"assign": "109054",
+		"jp_text": "＊アールロイド",
+		"tr_text": "＊Alroid",
+		"jp_explain": "惑星破壊用の超巨大兵器を模した大砲型\n武器迷彩。構えるだけで標的を\n絶望させるほどの迫力を有している。",
+		"tr_explain": "Launcher camo based on a weapon\nused to destroy planets. Just holding\nit will strike despair into the target."
 	}
 ]

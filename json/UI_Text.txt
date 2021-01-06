@@ -487,7 +487,7 @@
 	{
 		"assign": "acshop_dialog_b_32_2",
 		"jp_text": "OPが不足しているためクエストに出発できません。\n<%AC>を消費してOP回復薬を使用しますか？\n（OP回復薬を所持していない場合は、\n　<%AC>を消費して、OPを全回復させることができます）\n\n出発に必要なOP：<%consume_exdrive>\n現在のOP：<%current_exdrive>\n\n必要<%item_name>：<%consume_oprecovery_pass>個\n所持<%item_name>：<%current_oprecovery_pass>",
-		"tr_text": ""
+		"tr_text": "You lack the required OP to start the quest.\nWould you like to spend <%AC> on OP Recovery Meds?\n(If you do not have OP Recovery Meds,\nyou can buy them with <%AC>.)\n\nOP required: <%consume_exdrive>\nCurrent OP: <%current_exdrive>\n\n<%item_name> needed: <%consume_oprecovery_pass>\n<%item_name> owned: <%current_oprecovery_pass>"
 	},
 	{
 		"assign": "acshop_dialog_t_33",
@@ -712,12 +712,12 @@
 	{
 		"assign": "current_dp_per_max_view",
 		"jp_text": "<color=#ffa500{0}>{1}</color>/{2}",
-		"tr_text": ""
+		"tr_text": "<color=#ffa500{0}>{1}</color>/{2}"
 	},
 	{
 		"assign": "current_dp_per_max_view_ex",
 		"jp_text": "<color=#ffa500{0}>{1}</color>/{2}",
-		"tr_text": ""
+		"tr_text": "<color=#ffa500{0}>{1}</color>/{2}"
 	},
 	{
 		"assign": "mshop_npc_t_00",
@@ -998,6 +998,16 @@
 		"assign": "rshop_dialog_b_12",
 		"jp_text": "「{0}」\nと、覇級トリガーを交換します。よろしいですか？\n\n所持覇級トリガー　⇒　{1:N0}個\n必要覇級トリガー　⇒　{2:N0}個\n残り覇級トリガー　⇒　{3:N0}個",
 		"tr_text": "Now exchanging XH Triggers for\n{0}.\nDo you wish to continue?\n\nOwned XH Triggers ⇒ {1:N0}\nRequired XH Triggers ⇒ {2:N0}\nRemaining XH Triggers ⇒ {3:N0}"
+	},
+	{
+		"assign": "rshop_dialog_b_13_1",
+		"jp_text": "レアエネミーポイントが足りません。\n\n所持レアエネミーポイント　⇒　{0:N0}pt\n必要レアエネミーポイント　⇒　{1:N0}pt\n不足レアエネミーポイント　⇒　<color=#ff0000>{2:N0}pt</color>",
+		"tr_text": "Insufficient Rare Enemy points.\r\n\r\nOwned Rare Enemy Points ⇒ {0:N0}\r\nRequired Rare Enemy Points ⇒ {1:N0}pt\r\nMissing Rare Enemy Points ⇒ <color=#ff0000>{2:N0}</color>"
+	},
+	{
+		"assign": "rshop_dialog_b_13",
+		"jp_text": "「{0}」\nと、レアエネミーポイントを交換します。よろしいですか？\n\n所持レアエネミーポイント　⇒　{1:N0}pt\n必要レアエネミーポイント　⇒　{2:N0}pt\n残りレアエネミーポイント　⇒　{3:N0}pt",
+		"tr_text": "Now exchanging Rare Enemy Points for\n{0}.\nDo you wish to continue?\n\nOwned Rare Enemy Points ⇒ {1:N0}pt\nRequired Rare Enemy Points ⇒ {2:N0}pt\nRemaining Rare Enemy Points ⇒ {3:N0}pt"
 	},
 	{
 		"assign": "arcscard_guide_00",
@@ -1687,7 +1697,7 @@
 	{
 		"assign": "equip_guide_11",
 		"jp_text": "<color=#f0df60>コスチューム、パーツをタッチすると、装備の変更を行うことができます。アイテムのアイコンを長押しすると、詳細情報を確認できます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>You can change your equipment by touching costumes and parts. Press and hold on an item icon for more information about it.</color>"
 	},
 	{
 		"assign": "equip_guide_04",
@@ -1862,7 +1872,7 @@
 	{
 		"assign": "equip_dialog_b_13",
 		"jp_text": "現在装備している武器を変更すると\n総チップコストをオーバーするチップがあります。\n\n右側に装備しているチップから解除されますが\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "If you change your current weapon,\nsome of your chips will exceed your\ntotal maximum Chip Cost.\n\nChips will be unequipped starting\nfrom the rightmost side.\nDo you wish to continue?"
 	},
 	{
 		"assign": "equip_dialog_t_14",
@@ -2577,7 +2587,7 @@
 	{
 		"assign": "labo_dialog_b_18",
 		"jp_text": "強化に成功しました。",
-		"tr_text": ""
+		"tr_text": "Enhancement successful."
 	},
 	{
 		"assign": "labo_guide_09",
@@ -2637,17 +2647,57 @@
 	{
 		"assign": "labo_dialog_b_22",
 		"jp_text": "特殊能力追加が完了しました。",
-		"tr_text": ""
+		"tr_text": "Special ability addition complete."
 	},
 	{
 		"assign": "labo_guide_15",
 		"jp_text": "<color=#f0df60>チップ特装・プラグ強化をしたいチップを選択してください。チップ特装は最大レベルに達しているチップのみ、プラグ強化はすでに特装したチップが対象です。</color>",
-		"tr_text": "<color=#f0df60>Select a chip for specialization or Plug-In. You can only specialize a chip that has reached its maximum level, and you can only Plug-In to specialized chips.</color>"
+		"tr_text": "<color=#f0df60>IMPORTANT, READ THIS: The translation patch has an unfixable bug on this menu that will make the game lock up. To Specialize or Plug-In a chip, you must first uninstall the translation patch. You can use the PSO2es Tweaker to do this.</color>"
 	},
 	{
 		"assign": "labo_guide_16",
 		"jp_text": "<color=#f0df60>実行する項目を選んでください。チップLvが最大レベルに達し、必要な素材チップが全てそろうと、チップ特装・プラグ強化が可能になります。</color>",
 		"tr_text": "<color=#f0df60>Select a procedure to perform. If a chip has reached its maximum level, and you possess all required material chips, you can specialize and Plug-In to it.</color>"
+	},
+	{
+		"assign": "labo_dialog_t_32",
+		"jp_text": "消費素材チップ確認",
+		"tr_text": "Consumed Material Confirmation"
+	},
+	{
+		"assign": "labo_dialog_b_32_1_1",
+		"jp_text": "次のチップを使用して、チップ強化を実行します。\nよろしいですか？",
+		"tr_text": "Now using the below chips for Chip Grinding.\nDo you wish to continue?"
+	},
+	{
+		"assign": "labo_dialog_b_32_1_2",
+		"jp_text": "現在選択されているチップです。\n<size=20>※キング・ラッピー以外のラッピー系チップが自動選択されます。</size>",
+		"tr_text": "These are the currently selected chips.\n<size=20>※Rappy chips have been automatically selected.</size>"
+	},
+	{
+		"assign": "labo_dialog_b_32_2",
+		"jp_text": "素材チップ",
+		"tr_text": "Chip Material(s)"
+	},
+	{
+		"assign": "labo_dialog_t_33",
+		"jp_text": "Lv最大強化チップ選択",
+		"tr_text": "Max Lv. Selection"
+	},
+	{
+		"assign": "labo_dialog_b_33",
+		"jp_text": "自動選択できるチップがありません。\n※キング・ラッピー以外のラッピー系チップが\n　　自動選択されます。",
+		"tr_text": "No chips can be automatically selected.\n※Rappy chips are automatically selected."
+	},
+	{
+		"assign": "labo_dialog_t_34",
+		"jp_text": "アビリティ強化チップ選択",
+		"tr_text": "Ability Enhancement Selection"
+	},
+	{
+		"assign": "labo_dialog_b_34",
+		"jp_text": "自動選択できるチップがありません。\n※ニャウ系チップ等、一部チップは\n　　自動選択されません。",
+		"tr_text": "No chips can be automatically selected.\n※Some chips, such as Nyau, are not\n   automatically selected."
 	},
 	{
 		"assign": "chipevo_npc_t_00",
@@ -5750,6 +5800,11 @@
 		"tr_text": "ARKS Quest"
 	},
 	{
+		"assign": "quest_counter_header_dps",
+		"jp_text": "限界チャレンジ",
+		"tr_text": "Challenge Test"
+	},
+	{
 		"assign": "quest_counter_header_emergency",
 		"jp_text": "緊急クエスト",
 		"tr_text": "Emergency Quest"
@@ -6285,6 +6340,11 @@
 		"tr_text": "Champion"
 	},
 	{
+		"assign": "reward_trigger",
+		"jp_text": "【<color=#ffff00>{0}トリガー獲得</color>】",
+		"tr_text": "[<color=#ffff00>{0} Triggers earned</color>]"
+	},
+	{
 		"assign": "relief_dialog_no_select_t",
 		"jp_text": "救援確認",
 		"tr_text": "Confirm Rescue"
@@ -6633,6 +6693,11 @@
 		"assign": "quest_load_01",
 		"jp_text": "通信中",
 		"tr_text": "Communicating"
+	},
+	{
+		"assign": "quest_text_err",
+		"jp_text": "<color=#f0df60>＜セラフィのアドバイスを活用しよう＞</color>\n私のアドバイス、ご活用いただけていますか？\n困ったときや、行き詰ったとき\n少しでもお役に立てていれば嬉しいです。",
+		"tr_text": "<color=#f0df60><Use Seraphy's Advice></color>\nHave you been using my advice?\nI'd like to be able to help you out when\nyou get stuck or you're having trouble,\neven if it's only a little."
 	},
 	{
 		"assign": "quest_line_00",
@@ -7187,7 +7252,7 @@
 	{
 		"assign": "questresult_dps_title",
 		"jp_text": "ダメージ記録",
-		"tr_text": "Damage Record"
+		"tr_text": "Damage Total"
 	},
 	{
 		"assign": "questresult_rematch_button_title",
@@ -7895,6 +7960,11 @@
 		"tr_text": "Etoile"
 	},
 	{
+		"assign": "luster",
+		"jp_text": "ラスター",
+		"tr_text": "Luster"
+	},
+	{
 		"assign": "ship_01",
 		"jp_text": "Ship01:フェオ",
 		"tr_text": "Ship01: Feoh"
@@ -8576,13 +8646,43 @@
 	},
 	{
 		"assign": "ui_chip_recommend",
-		"jp_text": "おすすめ選択",
-		"tr_text": "Recommend"
+		"jp_text": "Lv最大強化",
+		"tr_text": "Maximise Lv."
 	},
 	{
 		"assign": "ui_chip_recommend_ability",
 		"jp_text": "アビリティ強化",
 		"tr_text": "Ability Upgrade"
+	},
+	{
+		"assign": "ui_chip_button_goto_grind",
+		"jp_text": "チップ強化へ",
+		"tr_text": "Grind Chip"
+	},
+	{
+		"assign": "ui_chip_button_goto_release",
+		"jp_text": "チップ解放へ",
+		"tr_text": "Release Chip"
+	},
+	{
+		"assign": "ui_chip_button_goto_awake",
+		"jp_text": "チップ特装へ",
+		"tr_text": "Chip Plugs"
+	},
+	{
+		"assign": "ui_chip_button_lvmax_text",
+		"jp_text": "チップLvを強化可能な最大値まで強化します。",
+		"tr_text": "Grinding chip to the highest level possible."
+	},
+	{
+		"assign": "ui_chip_button_lvmax_confirm",
+		"jp_text": "消費する素材を確認",
+		"tr_text": "Check Materials"
+	},
+	{
+		"assign": "ui_chip_button_lvmax_cancel",
+		"jp_text": "やめる",
+		"tr_text": "Quit"
 	},
 	{
 		"assign": "ui_chip_reinforce_info",
@@ -8598,6 +8698,11 @@
 		"assign": "ui_chip_release_attribute_change_info",
 		"jp_text": "チップ解放（属性変換）内容",
 		"tr_text": "Chip Release (Conversion) Info"
+	},
+	{
+		"assign": "ui_chip_available_info",
+		"jp_text": "チップを長押しで入手先確認！",
+		"tr_text": ""
 	},
 	{
 		"assign": "ui_chip_button_reinforce",
@@ -8617,7 +8722,7 @@
 	{
 		"assign": "ui_chip_percent",
 		"jp_text": "{0}%",
-		"tr_text": ""
+		"tr_text": "{0}%"
 	},
 	{
 		"assign": "favorite_register",
@@ -9997,7 +10102,7 @@
 	{
 		"assign": "menu_main_formation_info",
 		"jp_text": "※「売却」「交換ショップ」は、MENUの「ショップ」へ移動しました。",
-		"tr_text": "※\"Sell\" and \"Exchange Shop\" have been\nmoved to the Shop tab."
+		"tr_text": "※\"Sell\" and \"Exchange Shop\" have\nbeen moved to the Shop tab."
 	},
 	{
 		"assign": "menu_main_button_ac_shop",
@@ -12186,7 +12291,7 @@
 	},
 	{
 		"assign": "tu_0006_w09_b",
-		"jp_text": "Windows PC、PlayStation®Vita、PlayStation®4で\nサービス中の『PSO2』や『PSO2 クラウド』と連動すると\n現在のキャラクターのまま『PSO2』をプレイすることができます。",
+		"jp_text": "Windows PC、PlayStation®4で\nサービス中の『PSO2』や『PSO2 クラウド』と連動すると\n現在のキャラクターのまま『PSO2』をプレイすることができます。",
 		"tr_text": ""
 	},
 	{
@@ -12221,8 +12326,8 @@
 	},
 	{
 		"assign": "tu_0006_w15_b",
-		"jp_text": "スクラッチメニューにおいて、\n『PSO2』で販売されているスクラッチを\n購入できるようになりました。",
-		"tr_text": "Scratches from PSO2 are now available."
+		"jp_text": "『PSO2』で配信されているスクラッチを引けるようになりました。\nスクラッチ画面の左上にあるボタンを押すと\n『PSO2』と『PSO2es』のスクラッチを切り替えられます。",
+		"tr_text": "Scratches from PSO2 are now available.\nPress the button in the top left corner to switch\nbetween scratches from PSO2 and PSO2es."
 	},
 	{
 		"assign": "tu_0006_w16_b",
@@ -12531,12 +12636,12 @@
 	},
 	{
 		"assign": "wh_28_00",
-		"jp_text": "緊急クエストでオペレーションスコアをためると\n緊急イベントの「イベント報酬」のページから\nさまざまな報酬を受け取れます。",
-		"tr_text": "When viewing your Operation Score,\nyou can receive 'Event Rewards'\nfrom the Event Rewards tab."
+		"jp_text": "緊急クエストでオペレーションスコアをためると\n緊急イベントの「緊急ミッション」のページから\nさまざまな報酬を受け取れます。",
+		"tr_text": "When viewing your Operation Score,\nyou can receive various rewards\nfrom the \"Emergency Mission\" tab."
 	},
 	{
 		"assign": "wh_28_01",
-		"jp_text": "報酬を受け取るための達成条件は\nオペレーションスコア以外にも多数あります。\nくわしくはイベント報酬ページで確認してみましょう！",
+		"jp_text": "報酬を受け取るための達成条件は\nオペレーションスコア以外にも多数あります。\nくわしくは緊急ミッションページで確認してみましょう！",
 		"tr_text": "Certain rewards have special\nconditions in order to be redeemed.\nCheck back frequently as possible!"
 	},
 	{
@@ -13062,7 +13167,7 @@
 	{
 		"assign": "es_0009_n00_b",
 		"jp_text": "<color=black>た、大変です！\n市街地エリアに、ダーカーの群れが多数出現！</color>",
-		"tr_text": "<color=black>THIS IS AN EMERGENCY!\nDARKERS HAVE STARTED TO APPEAR OUT\nOF KNOWWHERE IN THE CITY AREA!</color>"
+		"tr_text": "<color=black>THIS IS AN EMERGENCY!\nDARKERS HAVE STARTED TO APPEAR OUT\nOF NOWHERE IN THE CITY AREA!</color>"
 	},
 	{
 		"assign": "es_0009_n01_b",
@@ -14867,7 +14972,7 @@
 	{
 		"assign": "raid_n_clear_dps",
 		"jp_text": "お疲れ様でした。満足のいく戦闘はできましたか？\nより高いダメージを目指して、再チャレンジです！",
-		"tr_text": "Thank you for your hard work. Did you enjoy that battle?\nWhy not try again and aim to deal even more damage!"
+		"tr_text": "Thank you for your hard work. Did you enjoy\nthat battle? Why not try again and aim to\ndeal even more damage!"
 	},
 	{
 		"assign": "raid_n_hp01",
@@ -14902,7 +15007,7 @@
 	{
 		"assign": "raid_n_dps01",
 		"jp_text": "自己ベスト更新を目指してがんばってください。\n私も、せいいっぱい応援しています！",
-		"tr_text": ""
+		"tr_text": "Do your best to set a new Personal Best.\nYou have my utmost support!"
 	},
 	{
 		"assign": "raid_log_00",
@@ -15456,8 +15561,8 @@
 	},
 	{
 		"assign": "RaidEvent_tab_02",
-		"jp_text": "ボーナススクラッチ",
-		"tr_text": "Bonus Scratch"
+		"jp_text": "ボーナス\nスクラッチ",
+		"tr_text": "Bonus\nScratch"
 	},
 	{
 		"assign": "RaidEvent_tab_03",
@@ -15465,109 +15570,204 @@
 		"tr_text": "Rankings"
 	},
 	{
+		"assign": "RaidEvent_Achievement_Title",
+		"jp_text": "緊急ミッション",
+		"tr_text": "Emergency Mission"
+	},
+	{
+		"assign": "RaidEvent_Achievement_Remain",
+		"jp_text": "残り {0}",
+		"tr_text": "{0} left"
+	},
+	{
+		"assign": "RaidEvent_Achievement_GetAll",
+		"jp_text": "すべて受け取る",
+		"tr_text": "Receive All"
+	},
+	{
+		"assign": "RaidEvent_Achievement_Sort",
+		"jp_text": "並び替え",
+		"tr_text": "Sort"
+	},
+	{
+		"assign": "RaidEvent_Achievement_Sort_Completed",
+		"jp_text": "受取可能",
+		"tr_text": "Receivable"
+	},
+	{
+		"assign": "RaidEvent_Achievement_Sort_PreComplete",
+		"jp_text": "挑戦可能",
+		"tr_text": "Incomplete"
+	},
+	{
+		"assign": "RaidEvent_Achievement_Sort_HasReceived",
+		"jp_text": "受取済",
+		"tr_text": "Received"
+	},
+	{
+		"assign": "RaidEvent_Achievement_Sort_Ended",
+		"jp_text": "未達成",
+		"tr_text": "Failed"
+	},
+	{
+		"assign": "RaidEvent_Achievement_AchievementItems",
+		"jp_text": "イベント期間限定",
+		"tr_text": "Time-Limited"
+	},
+	{
+		"assign": "RaidEvent_Achievement_AchievementUnionItems",
+		"jp_text": "オペレーションスコア",
+		"tr_text": "Operation Score"
+	},
+	{
+		"assign": "RaidEvent_Achievement_DailyAchievementItems",
+		"jp_text": "デイリー",
+		"tr_text": "Daily"
+	},
+	{
+		"assign": "RaidEvent_Achievement_Receive",
+		"jp_text": "受け取る",
+		"tr_text": "Receive"
+	},
+	{
+		"assign": "RaidEvent_Achievement_Ended",
+		"jp_text": "終了",
+		"tr_text": "Ended"
+	},
+	{
+		"assign": "RaidEvent_Achievement_Return",
+		"jp_text": "戻る",
+		"tr_text": "Return"
+	},
+	{
+		"assign": "RaidEvent_Achievement_RewardText",
+		"jp_text": "<color=#f39800>報酬</color> {0}",
+		"tr_text": "<color=#f39800>Reward:</color> {0}"
+	},
+	{
+		"assign": "RaidEvent_Achievement_LevelText",
+		"jp_text": "<color=#ffff00>達成度({0}/{1})</color>",
+		"tr_text": "<color=#ffff00>Completed: {0}/{1}</color>"
+	},
+	{
+		"assign": "RaidEvent_Achievement_esOrder",
+		"jp_text": "esミッション",
+		"tr_text": "es Mission"
+	},
+	{
+		"assign": "RaidEvent_Achievement_Getitem_Dialog_Title",
+		"jp_text": "受け取り完了",
+		"tr_text": "Items Received"
+	},
+	{
+		"assign": "RaidEvent_Achievement_Getallitem_Dialog_Title",
+		"jp_text": "一括受け取り完了",
+		"tr_text": "All Items Received"
+	},
+	{
 		"assign": "RaidEvent_Achievement_Text_0-1-0",
-		"jp_text": "実績を{1}個達成 [{0} / {1}]",
-		"tr_text": " Clear {1} Achievements [{0}/{1}]"
+		"jp_text": "イベント期間限定のミッションを{0}個達成",
+		"tr_text": "Complete {0} missions during the event"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-1",
-		"jp_text": "合計{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat enemy {1} time(s) [{0}/{1}]"
+		"jp_text": "合計{0}回発見討伐",
+		"tr_text": "Defeat {0} total enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-2",
-		"jp_text": "初級を{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Normal {1} time(s) [{0}/{1}]"
+		"jp_text": "初級を{0}回発見討伐",
+		"tr_text": "Defeat {0} Normal enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-3",
-		"jp_text": "中級を{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Hard {1} time(s) [{0}/{1}]"
+		"jp_text": "中級を{0}回発見討伐",
+		"tr_text": "Defeat {0} Hard enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-4",
-		"jp_text": "上級を{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Very Hard {1} time(s) [{0}/{1}]"
+		"jp_text": "上級を{0}回発見討伐",
+		"tr_text": "Defeat {0} Very Hard enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-5",
-		"jp_text": "救援を{1}回行う [{0} / {1}]",
-		"tr_text": " Join rescue {1} time(s) [{0}/{1}]"
+		"jp_text": "救援を{0}回行う",
+		"tr_text": "Go to the rescue {0} times"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-6",
-		"jp_text": "オペレーションスコア [{0:#,0} / {1:#,0}]",
-		"tr_text": " Operations Score [{0:#,0}/{1:#,0}]"
+		"jp_text": "オペレーションスコア{0:#,0}pt達成",
+		"tr_text": "Reach an Operation Score of {0:#,0}"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-8",
-		"jp_text": "タイプCを{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Type-C {1} time(s) [{0}/{1}]"
+		"jp_text": "タイプCを{0}回発見討伐",
+		"tr_text": "Defeat {0} Type-C enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-9",
-		"jp_text": "特異種を{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Exceptional {1} time(s) [{0}/{1}]"
+		"jp_text": "特異種を{0}回発見討伐",
+		"tr_text": "Defeat {0} Exceptional enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-10",
-		"jp_text": "狂暴種を{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Violent {1} time(s) [{0}/{1}]"
+		"jp_text": "狂暴種を{0}回発見討伐",
+		"tr_text": "Defeat {0} Violent enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-11",
-		"jp_text": "大型種を{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Large {1} time(s) [{0}/{1}]"
+		"jp_text": "大型種を{0}回発見討伐",
+		"tr_text": "Defeat {0} Large enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-12",
-		"jp_text": "小型種を{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Small {1} time(s) [{0}/{1}]"
+		"jp_text": "小型種を{0}回発見討伐",
+		"tr_text": "Defeat {0} Small enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-17",
-		"jp_text": "未知種を{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Unknown {1} time(s) [{0}/{1}]"
+		"jp_text": "未知種を{0}回発見討伐",
+		"tr_text": "Defeat {0} Unknown enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-18",
-		"jp_text": "超級を{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Super Hard {1} time(s) [{0}/{1}]"
+		"jp_text": "超級を{0}回発見討伐",
+		"tr_text": "Defeat {0} Super Hard enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-20",
-		"jp_text": "覇級を{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Extra Hard {1} time(s) [{0}/{1}]"
+		"jp_text": "覇級を{0}回発見討伐",
+		"tr_text": "Defeat {0} Extra Hard enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-22",
-		"jp_text": "覇滅種を{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Superior {1} time(s) [{0}/{1}]"
+		"jp_text": "覇滅種を{0}回発見討伐",
+		"tr_text": "Defeat {0} Superior enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-0",
-		"jp_text": "デイリー実績を{1}個達成 [{0} / {1}]",
-		"tr_text": " Clear {1} Daily Achievements [{0}/{1}]"
+		"jp_text": "デイリーの緊急ミッションを{0}個達成",
+		"tr_text": "Clear {0} Daily Emergency Missions"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-1",
-		"jp_text": "合計{1}回発見討伐 [{0} / {1}]",
-		"tr_text": "Defeat {1} enemies [{0}/{1}]"
+		"jp_text": "合計{0}回発見討伐",
+		"tr_text": "Defeat {0} total enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-2",
-		"jp_text": "初級を{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Normal {1} time(s) [{0}/{1}]"
+		"jp_text": "初級を{0}回発見討伐",
+		"tr_text": "Defeat {0} Normal enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-3",
-		"jp_text": "中級を{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Hard {1} time(s) [{0}/{1}]"
+		"jp_text": "中級を{0}回発見討伐",
+		"tr_text": "Defeat {0} Hard enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-4",
-		"jp_text": "上級を{1}回発見討伐 [{0} / {1}]",
-		"tr_text": " Defeat Very Hard {1} time(s) [{0}/{1}]"
+		"jp_text": "上級を{0}回発見討伐",
+		"tr_text": "Defeat {0} Very Hard enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_list_00",
@@ -15612,7 +15812,7 @@
 	{
 		"assign": "raidEvent_ClearCount",
 		"jp_text": "達成数",
-		"tr_text": "Number Achieved"
+		"tr_text": "Cleared: "
 	},
 	{
 		"assign": "raid_event_guide_00",
@@ -15703,6 +15903,11 @@
 		"assign": "raid_os_ranking_rank",
 		"jp_text": "{0}位",
 		"tr_text": "{0}"
+	},
+	{
+		"assign": "raid_mission_all_clear",
+		"jp_text": "<color=yellow>ALL CLEAR</color>",
+		"tr_text": ""
 	},
 	{
 		"assign": "mag_skill_strike",
@@ -16477,12 +16682,12 @@
 	{
 		"assign": "wh_32_04",
 		"jp_text": "＜連動経験値について＞\nペットにエッグ、またはチップを合成すると\nそのアイテムのレアリティに応じて連動経験値がたまります。",
-		"tr_text": ""
+		"tr_text": "<Linked EXP>\nWhen you Synthesize a chip or an egg\ninto a Pet, you will receive Linked EXP\nbased on the rarity of the item used."
 	},
 	{
 		"assign": "wh_32_05",
-		"jp_text": "＜合成可能回数について＞\nチップ合成、エッグ合成の残り合成可能回数は、ペットごとに管理され、\n4：00、12：00、20：00のタイミングごとに、３回まで利用できます。",
-		"tr_text": "<Feeding Times>\nFeeding eggs or chips via Egg Synthesis can\nbe done up to 3 times, with cooldowns\nevery 4, 12, and 20 minutes"
+		"jp_text": "＜合成可能回数について＞\n合成可能回数は、ペットごとにカウントされ\n4：00、12：00、20：00 のタイミングでリセットされます。",
+		"tr_text": "<Maximum Synthesis Counters>\nEach Pet has its own Synthesis count.\nThey reset at 04:00, 12:00 and 20:00 JST."
 	},
 	{
 		"assign": "wh_32_06",
@@ -17750,6 +17955,11 @@
 		"tr_text": "Chapter 3\nBetrayal and Bonds"
 	},
 	{
+		"assign": "lookback_arles_chapter_4",
+		"jp_text": "第４章　三柱の女神",
+		"tr_text": ""
+	},
+	{
 		"assign": "lookback_maintitle_5",
 		"jp_text": "ストーリークエスト　Ｓｅａｓｏｎ３",
 		"tr_text": "Story Quest Season 3"
@@ -17827,6 +18037,11 @@
 	{
 		"assign": "lookback_series2_chapter_4",
 		"jp_text": "最終章　嵐は去り悲劇は終幕する",
+		"tr_text": ""
+	},
+	{
+		"assign": "lookback_series2_chapter_5",
+		"jp_text": "外典　因縁は捩れ未来を拓く",
 		"tr_text": ""
 	},
 	{
@@ -18872,7 +19087,7 @@
 	{
 		"assign": "acceptbox_dialog_t_3",
 		"jp_text": "受け取り完了",
-		"tr_text": "Reception Complete"
+		"tr_text": "Items Received"
 	},
 	{
 		"assign": "acceptbox_dialog_b_3",
@@ -19327,12 +19542,12 @@
 	{
 		"assign": "chip_depot_guide_00",
 		"jp_text": "<color=#f0df60>チップ倉庫に預けるチップを選択してください。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Select chips to deposit in chip storage.</color>"
 	},
 	{
 		"assign": "chip_depot_guide_01",
 		"jp_text": "<color=#f0df60>チップパックへ取り出すチップを選択してください。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Select chips to withdraw from chip storage.</color>"
 	},
 	{
 		"assign": "chip_depot_expand_num",
@@ -19342,17 +19557,17 @@
 	{
 		"assign": "chip_depot_dialog_b_02",
 		"jp_text": "チップ倉庫が最大まで拡張されているので\nこれ以上拡張できません。 ",
-		"tr_text": ""
+		"tr_text": "Your chip storage has been expanded\nto its maximum size.\nIt cannot be expanded any further."
 	},
 	{
 		"assign": "scratch_pickup_select_window_title",
-		"jp_text": "ウェポノイド確定スクラッチ★{0}チップ選択",
-		"tr_text": ""
+		"jp_text": "ドリームスクラッチ★{0}チップ選択",
+		"tr_text": "Dream Scratch ★{0} Chip Selection"
 	},
 	{
 		"assign": "scratch_pickup_select_window_select",
-		"jp_text": "ウェポノイド確定スクラッチに封入したい★{0}のチップを{1}個選んでください。",
-		"tr_text": ""
+		"jp_text": "ドリームスクラッチに封入したい★{0}のチップを{1}個選んでください。",
+		"tr_text": "Select chips that you want to\nadd to the ★{0}Dream Scratch."
 	},
 	{
 		"assign": "scratch_pickup_select_window_count",
@@ -19360,28 +19575,33 @@
 		"tr_text": "<color=yellow>{0}</color>"
 	},
 	{
+		"assign": "scratch_pickup_select_confirm_window_title",
+		"jp_text": "ドリームスクラッチ封入確認  ",
+		"tr_text": "Confirm Dream Scratch Contents"
+	},
+	{
 		"assign": "scratch_pickup_select_guide",
 		"jp_text": "<color=#f0df60>欲しいウェポノイドチップを選択してスクラッチを引き、ウェポノイドチップを１枚獲得しよう！</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Select the Weaponoid chips you want to scratch for, and draw 1 guaranteed Weaponoid chip!</color>"
 	},
 	{
 		"assign": "scratch_pickup_get_bonus_item_name",
 		"jp_text": "回数ボーナスで\n「{0}」を入手しました",
-		"tr_text": ""
+		"tr_text": "Received {0} as a Freqency Bonus"
 	},
 	{
 		"assign": "scratch_get_item_name_count",
 		"jp_text": "{0}　×　{1}",
-		"tr_text": ""
+		"tr_text": "{0} x {1}"
 	},
 	{
 		"assign": "scratch_pickup_get_item_name",
-		"jp_text": "ウェポノイド確定スクラッチ報酬！\n {0} を入手しました！",
-		"tr_text": ""
+		"jp_text": "ドリームスクラッチ報酬！\n {0} を入手しました！",
+		"tr_text": "Dream Scratch reward!\nReceived {0}!"
 	},
 	{
 		"assign": "scratch_pickup_pickup_to_count",
-		"jp_text": "確定スクラッチまで",
+		"jp_text": "ドリームスクラッチまで",
 		"tr_text": ""
 	},
 	{
@@ -19396,8 +19616,8 @@
 	},
 	{
 		"assign": "scratch_pickup_bonus_window_title",
-		"jp_text": "ウェポノイド確定スクラッチ報酬確認",
-		"tr_text": "Weaponoid Scratch Compensation"
+		"jp_text": "ドリームスクラッチ報酬確認",
+		"tr_text": "Dream Scratch Bonus"
 	},
 	{
 		"assign": "scratch_pickup_bonus_get_item_count",
@@ -19411,7 +19631,7 @@
 	},
 	{
 		"assign": "scratch_pickup_select_fix_text",
-		"jp_text": "確定スクラッチには次のチップが入ります。よろしいですか？",
+		"jp_text": "次のチップが封入されます。よろしいですか？",
 		"tr_text": ""
 	},
 	{
@@ -19451,7 +19671,7 @@
 	},
 	{
 		"assign": "scratch_pickup_reset_finish_body",
-		"jp_text": "確定スクラッチの内容をリセットしました。\n封入するチップを選びなおしてください。",
+		"jp_text": "ドリームスクラッチの内容をリセットしました。\n封入するチップを選びなおしてください。",
 		"tr_text": ""
 	},
 	{
@@ -19675,6 +19895,26 @@
 		"tr_text": "Congratulations on clearing Season 3 Ch. 8\nQuest 4-5 \"希望　それは、青空の先へ\"!\nYou have received the Clear Reward below.\nPlease check your Reception Box."
 	},
 	{
+		"assign": "quest_clear_reward_dialog_title_5022604",
+		"jp_text": "シリーズクエストクリア！",
+		"tr_text": "Series Quest Clear!"
+	},
+	{
+		"assign": "quest_clear_reward_dialog_body_5022604",
+		"jp_text": "クラン オブ ネメシス＆スレイヴ\n外典 第4話「光の救世主」\nクリアおめでとうございます！\n以下のクリア報酬をプレゼントいたしました。\n受け取りボックスをご確認ください。",
+		"tr_text": "Congratulations on clearing Clan of Nemesis & Slave\nExtra Episode 4 \"光の救世主\"!\nYou have received the Clear Reward below.\nPlease check your Reception Box."
+	},
+	{
+		"assign": "quest_clear_reward_dialog_title_5022608",
+		"jp_text": "シリーズクエストクリア！",
+		"tr_text": "Series Quest Clear!"
+	},
+	{
+		"assign": "quest_clear_reward_dialog_body_5022608",
+		"jp_text": "クラン オブ ネメシス＆スレイヴ\n外典 第8話「昨日の敵は今日の」\nクリアおめでとうございます！\n以下のクリア報酬をプレゼントいたしました。\n受け取りボックスをご確認ください。",
+		"tr_text": "Congratulations on clearing Clan of Nemesis & Slave\nExtra Episode 8 \"昨日の敵は今日の\"!\nYou have received the Clear Reward below.\nPlease check your Reception Box."
+	},
+	{
 		"assign": "recommended_equipment",
 		"jp_text": "おすすめ装備",
 		"tr_text": "Recommended Equipment"
@@ -19792,17 +20032,17 @@
 	{
 		"assign": "acceptbox_window_receive_tab_title",
 		"jp_text": "受取",
-		"tr_text": "Receive"
+		"tr_text": "Grab"
 	},
 	{
 		"assign": "acceptbox_window_sale_tab_title",
 		"jp_text": "個別売却",
-		"tr_text": "Manual Sale"
+		"tr_text": "Manual\nSale"
 	},
 	{
 		"assign": "acceptbox_window_all_sale_tabl_title",
 		"jp_text": "一括売却",
-		"tr_text": "Bulk Sale"
+		"tr_text": "Bulk\nSale"
 	},
 	{
 		"assign": "acceptbox_no_sale_item",
@@ -20322,7 +20562,7 @@
 	{
 		"assign": "quest_linkskill_window_title",
 		"jp_text": "出発確認",
-		"tr_text": "Confirm Depart"
+		"tr_text": "Confirm"
 	},
 	{
 		"assign": "quest_linkskill_linkslot",
@@ -20578,6 +20818,16 @@
 		"assign": "chip_details_cost_mag",
 		"jp_text": "-",
 		"tr_text": ""
+	},
+	{
+		"assign": "chip_details_available",
+		"jp_text": "主な入手先",
+		"tr_text": "Main Sources"
+	},
+	{
+		"assign": "chip_details_available_moveto",
+		"jp_text": "移動",
+		"tr_text": "Go To"
 	},
 	{
 		"assign": "wh_38_01",
@@ -21382,22 +21632,22 @@
 	{
 		"assign": "wh_41_01",
 		"jp_text": "＜ダークブラスト訓練について＞ \nこのメニューでは、『ＰＳＯ２』で習得しているダークブラストに\nチップを合成し、ダークブラストＥＸＰを獲得することができます。",
-		"tr_text": ""
+		"tr_text": "<Dark Blast Training>\nIn this menu, you can earn Dark Blast\nEXP by synthesizing chips into the\nDark Blasts you have earned in PSO2."
 	},
 	{
 		"assign": "wh_41_02",
 		"jp_text": "チップを合成すると、チップのレアリティやカテゴリに応じた\nダークブラストＥＸＰが付与されます。",
-		"tr_text": ""
+		"tr_text": "Synthesizing chips into a Dark Blast will give Dark Blast EXP based on the rarity and type of the chip."
 	},
 	{
 		"assign": "wh_41_03",
-		"jp_text": "＜合成可能回数について＞ \n チップ合成の残り合成可能回数は\n 4：00、12：00、20：00のタイミングごとに、３回まで利用できます。",
-		"tr_text": ""
+		"jp_text": "＜合成可能回数について＞\n合成可能回数は、フォームごとにカウントされ\n4：00、12：00、20：00 のタイミングでリセットされます。",
+		"tr_text": "<Maximum Synthesis Counters>\nEach Form has its own synthesis count.\nThey reset at 04:00, 12:00 and 20:00 JST."
 	},
 	{
 		"assign": "wh_41_04",
 		"jp_text": "また、合成可能回数は、<%AC>で回復することもできます。",
-		"tr_text": ""
+		"tr_text": "You can also reset your available synthesis counts\nby spending <%AC>."
 	},
 	{
 		"assign": "darkerblast_exp_over_title",
@@ -21412,12 +21662,12 @@
 	{
 		"assign": "darkerblast_give_num_format",
 		"jp_text": "× {0}",
-		"tr_text": ""
+		"tr_text": "x {0}"
 	},
 	{
 		"assign": "pet_give_num_format",
 		"jp_text": "× {0}",
-		"tr_text": ""
+		"tr_text": "x {0}"
 	},
 	{
 		"assign": "window_help_LM28",
@@ -21522,7 +21772,7 @@
 	{
 		"assign": "stack_chip_window_return",
 		"jp_text": "戻る",
-		"tr_text": "Return"
+		"tr_text": "Back"
 	},
 	{
 		"assign": "stack_chip_window_addition",
@@ -21731,28 +21981,58 @@
 	},
 	{
 		"assign": "dailyorder_guide_00",
-		"jp_text": "<color=#f0df60>esオーダーをクリアすることで報酬を獲得できます。</color>",
-		"tr_text": "<color=#f0df60>Earn rewards by clearing PSO2es Daily Orders.</color>"
+		"jp_text": "<color=#f0df60>esミッションを達成することで報酬を獲得できます。</color>",
+		"tr_text": "<color=#f0df60>Earn rewards by completing es Missions.</color>"
 	},
 	{
 		"assign": "dailyorder_no_item",
-		"jp_text": "現在達成できるesオーダーはありません。",
-		"tr_text": "No PSO2es Orders currently available."
+		"jp_text": "現在達成できるesミッションはありません。",
+		"tr_text": "There are no es Missions available."
 	},
 	{
 		"assign": "window_help_LM30",
-		"jp_text": "wh_44_01,\nデイリー及びウィークリーのesオーダーをクリアすることで報酬がもらえます。\n報酬はesオーダーの達成時に、自動的に「受け取りボックス」に送られます。",
+		"jp_text": "wh_44_01,\nミッションを達成することで報酬がもらえます。\n報酬は、ミッションを達成すると自動的に「受け取りボックス」に送られます。\nイベント開催時など、<color=yellow>期間限定ミッション</color>が発生することもあります。,",
 		"tr_text": ""
+	},
+	{
+		"assign": "dailyorder_title",
+		"jp_text": "esミッション",
+		"tr_text": "es Missions"
+	},
+	{
+		"assign": "dailyorder_level",
+		"jp_text": "<color=#ffff00>達成度({0}/{1})</color>",
+		"tr_text": "<color=#ffff00>Completed: {0}/{1}</color>"
+	},
+	{
+		"assign": "dailyorder_reward",
+		"jp_text": "<color=#f39800>報酬</color> {0}",
+		"tr_text": "<color=#f39800>Reward:</color> {0}"
+	},
+	{
+		"assign": "dailyorder_move",
+		"jp_text": "移動",
+		"tr_text": "Go To"
+	},
+	{
+		"assign": "dailyorder_emergency_mission",
+		"jp_text": "緊急ミッション",
+		"tr_text": "Emergency Missions"
+	},
+	{
+		"assign": "dailyorder_mainte_expire",
+		"jp_text": "{0} メンテまで",
+		"tr_text": "Expires {0}"
 	},
 	{
 		"assign": "trigger_burst_used_num_yellow",
 		"jp_text": "<color=yellow>【x{0}】</color>",
-		"tr_text": ""
+		"tr_text": "<color=yellow>[x{0}]</color>"
 	},
 	{
 		"assign": "trigger_burst_used_num_red",
 		"jp_text": "<color=red>【x{0}】</color>",
-		"tr_text": ""
+		"tr_text": "<color=red>[x{0}]</color>"
 	},
 	{
 		"assign": "weapon_potential_awake_title",
@@ -22086,18 +22366,18 @@
 	},
 	{
 		"assign": "raiddps_guid_top",
-		"jp_text": "<color=yellow>緊急チャレンジの進行状況画面です。「遊び方」バナーから詳しい遊び方を確認できます。</color>",
-		"tr_text": "<color=yellow>This is the Emergency Challenge progress screen. Select \"How to Play\" to find out how to participate.</color>"
+		"jp_text": "<color=yellow>限界チャレンジの進行状況画面です。「遊び方」バナーから詳しい遊び方を確認できます。</color>",
+		"tr_text": "<color=yellow>This is the Challenge Test progress screen. Select \"How to Play\" to find out how to participate.</color>"
 	},
 	{
 		"assign": "raiddps_guid_ranking",
-		"jp_text": "<color=yellow>緊急チャレンジの順位です。</color>",
-		"tr_text": "<color=yellow>This is the Emergency Challenge rankings.</color>"
+		"jp_text": "<color=yellow>限界チャレンジの順位です。</color>",
+		"tr_text": "<color=yellow>This is the Challenge Test rankings.</color>"
 	},
 	{
 		"assign": "raiddps_guid_achievement",
-		"jp_text": "<color=yellow>緊急チャレンジの達成報酬です。入手条件を満たすと、報酬を受け取ることができます。</color>",
-		"tr_text": "<color=yellow>These are the Emergency Challenge Achievements. You can receive rewards if you have met the Achivement requirements.</color>"
+		"jp_text": "<color=yellow>限界チャレンジの達成報酬です。入手条件を満たすと、報酬を受け取ることができます。</color>",
+		"tr_text": "<color=yellow>These are the Challenge Test Achievements. You can receive rewards if you have met the Achivement requirements.</color>"
 	},
 	{
 		"assign": "raiddps_banner_how_to_play",
@@ -22117,12 +22397,12 @@
 	{
 		"assign": "raid_dps_achievement_button",
 		"jp_text": "達成報酬",
-		"tr_text": "Achievements"
+		"tr_text": "Challenges"
 	},
 	{
 		"assign": "raid_dps_my_best",
 		"jp_text": "自己ベスト",
-		"tr_text": "Personal Best"
+		"tr_text": "P. Best"
 	},
 	{
 		"assign": "raid_dps_not_joined",
@@ -22147,12 +22427,12 @@
 	{
 		"assign": "raid_dps_title_update_time",
 		"jp_text": "※30分ごとに更新",
-		"tr_text": "※Updated every 30 min."
+		"tr_text": "※Updated every 30 minutes"
 	},
 	{
 		"assign": "raid_dps_reward_info",
 		"jp_text": "報酬情報",
-		"tr_text": "Reward Information"
+		"tr_text": "Reward\nInformation"
 	},
 	{
 		"assign": "raid_dps_ranking_unit",
@@ -22172,7 +22452,7 @@
 	{
 		"assign": "raid_dps_return_button",
 		"jp_text": "戻る",
-		"tr_text": ""
+		"tr_text": "Return"
 	},
 	{
 		"assign": "raid_event_current_button",
@@ -22192,11 +22472,11 @@
 	{
 		"assign": "DPSEvent_Achievement_Text_0-2-23",
 		"jp_text": "自己ベスト{1:#,0}達成 \n[{0:#,0} / {1:#,0}]",
-		"tr_text": " Set a Personal Best {1:#,0} times [{0:#,0} / {1:#,0}]"
+		"tr_text": " Set a Personal Best of {1:#,0}\n[{0:#,0} / {1:#,0}]"
 	},
 	{
 		"assign": "window_help_LM34",
-		"jp_text": "wh_48_01,\n「緊急チャレンジ」は、「1分間のうちに与えた総ダメージ数」を\n他のプレイヤーとランキング形式で競います。,\nwh_48_01,\n緊急チャレンジのプレイには、オペレーションポイント（ＯＰ）を\n1ポイント消費します。\n初回のみ、ＯＰを消費せずに挑戦することができます。,\nwh_48_02,\nこのイベントで登場するエネミーには、ＨＰがありません。\n画面左上にはＨＰゲージの代わりに、与えたダメージの合計値が表示されます。\n1分間の制限時間内で、エネミーにより多くのダメージ与えてください。,\nwh_48_03,\n1分間に与えたダメージの自己ベストが、イベントランキングに登録されます。\nイベント終了時の順位に応じて、報酬を獲得することができますので\n上位へのランクインを目指しましょう！,",
+		"jp_text": "wh_48_01,\n「限界チャレンジ」は、「1分間のうちに与えた総ダメージ数」を\n他のプレイヤーとランキング形式で競います。,\nwh_48_01,\n限界チャレンジのプレイには、オペレーションポイント（ＯＰ）を\n1ポイント消費します。\n初回のみ、ＯＰを消費せずに挑戦することができます。,\nwh_48_02,\nこのイベントで登場するエネミーには、ＨＰがありません。\n画面左上にはＨＰゲージの代わりに、与えたダメージの合計値が表示されます。\n1分間の制限時間内で、エネミーにより多くのダメージを与えてください。,\nwh_48_03,\n1分間に与えたダメージの自己ベストが、イベントランキングに登録されます。\nイベント終了時の順位に応じて、報酬を獲得することができますので\n上位へのランクインを目指しましょう！,",
 		"tr_text": ""
 	},
 	{
@@ -22751,8 +23031,8 @@
 	},
 	{
 		"assign": "auto_sale_setting_guide_message",
-		"jp_text": "<color=#f0df60>クエストで入手したアイテムを、受け取りボックスから「一括売却」する設定を行います。</color>",
-		"tr_text": "<color=#f0df60>Select items to be automatically sold in bulk from the Reception Box.</color>"
+		"jp_text": "<color=#f0df60>クエストやＦＵＮチップスクラッチで入手したアイテムとチップを、受け取りボックスへ送り、「一括売却」する設定を行います。</color>",
+		"tr_text": "<color=#f0df60>Select items obtained from quests and FUN Chip Scratches to be automatically sold in bulk from the Reception Box.</color>"
 	},
 	{
 		"assign": "auto_sale_setting_window_title",
@@ -22770,6 +23050,11 @@
 		"tr_text": "Units"
 	},
 	{
+		"assign": "auto_sale_setting_chip_tab",
+		"jp_text": "チップ",
+		"tr_text": "Chips"
+	},
+	{
 		"assign": "auto_sale_setting_tab_on",
 		"jp_text": "ON",
 		"tr_text": "ON"
@@ -22781,8 +23066,13 @@
 	},
 	{
 		"assign": "auto_sale_setting_disc",
-		"jp_text": "<color=#f0df60>※全ての条件を満たすと、「一括売却」に登録されます。</color>",
-		"tr_text": "<color=#f0df60>※All matching items will be designated for Bulk Sale.</color>"
+		"jp_text": "<color=#f0df60>全ての条件を満たすと、「一括売却」に登録されます。</color>",
+		"tr_text": "<color=#f0df60>All matching items will be designated for Bulk Sale.</color>"
+	},
+	{
+		"assign": "auto_sale_setting_disc_chip",
+		"jp_text": "<color=#f0df60>レアリティを設定すると、「一括売却」に登録されます。</color>",
+		"tr_text": "<color=#f0df60>※All items of this rarity will be designated for Bulk Sale.</color>"
 	},
 	{
 		"assign": "auto_sale_setting_rarity_text",
@@ -22825,6 +23115,11 @@
 		"tr_text": "Exclusions / Units"
 	},
 	{
+		"assign": "auto_sale_setting_exclusion_dialog_title_chip",
+		"jp_text": "保護設定 / チップ",
+		"tr_text": "Exclusions / Chips"
+	},
+	{
 		"assign": "auto_sale_setting_exclusion_dialog_disc_off",
 		"jp_text": "<color=#f0df60>受取一括売却設定が\n「ON」になると変更できます。</color>",
 		"tr_text": "<color=#f0df60>Can only be changed when\nBulk Sale is set to ON.</color>"
@@ -22833,6 +23128,16 @@
 		"assign": "auto_sale_setting_exclusion_dialog_disc_on",
 		"jp_text": "<color=#f0df60>特殊能力付きアイテムを保護し\n一括売却の対象外にします。</color>",
 		"tr_text": "<color=#f0df60>You can protect certain Special\nAbilities from Bulk Sale.</color>"
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_disc_chip_off",
+		"jp_text": "<color=#f0df60>受取一括売却設定が\n「ON」になると変更できます。</color>",
+		"tr_text": "<color=#f0df60>Can only be changed when\nBulk Sale is set to ON.</color>"
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_disc_chip_on",
+		"jp_text": "<color=#f0df60>保護したカテゴリのチップを\n一括売却の対象外にします。</color>",
+		"tr_text": "<color=#f0df60>You can protect certain chip\ncategories from Bulk Sale.</color>"
 	},
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_soul_receptor",
@@ -22853,6 +23158,21 @@
 		"assign": "auto_sale_setting_exclusion_dialog_factor_receptor",
 		"jp_text": "ファクターレセプター",
 		"tr_text": "Factor Receptor"
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_reverie_receptor",
+		"jp_text": "レヴリーレセプター",
+		"tr_text": "Reverie Receptor"
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_chip_pate",
+		"jp_text": "必殺技・法術",
+		"tr_text": "PAs/Techs"
+	},
+	{
+		"assign": "auto_sale_setting_exclusion_dialog_chip_mag",
+		"jp_text": "マグ",
+		"tr_text": "Mags"
 	},
 	{
 		"assign": "auto_sale_setting_save_button",
@@ -22925,6 +23245,16 @@
 		"tr_text": "Your settings have been changed.\nUnsaved changes will be lost.\nDo you wish to continue?"
 	},
 	{
+		"assign": "auto_sale_setting_chip_explanation",
+		"jp_text": "※初めて入手するチップや\n　　素材チップは対象に含まれません。",
+		"tr_text": "※New chips and material\n   chips are not included."
+	},
+	{
+		"assign": "auto_sale_setting_chip_info_button",
+		"jp_text": "一括売却チップ一覧",
+		"tr_text": "Chip Bulk Sale List"
+	},
+	{
 		"assign": "acceptbox_goto_all_sale_setting_button",
 		"jp_text": "一括売却設定",
 		"tr_text": "Bulk Sale\nSettings"
@@ -22952,7 +23282,7 @@
 	{
 		"assign": "acceptbox_all_sale_dialog_meseta_message",
 		"jp_text": "<%num>　⇒　<%after>",
-		"tr_text": ""
+		"tr_text": "<%num> ⇒ <%after>"
 	},
 	{
 		"assign": "acceptbox_no_all_sale_item",
@@ -22971,7 +23301,12 @@
 	},
 	{
 		"assign": "window_help_LM43",
-		"jp_text": "wh_56_01,\n<color=yellow>クエストで入手した「武器」「ユニット」</color>を\n受け取りボックスから<color=yellow>「一括売却」</color>することができます。\n一括売却設定に該当するアイテムは、自動的に受け取りボックスに送られます。,\nwh_56_02,\n一括売却するアイテムの<color=yellow>「レアリティ」</color>と<color=yellow>「特殊能力数」</color>を設定します。\n特殊能力の<color=yellow>ロック</color>で、特殊能力付きアイテムを<color=yellow>保護</color>できます。\n※PSO2連動キャラクターでのみ、アイテム詳細から特殊能力を確認できます。,",
+		"jp_text": "wh_56_01,\n<color=yellow>クエストやＦＵＮチップスクラッチで入手した「武器」「ユニット」「チップ」</color>を\n受け取りボックスから<color=yellow>「一括売却」</color>することができます。\n一括売却設定に該当するアイテムは、自動的に受け取りボックスに送られます。,\nwh_56_02,\n武器・ユニットは、一括売却する<color=yellow>「レアリティ」</color>と<color=yellow>「特殊能力数」</color>を設定します。\n特殊能力の<color=yellow>ロック</color>で、特殊能力付きアイテムを<color=yellow>保護</color>できます。\n※PSO2連動キャラクターでのみ、アイテム詳細から特殊能力を確認できます。,",
+		"tr_text": ""
+	},
+	{
+		"assign": "window_help_LM44",
+		"jp_text": "wh_58_01,\nチップは、一括売却する<color=yellow>「レアリティ」</color>を設定します。\nカテゴリの<color=yellow>ロック</color>で、そのカテゴリのチップを<color=yellow>保護</color>できます。\n※FUNチップスクラッチの排出チップも一括売却の対象になります。,",
 		"tr_text": ""
 	},
 	{
@@ -23082,7 +23417,7 @@
 	{
 		"assign": "scratch_point_text",
 		"jp_text": "「スクラッチポイント」は「ｅｓスクラッチ」を<%AC>で引いた時にもらえます。\n各レアリティのボタンから、ラインナップが確認できます。",
-		"tr_text": "You earn Scratch Points when you\nspend <AC> on es Scratch.\nYou can check the available prizes\nwith each rarity button."
+		"tr_text": "You earn Scratch Points when you spend\n<AC> on es Scratch. You can check the\navailable prizes with each rarity button."
 	},
 	{
 		"assign": "scrach_have_medal",
@@ -23142,7 +23477,7 @@
 	{
 		"assign": "scratch_get_rare_chip",
 		"jp_text": "★<%num>GET！",
-		"tr_text": ""
+		"tr_text": "★<%num> GET!"
 	},
 	{
 		"assign": "scratch_bonus_menu_new_info",
@@ -23197,37 +23532,37 @@
 	{
 		"assign": "scratch_have_ac_gold_ticket",
 		"jp_text": "所持ＡＣスクラッチゴールド券",
-		"tr_text": "AC Scratch gold tickets owned"
+		"tr_text": "AC Scratch gold tickets owned:"
 	},
 	{
 		"assign": "scratch_have_rappy_medal",
 		"jp_text": "所持ラッピーメダル",
-		"tr_text": "Medals owned"
+		"tr_text": "Medals owned:"
 	},
 	{
 		"assign": "scratch_have_scratch_es_ticket",
 		"jp_text": "所持esスクラッチコイン",
-		"tr_text": "es Scratch Coins owned"
+		"tr_text": "Coins owned:"
 	},
 	{
 		"assign": "scratch_have_rarity_ticket",
 		"jp_text": "所持チケット",
-		"tr_text": "Tickets owned"
+		"tr_text": "Tickets owned:"
 	},
 	{
 		"assign": "scratch_have_fun",
 		"jp_text": "所持ＦＵＮ",
-		"tr_text": "FUN owned"
+		"tr_text": "FUN owned:"
 	},
 	{
 		"assign": "scratch_have_ac",
 		"jp_text": "所持<%AC>",
-		"tr_text": "<%AC> owned"
+		"tr_text": "<%AC> owned:"
 	},
 	{
 		"assign": "scratch_have_iac",
 		"jp_text": "所持<%AC>",
-		"tr_text": "<%AC> owned"
+		"tr_text": "<%AC> owned:"
 	},
 	{
 		"assign": "scratch_show_count",
@@ -23242,12 +23577,12 @@
 	{
 		"assign": "scratch_have_scratch_ac_ticket",
 		"jp_text": "所持ＡＣスクラッチ券",
-		"tr_text": "AC Scratch tickets owned"
+		"tr_text": "AC Scratch tickets owned:"
 	},
 	{
 		"assign": "scratch_weaponoid_text",
-		"jp_text": "「ｅｓ1スクラッチ」<%AC>11回引き3回ごとに、券を1枚もらえます。\n選択したウェポノイドチップの中から1枚を獲得できます。",
-		"tr_text": "You receive 1 ticket every 3 times you spend\n<%AC> to draw 11 times on es1 Scratch.\nYou can select one of the below Weaponoid chips."
+		"jp_text": "「ｅｓ1スクラッチ」<%AC>11回引き3回ごとに、コインを1枚もらえます。\n選択したウェポノイドチップの中から1枚を獲得できます。",
+		"tr_text": "You receive 1 Coin every 3 times you spend\n<%AC> to draw 11 times on es1 Scratch.\nYou can select one of the below Weaponoid chips."
 	},
 	{
 		"assign": "scratch_limited_time",
@@ -23257,62 +23592,62 @@
 	{
 		"assign": "scratch_bonus_next",
 		"jp_text": "NEXT>>",
-		"tr_text": ""
+		"tr_text": "NEXT>>"
 	},
 	{
 		"assign": "raid_scratch_dialog_new_b_01",
 		"jp_text": "ボーナスポイント <color=yellow>{0}</color>ptで\nボーナススクラッチ\n「{1}」を<color=yellow>{2}</color>回引きます。\nよろしいですか？\n",
-		"tr_text": ""
+		"tr_text": "Now spending <color=yellow>{0}</color> Bonus Points\nto draw {2} times on the\n{1} Bonus Scratch.\nDo you wish to continue?"
 	},
 	{
 		"assign": "raid_scratch_have_point",
 		"jp_text": "所持ポイント",
-		"tr_text": ""
+		"tr_text": "Points Owned"
 	},
 	{
 		"assign": "raid_scratch_title",
 		"jp_text": "ボーナスポイント「{0}」",
-		"tr_text": ""
+		"tr_text": "Bonus Points [{0}]"
 	},
 	{
 		"assign": "raid_scratch_now_stage",
 		"jp_text": "<color=#ffff00>STAGE{0}　</color>",
-		"tr_text": ""
+		"tr_text": "<color=#ffff00>STAGE {0}  </color>"
 	},
 	{
 		"assign": "raid_scratch_all_items",
 		"jp_text": "<size=16>あと </size>{0}<size=16>回</size>",
-		"tr_text": ""
+		"tr_text": "{0} <size=16>left</size>"
 	},
 	{
 		"assign": "raid_scratch_all_items_reset",
 		"jp_text": "<size=16>あと </size>{0}<size=16>回 でリセット</size>",
-		"tr_text": ""
+		"tr_text": "{0}<size=16>until reset</size>"
 	},
 	{
 		"assign": "raid_scratch_stage_info",
 		"jp_text": "<color=#ffff00>STAGE{0}</color>で\nもらえる！",
-		"tr_text": ""
+		"tr_text": "<color=#ffff00>STAGE {0}</color>\nreached!"
 	},
 	{
 		"assign": "raid_scratch_bonus_new_point",
 		"jp_text": "<color=#e25f04>{0}</color><size=25>pt</size>",
-		"tr_text": ""
+		"tr_text": "<color=#e25f04>{0}</color><size=25>pt</size>"
 	},
 	{
 		"assign": "raid_scratch_bonus_show_point",
 		"jp_text": "{0}pt ⇒ {1}pt",
-		"tr_text": ""
+		"tr_text": "{0}pt ⇒ {1}pt"
 	},
 	{
 		"assign": "raid_scratch_bonus_retry_conect",
 		"jp_text": "データの通信に失敗しました。\nリトライしますか？",
-		"tr_text": ""
+		"tr_text": "Communication failure.\nDo you wish to retry?"
 	},
 	{
 		"assign": "raid_scratch_connect_cancel",
 		"jp_text": "通信を中断して\n現在までのスクラッチ結果を表示します。\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "Communication has been interrupted.\nThese are the items you have\nbeen awarded so far.\nDo you wish to stop here?"
 	},
 	{
 		"assign": "raid_scratch_connect_first_cancel",
@@ -23322,37 +23657,37 @@
 	{
 		"assign": "raid_scratch_connect_cancel_title",
 		"jp_text": "スクラッチの中断",
-		"tr_text": ""
+		"tr_text": "Scratching Interrupted"
 	},
 	{
 		"assign": "raid_scratch_page_view",
 		"jp_text": "{0}<color=#688CA7> / </color>{1}",
-		"tr_text": ""
+		"tr_text": "{0}<color=#688CA7> / </color>{1}"
 	},
 	{
 		"assign": "raid_scratch_page_previous",
 		"jp_text": "前",
-		"tr_text": ""
+		"tr_text": "Prev."
 	},
 	{
 		"assign": "raid_scratch_page_next",
 		"jp_text": "次",
-		"tr_text": ""
+		"tr_text": "Next"
 	},
 	{
 		"assign": "raid_scratch_page_first",
 		"jp_text": "最初",
-		"tr_text": ""
+		"tr_text": "First"
 	},
 	{
 		"assign": "raid_scratch_page_last",
 		"jp_text": "最後",
-		"tr_text": ""
+		"tr_text": "Last"
 	},
 	{
 		"assign": "raid_scratch_stack_count",
 		"jp_text": "×{0}",
-		"tr_text": ""
+		"tr_text": "x {0}"
 	},
 	{
 		"assign": "acceptbox_accept_failed_dialog_title",
@@ -23367,11 +23702,226 @@
 	{
 		"assign": "check_story_play_dialog_title",
 		"jp_text": "ストーリー再生確認",
-		"tr_text": ""
+		"tr_text": "Story Playback Confirmation"
 	},
 	{
 		"assign": "check_story_play_dialog_message",
 		"jp_text": "ストーリーを再生しますか？",
+		"tr_text": "Do you want to replay the story?"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_button",
+		"jp_text": "交換",
+		"tr_text": "⇒XH"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_title",
+		"jp_text": "トリガー交換",
+		"tr_text": "Trigger Exchange"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_message",
+		"jp_text": "超級トリガー <color=yellow>{0}</color>個を\n覇級トリガー <color=yellow>{1}</color>個に交換します。",
+		"tr_text": "Trading <color=yellow>{0}</color> Super Hard Triggers\nfor <color=yellow>{1}</color> Extra Hard Triggers."
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_sp_trigger_name",
+		"jp_text": "・超級トリガー",
+		"tr_text": "・Super Hard Triggers"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_absolute_trigger_name",
+		"jp_text": "・覇級トリガー",
+		"tr_text": "・Extra Hard Triggers"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_trigger_num",
+		"jp_text": "所持数：",
+		"tr_text": " owned: "
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_dialog_trigger_num_before_after",
+		"jp_text": "{0:#,0}個　⇒　{1:#,0}個",
+		"tr_text": "{0:#,0}　⇒　{1:#,0}"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_finish_dialog_title",
+		"jp_text": "トリガー交換",
+		"tr_text": "Trigger Exchange"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_finish_dialog_message",
+		"jp_text": "交換が完了しました。",
+		"tr_text": "Exchange complete."
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_disable_dialog_title",
+		"jp_text": "所持トリガー不足",
+		"tr_text": "Insufficient Triggers"
+	},
+	{
+		"assign": "emergency_quest_trade_trigger_disable_dialog_message",
+		"jp_text": "トリガーが不足しています。\n\n交換に必要なトリガー\n　 ・超級トリガー：{0}個",
+		"tr_text": "You do not have enough Triggers to exchange.\nTriggers needed:\n・Super Hard: {0}"
+	},
+	{
+		"assign": "quest_counter_raid_current_new_rank",
+		"jp_text": "<color=#ffff00><%rank>ランク討伐達成</color>まで / ",
+		"tr_text": "<color=#ffff00>Rank <%rank> achieved</color> / "
+	},
+	{
+		"assign": "quest_counter_raid_current_new_rank_time",
+		"jp_text": "<%hh>:<%mm>:<%ss>",
+		"tr_text": "<%hh>:<%mm>:<%ss>"
+	},
+	{
+		"assign": "quest_counter_raid_current_new_rank_b",
+		"jp_text": "<color=#ffff00>クエストクリアでBランク討伐</color>",
+		"tr_text": "<color=#ffff00>Quest clear rank B achieved</color>"
+	},
+	{
+		"assign": "raid_event_page_term",
+		"jp_text": "<%year>年<%month>月<%day>日(<%week>)<size=12>まで</size>",
+		"tr_text": "<%year>-<%month>-<%day> (<%week>)<size=12></size>"
+	},
+	{
+		"assign": "raid_event_quest_list_term",
+		"jp_text": "<%year>/<%month>/<%day> <%hour>：<%minute> まで",
+		"tr_text": ""
+	},
+	{
+		"assign": "rshop_dialog_change_rare_enemy_point",
+		"jp_text": "レアエネミーポイント×<%num>\nと、以下のアイテムを交換します。よろしいですか？",
+		"tr_text": "Exchanging the below items\nfor <%num> Rare Enemy Points.\nDo you wish to continue?"
+	},
+	{
+		"assign": "rshop_dialog_button_chip_pack",
+		"jp_text": "チップパックのみ",
+		"tr_text": "Chip Pack only"
+	},
+	{
+		"assign": "rshop_dialog_button_receive",
+		"jp_text": "受け取りボックスのみ",
+		"tr_text": "Reception Box only"
+	},
+	{
+		"assign": "rshop_dialog_button_chip_pack_receive",
+		"jp_text": "全て",
+		"tr_text": "All"
+	},
+	{
+		"assign": "rshop_dialog_rare_enemy_point_select_target",
+		"jp_text": "所持している全てのレアエネミーチップを\nレアエネミーポイントに一括交換します。\nよろしいですか？\n\n<color=#ff0000>※交換したくないチップは\n　　チップ詳細の画面からロックしてください。</color>\n\n■所持レアエネミーチップ\nチップパック：<%packnum>枚\n受け取りボックス：<%boxnum>枚",
+		"tr_text": "Exchanging all owned Rare Enemy chips for\nRare Enemy Points simultaneously.\nDo you wish to continue?\n\n<color=#ff0000>※If you do not want to exchange a chip, please\n   return and Favorite it.</color>\nRare Enemy chips in Chip Pack: <%packnum>\nRare Enemy chips in Reception Box: <%boxnum>"
+	},
+	{
+		"assign": "lobby_survival_ranking",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_ranking_num",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_mission",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_mission_num",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_mission_button",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_score",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_score_num",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_sore_unit",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_guide",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_guide_ranking",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_guide_mission",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_slash",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_summary_tab_info",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_summary_tab_reward",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_summary_attribute",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_summary_enemy",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_summary_reward",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_return_dialog_title",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_return_dialog_message",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_return_dialog_return_button",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_return_dialog_end_button",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_quest_name",
+		"jp_text": "-",
 		"tr_text": ""
 	}
 ]
