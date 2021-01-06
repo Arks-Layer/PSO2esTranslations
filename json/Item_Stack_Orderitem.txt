@@ -39,7 +39,7 @@
 		"jp_text": "ディグナッツの肉",
 		"tr_text": "디그너츠 고기",
 		"jp_explain": "ディグナッツから採れた肉。\n肉質がとてもかたい。",
-		"tr_explain": ""
+		"tr_explain": "Meat taken from a Diggnutts.\nThis meat is extremely tough."
 	},
 	{
 		"assign": "3306",
@@ -312,7 +312,7 @@
 		"jp_text": "謎の木の実",
 		"tr_text": "수수께끼의 나무 열매",
 		"jp_explain": "ナベリウスで採取された木の実。\nウーダンが好んで食べるようだ。\n依頼者：<c a1ff6d>フランカ<c>　再受注可能",
-		"tr_explain": "Fruit from a tree on Naberius. Seems\nthat it's Oodans' favourite food.\nClient: <c a1ff6d>Franka<c> (repeatable)"
+		"tr_explain": "Fruit from a tree on Naberius. Seems\nto be Oodans' favorite food.\nClient: <c a1ff6d>Franka<c> (repeatable)"
 	},
 	{
 		"assign": "33045",
@@ -326,7 +326,7 @@
 		"jp_text": "みずみずしい木の実",
 		"tr_text": "싱싱한 나무 열매",
 		"jp_explain": "ナベリウスで採取された木の実。\nロックベアが好んで食べる模様。\n依頼者：<c a1ff6d>フランカ<c>　再受注可能",
-		"tr_explain": "Fruit from a tree on Naberius. Seems\nthat it's Rockbears' favourite food.\nClient: <c a1ff6d>Franka<c> (repeatable)"
+		"tr_explain": "Fruit from a tree on Naberius. Seems\nto be Rockbears' favorite food.\nClient: <c a1ff6d>Franka<c> (repeatable)"
 	},
 	{
 		"assign": "33047",
@@ -403,14 +403,14 @@
 		"jp_text": "メカニカル・フライパン",
 		"tr_text": "메카니컬 후라이팬",
 		"jp_explain": "機甲種のパーツで構成された調理器具。\n熱エネルギーの伝導率が高い。",
-		"tr_explain": ""
+		"tr_explain": "A cooking utensil made from Mech\nparts. Has high thermal conductivity."
 	},
 	{
 		"assign": "33058",
 		"jp_text": "大肉切包丁",
 		"tr_text": "큰 고기 정육도",
 		"jp_explain": "グワナーダのあごで作った調理器具。\n大型の肉を切るのに最適。",
-		"tr_explain": ""
+		"tr_explain": "Cooking utensil made from Gwanahda's\njaw. Great for large pieces of meat."
 	},
 	{
 		"assign": "33059",
@@ -487,7 +487,7 @@
 		"jp_text": "霜の降った稲穂",
 		"tr_text": "Verdant Plant",
 		"jp_explain": "霜が降りかかった稲穂。\nマルモスが好んで食べている。\n依頼者：<c a1ff6d>フランカ<c>　再受注可能",
-		"tr_explain": "A head of rice rimed with frost. A\nfavourite food of Malmoths.\nClient: <c a1ff6d>Franka<c> (repeatable)"
+		"tr_explain": "A head of rice rimed with frost. A\nfavorite food of Malmoths.\nClient: <c a1ff6d>Franka<c> (repeatable)"
 	},
 	{
 		"assign": "33070",
@@ -2545,7 +2545,7 @@
 		"jp_text": "虹色の果実",
 		"tr_text": "Rainbow Fruit",
 		"jp_explain": "浮遊大陸で採れる果実。\n龍族も好んで食べるという。\n依頼者：<c a1ff6d>シー<c>　ホワイトデー",
-		"tr_explain": "Fruit found in the Skyscape.\nSaid to be a favourite of Dragonkin.\nClient: <c a1ff6d>Xie<c> (White Day)"
+		"tr_explain": "Fruit found in the Skyscape.\nSaid to be a favorite of Dragonkin.\nClient: <c a1ff6d>Xie<c> (White Day)"
 	},
 	{
 		"assign": "330375",
@@ -3404,252 +3404,252 @@
 	{
 		"assign": "330533",
 		"jp_text": "ＰＡフラグメント（法撃）",
-		"tr_text": "PA 프래그먼트 (법격)",
+		"tr_text": "PA Fragment (T-ATK)",
 		"jp_explain": "クラフトレシピで必要とされる\n法撃系データディスクの欠片。",
 		"tr_explain": "Required for Crafting Recipes.\nA fragment of a Technique data disk."
 	},
 	{
 		"assign": "330534",
 		"jp_text": "ＰＡフラグメント（打撃）",
-		"tr_text": "PA 프래그먼트 (타격)",
+		"tr_text": "PA Fragment (S-ATK)",
 		"jp_explain": "クラフトレシピで必要とされる\n打撃系データディスクの欠片。",
 		"tr_explain": "Required for Crafting Recipes. A\nfragment of a Striking PA data disk."
 	},
 	{
 		"assign": "330535",
 		"jp_text": "ＰＡフラグメント（射撃）",
-		"tr_text": "PA 프래그먼트 (사격)",
+		"tr_text": "PA Fragment (R-ATK)",
 		"jp_explain": "クラフトレシピで必要とされる\n射撃系データディスクの欠片。",
 		"tr_explain": "Required for Crafting Recipes. A\nfragment of a Ranged PA data disk."
 	},
 	{
 		"assign": "330536",
 		"jp_text": "アイロニア",
-		"tr_text": "아이로니아",
+		"tr_text": "Ironia",
 		"jp_explain": "クラフトレシピで必要とされる\n打撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Striking weapons."
 	},
 	{
 		"assign": "330537",
 		"jp_text": "スティニア",
-		"tr_text": "스티니아",
+		"tr_text": "Steenia",
 		"jp_explain": "クラフトレシピで必要とされる\n打撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Striking weapons."
 	},
 	{
 		"assign": "330538",
 		"jp_text": "シルバニア",
-		"tr_text": "실바니아",
+		"tr_text": "Silvania",
 		"jp_explain": "クラフトレシピで必要とされる\n打撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Striking weapons."
 	},
 	{
 		"assign": "330539",
 		"jp_text": "ゴードニア",
-		"tr_text": "고드니아",
+		"tr_text": "Goldnia",
 		"jp_explain": "クラフトレシピで必要とされる\n打撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Striking weapons."
 	},
 	{
 		"assign": "330540",
 		"jp_text": "プラムニア",
-		"tr_text": "플람니아",
+		"tr_text": "Plamia",
 		"jp_explain": "クラフトレシピで必要とされる\n打撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Striking weapons."
 	},
 	{
 		"assign": "330541",
 		"jp_text": "アイロデスト",
-		"tr_text": "아이로데스트",
+		"tr_text": "Irodest",
 		"jp_explain": "クラフトレシピで必要とされる\n射撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Ranged weapons."
 	},
 	{
 		"assign": "330542",
 		"jp_text": "スティデスト",
-		"tr_text": "스티데스트",
+		"tr_text": "Steedest",
 		"jp_explain": "クラフトレシピで必要とされる\n射撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Ranged weapons."
 	},
 	{
 		"assign": "330543",
 		"jp_text": "シルバデスト",
-		"tr_text": "실바데스트",
+		"tr_text": "Silvadest",
 		"jp_explain": "クラフトレシピで必要とされる\n射撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Ranged weapons."
 	},
 	{
 		"assign": "330544",
 		"jp_text": "ゴードデスト",
-		"tr_text": "고드데스트",
+		"tr_text": "Goldest",
 		"jp_explain": "クラフトレシピで必要とされる\n射撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Ranged weapons."
 	},
 	{
 		"assign": "330545",
 		"jp_text": "プラムデスト",
-		"tr_text": "플람데스트",
+		"tr_text": "Plamdest",
 		"jp_explain": "クラフトレシピで必要とされる\n射撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Ranged weapons."
 	},
 	{
 		"assign": "330546",
 		"jp_text": "アイログリモ",
-		"tr_text": "아이로그리모",
+		"tr_text": "Irogrimo",
 		"jp_explain": "クラフトレシピで必要とされる\n法撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Tech weapons."
 	},
 	{
 		"assign": "330547",
 		"jp_text": "スティグリモ",
-		"tr_text": "스티그리모",
+		"tr_text": "Steegrimo",
 		"jp_explain": "クラフトレシピで必要とされる\n法撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Tech weapons."
 	},
 	{
 		"assign": "330548",
 		"jp_text": "シルバグリモ",
-		"tr_text": "실바그리모",
+		"tr_text": "Silvagrimo",
 		"jp_explain": "クラフトレシピで必要とされる\n法撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Tech weapons."
 	},
 	{
 		"assign": "330549",
 		"jp_text": "ゴードグリモ",
-		"tr_text": "고드그리모",
+		"tr_text": "Goldgrimo",
 		"jp_explain": "クラフトレシピで必要とされる\n法撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Tech weapons."
 	},
 	{
 		"assign": "330550",
 		"jp_text": "プラムグリモ",
-		"tr_text": "플람그리모",
+		"tr_text": "Plamgrimo",
 		"jp_explain": "クラフトレシピで必要とされる\n法撃武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for Tech weapons."
 	},
 	{
 		"assign": "330551",
 		"jp_text": "アイロリアス",
-		"tr_text": "아이로리아스",
+		"tr_text": "Irorias",
 		"jp_explain": "クラフトレシピで必要とされる\nリアユニット用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for rear units."
 	},
 	{
 		"assign": "330552",
 		"jp_text": "スティリアス",
-		"tr_text": "스티리아스",
+		"tr_text": "Steerias",
 		"jp_explain": "クラフトレシピで必要とされる\nリアユニット用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for rear units."
 	},
 	{
 		"assign": "330553",
 		"jp_text": "シルバリアス",
-		"tr_text": "실바리아스",
+		"tr_text": "Silvarias",
 		"jp_explain": "クラフトレシピで必要とされる\nリアユニット用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for rear units."
 	},
 	{
 		"assign": "330554",
 		"jp_text": "ゴードリアス",
-		"tr_text": "고드리아스",
+		"tr_text": "Goldiarias",
 		"jp_explain": "クラフトレシピで必要とされる\nリアユニット用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for rear units."
 	},
 	{
 		"assign": "330556",
 		"jp_text": "アイロアムス",
-		"tr_text": "아이로암스",
+		"tr_text": "Iroams",
 		"jp_explain": "クラフトレシピで必要とされる\nアームユニット用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for arm units."
 	},
 	{
 		"assign": "330557",
 		"jp_text": "スティアムス",
-		"tr_text": "스티암스",
+		"tr_text": "Steeams",
 		"jp_explain": "クラフトレシピで必要とされる\nアームユニット用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for arm units."
 	},
 	{
 		"assign": "330558",
 		"jp_text": "シルバアムス",
-		"tr_text": "실바암스",
+		"tr_text": "Silvaams",
 		"jp_explain": "クラフトレシピで必要とされる\nアームユニット用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for arm units."
 	},
 	{
 		"assign": "330559",
 		"jp_text": "ゴードアムス",
-		"tr_text": "고드암스",
+		"tr_text": "Goldiaams",
 		"jp_explain": "クラフトレシピで必要とされる\nアームユニット用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for arm units."
 	},
 	{
 		"assign": "330561",
 		"jp_text": "アイロレグス",
-		"tr_text": "아이로레그스",
+		"tr_text": "Irolegs",
 		"jp_explain": "クラフトレシピで必要とされる\nレッグユニット用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for leg units."
 	},
 	{
 		"assign": "330562",
 		"jp_text": "スティレグス",
-		"tr_text": "스티레그스",
+		"tr_text": "Steelegs",
 		"jp_explain": "クラフトレシピで必要とされる\nレッグユニット用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for leg units."
 	},
 	{
 		"assign": "330563",
 		"jp_text": "シルバレグス",
-		"tr_text": "실바레그스",
+		"tr_text": "Silvalegs",
 		"jp_explain": "クラフトレシピで必要とされる\nレッグユニット用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for leg units."
 	},
 	{
 		"assign": "330564",
 		"jp_text": "ゴードレグス",
-		"tr_text": "고드레그스",
+		"tr_text": "Goldialegs",
 		"jp_explain": "クラフトレシピで必要とされる\nレッグユニット用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for leg units."
 	},
 	{
 		"assign": "330566",
 		"jp_text": "ルビアード",
-		"tr_text": "루비아드",
+		"tr_text": "Rubiard",
 		"jp_explain": "クラフトレシピで必要とされる\n希少な武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for rare weapons."
 	},
 	{
 		"assign": "330567",
 		"jp_text": "サファード",
-		"tr_text": "사파드",
+		"tr_text": "Saphard",
 		"jp_explain": "クラフトレシピで必要とされる\n希少な武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for rare weapons."
 	},
 	{
 		"assign": "330568",
 		"jp_text": "エメラード",
-		"tr_text": "에메라드",
+		"tr_text": "Emerard",
 		"jp_explain": "クラフトレシピで必要とされる\n希少な武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for rare weapons."
 	},
 	{
 		"assign": "330569",
 		"jp_text": "ディアルド",
-		"tr_text": "디아드",
+		"tr_text": "Diard",
 		"jp_explain": "クラフトレシピで必要とされる\n希少な武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for rare weapons."
 	},
 	{
 		"assign": "330570",
 		"jp_text": "ネオジット",
-		"tr_text": "네오지트",
+		"tr_text": "Neojit",
 		"jp_explain": "クラフトレシピで必要とされる\n希少なユニット用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for rare units."
 	},
 	{
 		"assign": "330571",
 		"jp_text": "プロメチット",
-		"tr_text": "프로메치트",
+		"tr_text": "Promechit",
 		"jp_explain": "クラフトレシピで必要とされる\n希少なユニット用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for rare units."
 	},
@@ -4944,14 +4944,14 @@
 	{
 		"assign": "330782",
 		"jp_text": "虹色のリボン２０２０",
-		"tr_text": "",
+		"tr_text": "Rainbow Ribbon 2020",
 		"jp_explain": "胸に付けるための虹色をしたリボン。\n専用交換ショップで景品と交換できる。",
-		"tr_explain": ""
+		"tr_explain": "A rainbow-colored ribbon that\ncan be worn on your chest. You can\ntrade it for prizes at a certain shop."
 	},
 	{
 		"assign": "330798",
 		"jp_text": "時還石クロノス",
-		"tr_text": "시공석 크로노스",
+		"tr_text": "Time Reversal Stone Chronos",
 		"jp_explain": "オメガで発見された未知の物質。\n破損した武器を過去のあるべき姿へと\n修復するエネルギーを持つ。",
 		"tr_explain": "An unknown substance found\nin Omega. It can restore damaged\nweapons to their former glory."
 	},
@@ -5033,37 +5033,65 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "330810",
+		"jp_text": "シャイニーソウル",
+		"tr_text": "Shiny Soul",
+		"jp_explain": "生成過程が不明な、眩い光を放つ結晶。\n別名「輝魂鉱石」と呼ばれている。\n依頼者：<c a1ff6d>Sighx<c>　再受注可能",
+		"tr_explain": "A crystal with an unknown origin\nthat emits a dazzling glow. It is\nalso known as \"Brightstone Ore\".\nClient: <c a1ff6d>Sighx<c> (repeatable)"
+	},
+	{
+		"assign": "330811",
+		"jp_text": "ウォータークリスタル",
+		"tr_text": "Water Crystal",
+		"jp_explain": "吸水性が高く柔らかい、青く輝く結晶。\n最高級の砥石として重宝されている。\n依頼者：<c a1ff6d>エクル<c>　再受注可能",
+		"tr_explain": "A soft and shiny water-absorbent\nblue crystal. It can be used as a\nhigh grade whetstone.\nClient: <c a1ff6d>Ecru<c> (repeatable)"
+	},
+	{
+		"assign": "330812",
+		"jp_text": "爆破火薬",
+		"tr_text": "Explosive Gunpowder",
+		"jp_explain": "刺激を与えると大爆発を起こすので\n取り扱いには専門知識を要する。\n依頼者：<c a1ff6d>ストーキー<c>　再受注可能",
+		"tr_explain": "Explodes at the slightest stimulus.\nSpecial training is needed to handle it.\nClient: <c a1ff6d>Stooky<c> (repeatable)"
+	},
+	{
+		"assign": "330813",
+		"jp_text": "木の実のボタン",
+		"tr_text": "Peony Seeds",
+		"jp_explain": "ボタンの形に似た不思議な木の実。\n自然な風合いで、服の飾りにぴったり。\n依頼者：<c a1ff6d>monchi<c>　再受注可能",
+		"tr_explain": "Mysterious nuts in the shape of\nbuttons. Perfect for use on clothing.\nClient: <c a1ff6d>monchi<c> (repeatable)"
+	},
+	{
 		"assign": "330849",
 		"jp_text": "魔骨石ケイオス",
-		"tr_text": "마골석 케이오스",
+		"tr_text": "Demon Fossil Chaos",
 		"jp_explain": "異世界オメガで発見された素材。\n魔物種を素材にした武器に使用すると\n限界を超えた性能を引き出すという。",
 		"tr_explain": "Material found in Omega. When used\non weapons created from Demons,\nyou can greatly improve their limits."
 	},
 	{
 		"assign": "330850",
 		"jp_text": "重焔石ヴェスタ",
-		"tr_text": "중염석 베스타",
+		"tr_text": "Flaming Stone Vesta",
 		"jp_explain": "紅と紫の焔を重ね合わせに内包する\n不思議な石。焔を宿す武器の素材で\nいずれかの性能に進化させる力を持つ。",
 		"tr_explain": "A mysterious stone with overlapping\nred and purple flames. It can evolve\nweapons that hold its flames."
 	},
 	{
 		"assign": "330851",
 		"jp_text": "黄色の狩猟石",
-		"tr_text": "노란 수렵석",
+		"tr_text": "Yellow Hunting Stone",
 		"jp_explain": "黄色に輝く結晶石。交換ショップで\nアイテムとの交換が可能で、ジグに渡すと\n特定武器の強化素材にできる。",
 		"tr_explain": "A crystal that shines yellow. Can be\ntraded for items, or Zieg can use it\nto upgrade certain weapons."
 	},
 	{
 		"assign": "330852",
 		"jp_text": "紅色の狩猟石",
-		"tr_text": "붉은 수렵석",
+		"tr_text": "Magenta Hunting Stone",
 		"jp_explain": "不思議な力を持った\n赤色に輝く結晶石。\n交換ショップで景品と交換できる。",
 		"tr_explain": "A crystal that shines red with a\nmysterious power. Can be exchanged\nfor items at the Recycle Shop."
 	},
 	{
 		"assign": "330853",
 		"jp_text": "蒼色の狩猟石",
-		"tr_text": "푸른 수렵석",
+		"tr_text": "Pale Hunting Stone",
 		"jp_explain": "不思議な力を持った\n青色に輝く結晶石。\n交換ショップで景品と交換できる。",
 		"tr_explain": "A crystal that shines blue with a\nmysterious power. Can be exchanged\nfor items at the Recycle Shop."
 	},

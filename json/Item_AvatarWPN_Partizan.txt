@@ -4,35 +4,56 @@
 		"jp_text": "＊アイン・ザ・カプリコーン",
 		"tr_text": "＊Ain the Capricorn",
 		"jp_explain": "磨羯の加護を受けた長槍型武器迷彩。\n動かせられぬ定めの象徴とも言われ\n装者に強い意志と行動力をもたらす。",
-		"tr_explain": "Partizan-type weapon camouflage\nblessed by Capricorn. As the zodiac\nsign of hard work, it grants a person\nthe ability to take act decisively."
+		"tr_explain": "Partizan-type camo blessed by\nCapricorn. As the zodiac sign of\nhard work, it grants decisiveness."
 	},
 	{
 		"assign": "10301",
 		"jp_text": "＊ウェディングケーキ",
 		"tr_text": "＊Wedding Cake",
 		"jp_explain": "急な召集で挙式できなかったカップルに\n用意された特殊な長槍型武器迷彩。戦い\nながら入刀でき、引き出物としても人気。",
-		"tr_explain": "Partizan-type weapon camouflage\nspecially prepared for couples who\ncannot hold a wedding ceremony due\nto time constraints. A popular gift."
+		"tr_explain": "Partizan-type camo prepared for\ncouples who don't have time to hold\na wedding ceremony. A popular gift."
 	},
 	{
 		"assign": "10302",
 		"jp_text": "＊フェームフラッグ",
 		"tr_text": "＊Fame Flag",
 		"jp_explain": "名声を得たアークスだけが使用できる\n長槍型武器迷彩。その栄えある形状から\n敵に畏れられ、戦いを有利に展開する。",
-		"tr_explain": "Partizan-type weapon camouflage\nwielded by famed ARKS members. Its\nglorious form instills fear into the\nenemy, which brings victory in battle."
+		"tr_explain": "Partizan camo wielded by famed ARKS\nmembers. Its glory instills fear into the\nenemy and brings victory in battle."
 	},
 	{
 		"assign": "10303",
 		"jp_text": "＊ジークムント",
 		"tr_text": "＊Sigmund",
 		"jp_explain": "炎槍の名を冠し、退魔の力を保有する\n長槍型武器迷彩。スマートな形状だが\n非常に強力な攻撃を繰り出せる。",
-		"tr_explain": "Partizan-type weapon camouflage\nknown as the \"Flame Lance\", which\nholds the power to repel dark forces.\nDespite its flair, it is very powerful."
+		"tr_explain": "Partizan camo known as the \"Flame\nLance\". Despite its flashy appearance,\nit holds the power to repel darkness."
 	},
 	{
 		"assign": "10304",
 		"jp_text": "＊スペースケーキ",
 		"tr_text": "＊Space Cake",
 		"jp_explain": "ウェディングでも使用可能な長槍型\n武器迷彩。宇宙空間での劣化を克服し、\n長期戦でも風味を損わない高級品。",
-		"tr_explain": "Partizan-type weapon camouflage for\nweddings. Overcoming deterioration\nin outer space, this luxury item will\nnever lose its taste in battle."
+		"tr_explain": "Partizan camo for weddings. Made to\nendure even outer space, this luxury\nitem will never lose its taste in battle."
+	},
+	{
+		"assign": "10308",
+		"jp_text": "＊リュミラピア",
+		"tr_text": "＊Lumirapia",
+		"jp_explain": "武術に長けた正義感の強いアークスが\n好んで使用する長槍型武器迷彩。\n巻き付く金龍は正義の味方の象徴。",
+		"tr_explain": "Partizan camo for warriors with a\nstrong sense of justice. The golden\ndragon is a symbol of justice."
+	},
+	{
+		"assign": "10309",
+		"jp_text": "＊リュミレイバ",
+		"tr_text": "＊Lumireiba",
+		"jp_explain": "武術に長けた正義感の強いアークスが\n好んで使用する長槍型武器迷彩。\n玉石と蓮の花が秘めたる力を引き出す。",
+		"tr_explain": "Partizan camo for warriors with a\nstrong sense of justice. The gems\nand lotus unleash their hidden power."
+	},
+	{
+		"assign": "103010",
+		"jp_text": "＊リュミロイド",
+		"tr_text": "＊Lumiroid",
+		"jp_explain": "武術に長けた正義感の強いアークスが\n好んで使用する長槍型武器迷彩。\n揺れる布がフォトンの力を強める。",
+		"tr_explain": "Partizan camo for warriors with a\nstrong sense of justice. The hanging\ncloth boosts its Photonic power."
 	},
 	{
 		"assign": "10308",
@@ -60,42 +81,42 @@
 		"jp_text": "＊ヴァルキュリアの槍",
 		"tr_text": "＊Valkyria Lance",
 		"jp_explain": "ヴァルキュリア人が使用していた槍を\n模した長槍型武器迷彩。戦場において\n蒼く光輝き見る者を圧倒したという。",
-		"tr_explain": "Partizan-type weapon camouflage\nthat imitates a Valkyrie's lance.\nOverwhelms the beholder with its\nradiant blue light in the battlefield."
+		"tr_explain": "Partizan camo based on a Valkyria's\nlance. Overwhelms the beholder with\nits radiant blue light on the battlefield."
 	},
 	{
 		"assign": "103012",
 		"jp_text": "＊ヘビーブラッシュ",
 		"tr_text": "＊Heavy Brush",
 		"jp_explain": "一流書道家が愛用する巨大な筆に\nフォトン加工を施した長槍型武器迷彩。\n握りやすく、毛の弾力が強い。",
-		"tr_explain": ""
+		"tr_explain": "Partizan camo that builds Photon\ntechnology into a calligraphy brush.\nEasy to grip, with very flexible bristles."
 	},
 	{
 		"assign": "103013",
 		"jp_text": "＊ゲイ・ボルク",
 		"tr_text": "＊Gae Bolg",
 		"jp_explain": "第五次聖杯戦争で召喚された\nランサーが持つ宝具を模した武器迷彩。\n真名解放によって必殺の武具と化す。",
-		"tr_explain": ""
+		"tr_explain": "Partizan camo used by Lancer in the\nFifth Grail War. Speaking its true name\nmakes it a weapon of certain death."
 	},
 	{
 		"assign": "103014",
 		"jp_text": "＊ルテルテトイラ",
 		"tr_text": "＊Rute Rute Toira",
 		"jp_explain": "子供用の可愛らしい傘を加工して\n作られた長槍型武器迷彩。\n怒り顔のてるてる坊主が雷を落とす！？",
-		"tr_explain": ""
+		"tr_explain": "Partizan camo based on a cute\numbrella made for children. Could the\nangry teru teru bozu throw lightning?!"
 	},
 	{
 		"assign": "103015",
 		"jp_text": "＊パラティヌスピック",
 		"tr_text": "＊Palatinus Pick",
 		"jp_explain": "人気の武器のデザインを元に作られた\n長槍型武器迷彩。両端に伸びた\nフォトン製の刃が特徴的。",
-		"tr_explain": ""
+		"tr_explain": "Partizan-type weapon camo based on\na popular design. Its head has Photon\nblades attached to both sides."
 	},
 	{
 		"assign": "103016",
 		"jp_text": "＊零織・イザヨイ",
 		"tr_text": "＊Zero-Type Izayoi",
 		"jp_explain": "力を解放した「術式兵装・十六夜」を\n模倣した武器迷彩。能力の不死者殺しは\n相手に強制的に死を認識させるという。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo based on the Ars\nArmegis Izayoi. Its Immortal Breaker\nability puts death in the target's mind."
 	},
 	{
 		"assign": "103017",
@@ -109,21 +130,21 @@
 		"jp_text": "＊龍吼魔笛グラビネット",
 		"tr_text": "＊Magic Dragon Flute Grabinett",
 		"jp_explain": "ロンバルディア帝国の皇女が所持する\n伝説の楽器「竜刃器」のひとつを\n模した武器迷彩。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo based on the\nArmonium used by the Princess\nof the Lonbardia Empire."
 	},
 	{
 		"assign": "103019",
 		"jp_text": "＊煙管ノ槍",
 		"tr_text": "＊Enkan-no-Sou",
 		"jp_explain": "竹本つかさによりデザインされた\n武器迷彩。煙管風のデザインで\n赤黒の彩色と金色の装飾が美しい。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo designed by 竹本つかさ.\nA red and black smoking pipe-like\ndesign, featuring gold accents."
 	},
 	{
 		"assign": "103020",
 		"jp_text": "＊三式戦術槍／三式斬機刀",
 		"tr_text": "＊Type-3 Spear/Type-3 Blade",
 		"jp_explain": "ヨルハ部隊の旧式モデルを模した\n武器迷彩。信頼性が高いため\n今もなお現役を誇っている。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo based on various older\nmodel weapons from the YoRHa unit.\nStill used owing to their high reliability."
 	},
 	{
 		"assign": "103021",
@@ -144,35 +165,35 @@
 		"jp_text": "＊キャバリエタリエンテ",
 		"tr_text": "＊Cavalier Tagliente",
 		"jp_explain": "オークキャバリエの持つ武器を模して\n作られた武器迷彩。リアルな質感に拘り\n汚れや刃こぼれまでが再現されている。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo imitating the weapon of\nOrc Cavaliers. Has a realistic texture\nthat even includes dirt and stains."
 	},
 	{
 		"assign": "103024",
 		"jp_text": "＊ブロッサムローザ",
 		"tr_text": "＊Blossom Rose",
 		"jp_explain": "花びらを模した刃が特徴の長槍型\n武器迷彩。その一閃は旋風とともに\n鮮やかに花びらが舞い踊る。",
-		"tr_explain": ""
+		"tr_explain": "Partizan-type camo whose blade is\nbased on petals. The petals dance\nin a vivid whirlwind as it twirls."
 	},
 	{
 		"assign": "103025",
 		"jp_text": "＊ガンブレードランス",
 		"tr_text": "＊Gunblade Lance",
 		"jp_explain": "フレームアームズの追加装備を模した\n武器迷彩。分離・合体・変形が可能な\nランス型ヘヴィウェポンユニット。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo imitating additional\nequipment for Frame Arms. A lance-\ntype transformable heavy weapon."
 	},
 	{
 		"assign": "103026",
 		"jp_text": "＊クエンティンランス",
 		"tr_text": "＊Cuentian Lance",
 		"jp_explain": "クエントの兵士が標準使用する\n長槍型武器迷彩。隊を率いる者の証で\nあり、仲間の精神を支える柱でもある。",
-		"tr_explain": ""
+		"tr_explain": "Partizan camo imitating the standard\nweapon of Cuent Soldiers. Proof of a\nleader who supports their allies' spirits."
 	},
 	{
 		"assign": "103027",
 		"jp_text": "＊バトルパルチザン",
 		"tr_text": "＊Battle Partizan",
 		"jp_explain": "バトルアリーナ専用の長槍型\n武器迷彩。戦技比較用に、力量が\n発揮されるよう調整がされている。",
-		"tr_explain": "Partizan weapon camo from\nthe Battle Arena. Carefully tuned for\nuse in skill-testing mock battles."
+		"tr_explain": "A Partizan-type camo from\nthe Battle Arena. Carefully tuned\nfor use in skill testing mock battles."
 	},
 	{
 		"assign": "103028",
@@ -186,69 +207,83 @@
 		"jp_text": "＊アーリー・ブルー",
 		"tr_text": "＊Airy Blue",
 		"jp_explain": "セイル愛用品と同型の長槍型武器迷彩。\n性能抜群で常に最大出力で機動可能。\n強固でどんな激しい使用にも耐えうる。",
-		"tr_explain": "A weapon camo of Sail's favorite\npartizan. An excellent weapon that\ncan withstand any intensive usage."
+		"tr_explain": "A weapon camo of Sail's favorite\nPartizan. An excellent weapon that\ncan withstand any intensive usage."
 	},
 	{
 		"assign": "103032",
 		"jp_text": "＊灼零エルゼガンツェ",
 		"tr_text": "＊Burning Zero Elze Ganze",
 		"jp_explain": "灼零龍の魂が宿る銃槍を模した\n武器迷彩。相反する属性が\n互いを高め合う。",
-		"tr_explain": ""
+		"tr_explain": "Partizan camo bearing the soul of\nthe Burning Zero. Its two opposing\nelements enhance each other."
 	},
 	{
 		"assign": "103035",
 		"jp_text": "＊スターズフォルジュ",
 		"tr_text": "＊Stars Forge",
 		"jp_explain": "アークスにより作成された武器迷彩。\n反動を吸収する特殊機構で扱いやすく\n鮮やかなカラーで人気も高い。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo created by ARKS. An\ninbuilt shock absorber makes it easy to\nuse, and its bright colors are popular."
 	},
 	{
 		"assign": "103041",
 		"jp_text": "＊レプルラメール",
 		"tr_text": "＊Repple La Mer",
 		"jp_explain": "惑星ウォパルで調達可能な素材を用いて\n作られた武器迷彩。特徴的な深い青は\nフォトンの影響と考えられている。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo made of materials from\nWopal. Its deep blue color is thought\nto have been caused by Photons."
 	},
 	{
 		"assign": "103042",
 		"jp_text": "＊ソリスラメール",
 		"tr_text": "＊Solis La Mer",
 		"jp_explain": "惑星ウォパルで調達可能な素材を用いて\n作られた武器迷彩。精製の際に\nフォトンに反応し、鮮烈な色を帯びた。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo made of materials from\nWopal. During refining, it reacted to\nPhotons and became brightly colored."
 	},
 	{
 		"assign": "103043",
 		"jp_text": "＊ロンギヌスの槍",
 		"tr_text": "＊Spear of Longinus",
 		"jp_explain": "Ａ．Ｔ．フィールドを無効化する\n巨大な赤い槍を模した武器迷彩。\n螺旋の柄から延びる二又の切先を持つ。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo based on a huge red\nspear that can disable A.T. Fields. Has\na spiral handle and a bifurcated tip."
 	},
 	{
 		"assign": "103044",
 		"jp_text": "＊カリエンテオーブ・メギス",
 		"tr_text": "＊Caliente Orb Megis",
 		"jp_explain": "可燃性フォトンの実証実験のため\n開発された武器迷彩。専用の\nリアユニットとドッキング可能。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo developed to test the\nviability of combustible Photons. Can\ndock with its corresponding rear unit."
 	},
 	{
 		"assign": "103045",
 		"jp_text": "＊イルテオンダスク・メギス",
 		"tr_text": "＊Iltheon Dusk Megis",
 		"jp_explain": "可燃性フォトンの実証実験のため\n開発された武器迷彩。専用の\nリアユニットとドッキング可能。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo developed to test the\nviability of combustible Photons. Can\ndock with its corresponding rear unit."
 	},
 	{
 		"assign": "103047",
 		"jp_text": "＊ウォリアーパルチザン",
 		"tr_text": "＊Warrior Partizan",
 		"jp_explain": "バトルアリーナ専用の長槍型\n武器迷彩。戦技比較用に、力量が\n発揮されるよう調整がされている。",
-		"tr_explain": "Partizan weapon camo from\nthe Battle Arena. Carefully tuned for\nuse in skill-testing mock battles."
+		"tr_explain": "A Partizan-type camo from\nthe Battle Arena. Carefully tuned\nfor use in skill testing mock battles."
 	},
 	{
 		"assign": "103048",
 		"jp_text": "＊アドホルムクロード",
 		"tr_text": "＊Adholm Claude",
 		"jp_explain": "さらに軽く、さらに頑丈をコンセプトに\n作られた自動変形長槍型武器迷彩。\n余分な装飾を抑えた硬派なデザイン。",
+		"tr_explain": "Transformable Partizan camo made\nto be lightweight and robust. Its\naustere design eschews decoration."
+	},
+	{
+		"assign": "103051",
+		"jp_text": "＊青龍偃月刀・極",
+		"tr_text": "＊Blue Dragon Crescent Blade",
+		"jp_explain": "青龍の加護を受けし最強武器を模した\n武器迷彩。龍が如く哮る冷たき刃は\n敵の心身を恐怖で凍てつかせる程。",
+		"tr_explain": "Weapon camo under the protection of\nthe Blue Dragon. Its cold blade's roar\nfreezes both mind and body with fear."
+	},
+	{
+		"assign": "103053",
+		"jp_text": "＊￥ソウルバニッシュ複合",
+		"tr_text": "",
+		"jp_explain": "＊￥ソウルバニッシュ複合",
 		"tr_explain": ""
 	},
 	{

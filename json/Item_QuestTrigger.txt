@@ -450,7 +450,7 @@
 	{
 		"assign": "373067",
 		"jp_text": "天地を葬る災禍トリガー",
-		"tr_text": "천지를 파묻는 재해 트리거",
+		"tr_text": "천지를 파묻을 재해 트리거",
 		"jp_explain": "天地を葬る災禍の凶神を\nクエストカウンターから発生させる。\n<yellow>※消費後はいかなる理由においても\n本アイテムは返却されません。<c>",
 		"tr_explain": "[The Cosmic Calamity]\ncan be selected from Quest Counter.\n<yellow>※Cannot be refunded once used.<c>"
 	},
@@ -513,29 +513,36 @@
 	{
 		"assign": "373079",
 		"jp_text": "艦破訓練：終の慟哭トリガー",
-		"tr_text": "함파훈련：종말의 통곡 트리거",
+		"tr_text": "함파훈련 : 종말의 통곡 트리거",
 		"jp_explain": "艦破訓練：終の慟哭を\nクエストカウンターから発生させる。\n<yellow>※消費後はいかなる理由においても\n本アイテムは返却されません。<c>",
-		"tr_explain": ""
+		"tr_explain": "[Armada Practice: Mourning of Demise]\ncan be selected from Quest Counter.\n<yellow>※Cannot be refunded once used.<c>"
 	},
 	{
 		"assign": "373081",
 		"jp_text": "ビバ・ラスベガス！トリガー",
 		"tr_text": "비바 라스베가스!",
 		"jp_explain": "ビバ・ラスベガス！を\nクエストカウンターから発生させる。\n<yellow>※消費後はいかなる理由においても\n本アイテムは返却されません。<c>",
-		"tr_explain": ""
+		"tr_explain": "[Viva Las Vegas!]\ncan be selected from Quest Counter.\n<yellow>※Cannot be refunded once used.<c>"
 	},
 	{
 		"assign": "373082",
 		"jp_text": "トリトリ２０２０トリガー",
 		"tr_text": "트릭트릿 2020 트리거",
 		"jp_explain": "トリックオアトリート２０２０！を\nクエストカウンターから発生させる。\n<yellow>※消費後はいかなる理由においても\n本アイテムは返却されません。<c>",
-		"tr_explain": ""
+		"tr_explain": "[Trick or Treat 2020!]\ncan be selected from Quest Counter.\n<yellow>※Cannot be refunded once used.<c>"
 	},
 	{
 		"assign": "373083",
 		"jp_text": "メリクリ２０２０トリガー",
 		"tr_text": "메리크리 2020 트리거",
 		"jp_explain": "氷上のメリークリスマス２０２０を\nクエストカウンターから発生させる。\n<yellow>※消費後はいかなる理由においても\n本アイテムは返却されません。<c>",
+		"tr_explain": "[Merry Christmas on Ice 2020]\ncan be selected from Quest Counter.\n<yellow>※Cannot be refunded once used.<c>"
+	},
+	{
+		"assign": "373088",
+		"jp_text": "夢幻のごとくトリガー",
+		"tr_text": "",
+		"jp_explain": "掃討作戦：夢幻のごとくを\nクエストカウンターから発生させる。\n<yellow>※消費後はいかなる理由においても\n本アイテムは返却されません。<c>",
 		"tr_explain": ""
 	}
 ]
