@@ -38,7 +38,7 @@ for name in file_names:
             # Some stickers have different names in-game from their tickets.
             # The in-game name is in the tickets' descriptions.
             # Extract it here.
-            if name[1] == "sticker":
+            if name[0] == "Sticker":
                 description_name = regex.search(
                     r'(?<=ステッカーの\n)(.+[ＡＢＣ]?)(?=が選択可能。)',
                     item["jp_explain"]).group(0)
@@ -264,7 +264,8 @@ for item in items:
                   .format(item["tr_text"], jp_cv_name))
         
         # Translate the description
-        item["tr_explain"] = "Allows a new voice to be selected.\n{restriction}\nCV: {actorname}".format(restriction = restrictions[racensex], actorname = cv_name)
+        item["tr_explain"] = "Allows a new voice to be selected.\n{restriction}\nCV: {actorname}".format(
+            restriction = restrictions[racensex], actorname = cv_name)
         
         print("Translated description for {0}".format(item["tr_text"]))
 
