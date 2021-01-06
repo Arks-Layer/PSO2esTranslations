@@ -52,7 +52,6 @@ for name in file_names:
                 sex = "f"
             elif len(regex.findall("男性のみ使用可能。", item["jp_explain"])) > 0:
                 sex = "m"
-                
             
             # Some items cannot be resized.
             sizelocked = False
