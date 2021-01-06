@@ -32,28 +32,38 @@ for name in file_names:
     
     for item in items:
         if item["tr_text"] != "" and item["tr_explain"] == "":
-            item["tr_explain"] = "Unlocks the "
             
-            if len(regex.findall("女性のみ使用可能。", item["jp_explain"])) > 0:
-                item["tr_explain"] += "female-only "
-            elif len(regex.findall("男性のみ使用可能。", item["jp_explain"])) > 0:
-                item["tr_explain"] += "male-only "
-
-            #Some stickers have different names in-game from their tickets.
-            #The in-game name is in the tickets' descriptions.
-            #Extract it here.
-            cosmetic_name = item["tr_text"]
+            item_name = item["tr_text"]
+            
+            # Some stickers have different names in-game from their tickets.
+            # The in-game name is in the tickets' descriptions.
+            # Extract it here.
             if name[1] == "sticker":
                 description_name = regex.search(
                     r'(?<=ステッカーの\n)(.+[ＡＢＣ]?)(?=が選択可能。)',
                     item["jp_explain"]).group(0)
 
                 if (description_name != item["jp_text"]):
-                    cosmetic_name = regex.sub(" Sticker", "", cosmetic_name)
+                    item_name = regex.sub(" Sticker", "", item_name)
             
-            item["tr_explain"] += (item_type + "\n\""
-                                   + cosmetic_name + "\"\n"
-                                   + "for use in the Beauty Salon.")
+            # Some items are locked to one sex or the other.
+            sex = "n"
+            if len(regex.findall("女性のみ使用可能。", item["jp_explain"])) > 0:
+                sex = "f"
+            elif len(regex.findall("男性のみ使用可能。", item["jp_explain"])) > 0:
+                sex = "m"
+            
+            # Some items cannot be resized.
+            sizelocked = False
+            
+            if len(regex.findall("サイズ調整はできません。", item["jp_explain"])) > 0:
+                sizelocked = True
+            
+            # Translate the description.
+            item["tr_explain"] = "Unlocks the {sexlock}{type}\n\"{name}\"\nfor use in the Beauty Salon.{sizelock}".format(
+                sexlock = "female-only " if sex == "f" else "male-only " if sex == "m" else "", 
+                type = item_type, name = item_name, 
+                sizelock = "\n<yellow>Size cannot be adjusted.<c>" if sizelocked == True else "")
 
             print("Translated description for {0}".format(item["tr_text"]))
 
@@ -86,15 +96,24 @@ for name in layered_file_names:
     
     for item in items:
         if item["tr_text"] != "" and item["tr_explain"] == "":
-            item["tr_explain"] = "Unlocks the new " + item_type + "\n\"" + item["tr_text"] + "\"."
             
+            # Some items are locked to one sex or the other.
+            sex = "n"
             if len(regex.findall("女性のみ使用可能。", item["jp_explain"])) > 0:
-                item["tr_explain"] += "\nOnly usable on female characters."
+                sex = "f"
             elif len(regex.findall("男性のみ使用可能。", item["jp_explain"])) > 0:
-                item["tr_explain"] += "\nOnly usable on male characters."
-
+                sex = "m"
+            
+            # Some items hide your innerwear (these are mostly swimsuits).
+            hideinner = False
             if len(regex.findall("着用時はインナーが非表示になります。", item["jp_explain"])) > 0:
-                item["tr_explain"] += '\n<yellow>※Hides innerwear when worn.<c>'
+                hideinner = True
+            
+            # Translate the description.
+            item["tr_explain"] = "Unlocks the new {type}\n\"{name}\".{sexlock}{hidepanties}".format(
+                type = item_type, name = item["tr_text"],
+                sexlock = "\nOnly usable on female characters." if sex == "f"else "\nOnly usable on male characters." if sex == "m" else "",
+                hidepanties = "\n<yellow>※Hides innerwear when worn.<c>" if hideinner == True else "")
 
             print("Translated description for {0}".format(item["tr_text"]))
 
@@ -203,32 +222,51 @@ for item in items:
     if (item["tr_text"] != ""
     and (len(regex.findall("Salon", item["tr_explain"])) > 0
          or item["tr_explain"] == "")):
-        item["tr_explain"] = "Allows a new voice to be selected.\n"
-    
+        
+        # Strings for race/sex combo restrictions
+        restrictions = {
+        "hm": "Non-Cast male characters only.",
+        "hf": "Non-Cast female characters only.",
+        "cm": "Male Casts only.",
+        "cf": "Female Casts only.",
+        "am": "Male characters only (all races).",
+        "af": "Female characters only (all races).",
+        "an": "Usable by all characters."}
+        
+        # Detect ticket's race/sex restriction.
+        # Default to no restriction.
+        racensex= "an"
+        
         if len(regex.findall("人間男性のみ使用可能。", item["jp_explain"])) > 0:
-            item["tr_explain"] += "Non-Cast male characters only."
+            racensex= "hm"
         elif len(regex.findall("人間女性のみ使用可能。", item["jp_explain"])) > 0:
-            item["tr_explain"] += "Non-Cast female characters only."
+            racensex= "hf"
         elif len(regex.findall("キャスト男性のみ使用可能。", item["jp_explain"])) > 0:
-            item["tr_explain"] += "Male Casts only."
+            racensex= "cm"
         elif len(regex.findall("キャスト女性のみ使用可能。", item["jp_explain"])) > 0:
-            item["tr_explain"] += "Female Casts only."
+            racensex= "cf"
         elif len(regex.findall("男性のみ使用可能。", item["jp_explain"])) > 0:
-            item["tr_explain"] += "Male characters only (all races)."
+            racensex= "am"
         elif len(regex.findall("女性のみ使用可能。", item["jp_explain"])) > 0:
-            item["tr_explain"] += "Female characters only (all races)."
-        else:
-            item["tr_explain"] += "Usable by all characters."
-
+            racensex= "af"
+        
+        # Find out if we know the voice actor's name in English.
         jp_cv_name = item["jp_explain"].split("ＣＶ")[1]
+        
+        cv_name = jp_cv_name
+        
         if jp_cv_name in cv_names:
-            tr_cv_name = cv_names[jp_cv_name]
-            item["tr_explain"] += "\nCV: " + tr_cv_name
-            print("Translated description for {0}".format(item["tr_text"]))
+            # We do, so use it.
+            cv_name = cv_names[jp_cv_name]
         else:
-            item["tr_explain"] += "\nCV:" + jp_cv_name
+            # We don't, so report it.
             print("Voice ticket {0} has a new voice actor: {1}"
                   .format(item["tr_text"], jp_cv_name))
+        
+        # Translate the description
+        item["tr_explain"] = "Allows a new voice to be selected.\n{restriction}\nCV: {actorname}".format(restriction = restrictions[racensex], actorname = cv_name)
+        
+        print("Translated description for {0}".format(item["tr_text"]))
 
 items_file = codecs.open(os.path.join(json_loc, "Item_Stack_Voice.txt"),
                          mode = 'w', encoding = 'utf-8')
