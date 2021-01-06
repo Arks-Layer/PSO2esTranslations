@@ -264,7 +264,8 @@ for item in items:
                   .format(item["tr_text"], jp_cv_name))
         
         # Translate the description
-        item["tr_explain"] = "Allows a new voice to be selected.\n{restriction}\nCV: {actorname}".format(restriction = restrictions[racensex], actorname = cv_name)
+        item["tr_explain"] = "Allows a new voice to be selected.\n{restriction}\nCV: {actorname}".format(
+            restriction = restrictions[racensex], actorname = cv_name)
         
         print("Translated description for {0}".format(item["tr_text"]))
 
