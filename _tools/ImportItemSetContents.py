@@ -50,7 +50,7 @@ itembags = regex.sub('"jp_explain": "(.+)",(\r)?\n\t\t"tr_explain": ""',
 print("  JP text copied into TR text")
 # Replace stock phrase at the start of each description
 itembags = regex.sub('"tr_explain": "以下のアイテムを獲得する。',
-                     '"tr_explain": "Use to receive the following items:',
+                     '"tr_explain": "아래의 아이템을 획득한다.:',
                      itembags)
 # Replace the *other* stock phrase just for eyelashes
 itembags = regex.sub('"tr_explain": "以下のアイテム４種を獲得する。',
