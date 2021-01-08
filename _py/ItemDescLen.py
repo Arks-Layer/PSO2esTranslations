@@ -157,7 +157,7 @@ for files in explain3_files:
             ft = u"{}:{}".format(f, t)
             if ft in FS3:
                 print(ft)
-            FS3[ft] = len(entry["tr_explain"].rstrip().split('\n'))
+            FS3[ft] = len(entry["tr_explain"].rstrip().split('\n<yellow>')[0].split('\n'))
 
 FS3k = OrderedDict(sorted(FS3.items(), key=lambda t: t[0]))
 FS3s = OrderedDict(sorted(FS3k.items(), key=lambda t: t[1]))
