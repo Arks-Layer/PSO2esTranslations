@@ -71,6 +71,12 @@ explain4_files += [
 explain4_files += [
     os.path.join(dirpath, f)
     for dirpath, dirnames, files in os.walk(dir)
+    for f in fnmatch.filter(files, 'Item_Stack_GachaTradePass.txt')
+]
+
+explain4_files += [
+    os.path.join(dirpath, f)
+    for dirpath, dirnames, files in os.walk(dir)
     for f in fnmatch.filter(files, 'Item_Stack_Gat*.txt')
 ]
 
@@ -164,6 +170,7 @@ for files in explain4_files:
         for entry in djson:
             if (entry["tr_text"] != ""):
                 t = entry["tr_text"]
+                
             else:
                 t = entry["jp_text"]
             ft = u"{}:{}".format(f, t)
