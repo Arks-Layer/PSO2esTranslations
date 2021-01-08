@@ -515,7 +515,7 @@
 		"jp_text": "クリスマスギフト",
 		"tr_text": "Christmas Gift",
 		"jp_explain": "マイルームに設置可能な装飾品。\n誰かのマイルームにこっそり設置すれば\n気分はサンタクロース。",
-		"tr_explain": "A decoration for My Room. Allows\nyou to place an item inside, to be\ngiven as a gift only on Dec. 25th."
+		"tr_explain": "A decoration for My Room.\nIf you want to feel like Santa, try\nsneaking it into someone else's room."
 	},
 	{
 		"assign": "35096",
@@ -1192,9 +1192,9 @@
 	{
 		"assign": "350192",
 		"jp_text": "モダン・ウォッチ",
-		"tr_text": "Modern Watch",
+		"tr_text": "Modern Clock",
 		"jp_explain": "マイルームで利用可能な置き時計。\n現在では珍しく入手困難なアナログ式で\nコレクターの興味を集めている。",
-		"tr_explain": "A watch for My Room. An rare\nanalog timer that might be of\ninterest to some collectors."
+		"tr_explain": "A clock for My Room. A rare\nanalog timer that might be of\ninterest to some collectors."
 	},
 	{
 		"assign": "350193",
@@ -1430,21 +1430,21 @@
 	{
 		"assign": "350226",
 		"jp_text": "マグカップ♀",
-		"tr_text": "Mug Cup ♀",
+		"tr_text": "Mug Cup F",
 		"jp_explain": "マイルームに設置可能な女性用マグ。\nピンクラッピーの顔のデザインで、\n色違い男性用もありカップル向け。",
 		"tr_explain": "A girly mug for My Room.\nDesigned with a pink rappy at the\nfront. There's also a matching blue\nversion for boys."
 	},
 	{
 		"assign": "350227",
 		"jp_text": "マグカップ♂",
-		"tr_text": "Mug Cup ♂",
+		"tr_text": "Mug Cup M",
 		"jp_explain": "マイルームに設置可能な男性用マグ。\nブルーラッピーの顔のデザインで、\n色違い女性用もありカップル向け。",
 		"tr_explain": "Boy's mug for My Room.\nDesigned with a blue rappy at the\nfront. There's also a matching pink\nversion for girls."
 	},
 	{
 		"assign": "350228",
 		"jp_text": "キャンドルスティック",
-		"tr_text": "Candlestick",
+		"tr_text": "Candle Stick",
 		"jp_explain": "マイルームに設置可能な燭台。\nクラシックなデザインで室内を\nほんのり明るく照らし出す。",
 		"tr_explain": "Wall decoration for My Room.\nCandles with a classic design that\nslightly illuminates the room."
 	},
@@ -2928,16 +2928,16 @@
 	{
 		"assign": "350453",
 		"jp_text": "チョ・ウチン",
-		"tr_text": "",
+		"tr_text": "Lantern",
 		"jp_explain": "マイルームに設置可能な照明器具。\n落ち着きと安らぎを与える\nやさしい光が辺りをほんのり照らす。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "350454",
 		"jp_text": "カミノカサ",
-		"tr_text": "",
+		"tr_text": "Paper Umbrellas",
 		"jp_explain": "マイルームに設置可能な装飾品。\n実用性よりもデザイン性と芸術性を\n重視した、趣きのある絵入りの傘。",
-		"tr_explain": ""
+		"tr_explain": "A decoration for My Room. A set\nof quaint painted umbrellas that\nemphasize form over function."
 	},
 	{
 		"assign": "350455",
@@ -3285,7 +3285,7 @@
 	{
 		"assign": "350508",
 		"jp_text": "レトロテレビ",
-		"tr_text": "Retro TV",
+		"tr_text": "Retro Television",
 		"jp_explain": "マイルームに設置する家具。\n電子銃を用いて映像を表示させる\n旧式の映像機器。",
 		"tr_explain": "Furniture for My Room.\nRetro visual equipment that uses an\nelectron emitter to display images\nonto the screen."
 	},
@@ -4253,7 +4253,7 @@
 		"jp_text": "ホワイトデーリリーパ",
 		"tr_text": "White Day Lillipa",
 		"jp_explain": "マイルームに設置可能な装飾品。\nギフトを抱えたリリーパ族が愛らしい。\nホワイトデーのお返しにどうぞ。",
-		"tr_explain": "Food for My Room.\nA lovely Lillipan holding a chocolate.\nA White Day gift, to return the favor."
+		"tr_explain": "A decoration for My Room.\nA lovely Lillipan holding a chocolate.\nA White Day gift, to return the favor."
 	},
 	{
 		"assign": "350650",
@@ -4328,28 +4328,28 @@
 	{
 		"assign": "350667",
 		"jp_text": "ドラゴンボートソファ",
-		"tr_text": "",
+		"tr_text": "Dragon Boat Sofa",
 		"jp_explain": "マイルーム設置用の二人掛けソファ。\nドラゴンの頭と尾で装飾された\n豪華で迫力のある一品。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "350668",
 		"jp_text": "チマキクッション",
-		"tr_text": "",
+		"tr_text": "Chimaki Cushion",
 		"jp_explain": "マイルームで利用可能なクッション。\n空腹に働きかける香ばしい匂いがする。\n思わず食べたくなるが食べられない。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "350678",
 		"jp_text": "ハートラッピー",
-		"tr_text": "",
+		"tr_text": "Heart Rappy",
 		"jp_explain": "マイルームに設置可能な装飾品。\n記念日のシャツを着たラッピーの置物。\n胸元のハートがかわいらしい。",
-		"tr_explain": ""
+		"tr_explain": "A decoration for My Room.\nA Rappy wearing an anniversary\nshirt. The heart on the chest is cute."
 	},
 	{
 		"assign": "350679",
 		"jp_text": "龍の置物",
-		"tr_text": "",
+		"tr_text": "Dragon Figurine",
 		"jp_explain": "マイルームに設置可能な装飾品。\n躍動感あふれる赤い龍が\n優雅に空を舞う様子を表している。",
 		"tr_explain": ""
 	},
@@ -9300,7 +9300,7 @@
 		"jp_text": "マザー・クラスタ紋章陣",
 		"tr_text": "마더 클러스터 문장진",
 		"jp_explain": "マイルームに設置可能なオブジェクト。\nマザー・クラスタを意味する紋章の\nレプリカ。細部まで表現されている。",
-		"tr_explain": ""
+		"tr_explain": "An object for My Room.\nA replica of Mother Cluster's emblem.\nEvery last detail has been included."
 	},
 	{
 		"assign": "3501453",
@@ -9776,7 +9776,7 @@
 		"jp_text": "ブルージーＲポスター",
 		"tr_text": "Bluesy R Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nブルージーレクイエムの\nウェポノイドのグラビアポスター。",
-		"tr_explain": "Wall decoration for My Room.\nA gravure poster featuring Bluesy\nRequiem's Weaponoid."
+		"tr_explain": "Wall decoration for My Room.\nA gravure poster featuring\nBluesy Requiem's Weaponoid."
 	},
 	{
 		"assign": "3501564",
@@ -9874,7 +9874,7 @@
 		"jp_text": "マザーズチェアー",
 		"tr_text": "마더스 체어",
 		"jp_explain": "マイルーム配置用の一人掛け椅子。\nマザー・クラスタにより商品化された\nマザー愛用の椅子。座り心地は最高。",
-		"tr_explain": ""
+		"tr_explain": "A single chair for My Room.\nMother's favorite seat, made into a\nproduct for sale by Mother Cluster."
 	},
 	{
 		"assign": "3501578",
@@ -10266,14 +10266,14 @@
 		"jp_text": "惑星ライト：地球",
 		"tr_text": "행성 라이트: 지구",
 		"jp_explain": "マイルームに設置するインテリア。\n惑星・地球の姿を模した照明。\n青い海と緑の大地が確認できる。",
-		"tr_explain": ""
+		"tr_explain": "Interior lighting for My Room. A lamp\nbased on planet Earth. Blue oceans\nand lush green land are depicted."
 	},
 	{
 		"assign": "3501636",
 		"jp_text": "衛星ライト：月",
 		"tr_text": "위성 라이트: 달",
 		"jp_explain": "マイルームに設置するインテリア。\n地球の衛星・月の姿を模した照明。\nクレーターが確認できる。",
-		"tr_explain": ""
+		"tr_explain": "Interior lighting for My Room. A lamp\nbased on Earth's satellite, the Moon.\nIts many craters have been depicted."
 	},
 	{
 		"assign": "3501637",
@@ -11440,21 +11440,21 @@
 	{
 		"assign": "3501813",
 		"jp_text": "ジャイアントターキー",
-		"tr_text": "",
+		"tr_text": "Giant Turkey",
 		"jp_explain": "マイルームに設置可能な食べ物。\nキャンドルやカボチャの装飾に囲まれた\n満腹を約束する豪勢な七面鳥テーブル。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501814",
 		"jp_text": "オータムリース",
-		"tr_text": "",
+		"tr_text": "Autumn Wreath",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nリボンや紅葉などで彩られたリース。\n手軽に秋の雰囲気を演出する。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501815",
 		"jp_text": "オータムスワッグ",
-		"tr_text": "",
+		"tr_text": "Autumn Swag",
 		"jp_explain": "マイルームの壁に設置する装飾品。\n秋を連想させる果実や葉をリボンで\n束ねたスワッグ。室内を華やがせる一品。",
 		"tr_explain": ""
 	},
@@ -11685,14 +11685,14 @@
 	{
 		"assign": "3501851",
 		"jp_text": "ＥＰオラクルマットＨ",
-		"tr_text": "",
+		"tr_text": "EP Oracle Mat H",
 		"jp_explain": "マイルームの床に敷くためのマット。\nＥＰオラクルのサラが\n描かれた大判ビジュアルマット。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501852",
 		"jp_text": "ＥＰオラクルマットＩ",
-		"tr_text": "",
+		"tr_text": "EP Oracle Mat I",
 		"jp_explain": "マイルームの床に敷くためのマット。\nＥＰオラクルのクラリスクレイスが\n描かれた大判ビジュアルマット。",
 		"tr_explain": ""
 	},
@@ -11713,14 +11713,14 @@
 	{
 		"assign": "3501855",
 		"jp_text": "ＥＰオラクル８巻ポスター",
-		"tr_text": "",
+		"tr_text": "EP Oracle Vol.8 Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nファンタシースターオンライン２\nエピソード・オラクルのポスター。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501856",
 		"jp_text": "ＥＰオラクル９巻ポスター",
-		"tr_text": "",
+		"tr_text": "EP Oracle Vol.9 Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nファンタシースターオンライン２\nエピソード・オラクルのポスター。",
 		"tr_explain": ""
 	},
@@ -11741,294 +11741,294 @@
 	{
 		"assign": "3501866",
 		"jp_text": "イグニスポスター",
-		"tr_text": "",
+		"tr_text": "Ignis Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nイグニスのウェポノイドの\nグラビアポスター。",
-		"tr_explain": ""
+		"tr_explain": "Wall decoration for My Room.\nA gravure poster featuring\nIgnis's Weaponoid."
 	},
 	{
 		"assign": "3501867",
 		"jp_text": "カザミノタチポスター",
-		"tr_text": "",
+		"tr_text": "Kazami-no-tachi Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nカザミノタチのウェポノイドの\nグラビアポスター。",
-		"tr_explain": ""
+		"tr_explain": "Wall decoration for My Room.\nA gravure poster featuring\nKazami-no-tachi's Weaponoid."
 	},
 	{
 		"assign": "3501868",
 		"jp_text": "オプトレイオンポスター",
-		"tr_text": "",
+		"tr_text": "Optreion Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nオプトレイオンのウェポノイドの\nグラビアポスター。",
-		"tr_explain": ""
+		"tr_explain": "Wall decoration for My Room.\nA gravure poster featuring\nOptreion's Weaponoid."
 	},
 	{
 		"assign": "3501869",
 		"jp_text": "エルダーペインポスター",
-		"tr_text": "",
+		"tr_text": "Elder Pain Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nエルダーペインのウェポノイドの\nグラビアポスター。",
-		"tr_explain": ""
+		"tr_explain": "Wall decoration for My Room.\nA gravure poster featuring\nElder Pain's Weaponoid."
 	},
 	{
 		"assign": "3501870",
 		"jp_text": "サイカ・ヒョウリポスター",
-		"tr_text": "",
+		"tr_text": "Saika Hyouri Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nサイカ・ヒョウリのウェポノイドの\nグラビアポスター。",
-		"tr_explain": ""
+		"tr_explain": "Wall decoration for My Room.\nA gravure poster featuring\nSaika Hyouri's Weaponoid."
 	},
 	{
 		"assign": "3501871",
 		"jp_text": "SSSS.GRIDMANポスター",
-		"tr_text": "SSSS.GRIDMAN 포스터",
+		"tr_text": "SSSS.GRIDMAN Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nSSSS.GRIDMANのポスター。\n「独りじゃない。いつの日も、どこまでも」",
-		"tr_explain": ""
+		"tr_explain": "Wall decoration for My Room.\nAn SSSS.GRIDMAN poster.\n\"I'm not alone. Not today, not ever.\""
 	},
 	{
 		"assign": "3501872",
 		"jp_text": "ＭＥＧＡ３９'ｓポスターＡ",
-		"tr_text": "",
+		"tr_text": "MEGA39's Poster A",
 		"jp_explain": "マイルームの壁に設置する装飾品。\n初音ミク Project DIVA MEGA 39'sの\n限定版ジャケットイラストのポスター。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501873",
 		"jp_text": "ＭＥＧＡ３９'ｓポスターＢ",
-		"tr_text": "",
+		"tr_text": "MEGA39's Poster B",
 		"jp_explain": "マイルームの壁に設置する装飾品。\n初音ミク Project DIVA MEGA 39'sの\n通常版ジャケットイラストのポスター。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501874",
 		"jp_text": "ＭＥＧＡ３９'ｓマット",
-		"tr_text": "",
+		"tr_text": "MEGA39's Mat",
 		"jp_explain": "マイルームの床に敷くためのマット。\n電子の歌姫・初音ミクが描かれた\n大判のビジュアルマット。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501875",
 		"jp_text": "閃乱カグラポスター",
-		"tr_text": "",
+		"tr_text": "Senran Kagura Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\n閃乱カグラの大判ポスター。\n「命懸けで輝いて。」",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501876",
 		"jp_text": "閃乱カグラマット",
-		"tr_text": "",
+		"tr_text": "Senran Kagura Mat",
 		"jp_explain": "マイルームの床に敷くためのマット。\n雅緋、雪泉、飛鳥、焔が描かれた\n大判ビジュアルマット。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501877",
 		"jp_text": "閃乱カグラＭＰマットＡ",
-		"tr_text": "",
+		"tr_text": "Senran Kagura MP Mat A",
 		"jp_explain": "マイルームの床に敷くためのマット。\n雪泉が描かれたマウスパッドの形の\n大判ビジュアルマット。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501878",
 		"jp_text": "閃乱カグラＭＰマットＢ",
-		"tr_text": "",
+		"tr_text": "Senran Kagura MP Mat B",
 		"jp_explain": "マイルームの床に敷くためのマット。\n飛鳥が描かれたマウスパッドの形の\n大判ビジュアルマット。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501879",
 		"jp_text": "紲星あかりポスターＡ",
-		"tr_text": "",
+		"tr_text": "Kizuna Akari Poster A",
 		"jp_explain": "マイルームの壁に設置する装飾品。\n紲星あかりの大判ポスター。\n「縁で結ばれた星との紲を灯で照らす」",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501880",
 		"jp_text": "紲星あかりポスターＢ",
-		"tr_text": "",
+		"tr_text": "Kizuna Akari Poster B",
 		"jp_explain": "マイルームの壁に設置する装飾品。\n紲星あかりの大判ポスター。\n「縁で結ばれた星との紲を灯で照らす」",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501881",
 		"jp_text": "紲星あかりパネル",
-		"tr_text": "",
+		"tr_text": "Kizuna Akari Panel",
 		"jp_explain": "マイルームに設置可能な装飾品。\n歌にトークに大活躍中の\n紲星あかり等身大パネル。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501882",
 		"jp_text": "紲星あかりマット",
-		"tr_text": "",
+		"tr_text": "Kizuna Akari Mat",
 		"jp_explain": "マイルームの床に敷くためのマット。\n紲星あかりのビジュアルマット。\n踏むと流れるのは、紲を照らす声。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501883",
 		"jp_text": "ＳＡＯポスター",
-		"tr_text": "",
+		"tr_text": "SAO Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nソードアート・オンラインのポスター。\n「これはゲームであっても\n　遊びではない――」",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501884",
 		"jp_text": "ＳＡＯ×ＰＳＯ２ポスター",
-		"tr_text": "",
+		"tr_text": "SAO x PSO2 Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\n境界を超える共闘を描いた\n大判ポスター。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501885",
 		"jp_text": "ＳＡＯマット",
-		"tr_text": "",
+		"tr_text": "SAO Mat",
 		"jp_explain": "マイルームの床に設置する装飾品。\nソードアート・オンラインのマット。\n「リンク・スタート！」",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501886",
 		"jp_text": "８周年イラコン入賞作品Ａ",
-		"tr_text": "",
+		"tr_text": "8th Anniversary Art Winner A",
 		"jp_explain": "マイルームの壁に設置する絵画。\n「ＰＳＯ２」８周年記念\nイラストコンテスト入賞作品。\n作者：もすもす",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501887",
 		"jp_text": "８周年イラコン入賞作品Ｂ",
-		"tr_text": "",
+		"tr_text": "8th Anniversary Art Winner B",
 		"jp_explain": "マイルームの壁に設置する絵画。\n「ＰＳＯ２」８周年記念\nイラストコンテスト入賞作品。\n作者：のばしぼー",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501888",
 		"jp_text": "８周年イラコン入賞作品Ｃ",
-		"tr_text": "",
+		"tr_text": "8th Anniversary Art Winner C",
 		"jp_explain": "マイルームの壁に設置する絵画。\n「ＰＳＯ２」８周年記念\nイラストコンテスト入賞作品。\n作者：∇",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501889",
 		"jp_text": "８周年イラコン入賞作品Ｄ",
-		"tr_text": "",
+		"tr_text": "8th Anniversary Art Winner D",
 		"jp_explain": "マイルームの壁に設置する絵画。\n「ＰＳＯ２」８周年記念\nイラストコンテスト入賞作品。\n作者：リアン",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501890",
 		"jp_text": "８周年イラコン入賞作品Ｅ",
-		"tr_text": "",
+		"tr_text": "8th Anniversary Art Winner E",
 		"jp_explain": "マイルームの壁に設置する絵画。\n「ＰＳＯ２」８周年記念\nイラストコンテスト入賞作品。\n作者：オヤG",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501891",
 		"jp_text": "８周年イラコン入賞作品Ｆ",
-		"tr_text": "",
+		"tr_text": "8th Anniversary Art Winner F",
 		"jp_explain": "マイルームの壁に設置する絵画。\n「ＰＳＯ２」８周年記念\nイラストコンテスト入賞作品。\n作者：ぢん",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501892",
 		"jp_text": "８周年イラコン入賞作品Ｇ",
-		"tr_text": "",
+		"tr_text": "8th Anniversary Art Winner G",
 		"jp_explain": "マイルームの壁に設置する絵画。\n「ＰＳＯ２」８周年記念\nイラストコンテスト入賞作品。\n作者：未羽雨",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501893",
 		"jp_text": "８周年イラコン入賞作品Ｈ",
-		"tr_text": "",
+		"tr_text": "8th Anniversary Art Winner H",
 		"jp_explain": "マイルームの壁に設置する絵画。\n「ＰＳＯ２」８周年記念\nイラストコンテスト入賞作品。\n作者：remini",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501894",
 		"jp_text": "８周年イラコン入賞作品Ｉ",
-		"tr_text": "",
+		"tr_text": "8th Anniversary Art Winner I",
 		"jp_explain": "マイルームの壁に設置する絵画。\n「ＰＳＯ２」８周年記念\nイラストコンテスト入賞作品。\n作者：サーモン侍",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501895",
 		"jp_text": "８周年イラコン入賞作品Ｊ",
-		"tr_text": "",
+		"tr_text": "8th Anniversary Art Winner J",
 		"jp_explain": "マイルームの壁に設置する絵画。\n「ＰＳＯ２」８周年記念\nイラストコンテスト入賞作品。\n作者：かきぴー",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501896",
 		"jp_text": "アウロラＨＷポスター",
-		"tr_text": "",
+		"tr_text": "Aurora Halloween Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nハロウィン衣装のアウロラが\n描かれたグラビアポスター。",
-		"tr_explain": ""
+		"tr_explain": "Wall decoration for My Room.\nA gravure poster depicting Aurora\nwearing her Halloween costume."
 	},
 	{
 		"assign": "3501897",
 		"jp_text": "シエラＨＷポスター",
-		"tr_text": "",
+		"tr_text": "Xiera Halloween Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nハロウィン衣装のシエラが\n描かれたグラビアポスター。",
-		"tr_explain": ""
+		"tr_explain": "Wall decoration for My Room.\nA gravure poster depicting Xiera\nwearing her Halloween costume."
 	},
 	{
 		"assign": "3501898",
 		"jp_text": "マトイＨＷポスター",
-		"tr_text": "",
+		"tr_text": "Matoi Halloween Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nハロウィン衣装のマトイが\n描かれたグラビアポスター。",
-		"tr_explain": ""
+		"tr_explain": "Wall decoration for My Room.\nA gravure poster depicting Matoi\nwearing her Halloween costume."
 	},
 	{
 		"assign": "3501899",
 		"jp_text": "アルマＨＷポスター",
-		"tr_text": "",
+		"tr_text": "Alma Halloween Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nハロウィン衣装のアルマが\n描かれたグラビアポスター。",
-		"tr_explain": ""
+		"tr_explain": "Wall decoration for My Room.\nA gravure poster depicting Alma\nwearing her Halloween costume."
 	},
 	{
 		"assign": "3501900",
 		"jp_text": "マルガレータＨＷポスター",
-		"tr_text": "",
+		"tr_text": "Margareta HW Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nハロウィン衣装のマルガレータが\n描かれたグラビアポスター。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501901",
 		"jp_text": "設定資料集表紙ポスターＥ",
-		"tr_text": "",
+		"tr_text": "Materials Collection Poster E",
 		"jp_explain": "マイルームの壁に設置する装飾品。\n設定資料集表紙５のポスター。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501902",
 		"jp_text": "ヒツギＸｍａｓポスター",
-		"tr_text": "",
+		"tr_text": "Hitsugi Xmas Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nクリスマス衣装のヒツギが\n描かれたグラビアポスター。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501903",
 		"jp_text": "ハリエットＸｍａｓポスター",
-		"tr_text": "",
+		"tr_text": "Harriet Xmas Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nクリスマス衣装のハリエットが\n描かれたグラビアポスター。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501904",
 		"jp_text": "ルーサーＸｍａｓポスター",
-		"tr_text": "",
+		"tr_text": "Luther Xmas Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nクリスマス衣装のルーサーが\n描かれたグラビアポスター。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501905",
 		"jp_text": "カトリＸｍａｓポスター",
-		"tr_text": "",
+		"tr_text": "Katori Xmas Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nクリスマス衣装のカトリが\n描かれたグラビアポスター。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501906",
 		"jp_text": "シバＸｍａｓポスター",
-		"tr_text": "",
+		"tr_text": "Shiva Xmas Poster",
 		"jp_explain": "マイルームの壁に設置する装飾品。\nクリスマス衣装のシバが\n描かれたグラビアポスター。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "3501921",
 		"jp_text": "ＥＤＷＩＮ×クーナパネル",
-		"tr_text": "",
+		"tr_text": "EDWIN x Quna Panel",
 		"jp_explain": "マイルームに設置可能な装飾品。\nクーナの等身大パネル。",
 		"tr_explain": ""
 	}

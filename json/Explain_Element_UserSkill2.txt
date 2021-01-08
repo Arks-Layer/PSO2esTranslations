@@ -368,7 +368,7 @@
 		"jp_text": "Ｓ５：槍機天悠",
 		"tr_text": "S5:Angelic Respite",
 		"jp_explain": "ギア最大時、空中では\nギアを消費しなくなる。\n威力2％上昇。長槍限定。",
-		"tr_explain": "At maximum Gear, you\nconsume no Gear while\nin the air. Partizan only."
+		"tr_explain": "At maximum Gear, you\nconsume no Gear while\nin the air.\nBoosts damage by 2%.\nPartizan only."
 	},
 	{
 		"assign": "53",
@@ -389,7 +389,7 @@
 		"jp_text": "Ｓ５：静心拡域",
 		"tr_text": "S5:Calming Expanse",
 		"jp_explain": "通常攻撃に\n範囲攻撃が追加され\n確率でスタン付与。\n威力2％上昇。長銃限定。",
-		"tr_explain": "Adds an extra wide-area\nattack and a chance to\nstun to normal attacks.\nAssault Rifles only."
+		"tr_explain": "Adds an extra wide-area\nattack and a chance to\nstun to normal attacks.\nBoosts damage by 2%.\nAssault Rifles only."
 	},
 	{
 		"assign": "56",
@@ -403,7 +403,7 @@
 		"jp_text": "Ｓ５：回避輝与",
 		"tr_text": "S5:Swift Radiance",
 		"jp_explain": "ＰＰ自然回復が停止。\n攻撃時ＰＰ回復量が\n50％上昇、回避成功時\nＰＰが100回復。\n威力2％上昇。鋼拳限定。",
-		"tr_explain": "Reduces PP regeneration\nto 0. Boosts attack PP\nrecovery by 50% and\nrecovers 100 PP on a\nsuccessful dodge."
+		"tr_explain": "Halts PP regen. Boosts\nattack PP recov. by 50%,\ndodging attacks recovers\n100 PP. Boosts damage\nby 2%. Knuckles only."
 	},
 	{
 		"assign": "58",
@@ -533,10 +533,10 @@
 	},
 	{
 		"assign": "76",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ５：終撃応与",
+		"tr_text": "S5:Parting Gift",
+		"jp_explain": "抜刀時のダメージ量に\n応じて、納刀時に\nHPとPPを回復。\n威力2％上昇。",
+		"tr_explain": "Recovers HP and PP\nwhen you sheathe your\nweapon, based on how\nmuch damage you dealt\nwhen it was drawn.\nBoosts damage by 2%."
 	},
 	{
 		"assign": "77",
@@ -2041,42 +2041,42 @@
 		"jp_text": "Ｓ７：視敵無双",
 		"tr_text": "S7:Descried Warrior",
 		"jp_explain": "自身を狙う敵に対して\n威力1％上昇し\n被ダメージ15％軽減。",
-		"tr_explain": "Boosts damage by 1%\n& Reduces damage taken\nby enemies\ntargeting you by\n15%."
+		"tr_explain": "Boosts damage against\nenemies targeting you\nby 1% and reduces\ndamage taken from them\nby 15%."
 	},
 	{
 		"assign": "292",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ６：六色の盾",
+		"tr_text": "S6:Rainbow's Shield",
+		"jp_explain": "花・海・葉・月・雪・影の\nいずれかが発動中\n一定確率で被ダメージを\n大幅に軽減する。",
+		"tr_explain": "While Petal, Ocean,\nLeaf, Moon, Snow or\nShadow Flash is active:\nGrants a chance to\ndrastically reduce\ndamage taken."
 	},
 	{
 		"assign": "293",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ７：六色の巧",
+		"tr_text": "S7:Rainbow's Skill",
+		"jp_explain": "花・海・葉・月・雪・影の\nいずれかが発動中\nクリティカル率上昇。",
+		"tr_explain": "While Petal, Ocean,\nLeaf, Moon, Snow or\nShadow Flash is active:\nIncreases critical hit rate."
 	},
 	{
 		"assign": "294",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ８：六色の蝕",
+		"tr_text": "S8:Rainbow's Decay",
+		"jp_explain": "花・海・葉・月・雪・影の\nいずれかが発動中\n攻撃時にランダムな\n状態異常にする。",
+		"tr_explain": "While Petal, Ocean,\nLeaf, Moon, Snow or\nShadow Flash is active:\nMakes attacks inflict\nrandom status effects."
 	},
 	{
 		"assign": "295",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ６：累加拡域",
+		"tr_text": "S6:Raising Expanse",
+		"jp_explain": "累加追撃による\n追加ダメージが\n範囲攻撃に変化。",
+		"tr_explain": "Alters the range of\nRaising Pursuit's bonus\nattack damage."
 	},
 	{
 		"assign": "296",
-		"jp_text": "-",
-		"tr_text": "",
-		"jp_explain": "-",
-		"tr_explain": ""
+		"jp_text": "Ｓ７：注技縮地",
+		"tr_text": "S7:Amended Movement",
+		"jp_explain": "PAチャージ中の\n移動速度を上昇。",
+		"tr_explain": "Boosts movement speed\nwhile charging PAs."
 	},
 	{
 		"assign": "297",

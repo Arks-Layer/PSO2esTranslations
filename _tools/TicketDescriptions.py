@@ -8,11 +8,12 @@ import shutil
 
 json_loc = os.path.join("..", "json")
 
+REDO_ALL = False # Change to True to recheck all ticket descriptions, even ones already translated.
+
 file_names = [["Accessory", "악세서리"], ["BodyPaint", "바디 페인트"],
               ["Eye", "눈동자"], ["EyeBrow", "눈썹"],
               ["EyeLash", "속눈썹"], ["FacePaint", "메이크업"],
               ["Hairstyle", "헤어스타일"], ["Sticker", "스티커"]]
-
 
 for name in file_names:
     items_file_name = "Item_Stack_" + name[0] + ".txt"
@@ -31,7 +32,7 @@ for name in file_names:
     items_file.close()
     
     for item in items:
-        if item["tr_text"] != "" and item["tr_explain"] == "":
+        if item["tr_text"] != "" and (item["tr_explain"] == "" or REDO_ALL == True):
             
             item_name = item["tr_text"]
             
@@ -95,7 +96,7 @@ for name in layered_file_names:
     items_file.close()
     
     for item in items:
-        if item["tr_text"] != "" and item["tr_explain"] == "":
+        if item["tr_text"] != "" and (item["tr_explain"] == "" or REDO_ALL == True):
             
             # Some items are locked to one sex or the other.
             sex = "n"
@@ -219,9 +220,9 @@ cv_names = {
     }
 
 for item in items:
-    if (item["tr_text"] != ""
-    and (len(regex.findall("Salon", item["tr_explain"])) > 0
-         or item["tr_explain"] == "")):
+    if item["tr_text"] != "" and (item["tr_explain"] == "" or REDO_ALL == True
+                                  # Check for generic wrong format descriptions that keep creeping in somehow.
+                                  or len(regex.findall("Salon", item["tr_explain"])) > 0):
         
         # Strings for race/sex combo restrictions
         restrictions = {
