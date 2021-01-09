@@ -32,7 +32,7 @@
 		"jp_text": "オーバーエンド",
 		"tr_text": "Over End",
 		"jp_explain": "『大剣』用のフォトンアーツ。\nフォトンによって具現化させた\n極大の刃で目標を斬りつける。",
-		"tr_explain": "Sword Photon Art.\nAmass photons into a single massive\nblade to cleave the targets in half."
+		"tr_explain": "Sword Photon Art.\nAmass Photons into a single massive\nblade to cleave the targets in half."
 	},
 	{
 		"assign": "SwordPA06",
@@ -697,7 +697,7 @@
 		"jp_text": "スフィアイレイザー",
 		"tr_text": "Sphere Eraser",
 		"jp_explain": "『大砲』用のフォトンアーツ。\n凝縮したフォトン粒子砲を発射。\nボタンホールドで撃ち続ける。",
-		"tr_explain": "Launcher Photon Art.\nHold the button to fire a condensed\nphoton particle beam."
+		"tr_explain": "Launcher Photon Art.\nHold the button to fire a condensed\nPhoton particle beam."
 	},
 	{
 		"assign": "MachinegunPA01",
@@ -942,7 +942,7 @@
 		"jp_text": "グランウェイヴ",
 		"tr_text": "Gran Wave",
 		"jp_explain": "『魔装脚』用のフォトンアーツ。\nフォトンの波に乗り、連続攻撃を放つ。\n派生で追撃後、すかさず距離を取る。",
-		"tr_explain": "Jet Boots Photon Art.\nRide a photon wave and attack.\nShift Action: A high-speed retreat."
+		"tr_explain": "Jet Boots Photon Art.\nRide a Photon wave and attack.\nShift Action: A high-speed retreat."
 	},
 	{
 		"assign": "JetBootsPA03",
@@ -1313,182 +1313,182 @@
 		"jp_text": "フォイエ",
 		"tr_text": "Foie",
 		"jp_explain": "初級の炎属性テクニック。\nフォトンを熱量変換し\n火の玉として放出する。",
-		"tr_explain": "Basic fire technique.\nConverts photons into a fireball."
+		"tr_explain": "Basic Fire Technique.\nConverts Photons into a fireball. Can\ngraze passing enemies before expiring."
 	},
 	{
 		"assign": "Fire02",
 		"jp_text": "ギ・フォイエ",
 		"tr_text": "Gifoie",
 		"jp_explain": "中級の炎属性テクニック。\nフォトンの連鎖発火を誘発し\n自身の周囲に炎の渦を発生させる。",
-		"tr_explain": "Intermediate fire technique.\nSpurs a chained ignition of photons,\nengulfing your surroundings in flames."
+		"tr_explain": "Intermediate Fire Technique.\nCreates an expanding circle of fire\naround the caster. Hits multiple times."
 	},
 	{
 		"assign": "Fire03",
 		"jp_text": "ラ・フォイエ",
 		"tr_text": "Rafoie",
 		"jp_explain": "中級の炎属性テクニック。\nフォトンを集束させ、起爆し\n任意の場所に、爆発を発生させる。",
-		"tr_explain": "Intermediate fire technique.\nConcentrates photons to detonate at\nwill, blowing up the targeted area."
+		"tr_explain": "Intermediate Fire Technique.\nSuper-heated Photons cause a target\nto explode, damaging nearby enemies."
 	},
 	{
 		"assign": "Fire04",
 		"jp_text": "サ・フォイエ",
 		"tr_text": "Safoie",
 		"jp_explain": "中級の炎属性テクニック。\nフォトンに相互干渉を行わせ\n前方に炎の波を発生させる。",
-		"tr_explain": "Intermediate fire technique.\nChannels photons in an interference\npattern to generate a wide arching\nwave of fire."
+		"tr_explain": "Intermediate Fire Technique.\nCreates an arcing wave of fire in\nfront of the caster. Hits multiple times."
 	},
 	{
 		"assign": "Fire05",
 		"jp_text": "シフタ",
 		"tr_text": "Shifta",
 		"jp_explain": "炎属性の補助テクニック。\nフォトンを励起し、自身と周囲にいる\n味方の攻撃力を上昇させる。",
-		"tr_explain": "Basic fire technique.\nGenerates an offensive active field."
+		"tr_explain": "Fire Support Technique.\nExcites Photons in the air to increase\nATK of all nearby allies."
 	},
 	{
 		"assign": "Fire06",
 		"jp_text": "ナ・フォイエ",
 		"tr_text": "Nafoie",
 		"jp_explain": "上級の炎属性テクニック。\n凝縮した炎を前方に放ち\n広範囲を炎上させる。",
-		"tr_explain": "Advanced fire technique.\nShoot a condensed ball of fire which\ncauses flames to arise from the area\nof impact."
+		"tr_explain": "Advanced Fire Technique.\nShoots a condensed ball of fire that\nignites the surrounding area."
 	},
 	{
 		"assign": "Fire07",
 		"jp_text": "イル・フォイエ",
 		"tr_text": "Ilfoie",
 		"jp_explain": "上級の炎属性テクニック。\n目標に向けて、巨大な炎の塊を落とし\n大きな爆発を引き起こす。",
-		"tr_explain": ""
+		"tr_explain": "Advanced Fire Technique.\nCalls a meteorite from space to the\ntargeted area, exploding on impact."
 	},
 	{
 		"assign": "Ice01",
 		"jp_text": "バータ",
 		"tr_text": "Barta",
 		"jp_explain": "初級の氷属性テクニック。\nフォトンを媒介にして、大気を冷却し\n射線上に氷柱を走らせる。",
-		"tr_explain": "Basic ice technique.\nFreezes the air to fire a line of icicles."
+		"tr_explain": "Basic Ice Technique.\nFreezes the air to fire a line of icicles\nalong the ground in front of the user."
 	},
 	{
 		"assign": "Ice02",
 		"jp_text": "ギ・バータ",
 		"tr_text": "Gibarta",
 		"jp_explain": "中級の氷属性テクニック。\nフォトンを媒介に、大気を急速冷却し\n前方広範囲に氷の礫を発生させる。",
-		"tr_explain": "Intermediate ice technique.\nQuickly cools the atmosphere,\nproducing icy shrapnel in front."
+		"tr_explain": "Intermediate Ice Technique.\nQuickly cools the air, launching icy\nshrapnel in front. Hits multiple times."
 	},
 	{
 		"assign": "Ice03",
 		"jp_text": "ラ・バータ",
 		"tr_text": "Rabarta",
 		"jp_explain": "中級の氷属性テクニック。\nフォトンを介して、大気状態に干渉。\n自身の周囲に吹雪を発生させる。",
-		"tr_explain": "Intermediate ice technique.\nManipulates the atmosphere to\nsummon a blizzard around oneself."
+		"tr_explain": "Intermediate Ice Technique.\nManipulates air pressure to cause a\nblizzard around the caster."
 	},
 	{
 		"assign": "Ice04",
 		"jp_text": "サ・バータ",
 		"tr_text": "Sabarta",
 		"jp_explain": "中級の氷属性テクニック。\nフォトンを操り、大気圧を調整。\n目標地点に対し、氷柱を落とす。",
-		"tr_explain": "Intermediate ice technique.\nManipulates photons to adjust\natmospheric pressure.\nDrops icicles on your target."
+		"tr_explain": "Intermediate Ice Technique.\nRains a series of icicles on the target's\nhead. Smaller enemies are held in place."
 	},
 	{
 		"assign": "Ice05",
 		"jp_text": "デバンド",
 		"tr_text": "Deband",
 		"jp_explain": "氷属性の補助テクニック。\nフォトンを励起し、自身と周囲にいる\n味方の防御力を上昇させる。",
-		"tr_explain": "Basic ice technique.\nGenerate a defensive active field."
+		"tr_explain": "Ice Support Technique.\nExcites Photons in the air to increase\nDEF of all nearby allies."
 	},
 	{
 		"assign": "Ice06",
 		"jp_text": "ナ・バータ",
 		"tr_text": "Nabarta",
 		"jp_explain": "上級の氷属性テクニック。\n大気に干渉し続ける連鎖冷却反応により\nボタンホールドで冷気を放出し続ける。",
-		"tr_explain": "Advanced ice technique.\nRelease a constant stream of chilling\nair."
+		"tr_explain": "Advanced Ice Technique.\nReleases a constant stream of chilling\nair. Cannot be charged."
 	},
 	{
 		"assign": "Ice07",
 		"jp_text": "イル・バータ",
 		"tr_text": "Ilbarta",
 		"jp_explain": "上級の氷属性テクニック。\nダメージを与えつつ、同じテクニックの\n威力を増幅させる氷の紋章を刻み込む。",
-		"tr_explain": ""
+		"tr_explain": "Advanced Ice Technique.\nInscribes an icy sigil on the target\nthat detonates on the seventh cast."
 	},
 	{
 		"assign": "Thunder01",
 		"jp_text": "ゾンデ",
 		"tr_text": "Zonde",
 		"jp_explain": "初級の雷属性テクニック。\nフォトンを励起させ、放電現象を作り\n任意の場所に落雷を落とす。",
-		"tr_explain": "Basic lightning technique.\nCharges photons to summon a bolt of\nlightning in any location."
+		"tr_explain": "Basic Lightning Technique.\nCharges Photons to strike the target\nlocation with lightning."
 	},
 	{
 		"assign": "Thunder02",
 		"jp_text": "ギ・ゾンデ",
 		"tr_text": "Gizonde",
 		"jp_explain": "中級の雷属性テクニック。\nフォトンを励起させ、電撃を放つ。\n電撃は目標から目標へと広がってゆく。",
-		"tr_explain": "Intermediate lightning technique.\nRelease an electric shock that\nspreads from target to target."
+		"tr_explain": "Intermediate Lightning Technique.\nFires an electric shock that leaps\nbetween enemies. Has a limited range."
 	},
 	{
 		"assign": "Thunder03",
 		"jp_text": "ラ・ゾンデ",
 		"tr_text": "Razonde",
 		"jp_explain": "中級の雷属性テクニック。\nフォトンを励起させ、放電球体を生成。\n発動させる高さによって範囲が変化。",
-		"tr_explain": "Intermediate lightning technique.\nGenerates a sphere of electricity,\nwhich shocks its surroundings."
+		"tr_explain": "Intermediate Lightning Technique.\nCalls lightning in a cone around the\ncaster. Range increases with height."
 	},
 	{
 		"assign": "Thunder04",
 		"jp_text": "サ・ゾンデ",
 		"tr_text": "Sazonde",
 		"jp_explain": "中級の雷属性テクニック。\nフォトンを励起し、他の電撃で攻撃を\n誘発させる雷の球を目標に植え付ける。",
-		"tr_explain": "Intermediate lightning technique.\nPlant an electrical sphere inside the\ntarget, leaving it vulnerable to other\nlightning attacks."
+		"tr_explain": "Intermediate Lightning Technique.\nPlants a sphere of static charge in the\ntarget. A Zonde tech will detonate it."
 	},
 	{
 		"assign": "Thunder05",
 		"jp_text": "ゾンディール",
 		"tr_text": "Zondeel",
 		"jp_explain": "雷属性の補助テクニック。\n周囲の敵を吸い寄せる電磁場を発生させ\nその場に電撃を放つと雷が発生する。",
-		"tr_explain": "Basic lightning technique. Generates\nan electromagnetic field to draw in\nmultiples targets. Use an\nelectro-shock for an additional effect."
+		"tr_explain": "Lightning Support Technique.\nGenerates a magnetic field to pull\nenemies in. Zonde techs detonate it."
 	},
 	{
 		"assign": "Thunder06",
 		"jp_text": "ナ・ゾンデ",
 		"tr_text": "Nazonde",
 		"jp_explain": "上級の雷属性テクニック。\n自らを帯電させ、周囲に強力な電場を\n作る。ボタン連打で攻撃回数が増加。",
-		"tr_explain": "Advanced lightning technique.\nCharge yourself with electricity and\nrelease it as a powerful electric field.\nMash button to increase electricity."
+		"tr_explain": "Advanced Lightning Technique.\nSurrounds the caster with a storm.\nMash the cast button to keep it going."
 	},
 	{
 		"assign": "Thunder07",
 		"jp_text": "イル・ゾンデ",
 		"tr_text": "Ilzonde",
 		"jp_explain": "上級の雷属性テクニック。\nフォトンを励起し、自ら帯電した\n鳥と化し、前方に素早く突撃する。",
-		"tr_explain": ""
+		"tr_explain": "Advanced Lightning Technique.\nPhotons electrify the caster, surging\nforward in the form of an electric bird."
 	},
 	{
 		"assign": "Wind01",
 		"jp_text": "ザン",
 		"tr_text": "Zan",
 		"jp_explain": "初級の風属性テクニック。\nかまいたちのブーメランを作り出し\n対象に向けて放つ。",
-		"tr_explain": "Basic wind technique.\nUnleash boomerangs of sharp winds\ntowards the enemy."
+		"tr_explain": "Basic wind Technique.\nUnleash boomerangs of sharp winds\ntowards the enemy."
 	},
 	{
 		"assign": "Wind02",
 		"jp_text": "ギ・ザン",
 		"tr_text": "Gizan",
 		"jp_explain": "中級の風属性テクニック。\nフォトンによる気圧変動によって\n操者の周囲にかまいたちを生みだす。",
-		"tr_explain": "Intermediate wind technique.\nA change in pressure caused by\nphotons creates a whirlwind that\nslices all enemies around the caster."
+		"tr_explain": "Intermediate wind Technique.\nA change in pressure caused by\nPhotons creates a whirlwind that\nslices all enemies around the caster."
 	},
 	{
 		"assign": "Wind03",
 		"jp_text": "ラ・ザン",
 		"tr_text": "Razan",
 		"jp_explain": "中級の風属性テクニック。\n目標周囲の気圧を操作し\n竜巻を発生させ、攻撃する。",
-		"tr_explain": "Intermediate wind technique.\nManipulate pressure under your\ntarget to generate a powerful\ntornado."
+		"tr_explain": "Intermediate wind Technique.\nManipulate pressure under your\ntarget to generate a powerful\ntornado."
 	},
 	{
 		"assign": "Wind04",
 		"jp_text": "サ・ザン",
 		"tr_text": "Sazan",
 		"jp_explain": "中級の風属性テクニック。\n操者の前方に、周囲の目標を\n吸い寄せる竜巻を発生させる。",
-		"tr_explain": "Intermediate wind technique.\nPlaces a whirlwind in front of you\nthat draws enemies in, while cutting\nthem with blades of wind."
+		"tr_explain": "Intermediate wind Technique.\nPlaces a whirlwind in front of you\nthat draws enemies in, while cutting\nthem with blades of wind."
 	},
 	{
 		"assign": "Wind05",
 		"jp_text": "ナ・ザン",
 		"tr_text": "Nazan",
 		"jp_explain": "上級の風属性テクニック。\n凝縮した風を操者の前方に生みだす。\n範囲が狭いが、非常に強力。",
-		"tr_explain": "Advanced wind technique.\nProduces a condensed blast of air.\nNarrow range, but very powerful."
+		"tr_explain": "Advanced wind Technique.\nProduces a condensed blast of air.\nNarrow range, but very powerful."
 	},
 	{
 		"assign": "Wind06",
@@ -1509,42 +1509,42 @@
 		"jp_text": "グランツ",
 		"tr_text": "Grants",
 		"jp_explain": "初級の光属性テクニック。\nフォトンを結晶化し、光の矢を生成。\n目標に向かって空から降らせる。",
-		"tr_explain": "Basic light technique.\nCrystallizes photons, producing\narrows of light that rain down on the\ntarget."
+		"tr_explain": "Basic light Technique.\nCrystallizes Photons, producing\narrows of light that rain down on the\ntarget."
 	},
 	{
 		"assign": "Light02",
 		"jp_text": "ギ・グランツ",
 		"tr_text": "Gigrants",
 		"jp_explain": "中級の光属性テクニック。\nフォトンを結晶化し、光の剣を展開。\nそのまま周囲の敵をなぎ払う。",
-		"tr_explain": "Intermediate light technique.\nCreates a blade of light to drive\naway surrounding enemies."
+		"tr_explain": "Intermediate light Technique.\nCreates a blade of light to drive\naway surrounding enemies."
 	},
 	{
 		"assign": "Light03",
 		"jp_text": "ラ・グランツ",
 		"tr_text": "Ragrants",
 		"jp_explain": "中級の光属性テクニック。\nフォトンを結晶化し、光の槍を生成。\n前方に向かって発射する。",
-		"tr_explain": "Intermediate light technique.\nCrystallize photons to form a single\nlance of light that is fired forward."
+		"tr_explain": "Intermediate light Technique.\nCrystallize Photons to form a single\nlance of light that is fired forward."
 	},
 	{
 		"assign": "Light04",
 		"jp_text": "レスタ",
 		"tr_text": "Resta",
 		"jp_explain": "光属性の回復テクニック。\nフォトンが新陳代謝を促進させ、自身と\n周囲にいる味方の体力を回復させる。",
-		"tr_explain": "Health restoration technique.\nHeals wounds and restores lost\nhealth with photon energy."
+		"tr_explain": "Health restoration Technique.\nHeals wounds and restores lost\nhealth with Photon energy."
 	},
 	{
 		"assign": "Light05",
 		"jp_text": "アンティ",
 		"tr_text": "Anti",
 		"jp_explain": "光属性の状態異常治療テクニック。\n自身と周囲にいる味方の状態異常を\nフォトンの治癒効果で浄化する。",
-		"tr_explain": "Status ailment cure technique.\nThrough the purifying effects of\nphotons, remove contaminants from\nthe body."
+		"tr_explain": "Status ailment cure Technique.\nThrough the purifying effects of\nPhotons, remove contaminants from\nthe body."
 	},
 	{
 		"assign": "Light06",
 		"jp_text": "ナ・グランツ",
 		"tr_text": "Nagrants",
 		"jp_explain": "上級の光属性テクニック。\nフォトンを超高密度で反射させ続ける\n光球を設置する。",
-		"tr_explain": "Advanced light technique.\nCreate an extremely dense sphere of\nlight which automatically reacts to\nenemies."
+		"tr_explain": "Advanced light Technique.\nCreate an extremely dense sphere of\nlight which automatically reacts to\nenemies."
 	},
 	{
 		"assign": "Light07",
@@ -1558,49 +1558,49 @@
 		"jp_text": "メギド",
 		"tr_text": "Megid",
 		"jp_explain": "初級の闇属性テクニック。\n凝縮されたフォトンは、目標を\n追尾し、接触時に炸裂する。",
-		"tr_explain": "Basic dark technique.\nPhotons are condensed and track the\ntarget, exploding on contact."
+		"tr_explain": "Basic Dark Technique.\nAn orb of condensed Photons tracks\nthe target, exploding on contact."
 	},
 	{
 		"assign": "Dark02",
 		"jp_text": "ギ・メギド",
 		"tr_text": "Gimegid",
 		"jp_explain": "中級の闇属性テクニック。\n目標に向けて、凝縮された\nフォトンの帯を差し向け攻撃する。",
-		"tr_explain": "Intermediate dark technique.\nCondensed photons seek your target\nand rain destruction down on them."
+		"tr_explain": "Intermediate Dark Technique.\nDark spears stab a target from all\nsides. Narrow range, very powerful."
 	},
 	{
 		"assign": "Dark03",
 		"jp_text": "ラ・メギド",
 		"tr_text": "Ramegid",
 		"jp_explain": "中級の闇属性テクニック。\n操者の周囲に、凝縮フォトンの塊を\n降り注がせる。",
-		"tr_explain": "Intermediate dark technique.\nA mass of condensed photons pours\nout of the sky and gathers all around\nyou."
+		"tr_explain": "Intermediate Dark Technique.\nCondensed Photons pour from the\nsky and rain down around the caster."
 	},
 	{
 		"assign": "Dark04",
 		"jp_text": "サ・メギド",
 		"tr_text": "Samegid",
 		"jp_explain": "中級の闇属性テクニック。\n目標を執拗に追尾する\nフォトン塊を発生させる。",
-		"tr_explain": "Intermediate dark technique.\nSeveral condensed photon masses\nrelentlessly track your target."
+		"tr_explain": "Intermediate Dark Technique.\nFires several dark splinters to track\nyour target. Best used at long range."
 	},
 	{
 		"assign": "Dark05",
 		"jp_text": "メギバース",
 		"tr_text": "Megiverse",
 		"jp_explain": "闇属性の補助テクニック。\n自身と範囲内の味方が与えたダメージで\n体力を回復できるフォトン領域を展開。",
-		"tr_explain": "Basic dark technique.\nA thin field of condensed photons\ncreate a zone that benefits your\nallies."
+		"tr_explain": "Dark Support Technique.\nGenerates a dark field around the\ncaster. Friendly attacks restore HP."
 	},
 	{
 		"assign": "Dark06",
 		"jp_text": "ナ・メギド",
 		"tr_text": "Namegid",
 		"jp_explain": "上級の闇属性テクニック。\nボタンホールドでフォトンを凝縮させ\n臨界点に達すると強力な爆発が発生。",
-		"tr_explain": "Advanced dark technique.\nConstantly condense photons into a\nspecific point to release an extremely\npowerful explosion."
+		"tr_explain": "Advanced Dark Technique.\nCasts a long incantation upon a single\ntarget. Deals massive damage."
 	},
 	{
 		"assign": "Dark07",
 		"jp_text": "イル・メギド",
 		"tr_text": "Ilmegid",
 		"jp_explain": "上級の闇属性テクニック。\n凝縮されたフォトンは、闇の腕となり\n次々と目標へ向けて襲いかかる。",
-		"tr_explain": ""
+		"tr_explain": "Creates a sinister hand that chases\nenemies after hitting its target.""
 	},
 	{
 		"assign": "MultiWT01",
@@ -2081,106 +2081,106 @@
 	{
 		"assign": "PetLPA01",
 		"jp_text": "バルカンザン",
-		"tr_text": "",
+		"tr_text": "Vulcan Zan",
 		"jp_explain": "『バルカン』用のフォトンアーツ。\n高速で接近しフォトンの刃で切り裂く。\n「繋ぎ」によって威力が上昇する。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "PetLPA02",
 		"jp_text": "バルカンキャク",
-		"tr_text": "",
+		"tr_text": "Vulcan Kyaku",
 		"jp_explain": "『バルカン』用のフォトンアーツ。\n敵の攻撃を回転でいなし、蹴り払う。\n「繋ぎ」によってヒット数が増加する。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "PetLPA03",
 		"jp_text": "バルカンケン",
-		"tr_text": "",
+		"tr_text": "Vulcan Ken",
 		"jp_explain": "『バルカン』用のフォトンアーツ。\n前進しながら強力な連撃を叩き込む。\n「繋ぎ」によってヒット数が増加する。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "PetLPA04",
 		"jp_text": "バルカンダン",
-		"tr_text": "",
+		"tr_text": "Vulcan Dan",
 		"jp_explain": "『バルカン』用のフォトンアーツ。\nプレイヤーの元へ戻り、凝縮弾を発射。\n「繋ぎ」によって攻撃範囲が拡大する。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "PetLPA05",
 		"jp_text": "バルカンゲキ",
-		"tr_text": "",
+		"tr_text": "Vulcan Geki",
 		"jp_explain": "『バルカン』用のフォトンアーツ。\n全身の力を乗せた一撃を叩き込む。\n「繋ぎ」の回数に応じて、威力が上昇。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "MultiWT02",
 		"jp_text": "レ・ザンディア",
-		"tr_text": "",
+		"tr_text": "Re Zandia",
 		"jp_explain": "風と雷の略式複合テクニック。\n雷をまとった竜巻で攻撃。ボタン連打で\n延長可能。竜巻はＰＰを消費し続ける。",
-		"tr_explain": ""
+		"tr_explain": "Simple Tech of Wind and Lightning.\nAttack with a tornado, then lightning.\nExtend by mashing the button."
 	},
 	{
 		"assign": "MultiFD02",
 		"jp_text": "レ・フォメルギア",
-		"tr_text": "",
+		"tr_text": "Re Fomelgia",
 		"jp_explain": "炎と闇の略式複合テクニック。\n炎と闇の槍で、前方に大爆破を行う。\nボタンホールドで突進する。",
-		"tr_explain": ""
+		"tr_explain": "Simple Tech of Fire and Dark.\nStrike ahead with a spear of fire and\ndarkness. Hold to rush forward."
 	},
 	{
 		"assign": "MultiIL02",
 		"jp_text": "レ・バーランツィア",
-		"tr_text": "",
+		"tr_text": "Re Baransia",
 		"jp_explain": "氷と光の略式複合テクニック。\n氷と光の翼で飛翔し、ボタンホールドで\n光弾を放ちながら移動可能。",
-		"tr_explain": ""
+		"tr_explain": "Simple Tech of Ice and Light.\nTake flight with wings of ice and light.\nHold to move while firing bullets."
 	},
 	{
 		"assign": "WandPA01",
 		"jp_text": "ヘヴィーハンマー",
-		"tr_text": "",
+		"tr_text": "Heavy Hammer",
 		"jp_explain": "『短杖』用のフォトンアーツ。\n非チャージ時は数秒間頑強＆突進攻撃\nチャージ時は強力な吹き飛ばし攻撃。",
-		"tr_explain": ""
+		"tr_explain": "Wand Photon Art.\nUncharged, rush in for several seconds.\nCharged, knock enemies away."
 	},
 	{
 		"assign": "SwordGPA01",
 		"jp_text": "インペリアルクリーヴ",
-		"tr_text": "",
+		"tr_text": "Imperial Cleave",
 		"jp_explain": "『大剣』用の解式ＰＡ。\n凝縮したフォトンをまとった強烈な\n斬撃と共に、巨大な衝撃波を放つ。",
-		"tr_explain": ""
+		"tr_explain": "Sword Complex PA.\nCondense Photons into a slash that\ngenerates a huge shockwave."
 	},
 	{
 		"assign": "JetBootsGPA01",
 		"jp_text": "テンペストレイド",
-		"tr_text": "",
+		"tr_text": "Tempest Raid",
 		"jp_explain": "『魔装脚』用の解式ＰＡ。\n回転する円状の衝撃波を連続で放つ。\n派生で突進し、目標を蹴り上げる。",
-		"tr_explain": ""
+		"tr_explain": "Jet Boots Complex PA.\nUnleash a series of shockwaves.\nShift Action: Rush to kick the target."
 	},
 	{
 		"assign": "LauncherGPA01",
 		"jp_text": "プロミネンスアサイル",
-		"tr_text": "",
+		"tr_text": "Prominence Assail",
 		"jp_explain": "『大砲』用の解式ＰＡ。\n空中から一点集中で砲弾を連射し\n最後に威力抜群の爆撃を放つ。",
-		"tr_explain": ""
+		"tr_explain": "Launcher Complex PA.\nBombard one location with focused\nfire, then launch a powerful grenade."
 	},
 	{
 		"assign": "MachinegunGPA01",
 		"jp_text": "カラミティバレット",
-		"tr_text": "",
+		"tr_text": "Calamity Bullet",
 		"jp_explain": "『双機銃』用の解式ＰＡ。\n連射を繰り返し、最後に強力な凝縮弾を\n２発放つ。攻撃間に位置調整可。",
-		"tr_explain": ""
+		"tr_explain": "Twin Machinegun Complex PA.\nFire repeatedly, then two condensed\nshots. You can move between shots."
 	},
 	{
 		"assign": "KnuckleGPA01",
 		"jp_text": "フェイタルノックアウト",
-		"tr_text": "",
+		"tr_text": "Fatal Knockout",
 		"jp_explain": "『鋼拳』用の解式ＰＡ。カウンター可。\n力を極限までため、強烈なパンチの後\n地が割れるほどの衝撃波を叩き付ける。",
-		"tr_explain": ""
+		"tr_explain": "Knuckles Complex PA. Can Counter.\nPower up to the max and perform\ntwo huge swings, then a shockwave."
 	},
 	{
 		"assign": "CompoundBowGPA01",
 		"jp_text": "セルリアンバリスタ",
-		"tr_text": "",
+		"tr_text": "Cerulean Ballista",
 		"jp_explain": "『強弓』用の解式ＰＡ。凝縮フォトンを\n大量に放ち、敵の頭上から降らせる。\n方向入力で広範囲攻撃に変化。",
-		"tr_explain": ""
+		"tr_explain": "Bullet Bow Complex PA.\nConcentrate fire on one target, or\nhold a direction for a wide-area attack."
 	}
 ]
