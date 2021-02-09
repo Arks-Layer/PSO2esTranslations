@@ -753,28 +753,28 @@
 		"jp_text": "よいピッケル",
 		"tr_text": "Good Pickaxe",
 		"jp_explain": "ギャザリングで採取を行える。\nレア採取発生率＋５％",
-		"tr_explain": "A tool for Harvesting.\nRare Collect Rate +5%"
+		"tr_explain": "A tool for Harvesting.\nRare Harvesting Rate +5%"
 	},
 	{
 		"assign": "3210156",
 		"jp_text": "電撃ピッケル",
 		"tr_text": "Dengeki Pickaxe",
 		"jp_explain": "ギャザリングで\nボーナス付き採取を行える。\nレア採取発生率＋８０％\n<yellow>有効期限／２０１７年１２月６日１１時００分<c>",
-		"tr_explain": "A tool for Harvesting.\nRare Collect Rate +80%\n<yellow>Expires Dec 6, 11:00 JST<c>"
+		"tr_explain": "A tool for Harvesting.\nRare Harvesting Rate +80%\n<yellow>Expires Dec 6, 11:00 JST<c>"
 	},
 	{
 		"assign": "3210157",
 		"jp_text": "ファミ通ピッケル",
 		"tr_text": "Famitsu Pickaxe",
 		"jp_explain": "ギャザリングで\nボーナス付き採取を行える。\nレア採取発生率＋８０％\n<yellow>有効期限／２０１６年１２月７日１１時００分<c>",
-		"tr_explain": "A tool for Harvesting.\nRare Collect Rate +80%\n<yellow>Expires Dec 7, 2016 11:00 JST<c>"
+		"tr_explain": "A tool for Harvesting.\nRare Harvesting Rate +80%\n<yellow>Expires Dec 7, 2016 11:00 JST<c>"
 	},
 	{
 		"assign": "3210158",
 		"jp_text": "【極み】ピッケル",
 		"tr_text": "[Master] Pickaxe",
 		"jp_explain": "ギャザリングで採取を行える。\nレア採取発生率＋１００％",
-		"tr_explain": "A tool for Harvesting.\nRare Collect Rate +100%"
+		"tr_explain": "A tool for Harvesting.\nRare Harvesting Rate +100%"
 	},
 	{
 		"assign": "3210159",
@@ -1514,7 +1514,7 @@
 	{
 		"assign": "3210291",
 		"jp_text": "特殊能力（ＨＰ＆ＰＰ/３）",
-		"tr_text": "Add Ability (Stamina&PP/3)",
+		"tr_text": "Add Ability (HP&PP/3)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ＨＰ＆ＰＰ/３】の特殊能力を追加する。",
 		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"Grace Stamina\"\nwhen used in Ability Synthesis."
 	},
@@ -1955,9 +1955,9 @@
 	{
 		"assign": "3210370",
 		"jp_text": "Ｓ４追加Ｒ：妙撃の秤",
-		"tr_text": "",
+		"tr_text": "S4 Add R:Skilled Balance",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：妙撃の秤を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Skilled Balance\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210382",
@@ -2123,16 +2123,16 @@
 	{
 		"assign": "3210465",
 		"jp_text": "Ｓ１追加Ｒ：光子の秤２",
-		"tr_text": "",
+		"tr_text": "S1 Add R:Photon Balance 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：光子の秤２を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Photon Balance 2\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210466",
 		"jp_text": "Ｓ１追加Ｒ：滅域輝与２",
-		"tr_text": "",
+		"tr_text": "S1 Add R:Brilliant Ruin 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：滅域輝与２を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Brilliant Ruin 2\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210469",
@@ -2326,9 +2326,9 @@
 	{
 		"assign": "3210523",
 		"jp_text": "Ｓ７追加Ｒ：視敵無双",
-		"tr_text": "",
+		"tr_text": "S7 Add R:Descried Warrior",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：視敵無双を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Descried Warrior\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210529",
@@ -2809,9 +2809,9 @@
 	{
 		"assign": "3210609",
 		"jp_text": "Ｓ３追加Ｒ：妙技の巧",
-		"tr_text": "",
+		"tr_text": "S3 Add R:Wise Skill",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：妙技の巧を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Wise Skill\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210610",
@@ -2858,9 +2858,9 @@
 	{
 		"assign": "3210616",
 		"jp_text": "Ｓ１追加Ｒ：輝充の志２",
-		"tr_text": "",
+		"tr_text": "S1 Add R:Brilliant Intent 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：輝充の志２を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Brilliant Intent 2\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210626",
@@ -2886,16 +2886,16 @@
 	{
 		"assign": "3210629",
 		"jp_text": "Ｓ２追加Ｒ：保天輝地２",
-		"tr_text": "",
+		"tr_text": "S2 Add R:Heavenly Keeper 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：保天輝地２を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Heavenly Keeper 2\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210630",
 		"jp_text": "Ｓ２追加Ｒ：光子縮減３",
-		"tr_text": "",
+		"tr_text": "S2 Add R:Photon Reduction 3",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：光子縮減３を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Photon Reduction 3\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210643",
@@ -2970,9 +2970,9 @@
 	{
 		"assign": "3210675",
 		"jp_text": "Ｓ５追加Ｒ：終撃応与",
-		"tr_text": "",
+		"tr_text": "S5 Add R:Parting Gift",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：終撃応与を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Parting Gift\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210679",
@@ -2998,9 +2998,9 @@
 	{
 		"assign": "3210682",
 		"jp_text": "Ｓ６追加Ｒ：累加拡域",
-		"tr_text": "",
+		"tr_text": "S6 Add R:Raising Expanse",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：累加拡域を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:Raising Expanse\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210689",
@@ -3026,9 +3026,9 @@
 	{
 		"assign": "3210693",
 		"jp_text": "Ｓ７追加Ｒ：注技縮地",
-		"tr_text": "",
+		"tr_text": "S7 Add R:Amended Movement",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：注技縮地を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Amended Movement\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210699",
