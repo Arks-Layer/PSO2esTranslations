@@ -517,7 +517,7 @@
 	{
 		"assign": "acshop_dialog_b_35",
 		"jp_text": "OPが最大値のため\n回復することができません。",
-		"tr_text": "Cannot recover OP to\nthe maximum value"
+		"tr_text": "Cannot recover OP.\nAlready at Maximum."
 	},
 	{
 		"assign": "acshop_dialog_t_36",
@@ -1942,7 +1942,7 @@
 	{
 		"assign": "friend_dialog_b_02",
 		"jp_text": "フレンド人数が上限に達しています。\nこれ以上、フレンド登録は行えません。",
-		"tr_text": "Your friends list is full.\nYou will not be able to register any more friends."
+		"tr_text": "Your friend list is full.\nYou will not be able to register any more friends."
 	},
 	{
 		"assign": "friend_dialog_t_03",
@@ -2877,7 +2877,7 @@
 	{
 		"assign": "menu_dialog_t_10",
 		"jp_text": "タイトルへ戻る",
-		"tr_text": "Back to title"
+		"tr_text": "Back to Title"
 	},
 	{
 		"assign": "menu_dialog_b_10",
@@ -4897,7 +4897,7 @@
 	{
 		"assign": "myshop_price_min",
 		"jp_text": "最小価格",
-		"tr_text": "Minimum Meseta"
+		"tr_text": "Min Meseta"
 	},
 	{
 		"assign": "myshop_price_max",
@@ -5652,7 +5652,7 @@
 	{
 		"assign": "quest_counter_window_areaselect",
 		"jp_text": "クエストエリア選択",
-		"tr_text": "Quest area selection"
+		"tr_text": "Quest Area Selection"
 	},
 	{
 		"assign": "quest_counter_button_equip1",
@@ -6397,7 +6397,7 @@
 	{
 		"assign": "relief_dialog_t",
 		"jp_text": "救援要請リスト",
-		"tr_text": "Friends List"
+		"tr_text": "Friend List"
 	},
 	{
 		"assign": "relief_level",
@@ -10082,7 +10082,7 @@
 	{
 		"assign": "menu_main_button_change_class",
 		"jp_text": "クラス変更",
-		"tr_text": "Change class"
+		"tr_text": "Change Class"
 	},
 	{
 		"assign": "menu_main_button_sale",
@@ -10267,7 +10267,7 @@
 	{
 		"assign": "menu_sub_button_community_friend",
 		"jp_text": "フレンド",
-		"tr_text": "Friends List"
+		"tr_text": "Friend List"
 	},
 	{
 		"assign": "menu_sub_button_community_mail",
@@ -11057,7 +11057,7 @@
 	{
 		"assign": "friend_list",
 		"jp_text": "フレンド一覧",
-		"tr_text": "Friends list"
+		"tr_text": "Friend list"
 	},
 	{
 		"assign": "character_player_name",
@@ -19497,7 +19497,7 @@
 	{
 		"assign": "chip_depot_dialog_b_00",
 		"jp_text": "<%AC>を消費して\nチップ倉庫を拡張しますか？\n\nチップ倉庫上限（<%current_pack_size>）→<color=red>（<%after_pack_size>）</color>\n※チップ倉庫は<%max_pack_size>まで拡張できます。\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
-		"tr_text": "This will increase your chip\nstorage using <%AC>. Is this OK?\n\nCurrent Limit (<%current_pack_size>)→<color=red>（<%after_pack_size>）</color>\n※Chip Storage can be expanded to <%max_pack_size> slots.\n\nNeeded <%AC>： <%consume_AC>\nOwned <%AC>： <%current_AC>"
+		"tr_text": "This will increase your Chip\nStorage using <%AC>. Is this OK?\n\nCurrent Limit (<%current_pack_size>)→<color=red>（<%after_pack_size>）</color>\n※Chip Storage can be expanded to <%max_pack_size> slots.\n\nNeeded <%AC>： <%consume_AC>\nOwned <%AC>： <%current_AC>"
 	},
 	{
 		"assign": "chip_depot_dialog_t_01",
@@ -20322,7 +20322,7 @@
 	{
 		"assign": "photondice_result_lose_dialog_b_con_02_lp",
 		"jp_text": "<color=yellow>残りプレイ回数</color>を1回消費して再戦しますか？\n再戦しない場合、獲得LCがすべて失われます。\n\n<color=yellow>残りプレイ回数:<%value>回</color>",
-		"tr_text": "Do you want to play a <color=yellow>rematch</color> at\nthe cost of 1 play?\nIf you don't play a rematch, all LC\nyou earned so far will be lost.\n<color=yellow>Remaining plays: <%value></color>"
+		"tr_text": "Do you want to play a <color=yellow>rematch</color> at\nthe cost of 1 Play?\nIf you don't play a rematch, all LC\nyou earned so far will be lost.\n<color=yellow>Remaining Plays: <%value></color>"
 	},
 	{
 		"assign": "photondice_result_lose_dialog_b_con_02_sc",
