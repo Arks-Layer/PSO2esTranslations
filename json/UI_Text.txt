@@ -237,7 +237,7 @@
 	{
 		"assign": "acshop_dialog_b_08",
 		"jp_text": "所持<%AC>が不足しています。\n<%AC>をチャージしますか？\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
-		"tr_text": "Not enough <%AC>.\nDo you want to buy more AC？\n\n<%AC> needed: <%consume_AC>\n<%AC> owned: <%current_AC>"
+		"tr_text": "Not enough <%AC>.\nDo you want to buy more AC?\n\n<%AC> needed: <%consume_AC>\n<%AC> owned: <%current_AC>"
 	},
 	{
 		"assign": "acshop_dialog_t_09",
@@ -247,7 +247,7 @@
 	{
 		"assign": "acshop_dialog_b_09",
 		"jp_text": "「プレミアムセット<%days>日」を使用します。\nよろしいですか？\n\n所持数：<%item_name>×<%current_num>\nプレミアム有効期限：<%expiration_date>\n\n※プレミアム有効期限は最大<%max_days>日まで追加できます。",
-		"tr_text": "Premium Set <%days> Days\nConfirm purchase？\n\nCurrently own：<%item_name>×<%current_num>\nExpires：<%expiration_date>\n\n※Premium Set can be purchased up to <%max_days> Days."
+		"tr_text": "Premium Set <%days> Days\nConfirm purchase?\n\nCurrently own：<%item_name>×<%current_num>\nExpires：<%expiration_date>\n\n※Premium Set can be purchased up to <%max_days> Days."
 	},
 	{
 		"assign": "acshop_dialog_t_10",
@@ -277,7 +277,7 @@
 	{
 		"assign": "acshop_dialog_b_12",
 		"jp_text": "<%item_name>を1枚購入します。\nよろしいですか？\n\n所持数：<%item_name>×<%current_num>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
-		"tr_text": "Purchasing <%item_name>\nConfirm？\n\nCurrently hold：<%item_name>×<%current_num>\n\nAC needed: <%consume_AC>\nAC owned: <%current_AC>"
+		"tr_text": "Purchasing <%item_name>.\nConfirm?\n\nCurrently hold：<%item_name>×<%current_num>\n\nAC needed: <%consume_AC>\nAC owned: <%current_AC>"
 	},
 	{
 		"assign": "acshop_dialog_t_13",
@@ -307,7 +307,7 @@
 	{
 		"assign": "acshop_dialog_b_15",
 		"jp_text": "購入前に年齢確認を実施いたします。\n\n【年齢確認】\nあなたは20歳以上ですか？",
-		"tr_text": "Age verification required before purchase.\n\n【Age Verification】\nAre you 20 or older？"
+		"tr_text": "Age verification required before purchase.\n\n【Age Verification】\nAre you 20 or older?"
 	},
 	{
 		"assign": "acshop_dialog_t_16",
@@ -317,7 +317,7 @@
 	{
 		"assign": "acshop_dialog_b_16",
 		"jp_text": "20歳未満の方は、必ず保護者の許可を得てから\n購入手続きを行ってください。\n\n【許可の確認】\n保護者の許可は得ていますか？",
-		"tr_text": "If you are under 20 years of age, please\nacquire permission before purchase.\n\n【Proof of Permission】\nDo you have permission to purchase？"
+		"tr_text": "If you are under 20 years of age, please\nacquire permission before purchase.\n\n【Proof of Permission】\nDo you have permission to purchase?"
 	},
 	{
 		"assign": "acshop_dialog_t_17",
@@ -517,7 +517,7 @@
 	{
 		"assign": "acshop_dialog_b_35",
 		"jp_text": "OPが最大値のため\n回復することができません。",
-		"tr_text": "Cannot recover OP to\nthe maximum value"
+		"tr_text": "Cannot recover OP.\nAlready at Maximum."
 	},
 	{
 		"assign": "acshop_dialog_t_36",
@@ -1982,7 +1982,7 @@
 	{
 		"assign": "friend_dialog_b_06",
 		"jp_text": "指定の条件では見つかりませんでした。",
-		"tr_text": "No Matches Found"
+		"tr_text": "No Matches Found."
 	},
 	{
 		"assign": "friend_dialog_t_07",
@@ -2827,27 +2827,27 @@
 	{
 		"assign": "menu_dialog_b_08",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n\niOS版に端末引き継ぎを行う場合、\n現在所持しているACはiOS版では使用できません。\n※iOS版におけるアークスキャッシュの単位は\n「iAC」となります。\n※端末引き継ぎによってACの情報は消えません。\n『PSO2』、『PSO2es』Android版を\n再度プレイする際に使用できます。\n\n※SEGA IDを取得し、キャラクター連動を行えば\nPSO2es専用プレイヤーIDの入力は不要です。 \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\nキャラクター連動を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need to transfer this code\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_b_08_uni",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n\n※iOS版に端末引き継ぎを行う場合、\niOS版ではアークスキャッシュの単位は「iAC」と表示されます。\n\n※SEGA IDを取得し、キャラクター連動を行えば\nPSO2es専用プレイヤーIDの入力は不要です。 \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\nキャラクター連動を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need to transfer this code\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_b_08_ios_ac",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n\nAndroid版に端末引き継ぎを行う場合、\n現在所持しているiACは\nAndroid版では使用できません。\n※Android版のアークスキャッシュの単位は\n「AC」となります。\n※端末引き継ぎによってiACの情報は消えません。\n『PSO2es』iOS版を再度プレイする際に使用できます。\n\n※SEGA IDを取得し、キャラクター連動を行えば\nPSO2es専用プレイヤーIDの入力は不要です。 \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\nキャラクター連動を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need to transfer this code\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_b_08_ios_ac_uni",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n\n※Android版に端末引き継ぎを行う場合、\nAndroid版ではアークスキャッシュの単位は「AC」と表示されます。\n\n※SEGA IDを取得し、キャラクター連動を行えば\nPSO2es専用プレイヤーIDの入力は不要です。 \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\nキャラクター連動を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need to transfer this code\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_b_08_ios",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\n端末の移行を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need to transfer this code\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_sega_id",
@@ -2877,7 +2877,7 @@
 	{
 		"assign": "menu_dialog_t_10",
 		"jp_text": "タイトルへ戻る",
-		"tr_text": "Back to title"
+		"tr_text": "Back to Title"
 	},
 	{
 		"assign": "menu_dialog_b_10",
@@ -4897,7 +4897,7 @@
 	{
 		"assign": "myshop_price_min",
 		"jp_text": "最小価格",
-		"tr_text": "Minimum Meseta"
+		"tr_text": "Min Meseta"
 	},
 	{
 		"assign": "myshop_price_max",
@@ -5652,7 +5652,7 @@
 	{
 		"assign": "quest_counter_window_areaselect",
 		"jp_text": "クエストエリア選択",
-		"tr_text": "Quest area selection"
+		"tr_text": "Quest Area Selection"
 	},
 	{
 		"assign": "quest_counter_button_equip1",
@@ -6717,7 +6717,7 @@
 	{
 		"assign": "quest_dialog_b_00",
 		"jp_text": "ラッピーメダルを<%consume_rappy_coin>枚使用して\n復活しますか？\n\n（現在の所持数：<%current_rappy_coin>枚）",
-		"tr_text": "Use <%consume_rappy_coin> Rappy medals\nto revive yourself？\n\n(Rappy medals owned: <%current_rappy_coin>)"
+		"tr_text": "Use <%consume_rappy_coin> Rappy medals\nto revive yourself?\n\n(Rappy medals owned: <%current_rappy_coin>)"
 	},
 	{
 		"assign": "quest_dialog_t_01",
@@ -9812,12 +9812,12 @@
 	{
 		"assign": "limited_loginbonus_get",
 		"jp_text": "<color=yellow>以下のログインボーナスを獲得しました。</color>",
-		"tr_text": "<color=yellow>Earned the following Login Bonus</color>"
+		"tr_text": "<color=yellow>Earned the following Login Bonus.</color>"
 	},
 	{
 		"assign": "limited_loginbonus_term_title",
 		"jp_text": "【開催期間】　",
-		"tr_text": "[Limited Period]"
+		"tr_text": "[Limited Period] "
 	},
 	{
 		"assign": "limited_loginbonus_term",
@@ -10082,7 +10082,7 @@
 	{
 		"assign": "menu_main_button_change_class",
 		"jp_text": "クラス変更",
-		"tr_text": "Change class"
+		"tr_text": "Change Class"
 	},
 	{
 		"assign": "menu_main_button_sale",
@@ -13077,7 +13077,7 @@
 	{
 		"assign": "es_0006_n05_b",
 		"jp_text": "<color=black>侵食エネミーは、通常のエネミーより\n強い力を発揮するようになっており\n非常に危険な存在です。\nなお、ドロップするアイテムも\nより強力なものになる傾向があります。</color>",
-		"tr_text": "<color=black>\"Infected Enemies\" are the same as it's\nnormal counterpart, except that they are\nempowered by their rage. They're very\ndangerous; Caution must be exerted at all\ntimes if one is to be encountered.</color>"
+		"tr_text": "<color=black>\"Infected Enemies\" are the same as its\nnormal counterpart, except that they are\nempowered by their rage. They're very\ndangerous; Caution must be exerted at all\ntimes if one is to be encountered.</color>"
 	},
 	{
 		"assign": "es_0006_n06_b",
@@ -16367,7 +16367,7 @@
 	{
 		"assign": "arksexpeditioncounter_guide_00",
 		"jp_text": "<color=#f0df60>選択したクエストを即時に探索することができます。アカウントごとに毎日初回のみ無料で、以降は有料で利用できます。</color>",
-		"tr_text": "<color=#f0df60>You can explore the selected quest immediately once free per day.</color>"
+		"tr_text": "<color=#f0df60>You can explore the selected quest immediately for free once per day.</color>"
 	},
 	{
 		"assign": "quest_counter_header_arks_expedition",
@@ -16807,12 +16807,12 @@
 	{
 		"assign": "pet_guide_03",
 		"jp_text": "<color=#f0df60>ペットに合成したいチップを選択して下さい。ペットを強化することで、ペットのレベル、ステータスのプラス値を上げることができます。</color>",
-		"tr_text": "<color=#f0df60>Please select a chip you wish to combine with the pet. By strengthening the pet, it's level and stats will rise.</color>"
+		"tr_text": "<color=#f0df60>Please select a chip you wish to combine with the pet. By strengthening the pet, its level and stats will rise.</color>"
 	},
 	{
 		"assign": "pet_guide_04",
 		"jp_text": "<color=#f0df60>ペットに合成したいエッグを選択して下さい。ペットを強化することで、ペットのレベル、ステータスのプラス値を上げることができます。</color>",
-		"tr_text": "<color=#f0df60>Please select an egg you wish to combine with the pet. By strengthening the pet, it's level and stats will rise.</color>"
+		"tr_text": "<color=#f0df60>Please select an egg you wish to combine with the pet. By strengthening the pet, its level and stats will rise.</color>"
 	},
 	{
 		"assign": "pet_give",
@@ -16967,7 +16967,7 @@
 	{
 		"assign": "pet_egg_give_noitem_window_title",
 		"jp_text": "エッグ未選択",
-		"tr_text": "Egg deselected"
+		"tr_text": "Egg Not Selected"
 	},
 	{
 		"assign": "pet_egg_give_noitem_window_body",
@@ -17852,7 +17852,7 @@
 	{
 		"assign": "lookback_maintext_1",
 		"jp_text": "謎の少女デュナとトランスエネミーを巡る\n物語を振り返ります。",
-		"tr_text": "View the story of Duna,\nthe Trans Enemy."
+		"tr_text": "View the story of Duna and\nthe Trans Enemies."
 	},
 	{
 		"assign": "lookback_season2_chapter_1",
@@ -18022,7 +18022,7 @@
 	{
 		"assign": "lookback_series2_chapter_1",
 		"jp_text": "第１章　運命は咆哮し嵐が来たる",
-		"tr_text": ""
+		"tr_text": "Chapter 1\nFate Arrives Like A Storm"
 	},
 	{
 		"assign": "lookback_series2_chapter_2",
@@ -18667,7 +18667,7 @@
 	{
 		"assign": "story_event_end_text_1",
 		"jp_text": "現在のストーリークエストの配信は\nここまでとなります。",
-		"tr_text": "Current Story Ends Here"
+		"tr_text": "Current Story Ends Here."
 	},
 	{
 		"assign": "story_event_end_text_2",
@@ -19497,7 +19497,7 @@
 	{
 		"assign": "chip_depot_dialog_b_00",
 		"jp_text": "<%AC>を消費して\nチップ倉庫を拡張しますか？\n\nチップ倉庫上限（<%current_pack_size>）→<color=red>（<%after_pack_size>）</color>\n※チップ倉庫は<%max_pack_size>まで拡張できます。\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
-		"tr_text": "This will increase your chip\nstorage using <%AC>. Is this OK?\n\nCurrent Limit (<%current_pack_size>)→<color=red>（<%after_pack_size>）</color>\n※Chip Storage can be expanded to <%max_pack_size> slots.\n\nNeeded <%AC>： <%consume_AC>\nOwned <%AC>： <%current_AC>"
+		"tr_text": "This will increase your Chip\nStorage using <%AC>. Is this OK?\n\nCurrent Limit (<%current_pack_size>)→<color=red>（<%after_pack_size>）</color>\n※Chip Storage can be expanded to <%max_pack_size> slots.\n\nNeeded <%AC>： <%consume_AC>\nOwned <%AC>： <%current_AC>"
 	},
 	{
 		"assign": "chip_depot_dialog_t_01",
@@ -20322,7 +20322,7 @@
 	{
 		"assign": "photondice_result_lose_dialog_b_con_02_lp",
 		"jp_text": "<color=yellow>残りプレイ回数</color>を1回消費して再戦しますか？\n再戦しない場合、獲得LCがすべて失われます。\n\n<color=yellow>残りプレイ回数:<%value>回</color>",
-		"tr_text": "Do you want to play a <color=yellow>rematch</color> at\nthe cost of 1 play?\nIf you don't play a rematch, all LC\nyou earned so far will be lost.\n<color=yellow>Remaining plays: <%value></color>"
+		"tr_text": "Do you want to play a <color=yellow>rematch</color> at\nthe cost of 1 Play?\nIf you don't play a rematch, all LC\nyou earned so far will be lost.\n<color=yellow>Remaining Plays: <%value></color>"
 	},
 	{
 		"assign": "photondice_result_lose_dialog_b_con_02_sc",
@@ -21497,7 +21497,7 @@
 	{
 		"assign": "darkerblast_guid_0",
 		"jp_text": "<color=#f0df60>ダークブラストを選択してください。</color>",
-		"tr_text": "<color=#f0df60>Select a Dark Blast</color>"
+		"tr_text": "<color=#f0df60>Select a Dark Blast.</color>"
 	},
 	{
 		"assign": "darkerblast_list_window_title",
@@ -21517,7 +21517,7 @@
 	{
 		"assign": "darkerblast_guid_1",
 		"jp_text": "<color=#f0df60>合成するチップを選んでください。</color>",
-		"tr_text": "<color=#f0df60>Select a chip</color>"
+		"tr_text": "<color=#f0df60>Select a chip.</color>"
 	},
 	{
 		"assign": "darkerblast_info_window_title",
@@ -21587,7 +21587,7 @@
 	{
 		"assign": "darkerblast_no_info_body",
 		"jp_text": "『PSO2』でダークブラストを習得していないため\n利用できません。",
-		"tr_text": "Cannot use this feature unless\nyou gain a Dark Blast in \"PSO2\""
+		"tr_text": "Cannot use this feature unless\nyou gain a Dark Blast in \"PSO2\"."
 	},
 	{
 		"assign": "darkerblast_no_select_chip_title",
@@ -21842,7 +21842,7 @@
 	{
 		"assign": "optioncommon_monitorset_btn",
 		"jp_text": "画面設定",
-		"tr_text": "Screen"
+		"tr_text": "Display"
 	},
 	{
 		"assign": "optioncommon_soundset_btn",
