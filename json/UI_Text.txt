@@ -1942,7 +1942,7 @@
 	{
 		"assign": "friend_dialog_b_02",
 		"jp_text": "フレンド人数が上限に達しています。\nこれ以上、フレンド登録は行えません。",
-		"tr_text": "Your friends list is full.\nYou will not be able to register any more friends."
+		"tr_text": "Your Friend List is full.\nYou will not be able to register any more friends."
 	},
 	{
 		"assign": "friend_dialog_t_03",
@@ -1952,7 +1952,7 @@
 	{
 		"assign": "friend_dialog_b_03",
 		"jp_text": "相手のフレンド枠が上限に達しています。",
-		"tr_text": "The other person's friend list is full."
+		"tr_text": "The other person's Friend List is full."
 	},
 	{
 		"assign": "friend_dialog_t_04",
@@ -6397,7 +6397,7 @@
 	{
 		"assign": "relief_dialog_t",
 		"jp_text": "救援要請リスト",
-		"tr_text": "Friends List"
+		"tr_text": "Friend List"
 	},
 	{
 		"assign": "relief_level",
@@ -10267,7 +10267,7 @@
 	{
 		"assign": "menu_sub_button_community_friend",
 		"jp_text": "フレンド",
-		"tr_text": "Friends List"
+		"tr_text": "Friend List"
 	},
 	{
 		"assign": "menu_sub_button_community_mail",
@@ -11057,7 +11057,7 @@
 	{
 		"assign": "friend_list",
 		"jp_text": "フレンド一覧",
-		"tr_text": "Friends list"
+		"tr_text": "Friend List"
 	},
 	{
 		"assign": "character_player_name",
