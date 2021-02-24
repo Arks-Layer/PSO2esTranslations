@@ -3282,7 +3282,7 @@
 	{
 		"assign": "mag_dialog_b_17",
 		"jp_text": "マグレベルダウンデバイスを消費して\nマグの支援レベルを1つ下げます。\nよろしいですか？\n\n消費前\n{0}\n\n消費後\n<color=#00C2FF>{1}</color>",
-		"tr_text": "Using the Mag Level Down device\nyou'll lower one stat from your mag.\nIs that OK?\n\nBefore Use:\n{0}\n\nAfter:\n<color=#00C2FF>{1}</color>"
+		"tr_text": "Using the Mag Level Down device\nyou'll lower one stat from your Mag.\nIs that OK?\n\nBefore Use:\n{0}\n\nAfter:\n<color=#00C2FF>{1}</color>"
 	},
 	{
 		"assign": "mag_dialog_t_18",
@@ -10497,12 +10497,12 @@
 	{
 		"assign": "menu_pso2_dialog_mag_t",
 		"jp_text": "マグ未所持",
-		"tr_text": "You don't own a mag."
+		"tr_text": "You don't own a Mag."
 	},
 	{
 		"assign": "menu_pso2_dialog_mag_b",
 		"jp_text": "『PSO2』でマグを所持していないため\n利用できません。",
-		"tr_text": "You can't use because you\ndon't have a mag in PSO2."
+		"tr_text": "You can't use because you\ndon't have a Mag in PSO2."
 	},
 	{
 		"assign": "menu_fulldownload_t_01",
@@ -12317,7 +12317,7 @@
 	{
 		"assign": "tu_0006_w13_b",
 		"jp_text": "メニュー『キャラクター連動』において、\n『PSO2』で所持しているマグを育成できるようになりました。",
-		"tr_text": "Because you linked your character\nwith PSO2, you can now feed your mag."
+		"tr_text": "Because you linked your character\nwith PSO2, you can now feed your Mag."
 	},
 	{
 		"assign": "tu_0006_w14_b",
@@ -12382,7 +12382,7 @@
 	{
 		"assign": "tu_0006_n37_b",
 		"jp_text": "このメニューでは、『PSO2』で所持しているマグに\nアイテムやデバイスを与えることができます。",
-		"tr_text": "In this menu, you can feed your\nPSO2 mag or give it a device."
+		"tr_text": "In this menu, you can feed your\nPSO2 Mag or give it a device."
 	},
 	{
 		"assign": "tu_0006_n38_b",
@@ -12397,7 +12397,7 @@
 	{
 		"assign": "tu_0006_n40_b",
 		"jp_text": "また、マグのエネルギーの値は、\nログイン時・ログアウト時・マグにアイテムを与えた時に\nサーバーと同期されます。",
-		"tr_text": "When you give the device to the mag,\nthe energy is synced to the server\nwhen you login and logout."
+		"tr_text": "When you give the device to the Mag,\nthe energy is synced to the server\nwhen you login and logout."
 	},
 	{
 		"assign": "tu_0007_n00_b",
