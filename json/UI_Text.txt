@@ -12592,7 +12592,7 @@
 	{
 		"assign": "wh_25_01",
 		"jp_text": "このアイテムは、『PSO2』に持ちこむことができません。\n売却などでアイテムの整理を行ってください。",
-		"tr_text": "Items cannot be stored into\nPSO2's storage from PSO2es,\nyou will need to do that from PSO2."
+		"tr_text": "Items cannot be stored into\nPSO2's Storage from PSO2es,\nyou will need to do that from PSO2."
 	},
 	{
 		"assign": "wh_26_00",
@@ -16702,7 +16702,7 @@
 	{
 		"assign": "depot_guide_00",
 		"jp_text": "<color=#f0df60>倉庫に預けるアイテムを選択してください。</color>",
-		"tr_text": "<color=#f0df60>Select an item to deposit into storage.</color>"
+		"tr_text": "<color=#f0df60>Select an item to deposit into Storage.</color>"
 	},
 	{
 		"assign": "depot_guide_01",
@@ -16767,12 +16767,12 @@
 	{
 		"assign": "depot_dialog_depot_full",
 		"jp_text": "倉庫の空き容量不足のため、\n預けることができませんでした。",
-		"tr_text": "We were not able to store this\nsince you have insufficient storage space."
+		"tr_text": "Unable to store this\nsince you have insufficient Storage space."
 	},
 	{
 		"assign": "depot_dialog_depot_became_full",
 		"jp_text": "倉庫の空き容量不足のため、\n一部のアイテムを預けることができませんでした。",
-		"tr_text": "We were unable to store some items\nsince you have insufficient storage space."
+		"tr_text": "Unable to store some items\nsince you have insufficient Storage space."
 	},
 	{
 		"assign": "depot_dialog_pack_full",
@@ -19497,7 +19497,7 @@
 	{
 		"assign": "chip_depot_dialog_b_00",
 		"jp_text": "<%AC>を消費して\nチップ倉庫を拡張しますか？\n\nチップ倉庫上限（<%current_pack_size>）→<color=red>（<%after_pack_size>）</color>\n※チップ倉庫は<%max_pack_size>まで拡張できます。\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
-		"tr_text": "This will increase your chip\nstorage using <%AC>. Is this OK?\n\nCurrent Limit (<%current_pack_size>)→<color=red>（<%after_pack_size>）</color>\n※Chip Storage can be expanded to <%max_pack_size> slots.\n\nNeeded <%AC>： <%consume_AC>\nOwned <%AC>： <%current_AC>"
+		"tr_text": "This will increase your Chip\nStorage using <%AC>. Is this OK?\n\nCurrent Limit (<%current_pack_size>)→<color=red>（<%after_pack_size>）</color>\n※Chip Storage can be expanded to <%max_pack_size> slots.\n\nNeeded <%AC>： <%consume_AC>\nOwned <%AC>： <%current_AC>"
 	},
 	{
 		"assign": "chip_depot_dialog_t_01",
@@ -19542,12 +19542,12 @@
 	{
 		"assign": "chip_depot_guide_00",
 		"jp_text": "<color=#f0df60>チップ倉庫に預けるチップを選択してください。</color>",
-		"tr_text": "<color=#f0df60>Select chips to deposit in chip storage.</color>"
+		"tr_text": "<color=#f0df60>Select chips to deposit in Chip Storage.</color>"
 	},
 	{
 		"assign": "chip_depot_guide_01",
 		"jp_text": "<color=#f0df60>チップパックへ取り出すチップを選択してください。</color>",
-		"tr_text": "<color=#f0df60>Select chips to withdraw from chip storage.</color>"
+		"tr_text": "<color=#f0df60>Select chips to withdraw from Chip Storage.</color>"
 	},
 	{
 		"assign": "chip_depot_expand_num",
@@ -19557,7 +19557,7 @@
 	{
 		"assign": "chip_depot_dialog_b_02",
 		"jp_text": "チップ倉庫が最大まで拡張されているので\nこれ以上拡張できません。 ",
-		"tr_text": "Your chip storage has been expanded\nto its maximum size.\nIt cannot be expanded any further."
+		"tr_text": "Your Chip Storage has been expanded\nto its maximum size.\nIt cannot be expanded any further."
 	},
 	{
 		"assign": "scratch_pickup_select_window_title",
