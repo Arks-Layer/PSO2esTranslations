@@ -7242,14 +7242,14 @@
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ジャストアタックの威力を超絶に増加する。\n② 定期的にＨＰをわずかに回復する。\n③ 定期的にＣＰを回復する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts the damage of Just Attacks by ???%.\n     <color=yellow>[T-Frame]</color>\n②  Recovers HP by ??% every 5 seconds.\n③  Recovers CP by ?? every ? seconds.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32410",
 		"jp_explainShort": "氷属性時小増＋自在槍時小増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ジャストアタックの威力を極度に増加する。\n② 定期的にＨＰをわずかに回復する。\n③ 定期的にＣＰを回復する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts the damage of Just Attacks by ???%.\n     <color=yellow>[T-Frame]</color>\n②  Recovers HP by ??% every 5 seconds.\n③  Recovers CP by ?? every ? seconds.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32411",
@@ -7270,42 +7270,42 @@
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技・法術チップが炎属性か氷属性の場合\n　　 装備中の炎・氷属性のチップの枚数に応じて\n　　 威力を絶大に増加する。\n② 炎・氷属性のチップの消費ＣＰを減少する。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Fire and Ice PAs and Techs based on the\n     number of Fire and Ice chips equipped.\n     <color=yellow>[K-Frame]</color>\n②  Reduces the CP consumption of Fire and Ice chips.\n③  Speeds up movement and normal attacks by ??%.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32414",
 		"jp_explainShort": "風属性時小増＋自在槍時小増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技・法術チップが炎属性か氷属性の場合\n　　 装備中の炎・氷属性のチップの枚数に応じて\n　　 威力を絶大に増加する。\n② 炎・氷属性のチップの消費ＣＰを減少する。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Fire and Ice PAs and Techs based on the\n     number of Fire and Ice chips equipped.\n     <color=yellow>[K-Frame]</color>\n②  Reduces the CP consumption of Fire and Ice chips.\n③  Speeds up movement and normal attacks by ??%.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32415",
 		"jp_explainShort": "風属性時増＋自在槍時増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技・法術チップが光属性か闇属性の場合\n　　 装備中の光・闇属性のチップの枚数に応じて\n　　 威力を絶大に増加する。\n② 光・闇属性のチップの消費ＣＰを減少する。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Light and Dark PAs and Techs based on the\n     number of Light and Dark chips equipped.\n     <color=yellow>[K-Frame]</color>\n②  Reduces the CP consumption of Light and Dark chips.\n③  Speeds up movement and normal attacks by ??%.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32416",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技・法術チップが光属性か闇属性の場合\n　　 装備中の光・闇属性のチップの枚数に応じて\n　　 威力を絶大に増加する。\n② 光・闇属性のチップの消費ＣＰを減少する。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Light and Dark PAs and Techs based on the\n     number of Light and Dark chips equipped.\n     <color=yellow>[K-Frame]</color>\n②  Reduces the CP consumption of Light and Dark chips.\n③  Speeds up movement and normal attacks by ??%.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32417",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技・法術チップが雷属性か風属性の場合\n　　 装備中の雷・風属性のチップの枚数に応じて\n　　 威力を絶大に増加する。\n② 雷・風属性のチップの消費ＣＰを減少する。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Lightning and Wind PAs and Techs based\n          on the number of Lightning and Wind chips\n     equipped.\n     <color=yellow>[K-Frame]</color>\n②  Reduces the CP consumption of Lightning and\n     Wind chips.\n③  Speeds up movement and normal attacks by ??%.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32418",
 		"jp_explainShort": "闇属性時小増＋自在槍時小増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技・法術チップが雷属性か風属性の場合\n　　 装備中の雷・風属性のチップの枚数に応じて\n　　 威力を絶大に増加する。\n② 雷・風属性のチップの消費ＣＰを減少する。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Lightning and Wind PAs and Techs based\n          on the number of Lightning and Wind chips\n     equipped.\n     <color=yellow>[K-Frame]</color>\n②  Reduces the CP consumption of Lightning and\n     Wind chips.\n③  Speeds up movement and normal attacks by ??%.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32419",
@@ -7508,14 +7508,14 @@
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技・法術の威力をアビリティレベルに応じて\n　　 超絶に強化する。\n② 装備中の闇属性チップの枚数に応じて、闇属性の\n　　 チップの発動率を上昇する。\n③ 発動率上昇の効果を持つチップと組み合わせた場合\n　　 闇属性のチップの発動率上昇の効果を強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts the power of PAs and Techs based on this\n     chip's ability level.\n     <color=yellow>[A-Frame]</color>\n②  Increases the activation rate of Dark chips based\n     on the number of Dark chips equipped.\n     (Stacks with other activation rate increases)\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32456",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技・法術の威力をアビリティレベルに応じて\n　　 超絶に強化する。\n② 装備中の闇属性チップの枚数に応じて、闇属性の\n　　 チップの発動率を上昇する。\n③ 発動率上昇の効果を持つチップと組み合わせた場合\n　　 闇属性のチップの発動率上昇の効果を強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts the power of PAs and Techs based on this\n     chip's ability level.\n     <color=yellow>[A-Frame]</color>\n②  Increases the activation rate of Dark chips based\n     on the number of Dark chips equipped.\n     (Stacks with other activation rate increases)\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "2210",
