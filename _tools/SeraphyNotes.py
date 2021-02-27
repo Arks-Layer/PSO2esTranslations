@@ -4,6 +4,8 @@ import codecs
 import json
 import os
 import shutil
+import sys
+import getopt
 
 json_loc = os.path.join("..", "json")
 
@@ -207,7 +209,7 @@ generic_lines = {
 reporting = False
 
 try: 
-    opts, args = getopt.getopt(argv, "r", ["report"])
+    opts, args = getopt.getopt(sys.argv, "r", ["report"])
 except getopt.GetoptError:
     print("Unrecognised option.")
 
