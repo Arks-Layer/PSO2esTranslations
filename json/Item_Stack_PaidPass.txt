@@ -10,7 +10,7 @@
 		"assign": "32103",
 		"jp_text": "カラーチェンジパス",
 		"tr_text": "Color Change Pass",
-		"jp_explain": "コスチュームのカラー変更パス\nエステにてカラーリングの変更が可能。\n利用するたびにパスは消費される。",
+		"jp_explain": "エステにて『PSO2』モデルの\nカラー変更が可能。\n利用するたびにパスは消費される。",
 		"tr_explain": "Allows you to recolor your\ncharacter from the Beauty Salon."
 	},
 	{
@@ -3120,5 +3120,12 @@
 		"tr_text": "Add Ability R (Reverie C)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【レヴリー・カタリスト】を追加。",
 		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"Reverie Catalyst\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "321010054",
+		"jp_text": "N-カラーチェンジパス",
+		"tr_text": "",
+		"jp_explain": "エステにて『PSO2:NGS』モデルの\nカラー変更が可能。\n利用するたびにパスは消費される。",
+		"tr_explain": ""
 	}
 ]

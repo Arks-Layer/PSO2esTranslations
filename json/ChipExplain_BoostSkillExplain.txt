@@ -9753,18 +9753,18 @@
 	},
 	{
 		"assign": "32337",
-		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "Maximum Element Up",
-		"jp_explainLong": "氷属性 の上限値が 10 上昇する。",
-		"tr_explainLong": "Increases your maximum Ice Element by 10.",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したチップの HP を 15％ 増加する。",
+		"tr_explainLong": "",
 		"flag": 0
 	},
 	{
 		"assign": "32338",
-		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "Maximum Element Up",
-		"jp_explainLong": "氷属性 の上限値が 10 上昇する。",
-		"tr_explainLong": "Increases your maximum Ice Element by 10.",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したチップの HP を 15％ 増加する。",
+		"tr_explainLong": "",
 		"flag": 0
 	},
 	{
@@ -10256,6 +10256,38 @@
 		"flag": 0
 	},
 	{
+		"assign": "32400",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32401",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32402",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32403",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
 		"assign": "32404",
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
@@ -10272,6 +10304,30 @@
 		"flag": 0
 	},
 	{
+		"assign": "32406",
+		"jp_explainShort": "属性値上限アップ",
+		"tr_explainShort": "",
+		"jp_explainLong": "炎属性 の上限値が 20 上昇する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32407",
+		"jp_explainShort": "属性値上限アップ",
+		"tr_explainShort": "",
+		"jp_explainLong": "炎属性 の上限値が 20 上昇する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32408",
+		"jp_explainShort": "属性値上限アップ",
+		"tr_explainShort": "",
+		"jp_explainLong": "炎属性 の上限値が 20 上昇する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
 		"assign": "32409",
 		"jp_explainShort": "効果時間延長",
 		"tr_explainShort": "Effect Duration Extended",
@@ -10285,6 +10341,22 @@
 		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
 		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
+		"flag": 0
+	},
+	{
+		"assign": "32411",
+		"jp_explainShort": "特定操作時ＨＰ回復",
+		"tr_explainShort": "",
+		"jp_explainLong": "スライド操作時 に\\nＨＰが 5％ 回復する。(発動確率： 小 )",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32412",
+		"jp_explainShort": "特定操作時ＨＰ回復",
+		"tr_explainShort": "",
+		"jp_explainLong": "スライド操作時 に\\nＨＰが 5％ 回復する。(発動確率： 小 )",
+		"tr_explainLong": "",
 		"flag": 0
 	},
 	{
@@ -10336,6 +10408,22 @@
 		"flag": 0
 	},
 	{
+		"assign": "32419",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したチップの CP を 30％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32420",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したチップの CP を 30％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
 		"assign": "32421",
 		"jp_explainShort": "属性ダメージアップ",
 		"tr_explainShort": "Element Damage Up",
@@ -10365,6 +10453,118 @@
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 25％ 増加する。",
 		"tr_explainLong": "Boosts linked chip's HP by 25%.",
+		"flag": 0
+	},
+	{
+		"assign": "32429",
+		"jp_explainShort": "プレイヤーパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "プレイヤーの 攻撃力全般 を 100％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32430",
+		"jp_explainShort": "プレイヤーパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "プレイヤーの 攻撃力全般 を 100％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32431",
+		"jp_explainShort": "プレイヤーパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "プレイヤーの 攻撃力全般 を 100％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32434",
+		"jp_explainShort": "発動ＣＰダウン",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したアクティブチップの消費ＣＰが 25％ 減少する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32435",
+		"jp_explainShort": "発動ＣＰダウン",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したアクティブチップの消費ＣＰが 25％ 減少する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32436",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したチップの 光属性 を 25％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32437",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したチップの 光属性 を 25％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32438",
+		"jp_explainShort": "属性値上限アップ",
+		"tr_explainShort": "",
+		"jp_explainLong": "光属性 の上限値が 20 上昇する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32439",
+		"jp_explainShort": "属性値上限アップ",
+		"tr_explainShort": "",
+		"jp_explainLong": "光属性 の上限値が 20 上昇する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32440",
+		"jp_explainShort": "属性値上限アップ",
+		"tr_explainShort": "",
+		"jp_explainLong": "光属性 の上限値が 20 上昇する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32441",
+		"jp_explainShort": "発動率アップ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したサポートチップの発動率が 10％ 上昇する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32442",
+		"jp_explainShort": "発動率アップ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したサポートチップの発動率が 10％ 上昇する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32443",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したチップの HP を 30％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "32444",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備したチップの HP を 30％ 増加する。",
+		"tr_explainLong": "",
 		"flag": 0
 	},
 	{
@@ -15901,6 +16101,198 @@
 		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
 		"tr_explainLong": "Boosts DEF by 30% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
+		"flag": 0
+	},
+	{
+		"assign": "60351",
+		"jp_explainShort": "追加ダメージ付与",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60352",
+		"jp_explainShort": "追加ダメージ付与",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60353",
+		"jp_explainShort": "追加ダメージ付与",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60354",
+		"jp_explainShort": "追加ダメージ付与",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60355",
+		"jp_explainShort": "追加ダメージ付与",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60356",
+		"jp_explainShort": "追加ダメージ付与",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60357",
+		"jp_explainShort": "追加ダメージ付与",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60358",
+		"jp_explainShort": "追加ダメージ付与",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60359",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60360",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60361",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60362",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60363",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60364",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60365",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60366",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60235",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60236",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60237",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60238",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60239",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60240",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60241",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
+		"tr_explainLong": "",
+		"flag": 0
+	},
+	{
+		"assign": "60242",
+		"jp_explainShort": "技・法終了時パラメータＵＰ",
+		"tr_explainShort": "",
+		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
+		"tr_explainLong": "",
 		"flag": 0
 	}
 ]
