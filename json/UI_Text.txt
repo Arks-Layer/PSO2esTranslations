@@ -3292,7 +3292,7 @@
 	{
 		"assign": "mag_dialog_b_18",
 		"jp_text": "このデバイスは、対象のマグがLv.101になるまで\n使用できません。",
-		"tr_text": "Device cannot be used\nuntil Mag is Lv. 101."
+		"tr_text": "Device cannot be used\nuntil Mag is Lv.101."
 	},
 	{
 		"assign": "mag_dialog_t_19",
@@ -6402,7 +6402,7 @@
 	{
 		"assign": "relief_level",
 		"jp_text": "Lv.<%level>",
-		"tr_text": "Lv. <%level>"
+		"tr_text": "Lv.<%level>"
 	},
 	{
 		"assign": "relief_login",
@@ -8321,8 +8321,8 @@
 	},
 	{
 		"assign": "chipequip_ability_lv",
-		"jp_text": "アビリティLv. {0}",
-		"tr_text": "Ability Lv. {0}"
+		"jp_text": "アビリティLv.{0}",
+		"tr_text": "Ability Lv.{0}"
 	},
 	{
 		"assign": "chipequip_consume_cp",
@@ -9836,7 +9836,7 @@
 	},
 	{
 		"assign": "lobby_charainfo_lv",
-		"jp_text": "Lv. <%level>",
+		"jp_text": "Lv.<%level>",
 		"tr_text": ""
 	},
 	{
@@ -9846,7 +9846,7 @@
 	},
 	{
 		"assign": "menu_charainfo_lv",
-		"jp_text": "Lv. <%level>",
+		"jp_text": "Lv.<%level>",
 		"tr_text": ""
 	},
 	{
@@ -10702,7 +10702,7 @@
 	{
 		"assign": "quest_emeny_level",
 		"jp_text": "目標Lv.{0}～",
-		"tr_text": "Lv. {0}～"
+		"tr_text": "Lv.{0}～"
 	},
 	{
 		"assign": "quest_counter_no_area_t",
@@ -15172,7 +15172,7 @@
 	{
 		"assign": "ItemDetail_EquipSkill_Insufficiency",
 		"jp_text": "<color=white><%parameter1>%　　(クラスレベル<%parameter2>で最大効果発揮)</color>",
-		"tr_text": "<color=white><%parameter1>%　　(Fully Proficient @ Lv. <%parameter2>)</color>"
+		"tr_text": "<color=white><%parameter1>%　　(Fully Proficient @ Lv.<%parameter2>)</color>"
 	},
 	{
 		"assign": "ItemDetail_EquipSkill_Sufficiently",
@@ -15461,7 +15461,7 @@
 	},
 	{
 		"assign": "ItemDetail_Disc_Level",
-		"jp_text": "<color=white>Lv. <%parameter></color>",
+		"jp_text": "<color=white>Lv.<%parameter></color>",
 		"tr_text": ""
 	},
 	{
@@ -16621,8 +16621,8 @@
 	},
 	{
 		"assign": "ItemDetail_Egg_potential",
-		"jp_text": "<color=yellow><%parameter_potential>Lv. <%parameter_level></color>",
-		"tr_text": "<color=yellow><%parameter_potential> Lv. <%parameter_level></color>"
+		"jp_text": "<color=yellow><%parameter_potential>Lv.<%parameter_level></color>",
+		"tr_text": "<color=yellow><%parameter_potential> Lv.<%parameter_level></color>"
 	},
 	{
 		"assign": "attribute_fire",
@@ -17452,7 +17452,7 @@
 	{
 		"assign": "sidestory_voice_play_locked_info_LvMAX",
 		"jp_text": "このボイスは\n絆レベルがLv.MAXになると解放されます。",
-		"tr_text": "Voice will\nbe unlocked at Bond Lv. MAX."
+		"tr_text": "Voice will\nbe unlocked at Bond Lv.MAX."
 	},
 	{
 		"assign": "sidestory_voice_playbtn_greeting",
@@ -17717,7 +17717,7 @@
 	{
 		"assign": "sidestory_story_replay_locked_info3",
 		"jp_text": "このストーリーは\nアップデートにて配信予定です。\n配信後に絆レベルをLv.<%parameter>にすると再生できます。\n\n",
-		"tr_text": "This story\nwill be released in a future update.\nYou will be able to play up\nto Bond Lv. <%parameter> afterwards.\n"
+		"tr_text": "This story\nwill be released in a future update.\nYou will be able to play up\nto Bond Lv.<%parameter> afterwards.\n"
 	},
 	{
 		"assign": "sidestory_memlevel0",
@@ -18537,7 +18537,7 @@
 	{
 		"assign": "filter_level_max",
 		"jp_text": "チップLvMAX",
-		"tr_text": "Chip Lv. MAX"
+		"tr_text": "Chip Lv.MAX"
 	},
 	{
 		"assign": "filter_abilevel",
@@ -18552,7 +18552,7 @@
 	{
 		"assign": "filter_abilv_max",
 		"jp_text": "アビリティLvMAX",
-		"tr_text": "Ability Lv. MAX"
+		"tr_text": "Ability Lv.MAX"
 	},
 	{
 		"assign": "filter_character",
@@ -20627,7 +20627,7 @@
 	{
 		"assign": "chip_simple_details_lv",
 		"jp_text": "Lv.",
-		"tr_text": "Lv. "
+		"tr_text": "Lv."
 	},
 	{
 		"assign": "chip_simple_details_lv_max",
@@ -20812,7 +20812,7 @@
 	{
 		"assign": "chip_details_awake_none_skill",
 		"jp_text": "未習得",
-		"tr_text": "Lv. -"
+		"tr_text": "Lv.-"
 	},
 	{
 		"assign": "chip_details_cost_mag",
@@ -22632,7 +22632,7 @@
 	{
 		"assign": "chip_awake_ui_skill_beforelv",
 		"jp_text": "Lv.",
-		"tr_text": "Lv. "
+		"tr_text": "Lv."
 	},
 	{
 		"assign": "chip_awake_ui_skill_afterlv",
@@ -22867,7 +22867,7 @@
 	{
 		"assign": "chip_details_chip_awake_lv0",
 		"jp_text": "未習得",
-		"tr_text": "Lv. 0"
+		"tr_text": "Lv.0"
 	},
 	{
 		"assign": "window_help_LM39",
