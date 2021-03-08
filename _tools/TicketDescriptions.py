@@ -10,13 +10,128 @@ json_loc = os.path.join("..", "json")
 
 REDO_ALL = False # Change to True to recheck all ticket descriptions, even ones already translated.
 
-file_names = [["Accessory", "accessory"], ["BodyPaint", "body paint"],
+# Translate layered wear
+
+layered_file_names = {"Basewear_Female",
+                      "Basewear_Male",
+                      "Innerwear_Female",
+                      "Innerwear_Male"}
+
+layered_wear_types = {
+                      "In": "innerwear",
+                      "Ba": "basewear",
+                      "Se": "setwear",
+                      "Ou": "outerwear"}
+
+def translate_layer_desc(item):
+    if item["tr_text"] == "": # No name to put in description
+        return -1
+    
+    elif (item["tr_explain"] != "" and REDO_ALL == False): # Description already present, leave it alone
+        return -2
+
+    else:
+        # Some items are locked to one sex or the other.
+        sex = "n"
+        if len(regex.findall("女性のみ使用可能。", item["jp_explain"])) > 0:
+            sex = "f"
+        elif len(regex.findall("男性のみ使用可能。", item["jp_explain"])) > 0:
+            sex = "m"
+        
+        # Some items hide your innerwear (these are mostly swimsuits).
+        hideinner = False
+        if len(regex.findall("着用時はインナーが非表示になります。", item["jp_explain"])) > 0:
+            hideinner = True
+        
+        # Translate the description.
+        item["tr_explain"] = "Unlocks the new {itype}\n\"{iname}\".{sexlock}{hidepanties}".format(
+            iname = item["tr_text"],
+            itype = layered_wear_types[regex.split("[[\[\]]", item["tr_text"])[1]] if item["tr_text"].endswith("]")
+            # Exception for default layered wear since it doesn't have [In], [Ba] etc
+            else layered_wear_types[items_file_name.split("_")[1][0:2]], 
+            sexlock = "\nOnly usable on female characters." if sex == "f" else "\nOnly usable on male characters." if sex == "m" else "",
+            hidepanties = "\n<yellow>※Hides innerwear when worn.<c>" if hideinner == True else "")
+            
+    print("Translated description for {0}".format(item["tr_text"]))
+
+for name in layered_file_names:
+    items_file_name = "Item_" + name + ".txt"
+    
+    try:
+        items_file = codecs.open(os.path.join(json_loc, items_file_name),
+                                 mode = 'r', encoding = 'utf-8')
+    except FileNotFoundError:
+        print("\t{0} not found.".format(items_file_name))
+        continue
+    
+    items = json.load(items_file)
+    print("{0} loaded.".format(items_file_name))
+    
+    items_file.close()
+    
+    for item in items:
+        translate_layer_desc(item)
+
+    items_file = codecs.open(os.path.join(json_loc, items_file_name),
+                             mode = 'w', encoding = 'utf-8')
+    json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
+    items_file.write("\n")
+    items_file.close()
+
+# Translate other cosmetics
+
+cosmetic_file_names = [["Accessory", "accessory"], ["BodyPaint", "body paint"],
               ["Eye", "eyes"], ["EyeBrow", "eyebrows"],
               ["EyeLash", "eyelashes"], ["FacePaint", "makeup"],
               ["Hairstyle", "hairstyle"], ["Sticker", "sticker"]]
 
+def translate_desc(item):
+    if item["tr_text"] == "": # No name to put in description
+        return -1
+    
+    elif (item["tr_explain"] != "" and REDO_ALL == False): # Description already present, leave it alone
+        return -2
+    
+    else: 
+        item_name = item["tr_text"]
+        
+        if item_name == "No Sticker":
+            item["tr_explain"] = "Unlocks the ability to not display a\nsticker in the Beauty Salon."
+            return 0
+        
+        # Some stickers have different names in-game from their tickets.
+        # The in-game name is in the tickets' descriptions.
+        # Extract it here.
+        if name[0] == "Sticker":
+            description_name = regex.search(
+                r'(?<=ステッカーの\n)(.+[ＡＢＣ]?)(?=が選択可能。)',
+                item["jp_explain"]).group(0)
 
-for name in file_names:
+            if (description_name != item["jp_text"]):
+                item_name = regex.sub(" Sticker", "", item_name)
+        
+        # Some items are locked to one sex or the other.
+        sex = "n"
+        if len(regex.findall("女性のみ使用可能。", item["jp_explain"])) > 0:
+            sex = "f"
+        elif len(regex.findall("男性のみ使用可能。", item["jp_explain"])) > 0:
+            sex = "m"
+        
+        # Some items cannot be resized.
+        sizelocked = False
+        
+        if len(regex.findall("サイズ調整はできません。", item["jp_explain"])) > 0:
+            sizelocked = True
+        
+        # Translate the description.
+        item["tr_explain"] = "Unlocks the {sexlock}{type}\n\"{name}\"\nfor use in the Beauty Salon.{sizelock}".format(
+            sexlock = "female-only " if sex == "f" else "male-only " if sex == "m" else "", 
+            type = item_type, name = item_name, 
+            sizelock = "\n<yellow>Size cannot be adjusted.<c>" if sizelocked == True else "")
+            
+    print("Translated description for {0}".format(item["tr_text"]))
+
+for name in cosmetic_file_names:
     items_file_name = "Item_Stack_" + name[0] + ".txt"
     item_type = name[1]
     
@@ -33,41 +148,7 @@ for name in file_names:
     items_file.close()
     
     for item in items:
-        if item["tr_text"] != "" and (item["tr_explain"] == "" or REDO_ALL == True):
-            
-            item_name = item["tr_text"]
-            
-            # Some stickers have different names in-game from their tickets.
-            # The in-game name is in the tickets' descriptions.
-            # Extract it here.
-            if name[0] == "Sticker":
-                description_name = regex.search(
-                    r'(?<=ステッカーの\n)(.+[ＡＢＣ]?)(?=が選択可能。)',
-                    item["jp_explain"]).group(0)
-
-                if (description_name != item["jp_text"]):
-                    item_name = regex.sub(" Sticker", "", item_name)
-            
-            # Some items are locked to one sex or the other.
-            sex = "n"
-            if len(regex.findall("女性のみ使用可能。", item["jp_explain"])) > 0:
-                sex = "f"
-            elif len(regex.findall("男性のみ使用可能。", item["jp_explain"])) > 0:
-                sex = "m"
-            
-            # Some items cannot be resized.
-            sizelocked = False
-            
-            if len(regex.findall("サイズ調整はできません。", item["jp_explain"])) > 0:
-                sizelocked = True
-            
-            # Translate the description.
-            item["tr_explain"] = "Unlocks the {sexlock}{type}\n\"{name}\"\nfor use in the Beauty Salon.{sizelock}".format(
-                sexlock = "female-only " if sex == "f" else "male-only " if sex == "m" else "", 
-                type = item_type, name = item_name, 
-                sizelock = "\n<yellow>Size cannot be adjusted.<c>" if sizelocked == True else "")
-
-            print("Translated description for {0}".format(item["tr_text"]))
+        translate_desc(item)
 
     items_file = codecs.open(os.path.join(json_loc, items_file_name),
                              mode = 'w', encoding = 'utf-8')
@@ -75,55 +156,7 @@ for name in file_names:
     items_file.write("\n")
     items_file.close()
     
-layered_file_names = [["Basewear_Female", "basewear"],
-                      ["Basewear_Male", "basewear"],
-                      ["Innerwear_Female", "innerwear"],
-                      ["Innerwear_Male", "innerwear"]]
-        
-for name in layered_file_names:
-    items_file_name = "Item_" + name[0] + ".txt"
-    item_type = name[1]
-    
-    try:
-        items_file = codecs.open(os.path.join(json_loc, items_file_name),
-                                 mode = 'r', encoding = 'utf-8')
-    except FileNotFoundError:
-        print("\t{0} not found.".format(items_file_name))
-        continue
-    
-    items = json.load(items_file)
-    print("{0} loaded.".format(items_file_name))
-    
-    items_file.close()
-    
-    for item in items:
-        if item["tr_text"] != "" and (item["tr_explain"] == "" or REDO_ALL == True):
-            
-            # Some items are locked to one sex or the other.
-            sex = "n"
-            if len(regex.findall("女性のみ使用可能。", item["jp_explain"])) > 0:
-                sex = "f"
-            elif len(regex.findall("男性のみ使用可能。", item["jp_explain"])) > 0:
-                sex = "m"
-            
-            # Some items hide your innerwear (these are mostly swimsuits).
-            hideinner = False
-            if len(regex.findall("着用時はインナーが非表示になります。", item["jp_explain"])) > 0:
-                hideinner = True
-            
-            # Translate the description.
-            item["tr_explain"] = "Unlocks the new {type}\n\"{name}\".{sexlock}{hidepanties}".format(
-                type = item_type, name = item["tr_text"],
-                sexlock = "\nOnly usable on female characters." if sex == "f"else "\nOnly usable on male characters." if sex == "m" else "",
-                hidepanties = "\n<yellow>※Hides innerwear when worn.<c>" if hideinner == True else "")
-
-            print("Translated description for {0}".format(item["tr_text"]))
-
-    items_file = codecs.open(os.path.join(json_loc, items_file_name),
-                             mode = 'w', encoding = 'utf-8')
-    json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
-    items_file.write("\n")
-    items_file.close()
+# Translate voices
 
 try:
     items_file = codecs.open(os.path.join(json_loc, "Item_Stack_Voice.txt"),
@@ -276,3 +309,5 @@ items_file = codecs.open(os.path.join(json_loc, "Item_Stack_Voice.txt"),
 json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
 items_file.write("\n")
 items_file.close()
+
+print ("Ticket translation complete.")
