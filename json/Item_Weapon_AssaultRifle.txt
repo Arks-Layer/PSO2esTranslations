@@ -875,6 +875,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "180213",
+		"jp_text": "ネブロスヘレース",
+		"tr_text": "Nebulos Heres",
+		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n長銃。精密射撃に長けており、技量を\n問わずに高い威力を発揮できる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "180214",
 		"jp_text": "ヴィランツアクター",
 		"tr_text": "Vilantz Actor",
@@ -884,9 +891,9 @@
 	{
 		"assign": "180215",
 		"jp_text": "Ｄ－Ａ．Ｉ．Ｓバルカン",
-		"tr_text": "D-A.I.S Vulcan",
+		"tr_text": "D-A.I.S. Vulcan",
 		"jp_explain": "Ａ．Ｉ．Ｓの「ソリッドバルカン」を\nアークス向けに小型化した長銃。\n侵入者を決して許さず全てを制圧する。",
-		"tr_explain": "A.I.S.'Solid Vulcan'\nfor ARKS use. Subdue\nthe intrusion at all costs."
+		"tr_explain": "A miniaturized version of the A.I.S.\nAssault Rifle, the \"Solid Vulcan\".\nSubdue all intruders who try to enter."
 	},
 	{
 		"assign": "180216",
@@ -1278,21 +1285,21 @@
 		"jp_text": "バルドラッヘ",
 		"tr_text": "Val Drache",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長銃。銃身をはじめとするパーツは\n傷だらけだが辛うじて使用出来る。",
-		"tr_explain": ""
+		"tr_explain": "An assault rifle excavated from an\nold battlefield. Many parts, including\nthe barrel, are too damaged to use."
 	},
 	{
 		"assign": "180303",
 		"jp_text": "アトラドラッヘ",
 		"tr_text": "Atlas Drache",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長銃。研究が進んだことにより\n破損前の状態に修復された。",
-		"tr_explain": ""
+		"tr_explain": "An assault rifle excavated from an\nold battlefield. With new research, it\nhas been restored to its original state."
 	},
 	{
 		"assign": "180304",
 		"jp_text": "アトラドラッヘ・イクス",
 		"tr_text": "Atlas Drache Ex",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長銃。眼のような宝石はフォトンを\n吸収し、真なる力を取り戻した。",
-		"tr_explain": ""
+		"tr_explain": "An assault rifle excavated from an\nold battlefield. Its gems have absorbed\nPhotons, restoring its true power."
 	},
 	{
 		"assign": "180306",
@@ -1306,7 +1313,7 @@
 		"jp_text": "ゲノンザバーハ",
 		"tr_text": "Genon Zabalah",
 		"jp_explain": "得体の知れない生物の細胞が利用された\n長銃。この武器が秘める危険性を察した\n技術者の手によって封印されていた。",
-		"tr_explain": ""
+		"tr_explain": "Rifle made using cells from an unknown\norganism. Sealed away by a technician\nwho saw the danger it possessed."
 	},
 	{
 		"assign": "180309",
@@ -1607,6 +1614,13 @@
 		"jp_text": "フルクシオテンゲル",
 		"tr_text": "Fluxio Tenger",
 		"jp_explain": "流線美と機能性を備え持つ長銃。\n高精度ＡＩが過去の戦闘データを蓄積し\n最適な攻撃パターンを提示してくれる。",
+		"tr_explain": "A beautifully sleek assault rifle whose\nhigh-performance AI uses past data to\ndetermine the optimal attack pattern."
+	},
+	{
+		"assign": "180409",
+		"jp_text": "リンザーテンゲル",
+		"tr_text": "Rinza Tenger",
+		"jp_explain": "流線美と機能性を備え持つ長銃。\n高精度ＡＩがフォトン射出を補助し\n命中精度を底上げした。",
 		"tr_explain": ""
 	},
 	{
@@ -1615,5 +1629,12 @@
 		"tr_text": "Darkbanisher Ayer Assault",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた長銃。\n運命の回廊にも希望を見いだす。",
 		"tr_explain": "An assault rifle that will give up\nanything to protect the universe. It\nseeks hope amid the corridors of fate."
+	},
+	{
+		"assign": "180420",
+		"jp_text": "対アンドロイドライフル-NT",
+		"tr_text": "Anti Android Rifle-NT",
+		"jp_explain": "別系統のライフルを基に改良した長銃。\n一流の技術者、科学者の協力の下\n改良が施されたため、非常に高性能。",
+		"tr_explain": ""
 	}
 ]

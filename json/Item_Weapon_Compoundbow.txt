@@ -676,7 +676,7 @@
 		"jp_text": "グライロウ",
 		"tr_text": "Glayrow",
 		"jp_explain": "大気の力を宿すといわれる強弓。\n風と雷の力をまとった矢は\n容赦なく敵をうがつ。",
-		"tr_explain": "A Bullet Bow said to be harboring the\npower of the atmosphere. Its arrows\npowered by the wind and thunder."
+		"tr_explain": "A Bullet Bow bearing the power of\nthe winds. Its relentless arrows are\nempowered by wind and thunder."
 	},
 	{
 		"assign": "1150165",
@@ -816,6 +816,13 @@
 		"jp_text": "アーチドミナシオ",
 		"tr_text": "Arch Dominacio",
 		"jp_explain": "新開発の演算装置を搭載した強弓。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1150201",
+		"jp_text": "アーチインクルシオ",
+		"tr_text": "Arch Inclusio",
+		"jp_explain": "新開発の演算装置を搭載した強弓。\nその比類なき処理能力を駆使して\n利便性を極限まで高めている。",
 		"tr_explain": ""
 	},
 	{
@@ -1138,7 +1145,7 @@
 		"jp_text": "ゲノンアイン",
 		"tr_text": "Genon Ain",
 		"jp_explain": "得体の知れない生物の細胞が利用された\n強弓。戦闘データが存在せず、解析も\n進んでいない為、未だ謎の部分が多い。",
-		"tr_explain": ""
+		"tr_explain": "A bullet bow made using cells from an\nunknown organism. Analysis has stalled\ndue to a lack of available battle data."
 	},
 	{
 		"assign": "1150268",
@@ -1159,21 +1166,21 @@
 		"jp_text": "バルアグリア",
 		"tr_text": "Val Agria",
 		"jp_explain": "過去に戦場となった地域から発掘された\n強弓。遺棄されたのか、欠損が激しく\nかつての姿は想像できそうにない。",
-		"tr_explain": ""
+		"tr_explain": "A bullet bow excavated from an old\nbattlefield. So badly damaged that its\noriginal appearance is hard to picture."
 	},
 	{
 		"assign": "1150271",
 		"jp_text": "アトラアグリア",
 		"tr_text": "Atlas Agria",
 		"jp_explain": "過去に戦場となった地域から発掘された\n強弓。輝く宝石に、きらびやかな装飾。\n修復により、再び美しい姿が蘇った。",
-		"tr_explain": ""
+		"tr_explain": "A bullet bow excavated from an old\nbattlefield. Its glittering jewels and\ngilded decorations have been restored."
 	},
 	{
 		"assign": "1150272",
 		"jp_text": "アトラアグリア・イクス",
 		"tr_text": "Atlas Agria Ex",
 		"jp_explain": "過去に戦場となった地域から発掘された\n強弓。秘めた力が解き放たれた姿。\nその矢は絶望を射抜き、未来を紡ぐ。",
-		"tr_explain": ""
+		"tr_explain": "A bullet bow excavated from an old\nbattlefield. The hidden power of its\narrows can pierce through despair."
 	},
 	{
 		"assign": "1150273",
@@ -1341,7 +1348,7 @@
 		"jp_text": "ハードクロスバレット",
 		"tr_text": "Hard Cross Bullet",
 		"jp_explain": "既存の枠を超えて、複数の射撃武器の\n特徴的な部分を融合させた強弓。\nその特徴的な外見に惹かれる者も多い。",
-		"tr_explain": ""
+		"tr_explain": "A bow that incorporates parts of\nother shooting weapons. Many find\nits distinctive appearance appealing."
 	},
 	{
 		"assign": "1150310",
@@ -1369,6 +1376,13 @@
 		"jp_text": "フルクシオルリュテア",
 		"tr_text": "Fluxio Rulutea",
 		"jp_explain": "流線美と機能性を備え持つ強弓。\n緻密な手作業で作り上げられた弓は\n歪みを抑え直感的な操作性を実現。",
+		"tr_explain": "A beautifully sleek bullet bow whose\ndelicate construction makes it totally\nintuitive to use effectively."
+	},
+	{
+		"assign": "1150328",
+		"jp_text": "リンザールリュテア",
+		"tr_text": "Rinza Rulutea",
+		"jp_explain": "流線美と機能性を備え持つ強弓。\n緻密に計算されたボディでフォトンを\n活性化させ、高い命中精度を誇る。",
 		"tr_explain": ""
 	},
 	{
