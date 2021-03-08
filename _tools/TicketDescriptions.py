@@ -74,15 +74,19 @@ for name in file_names:
     json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
     items_file.write("\n")
     items_file.close()
-    
-layered_file_names = [["Basewear_Female", "basewear"],
-                      ["Basewear_Male", "basewear"],
-                      ["Innerwear_Female", "innerwear"],
-                      ["Innerwear_Male", "innerwear"]]
-        
+
+layered_file_names = ["Basewear_Female",
+                      "Basewear_Male",
+                      "Innerwear_Female",
+                      "Innerwear_Male"]
+
+layered_wear_types = {"In": "innerwear",
+                      "Ba": "basewear",
+                      "Se": "setwear",
+                      "Ou": "outerwear"}
+
 for name in layered_file_names:
-    items_file_name = "Item_" + name[0] + ".txt"
-    item_type = name[1]
+    items_file_name = "Item_" + name + ".txt"
     
     try:
         items_file = codecs.open(os.path.join(json_loc, items_file_name),
@@ -112,9 +116,9 @@ for name in layered_file_names:
                 hideinner = True
             
             # Translate the description.
-            item["tr_explain"] = "Unlocks the new {type}\n\"{name}\".{sexlock}{hidepanties}".format(
-                type = item_type, name = item["tr_text"],
-                sexlock = "\nOnly usable on female characters." if sex == "f"else "\nOnly usable on male characters." if sex == "m" else "",
+            item["tr_explain"] = "Unlocks the new {itype}\n\"{iname}\".{sexlock}{hidepanties}".format(
+                iname = item["tr_text"], itype = layered_wear_types[regex.split("([\[\]])", item["tr_text"])[2]],
+                sexlock = "\nOnly usable on female characters." if sex == "f" else "\nOnly usable on male characters." if sex == "m" else "",
                 hidepanties = "\n<yellow>※Hides innerwear when worn.<c>" if hideinner == True else "")
 
             print("Translated description for {0}".format(item["tr_text"]))
