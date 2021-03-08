@@ -25,7 +25,7 @@
 		"jp_text": "アイカ専用タクト",
 		"tr_text": "Aika's Takt",
 		"jp_explain": "アイカ専用タクト",
-		"tr_explain": ""
+		"tr_explain": "Aika's Takt"
 	},
 	{
 		"assign": "118016",
@@ -35,11 +35,18 @@
 		"tr_explain": "A Takt with a newly developed\ncomputing device. It scans tactical\ndata for optimal user efficiency."
 	},
 	{
+		"assign": "118018",
+		"jp_text": "タクトインクルシオ",
+		"tr_text": "Takt Inclusio",
+		"jp_explain": "新開発の演算装置を搭載した奏具。\n驚異的な処理能力が戦況を予測し\n戦闘の勝率を限りなく高める。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "118021",
 		"jp_text": "アクアリプル",
 		"tr_text": "Aqua Ripple",
 		"jp_explain": "南国の海をモチーフにした奏具。\n海そのものを表現したかのような\n美しい外観を持つ。",
-		"tr_explain": ""
+		"tr_explain": "A Takt with a tropical ocean motif.\nIts beautiful appearance expresses\nthe very essence of the ocean itself."
 	},
 	{
 		"assign": "118031",
@@ -151,14 +158,14 @@
 		"jp_text": "アトラタハト",
 		"tr_text": "Atlas Tahat",
 		"jp_explain": "過去に戦場となった地域から発掘された\n奏具。失われていた箇所が修復され\n美しく繊細な意匠が蘇った。",
-		"tr_explain": ""
+		"tr_explain": "A taktstock excavated from an old\nbattlefield. Its lost parts have been\nrestored, reviving its delicate beauty."
 	},
 	{
 		"assign": "118063",
 		"jp_text": "アトラタハト・イクス",
 		"tr_text": "Atlas Tahat Ex",
 		"jp_explain": "過去に戦場となった地域から発掘された\n奏具。眠りから目覚めた輝く宝石は\n士気を高め、光をもたらし続ける。",
-		"tr_explain": ""
+		"tr_explain": "A taktstock excavated from an old\nbattlefield. The bright light of its jewels\nraises the morale of all who see it."
 	},
 	{
 		"assign": "118067",
@@ -284,6 +291,13 @@
 		"jp_text": "フルクシオジュラン",
 		"tr_text": "Fluxio Juran",
 		"jp_explain": "流線美と機能性を備え持つ奏具。\nコンパクトながらデザイン性に優れ\n安定した高出力の攻撃を繰り出す。",
+		"tr_explain": "A beautifully sleek taktstock whose\nexcellently compact design gives its\nhigh-powered attacks total stability."
+	},
+	{
+		"assign": "1180102",
+		"jp_text": "リンザージュラン",
+		"tr_text": "Rinza Juran",
+		"jp_explain": "流線美と機能性を備え持つ奏具。\nフォトンのエーテルコンバート技術で\nペットとの意思疎通力が飛躍的に向上。",
 		"tr_explain": ""
 	},
 	{

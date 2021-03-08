@@ -193,7 +193,7 @@
 		"jp_text": "ダブルセイバーレガシー",
 		"tr_text": "Double Saber Legacy",
 		"jp_explain": "高い性能を持った両剣。\n柄の両端に純フォトンの刃を持つ。\n全クラス装備可能な、特殊な武器。",
-		"tr_explain": ""
+		"tr_explain": "A high-performance Double Saber.\nBoth blades are made of pure Photons.\nCan be equipped by all classes."
 	},
 	{
 		"assign": "15028",
@@ -410,7 +410,7 @@
 		"jp_text": "エンシェントクォーツ",
 		"tr_text": "Ancient Quartz",
 		"jp_explain": "式典用に特別に作られた見た目にも\nこだわりのある両剣。類稀なる破壊力を\n秘め存在が危険視されている。",
-		"tr_explain": ""
+		"tr_explain": "A unique Double Saber specially made\nfor ceremonies. Seen as dangerous\ndue to its high destructive power."
 	},
 	{
 		"assign": "15066",
@@ -774,14 +774,14 @@
 		"jp_text": "ゲイルヴィスナー",
 		"tr_text": "Gale Vishner",
 		"jp_explain": "大気の力を宿すといわれる両剣。\n澄んだガラスのような姿は美麗だが\nまとった風雷の力は凄まじく強い。",
-		"tr_explain": "A Double Saber said to possess\nthe power of the wind and air.\nPowerful gusts cover its glass look."
+		"tr_explain": "A Double Saber bearing the power of\nthe winds. Despite its glass-like beauty,\nit has an immense, stormy power."
 	},
 	{
 		"assign": "150176",
 		"jp_text": "ゲイルフェブリス",
 		"tr_text": "Gale Febris",
 		"jp_explain": "大気の力を宿すといわれる両剣。\n夜闇のような刀身と赤い雷は禍々しく\n圧倒的な威力をもって敵を倒す。",
-		"tr_explain": "A Double Saber that contains\nthe power of the Wind. Its user\nis overwhelmed by a thirst for killing."
+		"tr_explain": "A Double Saber bearing the power\nof the winds. Its dark, thunderous\nblades overwhelm the enemy."
 	},
 	{
 		"assign": "150185",
@@ -809,6 +809,13 @@
 		"jp_text": "バジリスイクジリオン",
 		"tr_text": "Basilis Equilion",
 		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n両剣。複雑な形状をした刃を持つ。\n軽量ながらも高威力で、性能は良い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "150191",
+		"jp_text": "ネブロスイクジリオン",
+		"tr_text": "Nebulos Equilion",
+		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n両剣。複雑な形状をした鋭刃は凄まじく\nその一撃は非常に重く、致命傷となる。",
 		"tr_explain": ""
 	},
 	{
@@ -872,6 +879,13 @@
 		"jp_text": "ストームドミナシオ",
 		"tr_text": "Storm Dominacio",
 		"jp_explain": "新開発の演算装置を搭載した両剣。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "150213",
+		"jp_text": "ストームインクルシオ",
+		"tr_text": "Storm Inclusio",
+		"jp_explain": "新開発の演算装置を搭載した両剣。\n抜本的な処理能力の向上により\n使用者の力を余すことなく引き出す。",
 		"tr_explain": ""
 	},
 	{
@@ -1201,21 +1215,21 @@
 		"jp_text": "バルヴィーレ",
 		"tr_text": "Val Vire",
 		"jp_explain": "過去に戦場となった地域から発掘された\n両剣。刀身がほぼ残っておらず\n刃物としての活躍には期待できない。",
-		"tr_explain": ""
+		"tr_explain": "A double saber excavated from an old\nbattlefield. Almost nothing is left of its\nblades, but it could be used as a knife."
 	},
 	{
 		"assign": "150300",
 		"jp_text": "アトラヴィーレ",
 		"tr_text": "Atlas Vire",
 		"jp_explain": "過去に戦場となった地域から発掘された\n両剣。研究が進んだことで、装飾も\n含めて破損前の状態に修復された。",
-		"tr_explain": ""
+		"tr_explain": "A double saber excavated from an old\nbattlefield. Has been restored to a\nprevious state, decorations included."
 	},
 	{
 		"assign": "150301",
 		"jp_text": "アトラヴィーレ・イクス",
 		"tr_text": "Atlas Vire Ex",
 		"jp_explain": "過去に戦場となった地域から発掘された\n両剣。真なる力を解放した姿。緑の\n光は運命すら断ち切る可能性を秘める。",
-		"tr_explain": ""
+		"tr_explain": "A double saber excavated from an old\nbattlefield. Its true power awakened,\nit can sever even the threads of fate."
 	},
 	{
 		"assign": "150302",
@@ -1453,6 +1467,13 @@
 		"jp_text": "フルクシオヴァルグ",
 		"tr_text": "Fluxio Varg",
 		"jp_explain": "流線美と機能性を備え持つ両剣。\n複雑ながらも美しい湾曲を持つ刃は\n自動修復機能を備え、劣化を防ぐ。",
+		"tr_explain": "A beautifully sleek Double Saber\nwhose automatic self-repair system\npreserves its gorgeous complexity."
+	},
+	{
+		"assign": "150421",
+		"jp_text": "リンザーヴァルグ",
+		"tr_text": "Rinza Varg",
+		"jp_explain": "流線美と機能性を備え持つ両剣。\nフォトン励起に新機構を用いており\n直感的な操作が可能。",
 		"tr_explain": ""
 	},
 	{
