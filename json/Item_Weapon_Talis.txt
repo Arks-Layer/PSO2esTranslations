@@ -938,6 +938,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1120218",
+		"jp_text": "ネブロスアグス",
+		"tr_text": "Nebulos Agus",
+		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n導具。最先端の技術を詰め込んだ機構を\n有しており、圧倒的な法撃力を持つ。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1120222",
 		"jp_text": "クオツリトス",
 		"tr_text": "Quotz Lithos",
@@ -977,6 +984,13 @@
 		"jp_text": "カードドミナシオ",
 		"tr_text": "Card Dominacio",
 		"jp_explain": "新開発の演算装置を搭載した導具。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1120237",
+		"jp_text": "カードインクルシオ",
+		"tr_text": "Card Inclusio",
+		"jp_explain": "新開発の演算装置を搭載した導具。\n画期的な処理能力の向上により\n最大限に使用者の能力を引き出す。",
 		"tr_explain": ""
 	},
 	{
@@ -1243,7 +1257,7 @@
 		"jp_text": "ゲノンダラーサ",
 		"tr_text": "Genon Dharasa",
 		"jp_explain": "得体の知れない生物の細胞が利用された\n導具。長きに渡って封印されていた為\nデータが存在せず、謎に包まれている。",
-		"tr_explain": ""
+		"tr_explain": "A Talis made using cells from an\nunknown organism. Sealed away for\nso long that no data about it remains."
 	},
 	{
 		"assign": "1120291",
@@ -1320,21 +1334,21 @@
 		"jp_text": "バルレトラ",
 		"tr_text": "Val Retra",
 		"jp_explain": "過去に戦場となった地域から発掘された\n導具。かろうじて原型を留めているが\n欠損が激しく、焼け焦げた痕跡もある。",
-		"tr_explain": ""
+		"tr_explain": "A Talis excavated from an old\nbattlefield. So damaged that it barely\nhas any of its original form left."
 	},
 	{
 		"assign": "1120306",
 		"jp_text": "アトラレトラ",
 		"tr_text": "Atlas Retra",
 		"jp_explain": "過去に戦場となった地域から発掘された\n導具。破損箇所が修復され、美しい\n装丁と瞳に似た宝石が目を引く。",
-		"tr_explain": ""
+		"tr_explain": "A Talis excavated from an old\nbattlefield. Now repaired, its binding\nand jewels are stunningly beautiful."
 	},
 	{
 		"assign": "1120307",
 		"jp_text": "アトラレトラ・イクス",
 		"tr_text": "Atlas Retra Ex",
 		"jp_explain": "過去に戦場となった地域から発掘された\n導具。眠れる宝石が目を覚ました姿。\n奇跡を起こすように勝利を導くという。",
-		"tr_explain": ""
+		"tr_explain": "A Talis excavated from an old\nbattlefield. With its gems awakened,\nit's said to bring miraculous victories."
 	},
 	{
 		"assign": "1120309",
@@ -1505,6 +1519,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1120355",
+		"jp_text": "オブリアンスヴォルツ",
+		"tr_text": "",
+		"jp_explain": "高圧化フォトン気流の噴出力を利用し\n瞬時に変形する導具。軽やかな使用感と\n逆さに展開する鉤爪デザインが人気。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1120356",
 		"jp_text": "ディムタリス",
 		"tr_text": "Dim Talis",
@@ -1544,20 +1565,27 @@
 		"jp_text": "アデルベージェ",
 		"tr_text": "Adel Beige",
 		"jp_explain": "あらゆる罪を焼き尽くす猛火を\n纏うとされる導具。独創的な曲線美を\n誇りつつ破壊力も卓抜している。",
-		"tr_explain": ""
+		"tr_explain": "A Talis cloaked in flames said to burn\naway all sins. Outstanding destructive\npower in a beautiful, curvy package."
 	},
 	{
 		"assign": "1120377",
 		"jp_text": "ヴィアンベージェ",
 		"tr_text": "Vian Beige",
 		"jp_explain": "あらゆる罪を焼き尽くす猛火を\n纏うとされる導具。ひとたび装備すれば\n烈々たる闘志が湧き上がる。",
-		"tr_explain": ""
+		"tr_explain": "A Talis cloaked in flames said to burn\naway all sins. Equipping it awakens a\nfearsome fighting spirit within you."
 	},
 	{
 		"assign": "1120378",
 		"jp_text": "フルクシオハラン",
 		"tr_text": "Fluxio Haran",
 		"jp_explain": "流線美と機能性を備え持つ導具。\n繊麗で優美な軌跡を辿るフォルムは\n革命的な低負荷を実現している。",
+		"tr_explain": "A beautifully sleek Talis whose form\ngives it a graceful trajectory with a\nrevolutionarily low burden on the user."
+	},
+	{
+		"assign": "1120379",
+		"jp_text": "リンザーハラン",
+		"tr_text": "Rinza Haran",
+		"jp_explain": "流線美と機能性を備え持つ導具。\nフォトン粒子活性化機構を搭載し\n低負荷で効果的な法撃が可能。",
 		"tr_explain": ""
 	},
 	{
@@ -1566,5 +1594,12 @@
 		"tr_text": "Darkbanisher Ayer Talis",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた導具。\n届かぬ祈りが運命の環に寄り添う。",
 		"tr_explain": "A Talis that will give up anything\nto protect the universe. Carries\nprayers to the cycles of destiny."
+	},
+	{
+		"assign": "1120384",
+		"jp_text": "プリメラ・フィオーレ-NT",
+		"tr_text": "Primera Fiore-NT",
+		"jp_explain": "花を模した、超高級カスタムモデルの\n導具。その美しさから、装者の戦う姿は\nあたかも舞うかのごとく見えるという。",
+		"tr_explain": ""
 	}
 ]

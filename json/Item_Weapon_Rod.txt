@@ -940,7 +940,7 @@
 	{
 		"assign": "1110239",
 		"jp_text": "壊錫アグリッサ",
-		"tr_text": "Agrissa",
+		"tr_text": "Corrupted Cane Agrissa",
 		"jp_explain": "￥黒衣マトイロッド",
 		"tr_explain": "Black Matoi Rod"
 	},
@@ -952,9 +952,16 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1110242",
+		"jp_text": "ネブロスエナド",
+		"tr_text": "Nebulos Enad",
+		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n長杖。高いフォトン感応力を誇るが\n操作性は良く、強力な法撃力を持つ。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1110243",
 		"jp_text": "明錫クラリッサⅢ",
-		"tr_text": "Clarissa III",
+		"tr_text": "Adamant Staff Clarissa III",
 		"jp_explain": "￥新マトイコスロッド",
 		"tr_explain": "￥New Matoi Costume Rod"
 	},
@@ -1726,6 +1733,13 @@
 		"jp_text": "フルクシオガルラ",
 		"tr_text": "Fluxio Garla",
 		"jp_explain": "流線美と機能性を備え持つ長杖。\n流れる川の波紋を想起させるフォルムが\nフォトンを効率良く励起させる。",
+		"tr_explain": "A beautifully sleek rod whose form\nis highly efficient at exciting Photons,\nresembling ripples on a flowing river."
+	},
+	{
+		"assign": "1110472",
+		"jp_text": "リンザーガルラ",
+		"tr_text": "Rinza Garla",
+		"jp_explain": "流線美と機能性を備え持つ長杖。\n激しい川の流れのようにフォトンを\n回流させ、法撃力を飛躍的に高めた。",
 		"tr_explain": ""
 	},
 	{

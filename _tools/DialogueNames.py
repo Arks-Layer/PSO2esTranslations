@@ -228,7 +228,13 @@ character_names = {
     "アストラリープ": "Astra Reap", "大サンタ": "Great Santa",
     "アンブラステッキ": "Umblla Stick", "ハイパーサンライト": "Hyper Sunlight",
     "ハイパーナイトパレード": "Hyper Night Parade", "ダーカーバスターズ": "Darker Busters",
-    "セラフィと最高の友人たち": "Seraphy and her Friends",
+    "セラフィと最高の友人たち": "Seraphy and her Friends", "シロクロー": "Shiro Claw",
+    "怪盗シロクロー": "Phantom Thief Shiro Claw", "怪盗ビアクロー": "Phantom Thief Bear Claw",
+    "怪盗ミケクロー": "Phantom Thief Kitty Claw", "ビアクロー": "Bear Claw",
+    "ミケクロー": "Kitty Claw", "ダーカー": "Darker",
+    "怪盗三姉妹": "Phantom Thief Sisters", "海王種": "Oceanid",
+    "機甲種": "Mech", "黒髪の美女": "Black-Haired Beauty",
+    "女の子": "Girl",
     "？？？": "???" #Generics
     }
 

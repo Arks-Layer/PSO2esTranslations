@@ -361,7 +361,7 @@
 		"jp_text": "刃鞭パラティーゼル",
 		"tr_text": "Whipblade Paratizel",
 		"jp_explain": "心から正しいと思った行動を取った時に\n真の力を発揮するという紅い自在槍。\n希望はすぐそばにあると教えてくれる。",
-		"tr_explain": ""
+		"tr_explain": "Red wired lances that reveal their\ntrue power when you're following a\npath you truly believe to be correct."
 	},
 	{
 		"assign": "12057",
@@ -753,7 +753,7 @@
 		"jp_text": "エルデトロス",
 		"tr_text": "Eldetross",
 		"jp_explain": "大気の力を宿すといわれる自在槍。\n刃の中心にあるクリスタルが力を司り\n風雷をまとわせ、敵を両断するという。",
-		"tr_explain": "Wired lances bearing the power\nof the winds. The crystals in the\nblades slay their enemies with storms."
+		"tr_explain": "Wired lances bearing the power of\nthe winds. The crystals in their blades\nslay their enemies with storms."
 	},
 	{
 		"assign": "120164",
@@ -865,6 +865,13 @@
 		"jp_text": "ランスドミナシオ",
 		"tr_text": "Lance Dominacio",
 		"jp_explain": "新開発の演算装置を搭載した自在槍。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "120199",
+		"jp_text": "ランスインクルシオ",
+		"tr_text": "Lance Inclusio",
+		"jp_explain": "新開発の演算装置を搭載した自在槍。\n他の追随を許さない処理能力を備え\n使用者の能力を底上げする。",
 		"tr_explain": ""
 	},
 	{
@@ -1208,7 +1215,7 @@
 		"jp_text": "ゲノンズィーバ",
 		"tr_text": "Genon Ziva",
 		"jp_explain": "得体の知れない生物の細胞が利用された\n自在槍。現在も解析を行っているが\n使用者への影響については未知数。",
-		"tr_explain": ""
+		"tr_explain": "Wired lances made using cells from an\nunknown organism. Still under analysis,\nthe effect on their user is unknown."
 	},
 	{
 		"assign": "120271",
@@ -1243,21 +1250,21 @@
 		"jp_text": "バルヴェイス",
 		"tr_text": "Val Weiss",
 		"jp_explain": "過去に戦場となった地域から発掘された\n自在槍。刀身や装飾の多くが損傷し\n性能としてはあまり期待できない。",
-		"tr_explain": ""
+		"tr_explain": "Wired lances excavated from an old\nbattlefield. Too damaged to expect\nmuch from them in terms of power."
 	},
 	{
 		"assign": "120276",
 		"jp_text": "アトラヴェイス",
 		"tr_text": "Atlas Weiss",
 		"jp_explain": "過去に戦場となった地域から発掘された\n自在槍。破損が著しい箇所が修復され\n本来の美しい姿を取り戻した。",
-		"tr_explain": ""
+		"tr_explain": "Wired lances excavated from an old\nbattlefield. Their damage has been\nrepaired, restoring their lost beauty."
 	},
 	{
 		"assign": "120277",
 		"jp_text": "アトラヴェイス・イクス",
 		"tr_text": "Atlas Weiss Ex",
 		"jp_explain": "過去に戦場となった地域から発掘された\n自在槍。真なる力に目覚めた宝玉は\n天色に煌めき、絶望すら貫く力を持つ。",
-		"tr_explain": ""
+		"tr_explain": "Wired lances excavated from an old\nbattlefield. The heavenly shine of their\njewels can pierce through despair."
 	},
 	{
 		"assign": "120282",
@@ -1425,7 +1432,7 @@
 		"jp_text": "エルデトロス-NT",
 		"tr_text": "Eldetross-NT",
 		"jp_explain": "大気の力を宿すといわれる自在槍。\n刃の中心にあるクリスタルが力を司り\n風雷をまとわせ、敵を両断するという。",
-		"tr_explain": "Wired lances bearing the power\nof the winds. The crystals in the\nblades slay their enemies with storms."
+		"tr_explain": "Wired lances bearing the power of\nthe winds. The crystals in their blades\nslay their enemies with storms."
 	},
 	{
 		"assign": "120316",
@@ -1439,6 +1446,13 @@
 		"jp_text": "フルクシオウェイヴ",
 		"tr_text": "Fluxio Wave",
 		"jp_explain": "流線美と機能性を備え持つ自在槍。\n空を羽ばたく翼のようなデザインと\n最上位の基本スペックを備えた一品。",
+		"tr_explain": "Beautifully sleek wired lances whose\nultra-high-spec wing-like design soars\ngracefully through the air as if flying."
+	},
+	{
+		"assign": "120331",
+		"jp_text": "リンザーウェイヴ",
+		"tr_text": "Rinza Wave",
+		"jp_explain": "流線美と機能性を備え持つ自在槍。\n高圧フォトンを精緻に制御することで\n縦横無尽の攻撃を繰り出す。",
 		"tr_explain": ""
 	},
 	{

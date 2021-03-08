@@ -116,6 +116,8 @@ for filename in json_files:
                     jl = tl.replace("tr_", "jp_")
                     t = entry[tl]
                     if jl not in entry:
+                        # We don't have JP explanations for titles, so don't report it
+                        if filename.endswith("Title_All.txt") and jl == "jp_explain": continue
                         print("Missing {} in {}".format(jl, filename))
                         print(json.dumps(entry, ensure_ascii=False, indent="\t"))
                         continue

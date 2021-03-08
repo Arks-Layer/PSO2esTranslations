@@ -557,14 +557,14 @@
 		"jp_text": "オーダー受注上限拡張３０日",
 		"tr_text": "Client Order Expansion 30 Days",
 		"jp_explain": "オーダー受注上限の拡張許可チケット。\n使用すると３０日間オーダー受注上限を\n２０件拡張する。",
-		"tr_explain": "Changes the amount of client orders\nyou can hold by adding 20 more for\n30 days."
+		"tr_explain": "Changes the amount of Client Orders\nyou can hold by adding 20 more for\n30 days."
 	},
 	{
 		"assign": "320084",
 		"jp_text": "オーダー受注上限拡張９０日",
 		"tr_text": "Client Order Expansion 90 Days",
 		"jp_explain": "オーダー受注上限の拡張許可チケット。\n使用すると９０日間オーダー受注上限を\n２０件拡張する。",
-		"tr_explain": "Changes the amount of client orders\nyou can hold by adding 20 more for\n90 days."
+		"tr_explain": "Changes the amount of Client Orders\nyou can hold by adding 20 more for\n90 days."
 	},
 	{
 		"assign": "320085",
@@ -1342,5 +1342,12 @@
 		"tr_text": "500,000 EXP Ticket",
 		"jp_explain": "経験値の授与申請チケット。\n使用したクラスの経験値を\n【５０万】獲得可能。",
 		"tr_explain": "Use to immediately receive\n500,000 EXP."
+	},
+	{
+		"assign": "3200286",
+		"jp_text": "アークスレコード申請メダル",
+		"tr_text": "ARKS Record Application Medal",
+		"jp_explain": "本アイテムを使用すると\nアークスレコードの申請が完了する。",
+		"tr_explain": "Completes your application for the\nARKS Records."
 	}
 ]
