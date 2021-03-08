@@ -27,7 +27,7 @@ def translate_layer_desc(item):
     if item["tr_text"] == "": # No name to put in description
         return -1
     
-    elif (item["tr_explain"] != "" and REDO_ALL == False): # Description already present, leave it alone
+    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
         return -2
 
     else:
@@ -89,15 +89,15 @@ def translate_desc(item):
     if item["tr_text"] == "": # No name to put in description
         return -1
     
-    elif (item["tr_explain"] != "" and REDO_ALL == False): # Description already present, leave it alone
+    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
         return -2
     
+    elif item["jp_text"] == "ステッカーなし" # Exception for "no sticker" sticker
+        item["tr_explain"] = "Unlocks the ability to not display a\nsticker in the Beauty Salon."
+        return 0
+        
     else: 
         item_name = item["tr_text"]
-        
-        if item_name == "No Sticker":
-            item["tr_explain"] = "Unlocks the ability to not display a\nsticker in the Beauty Salon."
-            return 0
         
         # Some stickers have different names in-game from their tickets.
         # The in-game name is in the tickets' descriptions.
