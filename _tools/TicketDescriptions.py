@@ -92,7 +92,7 @@ def translate_desc(item):
     elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
         return -2
     
-    elif item["jp_text"] == "ステッカーなし" # Exception for "no sticker" sticker
+    elif item["jp_text"] == "ステッカーなし": # Exception for "no sticker" sticker
         item["tr_explain"] = "Unlocks the ability to not display a\nsticker in the Beauty Salon."
         return 0
         
