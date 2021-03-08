@@ -416,13 +416,20 @@ def translate_voice(item):
     else:
         # Strings for race/sex combo restrictions
         restrictions = {
-        "hm": "Non-Cast male characters only.",
-        "hf": "Non-Cast female characters only.",
-        "cm": "Male Casts only.",
-        "cf": "Female Casts only.",
-        "am": "Male characters only (all races).",
-        "af": "Female characters only (all races).",
-        "an": "Usable by all characters."}
+        "hm": ["Non-Cast male characters only.",
+               "인간 남성만 사용 가능."],
+        "hf": ["Non-Cast female characters only."
+               "인간 여성만 사용 가능."],
+        "cm": ["Male Casts only."
+               "캐스트 남성만 사용 가능."],
+        "cf": ["Female Casts only."
+               "캐스트 여성만 사용 가능."],
+        "am": ["Male characters only (all races)."
+               "남성만 사용 가능."],
+        "af": ["Female characters only (all races)."
+               "여성만 사용 가능."],
+        "an": ["Usable by all characters."
+               "모두 사용 가능."]}
         
         # Detect ticket's race/sex restriction.
         # Default to no restriction.
@@ -465,7 +472,7 @@ def translate_voice(item):
         
         # Translate the description
         item["tr_explain"] = "Allows a new voice to be selected.\n{restriction}\nCV: {actorname}".format(
-            restriction = restrictions[racensex], actorname = cv_name)
+            restriction = restrictions[racensex][LANG], actorname = cv_name)
         
     return 0
 
