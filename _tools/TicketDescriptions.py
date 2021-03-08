@@ -406,9 +406,6 @@ cv_names = {
 name_fallbacks = {0: -1,
                   1: -1}
 
-voice_desc_formats = ["Allows a new voice to be selected.",
-                      "사용하면 새로운 보이스 사용 가능."]
-
 def translate_voice(item):
     if item["tr_text"] == "": # No name to put in description
         return -1
@@ -421,17 +418,17 @@ def translate_voice(item):
         restrictions = {
         "hm": ["Non-Cast male characters only.",
                "인간 남성만 사용 가능."],
-        "hf": ["Non-Cast female characters only.",
+        "hf": ["Non-Cast female characters only."
                "인간 여성만 사용 가능."],
-        "cm": ["Male Casts only.",
+        "cm": ["Male Casts only."
                "캐스트 남성만 사용 가능."],
-        "cf": ["Female Casts only.",
+        "cf": ["Female Casts only."
                "캐스트 여성만 사용 가능."],
-        "am": ["Male characters only (all races).",
+        "am": ["Male characters only (all races)."
                "남성만 사용 가능."],
-        "af": ["Female characters only (all races).",
+        "af": ["Female characters only (all races)."
                "여성만 사용 가능."],
-        "an": ["Usable by all characters.",
+        "an": ["Usable by all characters."
                "모두 사용 가능."]}
         
         # Detect ticket's race/sex restriction.
@@ -474,9 +471,8 @@ def translate_voice(item):
                   .format(item["tr_text"], jp_cv_name))
         
         # Translate the description
-        item["tr_explain"] = voice_desc_formats[LANG] + "\n{restriction}\nCV: {actorname}".format(
-            restriction = restrictions[racensex][LANG],
-            actorname = cv_name)
+        item["tr_explain"] = "Allows a new voice to be selected.\n{restriction}\nCV: {actorname}".format(
+            restriction = restrictions[racensex][LANG], actorname = cv_name)
         
     return 0
 
