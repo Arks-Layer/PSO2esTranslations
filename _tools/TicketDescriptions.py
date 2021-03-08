@@ -37,35 +37,39 @@ for name in file_names:
             
             item_name = item["tr_text"]
             
-            # Some stickers have different names in-game from their tickets.
-            # The in-game name is in the tickets' descriptions.
-            # Extract it here.
-            if name[0] == "Sticker":
-                description_name = regex.search(
-                    r'(?<=ステッカーの\n)(.+[ＡＢＣ]?)(?=が選択可能。)',
-                    item["jp_explain"]).group(0)
+            if item_name == "No Sticker":
+                item["tr_explain"] = "Unlocks the ability to not display a\nsticker in the Beauty Salon."
+            
+            else:
+                # Some stickers have different names in-game from their tickets.
+                # The in-game name is in the tickets' descriptions.
+                # Extract it here.
+                if name[0] == "Sticker":
+                    description_name = regex.search(
+                        r'(?<=ステッカーの\n)(.+[ＡＢＣ]?)(?=が選択可能。)',
+                        item["jp_explain"]).group(0)
 
-                if (description_name != item["jp_text"]):
-                    item_name = regex.sub(" Sticker", "", item_name)
-            
-            # Some items are locked to one sex or the other.
-            sex = "n"
-            if len(regex.findall("女性のみ使用可能。", item["jp_explain"])) > 0:
-                sex = "f"
-            elif len(regex.findall("男性のみ使用可能。", item["jp_explain"])) > 0:
-                sex = "m"
-            
-            # Some items cannot be resized.
-            sizelocked = False
-            
-            if len(regex.findall("サイズ調整はできません。", item["jp_explain"])) > 0:
-                sizelocked = True
-            
-            # Translate the description.
-            item["tr_explain"] = "Unlocks the {sexlock}{type}\n\"{name}\"\nfor use in the Beauty Salon.{sizelock}".format(
-                sexlock = "female-only " if sex == "f" else "male-only " if sex == "m" else "", 
-                type = item_type, name = item_name, 
-                sizelock = "\n<yellow>Size cannot be adjusted.<c>" if sizelocked == True else "")
+                    if (description_name != item["jp_text"]):
+                        item_name = regex.sub(" Sticker", "", item_name)
+                
+                # Some items are locked to one sex or the other.
+                sex = "n"
+                if len(regex.findall("女性のみ使用可能。", item["jp_explain"])) > 0:
+                    sex = "f"
+                elif len(regex.findall("男性のみ使用可能。", item["jp_explain"])) > 0:
+                    sex = "m"
+                
+                # Some items cannot be resized.
+                sizelocked = False
+                
+                if len(regex.findall("サイズ調整はできません。", item["jp_explain"])) > 0:
+                    sizelocked = True
+                
+                # Translate the description.
+                item["tr_explain"] = "Unlocks the {sexlock}{type}\n\"{name}\"\nfor use in the Beauty Salon.{sizelock}".format(
+                    sexlock = "female-only " if sex == "f" else "male-only " if sex == "m" else "", 
+                    type = item_type, name = item_name, 
+                    sizelock = "\n<yellow>Size cannot be adjusted.<c>" if sizelocked == True else "")
 
             print("Translated description for {0}".format(item["tr_text"]))
 
