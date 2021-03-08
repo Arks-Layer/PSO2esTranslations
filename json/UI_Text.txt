@@ -707,7 +707,7 @@
 	{
 		"assign": "acshop_dialog_b_41",
 		"jp_text": "所持数オーバーのアイテムのため使用できません。",
-		"tr_text": "You have over the limit of items in your inventory."
+		"tr_text": "You have over the limit of items in your Inventory."
 	},
 	{
 		"assign": "current_dp_per_max_view",
@@ -1647,7 +1647,7 @@
 	{
 		"assign": "classcounter_dialog_b_04",
 		"jp_text": "以前装備していた武器が\nアイテムパックに無かったため、\n武器を解除しました。",
-		"tr_text": "Weapons that weren't\nin the character's inventory\nwere removed."
+		"tr_text": "Weapons that weren't\nin the character's Inventory\nwere removed."
 	},
 	{
 		"assign": "option_guide_00",
@@ -1802,7 +1802,7 @@
 	{
 		"assign": "equip_dialog_b_06",
 		"jp_text": "アイテムパック内の状態が変更されました。\n条件に合わなくなったチップの装備は解除されます。",
-		"tr_text": "The state of your inventory has changed.\nItems you are no longer able to use will be unequipped."
+		"tr_text": "The state of your Inventory has changed.\nItems you are no longer able to use will be unequipped."
 	},
 	{
 		"assign": "equip_dialog_t_07",
@@ -1932,7 +1932,7 @@
 	{
 		"assign": "friend_dialog_b_01",
 		"jp_text": "フレンド申請を行います。\nよろしいですか？",
-		"tr_text": "This will send a friend request.\nAre you sure?"
+		"tr_text": "This will send a Friend Request.\nAre you sure?"
 	},
 	{
 		"assign": "friend_dialog_t_02",
@@ -1972,7 +1972,7 @@
 	{
 		"assign": "friend_dialog_b_05",
 		"jp_text": "フレンド申請を行いました。",
-		"tr_text": "Sent a friend request."
+		"tr_text": "Sent a Friend Request."
 	},
 	{
 		"assign": "friend_dialog_t_06",
@@ -2002,7 +2002,7 @@
 	{
 		"assign": "friend_dialog_b_08",
 		"jp_text": "フレンド申請を承認しました。",
-		"tr_text": "Approved friend request."
+		"tr_text": "Approved Friend Request."
 	},
 	{
 		"assign": "friend_dialog_t_09",
@@ -2022,7 +2022,7 @@
 	{
 		"assign": "friend_dialog_b_10",
 		"jp_text": "フレンド申請を拒否しました。",
-		"tr_text": "Rejected friend request."
+		"tr_text": "Rejected Friend Request."
 	},
 	{
 		"assign": "friend_dialog_t_11",
@@ -2032,7 +2032,7 @@
 	{
 		"assign": "friend_dialog_b_11",
 		"jp_text": "フレンド申請を取り下げますか？",
-		"tr_text": "Withdraw the friend request?"
+		"tr_text": "Withdraw the Friend Request?"
 	},
 	{
 		"assign": "friend_dialog_t_12",
@@ -2042,7 +2042,7 @@
 	{
 		"assign": "friend_dialog_b_12",
 		"jp_text": "フレンド申請を取り下げました。",
-		"tr_text": "Withdrew the friend request."
+		"tr_text": "Withdrew the Friend Request."
 	},
 	{
 		"assign": "friend_dialog_t_13",
@@ -3097,7 +3097,7 @@
 	{
 		"assign": "mag_guide_01",
 		"jp_text": "<color=#f0df60>マグに与えるアイテムを選択してください。なお、与えられるアイテムは、スペシャルウェポン以外の武器とユニット（いずれも★９以下）、回復アイテム、ディスク、ルームグッズ、リフォーム用のパス、キャンディーです。</color>",
-		"tr_text": "<color=#f0df60>Please select an Item you want to Feed to your Mag. This can be any Weapon, Unit, Disc, Room Good or Recovery Item.</color>"
+		"tr_text": "<color=#f0df60>Please select an Item you want to Feed to your Mag. This can be any Weapon, Unit, Disk, Room Good or Recovery Item.</color>"
 	},
 	{
 		"assign": "mag_guide_02",
@@ -3327,7 +3327,7 @@
 	{
 		"assign": "receive_npc_b_00",
 		"jp_text": "<color=black>こちらでは、『PSO2』で発行される\nチケット・パスを『PSO2』の倉庫に\n受け取ることができます。</color>",
-		"tr_text": "<color=black>Here, Certain PSO2 Tickets can\nbe picked up.\nThey'll be sent to your inventory.</color>"
+		"tr_text": "<color=black>Here, Certain PSO2 Tickets can\nbe picked up.\nThey'll be sent to your Inventory.</color>"
 	},
 	{
 		"assign": "receive_dialog_t_00",
@@ -3357,7 +3357,7 @@
 	{
 		"assign": "receive_dialog_b_02",
 		"jp_text": "『PSO2』の倉庫の空き容量が不足しているため\nアイテムを受け取れません。\n『PSO2』の倉庫を整理してください。",
-		"tr_text": "\"PSO2\" You cannot receive anymore as\nyou are full on inventory space.\nPlease sort via PSO2 and try\nagain later."
+		"tr_text": "\"PSO2\" You cannot receive anymore as\nyou are full on Inventory space.\nPlease sort via PSO2 and try\nagain later."
 	},
 	{
 		"assign": "receive_dialog_t_03",
@@ -3367,7 +3367,7 @@
 	{
 		"assign": "receive_dialog_b_03",
 		"jp_text": "{0}を\n『PSO2』の基本倉庫に\n受け取りました。",
-		"tr_text": "{0} was sent to\nyour PSO2 inventory."
+		"tr_text": "{0} was sent to\nyour PSO2 Inventory."
 	},
 	{
 		"assign": "receive_dialog_t_04",
@@ -3627,7 +3627,7 @@
 	{
 		"assign": "myshop_guide_08",
 		"jp_text": "<color=#f0df60>出品中アイテムをアイテムパックの中に取り下げられます。通信状況により、出品直後のアイテムは表示されるまで時間を要する場合があります。</color>",
-		"tr_text": "<color=#f0df60>Withdrawing an item from your shop will deposit the item back into your inventory.</color>"
+		"tr_text": "<color=#f0df60>Withdrawing an item from your shop will deposit the item back into your Inventory.</color>"
 	},
 	{
 		"assign": "myshop_dialog_t_00",
@@ -4597,7 +4597,7 @@
 	{
 		"assign": "myshop_sub_other_musicdisk",
 		"jp_text": "ミュージックディスク",
-		"tr_text": "Music Disks"
+		"tr_text": "Music Discs"
 	},
 	{
 		"assign": "myshop_sub_other_tool",
@@ -6827,12 +6827,12 @@
 	{
 		"assign": "quest_line_06",
 		"jp_text": "協力してくれた同行キャラクターに\nフレンド申請を行いますか？",
-		"tr_text": "Did you want to send a friend request\nto the character who accompanied you?"
+		"tr_text": "Did you want to send a Friend Request\nto the character who accompanied you?"
 	},
 	{
 		"assign": "quest_line_07",
 		"jp_text": "<%name>にフレンド申請を行いました",
-		"tr_text": "Sent a friend request to <%name>."
+		"tr_text": "Sent a Friend Request to <%name>."
 	},
 	{
 		"assign": "quest_line_14",
@@ -8927,7 +8927,7 @@
 	{
 		"assign": "item_pack_window",
 		"jp_text": "アイテムパック",
-		"tr_text": "Item Pack"
+		"tr_text": "Inventory"
 	},
 	{
 		"assign": "prohibit_sale",
@@ -11112,7 +11112,7 @@
 	{
 		"assign": "friend_request_recieve",
 		"jp_text": "受信したフレンド申請",
-		"tr_text": "Received friend requests"
+		"tr_text": "Received Friend Requests"
 	},
 	{
 		"assign": "friend_requested",
@@ -12362,7 +12362,7 @@
 	{
 		"assign": "tu_0006_w16_b",
 		"jp_text": "アイテムパックの所持品と、アイテムの最大所持数を\n『PSO2』と共有するようになりました。最大所持数が３０の場合、\n『PSO2』にログインすると、５０に拡張されます。",
-		"tr_text": "Your item pack can hold up to a maximum of 30 items.\nIf linked with PSO2, your inventory\nis upgraded to 50 items max."
+		"tr_text": "Your Inventory can hold up to a maximum of 30 items.\nIf linked with PSO2, your Inventory\nis upgraded to 50 items max."
 	},
 	{
 		"assign": "tu_0006_w17_b",
@@ -12527,7 +12527,7 @@
 	{
 		"assign": "wh_22_02",
 		"jp_text": "＜受け取りの際の注意点＞\n『PSO2』の基本倉庫に空きがない場合、かつ指定アイテムを\n基本倉庫に限界まで所持している場合は、受け取りを行えません。",
-		"tr_text": "<Notes on Receiving>\n\"PSO2\" If there's no space available in your\ninventory or not enough time has passed since you\nlast received.\n<color=yellow>You will not receive passes.</color>"
+		"tr_text": "<Notes on Receiving>\n\"PSO2\" If there's no space available in your\nInventory or not enough time has passed since you\nlast received.\n<color=yellow>You will not receive passes.</color>"
 	},
 	{
 		"assign": "wh_23_00",
@@ -12617,7 +12617,7 @@
 	{
 		"assign": "wh_25_00",
 		"jp_text": "アイテムの所持数が、所持枠をオーバーしています。\n所持数の限界を超えたアイテムには、\nアイコンに「over」の文字が表示されます。",
-		"tr_text": "When your item pack is full, an icon is\ndisplayed alerting you to your\ninventory space."
+		"tr_text": "When your Inventory is full, an icon is\ndisplayed alerting you to your\nInventory space."
 	},
 	{
 		"assign": "wh_25_01",
@@ -16797,7 +16797,7 @@
 	{
 		"assign": "depot_guide_01",
 		"jp_text": "<color=#f0df60>アイテムパックに引き出すアイテムを選択してください。</color>",
-		"tr_text": "<color=#f0df60>Select an item to withdraw into the Item Pack.</color>"
+		"tr_text": "<color=#f0df60>Select an item to withdraw into the Inventory.</color>"
 	},
 	{
 		"assign": "depot_return_lobby",
@@ -16827,7 +16827,7 @@
 	{
 		"assign": "depot_window_title_pack",
 		"jp_text": "アイテムパック",
-		"tr_text": "Item Pack"
+		"tr_text": "Inventory"
 	},
 	{
 		"assign": "depot_leave_button",
@@ -16867,12 +16867,12 @@
 	{
 		"assign": "depot_dialog_pack_full",
 		"jp_text": "アイテムパックの空き容量不足のため、\n取り出す事ができませんでした。",
-		"tr_text": "We were unable to take items out\nsince you have insufficient item pack space."
+		"tr_text": "We were unable to take items out\nsince you have insufficient Inventory space."
 	},
 	{
 		"assign": "depot_dialog_pack_became_full",
 		"jp_text": "アイテムパックの空き容量不足のため、\n一部のアイテムを取り出す事ができませんでした。",
-		"tr_text": "We were unable to take items out\nsince you have insufficient item pack space."
+		"tr_text": "We were unable to take items out\nsince you have insufficient Inventory space."
 	},
 	{
 		"assign": "pso2_counter_pet",
@@ -19237,7 +19237,7 @@
 	{
 		"assign": "acceptbox_item_over_message",
 		"jp_text": "アイテムパックの空き容量または所持数を\nオーバーするため受け取れません。\n\n売却をして、アイテムを整理してください。",
-		"tr_text": "You do not have enough space\nin your inventory to receive these items.\nPlease make room for them."
+		"tr_text": "You do not have enough space\nin your Inventory to receive these items.\nPlease make room for them."
 	},
 	{
 		"assign": "acceptbox_point_over_message",
@@ -19277,7 +19277,7 @@
 	{
 		"assign": "acceptbox_dialog_b_01",
 		"jp_text": "受け取りボックスの受信数をオーバーしています。\n\n受け取りボックスから取り出して整理してください。\n<color=red><%over></color>個オーバーしています。\n",
-		"tr_text": "You have no more room for these items.\n\nPlease make room in your inventory.\n<color=red><%over></color> items over.\n"
+		"tr_text": "You have no more room for these items.\n\nPlease make room in your Inventory.\n<color=red><%over></color> items over.\n"
 	},
 	{
 		"assign": "acceptbox_over_yes",
@@ -20667,7 +20667,7 @@
 	{
 		"assign": "equip_favorite_guide_02",
 		"jp_text": "<color=#f0df60>チップ・武器・ユニットがアイテムパック・チップパックから移動されました。</color>",
-		"tr_text": "<color=#f0df60>Chips, weapons and units loaded from your Chip Pack and Item Pack.</color>"
+		"tr_text": "<color=#f0df60>Chips, weapons and units loaded from your Chip Pack and Inventory.</color>"
 	},
 	{
 		"assign": "equip_apply_lobby",
