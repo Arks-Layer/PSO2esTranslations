@@ -3707,7 +3707,7 @@
 	{
 		"assign": "myshop_dialog_b_07",
 		"jp_text": "存在しないアイテム、\nもしくは特殊能力名を指定しています。\n\n<color=#ff0000>※アイテム名、特殊能力名は\n完全一致のみ検索にヒットします。</color>",
-		"tr_text": "Item or ability\nmust be an exact\nmatch in name."
+		"tr_text": "You have specified an item or special ability\nthat does not exist.\n\n<color=#ff0000>※When searching for items or special abilities,\nonly exact matches will be found.</color>"
 	},
 	{
 		"assign": "myshop_dialog_t_08",
