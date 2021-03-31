@@ -2132,7 +2132,7 @@
 	{
 		"assign": "labo_dialog_b_00",
 		"jp_text": "選択中の素材チップをリセットして\n強化チップ選択画面に戻ります。\nよろしいですか？",
-		"tr_text": "Reseting the selection of chips.\nYou will be returned to the previous screen.\nIs that ok?"
+		"tr_text": "Resetting the selection of chips.\nYou will be returned to the previous screen.\nIs that ok?"
 	},
 	{
 		"assign": "labo_dialog_t_01",
@@ -2197,7 +2197,7 @@
 	{
 		"assign": "labo_dialog_b_04",
 		"jp_text": "選択中の素材チップをリセットして\n解放チップ選択画面に戻ります。\nよろしいですか？",
-		"tr_text": "Reseting the selection of chips.\nYou will be returned to the previous screen.\nIs that ok?"
+		"tr_text": "Resetting the selection of chips.\nYou will be returned to the previous screen.\nIs that ok?"
 	},
 	{
 		"assign": "labo_dialog_t_05",
@@ -2827,27 +2827,27 @@
 	{
 		"assign": "menu_dialog_b_08",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n\niOS版に端末引き継ぎを行う場合、\n現在所持しているACはiOS版では使用できません。\n※iOS版におけるアークスキャッシュの単位は\n「iAC」となります。\n※端末引き継ぎによってACの情報は消えません。\n『PSO2』、『PSO2es』Android版を\n再度プレイする際に使用できます。\n\n※SEGA IDを取得し、キャラクター連動を行えば\nPSO2es専用プレイヤーIDの入力は不要です。 \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\nキャラクター連動を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transferring between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transferring to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransferring to an Apple Device\nand can be transferred back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_b_08_uni",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n\n※iOS版に端末引き継ぎを行う場合、\niOS版ではアークスキャッシュの単位は「iAC」と表示されます。\n\n※SEGA IDを取得し、キャラクター連動を行えば\nPSO2es専用プレイヤーIDの入力は不要です。 \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\nキャラクター連動を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transferring between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transferring to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransferring to an Apple Device\nand can be transferred back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_b_08_ios_ac",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n\nAndroid版に端末引き継ぎを行う場合、\n現在所持しているiACは\nAndroid版では使用できません。\n※Android版のアークスキャッシュの単位は\n「AC」となります。\n※端末引き継ぎによってiACの情報は消えません。\n『PSO2es』iOS版を再度プレイする際に使用できます。\n\n※SEGA IDを取得し、キャラクター連動を行えば\nPSO2es専用プレイヤーIDの入力は不要です。 \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\nキャラクター連動を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transferring between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transferring to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransferring to an Apple Device\nand can be transferred back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_b_08_ios_ac_uni",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n\n※Android版に端末引き継ぎを行う場合、\nAndroid版ではアークスキャッシュの単位は「AC」と表示されます。\n\n※SEGA IDを取得し、キャラクター連動を行えば\nPSO2es専用プレイヤーIDの入力は不要です。 \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\nキャラクター連動を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transferring between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transferring to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransferring to an Apple Device\nand can be transferred back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_b_08_ios",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\n端末の移行を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transferring between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transferring to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransferring to an Apple Device\nand can be transferred back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_sega_id",
@@ -3942,7 +3942,7 @@
 	{
 		"assign": "myshop_dialog_b_28",
 		"jp_text": "最小価格の設定が最大価格の設定を\n上回っています。\n価格帯の設定を再度ご確認ください。",
-		"tr_text": "Price exceeds the maxmium.\nPlease check price\nrange and try again."
+		"tr_text": "Price exceeds the maximum.\nPlease check price\nrange and try again."
 	},
 	{
 		"assign": "myshop_dialog_t_29",
@@ -4407,7 +4407,7 @@
 	{
 		"assign": "myshop_sub_item_headparts_detail",
 		"jp_text": "ヘッドパーツ",
-		"tr_text": "Headparts"
+		"tr_text": "Head Parts"
 	},
 	{
 		"assign": "myshop_sub_item_accessory_detail",
@@ -4542,7 +4542,7 @@
 	{
 		"assign": "myshop_sub_disc_jetboots",
 		"jp_text": "ジェットブーツ系PA",
-		"tr_text": "Jetboot PAs"
+		"tr_text": "Jet Boots PAs"
 	},
 	{
 		"assign": "myshop_sub_disc_fire",
@@ -4872,7 +4872,7 @@
 	{
 		"assign": "myshop_potential",
 		"jp_text": "潜在能力",
-		"tr_text": "Potenial Unlocked"
+		"tr_text": "Potential Unlocked"
 	},
 	{
 		"assign": "myshop_rarity",
@@ -5422,7 +5422,7 @@
 	{
 		"assign": "linkage_exp_warning_dialog_b_00",
 		"jp_text": "連動経験値を配分しているクラスが\n蓄積上限に達しました。\n『PSO2』をプレイするか\n連動経験値の配分設定を変更してください。\n\n※蓄積上限に達したクラスに\n　経験値の配分がある場合、余った経験値は\n　他クラスへ自動的に配分されます。",
-		"tr_text": "Maximum possible stored LInked EXP has been reached\non one or more classes. Please log in to PSO2 or change\nyour Linked EXP distribution settings.\n\n※If a class gains Linked EXP when it is at its LInked EXP\nlimit, the excess Linked EXP will be distributed among\nyour other classes."
+		"tr_text": "Maximum possible stored Linked EXP has been reached\non one or more classes. Please log in to PSO2 or change\nyour Linked EXP distribution settings.\n\n※If a class gains Linked EXP when it is at its Linked EXP\nlimit, the excess Linked EXP will be distributed among\nyour other classes."
 	},
 	{
 		"assign": "linkage_exp_button_warning_transition",
@@ -5907,7 +5907,7 @@
 	{
 		"assign": "quest_counter_raid_label_passtime",
 		"jp_text": "経過時間 <color=#68a0a7>/</color>\n",
-		"tr_text": "Elasped <color=#68a0a7>/</color>\n"
+		"tr_text": "Elapsed <color=#68a0a7>/</color>\n"
 	},
 	{
 		"assign": "quest_counter_raid_label_encount",
@@ -9642,7 +9642,7 @@
 	{
 		"assign": "jetboots",
 		"jp_text": "ジェットブーツ",
-		"tr_text": "Jetboots"
+		"tr_text": "Jet Boots"
 	},
 	{
 		"assign": "dualblade",
@@ -10327,7 +10327,7 @@
 	{
 		"assign": "menu_popup_etarnal_prize",
 		"jp_text": "報酬あり！",
-		"tr_text": "Reward Recieved!"
+		"tr_text": "Reward Received!"
 	},
 	{
 		"assign": "menu_popup_etarnal_aggregate",
@@ -10722,7 +10722,7 @@
 	{
 		"assign": "quest_counter_rappy_coin",
 		"jp_text": "行動力が不足しているためクエストに出発できません。\nラッピーメダルか<%AC>を消費して行動力を回復しますか？\n\n出発に必要な行動力：(<%consume_drive>)\n行動力（<%current_drive>）→<color=red>（<%after_drive>）</color>\n\n必要ラッピーメダル：<%consume_rappy_coin>枚\n所持ラッピーメダル：<%current_rappy_coin>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
-		"tr_text": "You don't have enough Drive for this stage.\nYou can refil with <%AC> or Rappy medals. Is that OK?\n\nNeeded Drive: (<%consume_drive>)→<color=red>（<%after_drive>）</color>\n\nRappy medals needed: <%consume_rappy_coin>\nRappy medals owned: <%current_rappy_coin>\n\n<%AC> needed: <%consume_AC>\n<%AC> owned: <%current_AC>"
+		"tr_text": "You don't have enough Drive for this stage.\nYou can refill with <%AC> or Rappy medals. Is that OK?\n\nNeeded Drive: (<%consume_drive>)→<color=red>（<%after_drive>）</color>\n\nRappy medals needed: <%consume_rappy_coin>\nRappy medals owned: <%current_rappy_coin>\n\n<%AC> needed: <%consume_AC>\n<%AC> owned: <%current_AC>"
 	},
 	{
 		"assign": "quest_counter_drive_lack",
@@ -11212,7 +11212,7 @@
 	{
 		"assign": "friend_charamake_dl_dialog_b",
 		"jp_text": "フレンドが設定しているコスチュームデータを\nダウンロードします。\n\n※ダウンロード容量\n最大50MB\n※ダウンロード目安時間\n約2分\n\n※通信環境によって、ダウンロードにかかる時間が\n　異なりますのでご注意ください。\n※ゲームデータのダウンロードは\n　通信環境のいい場所で行ってください。",
-		"tr_text": "This will download data for a cosutme\nused by your friend.\n\nDownload size: Up to 50MB\nEstimated download time: 2 minutes\n\nNote that download times may vary\ndepending on your connection speed.\nWhen downloading game data, try to\nmake sure you have a strong connection."
+		"tr_text": "This will download data for a costume\nused by your friend.\n\nDownload size: Up to 50MB\nEstimated download time: 2 minutes\n\nNote that download times may vary\ndepending on your connection speed.\nWhen downloading game data, try to\nmake sure you have a strong connection."
 	},
 	{
 		"assign": "friend_charamake_dl_nofriend_dialog_t",
@@ -11562,7 +11562,7 @@
 	{
 		"assign": "tu_0005_w00_b",
 		"jp_text": "『PSO2』とキャラクター連動を行うと、『PSO2』ゲーム内で\nキャラクターをさらに細かくカスタマイズできます。\nよりカッコいい・かわいいキャラクターを作りましょう！",
-		"tr_text": "When you link your waifu with \"PSO2\",\nyou can finely customize your\nwaifu in great detail.\nLet us create your waifu!"
+		"tr_text": "When you link your chara with \"PSO2\",\nyou can finely customize your\nchara in great detail.\nLet us create your chara!"
 	},
 	{
 		"assign": "tu_0000_n00_b",
@@ -11657,7 +11657,7 @@
 	{
 		"assign": "tu_0000_n18_b",
 		"jp_text": "<color=black>もうひとつ、バトルで重要な\nジャストアタックについてお教えします。</color>",
-		"tr_text": "<color=black>Now we'll teach you\nabout the important\"Just Attacks\".</color>"
+		"tr_text": "<color=black>Now we'll teach you\nabout the important \"Just Attacks\".</color>"
 	},
 	{
 		"assign": "tu_0000_n19_b",
@@ -11732,7 +11732,7 @@
 	{
 		"assign": "tu_0001_n07_b",
 		"jp_text": "<color=black>それでは、チップの装備について\n説明いたします！</color>",
-		"tr_text": "<color=black>I will describe equiping chips!</color>"
+		"tr_text": "<color=black>I will describe equipping chips!</color>"
 	},
 	{
 		"assign": "tu_0001_n02_b",
@@ -12562,7 +12562,7 @@
 	{
 		"assign": "wh_24_n01_b",
 		"jp_text": "<color=black>緊急クエストとは\nフレンドと協力してクリアする\n特殊なクエストです。</color>",
-		"tr_text": "<color=black>Emegency Quests are \nSpecial Quests.\nClear with help from friends.</color>"
+		"tr_text": "<color=black>Emergency Quests are \nSpecial Quests.\nClear with help from friends.</color>"
 	},
 	{
 		"assign": "wh_24_n02_b",
@@ -12572,12 +12572,12 @@
 	{
 		"assign": "wh_24_00",
 		"jp_text": "緊急クエストとは、フレンドたちと力を合わせ\n一体の目標エネミーの討伐をめざす\n期間限定の特別クエストです。",
-		"tr_text": "Emergency Quests are special limited\ntimed quests that house a\npoweful enemy. Work together to defeat the enemy within."
+		"tr_text": "Emergency Quests are special limited\ntimed quests that house a\npowerful enemy. Work together to defeat the enemy within."
 	},
 	{
 		"assign": "wh_24_01",
 		"jp_text": "緊急クエスト発生中は、専用ボタンが出現します。\nタッチで出発しましょう。\nなお、出発には「オペレーションポイント（ＯＰ）」を消費します。",
-		"tr_text": "During Emegency Quests,\na special dedicated button will appear.\nWhen starting an Emergency Quest, consumption\nof 'Operation Points (OP)' will occur."
+		"tr_text": "During Emergency Quests,\na special dedicated button will appear.\nWhen starting an Emergency Quest, consumption\nof 'Operation Points (OP)' will occur."
 	},
 	{
 		"assign": "wh_24_02",
@@ -12587,7 +12587,7 @@
 	{
 		"assign": "wh_24_03",
 		"jp_text": "一度で目標を倒せなくても、前回のバトルで与えたダメージは\nそのまま残ります。クエストの発生時間中まで\n何回でも挑戦できるので、引き続き討伐をめざしましょう！",
-		"tr_text": "Your previous damage dealt will remain,\nallowing you to repeatively strike the target\nas much as possible until it is defeated!"
+		"tr_text": "Your previous damage dealt will remain,\nallowing you to repeatedly strike the target\nas much as possible until it is defeated!"
 	},
 	{
 		"assign": "wh_24_04",
@@ -12782,7 +12782,7 @@
 	{
 		"assign": "ef_0002_n01_b",
 		"jp_text": "<color=black>ひとつ、新しい情報があります。\n以前、あなたがナベリウスの\n森林エリアで発見した\n旧式のメッセージパックですが……</color>",
-		"tr_text": "<color=black>There is new information\nreguarding the message pack you\nfound back in Naberius....</color>"
+		"tr_text": "<color=black>There is new information\nregarding the message pack you\nfound back in Naberius....</color>"
 	},
 	{
 		"assign": "ef_0002_n02_b",
@@ -12817,7 +12817,7 @@
 	{
 		"assign": "ef_0002_n08_b",
 		"jp_text": "<color=black>ナベリウスの凍土エリアは、雪と氷に閉ざされており\n森林エリアと同様に原生種が棲息しています。\n弱点も、同じく「炎」属性です。</color>",
-		"tr_text": "<color=black>The Tundra area was closed off due\nto the Ice and Snow.\nThe wildife adapted to this climate,\nbut share weakness of Fire.</color>"
+		"tr_text": "<color=black>The Tundra area was closed off due\nto the Ice and Snow.\nThe wildlife adapted to this climate,\nbut share weakness of Fire.</color>"
 	},
 	{
 		"assign": "ef_0002_n09_b",
@@ -12882,7 +12882,7 @@
 	{
 		"assign": "ef_0004_n05_b",
 		"jp_text": "<color=black>それはともかく、リリーパの砂漠エリアの\n探索許可がおりました。\n砂漠エリアには「機甲種」と呼ばれる\nこの惑星でかつて栄えた古い文明の\n防衛兵器が出現します。</color>",
-		"tr_text": "<color=black>Anyways, permission granted to\ngo to Lillipa.\nAn ancient civiliation once dwelled there.\nNow their creations, the\n\"Mechs\", act as defense systems.</color>"
+		"tr_text": "<color=black>Anyways, permission granted to\ngo to Lillipa.\nAn ancient civilization once dwelled there.\nNow their creations, the\n\"Mechs\", act as defense systems.</color>"
 	},
 	{
 		"assign": "ef_0004_n06_b",
@@ -13072,7 +13072,7 @@
 	{
 		"assign": "es_0005_n13_b",
 		"jp_text": "<color=black>けれども、父の情報を求めて\n必死に戦ってくれている\nあなたの姿を見ていて……\n打ち明けずにはいられませんでした。</color>",
-		"tr_text": "<color=black>I am desparate for information regarding\nmy father. And observing you like this...\nI felt that I could confide in you.</color>"
+		"tr_text": "<color=black>I am desperate for information regarding\nmy father. And observing you like this...\nI felt that I could confide in you.</color>"
 	},
 	{
 		"assign": "es_0005_n14_b",
@@ -13142,7 +13142,7 @@
 	{
 		"assign": "es_0007_n02_b",
 		"jp_text": "<color=black>通常の侵食エネミーはダーカーの影響で\n凶暴化し、強い力を得ていますが、\n今回、数体の侵食エネミーにおいて\nダーカーではなく、人工的な強化効果が\n認められたとのことです。</color>",
-		"tr_text": "<color=black>Normally when an enemy is infected,\nit becomes stronger and goes berszerk due\nto influence of Darkers. However, many\nof the enemies you defeated we\nartificially infected, not from Darkers.</color>"
+		"tr_text": "<color=black>Normally when an enemy is infected,\nit becomes stronger and goes berserk due\nto influence of Darkers. However, many\nof the enemies you defeated we\nartificially infected, not from Darkers.</color>"
 	},
 	{
 		"assign": "es_0007_n03_b",
@@ -13162,7 +13162,7 @@
 	{
 		"assign": "es_0007_n06_b",
 		"jp_text": "<color=black>不安で胸が押しつぶされそうですが\n★４クエストもいよいよ大詰めです。\nどうか、気をつけて\n任務を達成してきてくださいね。</color>",
-		"tr_text": "<color=black>These new series of revelations has me\nworried. In anycase, ★4 series quests\nare now over with. Wrap up whatever\nyou've got left and get back to base.</color>"
+		"tr_text": "<color=black>These new series of revelations has me\nworried. In any case, ★4 series quests\nare now over with. Wrap up whatever\nyou've got left and get back to base.</color>"
 	},
 	{
 		"assign": "es_0008_n00_b",
@@ -13237,7 +13237,7 @@
 	{
 		"assign": "es_0010_n04_b",
 		"jp_text": "<color=black>……ごめんなさい。\nこんな時こそ、アークス管理官である私が\n冷静でいなければいけないのに。</color>",
-		"tr_text": "<color=black>I'm sorry...\nI'm an ARKS officier, I shouldn't\nbe bothered by this.</color>"
+		"tr_text": "<color=black>I'm sorry...\nI'm an ARKS officer, I shouldn't\nbe bothered by this.</color>"
 	},
 	{
 		"assign": "es_0010_n05_b",
@@ -13627,7 +13627,7 @@
 	{
 		"assign": "es_0018_n04_b",
 		"jp_text": "<color=black>でも、エネミーをあやつって\n人を傷つけるなんて、間違ってるよ！\nお願いだから、武器を捨てて投降して！</color>",
-		"tr_text": "<color=black>But by hurting them, even if they may\nbe our enemies, it's not right! Please,\nstop this maddness!</color>"
+		"tr_text": "<color=black>But by hurting them, even if they may\nbe our enemies, it's not right! Please,\nstop this madness!</color>"
 	},
 	{
 		"assign": "es_0018_n05_b",
@@ -13637,7 +13637,7 @@
 	{
 		"assign": "es_0018_n06_b",
 		"jp_text": "<color=black>アークスくん、きみに予告しておこう。\n近日中に、きみたちアークスは\n私の手によって生まれた、次世代の生物……\nきみたちがタイプＣと呼んでいる生物たちと\n対峙することになるだろう。</color>",
-		"tr_text": "<color=black>Little ARKS, allow me to give you a\nwarning... In a matter of few days,\nyou will bear wittness to the enemies\nyou call \"Type-C\", created by yours\ntruly, and marvel at their beauty.</color>"
+		"tr_text": "<color=black>Little ARKS, allow me to give you a\nwarning... In a matter of few days,\nyou will bear witness to the enemies\nyou call \"Type-C\", created by yours\ntruly, and marvel at their beauty.</color>"
 	},
 	{
 		"assign": "es_0018_n07_b",
@@ -14132,12 +14132,12 @@
 	{
 		"assign": "es_0027_n13_b",
 		"jp_text": "<color=black>私が、アークス管理官だからよ。\n事前に調査をし、適切な情報を送って\nアークスの隊員の命を守る……\nそれが、私のなすべきこと！</color>",
-		"tr_text": "<color=black>It's because I'm an ARKS officer...\nMy job is investigate in advance, toprotect the lives of ARKS members\nand ensure they're given proper\ninformation. That is what I do!</color>"
+		"tr_text": "<color=black>It's because I'm an ARKS officer...\nMy job is investigate in advance, to protect the lives of ARKS members\nand ensure they're given proper\ninformation. That is what I do!</color>"
 	},
 	{
 		"assign": "es_0027_n14_b",
 		"jp_text": "<color=black>お父さん、昔はいつも言ってたよね。\n技術の力で、ダーカーの脅威を払い\n宇宙に平和を取り戻す、って。\nお父さんこそ、なすべきことを忘れ\nなぜこんなひどいことをしているの！</color>",
-		"tr_text": "<color=black>Have you forgotten what you said back then?\nWith this technology, we can bring\npayback to these Darkers and restore\npeace within the Universe. That is what\nyou'be said Dad. Why are you like this?</color>"
+		"tr_text": "<color=black>Have you forgotten what you said back then?\nWith this technology, we can bring\npayback to these Darkers and restore\npeace within the Universe. That is what\nyou've said Dad. Why are you like this?</color>"
 	},
 	{
 		"assign": "es_0027_n15_b",
@@ -14632,7 +14632,7 @@
 	{
 		"assign": "es_0035_n07_b",
 		"jp_text": "<color=black>あそこには、実験や観察用のダーカーたちが\n多数、隔離されている……\nドノヴァンは、やつらを解き放つつもりだ……</color>",
-		"tr_text": "<color=black>There were a lot of experiements done\nto strong Darkers in the quarantine\nzone... Donovan is going to unleash\nall of them...</color>"
+		"tr_text": "<color=black>There were a lot of experiments done\nto strong Darkers in the quarantine\nzone... Donovan is going to unleash\nall of them...</color>"
 	},
 	{
 		"assign": "es_0035_n08_b",
@@ -14747,7 +14747,7 @@
 	{
 		"assign": "es_0038_n07_b",
 		"jp_text": "<color=black>アークス総員に連絡。\n敵勢力は拠点から撤退し、本作戦は目的を達成した。\n引き続き警戒態勢を維持しつつ、次なる指示を待て。</color>",
-		"tr_text": "<color=black>Contacting all ARKS memmbers.\nThe enemy's forces have withdrawn,\nour sortie is over. Maintain alert\nand await further instructions.</color>"
+		"tr_text": "<color=black>Contacting all ARKS members.\nThe enemy's forces have withdrawn,\nour sortie is over. Maintain alert\nand await further instructions.</color>"
 	},
 	{
 		"assign": "es_0038_n08_b",
@@ -16092,7 +16092,7 @@
 	{
 		"assign": "menu_invite_tab_input_explain",
 		"jp_text": "<color=#ffff00>お友達のコードを入力してプレゼントを獲得！</color>",
-		"tr_text": "<color=#ffff00>By entering a referral code, uou can receive a gift from friends!</color>"
+		"tr_text": "<color=#ffff00>By entering a referral code, you can receive a gift from friends!</color>"
 	},
 	{
 		"assign": "menu_invite_tab_input_code",
@@ -16132,7 +16132,7 @@
 	{
 		"assign": "menu_invite_tab_reward_next_condition",
 		"jp_text": "<color=#ffff00>次の報酬まであと {0} 人！</color>",
-		"tr_text": "<color=#ffff00>{0} more untill next reward!</color>"
+		"tr_text": "<color=#ffff00>{0} more until next reward!</color>"
 	},
 	{
 		"assign": "menu_invite_reward_list_title_input",
@@ -16542,7 +16542,7 @@
 	{
 		"assign": "wh_31_03",
 		"jp_text": "＜ボーナスについて＞\n連続してクイック探索を利用すると、レアドロップ率や\n獲得アイテム数にボーナスがつきます。",
-		"tr_text": "<About Bonus>\nWhen you continously use Quick Search, RDR increases.\nBonuses also increase."
+		"tr_text": "<About Bonus>\nWhen you continuously use Quick Search, RDR increases.\nBonuses also increase."
 	},
 	{
 		"assign": "storyevent_skip_dialog_t",
@@ -17282,7 +17282,7 @@
 	{
 		"assign": "wh_35_01",
 		"jp_text": "全ての外伝クエストをクリアすると「外伝解放ゲージ」が\n「プレゼントゲージ」に変わり、ゲージがたまるたびに、\nウェポノイドからプレゼントが贈られるようになります。",
-		"tr_text": "Once you clear all of the Weaponoid's\nStory Quests, the Gauge changes to a gift\ngauge, allowing you to recieve presents from the Weaponoid."
+		"tr_text": "Once you clear all of the Weaponoid's\nStory Quests, the Gauge changes to a gift\ngauge, allowing you to receive presents from the Weaponoid."
 	},
 	{
 		"assign": "wh_35_02",
@@ -17602,7 +17602,7 @@
 	{
 		"assign": "sidestory_voice_playbtn_getpresent",
 		"jp_text": "プレゼント獲得時",
-		"tr_text": "Gift Recieved"
+		"tr_text": "Gift Received"
 	},
 	{
 		"assign": "sidestory_voice_playbtn_evoandlvmax",
@@ -18287,7 +18287,7 @@
 	{
 		"assign": "lobby_special_reload_body",
 		"jp_text": "クエスト情報の更新を行います。",
-		"tr_text": "Quest informatino has been updated."
+		"tr_text": "Quest information has been updated."
 	},
 	{
 		"assign": "lookback_event_title",
@@ -19217,7 +19217,7 @@
 	{
 		"assign": "acceptbox_dialog_b_4",
 		"jp_text": "以下のアイテムを受け取りました。",
-		"tr_text": "Recieved the item(s)."
+		"tr_text": "Received the item(s)."
 	},
 	{
 		"assign": "acceptbox_dialog_t_5",
@@ -19702,7 +19702,7 @@
 	{
 		"assign": "scratch_pickup_get_bonus_item_name",
 		"jp_text": "回数ボーナスで\n「{0}」を入手しました",
-		"tr_text": "Received {0} as a Freqency Bonus"
+		"tr_text": "Received {0} as a Frequency Bonus"
 	},
 	{
 		"assign": "scratch_get_item_name_count",
@@ -21257,7 +21257,7 @@
 	{
 		"assign": "towerquest_top_guide_friend",
 		"jp_text": "<color=#f0df60>フレンド通信：<%name1>さんがエターナルタワー<%value1>Fをクリアしました。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</color>",
-		"tr_text": "<color=#f0df60>Friend comunication: <%name1> has cleared Eternal Tower floor <%value1>F.                                          </color>"
+		"tr_text": "<color=#f0df60>Friend communication: <%name1> has cleared Eternal Tower floor <%value1>F.                                          </color>"
 	},
 	{
 		"assign": "towerquest_top_guide_ranking",
@@ -22492,7 +22492,7 @@
 	{
 		"assign": "raiddps_guid_achievement",
 		"jp_text": "<color=yellow>限界チャレンジの達成報酬です。入手条件を満たすと、報酬を受け取ることができます。</color>",
-		"tr_text": "<color=yellow>These are the Challenge Test Achievements. You can receive rewards if you have met the Achivement requirements.</color>"
+		"tr_text": "<color=yellow>These are the Challenge Test Achievements. You can receive rewards if you have met the Achievement requirements.</color>"
 	},
 	{
 		"assign": "raiddps_banner_how_to_play",
@@ -23577,7 +23577,7 @@
 	{
 		"assign": "scrach_have_es_ticket",
 		"jp_text": "所持esスクラッチコイン <color=#68a0a7>/</color>",
-		"tr_text": "ea Scratch Coins owned: <color=#68a0a7>/</color>"
+		"tr_text": "es Scratch Coins owned: <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "scrach_have_weaponoid_ticket",
