@@ -162,7 +162,7 @@ def translate_cosmetic_desc(item, file_name):
             item["jp_explain"]).group(0)
 
         if (description_name != item["jp_text"]):
-            item_name = regex.sub(" Sticker", "", item_name)
+            item_name = item_name.replace(" Sticker", "")
     
     # Some items are locked to one sex or the other.
     sex = "n"
