@@ -4,6 +4,23 @@ import codecs
 import json
 import os
 import regex
+import argparse
+
+json_loc = os.path.join("..", "json")
+
+parser = argparse.ArgumentParser(description = "Translates ticket item descriptions.")
+# Switch for language.
+LANGS = {-1: "JP",
+         0: "EN",
+         1: "KR"}
+# Add more later.
+parser.add_argument("-l", type = int, dest = "lang", action = "store", choices = [0, 1], default = 0, metavar = "N", help = "Set a language to translate into. Available options are 0 (EN) and 1 (KR). Defaults to EN.")
+# Switch for retranslating all descriptions.
+parser.add_argument("-r", dest = "redo", action = "store_true", help = "Force all ticket descriptions to be processed, even if already translated.")
+
+args = parser.parse_args()
+LANG, REDO_ALL = args.lang, args.redo
+
 def no_whitespace(string):
     return string.replace("　", "").replace(" ", "")
 
