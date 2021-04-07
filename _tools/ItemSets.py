@@ -97,6 +97,11 @@ def translate_set(set):
     # Decide what format the item set list is using
     if jp_desc.find("」シリーズ") > -1:
         desc_format = "cast"
+        # Handle some cast set formatting here
+        jp_desc = jp_desc.replace("」シリーズ", "シリーズ」")
+        jp_desc = jp_desc.replace("ＣＶシリーズ", "・ボディＣＶ")
+        jp_desc = jp_desc.replace("ＧＶシリーズ", "・ボディＧＶ")
+        jp_desc = jp_desc.replace("シリーズ", "・ボディ")
     elif jp_desc.find("」「") > -1:
         desc_format = "2x2"
     elif regex.search(".／.／.／.", jp_desc):
@@ -128,9 +133,6 @@ def translate_set(set):
 
     # Handle multiples of items
     items_raw = regex.sub("」([０１２３４５６７８９]+)個", " x\g<1>」", items_raw)
-    
-    # Handle cast parts
-    items_raw = items_raw.replace("」シリーズ", "シリーズ」")
         
     # Sort out lobby actions a bit
 
@@ -158,12 +160,6 @@ def translate_set(set):
             count = tr_item[-4:]
             tr_item = tr_item[:-4]
         
-        # Replace "Series" with "Body" for Cast parts
-        if desc_format == "cast":
-            tr_item = tr_item.replace("ＣＶシリーズ", "・ボディＣＶ")
-            tr_item = tr_item.replace("ＧＶシリーズ", "・ボディＧＶ")
-            tr_item = tr_item.replace("シリーズ", "・ボディ")
-
         # Only find the first color variant for 3 or 4 color sets
         elif desc_format == "4color" or desc_format == "3color":
             tr_item = tr_item.split("／")[0]
