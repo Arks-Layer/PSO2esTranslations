@@ -49,8 +49,7 @@ items_file_names = ["Costume_Female", "Costume_Male",
                     "Stack_DeviceHT", "Stack_DeviceAddTA",
                     "Stack_DeviceFD", "Stack_Reform",
                     "Stack_Music", "Stack_OrderItem",
-                    "FacePattern", "Stack_LobbyAction",
-                    "Stack_Orderitem"]
+                    "FacePattern", "Stack_LobbyAction"]
 
 # Load contents files
 
