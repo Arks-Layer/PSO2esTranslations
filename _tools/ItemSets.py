@@ -88,6 +88,9 @@ set_other = [" +{0} other",
 
 # Translation function
 def translate_set(set):
+    if set["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+        return -2
+    
     jp_desc = set["jp_explain"]
 
     desc_format = "normal"
