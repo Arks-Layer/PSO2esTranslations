@@ -79,6 +79,12 @@ for items_file_name in items_file_names:
             items_dict[no_whitespace(item["jp_text"])] = item["tr_text"]
         continue
     continue
+    
+set_first_lines = ["Use to receive the following items:",
+                   ""]
+
+set_other = [" +{0} other",
+             ""]
 
 # Translation function
 def translate_set(set):
@@ -191,7 +197,7 @@ def translate_set(set):
     
     
     # Rebuild the items into the translated format
-    tr_desc = "Use to receive the following items:"
+    tr_desc = set_first_lines[LANG]
 
     if desc_format == "2x2" and len(tr_items) > 3:
         #tr_desc += "\n・{0} ・{1}\n・{2} ・{3}".format(tr_items[0], tr_items[1],
@@ -203,7 +209,7 @@ def translate_set(set):
             tr_desc += "\n[{0}]".format(item)
         
     if others > 0:
-        tr_desc += " +{0} other".format(others)
+        tr_desc += set_other[LANG].format(others)
 
     set["tr_explain"] = tr_desc
     
