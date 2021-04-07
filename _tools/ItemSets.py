@@ -4,6 +4,10 @@ import codecs
 import json
 import os
 import regex
+def no_whitespace(string):
+    return string.replace("　", "").replace(" ", "")
+
+json_loc = os.path.join("..", "json")
 
 items_file_names = ["Costume_Female", "Costume_Male",
                     "InnerWear_Female", "InnerWear_Male",
@@ -34,11 +38,6 @@ items_file_names = ["Costume_Female", "Costume_Male",
 # Load contents files
 
 items_dict = {}
-
-json_loc = os.path.join("..", "json")
-
-def no_whitespace(string):
-    return string.replace("　", "").replace(" ", "")
 
 for items_file_name in items_file_names:
     items_file_name = "Item_{0}.txt".format(items_file_name)
