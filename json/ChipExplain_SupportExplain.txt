@@ -7312,14 +7312,14 @@
 		"jp_explainShort": "闇属性時増＋自在槍時増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 風属性のチップを装備している場合\n　　 攻撃力を劇的に増加する。\n② ＣＰの回復速度を劇的に強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by ???% while  equipped with a\n     Wind chip.\n     <color=yellow>[?-Frame]</color>\n②  Boosts your CP recovery by ???%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32420",
 		"jp_explainShort": "炎属性時小増＋長槍時小増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 風属性のチップを装備している場合\n　　 攻撃力を絶大に増加する。\n② ＣＰの回復速度を劇的に強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by ???% while  equipped with a\n     Wind chip.\n     <color=yellow>[?-Frame]</color>\n②  Boosts your CP recovery by ???%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32425",
@@ -7354,21 +7354,21 @@
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 最大ＨＰの値に応じて攻撃力を極度に増加する。\n② 敵からの攻撃を一定確率で回避する。\n③ 最大ＨＰの値が\n　　 300以上の場合、ダウン・のけぞり無効となる効果を\n　　 付与する。\n　　 500以上の場合、定期的にＨＰをわずかに回復する。\n　　 1000以上の場合、効果中一度だけ戦闘不能にならない。\n　　 2000以上の場合、自身を状態異常にならなくする。\n　　 3500以上の場合、攻撃ヒット時に一定確率で\n　　 ＣＰをわずかに回復する。\n　　 5000以上の場合、ＨＰの現在値と最大値を増加する。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage based on your maximum HP.\n     <color=yellow>[?-Frame]</color>\n②  Grants a ??% chance to evade damage from\n     enemies.\n③  Grants effects based on your maximum HP:\n     300+: Grants knockdown/flinching immunity.\n     500+: Recovers ??% HP every ?? seconds.\n     1000+: Protects you from one incapacitation.\n     2000+: Grants immunity to status effects.\n     3500+: ??% chance to recover ??  CP on hit.\n     5000+: Increases your current and maximum HP.\n④  While this chip is equipped, the equip costs of\n     Lightning PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32430",
 		"jp_explainShort": "風属性時小増＋長槍時小増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 最大ＨＰの値に応じて攻撃力を極度に増加する。\n② 敵からの攻撃を一定確率で回避する。\n③ 最大ＨＰの値が\n　　 300以上の場合、ダウン・のけぞり無効となる効果を\n　　 付与する。\n　　 500以上の場合、定期的にＨＰをわずかに回復する。\n　　 1000以上の場合、効果中一度だけ戦闘不能にならない。\n　　 2000以上の場合、自身を状態異常にならなくする。\n　　 3500以上の場合、攻撃ヒット時に一定確率で\n　　 ＣＰをわずかに回復する。\n　　 5000以上の場合、ＨＰの現在値と最大値を増加する。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage based on your maximum HP.\n     <color=yellow>[?-Frame]</color>\n②  Grants a ??% chance to evade damage from\n     enemies.\n③  Grants effects based on your maximum HP:\n     300+: Grants knockdown/flinching immunity.\n     500+: Recovers ??% HP every ?? seconds.\n     1000+: Protects you from one incapacitation.\n     2000+: Grants immunity to status effects.\n     3500+: ??% chance to recover ??  CP on hit.\n     5000+: Increases your current and maximum HP.\n④  While this chip is equipped, the equip costs of\n     Lightning PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32431",
 		"jp_explainShort": "風属性時増＋長槍時増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 最大ＨＰの値に応じて攻撃力を極度に増加する。\n② 敵からの攻撃を一定確率で回避する。\n③ 最大ＨＰの値が\n　　 300以上の場合、ダウン・のけぞり無効となる効果を\n　　 付与する。\n　　 500以上の場合、定期的にＨＰをわずかに回復する。\n　　 1000以上の場合、効果中一度だけ戦闘不能にならない。\n　　 2000以上の場合、自身を状態異常にならなくする。\n　　 3500以上の場合、攻撃ヒット時に一定確率で\n　　 ＣＰをわずかに回復する。\n　　 5000以上の場合、ＨＰの現在値と最大値を増加する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage based on your maximum HP.\n     <color=yellow>[?-Frame]</color>\n②  Grants a ??% chance to evade damage from\n     enemies.\n③  Grants effects based on your maximum HP:\n     300+: Grants knockdown/flinching immunity.\n     500+: Recovers ??% HP every ?? seconds.\n     1000+: Protects you from one incapacitation.\n     2000+: Grants immunity to status effects.\n     3500+: ??% chance to recover ??  CP on hit.\n     5000+: Increases your current and maximum HP.\n④  While this chip is equipped, the equip costs of\n     all PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32432",
@@ -7389,63 +7389,63 @@
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 全てのエリアの戦闘で攻撃力を超絶に増加する。\n② ＣＰとＣＰの最大値を上昇する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by ???% when fighting in any\n     area.\n     <color=yellow>[I-Frame]</color>\n②  Increases your CP and your maximum CP by ??.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32437",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 全てのエリアの戦闘で攻撃力を超絶に増加する。\n② ＣＰとＣＰの最大値を上昇する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by ???% when fighting in any\n     area.\n     <color=yellow>[I-Frame]</color>\n②  Increases your CP and your maximum CP by ??.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32438",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の武器の属性が光属性か\n　　 攻撃対象の敵の弱点に有効な属性の場合\n　　 攻撃力を絶大に増加する。\n② ボス戦と極討サバイバルで\n　　 装備中の光属性チップの枚数に応じて\n　　 ①の効果のダメージをさらに超絶に増加する。\n③ 装備中の光属性チップの枚数に応じて\n　　 敵から受けるダメージを大きく軽減する。\n④ リンクスロットに装備したチップのクラスボーナスが\n　　 ガンナーかテクターの場合\n　　 敵を撃破した時ＣＰをわずかに回復する。\n⑤ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 170% if the equipped weapon's\n     element is Light, or if it matches the target's\n     elemental weakness.\n<color=yellow>SP: </color>Boosts damage by 180% if the equipped weapon's\n     element is Light, or if it matches the target's\n     elemental weakness.\n     <color=yellow>[H-Frame]</color>\n②  Boosts the effect of ① by 40% x the number of\n     Light chips equipped in boss battles and Extreme\n     Survival quests.\n③  Reduces damage taken from enemies by ??%\n     x the number of Light chips equipped.\n④  Restores ? CP each time an enemy is defeated if\n     the Class Bonus of the chip in this chip's Link Slot is\n     Gunner or Techer.\n⑤  While this chip is equipped, the equip costs of\n     Light PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32439",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の武器の属性が光属性か\n　　 攻撃対象の敵の弱点に有効な属性の場合\n　　 攻撃力を絶大に増加する。\n② ボス戦と極討サバイバルで\n　　 装備中の光属性チップの枚数に応じて\n　　 ①の効果のダメージをさらに超絶に増加する。\n③ 装備中の光属性チップの枚数に応じて\n　　 敵から受けるダメージを大きく軽減する。\n④ リンクスロットに装備したチップのクラスボーナスが\n　　 ガンナーかテクターの場合\n　　 敵を撃破した時ＣＰをわずかに回復する。\n⑤ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 190% if the equipped weapon's\n     element is Light, or if it matches the target's\n     elemental weakness.\n<color=yellow>SP: </color>Boosts damage by 200% if the equipped weapon's\n     element is Light, or if it matches the target's\n     elemental weakness.\n     <color=yellow>[H-Frame]</color>\n②  Boosts the effect of ① by 40% x the number of\n     Light chips equipped in boss battles and Extreme\n     Survival quests.\n③  Reduces damage taken from enemies by ??%\n     x the number of Light chips equipped.\n④  Restores ? CP each time an enemy is defeated if\n     the Class Bonus of the chip in this chip's Link Slot is\n     Gunner or Techer.\n⑤  While this chip is equipped, the equip costs of\n     Light PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32440",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の武器の属性が光属性か\n　　 攻撃対象の敵の弱点に有効な属性の場合\n　　 攻撃力を超絶に増加する。\n② ボス戦と極討サバイバルで\n　　 装備中の光属性チップの枚数に応じて\n　　 ①の効果のダメージをさらに超絶に増加する。\n③ 装備中の光属性チップの枚数に応じて\n　　 敵から受けるダメージを大きく軽減する。\n④ リンクスロットに装備したチップのクラスボーナスが\n　　 ガンナーかテクターの場合\n　　 敵を撃破した時ＣＰをわずかに回復する。\n⑤ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 210% if the equipped weapon's\n     element is Light, or if it matches the target's\n     elemental weakness.\n<color=yellow>SP: </color>Boosts damage by 220% if the equipped weapon's\n     element is Light, or if it matches the target's\n     elemental weakness.\n     <color=yellow>[H-Frame]</color>\n②  Boosts the effect of ① by 40% x the number of\n     Light chips equipped in boss battles and Extreme\n     Survival quests.\n③  Reduces damage taken from enemies by ??%\n     x the number of Light chips equipped.\n④  Restores ? CP each time an enemy is defeated if\n     the Class Bonus of the chip in this chip's Link Slot is\n     Gunner or Techer.\n⑤  While this chip is equipped, the equip costs of\n     all PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32441",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
-		"jp_explainLong": "① ダメージを劇的に増加する。\n② 敵からの攻撃を一定確率で回避する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"jp_explainLong": "① 属性によるダメージを劇的に増加する。\n② 敵からの攻撃を一定確率で回避する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
+		"tr_explainLong": "①  Boosts elemental damage by ??%.\n     <color=yellow>[S-Frame]</color>\nGrants a ??% chance to evade damage from\n     enemies.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32442",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
-		"jp_explainLong": "① ダメージを絶大に増加する。\n② 敵からの攻撃を一定確率で回避する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"jp_explainLong": "① 属性によるダメージを絶大に増加する。\n② 敵からの攻撃を一定確率で回避する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
+		"tr_explainLong": "①  Boosts elemental damage by ??%.\n     <color=yellow>[S-Frame]</color>\nGrants a ??% chance to evade damage from\n     enemies.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32443",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の炎・光属性のチップの枚数に応じて\n　　 攻撃力を劇的に増加する。\n② 敵に追加で大ダメージを与える。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by ??% x the number of Fire and\n     Light chips equipped.\n     <color=yellow>[E-Frame?]</color>\n②  Deals an additional ??% damage to enemies.\n     <color=yellow>[Chase]</color>\n③  Speeds up movement and normal attacks by ??%.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32444",
 		"jp_explainShort": "風属性時小増＋双小剣時小増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の炎・光属性のチップの枚数に応じて\n　　 攻撃力を劇的に増加する。\n② 敵に追加で大ダメージを与える。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by ??% x the number of Fire and\n     Light chips equipped.\n     <color=yellow>[E-Frame?]</color>\n②  Deals an additional ??% damage to enemies.\n     <color=yellow>[Chase]</color>\n③  Speeds up movement and normal attacks by ??%.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32447",
@@ -9286,14 +9286,14 @@
 		"jp_explainShort": "弱点属性で攻撃時にダメージ量が増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 闇属性の武器の場合に威力をわずかに増加する。\n② 大剣の場合に攻撃力をわずかに増加する。\n③ 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 20% if equipped with\n     a Dark weapon.\n<color=yellow>SP: </color>Boosts damage by 25% if equipped with\n     a Dark weapon.\n     <color=yellow>[M-Frame]</color>\n②  Boosts damage by 20% if equipped with\n     a Sword.\n<color=yellow>SP: </color>Boosts damage by 25% if equipped with\n     a Sword.\n     <color=yellow>[N-Frame]</color>\n③  Recovers HP by 10% every 6 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "40238",
 		"jp_explainShort": "ＣＰ大回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 闇属性の武器の場合に威力を増加する。\n② 大剣の場合に攻撃力を増加する。\n③ 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 30% if equipped with\n     a Dark weapon.\n<color=yellow>SP: </color>Boosts damage by 35% if equipped with\n     a Dark weapon.\n     <color=yellow>[M-Frame]</color>\n②  Boosts damage by 30% if equipped with\n     a Sword.\n<color=yellow>SP: </color>Boosts damage by 35% if equipped with\n     a Sword.\n     <color=yellow>[N-Frame]</color>\n③  Recovers HP by 10% every 6 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "40239",
@@ -10476,14 +10476,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 炎属性の武器の場合に威力をわずかに増加する。\n② 導具の場合に攻撃力をわずかに増加する。\n③ 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 20% if equipped with\n     a Fire weapon.\n<color=yellow>SP: </color>Boosts damage by 25% if equipped with\n     a Fire weapon.\n     <color=yellow>[M-Frame]</color>\n②  Boosts damage by 20% if equipped with\n     a Talis.\n<color=yellow>SP: </color>Boosts damage by 25% if equipped with\n     a Talis.\n     <color=yellow>[N-Frame]</color>\n③  Recovers HP by 10% every 6 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "40408",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 炎属性の武器の場合に威力を増加する。\n② 導具の場合に攻撃力を増加する。\n③ 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 30% if equipped with\n     a Fire weapon.\n<color=yellow>SP: </color>Boosts damage by 35% if equipped with\n     a Fire weapon.\n     <color=yellow>[M-Frame]</color>\n②  Boosts damage by 30% if equipped with\n     a Talis.\n<color=yellow>SP: </color>Boosts damage by 35% if equipped with\n     a Talis.\n     <color=yellow>[N-Frame]</color>\n③  Recovers HP by 10% every 6 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "40409",
