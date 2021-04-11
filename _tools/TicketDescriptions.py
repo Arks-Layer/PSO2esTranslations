@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser(description = "Translates ticket item descripti
 LANGS = {-1: "JP",
          0: "EN",
          1: "KR",
-		 2: "RU"}
+         2: "RU"}
 # Add more later.
 parser.add_argument("-l", type = int, dest = "lang", action = "store", choices = [0, 1, 2], default = 0, metavar = "N", help = "Set a language to translate into. Available options are 0 (EN), 1 (KR) and 2 (RU). Defaults to EN.")
 # Switch for retranslating all descriptions.
@@ -32,18 +32,18 @@ layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю 
 
 layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".", # Must include itype and iname variables.
                       "사용하면 새로운 {itype}인\n\"{iname}\"\n의 사용이 가능해진다.",
-					  "Разблокирует новую\n{itype}\n\"{iname}\"."]
+                      "Разблокирует новую\n{itype}\n\"{iname}\"."]
 
 layer_sex_locks = {"m": ["\nOnly usable on male characters.",
                          " 남성만 가능.",
-						 "\nТолько для мужских персонажей."],
+                         "\nТолько для мужских персонажей."],
                    "f": ["\nOnly usable on female characters.",
                          " 여성만 가능.",
-						 "\nТолько для женских персонажей."]}
+                         "\nТолько для женских персонажей."]}
 
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
-					 "※При экипировке скрывает In."]
+                     "※При экипировке скрывает In."]
 
 def translate_layer_desc(item, file_name):
     if item["tr_text"] == "": # No name to put in description
@@ -135,18 +135,18 @@ cosmetic_types = {
 
 cosmetic_desc_formats = ["Unlocks the {sexlock}{itype}\n\"{iname}\"\nfor use in the Beauty Salon.",
                          "사용하면 새로운 {sexlock}{itype}\n\"{iname}\"\n의 사용이 가능해진다.",
-						 "Разблок-т {itype} {sexlock}\n\"{iname}\"\nдля использования в салоне."]
+                         "Разблок-т {itype} {sexlock}\n\"{iname}\"\nдля использования в салоне."]
 
 cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для М"],
                       "f": ["female-only ", "여성 전용 ", "только для Ж"]}
 
 cosmetic_size_locks = ["Size cannot be adjusted.",
                        "size_locked_KR",
-					   "Нельзя отрегулировать размер."]
+                       "Нельзя отрегулировать размер."]
 
 no_sticker_desc = ["Unlocks the ability to not display a\nsticker in the Beauty Salon.",
                    "no_sticker_KR",
-				   "Разблокирует возможность\nне отображать стикер в салоне."]
+                   "Разблокирует возможность\nне отображать стикер в салоне."]
 
 def translate_cosmetic_desc(item, file_name):
     if item["tr_text"] == "": # No name to put in description
