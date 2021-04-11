@@ -31,7 +31,7 @@ layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю 
                       "Ou": ["outerwear", "outerwear_KR", "внешнюю одежду (Ou)"]} # This one probably won't be used, but you never know.
 
 layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".", # Must include itype and iname variables.
-                      "사용하면 새로운 {itype}인\n\"{iname}\"\n의 사용이 가능해진다."
+                      "사용하면 새로운 {itype}인\n\"{iname}\"\n의 사용이 가능해진다.",
 					  "Разблокирует новую\n{itype}\n\"{iname}\"."]
 
 layer_sex_locks = {"m": ["\nOnly usable on male characters.",
