@@ -413,7 +413,7 @@ cv_names = {
 # -1: Prefer falling back to JP over any other language
 name_fallbacks = {0: -1,
                   1: -1,
-				  2: 0}
+                  2: 0}
 
 voice_desc_formats = ["Allows a new voice to be selected.",
                       "사용하면 새로운 보이스 사용 가능.",
