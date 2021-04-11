@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser(description = "Translates ticket item descripti
 # Switch for language.
 LANGS = {-1: "JP",
          0: "EN",
-         1: "KR"
+         1: "KR",
 		 2: "RU"}
 # Add more later.
 parser.add_argument("-l", type = int, dest = "lang", action = "store", choices = [0, 1, 2], default = 0, metavar = "N", help = "Set a language to translate into. Available options are 0 (EN) and 1 (KR). Defaults to EN.")
