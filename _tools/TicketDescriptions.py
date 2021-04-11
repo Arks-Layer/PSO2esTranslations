@@ -42,7 +42,7 @@ layer_sex_locks = {"m": ["\nOnly usable on male characters.",
 						 "\nТолько для женских персонажей."]}
 
 layer_hide_inners = ["※Hides innerwear when worn.",
-                     "※착용 시 이너웨어는 표시하지 않음."
+                     "※착용 시 이너웨어는 표시하지 않음.",
 					 "※При экипировке скрывает In."]
 
 def translate_layer_desc(item, file_name):
