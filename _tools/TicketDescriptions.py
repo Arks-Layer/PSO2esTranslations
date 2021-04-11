@@ -417,7 +417,7 @@ name_fallbacks = {0: -1,
 
 voice_desc_formats = ["Allows a new voice to be selected.",
                       "사용하면 새로운 보이스 사용 가능.",
-					  "Позволяет выбрать новый голос."]
+                      "Позволяет выбрать новый голос."]
 
 def translate_voice(item):
     if item["tr_text"] == "": # No name to put in description
@@ -431,25 +431,25 @@ def translate_voice(item):
         restrictions = {
         "hm": ["Non-Cast male characters only.",
                "인간 남성만 사용 가능.",
-			   "Только для М не CAST'ов."],
+               "Только для М не CAST'ов."],
         "hf": ["Non-Cast female characters only.",
                "인간 여성만 사용 가능.",
-			   "Только для Ж не CAST'ов."],
+               "Только для Ж не CAST'ов."],
         "cm": ["Male Casts only.",
                "캐스트 남성만 사용 가능.",
-			   "Только для М CAST'ов."],
+               "Только для М CAST'ов."],
         "cf": ["Female Casts only.",
                "캐스트 여성만 사용 가능.",
-			   "Только для Ж CAST'ов."],
+               "Только для Ж CAST'ов."],
         "am": ["Male characters only (all races).",
                "남성만 사용 가능.",
-			   "Только М персонажей (все расы)."],
+               "Только М персонажей (все расы)."],
         "af": ["Female characters only (all races).",
                "여성만 사용 가능.",
-			   "Только Ж персонажей (все расы)."],
+               "Только Ж персонажей (все расы)."],
         "an": ["Usable by all characters.",
                "모두 사용 가능.",
-			   "Доступно всем персонажам."]}
+               "Доступно всем персонажам."]}
         
         # Detect ticket's race/sex restriction.
         # Default to no restriction.
