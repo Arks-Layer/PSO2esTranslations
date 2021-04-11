@@ -627,7 +627,7 @@
 		"jp_text": "イデアルカレン",
 		"tr_text": "Ideal Karen",
 		"jp_explain": "新開発のフォトンジェネレーターを\n搭載した抜剣。発せられる\nフォトンの輝きは次代の証とされる。",
-		"tr_explain": "A weapon powered by a photon\ngenerator. Its shining photons are\nsaid to be the sign of the next era."
+		"tr_explain": "A weapon powered by a Photon\ngenerator. Its shining Photons are\nsaid to be the sign of the next era."
 	},
 	{
 		"assign": "1140150",
@@ -742,6 +742,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1140189",
+		"jp_text": "ネブロスジフェンド",
+		"tr_text": "Nebulos Fend",
+		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n抜剣。他とは一線を画する強大な威力で\n標的を瞬時に斬り伏せることができる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1140190",
 		"jp_text": "ＨＦＢカマイタチ",
 		"tr_text": "HFB Kamaitachi",
@@ -812,6 +819,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1140213",
+		"jp_text": "サイカインクルシオ",
+		"tr_text": "Saika Inclusio",
+		"jp_explain": "新開発の演算装置を搭載した抜剣。\n極めて高い処理能力を発揮し\n使用者に限界に迫る戦略を示す。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1140215",
 		"jp_text": "イヴリダバゼラ",
 		"tr_text": "Evleda Bazera",
@@ -837,7 +851,7 @@
 		"jp_text": "レイカタナ",
 		"tr_text": "Ray Katana",
 		"jp_explain": "次世代の主力として開発された抜剣。\n基礎モデルの直系の後継機であり\n出力、安定性共に高いスペックを誇る。",
-		"tr_explain": "A Katana developed as the latest\nmodel, boasting high photon stability\nwith next-gen specifications."
+		"tr_explain": "A Katana developed as the latest\nmodel, boasting high Photon stability\nwith next-gen specifications."
 	},
 	{
 		"assign": "1140222",
@@ -893,7 +907,7 @@
 		"jp_text": "カタナ-NT",
 		"tr_text": "Katana-NT",
 		"jp_explain": "アークスで正式採用されている抜剣。\n素速い攻撃、居合い、立ち合いに適した\nシンプルで扱いやすい入門モデル。",
-		"tr_explain": ""
+		"tr_explain": "A Katana adopted by ARKS.\nSuited for quick attacks, this\nbasic model is simple to use."
 	},
 	{
 		"assign": "1140235",
@@ -1110,7 +1124,7 @@
 		"jp_text": "呪斬ガエン",
 		"tr_text": "Cursed Slayer Gaen",
 		"jp_explain": "数多の人を斬ったことで怪異に転じたと\n伝えられている抜剣。美しい刀だったが\n怪異化した際に形状も変化したという。",
-		"tr_explain": ""
+		"tr_explain": "A katana that changed after cutting\ndown many people. Said to have been\na beautiful weapon once upon a time."
 	},
 	{
 		"assign": "1140287",
@@ -1145,21 +1159,21 @@
 		"jp_text": "バルバルア",
 		"tr_text": "Val Varua",
 		"jp_explain": "過去に戦場となった地域から発掘された\n抜剣。剣と盾共に損傷しており、激しい\n戦いの中で破損したことが伺える。",
-		"tr_explain": ""
+		"tr_explain": "A katana excavated from an old\nbattlefield. Both sword and shield\nhave been damaged in a fierce battle."
 	},
 	{
 		"assign": "1140294",
 		"jp_text": "アトラバルア",
 		"tr_text": "Atlas Varua",
 		"jp_explain": "過去に戦場となった地域から発掘された\n抜剣。困難と思われた刀身の修復も\n無事行われ、本来の姿を取り戻した。",
-		"tr_explain": ""
+		"tr_explain": "A katana excavated from an old\nbattlefield. Though difficult, the blade\nhas been restored to its original state."
 	},
 	{
 		"assign": "1140295",
 		"jp_text": "アトラバルア・イクス",
 		"tr_text": "Atlas Varua Ex",
 		"jp_explain": "過去に戦場となった地域から発掘された\n抜剣。碧羅の如き緑の光は目を醒ました。\nその光は戦いの中で輝きを発する。",
-		"tr_explain": ""
+		"tr_explain": "A katana excavated from an old\nbattlefield. With its power awakened,\na green light shines from it in battle."
 	},
 	{
 		"assign": "1140296",
@@ -1187,7 +1201,7 @@
 		"jp_text": "アギト-NT",
 		"tr_text": "Agito-NT",
 		"jp_explain": "刀身が完全に錆び付いてしまった抜剣。\n名刀オロチアギト誕生以降、\n数多く打たれた習作のうちの一つ。",
-		"tr_explain": ""
+		"tr_explain": "A katana whose blade has completely\nrusted. This is but one of many\nreplicas of the legendary Orochiagito."
 	},
 	{
 		"assign": "1140314",
@@ -1199,7 +1213,7 @@
 	{
 		"assign": "1140315",
 		"jp_text": "ニーケジンラン",
-		"tr_text": "Nieke Jinran",
+		"tr_text": "Nike Jinran",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った抜剣。前後に乱れ咲く刃が\n勝利に向けて標的を無惨に斬り裂く。",
 		"tr_explain": ""
 	},
@@ -1292,21 +1306,21 @@
 		"jp_text": "深遠刀フロラシオン",
 		"tr_text": "Profound Floraxion",
 		"jp_explain": "終わりなき物語を辿る者の絶望により\n生み出された抜剣。まとわりつく闇に\n刃は蝕まれ、禍々しい怨恨を宿す。",
-		"tr_explain": ""
+		"tr_explain": "A katana born of endless despair.\nThe darkness clinging to the blade has\ncaused it to bear a terrible grudge."
 	},
 	{
 		"assign": "1140335",
 		"jp_text": "星震刀フロラシオン",
 		"tr_text": "Celestial Floraxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した抜剣。篤き信念は暗雲を穿つ\n一条の光となり、奈落の闇を斬り払う。",
-		"tr_explain": ""
+		"tr_explain": "A katana touched by a time traveller's\nheart. Its beliefs become a ray of light\nthat slashes through clouds of dark."
 	},
 	{
 		"assign": "1140336",
 		"jp_text": "光跡刀フロラシオン",
 		"tr_text": "Lightstream Floraxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ抜剣。冴え渡った刃の閃光に\n一片の迷いはなく、希望の道を示す。",
-		"tr_explain": ""
+		"tr_explain": "A katana that links the stars, bonded\nto a time traveller. Its unhesitating\nblade guides the way to hope."
 	},
 	{
 		"assign": "1140338",
@@ -1330,6 +1344,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1140360",
+		"jp_text": "光纏刀クラースサーベル",
+		"tr_text": "Lightweaver Cras Saber",
+		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った抜剣。\nその剣閃が、明日を勝ち取る。",
+		"tr_explain": "A katana that wove the light that\nvanquished darkness. By its shining\nblade, tomorrow is won."
+	},
+	{
 		"assign": "1140361",
 		"jp_text": "スケイスズミ-NT",
 		"tr_text": "Sukei Suzumi-NT",
@@ -1351,10 +1372,45 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1140364",
+		"jp_text": "セイロスミゼリ",
+		"tr_text": "Seiros Misery",
+		"jp_explain": "闇に飲まれた魂が宿るとされる抜剣。\n冷たい雰囲気を放つ刃は\n慈悲なく敵を切り刻む。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1140372",
 		"jp_text": "オロチアギト-NT",
 		"tr_text": "Orochiagito-NT",
 		"jp_explain": "稀代の名匠ドウセツが鍛えし伝説の抜剣。\nその刀身は幾星霜を経てもなお衰えず、\nもはや芸術の域に達している。",
+		"tr_explain": "A katana forged by the master\ncraftsman Dosetsu. Despite its long\nhistory, its blade has never worn out."
+	},
+	{
+		"assign": "1140384",
+		"jp_text": "￥黒十字ＰｈデモニアＫＣＶ２",
+		"tr_text": "",
+		"jp_explain": "￥黒十字ＰｈデモニアＫＣＶ２",
 		"tr_explain": ""
+	},
+	{
+		"assign": "1140385",
+		"jp_text": "フルクシオマージュ",
+		"tr_text": "Fluxio Maj",
+		"jp_explain": "流線美と機能性を備え持つ抜剣。\n三日月のように麗しいフォルムだが\n瞬時に敵の深部まで抉る威力は本物。",
+		"tr_explain": "A beautifully sleek katana whose form\nis as lovely as a crescent moon, but\nwhich possesses genuine power."
+	},
+	{
+		"assign": "1140386",
+		"jp_text": "リンザーマージュ",
+		"tr_text": "Rinza Maj",
+		"jp_explain": "流線美と機能性を備え持つ抜剣。\n活性化されたフォトンを振動させ\n標的を瞬時に両断する。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1140387",
+		"jp_text": "闇征刀アジェルサーベル",
+		"tr_text": "Darkbanisher Ayer Saber",
+		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた抜剣。\n輪廻を断ち切る願いに満ちている。",
+		"tr_explain": "A katana that will give up anything\nto protect the universe. It wishes\nto bring an end to death and rebirth."
 	}
 ]

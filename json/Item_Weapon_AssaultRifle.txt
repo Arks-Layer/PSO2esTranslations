@@ -375,7 +375,7 @@
 		"jp_text": "スプレッドニードル",
 		"tr_text": "Spread Needle",
 		"jp_explain": "敵に向け無数のハリを発射する特殊長銃。\n弾に比べて一発の威力は劣るが\n収束したハリは桁違いの破壊力を誇る。",
-		"tr_explain": "A Rifle that shoots countless needles.\nThey are inferior to bullets, but when\nfocused, they unleash destruction."
+		"tr_explain": "A rifle that fires countless needles.\nThey are inferior to bullets, but when\nfocused, they unleash destruction."
 	},
 	{
 		"assign": "18061",
@@ -450,7 +450,7 @@
 	{
 		"assign": "18075",
 		"jp_text": "シルバ専用Ａライザー",
-		"tr_text": "Silvia's A. Riser",
+		"tr_text": "Silva's A. Riser",
 		"jp_explain": "仮テキスト",
 		"tr_explain": ""
 	},
@@ -725,7 +725,7 @@
 		"jp_text": "ヤスミノコフ５０００Ｓ",
 		"tr_text": "Yasminkov 5000S",
 		"jp_explain": "狙撃目的に開発されたヤスミノコフ型\n最新式の長銃。開発コストが原因で\n生産数が少なく、貴重な一品。",
-		"tr_explain": ""
+		"tr_explain": "A state-of-the-art Yasminkov sniper\nrifle. Due to high development costs,\nonly a small number were produced."
 	},
 	{
 		"assign": "180172",
@@ -739,7 +739,7 @@
 		"jp_text": "イデアルラルク",
 		"tr_text": "Ideal Larc",
 		"jp_explain": "新開発のフォトンジェネレーターを\n搭載した長銃。発せられる\nフォトンの輝きは次代の証とされる。",
-		"tr_explain": "A weapon powered by a photon\ngenerator. Its shining photons are\nsaid to be the sign of the next era."
+		"tr_explain": "A weapon powered by a Photon\ngenerator. Its shining Photons are\nsaid to be the sign of the next era."
 	},
 	{
 		"assign": "180174",
@@ -774,7 +774,7 @@
 		"jp_text": "アストラルライザー",
 		"tr_text": "Astral Riser",
 		"jp_explain": "大気中のフォトンを銃身に収束させ\n固定化する機構を持つ長銃。\nその威力は空間をも歪ませる。",
-		"tr_explain": "A rifle built with a mechanism that\ngathers photons within its barrel. Its\npower warps time and space."
+		"tr_explain": "A rifle built with a mechanism that\ngathers Photons within its barrel. Its\npower warps time and space."
 	},
 	{
 		"assign": "180192",
@@ -875,6 +875,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "180213",
+		"jp_text": "ネブロスヘレース",
+		"tr_text": "Nebulos Heres",
+		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n長銃。精密射撃に長けており、技量を\n問わずに高い威力を発揮できる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "180214",
 		"jp_text": "ヴィランツアクター",
 		"tr_text": "Vilantz Actor",
@@ -884,9 +891,9 @@
 	{
 		"assign": "180215",
 		"jp_text": "Ｄ－Ａ．Ｉ．Ｓバルカン",
-		"tr_text": "D-A.I.S Vulcan",
+		"tr_text": "D-A.I.S. Vulcan",
 		"jp_explain": "Ａ．Ｉ．Ｓの「ソリッドバルカン」を\nアークス向けに小型化した長銃。\n侵入者を決して許さず全てを制圧する。",
-		"tr_explain": "A.I.S.'Solid Vulcan'\nfor ARKS use. Subdue\nthe intrusion at all costs."
+		"tr_explain": "A miniaturized version of the A.I.S.\nAssault Rifle, the \"Solid Vulcan\".\nSubdue all intruders who try to enter."
 	},
 	{
 		"assign": "180216",
@@ -900,7 +907,7 @@
 		"jp_text": "アストラルライザー-NT",
 		"tr_text": "Astral Riser-NT",
 		"jp_explain": "大気中のフォトンを銃身に収束させ\n固定化する機構を持つ長銃。\nその威力は空間をも歪ませる。",
-		"tr_explain": "A rifle built with a mechanism that\ngathers photons within its barrel. Its\npower warps time and space."
+		"tr_explain": "A rifle built with a mechanism that\ngathers Photons within its barrel. Its\npower warps time and space."
 	},
 	{
 		"assign": "180218",
@@ -928,6 +935,13 @@
 		"jp_text": "ショットドミナシオ",
 		"tr_text": "Shot Dominacio",
 		"jp_explain": "新開発の演算装置を搭載した長銃。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "180227",
+		"jp_text": "ショットインクルシオ",
+		"tr_text": "Shot Inclusio",
+		"jp_explain": "新開発の演算装置を搭載した長銃。\nこれまでの処理能力の限界を突破し\n目を見張る威力と操作性を実現した。",
 		"tr_explain": ""
 	},
 	{
@@ -991,7 +1005,7 @@
 		"jp_text": "レイライフル",
 		"tr_text": "Ray Rifle",
 		"jp_explain": "次世代の主力として開発された長銃。\n基礎モデルの直系の後継機であり\n出力、安定性共に高いスペックを誇る。",
-		"tr_explain": "A Rifle developed as the latest\nmodel, boasting high photon stability\nwith next-gen specifications."
+		"tr_explain": "A Rifle developed as the latest\nmodel, boasting high Photon stability\nwith next-gen specifications."
 	},
 	{
 		"assign": "180243",
@@ -1271,21 +1285,21 @@
 		"jp_text": "バルドラッヘ",
 		"tr_text": "Val Drache",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長銃。銃身をはじめとするパーツは\n傷だらけだが辛うじて使用出来る。",
-		"tr_explain": ""
+		"tr_explain": "An assault rifle excavated from an\nold battlefield. Many parts, including\nthe barrel, are too damaged to use."
 	},
 	{
 		"assign": "180303",
 		"jp_text": "アトラドラッヘ",
 		"tr_text": "Atlas Drache",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長銃。研究が進んだことにより\n破損前の状態に修復された。",
-		"tr_explain": ""
+		"tr_explain": "An assault rifle excavated from an\nold battlefield. With new research, it\nhas been restored to its original state."
 	},
 	{
 		"assign": "180304",
 		"jp_text": "アトラドラッヘ・イクス",
 		"tr_text": "Atlas Drache Ex",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長銃。眼のような宝石はフォトンを\n吸収し、真なる力を取り戻した。",
-		"tr_explain": ""
+		"tr_explain": "An assault rifle excavated from an\nold battlefield. Its gems have absorbed\nPhotons, restoring its true power."
 	},
 	{
 		"assign": "180306",
@@ -1299,7 +1313,7 @@
 		"jp_text": "ゲノンザバーハ",
 		"tr_text": "Genon Zabalah",
 		"jp_explain": "得体の知れない生物の細胞が利用された\n長銃。この武器が秘める危険性を察した\n技術者の手によって封印されていた。",
-		"tr_explain": ""
+		"tr_explain": "Rifle made using cells from an unknown\norganism. Sealed away by a technician\nwho saw the danger it possessed."
 	},
 	{
 		"assign": "180309",
@@ -1374,8 +1388,8 @@
 	{
 		"assign": "180328",
 		"jp_text": "ニーケラクエウス",
-		"tr_text": "Nieke Laqueus",
-		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った長銃。フォトン刃と干渉した\n銃弾は、標的を確実に貫き勝利を奪う。",
+		"tr_text": "Nike Laqueus",
+		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った長銃。フォトンで加速された\n銃弾は、標的を確実に穿つ。",
 		"tr_explain": ""
 	},
 	{
@@ -1432,28 +1446,28 @@
 		"jp_text": "オフスティアシューター-NT",
 		"tr_text": "Austere Shooter-NT",
 		"jp_explain": "負の力を識り、制することで転化した\n浄化の長銃。もたらされた動じない\n精神は、苦境を打開する力となる。",
-		"tr_explain": ""
+		"tr_explain": "A purified Assault Rifle. Its force\ncan overcome any obstacle with\nits undaunted spirit."
 	},
 	{
 		"assign": "180349",
 		"jp_text": "深遠銃アンビシオン",
 		"tr_text": "Profound Ambixion",
 		"jp_explain": "終わりなき物語を辿る者の絶望により\n生み出された長銃。大志は失い消え去り\n底なしの闇は、負の弾丸へ成り果てる。",
-		"tr_explain": ""
+		"tr_explain": "A rifle born of endless despair. Losing\nits ambition has filled it with bottomless\ndarkness, turning its bullets negative."
 	},
 	{
 		"assign": "180350",
 		"jp_text": "星震銃アンビシオン",
 		"tr_text": "Celestial Ambixion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した長銃。不純なき大志は\n絶望を撃ち抜き、闇を撃つ光弾となる。",
-		"tr_explain": ""
+		"tr_explain": "A rifle touched by a time traveller's\nheart. Its ambitions become celestial\nbullets that pierce through despair."
 	},
 	{
 		"assign": "180351",
 		"jp_text": "光跡銃アンビシオン",
 		"tr_text": "Lightstream Ambixion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ長銃。輝きと想いの結晶は\n希望の弾となり、望む未来を引き寄せる。",
-		"tr_explain": ""
+		"tr_explain": "A rifle that links the stars, bonded to\na time traveller. Its feelings become\nbullets of hope that call to the future."
 	},
 	{
 		"assign": "180356",
@@ -1540,11 +1554,25 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "180385",
+		"jp_text": "サテライトスターマイン",
+		"tr_text": "Satellite Starmine",
+		"jp_explain": "ロストテクノロジーと最新技術の融合で\n生み出された局地戦用長銃。ロックの\n解除で、惑星破壊相当の砲撃が可能。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "180388",
 		"jp_text": "アナカテスフォンテ",
 		"tr_text": "Anacates Fonte",
 		"jp_explain": "フォトン結晶における美しい透明感の\n極致を求めて開発された長銃。\n光に揺れる繊細な青に心を奪われる。",
 		"tr_explain": ""
+	},
+	{
+		"assign": "180390",
+		"jp_text": "光纏銃クラースアサルト",
+		"tr_text": "Lightweaver Cras Assault",
+		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った長銃。\nその狙撃が、進む道を生み出す。",
+		"tr_explain": "An assault rifle that wove the light\nthat vanquished darkness. From its\nshots, a path forward is created."
 	},
 	{
 		"assign": "180391",
@@ -1561,10 +1589,52 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "180393",
+		"jp_text": "セイロスカーヴィン",
+		"tr_text": "Seiros Carbine",
+		"jp_explain": "闇に飲まれた魂が宿るとされる長銃。\n怨嗟をこめた弾は、敵に計り知れない\n恐怖を植えつけるといわれている。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "180402",
 		"jp_text": "フローズンシューター-NT",
 		"tr_text": "Frozen Shooter-NT",
 		"jp_explain": "気化冷却を利用した冷凍弾を放つ長銃。\n自身の凍結能力が高すぎて、使用者まで\n凍らせてしまうという報告すらある。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "180407",
+		"jp_text": "￥黒十字ＰｈデモニアＡＲＣＶ２",
+		"tr_text": "",
+		"jp_explain": "￥黒十字ＰｈデモニアＡＲＣＶ２",
+		"tr_explain": ""
+	},
+	{
+		"assign": "180408",
+		"jp_text": "フルクシオテンゲル",
+		"tr_text": "Fluxio Tenger",
+		"jp_explain": "流線美と機能性を備え持つ長銃。\n高精度ＡＩが過去の戦闘データを蓄積し\n最適な攻撃パターンを提示してくれる。",
+		"tr_explain": "A beautifully sleek assault rifle whose\nhigh-performance AI uses past data to\ndetermine the optimal attack pattern."
+	},
+	{
+		"assign": "180409",
+		"jp_text": "リンザーテンゲル",
+		"tr_text": "Rinza Tenger",
+		"jp_explain": "流線美と機能性を備え持つ長銃。\n高精度ＡＩがフォトン射出を補助し\n命中精度を底上げした。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "180410",
+		"jp_text": "闇征銃アジェルアサルト",
+		"tr_text": "Darkbanisher Ayer Assault",
+		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた長銃。\n運命の回廊にも希望を見いだす。",
+		"tr_explain": "An assault rifle that will give up\nanything to protect the universe. It\nseeks hope amid the corridors of fate."
+	},
+	{
+		"assign": "180420",
+		"jp_text": "対アンドロイドライフル-NT",
+		"tr_text": "Anti Android Rifle-NT",
+		"jp_explain": "別系統のライフルを基に改良した長銃。\n一流の技術者、科学者の協力の下\n改良が施されたため、非常に高性能。",
 		"tr_explain": ""
 	}
 ]

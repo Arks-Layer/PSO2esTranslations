@@ -39,7 +39,7 @@
 		"jp_text": "ヴィタグリッパー",
 		"tr_text": "Vita Gripper",
 		"jp_explain": "基礎モデルに更なる改良を加えた大砲。\nフォトン含有量の増加により、攻撃力に\n加えて耐久性が著しく向上した。",
-		"tr_explain": "A launcher that further improves on\nthe base model. Increased photon\nyield improves power and durability."
+		"tr_explain": "A launcher that further improves on\nthe base model. Increased Photon\nyield improves power and durability."
 	},
 	{
 		"assign": "1906",
@@ -137,7 +137,7 @@
 		"jp_text": "ディオアドラステア",
 		"tr_text": "Dio Adrastea",
 		"jp_explain": "威力増強に重点を置いた大砲。\nさらなる威力を追求した徹底改良の末\n作成されたひとつの答え。",
-		"tr_explain": ""
+		"tr_explain": "A launcher made with an emphasis on\nincreasing power. The result of great\nefforts to create a more powerful gun."
 	},
 	{
 		"assign": "19020",
@@ -235,28 +235,28 @@
 		"jp_text": "ブラングレネード",
 		"tr_text": "Blanc Grenade",
 		"jp_explain": "フォトンの出力が非常に高い大砲。\nサイズの大きさに反して扱いやすい\n全クラス装備可能な、特殊な武器。",
-		"tr_explain": "A launcher with high photon output.\nEasy to handle despite its size, so\ncan be equipped by all classes."
+		"tr_explain": "A launcher with high Photon output.\nEasy to handle despite its size, so\ncan be equipped by all classes."
 	},
 	{
 		"assign": "19036",
 		"jp_text": "ボマーノワール",
 		"tr_text": "Bomber Noir",
 		"jp_explain": "フォトンの出力が非常に高い大砲。\n漆黒の砲身から破壊の渦を巻き起こす。\n全クラス装備可能な、特殊な武器。",
-		"tr_explain": "A launcher with high photon output.\nThis jet-black gun creates a vortex\nof destruction. All classes can equip."
+		"tr_explain": "A launcher with high Photon output.\nThis jet-black gun creates a vortex\nof destruction. All classes can equip."
 	},
 	{
 		"assign": "19037",
 		"jp_text": "パンツァーファースト",
 		"tr_text": "Panzer Faust",
 		"jp_explain": "強力なロケット弾を発射する大砲。\nスピード、攻撃力、パーツ量と\nどれを取っても高いクオリティを持つ。",
-		"tr_explain": ""
+		"tr_explain": "A launcher that fires powerful rockets.\nIts speed, power and number of parts\nmake it a high-quality weapon."
 	},
 	{
 		"assign": "19038",
 		"jp_text": "フォトンランチャー",
 		"tr_text": "Photon Launcher",
 		"jp_explain": "高圧縮のフォトン弾を発射する大砲。\n集束されたフォトンは巨大な岩石すら\n容易に破壊する威力を持つ。",
-		"tr_explain": "A launcher that fires condensed\nphoton bullets with enough power\nto easily shatter large boulders."
+		"tr_explain": "A launcher that fires condensed\nPhoton bullets with enough power\nto easily shatter large boulders."
 	},
 	{
 		"assign": "19039",
@@ -585,7 +585,7 @@
 		"jp_text": "クリムゾンバンカー",
 		"tr_text": "Crimson Bunker",
 		"jp_explain": "類い希なる威力を追い求めて作られた\n大砲。結果、各種パーツの巨大化は\n防げなかったが、劇的な威力も得た。",
-		"tr_explain": "A launcher built for unparalled power.\nThe result was an unwieldly weapon,\nbut an incredibly powerful one."
+		"tr_explain": "A launcher built for unparalleled\npower. The result was an unwieldly\nbut incredibly powerful weapon."
 	},
 	{
 		"assign": "190121",
@@ -788,7 +788,7 @@
 		"jp_text": "イデアルプロウド",
 		"tr_text": "Ideal Proud",
 		"jp_explain": "新開発のフォトンジェネレーターを\n搭載した大砲。発せられる\nフォトンの輝きは次代の証とされる。",
-		"tr_explain": "A weapon powered by a photon\ngenerator. Its shining photons are\nsaid to be the sign of the next era."
+		"tr_explain": "A weapon powered by a Photon\ngenerator. Its shining Photons are\nsaid to be the sign of the next era."
 	},
 	{
 		"assign": "190187",
@@ -896,6 +896,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "190219",
+		"jp_text": "ネブロスプログナー",
+		"tr_text": "Nebulos Progener",
+		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n大砲。圧倒的な火力を誇っており\n堅牢性の高さと相まって人気の品。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "190220",
 		"jp_text": "ヴィトルオービット",
 		"tr_text": "Vitol Orbit",
@@ -933,9 +940,9 @@
 	{
 		"assign": "190228",
 		"jp_text": "Ｄ－Ａ．Ｉ．Ｓブラスター",
-		"tr_text": "D-A.I.S Blaster",
+		"tr_text": "D-A.I.S. Blaster",
 		"jp_explain": "Ａ．Ｉ．Ｓの「フォトンブラスター」を\nアークス向けに小型化した大砲。\n襲来する外敵全てを捕捉し爆破する。",
-		"tr_explain": "A.I.S \"Photon Blaster\" converted into\na portable launcher for ARKS use.\nIt blasts the enemy invasion away."
+		"tr_explain": "A miniaturized version of the A.I.S.\nLauncher, the \"Photon Blaster\". The\nenemy invasion will be blasted away."
 	},
 	{
 		"assign": "190231",
@@ -963,6 +970,13 @@
 		"jp_text": "キャノンドミナシオ",
 		"tr_text": "Cannon Dominacio",
 		"jp_explain": "新開発の演算装置を搭載した大砲。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "190240",
+		"jp_text": "キャノンインクルシオ",
+		"tr_text": "Cannon Inclusio",
+		"jp_explain": "新開発の演算装置を搭載した大砲。\n圧倒的に処理能力が突出しており\n戦闘を最大限にサポートする。",
 		"tr_explain": ""
 	},
 	{
@@ -1019,7 +1033,7 @@
 		"jp_text": "レイランチャー",
 		"tr_text": "Ray Launcher",
 		"jp_explain": "次世代の主力として開発された大砲。\n基礎モデルの直系の後継機であり\n出力、安定性共に高いスペックを誇る。",
-		"tr_explain": "A launcher developed as the latest\nmodel, boasting high photon stability\nwith next-gen specifications."
+		"tr_explain": "A launcher developed as the latest\nmodel, boasting high Photon stability\nwith next-gen specifications."
 	},
 	{
 		"assign": "190255",
@@ -1241,7 +1255,7 @@
 	{
 		"assign": "190299",
 		"jp_text": "オークドハテッド",
-		"tr_text": "Orc Hearted",
+		"tr_text": "Orc Dhearted",
 		"jp_explain": "魔物種の身体組織の一部を再利用し\n作られた大砲。放たれる強烈な弾丸は\n拳のごとく、敵を粉砕する。",
 		"tr_explain": "A launcher built using parts of a\nDemon's body. Fires powerful bullets\nthat smash the enemy like a fist."
 	},
@@ -1292,7 +1306,7 @@
 		"jp_text": "アトラボラーレ・イクス",
 		"tr_text": "Atlas Volare Ex",
 		"jp_explain": "過去に戦場となった地域から発掘された\n大砲。青き宝石が目覚めた真の姿。\n渦巻くようなフォトンの砲撃を放つ。",
-		"tr_explain": ""
+		"tr_explain": "A launcher excavated from an old\nbattlefield. Its true power awakened,\nit fires swirling Photon bombardments."
 	},
 	{
 		"assign": "190316",
@@ -1318,7 +1332,7 @@
 	{
 		"assign": "190319",
 		"jp_text": "ニーケランチャー",
-		"tr_text": "Nieke Launcher",
+		"tr_text": "Nike Launcher",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った大砲。予備エネルギーを備え\n高出力の砲撃で勝利を射抜く。",
 		"tr_explain": ""
 	},
@@ -1397,21 +1411,21 @@
 		"jp_text": "深遠砲バシラシオン",
 		"tr_text": "Profound Vacillaxion",
 		"jp_explain": "終わりなき物語を辿る者の絶望により\n生み出された大砲。凄絶な闇の呻きが\n弾丸に込められ、僅かな光も呑み込む。",
-		"tr_explain": ""
+		"tr_explain": "A launcher born of endless despair.\nIts shots carry a terrible darkness\nthat will swallow every mote of light."
 	},
 	{
 		"assign": "190347",
 		"jp_text": "星震砲バシラシオン",
 		"tr_text": "Celestial Vacillaxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した大砲。無垢なる想いを授かった\nその弾丸は、闇のささやきを撃ち砕く。",
-		"tr_explain": ""
+		"tr_explain": "A launcher touched by a time\ntraveller's heart. Its shots' feelings\nblast away every whisper of darkness."
 	},
 	{
 		"assign": "190348",
 		"jp_text": "光跡砲バシラシオン",
 		"tr_text": "Lightstream Vacillaxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ大砲。研ぎ澄まされた意思は\n弾丸に結晶し、信じる未来へと導く。",
-		"tr_explain": ""
+		"tr_explain": "A launcher that links the stars, bonded\nto a time traveller. Its will-powered\nshots lead to the future you believe in."
 	},
 	{
 		"assign": "190350",
@@ -1449,6 +1463,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "190361",
+		"jp_text": "オブリアンスフェルサ",
+		"tr_text": "Oblivion Fuerza",
+		"jp_explain": "高圧化フォトン気流の噴出力を利用し\n瞬時に変形する大砲。圧倒的な\n軽量でありながら、満足の高火力。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "190364",
 		"jp_text": "ディムランチャー",
 		"tr_text": "Dim Launcher",
@@ -1460,14 +1481,14 @@
 		"jp_text": "クラフトプロジオン-NT",
 		"tr_text": "Craft Plosion-NT",
 		"jp_explain": "遺跡に残されていたデータを基に\n再現された大砲。",
-		"tr_explain": ""
+		"tr_explain": "A reproduction launcher based on\ndata left at the Ruins. A special\nweapon equippable by all classes."
 	},
 	{
 		"assign": "190369",
 		"jp_text": "コンバットカノン",
 		"tr_text": "Combat Cannon",
 		"jp_explain": "最新鋭の技術で製造された軍用大砲。\nフォトン粒子を加速させ撃ち出す砲撃は\n貫通力に長けている。",
-		"tr_explain": ""
+		"tr_explain": "A military cannon built with the latest\ntechnology. Its accelerated projectiles\nhave very high penetrating power."
 	},
 	{
 		"assign": "190370",
@@ -1481,13 +1502,41 @@
 		"jp_text": "フレイムビジット-NT",
 		"tr_text": "Flame Visit-NT",
 		"jp_explain": "巨大火球を放ち、敵を焼き尽くす大砲。\n高名なレンジャーが生涯の友として\n選んだという逸話が残っている。",
-		"tr_explain": ""
+		"tr_explain": "A launcher that shoots giant fireballs.\nSupposedly, a renowned Ranger once\nchose one as their lifelong companion."
+	},
+	{
+		"assign": "190375",
+		"jp_text": "光纏砲クラースカノン",
+		"tr_text": "Lightweaver Cras Cannon",
+		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った大砲。\nその砲撃が、未来への壁を崩す。",
+		"tr_explain": "A launcher that wove the light that\nvanquished darkness. By its shells, the\nbarrier to the future is demolished."
 	},
 	{
 		"assign": "190379",
 		"jp_text": "ヴィトルオービット-NT",
 		"tr_text": "Vitol Orbit-NT",
 		"jp_explain": "新開発のフォトンリング機構を搭載した\n大砲。展開された部品が合体し\n闇を葬る破壊の光を打ち出す。",
+		"tr_explain": "A launcher with a Photon Ring\nDevice. Its expanded parts form a\nburst of light that buries darkness."
+	},
+	{
+		"assign": "190391",
+		"jp_text": "フルクシオウルダ",
+		"tr_text": "Fluxio Urda",
+		"jp_explain": "流線美と機能性を備え持つ大砲。\n砲身を包む薄くて精巧な刃から\n最効率でフォトンを吸収する。",
+		"tr_explain": "A beautifully sleek launcher whose\nbarrel is wrapped in a delicate blade\nthat maximizes its Photon absorption."
+	},
+	{
+		"assign": "190392",
+		"jp_text": "リンザーウルダ",
+		"tr_text": "Rinza Urda",
+		"jp_explain": "流線美と機能性を備え持つ大砲。\nフォトンの吸収効率が高く、敵に\n猛烈な砲火を浴びせることが可能。",
 		"tr_explain": ""
+	},
+	{
+		"assign": "190393",
+		"jp_text": "闇征砲アジェルカノン",
+		"tr_text": "Darkbanisher Ayer Cannon",
+		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた大砲。\n幾重の闇の中でも光を見失わない。",
+		"tr_explain": "A launcher that will give up anything\nto protect the universe. In darkness,\nit will never lose sight of the light."
 	}
 ]

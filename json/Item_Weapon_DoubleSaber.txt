@@ -193,7 +193,7 @@
 		"jp_text": "ダブルセイバーレガシー",
 		"tr_text": "Double Saber Legacy",
 		"jp_explain": "高い性能を持った両剣。\n柄の両端に純フォトンの刃を持つ。\n全クラス装備可能な、特殊な武器。",
-		"tr_explain": ""
+		"tr_explain": "A high-performance Double Saber.\nBoth blades are made of pure Photons.\nCan be equipped by all classes."
 	},
 	{
 		"assign": "15028",
@@ -410,7 +410,7 @@
 		"jp_text": "エンシェントクォーツ",
 		"tr_text": "Ancient Quartz",
 		"jp_explain": "式典用に特別に作られた見た目にも\nこだわりのある両剣。類稀なる破壊力を\n秘め存在が危険視されている。",
-		"tr_explain": ""
+		"tr_explain": "A unique Double Saber specially made\nfor ceremonies. Seen as dangerous\ndue to its high destructive power."
 	},
 	{
 		"assign": "15066",
@@ -592,7 +592,7 @@
 		"jp_text": "トラムナール",
 		"tr_text": "Tramunal",
 		"jp_explain": "夢を振りまくために開発された両剣。\n細身のフォルムをしているが抜刀すると\n幅広なフォトン刃が解放される。",
-		"tr_explain": "A weapon that was developed to\nspread dreams. It has a slender form,\nwhich releases photons when drawn."
+		"tr_explain": "A weapon that was developed to\nspread dreams. It has a slender form,\nwhich releases Photons when drawn."
 	},
 	{
 		"assign": "150114",
@@ -627,7 +627,7 @@
 		"jp_text": "フロウジル",
 		"tr_text": "Flowzil",
 		"jp_explain": "惑星ウォパルで調達可能な物資のみで\n製造された両剣。流水に似たフォトンで\n覆われており、斬撃に合わせ追尾する。",
-		"tr_explain": "Made from items that are unique to\nWopal. It's coated in photons that\nmimic flowing water every swing."
+		"tr_explain": "Made from items that are unique to\nWopal. It's coated in Photons that\nmimic flowing water every swing."
 	},
 	{
 		"assign": "150127",
@@ -669,14 +669,14 @@
 		"jp_text": "コートダブリスＤ",
 		"tr_text": "Coat Doublis D",
 		"jp_explain": "スタンダードなフォルムの両剣。\n黒く禍々しいフォトンコートが\n刀身を包み、比類なき力を発揮する。",
-		"tr_explain": ""
+		"tr_explain": "A standard design of Double Saber.\nA thin coating of negaphotons gives\nit unrivalled attack power."
 	},
 	{
 		"assign": "150136",
 		"jp_text": "コートダブリス",
 		"tr_text": "Coat Doublis",
 		"jp_explain": "スタンダードなフォルムの両剣。\n薄いフォトンコートが刀身を包むことで\n実体剣以上の威力を発揮する。",
-		"tr_explain": ""
+		"tr_explain": "A standard design of Double Saber.\nA thin coating of Photons\ngives it high attack power."
 	},
 	{
 		"assign": "150137",
@@ -774,14 +774,14 @@
 		"jp_text": "ゲイルヴィスナー",
 		"tr_text": "Gale Vishner",
 		"jp_explain": "大気の力を宿すといわれる両剣。\n澄んだガラスのような姿は美麗だが\nまとった風雷の力は凄まじく強い。",
-		"tr_explain": "A Double Saber said to posses\nthe power of the wind and air.\nPowerful gusts cover its glass look."
+		"tr_explain": "A Double Saber bearing the power of\nthe winds. Despite its glass-like beauty,\nit has an immense, stormy power."
 	},
 	{
 		"assign": "150176",
 		"jp_text": "ゲイルフェブリス",
 		"tr_text": "Gale Febris",
 		"jp_explain": "大気の力を宿すといわれる両剣。\n夜闇のような刀身と赤い雷は禍々しく\n圧倒的な威力をもって敵を倒す。",
-		"tr_explain": "A Double Saber that contains\nthe power of the Wind. Its user\nis overwhelmed by a thirst for killing."
+		"tr_explain": "A Double Saber bearing the power\nof the winds. Its dark, thunderous\nblades overwhelm the enemy."
 	},
 	{
 		"assign": "150185",
@@ -809,6 +809,13 @@
 		"jp_text": "バジリスイクジリオン",
 		"tr_text": "Basilis Equilion",
 		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n両剣。複雑な形状をした刃を持つ。\n軽量ながらも高威力で、性能は良い。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "150191",
+		"jp_text": "ネブロスイクジリオン",
+		"tr_text": "Nebulos Equilion",
+		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n両剣。複雑な形状をした鋭刃は凄まじく\nその一撃は非常に重く、致命傷となる。",
 		"tr_explain": ""
 	},
 	{
@@ -851,7 +858,7 @@
 		"jp_text": "セイガーブレード",
 		"tr_text": "Seiga Blade",
 		"jp_explain": "世界征服を企む悪の組織と戦うために\n作られた両剣。セイガーサーベルの\nジョイントを接続することで変形する！",
-		"tr_explain": "A Double Saber designed to\nfight evil. It can change form\n via its Seiga Saber Joint!"
+		"tr_explain": "A Double Saber designed to\nfight evil. It can change form\nvia its Seiga Saber Joint!"
 	},
 	{
 		"assign": "150203",
@@ -872,6 +879,13 @@
 		"jp_text": "ストームドミナシオ",
 		"tr_text": "Storm Dominacio",
 		"jp_explain": "新開発の演算装置を搭載した両剣。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "150213",
+		"jp_text": "ストームインクルシオ",
+		"tr_text": "Storm Inclusio",
+		"jp_explain": "新開発の演算装置を搭載した両剣。\n抜本的な処理能力の向上により\n使用者の力を余すことなく引き出す。",
 		"tr_explain": ""
 	},
 	{
@@ -935,7 +949,7 @@
 		"jp_text": "レイＤセイバー",
 		"tr_text": "Ray Double Saber",
 		"jp_explain": "次世代の主力として開発された両剣。\n基礎モデルの直系の後継機であり\n出力、安定性共に高いスペックを誇る。",
-		"tr_explain": "A weapon that was developed as the\nlatest model, boasting high photon\nstability with next-gen specifications."
+		"tr_explain": "A weapon that was developed as the\nlatest model, boasting high Photon\nstability with next-gen specifications."
 	},
 	{
 		"assign": "150234",
@@ -1040,7 +1054,7 @@
 		"jp_text": "迅雷-NT",
 		"tr_text": "Jinrai-NT",
 		"jp_explain": "雷の如き攻撃速度で敵を切り裂く両剣。\n装者にも持つに足るだけの速さを求め\n不相応な者は手にすることも出来ない。",
-		"tr_explain": ""
+		"tr_explain": "This Double Saber rips targets\napart with lightning-quick attacks.\nOnly the very swift can wield it."
 	},
 	{
 		"assign": "150249",
@@ -1054,7 +1068,7 @@
 		"jp_text": "アブソリュートブレード-NT",
 		"tr_text": "Absolute Blade-NT",
 		"jp_explain": "切り裂くために作られた巨大な両剣。\n二つの刃が交互に襲い来る恐怖は\n他の何物にも例えがたい。",
-		"tr_explain": ""
+		"tr_explain": "A Double Saber with large blades\nthat tears its target apart and\nstrikes fear to the battle-hardened."
 	},
 	{
 		"assign": "150251",
@@ -1164,7 +1178,7 @@
 	{
 		"assign": "150279",
 		"jp_text": "アレティアシフォス",
-		"tr_text": "Alethia Xiphos",
+		"tr_text": "Aletheia Xiphos",
 		"jp_explain": "古より伝わる陽光の両剣。\n聖なる光に授かりし尖鋭なる刃は\n生きし者全てを救け、静穏をもたらす。",
 		"tr_explain": ""
 	},
@@ -1201,21 +1215,21 @@
 		"jp_text": "バルヴィーレ",
 		"tr_text": "Val Vire",
 		"jp_explain": "過去に戦場となった地域から発掘された\n両剣。刀身がほぼ残っておらず\n刃物としての活躍には期待できない。",
-		"tr_explain": ""
+		"tr_explain": "A double saber excavated from an old\nbattlefield. Almost nothing is left of its\nblades, but it could be used as a knife."
 	},
 	{
 		"assign": "150300",
 		"jp_text": "アトラヴィーレ",
 		"tr_text": "Atlas Vire",
 		"jp_explain": "過去に戦場となった地域から発掘された\n両剣。研究が進んだことで、装飾も\n含めて破損前の状態に修復された。",
-		"tr_explain": ""
+		"tr_explain": "A double saber excavated from an old\nbattlefield. Has been restored to a\nprevious state, decorations included."
 	},
 	{
 		"assign": "150301",
 		"jp_text": "アトラヴィーレ・イクス",
 		"tr_text": "Atlas Vire Ex",
 		"jp_explain": "過去に戦場となった地域から発掘された\n両剣。真なる力を解放した姿。緑の\n光は運命すら断ち切る可能性を秘める。",
-		"tr_explain": ""
+		"tr_explain": "A double saber excavated from an old\nbattlefield. Its true power awakened,\nit can sever even the threads of fate."
 	},
 	{
 		"assign": "150302",
@@ -1269,7 +1283,7 @@
 	{
 		"assign": "150333",
 		"jp_text": "ニーケイーレクス",
-		"tr_text": "Nieke Elex",
+		"tr_text": "Nike Elex",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った両剣。フォトンの閃光が走り\n勝利への道を切り開く。",
 		"tr_explain": ""
 	},
@@ -1320,7 +1334,7 @@
 		"jp_text": "オフスティアエッジ-NT",
 		"tr_text": "Austere Edge-NT",
 		"jp_explain": "負の力を識り、制することで転化した\n浄化の両剣。装者は己に打ち克ち\n強き勇士へと昇華し、悪辣者を葬る。",
-		"tr_explain": ""
+		"tr_explain": "A purified Double Saber. It's said that\nit sublimates the user, allowing one to\nbanish evil to oblivion."
 	},
 	{
 		"assign": "150342",
@@ -1334,21 +1348,21 @@
 		"jp_text": "深遠斬レスレクシオン",
 		"tr_text": "Profound Resurrecxion",
 		"jp_explain": "終わりなき物語を辿る者の絶望により\n生み出された両剣。重く深い闇の力は\n負へと成り果て、全ての光を拒絶する。",
-		"tr_explain": ""
+		"tr_explain": "A double saber born of endless\ndespair. The weight of the darkness\nupon it has turned it against all light."
 	},
 	{
 		"assign": "150344",
 		"jp_text": "星震斬レスレクシオン",
 		"tr_text": "Celestial Resurrecxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した両剣。純な願いは光を取り戻し\nその刃は、負を滅する輝きへと変わる。",
-		"tr_explain": ""
+		"tr_explain": "A double saber touched by a time\ntraveller's heart. Pure wishes have\nrestored its blades' brilliant light."
 	},
 	{
 		"assign": "150345",
 		"jp_text": "光跡斬レスレクシオン",
 		"tr_text": "Lightstream Resurrecxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ両剣。強き想いを宿した刃は\n光の輝きとなり、新たな未来を創る。",
-		"tr_explain": ""
+		"tr_explain": "A double saber that links the stars,\nbonded to a time traveller. Its blades'\nbrilliant light creates a new future."
 	},
 	{
 		"assign": "150355",
@@ -1400,6 +1414,20 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "150391",
+		"jp_text": "レンゴクトウ・レンサ",
+		"tr_text": "Rengokuto Renza",
+		"jp_explain": "レンゴクトウのエンサとグレンを\n連結させた両剣。血肉を糧とし\nいつまでも錆びることはない。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "150394",
+		"jp_text": "光纏斬クラースダブリス",
+		"tr_text": "Lightweaver Cras Doublis",
+		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った両剣。\nその連撃が、行くべき道を照らす。",
+		"tr_explain": "A double saber that wove the light\nthat vanquished darkness. By its many\nstrikes, the path ahead is illuminated."
+	},
+	{
 		"assign": "150396",
 		"jp_text": "トルビオンオーブ",
 		"tr_text": "Torbion Orb",
@@ -1419,5 +1447,40 @@
 		"tr_text": "Flotea Saber",
 		"jp_explain": "フォトンの刃が虹色にきらめく両剣。\n抜刀すると、コンパクトなボディから\nフォトンの刃と柄が瞬時に展開する。",
 		"tr_explain": ""
+	},
+	{
+		"assign": "150413",
+		"jp_text": "フィンブルジェム",
+		"tr_text": "Fimbul Gem",
+		"jp_explain": "重厚な気高さを漂わせる両剣。\n王者の風格漂う深く輝く宝石は\n高いフォトン吸収力を誇る。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "150419",
+		"jp_text": "￥Ｅデモニア２両剣ＣＶ２",
+		"tr_text": "",
+		"jp_explain": "最強とうたわれる両剣。目にも留まらぬ\n速度で風を切る姿は、まさに疾風怒濤。\n蛇腹の刃に切り裂かれないものはない。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "150420",
+		"jp_text": "フルクシオヴァルグ",
+		"tr_text": "Fluxio Varg",
+		"jp_explain": "流線美と機能性を備え持つ両剣。\n複雑ながらも美しい湾曲を持つ刃は\n自動修復機能を備え、劣化を防ぐ。",
+		"tr_explain": "A beautifully sleek Double Saber\nwhose automatic self-repair system\npreserves its gorgeous complexity."
+	},
+	{
+		"assign": "150421",
+		"jp_text": "リンザーヴァルグ",
+		"tr_text": "Rinza Varg",
+		"jp_explain": "流線美と機能性を備え持つ両剣。\nフォトン励起に新機構を用いており\n直感的な操作が可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "150422",
+		"jp_text": "闇征斬アジェルダブリス",
+		"tr_text": "Darkbanisher Ayer Doublis",
+		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた両剣。\n閉じられた運命を背負っている。",
+		"tr_explain": "A Double Saber that will give up\nanything to protect the universe.\nIt bears the burden of a sealed fate."
 	}
 ]

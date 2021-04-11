@@ -129,7 +129,8 @@ contents_files = ("Costume_Female", "Costume_Male",
                   "AvatarWPN_Wand", "AvatarWPN_WiredLance",
                   "Stack_DeviceHT", "Stack_DeviceAddTA",
                   "Stack_DeviceFD", "Stack_Reform",
-                  "Stack_Music", "Stack_OrderItem")
+                  "Stack_Music", "Stack_OrderItem",
+                  "FacePattern")
 for contents_file_name in contents_files:
     contents_file_name = "Item_" + contents_file_name + ".txt"
     try:

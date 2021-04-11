@@ -1660,7 +1660,7 @@
 		"jp_name": "アネット",
 		"tr_name": "Annette",
 		"jp_text": "力を抜いて……回復のテクニックを使うから。<%br>いい？　……レスタ！",
-		"tr_text": "Relax... I'll use a healing technique, okay? ...Resta!",
+		"tr_text": "Relax... I'll use a healing Technique, okay? ...Resta!",
 		"fileID": 1
 	},
 	{
@@ -1684,7 +1684,7 @@
 		"jp_name": "アネット",
 		"tr_name": "Annette",
 		"jp_text": "え？　ど、どういうこと！？<%br>治療のテクニックのはずなのに……",
-		"tr_text": "What? W-why?! This is a healing technique...",
+		"tr_text": "What? W-why?! This is a healing Technique...",
 		"fileID": 1
 	},
 	{
@@ -1812,7 +1812,7 @@
 		"jp_name": "ジェネ",
 		"tr_name": "Gene",
 		"jp_text": "はぁはぁ……これで、全部みたいです。<%br>それじゃ、急いで進みましょう。",
-		"tr_text": "＊puff＊ ＊puff＊... It looks like that<%br>was the last of them. Let's hurry.",
+		"tr_text": "＊huff＊ ＊huff＊... It looks like that<%br>was the last of them. Let's hurry.",
 		"fileID": 1
 	},
 	{
@@ -69369,6 +69369,14 @@
 	},
 	{
 		"eventNo": "72",
+		"jp_name": "",
+		"tr_name": "",
+		"jp_text": "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　<%br>",
+		"tr_text": "",
+		"fileID": 8
+	},
+	{
+		"eventNo": "73",
 		"jp_name": "",
 		"tr_name": "",
 		"jp_text": "",

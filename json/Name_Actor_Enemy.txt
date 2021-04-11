@@ -1132,12 +1132,12 @@
 	{
 		"assign": "Chr04_KK_ep2",
 		"jp_text": "クラリスクレイス",
-		"tr_text": "Klaris Klaes"
+		"tr_text": "Claris Claes"
 	},
 	{
 		"assign": "Char14_ClCl",
 		"jp_text": "クローンＫＫ",
-		"tr_text": "Clone KK"
+		"tr_text": "Clone CC"
 	},
 	{
 		"assign": "KG",
@@ -1897,7 +1897,7 @@
 	{
 		"assign": "DpAbyssHuman",
 		"jp_text": "ディーオ・ヒューナル",
-		"tr_text": "Deo Hunar"
+		"tr_text": "Dio Hunar"
 	},
 	{
 		"assign": "DpAbyssHumanUniq",
@@ -1992,12 +1992,12 @@
 	{
 		"assign": "PhantomRatRare",
 		"jp_text": "マウスファムト",
-		"tr_text": "Mouse Phumat"
+		"tr_text": "Mouse Phamut"
 	},
 	{
 		"assign": "PhantomBird",
 		"jp_text": "クロウファムト",
-		"tr_text": "Crow Phumat"
+		"tr_text": "Crow Phamut"
 	},
 	{
 		"assign": "PhantomBearA",
@@ -2067,7 +2067,7 @@
 	{
 		"assign": "PhantomDog",
 		"jp_text": "ボクサーファムト",
-		"tr_text": "Boxer Phumat"
+		"tr_text": "Boxer Phamut"
 	},
 	{
 		"assign": "PetCommon",
@@ -2107,12 +2107,12 @@
 	{
 		"assign": "PhantomVulture",
 		"jp_text": "バルチャファムト",
-		"tr_text": "Vulture Phumat"
+		"tr_text": "Vulture Phamut"
 	},
 	{
 		"assign": "PhantomUFO",
 		"jp_text": "U.F.O",
-		"tr_text": "U.F.O"
+		"tr_text": "U.F.O."
 	},
 	{
 		"assign": "PhantomRider",
@@ -2722,12 +2722,12 @@
 	{
 		"assign": "AAADebugEnemyShotS",
 		"jp_text": "デバッグエネミーS",
-		"tr_text": ""
+		"tr_text": "Debug Enemy S"
 	},
 	{
 		"assign": "AAADebugEnemyShotL",
 		"jp_text": "デバッグエネミーL",
-		"tr_text": ""
+		"tr_text": "Debug Enemy L"
 	},
 	{
 		"assign": "N2Abe",
@@ -2752,7 +2752,7 @@
 	{
 		"assign": "AAADebugEnemyMoveOnly",
 		"jp_text": "デバッグエネミーM",
-		"tr_text": ""
+		"tr_text": "Debug Enemy M"
 	},
 	{
 		"assign": "TD1Hou",
@@ -2920,6 +2920,11 @@
 		"tr_text": "Shiva"
 	},
 	{
+		"assign": "C9_SV",
+		"jp_text": "【終の女神】シバ",
+		"tr_text": "[Goddess of Demise] Shiva"
+	},
+	{
 		"assign": "TD2Blo",
 		"jp_text": "オドゥナ・ゾルダッタ",
 		"tr_text": "Oduna Zoldatta"
@@ -2950,6 +2955,11 @@
 		"tr_text": "Magatsu Letharga"
 	},
 	{
+		"assign": "BoDelFoot",
+		"jp_text": "【原初の闇】ソダム",
+		"tr_text": "[Primordial Darkness] Sodam"
+	},
+	{
 		"assign": "T1Xcu",
 		"jp_text": "ビリガ・ジグニンデ",
 		"tr_text": "Villiga Zigninde"
@@ -2975,6 +2985,11 @@
 		"tr_text": "Dragon Ignisimo"
 	},
 	{
+		"assign": "BoDelBeast",
+		"jp_text": "【原初の闇】ゴモルス",
+		"tr_text": "[Primordial Darkness] Gomorroth"
+	},
+	{
 		"assign": "P4Tra",
 		"jp_text": "リーゼス・ギドール",
 		"tr_text": "Lizeth Ghidour"
@@ -2987,7 +3002,12 @@
 	{
 		"assign": "AAADebugEnemyMoveUpdown",
 		"jp_text": "デバッグエネミーMU",
-		"tr_text": ""
+		"tr_text": "Debug Enemy MU"
+	},
+	{
+		"assign": "RTH",
+		"jp_text": "タッキ・ラッピー",
+		"tr_text": "Turkey Rappy"
 	},
 	{
 		"assign": "KingRappy",

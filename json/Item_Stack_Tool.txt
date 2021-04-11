@@ -44,7 +44,7 @@
 	{
 		"assign": "3706",
 		"jp_text": "ＳＧリサイクルバッヂ",
-		"tr_text": "Star Gem Recycling Badge",
+		"tr_text": "Star Gem Recycle Badge",
 		"jp_explain": "ＳＧリサイクルショップにてＳＧスクラッチ\nアイテムと同等のものとして交換に\n使用できるバッヂ。",
 		"tr_explain": "Recycled SG Scratch items recycled\ninto a badge. Can be used in place\nof SG items for recycling."
 	},
@@ -257,6 +257,13 @@
 		"tr_text": "Et Excube",
 		"jp_explain": "エトワールを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
 		"tr_explain": "A special crystal given to special\nEtoiles. By trading this item, more\npower can be obtained."
+	},
+	{
+		"assign": "37040",
+		"jp_text": "Ｌｕエクスキューブ",
+		"tr_text": "Lu Excube",
+		"jp_explain": "ラスターを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
+		"tr_explain": "A special crystal given to special\nLusters. By trading this item, more\npower can be obtained."
 	},
 	{
 		"assign": "37043",
@@ -492,7 +499,7 @@
 	{
 		"assign": "37079",
 		"jp_text": "ぷそ煮コミメモリ",
-		"tr_text": "Puso Comic Memory",
+		"tr_text": "Pusoni Comic Memory",
 		"jp_explain": "表面に特徴的な絵が描かれている\n何らかの記憶媒体。内部データから\n楽しいものが作れそう。",
 		"tr_explain": "A storage device with a distinctive\nimage on its surface. The data inside\ncould be used to make fun things."
 	},
@@ -562,7 +569,7 @@
 	{
 		"assign": "37089",
 		"jp_text": "ぷそ煮コミメモリ２",
-		"tr_text": "Puso Comic Memory 2",
+		"tr_text": "Pusoni Comic Memory 2",
 		"jp_explain": "表面に特徴的な絵が描かれている\n何らかの記憶媒体。内部データから\n楽しいものが作れそう。",
 		"tr_explain": "A storage device with a distinctive\nimage on its surface. The data inside\ncould be used to make fun things."
 	},
@@ -570,8 +577,8 @@
 		"assign": "37090",
 		"jp_text": "ミッションバッヂ",
 		"tr_text": "Mission Badge",
-		"jp_explain": "ミッションパス等で入手可能なバッヂ。\nミッションパスリサイクルショップで\n他のアイテムと交換できる。",
-		"tr_explain": "A badge that can be obtained from\na Mission Pass. Can be exchanged\nfor items at the Mission Pass Shop."
+		"jp_explain": "ミッションパス等で入手可能なバッヂ。\nミッションバッヂリサイクルショップで\n他のアイテムと交換できる。",
+		"tr_explain": "A badge that can be obtained from\na Mission Pass. Can be exchanged\nfor items at the Mission Badge Shop."
 	},
 	{
 		"assign": "37091",
@@ -604,7 +611,7 @@
 	{
 		"assign": "370106",
 		"jp_text": "ぷそ煮コミメモリ３",
-		"tr_text": "Puso Comic Memory 3",
+		"tr_text": "Pusoni Comic Memory 3",
 		"jp_explain": "表面に特徴的な絵が描かれている\n何らかの記憶媒体。内部データから\n楽しいものが作れそう。",
 		"tr_explain": "A storage device with a distinctive\nimage on its surface. The data inside\ncould be used to make fun things."
 	},
@@ -627,6 +634,13 @@
 		"jp_text": "８周年記念抽選券",
 		"tr_text": "8th Anniversary Lotto Ticket",
 		"jp_explain": "「ARKS CONNECT MEMORIES」の\nイベント後にアイテムやリアルグッズの\n抽選権が得られる、特殊なアイテム。",
-		"tr_explain": ""
+		"tr_explain": "A ticket that can be exchanged for\nitems and other goods after the\nARKS CONNECT MEMORIES event."
+	},
+	{
+		"assign": "370113",
+		"jp_text": "ウェポンズバッヂ２０２１",
+		"tr_text": "Weapons Badge 2021",
+		"jp_explain": "表面に特徴的な紋章、裏面に謎の年号が\n刻印されたバッヂ。提示することで\n様々なアイテムと交換可能。",
+		"tr_explain": "An emblem with an engraved design.\nA mysterious year is printed on the\nback. Can be traded for prizes."
 	}
 ]
