@@ -16,7 +16,7 @@ LANGS = {-1: "JP",
          1: "KR",
 		 2: "RU"}
 # Add more later.
-parser.add_argument("-l", type = int, dest = "lang", action = "store", choices = [0, 1, 2], default = 0, metavar = "N", help = "Set a language to translate into. Available options are 0 (EN) and 1 (KR). Defaults to EN.")
+parser.add_argument("-l", type = int, dest = "lang", action = "store", choices = [0, 1, 2], default = 0, metavar = "N", help = "Set a language to translate into. Available options are 0 (EN), 1 (KR) and 2 (RU). Defaults to EN.")
 # Switch for retranslating all descriptions.
 parser.add_argument("-r", dest = "redo", action = "store_true", help = "Force all ticket descriptions to be processed, even if already translated.")
 
