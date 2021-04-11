@@ -35,10 +35,10 @@ layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".", # Must include it
 					  "Разблокирует новую\n{itype}\n\"{iname}\"."]
 
 layer_sex_locks = {"m": ["\nOnly usable on male characters.",
-                         " 남성만 가능."
+                         " 남성만 가능.",
 						 "\nТолько для мужских персонажей."],
                    "f": ["\nOnly usable on female characters.",
-                         " 여성만 가능."
+                         " 여성만 가능.",
 						 "\nТолько для женских персонажей."]}
 
 layer_hide_inners = ["※Hides innerwear when worn.",
