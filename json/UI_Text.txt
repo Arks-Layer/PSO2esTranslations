@@ -1211,7 +1211,7 @@
 	},
 	{
 		"assign": "charamake_dialog_b_00",
-		"jp_text": "このキャラクターでゲームを始めますか？\n\n<color=#f0df60>＜好みの外見にカスタマイズ！＞</color>\nキャラクター確認画面の\n「キャラクターをカスタマイズする」のボタンから\n顔や体型などを細かくカスタマイズできます。\n自分だけのキャラクターを作成してみましょう！",
+		"jp_text": "このキャラクターでゲームを開始します。\nよろしいですか？",
 		"tr_text": ""
 	},
 	{
@@ -6580,8 +6580,13 @@
 		"tr_text": ""
 	},
 	{
-		"assign": "scratch_message_05",
-		"jp_text": "<color=#ffff00<%alpha>>スクラッチ回数ボーナス！</color>\n\nボーナス報酬を受け取りボックスへ送りました。\n\nロビーの「受け取り」ボタンから受け取ってください。",
+		"assign": "scratch_message_05_1",
+		"jp_text": "<color=#ffff00<%alpha>>スクラッチ回数ボーナス！</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_message_05_2",
+		"jp_text": "ボーナス報酬を受け取りボックスへ送りました。\n\nロビーの「受け取り」ボタンから受け取ってください。",
 		"tr_text": ""
 	},
 	{
@@ -8840,6 +8845,16 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "equip_palette_rebootitem_dialog_t",
+		"jp_text": "装備変更不可",
+		"tr_text": ""
+	},
+	{
+		"assign": "equip_palette_rebootitem_dialog_b",
+		"jp_text": "「PSO2:NGSコスチューム」から\n「Classicコスチューム」への着替えは\n『PSO2』へログインしてから行ってください。",
+		"tr_text": ""
+	},
+	{
 		"assign": "button_decide",
 		"jp_text": "決定",
 		"tr_text": ""
@@ -10682,6 +10697,21 @@
 	{
 		"assign": "point_over_num_recycle",
 		"jp_text": "所持数をオーバーするため交換できません。\n消費をしてから受け取ってください。",
+		"tr_text": ""
+	},
+	{
+		"assign": "costume_cannot_change_dialog_t",
+		"jp_text": "コスチューム",
+		"tr_text": ""
+	},
+	{
+		"assign": "costume_cannot_change_dialog_b",
+		"jp_text": "キャラクター連動を行っているアカウントは\nこの機能を使用できません。\nコスチュームの変更は\n『PSO2』へログインして行ってください。",
+		"tr_text": ""
+	},
+	{
+		"assign": "friend_charamake_dl_costume_cannot_change_dialog_b",
+		"jp_text": "フレンドコスチュームＤＬは、現在使用できません。\n利用再開についての詳細は\n公式サイトをご確認ください。",
 		"tr_text": ""
 	},
 	{
@@ -15770,6 +15800,66 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "RaidEvent_Achievement_Text_0-1-29",
+		"jp_text": "初級を{0}回プレイ",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_0-2-26",
+		"jp_text": "初級で{0}体以上討伐してクエスト終了",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_0-1-26",
+		"jp_text": "初級で合計{0}体討伐",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_0-1-30",
+		"jp_text": "中級を{0}回プレイ",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_0-2-27",
+		"jp_text": "中級で{0}体以上討伐してクエスト終了",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_0-1-27",
+		"jp_text": "中級で合計{0}体討伐",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_0-1-31",
+		"jp_text": "上級を{0}回プレイ",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_0-2-28",
+		"jp_text": "上級で{0}体以上討伐してクエスト終了",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_0-1-28",
+		"jp_text": "上級にて合計{0}体討伐",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_0-1-25",
+		"jp_text": "合計{0}体討伐",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_1-1-32",
+		"jp_text": "合計{0}回プレイ",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_0-1-32",
+		"jp_text": "合計{0}回プレイ",
+		"tr_text": ""
+	},
+	{
 		"assign": "RaidEvent_Achievement_list_00",
 		"jp_text": "イベント期間 実績報酬",
 		"tr_text": ""
@@ -17930,6 +18020,16 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "lookback_special_chapter_9",
+		"jp_text": "Xmasプレゼント迷宮案件",
+		"tr_text": ""
+	},
+	{
+		"assign": "lookback_special_chapter_10",
+		"jp_text": "新春！　はやく来い恋お正月",
+		"tr_text": ""
+	},
+	{
 		"assign": "lookback_maintitle_4",
 		"jp_text": "ストーリー　オブ　アーレス",
 		"tr_text": ""
@@ -18092,6 +18192,21 @@
 	{
 		"assign": "lookback_series5_chapter_1",
 		"jp_text": "The Lost Legend",
+		"tr_text": ""
+	},
+	{
+		"assign": "lookback_maintitle_10",
+		"jp_text": "シャイン オブ ハイパーズ",
+		"tr_text": ""
+	},
+	{
+		"assign": "lookback_maintext_10",
+		"jp_text": "ハイパーズシリーズの\nウェポノイド達の物語を振り返ります。",
+		"tr_text": ""
+	},
+	{
+		"assign": "lookback_series6_chapter_1",
+		"jp_text": "第１章　バースデイ オブ ドリーム",
 		"tr_text": ""
 	},
 	{
@@ -23165,6 +23280,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "auto_sale_setting_exclusion_dialog_glare_receptor",
+		"jp_text": "グレアレセプター",
+		"tr_text": ""
+	},
+	{
 		"assign": "auto_sale_setting_exclusion_dialog_chip_pate",
 		"jp_text": "必殺技・法術",
 		"tr_text": ""
@@ -23816,112 +23936,352 @@
 	},
 	{
 		"assign": "lobby_survival_ranking",
-		"jp_text": "-",
+		"jp_text": "ランキング",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_ranking_num",
-		"jp_text": "-",
+		"jp_text": "<color=#e25f04>{0:#,0}位</color>",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_mission",
-		"jp_text": "-",
+		"jp_text": "残りミッション",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_mission_num",
-		"jp_text": "-",
+		"jp_text": "{0:#,0}",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_mission_button",
-		"jp_text": "-",
+		"jp_text": "サバイバル\nミッション",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_score",
-		"jp_text": "-",
+		"jp_text": "サバイバルスコア",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_score_num",
-		"jp_text": "-",
+		"jp_text": "<color=#ffff00>{0:#,0}</color>",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_sore_unit",
-		"jp_text": "-",
+		"jp_text": "pt",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_guide",
-		"jp_text": "-",
+		"jp_text": "<color=#f0df60>極討サバイバルの進行状況画面です。このクエストでは、討伐したエネミーの数に応じて入手できるサバイバルスコアや報酬数が増加します。</color>",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_guide_ranking",
-		"jp_text": "-",
+		"jp_text": "<color=#f0df60>極討サバイバルランキングの順位です。</color>",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_guide_mission",
-		"jp_text": "-",
+		"jp_text": "<color=#f0df60>極討サバイバルの達成報酬です。入手条件を満たすと、報酬を受け取ることができます。</color>",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_slash",
-		"jp_text": "-",
+		"jp_text": "<color=#68a0a7>/</color>",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_summary_tab_info",
-		"jp_text": "-",
+		"jp_text": "詳細",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_summary_tab_reward",
-		"jp_text": "-",
+		"jp_text": "報酬",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_summary_attribute",
-		"jp_text": "-",
+		"jp_text": "有効属性 <color=#68a0a7>/</color>",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_summary_enemy",
-		"jp_text": "-",
+		"jp_text": "出現エネミー",
 		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_summary_reward",
-		"jp_text": "-",
+		"jp_text": "報酬ラインナップ",
 		"tr_text": ""
 	},
 	{
 		"assign": "survival_return_dialog_title",
-		"jp_text": "-",
+		"jp_text": "極討サバイバル再開確認",
 		"tr_text": ""
 	},
 	{
 		"assign": "survival_return_dialog_message",
-		"jp_text": "-",
+		"jp_text": "極討サバイバルの中断データがあります。\nプレイを再開しますか？\n\n※再開してもOPは消費されません。\n<color=#ff0000>※終了した場合、プレイ状況に関係なく\n   アイテム・メセタ・経験値は獲得できません。</color>",
 		"tr_text": ""
 	},
 	{
 		"assign": "survival_return_dialog_return_button",
-		"jp_text": "-",
+		"jp_text": "再開する",
 		"tr_text": ""
 	},
 	{
 		"assign": "survival_return_dialog_end_button",
-		"jp_text": "-",
+		"jp_text": "終了する",
 		"tr_text": ""
 	},
 	{
 		"assign": "survival_quest_name",
-		"jp_text": "-",
+		"jp_text": "極討サバイバル",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_quest_ranking_no_entry",
+		"jp_text": "<color=#e25f04>未参加</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "sb_reward_dialog_t",
+		"jp_text": "極討サバイバル報酬",
+		"tr_text": ""
+	},
+	{
+		"assign": "sb_reward_dialog_score_title_caption",
+		"jp_text": "討伐数・獲得スコア・ボーナス",
+		"tr_text": ""
+	},
+	{
+		"assign": "sb_reward_dialog_killcount_caption",
+		"jp_text": "討伐数",
+		"tr_text": ""
+	},
+	{
+		"assign": "sb_reward_dialog_score_caption",
+		"jp_text": "スコア",
+		"tr_text": ""
+	},
+	{
+		"assign": "sb_reward_dialog_reward_title_caption",
+		"jp_text": "報酬",
+		"tr_text": ""
+	},
+	{
+		"assign": "sb_reward_dialog_phase_bonus_title_caption",
+		"jp_text": "フェーズ達成ボーナス",
+		"tr_text": ""
+	},
+	{
+		"assign": "sb_reward_dialog_phase_bonus_num",
+		"jp_text": "+{0}個",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_shop_dialog_t",
+		"jp_text": "【PHASE{0}】 使用効果選択",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_shop_dialog_Caption",
+		"jp_text": "使用する効果を1つ選んでください。",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_shop_PhaseStart_ButtonCaption",
+		"jp_text": "<color=#FFFF00>【PHASE{0}】を開始</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_shop_Use_ButtonCaption",
+		"jp_text": "　　　効果を使用",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_status_dialog_t",
+		"jp_text": "使用効果・ステータス",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_status_LTBuff_TitleCaption",
+		"jp_text": "持続効果",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_status_STBuff_TitleCaption",
+		"jp_text": "時限効果",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_shop_point_possess",
+		"jp_text": "所持サポートポイント <color=#68a0a7>/</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_shop_point_use",
+		"jp_text": " 消費<color=#68a0a7> /</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_dialog_t",
+		"jp_text": "【PHASE{0}】 終了",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_unit_count",
+		"jp_text": "{0}回×{1}pt",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_unit_Meter",
+		"jp_text": "{0}ｍ×{1}pt",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_pt",
+		"jp_text": "{0}pt",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_Getpoint_TitleCaption",
+		"jp_text": "所持サポートポイント",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_Toppoint_TitleCaption",
+		"jp_text": "獲得内訳",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_Pointdetails_TitleCaption",
+		"jp_text": "獲得内訳",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_Carryover_Caption",
+		"jp_text": "前フェーズから持ち越し",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_NormalAttack_Caption",
+		"jp_text": "通常攻撃",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_SpAttackChip_Caption",
+		"jp_text": "必殺技・法術チップ発動",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_SChip_Caption",
+		"jp_text": "サポートチップ発動",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_AChip_Caption",
+		"jp_text": "アクティブチップ（連続使用不可）発動",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_AChipNonCt_Caption",
+		"jp_text": "アクティブチップ（連続使用可）発動",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_Moving_Caption",
+		"jp_text": "移動距離",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_Avoid_Caption",
+		"jp_text": "回避アクション",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_JustAttack_Caption",
+		"jp_text": "ジャストアタック成功",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_Other_Caption",
+		"jp_text": "その他",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Spoint_Allview_ButtonCaption",
+		"jp_text": "すべて見る",
+		"tr_text": ""
+	},
+	{
+		"assign": "window_help_LM45",
+		"jp_text": "wh_60_01,\n極討サバイバルとは\n次々に襲ってくるエネミーを倒していく期間限定の特別クエストです。\n出発には「オペレーションポイント（ＯＰ）」を消費します。,\nwh_60_02,\nこのクエストのバトルは、決められた数の<color=yellow>エネミーを倒すことで進行</color>します。\n<color=yellow>フェーズが進むほど、強力なエネミーが登場</color>するので\n万全の準備をして挑みましょう。,\nwh_60_03,\nエネミーが通常のバトルよりも多く登場するため\n<color=yellow>バトルカメラ設定を「遠」</color>にするのがおすすめです。\n画面右上の一時停止ボタンから表示される「オプション」で変更できます。,\nwh_60_04,\nエネミーからの攻撃に加え、フィールドに設置されたダーカー兵器から\n一定時間ごとに、衝撃波によるダメージを受けます。\n衝撃波は徐々に強力になっていくので注意しましょう。,\nwh_60_05,\nバトル中の行動によって、<color=yellow>サポートポイント</color>が貯まります。\nフェーズが開始する前に、所持しているサポートポイントを使用して\nプレイヤーの強化を行うことができます。,\nwh_60_06,\n先のフェーズに進むほど、多くの報酬が貰えます。\nサポートポイントの獲得で得られる効果を駆使して\nより多くのエネミー打倒を目指しましょう！,",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_achievement_title",
+		"jp_text": "サバイバルミッション",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_achievement_total_score",
+		"jp_text": "合計討伐数",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Game_TotalCount",
+		"jp_text": "<color=#99CCCC>TOTAL : {0}</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Game_PhaseCount",
+		"jp_text": "<color=#99CCCC>PHASE {0}</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Game_Count_ato",
+		"jp_text": "あと",
+		"tr_text": ""
+	},
+	{
+		"assign": "SB_Game_Count_tai",
+		"jp_text": "体",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_dialog_t_01",
+		"jp_text": "極討サバイバルリタイア",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_dialog_b_01",
+		"jp_text": "クエストを終了します。\nよろしいですか？",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_ranking_exits_dialog_title",
+		"jp_text": "ランキング確定",
+		"tr_text": ""
+	},
+	{
+		"assign": "loginbonus_pudding",
+		"jp_text": "ジェネの手作りプリン<%puding>個",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_bonus_window_stage_one",
+		"jp_text": "STAGE1",
+		"tr_text": ""
+	},
+	{
+		"assign": "scratch_bonus_window_stage_two",
+		"jp_text": "STAGE2",
 		"tr_text": ""
 	}
 ]
