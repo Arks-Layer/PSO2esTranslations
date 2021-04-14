@@ -675,6 +675,26 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "acshop_oprecovery_pass_buff_update_and_survival_01",
+		"jp_text": "<color=#ff0000>攻撃力</color>アップの効果が発生！\n\n・<color=#ff0000>攻撃力</color>アップの効果が<color=#f6bf03>更新</color>されました。\n<%rate>倍(<%finish_datetime>まで)\n・<color=#ffa500>所持サポートポイント</color>アップの効果時間が<color=#f6bf03>更新</color>。",
+		"tr_text": ""
+	},
+	{
+		"assign": "acshop_oprecovery_pass_buff_update_and_survival_02",
+		"jp_text": "<color=#00dd72>防御力</color>アップの効果が発生！\n\n・<color=#00dd72>防御力</color>アップの効果が<color=#f6bf03>更新</color>されました。\n<%rate>倍(<%finish_datetime>まで)\n・<color=#ffa500>所持サポートポイント</color>アップの効果時間が<color=#f6bf03>更新</color>。",
+		"tr_text": ""
+	},
+	{
+		"assign": "acshop_oprecovery_pass_buff_update_and_survival_03",
+		"jp_text": "<color=#00ccff>CP回復力</color>アップの効果が発生！\n\n・<color=#00ccff>CP回復力</color>アップの効果が<color=#f6bf03>更新</color>されました。\n<%rate>倍(<%finish_datetime>まで)\n・<color=#ffa500>所持サポートポイント</color>アップの効果時間が<color=#f6bf03>更新</color>。",
+		"tr_text": ""
+	},
+	{
+		"assign": "acshop_oprecovery_pass_buff_update_and_survival_04",
+		"jp_text": "<color=#ffff00>フレンドアシスト</color>アップの効果が発生！\n\n・<color=#ffff00>フレンドアシスト</color>アップの効果が<color=#f6bf03>更新</color>されました。\n<%rate>倍(<%finish_datetime>まで)\n・<color=#ffa500>所持サポートポイント</color>アップの効果時間が<color=#f6bf03>更新</color>。",
+		"tr_text": ""
+	},
+	{
 		"assign": "acshop_oprecovery_pass_attention",
 		"jp_text": "※発生中の他効果の期限は変わりません。",
 		"tr_text": ""
@@ -15860,6 +15880,16 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "RaidEvent_Achievement_Text_0-1-23",
+		"jp_text": "累積ダメージ{0:#,0}達成",
+		"tr_text": ""
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_0-2-23",
+		"jp_text": "最大ダメージ{0:#,0}達成",
+		"tr_text": ""
+	},
+	{
 		"assign": "RaidEvent_Achievement_list_00",
 		"jp_text": "イベント期間 実績報酬",
 		"tr_text": ""
@@ -18057,6 +18087,11 @@
 	{
 		"assign": "lookback_arles_chapter_4",
 		"jp_text": "第４章　三柱の女神",
+		"tr_text": ""
+	},
+	{
+		"assign": "lookback_arles_chapter_5",
+		"jp_text": "最終章　アーレスの守護せしもの",
 		"tr_text": ""
 	},
 	{
@@ -20880,6 +20915,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "chip_details_release_ability_not_release",
+		"jp_text": "未開放",
+		"tr_text": ""
+	},
+	{
 		"assign": "chip_details_chipequip_next_lv",
 		"jp_text": "次のレベルまで",
 		"tr_text": ""
@@ -22511,7 +22551,22 @@
 	},
 	{
 		"assign": "raid_dps_achievement_button",
-		"jp_text": "達成報酬",
+		"jp_text": "チャレンジ\nミッション",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_dps_achievement_title",
+		"jp_text": "チャレンジミッション",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_dps_achievement_max_items_title",
+		"jp_text": "最大ダメージ",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_dps_achievement_total_items_title",
+		"jp_text": "累積ダメージ",
 		"tr_text": ""
 	},
 	{
@@ -24265,13 +24320,168 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "survival_end_time",
+		"jp_text": "{0} メンテまで",
+		"tr_text": ""
+	},
+	{
 		"assign": "survival_ranking_exits_dialog_title",
 		"jp_text": "ランキング確定",
 		"tr_text": ""
 	},
 	{
+		"assign": "auto_rematch_setting_button_on",
+		"jp_text": "自動再戦：ON",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_button_off",
+		"jp_text": "自動再戦：OFF",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_title",
+		"jp_text": "自動再戦設定",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_detail",
+		"jp_text": "行動力・ＯＰが無くなるまで\nクエストをオートプレイし、自動で再出撃します。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_on_off_title",
+		"jp_text": "自動再戦を実行",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_on",
+		"jp_text": "ON",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_off",
+		"jp_text": "OFF",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_type_title",
+		"jp_text": "外伝解放・絆ゲージMAXで終了",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_all",
+		"jp_text": "全て",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_one",
+		"jp_text": "１人",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_rematch_count",
+		"jp_text": "連続再戦回数",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_max",
+		"jp_text": "最大",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_count",
+		"jp_text": "回",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_save",
+		"jp_text": "保存する",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_check_title",
+		"jp_text": "自動再戦開始確認",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_check_detail",
+		"jp_text": "変更した設定は保存されません。\nよろしいですか？",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_check_detail_save",
+		"jp_text": "自動再戦を開始します。\nよろしいですか？\n\n※解除する場合は、自動再戦のボタンを押して\n　　設定を変更してください。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_not_clear_quest_dialog_title",
+		"jp_text": "自動再戦設定",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_not_clear_quest_dialog_message",
+		"jp_text": "クエストを自動でプレイ・再戦する機能です。\r\nこの機能はクリアしたことのあるクエストで\r\n使用できます。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_wait_time",
+		"jp_text": "自動再戦まで <color=#ffff00>{0}秒</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_finish_dialog_title",
+		"jp_text": "自動再戦終了",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_finish_dialog_acceptbox_button",
+		"jp_text": "受け取りボックスへ",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_finish_dialog_short_drive_message",
+		"jp_text": "行動力が足りないため\r\n自動再戦を終了しました。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_finish_dialog_acceptbox_message",
+		"jp_text": "受け取りボックスがいっぱいのため\r\n自動再戦を終了しました。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_finish_dialog_rematch_count_message",
+		"jp_text": "最大連続再戦回数（{0}回）に達したため\r\n自動再戦を終了しました。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_finish_dialog_friendship_message",
+		"jp_text": "{0}人のチップの\n外伝解放・絆ゲージがMAXになったため\r\n自動再戦を終了しました。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_dialog_t_01",
+		"jp_text": "自動再戦終了",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_dialog_b_01",
+		"jp_text": "自動再戦を終了しますか？\n",
+		"tr_text": ""
+	},
+	{
 		"assign": "loginbonus_pudding",
 		"jp_text": "ジェネの手作りプリン<%puding>個",
+		"tr_text": ""
+	},
+	{
+		"assign": "acshop_oprecovery_pass_buff_06",
+		"jp_text": "・<color=#ffa500>所持サポートポイント</color>が<% point>ptアップ！\n※所持サポートポイントは\n   発生している効果１つにつき200ptアップします。",
+		"tr_text": ""
+	},
+	{
+		"assign": "acshop_oprecovery_pass_buff_update_06",
+		"jp_text": "・<color=#ffa500>所持サポートポイント</color>が200ptアップ！\n※所持サポートポイントは\n   発生している効果１つにつき200ptアップします。",
 		"tr_text": ""
 	},
 	{
