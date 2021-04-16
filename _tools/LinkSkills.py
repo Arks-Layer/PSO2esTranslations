@@ -38,7 +38,10 @@ skill_names = {
     "プレイヤーパラメータ加算": "Player Parameter Increase",
     "プレイヤーパラメータ増加": "Player Parameter Boost",
     "ラッシュアーツダメージアップ": "Rush Arts Damage Up",
-    "シールド": "Shield"
+    "シールド": "Shield",
+    "状態異常回復": "Status Recovery",
+    "ダメージ軽減": "Damage Reduction",
+    "戦闘不能回避": "Prevents Incapacitation",
     }
 
 skill_effects = { # dictionary of lambdas because there's no such thing as switch-case in python
@@ -145,7 +148,17 @@ skill_effects = { # dictionary of lambdas because there's no such thing as switc
                                                  .replace("％ 分のダメージを\\n防ぐ効果をＨＰに上乗せする。\\n"
                                                           "さらにアビリティレベルに応じて、上乗せする値が増える。",
                                                           "% of your maximum HP + 1% x this chip's\\n"
-                                                          "ability level."), 
+                                                          "ability level."),
+    "Status Recovery":              lambda x:   x.replace("スライド操作時 に\\n状態異常 が回復する。(発動確率： 小＋  )\\nアビリティレベルが上昇すると発動確率が上昇する。",
+                                                          "Slide Actions have a chance to remove status\\neffects. (Activation rate: Low+)\\nActivation rate increases with ability level."),
+    "Damage Reduction":             lambda x:   x.replace("受けるダメージを ",
+                                                          "Reduces damage taken by ")
+                                                 .replace("％ 軽減する。\\nさらにアビリティレベルに応じて、軽減する値が増える。",
+                                                          "%.\\nDamage reduction increases with ability level."),
+    "Prevents Incapacitation":      lambda x:   x.replace("ＨＰが ",
+                                                          "Once per battle, keeps you from being incapacitated\\nwhile at or above ")
+                                                 .replace("％ 以上残っている場合、\\n一度だけ戦闘不能にならない。\\nアビリティレベルが上昇すると\\n効果発動するためのＨＰの残り％が減る。",
+                                                          "% HP.\\nHP threshold decreases as ability level increases.")
     }
 
 unknowns = []
