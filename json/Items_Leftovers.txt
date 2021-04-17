@@ -1347,7 +1347,7 @@
 		"jp_text": "支援デバイス／能力上昇Ｃ",
 		"tr_text": "Support Device / Stat Boost C",
 		"jp_explain": "",
-		"tr_explain": "Mag изучает триггер-действие:\nSupport / Stat Boost C.\nУвел-т хар-ки в области работы.\nВысокая вер-ть, большая прод-ть.",
+		"tr_explain": "Mag изучает триггер-действие:\nSupport / Stat Boost C.\nУвел-т хар-ки в области действия.\nВысокая вер-ть, большая прод-ть.",
 		"assign": 0
 	},
 	{
@@ -1368,7 +1368,7 @@
 		"jp_text": "支援デバイス／能力上昇Ｉ",
 		"tr_text": "Support Device / Stat Boost I",
 		"jp_explain": "",
-		"tr_explain": "Mag изучает триггер-действие:\nSupport / Stat Boost I.\nУвел-т хар-ки с началом E-Code.\nВысокая вер-ть, долгая перез-ка.",
+		"tr_explain": "Mag изучает триггер-действие:\nSupport / Stat Boost I.\nУвел-т хар-ки с началом E-Trial.\nВысокая вер-ть, долгая перез-ка.",
 		"assign": 0
 	},
 	{
@@ -1417,21 +1417,21 @@
 		"jp_text": "支援デバイス／ＰＰ回復Ｇ",
 		"tr_text": "Support Device / PP Restore G",
 		"jp_explain": "",
-		"tr_explain": "Mag изучает триггер-действие:\nSupport / PP Restore G.\nС E-Code ускор-т восст-е РР.\nВысокая вер-ть, малая прод-ть.",
+		"tr_explain": "Mag изучает триггер-действие:\nSupport / PP Restore G.\nС E-Trial ускор-т восст-е РР.\nВысокая вер-ть, малая прод-ть.",
 		"assign": 0
 	},
 	{
 		"jp_text": "支援デバイス／ＰＰ回復Ｈ",
 		"tr_text": "Support Device / PP Restore H",
 		"jp_explain": "",
-		"tr_explain": "Mag изучает триггер-действие:\nSupport / PP Restore H.\nС E-Code ускор-т восст-е РР.\nСредняя вер-ть и прод-ть.",
+		"tr_explain": "Mag изучает триггер-действие:\nSupport / PP Restore H.\nС E-Trial ускор-т восст-е РР.\nСредняя вер-ть и прод-ть.",
 		"assign": 0
 	},
 	{
 		"jp_text": "支援デバイス／ＰＰ回復Ｉ",
 		"tr_text": "Support Device / PP Restore I",
 		"jp_explain": "",
-		"tr_explain": "Mag изучает триггер-действие:\nSupport / PP Restore I.\nС E-Code ускор-т восст-е РР.\nНизкая вер-ть, большая прод-ть.",
+		"tr_explain": "Mag изучает триггер-действие:\nSupport / PP Restore I.\nС E-Trial ускор-т восст-е РР.\nНизкая вер-ть, большая прод-ть.",
 		"assign": 0
 	},
 	{
@@ -1466,7 +1466,7 @@
 		"jp_text": "生産デバイス／ＨＰ回復Ｃ",
 		"tr_text": "Support Device / HP Restore C",
 		"jp_explain": "",
-		"tr_explain": "Mag изучает триггер-действие:\nSupport / HP Restore C.\nПри низких НР, восст-т их.\nНизкая вер-ть, высокое восст-е.",
+		"tr_explain": "Mag изучает триггер-действие:\nSupport / HP Restore C.\nПри низком здоровье восст-т НР.\nНизкая вер-ть, высокое восст-е.",
 		"assign": 0
 	},
 	{
