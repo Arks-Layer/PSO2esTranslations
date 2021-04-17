@@ -19087,7 +19087,7 @@
 	{
 		"assign": "acceptbox_guide_00",
 		"jp_text": "<color=#f0df60>受け取り期限のあるアイテムにご注意ください。「一括売却」に登録されたアイテムは「選択対象を受け取る」で受け取れます。</color>",
-		"tr_text": "<color=#f0df60>Please note that some items have a deadline on when they can be received. Items registered for Bulk Sale can be received with \"Grab Selected\"."
+		"tr_text": "<color=#f0df60>Please note that some items have a deadline on when they can be received. Items registered for Bulk Sale can be received with \"Grab Selected\".</color>"
 	},
 	{
 		"assign": "acceptbox_title",
@@ -20917,7 +20917,7 @@
 	{
 		"assign": "chip_details_release_ability_not_release",
 		"jp_text": "未開放",
-		"tr_text": ""
+		"tr_text": "        Not Unlocked"
 	},
 	{
 		"assign": "chip_details_chipequip_next_lv",
@@ -22556,7 +22556,7 @@
 	},
 	{
 		"assign": "raid_dps_achievement_title",
-		"jp_text": "Challenge Missions",
+		"jp_text": "チャレンジミッション",
 		"tr_text": ""
 	},
 	{
@@ -23197,7 +23197,7 @@
 	{
 		"assign": "conditional_title",
 		"jp_text": "経験値{0}倍！！",
-		"tr_text": ""
+		"tr_text": "EXP x {0}!!"
 	},
 	{
 		"assign": "auto_sale_setting_guide_message",
@@ -23337,7 +23337,7 @@
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_glare_receptor",
 		"jp_text": "グレアレセプター",
-		"tr_text": ""
+		"tr_text": "Glare Receptor"
 	},
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_chip_pate",
@@ -23827,7 +23827,7 @@
 	{
 		"assign": "raid_scratch_connect_first_cancel",
 		"jp_text": "中断しますか？",
-		"tr_text": ""
+		"tr_text": "Do you want to stop here?"
 	},
 	{
 		"assign": "raid_scratch_connect_cancel_title",
@@ -23867,12 +23867,12 @@
 	{
 		"assign": "acceptbox_accept_failed_dialog_title",
 		"jp_text": "受け取りボックス　期限切れ",
-		"tr_text": ""
+		"tr_text": "Reception Box Contents Expired"
 	},
 	{
 		"assign": "acceptbox_accept_failed_dialog_message",
 		"jp_text": "期限切れのアイテムは受け取ることが\nできませんでした。",
-		"tr_text": ""
+		"tr_text": "Failed to receive some items as they\nhave expired."
 	},
 	{
 		"assign": "check_story_play_dialog_title",
@@ -23992,17 +23992,17 @@
 	{
 		"assign": "lobby_survival_ranking",
 		"jp_text": "ランキング",
-		"tr_text": ""
+		"tr_text": "Ranking"
 	},
 	{
 		"assign": "lobby_survival_ranking_num",
 		"jp_text": "<color=#e25f04>{0:#,0}位</color>",
-		"tr_text": ""
+		"tr_text": "<color=#e25f04>{0:#,0}</color>"
 	},
 	{
 		"assign": "lobby_survival_mission",
 		"jp_text": "残りミッション",
-		"tr_text": ""
+		"tr_text": "Missions Remaining"
 	},
 	{
 		"assign": "lobby_survival_mission_num",
@@ -24012,12 +24012,12 @@
 	{
 		"assign": "lobby_survival_mission_button",
 		"jp_text": "サバイバル\nミッション",
-		"tr_text": ""
+		"tr_text": "Survival\nMission"
 	},
 	{
 		"assign": "lobby_survival_score",
 		"jp_text": "サバイバルスコア",
-		"tr_text": ""
+		"tr_text": "Survival Score"
 	},
 	{
 		"assign": "lobby_survival_score_num",
@@ -24032,17 +24032,17 @@
 	{
 		"assign": "lobby_survival_guide",
 		"jp_text": "<color=#f0df60>極討サバイバルの進行状況画面です。このクエストでは、討伐したエネミーの数に応じて入手できるサバイバルスコアや報酬数が増加します。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>This is the Extreme Survival progress screen. In this quest, your Survival Score and rewards increase based on how many enemies you defeat.</color>"
 	},
 	{
 		"assign": "lobby_survival_guide_ranking",
 		"jp_text": "<color=#f0df60>極討サバイバルランキングの順位です。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>This is the Extreme Survival ranking.</color>"
 	},
 	{
 		"assign": "lobby_survival_guide_mission",
 		"jp_text": "<color=#f0df60>極討サバイバルの達成報酬です。入手条件を満たすと、報酬を受け取ることができます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>These are the Extreme Survival rewards. You can earn these rewards by meeting their conditions.</color>"
 	},
 	{
 		"assign": "lobby_survival_slash",
@@ -24052,62 +24052,62 @@
 	{
 		"assign": "lobby_survival_summary_tab_info",
 		"jp_text": "詳細",
-		"tr_text": ""
+		"tr_text": "Info"
 	},
 	{
 		"assign": "lobby_survival_summary_tab_reward",
 		"jp_text": "報酬",
-		"tr_text": ""
+		"tr_text": "Reward"
 	},
 	{
 		"assign": "lobby_survival_summary_attribute",
 		"jp_text": "有効属性 <color=#68a0a7>/</color>",
-		"tr_text": ""
+		"tr_text": "Elements <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "lobby_survival_summary_enemy",
 		"jp_text": "出現エネミー",
-		"tr_text": ""
+		"tr_text": "Enemies"
 	},
 	{
 		"assign": "lobby_survival_summary_reward",
 		"jp_text": "報酬ラインナップ",
-		"tr_text": ""
+		"tr_text": "Reward Lineup"
 	},
 	{
 		"assign": "survival_return_dialog_title",
 		"jp_text": "極討サバイバル再開確認",
-		"tr_text": ""
+		"tr_text": "Resume Extreme Survival"
 	},
 	{
 		"assign": "survival_return_dialog_message",
 		"jp_text": "極討サバイバルの中断データがあります。\nプレイを再開しますか？\n\n※再開してもOPは消費されません。\n<color=#ff0000>※終了した場合、プレイ状況に関係なく\n   アイテム・メセタ・経験値は獲得できません。</color>",
-		"tr_text": ""
+		"tr_text": "Data for a previously interrupted run was found.\nDo you want to resume from where you stopped?\n\n※OP will not be consumed if you restart.\n<color=#ff0000>※終了した場合、プレイ状況に関係なく\n   アイテム・メセタ・経験値は獲得できません。</color>"
 	},
 	{
 		"assign": "survival_return_dialog_return_button",
 		"jp_text": "再開する",
-		"tr_text": ""
+		"tr_text": "Return"
 	},
 	{
 		"assign": "survival_return_dialog_end_button",
 		"jp_text": "終了する",
-		"tr_text": ""
+		"tr_text": "Finish"
 	},
 	{
 		"assign": "survival_quest_name",
 		"jp_text": "極討サバイバル",
-		"tr_text": ""
+		"tr_text": "Extreme Survival"
 	},
 	{
 		"assign": "survival_quest_ranking_no_entry",
 		"jp_text": "<color=#e25f04>未参加</color>",
-		"tr_text": ""
+		"tr_text": "<color=#e25f04>None</color>"
 	},
 	{
 		"assign": "sb_reward_dialog_t",
 		"jp_text": "極討サバイバル報酬",
-		"tr_text": ""
+		"tr_text": "Extreme Survival Rewards"
 	},
 	{
 		"assign": "sb_reward_dialog_score_title_caption",
