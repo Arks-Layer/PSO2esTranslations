@@ -19327,7 +19327,7 @@
 	{
 		"assign": "acceptbox_item_chip_over_message",
 		"jp_text": "パックの空き容量または所持数をオーバーするため受け取れません。\n\nチップパックは、拡張するか強化／売却\nアイテムパックは、売却をして整理してください。",
-		"tr_text": ""
+		"tr_text": "You can't receive some items because you have the\nmaximum allowed or because your inventory is full.\nGet rid of items or chips by selling them or using them\nfor grinding, or expand your inventory size."
 	},
 	{
 		"assign": "wh_36_01",
@@ -19417,7 +19417,7 @@
 	{
 		"assign": "collect_search_comment_00",
 		"jp_text": "大成功時はゲージの上昇量が増加します。\n残り回数は毎日５時にリセットされます。",
-		"tr_text": ""
+		"tr_text": "A Great Success fills the gauge more than normal.\nYour remaining searches reset at 5:00 JST daily."
 	},
 	{
 		"assign": "collect_search_info_title",
@@ -19487,7 +19487,7 @@
 	{
 		"assign": "dialog_body_collect_search_use_free",
 		"jp_text": "「<%SHEET>」の\nコレクトサーチを実行します。よろしいですか？\n\n※コレクトサーチは毎日初回のみ無料で利用できます。\n２回目以降の利用には<%AC>が必要です。",
-		"tr_text": "Boosting 「<%SHEET>」.\nIs that OK?\n\n※Boosting a sheet once is free,\nbut doing it again will require <%AC>."
+		"tr_text": "Boosting <%SHEET>.\nIs that OK?\n\n※Boosting a sheet once is free,\nbut doing it again will require <%AC>."
 	},
 	{
 		"assign": "dialog_title_collect_search_use_ac",
@@ -19497,7 +19497,7 @@
 	{
 		"assign": "dialog_body_collect_search_use_ac",
 		"jp_text": "{0}<%AC>で「<%SHEET>」の\nコレクトサーチを1回行います。よろしいですか？\n\n次回連続サーチボーナス:<color=#ffff00>大成功確率{1}倍!</color>\n所持<%AC>：<%current_AC>",
-		"tr_text": ""
+		"tr_text": "NSpending {0}<%AC> to boost <%SHEET>.\nIs that OK?\n\nConsecutive search bonus: <color=#ffff00>Great Success Rate x {1}!</color>\nYour <%AC>: <%current_AC>"
 	},
 	{
 		"assign": "collect_search_one_time",
@@ -19602,7 +19602,7 @@
 	{
 		"assign": "acshop_dialog_b_43",
 		"jp_text": "OP回復薬ミニの使用する数を選択してください。\n\n\n現在のOP：<%current_exdrive>\n\n所持OP回復薬ミニ：<%current_oprecovery_pass_mini>",
-		"tr_text": ""
+		"tr_text": "Choose how many OP Mini Recovery Meds to use.\n\n\nCurrent OP: <%current_exdrive>\n\nOP Mini Recovery Meds owned: <%current_oprecovery_pass_mini>"
 	},
 	{
 		"assign": "chip_depot_title",
@@ -19667,22 +19667,22 @@
 	{
 		"assign": "chip_depot_over_num_leave",
 		"jp_text": "預けるチップ倉庫に空き容量がありません。\n\nチップ倉庫を拡張するか\n強化／売却をして整理してください。\n<color=red><%chip_over>枚</color>オーバーしてしまいます。",
-		"tr_text": ""
+		"tr_text": "You don't have enough space in your chip storage\nto make this deposit.\nEither expand your chip storage or make room\nby selling chips or using them as grind material.\nExtra space needed: <color=red><%chip_over></color>"
 	},
 	{
 		"assign": "chip_depot_over_num_leave_max",
 		"jp_text": "預けるチップ倉庫に空き容量がありません。\n\nチップを強化／売却して整理してください。\n<color=red><%chip_over>枚</color>オーバーしてしまいます。",
-		"tr_text": ""
+		"tr_text": "You don't have enough space in your chip storage\nto make this deposit.\nMake room by selling chips or using them as grind material.\nExtra space needed: <color=red><%chip_over></color>"
 	},
 	{
 		"assign": "chip_depot_over_num_take",
 		"jp_text": "受け取るチップパックに空き容量がありません。\n\nチップパックを拡張するか\n強化／売却をして整理してください。\n<color=red><%chip_over>枚</color>オーバーしてしまいます。",
-		"tr_text": ""
+		"tr_text": "You don't have enough space in your chip inventory\nto make this withdrawal.\nEither expand your chip inventory or make room\nby selling chips or using them as grind material.\nExtra space needed: <color=red><%chip_over></color>"
 	},
 	{
 		"assign": "chip_depot_over_num_take_max",
 		"jp_text": "受け取るチップパックに空き容量がありません。\n\nチップを強化／売却して整理してください。\n<color=red><%chip_over>枚</color>オーバーしてしまいます。",
-		"tr_text": ""
+		"tr_text": "You don't have enough space in your chip inventory\nto make this withdrawal.\nMake room by selling chips or using them as grind material.\nExtra space needed: <color=red><%chip_over></color>"
 	},
 	{
 		"assign": "chip_depot_expand_button",
@@ -19822,7 +19822,7 @@
 	{
 		"assign": "scratch_pickup_reset_finish_body",
 		"jp_text": "ドリームスクラッチの内容をリセットしました。\n封入するチップを選びなおしてください。",
-		"tr_text": ""
+		"tr_text": "Dream Scratch contents have been reset.\nPlease reselect chips to include."
 	},
 	{
 		"assign": "scratch_gc_select_guild",
@@ -20167,7 +20167,7 @@
 	{
 		"assign": "acceptbox_sale_failed_dialog_title",
 		"jp_text": "受け取りボックスの売却　期限切れ",
-		"tr_text": ""
+		"tr_text": "Reception Box Sale Expired"
 	},
 	{
 		"assign": "acceptbox_sale_failed_dialog_text",
@@ -20722,7 +20722,7 @@
 	{
 		"assign": "quest_linkslot_button",
 		"jp_text": "リンクスロット",
-		"tr_text": ""
+		"tr_text": "Link Slot"
 	},
 	{
 		"assign": "quest_linkskill_week_element",
@@ -20732,7 +20732,7 @@
 	{
 		"assign": "quest_lobby_guide_01",
 		"jp_text": "<color=#f0df60>現在選択しているパレットのリンクスロットの確認画面となります。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Now displaying the link slots of your currently equipped chips.</color>"
 	},
 	{
 		"assign": "quest_event_character_title",
@@ -21982,7 +21982,7 @@
 	{
 		"assign": "dialog_premium_bonus_expired_message",
 		"jp_text": "プレミアム有効期限が切れたため\n素材の最大所持数が変更されます。\n最大所持数を超えて素材を入手する場合\n受け取りボックスに送られます。\n※現在所持している素材は、このまま所持可能です。",
-		"tr_text": ""
+		"tr_text": "Your Premium expiration date has passed, so the\nnumber of material chips you can hold has changed.\nIf you receive more than you are able to hold, the\nexcess will be sent to your Reception Box.\n※You can keep whatever you currently have."
 	},
 	{
 		"assign": "field_optioncommon_title",
@@ -22552,22 +22552,22 @@
 	{
 		"assign": "raid_dps_achievement_button",
 		"jp_text": "チャレンジ\nミッション",
-		"tr_text": ""
+		"tr_text": "Challenge\nMissions"
 	},
 	{
 		"assign": "raid_dps_achievement_title",
-		"jp_text": "チャレンジミッション",
+		"jp_text": "Challenge Missions",
 		"tr_text": ""
 	},
 	{
 		"assign": "raid_dps_achievement_max_items_title",
 		"jp_text": "最大ダメージ",
-		"tr_text": ""
+		"tr_text": "Highest Damage"
 	},
 	{
 		"assign": "raid_dps_achievement_total_items_title",
 		"jp_text": "累積ダメージ",
-		"tr_text": ""
+		"tr_text": "Total Damage"
 	},
 	{
 		"assign": "raid_dps_my_best",
@@ -22677,27 +22677,27 @@
 	{
 		"assign": "ura_towerquest_top_guide_00",
 		"jp_text": "<color=#f0df60>ナイトメアタワー踏破を目指す期間限定イベントです。塔の攻略を目指してください。クリアタイムによって、得られる報酬が異なります。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>This is a limited-time event where the objective is to climb the Nightmare Tower. You get better rewards for faster clear times.</color>"
 	},
 	{
 		"assign": "ura_towerquest_top_guide_01",
 		"jp_text": "<color=#f0df60>プレイするブロックを選択してください。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Select a Block to play.</color>"
 	},
 	{
 		"assign": "ura_towerquest_top_guide_friend",
 		"jp_text": "<color=#f0df60>フレンド通信：<%name1>さんがナイトメアタワー<%value1>Fをクリアしました。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Friend communication: <%name1> has cleared Nightmare Tower floor <%value1>F.                                          </color>"
 	},
 	{
 		"assign": "ura_towerquest_top_guide_ranking",
 		"jp_text": "<color=#f0df60>ナイトメアタワーランキングの順位です。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>This is the Nightmare Tower ranking list.</color>"
 	},
 	{
 		"assign": "ura_towerquest_top_guide_ranking_result",
 		"jp_text": "<color=#f0df60>ナイトメアタワーランキングの順位です。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>This is the Nightmare Tower ranking list.</color>"
 	},
 	{
 		"assign": "ura_blockresult_all_eternal_tower_clear",
@@ -22842,7 +22842,7 @@
 	{
 		"assign": "chip_awake_dialog_b_shortage_meseta",
 		"jp_text": "メセタが不足しているため\nチップ特装をすることができません。",
-		"tr_text": ""
+		"tr_text": "Insufficient Meseta to specialize this chip."
 	},
 	{
 		"assign": "chip_awake_skill_dialog_t_shortage_meseta",
@@ -22852,7 +22852,7 @@
 	{
 		"assign": "chip_awake_skill_dialog_b_shortage_meseta",
 		"jp_text": "メセタが不足しているため\nプラグ強化をすることができません。",
-		"tr_text": ""
+		"tr_text": "Insufficient Meseta to Plug-In to this chip."
 	},
 	{
 		"assign": "chip_awake_dialog_t_shortage_chiplv",
@@ -22862,7 +22862,7 @@
 	{
 		"assign": "chip_awake_dialog_b_shortage_chiplv",
 		"jp_text": "特装対象のチップのレベルが\n最大レベルに達していないため\nチップ特装をすることができません。",
-		"tr_text": ""
+		"tr_text": "You cannot specialize this chip as it\nhas not reached its maximum level."
 	},
 	{
 		"assign": "chip_awake_skill_dialog_t_shortage_chiplv",
@@ -22882,7 +22882,7 @@
 	{
 		"assign": "chip_awake_dialog_b_shortage_materialchip",
 		"jp_text": "素材チップが不足しているため\nチップ特装をすることができません。",
-		"tr_text": ""
+		"tr_text": "Insufficient material chips to specialize this chip."
 	},
 	{
 		"assign": "chip_awake_skill_dialog_t_shortage_materialchip",
@@ -22892,7 +22892,7 @@
 	{
 		"assign": "chip_awake_skill_dialog_b_shortage_materialchip",
 		"jp_text": "素材チップが不足しているため\nプラグ強化をすることができません。",
-		"tr_text": ""
+		"tr_text": "Insufficient material chips to Plug-In to this chip."
 	},
 	{
 		"assign": "chip_awake_dialog_t_decide",
@@ -22902,7 +22902,7 @@
 	{
 		"assign": "chip_awake_dialog_b_decide",
 		"jp_text": "次の素材チップとメセタを消費して、チップ特装を実行します。\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "Chip specialization will consume the following\nmaterial chips and Meseta.\nDo you wish to continue?"
 	},
 	{
 		"assign": "chip_awake_dialog_b_decide_t_material",
@@ -22947,17 +22947,17 @@
 	{
 		"assign": "chip_awake_skill_dialog_b_decide",
 		"jp_text": "次の素材チップとメセタを消費して、プラグ強化を実行します。\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "Chip Plug-In will consume the following\nmaterial chips and Meseta.\nDo you wish to continue?"
 	},
 	{
 		"assign": "chip_awake_skill_dialog_b_decide_t_material",
 		"jp_text": "消費素材チップ",
-		"tr_text": ""
+		"tr_text": "Material Chips"
 	},
 	{
 		"assign": "chip_awake_skill_dialog_b_decide_t_details",
 		"jp_text": "プラグ強化効果",
-		"tr_text": ""
+		"tr_text": "Plug Effect"
 	},
 	{
 		"assign": "chip_awake_skill_dialog_b_decide_b_skilllv",
