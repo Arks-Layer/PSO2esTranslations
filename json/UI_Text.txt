@@ -19087,7 +19087,7 @@
 	{
 		"assign": "acceptbox_guide_00",
 		"jp_text": "<color=#f0df60>受け取り期限のあるアイテムにご注意ください。「一括売却」に登録されたアイテムは「選択対象を受け取る」で受け取れます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Please note that some items have a deadline on when they can be received. Items registered for Bulk Sale can be received with \"Grab Selected\"."
 	},
 	{
 		"assign": "acceptbox_title",
@@ -19342,12 +19342,12 @@
 	{
 		"assign": "wh_37_01",
 		"jp_text": "緊急クエストに「覇級」が登場しました。\n緊急クエストの覇級に出発するには「覇級トリガー」が必要です。\n「覇級トリガー」は超級の撃破報酬で入手できます。",
-		"tr_text": ""
+		"tr_text": "An Extra Hard enemy has appeared in the\nEmergency Quest. You need an Extra Hard Trigger\nto begin an Extra Hard Emergency Quest."
 	},
 	{
 		"assign": "wh_37_02",
 		"jp_text": "覇級では、トリガーを使ってクエストを解放した時に\n討伐対象の弱点属性が明らかになります。\n相手の弱点に合わせて、最適な武器やチップで挑みましょう！",
-		"tr_text": ""
+		"tr_text": "When you use an Extra Hard Trigger to unlock\nthe Extra Hard Emergency Quest, the enemy's\nelemental weakness will be revealed.\nTry using weapons and chips that take\nadvantage of that elemental weakness!"
 	},
 	{
 		"assign": "reward_button_close",
