@@ -24112,92 +24112,92 @@
 	{
 		"assign": "sb_reward_dialog_score_title_caption",
 		"jp_text": "討伐数・獲得スコア・ボーナス",
-		"tr_text": ""
+		"tr_text": "Kill Count Score Bonus"
 	},
 	{
 		"assign": "sb_reward_dialog_killcount_caption",
 		"jp_text": "討伐数",
-		"tr_text": ""
+		"tr_text": "Number defeated"
 	},
 	{
 		"assign": "sb_reward_dialog_score_caption",
 		"jp_text": "スコア",
-		"tr_text": ""
+		"tr_text": "Score"
 	},
 	{
 		"assign": "sb_reward_dialog_reward_title_caption",
 		"jp_text": "報酬",
-		"tr_text": ""
+		"tr_text": "Reward"
 	},
 	{
 		"assign": "sb_reward_dialog_phase_bonus_title_caption",
 		"jp_text": "フェーズ達成ボーナス",
-		"tr_text": ""
+		"tr_text": "Phase Bonus"
 	},
 	{
 		"assign": "sb_reward_dialog_phase_bonus_num",
 		"jp_text": "+{0}個",
-		"tr_text": ""
+		"tr_text": "+{0}"
 	},
 	{
 		"assign": "SB_shop_dialog_t",
 		"jp_text": "【PHASE{0}】 使用効果選択",
-		"tr_text": ""
+		"tr_text": "[PHASE {0}] Effect Selection"
 	},
 	{
 		"assign": "SB_shop_dialog_Caption",
 		"jp_text": "使用する効果を1つ選んでください。",
-		"tr_text": ""
+		"tr_text": "Select 1 effect to use."
 	},
 	{
 		"assign": "SB_shop_PhaseStart_ButtonCaption",
 		"jp_text": "<color=#FFFF00>【PHASE{0}】を開始</color>",
-		"tr_text": ""
+		"tr_text": "<color=#FFFF00>Start [PHASE {0}]</color>"
 	},
 	{
 		"assign": "SB_shop_Use_ButtonCaption",
 		"jp_text": "　　　効果を使用",
-		"tr_text": ""
+		"tr_text": "     Use Effect"
 	},
 	{
 		"assign": "SB_status_dialog_t",
 		"jp_text": "使用効果・ステータス",
-		"tr_text": ""
+		"tr_text": "Effect / Status"
 	},
 	{
 		"assign": "SB_status_LTBuff_TitleCaption",
 		"jp_text": "持続効果",
-		"tr_text": ""
+		"tr_text": "Persistent"
 	},
 	{
 		"assign": "SB_status_STBuff_TitleCaption",
 		"jp_text": "時限効果",
-		"tr_text": ""
+		"tr_text": "TImed"
 	},
 	{
 		"assign": "SB_shop_point_possess",
 		"jp_text": "所持サポートポイント <color=#68a0a7>/</color>",
-		"tr_text": ""
+		"tr_text": "Support Points <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "SB_shop_point_use",
 		"jp_text": " 消費<color=#68a0a7> /</color>",
-		"tr_text": ""
+		"tr_text": " Using <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "SB_Spoint_dialog_t",
 		"jp_text": "【PHASE{0}】 終了",
-		"tr_text": ""
+		"tr_text": "[PHASE {0}] End"
 	},
 	{
 		"assign": "SB_Spoint_unit_count",
 		"jp_text": "{0}回×{1}pt",
-		"tr_text": ""
+		"tr_text": "{0} x {1}pt"
 	},
 	{
 		"assign": "SB_Spoint_unit_Meter",
 		"jp_text": "{0}ｍ×{1}pt",
-		"tr_text": ""
+		"tr_text": "{0}m x {1}pt"
 	},
 	{
 		"assign": "SB_Spoint_pt",
@@ -24207,7 +24207,7 @@
 	{
 		"assign": "SB_Spoint_Getpoint_TitleCaption",
 		"jp_text": "所持サポートポイント",
-		"tr_text": ""
+		"tr_text": "Support Points owned"
 	},
 	{
 		"assign": "SB_Spoint_Toppoint_TitleCaption",
@@ -24372,7 +24372,7 @@
 	{
 		"assign": "auto_rematch_setting_window_all",
 		"jp_text": "全て",
-		"tr_text": ""
+		"tr_text": "All"
 	},
 	{
 		"assign": "auto_rematch_setting_window_one",
