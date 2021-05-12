@@ -23947,12 +23947,12 @@
 	{
 		"assign": "lobby_survival_mission",
 		"jp_text": "残りミッション",
-		"tr_text": "Missions Left"
+		"tr_text": "Missions"
 	},
 	{
 		"assign": "lobby_survival_mission_num",
 		"jp_text": "{0:#,0}",
-		"tr_text": "{0:#,0}"
+		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_mission_button",
@@ -24007,12 +24007,12 @@
 	{
 		"assign": "lobby_survival_summary_attribute",
 		"jp_text": "有効属性 <color=#68a0a7>/</color>",
-		"tr_text": "Featured Attribute <color=#68a0a7>/</color>"
+		"tr_text": "Weakness <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "lobby_survival_summary_enemy",
 		"jp_text": "出現エネミー",
-		"tr_text": "Appearing Enemy"
+		"tr_text": "Enemies"
 	},
 	{
 		"assign": "lobby_survival_summary_reward",
@@ -24057,12 +24057,12 @@
 	{
 		"assign": "sb_reward_dialog_score_title_caption",
 		"jp_text": "討伐数・獲得スコア・ボーナス",
-		"tr_text": "Defeated Enemies Score Bonus"
+		"tr_text": "Kill Score Bonus"
 	},
 	{
 		"assign": "sb_reward_dialog_killcount_caption",
 		"jp_text": "討伐数",
-		"tr_text": "Defeated Enemies"
+		"tr_text": "Kills"
 	},
 	{
 		"assign": "sb_reward_dialog_score_caption",
@@ -24077,12 +24077,12 @@
 	{
 		"assign": "sb_reward_dialog_phase_bonus_title_caption",
 		"jp_text": "フェーズ達成ボーナス",
-		"tr_text": "Phase Reached Bonus"
+		"tr_text": "Phase Bonus"
 	},
 	{
 		"assign": "sb_reward_dialog_phase_bonus_num",
 		"jp_text": "+{0}個",
-		"tr_text": "+{0} Phases"
+		"tr_text": ""
 	},
 	{
 		"assign": "SB_shop_dialog_t",
@@ -24152,7 +24152,7 @@
 	{
 		"assign": "SB_Spoint_Getpoint_TitleCaption",
 		"jp_text": "所持サポートポイント",
-		"tr_text": "Support Points Acquired"
+		"tr_text": "Support Points"
 	},
 	{
 		"assign": "SB_Spoint_Toppoint_TitleCaption",
@@ -24167,7 +24167,7 @@
 	{
 		"assign": "SB_Spoint_Carryover_Caption",
 		"jp_text": "前フェーズから持ち越し",
-		"tr_text": "Points from last phase"
+		"tr_text": "Carryover Points"
 	},
 	{
 		"assign": "SB_Spoint_NormalAttack_Caption",
@@ -24257,7 +24257,7 @@
 	{
 		"assign": "survival_dialog_t_01",
 		"jp_text": "極討サバイバルリタイア",
-		"tr_text": "Extreme Survival Retire"
+		"tr_text": "Retire from Extreme Survival"
 	},
 	{
 		"assign": "survival_dialog_b_01",
