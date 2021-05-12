@@ -24042,7 +24042,7 @@
 	{
 		"assign": "lobby_survival_guide_mission",
 		"jp_text": "<color=#f0df60>極討サバイバルの達成報酬です。入手条件を満たすと、報酬を受け取ることができます。</color>",
-		"tr_text": "Rewards for Extreme Survival. You can receive rewards by clearing the requisite conditions."
+		"tr_text": "<color=#f0df60>Rewards for Extreme Survival. You can receive rewards by clearing the requisite conditions.</color>"
 	},
 	{
 		"assign": "lobby_survival_slash",
@@ -24082,7 +24082,7 @@
 	{
 		"assign": "survival_return_dialog_message",
 		"jp_text": "極討サバイバルの中断データがあります。\nプレイを再開しますか？\n\n※再開してもOPは消費されません。\n<color=#ff0000>※終了した場合、プレイ状況に関係なく\n   アイテム・メセタ・経験値は獲得できません。</color>",
-		"tr_text": "Data was interrupted during Extreme Survival.\nAre you sure you want to resume?\n\n※Restarting does not consume OP.\n<color=#ff0000>※Exiting the quest will forfeit all items, meseta, and EXP."
+		"tr_text": "Data was interrupted during Extreme Survival.\nAre you sure you want to resume?\n\n※Restarting does not consume OP.\n<color=#ff0000>※Exiting the quest will forfeit all items, Meseta, and EXP."
 	},
 	{
 		"assign": "survival_return_dialog_return_button",
@@ -24137,7 +24137,7 @@
 	{
 		"assign": "sb_reward_dialog_phase_bonus_num",
 		"jp_text": "+{0}個",
-		"tr_text": "+{0}"
+		"tr_text": ""
 	},
 	{
 		"assign": "SB_shop_dialog_t",
@@ -24277,7 +24277,7 @@
 	{
 		"assign": "window_help_LM45",
 		"jp_text": "wh_60_01,\n極討サバイバルとは\n次々に襲ってくるエネミーを倒していく期間限定の特別クエストです。\n出発には「オペレーションポイント（ＯＰ）」を消費します。,\nwh_60_02,\nこのクエストのバトルは、決められた数の<color=yellow>エネミーを倒すことで進行</color>します。\n<color=yellow>フェーズが進むほど、強力なエネミーが登場</color>するので\n万全の準備をして挑みましょう。,\nwh_60_03,\nエネミーが通常のバトルよりも多く登場するため\n<color=yellow>バトルカメラ設定を「遠」</color>にするのがおすすめです。\n画面右上の一時停止ボタンから表示される「オプション」で変更できます。,\nwh_60_04,\nエネミーからの攻撃に加え、フィールドに設置されたダーカー兵器から\n一定時間ごとに、衝撃波によるダメージを受けます。\n衝撃波は徐々に強力になっていくので注意しましょう。,\nwh_60_05,\nバトル中の行動によって、<color=yellow>サポートポイント</color>が貯まります。\nフェーズが開始する前に、所持しているサポートポイントを使用して\nプレイヤーの強化を行うことができます。,\nwh_60_06,\n先のフェーズに進むほど、多くの報酬が貰えます。\nサポートポイントの獲得で得られる効果を駆使して\nより多くのエネミー打倒を目指しましょう！,",
-		"tr_text": "wh_60_01,\nExtreme Survival\nDefeat hoardes of enemies within the time limit.\n「Operation Points（ＯＰ）」will be consumed upon departure.,\nwh_60_02,\nProgress through this quest by defeating a fixed number of <color=yellow>enemies.\n<color=yellow>Powerful enemies will appear in the later Phases.</color>\nSo give it your best shot!,\nwh_60_03,\nDue to large amounts of enemies appearing\nIt is recommended to set the <color=yellow>battle camera to「far」</color>\nYou can access it from「Options」in the pause menu on the top right of the screen.,\nwh_60_04,\nDarker weapons emitting shockwaves will damage you at regular intervals alongside enemy attacks.\nThe shockwaves will strengthen over time.,\nwh_60_05,\nDepending on your actions, you can acquire <color=yellow>Support Points</color>\nYou can spend your Support Points before the Phase starts.\nOn strengthening effects,\nwh_60_06,\nLater Phases contain more awards.\nMaximise effects through earning Support Points.\nDefeat as many enemies as you can!"
+		"tr_text": "wh_60_01,\nExtreme Survival\nDefeat hoardes of enemies within the time limit.\n「Operation Points (OP)」will be consumed upon departure.,\nwh_60_02,\nProgress through this quest by defeating a fixed number of <color=yellow>enemies.\n<color=yellow>Powerful enemies will appear in the later Phases.</color>\nSo give it your best shot!,\nwh_60_03,\nDue to large amounts of enemies appearing\nIt is recommended to set the <color=yellow>battle camera to「far」</color>\nYou can access it from「Options」in the pause menu on the top right of the screen.,\nwh_60_04,\nDarker weapons emitting shockwaves will damage you at regular intervals alongside enemy attacks.\nThe shockwaves will strengthen over time.,\nwh_60_05,\nDepending on your actions, you can acquire <color=yellow>Support Points</color>\nYou can spend your Support Points before the Phase starts.\nOn strengthening effects,\nwh_60_06,\nLater Phases contain more awards.\nMaximise effects through earning Support Points.\nDefeat as many enemies as you can!"
 	},
 	{
 		"assign": "survival_achievement_title",
