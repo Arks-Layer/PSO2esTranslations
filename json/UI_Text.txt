@@ -667,12 +667,32 @@
 	{
 		"assign": "acshop_oprecovery_pass_buff_update_03",
 		"jp_text": "<color=#00ccff>CP回復力</color>アップの効果が発生！\n\n<color=#00ccff>CP回復力</color>アップの効果が<color=#f6bf03>更新</color>されました。\n<%rate>倍(<%finish_datetime>まで)",
-		"tr_text": "<color=#00ccff>CP Energy</color> effect up active!\n\n<color=#00ccff>CP Energy</color>effect up has been <color=#f6bf03>updated</color>.\n<%rate> expires in <%finish_datetime>."
+		"tr_text": "<color=#00ccff>CP Recovery</color> effect up active!\n\n<color=#00ccff>CP Recovery</color>effect up has been <color=#f6bf03>updated</color>.\n<%rate> expires in <%finish_datetime>."
 	},
 	{
 		"assign": "acshop_oprecovery_pass_buff_update_04",
 		"jp_text": "<color=#ffff00>フレンドアシスト</color>攻撃力アップの効果が発生！\n\n<color=#ffff00>フレンドアシスト</color>攻撃力アップの効果が\n<color=#f6bf03>更新</color>されました。\n<%rate>倍(<%finish_datetime>まで)",
 		"tr_text": "<color=#ffff00>Friend Assist</color> effect up active!\n\n<color=#ffff00>Friend Assist</color> power has been <color=#f6bf03>updated</color>.\n<%rate> expires in <%finish_datetime>."
+	},
+	{
+		"assign": "acshop_oprecovery_pass_buff_update_and_survival_01",
+		"jp_text": "<color=#ff0000>攻撃力</color>アップの効果が発生！\n\n・<color=#ff0000>攻撃力</color>アップの効果が<color=#f6bf03>更新</color>されました。\n<%rate>倍(<%finish_datetime>まで)\n・<color=#ffa500>所持サポートポイント</color>アップの効果時間が<color=#f6bf03>更新</color>。",
+		"tr_text": "<color=#ffff00>ATK</color> effect up active!\n\n<color=#ffff00>ATK</color> power has been <color=#f6bf03>updated</color>.\n<%rate> expires in <%finish_datetime>.\n・<color=#ffa500>所持サポートポイント</color> up time has been <color=#f6bf03>updated</color>."
+	},
+	{
+		"assign": "acshop_oprecovery_pass_buff_update_and_survival_02",
+		"jp_text": "<color=#00dd72>防御力</color>アップの効果が発生！\n\n・<color=#00dd72>防御力</color>アップの効果が<color=#f6bf03>更新</color>されました。\n<%rate>倍(<%finish_datetime>まで)\n・<color=#ffa500>所持サポートポイント</color>アップの効果時間が<color=#f6bf03>更新</color>。",
+		"tr_text": "<color=#ffff00>DEF</color> effect up active!\n\n<color=#ffff00>DEF</color> power has been <color=#f6bf03>updated</color>.\n<%rate> expires in <%finish_datetime>.\n・<color=#ffa500>所持サポートポイント</color> up time has been <color=#f6bf03>updated</color>."
+	},
+	{
+		"assign": "acshop_oprecovery_pass_buff_update_and_survival_03",
+		"jp_text": "<color=#00ccff>CP回復力</color>アップの効果が発生！\n\n・<color=#00ccff>CP回復力</color>アップの効果が<color=#f6bf03>更新</color>されました。\n<%rate>倍(<%finish_datetime>まで)\n・<color=#ffa500>所持サポートポイント</color>アップの効果時間が<color=#f6bf03>更新</color>。",
+		"tr_text": "<color=#ffff00>CP Recovery</color> effect up active!\n\n<color=#ffff00>CP Recovery</color> power has been <color=#f6bf03>updated</color>.\n<%rate> expires in <%finish_datetime>.\n・<color=#ffa500>所持サポートポイント</color> up time has been <color=#f6bf03>updated</color>."
+	},
+	{
+		"assign": "acshop_oprecovery_pass_buff_update_and_survival_04",
+		"jp_text": "<color=#ffff00>フレンドアシスト</color>アップの効果が発生！\n\n・<color=#ffff00>フレンドアシスト</color>アップの効果が<color=#f6bf03>更新</color>されました。\n<%rate>倍(<%finish_datetime>まで)\n・<color=#ffa500>所持サポートポイント</color>アップの効果時間が<color=#f6bf03>更新</color>。",
+		"tr_text": "<color=#ffff00>Friend Assist</color> effect up active!\n\n<color=#ffff00>Friend Assist</color> power has been <color=#f6bf03>updated</color>.\n<%rate> expires in <%finish_datetime>.\n・<color=#ffa500>所持サポートポイント</color> up time has been <color=#f6bf03>updated</color>."
 	},
 	{
 		"assign": "acshop_oprecovery_pass_attention",
@@ -707,7 +727,7 @@
 	{
 		"assign": "acshop_dialog_b_41",
 		"jp_text": "所持数オーバーのアイテムのため使用できません。",
-		"tr_text": "You have over the limit of items in your inventory."
+		"tr_text": "You have over the limit of items in your Inventory."
 	},
 	{
 		"assign": "current_dp_per_max_view",
@@ -1212,7 +1232,7 @@
 	{
 		"assign": "charamake_dialog_b_00",
 		"jp_text": "このキャラクターでゲームを開始します。\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "Now starting the game with this character.\nAre you sure?"
 	},
 	{
 		"assign": "charamake_dialog_t_01",
@@ -1647,7 +1667,7 @@
 	{
 		"assign": "classcounter_dialog_b_04",
 		"jp_text": "以前装備していた武器が\nアイテムパックに無かったため、\n武器を解除しました。",
-		"tr_text": "Weapons that weren't\nin the character's inventory\nwere removed."
+		"tr_text": "Weapons that weren't\nin the character's Inventory\nwere removed."
 	},
 	{
 		"assign": "option_guide_00",
@@ -1802,7 +1822,7 @@
 	{
 		"assign": "equip_dialog_b_06",
 		"jp_text": "アイテムパック内の状態が変更されました。\n条件に合わなくなったチップの装備は解除されます。",
-		"tr_text": "The state of your inventory has changed.\nItems you are no longer able to use will be unequipped."
+		"tr_text": "The state of your Inventory has changed.\nItems you are no longer able to use will be unequipped."
 	},
 	{
 		"assign": "equip_dialog_t_07",
@@ -1932,7 +1952,7 @@
 	{
 		"assign": "friend_dialog_b_01",
 		"jp_text": "フレンド申請を行います。\nよろしいですか？",
-		"tr_text": "This will send a friend request.\nAre you sure?"
+		"tr_text": "This will send a Friend Request.\nAre you sure?"
 	},
 	{
 		"assign": "friend_dialog_t_02",
@@ -1972,7 +1992,7 @@
 	{
 		"assign": "friend_dialog_b_05",
 		"jp_text": "フレンド申請を行いました。",
-		"tr_text": "Sent a friend request."
+		"tr_text": "Sent a Friend Request."
 	},
 	{
 		"assign": "friend_dialog_t_06",
@@ -2002,7 +2022,7 @@
 	{
 		"assign": "friend_dialog_b_08",
 		"jp_text": "フレンド申請を承認しました。",
-		"tr_text": "Approved friend request."
+		"tr_text": "Approved Friend Request."
 	},
 	{
 		"assign": "friend_dialog_t_09",
@@ -2022,7 +2042,7 @@
 	{
 		"assign": "friend_dialog_b_10",
 		"jp_text": "フレンド申請を拒否しました。",
-		"tr_text": "Rejected friend request."
+		"tr_text": "Rejected Friend Request."
 	},
 	{
 		"assign": "friend_dialog_t_11",
@@ -2032,7 +2052,7 @@
 	{
 		"assign": "friend_dialog_b_11",
 		"jp_text": "フレンド申請を取り下げますか？",
-		"tr_text": "Withdraw the friend request?"
+		"tr_text": "Withdraw the Friend Request?"
 	},
 	{
 		"assign": "friend_dialog_t_12",
@@ -2042,7 +2062,7 @@
 	{
 		"assign": "friend_dialog_b_12",
 		"jp_text": "フレンド申請を取り下げました。",
-		"tr_text": "Withdrew the friend request."
+		"tr_text": "Withdrew the Friend Request."
 	},
 	{
 		"assign": "friend_dialog_t_13",
@@ -2132,7 +2152,7 @@
 	{
 		"assign": "labo_dialog_b_00",
 		"jp_text": "選択中の素材チップをリセットして\n強化チップ選択画面に戻ります。\nよろしいですか？",
-		"tr_text": "Reseting the selection of chips.\nYou will be returned to the previous screen.\nIs that ok?"
+		"tr_text": "Resetting the selection of chips.\nYou will be returned to the previous screen.\nIs that ok?"
 	},
 	{
 		"assign": "labo_dialog_t_01",
@@ -2197,7 +2217,7 @@
 	{
 		"assign": "labo_dialog_b_04",
 		"jp_text": "選択中の素材チップをリセットして\n解放チップ選択画面に戻ります。\nよろしいですか？",
-		"tr_text": "Reseting the selection of chips.\nYou will be returned to the previous screen.\nIs that ok?"
+		"tr_text": "Resetting the selection of chips.\nYou will be returned to the previous screen.\nIs that ok?"
 	},
 	{
 		"assign": "labo_dialog_t_05",
@@ -2827,27 +2847,27 @@
 	{
 		"assign": "menu_dialog_b_08",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n\niOS版に端末引き継ぎを行う場合、\n現在所持しているACはiOS版では使用できません。\n※iOS版におけるアークスキャッシュの単位は\n「iAC」となります。\n※端末引き継ぎによってACの情報は消えません。\n『PSO2』、『PSO2es』Android版を\n再度プレイする際に使用できます。\n\n※SEGA IDを取得し、キャラクター連動を行えば\nPSO2es専用プレイヤーIDの入力は不要です。 \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\nキャラクター連動を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transferring between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transferring to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransferring to an Apple Device\nand can be transferred back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_b_08_uni",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n\n※iOS版に端末引き継ぎを行う場合、\niOS版ではアークスキャッシュの単位は「iAC」と表示されます。\n\n※SEGA IDを取得し、キャラクター連動を行えば\nPSO2es専用プレイヤーIDの入力は不要です。 \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\nキャラクター連動を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transferring between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transferring to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransferring to an Apple Device\nand can be transferred back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_b_08_ios_ac",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n\nAndroid版に端末引き継ぎを行う場合、\n現在所持しているiACは\nAndroid版では使用できません。\n※Android版のアークスキャッシュの単位は\n「AC」となります。\n※端末引き継ぎによってiACの情報は消えません。\n『PSO2es』iOS版を再度プレイする際に使用できます。\n\n※SEGA IDを取得し、キャラクター連動を行えば\nPSO2es専用プレイヤーIDの入力は不要です。 \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\nキャラクター連動を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transferring between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transferring to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransferring to an Apple Device\nand can be transferred back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_b_08_ios_ac_uni",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n\n※Android版に端末引き継ぎを行う場合、\nAndroid版ではアークスキャッシュの単位は「AC」と表示されます。\n\n※SEGA IDを取得し、キャラクター連動を行えば\nPSO2es専用プレイヤーIDの入力は不要です。 \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\nキャラクター連動を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transferring between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transferring to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransferring to an Apple Device\nand can be transferred back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_b_08_ios",
 		"jp_text": "機種変更などで現在ご利用の端末から\n別の端末に移行される場合は、\nログイン画面で上記のIDと\n秘密のパスワードを入力していただく必要があります。\n端末を変更される前に、必ず上記の情報を\nお手元に控えておいてください。\n \n※上記の情報は第三者に渡らないよう、\nお手元で厳密に保管してください。\n※機種変更などを行うために必要な引き継ぎ情報は、\n端末の移行を行った後にも再度ご確認いただき、\n必ずお手元に控えていただきますようお願いします。",
-		"tr_text": "When transfering between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transfering to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransfering to an Apple Device\nand can be transfered back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
+		"tr_text": "When transferring between devices,\nyou will be issued a\nsecret device ID code.\nYou will need this code to transfer\nto the new device.\nWhen transferring to an iOS device,\nAC cannot be used by iOS.\n\niOS uses a different system\nof AC unique to the iOS version.\nYour AC doesn't disappear when\ntransferring to an Apple Device\nand can be transferred back\ninto Android without issues.\n\nDevice ID changes per device,\nso ensure to keep note of\nyour Device ID.\nLinked characters are not affected\nby device change."
 	},
 	{
 		"assign": "menu_dialog_sega_id",
@@ -3097,7 +3117,7 @@
 	{
 		"assign": "mag_guide_01",
 		"jp_text": "<color=#f0df60>マグに与えるアイテムを選択してください。なお、与えられるアイテムは、スペシャルウェポン以外の武器とユニット（いずれも★９以下）、回復アイテム、ディスク、ルームグッズ、リフォーム用のパス、キャンディーです。</color>",
-		"tr_text": "<color=#f0df60>Please select an Item you want to Feed to your Mag. This can be any Weapon, Unit, Disc, Room Good or Recovery Item.</color>"
+		"tr_text": "<color=#f0df60>Please select an Item you want to Feed to your Mag. This can be any Weapon, Unit, Disk, Room Good or Recovery Item.</color>"
 	},
 	{
 		"assign": "mag_guide_02",
@@ -3327,7 +3347,7 @@
 	{
 		"assign": "receive_npc_b_00",
 		"jp_text": "<color=black>こちらでは、『PSO2』で発行される\nチケット・パスを『PSO2』の倉庫に\n受け取ることができます。</color>",
-		"tr_text": "<color=black>Here, Certain PSO2 Tickets can\nbe picked up.\nThey'll be sent to your inventory.</color>"
+		"tr_text": "<color=black>Here, Certain PSO2 Tickets can\nbe picked up.\nThey'll be sent to your Inventory.</color>"
 	},
 	{
 		"assign": "receive_dialog_t_00",
@@ -3357,7 +3377,7 @@
 	{
 		"assign": "receive_dialog_b_02",
 		"jp_text": "『PSO2』の倉庫の空き容量が不足しているため\nアイテムを受け取れません。\n『PSO2』の倉庫を整理してください。",
-		"tr_text": "\"PSO2\" You cannot receive anymore as\nyou are full on inventory space.\nPlease sort via PSO2 and try\nagain later."
+		"tr_text": "\"PSO2\" You cannot receive anymore as\nyou are full on Inventory space.\nPlease sort via PSO2 and try\nagain later."
 	},
 	{
 		"assign": "receive_dialog_t_03",
@@ -3367,7 +3387,7 @@
 	{
 		"assign": "receive_dialog_b_03",
 		"jp_text": "{0}を\n『PSO2』の基本倉庫に\n受け取りました。",
-		"tr_text": "{0} was sent to\nyour PSO2 inventory."
+		"tr_text": "{0} was sent to\nyour PSO2 Inventory."
 	},
 	{
 		"assign": "receive_dialog_t_04",
@@ -3532,7 +3552,7 @@
 	{
 		"assign": "mail_dialog_b_11",
 		"jp_text": "<color=#ff0000>添付アイテム未受領のメールが含まれています。</color>\n本当に削除してよろしいですか？",
-		"tr_text": ""
+		"tr_text": "<color=#ff0000>The selected messages include messages\nwith unreceived attached items.</color>\nAre you sure you want to delete them?"
 	},
 	{
 		"assign": "mail_dialog_t_12",
@@ -3562,7 +3582,7 @@
 	{
 		"assign": "mail_dialog_b_14",
 		"jp_text": "メールに添付されているアイテムの中で\nこのキャラクターが受け取り対象のものを\n受け取りました。\n<color=#f0df60>※一部、所持数あふれのため\n受け取れなかったアイテムがあります。</color>",
-		"tr_text": "I received all attached items.\n<color=#f0df60>※Certain items were not received\ndue to the max limit allowed of\nsaid items reached.</color>"
+		"tr_text": "All attached items received.\n<color=#f0df60>※Certain items were not received\ndue to the max limit allowed of\nsaid items reached.</color>"
 	},
 	{
 		"assign": "mail_dialog_t_15",
@@ -3627,7 +3647,7 @@
 	{
 		"assign": "myshop_guide_08",
 		"jp_text": "<color=#f0df60>出品中アイテムをアイテムパックの中に取り下げられます。通信状況により、出品直後のアイテムは表示されるまで時間を要する場合があります。</color>",
-		"tr_text": "<color=#f0df60>Withdrawing an item from your shop will deposit the item back into your inventory.</color>"
+		"tr_text": "<color=#f0df60>Withdrawing an item from your shop will deposit the item back into your Inventory.</color>"
 	},
 	{
 		"assign": "myshop_dialog_t_00",
@@ -3707,7 +3727,7 @@
 	{
 		"assign": "myshop_dialog_b_07",
 		"jp_text": "存在しないアイテム、\nもしくは特殊能力名を指定しています。\n\n<color=#ff0000>※アイテム名、特殊能力名は\n完全一致のみ検索にヒットします。</color>",
-		"tr_text": "Item or ability\nmust be an exact\nmatch in name."
+		"tr_text": "You have specified an item or special ability\nthat does not exist.\n\n<color=#ff0000>※When searching for items or special abilities,\nonly exact matches will be found.</color>"
 	},
 	{
 		"assign": "myshop_dialog_t_08",
@@ -3942,7 +3962,7 @@
 	{
 		"assign": "myshop_dialog_b_28",
 		"jp_text": "最小価格の設定が最大価格の設定を\n上回っています。\n価格帯の設定を再度ご確認ください。",
-		"tr_text": "Price exceeds the maxmium.\nPlease check price\nrange and try again."
+		"tr_text": "Price exceeds the maximum.\nPlease check price\nrange and try again."
 	},
 	{
 		"assign": "myshop_dialog_t_29",
@@ -3962,7 +3982,7 @@
 	{
 		"assign": "myshop_dialog_b_30",
 		"jp_text": "★13以上の武器の購入後\nオーナー登録が発生します。\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "Purchasing a ★13 or higher item will\nregister you as its owner.\nContinue?"
 	},
 	{
 		"assign": "myshop_dialog_t_31",
@@ -3982,7 +4002,7 @@
 	{
 		"assign": "myshop_dialog_b_32",
 		"jp_text": "<color=#ff0000>スタージェムを入手していないアイテムを\n出品しようとしています。</color>\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "<color=#ff0000>You are about to list items with unreceived\nStar Gems for sale.</color>\nDo you wish to continue?"
 	},
 	{
 		"assign": "myshop_condition_potential1",
@@ -4407,7 +4427,7 @@
 	{
 		"assign": "myshop_sub_item_headparts_detail",
 		"jp_text": "ヘッドパーツ",
-		"tr_text": "Headparts"
+		"tr_text": "Head Parts"
 	},
 	{
 		"assign": "myshop_sub_item_accessory_detail",
@@ -4542,7 +4562,7 @@
 	{
 		"assign": "myshop_sub_disc_jetboots",
 		"jp_text": "ジェットブーツ系PA",
-		"tr_text": "Jetboot PAs"
+		"tr_text": "Jet Boots PAs"
 	},
 	{
 		"assign": "myshop_sub_disc_fire",
@@ -4597,7 +4617,7 @@
 	{
 		"assign": "myshop_sub_other_musicdisk",
 		"jp_text": "ミュージックディスク",
-		"tr_text": "Music Disks"
+		"tr_text": "Music Discs"
 	},
 	{
 		"assign": "myshop_sub_other_tool",
@@ -4872,7 +4892,7 @@
 	{
 		"assign": "myshop_potential",
 		"jp_text": "潜在能力",
-		"tr_text": "Potenial Unlocked"
+		"tr_text": "Potential Unlocked"
 	},
 	{
 		"assign": "myshop_rarity",
@@ -5157,7 +5177,7 @@
 	{
 		"assign": "myshop_sales_window_title",
 		"jp_text": "売り上げ確認",
-		"tr_text": "Sell Items"
+		"tr_text": "Sales History"
 	},
 	{
 		"assign": "myshop_sales_tab_1",
@@ -5422,7 +5442,7 @@
 	{
 		"assign": "linkage_exp_warning_dialog_b_00",
 		"jp_text": "連動経験値を配分しているクラスが\n蓄積上限に達しました。\n『PSO2』をプレイするか\n連動経験値の配分設定を変更してください。\n\n※蓄積上限に達したクラスに\n　経験値の配分がある場合、余った経験値は\n　他クラスへ自動的に配分されます。",
-		"tr_text": "Maximum possible stored LInked EXP has been reached\non one or more classes. Please log in to PSO2 or change\nyour Linked EXP distribution settings.\n\n※If a class gains Linked EXP when it is at its LInked EXP\nlimit, the excess Linked EXP will be distributed among\nyour other classes."
+		"tr_text": "Maximum possible stored Linked EXP has been reached\non one or more classes. Please log in to PSO2 or change\nyour Linked EXP distribution settings.\n\n※If a class gains Linked EXP when it is at its Linked EXP\nlimit, the excess Linked EXP will be distributed among\nyour other classes."
 	},
 	{
 		"assign": "linkage_exp_button_warning_transition",
@@ -5907,7 +5927,7 @@
 	{
 		"assign": "quest_counter_raid_label_passtime",
 		"jp_text": "経過時間 <color=#68a0a7>/</color>\n",
-		"tr_text": "Elasped <color=#68a0a7>/</color>\n"
+		"tr_text": "Elapsed <color=#68a0a7>/</color>\n"
 	},
 	{
 		"assign": "quest_counter_raid_label_encount",
@@ -6082,7 +6102,7 @@
 	{
 		"assign": "quest_counter_tutorial_quest_subtitle_00",
 		"jp_text": "<color=#00bfff>教えて！　セラフィさん</color>",
-		"tr_text": ""
+		"tr_text": "<color=#00bfff>Tell me, Seraphy!</color>"
 	},
 	{
 		"assign": "reward_dialog_title",
@@ -6412,7 +6432,7 @@
 	{
 		"assign": "scratch_guide_00",
 		"jp_text": "<color=#f0df60>購入するスクラッチを選択してください。所持数の上限を超えたチップ、アイテムは、受け取りボックスに送られます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Select the scratch you want to buy. Chips and items that don't fit in your storage will be sent to your Reception Box.</color>"
 	},
 	{
 		"assign": "scratch_guide_01",
@@ -6422,7 +6442,7 @@
 	{
 		"assign": "scratch_guide_03",
 		"jp_text": "<color=#f0df60>スクラッチを選択してください。「スクラッチポイント」は「esスクラッチ」を<%AC>で引くと、もらえます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Select a scratch to draw from. You can earn Scratch Points by drawing from an es Scratch with <%AC>.</color>"
 	},
 	{
 		"assign": "scratch_dialog_t_00",
@@ -6542,7 +6562,7 @@
 	{
 		"assign": "scratch_dialog_b_09",
 		"jp_text": "ACスクラッチ券{0}枚で\n{1}を{2}回引きます。\nよろしいですか？\n現在の所持スクラッチ券：{3}枚\n",
-		"tr_text": "By using {0} AC,\nyou will scratch {2} {1}.\nContinue?\nCurrent AC: {3}\n"
+		"tr_text": "By using {0} AC Scratch Tickets,\nyou will scratch {2} {1}.\nContinue?\nCurrent Tickets: {3}\n"
 	},
 	{
 		"assign": "scratch_dialog_t_10",
@@ -6552,7 +6572,7 @@
 	{
 		"assign": "scratch_dialog_b_10",
 		"jp_text": "ACスクラッチゴールド券{0}枚で\n{1}を{2}回引きます。\nよろしいですか？\n現在の所持スクラッチG券：{3}枚\n",
-		"tr_text": ""
+		"tr_text": "By using {0} AC Scratch Gold Tickets,\nyou will scratch {2} {1}.\nContinue?\nCurrent Tickets: {3}\n"
 	},
 	{
 		"assign": "scratch_dialog_t_11",
@@ -6577,17 +6597,17 @@
 	{
 		"assign": "scratch_message_04",
 		"jp_text": "次の回数ボーナスまで：あと<color=#ffff00<%alpha>>{0}回！</color>",
-		"tr_text": ""
+		"tr_text": "Next bonus in <color=#ffff00<%alpha>>{0}!</color>"
 	},
 	{
 		"assign": "scratch_message_05_1",
 		"jp_text": "<color=#ffff00<%alpha>>スクラッチ回数ボーナス！</color>",
-		"tr_text": ""
+		"tr_text": "<color=#ffff00<%alpha>>Scratch count bonus!</color>"
 	},
 	{
 		"assign": "scratch_message_05_2",
 		"jp_text": "ボーナス報酬を受け取りボックスへ送りました。\n\nロビーの「受け取り」ボタンから受け取ってください。",
-		"tr_text": ""
+		"tr_text": "Bonus rewards sent to your Reception Box.\n\nUse the \"Receive\" button in the Lobby to collect it."
 	},
 	{
 		"assign": "scratch_dialog_t_12",
@@ -6827,12 +6847,12 @@
 	{
 		"assign": "quest_line_06",
 		"jp_text": "協力してくれた同行キャラクターに\nフレンド申請を行いますか？",
-		"tr_text": "Did you want to send a friend request\nto the character who accompanied you?"
+		"tr_text": "Did you want to send a Friend Request\nto the character who accompanied you?"
 	},
 	{
 		"assign": "quest_line_07",
 		"jp_text": "<%name>にフレンド申請を行いました",
-		"tr_text": "Sent a friend request to <%name>."
+		"tr_text": "Sent a Friend Request to <%name>."
 	},
 	{
 		"assign": "quest_line_14",
@@ -7427,7 +7447,7 @@
 	{
 		"assign": "title_dialog_b_07",
 		"jp_text": "SEGA ID、パスワードには半角英数字のみ\n入力可能です。\nまた、空白のまま決定は行えません。",
-		"tr_text": "You can only enter alphanumberic\ncharacters in your password.\nAdditionally, you cannot leave this blank."
+		"tr_text": "You can only enter alphanumeric\ncharacters in your password.\nAdditionally, you cannot leave this blank."
 	},
 	{
 		"assign": "title_dialog_t_08",
@@ -7487,7 +7507,7 @@
 	{
 		"assign": "title_dialog_b_10",
 		"jp_text": "半角英数字のみ入力可能です。\nまた、空白のまま決定は行えません。",
-		"tr_text": "You can only enter alphanumberic\ncharacters. Additionally, you cannot leave this blank."
+		"tr_text": "You can only enter alphanumeric\ncharacters. Additionally, you cannot leave this blank."
 	},
 	{
 		"assign": "title_dialog_t_13",
@@ -8707,7 +8727,7 @@
 	{
 		"assign": "ui_chip_available_info",
 		"jp_text": "チップを長押しで入手先確認！",
-		"tr_text": ""
+		"tr_text": "Long press a chip to see where to get it!"
 	},
 	{
 		"assign": "ui_chip_button_reinforce",
@@ -8847,12 +8867,12 @@
 	{
 		"assign": "equip_palette_rebootitem_dialog_t",
 		"jp_text": "装備変更不可",
-		"tr_text": ""
+		"tr_text": "Equipment Locked"
 	},
 	{
 		"assign": "equip_palette_rebootitem_dialog_b",
 		"jp_text": "「PSO2:NGSコスチューム」から\n「Classicコスチューム」への着替えは\n『PSO2』へログインしてから行ってください。",
-		"tr_text": ""
+		"tr_text": "Please log in to PSO2 and switch from using\na PSO2: NGS costume to using\na classic costume."
 	},
 	{
 		"assign": "button_decide",
@@ -8922,12 +8942,12 @@
 	{
 		"assign": "item_sale_recycle",
 		"jp_text": "交換ショップ",
-		"tr_text": ""
+		"tr_text": "Exchange Shop"
 	},
 	{
 		"assign": "item_pack_window",
 		"jp_text": "アイテムパック",
-		"tr_text": "Item Pack"
+		"tr_text": "Inventory"
 	},
 	{
 		"assign": "prohibit_sale",
@@ -8962,7 +8982,7 @@
 	{
 		"assign": "recycle_shop_header",
 		"jp_text": "交換ショップ",
-		"tr_text": ""
+		"tr_text": "Exchange Shop"
 	},
 	{
 		"assign": "recycle_product_list",
@@ -9067,7 +9087,7 @@
 	{
 		"assign": "recycle_item_num_pt_format",
 		"jp_text": "×{0}pt",
-		"tr_text": ""
+		"tr_text": "x{0}pt"
 	},
 	{
 		"assign": "recycle_item_trade_info",
@@ -9642,7 +9662,7 @@
 	{
 		"assign": "jetboots",
 		"jp_text": "ジェットブーツ",
-		"tr_text": "Jetboots"
+		"tr_text": "Jet Boots"
 	},
 	{
 		"assign": "dualblade",
@@ -9857,7 +9877,7 @@
 	{
 		"assign": "lobby_buff_dialog_t",
 		"jp_text": "発生中の効果一覧",
-		"tr_text": "Effect "
+		"tr_text": "List of Effects"
 	},
 	{
 		"assign": "menu_charainfo_lv",
@@ -10067,7 +10087,7 @@
 	{
 		"assign": "menu_main_button_equipment",
 		"jp_text": "装備",
-		"tr_text": "Equip"
+		"tr_text": "Equipment"
 	},
 	{
 		"assign": "menu_main_button_cosutume",
@@ -10107,7 +10127,7 @@
 	{
 		"assign": "menu_main_button_chip_depot",
 		"jp_text": "チップ倉庫",
-		"tr_text": "Storage"
+		"tr_text": "Chip Storage"
 	},
 	{
 		"assign": "menu_main_button_recycle",
@@ -10327,7 +10347,7 @@
 	{
 		"assign": "menu_popup_etarnal_prize",
 		"jp_text": "報酬あり！",
-		"tr_text": "Reward Recieved!"
+		"tr_text": "Reward Received!"
 	},
 	{
 		"assign": "menu_popup_etarnal_aggregate",
@@ -10692,7 +10712,7 @@
 	{
 		"assign": "chip_over_num_recycle",
 		"jp_text": "このチップを交換すると\n<color=red><%chip_over>枚</color>オーバーしてしまいます。\n\nチップパックを拡張するか\n強化／売却をしてチップを整理してください。",
-		"tr_text": ""
+		"tr_text": "Exchanging for this chip will leave you\n<color=red><%chip_over> chips</color> over your limit.\n\nPlease either expand your chip storage or get rid\nof chips by selling them or using them for grinding."
 	},
 	{
 		"assign": "point_over_num_recycle",
@@ -10702,17 +10722,17 @@
 	{
 		"assign": "costume_cannot_change_dialog_t",
 		"jp_text": "コスチューム",
-		"tr_text": ""
+		"tr_text": "Costume"
 	},
 	{
 		"assign": "costume_cannot_change_dialog_b",
 		"jp_text": "キャラクター連動を行っているアカウントは\nこの機能を使用できません。\nコスチュームの変更は\n『PSO2』へログインして行ってください。",
-		"tr_text": ""
+		"tr_text": "This function cannot be used by characters linked\nto a PSO2 account.\nTo change your costume, please log in to PSO2."
 	},
 	{
 		"assign": "friend_charamake_dl_costume_cannot_change_dialog_b",
 		"jp_text": "フレンドコスチュームＤＬは、現在使用できません。\n利用再開についての詳細は\n公式サイトをご確認ください。",
-		"tr_text": ""
+		"tr_text": "Friend Costume DL is currently unavailable.\nPlease see the official website for details\non when it will return."
 	},
 	{
 		"assign": "quest_counter_drive_lack_t",
@@ -10722,7 +10742,7 @@
 	{
 		"assign": "quest_counter_rappy_coin",
 		"jp_text": "行動力が不足しているためクエストに出発できません。\nラッピーメダルか<%AC>を消費して行動力を回復しますか？\n\n出発に必要な行動力：(<%consume_drive>)\n行動力（<%current_drive>）→<color=red>（<%after_drive>）</color>\n\n必要ラッピーメダル：<%consume_rappy_coin>枚\n所持ラッピーメダル：<%current_rappy_coin>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
-		"tr_text": "You don't have enough Drive for this stage.\nYou can refil with <%AC> or Rappy medals. Is that OK?\n\nNeeded Drive: (<%consume_drive>)→<color=red>（<%after_drive>）</color>\n\nRappy medals needed: <%consume_rappy_coin>\nRappy medals owned: <%current_rappy_coin>\n\n<%AC> needed: <%consume_AC>\n<%AC> owned: <%current_AC>"
+		"tr_text": "You don't have enough Drive for this stage.\nYou can refill with <%AC> or Rappy medals. Is that OK?\n\nNeeded Drive: (<%consume_drive>)→<color=red>（<%after_drive>）</color>\n\nRappy medals needed: <%consume_rappy_coin>\nRappy medals owned: <%current_rappy_coin>\n\n<%AC> needed: <%consume_AC>\n<%AC> owned: <%current_AC>"
 	},
 	{
 		"assign": "quest_counter_drive_lack",
@@ -11112,7 +11132,7 @@
 	{
 		"assign": "friend_request_recieve",
 		"jp_text": "受信したフレンド申請",
-		"tr_text": "Received friend requests"
+		"tr_text": "Received Friend Requests"
 	},
 	{
 		"assign": "friend_requested",
@@ -11212,7 +11232,7 @@
 	{
 		"assign": "friend_charamake_dl_dialog_b",
 		"jp_text": "フレンドが設定しているコスチュームデータを\nダウンロードします。\n\n※ダウンロード容量\n最大50MB\n※ダウンロード目安時間\n約2分\n\n※通信環境によって、ダウンロードにかかる時間が\n　異なりますのでご注意ください。\n※ゲームデータのダウンロードは\n　通信環境のいい場所で行ってください。",
-		"tr_text": "This will download data for a cosutme\nused by your friend.\n\nDownload size: Up to 50MB\nEstimated download time: 2 minutes\n\nNote that download times may vary\ndepending on your connection speed.\nWhen downloading game data, try to\nmake sure you have a strong connection."
+		"tr_text": "This will download data for a costume\nused by your friend.\n\nDownload size: Up to 50MB\nEstimated download time: 2 minutes\n\nNote that download times may vary\ndepending on your connection speed.\nWhen downloading game data, try to\nmake sure you have a strong connection."
 	},
 	{
 		"assign": "friend_charamake_dl_nofriend_dialog_t",
@@ -11232,7 +11252,7 @@
 	{
 		"assign": "friend_charamake_dl_retry_dialog_b",
 		"jp_text": "データの通信に失敗しました。\nリトライしますか？",
-		"tr_text": ""
+		"tr_text": "Communication failed.\nDo you want to retry?"
 	},
 	{
 		"assign": "friend_charamake_dl_finished_dialog_t",
@@ -11562,7 +11582,7 @@
 	{
 		"assign": "tu_0005_w00_b",
 		"jp_text": "『PSO2』とキャラクター連動を行うと、『PSO2』ゲーム内で\nキャラクターをさらに細かくカスタマイズできます。\nよりカッコいい・かわいいキャラクターを作りましょう！",
-		"tr_text": "When you link your waifu with \"PSO2\",\nyou can finely customize your\nwaifu in great detail.\nLet us create your waifu!"
+		"tr_text": "When you link your chara with \"PSO2\",\nyou can finely customize your\nchara in great detail.\nLet us create your chara!"
 	},
 	{
 		"assign": "tu_0000_n00_b",
@@ -11657,7 +11677,7 @@
 	{
 		"assign": "tu_0000_n18_b",
 		"jp_text": "<color=black>もうひとつ、バトルで重要な\nジャストアタックについてお教えします。</color>",
-		"tr_text": "<color=black>Now we'll teach you\nabout the important\"Just Attacks\".</color>"
+		"tr_text": "<color=black>Now we'll teach you\nabout the important \"Just Attacks\".</color>"
 	},
 	{
 		"assign": "tu_0000_n19_b",
@@ -11732,7 +11752,7 @@
 	{
 		"assign": "tu_0001_n07_b",
 		"jp_text": "<color=black>それでは、チップの装備について\n説明いたします！</color>",
-		"tr_text": "<color=black>I will describe equiping chips!</color>"
+		"tr_text": "<color=black>I will describe equipping chips!</color>"
 	},
 	{
 		"assign": "tu_0001_n02_b",
@@ -12362,7 +12382,7 @@
 	{
 		"assign": "tu_0006_w16_b",
 		"jp_text": "アイテムパックの所持品と、アイテムの最大所持数を\n『PSO2』と共有するようになりました。最大所持数が３０の場合、\n『PSO2』にログインすると、５０に拡張されます。",
-		"tr_text": "Your item pack can hold up to a maximum of 30 items.\nIf linked with PSO2, your inventory\nis upgraded to 50 items max."
+		"tr_text": "Your Inventory can hold up to a maximum of 30 items.\nIf linked with PSO2, your Inventory\nis upgraded to 50 items max."
 	},
 	{
 		"assign": "tu_0006_w17_b",
@@ -12527,7 +12547,7 @@
 	{
 		"assign": "wh_22_02",
 		"jp_text": "＜受け取りの際の注意点＞\n『PSO2』の基本倉庫に空きがない場合、かつ指定アイテムを\n基本倉庫に限界まで所持している場合は、受け取りを行えません。",
-		"tr_text": "<Notes on Receiving>\n\"PSO2\" If there's no space available in your\ninventory or not enough time has passed since you\nlast received.\n<color=yellow>You will not receive passes.</color>"
+		"tr_text": "<Notes on Receiving>\n\"PSO2\" If there's no space available in your\nInventory or not enough time has passed since you\nlast received.\n<color=yellow>You will not receive passes.</color>"
 	},
 	{
 		"assign": "wh_23_00",
@@ -12562,7 +12582,7 @@
 	{
 		"assign": "wh_24_n01_b",
 		"jp_text": "<color=black>緊急クエストとは\nフレンドと協力してクリアする\n特殊なクエストです。</color>",
-		"tr_text": "<color=black>Emegency Quests are \nSpecial Quests.\nClear with help from friends.</color>"
+		"tr_text": "<color=black>Emergency Quests are \nSpecial Quests.\nClear with help from friends.</color>"
 	},
 	{
 		"assign": "wh_24_n02_b",
@@ -12572,12 +12592,12 @@
 	{
 		"assign": "wh_24_00",
 		"jp_text": "緊急クエストとは、フレンドたちと力を合わせ\n一体の目標エネミーの討伐をめざす\n期間限定の特別クエストです。",
-		"tr_text": "Emergency Quests are special limited\ntimed quests that house a\npoweful enemy. Work together to defeat the enemy within."
+		"tr_text": "Emergency Quests are special limited\ntimed quests that house a\npowerful enemy. Work together to defeat the enemy within."
 	},
 	{
 		"assign": "wh_24_01",
 		"jp_text": "緊急クエスト発生中は、専用ボタンが出現します。\nタッチで出発しましょう。\nなお、出発には「オペレーションポイント（ＯＰ）」を消費します。",
-		"tr_text": "During Emegency Quests,\na special dedicated button will appear.\nWhen starting an Emergency Quest, consumption\nof 'Operation Points (OP)' will occur."
+		"tr_text": "During Emergency Quests,\na special dedicated button will appear.\nWhen starting an Emergency Quest, consumption\nof 'Operation Points (OP)' will occur."
 	},
 	{
 		"assign": "wh_24_02",
@@ -12587,7 +12607,7 @@
 	{
 		"assign": "wh_24_03",
 		"jp_text": "一度で目標を倒せなくても、前回のバトルで与えたダメージは\nそのまま残ります。クエストの発生時間中まで\n何回でも挑戦できるので、引き続き討伐をめざしましょう！",
-		"tr_text": "Your previous damage dealt will remain,\nallowing you to repeatively strike the target\nas much as possible until it is defeated!"
+		"tr_text": "Your previous damage dealt will remain,\nallowing you to repeatedly strike the target\nas much as possible until it is defeated!"
 	},
 	{
 		"assign": "wh_24_04",
@@ -12617,7 +12637,7 @@
 	{
 		"assign": "wh_25_00",
 		"jp_text": "アイテムの所持数が、所持枠をオーバーしています。\n所持数の限界を超えたアイテムには、\nアイコンに「over」の文字が表示されます。",
-		"tr_text": "When your item pack is full, an icon is\ndisplayed alerting you to your\ninventory space."
+		"tr_text": "When your Inventory is full, an icon is\ndisplayed alerting you to your\nInventory space."
 	},
 	{
 		"assign": "wh_25_01",
@@ -12707,7 +12727,7 @@
 	{
 		"assign": "wh_29_06",
 		"jp_text": "＜注意事項＞\n端末でプッシュ通知を無効に設定していた場合、\n『PSO2es』のプッシュ通知は行われません。",
-		"tr_text": "<Notes>\nIf you disable Push Notifications, you will\nnot Receive notices from PSO2es."
+		"tr_text": "<Notes>\nIf you disable Push Notifications, you will\nnot receive notices from PSO2es."
 	},
 	{
 		"assign": "wh_29_07",
@@ -12782,7 +12802,7 @@
 	{
 		"assign": "ef_0002_n01_b",
 		"jp_text": "<color=black>ひとつ、新しい情報があります。\n以前、あなたがナベリウスの\n森林エリアで発見した\n旧式のメッセージパックですが……</color>",
-		"tr_text": "<color=black>There is new information\nreguarding the message pack you\nfound back in Naberius....</color>"
+		"tr_text": "<color=black>There is new information\nregarding the message pack you\nfound back in Naberius....</color>"
 	},
 	{
 		"assign": "ef_0002_n02_b",
@@ -12817,7 +12837,7 @@
 	{
 		"assign": "ef_0002_n08_b",
 		"jp_text": "<color=black>ナベリウスの凍土エリアは、雪と氷に閉ざされており\n森林エリアと同様に原生種が棲息しています。\n弱点も、同じく「炎」属性です。</color>",
-		"tr_text": "<color=black>The Tundra area was closed off due\nto the Ice and Snow.\nThe wildife adapted to this climate,\nbut share weakness of Fire.</color>"
+		"tr_text": "<color=black>The Tundra area was closed off due\nto the Ice and Snow.\nThe wildlife adapted to this climate,\nbut share weakness of Fire.</color>"
 	},
 	{
 		"assign": "ef_0002_n09_b",
@@ -12882,7 +12902,7 @@
 	{
 		"assign": "ef_0004_n05_b",
 		"jp_text": "<color=black>それはともかく、リリーパの砂漠エリアの\n探索許可がおりました。\n砂漠エリアには「機甲種」と呼ばれる\nこの惑星でかつて栄えた古い文明の\n防衛兵器が出現します。</color>",
-		"tr_text": "<color=black>Anyways, permission granted to\ngo to Lillipa.\nAn ancient civiliation once dwelled there.\nNow their creations, the\n\"Mechs\", act as defense systems.</color>"
+		"tr_text": "<color=black>Anyways, permission granted to\ngo to Lillipa.\nAn ancient civilization once dwelled there.\nNow their creations, the\n\"Mechs\", act as defense systems.</color>"
 	},
 	{
 		"assign": "ef_0004_n06_b",
@@ -13072,7 +13092,7 @@
 	{
 		"assign": "es_0005_n13_b",
 		"jp_text": "<color=black>けれども、父の情報を求めて\n必死に戦ってくれている\nあなたの姿を見ていて……\n打ち明けずにはいられませんでした。</color>",
-		"tr_text": "<color=black>I am desparate for information regarding\nmy father. And observing you like this...\nI felt that I could confide in you.</color>"
+		"tr_text": "<color=black>I am desperate for information regarding\nmy father. And observing you like this...\nI felt that I could confide in you.</color>"
 	},
 	{
 		"assign": "es_0005_n14_b",
@@ -13142,7 +13162,7 @@
 	{
 		"assign": "es_0007_n02_b",
 		"jp_text": "<color=black>通常の侵食エネミーはダーカーの影響で\n凶暴化し、強い力を得ていますが、\n今回、数体の侵食エネミーにおいて\nダーカーではなく、人工的な強化効果が\n認められたとのことです。</color>",
-		"tr_text": "<color=black>Normally when an enemy is infected,\nit becomes stronger and goes berszerk due\nto influence of Darkers. However, many\nof the enemies you defeated we\nartificially infected, not from Darkers.</color>"
+		"tr_text": "<color=black>Normally when an enemy is infected,\nit becomes stronger and goes berserk due\nto influence of Darkers. However, many\nof the enemies you defeated we\nartificially infected, not from Darkers.</color>"
 	},
 	{
 		"assign": "es_0007_n03_b",
@@ -13162,7 +13182,7 @@
 	{
 		"assign": "es_0007_n06_b",
 		"jp_text": "<color=black>不安で胸が押しつぶされそうですが\n★４クエストもいよいよ大詰めです。\nどうか、気をつけて\n任務を達成してきてくださいね。</color>",
-		"tr_text": "<color=black>These new series of revelations has me\nworried. In anycase, ★4 series quests\nare now over with. Wrap up whatever\nyou've got left and get back to base.</color>"
+		"tr_text": "<color=black>These new series of revelations has me\nworried. In any case, ★4 series quests\nare now over with. Wrap up whatever\nyou've got left and get back to base.</color>"
 	},
 	{
 		"assign": "es_0008_n00_b",
@@ -13237,7 +13257,7 @@
 	{
 		"assign": "es_0010_n04_b",
 		"jp_text": "<color=black>……ごめんなさい。\nこんな時こそ、アークス管理官である私が\n冷静でいなければいけないのに。</color>",
-		"tr_text": "<color=black>I'm sorry...\nI'm an ARKS officier, I shouldn't\nbe bothered by this.</color>"
+		"tr_text": "<color=black>I'm sorry...\nI'm an ARKS officer, I shouldn't\nbe bothered by this.</color>"
 	},
 	{
 		"assign": "es_0010_n05_b",
@@ -13627,7 +13647,7 @@
 	{
 		"assign": "es_0018_n04_b",
 		"jp_text": "<color=black>でも、エネミーをあやつって\n人を傷つけるなんて、間違ってるよ！\nお願いだから、武器を捨てて投降して！</color>",
-		"tr_text": "<color=black>But by hurting them, even if they may\nbe our enemies, it's not right! Please,\nstop this maddness!</color>"
+		"tr_text": "<color=black>But by hurting them, even if they may\nbe our enemies, it's not right! Please,\nstop this madness!</color>"
 	},
 	{
 		"assign": "es_0018_n05_b",
@@ -13637,7 +13657,7 @@
 	{
 		"assign": "es_0018_n06_b",
 		"jp_text": "<color=black>アークスくん、きみに予告しておこう。\n近日中に、きみたちアークスは\n私の手によって生まれた、次世代の生物……\nきみたちがタイプＣと呼んでいる生物たちと\n対峙することになるだろう。</color>",
-		"tr_text": "<color=black>Little ARKS, allow me to give you a\nwarning... In a matter of few days,\nyou will bear wittness to the enemies\nyou call \"Type-C\", created by yours\ntruly, and marvel at their beauty.</color>"
+		"tr_text": "<color=black>Little ARKS, allow me to give you a\nwarning... In a matter of few days,\nyou will bear witness to the enemies\nyou call \"Type-C\", created by yours\ntruly, and marvel at their beauty.</color>"
 	},
 	{
 		"assign": "es_0018_n07_b",
@@ -14132,12 +14152,12 @@
 	{
 		"assign": "es_0027_n13_b",
 		"jp_text": "<color=black>私が、アークス管理官だからよ。\n事前に調査をし、適切な情報を送って\nアークスの隊員の命を守る……\nそれが、私のなすべきこと！</color>",
-		"tr_text": "<color=black>It's because I'm an ARKS officer...\nMy job is investigate in advance, toprotect the lives of ARKS members\nand ensure they're given proper\ninformation. That is what I do!</color>"
+		"tr_text": "<color=black>It's because I'm an ARKS officer...\nMy job is investigate in advance, to protect the lives of ARKS members\nand ensure they're given proper\ninformation. That is what I do!</color>"
 	},
 	{
 		"assign": "es_0027_n14_b",
 		"jp_text": "<color=black>お父さん、昔はいつも言ってたよね。\n技術の力で、ダーカーの脅威を払い\n宇宙に平和を取り戻す、って。\nお父さんこそ、なすべきことを忘れ\nなぜこんなひどいことをしているの！</color>",
-		"tr_text": "<color=black>Have you forgotten what you said back then?\nWith this technology, we can bring\npayback to these Darkers and restore\npeace within the Universe. That is what\nyou'be said Dad. Why are you like this?</color>"
+		"tr_text": "<color=black>Have you forgotten what you said back then?\nWith this technology, we can bring\npayback to these Darkers and restore\npeace within the Universe. That is what\nyou've said Dad. Why are you like this?</color>"
 	},
 	{
 		"assign": "es_0027_n15_b",
@@ -14632,7 +14652,7 @@
 	{
 		"assign": "es_0035_n07_b",
 		"jp_text": "<color=black>あそこには、実験や観察用のダーカーたちが\n多数、隔離されている……\nドノヴァンは、やつらを解き放つつもりだ……</color>",
-		"tr_text": "<color=black>There were a lot of experiements done\nto strong Darkers in the quarantine\nzone... Donovan is going to unleash\nall of them...</color>"
+		"tr_text": "<color=black>There were a lot of experiments done\nto strong Darkers in the quarantine\nzone... Donovan is going to unleash\nall of them...</color>"
 	},
 	{
 		"assign": "es_0035_n08_b",
@@ -14747,7 +14767,7 @@
 	{
 		"assign": "es_0038_n07_b",
 		"jp_text": "<color=black>アークス総員に連絡。\n敵勢力は拠点から撤退し、本作戦は目的を達成した。\n引き続き警戒態勢を維持しつつ、次なる指示を待て。</color>",
-		"tr_text": "<color=black>Contacting all ARKS memmbers.\nThe enemy's forces have withdrawn,\nour sortie is over. Maintain alert\nand await further instructions.</color>"
+		"tr_text": "<color=black>Contacting all ARKS members.\nThe enemy's forces have withdrawn,\nour sortie is over. Maintain alert\nand await further instructions.</color>"
 	},
 	{
 		"assign": "es_0038_n08_b",
@@ -14847,7 +14867,7 @@
 	{
 		"assign": "sns_dialog_2_t",
 		"jp_text": "Twitter連動",
-		"tr_text": ""
+		"tr_text": "Twitter Linkage"
 	},
 	{
 		"assign": "sns_dialog_2_b",
@@ -14977,12 +14997,12 @@
 	{
 		"assign": "botton_yes",
 		"jp_text": "はい",
-		"tr_text": ""
+		"tr_text": "Yes"
 	},
 	{
 		"assign": "botton_no",
 		"jp_text": "いいえ",
-		"tr_text": ""
+		"tr_text": "No"
 	},
 	{
 		"assign": "raid_n_clear",
@@ -15402,7 +15422,7 @@
 	{
 		"assign": "ItemDetail_Camouflage_TextOther",
 		"jp_text": "以外が対象",
-		"tr_text": ""
+		"tr_text": " excluded"
 	},
 	{
 		"assign": "ItemDetail_Camouflage_WeaponType",
@@ -15412,7 +15432,7 @@
 	{
 		"assign": "ItemDetail_Camouflage_Weapon_All",
 		"jp_text": "すべての武器",
-		"tr_text": ""
+		"tr_text": "All weapons"
 	},
 	{
 		"assign": "ItemDetail_Booster",
@@ -15802,62 +15822,72 @@
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-29",
 		"jp_text": "初級を{0}回プレイ",
-		"tr_text": ""
+		"tr_text": "Play Normal difficulty {0} times"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-2-26",
 		"jp_text": "初級で{0}体以上討伐してクエスト終了",
-		"tr_text": ""
+		"tr_text": "Clear on Normal level {0} times"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-26",
 		"jp_text": "初級で合計{0}体討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} enemies on Normal"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-30",
 		"jp_text": "中級を{0}回プレイ",
-		"tr_text": ""
+		"tr_text": "Play Hard difficulty {0} times"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-2-27",
 		"jp_text": "中級で{0}体以上討伐してクエスト終了",
-		"tr_text": ""
+		"tr_text": "Clear on Hard level {0} times"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-27",
 		"jp_text": "中級で合計{0}体討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} enemies on Hard"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-31",
 		"jp_text": "上級を{0}回プレイ",
-		"tr_text": ""
+		"tr_text": "Play Hard difficulty {0} times"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-2-28",
 		"jp_text": "上級で{0}体以上討伐してクエスト終了",
-		"tr_text": ""
+		"tr_text": "Clear on Very Hard level {0} times"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-28",
 		"jp_text": "上級にて合計{0}体討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} enemies on Very Hard"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-25",
 		"jp_text": "合計{0}体討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} total enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_1-1-32",
 		"jp_text": "合計{0}回プレイ",
-		"tr_text": ""
+		"tr_text": "Play a total of {0} times"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-32",
 		"jp_text": "合計{0}回プレイ",
-		"tr_text": ""
+		"tr_text": "Play a total of {0} times"
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_0-1-23",
+		"jp_text": "累積ダメージ{0:#,0}達成",
+		"tr_text": "Deal a total of {0:#,0} damage"
+	},
+	{
+		"assign": "RaidEvent_Achievement_Text_0-2-23",
+		"jp_text": "最大ダメージ{0:#,0}達成",
+		"tr_text": "Deal {0:#,0} damage in one attempt"
 	},
 	{
 		"assign": "RaidEvent_Achievement_list_00",
@@ -16092,7 +16122,7 @@
 	{
 		"assign": "menu_invite_tab_input_explain",
 		"jp_text": "<color=#ffff00>お友達のコードを入力してプレゼントを獲得！</color>",
-		"tr_text": "<color=#ffff00>By entering a referral code, uou can receive a gift from friends!</color>"
+		"tr_text": "<color=#ffff00>By entering a referral code, you can receive a gift from friends!</color>"
 	},
 	{
 		"assign": "menu_invite_tab_input_code",
@@ -16117,7 +16147,7 @@
 	{
 		"assign": "menu_invite_tab_reward_explain",
 		"jp_text": "<color=#ffff00>招待成立した人数に応じて報酬をゲット！</color>",
-		"tr_text": ""
+		"tr_text": "<color=#ffff00>You earn rewards for each person you invite!</color>"
 	},
 	{
 		"assign": "menu_invite_tab_reward_check",
@@ -16132,7 +16162,7 @@
 	{
 		"assign": "menu_invite_tab_reward_next_condition",
 		"jp_text": "<color=#ffff00>次の報酬まであと {0} 人！</color>",
-		"tr_text": "<color=#ffff00>{0} more untill next reward!</color>"
+		"tr_text": "<color=#ffff00>{0} more until next reward!</color>"
 	},
 	{
 		"assign": "menu_invite_reward_list_title_input",
@@ -16542,7 +16572,7 @@
 	{
 		"assign": "wh_31_03",
 		"jp_text": "＜ボーナスについて＞\n連続してクイック探索を利用すると、レアドロップ率や\n獲得アイテム数にボーナスがつきます。",
-		"tr_text": "<About Bonus>\nWhen you continously use Quick Search, RDR increases.\nBonuses also increase."
+		"tr_text": "<About Bonus>\nWhen you continuously use Quick Search, RDR increases.\nBonuses also increase."
 	},
 	{
 		"assign": "storyevent_skip_dialog_t",
@@ -16797,7 +16827,7 @@
 	{
 		"assign": "depot_guide_01",
 		"jp_text": "<color=#f0df60>アイテムパックに引き出すアイテムを選択してください。</color>",
-		"tr_text": "<color=#f0df60>Select an item to withdraw into the Item Pack.</color>"
+		"tr_text": "<color=#f0df60>Select an item to withdraw into the Inventory.</color>"
 	},
 	{
 		"assign": "depot_return_lobby",
@@ -16827,7 +16857,7 @@
 	{
 		"assign": "depot_window_title_pack",
 		"jp_text": "アイテムパック",
-		"tr_text": "Item Pack"
+		"tr_text": "Inventory"
 	},
 	{
 		"assign": "depot_leave_button",
@@ -16867,12 +16897,12 @@
 	{
 		"assign": "depot_dialog_pack_full",
 		"jp_text": "アイテムパックの空き容量不足のため、\n取り出す事ができませんでした。",
-		"tr_text": "We were unable to take items out\nsince you have insufficient item pack space."
+		"tr_text": "We were unable to take items out\nsince you have insufficient Inventory space."
 	},
 	{
 		"assign": "depot_dialog_pack_became_full",
 		"jp_text": "アイテムパックの空き容量不足のため、\n一部のアイテムを取り出す事ができませんでした。",
-		"tr_text": "We were unable to take items out\nsince you have insufficient item pack space."
+		"tr_text": "We were unable to take items out\nsince you have insufficient Inventory space."
 	},
 	{
 		"assign": "pso2_counter_pet",
@@ -17262,32 +17292,32 @@
 	{
 		"assign": "wh_34_01",
 		"jp_text": "ウェポノイドやキャラクターのチップには、そのキャラクターをめぐる\nストーリー付きの外伝クエストが存在するものがあります。",
-		"tr_text": ""
+		"tr_text": "Some Weaponoids and character chips have Gaiden Quests\nwhich tell a story about that character."
 	},
 	{
 		"assign": "wh_34_02",
 		"jp_text": "外伝のあるチップを装備してクエストをクリアすると\n「外伝解放ゲージ」が上昇し、ゲージがいっぱいになるたびに\nそのキャラクターの外伝クエストを進めることができます。",
-		"tr_text": ""
+		"tr_text": "Clearing quests while you have a chip that has\na side story equipped will cause that chip's\nGaiden Gauge to fill. When the gauge completely\nfills, a Gaiden Quest will become available."
 	},
 	{
 		"assign": "wh_34_03",
 		"jp_text": "外伝クエストを全てクリアすると、キャラクターのチップに\n新たな能力が解放されるなどのボーナスがあります。",
-		"tr_text": ""
+		"tr_text": "Clearing all of a chip's Gaiden Quests will\nunlock a bonus Gaiden Effect for that chip."
 	},
 	{
 		"assign": "wh_34_04",
 		"jp_text": "所持しているキャラクターに外伝クエストが追加されたら\nぜひプレイして、キャラクターとの絆を深めましょう！",
-		"tr_text": ""
+		"tr_text": "When you see that one of your characters\nhas a Gaiden Quest available, play through\nit and deepen your bond with that character!"
 	},
 	{
 		"assign": "wh_35_01",
 		"jp_text": "全ての外伝クエストをクリアすると「外伝解放ゲージ」が\n「プレゼントゲージ」に変わり、ゲージがたまるたびに、\nウェポノイドからプレゼントが贈られるようになります。",
-		"tr_text": "Once you clear all of the Weaponoid's\nStory Quests, the Gauge changes to a gift\ngauge, allowing you to recieve presents from the Weaponoid."
+		"tr_text": "Once you clear all of the Weaponoid's\nGaiden Quests, the Gauge changes to a Present\nGauge, allowing you to receive presents from the Weaponoid."
 	},
 	{
 		"assign": "wh_35_02",
 		"jp_text": "チップの中には、外伝解放ゲージが「絆ゲージ」になっているものがあります。\nこのチップには外伝クエストが存在せず、「絆ゲージ」を最大までためると\n「プレゼントゲージ」に変わります。",
-		"tr_text": ""
+		"tr_text": "Some chips have a Bond Gauge instead of a\nGaiden Gauge. These chips do not have Gaiden\nQuests, and when the Gauge completely fills, it\nwill immediately turn into a Present Gauge."
 	},
 	{
 		"assign": "ItemDetail_RingExp_Caption",
@@ -17602,7 +17632,7 @@
 	{
 		"assign": "sidestory_voice_playbtn_getpresent",
 		"jp_text": "プレゼント獲得時",
-		"tr_text": "Gift Recieved"
+		"tr_text": "Gift Received"
 	},
 	{
 		"assign": "sidestory_voice_playbtn_evoandlvmax",
@@ -18060,6 +18090,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "lookback_arles_chapter_5",
+		"jp_text": "最終章　アーレスの守護せしもの",
+		"tr_text": ""
+	},
+	{
 		"assign": "lookback_maintitle_5",
 		"jp_text": "ストーリークエスト　Ｓｅａｓｏｎ３",
 		"tr_text": "Story Quest Season 3"
@@ -18167,7 +18202,7 @@
 	{
 		"assign": "lookback_maintitle_8",
 		"jp_text": "ブレイブ　オブ　セイガーズ",
-		"tr_text": "Brave of Seiga"
+		"tr_text": "Brave of Seigas"
 	},
 	{
 		"assign": "lookback_maintext_8",
@@ -18287,7 +18322,7 @@
 	{
 		"assign": "lobby_special_reload_body",
 		"jp_text": "クエスト情報の更新を行います。",
-		"tr_text": "Quest informatino has been updated."
+		"tr_text": "Quest information has been updated."
 	},
 	{
 		"assign": "lookback_event_title",
@@ -19052,7 +19087,7 @@
 	{
 		"assign": "acceptbox_guide_00",
 		"jp_text": "<color=#f0df60>受け取り期限のあるアイテムにご注意ください。「一括売却」に登録されたアイテムは「選択対象を受け取る」で受け取れます。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Please note that some items have a deadline on when they can be received. Items registered for Bulk Sale can be received with \"Grab Selected\".</color>"
 	},
 	{
 		"assign": "acceptbox_title",
@@ -19217,7 +19252,7 @@
 	{
 		"assign": "acceptbox_dialog_b_4",
 		"jp_text": "以下のアイテムを受け取りました。",
-		"tr_text": "Recieved the item(s)."
+		"tr_text": "Received the item(s)."
 	},
 	{
 		"assign": "acceptbox_dialog_t_5",
@@ -19237,7 +19272,7 @@
 	{
 		"assign": "acceptbox_item_over_message",
 		"jp_text": "アイテムパックの空き容量または所持数を\nオーバーするため受け取れません。\n\n売却をして、アイテムを整理してください。",
-		"tr_text": "You do not have enough space\nin your inventory to receive these items.\nPlease make room for them."
+		"tr_text": "You do not have enough space\nin your Inventory to receive these items.\nPlease make room for them."
 	},
 	{
 		"assign": "acceptbox_point_over_message",
@@ -19277,7 +19312,7 @@
 	{
 		"assign": "acceptbox_dialog_b_01",
 		"jp_text": "受け取りボックスの受信数をオーバーしています。\n\n受け取りボックスから取り出して整理してください。\n<color=red><%over></color>個オーバーしています。\n",
-		"tr_text": "You have no more room for these items.\n\nPlease make room in your inventory.\n<color=red><%over></color> items over.\n"
+		"tr_text": "You have no more room for these items.\n\nPlease make room in your Inventory.\n<color=red><%over></color> items over.\n"
 	},
 	{
 		"assign": "acceptbox_over_yes",
@@ -19292,27 +19327,27 @@
 	{
 		"assign": "acceptbox_item_chip_over_message",
 		"jp_text": "パックの空き容量または所持数をオーバーするため受け取れません。\n\nチップパックは、拡張するか強化／売却\nアイテムパックは、売却をして整理してください。",
-		"tr_text": ""
+		"tr_text": "You can't receive some items because you have the\nmaximum allowed or because your inventory is full.\nGet rid of items or chips by selling them or using them\nfor grinding, or expand your inventory size."
 	},
 	{
 		"assign": "wh_36_01",
 		"jp_text": "「受け取りボックス」には、クエストやスクラッチで\n入手したアイテムのうち持ちきれなくなったものや\n『PSO2es』運営チームからの配付アイテムが保管されます。",
-		"tr_text": ""
+		"tr_text": "The Reception Box holds items received from\nquests and Scratches that you don't have\nroom for in your storage, as well as items\ndistributed by the PSO2es management team."
 	},
 	{
 		"assign": "wh_36_02",
 		"jp_text": "「受け取りボックス」には、受け取り期限付きのアイテムがあります。\n期限が過ぎると受け取れなくなりますので、期限内に受け取りましょう。",
-		"tr_text": ""
+		"tr_text": "Some items in the Reception Box have a deadline.\nYou won't be able to receive them after the deadline\npasses, so try to collect them before that happens."
 	},
 	{
 		"assign": "wh_37_01",
 		"jp_text": "緊急クエストに「覇級」が登場しました。\n緊急クエストの覇級に出発するには「覇級トリガー」が必要です。\n「覇級トリガー」は超級の撃破報酬で入手できます。",
-		"tr_text": ""
+		"tr_text": "An Extra Hard enemy has appeared in the\nEmergency Quest. You need an Extra Hard Trigger\nto begin an Extra Hard Emergency Quest."
 	},
 	{
 		"assign": "wh_37_02",
 		"jp_text": "覇級では、トリガーを使ってクエストを解放した時に\n討伐対象の弱点属性が明らかになります。\n相手の弱点に合わせて、最適な武器やチップで挑みましょう！",
-		"tr_text": ""
+		"tr_text": "When you use an Extra Hard Trigger to unlock\nthe Extra Hard Emergency Quest, the enemy's\nelemental weakness will be revealed.\nTry using weapons and chips that take\nadvantage of that elemental weakness!"
 	},
 	{
 		"assign": "reward_button_close",
@@ -19377,12 +19412,12 @@
 	{
 		"assign": "collect_search_guide_00",
 		"jp_text": "<color=#f0df60>ゲージを上昇させたいコレクトシートを選択してください。『PSO2』で所持中のシートが選択可能です。アカウントごとに毎日初回のみ無料で、以降は有料で利用できます。</color>",
-		"tr_text": "<color=#f0df60>Please select the Collect File to raise. Up to 2 sheets can be boosted. However, only the first time is free.</color>"
+		"tr_text": "<color=#f0df60>Please select the Collect Sheet to raise. Up to 2 sheets can be boosted. However, only the first time is free.</color>"
 	},
 	{
 		"assign": "collect_search_comment_00",
 		"jp_text": "大成功時はゲージの上昇量が増加します。\n残り回数は毎日５時にリセットされます。",
-		"tr_text": ""
+		"tr_text": "A Great Success fills the gauge more than normal.\nYour remaining searches reset at 5:00 JST daily."
 	},
 	{
 		"assign": "collect_search_info_title",
@@ -19452,7 +19487,7 @@
 	{
 		"assign": "dialog_body_collect_search_use_free",
 		"jp_text": "「<%SHEET>」の\nコレクトサーチを実行します。よろしいですか？\n\n※コレクトサーチは毎日初回のみ無料で利用できます。\n２回目以降の利用には<%AC>が必要です。",
-		"tr_text": "Boosting 「<%SHEET>」.\nIs that OK?\n\n※Boosting a sheet once is free,\nbut doing it again will require <%AC>."
+		"tr_text": "Boosting <%SHEET>.\nIs that OK?\n\n※Boosting a sheet once is free,\nbut doing it again will require <%AC>."
 	},
 	{
 		"assign": "dialog_title_collect_search_use_ac",
@@ -19462,7 +19497,7 @@
 	{
 		"assign": "dialog_body_collect_search_use_ac",
 		"jp_text": "{0}<%AC>で「<%SHEET>」の\nコレクトサーチを1回行います。よろしいですか？\n\n次回連続サーチボーナス:<color=#ffff00>大成功確率{1}倍!</color>\n所持<%AC>：<%current_AC>",
-		"tr_text": ""
+		"tr_text": "NSpending {0}<%AC> to boost <%SHEET>.\nIs that OK?\n\nConsecutive search bonus: <color=#ffff00>Great Success Rate x {1}!</color>\nYour <%AC>: <%current_AC>"
 	},
 	{
 		"assign": "collect_search_one_time",
@@ -19567,7 +19602,7 @@
 	{
 		"assign": "acshop_dialog_b_43",
 		"jp_text": "OP回復薬ミニの使用する数を選択してください。\n\n\n現在のOP：<%current_exdrive>\n\n所持OP回復薬ミニ：<%current_oprecovery_pass_mini>",
-		"tr_text": ""
+		"tr_text": "Choose how many OP Mini Recovery Meds to use.\n\n\nCurrent OP: <%current_exdrive>\n\nOP Mini Recovery Meds owned: <%current_oprecovery_pass_mini>"
 	},
 	{
 		"assign": "chip_depot_title",
@@ -19632,22 +19667,22 @@
 	{
 		"assign": "chip_depot_over_num_leave",
 		"jp_text": "預けるチップ倉庫に空き容量がありません。\n\nチップ倉庫を拡張するか\n強化／売却をして整理してください。\n<color=red><%chip_over>枚</color>オーバーしてしまいます。",
-		"tr_text": ""
+		"tr_text": "You don't have enough space in your chip storage\nto make this deposit.\nEither expand your chip storage or make room\nby selling chips or using them as grind material.\nExtra space needed: <color=red><%chip_over></color>"
 	},
 	{
 		"assign": "chip_depot_over_num_leave_max",
 		"jp_text": "預けるチップ倉庫に空き容量がありません。\n\nチップを強化／売却して整理してください。\n<color=red><%chip_over>枚</color>オーバーしてしまいます。",
-		"tr_text": ""
+		"tr_text": "You don't have enough space in your chip storage\nto make this deposit.\nMake room by selling chips or using them as grind material.\nExtra space needed: <color=red><%chip_over></color>"
 	},
 	{
 		"assign": "chip_depot_over_num_take",
 		"jp_text": "受け取るチップパックに空き容量がありません。\n\nチップパックを拡張するか\n強化／売却をして整理してください。\n<color=red><%chip_over>枚</color>オーバーしてしまいます。",
-		"tr_text": ""
+		"tr_text": "You don't have enough space in your chip inventory\nto make this withdrawal.\nEither expand your chip inventory or make room\nby selling chips or using them as grind material.\nExtra space needed: <color=red><%chip_over></color>"
 	},
 	{
 		"assign": "chip_depot_over_num_take_max",
 		"jp_text": "受け取るチップパックに空き容量がありません。\n\nチップを強化／売却して整理してください。\n<color=red><%chip_over>枚</color>オーバーしてしまいます。",
-		"tr_text": ""
+		"tr_text": "You don't have enough space in your chip inventory\nto make this withdrawal.\nMake room by selling chips or using them as grind material.\nExtra space needed: <color=red><%chip_over></color>"
 	},
 	{
 		"assign": "chip_depot_expand_button",
@@ -19702,7 +19737,7 @@
 	{
 		"assign": "scratch_pickup_get_bonus_item_name",
 		"jp_text": "回数ボーナスで\n「{0}」を入手しました",
-		"tr_text": "Received {0} as a Freqency Bonus"
+		"tr_text": "Received {0} as a Frequency Bonus"
 	},
 	{
 		"assign": "scratch_get_item_name_count",
@@ -19787,7 +19822,7 @@
 	{
 		"assign": "scratch_pickup_reset_finish_body",
 		"jp_text": "ドリームスクラッチの内容をリセットしました。\n封入するチップを選びなおしてください。",
-		"tr_text": ""
+		"tr_text": "Dream Scratch contents have been reset.\nPlease reselect chips to include."
 	},
 	{
 		"assign": "scratch_gc_select_guild",
@@ -20132,7 +20167,7 @@
 	{
 		"assign": "acceptbox_sale_failed_dialog_title",
 		"jp_text": "受け取りボックスの売却　期限切れ",
-		"tr_text": ""
+		"tr_text": "Reception Box Sale Expired"
 	},
 	{
 		"assign": "acceptbox_sale_failed_dialog_text",
@@ -20667,7 +20702,7 @@
 	{
 		"assign": "equip_favorite_guide_02",
 		"jp_text": "<color=#f0df60>チップ・武器・ユニットがアイテムパック・チップパックから移動されました。</color>",
-		"tr_text": "<color=#f0df60>Chips, weapons and units loaded from your Chip Pack and Item Pack.</color>"
+		"tr_text": "<color=#f0df60>Chips, weapons and units loaded from your Chip Pack and Inventory.</color>"
 	},
 	{
 		"assign": "equip_apply_lobby",
@@ -20687,7 +20722,7 @@
 	{
 		"assign": "quest_linkslot_button",
 		"jp_text": "リンクスロット",
-		"tr_text": ""
+		"tr_text": "Link Slot"
 	},
 	{
 		"assign": "quest_linkskill_week_element",
@@ -20697,7 +20732,7 @@
 	{
 		"assign": "quest_lobby_guide_01",
 		"jp_text": "<color=#f0df60>現在選択しているパレットのリンクスロットの確認画面となります。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Now displaying the link slots of your currently equipped chips.</color>"
 	},
 	{
 		"assign": "quest_event_character_title",
@@ -20727,12 +20762,12 @@
 	{
 		"assign": "chip_simple_details_button",
 		"jp_text": "詳細",
-		"tr_text": "Item"
+		"tr_text": "Details"
 	},
 	{
 		"assign": "chip_simple_details_awake_level",
 		"jp_text": "特装プラグ",
-		"tr_text": "Plug Details"
+		"tr_text": "Plugs"
 	},
 	{
 		"assign": "chip_simple_details_ability",
@@ -20878,6 +20913,11 @@
 		"assign": "chip_details_release_ability",
 		"jp_text": "解放能力",
 		"tr_text": "Gaiden Effect  "
+	},
+	{
+		"assign": "chip_details_release_ability_not_release",
+		"jp_text": "未開放",
+		"tr_text": "        Not Unlocked"
 	},
 	{
 		"assign": "chip_details_chipequip_next_lv",
@@ -21257,7 +21297,7 @@
 	{
 		"assign": "towerquest_top_guide_friend",
 		"jp_text": "<color=#f0df60>フレンド通信：<%name1>さんがエターナルタワー<%value1>Fをクリアしました。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</color>",
-		"tr_text": "<color=#f0df60>Friend comunication: <%name1> has cleared Eternal Tower floor <%value1>F.                                          </color>"
+		"tr_text": "<color=#f0df60>Friend communication: <%name1> has cleared Eternal Tower floor <%value1>F.                                          </color>"
 	},
 	{
 		"assign": "towerquest_top_guide_ranking",
@@ -21942,7 +21982,7 @@
 	{
 		"assign": "dialog_premium_bonus_expired_message",
 		"jp_text": "プレミアム有効期限が切れたため\n素材の最大所持数が変更されます。\n最大所持数を超えて素材を入手する場合\n受け取りボックスに送られます。\n※現在所持している素材は、このまま所持可能です。",
-		"tr_text": ""
+		"tr_text": "Your Premium expiration date has passed, so the\nnumber of material chips you can hold has changed.\nIf you receive more than you are able to hold, the\nexcess will be sent to your Reception Box.\n※You can keep whatever you currently have."
 	},
 	{
 		"assign": "field_optioncommon_title",
@@ -22492,7 +22532,7 @@
 	{
 		"assign": "raiddps_guid_achievement",
 		"jp_text": "<color=yellow>限界チャレンジの達成報酬です。入手条件を満たすと、報酬を受け取ることができます。</color>",
-		"tr_text": "<color=yellow>These are the Challenge Test Achievements. You can receive rewards if you have met the Achivement requirements.</color>"
+		"tr_text": "<color=yellow>These are the Challenge Test Achievements. You can receive rewards if you have met the Achievement requirements.</color>"
 	},
 	{
 		"assign": "raiddps_banner_how_to_play",
@@ -22511,8 +22551,23 @@
 	},
 	{
 		"assign": "raid_dps_achievement_button",
-		"jp_text": "達成報酬",
-		"tr_text": "Challenges"
+		"jp_text": "チャレンジ\nミッション",
+		"tr_text": "Challenge\nMissions"
+	},
+	{
+		"assign": "raid_dps_achievement_title",
+		"jp_text": "チャレンジミッション",
+		"tr_text": "Challenge Missions"
+	},
+	{
+		"assign": "raid_dps_achievement_max_items_title",
+		"jp_text": "最大ダメージ",
+		"tr_text": "Highest Damage"
+	},
+	{
+		"assign": "raid_dps_achievement_total_items_title",
+		"jp_text": "累積ダメージ",
+		"tr_text": "Total Damage"
 	},
 	{
 		"assign": "raid_dps_my_best",
@@ -22622,27 +22677,27 @@
 	{
 		"assign": "ura_towerquest_top_guide_00",
 		"jp_text": "<color=#f0df60>ナイトメアタワー踏破を目指す期間限定イベントです。塔の攻略を目指してください。クリアタイムによって、得られる報酬が異なります。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>This is a limited-time event where the objective is to climb the Nightmare Tower. You get better rewards for faster clear times.</color>"
 	},
 	{
 		"assign": "ura_towerquest_top_guide_01",
 		"jp_text": "<color=#f0df60>プレイするブロックを選択してください。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Select a Block to play.</color>"
 	},
 	{
 		"assign": "ura_towerquest_top_guide_friend",
 		"jp_text": "<color=#f0df60>フレンド通信：<%name1>さんがナイトメアタワー<%value1>Fをクリアしました。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>Friend communication: <%name1> has cleared Nightmare Tower floor <%value1>F.                                          </color>"
 	},
 	{
 		"assign": "ura_towerquest_top_guide_ranking",
 		"jp_text": "<color=#f0df60>ナイトメアタワーランキングの順位です。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>This is the Nightmare Tower ranking list.</color>"
 	},
 	{
 		"assign": "ura_towerquest_top_guide_ranking_result",
 		"jp_text": "<color=#f0df60>ナイトメアタワーランキングの順位です。</color>",
-		"tr_text": ""
+		"tr_text": "<color=#f0df60>This is the Nightmare Tower ranking list.</color>"
 	},
 	{
 		"assign": "ura_blockresult_all_eternal_tower_clear",
@@ -22787,7 +22842,7 @@
 	{
 		"assign": "chip_awake_dialog_b_shortage_meseta",
 		"jp_text": "メセタが不足しているため\nチップ特装をすることができません。",
-		"tr_text": ""
+		"tr_text": "Insufficient Meseta to specialize this chip."
 	},
 	{
 		"assign": "chip_awake_skill_dialog_t_shortage_meseta",
@@ -22797,7 +22852,7 @@
 	{
 		"assign": "chip_awake_skill_dialog_b_shortage_meseta",
 		"jp_text": "メセタが不足しているため\nプラグ強化をすることができません。",
-		"tr_text": ""
+		"tr_text": "Insufficient Meseta to Plug-In to this chip."
 	},
 	{
 		"assign": "chip_awake_dialog_t_shortage_chiplv",
@@ -22807,7 +22862,7 @@
 	{
 		"assign": "chip_awake_dialog_b_shortage_chiplv",
 		"jp_text": "特装対象のチップのレベルが\n最大レベルに達していないため\nチップ特装をすることができません。",
-		"tr_text": ""
+		"tr_text": "You cannot specialize this chip as it\nhas not reached its maximum level."
 	},
 	{
 		"assign": "chip_awake_skill_dialog_t_shortage_chiplv",
@@ -22827,7 +22882,7 @@
 	{
 		"assign": "chip_awake_dialog_b_shortage_materialchip",
 		"jp_text": "素材チップが不足しているため\nチップ特装をすることができません。",
-		"tr_text": ""
+		"tr_text": "Insufficient material chips to specialize this chip."
 	},
 	{
 		"assign": "chip_awake_skill_dialog_t_shortage_materialchip",
@@ -22837,7 +22892,7 @@
 	{
 		"assign": "chip_awake_skill_dialog_b_shortage_materialchip",
 		"jp_text": "素材チップが不足しているため\nプラグ強化をすることができません。",
-		"tr_text": ""
+		"tr_text": "Insufficient material chips to Plug-In to this chip."
 	},
 	{
 		"assign": "chip_awake_dialog_t_decide",
@@ -22847,7 +22902,7 @@
 	{
 		"assign": "chip_awake_dialog_b_decide",
 		"jp_text": "次の素材チップとメセタを消費して、チップ特装を実行します。\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "Chip specialization will consume the following\nmaterial chips and Meseta.\nDo you wish to continue?"
 	},
 	{
 		"assign": "chip_awake_dialog_b_decide_t_material",
@@ -22892,17 +22947,17 @@
 	{
 		"assign": "chip_awake_skill_dialog_b_decide",
 		"jp_text": "次の素材チップとメセタを消費して、プラグ強化を実行します。\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "Chip Plug-In will consume the following\nmaterial chips and Meseta.\nDo you wish to continue?"
 	},
 	{
 		"assign": "chip_awake_skill_dialog_b_decide_t_material",
 		"jp_text": "消費素材チップ",
-		"tr_text": ""
+		"tr_text": "Material Chips"
 	},
 	{
 		"assign": "chip_awake_skill_dialog_b_decide_t_details",
 		"jp_text": "プラグ強化効果",
-		"tr_text": ""
+		"tr_text": "Plug Effect"
 	},
 	{
 		"assign": "chip_awake_skill_dialog_b_decide_b_skilllv",
@@ -23142,7 +23197,7 @@
 	{
 		"assign": "conditional_title",
 		"jp_text": "経験値{0}倍！！",
-		"tr_text": ""
+		"tr_text": "EXP x {0}!!"
 	},
 	{
 		"assign": "auto_sale_setting_guide_message",
@@ -23282,7 +23337,7 @@
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_glare_receptor",
 		"jp_text": "グレアレセプター",
-		"tr_text": ""
+		"tr_text": "Glare Receptor"
 	},
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_chip_pate",
@@ -23577,7 +23632,7 @@
 	{
 		"assign": "scrach_have_es_ticket",
 		"jp_text": "所持esスクラッチコイン <color=#68a0a7>/</color>",
-		"tr_text": "ea Scratch Coins owned: <color=#68a0a7>/</color>"
+		"tr_text": "es Scratch Coins owned: <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "scrach_have_weaponoid_ticket",
@@ -23772,7 +23827,7 @@
 	{
 		"assign": "raid_scratch_connect_first_cancel",
 		"jp_text": "中断しますか？",
-		"tr_text": ""
+		"tr_text": "Do you want to stop here?"
 	},
 	{
 		"assign": "raid_scratch_connect_cancel_title",
@@ -23812,12 +23867,12 @@
 	{
 		"assign": "acceptbox_accept_failed_dialog_title",
 		"jp_text": "受け取りボックス　期限切れ",
-		"tr_text": ""
+		"tr_text": "Reception Box Contents Expired"
 	},
 	{
 		"assign": "acceptbox_accept_failed_dialog_message",
 		"jp_text": "期限切れのアイテムは受け取ることが\nできませんでした。",
-		"tr_text": ""
+		"tr_text": "Failed to receive some items as they\nhave expired."
 	},
 	{
 		"assign": "check_story_play_dialog_title",
@@ -23942,7 +23997,7 @@
 	{
 		"assign": "lobby_survival_ranking_num",
 		"jp_text": "<color=#e25f04>{0:#,0}位</color>",
-		"tr_text": ""
+		"tr_text": "<color=#e25f04>{0:#,0}</color>"
 	},
 	{
 		"assign": "lobby_survival_mission",
@@ -23977,12 +24032,12 @@
 	{
 		"assign": "lobby_survival_guide",
 		"jp_text": "<color=#f0df60>極討サバイバルの進行状況画面です。このクエストでは、討伐したエネミーの数に応じて入手できるサバイバルスコアや報酬数が増加します。</color>",
-		"tr_text": "Progress Screen of Extreme Survival. Defeat enemies in this quest to earn rewards and increase your Survival Score."
+		"tr_text": "<color=#f0df60>Progress Screen of Extreme Survival. Defeat enemies in this quest to earn rewards and increase your Survival Score.</color>"
 	},
 	{
 		"assign": "lobby_survival_guide_ranking",
 		"jp_text": "<color=#f0df60>極討サバイバルランキングの順位です。</color>",
-		"tr_text": "Ranking Screen of Extreme Survival."
+		"tr_text": "<color=#f0df60>Ranking Screen of Extreme Survival.</color>"
 	},
 	{
 		"assign": "lobby_survival_guide_mission",
@@ -23997,7 +24052,7 @@
 	{
 		"assign": "lobby_survival_summary_tab_info",
 		"jp_text": "詳細",
-		"tr_text": "Details"
+		"tr_text": "Info"
 	},
 	{
 		"assign": "lobby_survival_summary_tab_reward",
@@ -24007,7 +24062,7 @@
 	{
 		"assign": "lobby_survival_summary_attribute",
 		"jp_text": "有効属性 <color=#68a0a7>/</color>",
-		"tr_text": "Weakness <color=#68a0a7>/</color>"
+		"tr_text": "Elements <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "lobby_survival_summary_enemy",
@@ -24032,12 +24087,12 @@
 	{
 		"assign": "survival_return_dialog_return_button",
 		"jp_text": "再開する",
-		"tr_text": "Resume"
+		"tr_text": "Return"
 	},
 	{
 		"assign": "survival_return_dialog_end_button",
 		"jp_text": "終了する",
-		"tr_text": "Exit"
+		"tr_text": "Finish"
 	},
 	{
 		"assign": "survival_quest_name",
@@ -24047,22 +24102,22 @@
 	{
 		"assign": "survival_quest_ranking_no_entry",
 		"jp_text": "<color=#e25f04>未参加</color>",
-		"tr_text": "<color=#e25f04>N/A</color>"
+		"tr_text": "<color=#e25f04>None</color>"
 	},
 	{
 		"assign": "sb_reward_dialog_t",
 		"jp_text": "極討サバイバル報酬",
-		"tr_text": "Extreme Survival Reward"
+		"tr_text": "Extreme Survival Rewards"
 	},
 	{
 		"assign": "sb_reward_dialog_score_title_caption",
 		"jp_text": "討伐数・獲得スコア・ボーナス",
-		"tr_text": "Kill Score Bonus"
+		"tr_text": "Kill Count Score Bonus"
 	},
 	{
 		"assign": "sb_reward_dialog_killcount_caption",
 		"jp_text": "討伐数",
-		"tr_text": "Kills"
+		"tr_text": "Number defeated"
 	},
 	{
 		"assign": "sb_reward_dialog_score_caption",
@@ -24082,47 +24137,47 @@
 	{
 		"assign": "sb_reward_dialog_phase_bonus_num",
 		"jp_text": "+{0}個",
-		"tr_text": ""
+		"tr_text": "+{0}"
 	},
 	{
 		"assign": "SB_shop_dialog_t",
 		"jp_text": "【PHASE{0}】 使用効果選択",
-		"tr_text": "[PHASE{0}] Choose an effect"
+		"tr_text": "[PHASE {0}] Effect Selection"
 	},
 	{
 		"assign": "SB_shop_dialog_Caption",
 		"jp_text": "使用する効果を1つ選んでください。",
-		"tr_text": "Please choose 1 effect."
+		"tr_text": "Select 1 effect to use."
 	},
 	{
 		"assign": "SB_shop_PhaseStart_ButtonCaption",
 		"jp_text": "<color=#FFFF00>【PHASE{0}】を開始</color>",
-		"tr_text": "<color=#FFFF00>[PHASE{0}] Start</color>"
+		"tr_text": "<color=#FFFF00>Start [PHASE {0}]</color>"
 	},
 	{
 		"assign": "SB_shop_Use_ButtonCaption",
 		"jp_text": "　　　効果を使用",
-		"tr_text": "　　　Use an effect"
+		"tr_text": "     Use Effect"
 	},
 	{
 		"assign": "SB_status_dialog_t",
 		"jp_text": "使用効果・ステータス",
-		"tr_text": "Effect status"
+		"tr_text": "Effect / Status"
 	},
 	{
 		"assign": "SB_status_LTBuff_TitleCaption",
 		"jp_text": "持続効果",
-		"tr_text": "Persisting Effect"
+		"tr_text": "Persistent"
 	},
 	{
 		"assign": "SB_status_STBuff_TitleCaption",
 		"jp_text": "時限効果",
-		"tr_text": "Periodic Effect"
+		"tr_text": "Timed"
 	},
 	{
 		"assign": "SB_shop_point_possess",
 		"jp_text": "所持サポートポイント <color=#68a0a7>/</color>",
-		"tr_text": "Owned Support Points <color=#68a0a7>/</color>"
+		"tr_text": "Support Points <color=#68a0a7>/</color>"
 	},
 	{
 		"assign": "SB_shop_point_use",
@@ -24132,17 +24187,17 @@
 	{
 		"assign": "SB_Spoint_dialog_t",
 		"jp_text": "【PHASE{0}】 終了",
-		"tr_text": "[PHASE{0}] End"
+		"tr_text": "[PHASE {0}] End"
 	},
 	{
 		"assign": "SB_Spoint_unit_count",
 		"jp_text": "{0}回×{1}pt",
-		"tr_text": ""
+		"tr_text": "{0} x {1}pt"
 	},
 	{
 		"assign": "SB_Spoint_unit_Meter",
 		"jp_text": "{0}ｍ×{1}pt",
-		"tr_text": ""
+		"tr_text": "{0}m x {1}pt"
 	},
 	{
 		"assign": "SB_Spoint_pt",
@@ -24265,13 +24320,168 @@
 		"tr_text": "End the quest.\nAre you sure?"
 	},
 	{
+		"assign": "survival_end_time",
+		"jp_text": "{0} メンテまで",
+		"tr_text": ""
+	},
+	{
 		"assign": "survival_ranking_exits_dialog_title",
 		"jp_text": "ランキング確定",
 		"tr_text": "Ranking Confirmed"
 	},
 	{
+		"assign": "auto_rematch_setting_button_on",
+		"jp_text": "自動再戦：ON",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_button_off",
+		"jp_text": "自動再戦：OFF",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_title",
+		"jp_text": "自動再戦設定",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_detail",
+		"jp_text": "行動力・ＯＰが無くなるまで\nクエストをオートプレイし、自動で再出撃します。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_on_off_title",
+		"jp_text": "自動再戦を実行",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_on",
+		"jp_text": "ON",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_off",
+		"jp_text": "OFF",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_type_title",
+		"jp_text": "外伝解放・絆ゲージMAXで終了",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_all",
+		"jp_text": "全て",
+		"tr_text": "All"
+	},
+	{
+		"assign": "auto_rematch_setting_window_one",
+		"jp_text": "１人",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_rematch_count",
+		"jp_text": "連続再戦回数",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_max",
+		"jp_text": "最大",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_count",
+		"jp_text": "回",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_save",
+		"jp_text": "保存する",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_check_title",
+		"jp_text": "自動再戦開始確認",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_check_detail",
+		"jp_text": "変更した設定は保存されません。\nよろしいですか？",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_setting_window_check_detail_save",
+		"jp_text": "自動再戦を開始します。\nよろしいですか？\n\n※解除する場合は、自動再戦のボタンを押して\n　　設定を変更してください。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_not_clear_quest_dialog_title",
+		"jp_text": "自動再戦設定",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_not_clear_quest_dialog_message",
+		"jp_text": "クエストを自動でプレイ・再戦する機能です。\r\nこの機能はクリアしたことのあるクエストで\r\n使用できます。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_wait_time",
+		"jp_text": "自動再戦まで <color=#ffff00>{0}秒</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_finish_dialog_title",
+		"jp_text": "自動再戦終了",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_finish_dialog_acceptbox_button",
+		"jp_text": "受け取りボックスへ",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_finish_dialog_short_drive_message",
+		"jp_text": "行動力が足りないため\r\n自動再戦を終了しました。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_finish_dialog_acceptbox_message",
+		"jp_text": "受け取りボックスがいっぱいのため\r\n自動再戦を終了しました。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_finish_dialog_rematch_count_message",
+		"jp_text": "最大連続再戦回数（{0}回）に達したため\r\n自動再戦を終了しました。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_finish_dialog_friendship_message",
+		"jp_text": "{0}人のチップの\n外伝解放・絆ゲージがMAXになったため\r\n自動再戦を終了しました。",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_dialog_t_01",
+		"jp_text": "自動再戦終了",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_dialog_b_01",
+		"jp_text": "自動再戦を終了しますか？\n",
+		"tr_text": ""
+	},
+	{
 		"assign": "loginbonus_pudding",
 		"jp_text": "ジェネの手作りプリン<%puding>個",
+		"tr_text": ""
+	},
+	{
+		"assign": "acshop_oprecovery_pass_buff_06",
+		"jp_text": "・<color=#ffa500>所持サポートポイント</color>が<% point>ptアップ！\n※所持サポートポイントは\n   発生している効果１つにつき200ptアップします。",
+		"tr_text": ""
+	},
+	{
+		"assign": "acshop_oprecovery_pass_buff_update_06",
+		"jp_text": "・<color=#ffa500>所持サポートポイント</color>が200ptアップ！\n※所持サポートポイントは\n   発生している効果１つにつき200ptアップします。",
 		"tr_text": ""
 	},
 	{

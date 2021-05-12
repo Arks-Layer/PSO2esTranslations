@@ -928,21 +928,21 @@
 		"jp_text": "ショットレボルシオ",
 		"tr_text": "Shot Revolucio",
 		"jp_explain": "新開発の演算装置を搭載した長銃。\n装者の思考や戦況を分析することで\n出力を最適に保ち、負荷を軽減する。",
-		"tr_explain": "A Rifle equipped with a newly\ndeveloped computing device. It scans\nbattle patterns for optimal efficiency."
+		"tr_explain": "A rifle with a newly developed\ncomputing device. It scans tactical\ndata for optimal user efficiency."
 	},
 	{
 		"assign": "180226",
 		"jp_text": "ショットドミナシオ",
 		"tr_text": "Shot Dominacio",
 		"jp_explain": "新開発の演算装置を搭載した長銃。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
-		"tr_explain": ""
+		"tr_explain": "A rifle with a newly developed\ncomputing device. Powerful, but puts\nstrain on the user's mind in battle."
 	},
 	{
 		"assign": "180227",
 		"jp_text": "ショットインクルシオ",
 		"tr_text": "Shot Inclusio",
 		"jp_explain": "新開発の演算装置を搭載した長銃。\nこれまでの処理能力の限界を突破し\n目を見張る威力と操作性を実現した。",
-		"tr_explain": ""
+		"tr_explain": "A rifle with a newly developed\ncomputing device. Its processor breaks\nall records for power and usability."
 	},
 	{
 		"assign": "180229",
@@ -1635,6 +1635,13 @@
 		"jp_text": "対アンドロイドライフル-NT",
 		"tr_text": "Anti Android Rifle-NT",
 		"jp_explain": "別系統のライフルを基に改良した長銃。\n一流の技術者、科学者の協力の下\n改良が施されたため、非常に高性能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "180421",
+		"jp_text": "ヤスミノコフ５０００ＳＤ-NT",
+		"tr_text": "Yasminkov 5000SD-NT",
+		"jp_explain": "局地戦闘用に補修されたヤスミノコフ型\n長銃。砂漠、熱帯地帯でも高い性能を\n発揮できるように調整されている。",
 		"tr_explain": ""
 	}
 ]
