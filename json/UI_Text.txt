@@ -24002,7 +24002,7 @@
 	{
 		"assign": "lobby_survival_mission",
 		"jp_text": "残りミッション",
-		"tr_text": "Missions Remaining"
+		"tr_text": "Missions"
 	},
 	{
 		"assign": "lobby_survival_mission_num",
@@ -24032,17 +24032,17 @@
 	{
 		"assign": "lobby_survival_guide",
 		"jp_text": "<color=#f0df60>極討サバイバルの進行状況画面です。このクエストでは、討伐したエネミーの数に応じて入手できるサバイバルスコアや報酬数が増加します。</color>",
-		"tr_text": "<color=#f0df60>This is the Extreme Survival progress screen. In this quest, your Survival Score and rewards increase based on how many enemies you defeat.</color>"
+		"tr_text": "<color=#f0df60>Progress Screen of Extreme Survival. Defeat enemies in this quest to earn rewards and increase your Survival Score.</color>"
 	},
 	{
 		"assign": "lobby_survival_guide_ranking",
 		"jp_text": "<color=#f0df60>極討サバイバルランキングの順位です。</color>",
-		"tr_text": "<color=#f0df60>This is the Extreme Survival ranking.</color>"
+		"tr_text": "<color=#f0df60>Ranking Screen of Extreme Survival.</color>"
 	},
 	{
 		"assign": "lobby_survival_guide_mission",
 		"jp_text": "<color=#f0df60>極討サバイバルの達成報酬です。入手条件を満たすと、報酬を受け取ることができます。</color>",
-		"tr_text": "<color=#f0df60>These are the Extreme Survival rewards. You can earn these rewards by meeting their conditions.</color>"
+		"tr_text": "<color=#f0df60>Rewards for Extreme Survival. You can receive rewards by clearing the requisite conditions.</color>"
 	},
 	{
 		"assign": "lobby_survival_slash",
@@ -24077,12 +24077,12 @@
 	{
 		"assign": "survival_return_dialog_title",
 		"jp_text": "極討サバイバル再開確認",
-		"tr_text": "Resume Extreme Survival"
+		"tr_text": "Resuming Extreme Survival"
 	},
 	{
 		"assign": "survival_return_dialog_message",
 		"jp_text": "極討サバイバルの中断データがあります。\nプレイを再開しますか？\n\n※再開してもOPは消費されません。\n<color=#ff0000>※終了した場合、プレイ状況に関係なく\n   アイテム・メセタ・経験値は獲得できません。</color>",
-		"tr_text": "Data for a previously interrupted run was found.\nDo you want to resume from where you stopped?\n\n※OP will not be consumed if you restart.\n<color=#ff0000>※終了した場合、プレイ状況に関係なく\n   アイテム・メセタ・経験値は獲得できません。</color>"
+		"tr_text": "Data was interrupted during Extreme Survival.\nAre you sure you want to resume?\n\n※Restarting does not consume OP.\n<color=#ff0000>※Exiting the quest will forfeit all items, Meseta, and EXP."
 	},
 	{
 		"assign": "survival_return_dialog_return_button",
@@ -24137,7 +24137,7 @@
 	{
 		"assign": "sb_reward_dialog_phase_bonus_num",
 		"jp_text": "+{0}個",
-		"tr_text": "+{0}"
+		"tr_text": ""
 	},
 	{
 		"assign": "SB_shop_dialog_t",
@@ -24172,7 +24172,7 @@
 	{
 		"assign": "SB_status_STBuff_TitleCaption",
 		"jp_text": "時限効果",
-		"tr_text": "TImed"
+		"tr_text": "Timed"
 	},
 	{
 		"assign": "SB_shop_point_possess",
@@ -24182,7 +24182,7 @@
 	{
 		"assign": "SB_shop_point_use",
 		"jp_text": " 消費<color=#68a0a7> /</color>",
-		"tr_text": " Using <color=#68a0a7>/</color>"
+		"tr_text": " Cost<color=#68a0a7> /</color>"
 	},
 	{
 		"assign": "SB_Spoint_dialog_t",
@@ -24207,87 +24207,87 @@
 	{
 		"assign": "SB_Spoint_Getpoint_TitleCaption",
 		"jp_text": "所持サポートポイント",
-		"tr_text": "Support Points owned"
+		"tr_text": "Support Points"
 	},
 	{
 		"assign": "SB_Spoint_Toppoint_TitleCaption",
 		"jp_text": "獲得内訳",
-		"tr_text": ""
+		"tr_text": "Point Details"
 	},
 	{
 		"assign": "SB_Spoint_Pointdetails_TitleCaption",
 		"jp_text": "獲得内訳",
-		"tr_text": ""
+		"tr_text": "Point Details"
 	},
 	{
 		"assign": "SB_Spoint_Carryover_Caption",
 		"jp_text": "前フェーズから持ち越し",
-		"tr_text": ""
+		"tr_text": "Carryover Points"
 	},
 	{
 		"assign": "SB_Spoint_NormalAttack_Caption",
 		"jp_text": "通常攻撃",
-		"tr_text": ""
+		"tr_text": "Normal Attack"
 	},
 	{
 		"assign": "SB_Spoint_SpAttackChip_Caption",
 		"jp_text": "必殺技・法術チップ発動",
-		"tr_text": ""
+		"tr_text": "PA/Tech Chip Activation"
 	},
 	{
 		"assign": "SB_Spoint_SChip_Caption",
 		"jp_text": "サポートチップ発動",
-		"tr_text": ""
+		"tr_text": "Support Chip Activation"
 	},
 	{
 		"assign": "SB_Spoint_AChip_Caption",
 		"jp_text": "アクティブチップ（連続使用不可）発動",
-		"tr_text": ""
+		"tr_text": "Active Chip (Once) Activation"
 	},
 	{
 		"assign": "SB_Spoint_AChipNonCt_Caption",
 		"jp_text": "アクティブチップ（連続使用可）発動",
-		"tr_text": ""
+		"tr_text": "Active Chip (Multiple) Activation"
 	},
 	{
 		"assign": "SB_Spoint_Moving_Caption",
 		"jp_text": "移動距離",
-		"tr_text": ""
+		"tr_text": "Movement Speed"
 	},
 	{
 		"assign": "SB_Spoint_Avoid_Caption",
 		"jp_text": "回避アクション",
-		"tr_text": ""
+		"tr_text": "Dodge"
 	},
 	{
 		"assign": "SB_Spoint_JustAttack_Caption",
 		"jp_text": "ジャストアタック成功",
-		"tr_text": ""
+		"tr_text": "Just Attack"
 	},
 	{
 		"assign": "SB_Spoint_Other_Caption",
 		"jp_text": "その他",
-		"tr_text": ""
+		"tr_text": "Other"
 	},
 	{
 		"assign": "SB_Spoint_Allview_ButtonCaption",
 		"jp_text": "すべて見る",
-		"tr_text": ""
+		"tr_text": "See All"
 	},
 	{
 		"assign": "window_help_LM45",
 		"jp_text": "wh_60_01,\n極討サバイバルとは\n次々に襲ってくるエネミーを倒していく期間限定の特別クエストです。\n出発には「オペレーションポイント（ＯＰ）」を消費します。,\nwh_60_02,\nこのクエストのバトルは、決められた数の<color=yellow>エネミーを倒すことで進行</color>します。\n<color=yellow>フェーズが進むほど、強力なエネミーが登場</color>するので\n万全の準備をして挑みましょう。,\nwh_60_03,\nエネミーが通常のバトルよりも多く登場するため\n<color=yellow>バトルカメラ設定を「遠」</color>にするのがおすすめです。\n画面右上の一時停止ボタンから表示される「オプション」で変更できます。,\nwh_60_04,\nエネミーからの攻撃に加え、フィールドに設置されたダーカー兵器から\n一定時間ごとに、衝撃波によるダメージを受けます。\n衝撃波は徐々に強力になっていくので注意しましょう。,\nwh_60_05,\nバトル中の行動によって、<color=yellow>サポートポイント</color>が貯まります。\nフェーズが開始する前に、所持しているサポートポイントを使用して\nプレイヤーの強化を行うことができます。,\nwh_60_06,\n先のフェーズに進むほど、多くの報酬が貰えます。\nサポートポイントの獲得で得られる効果を駆使して\nより多くのエネミー打倒を目指しましょう！,",
-		"tr_text": ""
+		"tr_text": "wh_60_01,\nExtreme Survival\nDefeat hoardes of enemies within the time limit.\n「Operation Points (OP)」will be consumed upon departure.,\nwh_60_02,\nProgress through this quest by defeating a fixed number of <color=yellow>enemies.\n<color=yellow>Powerful enemies will appear in the later Phases.</color>\nSo give it your best shot!,\nwh_60_03,\nDue to large amounts of enemies appearing\nIt is recommended to set the <color=yellow>battle camera to「far」</color>\nYou can access it from「Options」in the pause menu on the top right of the screen.,\nwh_60_04,\nDarker weapons emitting shockwaves will damage you at regular intervals alongside enemy attacks.\nThe shockwaves will strengthen over time.,\nwh_60_05,\nDepending on your actions, you can acquire <color=yellow>Support Points</color>\nYou can spend your Support Points before the Phase starts.\nOn strengthening effects,\nwh_60_06,\nLater Phases contain more awards.\nMaximise effects through earning Support Points.\nDefeat as many enemies as you can!"
 	},
 	{
 		"assign": "survival_achievement_title",
 		"jp_text": "サバイバルミッション",
-		"tr_text": ""
+		"tr_text": "Survival Mission"
 	},
 	{
 		"assign": "survival_achievement_total_score",
 		"jp_text": "合計討伐数",
-		"tr_text": ""
+		"tr_text": "Total Score"
 	},
 	{
 		"assign": "SB_Game_TotalCount",
@@ -24312,12 +24312,12 @@
 	{
 		"assign": "survival_dialog_t_01",
 		"jp_text": "極討サバイバルリタイア",
-		"tr_text": ""
+		"tr_text": "Retire from Extreme Survival"
 	},
 	{
 		"assign": "survival_dialog_b_01",
 		"jp_text": "クエストを終了します。\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "End the quest.\nAre you sure?"
 	},
 	{
 		"assign": "survival_end_time",
@@ -24327,7 +24327,7 @@
 	{
 		"assign": "survival_ranking_exits_dialog_title",
 		"jp_text": "ランキング確定",
-		"tr_text": ""
+		"tr_text": "Ranking Confirmed"
 	},
 	{
 		"assign": "auto_rematch_setting_button_on",
@@ -24487,11 +24487,11 @@
 	{
 		"assign": "scratch_bonus_window_stage_one",
 		"jp_text": "STAGE1",
-		"tr_text": ""
+		"tr_text": "STAGE1"
 	},
 	{
 		"assign": "scratch_bonus_window_stage_two",
 		"jp_text": "STAGE2",
-		"tr_text": ""
+		"tr_text": "STAGE2"
 	}
 ]
