@@ -23957,7 +23957,7 @@
 	{
 		"assign": "lobby_survival_mission_button",
 		"jp_text": "サバイバル\nミッション",
-		"tr_text": "Survival Mission"
+		"tr_text": "Survival\nMission"
 	},
 	{
 		"assign": "lobby_survival_score",
@@ -23967,12 +23967,12 @@
 	{
 		"assign": "lobby_survival_score_num",
 		"jp_text": "<color=#ffff00>{0:#,0}</color>",
-		"tr_text": "<color=#ffff00>{0:#,0}</color>"
+		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_sore_unit",
 		"jp_text": "pt",
-		"tr_text": "pt"
+		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_guide",
@@ -23992,7 +23992,7 @@
 	{
 		"assign": "lobby_survival_slash",
 		"jp_text": "<color=#68a0a7>/</color>",
-		"tr_text": "<color=#68a0a7>/</color>"
+		"tr_text": ""
 	},
 	{
 		"assign": "lobby_survival_summary_tab_info",
@@ -24087,7 +24087,7 @@
 	{
 		"assign": "SB_shop_dialog_t",
 		"jp_text": "【PHASE{0}】 使用効果選択",
-		"tr_text": "【PHASE{0}】 Choose an effect"
+		"tr_text": "[PHASE{0}] Choose an effect"
 	},
 	{
 		"assign": "SB_shop_dialog_Caption",
@@ -24097,7 +24097,7 @@
 	{
 		"assign": "SB_shop_PhaseStart_ButtonCaption",
 		"jp_text": "<color=#FFFF00>【PHASE{0}】を開始</color>",
-		"tr_text": "<color=#FFFF00>【PHASE{0}】Start</color>"
+		"tr_text": "<color=#FFFF00>[PHASE{0}] Start</color>"
 	},
 	{
 		"assign": "SB_shop_Use_ButtonCaption",
@@ -24132,7 +24132,7 @@
 	{
 		"assign": "SB_Spoint_dialog_t",
 		"jp_text": "【PHASE{0}】 終了",
-		"tr_text": "【PHASE{0}】 End"
+		"tr_text": "[PHASE{0}] End"
 	},
 	{
 		"assign": "SB_Spoint_unit_count",
@@ -24142,12 +24142,12 @@
 	{
 		"assign": "SB_Spoint_unit_Meter",
 		"jp_text": "{0}ｍ×{1}pt",
-		"tr_text": "{0}ｍ×{1}pt"
+		"tr_text": ""
 	},
 	{
 		"assign": "SB_Spoint_pt",
 		"jp_text": "{0}pt",
-		"tr_text": "{0}pt"
+		"tr_text": ""
 	},
 	{
 		"assign": "SB_Spoint_Getpoint_TitleCaption",
@@ -24237,22 +24237,22 @@
 	{
 		"assign": "SB_Game_TotalCount",
 		"jp_text": "<color=#99CCCC>TOTAL : {0}</color>",
-		"tr_text": "<color=#99CCCC>TOTAL : {0}</color>"
+		"tr_text": ""
 	},
 	{
 		"assign": "SB_Game_PhaseCount",
 		"jp_text": "<color=#99CCCC>PHASE {0}</color>",
-		"tr_text": <color=#99CCCC>PHASE {0}</color>""
+		"tr_text": ""
 	},
 	{
 		"assign": "SB_Game_Count_ato",
 		"jp_text": "あと",
-		"tr_text": "Left"
+		"tr_text": ""
 	},
 	{
 		"assign": "SB_Game_Count_tai",
 		"jp_text": "体",
-		"tr_text": "Enemies"
+		"tr_text": ""
 	},
 	{
 		"assign": "survival_dialog_t_01",
