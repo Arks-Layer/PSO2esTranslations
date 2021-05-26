@@ -34,14 +34,18 @@ for files in json_files:
             linenames = ["text", "name", "title", "explain", "explainShort", "explainLong", "patterns"]
             for rmid in djson:
                 for checkname in linenames:
+                    if checkname == "explainShort" and (files.find("ActiveExplain") or files.find("SupportExplain")):
+                        continue
+                    # Exclude short descriptions for chip files (but not link skills)
+                    
                     checkjp = "jp_" + checkname
                     if (
                         (checkjp in rmid)
-                        and (rmid[checkjp] not in ["", "-", "－", "---", "仮設定", "仮テキスト"])
-                        and (re.fullmatch(r'^\d+$', str(rmid[checkjp])) is None)
-                        # Filter out names that are just numbers - even if these aren't dummy strings, the numbers alone are fine
-                        and (re.fullmatch(r'ENT_(ABN|SP)ダミー\d+', str(rmid[checkjp])) is None)
-                       ):  # Filter out dummy strings from Explain_Element_Abnormal and Explain_Element_Special
+                        and (re.match(r'^($)|(-)|(－)|(---)|(仮設定)|(仮テキスト)|(未使用)|(\＊+$)|(＊￥)|(＊\\)|(ef_)|(bg_)|(wh_)|(ENT_)|(？？？.)', str(rmid[checkjp])) is None)
+                        # Filter out dummy strings
+                        and (re.match(r'^[a-zA-Z0-9 \-\'\"\&\:\,\.\!\(\)\{\}\<\>\#\=\⇒\/\\]+$', str(rmid[checkjp])) is None)
+                        # Filter out live strings that don't need translating
+                       ):
 
                         countin += 1
                         checktr = "tr_" + checkname
@@ -52,7 +56,7 @@ for files in json_files:
             # print ("%s/%s" % (countin, countout))
             if (countin):
                 countper = "{:06.1%}".format(float(countout) / float(countin))
-                bufout += '\n{0}\t{1}'.format(countper, files)
+                bufout += '\n{0}\t{1} ({2}/{3})'.format(countper, files, countout, countin)
             else:
                 bufout += '\n{0}\t:{1}'.format("No translatable lines found ", files)
         except ValueError as e:

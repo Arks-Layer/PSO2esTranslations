@@ -375,7 +375,7 @@
 		"jp_text": "イグニス",
 		"tr_text": "Ignis",
 		"jp_explain": "フォトンエネルギーパックを内蔵する\n飛翔剣。双方向から襲い掛かる二層の\n刃が、攻撃をより正確なものにする。",
-		"tr_explain": ""
+		"tr_explain": "Dual Blades with a built-in Photon\nenergy pack. The two-layered blades\ncatch their prey and slash them apart."
 	},
 	{
 		"assign": "117094",
@@ -651,6 +651,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "1170184",
+		"jp_text": "ネブロスメディント",
+		"tr_text": "Nebulos Mediant",
+		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n飛翔剣。独特の色彩が不気味な武器。\n切断性能は高く、扱いには注意がいる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1170187",
 		"jp_text": "カセントリハルカ",
 		"tr_text": "Kasentori Haruka",
@@ -739,14 +746,21 @@
 		"jp_text": "ブレードレボルシオ",
 		"tr_text": "Blade Revolucio",
 		"jp_explain": "新開発の演算装置を搭載した飛翔剣。\n装者の思考や戦況を分析することで\n出力を最適に保ち、負荷を軽減する。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades with a newly developed\ncomputing device. They scan tactical\ndata for optimal user efficiency."
 	},
 	{
 		"assign": "1170215",
 		"jp_text": "ブレードドミナシオ",
 		"tr_text": "Blade Dominacio",
 		"jp_explain": "新開発の演算装置を搭載した飛翔剣。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades with a newly developed\ncomputing device. Powerful, but put\nstrain on the user's mind in battle."
+	},
+	{
+		"assign": "1170216",
+		"jp_text": "ブレードインクルシオ",
+		"tr_text": "Blade Inclusio",
+		"jp_explain": "新開発の演算装置を搭載した飛翔剣。\n高い処理能力が歴史を書き換え\n持つだけで力が湧いてくる。",
+		"tr_explain": "Dual blades with a newly developed\ncomputing device. Their processors\nhave the power to rewrite history."
 	},
 	{
 		"assign": "1170219",
@@ -767,7 +781,7 @@
 		"jp_text": "レイＤブレード",
 		"tr_text": "Ray Dual Blade",
 		"jp_explain": "次世代の主力として開発された飛翔剣。\n基礎モデルの直系の後継機であり\n出力、安定性共に高いスペックを誇る。",
-		"tr_explain": "Dual Blades developed as the latest\nmodel, boasting high photon stability\nwith next-gen specifications."
+		"tr_explain": "Dual Blades developed as the latest\nmodel, boasting high Photon stability\nwith next-gen specifications."
 	},
 	{
 		"assign": "1170225",
@@ -775,6 +789,13 @@
 		"tr_text": "Union Dual Blade",
 		"jp_explain": "次世代の主力として開発された飛翔剣。\n専用ブーストパーツが装着されたことで\n限界を超えた性能を発揮する。",
 		"tr_explain": "Dual Blades developed as the latest\nmodel. Augmented with boost parts,\nits performance exceeds its limits."
+	},
+	{
+		"assign": "1170231",
+		"jp_text": "ＲＡブレード",
+		"tr_text": "RA Blade",
+		"jp_explain": "ライドロイドのパーツを流用した飛翔剣。\n補助的な出力ながら、ブースターで\n加速することによって威力を補っている。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "1170232",
@@ -984,7 +1005,7 @@
 		"jp_text": "ユピテルトゥルス",
 		"tr_text": "Jupiter Tullus",
 		"jp_explain": "鋭い雷霆をイメージした飛翔剣。\n閉じ込めている雷が尖鋭的な形状から\n激しく放電している。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades in the form of nimble\nlightning. The discharges are caused\nby the compressed lightning blades."
 	},
 	{
 		"assign": "1170280",
@@ -1019,21 +1040,21 @@
 		"jp_text": "バルスレヒト",
 		"tr_text": "Val Slecht",
 		"jp_explain": "過去に戦場となった地域から発掘された\n飛翔剣。刃は折れ、残った部分も\n大半が錆びついてしまっている。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades excavated from an old\nbattlefield. The blades have shattered,\nand what remains is mostly rust."
 	},
 	{
 		"assign": "1170292",
 		"jp_text": "アトラスレヒト",
 		"tr_text": "Atlas Slecht",
 		"jp_explain": "過去に戦場となった地域から発掘された\n飛翔剣。刃や装飾が修復され、美しい\n漆黒の刃が再び世に姿を現した。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades excavated from an old\nbattlefield. The jet-black blades have\nbeen restored in all their beauty."
 	},
 	{
 		"assign": "1170293",
 		"jp_text": "アトラスレヒト・イクス",
 		"tr_text": "Atlas Slecht Ex",
 		"jp_explain": "過去に戦場となった地域から発掘された\n飛翔剣。紅き宝珠はフォトンを吸い\n全て無に帰す蒼き光の力を覚醒させる。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades excavated from an old\nbattlefield. The crimson jewel draws\nin Photons to awaken its true power."
 	},
 	{
 		"assign": "1170294",
@@ -1094,7 +1115,7 @@
 	{
 		"assign": "1170304",
 		"jp_text": "ニーケリーパー",
-		"tr_text": "Nieke Reaper",
+		"tr_text": "Nike Reaper",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った飛翔剣。両の刃の数だけ\n標的を切り裂き、勝利の道を切り開く。",
 		"tr_explain": ""
 	},
@@ -1124,14 +1145,14 @@
 		"jp_text": "カルバスティル",
 		"tr_text": "Karaba Stil",
 		"jp_explain": "武器としての機能のみを追求した\n飛翔剣。大きく分厚い刀身だが、巧みな\n重心制御により抜群の操作性を誇る。",
-		"tr_explain": "Un Arma creada por karin y\nmejorado con la tecnologia Lumimech.\nsu potencia es extrema"
+		"tr_explain": ""
 	},
 	{
 		"assign": "1170315",
 		"jp_text": "カルバピュラス",
 		"tr_text": "Karaba Puras",
 		"jp_explain": "武器としての機能のみを追求した\n飛翔剣。標的に複雑な傷を与える特殊な\n刃で、殺傷力を高めている。",
-		"tr_explain": "Un arma creada por karin.\naun necesita mejoras para\ndesbloquear su maximo poder"
+		"tr_explain": ""
 	},
 	{
 		"assign": "1170318",
@@ -1166,21 +1187,21 @@
 		"jp_text": "深遠翔クレアシオン",
 		"tr_text": "Profound Creaxion",
 		"jp_explain": "終わりなき物語を辿る者の絶望により\n生み出された飛翔剣。渦巻く闇の声に\n絡みつかれた刃は、光ある者を拒む。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades born of endless despair.\nDark whispers have corrupted them,\nturning them against all users of light."
 	},
 	{
 		"assign": "1170323",
 		"jp_text": "星震翔クレアシオン",
 		"tr_text": "Celestial Creaxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した飛翔剣。祈りは希望を宿し\n果てぬ悲しみを終わらせる刃となる。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades touched by a time\ntraveller's heart. Their hope-filled\nblades bring an end to endless sorrow."
 	},
 	{
 		"assign": "1170324",
 		"jp_text": "光跡翔クレアシオン",
 		"tr_text": "Lightstream Creaxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ飛翔剣。刃に比類なき意志が\nみなぎり、新たな未来をもたらす。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades that link the stars, bonded\nto a time traveller. The unequalled will\nof their blades brings a new future."
 	},
 	{
 		"assign": "1170325",
@@ -1253,17 +1274,31 @@
 		"tr_explain": "Dual Blades based on a sacred\nbeast. Favored by ARKS whose\npatron is the Phoenix of the South."
 	},
 	{
+		"assign": "1170355",
+		"jp_text": "ワールドオブガーディアン",
+		"tr_text": "World of Guardians",
+		"jp_explain": "選ばれし者が手にした時、真の力を表す\n運命の飛翔剣。古から、世界の秩序を\n司る鍵として存在し続けるという。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1170362",
 		"jp_text": "光纏翔クラースグライド",
 		"tr_text": "Lightweaver Cras Glide",
 		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った飛翔剣。\nその翔撃が、未来を掴み取る。",
-		"tr_explain": "Dual Blades that wove the light that\nvanquished the darkness. Its\nPhoton Blades will grasp the future."
+		"tr_explain": "Dual Blades that wove the light that\nvanquished darkness. By their Photon\nBlades, the future is grasped."
 	},
 	{
 		"assign": "1170369",
 		"jp_text": "フローテアブレード",
 		"tr_text": "Flotea Blade",
 		"jp_explain": "フォトンの刃が虹色にきらめく飛翔剣。\n余剰フォトンを再利用したスラスターで\nブレードを加速させ、高い威力を出す。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1170375",
+		"jp_text": "フィンブルリート",
+		"tr_text": "Fimbul Reed",
+		"jp_explain": "重厚な気高さを漂わせる飛翔剣。\n吸い込まれるほど美しい宝石は\nフォトンの制御力を底上げしてくれる。",
 		"tr_explain": ""
 	},
 	{
@@ -1274,10 +1309,38 @@
 		"tr_explain": "Dual blades forged by the master\ncraftsman Dosetsu. Despite their long\nhistory, they have never worn out."
 	},
 	{
+		"assign": "1170383",
+		"jp_text": "￥Ｅデモニア２飛翔剣ＣＶ２",
+		"tr_text": "",
+		"jp_explain": "￥Ｅデモニア２飛翔剣ＣＶ２",
+		"tr_explain": ""
+	},
+	{
+		"assign": "1170384",
+		"jp_text": "フルクシオマローソ",
+		"tr_text": "Fluxio Maroso",
+		"jp_explain": "流線美と機能性を備え持つ飛翔剣。\n複雑な輪郭は美しいだけでなく\n低負荷で長時間の戦闘も疲れない。",
+		"tr_explain": "Beautifully sleek dual blades whose\ncomplex contours let the user fight\nfor long periods without getting tired."
+	},
+	{
+		"assign": "1170385",
+		"jp_text": "リンザーマローソ",
+		"tr_text": "Rinza Maroso",
+		"jp_explain": "流線美と機能性を備え持つ飛翔剣。\nフォトン活性化機構の補助により\n使用者の負荷が大幅に軽減されている。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "1170386",
 		"jp_text": "闇征翔アジェルグライド",
 		"tr_text": "Darkbanisher Ayer Glide",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた飛翔剣。\n久遠の環の内に生きる覚悟を極めた。",
+		"tr_explain": "Dual blades that will give up anything\nto protect the universe. They are\nprepared to exist in an eternal cycle."
+	},
+	{
+		"assign": "1170391",
+		"jp_text": "イグニス-NT",
+		"tr_text": "Ignis-NT",
+		"jp_explain": "フォトンエネルギーパックを内蔵する\n飛翔剣。双方向から襲い掛かる二層の\n刃が、攻撃をより正確なものにする。",
 		"tr_explain": ""
 	}
 ]

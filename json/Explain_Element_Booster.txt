@@ -771,17 +771,17 @@
 	},
 	{
 		"assign": "110",
-		"jp_text": "ドラゴン・フィーバー",
-		"tr_text": "Dragon Fever",
-		"jp_explain": "射撃+10 技量+5\nPP+2",
-		"tr_explain": "R-ATK +10 T-DEF +5\nPP +2"
+		"jp_text": "ドラグ・フィーバー",
+		"tr_text": "Drago Fever",
+		"jp_explain": "技量+5 射防+10\nHP+5 PP+1",
+		"tr_explain": "DEX +5 R-DEF +10\nHP +5 PP +1"
 	},
 	{
 		"assign": "111",
-		"jp_text": "エレファント・フィーバー",
-		"tr_text": "Elephant Fever",
-		"jp_explain": "打撃+10 技量+5\nHP+10",
-		"tr_explain": "S-ATK +10 T-DEF +5\nHP +10"
+		"jp_text": "エレフ・フィーバー",
+		"tr_text": "",
+		"jp_explain": "技量+5 打防+10\nHP+10",
+		"tr_explain": ""
 	},
 	{
 		"assign": "112",
@@ -946,10 +946,10 @@
 	},
 	{
 		"assign": "135",
-		"jp_text": "ENT_フィーバー08",
-		"tr_text": "",
-		"jp_explain": "---",
-		"tr_explain": ""
+		"jp_text": "タッキ・フィーバー",
+		"tr_text": "Turkey Fever",
+		"jp_explain": "技量+5 法防+10\nHP+5 PP+1",
+		"tr_explain": "DEX +5 T-DEF +10\nHP +5 PP +1"
 	},
 	{
 		"assign": "136",
@@ -1297,112 +1297,112 @@
 	{
 		"assign": "185",
 		"jp_text": "打撃ＨＰアップ",
-		"tr_text": "Strike HP Up",
+		"tr_text": "S-ATK & HP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "186",
 		"jp_text": "射撃ＨＰアップ",
-		"tr_text": "Ranged HP Up",
+		"tr_text": "R-ATK & HP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "187",
 		"jp_text": "法撃ＨＰアップ",
-		"tr_text": "Tech HP Up",
+		"tr_text": "T-ATK & HP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "188",
 		"jp_text": "技量ＨＰアップ",
-		"tr_text": "DEX HP Up",
+		"tr_text": "DEX & HP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "189",
 		"jp_text": "打撃ＰＰアップ",
-		"tr_text": "Strike PP Up",
+		"tr_text": "S-aTK & PP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "190",
 		"jp_text": "射撃ＰＰアップ",
-		"tr_text": "Ranged PP Up",
+		"tr_text": "R-ATK & PP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "191",
 		"jp_text": "法撃ＰＰアップ",
-		"tr_text": "Tech PP Up",
+		"tr_text": "T-ATK & PP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "192",
 		"jp_text": "技量ＰＰアップ",
-		"tr_text": "DEX PP Up",
+		"tr_text": "DEX & PP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "193",
 		"jp_text": "ＨＰＰＰアップ",
-		"tr_text": "HP PP Up",
+		"tr_text": "HP & PP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "194",
 		"jp_text": "ＰＰＨＰアップ",
-		"tr_text": "PP HP Up",
+		"tr_text": "PP & HP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "195",
 		"jp_text": "打撃射撃アップ",
-		"tr_text": "Strike and Ranged Atk Up",
+		"tr_text": "S-ATK & R-ATK Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "196",
 		"jp_text": "打撃法撃アップ",
-		"tr_text": "",
+		"tr_text": "S-ATK & T-ATK Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "197",
 		"jp_text": "打撃技量アップ",
-		"tr_text": "",
+		"tr_text": "S-ATK & DEX Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "198",
 		"jp_text": "射撃法撃アップ",
-		"tr_text": "",
+		"tr_text": "R-ATK & T-ATK Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "199",
 		"jp_text": "射撃技量アップ",
-		"tr_text": "",
+		"tr_text": "R-ATK & DEX Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
 	{
 		"assign": "200",
 		"jp_text": "法撃技量アップ",
-		"tr_text": "",
+		"tr_text": "T-ATK & DEX Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
@@ -1647,7 +1647,7 @@
 	{
 		"assign": "235",
 		"jp_text": "打射法撃ＰＰアップ",
-		"tr_text": "",
+		"tr_text": "All ATK & PP Up",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
@@ -1822,7 +1822,7 @@
 	{
 		"assign": "260",
 		"jp_text": "poka19",
-		"tr_text": "",
+		"tr_text": "battlemode19",
 		"jp_explain": "---",
 		"tr_explain": ""
 	},
@@ -2466,44 +2466,44 @@
 	{
 		"assign": "352",
 		"jp_text": "グランド・スタミナ",
-		"tr_text": "",
+		"tr_text": "Grand Stamina",
 		"jp_explain": "HP+100 PP+6",
-		"tr_explain": ""
+		"tr_explain": "HP +100 PP +6"
 	},
 	{
 		"assign": "353",
 		"jp_text": "グランド・スピリタ",
-		"tr_text": "",
+		"tr_text": "Grand Spirita",
 		"jp_explain": "PP+15",
-		"tr_explain": ""
+		"tr_explain": "PP +15"
 	},
 	{
 		"assign": "354",
 		"jp_text": "グランド・パワー",
-		"tr_text": "",
+		"tr_text": "Grand Power",
 		"jp_explain": "打撃+60 HP+20\nPP+5",
-		"tr_explain": ""
+		"tr_explain": "S-ATK +60 HP +20\nPP +5"
 	},
 	{
 		"assign": "355",
 		"jp_text": "グランド・シュート",
-		"tr_text": "",
+		"tr_text": "Grand Shoot",
 		"jp_explain": "射撃+60 HP+20\nPP+5",
-		"tr_explain": ""
+		"tr_explain": "R-ATK +60 HP +20\nPP +5"
 	},
 	{
 		"assign": "356",
 		"jp_text": "グランド・テクニック",
-		"tr_text": "",
+		"tr_text": "Grand Technique",
 		"jp_explain": "法撃+60 HP+20\nPP+5",
-		"tr_explain": ""
+		"tr_explain": "T-ATK +60 HP +20\nPP +5"
 	},
 	{
 		"assign": "357",
 		"jp_text": "カタリストレセプター",
-		"tr_text": "",
+		"tr_text": "Catalyst Receptor",
 		"jp_explain": "カタリスト系特殊能力の\n継承成功率を大幅に上昇\n全+10",
-		"tr_explain": ""
+		"tr_explain": "Boosts Catalyst-type\nability transfer rates.\nAll +10"
 	},
 	{
 		"assign": "358",
@@ -2543,106 +2543,141 @@
 	{
 		"assign": "363",
 		"jp_text": "ドゥームブレイクⅢ",
-		"tr_text": "",
+		"tr_text": "Doom Break III",
 		"jp_explain": "打撃+30 射撃+30\n法撃+30 PP+4",
-		"tr_explain": ""
+		"tr_explain": "S-ATK +30 R-ATK +30\nT-ATK +30 PP+4"
 	},
 	{
 		"assign": "364",
 		"jp_text": "ディバインレセプター",
-		"tr_text": "",
+		"tr_text": "Divine Receptor",
 		"jp_explain": "ディバイン系特殊能力の\n継承成功率を大幅に上昇\n全+10",
-		"tr_explain": ""
+		"tr_explain": "Boosts Divine-type\nability transfer rates.\nAll +10"
 	},
 	{
 		"assign": "365",
 		"jp_text": "イクシードレセプター",
-		"tr_text": "",
+		"tr_text": "Exceed Receptor",
 		"jp_explain": "イクシード系特殊能力の\n継承成功率を大幅に上昇\n全+10",
-		"tr_explain": ""
+		"tr_explain": "Boosts Exceed-type\nability transfer rates.\nAll +10"
 	},
 	{
 		"assign": "366",
 		"jp_text": "バトルブーツⅠ",
-		"tr_text": "",
+		"tr_text": "Battle Boots I",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "367",
 		"jp_text": "バトルブーツⅡ",
-		"tr_text": "",
+		"tr_text": "Battle Boots II",
 		"jp_explain": "HP+10",
-		"tr_explain": ""
+		"tr_explain": "HP +10"
 	},
 	{
 		"assign": "368",
 		"jp_text": "バトルブーツⅢ",
-		"tr_text": "",
+		"tr_text": "Battle Boots III",
 		"jp_explain": "HP+30",
-		"tr_explain": ""
+		"tr_explain": "HP +30"
 	},
 	{
 		"assign": "369",
 		"jp_text": "エクゼクル・グレア",
-		"tr_text": "",
+		"tr_text": "Execour Glare",
 		"jp_explain": "打撃+20 射撃+20\n法撃+20 打防+50\n射防+50 法防+50",
-		"tr_explain": ""
+		"tr_explain": "ATK +20 DEF +50"
 	},
 	{
 		"assign": "370",
 		"jp_text": "ミトラ・グレア",
-		"tr_text": "",
+		"tr_text": "Mitra Glare",
 		"jp_explain": "打撃+30 射撃+30\n打防+20 射防+20\n法防+20 HP+20 PP+2",
-		"tr_explain": ""
+		"tr_explain": "S-ATK +30 R-ATK +30\nDEF +20 HP +20\nPP +2"
 	},
 	{
 		"assign": "371",
 		"jp_text": "ヴァルナ・グレア",
-		"tr_text": "",
+		"tr_text": "Varuna Glare",
 		"jp_explain": "打撃+30 法撃+30\n打防+20 射防+20\n法防+20 HP+20 PP+2",
-		"tr_explain": ""
+		"tr_explain": "S-ATK +30 T-ATK +30\nDEF +20 HP +20\nPP +2"
 	},
 	{
 		"assign": "372",
 		"jp_text": "シバ・グレア",
-		"tr_text": "",
+		"tr_text": "Shiva Glare",
 		"jp_explain": "射撃+30 法撃+30\n打防+20 射防+20\n法防+20 HP+20 PP+2",
-		"tr_explain": ""
+		"tr_explain": "R-ATK +30 T-ATK +30\nDEF +20 HP +20\nPP +2"
 	},
 	{
 		"assign": "373",
 		"jp_text": "オリジン・グレア",
-		"tr_text": "",
+		"tr_text": "Origin Glare",
 		"jp_explain": "打撃+30 射撃+30\n法撃+30 打防+10\n射防+10 法防+10\nHP+20 PP+2",
-		"tr_explain": ""
+		"tr_explain": "ATK +30 DEF +10\nHP +20 PP +2"
 	},
 	{
 		"assign": "374",
 		"jp_text": "フォトナー・グレア",
-		"tr_text": "",
+		"tr_text": "Photoner Glare",
 		"jp_explain": "全+15 HP+15 PP+2",
-		"tr_explain": ""
+		"tr_explain": "All +15 HP +15 PP +2"
 	},
 	{
 		"assign": "375",
 		"jp_text": "グレア・カタリスト",
-		"tr_text": "",
+		"tr_text": "Glare Catalyst",
 		"jp_explain": "4つ集めると\nフォトナー・グレアと\n合成可能\nHP+10 PP+1",
-		"tr_explain": ""
+		"tr_explain": "Can be combined with\nPhotoner Glare when you\ncollect four.\nHP +10 PP +1"
 	},
 	{
 		"assign": "376",
 		"jp_text": "アブソリュート・グレア",
-		"tr_text": "",
+		"tr_text": "Absolute Glare",
 		"jp_explain": "全+40 HP+30 PP+3",
-		"tr_explain": ""
+		"tr_explain": "All +40 HP +30\nPP+3"
 	},
 	{
 		"assign": "377",
 		"jp_text": "ガーディアン・ソール",
-		"tr_text": "",
+		"tr_text": "Guardian Soul",
 		"jp_explain": "全+70 HP+70 PP+7",
-		"tr_explain": ""
+		"tr_explain": "All +70 HP +70\nPP+7"
+	},
+	{
+		"assign": "378",
+		"jp_text": "グレアレセプター",
+		"tr_text": "Glare Receptor",
+		"jp_explain": "グレア系特殊能力の\n継承成功率を大幅に上昇\n全+10",
+		"tr_explain": "Boosts Glare-type\nability transfer rates.\nAll +10"
+	},
+	{
+		"assign": "379",
+		"jp_text": "リガンド・アルマ",
+		"tr_text": "Ligand Arma",
+		"jp_explain": "打撃+40 HP+30 PP+3",
+		"tr_explain": "S-ATK +40 HP +30\nPP +3"
+	},
+	{
+		"assign": "380",
+		"jp_text": "リガンド・ティロ",
+		"tr_text": "Ligand Tiro",
+		"jp_explain": "射撃+40 HP+30 PP+3",
+		"tr_explain": "R-ATK +40 HP +30\nPP +3"
+	},
+	{
+		"assign": "381",
+		"jp_text": "リガンド・マギア",
+		"tr_text": "Ligand Magia",
+		"jp_explain": "法撃+40 HP+30 PP+3",
+		"tr_explain": "T-ATK +40 HP +30\nPP +3"
+	},
+	{
+		"assign": "382",
+		"jp_text": "レヴリーレセプター",
+		"tr_text": "Reverie Receptor",
+		"jp_explain": "レヴリー系特殊能力の\n継承成功率を大幅に上昇\n全+10",
+		"tr_explain": "Boosts Reverie-type\nability transfer rates.\nAll +10"
 	}
 ]

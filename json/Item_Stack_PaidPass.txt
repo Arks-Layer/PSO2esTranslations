@@ -2,16 +2,16 @@
 	{
 		"assign": "32101",
 		"jp_text": "エステ利用パス",
-		"tr_text": "Salon Ticket",
+		"tr_text": "Salon Pass",
 		"jp_explain": "エステカウンターの機能利用パス。\nサポートパートナーにも使用可能。\n利用するたびにパスは消費される。 ",
-		"tr_explain": "Allows you to use AC restricted\noptions in the Beauty Salon. Ticket is\nused after saving changes."
+		"tr_explain": "Allows you to use AC restricted\noptions in the Beauty Salon. Pass is\nused after saving changes."
 	},
 	{
 		"assign": "32103",
 		"jp_text": "カラーチェンジパス",
 		"tr_text": "Color Change Pass",
-		"jp_explain": "コスチュームのカラー変更パス\nエステにてカラーリングの変更が可能。\n利用するたびにパスは消費される。",
-		"tr_explain": "Permite recolorear un traje\n o tu personaje cast desde el\nSalon de Belleza."
+		"jp_explain": "エステにて『PSO2』モデルの\nカラー変更が可能。\n利用するたびにパスは消費される。",
+		"tr_explain": "Allows you to recolor your character\nfrom the PSO2 Beauty Salon."
 	},
 	{
 		"assign": "32104",
@@ -1094,7 +1094,7 @@
 	{
 		"assign": "3210209",
 		"jp_text": "特殊能力追加（心身継承）",
-		"tr_text": "Add Ability (Mind&Body)",
+		"tr_text": "Add Ability (Photon Receptor)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【心身継承】の特殊能力を追加する。",
 		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Photon Receptor\"\ncuando es usado en la sistesis."
 	},
@@ -1458,21 +1458,21 @@
 	{
 		"assign": "3210283",
 		"jp_text": "特殊能力保護（４枠以下）",
-		"tr_text": "Ability Protection (4s o menos)",
+		"tr_text": "Ability Protection (4s or lower)",
 		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが４スロット以下<c>",
 		"tr_explain": "Regresa Special Abilities que se\nperdieron durante la sintesis.\n<yellow>Solo funciona con 4 slots o menos.<c>"
 	},
 	{
 		"assign": "3210284",
 		"jp_text": "特殊能力保護（５枠以下）",
-		"tr_text": "Ability Protection (5s o menos)",
+		"tr_text": "Ability Protection (5s or lower)",
 		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが５スロット以下<c>",
 		"tr_explain": "Regresa Special Abilities que se\nperdieron durante la sintesis.\n<yellow>Solo funciona con 5 slots o menos.<c>"
 	},
 	{
 		"assign": "3210285",
 		"jp_text": "特殊能力保護（６枠以下）",
-		"tr_text": "Ability Protection (6s o menos)",
+		"tr_text": "Ability Protection (6s or lower)",
 		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが６スロット以下<c>",
 		"tr_explain": "Regresa Special Abilities que se\nperdieron durante la sintesis.\n<yellow>Solo funciona con 6 slots o menos.<c>"
 	},
@@ -1482,6 +1482,13 @@
 		"tr_text": "Ability Protection (7s or lower)",
 		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが７スロット以下<c>",
 		"tr_explain": "Returns the Special Abilities that\nwere lost from synthesis.\n<yellow>Only works on 7 slots or lower.<c>"
+	},
+	{
+		"assign": "3210287",
+		"jp_text": "特殊能力保護（８枠以下）",
+		"tr_text": "Ability Protection (8s or lower)",
+		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが８スロット以下<c>",
+		"tr_explain": "Returns the Special Abilities that\nwere lost from synthesis.\n<yellow>Only works on 8 slots or lower.<c>"
 	},
 	{
 		"assign": "3210288",
@@ -1913,7 +1920,7 @@
 	{
 		"assign": "3210365",
 		"jp_text": "Ｓ４追加：追蝕の巧",
-		"tr_text": "S4 Add:Pursuing Eclipse",
+		"tr_text": "S4 Add:Pursuing Skill",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：追蝕の巧を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Pursuing Eclipse\"\nwhen used in Ability Synthesis."
 	},
@@ -1941,9 +1948,16 @@
 	{
 		"assign": "3210369",
 		"jp_text": "Ｓ４追加：追蝕輝剰",
-		"tr_text": "S4 Add:Radiant Eclipse",
+		"tr_text": "S4 Add:Pursuing Radiance",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：追蝕輝剰を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Radiant Eclipse\"\nwhen used in Ability Synthesis."
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Pursuing Radiance\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210370",
+		"jp_text": "Ｓ４追加Ｒ：妙撃の秤",
+		"tr_text": "S4 Add R:Skilled Balance",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：妙撃の秤を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Skilled Balance\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210382",
@@ -2068,8 +2082,8 @@
 		"assign": "3210458",
 		"jp_text": "特殊能力（カタリスト継承）",
 		"tr_text": "Add Ability (Catalyst Receptor)",
-		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【カタリストレセプター】を追加する。",
-		"tr_explain": "Material usado al sintetizar habilidades.\nOtorga \"Catalyst Receptor\"\ncuando se usa en Ability Synthesis."
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【カタリストレセプター】を追加。",
+		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"Catalyst Receptor\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210459",
@@ -2105,6 +2119,20 @@
 		"tr_text": "S1 Add:Rupturing Intent",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：裂砕の志を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Rupturing Intent\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210465",
+		"jp_text": "Ｓ１追加Ｒ：光子の秤２",
+		"tr_text": "S1 Add R:Photon Balance 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：光子の秤２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Photon Balance 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210466",
+		"jp_text": "Ｓ１追加Ｒ：滅域輝与２",
+		"tr_text": "S1 Add R:Brilliant Ruin 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：滅域輝与２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Brilliant Ruin 2\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210469",
@@ -2161,6 +2189,27 @@
 		"tr_text": "S3 Add:Powering Intent",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：強闘の志を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Powering Intent\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210489",
+		"jp_text": "特殊能力（アストラルＳ）",
+		"tr_text": "Add Ability (Astral S)",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【アストラル・ソール】を追加。",
+		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"Astral Soul\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210490",
+		"jp_text": "特殊能力（エーテルＦ）",
+		"tr_text": "Add Ability (Ether F)",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【エーテル・ファクター】を追加。",
+		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"Ether Factor\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210491",
+		"jp_text": "特殊能力（マナレヴリー）",
+		"tr_text": "Add Ability (Mana Reverie)",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【マナ・レヴリー】を追加。",
+		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"Mana Reverie\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210492",
@@ -2273,6 +2322,13 @@
 		"tr_text": "S7 Add:Increased Efficiency",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：薬効増大を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Increased Efficiency\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210523",
+		"jp_text": "Ｓ７追加Ｒ：視敵無双",
+		"tr_text": "S7 Add R:Descried Warrior",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：視敵無双を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Descried Warrior\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210529",
@@ -2436,6 +2492,13 @@
 		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 60%"
 	},
 	{
+		"assign": "3210556",
+		"jp_text": "Ｓ６追加：奇跡再演",
+		"tr_text": "S6 Add:Wondrous Encore",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：奇跡再演を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:Wondrous Encore\"\nwhen used in Ability Synthesis."
+	},
+	{
 		"assign": "3210559",
 		"jp_text": "Ｓ４追加：滅域分与",
 		"tr_text": "S4 Add:Shared Ruin",
@@ -2513,11 +2576,53 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Angelic Respite\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210571",
+		"jp_text": "Ｓ５追加：連鎖輝与",
+		"tr_text": "S5 Add:Chained Radiance",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：連鎖輝与を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Chained Radiance\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210572",
+		"jp_text": "Ｓ５追加：静心四連",
+		"tr_text": "S5 Add:Calming Quartet",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：静心四連を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Calming Quartet\"\nwhen used in Ability Synthesis."
+	},
+	{
 		"assign": "3210573",
 		"jp_text": "Ｓ５追加：静心拡域",
 		"tr_text": "S5 Add:Calming Expanse",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：静心拡域を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Calming Expanse\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210574",
+		"jp_text": "Ｓ５追加：領域加勢",
+		"tr_text": "S5 Add:Area Support",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：領域加勢を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Area Support\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210575",
+		"jp_text": "Ｓ５追加：回避輝与",
+		"tr_text": "S5 Add:Swift Radiance",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：回避輝与を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Swift Radiance\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210576",
+		"jp_text": "Ｓ７追加：視敵無双",
+		"tr_text": "S7 Add:Descried Warrior",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：視敵無双を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Descried Warrior\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210577",
+		"jp_text": "Ｓ５追加：堅守の秤",
+		"tr_text": "S5 Add:Aegis Balance",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：堅守の秤を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Aegis Balance\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210578",
@@ -2527,6 +2632,174 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Pursuing Intent\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210579",
+		"jp_text": "Ｓ２追加：瞬乱巧志",
+		"tr_text": "S2 Add:Instant Purpose",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：瞬乱巧志を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Instant Purpose\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210581",
+		"jp_text": "Ｓ１追加：剛撃の志２",
+		"tr_text": "S1 Add:Offensive Intent 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：剛撃の志２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Offensive Intent 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210582",
+		"jp_text": "Ｓ２追加：光子縮減３",
+		"tr_text": "S2 Add:Photon Reduction 3",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：光子縮減３を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Photon Reduction 3\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210583",
+		"jp_text": "Ｓ３追加：活実の志２",
+		"tr_text": "S3 Add:Vital Intent 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：活実の志２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Vital Intent 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210584",
+		"jp_text": "Ｓ３追加：輝剰の撃３",
+		"tr_text": "S3 Add:Radiant Strike 3",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：輝剰の撃３を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Radiant Strike 3\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210585",
+		"jp_text": "Ｓ２追加：守護の備２",
+		"tr_text": "S2 Add:Guardian Armor 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：守護の備２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Guardian Armor 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210586",
+		"jp_text": "Ｓ１追加：輝充の志２",
+		"tr_text": "S1 Add:Brilliant Intent 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：輝充の志２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Brilliant Intent 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210587",
+		"jp_text": "Ｓ３追加：輝勢の恵３",
+		"tr_text": "S3 Add:Radiating Grace 3",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：輝勢の恵３を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Radiating Grace 3\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210589",
+		"jp_text": "Ｓ２追加：瞬乱縮減２",
+		"tr_text": "S2 Add:Instant Reduction 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：瞬乱縮減２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Instant Reduction 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210590",
+		"jp_text": "Ｓ２追加：服薬の恵２",
+		"tr_text": "S2 Add:Medicinal Wisdom 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：服薬の恵２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Medicinal Wisdom 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210591",
+		"jp_text": "Ｓ１追加：錬成の志２",
+		"tr_text": "S1 Add:Augment Intent 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：錬成の志２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Augment Intent 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210592",
+		"jp_text": "Ｓ２追加：保天輝地２",
+		"tr_text": "S2 Add:Heavenly Keeper 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：保天輝地２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Heavenly Keeper 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210593",
+		"jp_text": "Ｓ１追加：光子の秤２",
+		"tr_text": "S1 Add:Photon Balance 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：光子の秤２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Photon Balance 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210594",
+		"jp_text": "Ｓ１追加：戦友の加護２",
+		"tr_text": "S1 Add:Collaborator Liberator 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：戦友の加護２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Collaborator Liberator 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210596",
+		"jp_text": "Ｓ１追加：強闘の志",
+		"tr_text": "S1 Add:Powering Intent",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：強闘の志を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Powering Intent\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210599",
+		"jp_text": "Ｓ２追加：気輝応変",
+		"tr_text": "S2 Add:Spirited Response",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：気輝応変を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Spirited Response\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210600",
+		"jp_text": "Ｓ２追加：火炎の備志",
+		"tr_text": "S2 Add:Flaming Guard",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：火炎の備志を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Flaming Guard\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210601",
+		"jp_text": "Ｓ２追加：氷雪の備志",
+		"tr_text": "S2 Add:Freezing Guard",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：氷雪の備志を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Freezing Guard\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210602",
+		"jp_text": "Ｓ２追加：轟雷の備志",
+		"tr_text": "S2 Add:Lightning Guard",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：轟雷の備志を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Lightning Guard\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210603",
+		"jp_text": "Ｓ２追加：暴風の備志",
+		"tr_text": "S2 Add:Storm Guard",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：暴風の備志を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Storm Guard\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210604",
+		"jp_text": "Ｓ２追加：光明の備志",
+		"tr_text": "S2 Add:Shining Guard",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：光明の備志を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Shining Guard\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210605",
+		"jp_text": "Ｓ２追加：暗闇の備志",
+		"tr_text": "S2 Add:Darkness Guard",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：暗闇の備志を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Darkness Guard\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210606",
+		"jp_text": "Ｓ３追加：光子縮減",
+		"tr_text": "S3 Add:Photon Reduction",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：光子縮減を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Photon Reduction\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210607",
+		"jp_text": "Ｓ３追加：瞬連の輝",
+		"tr_text": "S3 Add:Immediate Brilliance",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：瞬連の輝を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Immediate Brilliance\"\nwhen used in Ability Synthesis."
+	},
+	{
 		"assign": "3210608",
 		"jp_text": "Ｓ３追加：裂砕妙撃の志",
 		"tr_text": "S3 Add:Puncturing Intent",
@@ -2534,10 +2807,325 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Puncturing Intent\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210609",
+		"jp_text": "Ｓ３追加Ｒ：妙技の巧",
+		"tr_text": "S3 Add R:Wise Skill",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：妙技の巧を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Wise Skill\"\nwhen used in Ability Synthesis."
+	},
+	{
 		"assign": "3210610",
 		"jp_text": "能力追加成功率＋６５％",
 		"tr_text": "Ability Success Rate +65%",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n成功率を６５％上昇させる。",
 		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 65%."
+	},
+	{
+		"assign": "3210611",
+		"jp_text": "Ｓ１追加Ｒ：失力の蝕",
+		"tr_text": "S1 Add R:Eclipsing Decay",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：失力の蝕を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Eclipsing Decay\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210612",
+		"jp_text": "Ｓ１追加Ｒ：死中の志",
+		"tr_text": "S1 Add R:Lethal Intent",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：死中の志を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Lethal Intent\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210613",
+		"jp_text": "Ｓ１追加Ｒ：時流の志",
+		"tr_text": "S1 Add R:Flowing Intent",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：時流の志を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Flowing Intent\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210614",
+		"jp_text": "Ｓ１追加：時流の恵",
+		"tr_text": "S1 Add:Flowing Grace",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：時流の恵を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Flowing Grace\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210615",
+		"jp_text": "Ｓ１追加Ｒ：剛撃の志２",
+		"tr_text": "S1 Add R:Offensive Intent 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：剛撃の志２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Offensive Intent 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210616",
+		"jp_text": "Ｓ１追加Ｒ：輝充の志２",
+		"tr_text": "S1 Add R:Brilliant Intent 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：輝充の志２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Brilliant Intent 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210626",
+		"jp_text": "Ｓ２追加Ｒ：技巧縮減",
+		"tr_text": "S2 Add R:Skill Reduction",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：技巧縮減を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Skill Reduction\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210627",
+		"jp_text": "Ｓ２追加Ｒ：妙撃の志２",
+		"tr_text": "S2 Add R:Skilled Intent 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：妙撃の志２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Skilled Intent 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210628",
+		"jp_text": "Ｓ２追加Ｒ：瞬乱巧志",
+		"tr_text": "S2 Add R:Instant Purpose",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：瞬乱巧志を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Instant Purpose\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210629",
+		"jp_text": "Ｓ２追加Ｒ：保天輝地２",
+		"tr_text": "S2 Add R:Heavenly Keeper 2",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：保天輝地２を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Heavenly Keeper 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210630",
+		"jp_text": "Ｓ２追加Ｒ：光子縮減３",
+		"tr_text": "S2 Add R:Photon Reduction 3",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：光子縮減３を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Photon Reduction 3\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210643",
+		"jp_text": "Ｓ３追加Ｒ：撃流の備",
+		"tr_text": "S3 Add R:Fortifying Strike",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流の備を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Fortifying Strike\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210644",
+		"jp_text": "Ｓ３追加Ｒ：撃流縮減",
+		"tr_text": "S3 Add R:Curtailed Strike",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流縮減を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Curtailed Strike\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210645",
+		"jp_text": "Ｓ３追加Ｒ：撃流の巧",
+		"tr_text": "S3 Add R:Wise Strike",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流の巧を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Wise Strike\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210646",
+		"jp_text": "Ｓ３追加Ｒ：時流の恵",
+		"tr_text": "S3 Add R:Flowing Grace",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：時流の恵を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Flowing Grace\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210647",
+		"jp_text": "Ｓ３追加Ｒ：花海雪の歌",
+		"tr_text": "S3 Add R:Nature's Melody",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：花海雪の歌を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Nature's Melody\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210648",
+		"jp_text": "Ｓ３追加Ｒ：妙撃の志",
+		"tr_text": "S3 Add R:Skilled Intent",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：妙撃の志を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Skilled Intent\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210649",
+		"jp_text": "Ｓ３追加Ｒ：輝勢の恵３",
+		"tr_text": "S3 Add R:Radiating Grace 3",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：輝勢の恵３を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Radiating Grace 3\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210662",
+		"jp_text": "Ｓ４追加Ｒ：静心の志",
+		"tr_text": "S4 Add R:Calming Intent",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：静心の志を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Calming Intent\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210663",
+		"jp_text": "Ｓ４追加Ｒ：累加追撃",
+		"tr_text": "S4 Add R:Raising Pursuit",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：累加追撃を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Raising Pursuit\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210664",
+		"jp_text": "Ｓ４追加Ｒ：追蝕輝剰",
+		"tr_text": "S4 Add R:Pursuing Radiance",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：追蝕輝剰を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Pursuing Radiance\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210672",
+		"jp_text": "Ｓ５追加：終撃応与",
+		"tr_text": "S5 Add:Parting Gift",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：終撃応与を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Parting Gift\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210673",
+		"jp_text": "Ｓ５追加Ｒ：錬成萌花",
+		"tr_text": "S5 Add R:Anthesis Cultivation",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：錬成萌花を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Anthesis Cultivation\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210674",
+		"jp_text": "Ｓ５追加Ｒ：静心拡域",
+		"tr_text": "S5 Add R:Calming Expanse",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：静心拡域を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Calming Expanse\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210675",
+		"jp_text": "Ｓ５追加Ｒ：終撃応与",
+		"tr_text": "S5 Add R:Parting Gift",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：終撃応与を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Parting Gift\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210679",
+		"jp_text": "Ｓ６追加Ｒ：癒蝕頑強",
+		"tr_text": "S6 Add R:Ironclad Illness",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：癒蝕頑強を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:Ironclad Illness\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210680",
+		"jp_text": "Ｓ６追加：六色の盾",
+		"tr_text": "S6 Add:Rainbow's Shield",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：六色の盾を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:Rainbow's Shield\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210681",
+		"jp_text": "Ｓ６追加：累加拡域",
+		"tr_text": "S6 Add:Raising Expanse",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：累加拡域を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:Raising Expanse\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210682",
+		"jp_text": "Ｓ６追加Ｒ：累加拡域",
+		"tr_text": "S6 Add R:Raising Expanse",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：累加拡域を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:Raising Expanse\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210689",
+		"jp_text": "Ｓ７追加Ｒ：輝静の恵",
+		"tr_text": "S7 Add R:Glowing Grace",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：輝静の恵を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Glowing Grace\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210690",
+		"jp_text": "Ｓ７追加：六色の巧",
+		"tr_text": "S7 Add:Rainbow's Skill",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：六色の巧を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Rainbow's Skill\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210691",
+		"jp_text": "Ｓ７追加：注技縮地",
+		"tr_text": "S7 Add:Amended Movement",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：注技縮地を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Amended Movement\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210692",
+		"jp_text": "Ｓ７追加Ｒ：法護の与",
+		"tr_text": "S7 Add R:Sentinel's Gift",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：法護の与を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Sentinel's Gift\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210693",
+		"jp_text": "Ｓ７追加Ｒ：注技縮地",
+		"tr_text": "S7 Add R:Amended Movement",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：注技縮地を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Amended Movement\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210699",
+		"jp_text": "Ｓ８追加Ｒ：舞空の援",
+		"tr_text": "S8 Add R:Sky Dance's Boon",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ８：舞空の援を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S8:Sky Dance's Boon\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210700",
+		"jp_text": "Ｓ８追加：六色の蝕",
+		"tr_text": "S8 Add:Rainbow's Decay",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ８：六色の蝕を付与。",
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S8:Rainbow's Decay\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210709",
+		"jp_text": "特殊能力Ｒ（センテンスＰ）",
+		"tr_text": "Add Ability R (Sentence P)",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・パワー】を追加。",
+		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"Sentence Power\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210710",
+		"jp_text": "特殊能力Ｒ（センテンスＳ）",
+		"tr_text": "Add Ability R (Sentence R)",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・シュート】を追加。",
+		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"Sentence Shoot\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210711",
+		"jp_text": "特殊能力Ｒ（センテンスＴ）",
+		"tr_text": "Add Ability R (Sentence T)",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・テクニック】を追加。",
+		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"Sentence Technique\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210712",
+		"jp_text": "特殊能力Ｒ（エーテルＳ）",
+		"tr_text": "Add Ability R (Ether S)",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【エーテル・ソール】を追加。",
+		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"Ether Soul\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210713",
+		"jp_text": "特殊能力Ｒ（ファクターＣ）",
+		"tr_text": "Add Ability R (Factor C)",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ファクター・カタリスト】を追加。",
+		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"Factor Catalyst\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210714",
+		"jp_text": "特殊能力Ｒ（オメガＭ）",
+		"tr_text": "Add Ability R (Omega M)",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【オメガ・メモリア】を追加。",
+		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"Omega Memoria\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210715",
+		"jp_text": "特殊能力Ｒ（レヴリーＣ）",
+		"tr_text": "Add Ability R (Reverie C)",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【レヴリー・カタリスト】を追加。",
+		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"Reverie Catalyst\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "321010054",
+		"jp_text": "N-カラーチェンジパス",
+		"tr_text": "N-Color Change Pass",
+		"jp_explain": "エステにて『PSO2:NGS』モデルの\nカラー変更が可能。\n利用するたびにパスは消費される。",
+		"tr_explain": "Allows you to recolor your NGS\ncharacter model from the\nBeauty Salon."
 	}
 ]

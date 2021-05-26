@@ -37,9 +37,9 @@
 	{
 		"assign": "3305",
 		"jp_text": "ディグナッツの肉",
-		"tr_text": "Diggnutt Meat",
+		"tr_text": "Diggnutts Meat",
 		"jp_explain": "ディグナッツから採れた肉。\n肉質がとてもかたい。",
-		"tr_explain": ""
+		"tr_explain": "Meat taken from a Diggnutts.\nThis meat is extremely tough."
 	},
 	{
 		"assign": "3306",
@@ -198,23 +198,23 @@
 	{
 		"assign": "33028",
 		"jp_text": "キャタドランの甲殻",
-		"tr_text": "Caterdran Shell",
+		"tr_text": "Caterdra'n Shell",
 		"jp_explain": "キャタドランの背中を覆う殻。\n\n依頼者：<c a1ff6d>ローラ<c>　再受注不可",
 		"tr_explain": "The shell of a Caterdra'n.\n\nClient: <c a1ff6d>Lola<c> (non-repeatable)"
 	},
 	{
 		"assign": "33029",
 		"jp_text": "カルターゴの殻",
-		"tr_text": "Kartagot Shells",
+		"tr_text": "Kartargot Shells",
 		"jp_explain": "カルターゴの背中を覆う殻。\n\n依頼者：<c a1ff6d>ローラ<c>　再受注不可",
 		"tr_explain": "The shell of a Kartargot.\n\nClient: <c a1ff6d>Lola<c> (non-repeatable)"
 	},
 	{
 		"assign": "33030",
 		"jp_text": "カルターゴの厚い殻",
-		"tr_text": "Kartagot Thick Shells",
+		"tr_text": "Kartargot Thick Shells",
 		"jp_explain": "カルターゴの背中を覆う分厚い殻。\n\n依頼者：<c a1ff6d>ローラ<c>　再受注不可",
-		"tr_explain": "A thick shell from a Kartagot.\n\nClient: <c a1ff6d>Lola<c> (non-repeatable)"
+		"tr_explain": "A thick shell from a Kartargot.\n\nClient: <c a1ff6d>Lola<c> (non-repeatable)"
 	},
 	{
 		"assign": "33031",
@@ -312,7 +312,7 @@
 		"jp_text": "謎の木の実",
 		"tr_text": "Mystery Fruits",
 		"jp_explain": "ナベリウスで採取された木の実。\nウーダンが好んで食べるようだ。\n依頼者：<c a1ff6d>フランカ<c>　再受注可能",
-		"tr_explain": "Fruit from a tree on Naberius. Seems\nthat it's Oodans' favourite food.\nClient: <c a1ff6d>Franka<c> (repeatable)"
+		"tr_explain": "Fruit from a tree on Naberius. Seems\nto be Oodans' favorite food.\nClient: <c a1ff6d>Franka<c> (repeatable)"
 	},
 	{
 		"assign": "33045",
@@ -326,7 +326,7 @@
 		"jp_text": "みずみずしい木の実",
 		"tr_text": "Fresh Fruit",
 		"jp_explain": "ナベリウスで採取された木の実。\nロックベアが好んで食べる模様。\n依頼者：<c a1ff6d>フランカ<c>　再受注可能",
-		"tr_explain": "Fruit from a tree on Naberius. Seems\nthat it's Rockbears' favourite food.\nClient: <c a1ff6d>Franka<c> (repeatable)"
+		"tr_explain": "Fruit from a tree on Naberius. Seems\nto be Rockbears' favorite food.\nClient: <c a1ff6d>Franka<c> (repeatable)"
 	},
 	{
 		"assign": "33047",
@@ -403,14 +403,14 @@
 		"jp_text": "メカニカル・フライパン",
 		"tr_text": "Mechanical Frying Pan",
 		"jp_explain": "機甲種のパーツで構成された調理器具。\n熱エネルギーの伝導率が高い。",
-		"tr_explain": ""
+		"tr_explain": "A cooking utensil made from Mech\nparts. Has high thermal conductivity."
 	},
 	{
 		"assign": "33058",
 		"jp_text": "大肉切包丁",
 		"tr_text": "Large Meat Cleaver",
 		"jp_explain": "グワナーダのあごで作った調理器具。\n大型の肉を切るのに最適。",
-		"tr_explain": ""
+		"tr_explain": "Cooking utensil made from Gwanahda's\njaw. Great for large pieces of meat."
 	},
 	{
 		"assign": "33059",
@@ -436,7 +436,7 @@
 	{
 		"assign": "33062",
 		"jp_text": "キャタドランの水晶",
-		"tr_text": "Caterdran Crystal",
+		"tr_text": "Caterdra'n Crystal",
 		"jp_explain": "キャタドランの頭部にある水晶。\n貴重品として扱われる。\n依頼者：<c a1ff6d>コフィー<c>　再受注不可",
 		"tr_explain": "A crystal from a Caterdra'n's head.\nConsidered a highly valuable item.\nClient: <c a1ff6d>Koffie<c> (non-repeatable)"
 	},
@@ -487,7 +487,7 @@
 		"jp_text": "霜の降った稲穂",
 		"tr_text": "Verdant Plant",
 		"jp_explain": "霜が降りかかった稲穂。\nマルモスが好んで食べている。\n依頼者：<c a1ff6d>フランカ<c>　再受注可能",
-		"tr_explain": "A head of rice rimed with frost. A\nfavourite food of Malmoths.\nClient: <c a1ff6d>Franka<c> (repeatable)"
+		"tr_explain": "A head of rice rimed with frost. A\nfavorite food of Malmoths.\nClient: <c a1ff6d>Franka<c> (repeatable)"
 	},
 	{
 		"assign": "33070",
@@ -681,9 +681,9 @@
 	{
 		"assign": "33097",
 		"jp_text": "キャタドランサの肉",
-		"tr_text": "Caterdransa Meat",
+		"tr_text": "Caterdra'nsa Meat",
 		"jp_explain": "キャタドランサから採れた肉。\n\n依頼者：<c a1ff6d>フランカ<c>　再受注可能",
-		"tr_explain": "Meat taken from a Caterdransa.\n\nClient: <c a1ff6d>Franka<c> (repeatable)"
+		"tr_explain": "Meat taken from a Caterdra'nsa.\n\nClient: <c a1ff6d>Franka<c> (repeatable)"
 	},
 	{
 		"assign": "33098",
@@ -975,9 +975,9 @@
 	{
 		"assign": "330139",
 		"jp_text": "キャタドランサの牙",
-		"tr_text": "Caterdransa Fangs",
+		"tr_text": "Caterdra'nsa Fangs",
 		"jp_explain": "キャタドランサから採れた牙。\n\n依頼者：<c a1ff6d>ファイナ<c>　再受注可能",
-		"tr_explain": "Fangs taken from a Caterdransa.\n\nClient: <c a1ff6d>Faina<c> (repeatable)"
+		"tr_explain": "Fangs taken from a Caterdra'nsa.\n\nClient: <c a1ff6d>Faina<c> (repeatable)"
 	},
 	{
 		"assign": "330140",
@@ -1192,21 +1192,21 @@
 	{
 		"assign": "330170",
 		"jp_text": "カルターゴの紫羽",
-		"tr_text": "Kartagot Purple Wings",
+		"tr_text": "Kartargot Purple Wings",
 		"jp_explain": "カルターゴの頭部から生える羽の\n紫色の部分。\n依頼者：<c a1ff6d>ファーマ<c>　再受注不可",
 		"tr_explain": "カルターゴの頭部から生える羽の\n紫色の部分。\nClient: <c a1ff6d>Farma<c> (non-repeatable)"
 	},
 	{
 		"assign": "330171",
 		"jp_text": "カルターゴの丈夫な殻",
-		"tr_text": "Kartagot Rear Shell",
+		"tr_text": "Kartargot Rear Shell",
 		"jp_explain": "カルターゴのお尻の殻。\n上に乗ってもびくともしない。\n依頼者：<c a1ff6d>ファーマ<c>　再受注不可",
 		"tr_explain": "カルターゴのお尻の殻。\n上に乗ってもびくともしない。\nClient: <c a1ff6d>Farma<c> (non-repeatable)"
 	},
 	{
 		"assign": "330172",
 		"jp_text": "カルターゴの牙",
-		"tr_text": "Kartagot Fangs",
+		"tr_text": "Kartargot Fangs",
 		"jp_explain": "カルターゴの体型からどう使うのか\n謎の部位。\n依頼者：<c a1ff6d>ファーマ<c>　再受注不可",
 		"tr_explain": "カルターゴの体型からどう使うのか\n謎の部位。\nClient: <c a1ff6d>Farma<c> (non-repeatable)"
 	},
@@ -1423,21 +1423,21 @@
 	{
 		"assign": "330203",
 		"jp_text": "カルターゴの角",
-		"tr_text": "Kartagot Horns",
+		"tr_text": "Kartargot Horns",
 		"jp_explain": "カルターゴの角。\n冠のようにも見える。\n依頼者：<c a1ff6d>ファーマ<c>　再受注不可",
 		"tr_explain": "カルターゴの角。\n冠のようにも見える。\nClient: <c a1ff6d>Farma<c> (non-repeatable)"
 	},
 	{
 		"assign": "330204",
 		"jp_text": "カルターゴの黒羽",
-		"tr_text": "Kartagot Black Wings",
+		"tr_text": "Kartargot Black Wings",
 		"jp_explain": "カルターゴの黒羽。\n胴体をカバーするのに使う。\n依頼者：<c a1ff6d>ファーマ<c>　再受注不可",
 		"tr_explain": "カルターゴの黒羽。\n胴体をカバーするのに使う。\nClient: <c a1ff6d>Farma<c> (non-repeatable)"
 	},
 	{
 		"assign": "330205",
 		"jp_text": "カルターゴの腰殻",
-		"tr_text": "Kartagot Waist Carapace",
+		"tr_text": "Kartargot Waist Carapace",
 		"jp_explain": "カルターゴの腰を覆う殻。\nこれにより前面はしっかり守られている。\n依頼者：<c a1ff6d>ファーマ<c>　再受注不可",
 		"tr_explain": "カルターゴの腰を覆う殻。\nこれにより前面はしっかり守られている。\nClient: <c a1ff6d>Farma<c> (non-repeatable)"
 	},
@@ -1479,7 +1479,7 @@
 	{
 		"assign": "330211",
 		"jp_text": "シグノガンの砲弾",
-		"tr_text": "Signogun Cannon Shells",
+		"tr_text": "Signo Gun Cannon Shells",
 		"jp_explain": "シグノガンの砲弾。\n火力が高いので、要注意。\n依頼者：<c a1ff6d>ファーマ<c>　再受注不可",
 		"tr_explain": "シグノガンの砲弾。\n火力が高いので、要注意。\nClient: <c a1ff6d>Farma<c> (non-repeatable)"
 	},
@@ -1780,14 +1780,14 @@
 	{
 		"assign": "330254",
 		"jp_text": "カルターゴの脚節",
-		"tr_text": "Kartagot Leg Section",
+		"tr_text": "Kartargot Leg Section",
 		"jp_explain": "カルターゴの脚節。\n短いががっしりしている。\n依頼者：<c a1ff6d>ファーマ<c>　再受注不可",
 		"tr_explain": "カルターゴの脚節。\n短いががっしりしている。\nClient: <c a1ff6d>Farma<c> (non-repeatable)"
 	},
 	{
 		"assign": "330255",
 		"jp_text": "カルターゴの脚角",
-		"tr_text": "Kartagot Leg Horns",
+		"tr_text": "Kartargot Leg Horns",
 		"jp_explain": "カルターゴの膝の角。\n連なって生える様は美しくもある。\n依頼者：<c a1ff6d>ファーマ<c>　再受注不可",
 		"tr_explain": "カルターゴの膝の角。\n連なって生える様は美しくもある。\nClient: <c a1ff6d>Farma<c> (non-repeatable)"
 	},
@@ -2081,7 +2081,7 @@
 	{
 		"assign": "330297",
 		"jp_text": "ノーディランサの腹水晶",
-		"tr_text": "Nodiransa Belly Crystal",
+		"tr_text": "Nordiransa Belly Crystal",
 		"jp_explain": "ノーディランサの腹のクリスタル。\n不揃いだが、青白く美しい。\n依頼者：<c a1ff6d>ファーマ<c>　再受注不可",
 		"tr_explain": "ノーディランサの腹のクリスタル。\n不揃いだが、青白く美しい。\nClient: <c a1ff6d>Farma<c> (non-repeatable)"
 	},
@@ -2340,7 +2340,7 @@
 	{
 		"assign": "330344",
 		"jp_text": "カルターゴの蛇腹殻",
-		"tr_text": "Kartagot Belly Carapace",
+		"tr_text": "Kartargot Belly Carapace",
 		"jp_explain": "カルターゴの蛇腹状の殻。\n柔軟に曲げることができる。\n依頼者：<c a1ff6d>ファーマ<c>　再受注不可",
 		"tr_explain": "カルターゴの蛇腹状の殻。\n柔軟に曲げることができる。\nClient: <c a1ff6d>Farma<c> (non-repeatable)"
 	},
@@ -2545,7 +2545,7 @@
 		"jp_text": "虹色の果実",
 		"tr_text": "Rainbow Fruit",
 		"jp_explain": "浮遊大陸で採れる果実。\n龍族も好んで食べるという。\n依頼者：<c a1ff6d>シー<c>　ホワイトデー",
-		"tr_explain": "Fruit found in the Skyscape.\nSaid to be a favourite of Dragonkin.\nClient: <c a1ff6d>Xie<c> (White Day)"
+		"tr_explain": "Fruit found in the Skyscape.\nSaid to be a favorite of Dragonkin.\nClient: <c a1ff6d>Xie<c> (White Day)"
 	},
 	{
 		"assign": "330375",
@@ -3406,21 +3406,21 @@
 		"jp_text": "ＰＡフラグメント（法撃）",
 		"tr_text": "PA Fragment (T-ATK)",
 		"jp_explain": "クラフトレシピで必要とされる\n法撃系データディスクの欠片。",
-		"tr_explain": "Required for Crafting Recipes.\nA fragment of a Technique data disk."
+		"tr_explain": "Required for Crafting Recipes.\nA fragment of a Technique data Disk."
 	},
 	{
 		"assign": "330534",
 		"jp_text": "ＰＡフラグメント（打撃）",
 		"tr_text": "PA Fragment (S-ATK)",
 		"jp_explain": "クラフトレシピで必要とされる\n打撃系データディスクの欠片。",
-		"tr_explain": "Required for Crafting Recipes. A\nfragment of a Striking PA data disk."
+		"tr_explain": "Required for Crafting Recipes. A\nfragment of a Striking PA data Disk."
 	},
 	{
 		"assign": "330535",
 		"jp_text": "ＰＡフラグメント（射撃）",
 		"tr_text": "PA Fragment (R-ATK)",
 		"jp_explain": "クラフトレシピで必要とされる\n射撃系データディスクの欠片。",
-		"tr_explain": "Required for Crafting Recipes. A\nfragment of a Ranged PA data disk."
+		"tr_explain": "Required for Crafting Recipes. A\nfragment of a Ranged PA data Disk."
 	},
 	{
 		"assign": "330536",
@@ -3938,7 +3938,7 @@
 		"jp_text": "カジノコインパス",
 		"tr_text": "Casino Coin Pass",
 		"jp_explain": "カジノコイン取得パス。\nコインエクスチェンジャーで使用すると\nカジノコインを獲得できる。",
-		"tr_explain": "Rewards Casino Coins. If you redeem\nthis pass in the casino you will\nreceive casino coins in exchange."
+		"tr_explain": "Rewards Casino Coins. If you redeem\nthis pass in the Casino you will\nreceive Casino Coins in exchange."
 	},
 	{
 		"assign": "330617",
@@ -4785,21 +4785,21 @@
 		"jp_text": "シュベルブースター",
 		"tr_text": "Schvelle Booster",
 		"jp_explain": "生者を滅する闇を目覚めさせる素材。\n特定武器に使用することによって\n限界を超えた性能を引き出すという。",
-		"tr_explain": "Material which is said to energize the\ndarkness that destroys the living.\nUsed as material for certain\nweapons."
+		"tr_explain": "Material that energizes the darkness\nthat destroys the living. Boosts certain\nweapons' power beyond their limits."
 	},
 	{
 		"assign": "330747",
 		"jp_text": "メセタ結晶（大）",
 		"tr_text": "Meseta Crystal (Large)",
 		"jp_explain": "結晶化したメセタの大きな塊。\n大変珍しく、美しい輝きを持つ。\nアイテムショップで売れる。",
-		"tr_explain": "A large chunk of crystalized\nmeseta. Very exotic with a gleaming\nsparkle. Can sell for a decent price."
+		"tr_explain": "A large chunk of crystalized\nMeseta. Very exotic with a gleaming\nsparkle. Can sell for a decent price."
 	},
 	{
 		"assign": "330748",
 		"jp_text": "メセタ結晶（中）",
 		"tr_text": "Meseta Crystal (Medium)",
 		"jp_explain": "結晶化したメセタの塊。\n大変珍しく、美しい輝きを持つ。\nアイテムショップで売れる。",
-		"tr_explain": "A lump of crystalized meseta. It's\nvery odd, but it shines with a lustrous\nsparkle. Can sell for a high price."
+		"tr_explain": "A lump of crystalized Meseta. It's\nvery odd, but it shines with a lustrous\nsparkle. Can sell for a high price."
 	},
 	{
 		"assign": "330749",
@@ -4942,6 +4942,20 @@
 		"tr_explain": "Fragments of a broken chip.\nThey have a dazzling gold shine."
 	},
 	{
+		"assign": "330782",
+		"jp_text": "虹色のリボン２０２０",
+		"tr_text": "Rainbow Ribbon 2020",
+		"jp_explain": "胸に付けるための虹色をしたリボン。\n専用交換ショップで景品と交換できる。",
+		"tr_explain": "A rainbow-colored ribbon that\ncan be worn on your chest. You can\ntrade it for prizes at a certain shop."
+	},
+	{
+		"assign": "330783",
+		"jp_text": "チップのかけら２０２１",
+		"tr_text": "Chip Fragment 2021",
+		"jp_explain": "破損したチップのかけら。\nまばゆい金色に輝いている。",
+		"tr_explain": "Fragments of a broken chip.\nThey have a dazzling gold shine."
+	},
+	{
 		"assign": "330798",
 		"jp_text": "時還石クロノス",
 		"tr_text": "Time Reversal Stone Chronos",
@@ -4982,6 +4996,48 @@
 		"tr_text": "",
 		"jp_explain": "難度UH帯で入手出来る（仮）\n特定のアイテムと交換可能な素材で\n特定武器の強化にも使うことが可能。",
 		"tr_explain": ""
+	},
+	{
+		"assign": "330808",
+		"jp_text": "原闇石デイモス",
+		"tr_text": "Primordial Darkstone Deimos",
+		"jp_explain": "全てを破滅に呑み込む闇の残滓から\n生まれた、恐怖が結晶化した生体石。\n光を纏う武器へと進化させる素材。",
+		"tr_explain": "A living stone of crystallized fear,\nborn from the all-consuming darkness.\nEvolves weapons that weave light."
+	},
+	{
+		"assign": "330809",
+		"jp_text": "神眼石グライアイ",
+		"tr_text": "Divine Eyestone Graeae",
+		"jp_explain": "終焉をもたらす大いなる闇を祓い\n宇宙の起源を見つめる不思議な石。\n光を纏う武器へと進化させる素材。",
+		"tr_explain": "A mysterious stone which glared\nat the origins of the universe.\nEvolves weapons that weave light."
+	},
+	{
+		"assign": "330810",
+		"jp_text": "シャイニーソウル",
+		"tr_text": "Shiny Soul",
+		"jp_explain": "生成過程が不明な、眩い光を放つ結晶。\n別名「輝魂鉱石」と呼ばれている。\n依頼者：<c a1ff6d>Sighx<c>　再受注可能",
+		"tr_explain": "A crystal with an unknown origin\nthat emits a dazzling glow. It is\nalso known as \"Brightstone Ore\".\nClient: <c a1ff6d>Sighx<c> (repeatable)"
+	},
+	{
+		"assign": "330811",
+		"jp_text": "ウォータークリスタル",
+		"tr_text": "Water Crystal",
+		"jp_explain": "吸水性が高く柔らかい、青く輝く結晶。\n最高級の砥石として重宝されている。\n依頼者：<c a1ff6d>エクル<c>　再受注可能",
+		"tr_explain": "A soft and shiny water-absorbent\nblue crystal. It can be used as a\nhigh grade whetstone.\nClient: <c a1ff6d>Ecru<c> (repeatable)"
+	},
+	{
+		"assign": "330812",
+		"jp_text": "爆破火薬",
+		"tr_text": "Explosive Gunpowder",
+		"jp_explain": "刺激を与えると大爆発を起こすので\n取り扱いには専門知識を要する。\n依頼者：<c a1ff6d>ストーキー<c>　再受注可能",
+		"tr_explain": "Explodes at the slightest stimulus.\nSpecial training is needed to handle it.\nClient: <c a1ff6d>Stooky<c> (repeatable)"
+	},
+	{
+		"assign": "330813",
+		"jp_text": "木の実のボタン",
+		"tr_text": "Peony Seeds",
+		"jp_explain": "ボタンの形に似た不思議な木の実。\n自然な風合いで、服の飾りにぴったり。\n依頼者：<c a1ff6d>monchi<c>　再受注可能",
+		"tr_explain": "Mysterious nuts in the shape of\nbuttons. Perfect for use on clothing.\nClient: <c a1ff6d>monchi<c> (repeatable)"
 	},
 	{
 		"assign": "330849",
@@ -5054,24 +5110,31 @@
 		"tr_explain": "Large data fragment generated from\nbattle analysis of Luminmechs. Used\nto create certain rare weapons."
 	},
 	{
+		"assign": "330859",
+		"jp_text": "モジュール／シバ",
+		"tr_text": "Module/Shiva",
+		"jp_explain": "ＶＲ訓練で再現された\n終の女神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
+		"tr_explain": "Material obtained from battle with\nthe simulated Goddess of Demise.\nRequired for certain rare weapons."
+	},
+	{
 		"assign": "330860",
 		"jp_text": "モジュール／ヴァルナ",
 		"tr_text": "Module/Varuna",
-		"jp_explain": "ディバイドクエストで再現された\n義の男神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
+		"jp_explain": "ＶＲ訓練で再現された\n義の男神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
 		"tr_explain": "Material obtained from battle with\nthe simulated God of Fidelity.\nRequired for certain rare weapons."
 	},
 	{
 		"assign": "330861",
 		"jp_text": "モジュール／ミトラ",
 		"tr_text": "Module/Mitra",
-		"jp_explain": "ディバイドクエストで再現された\n偽の女神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
+		"jp_explain": "ＶＲ訓練で再現された\n偽の女神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
 		"tr_explain": "Material obtained from battle with\nthe simulated Goddess of Imitation.\nRequired for certain rare weapons."
 	},
 	{
 		"assign": "330862",
 		"jp_text": "モジュール／エクゼクル",
 		"tr_text": "Module/Execour",
-		"jp_explain": "ディバイドクエストで再現された\n大型閃機種との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
+		"jp_explain": "ＶＲ訓練で再現された\n大型閃機種との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
 		"tr_explain": "Material obtained from battle with\nthe simulated giant Luminmech.\nRequired for certain rare weapons."
 	}
 ]

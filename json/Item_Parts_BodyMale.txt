@@ -835,14 +835,14 @@
 	{
 		"assign": "610122",
 		"jp_text": "ダルモルス・ボディ",
-		"tr_text": "Dalmors Body",
+		"tr_text": "Dalmorts Body",
 		"jp_explain": "男性キャスト向けの基礎的なパーツ。\n伝承に登場する死神を模したその姿は\n敵味方問わず、全てに死を意識させる。",
 		"tr_explain": "Core parts for male Casts. Their\ndemonic shape reminds both allies and\nenemies of the inevitability of death."
 	},
 	{
 		"assign": "610123",
 		"jp_text": "ダルモルス・ボディＣＶ",
-		"tr_text": "Dalmors Body CV",
+		"tr_text": "Dalmorts Body CV",
 		"jp_explain": "男性キャスト向けの基礎的なパーツ。\n伝承に登場する死神を模したその姿は\n敵味方問わず、全てに死を意識させる。",
 		"tr_explain": "Core parts for male Casts. Their\ndemonic shape reminds both allies and\nenemies of the inevitability of death."
 	},
@@ -1120,9 +1120,23 @@
 		"tr_explain": "Core parts for male Casts. These\nparts boast an overwhelming\npresence that can engulf any foe."
 	},
 	{
+		"assign": "610208",
+		"jp_text": "ハーゼン・ボディＣＶ",
+		"tr_text": "Hazen Body CV",
+		"jp_explain": "男性キャスト向けの基礎的なパーツ。\nどんな敵も飲み込んでしまうような\n圧倒的な存在感を誇っている。",
+		"tr_explain": "Core parts for male Casts. These\nparts boast an overwhelming\npresence that can engulf any foe."
+	},
+	{
 		"assign": "610211",
 		"jp_text": "ライナー・ボディ",
 		"tr_text": "Liner Body",
+		"jp_explain": "男性キャスト向けの基礎的なパーツ。\n銀河のように光り輝く姿は\nともに戦う者の道標となる。",
+		"tr_explain": "Core parts for male Casts. They\nshine like a galaxy of stars, serving\nas a beacon for their allies."
+	},
+	{
+		"assign": "610212",
+		"jp_text": "ライナー・ボディＣＶ",
+		"tr_text": "Liner Body CV",
 		"jp_explain": "男性キャスト向けの基礎的なパーツ。\n銀河のように光り輝く姿は\nともに戦う者の道標となる。",
 		"tr_explain": "Core parts for male Casts. They\nshine like a galaxy of stars, serving\nas a beacon for their allies."
 	},
@@ -1132,5 +1146,12 @@
 		"tr_text": "Varona Body",
 		"jp_explain": "男性キャスト向けの基礎的なパーツ。\n歪さを感じさせる鋭利なフォルムは\n機動性の向上を目的としている。",
 		"tr_explain": "Core parts for male Casts. Their\nsharp, distorted-seeming shape is\ndesigned to improve mobility."
+	},
+	{
+		"assign": "610217",
+		"jp_text": "ビオール・ボディ",
+		"tr_text": "Viol Body",
+		"jp_explain": "男性キャスト向けの基礎的なパーツ。\n誉れある戦果のため、疾風のように\n戦場を駆け抜ける。",
+		"tr_explain": "Core parts for male Casts. Take\nto the battlefield like a howling gale\nand inscribe your name on history."
 	}
 ]

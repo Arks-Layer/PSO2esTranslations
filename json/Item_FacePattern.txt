@@ -4,34 +4,566 @@
 		"jp_text": "男性細目顔",
 		"tr_text": "Squinted Eyes Face M",
 		"jp_explain": "チケットを使用すると、新しい頭部の\n細目顔が選択可能。\n男性のみ使用可能。",
-		"tr_explain": "Usando este tiquete, la cara\n\"Squinted Eyes Face M\"\nse podra usar en el Estilista."
+		"tr_explain": "Usando este tiquete, la cara\n\"Squinted Eyes Face M\"\npodra seleccionarse."
 	},
 	{
 		"assign": "37401",
 		"jp_text": "女性細目顔",
 		"tr_text": "Squinted Eyes Face F",
 		"jp_explain": "チケットを使用すると、新しい頭部の\n細目顔が選択可能。\n女性のみ使用可能。",
-		"tr_explain": "Usando este tiquete, la cara\n\"Squinted Eyes Face F\"\nse podra usar en el Estilista."
+		"tr_explain": "Usando este tiquete, la cara\n\"Squinted Eyes Face F\"\npodra seleccionarse."
 	},
 	{
 		"assign": "37403",
 		"jp_text": "男性ビースト顔",
 		"tr_text": "Male Beast Face",
 		"jp_explain": "チケットを使用すると、新しい頭部の\nビースト顔が選択可能。\n男性のみ使用可能。",
-		"tr_explain": "Usando este tiquete, la cara\n\"Male Beast Face\"\nse podra usar en el Estilista."
+		"tr_explain": "Usando este tiquete, la cara\n\"Male Beast Face\"\npodra seleccionarse."
 	},
 	{
 		"assign": "37404",
 		"jp_text": "女性ビースト顔",
 		"tr_text": "Female Beast Face",
 		"jp_explain": "チケットを使用すると、新しい頭部の\nビースト顔が選択可能。\n女性のみ使用可能。",
-		"tr_explain": "Usando este tiquete, la cara\n\"Female Beast Face\"\nse podra usar en el Estilista."
+		"tr_explain": "Usando este tiquete, la cara\n\"Female Beast Face\"\npodra seleccionarse."
 	},
 	{
 		"assign": "37407",
 		"jp_text": "エクスマリー・フェイス",
 		"tr_text": "Exmarie Face",
-		"jp_explain": "チケットを使用すると、新しい頭部の\nエクスマリー・フェイスが選択可能。\nキャスト女性のみ使用可能。",
-		"tr_explain": "Usando este tiquete, la cara\n\"Exmarie Face\"\nse podra usar en el Estilista."
+		"jp_explain": "チケットを使用すると、新しい頭部の\nエクスマリー・フェイスが選択可能。",
+		"tr_explain": "Usando este tiquete, la cara\n\"Exmarie Face\"\npodra seleccionarse."
+	},
+	{
+		"assign": "37408",
+		"jp_text": "ナギサのＰＣ",
+		"tr_text": "Nagisa's PC",
+		"jp_explain": "使用すると\n「ナギサ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Nagisa."
+	},
+	{
+		"assign": "37409",
+		"jp_text": "ジェネのＰＣ",
+		"tr_text": "Gene's PC",
+		"jp_explain": "使用すると\n「ジェネ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Gene."
+	},
+	{
+		"assign": "374010",
+		"jp_text": "イツキのＰＣ",
+		"tr_text": "Itsuki's PC",
+		"jp_explain": "使用すると\n「イツキ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Itsuki."
+	},
+	{
+		"assign": "374011",
+		"jp_text": "イツキ（具現武装）のＰＣ",
+		"tr_text": "Itsuki (Embodied Weapon)'s PC",
+		"jp_explain": "使用すると\n「イツキ（具現武装）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Itsuki (Embodied Weapon)."
+	},
+	{
+		"assign": "374012",
+		"jp_text": "ＲＩＮＡのＰＣ",
+		"tr_text": "RINA's PC",
+		"jp_explain": "使用すると\n「ＲＩＮＡ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde RINA."
+	},
+	{
+		"assign": "374013",
+		"jp_text": "ＳＯＲＯのＰＣ",
+		"tr_text": "SORO's PC",
+		"jp_explain": "使用すると\n「ＳＯＲＯ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde SORO."
+	},
+	{
+		"assign": "374014",
+		"jp_text": "†コア†のＰＣ",
+		"tr_text": "†Coa†'s PC",
+		"jp_explain": "使用すると\n「†コア†」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde †Coa†."
+	},
+	{
+		"assign": "374015",
+		"jp_text": "リリカのＰＣ",
+		"tr_text": "Lilika's PC",
+		"jp_explain": "使用すると\n「リリカ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Lilika."
+	},
+	{
+		"assign": "374016",
+		"jp_text": "ムサシのＰＣ",
+		"tr_text": "Musashi's PC",
+		"jp_explain": "使用すると\n「ムサシ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Musashi."
+	},
+	{
+		"assign": "374017",
+		"jp_text": "弓子のＰＣ",
+		"tr_text": "Yumiko's PC",
+		"jp_explain": "使用すると\n「弓子」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Yumiko."
+	},
+	{
+		"assign": "374018",
+		"jp_text": "ラスト侍のＰＣ",
+		"tr_text": "Last Samurai's PC",
+		"jp_explain": "使用すると\n「ラスト侍」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Last Samurai."
+	},
+	{
+		"assign": "374019",
+		"jp_text": "キッドのＰＣ",
+		"tr_text": "Kidd's PC",
+		"jp_explain": "使用すると\n「キッド」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Kidd."
+	},
+	{
+		"assign": "374020",
+		"jp_text": "シルバのＰＣ",
+		"tr_text": "Silva's PC",
+		"jp_explain": "使用すると\n「シルバ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Silva."
+	},
+	{
+		"assign": "374021",
+		"jp_text": "イーサンのＰＣ",
+		"tr_text": "Ethan's PC",
+		"jp_explain": "使用すると\n「イーサン」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Ethan."
+	},
+	{
+		"assign": "374022",
+		"jp_text": "カレンのＰＣ",
+		"tr_text": "Karen's PC",
+		"jp_explain": "使用すると\n「カレン」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Karen."
+	},
+	{
+		"assign": "374023",
+		"jp_text": "オーガキャッツのＰＣ",
+		"tr_text": "Orga Cats' PC",
+		"jp_explain": "使用すると\n「オーガキャッツ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Orga Cats."
+	},
+	{
+		"assign": "374024",
+		"jp_text": "マスターネズミのＰＣ",
+		"tr_text": "Master Nezumi's PC",
+		"jp_explain": "使用すると\n「マスターネズミ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Master Nezumi."
+	},
+	{
+		"assign": "374025",
+		"jp_text": "エミリアのＰＣ",
+		"tr_text": "Emilia's PC",
+		"jp_explain": "使用すると\n「エミリア」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Emilia."
+	},
+	{
+		"assign": "374026",
+		"jp_text": "ヴィヴィアンのＰＣ",
+		"tr_text": "Vivienne's PC",
+		"jp_explain": "使用すると\n「ヴィヴィアン」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Vivienne."
+	},
+	{
+		"assign": "374027",
+		"jp_text": "ジェネ（ステラＩ）のＰＣ",
+		"tr_text": "Gene (Stella Innocent)'s PC",
+		"jp_explain": "使用すると\n「ジェネ(ステライノセント)」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Gene (Stella Innocent)."
+	},
+	{
+		"assign": "374028",
+		"jp_text": "ジェネ（ステラＭ）のＰＣ",
+		"tr_text": "Gene (Stella Memories)'s PC",
+		"jp_explain": "使用すると\n「ジェネ(ステラメモリーズ)」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Gene (Stella Memories)."
+	},
+	{
+		"assign": "374029",
+		"jp_text": "アネットのＰＣ",
+		"tr_text": "Annette's PC",
+		"jp_explain": "使用すると\n「アネット」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Annette."
+	},
+	{
+		"assign": "374030",
+		"jp_text": "ブルーノのＰＣ",
+		"tr_text": "Bruno's PC",
+		"jp_explain": "使用すると\n「ブルーノ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Bruno."
+	},
+	{
+		"assign": "374031",
+		"jp_text": "ライアのＰＣ",
+		"tr_text": "Laia's PC",
+		"jp_explain": "使用すると\n「ライア」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Laia."
+	},
+	{
+		"assign": "374032",
+		"jp_text": "ルミアのＰＣ",
+		"tr_text": "Lumia's PC",
+		"jp_explain": "使用すると\n「ルミア」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Lumia."
+	},
+	{
+		"assign": "374033",
+		"jp_text": "ヤミガラスのＰＣ",
+		"tr_text": "Yamigarasu's PC",
+		"jp_explain": "使用すると\n「ヤミガラス」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Yamigarasu."
+	},
+	{
+		"assign": "374034",
+		"jp_text": "アヴェンジャーのＰＣ",
+		"tr_text": "Avenger's PC",
+		"jp_explain": "使用すると\n「アヴェンジャー」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Avenger."
+	},
+	{
+		"assign": "374035",
+		"jp_text": "ブルージーＲのＰＣ",
+		"tr_text": "Bluesy Requiem's PC",
+		"jp_explain": "使用すると\n「ブルージーレクイエム」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Bluesy Requiem."
+	},
+	{
+		"assign": "374036",
+		"jp_text": "ニレンカムイのＰＣ",
+		"tr_text": "Twin Kamui's PC",
+		"jp_explain": "使用すると\n「ニレンカムイ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Twin Kamui."
+	},
+	{
+		"assign": "374037",
+		"jp_text": "ライトニングＥのＰＣ",
+		"tr_text": "Lightning Espada's PC",
+		"jp_explain": "使用すると\n「ライトニングエスパーダ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Lightning Espada."
+	},
+	{
+		"assign": "374038",
+		"jp_text": "シューティングＤのＰＣ",
+		"tr_text": "Shooting Drive's PC",
+		"jp_explain": "使用すると\n「シューティングドライブ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Shooting Drive."
+	},
+	{
+		"assign": "374039",
+		"jp_text": "ラヴィス＝ブレイドのＰＣ",
+		"tr_text": "Lavis Blade's PC",
+		"jp_explain": "使用すると\n「ラヴィス=ブレイド」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Lavis Blade."
+	},
+	{
+		"assign": "374040",
+		"jp_text": "ノクスカディナのＰＣ",
+		"tr_text": "Nox Cadina's PC",
+		"jp_explain": "使用すると\n「ノクスカディナ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Nox Cadina."
+	},
+	{
+		"assign": "374041",
+		"jp_text": "ジェネサマーのＰＣ",
+		"tr_text": "Gene (Summer)'s PC",
+		"jp_explain": "使用すると\n「ジェネ（サマー）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Gene (Summer)."
+	},
+	{
+		"assign": "374042",
+		"jp_text": "アネットサマーのＰＣ",
+		"tr_text": "Annette (Summer)'s PC",
+		"jp_explain": "使用すると\n「アネット（サマー）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Annette (Summer)."
+	},
+	{
+		"assign": "374043",
+		"jp_text": "ブルージーＲサマーのＰＣ",
+		"tr_text": "Bluesy Requieim (Summer)'s PC",
+		"jp_explain": "使用すると\n「ブルージーレクイエム（サマー）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Bluesy Requieim (Summer)."
+	},
+	{
+		"assign": "374044",
+		"jp_text": "スペース・ツナのＰＣ",
+		"tr_text": "Space Tuna's PC",
+		"jp_explain": "使用すると\n「スペース・ツナ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Space Tuna."
+	},
+	{
+		"assign": "374045",
+		"jp_text": "フォルニスフィジスのＰＣ",
+		"tr_text": "Fornis Physis's PC",
+		"jp_explain": "使用すると\n「フォルニスフィジス」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Fornis Physis."
+	},
+	{
+		"assign": "374046",
+		"jp_text": "ヤスミ８０００ＣのＰＣ",
+		"tr_text": "Yasminkov 8000C's PC",
+		"jp_explain": "使用すると\n「ヤスミノコフ8000C」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Yasminkov 8000C."
+	},
+	{
+		"assign": "374047",
+		"jp_text": "エルデトロスのＰＣ",
+		"tr_text": "Eldetross's PC",
+		"jp_explain": "使用すると\n「エルデトロス」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Eldetross."
+	},
+	{
+		"assign": "374048",
+		"jp_text": "アギトのＰＣ",
+		"tr_text": "Agito's PC",
+		"jp_explain": "使用すると\n「アギト」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Agito."
+	},
+	{
+		"assign": "374049",
+		"jp_text": "朱鬼姫シキのＰＣ",
+		"tr_text": "Aka Oni-hime Shiki's PC",
+		"jp_explain": "使用すると\n「朱鬼姫シキ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Aka Oni-hime Shiki."
+	},
+	{
+		"assign": "374050",
+		"jp_text": "朱鬼坊オウドのＰＣ",
+		"tr_text": "Aka Oni-bou Oudo's PC",
+		"jp_explain": "使用すると\n「朱鬼坊オウド」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Aka Oni-bou Oudo."
+	},
+	{
+		"assign": "374051",
+		"jp_text": "藍鬼姫シキのＰＣ",
+		"tr_text": "Ao Oni-hime Shiki's PC",
+		"jp_explain": "使用すると\n「藍鬼姫シキ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Ao Oni-hime Shiki."
+	},
+	{
+		"assign": "374052",
+		"jp_text": "藍鬼坊オウドのＰＣ",
+		"tr_text": "Ao Oni-bou Oudo's PC",
+		"jp_explain": "使用すると\n「藍鬼坊オウド」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Ao Oni-bou Oudo."
+	},
+	{
+		"assign": "374053",
+		"jp_text": "クララのＰＣ",
+		"tr_text": "Clara's PC",
+		"jp_explain": "使用すると\n「クララ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Clara."
+	},
+	{
+		"assign": "374054",
+		"jp_text": "ニクスのＰＣ",
+		"tr_text": "Nix's PC",
+		"jp_explain": "使用すると\n「ニクス」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Nix."
+	},
+	{
+		"assign": "374055",
+		"jp_text": "キジカのＰＣ",
+		"tr_text": "Kizika's PC",
+		"jp_explain": "使用すると\n「キジカ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Kizika."
+	},
+	{
+		"assign": "374056",
+		"jp_text": "りらのＰＣ",
+		"tr_text": "Lila's PC",
+		"jp_explain": "使用すると\n「りら」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Lila."
+	},
+	{
+		"assign": "374057",
+		"jp_text": "クイナのＰＣ",
+		"tr_text": "Quina's PC",
+		"jp_explain": "使用すると\n「クイナ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Quina."
+	},
+	{
+		"assign": "374058",
+		"jp_text": "エリのＰＣ",
+		"tr_text": "Ely's PC",
+		"jp_explain": "使用すると\n「エリ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Ely."
+	},
+	{
+		"assign": "374059",
+		"jp_text": "マトイＨＷのＰＣ",
+		"tr_text": "Matoi (Halloween)'s PC",
+		"jp_explain": "使用すると\n「マトイ（ハロウィン）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Matoi (Halloween)."
+	},
+	{
+		"assign": "374060",
+		"jp_text": "パティＸｍａｓのＰＣ",
+		"tr_text": "Patty (Christmas)'s PC",
+		"jp_explain": "使用すると\n「パティ（クリスマス）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Patty (Christmas)."
+	},
+	{
+		"assign": "374061",
+		"jp_text": "ティアＸｍａｓのＰＣ",
+		"tr_text": "Tea (Christmas)'s PC",
+		"jp_explain": "使用すると\n「ティア（クリスマス）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Tea (Christmas)."
+	},
+	{
+		"assign": "374062",
+		"jp_text": "オークゥＶＤのＰＣ",
+		"tr_text": "Och (Valentine's)'s PC",
+		"jp_explain": "使用すると\n「オークゥ(バレンタイン)」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Och (Valentine's)."
+	},
+	{
+		"assign": "374063",
+		"jp_text": "フルＶＤのＰＣ",
+		"tr_text": "Phul (Valentine's)'s PC",
+		"jp_explain": "使用すると\n「フル(バレンタイン)」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Phul (Valentine's)."
+	},
+	{
+		"assign": "374064",
+		"jp_text": "エンガＷＤのＰＣ",
+		"tr_text": "Enga (White Day)'s PC",
+		"jp_explain": "使用すると\n「エンガ(ホワイトデー)」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Enga (White Day)."
+	},
+	{
+		"assign": "374065",
+		"jp_text": "ヒューイサマーのＰＣ",
+		"tr_text": "Huey (Summer)'s PC",
+		"jp_explain": "使用すると\n「ヒューイ(サマー)」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Huey (Summer)."
+	},
+	{
+		"assign": "374066",
+		"jp_text": "シエラＨＷのＰＣ",
+		"tr_text": "Xiera (Halloween)'s PC",
+		"jp_explain": "使用すると\n「シエラ（ハロウィン）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Xiera (Halloween)."
+	},
+	{
+		"assign": "374067",
+		"jp_text": "ヒツギＸｍａｓのＰＣ",
+		"tr_text": "Hitsugi (Christmas)'s PC",
+		"jp_explain": "使用すると\n「ヒツギ（クリスマス）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Hitsugi (Christmas)."
+	},
+	{
+		"assign": "374068",
+		"jp_text": "コオリＸｍａｓのＰＣ",
+		"tr_text": "Kohri (Christmas)'s PC",
+		"jp_explain": "使用すると\n「コオリ（クリスマス）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Kohri (Christmas)."
+	},
+	{
+		"assign": "374069",
+		"jp_text": "ユクリータＶＤのＰＣ",
+		"tr_text": "Yucreta (Valentine's)'s PC",
+		"jp_explain": "使用すると\n「ユクリータ（バレンタイン）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Yucreta (Valentine's)."
+	},
+	{
+		"assign": "374070",
+		"jp_text": "アフィンＷＤのＰＣ",
+		"tr_text": "Afin (White Day)'s PC",
+		"jp_explain": "使用すると\n「アフィン（ホワイトデー）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Afin (White Day)."
+	},
+	{
+		"assign": "374071",
+		"jp_text": "ハリエットＸｍａｓのＰＣ",
+		"tr_text": "Harriet (Christmas)'s PC",
+		"jp_explain": "使用すると\n「ハリエット（クリスマス）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Harriet (Christmas)."
+	},
+	{
+		"assign": "374072",
+		"jp_text": "ルーサーＸｍａｓのＰＣ",
+		"tr_text": "Luther (Christmas)'s PC",
+		"jp_explain": "使用すると\n「ルーサー（クリスマス）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Luther (Christmas)."
+	},
+	{
+		"assign": "374073",
+		"jp_text": "ストラトスＶＤのＰＣ",
+		"tr_text": "Stratos (Valentine's)'s PC",
+		"jp_explain": "使用すると\n「ストラトス（バレンタイン）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Stratos (Valentine's)."
+	},
+	{
+		"assign": "374074",
+		"jp_text": "キョクヤＷＤのＰＣ",
+		"tr_text": "Kyokuya (White Day)'s PC",
+		"jp_explain": "使用すると\n「キョクヤ（ホワイトデー）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Kyokuya (White Day)."
+	},
+	{
+		"assign": "374075",
+		"jp_text": "ゼクトのＰＣ",
+		"tr_text": "Zect's PC",
+		"jp_explain": "使用すると\n「マジカルロボ★ゼクト」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Zect."
+	},
+	{
+		"assign": "374076",
+		"jp_text": "猫ノ宮♪のＰＣ",
+		"tr_text": "Nekonomiya♪'s PC",
+		"jp_explain": "使用すると\n「猫ノ宮♪」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Nekonomiya♪."
+	},
+	{
+		"assign": "374077",
+		"jp_text": "ドルチェのＰＣ",
+		"tr_text": "Dolce's PC",
+		"jp_explain": "使用すると\n「ドルチェ」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Dolce."
+	},
+	{
+		"assign": "374078",
+		"jp_text": "牧野のＰＣ",
+		"tr_text": "Makino's PC",
+		"jp_explain": "使用すると\n「牧野」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Makino."
+	},
+	{
+		"assign": "374079",
+		"jp_text": "ハリエットサマーのＰＣ",
+		"tr_text": "Harriet (Summer)'s PC",
+		"jp_explain": "使用すると\n「ハリエット（サマー）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Harriet (Summer)."
+	},
+	{
+		"assign": "374080",
+		"jp_text": "マトイサマーのＰＣ",
+		"tr_text": "Matoi (Summer)'s PC",
+		"jp_explain": "使用すると\n「マトイ（サマー）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Matoi (Summer)."
+	},
+	{
+		"assign": "374081",
+		"jp_text": "ヒツギサマーのＰＣ",
+		"tr_text": "Hitsugi (Summer)'s PC",
+		"jp_explain": "使用すると\n「ヒツギ（サマー）」\nのパートナーカード（ＰＣ）を入手可能。",
+		"tr_explain": "Usa para obtener el Partner Card\nde Hitsugi (Summer)."
+	},
+	{
+		"assign": "374010001",
+		"jp_text": "ベースフェイスタイプⅠ",
+		"tr_text": "Base Face Type I",
+		"jp_explain": "チケットを使用すると、新しい頭部の\nベースフェイスタイプⅠが選択可能。",
+		"tr_explain": "Usando este tiquete, la cara\n\"Base Face Type I\"\npodra seleccionarse."
+	},
+	{
+		"assign": "374010002",
+		"jp_text": "ベースフェイスタイプⅡ",
+		"tr_text": "Base Face Type II",
+		"jp_explain": "チケットを使用すると、新しい頭部の\nベースフェイスタイプⅡが選択可能。",
+		"tr_explain": "Usando este tiquete, la cara\n\"Base Face Type II\"\npodra seleccionarse."
 	}
 ]

@@ -37,7 +37,7 @@
 	{
 		"assign": "5405",
 		"jp_text": "サブ／アドスピリタａ",
-		"tr_text": "Sub/Add Spirit a",
+		"tr_text": "Sub/Add Spirita a",
 		"jp_explain": "汎用装備可能なユニット。\nＰＰをわずかに上昇させる。",
 		"tr_explain": "An equippable all-purpose unit.\nBoosts PP +1."
 	},
@@ -156,23 +156,23 @@
 	{
 		"assign": "54022",
 		"jp_text": "サブ／ルミナスレジストａ",
-		"tr_text": "Sub/Lumina Resist a",
+		"tr_text": "Sub/Luminous Resist a",
 		"jp_explain": "汎用装備可能なユニット。\n光属性の耐性をわずかに上昇させる。",
 		"tr_explain": "An equippable all-purpose unit.\nBoosts Light Resistance 4%."
 	},
 	{
 		"assign": "54023",
 		"jp_text": "サブ／ルミナスレジストｂ",
-		"tr_text": "Sub/Lumina Resist b",
+		"tr_text": "Sub/Luminous Resist b",
 		"jp_explain": "汎用装備可能なユニット。\n光属性の耐性を少し上昇させる。",
 		"tr_explain": "An equippable all-purpose unit.\nBoosts Light Resistance 6%."
 	},
 	{
 		"assign": "54024",
 		"jp_text": "サブ／ルミナスレジストｃ",
-		"tr_text": "Sub/Lumina Resist c",
+		"tr_text": "Sub/Luminous Resist c",
 		"jp_explain": "汎用装備可能なユニット。\n光属性の耐性を上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "An equippable all-purpose unit.\nBoosts Light Resistance 8%."
 	},
 	{
 		"assign": "54025",
@@ -256,7 +256,7 @@
 		"jp_text": "サブ／アドウォールｃ",
 		"tr_text": "Sub/Add Wall c",
 		"jp_explain": "汎用装備可能なユニット。\n打撃防御を上昇させる。",
-		"tr_explain": "An equippable all-purpose unit.\nModerately Boosts S-DEF."
+		"tr_explain": "An equippable all-purpose unit.\nModerately boosts S-DEF."
 	},
 	{
 		"assign": "54037",
@@ -277,7 +277,7 @@
 		"jp_text": "サブ／アドリアクトｃ",
 		"tr_text": "Sub/Add React c",
 		"jp_explain": "汎用装備可能なユニット。\n射撃防御を上昇させる。",
-		"tr_explain": "An equippable all-purpose unit.\nModerately Boosts R-DEF."
+		"tr_explain": "An equippable all-purpose unit.\nModerately boosts R-DEF."
 	},
 	{
 		"assign": "54040",
@@ -298,7 +298,7 @@
 		"jp_text": "サブ／アドマインドｃ",
 		"tr_text": "Sub/Add Mind c",
 		"jp_explain": "汎用装備可能なユニット。\n法撃防御を上昇させる。",
-		"tr_explain": "An equippable all-purpose unit.\nModerately Boosts T-DEF."
+		"tr_explain": "An equippable all-purpose unit.\nModerately boosts T-DEF."
 	},
 	{
 		"assign": "54043",
@@ -396,7 +396,7 @@
 		"jp_text": "サブ／フォトンバリア",
 		"tr_text": "Sub/Photon Barrier",
 		"jp_explain": "汎用装備可能なユニット。\n全ての属性への耐性を持ち\n最大ＨＰを大幅に上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "An equippable all-purpose unit.\nProvides resistance to all attributes\nand greatly increases maximum HP."
 	},
 	{
 		"assign": "54057",
@@ -445,42 +445,42 @@
 		"jp_text": "サブ／フレイムリヴォルト",
 		"tr_text": "Sub/Flame Revolt",
 		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n炎耐性を持ち、ＨＰとＰＰを上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\nincreases Fire Resist, HP & PP."
 	},
 	{
 		"assign": "54064",
 		"jp_text": "サブ／アイスリヴォルト",
 		"tr_text": "Sub/Ice Revolt",
 		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n氷耐性を持ち、ＨＰとＰＰを上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\nincreases Ice Resist, HP & PP."
 	},
 	{
 		"assign": "54065",
 		"jp_text": "サブ／ボルトリヴォルト",
 		"tr_text": "Sub/Bolt Revolt",
 		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n雷耐性を持ち、ＨＰとＰＰを上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\nincreases Lightning Resist, HP & PP."
 	},
 	{
 		"assign": "54066",
 		"jp_text": "サブ／ストームリヴォルト",
 		"tr_text": "Sub/Storm Revolt",
 		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n風耐性を持ち、ＨＰとＰＰを上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\nincreases Wind Resist, HP & PP."
 	},
 	{
 		"assign": "54067",
 		"jp_text": "サブ／ルミナスリヴォルト",
 		"tr_text": "Sub/Luminous Revolt",
 		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n光耐性を持ち、ＨＰとＰＰを上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\nincreases Light Resist, HP & PP."
 	},
 	{
 		"assign": "54068",
 		"jp_text": "サブ／グルームリヴォルト",
 		"tr_text": "Sub/Gloom Revolt",
 		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n闇耐性を持ち、ＨＰとＰＰを上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\nincreases Dark Resist, HP & PP."
 	},
 	{
 		"assign": "54069",
@@ -494,48 +494,48 @@
 		"jp_text": "サブ／フレイムグラナート",
 		"tr_text": "Sub/Flame Granato",
 		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n炎耐性を持ち、ＨＰとＰＰを上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\nincreases Fire Resist, HP & PP."
 	},
 	{
 		"assign": "54071",
 		"jp_text": "サブ／アイスグラナート",
 		"tr_text": "Sub/Ice Granato",
 		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n氷耐性を持ち、ＨＰとＰＰを上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\nincreases Ice Resist, HP & PP."
 	},
 	{
 		"assign": "54072",
 		"jp_text": "サブ／ボルトグラナート",
 		"tr_text": "Sub/Bolt Granato",
 		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n雷耐性を持ち、ＨＰとＰＰを上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\nincreases Lightning Resist, HP & PP."
 	},
 	{
 		"assign": "54073",
 		"jp_text": "サブ／ストームグラナート",
 		"tr_text": "Sub/Storm Granato",
 		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n風耐性を持ち、ＨＰとＰＰを上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\nincreases Wind Resist, HP & PP."
 	},
 	{
 		"assign": "54074",
 		"jp_text": "サブ／ルミナスグラナート",
 		"tr_text": "Sub/Luminous Granato",
 		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n光耐性を持ち、ＨＰとＰＰを上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\nincreases Light Resist, HP & PP."
 	},
 	{
 		"assign": "54075",
 		"jp_text": "サブ／グルームグラナート",
 		"tr_text": "Sub/Gloom Granato",
 		"jp_explain": "汎用装備可能なユニット。\nチップ技術を応用したフレームを使用。\n闇耐性を持ち、ＨＰとＰＰを上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "A general purpose unit.\nUsing Chip Technology, this unit\nincreases Dark Resist, HP & PP."
 	},
 	{
 		"assign": "54076",
 		"jp_text": "サブ／ソリッドバリア",
 		"tr_text": "Sub/Solid Barrier",
 		"jp_explain": "汎用装備可能なユニット。\n全ての属性への耐性を持ち\n最大ＨＰを大幅に上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "An equippable all-purpose unit.\nProvides resistance to all attributes\nand greatly increases maximum HP."
 	}
 ]
