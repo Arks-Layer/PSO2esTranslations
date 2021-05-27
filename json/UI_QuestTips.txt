@@ -291,8 +291,8 @@
 	},
 	{
 		"assign": "0058",
-		"jp_text": "<color=#f0df60>＜早期習熟武器について＞</color>\n武器には「早期習熟」という能力を持つものがあり\n通常よりも早い段階で、習熟度が最大になるんです。\n緊急クエストの交換報酬などで入手できるので\nぜひ手に入れてみてください！",
-		"tr_text": "<color=#f0df60>Early Learner Weapons</color>\nSome weapons have an ability called \"Early Learner\".\nEarly Learner lowers a weapon's proficiency level, so\nyou can use it at full power earlier than normal. You\ncan obtain Early Learner weapons as rewards from\nEmergency Quests. If you need a weapon, try one!"
+		"jp_text": "<color=#f0df60>＜早期習熟武器について＞</color>\n武器には「早期習熟」という能力を持つものがあり\n通常よりも早い段階で、習熟度が最大になるんです。\n緊急クエストの交換報酬や\n極討サバイバルなどで入手できますよ！",
+		"tr_text": ""
 	},
 	{
 		"assign": "0059",
@@ -301,13 +301,13 @@
 	},
 	{
 		"assign": "0060",
-		"jp_text": "<color=#f0df60>＜属性共鳴・攻について＞</color>\n武器には「属性共鳴・攻」という能力を持つものがあり\n装備中の武器・チップの属性値に応じて\n武器の攻撃力が強化されます。\n緊急クエストの交換報酬などで手に入りますよ！",
-		"tr_text": "<color=#f0df60>Elemental Resonance - Attack</color>\nSome weapons have the ability \"Elemental\nResonance - Attack\", which increases their ATK\nbased on how much of that weapon's element\nyou have. You can obtain these weapons as\nrewards from Emergency Quests!"
+		"jp_text": "<color=#f0df60>＜属性共鳴・攻について＞</color>\n武器には「属性共鳴・攻」という能力を持つものがあり\n装備中の武器・チップの属性値に応じて\n武器の攻撃力が強化されます。\n緊急クエストの交換報酬や\n極討サバイバルなどで手に入りますよ！",
+		"tr_text": ""
 	},
 	{
 		"assign": "0061",
-		"jp_text": "<color=#f0df60>＜全属性共鳴・攻に関して＞</color>\n武器には「全属性共鳴・攻」という能力を持つものがあり\n装備中の武器・チップの全属性の合計値に応じて\n武器の攻撃力が強化されます。\n緊急クエストの超級以上でまれに手に入りますよ！",
-		"tr_text": "<color=#f0df60>All Elemental Resonance - Attack</color>\nSome weapons have the ability \"All Elemental\nResonance - Attack\", which increases their ATK\nbased on how much total element you have.\nYou can obtain these weapons as rare rewards\nfrom Emergency Quests on Super Hard or higher!"
+		"jp_text": "<color=#f0df60>＜全属性共鳴・攻に関して＞</color>\n武器には「全属性共鳴・攻」という能力を持つものがあり\n装備中の武器・チップの全属性の合計値に応じて\n武器の攻撃力が強化されます。\n緊急クエストの超級以上や\n極討サバイバルの中級以上でまれに手に入りますよ！",
+		"tr_text": ""
 	},
 	{
 		"assign": "0062",
@@ -1046,8 +1046,8 @@
 	},
 	{
 		"assign": "0209",
-		"jp_text": "<color=#f0df60>＜属性共鳴・技について＞</color>\n武器には「属性共鳴・技」という能力を持つものがあり\n武器と同じ属性のチップのコストを軽減します。\n緊急クエストの覇級でまれに手に入りますよ！ ",
-		"tr_text": "<color=#f0df60>Elemental Resonance - Technique</color>\nSome weapons have the ability \"Elemental\nResonance - Technique\", which reduces the\nequip cost of chips of the same element.\nYou can obtain these weapons as rare rewards\nfrom Extra Hard Emergency Quests!"
+		"jp_text": "<color=#f0df60>＜属性共鳴・技について＞</color>\n武器には「属性共鳴・技」という能力を持つものがあり\n武器と同じ属性のチップのコストを軽減します。\n緊急クエストの覇級や\n極討サバイバルの上級でまれに手に入りますよ！ ",
+		"tr_text": ""
 	},
 	{
 		"assign": "0210",
@@ -1436,22 +1436,22 @@
 	},
 	{
 		"assign": "0287",
-		"jp_text": "-",
+		"jp_text": "<color=#f0df60>＜ダーカー兵器の攻撃に注意しよう！＞</color>\n極討サバイバルでは\nダーカー兵器から発せられる衝撃波で\n一定時間ごとに大きなダメージを受けます。\nＨＰが尽きる前に、より多くのエネミーを倒しましょう！",
 		"tr_text": ""
 	},
 	{
 		"assign": "0288",
-		"jp_text": "-",
+		"jp_text": "<color=#f0df60>＜ターゲット切替えを活用しよう！＞</color>\n極討サバイバルでは、ターゲット切り替えのボタンに\n「後ろを向く行動」が追加されています。\n上手く活用して、激しい攻撃をかいくぐりましょう！",
 		"tr_text": ""
 	},
 	{
 		"assign": "0289",
-		"jp_text": "-",
+		"jp_text": "<color=#f0df60>＜サポートポイントを貯めよう！＞</color>\n極討サバイバルでは、バトル中の行動によって\n「サポートポイント」を貯めることができます。\n貯めたサポートポイントは、フェーズ開始前に\n様々な能力を強化するのに使用できますよ！",
 		"tr_text": ""
 	},
 	{
 		"assign": "0290",
-		"jp_text": "-",
+		"jp_text": "<color=#f0df60>＜ＯＰ回復薬を活用しよう！＞</color>\n極討サバイバル開催中に「ＯＰ回復薬」を使用すると\n発生しているボーナス効果１種につき\n所持サポートポイントが200ptアップしますよ！",
 		"tr_text": ""
 	},
 	{
@@ -1483,5 +1483,10 @@
 		"assign": "0296",
 		"jp_text": "<color=#f0df60>＜行動力が足りなくなったら？＞</color>\nクラスレベルがレベルアップすると\n行動力が最大まで回復します。\nまた、ストーリークエストをクリアしていくと\n行動力の最大値がアップしますよ！",
 		"tr_text": "<color=#f0df60>What To Do If Your Drive Runs Out</color>\nWhen you level up, your Drive is refilled.\nIn addition, clearing Story Quests raises\nyour maximum Drive.\nYou need Drive to start quests, so get\nas much of it as you can!"
+	},
+	{
+		"assign": "0297",
+		"jp_text": "<color=#f0df60>＜カメラの距離を調整しよう！＞</color>\n敵が多くて、戦況が把握し難いときは\nバトルカメラ設定を「遠」にしてみましょう！\n画面右上に表示されている停止ボタンから\nオプションを選ぶと変更できますよ。",
+		"tr_text": ""
 	}
 ]
