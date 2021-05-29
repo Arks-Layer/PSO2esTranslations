@@ -10,7 +10,7 @@
 		"assign": "32103",
 		"jp_text": "カラーチェンジパス",
 		"tr_text": "컬러 체인지 패스",
-		"jp_explain": "コスチュームのカラー変更パス\nエステにてカラーリングの変更が可能。\n利用するたびにパスは消費される。",
+		"jp_explain": "エステにて『PSO2』モデルの\nカラー変更が可能。\n利用するたびにパスは消費される。",
 		"tr_explain": "Allows you to recolor your\ncharacter from the Beauty Salon."
 	},
 	{
@@ -1953,6 +1953,13 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:추식휘잉\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210370",
+		"jp_text": "Ｓ４追加Ｒ：妙撃の秤",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：妙撃の秤を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210382",
 		"jp_text": "Ｓ５追加：錬成萌花",
 		"tr_text": "S5 추가:연성맹화",
@@ -2112,6 +2119,20 @@
 		"tr_text": "S1 추가:열쇄의 지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：裂砕の志を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:열쇄의 지\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210465",
+		"jp_text": "Ｓ１追加Ｒ：光子の秤２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：光子の秤２を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210466",
+		"jp_text": "Ｓ１追加Ｒ：滅域輝与２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：滅域輝与２を付与。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "3210469",
@@ -2301,6 +2322,13 @@
 		"tr_text": "S7 추가:약효 증가",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：薬効増大を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:약효 증가\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210523",
+		"jp_text": "Ｓ７追加Ｒ：視敵無双",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：視敵無双を付与。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "3210529",
@@ -2779,6 +2807,13 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:열쇄묘격의 지\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210609",
+		"jp_text": "Ｓ３追加Ｒ：妙技の巧",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：妙技の巧を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210610",
 		"jp_text": "能力追加成功率＋６５％",
 		"tr_text": "능력 추가 성공률 +65%",
@@ -2821,6 +2856,13 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:강격의 지2\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210616",
+		"jp_text": "Ｓ１追加Ｒ：輝充の志２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：輝充の志２を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210626",
 		"jp_text": "Ｓ２追加Ｒ：技巧縮減",
 		"tr_text": "S2 추가 R:기교축감",
@@ -2840,6 +2882,20 @@
 		"tr_text": "S2 추가 R:순란교지 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：瞬乱巧志を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:순란교지 2\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210629",
+		"jp_text": "Ｓ２追加Ｒ：保天輝地２",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：保天輝地２を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210630",
+		"jp_text": "Ｓ２追加Ｒ：光子縮減３",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：光子縮減３を付与。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "3210643",
@@ -2884,6 +2940,13 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:묘격의 지\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210649",
+		"jp_text": "Ｓ３追加Ｒ：輝勢の恵３",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：輝勢の恵３を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210662",
 		"jp_text": "Ｓ４追加Ｒ：静心の志",
 		"tr_text": "S4 추가 R:정심의 지",
@@ -2898,6 +2961,13 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:누가추격\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210664",
+		"jp_text": "Ｓ４追加Ｒ：追蝕輝剰",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：追蝕輝剰を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210672",
 		"jp_text": "Ｓ５追加：終撃応与",
 		"tr_text": "S5 추가:종격응여",
@@ -2910,6 +2980,20 @@
 		"tr_text": "S5 추가 R:연성맹화",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：錬成萌花を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:연성맹화\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210674",
+		"jp_text": "Ｓ５追加Ｒ：静心拡域",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：静心拡域を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210675",
+		"jp_text": "Ｓ５追加Ｒ：終撃応与",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：終撃応与を付与。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "3210679",
@@ -2933,6 +3017,13 @@
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:누가확역\"\nwhen used in Ability Synthesis."
 	},
 	{
+		"assign": "3210682",
+		"jp_text": "Ｓ６追加Ｒ：累加拡域",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：累加拡域を付与。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "3210689",
 		"jp_text": "Ｓ７追加Ｒ：輝静の恵",
 		"tr_text": "S7 추가R:휘정의 혜",
@@ -2952,6 +3043,20 @@
 		"tr_text": "S7 추가:주기축지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：注技縮地を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:주기축지\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "3210692",
+		"jp_text": "Ｓ７追加Ｒ：法護の与",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：法護の与を付与。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3210693",
+		"jp_text": "Ｓ７追加Ｒ：注技縮地",
+		"tr_text": "",
+		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：注技縮地を付与。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "3210699",
@@ -3015,5 +3120,12 @@
 		"tr_text": "특수능력 R (레브리 C)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【レヴリー・カタリスト】を追加。",
 		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"레브리 카탈리스트\"\nwhen used in Ability Synthesis."
+	},
+	{
+		"assign": "321010054",
+		"jp_text": "N-カラーチェンジパス",
+		"tr_text": "",
+		"jp_explain": "エステにて『PSO2:NGS』モデルの\nカラー変更が可能。\n利用するたびにパスは消費される。",
+		"tr_explain": ""
 	}
 ]
