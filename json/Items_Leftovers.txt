@@ -2177,13 +2177,6 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "C/アームⅠ",
-		"tr_text": "C/Arm I",
-		"jp_explain": "特殊能力“アームⅠ”を<br>武器、防具に追加するカプセル。",
-		"tr_explain": "A capsule that adds the Special Ability\n\"Arm I\"\nto weapons and armor.",
-		"assign": 0
-	},
-	{
 		"jp_text": "C/パワーⅠ",
 		"tr_text": "C/Power I",
 		"jp_explain": "特殊能力“パワーⅠ”を<br>武器、防具に追加するカプセル。",
@@ -2247,6 +2240,125 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "C/アームⅠ",
+		"tr_text": "C/Arm I",
+		"jp_explain": "特殊能力“アームⅠ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Arm I\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/アームⅡ",
+		"tr_text": "C/Arm II",
+		"jp_explain": "特殊能力“アームⅡ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Arm II\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/アームⅢ",
+		"tr_text": "C/Arm III",
+		"jp_explain": "特殊能力“アームⅢ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Arm III\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/ガードⅠ",
+		"tr_text": "C/Guard I",
+		"jp_explain": "特殊能力“ガードⅠ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Guard I\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/ガードⅡ",
+		"tr_text": "C/Guard II",
+		"jp_explain": "特殊能力“ガードⅡ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Guard II\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/ガードⅢ",
+		"tr_text": "C/Guard III",
+		"jp_explain": "特殊能力“ガードⅢ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Guard III\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/バーンレジストⅠ",
+		"tr_text": "C/Burn Resist I",
+		"jp_explain": "特殊能力“バーンレジストⅠ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Burn Resist I\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/バーンレジストⅡ",
+		"tr_text": "C/Burn Resist II",
+		"jp_explain": "特殊能力“バーンレジストⅡ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Burn Resist II\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/バーンレジストⅢ",
+		"tr_text": "C/Burn Resist III",
+		"jp_explain": "特殊能力“バーンレジストⅢ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Burn Resist III\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/フリーズレジストⅠ",
+		"tr_text": "C/Freeze Resist I",
+		"jp_explain": "特殊能力“フリーズレジストⅠ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Freeze Resist I\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/フリーズレジストⅡ",
+		"tr_text": "C/Freeze Resist II",
+		"jp_explain": "特殊能力“フリーズレジストⅡ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Freeze Resist II\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/フリーズレジストⅢ",
+		"tr_text": "C/Freeze Resist III",
+		"jp_explain": "特殊能力“フリーズレジストⅢ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Freeze Resist III\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/ショックレジストⅡ",
+		"tr_text": "C/Shock Resist II",
+		"jp_explain": "特殊能力“ショックレジストⅡ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Shock Resist II\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/パニックレジストⅠ",
+		"tr_text": "C/Panic Resist I",
+		"jp_explain": "特殊能力“パニックレジストⅠ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Panic Resist I\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/パニックレジストⅡ",
+		"tr_text": "C/Panic Resist II",
+		"jp_explain": "特殊能力“パニックレジストⅡ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Panic Resist II\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/ペインレジストⅠ",
+		"tr_text": "C/Pain Resist I",
+		"jp_explain": "特殊能力“ペインレジストⅠ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Pain Resist I\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
+		"jp_text": "C/ペインレジストⅡ",
+		"tr_text": "C/Pain Resist II",
+		"jp_explain": "特殊能力“ペインレジストⅡ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Pain Resist II\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
 		"jp_text": "C/ドルズ・ソールⅠ",
 		"tr_text": "C/DOLLS Soul I",
 		"jp_explain": "特殊能力“ドルズ・ソールⅠ”を<br>武器、防具に追加するカプセル。",
@@ -2262,23 +2374,16 @@
 	},
 	{
 		"jp_text": "C/アルズ・ソールⅠ",
-		"tr_text": "C/Als Soul I",
+		"tr_text": "C/Alz Soul I",
 		"jp_explain": "特殊能力“アルズ・ソールⅠ”を<br>武器、防具に追加するカプセル。",
-		"tr_explain": "A capsule that adds the Special Ability\n\"Als Soul I\"\nto weapons and armor.",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Alz Soul I\"\nto weapons and armor.",
 		"assign": 0
 	},
 	{
 		"jp_text": "C/アルズ・ソールⅡ",
-		"tr_text": "C/Als Soul II",
+		"tr_text": "C/Alz Soul II",
 		"jp_explain": "特殊能力“アルズ・ソールⅡ”を<br>武器、防具に追加するカプセル。",
-		"tr_explain": "A capsule that adds the Special Ability\n\"Als Soul II\"\nto weapons and armor.",
-		"assign": 0
-	},
-	{
-		"jp_text": "C/アルズ・セクレテⅠ",
-		"tr_text": "C/Alz Secrete I",
-		"jp_explain": "特殊能力“アルズ・セクレテⅠ”を<br>武器、防具に追加するカプセル。",
-		"tr_explain": "A capsule that adds the Special Ability\n\"Alz Secrete I\"\nto weapons and armor.",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Alz Soul II\"\nto weapons and armor.",
 		"assign": 0
 	},
 	{
@@ -2303,10 +2408,17 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "C/ダイダル・ソールⅡ",
+		"tr_text": "C/Daedal Soul II",
+		"jp_explain": "特殊能力“ダイダル・ソールⅡ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Daedal Soul II\"\nto weapons and armor.",
+		"assign": 0
+	},
+	{
 		"jp_text": "C/ネクス・ソールⅠ",
-		"tr_text": "C/ネクス Soul I",
+		"tr_text": "C/Nex Soul I",
 		"jp_explain": "特殊能力“ネクス・ソールⅠ”を<br>武器、防具に追加するカプセル。",
-		"tr_explain": "A capsule that adds the Special Ability\n\"ネクス Soul I\"\nto weapons and armor.",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Nex Soul I\"\nto weapons and armor.",
 		"assign": 0
 	},
 	{
@@ -2359,59 +2471,17 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "C/バーンレジストⅠ",
-		"tr_text": "C/Burn Resist I",
-		"jp_explain": "特殊能力“バーンレジストⅠ”を<br>武器、防具に追加するカプセル。",
-		"tr_explain": "A capsule that adds the Special Ability\n\"Burn Resist I\"\nto weapons and armor.",
+		"jp_text": "C/アルズ・セクレテⅠ",
+		"tr_text": "C/Alz Secrete I",
+		"jp_explain": "特殊能力“アルズ・セクレテⅠ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Alz Secrete I\"\nto weapons and armor.",
 		"assign": 0
 	},
 	{
-		"jp_text": "C/フリーズレジストⅠ",
-		"tr_text": "C/Freeze Resist I",
-		"jp_explain": "特殊能力“フリーズレジストⅠ”を<br>武器、防具に追加するカプセル。",
-		"tr_explain": "A capsule that adds the Special Ability\n\"Freeze Resist I\"\nto weapons and armor.",
-		"assign": 0
-	},
-	{
-		"jp_text": "C/フリーズレジストⅢ",
-		"tr_text": "C/Freeze Resist III",
-		"jp_explain": "特殊能力“フリーズレジストⅢ”を<br>武器、防具に追加するカプセル。",
-		"tr_explain": "A capsule that adds the Special Ability\n\"Freeze Resist III\"\nto weapons and armor.",
-		"assign": 0
-	},
-	{
-		"jp_text": "C/ショックレジストⅡ",
-		"tr_text": "C/Shock Resist II",
-		"jp_explain": "特殊能力“ショックレジストⅡ”を<br>武器、防具に追加するカプセル。",
-		"tr_explain": "A capsule that adds the Special Ability\n\"Shock Resist II\"\nto weapons and armor.",
-		"assign": 0
-	},
-	{
-		"jp_text": "C/パニックレジストⅠ",
-		"tr_text": "C/Panic Resist I",
-		"jp_explain": "特殊能力“パニックレジストⅠ”を<br>武器、防具に追加するカプセル。",
-		"tr_explain": "A capsule that adds the Special Ability\n\"Panic Resist I\"\nto weapons and armor.",
-		"assign": 0
-	},
-	{
-		"jp_text": "C/パニックレジストⅡ",
-		"tr_text": "C/Panic Resist II",
-		"jp_explain": "特殊能力“パニックレジストⅡ”を<br>武器、防具に追加するカプセル。",
-		"tr_explain": "A capsule that adds the Special Ability\n\"Panic Resist II\"\nto weapons and armor.",
-		"assign": 0
-	},
-	{
-		"jp_text": "C/ペインレジストⅠ",
-		"tr_text": "C/Pain Resist I",
-		"jp_explain": "特殊能力“ペインレジストⅠ”を<br>武器、防具に追加するカプセル。",
-		"tr_explain": "A capsule that adds the Special Ability\n\"Pain Resist I\"\nto weapons and armor.",
-		"assign": 0
-	},
-	{
-		"jp_text": "C/ペインレジストⅡ",
-		"tr_text": "C/Pain Resist II",
-		"jp_explain": "特殊能力“ペインレジストⅡ”を<br>武器、防具に追加するカプセル。",
-		"tr_explain": "A capsule that adds the Special Ability\n\"Pain Resist II\"\nto weapons and armor.",
+		"jp_text": "C/アルズ・セクレテⅡ",
+		"tr_text": "C/Alz Secrete II",
+		"jp_explain": "特殊能力“アルズ・セクレテⅡ”を<br>武器、防具に追加するカプセル。",
+		"tr_explain": "A capsule that adds the Special Ability\n\"Alz Secrete II\"\nto weapons and armor.",
 		"assign": 0
 	}
 ]
