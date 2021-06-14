@@ -746,21 +746,21 @@
 		"jp_text": "ブレードレボルシオ",
 		"tr_text": "Blade Revolucio",
 		"jp_explain": "新開発の演算装置を搭載した飛翔剣。\n装者の思考や戦況を分析することで\n出力を最適に保ち、負荷を軽減する。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades with a newly developed\ncomputing device. They scan tactical\ndata for optimal user efficiency."
 	},
 	{
 		"assign": "1170215",
 		"jp_text": "ブレードドミナシオ",
 		"tr_text": "Blade Dominacio",
 		"jp_explain": "新開発の演算装置を搭載した飛翔剣。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades with a newly developed\ncomputing device. Powerful, but put\nstrain on the user's mind in battle."
 	},
 	{
 		"assign": "1170216",
 		"jp_text": "ブレードインクルシオ",
 		"tr_text": "Blade Inclusio",
 		"jp_explain": "新開発の演算装置を搭載した飛翔剣。\n高い処理能力が歴史を書き換え\n持つだけで力が湧いてくる。",
-		"tr_explain": ""
+		"tr_explain": "Dual blades with a newly developed\ncomputing device. Their processors\nhave the power to rewrite history."
 	},
 	{
 		"assign": "1170219",
@@ -1341,6 +1341,13 @@
 		"jp_text": "イグニス-NT",
 		"tr_text": "Ignis-NT",
 		"jp_explain": "フォトンエネルギーパックを内蔵する\n飛翔剣。双方向から襲い掛かる二層の\n刃が、攻撃をより正確なものにする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "117010012",
+		"jp_text": "[APC]プリムブレード",
+		"tr_text": "",
+		"jp_explain": "",
 		"tr_explain": ""
 	}
 ]

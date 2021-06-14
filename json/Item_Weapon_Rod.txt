@@ -1012,21 +1012,21 @@
 		"jp_text": "シャフトレボルシオ",
 		"tr_text": "Shaft Revolucio",
 		"jp_explain": "新開発の演算装置を搭載した長杖。\n装者の思考や戦況を分析することで\n出力を最適に保ち、負荷を軽減する。",
-		"tr_explain": ""
+		"tr_explain": "A rod with a newly developed\ncomputing device. It scans tactical\ndata for optimal user efficiency."
 	},
 	{
 		"assign": "1110261",
 		"jp_text": "シャフトドミナシオ",
 		"tr_text": "Shaft Dominacio",
 		"jp_explain": "新開発の演算装置を搭載した長杖。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
-		"tr_explain": ""
+		"tr_explain": "A rod with a newly developed\ncomputing device. Powerful, but puts\nstrain on the user's mind in battle."
 	},
 	{
 		"assign": "1110262",
 		"jp_text": "シャフトインクルシオ",
 		"tr_text": "Shaft Inclusio",
 		"jp_explain": "新開発の演算装置を搭載した長杖。\n追従を許さぬ高い処理能力で\nフォトン制御力の限界に迫る。",
-		"tr_explain": ""
+		"tr_explain": "A rod with a newly developed\ncomputing device. Its processor boosts\nthe user's Photon control to its limit."
 	},
 	{
 		"assign": "1110265",
@@ -1748,5 +1748,75 @@
 		"tr_text": "Darkbanisher Ayer Cane",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた長杖。\n永遠の環をその身に宿している。",
 		"tr_explain": "A rod that will give up anything to\nprotect the universe. Houses the\ncycle of eternity within its body."
+	},
+	{
+		"assign": "111010010",
+		"jp_text": "プリムロッド",
+		"tr_text": "Prim Rod",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010011",
+		"jp_text": "ツヴィアロッド",
+		"tr_text": "Suvia Rod",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010012",
+		"jp_text": "リサージュロッド",
+		"tr_text": "Resurge Rod",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010013",
+		"jp_text": "トロワーデロッド",
+		"tr_text": "Troward Rod",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010014",
+		"jp_text": "[NPC]マノンのロッド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010015",
+		"jp_text": "フォーシスロッド",
+		"tr_text": "Forsis Rod",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010016",
+		"jp_text": "[APC]プリムロッド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010018",
+		"jp_text": "シルヴァプリムロッド",
+		"tr_text": "Silver Prim Rod",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010019",
+		"jp_text": "ゴルドプリムロッド",
+		"tr_text": "Gold Prim Rod",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010035",
+		"jp_text": "ストラーガロッド",
+		"tr_text": "Stragga Rod",
+		"jp_explain": "",
+		"tr_explain": ""
 	}
 ]
