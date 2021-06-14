@@ -234,12 +234,8 @@ character_names = {
     "ミケクロー": "Kitty Claw", "ダーカー": "Darker",
     "怪盗三姉妹": "Phantom Thief Sisters", "海王種": "Oceanid",
     "機甲種": "Mech", "黒髪の美女": "Black-Haired Beauty",
-    "原生種": "Native", "華やかな女子たち": "Gorgeous Girl",
-    "不機嫌そうなアークス": "Grumpy ARKS", "ヤスミノコフ３０００R": "Yasminkov 3000R",
-    "ヤスミノコフ５０００SD": "Yasminkov 5000SD", "ヤスミノコフ４０００F": "Yasminkov 4000F",
-    "Tヤスミノコフ２０００H": "Twin Yasminkov 2000H",
     "女の子": "Girl",
-    "？？？": "???"
+    "？？？": "???" #Generics
     }
 
 for name in file_names:
