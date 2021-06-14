@@ -3122,10 +3122,101 @@
 		"tr_explain": "Материал синтеза способностей.\nДаёт \"Reverie Catalyst\"\nпри использовании синтеза\nспособностей."
 	},
 	{
+		"assign": "321010002",
+		"jp_text": "N-強化大成功率＋10%",
+		"tr_text": "N-Grind Great Success +10",
+		"jp_explain": "アイテム強化時に\n強化が大成功になる確率を\n上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010003",
+		"jp_text": "N-強化大成功率＋20%",
+		"tr_text": "N-Grind Great Success +20",
+		"jp_explain": "アイテム強化時に\n強化が大成功になる確率を\n上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010004",
+		"jp_text": "N-強化大成功率＋30%",
+		"tr_text": "N-Grind Great Success +30",
+		"jp_explain": "アイテム強化時に\n強化が大成功になる確率を\n上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010006",
+		"jp_text": "N-強化大成功率＋50%",
+		"tr_text": "N-Grind Great Success +60",
+		"jp_explain": "アイテム強化時に\n強化が大成功になる確率を\n上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010011",
+		"jp_text": "N-強化大成功率＋100%",
+		"tr_text": "N-Grind Great Success +100",
+		"jp_explain": "アイテム強化時に\n強化が大成功になる確率を\n上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010012",
+		"jp_text": "N-特殊能力追加成功率＋5%",
+		"tr_text": "N-Ability Success +5",
+		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010013",
+		"jp_text": "N-特殊能力追加成功率＋10%",
+		"tr_text": "N-Ability Success +10",
+		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010014",
+		"jp_text": "N-特殊能力追加成功率＋15%",
+		"tr_text": "N-Ability Success +15",
+		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010015",
+		"jp_text": "N-特殊能力追加成功率＋20%",
+		"tr_text": "N-Ability Success +20",
+		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010017",
+		"jp_text": "N-特殊能力追加成功率＋30%",
+		"tr_text": "N-Ability Success +30",
+		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "321010054",
 		"jp_text": "N-カラーチェンジパス",
 		"tr_text": "N-Пропуск для смены цвета",
 		"jp_explain": "エステにて『PSO2:NGS』モデルの\nカラー変更が可能。\n利用するたびにパスは消費される。",
 		"tr_explain": "Позволяет изменить цвет\n[PSO2:NGS] одежды персонажа\nв салоне."
+	},
+	{
+		"assign": "321010055",
+		"jp_text": "N-スキルツリー追加",
+		"tr_text": "N-Skill Tree Add",
+		"jp_explain": "新規スキルツリーを1枚追加する。\n1キャラクターにつき\n20枚まで拡張可能。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010056",
+		"jp_text": "N-追加スキルツリー振り替え",
+		"tr_text": "N-Skill Tree Transfer",
+		"jp_explain": "“N-スキルツリー追加”を\n使用前の状態に戻して\nスキルポイントを振り直せる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010057",
+		"jp_text": "N-全スキルツリー初期化",
+		"tr_text": "N-All Skill Tree Reset",
+		"jp_explain": "追加したツリーを含めて\n全スキルツリーを初期化し\nスキルポイントを振り直せる。",
+		"tr_explain": ""
 	}
 ]
