@@ -47,5 +47,33 @@
 		"tr_text": "Лимон с морского дна",
 		"jp_explain": "<c f0df60>海底エリア<c>で<c 99ff97>採れる<c>小型果実。\n果汁や果実は様々な調理に利用される。\n強い酸味と香りが特徴的。",
 		"tr_explain": "<c 99ff97>Маленький фрукт<c> с <c f0df60>морского дна<c>.\nОчень кислый фрукт. И сок, и\nмякоть используются в кулинарии."
+	},
+	{
+		"assign": "354010002",
+		"jp_text": "マッタ・エアルアッポウ",
+		"tr_text": "Nourishing Aerio Apple",
+		"jp_explain": "エアリオで採取可能な果物。\nPP増加／\nPP消費量軽減",
+		"tr_explain": "Fruit Gathered in Aerio.\nIncreases PP and\nreduces PP consumption."
+	},
+	{
+		"assign": "354010003",
+		"jp_text": "サッパ・エアルピッチ",
+		"tr_text": "Refreshing Aerio Peach",
+		"jp_explain": "エアリオで採取可能な果物。\nPP増加／\nPP回復量増加",
+		"tr_explain": "Fruit Gathered in Aerio.\nIncreases PP and\nincreases PP recovery."
+	},
+	{
+		"assign": "354010004",
+		"jp_text": "シャッキ・エアルナッシィ",
+		"tr_text": "Sharp Aerio Pear",
+		"jp_explain": "エアリオで採取可能な果物。\nPP増加／\n弱点部位ダメージ増加",
+		"tr_explain": "Fruit Gathered in Aerio.\nIncreases PP and\nboosts weak point damage."
+	},
+	{
+		"assign": "354010005",
+		"jp_text": "ガッツ・エアルバナン",
+		"tr_text": "Healthy Aerio Banana",
+		"jp_explain": "エアリオで採取可能な果物。\nPP増加／\nHP回復量増加",
+		"tr_explain": "Fruit Gathered in Aerio.\nIncreases PP and\nboosts HP recovery."
 	}
 ]

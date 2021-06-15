@@ -152,5 +152,33 @@
 		"tr_text": "Лопух из Курона",
 		"jp_explain": "<c f0df60>黒ノ領域エリア<c>で<c 99ff97>採れる<c>中型野菜。\n根の部分を食し、かき揚げや煮物などに\n利用される。食物繊維が豊富。",
 		"tr_explain": "<c 99ff97>Средний овощ<c> из <c f0df60>Курона<c>.\nСъедобные корнеплоды, которые\nможно варить или жарить в\nтемпуре. Богат клетчаткой."
+	},
+	{
+		"assign": "353010002",
+		"jp_text": "ガッツ・エアルカブラナ",
+		"tr_text": "Healthy Aerio Turnip",
+		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\nHP回復量増加",
+		"tr_explain": "Vegetable Gathered in Aerio.\nBoosts damage resistance and\nboosts HP recovery."
+	},
+	{
+		"assign": "353010003",
+		"jp_text": "マッタ・エアルハーヴ",
+		"tr_text": "Nourishing Aerio Herb",
+		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\nPP消費量軽減",
+		"tr_explain": "Vegetable Gathered in Aerio.\nBoosts damage resistance and\nreduces PP consumption."
+	},
+	{
+		"assign": "353010004",
+		"jp_text": "シャッキ・エアルトマーテ",
+		"tr_text": "Sharp Aerio Tomato",
+		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\n弱点部位ダメージ増加",
+		"tr_explain": "Vegetable Gathered in Aerio.\nBoosts damage resistance and\nboosts weak point damage."
+	},
+	{
+		"assign": "353010005",
+		"jp_text": "サッパ・エアルマシュル",
+		"tr_text": "Refreshing Aerio Mushroom",
+		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\nPP回復量増加",
+		"tr_explain": "Vegetable Gathered in Aerio.\nBoosts damage resistance and\nincreases PP recovery."
 	}
 ]

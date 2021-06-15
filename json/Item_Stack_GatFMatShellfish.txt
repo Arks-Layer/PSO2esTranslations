@@ -68,5 +68,33 @@
 		"tr_text": "Морские ушки из Курона",
 		"jp_explain": "<c f0df60>黒ノ領域エリア<c>で<c 97fff2>釣れる<c>小型貝類。\n顔のような模様が入った貝殻が特徴。\n巻き貝の一種で、非常に美味。",
 		"tr_explain": "<c 97fff2>Малый моллюск<c> из <c f0df60>Курона<c>.\nГоворят, что это он вкусен.\nРаковина имеет лицевой узор."
+	},
+	{
+		"assign": "363010002",
+		"jp_text": "マッタ・エアルアザーリ",
+		"tr_text": "Nourishing Aerio Clam",
+		"jp_explain": "エアリオで採捕可能な魚介。\nHP増加／\nPP消費量軽減",
+		"tr_explain": "Shellfish caught in Aerio.\nIncreases HP and\nreduces PP consumption."
+	},
+	{
+		"assign": "363010003",
+		"jp_text": "サッパ・エアルサザイエ",
+		"tr_text": "Refreshing Aerio Snail",
+		"jp_explain": "エアリオで採捕可能な魚介。\nHP増加／\nPP回復量増加",
+		"tr_explain": "Shellfish caught in Aerio.\nIncreases HP and\nincreases PP recovery."
+	},
+	{
+		"assign": "363010004",
+		"jp_text": "シャッキ・エアルクラーブ",
+		"tr_text": "Sharp Aerio Crab",
+		"jp_explain": "エアリオで採捕可能な魚介。\nHP増加／\n弱点部位ダメージ増加",
+		"tr_explain": "Shellfish caught in Aerio.\nIncreases HP and\nboosts weak point damage."
+	},
+	{
+		"assign": "363010005",
+		"jp_text": "ガッツ・エアルローブス",
+		"tr_text": "Healthy Aerio Lobster",
+		"jp_explain": "エアリオで採捕可能な魚介。\nHP増加／\nHP回復量増加",
+		"tr_explain": "Shellfish caught in Aerio.\nIncreases HP and\nboosts HP recovery."
 	}
 ]
