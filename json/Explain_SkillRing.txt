@@ -16,28 +16,28 @@
 	{
 		"assign": "6",
 		"jp_text": "Ｐキーパー打撃",
-		"tr_text": "P. Keeper Striking",
+		"tr_text": "P Keeper Striking",
 		"jp_explain": "パーフェクトキーパー打撃\nＨＰが一定の割合以上のとき\nエネミーへの打撃攻撃のダメージが増加する。",
 		"tr_explain": "Perfect Keeper - Striking\nIncreases striking attack damage\nwhen HP is above a certain level."
 	},
 	{
 		"assign": "7",
 		"jp_text": "Ｐキーパー射撃",
-		"tr_text": "P. Keeper Ranged",
+		"tr_text": "P Keeper Ranged",
 		"jp_explain": "パーフェクトキーパー射撃\nＨＰが一定の割合以上のとき\nエネミーへの射撃攻撃のダメージが増加する。",
 		"tr_explain": "Perfect Keeper - Ranged\nIncreases ranged attack damage\nwhen HP is above a certain level."
 	},
 	{
 		"assign": "8",
 		"jp_text": "Ｐキーパー法撃",
-		"tr_text": "P. Keeper Technique",
+		"tr_text": "P Keeper Technique",
 		"jp_explain": "パーフェクトキーパー法撃\nＨＰが一定の割合以上のとき\nエネミーへの法撃攻撃のダメージが増加する。",
 		"tr_explain": "Perfect Keeper - Technique\nIncreases Technique attack damage\nwhen HP is above a certain level."
 	},
 	{
 		"assign": "104",
 		"jp_text": "Ｐキーパー",
-		"tr_text": "P. Keeper",
+		"tr_text": "P Keeper",
 		"jp_explain": "パーフェクトキーパー\nＨＰが一定の割合以上のとき\nエネミーへのダメージが増加する。",
 		"tr_explain": "Perfect Keeper\nIncreases all attack damage\nwhen HP is above a certain level."
 	},
@@ -268,7 +268,7 @@
 	{
 		"assign": "44",
 		"jp_text": "Ａランチャーモード",
-		"tr_text": "A Launcher Mode",
+		"tr_text": "A. Launcher Mode",
 		"jp_explain": "アナザーランチャーモード\nランチャーの通常攻撃の弾道が変化し\n威力が上昇。攻撃範囲も広がる。",
 		"tr_explain": "Another Launcher Mode Changes the\ntrajectory and boosts the power of a\nlauncher's normal attack. Attack\nrange is also increased."
 	},
@@ -478,9 +478,9 @@
 	{
 		"assign": "88",
 		"jp_text": "フレンズプロテクション",
-		"tr_text": "Friends' Protection",
+		"tr_text": "Friends Protection",
 		"jp_explain": "フレンズプロテクション\nイツキやRINA達との友情のリング\n被ダメージが減少する。",
-		"tr_explain": "Friends' Protection\nRing of friendship for Itsuki and RINA.\nReduces damage."
+		"tr_explain": "Friends Protection\nRing of friendship for Itsuki and RINA.\nReduces damage."
 	},
 	{
 		"assign": "70",
@@ -688,28 +688,28 @@
 	{
 		"assign": "2",
 		"jp_text": "Ｃストライク打撃",
-		"tr_text": "C-Strike - Striking",
+		"tr_text": "C Strike Striking",
 		"jp_explain": "クリティカルストライク打撃\nクリティカル率が上昇し、打撃攻撃の\nクリティカル時にダメージボーナスを得る。",
 		"tr_explain": "Critical Strike - Striking\nIncreases critical hit rate\nand boosts damage of Striking crits."
 	},
 	{
 		"assign": "3",
 		"jp_text": "Ｃストライク射撃",
-		"tr_text": "C-Strike - Ranged",
+		"tr_text": "C Strike Ranged",
 		"jp_explain": "クリティカルストライク射撃\nクリティカル率が上昇し、射撃攻撃の\nクリティカル時にダメージボーナスを得る。",
 		"tr_explain": "Critical Strike - Ranged\nIncreases critical hit rate\nand boosts damage of Ranged crits."
 	},
 	{
 		"assign": "4",
 		"jp_text": "Ｃストライク法撃",
-		"tr_text": "C-Strike - Technique",
+		"tr_text": "C Strike Technique",
 		"jp_explain": "クリティカルストライク法撃\nクリティカル率が上昇し、法撃攻撃の\nクリティカル時にダメージボーナスを得る。",
 		"tr_explain": "Critical Strike - Technique\nIncreases critical hit rate\nand boosts damage of Technique crits."
 	},
 	{
 		"assign": "103",
 		"jp_text": "Ｃストライク",
-		"tr_text": "C. Strike",
+		"tr_text": "C Strike",
 		"jp_explain": "クリティカルストライク\nクリティカル率が上昇し\nクリティカル時にダメージボーナスを得る。",
 		"tr_explain": "Critical Strike\nIncreases critical hit rate\nand boosts damage of crits."
 	},
