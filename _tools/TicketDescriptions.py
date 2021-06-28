@@ -396,6 +396,8 @@ cv_names = {
     "高野 麻里佳": ["Marika Kono", ""],
     "黒沢 ともよ": ["Tomoyo Kurosawa", ""],
     "こおろぎさとみ": ["Satomi Korogi", "코오로기 사토미"],
+    "三宅 健太": ["Kenta Miyake", ""],
+    "諸星 すみれ": ["Sumire Morohoshi", ""],
     "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O"],
     "？？？": ["???", "???"],
     "": ["Unknown", "알 수 없는"]
