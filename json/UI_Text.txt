@@ -477,7 +477,7 @@
 	{
 		"assign": "acshop_dialog_b_31",
 		"jp_text": "OPを6回復しました。\n\n<ボーナス発動>\n<%oprecovery_pass_use_bonus>",
-		"tr_text": ""
+		"tr_text": "6 OP Recovered.\n\n<Bonus Triggered>\n<%oprecovery_pass_use_bonus>"
 	},
 	{
 		"assign": "acshop_dialog_t_32",
@@ -1262,7 +1262,7 @@
 	{
 		"assign": "charamake_progress_01",
 		"jp_text": "<color=#ffff00>STEP1/</color> キャラクターの体型を選択してください。",
-		"tr_text": ""
+		"tr_text": "<color=#ffff00>STEP1/</color> Select your Type."
 	},
 	{
 		"assign": "charamake_progress_02",
@@ -1312,7 +1312,7 @@
 	{
 		"assign": "chmake_gender_window",
 		"jp_text": "体型タイプ選択",
-		"tr_text": ""
+		"tr_text": "Type Selection"
 	},
 	{
 		"assign": "chmake_race_window",
@@ -1342,7 +1342,7 @@
 	{
 		"assign": "chmake_confirm_gender",
 		"jp_text": "体型",
-		"tr_text": ""
+		"tr_text": "Type"
 	},
 	{
 		"assign": "chmake_confirm_class",
@@ -4317,77 +4317,77 @@
 	{
 		"assign": "myshop_sex_costume_none",
 		"jp_text": "体型タイプ指定なし",
-		"tr_text": ""
+		"tr_text": "None"
 	},
 	{
 		"assign": "myshop_sex_costume_male",
 		"jp_text": "体型タイプ１・ファッションスーツ",
-		"tr_text": ""
+		"tr_text": "Type 1 Costumes"
 	},
 	{
 		"assign": "myshop_sex_costume_female",
 		"jp_text": "体型タイプ２限定",
-		"tr_text": ""
+		"tr_text": "Type 2 Costumes"
 	},
 	{
 		"assign": "myshop_sex_parts_none",
 		"jp_text": "体型タイプ指定なし",
-		"tr_text": ""
+		"tr_text": "None"
 	},
 	{
 		"assign": "myshop_sex_parts_male",
 		"jp_text": "体型タイプ１パーツ",
-		"tr_text": ""
+		"tr_text": "CAST Type 1"
 	},
 	{
 		"assign": "myshop_sex_parts_female",
 		"jp_text": "体型タイプ２パーツ",
-		"tr_text": ""
+		"tr_text": "CAST Type 2"
 	},
 	{
 		"assign": "myshop_sex_outer_none",
 		"jp_text": "体型タイプ指定なし",
-		"tr_text": ""
+		"tr_text": "None"
 	},
 	{
 		"assign": "myshop_sex_outer_male",
 		"jp_text": "体型タイプ１用アウターウェア",
-		"tr_text": ""
+		"tr_text": "Type 1 Outerwear"
 	},
 	{
 		"assign": "myshop_sex_outer_female",
 		"jp_text": "体型タイプ２用アウターウェア",
-		"tr_text": ""
+		"tr_text": "Type 2 Outerwear"
 	},
 	{
 		"assign": "myshop_sex_base_none",
 		"jp_text": "体型タイプ指定なし",
-		"tr_text": ""
+		"tr_text": "None"
 	},
 	{
 		"assign": "myshop_sex_base_male",
 		"jp_text": "体型タイプ１用ベースウェア",
-		"tr_text": ""
+		"tr_text": "Type 1 Basewear"
 	},
 	{
 		"assign": "myshop_sex_base_female",
 		"jp_text": "体型タイプ２用ベースウェア",
-		"tr_text": ""
+		"tr_text": "Type 2 Basewear"
 	},
 	{
 		"assign": "myshop_sex_inner_none",
 		"jp_text": "体型タイプ指定なし",
-		"tr_text": ""
+		"tr_text": "None"
 	},
 	{
 		"assign": "myshop_sex_inner_male",
 		"jp_text": "体型タイプ１用インナーウェア",
-		"tr_text": ""
+		"tr_text": "Type 1 Innerwear"
 	},
 	{
 		"assign": "myshop_sex_inner_female",
 		"jp_text": "体型タイプ２用インナーウェア",
-		"tr_text": ""
+		"tr_text": "Type 2 Innerwear"
 	},
 	{
 		"assign": "myshop_sub_item_parfait",
@@ -4677,42 +4677,42 @@
 	{
 		"assign": "myshop_sub_costume_male_costume",
 		"jp_text": "体型タイプ１用、共用コスチューム",
-		"tr_text": ""
+		"tr_text": "Type 1 Costumes"
 	},
 	{
 		"assign": "myshop_sub_costume_female_costume",
 		"jp_text": "体型タイプ２用コスチューム",
-		"tr_text": ""
+		"tr_text": "Type 2 Costumes"
 	},
 	{
 		"assign": "myshop_sub_costume_male_body",
 		"jp_text": "体型タイプ１用ボディパーツ",
-		"tr_text": ""
+		"tr_text": "Type 1 Body Parts"
 	},
 	{
 		"assign": "myshop_sub_costume_female_body",
 		"jp_text": "体型タイプ２用ボディパーツ",
-		"tr_text": ""
+		"tr_text": "Type 2 Body Parts"
 	},
 	{
 		"assign": "myshop_sub_costume_male_arm",
 		"jp_text": "体型タイプ１用アームパーツ",
-		"tr_text": ""
+		"tr_text": "Type 1 Arm Parts"
 	},
 	{
 		"assign": "myshop_sub_costume_female_arm",
 		"jp_text": "体型タイプ２用アームパーツ",
-		"tr_text": ""
+		"tr_text": "Type 2 Arm Parts"
 	},
 	{
 		"assign": "myshop_sub_costume_male_leg",
 		"jp_text": "体型タイプ１用レッグパーツ",
-		"tr_text": ""
+		"tr_text": "Type 1 Leg Parts"
 	},
 	{
 		"assign": "myshop_sub_costume_female_leg",
 		"jp_text": "体型タイプ２用レッグパーツ",
-		"tr_text": ""
+		"tr_text": "Type 2 Leg Parts"
 	},
 	{
 		"assign": "myshop_sub_item_accessory_ticket",
@@ -4862,7 +4862,7 @@
 	{
 		"assign": "myshop_withdraw",
 		"jp_text": "取り下げる",
-		"tr_text": ""
+		"tr_text": "Withdraw"
 	},
 	{
 		"assign": "myshop_display",
@@ -8007,12 +8007,12 @@
 	{
 		"assign": "male",
 		"jp_text": "体型タイプ１",
-		"tr_text": ""
+		"tr_text": "Type 1"
 	},
 	{
 		"assign": "female",
 		"jp_text": "体型タイプ２",
-		"tr_text": ""
+		"tr_text": "Type 2"
 	},
 	{
 		"assign": "hunter",
@@ -11192,7 +11192,7 @@
 	{
 		"assign": "race_gender",
 		"jp_text": "種族",
-		"tr_text": ""
+		"tr_text": "Race"
 	},
 	{
 		"assign": "class",
@@ -24312,7 +24312,7 @@
 	{
 		"assign": "SB_shop_PhaseStart_ButtonCaption",
 		"jp_text": "<color=#ffff00>【PHASE{0}】を開始</color>",
-		"tr_text": ""
+		"tr_text": "<color=#ffff00>Start [PHASE {0}]</color>"
 	},
 	{
 		"assign": "SB_shop_Use_ButtonCaption",
