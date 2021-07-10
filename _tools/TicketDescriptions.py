@@ -30,6 +30,7 @@ LANG, REDO_ALL = args.lang, args.redo
 layered_wear_types = {"In": ["innerwear", "이너웨어"],
                       "Ba": ["basewear", "베이스웨어"],
                       "Se": ["setwear", "setwear_KR"],
+                      "Fu": ["full setwear", "fullwear_KR"],
                       "Ou": ["outerwear", "outerwear_KR"]} # This one probably won't be used, but you never know.
 
 layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".", # Must include itype and iname variables.
@@ -41,7 +42,7 @@ layer_sex_locks = {"n": ["", ""],
                    "f": ["\nOnly usable on female characters.",
                          " 여성만 가능."]}
 
-nlayer_desc_formats = ["Unlocks a new {itype}\nfor use.\n<yellow>※Type: {typelock}<c>"]
+nlayer_desc_formats = ["Unlocks a new {itype} for use.\n<yellow>※Type: {typelock}<c>"]
 
 ntype_locks = {"a": ["All", ""],
                 "a1": ["Type 1"],
