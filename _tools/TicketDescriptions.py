@@ -84,7 +84,7 @@ def translate_layer_desc(item, file_name):
     
     return 0
 
-def translate_nlayer_desc
+def translate_nlayer_desc(item, file_name):
     if item["tr_text"] == "": # No name to put in description
         return -1
     
