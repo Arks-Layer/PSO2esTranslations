@@ -15,9 +15,12 @@ LANGS = {-1: "JP",
          0: "EN",
          1: "KR"}
 # Add more later.
-parser.add_argument("-l", type = int, dest = "lang", action = "store", choices = [0, 1], default = 0, metavar = "N", help = "Set a language to translate into. Available options are 0 (EN) and 1 (KR). Defaults to EN.")
+parser.add_argument("-l", type = int, dest = "lang", action = "store",
+                    choices = [0, 1], default = 0, metavar = "N",
+                    help = "Set a language to translate into. Available options are 0 (EN) and 1 (KR). Defaults to EN.")
 # Switch for retranslating all descriptions.
-parser.add_argument("-r", dest = "redo", action = "store_true", help = "Force all ticket descriptions to be processed, even if already translated.")
+parser.add_argument("-r", dest = "redo", action = "store_true",
+                    help = "Force all ticket descriptions to be processed, even if already translated.")
 
 args = parser.parse_args()
 LANG, REDO_ALL = args.lang, args.redo
@@ -32,7 +35,8 @@ layered_wear_types = {"In": ["innerwear", "이너웨어"],
 layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".", # Must include itype and iname variables.
                       "사용하면 새로운 {itype}인\n\"{iname}\"\n의 사용이 가능해진다."]
 
-layer_sex_locks = {"m": ["\nOnly usable on male characters.",
+layer_sex_locks = {"n": ["", ""],
+                   "m": ["\nOnly usable on male characters.",
                          " 남성만 가능."],
                    "f": ["\nOnly usable on female characters.",
                          " 여성만 가능."]}
