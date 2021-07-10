@@ -511,7 +511,7 @@
 	},
 	{
 		"assign": "acshop_dialog_b_34",
-		"jp_text": "OPが不足しているためクエストに出発できません。\n<%AC>を消費してOP回復薬を購入し、OPを回復しますか？\n※OP回復薬は、OPを6回復します。\n\n必要<%item_name>：<%consume_oprecovery_pass>個\n所持<%item_name>：<%current_oprecovery_pass>",
+		"jp_text": "<%AC>を消費してOP回復薬を購入し、OPを回復しますか？\n※OP回復薬は、OPを6回復します。\n\n必要<%item_name>：<%consume_oprecovery_pass>個\n所持<%item_name>：<%current_oprecovery_pass>",
 		"tr_text": ""
 	},
 	{
