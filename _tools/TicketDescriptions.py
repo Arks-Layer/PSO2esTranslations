@@ -41,6 +41,16 @@ layer_sex_locks = {"n": ["", ""],
                    "f": ["\nOnly usable on female characters.",
                          " 여성만 가능."]}
 
+nlayer_desc_formats = ["Unlocks a new {itype}\nfor use.\n<yellow>※Type: {typelock}<c>"]
+
+ntype_locks = {"a": ["All", ""],
+                "a1": ["Type 1"],
+                "a2": ["Type 2"],
+                "h1": ["Human Type 1"],
+                "h2": ["Human Type 2"],
+                "c1": ["Cast Type 1"],
+                "c2": ["Cast Type 2"]}
+
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음."]
 
@@ -70,6 +80,40 @@ def translate_layer_desc(item, file_name):
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
         iname = item["tr_text"],
         sexlock = layer_sex_locks[sex][LANG] if sex != "n" else "",
+        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+    
+    return 0
+
+def translate_nlayer_desc
+    if item["tr_text"] == "": # No name to put in description
+        return -1
+    
+    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+        return -2
+    
+    # Some items are locked to one race and/or type.
+    types = "a"
+    if "：ヒト" in item["jp_explain"]:
+        types = "h"
+    elif "：キャスト" in item["jp_explain"]:
+        types = "c"
+        
+    if "タイプ1<c>" in item["jp_explain"]:
+        types += "1"
+    elif "タイプ2<c>" in item["jp_explain"]:
+        types += "2"
+
+    # Some items hide your innerwear (these are mostly swimsuits).
+    hideinner = False
+    if "着用時はインナーが非表示になります。" in item["jp_explain"]:
+        hideinner = True
+
+    # Translate the description.
+    item["tr_explain"] = (nlayer_desc_formats[LANG] + "{hidepanties}").format(
+        itype = layered_wear_types[item["tr_text"].split("[", )[1][0:2]][LANG] if item["tr_text"].endswith("]")
+                # Exception for default layered wear since it doesn't have [In], [Ba] etc
+                else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
+        typelock = ntype_locks[types][LANG],
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
     
     return 0
