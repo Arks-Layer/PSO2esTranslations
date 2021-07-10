@@ -141,7 +141,9 @@ for name in layered_file_names:
     newtranslations = False
     
     for item in items:
-        if translate_layer_desc(item, name) == 0:
+        problem = translate_nlayer_desc(item, name) if "選択可能になる。" in item["jp_explain"] else translate_layer_desc(item, name)
+
+        if problem == 0:
             print("\tTranslated description for {0}".format(item["tr_text"]))
             newtranslations = True
 
