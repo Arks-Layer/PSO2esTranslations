@@ -14,7 +14,6 @@ file_names = ["Season1", "Season2", "Season3",
 character_names = {
     # Season 1
     "ザッカード": "Zackard", "レヴィ": "Levi",
-    "次席と呼ばれた女性": "His \"Lovely Assistant\"",
     #Season 2
     "泣いてる女性": "Crying Woman", "若い研究員": "Younger Researcher",
     "老年の研究員": "Older Researcher", "次席と呼ばれた女性": "His \"Lovely Assistant\"",
