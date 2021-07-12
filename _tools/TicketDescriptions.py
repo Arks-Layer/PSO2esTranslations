@@ -177,9 +177,9 @@ cosmetic_file_names = [
 cosmetic_types = {
     "Accessory": ["accessory", "악세서리"],
     "BodyPaint": ["body paint", "바디 페인트"],
-    "Eye": ["eyes", "눈동자"],
-    "EyeBrow": ["eyebrows", "눈썹"],
-    "EyeLash": ["eyelashes", "속눈썹"],
+    "Eye": ["eye pattern", "눈동자"],
+    "EyeBrow": ["eyebrow type", "눈썹"],
+    "EyeLash": ["eyelash type", "속눈썹"],
     "FacePaint": ["makeup", "메이크업"],
     "Hairstyle": ["hairstyle", "헤어스타일"],
     "Sticker": ["sticker", "스티커"]
