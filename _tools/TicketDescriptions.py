@@ -85,6 +85,21 @@ def translate_layer_desc(item, file_name):
     
     return 0
 
+def get_type_restrictions(item):
+    types = "a"
+
+    if "：ヒト" in item["jp_explain"]:
+        types = "h"
+    elif "：キャスト" in item["jp_explain"]:
+        types = "c"
+        
+    if "タイプ1<c>" in item["jp_explain"]:
+        types += "1"
+    elif "タイプ2<c>" in item["jp_explain"]:
+        types += "2"
+    
+    return types
+
 def translate_nlayer_desc(item, file_name):
     if item["tr_text"] == "": # No name to put in description
         return -1
