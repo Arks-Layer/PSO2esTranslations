@@ -241,6 +241,38 @@ def translate_cosmetic_desc(item, file_name):
     
     return 0
 
+def translate_ncosmetic_desc(item, file_name):
+    if item["tr_text"] == "": # No name to put in description
+        return -1
+    
+    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+        return -2
+    
+    # Some items are locked to one race and/or type.
+    types = "a"
+    if "：ヒト" in item["jp_explain"]:
+        types = "h"
+    elif "：キャスト" in item["jp_explain"]:
+        types = "c"
+        
+    if "タイプ1<c>" in item["jp_explain"]:
+        types += "1"
+    elif "タイプ2<c>" in item["jp_explain"]:
+        types += "2"
+
+    # Some items hide your innerwear (these are mostly swimsuits).
+    hideinner = False
+    if "着用時はインナーが非表示になります。" in item["jp_explain"]:
+        hideinner = True
+
+    # Translate the description.
+    item["tr_explain"] = (ndesc_formats[LANG]).format(
+        itype = item_type
+        typelock = "" if types == "a" else "\n<yellow>※Type: {t}<c>".format(ntype_locks[types][LANG]),
+        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+    
+    return 0
+
 for file_name in cosmetic_file_names:
     items_file_name = "Item_Stack_" + file_name + ".txt"
     item_type = cosmetic_types[file_name][LANG]
@@ -260,7 +292,9 @@ for file_name in cosmetic_file_names:
     newtranslations = False
     
     for item in items:
-        if translate_cosmetic_desc(item, file_name) == 0:
+        problem = translate_ncosmetic_desc(item, file_name) if "選択可能になる。" in item["jp_explain"] else translate_cosmetic_desc(item, file_name)
+
+        if problem == 0:
             print("\tTranslated description for {0}".format(item["tr_text"]))
             newtranslations = True
 
