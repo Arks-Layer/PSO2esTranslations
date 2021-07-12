@@ -264,7 +264,7 @@ def translate_ncosmetic_desc(item, file_name):
 
     # Translate the description.
     item["tr_explain"] = (ndesc_formats[LANG]).format(
-        itype = item_type
+        itype = item_type,
         typelock = "" if types == "a" else "\n<yellow>※Type: {t}<c>".format(ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
     
