@@ -108,16 +108,7 @@ def translate_nlayer_desc(item, file_name):
         return -2
     
     # Some items are locked to one race and/or type.
-    types = "a"
-    if "：ヒト" in item["jp_explain"]:
-        types = "h"
-    elif "：キャスト" in item["jp_explain"]:
-        types = "c"
-        
-    if "タイプ1<c>" in item["jp_explain"]:
-        types += "1"
-    elif "タイプ2<c>" in item["jp_explain"]:
-        types += "2"
+    types = get_type_restrictions(item)
 
     # Some items hide your innerwear (these are mostly swimsuits).
     hideinner = False
@@ -264,16 +255,7 @@ def translate_ncosmetic_desc(item, file_name):
         return -2
     
     # Some items are locked to one race and/or type.
-    types = "a"
-    if "：ヒト" in item["jp_explain"]:
-        types = "h"
-    elif "：キャスト" in item["jp_explain"]:
-        types = "c"
-        
-    if "タイプ1<c>" in item["jp_explain"]:
-        types += "1"
-    elif "タイプ2<c>" in item["jp_explain"]:
-        types += "2"
+    types = get_type_restrictions(item)
 
     # Some items hide your innerwear (these are mostly swimsuits).
     hideinner = False
