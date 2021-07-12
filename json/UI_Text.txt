@@ -2487,7 +2487,7 @@
 	{
 		"assign": "item_grind_guide_03",
 		"jp_text": "<color=#f0df60>これ以上強化をするためには潜在能力の解放が必要です。解放したい潜在能力を選択してください。</color>",
-		"tr_text": "<color=#f0df60>Before you can upgrade this weapon any further, you must unlock its potential. Please select a potential to unlock.</color>"
+		"tr_text": "<color=#f0df60>Before you can upgrade this weapon any further, you must unlock its Potential. Please select a Potential to unlock.</color>"
 	},
 	{
 		"assign": "labo_dialog_t_09",
@@ -2702,7 +2702,7 @@
 	{
 		"assign": "labo_dialog_b_22",
 		"jp_text": "特殊能力追加が完了しました。",
-		"tr_text": "Special ability addition complete."
+		"tr_text": "Special Ability addition complete."
 	},
 	{
 		"assign": "labo_guide_15",
@@ -3762,7 +3762,7 @@
 	{
 		"assign": "myshop_dialog_b_07",
 		"jp_text": "存在しないアイテム、\nもしくは特殊能力名を指定しています。\n\n<color=#ff0000>※アイテム名、特殊能力名は\n完全一致のみ検索にヒットします。</color>",
-		"tr_text": "You have specified an item or special ability\nthat does not exist.\n\n<color=#ff0000>※When searching for items or special abilities,\nonly exact matches will be found.</color>"
+		"tr_text": "You have specified an item or Special Ability\nthat does not exist.\n\n<color=#ff0000>※When searching for items or Special Abilities,\nonly exact matches will be found.</color>"
 	},
 	{
 		"assign": "myshop_dialog_t_08",
@@ -22337,7 +22337,7 @@
 	{
 		"assign": "weapon_potential_awake_message",
 		"jp_text": "選択した潜在能力を解放します。\nよろしいですか？",
-		"tr_text": "You will unlock the selected potential.\nContinue?"
+		"tr_text": "You will unlock the selected Potential.\nContinue?"
 	},
 	{
 		"assign": "weapon_potential_awake_confirm_dialog_title",
@@ -22347,7 +22347,7 @@
 	{
 		"assign": "weapon_potential_awake_confirm_dialog_message",
 		"jp_text": "潜在能力解放を開始します。\nよろしいですか？",
-		"tr_text": "Now unlocking potential.\nContinue?"
+		"tr_text": "Now unlocking Potential.\nContinue?"
 	},
 	{
 		"assign": "weapon_potential_awake_not_enough_item_dialog_title",
@@ -22357,7 +22357,7 @@
 	{
 		"assign": "weapon_potential_awake_not_enough_item_dialog_message",
 		"jp_text": "必要アイテムが不足しているため\n潜在能力解放できません。",
-		"tr_text": "Insufficient items to unlock potential."
+		"tr_text": "Insufficient items to unlock Potential."
 	},
 	{
 		"assign": "weapon_potential_awake_successed_dialog_title",
@@ -22397,7 +22397,7 @@
 	{
 		"assign": "gamma_weapon_grind_dialog_max_message",
 		"jp_text": "アイテム強化によって、強化値の+10 +20 +30の\nいずれかの上限に達しました。\n\nさらに強化するために、次回アイテム強化時は\n<color=yellow>自動的に「潜在能力解放」に進みます。</color>\n\n※潜在能力解放には、フォトンドロップや\nフォトンスフィアなどのアイテムが必要です。",
-		"tr_text": "Grinding the item has raised\nit to +10, +20 or +30.\n\nIn order to strengthen it further, you must\n<color=yellow>unlock its potential</color>, which you will do next\ntime you attempt to grind the item.\n\n※To unlock potentials, you need special\nitems such as Photon Drops."
+		"tr_text": "Grinding the item has raised\nit to +10, +20 or +30.\n\nIn order to strengthen it further, you must\n<color=yellow>unlock its Potential</color>, which you will do next\ntime you attempt to grind the item.\n\n※To unlock Potentials, you need special\nitems such as Photon Drops."
 	},
 	{
 		"assign": "gamma_weapon_grind_dialog_caution",
