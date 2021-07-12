@@ -7655,14 +7655,14 @@
 		"jp_explainShort": "炎属性時小増＋銃剣時小増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の闇属性チップの枚数に応じて\n　　 攻撃威力を超絶に増加する。\n② 自身を「パニック」状態にならなくする。\n③ 装備中の闇属性チップの枚数に応じて\n　　 ＣＰとＣＰの最大値を上昇する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "①  Boosts damage by ??% x the number of Dark\n     chips equipped.\n     <color=yellow>[E-Frame]</color>\n②  Makes you immune to [Panic].\n③  Increases your CP and your maximum CP by ?? x\n     the number of Dark chips equipped.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by 170% + 10% x the number of\n     Dark chips equipped.\n<color=yellow>SP: </color>Boosts damage by 180% + 10% x the number of\n     Dark chips equipped.\n     <color=yellow>[E-Frame]</color>\n②  Makes you immune to [Panic].\n③  Increases your CP and your maximum CP by ?? x\n     the number of Dark chips equipped.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32490",
 		"jp_explainShort": "炎属性時増＋銃剣時増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の闇属性チップの枚数に応じて\n　　 攻撃威力を超絶に増加する。\n② 自身を「パニック」状態にならなくする。\n③ 装備中の闇属性チップの枚数に応じて\n　　 ＣＰとＣＰの最大値を上昇する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "①  Boosts damage by ??% x the number of Dark\n     chips equipped.\n     <color=yellow>[E-Frame]</color>\n②  Makes you immune to [Panic].\n③  Increases your CP and your maximum CP by ?? x\n     the number of Dark chips equipped.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
+		"tr_explainLong": "①  Boosts damage by 190% + 10% x the number of\n     Dark chips equipped.\n<color=yellow>SP: </color>Boosts damage by 200% + 10% x the number of\n     Dark chips equipped.\n     <color=yellow>[E-Frame]</color>\n②  Makes you immune to [Panic].\n③  Increases your CP and your maximum CP by ?? x\n     the number of Dark chips equipped.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32491",
@@ -7697,28 +7697,28 @@
 		"jp_explainShort": "風属性時小増＋銃剣時小増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃ダメージを劇的に増加する。\n② 自身を状態異常にならなくする。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts attack damage by 95%.\n<color=yellow>SP: </color>Boosts attack damage by 105%.\n     <color=yellow>[W-Frame]</color>\n②  Grants immunity to status effects.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32496",
 		"jp_explainShort": "風属性時増＋銃剣時増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃ダメージを劇的に増加する。\n② 自身を状態異常にならなくする。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts attack damage by 115%.\n<color=yellow>SP: </color>Boosts attack damage by 125%.\n     <color=yellow>[W-Frame]</color>②  Grants immunity to status effects.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32497",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の風属性チップの枚数に応じて\n　　 攻撃威力を超絶に増加する。\n② 自身を「ショック」状態にならなくする。\n③ 装備中の風属性チップの枚数に応じて\n　　 ＣＰとＣＰの最大値を上昇する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 170% + 10% x the number of\n     Wind chips equipped.\n<color=yellow>SP: </color>Boosts damage by 180% + 10% x the number of\n     Wind chips equipped.\n     <color=yellow>[E-Frame]</color>\n②  Makes you immune to [Shock].\n③  Increases your CP and your maximum CP by ?? x\n     the number of Wind chips equipped.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32498",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の風属性チップの枚数に応じて\n　　 攻撃威力を超絶に増加する。\n② 自身を「ショック」状態にならなくする。\n③ 装備中の風属性チップの枚数に応じて\n　　 ＣＰとＣＰの最大値を上昇する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 190% + 10% x the number of\n     Wind chips equipped.\n<color=yellow>SP: </color>Boosts damage by 200% + 10% x the number of\n     Wind chips equipped.\n     <color=yellow>[E-Frame]</color>\n②  Makes you immune to [Shock].\n③  Increases your CP and your maximum CP by ?? x\n     the number of Wind chips equipped.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32499",
