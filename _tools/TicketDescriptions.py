@@ -42,7 +42,7 @@ layer_sex_locks = {"n": ["", ""],
                    "f": ["\nOnly usable on female characters.",
                          " 여성만 가능."]}
 
-nlayer_desc_formats = ["Unlocks a new {itype} for use.\n<yellow>※Type: {typelock}<c>"]
+ndesc_formats = ["Unlocks a new {itype} for use.\n<yellow>※Type: {typelock}<c>"]
 
 ntype_locks = {"a": ["All", ""],
                 "a1": ["Type 1"],
@@ -110,7 +110,7 @@ def translate_nlayer_desc(item, file_name):
         hideinner = True
 
     # Translate the description.
-    item["tr_explain"] = (nlayer_desc_formats[LANG] + "{hidepanties}").format(
+    item["tr_explain"] = (ndesc_formats[LANG] + "{hidepanties}").format(
         itype = layered_wear_types[item["tr_text"].split("[", )[1][0:2]][LANG] if item["tr_text"].endswith("]")
                 # Exception for default layered wear since it doesn't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
