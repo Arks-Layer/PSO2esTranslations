@@ -9,7 +9,7 @@
 	{
 		"assign": "5",
 		"jp_text": "キリングボーナス",
-		"tr_text": "Killing Bonus",
+		"tr_text": "킬링 보너스",
 		"jp_explain": "キリングボーナス／リング\n一定範囲内でエネミーが死亡すると\nＰＰが回復する。",
 		"tr_explain": "Killing Bonus/Ring\nRecovers PP when enemies\ndie within close range."
 	},
@@ -303,7 +303,7 @@
 	{
 		"assign": "49",
 		"jp_text": "ヒールシェア",
-		"tr_text": "Heal Share",
+		"tr_text": "힐 셰어",
 		"jp_explain": "ヒールシェア／リング\nHPを回復した際、回復した値の一定割合分\n周囲のキャラクターを回復する。",
 		"tr_explain": "Heal Share/Ring Heals surrounding\ncharacters by a certain amount upon\nrecovering HP."
 	},
@@ -373,14 +373,14 @@
 	{
 		"assign": "59",
 		"jp_text": "ヒーリングガード",
-		"tr_text": "Healing Guard",
+		"tr_text": "힐링 가드",
 		"jp_explain": "ヒーリングガード／リング\nジャストガード成功時\n自分と周囲にいるキャラクターのＨＰを回復する。",
 		"tr_explain": "Healing Guard/Ring Upon performing\na Just Guard, restore HP for yourself\nand surrounding characters."
 	},
 	{
 		"assign": "60",
 		"jp_text": "JAボーナス",
-		"tr_text": "JA Bonus",
+		"tr_text": "JA 보너스",
 		"jp_explain": "JAボーナス\nテクニック以外のジャストアタックに\nダメージボーナスを得る。",
 		"tr_explain": "JA Bonus Increases the damage of\nJust Attacks, except for Techniques."
 	},
@@ -548,7 +548,7 @@
 	{
 		"assign": "80",
 		"jp_text": "ステップJAコンボ",
-		"tr_text": "Step JA Combo",
+		"tr_text": "스탭 JA 콤보",
 		"jp_explain": "ステップジャストアタックコンボ\nステップ時にＪＡタイミングが発生するようになる。",
 		"tr_explain": "Step Just Attack Combo\nCreates a JA timing window\nwhen executing Step."
 	},
