@@ -157,7 +157,7 @@
 	{
 		"assign": "acshop_dialog_b_00",
 		"jp_text": "ラッピーメダルか<%AC>を消費して\nチップパックを拡張しますか？\n\nパックサイズ（<%current_pack_size>）→<color=red>（<%after_pack_size>）</color>\n※チップパックは<%max_pack_size>まで拡張できます。\n\n必要ラッピーメダル：<%consume_rappy_coin>枚\n所持ラッピーメダル：<%current_rappy_coin>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
-		"tr_text": "This will extend\nyour Chip Storage.\n\nChip Storage（<%current_pack_size>）→<color=red>（<%after_pack_size>）</color>\n※Can extend to a Maximum of <%max_pack_size>.\n\nRappy medals needed: <%consume_rappy_coin>\nRappy medals owned: <%current_rappy_coin>\n\nAC needed: <%consume_AC>\nAC owned: <%current_AC>"
+		"tr_text": "This will expand\nyour Chip Storage.\n\nChip Storage (<%current_pack_size>) → <color=red>(<%after_pack_size>)</color>\n※Can expand to a Maximum of <%max_pack_size>.\n\nRappy medals needed: <%consume_rappy_coin>\nRappy medals owned: <%current_rappy_coin>\n\nAC needed: <%consume_AC>\nAC owned: <%current_AC>"
 	},
 	{
 		"assign": "acshop_dialog_t_01",
@@ -187,7 +187,7 @@
 	{
 		"assign": "acshop_dialog_b_03",
 		"jp_text": "チップパックを拡張しました。",
-		"tr_text": "Chip Storage Extended."
+		"tr_text": "Chip Storage Expanded."
 	},
 	{
 		"assign": "acshop_dialog_t_04",
@@ -4757,17 +4757,17 @@
 	{
 		"assign": "myshop_sub_item_tooth_ticket",
 		"jp_text": "歯・口チケット",
-		"tr_text": ""
+		"tr_text": "Teeth & Mouth"
 	},
 	{
 		"assign": "myshop_sub_item_ear_ticket",
 		"jp_text": "耳チケット",
-		"tr_text": ""
+		"tr_text": "Ears"
 	},
 	{
 		"assign": "myshop_sub_item_horn_ticket",
 		"jp_text": "角チケット",
-		"tr_text": ""
+		"tr_text": "Horns"
 	},
 	{
 		"assign": "myshop_sub_item_make_ticket",
@@ -7242,7 +7242,7 @@
 	{
 		"assign": "questresult_result_limit_s_a",
 		"jp_text": "あと<%hh>時間<%mm>分以内に討伐で<%rank>ランク",
-		"tr_text": "<%rank> Rank / Time: <%hh>:<%mm>"
+		"tr_text": "<%rank> Rank/Time: <%hh>:<%mm>"
 	},
 	{
 		"assign": "questresult_result_limit_b",
@@ -10002,12 +10002,12 @@
 	{
 		"assign": "menu_charainfo_drive",
 		"jp_text": "<%drive> / <%max_drive> あと <%time>",
-		"tr_text": "<%drive> / <%max_drive> Regen: <%time>"
+		"tr_text": "<%drive>/<%max_drive> Regen: <%time>"
 	},
 	{
 		"assign": "menu_charainfo_drive_over",
 		"jp_text": "<color=#ffa500{0}><%drive></color> / <%max_drive> あと <%time>",
-		"tr_text": "<color=#ffa500{0}><%drive></color> / <%max_drive> Regen: <%time>"
+		"tr_text": "<color=#ffa500{0}><%drive></color>/<%max_drive> Regen: <%time>"
 	},
 	{
 		"assign": "menu_charainfo_title",
@@ -10512,7 +10512,7 @@
 	{
 		"assign": "caption_grind",
 		"jp_text": "強化/売却",
-		"tr_text": "Strengthen / Sell"
+		"tr_text": "Strengthen/Sell"
 	},
 	{
 		"assign": "caption_class",
@@ -10757,7 +10757,7 @@
 	{
 		"assign": "chip_over_message",
 		"jp_text": "チップパックの所持枠をオーバーしています。\n\nチップパックを拡張するか\n強化／売却をしてチップを整理してください。",
-		"tr_text": "You are now over the chip limit.\nYou can purchase a chip extension pack.\nPlease lower your chip count by grinding/selling\nif you do not wish to purchase an extension."
+		"tr_text": "You are now over the chip limit.\nYou can purchase a Chip Pack expansion.\nPlease lower your chip count by grinding/selling\nif you do not wish to purchase an expansion."
 	},
 	{
 		"assign": "item_over_message",
@@ -11212,7 +11212,7 @@
 	{
 		"assign": "character_player_name",
 		"jp_text": "キャラクター名 ／ プレイヤーIDネーム",
-		"tr_text": "Character / PlayerID"
+		"tr_text": "Character/PlayerID"
 	},
 	{
 		"assign": "friend_login_info",
@@ -16277,7 +16277,7 @@
 	{
 		"assign": "menu_invite_reward_list_condition",
 		"jp_text": "入手条件： 招待を{1}人成立させる [{0} / {1}]",
-		"tr_text": "Condition: Invite {1} people [{0} / {1}]"
+		"tr_text": "Condition: Invite {1} people [{0}/{1}]"
 	},
 	{
 		"assign": "menu_invite_reward_list_receive",
@@ -18382,7 +18382,7 @@
 	{
 		"assign": "lobby_help_charastatus",
 		"jp_text": "キャラクター / ステータス",
-		"tr_text": "Character / Status"
+		"tr_text": "Character/Status"
 	},
 	{
 		"assign": "lobby_help_equip",
@@ -18397,7 +18397,7 @@
 	{
 		"assign": "lobby_help_grindsale",
 		"jp_text": "強化 / 売却",
-		"tr_text": "Strengthen / Sell"
+		"tr_text": "Strengthen/Sell"
 	},
 	{
 		"assign": "lobby_help_quest",
@@ -21392,12 +21392,12 @@
 	{
 		"assign": "blockresult_all_gold_clear_time_limit",
 		"jp_text": "■ゴールドクリアタイム／<%time>内クリア",
-		"tr_text": "■Gold Clear / Clear within <%time>"
+		"tr_text": "■Gold Clear/Clear within <%time>"
 	},
 	{
 		"assign": "blockresult_all_silver_clear_time_limit",
 		"jp_text": "■シルバークリアタイム／<%time>内クリア",
-		"tr_text": "■Silver Clear / Clear within <%time>"
+		"tr_text": "■Silver Clear/Clear within <%time>"
 	},
 	{
 		"assign": "blockresult_all_gold_clear_time_reward_title",
@@ -22782,7 +22782,7 @@
 	{
 		"assign": "DPSEvent_Achievement_Text_0-2-23",
 		"jp_text": "自己ベスト{1:#,0}達成 \n[{0:#,0} / {1:#,0}]",
-		"tr_text": " Set a Personal Best of {1:#,0}\n[{0:#,0} / {1:#,0}]"
+		"tr_text": " Set a Personal Best of {1:#,0}\n[{0:#,0}/{1:#,0}]"
 	},
 	{
 		"assign": "window_help_LM34",
@@ -23417,17 +23417,17 @@
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_title_weapon",
 		"jp_text": "保護設定 / 武器",
-		"tr_text": "Exclusions / Weapons"
+		"tr_text": "Exclusions/Weapons"
 	},
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_title_unit",
 		"jp_text": "保護設定 / ユニット",
-		"tr_text": "Exclusions / Units"
+		"tr_text": "Exclusions/Units"
 	},
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_title_chip",
 		"jp_text": "保護設定 / チップ",
-		"tr_text": "Exclusions / Chips"
+		"tr_text": "Exclusions/Chips"
 	},
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_disc_off",
@@ -23977,7 +23977,7 @@
 	{
 		"assign": "raid_scratch_page_view",
 		"jp_text": "{0}<color=#688CA7> / </color>{1}",
-		"tr_text": "{0}<color=#688CA7> / </color>{1}"
+		"tr_text": "{0}<color=#688CA7>/</color>{1}"
 	},
 	{
 		"assign": "raid_scratch_page_previous",
@@ -24322,7 +24322,7 @@
 	{
 		"assign": "SB_status_dialog_t",
 		"jp_text": "使用効果・ステータス",
-		"tr_text": "Effect / Status"
+		"tr_text": "Effect/Status"
 	},
 	{
 		"assign": "SB_status_LTBuff_TitleCaption",
