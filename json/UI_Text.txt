@@ -157,7 +157,7 @@
 	{
 		"assign": "acshop_dialog_b_00",
 		"jp_text": "ラッピーメダルか<%AC>を消費して\nチップパックを拡張しますか？\n\nパックサイズ（<%current_pack_size>）→<color=red>（<%after_pack_size>）</color>\n※チップパックは<%max_pack_size>まで拡張できます。\n\n必要ラッピーメダル：<%consume_rappy_coin>枚\n所持ラッピーメダル：<%current_rappy_coin>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
-		"tr_text": "This will extend\nyour Chip Storage.\n\nChip Storage（<%current_pack_size>）→<color=red>（<%after_pack_size>）</color>\n※Can extend to a Maximum of <%max_pack_size>.\n\nRappy medals needed: <%consume_rappy_coin>\nRappy medals owned: <%current_rappy_coin>\n\nAC needed: <%consume_AC>\nAC owned: <%current_AC>"
+		"tr_text": "This will expand\nyour Chip Storage.\n\nChip Storage (<%current_pack_size>) → <color=red>(<%after_pack_size>)</color>\n※Can expand to a Maximum of <%max_pack_size>.\n\nRappy medals needed: <%consume_rappy_coin>\nRappy medals owned: <%current_rappy_coin>\n\nAC needed: <%consume_AC>\nAC owned: <%current_AC>"
 	},
 	{
 		"assign": "acshop_dialog_t_01",
@@ -187,7 +187,7 @@
 	{
 		"assign": "acshop_dialog_b_03",
 		"jp_text": "チップパックを拡張しました。",
-		"tr_text": "Chip Storage Extended."
+		"tr_text": "Chip Storage Expanded."
 	},
 	{
 		"assign": "acshop_dialog_t_04",
@@ -10757,7 +10757,7 @@
 	{
 		"assign": "chip_over_message",
 		"jp_text": "チップパックの所持枠をオーバーしています。\n\nチップパックを拡張するか\n強化／売却をしてチップを整理してください。",
-		"tr_text": "You are now over the chip limit.\nYou can purchase a chip extension pack.\nPlease lower your chip count by grinding/selling\nif you do not wish to purchase an extension."
+		"tr_text": "You are now over the chip limit.\nYou can purchase a Chip Pack expansion.\nPlease lower your chip count by grinding/selling\nif you do not wish to purchase an expansion."
 	},
 	{
 		"assign": "item_over_message",
