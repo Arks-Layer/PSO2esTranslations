@@ -106,13 +106,16 @@ character_names = {
     "ファニーブーケライフル＆アネット": "Funny Bouquet Rifle & Annette",
     "アフタル＆ジェネ": "Akhtar & Gene",
     "たまたま近くにいた男性アークス": "Passerby ARKS", "もっとたまたま近くにいた女性アークス": "Passing Female ARKS",
-    "モア&ウェポノイドたち": "More & Weaponoids",
+    "モア&ウェポノイドたち": "More & Weaponoids", "人間の声": "Human Voice",
+    "招待客": "Guests", "大トロ号": "Sir Fishy",
+    "中トロ号＆大トロ号": "Mr. Fishy & Sir Fishy", "護衛のアークス": "ARKS Escort",
     #Special
     "水着三人娘": "Annette, Gene and Bluesy",
     "ジェネ＆アネット＆シューティングドライブ": "Gene, Annette and Shooting Drive",
     "ヴェルドバズ": "Vert Buzz", "アフタル＆ジェネ＆アネット": "Akhtar, Gene & Annette",
     "サンタ包囲網作戦メンバー": "Operation: Catch Santa Members", "サンタクロース": "Santa Claus",
     "ジェネ＆仲間たち": "Gene & Friends", "セラフィと最高の友人たち": "Seraphy and her Friends",
+    "子供": "Child", "レッツゴーシャイニー": "Let's Go Shiny",
     #Generics
     "テスト": "", "？？？": "???",
     "アナウンス": "Announcement", "ナレーション": "Narration",
