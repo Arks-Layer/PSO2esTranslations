@@ -5421,7 +5421,7 @@
 	},
 	{
 		"assign": "linkage_exp_dialog_b_00",
-		"jp_text": "いずれかの理由で連動経験値が獲得できません。\n『PSO2』にログインしてください。\n\n・『PSO2』の全てクラスで連動経験値の\n　　蓄積上限に達している。\n・『PSO2』を遊んだことがない。\n※経験値の連動は『PSO2』のみ行われます。\n　　『NGS』の経験値は連動しません。",
+		"jp_text": "いずれかの理由で連動経験値が獲得できません。\n『PSO2』にログインしてください。\n\n・『PSO2』の全てのクラスで連動経験値の\n　　蓄積上限に達している。\n・『PSO2』を遊んだことがない。\n※経験値の連動は『PSO2』のみ行われます。\n　　『NGS』の経験値は連動しません。",
 		"tr_text": ""
 	},
 	{
@@ -6365,6 +6365,11 @@
 		"tr_text": "Superior Type"
 	},
 	{
+		"assign": "reward_enemy_type_8",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
 		"assign": "reward_enemy_lv_high",
 		"jp_text": "高",
 		"tr_text": "High"
@@ -6423,6 +6428,11 @@
 		"assign": "reward_enemy_class_5",
 		"jp_text": "覇級",
 		"tr_text": "Champion"
+	},
+	{
+		"assign": "reward_enemy_class_6",
+		"jp_text": "-",
+		"tr_text": ""
 	},
 	{
 		"assign": "reward_trigger",
@@ -9161,8 +9171,8 @@
 	},
 	{
 		"assign": "recycle_rare_enemy_chip",
-		"jp_text": "対象のレアエネミーチップ",
-		"tr_text": "Rare Enemy Chip(s)"
+		"jp_text": "レアエネミーチップ",
+		"tr_text": ""
 	},
 	{
 		"assign": "recycle_raid_chip_category",
@@ -9186,18 +9196,18 @@
 	},
 	{
 		"assign": "recycle_item_trade_info",
-		"jp_text": "交換に必要：{0} {1}個",
-		"tr_text": "Needs x{1} {0}."
+		"jp_text": "必要：{0} {1}個",
+		"tr_text": ""
 	},
 	{
 		"assign": "recycle_item_trade_info_sheet",
-		"jp_text": "交換に必要：{0} {1}枚",
-		"tr_text": "Needs {1} {0} to exchange."
+		"jp_text": "必要：{0} {1}枚",
+		"tr_text": ""
 	},
 	{
 		"assign": "recycle_item_trade_info_pt",
-		"jp_text": "交換に必要：{0} {1}pt",
-		"tr_text": "Needs {1} {0} pts"
+		"jp_text": "必要：{0} {1}pt",
+		"tr_text": ""
 	},
 	{
 		"assign": "recycle_shop_trade_target",
@@ -12450,6 +12460,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "tu_0006_w10_1_b",
+		"jp_text": "<color=#ff0000>【注意】連動すると『NGS』の次の機能を連動・使用することができます。\n「PSO2es倉庫」「ACスクラッチ」「所持AC」「プレミアムセット」\n※そのほかの機能は連動・使用できません。</color>",
+		"tr_text": ""
+	},
+	{
 		"assign": "tu_0006_n44_b",
 		"jp_text": "iACはiOS版『PSO2es』の専用の通貨です。\nそのため、現在『PSO2es』で所持しているiACは\n『PSO2』とは連動しません。ご了承ください。",
 		"tr_text": "iAC is the dedicated currency\nof the iOS version of PSO2es.\nDo note that it is <color=red>not compatible</color> with \"PSO2\"."
@@ -12457,6 +12472,11 @@
 	{
 		"assign": "tu_0006_w11_b",
 		"jp_text": "『PSO2』とのキャラクター連動処理を行いました。\n以降、『PSO2es』において、『PSO2』や『PSO2 クラウド』との\nさまざまな連動機能が利用できるようになります。",
+		"tr_text": ""
+	},
+	{
+		"assign": "tu_0006_w11_1_b",
+		"jp_text": "<color=#ff0000>【注意】連動すると『NGS』の次の機能を連動・使用することができます。\n「PSO2es倉庫」「ACスクラッチ」「所持AC」「プレミアムセット」\n※そのほかの機能は連動・使用できません。</color>",
 		"tr_text": ""
 	},
 	{
@@ -16477,7 +16497,7 @@
 	{
 		"assign": "tutorial_battle_ntu_02_10",
 		"jp_text": "-",
-		"tr_text": ""
+		"tr_text": "-"
 	},
 	{
 		"assign": "tutorial_battle_ntu_03_00",
@@ -17475,6 +17495,11 @@
 		"tr_text": "Bond Gauge"
 	},
 	{
+		"assign": "SideSt_Browse_Story_Effect",
+		"jp_text": "演出再生",
+		"tr_text": ""
+	},
+	{
 		"assign": "SideSt_Browse_Story",
 		"jp_text": "ストーリーを振り返る",
 		"tr_text": "Browse Side Story"
@@ -17543,6 +17568,11 @@
 		"assign": "SideSt_Weaponoid_Sort_Progress",
 		"jp_text": "進行度",
 		"tr_text": "Progress"
+	},
+	{
+		"assign": "sidestory_effect_play_title",
+		"jp_text": "演出再生",
+		"tr_text": ""
 	},
 	{
 		"assign": "ItemDetail_Parameter_GammaExpCaption",
@@ -17618,6 +17648,26 @@
 		"assign": "SideSt_Dialog_b_02_2",
 		"jp_text": "・『{0}』の\n　　第{1}話クリア（絆Lv.{2}）",
 		"tr_text": "・「{0}」\n　　Story Ch.{1} Clear （Bond Lv.{2}）"
+	},
+	{
+		"assign": "SideSt_Effect_New_Story",
+		"jp_text": "NEW STORY",
+		"tr_text": ""
+	},
+	{
+		"assign": "SideSt_Effect_New_Comer",
+		"jp_text": "NEW COMER",
+		"tr_text": ""
+	},
+	{
+		"assign": "SideSt_Effect_BondsMax",
+		"jp_text": "絆MAX",
+		"tr_text": ""
+	},
+	{
+		"assign": "SideSt_Effect_Reinforce_BondsMax",
+		"jp_text": "強化＆絆MAX",
+		"tr_text": ""
 	},
 	{
 		"assign": "pet_rehatch_body",
@@ -17906,18 +17956,18 @@
 	},
 	{
 		"assign": "sidestory_newstory_skip_title",
-		"jp_text": "NEW STORY演出スキップ",
-		"tr_text": "Skip Introduction Animation"
+		"jp_text": "演出スキップ",
+		"tr_text": ""
 	},
 	{
 		"assign": "sidestory_newstory_skip_body",
-		"jp_text": "新規外伝のNEW STORY演出を\nすべてスキップしますか?\n\n<color=red>※スキップすると二度と見られなくなります。</color>",
-		"tr_text": "Would you like to skip the\nintroduction animations?\n<color=red>※Once skipped, you can't view\nthem again.</color>"
+		"jp_text": "再生される演出が、あと<%amount>件あります。\nすべてスキップしますか？\n\n<color=red>※演出は「Data」の「演出再生」から\n　　再度見ることができます。</color>",
+		"tr_text": ""
 	},
 	{
 		"assign": "sidestory_voice_play_locked_info0",
-		"jp_text": "対象のキャラクターのチップを入手して\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
-		"tr_text": "This feature is locked until you\nhave reached Bond Lv.<%parameter> with this chip.\n\n"
+		"jp_text": "対象のチップを入手して\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
+		"tr_text": ""
 	},
 	{
 		"assign": "sidestory_voice_play_locked_info1",
@@ -17925,9 +17975,34 @@
 		"tr_text": "This voice\nwill be unlocked at Bond Lv.<%parameter>.\n\n"
 	},
 	{
+		"assign": "sidestory_voice_play_locked_info2",
+		"jp_text": "このボイスは\nレベルをLv.<%lvparameter>にした上で\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "sidestory_voice_play_effect_locked_info0",
+		"jp_text": "対象のチップを入手して\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "sidestory_voice_play_effect_locked_info1",
+		"jp_text": "対象のチップを入手して\nチップレベルを解放後MAX以上にして\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "sidestory_voice_play_effect_locked_info2",
+		"jp_text": "この演出は\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "sidestory_voice_play_effect_locked_info3",
+		"jp_text": "この演出は\nチップレベルを解放後MAX以上にして\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
+		"tr_text": ""
+	},
+	{
 		"assign": "sidestory_story_replay_locked_info1",
-		"jp_text": "対象のキャラクターのチップを入手して\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
-		"tr_text": "This feature is locked until you\nhave reached Bond Lv.<%parameter> with this chip.\n\n"
+		"jp_text": "対象のチップを入手して\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
+		"tr_text": ""
 	},
 	{
 		"assign": "sidestory_story_replay_locked_info2",
@@ -18342,6 +18417,11 @@
 	{
 		"assign": "lookback_series6_chapter_1",
 		"jp_text": "第１章　バースデイ オブ ドリーム",
+		"tr_text": ""
+	},
+	{
+		"assign": "lookback_series6_chapter_2",
+		"jp_text": "第２章　メイキング オブ ドリーム",
 		"tr_text": ""
 	},
 	{
@@ -20922,7 +21002,7 @@
 	{
 		"assign": "chip_simple_details_lv_hyphen",
 		"jp_text": "-",
-		"tr_text": "-"
+		"tr_text": ""
 	},
 	{
 		"assign": "chip_simple_details_lv_none",
@@ -24600,28 +24680,38 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "auto_rematch_result_finish_dialog_close_button",
+		"jp_text": "閉じる",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_finish_dialog_message",
+		"jp_text": "以下の条件を満たしたため、自動再戦を終了しました。",
+		"tr_text": ""
+	},
+	{
 		"assign": "auto_rematch_result_finish_dialog_short_drive_message",
-		"jp_text": "行動力が足りないため\n自動再戦を終了しました。",
+		"jp_text": "・行動力不足",
 		"tr_text": ""
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_short_ex_drive_message",
-		"jp_text": "OPが足りないため\n自動再戦を終了しました。",
+		"jp_text": "・OP不足",
 		"tr_text": ""
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_acceptbox_message",
-		"jp_text": "受け取りボックスがいっぱいのため\n自動再戦を終了しました。",
+		"jp_text": "・受け取りボックス上限",
 		"tr_text": ""
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_rematch_count_message",
-		"jp_text": "最大再戦回数（{0}回）に達したため\n自動再戦を終了しました。",
+		"jp_text": "・最大再戦回数（{0}回）到達",
 		"tr_text": ""
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_friendship_message",
-		"jp_text": "{0}枚のチップが\n外伝解放・絆ゲージMAXになったため\n自動再戦を終了しました。",
+		"jp_text": "・{0}枚のチップが\r外伝解放・絆ゲージMAX",
 		"tr_text": ""
 	},
 	{
@@ -24752,6 +24842,31 @@
 	{
 		"assign": "ranking_title_not_setting",
 		"jp_text": "未設定",
+		"tr_text": ""
+	},
+	{
+		"assign": "ranking_sort",
+		"jp_text": "並び順",
+		"tr_text": ""
+	},
+	{
+		"assign": "ranking_sort_new",
+		"jp_text": "最新優先",
+		"tr_text": ""
+	},
+	{
+		"assign": "ranking_sort_best",
+		"jp_text": "高順位優先",
+		"tr_text": ""
+	},
+	{
+		"assign": "ranking_setting_up_title",
+		"jp_text": "設定中のランキング称号",
+		"tr_text": ""
+	},
+	{
+		"assign": "ranking_not_setting",
+		"jp_text": "ランキング称号を獲得すると設定できます。",
 		"tr_text": ""
 	}
 ]

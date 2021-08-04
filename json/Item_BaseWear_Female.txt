@@ -33253,14 +33253,14 @@
 		"assign": "335010009",
 		"jp_text": "オペラーテユニファ[Ba]",
 		"tr_text": "",
-		"jp_explain": "使用すると、新しいベースウェアの\nオペラーテユニファ[Ba]が選択可能。",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
 		"tr_explain": ""
 	},
 	{
 		"assign": "335010010",
 		"jp_text": "クラークユニファ[Ba]",
 		"tr_text": "",
-		"jp_explain": "使用すると、新しいベースウェアの\nクラークユニファ[Ba]が選択可能。",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
 		"tr_explain": ""
 	},
 	{
@@ -34006,6 +34006,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "335010016",
+		"jp_text": "ベスティーレイフット[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
 		"assign": "335010017",
 		"jp_text": "ミーネスロディア[Se]",
 		"tr_text": "Minas Rodia [Se]",
@@ -34277,5 +34284,334 @@
 		"tr_text": "Maxma Unifen/4 [Se]",
 		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
 		"tr_explain": "Unlocks a new setwear for use.\n<yellow>※Type: Human Type 2<c>"
+	},
+	{
+		"assign": "335010062",
+		"jp_text": "ヴァポーレシューノ[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010063",
+		"jp_text": "ヴァポーレシューノ/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010064",
+		"jp_text": "ヴァポーレシューノ/3[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010065",
+		"jp_text": "ヴァポーレシューノ/4[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010066",
+		"jp_text": "ディリープルーズ[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010067",
+		"jp_text": "ディリープルーズ/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010068",
+		"jp_text": "ダズールコード[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010069",
+		"jp_text": "ダズールコード/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010070",
+		"jp_text": "ダズールコード/3[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010071",
+		"jp_text": "ダズールコード/4[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010072",
+		"jp_text": "カナギユエト[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010073",
+		"jp_text": "カナギユエト/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010074",
+		"jp_text": "カナギユエト/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010075",
+		"jp_text": "カナギユエト/B2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010076",
+		"jp_text": "ヘインスティリア[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010077",
+		"jp_text": "ヘインスティリア/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010078",
+		"jp_text": "ヘインスティリア/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010079",
+		"jp_text": "ヘインスティリア/B2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010080",
+		"jp_text": "オウマテンザン[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010081",
+		"jp_text": "オウマテンザン/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010082",
+		"jp_text": "オウマテンザン/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010083",
+		"jp_text": "オウマテンザン/B2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010086",
+		"jp_text": "ブレヴィーフィッテ[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010087",
+		"jp_text": "ブレヴィーフィッテ/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010088",
+		"jp_text": "ベスティーレイフット/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010089",
+		"jp_text": "ベスティーレイフット/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010090",
+		"jp_text": "ベスティーレイフット/B2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010091",
+		"jp_text": "サンティスマリーネア[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010092",
+		"jp_text": "サンティスマリーネア/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010093",
+		"jp_text": "サンティスマリーネア/3[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010094",
+		"jp_text": "サンティスマリーネア/4[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010095",
+		"jp_text": "セルヴァレアール[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010096",
+		"jp_text": "セルヴァレアール/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010097",
+		"jp_text": "セルヴァレアール/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010098",
+		"jp_text": "セルヴァレアール/B2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010099",
+		"jp_text": "マリューンタウレー[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010100",
+		"jp_text": "マリューンタウレー/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010101",
+		"jp_text": "マリューンタウレー/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010102",
+		"jp_text": "マリューンタウレー/B2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010103",
+		"jp_text": "オペラーテユニファ/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010104",
+		"jp_text": "クラークユニファ/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010105",
+		"jp_text": "ラパンナラピッド[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010106",
+		"jp_text": "ラパンナラピッド/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010107",
+		"jp_text": "ラパンナラピッド/3[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010108",
+		"jp_text": "ラパンナラピッド/4[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010111",
+		"jp_text": "オペラーテユニファ/3[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "335010112",
+		"jp_text": "オペラーテユニファ/4[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ2<c>",
+		"tr_explain": ""
 	}
 ]
