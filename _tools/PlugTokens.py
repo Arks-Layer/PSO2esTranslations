@@ -21,7 +21,6 @@ print("{0} loaded.".format(tokens_file_name))
 tokens_file.close()
 
 token_dict = {
-    "％": "%",
     "炎属性": "Fire Element",
     "氷属性": "Ice Element",
     "風属性": "Wind Element",
@@ -32,7 +31,7 @@ token_dict = {
     "ＪＡ成功時もしくはスライド操作時": "successful JA or Slide Action"
     }
 
-numtable = "".maketrans("０１２３４５６７８９", "0123456789")
+numtable = "".maketrans("０１２３４５６７８９％", "0123456789%")
 
 for token in tokens:
     if token["jp_token"] in token_dict:
