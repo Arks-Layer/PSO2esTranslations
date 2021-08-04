@@ -29,15 +29,16 @@ token_dict = {
     "光属性": "Light Element",
     "闇属性": "Dark Element",
     "攻撃ヒット時": "landing an attack",
-    "ＪＡ成功時もしくはスライド操作時": "successful JA or Slide Action"}
+    "ＪＡ成功時もしくはスライド操作時": "successful JA or Slide Action"
+    }
 
 numtable = "".maketrans("０１２３４５６７８９", "0123456789")
 
 for token in tokens:
     if token["jp_token"] in token_dict:
         token["tr_token"] = token_dict[token["jp_token"]]
-
-    token["tr_token"] = token["jp_token"].translate(numtable)
+    else:
+        token["tr_token"] = token["jp_token"].translate(numtable)
 
 # write JSON back to files
 tokens_file = codecs.open(os.path.join(json_loc, tokens_file_name),
