@@ -9112,67 +9112,67 @@
 	{
 		"assign": "recycle_ac_item_chip",
 		"jp_text": "es/ACスクラッチのアイテム・チップ",
-		"tr_text": "es/AC scratch items"
+		"tr_text": "es/AC Scratch Item/Chip"
 	},
 	{
 		"assign": "recycle_no_ac_item_chip",
 		"jp_text": "es/ACスクラッチ以外のアイテム・チップ",
-		"tr_text": "non-es/AC scratch items"
+		"tr_text": "Non-es/AC Scratch Item/Chip"
 	},
 	{
 		"assign": "recycle_ac_item",
 		"jp_text": "es/ACスクラッチのアイテム",
-		"tr_text": "es/AC scratch items"
+		"tr_text": "es/AC Scratch Item"
 	},
 	{
 		"assign": "recycle_no_ac_item",
 		"jp_text": "es/ACスクラッチ以外のアイテム",
-		"tr_text": "non-es/AC scratch items"
+		"tr_text": "Non-es/AC Scratch Item"
 	},
 	{
 		"assign": "recycle_ac_chip",
 		"jp_text": "es/ACスクラッチのチップ",
-		"tr_text": "es/AC chip scratch items"
+		"tr_text": "es/AC Scratch Chip"
 	},
 	{
 		"assign": "recycle_no_ac_chip",
 		"jp_text": "es/ACスクラッチ以外のチップ",
-		"tr_text": "non-es/AC chip scratch items"
+		"tr_text": "Non-es/AC Scratch Chip"
 	},
 	{
 		"assign": "recycle_ac_item_chip_appcheck",
 		"jp_text": "esスクラッチのアイテム・チップ",
-		"tr_text": "es chip scratch"
+		"tr_text": "es Scratch Item/Chip"
 	},
 	{
 		"assign": "recycle_no_ac_item_chip_appcheck",
 		"jp_text": "esスクラッチ以外のアイテム・チップ",
-		"tr_text": "non-es chip scratch"
+		"tr_text": "Non-es Scratch Item/Chip"
 	},
 	{
 		"assign": "recycle_ac_item_appcheck",
 		"jp_text": "esスクラッチのアイテム",
-		"tr_text": "es scratch items"
+		"tr_text": "es Scratch Item"
 	},
 	{
 		"assign": "recycle_no_ac_item_appcheck",
 		"jp_text": "esスクラッチ以外のアイテム",
-		"tr_text": "non-es scratch items"
+		"tr_text": "Non-es Scratch Item"
 	},
 	{
 		"assign": "recycle_ac_chip_appcheck",
 		"jp_text": "esスクラッチのチップ",
-		"tr_text": "es chip scratch"
+		"tr_text": "es Scratch Chip"
 	},
 	{
 		"assign": "recycle_no_ac_chip_appcheck",
 		"jp_text": "esスクラッチ以外のチップ",
-		"tr_text": "non-es chip scratch"
+		"tr_text": "Non-es Scratch Chip"
 	},
 	{
 		"assign": "recycle_rare_enemy_chip",
 		"jp_text": "レアエネミーチップ",
-		"tr_text": ""
+		"tr_text": "Rare Enemy Chip(s)"
 	},
 	{
 		"assign": "recycle_raid_chip_category",
@@ -9197,17 +9197,17 @@
 	{
 		"assign": "recycle_item_trade_info",
 		"jp_text": "必要：{0} {1}個",
-		"tr_text": ""
+		"tr_text": "Needs x{1} {0}."
 	},
 	{
 		"assign": "recycle_item_trade_info_sheet",
 		"jp_text": "必要：{0} {1}枚",
-		"tr_text": ""
+		"tr_text": "Needs {1} {0}."
 	},
 	{
 		"assign": "recycle_item_trade_info_pt",
 		"jp_text": "必要：{0} {1}pt",
-		"tr_text": ""
+		"tr_text": "Needs {1} {0} pts."
 	},
 	{
 		"assign": "recycle_shop_trade_target",
@@ -17967,7 +17967,7 @@
 	{
 		"assign": "sidestory_voice_play_locked_info0",
 		"jp_text": "対象のチップを入手して\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
-		"tr_text": ""
+		"tr_text": "This feature is locked until you\nhave reached Bond Lv.<%parameter> with this chip.\n\n"
 	},
 	{
 		"assign": "sidestory_voice_play_locked_info1",
@@ -18002,7 +18002,7 @@
 	{
 		"assign": "sidestory_story_replay_locked_info1",
 		"jp_text": "対象のチップを入手して\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
-		"tr_text": ""
+		"tr_text": "This feature is locked until you\nhave reached Bond Lv.<%parameter> with this chip.\n\n"
 	},
 	{
 		"assign": "sidestory_story_replay_locked_info2",
