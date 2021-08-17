@@ -194,6 +194,9 @@ cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 "],
 cosmetic_size_locks = ["※Size cannot be adjusted.",
                        "size_locked_KR"]
 
+cosmetic_color_locks = ["※Color cannot be changed",
+                        "color_locked_KR"]
+
 no_sticker_desc = ["Unlocks the ability to not display a\nsticker in the Beauty Salon.",
                    "no_sticker_KR"]
 
@@ -233,13 +236,20 @@ def translate_cosmetic_desc(item, file_name):
     
     if "サイズ調整はできません。" in item["jp_explain"]:
         sizelocked = True
+
+    # Some items cannot be recolored.
+    colorlocked = False
+    
+    if "カラーは変更できません" in item["jp_explain"]:
+        colorlocked = True
     
     # Translate the description.
-    item["tr_explain"] = (cosmetic_desc_formats[LANG] + "{sizelock}").format(
+    item["tr_explain"] = (cosmetic_desc_formats[LANG] + "{sizelock}" + "{colorlock}").format(
         sexlock = cosmetic_sex_locks[sex][LANG] if sex != "n" else "",
         itype = item_type,
         iname = item_name, 
-        sizelock = "\n<yellow>" + cosmetic_size_locks[LANG] + "<c>" if sizelocked == True else "")
+        sizelock = "\n<yellow>" + cosmetic_size_locks[LANG] + "<c>" if sizelocked == True else "",
+        colorlock = "\n<yellow>" + cosmetic_color_locks[LANG] + "<c>" if colorlocked == True else "",)
     
     # Hello Kitty item copyright notice
     if item["jp_text"] == "ハローキティチェーン":
