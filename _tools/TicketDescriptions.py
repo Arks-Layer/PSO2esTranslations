@@ -45,8 +45,8 @@ layer_sex_locks = {"n": ["", ""],
 ndesc_formats = ["Unlocks a new {itype} for use.{typelock}"]
 
 ntype_locks = {"a": ["All", ""],
-                "a1": ["Type 1"],
-                "a2": ["Type 2"],
+                "a1": ["Human/Cast Type 1"],
+                "a2": ["Human/Cast Type 2"],
                 "h1": ["Human Type 1"],
                 "h2": ["Human Type 2"],
                 "c1": ["Cast Type 1"],
@@ -88,7 +88,7 @@ def translate_layer_desc(item, file_name):
 def get_type_restrictions(item):
     types = "a"
 
-    if "：ヒト" in item["jp_explain"]:
+    if "：ヒト型" in item["jp_explain"] and "/キャスト" not in item["jp_explain"]:
         types = "h"
     elif "：キャスト" in item["jp_explain"]:
         types = "c"
