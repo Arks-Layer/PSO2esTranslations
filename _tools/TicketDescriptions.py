@@ -191,7 +191,7 @@ cosmetic_desc_formats = ["Unlocks the {sexlock}{itype}\n\"{iname}\"\nfor use in 
 cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 "],
                       "f": ["female-only ", "여성 전용 "]}
 
-cosmetic_size_locks = ["Size cannot be adjusted.",
+cosmetic_size_locks = ["※Size cannot be adjusted.",
                        "size_locked_KR"]
 
 no_sticker_desc = ["Unlocks the ability to not display a\nsticker in the Beauty Salon.",
