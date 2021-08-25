@@ -490,6 +490,8 @@ cv_names = {
     "こおろぎさとみ": ["Satomi Korogi", "코오로기 사토미"],
     "三宅 健太": ["Kenta Miyake", ""],
     "諸星 すみれ": ["Sumire Morohoshi", ""],
+    "宮本 侑芽": ["Yume Miyamoto", ""],
+    "川島 得愛": ["Tokuyoshi Kawashima", ""],
     "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O"],
     "？？？": ["???", "???"],
     "": ["Unknown", "알 수 없는"]
