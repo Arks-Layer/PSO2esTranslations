@@ -547,9 +547,9 @@ def translate_voice(item):
         
         # Find out if we know the voice actor's name
         jp_cv_name = item["jp_explain"].split("ＣＶ")[1]
+        cv_name = ""
         
         if jp_cv_name in cv_names: # We do, so use it, or keep falling back to best available option if we don't have a translation.
-            cv_name = ""
             curr_lang = LANG
             
             while cv_name == "":
@@ -566,6 +566,7 @@ def translate_voice(item):
             # We don't, so report it.
             print("Voice ticket {0} has a new voice actor: {1}"
                   .format(item["tr_text"], jp_cv_name))
+            cv_name = jp_cv_name
         
         # Translate the description
         item["tr_explain"] = voice_desc_formats[LANG] + "\n{restriction}\nCV: {actorname}".format(
