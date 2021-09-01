@@ -17606,13 +17606,13 @@
 	},
 	{
 		"assign": "SideSt_Dialog_b_00",
-		"jp_text": "対象のキャラクターのチップを入手して\n解放条件をクリアすると第{0}話が解放されます。",
-		"tr_text": "Chapter {0} will be unlocked when you\nacquire this character's chip and meet\nthe unlock conditions."
+		"jp_text": "対象のチップを入手して\n解放条件をクリアすると第{0}話が解放されます。",
+		"tr_text": "Chapter {0} will be unlocked when\nyou acquire this chip and meet\nthe unlock conditions."
 	},
 	{
 		"assign": "SideSt_Dialog_b_00_1",
-		"jp_text": "対象のキャラクターのチップを入手すると\n第1話が解放されます。",
-		"tr_text": "Chapter 1 will be unlocked when you\nacquire this character's chip."
+		"jp_text": "対象のチップを入手すると\n第1話が解放されます。",
+		"tr_text": "Chapter 1 will be unlocked\nwhen you acquire this chip."
 	},
 	{
 		"assign": "SideSt_Dialog_t_01",
@@ -17721,8 +17721,8 @@
 	},
 	{
 		"assign": "sidestory_voice_play_locked_info_LvMAX",
-		"jp_text": "このボイスは\n絆レベルがLv.MAXになると解放されます。",
-		"tr_text": "Voice will\nbe unlocked at Bond Lv. MAX."
+		"jp_text": "このボイスは\n絆レベルがLv.<%parameter>になると解放されます。",
+		"tr_text": "Voice will\nbe unlocked at Bond Lv.<%parameter>."
 	},
 	{
 		"assign": "sidestory_voice_playbtn_greeting",
