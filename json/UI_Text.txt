@@ -6152,7 +6152,7 @@
 	{
 		"assign": "quest_counter_raid_sp_z_dialog_01_b",
 		"jp_text": "「覇級トリガー」を消費して、覇級を解除します。\n消費するトリガーの数を設定してください。\n\nトリガーの消費数に応じて、ＯＰ消費も増えますが\nより強力なエネミーと戦うことができます。\n（ 1～4個 <color=orange>ＯＰ：1</color> / 5～7個 <color=orange>ＯＰ：2</color> / 8～10個 <color=orange>ＯＰ：3</color> ）\n※覇級トリガーとＯＰはクエスト出発時に消費されます。\n\n<color=#ffff00>所持数：{0}個</color>",
-		"tr_text": "This quest consumes \"Extra Hard Triggers\".\nPlease set the number of Triggers to use.\n\nYou can use more Triggers at once to fight a\nstronger enemy, but the amount of OP\nconsumed may also increase.\n1-4 Triggers: <color=orange>1 OP</color>\n5-7 Triggers: <color=orange>2 OP</color>\n8-10 Triggers: <color=orange>3 OP</color>"
+		"tr_text": "This quest consumes \"Extra Hard Triggers\".\nPlease set the number of Triggers to use.\n\nYou can use more Triggers at once to fight a\nstronger enemy, but the amount of OP\nconsumed may also increase.\n1-4 Triggers: <color=orange>1 OP</color>\n5-7 Triggers: <color=orange>2 OP</color>\n8-10 Triggers: <color=orange>3 OP</color>\n\n<color=#ffff00>Owned: {0}</color>"
 	},
 	{
 		"assign": "quest_counter_raid_hp_dialog_00_t",
@@ -6162,7 +6162,7 @@
 	{
 		"assign": "quest_counter_raid_hp_dialog_00_b",
 		"jp_text": "「冥級トリガー」を所持していません。",
-		"tr_text": ""
+		"tr_text": "You have no Ultra Hard Triggers."
 	},
 	{
 		"assign": "quest_counter_raid_hp_dialog_01_t",
@@ -6172,7 +6172,7 @@
 	{
 		"assign": "quest_counter_raid_hp_dialog_01_b",
 		"jp_text": "「冥級トリガー」を1個消費して、冥級を解除します。\nよろしいですか？\n\n<color=#ffff00>所持数：{0}個</color>\n\n※冥級トリガーはクエスト出発時に消費されます。",
-		"tr_text": ""
+		"tr_text": "This quest consumes \"Ultra Hard Triggers\".\nDo you wish to continue?\n\n<color=#ffff00>Owned: {0}</color>\n\n※Ultra Hard Triggers are consumed when you start the quest."
 	},
 	{
 		"assign": "window_help_LM41",
@@ -6387,7 +6387,7 @@
 	{
 		"assign": "reward_enemy_type_8",
 		"jp_text": "冥壊種",
-		"tr_text": ""
+		"tr_text": "Apocalyptic Type"
 	},
 	{
 		"assign": "reward_enemy_lv_high",
@@ -6452,7 +6452,7 @@
 	{
 		"assign": "reward_enemy_class_6",
 		"jp_text": "冥級",
-		"tr_text": ""
+		"tr_text": "Apocalyptic"
 	},
 	{
 		"assign": "reward_trigger",
@@ -10897,7 +10897,7 @@
 	{
 		"assign": "quest_counter_no_area_raid_t",
 		"jp_text": "緊急クエスト",
-		"tr_text": ""
+		"tr_text": "Emergency Quest"
 	},
 	{
 		"assign": "quest_counter_no_area_raid_b",
@@ -15217,7 +15217,7 @@
 	{
 		"assign": "raid_dialog_t_00",
 		"jp_text": "緊急クエスト",
-		"tr_text": ""
+		"tr_text": "EQ"
 	},
 	{
 		"assign": "raid_dialog_b_00",
@@ -15932,7 +15932,7 @@
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-33",
 		"jp_text": "冥級を{0}回発見討伐",
-		"tr_text": ""
+		"tr_text": "Defeat {0} Ultra Hard enemies"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-22",
