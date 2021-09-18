@@ -7817,7 +7817,7 @@
 	{
 		"assign": "title_chara_transfer_finish_b",
 		"jp_text": "端末の引き継ぎが完了しました。\nこちらの端末で引き続き『PSO2es』を\nプレイすることが可能です。\n \n※新たに機種変更などを行う際は、必ず\n「メニュー」にある「端末引き継ぎ情報」を\n確認してから行ってください。",
-		"tr_text": "Device Transfer completed.\nYou may now play PSO2es\nfrom this device.\n\n※Please note that your Device ID's\nwill change per device."
+		"tr_text": "Device Transfer completed.\nYou may now play PSO2es\nfrom this device.\n\n※Please note that your Device ID\nwill change per device."
 	},
 	{
 		"assign": "title_chara_idname_botton",
@@ -11652,7 +11652,7 @@
 	{
 		"assign": "tu_0005_n01_b",
 		"jp_text": "<color=black>改めまして、案内役のセラフィです。\nよろしくお願いいたします。\nそれではさっそく\nゲームを開始いたしましょう。</color>",
-		"tr_text": "<color=black>In this phone app,\nSeraphy is your guide.\nNow let us start the game.</color>"
+		"tr_text": "<color=black>In this phone app, I, Seraphy,\nwill be your guide.\nNow, let us start the game.</color>"
 	},
 	{
 		"assign": "tu_0005_n02_b",
@@ -18837,7 +18837,7 @@
 	{
 		"assign": "filter_user",
 		"jp_text": "ユーザー機能",
-		"tr_text": "User Power"
+		"tr_text": "User Functions"
 	},
 	{
 		"assign": "filter_fire",
@@ -18997,7 +18997,7 @@
 	{
 		"assign": "filter_unfavorite",
 		"jp_text": "お気に入り以外",
-		"tr_text": "Unfavorite"
+		"tr_text": "Not Favorite"
 	},
 	{
 		"assign": "filter_existlinkskill",
@@ -23327,12 +23327,12 @@
 	{
 		"assign": "window_policy_show_policy_button",
 		"jp_text": "利用規約を確認",
-		"tr_text": "Check Terms of Service"
+		"tr_text": "Check ToS"
 	},
 	{
 		"assign": "window_policy_agree_button",
 		"jp_text": "<color=orange>利用規約に同意する</color>",
-		"tr_text": "<color=orange>I agree to the Terms of Service.</color>"
+		"tr_text": "<color=orange>I agree to the ToS.</color>"
 	},
 	{
 		"assign": "window_policy_play_start_button",
