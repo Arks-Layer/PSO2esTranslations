@@ -48,7 +48,7 @@ layer_sex_locks = {"n": ["", ""],
 
 ndesc_formats = ["Unlocks a new {itype} for use.{typelock}",
                  "format_KR{itype}{typelock}",
-                 "Для исп-я азблок-т новый\n{itype}.{typelock}"]
+                 "Разблок {itype}.{typelock}"]
 
 ntype_statements = ["Type: ",
                     "Type_KR",
