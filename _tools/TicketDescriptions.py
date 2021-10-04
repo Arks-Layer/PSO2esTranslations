@@ -56,11 +56,11 @@ ntype_statements = ["Type: ",
 
 ntype_locks = {"a": ["All", "", "Все"],
                 "a1": ["Human/Cast Type 1", "", "Человек/CAST (тип1)"],
-                "a2": ["Human/Cast Type 2" "", "Человек/CAST (тип2)"],
-                "h1": ["Human Type 1" "", "Человек (тип1)"],
-                "h2": ["Human Type 2" "", "Человек (тип2)"],
-                "c1": ["Cast Type 1" "", "CAST (тип1)"],
-                "c2": ["Cast Type 2" "", "CAST (тип2)"]}
+                "a2": ["Human/Cast Type 2", "", "Человек/CAST (тип2)"],
+                "h1": ["Human Type 1", "", "Человек (тип1)"],
+                "h2": ["Human Type 2", "", "Человек (тип2)"],
+                "c1": ["Cast Type 1", "", "CAST (тип1)"],
+                "c2": ["Cast Type 2", "", "CAST (тип2)"]}
 
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
@@ -206,11 +206,11 @@ cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для
                       "f": ["female-only ", "여성 전용 ", "только для Ж"]}
 
 cosmetic_size_locks = ["※Size cannot be adjusted.",
-                       "size_locked_KR"
+                       "size_locked_KR",
                        "※Нельзя отрегулировать размер."]
 
 cosmetic_color_locks = ["※Color cannot be changed",
-                        "color_locked_KR"
+                        "color_locked_KR",
                         "※Цвет нельзщя изменить."]
 
 no_sticker_desc = ["Unlocks the ability to not display a\nsticker in the Beauty Salon.",
