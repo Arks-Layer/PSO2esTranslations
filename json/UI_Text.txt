@@ -157,7 +157,7 @@
 	{
 		"assign": "acshop_dialog_b_00",
 		"jp_text": "ラッピーメダルか<%AC>を消費して\nチップパックを拡張しますか？\n\nパックサイズ（<%current_pack_size>）→<color=red>（<%after_pack_size>）</color>\n※チップパックは<%max_pack_size>まで拡張できます。\n\n必要ラッピーメダル：<%consume_rappy_coin>枚\n所持ラッピーメダル：<%current_rappy_coin>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
-		"tr_text": "This will extend\nyour Chip Storage.\n\nChip Storage（<%current_pack_size>）→<color=red>（<%after_pack_size>）</color>\n※Can extend to a Maximum of <%max_pack_size>.\n\nRappy medals needed: <%consume_rappy_coin>\nRappy medals owned: <%current_rappy_coin>\n\nAC needed: <%consume_AC>\nAC owned: <%current_AC>"
+		"tr_text": "This will expand\nyour Chip Storage.\n\nChip Storage (<%current_pack_size>) → <color=red>(<%after_pack_size>)</color>\n※Can expand to a Maximum of <%max_pack_size>.\n\nRappy medals needed: <%consume_rappy_coin>\nRappy medals owned: <%current_rappy_coin>\n\nAC needed: <%consume_AC>\nAC owned: <%current_AC>"
 	},
 	{
 		"assign": "acshop_dialog_t_01",
@@ -187,7 +187,7 @@
 	{
 		"assign": "acshop_dialog_b_03",
 		"jp_text": "チップパックを拡張しました。",
-		"tr_text": "Chip Storage Extended."
+		"tr_text": "Chip Storage Expanded."
 	},
 	{
 		"assign": "acshop_dialog_t_04",
@@ -511,7 +511,7 @@
 	},
 	{
 		"assign": "acshop_dialog_b_34",
-		"jp_text": "OPが不足しているためクエストに出発できません。\n<%AC>を消費してOP回復薬を購入し、OPを回復しますか？\n※OP回復薬は、OPを6回復します。\n\n必要<%item_name>：<%consume_oprecovery_pass>個\n所持<%item_name>：<%current_oprecovery_pass>",
+		"jp_text": "<%AC>を消費してOP回復薬を購入し、OPを回復しますか？\n※OP回復薬は、OPを6回復します。\n\n必要<%item_name>：<%consume_oprecovery_pass>個\n所持<%item_name>：<%current_oprecovery_pass>",
 		"tr_text": ""
 	},
 	{
@@ -2487,7 +2487,7 @@
 	{
 		"assign": "item_grind_guide_03",
 		"jp_text": "<color=#f0df60>これ以上強化をするためには潜在能力の解放が必要です。解放したい潜在能力を選択してください。</color>",
-		"tr_text": "<color=#f0df60>Before you can upgrade this weapon any further, you must unlock its potential. Please select a potential to unlock.</color>"
+		"tr_text": "<color=#f0df60>Before you can upgrade this weapon any further, you must unlock its Potential. Please select a Potential to unlock.</color>"
 	},
 	{
 		"assign": "labo_dialog_t_09",
@@ -2702,7 +2702,7 @@
 	{
 		"assign": "labo_dialog_b_22",
 		"jp_text": "特殊能力追加が完了しました。",
-		"tr_text": "Special ability addition complete."
+		"tr_text": "Special Ability addition complete."
 	},
 	{
 		"assign": "labo_guide_15",
@@ -3762,7 +3762,7 @@
 	{
 		"assign": "myshop_dialog_b_07",
 		"jp_text": "存在しないアイテム、\nもしくは特殊能力名を指定しています。\n\n<color=#ff0000>※アイテム名、特殊能力名は\n完全一致のみ検索にヒットします。</color>",
-		"tr_text": "You have specified an item or special ability\nthat does not exist.\n\n<color=#ff0000>※When searching for items or special abilities,\nonly exact matches will be found.</color>"
+		"tr_text": "You have specified an item or Special Ability\nthat does not exist.\n\n<color=#ff0000>※When searching for items or Special Abilities,\nonly exact matches will be found.</color>"
 	},
 	{
 		"assign": "myshop_dialog_t_08",
@@ -4757,17 +4757,17 @@
 	{
 		"assign": "myshop_sub_item_tooth_ticket",
 		"jp_text": "歯・口チケット",
-		"tr_text": ""
+		"tr_text": "Teeth & Mouth"
 	},
 	{
 		"assign": "myshop_sub_item_ear_ticket",
 		"jp_text": "耳チケット",
-		"tr_text": ""
+		"tr_text": "Ears"
 	},
 	{
 		"assign": "myshop_sub_item_horn_ticket",
 		"jp_text": "角チケット",
-		"tr_text": ""
+		"tr_text": "Horns"
 	},
 	{
 		"assign": "myshop_sub_item_make_ticket",
@@ -5421,7 +5421,7 @@
 	},
 	{
 		"assign": "linkage_exp_dialog_b_00",
-		"jp_text": "いずれかの理由で連動経験値が獲得できません。\n『PSO2』にログインしてください。\n\n・『PSO2』の全てクラスで連動経験値の\n　　蓄積上限に達している。\n・『PSO2』を遊んだことがない。\n※経験値の連動は『PSO2』のみ行われます。\n　　『NGS』の経験値は連動しません。",
+		"jp_text": "いずれかの理由で連動経験値が獲得できません。\n『PSO2』にログインしてください。\n\n・『PSO2』の全てのクラスで連動経験値の\n　　蓄積上限に達している。\n・『PSO2』を遊んだことがない。\n※経験値の連動は『PSO2』のみ行われます。\n　　『NGS』の経験値は連動しません。",
 		"tr_text": ""
 	},
 	{
@@ -6152,7 +6152,27 @@
 	{
 		"assign": "quest_counter_raid_sp_z_dialog_01_b",
 		"jp_text": "「覇級トリガー」を消費して、覇級を解除します。\n消費するトリガーの数を設定してください。\n\nトリガーの消費数に応じて、ＯＰ消費も増えますが\nより強力なエネミーと戦うことができます。\n（ 1～4個 <color=orange>ＯＰ：1</color> / 5～7個 <color=orange>ＯＰ：2</color> / 8～10個 <color=orange>ＯＰ：3</color> ）\n※覇級トリガーとＯＰはクエスト出発時に消費されます。\n\n<color=#ffff00>所持数：{0}個</color>",
-		"tr_text": "This quest consumes \"Extra Hard Triggers\".\nPlease set the number of Triggers to use.\n\nYou can use more Triggers at once to fight a\nstronger enemy, but the amount of OP\nconsumed may also increase.\n1-4 Triggers: <color=orange>1 OP</color>\n5-7 Triggers: <color=orange>2 OP</color>\n8-10 Triggers: <color=orange>3 OP</color>"
+		"tr_text": "This quest consumes \"Extra Hard Triggers\".\nPlease set the number of Triggers to use.\n\nYou can use more Triggers at once to fight a\nstronger enemy, but the amount of OP\nconsumed may also increase.\n1-4 Triggers: <color=orange>1 OP</color>\n5-7 Triggers: <color=orange>2 OP</color>\n8-10 Triggers: <color=orange>3 OP</color>\n\n<color=#ffff00>Owned: {0}</color>"
+	},
+	{
+		"assign": "quest_counter_raid_hp_dialog_00_t",
+		"jp_text": "緊急クエスト",
+		"tr_text": "Emergency Quest"
+	},
+	{
+		"assign": "quest_counter_raid_hp_dialog_00_b",
+		"jp_text": "「冥級トリガー」を所持していません。",
+		"tr_text": "You have no Ultra Hard Triggers."
+	},
+	{
+		"assign": "quest_counter_raid_hp_dialog_01_t",
+		"jp_text": "緊急クエスト",
+		"tr_text": "EQ"
+	},
+	{
+		"assign": "quest_counter_raid_hp_dialog_01_b",
+		"jp_text": "「冥級トリガー」を1個消費して、冥級を解除します。\nよろしいですか？\n\n<color=#ffff00>所持数：{0}個</color>\n\n※冥級トリガーはクエスト出発時に消費されます。",
+		"tr_text": "This quest consumes \"Ultra Hard Triggers\".\nDo you wish to continue?\n\n<color=#ffff00>Owned: {0}</color>\n\n※Ultra Hard Triggers are consumed when you start the quest."
 	},
 	{
 		"assign": "window_help_LM41",
@@ -6365,6 +6385,11 @@
 		"tr_text": "Superior Type"
 	},
 	{
+		"assign": "reward_enemy_type_8",
+		"jp_text": "冥壊種",
+		"tr_text": "Apocalyptic Type"
+	},
+	{
 		"assign": "reward_enemy_lv_high",
 		"jp_text": "高",
 		"tr_text": "High"
@@ -6423,6 +6448,11 @@
 		"assign": "reward_enemy_class_5",
 		"jp_text": "覇級",
 		"tr_text": "Champion"
+	},
+	{
+		"assign": "reward_enemy_class_6",
+		"jp_text": "冥級",
+		"tr_text": "Apocalyptic"
 	},
 	{
 		"assign": "reward_trigger",
@@ -7242,7 +7272,7 @@
 	{
 		"assign": "questresult_result_limit_s_a",
 		"jp_text": "あと<%hh>時間<%mm>分以内に討伐で<%rank>ランク",
-		"tr_text": "<%rank> Rank / Time: <%hh>:<%mm>"
+		"tr_text": "<%rank> Rank/Time: <%hh>:<%mm>"
 	},
 	{
 		"assign": "questresult_result_limit_b",
@@ -7787,7 +7817,7 @@
 	{
 		"assign": "title_chara_transfer_finish_b",
 		"jp_text": "端末の引き継ぎが完了しました。\nこちらの端末で引き続き『PSO2es』を\nプレイすることが可能です。\n \n※新たに機種変更などを行う際は、必ず\n「メニュー」にある「端末引き継ぎ情報」を\n確認してから行ってください。",
-		"tr_text": "Device Transfer completed.\nYou may now play PSO2es\nfrom this device.\n\n※Please note that your Device ID's\nwill change per device."
+		"tr_text": "Device Transfer completed.\nYou may now play PSO2es\nfrom this device.\n\n※Please note that your Device ID\nwill change per device."
 	},
 	{
 		"assign": "title_chara_idname_botton",
@@ -9102,66 +9132,66 @@
 	{
 		"assign": "recycle_ac_item_chip",
 		"jp_text": "es/ACスクラッチのアイテム・チップ",
-		"tr_text": "es/AC scratch items"
+		"tr_text": "es/AC Scratch Item/Chip"
 	},
 	{
 		"assign": "recycle_no_ac_item_chip",
 		"jp_text": "es/ACスクラッチ以外のアイテム・チップ",
-		"tr_text": "non-es/AC scratch items"
+		"tr_text": "Non-es/AC Scratch Item/Chip"
 	},
 	{
 		"assign": "recycle_ac_item",
 		"jp_text": "es/ACスクラッチのアイテム",
-		"tr_text": "es/AC scratch items"
+		"tr_text": "es/AC Scratch Item"
 	},
 	{
 		"assign": "recycle_no_ac_item",
 		"jp_text": "es/ACスクラッチ以外のアイテム",
-		"tr_text": "non-es/AC scratch items"
+		"tr_text": "Non-es/AC Scratch Item"
 	},
 	{
 		"assign": "recycle_ac_chip",
 		"jp_text": "es/ACスクラッチのチップ",
-		"tr_text": "es/AC chip scratch items"
+		"tr_text": "es/AC Scratch Chip"
 	},
 	{
 		"assign": "recycle_no_ac_chip",
 		"jp_text": "es/ACスクラッチ以外のチップ",
-		"tr_text": "non-es/AC chip scratch items"
+		"tr_text": "Non-es/AC Scratch Chip"
 	},
 	{
 		"assign": "recycle_ac_item_chip_appcheck",
 		"jp_text": "esスクラッチのアイテム・チップ",
-		"tr_text": "es chip scratch"
+		"tr_text": "es Scratch Item/Chip"
 	},
 	{
 		"assign": "recycle_no_ac_item_chip_appcheck",
 		"jp_text": "esスクラッチ以外のアイテム・チップ",
-		"tr_text": "non-es chip scratch"
+		"tr_text": "Non-es Scratch Item/Chip"
 	},
 	{
 		"assign": "recycle_ac_item_appcheck",
 		"jp_text": "esスクラッチのアイテム",
-		"tr_text": "es scratch items"
+		"tr_text": "es Scratch Item"
 	},
 	{
 		"assign": "recycle_no_ac_item_appcheck",
 		"jp_text": "esスクラッチ以外のアイテム",
-		"tr_text": "non-es scratch items"
+		"tr_text": "Non-es Scratch Item"
 	},
 	{
 		"assign": "recycle_ac_chip_appcheck",
 		"jp_text": "esスクラッチのチップ",
-		"tr_text": "es chip scratch"
+		"tr_text": "es Scratch Chip"
 	},
 	{
 		"assign": "recycle_no_ac_chip_appcheck",
 		"jp_text": "esスクラッチ以外のチップ",
-		"tr_text": "non-es chip scratch"
+		"tr_text": "Non-es Scratch Chip"
 	},
 	{
 		"assign": "recycle_rare_enemy_chip",
-		"jp_text": "対象のレアエネミーチップ",
+		"jp_text": "レアエネミーチップ",
 		"tr_text": "Rare Enemy Chip(s)"
 	},
 	{
@@ -9186,18 +9216,18 @@
 	},
 	{
 		"assign": "recycle_item_trade_info",
-		"jp_text": "交換に必要：{0} {1}個",
+		"jp_text": "必要：{0} {1}個",
 		"tr_text": "Needs x{1} {0}."
 	},
 	{
 		"assign": "recycle_item_trade_info_sheet",
-		"jp_text": "交換に必要：{0} {1}枚",
-		"tr_text": "Needs {1} {0} to exchange."
+		"jp_text": "必要：{0} {1}枚",
+		"tr_text": "Needs {1} {0}."
 	},
 	{
 		"assign": "recycle_item_trade_info_pt",
-		"jp_text": "交換に必要：{0} {1}pt",
-		"tr_text": "Needs {1} {0} pts"
+		"jp_text": "必要：{0} {1}pt",
+		"tr_text": "Needs {1} {0} pts."
 	},
 	{
 		"assign": "recycle_shop_trade_target",
@@ -10002,12 +10032,12 @@
 	{
 		"assign": "menu_charainfo_drive",
 		"jp_text": "<%drive> / <%max_drive> あと <%time>",
-		"tr_text": "<%drive> / <%max_drive> Regen: <%time>"
+		"tr_text": "<%drive>/<%max_drive> Regen: <%time>"
 	},
 	{
 		"assign": "menu_charainfo_drive_over",
 		"jp_text": "<color=#ffa500{0}><%drive></color> / <%max_drive> あと <%time>",
-		"tr_text": "<color=#ffa500{0}><%drive></color> / <%max_drive> Regen: <%time>"
+		"tr_text": "<color=#ffa500{0}><%drive></color>/<%max_drive> Regen: <%time>"
 	},
 	{
 		"assign": "menu_charainfo_title",
@@ -10512,7 +10542,7 @@
 	{
 		"assign": "caption_grind",
 		"jp_text": "強化/売却",
-		"tr_text": "Strengthen / Sell"
+		"tr_text": "Strengthen/Sell"
 	},
 	{
 		"assign": "caption_class",
@@ -10757,7 +10787,7 @@
 	{
 		"assign": "chip_over_message",
 		"jp_text": "チップパックの所持枠をオーバーしています。\n\nチップパックを拡張するか\n強化／売却をしてチップを整理してください。",
-		"tr_text": "You are now over the chip limit.\nYou can purchase a chip extension pack.\nPlease lower your chip count by grinding/selling\nif you do not wish to purchase an extension."
+		"tr_text": "You are now over the chip limit.\nYou can purchase a Chip Pack expansion.\nPlease lower your chip count by grinding/selling\nif you do not wish to purchase an expansion."
 	},
 	{
 		"assign": "item_over_message",
@@ -10772,7 +10802,7 @@
 	{
 		"assign": "chip_pack_expand",
 		"jp_text": "チップパック拡張",
-		"tr_text": "Chip Expansion Pack"
+		"tr_text": "Chip Pack Expansion"
 	},
 	{
 		"assign": "chip_grind",
@@ -10812,7 +10842,7 @@
 	{
 		"assign": "chip_over_num_recycle",
 		"jp_text": "このチップを交換すると\n<color=red><%chip_over>枚</color>オーバーしてしまいます。\n\nチップパックを拡張するか\n強化／売却をしてチップを整理してください。",
-		"tr_text": "Exchanging for this chip will leave you\n<color=red><%chip_over> chips</color> over your limit.\n\nPlease either expand your chip storage or get rid\nof chips by selling them or using them for grinding."
+		"tr_text": "Exchanging for this chip will leave you\n<color=red><%chip_over> chips</color> over your limit.\n\nPlease either expand your Chip Storage or get rid\nof chips by selling them or using them for grinding."
 	},
 	{
 		"assign": "point_over_num_recycle",
@@ -11212,7 +11242,7 @@
 	{
 		"assign": "character_player_name",
 		"jp_text": "キャラクター名 ／ プレイヤーIDネーム",
-		"tr_text": "Character / PlayerID"
+		"tr_text": "Character/PlayerID"
 	},
 	{
 		"assign": "friend_login_info",
@@ -11622,7 +11652,7 @@
 	{
 		"assign": "tu_0005_n01_b",
 		"jp_text": "<color=black>改めまして、案内役のセラフィです。\nよろしくお願いいたします。\nそれではさっそく\nゲームを開始いたしましょう。</color>",
-		"tr_text": "<color=black>In this phone app,\nSeraphy is your guide.\nNow let us start the game.</color>"
+		"tr_text": "<color=black>In this phone app, I, Seraphy,\nwill be your guide.\nNow, let us start the game.</color>"
 	},
 	{
 		"assign": "tu_0005_n02_b",
@@ -12450,6 +12480,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "tu_0006_w10_1_b",
+		"jp_text": "<color=#ff0000>【注意】連動すると『NGS』の次の機能を連動・使用することができます。\n「PSO2es倉庫」「ACスクラッチ」「所持AC」「プレミアムセット」\n※そのほかの機能は連動・使用できません。</color>",
+		"tr_text": ""
+	},
+	{
 		"assign": "tu_0006_n44_b",
 		"jp_text": "iACはiOS版『PSO2es』の専用の通貨です。\nそのため、現在『PSO2es』で所持しているiACは\n『PSO2』とは連動しません。ご了承ください。",
 		"tr_text": "iAC is the dedicated currency\nof the iOS version of PSO2es.\nDo note that it is <color=red>not compatible</color> with \"PSO2\"."
@@ -12457,6 +12492,11 @@
 	{
 		"assign": "tu_0006_w11_b",
 		"jp_text": "『PSO2』とのキャラクター連動処理を行いました。\n以降、『PSO2es』において、『PSO2』や『PSO2 クラウド』との\nさまざまな連動機能が利用できるようになります。",
+		"tr_text": ""
+	},
+	{
+		"assign": "tu_0006_w11_1_b",
+		"jp_text": "<color=#ff0000>【注意】連動すると『NGS』の次の機能を連動・使用することができます。\n「PSO2es倉庫」「ACスクラッチ」「所持AC」「プレミアムセット」\n※そのほかの機能は連動・使用できません。</color>",
 		"tr_text": ""
 	},
 	{
@@ -15890,6 +15930,11 @@
 		"tr_text": "Defeat {0} Extra Hard enemies"
 	},
 	{
+		"assign": "RaidEvent_Achievement_Text_0-1-33",
+		"jp_text": "冥級を{0}回発見討伐",
+		"tr_text": "Defeat {0} Ultra Hard enemies"
+	},
+	{
 		"assign": "RaidEvent_Achievement_Text_0-1-22",
 		"jp_text": "覇滅種を{0}回発見討伐",
 		"tr_text": "Defeat {0} Superior enemies"
@@ -16277,7 +16322,7 @@
 	{
 		"assign": "menu_invite_reward_list_condition",
 		"jp_text": "入手条件： 招待を{1}人成立させる [{0} / {1}]",
-		"tr_text": "Condition: Invite {1} people [{0} / {1}]"
+		"tr_text": "Condition: Invite {1} people [{0}/{1}]"
 	},
 	{
 		"assign": "menu_invite_reward_list_receive",
@@ -16557,7 +16602,7 @@
 	{
 		"assign": "story_chapter10_clear_dialog_body",
 		"jp_text": "ストーリークエストクリアおめでとうございます！\nクリア記念のアイテムをプレゼントいたしました。\n受け取りボックスをご確認ください。\n\n<color=yellow>「創者の証」は、『PSO2』で\n武器迷彩「*断翼ロート＝ラウト」などと\n交換できます。</color>",
-		"tr_text": "Congratulations on clearing a Story Quest!\nI've sent you an item to commemorate your\nsuccess. Please check your Reception Box.\n\n<color=yellow>\"Creator's Emblem\" is an item that can be\nexchanged for Weapon Camos, such as\n＊Roto Raut, in PSO2.</color>"
+		"tr_text": "Congratulations on clearing a Story Quest!\nI've sent you an item to commemorate your\nsuccess. Please check your Reception Box.\n\n<color=yellow>\"Creator's Emblem\" is an item that can be\nexchanged for Weapon Camos, such as\n＊Rot Raut, in PSO2.</color>"
 	},
 	{
 		"assign": "scratch_dialog_name_es",
@@ -17475,6 +17520,11 @@
 		"tr_text": "Bond Gauge"
 	},
 	{
+		"assign": "SideSt_Browse_Story_Effect",
+		"jp_text": "演出再生",
+		"tr_text": ""
+	},
+	{
 		"assign": "SideSt_Browse_Story",
 		"jp_text": "ストーリーを振り返る",
 		"tr_text": "Browse Side Story"
@@ -17545,6 +17595,11 @@
 		"tr_text": "Progress"
 	},
 	{
+		"assign": "sidestory_effect_play_title",
+		"jp_text": "演出再生",
+		"tr_text": ""
+	},
+	{
 		"assign": "ItemDetail_Parameter_GammaExpCaption",
 		"jp_text": "次の強化値まで/",
 		"tr_text": "Grind EXP"
@@ -17576,13 +17631,13 @@
 	},
 	{
 		"assign": "SideSt_Dialog_b_00",
-		"jp_text": "対象のキャラクターのチップを入手して\n解放条件をクリアすると第{0}話が解放されます。",
-		"tr_text": "Chapter {0} will be unlocked when you\nacquire this character's chip and meet\nthe unlock conditions."
+		"jp_text": "対象のチップを入手して\n解放条件をクリアすると第{0}話が解放されます。",
+		"tr_text": "Chapter {0} will be unlocked when\nyou acquire this chip and meet\nthe unlock conditions."
 	},
 	{
 		"assign": "SideSt_Dialog_b_00_1",
-		"jp_text": "対象のキャラクターのチップを入手すると\n第1話が解放されます。",
-		"tr_text": "Chapter 1 will be unlocked when you\nacquire this character's chip."
+		"jp_text": "対象のチップを入手すると\n第1話が解放されます。",
+		"tr_text": "Chapter 1 will be unlocked\nwhen you acquire this chip."
 	},
 	{
 		"assign": "SideSt_Dialog_t_01",
@@ -17618,6 +17673,26 @@
 		"assign": "SideSt_Dialog_b_02_2",
 		"jp_text": "・『{0}』の\n　　第{1}話クリア（絆Lv.{2}）",
 		"tr_text": "・「{0}」\n　　Story Ch.{1} Clear （Bond Lv.{2}）"
+	},
+	{
+		"assign": "SideSt_Effect_New_Story",
+		"jp_text": "NEW STORY",
+		"tr_text": ""
+	},
+	{
+		"assign": "SideSt_Effect_New_Comer",
+		"jp_text": "NEW COMER",
+		"tr_text": "NEW CHARACTER"
+	},
+	{
+		"assign": "SideSt_Effect_BondsMax",
+		"jp_text": "絆MAX",
+		"tr_text": "Bonds MAX"
+	},
+	{
+		"assign": "SideSt_Effect_Reinforce_BondsMax",
+		"jp_text": "強化＆絆MAX",
+		"tr_text": "Grind & Bonds MAX"
 	},
 	{
 		"assign": "pet_rehatch_body",
@@ -17671,8 +17746,8 @@
 	},
 	{
 		"assign": "sidestory_voice_play_locked_info_LvMAX",
-		"jp_text": "このボイスは\n絆レベルがLv.MAXになると解放されます。",
-		"tr_text": "Voice will\nbe unlocked at Bond Lv. MAX."
+		"jp_text": "このボイスは\n絆レベルがLv.<%parameter>になると解放されます。",
+		"tr_text": "Voice will\nbe unlocked at Bond Lv.<%parameter>."
 	},
 	{
 		"assign": "sidestory_voice_playbtn_greeting",
@@ -17906,17 +17981,17 @@
 	},
 	{
 		"assign": "sidestory_newstory_skip_title",
-		"jp_text": "NEW STORY演出スキップ",
-		"tr_text": "Skip Introduction Animation"
+		"jp_text": "演出スキップ",
+		"tr_text": ""
 	},
 	{
 		"assign": "sidestory_newstory_skip_body",
-		"jp_text": "新規外伝のNEW STORY演出を\nすべてスキップしますか?\n\n<color=red>※スキップすると二度と見られなくなります。</color>",
-		"tr_text": "Would you like to skip the\nintroduction animations?\n<color=red>※Once skipped, you can't view\nthem again.</color>"
+		"jp_text": "再生される演出が、あと<%amount>件あります。\nすべてスキップしますか？\n\n<color=red>※演出は「Data」の「演出再生」から\n　　再度見ることができます。</color>",
+		"tr_text": ""
 	},
 	{
 		"assign": "sidestory_voice_play_locked_info0",
-		"jp_text": "対象のキャラクターのチップを入手して\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
+		"jp_text": "対象のチップを入手して\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
 		"tr_text": "This feature is locked until you\nhave reached Bond Lv.<%parameter> with this chip.\n\n"
 	},
 	{
@@ -17925,8 +18000,33 @@
 		"tr_text": "This voice\nwill be unlocked at Bond Lv.<%parameter>.\n\n"
 	},
 	{
+		"assign": "sidestory_voice_play_locked_info2",
+		"jp_text": "このボイスは\nレベルをLv.<%lvparameter>にした上で\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "sidestory_voice_play_effect_locked_info0",
+		"jp_text": "対象のチップを入手して\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "sidestory_voice_play_effect_locked_info1",
+		"jp_text": "対象のチップを入手して\nチップレベルを解放後MAX以上にして\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "sidestory_voice_play_effect_locked_info2",
+		"jp_text": "この演出は\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
+		"tr_text": ""
+	},
+	{
+		"assign": "sidestory_voice_play_effect_locked_info3",
+		"jp_text": "この演出は\nチップレベルを解放後MAX以上にして\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
+		"tr_text": ""
+	},
+	{
 		"assign": "sidestory_story_replay_locked_info1",
-		"jp_text": "対象のキャラクターのチップを入手して\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
+		"jp_text": "対象のチップを入手して\n絆レベルをLv.<%parameter>にすると再生できます。\n\n",
 		"tr_text": "This feature is locked until you\nhave reached Bond Lv.<%parameter> with this chip.\n\n"
 	},
 	{
@@ -18160,6 +18260,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "lookback_special_chapter_11",
+		"jp_text": "サマーフェスタは大忙し！！",
+		"tr_text": ""
+	},
+	{
 		"assign": "lookback_maintitle_4",
 		"jp_text": "ストーリー　オブ　アーレス",
 		"tr_text": "Story of Ares"
@@ -18252,7 +18357,7 @@
 	{
 		"assign": "lookback_maintext_6",
 		"jp_text": "ネメシスシリーズとスレイヴシリーズの\nウェポノイド達の物語を振り返ります。",
-		"tr_text": "View the story of the Nemesis and Slave\nWeaponoid series."
+		"tr_text": "View the story of the Nemesis and\nSlave Weaponoid series."
 	},
 	{
 		"assign": "lookback_series2_chapter_1",
@@ -18345,6 +18450,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "lookback_series6_chapter_2",
+		"jp_text": "第２章　メイキング オブ ドリーム",
+		"tr_text": ""
+	},
+	{
 		"assign": "lookback_maintitle_11",
 		"jp_text": "ビクトリー オブ ヤスミノコフ",
 		"tr_text": ""
@@ -18382,7 +18492,7 @@
 	{
 		"assign": "lobby_help_charastatus",
 		"jp_text": "キャラクター / ステータス",
-		"tr_text": "Character / Status"
+		"tr_text": "Character/Status"
 	},
 	{
 		"assign": "lobby_help_equip",
@@ -18397,7 +18507,7 @@
 	{
 		"assign": "lobby_help_grindsale",
 		"jp_text": "強化 / 売却",
-		"tr_text": "Strengthen / Sell"
+		"tr_text": "Strengthen/Sell"
 	},
 	{
 		"assign": "lobby_help_quest",
@@ -18727,7 +18837,7 @@
 	{
 		"assign": "filter_user",
 		"jp_text": "ユーザー機能",
-		"tr_text": "User Power"
+		"tr_text": "User Functions"
 	},
 	{
 		"assign": "filter_fire",
@@ -18887,7 +18997,7 @@
 	{
 		"assign": "filter_unfavorite",
 		"jp_text": "お気に入り以外",
-		"tr_text": "Unfavorite"
+		"tr_text": "Not Favorite"
 	},
 	{
 		"assign": "filter_existlinkskill",
@@ -19475,6 +19585,11 @@
 		"tr_text": "When you use an Extra Hard Trigger to unlock\nthe Extra Hard Emergency Quest, the enemy's\nelemental weakness will be revealed.\nTry using weapons and chips that take\nadvantage of that elemental weakness!"
 	},
 	{
+		"assign": "window_help_LM47",
+		"jp_text": "wh_62_01,\n緊急クエストに「冥級」が登場しました。\n緊急クエストの冥級に出発するには「冥級トリガー」が必要です。\n「冥級トリガー」は覇級の撃破報酬や緊急ミッションで入手できます。,\nwh_62_02,\n冥級も覇級と同じく、トリガーを使ってクエストを解放した時に\n討伐対象の弱点属性が明らかになります。\nとてもＨＰの高いエネミーが登場するので、救援要請を活用しましょう！,",
+		"tr_text": ""
+	},
+	{
 		"assign": "reward_button_close",
 		"jp_text": "閉じる",
 		"tr_text": "Close"
@@ -19792,12 +19907,12 @@
 	{
 		"assign": "chip_depot_over_num_leave",
 		"jp_text": "預けるチップ倉庫に空き容量がありません。\n\nチップ倉庫を拡張するか\n強化／売却をして整理してください。\n<color=red><%chip_over>枚</color>オーバーしてしまいます。",
-		"tr_text": "You don't have enough space in your chip storage\nto make this deposit.\nEither expand your chip storage or make room\nby selling chips or using them as grind material.\nExtra space needed: <color=red><%chip_over></color>"
+		"tr_text": "You don't have enough space in your Chip Storage\nto make this deposit.\nEither expand your Chip Storage or make room\nby selling chips or using them as grind material.\nExtra space needed: <color=red><%chip_over></color>"
 	},
 	{
 		"assign": "chip_depot_over_num_leave_max",
 		"jp_text": "預けるチップ倉庫に空き容量がありません。\n\nチップを強化／売却して整理してください。\n<color=red><%chip_over>枚</color>オーバーしてしまいます。",
-		"tr_text": "You don't have enough space in your chip storage\nto make this deposit.\nMake room by selling chips or using them as grind material.\nExtra space needed: <color=red><%chip_over></color>"
+		"tr_text": "You don't have enough space in your Chip Storage\nto make this deposit.\nMake room by selling chips or using them as grind material.\nExtra space needed: <color=red><%chip_over></color>"
 	},
 	{
 		"assign": "chip_depot_over_num_take",
@@ -21392,12 +21507,12 @@
 	{
 		"assign": "blockresult_all_gold_clear_time_limit",
 		"jp_text": "■ゴールドクリアタイム／<%time>内クリア",
-		"tr_text": "■Gold Clear / Clear within <%time>"
+		"tr_text": "■Gold Clear/Clear within <%time>"
 	},
 	{
 		"assign": "blockresult_all_silver_clear_time_limit",
 		"jp_text": "■シルバークリアタイム／<%time>内クリア",
-		"tr_text": "■Silver Clear / Clear within <%time>"
+		"tr_text": "■Silver Clear/Clear within <%time>"
 	},
 	{
 		"assign": "blockresult_all_gold_clear_time_reward_title",
@@ -22337,7 +22452,7 @@
 	{
 		"assign": "weapon_potential_awake_message",
 		"jp_text": "選択した潜在能力を解放します。\nよろしいですか？",
-		"tr_text": "You will unlock the selected potential.\nContinue?"
+		"tr_text": "You will unlock the selected Potential.\nContinue?"
 	},
 	{
 		"assign": "weapon_potential_awake_confirm_dialog_title",
@@ -22347,7 +22462,7 @@
 	{
 		"assign": "weapon_potential_awake_confirm_dialog_message",
 		"jp_text": "潜在能力解放を開始します。\nよろしいですか？",
-		"tr_text": "Now unlocking potential.\nContinue?"
+		"tr_text": "Now unlocking Potential.\nContinue?"
 	},
 	{
 		"assign": "weapon_potential_awake_not_enough_item_dialog_title",
@@ -22357,7 +22472,7 @@
 	{
 		"assign": "weapon_potential_awake_not_enough_item_dialog_message",
 		"jp_text": "必要アイテムが不足しているため\n潜在能力解放できません。",
-		"tr_text": "Insufficient items to unlock potential."
+		"tr_text": "Insufficient items to unlock Potential."
 	},
 	{
 		"assign": "weapon_potential_awake_successed_dialog_title",
@@ -22397,7 +22512,7 @@
 	{
 		"assign": "gamma_weapon_grind_dialog_max_message",
 		"jp_text": "アイテム強化によって、強化値の+10 +20 +30の\nいずれかの上限に達しました。\n\nさらに強化するために、次回アイテム強化時は\n<color=yellow>自動的に「潜在能力解放」に進みます。</color>\n\n※潜在能力解放には、フォトンドロップや\nフォトンスフィアなどのアイテムが必要です。",
-		"tr_text": "Grinding the item has raised\nit to +10, +20 or +30.\n\nIn order to strengthen it further, you must\n<color=yellow>unlock its potential</color>, which you will do next\ntime you attempt to grind the item.\n\n※To unlock potentials, you need special\nitems such as Photon Drops."
+		"tr_text": "Grinding the item has raised\nit to +10, +20 or +30.\n\nIn order to strengthen it further, you must\n<color=yellow>unlock its Potential</color>, which you will do next\ntime you attempt to grind the item.\n\n※To unlock Potentials, you need special\nitems such as Photon Drops."
 	},
 	{
 		"assign": "gamma_weapon_grind_dialog_caution",
@@ -22782,7 +22897,7 @@
 	{
 		"assign": "DPSEvent_Achievement_Text_0-2-23",
 		"jp_text": "自己ベスト{1:#,0}達成 \n[{0:#,0} / {1:#,0}]",
-		"tr_text": " Set a Personal Best of {1:#,0}\n[{0:#,0} / {1:#,0}]"
+		"tr_text": " Set a Personal Best of {1:#,0}\n[{0:#,0}/{1:#,0}]"
 	},
 	{
 		"assign": "window_help_LM34",
@@ -23212,12 +23327,12 @@
 	{
 		"assign": "window_policy_show_policy_button",
 		"jp_text": "利用規約を確認",
-		"tr_text": "Check Terms of Service"
+		"tr_text": "Check ToS"
 	},
 	{
 		"assign": "window_policy_agree_button",
 		"jp_text": "<color=orange>利用規約に同意する</color>",
-		"tr_text": "<color=orange>I agree to the Terms of Service.</color>"
+		"tr_text": "<color=orange>I agree to the ToS.</color>"
 	},
 	{
 		"assign": "window_policy_play_start_button",
@@ -23417,17 +23532,17 @@
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_title_weapon",
 		"jp_text": "保護設定 / 武器",
-		"tr_text": "Exclusions / Weapons"
+		"tr_text": "Exclusions/Weapons"
 	},
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_title_unit",
 		"jp_text": "保護設定 / ユニット",
-		"tr_text": "Exclusions / Units"
+		"tr_text": "Exclusions/Units"
 	},
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_title_chip",
 		"jp_text": "保護設定 / チップ",
-		"tr_text": "Exclusions / Chips"
+		"tr_text": "Exclusions/Chips"
 	},
 	{
 		"assign": "auto_sale_setting_exclusion_dialog_disc_off",
@@ -23977,7 +24092,7 @@
 	{
 		"assign": "raid_scratch_page_view",
 		"jp_text": "{0}<color=#688CA7> / </color>{1}",
-		"tr_text": "{0}<color=#688CA7> / </color>{1}"
+		"tr_text": "{0}<color=#688CA7>/</color>{1}"
 	},
 	{
 		"assign": "raid_scratch_page_previous",
@@ -24322,7 +24437,7 @@
 	{
 		"assign": "SB_status_dialog_t",
 		"jp_text": "使用効果・ステータス",
-		"tr_text": "Effect / Status"
+		"tr_text": "Effect/Status"
 	},
 	{
 		"assign": "SB_status_LTBuff_TitleCaption",
@@ -24600,28 +24715,38 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "auto_rematch_result_finish_dialog_close_button",
+		"jp_text": "閉じる",
+		"tr_text": ""
+	},
+	{
+		"assign": "auto_rematch_result_finish_dialog_message",
+		"jp_text": "以下の条件を満たしたため、自動再戦を終了しました。",
+		"tr_text": ""
+	},
+	{
 		"assign": "auto_rematch_result_finish_dialog_short_drive_message",
-		"jp_text": "行動力が足りないため\n自動再戦を終了しました。",
+		"jp_text": "・行動力不足",
 		"tr_text": ""
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_short_ex_drive_message",
-		"jp_text": "OPが足りないため\n自動再戦を終了しました。",
+		"jp_text": "・OP不足",
 		"tr_text": ""
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_acceptbox_message",
-		"jp_text": "受け取りボックスがいっぱいのため\n自動再戦を終了しました。",
+		"jp_text": "・受け取りボックス上限",
 		"tr_text": ""
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_rematch_count_message",
-		"jp_text": "最大再戦回数（{0}回）に達したため\n自動再戦を終了しました。",
+		"jp_text": "・最大再戦回数（{0}回）到達",
 		"tr_text": ""
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_friendship_message",
-		"jp_text": "{0}枚のチップが\n外伝解放・絆ゲージMAXになったため\n自動再戦を終了しました。",
+		"jp_text": "・{0}枚のチップが\r外伝解放・絆ゲージMAX",
 		"tr_text": ""
 	},
 	{
@@ -24752,6 +24877,31 @@
 	{
 		"assign": "ranking_title_not_setting",
 		"jp_text": "未設定",
+		"tr_text": ""
+	},
+	{
+		"assign": "ranking_sort",
+		"jp_text": "並び順",
+		"tr_text": ""
+	},
+	{
+		"assign": "ranking_sort_new",
+		"jp_text": "最新優先",
+		"tr_text": ""
+	},
+	{
+		"assign": "ranking_sort_best",
+		"jp_text": "高順位優先",
+		"tr_text": ""
+	},
+	{
+		"assign": "ranking_setting_up_title",
+		"jp_text": "設定中のランキング称号",
+		"tr_text": ""
+	},
+	{
+		"assign": "ranking_not_setting",
+		"jp_text": "ランキング称号を獲得すると設定できます。",
 		"tr_text": ""
 	}
 ]
