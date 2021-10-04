@@ -52,7 +52,7 @@ ndesc_formats = ["Unlocks a new {itype} for use.{typelock}",
 
 ntype_statements = ["Type: ",
                     "Type_KR",
-                    "тип: "]
+                    "Тип: "]
 
 ntype_locks = {"a": ["All", "", "Все"],
                 "a1": ["Human/Cast Type 1", "", "Человек/CAST (тип1)"],
