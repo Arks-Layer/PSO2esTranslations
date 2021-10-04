@@ -289,7 +289,7 @@
 	{
 		"assign": "18045",
 		"jp_text": "アンチＡライフル／ナハト",
-		"tr_text": "Anti Android Rifle / Nacht",
+		"tr_text": "Anti Android Rifle/Nacht",
 		"jp_explain": "闇夜の色を抱く長銃。\n出自の仔細は不明だが、性能は高く\n所有者に大きな力を抱かせる。",
 		"tr_explain": "A rifle painted black as night. Its\norigins are unknown, but it inspires\ngreatness in its owner."
 	},
@@ -478,14 +478,14 @@
 	{
 		"assign": "18098",
 		"jp_text": "Ｆシューター／ナハト",
-		"tr_text": "Frozen Shooter / Nacht",
+		"tr_text": "Frozen Shooter/Nacht",
 		"jp_explain": "闇夜の色を抱く長銃。\n出自の仔細は不明だが、性能は高く\n所有者に大きな力を抱かせる。",
 		"tr_explain": "A rifle painted black as night. Its\norigins are unknown, but it inspires\ngreatness in its owner."
 	},
 	{
 		"assign": "18099",
 		"jp_text": "Ｆシューター／リヒト",
-		"tr_text": "Frozen Shooter / Licht",
+		"tr_text": "Frozen Shooter/Licht",
 		"jp_explain": "白夜の色を抱く長銃。\n出自の仔細は不明だが、性能は高く\n全クラス装備可能な、特殊な武器。",
 		"tr_explain": "A rifle bearing the color of midnight\nsun. Origins unknown, but can be\nequipped by all classes."
 	},
@@ -653,7 +653,7 @@
 	{
 		"assign": "180149",
 		"jp_text": "スカルソーサラー／リヒト",
-		"tr_text": "Skull Sorcerer / Licht",
+		"tr_text": "Skull Sorcerer/Licht",
 		"jp_explain": "白夜の色を抱く長銃。\n出自の仔細は不明だが、性能は高く\n所有者に大きな力を抱かせる。",
 		"tr_explain": "A rifle bearing the color of midnight\nsun. Origins unknown, but can be\nequipped by all classes."
 	},
@@ -779,7 +779,7 @@
 	{
 		"assign": "180192",
 		"jp_text": "Ｍ２５ＳＥミズーリ／リヒト",
-		"tr_text": "M25SE Missouri / Licht",
+		"tr_text": "M25SE Missouri/Licht",
 		"jp_explain": "白夜の色を抱く長銃。\n出自の仔細は不明だが、性能は高く\n所有者に大きな力を抱かせる。",
 		"tr_explain": "A rifle bearing the color of midnight\nsun. Origins unknown, but can be\nequipped by all classes."
 	},
@@ -1704,6 +1704,20 @@
 		"assign": "18010017",
 		"jp_text": "ゴルドプリムライフル",
 		"tr_text": "Gold Prim Rifle",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010019",
+		"jp_text": "エヴォルコートライフル",
+		"tr_text": "Evolcoat Rifle",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010034",
+		"jp_text": "ストラーガライフル",
+		"tr_text": "Stragga Rifle",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

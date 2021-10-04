@@ -347,7 +347,7 @@
 		"jp_text": "ソリッドストレート",
 		"tr_text": "Solid Straight",
 		"jp_explain": "魂を込めたストレートを放つ導具。\n途中でチャージすれば止まる魔球に変化。\n全クラス装備可能な、特殊な武器。",
-		"tr_explain": ""
+		"tr_explain": "A Talis whose fastball has its own soul,\nand can hang in the air if you charge a\nTech mid-flight. Usable by all classes."
 	},
 	{
 		"assign": "112064",
@@ -555,7 +555,7 @@
 	{
 		"assign": "1120114",
 		"jp_text": "ガルウィンド／ナハト",
-		"tr_text": "Gal Wind / Nacht",
+		"tr_text": "Gal Wind/Nacht",
 		"jp_explain": "闇夜の色を抱く導具。\n出自の仔細は不明だが、性能は高く\n所有者に大きな力を抱かせる。",
 		"tr_explain": "A Talis painted black as night. Its\norigins are unknown, but it inspires\ngreatness in its owner."
 	},
@@ -788,7 +788,7 @@
 		"jp_text": "トウユエン",
 		"tr_text": "Touyuen",
 		"jp_explain": "独特の裝飾が特徴的な導具。\n大気中のフォトンを多く取り込むため\n大型で非常に重いが、高い威力を持つ。",
-		"tr_explain": ""
+		"tr_explain": "A Talis with unique decorations. Draws\na high amount of atmospheric Photons,\nmaking it weighty but very powerful."
 	},
 	{
 		"assign": "1120181",
@@ -1662,6 +1662,20 @@
 		"assign": "112010013",
 		"jp_text": "ゴルドプリムタリス",
 		"tr_text": "Gold Prim Talis",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010014",
+		"jp_text": "エヴォルコートタリス",
+		"tr_text": "Evolcoat Talis",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010027",
+		"jp_text": "ストラーガタリス",
+		"tr_text": "Stragga Talis",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

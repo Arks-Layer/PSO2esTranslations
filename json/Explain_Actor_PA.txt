@@ -387,9 +387,9 @@
 	{
 		"assign": "DsaberPA12",
 		"jp_text": "ダブルセイバーPA12",
-		"tr_text": "",
+		"tr_text": "dummy",
 		"jp_explain": "ダブルセイバーPA12",
-		"tr_explain": ""
+		"tr_explain": "dummy"
 	},
 	{
 		"assign": "KnucklePA01",
@@ -676,7 +676,7 @@
 		"jp_text": "フェイクシルエット",
 		"tr_text": "Fake Silhouette",
 		"jp_explain": "『大砲』用のフォトンアーツ。\n囮を生みだす特殊弾丸を発射。\nJAによる威力上昇は発生しない。",
-		"tr_explain": "PA ПУ. Выстреливает ракету\nприманку, которая детонирует\nсо временем. Не увеличивается\nурон от Just Attacks."
+		"tr_explain": "ФА ПУ. Выстреливает ракету\nприманку, которая детонирует\nсо временем. Не увеличивается\nурон от Just Attacks."
 	},
 	{
 		"assign": "LauncherPA09",
@@ -1012,28 +1012,28 @@
 		"jp_text": "ライジングスラッシュ",
 		"tr_text": "Rising Slash",
 		"jp_explain": "『大剣』ヒーロー用フォトンアーツ。\n大剣を上空に投げ、ボタンホールド中\n斬り続ける。最後に強力な斬撃を放つ。 ",
-		"tr_explain": "Hero Sword Photon Art.\nThrow the sword skyward and slash\nby holding. Finish with a power slash."
+		"tr_explain": "Hero Sword Photon Art.\nThrow the sword skyward and slash by holding. Finish with a power slash."
 	},
 	{
 		"assign": "WpnmanSwordPA02",
 		"jp_text": "ブライトネスエンド",
 		"tr_text": "Brightness End",
 		"jp_explain": "『大剣』ヒーロー用フォトンアーツ。\n回避しながら攻撃を行う。\nチャージすると、広範囲攻撃になる。",
-		"tr_explain": "Hero Sword Photon Art.\nAn attack that can block damage.\nCharge for a wide-range slash."
+		"tr_explain": "Hero Sword Photon Art.\nAn attack that can block damage. Charge for a wide-range slash."
 	},
 	{
 		"assign": "WpnmanSwordPA03",
 		"jp_text": "フラッシュオブトリック",
 		"tr_text": "Flash Trick",
 		"jp_explain": "『大剣』ヒーロー用フォトンアーツ。\n高速突進の突きを行う。ボタン長押しで\n導具に持ち替え、追撃する。",
-		"tr_explain": "Hero Sword Photon Art.\nA high-speed dashing stab. Hold to\nfollow up with a Talis attack."
+		"tr_explain": "Hero Sword Photon Art.\nA high-speed dashing stab. Hold to follow up with a Talis attack."
 	},
 	{
 		"assign": "WpnmanSwordPA04",
 		"jp_text": "ヴェイパーオブバレット",
 		"tr_text": "Vapor Bullet",
 		"jp_explain": "『大剣』ヒーロー用フォトンアーツ。\n気弾を連射し移動する。ボタン長押しで\n双機銃に持ち替え、追撃する。",
-		"tr_explain": "Hero Sword Photon Art.\nFire aura bullets while moving.\nHold to follow up with a TMG attack."
+		"tr_explain": "Hero Sword Photon Art.\nFire aura bullets while moving. Hold to follow up with a TMG attack."
 	},
 	{
 		"assign": "WpnmanSwordPA05",
@@ -1052,261 +1052,261 @@
 	{
 		"assign": "WpnmanMachinegunPA01",
 		"jp_text": "ブランニュースター",
-		"tr_text": "",
+		"tr_text": "Brand New Star",
 		"jp_explain": "『双機銃』ヒーロー用フォトンアーツ。\n片手撃ちの連射を目標に見舞う。\n攻撃回避後に放つと銃弾が強化される。",
-		"tr_explain": ""
+		"tr_explain": "Hero Twin Machinegun Photon Art.\nFire at the target one-handed. Stronger if used after avoiding damage."
 	},
 	{
 		"assign": "WpnmanMachinegunPA02",
 		"jp_text": "ファイナルストーム",
-		"tr_text": "",
+		"tr_text": "Final Storm",
 		"jp_explain": "『双機銃』ヒーロー用フォトンアーツ。\n任意の方向に前進移動を行いながら\n射撃で、周囲の敵を一掃する。",
-		"tr_explain": ""
+		"tr_explain": "Hero Twin Machinegun Photon Art.\nShoot while moving in any direction, clearing out surrounding enemies."
 	},
 	{
 		"assign": "WpnmanMachinegunPA03",
 		"jp_text": "セカンドオブエッジ",
-		"tr_text": "",
+		"tr_text": "Second Edge",
 		"jp_explain": "『双機銃』ヒーロー用フォトンアーツ。\n目標との距離を詰め、双機銃で撃ち放ち\n長押しで大剣に持ち替え、追撃する。",
-		"tr_explain": ""
+		"tr_explain": "Hero Twin Machinegun Photon Art.\nFire from point-blank range. Hold the button to follow up with a Sword attack."
 	},
 	{
 		"assign": "WpnmanMachinegunPA04",
 		"jp_text": "モーメントオブトリック",
-		"tr_text": "",
+		"tr_text": "Moment Trick",
 		"jp_explain": "『双機銃』ヒーロー用フォトンアーツ。\n目標に向かって高速の射撃を行った後\n長押しで導具に持ち替え、追撃する。",
-		"tr_explain": ""
+		"tr_explain": "Hero Twin Machinegun Photon Art.\nFire towards the target. Hold the button to follow up with a Talis attack."
 	},
 	{
 		"assign": "WpnmanTalisPA01",
 		"jp_text": "ジェットホイール",
-		"tr_text": "",
+		"tr_text": "Jet Wheel",
 		"jp_explain": "『導具』ヒーロー用フォトンアーツ。\n標的を斬り裂く手裏剣を展開する。\n他のＨｒ武器へ持ち替えても効果は残る。",
-		"tr_explain": ""
+		"tr_explain": "Hero Talis Photon Art.\nDeploy a shuriken that slashes targets. Persists if you switch to another Hero weapon."
 	},
 	{
 		"assign": "WpnmanTalisPA02",
 		"jp_text": "ワイズハウンド",
-		"tr_text": "",
+		"tr_text": "Wise Hound",
 		"jp_explain": "『導具』ヒーロー用フォトンアーツ。\n標的をとらえ斬り続ける手裏剣を放つ。\n他のＨｒ武器へ持ち替えても効果は残る。",
-		"tr_explain": ""
+		"tr_explain": "Hero Talis Photon Art.\nThrow shurikens that tear into the target. Persists if you switch to another Hero weapon."
 	},
 	{
 		"assign": "WpnmanTalisPA03",
 		"jp_text": "ダイブオブバレット",
-		"tr_text": "",
+		"tr_text": "Dive Bullet",
 		"jp_explain": "『導具』ヒーロー用フォトンアーツ。\n後方に移動し、標的を怯ます導具を放ち\n長押しで双機銃に持ち替え、追撃する。",
-		"tr_explain": ""
+		"tr_explain": "Hero Talis Photon Art.\nEscape with a throw of the Talis. Hold the button to follow up with a Twin Machinegun attack."
 	},
 	{
 		"assign": "WpnmanTalisPA04",
 		"jp_text": "レーサーオブエッジ",
-		"tr_text": "",
+		"tr_text": "Racer Edge",
 		"jp_explain": "『導具』ヒーロー用フォトンアーツ。\n導具を投げ、当てた先に向けて急接近し\n長押しで大剣に持ち替え、追撃する。",
-		"tr_explain": ""
+		"tr_explain": "Hero Talis Photon Art.\nThrow the Talis to approach the target. Hold the button to follow up with a Sword attack."
 	},
 	{
 		"assign": "VillainKatanaPA01",
 		"jp_text": "シュメッターリング",
-		"tr_text": "",
+		"tr_text": "Schmetterling",
 		"jp_explain": "『抜剣』ファントム用フォトンアーツ。\n素早く間合いを詰める格闘攻撃を行う。\n武器アクション中の使用で動作が変化。",
-		"tr_explain": ""
+		"tr_explain": "Phantom Katana Photon Art.\nClose in on the enemy for a brutal attack.\nShift PA: Slide-kick forward while slashing."
 	},
 	{
 		"assign": "VillainKatanaPA02",
 		"jp_text": "フォルターツァイト",
-		"tr_text": "",
+		"tr_text": "Folter Zeit",
 		"jp_explain": "『抜剣』ファントム用フォトンアーツ。\n前方を連続で斬りつける攻撃を行う。\n武器アクション中の使用で動作が変化。",
-		"tr_explain": ""
+		"tr_explain": "Phantom Katana Photon Art.\nRepeatedly slash anything in front of you.\nShift PA: Cut through enemies at blinding speed."
 	},
 	{
 		"assign": "VillainKatanaPA03",
 		"jp_text": "ヴォルケンクラッツァー",
-		"tr_text": "",
+		"tr_text": "Wolkenkratzer",
 		"jp_explain": "『抜剣』ファントム用フォトンアーツ。\n衝撃波を伴う降下攻撃を行う。\n武器アクション中の使用で動作が変化。",
-		"tr_explain": ""
+		"tr_explain": "Phantom Katana Photon Art.\nPlunge from the sky, creating a shockwave.\nShift PA: Jump and fire a short-range projectile."
 	},
 	{
 		"assign": "VillainKatanaPA04",
 		"jp_text": "ローゼシュヴェルト",
-		"tr_text": "",
+		"tr_text": "Rose Schwert",
 		"jp_explain": "『抜剣』ファントム用フォトンアーツ。\n距離を取り、強力な突き攻撃を行う。\n武器アクション中の使用で動作が変化。",
-		"tr_explain": ""
+		"tr_explain": "Phantom Katana Photon Art.\nDraw back, then thrust in for a powerful strike.\nShift PA: Perform a slash that lingers in the air."
 	},
 	{
 		"assign": "VillainRiflePA01",
 		"jp_text": "クーゲルシュトゥルム",
-		"tr_text": "",
+		"tr_text": "Kugelsturm",
 		"jp_explain": "『長銃』ファントム用フォトンアーツ。\n前方広範囲に掃射を行う。\n武器アクション中の使用で動作が変化。",
-		"tr_explain": ""
+		"tr_explain": "Phantom Rifle Photon Art Cover a wide area with sweeping gunfire.\nShift PA: Hold the button to fire at full-auto."
 	},
 	{
 		"assign": "VillainRiflePA02",
 		"jp_text": "ナハトアングリフ",
-		"tr_text": "",
+		"tr_text": "Nachtangriff",
 		"jp_explain": "『長銃』ファントム用フォトンアーツ。\nボタンを離すと起爆するビットを放つ。\n武器アクション中の使用で動作が変化。",
-		"tr_explain": ""
+		"tr_explain": "Phantom Rifle Photon Art Hold button to fire a Bit, release to detonate.\nShift PA: Run forward, then fire piercing shots."
 	},
 	{
 		"assign": "VillainRiflePA03",
 		"jp_text": "フェアブレッヒェン",
-		"tr_text": "",
+		"tr_text": "Verbrechen",
 		"jp_explain": "『長銃』ファントム用フォトンアーツ。\n移動しながらビットを並べる。\n武器アクション中の使用で動作が変化。",
-		"tr_explain": ""
+		"tr_explain": "Phantom Rifle Photon Art Move together in formation with your Bits.\nShift PA: Deploy a Bit that fires homing shots."
 	},
 	{
 		"assign": "VillainRiflePA04",
 		"jp_text": "シュトラーフェ",
-		"tr_text": "",
+		"tr_text": "Strafe",
 		"jp_explain": "『長銃』ファントム用フォトンアーツ。\n標的を攻撃し続けるビットを放つ。\n武器アクション中の使用で動作が変化。",
-		"tr_explain": ""
+		"tr_explain": "Phantom Rifle Photon Art Fire Bits that continuously attack all targets.\nShift PA: Deploy a Bit as an electric landmine."
 	},
 	{
 		"assign": "VillainRodPA01",
 		"jp_text": "ルーフコンツェルト",
-		"tr_text": "",
+		"tr_text": "Ruf Konzert",
 		"jp_explain": "『長杖』ファントム用フォトンアーツ。\n連撃を繰り出し、衝撃波を飛ばす。\n武器アクション中の使用で動作が変化。",
-		"tr_explain": ""
+		"tr_explain": "Phantom Rod Photon Art Slash repeatedly to launch a shockwave.\nShift PA: Throw a spinning, piercing projectile."
 	},
 	{
 		"assign": "VillainRodPA02",
 		"jp_text": "フェルカーモルト",
-		"tr_text": "",
+		"tr_text": "Voelkermord",
 		"jp_explain": "『長杖』ファントム用フォトンアーツ。\n自分の周囲に衝撃波を放つ。\n武器アクション中の使用で動作が変化。",
-		"tr_explain": ""
+		"tr_explain": "Phantom Rod Photon Art Charge up and create a wide-area shockwave.\nShift PA: Cast a damaging field around yourself."
 	},
 	{
 		"assign": "VillainRodPA03",
 		"jp_text": "シュヴァルツカッツェ",
-		"tr_text": "",
+		"tr_text": "Schwarze Katze",
 		"jp_explain": "『長杖』ファントム用フォトンアーツ。\n武器で切りつけた後、高速で離脱する。\n武器アクション中の使用で動作が変化。",
-		"tr_explain": ""
+		"tr_explain": "Phantom Rod Photon Art Slash with the rod, then retreat at high speed.\nShift PA: Teleport to an enemy and strike."
 	},
 	{
 		"assign": "VillainRodPA04",
 		"jp_text": "アイゼンフリューゲル",
-		"tr_text": "",
+		"tr_text": "Eisen Fluegel",
 		"jp_explain": "『長杖』ファントム用フォトンアーツ。\nテクニック起点となるタリスを放つ。\n武器アクション中の使用で動作が変化。",
-		"tr_explain": ""
+		"tr_explain": "Phantom Rod Photon Art Fire a Talis, which can be used to cast Techs.\nShift PA: Fire an orb that detonates repeatedly."
 	},
 	{
 		"assign": "MasterDsaberPA01",
 		"jp_text": "アブソリュートクエーサー",
-		"tr_text": "",
+		"tr_text": "Absolute Quasar",
 		"jp_explain": "『両剣』エトワール用ＰＡ。\n目標に高速で接近し、多彩な斬撃を\n繰り出して周囲を薙ぎ払う。",
-		"tr_explain": ""
+		"tr_explain": "Etoile Double Saber Photon Art.\nApproach at high speed and slash repeatedly. Unleash a wide-area attack around you."
 	},
 	{
 		"assign": "MasterDsaberPA02",
 		"jp_text": "セイバーデストラクション",
-		"tr_text": "",
+		"tr_text": "Saber Destruction",
 		"jp_explain": "『両剣』エトワール用ＰＡ。\n高速で周回するフォトンの刃をまとい\n幾重にも目標を斬りつける。",
-		"tr_explain": ""
+		"tr_explain": "Etoile Double Saber Photon Art.\nTravel in a wreath of spinning Photon blades. Use your blades to slash the target."
 	},
 	{
 		"assign": "MasterDsaberPA03",
 		"jp_text": "シューティングスター",
-		"tr_text": "",
+		"tr_text": "Shooting Star",
 		"jp_explain": "『両剣』エトワール用ＰＡ。\n飛び上がって大きく薙ぎ払った後\nフォトンの剣を流星の如く降らせる。",
-		"tr_explain": ""
+		"tr_explain": "Etoile Double Saber Photon Art.\nLeap into the air and slash downward. Rain Photon blades down on the target."
 	},
 	{
 		"assign": "MasterDsaberPA04",
 		"jp_text": "セレスティアルコライド",
-		"tr_text": "",
+		"tr_text": "Celestial Collide",
 		"jp_explain": "『両剣』エトワール用ＰＡ。\nかかと落としと同時に放った攻撃の後\n大きなフォトン刃を目標に蹴り放つ。",
-		"tr_explain": ""
+		"tr_explain": "Etoile Double Saber Photon Art.\nDrop your heel with blades attached. Kick a massive Photon blade at the target."
 	},
 	{
 		"assign": "MasterDbladePA01",
 		"jp_text": "ディストーションピアス",
-		"tr_text": "",
+		"tr_text": "Distortion Pierce",
 		"jp_explain": "『飛翔剣』エトワール用ＰＡ。\n目標を両手の刃で突き刺して切り裂き\n追撃でフォトンの刃を放つ。",
-		"tr_explain": ""
+		"tr_explain": "Etoile Dual Blade Photon Art.\nPierce the target with both blades and tear it apart, while giant blades slash ahead."
 	},
 	{
 		"assign": "MasterDbladePA02",
 		"jp_text": "ラディアントスティング",
-		"tr_text": "",
+		"tr_text": "Radiant Sting",
 		"jp_explain": "『飛翔剣』エトワール用ＰＡ。\n空中連撃の後、重い一撃を叩きつけ\n追撃でフォトンの刃が周囲を薙ぐ。",
-		"tr_explain": ""
+		"tr_explain": "Etoile Dual Blade Photon Art.\nLeap forward and land a heavy blow, while blades slash the spot that you leapt from."
 	},
 	{
 		"assign": "MasterDbladePA03",
 		"jp_text": "バーティカルフロウ",
-		"tr_text": "",
+		"tr_text": "Vertical Flow",
 		"jp_explain": "『飛翔剣』エトワール用ＰＡ。\n急上昇の後、直下への強襲を放ち\n追撃でフォトンの刃を展開。",
-		"tr_explain": ""
+		"tr_explain": "Etoile Dual Blade Photon Art.\nRise up into the air and plunge to the ground, while giant blades home in on your target."
 	},
 	{
 		"assign": "MasterDbladePA04",
 		"jp_text": "ライトウェーブ",
-		"tr_text": "",
+		"tr_text": "Light Wave",
 		"jp_explain": "『飛翔剣』エトワール用ＰＡ。\n連撃と共に巨大な衝撃波を幾重にも放ち\n追撃でフォトンの刃を展開、敵を貫く。",
-		"tr_explain": ""
+		"tr_explain": "Etoile Dual Blade Photon Art.\nFire off several shockwaves, while blades streak forward to impale the enemy."
 	},
 	{
 		"assign": "MasterWandPA01",
 		"jp_text": "プリズムサーキュラー",
-		"tr_text": "",
+		"tr_text": "Prism Circular",
 		"jp_explain": "『短杖』エトワール用ＰＡ。\n流れるフォトン帯を纏い、連撃を放つ。\nＰＡ中に武器アクションで性能が変化。",
-		"tr_explain": ""
+		"tr_explain": "Etoile Wand Photon Art.\nWrap yourself in Photons, then unleash them. Focused, unleash them as a close-range wave."
 	},
 	{
 		"assign": "MasterWandPA02",
 		"jp_text": "グリッターストライプ",
-		"tr_text": "",
+		"tr_text": "Glitter Stripe",
 		"jp_explain": "『短杖』エトワール用ＰＡ。\nフォトン帯を収束させ、目標に放つ。\nＰＡ中に武器アクションで性能が変化。",
-		"tr_explain": ""
+		"tr_explain": "Etoile Wand Photon Art.\nConverge and detonate streams of Photons. Focused, the detonation is smaller."
 	},
 	{
 		"assign": "MasterWandPA03",
 		"jp_text": "ブラックホールラプチャー",
-		"tr_text": "",
+		"tr_text": "Black Hole Rupture",
 		"jp_explain": "『短杖』エトワール用ＰＡ。\n目標を吸い寄せ、爆発を発生させる。\nＰＡ中に武器アクションで性能が変化。",
-		"tr_explain": ""
+		"tr_explain": "Etoile Wand Photon Art.\nDraw the target in and rend space around it. Focused, the area is smaller but lasts longer."
 	},
 	{
 		"assign": "MasterWandPA04",
 		"jp_text": "ルミナスフレア",
-		"tr_text": "",
+		"tr_text": "Luminous Flare",
 		"jp_explain": "『短杖』エトワール用ＰＡ。\nフォトンの束を前方に激しく放つ。\nＰＡ中に武器アクションで性能が変化。",
-		"tr_explain": ""
+		"tr_explain": "Etoile Wand Photon Art.\nProject a long-range beam of Photons ahead. Focused, fire a short-range blast instead."
 	},
 	{
 		"assign": "SlayerGunSlashPA01",
 		"jp_text": "フレシェット",
-		"tr_text": "",
+		"tr_text": "Flechette",
 		"jp_explain": "『銃剣』ラスター用ＰＡ。\n瞬時に目標へと詰め寄り\n猛烈な斬撃を叩き込む。",
-		"tr_explain": ""
+		"tr_explain": "Luster Gunslash Photon Art.\nClose in on the target and slash them. Stay: Fire a mid-range stunning shot."
 	},
 	{
 		"assign": "SlayerGunSlashPA02",
 		"jp_text": "ブランドエクステンション",
-		"tr_text": "",
+		"tr_text": "Brand Extension",
 		"jp_explain": "『銃剣』ラスター用ＰＡ。\n銃剣とフォトンの剣による斬撃で\n目標を華麗に斬りつける。",
-		"tr_explain": ""
+		"tr_explain": "Luster Gunslash Photon Art.\nConjure a Photon blade from your Gunslash and slash the target with both weapons."
 	},
 	{
 		"assign": "SlayerGunSlashPA03",
 		"jp_text": "スラッグスキャッター",
-		"tr_text": "",
+		"tr_text": "Slug Scatter",
 		"jp_explain": "『銃剣』ラスター用ＰＡ。\n飛び上がり、散弾を一気に放つ。\n多数の目標を巻き込んだ攻撃が可能。",
-		"tr_explain": ""
+		"tr_explain": "Luster Gunslash Photon Art.\nLeap into the air and fire a spread of buckshot. Stay: Fire a concentrated, high-recoil burst."
 	},
 	{
 		"assign": "SlayerGunSlashPA04",
 		"jp_text": "ホローポイント",
-		"tr_text": "",
+		"tr_text": "Hollow Point",
 		"jp_explain": "『銃剣』ラスター用ＰＡ。\n高い貫通性能を誇る弾丸をさらに\n跳弾させ、標的を逃がさない。",
-		"tr_explain": ""
+		"tr_explain": "Luster Gunslash Photon Art.\nFire a powerful piercing bullet. Enhanced: Fire a second ricocheting bullet."
 	},
 	{
 		"assign": "SlayerGunSlashAutoPA",
 		"jp_text": "スマートＰＡ",
-		"tr_text": "",
+		"tr_text": "Smart PA",
 		"jp_explain": "『銃剣』ラスター用ＰＡ。\n戦況に応じて適切なＰＡが発動する。\n臨機応変な戦闘が可能な特殊ＰＡ。",
-		"tr_explain": ""
+		"tr_explain": "Luster Gunslash Photon Art.\nAutomatically activates a PA appropriate to your situation."
 	},
 	{
 		"assign": "Fire01",
@@ -1628,525 +1628,525 @@
 		"jp_text": "ワンダスライサー",
 		"tr_text": "Wanda Slicer",
 		"jp_explain": "『ワンダ』用のフォトンアーツ。\n広範囲にわたる素早い双撃で\n数多の敵を同時に攻撃する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Wanda.\nPerforms two quick, wide-range attacks that can hit multiple enemies."
 	},
 	{
 		"assign": "PetAPA02",
 		"jp_text": "ワンダショック",
 		"tr_text": "Wanda Shock",
 		"jp_explain": "『ワンダ』用のフォトンアーツ。\n閃光を伴う衝撃波を発生させ\n敵の目をくらませ、気絶させる。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Wanda.\nGenerates a shockwave along with a flash of light that blinds enemies, stunning them."
 	},
 	{
 		"assign": "PetAPA03",
 		"jp_text": "ワンダブレイク",
 		"tr_text": "Wanda Break",
 		"jp_explain": "『ワンダ』用のフォトンアーツ。\n円を描くような、強力な一撃を放つ。\n範囲は狭いが、周囲の敵をなぎ倒せる。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Wanda.\nUnleashes a powerful strike as if drawing a narrow circle. Can knock enemies down."
 	},
 	{
 		"assign": "PetAPA04",
 		"jp_text": "ワンダパルサー",
 		"tr_text": "Wanda Pulsar",
 		"jp_explain": "『ワンダ』用のフォトンアーツ。\n跳ねるように敵を突き上げて攻撃する。\nヒットした敵に持続ダメージが発生。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Wanda.\nStrikes enemies with a leaping attack. Applies a damage-over-time effect to struck enemies."
 	},
 	{
 		"assign": "PetAPA05",
 		"jp_text": "ワンダアサルト",
-		"tr_text": "",
+		"tr_text": "Wanda Assault",
 		"jp_explain": "『ワンダ』用のフォトンアーツ。\nフォトンをまとい、一直線に突撃をし\nその後、プレイヤーの元へと戻る。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Wanda.\nRaces ahead as a bolt of Photons, then returns to its master."
 	},
 	{
 		"assign": "PetBPA01",
 		"jp_text": "トリムシャウト",
-		"tr_text": "",
+		"tr_text": "Torim Shout",
 		"jp_explain": "『トリム』用のフォトンアーツ。\n咆哮と共に気合を溜める。一定時間\n特定のフォトンアーツの威力が上がる。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Torim.\nShouts to build up its fighting spirit. The power of specific PAs temporarily rises."
 	},
 	{
 		"assign": "PetBPA02",
 		"jp_text": "トリムスタッブ",
-		"tr_text": "",
+		"tr_text": "Torim Stab",
 		"jp_explain": "『トリム』用のフォトンアーツ。\n瞬時に敵に近づき、体当たりで攻撃。\n攻撃と同時に敵の反対側へ回る。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Torim.\nRushes the enemy and attacks with a body blow while circling around behind them."
 	},
 	{
 		"assign": "PetBPA03",
 		"jp_text": "トリムスラッシュ",
-		"tr_text": "",
+		"tr_text": "Torim Slash",
 		"jp_explain": "『トリム』用のフォトンアーツ。\n双翼のフォトンによる連続攻撃を行う。\n幾重にも渡る翼撃は敵を切り刻む。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Torim.\nUses Photons to batter the enemy with both wings, tearing them to shreds."
 	},
 	{
 		"assign": "PetBPA04",
 		"jp_text": "トリムスパイラル",
-		"tr_text": "",
+		"tr_text": "Torim Spiral",
 		"jp_explain": "『トリム』用のフォトンアーツ。\n力を溜め、必殺の突撃を放つ。\nボタンホールドで溜め、離すと発動。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Torim.\nBuilds up power for a deadly assault. Charge by holding the button, release to activate."
 	},
 	{
 		"assign": "PetBPA05",
 		"jp_text": "トリムバレット",
-		"tr_text": "",
+		"tr_text": "Torim Bullet",
 		"jp_explain": "『トリム』用のフォトンアーツ。\n宙返りと共に羽根弾を発射する。\nその後、プレイヤーの元へと戻る。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Torim.\nFires feathers like a bullet while somersaulting, then returns to its master."
 	},
 	{
 		"assign": "PetCPA01",
 		"jp_text": "サリィプロード",
-		"tr_text": "",
+		"tr_text": "Cery Plode",
 		"jp_explain": "『サリィ』用のフォトンアーツ。\n凝縮されたフォトン炸裂弾を発射する。\n炸裂弾は放物線を描き飛んで行く。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Cery.\nFires an explosive condensed-Photon bullet. The bullet arcs downward as it travels."
 	},
 	{
 		"assign": "PetCPA02",
 		"jp_text": "サリィフォール",
-		"tr_text": "",
+		"tr_text": "Cery Fall",
 		"jp_explain": "『サリィ』用のフォトンアーツ。\nフォトンによる重力場を形成し\n敵を捕らえ、行動を阻害する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Cery.\nUses Photons to create a gravitational field that draws enemies in and holds them in place."
 	},
 	{
 		"assign": "PetCPA03",
 		"jp_text": "サリィテリトリー",
-		"tr_text": "",
+		"tr_text": "Cery Territory",
 		"jp_explain": "『サリィ』用のフォトンアーツ。\n激化するフォトンによる攻撃。\nボタンホールドで威力が上昇する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Cery.\nAttacks by intensifying Photons in the air. Power rises as the button is held."
 	},
 	{
 		"assign": "PetCPA04",
 		"jp_text": "サリィチェイサー",
-		"tr_text": "",
+		"tr_text": "Cery Chaser",
 		"jp_explain": "『サリィ』用のフォトンアーツ。\n敵をなぎ倒して進む追尾弾を発射する。\n弾速は速いが、持続性は低い。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Cery.\nFires a homing bullet that chases down the enemy. While fast, the bullet expires quickly."
 	},
 	{
 		"assign": "PetCPA05",
 		"jp_text": "サリィカース",
-		"tr_text": "",
+		"tr_text": "Cery Curse",
 		"jp_explain": "『サリィ』用のフォトンアーツ。\nジェルン効果を持つ追尾弾を敵へ放つ。\nジェルンは攻撃力を低下させる。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Cery.\nFires a homing bullet which carries a Jellen effect. Jellen reduces attack power."
 	},
 	{
 		"assign": "PetDPA01",
 		"jp_text": "マロンストライク",
-		"tr_text": "",
+		"tr_text": "Maron Strike",
 		"jp_explain": "『マロン』用のフォトンアーツ。\nマロン本体を掴んで敵に投げつける。\n敵にヒットするとマロンが爆発する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Maron.\nGrab Maron and throw it at the target. Maron explodes on contact with the enemy."
 	},
 	{
 		"assign": "PetDPA02",
 		"jp_text": "マロンブレイク",
-		"tr_text": "",
+		"tr_text": "Maron Break",
 		"jp_explain": "『マロン』用のフォトンアーツ。\n円を描くような、強力な一撃を放つ。\n敵に囲まれている時などに有効。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Maron.\nUnleashes a powerful strike as if drawing a circle. Effective when surrounded by enemies."
 	},
 	{
 		"assign": "PetDPA03",
 		"jp_text": "マロンチェイサー",
-		"tr_text": "",
+		"tr_text": "Maron Chaser",
 		"jp_explain": "『マロン』用のフォトンアーツ。\n持続性の高い追尾弾を発射する。\n威力は低いが、柔軟性に富んでいる。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Maron.\nFires a long-lasting homing bullet. The bullet's power is low, but it hits multiple targets."
 	},
 	{
 		"assign": "PetDPA04",
 		"jp_text": "マロンシールド",
-		"tr_text": "",
+		"tr_text": "Maron Shield",
 		"jp_explain": "『マロン』用のフォトンアーツ。\nマロンを盾にして敵の攻撃を防ぐ。\nボタンホールドで防ぎ続ける。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Maron.\nUse Maron as a shield, blocking enemy attacks as long as the button is held."
 	},
 	{
 		"assign": "PetDPA05",
 		"jp_text": "マロンカース",
-		"tr_text": "",
+		"tr_text": "Maron Curse",
 		"jp_explain": "『マロン』用のフォトンアーツ。\n持続ダメージが発生する弾を放つ。\n弾は追尾性で緩やかに対象へ向かう。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Maron.\nFires a bullet with a damage-over-time effect. The bullet slowly but surely tracks its target."
 	},
 	{
 		"assign": "PetD2PA01",
 		"jp_text": "メロンストライク",
-		"tr_text": "",
+		"tr_text": "Melon Strike",
 		"jp_explain": "『メロン』用のフォトンアーツ。\nメロン本体を掴んで敵に投げつける。\n敵にヒットするとメロンが爆発する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Melon.\nGrab Melon and throw it at the target. Melon explodes on contact with the enemy."
 	},
 	{
 		"assign": "PetD2PA02",
 		"jp_text": "メロンブレイク",
-		"tr_text": "",
+		"tr_text": "Melon Break",
 		"jp_explain": "『メロン』用のフォトンアーツ。\n円を描くような、強力な一撃を放つ。\n敵に囲まれている時などに有効。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Melon.\nUnleashes a powerful strike as if drawing a circle. Effective when surrounded by enemies."
 	},
 	{
 		"assign": "PetD2PA03",
 		"jp_text": "メロンチェイサー",
-		"tr_text": "",
+		"tr_text": "Melon Chaser",
 		"jp_explain": "『メロン』用のフォトンアーツ。\n持続性の高い追尾弾を発射する。\n威力は低いが、柔軟性に富んでいる。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Melon.\nFires a long-lasting homing bullet. The bullet's power is low, but it hits multiple targets."
 	},
 	{
 		"assign": "PetD2PA04",
 		"jp_text": "メロンシールド",
-		"tr_text": "",
+		"tr_text": "Melon Shield",
 		"jp_explain": "『メロン』用のフォトンアーツ。\nメロンを盾にして敵の攻撃を防ぐ。\nボタンホールドで防ぎ続ける。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Melon.\nUse Melon as a shield, blocking enemy attacks as long as the button is held."
 	},
 	{
 		"assign": "PetD2PA05",
 		"jp_text": "メロンカース",
-		"tr_text": "",
+		"tr_text": "Melon Curse",
 		"jp_explain": "『メロン』用のフォトンアーツ。\n持続ダメージが発生する弾を放つ。\n弾は追尾性で緩やかに対象へ向かう。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Melon.\nFires a bullet with a damage-over-time effect. The bullet slowly but surely tracks its target."
 	},
 	{
 		"assign": "PetEPA01",
 		"jp_text": "ヴィオラチェンジ",
-		"tr_text": "",
+		"tr_text": "Viola Change",
 		"jp_explain": "『ヴィオラ』用のフォトンアーツ。\n鈍重かつ頑強なモードに変化する。\n再び使用すると元のモードに戻る。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Viola.\nTransforms, becoming slower but much more powerful. When used again, changes back."
 	},
 	{
 		"assign": "PetEPA02",
 		"jp_text": "ヴィオラスライサー",
-		"tr_text": "",
+		"tr_text": "Viola Slicer",
 		"jp_explain": "『ヴィオラ』用のフォトンアーツ。\n広範囲にわたる薙ぎ払いで\n数多の敵を同時に攻撃する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Viola.\nPerforms a wide-range attack that can hit multiple enemies."
 	},
 	{
 		"assign": "PetEPA03",
 		"jp_text": "ヴィオラスタンプ",
-		"tr_text": "",
+		"tr_text": "Viola Stamp",
 		"jp_explain": "『ヴィオラ』用のフォトンアーツ。\n踏み付けによる衝撃波を発生させる。\n衝撃波の中心は威力が高い。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Viola.\nGenerates a shockwave by stamping. Most powerful at the center of the shockwave."
 	},
 	{
 		"assign": "PetEPA04",
 		"jp_text": "ヴィオラパルサー",
-		"tr_text": "",
+		"tr_text": "Viola Pulsar",
 		"jp_explain": "『ヴィオラ』用のフォトンアーツ。\n跳ねるように敵を突き上げて攻撃する。\nヒットした敵に持続ダメージが発生。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Viola.\nStrikes enemies with a leaping attack. Applies a damage-over-time effect to struck enemies."
 	},
 	{
 		"assign": "PetEPA05",
 		"jp_text": "ヴィオラアサルト",
-		"tr_text": "",
+		"tr_text": "Viola Assault",
 		"jp_explain": "『ヴィオラ』用のフォトンアーツ。\nフォトンをまとい、一直線に突撃をし\nその後、プレイヤーの元へと戻る。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Viola.\nRaces ahead as a bolt of Photons, then returns to its master."
 	},
 	{
 		"assign": "PetFPA01",
 		"jp_text": "ラッピーメロディー",
 		"tr_text": "Rappy Melody",
 		"jp_explain": "『ラッピー』用のフォトンアーツ。\n心地よい旋律で敵にダメージを与え\n味方を回復する領域を作り出す。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Rappy.\nSings a pleasant melody, healing nearby allies and damaging nearby enemies."
 	},
 	{
 		"assign": "PetFPA02",
 		"jp_text": "ラッピードロップ",
 		"tr_text": "Rappy Drop",
 		"jp_explain": "『ラッピー』用のフォトンアーツ。\n一生懸命に羽ばたき、落下することで\n衝撃波を発生させる。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Rappy.\nFlapping its wings as hard as it can, it drops out of the air, landing with a shockwave."
 	},
 	{
 		"assign": "PetFPA03",
 		"jp_text": "ラッピーキャノン",
 		"tr_text": "Rappy Cannon",
 		"jp_explain": "『ラッピー』用のフォトンアーツ。\nタルから炸裂ラッピー弾を発射する。\nその後、プレイヤーの元へと戻る。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Rappy.\nFires an exploding Rappy bullet from a barrel, then returns to its master."
 	},
 	{
 		"assign": "PetFPA04",
 		"jp_text": "ラッピーソニック",
 		"tr_text": "Rappy Sonic",
 		"jp_explain": "『ラッピー』用のフォトンアーツ。\nかつてないほどに本気なラッピーが\n目標を高速で切り刻む。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Rappy.\nReveals the true power of the Rappy, pulverizing the target with high-speed strikes."
 	},
 	{
 		"assign": "PetFPA05",
 		"jp_text": "ラッピーエンド",
 		"tr_text": "Rappy End",
 		"jp_explain": "『ラッピー』用のフォトンアーツ。\nフォトンによって具現化させた\n極大のラッピーを目標に叩きつける。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Rappy.\nStrikes the target with the biggest Rappy that Photons can create."
 	},
 	{
 		"assign": "PetGPA01",
 		"jp_text": "シンクロウザン",
-		"tr_text": "",
+		"tr_text": "Synchro Zan",
 		"jp_explain": "『シンクロウ』用のフォトンアーツ。\n高速で接近し、フォトンの刃で一閃。\n「繋ぎ」によって威力が上昇する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Synchro.\nCloses in and slashes with a Photon blade.\nWhen used in a combo, power rises."
 	},
 	{
 		"assign": "PetGPA02",
 		"jp_text": "シンクロウキャク",
-		"tr_text": "",
+		"tr_text": "Synchro Kyaku",
 		"jp_explain": "『シンクロウ』用のフォトンアーツ。\n敵の攻撃を回転でいなし、蹴り払う。\n「繋ぎ」によって攻撃範囲が拡大する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Synchro.\nAttacks nearby enemies with a spinning kick.\nWhen used in a combo, range increases."
 	},
 	{
 		"assign": "PetGPA03",
 		"jp_text": "シンクロウケン",
-		"tr_text": "",
+		"tr_text": "Synchro Ken",
 		"jp_explain": "『シンクロウ』用のフォトンアーツ。\n拳による怒涛の乱打をお見舞いする。\n「繋ぎ」によってヒット数が増加する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Synchro.\nDelivers a flurry of punches.\nWhen used in a combo, number of hits rises."
 	},
 	{
 		"assign": "PetGPA04",
 		"jp_text": "シンクロウダン",
-		"tr_text": "",
+		"tr_text": "Synchro Dan",
 		"jp_explain": "『シンクロウ』用のフォトンアーツ。\nプレイヤーの元へ戻り、気弾を発射。\n「繋ぎ」によってバインド効果が発生。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Synchro.\nFires a bullet, then returns to its master.\nWhen used in a combo, carries a Bind effect."
 	},
 	{
 		"assign": "PetGPA05",
 		"jp_text": "シンクロウゲキ",
-		"tr_text": "",
+		"tr_text": "Synchro Geki",
 		"jp_explain": "『シンクロウ』用のフォトンアーツ。\n全身の力を乗せた一撃を叩き込む。\n「繋ぎ」の回数に応じて、威力が上昇。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Synchro.\nStrikes the enemy with its full strength.\nPower rises based on your combo length."
 	},
 	{
 		"assign": "PetMPA01",
 		"jp_text": "ジンガスライサー",
-		"tr_text": "",
+		"tr_text": "Jinga Slicer",
 		"jp_explain": "『ジンガ』用のフォトンアーツ。\n広範囲にわたる素早い双撃で\n数多の敵を同時に攻撃する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Jinga.\nPerforms two quick, wide-range attacks that can hit multiple enemies."
 	},
 	{
 		"assign": "PetMPA02",
 		"jp_text": "ジンガショック",
-		"tr_text": "",
+		"tr_text": "Jinga Shock",
 		"jp_explain": "『ジンガ』用のフォトンアーツ。\n閃光を伴う衝撃波を発生させ\n敵の目をくらませ、気絶させる。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Jinga.\nGenerates a shockwave along with a flash of light that blinds enemies, stunning them."
 	},
 	{
 		"assign": "PetMPA03",
 		"jp_text": "ジンガブレイク",
-		"tr_text": "",
+		"tr_text": "Jinga Break",
 		"jp_explain": "『ジンガ』用のフォトンアーツ。\n円を描くような、強力な一撃を放つ。\n範囲は狭いが、周囲の敵をなぎ倒せる。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Jinga.\nUnleashes a powerful strike as if drawing a narrow circle. Can knock enemies down."
 	},
 	{
 		"assign": "PetMPA04",
 		"jp_text": "ジンガパルサー",
-		"tr_text": "",
+		"tr_text": "Jinga Pulsar",
 		"jp_explain": "『ジンガ』用のフォトンアーツ。\n跳ねるように敵を突き上げて攻撃する。\nヒットした敵に持続ダメージが発生。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Jinga.\nStrikes enemies with a leaping attack. Applies a damage-over-time effect to struck enemies."
 	},
 	{
 		"assign": "PetMPA05",
 		"jp_text": "ジンガアサルト",
-		"tr_text": "",
+		"tr_text": "Jinga Assault",
 		"jp_explain": "『ジンガ』用のフォトンアーツ。\nフォトンをまとい、ジグザグに突撃し\nその後、プレイヤーの元へと戻る。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Jinga.\nRaces ahead as a zig-zagging bolt of Photons, then returns to its master."
 	},
 	{
 		"assign": "PetNPA01",
 		"jp_text": "エアロシャウト",
-		"tr_text": "",
+		"tr_text": "Aero Shout",
 		"jp_explain": "『エアロ』用のフォトンアーツ。\n咆哮と共に気合を溜める。一定時間\n特定のフォトンアーツの威力が上がる。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Aero.\nShouts to build up its fighting spirit. The power of specific PAs temporarily rises."
 	},
 	{
 		"assign": "PetNPA02",
 		"jp_text": "エアロスタッブ",
-		"tr_text": "",
+		"tr_text": "Aero Stab",
 		"jp_explain": "『エアロ』用のフォトンアーツ。\n瞬時に敵に近づき、体当たりで攻撃。\n攻撃と同時に敵の反対側へ回る。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Aero.\nRushes the enemy and attacks with a body blow while circling around behind them."
 	},
 	{
 		"assign": "PetNPA03",
 		"jp_text": "エアロスラッシュ",
-		"tr_text": "",
+		"tr_text": "Aero Slash",
 		"jp_explain": "『エアロ』用のフォトンアーツ。\n双翼のフォトンによる連続攻撃を行う。\n幾重にも渡る翼撃は敵を切り刻む。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Aero.\nUses Photons to batter the enemy with both wings, tearing them to shreds."
 	},
 	{
 		"assign": "PetNPA04",
 		"jp_text": "エアロスパイラル",
-		"tr_text": "",
+		"tr_text": "Aero Spiral",
 		"jp_explain": "『エアロ』用のフォトンアーツ。\n力を溜め、必殺の一撃を放つ。\nボタンホールドで溜め、離すと発動。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Aero.\nBuilds up power for a deadly strike. Charge by holding the button, release to activate."
 	},
 	{
 		"assign": "PetNPA05",
 		"jp_text": "エアロバレット",
-		"tr_text": "",
+		"tr_text": "Aero Bullet",
 		"jp_explain": "『エアロ』用のフォトンアーツ。\n宙返りと共に羽根弾を発射する。\nその後、プレイヤーの元へと戻る。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Aero.\nFires feathers like a bullet while somersaulting, then returns to its master."
 	},
 	{
 		"assign": "PetOPA01",
 		"jp_text": "ポップルプロード",
-		"tr_text": "",
+		"tr_text": "Popple Splode",
 		"jp_explain": "『ポップル』用のフォトンアーツ。\n凝縮されたフォトン炸裂弾を発射する。\nチャージで威力上昇。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Popple.\nFires an explosive condensed-Photon bullet. Can be charged to increase power."
 	},
 	{
 		"assign": "PetOPA02",
 		"jp_text": "ポップルフォール",
-		"tr_text": "",
+		"tr_text": "Popple Fall",
 		"jp_explain": "『ポップル』用のフォトンアーツ。\nフォトンによる重力場を形成し\n敵を捕らえ、行動を阻害する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Popple.\nUses Photons to create a gravitational field that draws enemies in and holds them in place."
 	},
 	{
 		"assign": "PetOPA03",
 		"jp_text": "ポップルテリトリー",
-		"tr_text": "",
+		"tr_text": "Popple Territory",
 		"jp_explain": "『ポップル』用のフォトンアーツ。\n激化するフォトンによる攻撃。\nボタンホールドで威力が上昇する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Popple.\nAttacks by intensifying Photons in the air. Power rises as the button is held."
 	},
 	{
 		"assign": "PetOPA04",
 		"jp_text": "ポップルチェイサー",
-		"tr_text": "",
+		"tr_text": "Popple Chaser",
 		"jp_explain": "『ポップル』用のフォトンアーツ。\n敵をなぎ倒して進む追尾弾を発射する。\n弾速は速いが、持続性は低い。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Popple.\nFires a homing bullet that chases down the enemy. While fast, the bullet expires quickly."
 	},
 	{
 		"assign": "PetOPA05",
 		"jp_text": "ポップルカース",
-		"tr_text": "",
+		"tr_text": "Popple Curse",
 		"jp_explain": "『ポップル』用のフォトンアーツ。\nジェルン効果を持つ追尾弾を敵へ放つ。\nジェルンは攻撃力を低下させる。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Popple.\nFires a homing bullet which carries a Jellen effect. Jellen reduces attack power."
 	},
 	{
 		"assign": "PetHPA01",
 		"jp_text": "レドランレーザー",
 		"tr_text": "Redran Laser",
 		"jp_explain": "『レドラン』用のフォトンアーツ。\n敵を捕捉しホーミングレーザーを放つ。\n複数の敵を同時に捕捉可能。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Redran.\nLocks on to the enemy and fires a homing laser shot. Can target multiple enemies at once."
 	},
 	{
 		"assign": "PetHPA02",
 		"jp_text": "レドランスラッシュ",
 		"tr_text": "Redran Slash",
 		"jp_explain": "『レドラン』用のフォトンアーツ。\n周囲の敵に接近攻撃し、なぎ倒す。\nその後、プレイヤーの元へと戻る。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Redran.\nAttacks nearby enemies, knocking them down, then returns to its master."
 	},
 	{
 		"assign": "PetHPA03",
 		"jp_text": "レドランマイン",
 		"tr_text": "Redran Mine",
 		"jp_explain": "『レドラン』用のフォトンアーツ。\n敵に印をつけ、他の遠距離PAで\n起爆させて周囲一帯を攻撃する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Redran.\nPlaces a marker on an enemy that can be detonated by another long-range PA."
 	},
 	{
 		"assign": "PetHPA04",
 		"jp_text": "レドラングラビティ",
 		"tr_text": "Redran Gravity",
 		"jp_explain": "『レドラン』用のフォトンアーツ。\n敵にフォトン弾を命中させることで\n重力場を形成し、敵を引き寄せる。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Redran.\nHits the enemy with a bullet that creates a gravitational field, drawing in nearby enemies."
 	},
 	{
 		"assign": "PetHPA05",
 		"jp_text": "レドランバースト",
 		"tr_text": "Redran Burst",
 		"jp_explain": "『レドラン』用のフォトンアーツ。\n大量の気弾を生成し、目標を集中攻撃。\nチャージで攻撃回数が増加。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Redran.\nGenerates many bullets to snipe a single foe. Can be charged to generate more bullets."
 	},
 	{
 		"assign": "PetKPA01",
 		"jp_text": "グラスレーザー",
-		"tr_text": "",
+		"tr_text": "Glass Laser",
 		"jp_explain": "『グラス』用のフォトンアーツ。\n敵を捕捉しホーミングレーザーを放つ。\n複数の敵を同時に捕捉可能。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Glass.\nLocks on to the enemy and fires a homing laser shot. Can target multiple enemies at once."
 	},
 	{
 		"assign": "PetKPA02",
 		"jp_text": "グラススラッシュ",
-		"tr_text": "",
+		"tr_text": "Glass Slash",
 		"jp_explain": "『グラス』用のフォトンアーツ。\n周囲の敵に接近攻撃し、なぎ倒す。\nその後、プレイヤーの元へと戻る。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Glass.\nAttacks nearby enemies, knocking them down, then returns to its master."
 	},
 	{
 		"assign": "PetKPA03",
 		"jp_text": "グラスマイン",
-		"tr_text": "",
+		"tr_text": "Glass Mine",
 		"jp_explain": "『グラス』用のフォトンアーツ。\n敵に印をつけ、他の遠距離PAで\n起爆させて周囲一帯を攻撃する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Glass.\nPlaces a marker on an enemy that can be detonated by another long-range PA."
 	},
 	{
 		"assign": "PetKPA04",
 		"jp_text": "グラスグラビティ",
-		"tr_text": "",
+		"tr_text": "Glass Gravity",
 		"jp_explain": "『グラス』用のフォトンアーツ。\n敵にフォトン弾を命中させることで\n重力場を形成し、敵を引き寄せる。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Glass.\nHits the enemy with a bullet that creates a gravitational field, drawing in nearby enemies."
 	},
 	{
 		"assign": "PetKPA05",
 		"jp_text": "グラスバースト",
-		"tr_text": "",
+		"tr_text": "Glass Burst",
 		"jp_explain": "『グラス』用のフォトンアーツ。\n大量の気弾を生成し、目標を集中攻撃。\nチャージで攻撃回数が増加。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Glass.\nGenerates many bullets to snipe a single foe. Can be charged to generate more bullets."
 	},
 	{
 		"assign": "PetLPA01",
 		"jp_text": "バルカンザン",
 		"tr_text": "Vulcan Zan",
 		"jp_explain": "『バルカン』用のフォトンアーツ。\n高速で接近しフォトンの刃で切り裂く。\n「繋ぎ」によって威力が上昇する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Vulcan.\nCloses in and slashes with a Photon blade.\nWhen used in a combo, power rises."
 	},
 	{
 		"assign": "PetLPA02",
 		"jp_text": "バルカンキャク",
 		"tr_text": "Vulcan Kyaku",
 		"jp_explain": "『バルカン』用のフォトンアーツ。\n敵の攻撃を回転でいなし、蹴り払う。\n「繋ぎ」によってヒット数が増加する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Vulcan.\nAttacks nearby enemies with a spinning kick.\nWhen used in a combo, number of hits rises."
 	},
 	{
 		"assign": "PetLPA03",
 		"jp_text": "バルカンケン",
 		"tr_text": "Vulcan Ken",
 		"jp_explain": "『バルカン』用のフォトンアーツ。\n前進しながら強力な連撃を叩き込む。\n「繋ぎ」によってヒット数が増加する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Vulcan.\nAttacks continually while moving forward.\nWhen used in a combo, number of hits rises."
 	},
 	{
 		"assign": "PetLPA04",
 		"jp_text": "バルカンダン",
 		"tr_text": "Vulcan Dan",
 		"jp_explain": "『バルカン』用のフォトンアーツ。\nプレイヤーの元へ戻り、凝縮弾を発射。\n「繋ぎ」によって攻撃範囲が拡大する。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Vulcan.\nFires a charged bullet and returns to its master.\nWhen used in a combo, range increases."
 	},
 	{
 		"assign": "PetLPA05",
 		"jp_text": "バルカンゲキ",
 		"tr_text": "Vulcan Geki",
 		"jp_explain": "『バルカン』用のフォトンアーツ。\n全身の力を乗せた一撃を叩き込む。\n「繋ぎ」の回数に応じて、威力が上昇。",
-		"tr_explain": ""
+		"tr_explain": "Photon Art used by Vulcan.\nStrikes the enemy with its full strength.\nPower rises based on your combo length."
 	},
 	{
 		"assign": "MultiWT02",
 		"jp_text": "レ・ザンディア",
 		"tr_text": "Re Zandia",
 		"jp_explain": "風と雷の略式複合テクニック。\n雷をまとった竜巻で攻撃。ボタン連打で\n延長可能。竜巻はＰＰを消費し続ける。",
-		"tr_explain": "Simple Tech of Wind and Lightning.\nAttack with a tornado, then lightning.\nExtend by mashing the button."
+		"tr_explain": "Simple Tech of Wind and Lightning.\nAttack with a tornado, then lightning. Extend by mashing the button."
 	},
 	{
 		"assign": "MultiFD02",
 		"jp_text": "レ・フォメルギア",
 		"tr_text": "Re Fomelgia",
 		"jp_explain": "炎と闇の略式複合テクニック。\n炎と闇の槍で、前方に大爆破を行う。\nボタンホールドで突進する。",
-		"tr_explain": "Simple Tech of Fire and Dark.\nStrike ahead with a spear of fire and\ndarkness. Hold to rush forward."
+		"tr_explain": "Simple Tech of Fire and Dark.\nStrike ahead with a spear of fire and darkness. Hold to rush forward."
 	},
 	{
 		"assign": "MultiIL02",
 		"jp_text": "レ・バーランツィア",
 		"tr_text": "Re Baransia",
 		"jp_explain": "氷と光の略式複合テクニック。\n氷と光の翼で飛翔し、ボタンホールドで\n光弾を放ちながら移動可能。",
-		"tr_explain": "Simple Tech of Ice and Light.\nTake flight with wings of ice and light.\nHold to move while firing bullets."
+		"tr_explain": "Simple Tech of Ice and Light.\nTake flight with wings of ice and light. Hold to move while firing bullets."
 	},
 	{
 		"assign": "WandPA01",
 		"jp_text": "ヘヴィーハンマー",
 		"tr_text": "Heavy Hammer",
 		"jp_explain": "『短杖』用のフォトンアーツ。\n非チャージ時は数秒間頑強＆突進攻撃\nチャージ時は強力な吹き飛ばし攻撃。",
-		"tr_explain": "Wand Photon Art.\nUncharged, rush in for several seconds.\nCharged, knock enemies away."
+		"tr_explain": "Wand Photon Art.\nUncharged, rush in for several seconds. Charged, knock enemies away."
 	},
 	{
 		"assign": "SwordGPA01",
 		"jp_text": "インペリアルクリーヴ",
 		"tr_text": "Imperial Cleave",
 		"jp_explain": "『大剣』用の解式ＰＡ。\n凝縮したフォトンをまとった強烈な\n斬撃と共に、巨大な衝撃波を放つ。",
-		"tr_explain": "Sword Complex PA.\nCondense Photons into a slash that\ngenerates a huge shockwave."
+		"tr_explain": "Sword Complex PA.\nCondense Photons into a slash that generates a huge shockwave."
 	},
 	{
 		"assign": "JetBootsGPA01",
@@ -2160,48 +2160,48 @@
 		"jp_text": "プロミネンスアサイル",
 		"tr_text": "Prominence Assail",
 		"jp_explain": "『大砲』用の解式ＰＡ。\n空中から一点集中で砲弾を連射し\n最後に威力抜群の爆撃を放つ。",
-		"tr_explain": "Launcher Complex PA.\nBombard one location with focused\nfire, then launch a powerful grenade."
+		"tr_explain": "Launcher Complex PA.\nBombard one location with focused fire, then launch a powerful grenade."
 	},
 	{
 		"assign": "MachinegunGPA01",
 		"jp_text": "カラミティバレット",
 		"tr_text": "Calamity Bullet",
 		"jp_explain": "『双機銃』用の解式ＰＡ。\n連射を繰り返し、最後に強力な凝縮弾を\n２発放つ。攻撃間に位置調整可。",
-		"tr_explain": "Twin Machinegun Complex PA.\nFire repeatedly, then two condensed\nshots. You can move between shots."
+		"tr_explain": "Twin Machinegun Complex PA.\nFire repeatedly, then two condensed shots. You can move between shots."
 	},
 	{
 		"assign": "KnuckleGPA01",
 		"jp_text": "フェイタルノックアウト",
 		"tr_text": "Fatal Knockout",
 		"jp_explain": "『鋼拳』用の解式ＰＡ。カウンター可。\n力を極限までため、強烈なパンチの後\n地が割れるほどの衝撃波を叩き付ける。",
-		"tr_explain": "Knuckles Complex PA. Can Counter.\nPower up to the max and perform\ntwo huge swings, then a shockwave."
+		"tr_explain": "Knuckles Complex PA. Can Counter.\nPower up to the max and perform two huge swings, then a shockwave."
 	},
 	{
 		"assign": "CompoundBowGPA01",
 		"jp_text": "セルリアンバリスタ",
 		"tr_text": "Cerulean Ballista",
 		"jp_explain": "『強弓』用の解式ＰＡ。凝縮フォトンを\n大量に放ち、敵の頭上から降らせる。\n方向入力で広範囲攻撃に変化。",
-		"tr_explain": "Bullet Bow Complex PA.\nConcentrate fire on one target, or\nhold a direction for a wide-area attack."
+		"tr_explain": "Bullet Bow Complex PA.\nConcentrate fire on one target, or hold a direction for a wide-area attack."
 	},
 	{
 		"assign": "WandPA02",
 		"jp_text": "ブライトネスエンド",
-		"tr_text": "",
+		"tr_text": "dummy",
 		"jp_explain": "『短杖』用のフォトンアーツ。\n非チャージ時は数秒間頑強＆突進攻撃\nチャージ時は強力な吹き飛ばし攻撃。",
-		"tr_explain": ""
+		"tr_explain": "dummy"
 	},
 	{
 		"assign": "TalisPA01",
 		"jp_text": "タリスPA1",
-		"tr_text": "",
+		"tr_text": "dummy",
 		"jp_explain": "『短杖』用のフォトンアーツ。\n非チャージ時は数秒間頑強＆突進攻撃\nチャージ時は強力な吹き飛ばし攻撃。",
-		"tr_explain": ""
+		"tr_explain": "dummy"
 	},
 	{
 		"assign": "TalisPA02",
 		"jp_text": "タリスPA2",
-		"tr_text": "",
+		"tr_text": "dummy",
 		"jp_explain": "『短杖』用のフォトンアーツ。\n非チャージ時は数秒間頑強＆突進攻撃\nチャージ時は強力な吹き飛ばし攻撃。",
-		"tr_explain": ""
+		"tr_explain": "dummy"
 	}
 ]

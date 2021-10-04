@@ -822,17 +822,17 @@
 	{
 		"assign": "91039",
 		"jp_text": "さっすが！　ありがとう！",
-		"tr_text": ""
+		"tr_text": "I knew you could do it!\nThank you so much!"
 	},
 	{
 		"assign": "91003",
 		"jp_text": "オマエ、ずいぶんと\n美味そうになってきたじゃねェか。",
-		"tr_text": ""
+		"tr_text": "Heh, you're almost starting to\nlook like you're worth killing."
 	},
 	{
 		"assign": "91072",
 		"jp_text": "仲間も増えたし、力もついた。\nいざとなったら、全員守ってやるさ。",
-		"tr_text": ""
+		"tr_text": "I've got more friends and more power than\never. I'll protect everyone, no matter what."
 	},
 	{
 		"assign": "121",
@@ -857,12 +857,12 @@
 	{
 		"assign": "91073",
 		"jp_text": "あなたも、リサと一緒に\nいっぱいいっぱい楽しみましょうねえ。",
-		"tr_text": ""
+		"tr_text": "Lisa wants to have lots and\nlots and lots of fun with you!"
 	},
 	{
 		"assign": "91029",
 		"jp_text": "……付き合ってくれて、ありがとう。",
-		"tr_text": ""
+		"tr_text": "...Thank you for spending time with me."
 	},
 	{
 		"assign": "90025",
@@ -887,12 +887,12 @@
 	{
 		"assign": "91074",
 		"jp_text": "感謝感激雨あられ！\n当たって砕ける、ただそれだけ！",
-		"tr_text": ""
+		"tr_text": "I'm so grateful to you! We're\ngetting along pretty well, huh?"
 	},
 	{
 		"assign": "91040",
 		"jp_text": "ご苦労様。助かったわ。",
-		"tr_text": ""
+		"tr_text": "Nice work. You have helped me a great deal."
 	},
 	{
 		"assign": "233",
@@ -932,27 +932,27 @@
 	{
 		"assign": "91075",
 		"jp_text": "強くなるのはいいこと。\nありがとうございます。",
-		"tr_text": ""
+		"tr_text": "The stronger I can get, the better.\nThank you very much for your help."
 	},
 	{
 		"assign": "91004",
 		"jp_text": "特訓を乗り越えたことで\n安心していたか？　満足していたか？\n甘い！　甘すぎる！",
-		"tr_text": ""
+		"tr_text": "How do you feel now that you've\ncompleted my special training? Relieved?\nSatisfied? Doesn't it feel amazing?"
 	},
 	{
 		"assign": "91050",
 		"jp_text": "いやあ、世界は広いな！\nオレもまだまだだと知れて、嬉しいぞ！\n鍛え甲斐があるというものだ！",
-		"tr_text": ""
+		"tr_text": "The world sure is big! It's good to\nknow I haven't seen it all yet! It\nmeans alll my training is worthwhile!"
 	},
 	{
 		"assign": "91076",
 		"jp_text": "ふふっ、ありがと。\nなんだか少し、ほっとしたよ。",
-		"tr_text": ""
+		"tr_text": "Hehe, thank you. I'm a little relieved."
 	},
 	{
 		"assign": "91025",
 		"jp_text": "あなたには\nいっぱいお世話になりました。",
-		"tr_text": ""
+		"tr_text": "I really want to thank you. I owe you a lot."
 	},
 	{
 		"assign": "206",
@@ -982,7 +982,7 @@
 	{
 		"assign": "91083",
 		"jp_text": "サンキュな！",
-		"tr_text": ""
+		"tr_text": "Thank you!"
 	},
 	{
 		"assign": "208",
@@ -1057,7 +1057,7 @@
 	{
 		"assign": "91043",
 		"jp_text": "……一応、感謝だけはしておくよ。",
-		"tr_text": ""
+		"tr_text": "...I suppose I should thank you."
 	},
 	{
 		"assign": "91085",
@@ -1882,6 +1882,116 @@
 	{
 		"assign": "255",
 		"jp_text": "ここまで私を強くして\n……貴様に使いこなせるのか？\nフフフ……",
+		"tr_text": ""
+	},
+	{
+		"assign": "91160",
+		"jp_text": "ありがとう。\n貴方のおかげでリフレッシュできたわ。\n来年もまた、その……\n一緒にバカンスに行けたらいいわね。",
+		"tr_text": ""
+	},
+	{
+		"assign": "91161",
+		"jp_text": "えへへ、今年のバカンスも\n満喫できました。\nこれもリーダーのおかげですね！",
+		"tr_text": ""
+	},
+	{
+		"assign": "103",
+		"jp_text": "ありがとう。\nなんだか……ウェポノイドで\n良かったかもって、思えたわ。",
+		"tr_text": ""
+	},
+	{
+		"assign": "259",
+		"jp_text": "人生はエキサイティングに！\n世界はファンタスティックに！\nこれからも頼むぜ、相棒！！",
+		"tr_text": ""
+	},
+	{
+		"assign": "279",
+		"jp_text": "やったー！\nこれで、もっともーっと\n女の子を守れます！",
+		"tr_text": ""
+	},
+	{
+		"assign": "311",
+		"jp_text": "進むべき道を見つけられたのは\nリーダーのおかげです！\n感謝しかありません！",
+		"tr_text": ""
+	},
+	{
+		"assign": "265",
+		"jp_text": "私という存在が不確かでも……\nこれは確かな……絆の証。",
+		"tr_text": ""
+	},
+	{
+		"assign": "159",
+		"jp_text": "からくり以外にも\n興味あるものができるなんて……\nおぬしのおかげござるよ。",
+		"tr_text": ""
+	},
+	{
+		"assign": "345",
+		"jp_text": "ここまで、育てていただき……\nカルメリアリス\n有り難き幸せにございます。",
+		"tr_text": ""
+	},
+	{
+		"assign": "294",
+		"jp_text": "すごいツナ！\n身体は凍ってるツナが\n心はあったかくなったツナーっ！\nでも、さ、さむいツナ。",
+		"tr_text": ""
+	},
+	{
+		"assign": "254",
+		"jp_text": "あの！　あの！！\nありがとうございます！\nわっふーい♪",
+		"tr_text": ""
+	},
+	{
+		"assign": "119",
+		"jp_text": "あなたからの心遣い\nありがたく受け取ったわ。\n代わりに……\n最高の戦いをご覧に入れましょ。",
+		"tr_text": ""
+	},
+	{
+		"assign": "154",
+		"jp_text": "誠にありがたき幸せ！\nこの力、姫様と貴方のために\n使わせていただきます！",
+		"tr_text": ""
+	},
+	{
+		"assign": "160",
+		"jp_text": "うふふふ……よくやってくれた。\nさて、この力……\n如何ように使うがよいかのう。",
+		"tr_text": ""
+	},
+	{
+		"assign": "80004",
+		"jp_text": "ありがとう。\n強くなるって事は、素晴らしいわね。\n戦いが、さらに効率化されるわ。",
+		"tr_text": ""
+	},
+	{
+		"assign": "80017",
+		"jp_text": "なんかオレ\nすっげー強くなったきがするぜ！\nありがとな！",
+		"tr_text": ""
+	},
+	{
+		"assign": "90009",
+		"jp_text": "わたしがあなたと\n対峙することにならないことを\n祈ります……",
+		"tr_text": ""
+	},
+	{
+		"assign": "90010",
+		"jp_text": "かたじけない……\nだが、この力、貴殿のために\n使うとは約束できませんよ。",
+		"tr_text": ""
+	},
+	{
+		"assign": "90011",
+		"jp_text": "でゅなつよーい！\nりだ、りだ、あのね\nでゅなつよくしてくれて、ありがとー。",
+		"tr_text": ""
+	},
+	{
+		"assign": "90057",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "90058",
+		"jp_text": "-",
+		"tr_text": ""
+	},
+	{
+		"assign": "90059",
+		"jp_text": "-",
 		"tr_text": ""
 	}
 ]
