@@ -139,7 +139,9 @@ def translate_nlayer_desc(item, file_name):
 layered_file_names = ["Basewear_Female",
                       "Basewear_Male",
                       "Innerwear_Female",
-                      "Innerwear_Male"]
+                      "Innerwear_Male",
+                      "NGS_Outer_Female",
+                      "NGS_Outer_Male"]
 
 for name in layered_file_names:
     items_file_name = "Item_" + name + ".txt"
