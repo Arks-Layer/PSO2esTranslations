@@ -41,7 +41,7 @@ layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".", # Must include it
 layer_sex_locks = {"n": ["", ""],
                    "m": ["\nOnly usable on male characters.",
                          " 남성만 가능.",
-						 "\nТолько для мужских персонажей."],
+                         "\nТолько для мужских персонажей."],
                    "f": ["\nOnly usable on female characters.",
                          " 여성만 가능.",
                          "\nТолько для женских персонажей."]}
@@ -199,11 +199,11 @@ cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для
 
 cosmetic_size_locks = ["※Size cannot be adjusted.",
                        "size_locked_KR"
-					   "※Нельзя отрегулировать размер."]
+                       "※Нельзя отрегулировать размер."]
 
 cosmetic_color_locks = ["※Color cannot be changed",
                         "color_locked_KR"
-						"※Цвет нельзщя изменить."]
+                        "※Цвет нельзщя изменить."]
 
 no_sticker_desc = ["Unlocks the ability to not display a\nsticker in the Beauty Salon.",
                    "no_sticker_KR",
@@ -499,7 +499,7 @@ cv_names = {
     "こおろぎさとみ": ["Satomi Korogi", "코오로기 사토미", "Сатоми Короги"],
     "三宅 健太": ["Kenta Miyake", "", "Кэнта Миякэ"],
     "諸星 すみれ": ["Sumire Morohoshi", "", "Сумирэ Морохоси"],
-	"宮本 侑芽": ["Yume Miyamoto", "", "Юмэ Миямото"],
+    "宮本 侑芽": ["Yume Miyamoto", "", "Юмэ Миямото"],
     "川島 得愛": ["Tokuyoshi Kawashima", "", "Токуёси Кавасима"],
     "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O", "M・A・O", "M・A・O"],
     "？？？": ["???", "???", "???"],
