@@ -46,7 +46,13 @@ layer_sex_locks = {"n": ["", ""],
                          " 여성만 가능.",
                          "\nТолько для женских персонажей."]}
 
-ndesc_formats = ["Unlocks a new {itype} for use.{typelock}"]
+ndesc_formats = ["Unlocks a new {itype} for use.{typelock}",
+                 "format_KR{itype}{typelock}",
+                 "format_RU{itype}{typelock}"]
+
+ntype_statements = ["Type: ",
+                    "Type_KR",
+                    "тип: "]
 
 ntype_locks = {"a": ["All", "", "Все"],
                 "a1": ["Human/Cast Type 1", "", "Человек/CAST (тип1)"],
@@ -125,7 +131,7 @@ def translate_nlayer_desc(item, file_name):
         itype = layered_wear_types[item["tr_text"].split("[", )[1][0:2]][LANG] if item["tr_text"].endswith("]")
                 # Exception for default layered wear since it doesn't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
-        typelock = "" if types == "a" else "\n<yellow>※Type: {0}<c>".format(ntype_locks[types][LANG]),
+        typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
     
     return 0
@@ -284,7 +290,7 @@ def translate_ncosmetic_desc(item, file_name):
     # Translate the description.
     item["tr_explain"] = (ndesc_formats[LANG]).format(
         itype = item_type,
-        typelock = "" if types == "a" else "\n<yellow>※Type: {0}<c>".format(ntype_locks[types][LANG]),
+        typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
     
     return 0
