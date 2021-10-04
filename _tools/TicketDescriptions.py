@@ -16,9 +16,12 @@ LANGS = {-1: "JP",
          1: "KR",
          2: "RU"}
 # Add more later.
-parser.add_argument("-l", type = int, dest = "lang", action = "store", choices = [0, 1, 2], default = 0, metavar = "N", help = "Set a language to translate into. Available options are 0 (EN), 1 (KR) and 2 (RU). Defaults to EN.")
+parser.add_argument("-l", type = int, dest = "lang", action = "store",
+                    choices = [0, 1, 2], default = 0, metavar = "N",
+                    help = "Set a language to translate into. Available options are 0 (EN), 1 (KR) and 2 (RU). Defaults to EN.")
 # Switch for retranslating all descriptions.
-parser.add_argument("-r", dest = "redo", action = "store_true", help = "Force all ticket descriptions to be processed, even if already translated.")
+parser.add_argument("-r", dest = "redo", action = "store_true",
+                    help = "Force all ticket descriptions to be processed, even if already translated.")
 
 args = parser.parse_args()
 LANG, REDO_ALL = args.lang, args.redo
@@ -28,18 +31,30 @@ LANG, REDO_ALL = args.lang, args.redo
 layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю одежду (In)"],
                       "Ba": ["basewear", "베이스웨어", "верхнюю одежду (Ba)"],
                       "Se": ["setwear", "setwear_KR", "комплектную одежду (Se)"],
+                      "Fu": ["full setwear", "fullwear_KR", "полн.компл.одежду (Fu)"],
                       "Ou": ["outerwear", "outerwear_KR", "внешнюю одежду (Ou)"]} # This one probably won't be used, but you never know.
 
 layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".", # Must include itype and iname variables.
                       "사용하면 새로운 {itype}인\n\"{iname}\"\n의 사용이 가능해진다.",
                       "Разблокирует новую\n{itype}\n\"{iname}\"."]
 
-layer_sex_locks = {"m": ["\nOnly usable on male characters.",
+layer_sex_locks = {"n": ["", ""],
+                   "m": ["\nOnly usable on male characters.",
                          " 남성만 가능.",
-                         "\nТолько для мужских персонажей."],
+						 "\nТолько для мужских персонажей."],
                    "f": ["\nOnly usable on female characters.",
                          " 여성만 가능.",
                          "\nТолько для женских персонажей."]}
+
+ndesc_formats = ["Unlocks a new {itype} for use.{typelock}"]
+
+ntype_locks = {"a": ["All", "", "Все"],
+                "a1": ["Human/Cast Type 1", "", "Человек/CAST (тип1)"],
+                "a2": ["Human/Cast Type 2" "", "Человек/CAST (тип2)"],
+                "h1": ["Human Type 1" "", "Человек (тип1)"],
+                "h2": ["Human Type 2" "", "Человек (тип2)"],
+                "c1": ["Cast Type 1" "", "CAST (тип1)"],
+                "c2": ["Cast Type 2" "", "CAST (тип2)"]}
 
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
@@ -75,6 +90,46 @@ def translate_layer_desc(item, file_name):
     
     return 0
 
+def get_type_restrictions(item):
+    types = "a"
+
+    if "：ヒト型" in item["jp_explain"] and "/キャスト" not in item["jp_explain"]:
+        types = "h"
+    elif "：キャスト" in item["jp_explain"]:
+        types = "c"
+        
+    if "タイプ1<c>" in item["jp_explain"]:
+        types += "1"
+    elif "タイプ2<c>" in item["jp_explain"]:
+        types += "2"
+    
+    return types
+
+def translate_nlayer_desc(item, file_name):
+    if item["tr_text"] == "": # No name to put in description
+        return -1
+    
+    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+        return -2
+    
+    # Some items are locked to one race and/or type.
+    types = get_type_restrictions(item)
+
+    # Some items hide your innerwear (these are mostly swimsuits).
+    hideinner = False
+    if "着用時はインナーが非表示になります。" in item["jp_explain"]:
+        hideinner = True
+
+    # Translate the description.
+    item["tr_explain"] = (ndesc_formats[LANG] + "{hidepanties}").format(
+        itype = layered_wear_types[item["tr_text"].split("[", )[1][0:2]][LANG] if item["tr_text"].endswith("]")
+                # Exception for default layered wear since it doesn't have [In], [Ba] etc
+                else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
+        typelock = "" if types == "a" else "\n<yellow>※Type: {0}<c>".format(ntype_locks[types][LANG]),
+        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+    
+    return 0
+
 layered_file_names = ["Basewear_Female",
                       "Basewear_Male",
                       "Innerwear_Female",
@@ -98,7 +153,9 @@ for name in layered_file_names:
     newtranslations = False
     
     for item in items:
-        if translate_layer_desc(item, name) == 0:
+        problem = translate_nlayer_desc(item, name) if "選択可能になる。" in item["jp_explain"] else translate_layer_desc(item, name)
+
+        if problem == 0:
             print("\tTranslated description for {0}".format(item["tr_text"]))
             newtranslations = True
 
@@ -125,9 +182,9 @@ cosmetic_file_names = [
 cosmetic_types = {
     "Accessory": ["accessory", "악세서리", "аксессуар"],
     "BodyPaint": ["body paint", "바디 페인트", "рис. тела"],
-    "Eye": ["eyes", "눈동자", "глаза"],
-    "EyeBrow": ["eyebrows", "눈썹", "брови"],
-    "EyeLash": ["eyelashes", "속눈썹", "ресницы"],
+    "Eye": ["eye pattern", "눈동자", "глаза"],
+    "EyeBrow": ["eyebrow type", "눈썹", "брови"],
+    "EyeLash": ["eyelash type", "속눈썹", "ресницы"],
     "FacePaint": ["makeup", "메이크업", "макияж"],
     "Hairstyle": ["hairstyle", "헤어스타일", "причёску"],
     "Sticker": ["sticker", "스티커", "стикер"]
@@ -140,9 +197,13 @@ cosmetic_desc_formats = ["Unlocks the {sexlock}{itype}\n\"{iname}\"\nfor use in 
 cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для М"],
                       "f": ["female-only ", "여성 전용 ", "только для Ж"]}
 
-cosmetic_size_locks = ["Size cannot be adjusted.",
-                       "size_locked_KR",
-                       "Нельзя отрегулировать размер."]
+cosmetic_size_locks = ["※Size cannot be adjusted.",
+                       "size_locked_KR"
+					   "※Нельзя отрегулировать размер."]
+
+cosmetic_color_locks = ["※Color cannot be changed",
+                        "color_locked_KR"
+						"※Цвет нельзщя изменить."]
 
 no_sticker_desc = ["Unlocks the ability to not display a\nsticker in the Beauty Salon.",
                    "no_sticker_KR",
@@ -184,17 +245,47 @@ def translate_cosmetic_desc(item, file_name):
     
     if "サイズ調整はできません。" in item["jp_explain"]:
         sizelocked = True
+
+    # Some items cannot be recolored.
+    colorlocked = False
+    
+    if "カラーは変更できません" in item["jp_explain"]:
+        colorlocked = True
     
     # Translate the description.
-    item["tr_explain"] = (cosmetic_desc_formats[LANG] + "{sizelock}").format(
+    item["tr_explain"] = (cosmetic_desc_formats[LANG] + "{sizelock}" + "{colorlock}").format(
         sexlock = cosmetic_sex_locks[sex][LANG] if sex != "n" else "",
         itype = item_type,
         iname = item_name, 
-        sizelock = "\n<yellow>" + cosmetic_size_locks[LANG] + "<c>" if sizelocked == True else "")
+        sizelock = "\n<yellow>" + cosmetic_size_locks[LANG] + "<c>" if sizelocked == True else "",
+        colorlock = "\n<yellow>" + cosmetic_color_locks[LANG] + "<c>" if colorlocked == True else "",)
     
     # Hello Kitty item copyright notice
     if item["jp_text"] == "ハローキティチェーン":
         item["tr_explain"] += "\nc'76,'15 SANRIO APPR.NO.S564996"
+    
+    return 0
+
+def translate_ncosmetic_desc(item, file_name):
+    if item["tr_text"] == "": # No name to put in description
+        return -1
+    
+    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+        return -2
+    
+    # Some items are locked to one race and/or type.
+    types = get_type_restrictions(item)
+
+    # Some items hide your innerwear (these are mostly swimsuits).
+    hideinner = False
+    if "着用時はインナーが非表示になります。" in item["jp_explain"]:
+        hideinner = True
+
+    # Translate the description.
+    item["tr_explain"] = (ndesc_formats[LANG]).format(
+        itype = item_type,
+        typelock = "" if types == "a" else "\n<yellow>※Type: {0}<c>".format(ntype_locks[types][LANG]),
+        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
     
     return 0
 
@@ -217,7 +308,9 @@ for file_name in cosmetic_file_names:
     newtranslations = False
     
     for item in items:
-        if translate_cosmetic_desc(item, file_name) == 0:
+        problem = translate_ncosmetic_desc(item, file_name) if "選択可能になる。" in item["jp_explain"] else translate_cosmetic_desc(item, file_name)
+
+        if problem == 0:
             print("\tTranslated description for {0}".format(item["tr_text"]))
             newtranslations = True
 
@@ -406,6 +499,8 @@ cv_names = {
     "こおろぎさとみ": ["Satomi Korogi", "코오로기 사토미", "Сатоми Короги"],
     "三宅 健太": ["Kenta Miyake", "", "Кэнта Миякэ"],
     "諸星 すみれ": ["Sumire Morohoshi", "", "Сумирэ Морохоси"],
+	"宮本 侑芽": ["Yume Miyamoto", "", "Юмэ Миямото"],
+    "川島 得愛": ["Tokuyoshi Kawashima", "", "Токуёси Кавасима"],
     "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O", "M・A・O", "M・A・O"],
     "？？？": ["???", "???", "???"],
     "": ["Unknown", "알 수 없는", "Неизвестно"]
@@ -472,9 +567,9 @@ def translate_voice(item):
         
         # Find out if we know the voice actor's name
         jp_cv_name = item["jp_explain"].split("ＣＶ")[1]
+        cv_name = ""
         
         if jp_cv_name in cv_names: # We do, so use it, or keep falling back to best available option if we don't have a translation.
-            cv_name = ""
             curr_lang = LANG
             
             while cv_name == "":
@@ -491,6 +586,7 @@ def translate_voice(item):
             # We don't, so report it.
             print("Voice ticket {0} has a new voice actor: {1}"
                   .format(item["tr_text"], jp_cv_name))
+            cv_name = jp_cv_name
         
         # Translate the description
         item["tr_explain"] = voice_desc_formats[LANG] + "\n{restriction}\nCV: {actorname}".format(

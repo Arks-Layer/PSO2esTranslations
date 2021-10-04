@@ -131,7 +131,13 @@ if __name__ == '__main__':
     items_files += [
         os.path.join(dirpath, f)
         for dirpath, dirnames, files in os.walk(dir)
-        for f in fnmatch.filter(files, 'Explain_Actor_*.txt')
+        for f in fnmatch.filter(files, 'Explain_Actor_Mag*.txt')
+    ]
+
+    items_files += [
+        os.path.join(dirpath, f)
+        for dirpath, dirnames, files in os.walk(dir)
+        for f in fnmatch.filter(files, 'Explain_Actor_StackDeviceSAA.txt')
     ]
 
     items_files += [

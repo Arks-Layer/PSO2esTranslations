@@ -289,7 +289,7 @@
 	{
 		"assign": "113043",
 		"jp_text": "ウィンドミル／ナハト",
-		"tr_text": "Windmill / Nacht",
+		"tr_text": "Windmill/Nacht",
 		"jp_explain": "闇夜の色を抱く短杖。\n出自の仔細は不明だが、性能は高く\n所有者に大きな力を抱かせる。",
 		"tr_explain": "A wand painted black as night. Its\norigins are unknown, but it inspires\ngreatness in its owner."
 	},
@@ -375,7 +375,7 @@
 		"jp_text": "スウィートキャンディ",
 		"tr_text": "Sweet Candy",
 		"jp_explain": "本来は子供の菓子を作っていたはず\nなのにどうしてか短杖が出来上がった。\n生まれた意味を知りたい。",
-		"tr_explain": ""
+		"tr_explain": "Candy meant for children that\nsomehow became a Wand. It seeks\nthe meaning behind its own creation."
 	},
 	{
 		"assign": "113060",
@@ -508,7 +508,7 @@
 		"jp_text": "サミットムーン",
 		"tr_text": "Summit Moon",
 		"jp_explain": "先端に浮かぶ輝石が装者の法撃力を\n増大させる短杖。輝石は装者の精神に\n呼応するが如く、眩い輝きを放つ。",
-		"tr_explain": ""
+		"tr_explain": "A Wand tipped with a pyroxene that\nboosts Techniques. The stone shines\nas if responding to its wielder's spirit."
 	},
 	{
 		"assign": "1130104",
@@ -1669,6 +1669,20 @@
 		"assign": "113010035",
 		"jp_text": "ストラーガウォンド",
 		"tr_text": "Stragga Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010021",
+		"jp_text": "エヴォルコートウォンド",
+		"tr_text": "Evolcoat Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010026",
+		"jp_text": "フロステルウォンド",
+		"tr_text": "Frostel Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	}
