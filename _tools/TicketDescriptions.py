@@ -48,11 +48,11 @@ layer_sex_locks = {"n": ["", ""],
 
 ndesc_formats = ["Unlocks a new {itype} for use.{typelock}",
                  "format_KR{itype}{typelock}",
-                 "format_RU{itype}{typelock}"]
+                 "Для исп-я азблок-т новый\n{itype}.{typelock}"]
 
 ntype_statements = ["Type: ",
                     "Type_KR",
-                    "тип: "]
+                    "Тип: "]
 
 ntype_locks = {"a": ["All", "", "Все"],
                 "a1": ["Human/Cast Type 1", "", "Человек/CAST (тип1)"],
