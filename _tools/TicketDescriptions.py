@@ -211,7 +211,7 @@ cosmetic_size_locks = ["※Size cannot be adjusted.",
 
 cosmetic_color_locks = ["※Color cannot be changed",
                         "color_locked_KR",
-                        "※Цвет нельзщя изменить."]
+                        "※Цвет нельзя изменить."]
 
 no_sticker_desc = ["Unlocks the ability to not display a\nsticker in the Beauty Salon.",
                    "no_sticker_KR",
