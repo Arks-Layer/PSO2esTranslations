@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser(description = "Translates ticket item descripti
 # Switch for language.
 LANGS = {-1: "JP",
          0: "EN",
-         1: "KR",
+         1: "KO",
          2: "RU"}
 # Add more later.
 parser.add_argument("-l", type = int, dest = "lang", action = "store",
@@ -30,9 +30,9 @@ LANG, REDO_ALL = args.lang, args.redo
 
 layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю одежду (In)"],
                       "Ba": ["basewear", "베이스웨어", "верхнюю одежду (Ba)"],
-                      "Se": ["setwear", "setwear_KR", "комплектную одежду (Se)"],
-                      "Fu": ["full setwear", "fullwear_KR", "полн.компл.одежду (Fu)"],
-                      "Ou": ["outerwear", "outerwear_KR", "внешнюю одежду (Ou)"]} # This one probably won't be used, but you never know.
+                      "Se": ["setwear", "setwear_KO", "комплектную одежду (Se)"],
+                      "Fu": ["full setwear", "fullwear_KO", "полн.компл.одежду (Fu)"],
+                      "Ou": ["outerwear", "outerwear_KO", "внешнюю одежду (Ou)"]} # This one probably won't be used, but you never know.
 
 layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".", # Must include itype and iname variables.
                       "사용하면 새로운 {itype}인\n\"{iname}\"\n의 사용이 가능해진다.",
@@ -47,20 +47,20 @@ layer_sex_locks = {"n": ["", ""],
                          "\nТолько для женских персонажей."]}
 
 ndesc_formats = ["Unlocks a new {itype} for use.{typelock}",
-                 "format_KR{itype}{typelock}",
+                 "format_KO{itype}{typelock}",
                  "Разблок {itype}.{typelock}"]
 
 ntype_statements = ["Type: ",
-                    "Type_KR",
+                    "Type_KO",
                     "Тип: "]
 
-ntype_locks = {"a": ["All", "", "Все"],
-                "a1": ["Human/Cast Type 1", "", "Человек/CAST (тип1)"],
-                "a2": ["Human/Cast Type 2", "", "Человек/CAST (тип2)"],
-                "h1": ["Human Type 1", "", "Человек (тип1)"],
-                "h2": ["Human Type 2", "", "Человек (тип2)"],
-                "c1": ["Cast Type 1", "", "CAST (тип1)"],
-                "c2": ["Cast Type 2", "", "CAST (тип2)"]}
+ntype_locks = {"a": ["All", "KR_All", "Все"],
+                "a1": ["Human/Cast Type 1", "KR_AllType1", "Человек/CAST (тип1)"],
+                "a2": ["Human/Cast Type 2", "KR_AllType2", "Человек/CAST (тип2)"],
+                "h1": ["Human Type 1", "KR_HumType1", "Человек (тип1)"],
+                "h2": ["Human Type 2", "KR_HumType2", "Человек (тип2)"],
+                "c1": ["Cast Type 1", "KR_CastType1", "CAST (тип1)"],
+                "c2": ["Cast Type 2", "KR_CastType2", "CAST (тип2)"]}
 
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
@@ -206,15 +206,15 @@ cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для
                       "f": ["female-only ", "여성 전용 ", "только для Ж"]}
 
 cosmetic_size_locks = ["※Size cannot be adjusted.",
-                       "size_locked_KR",
+                       "size_locked_KO",
                        "※Нельзя отрегулировать размер."]
 
 cosmetic_color_locks = ["※Color cannot be changed",
-                        "color_locked_KR",
-                        "※Цвет нельзя изменить."]
+                        "color_locked_KO",
+                        "※Цвет нельзщя изменить."]
 
 no_sticker_desc = ["Unlocks the ability to not display a\nsticker in the Beauty Salon.",
-                   "no_sticker_KR",
+                   "no_sticker_KO",
                    "Разблокирует возможность\nне отображать стикер в салоне."]
 
 def translate_cosmetic_desc(item, file_name):
