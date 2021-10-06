@@ -18,7 +18,7 @@ LANGS = {-1: "JP",
 # Add more later.
 parser.add_argument("-l", type = int, dest = "lang", action = "store",
                     choices = [0, 1, 2], default = 0, metavar = "N",
-                    help = "Set a language to translate into. Available options are 0 (EN), 1 (KR) and 2 (RU). Defaults to EN.")
+                    help = "Set a language to translate into. Available options are 0 (EN), 1 (KO) and 2 (RU). Defaults to EN.")
 # Switch for retranslating all descriptions.
 parser.add_argument("-r", dest = "redo", action = "store_true",
                     help = "Force all ticket descriptions to be processed, even if already translated.")
@@ -30,12 +30,12 @@ LANG, REDO_ALL = args.lang, args.redo
 
 layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю одежду (In)"],
                       "Ba": ["basewear", "베이스웨어", "верхнюю одежду (Ba)"],
-                      "Se": ["setwear", "setwear_KO", "комплектную одежду (Se)"],
-                      "Fu": ["full setwear", "fullwear_KO", "полн.компл.одежду (Fu)"],
-                      "Ou": ["outerwear", "outerwear_KO", "внешнюю одежду (Ou)"]} # This one probably won't be used, but you never know.
+                      "Se": ["setwear", "세트웨어", "комплектную одежду (Se)"],
+                      "Fu": ["full setwear", "풀웨어", "полн.компл.одежду (Fu)"],
+                      "Ou": ["outerwear", "아우터웨어", "внешнюю одежду (Ou)"]}
 
 layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".", # Must include itype and iname variables.
-                      "사용하면 새로운 {itype}인\n\"{iname}\"\n의 사용이 가능해진다.",
+                      "사용하면 새로운 {itype}인\n\"{iname}\"\n의 등록이 가능해진다.",
                       "Разблокирует новую\n{itype}\n\"{iname}\"."]
 
 layer_sex_locks = {"n": ["", ""],
@@ -47,20 +47,20 @@ layer_sex_locks = {"n": ["", ""],
                          "\nТолько для женских персонажей."]}
 
 ndesc_formats = ["Unlocks a new {itype} for use.{typelock}",
-                 "format_KO{itype}{typelock}",
+                 "신규 {itype} 등록이 가능해진다.{typelock}",
                  "Разблок {itype}.{typelock}"]
 
 ntype_statements = ["Type: ",
-                    "Type_KO",
+                    "타입: ",
                     "Тип: "]
 
 ntype_locks = {"a": ["All", "KR_All", "Все"],
-                "a1": ["Human/Cast Type 1", "KR_AllType1", "Человек/CAST (тип1)"],
-                "a2": ["Human/Cast Type 2", "KR_AllType2", "Человек/CAST (тип2)"],
-                "h1": ["Human Type 1", "KR_HumType1", "Человек (тип1)"],
-                "h2": ["Human Type 2", "KR_HumType2", "Человек (тип2)"],
-                "c1": ["Cast Type 1", "KR_CastType1", "CAST (тип1)"],
-                "c2": ["Cast Type 2", "KR_CastType2", "CAST (тип2)"]}
+                "a1": ["Human/Cast Type 1", "휴먼/캐스트 타입 1", "Человек/CAST (тип1)"],
+                "a2": ["Human/Cast Type 2", "휴먼/캐스트 타입 2", "Человек/CAST (тип2)"],
+                "h1": ["Human Type 1", "휴먼 타입 1", "Человек (тип1)"],
+                "h2": ["Human Type 2", "휴먼 타입 2", "Человек (тип2)"],
+                "c1": ["Cast Type 1", "캐스트 타입 1", "CAST (тип1)"],
+                "c2": ["Cast Type 2", "캐스트 타입 2", "CAST (тип2)"]}
 
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
@@ -206,15 +206,15 @@ cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для
                       "f": ["female-only ", "여성 전용 ", "только для Ж"]}
 
 cosmetic_size_locks = ["※Size cannot be adjusted.",
-                       "size_locked_KO",
+                       "사이즈 조정은 할 수 없습니다.",
                        "※Нельзя отрегулировать размер."]
 
 cosmetic_color_locks = ["※Color cannot be changed",
-                        "color_locked_KO",
+                        "색상 변경은 할 수 없습니다",
                         "※Цвет нельзщя изменить."]
 
 no_sticker_desc = ["Unlocks the ability to not display a\nsticker in the Beauty Salon.",
-                   "no_sticker_KO",
+                   "에스테에서 스티커를 표시하지 않는 기능을 해제합니다.",
                    "Разблокирует возможность\nне отображать стикер в салоне."]
 
 def translate_cosmetic_desc(item, file_name):
@@ -356,18 +356,18 @@ cv_names = {
     "中村 悠一": ["Yuichi Nakamura", "유이치 나카무라", "Юичи Накамура"],
     "中田 譲治": ["Joji Nakata", "나카타 조지", "Дзёдзи Наката"],
     "中西 茂樹": ["Shigeki Nakanishi", "", "Сигэки Наканиши"],
-    "久野 美咲": ["Misaki Kuno", "", "Мисаки Куно"],
-    "井上 和彦": ["Kazuhiko Inoue", "", "Казухико Иноэ"],
-    "井上 喜久子": ["Kikuko Inoue", "", "Кикуко Иноуэ"],
-    "井上 麻里奈": ["Marina Inoue", "", "Марина Иноуэ"],
-    "井口 裕香": ["Yuka Iguchi", "", "Юка Игути"],
-    "今井 麻美": ["Asami Imai", "", "Асами Имаи"],
-    "伊瀬 茉莉也": ["Mariya Ise", "", "Мария Исэ"],
-    "伊藤 静": ["Shizuka Ito", "", "Сидзука Ито"],
-    "会 一太郎": ["Ichitaro Ai", "", "Ичитаро Ай"],
-    "住友 優子": ["Yuko Sumitomo", "", "Юко Сумитомо"],
-    "佐倉 綾音": ["Ayane Sakura", "", "Аянэ Сакура"],
-    "佐武 宇綺": ["Uki Satake", "", "Уки Сатакэ"],
+    "久野 美咲": ["Misaki Kuno", "쿠노 미사키", "Мисаки Куно"],
+    "井上 和彦": ["Kazuhiko Inoue", "이노우에 카즈히코", "Казухико Иноэ"],
+    "井上 喜久子": ["Kikuko Inoue", "이노우에 키쿠코", "Кикуко Иноуэ"],
+    "井上 麻里奈": ["Marina Inoue", "이노우에 마리나", "Марина Иноуэ"],
+    "井口 裕香": ["Yuka Iguchi", "이구치 유카", "Юка Игути"],
+    "今井 麻美": ["Asami Imai", "이마이 아사미", "Асами Имаи"],
+    "伊瀬 茉莉也": ["Mariya Ise", "이세 마리야", "Мария Исэ"],
+    "伊藤 静": ["Shizuka Ito", "이토 시즈카", "Сидзука Ито"],
+    "会 一太郎": ["Ichitaro Ai", "아이 이치타로", "Ичитаро Ай"],
+    "住友 優子": ["Yuko Sumitomo", "스미토모 유코", "Юко Сумитомо"],
+    "佐倉 綾音": ["Ayane Sakura", "사쿠라 아야네", "Аянэ Сакура"],
+    "佐武 宇綺": ["Uki Satake", "사타케 우키", "Уки Сатакэ"],
     "佐藤 利奈": ["Rina Sato", "", "Рина Сато"],
     "佐藤 友啓": ["Tomohiro Sato", "", "Томохиро Сато"],
     "佐藤 聡美": ["Satomi Sato", "", "Сатоми Сато"],
