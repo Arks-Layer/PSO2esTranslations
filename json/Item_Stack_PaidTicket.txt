@@ -1370,5 +1370,19 @@
 		"tr_text": "Expansion Storage 6 90 Days",
 		"jp_explain": "拡張倉庫６の利用許可チケット。\n使用するとアイテム５００個を格納する\n拡張倉庫６が９０日間利用可能になる。",
 		"tr_explain": "Allows access to Expansion Storage\n6 for 90 days. You can still retrieve\nitems after it expires."
+	},
+	{
+		"assign": "320010006",
+		"jp_text": "N-ミッションゴールドパス",
+		"tr_text": "",
+		"jp_explain": "ミッションパスの達成報酬が\n現在のシーズンのみ\nゴールド報酬になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "320010007",
+		"jp_text": "N-ミッションパスティア進行",
+		"tr_text": "",
+		"jp_explain": "ミッションパスのティアを\n現在のシーズンのみ\n１段階進行させる。",
+		"tr_explain": ""
 	}
 ]

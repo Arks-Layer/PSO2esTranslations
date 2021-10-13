@@ -17596,7 +17596,7 @@
 	},
 	{
 		"assign": "sidestory_effect_play_title",
-		"jp_text": "演出再生",
+		"jp_text": "演出再生 ",
 		"tr_text": ""
 	},
 	{
@@ -17746,8 +17746,8 @@
 	},
 	{
 		"assign": "sidestory_voice_play_locked_info_LvMAX",
-		"jp_text": "このボイスは\n絆レベルがLv.<%parameter>になると解放されます。",
-		"tr_text": "Voice will\nbe unlocked at Bond Lv.<%parameter>."
+		"jp_text": "このボイスは\n絆レベルがLv.MAXになると解放されます。",
+		"tr_text": ""
 	},
 	{
 		"assign": "sidestory_voice_playbtn_greeting",
