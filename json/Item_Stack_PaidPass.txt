@@ -3194,9 +3194,9 @@
 	{
 		"assign": "321010039",
 		"jp_text": "N-特殊能力追加アイテム保護",
-		"tr_text": "",
+		"tr_text": "N-Ability Protection",
 		"jp_explain": "アイテムの特殊能力追加失敗時に\n素材アイテムと特殊能力追加アイテムが\n消費されるのを防止する。",
-		"tr_explain": ""
+		"tr_explain": "Returns the Material Items that\nwere lost from synthesis when\nadding an Ability fails."
 	},
 	{
 		"assign": "321010054",
@@ -3229,8 +3229,8 @@
 	{
 		"assign": "321015032",
 		"jp_text": "スペシャルスクラッチ券",
-		"tr_text": "",
+		"tr_text": "Special Scratch Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\nスペシャルスクラッチに\n1回挑戦できるチケット。",
-		"tr_explain": ""
+		"tr_explain": "Allows you one chance at\nthe Special Scratch just by\nhaving it in your inventory."
 	}
 ]
