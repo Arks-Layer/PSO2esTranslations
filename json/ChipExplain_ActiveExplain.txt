@@ -88,14 +88,14 @@
 		"jp_explainShort": "全体に大ダメージ＋確率で「バーン」",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 敵全体に大ダメージを与える。\n② 敵全体に一定確率で「バーン」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 1200% shooting damage to all enemies.\n<color=yellow>SP: </color>Deals 1400% shooting damage to all enemies.\n②  Has a chance to inflict [Burn]."
 	},
 	{
 		"assign": "920",
 		"jp_explainShort": "全体に特大ダメージ＋確率で「バーン」",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 敵全体に特大ダメージを与える。\n② 敵全体に一定確率で「バーン」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 2000% shooting damage to all enemies.\n<color=yellow>SP: </color>Deals 2400% shooting damage to all enemies.\n②  Has a chance to inflict [Burn]."
 	},
 	{
 		"assign": "1110",
@@ -536,14 +536,14 @@
 		"jp_explainShort": "ダーカー以外にダメージ増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカー以外の種族に対して\n　　 与えるダメージを増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against non-Darkers by 30%.\n<color=yellow>SP: </color>Boosts damage against non-Darkers by 40%.\n     <color=yellow>[B-Frame]</color>\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "31012",
 		"jp_explainShort": "ダーカー以外にダメージ大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカー以外の種族に対して\n　　 与えるダメージを大きく増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against non-Darkers by 45%.\n<color=yellow>SP: </color>Boosts damage against non-Darkers by 55%.\n     <color=yellow>[B-Frame]</color>\n[Effect Duration] 35 seconds"
 	},
 	{
 		"assign": "31025",
@@ -1236,28 +1236,28 @@
 		"jp_explainShort": "「バーン」付与＋「バーン」時ダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「バーン」効果を付加する。\n② 「バーン」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Burn].\n②  Boosts damage by 70% against enemies affected\n     by [Burn].\n<color=yellow>SP: </color>Boosts damage by 80% against enemies affected\n     by [Burn].\n     <color=yellow>[C-Frame]</color>\n[Effect Duration] 50 seconds"
 	},
 	{
 		"assign": "31426",
 		"jp_explainShort": "「バーン」付与＋「バーン」時ダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「バーン」効果を付加する。\n② 「バーン」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Burn].\n②  Boosts damage by 90% against enemies affected\n     by [Burn].\n<color=yellow>SP: </color>Boosts damage by 100% against enemies affected\n     by [Burn].\n     <color=yellow>[C-Frame]</color>\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31427",
 		"jp_explainShort": "攻撃力超絶増加＋覇滅種にダメージ増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 覇滅種に対して与えるダメージを増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 200%.\n<color=yellow>SP: </color>Boosts damage by 210%.\n     <color=yellow>[E-Frame]</color>\n②  Boosts damage by 10% against Superior-type\n     enemies.\n     <color=yellow>[J-Frame]</color>\n[Effect Duration] 50 seconds"
 	},
 	{
 		"assign": "31428",
 		"jp_explainShort": "攻撃力超絶増加＋覇滅種にダメージ増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 覇滅種に対して与えるダメージを増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 220%.\n<color=yellow>SP: </color>Boosts damage by 230%.\n     <color=yellow>[E-Frame]</color>\n②  Boosts damage by 10% against Superior-type\n     enemies.\n     <color=yellow>[J-Frame]</color>\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31437",
@@ -1390,14 +1390,14 @@
 		"jp_explainShort": "状態異常付与＋状態異常ダメージ大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃にランダムで特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを大きく増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict random\n     status effects.\n②  Boosts damage by 60% against enemies affected\n     by status effects.\n<color=yellow>SP: </color>Boosts damage by 70% against enemies affected\n     by status effects.\n     <color=yellow>[C-Frame]</color>\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31510",
 		"jp_explainShort": "状態異常付与＋状態異常ダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃にランダムで特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを劇的に増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict random\n     status effects.\n②  Boosts damage by 80% against enemies affected\n     by status effects.\n<color=yellow>SP: </color>Boosts damage by 90% against enemies affected\n     by status effects.\n     <color=yellow>[C-Frame]</color>\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "31517",
@@ -1446,14 +1446,14 @@
 		"jp_explainShort": "ミラージュ付与＋状態異常ダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「ミラージュ」効果を付加する。\n② 状態異常の敵に対してダメージを劇的に増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Mirage].\n②  Boosts damage by 70% against enemies affected\n     by status effects.\n<color=yellow>SP: </color>Boosts damage by 75% against enemies affected\n     by status effects.\n     <color=yellow>[C-Frame]</color>\n[Effect Duration] 50 seconds"
 	},
 	{
 		"assign": "31534",
 		"jp_explainShort": "ミラージュ付与＋状態異常ダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「ミラージュ」効果を付加する。\n② 状態異常の敵に対してダメージを劇的に増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Mirage].\n②  Boosts damage by 80% against enemies affected\n     by status effects.\n<color=yellow>SP: </color>Boosts damage by 85% against enemies affected\n     by status effects.\n     <color=yellow>[C-Frame]</color>\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31539",
@@ -1488,14 +1488,14 @@
 		"jp_explainShort": "ダーカー以外にダメージ大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカー以外の種族に対して\n　　 与えるダメージを大きく増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against non-Darkers by 60%.\n<color=yellow>SP: </color>Boosts damage against non-Darkers by 70%.\n     <color=yellow>[B-Frame]</color>\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31556",
 		"jp_explainShort": "ダーカー以外にダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカー以外の種族に対して\n　　 与えるダメージを劇的に増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against non-Darkers by 80%.\n<color=yellow>SP: </color>Boosts damage against non-Darkers by 90%.\n     <color=yellow>[B-Frame]</color>\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "31566",
@@ -1747,14 +1747,14 @@
 		"jp_explainShort": "ポイズン付与＋ポイズン時ダメージ増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「ポイズン」効果を付加する。\n② 「ポイズン」状態の敵に対してダメージを増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Poison].\n②  Boosts damage by 35% against enemies affected\n     by [Poison].\n<color=yellow>SP: </color>Boosts damage by 40% against enemies affected\n     by [Poison].\n     <color=yellow>[C-Frame]</color>\n[Effect Duration] 50 seconds"
 	},
 	{
 		"assign": "31674",
 		"jp_explainShort": "ポイズン付与＋ポイズン時ダメージ大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「ポイズン」効果を付加する。\n② 「ポイズン」状態の敵に対してダメージを大きく増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Poison].\n②  Boosts damage by 45% against enemies affected\n     by [Poison].\n<color=yellow>SP: </color>Boosts damage by 50% against enemies affected\n     by [Poison].\n     <color=yellow>[C-Frame]</color>\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31677",
@@ -1936,14 +1936,14 @@
 		"jp_explainShort": "絶大追撃＋ダーカー大ダメージ＋ダメージ防御",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 敵に追加で絶大ダメージを与える。\n② ダーカーに対して与えるダメージを大きく増加する。\n③ 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Deals an additional 165% damage to enemies.\n<color=yellow>SP: </color>Deals an additional 170% damage to enemies.\n     <color=yellow>[Chase]</color>\n②  Boosts damage against Darkers by 45%.\n     <color=yellow>[B-Frame]</color>\n③  Grants you a shield that prevents damage up to\n     50% of your maximum HP.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31760",
 		"jp_explainShort": "絶大追撃＋ダーカー大ダメージ＋ダメージ防御",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 敵に追加で絶大ダメージを与える。\n② ダーカーに対して与えるダメージを大きく増加する。\n③ 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Deals an additional 175% damage to enemies.\n<color=yellow>SP: </color>Deals an additional 180% damage to enemies.\n     <color=yellow>[Chase]</color>\n②  Boosts damage against Darkers by 45%.\n     <color=yellow>[B-Frame]</color>\n③  Grants you a shield that prevents damage up to\n     50% of your maximum HP.\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "31772",
@@ -1992,14 +1992,14 @@
 		"jp_explainShort": "アビＬｖ技法増加＋ダメージ防御＋フリーズ付与",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて必殺技・法術チップの\n　　 威力を大きく増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率で「フリーズ」効果を付与する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts all PAs and Techs by 5% x this chip's\n     ability level.\n<color=yellow>SP: </color>Boosts all PAs and Techs by 6% x this chip's\n     ability level.\n     <color=yellow>[K-Frame]</color>\n②  Grants you a shield that prevents damage up to\n     5% of your HP x this chip's ability level.\n③  Responds to damage from the targeted enemy\n     with a 100% chance to inflict [Freeze].\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31789",
 		"jp_explainShort": "アビＬｖ技法増加＋ダメージ防御＋フリーズ付与",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて必殺技・法術チップの\n　　 威力を大きく増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率で「フリーズ」効果を付与する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts all PAs and Techs by 6% x this chip's\n     ability level.\n<color=yellow>SP: </color>Boosts all PAs and Techs by 7% x this chip's\n     ability level.\n     <color=yellow>[K-Frame]</color>\n②  Grants you a shield that prevents damage up to\n     5% of your HP x this chip's ability level.\n③  Responds to damage from the targeted enemy\n     with a 100% chance to inflict [Freeze].\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "31790",
@@ -2062,14 +2062,14 @@
 		"jp_explainShort": "氷属性ダメージ＋ダメージ防御＋フリーズ付与",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 氷属性が弱点の敵に対して\n　　 その属性によるダメージを絶大に増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率で「フリーズ」効果を付与する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Ice elemental damage by 150% against\n     enemies weak to Ice.\n<color=yellow>SP: </color>Boosts Ice elemental damage by 155% against\n     enemies weak to Ice.\n     <color=yellow>[S-Frame]</color>\n②  Grants you a shield that prevents damage up to\n     50% of your maximum HP.\n③  Responds to damage from the targeted enemy\n     with a 100% chance to inflict [Freeze].\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31835",
 		"jp_explainShort": "氷属性ダメージ＋ダメージ防御＋フリーズ付与",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 氷属性が弱点の敵に対して\n　　 その属性によるダメージを絶大に増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率で「フリーズ」効果を付与する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Ice elemental damage by 160% against\n     enemies weak to Ice.\n<color=yellow>SP: </color>Boosts Ice elemental damage by 165% against\n     enemies weak to Ice.\n     <color=yellow>[S-Frame]</color>\n②  Grants you a shield that prevents damage up to\n     50% of your maximum HP.\n③  Responds to damage from the targeted enemy\n     with a 100% chance to inflict [Freeze].\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "31840",
@@ -2419,14 +2419,14 @@
 		"jp_explainShort": "原生種・ダーカーにダメージ絶大増加＋軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 原生種とダーカーに対して\n　　 与えるダメージを絶大に増加する。\n② 原生種とダーカーから受けるダメージを軽減する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Natives and Darkers by\n     135%.\n<color=yellow>SP: </color>Boosts damage against Natives and Darkers by\n     140%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Natives and Darkers\n     by 30%.\n<color=yellow>SP: </color>Reduces damage taken from Natives and Darkers\n     by 35%.\n[Effect Duration] 50 seconds"
 	},
 	{
 		"assign": "31974",
 		"jp_explainShort": "原生種・ダーカーにダメージ絶大増加＋大軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 原生種とダーカーに対して\n　　 与えるダメージを絶大に増加する。\n② 原生種とダーカーから受けるダメージを大きく軽減する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Natives and Darkers by\n     145%.\n<color=yellow>SP: </color>Boosts damage against Natives and Darkers by\n     150%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Natives and Darkers\n     by 40%.\n<color=yellow>SP: </color>Reduces damage taken from Natives and Darkers\n     by 50%.\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "31977",
@@ -2643,14 +2643,14 @@
 		"jp_explainShort": "攻撃力増加＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃にランダムで特定の状態異常効果を付加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率でランダムな状態異常効果を付与する。\n③ 状態異常の敵に対してダメージを絶大に増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict random\n     status effects.\n②  Responds to damage from the targeted enemy\n     by inflicting random status effects.\n③  Boosts damage by 130% against enemies affected\n     by status effects.\n<color=yellow>SP: </color>Boosts damage by 135% against enemies affected\n     by status effects.\n     <color=yellow>[C-Frame]</color>\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "32046",
 		"jp_explainShort": "攻撃力大増加＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃にランダムで特定の状態異常効果を付加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率でランダムな状態異常効果を付与する。\n③ 状態異常の敵に対してダメージを絶大に増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict random\n     status effects.\n②  Responds to damage from the targeted enemy\n     by inflicting random status effects.\n③  Boosts damage by 140% against enemies affected\n     by status effects.\n<color=yellow>SP: </color>Boosts damage by 145% against enemies affected\n     by status effects.\n     <color=yellow>[C-Frame]</color>\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "32052",
@@ -3126,14 +3126,14 @@
 		"jp_explainShort": "奇妙な動きで乱舞する長槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技に「バーン」効果を付加する。\n② 「バーン」状態の敵に対して\n　　 ダメージを極度に増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives PAs a chance to inflict [Burn].\n②  Boosts damage by 310% against enemies\n     affected by [Burn].\n<color=yellow>SP: </color>Boosts damage by 320% against enemies\n     affected by [Burn].\n     <color=yellow>[C-Frame]</color>\n[Effect Duration] 60 seconds"
 	},
 	{
 		"assign": "32258",
 		"jp_explainShort": "目標を追って跳躍する双小剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技に「バーン」効果を付加する。\n② 「バーン」状態の敵に対して\n　　 ダメージを極度に増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives PAs a chance to inflict [Burn].\n②  Boosts damage by 330% against enemies\n     affected by [Burn].\n<color=yellow>SP: </color>Boosts damage by 340% against enemies\n     affected by [Burn].\n     <color=yellow>[C-Frame]</color>\n[Effect Duration] 70 seconds"
 	},
 	{
 		"assign": "32265",
@@ -4099,14 +4099,14 @@
 		"jp_explainShort": "長槍で舞う動作の後に範囲攻撃発動",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 敵全体に中ダメージを与える。\n② 敵全体に一定確率で「ポイズン」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 675% shooting damage to all enemies.\n<color=yellow>SP: </color>Deals 810% shooting damage to all enemies.\n②  Has a chance to inflict [Poison]."
 	},
 	{
 		"assign": "81120",
 		"jp_explainShort": "長槍で舞う動作の後に範囲攻撃発動",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 敵全体に大ダメージを与える。\n② 敵全体に一定確率で「ポイズン」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 900% shooting damage to all enemies.\n<color=yellow>SP: </color>Deals 1080% shooting damage to all enemies.\n②  Has a chance to inflict [Poison]."
 	},
 	{
 		"assign": "81210",
@@ -9629,14 +9629,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 中ダメージを与える。\n② 攻撃対象の敵に\n　　 一定確率で「ポイズン」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 375% shooting damage to the target.\n<color=yellow>SP: </color>Deals 450% shooting damage to the target.\n②  Has a chance to inflict [Poison]."
 	},
 	{
 		"assign": "3920",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 中ダメージを与える。\n② 攻撃対象の敵に\n　　 一定確率で「ポイズン」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 525% shooting damage to the target.\n<color=yellow>SP: </color>Deals 675% shooting damage to the target.\n②  Has a chance to inflict [Poison]."
 	},
 	{
 		"assign": "4010",
@@ -9853,14 +9853,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 中ダメージを与える。\n② 攻撃対象の敵に\n　　 一定確率で「フリーズ」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 375% shooting damage to the target.\n<color=yellow>SP: </color>Deals 450% shooting damage to the target.\n②  Has a chance to inflict [Freeze]."
 	},
 	{
 		"assign": "6120",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 中ダメージを与える。\n② 攻撃対象の敵に\n　　 一定確率で「フリーズ」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 525% shooting damage to the target.\n<color=yellow>SP: </color>Deals 675% shooting damage to the target.\n②  Has a chance to inflict [Freeze]."
 	},
 	{
 		"assign": "6410",
@@ -9951,28 +9951,28 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 敵全体に射撃による大ダメージを与える。\n② 敵全体に一定確率で「ショック」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 1000% shooting damage to all enemies.\n<color=yellow>SP: </color>Deals 1200% shooting damage to all enemies.\n②  Has a chance to inflict [Shock]."
 	},
 	{
 		"assign": "7220",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 敵全体に射撃による大ダメージを与える。\n② 敵全体に一定確率で「ショック」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 1400% shooting damage to all enemies.\n<color=yellow>SP: </color>Deals 1600% shooting damage to all enemies.\n②  Has a chance to inflict [Shock]."
 	},
 	{
 		"assign": "7310",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 敵全体に射撃による中ダメージを与える。\n② 敵全体に一定確率で「フリーズ」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 375% shooting damage to all enemies.\n<color=yellow>SP: </color>Deals 450% shooting damage to all enemies.\n②  Has a chance to inflict [Freeze]."
 	},
 	{
 		"assign": "7320",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 敵全体に射撃による中ダメージを与える。\n② 敵全体に一定確率で「フリーズ」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 525% shooting damage to all enemies.\n<color=yellow>SP: </color>Deals 675% shooting damage to all enemies.\n②  Has a chance to inflict [Freeze]."
 	},
 	{
 		"assign": "7410",
@@ -10105,14 +10105,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 法撃による大ダメージを与える。\n② 敵全体に一定確率で「ポイズン」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 1000% tech damage to all enemies.\n<color=yellow>SP: </color>Deals 1200% tech damage to all enemies.\n②  Has a chance to inflict [Poison]."
 	},
 	{
 		"assign": "9422",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 法撃による大ダメージを与える。\n② 敵全体に一定確率で「ポイズン」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 1400% tech damage to all enemies.\n<color=yellow>SP: </color>Deals 1600% tech damage to all enemies.\n②  Has a chance to inflict [Poison]."
 	},
 	{
 		"assign": "20025",
@@ -10133,28 +10133,28 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 射撃による小ダメージを与える。\n② 敵全体に一定確率で「パニック」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 200% shooting damage to all enemies.\n<color=yellow>SP: </color>Deals 250% shooting damage to all enemies.\n②  Has a chance to inflict [Panic]."
 	},
 	{
 		"assign": "20028",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 射撃による中ダメージを与える。\n② 敵全体に一定確率で「パニック」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 300% shooting damage to all enemies.\n<color=yellow>SP: </color>Deals 350% shooting damage to all enemies.\n②  Has a chance to inflict [Panic]."
 	},
 	{
 		"assign": "9810",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 射撃による中ダメージを与える。\n② 攻撃対象の敵に\n　　 一定確率で「ショック」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 375% shooting damage to the target.\n<color=yellow>SP: </color>Deals 450% shooting damage to the target.\n②  Has a chance to inflict [Shock]."
 	},
 	{
 		"assign": "9820",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "【ダメージボム】\n① 射撃による中ダメージを与える。\n② 攻撃対象の敵に\n　　 一定確率で「ショック」効果を付与する。",
-		"tr_explainLong": ""
+		"tr_explainLong": "[Damage Bomb]\n①  Deals 525% shooting damage to the target.\n<color=yellow>SP: </color>Deals 675% shooting damage to the target.\n②  Has a chance to inflict [Shock]."
 	},
 	{
 		"assign": "9910",
@@ -10217,56 +10217,56 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 原生種に対して与えるダメージを増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Natives by 30%.\n<color=yellow>SP: </color>Boosts damage against Natives by 40%.\n     <color=yellow>[B-Frame]</color>\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "30120",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 原生種に対して与えるダメージを大きく増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Natives by 40%.\n<color=yellow>SP: </color>Boosts damage against Natives by 50%.\n     <color=yellow>[B-Frame]</color>\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "30210",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 機甲種に対して与えるダメージを増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Mechs by 30%.\n<color=yellow>SP: </color>Boosts damage against Mechs by 40%.\n     <color=yellow>[B-Frame]</color>\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "30220",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 機甲種に対して与えるダメージを大きく増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Mechs by 40%.\n<color=yellow>SP: </color>Boosts damage against Mechs by 50%.\n     <color=yellow>[B-Frame]</color>\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "30310",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 龍族に対して与えるダメージを増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Dragonkin by 30%.\n<color=yellow>SP: </color>Boosts damage against Dragonkin by 40%.\n     <color=yellow>[B-Frame]</color>\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "30320",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 龍族に対して与えるダメージを大きく増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Dragonkin by 40%.\n<color=yellow>SP: </color>Boosts damage against Dragonkin by 50%.\n     <color=yellow>[B-Frame]</color>\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "30410",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカーに対して与えるダメージを増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Darkers by 30%.\n<color=yellow>SP: </color>Boosts damage against Darkers by 40%.\n     <color=yellow>[B-Frame]</color>\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "30420",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカーに対して与えるダメージを大きく増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Darkers by 40%.\n<color=yellow>SP: </color>Boosts damage against Darkers by 50%.\n     <color=yellow>[B-Frame]</color>\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "25010",
@@ -10427,14 +10427,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 海王種に対して与えるダメージを増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Oceanids by 30%.\n<color=yellow>SP: </color>Boosts damage against Oceanids by 40%.\n     <color=yellow>[B-Frame]</color>\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "20010",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 海王種に対して与えるダメージを大きく増加する。\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Oceanids by 40%.\n<color=yellow>SP: </color>Boosts damage against Oceanids by 50%.\n     <color=yellow>[B-Frame]</color>\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "20011",
