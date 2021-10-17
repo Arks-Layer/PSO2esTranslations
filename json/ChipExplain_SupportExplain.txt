@@ -620,14 +620,14 @@
 		"jp_explainShort": "ダーカーに対してダメージが大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカーに対して与えるダメージを大きく増加する。\n[発動条件]ダーカーに攻撃がヒットした時\n[効果時間]短い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Darkers by 45%.\n<color=yellow>SP: </color>Boosts damage against Darkers by 55%.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Landing attacks on Darkers\n[Effect Duration] 10 seconds"
 	},
 	{
 		"assign": "31014",
 		"jp_explainShort": "ダーカーに対してダメージが劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカーに対して与えるダメージを劇的に増加する。\n[発動条件]ダーカーに攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Darkers by 65%.\n<color=yellow>SP: </color>Boosts damage against Darkers by 75%.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Landing attacks on Darkers\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31015",
@@ -774,14 +774,14 @@
 		"jp_explainShort": "龍族にダメージ劇的増加＋被ダメージ軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 龍族に対して与えるダメージを劇的に増加する。\n② 龍族から受けるダメージを軽減する。\n[発動条件]龍族に攻撃がヒットした時\n[効果時間]短い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Dragonkin by 80%.\n<color=yellow>SP: </color>Boosts damage against Dragonkin by 85%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Dragonkin by 30%.\n<color=yellow>SP: </color>Reduces damage taken from Dragonkin by 35%.\n[Activation Trigger] Landing attacks on Dragonkin\n[Effect Duration] 10 seconds"
 	},
 	{
 		"assign": "31040",
 		"jp_explainShort": "龍族にダメージ劇的増加＋被ダメージ大軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 龍族に対して与えるダメージを劇的に増加する。\n② 龍族から受けるダメージを大きく軽減する。\n[発動条件]龍族に攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Dragonkin by 90%.\n<color=yellow>SP: </color>Boosts damage against Dragonkin by 95%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Dragonkin by 40%.\n<color=yellow>SP: </color>Reduces damage taken from Dragonkin by 50%.\n[Activation Trigger] Landing attacks on Dragonkin\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31041",
@@ -998,14 +998,14 @@
 		"jp_explainShort": "龍族にダメージ大増加＋被ダメージ小軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 龍族に対して与えるダメージを劇的に増加する。\n② 龍族から受けるダメージをわずかに軽減する。\n[発動条件]龍族に攻撃がヒットした時\n[効果時間]短い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Dragonkin by 110%.\n<color=yellow>SP: </color>Boosts damage against Dragonkin by 120%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Dragonkin by 10%.\n<color=yellow>SP: </color>Reduces damage taken from Dragonkin by 12%.\n[Activation Trigger] Landing attacks on Dragonkin\n[Effect Duration] 10 seconds"
 	},
 	{
 		"assign": "31092",
 		"jp_explainShort": "龍族にダメージ劇的増加＋被ダメージ小軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 龍族に対して与えるダメージを絶大に増加する。\n② 龍族から受けるダメージをわずかに軽減する。\n[発動条件]龍族に攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Dragonkin by 130%.\n<color=yellow>SP: </color>Boosts damage against Dragonkin by 140%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Dragonkin by 15%.\n<color=yellow>SP: </color>Reduces damage taken from Dragonkin by 20%.\n[Activation Trigger] Landing attacks on Dragonkin\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31095",
@@ -1110,14 +1110,14 @@
 		"jp_explainShort": "海王種・ダーカーにダメージ劇的増加＋軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 海王種とダーカーに対して\n　　 与えるダメージを劇的に増加する。\n② 海王種とダーカーから受けるダメージを軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Oceanids\n     and Darkers by 90%.\n<color=yellow>SP: </color>Boosts damage against Oceanids\n     and Darkers by 95%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Oceanids and\n     Darkers by 30%.\n<color=yellow>SP: </color>Reduces damage taken from Oceanids and\n     Darkers by 35%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31114",
 		"jp_explainShort": "海王種・ダーカーにダメージ劇的増加＋大軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 海王種とダーカーに対して\n　　 与えるダメージを劇的に増加する。\n② 海王種とダーカーから受けるダメージを大きく軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Oceanids\n     and Darkers by 100%.\n<color=yellow>SP: </color>Boosts damage against Oceanids\n     and Darkers by 105%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Oceanids and\n     Darkers by 40%.\n<color=yellow>SP: </color>Reduces damage taken from Oceanids and\n     Darkers by 50%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31115",
@@ -1222,14 +1222,14 @@
 		"jp_explainShort": "状態異常付与＋状態異常ダメージ絶大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃にランダムで特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを絶大に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict random\n     status effects.\n②  Boosts damage by 120% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 140% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31134",
 		"jp_explainShort": "状態異常付与＋状態異常ダメージ絶大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃にランダムで特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを絶大に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict random\n     status effects.\n②  Boosts damage by 160% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 180% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31135",
@@ -1558,28 +1558,28 @@
 		"jp_explainShort": "機甲種にダメージ劇的増加＋被ダメージ軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 機甲種に対して与えるダメージを劇的に増加する。\n② 機甲種から受けるダメージを軽減する。\n[発動条件]機甲種に攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Mechs by 80%.\n<color=yellow>SP: </color>Boosts damage against Mechs by 85%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Mechs by 30%.\n<color=yellow>SP: </color>Reduces damage taken from Mechs by 35%.\n[Activation Trigger] Landing attacks on Mechs\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31210",
 		"jp_explainShort": "機甲種ダメージ劇的増加＋被ダメージ大軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 機甲種に対して与えるダメージを劇的に増加する。\n② 機甲種から受けるダメージを大きく軽減する。\n[発動条件]機甲種に攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Mechs by 90%.\n<color=yellow>SP: </color>Boosts damage against Mechs by 95%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Mechs by 40%.\n<color=yellow>SP: </color>Reduces damage taken from Mechs by 50%.\n[Activation Trigger] Landing attacks on Mechs\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31213",
 		"jp_explainShort": "原生種にダメージ劇的増加＋被ダメージ軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 原生種に対して与えるダメージを劇的に増加する。\n② 原生種から受けるダメージを軽減する。\n[発動条件]原生種に攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Natives by 80%.\n<color=yellow>SP: </color>Boosts damage against Natives by 85%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Natives by 30%.\n<color=yellow>SP: </color>Reduces damage taken from Natives by 35%.\n[Activation Trigger] Landing attacks on Natives\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31214",
 		"jp_explainShort": "原生種ダメージ劇的増加＋被ダメージ大軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 原生種に対して与えるダメージを劇的に増加する。\n② 原生種から受けるダメージを大きく軽減する。\n[発動条件]原生種に攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Natives by 90%.\n<color=yellow>SP: </color>Boosts damage against Natives by 95%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Natives by 40%.\n<color=yellow>SP: </color>Reduces damage taken from Natives by 50%.\n[Activation Trigger] Landing attacks on Natives\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31217",
@@ -1684,28 +1684,28 @@
 		"jp_explainShort": "通常攻撃にバーン付与＋攻撃力劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 通常攻撃に「バーン」効果を付加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 80%.\n<color=yellow>SP: </color>Boosts damage by 90%.\n     <color=yellow>[E-Frame]</color>\n②  Gives Normal Attacks a chance to inflict [Burn].\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31234",
 		"jp_explainShort": "通常攻撃にバーン付与＋攻撃力劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 通常攻撃に「バーン」効果を付加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 100%.\n<color=yellow>SP: </color>Boosts damage by 110%.\n     <color=yellow>[E-Frame]</color>\n②  Gives Normal Attacks a chance to inflict [Burn].\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31235",
 		"jp_explainShort": "パニック付与＋パニック時ダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「パニック」効果を付加する。\n② 「パニック」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Panic].\n②  Boosts damage by 70% against enemies affected\n     by [Panic].\n<color=yellow>SP: </color>Boosts damage by 80% against enemies affected\n     by [Panic].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31236",
 		"jp_explainShort": "パニック付与＋パニック時ダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「パニック」効果を付加する。\n② 「パニック」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Panic].\n②  Boosts damage by 90% against enemies affected\n     by [Panic].\n<color=yellow>SP: </color>Boosts damage by 100% against enemies affected\n     by [Panic].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31237",
@@ -1992,14 +1992,14 @@
 		"jp_explainShort": "ダーカーにダメージ劇的増加＋光属性大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカーに対して与えるダメージを劇的に増加する。\n② 光属性を大きく強化する。\n[発動条件]ダーカーに攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Darkers by 105%.\n<color=yellow>SP: </color>Boosts damage against Darkers by 110%.\n     <color=yellow>[B-Frame]</color>\n②  Increases your Light Element by 50.\n<color=yellow>SP: </color>Increases your Light Element by 60.\n[Activation Trigger] Landing attacks on Darkers\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31306",
 		"jp_explainShort": "ダーカーにダメージ劇的増加＋光属性大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカーに対して与えるダメージを劇的に増加する。\n② 光属性を大きく強化する。\n[発動条件]ダーカーに攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Darkers by 115%.\n<color=yellow>SP: </color>Boosts damage against Darkers by 120%.\n     <color=yellow>[B-Frame]</color>\n②  Increases your Light Element by 70.\n<color=yellow>SP: </color>Increases your Light Element by 80.\n[Activation Trigger] Landing attacks on Darkers\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "31309",
@@ -2118,14 +2118,14 @@
 		"jp_explainShort": "ダーカー以外にダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカー以外の種族に対して\n　　 与えるダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against non-Darkers by 100%.\n<color=yellow>SP: </color>Boosts damage against non-Darkers by 120%.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31334",
 		"jp_explainShort": "ダーカー以外にダメージ絶大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカー以外の種族に対して\n　　 与えるダメージを絶大に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against non-Darkers by 140%.\n<color=yellow>SP: </color>Boosts damage against non-Darkers by 160%.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "31337",
@@ -2398,14 +2398,14 @@
 		"jp_explainShort": "バーン付与＋バーン時ダメージ絶大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「バーン」効果を付加する。\n② 「バーン」状態の敵に対して\n　　 ダメージを絶大に増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Burn].\n②  Boosts damage by 120% against enemies\n     affected by [Burn].\n<color=yellow>SP: </color>Boosts damage by 140% against enemies\n     affected by [Burn].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Landing an attack\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31384",
 		"jp_explainShort": "バーン付与＋バーン時ダメージ絶大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「バーン」効果を付加する。\n② 「バーン」状態の敵に対して\n　　 ダメージを絶大に増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Burn].\n②  Boosts damage by 160% against enemies\n     affected by [Burn].\n<color=yellow>SP: </color>Boosts damage by 180% against enemies\n     affected by [Burn].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31385",
@@ -2538,14 +2538,14 @@
 		"jp_explainShort": "海王種・原生種にダメージ劇的増加＋軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 海王種と原生種に対して\n　　 与えるダメージを劇的に増加する。\n② 海王種と原生種から受けるダメージを軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Oceanids\n     and Natives by 90%.\n<color=yellow>SP: </color>Boosts damage against Oceanids\n     and Natives by 95%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Oceanids and\n     Natives by 30%.\n<color=yellow>SP: </color>Reduces damage taken from Oceanids and\n     Natives by 35%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31408",
 		"jp_explainShort": "海王種・原生種にダメージ劇的増加＋大軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 海王種と原生種に対して\n　　 与えるダメージを劇的に増加する。\n② 海王種と原生種から受けるダメージを大きく軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Oceanids\n     and Natives by 100%.\n<color=yellow>SP: </color>Boosts damage against Oceanids\n     and Natives by 105%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Oceanids and\n     Natives by 40%.\n<color=yellow>SP: </color>Reduces damage taken from Oceanids and\n     Natives by 50%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31411",
@@ -2608,14 +2608,14 @@
 		"jp_explainShort": "ミラージュ付与＋ミラージュ時ダメージ大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「ミラージュ」効果を付加する。\n② 「ミラージュ」状態の敵に対して\n　　 ダメージを大きく増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Mirage].\n②  Boosts damage by 60% against enemies affected\n     by [Mirage].\n<color=yellow>SP: </color>Boosts damage by 70% against enemies affected\n     by [Mirage].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Landing an attack\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31424",
 		"jp_explainShort": "ミラージュ付与＋ミラージュ時ダメージ劇的増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「ミラージュ」効果を付加する。\n② 「ミラージュ」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Mirage].\n②  Boosts damage by 80% against enemies affected\n     by [Mirage].\n<color=yellow>SP: </color>Boosts damage by 90% against enemies affected\n     by [Mirage].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31429",
@@ -2664,14 +2664,14 @@
 		"jp_explainShort": "全種族に対してダメージが増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて\n　　 全ての種族に対して与えるダメージを大きく増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against all races by 40% +\n     1% x this chip's ability level.\n<color=yellow>SP: </color>Boosts damage against all races by 50% +\n     1% x this chip's ability level.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "31436",
 		"jp_explainShort": "全種族に対してダメージが大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて\n　　 全ての種族に対して与えるダメージを劇的に増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against all races by 60% +\n     1% x this chip's ability level.\n<color=yellow>SP: </color>Boosts damage against all races by 70% +\n     1% x this chip's ability level.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Landing an attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31439",
@@ -2804,14 +2804,14 @@
 		"jp_explainShort": "ポイズン付与＋ポイズン時ダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「ポイズン」効果を付加する。\n② 「ポイズン」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Poison].\n②  Boosts damage by 70% against enemies\n     affected by [Poison].\n<color=yellow>SP: </color>Boosts damage by 80% against enemies\n     affected by [Poison].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31464",
 		"jp_explainShort": "ポイズン付与＋ポイズン時ダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「ポイズン」効果を付加する。\n② 「ポイズン」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Poison].\n②  Boosts damage by 90% against enemies\n     affected by [Poison].\n<color=yellow>SP: </color>Boosts damage by 100% against enemies\n     affected by [Poison].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31465",
@@ -2930,14 +2930,14 @@
 		"jp_explainShort": "機甲種にダメージ劇的増＋弱点属性大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 機甲種に対して与えるダメージを劇的に増加する。\n② 攻撃対象の敵の弱点属性を大きく強化する。\n[発動条件]機甲種に攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Mechs by 105%.\n<color=yellow>SP: </color>Boosts damage against Mechs by 110%.\n     <color=yellow>[B-Frame]</color>\n②  Increases all Elements that the target is weak\n     to by 50.\n<color=yellow>SP: </color>Increases all Elements that the target is weak\n     to by 60.\n[Activation Trigger] Landing attacks on Mechs\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31488",
 		"jp_explainShort": "機甲種にダメージ劇的増＋弱点属性大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 機甲種に対して与えるダメージを劇的に増加する。\n② 攻撃対象の敵の弱点属性を大きく強化する。\n[発動条件]機甲種に攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Mechs by 115%.\n<color=yellow>SP: </color>Boosts damage against Mechs by 120%.\n     <color=yellow>[B-Frame]</color>\n②  Increases all Elements that the target is weak\n     to by 70.\n<color=yellow>SP: </color>Increases all Elements that the target is weak\n     to by 80.\n[Activation Trigger] Landing attacks on Mechs\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "31489",
@@ -2972,14 +2972,14 @@
 		"jp_explainShort": "ダーカーにダメージ劇的増加＋炎属性大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカーに対して与えるダメージを劇的に増加する。\n② 炎属性を大きく強化する。\n[発動条件]ダーカーに攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Darkers by 105%.\n<color=yellow>SP: </color>Boosts damage against Darkers by 110%.\n     <color=yellow>[B-Frame]</color>\n②  Increases your Fire Element by 50.\n<color=yellow>SP: </color>Increases your Fire Element by 60.\n[Activation Trigger] Landing attacks on Darkers\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31494",
 		"jp_explainShort": "ダーカーにダメージ劇的増加＋炎属性大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカーに対して与えるダメージを劇的に増加する。\n② 炎属性を大きく強化する。\n[発動条件]ダーカーに攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Darkers by 115%.\n<color=yellow>SP: </color>Boosts damage against Darkers by 120%.\n     <color=yellow>[B-Frame]</color>\n②  Increases your Fire Element by 70.\n<color=yellow>SP: </color>Increases your Fire Element by 80.\n[Activation Trigger] Landing attacks on Darkers\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "31495",
@@ -3252,14 +3252,14 @@
 		"jp_explainShort": "属性数攻撃力絶大増＋覇滅種にダメージ大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中チップの属性種類数に応じて\n　　 攻撃力を絶大に増加する。\n② 覇滅種に対して与えるダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 20% x the number of different\n     chip elements equipped.\n     <color=yellow>[E-Frame]</color>\n②  Boosts damage by 90% against Superior-type\n     enemies.\n<color=yellow>SP: </color>Boosts damage by 95% against Superior-type\n     enemies.\n     <color=yellow>[J-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31552",
 		"jp_explainShort": "属性数攻撃力絶大増＋覇滅種にダメージ大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中チップの属性種類数に応じて\n　　 攻撃力を絶大に増加する。\n② 覇滅種に対して与えるダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 20% x the number of different\n     chip elements equipped.\n     <color=yellow>[E-Frame]</color>\n②  Boosts damage by 100% against Superior-type\n     enemies.\n<color=yellow>SP: </color>Boosts damage by 105% against Superior-type\n     enemies.\n     <color=yellow>[J-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31553",
@@ -3399,14 +3399,14 @@
 		"jp_explainShort": "バーン付与＋状態異常ダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「バーン」効果を付加する。\n② 状態異常の敵に対してダメージを劇的に増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Burn].\n②  Boosts damage by 70% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 75% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31584",
 		"jp_explainShort": "バーン付与＋状態異常ダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「バーン」効果を付加する。\n② 状態異常の敵に対してダメージを劇的に増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Burn].\n②  Boosts damage by 80% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 85% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Landing an attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31585",
@@ -3441,14 +3441,14 @@
 		"jp_explainShort": "状態異常付与＋状態異常ダメージ劇的増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技にランダムで特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives PAs a chance to inflict random status\n     effects.\n②  Boosts damage by 110% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 130% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31592",
 		"jp_explainShort": "状態異常付与＋状態異常ダメージ絶大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技にランダムで特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを絶大に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives PAs a chance to inflict random status\n     effects.\n②  Boosts damage by 150% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 170% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31593",
@@ -3525,14 +3525,14 @@
 		"jp_explainShort": "ミラージュ付与＋ミラージュ時ダメージ劇的増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技に「ミラージュ」効果を付加する。\n② 「ミラージュ」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives PAs a chance to inflict [Mirage].\n②  Boosts damage by 90% against enemies affected\n     by [Mirage].\n<color=yellow>SP: </color>Boosts damage by 100% against enemies affected\n     by [Mirage].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31608",
 		"jp_explainShort": "ミラージュ付与＋ミラージュ時ダメージ劇的増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技に「ミラージュ」効果を付加する。\n② 「ミラージュ」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives PAs a chance to inflict [Mirage].\n②  Boosts damage by 110% against enemies affected\n     by [Mirage].\n<color=yellow>SP: </color>Boosts damage by 120% against enemies affected\n     by [Mirage].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31611",
@@ -3644,14 +3644,14 @@
 		"jp_explainShort": "雷光武器攻撃力絶大増＋ダーカー大ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の武器の属性が雷・光属性の場合\n　　 攻撃力を絶大に増加する。\n② ダーカーに対して与えるダメージを大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 120% if using a Lightning or\n     Light weapon.\n<color=yellow>SP: </color>Boosts damage by 140% if using a Lightning or\n     Light weapon.\n     <color=yellow>[H-Frame]</color>\n②  Boosts damage against Darkers by 45%.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31629",
 		"jp_explainShort": "雷光武器攻撃力絶大増＋ダーカー大ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の武器の属性が雷・光属性の場合\n　　 攻撃力を絶大に増加する。\n② ダーカーに対して与えるダメージを大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 160% if using a Lightning or\n     Light weapon.\n<color=yellow>SP: </color>Boosts damage by 180% if using a Lightning or\n     Light weapon.\n     <color=yellow>[H-Frame]</color>\n②  Boosts damage against Darkers by 45%.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31630",
@@ -3777,14 +3777,14 @@
 		"jp_explainShort": "絶大追撃＋海王種大ダメージ＋ダメージ防御",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 敵に追加で絶大ダメージを与える。\n② 海王種に対して与えるダメージを大きく増加する。\n③ 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Deals an additional 165% damage to enemies.\n<color=yellow>SP: </color>Deals an additional 170% damage to enemies.\n     <color=yellow>[Chase]</color>\n②  Boosts damage against Oceanids by 45%.\n     <color=yellow>[B-Frame]</color>\n③  Grants you a shield that prevents damage up to\n     40% of your maximum HP.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31657",
 		"jp_explainShort": "絶大追撃＋海王種大ダメージ＋ダメージ防御",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 敵に追加で絶大ダメージを与える。\n② 海王種に対して与えるダメージを大きく増加する。\n③ 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Deals an additional 175% damage to enemies.\n<color=yellow>SP: </color>Deals an additional 180% damage to enemies.\n     <color=yellow>[Chase]</color>\n②  Boosts damage against Oceanids by 45%.\n     <color=yellow>[B-Frame]</color>\n③  Grants you a shield that prevents damage up to\n     40% of your maximum HP.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31658",
@@ -3875,14 +3875,14 @@
 		"jp_explainShort": "攻撃力劇的増加＋覇滅種にダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 覇滅種に対して与えるダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 65%.\n     <color=yellow>[E-Frame]</color>\n②  Boosts damage by 110% against Superior-type\n     enemies.\n<color=yellow>SP: </color>Boosts damage by 115% against Superior-type\n     enemies.\n     <color=yellow>[J-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31682",
 		"jp_explainShort": "攻撃力劇的増加＋覇滅種にダメージ絶大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 覇滅種に対して与えるダメージを絶大に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage by 65%.\n     <color=yellow>[E-Frame]</color>\n②  Boosts damage by 120% against Superior-type\n     enemies.\n<color=yellow>SP: </color>Boosts damage by 125% against Superior-type\n     enemies.\n     <color=yellow>[J-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31683",
@@ -3931,21 +3931,21 @@
 		"jp_explainShort": "状態異常付与＋状態異常特攻＋属性ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃と必殺技にランダムで\n　　 特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを超絶に増加する。\n③ 全てのリンクスロットに装備した雷属性チップの数に応じ\n　　 雷属性が弱点の敵に対して\n　　 その属性によるダメージを大きく増加する。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks and PAs a chance to inflict\n     random status effects.\n②  Boosts damage by 200% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 205% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n③  Boosts Lightning elemental damage against\n     enemies weak to Lightning by 7% x the number\n     of Lightning chips in all Link Slots.\n     <color=yellow>[S-Frame]</color>\n④  While this chip is equipped, the equip costs of\n     Lightning PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31690",
 		"jp_explainShort": "状態異常付与＋状態異常特攻＋属性ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃と必殺技にランダムで\n　　 特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを超絶に増加する。\n③ 全てのリンクスロットに装備した雷属性チップの数に応じ\n　　 雷属性が弱点の敵に対して\n　　 その属性によるダメージを大きく増加する。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks and PAs a chance to inflict\n     random status effects.\n②  Boosts damage by 215% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 220% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n③  Boosts Lightning elemental damage against\n     enemies weak to Lightning by 7% x the number\n     of Lightning chips in all Link Slots.\n     <color=yellow>[S-Frame]</color>\n④  While this chip is equipped, the equip costs of\n     Lightning PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31691",
 		"jp_explainShort": "状態異常付与＋状態異常特攻＋属性ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃と必殺技にランダムで\n　　 特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを超絶に増加する。\n③ 全てのリンクスロットに装備した雷属性チップの数に応じ\n　　 雷属性が弱点の敵に対して\n　　 その属性によるダメージを大きく増加する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks and PAs a chance to inflict\n     random status effects.\n②  Boosts damage by 230% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 235% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n③  Boosts Lightning elemental damage against\n     enemies weak to Lightning by 7% x the number\n     of Lightning chips in all Link Slots.\n     <color=yellow>[S-Frame]</color>\n④  While this chip is equipped, the equip costs of\n     all PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31692",
@@ -3994,14 +3994,14 @@
 		"jp_explainShort": "パニック付与＋パニック時ダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技に「パニック」効果を付加する。\n② 「パニック」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives PAs a chance to inflict [Panic].\n②  Boosts damage by 90% against enemies affected\n     by [Panic].\n<color=yellow>SP: </color>Boosts damage by 100% against enemies affected\n     by [Panic].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31699",
 		"jp_explainShort": "パニック付与＋パニック時ダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技に「パニック」効果を付加する。\n② 「パニック」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives PAs a chance to inflict [Panic].\n②  Boosts damage by 110% against enemies affected\n     by [Panic].\n<color=yellow>SP: </color>Boosts damage by 120% against enemies affected\n     by [Panic].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31705",
@@ -4050,14 +4050,14 @@
 		"jp_explainShort": "状態異常付与＋状態異常特攻＋大軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃にランダムで特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを劇的に増加する。\n③ 状態異常の敵から受けるダメージを大きく軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict random\n     status effects.\n②  Boosts damage by 65% against enemies affected\n     by status effects.\n<color=yellow>SP: </color>Boosts damage by 70% against enemies affected\n     by status effects.\n     <color=yellow>[C-Frame]</color>\n③  Reduces damage taken from enemies affected by\n     status effects by 40%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31716",
 		"jp_explainShort": "状態異常付与＋状態異常特攻＋大軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃にランダムで特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを劇的に増加する。\n③ 状態異常の敵から受けるダメージを大きく軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict random\n     status effects.\n②  Boosts damage by 75% against enemies affected\n     by status effects.\n<color=yellow>SP: </color>Boosts damage by 80% against enemies affected\n     by status effects.\n     <color=yellow>[C-Frame]</color>\n③  Reduces damage taken from enemies affected by\n     status effects by 40%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "31717",
@@ -4092,14 +4092,14 @@
 		"jp_explainShort": "ダーカーにダメージ増加＋攻撃力劇的強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカーに対して与えるダメージを増加する。\n② 攻撃力を劇的に強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Darkers by 35%.\n<color=yellow>SP: </color>Boosts damage against Darkers by 40%.\n     <color=yellow>[B-Frame]</color>\n②  Increases your ATK by 5000.\n<color=yellow>SP: </color>Increases your ATK by 5500.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31722",
 		"jp_explainShort": "ダーカーにダメージ大増加＋攻撃力絶大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカーに対して与えるダメージを大きく増加する。\n② 攻撃力を絶大に強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Darkers by 40%.\n<color=yellow>SP: </color>Boosts damage against Darkers by 45%.\n     <color=yellow>[B-Frame]</color>\n②  Increases your ATK by 6000.\n<color=yellow>SP: </color>Increases your ATK by 6500.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31723",
@@ -4120,14 +4120,14 @@
 		"jp_explainShort": "ダーカー以外にダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカー以外の種族に対して\n　　 与えるダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against non-Darkers by 105%.\n<color=yellow>SP: </color>Boosts damage against non-Darkers by 125%.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31726",
 		"jp_explainShort": "ダーカー以外にダメージ絶大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカー以外の種族に対して\n　　 与えるダメージを絶大に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against non-Darkers by 145%.\n<color=yellow>SP: </color>Boosts damage against non-Darkers by 165%.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31727",
@@ -4232,14 +4232,14 @@
 		"jp_explainShort": "雷枚数攻撃力超絶強化＋機甲種大ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中チップの雷属性チップの枚数に応じて\n　　 攻撃力を超絶に強化する。\n② 機甲種に対して与えるダメージを大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Increases your ATK by 8250 + 500 x the\n     number of Lightning chips equipped.\n<color=yellow>SP: </color>Increases your ATK by 9250 + 500 x the\n     number of Lightning chips equipped.\n②  Boosts damage against Mechs by 50%.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31756",
 		"jp_explainShort": "雷枚数攻撃力超絶強化＋機甲種大ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中チップの雷属性チップの枚数に応じて\n　　 攻撃力を超絶に強化する。\n② 機甲種に対して与えるダメージを大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Increases your ATK by 10250 + 500 x the\n     number of Lightning chips equipped.\n<color=yellow>SP: </color>Increases your ATK by 11250 + 500 x the\n     number of Lightning chips equipped.\n②  Boosts damage against Mechs by 50%.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31761",
@@ -4323,14 +4323,14 @@
 		"jp_explainShort": "ポイズン付与＋ポイズン時ダメージ劇的増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技に「ポイズン」効果を付加する。\n② 「ポイズン」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives PAs a chance to inflict [Poison].\n②  Boosts damage by 90% against enemies\n     affected by [Poison].\n<color=yellow>SP: </color>Boosts damage by 100% against enemies\n     affected by [Poison].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31775",
 		"jp_explainShort": "ポイズン付与＋ポイズン時ダメージ劇的増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技に「ポイズン」効果を付加する。\n② 「ポイズン」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives PAs a chance to inflict [Poison].\n②  Boosts damage by 110% against enemies\n     affected by [Poison].\n<color=yellow>SP: </color>Boosts damage by 120% against enemies\n     affected by [Poison].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31776",
@@ -4351,14 +4351,14 @@
 		"jp_explainShort": "バーン付与＋バーン時ダメージ劇的増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技に「バーン」効果を付加する。\n② 「バーン」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[発動条件]攻撃ヒット時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives PAs a chance to inflict [Burn].\n②  Boosts damage by 85% against enemies\n     affected by [Burn].\n<color=yellow>SP: </color>Boosts damage by 90% against enemies\n     affected by [Burn].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31783",
 		"jp_explainShort": "バーン付与＋バーン時ダメージ劇的増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技に「バーン」効果を付加する。\n② 「バーン」状態の敵に対して\n　　 ダメージを劇的に増加する。\n[発動条件]攻撃ヒット時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives PAs a chance to inflict [Burn].\n②  Boosts damage by 95% against enemies\n     affected by [Burn].\n<color=yellow>SP: </color>Boosts damage by 100% against enemies\n     affected by [Burn].\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Landing an attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31784",
@@ -4946,14 +4946,14 @@
 		"jp_explainShort": "闇属性ダメージ＋ダメージ防御＋ポイズン付与",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 闇属性が弱点の敵に対して\n　　 その属性によるダメージを絶大に増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率で「ポイズン」効果を付与する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Dark elemental damage by 150%\n     against enemies weak to Dark.\n<color=yellow>SP: </color>Boosts Dark elemental damage by 155%\n     against enemies weak to Dark.\n     <color=yellow>[S-Frame]</color>\n②  Grants you a shield that prevents damage up to\n     50% of your maximum HP.\n③  Responds to damage from the targeted enemy\n     with a 100% chance to inflict [Poison].\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31913",
 		"jp_explainShort": "闇属性ダメージ＋ダメージ防御＋ポイズン付与",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 闇属性が弱点の敵に対して\n　　 その属性によるダメージを絶大に増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率で「ポイズン」効果を付与する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Dark elemental damage by 160%\n     against enemies weak to Dark.\n<color=yellow>SP: </color>Boosts Dark elemental damage by 165%\n     against enemies weak to Dark.\n     <color=yellow>[S-Frame]</color>\n②  Grants you a shield that prevents damage up to\n     50% of your maximum HP.\n③  Responds to damage from the targeted enemy\n     with a 100% chance to inflict [Poison].\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31914",
@@ -5058,14 +5058,14 @@
 		"jp_explainShort": "アビＬｖ技法増加＋ダメージ防御＋バーン付与",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて必殺技・法術チップの\n　　 威力を大きく増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率で「バーン」効果を付与する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts all PAs and Techs by 2% x this chip's ability\n     level.\nSP: Boosts all PAs and Techs by 3% x this chip's ability\n     level.\n<color=yellow>[K-Frame]</color>\n②  Grants you a shield that prevents damage up to\n     3% of your maximum HP x this chip's ability level.\n③  Responds to damage from the targeted enemy\n     with a 100% chance to inflict [Burn].\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31931",
 		"jp_explainShort": "アビＬｖ技法大増加＋ダメージ防御＋バーン付与",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて必殺技・法術チップの\n　　 威力を劇的に増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率で「バーン」効果を付与する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts all PAs and Techs by 4% x this chip's ability\n     level.\nSP: Boosts all PAs and Techs by 5% x this chip's ability\n     level.\n<color=yellow>[K-Frame]</color>\n②  Grants you a shield that prevents damage up to\n     3% of your maximum HP x this chip's ability level.\n③  Responds to damage from the targeted enemy\n     with a 100% chance to inflict [Burn].\n[Activation Trigger] Landing an attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "31932",
@@ -5163,14 +5163,14 @@
 		"jp_explainShort": "属性種類数ダメージ増＋ダメージ防御＋防御効果",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中チップの属性種類数に応じて\n　　 与えるダメージを極度に増加する。\n② 装備中チップの属性種類数に応じて\n　　 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 装備中チップの属性種類数が\n　　 1以上の場合、敵から受けるダメージを軽減する。\n　　 2以上の場合、のけぞり無効となる効果を付与する。\n　　 3以上の場合、ダウン無効となる効果を付与する。\n　　 4以上の場合、自身を状態異常にならなくする。\n　　 5以上の場合、敵からの攻撃を一定確率で回避する。\n　　 6の場合、スライド操作時の無敵時間を延長する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage dealt by 230% + 20% x the\n     number of different chip elements equipped.\n<color=yellow>SP: </color>Boosts damage dealt by 240% + 20% x the\n     number of different chip elements equipped.\n     <color=yellow>[2B-Frame]</color>\n②  Grants you a shield that prevents damage\n     up to 10% x the number of different chip\n     elements equipped.\n③  Depends on the number of chip elements equipped:\n     1 or more: Reduces damage taken by 30%.\n     2 or more: Grants flinching immunity.\n     3 or more: Grants knockdown immunity.\n     4 or more: Makes you immune to status effects.\n     5 or more: Grants a 50% evasion chance.\n     6: Extends dodge invincibility by 0.83 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31948",
 		"jp_explainShort": "属性種類数ダメージ増＋ダメージ防御＋防御効果",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中チップの属性種類数に応じて\n　　 与えるダメージを極度に増加する。\n② 装備中チップの属性種類数に応じて\n　　 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 装備中チップの属性種類数が\n　　 1以上の場合、敵から受けるダメージを軽減する。\n　　 2以上の場合、のけぞり無効となる効果を付与する。\n　　 3以上の場合、ダウン無効となる効果を付与する。\n　　 4以上の場合、自身を状態異常にならなくする。\n　　 5以上の場合、敵からの攻撃を一定確率で回避する。\n　　 6の場合、スライド操作時の無敵時間を延長する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage dealt by 250% + 20% x the\n     number of different chip elements equipped.\n<color=yellow>SP: </color>Boosts damage dealt by 260% + 20% x the\n     number of different chip elements equipped.\n     <color=yellow>[2B-Frame]</color>\n②  Grants you a shield that prevents damage\n     up to 10% x the number of different chip\n     elements equipped.\n③  Depends on the number of chip elements equipped:\n     1 or more: Reduces damage taken by 30%.\n     2 or more: Grants flinching immunity.\n     3 or more: Grants knockdown immunity.\n     4 or more: Makes you immune to status effects.\n     5 or more: Grants a 50% evasion chance.\n     6: Extends dodge invincibility by 0.83 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31955",
@@ -5275,14 +5275,14 @@
 		"jp_explainShort": "状態異常付与＋状態異常時ダメージ絶大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃にランダムで特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを絶大に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict random\n     status effects.\n②  Boosts damage by 120% against enemies affected\n     by status effects.\n<color=yellow>SP: </color>Boosts damage by 125% against enemies affected\n     by status effects.\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "31983",
 		"jp_explainShort": "状態異常付与＋状態異常時ダメージ絶大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃にランダムで特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを絶大に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict random\n     status effects.\n②  Boosts damage by 130% against enemies affected\n     by status effects.\n<color=yellow>SP: </color>Boosts damage by 135% against enemies affected\n     by status effects.\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "31984",
@@ -5401,14 +5401,14 @@
 		"jp_explainShort": "ホルシード[水着]",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技にランダムで特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを極度に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives PAs a chance to inflict random status\n     effects.\n②  Boosts damage by 300% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 310% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "32008",
 		"jp_explainShort": "ホルシード[Ｓ水着]",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技にランダムで特定の状態異常効果を付加する。\n② 状態異常の敵に対してダメージを極度に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives PAs a chance to inflict random status\n     effects.\n②  Boosts damage by 320% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 330% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "32017",
@@ -5835,42 +5835,42 @@
 		"jp_explainShort": "定期的にＨＰが小回復＋闇の法術が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中チップの属性種類数に応じて\n　　 与えるダメージを極度に増加する。\n② 装備中チップの属性種類数に応じて\n　　 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 装備中チップの属性種類数が\n　　 1以上の場合、敵から受けるダメージを軽減する。\n　　 2以上の場合、のけぞり無効となる効果を付与する。\n　　 3以上の場合、ダウン無効となる効果を付与する。\n　　 4以上の場合、自身を状態異常にならなくする。\n　　 5以上の場合、敵からの攻撃を一定確率で回避する。\n　　 6の場合、スライド操作時の無敵時間を延長する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間\n\n■特殊用途\nチップ解放（属性変換）を行うことで光属性になる。",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage dealt by 290% + 10% x the\n     number of different chip elements equipped.\n<color=yellow>SP: </color>Boosts damage dealt by 300% + 10% x the\n     number of different chip elements equipped.\n     <color=yellow>[2B-Frame]</color>\n②  Grants you a shield that prevents damage\n     up to 10% x the number of different chip\n     elements equipped.\n③  Depends on the number of chip elements equipped:\n     1 or more: Reduces damage taken by 30%.\n     2 or more: Grants flinching immunity.\n     3 or more: Grants knockdown immunity.\n     4 or more: Makes you immune to status effects.\n     5 or more: Grants a 50% evasion chance.\n     6: Extends dodge invincibility by 0.83 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds\n\n■Special Note\nBecomes Light Element after Chip Release\n(Element Conversion)."
 	},
 	{
 		"assign": "32116",
 		"jp_explainShort": "定期的にＨＰが小回復＋闇の法術が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中チップの属性種類数に応じて\n　　 与えるダメージを極度に増加する。\n② 装備中チップの属性種類数に応じて\n　　 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 装備中チップの属性種類数が\n　　 1以上の場合、敵から受けるダメージを軽減する。\n　　 2以上の場合、のけぞり無効となる効果を付与する。\n　　 3以上の場合、ダウン無効となる効果を付与する。\n　　 4以上の場合、自身を状態異常にならなくする。\n　　 5以上の場合、敵からの攻撃を一定確率で回避する。\n　　 6の場合、スライド操作時の無敵時間を延長する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間\n\n■特殊用途\nチップ解放（属性変換）を行うことで氷属性になる。",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage dealt by 290% + 10% x the\n     number of different chip elements equipped.\n<color=yellow>SP: </color>Boosts damage dealt by 300% + 10% x the\n     number of different chip elements equipped.\n     <color=yellow>[2B-Frame]</color>\n②  Grants you a shield that prevents damage\n     up to 10% x the number of different chip\n     elements equipped.\n③  Depends on the number of chip elements equipped:\n     1 or more: Reduces damage taken by 30%.\n     2 or more: Grants flinching immunity.\n     3 or more: Grants knockdown immunity.\n     4 or more: Makes you immune to status effects.\n     5 or more: Grants a 50% evasion chance.\n     6: Extends dodge invincibility by 0.83 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds\n\n■Special Note\nBecomes Ice Element after Chip Release\n(Element Conversion)."
 	},
 	{
 		"assign": "32117",
 		"jp_explainShort": "定期的にＨＰが小回復＋大剣の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中チップの属性種類数に応じて\n　　 与えるダメージを極度に増加する。\n② 装備中チップの属性種類数に応じて\n　　 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 装備中チップの属性種類数が\n　　 1以上の場合、敵から受けるダメージを軽減する。\n　　 2以上の場合、のけぞり無効となる効果を付与する。\n　　 3以上の場合、ダウン無効となる効果を付与する。\n　　 4以上の場合、自身を状態異常にならなくする。\n　　 5以上の場合、敵からの攻撃を一定確率で回避する。\n　　 6の場合、スライド操作時の無敵時間を延長する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間\n\n■特殊用途\nチップ解放（属性変換）を行うことで雷属性になる。",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage dealt by 290% + 10% x the\n     number of different chip elements equipped.\n<color=yellow>SP: </color>Boosts damage dealt by 300% + 10% x the\n     number of different chip elements equipped.\n     <color=yellow>[2B-Frame]</color>\n②  Grants you a shield that prevents damage\n     up to 10% x the number of different chip\n     elements equipped.\n③  Depends on the number of chip elements equipped:\n     1 or more: Reduces damage taken by 30%.\n     2 or more: Grants flinching immunity.\n     3 or more: Grants knockdown immunity.\n     4 or more: Makes you immune to status effects.\n     5 or more: Grants a 50% evasion chance.\n     6: Extends dodge invincibility by 0.83 seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] 20 seconds\n\n■Special Note\nBecomes Lightning Element after Chip Release\n(Element Conversion)."
 	},
 	{
 		"assign": "32121",
 		"jp_explainShort": "定期的にＨＰが小回復＋大剣の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技・法術チップが風属性の場合は\n　　 アビリティレベルに応じて威力を超絶に増加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率でランダムな状態異常効果を付与する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間\n\n■特殊用途\nチップ解放（属性変換）を行うことで氷属性になる。",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Wind PAs and Techs by 27% x this chip's\n     ability level.\n<color=yellow>SP: </color>Boosts Wind PAs and Techs by 27% x this chip's\n     ability level.\n     <color=yellow>[K-Frame]</color>\n②  Responds to damage from the targeted enemy\n     by inflicting random status effects.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds\n\n■Special Note\nBecomes Ice Element after Chip Release\n(Element Conversion)."
 	},
 	{
 		"assign": "32122",
 		"jp_explainShort": "定期的にＨＰが小回復＋自在槍の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技・法術チップが氷属性の場合は\n　　 アビリティレベルに応じて威力を超絶に増加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率でランダムな状態異常効果を付与する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間\n\n■特殊用途\nチップ解放（属性変換）を行うことで雷属性になる。",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Ice PAs and Techs by 27% x this chip's\n     ability level.\n<color=yellow>SP: </color>Boosts Ice PAs and Techs by 27% x this chip's\n     ability level.\n     <color=yellow>[K-Frame]</color>\n②  Responds to damage from the targeted enemy\n     by inflicting random status effects.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds\n\n■Special Note\nBecomes Lightning Element after Chip Release\n(Element Conversion)."
 	},
 	{
 		"assign": "32123",
 		"jp_explainShort": "定期的にＨＰが小回復＋自在槍の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 必殺技・法術チップが雷属性の場合は\n　　 アビリティレベルに応じて威力を超絶に増加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率でランダムな状態異常効果を付与する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間\n\n■特殊用途\nチップ解放（属性変換）を行うことで風属性になる。",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Lightning PAs and Techs by 27% x this\n     chip's ability level.\n<color=yellow>SP: </color>Boosts Lightning PAs and Techs by 27% x this\n     chip's ability level.\n     <color=yellow>[K-Frame]</color>\n②  Responds to damage from the targeted enemy\n     by inflicting random status effects.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds\n\n■Special Note\nBecomes Wind Element after Chip Release\n(Element Conversion)."
 	},
 	{
 		"assign": "32124",
@@ -6185,14 +6185,14 @@
 		"jp_explainShort": "ダメージ大増加＋定期的にＨＰが小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の闇属性チップの枚数に応じ\n　　 闇属性が弱点の敵に対して\n　　 その属性によるダメージを劇的に増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率で「ポイズン」効果を付与する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Dark elemental damage by 80% + 5%\n     x the number of Dark chips equipped against\n     enemies weak to Dark.\n<color=yellow>SP: </color>Boosts Dark elemental damage by 90% + 5%\n     x the number of Dark chips equipped against\n     enemies weak to Dark.\n     <color=yellow>[S-Frame]</color>\n②  Grants you a shield that prevents damage up to\n     ??% of your maximum HP.\n③  Responds to damage from the targeted enemy\n     with a 100% chance to inflict [Poison].\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32201",
 		"jp_explainShort": "ダメージ大増加＋定期的にＨＰが小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中の闇属性チップの枚数に応じ\n　　 闇属性が弱点の敵に対して\n　　 その属性によるダメージを絶大に増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率で「ポイズン」効果を付与する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts Dark elemental damage by 100% + 5%\n     x the number of Dark chips equipped against\n     enemies weak to Dark.\n<color=yellow>SP: </color>Boosts Dark elemental damage by 110% + 5%\n     x the number of Dark chips equipped against\n     enemies weak to Dark.\n     <color=yellow>[S-Frame]</color>\n②  Grants you a shield that prevents damage up to\n     ??% of your maximum HP.\n③  Responds to damage from the targeted enemy\n     with a 100% chance to inflict [Poison].\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32202",
@@ -6773,14 +6773,14 @@
 		"jp_explainShort": "定期的にＨＰが小回復＋自在槍の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて必殺技・法術チップの\n　　 威力を増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率で「ポイズン」効果を付与する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts all PAs and Techs by 2% x this chip's\n     ability level.\n<color=yellow>SP: </color>Boosts all PAs and Techs by 3% x this chip's\n     ability level.\n     <color=yellow>[K-Frame]</color>\n②  Grants you a shield that prevents damage up to\n     ??% of your maximum HP.\n③  Responds to damage from the targeted enemy\n     with a 100% chance to inflict [Poison].\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32321",
 		"jp_explainShort": "定期的にＨＰが小回復＋自在槍の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて必殺技・法術チップの\n　　 威力を大きく増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率で「ポイズン」効果を付与する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts all PAs and Techs by 4% x this chip's\n     ability level.\n<color=yellow>SP: </color>Boosts all PAs and Techs by 5% x this chip's\n     ability level.\n     <color=yellow>[K-Frame]</color>\n②  Grants you a shield that prevents damage up to\n     ??% of your maximum HP.\n③  Responds to damage from the targeted enemy\n     with a 100% chance to inflict [Poison].\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32322",
@@ -6850,14 +6850,14 @@
 		"jp_explainShort": "定期的にＨＰが小回復＋銃剣の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃にランダムで特定の状態異常効果を付加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率でランダムな状態異常効果を付与する。\n③ 状態異常の敵に対してダメージを超絶に増加する。\n④ 状態異常の敵から受けるダメージを軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict random\n     status effects.\n②  Responds to damage from the targeted enemy\n     by inflicting random status effects.\n③  Boosts damage by 290% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 300% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n④  Reduces damage taken from enemies affected\n     by status effects by ??%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 25 seconds"
 	},
 	{
 		"assign": "32336",
 		"jp_explainShort": "定期的にＨＰが小回復＋長銃の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃にランダムで特定の状態異常効果を付加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率でランダムな状態異常効果を付与する。\n③ 状態異常の敵に対してダメージを極度に増加する。\n④ 状態異常の敵から受けるダメージを軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict random\n     status effects.\n②  Responds to damage from the targeted enemy\n     by inflicting random status effects.\n③  Boosts damage by 310% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 320% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n④  Reduces damage taken from enemies affected\n     by status effects by ??%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] 30 seconds"
 	},
 	{
 		"assign": "32337",
@@ -7053,14 +7053,14 @@
 		"jp_explainShort": "定期的にＨＰが小回復＋長銃の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて\n　　 全ての種族に対して与えるダメージを超絶に増加する。\n[発動条件]ジャストアタック成功時",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against all races by 145% +\n     5% x this chip's ability level.\n<color=yellow>SP: </color>Boosts damage against all races by 155% +\n     5% x this chip's ability level.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Successful Just Attack"
 	},
 	{
 		"assign": "32374",
 		"jp_explainShort": "定期的にＨＰが小回復＋長銃の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① アビリティレベルに応じて\n　　 全ての種族に対して与えるダメージを超絶に増加する。\n[発動条件]ジャストアタック成功時",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against all races by 165% +\n     5% x this chip's ability level.\n<color=yellow>SP: </color>Boosts damage against all races by 175% +\n     5% x this chip's ability level.\n     <color=yellow>[B-Frame]</color>\n[Activation Trigger] Successful Just Attack"
 	},
 	{
 		"assign": "32375",
@@ -7109,14 +7109,14 @@
 		"jp_explainShort": "定期的にＨＰが小回復＋強弓の技が強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中チップの属性種類数に応じて\n　　 与えるダメージを極度に増加する。\n② 装備中チップの属性種類数に応じて\n　　 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 装備中チップの属性種類数が\n　　 1以上の場合、敵から受けるダメージを軽減する。\n　　 2以上の場合、のけぞり無効となる効果を付与する。\n　　 3以上の場合、ダウン無効となる効果を付与する。\n　　 4以上の場合、自身を状態異常にならなくする。\n　　 5以上の場合、敵からの攻撃を一定確率で回避する。\n　　 6の場合、スライド操作時の無敵時間を延長する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage dealt by 240% + 10% x the\n     number of different chip elements equipped.\n<color=yellow>SP: </color>Boosts damage dealt by 250% + 10% x the\n     number of different chip elements equipped.\n     <color=yellow>[2B-Frame]</color>\n②  Grants you a shield that prevents damage\n     up to 10% x the number of different chip\n     elements equipped.\n③  Depends on the number of chip elements equipped:\n     1 or more: Reduces damage taken by 30%.\n     2 or more: Grants flinching immunity.\n     3 or more: Grants knockdown immunity.\n     4 or more: Makes you immune to status effects.\n     5 or more: Grants a ??% evasion chance.\n     6: Extends dodge invincibility by ?? seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32384",
 		"jp_explainShort": "定期的にＨＰが小回復＋強弓の技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 装備中チップの属性種類数に応じて\n　　 与えるダメージを極度に増加する。\n② 装備中チップの属性種類数に応じて\n　　 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 装備中チップの属性種類数が\n　　 1以上の場合、敵から受けるダメージを軽減する。\n　　 2以上の場合、のけぞり無効となる効果を付与する。\n　　 3以上の場合、ダウン無効となる効果を付与する。\n　　 4以上の場合、自身を状態異常にならなくする。\n　　 5以上の場合、敵からの攻撃を一定確率で回避する。\n　　 6の場合、スライド操作時の無敵時間を延長する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage dealt by 260% + 10% x the\n     number of different chip elements equipped.\n<color=yellow>SP: </color>Boosts damage dealt by 270% + 10% x the\n     number of different chip elements equipped.\n     <color=yellow>[2B-Frame]</color>\n②  Grants you a shield that prevents damage\n     up to 10% x the number of different chip\n     elements equipped.\n③  Depends on the number of chip elements equipped:\n     1 or more: Reduces damage taken by 30%.\n     2 or more: Grants flinching immunity.\n     3 or more: Grants knockdown immunity.\n     4 or more: Makes you immune to status effects.\n     5 or more: Grants a ??% evasion chance.\n     6: Extends dodge invincibility by ?? seconds.\n[Activation Trigger] Landing an attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32385",
@@ -7466,21 +7466,21 @@
 		"jp_explainShort": "光属性時増＋双小剣時増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 全ての種族に対して与えるダメージを極度に増加する。\n② 攻撃対象の敵の弱点属性を劇的に強化する。\n③ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against all races by 360%.\n<color=yellow>SP: </color>Boosts damage against all races by 370%.\n     <color=yellow>[B-Frame]</color>\n②  Increases all Elements that the target is weak\n     to by 100.\n③  While this chip is equipped, the equip costs of\n     Lightning PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32450",
 		"jp_explainShort": "闇属性時小増＋双小剣時小増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 全ての種族に対して与えるダメージを極度に増加する。\n② 攻撃対象の敵の弱点属性を劇的に強化する。\n③ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against all races by 380%.\n<color=yellow>SP: </color>Boosts damage against all races by 390%.\n     <color=yellow>[B-Frame]</color>\n②  Increases all Elements that the target is weak\n     to by 100.\n③  While this chip is equipped, the equip costs of\n     Lightning PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32451",
 		"jp_explainShort": "闇属性時増＋双小剣時増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 全ての種族に対して与えるダメージを極度に増加する。\n② 攻撃対象の敵の弱点属性を劇的に強化する。\n③ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against all races by 400%.\n<color=yellow>SP: </color>Boosts damage against all races by 410%.\n     <color=yellow>[B-Frame]</color>\n②  Increases all Elements that the target is weak\n     to by 100.\n③  While this chip is equipped, the equip costs of\n     all PAs and Techs are halved.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32452",
@@ -7683,14 +7683,14 @@
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「ポイズン」効果を付加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率で「ポイズン」効果を付与する。\n③ 状態異常の敵に対してダメージを絶大に増加する。\n④ 状態異常の敵から受けるダメージを軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Poison].\n②  Responds to damage from the targeted enemy\n     with a chance to inflict [Poison].\n③  Boosts damage by 120% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 130% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32494",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 通常攻撃に「ポイズン」効果を付加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 攻撃対象の敵に\n　　 一定確率で「ポイズン」効果を付与する。\n③ 状態異常の敵に対してダメージを絶大に増加する。\n④ 状態異常の敵から受けるダメージを軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Gives Normal Attacks a chance to inflict [Poison].\n②  Responds to damage from the targeted enemy\n     with a chance to inflict [Poison].\n③  Boosts damage by 140% against enemies\n     affected by status effects.\n<color=yellow>SP: </color>Boosts damage by 150% against enemies\n     affected by status effects.\n     <color=yellow>[C-Frame]</color>\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32495",
@@ -7823,28 +7823,28 @@
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 機甲種に対して与えるダメージを劇的に増加する。\n② 雷属性の属性値と上限値が上昇する。\r\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Mechs by 85%.\n<color=yellow>SP: </color>Boosts damage against Mechs by 90%.\n     <color=yellow>[B-Frame]</color>\n②  Increases your Lightning Element and your\n     maximum Lightning value by 30.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32517",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 機甲種に対して与えるダメージを劇的に増加する。\n② 雷属性の属性値と上限値が上昇する。\r\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Mechs by 95%.\n<color=yellow>SP: </color>Boosts damage against Mechs by 100%.\n     <color=yellow>[B-Frame]</color>\n②  Increases your Lightning Element and your\n     maximum Lightning value by 30.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32518",
 		"jp_explainShort": "氷属性時小増＋飛翔剣時小増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカー以外の種族に対して\n　　 与えるダメージを大きく増加する。\n② 敵からの攻撃を一定確率で回避する。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against non-Darkers by 60%.\n<color=yellow>SP: </color>Boosts damage against non-Darkers by 70%.\n     <color=yellow>[B-Frame]</color>\n②  Grants a ??% chance to evade damage from\n     enemies.\n③  Speeds up movement and Normal Attacks by ??%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32519",
 		"jp_explainShort": "氷属性時増＋飛翔剣時増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカー以外の種族に対して\n　　 与えるダメージを劇的に増加する。\n② 敵からの攻撃を一定確率で回避する。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against non-Darkers by 80%.\n<color=yellow>SP: </color>Boosts damage against non-Darkers by 90%.\n     <color=yellow>[B-Frame]</color>\n②  Grants a ??% chance to evade damage from\n     enemies.\n③  Speeds up movement and Normal Attacks by ??%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32520",
@@ -8124,14 +8124,14 @@
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカーに対して与えるダメージを超絶に増加する。\n② ダーカーから受けるダメージを大きく軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Darkers by 240%.\n<color=yellow>SP: </color>Boosts damage against Darkers by 250%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Darkers by ??%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32570",
 		"jp_explainShort": "光属性時小増＋双機銃時小増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ダーカーに対して与えるダメージを超絶に増加する。\n② ダーカーから受けるダメージを大きく軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Darkers by 260%.\n<color=yellow>SP: </color>Boosts damage against Darkers by 270%.\n     <color=yellow>[B-Frame]</color>\n②  Reduces damage taken from Darkers by ??%.\n[Activation Trigger] Successful Just Attack\n[Effect Duration] ?? seconds"
 	},
 	{
 		"assign": "32571",
@@ -12387,14 +12387,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 黒の民に対して与えるダメージをわずかに増加する。\n② 闇属性を強化する。\n[発動条件]黒の民に攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Kuronites by 15%.\n<color=yellow>SP: </color>Boosts damage against Kuronites by 20%.\n     <color=yellow>[B-Frame]</color>\n②  Increases your Dark Element by 20.\n[Activation Trigger] Landing attacks on Kuronites\n[Effect Duration] 15 seconds"
 	},
 	{
 		"assign": "20068",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 黒の民に対して与えるダメージを増加する。\n② 闇属性を強化する。\n[発動条件]黒の民に攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": ""
+		"tr_explainLong": "①  Boosts damage against Kuronites by 25%.\n<color=yellow>SP: </color>Boosts damage against Kuronites by 30%.\n     <color=yellow>[B-Frame]</color>\n②  Increases your Dark Element by 20.\n[Activation Trigger] Landing attacks on Kuronites\n[Effect Duration] 20 seconds"
 	},
 	{
 		"assign": "20069",
