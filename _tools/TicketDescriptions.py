@@ -18,7 +18,7 @@ LANGS = {-1: "JP",
 # Add more later.
 parser.add_argument("-l", type = int, dest = "lang", action = "store",
                     choices = [0, 1, 2], default = 0, metavar = "N",
-                    help = "Set a language to translate into. Available options are 0 (EN), 1 (KR) and 2 (RU). Defaults to EN.")
+                    help = "Set a language to translate into. Available options are 0 (EN), 1 (KO) and 2 (RU). Defaults to EN.")
 # Switch for retranslating all descriptions.
 parser.add_argument("-r", dest = "redo", action = "store_true",
                     help = "Force all ticket descriptions to be processed, even if already translated.")
@@ -32,7 +32,7 @@ layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю 
                       "Ba": ["basewear", "베이스웨어", "верхнюю одежду (Ba)"],
                       "Se": ["setwear", "setwear_KO", "комплектную одежду (Se)"],
                       "Fu": ["full setwear", "fullwear_KO", "полн.компл.одежду (Fu)"],
-                      "Ou": ["outerwear", "outerwear_KO", "внешнюю одежду (Ou)"]} # This one probably won't be used, but you never know.
+                      "Ou": ["outerwear", "outerwear_KO", "внешнюю одежду (Ou)"]}
 
 layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".", # Must include itype and iname variables.
                       "사용하면 새로운 {itype}인\n\"{iname}\"\n의 사용이 가능해진다.",

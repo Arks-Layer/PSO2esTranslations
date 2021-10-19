@@ -304,8 +304,8 @@
 		"assign": "104010001",
 		"jp_text": "＊マノフィーマルテ",
 		"tr_text": "＊Manophi Marte",
-		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>対応：ツインダガー／ロッド<c>",
-		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Types: Twin Daggers/Rod<c>"
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ツインダガー／ロッド<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Twin Daggers/Rod<c>"
 	},
 	{
 		"assign": "104059",
@@ -313,5 +313,12 @@
 		"tr_text": "＊Elcuria",
 		"jp_explain": "耐久性の高い素材で作られた双小剣を\n模した武器迷彩。羽のような鍔が\n可愛らしいが、扱いには注意が必要。",
 		"tr_explain": "Weapon camo based on Twin Daggers\nmade of highly durable material. Cute,\nbut care is needed when handling it."
+	},
+	{
+		"assign": "104010002",
+		"jp_text": "＊モフサットダガー",
+		"tr_text": "＊Mohsat Dagger",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ツインダガー<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Twin Daggers<c>"
 	}
 ]
