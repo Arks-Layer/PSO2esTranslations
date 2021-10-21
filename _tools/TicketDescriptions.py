@@ -32,7 +32,7 @@ layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю 
                       "Ba": ["basewear", "베이스웨어", "верхнюю одежду (Ba)"],
                       "Se": ["setwear", "setwear_KO", "комплектную одежду (Se)"],
                       "Fu": ["full setwear", "fullwear_KO", "полн.компл.одежду (Fu)"],
-                      "Ou": ["outerwear", "outerwear_KO", "внешнюю одежду (Ou)"]} # This one probably won't be used, but you never know.
+                      "Ou": ["outerwear", "outerwear_KO", "внешнюю одежду (Ou)"]}
 
 layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".", # Must include itype and iname variables.
                       "사용하면 새로운 {itype}인\n\"{iname}\"\n의 사용이 가능해진다.",

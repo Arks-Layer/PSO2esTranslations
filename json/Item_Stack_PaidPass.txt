@@ -3192,6 +3192,13 @@
 		"tr_explain": "Increases the chance of successfully\nadding Special Abilities to an item."
 	},
 	{
+		"assign": "321010039",
+		"jp_text": "N-特殊能力追加アイテム保護",
+		"tr_text": "N-Ability Protection",
+		"jp_explain": "アイテムの特殊能力追加失敗時に\n素材アイテムと特殊能力追加アイテムが\n消費されるのを防止する。",
+		"tr_explain": "Returns the Material Items that\nwere lost from synthesis when\nadding an Ability fails."
+	},
+	{
 		"assign": "321010054",
 		"jp_text": "N-カラーチェンジパス",
 		"tr_text": "N-컬러 체인지 패스",
@@ -3218,5 +3225,12 @@
 		"tr_text": "N-전체 스킬 트리 초기화 패스",
 		"jp_explain": "追加したツリーを含めて\n全スキルツリーを初期化し\nスキルポイントを振り直せる。",
 		"tr_explain": "Resets SP assigned to all Skill Trees,\nincluding Skill Trees added with\nN-Skill Tree Add passes."
+	},
+	{
+		"assign": "321015032",
+		"jp_text": "スペシャルスクラッチ券",
+		"tr_text": "Special Scratch Ticket",
+		"jp_explain": "アイテムパックに所持しておくことで\nスペシャルスクラッチに\n1回挑戦できるチケット。",
+		"tr_explain": "Allows you one chance at\nthe Special Scratch just by\nhaving it in your inventory."
 	}
 ]
