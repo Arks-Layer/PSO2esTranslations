@@ -4215,10 +4215,10 @@
 	},
 	{
 		"assign": "325010016",
-		"jp_text": "エアルノスカーフェイス",
-		"tr_text": "Aerio Scar Face",
+		"jp_text": "エアルノスカー",
+		"tr_text": "",
 		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
-		"tr_explain": "Unlocks a new makeup for use."
+		"tr_explain": ""
 	},
 	{
 		"assign": "325010017",
@@ -4398,20 +4398,76 @@
 	{
 		"assign": "325010043",
 		"jp_text": "ヨーエンメイク",
-		"tr_text": "",
+		"tr_text": "Alluring Makeup",
 		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
-		"tr_explain": ""
+		"tr_explain": "Unlocks a new makeup for use."
 	},
 	{
 		"assign": "325010044",
 		"jp_text": "ヨーエンメイク/2",
+		"tr_text": "Alluring Makeup/2",
+		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
+		"tr_explain": "Unlocks a new makeup for use."
+	},
+	{
+		"assign": "325010045",
+		"jp_text": "オトメナメイク",
+		"tr_text": "Maiden Makeup",
+		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
+		"tr_explain": "Unlocks a new makeup for use."
+	},
+	{
+		"assign": "325010046",
+		"jp_text": "アシンメコイメナメイク",
+		"tr_text": "Asymmetrical Sharp Makeup",
+		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
+		"tr_explain": "Unlocks a new makeup for use."
+	},
+	{
+		"assign": "325010047",
+		"jp_text": "ガッチリアイメイク/B",
 		"tr_text": "",
 		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
 		"tr_explain": ""
 	},
 	{
-		"assign": "325010045",
-		"jp_text": "オトメナメイク",
+		"assign": "325010048",
+		"jp_text": "アシンメピエロメイクR/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "325010049",
+		"jp_text": "アシンメピエロメイクL/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "325010050",
+		"jp_text": "オツカレアイメイク/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "325010051",
+		"jp_text": "シッカリメイク",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "325010052",
+		"jp_text": "コチョウペイント/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "325010053",
+		"jp_text": "コチョウアイメイク/B",
 		"tr_text": "",
 		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
 		"tr_explain": ""
@@ -4429,5 +4485,47 @@
 		"tr_text": "Yueto Lipstick",
 		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
 		"tr_explain": "Unlocks a new makeup for use."
+	},
+	{
+		"assign": "325010056",
+		"jp_text": "ガッチリアイメイク",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "325010057",
+		"jp_text": "アシンメピエロメイクR",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "325010058",
+		"jp_text": "アシンメピエロメイクL",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "325010059",
+		"jp_text": "オツカレアイメイク",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "325010092",
+		"jp_text": "コチョウペイント",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "325010093",
+		"jp_text": "コチョウアイメイク",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいメイクパターンが\n選択可能になる。",
+		"tr_explain": ""
 	}
 ]

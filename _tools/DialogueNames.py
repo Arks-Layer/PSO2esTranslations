@@ -109,6 +109,12 @@ character_names = {
     "モア&ウェポノイドたち": "More & Weaponoids", "人間の声": "Human Voice",
     "招待客": "Guests", "大トロ号": "Sir Fishy",
     "中トロ号＆大トロ号": "Mr. Fishy & Sir Fishy", "護衛のアークス": "ARKS Escort",
+    "ナレーション（フウガナギナタ）": "Narration (Fuuga Naginata)",
+    "ナレーション（セラフィ）": "Narration (Seraphy)",
+    "仮面ストライク１号": "Masked Striker No.1", "仮面ストライク２号": "Masked Striker No.2",
+    "魔球王": "King Fastball",
+    "マリオネット": "Marionette", "強面のアークス": "Intimidating ARKS",
+    "アークス管理官": "ARKS Administrator",
     #Special
     "水着三人娘": "Annette, Gene and Bluesy",
     "ジェネ＆アネット＆シューティングドライブ": "Gene, Annette and Shooting Drive",

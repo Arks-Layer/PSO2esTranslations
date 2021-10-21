@@ -698,5 +698,26 @@
 		"tr_text": "Alpha Reactor",
 		"jp_explain": "なんらかの機械の動力炉。\n高値で売却することができる。",
 		"tr_explain": "A power core from some kind of\nmachine. Can be sold for a high price."
+	},
+	{
+		"assign": "37010020",
+		"jp_text": "Bトリガー/エアルイエロー",
+		"tr_text": "B. Trigger/Aerio Yellow",
+		"jp_explain": "バトルディアで使用するトリガー。\n“エアリオトルーパーズ”の\nクリア時に消費される。",
+		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Aerio Troopers\"."
+	},
+	{
+		"assign": "37010021",
+		"jp_text": "Bトリガー/エアルパープル",
+		"tr_text": "B. Trigger/Aerio Purple",
+		"jp_explain": "バトルディアで使用するトリガー。\n“エアリオデバステーターズ”の\nクリア時に消費される。",
+		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Aerio Devastators\"."
+	},
+	{
+		"assign": "37010022",
+		"jp_text": "N-ミッションバッヂ",
+		"tr_text": "N-Mission Badge",
+		"jp_explain": "アイテムリサイクルで\n交換に使用できるバッヂ。",
+		"tr_explain": "An Item that can be\nexchanged in the Recycle Shop."
 	}
 ]
