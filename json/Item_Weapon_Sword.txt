@@ -445,7 +445,7 @@
 		"jp_text": "ステルスウェポン：SW",
 		"tr_text": "Stealth Weapon: SW",
 		"jp_explain": "認識不能な武器。\n形状はソード型。",
-		"tr_explain": ""
+		"tr_explain": "Unknown Weapon.\nSeems to be in the shape of\na Sword."
 	},
 	{
 		"assign": "11070",
@@ -877,7 +877,7 @@
 	{
 		"assign": "110233",
 		"jp_text": "ネブロスバニフィク",
-		"tr_text": "",
+		"tr_text": "Nebulos Panific",
 		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n大剣。あらゆる箇所が刃となっており\n威力は凄まじく、扱いには注意が必要。",
 		"tr_explain": ""
 	},
@@ -956,28 +956,28 @@
 		"jp_text": "Ｄ－Ａ．Ｉ．Ｓセイバー",
 		"tr_text": "D-A.I.S 세이버",
 		"jp_explain": "Ａ．Ｉ．Ｓの「フォトンセイバー」を\nアークス向けに小型化した大剣。\n絶望的な状況も容易く打ち破る。",
-		"tr_explain": ""
+		"tr_explain": "A miniaturized version of the A.I.S.\nSword the \"Photon Saber\". It's\nreliable even in the face of despair."
 	},
 	{
 		"assign": "110257",
 		"jp_text": "ソードレボルシオ",
 		"tr_text": "소드 레볼시오",
 		"jp_explain": "新開発の演算装置を搭載した大剣。\n装者の思考や戦況を分析することで\n出力を最適に保ち、負荷を軽減する。",
-		"tr_explain": ""
+		"tr_explain": "A sword with a newly developed\ncomputing device. It scans tactical\ndata for optimal user efficiency."
 	},
 	{
 		"assign": "110258",
 		"jp_text": "ソードドミナシオ",
 		"tr_text": "소드 도미나시오",
 		"jp_explain": "新開発の演算装置を搭載した大剣。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
-		"tr_explain": ""
+		"tr_explain": "A sword with a newly developed\ncomputing device. Powerful, but puts\nstrain on the user's mind in battle."
 	},
 	{
 		"assign": "110259",
 		"jp_text": "ソードインクルシオ",
 		"tr_text": "소드 인크루시오",
 		"jp_explain": "新開発の演算装置を搭載した大剣。\n既存の処理限界を超えた性能を誇り\n装備者の戦闘能力を最大限に引き出す。",
-		"tr_explain": ""
+		"tr_explain": "A sword with a newly developed\ncomputing device. Its processor\nmaximises its wielder's combat ability."
 	},
 	{
 		"assign": "110264",
@@ -1299,21 +1299,21 @@
 		"jp_text": "バルファーダ",
 		"tr_text": "발 파더",
 		"jp_explain": "過去に戦場となった地域から発掘された\n大剣。刀身が折れているが、残った\n部分から巨大な剣だったことが分かる。",
-		"tr_explain": ""
+		"tr_explain": "A sword excavated from an old\nbattlefield. Its blade is broken, but the\nremains show it must have been huge."
 	},
 	{
 		"assign": "110342",
 		"jp_text": "アトラファーダ",
 		"tr_text": "아트라 파더",
 		"jp_explain": "過去に戦場となった地域から発掘された\n大剣。技術者の研究が進んだことで\n破損前の状態まで修復された。",
-		"tr_explain": ""
+		"tr_explain": "A sword excavated from an old\nbattlefield. Researchers have restored\nit to its pre-damaged state."
 	},
 	{
 		"assign": "110343",
 		"jp_text": "アトラファーダ・イクス",
 		"tr_text": "아트라 파더・익스",
 		"jp_explain": "過去に戦場となった地域から発掘された\n大剣。破損し失われた輝きはフォトンに\n感応し、真なる輝きを取り戻した。",
-		"tr_explain": ""
+		"tr_explain": "A sword excavated from an old\nbattlefield. Its Photon sensitivity\nrepaired, it has regained its true luster."
 	},
 	{
 		"assign": "110346",
@@ -1549,7 +1549,7 @@
 	{
 		"assign": "110422",
 		"jp_text": "オブリアンスヴフト",
-		"tr_text": "",
+		"tr_text": "Oblivion Wuft",
 		"jp_explain": "高圧化フォトン気流の噴出力を利用し\n瞬時に変形する大剣。革新的な携帯性を\n誇り、切れ味と耐久性にも優れている。",
 		"tr_explain": ""
 	},
@@ -1628,26 +1628,26 @@
 		"jp_text": "アデルリーネア",
 		"tr_text": "아델 리네어",
 		"jp_explain": "あらゆる罪を焼き尽くす猛火を\n纏うとされる大剣。灼熱を帯びた\n曲線の刃は秀逸な威力を発揮する。",
-		"tr_explain": ""
+		"tr_explain": "A sword cloaked in flames said to\nburn away all sins. Its powerful\ncurved blade is utterly incandescent."
 	},
 	{
 		"assign": "110473",
 		"jp_text": "ヴィアンリーネア",
 		"tr_text": "비안 리네어",
 		"jp_explain": "あらゆる罪を焼き尽くす猛火を\n纏うとされる大剣。威光を放つ\n刀身は優雅に敵を斬り刻む。",
-		"tr_explain": ""
+		"tr_explain": "A sword cloaked in flames said to\nburn away all sins. Its majestic blade\ngracefully slashes through enemies."
 	},
 	{
 		"assign": "110474",
 		"jp_text": "フルクシオヴェルラ",
 		"tr_text": "프룩시오 벨라",
 		"jp_explain": "流線美と機能性を備え持つ大剣。\n波を連想させる芸術的な刃から\n流麗で鮮烈な斬撃が放たれる。",
-		"tr_explain": ""
+		"tr_explain": "A beautifully sleek sword whose\nartistically-designed blade flows like\nvivid waves with every slash."
 	},
 	{
 		"assign": "110475",
 		"jp_text": "リンザーヴェルラ",
-		"tr_text": "",
+		"tr_text": "Rinza Verla",
 		"jp_explain": "流線美と機能性を備え持つ大剣。\nフォトンの圧力を最大まで高め\n鋭利に敵を斬り裂く。",
 		"tr_explain": ""
 	},
@@ -1663,47 +1663,47 @@
 		"jp_text": "エルダーペイン-NT",
 		"tr_text": "엘더 페인-NT",
 		"jp_explain": "ファルス・ヒューナルの持つ鋭刃を\n再現した大剣。禍々しい形の刃を持ち\n触れるものを微塵に切り裂いていく。",
-		"tr_explain": ""
+		"tr_explain": "A replica of the sword of Falz Hunar.\nIt has a blunt blade, and reduces all\nit touches to dust."
 	},
 	{
 		"assign": "11010011",
 		"jp_text": "プリムソード",
-		"tr_text": "",
+		"tr_text": "Prim Sword",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "11010012",
 		"jp_text": "ツヴィアソード",
-		"tr_text": "",
+		"tr_text": "Suvia Sword",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "11010013",
 		"jp_text": "リサージュソード",
-		"tr_text": "",
+		"tr_text": "Resurge Sword",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "11010014",
 		"jp_text": "テルセウスソード",
-		"tr_text": "",
+		"tr_text": "Terseus Sword",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "11010015",
 		"jp_text": "グリッセンソード",
-		"tr_text": "",
+		"tr_text": "Greisen Sword",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "11010016",
 		"jp_text": "キャトリアソード",
-		"tr_text": "",
+		"tr_text": "Catoria Sword",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1717,28 +1717,28 @@
 	{
 		"assign": "11010019",
 		"jp_text": "シルヴァプリムソード",
-		"tr_text": "",
+		"tr_text": "Silver Prim Sword",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "11010020",
 		"jp_text": "ゴルドプリムソード",
-		"tr_text": "",
+		"tr_text": "Gold Prim Sword",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "11010021",
 		"jp_text": "ストラーガソード",
-		"tr_text": "",
+		"tr_text": "Stragga Sword",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "11010022",
 		"jp_text": "エヴォルコートソード",
-		"tr_text": "",
+		"tr_text": "Evolcoat Sword",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

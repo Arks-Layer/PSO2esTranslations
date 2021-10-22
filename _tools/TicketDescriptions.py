@@ -5,83 +5,146 @@ import json
 import os
 import regex
 import shutil
+import argparse
 
 json_loc = os.path.join("..", "json")
 
-REDO_ALL = False # Change to True to recheck all ticket descriptions, even ones already translated.
+parser = argparse.ArgumentParser(description = "Translates ticket item descriptions.")
+# Switch for language.
+LANGS = {-1: "JP",
+         0: "EN",
+         1: "KO",
+         2: "RU"}
+# Add more later.
+parser.add_argument("-l", type = int, dest = "lang", action = "store",
+                    choices = [0, 1, 2], default = 0, metavar = "N",
+                    help = "Set a language to translate into. Available options are 0 (EN), 1 (KO) and 2 (RU). Defaults to EN.")
+# Switch for retranslating all descriptions.
+parser.add_argument("-r", dest = "redo", action = "store_true",
+                    help = "Force all ticket descriptions to be processed, even if already translated.")
 
-file_names = [["Accessory", "악세서리"], ["BodyPaint", "바디 페인트"],
-              ["Eye", "눈동자"], ["EyeBrow", "눈썹"],
-              ["EyeLash", "속눈썹"], ["FacePaint", "메이크업"],
-              ["Hairstyle", "헤어스타일"], ["Sticker", "스티커"]]
+args = parser.parse_args()
+LANG, REDO_ALL = args.lang, args.redo
 
-for name in file_names:
-    items_file_name = "Item_Stack_" + name[0] + ".txt"
-    item_type = name[1]
-    
-    try:
-        items_file = codecs.open(os.path.join(json_loc, items_file_name),
-                                 mode = 'r', encoding = 'utf-8')
-    except FileNotFoundError:
-        print("\t{0} not found.".format(items_file_name))
-        continue
-    
-    items = json.load(items_file)
-    print("{0} loaded.".format(items_file_name))
-    
-    items_file.close()
-    
-    for item in items:
-        if item["tr_text"] != "" and (item["tr_explain"] == "" or REDO_ALL == True):
-            
-            item_name = item["tr_text"]
-            
-            # Some stickers have different names in-game from their tickets.
-            # The in-game name is in the tickets' descriptions.
-            # Extract it here.
-            if name[0] == "Sticker":
-                description_name = regex.search(
-                    r'(?<=ステッカーの\n)(.+[ＡＢＣ]?)(?=が選択可能。)',
-                    item["jp_explain"]).group(0)
+# Translate layered wear
 
-                if (description_name != item["jp_text"]):
-                    item_name = regex.sub(" Sticker", "", item_name)
-            
-            # Some items are locked to one sex or the other.
-            sex = "n"
-            if len(regex.findall("女性のみ使用可能。", item["jp_explain"])) > 0:
-                sex = "f"
-            elif len(regex.findall("男性のみ使用可能。", item["jp_explain"])) > 0:
-                sex = "m"
-            
-            # Some items cannot be resized.
-            sizelocked = False
-            
-            if len(regex.findall("サイズ調整はできません。", item["jp_explain"])) > 0:
-                sizelocked = True
-            
-            # Translate the description.
-            item["tr_explain"] = "사용하면 새로운 {sexlock}{type}\n\"{name}\"\n의 사용이 가능해진다.{sizelock}".format(
-                sexlock = "여성 전용 " if sex == "f" else "남성 전용 " if sex == "m" else "", 
-                type = item_type, name = item_name, 
-                sizelock = "\n<yellow>Size cannot be adjusted.<c>" if sizelocked == True else "")
+layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю одежду (In)"],
+                      "Ba": ["basewear", "베이스웨어", "верхнюю одежду (Ba)"],
+                      "Se": ["setwear", "setwear_KO", "комплектную одежду (Se)"],
+                      "Fu": ["full setwear", "fullwear_KO", "полн.компл.одежду (Fu)"],
+                      "Ou": ["outerwear", "outerwear_KO", "внешнюю одежду (Ou)"]}
 
-            print("Translated description for {0}".format(item["tr_text"]))
+layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".", # Must include itype and iname variables.
+                      "사용하면 새로운 {itype}인\n\"{iname}\"\n의 사용이 가능해진다.",
+                      "Разблокирует новую\n{itype}\n\"{iname}\"."]
 
-    items_file = codecs.open(os.path.join(json_loc, items_file_name),
-                             mode = 'w', encoding = 'utf-8')
-    json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
-    items_file.write("\n")
-    items_file.close()
+layer_sex_locks = {"n": ["", ""],
+                   "m": ["\nOnly usable on male characters.",
+                         " 남성만 가능.",
+                         "\nТолько для мужских персонажей."],
+                   "f": ["\nOnly usable on female characters.",
+                         " 여성만 가능.",
+                         "\nТолько для женских персонажей."]}
+
+ndesc_formats = ["Unlocks a new {itype} for use.{typelock}",
+                 "format_KO{itype}{typelock}",
+                 "Разблок {itype}.{typelock}"]
+
+ntype_statements = ["Type: ",
+                    "Type_KO",
+                    "Тип: "]
+
+ntype_locks = {"a": ["All", "KR_All", "Все"],
+                "a1": ["Human/Cast Type 1", "KR_AllType1", "Человек/CAST (тип1)"],
+                "a2": ["Human/Cast Type 2", "KR_AllType2", "Человек/CAST (тип2)"],
+                "h1": ["Human Type 1", "KR_HumType1", "Человек (тип1)"],
+                "h2": ["Human Type 2", "KR_HumType2", "Человек (тип2)"],
+                "c1": ["Cast Type 1", "KR_CastType1", "CAST (тип1)"],
+                "c2": ["Cast Type 2", "KR_CastType2", "CAST (тип2)"]}
+
+layer_hide_inners = ["※Hides innerwear when worn.",
+                     "※착용 시 이너웨어는 표시하지 않음.",
+                     "※При экипировке скрывает In."]
+
+def translate_layer_desc(item, file_name):
+    if item["tr_text"] == "": # No name to put in description
+        return -1
     
-layered_file_names = [["Basewear_Female", "베이스웨어"],
-                      ["Basewear_Male", "베이스웨어"],
-                      ["Innerwear_Female", "이너웨어"],
-                      ["Innerwear_Male", "이너웨어"]]
+    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+        return -2
+
+    # Some items are locked to one sex or the other.
+    sex = "n"
+    if "女性のみ使用可能。" in item["jp_explain"]:
+        sex = "f"
+    elif "男性のみ使用可能。" in item["jp_explain"]:
+        sex = "m"
+    
+    # Some items hide your innerwear (these are mostly swimsuits).
+    hideinner = False
+    if "着用時はインナーが非表示になります。" in item["jp_explain"]:
+        hideinner = True
+    
+    # Translate the description.
+    item["tr_explain"] = (layer_desc_formats[LANG] + "{sexlock}{hidepanties}").format(
+        itype = layered_wear_types[item["tr_text"].split("[", )[1][0:2]][LANG] if item["tr_text"].endswith("]")
+                # Exception for default layered wear since it doesn't have [In], [Ba] etc
+                else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
+        iname = item["tr_text"],
+        sexlock = layer_sex_locks[sex][LANG] if sex != "n" else "",
+        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+    
+    return 0
+
+def get_type_restrictions(item):
+    types = "a"
+
+    if "：ヒト型" in item["jp_explain"] and "/キャスト" not in item["jp_explain"]:
+        types = "h"
+    elif "：キャスト" in item["jp_explain"]:
+        types = "c"
         
+    if "タイプ1<c>" in item["jp_explain"]:
+        types += "1"
+    elif "タイプ2<c>" in item["jp_explain"]:
+        types += "2"
+    
+    return types
+
+def translate_nlayer_desc(item, file_name):
+    if item["tr_text"] == "": # No name to put in description
+        return -1
+    
+    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+        return -2
+    
+    # Some items are locked to one race and/or type.
+    types = get_type_restrictions(item)
+
+    # Some items hide your innerwear (these are mostly swimsuits).
+    hideinner = False
+    if "着用時はインナーが非表示になります。" in item["jp_explain"]:
+        hideinner = True
+
+    # Translate the description.
+    item["tr_explain"] = (ndesc_formats[LANG] + "{hidepanties}").format(
+        itype = layered_wear_types[item["tr_text"].split("[", )[1][0:2]][LANG] if item["tr_text"].endswith("]")
+                # Exception for default layered wear since it doesn't have [In], [Ba] etc
+                else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
+        typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
+        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+    
+    return 0
+
+layered_file_names = ["Basewear_Female",
+                      "Basewear_Male",
+                      "Innerwear_Female",
+                      "Innerwear_Male",
+                      "NGS_Outer_Female",
+                      "NGS_Outer_Male"]
+
 for name in layered_file_names:
-    items_file_name = "Item_" + name[0] + ".txt"
-    item_type = name[1]
+    items_file_name = "Item_" + name + ".txt"
     
     try:
         items_file = codecs.open(os.path.join(json_loc, items_file_name),
@@ -91,38 +154,186 @@ for name in layered_file_names:
         continue
     
     items = json.load(items_file)
-    print("{0} loaded.".format(items_file_name))
+    print("{0} loaded.".format(items_file_name) + " {")
     
     items_file.close()
+
+    newtranslations = False
     
     for item in items:
-        if item["tr_text"] != "" and (item["tr_explain"] == "" or REDO_ALL == True):
-            
-            # Some items are locked to one sex or the other.
-            sex = "n"
-            if len(regex.findall("女性のみ使用可能。", item["jp_explain"])) > 0:
-                sex = "f"
-            elif len(regex.findall("男性のみ使用可能。", item["jp_explain"])) > 0:
-                sex = "m"
-            
-            # Some items hide your innerwear (these are mostly swimsuits).
-            hideinner = False
-            if len(regex.findall("着用時はインナーが非表示になります。", item["jp_explain"])) > 0:
-                hideinner = True
-            
-            # Translate the description.
-            item["tr_explain"] = "사용하면 새로운 {type}인\n\"{name}\".{sexlock}{hidepanties}".format(
-                type = item_type, name = item["tr_text"],
-                sexlock = "\n의 사용이 가능해진다. 여성만 가능." if sex == "f"else "\n의 사용이 가능해진다. 남성만 가능." if sex == "m" else "",
-                hidepanties = "\n<yellow>※착용 시 이너웨어는 표시하지 않음.<c>" if hideinner == True else "")
+        problem = translate_nlayer_desc(item, name) if "選択可能になる。" in item["jp_explain"] else translate_layer_desc(item, name)
 
-            print("Translated description for {0}".format(item["tr_text"]))
+        if problem == 0:
+            print("\tTranslated description for {0}".format(item["tr_text"]))
+            newtranslations = True
+
+    if newtranslations == False:
+        print("\tNo new translations.")
+    
+    print("}")
+    
+    items_file = codecs.open(os.path.join(json_loc, items_file_name),
+                             mode = 'w', encoding = 'utf-8')
+    json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
+    items_file.write("\n")
+    items_file.close()
+
+# Translate other cosmetics
+
+cosmetic_file_names = [
+    "Accessory", "BodyPaint",
+    "Eye", "EyeBrow",
+    "EyeLash", "FacePaint",
+    "Hairstyle", "Sticker"
+    ]
+
+cosmetic_types = {
+    "Accessory": ["accessory", "악세서리", "аксессуар"],
+    "BodyPaint": ["body paint", "바디 페인트", "рис. тела"],
+    "Eye": ["eye pattern", "눈동자", "глаза"],
+    "EyeBrow": ["eyebrow type", "눈썹", "брови"],
+    "EyeLash": ["eyelash type", "속눈썹", "ресницы"],
+    "FacePaint": ["makeup", "메이크업", "макияж"],
+    "Hairstyle": ["hairstyle", "헤어스타일", "причёску"],
+    "Sticker": ["sticker", "스티커", "стикер"]
+    }
+
+cosmetic_desc_formats = ["Unlocks the {sexlock}{itype}\n\"{iname}\"\nfor use in the Beauty Salon.",
+                         "사용하면 새로운 {sexlock}{itype}\n\"{iname}\"\n의 사용이 가능해진다.",
+                         "Разблок-т {itype} {sexlock}\n\"{iname}\"\nдля использования в салоне."]
+
+cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для М"],
+                      "f": ["female-only ", "여성 전용 ", "только для Ж"]}
+
+cosmetic_size_locks = ["※Size cannot be adjusted.",
+                       "size_locked_KO",
+                       "※Нельзя отрегулировать размер."]
+
+cosmetic_color_locks = ["※Color cannot be changed",
+                        "color_locked_KO",
+                        "※Цвет нельзщя изменить."]
+
+no_sticker_desc = ["Unlocks the ability to not display a\nsticker in the Beauty Salon.",
+                   "no_sticker_KO",
+                   "Разблокирует возможность\nне отображать стикер в салоне."]
+
+def translate_cosmetic_desc(item, file_name):
+    if item["tr_text"] == "": # No name to put in description
+        return -1
+    
+    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+        return -2
+    
+    elif item["jp_text"] == "ステッカーなし": # Exception for "no sticker" sticker
+        item["tr_explain"] = no_sticker_desc[LANG]
+        return 0
+        
+    item_name = item["tr_text"]
+    
+    # Some stickers have different names in-game from their tickets.
+    # The in-game name is in the tickets' descriptions.
+    # Extract it here.
+    if file_name == "Sticker":
+        description_name = regex.search(
+            r'(?<=ステッカーの\n)(.+[ＡＢＣ]?)(?=が選択可能。)',
+            item["jp_explain"]).group(0)
+
+        if (description_name != item["jp_text"]):
+            item_name = item_name.replace(" Sticker", "")
+    
+    # Some items are locked to one sex or the other.
+    sex = "n"
+    if "女性のみ使用可能。" in item["jp_explain"]:
+        sex = "f"
+    elif "男性のみ使用可能。" in item["jp_explain"]:
+        sex = "m"
+    
+    # Some items cannot be resized.
+    sizelocked = False
+    
+    if "サイズ調整はできません。" in item["jp_explain"]:
+        sizelocked = True
+
+    # Some items cannot be recolored.
+    colorlocked = False
+    
+    if "カラーは変更できません" in item["jp_explain"]:
+        colorlocked = True
+    
+    # Translate the description.
+    item["tr_explain"] = (cosmetic_desc_formats[LANG] + "{sizelock}" + "{colorlock}").format(
+        sexlock = cosmetic_sex_locks[sex][LANG] if sex != "n" else "",
+        itype = item_type,
+        iname = item_name, 
+        sizelock = "\n<yellow>" + cosmetic_size_locks[LANG] + "<c>" if sizelocked == True else "",
+        colorlock = "\n<yellow>" + cosmetic_color_locks[LANG] + "<c>" if colorlocked == True else "",)
+    
+    # Hello Kitty item copyright notice
+    if item["jp_text"] == "ハローキティチェーン":
+        item["tr_explain"] += "\nc'76,'15 SANRIO APPR.NO.S564996"
+    
+    return 0
+
+def translate_ncosmetic_desc(item, file_name):
+    if item["tr_text"] == "": # No name to put in description
+        return -1
+    
+    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+        return -2
+    
+    # Some items are locked to one race and/or type.
+    types = get_type_restrictions(item)
+
+    # Some items hide your innerwear (these are mostly swimsuits).
+    hideinner = False
+    if "着用時はインナーが非表示になります。" in item["jp_explain"]:
+        hideinner = True
+
+    # Translate the description.
+    item["tr_explain"] = (ndesc_formats[LANG]).format(
+        itype = item_type,
+        typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
+        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+    
+    return 0
+
+for file_name in cosmetic_file_names:
+    items_file_name = "Item_Stack_" + file_name + ".txt"
+    item_type = cosmetic_types[file_name][LANG]
+    
+    try:
+        items_file = codecs.open(os.path.join(json_loc, items_file_name),
+                                 mode = 'r', encoding = 'utf-8')
+    except FileNotFoundError:
+        print("\t{0} not found.".format(items_file_name))
+        continue
+    
+    items = json.load(items_file)
+    print("{0} loaded.".format(items_file_name) + " {")
+    
+    items_file.close()
+
+    newtranslations = False
+    
+    for item in items:
+        problem = translate_ncosmetic_desc(item, file_name) if "選択可能になる。" in item["jp_explain"] else translate_cosmetic_desc(item, file_name)
+
+        if problem == 0:
+            print("\tTranslated description for {0}".format(item["tr_text"]))
+            newtranslations = True
+
+    if newtranslations == False:
+        print("\tNo new translations.")
+    
+    print("}")
 
     items_file = codecs.open(os.path.join(json_loc, items_file_name),
                              mode = 'w', encoding = 'utf-8')
     json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
     items_file.write("\n")
     items_file.close()
+
+# Translate voices
 
 try:
     items_file = codecs.open(os.path.join(json_loc, "Item_Stack_Voice.txt"),
@@ -131,147 +342,282 @@ except FileNotFoundError:
     print("\tItem_Stack_Voice.txt not found.")
 
 items = json.load(items_file)
-print("Item_Stack_Voice.txt loaded.")
+print("Item_Stack_Voice.txt loaded. {")
     
 items_file.close()
 
 cv_names = {
-    "こおろぎさとみ": "코오로기 사토미", "チョー": "쵸",
-    "下野 紘": "시모노 히로", "中原 麻衣": "나카하라 마이",
-    "中尾 隆聖": "나카오 류세이", "中村 悠一": "유이치 나카무라",
-    "中田 譲治": "나카타 조지", "中西 茂樹": "Shigeki Nakanishi",
-    "久野 美咲": "Misaki Kuno", "井上 和彦": "Kazuhiko Inoue",
-    "井上 喜久子": "Kikuko Inoue", "井上 麻里奈": "Marina Inoue",
-    "井口 裕香": "Yuka Iguchi", "今井 麻美": "Asami Imai",
-    "伊瀬 茉莉也": "Mariya Ise", "伊藤 静": "Shizuka Ito",
-    "会 一太郎": "Ichitaro Ai", "住友 優子": "Yuko Sumitomo",
-    "佐倉 綾音": "Ayane Sakura", "佐藤 利奈": "사토 리나",
-    "佐藤 聡美": "Satomi Sato", "佳村 はるか": "Haruka Yoshimura",
-    "保志 総一朗": "Soichiro Hoshi", "光吉 猛修": "Takenobu Mitsuyoshi",
-    "内田 真礼": "Maaya Uchida", "吉野 裕行": "Hiroyuki Yoshino",
-    "名塚 佳織": "Kaori Nazuka", "喜多村 英梨": "Eri Kitamura",
-    "坂本 真綾": "Maaya Sakamoto", "堀江 由衣": "Yui Horie",
-    "子安 武人": "Takehito Koyasu", "寺島 拓篤": "Takuma Terashima",
-    "小倉 唯": "Yui Ogura", "小原 莉子": "Riko Kohara",
-    "小山 茉美": "Mami Koyama", "小林 ゆう": "Yu Kobayashi",
-    "小清水 亜美": "Ami Koshimizu", "小西 克幸": "Katsuyuki Konishi",
-    "小野 大輔": "Daisuke Ono", "小野坂 昌也": "Masaya Onosaka",
-    "山岡 ゆり": "Yuri Yamaoka", "岡本 信彦": "Nobuhiko Okamoto",
-    "岩下 読男": "Moai Iwashita", "島本 須美": "Sumi Shimamoto",
-    "島﨑 信長": "Nobunaga Shimazaki", "川村 万梨阿": "Maria Kawamura",
-    "川澄 綾子": "Ayako Kawasumi", "市来 光弘": "Mitsuhiro Ichiki",
-    "悠木 碧": "Aoi Yuki", "戸松 遥": "토마츠 하루카",
-    "斉藤 朱夏": "Shuka Saito", "斎藤 千和": "사이토 치와",
-    "新田 恵海": "Emi Nitta", "日笠 陽子": "Yoko Hikasa",
-    "早見 沙織": "Saori Hayami", "木村 珠莉": "Juri Kimura",
-    "木村 良平": "Ryohei Kimura", "杉田 智和": "Tomokazu Sugita",
-    "村川 梨衣": "Rie Murakawa", "東山 奈央 ": "토야마 나오",
-    "松岡 禎丞": "마츠오카 요시츠구", "柿原 徹也": "카키하라 테츠야",
-    "桃井 はるこ": "Haruko Momoi", "桑島 法子": "Houko Kuwashima",
-    "梶 裕貴": "Yuki Kaji", "森久保 祥太郎": "Showtaro Morikubo",
-    "植田 佳奈": "Kana Ueda", "榊原 良子": "Yoshiko Sakakibara",
-    "榎本 温子": "Atsuko Enomoto", "横山 智佐": "Chisa Yokoyama",
-    "橘田 いずみ": "Izumi Kitta", "櫻井 孝宏": "Takahiro Sakurai",
-    "水樹 奈々": "Nana Mizuki", "水橋 かおり": "Kaori Mizuhashi",
-    "江口 拓也": "Takuya Eguchi", "沢城 みゆき": "Miyuki Sawashiro",
-    "沼倉 愛美": "Manami Numakura", "洲崎 綾": "Aya Suzaki",
-    "渡辺 久美子": "Kumiko Watanabe", "潘 めぐみ": "Megumi Han",
-    "瀬戸 麻沙美": "Asami Seto", "玄田 哲章": "Tessho Genda",
-    "生天目 仁美": "Hitomi Nabatame", "田中 理恵": "Rie Tanaka",
-    "田村 ゆかり": "Yukari Tamura", "甲斐田 裕子": "Yuko Kaida",
-    "白石 涼子": "Ryoko Shiraishi", "白鳥 哲": "Tetsu Shiratori",
-    "皆口 裕子": "미나구치 유코", "石田 彰": "Akira Ishida",
-    "神原 大地": "Daichi Kanbara", "神谷 浩史": "Hiroshi Kamiya",
-    "福山 潤": "Jun Fukuyama", "秋元 羊介": "Yosuke Akimoto",
-    "秦 佐和子": "Sawako Hata", "種田 梨沙": "타네다 리사",
-    "立木 文彦": "타치키 후미히코", "立花 理香": "Rika Tachibana",
-    "竹達 彩奈": "Ayana Taketatsu", "細谷 佳正": "Yoshimasa Hosoya",
-    "結月 ゆかり": "Yuzuki Yukari", "緑川 光": "Hikaru Midorikawa",
-    "緒方 恵美": "Megumi Ogata", "能登 麻美子": "Mamiko Noto",
-    "花江 夏樹": "Natsuki Hanae", "花澤 香菜": "Kana Hanazawa",
-    "若本 規夫": "Norio Wakamoto", "茅野 愛衣": "Ai Kayano",
-    "草尾 毅": "Takeshi Kusao", "菊地 美香": "Mika Kikuchi",
-    "蒼井 翔太": "Shouta Aoi", "諏訪 彩花": "Ayaka Suwa",
-    "諏訪部 順一": "Junichi Suwabe", "豊口 めぐみ": "Megumi Toyoguchi",
-    "豊崎 愛生": "Aki Toyosaki", "近藤 佳奈子": "Kanako Kondo",
-    "速水 奨": "Sho Hayami", "那須 晃行": "Akiyuki Nasu",
-    "金元 寿子": "Hisako Kanemoto", "釘宮 理恵": "Rie Kugimiya",
-    "鈴村 健一": "스즈무라 켄이치", "銀河 万丈": "Banjo Ginga",
-    "長谷川 唯": "Yui Hasegawa", "門脇 舞以": "Mai Kadowaki",
-    "関 智一": "Tomokazu Seki", "阿澄 佳奈": "Kana Asumi",
-    "陶山 章央": "Akio Suyama", "雨宮 天": "Sora Amamiya",
-    "飛田 展男": "Nobuo Tobita", "飯田 友子": "이이다 유우코",
-    "高木 友梨香": "Yurika Takagi", "高野 麻里佳": "Marika Kono",
-    "安元 洋貴": "Hiroki Yasumoto", "高橋 未奈美": "Minami Takahashi",
-    "黒沢 ともよ": "Tomoyo Kurosawa", "堀川 りょう": "Ryo Horikawa",
-    "高橋 李依": "Rie Takahashi", "安済 知佳": "Chika Anzai",
-    "金田 アキ": "Aki Kanada", "田辺 留依": "타나베 루이",
-    "引坂 理絵": "Rie Hikisaka", "増田 俊樹": "Toshiki Masuda",
-    "斉藤 壮馬": "Soma Saito", "藤田 茜": "Akane Fujita",
-    "小松 未可子": "Mikako Komatsu", "本渡 楓": "Kaede Hondo",
-    "ポポナ": "Popona", "清水 彩香": "Ayaka Shimizu",
-    "藤本 結衣": "Yui Fujimoto", "古賀 葵": "Aoi Koga",
-    "矢島 晶子": "Akiko Yajima", "藤田 曜子": "Yoko Fujita",
-    "天野 名雪": "Nayuki Amano", "佐藤 友啓": "Tomohiro Sato",
-    "千本木 彩花": "Sayaka Senbongi", "ゆかな": "Yukana Nogami",
-    "佐武 宇綺": "Uki Satake", "紲星 あかり": "Kizuna Akari",
-    "？？？": "???", "Ｍ・Ａ・Ｏ": "M・A・O",
-    "": "Unknown"
+    "ゆかな": ["Yukana Nogami", "", "Ногами Юкана"],
+    "チョー": ["Cho", "쵸", "Чо"],
+    "ポポナ": ["Popona", "", "Попона"],
+    "下野 紘": ["Hiro Shimono", "시모노 히로", "Хиро Симоно"],
+    "中原 麻衣": ["Mai Nakahara", "나카하라 마이", "Маи Накахара"],
+    "中尾 隆聖": ["Ryusei Nakao", "나카오 류세이", "Рюсэй Накао"],
+    "中村 悠一": ["Yuichi Nakamura", "유이치 나카무라", "Юичи Накамура"],
+    "中田 譲治": ["Joji Nakata", "나카타 조지", "Дзёдзи Наката"],
+    "中西 茂樹": ["Shigeki Nakanishi", "", "Сигэки Наканиши"],
+    "久野 美咲": ["Misaki Kuno", "", "Мисаки Куно"],
+    "井上 和彦": ["Kazuhiko Inoue", "", "Казухико Иноэ"],
+    "井上 喜久子": ["Kikuko Inoue", "", "Кикуко Иноуэ"],
+    "井上 麻里奈": ["Marina Inoue", "", "Марина Иноуэ"],
+    "井口 裕香": ["Yuka Iguchi", "", "Юка Игути"],
+    "今井 麻美": ["Asami Imai", "", "Асами Имаи"],
+    "伊瀬 茉莉也": ["Mariya Ise", "", "Мария Исэ"],
+    "伊藤 静": ["Shizuka Ito", "", "Сидзука Ито"],
+    "会 一太郎": ["Ichitaro Ai", "", "Ичитаро Ай"],
+    "住友 優子": ["Yuko Sumitomo", "", "Юко Сумитомо"],
+    "佐倉 綾音": ["Ayane Sakura", "", "Аянэ Сакура"],
+    "佐武 宇綺": ["Uki Satake", "", "Уки Сатакэ"],
+    "佐藤 利奈": ["Rina Sato", "", "Рина Сато"],
+    "佐藤 友啓": ["Tomohiro Sato", "", "Томохиро Сато"],
+    "佐藤 聡美": ["Satomi Sato", "", "Сатоми Сато"],
+    "佳村 はるか": ["Haruka Yoshimura", "", "Харука Ёсимура"],
+    "保志 総一朗": ["Soichiro Hoshi", "", "Соичиро Хоши"],
+    "光吉 猛修": ["Takenobu Mitsuyoshi", "", "Такэнобу Мицуёши"],
+    "内田 真礼": ["Maaya Uchida", "", "Маая Утида"],
+    "千本木 彩花": ["Sayaka Senbongi", "", "Саяка Сэмбонги"],
+    "古賀 葵": ["Aoi Koga", "", "Аой Кога"],
+    "吉野 裕行": ["Hiroyuki Yoshino", "", "Хироюки Ёшино"],
+    "名塚 佳織": ["Kaori Nazuka", "", "Каори Надзука"],
+    "喜多村 英梨": ["Eri Kitamura", "", "Эри Китамура"],
+    "坂本 真綾": ["Maaya Sakamoto", "", "Маая Сакамото"],
+    "堀川 りょう": ["Ryo Horikawa", "", "Рё Хорикава"],
+    "堀江 由衣": ["Yui Horie", "", "Юи Хориэ"],
+    "増田 俊樹": ["Toshiki Masuda", "", "Тошики Масуда"],
+    "天野 名雪": ["Nayuki Amano", "", "Наюки Амано"],
+    "子安 武人": ["Takehito Koyasu", "", "Такэхито Коясу"],
+    "安元 洋貴": ["Hiroki Yasumoto", "", "Хироки Ясумото"],
+    "安済 知佳": ["Chika Anzai", "", "Чика Андзаи"],
+    "寺島 拓篤": ["Takuma Terashima", "", "Такума Тэрашима"],
+    "小倉 唯": ["Yui Ogura", "", "Юй Огура"],
+    "小原 莉子": ["Riko Kohara", "", "Рико Кохара"],
+    "小山 茉美": ["Mami Koyama", "", "Мами Кояма"],
+    "小松 未可子": ["Mikako Komatsu", "", "Микако Комацу"],
+    "小林 ゆう": ["Yu Kobayashi", "", "Ю Кобаяши"],
+    "小清水 亜美": ["Ami Koshimizu", "", "Ами Косимидзу"],
+    "小西 克幸": ["Katsuyuki Konishi", "", "Кацуюки Кониши"],
+    "小野 大輔": ["Daisuke Ono", "", "Дайсукэ Оно"],
+    "小野坂 昌也": ["Masaya Onosaka", "", "Масая Оносака"],
+    "山岡 ゆり": ["Yuri Yamaoka", "", "Юри Ямаока"],
+    "岡本 信彦": ["Nobuhiko Okamoto", "", "Нобухико Окамото"],
+    "岩下 読男": ["Moai Iwashita", "", "Моаи Ивасита"],
+    "島本 須美": ["Sumi Shimamoto", "", "Суми Симамото"],
+    "島﨑 信長": ["Nobunaga Shimazaki", "", "Нобунага Симадзаки"],
+    "川村 万梨阿": ["Maria Kawamura", "", "Мария Кавамура"],
+    "川澄 綾子": ["Ayako Kawasumi", "", "Аяко Кавасуми"],
+    "市来 光弘": ["Mitsuhiro Ichiki", "", "Мицухиро Ичики"],
+    "引坂 理絵": ["Rie Hikisaka", "", "Рие Хирисака"],
+    "悠木 碧": ["Aoi Yuki", "", "Аои Юки"],
+    "戸松 遥": ["Haruka Tomatsu", "토마츠 하루카", "Харука Томацу"],
+    "斉藤 壮馬": ["Soma Saito", "", "Сома Сайто"],
+    "斉藤 朱夏": ["Shuka Saito", "", "Шюка Саито"],
+    "斎藤 千和": ["Chiwa Saito", "사이토 치와", "Тива Сайто"],
+    "新田 恵海": ["Emi Nitta", "", "Эми Нитта"],
+    "日笠 陽子": ["Yoko Hikasa", "", "Ёко Хикаса"],
+    "早見 沙織": ["Saori Hayami", "", "Саори Хаями"],
+    "木村 珠莉": ["Juri Kimura", "", "Дзюри Кимура"],
+    "木村 良平": ["Ryohei Kimura", "", "Рёхэй Кимура"],
+    "本渡 楓": ["Kaede Hondo", "", "Каэдэ Хондо"],
+    "杉田 智和": ["Tomokazu Sugita", "", "Томокадзу Сугита"],
+    "村川 梨衣": ["Rie Murakawa", "", "Риэ Муракава"],
+    "東山 奈央 ": ["Nao Toyama", "토야마 나오", "Нао Тояма"],
+    "松岡 禎丞": ["Yoshitsugu Matsuoka", "마츠오카 요시츠구", "Ёсицугу Мацуока"],
+    "柿原 徹也": ["Tetsuya Kakihara", "카키하라 테츠야", "Тэцуя Какихара"],
+    "桃井 はるこ": ["Haruko Momoi", "", "Харуко Момои"],
+    "桑島 法子": ["Houko Kuwashima", "", "Хоко Кувасима"],
+    "梶 裕貴": ["Yuki Kaji", "", "Юки Кадзи"],
+    "森久保 祥太郎": ["Showtaro Morikubo", "", "Сётаро Морикубо"],
+    "植田 佳奈": ["Kana Ueda", "", "Кана Уэда"],
+    "榊原 良子": ["Yoshiko Sakakibara", "", "Ёсико Сакакибара"],
+    "榎本 温子": ["Atsuko Enomoto", "", "Ацуко Эномото"],
+    "横山 智佐": ["Chisa Yokoyama", "", "Тиса Ёкояма"],
+    "橘田 いずみ": ["Izumi Kitta", "", "Идзуми Китта"],
+    "櫻井 孝宏": ["Takahiro Sakurai", "", "Такахиро Сакураи"],
+    "水樹 奈々": ["Nana Mizuki", "", "Нана Мидзуки"],
+    "水橋 かおり": ["Kaori Mizuhashi", "", "Каори Мидзухаси"],
+    "江口 拓也": ["Takuya Eguchi", "", "Такуя Эгучи"],
+    "沢城 みゆき": ["Miyuki Sawashiro", "", "Миюки Саваширо"],
+    "沼倉 愛美": ["Manami Numakura", "", "Манами Нумакура"],
+    "洲崎 綾": ["Aya Suzaki", "", "Ая Судзаки"],
+    "清水 彩香": ["Ayaka Shimizu", "", "Аяка Симидзу"],
+    "渡辺 久美子": ["Kumiko Watanabe", "", "Кумико Ватанабэ"],
+    "潘 めぐみ": ["Megumi Han", "", "Мэгуми Хан"],
+    "瀬戸 麻沙美": ["Asami Seto", "", "Асами Сэто"],
+    "玄田 哲章": ["Tessho Genda", "", "Тэссё Гэнда"],
+    "生天目 仁美": ["Hitomi Nabatame", "", "Хитоми Набатамэ"],
+    "田中 理恵": ["Rie Tanaka", "", "Риэ Танака"],
+    "田村 ゆかり": ["Yukari Tamura", "", "Юкари Тамура"],
+    "田辺 留依": ["Rui Tanabe", "타나베 루이", "Руи Танабэ"],
+    "甲斐田 裕子": ["Yuko Kaida", "", "Юко Каида"],
+    "白石 涼子": ["Ryoko Shiraishi", "", "Рёко Сираиси"],
+    "白鳥 哲": ["Tetsu Shiratori", "", "Тэцу Сиратори"],
+    "皆口 裕子": ["Yuko Minaguchi", "미나구치 유코", "Юко Минагучи"],
+    "矢島 晶子": ["Akiko Yajima", "", "Юко Минагучи"],
+    "石田 彰": ["Akira Ishida", "", "Акира Исида"],
+    "神原 大地": ["Daichi Kanbara", "", "Даичи Камбара"],
+    "神谷 浩史": ["Hiroshi Kamiya", "", "Хироши Камия"],
+    "福山 潤": ["Jun Fukuyama", "", "Дзюн Фукуяма"],
+    "秋元 羊介": ["Yosuke Akimoto", "", "Ёсукэ Акимото"],
+    "秦 佐和子": ["Sawako Hata", "", "Савако Хата"],
+    "種田 梨沙": ["Risa Taneda", "타네다 리사", "Риса Танеда"],
+    "立木 文彦": ["Fumihiko Tachiki", "타치키 후미히코", "Фумихико Тачики"],
+    "立花 理香": ["Rika Tachibana", "", "Рика Тачибана"],
+    "竹達 彩奈": ["Ayana Taketatsu", "", "Аяна Такэтацу"],
+    "細谷 佳正": ["Yoshimasa Hosoya", "", "Ёшимаса Хосоя"],
+    "紲星 あかり": ["Kizuna Akari", "", "Кизуна Акари"],
+    "結月 ゆかり": ["Yuzuki Yukari", "", "Юзуки Акари"],
+    "緑川 光": ["Hikaru Midorikawa", "", "Хикару Мидорикава"],
+    "緒方 恵美": ["Megumi Ogata", "", "Мэгуми Огата"],
+    "能登 麻美子": ["Mamiko Noto", "", "Мамико Ното"],
+    "花江 夏樹": ["Natsuki Hanae", "", "Нацуки Ханаэ"],
+    "花澤 香菜": ["Kana Hanazawa", "", "Кана Ханадзава"],
+    "若本 規夫": ["Norio Wakamoto", "", "Норио Вакамото"],
+    "茅野 愛衣": ["Ai Kayano", "", "Аи Каяно"],
+    "草尾 毅": ["Takeshi Kusao", "", "Такэши Кусао"],
+    "菊地 美香": ["Mika Kikuchi", "", "Мика Кикучи"],
+    "蒼井 翔太": ["Shouta Aoi", "", "Сёта Аои"],
+    "藤本 結衣": ["Yui Fujimoto", "", "Юи Фудзимото"],
+    "藤田 曜子": ["Yoko Fujita", "", "Ёко Фудзита"],
+    "藤田 茜": ["Akane Fujita", "", "Аканэ Фудзита"],
+    "諏訪 彩花": ["Ayaka Suwa", "", "Аяка Сува"],
+    "諏訪部 順一": ["Junichi Suwabe", "", "Дзюнъичи Сувабэ"],
+    "豊口 めぐみ": ["Megumi Toyoguchi", "", "Мэгуми Тоёгучи"],
+    "豊崎 愛生": ["Aki Toyosaki", "", "Аки Тоёсаки"],
+    "近藤 佳奈子": ["Kanako Kondo", "", "Канако Кондо"],
+    "速水 奨": ["Sho Hayami", "", "Сё Хаями"],
+    "那須 晃行": ["Akiyuki Nasu", "", "Акаюки Насу"],
+    "金元 寿子": ["Hisako Kanemoto", "", "Хисако Канэмото"],
+    "金田 アキ": ["Aki Kanada", "", "Аки Канада"],
+    "釘宮 理恵": ["Rie Kugimiya", "", "Риэ Кугимия"],
+    "鈴村 健一": ["Kenichi Suzumura", "스즈무라 켄이치", "Кэнъити Судзумура"],
+    "銀河 万丈": ["Banjo Ginga", "", "Бандзё Гинга"],
+    "長谷川 唯": ["Yui Hasegawa", "", "Юи Хасэгава"],
+    "門脇 舞以": ["Mai Kadowaki", "", "Маи Кадоваки"],
+    "関 智一": ["Tomokazu Seki", "", "Томокадзу Сэки"],
+    "阿澄 佳奈": ["Kana Asumi", "", "Кана Асуми"],
+    "陶山 章央": ["Akio Suyama", "", "Акио Суяма"],
+    "雨宮 天": ["Sora Amamiya", "", "Сора Амамия"],
+    "飛田 展男": ["Nobuo Tobita", "", "Нобуо Тобита"],
+    "飯田 友子": ["Yuko Iida", "이이다 유우코", "Юко Иида"],
+    "高木 友梨香": ["Yurika Takagi", "", "Юрика Такаги"],
+    "高橋 未奈美": ["Minami Takahashi", "", "Минами Такахаши"],
+    "高橋 李依": ["Rie Takahashi", "", "Риэ Такахаши"],
+    "高野 麻里佳": ["Marika Kono", "", "Марика Коно"],
+    "黒沢 ともよ": ["Tomoyo Kurosawa", "", "Томоё Куросава"],
+    "こおろぎさとみ": ["Satomi Korogi", "코오로기 사토미", "Сатоми Короги"],
+    "三宅 健太": ["Kenta Miyake", "", "Кэнта Миякэ"],
+    "諸星 すみれ": ["Sumire Morohoshi", "", "Сумирэ Морохоси"],
+    "宮本 侑芽": ["Yume Miyamoto", "", "Юмэ Миямото"],
+    "川島 得愛": ["Tokuyoshi Kawashima", "", "Токуёси Кавасима"],
+    "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O", "M・A・O", "M・A・O"],
+    "？？？": ["???", "???", "???"],
+    "": ["Unknown", "알 수 없는", "Неизвестно"]
     }
 
-for item in items:
-    if item["tr_text"] != "" and (item["tr_explain"] == "" or REDO_ALL == True
-                                  # Check for generic wrong format descriptions that keep creeping in somehow.
-                                  or len(regex.findall("Salon", item["tr_explain"])) > 0):
-        
+# What language to fall back to if a name hasn't been translated into your language.
+# -1: Prefer falling back to JP over any other language
+name_fallbacks = {0: -1,
+                  1: -1,
+                  2: 0}
+
+voice_desc_formats = ["Allows a new voice to be selected.",
+                      "사용하면 새로운 보이스 사용 가능.",
+                      "Позволяет выбрать новый голос."]
+
+def translate_voice(item):
+    if item["tr_text"] == "": # No name to put in description
+        return -1
+    
+    elif (item["tr_explain"] != "" and REDO_ALL == False # Description already present, leave it alone
+    and "Salon" not in item["tr_explain"]): # Catch old format descriptions that keep creeping in somehow.
+        return -2
+    else:
         # Strings for race/sex combo restrictions
         restrictions = {
-        "hm": "인간 남성만 사용 가능.",
-        "hf": "인간 여성만 사용 가능.",
-        "cm": "캐스트 남성만 사용 가능.",
-        "cf": "캐스트 여성만 사용 가능.",
-        "am": "남성만 사용 가능.",
-        "af": "여성만 사용 가능.",
-        "an": "모두 사용 가능."}
+        "hm": ["Non-Cast male characters only.",
+               "인간 남성만 사용 가능.",
+               "Только для М не CAST'ов."],
+        "hf": ["Non-Cast female characters only.",
+               "인간 여성만 사용 가능.",
+               "Только для Ж не CAST'ов."],
+        "cm": ["Male Casts only.",
+               "캐스트 남성만 사용 가능.",
+               "Только для М CAST'ов."],
+        "cf": ["Female Casts only.",
+               "캐스트 여성만 사용 가능.",
+               "Только для Ж CAST'ов."],
+        "am": ["Male characters only (all races).",
+               "남성만 사용 가능.",
+               "Только М персонажей (все расы)."],
+        "af": ["Female characters only (all races).",
+               "여성만 사용 가능.",
+               "Только Ж персонажей (все расы)."],
+        "an": ["Usable by all characters.",
+               "모두 사용 가능.",
+               "Доступно всем персонажам."]}
         
         # Detect ticket's race/sex restriction.
         # Default to no restriction.
         racensex= "an"
         
-        if len(regex.findall("人間男性のみ使用可能。", item["jp_explain"])) > 0:
+        if "人間男性のみ使用可能。" in item["jp_explain"]:
             racensex= "hm"
-        elif len(regex.findall("人間女性のみ使用可能。", item["jp_explain"])) > 0:
+        elif "人間女性のみ使用可能。" in item["jp_explain"]:
             racensex= "hf"
-        elif len(regex.findall("キャスト男性のみ使用可能。", item["jp_explain"])) > 0:
+        elif "キャスト男性のみ使用可能。" in item["jp_explain"]:
             racensex= "cm"
-        elif len(regex.findall("キャスト女性のみ使用可能。", item["jp_explain"])) > 0:
+        elif "キャスト女性のみ使用可能。" in item["jp_explain"]:
             racensex= "cf"
-        elif len(regex.findall("男性のみ使用可能。", item["jp_explain"])) > 0:
+        elif "男性のみ使用可能。" in item["jp_explain"]:
             racensex= "am"
-        elif len(regex.findall("女性のみ使用可能。", item["jp_explain"])) > 0:
+        elif "女性のみ使用可能。" in item["jp_explain"]:
             racensex= "af"
         
-        # Find out if we know the voice actor's name in English.
+        # Find out if we know the voice actor's name
         jp_cv_name = item["jp_explain"].split("ＣＶ")[1]
+        cv_name = ""
         
-        cv_name = jp_cv_name
-        
-        if jp_cv_name in cv_names:
-            # We do, so use it.
-            cv_name = cv_names[jp_cv_name]
+        if jp_cv_name in cv_names: # We do, so use it, or keep falling back to best available option if we don't have a translation.
+            curr_lang = LANG
+            
+            while cv_name == "":
+                if curr_lang == -1: # We've fallen back to JP, so just use the JP name and stop there
+                    cv_name = jp_cv_name
+                    break
+                else:
+                    cv_name = cv_names[jp_cv_name][curr_lang]
+                    if cv_name == "":
+                        print("\tWARNING: No translation for {jp} in {curr}, falling back to {next}".format(jp = jp_cv_name, curr = LANGS[curr_lang], next = LANGS[name_fallbacks[curr_lang]]))
+                    curr_lang = name_fallbacks[curr_lang]
+            
         else:
             # We don't, so report it.
             print("Voice ticket {0} has a new voice actor: {1}"
                   .format(item["tr_text"], jp_cv_name))
+            cv_name = jp_cv_name
         
         # Translate the description
-        item["tr_explain"] = "사용하면 새로운 보이스 사용 가능.\n{restriction}\nCV: {actorname}".format(
-            restriction = restrictions[racensex], actorname = cv_name)
+        item["tr_explain"] = voice_desc_formats[LANG] + "\n{restriction}\nCV: {actorname}".format(
+            restriction = restrictions[racensex][LANG],
+            actorname = cv_name)
         
-        print("Translated description for {0}".format(item["tr_text"]))
+    return 0
+
+for item in items:
+    
+    if translate_voice(item) == 0:
+        print("\tTranslated description for {0}".format(item["tr_text"]))
+        newtranslations = True
+
+if newtranslations == False:
+    print("\tNo new translations.")
+
+print("}")       
 
 items_file = codecs.open(os.path.join(json_loc, "Item_Stack_Voice.txt"),
                          mode = 'w', encoding = 'utf-8')
 json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
 items_file.write("\n")
 items_file.close()
+
+print ("Ticket translation complete.")

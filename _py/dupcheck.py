@@ -30,12 +30,6 @@ json_files = [
 json_files += [
     os.path.join(dirpath, f)
     for dirpath, dirnames, files in os.walk(dir)
-    for f in fnmatch.filter(files, 'Explain_Actor_*.txt')
-]
-
-json_files += [
-    os.path.join(dirpath, f)
-    for dirpath, dirnames, files in os.walk(dir)
     for f in fnmatch.filter(files, 'Explain_SkillRing.txt')
 ]
 

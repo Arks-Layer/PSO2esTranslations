@@ -151,7 +151,7 @@
 		"jp_text": "バシレイオン",
 		"tr_text": "바실레이온",
 		"jp_explain": "巨大な刃を威圧的に見せつける長槍。\n研ぎ澄まされたフォトンの刃は\n触れるものを難なく切り裂くという。",
-		"tr_explain": "An intimidating partizan with a\ngigantic blade. The honed Photons\nare said to shred anything with ease."
+		"tr_explain": "An intimidating Partizan with a\ngigantic blade. The honed Photons\nare said to shred anything with ease."
 	},
 	{
 		"assign": "13022",
@@ -340,7 +340,7 @@
 		"jp_text": "アーレスパルチザン",
 		"tr_text": "아레스 파르티잔",
 		"jp_explain": "一角獣の幻獣の力を宿した長槍。装者に\nフォトンブラストの効果で貫く力を\n与え、敵を無慈悲に一刀両断する。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan harboring the power of a\nPhoton Blast. It bisects the enemy\nwith piercing strength."
 	},
 	{
 		"assign": "13051",
@@ -403,21 +403,21 @@
 		"jp_text": "ステルスウェポン：ＰＲ",
 		"tr_text": "스텔스 웨폰: PR",
 		"jp_explain": "認識不能な武器。\n形状はパルチザン型。",
-		"tr_explain": ""
+		"tr_explain": "Unknown Weapon.\nSeems to be in the shape of\na Partizan."
 	},
 	{
 		"assign": "13069",
 		"jp_text": "赤のパルチザン",
 		"tr_text": "붉은 파르티잔",
 		"jp_explain": "試験的にカラーリングを\nシンボリックにした長槍。\n目映い赤色は必然的に目を引く。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan whose experimental\ncoloring has become iconic. The\ndazzling red catches the eye."
 	},
 	{
 		"assign": "13070",
 		"jp_text": "青のパルチザン",
 		"tr_text": "푸른 파르티잔",
 		"jp_explain": "試験的にカラーリングを\nシンボリックにした長槍。\n目映い青色は必然的に目を引く。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan whose experimental\ncoloring has become iconic. The\ndazzling blue catches the eye."
 	},
 	{
 		"assign": "13071",
@@ -487,21 +487,21 @@
 		"jp_text": "血槍ヴラド・ブラム",
 		"tr_text": "혈창 블라드 브람",
 		"jp_explain": "禍々しい気配を放つ長槍。かつて夜闇と\n共に現れヒトを襲った魔物が討伐された\n際に変化したものだと言われている。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan with an ominous aura.\nIt's said that it was once a demon\nthat attacked humans in the night."
 	},
 	{
 		"assign": "13089",
 		"jp_text": "グランディア",
 		"tr_text": "그란디아",
 		"jp_explain": "槍の柄に斧の刃を取り付け、槍の\n攻撃範囲の広さと斧の破壊力を併せ持つ\n長槍。扱うためには相応の熟練が必要。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan with the blade of an axe,\ngiving it an axe's power with a\nspear's range. Handling it takes skill."
 	},
 	{
 		"assign": "13092",
 		"jp_text": "フウガナギナタ",
 		"tr_text": "후우가 나기나타",
 		"jp_explain": "振るう姿が風雅に映える特別製の長槍。\nきらびやかな装飾の施された柄と\n研ぎ澄まされた刀身が共に美しく輝く。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan with an elegant look to it.\nIts sharp blade and gilded ornaments\nshine beautifully as you swing it about."
 	},
 	{
 		"assign": "13095",
@@ -543,7 +543,7 @@
 		"jp_text": "ライブステイド",
 		"tr_text": "라이브 스테이드",
 		"jp_explain": "最先端の生体工学を応用し開発された\n長槍。グリップから手首を包む高純度\n培養液が安定した装着感を与える。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan made with state-of-the-art\nbioengineering. Enhanced with a\nhigh-purity culture solution."
 	},
 	{
 		"assign": "130105",
@@ -739,7 +739,7 @@
 		"jp_text": "ノクスロザン",
 		"tr_text": "녹스 로잔",
 		"jp_explain": "外法にも近い特別な儀式によって\n生み出された黒き長槍。装者も\n恐怖するほどの力で、敵を葬り去る。",
-		"tr_explain": ""
+		"tr_explain": "A black Partizan produced in an illicit\nritual. Its power to utterly vanquish\nenemies terrifies even its wielder."
 	},
 	{
 		"assign": "130184",
@@ -800,7 +800,7 @@
 	{
 		"assign": "130195",
 		"jp_text": "ネブロスメディスタ",
-		"tr_text": "",
+		"tr_text": "Nebulos Medister",
 		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n長槍。極限まで鍛えられた刃は凄まじく\n触れるだけで斬り裂かれるほど。",
 		"tr_explain": ""
 	},
@@ -823,28 +823,28 @@
 		"jp_text": "スピアレボルシオ",
 		"tr_text": "스피어 레볼시오",
 		"jp_explain": "新開発の演算装置を搭載した長槍。\n装者の思考や戦況を分析することで\n出力を最適に保ち、負荷を軽減する。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan with a newly developed\ncomputing device. It scans tactical\ndata for optimal user efficiency."
 	},
 	{
 		"assign": "130203",
 		"jp_text": "スピアドミナシオ",
 		"tr_text": "스피어 도미나시오",
 		"jp_explain": "新開発の演算装置を搭載した長槍。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan with a newly developed\ncomputing device. Powerful, but puts\nstrain on the user's mind in battle."
 	},
 	{
 		"assign": "130204",
 		"jp_text": "スピアインクルシオ",
-		"tr_text": "",
+		"tr_text": "Spear Inclusio",
 		"jp_explain": "新開発の演算装置を搭載した長槍。\n常識を遙かに上回る処理能力を持ち\n使用者が思う通り扱うことができる。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan with a newly developed\ncomputing device. Its processor lets its\nuser use it any way they can imagine."
 	},
 	{
 		"assign": "130208",
 		"jp_text": "タイタンスティンガー",
 		"tr_text": "타이탄 스팅어",
 		"jp_explain": "古典的技術が用いられた超重量長槍。\nフォトンが解き放たれる力に耐える為\n非常に硬質なフレームを採用した。",
-		"tr_explain": ""
+		"tr_explain": "An ultra-heavy Partizan made from\nolder technology. Built sturdy in order\nto withstand unbound Photon power."
 	},
 	{
 		"assign": "130209",
@@ -921,7 +921,7 @@
 		"jp_text": "フォルニスグナス",
 		"tr_text": "폴니스 구나스",
 		"jp_explain": "異なる力を宿した恐るべき長槍。\n扱いこそ難しいが、絶大ともいえる\n凄まじい斬れ味は容易く標的を断つ。",
-		"tr_explain": ""
+		"tr_explain": "A fearsome Partizan bearing twin\npowers. Difficult to handle, but sharp\nenough to slay any target with ease."
 	},
 	{
 		"assign": "130229",
@@ -1005,7 +1005,7 @@
 		"jp_text": "バシレイオン-NT",
 		"tr_text": "바실레이온-NT",
 		"jp_explain": "巨大な刃を威圧的に見せつける長槍。\n研ぎ澄まされたフォトンの刃は\n触れるものを難なく切り裂くという。",
-		"tr_explain": "An intimidating partizan with a\ngigantic blade. The honed Photons\nare said to shred anything with ease."
+		"tr_explain": "An intimidating Partizan with a\ngigantic blade. The honed Photons\nare said to shred anything with ease."
 	},
 	{
 		"assign": "130241",
@@ -1047,7 +1047,7 @@
 		"jp_text": "ノクスロザン-NT",
 		"tr_text": "녹스 로잔-NT",
 		"jp_explain": "外法にも近い特別な儀式によって\n生み出された黒き長槍。装者も\n恐怖するほどの力で、敵を葬り去る。",
-		"tr_explain": ""
+		"tr_explain": "A black Partizan produced in an illicit\nritual. Its power to utterly vanquish\nenemies terrifies even its wielder."
 	},
 	{
 		"assign": "130247",
@@ -1110,7 +1110,7 @@
 		"jp_text": "アストラゴージ",
 		"tr_text": "아스트라 고지",
 		"jp_explain": "マザーの残滓たる、幻創の長槍。\n対象を形作る秩序に傷を穿ち\nその存在を否定すると言われている。",
-		"tr_explain": ""
+		"tr_explain": "A Phantom Partizan imbued with\nMother's power. With a mere scratch,\nit negates everything you are."
 	},
 	{
 		"assign": "130264",
@@ -1236,35 +1236,35 @@
 		"jp_text": "バルヴィクト",
 		"tr_text": "발 빅트",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長槍。原型を留めているが、刃は無く\n装飾の殆どを失ってしまっている。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan excavated from an old\nbattlefield. It has lost its blade\nalong with most of its decoration."
 	},
 	{
 		"assign": "130305",
 		"jp_text": "アトラヴィクト",
 		"tr_text": "아트라 빅트",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長槍。丹念な修復の末、現代に蘇った。\n光沢のある金属の装飾は美しく見事。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan excavated from an old\nbattlefield. Its carefully restored\ndecorations are utterly beautiful."
 	},
 	{
 		"assign": "130306",
 		"jp_text": "アトラヴィクト・イクス",
 		"tr_text": "아트라 빅트・익스",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長槍。眠れる力が目覚めた、真の姿。\n輝く一閃は、勝利の道を切り開く。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan excavated from an old\nbattlefield. Its hidden power has\nawakened, revealing its true form."
 	},
 	{
 		"assign": "130308",
 		"jp_text": "ノヴェルパルチザン",
 		"tr_text": "노벨 파르티잔",
 		"jp_explain": "新技術により開発された長槍。\n次期主力を担う武器として作られた。\n硬い鞘のようなもので覆われている。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan made with new tech\nto be the next-gen main weapon.\nIt seems to have a hard cover."
 	},
 	{
 		"assign": "130309",
 		"jp_text": "リバレイトパルチザン",
 		"tr_text": "리버레이트 파르티잔",
 		"jp_explain": "新技術により開発された長槍。\n次期主力を担う武器の真なる姿。\n優れた切断性能と安定力を誇る。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan made with new tech.\nThe true form of the next-gen\nweapon, high in power and stability."
 	},
 	{
 		"assign": "130310",
@@ -1334,7 +1334,7 @@
 		"jp_text": "ホムラノオニトオシ",
 		"tr_text": "호무라노 오니토오시",
 		"jp_explain": "とある地方の伝統意匠を取り入れた\n長槍。刃にまとう灼熱とともに\n放たれる斬撃は、硬い岩をも断つ。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan based on a traditional\ndesign. A slash from its burning blade\ncan cut through stone."
 	},
 	{
 		"assign": "130325",
@@ -1362,42 +1362,42 @@
 		"jp_text": "グレンノオニトオシ",
 		"tr_text": "그렌노 오니토오시",
 		"jp_explain": "とある地方の伝統意匠を取り入れた\n紅蓮の長槍。刃にまとう灼熱とともに\n放たれる斬撃は、硬い岩をも断つ。",
-		"tr_explain": ""
+		"tr_explain": "A crimson-flamed Partizan based on\na traditional design. A slash from its\nburning blade can cut through stone."
 	},
 	{
 		"assign": "130334",
 		"jp_text": "シエンノオニトオシ",
 		"tr_text": "시엔노 오니토오시",
 		"jp_explain": "とある地方の伝統意匠を取り入れた\n紫炎の長槍。刃にまとう灼熱とともに\n放たれる斬撃は、硬い岩をも断つ。",
-		"tr_explain": ""
+		"tr_explain": "A violet-flamed Partizan based on\na traditional design. A slash from its\nburning blade can cut through stone."
 	},
 	{
 		"assign": "130335",
 		"jp_text": "深遠槍アドラシオン",
 		"tr_text": "심원창 아드라시온",
 		"jp_explain": "終わりなき物語を辿る者の絶望により\n生み出された長槍。望む未来を得られぬ\n怨嗟の闇は、一切の希望を斬り捨てる。",
-		"tr_explain": "A partizan born of endless despair.\nIt bears a dark grudge over the\nloss of the future it once sought."
+		"tr_explain": "A Partizan born of endless despair.\nIt bears a dark grudge over the\nloss of the future it once sought."
 	},
 	{
 		"assign": "130336",
 		"jp_text": "星震槍アドラシオン",
 		"tr_text": "성진창 아드라시온",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した長槍。強い願いを宿した刃は\n希望の光となり、いかなる闇も滅す。",
-		"tr_explain": "A partizan touched by a time\ntraveller's heart. Its wishes become a\nlight of hope to destroy the darkness."
+		"tr_explain": "A Partizan touched by a time\ntraveller's heart. Its wishes become a\nlight of hope to destroy the darkness."
 	},
 	{
 		"assign": "130337",
 		"jp_text": "光跡槍アドラシオン",
 		"tr_text": "광적창 아드라시온",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ長槍。暗黒を切り裂き、姿を\n現した刃は、光輝く未来を解き放つ。",
-		"tr_explain": "A partizan that links the stars, bonded\nto a time traveller. It cuts through the\ndarkness, revealing a bright future."
+		"tr_explain": "A Partizan that links the stars, bonded\nto a time traveller. It cuts through the\ndarkness, revealing a bright future."
 	},
 	{
 		"assign": "130339",
 		"jp_text": "アーレスパルチザン-NT",
 		"tr_text": "아레스 파르티잔-NT",
 		"jp_explain": "一角獣の幻獣の力を宿した長槍。装者に\nフォトンブラストの効果で貫く力を\n与え、敵を無慈悲に一刀両断する。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan harboring the power of a\nPhoton Blast. It bisects the enemy\nwith piercing strength."
 	},
 	{
 		"assign": "130340",
@@ -1439,7 +1439,7 @@
 		"jp_text": "光纏槍クラースパイク",
 		"tr_text": "광전창 크라스 파이크",
 		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った長槍。\nその貫撃が、希望の道を拓く。",
-		"tr_explain": "A partizan that wove the light that\nvanquished darkness. By its thrusting,\nthe path to hope is paved."
+		"tr_explain": "A Partizan that wove the light that\nvanquished darkness. By its thrusting,\nthe path to hope is paved."
 	},
 	{
 		"assign": "130371",
@@ -1467,12 +1467,12 @@
 		"jp_text": "フルクシオベルケ",
 		"tr_text": "프룩시오 벨케",
 		"jp_explain": "流線美と機能性を備え持つ長槍。\n精緻なカーブを描くスリムな刀身は\n極めて高い耐久度と切れ味を持つ。",
-		"tr_explain": ""
+		"tr_explain": "A beautifully sleek Partizan whose slim,\ndelicately curved blade has extremely\nhigh sharpness and durability."
 	},
 	{
 		"assign": "130390",
 		"jp_text": "リンザーベルケ",
-		"tr_text": "",
+		"tr_text": "Rinza Berke",
 		"jp_explain": "流線美と機能性を備え持つ長槍。\nフォトンの力を余すところなく引き出し\n目覚ましい威力を発揮する。",
 		"tr_explain": ""
 	},
@@ -1481,33 +1481,33 @@
 		"jp_text": "闇征槍アジェルパイク",
 		"tr_text": "암정창 아젤 파이크",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた長槍。\n螺旋の命運が刻み込まれている。",
-		"tr_explain": "A partizan that will give up anything\nto protect the universe. The spiral\nof destiny is engraved upon it."
+		"tr_explain": "A Partizan that will give up anything\nto protect the universe. The spiral\nof destiny is engraved upon it."
 	},
 	{
 		"assign": "13010006",
 		"jp_text": "プリムスピア",
-		"tr_text": "",
+		"tr_text": "Prim Spear",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010007",
 		"jp_text": "ツヴィアスピア",
-		"tr_text": "",
+		"tr_text": "Suvia Spear",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010008",
 		"jp_text": "リサージュスピア",
-		"tr_text": "",
+		"tr_text": "Resurge Spear",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010009",
 		"jp_text": "テルセウススピア",
-		"tr_text": "",
+		"tr_text": "Terseus Spear",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1521,7 +1521,7 @@
 	{
 		"assign": "13010011",
 		"jp_text": "ヴィアルトスピア",
-		"tr_text": "",
+		"tr_text": "Vialt Spear",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1542,42 +1542,49 @@
 	{
 		"assign": "130398",
 		"jp_text": "ソウルイーター-NT",
-		"tr_text": "",
+		"tr_text": "Soul Eater-NT",
 		"jp_explain": "切り裂いた魂のみならず、\n装者の魂をも喰らうと言われる長槍。\n全クラス装備可能な、特殊な武器。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010015",
 		"jp_text": "シルヴァプリムスピア",
-		"tr_text": "",
+		"tr_text": "Silver Prim Spear",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010016",
 		"jp_text": "ゴルドプリムスピア",
-		"tr_text": "",
+		"tr_text": "Gold Prim Spear",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010018",
 		"jp_text": "エヴォルコートスピア",
-		"tr_text": "",
+		"tr_text": "Evolcoat Spear",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010023",
 		"jp_text": "フロステルスピア",
-		"tr_text": "",
+		"tr_text": "Frostel Spear",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010031",
 		"jp_text": "ストラーガスピア",
-		"tr_text": "",
+		"tr_text": "Stragga Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010032",
+		"jp_text": "フランメルスピア",
+		"tr_text": "Franmel Spear",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

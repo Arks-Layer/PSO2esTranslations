@@ -830,7 +830,7 @@
 		"jp_text": "＊ノヴァストリーム",
 		"tr_text": "＊노바 스트림",
 		"jp_explain": "既存のものに満足できないアークスが\n独自開発した武器迷彩。軽量で耐久性の\n高い素材を使用し、扱いやすさも抜群。",
-		"tr_explain": ""
+		"tr_explain": "A lightweight, easy to handle weapon\ncamo designed by an ARKS who was\nunsatisfied with the current camos."
 	},
 	{
 		"assign": "1010142",
@@ -940,78 +940,99 @@
 	{
 		"assign": "1010157",
 		"jp_text": "＊ネブロスミューテシア",
-		"tr_text": "",
+		"tr_text": "＊Nebulos Mutecia",
 		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n武器迷彩。禍々しいオーラをまとった\n表層は鋭く、扱いには注意が必要。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1010158",
 		"jp_text": "＊フィジオインクルシオ",
-		"tr_text": "",
+		"tr_text": "＊Physio Inclusio",
 		"jp_explain": "新開発の演算装置を搭載した武器迷彩。\n高い処理能力により、使用者の挙動を\n予測して、戦闘時の負担を軽減する。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1010159",
 		"jp_text": "＊アレティアサリュート",
-		"tr_text": "",
+		"tr_text": "＊Aletheia Salyut",
 		"jp_explain": "古より伝わる陽光の武器迷彩。\n聖なる光に加護されし大いなる力で\n闇を貫き、衆人に安寧をもたらす。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1010160",
 		"jp_text": "＊クライツアリオン",
-		"tr_text": "",
+		"tr_text": "＊Crytz Arion",
 		"jp_explain": "数多の儀式を施し、錬成の果てに\n生み出された武器迷彩。使用者の感情に\n呼応して、殺戮の波動が敵を屠る。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1010161",
 		"jp_text": "＊フィジオドミナシオ",
-		"tr_text": "",
+		"tr_text": "＊Physio Dominacio",
 		"jp_explain": "新開発の演算装置を搭載した武器迷彩。\n常に最高出力での運用に耐えうる反面\n装備者の心身に大きな負荷がかかる。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1010162",
 		"jp_text": "＊ジグマフィジオ",
-		"tr_text": "",
+		"tr_text": "＊Sigma Physio",
 		"jp_explain": "伝説の生物を機械によって再現した\n武器迷彩。高硬度の金属を用いて\nただならぬ存在感を漂わせる。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1010163",
 		"jp_text": "＊レーテクライツ",
-		"tr_text": "",
+		"tr_text": "＊Raete Crytz",
 		"jp_explain": "正当な手順を経た儀式により\n生み出された白色の武器迷彩。\n使用者を守護し、困難を打ち砕く。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1010164",
 		"jp_text": "＊リグフィジオ",
-		"tr_text": "",
+		"tr_text": "＊Rig Physio",
 		"jp_explain": "伝説の生物を機械によって再現した\n武器迷彩。獣の肢体の強靱さと機械美を\n併せ持ち、数多の敵を葬り去る。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1010165",
 		"jp_text": "＊新光統武",
-		"tr_text": "",
+		"tr_text": "＊Pristine Series Arms",
 		"jp_explain": "伝承上の大国の意匠を模した武器迷彩。\n国の伝統文化と思しき装飾が施され\n芸術品としての価値も高いとされる。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1010166",
 		"jp_text": "＊アリスティン",
-		"tr_text": "",
+		"tr_text": "＊Aristin",
 		"jp_explain": "高磁性合金で加工した大剣型武器迷彩。\n赤い磁性フレアによる反重力作用により\n体感重量が軽くなる。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1010167",
 		"jp_text": "＊フリーズ・ツナ",
-		"tr_text": "",
+		"tr_text": "＊Freeze Tuna",
 		"jp_explain": "海洋生物の模型の成れの果てを冷凍し\nカッチカチにして作られたという\n大剣型武器迷彩。",
 		"tr_explain": ""
+	},
+	{
+		"assign": "101010001",
+		"jp_text": "＊グラヴィルベオーネ",
+		"tr_text": "＊Gravil Bayone",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／アサルトライフル<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Assault Rifle<c>"
+	},
+	{
+		"assign": "101010002",
+		"jp_text": "＊ゴルドプリムアルマティ",
+		"tr_text": "＊Gold Prim Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010003",
+		"jp_text": "＊シルヴァプリムアルマティ",
+		"tr_text": "＊Silver Prim Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
 	}
 ]

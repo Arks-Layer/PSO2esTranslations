@@ -4,6 +4,8 @@ import codecs
 import json
 import os
 import shutil
+import sys
+import getopt
 
 json_loc = os.path.join("..", "json")
 
@@ -203,6 +205,18 @@ generic_lines = {
         "This chip is intended for use\nwith the Wind element.\nTry to choose chips whose\nelements are appropriate for\nthe enemies you'll face.",
     "": ""
     }
+# Are we printing list of unknown lines to console? Default to no.
+reporting = False
+
+try: 
+    opts, args = getopt.getopt(sys.argv, "r", ["report"])
+except getopt.GetoptError:
+    print("Unrecognised option.")
+
+for opt, arg in opts:
+    if opt in ("-r", "--report"):
+        reporting = True
+
 
 unknowns = {}
 
@@ -234,4 +248,5 @@ for key in sorted_keys:
 lines = sorted_unknowns.keys()
 for line in lines:
     if sorted_unknowns[line] >= 2:
-        print("{0} counts of unknown line: {1}".format(sorted_unknowns[line], line.replace("\n", "\\n")))
+        if reporting:
+            print("{0} counts of unknown line: {1}".format(sorted_unknowns[line], line.replace("\n", "\\n")))

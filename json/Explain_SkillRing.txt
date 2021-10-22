@@ -16,30 +16,30 @@
 	{
 		"assign": "6",
 		"jp_text": "Ｐキーパー打撃",
-		"tr_text": "P. Keeper Striking",
+		"tr_text": "P Keeper Striking",
 		"jp_explain": "パーフェクトキーパー打撃\nＨＰが一定の割合以上のとき\nエネミーへの打撃攻撃のダメージが増加する。",
-		"tr_explain": "Perfect Keeper - Striking Increases\nstriking attack damage when HP is\nabove a certain value."
+		"tr_explain": "Perfect Keeper - Striking\nIncreases striking attack damage\nwhen HP is above a certain level."
 	},
 	{
 		"assign": "7",
 		"jp_text": "Ｐキーパー射撃",
-		"tr_text": "P. Keeper Ranged",
+		"tr_text": "P Keeper Ranged",
 		"jp_explain": "パーフェクトキーパー射撃\nＨＰが一定の割合以上のとき\nエネミーへの射撃攻撃のダメージが増加する。",
-		"tr_explain": "Perfect Keeper - Ranged Increases\nranged attack damage when HP is\nabove a certain value."
+		"tr_explain": "Perfect Keeper - Ranged\nIncreases ranged attack damage\nwhen HP is above a certain level."
 	},
 	{
 		"assign": "8",
 		"jp_text": "Ｐキーパー法撃",
-		"tr_text": "P. Keeper Technique",
+		"tr_text": "P Keeper Technique",
 		"jp_explain": "パーフェクトキーパー法撃\nＨＰが一定の割合以上のとき\nエネミーへの法撃攻撃のダメージが増加する。",
-		"tr_explain": "Perfect Keeper - Technique\nIncreases technique attack damage\nwhen HP is above a certain value."
+		"tr_explain": "Perfect Keeper - Technique\nIncreases Technique attack damage\nwhen HP is above a certain level."
 	},
 	{
 		"assign": "104",
 		"jp_text": "Ｐキーパー",
-		"tr_text": "",
+		"tr_text": "P Keeper",
 		"jp_explain": "パーフェクトキーパー\nＨＰが一定の割合以上のとき\nエネミーへのダメージが増加する。",
-		"tr_explain": ""
+		"tr_explain": "Perfect Keeper\nIncreases all attack damage\nwhen HP is above a certain level."
 	},
 	{
 		"assign": "9",
@@ -60,7 +60,7 @@
 		"jp_text": "アタックアドバンス",
 		"tr_text": "Attack Advance",
 		"jp_explain": "アタックアドバンス／リング\n通常攻撃の威力が上昇する。",
-		"tr_explain": "Attack Advance/Ring\nIncreases normal attack power."
+		"tr_explain": "Attack Advance/Ring\nIncreases Normal Attack power."
 	},
 	{
 		"assign": "12",
@@ -109,14 +109,14 @@
 		"jp_text": "ＴＤエアチェイス",
 		"tr_text": "TD Air Chase",
 		"jp_explain": "ツインダガーエアチェイス\nツインダガーの空中での通常攻撃と一部のＰＡに\nロックした敵へ近づく挙動が追加される。",
-		"tr_explain": "Twin Dagger Air Chase Normal\nattacks and certain PAs in the air will\nchase a locked on target."
+		"tr_explain": "Twin Dagger Air Chase Normal\nAttacks and certain PAs in the air will\nchase a locked on target."
 	},
 	{
 		"assign": "19",
 		"jp_text": "ナックルチェイス",
 		"tr_text": "Knuckle Chase",
 		"jp_explain": "ナックルチェイス\nナックルの地上での通常攻撃と一部のＰＡに\nロックした敵へ近づく挙動が追加される。",
-		"tr_explain": "Knuckle Chase Normal attacks and\ncertain PA's on the ground will chase\nlocked-on enemies."
+		"tr_explain": "Knuckle Chase Normal Attacks and\ncertain PA's on the ground will chase\nlocked-on enemies."
 	},
 	{
 		"assign": "20",
@@ -137,7 +137,7 @@
 		"jp_text": "ＤＢスナッチ",
 		"tr_text": "DB Snatch",
 		"jp_explain": "デュアルブレードスナッチ\nデュアルブレードの武器アクションで移動した時\n敵に打撃ダメージを与える挙動が追加される。",
-		"tr_explain": "Dual Blade Snatch Inflicts striking\ndamage to enemies while moving\nusing the Dual Blade weapon action."
+		"tr_explain": "Dual Blade Snatch Inflicts striking\ndamage to enemies while moving\nusing the Dual Blade Weapon Action."
 	},
 	{
 		"assign": "23",
@@ -249,7 +249,7 @@
 		"jp_text": "バレットボウホーミング",
 		"tr_text": "Bullet Bow Homing",
 		"jp_explain": "バレットボウホーミング\nバレットボウのチャージ通常攻撃に\n誘導性能が追加される。",
-		"tr_explain": "Bullet Bow Homing\nAdds a homing ability to a\nbullet bow's charged normal attack."
+		"tr_explain": "Bullet Bow Homing\nAdds a homing ability to a\nBullet Bow's charged Normal Attack."
 	},
 	{
 		"assign": "42",
@@ -268,9 +268,9 @@
 	{
 		"assign": "44",
 		"jp_text": "Ａランチャーモード",
-		"tr_text": "A Launcher Mode",
+		"tr_text": "A. Launcher Mode",
 		"jp_explain": "アナザーランチャーモード\nランチャーの通常攻撃の弾道が変化し\n威力が上昇。攻撃範囲も広がる。",
-		"tr_explain": "Another Launcher Mode Changes the\ntrajectory and boosts the power of a\nlauncher's normal attack. Attack\nrange is also increased."
+		"tr_explain": "Another Launcher Mode Changes the\ntrajectory and boosts the power of a\nLauncher's Normal Attack. Attack\nrange is also increased."
 	},
 	{
 		"assign": "45",
@@ -298,7 +298,7 @@
 		"jp_text": "Jリバーサルカバー",
 		"tr_text": "J Reversal Cover",
 		"jp_explain": "Jリバーサルカバー／リング\nジャストリバーサル発動時に\nHPが回復するようになる。",
-		"tr_explain": "J Reversal Cover / Ring\nRestores HP upon activating\nJust Reversal."
+		"tr_explain": "J Reversal Cover/Ring\nRestores HP upon activating\nJust Reversal."
 	},
 	{
 		"assign": "49",
@@ -382,105 +382,105 @@
 		"jp_text": "JAボーナス",
 		"tr_text": "JA 보너스",
 		"jp_explain": "JAボーナス\nテクニック以外のジャストアタックに\nダメージボーナスを得る。",
-		"tr_explain": "JA Bonus Increases the damage of\nJust Attacks, except for Techniques."
+		"tr_explain": "JA Bonus\nIncreases the damage of Just Attacks,\nexcept for Techniques."
 	},
 	{
 		"assign": "61",
 		"jp_text": "エフォートシンボルHu",
 		"tr_text": "Effort Symbol Hu",
 		"jp_explain": "エフォートシンボルハンター\n努力の末に得た堅牢な戦士の証",
-		"tr_explain": "Effort Symbol Hunter A badge\nsignifying experience as a strong\nsoldier, earned by facing significant\nhardship."
+		"tr_explain": "Effort Symbol Hunter\nProof of one's efforts as a steadfast\nwarrior."
 	},
 	{
 		"assign": "62",
 		"jp_text": "エフォートシンボルRa",
 		"tr_text": "Effort Symbol Ra",
 		"jp_explain": "エフォートシンボルレンジャー\n努力の末に得た歴戦の射手の証",
-		"tr_explain": "Effort Symbol Ranger A badge\nsignifying experience as a strong\nsoldier, earned by facing significant\nhardship."
+		"tr_explain": "Effort Symbol Ranger\nProof of one's efforts as a veteran\nmarksman."
 	},
 	{
 		"assign": "63",
 		"jp_text": "エフォートシンボルFo",
 		"tr_text": "Effort Symbol Fo",
 		"jp_explain": "エフォートシンボルフォース\n努力の末に得た聡明な導士の証",
-		"tr_explain": "Effort Symbol Force A badge\nsignifying experience as a strong\nsoldier, earned by facing significant\nhardship."
+		"tr_explain": "Effort Symbol Force\nProof of one's efforts as a wise sage."
 	},
 	{
 		"assign": "64",
 		"jp_text": "エフォートシンボルFi",
 		"tr_text": "Effort Symbol Fi",
 		"jp_explain": "エフォートシンボルファイター\n努力の末に得た屈強な闘士の証",
-		"tr_explain": "Effort Symbol Fighter A badge\nsignifying experience as a strong\nsoldier, earned by facing significant\nhardship."
+		"tr_explain": "Effort Symbol Fighter\nProof of one's efforts as a powerful\nchampion."
 	},
 	{
 		"assign": "65",
 		"jp_text": "エフォートシンボルGu",
 		"tr_text": "Effort Symbol Gu",
 		"jp_explain": "エフォートシンボルガンナー\n努力の末に得た鮮烈な銃士の証",
-		"tr_explain": "Effort Symbol Gunner A badge\nsignifying experience as a strong\nsoldier, earned by facing significant\nhardship."
+		"tr_explain": "Effort Symbol Gunner\nProof of one's efforts as a brilliant\ngunslinger."
 	},
 	{
 		"assign": "66",
 		"jp_text": "エフォートシンボルTe",
 		"tr_text": "Effort Symbol Te",
 		"jp_explain": "エフォートシンボルテクター\n努力の末に得た博識な術士の証",
-		"tr_explain": "Effort Symbol Techer A badge\nsignifying experience as a strong\nsoldier, earned by facing significant\nhardship."
+		"tr_explain": "Effort Symbol Techter\nProof of one's efforts as a\nknowledgeable magician."
 	},
 	{
 		"assign": "67",
 		"jp_text": "エフォートシンボルBr",
 		"tr_text": "Effort Symbol Br",
 		"jp_explain": "エフォートシンボルブレイバー\n努力の末に得た鋭敏な達人の証",
-		"tr_explain": "Effort Symbol Braver A badge\nsignifying experience as a strong\nsoldier, earned by facing significant\nhardship."
+		"tr_explain": "Effort Symbol Braver\nProof of one's efforts as a keen\nmaster."
 	},
 	{
 		"assign": "68",
 		"jp_text": "エフォートシンボルBo",
 		"tr_text": "Effort Symbol Bo",
 		"jp_explain": "エフォートシンボルバウンサー\n努力の末に得た瞬迅な跳躍者の証",
-		"tr_explain": "Effort Symbol Bouncer A badge\nsignifying experience as a strong\nsoldier, earned by facing significant\nhardship."
+		"tr_explain": "Effort Symbol Bouncer\nProof of one's efforts as a swift\nhigh-flier."
 	},
 	{
 		"assign": "69",
 		"jp_text": "エフォートシンボルSu",
 		"tr_text": "Effort Symbol Su",
 		"jp_explain": "エフォートシンボルサモナー\n努力の末に得た秀麗な導き手の証",
-		"tr_explain": "Effort Symbol Summoner A badge\nsignifying experience as a strong\nsoldier, earned by facing significant\nhardship."
+		"tr_explain": "Effort Symbol Summoner\nProof of one's efforts as a graceful\nleader."
 	},
 	{
 		"assign": "90",
 		"jp_text": "エフォートシンボルHr",
-		"tr_text": "",
+		"tr_text": "Effort Symbol Hr",
 		"jp_explain": "エフォートシンボルヒーロー\n努力の末に得た勇敢な英雄の証",
-		"tr_explain": ""
+		"tr_explain": "Effort Symbol Hero\nProof of one's efforts as a valiant\nhero."
 	},
 	{
 		"assign": "101",
 		"jp_text": "エフォートシンボルPh",
-		"tr_text": "",
+		"tr_text": "Effort Symbol Ph",
 		"jp_explain": "エフォートシンボルファントム\n努力の末に得た不死の亡霊の証",
-		"tr_explain": ""
+		"tr_explain": "Effort Symbol Phantom\nProof of one's efforts as an immortal\nghost."
 	},
 	{
 		"assign": "105",
 		"jp_text": "エフォートシンボルEt",
-		"tr_text": "",
+		"tr_text": "Effort Symbol Et",
 		"jp_explain": "エフォートシンボルエトワール\n努力の末に得た明星の戦巧者の証",
-		"tr_explain": ""
+		"tr_explain": "Effort Symbol Etoile\nProof of one's efforts as a starlit\nwarrior."
 	},
 	{
 		"assign": "112",
 		"jp_text": "エフォートシンボルLu",
-		"tr_text": "",
+		"tr_text": "Effort Symbol Lu",
 		"jp_explain": "エフォートシンボルラスター\n努力の末に得た栄冠の輝手の証",
-		"tr_explain": ""
+		"tr_explain": "Effort Symbol Luster\nProof of one's efforts as a shining\nmaster."
 	},
 	{
 		"assign": "88",
 		"jp_text": "フレンズプロテクション",
-		"tr_text": "Friends' Protection",
+		"tr_text": "Friends Protection",
 		"jp_explain": "フレンズプロテクション\nイツキやRINA達との友情のリング\n被ダメージが減少する。",
-		"tr_explain": "Friends' Protection\nRing of friendship for Itsuki and RINA.\nReduces damage."
+		"tr_explain": "Friends Protection\nRing of friendship for Itsuki and RINA.\nReduces damage."
 	},
 	{
 		"assign": "70",
@@ -508,7 +508,7 @@
 		"jp_text": "ＰＢホーミング",
 		"tr_text": "PB Homing",
 		"jp_explain": "フォトンブレードホーミング\n移動を伴うフォトンブレードの攻撃に\n誘導性能を追加する。",
-		"tr_explain": "Photon Blade Homing\nAdds a homing ability to\nphoton blade attacks."
+		"tr_explain": "Photon Blade Homing\nAdds a homing ability to\nPhoton Blade attacks."
 	},
 	{
 		"assign": "74",
@@ -522,7 +522,7 @@
 		"jp_text": "スローＦｉアクション",
 		"tr_text": "Slow Fi Action",
 		"jp_explain": "スローファイターアクション\nファイター武器で行う武器アクションの速度を落とし\n継続時間を延長する。",
-		"tr_explain": "Slow Fighter Action\nExtends the duration and reduces\nthe speed of Fighter weapon actions."
+		"tr_explain": "Slow Fighter Action\nExtends the duration and reduces\nthe speed of Fighter Weapon Actions."
 	},
 	{
 		"assign": "76",
@@ -592,7 +592,7 @@
 		"jp_text": "フレイムＴＳチャージ",
 		"tr_text": "Flame TS Charge",
 		"jp_explain": "フレイムテックＳチャージ／リング\n炎系テクニックのチャージ時間を短縮する。",
-		"tr_explain": "Flame Tech S-Charge/Ring Reduces\nthe charge time of fire techniques."
+		"tr_explain": "Flame Tech S-Charge/Ring Reduces\nthe charge time of fire Techniques."
 	},
 	{
 		"assign": "87",
@@ -606,7 +606,7 @@
 		"jp_text": "TマシンガンＳアップ",
 		"tr_text": "T. Machinegun S-Up",
 		"jp_explain": "ツインマシンガンスタンスアップ\nツインマシンガンを装備している間\nスタンススキルの効果に打撃・射撃威力上昇を追加。",
-		"tr_explain": "Twin Machinegun Stance Up Adds\nincreased S-ATK and R-ATK to\nstance skill effects when a twin\nmachinegun is equipped."
+		"tr_explain": "Twin Machinegun Stance Up\nAdds increased S-ATK and R-ATK\nto stance skill effects while\nTwin Machineguns are equipped."
 	},
 	{
 		"assign": "91",
@@ -688,30 +688,30 @@
 	{
 		"assign": "2",
 		"jp_text": "Ｃストライク打撃",
-		"tr_text": "C-Strike - Striking",
+		"tr_text": "C Strike Striking",
 		"jp_explain": "クリティカルストライク打撃\nクリティカル率が上昇し、打撃攻撃の\nクリティカル時にダメージボーナスを得る。",
-		"tr_explain": "Critical Strike - Striking/Ring\nIncreases critical damage and\ncritical hit rate percentage."
+		"tr_explain": "Critical Strike - Striking\nIncreases critical hit rate\nand boosts damage of Striking crits."
 	},
 	{
 		"assign": "3",
 		"jp_text": "Ｃストライク射撃",
-		"tr_text": "C-Strike - Ranged",
+		"tr_text": "C Strike Ranged",
 		"jp_explain": "クリティカルストライク射撃\nクリティカル率が上昇し、射撃攻撃の\nクリティカル時にダメージボーナスを得る。",
-		"tr_explain": "Critical Strike - Ranged/Ring\nIncreases critical damage and\ncritical hit rate percentage."
+		"tr_explain": "Critical Strike - Ranged\nIncreases critical hit rate\nand boosts damage of Ranged crits."
 	},
 	{
 		"assign": "4",
 		"jp_text": "Ｃストライク法撃",
-		"tr_text": "C-Strike - Technique",
+		"tr_text": "C Strike Technique",
 		"jp_explain": "クリティカルストライク法撃\nクリティカル率が上昇し、法撃攻撃の\nクリティカル時にダメージボーナスを得る。",
-		"tr_explain": "Critical Strike - Technique/Ring\nIncreases critical damage and\ncritical hit rate percentage."
+		"tr_explain": "Critical Strike - Technique\nIncreases critical hit rate\nand boosts damage of Technique crits."
 	},
 	{
 		"assign": "103",
 		"jp_text": "Ｃストライク",
-		"tr_text": "",
+		"tr_text": "C Strike",
 		"jp_explain": "クリティカルストライク\nクリティカル率が上昇し\nクリティカル時にダメージボーナスを得る。",
-		"tr_explain": ""
+		"tr_explain": "Critical Strike\nIncreases critical hit rate\nand boosts damage of crits."
 	},
 	{
 		"assign": "106",

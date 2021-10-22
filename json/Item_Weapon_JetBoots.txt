@@ -550,7 +550,7 @@
 		"jp_text": "リズグリプス",
 		"tr_text": "리즈 그리프스",
 		"jp_explain": "大気の力を宿すといわれる魔装脚。\n放たれる風の力が推力となり\n実力が無ければ持て余してしまう。",
-		"tr_explain": ""
+		"tr_explain": "Jet Boots bearing the power of the\nwinds. They demand careful control,\nas each kick spews gale-force gusts."
 	},
 	{
 		"assign": "1160136",
@@ -711,21 +711,21 @@
 		"jp_text": "シューズレボルシオ",
 		"tr_text": "슈즈 레볼시오",
 		"jp_explain": "新開発の演算装置を搭載した魔装脚。\n装者の思考や戦況を分析することで\n出力を最適に保ち、負荷を軽減する。",
-		"tr_explain": ""
+		"tr_explain": "Jet Boots with a newly developed\ncomputing device. They scan tactical\ndata for optimal user efficiency."
 	},
 	{
 		"assign": "1160181",
 		"jp_text": "シューズドミナシオ",
 		"tr_text": "슈즈 도미나시오",
 		"jp_explain": "新開発の演算装置を搭載した魔装脚。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
-		"tr_explain": ""
+		"tr_explain": "Jet Boots with a newly developed\ncomputing device. Powerful, but put\nstrain on the user's mind in battle."
 	},
 	{
 		"assign": "1160182",
 		"jp_text": "シューズインクルシオ",
-		"tr_text": "",
+		"tr_text": "Shoes Inclusio",
 		"jp_explain": "新開発の演算装置を搭載した魔装脚。\n規格外な処理能力で敵の行動を予測し\n使用者に最高の結果をもたらす。",
-		"tr_explain": ""
+		"tr_explain": "Jet Boots with a newly developed\ncomputing device. Their processor\npredicts enemy behavior for their user."
 	},
 	{
 		"assign": "1160183",
@@ -1033,7 +1033,7 @@
 		"jp_text": "サーペンプレンザー",
 		"tr_text": "서펜 프렌저",
 		"jp_explain": "フォトンの噴出を利用した魔装脚。\n持つ者の闘志に応じてフォトンは\n勢いを増し、七色に輝きだす。",
-		"tr_explain": ""
+		"tr_explain": "Jet Boots that gush with Photons.\nIf their user's fighting spirit is strong\nenough, they shine in seven colors."
 	},
 	{
 		"assign": "1160242",
@@ -1061,7 +1061,7 @@
 		"jp_text": "ゲノンサーク",
 		"tr_text": "게논 사크",
 		"jp_explain": "得体の知れない生物の細胞が利用された\n魔装脚。この武器にまつわるデータは\n残っておらず、封印された原因も不明。",
-		"tr_explain": ""
+		"tr_explain": "Jet Boots made using cells from an\nunknown organism. All data on why\nthey were sealed away has been lost."
 	},
 	{
 		"assign": "1160249",
@@ -1082,21 +1082,21 @@
 		"jp_text": "バルエグゾセ",
 		"tr_text": "발 엑조세",
 		"jp_explain": "過去に戦場となった地域から発掘された\n魔装脚。全体の半分程度が破損しており\n性能も大半が失われている。",
-		"tr_explain": ""
+		"tr_explain": "Jet Boots excavated from an old\nbattlefield. So severely damaged that\nmost of their power has been lost."
 	},
 	{
 		"assign": "1160252",
 		"jp_text": "アトラエグゾセ",
 		"tr_text": "아트라 엑조세",
 		"jp_explain": "過去に戦場となった地域から発掘された\n魔装脚。欠落箇所と装飾が修復され\n本来の性能と美しさが復元されている。",
-		"tr_explain": ""
+		"tr_explain": "Jet Boots excavated from an old\nbattlefield. Their missing parts have\nbeen repaired, restoring their power."
 	},
 	{
 		"assign": "1160253",
 		"jp_text": "アトラエグゾセ・イクス",
 		"tr_text": "아트라 엑조세・익스",
 		"jp_explain": "過去に戦場となった地域から発掘された\n魔装脚。真紅の突晶は真の力を取り戻し\n赤き光跡が空間を縦横無尽に制圧する。",
-		"tr_explain": ""
+		"tr_explain": "Jet Boots excavated from an old\nbattlefield. The crimson trails they\ncreate dominate the air around them."
 	},
 	{
 		"assign": "1160254",
@@ -1299,12 +1299,12 @@
 		"jp_text": "フルクシオラフェル",
 		"tr_text": "프룩시오 라펠",
 		"jp_explain": "流線美と機能性を備え持つ魔装脚。\n浮雲のように麗しい刃は切れ味抜群で\nつむじ風の様に敵を切り刻む。",
-		"tr_explain": ""
+		"tr_explain": "Beautifully sleek Jet Boots whose\ncloud-like yet supremely sharp blades\nchop through enemies like a whirlwind."
 	},
 	{
 		"assign": "1160304",
 		"jp_text": "リンザーラフェル",
-		"tr_text": "",
+		"tr_text": "Rinza Rafel",
 		"jp_explain": "流線美と機能性を備え持つ魔装脚。\n麗しい装飾に目を奪われた者は\nたちまち鋭い刃の餌食となる。",
 		"tr_explain": ""
 	},
@@ -1320,6 +1320,76 @@
 		"jp_text": "ハイパーレインボー-NT",
 		"tr_text": "하이퍼 레인보우-NT",
 		"jp_explain": "競技用に開発された、ホイールが\n高速回転するスポーティな魔装脚。\n様々なアクションに挑戦だ！",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010005",
+		"jp_text": "プリムブーツ",
+		"tr_text": "Prim Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010006",
+		"jp_text": "ツヴィアブーツ",
+		"tr_text": "Suvia Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010007",
+		"jp_text": "リサージュブーツ",
+		"tr_text": "Resurge Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010008",
+		"jp_text": "トロワーデブーツ",
+		"tr_text": "Troward Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010009",
+		"jp_text": "￥ナーデリアブーツ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010011",
+		"jp_text": "ヴィアルトブーツ",
+		"tr_text": "Vialt Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010014",
+		"jp_text": "シルヴァプリムブーツ",
+		"tr_text": "Silver Prim Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010015",
+		"jp_text": "ゴルドプリムブーツ",
+		"tr_text": "Gold Prim Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010029",
+		"jp_text": "ストラーガブーツ",
+		"tr_text": "Stragga Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010016",
+		"jp_text": "エヴォルコートブーツ",
+		"tr_text": "Evolcoat Boots",
+		"jp_explain": "",
 		"tr_explain": ""
 	}
 ]

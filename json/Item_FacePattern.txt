@@ -4,7 +4,7 @@
 		"jp_text": "男性細目顔",
 		"tr_text": "Squinted Eyes Face M",
 		"jp_explain": "チケットを使用すると、新しい頭部の\n細目顔が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "This ticket allows you to select the\n\"Squinted Eyes\"\nface type."
 	},
 	{
 		"assign": "374020000",
@@ -18,7 +18,7 @@
 		"jp_text": "女性細目顔",
 		"tr_text": "Squinted Eyes Face F",
 		"jp_explain": "チケットを使用すると、新しい頭部の\n細目顔が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "This ticket allows you to select the\n\"Squinted Eyes\"\nface type."
 	},
 	{
 		"assign": "374020001",
@@ -32,7 +32,7 @@
 		"jp_text": "男性ビースト顔",
 		"tr_text": "Male Beast Face",
 		"jp_explain": "チケットを使用すると、新しい頭部の\nビースト顔が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "This ticket allows you to select the\n\"Beast\"\nface type."
 	},
 	{
 		"assign": "374020003",
@@ -46,7 +46,7 @@
 		"jp_text": "女性ビースト顔",
 		"tr_text": "Female Beast Face",
 		"jp_explain": "チケットを使用すると、新しい頭部の\nビースト顔が選択可能。",
-		"tr_explain": ""
+		"tr_explain": "This ticket allows you to select the\n\"Beast\"\nface type."
 	},
 	{
 		"assign": "374020004",
@@ -60,7 +60,7 @@
 		"jp_text": "エクスマリー・フェイス",
 		"tr_text": "Exmarie Face",
 		"jp_explain": "チケットを使用すると、新しい頭部の\nエクスマリー・フェイスが選択可能。",
-		"tr_explain": ""
+		"tr_explain": "This ticket allows you to select the\n\"Exmarie Face\"\nface type."
 	},
 	{
 		"assign": "374020007",
@@ -814,9 +814,9 @@
 	{
 		"assign": "374061",
 		"jp_text": "ティアＸｍａｓのＰＣ",
-		"tr_text": "Tea (Christmas)'s PC",
+		"tr_text": "Tia (Christmas)'s PC",
 		"jp_explain": "使用すると\n「ティア（クリスマス）」\nのパートナーカード（ＰＣ）を入手可能。",
-		"tr_explain": "Use to receive the Partner Card\nbelonging to Tea (Christmas)."
+		"tr_explain": "Use to receive the Partner Card\nbelonging to Tia (Christmas)."
 	},
 	{
 		"assign": "374020061",
@@ -828,9 +828,9 @@
 	{
 		"assign": "374062",
 		"jp_text": "オークゥＶＤのＰＣ",
-		"tr_text": "Och (Valentine)'s PC",
+		"tr_text": "Och (Valentine's)'s PC",
 		"jp_explain": "使用すると\n「オークゥ(バレンタイン)」\nのパートナーカード（ＰＣ）を入手可能。",
-		"tr_explain": "Use to receive the Partner Card\nbelonging to Och (Valentine)."
+		"tr_explain": "Use to receive the Partner Card\nbelonging to Och (Valentine's)."
 	},
 	{
 		"assign": "374020062",
@@ -842,9 +842,9 @@
 	{
 		"assign": "374063",
 		"jp_text": "フルＶＤのＰＣ",
-		"tr_text": "Phul (Valentine)'s PC",
+		"tr_text": "Phul (Valentine's)'s PC",
 		"jp_explain": "使用すると\n「フル(バレンタイン)」\nのパートナーカード（ＰＣ）を入手可能。",
-		"tr_explain": "Use to receive the Partner Card\nbelonging to Phul (Valentine)."
+		"tr_explain": "Use to receive the Partner Card\nbelonging to Phul (Valentine's)."
 	},
 	{
 		"assign": "374020063",
@@ -926,9 +926,9 @@
 	{
 		"assign": "374069",
 		"jp_text": "ユクリータＶＤのＰＣ",
-		"tr_text": "Yucreta (Valentine)'s PC",
+		"tr_text": "Euclida (Valentine's)'s PC",
 		"jp_explain": "使用すると\n「ユクリータ（バレンタイン）」\nのパートナーカード（ＰＣ）を入手可能。",
-		"tr_explain": "Use to receive the Partner Card\nbelonging to Yucreta (Valentine)."
+		"tr_explain": "Use to receive the Partner Card\nbelonging to Euclida (Valentine's)."
 	},
 	{
 		"assign": "374020069",
@@ -982,9 +982,9 @@
 	{
 		"assign": "374073",
 		"jp_text": "ストラトスＶＤのＰＣ",
-		"tr_text": "Stratos (Valentine)'s PC",
+		"tr_text": "Stratos (Valentine's)'s PC",
 		"jp_explain": "使用すると\n「ストラトス（バレンタイン）」\nのパートナーカード（ＰＣ）を入手可能。",
-		"tr_explain": "Use to receive the Partner Card\nbelonging to Stratos (Valentine)."
+		"tr_explain": "Use to receive the Partner Card\nbelonging to Stratos (Valentine's)."
 	},
 	{
 		"assign": "374020073",
@@ -1108,14 +1108,14 @@
 	{
 		"assign": "374010001",
 		"jp_text": "ベースフェイスT1",
-		"tr_text": "",
+		"tr_text": "Base Face T1",
 		"jp_explain": "使用すると新しい顔バリエーションが\n選択可能になる。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "374010002",
 		"jp_text": "ベースフェイスT2",
-		"tr_text": "",
+		"tr_text": "Base Face T2",
 		"jp_explain": "使用すると新しい顔バリエーションが\n選択可能になる。",
 		"tr_explain": ""
 	},

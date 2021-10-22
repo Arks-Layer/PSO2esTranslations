@@ -9,329 +9,329 @@
 	{
 		"assign": "Type2_1_1",
 		"jp_text": "支援/ＨＰ回復Ａ",
-		"tr_text": "Support / HP Restore A",
+		"tr_text": "Support/HP Restore A",
 		"jp_explain": "主人の体力低下時に回復支援を行う。\n発動率は高く、回復量が低い。",
 		"tr_explain": "Restores HP when health is low.\nHigh chance, low recovery."
 	},
 	{
 		"assign": "Type2_1_2",
 		"jp_text": "支援/ＨＰ回復Ｂ",
-		"tr_text": "Support / HP Restore B",
+		"tr_text": "Support/HP Restore B",
 		"jp_explain": "主人の体力低下時に回復支援を行う。\n発動率は普通で、回復量も普通。",
 		"tr_explain": "Restores HP when health is low.\nAverage chance, average recovery."
 	},
 	{
 		"assign": "Type2_1_3",
 		"jp_text": "支援/ＨＰ回復Ｃ",
-		"tr_text": "Support / HP Restore C",
+		"tr_text": "Support/HP Restore C",
 		"jp_explain": "主人の体力低下時に回復支援を行う。\n発動率は低く、回復量が高い。",
 		"tr_explain": "Restores HP when health is low.\nLow chance, high recovery."
 	},
 	{
 		"assign": "Type1_4_1",
 		"jp_text": "支援/能力上昇Ａ",
-		"tr_text": "Support / Stat Boost A",
+		"tr_text": "Support/Stat Boost A",
 		"jp_explain": "エリア変更時に能力上昇支援を行う。\n発動率は低く、インターバルは短い。",
 		"tr_explain": "Buffs stats on area change.\nLow chance, short cooldown."
 	},
 	{
 		"assign": "Type1_4_2",
 		"jp_text": "支援/能力上昇Ｂ",
-		"tr_text": "Support / Stat Boost B",
+		"tr_text": "Support/Stat Boost B",
 		"jp_explain": "エリア変更時に能力上昇支援を行う。\n発動率は普通、インターバルも普通。",
 		"tr_explain": "Buffs stats on area change.\nAverage chance, average cooldown."
 	},
 	{
 		"assign": "Type1_4_3",
 		"jp_text": "支援/能力上昇Ｃ",
-		"tr_text": "Support / Stat Boost C",
+		"tr_text": "Support/Stat Boost C",
 		"jp_explain": "エリア変更時に能力上昇支援を行う。\n発動率が高く、インターバルも長い。",
 		"tr_explain": "Buffs stats on area change.\nHigh chance, long cooldown."
 	},
 	{
 		"assign": "Type1_8_1",
 		"jp_text": "支援/ＰＰ回復Ａ",
-		"tr_text": "Support / PP Restore A",
+		"tr_text": "Support/PP Restore A",
 		"jp_explain": "エリア変更時にＰＰ回復支援を行う。\n発動率が高く、効果時間が短い。",
 		"tr_explain": "Boosts PP Regen on area change.\nHigh chance, short duration."
 	},
 	{
 		"assign": "Type1_8_2",
 		"jp_text": "支援/ＰＰ回復Ｂ",
-		"tr_text": "Support / PP Restore B",
+		"tr_text": "Support/PP Restore B",
 		"jp_explain": "エリア変更時にＰＰ回復支援を行う。\n発動率が普通、効果時間も普通。",
 		"tr_explain": "Boosts PP Regen on area change.\nAverage chance, average duration."
 	},
 	{
 		"assign": "Type1_8_3",
 		"jp_text": "支援/ＰＰ回復Ｃ",
-		"tr_text": "Support / PP Restore C",
+		"tr_text": "Support/PP Restore C",
 		"jp_explain": "エリア変更時にＰＰ回復支援を行う。\n発動率が低く、効果時間が長い。",
 		"tr_explain": "Boosts PP Regen on area change.\nLow chance, long duration."
 	},
 	{
 		"assign": "Type4_5_1",
 		"jp_text": "支援/状態異常Ａ",
-		"tr_text": "Support / Status Heal A",
+		"tr_text": "Support/Status Heal A",
 		"jp_explain": "状態異常時に異常回復支援を行う。\n発動率は低く、インターバルは短い。",
 		"tr_explain": "Cures status ailments.\nLow chance, short cooldown."
 	},
 	{
 		"assign": "Type4_5_2",
 		"jp_text": "支援/状態異常Ｂ",
-		"tr_text": "Support / Status Heal B",
+		"tr_text": "Support/Status Heal B",
 		"jp_explain": "状態異常時に異常回復支援を行う。\n発動率が普通で、インターバルも普通。",
 		"tr_explain": "Cures status ailments.\nAverage chance, average cooldown."
 	},
 	{
 		"assign": "Type4_5_3",
 		"jp_text": "支援/状態異常Ｃ",
-		"tr_text": "Support / Status Heal C",
+		"tr_text": "Support/Status Heal C",
 		"jp_explain": "状態異常時に異常回復支援を行う。\n発動率が高く、インターバルは長い。",
 		"tr_explain": "Cures status ailments.\nHigh chance, long cooldown."
 	},
 	{
 		"assign": "Type5_6_1",
 		"jp_text": "支援/無敵Ａ",
-		"tr_text": "Support / Invincibility A",
+		"tr_text": "Support/Invincibility A",
 		"jp_explain": "ゲージ満タン時に無敵支援を行う。\n効果時間が短い。",
 		"tr_explain": "Invincible at max PB gauge.\nShort duration."
 	},
 	{
 		"assign": "Type5_6_2",
 		"jp_text": "支援/無敵Ｃ",
-		"tr_text": "Support / Invincibility C",
+		"tr_text": "Support/Invincibility C",
 		"jp_explain": "ゲージ満タン時に無敵支援を行う。\n効果時間が普通。",
 		"tr_explain": "Invincible at max PB gauge.\nAverage duration."
 	},
 	{
 		"assign": "Type5_6_3",
 		"jp_text": "支援/無敵３",
-		"tr_text": "Support / Invincibility 3",
+		"tr_text": "Support/Invincibility 3",
 		"jp_explain": "ゲージ満タン時に無敵支援を行う。\n効果時間が長い。",
-		"tr_explain": "Invincible at max gauge.\nLong duration."
+		"tr_explain": "Invincible at max PB gauge.\nLong duration."
 	},
 	{
 		"assign": "Type5_4_1",
 		"jp_text": "支援/能力上昇Ｄ",
-		"tr_text": "Support / Stat Boost D",
+		"tr_text": "Support/Stat Boost D",
 		"jp_explain": "ゲージ満タン時に能力上昇支援を行う。\nインターバルが長い。",
 		"tr_explain": "Buffs stats at max PB gauge.\nLong cooldown."
 	},
 	{
 		"assign": "Type5_4_2",
 		"jp_text": "支援/能力上昇Ｅ",
-		"tr_text": "Support / Stat Boost E",
+		"tr_text": "Support/Stat Boost E",
 		"jp_explain": "ゲージ満タン時に能力上昇支援を行う。\nインターバルが普通。",
 		"tr_explain": "Buffs stats at max PB gauge.\nAverage cooldown."
 	},
 	{
 		"assign": "Type5_4_3",
 		"jp_text": "支援/能力上昇Ｆ",
-		"tr_text": "Support / Stat Boost F",
+		"tr_text": "Support/Stat Boost F",
 		"jp_explain": "ゲージ満タン時に能力上昇支援を行う。\nインターバルが短い。",
 		"tr_explain": "Buffs stats at max PB gauge.\nShort cooldown."
 	},
 	{
 		"assign": "Type5_8_1",
 		"jp_text": "支援/ＰＰ回復Ｄ",
-		"tr_text": "Support / PP Restore D",
+		"tr_text": "Support/PP Restore D",
 		"jp_explain": "ゲージ満タン時にＰＰ回復支援を行う。\n効果時間が短い。",
 		"tr_explain": "Boosts PP regen on max PB gauge.\nShort duration."
 	},
 	{
 		"assign": "Type5_8_2",
 		"jp_text": "支援/ＰＰ回復Ｅ",
-		"tr_text": "Support / PP Restore E",
+		"tr_text": "Support/PP Restore E",
 		"jp_explain": "ゲージ満タン時にＰＰ回復支援を行う。\n効果時間が普通。",
 		"tr_explain": "Boosts PP regen on max PB gauge.\nAverage duration."
 	},
 	{
 		"assign": "Type5_8_3",
 		"jp_text": "支援/ＰＰ回復Ｆ",
-		"tr_text": "Support / PP Restore F",
+		"tr_text": "Support/PP Restore F",
 		"jp_explain": "ゲージ満タン時にＰＰ回復支援を行う。\n効果時間が長い。",
 		"tr_explain": "Boosts PP regen on max PB gauge.\nLong duration."
 	},
 	{
 		"assign": "Type6_4_1",
 		"jp_text": "支援/能力上昇Ｇ",
-		"tr_text": "Support / Stat Boost G",
+		"tr_text": "Support/Stat Boost G",
 		"jp_explain": "Ｅトライアル時に能力上昇支援を行う。\n発動率は低く、インターバルは短い。",
-		"tr_explain": "Buffs stats on E-trial start.\nLow chance, short cooldown."
+		"tr_explain": "Buffs stats on E-Trial start.\nLow chance, short cooldown."
 	},
 	{
 		"assign": "Type6_4_2",
 		"jp_text": "支援/能力上昇Ｈ",
-		"tr_text": "Support / Stat Boost H",
+		"tr_text": "Support/Stat Boost H",
 		"jp_explain": "Ｅトライアル時に能力上昇支援を行う。\n発動率は普通、インターバルも普通。",
-		"tr_explain": "Buffs stats on E-trial start.\nAverage chance, average cooldown."
+		"tr_explain": "Buffs stats on E-Trial start.\nAverage chance, average cooldown."
 	},
 	{
 		"assign": "Type6_4_3",
 		"jp_text": "支援/能力上昇Ｉ",
-		"tr_text": "Support / Stat Boost I",
+		"tr_text": "Support/Stat Boost I",
 		"jp_explain": "Ｅトライアル時に能力上昇支援を行う。\n発動率は高く、インターバルは長い。",
-		"tr_explain": "Buffs stats on E-trial start.\nHigh chance, long cooldown."
+		"tr_explain": "Buffs stats on E-Trial start.\nHigh chance, long cooldown."
 	},
 	{
 		"assign": "Type6_8_1",
 		"jp_text": "支援/ＰＰ回復Ｇ",
-		"tr_text": "Support / PP Restore G",
+		"tr_text": "Support/PP Restore G",
 		"jp_explain": "Ｅトライアル時にＰＰ回復支援を行う。\n発動率が高く、効果時間が短い。",
-		"tr_explain": "Buffs PP regen on E-trial start.\nHigh chance, short duration."
+		"tr_explain": "Buffs PP regen on E-Trial start.\nHigh chance, short duration."
 	},
 	{
 		"assign": "Type6_8_2",
 		"jp_text": "支援/ＰＰ回復Ｈ",
-		"tr_text": "Support / PP Restore H",
+		"tr_text": "Support/PP Restore H",
 		"jp_explain": "Ｅトライアル時にＰＰ回復支援を行う。\n発動率が普通、効果時間も普通。",
-		"tr_explain": "Buffs PP regen on E-trial start.\nAverage chance, normal duration."
+		"tr_explain": "Buffs PP regen on E-Trial start.\nAverage chance, normal duration."
 	},
 	{
 		"assign": "Type6_8_3",
 		"jp_text": "支援/ＰＰ回復Ｉ",
-		"tr_text": "Support / PP Restore I",
+		"tr_text": "Support/PP Restore I",
 		"jp_explain": "Ｅトライアル時にＰＰ回復支援を行う。\n発動率が低く、効果時間が長い。",
-		"tr_explain": "Buffs PP regen on E-trial start.\nLow chance, long duration."
+		"tr_explain": "Buffs PP regen on E-Trial start.\nLow chance, long duration."
 	},
 	{
 		"assign": "Type3_7_1",
 		"jp_text": "支援/復活Ａ",
-		"tr_text": "Support / Revival A",
+		"tr_text": "Support/Revival A",
 		"jp_explain": "戦闘不能時に復活支援を行う。\n発動は非常に稀。",
 		"tr_explain": "Revives on incapacitation.\nVery rare chance."
 	},
 	{
 		"assign": "Type3_7_2",
 		"jp_text": "支援/復活Ｂ",
-		"tr_text": "Support / Revival B",
+		"tr_text": "Support/Revival B",
 		"jp_explain": "戦闘不能時に復活支援を行う。\n発動は稀。",
 		"tr_explain": "Revives on incapacitation.\nRare chance."
 	},
 	{
 		"assign": "Type7_1_1",
 		"jp_text": "支援/ＨＰ回復Ｊ",
-		"tr_text": "Support / HP Restore J",
+		"tr_text": "Support/HP Restore J",
 		"jp_explain": "一定間隔でＨＰ回復支援を行う。\n間隔が短めで、回復量が少ない。",
 		"tr_explain": "Restores HP at set intervals.\nShort interval, small recovery."
 	},
 	{
 		"assign": "Type7_1_2",
 		"jp_text": "支援/ＨＰ回復Ｋ",
-		"tr_text": "Support / HP Restore K",
+		"tr_text": "Support/HP Restore K",
 		"jp_explain": "一定間隔でＨＰ回復支援を行う。\n間隔が普通で、回復量も普通。",
 		"tr_explain": "Restores HP at set intervals.\nAverage interval, average recovery."
 	},
 	{
 		"assign": "Type7_1_3",
 		"jp_text": "支援/ＨＰ回復Ｌ",
-		"tr_text": "Support / HP Restore L",
+		"tr_text": "Support/HP Restore L",
 		"jp_explain": "一定間隔でＨＰ回復支援を行う。\n間隔が長めで、回復量も多い。",
 		"tr_explain": "Restores HP at set intervals.\nLong interval, large recovery."
 	},
 	{
 		"assign": "Type7_4_1",
 		"jp_text": "支援/能力上昇Ｊ",
-		"tr_text": "Support / Stat Boost J",
+		"tr_text": "Support/Stat Boost J",
 		"jp_explain": "一定間隔で能力上昇支援を行う。\n間隔が長め。",
 		"tr_explain": "Buffs stats at set intervals.\nLong interval."
 	},
 	{
 		"assign": "Type7_4_2",
 		"jp_text": "支援/能力上昇Ｋ",
-		"tr_text": "Support / Stat Boost K",
+		"tr_text": "Support/Stat Boost K",
 		"jp_explain": "一定間隔で能力上昇支援を行う。\n間隔が普通。",
 		"tr_explain": "Buffs stats at set intervals.\nAverage interval."
 	},
 	{
 		"assign": "Type7_4_3",
 		"jp_text": "支援/能力上昇Ｌ",
-		"tr_text": "Support / Stat Boost L",
+		"tr_text": "Support/Stat Boost L",
 		"jp_explain": "一定間隔で能力上昇支援を行う。\n間隔が短め。",
 		"tr_explain": "Buffs stats at set intervals.\nShort interval."
 	},
 	{
 		"assign": "Type7_8_1",
 		"jp_text": "支援/ＰＰ回復Ｊ",
-		"tr_text": "Support / PP Restore J",
+		"tr_text": "Support/PP Restore J",
 		"jp_explain": "一定間隔でＰＰ回復支援を行う。\n間隔が短めで、効果時間も短い。",
 		"tr_explain": "Boosts PP Regen at set intevals.\nShort interval, short duration."
 	},
 	{
 		"assign": "Type7_8_2",
 		"jp_text": "支援/ＰＰ回復Ｋ",
-		"tr_text": "Support / PP Restore K",
+		"tr_text": "Support/PP Restore K",
 		"jp_explain": "一定間隔でＰＰ回復支援を行う。\n間隔が普通で、効果時間も普通。",
 		"tr_explain": "Boosts PP Regen at set intevals.\nAverage interval, average duration."
 	},
 	{
 		"assign": "Type7_8_3",
 		"jp_text": "支援/ＰＰ回復Ｌ",
-		"tr_text": "Support / PP Restore L",
+		"tr_text": "Support/PP Restore L",
 		"jp_explain": "一定間隔でＰＰ回復支援を行う。\n間隔が長めで、効果時間も長い。",
 		"tr_explain": "Boosts PP Regen at set intevals.\nLong interval, long duration."
 	},
 	{
 		"assign": "Type7_9_1",
 		"jp_text": "生産/ＨＰ回復系",
-		"tr_text": "Production / Mates",
+		"tr_text": "Production/Mates",
 		"jp_explain": "一定時間経過でモノメイトなどの\n消費系アイテムを生産する。",
 		"tr_explain": "Produces random Mate\nitems at a set interval."
 	},
 	{
 		"assign": "Type7_9_2",
 		"jp_text": "生産/範囲回復系",
-		"tr_text": "Production / Atomizers",
+		"tr_text": "Production/Atomizers",
 		"jp_explain": "一定時間経過でソルアトマイザーなどの\n消費系アイテムを生産する。",
 		"tr_explain": "Produces random Atomizer\nitems at a set inteval."
 	},
 	{
 		"assign": "Type7_9_3",
 		"jp_text": "生産/トラップ系",
-		"tr_text": "Production / Traps",
+		"tr_text": "Production/Traps",
 		"jp_explain": "一定時間経過でトラップなどの\nツール系アイテムを生産する。",
 		"tr_explain": "Produces random trap\nitems at a set interval."
 	},
 	{
 		"assign": "Type7_9_4",
 		"jp_text": "生産/特殊系１",
-		"tr_text": "Production / Special 1",
+		"tr_text": "Production/Special 1",
 		"jp_explain": "一定時間経過でデバイスなどの\n特殊なアイテムを生産する。",
 		"tr_explain": "Produces random devices\nat set intervals."
 	},
 	{
 		"assign": "Type7_9_5",
 		"jp_text": "生産/特殊系２",
-		"tr_text": "Production / Special 2",
+		"tr_text": "Production/Special 2",
 		"jp_explain": "トリガーアクション説明43",
 		"tr_explain": "Trigger action 43"
 	},
 	{
 		"assign": "Type7_9_6",
 		"jp_text": "生産/特殊系３",
-		"tr_text": "Production / Special 3",
+		"tr_text": "Production/Special 3",
 		"jp_explain": "トリガーアクション説明44",
 		"tr_explain": "Trigger action 44"
 	},
 	{
 		"assign": "Type7_9_7",
 		"jp_text": "生産/特殊系４",
-		"tr_text": "Production / Special 4",
+		"tr_text": "Production/Special 4",
 		"jp_explain": "トリガーアクション説明45",
 		"tr_explain": "Trigger action 45"
 	},
 	{
 		"assign": "Type7_9_8",
 		"jp_text": "トリガーアクション46",
-		"tr_text": "Production / Special 5",
+		"tr_text": "Production/Special 5",
 		"jp_explain": "トリガーアクション説明46",
 		"tr_explain": "Trigger action 46"
 	},
 	{
 		"assign": "Type7_9_9",
 		"jp_text": "トリガーアクション47",
-		"tr_text": "Production / Special 6",
+		"tr_text": "Production/Special 6",
 		"jp_explain": "トリガーアクション説明47",
 		"tr_explain": "Trigger action 47"
 	}
