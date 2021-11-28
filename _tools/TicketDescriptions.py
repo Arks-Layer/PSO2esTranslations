@@ -34,7 +34,8 @@ layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю 
                       "Fu": ["full setwear", "풀세트 웨어", "полн.компл.одежду (Fu)"],
                       "Ou": ["outerwear", "아우터 웨어", "внешнюю одежду (Ou)"]}
 
-layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".", # Must include itype and iname variables.
+# Old layered wear format. Must include itype and iname variables.
+layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".",
                       "사용하면 새로운 {itype}인\n\"{iname}\"\n의 사용이 가능해진다.",
                       "Разблокирует новую\n{itype}\n\"{iname}\"."]
 
@@ -46,6 +47,7 @@ layer_sex_locks = {"n": ["", ""],
                          " 여성만 가능.",
                          "\nТолько для женских персонажей."]}
 
+# New cosmetics format. Must include itype variable.
 ndesc_formats = ["Unlocks a new {itype} for use.",
                  "사용하면 새로운 {itype}\n선택이 가능해집니다.",
                  "Разблок {itype}."]
@@ -217,6 +219,8 @@ no_sticker_desc = ["Unlocks the ability to not display a\nsticker in the Beauty 
                    "특정 스티커 숨김 허가 티켓.\n사용하면 스티커의\n숨김이 선택 가능해집니다.",
                    "Разблокирует возможность\nне отображать стикер в салоне."]
 
+# New cosmetic tickets use the formats we defined earlier for new layer wear
+
 def translate_cosmetic_desc(item, file_name):
     if item["tr_text"] == "": # No name to put in description
         return -1
@@ -266,7 +270,7 @@ def translate_cosmetic_desc(item, file_name):
         itype = item_type,
         iname = item_name, 
         sizelock = "\n<yellow>" + cosmetic_size_locks[LANG] + "<c>" if sizelocked == True else "",
-        colorlock = "\n<yellow>" + cosmetic_color_locks[LANG] + "<c>" if colorlocked == True else "",)
+        colorlock = "\n<yellow>" + cosmetic_color_locks[LANG] + "<c>" if colorlocked == True else "")
     
     # Hello Kitty item copyright notice
     if item["jp_text"] == "ハローキティチェーン":
@@ -353,8 +357,6 @@ nla_formats = ["Unlocks a new Lobby Action for use by\nall characters on your ac
                "사용하면 새로운 로비 액션이\n모든 캐릭터에서 사용 가능해진다.",
                "Разблокирует новый лобби-экшн\nдля всех персонажей вашего акка."]
 
-
-
 la_extras = {"actrandom": ["Has button actions/randomness.",
                            "지원 기능: 버튼 파생/랜덤",
                            "Есть кнопка действия/рандом."],
@@ -404,23 +406,26 @@ def translate_la_desc(item):
     elif "対応機能：対応服指可動／\n武器装備反映／『PSO2』ブロック非対応" in item["jp_explain"]:
         extras = "nclasspose"
 
-    if "ロビアク『" in item["jp_explain"]: # Translate old LAs
+    # Translate old LAs
+    if "ロビアク『" in item["jp_explain"]:
         item["tr_explain"] = (la_formats[LANG] + "{extrastuff}").format(
-        iname = item["tr_text"].split("\"")[1] if "\"" in item["tr_text"] else item["tr_text"],
-        extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG],
-        )
+            # Split the LA name from the number. Photon Chairs don't have numbers so account for that too
+            iname = item["tr_text"].split("\"")[1] if "\"" in item["tr_text"] else item["tr_text"],
+            extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG])
+    
+    # Translate hand poses    
     elif "使用すると新しい手のポーズが" in item["jp_explain"]:
         item["tr_explain"] = ha_formats[LANG]
+
+    # Translate new LAs
     else:
         item["tr_explain"] = (nla_formats[LANG] + "{extrastuff}" + "{fingers}").format(
-        extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG],
-        fingers = "" if extras == "nclasspose" else nla_fingers[LANG]
-        )
+            extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG],
+            fingers = "" if extras == "nclasspose" else nla_fingers[LANG])
     
     return 0    
 
 for item in items:
-    
     if translate_la_desc(item) == 0:
         print("\tTranslated description for {0}".format(item["tr_text"]))
         newtranslations = True
@@ -690,7 +695,10 @@ def translate_voice(item):
                 else:
                     cv_name = cv_names[jp_cv_name][curr_lang]
                     if cv_name == "":
-                        print("\tWARNING: No translation for {jp} in {curr}, falling back to {next}".format(jp = jp_cv_name, curr = LANGS[curr_lang], next = LANGS[name_fallbacks[curr_lang]]))
+                        print("\tWARNING: No translation for {jp} in {currlang}, falling back to {nextlang}".format(
+                            jp = jp_cv_name,
+                            currlang = LANGS[curr_lang],
+                            nextlang = LANGS[name_fallbacks[curr_lang]]))
                     curr_lang = name_fallbacks[curr_lang]
             
         else:
