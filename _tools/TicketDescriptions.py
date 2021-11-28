@@ -376,7 +376,7 @@ la_extras = {"actrandom": ["Has button actions/randomness.",
              }
 
 nla_fingers = ["\n<yellow>※Finger motion limited based on outfit.<c>",
-              "<yellow>※지원 기능: 대응복 손가락 가동<c>",
+              "\n<yellow>※지원 기능: 대응복 손가락 가동<c>",
               "\n<yellow>※Одежда влияет на движ-е пальцев<c>"]
 
 ha_formats = ["When used, allows you to select a\nnew hand pose for all characters.\n<yellow>※Does not support all Lobby Actions.\n※Cannot perform in [PSO2] Blocks.<c>",
