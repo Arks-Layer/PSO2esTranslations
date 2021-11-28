@@ -372,7 +372,7 @@ la_extras = {"actrandom": ["Has button actions/randomness.",
                          "Показывает экип-е оружие.\n<yellow>Не показывает некоторое оружие.<c>"],
              "nclasspose": ["<yellow>※Finger motion outfit limited. Shows\nequipment. Cannot perform in [PSO2].<c>",
                             "<yellow>※지원 기능: 대응복 손가락 가동/\n무기 장비 반영/『PSO2』블록 비대응<c>",
-                            "<yellow>※Движ. пальцев огранич. одеждой\nОтображает экипированное оружие\nНельзя использовать в блоке PSO2<c>"]
+                            "<yellow>Движ. завис-т от одежды| Отображ.\nэкип. оружие| Только для NGS.<c>"]
              }
 
 nla_fingers = ["\n<yellow>※Finger motion limited based on outfit.<c>",
