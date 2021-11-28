@@ -346,12 +346,12 @@ print("Item_Stack_LobbyAction.txt loaded. {")
 items_file.close()
 
 la_formats = ["Unlocks the new Lobby Action\n\"{iname}\".",
-                  "",
-                  ""]
+              "",
+              ""]
 
 nla_formats = ["Unlocks a new Lobby Action for use by\nall characters on your account.",
-                  "",
-                  ""]
+               "",
+               ""]
 
 
 
