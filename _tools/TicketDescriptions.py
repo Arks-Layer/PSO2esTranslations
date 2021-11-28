@@ -333,6 +333,97 @@ for file_name in cosmetic_file_names:
     items_file.write("\n")
     items_file.close()
 
+# Translate LAs
+try:
+    items_file = codecs.open(os.path.join(json_loc, "Item_Stack_LobbyAction.txt"),
+                             mode = 'r', encoding = 'utf-8')
+except FileNotFoundError:
+    print("\tItem_Stack_LobbyAction.txt not found.")
+
+items = json.load(items_file)
+print("Item_Stack_LobbyAction.txt loaded. {")
+
+items_file.close()
+
+la_formats = ["Unlocks the new Lobby Action\n\"{iname}\".",
+                  "",
+                  ""]
+
+nla_formats = ["Unlocks a new Lobby Action for use by\nall characters on your account.",
+                  "",
+                  ""]
+
+
+
+la_extras = {"action": ["Use action buttons for extra actions.", "", ""],
+             "react": ["Reaction has extra actions.", "", ""],
+             "actrandom": ["Has button actions/randomness.", "", ""],
+             "weapons": ["Shows equipped weapons.\n<yellow>Doesn't show some weapons.<c>", "", ""],
+             "actweapons": ["Shows equipment, has extra actions.\n<yellow>Doesn't show some weapons.<c>", "", ""],
+             "nclasspose": ["<yellow>※Finger motion outfit limited. Shows\nequipment. Cannot perform in [PSO2].<c>", "", ""]
+             }
+
+nla_fingers = ["\n<yellow>※Finger motion limited based on outfit.<c>",
+              "",
+              ""]
+
+ha_formats = ["When used, allows you to select a\nnew hand pose for all characters.\n<yellow>※Does not support all Lobby Actions.\n※Cannot perform in [PSO2] Blocks.<c>",
+              "",
+              ""]
+
+def translate_la_desc(item):
+    if item["tr_text"] == "": # No name to put in description
+        return -1
+
+    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+        return -2
+    
+    extras = "n"
+    if "対応機能：ボタン派生／ランダム" in item["jp_explain"]:
+        extras = "actrandom"
+    elif "対応機能：ボタン派生／武器装備反映" in item["jp_explain"]:
+        extras = "actweapons"
+    elif "対応機能：ボタン派生" in item["jp_explain"]:
+        extras = "action"
+    elif "対応機能：リアクション" in item["jp_explain"]:
+        extras = "react"
+    elif "対応機能：武器装備反映" in item["jp_explain"]:
+        extras = "weapons"
+    elif "対応機能：対応服指可動／\n武器装備反映／『PSO2』ブロック非対応" in item["jp_explain"]:
+        extras = "nclasspose"
+
+    if "ロビアク『" in item["jp_explain"]: # Translate old LAs
+        item["tr_explain"] = (la_formats[LANG] + "{extrastuff}").format(
+        iname = item["tr_text"].split("\"")[1] if "\"" in item["tr_text"] else item["tr_text"],
+        extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG],
+        )
+    elif "使用すると新しい手のポーズが" in item["jp_explain"]:
+        item["tr_explain"] = ha_formats[LANG]
+    else:
+        item["tr_explain"] = (nla_formats[LANG] + "{extrastuff}" + "{fingers}").format(
+        extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG],
+        fingers = "" if extras == "nclasspose" else nla_fingers[LANG]
+        )
+    
+    return 0    
+
+for item in items:
+    
+    if translate_la_desc(item) == 0:
+        print("\tTranslated description for {0}".format(item["tr_text"]))
+        newtranslations = True
+
+if newtranslations == False:
+    print("\tNo new translations.")
+
+print("}")       
+
+items_file = codecs.open(os.path.join(json_loc, "Item_Stack_LobbyAction.txt"),
+                         mode = 'w', encoding = 'utf-8')
+json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
+items_file.write("\n")
+items_file.close()
+
 # Translate voices
 
 try:
