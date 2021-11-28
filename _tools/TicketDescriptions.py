@@ -74,10 +74,12 @@ layer_hide_inners = ["※Hides innerwear when worn.",
                      "※При экипировке скрывает In."]
 
 def translate_layer_desc(item, file_name):
-    if item["tr_text"] == "": # No name to put in description
+    # No name to put in description
+    if item["tr_text"] == "":
         return -1
-    
-    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+
+    # Description already present, leave it alone
+    elif item["tr_explain"] != "" and REDO_ALL == False:
         return -2
 
     # Some items are locked to one sex or the other.
@@ -95,7 +97,7 @@ def translate_layer_desc(item, file_name):
     # Translate the description.
     item["tr_explain"] = (layer_desc_formats[LANG] + "{sexlock}{hidepanties}").format(
         itype = layered_wear_types[item["tr_text"].split("[", )[1][0:2]][LANG] if item["tr_text"].endswith("]")
-                # Exception for default layered wear since it doesn't have [In], [Ba] etc
+                # Exception for defaults since they don't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
         iname = item["tr_text"],
         sexlock = layer_sex_locks[sex][LANG] if sex != "n" else "",
@@ -119,10 +121,12 @@ def get_type_restrictions(item):
     return types
 
 def translate_nlayer_desc(item, file_name):
-    if item["tr_text"] == "": # No name to put in description
+    # No name to put in description
+    if item["tr_text"] == "":
         return -1
-    
-    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+
+    # Description already present, leave it alone
+    elif item["tr_explain"] != "" and REDO_ALL == False:
         return -2
     
     # Some items are locked to one race and/or type.
@@ -237,13 +241,16 @@ no_sticker_desc = [("Unlocks the ability to not display a\n"
 # New cosmetic tickets use the formats we defined earlier for new layer wear
 
 def translate_cosmetic_desc(item, file_name):
-    if item["tr_text"] == "": # No name to put in description
+    # No name to put in description
+    if item["tr_text"] == "":
         return -1
-    
-    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+
+    # Description already present, leave it alone
+    elif item["tr_explain"] != "" and REDO_ALL == False:
         return -2
-    
-    elif item["jp_text"] == "ステッカーなし": # Exception for "no sticker" sticker
+
+    # Exception for "no sticker" sticker
+    elif item["jp_text"] == "ステッカーなし":
         item["tr_explain"] = no_sticker_desc[LANG]
         return 0
         
@@ -294,10 +301,12 @@ def translate_cosmetic_desc(item, file_name):
     return 0
 
 def translate_ncosmetic_desc(item, file_name):
-    if item["tr_text"] == "": # No name to put in description
+    # No name to put in description
+    if item["tr_text"] == "":
         return -1
-    
-    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+
+    # Description already present, leave it alone
+    elif item["tr_explain"] != "" and REDO_ALL == False:
         return -2
     
     # Some items are locked to one race and/or type.
@@ -408,8 +417,8 @@ la_extras = {"actrandom": ["Has button actions/randomness.",
              }
 
 nla_fingers = ["\n<yellow>※Finger motion limited based on outfit.<c>",
-              "\n<yellow>※지원 기능: 대응복 손가락 가동<c>",
-              "\n<yellow>※Одежда влияет на движ-е пальцев<c>"]
+               "\n<yellow>※지원 기능: 대응복 손가락 가동<c>",
+               "\n<yellow>※Одежда влияет на движ-е пальцев<c>"]
 
 ha_formats = [("When used, allows you to select a\n"
                "new hand pose for all characters.\n"
@@ -425,11 +434,15 @@ ha_formats = [("When used, allows you to select a\n"
                "※Нельзя использовать в блоке PSO2<c>")]
 
 def translate_la_desc(item):
+    # No name to put in description
+    if item["tr_text"] == "":
         return -1
 
-    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+    # Description already present, leave it alone
+    elif item["tr_explain"] != "" and REDO_ALL == False:
         return -2
-    
+
+    # Figure out what extra stuff to put at the end of the description
     extras = "n"
     if "対応機能：ボタン派生／ランダム" in item["jp_explain"]:
         extras = "actrandom"
@@ -447,7 +460,7 @@ def translate_la_desc(item):
     # Translate old LAs
     if "ロビアク『" in item["jp_explain"]:
         item["tr_explain"] = (la_formats[LANG] + "{extrastuff}").format(
-            # Split the LA name from the number. Photon Chairs don't have numbers so account for that too
+            # Split LA name from number. Remember Photon Chairs have no number
             iname = item["tr_text"].split("\"")[1] if "\"" in item["tr_text"] else item["tr_text"],
             extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG])
     
@@ -660,7 +673,7 @@ cv_names = {
     "": ["Unknown", "알 수 없는", "Неизвестно"]
     }
 
-# What language to fall back to if a name hasn't been translated into your language.
+# What to fall back to if a name hasn't been translated into your language.
 # -1: Prefer falling back to JP over any other language
 name_fallbacks = {0: -1,
                   1: -1,
@@ -671,11 +684,14 @@ voice_desc_formats = ["Allows a new voice to be selected.",
                       "Позволяет выбрать новый голос."]
 
 def translate_voice(item):
-    if item["tr_text"] == "": # No name to put in description
+    # No name to put in description
+    if item["tr_text"] == "":
         return -1
-    
-    elif (item["tr_explain"] != "" and REDO_ALL == False # Description already present, leave it alone
-    and "Salon" not in item["tr_explain"]): # Catch old format descriptions that keep creeping in somehow.
+
+    # Description already present, leave it alone
+    elif (item["tr_explain"] != "" and REDO_ALL == False
+          # Catch old format descriptions that keep creeping in somehow.
+          and "Salon" not in item["tr_explain"]): 
         return -2
     else:
         # Strings for race/sex combo restrictions
@@ -722,12 +738,14 @@ def translate_voice(item):
         # Find out if we know the voice actor's name
         jp_cv_name = item["jp_explain"].split("ＣＶ")[1]
         cv_name = ""
-        
-        if jp_cv_name in cv_names: # We do, so use it, or keep falling back to best available option if we don't have a translation.
+
+        # We do, so try to translate it
+        if jp_cv_name in cv_names: 
             curr_lang = LANG
             
             while cv_name == "":
-                if curr_lang == -1: # We've fallen back to JP, so just use the JP name and stop there
+                # We've fallen back to JP. Nowhere else to fall back to so break
+                if curr_lang == -1:
                     cv_name = jp_cv_name
                     break
                 else:
