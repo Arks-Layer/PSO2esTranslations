@@ -9,7 +9,8 @@ import argparse
 
 json_loc = os.path.join("..", "json")
 
-parser = argparse.ArgumentParser(description = "Translates ticket item descriptions.")
+parser = argparse.ArgumentParser(
+    description = "Translates ticket item descriptions.")
 # Switch for language.
 LANGS = {-1: "JP",
          0: "EN",
@@ -18,10 +19,13 @@ LANGS = {-1: "JP",
 # Add more later.
 parser.add_argument("-l", type = int, dest = "lang", action = "store",
                     choices = [0, 1, 2], default = 0, metavar = "N",
-                    help = "Set a language to translate into. Available options are 0 (EN), 1 (KO) and 2 (RU). Defaults to EN.")
+                    help = ("Set a language to translate into. "
+                            "Available options are 0 (EN), 1 (KO) and 2 (RU). "
+                            "Defaults to EN."))
 # Switch for retranslating all descriptions.
 parser.add_argument("-r", dest = "redo", action = "store_true",
-                    help = "Force all ticket descriptions to be processed, even if already translated.")
+                    help = ("Force all ticket descriptions to be processed, "
+                            "even if already translated."))
 
 args = parser.parse_args()
 LANG, REDO_ALL = args.lang, args.redo
