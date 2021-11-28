@@ -575,6 +575,16 @@
 		"tr_text": "While premium is active,\n purchasing from PSO2es MyShop without the use of a\n PSO2es MyShop voucher is available."
 	},
 	{
+		"assign": "acshop_dialog_t_44",
+		"jp_text": "<%AC>チャージ",
+		"tr_text": "Charge AC"
+	},
+	{
+		"assign": "acshop_dialog_b_44",
+		"jp_text": "このアイテムの購入は\nすでに保留になっています。\n保留中の購入を完了してください。\n\n保留中の購入が完了した後に、\n再ログインをしていただくと\n付与が完了します。",
+		"tr_text": ""
+	},
+	{
 		"assign": "acshop_use_count",
 		"jp_text": "使用数",
 		"tr_text": "Used"
@@ -6582,7 +6592,7 @@
 	{
 		"assign": "scratch_dialog_t_04",
 		"jp_text": "<%AC>チャージ",
-		"tr_text": "Charge AC"
+		"tr_text": "Charge <%AC>"
 	},
 	{
 		"assign": "scratch_dialog_b_04",
@@ -17307,7 +17317,7 @@
 	{
 		"assign": "pet_chargeac_window_title",
 		"jp_text": "<%AC>チャージ",
-		"tr_text": "Charge <%AC>"
+		"tr_text": ""
 	},
 	{
 		"assign": "pet_chargeac_window_body",
