@@ -463,9 +463,12 @@ def translate_la_desc(item):
 
     # Translate old LAs
     if "ロビアク『" in item["jp_explain"]:
+        # Split LA name from number.
+        splits = regex.split("[\"「」]", item["tr_text"])
+                
         item["tr_explain"] = (la_formats[LANG] + "{extrastuff}").format(
-            # Split LA name from number. Remember Photon Chairs have no number
-            iname = item["tr_text"].split("\"")[1] if "\"" in item["tr_text"] else item["tr_text"],
+            # Remember Photon Chairs have no number
+            iname = splits[1] if len(splits) > 1 else splits[0],
             extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG])
     
     # Translate hand poses    
