@@ -423,7 +423,7 @@ nla_fingers = ["\n<yellow>※Finger motion limited based on outfit.<c>",
 ha_formats = [("When used, allows you to select a\n"
                "new hand pose for all characters.\n"
                "<yellow>※Does not support all Lobby Actions.\n"
-               "※Cannot perform in [PSO2] Blocks.<c>",
+               "※Cannot perform in [PSO2] Blocks.<c>"),
               ("사용하면 새로운 손가락 포즈가\n"
                "모든 캐릭터로 선택할 수 있게 된다.\n"
                "<yellow>※일부 로비 액션 미지원/\n"
