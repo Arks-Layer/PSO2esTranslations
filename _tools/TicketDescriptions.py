@@ -346,41 +346,41 @@ print("Item_Stack_LobbyAction.txt loaded. {")
 items_file.close()
 
 la_formats = ["Unlocks the new Lobby Action\n\"{iname}\".",
-              "",
+              "『{iname}』 로비 액션을\n모든 캐릭터에 등록한다.",
               "Разблокирует новый лобби-экшн:\n\"{iname}\"."]
 
 nla_formats = ["Unlocks a new Lobby Action for use by\nall characters on your account.",
-               "",
+               "사용하면 새로운 로비 액션이\n모든 캐릭터에서 사용 가능해진다.",
                "Разблокирует новый лобби-экшн\nдля всех персонажей вашего акка."]
 
 
 
 la_extras = {"actrandom": ["Has button actions/randomness.",
-                           "",
+                           "지원 기능: 버튼 파생/랜덤",
                            "Есть кнопка действия/рандом."],
              "actweapons": ["Shows equipment, has extra actions.\n<yellow>Doesn't show some weapons.<c>",
-                            "",
+                            "지원 기능: 버튼 파생/무기 장비 반영\n<yellow>일부 무기 반영 불가<c>",
                             "Отображ. оружие; доп действие.\n<yellow>Не показывает некоторое оружие.<c>"],
              "action": ["Use action buttons for extra actions.",
-                        "",
+                        "지원 기능: 버튼 파생",
                         "Доступно доп действие."],
              "react": ["Reaction has extra actions.",
-                       "",
+                       "지원 기능: 리액션",
                        "Есть доп действие реакцией."],
              "weapons": ["Shows equipped weapons.\n<yellow>Doesn't show some weapons.<c>",
-                         "",
+                         "지원 기능: 무기 장비 반영\n<yellow>일부 무기 반영 불가<c>",
                          "Показывает экип-е оружие.\n<yellow>Не показывает некоторое оружие.<c>"],
              "nclasspose": ["<yellow>※Finger motion outfit limited. Shows\nequipment. Cannot perform in [PSO2].<c>",
-                            "",
+                            "<yellow>※지원 기능: 대응복 손가락 가동/\n무기 장비 반영/『PSO2』블록 비대응<c>",
                             ""]
              }
 
 nla_fingers = ["\n<yellow>※Finger motion limited based on outfit.<c>",
-              "",
+              "\n<yellow>※지원 기능: 대응복 손가락 가동<c>",
               "\n<yellow>※Одежда влияет на движ-е пальцев<c>"]
 
 ha_formats = ["When used, allows you to select a\nnew hand pose for all characters.\n<yellow>※Does not support all Lobby Actions.\n※Cannot perform in [PSO2] Blocks.<c>",
-              "",
+              "사용하면 새로운 손가락 포즈가\n모든 캐릭터로 선택할 수 있게 된다.\n<yellow>※일부 로비 액션 미지원/\n『PSO2』블록 비대응<c>",
               "Даёт возможность использовать\nверсию с двигающимися пальцами.\n<yellow>※Поддерж-т не все лобби-экшены.\n※Нельзя использовать в блоке PSO2<c>"]
 
 def translate_la_desc(item):
