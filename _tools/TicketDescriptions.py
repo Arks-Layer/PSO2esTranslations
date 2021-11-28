@@ -347,29 +347,41 @@ items_file.close()
 
 la_formats = ["Unlocks the new Lobby Action\n\"{iname}\".",
               "",
-              ""]
+              "Разблокирует новый лобби-экшн:\n\"{iname}\"."]
 
 nla_formats = ["Unlocks a new Lobby Action for use by\nall characters on your account.",
                "",
-               ""]
+               "Разблокирует новый лобби-экшн\nдля всех персонажей вашего акка."]
 
 
 
-la_extras = {"action": ["Use action buttons for extra actions.", "", ""],
-             "react": ["Reaction has extra actions.", "", ""],
-             "actrandom": ["Has button actions/randomness.", "", ""],
-             "weapons": ["Shows equipped weapons.\n<yellow>Doesn't show some weapons.<c>", "", ""],
-             "actweapons": ["Shows equipment, has extra actions.\n<yellow>Doesn't show some weapons.<c>", "", ""],
-             "nclasspose": ["<yellow>※Finger motion outfit limited. Shows\nequipment. Cannot perform in [PSO2].<c>", "", ""]
+la_extras = {"actrandom": ["Has button actions/randomness.",
+                           "",
+                           "Есть кнопка действия/рандом."],
+             "actweapons": ["Shows equipment, has extra actions.\n<yellow>Doesn't show some weapons.<c>",
+                            "",
+                            "Отображ. оружие; доп действие.\n<yellow>Не показывает некоторое оружие.<c>"],
+             "action": ["Use action buttons for extra actions.",
+                        "",
+                        "Доступно доп действие."],
+             "react": ["Reaction has extra actions.",
+                       "",
+                       "Есть доп действие реакцией."],
+             "weapons": ["Shows equipped weapons.\n<yellow>Doesn't show some weapons.<c>",
+                         "",
+                         "Показывает экип-е оружие.\n<yellow>Не показывает некоторое оружие.<c>"],
+             "nclasspose": ["<yellow>※Finger motion outfit limited. Shows\nequipment. Cannot perform in [PSO2].<c>",
+                            "",
+                            ""]
              }
 
 nla_fingers = ["\n<yellow>※Finger motion limited based on outfit.<c>",
               "",
-              ""]
+              "\n<yellow>※Одежда влияет на движ-е пальцев<c>"]
 
 ha_formats = ["When used, allows you to select a\nnew hand pose for all characters.\n<yellow>※Does not support all Lobby Actions.\n※Cannot perform in [PSO2] Blocks.<c>",
               "",
-              ""]
+              "Даёт возможность использовать\nверсию с двигающимися пальцами.\n<yellow>※Поддерж-т не все лобби-экшены.\n※Нельзя использовать в блоке PSO2<c>"]
 
 def translate_la_desc(item):
     if item["tr_text"] == "": # No name to put in description
