@@ -16943,7 +16943,7 @@
 		"assign": "334010018",
 		"jp_text": "エアリオナダール[Ba]",
 		"tr_text": "Aelio Nadar [Ba]",
-		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>\n<yellow>※着用時はインナーが非表示になります。<c>",
 		"tr_explain": "Unlocks a new basewear for use.\n<yellow>※Type: Human Type 1<c>"
 	},
 	{
@@ -17001,6 +17001,13 @@
 		"tr_text": "Van Ultimera/2 [Se]",
 		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
 		"tr_explain": "Unlocks a new setwear for use.\n<yellow>※Type: Human Type 1<c>"
+	},
+	{
+		"assign": "334010027",
+		"jp_text": "ヴァンアルティメラ/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
 	},
 	{
 		"assign": "334010029",
@@ -17094,6 +17101,13 @@
 		"tr_explain": "Unlocks a new basewear for use.\n<yellow>※Type: Human Type 1<c>"
 	},
 	{
+		"assign": "334010042",
+		"jp_text": "ヴァンフォルテス/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
 		"assign": "334010044",
 		"jp_text": "マールナフィーロ/2[Ba]",
 		"tr_text": "Maal Nafiro/2 [Ba]",
@@ -17167,28 +17181,28 @@
 		"assign": "334010056",
 		"jp_text": "サンティスマリーニオ[Se]",
 		"tr_text": "Santis Marineo [Se]",
-		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>\n<yellow>※着用時はインナーが非表示になります。<c>",
 		"tr_explain": "Unlocks a new setwear for use.\n<yellow>※Type: Human Type 1<c>"
 	},
 	{
 		"assign": "334010057",
 		"jp_text": "サンティスマリーニオ/2[Se]",
 		"tr_text": "Santis Marineo/2 [Se]",
-		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>\n<yellow>※着用時はインナーが非表示になります。<c>",
 		"tr_explain": "Unlocks a new setwear for use.\n<yellow>※Type: Human Type 1<c>"
 	},
 	{
 		"assign": "334010058",
 		"jp_text": "サンティスマリーニオ/3[Se]",
 		"tr_text": "Santis Marineo/3 [Se]",
-		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>\n<yellow>※着用時はインナーが非表示になります。<c>",
 		"tr_explain": "Unlocks a new setwear for use.\n<yellow>※Type: Human Type 1<c>"
 	},
 	{
 		"assign": "334010059",
 		"jp_text": "サンティスマリーニオ/4[Se]",
 		"tr_text": "Santis Marineo/4 [Se]",
-		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>\n<yellow>※着用時はインナーが非表示になります。<c>",
 		"tr_explain": "Unlocks a new setwear for use.\n<yellow>※Type: Human Type 1<c>"
 	},
 	{
@@ -17542,6 +17556,223 @@
 		"tr_explain": "Unlocks a new basewear for use.\n<yellow>※Type: Human Type 1<c>"
 	},
 	{
+		"assign": "334010119",
+		"jp_text": "リテムウォルダ[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010120",
+		"jp_text": "マールサージン[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010121",
+		"jp_text": "マールサーリウ[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010122",
+		"jp_text": "ローグズワール[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010123",
+		"jp_text": "ローグズワール/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010124",
+		"jp_text": "ローグズワール/3[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010125",
+		"jp_text": "ローグズワール/4[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010126",
+		"jp_text": "アールミューコート[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010127",
+		"jp_text": "アールミューコート/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010128",
+		"jp_text": "アールミューコート/3[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010129",
+		"jp_text": "アールミューコート/4[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010130",
+		"jp_text": "ナタリエマロース[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010131",
+		"jp_text": "ナタリエマロース/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010132",
+		"jp_text": "ナタリエクラース[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010133",
+		"jp_text": "ナタリエクラース/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010134",
+		"jp_text": "メイヴィユーシア[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010135",
+		"jp_text": "メイヴィユーシア/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010136",
+		"jp_text": "メイヴィユーシア/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010137",
+		"jp_text": "メイヴィユーシア/B2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010138",
+		"jp_text": "マールサージン/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010139",
+		"jp_text": "ディシプルフォーマ[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010140",
+		"jp_text": "ディシプルフォーマ/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010143",
+		"jp_text": "ラプソディーラウドネ[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010144",
+		"jp_text": "ラプソディーラウドネ/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010145",
+		"jp_text": "ラプソディーラウドネ/3[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010146",
+		"jp_text": "ラプソディーラウドネ/4[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010147",
+		"jp_text": "バウナスボーア/C[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010148",
+		"jp_text": "ルロウセイロウ[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010150",
+		"jp_text": "マールサージェス[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010151",
+		"jp_text": "ディシプルフォーマ/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010152",
+		"jp_text": "ディシプルフォーマ/B2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
 		"assign": "334010153",
 		"jp_text": "フウガレッカ/B[Se]",
 		"tr_text": "Fuuga Rekka/B [Se]",
@@ -17554,5 +17785,19 @@
 		"tr_text": "Fuuga Rekka/B2 [Se]",
 		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
 		"tr_explain": "Unlocks a new setwear for use.\n<yellow>※Type: Human Type 1<c>"
+	},
+	{
+		"assign": "334010159",
+		"jp_text": "リテムウォルダ/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010182",
+		"jp_text": "マールサージェス/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
 	}
 ]
