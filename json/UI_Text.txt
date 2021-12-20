@@ -24913,5 +24913,180 @@
 		"assign": "ranking_not_setting",
 		"jp_text": "ランキング称号を獲得すると設定できます。",
 		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_short_dialog_title",
+		"jp_text": "アイテム不足",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_short_dialog_message",
+		"jp_text": "交換に必要なアイテムが不足しています。",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_window_title",
+		"jp_text": "一括交換アイテム一覧",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_dialog_title",
+		"jp_text": "保護設定",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_dialog_message",
+		"jp_text": "一括交換する際に保護したい条件を設定します。",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_dialog_weapon",
+		"jp_text": "武器/特殊能力",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_dialog_unit",
+		"jp_text": "ユニット/特殊能力",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_dialog_chip",
+		"jp_text": "チップ/種類",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_dialog_save_button",
+		"jp_text": "保存する",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_dialog_close_button",
+		"jp_text": "閉じる",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_finish_dialog_title",
+		"jp_text": "設定完了",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_finish_dialog_message",
+		"jp_text": "設定の保存が完了しました。",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_check_dialog_title",
+		"jp_text": "一括交換確認",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_check_dialog_message_excube",
+		"jp_text": "受け取りボックス内にある★10～12武器を\nエクスキューブに一括交換します。",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_check_dialog_message_unit",
+		"jp_text": "受け取りボックス内にある★10～11ユニットを\nフォトンスフィアに一括交換します。",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_check_dialog_message_raidchip",
+		"jp_text": "受け取りボックス内にあるレアエネミーチップを\nレアエネミーポイントに一括交換します。",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_check_dialog_message_gold",
+		"jp_text": "受け取りボックス内にある金のリリーパを\nOP回復薬ミニに一括交換します。",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_check_dialog_message_silver",
+		"jp_text": "受け取りボックス内にある銀のリリーパを\nOP回復薬ミニに一括交換します。",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_check_dialog_message_weapon",
+		"jp_text": "受け取りボックス内にある★{0}武器を\n{1}に一括交換します。",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_check_dialog_message_rarity_unit",
+		"jp_text": "受け取りボックス内にある★{0}ユニットを\n{1}に一括交換します。",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_check_dialog_message_requestnum",
+		"jp_text": "対象:{0}個",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_check_dialog_message_trade_button",
+		"jp_text": "交換する",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_check_dialog_message_close_button",
+		"jp_text": "閉じる",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_check_dialog_message_setting_button",
+		"jp_text": "保護設定",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_check_dialog_title",
+		"jp_text": "一括交換確認",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_check_dialog_message",
+		"jp_text": "{0}×{1}と\n受け取りボックス内の以下のアイテムを交換します。\nよろしいですか？",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_finish_dialog_title",
+		"jp_text": "一括交換完了",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_finish_dialog_message",
+		"jp_text": "交換が完了しました。",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_exclusion_button",
+		"jp_text": "保護設定",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_button",
+		"jp_text": "一括交換",
+		"tr_text": ""
+	},
+	{
+		"assign": "accept_box_item_trade_recycle_button",
+		"jp_text": "交換する",
+		"tr_text": ""
+	},
+	{
+		"assign": "acceptbpx_item_trade_over_dialog_title",
+		"jp_text": "所持数オーバー",
+		"tr_text": ""
+	},
+	{
+		"assign": "acceptbpx_item_trade_over_dialog_chip_over",
+		"jp_text": "チップパックの空き容量または所持数を\r\nオーバーするため交換できません。\r\nチップパックを拡張するか\r\n強化／売却をしてチップを整理してください。",
+		"tr_text": ""
+	},
+	{
+		"assign": "acceptbpx_item_trade_over_dialog_item_over",
+		"jp_text": "アイテムパックの空き容量または所持数を\r\nオーバーするため交換できません。\r\n売却または交換をして\r\nアイテムを整理してください。",
+		"tr_text": ""
+	},
+	{
+		"assign": "acceptbpx_item_trade_over_dialog_point_over",
+		"jp_text": "所持数をオーバーするため交換できません。\r\n消費をしてから受け取ってください。",
+		"tr_text": ""
 	}
 ]
