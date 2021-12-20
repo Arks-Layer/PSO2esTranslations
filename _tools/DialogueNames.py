@@ -115,6 +115,9 @@ character_names = {
     "魔球王": "King Fastball",
     "マリオネット": "Marionette", "強面のアークス": "Intimidating ARKS",
     "アークス管理官": "ARKS Administrator",
+    "ヴォル・ドラゴン": "Vol Dragon", "オービット聖歌隊": "Orbit Choir",
+    "デュナ・モア・ジェネ": "Duna/More/Gene", "魔女デステロイド": "Destroid Witch",
+    "闇の魔王": "Dark Lord", "街頭ディスプレイ": "Street Display",
     #Special
     "水着三人娘": "Annette, Gene and Bluesy",
     "ジェネ＆アネット＆シューティングドライブ": "Gene, Annette and Shooting Drive",
