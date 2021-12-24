@@ -3194,23 +3194,23 @@
 	{
 		"assign": "321010039",
 		"jp_text": "N-特殊能力追加アイテム保護",
-		"tr_text": "N-Ability Protection",
+		"tr_text": "N-Защита абилок",
 		"jp_explain": "アイテムの特殊能力追加失敗時に\n素材アイテムが\n消費されるのを防止する。",
-		"tr_explain": "Returns the Material Items that\nwere lost from synthesis when\nadding an Ability fails."
+		"tr_explain": "Сохраняет материалы с особыми\nспособностями (абилками)\nпри неудачном аффиксе."
 	},
 	{
 		"assign": "321010041",
 		"jp_text": "N-限界突破代用材/限界値30",
-		"tr_text": "N-Limit Break Substitution/30",
+		"tr_text": "N-Замена при снятии огран-й/30",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を20から30にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +20 on a single item."
+		"tr_explain": "Снижает требования к материалам\nпри снятии ограничений у\nпредмета с заточкой выше +20\nдо 1 предмета."
 	},
 	{
 		"assign": "321010042",
 		"jp_text": "N-限界突破代用材/限界値40",
-		"tr_text": "N-Limit Break Substitution/40",
+		"tr_text": "N-Замена при снятии огран-й/40",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を30から40にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +30 on a single item."
+		"tr_explain": "Снижает требования к материалам\nпри снятии ограничений у\nпредмета с заточкой выше +20\nдо 1 предмета."
 	},
 	{
 		"assign": "321010054",
@@ -3243,23 +3243,23 @@
 	{
 		"assign": "321010063",
 		"jp_text": "N-潜在能力解放代用材/Lv.1",
-		"tr_text": "N-Material Substitution/Lv.1",
+		"tr_text": "N-Замена матриалов / 1ур.",
 		"jp_explain": "アイテムの潜在能力を\nLv.1にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.1 on a single item."
+		"tr_explain": "Снижает требование по\nматериалам для разблокировки\n1ур. потенциала до\n1 предмета."
 	},
 	{
 		"assign": "321010064",
 		"jp_text": "N-潜在能力解放代用材/Lv.2",
-		"tr_text": "N-Material Substitution/Lv.2",
+		"tr_text": "N-Замена матриалов / 2ур.",
 		"jp_explain": "アイテムの潜在能力を\nLv.2にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.2 on a single item."
+		"tr_explain": "Снижает требование по\nматериалам для разблокировки\n2ур. потенциала до\n1 предмета."
 	},
 	{
 		"assign": "321010065",
 		"jp_text": "N-潜在能力解放代用材/Lv.3",
-		"tr_text": "N-Material Substitution/Lv.3",
+		"tr_text": "N-Замена матриалов / 3ур.",
 		"jp_explain": "アイテムの潜在能力を\nLv.3にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.3 on a single item."
+		"tr_explain": "Снижает требование по\nматериалам для разблокировки\n3ур. потенциала до\n1 предмета."
 	},
 	{
 		"assign": "321015032",
