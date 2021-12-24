@@ -72,29 +72,57 @@
 	{
 		"assign": "363010002",
 		"jp_text": "マッタ・エアルアザーリ",
-		"tr_text": "Матта моллюск Эарио",
+		"tr_text": "Матта моллюск Эалио",
 		"jp_explain": "エアリオで採捕可能な魚介。\nHP増加／\nPP消費量軽減",
-		"tr_explain": "Моллюск пойманный в Эарио.\nУвеличивает НР и\nснижает расход РР."
+		"tr_explain": "Моллюск пойманный в Эалио.\nУвеличивает НР и\nснижает расход РР."
 	},
 	{
 		"assign": "363010003",
 		"jp_text": "サッパ・エアルサザイエ",
-		"tr_text": "Саппа тюрбан ракушка Эарио",
+		"tr_text": "Саппа тюрбан ракушка Эалио",
 		"jp_explain": "エアリオで採捕可能な魚介。\nHP増加／\nPP回復量増加",
-		"tr_explain": "Моллюск пойманный в Эарио.\nУвеличивает НР и\nускоряет восстановление РР."
+		"tr_explain": "Моллюск пойманный в Эалио.\nУвеличивает НР и\nускоряет восстановление РР."
 	},
 	{
 		"assign": "363010004",
 		"jp_text": "シャッキ・エアルクラーブ",
-		"tr_text": "Шакки краб Эарио",
+		"tr_text": "Шакки краб Эалио",
 		"jp_explain": "エアリオで採捕可能な魚介。\nHP増加／\n弱点部位ダメージ増加",
-		"tr_explain": "Моллюск пойманный в Эарио.\nУвеличивает НР и\nурон по слабым точкам."
+		"tr_explain": "Моллюск пойманный в Эалио.\nУвеличивает НР и\nурон по слабым точкам."
 	},
 	{
 		"assign": "363010005",
 		"jp_text": "ガッツ・エアルローブス",
-		"tr_text": "Гатцу лобстер Эарио",
+		"tr_text": "Гатцу лобстер Эалио",
 		"jp_explain": "エアリオで採捕可能な魚介。\nHP増加／\nHP回復量増加",
-		"tr_explain": "Моллюск пойманный в Эарио.\nУвеличивает НР и\nвосстановление НР."
+		"tr_explain": "Моллюск пойманный в Эалио.\nУвеличивает НР и\nвосстановление НР."
+	},
+	{
+		"assign": "363010006",
+		"jp_text": "ガッツ・リテナヤドガーリ",
+		"tr_text": "Healthy Retem Hermit Crab",
+		"jp_explain": "リテムで採捕可能な魚介。\nHP増加／\nHP回復量増加",
+		"tr_explain": "Seafood caught in Retem.\nBoosts HP and\nboosts HP recovery."
+	},
+	{
+		"assign": "363010007",
+		"jp_text": "マッタ・リテナボタッテ",
+		"tr_text": "Nourishing Retem Scallop",
+		"jp_explain": "リテムで採捕可能な魚介。\nHP増加／\nPP消費量軽減",
+		"tr_explain": "Seafood caught in Retem.\nBoosts HP and\nreduces PP consumption."
+	},
+	{
+		"assign": "363010008",
+		"jp_text": "シャッキ・リテナウーニィ",
+		"tr_text": "Sharp Retem Sea Urchin",
+		"jp_explain": "リテムで採捕可能な魚介。\nHP増加／\n弱点部位ダメージ増加",
+		"tr_explain": "Seafood caught in Retem.\nBoosts HP and\nboosts weakness damage."
+	},
+	{
+		"assign": "363010009",
+		"jp_text": "サッパ・リテナウミッシー",
+		"tr_text": "Refreshing Retem Sea Slug",
+		"jp_explain": "リテムで採捕可能な魚介。\nHP増加／\nPP回復量増加",
+		"tr_explain": "Seafood caught in Retem.\nBoosts HP and\nboosts PP recovery."
 	}
 ]

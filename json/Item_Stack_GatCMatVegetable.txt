@@ -156,36 +156,71 @@
 	{
 		"assign": "353010002",
 		"jp_text": "ガッツ・エアルカブラナ",
-		"tr_text": "Гатцу кабурана Эарио",
+		"tr_text": "Гатцу кабурана Эалио",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\nHP回復量増加",
-		"tr_explain": "Овощ собранный в Эарио.\nУвеличивает сопротивление урону\nи восстановление НР."
+		"tr_explain": "Овощ собранный в Эалио.\nУвеличивает сопротивление урону\nи восстановление НР."
 	},
 	{
 		"assign": "353010003",
 		"jp_text": "マッタ・エアルハーヴ",
-		"tr_text": "Матта трава Эарио",
+		"tr_text": "Матта трава Эалио",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\nPP消費量軽減",
-		"tr_explain": "Овощ собранный в Эарио.\nУвеличивает сопротивление урону\nи снижает расход РР."
+		"tr_explain": "Овощ собранный в Эалио.\nУвеличивает сопротивление урону\nи снижает расход РР."
 	},
 	{
 		"assign": "353010004",
 		"jp_text": "シャッキ・エアルトマーテ",
-		"tr_text": "Шакки томат Эарио",
+		"tr_text": "Шакки томат Эалио",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\n弱点部位ダメージ増加",
-		"tr_explain": "Овощ собранный в Эарио.\nУвеличивает сопротивление урону\nи урон по слабым точкам."
+		"tr_explain": "Овощ собранный в Эалио.\nУвеличивает сопротивление урону\nи урон по слабым точкам."
 	},
 	{
 		"assign": "353010005",
 		"jp_text": "サッパ・エアルマシュル",
-		"tr_text": "Саппа гриб Эарио",
+		"tr_text": "Саппа гриб Эалио",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\nPP回復量増加",
-		"tr_explain": "Овощ собранный в Эарио.\nУвеличивает сопротивление урону\nи ускоряет восстановление РР."
+		"tr_explain": "Овощ собранный в Эалио.\nУвеличивает сопротивление урону\nи ускоряет восстановление РР."
+	},
+	{
+		"assign": "353010006",
+		"jp_text": "ガッツ・リテナキャリブラ",
+		"tr_text": "Healthy Retem Cauliflower",
+		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\nHP回復量増加",
+		"tr_explain": "Vegetable Gathered in Retem.\nBoosts damage resistance and\nboosts HP recovery."
+	},
+	{
+		"assign": "353010007",
+		"jp_text": "マッタ・リテナマルナース",
+		"tr_text": "Nourishing Retem Eggplant",
+		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\nPP消費量軽減",
+		"tr_explain": "Vegetable Gathered in Retem.\nBoosts damage resistance and\nreduces PP consumption."
+	},
+	{
+		"assign": "353010008",
+		"jp_text": "シャッキ・リテナマシュル",
+		"tr_text": "Sharp Retem Mushroom",
+		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\n弱点部位ダメージ増加",
+		"tr_explain": "Vegetable Gathered in Retem.\nBoosts damage resistance and\nboosts weakness damage."
+	},
+	{
+		"assign": "353010009",
+		"jp_text": "サッパ・リテナクランベ",
+		"tr_text": "Refreshing Retem Cranberries",
+		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\nPP回復量増加",
+		"tr_explain": "Vegetable Gathered in Retem.\nBoosts damage resistance and\nboosts PP recovery."
 	},
 	{
 		"assign": "353010102",
 		"jp_text": "アウトゥムヴァンプキン",
 		"tr_text": "Осенняя тыква",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\n弱点部位ダメージ増加",
-		"tr_explain": "Овощ собранный в Эарио.\nУвеличивает сопротивление урону\nи урон по слабым точкам."
+		"tr_explain": "Овощ собранный в Эалио.\nУвеличивает сопротивление урону\nи урон по слабым точкам."
+	},
+	{
+		"assign": "353010103",
+		"jp_text": "ヴィンターダムボッホ",
+		"tr_text": "Winter Dandelion",
+		"jp_explain": "エアリオやリテムで採取可能な野菜。\nダメージ耐性／\nPP消費量軽減",
+		"tr_explain": "Vegetable Gathered in Retem/Aelio.\nBoosts damage resistance and\nreduces PP consumption."
 	}
 ]

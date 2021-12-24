@@ -9,7 +9,8 @@ import argparse
 
 json_loc = os.path.join("..", "json")
 
-parser = argparse.ArgumentParser(description = "Translates ticket item descriptions.")
+parser = argparse.ArgumentParser(
+    description = "Translates ticket item descriptions.")
 # Switch for language.
 LANGS = {-1: "JP",
          0: "EN",
@@ -18,10 +19,13 @@ LANGS = {-1: "JP",
 # Add more later.
 parser.add_argument("-l", type = int, dest = "lang", action = "store",
                     choices = [0, 1, 2], default = 0, metavar = "N",
-                    help = "Set a language to translate into. Available options are 0 (EN), 1 (KO) and 2 (RU). Defaults to EN.")
+                    help = ("Set a language to translate into. "
+                            "Available options are 0 (EN), 1 (KO) and 2 (RU). "
+                            "Defaults to EN."))
 # Switch for retranslating all descriptions.
 parser.add_argument("-r", dest = "redo", action = "store_true",
-                    help = "Force all ticket descriptions to be processed, even if already translated.")
+                    help = ("Force all ticket descriptions to be processed, "
+                            "even if already translated."))
 
 args = parser.parse_args()
 LANG, REDO_ALL = args.lang, args.redo
@@ -30,13 +34,19 @@ LANG, REDO_ALL = args.lang, args.redo
 
 layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю одежду (In)"],
                       "Ba": ["basewear", "베이스웨어", "верхнюю одежду (Ba)"],
-                      "Se": ["setwear", "setwear_KO", "комплектную одежду (Se)"],
-                      "Fu": ["full setwear", "fullwear_KO", "полн.компл.одежду (Fu)"],
-                      "Ou": ["outerwear", "outerwear_KO", "внешнюю одежду (Ou)"]}
+                      "Se": ["setwear", "세트 웨어", "комплектную одежду (Se)"],
+                      "Fu": ["full setwear", "풀세트 웨어", "полн.компл.одежду (Fu)"],
+                      "Ou": ["outerwear", "아우터 웨어", "внешнюю одежду (Ou)"]}
 
-layer_desc_formats = ["Unlocks the new {itype}\n\"{iname}\".", # Must include itype and iname variables.
-                      "사용하면 새로운 {itype}인\n\"{iname}\"\n의 사용이 가능해진다.",
-                      "Разблокирует новую\n{itype}\n\"{iname}\"."]
+# Old layered wear format. Must include itype and iname variables.
+layer_desc_formats = [("Unlocks the new {itype}\n"
+                       "\"{iname}\"."),
+                      ("사용하면 새로운 {itype}인\n"
+                       "\"{iname}\"\n"
+                       "의 사용이 가능해진다."),
+                      ("Разблокирует новую\n"
+                       "{itype}\n"
+                       "\"{iname}\".")]
 
 layer_sex_locks = {"n": ["", ""],
                    "m": ["\nOnly usable on male characters.",
@@ -46,31 +56,34 @@ layer_sex_locks = {"n": ["", ""],
                          " 여성만 가능.",
                          "\nТолько для женских персонажей."]}
 
-ndesc_formats = ["Unlocks a new {itype} for use.{typelock}",
-                 "format_KO{itype}{typelock}",
-                 "Разблок {itype}.{typelock}"]
+# New cosmetics format. Must include itype variable.
+ndesc_formats = ["Unlocks a new {itype} for use.",
+                 "사용하면 새로운 {itype}\n선택이 가능해집니다.",
+                 "Разблок {itype}."]
 
 ntype_statements = ["Type: ",
-                    "Type_KO",
+                    "대응: ",
                     "Тип: "]
 
-ntype_locks = {"a": ["All", "KR_All", "Все"],
-                "a1": ["Human/Cast Type 1", "KR_AllType1", "Человек/CAST (тип1)"],
-                "a2": ["Human/Cast Type 2", "KR_AllType2", "Человек/CAST (тип2)"],
-                "h1": ["Human Type 1", "KR_HumType1", "Человек (тип1)"],
-                "h2": ["Human Type 2", "KR_HumType2", "Человек (тип2)"],
-                "c1": ["Cast Type 1", "KR_CastType1", "CAST (тип1)"],
-                "c2": ["Cast Type 2", "KR_CastType2", "CAST (тип2)"]}
+ntype_locks = {"a": ["All", "KO_All", "Все"],
+                "a1": ["Human/Cast Type 1", "인간형/캐스트타입1", "Человек/CAST (тип1)"],
+                "a2": ["Human/Cast Type 2", "인간형/캐스트타입2", "Человек/CAST (тип2)"],
+                "h1": ["Human Type 1", "인간형 타입1", "Человек (тип1)"],
+                "h2": ["Human Type 2", "인간형 타입2", "Человек (тип2)"],
+                "c1": ["Cast Type 1", "캐스트 타입1", "CAST (тип1)"],
+                "c2": ["Cast Type 2", "캐스트 타입2", "CAST (тип2)"]}
 
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
                      "※При экипировке скрывает In."]
 
 def translate_layer_desc(item, file_name):
-    if item["tr_text"] == "": # No name to put in description
+    # No name to put in description
+    if item["tr_text"] == "":
         return -1
-    
-    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+
+    # Description already present, leave it alone
+    elif item["tr_explain"] != "" and REDO_ALL == False:
         return -2
 
     # Some items are locked to one sex or the other.
@@ -88,7 +101,7 @@ def translate_layer_desc(item, file_name):
     # Translate the description.
     item["tr_explain"] = (layer_desc_formats[LANG] + "{sexlock}{hidepanties}").format(
         itype = layered_wear_types[item["tr_text"].split("[", )[1][0:2]][LANG] if item["tr_text"].endswith("]")
-                # Exception for default layered wear since it doesn't have [In], [Ba] etc
+                # Exception for defaults since they don't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
         iname = item["tr_text"],
         sexlock = layer_sex_locks[sex][LANG] if sex != "n" else "",
@@ -112,10 +125,12 @@ def get_type_restrictions(item):
     return types
 
 def translate_nlayer_desc(item, file_name):
-    if item["tr_text"] == "": # No name to put in description
+    # No name to put in description
+    if item["tr_text"] == "":
         return -1
-    
-    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+
+    # Description already present, leave it alone
+    elif item["tr_explain"] != "" and REDO_ALL == False:
         return -2
     
     # Some items are locked to one race and/or type.
@@ -127,7 +142,7 @@ def translate_nlayer_desc(item, file_name):
         hideinner = True
 
     # Translate the description.
-    item["tr_explain"] = (ndesc_formats[LANG] + "{hidepanties}").format(
+    item["tr_explain"] = (ndesc_formats[LANG] + "{typelock}" + "{hidepanties}").format(
         itype = layered_wear_types[item["tr_text"].split("[", )[1][0:2]][LANG] if item["tr_text"].endswith("]")
                 # Exception for default layered wear since it doesn't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
@@ -198,33 +213,48 @@ cosmetic_types = {
     "Sticker": ["sticker", "스티커", "стикер"]
     }
 
-cosmetic_desc_formats = ["Unlocks the {sexlock}{itype}\n\"{iname}\"\nfor use in the Beauty Salon.",
-                         "사용하면 새로운 {sexlock}{itype}\n\"{iname}\"\n의 사용이 가능해진다.",
-                         "Разблок-т {itype} {sexlock}\n\"{iname}\"\nдля использования в салоне."]
+cosmetic_desc_formats = [("Unlocks the {sexlock}{itype}\n"
+                          "\"{iname}\"\n"
+                          "for use in the Beauty Salon."),
+                         ("사용하면 새로운 {sexlock}{itype}\n"
+                          "\"{iname}\"\n"
+                          "의 사용이 가능해진다."),
+                         ("Разблок-т {itype} {sexlock}\n"
+                          "\"{iname}\"\n"
+                          "для использования в салоне.")]
 
 cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для М"],
                       "f": ["female-only ", "여성 전용 ", "только для Ж"]}
 
 cosmetic_size_locks = ["※Size cannot be adjusted.",
-                       "size_locked_KO",
+                       "※사이즈 조정은 할 수 없습니다.",
                        "※Нельзя отрегулировать размер."]
 
 cosmetic_color_locks = ["※Color cannot be changed",
-                        "color_locked_KO",
+                        "※색상은 변경할 수 없습니다",
                         "※Цвет нельзщя изменить."]
 
-no_sticker_desc = ["Unlocks the ability to not display a\nsticker in the Beauty Salon.",
-                   "no_sticker_KO",
-                   "Разблокирует возможность\nне отображать стикер в салоне."]
+no_sticker_desc = [("Unlocks the ability to not display a\n"
+                    "sticker in the Beauty Salon."),
+                   ("특정 스티커 숨김 허가 티켓.\n"
+                    "사용하면 스티커의\n"
+                    "숨김이 선택 가능해집니다."),
+                   ("Разблокирует возможность\n"
+                    "не отображать стикер в салоне.")]
+
+# New cosmetic tickets use the formats we defined earlier for new layer wear
 
 def translate_cosmetic_desc(item, file_name):
-    if item["tr_text"] == "": # No name to put in description
+    # No name to put in description
+    if item["tr_text"] == "":
         return -1
-    
-    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+
+    # Description already present, leave it alone
+    elif item["tr_explain"] != "" and REDO_ALL == False:
         return -2
-    
-    elif item["jp_text"] == "ステッカーなし": # Exception for "no sticker" sticker
+
+    # Exception for "no sticker" sticker
+    elif item["jp_text"] == "ステッカーなし":
         item["tr_explain"] = no_sticker_desc[LANG]
         return 0
         
@@ -266,7 +296,7 @@ def translate_cosmetic_desc(item, file_name):
         itype = item_type,
         iname = item_name, 
         sizelock = "\n<yellow>" + cosmetic_size_locks[LANG] + "<c>" if sizelocked == True else "",
-        colorlock = "\n<yellow>" + cosmetic_color_locks[LANG] + "<c>" if colorlocked == True else "",)
+        colorlock = "\n<yellow>" + cosmetic_color_locks[LANG] + "<c>" if colorlocked == True else "")
     
     # Hello Kitty item copyright notice
     if item["jp_text"] == "ハローキティチェーン":
@@ -275,10 +305,12 @@ def translate_cosmetic_desc(item, file_name):
     return 0
 
 def translate_ncosmetic_desc(item, file_name):
-    if item["tr_text"] == "": # No name to put in description
+    # No name to put in description
+    if item["tr_text"] == "":
         return -1
-    
-    elif item["tr_explain"] != "" and REDO_ALL == False: # Description already present, leave it alone
+
+    # Description already present, leave it alone
+    elif item["tr_explain"] != "" and REDO_ALL == False:
         return -2
     
     # Some items are locked to one race and/or type.
@@ -290,7 +322,7 @@ def translate_ncosmetic_desc(item, file_name):
         hideinner = True
 
     # Translate the description.
-    item["tr_explain"] = (ndesc_formats[LANG]).format(
+    item["tr_explain"] = (ndesc_formats[LANG] + "{typelock}").format(
         itype = item_type,
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
@@ -332,6 +364,140 @@ for file_name in cosmetic_file_names:
     json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
     items_file.write("\n")
     items_file.close()
+
+# Translate LAs
+try:
+    items_file = codecs.open(os.path.join(json_loc, "Item_Stack_LobbyAction.txt"),
+                             mode = 'r', encoding = 'utf-8')
+except FileNotFoundError:
+    print("\tItem_Stack_LobbyAction.txt not found.")
+
+items = json.load(items_file)
+print("Item_Stack_LobbyAction.txt loaded. {")
+
+items_file.close()
+
+la_formats = [("Unlocks the new Lobby Action\n"
+               "\"{iname}\"."),
+              ("『{iname}』 로비 액션을\n"
+               "모든 캐릭터에 등록한다."),
+              ("Разблокирует новый лобби-экшн:\n"
+               "\"{iname}\".")]
+
+nla_formats = [("Unlocks a new Lobby Action for use by\n"
+                "all characters on your account."),
+               ("사용하면 새로운 로비 액션이\n"
+                "모든 캐릭터에서 사용 가능해진다."),
+               ("Разблокирует новый лобби-экшн\n"
+                "для всех персонажей вашего акка.")]
+
+la_extras = {"actrandom": ["Has button actions/randomness.",
+                           "지원 기능: 버튼 파생/랜덤",
+                           "Есть кнопка действия/рандом."],
+             "actweapons": [("Shows equipment, has extra actions.\n"
+                             "<yellow>Doesn't show some weapons.<c>"),
+                            ("지원 기능: 버튼 파생/무기 장비 반영\n"
+                             "<yellow>일부 무기 반영 불가<c>"),
+                            ("Отображ. оружие; доп действие.\n"
+                             "<yellow>Не показывает некоторое оружие.<c>")],
+             "action": ["Use action buttons for extra actions.",
+                        "지원 기능: 버튼 파생",
+                        "Доступно доп действие."],
+             "react": ["Reaction has extra actions.",
+                       "지원 기능: 리액션",
+                       "Есть доп действие реакцией."],
+             "weapons": [("Shows equipped weapons.\n"
+                          "<yellow>Doesn't show some weapons.<c>"),
+                         ("지원 기능: 무기 장비 반영\n"
+                          "<yellow>일부 무기 반영 불가<c>"),
+                         ("Показывает экип-е оружие.\n"
+                          "<yellow>Не показывает некоторое оружие.<c>")],
+             "nclasspose": [("<yellow>※Finger motion outfit limited. Shows\n"
+                             "equipment. Cannot perform in [PSO2].<c>"),
+                            ("<yellow>※지원 기능: 대응복 손가락 가동/\n"
+                             "무기 장비 반영/『PSO2』블록 비대응<c>"),
+                            ("<yellow>Движ. завис-т от одежды| Отображ.\n"
+                             "экип. оружие| Только для NGS.<c>")]
+             }
+
+nla_fingers = ["\n<yellow>※Finger motion limited based on outfit.<c>",
+               "\n<yellow>※지원 기능: 대응복 손가락 가동<c>",
+               "\n<yellow>※Одежда влияет на движ-е пальцев<c>"]
+
+ha_formats = [("When used, allows you to select a\n"
+               "new hand pose for all characters.\n"
+               "<yellow>※Does not support all Lobby Actions.\n"
+               "※Cannot perform in [PSO2] Blocks.<c>"),
+              ("사용하면 새로운 손가락 포즈가\n"
+               "모든 캐릭터로 선택할 수 있게 된다.\n"
+               "<yellow>※일부 로비 액션 미지원/\n"
+               "『PSO2』블록 비대응<c>"),
+              ("Даёт возможность использовать\n"
+               "версию с двигающимися пальцами.\n"
+               "<yellow>※Поддерж-т не все лобби-экшены.\n"
+               "※Нельзя использовать в блоке PSO2<c>")]
+
+def translate_la_desc(item):
+    # No name to put in description
+    if item["tr_text"] == "":
+        return -1
+
+    # Description already present, leave it alone
+    elif item["tr_explain"] != "" and REDO_ALL == False:
+        return -2
+
+    # Figure out what extra stuff to put at the end of the description
+    extras = "n"
+    if "対応機能：ボタン派生／ランダム" in item["jp_explain"]:
+        extras = "actrandom"
+    elif "対応機能：ボタン派生／武器装備反映" in item["jp_explain"]:
+        extras = "actweapons"
+    elif "対応機能：ボタン派生" in item["jp_explain"]:
+        extras = "action"
+    elif "対応機能：リアクション" in item["jp_explain"]:
+        extras = "react"
+    elif "対応機能：武器装備反映" in item["jp_explain"]:
+        extras = "weapons"
+    elif "対応機能：対応服指可動／\n武器装備反映／『PSO2』ブロック非対応" in item["jp_explain"]:
+        extras = "nclasspose"
+
+    # Translate old LAs
+    if "ロビアク『" in item["jp_explain"]:
+        # Split LA name from number.
+        splits = regex.split("[\"「」]", item["tr_text"])
+                
+        item["tr_explain"] = (la_formats[LANG] + "{extrastuff}").format(
+            # Remember Photon Chairs have no number
+            iname = splits[1] if len(splits) > 1 else splits[0],
+            extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG])
+    
+    # Translate hand poses    
+    elif "使用すると新しい手のポーズが" in item["jp_explain"]:
+        item["tr_explain"] = ha_formats[LANG]
+
+    # Translate new LAs
+    else:
+        item["tr_explain"] = (nla_formats[LANG] + "{extrastuff}" + "{fingers}").format(
+            extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG],
+            fingers = "" if extras == "nclasspose" else nla_fingers[LANG])
+    
+    return 0    
+
+for item in items:
+    if translate_la_desc(item) == 0:
+        print("\tTranslated description for {0}".format(item["tr_text"]))
+        newtranslations = True
+
+if newtranslations == False:
+    print("\tNo new translations.")
+
+print("}")       
+
+items_file = codecs.open(os.path.join(json_loc, "Item_Stack_LobbyAction.txt"),
+                         mode = 'w', encoding = 'utf-8')
+json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
+items_file.write("\n")
+items_file.close()
 
 # Translate voices
 
@@ -514,7 +680,7 @@ cv_names = {
     "": ["Unknown", "알 수 없는", "Неизвестно"]
     }
 
-# What language to fall back to if a name hasn't been translated into your language.
+# What to fall back to if a name hasn't been translated into your language.
 # -1: Prefer falling back to JP over any other language
 name_fallbacks = {0: -1,
                   1: -1,
@@ -525,11 +691,14 @@ voice_desc_formats = ["Allows a new voice to be selected.",
                       "Позволяет выбрать новый голос."]
 
 def translate_voice(item):
-    if item["tr_text"] == "": # No name to put in description
+    # No name to put in description
+    if item["tr_text"] == "":
         return -1
-    
-    elif (item["tr_explain"] != "" and REDO_ALL == False # Description already present, leave it alone
-    and "Salon" not in item["tr_explain"]): # Catch old format descriptions that keep creeping in somehow.
+
+    # Description already present, leave it alone
+    elif (item["tr_explain"] != "" and REDO_ALL == False
+          # Catch old format descriptions that keep creeping in somehow.
+          and "Salon" not in item["tr_explain"]): 
         return -2
     else:
         # Strings for race/sex combo restrictions
@@ -576,18 +745,23 @@ def translate_voice(item):
         # Find out if we know the voice actor's name
         jp_cv_name = item["jp_explain"].split("ＣＶ")[1]
         cv_name = ""
-        
-        if jp_cv_name in cv_names: # We do, so use it, or keep falling back to best available option if we don't have a translation.
+
+        # We do, so try to translate it
+        if jp_cv_name in cv_names: 
             curr_lang = LANG
             
             while cv_name == "":
-                if curr_lang == -1: # We've fallen back to JP, so just use the JP name and stop there
+                # We've fallen back to JP. Nowhere else to fall back to so break
+                if curr_lang == -1:
                     cv_name = jp_cv_name
                     break
                 else:
                     cv_name = cv_names[jp_cv_name][curr_lang]
                     if cv_name == "":
-                        print("\tWARNING: No translation for {jp} in {curr}, falling back to {next}".format(jp = jp_cv_name, curr = LANGS[curr_lang], next = LANGS[name_fallbacks[curr_lang]]))
+                        print("\tWARNING: No translation for {jp} in {currlang}, falling back to {nextlang}".format(
+                            jp = jp_cv_name,
+                            currlang = LANGS[curr_lang],
+                            nextlang = LANGS[name_fallbacks[curr_lang]]))
                     curr_lang = name_fallbacks[curr_lang]
             
         else:
