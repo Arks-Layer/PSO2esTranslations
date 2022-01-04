@@ -182,10 +182,45 @@
 		"tr_explain": "에아리오에서 채취 가능한 야채.\n데미지 내성/ \nPP회복량 증가"
 	},
 	{
+		"assign": "353010006",
+		"jp_text": "ガッツ・リテナキャリブラ",
+		"tr_text": "Healthy Retem Cauliflower",
+		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\nHP回復量増加",
+		"tr_explain": "Vegetable Gathered in Retem.\nBoosts damage resistance and\nboosts HP recovery."
+	},
+	{
+		"assign": "353010007",
+		"jp_text": "マッタ・リテナマルナース",
+		"tr_text": "Nourishing Retem Eggplant",
+		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\nPP消費量軽減",
+		"tr_explain": "Vegetable Gathered in Retem.\nBoosts damage resistance and\nreduces PP consumption."
+	},
+	{
+		"assign": "353010008",
+		"jp_text": "シャッキ・リテナマシュル",
+		"tr_text": "Sharp Retem Mushroom",
+		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\n弱点部位ダメージ増加",
+		"tr_explain": "Vegetable Gathered in Retem.\nBoosts damage resistance and\nboosts weakness damage."
+	},
+	{
+		"assign": "353010009",
+		"jp_text": "サッパ・リテナクランベ",
+		"tr_text": "Refreshing Retem Cranberries",
+		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\nPP回復量増加",
+		"tr_explain": "Vegetable Gathered in Retem.\nBoosts damage resistance and\nboosts PP recovery."
+	},
+	{
 		"assign": "353010102",
 		"jp_text": "アウトゥムヴァンプキン",
 		"tr_text": "Autumn Vampkin",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\n弱点部位ダメージ増加",
-		"tr_explain": "Vegetable Gathered in Aerio.\nBoosts damage resistance and\nboosts weakness damage."
+		"tr_explain": "Vegetable Gathered in Aelio.\nBoosts damage resistance and\nboosts weakness damage."
+	},
+	{
+		"assign": "353010103",
+		"jp_text": "ヴィンターダムボッホ",
+		"tr_text": "Winter Dandelion",
+		"jp_explain": "エアリオやリテムで採取可能な野菜。\nダメージ耐性／\nPP消費量軽減",
+		"tr_explain": "Vegetable Gathered in Retem/Aelio.\nBoosts damage resistance and\nreduces PP consumption."
 	}
 ]

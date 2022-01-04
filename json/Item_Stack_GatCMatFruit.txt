@@ -53,27 +53,55 @@
 		"jp_text": "マッタ・エアルアッポウ",
 		"tr_text": "맛타 에아루앗포우",
 		"jp_explain": "エアリオで採取可能な果物。\nPP増加／\nPP消費量軽減",
-		"tr_explain": "Fruit Gathered in Aerio.\nBoosts PP and\nreduces PP consumption."
+		"tr_explain": "Fruit Gathered in Aelio.\nBoosts PP and\nreduces PP consumption."
 	},
 	{
 		"assign": "354010003",
 		"jp_text": "サッパ・エアルピッチ",
 		"tr_text": "삿파 에아루피치",
 		"jp_explain": "エアリオで採取可能な果物。\nPP増加／\nPP回復量増加",
-		"tr_explain": "Fruit Gathered in Aerio.\nBoosts PP and\nboosts PP recovery."
+		"tr_explain": "Fruit Gathered in Aelio.\nBoosts PP and\nboosts PP recovery."
 	},
 	{
 		"assign": "354010004",
 		"jp_text": "シャッキ・エアルナッシィ",
 		"tr_text": "샷키 에아루낫시",
 		"jp_explain": "エアリオで採取可能な果物。\nPP増加／\n弱点部位ダメージ増加",
-		"tr_explain": "Fruit Gathered in Aerio.\nBoosts PP and\nboosts weakness damage."
+		"tr_explain": "Fruit Gathered in Aelio.\nBoosts PP and\nboosts weakness damage."
 	},
 	{
 		"assign": "354010005",
 		"jp_text": "ガッツ・エアルバナン",
 		"tr_text": "갓츠 에아루바난",
 		"jp_explain": "エアリオで採取可能な果物。\nPP増加／\nHP回復量増加",
-		"tr_explain": "Fruit Gathered in Aerio.\nBoosts PP and\nboosts HP recovery."
+		"tr_explain": "Fruit Gathered in Aelio.\nBoosts PP and\nboosts HP recovery."
+	},
+	{
+		"assign": "354010006",
+		"jp_text": "ガッツ・リテナストロンベリ",
+		"tr_text": "Healthy Retem Strawberry",
+		"jp_explain": "リテムで採取可能な果物。\nPP増加／\nHP回復量増加",
+		"tr_explain": "Fruit Gathered in Retem.\nBoosts PP and\nboosts HP recovery."
+	},
+	{
+		"assign": "354010007",
+		"jp_text": "マッタ・リテナッチェリ",
+		"tr_text": "Nourishing Retem Cherries",
+		"jp_explain": "リテムで採取可能な果物。\nPP増加／\nPP消費量軽減",
+		"tr_explain": "Fruit Gathered in Retem.\nBoosts PP and\nreduces PP consumption."
+	},
+	{
+		"assign": "354010008",
+		"jp_text": "シャッキ・リテナスターツ",
+		"tr_text": "Sharp Retem Star Fruit",
+		"jp_explain": "リテムで採取可能な果物。\nPP増加／\n弱点部位ダメージ増加",
+		"tr_explain": "Fruit Gathered in Retem.\nBoosts PP and\nboosts weakness damage."
+	},
+	{
+		"assign": "354010009",
+		"jp_text": "サッパ・リテナマルゴー",
+		"tr_text": "Refreshing Retem Mango",
+		"jp_explain": "リテムで採取可能な果物。\nPP増加／\nPP回復量増加",
+		"tr_explain": "Fruit Gathered in Retem.\nBoosts PP and\nboosts PP recovery."
 	}
 ]
