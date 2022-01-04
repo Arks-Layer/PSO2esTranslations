@@ -27,7 +27,7 @@
 	{
 		"assign": "0005",
 		"jp_text": "<color=#f0df60>＜ＣＰを回復するテクニック＞</color>\nＣＰは時間とともに少しずつ増えていきますが\nエネミーに攻撃を命中させると、さらに増えるんです。\nＣＰをためて、チップをどんどん発動させましょう。",
-		"tr_text": "<color=#f0df60>CP Recovery Techniques</color>\nCP regenerates slowly over time, but if you hit an\nenemy with a normal attack, you will recover some\nCP immediately. Recover your CP and activate chips!"
+		"tr_text": "<color=#f0df60>CP Recovery Techniques</color>\nCP regenerates slowly over time, but if you hit an\nenemy with a Normal Attack, you will recover some\nCP immediately. Recover your CP and activate chips!"
 	},
 	{
 		"assign": "0006",
@@ -177,7 +177,7 @@
 	{
 		"assign": "0035",
 		"jp_text": "<color=#f0df60>＜チップでもジャストアタック＞</color>\nジャストアタックは、通常攻撃だけでなく\nアクティブチップでも発動することができますよ。\nチップを使うときに、赤い円にタイミングをあわせて\n発動してみましょう。",
-		"tr_text": "<color=#f0df60>Just Attacking Chips</color>\nJust Attacks don't just apply to normal attacks -\nyou can do them with Active Chips too! Try to\ntime your chip activations to the red circle."
+		"tr_text": "<color=#f0df60>Just Attacking Chips</color>\nJust Attacks don't just apply to Normal Attacks -\nyou can do them with Active Chips too! Try to\ntime your chip activations to the red circle."
 	},
 	{
 		"assign": "0036",
@@ -507,7 +507,7 @@
 	{
 		"assign": "0101",
 		"jp_text": "<color=#f0df60>＜日替わりクエストで武器入手＞</color>\nこのクエストでは\nファイター、ガンナー、テクター用の武器が\n手に入りやすいですよ。\n経験値もたくさん獲得できて、おトクです！",
-		"tr_text": "<color=#f0df60>Get Weapons in this Daily Quest</color>\nIn this quest, you will get plenty of\nweapons for Fighter, Gunner and Techer.\nYou can also earn a lot of EXP!"
+		"tr_text": "<color=#f0df60>Get Weapons in this Daily Quest</color>\nIn this quest, you will get plenty of\nweapons for Fighter, Gunner and Techter.\nYou can also earn a lot of EXP!"
 	},
 	{
 		"assign": "0102",
@@ -542,7 +542,7 @@
 	{
 		"assign": "0108",
 		"jp_text": "<color=#f0df60>＜クラス「テクター」を解放しよう＞</color>\nこのクエストをクリアすると、追加クラス\n「テクター」が選択できるようになりますよ。\nがんばってくださいね！",
-		"tr_text": "<color=#f0df60>Unlocking Techer</color>\nIf you clear this quest, you will\nunlock the \"Techer\" class.\nDo your best!"
+		"tr_text": "<color=#f0df60>Unlocking Techter</color>\nIf you clear this quest, you will\nunlock the \"Techter\" class.\nDo your best!"
 	},
 	{
 		"assign": "0109",
@@ -1031,7 +1031,7 @@
 	},
 	{
 		"assign": "0206",
-		"jp_text": "<color=#f0df60>＜マテリアル・ゼロを手に入れよう＞</color>\n覇級のクエストをクリアすると「マテリアル・ゼロ」\nというアイテムが手に入ることがあります。\n交換ショップで強力な武器に交換できますので\nぜひ手に入れましょう！",
+		"jp_text": "<color=#f0df60>＜マテリアル・ゼロを手に入れよう＞</color>\nこのクエストをクリアすると「マテリアル・ゼロ」\nというアイテムが手に入ることがあります。\n交換ショップで強力な武器に交換できますので\nぜひ手に入れましょう！",
 		"tr_text": "<color=#f0df60>Get Material Zero</color>\nWhen you clear this quest on Extra Hard,\nyou may obtain an item called \"Material\nZero\". You can exchange it for powerful\nweapons at the Exchange Shop!"
 	},
 	{
@@ -1182,7 +1182,7 @@
 	{
 		"assign": "0236",
 		"jp_text": "<color=#f0df60>＜プレイヤーに特殊な制限が発生＞</color>\nこのブロックでは「通常攻撃耐性」「ダメージ上限」\nなどプレイヤーに様々な制限が発動します。\n臨機応変に対応できるよう\n十分に準備を整え挑んでください！",
-		"tr_text": "<color=#f0df60>Special Player Restrictions</color>\nIn this block, you will be affected by a special\nrestriction, such as \"Normal attack damage\nresistance\" or \"Maximum limit on damage\".\nEquip yourself in a way that lets you respond\nflexibly to whatever comes your way!"
+		"tr_text": "<color=#f0df60>Special Player Restrictions</color>\nIn this block, you will be affected by a special\nrestriction, such as \"Normal Attack damage\nresistance\" or \"Maximum limit on damage\".\nEquip yourself in a way that lets you respond\nflexibly to whatever comes your way!"
 	},
 	{
 		"assign": "0237",
@@ -1307,7 +1307,7 @@
 	{
 		"assign": "0261",
 		"jp_text": "<color=#f0df60>＜プレイヤーに特殊な制限が発生＞</color>\nこのブロックでは「通常攻撃で与えるダメージが減少」\nします。通常攻撃ではエネミーを倒しづらいでしょう。\n必殺技や法術など、様々な攻撃方法を駆使して\nエネミーに立ち向かってください！",
-		"tr_text": "<color=#f0df60>Special Restrictions on Players</color>\nIn this block, damage dealt by normal\nattacks is reduced. Try using special\nattacks like PAs and Techniques to\ndefeat enemies!"
+		"tr_text": "<color=#f0df60>Special Restrictions on Players</color>\nIn this block, damage dealt by Normal\nAttacks is reduced. Try using special\nattacks like PAs and Techniques to\ndefeat enemies!"
 	},
 	{
 		"assign": "0262",
@@ -1487,6 +1487,11 @@
 	{
 		"assign": "0297",
 		"jp_text": "<color=#f0df60>＜カメラの距離を調整しよう！＞</color>\n敵が多くて、戦況が把握し難いときは\nバトルカメラ設定を「遠」にしてみましょう！\n画面右上に表示されている停止ボタンから\nオプションを選ぶと変更できますよ。",
+		"tr_text": ""
+	},
+	{
+		"assign": "0298",
+		"jp_text": "<color=#f0df60>＜冥級クエストに挑戦しよう＞</color>\n冥級クエストは「冥級トリガー」を使用することで\nプレイすることができます。\n冥級トリガーは「緊急ミッション」の達成や、\nまれに覇級クエストの討伐報酬で入手できますよ！",
 		"tr_text": ""
 	}
 ]

@@ -641,42 +641,42 @@
 		"jp_text": "ウェポンズバッヂ２０２１",
 		"tr_text": "웨폰즈 뱃지 2021",
 		"jp_explain": "表面に特徴的な紋章、裏面に謎の年号が\n刻印されたバッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": ""
+		"tr_explain": "An emblem with an engraved design.\nA mysterious year is printed on the\nback. Can be traded for prizes."
 	},
 	{
 		"assign": "37010002",
 		"jp_text": "N-リサイクルバッヂ",
 		"tr_text": "N-리사이클 뱃지",
 		"jp_explain": "アイテムリサイクルで\nACスクラッチアイテムと同等品として\n交換に使用できるバッヂ。",
-		"tr_explain": ""
+		"tr_explain": "An item that can be treated as an\nAC Scratch item when making trades\nat the Recycle Shop."
 	},
 	{
 		"assign": "37010003",
 		"jp_text": "N-SGリサイクルバッヂ",
 		"tr_text": "N-SG 리사이클 뱃지",
 		"jp_explain": "アイテムリサイクルで\nSGスクラッチアイテムと同等品として\n交換に使用できるバッヂ。",
-		"tr_explain": ""
+		"tr_explain": "An item that can be treated as an\nSG Scratch item when making trades\nat the Recycle Shop."
 	},
 	{
 		"assign": "37010004",
 		"jp_text": "N-スケープドール",
 		"tr_text": "N-스케이프 돌",
 		"jp_explain": "所持者が戦闘不能になったときに\n使用可能な蘇生デバイス。\nHPが最大の状態で復活する。",
-		"tr_explain": ""
+		"tr_explain": "A revival device that can be used\nwhen its owner is incapacitated.\nRevives you with full HP."
 	},
 	{
 		"assign": "37010005",
 		"jp_text": "N-ハーフドール",
 		"tr_text": "N-하프 돌",
 		"jp_explain": "所持者が戦闘不能になったときに\n使用可能な蘇生デバイス。\nHPが半分の状態で復活する。",
-		"tr_explain": ""
+		"tr_explain": "A revival device that can be used\nwhen its owner is incapacitated.\nRevives you with half HP."
 	},
 	{
 		"assign": "37010006",
 		"jp_text": "N-エクスキューブ",
 		"tr_text": "N-엑스큐브",
 		"jp_explain": "さらなる力の求道者に\n与えられる特殊な結晶体。\n特定の場所でアイテムと交換できる。",
-		"tr_explain": ""
+		"tr_explain": "A special crystal given to those who\nseek strength. Can be traded for items\nat specific locations."
 	},
 	{
 		"assign": "37010016",
@@ -698,5 +698,26 @@
 		"tr_text": "알파 리액터",
 		"jp_explain": "なんらかの機械の動力炉。\n高値で売却することができる。",
 		"tr_explain": "어떤 기계의 동력로.\n높은 가격으로 팔 수 있다."
+	},
+	{
+		"assign": "37010020",
+		"jp_text": "Bトリガー/エアルイエロー",
+		"tr_text": "B. Trigger/Aerio Yellow",
+		"jp_explain": "バトルディアで使用するトリガー。\n“エアリオトルーパーズ”の\nクリア時に消費される。",
+		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Aerio Troopers\"."
+	},
+	{
+		"assign": "37010021",
+		"jp_text": "Bトリガー/エアルパープル",
+		"tr_text": "B. Trigger/Aerio Purple",
+		"jp_explain": "バトルディアで使用するトリガー。\n“エアリオデバステーターズ”の\nクリア時に消費される。",
+		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Aerio Devastators\"."
+	},
+	{
+		"assign": "37010022",
+		"jp_text": "N-ミッションバッヂ",
+		"tr_text": "N-Mission Badge",
+		"jp_explain": "アイテムリサイクルで\n交換に使用できるバッヂ。",
+		"tr_explain": "An Item that can be\nexchanged in the Recycle Shop."
 	}
 ]

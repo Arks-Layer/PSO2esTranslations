@@ -41,7 +41,7 @@ for files in json_files:
                     checkjp = "jp_" + checkname
                     if (
                         (checkjp in rmid)
-                        and (re.match(r'^($)|(-)|(－)|(---)|(仮設定)|(仮テキスト)|(\＊+$)|(＊￥)|(＊\\)|(ef_)|(bg_)|(wh_)|(ENT_)|(？？？.)', str(rmid[checkjp])) is None)
+                        and (re.match(r'^($)|(-)|(－)|(---)|(仮設定)|(仮テキスト)|(未使用)|(オミットアイテム)|(￥)|(\＊+$)|(＊￥)|(＊\\)|(ef_)|(bg_)|(wh_)|(ENT_)|(？？？.)', str(rmid[checkjp])) is None)
                         # Filter out dummy strings
                         and (re.match(r'^[a-zA-Z0-9 \-\'\"\&\:\,\.\!\(\)\{\}\<\>\#\=\⇒\/\\]+$', str(rmid[checkjp])) is None)
                         # Filter out live strings that don't need translating
@@ -55,7 +55,7 @@ for files in json_files:
 
             # print ("%s/%s" % (countin, countout))
             if (countin):
-                countper = "{:06.1%}".format(float(countout) / float(countin))
+                countper = "{:06.2%}".format(float(countout) / float(countin))
                 bufout += '\n{0}\t{1} ({2}/{3})'.format(countper, files, countout, countin)
             else:
                 bufout += '\n{0}\t:{1}'.format("No translatable lines found ", files)

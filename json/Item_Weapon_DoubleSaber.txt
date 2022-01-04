@@ -193,7 +193,7 @@
 		"jp_text": "ダブルセイバーレガシー",
 		"tr_text": "더블 세이버 레가시",
 		"jp_explain": "高い性能を持った両剣。\n柄の両端に純フォトンの刃を持つ。\n全クラス装備可能な、特殊な武器。",
-		"tr_explain": ""
+		"tr_explain": "A high-performance Double Saber.\nBoth blades are made of pure Photons.\nCan be equipped by all classes."
 	},
 	{
 		"assign": "15028",
@@ -410,7 +410,7 @@
 		"jp_text": "エンシェントクォーツ",
 		"tr_text": "에이션트 쿼츠",
 		"jp_explain": "式典用に特別に作られた見た目にも\nこだわりのある両剣。類稀なる破壊力を\n秘め存在が危険視されている。",
-		"tr_explain": ""
+		"tr_explain": "A unique Double Saber specially made\nfor ceremonies. Seen as dangerous\ndue to its high destructive power."
 	},
 	{
 		"assign": "15066",
@@ -774,14 +774,14 @@
 		"jp_text": "ゲイルヴィスナー",
 		"tr_text": "게일 비스나",
 		"jp_explain": "大気の力を宿すといわれる両剣。\n澄んだガラスのような姿は美麗だが\nまとった風雷の力は凄まじく強い。",
-		"tr_explain": ""
+		"tr_explain": "A Double Saber bearing the power of\nthe winds. Despite its glass-like beauty,\nit has an immense, stormy power."
 	},
 	{
 		"assign": "150176",
 		"jp_text": "ゲイルフェブリス",
 		"tr_text": "게일 페브리스",
 		"jp_explain": "大気の力を宿すといわれる両剣。\n夜闇のような刀身と赤い雷は禍々しく\n圧倒的な威力をもって敵を倒す。",
-		"tr_explain": ""
+		"tr_explain": "A Double Saber bearing the power\nof the winds. Its dark, thunderous\nblades overwhelm the enemy."
 	},
 	{
 		"assign": "150185",
@@ -814,7 +814,7 @@
 	{
 		"assign": "150191",
 		"jp_text": "ネブロスイクジリオン",
-		"tr_text": "",
+		"tr_text": "Nebulos Equilion",
 		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n両剣。複雑な形状をした鋭刃は凄まじく\nその一撃は非常に重く、致命傷となる。",
 		"tr_explain": ""
 	},
@@ -872,21 +872,21 @@
 		"jp_text": "ストームレボルシオ",
 		"tr_text": "스톰 레볼시오",
 		"jp_explain": "新開発の演算装置を搭載した両剣。\n装者の思考や戦況を分析することで\n出力を最適に保ち、負荷を軽減する。",
-		"tr_explain": ""
+		"tr_explain": "Double Saber with a newly developed\ncomputing device. It scans tactical\ndata for optimal user efficiency."
 	},
 	{
 		"assign": "150212",
 		"jp_text": "ストームドミナシオ",
 		"tr_text": "스톰 도미나시오",
 		"jp_explain": "新開発の演算装置を搭載した両剣。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
-		"tr_explain": ""
+		"tr_explain": "Double Saber with a newly developed\ncomputing device. Powerful, but puts\nstrain on the user's mind in battle."
 	},
 	{
 		"assign": "150213",
 		"jp_text": "ストームインクルシオ",
-		"tr_text": "",
+		"tr_text": "Storm Inclusio",
 		"jp_explain": "新開発の演算装置を搭載した両剣。\n抜本的な処理能力の向上により\n使用者の力を余すことなく引き出す。",
-		"tr_explain": ""
+		"tr_explain": "Double Saber with a newly developed\ncomputing device. Its processor is able\nto bring out the user's full power."
 	},
 	{
 		"assign": "150214",
@@ -1215,21 +1215,21 @@
 		"jp_text": "バルヴィーレ",
 		"tr_text": "발 뷔레",
 		"jp_explain": "過去に戦場となった地域から発掘された\n両剣。刀身がほぼ残っておらず\n刃物としての活躍には期待できない。",
-		"tr_explain": ""
+		"tr_explain": "A double saber excavated from an old\nbattlefield. Almost nothing is left of its\nblades, but it could be used as a knife."
 	},
 	{
 		"assign": "150300",
 		"jp_text": "アトラヴィーレ",
 		"tr_text": "아트라 뷔레",
 		"jp_explain": "過去に戦場となった地域から発掘された\n両剣。研究が進んだことで、装飾も\n含めて破損前の状態に修復された。",
-		"tr_explain": ""
+		"tr_explain": "A double saber excavated from an old\nbattlefield. Has been restored to a\nprevious state, decorations included."
 	},
 	{
 		"assign": "150301",
 		"jp_text": "アトラヴィーレ・イクス",
 		"tr_text": "아트라 뷔레・익스",
 		"jp_explain": "過去に戦場となった地域から発掘された\n両剣。真なる力を解放した姿。緑の\n光は運命すら断ち切る可能性を秘める。",
-		"tr_explain": ""
+		"tr_explain": "A double saber excavated from an old\nbattlefield. Its true power awakened,\nit can sever even the threads of fate."
 	},
 	{
 		"assign": "150302",
@@ -1467,12 +1467,12 @@
 		"jp_text": "フルクシオヴァルグ",
 		"tr_text": "프룩시오 발그",
 		"jp_explain": "流線美と機能性を備え持つ両剣。\n複雑ながらも美しい湾曲を持つ刃は\n自動修復機能を備え、劣化を防ぐ。",
-		"tr_explain": ""
+		"tr_explain": "A beautifully sleek Double Saber\nwhose automatic self-repair system\npreserves its gorgeous complexity."
 	},
 	{
 		"assign": "150421",
 		"jp_text": "リンザーヴァルグ",
-		"tr_text": "",
+		"tr_text": "Rinza Varg",
 		"jp_explain": "流線美と機能性を備え持つ両剣。\nフォトン励起に新機構を用いており\n直感的な操作が可能。",
 		"tr_explain": ""
 	},
@@ -1486,42 +1486,42 @@
 	{
 		"assign": "15010004",
 		"jp_text": "プリムセイバー",
-		"tr_text": "",
+		"tr_text": "Prim Saber",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "15010005",
 		"jp_text": "ツヴィアセイバー",
-		"tr_text": "",
+		"tr_text": "Suvia Saber",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "15010006",
 		"jp_text": "リサージュセイバー",
-		"tr_text": "",
+		"tr_text": "Resurge Saber",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "15010007",
 		"jp_text": "ヴィアルトセイバー",
-		"tr_text": "",
+		"tr_text": "Vialt Saber",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "15010008",
 		"jp_text": "トロワーデセイバー",
-		"tr_text": "",
+		"tr_text": "Troward Saber",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "15010009",
 		"jp_text": "グリッセンセイバー",
-		"tr_text": "",
+		"tr_text": "Greisen Saber",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1535,34 +1535,48 @@
 	{
 		"assign": "15010012",
 		"jp_text": "シルヴァプリムセイバー",
-		"tr_text": "",
+		"tr_text": "Silver Prim Saber",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "15010013",
 		"jp_text": "ゴルドプリムセイバー",
-		"tr_text": "",
+		"tr_text": "Gold Prim Saber",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "15010030",
 		"jp_text": "ストラーガセイバー",
-		"tr_text": "",
+		"tr_text": "Stragga Saber",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "15010014",
 		"jp_text": "エヴォルコートセイバー",
-		"tr_text": "",
+		"tr_text": "Evolcoat Saber",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "15010019",
 		"jp_text": "フロステルセイバー",
+		"tr_text": "Frostel Saber",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "15010015",
+		"jp_text": "フランメルセイバー",
+		"tr_text": "Franmel Saber",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "15010029",
+		"jp_text": "￥ハディートセイバー",
 		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": ""

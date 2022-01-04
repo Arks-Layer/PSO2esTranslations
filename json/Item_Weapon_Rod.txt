@@ -464,9 +464,9 @@
 	{
 		"assign": "111072",
 		"jp_text": "ステルスウェポン：ＲＯ",
-		"tr_text": "Stealth Weapon:RO",
+		"tr_text": "Stealth Weapon: RO",
 		"jp_explain": "認識不能な武器。\n形状はロッド型。",
-		"tr_explain": ""
+		"tr_explain": "Unknown Weapon.\nSeems to be in the shape of\na Rod."
 	},
 	{
 		"assign": "111073",
@@ -954,7 +954,7 @@
 	{
 		"assign": "1110242",
 		"jp_text": "ネブロスエナド",
-		"tr_text": "",
+		"tr_text": "Nebulos Enad",
 		"jp_explain": "鋭利な突起と蛇腹状の表面が特徴的な\n長杖。高いフォトン感応力を誇るが\n操作性は良く、強力な法撃力を持つ。",
 		"tr_explain": ""
 	},
@@ -1012,21 +1012,21 @@
 		"jp_text": "シャフトレボルシオ",
 		"tr_text": "샤프트 레볼시오",
 		"jp_explain": "新開発の演算装置を搭載した長杖。\n装者の思考や戦況を分析することで\n出力を最適に保ち、負荷を軽減する。",
-		"tr_explain": ""
+		"tr_explain": "A rod with a newly developed\ncomputing device. It scans tactical\ndata for optimal user efficiency."
 	},
 	{
 		"assign": "1110261",
 		"jp_text": "シャフトドミナシオ",
 		"tr_text": "샤프트 도미나시오",
 		"jp_explain": "新開発の演算装置を搭載した長杖。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
-		"tr_explain": ""
+		"tr_explain": "A rod with a newly developed\ncomputing device. Powerful, but puts\nstrain on the user's mind in battle."
 	},
 	{
 		"assign": "1110262",
 		"jp_text": "シャフトインクルシオ",
 		"tr_text": "샤프트 인크루시오",
 		"jp_explain": "新開発の演算装置を搭載した長杖。\n追従を許さぬ高い処理能力で\nフォトン制御力の限界に迫る。",
-		"tr_explain": ""
+		"tr_explain": "A rod with a newly developed\ncomputing device. Its processor boosts\nthe user's Photon control to its limit."
 	},
 	{
 		"assign": "1110265",
@@ -1481,21 +1481,21 @@
 		"jp_text": "バルゼムス",
 		"tr_text": "발 제무스",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長杖。かろうじて原型を留めているが\n損傷が激しく、欠損部分が目立つ。",
-		"tr_explain": ""
+		"tr_explain": "A rod excavated from an old\nbattlefield. Barely holding its shape,\nand obviously extremely damaged."
 	},
 	{
 		"assign": "1110365",
 		"jp_text": "アトラゼムス",
 		"tr_text": "아트라 제무스",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長杖。修復士の手により、本来の力と\n美しい輝きを取り戻した。",
-		"tr_explain": ""
+		"tr_explain": "A rod excavated from an old\nbattlefield. Its power has been\nrestored, and its beauty with it."
 	},
 	{
 		"assign": "1110366",
 		"jp_text": "アトラゼムス・イクス",
 		"tr_text": "아트라 제무스・익스",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長杖。眠れる力を呼び覚ました真の姿。\n美しく輝く水晶が戦場に光をもたらす。",
-		"tr_explain": ""
+		"tr_explain": "A rod excavated from an old\nbattlefield. Its true form awakened,\nits crystals shine upon the battlefield."
 	},
 	{
 		"assign": "1110371",
@@ -1733,12 +1733,12 @@
 		"jp_text": "フルクシオガルラ",
 		"tr_text": "프룩시오 갈라",
 		"jp_explain": "流線美と機能性を備え持つ長杖。\n流れる川の波紋を想起させるフォルムが\nフォトンを効率良く励起させる。",
-		"tr_explain": ""
+		"tr_explain": "A beautifully sleek rod whose form\nis highly efficient at exciting Photons,\nresembling ripples on a flowing river."
 	},
 	{
 		"assign": "1110472",
 		"jp_text": "リンザーガルラ",
-		"tr_text": "",
+		"tr_text": "Rinza Garla",
 		"jp_explain": "流線美と機能性を備え持つ長杖。\n激しい川の流れのようにフォトンを\n回流させ、法撃力を飛躍的に高めた。",
 		"tr_explain": ""
 	},
@@ -1752,28 +1752,28 @@
 	{
 		"assign": "111010010",
 		"jp_text": "プリムロッド",
-		"tr_text": "",
+		"tr_text": "Prim Rod",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010011",
 		"jp_text": "ツヴィアロッド",
-		"tr_text": "",
+		"tr_text": "Suvia Rod",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010012",
 		"jp_text": "リサージュロッド",
-		"tr_text": "",
+		"tr_text": "Resurge Rod",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010013",
 		"jp_text": "トロワーデロッド",
-		"tr_text": "",
+		"tr_text": "Troward Rod",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1787,7 +1787,7 @@
 	{
 		"assign": "111010015",
 		"jp_text": "フォーシスロッド",
-		"tr_text": "",
+		"tr_text": "Forsis Rod",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1801,35 +1801,35 @@
 	{
 		"assign": "111010018",
 		"jp_text": "シルヴァプリムロッド",
-		"tr_text": "",
+		"tr_text": "Silver Prim Rod",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010019",
 		"jp_text": "ゴルドプリムロッド",
-		"tr_text": "",
+		"tr_text": "Gold Prim Rod",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010035",
 		"jp_text": "ストラーガロッド",
-		"tr_text": "",
+		"tr_text": "Stragga Rod",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010021",
 		"jp_text": "エヴォルコートロッド",
-		"tr_text": "",
+		"tr_text": "Evolcoat Rod",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010036",
 		"jp_text": "フロステルロッド",
-		"tr_text": "",
+		"tr_text": "Frostel Rod",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

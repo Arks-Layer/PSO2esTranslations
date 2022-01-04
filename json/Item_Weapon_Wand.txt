@@ -375,7 +375,7 @@
 		"jp_text": "スウィートキャンディ",
 		"tr_text": "스위트 캔디",
 		"jp_explain": "本来は子供の菓子を作っていたはず\nなのにどうしてか短杖が出来上がった。\n生まれた意味を知りたい。",
-		"tr_explain": ""
+		"tr_explain": "Candy meant for children that\nsomehow became a Wand. It seeks\nthe meaning behind its own creation."
 	},
 	{
 		"assign": "113060",
@@ -403,7 +403,7 @@
 		"jp_text": "ステルスウェポン：ＷＡ",
 		"tr_text": "Stealth Weapon: WA",
 		"jp_explain": "認識不能な武器。\n形状はウォンド型。",
-		"tr_explain": ""
+		"tr_explain": "Unknown Weapon.\nSeems to be in the shape of\na Wand."
 	},
 	{
 		"assign": "113067",
@@ -508,7 +508,7 @@
 		"jp_text": "サミットムーン",
 		"tr_text": "서밋 문",
 		"jp_explain": "先端に浮かぶ輝石が装者の法撃力を\n増大させる短杖。輝石は装者の精神に\n呼応するが如く、眩い輝きを放つ。",
-		"tr_explain": ""
+		"tr_explain": "A Wand tipped with a pyroxene that\nboosts Techniques. The stone shines\nas if responding to its wielder's spirit."
 	},
 	{
 		"assign": "1130104",
@@ -977,21 +977,21 @@
 		"jp_text": "エッジレボルシオ",
 		"tr_text": "엣지 레볼시오",
 		"jp_explain": "新開発の演算装置を搭載した短杖。\n装者の思考や戦況を分析することで\n出力を最適に保ち、負荷を軽減する。",
-		"tr_explain": ""
+		"tr_explain": "A wand with a newly developed\ncomputing device. It scans tactical\ndata for optimal user efficiency."
 	},
 	{
 		"assign": "1130255",
 		"jp_text": "エッジドミナシオ",
 		"tr_text": "엣지 도미나시오",
 		"jp_explain": "新開発の演算装置を搭載した短杖。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
-		"tr_explain": ""
+		"tr_explain": "A wand with a newly developed\ncomputing device. Powerful, but puts\nstrain on the user's mind in battle."
 	},
 	{
 		"assign": "1130256",
 		"jp_text": "エッジインクルシオ",
-		"tr_text": "",
+		"tr_text": "Edge Inclusio",
 		"jp_explain": "新開発の演算装置を搭載した短杖。\n処理能力の高さで群を抜いており\nこの上なく快適な操作性を叶える。",
-		"tr_explain": ""
+		"tr_explain": "A wand with a newly developed\ncomputing device. Its high processing\npower maximizes its usability."
 	},
 	{
 		"assign": "1130258",
@@ -1313,21 +1313,21 @@
 		"jp_text": "バルアイト",
 		"tr_text": "발 아이트",
 		"jp_explain": "過去に戦場となった地域から発掘された\n短杖。研究によると、真の力を\n発揮するには何か欠けているらしい。",
-		"tr_explain": ""
+		"tr_explain": "A wand excavated from an old\nbattlefield. Research suggests that\nthe key to its power has been lost."
 	},
 	{
 		"assign": "1130349",
 		"jp_text": "アトラアイト",
 		"tr_text": "아트라 아이트",
 		"jp_explain": "過去に戦場となった地域から発掘された\n短杖。技術者の手によって修復された。\n失われていた神聖な力も復活している。",
-		"tr_explain": ""
+		"tr_explain": "A wand excavated from an old\nbattlefield. Repaired by a technician,\nits lost holy power has been revived."
 	},
 	{
 		"assign": "1130350",
 		"jp_text": "アトラアイト・イクス",
 		"tr_text": "아트라 아이트・익스",
 		"jp_explain": "過去に戦場となった地域から発掘された\n短杖。紅き宝石の眠れる力を呼び\n覚ました姿。神聖な力の奔流を放つ。",
-		"tr_explain": ""
+		"tr_explain": "A wand excavated from an old\nbattlefield. Its awakened red jewel\nunleashes a torrent of holy power."
 	},
 	{
 		"assign": "1130356",
@@ -1579,12 +1579,12 @@
 		"jp_text": "フルクシオキューマ",
 		"tr_text": "프룩시오 큐마",
 		"jp_explain": "流線美と機能性を備え持つ短杖。\n鋭いエッジと滑らかな輪郭を両立させた\n刃は、流れる軌跡で敵を斬り裂く。",
-		"tr_explain": ""
+		"tr_explain": "A beautifully sleek wand whose sharp\nedges and smooth contours let it slash\nthrough enemies as if flowing."
 	},
 	{
 		"assign": "1130482",
 		"jp_text": "リンザーキューマ",
-		"tr_text": "",
+		"tr_text": "Rinza Kyuma",
 		"jp_explain": "流線美と機能性を備え持つ短杖。\nフォトンの活性化を促進する新構造が\n高い威力を引き出す。",
 		"tr_explain": ""
 	},
@@ -1598,35 +1598,35 @@
 	{
 		"assign": "113010010",
 		"jp_text": "プリムウォンド",
-		"tr_text": "",
+		"tr_text": "Prim Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010011",
 		"jp_text": "ツヴィアウォンド",
-		"tr_text": "",
+		"tr_text": "Suvia Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010012",
 		"jp_text": "リサージュウォンド",
-		"tr_text": "",
+		"tr_text": "Resurge Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010013",
 		"jp_text": "トロワーデウォンド",
-		"tr_text": "",
+		"tr_text": "Troward Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010014",
 		"jp_text": "グリッセンウォンド",
-		"tr_text": "",
+		"tr_text": "Greisen Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1640,7 +1640,7 @@
 	{
 		"assign": "113010016",
 		"jp_text": "キャトリアウォンド",
-		"tr_text": "",
+		"tr_text": "Catoria Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1654,35 +1654,42 @@
 	{
 		"assign": "113010019",
 		"jp_text": "シルヴァプリムウォンド",
-		"tr_text": "",
+		"tr_text": "Silver Prim Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010020",
 		"jp_text": "ゴルドプリムウォンド",
-		"tr_text": "",
+		"tr_text": "Gold Prim Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010035",
 		"jp_text": "ストラーガウォンド",
-		"tr_text": "",
+		"tr_text": "Stragga Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010021",
 		"jp_text": "エヴォルコートウォンド",
-		"tr_text": "",
+		"tr_text": "Evolcoat Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010026",
 		"jp_text": "フロステルウォンド",
-		"tr_text": "",
+		"tr_text": "Frostel Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010022",
+		"jp_text": "フランメルウォンド",
+		"tr_text": "Franmel Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

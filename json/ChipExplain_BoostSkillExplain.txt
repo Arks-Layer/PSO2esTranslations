@@ -9756,7 +9756,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 15％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's Ice Element by 10%\\nand boosts its HP by 20%.",
+		"tr_explainLong": "Boosts linked chip's HP by 15%.",
 		"flag": 0
 	},
 	{
@@ -9764,7 +9764,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 15％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's Ice Element by 10%\\nand boosts its HP by 20%.",
+		"tr_explainLong": "Boosts linked chip's HP by 15%.",
 		"flag": 0
 	},
 	{
@@ -9852,7 +9852,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 氷属性 を 10％\\nHP を 20％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's Fire Element by 25%.",
+		"tr_explainLong": "Boosts linked chip's Ice Element by 10%\\nand boosts its HP by 20%.",
 		"flag": 0
 	},
 	{
@@ -9860,7 +9860,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 氷属性 を 10％\\nHP を 20％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's Fire Element by 25%.",
+		"tr_explainLong": "Boosts linked chip's Ice Element by 10%\\nand boosts its HP by 20%.",
 		"flag": 0
 	},
 	{
@@ -9868,7 +9868,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 炎属性 を 25％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's CP by 35%.",
+		"tr_explainLong": "Boosts linked chip's Fire Element by 25%.",
 		"flag": 0
 	},
 	{
@@ -9876,7 +9876,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 炎属性 を 25％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's CP by 35%.",
+		"tr_explainLong": "Boosts linked chip's Fire Element by 25%.",
 		"flag": 0
 	},
 	{
@@ -9908,7 +9908,7 @@
 		"jp_explainShort": "属性値上限アップ",
 		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "闇属性 の上限値が 15 上昇する。",
-		"tr_explainLong": "Increases your maximum Ice Element by 10.",
+		"tr_explainLong": "Increases your maximum Dark Element by 15.",
 		"flag": 0
 	},
 	{
@@ -9916,7 +9916,7 @@
 		"jp_explainShort": "属性値上限アップ",
 		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "闇属性 の上限値が 15 上昇する。",
-		"tr_explainLong": "Increases your maximum Ice Element by 10.",
+		"tr_explainLong": "Increases your maximum Dark Element by 15.",
 		"flag": 0
 	},
 	{
@@ -9956,7 +9956,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの CP を 35％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's Dark Element by 10%\\nand boosts its CP by 15%.",
+		"tr_explainLong": "Boosts linked chip's CP by 35%.",
 		"flag": 0
 	},
 	{
@@ -9964,7 +9964,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの CP を 35％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's Dark Element by 10%\\nand boosts its CP by 15%.",
+		"tr_explainLong": "Boosts linked chip's CP by 35%.",
 		"flag": 0
 	},
 	{
@@ -9972,7 +9972,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 闇属性 を 10％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's HP by 30%.",
+		"tr_explainLong": "Boosts linked chip's Dark Element by 10%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
@@ -9980,7 +9980,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 闇属性 を 10％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's HP by 30%.",
+		"tr_explainLong": "Boosts linked chip's Dark Element by 10%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
@@ -9988,7 +9988,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 10%.",
+		"tr_explainLong": "Boosts linked chip's HP by 30%.",
 		"flag": 0
 	},
 	{
@@ -9996,7 +9996,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 10%.",
+		"tr_explainLong": "Boosts linked chip's HP by 30%.",
 		"flag": 0
 	},
 	{
@@ -10004,7 +10004,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 10％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's HP by 35%.",
+		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
@@ -10012,7 +10012,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 10％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's HP by 35%.",
+		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
@@ -10028,7 +10028,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 25%.",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
@@ -10036,7 +10036,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 25%.",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
@@ -10044,7 +10044,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 10％\\nCP を 25％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's HP by 25%\\nand boosts its CP by 10%.",
+		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 25%.",
 		"flag": 0
 	},
 	{
@@ -10052,7 +10052,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 10％\\nCP を 25％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's HP by 25%\\nand boosts its CP by 10%.",
+		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 25%.",
 		"flag": 0
 	},
 	{
@@ -10060,7 +10060,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 25％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
+		"tr_explainLong": "Boosts linked chip's HP by 25%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
@@ -10068,7 +10068,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 25％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
+		"tr_explainLong": "Boosts linked chip's HP by 25%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
@@ -10092,7 +10092,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's CP by 30%.",
+		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
@@ -10100,7 +10100,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's CP by 30%.",
+		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
@@ -10108,7 +10108,7 @@
 		"jp_explainShort": "属性値上限アップ",
 		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "光属性 の上限値が 15 上昇する。",
-		"tr_explainLong": "Increases your maximum Dark Element by 15.",
+		"tr_explainLong": "Increases your maximum Light Element by 15.",
 		"flag": 0
 	},
 	{
@@ -10116,7 +10116,7 @@
 		"jp_explainShort": "属性値上限アップ",
 		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "光属性 の上限値が 15 上昇する。",
-		"tr_explainLong": "Increases your maximum Dark Element by 15.",
+		"tr_explainLong": "Increases your maximum Light Element by 15.",
 		"flag": 0
 	},
 	{
@@ -10156,7 +10156,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの CP を 30％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's Ice Element by 10%\\nand boosts its CP by 10%.",
+		"tr_explainLong": "Boosts linked chip's CP by 30%.",
 		"flag": 0
 	},
 	{
@@ -10164,7 +10164,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの CP を 30％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's Ice Element by 10%\\nand boosts its CP by 10%.",
+		"tr_explainLong": "Boosts linked chip's CP by 30%.",
 		"flag": 0
 	},
 	{
@@ -10172,7 +10172,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 氷属性 を 10％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's Lightning Element by 10%\\nand boosts its CP by 10%.",
+		"tr_explainLong": "Boosts linked chip's Ice Element by 10%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
@@ -10180,7 +10180,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 氷属性 を 10％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's Lightning Element by 10%\\nand boosts its CP by 10%.",
+		"tr_explainLong": "Boosts linked chip's Ice Element by 10%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
@@ -10188,7 +10188,7 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 雷属性 を 10％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's HP by 20%.",
+		"tr_explainLong": "Boosts linked chip's Lightning Element by 10%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
@@ -10196,23 +10196,23 @@
 		"jp_explainShort": "チップパラメータ増加",
 		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 雷属性 を 10％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "Boosts linked chip's HP by 20%.",
+		"tr_explainLong": "Boosts linked chip's Lightning Element by 10%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32393",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 20％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 20%.",
 		"flag": 0
 	},
 	{
 		"assign": "32394",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 20％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 20%.",
 		"flag": 0
 	},
 	{
@@ -10258,49 +10258,49 @@
 	{
 		"assign": "32400",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32401",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32402",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32403",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32404",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 闇属性 を 20％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Dark Element by 20%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32405",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 闇属性 を 20％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Dark Element by 20%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
@@ -10308,7 +10308,7 @@
 		"jp_explainShort": "属性値上限アップ",
 		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "炎属性 の上限値が 20 上昇する。",
-		"tr_explainLong": "Increases your maximum Light Element by 15.",
+		"tr_explainLong": "Increases your maximum Fire Element by 20.",
 		"flag": 0
 	},
 	{
@@ -10316,1551 +10316,1831 @@
 		"jp_explainShort": "属性値上限アップ",
 		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "炎属性 の上限値が 20 上昇する。",
-		"tr_explainLong": "Increases your maximum Light Element by 15.",
+		"tr_explainLong": "Increases your maximum Fire Element by 20.",
 		"flag": 0
 	},
 	{
 		"assign": "32408",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "炎属性 の上限値が 20 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Fire Element by 20.",
 		"flag": 0
 	},
 	{
 		"assign": "32409",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32410",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32411",
 		"jp_explainShort": "特定操作時ＨＰ回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Action HP Recovery",
 		"jp_explainLong": "スライド操作時 に\\nＨＰが 5％ 回復する。(発動確率： 小 )",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to recover 5% HP.\\n(Activation rate: Low)",
 		"flag": 0
 	},
 	{
 		"assign": "32412",
 		"jp_explainShort": "特定操作時ＨＰ回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Action HP Recovery",
 		"jp_explainLong": "スライド操作時 に\\nＨＰが 5％ 回復する。(発動確率： 小 )",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to recover 5% HP.\\n(Activation rate: Low)",
 		"flag": 0
 	},
 	{
 		"assign": "32413",
 		"jp_explainShort": "発動率アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Activation Rate Up",
 		"jp_explainLong": "装備したサポートチップの発動率が 10％ 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32414",
 		"jp_explainShort": "発動率アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Activation Rate Up",
 		"jp_explainLong": "装備したサポートチップの発動率が 10％ 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32415",
 		"jp_explainShort": "発動率アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Activation Rate Up",
 		"jp_explainLong": "装備したサポートチップの発動率が 10％ 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32416",
 		"jp_explainShort": "発動率アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Activation Rate Up",
 		"jp_explainLong": "装備したサポートチップの発動率が 10％ 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32417",
 		"jp_explainShort": "発動率アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Activation Rate Up",
 		"jp_explainLong": "装備したサポートチップの発動率が 10％ 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32418",
 		"jp_explainShort": "発動率アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Activation Rate Up",
 		"jp_explainLong": "装備したサポートチップの発動率が 10％ 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32419",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの CP を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's CP by 30%.",
 		"flag": 0
 	},
 	{
 		"assign": "32420",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの CP を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's CP by 30%.",
 		"flag": 0
 	},
 	{
 		"assign": "32421",
 		"jp_explainShort": "属性ダメージアップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Element Damage Up",
 		"jp_explainLong": "氷属性 が弱点の敵に対し\\nその属性によるダメージを 2％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts Ice Element damage by 2%\\nagainst enemies weak to it.\\n<color=yellow>[S-Frame]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "32422",
 		"jp_explainShort": "属性ダメージアップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Element Damage Up",
 		"jp_explainLong": "氷属性 が弱点の敵に対し\\nその属性によるダメージを 2％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts Ice Element damage by 2%\\nagainst enemies weak to it.\\n<color=yellow>[S-Frame]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "32423",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32424",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32425",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 氷属性 を 5％\\nCP を 5％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Ice Element by 5%\\nand boosts its CP by 5%.",
 		"flag": 0
 	},
 	{
 		"assign": "32426",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 氷属性 を 5％\\nCP を 5％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Ice Element by 5%\\nand boosts its CP by 5%.",
 		"flag": 0
 	},
 	{
 		"assign": "32427",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 闇属性 を 5％\\nHP を 5％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Dark Element by 5%\\nand boosts its HP by 5%.",
 		"flag": 0
 	},
 	{
 		"assign": "32428",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 闇属性 を 5％\\nHP を 5％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Dark Element by 5%\\nand boosts its HP by 5%.",
 		"flag": 0
 	},
 	{
 		"assign": "32429",
 		"jp_explainShort": "プレイヤーパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Player Parameter Boost",
 		"jp_explainLong": "プレイヤーの 攻撃力全般 を 100％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts player ATK by 100%.",
 		"flag": 0
 	},
 	{
 		"assign": "32430",
 		"jp_explainShort": "プレイヤーパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Player Parameter Boost",
 		"jp_explainLong": "プレイヤーの 攻撃力全般 を 100％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts player ATK by 100%.",
 		"flag": 0
 	},
 	{
 		"assign": "32431",
 		"jp_explainShort": "プレイヤーパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Player Parameter Boost",
 		"jp_explainLong": "プレイヤーの 攻撃力全般 を 100％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts player ATK by 100%.",
 		"flag": 0
 	},
 	{
 		"assign": "32432",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32433",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32434",
 		"jp_explainShort": "発動ＣＰダウン",
-		"tr_explainShort": "",
+		"tr_explainShort": "CP Consumption Down",
 		"jp_explainLong": "装備したアクティブチップの消費ＣＰが 25％ 減少する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Reduces the CP consumption of a linked\\nActive Chip by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32435",
 		"jp_explainShort": "発動ＣＰダウン",
-		"tr_explainShort": "",
+		"tr_explainShort": "CP Consumption Down",
 		"jp_explainLong": "装備したアクティブチップの消費ＣＰが 25％ 減少する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Reduces the CP consumption of a linked\\nActive Chip by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32436",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 光属性 を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Light Element by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32437",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 光属性 を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Light Element by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32438",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "光属性 の上限値が 20 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Light Element by 20.",
 		"flag": 0
 	},
 	{
 		"assign": "32439",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "光属性 の上限値が 20 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Light Element by 20.",
 		"flag": 0
 	},
 	{
 		"assign": "32440",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "光属性 の上限値が 20 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Light Element by 20.",
 		"flag": 0
 	},
 	{
 		"assign": "32441",
 		"jp_explainShort": "発動率アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Activation Rate Up",
 		"jp_explainLong": "装備したサポートチップの発動率が 10％ 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32442",
 		"jp_explainShort": "発動率アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Activation Rate Up",
 		"jp_explainLong": "装備したサポートチップの発動率が 10％ 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32443",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%.",
 		"flag": 0
 	},
 	{
 		"assign": "32444",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%.",
 		"flag": 0
 	},
 	{
 		"assign": "32445",
 		"jp_explainShort": "プレイヤーパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Player Parameter Boost",
 		"jp_explainLong": "プレイヤーの 攻撃力全般 を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts player ATK by 30%.",
 		"flag": 0
 	},
 	{
 		"assign": "32446",
 		"jp_explainShort": "プレイヤーパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Player Parameter Boost",
 		"jp_explainLong": "プレイヤーの 攻撃力全般 を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts player ATK by 30%.",
 		"flag": 0
 	},
 	{
 		"assign": "32447",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 3秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 3 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32448",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 3秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 3 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32449",
 		"jp_explainShort": "特定操作時ＣＰ回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Action CP Recovery",
 		"jp_explainLong": "スライド操作時 に\\nＣＰが 10 回復する。(発動確率： 小 )",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to recover 10 CP.\\n(Activation rate: Low)",
 		"flag": 0
 	},
 	{
 		"assign": "32450",
 		"jp_explainShort": "特定操作時ＣＰ回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Action CP Recovery",
 		"jp_explainLong": "スライド操作時 に\\nＣＰが 10 回復する。(発動確率： 小 )",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to recover 10 CP.\\n(Activation rate: Low)",
 		"flag": 0
 	},
 	{
 		"assign": "32451",
 		"jp_explainShort": "特定操作時ＣＰ回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Action CP Recovery",
 		"jp_explainLong": "スライド操作時 に\\nＣＰが 10 回復する。(発動確率： 小 )",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to recover 10 CP.\\n(Activation rate: Low)",
 		"flag": 0
 	},
 	{
 		"assign": "32452",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32453",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32454",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "35031",
 		"jp_explainShort": "状態異常回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Status Recovery",
 		"jp_explainLong": "スライド操作時 に\\n状態異常 が回復する。(発動確率： 小＋  )\\nアビリティレベルが上昇すると発動確率が上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to remove status\\neffects. (Activation rate: Low+)\\nActivation rate increases with ability level.",
 		"flag": 0
 	},
 	{
 		"assign": "35032",
 		"jp_explainShort": "状態異常回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Status Recovery",
 		"jp_explainLong": "スライド操作時 に\\n状態異常 が回復する。(発動確率： 小＋  )\\nアビリティレベルが上昇すると発動確率が上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to remove status\\neffects. (Activation rate: Low+)\\nActivation rate increases with ability level.",
 		"flag": 0
 	},
 	{
 		"assign": "35033",
 		"jp_explainShort": "状態異常回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Status Recovery",
 		"jp_explainLong": "スライド操作時 に\\n状態異常 が回復する。(発動確率： 小＋  )\\nアビリティレベルが上昇すると発動確率が上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to remove status\\neffects. (Activation rate: Low+)\\nActivation rate increases with ability level.",
 		"flag": 0
 	},
 	{
 		"assign": "35034",
 		"jp_explainShort": "状態異常回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Status Recovery",
 		"jp_explainLong": "スライド操作時 に\\n状態異常 が回復する。(発動確率： 小＋  )\\nアビリティレベルが上昇すると発動確率が上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to remove status\\neffects. (Activation rate: Low+)\\nActivation rate increases with ability level.",
 		"flag": 0
 	},
 	{
 		"assign": "35035",
 		"jp_explainShort": "状態異常回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Status Recovery",
 		"jp_explainLong": "スライド操作時 に\\n状態異常 が回復する。(発動確率： 小＋  )\\nアビリティレベルが上昇すると発動確率が上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to remove status\\neffects. (Activation rate: Low+)\\nActivation rate increases with ability level.",
 		"flag": 0
 	},
 	{
 		"assign": "35036",
 		"jp_explainShort": "状態異常回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Status Recovery",
 		"jp_explainLong": "スライド操作時 に\\n状態異常 が回復する。(発動確率： 小＋  )\\nアビリティレベルが上昇すると発動確率が上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to remove status\\neffects. (Activation rate: Low+)\\nActivation rate increases with ability level.",
 		"flag": 0
 	},
 	{
 		"assign": "35037",
 		"jp_explainShort": "ダメージ軽減",
-		"tr_explainShort": "",
+		"tr_explainShort": "Damage Reduction",
 		"jp_explainLong": "受けるダメージを 10％ 軽減する。\\nさらにアビリティレベルに応じて、軽減する値が増える。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Reduces damage taken by 10%.\\nDamage reduction increases with ability level.",
 		"flag": 0
 	},
 	{
 		"assign": "35038",
 		"jp_explainShort": "ダメージ軽減",
-		"tr_explainShort": "",
+		"tr_explainShort": "Damage Reduction",
 		"jp_explainLong": "受けるダメージを 10％ 軽減する。\\nさらにアビリティレベルに応じて、軽減する値が増える。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Reduces damage taken by 10%.\\nDamage reduction increases with ability level.",
 		"flag": 0
 	},
 	{
 		"assign": "35039",
 		"jp_explainShort": "ダメージ軽減",
-		"tr_explainShort": "",
+		"tr_explainShort": "Damage Reduction",
 		"jp_explainLong": "受けるダメージを 10％ 軽減する。\\nさらにアビリティレベルに応じて、軽減する値が増える。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Reduces damage taken by 10%.\\nDamage reduction increases with ability level.",
 		"flag": 0
 	},
 	{
 		"assign": "35040",
 		"jp_explainShort": "ダメージ軽減",
-		"tr_explainShort": "",
+		"tr_explainShort": "Damage Reduction",
 		"jp_explainLong": "受けるダメージを 10％ 軽減する。\\nさらにアビリティレベルに応じて、軽減する値が増える。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Reduces damage taken by 10%.\\nDamage reduction increases with ability level.",
 		"flag": 0
 	},
 	{
 		"assign": "35041",
 		"jp_explainShort": "ダメージ軽減",
-		"tr_explainShort": "",
+		"tr_explainShort": "Damage Reduction",
 		"jp_explainLong": "受けるダメージを 10％ 軽減する。\\nさらにアビリティレベルに応じて、軽減する値が増える。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Reduces damage taken by 10%.\\nDamage reduction increases with ability level.",
 		"flag": 0
 	},
 	{
 		"assign": "35042",
 		"jp_explainShort": "ダメージ軽減",
-		"tr_explainShort": "",
+		"tr_explainShort": "Damage Reduction",
 		"jp_explainLong": "受けるダメージを 10％ 軽減する。\\nさらにアビリティレベルに応じて、軽減する値が増える。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Reduces damage taken by 10%.\\nDamage reduction increases with ability level.",
 		"flag": 0
 	},
 	{
 		"assign": "35043",
 		"jp_explainShort": "戦闘不能回避",
-		"tr_explainShort": "",
+		"tr_explainShort": "Prevents Incapacitation",
 		"jp_explainLong": "ＨＰが 50％ 以上残っている場合、\\n一度だけ戦闘不能にならない。\\nアビリティレベルが上昇すると\\n効果発動するためのＨＰの残り％が減る。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Once per battle, keeps you from being incapacitated\\nwhile at or above 50% HP.\\nHP threshold decreases as ability level increases.",
 		"flag": 0
 	},
 	{
 		"assign": "35044",
 		"jp_explainShort": "戦闘不能回避",
-		"tr_explainShort": "",
+		"tr_explainShort": "Prevents Incapacitation",
 		"jp_explainLong": "ＨＰが 50％ 以上残っている場合、\\n一度だけ戦闘不能にならない。\\nアビリティレベルが上昇すると\\n効果発動するためのＨＰの残り％が減る。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Once per battle, keeps you from being incapacitated\\nwhile at or above 50% HP.\\nHP threshold decreases as ability level increases.",
 		"flag": 0
 	},
 	{
 		"assign": "35045",
 		"jp_explainShort": "戦闘不能回避",
-		"tr_explainShort": "",
+		"tr_explainShort": "Prevents Incapacitation",
 		"jp_explainLong": "ＨＰが 50％ 以上残っている場合、\\n一度だけ戦闘不能にならない。\\nアビリティレベルが上昇すると\\n効果発動するためのＨＰの残り％が減る。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Once per battle, keeps you from being incapacitated\\nwhile at or above 50% HP.\\nHP threshold decreases as ability level increases.",
 		"flag": 0
 	},
 	{
 		"assign": "35046",
 		"jp_explainShort": "戦闘不能回避",
-		"tr_explainShort": "",
+		"tr_explainShort": "Prevents Incapacitation",
 		"jp_explainLong": "ＨＰが 50％ 以上残っている場合、\\n一度だけ戦闘不能にならない。\\nアビリティレベルが上昇すると\\n効果発動するためのＨＰの残り％が減る。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Once per battle, keeps you from being incapacitated\\nwhile at or above 50% HP.\\nHP threshold decreases as ability level increases.",
 		"flag": 0
 	},
 	{
 		"assign": "35047",
 		"jp_explainShort": "戦闘不能回避",
-		"tr_explainShort": "",
+		"tr_explainShort": "Prevents Incapacitation",
 		"jp_explainLong": "ＨＰが 50％ 以上残っている場合、\\n一度だけ戦闘不能にならない。\\nアビリティレベルが上昇すると\\n効果発動するためのＨＰの残り％が減る。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Once per battle, keeps you from being incapacitated\\nwhile at or above 50% HP.\\nHP threshold decreases as ability level increases.",
 		"flag": 0
 	},
 	{
 		"assign": "35048",
 		"jp_explainShort": "戦闘不能回避",
-		"tr_explainShort": "",
+		"tr_explainShort": "Prevents Incapacitation",
 		"jp_explainLong": "ＨＰが 50％ 以上残っている場合、\\n一度だけ戦闘不能にならない。\\nアビリティレベルが上昇すると\\n効果発動するためのＨＰの残り％が減る。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Once per battle, keeps you from being incapacitated\\nwhile at or above 50% HP.\\nHP threshold decreases as ability level increases.",
 		"flag": 0
 	},
 	{
 		"assign": "32455",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 3秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 3 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32456",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 3秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 3 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32457",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 炎属性 を 5％\\nHP を 5％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Fire Element by 5%\\nand boosts its HP by 5%.",
 		"flag": 0
 	},
 	{
 		"assign": "32458",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 炎属性 を 5％\\nHP を 5％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Fire Element by 5%\\nand boosts its HP by 5%.",
 		"flag": 0
 	},
 	{
 		"assign": "32459",
 		"jp_explainShort": "プレイヤーパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Player Parameter Boost",
 		"jp_explainLong": "プレイヤーの 攻撃力全般 を 100％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts player ATK by 100%.",
 		"flag": 0
 	},
 	{
 		"assign": "32460",
 		"jp_explainShort": "プレイヤーパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Player Parameter Boost",
 		"jp_explainLong": "プレイヤーの 攻撃力全般 を 100％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts player ATK by 100%.",
 		"flag": 0
 	},
 	{
 		"assign": "32461",
 		"jp_explainShort": "プレイヤーパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Player Parameter Boost",
 		"jp_explainLong": "プレイヤーの 攻撃力全般 を 100％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts player ATK by 100%.",
 		"flag": 0
 	},
 	{
 		"assign": "32462",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 炎属性 を 20％\\nHP を 5％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Fire Element by 20%\\nand boosts its HP by 5%.",
 		"flag": 0
 	},
 	{
 		"assign": "32463",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 炎属性 を 20％\\nHP を 5％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Fire Element by 20%\\nand boosts its HP by 5%.",
 		"flag": 0
 	},
 	{
 		"assign": "32464",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 光属性 を 20％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Light Element by 20%.",
 		"flag": 0
 	},
 	{
 		"assign": "32465",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 光属性 を 20％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Light Element by 20%.",
 		"flag": 0
 	},
 	{
 		"assign": "32466",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 25％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 25%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32467",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 25％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 25%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32468",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 10％\\nCP を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32469",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 10％\\nCP を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32470",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32471",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32472",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32473",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32474",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32475",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32476",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32477",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32478",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32479",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32480",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32481",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32482",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32483",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32484",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32485",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32486",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32487",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 3秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 3 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32488",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 3秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 3 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32489",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32490",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32491",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 雷属性 を 20％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Lightning Element by 20%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32492",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 雷属性 を 20％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Lightning Element by 20%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32493",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの CP を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's CP by 30%.",
 		"flag": 0
 	},
 	{
 		"assign": "32494",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの CP を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's CP by 30%.",
 		"flag": 0
 	},
 	{
 		"assign": "32495",
 		"jp_explainShort": "プレイヤーパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Player Parameter Boost",
 		"jp_explainLong": "プレイヤーの 攻撃力全般 を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts player ATK by 30%.",
 		"flag": 0
 	},
 	{
 		"assign": "32496",
 		"jp_explainShort": "プレイヤーパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Player Parameter Boost",
 		"jp_explainLong": "プレイヤーの 攻撃力全般 を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts player ATK by 30%.",
 		"flag": 0
 	},
 	{
 		"assign": "32497",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32498",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32499",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "氷属性 の上限値が 20 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Ice Element by 20.",
 		"flag": 0
 	},
 	{
 		"assign": "32500",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "氷属性 の上限値が 20 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Ice Element by 20.",
 		"flag": 0
 	},
 	{
 		"assign": "32501",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "氷属性 の上限値が 20 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Ice Element by 20.",
 		"flag": 0
 	},
 	{
 		"assign": "32502",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "風属性 の上限値が 20 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Wind Element by 20.",
 		"flag": 0
 	},
 	{
 		"assign": "32503",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "風属性 の上限値が 20 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Wind Element by 20.",
 		"flag": 0
 	},
 	{
 		"assign": "32504",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "風属性 の上限値が 20 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Wind Element by 20.",
 		"flag": 0
 	},
 	{
 		"assign": "32505",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32506",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32507",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32508",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32509",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32510",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32511",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32512",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32513",
 		"jp_explainShort": "効果時間延長",
-		"tr_explainShort": "",
+		"tr_explainShort": "Effect Duration Extended",
 		"jp_explainLong": "装備したチップのアビリティ効果時間を 5秒 延長する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Extends the linked chip's effect duration\\nby 5 seconds.",
 		"flag": 0
 	},
 	{
 		"assign": "32514",
 		"jp_explainShort": "特定操作時ＣＰ回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Action CP Recovery",
 		"jp_explainLong": "スライド操作時 に\\nＣＰが 5 回復する。(発動確率： 小 )",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to recover 5 CP.\\n(Activation rate: Low)",
 		"flag": 0
 	},
 	{
 		"assign": "32515",
 		"jp_explainShort": "特定操作時ＣＰ回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Action CP Recovery",
 		"jp_explainLong": "スライド操作時 に\\nＣＰが 5 回復する。(発動確率： 小 )",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to recover 5 CP.\\n(Activation rate: Low)",
 		"flag": 0
 	},
 	{
 		"assign": "32516",
 		"jp_explainShort": "プレイヤーパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Player Parameter Boost",
 		"jp_explainLong": "プレイヤーの 攻撃力全般 を 10％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts player ATK by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32517",
 		"jp_explainShort": "プレイヤーパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Player Parameter Boost",
 		"jp_explainLong": "プレイヤーの 攻撃力全般 を 10％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts player ATK by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32518",
 		"jp_explainShort": "発動ＣＰダウン",
-		"tr_explainShort": "",
+		"tr_explainShort": "CP Consumption Down",
 		"jp_explainLong": "装備したアクティブチップの消費ＣＰが 10％ 減少する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Reduces the CP consumption of a linked\\nActive Chip by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32519",
 		"jp_explainShort": "発動ＣＰダウン",
-		"tr_explainShort": "",
+		"tr_explainShort": "CP Consumption Down",
 		"jp_explainLong": "装備したアクティブチップの消費ＣＰが 10％ 減少する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Reduces the CP consumption of a linked\\nActive Chip by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32520",
 		"jp_explainShort": "属性ダメージアップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Element Damage Up",
 		"jp_explainLong": "闇属性 が弱点の敵に対し\\nその属性によるダメージを 4％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts Dark Element damage by 4%\\nagainst enemies weak to it.\\n<color=yellow>[S-Frame]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "32521",
 		"jp_explainShort": "属性ダメージアップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Element Damage Up",
 		"jp_explainLong": "闇属性 が弱点の敵に対し\\nその属性によるダメージを 4％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts Dark Element damage by 4%\\nagainst enemies weak to it.\\n<color=yellow>[S-Frame]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "32522",
 		"jp_explainShort": "特定操作時ＣＰ回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Action CP Recovery",
 		"jp_explainLong": "スライド操作時 に\\nＣＰが 10 回復する。(発動確率： 小 )",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to recover 10 CP.\\n(Activation rate: Low)",
 		"flag": 0
 	},
 	{
 		"assign": "32523",
 		"jp_explainShort": "特定操作時ＣＰ回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Action CP Recovery",
 		"jp_explainLong": "スライド操作時 に\\nＣＰが 10 回復する。(発動確率： 小 )",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to recover 10 CP.\\n(Activation rate: Low)",
 		"flag": 0
 	},
 	{
 		"assign": "32524",
 		"jp_explainShort": "特定操作時ＣＰ回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Action CP Recovery",
 		"jp_explainLong": "スライド操作時 に\\nＣＰが 10 回復する。(発動確率： 小 )",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to recover 10 CP.\\n(Activation rate: Low)",
 		"flag": 0
 	},
 	{
 		"assign": "32525",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32526",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32527",
 		"jp_explainShort": "発動率アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Activation Rate Up",
 		"jp_explainLong": "装備したサポートチップの発動率が 25％ 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32528",
 		"jp_explainShort": "発動率アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Activation Rate Up",
 		"jp_explainLong": "装備したサポートチップの発動率が 25％ 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32529",
 		"jp_explainShort": "発動率アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Activation Rate Up",
 		"jp_explainLong": "装備したサポートチップの発動率が 25％ 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32530",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "氷属性 の上限値が 10 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Ice Element by 10.",
 		"flag": 0
 	},
 	{
 		"assign": "32531",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "光属性 の上限値が 10 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Light Element by 10.",
 		"flag": 0
 	},
 	{
 		"assign": "32532",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "闇属性 の上限値が 10 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Dark Element by 10.",
 		"flag": 0
 	},
 	{
 		"assign": "32533",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "炎属性 の上限値が 10 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Fire Element by 10.",
 		"flag": 0
 	},
 	{
 		"assign": "32534",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "風属性 の上限値が 10 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Wind Element by 10.",
 		"flag": 0
 	},
 	{
 		"assign": "32535",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "雷属性 の上限値が 10 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Lightning Element by 10.",
 		"flag": 0
 	},
 	{
 		"assign": "32536",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "光属性 の上限値が 10 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Light Element by 10.",
 		"flag": 0
 	},
 	{
 		"assign": "32537",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "氷属性 の上限値が 10 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Ice Element by 10.",
 		"flag": 0
 	},
 	{
 		"assign": "32538",
 		"jp_explainShort": "属性値上限アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Maximum Element Up",
 		"jp_explainLong": "炎属性 の上限値が 10 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases your maximum Fire Element by 10.",
 		"flag": 0
 	},
 	{
 		"assign": "32539",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの CP を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's CP by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32540",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの CP を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's CP by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32541",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 炎属性 を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Fire Element by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32542",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 炎属性 を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Fire Element by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32543",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32544",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32545",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32546",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 10％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32547",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 10％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32548",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32549",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32550",
 		"jp_explainShort": "特定操作時ＨＰ回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Action HP Recovery",
 		"jp_explainLong": "スライド操作時 に\\nＨＰが 5％ 回復する。(発動確率： 小 )",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to recover 5% HP.\\n(Activation rate: Low)",
 		"flag": 0
 	},
 	{
 		"assign": "32551",
 		"jp_explainShort": "特定操作時ＨＰ回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Action HP Recovery",
 		"jp_explainLong": "スライド操作時 に\\nＨＰが 5％ 回復する。(発動確率： 小 )",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to recover 5% HP.\\n(Activation rate: Low)",
 		"flag": 0
 	},
 	{
 		"assign": "32552",
 		"jp_explainShort": "発動率アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Activation Rate Up",
 		"jp_explainLong": "装備したサポートチップの発動率が 15％ 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32553",
 		"jp_explainShort": "発動率アップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Activation Rate Up",
 		"jp_explainLong": "装備したサポートチップの発動率が 15％ 上昇する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32554",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの CP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's CP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32555",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの CP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's CP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32556",
 		"jp_explainShort": "特定操作時ＣＰ回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Action CP Recovery",
 		"jp_explainLong": "スライド操作時 に\\nＣＰが 5 回復する。(発動確率： 小 )",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to recover 5 CP.\\n(Activation rate: Low)",
 		"flag": 0
 	},
 	{
 		"assign": "32557",
 		"jp_explainShort": "特定操作時ＣＰ回復",
-		"tr_explainShort": "",
+		"tr_explainShort": "Action CP Recovery",
 		"jp_explainLong": "スライド操作時 に\\nＣＰが 5 回復する。(発動確率： 小 )",
-		"tr_explainLong": "",
+		"tr_explainLong": "Slide Actions have a chance to recover 5 CP.\\n(Activation rate: Low)",
 		"flag": 0
 	},
 	{
 		"assign": "32558",
 		"jp_explainShort": "属性ダメージアップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Element Damage Up",
 		"jp_explainLong": "氷属性 が弱点の敵に対し\\nその属性によるダメージを 4％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts Ice Element damage by 4%\\nagainst enemies weak to it.\\n<color=yellow>[S-Frame]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "32559",
 		"jp_explainShort": "属性ダメージアップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Element Damage Up",
 		"jp_explainLong": "氷属性 が弱点の敵に対し\\nその属性によるダメージを 4％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts Ice Element damage by 4%\\nagainst enemies weak to it.\\n<color=yellow>[S-Frame]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "32560",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 風属性 を 20％\\nHP を 5％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Wind Element by 20%\\nand boosts its HP by 5%.",
 		"flag": 0
 	},
 	{
 		"assign": "32561",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 風属性 を 20％\\nHP を 5％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Wind Element by 20%\\nand boosts its HP by 5%.",
 		"flag": 0
 	},
 	{
 		"assign": "32562",
 		"jp_explainShort": "属性ダメージアップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Element Damage Up",
 		"jp_explainLong": "闇属性 が弱点の敵に対し\\nその属性によるダメージを 6％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts Dark Element damage by 6%\\nagainst enemies weak to it.\\n<color=yellow>[S-Frame]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "32563",
 		"jp_explainShort": "属性ダメージアップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Element Damage Up",
 		"jp_explainLong": "闇属性 が弱点の敵に対し\\nその属性によるダメージを 6％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts Dark Element damage by 6%\\nagainst enemies weak to it.\\n<color=yellow>[S-Frame]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "32564",
 		"jp_explainShort": "属性ダメージアップ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Element Damage Up",
 		"jp_explainLong": "闇属性 が弱点の敵に対し\\nその属性によるダメージを 6％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts Dark Element damage by 6%\\nagainst enemies weak to it.\\n<color=yellow>[S-Frame]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "32565",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 10％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32566",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 10％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32567",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 雷属性 を 5％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Lightning Element by 5%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32568",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの 雷属性 を 5％\\nCP を 15％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's Lightning Element by 5%\\nand boosts its CP by 15%.",
 		"flag": 0
 	},
 	{
 		"assign": "32569",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 25％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 25%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32570",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 25％\\nCP を 10％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 25%\\nand boosts its CP by 10%.",
 		"flag": 0
 	},
 	{
 		"assign": "32571",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 10％\\nCP を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32572",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 10％\\nCP を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 10%\\nand boosts its CP by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32573",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32574",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32575",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32576",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 15％\\nCP を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 15%\\nand boosts its CP by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32577",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 15％\\nCP を 25％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 15%\\nand boosts its CP by 25%.",
 		"flag": 0
 	},
 	{
 		"assign": "32578",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%.",
 		"flag": 0
 	},
 	{
 		"assign": "32579",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 30%.",
 		"flag": 0
 	},
 	{
 		"assign": "32580",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32581",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
 		"flag": 0
 	},
 	{
 		"assign": "32582",
 		"jp_explainShort": "チップパラメータ増加",
-		"tr_explainShort": "",
+		"tr_explainShort": "Chip Parameter Boost",
 		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
+		"flag": 0
+	},
+	{
+		"assign": "32585",
+		"jp_explainShort": "発動率アップ",
+		"tr_explainShort": "Activation Rate Up",
+		"jp_explainLong": "装備したサポートチップの発動率が 15％ 上昇する。",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 15%.",
+		"flag": 0
+	},
+	{
+		"assign": "32586",
+		"jp_explainShort": "発動率アップ",
+		"tr_explainShort": "Activation Rate Up",
+		"jp_explainLong": "装備したサポートチップの発動率が 15％ 上昇する。",
+		"tr_explainLong": "Increases linked Support Chip's\\nactivation rate by 15%.",
+		"flag": 0
+	},
+	{
+		"assign": "32587",
+		"jp_explainShort": "属性値上限アップ",
+		"tr_explainShort": "Maximum Element Up",
+		"jp_explainLong": "炎属性 の上限値が 15 上昇する。",
+		"tr_explainLong": "Increases your maximum Fire Element by 15.",
+		"flag": 0
+	},
+	{
+		"assign": "32588",
+		"jp_explainShort": "属性値上限アップ",
+		"tr_explainShort": "Maximum Element Up",
+		"jp_explainLong": "雷属性 の上限値が 15 上昇する。",
+		"tr_explainLong": "Increases your maximum Lightning Element by 15.",
+		"flag": 0
+	},
+	{
+		"assign": "32589",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの 氷属性 を 20％\\nCP を 10％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's Ice Element by 20%\\nand boosts its CP by 10%.",
+		"flag": 0
+	},
+	{
+		"assign": "32590",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの 氷属性 を 20％\\nCP を 10％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's Ice Element by 20%\\nand boosts its CP by 10%.",
+		"flag": 0
+	},
+	{
+		"assign": "32591",
+		"jp_explainShort": "属性ダメージアップ",
+		"tr_explainShort": "Element Damage Up",
+		"jp_explainLong": "光属性 が弱点の敵に対し\\nその属性によるダメージを 4％ 増加する。",
+		"tr_explainLong": "Boosts Light Element damage by 4%\\nagainst enemies weak to it.\\n<color=yellow>[S-Frame]</color>",
+		"flag": 0
+	},
+	{
+		"assign": "32592",
+		"jp_explainShort": "属性ダメージアップ",
+		"tr_explainShort": "Element Damage Up",
+		"jp_explainLong": "光属性 が弱点の敵に対し\\nその属性によるダメージを 4％ 増加する。",
+		"tr_explainLong": "Boosts Light Element damage by 4%\\nagainst enemies weak to it.\\n<color=yellow>[S-Frame]</color>",
+		"flag": 0
+	},
+	{
+		"assign": "32593",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
+		"flag": 0
+	},
+	{
+		"assign": "32594",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
+		"flag": 0
+	},
+	{
+		"assign": "32595",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
+		"flag": 0
+	},
+	{
+		"assign": "32596",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
+		"flag": 0
+	},
+	{
+		"assign": "32597",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
+		"flag": 0
+	},
+	{
+		"assign": "32598",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの HP を 35％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's HP by 35%.",
+		"flag": 0
+	},
+	{
+		"assign": "32599",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの HP を 20％\\nCP を 10％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's HP by 20%\\nand boosts its CP by 10%.",
+		"flag": 0
+	},
+	{
+		"assign": "32600",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの HP を 20％\\nCP を 10％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's HP by 20%\\nand boosts its CP by 10%.",
+		"flag": 0
+	},
+	{
+		"assign": "32601",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの HP を 25％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's HP by 25%.",
+		"flag": 0
+	},
+	{
+		"assign": "32602",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの HP を 25％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's HP by 25%.",
+		"flag": 0
+	},
+	{
+		"assign": "32603",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの CP を 25％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's CP by 25%.",
+		"flag": 0
+	},
+	{
+		"assign": "32604",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの CP を 25％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's CP by 25%.",
+		"flag": 0
+	},
+	{
+		"assign": "32605",
+		"jp_explainShort": "特定操作時ＣＰ回復",
+		"tr_explainShort": "Action CP Recovery",
+		"jp_explainLong": "スライド操作時 に\\nＣＰが 5 回復する。(発動確率： 小 )",
+		"tr_explainLong": "Slide Actions have a chance to recover 5 CP.\\n(Activation rate: Low)",
+		"flag": 0
+	},
+	{
+		"assign": "32606",
+		"jp_explainShort": "特定操作時ＣＰ回復",
+		"tr_explainShort": "Action CP Recovery",
+		"jp_explainLong": "スライド操作時 に\\nＣＰが 5 回復する。(発動確率： 小 )",
+		"tr_explainLong": "Slide Actions have a chance to recover 5 CP.\\n(Activation rate: Low)",
+		"flag": 0
+	},
+	{
+		"assign": "32607",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの 炎属性 を 35％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's Fire Element by 35%.",
+		"flag": 0
+	},
+	{
+		"assign": "32608",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの 氷属性 を 35％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's Ice Element by 35%.",
+		"flag": 0
+	},
+	{
+		"assign": "32609",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの 雷属性 を 35％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's Lightning Element by 35%.",
+		"flag": 0
+	},
+	{
+		"assign": "32610",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの 風属性 を 35％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's Wind Element by 35%.",
+		"flag": 0
+	},
+	{
+		"assign": "32611",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの 光属性 を 35％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's Light Element by 35%.",
+		"flag": 0
+	},
+	{
+		"assign": "32612",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの 闇属性 を 35％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's Dark Element by 35%.",
+		"flag": 0
+	},
+	{
+		"assign": "32613",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの 光属性 を 10％\\nHP を 10％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's Light Element by 10%\\nand boosts its HP by 10%.",
+		"flag": 0
+	},
+	{
+		"assign": "32614",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの 光属性 を 10％\\nHP を 10％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's Light Element by 10%\\nand boosts its HP by 10%.",
+		"flag": 0
+	},
+	{
+		"assign": "32615",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの 風属性 を 10％\\nCP を 10％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's Wind Element by 10%\\nand boosts its CP by 10%.",
+		"flag": 0
+	},
+	{
+		"assign": "32616",
+		"jp_explainShort": "チップパラメータ増加",
+		"tr_explainShort": "Chip Parameter Boost",
+		"jp_explainLong": "装備したチップの 風属性 を 10％\\nCP を 10％ 増加する。",
+		"tr_explainLong": "Boosts linked chip's Wind Element by 10%\\nand boosts its CP by 10%.",
+		"flag": 0
+	},
+	{
+		"assign": "32617",
+		"jp_explainShort": "プレイヤーパラメータ増加",
+		"tr_explainShort": "Player Parameter Boost",
+		"jp_explainLong": "プレイヤーの 攻撃力全般 を 100％ 増加する。",
+		"tr_explainLong": "Boosts player ATK by 100%.",
+		"flag": 0
+	},
+	{
+		"assign": "32618",
+		"jp_explainShort": "プレイヤーパラメータ増加",
+		"tr_explainShort": "Player Parameter Boost",
+		"jp_explainLong": "プレイヤーの 攻撃力全般 を 100％ 増加する。",
+		"tr_explainLong": "Boosts player ATK by 100%.",
+		"flag": 0
+	},
+	{
+		"assign": "32619",
+		"jp_explainShort": "プレイヤーパラメータ増加",
+		"tr_explainShort": "Player Parameter Boost",
+		"jp_explainLong": "プレイヤーの 攻撃力全般 を 100％ 増加する。",
+		"tr_explainLong": "Boosts player ATK by 100%.",
 		"flag": 0
 	},
 	{
@@ -17386,193 +17666,193 @@
 	{
 		"assign": "60351",
 		"jp_explainShort": "追加ダメージ付与",
-		"tr_explainShort": "",
+		"tr_explainShort": "Additional Damage",
 		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Deals an additional 3% damage when\\nhitting with the linked PA/Tech.\\n<color=yellow>[Chase]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "60352",
 		"jp_explainShort": "追加ダメージ付与",
-		"tr_explainShort": "",
+		"tr_explainShort": "Additional Damage",
 		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Deals an additional 3% damage when\\nhitting with the linked PA/Tech.\\n<color=yellow>[Chase]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "60353",
 		"jp_explainShort": "追加ダメージ付与",
-		"tr_explainShort": "",
+		"tr_explainShort": "Additional Damage",
 		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Deals an additional 3% damage when\\nhitting with the linked PA/Tech.\\n<color=yellow>[Chase]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "60354",
 		"jp_explainShort": "追加ダメージ付与",
-		"tr_explainShort": "",
+		"tr_explainShort": "Additional Damage",
 		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Deals an additional 3% damage when\\nhitting with the linked PA/Tech.\\n<color=yellow>[Chase]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "60355",
 		"jp_explainShort": "追加ダメージ付与",
-		"tr_explainShort": "",
+		"tr_explainShort": "Additional Damage",
 		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Deals an additional 3% damage when\\nhitting with the linked PA/Tech.\\n<color=yellow>[Chase]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "60356",
 		"jp_explainShort": "追加ダメージ付与",
-		"tr_explainShort": "",
+		"tr_explainShort": "Additional Damage",
 		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Deals an additional 3% damage when\\nhitting with the linked PA/Tech.\\n<color=yellow>[Chase]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "60357",
 		"jp_explainShort": "追加ダメージ付与",
-		"tr_explainShort": "",
+		"tr_explainShort": "Additional Damage",
 		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Deals an additional 3% damage when\\nhitting with the linked PA/Tech.\\n<color=yellow>[Chase]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "60358",
 		"jp_explainShort": "追加ダメージ付与",
-		"tr_explainShort": "",
+		"tr_explainShort": "Additional Damage",
 		"jp_explainLong": "装備した必殺技・法術がヒットした時に\\n追加で 3％ のダメージを与える。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Deals an additional 3% damage when\\nhitting with the linked PA/Tech.\\n<color=yellow>[Chase]</color>",
 		"flag": 0
 	},
 	{
 		"assign": "60359",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts ATK by 75% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60360",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts ATK by 75% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60361",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts ATK by 75% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60362",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts ATK by 75% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60363",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts ATK by 75% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60364",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts ATK by 75% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60365",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts ATK by 75% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60366",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 攻撃力全般 を 75％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts ATK by 75% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60235",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts DEF by 30% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60236",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts DEF by 30% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60237",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts DEF by 30% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60238",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts DEF by 30% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60239",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts DEF by 30% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60240",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts DEF by 30% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60241",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts DEF by 30% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	},
 	{
 		"assign": "60242",
 		"jp_explainShort": "技・法終了時パラメータＵＰ",
-		"tr_explainShort": "",
+		"tr_explainShort": "Params Up After PA/Tech",
 		"jp_explainLong": "装備先のチップ発動後\\nジャストアタック可能なタイミングから\\n一定時間、 防御力全般 を 30％ 増加する。",
-		"tr_explainLong": "",
+		"tr_explainLong": "Boosts DEF by 30% for 10 seconds when\\nthe Just Attack ring appears after\\nusing the linked PA/Tech.",
 		"flag": 0
 	}
 ]

@@ -11,7 +11,7 @@
 		"jp_text": "カラーチェンジパス",
 		"tr_text": "컬러 체인지 패스",
 		"jp_explain": "エステにて『PSO2』モデルの\nカラー変更が可能。\n利用するたびにパスは消費される。",
-		"tr_explain": "Allows you to recolor your\ncharacter from the Beauty Salon."
+		"tr_explain": "Allows you to recolor your character\nfrom the PSO2 Beauty Salon."
 	},
 	{
 		"assign": "32104",
@@ -270,28 +270,28 @@
 		"jp_text": "能力追加成功率＋４０％",
 		"tr_text": "능력 추가 성공률 +40%",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n成功率を４０％上昇させる。",
-		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 40%"
+		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 40%."
 	},
 	{
 		"assign": "321055",
 		"jp_text": "能力追加成功率＋５０％",
 		"tr_text": "능력 추가 성공률 +50%",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n成功率を５０％上昇させる。",
-		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 50%"
+		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 50%."
 	},
 	{
 		"assign": "321056",
 		"jp_text": "能力追加成功（１００％）",
 		"tr_text": "능력 추가 성공률 +100%",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n確実に成功させる。",
-		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 100%"
+		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 100%."
 	},
 	{
 		"assign": "321057",
 		"jp_text": "パートナー追加パス",
 		"tr_text": "파트너 추가 패스",
 		"jp_explain": "サポートパートナーの追加使用パス。\n新規のサポートパートナーを１体追加。\n１キャラクター２枚まで拡張可能。",
-		"tr_explain": "Adds an additional Support Partner.\nUp to a 극대imum of 2\nadditional support partners."
+		"tr_explain": "Adds an additional Support Partner.\nUp to a maximum of 2\nadditional Support Partners."
 	},
 	{
 		"assign": "321058",
@@ -333,7 +333,7 @@
 		"jp_text": "リリパリウム（極大）",
 		"tr_text": "리리파리움 (극대)",
 		"jp_explain": "選択したクラフトエネルギーを\n１２時間回復させる。",
-		"tr_explain": "Reduces the cooldown of a single\ncraft line by 12 hours."
+		"tr_explain": "Reduces the cooldown of a single\nCraft Line by 12 hours."
 	},
 	{
 		"assign": "321067",
@@ -375,7 +375,7 @@
 		"jp_text": "クラス追加（テクター）",
 		"tr_text": "클래스 추가 (텍터)",
 		"jp_explain": "武装エクステンド実行時に\nテクターのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"Techer\"\nto equipment when extended."
+		"tr_explain": "Adds the class \"Techter\"\nto equipment when extended."
 	},
 	{
 		"assign": "321073",
@@ -459,42 +459,42 @@
 		"jp_text": "メリット値＋１０％",
 		"tr_text": "메리트 값 +10%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nメリットの下限値を\n１０％上昇させる。",
-		"tr_explain": "Increases the 메리트 값 by 10%\nwhen customizing techniques."
+		"tr_explain": "Increases the merit value by 10%\nwhen customizing Techniques."
 	},
 	{
 		"assign": "321087",
 		"jp_text": "メリット値＋２０％",
 		"tr_text": "메리트 값 +20%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nメリットの下限値を\n２０％上昇させる。",
-		"tr_explain": "Increases the 메리트 값 by 20%\nwhen customizing techniques."
+		"tr_explain": "Increases the merit value by 20%\nwhen customizing Techniques."
 	},
 	{
 		"assign": "321088",
 		"jp_text": "メリット値＋３０％",
 		"tr_text": "메리트 값 +30%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nメリットの下限値を\n３０％上昇させる。",
-		"tr_explain": "Increases the 메리트 값 by 30%\nwhen customizing techniques."
+		"tr_explain": "Increases the merit value by 30%\nwhen customizing Techniques."
 	},
 	{
 		"assign": "321091",
 		"jp_text": "デメリット値－１０％",
 		"tr_text": "디메리트 값 -10%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nデメリットの上限値を\n１０％軽減させる。",
-		"tr_explain": "Decreases the 디메리트 값 by -10%\nwhen customizing techniques."
+		"tr_explain": "Decreases the demerit value by -10%\nwhen customizing Techniques."
 	},
 	{
 		"assign": "321092",
 		"jp_text": "デメリット値－２０％",
 		"tr_text": "디메리트 값 -20%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nデメリットの上限値を\n２０％軽減させる。",
-		"tr_explain": "Decreases the 디메리트 값 by -20%\nwhen customizing techniques."
+		"tr_explain": "Decreases the demerit value by -20%\nwhen customizing Techniques."
 	},
 	{
 		"assign": "321093",
 		"jp_text": "デメリット値－３０％",
 		"tr_text": "디메리트 값 -30%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nデメリットの上限値を\n３０％軽減させる。",
-		"tr_explain": "Decreases the 디메리트 값 by -30%\nwhen customizing techniques."
+		"tr_explain": "Decreases the demerit value by -30%\nwhen customizing Techniques."
 	},
 	{
 		"assign": "321096",
@@ -648,70 +648,70 @@
 		"jp_text": "合成可能数回復１",
 		"tr_text": "합성 가능 수 회복 1",
 		"jp_explain": "ペットの合成回数が５回増加する。\n増加した合成回数の間は、\n合成経験値が２倍になる。",
-		"tr_explain": ""
+		"tr_explain": "Increases your available Pet Synthesis\nby 5. Doubles EXP gained from these\nincreased Synthesis uses."
 	},
 	{
 		"assign": "3210141",
 		"jp_text": "合成可能数回復２",
 		"tr_text": "합성 가능 수 회복 2",
 		"jp_explain": "ペットの合成回数が５回増加する。\n増加した合成回数の間は、\n合成経験値が２倍になる。",
-		"tr_explain": ""
+		"tr_explain": "Increases your available Pet Synthesis\nby 5. Doubles EXP gained from these\nincreased Synthesis uses."
 	},
 	{
 		"assign": "3210142",
 		"jp_text": "合成可能数回復３",
 		"tr_text": "합성 가능 수 회복 3",
 		"jp_explain": "ペットの合成回数が５回増加する。\n増加した合成回数の間は、\n合成経験値が２倍になる。",
-		"tr_explain": ""
+		"tr_explain": "Increases your available Pet Synthesis\nby 5. Doubles EXP gained from these\nincreased Synthesis uses."
 	},
 	{
 		"assign": "3210143",
 		"jp_text": "合成可能数回復４",
 		"tr_text": "합성 가능 수 회복 4",
 		"jp_explain": "ペットの合成回数が５回増加する。\n増加した合成回数の間は、\n合成経験値が２倍になる。",
-		"tr_explain": ""
+		"tr_explain": "Increases your available Pet Synthesis\nby 5. Doubles EXP gained from these\nincreased Synthesis uses."
 	},
 	{
 		"assign": "3210144",
 		"jp_text": "合成可能数回復５",
 		"tr_text": "합성 가능 수 회복 5",
 		"jp_explain": "ペットの合成回数が５回増加する。\n増加した合成回数の間は、\n合成経験値が２倍になる。",
-		"tr_explain": ""
+		"tr_explain": "Increases your available Pet Synthesis\nby 5. Doubles EXP gained from these\nincreased Synthesis uses."
 	},
 	{
 		"assign": "3210145",
 		"jp_text": "合成可能数回復６",
 		"tr_text": "합성 가능 수 회복 6",
 		"jp_explain": "ペットの合成回数が５回増加する。\n増加した合成回数の間は、\n合成経験値が２倍になる。",
-		"tr_explain": ""
+		"tr_explain": "Increases your available Pet Synthesis\nby 5. Doubles EXP gained from these\nincreased Synthesis uses."
 	},
 	{
 		"assign": "3210146",
 		"jp_text": "合成可能数回復７",
 		"tr_text": "합성 가능 수 회복 7",
 		"jp_explain": "ペットの合成回数が５回増加する。\n増加した合成回数の間は、\n合成経験値が２倍になる。",
-		"tr_explain": ""
+		"tr_explain": "Increases your available Pet Synthesis\nby 5. Doubles EXP gained from these\nincreased Synthesis uses."
 	},
 	{
 		"assign": "3210147",
 		"jp_text": "合成可能数回復８",
 		"tr_text": "합성 가능 수 회복 8",
 		"jp_explain": "ペットの合成回数が５回増加する。\n増加した合成回数の間は、\n合成経験値が２倍になる。",
-		"tr_explain": ""
+		"tr_explain": "Increases your available Pet Synthesis\nby 5. Doubles EXP gained from these\nincreased Synthesis uses."
 	},
 	{
 		"assign": "3210148",
 		"jp_text": "合成可能数回復９",
 		"tr_text": "합성 가능 수 회복 9",
 		"jp_explain": "ペットの合成回数が５回増加する。\n増加した合成回数の間は、\n合成経験値が２倍になる。",
-		"tr_explain": ""
+		"tr_explain": "Increases your available Pet Synthesis\nby 5. Doubles EXP gained from these\nincreased Synthesis uses."
 	},
 	{
 		"assign": "3210149",
 		"jp_text": "合成可能数回復１０",
 		"tr_text": "합성 가능 수 회복 10",
 		"jp_explain": "ペットの合成回数が５回増加する。\n増加した合成回数の間は、\n合成経験値が２倍になる。",
-		"tr_explain": ""
+		"tr_explain": "Increases your available Pet Synthesis\nby 5. Doubles EXP gained from these\nincreased Synthesis uses."
 	},
 	{
 		"assign": "3210150",
@@ -732,14 +732,14 @@
 		"jp_text": "キャンディーリムーバー",
 		"tr_text": "캔디 리무버",
 		"jp_explain": "指定したペットのキャンディーボックスに\nセットしたキャンディーを１つ\nアイテムパックに戻す。",
-		"tr_explain": "Returns one set Candy from\na Candy Box back to\nyour item pack."
+		"tr_explain": "Returns one set Candy from\na Candy Box back to\nyour Inventory."
 	},
 	{
 		"assign": "3210153",
 		"jp_text": "全キャンディーリムーバー",
 		"tr_text": "모든 캔디 리무버",
 		"jp_explain": "指定したペットのキャンディーボックスに\nセットしたキャンディーを全て\nアイテムパックに戻す。",
-		"tr_explain": "Returns all set Candy from a\nCandy Box back to your\nitem pack."
+		"tr_explain": "Returns all set Candy from a\nCandy Box back to your\nInventory."
 	},
 	{
 		"assign": "3210154",
@@ -753,28 +753,28 @@
 		"jp_text": "よいピッケル",
 		"tr_text": "좋은 곡괭이",
 		"jp_explain": "ギャザリングで採取を行える。\nレア採取発生率＋５％",
-		"tr_explain": "A tool for Harvesting.\nRare Collect Rate +5%"
+		"tr_explain": "A tool for Harvesting.\nRare Harvesting Rate +5%"
 	},
 	{
 		"assign": "3210156",
 		"jp_text": "電撃ピッケル",
 		"tr_text": "전격 곡괭이",
 		"jp_explain": "ギャザリングで\nボーナス付き採取を行える。\nレア採取発生率＋８０％\n<yellow>有効期限／２０１７年１２月６日１１時００分<c>",
-		"tr_explain": "A tool for Harvesting.\nRare Collect Rate +80%\n<yellow>Expires Dec 6, 11:00 JST<c>"
+		"tr_explain": "A tool for Harvesting.\nRare Harvesting Rate +80%\n<yellow>Expires Dec 6, 11:00 JST<c>"
 	},
 	{
 		"assign": "3210157",
 		"jp_text": "ファミ通ピッケル",
 		"tr_text": "패미통 곡괭이",
 		"jp_explain": "ギャザリングで\nボーナス付き採取を行える。\nレア採取発生率＋８０％\n<yellow>有効期限／２０１６年１２月７日１１時００分<c>",
-		"tr_explain": "A tool for Harvesting.\nRare Collect Rate +80%\n<yellow>Expires Dec 7, 2016 11:00 JST<c>"
+		"tr_explain": "A tool for Harvesting.\nRare Harvesting Rate +80%\n<yellow>Expires Dec 7, 2016 11:00 JST<c>"
 	},
 	{
 		"assign": "3210158",
 		"jp_text": "【極み】ピッケル",
 		"tr_text": "【극】 곡괭이",
 		"jp_explain": "ギャザリングで採取を行える。\nレア採取発生率＋１００％",
-		"tr_explain": "A tool for Harvesting.\nRare Collect Rate +100%"
+		"tr_explain": "A tool for Harvesting.\nRare Harvesting Rate +100%"
 	},
 	{
 		"assign": "3210159",
@@ -991,77 +991,77 @@
 		"jp_text": "コレクトシート再受注パス",
 		"tr_text": "콜렉트 시트 재수주 패스",
 		"jp_explain": "コレクトシートの再受注申請パス。\n対象の課題に発生しているクール\nタイムをリセットし受注可能とする。",
-		"tr_explain": ""
+		"tr_explain": "Resets the cooldown time on a Collect\nFile sheet, allowing you to take it\nagain right away."
 	},
 	{
 		"assign": "3210195",
 		"jp_text": "ＳＧトレジャー更新１",
 		"tr_text": "SG 트레저 갱신 1",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nＳＧで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe SG Treasure Shop and resets any\npurchase limits for those items."
 	},
 	{
 		"assign": "3210196",
 		"jp_text": "ＳＧトレジャー更新２",
 		"tr_text": "SG 트레저 갱신 2",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nＳＧで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe SG Treasure Shop and resets any\npurchase limits for those items."
 	},
 	{
 		"assign": "3210197",
 		"jp_text": "ＳＧトレジャー更新３",
 		"tr_text": "SG 트레저 갱신 3",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nＳＧで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe SG Treasure Shop and resets any\npurchase limits for those items."
 	},
 	{
 		"assign": "3210198",
 		"jp_text": "ＳＧトレジャー更新４",
 		"tr_text": "SG 트레저 갱신 4",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nＳＧで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe SG Treasure Shop and resets any\npurchase limits for those items."
 	},
 	{
 		"assign": "3210199",
 		"jp_text": "ＳＧトレジャー更新５",
 		"tr_text": "SG 트레저 갱신 5",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nＳＧで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe SG Treasure Shop and resets any\npurchase limits for those items."
 	},
 	{
 		"assign": "3210200",
 		"jp_text": "ＳＧトレジャー更新６",
 		"tr_text": "SG 트레저 갱신 6",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nＳＧで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe SG Treasure Shop and resets any\npurchase limits for those items."
 	},
 	{
 		"assign": "3210201",
 		"jp_text": "ＳＧトレジャー更新７",
 		"tr_text": "SG 트레저 갱신 7",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nＳＧで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe SG Treasure Shop and resets any\npurchase limits for those items."
 	},
 	{
 		"assign": "3210202",
 		"jp_text": "ＳＧトレジャー更新８",
 		"tr_text": "SG 트레저 갱신 8",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nＳＧで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe SG Treasure Shop and resets any\npurchase limits for those items."
 	},
 	{
 		"assign": "3210203",
 		"jp_text": "ＳＧトレジャー更新９",
 		"tr_text": "SG 트레저 갱신 9",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nＳＧで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe SG Treasure Shop and resets any\npurchase limits for those items."
 	},
 	{
 		"assign": "3210204",
 		"jp_text": "ＳＧトレジャー更新１０",
 		"tr_text": "SG 트레저 갱신 10",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nＳＧで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe SG Treasure Shop and resets any\npurchase limits for those items."
 	},
 	{
 		"assign": "3210205",
@@ -1103,70 +1103,70 @@
 		"jp_text": "メセタトレジャー更新１",
 		"tr_text": "메세타 트래저 갱신 1",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210211",
 		"jp_text": "メセタトレジャー更新２",
 		"tr_text": "메세타 트래저 갱신 2",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210212",
 		"jp_text": "メセタトレジャー更新３",
 		"tr_text": "메세타 트래저 갱신 3",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210213",
 		"jp_text": "メセタトレジャー更新４",
 		"tr_text": "메세타 트래저 갱신 4",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210214",
 		"jp_text": "メセタトレジャー更新５",
 		"tr_text": "메세타 트래저 갱신 5",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210215",
 		"jp_text": "メセタトレジャー更新６",
 		"tr_text": "메세타 트래저 갱신 6",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210216",
 		"jp_text": "メセタトレジャー更新７",
 		"tr_text": "메세타 트래저 갱신 7",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210217",
 		"jp_text": "メセタトレジャー更新８",
 		"tr_text": "메세타 트래저 갱신 8",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210218",
 		"jp_text": "メセタトレジャー更新９",
 		"tr_text": "메세타 트래저 갱신 9",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210219",
 		"jp_text": "メセタトレジャー更新１０",
 		"tr_text": "메세타 트래저 갱신 10",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": ""
+		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210220",
@@ -1404,14 +1404,14 @@
 		"jp_text": "メリット値＋６０％",
 		"tr_text": "메리트 값 +60%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nメリットの下限値を\n６０％上昇させる。",
-		"tr_explain": "Increases the 메리트 값 by 60%\nwhen customizing techniques."
+		"tr_explain": "Increases the merit value by 60%\nwhen customizing Techniques."
 	},
 	{
 		"assign": "3210273",
 		"jp_text": "デメリット値－６０％",
 		"tr_text": "디메리트 값 -60%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nデメリットの上限値を\n６０％軽減させる。",
-		"tr_explain": "Decreases the 디메리트 값 by\n-60% when customizing techniques."
+		"tr_explain": "Decreases the demerit value by\n-60% when customizing Techniques."
 	},
 	{
 		"assign": "3210274",
@@ -1432,14 +1432,14 @@
 		"jp_text": "メリット値＋７０％",
 		"tr_text": "메리트 값 +70%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nメリットの下限値を\n７０％上昇させる。",
-		"tr_explain": "Increases the 메리트 값 by 70%\nwhen customizing techniques."
+		"tr_explain": "Increases the merit value by 70%\nwhen customizing Techniques."
 	},
 	{
 		"assign": "3210277",
 		"jp_text": "デメリット値－７０％",
 		"tr_text": "디메리트 값 -70%",
 		"jp_explain": "テクニックカスタマイズ実行時に\nデメリットの上限値を\n７０％軽減させる。",
-		"tr_explain": "Decreases the 디메리트 값 by -70%\nwhen customizing techniques."
+		"tr_explain": "Decreases the demerit value by -70%\nwhen customizing Techniques."
 	},
 	{
 		"assign": "3210278",
@@ -1955,9 +1955,9 @@
 	{
 		"assign": "3210370",
 		"jp_text": "Ｓ４追加Ｒ：妙撃の秤",
-		"tr_text": "",
+		"tr_text": "S4 Add R:Skilled Balance",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：妙撃の秤を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Skilled Balance\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210382",
@@ -2123,16 +2123,16 @@
 	{
 		"assign": "3210465",
 		"jp_text": "Ｓ１追加Ｒ：光子の秤２",
-		"tr_text": "",
+		"tr_text": "S1 Add R:Photon Balance 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：光子の秤２を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Photon Balance 2\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210466",
 		"jp_text": "Ｓ１追加Ｒ：滅域輝与２",
-		"tr_text": "",
+		"tr_text": "S1 Add R:Brilliant Ruin 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：滅域輝与２を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Brilliant Ruin 2\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210469",
@@ -2326,9 +2326,9 @@
 	{
 		"assign": "3210523",
 		"jp_text": "Ｓ７追加Ｒ：視敵無双",
-		"tr_text": "",
+		"tr_text": "S7 Add R:Descried Warrior",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：視敵無双を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Descried Warrior\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210529",
@@ -2809,9 +2809,9 @@
 	{
 		"assign": "3210609",
 		"jp_text": "Ｓ３追加Ｒ：妙技の巧",
-		"tr_text": "",
+		"tr_text": "S3 Add R:Wise Skill",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：妙技の巧を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Wise Skill\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210610",
@@ -2858,9 +2858,9 @@
 	{
 		"assign": "3210616",
 		"jp_text": "Ｓ１追加Ｒ：輝充の志２",
-		"tr_text": "",
+		"tr_text": "S1 Add R:Brilliant Intent 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：輝充の志２を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:Brilliant Intent 2\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210626",
@@ -2886,16 +2886,16 @@
 	{
 		"assign": "3210629",
 		"jp_text": "Ｓ２追加Ｒ：保天輝地２",
-		"tr_text": "",
+		"tr_text": "S2 Add R:Heavenly Keeper 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：保天輝地２を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Heavenly Keeper 2\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210630",
 		"jp_text": "Ｓ２追加Ｒ：光子縮減３",
-		"tr_text": "",
+		"tr_text": "S2 Add R:Photon Reduction 3",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：光子縮減３を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:Photon Reduction 3\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210643",
@@ -2942,9 +2942,9 @@
 	{
 		"assign": "3210649",
 		"jp_text": "Ｓ３追加Ｒ：輝勢の恵３",
-		"tr_text": "",
+		"tr_text": "S3 Add R:Radiating Grace 3",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：輝勢の恵３を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:Radiating Grace 3\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210662",
@@ -2963,9 +2963,9 @@
 	{
 		"assign": "3210664",
 		"jp_text": "Ｓ４追加Ｒ：追蝕輝剰",
-		"tr_text": "",
+		"tr_text": "S4 Add R:Pursuing Radiance",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：追蝕輝剰を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:Pursuing Radiance\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210672",
@@ -2984,16 +2984,16 @@
 	{
 		"assign": "3210674",
 		"jp_text": "Ｓ５追加Ｒ：静心拡域",
-		"tr_text": "",
+		"tr_text": "S5 Add R:Calming Expanse",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：静心拡域を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Calming Expanse\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210675",
 		"jp_text": "Ｓ５追加Ｒ：終撃応与",
-		"tr_text": "",
+		"tr_text": "S5 Add R:Parting Gift",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：終撃応与を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:Parting Gift\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210679",
@@ -3019,9 +3019,9 @@
 	{
 		"assign": "3210682",
 		"jp_text": "Ｓ６追加Ｒ：累加拡域",
-		"tr_text": "",
+		"tr_text": "S6 Add R:Raising Expanse",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：累加拡域を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:Raising Expanse\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210689",
@@ -3047,16 +3047,16 @@
 	{
 		"assign": "3210692",
 		"jp_text": "Ｓ７追加Ｒ：法護の与",
-		"tr_text": "",
+		"tr_text": "S7 Add R:Sentinel's Gift",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：法護の与を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Sentinel's Gift\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210693",
 		"jp_text": "Ｓ７追加Ｒ：注技縮地",
-		"tr_text": "",
+		"tr_text": "S7 Add R:Amended Movement",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：注技縮地を付与。",
-		"tr_explain": ""
+		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:Amended Movement\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210699",
@@ -3126,97 +3126,111 @@
 		"jp_text": "N-強化大成功率＋10%",
 		"tr_text": "N-강화 대성공률 +10%",
 		"jp_explain": "アイテム強化時に\n強化が大成功になる確率を\n上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "Increases the chance of a Great\nSuccess when enhancing an item."
 	},
 	{
 		"assign": "321010003",
 		"jp_text": "N-強化大成功率＋20%",
 		"tr_text": "N-강화 대성공률 +20%",
 		"jp_explain": "アイテム強化時に\n強化が大成功になる確率を\n上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "Increases the chance of a Great\nSuccess when enhancing an item."
 	},
 	{
 		"assign": "321010004",
 		"jp_text": "N-強化大成功率＋30%",
 		"tr_text": "N-강화 대성공률 +30%",
 		"jp_explain": "アイテム強化時に\n強化が大成功になる確率を\n上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "Increases the chance of a Great\nSuccess when enhancing an item."
 	},
 	{
 		"assign": "321010006",
 		"jp_text": "N-強化大成功率＋50%",
 		"tr_text": "N-강화 대성공률 +50%",
 		"jp_explain": "アイテム強化時に\n強化が大成功になる確率を\n上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "Increases the chance of a Great\nSuccess when enhancing an item."
 	},
 	{
 		"assign": "321010011",
 		"jp_text": "N-強化大成功率＋100%",
 		"tr_text": "N-강화 대성공률 +100%",
 		"jp_explain": "アイテム強化時に\n強化が大成功になる確率を\n上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "Increases the chance of a Great\nSuccess when enhancing an item."
 	},
 	{
 		"assign": "321010012",
 		"jp_text": "N-特殊能力追加成功率＋5%",
 		"tr_text": "N-특수능력 추가 성공률 +5%",
 		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "Increases the chance of successfully\nadding Special Abilities to an item."
 	},
 	{
 		"assign": "321010013",
 		"jp_text": "N-特殊能力追加成功率＋10%",
 		"tr_text": "N-특수능력 추가 성공률 +10%",
 		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "Increases the chance of successfully\nadding Special Abilities to an item."
 	},
 	{
 		"assign": "321010014",
 		"jp_text": "N-特殊能力追加成功率＋15%",
 		"tr_text": "N-특수능력 추가 성공률 +15%",
 		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "Increases the chance of successfully\nadding Special Abilities to an item."
 	},
 	{
 		"assign": "321010015",
 		"jp_text": "N-特殊能力追加成功率＋20%",
 		"tr_text": "N-특수능력 추가 성공률 +20%",
 		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "Increases the chance of successfully\nadding Special Abilities to an item."
 	},
 	{
 		"assign": "321010017",
 		"jp_text": "N-特殊能力追加成功率＋30%",
 		"tr_text": "N-특수능력 추가 성공률 +30%",
 		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
-		"tr_explain": ""
+		"tr_explain": "Increases the chance of successfully\nadding Special Abilities to an item."
+	},
+	{
+		"assign": "321010039",
+		"jp_text": "N-特殊能力追加アイテム保護",
+		"tr_text": "N-Ability Protection",
+		"jp_explain": "アイテムの特殊能力追加失敗時に\n素材アイテムと特殊能力追加アイテムが\n消費されるのを防止する。",
+		"tr_explain": "Returns the Material Items that\nwere lost from synthesis when\nadding an Ability fails."
 	},
 	{
 		"assign": "321010054",
 		"jp_text": "N-カラーチェンジパス",
 		"tr_text": "N-컬러 체인지 패스",
 		"jp_explain": "エステで、装備している\nコスチューム等のカラー変更ができる。\n利用するごとにパスが必要。",
-		"tr_explain": ""
+		"tr_explain": "Allows you to change the colors of\nyour cosmetics at the Beauty Salon.\nOne pass is required each time."
 	},
 	{
 		"assign": "321010055",
 		"jp_text": "N-スキルツリー追加",
 		"tr_text": "N-스킬 트리 추가 패스",
 		"jp_explain": "新規スキルツリーを1枚追加する。\n1キャラクターにつき\n20枚まで拡張可能。",
-		"tr_explain": ""
+		"tr_explain": "Adds a new Skill Tree to one of your\nClasses. Up to 20 Skill Trees can be\nadded per character."
 	},
 	{
 		"assign": "321010056",
 		"jp_text": "N-追加スキルツリー振り替え",
 		"tr_text": "N-추가 스킬 트리 이동",
 		"jp_explain": "“N-スキルツリー追加”を\n使用前の状態に戻して\nスキルポイントを振り直せる。",
-		"tr_explain": ""
+		"tr_explain": "Lets you transfer one Skill Tree added\nwith an N-Skill Tree Add and/or reset\nany SP assigned to that Skill Tree."
 	},
 	{
 		"assign": "321010057",
 		"jp_text": "N-全スキルツリー初期化",
 		"tr_text": "N-전체 스킬 트리 초기화 패스",
 		"jp_explain": "追加したツリーを含めて\n全スキルツリーを初期化し\nスキルポイントを振り直せる。",
-		"tr_explain": ""
+		"tr_explain": "Resets SP assigned to all Skill Trees,\nincluding Skill Trees added with\nN-Skill Tree Add passes."
+	},
+	{
+		"assign": "321015032",
+		"jp_text": "スペシャルスクラッチ券",
+		"tr_text": "Special Scratch Ticket",
+		"jp_explain": "アイテムパックに所持しておくことで\nスペシャルスクラッチに\n1回挑戦できるチケット。",
+		"tr_explain": "Allows you one chance at\nthe Special Scratch just by\nhaving it in your inventory."
 	}
 ]

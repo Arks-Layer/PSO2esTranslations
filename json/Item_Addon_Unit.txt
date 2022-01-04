@@ -536,7 +536,7 @@
 		"jp_text": "サブ／ソリッドバリア",
 		"tr_text": "서브/솔리드 배리어",
 		"jp_explain": "汎用装備可能なユニット。\n全ての属性への耐性を持ち\n最大ＨＰを大幅に上昇させる。",
-		"tr_explain": "An equippable all-purpose unit.\nProvides Resistance to all attributes\nand greatly increases maximum HP."
+		"tr_explain": "An equippable all-purpose unit.\nProvides resistance to all attributes\nand greatly increases maximum HP."
 	},
 	{
 		"assign": "54010006",
@@ -611,21 +611,35 @@
 	{
 		"assign": "54010016",
 		"jp_text": "ヴィアルトアーマ・アルガ",
-		"tr_text": "",
+		"tr_text": "Vialt Armor Alga",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "54010017",
 		"jp_text": "ヴィアルトアーマ・ベルタ",
-		"tr_text": "",
+		"tr_text": "Vialt Armor Belta",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "54010018",
 		"jp_text": "ヴィアルトアーマ・ツェザ",
-		"tr_text": "",
+		"tr_text": "Vialt Armor Tseza",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010019",
+		"jp_text": "シルヴァプリムアーマ",
+		"tr_text": "Silver Prim Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010020",
+		"jp_text": "ゴルドプリムアーマ",
+		"tr_text": "Gold Prim Armor",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

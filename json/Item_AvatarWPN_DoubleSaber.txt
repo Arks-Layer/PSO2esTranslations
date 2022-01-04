@@ -88,14 +88,14 @@
 		"jp_text": "＊ＰＢセイバー",
 		"tr_text": "＊PB Saber",
 		"jp_explain": "とあるアークスの憧れと悲しみによって\n生み出された両剣型武器迷彩。\nその刃は全てを切り裂く力を持つ。",
-		"tr_explain": "A Double Saber camo created by a\na certain ARKS's sorrow and yearning.\nIts blades can cut through anything."
+		"tr_explain": "A Double Saber camo created by a\ncertain ARKS's sorrow and yearning.\nIts blades can cut through anything."
 	},
 	{
 		"assign": "105015",
 		"jp_text": "＊断翼ロート＝ラウト",
-		"tr_text": "＊Judgement Wings Roto Raut",
+		"tr_text": "＊Judgement Wings Rot Raut",
 		"jp_explain": "創世器「断翼ロート＝ラウト」を\n模して作られた両剣型武器迷彩。\n黒き罰と白き赦しを司る裁断の刃。",
-		"tr_explain": "Weapon camo of the Genesis Weapon\n\"Judgement Wings Roto Raut\". One\nblade punishes, the other forgives."
+		"tr_explain": "Weapon camo of the Genesis Weapon\n\"Judgement Wings Rot Raut\". One\nblade punishes, the other forgives."
 	},
 	{
 		"assign": "105017",
@@ -261,36 +261,50 @@
 	{
 		"assign": "105052",
 		"jp_text": "＊ダブルセイバーレガシー",
-		"tr_text": "",
+		"tr_text": "＊Double Saber Legacy",
 		"jp_explain": "柄の両端に純フォトンの刃を持つ\n両剣型武器迷彩。美しいフォトンの\n輝きは、懐かしさも感じさせる。",
-		"tr_explain": ""
+		"tr_explain": "A Double Saber camo whose blades\nare made of pure Photons. Its Photons'\nbeauty gives it a nostalgic appeal."
 	},
 	{
 		"assign": "105053",
 		"jp_text": "＊スキアストレイン",
-		"tr_text": "",
+		"tr_text": "＊Skia Strain",
 		"jp_explain": "特徴的なフォルムをもつ武器迷彩。\n使用者のフォトンに共鳴し\n秘められた力を解放する。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo with a highly distinctive\nappearance. Resonates with the user's\nPhotons to unleash its hidden power."
 	},
 	{
 		"assign": "105054",
 		"jp_text": "＊ガルグライシス",
-		"tr_text": "",
+		"tr_text": "＊Gal Grysis",
 		"jp_explain": "大気の力を宿すといわれる武器迷彩。\n硝子細工のような装飾が美しいが\n戦場では容赦なく敵を圧倒する。",
-		"tr_explain": ""
+		"tr_explain": "A weapon camo bearing the power\nof the winds. Despite its glass-like\nbeauty, it overwhelms its enemies."
 	},
 	{
 		"assign": "105055",
 		"jp_text": "＊エンシェントクォーツ",
-		"tr_text": "",
+		"tr_text": "＊Ancient Quartz",
 		"jp_explain": "式典用に特別に作られた見た目にも\nこだわりのある両剣型武器迷彩。\n類稀なる力が危険視されている。",
-		"tr_explain": ""
+		"tr_explain": "A unique Double Saber camo made\nfor ceremonies. Seen as dangerous\ndue to its high destructive power."
 	},
 	{
 		"assign": "105056",
 		"jp_text": "＊ダブル＝カノン",
-		"tr_text": "",
+		"tr_text": "＊Double Cannon",
 		"jp_explain": "すべてが謎に包まれた究極の両剣を\n模した武器迷彩。材質も不明な武器の\n外観を忠実に再現した珍品中の珍品。",
-		"tr_explain": ""
+		"tr_explain": "Weapon camo based on the ultimate\nDouble Saber. Faithfully recreates\nthis mysterious item's appearance."
+	},
+	{
+		"assign": "105010001",
+		"jp_text": "＊ハディートセイバー",
+		"tr_text": "＊Hadith Saber",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ダブルセイバー<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Double Saber<c>"
+	},
+	{
+		"assign": "105010002",
+		"jp_text": "＊グラヴィルラルーゴ",
+		"tr_text": "＊Gravil Ralugo",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ダブルセイバー／ロッド<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Double Saber/Rod<c>"
 	}
 ]
