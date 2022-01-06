@@ -3195,8 +3195,22 @@
 		"assign": "321010039",
 		"jp_text": "N-特殊能力追加アイテム保護",
 		"tr_text": "N-Ability Protection",
-		"jp_explain": "アイテムの特殊能力追加失敗時に\n素材アイテムと特殊能力追加アイテムが\n消費されるのを防止する。",
+		"jp_explain": "アイテムの特殊能力追加失敗時に\n素材アイテムが\n消費されるのを防止する。",
 		"tr_explain": "Returns the Material Items that\nwere lost from synthesis when\nadding an Ability fails."
+	},
+	{
+		"assign": "321010041",
+		"jp_text": "N-限界突破代用材/限界値30",
+		"tr_text": "N-Limit Break Substitution/30",
+		"jp_explain": "アイテムの限界突破時に\n強化限界値を20から30にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +20 on a single item."
+	},
+	{
+		"assign": "321010042",
+		"jp_text": "N-限界突破代用材/限界値40",
+		"tr_text": "N-Limit Break Substitution/40",
+		"jp_explain": "アイテムの限界突破時に\n強化限界値を30から40にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +30 on a single item."
 	},
 	{
 		"assign": "321010054",
@@ -3225,6 +3239,27 @@
 		"tr_text": "N-전체 스킬 트리 초기화 패스",
 		"jp_explain": "追加したツリーを含めて\n全スキルツリーを初期化し\nスキルポイントを振り直せる。",
 		"tr_explain": "Resets SP assigned to all Skill Trees,\nincluding Skill Trees added with\nN-Skill Tree Add passes."
+	},
+	{
+		"assign": "321010063",
+		"jp_text": "N-潜在能力解放代用材/Lv.1",
+		"tr_text": "N-Material Substitution/Lv.1",
+		"jp_explain": "アイテムの潜在能力を\nLv.1にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.1 on a single item."
+	},
+	{
+		"assign": "321010064",
+		"jp_text": "N-潜在能力解放代用材/Lv.2",
+		"tr_text": "N-Material Substitution/Lv.2",
+		"jp_explain": "アイテムの潜在能力を\nLv.2にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.2 on a single item."
+	},
+	{
+		"assign": "321010065",
+		"jp_text": "N-潜在能力解放代用材/Lv.3",
+		"tr_text": "N-Material Substitution/Lv.3",
+		"jp_explain": "アイテムの潜在能力を\nLv.3にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.3 on a single item."
 	},
 	{
 		"assign": "321015032",
