@@ -675,7 +675,7 @@
 		"assign": "37010006",
 		"jp_text": "N-エクスキューブ",
 		"tr_text": "N-엑스큐브",
-		"jp_explain": "さらなる力の求道者に\n与えられる特殊な結晶体。\n特定の場所でアイテムと交換できる。",
+		"jp_explain": "さらなる力の求道者に\n与えられる特殊な結晶体。\nアイテムラボでの\n潜在能力解放などに用いる。",
 		"tr_explain": "A special crystal given to those who\nseek strength. Can be traded for items\nat specific locations."
 	},
 	{
@@ -702,16 +702,16 @@
 	{
 		"assign": "37010020",
 		"jp_text": "Bトリガー/エアルイエロー",
-		"tr_text": "B. Trigger/Aerio Yellow",
+		"tr_text": "B. Trigger/Aelio Yellow",
 		"jp_explain": "バトルディアで使用するトリガー。\n“エアリオトルーパーズ”の\nクリア時に消費される。",
-		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Aerio Troopers\"."
+		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Aelio Troopers\"."
 	},
 	{
 		"assign": "37010021",
 		"jp_text": "Bトリガー/エアルパープル",
-		"tr_text": "B. Trigger/Aerio Purple",
+		"tr_text": "B. Trigger/Aelio Purple",
 		"jp_explain": "バトルディアで使用するトリガー。\n“エアリオデバステーターズ”の\nクリア時に消費される。",
-		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Aerio Devastators\"."
+		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Aelio Devastators\"."
 	},
 	{
 		"assign": "37010022",
@@ -719,5 +719,47 @@
 		"tr_text": "N-Mission Badge",
 		"jp_explain": "アイテムリサイクルで\n交換に使用できるバッヂ。",
 		"tr_explain": "An Item that can be\nexchanged in the Recycle Shop."
+	},
+	{
+		"assign": "37010023",
+		"jp_text": "ステラーシード",
+		"tr_text": "",
+		"jp_explain": "流星雨のときに降り注いだとされる石。\n高値で売却することができる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010024",
+		"jp_text": "Bトリガー/リテナイエロー",
+		"tr_text": "",
+		"jp_explain": "バトルディアで使用するトリガー。\n“リテムトルーパーズ”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010025",
+		"jp_text": "Bトリガー/リテナパープル",
+		"tr_text": "",
+		"jp_explain": "バトルディアで使用するトリガー。\n“リテムデバステーターズ”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010026",
+		"jp_text": "ブロークンリアクター",
+		"tr_text": "",
+		"jp_explain": "破損したなんらかの機械の動力炉。\nあまり高値はつかない。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010027",
+		"jp_text": "ベータリアクター",
+		"tr_text": "",
+		"jp_explain": "なんらかの機械の動力炉。\n高値で売却することができる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010028",
+		"jp_text": "ガンマリアクター",
+		"tr_text": "",
+		"jp_explain": "なんらかの機械の動力炉。\n高値で売却することができる。",
+		"tr_explain": ""
 	}
 ]
