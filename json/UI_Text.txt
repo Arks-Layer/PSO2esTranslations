@@ -8605,6 +8605,11 @@
 		"tr_text": "Mag"
 	},
 	{
+		"assign": "chip_type_name_19",
+		"jp_text": "交換用素材",
+		"tr_text": ""
+	},
+	{
 		"assign": "chip_type_name_weaponoid",
 		"jp_text": "ウェポノイド",
 		"tr_text": "Weaponoid"
@@ -10438,6 +10443,11 @@
 		"assign": "menu_sub_button_system_take_over",
 		"jp_text": "端末引き継ぎ情報",
 		"tr_text": "Device Transfer"
+	},
+	{
+		"assign": "menu_sub_button_system_delete_account",
+		"jp_text": "アカウント削除",
+		"tr_text": ""
 	},
 	{
 		"assign": "menu_sub_button_community_friend",
@@ -24921,7 +24931,7 @@
 	},
 	{
 		"assign": "accept_box_item_trade_short_dialog_message",
-		"jp_text": "交換に必要なアイテムが不足しています。",
+		"jp_text": "交換の対象となるアイテムを持っていません。",
 		"tr_text": ""
 	},
 	{
@@ -25071,22 +25081,152 @@
 	},
 	{
 		"assign": "acceptbpx_item_trade_over_dialog_title",
-		"jp_text": "所持数オーバー",
+		"jp_text": "交換不可",
 		"tr_text": ""
 	},
 	{
 		"assign": "acceptbpx_item_trade_over_dialog_chip_over",
-		"jp_text": "チップパックの空き容量または所持数を\r\nオーバーするため交換できません。\r\nチップパックを拡張するか\r\n強化／売却をしてチップを整理してください。",
+		"jp_text": "チップパックの空き容量または所持数を\nオーバーするため交換できません。\nチップパックを拡張するか\n強化／売却をしてチップを整理してください。",
 		"tr_text": ""
 	},
 	{
 		"assign": "acceptbpx_item_trade_over_dialog_item_over",
-		"jp_text": "アイテムパックの空き容量または所持数を\r\nオーバーするため交換できません。\r\n売却または交換をして\r\nアイテムを整理してください。",
+		"jp_text": "アイテムパックの空き容量または所持数を\nオーバーするため交換できません。\n売却または交換をして\nアイテムを整理してください。",
 		"tr_text": ""
 	},
 	{
 		"assign": "acceptbpx_item_trade_over_dialog_point_over",
-		"jp_text": "所持数をオーバーするため交換できません。\r\n消費をしてから受け取ってください。",
+		"jp_text": "所持数をオーバーするため交換できません。\n消費をしてから受け取ってください。",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_title",
+		"jp_text": "交換アイテム検索",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_message",
+		"jp_text": "検索するアイテムを選んでください。 \n※検索には時間がかかる場合があります。",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_search_button",
+		"jp_text": "検索する",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_close_button",
+		"jp_text": "やめる",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_weapon",
+		"jp_text": "武器",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_unit",
+		"jp_text": "ユニット",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_grind_release_chip",
+		"jp_text": "強化・解放チップ",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_awake_chip",
+		"jp_text": "特装素材チップ",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_weaponoid_chip",
+		"jp_text": "ウェポノイドチップ",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_chara_chip",
+		"jp_text": "キャラチップ",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_etc_chip",
+		"jp_text": "その他チップ",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_pso2_item",
+		"jp_text": "PSO2アイテム",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_etc_item",
+		"jp_text": "その他アイテム",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_result_dialog_title",
+		"jp_text": "検索結果",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_dialog_title",
+		"jp_text": "アカウント削除機能",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_dialog_message",
+		"jp_text": "実行すると端末からアカウントが削除されます。\n「端末引き継ぎ情報」を記録しておくと\nアカウントを復旧することが可能になります。\n端末引き継ぎ情報を必ずご確認ください。",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_dialog_execution_button",
+		"jp_text": "実行する",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_dialog_dissent_button",
+		"jp_text": "実行しない",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_dialog_check_toggle_button",
+		"jp_text": "<color=orange>端末引き継ぎ情報を確認した</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_check_dialog_title",
+		"jp_text": "アカウント削除機能",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_check_dialog_message",
+		"jp_text": "アカウントを削除します。\nよろしいですか？",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_check_dialog_execution_button",
+		"jp_text": "実行する",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_check_dialog_dissent_button",
+		"jp_text": "実行しない",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_finish_dialog_title",
+		"jp_text": "アカウント削除機能",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_finish_dialog_message",
+		"jp_text": "アカウント削除が完了しました。\nタイトルへ戻ります。",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_error_dialog_message",
+		"jp_text": "アカウント削除を実行できませんでした。\nしばらく経ってからお試しください。",
 		"tr_text": ""
 	}
 ]
