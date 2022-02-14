@@ -324,7 +324,7 @@ def translate_cosmetic_desc(item, file_name):
     item["tr_explain"] = (cosmetic_desc_formats[LANG] + "{sizelock}" + "{colorlock}").format(
         sexlock = cosmetic_sex_locks[sex][LANG] if sex != "n" else "",
         itype = item_type,
-        iname = item_name, 
+        iname = item_name,
         sizelock = "\n<yellow>" + cosmetic_size_locks[LANG] + "<c>" if sizelocked == True else "",
         colorlock = "\n<yellow>" + cosmetic_color_locks[LANG] + "<c>" if colorlocked == True else "")
     
@@ -760,80 +760,80 @@ def translate_voice(item):
           # Catch old format descriptions that keep creeping in somehow.
           and "Salon" not in item["tr_explain"]): 
         return -2
-    else:
-        # Strings for race/sex combo restrictions
-        restrictions = {
-        "hm": ["Non-Cast male characters only.",
-               "인간 남성만 사용 가능.",
-               "Только для М не CAST'ов."],
-        "hf": ["Non-Cast female characters only.",
-               "인간 여성만 사용 가능.",
-               "Только для Ж не CAST'ов."],
-        "cm": ["Male Casts only.",
-               "캐스트 남성만 사용 가능.",
-               "Только для М CAST'ов."],
-        "cf": ["Female Casts only.",
-               "캐스트 여성만 사용 가능.",
-               "Только для Ж CAST'ов."],
-        "am": ["Male characters only (all races).",
-               "남성만 사용 가능.",
-               "Только М персонажей (все расы)."],
-        "af": ["Female characters only (all races).",
-               "여성만 사용 가능.",
-               "Только Ж персонажей (все расы)."],
-        "an": ["Usable by all characters.",
-               "모두 사용 가능.",
-               "Доступно всем персонажам."]}
-        
-        # Detect ticket's race/sex restriction.
-        # Default to no restriction.
-        racensex= "an"
-        
-        if "人間男性のみ使用可能。" in item["jp_explain"]:
-            racensex= "hm"
-        elif "人間女性のみ使用可能。" in item["jp_explain"]:
-            racensex= "hf"
-        elif "キャスト男性のみ使用可能。" in item["jp_explain"]:
-            racensex= "cm"
-        elif "キャスト女性のみ使用可能。" in item["jp_explain"]:
-            racensex= "cf"
-        elif "男性のみ使用可能。" in item["jp_explain"]:
-            racensex= "am"
-        elif "女性のみ使用可能。" in item["jp_explain"]:
-            racensex= "af"
-        
-        # Find out if we know the voice actor's name
-        jp_cv_name = item["jp_explain"].split("ＣＶ")[1]
-        cv_name = ""
 
-        # We do, so try to translate it
-        if jp_cv_name in cv_names: 
-            curr_lang = LANG
-            
-            while cv_name == "":
-                # We've fallen back to JP. Nowhere else to fall back to so break
-                if curr_lang == -1:
-                    cv_name = jp_cv_name
-                    break
-                else:
-                    cv_name = cv_names[jp_cv_name][curr_lang]
-                    if cv_name == "":
-                        print("\tWARNING: No translation for {jp} in {currlang}, falling back to {nextlang}".format(
-                            jp = jp_cv_name,
-                            currlang = LANGS[curr_lang],
-                            nextlang = LANGS[name_fallbacks[curr_lang]]))
-                    curr_lang = name_fallbacks[curr_lang]
-            
-        else:
-            # We don't, so report it.
-            print("Voice ticket {0} has a new voice actor: {1}"
-                  .format(item_name, jp_cv_name))
-            cv_name = jp_cv_name
+    # Strings for race/sex combo restrictions
+    restrictions = {
+    "hm": ["Non-Cast male characters only.",
+           "인간 남성만 사용 가능.",
+           "Только для М не CAST'ов."],
+    "hf": ["Non-Cast female characters only.",
+           "인간 여성만 사용 가능.",
+           "Только для Ж не CAST'ов."],
+    "cm": ["Male Casts only.",
+           "캐스트 남성만 사용 가능.",
+           "Только для М CAST'ов."],
+    "cf": ["Female Casts only.",
+           "캐스트 여성만 사용 가능.",
+           "Только для Ж CAST'ов."],
+    "am": ["Male characters only (all races).",
+           "남성만 사용 가능.",
+           "Только М персонажей (все расы)."],
+    "af": ["Female characters only (all races).",
+           "여성만 사용 가능.",
+           "Только Ж персонажей (все расы)."],
+    "an": ["Usable by all characters.",
+           "모두 사용 가능.",
+           "Доступно всем персонажам."]}
+    
+    # Detect ticket's race/sex restriction.
+    # Default to no restriction.
+    racensex= "an"
+    
+    if "人間男性のみ使用可能。" in item["jp_explain"]:
+        racensex= "hm"
+    elif "人間女性のみ使用可能。" in item["jp_explain"]:
+        racensex= "hf"
+    elif "キャスト男性のみ使用可能。" in item["jp_explain"]:
+        racensex= "cm"
+    elif "キャスト女性のみ使用可能。" in item["jp_explain"]:
+        racensex= "cf"
+    elif "男性のみ使用可能。" in item["jp_explain"]:
+        racensex= "am"
+    elif "女性のみ使用可能。" in item["jp_explain"]:
+        racensex= "af"
+    
+    # Find out if we know the voice actor's name
+    jp_cv_name = item["jp_explain"].split("ＣＶ")[1]
+    cv_name = ""
+
+    # We do, so try to translate it
+    if jp_cv_name in cv_names: 
+        curr_lang = LANG
         
-        # Translate the description
-        item["tr_explain"] = voice_desc_formats[LANG] + "\n{restriction}\nCV: {actorname}".format(
-            restriction = restrictions[racensex][LANG],
-            actorname = cv_name)
+        while cv_name == "":
+            # We've fallen back to JP. Nowhere else to fall back to so break
+            if curr_lang == -1:
+                cv_name = jp_cv_name
+                break
+            else:
+                cv_name = cv_names[jp_cv_name][curr_lang]
+                if cv_name == "":
+                    print("\tWARNING: No translation for {jp} in {currlang}, falling back to {nextlang}".format(
+                        jp = jp_cv_name,
+                        currlang = LANGS[curr_lang],
+                        nextlang = LANGS[name_fallbacks[curr_lang]]))
+                curr_lang = name_fallbacks[curr_lang]
+        
+    else:
+        # We don't, so report it.
+        print("Voice ticket {0} has a new voice actor: {1}"
+              .format(item_name, jp_cv_name))
+        cv_name = jp_cv_name
+    
+    # Translate the description
+    item["tr_explain"] = voice_desc_formats[LANG] + "\n{restriction}\nCV: {actorname}".format(
+        restriction = restrictions[racensex][LANG],
+        actorname = cv_name)
         
     return 0
 
