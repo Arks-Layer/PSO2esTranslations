@@ -73264,9 +73264,9 @@
 	{
 		"assign": "38010047",
 		"jp_text": "フィオーラスカーフ/B",
-		"tr_text": "",
+		"tr_text": "Fiora Scarf/B",
 		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
-		"tr_explain": ""
+		"tr_explain": "Unlocks a new accessory for use."
 	},
 	{
 		"assign": "38010048",
@@ -74233,6 +74233,13 @@
 		"tr_text": "Luxorio Hat",
 		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
 		"tr_explain": "Разблок аксессуар."
+	},
+	{
+		"assign": "38010186",
+		"jp_text": "スカイレーダー",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "38010187",
@@ -75488,8 +75495,701 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "38010378",
+		"jp_text": "トライピック",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010379",
+		"jp_text": "ショルダードリル",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010380",
+		"jp_text": "ショルダードリル/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010381",
+		"jp_text": "シャイニーハートバルーン",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010382",
+		"jp_text": "サニィマフラー",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010383",
+		"jp_text": "サニィスリッパ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010384",
+		"jp_text": "ラッピーヘアアクセ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010385",
+		"jp_text": "￥N-ゴシックメイドリボン",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010386",
+		"jp_text": "ファニーラビットスリッパ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010387",
+		"jp_text": "カザリムスビタッセル",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010389",
+		"jp_text": "ミチーノカチューシャ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010390",
+		"jp_text": "ティアモヘアアクセ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010391",
+		"jp_text": "ティアモピアス",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010392",
+		"jp_text": "ヴァルトビアード",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010393",
+		"jp_text": "ルミーヘアリボン",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010394",
+		"jp_text": "ハートラインリング",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010395",
+		"jp_text": "ハートバングル",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010396",
+		"jp_text": "ラッフルチョーカー",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010397",
+		"jp_text": "ショコラッテエプロン",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010398",
+		"jp_text": "ラッフルカラー",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010399",
+		"jp_text": "ラブリーベレー",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010400",
+		"jp_text": "ジュエルキャットピアス",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010401",
+		"jp_text": "コルセットピアス",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010402",
+		"jp_text": "エレクトリックマント",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010403",
+		"jp_text": "ビクトリーグラス",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010404",
+		"jp_text": "ヤガスリカチューシャ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010405",
+		"jp_text": "クロウリックヘッドギア",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010406",
+		"jp_text": "クロモスフィアシールド",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010407",
+		"jp_text": "ルミナスエクステ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010408",
+		"jp_text": "ルミナスエクステ/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010409",
+		"jp_text": "デュアルガトリング",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010410",
+		"jp_text": "デュアルガトリング/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010411",
+		"jp_text": "サイバネティックマスク",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010412",
+		"jp_text": "サイバネティックマスク/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010413",
+		"jp_text": "サイバネティックハンドL",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010414",
+		"jp_text": "サイバネティックハンドL/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010415",
+		"jp_text": "サイバネティックアームL",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010416",
+		"jp_text": "サイバネティックアームL/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010417",
+		"jp_text": "サイバネティックチェスト",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010418",
+		"jp_text": "サイバネティックチェスト/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010419",
+		"jp_text": "フロートタンク",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010420",
+		"jp_text": "フロートタンク/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010421",
+		"jp_text": "ペリュトーンウィング",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010422",
+		"jp_text": "ペリュトーンウィング/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010423",
+		"jp_text": "リボンカンザシ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010424",
+		"jp_text": "ワイドレッグカバー",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010425",
+		"jp_text": "ワイドレッグカバー/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010429",
+		"jp_text": "ラピーヌヘアアクセ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010430",
+		"jp_text": "ラピーヌヘアアクセ/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010431",
+		"jp_text": "クレウスピアス",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010432",
+		"jp_text": "マカロンピアス",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010433",
+		"jp_text": "クリンリネスカラー",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010434",
+		"jp_text": "ベアードヘアアクセ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010435",
+		"jp_text": "ベアードヘアアクセ/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010436",
+		"jp_text": "エレガントベレー",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010437",
+		"jp_text": "メタルフェザーリング",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010438",
+		"jp_text": "ブライトウィング",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010439",
+		"jp_text": "フェザーデコーレ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010440",
+		"jp_text": "ポップスターフェザーブローチ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010441",
+		"jp_text": "ポップスターフェザーブローチ/2",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010442",
+		"jp_text": "スカイレーダー/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010443",
+		"jp_text": "アブソレーテシールド",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010444",
+		"jp_text": "アブソレーテシールド/C",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010445",
+		"jp_text": "アブソレーテシールド/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010446",
+		"jp_text": "アブソレーテシールド/D",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010447",
+		"jp_text": "ゲフィーダショルダー",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010448",
+		"jp_text": "ゲフィーダショルダー/C",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010449",
+		"jp_text": "ゲフィーダショルダー/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010450",
+		"jp_text": "ゲフィーダショルダー/D",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010451",
+		"jp_text": "ルーレットブローチ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010452",
+		"jp_text": "ルーデスヘッドフォン",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010453",
+		"jp_text": "サンティールヘアピン",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010454",
+		"jp_text": "シフォンピアス",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010455",
+		"jp_text": "クリアパピヨンウィング",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010456",
+		"jp_text": "クリアフェザーピアス",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010457",
+		"jp_text": "フェアリーフォールド",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010458",
+		"jp_text": "クレセントヘアアクセ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010459",
+		"jp_text": "フリルペチコート",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010460",
+		"jp_text": "ファニーラビットグローブ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010461",
+		"jp_text": "ファニーラビットネクタイ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010462",
+		"jp_text": "ファニーラビットネクタイ/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010463",
+		"jp_text": "ラビーニィマスク",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010464",
+		"jp_text": "ラビーニィマスク/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010465",
+		"jp_text": "シュツルムランツェ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010466",
+		"jp_text": "シュツルムランツェ/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010467",
+		"jp_text": "アブソレーテポレイン",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010468",
+		"jp_text": "アブソレーテポレイン/C",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010469",
+		"jp_text": "アブソレーテポレイン/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010470",
+		"jp_text": "アブソレーテポレイン/D",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010471",
+		"jp_text": "フリルポンチョ",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010472",
+		"jp_text": "サイバネティックアイガード",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "38010473",
 		"jp_text": "ラブラッピーカイト",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010474",
+		"jp_text": "クリスタルピアス",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010475",
+		"jp_text": "グリニングマスク",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010476",
+		"jp_text": "サーモアフード/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010477",
+		"jp_text": "サーモアフード/C",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010478",
+		"jp_text": "サーリウヘアバンド/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010479",
+		"jp_text": "サーリウヘアバンド/C",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010480",
+		"jp_text": "サージンマスク/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010481",
+		"jp_text": "サージンバックパック/B",
 		"tr_text": "",
 		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
 		"tr_explain": ""
@@ -75504,6 +76204,97 @@
 	{
 		"assign": "38010483",
 		"jp_text": "アテンションサイン/C",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010484",
+		"jp_text": "リテムアチーヴァー",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010485",
+		"jp_text": "サイバネティックハンドR",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010486",
+		"jp_text": "サイバネティックハンドR/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010487",
+		"jp_text": "サイバネティックアームR",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010488",
+		"jp_text": "サイバネティックアームR/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010489",
+		"jp_text": "オペラーテベレー/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010490",
+		"jp_text": "オペラーテベレー/C",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010491",
+		"jp_text": "オペラーテハット/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010492",
+		"jp_text": "オペラーテハット/C",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010493",
+		"jp_text": "オペラーテインカム/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010494",
+		"jp_text": "オペラーテインカム/C",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010495",
+		"jp_text": "スケルツァヘッドドレス/B",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "38010496",
+		"jp_text": "スケルツァピアス/B",
 		"tr_text": "",
 		"jp_explain": "使用すると新しいアクセサリーが\n選択可能になる。",
 		"tr_explain": ""
