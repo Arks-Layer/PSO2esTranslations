@@ -37,6 +37,10 @@ parser.add_argument("-r", dest = "redo", action = "store_true",
 args = parser.parse_args()
 TRANS_ALL, LANG, REDO_ALL = args.all, args.lang, args.redo
 
+# Full width character transtable
+chartable = "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ",
+                         "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")
+
 # Translate layered wear
 
 layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю одежду (In)"],
@@ -121,6 +125,8 @@ def translate_layer_desc(item, file_name):
         iname = item_name,
         sexlock = layer_sex_locks[sex][LANG] if sex != "n" else "",
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
     
     return 0
 
@@ -171,6 +177,8 @@ def translate_nlayer_desc(item, file_name):
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
     
     return 0
 
@@ -331,6 +339,8 @@ def translate_cosmetic_desc(item, file_name):
     # Hello Kitty item copyright notice
     if item["jp_text"] == "ハローキティチェーン":
         item["tr_explain"] += "\nc'76,'15 SANRIO APPR.NO.S564996"
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
     
     return 0
 
@@ -364,6 +374,8 @@ def translate_ncosmetic_desc(item, file_name):
         itype = item_type,
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
     
     return 0
 
@@ -526,6 +538,8 @@ def translate_la_desc(item):
         item["tr_explain"] = (nla_formats[LANG] + "{extrastuff}" + "{fingers}").format(
             extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG],
             fingers = "" if extras == "nclasspose" else nla_fingers[LANG])
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
     
     return 0    
 
@@ -834,6 +848,8 @@ def translate_voice(item):
     item["tr_explain"] = voice_desc_formats[LANG] + "\n{restriction}\nCV: {actorname}".format(
         restriction = restrictions[racensex][LANG],
         actorname = cv_name)
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
         
     return 0
 
