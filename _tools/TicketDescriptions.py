@@ -11,6 +11,12 @@ json_loc = os.path.join("..", "json")
 
 parser = argparse.ArgumentParser(
     description = "Translates ticket item descriptions.")
+
+#Switch for description on untranslated names
+parser.add_argument("-a", dest = "all", action = "store_true",
+                    help = ("Translate descriptions even for items "
+                            "with no translated names."))
+
 # Switch for language.
 LANGS = {-1: "JP",
          0: "EN",
@@ -22,13 +28,18 @@ parser.add_argument("-l", type = int, dest = "lang", action = "store",
                     help = ("Set a language to translate into. "
                             "Available options are 0 (EN), 1 (KO) and 2 (RU). "
                             "Defaults to EN."))
+
 # Switch for retranslating all descriptions.
 parser.add_argument("-r", dest = "redo", action = "store_true",
                     help = ("Force all ticket descriptions to be processed, "
                             "even if already translated."))
 
 args = parser.parse_args()
-LANG, REDO_ALL = args.lang, args.redo
+TRANS_ALL, LANG, REDO_ALL = args.all, args.lang, args.redo
+
+# Full width character transtable
+chartable = "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ　＝－＋／．＆（）：！",
+                         "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz =-+/.&():!")
 
 # Translate layered wear
 
@@ -48,7 +59,7 @@ layer_desc_formats = [("Unlocks the new {itype}\n"
                        "{itype}\n"
                        "\"{iname}\".")]
 
-layer_sex_locks = {"n": ["", ""],
+layer_sex_locks = {"n": ["", "", ""],
                    "m": ["\nOnly usable on male characters.",
                          " 남성만 가능.",
                          "\nТолько для мужских персонажей."],
@@ -77,13 +88,25 @@ layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
                      "※При экипировке скрывает In."]
 
-def translate_layer_desc(item, file_name):
-    # No name to put in description
-    if item["tr_text"] == "":
-        return -1
+layer_hide_accessories = ["※Hides accessories when worn.",
+                          "※악세서리 표시 불가",
+                          "※Скрывает аксессуары."]
 
+def translate_layer_desc(item, file_name):
+    item_name = ""
+
+    # Decide what name we're working with
+    if TRANS_ALL:
+        item_name = item["tr_text"] or item["jp_text"]
+    else:
+        if item["tr_text"] == "":
+            # No translated name so skip this one
+            return -1
+        else:
+            item_name = item["tr_text"]
+    
     # Description already present, leave it alone
-    elif item["tr_explain"] != "" and REDO_ALL == False:
+    if item["tr_explain"] != "" and REDO_ALL == False:
         return -2
 
     # Some items are locked to one sex or the other.
@@ -100,12 +123,14 @@ def translate_layer_desc(item, file_name):
     
     # Translate the description.
     item["tr_explain"] = (layer_desc_formats[LANG] + "{sexlock}{hidepanties}").format(
-        itype = layered_wear_types[item["tr_text"].split("[", )[1][0:2]][LANG] if item["tr_text"].endswith("]")
+        itype = layered_wear_types[item_name.split("[", )[1][0:2]][LANG] if item_name.endswith("]")
                 # Exception for defaults since they don't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
-        iname = item["tr_text"],
+        iname = item_name,
         sexlock = layer_sex_locks[sex][LANG] if sex != "n" else "",
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
     
     return 0
 
@@ -125,12 +150,20 @@ def get_type_restrictions(item):
     return types
 
 def translate_nlayer_desc(item, file_name):
-    # No name to put in description
-    if item["tr_text"] == "":
-        return -1
+    item_name = ""
+
+    # Decide what name we're working with
+    if TRANS_ALL:
+        item_name = item["tr_text"] or item["jp_text"]
+    else:
+        if item["tr_text"] == "":
+            # No translated name so skip this one
+            return -1
+        else:
+            item_name = item["tr_text"]
 
     # Description already present, leave it alone
-    elif item["tr_explain"] != "" and REDO_ALL == False:
+    if item["tr_explain"] != "" and REDO_ALL == False:
         return -2
     
     # Some items are locked to one race and/or type.
@@ -141,13 +174,21 @@ def translate_nlayer_desc(item, file_name):
     if "着用時はインナーが非表示になります。" in item["jp_explain"]:
         hideinner = True
 
+    # Some setwears are incompatible with accessories
+    hideaccess = False
+    if "アクセサリー表示非対応" in item["jp_explain"]:
+        hideaccess = True
+
     # Translate the description.
-    item["tr_explain"] = (ndesc_formats[LANG] + "{typelock}" + "{hidepanties}").format(
-        itype = layered_wear_types[item["tr_text"].split("[", )[1][0:2]][LANG] if item["tr_text"].endswith("]")
+    item["tr_explain"] = (ndesc_formats[LANG] + "{typelock}" + "{hidepanties}" + "{noaccessories}").format(
+        itype = layered_wear_types[item_name.split("[", )[1][0:2]][LANG] if item_name.endswith("]")
                 # Exception for default layered wear since it doesn't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
-        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
+        noaccessories = "\n<yellow>" + layer_hide_accessories[LANG] + "<c>" if hideaccess == True else "")
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
     
     return 0
 
@@ -179,7 +220,7 @@ for name in layered_file_names:
         problem = translate_nlayer_desc(item, name) if "選択可能になる。" in item["jp_explain"] else translate_layer_desc(item, name)
 
         if problem == 0:
-            print("\tTranslated description for {0}".format(item["tr_text"]))
+            print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
             newtranslations = True
 
     if newtranslations == False:
@@ -245,20 +286,26 @@ no_sticker_desc = [("Unlocks the ability to not display a\n"
 # New cosmetic tickets use the formats we defined earlier for new layer wear
 
 def translate_cosmetic_desc(item, file_name):
-    # No name to put in description
-    if item["tr_text"] == "":
-        return -1
+    item_name = ""
+
+    # Decide what name we're working with
+    if TRANS_ALL:
+        item_name = item["tr_text"] or item["jp_text"]
+    else:
+        if item["tr_text"] == "":
+            # No translated name so skip this one
+            return -1
+        else:
+            item_name = item["tr_text"]
 
     # Description already present, leave it alone
-    elif item["tr_explain"] != "" and REDO_ALL == False:
+    if item["tr_explain"] != "" and REDO_ALL == False:
         return -2
 
     # Exception for "no sticker" sticker
     elif item["jp_text"] == "ステッカーなし":
         item["tr_explain"] = no_sticker_desc[LANG]
         return 0
-        
-    item_name = item["tr_text"]
     
     # Some stickers have different names in-game from their tickets.
     # The in-game name is in the tickets' descriptions.
@@ -270,6 +317,7 @@ def translate_cosmetic_desc(item, file_name):
 
         if (description_name != item["jp_text"]):
             item_name = item_name.replace(" Sticker", "")
+            item_name = item_name.replace("ステッカー", "")
     
     # Some items are locked to one sex or the other.
     sex = "n"
@@ -294,23 +342,33 @@ def translate_cosmetic_desc(item, file_name):
     item["tr_explain"] = (cosmetic_desc_formats[LANG] + "{sizelock}" + "{colorlock}").format(
         sexlock = cosmetic_sex_locks[sex][LANG] if sex != "n" else "",
         itype = item_type,
-        iname = item_name, 
+        iname = item_name,
         sizelock = "\n<yellow>" + cosmetic_size_locks[LANG] + "<c>" if sizelocked == True else "",
         colorlock = "\n<yellow>" + cosmetic_color_locks[LANG] + "<c>" if colorlocked == True else "")
     
     # Hello Kitty item copyright notice
     if item["jp_text"] == "ハローキティチェーン":
         item["tr_explain"] += "\nc'76,'15 SANRIO APPR.NO.S564996"
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
     
     return 0
 
 def translate_ncosmetic_desc(item, file_name):
-    # No name to put in description
-    if item["tr_text"] == "":
-        return -1
+    item_name = ""
+
+    # Decide what name we're working with
+    if TRANS_ALL:
+        item_name = item["tr_text"] or item["jp_text"]
+    else:
+        if item["tr_text"] == "":
+            # No translated name so skip this one
+            return -1
+        else:
+            item_name = item["tr_text"]
 
     # Description already present, leave it alone
-    elif item["tr_explain"] != "" and REDO_ALL == False:
+    if item["tr_explain"] != "" and REDO_ALL == False:
         return -2
     
     # Some items are locked to one race and/or type.
@@ -326,6 +384,8 @@ def translate_ncosmetic_desc(item, file_name):
         itype = item_type,
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
     
     return 0
 
@@ -351,7 +411,7 @@ for file_name in cosmetic_file_names:
         problem = translate_ncosmetic_desc(item, file_name) if "選択可能になる。" in item["jp_explain"] else translate_cosmetic_desc(item, file_name)
 
         if problem == 0:
-            print("\tTranslated description for {0}".format(item["tr_text"]))
+            print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
             newtranslations = True
 
     if newtranslations == False:
@@ -391,7 +451,19 @@ nla_formats = [("Unlocks a new Lobby Action for use by\n"
                ("Разблокирует новый лобби-экшн\n"
                 "для всех персонажей вашего акка.")]
 
-la_extras = {"actrandom": ["Has button actions/randomness.",
+la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
+                                "outfit limited/Can't use in [PSO2].<c>"),
+                               ("<yellow>대응 기능: 버튼 파생 / 대응 복장 손가락 가동 / \n"
+                                "『PSO2』 블록 비지원<c>"),
+                               ("<yellow>Есть действия/Движен. пальцев\n"
+                                "огранич./Недоступно в [PSO2].<c>")],
+             "fingersngs": [("<yellow>※Finger motion limited based on outfit.\n"
+                             "Cannot perform in [PSO2] Blocks.<c>"),
+                            ("<yellow>※지원 기능: 대응복 손가락 가동<c>\n"
+                             "『PSO2』블록 비대응<c>"),
+                            ("<yellow>※Одежда влияет на движ-е пальцев\n"
+                             "※Нельзя использовать в блоке PSO2<c>")],
+             "actrandom": ["Has button actions/randomness.",
                            "지원 기능: 버튼 파생/랜덤",
                            "Есть кнопка действия/рандом."],
              "actweapons": [("Shows equipment, has extra actions.\n"
@@ -438,17 +510,29 @@ ha_formats = [("When used, allows you to select a\n"
                "※Нельзя использовать в блоке PSO2<c>")]
 
 def translate_la_desc(item):
-    # No name to put in description
-    if item["tr_text"] == "":
-        return -1
+    item_name = ""
+
+    # Decide what name we're working with
+    if TRANS_ALL:
+        item_name = item["tr_text"] or item["jp_text"]
+    else:
+        if item["tr_text"] == "":
+            # No translated name so skip this one
+            return -1
+        else:
+            item_name = item["tr_text"]
 
     # Description already present, leave it alone
-    elif item["tr_explain"] != "" and REDO_ALL == False:
+    if item["tr_explain"] != "" and REDO_ALL == False:
         return -2
 
     # Figure out what extra stuff to put at the end of the description
     extras = "n"
-    if "対応機能：ボタン派生／ランダム" in item["jp_explain"]:
+    if "対応機能：ボタン派生／対応服指可動／\n『PSO2』ブロック非対応" in item["jp_explain"]:
+        extras = "actfingersngs"
+    elif "対応機能：対応服指可動／\n『PSO2』ブロック非対応" in item["jp_explain"]:
+        extras = "fingersngs"
+    elif "対応機能：ボタン派生／ランダム" in item["jp_explain"]:
         extras = "actrandom"
     elif "対応機能：ボタン派生／武器装備反映" in item["jp_explain"]:
         extras = "actweapons"
@@ -464,7 +548,7 @@ def translate_la_desc(item):
     # Translate old LAs
     if "ロビアク『" in item["jp_explain"]:
         # Split LA name from number.
-        splits = regex.split("[\"「」]", item["tr_text"])
+        splits = regex.split("[\"「」]", item_name)
                 
         item["tr_explain"] = (la_formats[LANG] + "{extrastuff}").format(
             # Remember Photon Chairs have no number
@@ -479,13 +563,15 @@ def translate_la_desc(item):
     else:
         item["tr_explain"] = (nla_formats[LANG] + "{extrastuff}" + "{fingers}").format(
             extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG],
-            fingers = "" if extras == "nclasspose" else nla_fingers[LANG])
+            fingers = "" if extras in ["nclasspose", "actfingersngs", "fingersngs"] else nla_fingers[LANG])
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
     
     return 0    
 
 for item in items:
     if translate_la_desc(item) == 0:
-        print("\tTranslated description for {0}".format(item["tr_text"]))
+        print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
         newtranslations = True
 
 if newtranslations == False:
@@ -675,6 +761,8 @@ cv_names = {
     "諸星 すみれ": ["Sumire Morohoshi", "", "Сумирэ Морохоси"],
     "宮本 侑芽": ["Yume Miyamoto", "", "Юмэ Миямото"],
     "川島 得愛": ["Tokuyoshi Kawashima", "", "Токуёси Кавасима"],
+    "田所 あずさ": ["Azusa Tadokoro", "", "Адзуса Тадокоро"],
+    "森田 順平": ["Junpei Morita", "", "Дзюмпэи Морита"],
     "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O", "M・A・O", "M・A・O"],
     "？？？": ["???", "???", "???"],
     "": ["Unknown", "알 수 없는", "Неизвестно"]
@@ -691,96 +779,110 @@ voice_desc_formats = ["Allows a new voice to be selected.",
                       "Позволяет выбрать новый голос."]
 
 def translate_voice(item):
-    # No name to put in description
-    if item["tr_text"] == "":
-        return -1
+    item_name = ""
 
+    # Decide what name we're working with
+    if TRANS_ALL:
+        item_name = item["tr_text"] or item["jp_text"]
+    else:
+        if item["tr_text"] == "":
+            # No translated name so skip this one
+            return -1
+        else:
+            item_name = item["tr_text"]
+
+    # No JP description so skip this one
+    if item["jp_explain"] == "":
+            return -1
+    
     # Description already present, leave it alone
-    elif (item["tr_explain"] != "" and REDO_ALL == False
+    if (item["tr_explain"] != "" and REDO_ALL == False
           # Catch old format descriptions that keep creeping in somehow.
           and "Salon" not in item["tr_explain"]): 
         return -2
-    else:
-        # Strings for race/sex combo restrictions
-        restrictions = {
-        "hm": ["Non-Cast male characters only.",
-               "인간 남성만 사용 가능.",
-               "Только для М не CAST'ов."],
-        "hf": ["Non-Cast female characters only.",
-               "인간 여성만 사용 가능.",
-               "Только для Ж не CAST'ов."],
-        "cm": ["Male Casts only.",
-               "캐스트 남성만 사용 가능.",
-               "Только для М CAST'ов."],
-        "cf": ["Female Casts only.",
-               "캐스트 여성만 사용 가능.",
-               "Только для Ж CAST'ов."],
-        "am": ["Male characters only (all races).",
-               "남성만 사용 가능.",
-               "Только М персонажей (все расы)."],
-        "af": ["Female characters only (all races).",
-               "여성만 사용 가능.",
-               "Только Ж персонажей (все расы)."],
-        "an": ["Usable by all characters.",
-               "모두 사용 가능.",
-               "Доступно всем персонажам."]}
-        
-        # Detect ticket's race/sex restriction.
-        # Default to no restriction.
-        racensex= "an"
-        
-        if "人間男性のみ使用可能。" in item["jp_explain"]:
-            racensex= "hm"
-        elif "人間女性のみ使用可能。" in item["jp_explain"]:
-            racensex= "hf"
-        elif "キャスト男性のみ使用可能。" in item["jp_explain"]:
-            racensex= "cm"
-        elif "キャスト女性のみ使用可能。" in item["jp_explain"]:
-            racensex= "cf"
-        elif "男性のみ使用可能。" in item["jp_explain"]:
-            racensex= "am"
-        elif "女性のみ使用可能。" in item["jp_explain"]:
-            racensex= "af"
-        
-        # Find out if we know the voice actor's name
-        jp_cv_name = item["jp_explain"].split("ＣＶ")[1]
-        cv_name = ""
 
-        # We do, so try to translate it
-        if jp_cv_name in cv_names: 
-            curr_lang = LANG
-            
-            while cv_name == "":
-                # We've fallen back to JP. Nowhere else to fall back to so break
-                if curr_lang == -1:
-                    cv_name = jp_cv_name
-                    break
-                else:
-                    cv_name = cv_names[jp_cv_name][curr_lang]
-                    if cv_name == "":
-                        print("\tWARNING: No translation for {jp} in {currlang}, falling back to {nextlang}".format(
-                            jp = jp_cv_name,
-                            currlang = LANGS[curr_lang],
-                            nextlang = LANGS[name_fallbacks[curr_lang]]))
-                    curr_lang = name_fallbacks[curr_lang]
-            
-        else:
-            # We don't, so report it.
-            print("Voice ticket {0} has a new voice actor: {1}"
-                  .format(item["tr_text"], jp_cv_name))
-            cv_name = jp_cv_name
+    # Strings for race/sex combo restrictions
+    restrictions = {
+    "hm": ["Non-Cast male characters only.",
+           "인간 남성만 사용 가능.",
+           "Только для М не CAST'ов."],
+    "hf": ["Non-Cast female characters only.",
+           "인간 여성만 사용 가능.",
+           "Только для Ж не CAST'ов."],
+    "cm": ["Male Casts only.",
+           "캐스트 남성만 사용 가능.",
+           "Только для М CAST'ов."],
+    "cf": ["Female Casts only.",
+           "캐스트 여성만 사용 가능.",
+           "Только для Ж CAST'ов."],
+    "am": ["Male characters only (all races).",
+           "남성만 사용 가능.",
+           "Только М персонажей (все расы)."],
+    "af": ["Female characters only (all races).",
+           "여성만 사용 가능.",
+           "Только Ж персонажей (все расы)."],
+    "an": ["Usable by all characters.",
+           "모두 사용 가능.",
+           "Доступно всем персонажам."]}
+    
+    # Detect ticket's race/sex restriction.
+    # Default to no restriction.
+    racensex= "an"
+    
+    if "人間男性のみ使用可能。" in item["jp_explain"]:
+        racensex= "hm"
+    elif "人間女性のみ使用可能。" in item["jp_explain"]:
+        racensex= "hf"
+    elif "キャスト男性のみ使用可能。" in item["jp_explain"]:
+        racensex= "cm"
+    elif "キャスト女性のみ使用可能。" in item["jp_explain"]:
+        racensex= "cf"
+    elif "男性のみ使用可能。" in item["jp_explain"]:
+        racensex= "am"
+    elif "女性のみ使用可能。" in item["jp_explain"]:
+        racensex= "af"
+    
+    # Find out if we know the voice actor's name
+    jp_cv_name = item["jp_explain"].split("ＣＶ")[1]
+    cv_name = ""
+
+    # We do, so try to translate it
+    if jp_cv_name in cv_names: 
+        curr_lang = LANG
         
-        # Translate the description
-        item["tr_explain"] = voice_desc_formats[LANG] + "\n{restriction}\nCV: {actorname}".format(
-            restriction = restrictions[racensex][LANG],
-            actorname = cv_name)
+        while cv_name == "":
+            # We've fallen back to JP. Nowhere else to fall back to so break
+            if curr_lang == -1:
+                cv_name = jp_cv_name
+                break
+            else:
+                cv_name = cv_names[jp_cv_name][curr_lang]
+                if cv_name == "":
+                    print("\tWARNING: No translation for {jp} in {currlang}, falling back to {nextlang}".format(
+                        jp = jp_cv_name,
+                        currlang = LANGS[curr_lang],
+                        nextlang = LANGS[name_fallbacks[curr_lang]]))
+                curr_lang = name_fallbacks[curr_lang]
+        
+    else:
+        # We don't, so report it.
+        print("Voice ticket {0} has a new voice actor: {1}"
+              .format(item_name, jp_cv_name))
+        cv_name = jp_cv_name
+    
+    # Translate the description
+    item["tr_explain"] = voice_desc_formats[LANG] + "\n{restriction}\nCV: {actorname}".format(
+        restriction = restrictions[racensex][LANG],
+        actorname = cv_name)
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
         
     return 0
 
 for item in items:
     
     if translate_voice(item) == 0:
-        print("\tTranslated description for {0}".format(item["tr_text"]))
+        print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
         newtranslations = True
 
 if newtranslations == False:
