@@ -88,6 +88,10 @@ layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
                      "※При экипировке скрывает In."]
 
+layer_hide_accessories = ["※Hides accessories when worn.",
+                          "",
+                          ""]
+
 def translate_layer_desc(item, file_name):
     item_name = ""
 
@@ -161,6 +165,8 @@ def translate_nlayer_desc(item, file_name):
     # Description already present, leave it alone
     if item["tr_explain"] != "" and REDO_ALL == False:
         return -2
+
+    print(item["jp_explain"])
     
     # Some items are locked to one race and/or type.
     types = get_type_restrictions(item)
@@ -170,13 +176,21 @@ def translate_nlayer_desc(item, file_name):
     if "着用時はインナーが非表示になります。" in item["jp_explain"]:
         hideinner = True
 
+    # Some setwears are incompatible with accessories
+    hideaccess = False
+    if "アクセサリー表示非対応" in item["jp_explain"]:
+        hideaccess = True
+        print(item_name + " hides accessories")
+        wait = input("Press Enter to continue.")
+
     # Translate the description.
-    item["tr_explain"] = (ndesc_formats[LANG] + "{typelock}" + "{hidepanties}").format(
+    item["tr_explain"] = (ndesc_formats[LANG] + "{typelock}" + "{hidepanties}" + "{noaccessories}").format(
         itype = layered_wear_types[item_name.split("[", )[1][0:2]][LANG] if item_name.endswith("]")
                 # Exception for default layered wear since it doesn't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
-        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
+        noaccessories = "\n<yellow>" + layer_hide_accessories[LANG] + "<c>" if hideaccess == True else "")
 
     item["tr_explain"] = item["tr_explain"].translate(chartable)
     
