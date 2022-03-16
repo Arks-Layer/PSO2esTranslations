@@ -165,8 +165,6 @@ def translate_nlayer_desc(item, file_name):
     # Description already present, leave it alone
     if item["tr_explain"] != "" and REDO_ALL == False:
         return -2
-
-    print(item["jp_explain"])
     
     # Some items are locked to one race and/or type.
     types = get_type_restrictions(item)
