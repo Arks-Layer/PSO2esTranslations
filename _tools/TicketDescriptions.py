@@ -441,7 +441,15 @@ nla_formats = [("Unlocks a new Lobby Action for use by\n"
                ("Разблокирует новый лобби-экшн\n"
                 "для всех персонажей вашего акка.")]
 
-la_extras = {"actrandom": ["Has button actions/randomness.",
+la_extras = {"actfingersngs": ["<yellow>Has button actions/Finger motion\n"
+                               "outfit limited/Can't use in [PSO2].<c>",
+                               "",
+                               ""],
+             "fingersngs": ["<yellow>※Finger motion limited based on outfit.\n"
+                               "Cannot perform in [PSO2] Blocks.<c>",
+                               "",
+                               ""],
+             "actrandom": ["Has button actions/randomness.",
                            "지원 기능: 버튼 파생/랜덤",
                            "Есть кнопка действия/рандом."],
              "actweapons": [("Shows equipment, has extra actions.\n"
@@ -506,7 +514,11 @@ def translate_la_desc(item):
 
     # Figure out what extra stuff to put at the end of the description
     extras = "n"
-    if "対応機能：ボタン派生／ランダム" in item["jp_explain"]:
+    if "対応機能：ボタン派生／対応服指可動／\n『PSO2』ブロック非対応" in item["jp_explain"]:
+        extras = "actfingersngs"
+    elif "対応機能：対応服指可動／\n『PSO2』ブロック非対応" in item["jp_explain"]:
+        extras = "fingersngs"
+    elif "対応機能：ボタン派生／ランダム" in item["jp_explain"]:
         extras = "actrandom"
     elif "対応機能：ボタン派生／武器装備反映" in item["jp_explain"]:
         extras = "actweapons"
@@ -537,7 +549,7 @@ def translate_la_desc(item):
     else:
         item["tr_explain"] = (nla_formats[LANG] + "{extrastuff}" + "{fingers}").format(
             extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG],
-            fingers = "" if extras == "nclasspose" else nla_fingers[LANG])
+            fingers = "" if extras in ["nclasspose", "actfingersngs", "fingersngs"] else nla_fingers[LANG])
 
     item["tr_explain"] = item["tr_explain"].translate(chartable)
     
