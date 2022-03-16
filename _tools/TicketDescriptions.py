@@ -455,16 +455,18 @@ nla_formats = [("Unlocks a new Lobby Action for use by\n"
                ("Разблокирует новый лобби-экшн\n"
                 "для всех персонажей вашего акка.")]
 
-la_extras = {"actfingersngs": ["<yellow>Has button actions/Finger motion\n"
-                               "outfit limited/Can't use in [PSO2].<c>",
-                               "",
-                               ""],
-             "fingersngs": ["<yellow>※Finger motion limited based on outfit.\n"
-                            "Cannot perform in [PSO2] Blocks.<c>",
-                            "※지원 기능: 대응복 손가락 가동<c>\n"
-                            "『PSO2』블록 비대응",
-                            "※Одежда влияет на движ-е пальцев"
-                            "※Нельзя использовать в блоке PSO2"],
+la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
+                                "outfit limited/Can't use in [PSO2].<c>"),
+                               (""
+                                ""),
+                               (""
+                                "")],
+             "fingersngs": [("<yellow>※Finger motion limited based on outfit.\n"
+                             "Cannot perform in [PSO2] Blocks.<c>"),
+                            ("※지원 기능: 대응복 손가락 가동<c>\n"
+                             "『PSO2』블록 비대응"),
+                            ("※Одежда влияет на движ-е пальцев"
+                             "※Нельзя использовать в блоке PSO2")],
              "actrandom": ["Has button actions/randomness.",
                            "지원 기능: 버튼 파생/랜덤",
                            "Есть кнопка действия/рандом."],
