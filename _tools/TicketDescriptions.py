@@ -178,8 +178,6 @@ def translate_nlayer_desc(item, file_name):
     hideaccess = False
     if "アクセサリー表示非対応" in item["jp_explain"]:
         hideaccess = True
-        print(item_name + " hides accessories")
-        wait = input("Press Enter to continue.")
 
     # Translate the description.
     item["tr_explain"] = (ndesc_formats[LANG] + "{typelock}" + "{hidepanties}" + "{noaccessories}").format(
