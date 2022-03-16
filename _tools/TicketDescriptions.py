@@ -461,7 +461,7 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                              "Cannot perform in [PSO2] Blocks.<c>"),
                             ("※지원 기능: 대응복 손가락 가동<c>\n"
                              "『PSO2』블록 비대응"),
-                            ("※Одежда влияет на движ-е пальцев"
+                            ("※Одежда влияет на движ-е пальцев\n"
                              "※Нельзя использовать в блоке PSO2")],
              "actrandom": ["Has button actions/randomness.",
                            "지원 기능: 버튼 파생/랜덤",
