@@ -59,7 +59,7 @@ layer_desc_formats = [("Unlocks the new {itype}\n"
                        "{itype}\n"
                        "\"{iname}\".")]
 
-layer_sex_locks = {"n": ["", ""],
+layer_sex_locks = {"n": ["", "", ""],
                    "m": ["\nOnly usable on male characters.",
                          " 남성만 가능.",
                          "\nТолько для мужских персонажей."],
