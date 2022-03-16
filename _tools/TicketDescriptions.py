@@ -89,8 +89,8 @@ layer_hide_inners = ["※Hides innerwear when worn.",
                      "※При экипировке скрывает In."]
 
 layer_hide_accessories = ["※Hides accessories when worn.",
-                          "",
-                          ""]
+                          "※악세서리 표시 불가",
+                          "※Скрывает аксессуары."]
 
 def translate_layer_desc(item, file_name):
     item_name = ""
@@ -457,10 +457,10 @@ nla_formats = [("Unlocks a new Lobby Action for use by\n"
 
 la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                                 "outfit limited/Can't use in [PSO2].<c>"),
-                               (""
-                                ""),
-                               (""
-                                "")],
+                               ("대응 기능: 버튼 파생 / 대응 복장 손가락 가동 / \n"
+                                "『PSO2』 블록 비지원"),
+                               ("Есть действия/Движен. пальцев\n"
+                                "огранич./Недоступно в [PSO2].")],
              "fingersngs": [("<yellow>※Finger motion limited based on outfit.\n"
                              "Cannot perform in [PSO2] Blocks.<c>"),
                             ("※지원 기능: 대응복 손가락 가동<c>\n"
