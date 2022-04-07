@@ -44,11 +44,11 @@ chartable = "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨ
 
 # Translate layered wear
 
-layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю одежду (In)", ""],
-                      "Ba": ["basewear", "베이스웨어", "верхнюю одежду (Ba)", ""],
-                      "Se": ["setwear", "세트 웨어", "комплектную одежду (Se)", ""],
-                      "Fu": ["full setwear", "풀세트 웨어", "полн.компл.одежду (Fu)", ""],
-                      "Ou": ["outerwear", "아우터 웨어", "внешнюю одежду (Ou)", ""]}
+layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю одежду (In)", "内衣"],
+                      "Ba": ["basewear", "베이스웨어", "верхнюю одежду (Ba)", "底衣"],
+                      "Se": ["setwear", "세트 웨어", "комплектную одежду (Se)", "套服"],
+                      "Fu": ["full setwear", "풀세트 웨어", "полн.компл.одежду (Fu)", "全身服装"],
+                      "Ou": ["outerwear", "아우터 웨어", "внешнюю одежду (Ou)", "外套"]}
 
 # Old layered wear format. Must include itype and iname variables.
 layer_desc_formats = [("Unlocks the new {itype}\n"
@@ -59,8 +59,8 @@ layer_desc_formats = [("Unlocks the new {itype}\n"
                       ("Разблокирует новую\n"
                        "{itype}\n"
                        "\"{iname}\"."),
-                      (""
-                       "")]
+                      ("使用之后就可以选择新的{itype}的\n"
+                       "{iname}。")]
 
 layer_sex_locks = {"n": ["", "", ""],
                    "m": ["\nOnly usable on male characters.",
@@ -76,7 +76,7 @@ layer_sex_locks = {"n": ["", "", ""],
 ndesc_formats = ["Unlocks a new {itype} for use.",
                  "사용하면 새로운 {itype}\n선택이 가능해집니다.",
                  "Разблок {itype}.",
-                 ""]
+                 "使用之后就可以选择新的{itype}。"]
 
 ntype_statements = ["Type: ",
                     "대응: ",
