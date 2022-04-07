@@ -2,798 +2,798 @@
 	{
 		"assign": "3700",
 		"jp_text": "テレパイプ",
-		"tr_text": "Telepipe",
+		"tr_text": "傳送裝置",
 		"jp_explain": "簡易携帯型の転送装置。\n設置することでキャンプシップまでの\n簡易的な転移ポートが生成される。",
-		"tr_explain": "A simple portable transfer device.\nBy using it, transportation to the\nCampship is possible."
+		"tr_explain": "便攜型的傳送裝置。\n使用後會生成通向營地小船的\n簡易傳送端口。"
 	},
 	{
 		"assign": "3701",
 		"jp_text": "グラインダー",
-		"tr_text": "Grinder",
+		"tr_text": "研磨石",
 		"jp_explain": "武器や防具の加工強化に用いる素材。\n強化を行うことで、限界以上の性能を\n引き出すことができる。",
-		"tr_explain": "Material used to improve equipment.\nThe performance of equipment\ncan be pushed beyond its limit."
+		"tr_explain": "用於武器與防具加工強化的素材。\n通過強化，可以發揮出\n超出界限的性能。"
 	},
 	{
 		"assign": "3702",
 		"jp_text": "アッパートラップ",
-		"tr_text": "Upper Trap",
+		"tr_text": "擊飛陷阱",
 		"jp_explain": "レンジャー用の時限型起動トラップ。\n罠にかかったターゲットに対し\nダメージを与えつつ上空へ打ち上げる。",
-		"tr_explain": "Tool for Rangers.\nSets a trap that launches the enemy."
+		"tr_explain": "遊俠用的定時啟動型陷阱。\n會對踏入陷阱的目標造成傷害\n並將其擊飛至上空。"
 	},
 	{
 		"assign": "3703",
 		"jp_text": "ポイズントラップ",
-		"tr_text": "Poison Trap",
+		"tr_text": "中毒陷阱",
 		"jp_explain": "レンジャー用の時限型起動トラップ。\n罠にかかった目標に対しダメージを与え\nポイズンの状態異常を付与する。",
-		"tr_explain": "Tool for Rangers.\nSets a trap that poisons the enemy."
+		"tr_explain": ""遊俠用的定時啟動型陷阱。\n會對踏入陷阱的目標造成傷害\n並賦予中毒異常狀態。"
 	},
 	{
 		"assign": "3704",
 		"jp_text": "スタングレネード",
-		"tr_text": "Stun Grenade",
+		"tr_text": "震撼手雷",
 		"jp_explain": "レンジャー用の着弾爆発型グレネード。\n爆発と共に閃光を放ち、ダメージと共に\nスタンの状態異常を付与する。",
-		"tr_explain": "Tool for Rangers. Throws a grenade\nthat stuns the enemy."
+		"tr_explain": "遊俠用的著彈爆炸型手雷。\n會在爆炸的同時放出閃光，\n造成傷害，並賦予眩暈異常狀態。"
 	},
 	{
 		"assign": "3705",
 		"jp_text": "リサイクルバッヂ",
-		"tr_text": "Recycle Badge",
+		"tr_text": "回收徽章",
 		"jp_explain": "リサイクルショップにてＡＣスクラッチ\nアイテムと同等のものとして交換に\n使用できるバッヂ。",
-		"tr_explain": "Recycled AC Scratch items recycled\ninto a badge. Can be used in place\nof AC items for recycling."
+		"tr_explain": "可在回收商店中\n被視為AC轉蛋道具的等價品\n用於交換的徽章。"
 	},
 	{
 		"assign": "3706",
 		"jp_text": "ＳＧリサイクルバッヂ",
-		"tr_text": "Star Gem Recycle Badge",
+		"tr_text": "SG回收徽章",
 		"jp_explain": "ＳＧリサイクルショップにてＳＧスクラッチ\nアイテムと同等のものとして交換に\n使用できるバッヂ。",
-		"tr_explain": "Recycled SG Scratch items recycled\ninto a badge. Can be used in place\nof SG items for recycling."
+		"tr_explain": "可在SG回收商店中\n被視為SG轉蛋道具的等價品\n用於交換的徽章。"
 	},
 	{
 		"assign": "3707",
 		"jp_text": "フォトンドロップ",
-		"tr_text": "Photon Drop",
+		"tr_text": "光子結晶",
 		"jp_explain": "フォトンの結晶。\n固形化したフォトンは稀少であり\n物々交換の対象となる素材。",
-		"tr_explain": "Photonic Crystal.\nSolidified photons are scarce.\nMaterial subject to barter."
+		"tr_explain": "光子的結晶。\n固體化的光子十分稀少\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "3708",
 		"jp_text": "フォトンクリスタル",
-		"tr_text": "Photon Crystal",
+		"tr_text": "光子水晶",
 		"jp_explain": "形の整ったフォトンの結晶。\n固形化したフォトンは稀少であり\n物々交換の対象となる素材。",
-		"tr_explain": "Well-formed Photon Crystals.\nSolidified photons are scarce.\nMaterial subject to barter."
+		"tr_explain": "具有完整形狀的光子結晶。\n固體化的光子十分稀少\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "3709",
 		"jp_text": "フォトンスフィア",
-		"tr_text": "Photon Sphere",
+		"tr_text": "光子晶球",
 		"jp_explain": "美しく大きなフォトンの結晶。\n固形化したフォトンは稀少であり\n物々交換の対象となる素材。",
-		"tr_explain": "A beautiful Photon Crystal.\nSolidified photons are scarce.\nMaterial subject to barter."
+		"tr_explain": "大而華美的光子結晶。\n固體化的光子十分稀少\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37010",
 		"jp_text": "シンセサイザー",
-		"tr_text": "Synthesizer",
+		"tr_text": "合成器",
 		"jp_explain": "属性の強化合成に必要な触媒素材。\n武器を合成し属性の強化をする際\n合成触媒として必要となる。",
-		"tr_explain": "A catalyst material used for\nweapon attribute enhancement\nduring grinding."
+		"tr_explain": "強化合成屬性所必須的觸媒素材。\n合成武器強化屬性時\n需要作為合成觸媒進行使用。"
 	},
 	{
 		"assign": "37011",
 		"jp_text": "スケープドール",
-		"tr_text": "Scape Doll",
+		"tr_text": "替身人偶",
 		"jp_explain": "自律起動の自己復活用アイテム。\n所持者が戦闘不能になった際に\n一度だけ身代わりになってくれる。",
-		"tr_explain": "A self-revival item. When you\nbecome incapacitated, you can use\nthis substitute instead of yourself."
+		"tr_explain": "自動起效的自我復活道具。\n在持有者無法戰鬥時\n會僅限一次成為替身。"
 	},
 	{
 		"assign": "37012",
 		"jp_text": "アークスバッヂ青",
-		"tr_text": "Blue ARKS Badge",
+		"tr_text": "ARKS徽章藍",
 		"jp_explain": "特別な条件を満たした者だけが\n手にすることができるアークスの\nロゴが彫り込まれた青色のバッヂ。",
-		"tr_explain": "Used as currency at the Badge Shop."
+		"tr_explain": "雕刻著ARKS圖標的藍色徽章。\n只有滿足了特別條件之人\n才能夠獲得。"
 	},
 	{
 		"assign": "37013",
 		"jp_text": "アークスバッヂ橙",
-		"tr_text": "Orange ARKS Badge",
+		"tr_text": "ARKS徽章橙",
 		"jp_explain": "アークスのロゴが彫り込まれた\n橙色のバッヂ。",
-		"tr_explain": "An orange badge engraved\nwith the ARKS logo."
+		"tr_explain": "雕刻著ARKS圖標的橙色徽章。\n只有滿足了特別條件之人\n才能夠獲得。"
 	},
 	{
 		"assign": "37014",
 		"jp_text": "アークスバッヂ黄",
-		"tr_text": "Yellow ARKS Badge",
+		"tr_text": "ARKS徽章黃",
 		"jp_explain": "特別な条件を満たした者だけが\n手にすることができるアークスの\nロゴが彫り込まれた黄色のバッヂ。",
-		"tr_explain": "Used as currency at the Badge Shop."
+		"tr_explain": "雕刻著ARKS圖標的黃色徽章。\n只有滿足了特別條件之人\n才能夠獲得。"
 	},
 	{
 		"assign": "37015",
 		"jp_text": "エクスキューブ",
-		"tr_text": "Excube",
+		"tr_text": "肝塊",
 		"jp_explain": "さらなる力を求める者に与えられる\n特殊な結晶体。\n物々交換の対象となる素材。",
-		"tr_explain": "A special crystal given to those\nwho seek strength.\nMaterial subject to barter."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n追求更為強大力量之人。\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37016",
 		"jp_text": "ハーフドール",
-		"tr_text": "Half Doll",
+		"tr_text": "半身人偶",
 		"jp_explain": "自律起動の自己復活用アイテム。\n所持者が戦闘不能になった際に\n一度だけ身代わりになってくれる。",
-		"tr_explain": "A self-revival item. When you\nbecome incapacitated, you can use\nthis substitute instead of yourself."
+		"tr_explain": "自動起效的自我復活道具。\n在持有者無法戰鬥時\n會僅限一次成為替身。"
 	},
 	{
 		"assign": "37017",
 		"jp_text": "アークスバッヂ緑",
-		"tr_text": "Green ARKS Badge",
+		"tr_text": "ARKS徽章綠",
 		"jp_explain": "特別な条件を満たした者だけが\n手にすることができるアークスの\nロゴが彫り込まれた緑色のバッヂ。",
-		"tr_explain": "Used as currency at the Badge Shop."
+		"tr_explain": "雕刻著ARKS圖標的綠色徽章。\n只有滿足了特別條件之人\n才能夠獲得。"
 	},
 	{
 		"assign": "37018",
 		"jp_text": "アークスバッヂ白",
-		"tr_text": "White ARKS Badge",
+		"tr_text": "ARKS徽章白",
 		"jp_explain": "特別な条件を満たした者だけが\n手にすることができるアークスの\nロゴが彫り込まれた白色のバッヂ。",
-		"tr_explain": "Used as currency at the Badge Shop."
+		"tr_explain": "雕刻著ARKS圖標的白色徽章。\n只有滿足了特別條件之人\n才能夠獲得。"
 	},
 	{
 		"assign": "37020",
 		"jp_text": "アークスバッヂ赤",
-		"tr_text": "Red ARKS Badge",
+		"tr_text": "ARKS徽章紅",
 		"jp_explain": "特別な条件を満たした者だけが\n手にすることができるアークスの\nロゴが彫り込まれた赤色のバッヂ。",
-		"tr_explain": "Used as currency at the Badge Shop."
+		"tr_explain": "雕刻著ARKS圖標的紅色徽章。\n只有滿足了特別條件之人\n才能夠獲得。"
 	},
 	{
 		"assign": "37021",
 		"jp_text": "アークスバッヂ桃",
-		"tr_text": "Peach ARKS Badge",
+		"tr_text": "ARKS徽章粉",
 		"jp_explain": "特別な条件を満たした者だけが\n手にすることができるアークスの\nロゴが彫り込まれた桃色のバッヂ。",
-		"tr_explain": "Used as currency at the Badge Shop."
+		"tr_explain": "雕刻著ARKS圖標的粉色徽章。\n只有滿足了特別條件之人\n才能夠獲得。"
 	},
 	{
 		"assign": "37023",
 		"jp_text": "ラムダグラインダー",
-		"tr_text": "Lambda Grinder",
+		"tr_text": "拉姆達研磨石",
 		"jp_explain": "武器や防具の加工強化に用いる素材。\n強化を行うことで、限界以上の性能を\n引き出すことができる。",
-		"tr_explain": "Material used to improve equipment.\nThe performance of equipment\ncan be pushed beyond its limit."
+		"tr_explain": "用於武器與防具加工強化的素材。\n通過強化，可以發揮出\n超出界限的性能。"
 	},
 	{
 		"assign": "37024",
 		"jp_text": "職人の印",
-		"tr_text": "Craftsman's Seal",
+		"tr_text": "職人之印",
 		"jp_explain": "刀匠ジグが認めた証。\n貴重な資材と交換ができる。",
-		"tr_explain": "Proof of recognition by the\nweaponsmith Zieg. Can be\nexchanged for valuable items."
+		"tr_explain": "受刀匠基古認可的證明。\n可以交換貴重的資材。"
 	},
 	{
 		"assign": "37025",
 		"jp_text": "名工の標",
-		"tr_text": "Master Craftsman's Seal",
+		"tr_text": "名工之標",
 		"jp_explain": "刀匠ジグが認めた証。\n更に貴重な資材と交換ができる。",
-		"tr_explain": "Proof of recognition by the\nweaponsmith Zieg. Can be\nexchanged for very valuable items."
+		"tr_explain": "受刀匠基古認可的證明。\n可以交換更為貴重的資材。"
 	},
 	{
 		"assign": "37026",
 		"jp_text": "刀匠の証",
-		"tr_text": "Swordsmith's Emblem",
+		"tr_text": "刀匠之證",
 		"jp_explain": "刀匠ジグが認めた証。\nジグへの製作依頼をすることができる。",
-		"tr_explain": "Proof of recognition by the\nweaponsmith Zieg. Entitles you to\nrequest Zieg to produce one item."
+		"tr_explain": "受刀匠基古認可的證明。\n可以委託基古進行製作。"
 	},
 	{
 		"assign": "37027",
 		"jp_text": "Ｈｕエクスキューブ",
-		"tr_text": "Hu Excube",
+		"tr_text": "Hu肝塊",
 		"jp_explain": "ハンターを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
-		"tr_explain": "A special crystal given to extreme\nHunters. By trading this item, more\npower can be obtained."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n將獵人(Hu)登峰造極之人。\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37028",
 		"jp_text": "Ｒａエクスキューブ",
-		"tr_text": "Ra Excube",
+		"tr_text": "Ra肝塊",
 		"jp_explain": "レンジャーを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
-		"tr_explain": "A special crystal given to extreme\nRangers. By trading this item, more\npower can be obtained."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n將遊俠(Ra)登峰造極之人。\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37029",
 		"jp_text": "Ｆｏエクスキューブ",
-		"tr_text": "Fo Excube",
+		"tr_text": "Fo肝塊",
 		"jp_explain": "フォースを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
-		"tr_explain": "A special crystal given to extreme\nForces. By trading this item, more\npower can be obtained."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n將法師(Fo)登峰造極之人。\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37030",
 		"jp_text": "Ｆｉエクスキューブ",
-		"tr_text": "Fi Excube",
+		"tr_text": "Fi肝塊",
 		"jp_explain": "ファイターを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
-		"tr_explain": "A special crystal given to extreme\nFighters. By trading this item, more\npower can be obtained."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n將鬥士(Fi)登峰造極之人。\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37031",
 		"jp_text": "Ｇｕエクスキューブ",
-		"tr_text": "Gu Excube",
+		"tr_text": "Gu肝塊",
 		"jp_explain": "ガンナーを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
-		"tr_explain": "A special crystal given to extreme\nGunners. By trading this item, more\npower can be obtained."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n將鷹眼(Gu)登峰造極之人。\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37032",
 		"jp_text": "Ｔｅエクスキューブ",
-		"tr_text": "Te Excube",
+		"tr_text": "Te肝塊",
 		"jp_explain": "テクターを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
-		"tr_explain": "A special crystal given to extreme\nTechters. By trading this item, more\npower can be obtained."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n將元素使(Te)登峰造極之人。\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37033",
 		"jp_text": "Ｂｒエクスキューブ",
-		"tr_text": "Br Excube",
+		"tr_text": "Br肝塊",
 		"jp_explain": "ブレイバーを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
-		"tr_explain": "A special crystal given to extreme\nBravers. By trading this item, more\npower can be obtained."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n將武士(Br)登峰造極之人。\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37034",
 		"jp_text": "Ｂｏエクスキューブ",
-		"tr_text": "Bo Excube",
+		"tr_text": "Bo肝塊",
 		"jp_explain": "バウンサーを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
-		"tr_explain": "A special crystal given to extreme\nBouncers. By trading this item, more\npower can be obtained."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n將凌客(Bo)登峰造極之人。\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37036",
 		"jp_text": "Ｓｕエクスキューブ",
-		"tr_text": "Su Excube",
+		"tr_text": "Su肝塊",
 		"jp_explain": "サモナーを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
-		"tr_explain": "A special crystal given to extreme\nSummoners. By trading this item,\nmore power can be obtained."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n將召喚師(Su)登峰造極之人。\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37037",
 		"jp_text": "Ｈｒエクスキューブ",
-		"tr_text": "Hr Excube",
+		"tr_text": "Hr肝塊",
 		"jp_explain": "ヒーローを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
-		"tr_explain": "A special crystal given to valiant\nHeroes. By trading this item, more\npower can be obtained."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n將英雄(Hr)登峰造極之人。\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37038",
 		"jp_text": "Ｐｈエクスキューブ",
-		"tr_text": "Ph Excube",
+		"tr_text": "Ph肝塊",
 		"jp_explain": "ファントムを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
-		"tr_explain": "A special crystal given to special\nPhantoms. By trading this item, more\npower can be obtained."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n將幻影(Ph)登峰造極之人。\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37039",
 		"jp_text": "Ｅｔエクスキューブ",
-		"tr_text": "Et Excube",
+		"tr_text": "Et肝塊",
 		"jp_explain": "エトワールを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
-		"tr_explain": "A special crystal given to special\nEtoiles. By trading this item, more\npower can be obtained."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n將閃星(Et)登峰造極之人。\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37040",
 		"jp_text": "Ｌｕエクスキューブ",
-		"tr_text": "Lu Excube",
+		"tr_text": "Lu肝塊",
 		"jp_explain": "ラスターを極めし者に与えられる\n特殊な結晶体。提示することで\nさらなる力を得ることができる。",
-		"tr_explain": "A special crystal given to special\nLusters. By trading this item, more\npower can be obtained."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n將輝刃(Lu)登峰造極之人。\n是用於以物換物的素材。"
 	},
 	{
 		"assign": "37043",
 		"jp_text": "チャレンジドール",
-		"tr_text": "Challenge Doll",
+		"tr_text": "挑戰人偶",
 		"jp_explain": "自律起動の自己復活用アイテム。\n所持者が戦闘不能になった際に\n一度だけ身代わりになってくれる。",
-		"tr_explain": "A self-revival item. When you\nbecome incapacitated, you can use\nthis substitute instead of yourself."
+		"tr_explain": "自動起效的自我復活道具。\n在持有者無法戰鬥時\n會僅限一次成為替身。"
 	},
 	{
 		"assign": "37044",
 		"jp_text": "ウェポンズバッヂ２０１５金",
-		"tr_text": "Gold Weapons Badge 2015",
+		"tr_text": "武器徽章2015金",
 		"jp_explain": "表面に特徴的な紋章、裏面に謎の年号が\n刻印された金バッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "A gold emblem with an engraved\ndesign. A mysterious year is printed\non the back. Can be traded for prizes."
+		"tr_explain": "正面刻著獨特的紋章，\n背面刻著謎之年號的金徽章。\n出示後可交換各種各樣的道具。"
 	},
 	{
 		"assign": "37045",
 		"jp_text": "ウェポンズバッヂ２０１５銀",
-		"tr_text": "Silver Weapons Badge 2015",
+		"tr_text": "武器徽章2015銀",
 		"jp_explain": "表面に特徴的な紋章、裏面に謎の年号が\n刻印された銀バッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "A silver emblem with an engraved\ndesign. A mysterious year is printed\non the back. Can be traded for prizes."
+		"tr_explain": "正面刻著獨特的紋章，\n背面刻著謎之年號的銀徽章。\n出示後可交換各種各樣的道具。"
 	},
 	{
 		"assign": "37046",
 		"jp_text": "ウェポンズバッヂ２０１５銅",
-		"tr_text": "Bronze Weapons Badge 2015",
+		"tr_text": "武器徽章2015銅",
 		"jp_explain": "表面に特徴的な紋章、裏面に謎の年号が\n刻印された銅バッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "A bronze emblem with an engraved\ndesign. A mysterious year is printed\non the back. Can be traded for prizes."
+		"tr_explain": "正面刻著獨特的紋章，\n背面刻著謎之年號的銅徽章。\n出示後可交換各種各樣的道具。"
 	},
 	{
 		"assign": "37047",
 		"jp_text": "ラグオルメモリ",
-		"tr_text": "Ragol Memory",
+		"tr_text": "",
 		"jp_explain": "表面に特徴的な魔法陣が刻印されている\n何らかの記録媒体。内部データが復元\nできれば有用なものとなる。",
-		"tr_explain": "A recording device with an odd\nengraving on its surface. The data\ninside could be useful if restored."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37048",
 		"jp_text": "フォトンブースター",
-		"tr_text": "Photon Booster",
+		"tr_text": "",
 		"jp_explain": "励起状態のフォトン結晶。\n周囲のフォトンに働きかけ\n対象の励起反応を促進させる素材。",
-		"tr_explain": "Photon Crystals in an excited state.\nSurrounding Photon activity in\ncertain weapons cause a reaction."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37049",
 		"jp_text": "創者の証",
-		"tr_text": "Creator's Emblem",
+		"tr_text": "",
 		"jp_explain": "創世器を抱くに相応しき者に与えられる\n名誉の証。ジグに創世器武器迷彩の\n製作を依頼できるようになる。",
-		"tr_explain": "Proof of honor given to a person that\nis suitable for Genesis Weapon\nreproduction from Zieg."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37050",
 		"jp_text": "ウェポンズバッヂ２０１６金",
-		"tr_text": "Weapons Badge 2016 Gold",
+		"tr_text": "武器徽章2016金",
 		"jp_explain": "表面に特徴的な紋章、裏面に謎の年号が\n刻印された金バッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "A gold emblem with an engraved\ndesign. A mysterious year is printed\non the back. Can be traded for prizes."
+		"tr_explain": "正面刻著獨特的紋章，\n背面刻著謎之年號的金徽章。\n出示後可交換各種各樣的道具。"
 	},
 	{
 		"assign": "37051",
 		"jp_text": "ウェポンズバッヂ２０１６銀",
-		"tr_text": "Weapons Badge 2016 Silver",
+		"tr_text": "武器徽章2016銀",
 		"jp_explain": "表面に特徴的な紋章、裏面に謎の年号が\n刻印された銀バッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "A silver emblem with an engraved\ndesign. A mysterious year is printed\non the back. Can be traded for prizes."
+		"tr_explain": "正面刻著獨特的紋章，\n背面刻著謎之年號的銀徽章。\n出示後可交換各種各樣的道具。"
 	},
 	{
 		"assign": "37052",
 		"jp_text": "ウェポノイドブースター",
-		"tr_text": "Weaponoid Booster",
+		"tr_text": "",
 		"jp_explain": "励起状態のフォトン結晶。\n特定武器のフォトンに働きかけ\nフォトン励起を促進させる素材。",
-		"tr_explain": "Photon Crystals in an excited state.\nWorks by promoting photon activity\nin certain weapons."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37053",
 		"jp_text": "ガバスチケット",
-		"tr_text": "Gavas Ticket",
+		"tr_text": "",
 		"jp_explain": "正式名称はメタリックガバス。\nガバスを規定数まで集めることで\n商品と交換が可能なシステムだ！",
-		"tr_explain": "Officially known as Metallic Gavas.\nBy collecting enough of them, you\ncan exchange them for prizes!"
+		"tr_explain": ""
 	},
 	{
 		"assign": "37054",
 		"jp_text": "ウェポンズバッヂ２０１７",
-		"tr_text": "Weapons Badge 2017",
+		"tr_text": "武器徽章2017",
 		"jp_explain": "表面に特徴的な紋章、裏面に謎の年号が\n刻印されたバッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "An emblem with an engraved design.\nA mysterious year is printed on the\nback. Can be traded for prizes."
+		"tr_explain": "正面刻著獨特的紋章，\n背面刻著謎之年號的徽章。\n出示後可交換各種各樣的道具。"
 	},
 	{
 		"assign": "37055",
 		"jp_text": "アリーナブースター",
-		"tr_text": "Arena Booster",
+		"tr_text": "",
 		"jp_explain": "励起状態のフォトン結晶。\n対象のフォトンに働きかけ\n特殊な能力発現を促進させる素材。",
-		"tr_explain": "Photon Crystals in an excited state.\nA material that improves activity,\nthus enhancing a weapon's potential."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37056",
 		"jp_text": "幻創の証",
-		"tr_text": "Phantom Emblem",
+		"tr_text": "",
 		"jp_explain": "具現武装を持つに足る意志強き者が持つ\n神秘の証。ジグに具現武装系武器迷彩の\n製作を依頼できるようになる。",
-		"tr_explain": "An emblem of mystery that shows\nproof of skill to wield a replica the\nembodied weapons from Zieg."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37057",
 		"jp_text": "５周年記念バッヂ",
-		"tr_text": "5th Anniversary Badge",
+		"tr_text": "",
 		"jp_explain": "５周年記念に作られた、特徴的な紋章が\n刻印されたバッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "A badge that was engraved with a\ncrest in commemoration of the 5th\nAnniv. Can be exchanged for prizes."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37058",
 		"jp_text": "EPISODE0メモリ",
-		"tr_text": "EPISODE 0 Memory",
+		"tr_text": "",
 		"jp_explain": "表面に六芒の五のマークが刻印された\n何らかの記録媒体。内部データが\n復元できれば有用なものなのだが……",
-		"tr_explain": "A recording device with a hexagonal\ndesign on its surface. The data\ninside could be useful if restored..."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37059",
 		"jp_text": "バスターメダルＡ",
-		"tr_text": "Buster Medal A",
+		"tr_text": "",
 		"jp_explain": "バスタークエストで協力した証。\n提示することによって\n様々なアイテムと交換可能。",
-		"tr_explain": "Proof that one participated in a\nBuster Quest. You can trade it\nin for various prizes."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37060",
 		"jp_text": "バスターメダルＢ",
-		"tr_text": "Buster Medal B",
+		"tr_text": "",
 		"jp_explain": "バスタークエストで協力した証。\n提示することによって\n様々なアイテムと交換可能。",
-		"tr_explain": "Proof that one participated in a\nBuster Quest. You can trade it\nin for various prizes."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37061",
 		"jp_text": "バスターメダル",
-		"tr_text": "Buster Medal",
+		"tr_text": "",
 		"jp_explain": "バスタークエストで協力した証。\n提示することによって\n様々なアイテムと交換可能。",
-		"tr_explain": "Proof that one participated in a\nBuster Quest. You can trade it\nin for various prizes."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37063",
 		"jp_text": "うえぽのメモリ",
-		"tr_text": "Weapono Memory",
+		"tr_text": "",
 		"jp_explain": "表面に特徴的な絵が描かれている\n何らかの記憶媒体。内部データから\n楽しいものが作れそう。",
-		"tr_explain": "A storage device with a distinctive\nimage on its surface. The data inside\ncould be used to make fun things."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37064",
 		"jp_text": "電撃バッヂ",
-		"tr_text": "Dengeki Badge",
+		"tr_text": "",
 		"jp_explain": "電撃！ポリタンランド！に\n入園した証。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "Dengeki! Polytanland! Admission\nTicket. Can be traded for prizes."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37066",
 		"jp_text": "ウェポンズバッヂ２０１８",
-		"tr_text": "Weapons Badge 2018",
+		"tr_text": "武器徽章2018",
 		"jp_explain": "表面に特徴的な紋章、裏面に謎の年号が\n刻印されたバッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "An emblem with an engraved design.\nA mysterious year is printed on the\nback. Can be traded for prizes."
+		"tr_explain": "正面刻著獨特的紋章，\n背面刻著謎之年號的徽章。\n出示後可交換各種各樣的道具。"
 	},
 	{
 		"assign": "37067",
 		"jp_text": "ＴＣＧメモリ",
-		"tr_text": "TCG Memory",
+		"tr_text": "",
 		"jp_explain": "表面に特徴的な絵が描かれている\n何らかの記録媒体。内部データの\n復元ができれば有用なものとなる。",
-		"tr_explain": "A recording device with a distinctive\nimage on its surface. The data\ninside could be useful if restored."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37069",
 		"jp_text": "覇者の紋章",
-		"tr_text": "Conqueror's Crest",
+		"tr_text": "",
 		"jp_explain": "様々な戦場で活躍したアークスの証。\n提示することで、ジグの持つ\n貴重なアイテムと交換ができる。",
-		"tr_explain": "Proof of an ARKS who took part in\nmany great battles. Can be traded\nto Zieg in exchange for items."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37070",
 		"jp_text": "レオンティーナ証書",
-		"tr_text": "Leontina Certificate",
+		"tr_text": "",
 		"jp_explain": "条件を達成した者に与えられる証書。\nゲートエリアのレオンティーナに渡すと\n強力な★13武器などを入手できる。",
-		"tr_explain": "A certificate handed out under\nspecial conditions. Give it to\nLeontina for powerful ★13 items."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37071",
 		"jp_text": "６周年記念バッヂ",
-		"tr_text": "6th Anniv. Badge",
+		"tr_text": "",
 		"jp_explain": "６周年記念に作られた、特徴的な紋章が\n刻印されたバッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "A badge that was engraved with a\ncrest in commemoration of the 6th\nAnniv. Can be exchanged for prizes."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37072",
 		"jp_text": "ホムラシリーズ引換券",
-		"tr_text": "Homura Series Voucher",
+		"tr_text": "",
 		"jp_explain": "ホムラシリーズの引換券。\nシー（6周年記念）に渡すことで\n強力な武器と交換できる。\n<yellow>交換期限／２０１８年８月８日１１時００分<c>",
-		"tr_explain": "Homura Series Voucher. By\nexchanging it with Xie (Anniversary),\nyou can obtain a powerful weapon.\n<yellow>Expires: Aug 8th, 2018 11:00 JST<c>"
+		"tr_explain": ""
 	},
 	{
 		"assign": "37073",
 		"jp_text": "王者の紋章",
-		"tr_text": "King's Crest",
+		"tr_text": "",
 		"jp_explain": "様々な戦場で活躍したアークスの証。\n提示することで、ジグの持つ\n貴重なアイテムと交換ができる。",
-		"tr_explain": "Proof of an ARKS who took part in\nmany great battles. Can be traded\nto Zieg in exchange for items."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37074",
 		"jp_text": "恋やかんメモリ",
-		"tr_text": "Love Kettle Memory",
+		"tr_text": "",
 		"jp_explain": "表面に特徴的な絵が描かれている\n何らかの記憶媒体。内部データから\n楽しいものが作れそう。",
-		"tr_explain": "A storage device with a distinctive\nimage on its surface. The data inside\ncould be used to make fun things."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37075",
 		"jp_text": "武器フォーム変更パス",
-		"tr_text": "Weapon Form Pass",
+		"tr_text": "",
 		"jp_explain": "武器フォーム変更の機能利用パス。\nアイテムラボにて武器フォームの変更が\n可能。利用するたびパスは消費される。",
-		"tr_explain": "Used in Weapon Customizing.\nAllows for the ability to change your\nweapon's form at the Item Lab.\n<yellow>Pass is consumed upon form change.<c>"
+		"tr_explain": ""
 	},
 	{
 		"assign": "37076",
 		"jp_text": "武器フォーム変更補助券",
-		"tr_text": "Weapon Form Ticket",
+		"tr_text": "",
 		"jp_explain": "武器フォーム変更の補助券。\n規定数を集めるとリサイクルショップで\n「武器フォーム変更パス」と交換可能。",
-		"tr_explain": "Used in Weapon Customizing. When\ngathered in bulk, you can recycle\nthem for a \"Weapon Form Pass\"."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37077",
 		"jp_text": "セレシリーズ引換券",
-		"tr_text": "Ceres Series Voucher",
+		"tr_text": "",
 		"jp_explain": "セレシリーズの引換券。\n強力な武器と交換できる。\n<yellow>交換期限／２０１８年１２月５日１１時００分<c>",
-		"tr_explain": "A voucher for the Ceres Series.\nCan exchange for a weapon.\n<yellow>Deadline: Dec 5, 11:00 JST<c>"
+		"tr_explain": ""
 	},
 	{
 		"assign": "37078",
 		"jp_text": "ウェポンズバッヂ２０１９",
-		"tr_text": "Weapons Badge 2019",
+		"tr_text": "武器徽章2019",
 		"jp_explain": "表面に特徴的な紋章、裏面に謎の年号が\n刻印されたバッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "An emblem with an engraved design.\nA mysterious year is printed on the\nback. Can be traded for prizes."
+		"tr_explain": "正面刻著獨特的紋章，\n背面刻著謎之年號的徽章。\n出示後可交換各種各樣的道具。"
 	},
 	{
 		"assign": "37079",
 		"jp_text": "ぷそ煮コミメモリ",
-		"tr_text": "Pusoni Comic Memory",
+		"tr_text": "",
 		"jp_explain": "表面に特徴的な絵が描かれている\n何らかの記憶媒体。内部データから\n楽しいものが作れそう。",
-		"tr_explain": "A storage device with a distinctive\nimage on its surface. The data inside\ncould be used to make fun things."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37080",
 		"jp_text": "ＰＳＺＥＲＯメモリ",
-		"tr_text": "PSZero Memory",
+		"tr_text": "",
 		"jp_explain": "表面に特徴的な絵が描かれている\n何らかの記録媒体。内部データが復元\nできれば有用なものとなる。",
-		"tr_explain": "A recording device with a distinctive\nimage on its surface. The data\ninside could be useful if restored."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37081",
 		"jp_text": "勇者の紋章",
-		"tr_text": "Hero's Crest",
+		"tr_text": "",
 		"jp_explain": "様々な戦場で活躍したアークスの証。\n提示することで、ジグの持つ\n貴重なアイテムと交換ができる。",
-		"tr_explain": "Proof of an ARKS who took part in\nmany great battles. Can be traded\nto Zieg in exchange for items."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37082",
 		"jp_text": "ゴールドプライズメダル",
-		"tr_text": "Gold Prize Medal",
+		"tr_text": "",
 		"jp_explain": "艦隊迎撃戦で功績をあげた証。\n提示することによって\n貴重なアイテムと交換可能。",
-		"tr_explain": "A sense of pride & accomplishment\nobtained in the Armada of Demise.\nCan be exchanged for various items."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37083",
 		"jp_text": "シルバープライズメダル",
-		"tr_text": "Silver Prize Medal",
+		"tr_text": "",
 		"jp_explain": "艦隊迎撃戦で功績をあげた証。\n提示することによって\n様々なアイテムと交換可能。",
-		"tr_explain": "A sense of pride & accomplishment\nobtained in the Armada of Demise.\nCan be exchanged for various items."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37084",
 		"jp_text": "レオンティーナ証書Ｂ",
-		"tr_text": "Leontina Certificate B",
+		"tr_text": "",
 		"jp_explain": "条件を達成した者に与えられる証書。\nゲートエリアのレオンティーナに渡すと\n強力な★14武器などを入手できる。",
-		"tr_explain": "A certificate handed out under\nspecial conditions. Give it to\nLeontina for powerful ★14 items."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37085",
 		"jp_text": "ウェポンズバッヂＳＰ",
-		"tr_text": "Weapons Badge SP",
+		"tr_text": "武器徽章SP",
 		"jp_explain": "表面に特徴的な紋章、裏面に謎の年号が\n複数刻印されたバッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "An emblem with an engraved design.\nMysterious years are printed on the\nback. Can be traded for prizes."
+		"tr_explain": "正面刻著獨特的紋章，\n背面刻著多個謎之年號的徽章。\n出示後可交換各種各樣的道具。"
 	},
 	{
 		"assign": "37086",
 		"jp_text": "アルティメットブースター",
-		"tr_text": "Ultimate Booster",
+		"tr_text": "",
 		"jp_explain": "励起状態のフォトン結晶。\n周囲のフォトンに働きかけ\n対象の励起反応を促進させる素材。",
-		"tr_explain": "Photon Crystals in an excited state.\nBy promoting other photons to enter\nthe same state, this allows for a\ntargeted energy level concentration."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37087",
 		"jp_text": "７周年記念バッヂ",
-		"tr_text": "7th Anniversary Badge",
+		"tr_text": "",
 		"jp_explain": "７周年記念に作られた、特徴的な紋章が\n刻印されたバッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "A badge that was engraved with a\ncrest in commemoration of the 7th\nAnniv. Can be exchanged for prizes."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37088",
 		"jp_text": "ノヴェルシリーズ引換券",
-		"tr_text": "Novel Series Certificate",
+		"tr_text": "",
 		"jp_explain": "ノヴェルシリーズの引換券。\n交換ショップで\n強力な武器と交換できる。\n<yellow>交換期限／２０２０年１月８日１１時００分<c>",
-		"tr_explain": "Novel Series Certificate. You can\nexchange this at the Recycle\nShop for a powerful weapon.\n<yellow>Expires: Jan. 8 2020 11:00 JST</yellow>"
+		"tr_explain": ""
 	},
 	{
 		"assign": "37089",
 		"jp_text": "ぷそ煮コミメモリ２",
-		"tr_text": "Pusoni Comic Memory 2",
+		"tr_text": "",
 		"jp_explain": "表面に特徴的な絵が描かれている\n何らかの記憶媒体。内部データから\n楽しいものが作れそう。",
-		"tr_explain": "A storage device with a distinctive\nimage on its surface. The data inside\ncould be used to make fun things."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37090",
 		"jp_text": "ミッションバッヂ",
-		"tr_text": "Mission Badge",
+		"tr_text": "",
 		"jp_explain": "ミッションパス等で入手可能なバッヂ。\nミッションバッヂリサイクルショップで\n他のアイテムと交換できる。",
-		"tr_explain": "A badge that can be obtained from\na Mission Pass. Can be exchanged\nfor items at the Mission Badge Shop."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37091",
 		"jp_text": "コバルトメダル",
-		"tr_text": "Cobalt Medal",
+		"tr_text": "",
 		"jp_explain": "アークスとして功績をあげた証。\n提示することによって\n貴重なアイテムと交換可能。",
-		"tr_explain": "A proof of achievement as\nan ARKS. You can exchange\nthis item for various prizes."
+		"tr_explain": ""
 	},
 	{
 		"assign": "370102",
 		"jp_text": "ウェポンズバッヂ２０２０",
-		"tr_text": "Weapons Badge 2020",
+		"tr_text": "武器徽章2020",
 		"jp_explain": "表面に特徴的な紋章、裏面に謎の年号が\n刻印されたバッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "An emblem with an engraved design.\nA mysterious year is printed on the\nback. Can be traded for prizes."
+		"tr_explain": "正面刻著獨特的紋章，\n背面刻著謎之年號的徽章。\n出示後可交換各種各樣的道具。"
 	},
 	{
 		"assign": "370103",
 		"jp_text": "賢者の紋章",
-		"tr_text": "Sage Crest",
+		"tr_text": "",
 		"jp_explain": "様々な戦場で活躍したアークスの証。\n提示することで、ジグの持つ\n貴重なアイテムと交換ができる。",
-		"tr_explain": "Proof of an ARKS who took part in\nmany great battles. Can be traded\nto Zieg in exchange for items."
+		"tr_explain": ""
 	},
 	{
 		"assign": "370105",
 		"jp_text": "ディバイドメダル",
-		"tr_text": "Divide Medal",
+		"tr_text": "",
 		"jp_explain": "ディバイドクエストで活躍した証。\nメダル交換ショップにて\n貴重なアイテムと交換可能。",
-		"tr_explain": "Proof of a Divide Quest.\nCan be exchanged for valuable\nitems at the Medal Exchange Shop."
+		"tr_explain": ""
 	},
 	{
 		"assign": "370106",
 		"jp_text": "ぷそ煮コミメモリ３",
-		"tr_text": "Pusoni Comic Memory 3",
+		"tr_text": "",
 		"jp_explain": "表面に特徴的な絵が描かれている\n何らかの記憶媒体。内部データから\n楽しいものが作れそう。",
-		"tr_explain": "A storage device with a distinctive\nimage on its surface. The data inside\ncould be used to make fun things."
+		"tr_explain": ""
 	},
 	{
 		"assign": "370107",
 		"jp_text": "特殊能力移植パス",
-		"tr_text": "Ability Transfer Pass",
+		"tr_text": "",
 		"jp_explain": "特殊能力移植の機能利用パス。\nアイテムラボにて素材の武器・防具から\n特殊能力を移植可。利用でパスを消費。",
-		"tr_explain": "Pass giving access to the Special\nAbility Transfer system at the Item\nLab. Consumed on use."
+		"tr_explain": ""
 	},
 	{
 		"assign": "370109",
 		"jp_text": "８周年記念バッヂ",
-		"tr_text": "8th Anniversary Badge",
+		"tr_text": "",
 		"jp_explain": "８周年記念に作られた、特徴的な紋章が\n刻印されたバッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "An unique engraved emblem made\nfor the 8th anniversary.\nCan be traded for prizes."
+		"tr_explain": ""
 	},
 	{
 		"assign": "370110",
 		"jp_text": "８周年記念抽選券",
-		"tr_text": "8th Anniversary Lotto Ticket",
+		"tr_text": "",
 		"jp_explain": "「ARKS CONNECT MEMORIES」の\nイベント後にアイテムやリアルグッズの\n抽選権が得られる、特殊なアイテム。",
-		"tr_explain": "A ticket that can be exchanged for\nitems and other goods after the\nARKS CONNECT MEMORIES event."
+		"tr_explain": ""
 	},
 	{
 		"assign": "370113",
 		"jp_text": "ウェポンズバッヂ２０２１",
-		"tr_text": "Weapons Badge 2021",
+		"tr_text": "武器徽章2021",
 		"jp_explain": "表面に特徴的な紋章、裏面に謎の年号が\n刻印されたバッヂ。提示することで\n様々なアイテムと交換可能。",
-		"tr_explain": "An emblem with an engraved design.\nA mysterious year is printed on the\nback. Can be traded for prizes."
+		"tr_explain": "正面刻著獨特的紋章，\n背面刻著謎之年號的徽章。\n出示後可交換各種各樣的道具。"
 	},
 	{
 		"assign": "37010002",
 		"jp_text": "N-リサイクルバッヂ",
-		"tr_text": "N-Recycle Badge",
+		"tr_text": "N-回收徽章",
 		"jp_explain": "アイテムリサイクルで\nACスクラッチアイテムと同等品として\n交換に使用できるバッヂ。",
-		"tr_explain": "An item that can be treated as an\nAC Scratch item when making trades\nat the Recycle Shop."
+		"tr_explain": "可在道具回收中\n被視為AC轉蛋道具的等價品\n用於交換的徽章。"
 	},
 	{
 		"assign": "37010003",
 		"jp_text": "N-SGリサイクルバッヂ",
-		"tr_text": "N-SG Recycle Badge",
+		"tr_text": "N-SG回收徽章",
 		"jp_explain": "アイテムリサイクルで\nSGスクラッチアイテムと同等品として\n交換に使用できるバッヂ。",
-		"tr_explain": "An item that can be treated as an\nSG Scratch item when making trades\nat the Recycle Shop."
+		"tr_explain": "可在道具回收中\n被視為SG轉蛋道具的等價品\n用於交換的徽章。"
 	},
 	{
 		"assign": "37010004",
 		"jp_text": "N-スケープドール",
-		"tr_text": "N-Scape Doll",
+		"tr_text": "N-替身人偶",
 		"jp_explain": "所持者が戦闘不能になったときに\n使用可能な蘇生デバイス。\nHPが最大の状態で復活する。",
-		"tr_explain": "A revival device that can be used\nwhen its owner is incapacitated.\nRevives you with full HP."
+		"tr_explain": "可在持有者無法戰鬥時\n使用的復活裝置。\n會以最大HP的狀態復活。"
 	},
 	{
 		"assign": "37010005",
 		"jp_text": "N-ハーフドール",
-		"tr_text": "N-Half Doll",
+		"tr_text": "N-半身人偶",
 		"jp_explain": "所持者が戦闘不能になったときに\n使用可能な蘇生デバイス。\nHPが半分の状態で復活する。",
-		"tr_explain": "A revival device that can be used\nwhen its owner is incapacitated.\nRevives you with half HP."
+		"tr_explain": "可在持有者無法戰鬥時\n使用的復活裝置。\n會以一半HP的狀態復活。"
 	},
 	{
 		"assign": "37010006",
 		"jp_text": "N-エクスキューブ",
-		"tr_text": "N-Excube",
+		"tr_text": "N-肝塊",
 		"jp_explain": "さらなる力の求道者に\n与えられる特殊な結晶体。\nアイテムラボでの\n潜在能力解放などに用いる。",
-		"tr_explain": "A special crystal given to those who\nseek strength. Can be traded for items\nat specific locations."
+		"tr_explain": "一種特殊的結晶體，會賦予給\n追求更為強大力量的求道者。\n在道具實驗室中用於解放潛在能力等。"
 	},
 	{
 		"assign": "37010016",
 		"jp_text": "N-グラインダー",
-		"tr_text": "N-Grinder",
+		"tr_text": "N-研磨石",
 		"jp_explain": "武器や防具の加工強化に用いる素材。\n強化を行うことで、限界以上の性能を\n引き出すことができる。",
-		"tr_explain": "Material used to improve equipment.\nThe performance of equipment can\nbe pushed beyond its limit."
+		"tr_explain": "用於武器與防具加工強化的素材。\n通過強化，可以發揮出\n超出界限的性能。"
 	},
 	{
 		"assign": "37010017",
 		"jp_text": "エアリオバッヂ",
-		"tr_text": "Aelio Badge",
+		"tr_text": "艾亞利奧徽章",
 		"jp_explain": "エアリオの紋章が刻印されたバッヂ。\n特定の場所でアイテムと交換できる。",
-		"tr_explain": "A badge engraved with the emblem\nof Aelio. Can be traded for items at\nspecific locations."
+		"tr_explain": "銘刻著艾亞利奧紋徽的徽章。\n可在特定地點交換道具。"
 	},
 	{
 		"assign": "37010018",
 		"jp_text": "アルファリアクター",
-		"tr_text": "Alpha Reactor",
+		"tr_text": "阿爾法動力爐",
 		"jp_explain": "なんらかの機械の動力炉。\n高値で売却することができる。",
-		"tr_explain": "A power core from some kind of\nmachine. Can be sold for a high price."
+		"tr_explain": "某種機械的動力爐。\n可以高價出售。"
 	},
 	{
 		"assign": "37010020",
 		"jp_text": "Bトリガー/エアルイエロー",
-		"tr_text": "B. Trigger/Aelio Yellow",
+		"tr_text": "B觸發器/艾亞利奧黃",
 		"jp_explain": "バトルディアで使用するトリガー。\n“エアリオトルーパーズ”の\nクリア時に消費される。",
-		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Aelio Troopers\"."
+		"tr_explain": "在擬戰設施處使用的觸發器。\n會在完成“艾亞利奧巡遊之兵”時\n被消耗。"
 	},
 	{
 		"assign": "37010021",
 		"jp_text": "Bトリガー/エアルパープル",
-		"tr_text": "B. Trigger/Aelio Purple",
+		"tr_text": "B觸發器/艾亞利奧紫",
 		"jp_explain": "バトルディアで使用するトリガー。\n“エアリオデバステーターズ”の\nクリア時に消費される。",
-		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Aelio Devastators\"."
+		"tr_explain": "在擬戰設施處使用的觸發器。\n會在完成“艾亞利奧絕滅之主”時\n被消耗。"
 	},
 	{
 		"assign": "37010022",
 		"jp_text": "N-ミッションバッヂ",
-		"tr_text": "N-Mission Badge",
+		"tr_text": "N-通行證徽章",
 		"jp_explain": "アイテムリサイクルで\n交換に使用できるバッヂ。",
-		"tr_explain": "An Item that can be\nexchanged in the Recycle Shop."
+		"tr_explain": "可在道具回收中\n用於交換的徽章。"
 	},
 	{
 		"assign": "37010023",
 		"jp_text": "ステラーシード",
-		"tr_text": "Stellar Seed",
+		"tr_text": "星辰之種",
 		"jp_explain": "流星雨のときに降り注いだとされる石。\n高値で売却することができる。",
-		"tr_explain": "A stone said to have appeared\nduring a meteor shower.\nCan be sold for a high price."
+		"tr_explain": "據說是流星雨時落下的石頭。\n可以高價出售。"
 	},
 	{
 		"assign": "37010024",
 		"jp_text": "Bトリガー/リテナイエロー",
-		"tr_text": "B. Trigger/Retem Yellow",
+		"tr_text": "B觸發器/黎泰姆黃",
 		"jp_explain": "バトルディアで使用するトリガー。\n“リテムトルーパーズ”の\nクリア時に消費される。",
-		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Retem Troopers\"."
+		"tr_explain": "在擬戰設施處使用的觸發器。\n會在完成“黎泰姆巡遊之兵”時\n被消耗。"
 	},
 	{
 		"assign": "37010025",
 		"jp_text": "Bトリガー/リテナパープル",
-		"tr_text": "B. Trigger/Retem Purple",
+		"tr_text": "B觸發器/黎泰姆紫",
 		"jp_explain": "バトルディアで使用するトリガー。\n“リテムデバステーターズ”の\nクリア時に消費される。",
-		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Retem Devastators\"."
+		"tr_explain": "在擬戰設施處使用的觸發器。\n會在完成“黎泰姆絕滅之主”時\n被消耗。"
 	},
 	{
 		"assign": "37010026",
 		"jp_text": "ブロークンリアクター",
-		"tr_text": "Broken Reactor",
+		"tr_text": "破損動力爐",
 		"jp_explain": "破損したなんらかの機械の動力炉。\nあまり高値はつかない。",
-		"tr_explain": "A power core from some kind of\na broken machine.\nCan be sold for a low price."
+		"tr_explain": "破損了的某種機械的動力爐。\n賣不出什麼高價。"
 	},
 	{
 		"assign": "37010027",
 		"jp_text": "ベータリアクター",
-		"tr_text": "Beta Reactor",
+		"tr_text": "貝塔動力爐",
 		"jp_explain": "なんらかの機械の動力炉。\n高値で売却することができる。",
-		"tr_explain": "A power core from some kind of\nmachine. Can be sold for a high price."
+		"tr_explain": "某種機械的動力爐。\n可以高價出售。"
 	},
 	{
 		"assign": "37010028",
 		"jp_text": "ガンマリアクター",
-		"tr_text": "Gamma Reactor",
+		"tr_text": "伽馬動力爐",
 		"jp_explain": "なんらかの機械の動力炉。\n高値で売却することができる。",
-		"tr_explain": "A power core from some kind of\nmachine. Can be sold for a high price."
+		"tr_explain": "某種機械的動力爐。\n可以高價出售。"
 	},
 	{
 		"assign": "37010029",
 		"jp_text": "Bトリガー/スプリング'22",
-		"tr_text": "B. Trigger/Spring '22",
+		"tr_text": "B觸發器/春季'22",
 		"jp_explain": "専用のポータルで使用するトリガー。\n“想定演習：\n戦変万花のエネミー掃討戦”の\nクリア時に消費される。",
-		"tr_explain": ""
+		"tr_explain": "在專用傳送陣處使用的觸發器。\n會在完成“設想演習：\n乾變萬花的敵人掃蕩戰”時\n被消耗。"
 	},
 	{
 		"assign": "37010030",
 		"jp_text": "ストラグメントＡ",
-		"tr_text": "Stragment A",
+		"tr_text": "鬥爭碎片A",
 		"jp_explain": "戦闘セクションなどで入手可能な\n複合装甲のかけら。精錬することで\nアームズリファイナーに加工される。",
-		"tr_explain": "A fragment of composite plating\nfound in Combat Areas. Can be\nrefined into an Arms Refiner."
+		"tr_explain": "可在戰鬥區域等地獲得的\n複合裝甲的碎片。精煉後可以\n加工為武裝精煉器。"
 	},
 	{
 		"assign": "37010031",
 		"jp_text": "ストラグメントＢ",
-		"tr_text": "Stragment B",
+		"tr_text": "鬥爭碎片B",
 		"jp_explain": "戦闘セクションなどで入手可能な\n複合装甲のかけら。精錬することで\nアームズリファイナーに加工される。",
-		"tr_explain": "A fragment of composite plating\nfound in Combat Areas. Can be\nrefined into an Arms Refiner."
+		"tr_explain": "可在戰鬥區域等地獲得的\n複合裝甲的碎片。精煉後可以\n加工為武裝精煉器。"
 	},
 	{
 		"assign": "37010032",
 		"jp_text": "ストラグメントＣ",
-		"tr_text": "Stragment C",
+		"tr_text": "鬥爭碎片C",
 		"jp_explain": "戦闘セクションなどで入手可能な\n複合装甲のかけら。精錬することで\nアームズリファイナーに加工される。",
-		"tr_explain": "A fragment of composite plating\nfound in Combat Areas. Can be\nrefined into an Arms Refiner."
+		"tr_explain": "可在戰鬥區域等地獲得的\n複合裝甲的碎片。精煉後可以\n加工為武裝精煉器。"
 	},
 	{
 		"assign": "37010033",
 		"jp_text": "アームズリファイナー",
-		"tr_text": "Arms Refiner",
+		"tr_text": "武裝精煉器",
 		"jp_explain": "ストラグメントから精錬される素材。\nアイテムラボでの限界突破に用いる。",
 		"tr_explain": "A material created by refining\nStragments. Can be used to\nbreak item limits at the Item Lab."
 	},
