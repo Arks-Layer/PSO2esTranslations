@@ -62,7 +62,7 @@ layer_desc_formats = [("Unlocks the new {itype}\n"
                       ("使用之后就可以选择新的{itype}的\n"
                        "{iname}。")]
 
-layer_sex_locks = {"n": ["", "", ""],
+layer_sex_locks = {"n": ["", "", "", ""],
                    "m": ["\nOnly usable on male characters.",
                          " 남성만 가능.",
                          "\nТолько для мужских персонажей.",
@@ -802,7 +802,7 @@ cv_names = {
     "田所 あずさ": ["Azusa Tadokoro", "", "Адзуса Тадокоро", ""],
     "森田 順平": ["Junpei Morita", "", "Дзюмпэи Морита", ""],
     "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O", "M・A・O", "M・A・O", ""],
-    "？？？": ["???", "???", "???", ""],
+    "？？？": ["???", "???", "???", "???"],
     "": ["Unknown", "알 수 없는", "Неизвестно", ""]
     }
 
