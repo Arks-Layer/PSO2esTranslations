@@ -59,7 +59,7 @@ layer_desc_formats = [("Unlocks the new {itype}\n"
                        "{itype}\n"
                        "\"{iname}\".")]
 
-layer_sex_locks = {"n": ["", ""],
+layer_sex_locks = {"n": ["", "", ""],
                    "m": ["\nOnly usable on male characters.",
                          " 남성만 가능.",
                          "\nТолько для мужских персонажей."],
@@ -87,6 +87,10 @@ ntype_locks = {"a": ["All", "KO_All", "Все"],
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
                      "※При экипировке скрывает In."]
+
+layer_hide_accessories = ["※Hides accessories when worn.",
+                          "※악세서리 표시 불가",
+                          "※Скрывает аксессуары."]
 
 def translate_layer_desc(item, file_name):
     item_name = ""
@@ -170,13 +174,19 @@ def translate_nlayer_desc(item, file_name):
     if "着用時はインナーが非表示になります。" in item["jp_explain"]:
         hideinner = True
 
+    # Some setwears are incompatible with accessories
+    hideaccess = False
+    if "アクセサリー表示非対応" in item["jp_explain"]:
+        hideaccess = True
+
     # Translate the description.
-    item["tr_explain"] = (ndesc_formats[LANG] + "{typelock}" + "{hidepanties}").format(
+    item["tr_explain"] = (ndesc_formats[LANG] + "{typelock}" + "{hidepanties}" + "{noaccessories}").format(
         itype = layered_wear_types[item_name.split("[", )[1][0:2]][LANG] if item_name.endswith("]")
                 # Exception for default layered wear since it doesn't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
-        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
+        noaccessories = "\n<yellow>" + layer_hide_accessories[LANG] + "<c>" if hideaccess == True else "")
 
     item["tr_explain"] = item["tr_explain"].translate(chartable)
     
@@ -441,7 +451,19 @@ nla_formats = [("Unlocks a new Lobby Action for use by\n"
                ("Разблокирует новый лобби-экшн\n"
                 "для всех персонажей вашего акка.")]
 
-la_extras = {"actrandom": ["Has button actions/randomness.",
+la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
+                                "outfit limited/Can't use in [PSO2].<c>"),
+                               ("<yellow>대응 기능: 버튼 파생 / 대응 복장 손가락 가동 / \n"
+                                "『PSO2』 블록 비지원<c>"),
+                               ("<yellow>Есть действия/Движен. пальцев\n"
+                                "огранич./Недоступно в [PSO2].<c>")],
+             "fingersngs": [("<yellow>※Finger motion limited based on outfit.\n"
+                             "Cannot perform in [PSO2] Blocks.<c>"),
+                            ("<yellow>※지원 기능: 대응복 손가락 가동<c>\n"
+                             "『PSO2』블록 비대응<c>"),
+                            ("<yellow>※Одежда влияет на движ-е пальцев\n"
+                             "※Нельзя использовать в блоке PSO2<c>")],
+             "actrandom": ["Has button actions/randomness.",
                            "지원 기능: 버튼 파생/랜덤",
                            "Есть кнопка действия/рандом."],
              "actweapons": [("Shows equipment, has extra actions.\n"
@@ -506,7 +528,11 @@ def translate_la_desc(item):
 
     # Figure out what extra stuff to put at the end of the description
     extras = "n"
-    if "対応機能：ボタン派生／ランダム" in item["jp_explain"]:
+    if "対応機能：ボタン派生／対応服指可動／\n『PSO2』ブロック非対応" in item["jp_explain"]:
+        extras = "actfingersngs"
+    elif "対応機能：対応服指可動／\n『PSO2』ブロック非対応" in item["jp_explain"]:
+        extras = "fingersngs"
+    elif "対応機能：ボタン派生／ランダム" in item["jp_explain"]:
         extras = "actrandom"
     elif "対応機能：ボタン派生／武器装備反映" in item["jp_explain"]:
         extras = "actweapons"
@@ -537,7 +563,7 @@ def translate_la_desc(item):
     else:
         item["tr_explain"] = (nla_formats[LANG] + "{extrastuff}" + "{fingers}").format(
             extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG],
-            fingers = "" if extras == "nclasspose" else nla_fingers[LANG])
+            fingers = "" if extras in ["nclasspose", "actfingersngs", "fingersngs"] else nla_fingers[LANG])
 
     item["tr_explain"] = item["tr_explain"].translate(chartable)
     
