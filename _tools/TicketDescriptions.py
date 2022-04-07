@@ -815,7 +815,8 @@ name_fallbacks = {0: -1,
 
 voice_desc_formats = ["Allows a new voice to be selected.",
                       "사용하면 새로운 보이스 사용 가능.",
-                      "Позволяет выбрать новый голос."]
+                      "Позволяет выбрать новый голос.",
+                      ""]
 
 def translate_voice(item):
     item_name = ""
