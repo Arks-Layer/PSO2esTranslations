@@ -271,7 +271,7 @@ cosmetic_desc_formats = [("Unlocks the {sexlock}{itype}\n"
                           "의 사용이 가능해진다."),
                          ("Разблок-т {itype} {sexlock}\n"
                           "\"{iname}\"\n"
-                          "для использования в салоне.").
+                          "для использования в салоне."),
                          (""
                           ""
                           "")]
@@ -484,7 +484,7 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                             ("<yellow>※지원 기능: 대응복 손가락 가동<c>\n"
                              "『PSO2』블록 비대응<c>"),
                             ("<yellow>※Одежда влияет на движ-е пальцев\n"
-                             "※Нельзя использовать в блоке PSO2<c>")
+                             "※Нельзя использовать в блоке PSO2<c>"),
                             ("",
                              "")],
              "actrandom": ["Has button actions/randomness.",
@@ -520,7 +520,7 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                             ("<yellow>※지원 기능: 대응복 손가락 가동/\n"
                              "무기 장비 반영/『PSO2』블록 비대응<c>"),
                             ("<yellow>Движ. завис-т от одежды| Отображ.\n"
-                             "экип. оружие| Только для NGS.<c>")
+                             "экип. оружие| Только для NGS.<c>"),
                             (""
                              "")]
              }
