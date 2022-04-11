@@ -96,6 +96,11 @@ layer_hide_inners = ["※Hides innerwear when worn.",
                      "※При экипировке скрывает In.",
                      ""]
 
+layer_sync_inners = ["※Synchronizes with [In] color.",
+                     "※",
+                     "※",
+                     ""]
+
 layer_hide_accessories = ["※Hides accessories when worn.",
                           "※악세서리 표시 불가",
                           "※Скрывает аксессуары.",
@@ -174,7 +179,12 @@ def translate_nlayer_desc(item, file_name):
     # Description already present, leave it alone
     if item["tr_explain"] != "" and REDO_ALL == False:
         return -2
-    
+
+    # Some basewears partially synchronise their colour with your innerwear
+    syncinner = False
+    if "一部[In]カラー同期" in item["jp_explain"]:
+        syncinner = True
+        
     # Some items are locked to one race and/or type.
     types = get_type_restrictions(item)
 
@@ -189,10 +199,11 @@ def translate_nlayer_desc(item, file_name):
         hideaccess = True
 
     # Translate the description.
-    item["tr_explain"] = (ndesc_formats[LANG] + "{typelock}" + "{hidepanties}" + "{noaccessories}").format(
+    item["tr_explain"] = (ndesc_formats[LANG] + "{syncpanties}" + "{typelock}" + "{hidepanties}" + "{noaccessories}").format(
         itype = layered_wear_types[item_name.split("[", )[1][0:2]][LANG] if item_name.endswith("]")
                 # Exception for default layered wear since it doesn't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
+        syncpanties = "\n<yellow>" + layer_sync_inners[LANG] + "<c>" if syncinner == True else "",
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
         noaccessories = "\n<yellow>" + layer_hide_accessories[LANG] + "<c>" if hideaccess == True else "")
