@@ -96,6 +96,11 @@ layer_hide_inners = ["※Hides innerwear when worn.",
                      "※При экипировке скрывает In.",
                      ""]
 
+layer_sync_inners = ["※Synchronizes with [In] color.",
+                     "※",
+                     "※",
+                     ""]
+
 layer_hide_accessories = ["※Hides accessories when worn.",
                           "※악세서리 표시 불가",
                           "※Скрывает аксессуары.",
@@ -174,7 +179,12 @@ def translate_nlayer_desc(item, file_name):
     # Description already present, leave it alone
     if item["tr_explain"] != "" and REDO_ALL == False:
         return -2
-    
+
+    # Some basewears partially synchronise their colour with your innerwear
+    syncinner = False
+    if "一部[In]カラー同期" in item["jp_explain"]:
+        syncinner = True
+        
     # Some items are locked to one race and/or type.
     types = get_type_restrictions(item)
 
@@ -189,10 +199,11 @@ def translate_nlayer_desc(item, file_name):
         hideaccess = True
 
     # Translate the description.
-    item["tr_explain"] = (ndesc_formats[LANG] + "{typelock}" + "{hidepanties}" + "{noaccessories}").format(
+    item["tr_explain"] = (ndesc_formats[LANG] + "{syncpanties}" + "{typelock}" + "{hidepanties}" + "{noaccessories}").format(
         itype = layered_wear_types[item_name.split("[", )[1][0:2]][LANG] if item_name.endswith("]")
                 # Exception for default layered wear since it doesn't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
+        syncpanties = "\n<yellow>" + layer_sync_inners[LANG] + "<c>" if syncinner == True else "",
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
         noaccessories = "\n<yellow>" + layer_hide_accessories[LANG] + "<c>" if hideaccess == True else "")
@@ -271,7 +282,7 @@ cosmetic_desc_formats = [("Unlocks the {sexlock}{itype}\n"
                           "의 사용이 가능해진다."),
                          ("Разблок-т {itype} {sexlock}\n"
                           "\"{iname}\"\n"
-                          "для использования в салоне.").
+                          "для использования в салоне."),
                          (""
                           ""
                           "")]
@@ -484,7 +495,7 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                             ("<yellow>※지원 기능: 대응복 손가락 가동<c>\n"
                              "『PSO2』블록 비대응<c>"),
                             ("<yellow>※Одежда влияет на движ-е пальцев\n"
-                             "※Нельзя использовать в блоке PSO2<c>")
+                             "※Нельзя использовать в блоке PSO2<c>"),
                             ("",
                              "")],
              "actrandom": ["Has button actions/randomness.",
@@ -492,7 +503,7 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                            "Есть кнопка действия/рандом.",
                            ""],
              "actweapons": [("Shows equipment, has extra actions.\n"
-                             "<yellow>Doesn't show some weapons.<c>",),
+                             "<yellow>Doesn't show some weapons.<c>"),
                             ("지원 기능: 버튼 파생/무기 장비 반영\n"
                              "<yellow>일부 무기 반영 불가<c>"),
                             ("Отображ. оружие; доп действие.\n"
@@ -520,7 +531,7 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                             ("<yellow>※지원 기능: 대응복 손가락 가동/\n"
                              "무기 장비 반영/『PSO2』블록 비대응<c>"),
                             ("<yellow>Движ. завис-т от одежды| Отображ.\n"
-                             "экип. оружие| Только для NGS.<c>")
+                             "экип. оружие| Только для NGS.<c>"),
                             (""
                              "")]
              }
@@ -587,7 +598,7 @@ def translate_la_desc(item):
     if "ロビアク『" in item["jp_explain"]:
         # Split LA name from number.
         splits = regex.split("[\"「」]", item_name)
-                
+        
         item["tr_explain"] = (la_formats[LANG] + "{extrastuff}").format(
             # Remember Photon Chairs have no number
             iname = splits[1] if len(splits) > 1 else splits[0],
