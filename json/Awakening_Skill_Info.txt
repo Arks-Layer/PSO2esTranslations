@@ -2,92 +2,92 @@
 	{
 		"id": 1,
 		"jp_name": "属性値アップ",
-		"tr_name": "Element up",
+		"tr_name": "",
 		"jp_desc": "このチップの属性値をプラグLvに応じて上昇する。\n（最大:<%MaxValue>）",
-		"tr_desc": "Increases this chip's Element value based on\nplug level. (Max: <%MaxValue>)"
+		"tr_desc": ""
 	},
 	{
 		"id": 2,
 		"jp_name": "ＨＰアップ",
-		"tr_name": "HP up",
+		"tr_name": "",
 		"jp_desc": "このチップのＨＰをプラグLvに応じて上昇する。\n（最大:<%MaxValue>）",
-		"tr_desc": "Increases this chip's HP based on plug level.\n(Max: <%MaxValue>)"
+		"tr_desc": ""
 	},
 	{
 		"id": 3,
 		"jp_name": "属性上限アップ",
-		"tr_name": "Max. Element up",
+		"tr_name": "",
 		"jp_desc": "このチップの属性の上限値を\nプラグLvに応じて上昇する。（最大:<%MaxValue>）",
-		"tr_desc": "Increases your maximum value of this chip's\nElement based on plug level. (Max: <%MaxValue>)"
+		"tr_desc": ""
 	},
 	{
 		"id": 4,
 		"jp_name": "最大ＣＰアップ",
-		"tr_name": "Max CP up",
+		"tr_name": "",
 		"jp_desc": "このチップを装備した時、プラグLvに応じて\nＣＰの最大値を上昇する。（最大:<%MaxValue>）",
-		"tr_desc": "Increases your maximum CP based on plug level\nwhile this chip is equipped. (Max: <%MaxValue>)"
+		"tr_desc": ""
 	},
 	{
 		"id": 5,
 		"jp_name": "消費ＣＰダウン",
-		"tr_name": "CP consumption down",
+		"tr_name": "",
 		"jp_desc": "このチップのアビリティの消費ＣＰを\nプラグLvに応じて減少する。（最大:<%MaxValue>）",
-		"tr_desc": "Reduces this chip's CP consumption based on\nplug level. (Max: <%MaxValue>)"
+		"tr_desc": ""
 	},
 	{
 		"id": 6,
 		"jp_name": "発動率アップ",
-		"tr_name": "Activation rate up",
+		"tr_name": "",
 		"jp_desc": "このチップのアビリティの発動率を\nプラグLvに応じて上昇する。（最大:<%MaxValue>％）",
-		"tr_desc": "Increases this chip's activation rate based on\nplug level. (Max: <%MaxValue>%)"
+		"tr_desc": ""
 	},
 	{
 		"id": 7,
 		"jp_name": "効果時間延長",
-		"tr_name": "Duration extension",
+		"tr_name": "",
 		"jp_desc": "このチップのアビリティ効果時間を\nプラグLvに応じて延長する。（最大:<%MaxValue>秒）",
-		"tr_desc": "increases this chip's Effect Duration based on plug\nlevel. (Max: <%MaxValue> seconds)"
+		"tr_desc": ""
 	},
 	{
 		"id": 8,
 		"jp_name": "効果アップ<%Target>",
-		"tr_name": "Effect <%Target> up",
+		"tr_name": "",
 		"jp_desc": "このチップのアビリティ<%Target>の効果を\nプラグLvに応じて強化する。（最大:<%MaxValue><%Unit>）",
-		"tr_desc": "Increases the effect of this chip's <%Target> effect based\non plug level. (Max: <%MaxValue><%Unit>)"
+		"tr_desc": ""
 	},
 	{
 		"id": 9,
 		"jp_name": "チップコストダウン",
-		"tr_name": "Chip cost down",
+		"tr_name": "",
 		"jp_desc": "このチップのコストをプラグLvに応じて減少する。\n（最大:<%MaxValue>）",
-		"tr_desc": "Decreases this chip's equip cost based on plug\nlevel. (Max: <%MaxValue>)"
+		"tr_desc": ""
 	},
 	{
 		"id": 10,
 		"jp_name": "効果適用拡大<%Target>",
-		"tr_name": "Effect <%Target> enhanced",
+		"tr_name": "",
 		"jp_desc": "このチップのアビリティ<%Target>の効果の対象に\n「<%Unit>」を追加する。",
-		"tr_desc": "This chip's <%Target> effect now includes\n\"<%Unit>\"."
+		"tr_desc": ""
 	},
 	{
 		"id": 11,
 		"jp_name": "効果適用拡大<%Target>",
-		"tr_name": "Effect <%Target> enhanced",
+		"tr_name": "",
 		"jp_desc": "このチップのアビリティ<%Target>の効果の対象に\n「<%Unit>」を追加する。",
-		"tr_desc": "This chip's <%Target> effect now includes\n\"<%Unit>\"."
+		"tr_desc": ""
 	},
 	{
 		"id": 12,
 		"jp_name": "効果発動変更",
-		"tr_name": "Condition change",
+		"tr_name": "",
 		"jp_desc": "このチップの効果の発動を\n「<%Effect1>」に変更する。",
-		"tr_desc": "This chip's activation condition changes to\n\"<%Effect1>\"."
+		"tr_desc": ""
 	},
 	{
 		"id": 13,
 		"jp_name": "ボーナス属性",
-		"tr_name": "Bonus Element",
+		"tr_name": "",
 		"jp_desc": "このチップを装備したときの属性値上昇を\n「<%Unit>」に対しても適用する。",
-		"tr_desc": "This chip's element value is also added to the\n<%Unit> element when equipped."
+		"tr_desc": ""
 	}
 ]
