@@ -587,7 +587,7 @@ def translate_la_desc(item):
     if "ロビアク『" in item["jp_explain"]:
         # Split LA name from number.
         splits = regex.split("[\"「」]", item_name)
-                
+        
         item["tr_explain"] = (la_formats[LANG] + "{extrastuff}").format(
             # Remember Photon Chairs have no number
             iname = splits[1] if len(splits) > 1 else splits[0],
