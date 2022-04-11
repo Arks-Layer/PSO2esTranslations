@@ -492,7 +492,7 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                            "Есть кнопка действия/рандом.",
                            ""],
              "actweapons": [("Shows equipment, has extra actions.\n"
-                             "<yellow>Doesn't show some weapons.<c>",),
+                             "<yellow>Doesn't show some weapons.<c>"),
                             ("지원 기능: 버튼 파생/무기 장비 반영\n"
                              "<yellow>일부 무기 반영 불가<c>"),
                             ("Отображ. оружие; доп действие.\n"
