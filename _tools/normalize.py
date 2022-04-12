@@ -11,7 +11,9 @@ import unicodedata
 quick = {
     "*": "＊",  # Undo normalize of Asterisk
     "¥": "￥",  # Undo normalize of Yen
-    "『": "\"", "』": "\"",  # Use English Quotes
+    ":": "：",  # Undo normalizing of colons
+    ",": "，",  # Undo normalizing of commas
+#    "『": "\"", "』": "\"",  # Use English Quotes
     "–": "-", "‒": "-",  # Replaces DASHs with HYPHEN-MINUS
     "​": "",  # ZERO WIDTH SPACE need to gone from this world
     "ō": "ou", "ū": "uu",  # MACRONs are not supported

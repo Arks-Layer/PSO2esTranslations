@@ -2,36 +2,36 @@
 	{
 		"assign": "None",
 		"jp_text": "なし",
-		"tr_text": "None",
+		"tr_text": "",
 		"jp_explain": "なし",
-		"tr_explain": "None"
+		"tr_explain": ""
 	},
 	{
 		"assign": "mag_Basher",
 		"jp_text": "SP打撃/乱舞",
-		"tr_text": "SP Striking/Dance",
+		"tr_text": "",
 		"jp_explain": "プレイヤーの周囲を攻撃する。\nヒットごとにPPを回復し\n攻撃力アップ効果を得る。",
-		"tr_explain": "Performs slash attacks around\nthe player. Hits recover PP and\nincrease attack power."
+		"tr_explain": ""
 	},
 	{
 		"assign": "mag_VulcanCannon",
 		"jp_text": "SP射撃/速射",
-		"tr_text": "SP Ranged/Rapid Fire",
+		"tr_text": "",
 		"jp_explain": "敵単体に高速射撃を行い\nヒットごとにPPを回復する。",
-		"tr_explain": "Fires multiple single target\nburst attacks that recover PP."
+		"tr_explain": ""
 	},
 	{
 		"assign": "mag_TechCharger",
 		"jp_text": "SP法撃/集束",
-		"tr_text": "SP Technique/Convergence",
+		"tr_text": "",
 		"jp_explain": "効果時間中、法撃の\nチャージ時間を短縮する。",
-		"tr_explain": "Reduces the charge time\nof Techniques."
+		"tr_explain": ""
 	},
 	{
 		"assign": "mag_Reflector",
 		"jp_text": "SP技量/鉄壁",
-		"tr_text": "SP Dexterity/Iron Wall",
+		"tr_text": "",
 		"jp_explain": "攻撃を受けたときに発動。\n効果時間中、ダメージを減少させ\n打ち上げや吹き飛ばしも防ぐ。",
-		"tr_explain": "Activates when being attacked.\nReduces the damage and prevents\nknock-back and launch attacks."
+		"tr_explain": ""
 	}
 ]
