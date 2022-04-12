@@ -97,7 +97,7 @@ layer_hide_inners = ["※Hides innerwear when worn.",
                      ""]
 
 layer_sync_inners = ["※Synchronizes with [In] color.",
-                     "※",
+                     "※일부 [In]컬러 동기화",
                      "※Цвета некоторых [In] синхр-ся.",
                      ""]
 
@@ -484,8 +484,8 @@ nla_formats = [("Unlocks a new Lobby Action for use by\n"
 
 la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                                 "outfit limited/Can't use in [PSO2].<c>"),
-                               ("<yellow>대응 기능: 버튼 파생 / 대응 복장 손가락 가동 / \n"
-                                "『PSO2』 블록 비지원<c>"),
+                               ("<yellow>대응 기능: 버튼 파생/대응 복장\n"
+                                "손가락 가동/『PSO2』 블록 비지원<c>"),
                                ("<yellow>Есть действия/Движен. пальцев\n"
                                 "огранич./Недоступно в [PSO2].<c>"),
                                (""
