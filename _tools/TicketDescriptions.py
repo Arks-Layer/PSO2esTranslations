@@ -25,7 +25,7 @@ LANGS = {-1: "JP",
          3: "CN"}
 # Add more later.
 parser.add_argument("-l", type = int, dest = "lang", action = "store",
-                    choices = [0, 1, 2], default = 0, metavar = "N",
+                    choices = [0, 1, 2, 3], default = 0, metavar = "N",
                     help = ("Set a language to translate into. "
                             "Available options are 0 (EN), 1 (KO), 2 (RU) and 3 (CN). "
                             "Defaults to EN."))
@@ -59,7 +59,7 @@ layer_desc_formats = [("Unlocks the new {itype}\n"
                       ("Разблокирует новую\n"
                        "{itype}\n"
                        "\"{iname}\"."),
-                      ("使用之后就可以选择新的{itype}的\n"
+                      ("使用之后就可以选择新的{itype} \n"
                        "\"{iname}。\"")]
 
 layer_sex_locks = {"n": ["", "", "", ""],
@@ -81,7 +81,7 @@ ndesc_formats = ["Unlocks a new {itype} for use.",
 ntype_statements = ["Type: ",
                     "대응: ",
                     "Тип: ",
-                    "类型"]
+                    "类型: "]
 
 ntype_locks = {"a": ["All", "KO_All", "Все"],
                 "a1": ["Human/Cast Type 1", "인간형/캐스트타입1", "Человек/CAST (тип1)", "人类/机器人 类型1"],
@@ -496,7 +496,7 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                              "『PSO2』블록 비대응<c>"),
                             ("<yellow>※Одежда влияет на движ-е пальцев\n"
                              "※Нельзя использовать в блоке PSO2<c>"),
-                            ("<yellow>※手指动作受限于全身服装。\n",
+                            ("<yellow>※手指动作受限于全身服装。\n"
                              "无法在 [PSO2] 中使用。<c>")],
              "actrandom": ["Has button actions/randomness.",
                            "지원 기능: 버튼 파생/랜덤",
