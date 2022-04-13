@@ -25,7 +25,7 @@ LANGS = {-1: "JP",
          3: "CN"}
 # Add more later.
 parser.add_argument("-l", type = int, dest = "lang", action = "store",
-                    choices = [0, 1, 2], default = 0, metavar = "N",
+                    choices = [0, 1, 2, 3], default = 0, metavar = "N",
                     help = ("Set a language to translate into. "
                             "Available options are 0 (EN), 1 (KO), 2 (RU) and 3 (CN). "
                             "Defaults to EN."))
@@ -59,18 +59,18 @@ layer_desc_formats = [("Unlocks the new {itype}\n"
                       ("Разблокирует новую\n"
                        "{itype}\n"
                        "\"{iname}\"."),
-                      ("使用之后就可以选择新的{itype}的\n"
-                       "{iname}。")]
+                      ("使用之后就可以选择新的{itype} \n"
+                       "\"{iname}。\"")]
 
 layer_sex_locks = {"n": ["", "", "", ""],
                    "m": ["\nOnly usable on male characters.",
                          " 남성만 가능.",
                          "\nТолько для мужских персонажей.",
-                         ""],
+                         "\n仅能用于男性角色。"],
                    "f": ["\nOnly usable on female characters.",
                          " 여성만 가능.",
                          "\nТолько для женских персонажей.",
-                         ""]}
+                         "\n仅能用于女性角色。"]}
 
 # New cosmetics format. Must include itype variable.
 ndesc_formats = ["Unlocks a new {itype} for use.",
@@ -81,30 +81,30 @@ ndesc_formats = ["Unlocks a new {itype} for use.",
 ntype_statements = ["Type: ",
                     "대응: ",
                     "Тип: ",
-                    ""]
+                    "类型: "]
 
 ntype_locks = {"a": ["All", "KO_All", "Все"],
-                "a1": ["Human/Cast Type 1", "인간형/캐스트타입1", "Человек/CAST (тип1)", ""],
-                "a2": ["Human/Cast Type 2", "인간형/캐스트타입2", "Человек/CAST (тип2)", ""],
-                "h1": ["Human Type 1", "인간형 타입1", "Человек (тип1)", ""],
-                "h2": ["Human Type 2", "인간형 타입2", "Человек (тип2)", ""],
-                "c1": ["Cast Type 1", "캐스트 타입1", "CAST (тип1)", ""],
-                "c2": ["Cast Type 2", "캐스트 타입2", "CAST (тип2)", ""]}
+                "a1": ["Human/Cast Type 1", "인간형/캐스트타입1", "Человек/CAST (тип1)", "人类/机器人 类型1"],
+                "a2": ["Human/Cast Type 2", "인간형/캐스트타입2", "Человек/CAST (тип2)", "人类/机器人 类型2"],
+                "h1": ["Human Type 1", "인간형 타입1", "Человек (тип1)", "人类 类型1"],
+                "h2": ["Human Type 2", "인간형 타입2", "Человек (тип2)", "人类 类型2"],
+                "c1": ["Cast Type 1", "캐스트 타입1", "CAST (тип1)", "机器人 类型1"],
+                "c2": ["Cast Type 2", "캐스트 타입2", "CAST (тип2)", "机器人 类型2"]}
 
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
                      "※При экипировке скрывает In.",
-                     ""]
+                     "※穿着时会隐藏内衣。"]
 
 layer_sync_inners = ["※Synchronizes with [In] color.",
                      "※",
                      "※Цвета некоторых [In] синхр-ся.",
-                     ""]
+                     "※会和 [In] 同步颜色。"]
 
 layer_hide_accessories = ["※Hides accessories when worn.",
                           "※악세서리 표시 불가",
                           "※Скрывает аксессуары.",
-                          ""]
+                          "※穿着时会隐藏饰品。"]
 
 def translate_layer_desc(item, file_name):
     item_name = ""
@@ -264,14 +264,14 @@ cosmetic_file_names = [
     ]
 
 cosmetic_types = {
-    "Accessory": ["accessory", "악세서리", "аксессуар", ""],
-    "BodyPaint": ["body paint", "바디 페인트", "рис. тела", ""],
-    "Eye": ["eye pattern", "눈동자", "глаза", ""],
-    "EyeBrow": ["eyebrow type", "눈썹", "брови", ""],
-    "EyeLash": ["eyelash type", "속눈썹", "ресницы", ""],
-    "FacePaint": ["makeup", "메이크업", "макияж", ""],
-    "Hairstyle": ["hairstyle", "헤어스타일", "причёску", ""],
-    "Sticker": ["sticker", "스티커", "стикер", ""]
+    "Accessory": ["accessory", "악세서리", "аксессуар", "饰品"],
+    "BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身体彩绘"],
+    "Eye": ["eye pattern", "눈동자", "глаза", "眼睛类型"],
+    "EyeBrow": ["eyebrow type", "눈썹", "брови", "眼球类型"],
+    "EyeLash": ["eyelash type", "속눈썹", "ресницы", "睫毛类型"],
+    "FacePaint": ["makeup", "메이크업", "макияж", "彩妆"],
+    "Hairstyle": ["hairstyle", "헤어스타일", "причёску", "发型"],
+    "Sticker": ["sticker", "스티커", "стикер", "贴纸"]
     }
 
 cosmetic_desc_formats = [("Unlocks the {sexlock}{itype}\n"
@@ -283,22 +283,22 @@ cosmetic_desc_formats = [("Unlocks the {sexlock}{itype}\n"
                          ("Разблок-т {itype} {sexlock}\n"
                           "\"{iname}\"\n"
                           "для использования в салоне."),
-                         (""
-                          ""
-                          "")]
+                         ("解锁 {sexlock}{itype}\n"
+                          "\"{iname}\"\n"
+                          "的使用权限。")]
 
-cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для М", ""],
-                      "f": ["female-only ", "여성 전용 ", "только для Ж", ""]}
+cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для М", "仅男角色"],
+                      "f": ["female-only ", "여성 전용 ", "только для Ж", "仅女角色"]}
 
 cosmetic_size_locks = ["※Size cannot be adjusted.",
                        "※사이즈 조정은 할 수 없습니다.",
                        "※Нельзя отрегулировать размер.",
-                       ""]
+                       "※不能调整尺寸。"]
 
 cosmetic_color_locks = ["※Color cannot be changed",
                         "※색상은 변경할 수 없습니다",
                         "※Цвет нельзщя изменить.",
-                        ""]
+                        "※不能更改颜色。"]
 
 no_sticker_desc = [("Unlocks the ability to not display a\n"
                     "sticker in the Beauty Salon."),
@@ -307,8 +307,8 @@ no_sticker_desc = [("Unlocks the ability to not display a\n"
                     "숨김이 선택 가능해집니다."),
                    ("Разблокирует возможность\n"
                     "не отображать стикер в салоне."),
-                   (""
-                    "")]
+                   ("解锁可不在美容院显示贴纸\n"
+                    "的功能。")]
 
 # New cosmetic tickets use the formats we defined earlier for new layer wear
 
@@ -470,8 +470,8 @@ la_formats = [("Unlocks the new Lobby Action\n"
                "모든 캐릭터에 등록한다."),
               ("Разблокирует новый лобби-экшн:\n"
                "\"{iname}\"."),
-              (""
-               "")]
+              ("解锁新的大厅动作"
+               "\"{iname}\"。")]
 
 nla_formats = [("Unlocks a new Lobby Action for use by\n"
                 "all characters on your account."),
@@ -479,8 +479,8 @@ nla_formats = [("Unlocks a new Lobby Action for use by\n"
                 "모든 캐릭터에서 사용 가능해진다."),
                ("Разблокирует новый лобби-экшн\n"
                 "для всех персонажей вашего акка."),
-               (""
-                "")]
+               ("为账号下所有角色\n"
+                "解锁一个新的大厅动作。")]
 
 la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                                 "outfit limited/Can't use in [PSO2].<c>"),
@@ -488,58 +488,58 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                                 "『PSO2』 블록 비지원<c>"),
                                ("<yellow>Есть действия/Движен. пальцев\n"
                                 "огранич./Недоступно в [PSO2].<c>"),
-                               (""
-                                "")],
+                               ("<yellow>有额外的动作/手指动作\n"
+                                "无法在 [PSO2] 中使用。<c>")],
              "fingersngs": [("<yellow>※Finger motion limited based on outfit.\n"
                              "Cannot perform in [PSO2] Blocks.<c>"),
                             ("<yellow>※지원 기능: 대응복 손가락 가동<c>\n"
                              "『PSO2』블록 비대응<c>"),
                             ("<yellow>※Одежда влияет на движ-е пальцев\n"
                              "※Нельзя использовать в блоке PSO2<c>"),
-                            ("",
-                             "")],
+                            ("<yellow>※手指动作受限于全身服装。\n"
+                             "无法在 [PSO2] 中使用。<c>")],
              "actrandom": ["Has button actions/randomness.",
                            "지원 기능: 버튼 파생/랜덤",
                            "Есть кнопка действия/рандом.",
-                           ""],
+                           "有额外的动作/随机动作。"],
              "actweapons": [("Shows equipment, has extra actions.\n"
                              "<yellow>Doesn't show some weapons.<c>"),
                             ("지원 기능: 버튼 파생/무기 장비 반영\n"
                              "<yellow>일부 무기 반영 불가<c>"),
                             ("Отображ. оружие; доп действие.\n"
                              "<yellow>Не показывает некоторое оружие.<c>"),
-                            (""
-                             "")],
+                            ("有额外的动作。\n"
+                             "<yellow>不会显示某些武器。")],
              "action": ["Use action buttons for extra actions.",
                         "지원 기능: 버튼 파생",
                         "Доступно доп действие.",
-                        ""],
+                        "按键以展示其他动作。"],
              "react": ["Reaction has extra actions.",
                        "지원 기능: 리액션",
                        "Есть доп действие реакцией.",
-                       ""],
+                       "有额外反应动作。"],
              "weapons": [("Shows equipped weapons.\n"
                           "<yellow>Doesn't show some weapons.<c>"),
                          ("지원 기능: 무기 장비 반영\n"
                           "<yellow>일부 무기 반영 불가<c>"),
                          ("Показывает экип-е оружие.\n"
                           "<yellow>Не показывает некоторое оружие.<c>"),
-                         (""
-                          "")],
+                         ("会显示已装备的武器。\n"
+                          "<yellow>不会显示某些武器。")],
              "nclasspose": [("<yellow>※Finger motion outfit limited. Shows\n"
                              "equipment. Cannot perform in [PSO2].<c>"),
                             ("<yellow>※지원 기능: 대응복 손가락 가동/\n"
                              "무기 장비 반영/『PSO2』블록 비대응<c>"),
                             ("<yellow>Движ. завис-т от одежды| Отображ.\n"
                              "экип. оружие| Только для NGS.<c>"),
-                            (""
-                             "")]
+                            ("<yellow>※手指动作受限于全身服装。\n"
+                             "无法在 [PSO2] 中使用。<c>")]
              }
 
 nla_fingers = ["\n<yellow>※Finger motion limited based on outfit.<c>",
                "\n<yellow>※지원 기능: 대응복 손가락 가동<c>",
                "\n<yellow>※Одежда влияет на движ-е пальцев<c>",
-               ""]
+               "<yellow>※手指动作受限于全身服装。"]
 
 ha_formats = [("When used, allows you to select a\n"
                "new hand pose for all characters.\n"
@@ -553,10 +553,10 @@ ha_formats = [("When used, allows you to select a\n"
                "версию с двигающимися пальцами.\n"
                "<yellow>※Поддерж-т не все лобби-экшены.\n"
                "※Нельзя использовать в блоке PSO2<c>"),
-              (""
-               ""
-               ""
-               "")]
+              ("使用之后允许选择\n"
+               "一个新的手部动作。\n"
+               "<yellow>※不支持所有大厅动作。\n"
+               "无法在 [PSO2] 中使用。<c>")]
 
 def translate_la_desc(item):
     item_name = ""
@@ -827,7 +827,7 @@ name_fallbacks = {0: -1,
 voice_desc_formats = ["Allows a new voice to be selected.",
                       "사용하면 새로운 보이스 사용 가능.",
                       "Позволяет выбрать новый голос.",
-                      ""]
+                      "允许选择一个新的声音。"]
 
 def translate_voice(item):
     item_name = ""
@@ -857,31 +857,31 @@ def translate_voice(item):
     "hm": ["Non-Cast male characters only.",
            "인간 남성만 사용 가능.",
            "Только для М не CAST'ов.",
-           ""],
+           "仅非机器人男性角色。"],
     "hf": ["Non-Cast female characters only.",
            "인간 여성만 사용 가능.",
            "Только для Ж не CAST'ов.",
-           ""],
+           "仅非机器人女性角色。"],
     "cm": ["Male Casts only.",
            "캐스트 남성만 사용 가능.",
            "Только для М CAST'ов.",
-           ""],
+           "仅男性机器人。"],
     "cf": ["Female Casts only.",
            "캐스트 여성만 사용 가능.",
            "Только для Ж CAST'ов.",
-           ""],
+           "仅女性机器人。"],
     "am": ["Male characters only (all races).",
            "남성만 사용 가능.",
            "Только М персонажей (все расы).",
-           ""],
+           "仅男性角色。"],
     "af": ["Female characters only (all races).",
            "여성만 사용 가능.",
            "Только Ж персонажей (все расы).",
-           ""],
+           "仅女性角色。"],
     "an": ["Usable by all characters.",
            "모두 사용 가능.",
            "Доступно всем персонажам.",
-           ""]}
+           "所有角色可用。"]}
     
     # Detect ticket's race/sex restriction.
     # Default to no restriction.
