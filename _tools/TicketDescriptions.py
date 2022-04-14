@@ -25,10 +25,10 @@ LANGS = {-1: "JP",
          3: "CN"}
 # Add more later.
 parser.add_argument("-l", type = int, dest = "lang", action = "store",
-                    choices = [0, 1, 2, 3], default = 0, metavar = "N",
+                    choices = [0, 1, 2, 3], default = 3, metavar = "N",
                     help = ("Set a language to translate into. "
                             "Available options are 0 (EN), 1 (KO), 2 (RU) and 3 (CN). "
-                            "Defaults to EN."))
+                            "Defaults to CN."))
 
 # Switch for retranslating all descriptions.
 parser.add_argument("-r", dest = "redo", action = "store_true",
@@ -97,7 +97,7 @@ layer_hide_inners = ["※Hides innerwear when worn.",
                      "※穿着时会隐藏内衣。"]
 
 layer_sync_inners = ["※Synchronizes with [In] color.",
-                     "※",
+                     "※일부 [In]컬러 동기화",
                      "※Цвета некоторых [In] синхр-ся.",
                      "※会和 [In] 同步颜色。"]
 
@@ -484,8 +484,8 @@ nla_formats = [("Unlocks a new Lobby Action for use by\n"
 
 la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                                 "outfit limited/Can't use in [PSO2].<c>"),
-                               ("<yellow>대응 기능: 버튼 파생 / 대응 복장 손가락 가동 / \n"
-                                "『PSO2』 블록 비지원<c>"),
+                               ("<yellow>대응 기능: 버튼 파생/대응 복장\n"
+                                "손가락 가동/『PSO2』 블록 비지원<c>"),
                                ("<yellow>Есть действия/Движен. пальцев\n"
                                 "огранич./Недоступно в [PSO2].<c>"),
                                ("<yellow>有额外的动作/手指动作\n"
