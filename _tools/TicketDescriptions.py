@@ -470,7 +470,7 @@ la_formats = [("Unlocks the new Lobby Action\n"
                "모든 캐릭터에 등록한다."),
               ("Разблокирует новый лобби-экшн:\n"
                "\"{iname}\"."),
-              ("解锁新的大厅动作"
+              ("解锁新的大厅动作：\n"
                "\"{iname}\"。")]
 
 nla_formats = [("Unlocks a new Lobby Action for use by\n"
