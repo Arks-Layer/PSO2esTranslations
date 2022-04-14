@@ -509,7 +509,7 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                             ("Отображ. оружие; доп действие.\n"
                              "<yellow>Не показывает некоторое оружие.<c>"),
                             ("有额外的动作。\n"
-                             "<yellow>不会显示某些武器。")],
+                             "<yellow>不会显示某些武器。<c>")],
              "action": ["Use action buttons for extra actions.",
                         "지원 기능: 버튼 파생",
                         "Доступно доп действие.",
@@ -539,7 +539,7 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
 nla_fingers = ["\n<yellow>※Finger motion limited based on outfit.<c>",
                "\n<yellow>※지원 기능: 대응복 손가락 가동<c>",
                "\n<yellow>※Одежда влияет на движ-е пальцев<c>",
-               "<yellow>※手指动作受限于全身服装。"]
+               "\n<yellow>※手指动作受限于全身服装。"]
 
 ha_formats = [("When used, allows you to select a\n"
                "new hand pose for all characters.\n"
