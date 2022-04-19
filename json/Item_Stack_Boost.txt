@@ -1274,6 +1274,20 @@
 		"tr_explain": "Увел-т Очки Сезона с врагов на\n+200% на 60м с начала исп-я.\n<yellow>※Время будет уменьшаться даже\nпока вы вне игры.<c>"
 	},
 	{
+		"assign": "32010023",
+		"jp_text": "￥仮Ｓポイント＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>180分間<c>\n獲得シーズナルポイントが\n<yellow>100%アップ<c>する。\n<yellow>※〇〇イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010024",
+		"jp_text": "￥仮Ｓポイント＋200%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>180分間<c>\n獲得シーズナルポイントが\n<yellow>200%アップ<c>する。\n<yellow>※〇〇イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
 		"assign": "32010025",
 		"jp_text": "N-獲得経験値[24h]＋10%",
 		"tr_text": "N-Experience Gained [24h] +10%",
@@ -1382,36 +1396,36 @@
 		"assign": "32010040",
 		"jp_text": "N-EXレアドロップ倍率＋10%",
 		"tr_text": "N-EX Rare Drop Rate +10%",
-		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>10%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
-		"tr_explain": "Увел-т выпад-е редких предметов\n<yellow>на 10% на 60мин<c> с начала исп-я.\n<yellow>※Время будет уменьшаться даже\nпока вы вне игры.<c>"
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>10%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
 	},
 	{
 		"assign": "32010041",
 		"jp_text": "N-EXレアドロップ倍率＋20%",
 		"tr_text": "N-EX Rare Drop Rate +20%",
-		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>20%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
-		"tr_explain": "Увел-т выпад-е редких предметов\n<yellow>на 20% на 60мин<c> с начала исп-я.\n<yellow>※Время будет уменьшаться даже\nпока вы вне игры.<c>"
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>20%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
 	},
 	{
 		"assign": "32010042",
 		"jp_text": "N-EXレアドロップ倍率＋30%",
 		"tr_text": "N-EX Rare Drop Rate +30%",
-		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>30%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
-		"tr_explain": "Увел-т выпад-е редких предметов\n<yellow>на 30% на 60мин<c> с начала исп-я.\n<yellow>※Время будет уменьшаться даже\nпока вы вне игры.<c>"
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>30%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
 	},
 	{
 		"assign": "32010043",
 		"jp_text": "N-EXレアドロップ倍率＋40%",
 		"tr_text": "N-EX Rare Drop Rate +40%",
-		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>40%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
-		"tr_explain": "Увел-т выпад-е редких предметов\n<yellow>на 40% на 60мин<c> с начала исп-я.\n<yellow>※Время будет уменьшаться даже\nпока вы вне игры.<c>"
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>40%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
 	},
 	{
 		"assign": "32010044",
 		"jp_text": "N-EXレアドロップ倍率＋50%",
 		"tr_text": "N-EX Rare Drop Rate +50%",
-		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>50%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
-		"tr_explain": "Увел-т выпад-е редких предметов\n<yellow>на 50% на 60мин<c> с начала исп-я.\n<yellow>※Время будет уменьшаться даже\nпока вы вне игры.<c>"
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>50%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
 	},
 	{
 		"assign": "32010045",
@@ -1631,10 +1645,1438 @@
 		"tr_explain": "Увел-т получаемый <yellow>EXP на 25%\nна 24 часа<c> с начала использ-я.\n<yellow>※Время будет уменьшаться даже\nпока вы вне игры.<c>"
 	},
 	{
+		"assign": "32010076",
+		"jp_text": "『NGS』1周年記念Ｓポイント＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>50%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※『NGS』1周年記念イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010077",
+		"jp_text": "『NGS』1周年記念Ｓポイント＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>100%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※『NGS』1周年記念イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010078",
+		"jp_text": "『NGS』1周年記念Ｓポイント＋200%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>200%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※『NGS』1周年記念イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
 		"assign": "32010079",
 		"jp_text": "N-EXレアドロップ倍率＋25%",
 		"tr_text": "N-EX Rare Drop Rate +25%",
-		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>25%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
-		"tr_explain": "Увел-т выпад-е редких предметов\n<yellow>на 20% на 60мин<c> с начала исп-я.\n<yellow>※Склад-тся с другими бустами.<c>"
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>25%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010095",
+		"jp_text": "N-獲得経験値＋55%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>55%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010096",
+		"jp_text": "N-獲得経験値＋60%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>60%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010097",
+		"jp_text": "N-獲得経験値＋65%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>65%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010098",
+		"jp_text": "N-獲得経験値＋70%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>70%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010099",
+		"jp_text": "N-獲得経験値＋80%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>80%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010100",
+		"jp_text": "N-獲得経験値＋85%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>85%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010101",
+		"jp_text": "N-獲得経験値＋90%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>90%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010102",
+		"jp_text": "N-獲得経験値＋95%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>95%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010103",
+		"jp_text": "N-EX獲得経験値＋10%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>10%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010104",
+		"jp_text": "N-EX獲得経験値＋15%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>15%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010105",
+		"jp_text": "N-EX獲得経験値＋20%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>20%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010106",
+		"jp_text": "N-EX獲得経験値＋25%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>25%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010107",
+		"jp_text": "N-EX獲得経験値＋30%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>30%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010108",
+		"jp_text": "N-EX獲得経験値＋35%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>35%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010109",
+		"jp_text": "N-EX獲得経験値＋40%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>40%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010110",
+		"jp_text": "N-EX獲得経験値＋45%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>45%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010111",
+		"jp_text": "N-EX獲得経験値＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>50%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010112",
+		"jp_text": "N-EX獲得経験値＋55%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>55%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010113",
+		"jp_text": "N-EX獲得経験値＋60%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>60%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010114",
+		"jp_text": "N-EX獲得経験値＋65%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>65%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010115",
+		"jp_text": "N-EX獲得経験値＋70%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>70%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010116",
+		"jp_text": "N-EX獲得経験値＋75%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>75%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010117",
+		"jp_text": "N-EX獲得経験値＋80%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>80%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010118",
+		"jp_text": "N-EX獲得経験値＋85%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>85%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010119",
+		"jp_text": "N-EX獲得経験値＋90%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>90%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010120",
+		"jp_text": "N-EX獲得経験値＋95%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>95%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010121",
+		"jp_text": "N-EX獲得経験値＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得経験値が<yellow>100%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010122",
+		"jp_text": "N-獲得経験値[24h]＋15%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得経験値が<yellow>15%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010123",
+		"jp_text": "N-獲得経験値[24h]＋35%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得経験値が<yellow>35%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010124",
+		"jp_text": "N-獲得経験値[24h]＋45%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得経験値が<yellow>45%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010125",
+		"jp_text": "N-獲得経験値[24h]＋55%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得経験値が<yellow>55%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010126",
+		"jp_text": "N-獲得経験値[24h]＋60%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得経験値が<yellow>60%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010127",
+		"jp_text": "N-獲得経験値[24h]＋65%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得経験値が<yellow>65%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010128",
+		"jp_text": "N-獲得経験値[24h]＋70%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得経験値が<yellow>70%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010129",
+		"jp_text": "N-獲得経験値[24h]＋75%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得経験値が<yellow>75%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010130",
+		"jp_text": "N-獲得経験値[24h]＋80%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得経験値が<yellow>80%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010131",
+		"jp_text": "N-獲得経験値[24h]＋85%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得経験値が<yellow>85%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010132",
+		"jp_text": "N-獲得経験値[24h]＋90%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得経験値が<yellow>90%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010133",
+		"jp_text": "N-獲得経験値[24h]＋95%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得経験値が<yellow>95%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010134",
+		"jp_text": "N-獲得経験値[24h]＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得経験値が<yellow>100%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010135",
+		"jp_text": "N-獲得メセタ＋15%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>15%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010136",
+		"jp_text": "N-獲得メセタ＋20%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>20%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010137",
+		"jp_text": "N-獲得メセタ＋30%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>30%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010138",
+		"jp_text": "N-獲得メセタ＋35%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>35%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010139",
+		"jp_text": "N-獲得メセタ＋40%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>40%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010140",
+		"jp_text": "N-獲得メセタ＋45%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>45%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010141",
+		"jp_text": "N-獲得メセタ＋55%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>55%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010142",
+		"jp_text": "N-獲得メセタ＋60%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>60%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010143",
+		"jp_text": "N-獲得メセタ＋65%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>65%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010144",
+		"jp_text": "N-獲得メセタ＋70%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>70%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010145",
+		"jp_text": "N-獲得メセタ＋80%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>80%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010146",
+		"jp_text": "N-獲得メセタ＋85%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>85%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010147",
+		"jp_text": "N-獲得メセタ＋90%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>90%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010148",
+		"jp_text": "N-獲得メセタ＋95%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>95%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010149",
+		"jp_text": "N-EX獲得メセタ＋10%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>10%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010150",
+		"jp_text": "N-EX獲得メセタ＋15%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>15%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010151",
+		"jp_text": "N-EX獲得メセタ＋20%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>20%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010152",
+		"jp_text": "N-EX獲得メセタ＋25%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>25%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010153",
+		"jp_text": "N-EX獲得メセタ＋30%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>30%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010154",
+		"jp_text": "N-EX獲得メセタ＋35%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>35%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010155",
+		"jp_text": "N-EX獲得メセタ＋40%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>40%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010156",
+		"jp_text": "N-EX獲得メセタ＋45%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>45%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010157",
+		"jp_text": "N-EX獲得メセタ＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>50%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010158",
+		"jp_text": "N-EX獲得メセタ＋55%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>55%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010159",
+		"jp_text": "N-EX獲得メセタ＋60%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>60%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010160",
+		"jp_text": "N-EX獲得メセタ＋65%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>65%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010161",
+		"jp_text": "N-EX獲得メセタ＋70%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>70%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010162",
+		"jp_text": "N-EX獲得メセタ＋75%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>75%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010163",
+		"jp_text": "N-EX獲得メセタ＋80%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>80%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010164",
+		"jp_text": "N-EX獲得メセタ＋85%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>85%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010165",
+		"jp_text": "N-EX獲得メセタ＋90%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>90%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010166",
+		"jp_text": "N-EX獲得メセタ＋95%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>95%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010167",
+		"jp_text": "N-EX獲得メセタ＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタが<yellow>100%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010168",
+		"jp_text": "N-獲得メセタ[24h]＋10%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>10%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010169",
+		"jp_text": "N-獲得メセタ[24h]＋15%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>15%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010170",
+		"jp_text": "N-獲得メセタ[24h]＋20%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>20%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010171",
+		"jp_text": "N-獲得メセタ[24h]＋25%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>25%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010172",
+		"jp_text": "N-獲得メセタ[24h]＋30%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>30%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010173",
+		"jp_text": "N-獲得メセタ[24h]＋35%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>35%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010174",
+		"jp_text": "N-獲得メセタ[24h]＋40%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>40%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010175",
+		"jp_text": "N-獲得メセタ[24h]＋45%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>45%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010176",
+		"jp_text": "N-獲得メセタ[24h]＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>50%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010177",
+		"jp_text": "N-獲得メセタ[24h]＋55%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>55%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010178",
+		"jp_text": "N-獲得メセタ[24h]＋60%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>60%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010179",
+		"jp_text": "N-獲得メセタ[24h]＋65%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>65%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010180",
+		"jp_text": "N-獲得メセタ[24h]＋70%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>70%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010181",
+		"jp_text": "N-獲得メセタ[24h]＋75%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>75%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010182",
+		"jp_text": "N-獲得メセタ[24h]＋80%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>80%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010183",
+		"jp_text": "N-獲得メセタ[24h]＋85%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>85%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010184",
+		"jp_text": "N-獲得メセタ[24h]＋90%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>90%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010185",
+		"jp_text": "N-獲得メセタ[24h]＋95%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>95%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010186",
+		"jp_text": "N-獲得メセタ[24h]＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタが<yellow>100%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010187",
+		"jp_text": "N-レアドロップ倍率＋15%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>15%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010188",
+		"jp_text": "N-レアドロップ倍率＋35%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>35%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010189",
+		"jp_text": "N-レアドロップ倍率＋45%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>45%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010190",
+		"jp_text": "N-レアドロップ倍率＋55%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>55%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010191",
+		"jp_text": "N-レアドロップ倍率＋65%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>65%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010192",
+		"jp_text": "N-レアドロップ倍率＋85%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>85%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010193",
+		"jp_text": "N-レアドロップ倍率＋95%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>95%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010194",
+		"jp_text": "N-レアドロップ倍率＋110%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>110%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010195",
+		"jp_text": "N-レアドロップ倍率＋120%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>120%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010196",
+		"jp_text": "N-レアドロップ倍率＋130%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>130%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010197",
+		"jp_text": "N-レアドロップ倍率＋140%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>140%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010198",
+		"jp_text": "N-レアドロップ倍率＋150%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>150%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010199",
+		"jp_text": "N-レアドロップ倍率＋160%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>160%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010200",
+		"jp_text": "N-レアドロップ倍率＋170%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>170%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010201",
+		"jp_text": "N-レアドロップ倍率＋180%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>180%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010202",
+		"jp_text": "N-レアドロップ倍率＋190%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>190%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010203",
+		"jp_text": "N-レアドロップ倍率＋200%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>200%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010204",
+		"jp_text": "N-EXレアドロップ倍率＋15%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>15%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010205",
+		"jp_text": "N-EXレアドロップ倍率＋35%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>35%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010206",
+		"jp_text": "N-EXレアドロップ倍率＋45%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>45%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010207",
+		"jp_text": "N-EXレアドロップ倍率＋55%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>55%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010208",
+		"jp_text": "N-EXレアドロップ倍率＋60%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>60%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010209",
+		"jp_text": "N-EXレアドロップ倍率＋65%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>65%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010210",
+		"jp_text": "N-EXレアドロップ倍率＋70%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>70%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010211",
+		"jp_text": "N-EXレアドロップ倍率＋75％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>75%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010212",
+		"jp_text": "N-EXレアドロップ倍率＋80%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>80%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010213",
+		"jp_text": "N-EXレアドロップ倍率＋85%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>85%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010214",
+		"jp_text": "N-EXレアドロップ倍率＋90%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>90%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010215",
+		"jp_text": "N-EXレアドロップ倍率＋95%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>95%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010216",
+		"jp_text": "N-EXレアドロップ倍率＋100％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>100%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010217",
+		"jp_text": "N-EXレアドロップ倍率＋110％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>110%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010218",
+		"jp_text": "N-EXレアドロップ倍率＋120％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>120%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010219",
+		"jp_text": "N-EXレアドロップ倍率＋130％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>130%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010220",
+		"jp_text": "N-EXレアドロップ倍率＋140％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>140%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010221",
+		"jp_text": "N-EXレアドロップ倍率＋150％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>150%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010222",
+		"jp_text": "N-EXレアドロップ倍率＋160％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>160%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010223",
+		"jp_text": "N-EXレアドロップ倍率＋170％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>170%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010224",
+		"jp_text": "N-EXレアドロップ倍率＋180％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>180%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010225",
+		"jp_text": "N-EXレアドロップ倍率＋190％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>190%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010226",
+		"jp_text": "N-EXレアドロップ倍率＋200％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\nレアドロップ倍率が<yellow>200%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010227",
+		"jp_text": "N-レアドロップ倍率[24h]＋15%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>15%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010228",
+		"jp_text": "N-レアドロップ倍率[24h]＋25%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>25%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010229",
+		"jp_text": "N-レアドロップ倍率[24h]＋35%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>35%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010230",
+		"jp_text": "N-レアドロップ倍率[24h]＋45%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>45%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010231",
+		"jp_text": "N-レアドロップ倍率[24h]＋55%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>55%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010232",
+		"jp_text": "N-レアドロップ倍率[24h]＋65%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>65%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010233",
+		"jp_text": "N-レアドロップ倍率[24h]＋75%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>75%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010234",
+		"jp_text": "N-レアドロップ倍率[24h]＋85%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>85%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010235",
+		"jp_text": "N-レアドロップ倍率[24h]＋95%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>95%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010236",
+		"jp_text": "N-レアドロップ倍率[24h]＋110%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>110%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010237",
+		"jp_text": "N-レアドロップ倍率[24h]＋120%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>120%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010238",
+		"jp_text": "N-レアドロップ倍率[24h]＋130%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>130%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010239",
+		"jp_text": "N-レアドロップ倍率[24h]＋140%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>140%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010240",
+		"jp_text": "N-レアドロップ倍率[24h]＋150%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>150%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010241",
+		"jp_text": "N-レアドロップ倍率[24h]＋160%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>160%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010242",
+		"jp_text": "N-レアドロップ倍率[24h]＋170%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>170%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010243",
+		"jp_text": "N-レアドロップ倍率[24h]＋180%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>180%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010244",
+		"jp_text": "N-レアドロップ倍率[24h]＋190%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>190%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010245",
+		"jp_text": "N-レアドロップ倍率[24h]＋200%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\nレアドロップ倍率が<yellow>200%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010246",
+		"jp_text": "N-トライブースト＋15%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>15%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010247",
+		"jp_text": "N-トライブースト＋35%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>35%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010248",
+		"jp_text": "N-トライブースト＋45%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>45%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010249",
+		"jp_text": "N-トライブースト＋55%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>55%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010250",
+		"jp_text": "N-トライブースト＋60%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>60%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010251",
+		"jp_text": "N-トライブースト＋65%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>65%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010252",
+		"jp_text": "N-トライブースト＋70%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>70%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010253",
+		"jp_text": "N-トライブースト＋75%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>75%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010254",
+		"jp_text": "N-トライブースト＋80%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>80%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010255",
+		"jp_text": "N-トライブースト＋85%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>85%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010256",
+		"jp_text": "N-トライブースト＋90%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>90%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010257",
+		"jp_text": "N-トライブースト＋95%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>95%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010258",
+		"jp_text": "N-EXトライブースト＋10%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>10%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010259",
+		"jp_text": "N-EXトライブースト＋15%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>15%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010260",
+		"jp_text": "N-EXトライブースト＋20%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>20%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010261",
+		"jp_text": "N-EXトライブースト＋25%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>25%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010262",
+		"jp_text": "N-EXトライブースト＋30%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>30%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010263",
+		"jp_text": "N-EXトライブースト＋35%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>35%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010264",
+		"jp_text": "N-EXトライブースト＋40%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>40%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010265",
+		"jp_text": "N-EXトライブースト＋45%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>45%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010266",
+		"jp_text": "N-EXトライブースト＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>50%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010267",
+		"jp_text": "N-EXトライブースト＋55%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>55%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010268",
+		"jp_text": "N-EXトライブースト＋60%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>60%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010269",
+		"jp_text": "N-EXトライブースト＋65%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>65%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010270",
+		"jp_text": "N-EXトライブースト＋70%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>70%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010271",
+		"jp_text": "N-EXトライブースト＋75%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>75%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010272",
+		"jp_text": "N-EXトライブースト＋80%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>80%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010273",
+		"jp_text": "N-EXトライブースト＋85%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>85%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010274",
+		"jp_text": "N-EXトライブースト＋90%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>90%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010275",
+		"jp_text": "N-EXトライブースト＋95%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>95%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010276",
+		"jp_text": "N-EXトライブースト＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>100%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010277",
+		"jp_text": "N-トライブースト[24h]＋10%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>10%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010278",
+		"jp_text": "N-トライブースト[24h]＋15%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>15%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010279",
+		"jp_text": "N-トライブースト[24h]＋20%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>20%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010280",
+		"jp_text": "N-トライブースト[24h]＋25%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>25%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010281",
+		"jp_text": "N-トライブースト[24h]＋30%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>30%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010282",
+		"jp_text": "N-トライブースト[24h]＋35%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>35%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010283",
+		"jp_text": "N-トライブースト[24h]＋40%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>40%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010284",
+		"jp_text": "N-トライブースト[24h]＋45%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>45%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010285",
+		"jp_text": "N-トライブースト[24h]＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>50%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010286",
+		"jp_text": "N-トライブースト[24h]＋55%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>55%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010287",
+		"jp_text": "N-トライブースト[24h]＋60%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>60%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010288",
+		"jp_text": "N-トライブースト[24h]＋65%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>65%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010289",
+		"jp_text": "N-トライブースト[24h]＋70%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>70%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010290",
+		"jp_text": "N-トライブースト[24h]＋75%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>75%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010291",
+		"jp_text": "N-トライブースト[24h]＋80%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>80%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010292",
+		"jp_text": "N-トライブースト[24h]＋85%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>85%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010293",
+		"jp_text": "N-トライブースト[24h]＋90%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>90%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010294",
+		"jp_text": "N-トライブースト[24h]＋95%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>95%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010295",
+		"jp_text": "N-トライブースト[24h]＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>100%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
 	}
 ]
