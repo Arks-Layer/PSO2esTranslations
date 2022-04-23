@@ -39,8 +39,8 @@ args = parser.parse_args()
 TRANS_ALL, LANG, REDO_ALL = args.all, args.lang, args.redo
 
 # Full width character transtable
-chartable = "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ　＝－＋／．＆（）：！",
-                         "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz =-+/.&():!")
+chartable = "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ　＝－＋／．＆（）",
+                         "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz =-+/.&()")
 
 # Translate layered wear
 
@@ -81,7 +81,7 @@ ndesc_formats = ["Unlocks a new {itype} for use.",
 ntype_statements = ["Type: ",
                     "대응: ",
                     "Тип: ",
-                    "類型："]
+                    "適用於："]
 
 ntype_locks = {"a": ["All", "KO_All", "Все"],
                 "a1": ["Human/Cast Type 1", "인간형/캐스트타입1", "Человек/CAST (тип1)", "人類/機器人 類型1"],
@@ -284,7 +284,7 @@ cosmetic_desc_formats = [("Unlocks the {sexlock}{itype}\n"
                           "\"{iname}\"\n"
                           "для использования в салоне."),
                          ("使用後可選用新的{sexlock}{itype}\n"
-                          "{iname}")]
+                          "{iname}。")]
 
 cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для М", "男性專用"],
                       "f": ["female-only ", "여성 전용 ", "только для Ж", "女性專用"]}
