@@ -43,9 +43,9 @@
 	},
 	{
 		"jp_text": "アタックＰＰリストレイト",
-		"tr_text": "",
+		"tr_text": "攻擊PP恢復",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "以普通攻擊命中敵人時，PP恢復量增加",
 		"assign": 0
 	},
 	{
@@ -148,16 +148,16 @@
 	},
 	{
 		"jp_text": "ウォンドギア",
-		"tr_text": "",
+		"tr_text": "短杖武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "蓄力法術命中敵人時會積蓄武裝槽。\n普通攻擊則會引起法撃爆發",
 		"assign": 0
 	},
 	{
 		"jp_text": "ウォンドラバーズ",
-		"tr_text": "",
+		"tr_text": "短杖熱愛",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "短杖武裝槽和普通攻擊以及\n法擊爆炸的威力獲得加成，\n可以更快地使出滑步攻擊。\n短杖武裝習得後有效",
 		"assign": 0
 	},
 	{
@@ -176,30 +176,29 @@
 	},
 	{
 		"jp_text": "エレメンタルバースト",
-		"tr_text": "",
+		"tr_text": "元素爆發",
 		"jp_explain": "",
-		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "エレメンタルＰＰＲＦ",
-		"tr_text": "",
+		"tr_text": "PP回復領域元素打擊",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "在自己的周圍，展開對敵人弱點屬性\n攻擊命中時PP回復量提升的領域",
 		"assign": 0
 	},
 	{
 		"jp_text": "エレメントウィークヒット",
-		"tr_text": "",
+		"tr_text": "元素弱點命中",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升弱點屬性的攻擊力",
 		"assign": 0
 	},
 	{
 		"jp_text": "エレメントコンバージョン",
-		"tr_text": "",
+		"tr_text": "元素轉換",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "將武器的屬性值轉換為法術的傷害值\n加成。若屬性一致則會達到最大値",
 		"assign": 0
 	},
 	{
@@ -211,16 +210,16 @@
 	},
 	{
 		"jp_text": "カタナギア",
-		"tr_text": "",
+		"tr_text": "拔劍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "積蓄武裝能量槽后會提升打擊威力。\n最大武裝值的狀態下進行反擊時，\n在一定時間內獲得打擊力及暴擊率的加成",
 		"assign": 0
 	},
 	{
 		"jp_text": "カタナコンバット",
-		"tr_text": "",
+		"tr_text": "拔劍戰技",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "拔劍專用技能。一定時間内，\n對近處敵人進行高速移動並使出斬撃。\n再度按下技能鍵可使出終結一撃",
 		"assign": 0
 	},
 	{
@@ -358,9 +357,9 @@
 	},
 	{
 		"jp_text": "ジェットブーツギア",
-		"tr_text": "",
+		"tr_text": "魔裝腳武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "攻擊或法術蓄力的話會積累武裝槽，\n武器屬性會變為最後蓄力法術的\n相同屬性，攻擊威力提升",
 		"assign": 0
 	},
 	{
@@ -372,16 +371,16 @@
 	},
 	{
 		"jp_text": "スタンディングスナイプ1",
-		"tr_text": "",
+		"tr_text": "站定狙撃1",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "在靜止状態下攻撃敵人時傷害提高",
 		"assign": 0
 	},
 	{
 		"jp_text": "ステップアドバンス",
-		"tr_text": "",
+		"tr_text": "滑歩進階",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "滑歩發動時，無敵時間延長",
 		"assign": 0
 	},
 	{
@@ -435,23 +434,23 @@
 	},
 	{
 		"jp_text": "ゼロレンジアドバンス1",
-		"tr_text": "",
+		"tr_text": "零距離射撃進階1",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "在近距離以射撃攻撃命中敵人時\n傷害值上升",
 		"assign": 0
 	},
 	{
 		"jp_text": "ソードギア",
-		"tr_text": "",
+		"tr_text": "大劍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "累積武裝能量槽後，根據PA的種類，\nPA的攻撃範圍、攻撃段數、\n蓄力速度都會産生變化",
 		"assign": 0
 	},
 	{
 		"jp_text": "タリステックボーナス",
-		"tr_text": "",
+		"tr_text": "導具法術加成",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "所投出導具發動的法術獲得傷害加成",
 		"assign": 0
 	},
 	{
@@ -477,16 +476,16 @@
 	},
 	{
 		"jp_text": "ダイブロールシュート",
-		"tr_text": "",
+		"tr_text": "維持翻滾射擊",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "裝填特殊彈武器下的翻滾射擊不會射出\n特殊彈，變更為普通攻擊",
 		"assign": 0
 	},
 	{
 		"jp_text": "ダブルセイバーギア",
-		"tr_text": "",
+		"tr_text": "雙頭劍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "攻撃命中時會積蓄武裝槽，使用武器動作\n解放武裝。根據武裝槽的段數，\n四周會産生攻撃敵人的旋風",
 		"assign": 0
 	},
 	{
@@ -505,9 +504,9 @@
 	},
 	{
 		"jp_text": "チェイントリガー",
-		"tr_text": "",
+		"tr_text": "連鎖起射",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "技能發動後的普通攻擊命中時\n會展開連鎖計數",
 		"assign": 0
 	},
 	{
@@ -519,30 +518,30 @@
 	},
 	{
 		"jp_text": "チャージＰＰリバイバル",
-		"tr_text": "",
+		"tr_text": "蓄力PP恢復",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "進行法術的蓄力時會同時恢復PP值",
 		"assign": 0
 	},
 	{
 		"jp_text": "ツインダガーギア",
-		"tr_text": "",
+		"tr_text": "雙小劍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "武裝會根據跳躍的次數而蓄力，\nPA的威力會根據\n武裝能量槽的段數而提高",
 		"assign": 0
 	},
 	{
 		"jp_text": "ツインダガースピンムーブ",
-		"tr_text": "",
+		"tr_text": "雙小劍急旋移動",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "雙小劍的急旋可以向任意方向移動",
 		"assign": 0
 	},
 	{
 		"jp_text": "ツインマシンガンギア",
-		"tr_text": "",
+		"tr_text": "雙機槍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "攻撃命中後會積蓄武裝槽，攻撃威力也會提升",
 		"assign": 0
 	},
 	{
@@ -575,9 +574,9 @@
 	},
 	{
 		"jp_text": "デュアルブレードギア",
-		"tr_text": "",
+		"tr_text": "飛翔劍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "按武裝槽數量提升PA威力，使用武器\n作時會消耗武裝槽向敵人發射光子飛刃，\n對刺中的部位進行攻擊可提升PP回復量",
 		"assign": 0
 	},
 	{
@@ -589,23 +588,23 @@
 	},
 	{
 		"jp_text": "トラップサーチ",
-		"tr_text": "",
+		"tr_text": "陷阱偵測",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "可發隱藏起來的陷阱",
 		"assign": 0
 	},
 	{
 		"jp_text": "ナックルギア",
-		"tr_text": "",
+		"tr_text": "鋼拳武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "武裝會根據連續攻撃的段數而蓄力，\n攻撃速度會根據武裝能量槽的段數而提高",
 		"assign": 0
 	},
 	{
 		"jp_text": "ナックルギアブースト",
-		"tr_text": "",
+		"tr_text": "鋼拳武裝增強",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "鋼拳武裝能量槽的增加率提高",
 		"assign": 0
 	},
 	{
@@ -659,16 +658,16 @@
 	},
 	{
 		"jp_text": "パルチザンギア",
-		"tr_text": "",
+		"tr_text": "長槍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "使用PA時，消耗一格武裝能量槽\n擴大攻撃範圍和提高威力",
 		"assign": 0
 	},
 	{
 		"jp_text": "パーフェクトキーパー",
-		"tr_text": "",
+		"tr_text": "完美維持者",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "HP75％或以上時，\n給予敵人的傷害值上升",
 		"assign": 0
 	},
 	{
@@ -708,16 +707,16 @@
 	},
 	{
 		"jp_text": "フューリースタンス",
-		"tr_text": "",
+		"tr_text": "狂暴姿態",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "對敵人的打撃、射撃傷害增加，自己受到的打撃傷害也增加的被動狀態技能",
 		"assign": 0
 	},
 	{
 		"jp_text": "フレイムテックＳチャージ",
-		"tr_text": "",
+		"tr_text": "炎系法術快速蓄力",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "縮短火系法術的蓄力時間",
 		"assign": 0
 	},
 	{
@@ -799,9 +798,9 @@
 	},
 	{
 		"jp_text": "ラピッドシュート",
-		"tr_text": "",
+		"tr_text": "快速射撃",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "強弓專用技能。一定時機內，\n以犧牲強弓的普攻威力及攻擊間隔性能\n為代價，普通攻擊變為3連射",
 		"assign": 0
 	},
 	{
@@ -820,16 +819,16 @@
 	},
 	{
 		"jp_text": "ラピッドブースト",
-		"tr_text": "",
+		"tr_text": "疾風加速",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "効果時間中、\nジェットブーツのＰＡのチャージ\n速度が大きく上昇。テクニックのチャージ\n速度もわずかに上昇",
 		"assign": 0
 	},
 	{
 		"jp_text": "ラピッドブーストＪＡボーナス",
-		"tr_text": "",
+		"tr_text": "疾風加速JA加成",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "疾風加速中的JA（瞬間攻擊）獲得傷害加成",
 		"assign": 0
 	},
 	{
@@ -1016,16 +1015,16 @@
 	},
 	{
 		"jp_text": "ワイズスタンス",
-		"tr_text": "",
+		"tr_text": "睿智姿態",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "從背面攻撃敵人傷害會提高的主動技能。/n發動期間內勇猛姿態無效",
 		"assign": 0
 	},
 	{
 		"jp_text": "ワイヤードランスギア",
-		"tr_text": "",
+		"tr_text": "自在槍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "使用需按住的PA的時，\n消耗一格武裝能量槽提高威力",
 		"assign": 0
 	},
 	{
@@ -1275,23 +1274,23 @@
 	},
 	{
 		"jp_text": "射撃アップ1",
-		"tr_text": "",
+		"tr_text": "射擊提升1",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升射擊力",
 		"assign": 0
 	},
 	{
 		"jp_text": "打撃アップ1",
-		"tr_text": "",
+		"tr_text": "打擊提升1",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升打擊力",
 		"assign": 0
 	},
 	{
 		"jp_text": "技量アップ1",
-		"tr_text": "",
+		"tr_text": "技量提升1",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升技量",
 		"assign": 0
 	},
 	{
@@ -1436,9 +1435,9 @@
 	},
 	{
 		"jp_text": "法撃アップ1",
-		"tr_text": "",
+		"tr_text": "法撃提升1",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升法擊力",
 		"assign": 0
 	},
 	{
@@ -2017,9 +2016,9 @@
 	},
 	{
 		"jp_text": "ＤＳウィンドパリング",
-		"tr_text": "",
+		"tr_text": "雙頭劍風鐮格擋",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "使用雙頭劍產生鐮風的瞬間可以JG（完美防禦）",
 		"assign": 0
 	},
 	{
@@ -2094,16 +2093,16 @@
 	},
 	{
 		"jp_text": "クイックメイト",
-		"tr_text": "",
+		"tr_text": "快速療劑",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "可以更快地使用藥劑系道具",
 		"assign": 0
 	},
 	{
 		"jp_text": "ボルトテックＰＰセイブ",
-		"tr_text": "",
+		"tr_text": "雷系法術PP節約",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "減少雷系法術的PP消耗量",
 		"assign": 0
 	},
 	{
