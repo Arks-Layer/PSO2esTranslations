@@ -43,9 +43,9 @@
 	},
 	{
 		"jp_text": "アタックＰＰリストレイト",
-		"tr_text": "",
+		"tr_text": "攻擊PP恢復",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "以普通攻擊命中敵人時，PP恢復量增加",
 		"assign": 0
 	},
 	{
@@ -134,30 +134,30 @@
 	},
 	{
 		"jp_text": "ウィークスタンス",
-		"tr_text": "",
+		"tr_text": "弱點姿態",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "對弱點部位的攻擊，及用法撃的弱點屬性\n進行攻擊時傷害上升的主動姿態技能。\n發動中平衡姿態無效",
 		"assign": 0
 	},
 	{
 		"jp_text": "ウィークバレット",
-		"tr_text": "",
+		"tr_text": "脆化彈",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "步槍專用技能。\n可裝填使敵人防禦弱化的脆化彈",
 		"assign": 0
 	},
 	{
 		"jp_text": "ウォンドギア",
-		"tr_text": "",
+		"tr_text": "短杖武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "蓄力法術命中敵人時會積蓄武裝槽。\n普通攻擊則會引起法撃爆發",
 		"assign": 0
 	},
 	{
 		"jp_text": "ウォンドラバーズ",
-		"tr_text": "",
+		"tr_text": "短杖熱愛",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "短杖武裝槽和普通攻擊以及\n法擊爆炸的威力獲得加成，\n可以更快地使出滑步攻擊。\n短杖武裝習得後有效",
 		"assign": 0
 	},
 	{
@@ -176,51 +176,51 @@
 	},
 	{
 		"jp_text": "エレメンタルバースト",
-		"tr_text": "",
+		"tr_text": "元素爆發",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "用武器動作清空了武裝槽保存的屬性時，\n會發生屬性爆炸，有概率追加異常狀態。\n在魔装脚武裝習得時有效",
 		"assign": 0
 	},
 	{
 		"jp_text": "エレメンタルＰＰＲＦ",
-		"tr_text": "",
+		"tr_text": "PP回復領域元素打擊",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "在自己的周圍，展開對敵人弱點屬性\n攻擊命中時PP回復量提升的領域",
 		"assign": 0
 	},
 	{
 		"jp_text": "エレメントウィークヒット",
-		"tr_text": "",
+		"tr_text": "元素弱點命中",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升弱點屬性的攻擊力",
 		"assign": 0
 	},
 	{
 		"jp_text": "エレメントコンバージョン",
-		"tr_text": "",
+		"tr_text": "元素轉換",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "將武器的屬性值轉換為法術的傷害值\n加成。若屬性一致則會達到最大値",
 		"assign": 0
 	},
 	{
 		"jp_text": "オールガード",
-		"tr_text": "",
+		"tr_text": "全面防禦",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "當使用獵人的武器時，\n可以防禦全方位的攻撃",
 		"assign": 0
 	},
 	{
 		"jp_text": "カタナギア",
-		"tr_text": "",
+		"tr_text": "拔劍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "積蓄武裝能量槽后會提升打擊威力。\n最大武裝值的狀態下進行反擊時，\n在一定時間內獲得打擊力及暴擊率的加成",
 		"assign": 0
 	},
 	{
 		"jp_text": "カタナコンバット",
-		"tr_text": "",
+		"tr_text": "拔劍戰技",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "拔劍專用技能。一定時間内，\n對近處敵人進行高速移動並使出斬撃。\n再度按下技能鍵可使出終結一撃",
 		"assign": 0
 	},
 	{
@@ -246,16 +246,16 @@
 	},
 	{
 		"jp_text": "ガードスタンス",
-		"tr_text": "",
+		"tr_text": "防禦姿態",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "對敵人的打撃、射撃傷害下降，\n自己受到的打撃傷害也減輕的主動技能。\n發動時狂暴姿態無效",
 		"assign": 0
 	},
 	{
 		"jp_text": "ガードスタンスアドバンス",
-		"tr_text": "",
+		"tr_text": "防禦姿態進階",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "防禦姿態期間JG（完美防禦）成功\n的話，一定時間内獲得傷害加成。",
 		"assign": 0
 	},
 	{
@@ -281,16 +281,16 @@
 	},
 	{
 		"jp_text": "コンバットエスケープ",
-		"tr_text": "",
+		"tr_text": "戰技迴避",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "開始施展拔劍戰技時會産生無敵時間",
 		"assign": 0
 	},
 	{
 		"jp_text": "コンバットフィニッシュ",
-		"tr_text": "",
+		"tr_text": "戰技終結",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "拔劍戰技中的終結技可獲得傷害加成",
 		"assign": 0
 	},
 	{
@@ -316,30 +316,30 @@
 	},
 	{
 		"jp_text": "シフタエアアタックブースト",
-		"tr_text": "",
+		"tr_text": "攻擊結界空中攻擊增強",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "攻擊結界效果期間，\n獲得空中的攻擊傷害加成",
 		"assign": 0
 	},
 	{
 		"jp_text": "シフタストライク",
-		"tr_text": "",
+		"tr_text": "攻擊結界強襲",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "攻擊結界效果中對敵人的傷害增加",
 		"assign": 0
 	},
 	{
 		"jp_text": "シャープシューター",
-		"tr_text": "",
+		"tr_text": "銳眼射手",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升遠距離攻撃命中時的傷害",
 		"assign": 0
 	},
 	{
 		"jp_text": "ショウタイム",
-		"tr_text": "",
+		"tr_text": "亮相時刻",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "雙機槍專用技能。一定時間内，\n敵人對我方的仇恨值提升，\n但我方的武裝提升率也會大幅提升",
 		"assign": 0
 	},
 	{
@@ -351,37 +351,37 @@
 	},
 	{
 		"jp_text": "ジェットブーツエスケープ",
-		"tr_text": "",
+		"tr_text": "魔裝腳迴避",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "裝備魔装脚時，\n普通攻擊及PA派生時產生無敵時間",
 		"assign": 0
 	},
 	{
 		"jp_text": "ジェットブーツギア",
-		"tr_text": "",
+		"tr_text": "魔裝腳武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "攻擊或法術蓄力的話會積累武裝槽，\n武器屬性會變為最後蓄力法術的\n相同屬性，攻擊威力提升",
 		"assign": 0
 	},
 	{
 		"jp_text": "ジェルンショット",
-		"tr_text": "",
+		"tr_text": "鈍化射撃",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "大炮專用技能。\n可裝填降低敵人攻擊力的鈍化彈",
 		"assign": 0
 	},
 	{
 		"jp_text": "スタンディングスナイプ1",
-		"tr_text": "",
+		"tr_text": "站定狙撃1",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "在靜止状態下攻撃敵人時傷害提高",
 		"assign": 0
 	},
 	{
 		"jp_text": "ステップアドバンス",
-		"tr_text": "",
+		"tr_text": "滑歩進階",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "滑歩發動時，無敵時間延長",
 		"assign": 0
 	},
 	{
@@ -400,16 +400,16 @@
 	},
 	{
 		"jp_text": "スナッチステップ",
-		"tr_text": "",
+		"tr_text": "掠風滑步",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "滑歩可給予接觸的對象以打擊傷害。\n對幻視滑步無效",
 		"assign": 0
 	},
 	{
 		"jp_text": "スナッチＪＡコンボ",
-		"tr_text": "",
+		"tr_text": "滑步JA連擊",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "滑步時會產生JA（瞬間攻擊）時機",
 		"assign": 0
 	},
 	{
@@ -435,30 +435,30 @@
 	},
 	{
 		"jp_text": "ゼロレンジアドバンス1",
-		"tr_text": "",
+		"tr_text": "零距離射撃進階1",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "在近距離以射撃攻撃命中敵人時\n傷害值上升",
 		"assign": 0
 	},
 	{
 		"jp_text": "ソードギア",
-		"tr_text": "",
+		"tr_text": "大劍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "累積武裝能量槽後，根據PA的種類，\nPA的攻撃範圍、攻撃段數、\n蓄力速度都會産生變化",
 		"assign": 0
 	},
 	{
 		"jp_text": "タリステックボーナス",
-		"tr_text": "",
+		"tr_text": "導具法術加成",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "所投出導具發動的法術獲得傷害加成",
 		"assign": 0
 	},
 	{
 		"jp_text": "タリスファストスロー",
-		"tr_text": "",
+		"tr_text": "導具快速投擲",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升導具的移動速度",
 		"assign": 0
 	},
 	{
@@ -470,86 +470,86 @@
 	},
 	{
 		"jp_text": "ダイブロールアドバンス",
-		"tr_text": "",
+		"tr_text": "俯衝翻滾進階",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "延長俯衝翻滾中的無敵時間",
 		"assign": 0
 	},
 	{
 		"jp_text": "ダイブロールシュート",
-		"tr_text": "",
+		"tr_text": "維持翻滾射擊",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "裝填特殊彈武器下的翻滾射擊不會射出\n特殊彈，變更為普通攻擊",
 		"assign": 0
 	},
 	{
 		"jp_text": "ダブルセイバーギア",
-		"tr_text": "",
+		"tr_text": "雙頭劍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "攻撃命中時會積蓄武裝槽，使用武器動作\n解放武裝。根據武裝槽的段數，\n四周會産生攻撃敵人的旋風",
 		"assign": 0
 	},
 	{
 		"jp_text": "チェイスアドバンスプラス",
-		"tr_text": "",
+		"tr_text": "追擊進階+",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "攻撃異常狀態的敵人時可獲得傷害加成",
 		"assign": 0
 	},
 	{
 		"jp_text": "チェイスバインド",
-		"tr_text": "",
+		"tr_text": "追擊束縛",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "對異常狀態的敵人進行打撃攻撃\n可使該敵人陷入束縛状態",
 		"assign": 0
 	},
 	{
 		"jp_text": "チェイントリガー",
-		"tr_text": "",
+		"tr_text": "連鎖起射",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "技能發動後的普通攻擊命中時\n會展開連鎖計數",
 		"assign": 0
 	},
 	{
 		"jp_text": "チャージエスケープ",
-		"tr_text": "",
+		"tr_text": "蓄力迴避",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "法術蓄力中使用迴避動作，\n將暫時保持蓄力中的狀態。",
 		"assign": 0
 	},
 	{
 		"jp_text": "チャージＰＰリバイバル",
-		"tr_text": "",
+		"tr_text": "蓄力PP恢復",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "進行法術的蓄力時會同時恢復PP值",
 		"assign": 0
 	},
 	{
 		"jp_text": "ツインダガーギア",
-		"tr_text": "",
+		"tr_text": "雙小劍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "武裝會根據跳躍的次數而蓄力，\nPA的威力會根據\n武裝能量槽的段數而提高",
 		"assign": 0
 	},
 	{
 		"jp_text": "ツインダガースピンムーブ",
-		"tr_text": "",
+		"tr_text": "雙小劍急旋移動",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "雙小劍的急旋可以向任意方向移動",
 		"assign": 0
 	},
 	{
 		"jp_text": "ツインマシンガンギア",
-		"tr_text": "",
+		"tr_text": "雙機槍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "攻撃命中後會積蓄武裝槽，攻撃威力也會提升",
 		"assign": 0
 	},
 	{
 		"jp_text": "テックアーツＪＡボーナス",
-		"tr_text": "",
+		"tr_text": "異法術PAJA加成",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "不同的PA和法術連續使用並且\nJA（瞬間攻撃）的話可獲得傷害加成",
 		"assign": 0
 	},
 	{
@@ -561,23 +561,23 @@
 	},
 	{
 		"jp_text": "デバンドアタックＰＰＲ",
-		"tr_text": "",
+		"tr_text": "防禦結界PP回復",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "防禦結界效果期間，\n普通攻擊的PP回復量增加",
 		"assign": 0
 	},
 	{
 		"jp_text": "デバンドタフネス",
-		"tr_text": "",
+		"tr_text": "防禦結界堅韌",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "防禦結界效果中增加自身的最大HP值",
 		"assign": 0
 	},
 	{
 		"jp_text": "デュアルブレードギア",
-		"tr_text": "",
+		"tr_text": "飛翔劍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "按武裝槽數量提升PA威力，使用武器\n作時會消耗武裝槽向敵人發射光子飛刃，\n對刺中的部位進行攻擊可提升PP回復量",
 		"assign": 0
 	},
 	{
@@ -589,37 +589,37 @@
 	},
 	{
 		"jp_text": "トラップサーチ",
-		"tr_text": "",
+		"tr_text": "陷阱偵測",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "可發隱藏起來的陷阱",
 		"assign": 0
 	},
 	{
 		"jp_text": "ナックルギア",
-		"tr_text": "",
+		"tr_text": "鋼拳武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "武裝會根據連續攻撃的段數而蓄力，\n攻撃速度會根據武裝能量槽的段數而提高",
 		"assign": 0
 	},
 	{
 		"jp_text": "ナックルギアブースト",
-		"tr_text": "",
+		"tr_text": "鋼拳武裝增強",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "鋼拳武裝能量槽的增加率提高",
 		"assign": 0
 	},
 	{
 		"jp_text": "ハイタイム",
-		"tr_text": "",
+		"tr_text": "高潮時刻",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "亮相時刻發動時，會漸漸增加自身威力。\n短時間內受到一定傷害的話效果將會重置",
 		"assign": 0
 	},
 	{
 		"jp_text": "ハンターギアブースト",
-		"tr_text": "",
+		"tr_text": "獵人武裝增強",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "狂暴姿態或者防禦姿態時，\n獵人武器的武裝能量槽的上升率給予加成",
 		"assign": 0
 	},
 	{
@@ -659,16 +659,16 @@
 	},
 	{
 		"jp_text": "パルチザンギア",
-		"tr_text": "",
+		"tr_text": "長槍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "使用PA時，消耗一格武裝能量槽\n擴大攻撃範圍和提高威力",
 		"assign": 0
 	},
 	{
 		"jp_text": "パーフェクトキーパー",
-		"tr_text": "",
+		"tr_text": "完美維持者",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "HP75％或以上時，\n給予敵人的傷害值上升",
 		"assign": 0
 	},
 	{
@@ -680,44 +680,44 @@
 	},
 	{
 		"jp_text": "ファーストヒット",
-		"tr_text": "",
+		"tr_text": "首發射撃",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "對於HP沒有減少的敵人進行攻撃時\n可獲得傷害加成",
 		"assign": 0
 	},
 	{
 		"jp_text": "フォトンブレードエスケープ",
-		"tr_text": "",
+		"tr_text": "光子飛刃迴避",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "使用光子飛刃移動時產生無敵時間",
 		"assign": 0
 	},
 	{
 		"jp_text": "フォトンブレードフィーバー",
-		"tr_text": "",
+		"tr_text": "光子飛刃狂熱",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "效果發動期間，光子飛刃的發射數翻倍",
 		"assign": 0
 	},
 	{
 		"jp_text": "フォトンＢフィーバーアップ",
-		"tr_text": "",
+		"tr_text": "光子飛刃狂熱提升",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "光子飛刃狂熱發動期間，\n光子飛刃的威力上升",
 		"assign": 0
 	},
 	{
 		"jp_text": "フューリースタンス",
-		"tr_text": "",
+		"tr_text": "狂暴姿態",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "對敵人的打撃、射撃傷害增加，自己受到\n的打撃傷害也增加的被動狀態技能",
 		"assign": 0
 	},
 	{
 		"jp_text": "フレイムテックＳチャージ",
-		"tr_text": "",
+		"tr_text": "炎系法術快速蓄力",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "縮短火系法術的蓄力時間",
 		"assign": 0
 	},
 	{
@@ -778,9 +778,9 @@
 	},
 	{
 		"jp_text": "ムービングスナイプ",
-		"tr_text": "",
+		"tr_text": "移動狙撃",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升移動狀態下射擊時的傷害",
 		"assign": 0
 	},
 	{
@@ -799,37 +799,37 @@
 	},
 	{
 		"jp_text": "ラピッドシュート",
-		"tr_text": "",
+		"tr_text": "快速射撃",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "強弓專用技能。一定時機內，\n以犧牲強弓的普攻威力及攻擊間隔性能\n為代價，普通攻擊變為3連射",
 		"assign": 0
 	},
 	{
 		"jp_text": "ラピッドシュートアドバンス",
-		"tr_text": "",
+		"tr_text": "快速射擊進階",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "減少快速射撃的冷卻時間，\n并提升快速射撃期間內普通攻撃的PP回復量",
 		"assign": 0
 	},
 	{
 		"jp_text": "ラピッドシュートマスタリー",
-		"tr_text": "",
+		"tr_text": "快速射擊精通",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "快速射擊發動期間裝備強弓時\n可獲得傷害加成",
 		"assign": 0
 	},
 	{
 		"jp_text": "ラピッドブースト",
-		"tr_text": "",
+		"tr_text": "疾風加速",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "効果時間中、\nジェットブーツのＰＡのチャージ\n速度が大きく上昇。テクニックのチャージ\n速度もわずかに上昇",
 		"assign": 0
 	},
 	{
 		"jp_text": "ラピッドブーストＪＡボーナス",
-		"tr_text": "",
+		"tr_text": "疾風加速JA加成",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "疾風加速中的JA（瞬間攻擊）獲得傷害加成",
 		"assign": 0
 	},
 	{
@@ -925,9 +925,9 @@
 	},
 	{
 		"jp_text": "リミットブレイク",
-		"tr_text": "",
+		"tr_text": "極限解放",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "暫時獲得打撃傷害加成，\n同時最大HP值減少。",
 		"assign": 0
 	},
 	{
@@ -1016,16 +1016,16 @@
 	},
 	{
 		"jp_text": "ワイズスタンス",
-		"tr_text": "",
+		"tr_text": "睿智姿態",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "從背面攻撃敵人傷害會提高的主動技能。/n發動期間內勇猛姿態無效",
 		"assign": 0
 	},
 	{
 		"jp_text": "ワイヤードランスギア",
-		"tr_text": "",
+		"tr_text": "自在槍武裝",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "使用需按住的PA的時，\n消耗一格武裝能量槽提高威力",
 		"assign": 0
 	},
 	{
@@ -1275,23 +1275,23 @@
 	},
 	{
 		"jp_text": "射撃アップ1",
-		"tr_text": "",
+		"tr_text": "射擊提升1",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升射擊力",
 		"assign": 0
 	},
 	{
 		"jp_text": "打撃アップ1",
-		"tr_text": "",
+		"tr_text": "打擊提升1",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升打擊力",
 		"assign": 0
 	},
 	{
 		"jp_text": "技量アップ1",
-		"tr_text": "",
+		"tr_text": "技量提升1",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升技量",
 		"assign": 0
 	},
 	{
@@ -1436,9 +1436,9 @@
 	},
 	{
 		"jp_text": "法撃アップ1",
-		"tr_text": "",
+		"tr_text": "法撃提升1",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升法擊力",
 		"assign": 0
 	},
 	{
@@ -2017,9 +2017,9 @@
 	},
 	{
 		"jp_text": "ＤＳウィンドパリング",
-		"tr_text": "",
+		"tr_text": "雙頭劍風鐮格擋",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "使用雙頭劍產生鐮風的瞬間可以JG（完美防禦）",
 		"assign": 0
 	},
 	{
@@ -2031,44 +2031,44 @@
 	},
 	{
 		"jp_text": "ＰＰアップ1",
-		"tr_text": "",
+		"tr_text": "PP提升1",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升PP的最大值",
 		"assign": 0
 	},
 	{
 		"jp_text": "ＰＰスレイヤー",
-		"tr_text": "",
+		"tr_text": "PP屠殺者",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "當PP降至50％或以下時，\n打擊力、射擊力、法擊力均會上升",
 		"assign": 0
 	},
 	{
 		"jp_text": "ＰＰリストレイト",
-		"tr_text": "",
+		"tr_text": "PP回復",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升PP自動恢復量。\n如自身處於靜止狀態則自動回復量更多",
 		"assign": 0
 	},
 	{
 		"jp_text": "ヒーリングガード",
-		"tr_text": "",
+		"tr_text": "痊癒防禦",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "JG（完美防禦）成功後，\n自己和周圍的角色都會回復HP",
 		"assign": 0
 	},
 	{
 		"jp_text": "キリングボーナス",
-		"tr_text": "",
+		"tr_text": "殺戮機器加成",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "一定範圍内有敵人死亡時，會回復PP值",
 		"assign": 0
 	},
 	{
 		"jp_text": "ヒールシェア",
-		"tr_text": "",
+		"tr_text": "回復共享",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "回復HP時，按照回復量的一定比例，\n回復周圍的角色",
 		"assign": 0
 	},
 	{
@@ -2087,37 +2087,37 @@
 	},
 	{
 		"jp_text": "Ｔマシンガンマスタリー",
-		"tr_text": "",
+		"tr_text": "雙機槍精通",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "装備雙機槍時，\n增加PP回復量，暴擊時增加額外傷害",
 		"assign": 0
 	},
 	{
 		"jp_text": "クイックメイト",
-		"tr_text": "",
+		"tr_text": "快速療劑",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "可以更快地使用藥劑系道具",
 		"assign": 0
 	},
 	{
 		"jp_text": "ボルトテックＰＰセイブ",
-		"tr_text": "",
+		"tr_text": "雷系法術PP節約",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "減少雷系法術的PP消耗量",
 		"assign": 0
 	},
 	{
 		"jp_text": "アタックアドバンス",
-		"tr_text": "",
+		"tr_text": "攻擊進階",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "提升普通攻擊的傷害",
 		"assign": 0
 	},
 	{
 		"jp_text": "ステップＪＡコンボ",
-		"tr_text": "",
+		"tr_text": "滑步JA連擊",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "滑步時會產生JA（瞬間攻擊）時機",
 		"assign": 0
 	},
 	{
