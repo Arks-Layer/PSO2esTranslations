@@ -17,15 +17,15 @@ jobs:
           
         - name: Setting up testing environment
           run: |
-            /bin/mkdir -p /tmp/PSO2es
-            sudo chmod -R 777 /tmp/PSO2es
+            /bin/mkdir -p $GITHUB_WORKSPACE/tmp/PSO2es
+            sudo chmod -R 777 $GITHUB_WORKSPACE/tmp/PSO2es
           
         - uses: actions/checkout@v3
           
         - name: Checking for vaild JSONs
-          run: ./_py/checkjson.py | /usr/bin/tee /tmp/PSO2es/checkjson.txt
+          run: $GITHUB_WORKSPACE/_py/checkjson.py | /usr/bin/tee $GITHUB_WORKSPACE/tmp/PSO2es/checkjson.txt
           
         - name: Store artifacts
           uses: actions/upload-artifact@v3
           with:
-            path: /tmp/PSO2es/
+            path: $GITHUB_WORKSPACE/tmp/PSO2es/
