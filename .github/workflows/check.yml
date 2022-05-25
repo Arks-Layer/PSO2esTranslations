@@ -3,7 +3,7 @@ on: [push]
 jobs:
    validate:
       runs-on: ubuntu-latest
-      container: ubuntu:20.04
+      container: cimg/python:3.10-node
           
       steps:
           
