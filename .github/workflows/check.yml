@@ -12,9 +12,6 @@ jobs:
             sudo add-apt-repository ppa:deadsnakes/ppa -y
             sudo apt update
             sudo apt install python3.8 -y
-          with:
-            python-version: '3.8'
-            architecture: 'x64'
           
         - name: Display Python version
           run: python3.8 -c "import sys; print(sys.version)"
