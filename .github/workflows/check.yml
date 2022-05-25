@@ -8,8 +8,6 @@ jobs:
       steps:
         - name: Setting up Python 3.8
           run: |
-            sudo apt install software-properties-common -y
-            sudo add-apt-repository ppa:deadsnakes/ppa -y
             sudo apt install python3.8 -y
           
         - name: Display Python version
@@ -17,15 +15,16 @@ jobs:
           
         - name: Setting up testing environment
           run: |
-            sudo /bin/mkdir -p ~/tmp/PSO2es
-            sudo chmod -R 777 ~/tmp/PSO2es
-          
-        - uses: actions/checkout@v3
+            sudo /bin/mkdir -p ./tmp/PSO2es
+            sudo chmod -R 777 ./tmp/PSO2es
+        
+        - name: Checkout Repo        
+          uses: actions/checkout@v3
           
         - name: Checking for vaild JSONs
-          run: $GITHUB_WORKSPACE/_py/checkjson.py | /usr/bin/tee ~/tmp/PSO2es/checkjson.txt
+          run: ./_py/checkjson.py | /usr/bin/tee ./tmp/PSO2es/checkjson.txt
           
         - name: Store artifacts
           uses: actions/upload-artifact@v3
           with:
-            path: ~/tmp/PSO2es/
+            path: ./tmp/PSO2es/
