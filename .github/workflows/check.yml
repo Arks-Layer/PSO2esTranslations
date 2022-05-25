@@ -15,7 +15,8 @@ jobs:
           uses: actions/checkout@v3
           
         - name: Checking for vaild JSONs
-          run: /_py/checkjson.py | /usr/bin/tee /tmp/PSO2es/checkjson.txt
+          run: |
+            python ./_py/checkjson.py | /usr/bin/tee /tmp/PSO2es/checkjson.txt
           
         - name: Store artifacts
           uses: actions/upload-artifact@v3
