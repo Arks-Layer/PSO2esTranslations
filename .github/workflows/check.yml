@@ -7,9 +7,9 @@ jobs:
       steps:
         - uses: actions/checkout@v3
         - name: Setting up Python 3.8
-        with:
-          python-version: '3.8'
-          architecture: 'x64'
+          with:
+            python-version: '3.8'
+            architecture: 'x64'
           
         - name: Display Python version
           run: python -c "import sys; print(sys.version)"
@@ -21,6 +21,6 @@ jobs:
           run: ./_py/checkjson.py | /usr/bin/tee /tmp/PSO2es/checkjson.txt
           
         - name: Store artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          path: /tmp/PSO2es/
+          uses: actions/upload-artifact@v3
+          with:
+            path: /tmp/PSO2es/
