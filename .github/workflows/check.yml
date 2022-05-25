@@ -10,7 +10,6 @@ jobs:
           run: |
             sudo apt install software-properties-common -y
             sudo add-apt-repository ppa:deadsnakes/ppa -y
-            sudo apt update
             sudo apt install python3.8 -y
           
         - name: Display Python version
@@ -18,8 +17,8 @@ jobs:
           
         - name: Setting up testing environment
           run: |
-            mkdir $GITHUB_WORKSPACE/tmp/PSO2es
-            sudo chmod -R 777 $GITHUB_WORKSPACE/tmp/PSO2es
+            /bin/mkdir -p /tmp/PSO2es
+            sudo chmod -R 777 /tmp/PSO2es
           
         - uses: actions/checkout@v3
           
