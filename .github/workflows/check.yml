@@ -13,8 +13,7 @@ jobs:
         - name: Setting up testing environment
           run: |
             sudo /bin/mkdir -p /tmp/PSO2es
-            chmod -R 777 /tmp/PSO2es
-        
+
         - name: Checkout Repo        
           uses: actions/checkout@v3
           
