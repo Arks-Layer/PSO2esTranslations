@@ -2,10 +2,10 @@ name: repo-check
 on: [push]
 jobs:
    test:
-      runs-on: ubuntu-latest     
+      runs-on: ubuntu-latest
+      container: cimg/python:3.10-node
           
       steps:
-        - uses: actions/checkout@v3
         - name: Setting up Python 3.8
           with:
             python-version: '3.8'
@@ -15,7 +15,9 @@ jobs:
           run: python -c "import sys; print(sys.version)"
           
         - name: Setting up testing environment
-          run: /bin/mkdir -p /tmp/PSO2es
+          run: sudo chmod -R 777 $GITHUB_WORKSPACE /tmp/PSO2es
+          
+        - uses: actions/checkout@v3
           
         - name: Checking for vaild JSONs
           run: ./_py/checkjson.py | /usr/bin/tee /tmp/PSO2es/checkjson.txt
