@@ -3,19 +3,19 @@ on: [push]
 jobs:
    validate:
       runs-on: ubuntu-latest
-      container: cimg/python:3.10-node
+      container: ubuntu:20.04
           
       steps:
           
         - name: Setting up testing environment
           run: |
-            sudo /bin/mkdir -p /tmp/PSO2es
+            /bin/mkdir -p /tmp/PSO2es
 
         - name: Checkout Repo        
           uses: actions/checkout@v3
           
         - name: Checking for vaild JSONs
-          run: $GITHUB_WORKSPACE/_py/checkjson.py | sudo /usr/bin/tee /tmp/PSO2es/checkjson.txt
+          run: $GITHUB_WORKSPACE/_py/checkjson.py | /usr/bin/tee /tmp/PSO2es/checkjson.txt
           
         - name: Store artifacts
           uses: actions/upload-artifact@v3
