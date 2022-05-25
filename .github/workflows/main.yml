@@ -1,7 +1,7 @@
 name: repo-check
 on: [push]
 jobs:
-   test:
+   build:
       runs-on: ubuntu-latest
       container: cimg/python:3.10-node
           
