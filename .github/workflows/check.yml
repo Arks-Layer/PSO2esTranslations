@@ -1,14 +1,14 @@
 name: repo-check
 on: [push]
 jobs:
-   build:
+   validate:
       runs-on: ubuntu-latest
       container: cimg/python:3.10-node
           
       steps:
           
         - name: Display Python version
-          run: python3.8 -c "import sys; print(sys.version)"
+          run: python3.8 --version
           
         - name: Setting up testing environment
           run: |
@@ -16,9 +16,11 @@ jobs:
 
         - name: Checkout Repo        
           uses: actions/checkout@v3
+          with:
+            path: '~/$GITHUB_WORKSPACE'
           
         - name: Checking for vaild JSONs
-          run: ./_py/checkjson.py | /usr/bin/tee /tmp/PSO2es/checkjson.txt
+          run: $GITHUB_WORKSPACE/_py/checkjson.py | sudo /usr/bin/tee /tmp/PSO2es/checkjson.txt
           
         - name: Store artifacts
           uses: actions/upload-artifact@v3
