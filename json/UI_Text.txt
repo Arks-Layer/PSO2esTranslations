@@ -460,6 +460,11 @@
 		"tr_text": "Item Purchase Confirmation"
 	},
 	{
+		"assign": "acshop_dialog_scc_button",
+		"jp_text": "特商法・資金決済法",
+		"tr_text": ""
+	},
+	{
 		"assign": "acshop_dialog_b_28",
 		"jp_text": "<%item_name>を購入します。\nよろしいですか？\n\n所持数：<%current_item_num>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
 		"tr_text": "You want to buy <%item_name>.\nIs that ok?\n\nOwned: <%current_item_num>\n\nNeeded <%AC>: <%consume_AC>\nHave: <%current_AC>"
@@ -8760,6 +8765,11 @@
 		"tr_text": "Select Chip"
 	},
 	{
+		"assign": "chip_window_assist_chip",
+		"jp_text": "アシストチップ選択",
+		"tr_text": ""
+	},
+	{
 		"assign": "window_sort_favorite",
 		"jp_text": "お気に入り",
 		"tr_text": "Favorites"
@@ -10343,6 +10353,11 @@
 		"assign": "menu_main_button_recycle",
 		"jp_text": "交換ショップ",
 		"tr_text": "Exchange Shop"
+	},
+	{
+		"assign": "menu_main_button_assist_chip",
+		"jp_text": "アシストチップ設定",
+		"tr_text": ""
 	},
 	{
 		"assign": "menu_main_formation_info",
@@ -25392,6 +25407,21 @@
 	{
 		"assign": "chip_pack_extend_dialog_ac",
 		"jp_text": "<%AC>",
+		"tr_text": ""
+	},
+	{
+		"assign": "assist_chip_window_title",
+		"jp_text": "アシストチップ設定",
+		"tr_text": ""
+	},
+	{
+		"assign": "assist_chip_guide_message",
+		"jp_text": "アシストチップ設定を設定できます",
+		"tr_text": ""
+	},
+	{
+		"assign": "palette_equip_assist_chip_button",
+		"jp_text": "アシスト設定",
 		"tr_text": ""
 	}
 ]
