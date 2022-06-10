@@ -1,9 +1,9 @@
 defaults: &defaults
   working_directory: ~/repo
   docker:
-    - image: python:3-stretch
+    - image: cimg/python:3.10-node
 
-version: 2
+version: 3
 jobs:
   verify:
     <<: *defaults

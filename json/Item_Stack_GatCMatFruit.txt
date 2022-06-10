@@ -105,6 +105,41 @@
 		"tr_explain": "可在黎泰姆採集到的水果。\nPP增加/PP回復量增加\n<green>※南黎泰姆<c>"
 	},
 	{
+		"assign": "354010010",
+		"jp_text": "マッタ・クヴァルガッキー",
+		"tr_text": "Nourishing Kvaris Ackee",
+		"jp_explain": "クヴァリスで採取可能な果物。\nPP増加／PP消費量軽減／\n冷気ダメージ軽減",
+		"tr_explain": "Fruit Gathered in Kvaris.\nBoosts PP, cuts PP consumption and\nboosts cold resistance."
+	},
+	{
+		"assign": "354010011",
+		"jp_text": "サッパ・クヴァルプラーム",
+		"tr_text": "Refreshing Kvaris Plum",
+		"jp_explain": "クヴァリスで採取可能な果物。\nPP増加／PP回復量増加／\n冷気ダメージ軽減",
+		"tr_explain": "Fruit Gathered in Kvaris.\nBoosts PP, boosts PP recovery and\nboosts cold resistance."
+	},
+	{
+		"assign": "354010012",
+		"jp_text": "シャッキ・クヴァルグァバー",
+		"tr_text": "Sharp Kvaris Guava",
+		"jp_explain": "クヴァリスで採取可能な果物。\nPP増加／弱点部位ダメージ増加／\n冷気ダメージ軽減",
+		"tr_explain": "Fruit Gathered in Kvaris.\nBoosts PP, boosts weakness damage\nand boosts cold resistance."
+	},
+	{
+		"assign": "354010013",
+		"jp_text": "ガッツ・クヴァルアッケビル",
+		"tr_text": "Healthy Kvaris Akebia",
+		"jp_explain": "クヴァリスで採取可能な果物。\nPP増加／HP回復量増加／\n冷気ダメージ軽減",
+		"tr_explain": "Fruit Gathered in Kvaris.\nBoosts PP, boosts HP recovery and\nboosts cold resistance."
+	},
+	{
+		"assign": "354010014",
+		"jp_text": "ノータ・クヴァルガッキー",
+		"tr_text": "Notable Kvaris Ackee",
+		"jp_explain": "クヴァリスで採取可能な希少な果物。\n特定の場所でアイテムと交換できる。\n<yellow>※クイックフードの効果は\n　マッタ・クヴァルガッキーと同一<c>",
+		"tr_explain": "Rare Fruit Gathered in Kvaris.\nCan be traded for items.\n<yellow>When used in Quick Food, has the\nsame effect as Nourishing Kvaris Ackee<c>"
+	},
+	{
 		"assign": "354010102",
 		"jp_text": "スプリグバルーニィ",
 		"tr_text": "春季花球",
