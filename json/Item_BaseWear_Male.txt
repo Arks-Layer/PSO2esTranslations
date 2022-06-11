@@ -17416,13 +17416,6 @@
 		"tr_explain": "Разблок комплектную одежду (Se).\n<yellow>※Тип: Человек (тип1)<c>"
 	},
 	{
-		"assign": "334010096",
-		"jp_text": "バウナスボーア/B2[Se]",
-		"tr_text": "",
-		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
-		"tr_explain": "Разблок комплектную одежду (Se).\n<yellow>※Тип: Человек (тип1)<c>"
-	},
-	{
 		"assign": "334010097",
 		"jp_text": "アリーアラピート[Se]",
 		"tr_text": "",
@@ -18200,6 +18193,13 @@
 		"tr_explain": "Разблок верхнюю одежду (Ba).\n<yellow>※Тип: Человек (тип1)<c>"
 	},
 	{
+		"assign": "334010227",
+		"jp_text": "グラッソヴィージス[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
 		"assign": "334010229",
 		"jp_text": "フォルティーマエストリッツォ/B[Ba]",
 		"tr_text": "Forte Maestrizzo/B [Ba]",
@@ -18235,6 +18235,202 @@
 		"tr_explain": "Разблок верхнюю одежду (Ba).\n<yellow>※Тип: Человек (тип1)<c>"
 	},
 	{
+		"assign": "334010234",
+		"jp_text": "N-ラッピースーツ・ミニ[Fu]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいフルセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010235",
+		"jp_text": "プレディアプレアー[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010236",
+		"jp_text": "プレディアプレアー/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010237",
+		"jp_text": "プレディアプレアー/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010238",
+		"jp_text": "プレディアプレアー/B2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010241",
+		"jp_text": "N-フロワガロウズ[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010242",
+		"jp_text": "N-フロワガロウズ/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010245",
+		"jp_text": "バーゲスト[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010246",
+		"jp_text": "バーゲスト/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010247",
+		"jp_text": "バーゲスト/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。<yellow>※一部[In]カラー同期<c>\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010248",
+		"jp_text": "バーゲスト/B2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。<yellow>※一部[In]カラー同期<c>\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010251",
+		"jp_text": "N-【仮面】戦闘衣[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010252",
+		"jp_text": "N-【仮面】戦闘衣/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。<yellow>※一部[In]カラー同期<c>\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010253",
+		"jp_text": "N-【仮面】戦闘衣V2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010254",
+		"jp_text": "N-【仮面】戦闘衣V2/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。<yellow>※一部[In]カラー同期<c>\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010255",
+		"jp_text": "オリエストライゼ[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010256",
+		"jp_text": "オリエストライゼ/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010257",
+		"jp_text": "オリエストライゼ/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。<yellow>※一部[In]カラー同期<c>\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010258",
+		"jp_text": "オリエストライゼ/B2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。<yellow>※一部[In]カラー同期<c>\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010259",
+		"jp_text": "グラッソヴィージス/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010260",
+		"jp_text": "エアリオナダール/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010261",
+		"jp_text": "エアリオナダール/C[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010263",
+		"jp_text": "モフワタスーツ[Fu]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいフルセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010264",
+		"jp_text": "モフワタスーツ/2[Fu]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいフルセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010265",
+		"jp_text": "レイヴァスファクトラ[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010266",
+		"jp_text": "レイヴァスファクトラ/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010267",
+		"jp_text": "レイヴァスファクトラ/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010268",
+		"jp_text": "レイヴァスファクトラ/B2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
 		"assign": "334010270",
 		"jp_text": "ブレヴィージャッハ/C[Ba]",
 		"tr_text": "",
@@ -18254,5 +18450,40 @@
 		"tr_text": "",
 		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。<yellow>※一部[In]カラー同期<c>\n<yellow>※対応：ヒト型タイプ1<c>",
 		"tr_explain": "Разблок верхнюю одежду (Ba).\n<yellow>※Цвета некоторых [In] синхр-ся.<c>\n<yellow>※Тип: Человек (тип1)<c>"
+	},
+	{
+		"assign": "334010273",
+		"jp_text": "ヴァンフォルテス/C[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。<yellow>※一部[In]カラー同期<c>\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010274",
+		"jp_text": "ヴァンアルティメラ/C[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。<yellow>※一部[In]カラー同期<c>\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010275",
+		"jp_text": "マールサージン/C[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。<yellow>※一部[In]カラー同期<c>\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010276",
+		"jp_text": "マールサージェス/C[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。<yellow>※一部[In]カラー同期<c>\n<yellow>※対応：ヒト型タイプ1<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010278",
+		"jp_text": "N-ラッピースーツ・ミニ/B[Fu]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいフルセットウェアが\n選択可能になる。\n<yellow>※一部[In]カラー同期<c>",
+		"tr_explain": ""
 	}
 ]
