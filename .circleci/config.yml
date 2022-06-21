@@ -39,9 +39,6 @@ jobs:
           name: Checking if Dice Chat has too many lines
           command: ./_py/DiceLen.py | /usr/bin/tee /tmp/PSO2es/DiceLen.txt
       - run:
-          name: Checking if item names are too long
-          command: ./_py/ItemLen.py | /usr/bin/tee /tmp/PSO2es/ItemLen.txt
-      - run:
           name: Checking if title names are too long
           command: ./_py/TitleLen.py | /usr/bin/tee /tmp/PSO2es/TitleLen.txt
       - run:
