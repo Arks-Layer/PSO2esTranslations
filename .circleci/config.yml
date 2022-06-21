@@ -139,9 +139,6 @@ jobs:
           paths:
             - ~/.cache/pip
       - run:
-          name: Checking if item descriptions are too long
-          command: ./_py/ItemDescFont.py | /usr/bin/tee /tmp/PSO2es/ItemDescFont.txt
-      - run:
           name: Word wrap changes for long item descriptions
           command: /usr/bin/git diff --exit-code | /usr/bin/tee /tmp/PSO2es/ItemDescFont.diff
           when: on_fail
