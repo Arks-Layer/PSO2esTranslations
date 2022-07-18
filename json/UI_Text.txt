@@ -1252,7 +1252,7 @@
 	{
 		"assign": "charamake_race_03",
 		"jp_text": "トップクラスの攻撃力を持つ種族。\n額の角と、オッドアイが特徴。",
-		"tr_text": "High offensive power, low defense.\nOdd eye features\nlinked to photon power."
+		"tr_text": "High offensive power, low defense.\nOdd eye features\nlinked to Photon power."
 	},
 	{
 		"assign": "charamake_class_00",
@@ -1267,7 +1267,7 @@
 	{
 		"assign": "charamake_class_02",
 		"jp_text": "フォトンを用いたテクニックの使用に長けた\n遠距離戦闘向きのクラス。\n多彩なテクニックを扱える。",
-		"tr_text": "A class geared towards long-range\ncombat using photonic Techniques as\npowerful as they are diverse."
+		"tr_text": "A class geared towards long-range\ncombat using Photonic Techniques as\npowerful as they are diverse."
 	},
 	{
 		"assign": "charamake_class_03",
@@ -13227,12 +13227,12 @@
 	{
 		"assign": "es_0003_n02_b",
 		"jp_text": "<color=black>たとえダーカーを倒しても\nフォトンの力を持たない生物や機械の場合\n消滅したダーカーの残滓に侵され凶暴化してしまい\nやがては自滅してしまうんです。</color>",
-		"tr_text": "<color=black>Even defeated Darkers,\nover time, will infect biological and\nmechanical organisms which do not\nhave photons, causing them to go berserk.</color>"
+		"tr_text": "<color=black>Even defeated Darkers,\nover time, will infect biological and\nmechanical organisms which do not\nhave Photons, causing them to go berserk.</color>"
 	},
 	{
 		"assign": "es_0003_n03_b",
 		"jp_text": "<color=black>ですから、ダーカーと戦うことができるのは\nフォトンの力を持っている\nあなたたち、「アークス」だけなのです。</color>",
-		"tr_text": "<color=black>Hence why, to fight Darkers,\nwe 「ARKS」 have the power\nof photons.</color>"
+		"tr_text": "<color=black>Hence why, to fight Darkers,\nwe 「ARKS」 have the power\nof Photons.</color>"
 	},
 	{
 		"assign": "es_0003_n04_b",
@@ -13377,7 +13377,7 @@
 	{
 		"assign": "es_0006_n04_b",
 		"jp_text": "<color=black>ちなみに「侵食エネミー」とは\nダーカーの残滓によって侵され\n凶暴化が進行したエネミーのことです。\n体が赤い色になっているのが特徴です。</color>",
-		"tr_text": "<color=black>\"Infected enemies,\" incase you did not\nknow, are enemies who were damaged by\nDarkers. They become infected by\ntheir negative photons, thus empowering\ntheir rage, glowing red.</color>"
+		"tr_text": "<color=black>\"Infected enemies,\" incase you did not\nknow, are enemies who were damaged by\nDarkers. They become infected by\ntheir negative Photons, thus empowering\ntheir rage, glowing red.</color>"
 	},
 	{
 		"assign": "es_0006_n05_b",
@@ -20670,282 +20670,282 @@
 		"tr_text": "Return to Lobby"
 	},
 	{
-		"assign": "photondice_title",
+		"assign": "Photondice_title",
 		"jp_text": "フォトンダイス",
 		"tr_text": "Photon Dice"
 	},
 	{
-		"assign": "photondice_buttle_1",
+		"assign": "Photondice_buttle_1",
 		"jp_text": "第１回戦",
 		"tr_text": "1st Round"
 	},
 	{
-		"assign": "photondice_buttle_2",
+		"assign": "Photondice_buttle_2",
 		"jp_text": "第２回戦",
 		"tr_text": "2nd Round"
 	},
 	{
-		"assign": "photondice_buttle_3",
+		"assign": "Photondice_buttle_3",
 		"jp_text": "第３回戦",
 		"tr_text": "3rd Round"
 	},
 	{
-		"assign": "photondice_buttle_4",
+		"assign": "Photondice_buttle_4",
 		"jp_text": "第４回戦",
 		"tr_text": "4th Round"
 	},
 	{
-		"assign": "photondice_buttle_5",
+		"assign": "Photondice_buttle_5",
 		"jp_text": "最終戦",
 		"tr_text": "Final Round"
 	},
 	{
-		"assign": "photondice_challenger",
+		"assign": "Photondice_challenger",
 		"jp_text": "挑戦者",
 		"tr_text": "Challenger"
 	},
 	{
-		"assign": "photondice_lc",
+		"assign": "Photondice_lc",
 		"jp_text": "LC",
 		"tr_text": " LC: "
 	},
 	{
-		"assign": "photondice_sheet",
+		"assign": "Photondice_sheet",
 		"jp_text": "枚",
 		"tr_text": " "
 	},
 	{
-		"assign": "photondice_acquisition",
+		"assign": "Photondice_acquisition",
 		"jp_text": "獲得可能",
 		"tr_text": "Accept Payout"
 	},
 	{
-		"assign": "photondice_dialog_t_01",
+		"assign": "Photondice_dialog_t_01",
 		"jp_text": "対戦開始確認",
 		"tr_text": "Start Battle"
 	},
 	{
-		"assign": "photondice_dialog_b_01",
+		"assign": "Photondice_dialog_b_01",
 		"jp_text": "プレイ回数を消費し、対戦を開始します。\nよろしいですか？",
 		"tr_text": "Starting a battle will cost 1 Play.\nContinue?"
 	},
 	{
-		"assign": "photondice_dialog_b_02",
+		"assign": "Photondice_dialog_b_02",
 		"jp_text": "残りプレイ回数：",
 		"tr_text": "Plays Remaining: "
 	},
 	{
-		"assign": "photondice_special_dialog_t_01",
+		"assign": "Photondice_special_dialog_t_01",
 		"jp_text": "スペシャルプレイチケット消費確認",
 		"tr_text": "Special Ticket Usage Confirmation"
 	},
 	{
-		"assign": "photondice_special_dialog_b_01",
+		"assign": "Photondice_special_dialog_b_01",
 		"jp_text": "プレイ回数が足りません。\nスペシャルプレイチケットを消費して\n対戦を開始します。よろしいですか？",
 		"tr_text": "You have no Plays available.\nYou can start a battle by\nconsuming one Special Ticket.\nContinue?"
 	},
 	{
-		"assign": "photondice_special_dialog_b_02",
+		"assign": "Photondice_special_dialog_b_02",
 		"jp_text": "所持スペシャルプレイチケット：",
 		"tr_text": "Sp. Tickets Owned: "
 	},
 	{
-		"assign": "photondice_has_not_dialog_t_01",
+		"assign": "Photondice_has_not_dialog_t_01",
 		"jp_text": "プレイ回数不足",
 		"tr_text": "Out of Plays"
 	},
 	{
-		"assign": "photondice_has_not_dialog_b_01",
+		"assign": "Photondice_has_not_dialog_b_01",
 		"jp_text": "プレイ回数が足りません。\nプレイ回数は毎日<%value>にリセットされます。",
 		"tr_text": "You don't have enough plays.\nThe number of Plays reset every <%value> JST."
 	},
 	{
-		"assign": "photondice_has_not_dialog_b_02",
+		"assign": "Photondice_has_not_dialog_b_02",
 		"jp_text": "プレイ回数は毎日<%value>にリセットされます。",
 		"tr_text": "The number of Plays reset every <%value> JST."
 	},
 	{
-		"assign": "photondice_doubleup_dialog_t_01",
+		"assign": "Photondice_doubleup_dialog_t_01",
 		"jp_text": "ダブルアップ対戦開始確認",
 		"tr_text": "Double Up Start"
 	},
 	{
-		"assign": "photondice_doubleup_dialog_b_01",
+		"assign": "Photondice_doubleup_dialog_b_01",
 		"jp_text": "獲得LCを賭けてダブルアップに挑戦しますか？",
 		"tr_text": "Do you want to try and double your LC?"
 	},
 	{
-		"assign": "photondice_doubleup_dialog_b_02",
+		"assign": "Photondice_doubleup_dialog_b_02",
 		"jp_text": "ダブルアップ時はプレイ回数を消費しません。\nダブルアップ対戦で敗北すると、獲得LCを失います。",
 		"tr_text": "Double Up does not consume a Play.\nIf you lose the Double Up battle, you lose all LC."
 	},
 	{
-		"assign": "photondice_doubleup_dialog_b_03",
+		"assign": "Photondice_doubleup_dialog_b_03",
 		"jp_text": "現在の獲得LC：<%value>枚",
 		"tr_text": "Current LC: <%value>"
 	},
 	{
-		"assign": "photondice_payback_dialog_t_01",
+		"assign": "Photondice_payback_dialog_t_01",
 		"jp_text": "払い戻し確認画面",
 		"tr_text": "Confirm"
 	},
 	{
-		"assign": "photondice_payback_dialog_b_01",
+		"assign": "Photondice_payback_dialog_b_01",
 		"jp_text": "獲得LCを取得しフォトンダイスを終了します。\n次回の対戦ではプレイ回数を消費し、\n最初からスタートとなります。",
 		"tr_text": "Now collecting LC and quitting Photon Dice.\nYour next battle will consume a Play,\nand will start from the beginning."
 	},
 	{
-		"assign": "photondice_payback_dialog_b_02",
+		"assign": "Photondice_payback_dialog_b_02",
 		"jp_text": "獲得LC：<%value>枚",
 		"tr_text": "LC Gained: <%value>"
 	},
 	{
-		"assign": "photondice_result_win_dialog_t_01",
+		"assign": "Photondice_result_win_dialog_t_01",
 		"jp_text": "<%value>戦目　対戦結果",
 		"tr_text": "<%value> Round Result"
 	},
 	{
-		"assign": "photondice_result_win_dialog_b_01",
+		"assign": "Photondice_result_win_dialog_b_01",
 		"jp_text": "対戦に勝利しました！",
 		"tr_text": "You Win!"
 	},
 	{
-		"assign": "photondice_result_win_dialog_b_02",
+		"assign": "Photondice_result_win_dialog_b_02",
 		"jp_text": "<size=35><color=yellow>基本獲得LC：<%value>枚</color></size> ",
 		"tr_text": "<size=35><color=yellow>Standard LC：　<%value></color></size>"
 	},
 	{
-		"assign": "photondice_result_win_dialog_b_03",
+		"assign": "Photondice_result_win_dialog_b_03",
 		"jp_text": "　ダブルアップボーナス　＋<%value>％",
 		"tr_text": "Double Up Bonus ＋<%value>％"
 	},
 	{
-		"assign": "photondice_result_win_dialog_b_04",
+		"assign": "Photondice_result_win_dialog_b_04",
 		"jp_text": "　キャラクターボーナス　＋<%value>％",
 		"tr_text": "Character Bonus ＋<%value>％"
 	},
 	{
-		"assign": "photondice_result_win_dialog_b_05",
+		"assign": "Photondice_result_win_dialog_b_05",
 		"jp_text": "　勝利ボーナス【<%value>】　＋<%value2>％",
 		"tr_text": "Win Bonus [<%value>] +<%value2>%"
 	},
 	{
-		"assign": "photondice_result_win_dialog_b_06",
+		"assign": "Photondice_result_win_dialog_b_06",
 		"jp_text": "合計追加ボーナス　＋<%value>％",
 		"tr_text": "Total Bonus ＋<%value>％"
 	},
 	{
-		"assign": "photondice_result_win_dialog_b_07",
+		"assign": "Photondice_result_win_dialog_b_07",
 		"jp_text": "<color=yellow><size=50>合計獲得LC：</size><size=48><%value>枚</size></color>",
 		"tr_text": "<color=yellow><size=50>Total LC：</size><size=48><%value></size></color>"
 	},
 	{
-		"assign": "photondice_result_win_dialog_b_08",
+		"assign": "Photondice_result_win_dialog_b_08",
 		"jp_text": "　「払い戻し」ボタンからLCを獲得できます。\n",
 		"tr_text": "By pressing [払い戻し], you can earn LC.\n"
 	},
 	{
-		"assign": "photondice_result_lose_dialog_t_01",
+		"assign": "Photondice_result_lose_dialog_t_01",
 		"jp_text": "<%value>戦目　対戦結果",
 		"tr_text": "Round <%value> Result"
 	},
 	{
-		"assign": "photondice_result_lose_dialog_b_01",
+		"assign": "Photondice_result_lose_dialog_b_01",
 		"jp_text": "対戦に敗北したため、獲得LCを失いました。",
 		"tr_text": "Because you lost, you don't get any LC."
 	},
 	{
-		"assign": "photondice_result_lose_dialog_b_02",
+		"assign": "Photondice_result_lose_dialog_b_02",
 		"jp_text": "合計獲得LC：<%value>枚",
 		"tr_text": "Total LC: <%value>"
 	},
 	{
-		"assign": "photondice_result_lose_dialog_b_con_01",
+		"assign": "Photondice_result_lose_dialog_b_con_01",
 		"jp_text": "対戦に敗北しました。",
 		"tr_text": "You lost."
 	},
 	{
-		"assign": "photondice_result_lose_dialog_b_con_02_lp",
+		"assign": "Photondice_result_lose_dialog_b_con_02_lp",
 		"jp_text": "<color=yellow>残りプレイ回数</color>を1回消費して再戦しますか？\n再戦しない場合、獲得LCがすべて失われます。\n\n<color=yellow>残りプレイ回数:<%value>回</color>",
 		"tr_text": "Do you want to play a <color=yellow>rematch</color> at\nthe cost of 1 Play?\nIf you don't play a rematch, all LC\nyou earned so far will be lost.\n<color=yellow>Remaining Plays: <%value></color>"
 	},
 	{
-		"assign": "photondice_result_lose_dialog_b_con_02_sc",
+		"assign": "Photondice_result_lose_dialog_b_con_02_sc",
 		"jp_text": "<color=yellow>スペシャルプレイチケット</color>を1枚消費して再戦しますか？\n再戦しない場合、獲得LCがすべて失われます。\n\n<color=yellow>所持スペシャルプレイチケット：<%value>枚</color>",
 		"tr_text": "Do you want to play a <color=yellow>rematch</color> at\nthe cost of 1 special ticket?\nIf you don't play a rematch, all LC\nyou earned so far will be lost.\n<color=yellow>Remaining tickets: <%value></color>"
 	},
 	{
-		"assign": "photondice_result_lose_dialog_b_con_02_rc",
+		"assign": "Photondice_result_lose_dialog_b_con_02_rc",
 		"jp_text": "<color=red>ラッピーメダル</color>を1枚消費して再戦しますか？\n再戦しない場合、獲得LCがすべて失われます。\n\n<color=yellow>所持ラッピーメダル：<%value>枚</color>",
 		"tr_text": "Do you want to play a <color=red>rematch</color> at\nthe cost of 1 Rappy medal?\nIf you don't play a rematch, all LC\nyou earned so far will be lost.\n<color=yellow>Remaining medals: <%value></color>"
 	},
 	{
-		"assign": "photondice_result_lose_dialog_b_con_03",
+		"assign": "Photondice_result_lose_dialog_b_con_03",
 		"jp_text": "現在の獲得LC：<%value>枚",
 		"tr_text": "Currently acquired LC: <%value>"
 	},
 	{
-		"assign": "photondice_result_lose_dialog_button_yes",
+		"assign": "Photondice_result_lose_dialog_button_yes",
 		"jp_text": "再戦する",
 		"tr_text": "Rematch"
 	},
 	{
-		"assign": "photondice_result_lose_dialog_button_no",
+		"assign": "Photondice_result_lose_dialog_button_no",
 		"jp_text": "やめる",
 		"tr_text": "Quit"
 	},
 	{
-		"assign": "photondice_error_payback_dialog_t_01",
+		"assign": "Photondice_error_payback_dialog_t_01",
 		"jp_text": "払い戻し",
 		"tr_text": "Refund"
 	},
 	{
-		"assign": "photondice_error_payback_dialog_b_01",
+		"assign": "Photondice_error_payback_dialog_b_01",
 		"jp_text": "データ更新がありましたので\nLCを払い戻し、対戦を終了します。",
 		"tr_text": "Since there was a data update\nyour LC was refunded."
 	},
 	{
-		"assign": "photondice_error_payback_dialog_b_02",
+		"assign": "Photondice_error_payback_dialog_b_02",
 		"jp_text": "合計獲得LC：<%value>枚",
 		"tr_text": "Total LC: <%value>"
 	},
 	{
-		"assign": "photondice_error_payback_dialog_button",
+		"assign": "Photondice_error_payback_dialog_button",
 		"jp_text": "払い戻し",
 		"tr_text": "Refund"
 	},
 	{
-		"assign": "photondice_comp_dialog_t_01",
+		"assign": "Photondice_comp_dialog_t_01",
 		"jp_text": "Congratulations!",
 		"tr_text": "Congratulations!"
 	},
 	{
-		"assign": "photondice_comp_dialog_b_01",
+		"assign": "Photondice_comp_dialog_b_01",
 		"jp_text": "５連勝おめでとうございます！",
 		"tr_text": "Congrats on 5 consecutive wins!"
 	},
 	{
-		"assign": "photondice_comp_dialog_b_02",
+		"assign": "Photondice_comp_dialog_b_02",
 		"jp_text": "合計獲得LC：<%value>枚",
 		"tr_text": "Total LC: <%value>"
 	},
 	{
-		"assign": "photondice_comp_dialog_button",
+		"assign": "Photondice_comp_dialog_button",
 		"jp_text": "払い戻し",
 		"tr_text": "Refund"
 	},
 	{
-		"assign": "photondice_show_rule_button",
+		"assign": "Photondice_show_rule_button",
 		"jp_text": "ルール説明",
 		"tr_text": "Rules"
 	},
 	{
-		"assign": "photondice_challenger_name",
+		"assign": "Photondice_challenger_name",
 		"jp_text": "<color=#fffffff>対戦相手</color>",
 		"tr_text": "<color=#fffffff>Opponent</color>"
 	},
 	{
-		"assign": "photondice_player_name",
+		"assign": "Photondice_player_name",
 		"jp_text": "<color=#fffffff>あなた</color>",
 		"tr_text": "<color=#fffffff>You</color>"
 	},
@@ -20955,7 +20955,7 @@
 		"tr_text": "<color=#f0df60>In the Leisure Room, you can earn LC (Leisure Coins) by playing Photon Dice. The LC you earn can be exchanged for prizes at the Exchange Shop.</color>"
 	},
 	{
-		"assign": "photondice_guid_msg",
+		"assign": "Photondice_guid_msg",
 		"jp_text": "<color=#f0df60>フォトンダイスは、対戦相手と互いにサイコロを振って、合計数が高い方が勝利します。２つの目が揃うダブル、３つの目が順番に並ぶストレートは報酬アップ！　３つ目が揃うフィーバーは合計数関係無しに勝利できます。(相手もフィーバーの場合は、サイコロの目が大きい方が勝利します)</color>",
 		"tr_text": "<color=#f0df60>In Photon Dice, you and your opponent roll the dice, and the one with the higher total wins. If you roll a double with two dice or a straight with three dice, your LC rewards will increase! If all three dice match, you get a Fever, and will automatically win even if your total is lower. (If both players get a Fever, the one with the higher number wins.)</color>"
 	},
@@ -20965,52 +20965,52 @@
 		"tr_text": "<color=#FFFFFF>Owned LC：</color><color=#68a0a7>/</color>"
 	},
 	{
-		"assign": "photondice_result_win_dialog_b_Straight",
+		"assign": "Photondice_result_win_dialog_b_Straight",
 		"jp_text": "ストレート",
 		"tr_text": "Straight"
 	},
 	{
-		"assign": "photondice_result_win_dialog_b_Double",
+		"assign": "Photondice_result_win_dialog_b_Double",
 		"jp_text": "ダブル",
 		"tr_text": "Double"
 	},
 	{
-		"assign": "photondice_result_win_dialog_b_Fever",
+		"assign": "Photondice_result_win_dialog_b_Fever",
 		"jp_text": "フィーバー",
 		"tr_text": "Fever"
 	},
 	{
-		"assign": "photondice_battle_odds_Straight",
+		"assign": "Photondice_battle_odds_Straight",
 		"jp_text": "Straight",
 		"tr_text": "Straight"
 	},
 	{
-		"assign": "photondice_battle_odds_Double",
+		"assign": "Photondice_battle_odds_Double",
 		"jp_text": "Double",
 		"tr_text": "Double"
 	},
 	{
-		"assign": "photondice_battle_odds_Normal",
+		"assign": "Photondice_battle_odds_Normal",
 		"jp_text": "Normal",
 		"tr_text": "Normal"
 	},
 	{
-		"assign": "photondice_goto_leisure_top_dialog_t_01",
+		"assign": "Photondice_goto_leisure_top_dialog_t_01",
 		"jp_text": "払い戻し",
 		"tr_text": "Refund"
 	},
 	{
-		"assign": "photondice_goto_leisure_top_dialog_b_01",
+		"assign": "Photondice_goto_leisure_top_dialog_b_01",
 		"jp_text": "データ更新がありましたので\nLCを払い戻し、対戦を終了します。",
 		"tr_text": "Since there was a data update, your LC\nwill be refunded and the match will end."
 	},
 	{
-		"assign": "photondice_goto_leisure_top_dialog_t_02",
+		"assign": "Photondice_goto_leisure_top_dialog_t_02",
 		"jp_text": "エラー",
 		"tr_text": "Error"
 	},
 	{
-		"assign": "photondice_goto_leisure_top_dialog_b_02",
+		"assign": "Photondice_goto_leisure_top_dialog_b_02",
 		"jp_text": "サーバーエラーが発生しました。\n現在このコンテンツはご利用になれません。",
 		"tr_text": "A server error occurred.\nThis content is currently unavailable."
 	},
@@ -21890,7 +21890,7 @@
 		"tr_text": "Technique"
 	},
 	{
-		"assign": "towerquest_fp_linetext_atktype_chipphotonarts",
+		"assign": "towerquest_fp_linetext_atktype_chipPhotonarts",
 		"jp_text": "必殺技",
 		"tr_text": "Striking"
 	},
