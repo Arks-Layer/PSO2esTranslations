@@ -6,11 +6,26 @@ import fnmatch
 import json
 import os
 import shutil
+import argparse
 
 json_loc = os.path.join("..", "json")
 
-file_names = fnmatch.filter(os.listdir(json_loc), 'Item_Stack_*.txt')
-file_names += fnmatch.filter(os.listdir(json_loc), 'Item_*Wear_*.txt')
+parser = argparse.ArgumentParser(
+    description = "Translates duplicate item names and descriptions.")
+
+parser.add_argument("-f", type = str, dest = "file", action = "store",
+                    default = "", help = ("Designate a specific file to translate."
+                                          "Do not include the file extension. (.txt)"))
+
+args = parser.parse_args()
+
+print(args)
+
+if args.file != "":
+    file_names = fnmatch.filter(os.listdir(json_loc), args.file + '.txt')
+else:
+    file_names = fnmatch.filter(os.listdir(json_loc), 'Item_Stack_*.txt')
+    file_names += fnmatch.filter(os.listdir(json_loc), 'Item_*Wear_*.txt')
 
 for file_name in file_names:
     try:
