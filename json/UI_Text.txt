@@ -465,6 +465,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "acshop_dialog_scc_article_button",
+		"jp_text": "特商法12条の6に基づく表示",
+		"tr_text": ""
+	},
+	{
 		"assign": "acshop_dialog_b_28",
 		"jp_text": "<%item_name>を購入します。\nよろしいですか？\n\n所持数：<%current_item_num>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
 		"tr_text": "You want to buy <%item_name>.\nIs that ok?\n\nOwned: <%current_item_num>\n\nNeeded <%AC>: <%consume_AC>\nHave: <%current_AC>"
@@ -21041,7 +21046,7 @@
 	},
 	{
 		"assign": "equip_child_chip_total_num",
-		"jp_text": "{0}<color=\"#688ca7\">/</color> {1}",
+		"jp_text": " {0}<color=\"#688ca7\">/</color>{1}",
 		"tr_text": ""
 	},
 	{
@@ -24183,6 +24188,11 @@
 		"assign": "scratch_bonus_next",
 		"jp_text": "NEXT>>",
 		"tr_text": "NEXT>>"
+	},
+	{
+		"assign": "scrach_dialog_limit_date",
+		"jp_text": "配信期間：{0}",
+		"tr_text": ""
 	},
 	{
 		"assign": "raid_scratch_dialog_new_b_01",
