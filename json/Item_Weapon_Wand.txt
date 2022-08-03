@@ -1390,14 +1390,14 @@
 		"jp_text": "フォボスコルセア",
 		"tr_text": "Phobos Corsair",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った短杖。肉を切り骨を断つ刃は\n相対する者を恐怖に染め、怯えさせる。",
-		"tr_explain": ""
+		"tr_explain": "A Wand with an ominous, bladed form.\nIts blades cut through flesh and bone\nalike, striking terror into its target."
 	},
 	{
 		"assign": "1130385",
 		"jp_text": "ニーケコルセア",
 		"tr_text": "Nike Corsair",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った短杖。敵に恐怖を与える刃は\n味方を鼓舞し、勝利という未来を繋ぐ。",
-		"tr_explain": ""
+		"tr_explain": "A Wand with an ominous, bladed form.\nIts blades inspire its allies but terrify\nits foes, leading to certain victory."
 	},
 	{
 		"assign": "1130386",
@@ -1743,6 +1743,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "113010031",
+		"jp_text": "コルディークウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "113010037",
 		"jp_text": "オブスクラルウォンド",
 		"tr_text": "Obscural Wand",
@@ -1781,6 +1788,13 @@
 		"assign": "113010049",
 		"jp_text": "エヴォルイクリスウォンド",
 		"tr_text": "Evoleclis Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010059",
+		"jp_text": "カイゼラムウォンド試製壱型",
+		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": ""
 	}
