@@ -43,7 +43,7 @@ for files in json_files:
                         (checkjp in rmid)
                         and (re.match(r'^($)|(-)|(－)|(---)|(仮設定)|(仮テキスト)|(未使用)|(オミットアイテム)|(￥)|(\＊+$)|(＊￥)|(＊\\)|(ef_)|(bg_)|(wh_)|(ENT_)|(？？？.)', str(rmid[checkjp])) is None)
                         # Filter out dummy strings
-                        and (re.match(r'^[a-zA-Z0-9 \-\'\"\&\:\,\.\!\(\)\{\}\<\>\#\=\⇒\/\\]+$', str(rmid[checkjp])) is None)
+                        and (re.match(r'^[a-zA-Z0-9 \＊\-\'\"\&\:\,\.\!\(\)\{\}\<\>\#\=\⇒\/\\]+$', str(rmid[checkjp])) is None)
                         # Filter out live strings that don't need translating
                        ):
 
