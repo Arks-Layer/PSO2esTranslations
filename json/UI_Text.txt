@@ -465,6 +465,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "acshop_dialog_scc_article_button",
+		"jp_text": "特商法12条の6に基づく表示",
+		"tr_text": ""
+	},
+	{
 		"assign": "acshop_dialog_b_28",
 		"jp_text": "<%item_name>を購入します。\nよろしいですか？\n\n所持数：<%current_item_num>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
 		"tr_text": ""
@@ -21041,7 +21046,7 @@
 	},
 	{
 		"assign": "equip_child_chip_total_num",
-		"jp_text": "{0}<color=\"#688ca7\">/</color> {1}",
+		"jp_text": " {0}<color=\"#688ca7\">/</color>{1}",
 		"tr_text": ""
 	},
 	{
@@ -24185,6 +24190,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "scrach_dialog_limit_date",
+		"jp_text": "配信期間：{0}",
+		"tr_text": ""
+	},
+	{
 		"assign": "raid_scratch_dialog_new_b_01",
 		"jp_text": "ボーナスポイント <color=yellow>{0}</color>ptで\nボーナススクラッチ\n「{1}」を<color=yellow>{2}</color>回引きます。\nよろしいですか？\n",
 		"tr_text": ""
@@ -25416,7 +25426,7 @@
 	},
 	{
 		"assign": "assist_chip_guide_message",
-		"jp_text": "アシストチップ設定を設定できます",
+		"jp_text": "<color=#f0df60>フレンドを助けるアシストチップの設定を行うことができます。未設定の場合は、選択中の装備パレットのＳＰスロットに装備されたチップがアシストチップとして使用されます。</color>",
 		"tr_text": ""
 	},
 	{
