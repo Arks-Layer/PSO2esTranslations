@@ -1773,9 +1773,9 @@
 	{
 		"assign": "18010026",
 		"jp_text": "カイゼラムライフル",
-		"tr_text": "",
+		"tr_text": "凱撒步槍",
 		"jp_explain": "",
-		"tr_explain": "<green>“凱撒步槍”<c>\n"
+		"tr_explain": ""
 	},
 	{
 		"assign": "18010027",
@@ -1792,11 +1792,18 @@
 		"tr_explain": "<green>“六之石·粗磐步槍”<c>\n"
 	},
 	{
+		"assign": "18010029",
+		"jp_text": "コルディークライフル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“織解步槍”<c>\n"
+	},
+	{
 		"assign": "18010037",
 		"jp_text": "レリク・ダークリベリオン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“聖遺·暗叛步槍”<c>\n"
+		"tr_explain": "<green>“聖遺·暗黑之叛步槍”<c>\n"
 	},
 	{
 		"assign": "18010038",
@@ -1815,15 +1822,22 @@
 	{
 		"assign": "18010043",
 		"jp_text": "レネッサライフル",
-		"tr_text": "",
+		"tr_text": "復興步槍",
 		"jp_explain": "",
-		"tr_explain": "<green>“復興步槍”<c>\n"
+		"tr_explain": ""
 	},
 	{
 		"assign": "18010045",
 		"jp_text": "エヴォルイクリスライフル",
-		"tr_text": "",
+		"tr_text": "升之侵蝕步槍",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之侵蝕步槍”<c>\n"
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010051",
+		"jp_text": "カイゼラムライフル試製壱型",
+		"tr_text": "凱撒步槍試製壹型",
+		"jp_explain": "",
+		"tr_explain": ""
 	}
 ]
