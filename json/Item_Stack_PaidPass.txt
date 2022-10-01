@@ -3215,9 +3215,9 @@
 	{
 		"assign": "321010043",
 		"jp_text": "N-限界突破代用材/限界値50",
-		"tr_text": "",
+		"tr_text": "N-Limit Break Substitution/50",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を40から50にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": ""
+		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +50 on a single item."
 	},
 	{
 		"assign": "321010054",
@@ -3281,5 +3281,1559 @@
 		"tr_text": "Spring '22 Special Scratch Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>春'22スペシャルスクラッチ<c>に\n1回挑戦できるチケット。",
 		"tr_explain": "Allows you one chance at\nthe <yellow>Spring '22 Special Scratch<c>\njust by having it in your inventory."
+	},
+	{
+		"assign": "321015061",
+		"jp_text": "『PSO2』10周年SPスクラッチ券",
+		"tr_text": "[PSO2] 10th Anniv. SP Scratch Ticket",
+		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>『PSO2』10周年SPスクラッチ<c>に\n1回挑戦できるチケット。",
+		"tr_explain": "Allows you one chance at\nthe <yellow>[PSO2] 10th Anniv. Special Scratch<c>\njust by having it in your inventory."
+	},
+	{
+		"assign": "321015062",
+		"jp_text": "オラクルメモリーズSPスクラッチ券",
+		"tr_text": "Oracle Memories SP Scratch Ticket",
+		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>オラクルメモリーズSPスクラッチ<c>に\n1回挑戦できるチケット。",
+		"tr_explain": "Allows you one chance at\nthe <yellow>Oracle Memories Special Scratch<c>\njust by having it in your inventory."
+	},
+	{
+		"assign": "321010083",
+		"jp_text": "トレジャーショップ（SG）更新",
+		"tr_text": "Treasure Shop (SG) Update",
+		"jp_explain": "トレジャーショップの陳列更新パス。\nＳＧで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010084",
+		"jp_text": "トレジャーショップ（N-メセタ）更新",
+		"tr_text": "Treasure Shop (N-Meseta) Update",
+		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010085",
+		"jp_text": "★３武器強化スキップ＋30",
+		"tr_text": "★3 Weapon Grind Skip +30",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★３以下の武器の\n強化値を最大30にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010086",
+		"jp_text": "★３武器強化スキップ＋40",
+		"tr_text": "★3 Weapon Grind Skip +40",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★３以下の武器の\n強化値を最大40にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010087",
+		"jp_text": "★３武器強化スキップ＋50",
+		"tr_text": "★3 Weapon Grind Skip +50",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★３以下の武器の\n強化値を最大50にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010088",
+		"jp_text": "★３武器強化スキップ＋60",
+		"tr_text": "★3 Weapon Grind Skip +60",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★３以下の武器の\n強化値を最大60にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010089",
+		"jp_text": "★３武器強化スキップ＋70",
+		"tr_text": "★3 Weapon Grind Skip +70",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★３以下の武器の\n強化値を最大70にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010090",
+		"jp_text": "★４武器強化スキップ＋30",
+		"tr_text": "★4 Weapon Grind Skip +30",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★４以下の武器の\n強化値を最大30にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010091",
+		"jp_text": "★４武器強化スキップ＋40",
+		"tr_text": "★4 Weapon Grind Skip +40",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★４以下の武器の\n強化値を最大40にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010092",
+		"jp_text": "★４武器強化スキップ＋50",
+		"tr_text": "★4 Weapon Grind Skip +50",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★４以下の武器の\n強化値を最大50にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010093",
+		"jp_text": "★４武器強化スキップ＋60",
+		"tr_text": "★4 Weapon Grind Skip +60",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★４以下の武器の\n強化値を最大60にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010094",
+		"jp_text": "★４武器強化スキップ＋70",
+		"tr_text": "★4 Weapon Grind Skip +70",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★４以下の武器の\n強化値を最大70にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010095",
+		"jp_text": "★５武器強化スキップ＋30",
+		"tr_text": "★5 Weapon Grind Skip +30",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★５以下の武器の\n強化値を最大30にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010096",
+		"jp_text": "★５武器強化スキップ＋40",
+		"tr_text": "★5 Weapon Grind Skip +40",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★５以下の武器の\n強化値を最大40にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010097",
+		"jp_text": "★５武器強化スキップ＋50",
+		"tr_text": "★5 Weapon Grind Skip +50",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★５以下の武器の\n強化値を最大50にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010098",
+		"jp_text": "★５武器強化スキップ＋60",
+		"tr_text": "★5 Weapon Grind Skip +60",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★５以下の武器の\n強化値を最大60にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010099",
+		"jp_text": "★５武器強化スキップ＋70",
+		"tr_text": "★5 Weapon Grind Skip +70",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★５以下の武器の\n強化値を最大70にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010100",
+		"jp_text": "★６武器強化スキップ＋30",
+		"tr_text": "★6 Weapon Grind Skip +30",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★６以下の武器の\n強化値を最大30にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010101",
+		"jp_text": "★６武器強化スキップ＋40",
+		"tr_text": "★6 Weapon Grind Skip +40",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★６以下の武器の\n強化値を最大40にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010102",
+		"jp_text": "★６武器強化スキップ＋50",
+		"tr_text": "★6 Weapon Grind Skip +50",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★６以下の武器の\n強化値を最大50にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010103",
+		"jp_text": "★６武器強化スキップ＋60",
+		"tr_text": "★6 Weapon Grind Skip +60",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★６以下の武器の\n強化値を最大60にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010104",
+		"jp_text": "★６武器強化スキップ＋70",
+		"tr_text": "★6 Weapon Grind Skip +70",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★６以下の武器の\n強化値を最大70にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010105",
+		"jp_text": "★７武器強化スキップ＋30",
+		"tr_text": "★7 Weapon Grind Skip +30",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★７以下の武器の\n強化値を最大30にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010106",
+		"jp_text": "★７武器強化スキップ＋40",
+		"tr_text": "★7 Weapon Grind Skip +40",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★７以下の武器の\n強化値を最大40にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010107",
+		"jp_text": "★７武器強化スキップ＋50",
+		"tr_text": "★7 Weapon Grind Skip +50",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★７以下の武器の\n強化値を最大50にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010108",
+		"jp_text": "★７武器強化スキップ＋60",
+		"tr_text": "★7 Weapon Grind Skip +60",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★７以下の武器の\n強化値を最大60にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010109",
+		"jp_text": "★７武器強化スキップ＋70",
+		"tr_text": "★7 Weapon Grind Skip +70",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★７以下の武器の\n強化値を最大70にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010110",
+		"jp_text": "★３防具強化スキップ＋30",
+		"tr_text": "★3 Armor Grind Skip +30",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★３以下の防具の\n強化値を最大30にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010111",
+		"jp_text": "★３防具強化スキップ＋40",
+		"tr_text": "★3 Armor Grind Skip +40",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★３以下の防具の\n強化値を最大40にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010112",
+		"jp_text": "★３防具強化スキップ＋50",
+		"tr_text": "★3 Armor Grind Skip +50",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★３以下の防具の\n強化値を最大50にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010113",
+		"jp_text": "★３防具強化スキップ＋60",
+		"tr_text": "★3 Armor Grind Skip +60",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★３以下の防具の\n強化値を最大60にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010114",
+		"jp_text": "★３防具強化スキップ＋70",
+		"tr_text": "★3 Armor Grind Skip +70",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★３以下の防具の\n強化値を最大70にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010115",
+		"jp_text": "★４防具強化スキップ＋30",
+		"tr_text": "★4 Armor Grind Skip +30",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★４以下の防具の\n強化値を最大30にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010116",
+		"jp_text": "★４防具強化スキップ＋40",
+		"tr_text": "★4 Armor Grind Skip +40",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★４以下の防具の\n強化値を最大40にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010117",
+		"jp_text": "★４防具強化スキップ＋50",
+		"tr_text": "★ Armor Grind Skip +50",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★４以下の防具の\n強化値を最大50にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010118",
+		"jp_text": "★４防具強化スキップ＋60",
+		"tr_text": "★4 Armor Grind Skip +60",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★４以下の防具の\n強化値を最大60にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010119",
+		"jp_text": "★４防具強化スキップ＋70",
+		"tr_text": "★4 Armor Grind Skip +70",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★４以下の防具の\n強化値を最大70にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010120",
+		"jp_text": "★５防具強化スキップ＋30",
+		"tr_text": "★5 Armor Grind Skip +30",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★５以下の防具の\n強化値を最大30にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010121",
+		"jp_text": "★５防具強化スキップ＋40",
+		"tr_text": "★5 Armor Grind Skip +40",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★５以下の防具の\n強化値を最大40にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010122",
+		"jp_text": "★５防具強化スキップ＋50",
+		"tr_text": "★5 Armor Grind Skip +50",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★５以下の防具の\n強化値を最大50にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010123",
+		"jp_text": "★５防具強化スキップ＋60",
+		"tr_text": "★ Armor Grind Skip +60",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★５以下の防具の\n強化値を最大60にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010124",
+		"jp_text": "★５防具強化スキップ＋70",
+		"tr_text": "★5 Armor Grind Skip +70",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★５以下の防具の\n強化値を最大70にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010125",
+		"jp_text": "★６防具強化スキップ＋30",
+		"tr_text": "★6 Armor Grind Skip +30",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★６以下の防具の\n強化値を最大30にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010126",
+		"jp_text": "★６防具強化スキップ＋40",
+		"tr_text": "★6 Armor Grind Skip +40",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★６以下の防具の\n強化値を最大40にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010127",
+		"jp_text": "★６防具強化スキップ＋50",
+		"tr_text": "★6 Armor Grind Skip +50",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★６以下の防具の\n強化値を最大50にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010128",
+		"jp_text": "★６防具強化スキップ＋60",
+		"tr_text": "★6 Armor Grind Skip +60",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★６以下の防具の\n強化値を最大60にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010129",
+		"jp_text": "★６防具強化スキップ＋70",
+		"tr_text": "★6 Armor Grind Skip +70",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★６以下の防具の\n強化値を最大70にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010130",
+		"jp_text": "★７防具強化スキップ＋30",
+		"tr_text": "★7 Armor Grind Skip +30",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★７以下の防具の\n強化値を最大30にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010131",
+		"jp_text": "★７防具強化スキップ＋40",
+		"tr_text": "★7 Armor Grind Skip +40",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★７以下の防具の\n強化値を最大40にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010132",
+		"jp_text": "★７防具強化スキップ＋50",
+		"tr_text": "★7 Armor Grind Skip +50",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★７以下の防具の\n強化値を最大50にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010133",
+		"jp_text": "★７防具強化スキップ＋60",
+		"tr_text": "★7 Armor Grind Skip +60",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★７以下の防具の\n強化値を最大60にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010134",
+		"jp_text": "★７防具強化スキップ＋70",
+		"tr_text": "★7 Armor Grind Skip +70",
+		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★７以下の防具の\n強化値を最大70にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010135",
+		"jp_text": "N-★１潜在能力解放代用材/Lv.１",
+		"tr_text": "N-★1 MaterialSubstitution/Lv.1",
+		"jp_explain": "レアリティ★１アイテムの\n潜在能力をLv.１にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010136",
+		"jp_text": "N-★１潜在能力解放代用材/Lv.２",
+		"tr_text": "N-★1 MaterialSubstitution/Lv.2",
+		"jp_explain": "レアリティ★１アイテムの\n潜在能力をLv.２にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010137",
+		"jp_text": "N-★１潜在能力解放代用材/Lv.３",
+		"tr_text": "N-★1 MaterialSubstitution/Lv.3",
+		"jp_explain": "レアリティ★１アイテムの\n潜在能力をLv.３にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010138",
+		"jp_text": "N-★１潜在能力解放代用材/Lv.４",
+		"tr_text": "N-★1 MaterialSubstitution/Lv.4",
+		"jp_explain": "レアリティ★１アイテムの\n潜在能力をLv.４にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010139",
+		"jp_text": "N-★１潜在能力解放代用材/Lv.５",
+		"tr_text": "N-★1 MaterialSubstitution/Lv.5",
+		"jp_explain": "レアリティ★１アイテムの\n潜在能力をLv.５にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010140",
+		"jp_text": "N-★２潜在能力解放代用材/Lv.１",
+		"tr_text": "N-★2 MaterialSubstitution/Lv.1",
+		"jp_explain": "レアリティ★２以下のアイテムの\n潜在能力をLv.１にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010141",
+		"jp_text": "N-★２潜在能力解放代用材/Lv.２",
+		"tr_text": "N-★2 MaterialSubstitution/Lv.2",
+		"jp_explain": "レアリティ★２以下のアイテムの\n潜在能力をLv.２にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010142",
+		"jp_text": "N-★２潜在能力解放代用材/Lv.３",
+		"tr_text": "N-★2 MaterialSubstitution/Lv.3",
+		"jp_explain": "レアリティ★２以下のアイテムの\n潜在能力をLv.３にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010143",
+		"jp_text": "N-★２潜在能力解放代用材/Lv.４",
+		"tr_text": "N-★2 MaterialSubstitution/Lv.4",
+		"jp_explain": "レアリティ★２以下のアイテムの\n潜在能力をLv.４にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010144",
+		"jp_text": "N-★２潜在能力解放代用材/Lv.５",
+		"tr_text": "N-★2 MaterialSubstitution/Lv.5",
+		"jp_explain": "レアリティ★２以下のアイテムの\n潜在能力をLv.５にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010145",
+		"jp_text": "N-★３潜在能力解放代用材/Lv.１",
+		"tr_text": "N-★3 MaterialSubstitution/Lv.1",
+		"jp_explain": "レアリティ★３以下のアイテムの\n潜在能力をLv.１にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010146",
+		"jp_text": "N-★３潜在能力解放代用材/Lv.２",
+		"tr_text": "N-★3 Material Substitution/Lv.2",
+		"jp_explain": "レアリティ★３以下のアイテムの\n潜在能力をLv.２にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010147",
+		"jp_text": "N-★３潜在能力解放代用材/Lv.３",
+		"tr_text": "N-★3 MaterialSubstitution/Lv.3",
+		"jp_explain": "レアリティ★３以下のアイテムの\n潜在能力をLv.３にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010148",
+		"jp_text": "N-★３潜在能力解放代用材/Lv.４",
+		"tr_text": "N-★3 MaterialSubstitution/Lv.4",
+		"jp_explain": "レアリティ★３以下のアイテムの\n潜在能力をLv.４にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010149",
+		"jp_text": "N-★３潜在能力解放代用材/Lv.５",
+		"tr_text": "N-★3 MaterialSubstitution/Lv.5",
+		"jp_explain": "レアリティ★３以下のアイテムの\n潜在能力をLv.５にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010150",
+		"jp_text": "N-★４潜在能力解放代用材/Lv.１",
+		"tr_text": "N-★4 Material Substitution/Lv.1",
+		"jp_explain": "レアリティ★４以下のアイテムの\n潜在能力をLv.１にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010151",
+		"jp_text": "N-★４潜在能力解放代用材/Lv.２",
+		"tr_text": "N-★4 MaterialSubstitution/Lv.2",
+		"jp_explain": "レアリティ★４以下のアイテムの\n潜在能力をLv.２にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010152",
+		"jp_text": "N-★４潜在能力解放代用材/Lv.３",
+		"tr_text": "N-★4 MaterialSubstitution/Lv.3",
+		"jp_explain": "レアリティ★４以下のアイテムの\n潜在能力をLv.３にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010153",
+		"jp_text": "N-★４潜在能力解放代用材/Lv.４",
+		"tr_text": "N-★4 MaterialSubstitution/Lv.4",
+		"jp_explain": "レアリティ★４以下のアイテムの\n潜在能力をLv.４にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010154",
+		"jp_text": "N-★４潜在能力解放代用材/Lv.５",
+		"tr_text": "N-★4 MaterialSubstitution/Lv.5",
+		"jp_explain": "レアリティ★４以下のアイテムの\n潜在能力をLv.５にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010155",
+		"jp_text": "N-★５潜在能力解放代用材/Lv.１",
+		"tr_text": "N-★5 MaterialSubstitution/Lv.1",
+		"jp_explain": "レアリティ★５以下のアイテムの\n潜在能力をLv.１にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010156",
+		"jp_text": "N-★５潜在能力解放代用材/Lv.２",
+		"tr_text": "N-★5 Material Substitution/Lv.2",
+		"jp_explain": "レアリティ★５以下のアイテムの\n潜在能力をLv.２にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010157",
+		"jp_text": "N-★５潜在能力解放代用材/Lv.３",
+		"tr_text": "N-★5 MaterialSubstitution/Lv.3",
+		"jp_explain": "レアリティ★５以下のアイテムの\n潜在能力をLv.３にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010158",
+		"jp_text": "N-★５潜在能力解放代用材/Lv.４",
+		"tr_text": "N-★5 MaterialSubstitution/Lv.4",
+		"jp_explain": "レアリティ★５以下のアイテムの\n潜在能力をLv.４にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010159",
+		"jp_text": "N-★５潜在能力解放代用材/Lv.５",
+		"tr_text": "N-★5 MaterialSubstitution/Lv.5",
+		"jp_explain": "レアリティ★５以下のアイテムの\n潜在能力をLv.５にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010160",
+		"jp_text": "N-★６潜在能力解放代用材/Lv.１",
+		"tr_text": "N-★6 MaterialSubstitution/Lv.1",
+		"jp_explain": "レアリティ★６以下のアイテムの\n潜在能力をLv.１にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010161",
+		"jp_text": "N-★６潜在能力解放代用材/Lv.２",
+		"tr_text": "N-★6 Material Substitution/Lv.2",
+		"jp_explain": "レアリティ★６以下のアイテムの\n潜在能力をLv.２にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010162",
+		"jp_text": "N-★６潜在能力解放代用材/Lv.３",
+		"tr_text": "N-★6 MaterialSubstitution/Lv.3",
+		"jp_explain": "レアリティ★６以下のアイテムの\n潜在能力をLv.３にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010163",
+		"jp_text": "N-★６潜在能力解放代用材/Lv.４",
+		"tr_text": "N-★6 MaterialSubstitution/Lv.4",
+		"jp_explain": "レアリティ★６以下のアイテムの\n潜在能力をLv.４にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010164",
+		"jp_text": "N-★６潜在能力解放代用材/Lv.５",
+		"tr_text": "N-★6 MaterialSubstitution/Lv.5",
+		"jp_explain": "レアリティ★６以下のアイテムの\n潜在能力をLv.５にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010165",
+		"jp_text": "N-★７潜在能力解放代用材/Lv.１",
+		"tr_text": "N-★7 MaterialSubstitution/Lv.1",
+		"jp_explain": "レアリティ★７以下のアイテムの\n潜在能力をLv.１にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010166",
+		"jp_text": "N-★７潜在能力解放代用材/Lv.２",
+		"tr_text": "N-★7 MaterialSubstitution/Lv.2",
+		"jp_explain": "レアリティ★７以下のアイテムの\n潜在能力をLv.２にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010167",
+		"jp_text": "N-★７潜在能力解放代用材/Lv.３",
+		"tr_text": "N-★7 Material Substitution/Lv.3",
+		"jp_explain": "レアリティ★７以下のアイテムの\n潜在能力をLv.３にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010168",
+		"jp_text": "N-★７潜在能力解放代用材/Lv.４",
+		"tr_text": "N-★7 MaterialSubstitution/Lv.4",
+		"jp_explain": "レアリティ★７以下のアイテムの\n潜在能力をLv.４にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010169",
+		"jp_text": "N-★７潜在能力解放代用材/Lv.５",
+		"tr_text": "N-★7 MaterialSubstitution/Lv.5",
+		"jp_explain": "レアリティ★７以下のアイテムの\n潜在能力をLv.５にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010170",
+		"jp_text": "N-★１限界突破代用材/限界値20",
+		"tr_text": "N-★1 Limit Break Substitution/20",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を10から20にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010171",
+		"jp_text": "N-★１限界突破代用材/限界値30",
+		"tr_text": "N-★1 Limit Break Substitution/30",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を20から30にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010172",
+		"jp_text": "N-★１限界突破代用材/限界値40",
+		"tr_text": "N-★1 Limit Break Substitution/40",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を30から40にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010173",
+		"jp_text": "N-★１限界突破代用材/限界値50",
+		"tr_text": "N-★1 Limit Break Substitution/50",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を40から50にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010174",
+		"jp_text": "N-★１限界突破代用材/限界値60",
+		"tr_text": "N-★1 Limit Break Substitution/60",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を50から60にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010175",
+		"jp_text": "N-★１限界突破代用材/限界値70",
+		"tr_text": "N-★1 Limit Break Substitution/70",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を60から70にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010176",
+		"jp_text": "N-★１限界突破代用材/限界値80",
+		"tr_text": "N-★1 Limit Break Substitution/80",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を70から80にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010177",
+		"jp_text": "N-★１限界突破代用材/限界値90",
+		"tr_text": "N-★1 Limit Break Substitution/90",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を80から90にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010178",
+		"jp_text": "N-★１限界突破代用材/限界値100",
+		"tr_text": "N-★1 Limit Break Substitution/100",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を90から100にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010179",
+		"jp_text": "N-★１限界突破代用材/限界値110",
+		"tr_text": "N-★1 Limit Break Substitution/110",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を100から110にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010180",
+		"jp_text": "N-★１限界突破代用材/限界値120",
+		"tr_text": "N-★1 Limit Break Substitution/120",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を110から120にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010181",
+		"jp_text": "N-★１限界突破代用材/限界値130",
+		"tr_text": "N-★1 Limit Break Substitution/130",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を120から130にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010182",
+		"jp_text": "N-★１限界突破代用材/限界値140",
+		"tr_text": "N-★1 Limit Break Substitution/140",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を130から140にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010183",
+		"jp_text": "N-★１限界突破代用材/限界値150",
+		"tr_text": "N-★1 Limit Break Substitution/150",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を140から150にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010184",
+		"jp_text": "N-★１限界突破代用材/限界値160",
+		"tr_text": "N-★1 Limit Break Substitution/160",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を150から160にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010185",
+		"jp_text": "N-★１限界突破代用材/限界値170",
+		"tr_text": "N-★1 Limit Break Substitution/170",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を160から170にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010186",
+		"jp_text": "N-★１限界突破代用材/限界値180",
+		"tr_text": "N-★1 Limit Break Substitution/180",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を170から180にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010187",
+		"jp_text": "N-★１限界突破代用材/限界値190",
+		"tr_text": "N-★1 Limit Break Substitution/190",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を180から190にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010188",
+		"jp_text": "N-★１限界突破代用材/限界値200",
+		"tr_text": "N-★1 Limit Break Substitution/200",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★１アイテムの\n強化限界値を190から200にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010189",
+		"jp_text": "N-★２限界突破代用材/限界値20",
+		"tr_text": "N-★2 Limit Break Substitution/20",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を10から20にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010190",
+		"jp_text": "N-★２限界突破代用材/限界値30",
+		"tr_text": "N-★2 Limit Break Substitution/30",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を20から30にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010191",
+		"jp_text": "N-★２限界突破代用材/限界値40",
+		"tr_text": "N-★2 Limit Break Substitution/40",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を30から40にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010192",
+		"jp_text": "N-★２限界突破代用材/限界値50",
+		"tr_text": "N-★2 Limit Break Substitution/50",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を40から50にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010193",
+		"jp_text": "N-★２限界突破代用材/限界値60",
+		"tr_text": "N-★2 Limit Break Substitution/60",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を50から60にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010194",
+		"jp_text": "N-★２限界突破代用材/限界値70",
+		"tr_text": "N-★2 Limit Break Substitution/70",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を60から70にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010195",
+		"jp_text": "N-★２限界突破代用材/限界値80",
+		"tr_text": "N-★2 Limit Break Substitution/80",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を70から80にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010196",
+		"jp_text": "N-★２限界突破代用材/限界値90",
+		"tr_text": "N-★2 Limit Break Substitution/90",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を80から90にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010197",
+		"jp_text": "N-★２限界突破代用材/限界値100",
+		"tr_text": "N-★2 Limit Break Substitution/100",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を90から100にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010198",
+		"jp_text": "N-★２限界突破代用材/限界値110",
+		"tr_text": "N-★2 Limit Break Substitution/110",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を100から110にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010199",
+		"jp_text": "N-★２限界突破代用材/限界値120",
+		"tr_text": "N-★2 Limit Break Substitution/120",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を110から120にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010200",
+		"jp_text": "N-★２限界突破代用材/限界値130",
+		"tr_text": "N-★2 Limit Break Substitution/130",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を120から130にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010201",
+		"jp_text": "N-★２限界突破代用材/限界値140",
+		"tr_text": "N-★2 Limit Break Substitution/140",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を130から140にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010202",
+		"jp_text": "N-★２限界突破代用材/限界値150",
+		"tr_text": "N-★2 Limit Break Substitution/150",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を140から150にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010203",
+		"jp_text": "N-★２限界突破代用材/限界値160",
+		"tr_text": "N-★2 Limit Break Substitution/160",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を150から160にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010204",
+		"jp_text": "N-★２限界突破代用材/限界値170",
+		"tr_text": "N-★2 Limit Break Substitution/170",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を160から170にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010205",
+		"jp_text": "N-★２限界突破代用材/限界値180",
+		"tr_text": "N-★2 Limit Break Substitution/180",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を170から180にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010206",
+		"jp_text": "N-★２限界突破代用材/限界値190",
+		"tr_text": "N-★2 Limit Break Substitution/190",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を180から190にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010207",
+		"jp_text": "N-★２限界突破代用材/限界値200",
+		"tr_text": "N-★2 Limit Break Substitution/200",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★２以下のアイテムの\n強化限界値を190から200にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010208",
+		"jp_text": "N-★３限界突破代用材/限界値20",
+		"tr_text": "N-★3 Limit Break Substitution/20",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を10から20にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010209",
+		"jp_text": "N-★３限界突破代用材/限界値30",
+		"tr_text": "N-★3 Limit Break Substitution/30",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を20から30にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010210",
+		"jp_text": "N-★３限界突破代用材/限界値40",
+		"tr_text": "N-★3 Limit Break Substitution/40",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を30から40にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010211",
+		"jp_text": "N-★３限界突破代用材/限界値50",
+		"tr_text": "N-★3 Limit Break Substitution/50",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を40から50にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010212",
+		"jp_text": "N-★３限界突破代用材/限界値60",
+		"tr_text": "N-★3 Limit Break Substitution/60",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を50から60にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010213",
+		"jp_text": "N-★３限界突破代用材/限界値70",
+		"tr_text": "N-★3 Limit Break Substitution/70",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を60から70にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010214",
+		"jp_text": "N-★３限界突破代用材/限界値80",
+		"tr_text": "N-★3 Limit Break Substitution/80",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を70から80にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010215",
+		"jp_text": "N-★３限界突破代用材/限界値90",
+		"tr_text": "N-★3 Limit Break Substitution/90",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を80から90にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010216",
+		"jp_text": "N-★３限界突破代用材/限界値100",
+		"tr_text": "N-★3 Limit Break Substitution/100",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を90から100にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010217",
+		"jp_text": "N-★３限界突破代用材/限界値110",
+		"tr_text": "N-★3 Limit Break Substitution/110",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を100から110にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010218",
+		"jp_text": "N-★３限界突破代用材/限界値120",
+		"tr_text": "N-★3 Limit Break Substitution/120",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を110から120にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010219",
+		"jp_text": "N-★３限界突破代用材/限界値130",
+		"tr_text": "N-★3 Limit Break Substitution/130",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を120から130にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010220",
+		"jp_text": "N-★３限界突破代用材/限界値140",
+		"tr_text": "N-★3 Limit Break Substitution/140",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を130から140にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010221",
+		"jp_text": "N-★３限界突破代用材/限界値150",
+		"tr_text": "N-★3 Limit Break Substitution/150",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を140から150にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010222",
+		"jp_text": "N-★３限界突破代用材/限界値160",
+		"tr_text": "N-★3 Limit Break Substitution/160",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を150から160にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010223",
+		"jp_text": "N-★３限界突破代用材/限界値170",
+		"tr_text": "N-★3 Limit Break Substitution/170",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を160から170にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010224",
+		"jp_text": "N-★３限界突破代用材/限界値180",
+		"tr_text": "N-★3 Limit Break Substitution/180",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を170から180にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010225",
+		"jp_text": "N-★３限界突破代用材/限界値190",
+		"tr_text": "N-★3 Limit Break Substitution/0",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を180から190にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010226",
+		"jp_text": "N-★３限界突破代用材/限界値200",
+		"tr_text": "N-★3 Limit Break Substitution/200",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★３以下のアイテムの\n強化限界値を190から200にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010227",
+		"jp_text": "N-★４限界突破代用材/限界値20",
+		"tr_text": "N-★4 Limit Break Substitution/20",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を10から20にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010228",
+		"jp_text": "N-★４限界突破代用材/限界値30",
+		"tr_text": "N-★4 Limit Break Substitution/30",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を20から30にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010229",
+		"jp_text": "N-★４限界突破代用材/限界値40",
+		"tr_text": "N-★4 Limit Break Substitution/40",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を30から40にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010230",
+		"jp_text": "N-★４限界突破代用材/限界値50",
+		"tr_text": "N-★4 Limit Break Substitution/50",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を40から50にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010231",
+		"jp_text": "N-★４限界突破代用材/限界値60",
+		"tr_text": "N-★4 Limit Break Substitution/60",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を50から60にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010232",
+		"jp_text": "N-★４限界突破代用材/限界値70",
+		"tr_text": "N-★4 Limit Break Substitution/70",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を60から70にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010233",
+		"jp_text": "N-★４限界突破代用材/限界値80",
+		"tr_text": "N-★4 Limit Break Substitution/80",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を70から80にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010234",
+		"jp_text": "N-★４限界突破代用材/限界値90",
+		"tr_text": "N-★4 Limit Break Substitution/90",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を80から90にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010235",
+		"jp_text": "N-★４限界突破代用材/限界値100",
+		"tr_text": "N-★4 Limit Break Substitution/100",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を90から100にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010236",
+		"jp_text": "N-★４限界突破代用材/限界値110",
+		"tr_text": "N-★4 Limit Break Substitution/110",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を100から110にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010237",
+		"jp_text": "N-★４限界突破代用材/限界値120",
+		"tr_text": "N-★4 Limit Break Substitution/120",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を110から120にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010238",
+		"jp_text": "N-★４限界突破代用材/限界値130",
+		"tr_text": "N-★4 Limit Break Substitution/130",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を120から130にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010239",
+		"jp_text": "N-★４限界突破代用材/限界値140",
+		"tr_text": "N-★4 Limit Break Substitution/140",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を130から140にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010240",
+		"jp_text": "N-★４限界突破代用材/限界値150",
+		"tr_text": "N-★4 Limit Break Substitution/150",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を140から150にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010241",
+		"jp_text": "N-★４限界突破代用材/限界値160",
+		"tr_text": "N-★4 Limit Break Substitution/160",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を150から160にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010242",
+		"jp_text": "N-★４限界突破代用材/限界値170",
+		"tr_text": "N-★4 Limit Break Substitution/170",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を160から170にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010243",
+		"jp_text": "N-★４限界突破代用材/限界値180",
+		"tr_text": "N-★4 Limit Break Substitution/180",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を170から180にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010244",
+		"jp_text": "N-★４限界突破代用材/限界値190",
+		"tr_text": "N-★4 Limit Break Substitution/190",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を180から190にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010245",
+		"jp_text": "N-★４限界突破代用材/限界値200",
+		"tr_text": "N-★4 Limit Break Substitution/200",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★４以下のアイテムの\n強化限界値を190から200にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010246",
+		"jp_text": "N-★５限界突破代用材/限界値20",
+		"tr_text": "N-★5 Limit Break Substitution/20",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を10から20にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010247",
+		"jp_text": "N-★５限界突破代用材/限界値30",
+		"tr_text": "N-★5 Limit Break Substitution/30",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を20から30にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010248",
+		"jp_text": "N-★５限界突破代用材/限界値40",
+		"tr_text": "N-★5 Limit Break Substitution/40",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を30から40にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010249",
+		"jp_text": "N-★５限界突破代用材/限界値50",
+		"tr_text": "N-★5 Limit Break Substitution/50",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を40から50にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010250",
+		"jp_text": "N-★５限界突破代用材/限界値60",
+		"tr_text": "N-★5 Limit Break Substitution/60",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を50から60にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010251",
+		"jp_text": "N-★５限界突破代用材/限界値70",
+		"tr_text": "N-★5 Limit Break Substitution/70",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を60から70にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010252",
+		"jp_text": "N-★５限界突破代用材/限界値80",
+		"tr_text": "N-★5 Limit Break Substitution/80",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を70から80にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010253",
+		"jp_text": "N-★５限界突破代用材/限界値90",
+		"tr_text": "N-★5 Limit Break Substitution/90",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を80から90にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010254",
+		"jp_text": "N-★５限界突破代用材/限界値100",
+		"tr_text": "N-★5 Limit Break Substitution/100",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を90から100にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010255",
+		"jp_text": "N-★５限界突破代用材/限界値110",
+		"tr_text": "N-★5 Limit Break Substitution/110",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を100から110にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010256",
+		"jp_text": "N-★５限界突破代用材/限界値120",
+		"tr_text": "N-★5 Limit Break Substitution/120",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を110から120にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010257",
+		"jp_text": "N-★５限界突破代用材/限界値130",
+		"tr_text": "N-★5 Limit Break Substitution/130",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を120から130にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010258",
+		"jp_text": "N-★５限界突破代用材/限界値140",
+		"tr_text": "N-★5 Limit Break Substitution/140",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を130から140にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010259",
+		"jp_text": "N-★５限界突破代用材/限界値150",
+		"tr_text": "N-★5 Limit Break Substitution/150",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を140から150にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010260",
+		"jp_text": "N-★５限界突破代用材/限界値160",
+		"tr_text": "N-★5 Limit Break Substitution/160",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を150から160にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010261",
+		"jp_text": "N-★５限界突破代用材/限界値170",
+		"tr_text": "N-★5 Limit Break Substitution/170",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を160から170にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010262",
+		"jp_text": "N-★５限界突破代用材/限界値180",
+		"tr_text": "N-★5 Limit Break Substitution/180",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を170から180にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010263",
+		"jp_text": "N-★５限界突破代用材/限界値190",
+		"tr_text": "N-★5 Limit Break Substitution/190",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を180から190にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010264",
+		"jp_text": "N-★５限界突破代用材/限界値200",
+		"tr_text": "N-★5 Limit Break Substitution/200",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★５以下のアイテムの\n強化限界値を190から200にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010265",
+		"jp_text": "N-★６限界突破代用材/限界値20",
+		"tr_text": "N-★6 Limit Break Substitution/20",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を10から20にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010266",
+		"jp_text": "N-★６限界突破代用材/限界値30",
+		"tr_text": "N-★6 Limit Break Substitution/30",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を20から30にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010267",
+		"jp_text": "N-★６限界突破代用材/限界値40",
+		"tr_text": "N-★6 Limit Break Substitution/40",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を30から40にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010268",
+		"jp_text": "N-★６限界突破代用材/限界値50",
+		"tr_text": "N-★6 Limit Break Substitution/50",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を40から50にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010269",
+		"jp_text": "N-★６限界突破代用材/限界値60",
+		"tr_text": "N-★6 Limit Break Substitution/60",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を50から60にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010270",
+		"jp_text": "N-★６限界突破代用材/限界値70",
+		"tr_text": "N-★6 Limit Break Substitution/70",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を60から70にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010271",
+		"jp_text": "N-★６限界突破代用材/限界値80",
+		"tr_text": "N-★6 Limit Break Substitution/80",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を70から80にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010272",
+		"jp_text": "N-★６限界突破代用材/限界値90",
+		"tr_text": "N-★6 Limit Break Substitution/90",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を80から90にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010273",
+		"jp_text": "N-★６限界突破代用材/限界値100",
+		"tr_text": "N-★6 Limit Break Substitution/100",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を90から100にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010274",
+		"jp_text": "N-★６限界突破代用材/限界値110",
+		"tr_text": "N-★6 Limit Break Substitution/110",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を100から110にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010275",
+		"jp_text": "N-★６限界突破代用材/限界値120",
+		"tr_text": "N-★6 Limit Break Substitution/120",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を110から120にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010276",
+		"jp_text": "N-★６限界突破代用材/限界値130",
+		"tr_text": "N-★6 Limit Break Substitution/130",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を120から130にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010277",
+		"jp_text": "N-★６限界突破代用材/限界値140",
+		"tr_text": "N-★6 Limit Break Substitution/140",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を130から140にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010278",
+		"jp_text": "N-★６限界突破代用材/限界値150",
+		"tr_text": "N-★6 Limit Break Substitution/150",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を140から150にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010279",
+		"jp_text": "N-★６限界突破代用材/限界値160",
+		"tr_text": "N-★6 Limit Break Substitution/160",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を150から160にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010280",
+		"jp_text": "N-★６限界突破代用材/限界値170",
+		"tr_text": "N-★6 Limit Break Substitution/170",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を160から170にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010281",
+		"jp_text": "N-★６限界突破代用材/限界値180",
+		"tr_text": "N-★6 Limit Break Substitution/180",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を170から180にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010282",
+		"jp_text": "N-★６限界突破代用材/限界値190",
+		"tr_text": "N-★6 Limit Break Substitution/190",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を180から190にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010283",
+		"jp_text": "N-★６限界突破代用材/限界値200",
+		"tr_text": "N-★6 Limit Break Substitution/200",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★６以下のアイテムの\n強化限界値を190から200にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010284",
+		"jp_text": "N-★７限界突破代用材/限界値20",
+		"tr_text": "N-★7 Limit Break Substitution/20",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を10から20にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010285",
+		"jp_text": "N-★７限界突破代用材/限界値30",
+		"tr_text": "N-★7 Limit Break Substitution/30",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を20から30にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010286",
+		"jp_text": "N-★７限界突破代用材/限界値40",
+		"tr_text": "N-★7 Limit Break Substitution/40",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を30から40にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010287",
+		"jp_text": "N-★７限界突破代用材/限界値50",
+		"tr_text": "N-★7 Limit Break Substitution/50",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を40から50にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010288",
+		"jp_text": "N-★７限界突破代用材/限界値60",
+		"tr_text": "N-★7 Limit Break Substitution/60",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を50から60にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010289",
+		"jp_text": "N-★７限界突破代用材/限界値70",
+		"tr_text": "N-★7 Limit Break Substitution/70",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を60から70にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010290",
+		"jp_text": "N-★７限界突破代用材/限界値80",
+		"tr_text": "N-★7 Limit Break Substitution/80",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を70から80にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010291",
+		"jp_text": "N-★７限界突破代用材/限界値90",
+		"tr_text": "N-★7 Limit Break Substitution/90",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を80から90にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010292",
+		"jp_text": "N-★７限界突破代用材/限界値100",
+		"tr_text": "N-★7 Limit Break Substitution/100",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を90から100にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010293",
+		"jp_text": "N-★７限界突破代用材/限界値110",
+		"tr_text": "N-★7 Limit Break Substitution/110",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を100から110にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010294",
+		"jp_text": "N-★７限界突破代用材/限界値120",
+		"tr_text": "N-★7 Limit Break Substitution/120",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を110から120にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010295",
+		"jp_text": "N-★７限界突破代用材/限界値130",
+		"tr_text": "N-★7 Limit Break Substitution/130",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を120から130にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010296",
+		"jp_text": "N-★７限界突破代用材/限界値140",
+		"tr_text": "N-★7 Limit Break Substitution/140",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を130から140にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010297",
+		"jp_text": "N-★７限界突破代用材/限界値150",
+		"tr_text": "N-★7 Limit Break Substitution/150",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を140から150にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010298",
+		"jp_text": "N-★７限界突破代用材/限界値160",
+		"tr_text": "N-★7 Limit Break Substitution/160",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を150から160にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010299",
+		"jp_text": "N-★７限界突破代用材/限界値170",
+		"tr_text": "N-★7 Limit Break Substitution/170",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を160から170にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010300",
+		"jp_text": "N-★７限界突破代用材/限界値180",
+		"tr_text": "N-★7 Limit Break Substitution/180",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を170から180にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010301",
+		"jp_text": "N-★７限界突破代用材/限界値190",
+		"tr_text": "N-★7 Limit Break Substitution/190",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を180から190にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010302",
+		"jp_text": "N-★７限界突破代用材/限界値200",
+		"tr_text": "N-★7 Limit Break Substitution/200",
+		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を190から200にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
 	}
 ]

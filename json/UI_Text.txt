@@ -460,6 +460,16 @@
 		"tr_text": "Item Purchase Confirmation"
 	},
 	{
+		"assign": "acshop_dialog_scc_button",
+		"jp_text": "特商法・資金決済法",
+		"tr_text": ""
+	},
+	{
+		"assign": "acshop_dialog_scc_article_button",
+		"jp_text": "特商法12条の6に基づく表示",
+		"tr_text": ""
+	},
+	{
 		"assign": "acshop_dialog_b_28",
 		"jp_text": "<%item_name>を購入します。\nよろしいですか？\n\n所持数：<%current_item_num>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
 		"tr_text": "You want to buy <%item_name>.\nIs that ok?\n\nOwned: <%current_item_num>\n\nNeeded <%AC>: <%consume_AC>\nHave: <%current_AC>"
@@ -1247,7 +1257,7 @@
 	{
 		"assign": "charamake_race_03",
 		"jp_text": "トップクラスの攻撃力を持つ種族。\n額の角と、オッドアイが特徴。",
-		"tr_text": "High offensive power, low defense.\nOdd eye features\nlinked to photon power."
+		"tr_text": "High offensive power, low defense.\nOdd eye features\nlinked to Photon power."
 	},
 	{
 		"assign": "charamake_class_00",
@@ -1262,7 +1272,7 @@
 	{
 		"assign": "charamake_class_02",
 		"jp_text": "フォトンを用いたテクニックの使用に長けた\n遠距離戦闘向きのクラス。\n多彩なテクニックを扱える。",
-		"tr_text": "A class geared towards long-range\ncombat using photonic Techniques as\npowerful as they are diverse."
+		"tr_text": "A class geared towards long-range\ncombat using Photonic Techniques as\npowerful as they are diverse."
 	},
 	{
 		"assign": "charamake_class_03",
@@ -8760,6 +8770,11 @@
 		"tr_text": "Select Chip"
 	},
 	{
+		"assign": "chip_window_assist_chip",
+		"jp_text": "アシストチップ選択",
+		"tr_text": ""
+	},
+	{
 		"assign": "window_sort_favorite",
 		"jp_text": "お気に入り",
 		"tr_text": "Favorites"
@@ -10343,6 +10358,11 @@
 		"assign": "menu_main_button_recycle",
 		"jp_text": "交換ショップ",
 		"tr_text": "Exchange Shop"
+	},
+	{
+		"assign": "menu_main_button_assist_chip",
+		"jp_text": "アシストチップ設定",
+		"tr_text": ""
 	},
 	{
 		"assign": "menu_main_formation_info",
@@ -13212,12 +13232,12 @@
 	{
 		"assign": "es_0003_n02_b",
 		"jp_text": "<color=black>たとえダーカーを倒しても\nフォトンの力を持たない生物や機械の場合\n消滅したダーカーの残滓に侵され凶暴化してしまい\nやがては自滅してしまうんです。</color>",
-		"tr_text": "<color=black>Even defeated Darkers,\nover time, will infect biological and\nmechanical organisms which do not\nhave photons, causing them to go berserk.</color>"
+		"tr_text": "<color=black>Even defeated Darkers,\nover time, will infect biological and\nmechanical organisms which do not\nhave Photons, causing them to go berserk.</color>"
 	},
 	{
 		"assign": "es_0003_n03_b",
 		"jp_text": "<color=black>ですから、ダーカーと戦うことができるのは\nフォトンの力を持っている\nあなたたち、「アークス」だけなのです。</color>",
-		"tr_text": "<color=black>Hence why, to fight Darkers,\nwe 「ARKS」 have the power\nof photons.</color>"
+		"tr_text": "<color=black>Hence why, to fight Darkers,\nwe 「ARKS」 have the power\nof Photons.</color>"
 	},
 	{
 		"assign": "es_0003_n04_b",
@@ -13362,7 +13382,7 @@
 	{
 		"assign": "es_0006_n04_b",
 		"jp_text": "<color=black>ちなみに「侵食エネミー」とは\nダーカーの残滓によって侵され\n凶暴化が進行したエネミーのことです。\n体が赤い色になっているのが特徴です。</color>",
-		"tr_text": "<color=black>\"Infected enemies,\" incase you did not\nknow, are enemies who were damaged by\nDarkers. They become infected by\ntheir negative photons, thus empowering\ntheir rage, glowing red.</color>"
+		"tr_text": "<color=black>\"Infected enemies,\" incase you did not\nknow, are enemies who were damaged by\nDarkers. They become infected by\ntheir negative Photons, thus empowering\ntheir rage, glowing red.</color>"
 	},
 	{
 		"assign": "es_0006_n05_b",
@@ -21026,7 +21046,7 @@
 	},
 	{
 		"assign": "equip_child_chip_total_num",
-		"jp_text": "{0}<color=\"#688ca7\">/</color> {1}",
+		"jp_text": " {0}<color=\"#688ca7\">/</color>{1}",
 		"tr_text": ""
 	},
 	{
@@ -24170,6 +24190,11 @@
 		"tr_text": "NEXT>>"
 	},
 	{
+		"assign": "scrach_dialog_limit_date",
+		"jp_text": "配信期間：{0}",
+		"tr_text": ""
+	},
+	{
 		"assign": "raid_scratch_dialog_new_b_01",
 		"jp_text": "ボーナスポイント <color=yellow>{0}</color>ptで\nボーナススクラッチ\n「{1}」を<color=yellow>{2}</color>回引きます。\nよろしいですか？\n",
 		"tr_text": "Now spending <color=yellow>{0}</color> Bonus Points\nto draw {2} times on the\n{1} Bonus Scratch.\nDo you wish to continue?"
@@ -25392,6 +25417,21 @@
 	{
 		"assign": "chip_pack_extend_dialog_ac",
 		"jp_text": "<%AC>",
+		"tr_text": ""
+	},
+	{
+		"assign": "assist_chip_window_title",
+		"jp_text": "アシストチップ設定",
+		"tr_text": ""
+	},
+	{
+		"assign": "assist_chip_guide_message",
+		"jp_text": "<color=#f0df60>フレンドを助けるアシストチップの設定を行うことができます。未設定の場合は、選択中の装備パレットのＳＰスロットに装備されたチップがアシストチップとして使用されます。</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "palette_equip_assist_chip_button",
+		"jp_text": "アシスト設定",
 		"tr_text": ""
 	}
 ]

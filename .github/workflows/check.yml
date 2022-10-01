@@ -1,0 +1,23 @@
+name: repo-check
+on: [push]
+jobs:
+   validate:
+      runs-on: ubuntu-latest
+      container: ubuntu:20.04
+          
+      steps:
+          
+        - name: Setting up testing environment
+          run: |
+            /bin/mkdir -p /tmp/PSO2es
+
+        - name: Checkout Repo        
+          uses: actions/checkout@v3
+          
+        - name: Checking for vaild JSONs
+          run: python ./_py/checkjson.py | /usr/bin/tee /tmp/PSO2es/checkjson.txt
+          
+        - name: Store artifacts
+          uses: actions/upload-artifact@v3
+          with:
+            path: /tmp/PSO2es/
