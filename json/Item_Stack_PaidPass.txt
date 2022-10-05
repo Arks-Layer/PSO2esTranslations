@@ -3220,6 +3220,13 @@
 		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +50 on a single item."
 	},
 	{
+		"assign": "321010044",
+		"jp_text": "N-限界突破代用材/限界値60",
+		"tr_text": "",
+		"jp_explain": "アイテムの限界突破時に\n強化限界値を50から60にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "321010054",
 		"jp_text": "N-カラーチェンジパス",
 		"tr_text": "N-Color Change Pass",
@@ -3267,6 +3274,20 @@
 		"tr_text": "N-Material Substitution/Lv.3",
 		"jp_explain": "アイテムの潜在能力を\nLv.3にするための\n必要素材アイテムを不要にする。",
 		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.3 on a single item."
+	},
+	{
+		"assign": "321010066",
+		"jp_text": "N-潜在能力解放代用材/Lv.4",
+		"tr_text": "",
+		"jp_explain": "アイテムの潜在能力を\nLv.4にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010067",
+		"jp_text": "N-潜在能力解放代用材/Lv.5",
+		"tr_text": "",
+		"jp_explain": "アイテムの潜在能力を\nLv.5にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "321015032",
@@ -4834,6 +4855,13 @@
 		"jp_text": "N-★７限界突破代用材/限界値200",
 		"tr_text": "N-★7 Limit Break Substitution/200",
 		"jp_explain": "アイテムの限界突破時に\nレアリティ★７以下のアイテムの\n強化限界値を190から200にするための\n必要素材アイテムを不要にする。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321015076",
+		"jp_text": "秋'22スペシャルスクラッチ券",
+		"tr_text": "",
+		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>秋'22スペシャルスクラッチ<c>に\n1回挑戦できるチケット。",
 		"tr_explain": ""
 	}
 ]
