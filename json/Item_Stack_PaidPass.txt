@@ -3217,14 +3217,14 @@
 		"jp_text": "N-限界突破代用材/限界値50",
 		"tr_text": "N-Limit Break Substitution/50",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を40から50にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +50 on a single item."
+		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +40 on a single item."
 	},
 	{
 		"assign": "321010044",
 		"jp_text": "N-限界突破代用材/限界値60",
-		"tr_text": "",
+		"tr_text": "N-Limit Break Substitution/60",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を50から60にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": ""
+		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +50 on a single item."
 	},
 	{
 		"assign": "321010054",
@@ -3278,16 +3278,16 @@
 	{
 		"assign": "321010066",
 		"jp_text": "N-潜在能力解放代用材/Lv.4",
-		"tr_text": "",
+		"tr_text": "N-Material Substitution/Lv.4",
 		"jp_explain": "アイテムの潜在能力を\nLv.4にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": ""
+		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.4 on a single item."
 	},
 	{
 		"assign": "321010067",
 		"jp_text": "N-潜在能力解放代用材/Lv.5",
-		"tr_text": "",
+		"tr_text": "N-Material Substitution/Lv.5",
 		"jp_explain": "アイテムの潜在能力を\nLv.5にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": ""
+		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.5 on a single item."
 	},
 	{
 		"assign": "321015032",
@@ -4860,7 +4860,7 @@
 	{
 		"assign": "321015076",
 		"jp_text": "秋'22スペシャルスクラッチ券",
-		"tr_text": "",
+		"tr_text": "Autumn '22 Scratch Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>秋'22スペシャルスクラッチ<c>に\n1回挑戦できるチケット。",
 		"tr_explain": ""
 	}
