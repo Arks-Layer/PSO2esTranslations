@@ -1674,21 +1674,21 @@
 	},
 	{
 		"assign": "32010080",
-		"jp_text": "『PSO2』10周年Sポイント＋50%",
+		"jp_text": "『PSO2』10周年Ｓポイント＋50%",
 		"tr_text": "『PSO2』10週年季節點數+50%",
 		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>50%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※『PSO2』10周年イベント期間限定<c>",
 		"tr_explain": "在使用後<yellow>60分內<c>，<yellow>提升50%<c>\n擊敗敵人時獲得的季節點數。\n<yellow>※下線時也會減少效果時間<c>\n<yellow>※『PSO2』10週年活動期間限定<c>"
 	},
 	{
 		"assign": "32010081",
-		"jp_text": "『PSO2』10周年Sポイント＋100%",
+		"jp_text": "『PSO2』10周年Ｓポイント＋100%",
 		"tr_text": "『PSO2』10週年季節點數+100%",
 		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>100%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※『PSO2』10周年イベント期間限定<c>",
 		"tr_explain": "在使用後<yellow>60分內<c>，<yellow>提升100%<c>\n擊敗敵人時獲得的季節點數。\n<yellow>※下線時也會減少效果時間<c>\n<yellow>※『PSO2』10週年活動期間限定<c>"
 	},
 	{
 		"assign": "32010082",
-		"jp_text": "『PSO2』10周年Sポイント＋200%",
+		"jp_text": "『PSO2』10周年Ｓポイント＋200%",
 		"tr_text": "『PSO2』10週年季節點數+200%",
 		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>200%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※『PSO2』10周年イベント期間限定<c>",
 		"tr_explain": "在使用後<yellow>60分內<c>，<yellow>提升200%<c>\n擊敗敵人時獲得的季節點數。\n<yellow>※下線時也會減少效果時間<c>\n<yellow>※『PSO2』10週年活動期間限定<c>"
@@ -3463,5 +3463,33 @@
 		"tr_text": "N-稀有道具掉落率[15m]+200%",
 		"jp_explain": "使用してから<yellow>15分間<c>\nレアドロップ倍率が<yellow>200%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
 		"tr_explain": "在使用後<yellow>15分內<c>\n<yellow>提升200%<c>稀有道具掉落率。\n<yellow>※下線時也會減少效果時間<c>"
+	},
+	{
+		"assign": "32010336",
+		"jp_text": "オータム'22Ｓポイント＋50%",
+		"tr_text": "秋季'22季節點數+50%",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>50%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※オータム'22イベント期間限定<c>",
+		"tr_explain": "在使用後<yellow>60分內<c>，<yellow>提升50%<c>\n擊敗敵人時獲得的季節點數。\n<yellow>※下線時也會減少效果時間<c>\n<yellow>※秋季'22活動期間限定<c>"
+	},
+	{
+		"assign": "32010337",
+		"jp_text": "オータム'22Ｓポイント＋100%",
+		"tr_text": "秋季'22季節點數+100%",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>100%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※オータム'22イベント期間限定<c>",
+		"tr_explain": "在使用後<yellow>60分內<c>，<yellow>提升100%<c>\n擊敗敵人時獲得的季節點數。\n<yellow>※下線時也會減少效果時間<c>\n<yellow>※秋季'22活動期間限定<c>"
+	},
+	{
+		"assign": "32010338",
+		"jp_text": "オータム'22Ｓポイント＋200%",
+		"tr_text": "秋季'22季節點數+200%",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>200%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※オータム'22イベント期間限定<c>",
+		"tr_explain": "在使用後<yellow>60分內<c>，<yellow>提升200%<c>\n擊敗敵人時獲得的季節點數。\n<yellow>※下線時也會減少效果時間<c>\n<yellow>※秋季'22活動期間限定<c>"
+	},
+	{
+		"assign": "32010339",
+		"jp_text": "ダークファルスパフェ",
+		"tr_text": "黑暗法爾斯芭菲",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>10%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": "在使用後<yellow>24小時內<c>\n<yellow>提升10%<c>獲得N-美賽達、獲得經驗值、\n稀有道具掉落率。\n<yellow>※下線時也會減少效果時間<c>"
 	}
 ]

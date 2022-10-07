@@ -20520,6 +20520,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "acceptbox_all_select_button_title",
+		"jp_text": "一括選択(ページ内)",
+		"tr_text": ""
+	},
+	{
 		"assign": "acceptbox_sale_selected_count",
 		"jp_text": "売却数  <%num><color=#68a0a7>/</color><%max>",
 		"tr_text": ""
@@ -25426,12 +25431,32 @@
 	},
 	{
 		"assign": "assist_chip_guide_message",
-		"jp_text": "<color=#f0df60>フレンドを助けるアシストチップの設定を行うことができます。未設定の場合は、選択中の装備パレットのＳＰスロットに装備されたチップがアシストチップとして使用されます。</color>",
+		"jp_text": "<color=#f0df60>フレンドを助けるアシストチップの設定を行うことができます。アシストチップが未設定の場合は、選択中の装備パレットの武器とＳＰスロットに装備されたチップがフレンドアシストとして使用されます。</color>",
 		"tr_text": ""
 	},
 	{
 		"assign": "palette_equip_assist_chip_button",
 		"jp_text": "アシスト設定",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_item_rate_dialog_title",
+		"jp_text": "アイテム排出確率",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_item_rate_dialog_message",
+		"jp_text": "※アイテムごとに個別に表示している提供割合は表示上小数点第4位以下を切り捨てているため、\n　　全て合算しても100%にならない場合がございます。\n※表示はアイテム投入全数時における提供割合となります。そのため提供割合1%のアイテムが100回中1回、\n　　必ず排出される仕組みではございません。\n※ACスクラッチから排出されるアイテムは、『NGS』で使用することができます。\n※各アイテムの詳細情報につきましては、『NGS』内でご確認いただけます。",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_item_rate_dialog_rate",
+		"jp_text": "{0}  {1}％",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_item_rate_button",
+		"jp_text": "確率表示",
 		"tr_text": ""
 	}
 ]
