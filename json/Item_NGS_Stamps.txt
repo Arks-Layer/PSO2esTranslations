@@ -1,26 +1,5 @@
 [
 	{
-		"jp_text": "St「アッシュ：チェンジ」",
-		"tr_text": "St \"Ash: Change\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「ラッピー：好き」",
-		"tr_text": "St \"Rappy: Love\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「サリサ：こんにちは」",
-		"tr_text": "St \"Sarisa: Greetings\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
 		"jp_text": "St「アイナ：喜ぶ」",
 		"tr_text": "St \"Aina: Glad\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
@@ -35,15 +14,15 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "St「ブルーダー：確認」",
-		"tr_text": "St \"Bruder: Confirm\"",
+		"jp_text": "St「ガロア：怒る」",
+		"tr_text": "St \"Garoa: Angry\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
 	},
 	{
-		"jp_text": "St「ガロア：怒る」",
-		"tr_text": "St \"Garoa: Angry\"",
+		"jp_text": "St「ブルーダー：確認」",
+		"tr_text": "St \"Bruder: Confirm\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
@@ -56,6 +35,34 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "St「ムーニィ＆サニィ：ハート」",
+		"tr_text": "St \"Moony & Sunny: Heart\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「アッシュ：チェンジ」",
+		"tr_text": "St \"Ash: Change\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「サリサ：こんにちは」",
+		"tr_text": "St \"Sarisa: Greetings\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ルピカ：カメラポーズ」",
+		"tr_text": "St \"Rupika: Camera Pose\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
 		"jp_text": "St「マトイ：来て」",
 		"tr_text": "St \"Matoi: Come Here\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
@@ -63,22 +70,57 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "St「ラッピー：歌う１」",
+		"jp_text": "St「ジェネ：行こう」",
+		"tr_text": "St \"Gene: Let's Go\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ステラ：おやすみ」",
+		"tr_text": "St \"Stella: Goodnight\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「リコ：見て」",
+		"tr_text": "St \"Rico: Look\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ラッピー：好き」",
+		"tr_text": "St \"Rappy: Love\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「エミリア：称賛」",
+		"tr_text": "St \"Emilia: Praise\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ルティナ：称賛」",
+		"tr_text": "St \"Lutina: Praise\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「A.I.S：交戦」",
+		"tr_text": "St \"A.I.S.: Engage\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ラッピー：歌う1」",
 		"tr_text": "St \"Rappy: Sing 1\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「ムーニィ＆サニィ：ハート」",
-		"tr_text": "St \"Munny & Sunny: Heart\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「ルピカ：カメラポーズ」",
-		"tr_text": "St \"Rupika: Cam Pose\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
@@ -91,8 +133,36 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "St「リコ：見て」",
-		"tr_text": "St \"Rico: Look\"",
+		"jp_text": "St「待って」",
+		"tr_text": "St \"Wait\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「援護する」",
+		"tr_text": "St \"Support\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「かかってこい」",
+		"tr_text": "St \"Bring It On\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「見つめる」",
+		"tr_text": "St \"Stare\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ラッピー&ムーニィ：お月見」",
+		"tr_text": "St \"Rappy & Moony: Otsukimi\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
@@ -119,8 +189,8 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "St「エミリア：称賛」",
-		"tr_text": "St \"Emilia: Praise\"",
+		"jp_text": "St「ソニック：Good！」",
+		"tr_text": "St \"Sonic: Good!\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
@@ -133,8 +203,8 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "St「ソニック＆テイルス：やった！」",
-		"tr_text": "St \"Sonic & Tails: Yay!\"",
+		"jp_text": "St「エミー：こんにちは」",
+		"tr_text": "St \"Amy: Hello\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
@@ -147,8 +217,8 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "St「ソニック：Good！」",
-		"tr_text": "St \"Sonic: Good!\"",
+		"jp_text": "St「ソニック＆テイルス：やった！」",
+		"tr_text": "St \"Sonic & Tails: Yay!\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
@@ -161,106 +231,22 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "St「エミー：こんにちは」",
-		"tr_text": "St \"Amy: Hello\"",
+		"jp_text": "St「ラッピー：ハロウィン」",
+		"tr_text": "St \"Rappy: Halloween\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
 	},
 	{
-		"jp_text": "St「ラッピー＆ムーニィ：お月見」",
-		"tr_text": "St \"Rappy & Moony: Moongazing\"",
+		"jp_text": "St「テイムズ：おいで」",
+		"tr_text": "St \"Tames: Come Here\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
 	},
 	{
-		"jp_text": "St「ナーデレフ：願う」",
-		"tr_text": "St \"Nadereh: Pray\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「ハーディ：ひらめく」",
-		"tr_text": "St \"Hadi: Epiphany\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「ムーニィ＆サニィ：お花見」",
-		"tr_text": "St \"Munny & Sunny: Hanami\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「エテルナ：エステの時間」",
-		"tr_text": "St \"Eterna: Salon Time\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「教導官：レベルアップ」",
-		"tr_text": "St \"Instructor: Level Up\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「ＥＤＷＩＮ×ＮＧＳ」",
-		"tr_text": "St \"EDWIN x NGS\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「いか天ふりかけ焼そばロゴ」",
-		"tr_text": "St \"Squid Ten Yakisoba Logo\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「リッス＆ムーラ：以心伝心」",
-		"tr_text": "St \"Lize & Mura: Sympathy\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「ジャリル＆モフセン：腕組み」",
-		"tr_text": "St \"Jalil & Mohsen: Arms Folded\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「ナーデレフ：歌う」",
-		"tr_text": "St \"Nadereh: Sing\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「SOS」",
-		"tr_text": "St \"SOS\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「今行く」",
-		"tr_text": "St \"Heading There\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「A.I.S：交戦」",
-		"tr_text": "St \"A.I.S.: Engaging\"",
+		"jp_text": "St「ナーデレフ：行こう」",
+		"tr_text": "St \"Nadereh: Let's Go\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
@@ -280,6 +266,188 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "St「問題ない」",
+		"tr_text": "St \"No Problem\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ごめんなさい」",
+		"tr_text": "St \"Sorry\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ダメ」",
+		"tr_text": "St \"No Way\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「オッケー」",
+		"tr_text": "St \"Okay\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ナーデレフ：歌う」",
+		"tr_text": "St \"Nadereh: Sing\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ハーディ：ひらめく」",
+		"tr_text": "St \"Hadi: Epiphany\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ラッピー：雪だるま」",
+		"tr_text": "St \"Rappy: Snowman\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ナーデレフ：願う」",
+		"tr_text": "St \"Nadereh: Pray\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「今行く」",
+		"tr_text": "St \"Heading There\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「SOS」",
+		"tr_text": "St \"SOS\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「いか天ふりかけ焼きそばロゴ」",
+		"tr_text": "St \"Ikaten Furikake Yakisoba Logo\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「みたらし：クエストクリア」",
+		"tr_text": "St \"Mitarashi: Quest Clear\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「みたらし：緊急だよ！」",
+		"tr_text": "St \"Mitarashi: Emergency!\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「みたらし：草」",
+		"tr_text": "St \"Mitarashi: Lololol\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「テトラ：メセタ無い！」",
+		"tr_text": "St \"Tetra: No Meseta!\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「テトラ：床ペロ」",
+		"tr_text": "St \"Tetra: Eating Floor\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「§イチカ§：きいてくれちゃうか」",
+		"tr_text": "St \"§Ichika§: Would You Listen?!\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「§イチカ§：ゴゴゴ…」",
+		"tr_text": "St \"§Ichika§: Threatening...\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ゼクト：レアドロ」",
+		"tr_text": "St \"Zect: Rare Drop\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「牧野：ちょっといいですか」",
+		"tr_text": "St \"Makino: May I Have A Minute?\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「牧野：えっ」",
+		"tr_text": "St \"Makino: Huh?\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「みたらし＆テトラ：たのもーっ」",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「リアメイ：ねぇねぇ」",
+		"tr_text": "St \"Liu Mei: Hey!\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ロナルディン：なになに」",
+		"tr_text": "St \"Ronaldine: What?\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「教導官：フィニッシュ」",
+		"tr_text": "St \"Instructors: Finish\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ミイシャ：ショッピング」",
+		"tr_text": "St \"Misha: Shopping\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
 		"jp_text": "St「ロッサ：よくやった」",
 		"tr_text": "St \"Rossa: Great\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
@@ -294,8 +462,330 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "St「ドンキ×ＮＧＳ」",
-		"tr_text": "St \"Don Quixote x NGS\"",
+		"jp_text": "St「カプタン：出現」",
+		"tr_text": "St \"Captan: Appear\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ドンキ×NGS」",
+		"tr_text": "St \"Donki X NGS\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「まにまに：遅れるなよ」",
+		"tr_text": "St \"Manimani: Don't Be Late\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「まにまに：考える」",
+		"tr_text": "St \"Manimani: Thinking\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「まにまに：了解」",
+		"tr_text": "St \"Manimani: Understood\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「まにまに：ドヤ」",
+		"tr_text": "St \"Manimani: Smug\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「まにまに：かわいい」",
+		"tr_text": "St \"Manimani: So Cute!\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「まにまに：てれてれ」",
+		"tr_text": "St \"Manimani: Bashful\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「まにまに：はいはいはーい！」",
+		"tr_text": "St \"Manimani: Yes yes yes!\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「まにまに：とりかかれ！」",
+		"tr_text": "St \"Manimani: Get On WIth It!\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「まにまに：祝う」",
+		"tr_text": "St \"Manimani: Celebrate\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「まにまに：準備はいいか」",
+		"tr_text": "St \"Manimani: Are You Ready?\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ムーニィ＆サニィ：お花見」",
+		"tr_text": "St \"Moony & Sunny: Cherry Blossom\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ジャリル＆モフセン：腕組み」",
+		"tr_text": "St \"Jalil & Mohsen: Arms Folded\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「リッス＆ムーラ：以心伝心」",
+		"tr_text": "St \"Lize & Mura: Communion\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「教導官：レベルアップ」",
+		"tr_text": "St \"Instructors: Level Up\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「エテルナ：エステの時間」",
+		"tr_text": "St \"Eterna: Salon Time\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「EDWIN×NGS」",
+		"tr_text": "St \"EDWIN X NGS\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「受け継がれる笑顔」",
+		"tr_text": "St \"Inherited Smile\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「フワン：感謝」",
+		"tr_text": "St \"Fuwan: Gratitude\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「オタリカ：感謝」",
+		"tr_text": "St \"Otterica: Gratitude\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「セレモラッピー：祝う」",
+		"tr_text": "St \"Ceremo Rappy: Celebrate\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「アイナ＆ガロア：ありがとう」",
+		"tr_text": "St \"Aina & Garoa: Thank You\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「マノン：不満」",
+		"tr_text": "St \"Manon: Dissatisfied\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ごくらくごくらく」",
+		"tr_text": "St \"Sheer Bliss\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「グー」",
+		"tr_text": "St \"Rock\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「チョキ」",
+		"tr_text": "St \"Scissors\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「パー」",
+		"tr_text": "St \"Paper\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「こっちこっち！」",
+		"tr_text": "St \"Over Here!\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「アイナ：もぐもぐ」",
+		"tr_text": "St \"Aina: Mouth Full\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ご満悦」",
+		"tr_text": "St \"Satisfaction\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「リバーサーサインなし」",
+		"tr_text": "St \"No Reverser Signs\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「理解できなかった」",
+		"tr_text": "St \"Don't Understand\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ラッピー：絶望の叫び」",
+		"tr_text": "St \"Rappy: Cry of Despair\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ドッツ：狙い撃て！」",
+		"tr_text": "St \"Dotts: Aim and Fire!\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「駆逐せよ!」",
+		"tr_text": "St \"Exterminate!\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「アッシュ：燃え上がる」",
+		"tr_text": "St \"Ash: Blazing\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「リサ：凝視」",
+		"tr_text": "St \"Lisa: Stare\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「アイナ：おー！」",
+		"tr_text": "St \"Aina: Oh!\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「五つ子：応援」",
+		"tr_text": "St \"Quintuplets: Encouragement\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「フローティングボード」",
+		"tr_text": "St \"Floating Board\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「投擲」",
+		"tr_text": "St \"Throw\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「もう1回」",
+		"tr_text": "St \"One More\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ナイス！」",
+		"tr_text": "St \"Nice!\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「セレモ・エンペラッピー：10周年」",
+		"tr_text": "St \"Ceremo Emperappy: 10th Anniversary\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「『NGS』ヒロインズ：祝う」",
+		"tr_text": "St \"NGS Heroines: Celebrate\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「『PSO2』ヒロインズ：祝う」",
+		"tr_text": "St \"PSO2 Heroines: Celebrate\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
@@ -308,8 +798,43 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "St「アイナ：波に乗ろう！」",
-		"tr_text": "St \"Aina: Ride the Wave!\"",
+		"jp_text": "St「【仮面】：泣くな笑え」",
+		"tr_text": "St \"[Persona]: Don't Cry, Smile\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「マトイ：ただいま」",
+		"tr_text": "St \"Matoi: I'm Here\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ブルーダー：BREAK!」",
+		"tr_text": "St \"Bruder: BREAK!\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「アイナ：はじめまして」",
+		"tr_text": "St \"Aina: Nice to Meet You\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「マノン：パーティー募集中」",
+		"tr_text": "St \"Manon: Looking for Party\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「クロフォード：フレンド募集中」",
+		"tr_text": "St \"Crawford: Friend Request\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
@@ -317,6 +842,160 @@
 	{
 		"jp_text": "St「ラン：ティータイム」",
 		"tr_text": "St \"Ran: Tea Time\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ルピカ：冒険しよう」",
+		"tr_text": "St \"Rupika: Let's Go On An Adventure\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「クーナ：流れに乗る」",
+		"tr_text": "St \"Quna: Go With The Flow\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「イオ：確信」",
+		"tr_text": "St \"Io: Confidence\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「イオ：おはよう」",
+		"tr_text": "St \"Io: Good Morning\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「エコー：自信あり」",
+		"tr_text": "St \"Echo: Confident\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「カトリ：ごきげんよう」",
+		"tr_text": "St \"Katori: How Do You Do\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「アッシュ：戦闘不能」",
+		"tr_text": "St \"Ash: Unable to Fight\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「エンガ：頼む」",
+		"tr_text": "St \"Enga: Request\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「マトイ：おめでとう」",
+		"tr_text": "St \"Matoi: Congrats\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「マトイ：元気？」",
+		"tr_text": "St \"Matoi: Alright?\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ラッピー：ご機嫌」",
+		"tr_text": "St \"Rappy: Good Mood\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ラッピー：逃げる2」",
+		"tr_text": "St \"Raopy: Run Away 2\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「パティ＆ティア：おめでとう」",
+		"tr_text": "St \"Patty & Tia: Congrats\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「シオン：感謝」",
+		"tr_text": "St \"Xion: Gratitude\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「【巨躯】：面白いぞ」",
+		"tr_text": "St \"[Elder]: Interesting\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「【敗者】：愚かしい」",
+		"tr_text": "St \"[Loser]: Foolish\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「深遠なる闇：登場」",
+		"tr_text": "St \"[Profound Darkness]: Appear\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「エンペ・ラッピー：すりすり」",
+		"tr_text": "St \"Emperappy: Snuggle\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「やれやれ」",
+		"tr_text": "St \"Good Grief\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「行くぞ！」",
+		"tr_text": "St \"Let's Go!\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「照れる」",
+		"tr_text": "St \"Shy\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「応援」",
+		"tr_text": "St \"Encouragement\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
@@ -330,7 +1009,35 @@
 	},
 	{
 		"jp_text": "St「トゥーリ：ため息」",
-		"tr_text": "St \"Tuuli: Sigh\"",
+		"tr_text": "St \"Tulli: Sigh\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「サニィ：グッド」",
+		"tr_text": "St \"Sunny: Good\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ダークファルス：襲来」",
+		"tr_text": "St \"Dark Falz: Invasion\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ソラカラちゃん」",
+		"tr_text": "St \"Sorakara-chan\"",
+		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
+		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
+		"assign": 0
+	},
+	{
+		"jp_text": "St「ポポナ：ポッポー♪」",
+		"tr_text": "St \"Popona: Poppo♪\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
@@ -365,77 +1072,49 @@
 	},
 	{
 		"jp_text": "St「翡翠＆琥珀：勝利ポーズ」",
-		"tr_text": "St \"Hisui & Kohaku: Win Pose\"",
+		"tr_text": "St \"Hisui & Kohaku: Victory Pose\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
 	},
 	{
 		"jp_text": "St「軋間紅摩：勝利ポーズ」",
-		"tr_text": "St \"Kouma Kishima: Win Pose\"",
+		"tr_text": "St \"Kouma Kishima: Victory Pose\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
 	},
 	{
 		"jp_text": "St「有間都古：勝利ポーズ」",
-		"tr_text": "St \"Miyako Arima: Win Pose\"",
+		"tr_text": "St \"Miyako Arima: Victory Pose\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
 	},
 	{
-		"jp_text": "St「ダークファルス: 襲来」",
-		"tr_text": "St \"Dark Falz: Invasion\"",
+		"jp_text": "St「クロフォード：てぇーっ」",
+		"tr_text": "St \"Crawford: Woah\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
 	},
 	{
-		"jp_text": "St「ソラカラちゃん」",
-		"tr_text": "St \"Sorakara-chan\"",
+		"jp_text": "St「ギガンティクス：絶望」",
+		"tr_text": "St \"Gigantix: Despair\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
 	},
 	{
-		"jp_text": "St「サニィ：グッド」",
-		"tr_text": "St \"Sunny: Good\"",
+		"jp_text": "St「よろしく」",
+		"tr_text": "St \"Nice To Meet You\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
 	},
 	{
-		"jp_text": "St「照れる」",
-		"tr_text": "St \"Shy\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「ラッピー：ハロウィン」",
-		"tr_text": "St \"Rappy: Halloween\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「リサ：凝視」",
-		"tr_text": "St \"Lisa: Stare\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「パティ＆ティア：おめでとう」",
-		"tr_text": "St \"Patty & Tia: Congrats\"",
-		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
-		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
-		"assign": 0
-	},
-	{
-		"jp_text": "St「【巨躯】：面白いぞ」",
-		"tr_text": "St \"[Elder]: Interesting\"",
+		"jp_text": "St「つかれた」",
+		"tr_text": "St \"Tired\"",
 		"jp_explain": "使用すると新しいスタンプが\n全キャラクターで選択可能になる。",
 		"tr_explain": "A stamp that unlocks for all\ncharacters on your account.",
 		"assign": 0
