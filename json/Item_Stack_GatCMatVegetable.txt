@@ -238,6 +238,34 @@
 		"tr_explain": "Vegetable Gathered in Kvaris.\nBoosts damage resistance, HP\nrecovery and cold resistance."
 	},
 	{
+		"assign": "353010014",
+		"jp_text": "ガッツ・スティラナッパー",
+		"tr_text": "",
+		"jp_explain": "スティアで採取可能な野菜。\nダメージ耐性／\nHP回復量増加",
+		"tr_explain": ""
+	},
+	{
+		"assign": "353010015",
+		"jp_text": "マッタ・スティラハーヴ",
+		"tr_text": "",
+		"jp_explain": "スティアで採取可能な野菜。\nダメージ耐性／\nPP消費量軽減",
+		"tr_explain": ""
+	},
+	{
+		"assign": "353010016",
+		"jp_text": "シャッキ・スティラキャリブラ",
+		"tr_text": "",
+		"jp_explain": "スティアで採取可能な野菜。\nダメージ耐性／\n弱点部位ダメージ増加",
+		"tr_explain": ""
+	},
+	{
+		"assign": "353010017",
+		"jp_text": "サッパ・スティラトマーテ",
+		"tr_text": "",
+		"jp_explain": "スティアで採取可能な野菜。\nダメージ耐性／\nPP回復量増加",
+		"tr_explain": ""
+	},
+	{
 		"assign": "353010102",
 		"jp_text": "アウトゥムヴァンプキン",
 		"tr_text": "Autumn Vampkin",
@@ -257,5 +285,12 @@
 		"tr_text": "Annivartichoke",
 		"jp_explain": "エアリオやリテムで採取可能な野菜。\nダメージ耐性／\nHP回復量増加",
 		"tr_explain": "Vegetable Gathered in Retem/Aelio.\nBoosts damage resistance and\nboosts HP recovery."
+	},
+	{
+		"assign": "353010105",
+		"jp_text": "フェイ・スティラマシュル",
+		"tr_text": "",
+		"jp_explain": "スティアで採取可能な希少な野菜。\n特定の場所でアイテムと交換できる。\n<yellow>※クィックフード効果は\n　シャッキ・スティラキャリブラと同一<c>",
+		"tr_explain": ""
 	}
 ]
