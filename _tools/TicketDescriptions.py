@@ -59,7 +59,7 @@ layer_desc_formats = [("Unlocks the new {itype}\n"
                       ("Разблокирует новую\n"
                        "{itype}\n"
                        "\"{iname}\"."),
-                      ("使用後可選用新的{itype} \n"
+                      ("使用後可選用新的{itype}\n"
                        "{iname}。")]
 
 layer_sex_locks = {"n": ["", "", "", ""],
