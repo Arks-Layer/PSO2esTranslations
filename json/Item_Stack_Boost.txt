@@ -3491,5 +3491,40 @@
 		"tr_text": "黑暗法爾斯芭菲",
 		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>10%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
 		"tr_explain": "在使用後<yellow>24小時內<c>\n<yellow>提升10%<c>獲得N-美賽達、獲得經驗值、\n稀有道具掉落率。\n<yellow>※下線時也會減少效果時間<c>"
+	},
+	{
+		"assign": "32010342",
+		"jp_text": "N-EX獲得経験値[15m]＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>15分間<c>\n獲得経験値が<yellow>50%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010346",
+		"jp_text": "N-EXレアドロップ倍率[15m]＋25%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>15分間<c>\nレアドロップ倍率が<yellow>25%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010350",
+		"jp_text": "ウィンター'22-'23Ｓポイント＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>50%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※クリスマス'22～ウィンター'23限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010351",
+		"jp_text": "ウィンター'22-'23Ｓポイント＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>100%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※クリスマス'22～ウィンター'23限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010352",
+		"jp_text": "ウィンター'22-'23Ｓポイント＋200%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>200%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※クリスマス'22～ウィンター'23限定<c>",
+		"tr_explain": ""
 	}
 ]
