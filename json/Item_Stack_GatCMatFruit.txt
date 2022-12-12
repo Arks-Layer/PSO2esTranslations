@@ -140,10 +140,45 @@
 		"tr_explain": "Rare Fruit Gathered in Kvaris.\nCan be traded for items.\n<yellow>When used in Quick Food, has same\neffect as Nourishing Kvaris Ackee<c>"
 	},
 	{
+		"assign": "354010015",
+		"jp_text": "マッタ・スティラバナン",
+		"tr_text": "Nourishing Stia Banana",
+		"jp_explain": "スティアで採取可能な果物。\nPP増加／\nPP消費量軽減",
+		"tr_explain": "Fruit Gathered in Stia.\nBoosts PP and\nreduces PP consumption."
+	},
+	{
+		"assign": "354010016",
+		"jp_text": "サッパ・スティラアッポウ",
+		"tr_text": "Refreshing Stia Apple",
+		"jp_explain": "スティアで採取可能な果物。\nPP増加／\nPP回復量増加",
+		"tr_explain": "Fruit Gathered in Stia.\nBoosts PP and\nboosts PP recovery."
+	},
+	{
+		"assign": "354010017",
+		"jp_text": "シャッキ・スティラマルゴー",
+		"tr_text": "Sharp Stia Mango",
+		"jp_explain": "スティアで採取可能な果物。\nPP増加／\n弱点部位ダメージ増加",
+		"tr_explain": "Fruit Gathered in Stia.\nBoosts PP and\nboosts weakness damage."
+	},
+	{
+		"assign": "354010018",
+		"jp_text": "ガッツ・スティラプラーム",
+		"tr_text": "Healthy Stia Plum",
+		"jp_explain": "スティアで採取可能な果物。\nPP増加／\nHP回復量増加",
+		"tr_explain": "Fruit Gathered in Stia.\nBoosts PP and\nboosts HP recovery."
+	},
+	{
 		"assign": "354010102",
 		"jp_text": "スプリグバルーニィ",
 		"tr_text": "Sprig Ballooni",
 		"jp_explain": "エアリオやリテムで採取可能な果物。\nPP増加／\nPP回復量増加",
 		"tr_explain": "Fruit Gathered in Aelio & Retem.\nBoosts PP and\nboosts PP recovery."
+	},
+	{
+		"assign": "354010019",
+		"jp_text": "フェイ・スティラスターツ",
+		"tr_text": "Famed Stia Star Fruit",
+		"jp_explain": "スティアで採取可能な希少な果物。\n特定の場所でアイテムと交換できる。\n<yellow>※クイックフードの効果は\n　サッパ・スティラアッポウと同一<c>",
+		"tr_explain": "Rare Fruit Gathered in Stia.\nCan be traded for items.\n<yellow>When used in Quick Food, has same\neffect as Refreshing Stia Apple<c>"
 	}
 ]
