@@ -1530,7 +1530,7 @@
 		"jp_text": "エヴォルコートワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之鍍層自在槍”<c>\n"
+		"tr_explain": "<green>“進化鍍層自在槍”<c>\n"
 	},
 	{
 		"assign": "12010018",
@@ -1600,7 +1600,7 @@
 		"jp_text": "コルディークワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“源碼織解自在槍”<c>\n"
+		"tr_explain": "<green>“編解碼自在槍”<c>\n"
 	},
 	{
 		"assign": "12010028",
@@ -1608,6 +1608,13 @@
 		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": "<green>“光輝自在槍”<c>\n"
+	},
+	{
+		"assign": "12010029",
+		"jp_text": "プリムワイヤー・リブラ",
+		"tr_text": "初式自在槍·天秤",
+		"jp_explain": "",
+		"tr_explain": ""
 	},
 	{
 		"assign": "12010030",
@@ -1628,7 +1635,7 @@
 		"jp_text": "エヴォルオーヴァワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之軌道自在槍”<c>\n"
+		"tr_explain": "<green>“進化軌道自在槍”<c>\n"
 	},
 	{
 		"assign": "12010033",
@@ -1638,6 +1645,13 @@
 		"tr_explain": "<green>“水晶石自在槍”<c>\n"
 	},
 	{
+		"assign": "12010034",
+		"jp_text": "セイガヨウワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陽自在槍”<c>\n"
+	},
+	{
 		"assign": "12010036",
 		"jp_text": "レネッサワイヤー",
 		"tr_text": "復興自在槍",
@@ -1645,9 +1659,23 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "12010037",
+		"jp_text": "ガンブレイズワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“槍火自在槍”<c>\n"
+	},
+	{
 		"assign": "12010038",
 		"jp_text": "エヴォルイクリスワイヤー",
-		"tr_text": "升之侵蝕自在槍",
+		"tr_text": "進化侵蝕自在槍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010039",
+		"jp_text": "ククロフィスワイヤー",
+		"tr_text": "傀偶自在槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1664,5 +1692,12 @@
 		"tr_text": "凱撒自在槍試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "12010046",
+		"jp_text": "セイガインワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陰自在槍”<c>\n"
 	}
 ]

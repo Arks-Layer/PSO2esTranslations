@@ -59,7 +59,7 @@ layer_desc_formats = [("Unlocks the new {itype}\n"
                       ("Разблокирует новую\n"
                        "{itype}\n"
                        "\"{iname}\"."),
-                      ("使用後可選用新的{itype} \n"
+                      ("使用後可選用新的{itype}\n"
                        "{iname}。")]
 
 layer_sex_locks = {"n": ["", "", "", ""],
@@ -819,6 +819,8 @@ cv_names = {
     "白上 フブキ": ["Shirakami Fubuki", "", "", ""],
     "影山 シエン": ["Kageyama Shien", "", "", ""],
     "一 伊那尓栖": ["Ninomae Ina'nis", "", "", ""],
+    "日野 聡": ["Satoshi Hino", "", "", ""],
+    "原 由実": ["Yumi Hara", "", "", ""],
     "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O", "M・A・O", "M・A・O", ""],
     "？？？": ["???", "???", "???", "???"],
     "": ["Unknown", "알 수 없는", "Неизвестно", ""]

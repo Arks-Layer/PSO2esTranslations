@@ -1824,7 +1824,7 @@
 		"jp_text": "エヴォルコートロッド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之鍍層長杖”<c>\n"
+		"tr_explain": "<green>“進化鍍層長杖”<c>\n"
 	},
 	{
 		"assign": "111010023",
@@ -1894,7 +1894,7 @@
 		"jp_text": "コルディークロッド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“源碼織解長杖”<c>\n"
+		"tr_explain": "<green>“編解碼長杖”<c>\n"
 	},
 	{
 		"assign": "111010029",
@@ -1909,6 +1909,13 @@
 		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": "<green>“冰霜長杖”<c>\n"
+	},
+	{
+		"assign": "111010039",
+		"jp_text": "プリムロッド・リブラ",
+		"tr_text": "初式長杖·天秤",
+		"jp_explain": "",
+		"tr_explain": ""
 	},
 	{
 		"assign": "111010040",
@@ -1929,7 +1936,7 @@
 		"jp_text": "エヴォルオーヴァロッド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之軌道長杖”<c>\n"
+		"tr_explain": "<green>“進化軌道長杖”<c>\n"
 	},
 	{
 		"assign": "111010043",
@@ -1939,6 +1946,13 @@
 		"tr_explain": "<green>“水晶石長杖”<c>\n"
 	},
 	{
+		"assign": "111010045",
+		"jp_text": "セイガヨウロッド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陽長杖”<c>\n"
+	},
+	{
 		"assign": "111010047",
 		"jp_text": "レネッサロッド",
 		"tr_text": "復興長杖",
@@ -1946,9 +1960,23 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "111010048",
+		"jp_text": "ガンブレイズロッド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“槍火長杖”<c>\n"
+	},
+	{
 		"assign": "111010049",
 		"jp_text": "エヴォルイクリスロッド",
-		"tr_text": "升之侵蝕長杖",
+		"tr_text": "進化侵蝕長杖",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010051",
+		"jp_text": "ククロフィスロッド",
+		"tr_text": "傀偶長杖",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1965,5 +1993,12 @@
 		"tr_text": "凱撒長杖試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "111010060",
+		"jp_text": "セイガインロッド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陰長杖”<c>\n"
 	}
 ]

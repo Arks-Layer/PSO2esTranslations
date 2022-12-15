@@ -1509,7 +1509,7 @@
 		"jp_text": "ヴィアルトセイバー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“四之前程雙頭劍”<c>\n"
+		"tr_explain": "<green>“四之前路雙頭劍”<c>\n"
 	},
 	{
 		"assign": "15010008",
@@ -1558,7 +1558,7 @@
 		"jp_text": "エヴォルコートセイバー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之鍍層雙頭劍”<c>\n"
+		"tr_explain": "<green>“進化鍍層雙頭劍”<c>\n"
 	},
 	{
 		"assign": "15010019",
@@ -1628,7 +1628,7 @@
 		"jp_text": "コルディークセイバー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“源碼織解雙頭劍”<c>\n"
+		"tr_explain": "<green>“編解碼雙頭劍”<c>\n"
 	},
 	{
 		"assign": "15010022",
@@ -1643,6 +1643,13 @@
 		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": "<green>“光輝雙頭劍”<c>\n"
+	},
+	{
+		"assign": "15010033",
+		"jp_text": "プリムセイバー・リブラ",
+		"tr_text": "初式雙頭劍·天秤",
+		"jp_explain": "",
+		"tr_explain": ""
 	},
 	{
 		"assign": "15010034",
@@ -1663,7 +1670,7 @@
 		"jp_text": "エヴォルオーヴァセイバー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之軌道雙頭劍”<c>\n"
+		"tr_explain": "<green>“進化軌道雙頭劍”<c>\n"
 	},
 	{
 		"assign": "15010037",
@@ -1673,6 +1680,13 @@
 		"tr_explain": "<green>“水晶石雙頭劍”<c>\n"
 	},
 	{
+		"assign": "15010038",
+		"jp_text": "セイガヨウセイバー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陽雙頭劍”<c>\n"
+	},
+	{
 		"assign": "15010040",
 		"jp_text": "レネッサセイバー",
 		"tr_text": "復興雙頭劍",
@@ -1680,9 +1694,16 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "15010041",
+		"jp_text": "ガンブレイズセイバー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“槍火雙頭劍”<c>\n"
+	},
+	{
 		"assign": "15010042",
 		"jp_text": "エヴォルイクリスセイバー",
-		"tr_text": "升之侵蝕雙頭劍",
+		"tr_text": "進化侵蝕雙頭劍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1690,6 +1711,13 @@
 		"assign": "15010043",
 		"jp_text": "￥カムロイセイバー",
 		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "15010044",
+		"jp_text": "ククロフィスセイバー",
+		"tr_text": "傀偶雙頭劍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1706,5 +1734,12 @@
 		"tr_text": "凱撒雙頭劍試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "15010052",
+		"jp_text": "セイガインセイバー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陰雙頭劍”<c>\n"
 	}
 ]

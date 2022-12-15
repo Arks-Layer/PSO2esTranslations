@@ -1572,7 +1572,7 @@
 		"jp_text": "ヴィアルトランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“四之前程大炮”<c>\n"
+		"tr_explain": "<green>“四之前路大炮”<c>\n"
 	},
 	{
 		"assign": "19010010",
@@ -1614,7 +1614,7 @@
 		"jp_text": "エヴォルコートランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之鍍層大炮”<c>\n"
+		"tr_explain": "<green>“進化鍍層大炮”<c>\n"
 	},
 	{
 		"assign": "19010020",
@@ -1684,7 +1684,7 @@
 		"jp_text": "コルディークランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“源碼織解大炮”<c>\n"
+		"tr_explain": "<green>“編解碼大炮”<c>\n"
 	},
 	{
 		"assign": "19010023",
@@ -1699,6 +1699,13 @@
 		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": "<green>“風暴大炮”<c>\n"
+	},
+	{
+		"assign": "19010033",
+		"jp_text": "プリムランチャー・リブラ",
+		"tr_text": "初式大炮·天秤",
+		"jp_explain": "",
+		"tr_explain": ""
 	},
 	{
 		"assign": "19010034",
@@ -1719,7 +1726,7 @@
 		"jp_text": "エヴォルオーヴァランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之軌道大炮”<c>\n"
+		"tr_explain": "<green>“進化軌道大炮”<c>\n"
 	},
 	{
 		"assign": "19010038",
@@ -1729,6 +1736,13 @@
 		"tr_explain": "<green>“水晶石大炮”<c>\n"
 	},
 	{
+		"assign": "19010040",
+		"jp_text": "セイガヨウランチャー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陽大炮”<c>\n"
+	},
+	{
 		"assign": "19010042",
 		"jp_text": "レネッサランチャー",
 		"tr_text": "復興大炮",
@@ -1736,9 +1750,23 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "19010043",
+		"jp_text": "ガンブレイズランチャー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“槍火大炮”<c>\n"
+	},
+	{
 		"assign": "19010044",
 		"jp_text": "エヴォルイクリスランチャー",
-		"tr_text": "升之侵蝕大炮",
+		"tr_text": "進化侵蝕大炮",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010045",
+		"jp_text": "ククロフィスランチャー",
+		"tr_text": "傀偶大炮",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1755,5 +1783,12 @@
 		"tr_text": "凱撒大炮試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "19010051",
+		"jp_text": "セイガインランチャー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陰大炮”<c>\n"
 	}
 ]

@@ -1432,7 +1432,7 @@
 		"jp_text": "ヴィアルトボウ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“四之前程強弓”<c>\n"
+		"tr_explain": "<green>“四之前路強弓”<c>\n"
 	},
 	{
 		"assign": "115010011",
@@ -1460,7 +1460,7 @@
 		"jp_text": "エヴォルコートボウ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之鍍層強弓”<c>\n"
+		"tr_explain": "<green>“進化鍍層強弓”<c>\n"
 	},
 	{
 		"assign": "115010031",
@@ -1544,7 +1544,14 @@
 		"jp_text": "コルディークボウ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“源碼織解強弓”<c>\n"
+		"tr_explain": "<green>“編解碼強弓”<c>\n"
+	},
+	{
+		"assign": "115010032",
+		"jp_text": "プリムボウ・リブラ",
+		"tr_text": "初式強弓·天秤",
+		"jp_explain": "",
+		"tr_explain": ""
 	},
 	{
 		"assign": "115010033",
@@ -1565,7 +1572,7 @@
 		"jp_text": "エヴォルオーヴァボウ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之軌道強弓”<c>\n"
+		"tr_explain": "<green>“進化軌道強弓”<c>\n"
 	},
 	{
 		"assign": "115010037",
@@ -1575,6 +1582,13 @@
 		"tr_explain": "<green>“水晶石強弓”<c>\n"
 	},
 	{
+		"assign": "115010039",
+		"jp_text": "セイガヨウボウ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陽強弓”<c>\n"
+	},
+	{
 		"assign": "115010041",
 		"jp_text": "レネッサボウ",
 		"tr_text": "復興強弓",
@@ -1582,9 +1596,23 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "115010042",
+		"jp_text": "ガンブレイズボウ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“槍火強弓”<c>\n"
+	},
+	{
 		"assign": "115010043",
 		"jp_text": "エヴォルイクリスボウ",
-		"tr_text": "升之侵蝕強弓",
+		"tr_text": "進化侵蝕強弓",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010044",
+		"jp_text": "ククロフィスボウ",
+		"tr_text": "傀偶強弓",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1601,5 +1629,12 @@
 		"tr_text": "凱撒強弓試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "115010050",
+		"jp_text": "セイガインボウ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陰強弓”<c>\n"
 	}
 ]

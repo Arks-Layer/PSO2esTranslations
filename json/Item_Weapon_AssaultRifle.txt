@@ -1712,7 +1712,7 @@
 		"jp_text": "エヴォルコートライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之鍍層步槍”<c>\n"
+		"tr_explain": "<green>“進化鍍層步槍”<c>\n"
 	},
 	{
 		"assign": "18010034",
@@ -1796,7 +1796,14 @@
 		"jp_text": "コルディークライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“源碼織解步槍”<c>\n"
+		"tr_explain": "<green>“編解碼步槍”<c>\n"
+	},
+	{
+		"assign": "18010036",
+		"jp_text": "プリムライフル・リブラ",
+		"tr_text": "初式步槍·天秤",
+		"jp_explain": "",
+		"tr_explain": ""
 	},
 	{
 		"assign": "18010037",
@@ -1817,7 +1824,7 @@
 		"jp_text": "エヴォルオーヴァライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之軌道步槍”<c>\n"
+		"tr_explain": "<green>“進化軌道步槍”<c>\n"
 	},
 	{
 		"assign": "18010040",
@@ -1827,6 +1834,13 @@
 		"tr_explain": "<green>“水晶石步槍”<c>\n"
 	},
 	{
+		"assign": "18010041",
+		"jp_text": "セイガヨウライフル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陽步槍”<c>\n"
+	},
+	{
 		"assign": "18010043",
 		"jp_text": "レネッサライフル",
 		"tr_text": "復興步槍",
@@ -1834,9 +1848,23 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "18010044",
+		"jp_text": "ガンブレイズライフル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“槍火步槍”<c>\n"
+	},
+	{
 		"assign": "18010045",
 		"jp_text": "エヴォルイクリスライフル",
-		"tr_text": "升之侵蝕步槍",
+		"tr_text": "進化侵蝕步槍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010046",
+		"jp_text": "ククロフィスライフル",
+		"tr_text": "傀偶步槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1853,5 +1881,12 @@
 		"tr_text": "凱撒步槍試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "18010053",
+		"jp_text": "セイガインライフル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陰步槍”<c>\n"
 	}
 ]

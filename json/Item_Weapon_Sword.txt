@@ -1740,7 +1740,7 @@
 		"jp_text": "エヴォルコートソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之鍍層大劍”<c>\n"
+		"tr_explain": "<green>“進化鍍層大劍”<c>\n"
 	},
 	{
 		"assign": "11010024",
@@ -1810,7 +1810,7 @@
 		"jp_text": "コルディークソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“源碼織解大劍”<c>\n"
+		"tr_explain": "<green>“編解碼大劍”<c>\n"
 	},
 	{
 		"assign": "11010039",
@@ -1818,6 +1818,13 @@
 		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": "<green>“風暴大劍”<c>\n"
+	},
+	{
+		"assign": "11010040",
+		"jp_text": "プリムソード・リブラ",
+		"tr_text": "初式大劍·天秤",
+		"jp_explain": "",
+		"tr_explain": ""
 	},
 	{
 		"assign": "11010041",
@@ -1845,7 +1852,7 @@
 		"jp_text": "エヴォルオーヴァソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之軌道大劍”<c>\n"
+		"tr_explain": "<green>“進化軌道大劍”<c>\n"
 	},
 	{
 		"assign": "11010045",
@@ -1855,6 +1862,13 @@
 		"tr_explain": "<green>“水晶石大劍”<c>\n"
 	},
 	{
+		"assign": "11010052",
+		"jp_text": "セイガヨウソード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陽大劍”<c>\n"
+	},
+	{
 		"assign": "11010054",
 		"jp_text": "レネッサソード",
 		"tr_text": "復興大劍",
@@ -1862,9 +1876,23 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "11010055",
+		"jp_text": "ガンブレイズソード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“槍火大劍”<c>\n"
+	},
+	{
 		"assign": "11010056",
 		"jp_text": "エヴォルイクリスソード",
-		"tr_text": "升之侵蝕大劍",
+		"tr_text": "進化侵蝕大劍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "11010057",
+		"jp_text": "ククロフィスソード",
+		"tr_text": "傀偶大劍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1881,5 +1909,12 @@
 		"tr_text": "凱撒大劍試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "11010065",
+		"jp_text": "セイガインソード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陰大劍”<c>\n"
 	}
 ]

@@ -1831,7 +1831,7 @@
 		"jp_text": "エヴォルコートマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之鍍層雙機槍”<c>\n"
+		"tr_explain": "<green>“進化鍍層雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010023",
@@ -1901,7 +1901,7 @@
 		"jp_text": "コルディークマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“源碼織解雙機槍”<c>\n"
+		"tr_explain": "<green>“編解碼雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010026",
@@ -1918,11 +1918,18 @@
 		"tr_explain": "<green>“炎焰雙機槍”<c>\n"
 	},
 	{
+		"assign": "110010035",
+		"jp_text": "プリムマシンガン・リブラ",
+		"tr_text": "初式雙機槍·天秤",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "110010036",
 		"jp_text": "レリク・オブシディアン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“聖遺·黑耀雙機槍”<c>\n"
+		"tr_explain": "<green>“聖遺·黑曜雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010037",
@@ -1936,7 +1943,7 @@
 		"jp_text": "エヴォルオーヴァマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之軌道雙機槍”<c>\n"
+		"tr_explain": "<green>“進化軌道雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010043",
@@ -1946,6 +1953,13 @@
 		"tr_explain": "<green>“水晶石雙機槍”<c>\n"
 	},
 	{
+		"assign": "110010044",
+		"jp_text": "セイガヨウマシンガン",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陽雙機槍”<c>\n"
+	},
+	{
 		"assign": "110010046",
 		"jp_text": "レネッサマシンガン",
 		"tr_text": "復興雙機槍",
@@ -1953,9 +1967,23 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "110010047",
+		"jp_text": "ガンブレイズマシンガン",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“槍火雙機槍”<c>\n"
+	},
+	{
 		"assign": "110010048",
 		"jp_text": "エヴォルイクリスマシンガン",
-		"tr_text": "升之侵蝕雙機槍",
+		"tr_text": "進化侵蝕雙機槍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "110010049",
+		"jp_text": "ククロフィスマシンガン",
+		"tr_text": "傀偶雙機槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1972,5 +2000,12 @@
 		"tr_text": "凱撒雙機槍試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "110010055",
+		"jp_text": "セイガインマシンガン",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陰雙機槍”<c>\n"
 	}
 ]

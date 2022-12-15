@@ -1677,7 +1677,7 @@
 		"jp_text": "エヴォルコートウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之鍍層短杖”<c>\n"
+		"tr_explain": "<green>“進化鍍層短杖”<c>\n"
 	},
 	{
 		"assign": "113010026",
@@ -1754,7 +1754,7 @@
 		"jp_text": "コルディークウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“源碼織解短杖”<c>\n"
+		"tr_explain": "<green>“編解碼短杖”<c>\n"
 	},
 	{
 		"assign": "113010037",
@@ -1762,6 +1762,13 @@
 		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": "<green>“暗影短杖”<c>\n"
+	},
+	{
+		"assign": "113010038",
+		"jp_text": "プリムウォンド・リブラ",
+		"tr_text": "初式短杖·天秤",
+		"jp_explain": "",
+		"tr_explain": ""
 	},
 	{
 		"assign": "113010039",
@@ -1782,7 +1789,7 @@
 		"jp_text": "エヴォルオーヴァウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之軌道短杖”<c>\n"
+		"tr_explain": "<green>“進化軌道短杖”<c>\n"
 	},
 	{
 		"assign": "113010042",
@@ -1792,6 +1799,13 @@
 		"tr_explain": "<green>“水晶石短杖”<c>\n"
 	},
 	{
+		"assign": "113010044",
+		"jp_text": "セイガヨウウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陽短杖”<c>\n"
+	},
+	{
 		"assign": "113010047",
 		"jp_text": "レネッサウォンド",
 		"tr_text": "復興短杖",
@@ -1799,9 +1813,23 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "113010048",
+		"jp_text": "ガンブレイズウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“槍火短杖”<c>\n"
+	},
+	{
 		"assign": "113010049",
 		"jp_text": "エヴォルイクリスウォンド",
-		"tr_text": "升之侵蝕短杖",
+		"tr_text": "進化侵蝕短杖",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010051",
+		"jp_text": "ククロフィスウォンド",
+		"tr_text": "傀偶短杖",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1818,5 +1846,12 @@
 		"tr_text": "凱撒短杖試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "113010061",
+		"jp_text": "セイガインウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陰短杖”<c>\n"
 	}
 ]

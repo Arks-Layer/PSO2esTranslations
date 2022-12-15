@@ -343,6 +343,13 @@
 		"tr_explain": "<green>“金色初式奏具”<c>\n"
 	},
 	{
+		"assign": "118010011",
+		"jp_text": "プリムタクト・リブラ",
+		"tr_text": "初式奏具·天秤",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "118010012",
 		"jp_text": "レリク・ノクスバティーラ",
 		"tr_text": "",
@@ -368,7 +375,7 @@
 		"jp_text": "エヴォルコートタクト",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之鍍層奏具”<c>\n"
+		"tr_explain": "<green>“進化鍍層奏具”<c>\n"
 	},
 	{
 		"assign": "118010016",
@@ -417,7 +424,7 @@
 		"jp_text": "コルディークタクト",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“源碼織解奏具”<c>\n"
+		"tr_explain": "<green>“編解碼奏具”<c>\n"
 	},
 	{
 		"assign": "118010025",
@@ -434,9 +441,30 @@
 		"tr_explain": "<green>“崎嶇奏具”<c>\n"
 	},
 	{
+		"assign": "118010028",
+		"jp_text": "セイガヨウタクト",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陽奏具”<c>\n"
+	},
+	{
 		"assign": "118010030",
 		"jp_text": "レネッサタクト",
 		"tr_text": "復興奏具",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "118010031",
+		"jp_text": "ガンブレイズタクト",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“槍火奏具”<c>\n"
+	},
+	{
+		"assign": "118010034",
+		"jp_text": "ククロフィスタクト",
+		"tr_text": "傀偶奏具",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -453,5 +481,12 @@
 		"tr_text": "凱撒奏具試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "118010040",
+		"jp_text": "セイガインタクト",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陰奏具”<c>\n"
 	}
 ]

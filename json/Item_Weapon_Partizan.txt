@@ -1523,7 +1523,7 @@
 		"jp_text": "ヴィアルトスピア",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“四之前程長槍”<c>\n"
+		"tr_explain": "<green>“四之前路長槍”<c>\n"
 	},
 	{
 		"assign": "13010012",
@@ -1565,7 +1565,7 @@
 		"jp_text": "エヴォルコートスピア",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之鍍層長槍”<c>\n"
+		"tr_explain": "<green>“進化鍍層長槍”<c>\n"
 	},
 	{
 		"assign": "13010023",
@@ -1642,7 +1642,7 @@
 		"jp_text": "コルディークスピア",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“源碼織解長槍”<c>\n"
+		"tr_explain": "<green>“編解碼長槍”<c>\n"
 	},
 	{
 		"assign": "13010032",
@@ -1657,6 +1657,13 @@
 		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": "<green>“風暴長槍”<c>\n"
+	},
+	{
+		"assign": "13010033",
+		"jp_text": "プリムスピア・リブラ",
+		"tr_text": "初式長槍·天秤",
+		"jp_explain": "",
+		"tr_explain": ""
 	},
 	{
 		"assign": "13010034",
@@ -1677,7 +1684,7 @@
 		"jp_text": "エヴォルオーヴァスピア",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之軌道長槍”<c>\n"
+		"tr_explain": "<green>“進化軌道長槍”<c>\n"
 	},
 	{
 		"assign": "13010037",
@@ -1687,6 +1694,13 @@
 		"tr_explain": "<green>“水晶石長槍”<c>\n"
 	},
 	{
+		"assign": "13010039",
+		"jp_text": "セイガヨウスピア",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陽長槍”<c>\n"
+	},
+	{
 		"assign": "13010042",
 		"jp_text": "レネッサスピア",
 		"tr_text": "復興長槍",
@@ -1694,9 +1708,23 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "13010043",
+		"jp_text": "ガンブレイズスピア",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“槍火長槍”<c>\n"
+	},
+	{
 		"assign": "13010044",
 		"jp_text": "エヴォルイクリススピア",
-		"tr_text": "升之侵蝕長槍",
+		"tr_text": "進化侵蝕長槍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010046",
+		"jp_text": "ククロフィススピア",
+		"tr_text": "傀偶長槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1713,5 +1741,12 @@
 		"tr_text": "凱撒長槍試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "13010056",
+		"jp_text": "セイガインスピア",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陰長槍”<c>\n"
 	}
 ]

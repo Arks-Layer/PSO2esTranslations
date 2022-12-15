@@ -317,16 +317,16 @@
 	{
 		"assign": "109010000",
 		"jp_text": "＊グラヴィルトリーア",
-		"tr_text": "",
+		"tr_text": "＊礫石三角",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ランチャー／カタナ<c>",
-		"tr_explain": ""
+		"tr_explain": "變更裝備外觀的武器迷彩。\n<yellow>※適用於：大炮/拔劍<c>"
 	},
 	{
 		"assign": "109010001",
 		"jp_text": "＊レリク・タルタロス",
-		"tr_text": "＊レリク・タルタロス",
+		"tr_text": "＊聖遺·冥獄大炮",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ランチャー<c>",
-		"tr_explain": "<green>“＊聖遺·冥獄大炮”<c>\n變更裝備外觀的武器迷彩。\n<yellow>※適用於：大炮<c>"
+		"tr_explain": "變更裝備外觀的武器迷彩。\n<yellow>※適用於：大炮<c>"
 	},
 	{
 		"assign": "109010002",
@@ -352,23 +352,23 @@
 	{
 		"assign": "109010005",
 		"jp_text": "＊レリク・タルタロスCV",
-		"tr_text": "＊レリク・タルタロスCV",
+		"tr_text": "＊聖遺·冥獄大炮CV",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ランチャー<c>",
-		"tr_explain": "<green>“＊聖遺·冥獄大炮CV”<c>\n變更裝備外觀的武器迷彩。\n<yellow>※適用於：大炮<c>"
+		"tr_explain": "變更裝備外觀的武器迷彩。\n<yellow>※適用於：大炮<c>"
 	},
 	{
 		"assign": "109010006",
 		"jp_text": "＊ディジラニランチャー",
-		"tr_text": "",
+		"tr_text": "＊數位大炮",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ランチャー<c>",
-		"tr_explain": ""
+		"tr_explain": "變更裝備外觀的武器迷彩。\n<yellow>※適用於：大炮<c>"
 	},
 	{
 		"assign": "109010007",
 		"jp_text": "＊ディジラニランチャーCV",
-		"tr_text": "",
+		"tr_text": "＊ディジラニランチャーCV",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ランチャー<c>",
-		"tr_explain": ""
+		"tr_explain": "<green>“＊數位大炮CV”<c>\n變更裝備外觀的武器迷彩。\n<yellow>※適用於：大炮<c>"
 	},
 	{
 		"assign": "109060",
@@ -382,6 +382,13 @@
 		"jp_text": "＊フレイムビジット",
 		"tr_text": "",
 		"jp_explain": "巨大火球を放ち、敵を焼き尽くす大砲型\n武器迷彩。高名なレンジャーが\n生涯の友として選んだという。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "109062",
+		"jp_text": "＊インフェルノバズーカ",
+		"tr_text": "",
+		"jp_explain": "桁違いの破壊力を誇る大砲型武器迷彩。\n周辺の万物を吹き飛ばすため\n扱いには十分な注意が必要。",
 		"tr_explain": ""
 	}
 ]

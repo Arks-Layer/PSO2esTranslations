@@ -1369,7 +1369,7 @@
 		"jp_text": "ヴィアルトブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“四之前程魔裝腳”<c>\n"
+		"tr_explain": "<green>“四之前路魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010012",
@@ -1404,7 +1404,7 @@
 		"jp_text": "エヴォルコートブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之鍍層魔裝腳”<c>\n"
+		"tr_explain": "<green>“進化鍍層魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010017",
@@ -1467,7 +1467,7 @@
 		"jp_text": "コルディークブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“源碼織解魔裝腳”<c>\n"
+		"tr_explain": "<green>“編解碼魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010030",
@@ -1475,6 +1475,13 @@
 		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": "<green>“光輝魔裝腳”<c>\n"
+	},
+	{
+		"assign": "116010031",
+		"jp_text": "プリムブーツ・リブラ",
+		"tr_text": "初式魔裝腳·天秤",
+		"jp_explain": "",
+		"tr_explain": ""
 	},
 	{
 		"assign": "116010032",
@@ -1495,7 +1502,7 @@
 		"jp_text": "エヴォルオーヴァブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“升之軌道魔裝腳”<c>\n"
+		"tr_explain": "<green>“進化軌道魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010035",
@@ -1505,6 +1512,13 @@
 		"tr_explain": "<green>“水晶石魔裝腳”<c>\n"
 	},
 	{
+		"assign": "116010036",
+		"jp_text": "セイガヨウブーツ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陽魔裝腳”<c>\n"
+	},
+	{
 		"assign": "116010039",
 		"jp_text": "レネッサブーツ",
 		"tr_text": "復興魔裝腳",
@@ -1512,9 +1526,23 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "116010040",
+		"jp_text": "ガンブレイズブーツ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“槍火魔裝腳”<c>\n"
+	},
+	{
 		"assign": "116010041",
 		"jp_text": "エヴォルイクリスブーツ",
-		"tr_text": "升之侵蝕魔裝腳",
+		"tr_text": "進化侵蝕魔裝腳",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010042",
+		"jp_text": "ククロフィスブーツ",
+		"tr_text": "傀偶魔裝腳",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1531,5 +1559,12 @@
 		"tr_text": "凱撒魔裝腳試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "116010049",
+		"jp_text": "セイガインブーツ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“清雅陰魔裝腳”<c>\n"
 	}
 ]
