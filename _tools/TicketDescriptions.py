@@ -137,7 +137,7 @@ def translate_layer_desc(item, file_name):
     
     # Translate the description.
     item["tr_explain"] = (layer_desc_formats[LANG] + "{sexlock}{hidepanties}").format(
-        itype = layered_wear_types[item_name.split("[", )[1][0:2]][LANG] if item_name.endswith("]")
+        itype = layered_wear_types[item_name[-3:-1]][LANG] if item_name.endswith("]")
                 # Exception for defaults since they don't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
         iname = item_name,
@@ -200,7 +200,7 @@ def translate_nlayer_desc(item, file_name):
 
     # Translate the description.
     item["tr_explain"] = (ndesc_formats[LANG] + "{syncpanties}" + "{typelock}" + "{hidepanties}" + "{noaccessories}").format(
-        itype = layered_wear_types[item_name.split("[", )[1][0:2]][LANG] if item_name.endswith("]")
+        itype = layered_wear_types[item_name[-3:-1]][LANG] if item_name.endswith("]")
                 # Exception for default layered wear since it doesn't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
         syncpanties = "\n<yellow>" + layer_sync_inners[LANG] + "<c>" if syncinner == True else "",
