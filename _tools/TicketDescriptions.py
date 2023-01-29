@@ -99,7 +99,7 @@ layer_hide_inners = ["※Hides innerwear when worn.",
 layer_sync_inners = ["※Synchronizes with [In] color.",
                      "※일부 [In]컬러 동기화",
                      "※Цвета некоторых [In] синхр-ся.",
-                     "※會與一部分[In]同步顏色。"]
+                     "※與一部分[In]同步顏色。"]
 
 layer_hide_accessories = ["※Hides accessories when worn.",
                           "※악세서리 표시 불가",
