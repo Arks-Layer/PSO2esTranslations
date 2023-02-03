@@ -221,7 +221,7 @@
 		"jp_text": "エリュシオン",
 		"tr_text": "Elysion",
 		"jp_explain": "剣のような形をした不思議な短杖。\n刀身の部分に刻まれた古代文字が\nフォトンを生みだし、力を授ける。",
-		"tr_explain": ""
+		"tr_explain": "A mysterious Wand shaped like a\nsword. The inscriptions on the blade\nproduce Photons that grant power."
 	},
 	{
 		"assign": "113032",
@@ -389,7 +389,7 @@
 		"jp_text": "宝剣バルムンク",
 		"tr_text": "Precious Sword Balmung",
 		"jp_explain": "全身を貴重な宝石のみで構成した短杖。\nその構造上、もはや杖ではなく剣であり\n増幅された法力によって敵を両断する。",
-		"tr_explain": "A Wand made entirely out of jewelry.\nAs a sword, it can split enemies in\ntwo with its amplified tech power."
+		"tr_explain": "A Wand made entirely out of precious\njewels. Able to split enemies in two\nwith its Tech-enhanced blade."
 	},
 	{
 		"assign": "113062",
@@ -1019,7 +1019,7 @@
 		"jp_text": "クリシスカリンザ",
 		"tr_text": "Cleasis Karinza",
 		"jp_explain": "古に封印されし冥夜の短杖。\n清廉なる術士を魅了せし禁忌の束縛は\n魂と繋がりし時、闇より力を授からん。",
-		"tr_explain": ""
+		"tr_explain": "An ancient, forbidden dark Wand.\nWhen forbidden shackles corrupt its\nwielder, dark power shall infuse it."
 	},
 	{
 		"assign": "1130265",
@@ -1757,6 +1757,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "113010032",
+		"jp_text": "ネオス・アストリオンウォンド",
+		"tr_text": "Neos Astreon Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "113010037",
 		"jp_text": "オブスクラルウォンド",
 		"tr_text": "Obscural Wand",
@@ -1806,6 +1813,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "113010045",
+		"jp_text": "トランクールウォンド",
+		"tr_text": "Tranquil Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "113010047",
 		"jp_text": "レネッサウォンド",
 		"tr_text": "Renessa Wand",
@@ -1851,6 +1865,13 @@
 		"assign": "113010061",
 		"jp_text": "セイガインウォンド",
 		"tr_text": "Seigain Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010062",
+		"jp_text": "ネオス・ユースティロンウォンド",
+		"tr_text": "Neos Justilon Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

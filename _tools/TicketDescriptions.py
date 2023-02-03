@@ -137,7 +137,7 @@ def translate_layer_desc(item, file_name):
     
     # Translate the description.
     item["tr_explain"] = (layer_desc_formats[LANG] + "{sexlock}{hidepanties}").format(
-        itype = layered_wear_types[item_name.split("[", )[1][0:2]][LANG] if item_name.endswith("]")
+        itype = layered_wear_types[item_name[-3:-1]][LANG] if item_name.endswith("]")
                 # Exception for defaults since they don't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
         iname = item_name,
@@ -200,7 +200,7 @@ def translate_nlayer_desc(item, file_name):
 
     # Translate the description.
     item["tr_explain"] = (ndesc_formats[LANG] + "{syncpanties}" + "{typelock}" + "{hidepanties}" + "{noaccessories}").format(
-        itype = layered_wear_types[item_name.split("[", )[1][0:2]][LANG] if item_name.endswith("]")
+        itype = layered_wear_types[item_name[-3:-1]][LANG] if item_name.endswith("]")
                 # Exception for default layered wear since it doesn't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
         syncpanties = "\n<yellow>" + layer_sync_inners[LANG] + "<c>" if syncinner == True else "",
@@ -821,6 +821,12 @@ cv_names = {
     "一 伊那尓栖": ["Ninomae Ina'nis", "", "", ""],
     "日野 聡": ["Satoshi Hino", "", "", ""],
     "原 由実": ["Yumi Hara", "", "", ""],
+    "闇ノ シュウ": ["Shu Yamino", "", "", ""],
+    "星川 サラ": ["Hoshikawa Sara", "", "", ""],
+    "葉加瀬 冬雪": ["Hakase Fuyuki", "", "", ""],
+    "甲斐田 晴": ["Haru Kaida", "", "", ""],
+    "津田 健次郎": ["Kenjiro Tsuda", "", "", ""],
+    "鬼頭 明里": ["Akari Kito", "", "", ""],
     "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O", "M・A・O", "M・A・O", ""],
     "？？？": ["???", "???", "???", "???"],
     "": ["Unknown", "알 수 없는", "Неизвестно", ""]

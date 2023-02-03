@@ -571,7 +571,7 @@
 		"jp_text": "ギアフレイド",
 		"tr_text": "Gearfreid",
 		"jp_explain": "蒸気エネルギーで効能を増幅した大剣。\n出力を最大化すべく配置された機能的な\n強化機構は、簡素にして最高と評判。",
-		"tr_explain": "A Sword that has been amplified with\nsteam power. Its mechanisms are\nsimple, but maximise its output."
+		"tr_explain": "A Sword that has been amplified with\nsteam power. Its mechanisms are\nsimple, but maximize its output."
 	},
 	{
 		"assign": "110117",
@@ -620,21 +620,21 @@
 		"jp_text": "ダーヴルソード",
 		"tr_text": "Darvle Sword",
 		"jp_explain": "ダーカーの侵食を受けた大剣。使用者に\n侵食が及ばぬよう柄をフォトン薄膜で\nコートし、コアとその侵食力を制御。",
-		"tr_explain": ""
+		"tr_explain": "A Sword corrupted by Darkers. The\nhilt has been coated with Photons to\ncontrol its core's corrupting power."
 	},
 	{
 		"assign": "110136",
 		"jp_text": "ダルバダソード",
 		"tr_text": "Dalvada Sword",
 		"jp_explain": "ダーカーの侵食を受けた大剣。柄の\nフォトン薄膜をさらに薄くし、コアが\n持つ侵食力を最大限に引き出す。",
-		"tr_explain": ""
+		"tr_explain": "A Sword corrupted by Darkers. The\ncoating of Photons on its hilt is thinner,\nto maximize its corrupting power."
 	},
 	{
 		"assign": "110137",
 		"jp_text": "ダヴィアルソード",
 		"tr_text": "Davial Sword",
 		"jp_explain": "ダーカーの侵食を受けた大剣。\nコアを培養し、ヒトが制御しうる\n限界値まで侵食力を増強させた。",
-		"tr_explain": ""
+		"tr_explain": "A Sword corrupted by Darkers. Its\ncorrupting power has been boosted to\nthe limit of a person's ability to endure."
 	},
 	{
 		"assign": "110139",
@@ -977,7 +977,7 @@
 		"jp_text": "ソードインクルシオ",
 		"tr_text": "Sword Inclusio",
 		"jp_explain": "新開発の演算装置を搭載した大剣。\n既存の処理限界を超えた性能を誇り\n装備者の戦闘能力を最大限に引き出す。",
-		"tr_explain": "A Sword with a newly developed\ncomputing device. Its processor\nmaximises its wielder's combat ability."
+		"tr_explain": "A Sword with a newly developed\ncomputing device. Its processor\nmaximizes its wielder's combat ability."
 	},
 	{
 		"assign": "110264",
@@ -1005,7 +1005,7 @@
 		"jp_text": "イヴリダハンダー",
 		"tr_text": "Evleda Hander",
 		"jp_explain": "古に封印されし冥夜の大剣。\n忌むべき闇の大刃は汝の血肉で以って\n戒めを切り裂き、世に静寂をもたらさん。",
-		"tr_explain": "An ancient, forbidden dark Sword.\nThe vile dark blade unsealed by thy\nkin brings silence to the world."
+		"tr_explain": "An ancient, forbidden dark Sword.\nThe vile dark blade unsealed by thy\nflesh brings stillness to the world."
 	},
 	{
 		"assign": "110273",
@@ -1813,6 +1813,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "11010032",
+		"jp_text": "ネオス・アストリオンソード",
+		"tr_text": "Neos Astreon Sword",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "11010039",
 		"jp_text": "テンペスターソード",
 		"tr_text": "Tempestar Sword",
@@ -1858,6 +1865,13 @@
 		"assign": "11010045",
 		"jp_text": "クリスティアソード",
 		"tr_text": "Crystia Sword",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "11010049",
+		"jp_text": "トランクールソード",
+		"tr_text": "Tranquil Sword",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1914,6 +1928,13 @@
 		"assign": "11010065",
 		"jp_text": "セイガインソード",
 		"tr_text": "Seigain Sword",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "11010067",
+		"jp_text": "ネオス・ユースティロンソード",
+		"tr_text": "Neos Justilon Sword",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

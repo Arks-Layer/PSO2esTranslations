@@ -207,7 +207,7 @@
 		"jp_text": "ヒトガタ",
 		"tr_text": "Hitogata",
 		"jp_explain": "古代呪術により力を得た導具。\n人の形を模しただけの紙のようだが\n各々が自律行動を見せる不思議な武器。",
-		"tr_explain": ""
+		"tr_explain": "A Talis that gained powers from\nancient sorcery. Though it takes the\nshape of people, it is only paper."
 	},
 	{
 		"assign": "112030",
@@ -228,7 +228,7 @@
 		"jp_text": "ガルウィンド",
 		"tr_text": "Gal Wind",
 		"jp_explain": "伝説上でガル・グリフォンと呼ばれる\n神鳥の羽を用いて作られた導具。\n見た目の美しさ以上に、法撃力が高い。",
-		"tr_explain": ""
+		"tr_explain": "Talis made of a feather from the\ndivine bird of myth, Gal Gryphon. Its\nbeauty belies its phenomenal power."
 	},
 	{
 		"assign": "112033",
@@ -277,21 +277,21 @@
 		"jp_text": "デュエルゲイズ",
 		"tr_text": "Duel Gaze",
 		"jp_explain": "カードゲーム用デバイスを戦闘用に\n改造した導具。\n全クラス装備可能な、特殊な武器。",
-		"tr_explain": ""
+		"tr_explain": "A Talis made by modifying a device\nfor playing card games. A special\nweapon equippable by all classes."
 	},
 	{
 		"assign": "112050",
 		"jp_text": "レッドデュエルゲイズ",
 		"tr_text": "Red Duel Gaze",
 		"jp_explain": "赤い遊戯用デバイスを戦闘用に\n改造した導具。\n全クラス装備可能な、特殊な武器。",
-		"tr_explain": ""
+		"tr_explain": "A Talis made by modifying a red\ndevice for playing games. A special\nweapon equippable by all classes."
 	},
 	{
 		"assign": "112051",
 		"jp_text": "グリンデュエルゲイズ",
 		"tr_text": "Green Duel Gaze",
 		"jp_explain": "緑の遊戯用デバイスを戦闘用に\n改造した導具。\n全クラス装備可能な、特殊な武器。",
-		"tr_explain": ""
+		"tr_explain": "A Talis made by modifying a green\ndevice for playing games. A special\nweapon equippable by all classes."
 	},
 	{
 		"assign": "112052",
@@ -998,14 +998,14 @@
 		"jp_text": "イヴリダフォセレ",
 		"tr_text": "Evleda Phossele",
 		"jp_explain": "古に封印されし冥夜の導具。\n絶たれし闇の導き手は汝の血肉を贄とし\n戒めより放たれ、静かなる世へと導く。",
-		"tr_explain": "An ancient, forbidden dark Talis. The\ndark lord shall use thy flesh to break\nits chains and lead thy world to silence."
+		"tr_explain": ""
 	},
 	{
 		"assign": "1120239",
 		"jp_text": "クリシスフォセレ",
 		"tr_text": "Cleasis Phossele",
 		"jp_explain": "古に封印されし冥夜の導具。\n廉直なる導士を魅了せし禁忌の法は\n魂と合わさりし時、全て等しく破壊する。",
-		"tr_explain": "An ancient, forbidden dark Talis. A\nrighteous sage, drawn to forbidden\nknowledge, shall destroy all that is."
+		"tr_explain": "An ancient, forbidden dark Talis. When\nforbidden knowledge corrupts its\nwielder, all that is shall be destroyed."
 	},
 	{
 		"assign": "1120240",
@@ -1320,7 +1320,7 @@
 		"jp_text": "ヒトガタ-NT",
 		"tr_text": "Hitogata-NT",
 		"jp_explain": "古代呪術により力を得た導具。\n人の形を模しただけの紙のようだが\n各々が自律行動を見せる不思議な武器。",
-		"tr_explain": ""
+		"tr_explain": "A Talis that gained powers from\nancient sorcery. Though it takes the\nshape of people, it is only paper."
 	},
 	{
 		"assign": "1120302",
@@ -1558,7 +1558,7 @@
 		"jp_text": "デュエルゲイズ-NT",
 		"tr_text": "Duel Gaze-NT",
 		"jp_explain": "カードゲーム用デバイスを戦闘用に\n改造した導具。\n全クラス装備可能な、特殊な武器。",
-		"tr_explain": ""
+		"tr_explain": "A Talis made by modifying a device\nfor playing card games. A special\nweapon equippable by all classes."
 	},
 	{
 		"assign": "1120373",
@@ -1750,6 +1750,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "112010025",
+		"jp_text": "ネオス・アストリオンタリス",
+		"tr_text": "Neos Astreon Talis",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "112010028",
 		"jp_text": "テンペスタータリス",
 		"tr_text": "Tempestar Talis",
@@ -1799,6 +1806,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "112010035",
+		"jp_text": "トランクールタリス",
+		"tr_text": "Tranquil Talis",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "112010036",
 		"jp_text": "レネッサタリス",
 		"tr_text": "Renessa Talis",
@@ -1844,6 +1858,13 @@
 		"assign": "112010046",
 		"jp_text": "セイガインタリス",
 		"tr_text": "Seigain Talis",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010047",
+		"jp_text": "ネオス・ユースティロンタリス",
+		"tr_text": "Neos Justilon Talis",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

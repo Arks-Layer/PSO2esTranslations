@@ -193,7 +193,7 @@
 		"jp_text": "インフェルノバズーカ",
 		"tr_text": "Inferno Bazooka",
 		"jp_explain": "高い破壊力を誇る実弾を発射する大砲。\n周辺の万物を吹き飛ばすため\n扱いには十分な注意が必要。",
-		"tr_explain": "A Launcher which fires solid bullets\nthat boast high destructive power.\nCan blow away everything nearby."
+		"tr_explain": "A Launcher which boasts unparalleled\ndestructive force. Requires caution to\nnot get caught up in its blast."
 	},
 	{
 		"assign": "19029",
@@ -998,7 +998,7 @@
 		"jp_text": "イヴリダカルバン",
 		"tr_text": "Evleda Calvin",
 		"jp_explain": "古に封印されし冥夜の大砲。\n禁じられし闇の爆砲は汝の血肉で以って\n解き放たれ、全てを壊し静寂つくらん。",
-		"tr_explain": "An ancient, forbidden dark Launcher.\nThe forbidden grenades unsealed by\nthy kin destroy all, and silence falls."
+		"tr_explain": "An ancient, forbidden dark Launcher.\nThe forbidden grenades unsealed by\nthy flesh destroy all, and silence falls."
 	},
 	{
 		"assign": "190246",
@@ -1131,7 +1131,7 @@
 		"jp_text": "インフェルノバズーカ-NT",
 		"tr_text": "Inferno Bazooka-NT",
 		"jp_explain": "高い破壊力を誇る実弾を発射する大砲。\n周辺の万物を吹き飛ばすため\n扱いには十分な注意が必要。",
-		"tr_explain": "A Launcher which fires solid bullets\nthat boast high destructive power.\nCan blow away everything nearby."
+		"tr_explain": "A Launcher which boasts unparalleled\ndestructive force. Requires caution to\nnot get caught up in its blast."
 	},
 	{
 		"assign": "190270",
@@ -1694,6 +1694,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "19010026",
+		"jp_text": "ネオス・アストリオンランチャー",
+		"tr_text": "Neos Astreon Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "19010031",
 		"jp_text": "テンペスターランチャー",
 		"tr_text": "Tempestar Launcher",
@@ -1743,6 +1750,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "19010041",
+		"jp_text": "トランクールランチャー",
+		"tr_text": "Tranquil Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "19010042",
 		"jp_text": "レネッサランチャー",
 		"tr_text": "Renessa Launcher",
@@ -1788,6 +1802,13 @@
 		"assign": "19010051",
 		"jp_text": "セイガインランチャー",
 		"tr_text": "Seigain Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010052",
+		"jp_text": "ネオス・ユースティロンランチャー",
+		"tr_text": "Neos Justilon Launcher",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

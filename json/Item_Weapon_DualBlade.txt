@@ -382,7 +382,7 @@
 		"jp_text": "グランドクロス-NT",
 		"tr_text": "Grand Cross-NT",
 		"jp_explain": "最高級フォトンリアクターでのみ\n実現可能な特徴的な刃が人気の飛翔剣。\n素材の貴重さゆえ生産数も少ない。",
-		"tr_explain": ""
+		"tr_explain": "Dual Blades forged in only the\nstrongest Photon Reactors. Limited\nin quantity due to its rare materials."
 	},
 	{
 		"assign": "117097",
@@ -480,7 +480,7 @@
 		"jp_text": "ニレンオロチ",
 		"tr_text": "Twin Orochi",
 		"jp_explain": "稀代の名匠ドウセツが鍛えし飛翔剣。\n芸術の域に達している美しき刀身は\n幾星霜の時を経ても衰えることはない。",
-		"tr_explain": "Dual Blades forged by the master\ncraftsman Dosetsu. Despite their long\nhistory, they have never worn out."
+		"tr_explain": "Dual Blades made by Dousetsu.\nEven after all this time, these works\nof art still haven't lost their edge."
 	},
 	{
 		"assign": "1170120",
@@ -501,7 +501,7 @@
 		"jp_text": "ニレンアギト",
 		"tr_text": "Twin Agito",
 		"jp_explain": "オロチアギト誕生後に打たれた飛翔剣。\n数多く打たれた習作のうちの二振りだが\n刀身は錆で覆われてしまっている。",
-		"tr_explain": "Dual Blades based on Orochiagito.\nBeing the second such replica, their\nblades are now completely rusted."
+		"tr_explain": "Dual Blades made from two replicas of\nthe Orochiagito. Both blades have\nlong since become covered in rust."
 	},
 	{
 		"assign": "1170123",
@@ -711,7 +711,7 @@
 		"jp_text": "イヴリダバタディア",
 		"tr_text": "Evleda Battadia",
 		"jp_explain": "古に封印されし冥夜の飛翔剣。\n忌むべき闇の流技は汝の血肉で以って\n戒め斬り裂き、静かなる世を導く。",
-		"tr_explain": ""
+		"tr_explain": "Ancient, forbidden dark Blades. The\nvile arts unsealed by thy flesh forge a\nworld as silent as a barren grave."
 	},
 	{
 		"assign": "1170201",
@@ -886,7 +886,7 @@
 		"jp_text": "ニレンアギト-NT",
 		"tr_text": "Twin Agito-NT",
 		"jp_explain": "オロチアギト誕生後に打たれた飛翔剣。\n数多く打たれた習作のうちの二振りだが\n刀身は錆で覆われてしまっている。",
-		"tr_explain": "Dual Blades based on Orochiagito.\nBeing the second such replica, their\nblades are now completely rusted."
+		"tr_explain": "Dual Blades made from two replicas of\nthe Orochiagito. Both blades have\nlong since become covered in rust."
 	},
 	{
 		"assign": "1170245",
@@ -1306,7 +1306,7 @@
 		"jp_text": "ニレンオロチ-NT",
 		"tr_text": "Twin Orochi-NT",
 		"jp_explain": "稀代の名匠ドウセツが鍛えし飛翔剣。\n芸術の域に達している美しき刀身は\n幾星霜の時を経ても衰えることはない。",
-		"tr_explain": "Dual Blades forged by the master\ncraftsman Dosetsu. Despite their long\nhistory, they have never worn out."
+		"tr_explain": "Dual Blades made by Dousetsu.\nEven after all this time, these works\nof art still haven't lost their edge."
 	},
 	{
 		"assign": "1170383",
@@ -1491,6 +1491,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "117010027",
+		"jp_text": "ネオス・アストリオンブレード",
+		"tr_text": "Neos Astreon Blades",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "117010032",
 		"jp_text": "プリムブレード・リブラ",
 		"tr_text": "Prim Blades Libra",
@@ -1529,6 +1536,13 @@
 		"assign": "117010038",
 		"jp_text": "セイガヨウブレード",
 		"tr_text": "Seigayou Blades",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "117010039",
+		"jp_text": "トランクールブレード",
+		"tr_text": "Tranquil Blades",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1578,6 +1592,13 @@
 		"assign": "117010054",
 		"jp_text": "セイガインブレード",
 		"tr_text": "Seigain Blades",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "117010055",
+		"jp_text": "ネオス・ユースティロンブレード",
+		"tr_text": "Neos Justilon Blades",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

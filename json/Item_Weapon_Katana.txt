@@ -235,14 +235,14 @@
 		"jp_text": "ヤシャ",
 		"tr_text": "Yasha",
 		"jp_explain": "キコク作と銘切りされた直刀型の抜剣。\n本来の鞘と柄は失われており、\n白鞘に収められた状態で発見された。",
-		"tr_explain": "A Katana that bears an inscription\n\"Made by Kikoku.\" The original sheath\nhas been lost, now wrapped in white."
+		"tr_explain": "Enscribed with the name Kikoku,\nthis Katana was found in a shirasaya,\nnot in its original scabbard."
 	},
 	{
 		"assign": "114040",
 		"jp_text": "オロチアギト",
 		"tr_text": "Orochiagito",
 		"jp_explain": "稀代の名匠ドウセツが鍛えし伝説の抜剣。\nその刀身は幾星霜を経てもなお衰えず、\nもはや芸術の域に達している。",
-		"tr_explain": "A Katana forged by the master\ncraftsman Dosetsu. Despite its long\nhistory, its blade has never worn out."
+		"tr_explain": "Master Smith Dousetsu's magnum\nopus. Even after all this time, the\nblade still hasn't lost its edge."
 	},
 	{
 		"assign": "114041",
@@ -256,7 +256,7 @@
 		"jp_text": "剣影",
 		"tr_text": "Kenei",
 		"jp_explain": "鞘に封印の呪符が巻き付けられた抜剣。\n一度その刀身を解き放てば殺気が漲り\n鬼神の如き速さと威力を見せるという。",
-		"tr_explain": ""
+		"tr_explain": "Upon unsheathing this Katana, a\nsealed war god's fury erupts from\nthe confines of its holy scabbard."
 	},
 	{
 		"assign": "114043",
@@ -837,7 +837,7 @@
 		"jp_text": "イヴリダバゼラ",
 		"tr_text": "Evleda Bazera",
 		"jp_explain": "古に封印されし冥夜の抜剣。\n忌むべき闇の鋭刃は汝の血肉で以って\n戒め断ち切り、全てを葬る。",
-		"tr_explain": ""
+		"tr_explain": "An ancient, forbiden dark Katana. The\nvile dark blade unsealed by thy flesh\nconsigns all that exists to oblivion."
 	},
 	{
 		"assign": "1140216",
@@ -998,7 +998,7 @@
 		"jp_text": "剣影-NT",
 		"tr_text": "Kenei-NT",
 		"jp_explain": "鞘に封印の呪符が巻き付けられた抜剣。\n一度その刀身を解き放てば殺気が漲り\n鬼神の如き速さと威力を見せるという。",
-		"tr_explain": ""
+		"tr_explain": "Upon unsheathing this Katana, a\nsealed war god's fury erupts from\nthe confines of its holy scabbard."
 	},
 	{
 		"assign": "1140247",
@@ -1278,7 +1278,7 @@
 		"jp_text": "ヤシャ-NT",
 		"tr_text": "Yasha-NT",
 		"jp_explain": "キコク作と銘切りされた直刀型の抜剣。\n本来の鞘と柄は失われており、\n白鞘に収められた状態で発見された。",
-		"tr_explain": "A Katana that bears an inscription\n\"Made by Kikoku.\" The original sheath\nhas been lost, now wrapped in white."
+		"tr_explain": "Enscribed with the name Kikoku,\nthis Katana was found in a shirasaya,\nnot in its original scabbard."
 	},
 	{
 		"assign": "1140330",
@@ -1390,7 +1390,7 @@
 		"jp_text": "オロチアギト-NT",
 		"tr_text": "Orochiagito-NT",
 		"jp_explain": "稀代の名匠ドウセツが鍛えし伝説の抜剣。\nその刀身は幾星霜を経てもなお衰えず、\nもはや芸術の域に達している。",
-		"tr_explain": "A Katana forged by the master\ncraftsman Dosetsu. Despite its long\nhistory, its blade has never worn out."
+		"tr_explain": "Master Smith Dousetsu's magnum\nopus. Even after all this time, the\nblade still hasn't lost its edge."
 	},
 	{
 		"assign": "1140384",
@@ -1575,6 +1575,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "114010025",
+		"jp_text": "ネオス・アストリオンカタナ",
+		"tr_text": "Neos Astreon Katana",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "114010035",
 		"jp_text": "プリムカタナ・リブラ",
 		"tr_text": "Prim Katana Libra",
@@ -1613,6 +1620,13 @@
 		"assign": "114010040",
 		"jp_text": "セイガヨウカタナ",
 		"tr_text": "Seigayou Katana",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "114010041",
+		"jp_text": "トランクールカタナ",
+		"tr_text": "Tranquil Katana",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1662,6 +1676,13 @@
 		"assign": "114010054",
 		"jp_text": "セイガインカタナ",
 		"tr_text": "Seigain Katana",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "114010055",
+		"jp_text": "ネオス・ユースティロンカタナ",
+		"tr_text": "Neos Justilon Katana",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

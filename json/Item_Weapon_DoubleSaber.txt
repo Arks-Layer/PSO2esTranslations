@@ -417,7 +417,7 @@
 		"jp_text": "流星棍",
 		"tr_text": "Meteor Cudgel",
 		"jp_explain": "両端に備え付けられた鉱石棍が相手に\n多大なダメージを与える両剣。淀みなく\n繰り出される攻撃は流星群のよう。",
-		"tr_explain": "A weapon with crystals on both\nsides that are said to inflict a lot\nof damage."
+		"tr_explain": "The crystals on both sides of this\nweapon can inflict a lot of damage.\nSwings resemble a meteor shower."
 	},
 	{
 		"assign": "15067",
@@ -907,7 +907,7 @@
 		"jp_text": "イヴリダキジャル",
 		"tr_text": "Evleda Kijal",
 		"jp_explain": "古に封印されし冥夜の両剣。\n忌むべき闇の翼は汝の血肉で以って\n戒め断ちて、静寂なる世を創らん。",
-		"tr_explain": ""
+		"tr_explain": "An ancient, forbidden dark D. Saber.\nThe vile dark blades unsealed by thy\nflesh bring about a world of silence."
 	},
 	{
 		"assign": "150224",
@@ -1117,7 +1117,7 @@
 		"jp_text": "流星棍-NT",
 		"tr_text": "Meteor Cudgel-NT",
 		"jp_explain": "両端に備え付けられた鉱石棍が相手に\n多大なダメージを与える両剣。淀みなく\n繰り出される攻撃は流星群のよう。",
-		"tr_explain": "A weapon with crystals on both\nsides that are said to inflict a lot\nof damage."
+		"tr_explain": "The crystals on both sides of this\nweapon can inflict a lot of damage.\nSwings resemble a meteor shower."
 	},
 	{
 		"assign": "150266",
@@ -1638,6 +1638,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "15010025",
+		"jp_text": "ネオス・アストリオンセイバー",
+		"tr_text": "Neos Astreon Saber",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "15010032",
 		"jp_text": "ルメイラーセイバー",
 		"tr_text": "Lumeira Saber",
@@ -1683,6 +1690,13 @@
 		"assign": "15010038",
 		"jp_text": "セイガヨウセイバー",
 		"tr_text": "Seigayou Saber",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "15010039",
+		"jp_text": "トランクールセイバー",
+		"tr_text": "Tranquil Saber",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1739,6 +1753,13 @@
 		"assign": "15010052",
 		"jp_text": "セイガインセイバー",
 		"tr_text": "Seigain Saber",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "15010053",
+		"jp_text": "ネオス・ユースティロンセイバー",
+		"tr_text": "Neos Justilon Saber",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

@@ -221,7 +221,7 @@
 		"jp_text": "ガルド・ミラ",
 		"tr_text": "Guld Milla",
 		"jp_explain": "全てが謎に包まれた双機銃。\nその効果、性能は一切不明で\n詳細な解析が待たれている。",
-		"tr_explain": "Machineguns shrouded in mystery.\nTheir performance and effects are\nunknown. Still awaiting analysis."
+		"tr_explain": "A mysterious ultimate weapon. Its\nperformance and effects are unknown,\npending further analysis."
 	},
 	{
 		"assign": "110033",
@@ -242,7 +242,7 @@
 		"jp_text": "パンドラエクストリーム",
 		"tr_text": "Pandora Extreme",
 		"jp_explain": "ただ一つの希望を守るという双機銃。\n死角のない攻撃を可能とし、一切の\n災厄を寄せ付けない。",
-		"tr_explain": "Ordinary Machineguns that keep\nhope alive. Attacks from these guns\nare flawless and accident free."
+		"tr_explain": "Twin Machineguns that hold a single\nhope. Their attacks leave no blind\nspots for danger to approach from."
 	},
 	{
 		"assign": "110036",
@@ -1278,7 +1278,7 @@
 		"jp_text": "パンドラエクストリーム-NT",
 		"tr_text": "Pandora Extreme-NT",
 		"jp_explain": "ただ一つの希望を守るという双機銃。\n死角のない攻撃を可能とし、一切の\n災厄を寄せ付けない。",
-		"tr_explain": "Ordinary Machineguns that keep\nhope alive. Attacks from these guns\nare flawless and accident free."
+		"tr_explain": "Twin Machineguns that hold a single\nhope. Their attacks leave no blind\nspots for danger to approach from."
 	},
 	{
 		"assign": "1100310",
@@ -1911,6 +1911,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "110010029",
+		"jp_text": "ネオス・アストリオンマシンガン",
+		"tr_text": "Neos Astreon Machineguns",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "110010034",
 		"jp_text": "フランメルマシンガン",
 		"tr_text": "Franmel Machineguns",
@@ -1960,6 +1967,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "110010045",
+		"jp_text": "トランクールマシンガン",
+		"tr_text": "Tranquil Machineguns",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "110010046",
 		"jp_text": "レネッサマシンガン",
 		"tr_text": "Renessa Machineguns",
@@ -2005,6 +2019,13 @@
 		"assign": "110010055",
 		"jp_text": "セイガインマシンガン",
 		"tr_text": "Seigain Machineguns",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "110010056",
+		"jp_text": "ネオス・ユースティロンマシンガン",
+		"tr_text": "Neos Justilon Machineguns",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

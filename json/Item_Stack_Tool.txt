@@ -766,14 +766,14 @@
 		"assign": "37010020",
 		"jp_text": "Bトリガー/エアルイエロー",
 		"tr_text": "B. Trigger/Aelio Yellow",
-		"jp_explain": "バトルディアで使用するトリガー。\n“エアリオトルーパーズ”の\nクリア時に消費される。",
+		"jp_explain": "アイテムリサイクルで\n“Bトリガー/コモンイエロー“\nと交換できる。\n<yellow>※Bトリガーとしては使用不可<c>",
 		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Aelio Troopers\"."
 	},
 	{
 		"assign": "37010021",
 		"jp_text": "Bトリガー/エアルパープル",
 		"tr_text": "B. Trigger/Aelio Purple",
-		"jp_explain": "バトルディアで使用するトリガー。\n“エアリオデバステーターズ”の\nクリア時に消費される。",
+		"jp_explain": "アイテムリサイクルで\n“Bトリガー/コモンパープル“\nと交換できる。\n<yellow>※Bトリガーとしては使用不可<c>",
 		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Aelio Devastators\"."
 	},
 	{
@@ -794,14 +794,14 @@
 		"assign": "37010024",
 		"jp_text": "Bトリガー/リテナイエロー",
 		"tr_text": "B. Trigger/Retem Yellow",
-		"jp_explain": "バトルディアで使用するトリガー。\n“リテムトルーパーズ”の\nクリア時に消費される。",
+		"jp_explain": "アイテムリサイクルで\n“Bトリガー/コモンイエロー“\nと交換できる。\n<yellow>※Bトリガーとしては使用不可<c>",
 		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Retem Troopers\"."
 	},
 	{
 		"assign": "37010025",
 		"jp_text": "Bトリガー/リテナパープル",
 		"tr_text": "B. Trigger/Retem Purple",
-		"jp_explain": "バトルディアで使用するトリガー。\n“リテムデバステーターズ”の\nクリア時に消費される。",
+		"jp_explain": "アイテムリサイクルで\n“Bトリガー/コモンパープル“\nと交換できる。\n<yellow>※Bトリガーとしては使用不可<c>",
 		"tr_explain": "A Trigger used in the Battledia.\nConsumed upon clearing:\n\"Retem Devastators\"."
 	},
 	{
@@ -906,14 +906,14 @@
 		"assign": "37010041",
 		"jp_text": "Bトリガー/クヴァルイエロー",
 		"tr_text": "B. Trigger/Kvaris Yellow",
-		"jp_explain": "バトルディアで使用するトリガー。\n“クヴァリストルーパーズ”の\nクリア時に消費される。",
+		"jp_explain": "アイテムリサイクルで\n“Bトリガー/コモンイエロー“\nと交換できる。\n<yellow>※Bトリガーとしては使用不可<c>",
 		"tr_explain": "Trigger used at Battledia.\nConsumed upon clearing\n\"Kvaris Troopers\"."
 	},
 	{
 		"assign": "37010042",
 		"jp_text": "Bトリガー/クヴァルパープル",
 		"tr_text": "B. Trigger/Kvaris Purple",
-		"jp_explain": "バトルディアで使用するトリガー。\n“クヴァリスデバステーターズ”の\nクリア時に消費される。",
+		"jp_explain": "アイテムリサイクルで\n“Bトリガー/コモンパープル“\nと交換できる。\n<yellow>※Bトリガーとしては使用不可<c>",
 		"tr_explain": "Trigger used at Battledia.\nConsumed upon clearing\n\"Kvaris Devastators\"."
 	},
 	{
@@ -1041,5 +1041,47 @@
 		"tr_text": "B. Trigger/Common Purple",
 		"jp_explain": "すべてのパープルポータルに\n対応するトリガー。\nクリア時に消費される。",
 		"tr_explain": "Trigger used at all Purple Portals.\nConsumed upon clearing the quest."
+	},
+	{
+		"assign": "37010075",
+		"jp_text": "Qトリガー/ニルス・ヴェラ討伐戦",
+		"tr_text": "Q. Trigger/Nilus Vera Subjugation",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nニルス・ヴェラ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": "Trigger used at Quest Counters.\nConsumed upon clearing the quest\n\"Simulation:\nNilus Vera Subjugation\""
+	},
+	{
+		"assign": "37010076",
+		"jp_text": "Qトリガー/ドルドリス・ヴェラ討伐戦",
+		"tr_text": "Q. Trigger/Doldoris Vera Subjugation",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nドルドリス・ヴェラ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": "Trigger used at Quest Counters.\nConsumed upon clearing the quest\n\"Simulation:\nDoldoris Vera Subjugation\""
+	},
+	{
+		"assign": "37010077",
+		"jp_text": "Qトリガー/ハルフィリア湖の戦い",
+		"tr_text": "Q. Trigger/Battle of Halphiria Lake",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nハルフィリア湖の戦い”の\nクリア時に消費される。",
+		"tr_explain": "Trigger used at Quest Counters.\nConsumed upon clearing the quest\n\"Simulation:\nBattle of Halphiria Lake\""
+	},
+	{
+		"assign": "37010078",
+		"jp_text": "エイジスインテグラ",
+		"tr_text": "Aegis Integra",
+		"jp_explain": "ダークファルス・エイジスの基幹部品。\nアイテムトレーダーの\n“エイジスインテグラ交換”で\nアイテムと交換できる。",
+		"tr_explain": "A keystone component of Dark Falz\nAegis. Can be used to exchange at\n\"Aegis Integra\" exchange shop."
+	},
+	{
+		"assign": "37010079",
+		"jp_text": "アームズリファイナーⅡ",
+		"tr_text": "Arms Refiner II",
+		"jp_explain": "戦闘セクションなどで\n入手可能な素材。アイテムラボでの\nより高度な限界突破に用いる。",
+		"tr_explain": "Material obtained in the Combat\nSectors & elsewhere. Can be\nused for advanced limit breaking."
+	},
+	{
+		"assign": "37010080",
+		"jp_text": "スレイヤー運用準備特別票",
+		"tr_text": "Slayer Preparation Special Emblem",
+		"jp_explain": "活躍したアークスに贈られる証。\n後日のアップデートで\n★8武器などと交換できるようになる。",
+		"tr_explain": "Insignia given to accomplished ARKS.\nCan be traded for ★8 items in\na future update."
 	}
 ]
