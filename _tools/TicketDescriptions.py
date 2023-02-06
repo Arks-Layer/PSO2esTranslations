@@ -59,7 +59,7 @@ layer_desc_formats = [("Unlocks the new {itype}\n"
                       ("Разблокирует новую\n"
                        "{itype}\n"
                        "\"{iname}\"."),
-                      ("使用後可選用新的{itype} \n"
+                      ("使用後可選用新的{itype}\n"
                        "{iname}。")]
 
 layer_sex_locks = {"n": ["", "", "", ""],
@@ -81,7 +81,7 @@ ndesc_formats = ["Unlocks a new {itype} for use.",
 ntype_statements = ["Type: ",
                     "대응: ",
                     "Тип: ",
-                    "類型："]
+                    "適用於："]
 
 ntype_locks = {"a": ["All", "KO_All", "Все"],
                 "a1": ["Human/Cast Type 1", "인간형/캐스트타입1", "Человек/CAST (тип1)", "人類/機器人 類型1"],
@@ -99,7 +99,7 @@ layer_hide_inners = ["※Hides innerwear when worn.",
 layer_sync_inners = ["※Synchronizes with [In] color.",
                      "※일부 [In]컬러 동기화",
                      "※Цвета некоторых [In] синхр-ся.",
-                     "※會與一部分[In]同步顏色。"]
+                     "※與一部分[In]同步顏色。"]
 
 layer_hide_accessories = ["※Hides accessories when worn.",
                           "※악세서리 표시 불가",
@@ -257,21 +257,27 @@ for name in layered_file_names:
 # Translate other cosmetics
 
 cosmetic_file_names = [
-    "Accessory", "BodyPaint",
-    "Eye", "EyeBrow",
-    "EyeLash", "FacePaint",
-    "Hairstyle", "Sticker"
+    "NGS_Ear", "NGS_Horn",
+    "NGS_Mouth", "Stack_Accessory",
+    "Stack_BodyPaint", "Stack_Eye",
+    "Stack_EyeBrow", "Stack_EyeLash",
+    "Stack_FacePaint", "Stack_Hairstyle",
+    "Stack_Headparts", "Stack_Sticker"
     ]
 
 cosmetic_types = {
-    "Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
-    "BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
-    "Eye": ["eye pattern", "눈동자", "глаза", "眼瞳"],
-    "EyeBrow": ["eyebrow type", "눈썹", "брови", "眉毛"],
-    "EyeLash": ["eyelash type", "속눈썹", "ресницы", "睫毛"],
-    "FacePaint": ["makeup", "메이크업", "макияж", "妝容"],
-    "Hairstyle": ["hairstyle", "헤어스타일", "причёску", "髪型"],
-    "Sticker": ["sticker", "스티커", "стикер", "貼紙"]
+    "NGS_Ear": ["ear", "", "", "耳朵"],
+    "NGS_Horn": ["horn", "", "", "角"],
+    "NGS_Mouth": ["teeth and tongue", "", "", "牙齒·舌頭"],
+    "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
+    "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
+    "Stack_Eye": ["eye pattern", "눈동자", "глаза", "眼瞳"],
+    "Stack_EyeBrow": ["eyebrow type", "눈썹", "брови", "眉毛"],
+    "Stack_EyeLash": ["eyelash type", "속눈썹", "ресницы", "睫毛"],
+    "Stack_FacePaint": ["makeup", "메이크업", "макияж", "妝容"],
+    "Stack_Hairstyle": ["hairstyle", "헤어스타일", "причёску", "髪型"],
+    "Stack_Headparts": ["head", "", "", "頭部部件"],
+    "Stack_Sticker": ["sticker", "스티커", "стикер", "貼紙"]
     }
 
 cosmetic_desc_formats = [("Unlocks the {sexlock}{itype}\n"
@@ -284,7 +290,7 @@ cosmetic_desc_formats = [("Unlocks the {sexlock}{itype}\n"
                           "\"{iname}\"\n"
                           "для использования в салоне."),
                          ("使用後可選用新的{sexlock}{itype}\n"
-                          "{iname}")]
+                          "{iname}。")]
 
 cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для М", "男性專用"],
                       "f": ["female-only ", "여성 전용 ", "только для Ж", "女性專用"]}
@@ -416,7 +422,7 @@ def translate_ncosmetic_desc(item, file_name):
     return 0
 
 for file_name in cosmetic_file_names:
-    items_file_name = "Item_Stack_" + file_name + ".txt"
+    items_file_name = "Item_" + file_name + ".txt"
     item_type = cosmetic_types[file_name][LANG]
     
     try:
@@ -469,7 +475,7 @@ la_formats = [("Unlocks the new Lobby Action\n"
                "모든 캐릭터에 등록한다."),
               ("Разблокирует новый лобби-экшн:\n"
                "\"{iname}\"."),
-              ("所有角色均可選用新的大廳動作\n"
+              ("使用後所有角色均可選用新的大廳動作\n"
                "『{iname}』。")]
 
 nla_formats = [("Unlocks a new Lobby Action for use by\n"
@@ -478,8 +484,7 @@ nla_formats = [("Unlocks a new Lobby Action for use by\n"
                 "모든 캐릭터에서 사용 가능해진다."),
                ("Разблокирует новый лобби-экшн\n"
                 "для всех персонажей вашего акка."),
-               ("使用後所有角色\n"
-                "均可選用新的大廳動作。")]
+               ("使用後所有角色均可選用新的大廳動作。")]
 
 la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                                 "outfit limited/Can't use in [PSO2].<c>"),
@@ -495,36 +500,36 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                              "『PSO2』블록 비대응<c>"),
                             ("<yellow>※Одежда влияет на движ-е пальцев\n"
                              "※Нельзя использовать в блоке PSO2<c>"),
-                            ("<yellow>※適用功能：適用服裝可動手指\n"
+                            ("<yellow>※適用功能：適用服裝可動手指/\n"
                              "不適用於『PSO2』線路<c>")],
              "actrandom": ["Has button actions/randomness.",
                            "지원 기능: 버튼 파생/랜덤",
                            "Есть кнопка действия/рандом.",
-                           "適用功能：按鍵額外動作/隨機動作"],
+                           "<yellow>※適用功能：按鍵額外動作/隨機動作<c>"],
              "actweapons": [("Shows equipment, has extra actions.\n"
                              "<yellow>Doesn't show some weapons.<c>"),
                             ("지원 기능: 버튼 파생/무기 장비 반영\n"
                              "<yellow>일부 무기 반영 불가<c>"),
                             ("Отображ. оружие; доп действие.\n"
                              "<yellow>Не показывает некоторое оружие.<c>"),
-                            ("適用功能：按鍵額外動作/顯示裝備武器\n"
-                             "<yellow>無法顯示一部分武器<c>")],
+                            ("<yellow>※適用功能：按鍵額外動作/顯示裝備武器\n"
+                             "無法顯示一部分武器<c>")],
              "action": ["Use action buttons for extra actions.",
                         "지원 기능: 버튼 파생",
                         "Доступно доп действие.",
-                        "適用功能：按鍵額外動作"],
+                        "<yellow>※適用功能：按鍵額外動作<c>"],
              "react": ["Reaction has extra actions.",
                        "지원 기능: 리액션",
                        "Есть доп действие реакцией.",
-                       "適用功能：反應動作"],
+                       "<yellow>※適用功能：反應動作<c>"],
              "weapons": [("Shows equipped weapons.\n"
                           "<yellow>Doesn't show some weapons.<c>"),
                          ("지원 기능: 무기 장비 반영\n"
                           "<yellow>일부 무기 반영 불가<c>"),
                          ("Показывает экип-е оружие.\n"
                           "<yellow>Не показывает некоторое оружие.<c>"),
-                         ("適用功能：顯示裝備武器\n"
-                          "<yellow>無法顯示一部分武器<c>")],
+                         ("<yellow>※適用功能：顯示裝備武器\n"
+                          "無法顯示一部分武器<c>")],
              "nclasspose": [("<yellow>※Finger motion outfit limited. Shows\n"
                              "equipment. Cannot perform in [PSO2].<c>"),
                             ("<yellow>※지원 기능: 대응복 손가락 가동/\n"
@@ -552,9 +557,8 @@ ha_formats = [("When used, allows you to select a\n"
                "версию с двигающимися пальцами.\n"
                "<yellow>※Поддерж-т не все лобби-экшены.\n"
                "※Нельзя использовать в блоке PSO2<c>"),
-              ("使用後所有角色\n"
-               "均可選用新的手部姿勢\n"
-               "<yellow>※不適用於一部分大廳動作\n"
+              ("使用後所有角色均可選用新的手部姿勢\n"
+               "<yellow>※不適用於一部分大廳動作/\n"
                "不適用於『PSO2』線路<c>")]
 
 def translate_la_desc(item):
