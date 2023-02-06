@@ -342,7 +342,7 @@ def translate_cosmetic_desc(item, file_name):
     # Some stickers have different names in-game from their tickets.
     # The in-game name is in the tickets' descriptions.
     # Extract it here.
-    if file_name == "Sticker":
+    if file_name == "Stack_Sticker":
         description_name = regex.search(
             r'(?<=ステッカーの\n)(.+[ＡＢＣ]?)(?=が選択可能。)',
             item["jp_explain"]).group(0)
