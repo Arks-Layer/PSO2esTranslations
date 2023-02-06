@@ -266,9 +266,9 @@ cosmetic_file_names = [
     ]
 
 cosmetic_types = {
-    "NGS_Ear": ["ear", "", "", "耳朵"],
-    "NGS_Horn": ["horn", "", "", "角"],
-    "NGS_Mouth": ["teeth and tongue", "", "", "牙齒·舌頭"],
+    "NGS_Ear": ["ear shape", "", "", "耳朵"],
+    "NGS_Horn": ["horn type", "", "", "角"],
+    "NGS_Mouth": ["teeth and tongue\nset", "", "", "牙齒·舌頭"],
     "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
     "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
     "Stack_Eye": ["eye pattern", "눈동자", "глаза", "眼瞳"],
@@ -342,7 +342,7 @@ def translate_cosmetic_desc(item, file_name):
     # Some stickers have different names in-game from their tickets.
     # The in-game name is in the tickets' descriptions.
     # Extract it here.
-    if file_name == "Sticker":
+    if file_name == "Stack_Sticker":
         description_name = regex.search(
             r'(?<=ステッカーの\n)(.+[ＡＢＣ]?)(?=が選択可能。)',
             item["jp_explain"]).group(0)
