@@ -492,7 +492,7 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                                 "손가락 가동/『PSO2』 블록 비지원<c>"),
                                ("<yellow>Есть действия/Движен. пальцев\n"
                                 "огранич./Недоступно в [PSO2].<c>"),
-                               ("<yellow>※適用功能：按鍵額外動作/適用服裝\n"
+                               ("<yellow>※適用功能：按鍵衍生/適用服裝\n"
                                 "可動手指/不適用於『PSO2』線路<c>")],
              "fingersngs": [("<yellow>※Finger motion limited based on outfit.\n"
                              "Cannot perform in [PSO2] Blocks.<c>"),
@@ -505,19 +505,19 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
              "actrandom": ["Has button actions/randomness.",
                            "지원 기능: 버튼 파생/랜덤",
                            "Есть кнопка действия/рандом.",
-                           "<yellow>※適用功能：按鍵額外動作/隨機動作<c>"],
+                           "<yellow>※適用功能：按鍵衍生/隨機動作<c>"],
              "actweapons": [("Shows equipment, has extra actions.\n"
                              "<yellow>Doesn't show some weapons.<c>"),
                             ("지원 기능: 버튼 파생/무기 장비 반영\n"
                              "<yellow>일부 무기 반영 불가<c>"),
                             ("Отображ. оружие; доп действие.\n"
                              "<yellow>Не показывает некоторое оружие.<c>"),
-                            ("<yellow>※適用功能：按鍵額外動作/顯示裝備武器\n"
+                            ("<yellow>※適用功能：按鍵衍生/顯示裝備武器\n"
                              "無法顯示一部分武器<c>")],
              "action": ["Use action buttons for extra actions.",
                         "지원 기능: 버튼 파생",
                         "Доступно доп действие.",
-                        "<yellow>※適用功能：按鍵額外動作<c>"],
+                        "<yellow>※適用功能：按鍵衍生<c>"],
              "react": ["Reaction has extra actions.",
                        "지원 기능: 리액션",
                        "Есть доп действие реакцией.",
