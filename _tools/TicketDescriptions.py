@@ -268,7 +268,7 @@ cosmetic_file_names = [
 cosmetic_types = {
     "NGS_Ear": ["ear shape", "", "", "耳朵"],
     "NGS_Horn": ["horn type", "", "", "角"],
-    "NGS_Mouth": ["teeth and tongue\nset", "", "", "牙齒·舌頭"],
+    "NGS_Mouth": ["teeth and tongue\nset", "", "", "牙齒或舌頭"],
     "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
     "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
     "Stack_Eye": ["eye pattern", "눈동자", "глаза", "眼瞳"],
