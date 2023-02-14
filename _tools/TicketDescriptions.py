@@ -7,7 +7,7 @@ import regex
 import shutil
 import argparse
 
-json_loc = os.path.join("..", "json")
+json_loc = os.path.join("", "json")
 
 parser = argparse.ArgumentParser(
     description = "Translates ticket item descriptions.")
@@ -44,7 +44,7 @@ chartable = "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨ
 
 # Translate layered wear
 
-layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю одежду (In)", "内衣"],
+layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю одежду (In)", "內衣"],
                       "Ba": ["basewear", "베이스웨어", "верхнюю одежду (Ba)", "底衣"],
                       "Se": ["setwear", "세트 웨어", "комплектную одежду (Se)", "套服"],
                       "Fu": ["full setwear", "풀세트 웨어", "полн.компл.одежду (Fu)", "全身服裝"],
@@ -262,7 +262,7 @@ cosmetic_file_names = [
     "Stack_BodyPaint", "Stack_Eye",
     "Stack_EyeBrow", "Stack_EyeLash",
     "Stack_FacePaint", "Stack_Hairstyle",
-    "Stack_Headparts", "Stack_Sticker"
+    "Stack_Sticker"
     ]
 
 cosmetic_types = {
@@ -276,7 +276,6 @@ cosmetic_types = {
     "Stack_EyeLash": ["eyelash type", "속눈썹", "ресницы", "睫毛"],
     "Stack_FacePaint": ["makeup", "메이크업", "макияж", "妝容"],
     "Stack_Hairstyle": ["hairstyle", "헤어스타일", "причёску", "髪型"],
-    "Stack_Headparts": ["head", "", "", "頭部部件"],
     "Stack_Sticker": ["sticker", "스티커", "стикер", "貼紙"]
     }
 
@@ -873,34 +872,34 @@ def translate_voice(item):
 
     # Strings for race/sex combo restrictions
     restrictions = {
-    "hm": ["Non-Cast male characters only.",
-           "인간 남성만 사용 가능.",
-           "Только для М не CAST'ов.",
-           "僅限非機器人男性使用。"],
-    "hf": ["Non-Cast female characters only.",
-           "인간 여성만 사용 가능.",
-           "Только для Ж не CAST'ов.",
-           "僅限非機器人女性使用。"],
-    "cm": ["Male Casts only.",
-           "캐스트 남성만 사용 가능.",
-           "Только для М CAST'ов.",
-           "僅限男性機器人使用。"],
-    "cf": ["Female Casts only.",
-           "캐스트 여성만 사용 가능.",
-           "Только для Ж CAST'ов.",
-           "僅限女性機器人使用。"],
-    "am": ["Male characters only (all races).",
-           "남성만 사용 가능.",
-           "Только М персонажей (все расы).",
-           "僅限男性使用。"],
-    "af": ["Female characters only (all races).",
-           "여성만 사용 가능.",
-           "Только Ж персонажей (все расы).",
-           "僅限女性使用。"],
-    "an": ["Usable by all characters.",
-           "모두 사용 가능.",
-           "Доступно всем персонажам.",
-           "全部類型可用。"]}
+    "hm": ["\nNon-Cast male characters only.",
+           "\n인간 남성만 사용 가능.",
+           "\nТолько для М не CAST'ов.",
+           "\n僅限非機器人男性使用。"],
+    "hf": ["\nNon-Cast female characters only.",
+           "\n인간 여성만 사용 가능.",
+           "\nТолько для Ж не CAST'ов.",
+           "\n僅限非機器人女性使用。"],
+    "cm": ["\nMale Casts only.",
+           "\n캐스트 남성만 사용 가능.",
+           "\nТолько для М CAST'ов.",
+           "\n僅限男性機器人使用。"],
+    "cf": ["\nFemale Casts only.",
+           "\n캐스트 여성만 사용 가능.",
+           "\nТолько для Ж CAST'ов.",
+           "\n僅限女性機器人使用。"],
+    "am": ["\nMale characters only (all races).",
+           "\n남성만 사용 가능.",
+           "\nТолько М персонажей (все расы).",
+           "\n僅限男性使用。"],
+    "af": ["\nFemale characters only (all races).",
+           "\n여성만 사용 가능.",
+           "\nТолько Ж персонажей (все расы).",
+           "\n僅限女性使用。"],
+    "an": ["\nUsable by all characters.",
+           "\n모두 사용 가능.",
+           "\nДоступно всем персонажам.",
+           ""]}
     
     # Detect ticket's race/sex restriction.
     # Default to no restriction.
@@ -948,7 +947,7 @@ def translate_voice(item):
         cv_name = jp_cv_name
     
     # Translate the description
-    item["tr_explain"] = voice_desc_formats[LANG] + "\n{restriction}\nCV: {actorname}".format(
+    item["tr_explain"] = voice_desc_formats[LANG] + "{restriction}\nCV: {actorname}".format(
         restriction = restrictions[racensex][LANG],
         actorname = cv_name)
 
@@ -972,5 +971,92 @@ items_file = codecs.open(os.path.join(json_loc, "Item_Stack_Voice.txt"),
 json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
 items_file.write("\n")
 items_file.close()
+
+# Translate Face & Head Related Files.
+def translate_facehead(item, file_name):
+    item_name = ""
+
+    # Decide what name we're working with
+    if TRANS_ALL:
+        item_name = item["tr_text"] or item["jp_text"]
+    else:
+        if item["tr_text"] == "":
+            # No translated name so skip this one
+            return -1
+        else:
+            item_name = item["tr_text"]
+    
+    # Description already present, leave it alone
+    if item["tr_explain"] != "" and REDO_ALL == False:
+        return -2
+
+    # Sort the type.
+    item_type = "n"
+    if "新しい頭部" in item["jp_explain"]:
+        item_type = "Head"
+    elif "新しいヘッドパーツ" in item["jp_explain"]:
+        item_type = "Headparts"
+    elif "新しい顔バリエーション" in item["jp_explain"]:
+        item_type = "Facetype"
+    elif "パートナーカード（ＰＣ）" in item["jp_explain"]:
+        item_type = "Personalcard"
+    
+    # Translate the description.
+    if item_type == "Personalcard":
+        return -1
+    else: 
+        item["tr_explain"] = (layer_desc_formats[LANG]).format(
+            itype = facehead_types[item_type][LANG],
+            iname = item_name)
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    
+    return 0
+
+facehead_file_names = [
+    "FacePattern",
+    "Stack_Headparts",
+    ]
+
+facehead_types = {
+    "Head": ["head", "", "", "頭部"],
+    "Headparts": ["head parts", "", "", "頭部部件"],
+    "Facetype": ["face type", "", "", "面部類型"]
+    }
+
+for file_name in facehead_file_names:
+    items_file_name = "Item_" + file_name + ".txt"
+    
+    try:
+        items_file = codecs.open(os.path.join(json_loc, items_file_name),
+                                 mode = 'r', encoding = 'utf-8')
+    except FileNotFoundError:
+        print("\t{0} not found.".format(items_file_name))
+        continue
+    
+    items = json.load(items_file)
+    print("{0} loaded.".format(items_file_name) + " {")
+    
+    items_file.close()
+
+    newtranslations = False
+    
+    for item in items:
+        problem = translate_facehead(item, file_name) if "選択可能になる。" in item["jp_explain"] else translate_facehead(item, file_name)
+
+        if problem == 0:
+            print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
+            newtranslations = True
+
+    if newtranslations == False:
+        print("\tNo new translations.")
+    
+    print("}")
+
+    items_file = codecs.open(os.path.join(json_loc, items_file_name),
+                             mode = 'w', encoding = 'utf-8')
+    json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
+    items_file.write("\n")
+    items_file.close()
 
 print ("Ticket translation complete.")
