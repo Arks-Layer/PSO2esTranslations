@@ -78,6 +78,11 @@ ndesc_formats = ["Unlocks a new {itype} for use.",
                  "Разблок {itype}.",
                  "使用後可選用新的{itype}。"]
 
+ndesc_formats_allcharacters = ["A {itype} that unlocks for all\ncharacters on your account.",
+                 "",
+                 "",
+                 "使用後所有角色均可選用新的{itype}。"]
+
 ntype_statements = ["Type: ",
                     "대응: ",
                     "Тип: ",
@@ -94,17 +99,22 @@ ntype_locks = {"a": ["All", "KO_All", "Все"],
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
                      "※При экипировке скрывает In.",
-                     "※穿著時不會顯示內衣。"]
+                     "※穿著時不會顯示內衣"]
 
 layer_sync_inners = ["※Synchronizes with [In] color.",
                      "※일부 [In]컬러 동기화",
                      "※Цвета некоторых [In] синхр-ся.",
-                     "※與一部分[In]同步顏色。"]
+                     "※與一部分[In]同步顏色"]
 
 layer_hide_accessories = ["※Hides accessories when worn.",
                           "※악세서리 표시 불가",
                           "※Скрывает аксессуары.",
-                          "※不適用於飾品的顯示。"]
+                          "※不適用於飾品的顯示"]
+
+ngs_only = ["※Cannot perform in [PSO2] Blocks.",
+             "※『PSO2』블록 비대응",
+             "※Нельзя использовать в блоке PSO2",
+             "※不適用於『PSO2』線路"]
 
 def translate_layer_desc(item, file_name):
     item_name = ""
@@ -257,18 +267,27 @@ for name in layered_file_names:
 # Translate other cosmetics
 
 cosmetic_file_names = [
-    "NGS_Ear", "NGS_Horn",
-    "NGS_Mouth", "Stack_Accessory",
-    "Stack_BodyPaint", "Stack_Eye",
-    "Stack_EyeBrow", "Stack_EyeLash",
-    "Stack_FacePaint", "Stack_Hairstyle",
+    "NGS_Ear",
+    "NGS_Horn",
+    "NGS_Motion",
+    "NGS_Mouth",
+    "NGS_Stamps",
+    "Stack_Accessory",
+    "Stack_BodyPaint",
+    "Stack_Eye",
+    "Stack_EyeBrow",
+    "Stack_EyeLash",
+    "Stack_FacePaint",
+    "Stack_Hairstyle",
     "Stack_Sticker"
     ]
 
 cosmetic_types = {
     "NGS_Ear": ["ear shape", "", "", "耳朵"],
     "NGS_Horn": ["horn type", "", "", "角"],
+    "NGS_Motion": ["motion", "", "", "行動方式"],
     "NGS_Mouth": ["teeth and tongue\nset", "", "", "牙齒、舌頭"],
+    "NGS_Stamps": ["stamp", "", "", "表情圖"],
     "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
     "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
     "Stack_Eye": ["eye pattern", "눈동자", "глаза", "眼瞳"],
@@ -297,12 +316,12 @@ cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для
 cosmetic_size_locks = ["※Size cannot be adjusted.",
                        "※사이즈 조정은 할 수 없습니다.",
                        "※Нельзя отрегулировать размер.",
-                       "※不能調整尺寸。"]
+                       "※不能調整尺寸"]
 
 cosmetic_color_locks = ["※Color cannot be changed",
                         "※색상은 변경할 수 없습니다",
                         "※Цвет нельзщя изменить.",
-                        "※不能更改顏色。"]
+                        "※不能更改顏色"]
 
 no_sticker_desc = [("Unlocks the ability to not display a\n"
                     "sticker in the Beauty Salon."),
@@ -402,6 +421,11 @@ def translate_ncosmetic_desc(item, file_name):
     if item["tr_explain"] != "" and REDO_ALL == False:
         return -2
     
+    # Some items can use for all characters.
+    allcharacters = False
+    if "全キャラクターで選択可能になる。" in item["jp_explain"]:
+        allcharacters = True
+    
     # Some items are locked to one race and/or type.
     types = get_type_restrictions(item)
 
@@ -409,12 +433,20 @@ def translate_ncosmetic_desc(item, file_name):
     hideinner = False
     if "着用時はインナーが非表示になります。" in item["jp_explain"]:
         hideinner = True
+    
+    # Some items don't support the PSO2 blocks.
+    ngsonly = False
+    if "<yellow>※『PSO2』ブロック非対応<c>" in item["jp_explain"]:
+        ngsonly = True
 
     # Translate the description.
-    item["tr_explain"] = (ndesc_formats[LANG] + "{typelock}").format(
+    item["tr_explain"] = ("{allcharacters}" + "{typelock}" + "{ngsonly}").format(
         itype = item_type,
+        allcharacters = (ndesc_formats_allcharacters[LANG] if allcharacters == True else ndesc_formats[LANG]).format(
+            itype = item_type),
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
-        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
+        ngsonly = "\n<yellow>" + ngs_only[LANG] + "<c>"  if ngsonly == True else "")
 
     item["tr_explain"] = item["tr_explain"].translate(chartable)
     
