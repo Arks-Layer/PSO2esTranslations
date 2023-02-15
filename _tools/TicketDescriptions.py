@@ -111,6 +111,11 @@ layer_hide_accessories = ["※Hides accessories when worn.",
                           "※Скрывает аксессуары.",
                           "※不適用於飾品的顯示"]
 
+ncosmetic_color_locks = ["※Color cannot be changed",
+                        "",
+                        "",
+                        "※不適用於顏色的變更"]
+
 ngs_only = ["※Cannot perform in [PSO2] Blocks.",
              "※『PSO2』블록 비대응",
              "※Нельзя использовать в блоке PSO2",
@@ -208,15 +213,21 @@ def translate_nlayer_desc(item, file_name):
     if "アクセサリー表示非対応" in item["jp_explain"]:
         hideaccess = True
 
+    # Some ngs items cannot be recolored.
+    ncolorlocked = False
+    if "カラー変更非対応" in item["jp_explain"]:
+        ncolorlocked = True
+
     # Translate the description.
-    item["tr_explain"] = (ndesc_formats[LANG] + "{syncpanties}" + "{typelock}" + "{hidepanties}" + "{noaccessories}").format(
+    item["tr_explain"] = (ndesc_formats[LANG] + "{syncpanties}" + "{typelock}" + "{hidepanties}" + "{noaccessories}" + "{ncolorlock}").format(
         itype = layered_wear_types[item_name[-3:-1]][LANG] if item_name.endswith("]")
                 # Exception for default layered wear since it doesn't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
         syncpanties = "\n<yellow>" + layer_sync_inners[LANG] + "<c>" if syncinner == True else "",
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
-        noaccessories = "\n<yellow>" + layer_hide_accessories[LANG] + "<c>" if hideaccess == True else "")
+        noaccessories = "\n<yellow>" + layer_hide_accessories[LANG] + "<c>" if hideaccess == True else "",
+        ncolorlock = "\n<yellow>" + ncosmetic_color_locks[LANG] + "<c>" if ncolorlocked == True else "")
 
     item["tr_explain"] = item["tr_explain"].translate(chartable)
     
@@ -316,12 +327,12 @@ cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для
 cosmetic_size_locks = ["※Size cannot be adjusted.",
                        "※사이즈 조정은 할 수 없습니다.",
                        "※Нельзя отрегулировать размер.",
-                       "※不能調整尺寸"]
+                       "※無法調整尺寸"]
 
 cosmetic_color_locks = ["※Color cannot be changed",
                         "※색상은 변경할 수 없습니다",
                         "※Цвет нельзщя изменить.",
-                        "※不能更改顏色"]
+                        "※無法變更顏色"]
 
 no_sticker_desc = [("Unlocks the ability to not display a\n"
                     "sticker in the Beauty Salon."),
@@ -387,14 +398,21 @@ def translate_cosmetic_desc(item, file_name):
     
     if "カラーは変更できません" in item["jp_explain"]:
         colorlocked = True
+
+    # Some ngs items cannot be recolored.
+    ncolorlocked = False
+    
+    if "カラー変更非対応" in item["jp_explain"]:
+        ncolorlocked = True
     
     # Translate the description.
-    item["tr_explain"] = (cosmetic_desc_formats[LANG] + "{sizelock}" + "{colorlock}").format(
+    item["tr_explain"] = (cosmetic_desc_formats[LANG] + "{sizelock}" + "{colorlock}" + "{ncolorlock}").format(
         sexlock = cosmetic_sex_locks[sex][LANG] if sex != "n" else "",
         itype = item_type,
         iname = item_name,
         sizelock = "\n<yellow>" + cosmetic_size_locks[LANG] + "<c>" if sizelocked == True else "",
-        colorlock = "\n<yellow>" + cosmetic_color_locks[LANG] + "<c>" if colorlocked == True else "")
+        colorlock = "\n<yellow>" + cosmetic_color_locks[LANG] + "<c>" if colorlocked == True else "",
+        ncolorlock = "\n<yellow>" + ncosmetic_color_locks[LANG] + "<c>" if ncolorlocked == True else "")
     
     # Hello Kitty item copyright notice
     if item["jp_text"] == "ハローキティチェーン":
@@ -434,9 +452,9 @@ def translate_ncosmetic_desc(item, file_name):
     if "着用時はインナーが非表示になります。" in item["jp_explain"]:
         hideinner = True
     
-    # Some items don't support the PSO2 blocks.
+    # Some items are not supported in the PSO2 blocks.
     ngsonly = False
-    if "<yellow>※『PSO2』ブロック非対応<c>" in item["jp_explain"]:
+    if "『PSO2』ブロック非対応" in item["jp_explain"]:
         ngsonly = True
 
     # Translate the description.
@@ -1026,16 +1044,6 @@ def translate_sortedbydesc(item, file_name):
     item_type = "n"
     if "新しい頭部" in item["jp_explain"]:
         item_type = "Head"
-    elif "新しい顔バリエーション" in item["jp_explain"]:
-        item_type = "Facetype"
-    elif "新しいヘッドパーツ" in item["jp_explain"]:
-        item_type = "Headparts"
-    elif "・ボディ" in item["jp_text"]:
-        item_type = "Bodyparts"
-    elif "・アーム" in item["jp_text"]:
-        item_type = "Armparts"
-    elif "・レッグ" in item["jp_text"]:
-        item_type = "Legparts"
     elif "パートナーカード（ＰＣ）" in item["jp_explain"]:
         item_type = "Personalcard"
     
@@ -1070,9 +1078,7 @@ def translate_nsortedbydesc(item, file_name):
 
     # Sort the type.
     item_type = "n"
-    if "新しい頭部" in item["jp_explain"]:
-        item_type = "Head"
-    elif "新しい顔バリエーション" in item["jp_explain"]:
+    if "新しい顔バリエーション" in item["jp_explain"]:
         item_type = "Facetype"
     elif "新しいヘッドパーツ" in item["jp_explain"]:
         item_type = "Headparts"
