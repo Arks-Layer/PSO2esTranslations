@@ -1004,8 +1004,8 @@ json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
 items_file.write("\n")
 items_file.close()
 
-# Translate Face & Head Related Files.
-def translate_facehead(item, file_name):
+# Translate the files that can be sorted by description or item name.
+def translate_sortedbydesc(item, file_name):
     item_name = ""
 
     # Decide what name we're working with
@@ -1026,10 +1026,16 @@ def translate_facehead(item, file_name):
     item_type = "n"
     if "新しい頭部" in item["jp_explain"]:
         item_type = "Head"
-    elif "新しいヘッドパーツ" in item["jp_explain"]:
-        item_type = "Headparts"
     elif "新しい顔バリエーション" in item["jp_explain"]:
         item_type = "Facetype"
+    elif "新しいヘッドパーツ" in item["jp_explain"]:
+        item_type = "Headparts"
+    elif "・ボディ" in item["jp_text"]:
+        item_type = "Bodyparts"
+    elif "・アーム" in item["jp_text"]:
+        item_type = "Armparts"
+    elif "・レッグ" in item["jp_text"]:
+        item_type = "Legparts"
     elif "パートナーカード（ＰＣ）" in item["jp_explain"]:
         item_type = "Personalcard"
     
@@ -1038,25 +1044,76 @@ def translate_facehead(item, file_name):
         return -1
     else: 
         item["tr_explain"] = (layer_desc_formats[LANG]).format(
-            itype = facehead_types[item_type][LANG],
+            itype = sortedbydesc_types[item_type][LANG],
             iname = item_name)
 
     item["tr_explain"] = item["tr_explain"].translate(chartable)
     
     return 0
 
-facehead_file_names = [
+def translate_nsortedbydesc(item, file_name):
+    item_name = ""
+
+    # Decide what name we're working with
+    if TRANS_ALL:
+        item_name = item["tr_text"] or item["jp_text"]
+    else:
+        if item["tr_text"] == "":
+            # No translated name so skip this one
+            return -1
+        else:
+            item_name = item["tr_text"]
+    
+    # Description already present, leave it alone
+    if item["tr_explain"] != "" and REDO_ALL == False:
+        return -2
+
+    # Sort the type.
+    item_type = "n"
+    if "新しい頭部" in item["jp_explain"]:
+        item_type = "Head"
+    elif "新しい顔バリエーション" in item["jp_explain"]:
+        item_type = "Facetype"
+    elif "新しいヘッドパーツ" in item["jp_explain"]:
+        item_type = "Headparts"
+    elif "・ボディ" in item["jp_text"]:
+        item_type = "Bodyparts"
+    elif "・アーム" in item["jp_text"]:
+        item_type = "Armparts"
+    elif "・レッグ" in item["jp_text"]:
+        item_type = "Legparts"
+    elif "パートナーカード（ＰＣ）" in item["jp_explain"]:
+        item_type = "Personalcard"
+    
+    # Translate the description.
+    if item_type == "Personalcard":
+        return -1
+    else: 
+        item["tr_explain"] = (ndesc_formats[LANG]).format(
+            itype = sortedbydesc_types[item_type][LANG],
+            iname = item_name)
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    
+    return 0
+
+sortedbydesc_file_names = [
     "FacePattern",
+    "NGS_Parts_Female",
+    "NGS_Parts_Male",
     "Stack_Headparts",
     ]
 
-facehead_types = {
+sortedbydesc_types = {
     "Head": ["head", "", "", "頭部"],
+    "Facetype": ["face type", "", "", "面部類型"],
     "Headparts": ["head parts", "", "", "頭部部件"],
-    "Facetype": ["face type", "", "", "面部類型"]
+    "Bodyparts": ["body parts", "", "", "身體部件"],
+    "Armparts": ["arm parts", "", "", "手臂部件"],
+    "Legparts": ["leg parts", "", "", "腿部部件"]
     }
 
-for file_name in facehead_file_names:
+for file_name in sortedbydesc_file_names:
     items_file_name = "Item_" + file_name + ".txt"
     
     try:
@@ -1074,7 +1131,7 @@ for file_name in facehead_file_names:
     newtranslations = False
     
     for item in items:
-        problem = translate_facehead(item, file_name) if "選択可能になる。" in item["jp_explain"] else translate_facehead(item, file_name)
+        problem = translate_nsortedbydesc(item, file_name) if "選択可能になる。" in item["jp_explain"] or item["jp_explain"] == "" else translate_sortedbydesc(item, file_name)
 
         if problem == 0:
             print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
