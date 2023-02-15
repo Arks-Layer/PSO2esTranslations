@@ -44,7 +44,7 @@ chartable = "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨ
 
 # Translate layered wear
 
-layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю одежду (In)", "内衣"],
+layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю одежду (In)", "內衣"],
                       "Ba": ["basewear", "베이스웨어", "верхнюю одежду (Ba)", "底衣"],
                       "Se": ["setwear", "세트 웨어", "комплектную одежду (Se)", "套服"],
                       "Fu": ["full setwear", "풀세트 웨어", "полн.компл.одежду (Fu)", "全身服裝"],
@@ -78,6 +78,11 @@ ndesc_formats = ["Unlocks a new {itype} for use.",
                  "Разблок {itype}.",
                  "使用後可選用新的{itype}。"]
 
+ndesc_formats_allcharacters = ["A {itype} that unlocks for all\ncharacters on your account.",
+                 "",
+                 "",
+                 "使用後所有角色均可選用新的{itype}。"]
+
 ntype_statements = ["Type: ",
                     "대응: ",
                     "Тип: ",
@@ -94,17 +99,27 @@ ntype_locks = {"a": ["All", "KO_All", "Все"],
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
                      "※При экипировке скрывает In.",
-                     "※穿著時不會顯示內衣。"]
+                     "※穿著時不會顯示內衣"]
 
 layer_sync_inners = ["※Synchronizes with [In] color.",
                      "※일부 [In]컬러 동기화",
                      "※Цвета некоторых [In] синхр-ся.",
-                     "※與一部分[In]同步顏色。"]
+                     "※與一部分[In]同步顏色"]
 
 layer_hide_accessories = ["※Hides accessories when worn.",
                           "※악세서리 표시 불가",
                           "※Скрывает аксессуары.",
-                          "※不適用於飾品的顯示。"]
+                          "※不適用於飾品的顯示"]
+
+ncosmetic_color_locks = ["※Color cannot be changed",
+                        "",
+                        "",
+                        "※不適用於顏色的變更"]
+
+ngs_only = ["※Cannot perform in [PSO2] Blocks.",
+             "※『PSO2』블록 비대응",
+             "※Нельзя использовать в блоке PSO2",
+             "※不適用於『PSO2』線路"]
 
 def translate_layer_desc(item, file_name):
     item_name = ""
@@ -198,15 +213,21 @@ def translate_nlayer_desc(item, file_name):
     if "アクセサリー表示非対応" in item["jp_explain"]:
         hideaccess = True
 
+    # Some ngs items cannot be recolored.
+    ncolorlocked = False
+    if "カラー変更非対応" in item["jp_explain"]:
+        ncolorlocked = True
+
     # Translate the description.
-    item["tr_explain"] = (ndesc_formats[LANG] + "{syncpanties}" + "{typelock}" + "{hidepanties}" + "{noaccessories}").format(
+    item["tr_explain"] = (ndesc_formats[LANG] + "{syncpanties}" + "{typelock}" + "{hidepanties}" + "{noaccessories}" + "{ncolorlock}").format(
         itype = layered_wear_types[item_name[-3:-1]][LANG] if item_name.endswith("]")
                 # Exception for default layered wear since it doesn't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
         syncpanties = "\n<yellow>" + layer_sync_inners[LANG] + "<c>" if syncinner == True else "",
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
-        noaccessories = "\n<yellow>" + layer_hide_accessories[LANG] + "<c>" if hideaccess == True else "")
+        noaccessories = "\n<yellow>" + layer_hide_accessories[LANG] + "<c>" if hideaccess == True else "",
+        ncolorlock = "\n<yellow>" + ncosmetic_color_locks[LANG] + "<c>" if ncolorlocked == True else "")
 
     item["tr_explain"] = item["tr_explain"].translate(chartable)
     
@@ -257,18 +278,27 @@ for name in layered_file_names:
 # Translate other cosmetics
 
 cosmetic_file_names = [
-    "NGS_Ear", "NGS_Horn",
-    "NGS_Mouth", "Stack_Accessory",
-    "Stack_BodyPaint", "Stack_Eye",
-    "Stack_EyeBrow", "Stack_EyeLash",
-    "Stack_FacePaint", "Stack_Hairstyle",
-    "Stack_Headparts", "Stack_Sticker"
+    "NGS_Ear",
+    "NGS_Horn",
+    "NGS_Motion",
+    "NGS_Mouth",
+    "NGS_Stamps",
+    "Stack_Accessory",
+    "Stack_BodyPaint",
+    "Stack_Eye",
+    "Stack_EyeBrow",
+    "Stack_EyeLash",
+    "Stack_FacePaint",
+    "Stack_Hairstyle",
+    "Stack_Sticker"
     ]
 
 cosmetic_types = {
     "NGS_Ear": ["ear shape", "", "", "耳朵"],
     "NGS_Horn": ["horn type", "", "", "角"],
-    "NGS_Mouth": ["teeth and tongue\nset", "", "", "牙齒·舌頭"],
+    "NGS_Motion": ["motion", "", "", "行動方式"],
+    "NGS_Mouth": ["teeth and tongue\nset", "", "", "牙齒、舌頭"],
+    "NGS_Stamps": ["stamp", "", "", "表情圖"],
     "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
     "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
     "Stack_Eye": ["eye pattern", "눈동자", "глаза", "眼瞳"],
@@ -276,7 +306,6 @@ cosmetic_types = {
     "Stack_EyeLash": ["eyelash type", "속눈썹", "ресницы", "睫毛"],
     "Stack_FacePaint": ["makeup", "메이크업", "макияж", "妝容"],
     "Stack_Hairstyle": ["hairstyle", "헤어스타일", "причёску", "髪型"],
-    "Stack_Headparts": ["head", "", "", "頭部部件"],
     "Stack_Sticker": ["sticker", "스티커", "стикер", "貼紙"]
     }
 
@@ -298,12 +327,12 @@ cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для
 cosmetic_size_locks = ["※Size cannot be adjusted.",
                        "※사이즈 조정은 할 수 없습니다.",
                        "※Нельзя отрегулировать размер.",
-                       "※不能調整尺寸。"]
+                       "※無法調整尺寸"]
 
 cosmetic_color_locks = ["※Color cannot be changed",
                         "※색상은 변경할 수 없습니다",
                         "※Цвет нельзщя изменить.",
-                        "※不能更改顏色。"]
+                        "※無法變更顏色"]
 
 no_sticker_desc = [("Unlocks the ability to not display a\n"
                     "sticker in the Beauty Salon."),
@@ -369,14 +398,21 @@ def translate_cosmetic_desc(item, file_name):
     
     if "カラーは変更できません" in item["jp_explain"]:
         colorlocked = True
+
+    # Some ngs items cannot be recolored.
+    ncolorlocked = False
+    
+    if "カラー変更非対応" in item["jp_explain"]:
+        ncolorlocked = True
     
     # Translate the description.
-    item["tr_explain"] = (cosmetic_desc_formats[LANG] + "{sizelock}" + "{colorlock}").format(
+    item["tr_explain"] = (cosmetic_desc_formats[LANG] + "{sizelock}" + "{colorlock}" + "{ncolorlock}").format(
         sexlock = cosmetic_sex_locks[sex][LANG] if sex != "n" else "",
         itype = item_type,
         iname = item_name,
         sizelock = "\n<yellow>" + cosmetic_size_locks[LANG] + "<c>" if sizelocked == True else "",
-        colorlock = "\n<yellow>" + cosmetic_color_locks[LANG] + "<c>" if colorlocked == True else "")
+        colorlock = "\n<yellow>" + cosmetic_color_locks[LANG] + "<c>" if colorlocked == True else "",
+        ncolorlock = "\n<yellow>" + ncosmetic_color_locks[LANG] + "<c>" if ncolorlocked == True else "")
     
     # Hello Kitty item copyright notice
     if item["jp_text"] == "ハローキティチェーン":
@@ -403,6 +439,11 @@ def translate_ncosmetic_desc(item, file_name):
     if item["tr_explain"] != "" and REDO_ALL == False:
         return -2
     
+    # Some items can use for all characters.
+    allcharacters = False
+    if "全キャラクターで選択可能になる。" in item["jp_explain"]:
+        allcharacters = True
+    
     # Some items are locked to one race and/or type.
     types = get_type_restrictions(item)
 
@@ -410,12 +451,20 @@ def translate_ncosmetic_desc(item, file_name):
     hideinner = False
     if "着用時はインナーが非表示になります。" in item["jp_explain"]:
         hideinner = True
+    
+    # Some items are not supported in the PSO2 blocks.
+    ngsonly = False
+    if "『PSO2』ブロック非対応" in item["jp_explain"]:
+        ngsonly = True
 
     # Translate the description.
-    item["tr_explain"] = (ndesc_formats[LANG] + "{typelock}").format(
+    item["tr_explain"] = ("{allcharacters}" + "{typelock}" + "{ngsonly}").format(
         itype = item_type,
+        allcharacters = (ndesc_formats_allcharacters[LANG] if allcharacters == True else ndesc_formats[LANG]).format(
+            itype = item_type),
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
-        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
+        hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
+        ngsonly = "\n<yellow>" + ngs_only[LANG] + "<c>"  if ngsonly == True else "")
 
     item["tr_explain"] = item["tr_explain"].translate(chartable)
     
@@ -492,7 +541,7 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
                                 "손가락 가동/『PSO2』 블록 비지원<c>"),
                                ("<yellow>Есть действия/Движен. пальцев\n"
                                 "огранич./Недоступно в [PSO2].<c>"),
-                               ("<yellow>※適用功能：按鍵額外動作/適用服裝\n"
+                               ("<yellow>※適用功能：按鍵衍生/適用服裝\n"
                                 "可動手指/不適用於『PSO2』線路<c>")],
              "fingersngs": [("<yellow>※Finger motion limited based on outfit.\n"
                              "Cannot perform in [PSO2] Blocks.<c>"),
@@ -505,19 +554,19 @@ la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
              "actrandom": ["Has button actions/randomness.",
                            "지원 기능: 버튼 파생/랜덤",
                            "Есть кнопка действия/рандом.",
-                           "<yellow>※適用功能：按鍵額外動作/隨機動作<c>"],
+                           "<yellow>※適用功能：按鍵衍生/隨機動作<c>"],
              "actweapons": [("Shows equipment, has extra actions.\n"
                              "<yellow>Doesn't show some weapons.<c>"),
                             ("지원 기능: 버튼 파생/무기 장비 반영\n"
                              "<yellow>일부 무기 반영 불가<c>"),
                             ("Отображ. оружие; доп действие.\n"
                              "<yellow>Не показывает некоторое оружие.<c>"),
-                            ("<yellow>※適用功能：按鍵額外動作/顯示裝備武器\n"
+                            ("<yellow>※適用功能：按鍵衍生/顯示裝備武器\n"
                              "無法顯示一部分武器<c>")],
              "action": ["Use action buttons for extra actions.",
                         "지원 기능: 버튼 파생",
                         "Доступно доп действие.",
-                        "<yellow>※適用功能：按鍵額外動作<c>"],
+                        "<yellow>※適用功能：按鍵衍生<c>"],
              "react": ["Reaction has extra actions.",
                        "지원 기능: 리액션",
                        "Есть доп действие реакцией.",
@@ -873,34 +922,34 @@ def translate_voice(item):
 
     # Strings for race/sex combo restrictions
     restrictions = {
-    "hm": ["Non-Cast male characters only.",
-           "인간 남성만 사용 가능.",
-           "Только для М не CAST'ов.",
-           "僅限非機器人男性使用。"],
-    "hf": ["Non-Cast female characters only.",
-           "인간 여성만 사용 가능.",
-           "Только для Ж не CAST'ов.",
-           "僅限非機器人女性使用。"],
-    "cm": ["Male Casts only.",
-           "캐스트 남성만 사용 가능.",
-           "Только для М CAST'ов.",
-           "僅限男性機器人使用。"],
-    "cf": ["Female Casts only.",
-           "캐스트 여성만 사용 가능.",
-           "Только для Ж CAST'ов.",
-           "僅限女性機器人使用。"],
-    "am": ["Male characters only (all races).",
-           "남성만 사용 가능.",
-           "Только М персонажей (все расы).",
-           "僅限男性使用。"],
-    "af": ["Female characters only (all races).",
-           "여성만 사용 가능.",
-           "Только Ж персонажей (все расы).",
-           "僅限女性使用。"],
-    "an": ["Usable by all characters.",
-           "모두 사용 가능.",
-           "Доступно всем персонажам.",
-           "全部類型可用。"]}
+    "hm": ["\nNon-Cast male characters only.",
+           "\n인간 남성만 사용 가능.",
+           "\nТолько для М не CAST'ов.",
+           "\n僅限非機器人男性使用。"],
+    "hf": ["\nNon-Cast female characters only.",
+           "\n인간 여성만 사용 가능.",
+           "\nТолько для Ж не CAST'ов.",
+           "\n僅限非機器人女性使用。"],
+    "cm": ["\nMale Casts only.",
+           "\n캐스트 남성만 사용 가능.",
+           "\nТолько для М CAST'ов.",
+           "\n僅限男性機器人使用。"],
+    "cf": ["\nFemale Casts only.",
+           "\n캐스트 여성만 사용 가능.",
+           "\nТолько для Ж CAST'ов.",
+           "\n僅限女性機器人使用。"],
+    "am": ["\nMale characters only (all races).",
+           "\n남성만 사용 가능.",
+           "\nТолько М персонажей (все расы).",
+           "\n僅限男性使用。"],
+    "af": ["\nFemale characters only (all races).",
+           "\n여성만 사용 가능.",
+           "\nТолько Ж персонажей (все расы).",
+           "\n僅限女性使用。"],
+    "an": ["\nUsable by all characters.",
+           "\n모두 사용 가능.",
+           "\nДоступно всем персонажам.",
+           ""]}
     
     # Detect ticket's race/sex restriction.
     # Default to no restriction.
@@ -948,7 +997,7 @@ def translate_voice(item):
         cv_name = jp_cv_name
     
     # Translate the description
-    item["tr_explain"] = voice_desc_formats[LANG] + "\n{restriction}\nCV: {actorname}".format(
+    item["tr_explain"] = voice_desc_formats[LANG] + "{restriction}\nCV: {actorname}".format(
         restriction = restrictions[racensex][LANG],
         actorname = cv_name)
 
@@ -972,5 +1021,137 @@ items_file = codecs.open(os.path.join(json_loc, "Item_Stack_Voice.txt"),
 json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
 items_file.write("\n")
 items_file.close()
+
+# Translate the files that can be sorted by description or item name.
+def translate_sortedbydesc(item, file_name):
+    item_name = ""
+
+    # Decide what name we're working with
+    if TRANS_ALL:
+        item_name = item["tr_text"] or item["jp_text"]
+    else:
+        if item["tr_text"] == "":
+            # No translated name so skip this one
+            return -1
+        else:
+            item_name = item["tr_text"]
+    
+    # Description already present, leave it alone
+    if item["tr_explain"] != "" and REDO_ALL == False:
+        return -2
+
+    # Sort the type.
+    item_type = "n"
+    if "新しい頭部" in item["jp_explain"]:
+        item_type = "Head"
+    elif "パートナーカード（ＰＣ）" in item["jp_explain"]:
+        item_type = "Personalcard"
+    
+    # Translate the description.
+    if item_type == "Personalcard":
+        return -1
+    else: 
+        item["tr_explain"] = (layer_desc_formats[LANG]).format(
+            itype = sortedbydesc_types[item_type][LANG],
+            iname = item_name)
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    
+    return 0
+
+def translate_nsortedbydesc(item, file_name):
+    item_name = ""
+
+    # Decide what name we're working with
+    if TRANS_ALL:
+        item_name = item["tr_text"] or item["jp_text"]
+    else:
+        if item["tr_text"] == "":
+            # No translated name so skip this one
+            return -1
+        else:
+            item_name = item["tr_text"]
+    
+    # Description already present, leave it alone
+    if item["tr_explain"] != "" and REDO_ALL == False:
+        return -2
+
+    # Sort the type.
+    item_type = "n"
+    if "新しい顔バリエーション" in item["jp_explain"]:
+        item_type = "Facetype"
+    elif "新しいヘッドパーツ" in item["jp_explain"]:
+        item_type = "Headparts"
+    elif "・ボディ" in item["jp_text"]:
+        item_type = "Bodyparts"
+    elif "・アーム" in item["jp_text"]:
+        item_type = "Armparts"
+    elif "・レッグ" in item["jp_text"]:
+        item_type = "Legparts"
+    elif "パートナーカード（ＰＣ）" in item["jp_explain"]:
+        item_type = "Personalcard"
+    
+    # Translate the description.
+    if item_type == "Personalcard":
+        return -1
+    else: 
+        item["tr_explain"] = (ndesc_formats[LANG]).format(
+            itype = sortedbydesc_types[item_type][LANG],
+            iname = item_name)
+
+    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    
+    return 0
+
+sortedbydesc_file_names = [
+    "FacePattern",
+    "NGS_Parts_Female",
+    "NGS_Parts_Male",
+    "Stack_Headparts",
+    ]
+
+sortedbydesc_types = {
+    "Head": ["head", "", "", "頭部"],
+    "Facetype": ["face type", "", "", "面部類型"],
+    "Headparts": ["head parts", "", "", "頭部部件"],
+    "Bodyparts": ["body parts", "", "", "身體部件"],
+    "Armparts": ["arm parts", "", "", "手臂部件"],
+    "Legparts": ["leg parts", "", "", "腿部部件"]
+    }
+
+for file_name in sortedbydesc_file_names:
+    items_file_name = "Item_" + file_name + ".txt"
+    
+    try:
+        items_file = codecs.open(os.path.join(json_loc, items_file_name),
+                                 mode = 'r', encoding = 'utf-8')
+    except FileNotFoundError:
+        print("\t{0} not found.".format(items_file_name))
+        continue
+    
+    items = json.load(items_file)
+    print("{0} loaded.".format(items_file_name) + " {")
+    
+    items_file.close()
+
+    newtranslations = False
+    
+    for item in items:
+        problem = translate_nsortedbydesc(item, file_name) if "選択可能になる。" in item["jp_explain"] or item["jp_explain"] == "" else translate_sortedbydesc(item, file_name)
+
+        if problem == 0:
+            print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
+            newtranslations = True
+
+    if newtranslations == False:
+        print("\tNo new translations.")
+    
+    print("}")
+
+    items_file = codecs.open(os.path.join(json_loc, items_file_name),
+                             mode = 'w', encoding = 'utf-8')
+    json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
+    items_file.write("\n")
+    items_file.close()
 
 print ("Ticket translation complete.")
