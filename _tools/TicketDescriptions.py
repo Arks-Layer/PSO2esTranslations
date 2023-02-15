@@ -458,9 +458,9 @@ def translate_ncosmetic_desc(item, file_name):
         ngsonly = True
 
     # Translate the description.
-    item["tr_explain"] = ("{allcharacters}" + "{typelock}" + "{ngsonly}").format(
+    item["tr_explain"] = ("{desc_format}" + "{typelock}" + "{ngsonly}").format(
         itype = item_type,
-        allcharacters = (ndesc_formats_allcharacters[LANG] if allcharacters == True else ndesc_formats[LANG]).format(
+        desc_format = (ndesc_formats_allcharacters[LANG] if allcharacters == True else ndesc_formats[LANG]).format(
             itype = item_type),
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
