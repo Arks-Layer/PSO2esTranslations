@@ -39,8 +39,8 @@ args = parser.parse_args()
 TRANS_ALL, LANG, REDO_ALL = args.all, args.lang, args.redo
 
 # Full width character transtable
-chartable = "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ　＝－＋／．＆",
-                         "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz =-+/.&")
+chartable = "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ＝－＋／．＆",
+                         "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz=-+/.&")
 
 # Translate layered wear
 
@@ -120,6 +120,18 @@ ngs_only = ["※Cannot perform in [PSO2] Blocks.",
              "※『PSO2』블록 비대응",
              "※Нельзя использовать в блоке PSO2",
              "※不適用於『PSO2』線路"]
+
+mag_device_lv100 = [("※Must be used in PSO2 on a Mag\n"
+                            "which has reached Lv.100 or above."),
+                            (""),
+                            (""),
+                            ("※在『PSO2』中僅可對\n"
+                            " 　Lv.100或以上的瑪古使用")]
+
+mag_device_ngs = ["※Only usable in NGS.",
+                        "",
+                        "",
+                        "※僅可在『NGS』中使用"]
 
 def translate_layer_desc(item, file_name):
     item_name = ""
@@ -1024,6 +1036,19 @@ json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
 items_file.write("\n")
 items_file.close()
 
+magd_evol_formats = ["A device that changes a Mag's form.",
+                            "",
+                            "",
+                            "變更瑪古外觀的裝置。"]
+
+magd_reset_formats = [("Resets a Mag's appearance, stats,\n"
+                                "and support functions back to its \n"
+                                "default state."),
+                                (""),
+                                (""),
+                                "重置瑪古的等級與支援功能\n"
+                                "並使瑪古變回初始狀態的裝置。"]
+
 # Translate the files that can be sorted by description or item name.
 def translate_sortedbydesc(item, file_name):
     item_name = ""
@@ -1042,16 +1067,35 @@ def translate_sortedbydesc(item, file_name):
     if item["tr_explain"] != "" and REDO_ALL == False:
         return -2
 
+    # Some Mag devices can only be used for mags that are lv.100 or above in PSO2.
+    magdlv100 = False
+    if "『PSO2』ではLv.100以上の" in item["jp_explain"]:
+        magdlv100 = True
+
+    # Some Mag devices can only be used in NGS.
+    magdngs = False
+    if "『NGS』でのみ使用可能" in item["jp_explain"]:
+        magdngs = True
+
     # Sort the type.
     item_type = "n"
     if "新しい頭部" in item["jp_explain"]:
         item_type = "Head"
     elif "パートナーカード（ＰＣ）" in item["jp_explain"]:
         item_type = "Personalcard"
+    elif "マグの見た目を変更するデバイス" in item["jp_explain"]:
+        item_type = "MagDeviceEvol"
+    elif "マグのレベルや支援機能をリセットし" in item["jp_explain"]:
+        item_type = "MagDeviceReset"
     
     # Translate the description.
     if item_type == "Personalcard":
         return -1
+    elif item_type.startswith("MagDevice"):
+        item["tr_explain"] = ("{magd_format}" + "{magd_lv100limit}" + "{magd_ngslimit}").format(
+        magd_format = (magd_evol_formats[LANG] if item_type == "MagDeviceEvol" else magd_reset_formats[LANG]),
+        magd_lv100limit = "\n<yellow>" + mag_device_lv100[LANG] + "<c>" if magdlv100 == True else "",
+        magd_ngslimit = "\n<yellow>" + mag_device_ngs[LANG] + "<c>" if magdngs == True else "")
     else: 
         item["tr_explain"] = (layer_desc_formats[LANG]).format(
             itype = sortedbydesc_types[item_type][LANG],
@@ -1111,7 +1155,8 @@ sortedbydesc_file_names = [
     "FacePattern",
     "NGS_Parts_Female",
     "NGS_Parts_Male",
-    "Stack_Headparts",
+    "Stack_DeviceHT",
+    "Stack_Headparts"
     ]
 
 sortedbydesc_types = {
