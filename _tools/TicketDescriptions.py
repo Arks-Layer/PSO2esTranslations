@@ -39,8 +39,8 @@ args = parser.parse_args()
 TRANS_ALL, LANG, REDO_ALL = args.all, args.lang, args.redo
 
 # Full width character transtable
-chartable = "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ　＝－＋／．＆（）",
-                         "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz =-+/.&()")
+chartable = "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ　＝－＋／．＆",
+                         "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz =-+/.&")
 
 # Translate layered wear
 
@@ -73,7 +73,7 @@ layer_sex_locks = {"n": ["", "", "", ""],
                          "\n僅限女性使用。"]}
 
 # New cosmetics format. Must include itype variable.
-ndesc_formats = ["Unlocks a new {itype} for use.",
+ndesc_formats = ["Unlocks {a}new {itype} for use.",
                  "사용하면 새로운 {itype}\n선택이 가능해집니다.",
                  "Разблок {itype}.",
                  "使用後可選用新的{itype}。"]
@@ -223,6 +223,8 @@ def translate_nlayer_desc(item, file_name):
         itype = layered_wear_types[item_name[-3:-1]][LANG] if item_name.endswith("]")
                 # Exception for default layered wear since it doesn't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
+        # Ugly hack
+        a = "a ",
         syncpanties = "\n<yellow>" + layer_sync_inners[LANG] + "<c>" if syncinner == True else "",
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
@@ -458,10 +460,10 @@ def translate_ncosmetic_desc(item, file_name):
         ngsonly = True
 
     # Translate the description.
-    item["tr_explain"] = ("{allcharacters}" + "{typelock}" + "{ngsonly}").format(
+    item["tr_explain"] = ("{desc_format}" + "{typelock}" + "{ngsonly}").format(
         itype = item_type,
-        allcharacters = (ndesc_formats_allcharacters[LANG] if allcharacters == True else ndesc_formats[LANG]).format(
-            itype = item_type),
+        desc_format = (ndesc_formats_allcharacters[LANG] if allcharacters == True else ndesc_formats[LANG]).format(
+            itype = item_type, a = "a "),
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
         ngsonly = "\n<yellow>" + ngs_only[LANG] + "<c>"  if ngsonly == True else "")
@@ -1097,6 +1099,8 @@ def translate_nsortedbydesc(item, file_name):
     else: 
         item["tr_explain"] = (ndesc_formats[LANG]).format(
             itype = sortedbydesc_types[item_type][LANG],
+            # Ugly hack
+            a = "" if item_type.endswith("s") else "a ",
             iname = item_name)
 
     item["tr_explain"] = item["tr_explain"].translate(chartable)
