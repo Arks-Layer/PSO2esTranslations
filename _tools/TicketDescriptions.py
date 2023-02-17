@@ -39,8 +39,19 @@ args = parser.parse_args()
 TRANS_ALL, LANG, REDO_ALL = args.all, args.lang, args.redo
 
 # Full width character transtable
-chartable = "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ＝－＋／．＆",
-                         "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz=-+/.&")
+chartable = [
+    "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ　＝－＋／．＆（）：！",
+    "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz =-+/.&():!"),
+
+    "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ　＝－＋／．＆（）：！",
+    "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz =-+/.&():!"),
+
+    "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ　＝－＋／．＆（）：！",
+    "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz =-+/.&():!"),
+
+    "".maketrans("",
+    "")]
+
 
 # Translate layered wear
 
@@ -171,7 +182,7 @@ def translate_layer_desc(item, file_name):
         sexlock = layer_sex_locks[sex][LANG] if sex != "n" else "",
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0
 
@@ -243,7 +254,7 @@ def translate_nlayer_desc(item, file_name):
         noaccessories = "\n<yellow>" + layer_hide_accessories[LANG] + "<c>" if hideaccess == True else "",
         ncolorlock = "\n<yellow>" + ncosmetic_color_locks[LANG] + "<c>" if ncolorlocked == True else "")
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0
 
@@ -432,7 +443,7 @@ def translate_cosmetic_desc(item, file_name):
     if item["jp_text"] == "ハローキティチェーン":
         item["tr_explain"] += "\nc'76,'15 SANRIO APPR.NO.S564996"
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0
 
@@ -480,7 +491,7 @@ def translate_ncosmetic_desc(item, file_name):
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
         ngsonly = "\n<yellow>" + ngs_only[LANG] + "<c>"  if ngsonly == True else "")
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0
 
@@ -680,7 +691,7 @@ def translate_la_desc(item):
             extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG],
             fingers = "" if extras in ["nclasspose", "actfingersngs", "fingersngs"] else nla_fingers[LANG])
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0    
 
@@ -1015,7 +1026,7 @@ def translate_voice(item):
         restriction = restrictions[racensex][LANG],
         actorname = cv_name)
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
         
     return 0
 
@@ -1050,7 +1061,7 @@ magd_reset_formats = [("Resets a Mag's appearance, stats,\n"
                                 "並使瑪古變回初始狀態的裝置。"]
 
 # Translate the files that can be sorted by description or item name.
-def translate_sortedbydesc(item, file_name):
+def translate_cosmeticsorted_desc(item, file_name):
     item_name = ""
 
     # Decide what name we're working with
@@ -1098,14 +1109,14 @@ def translate_sortedbydesc(item, file_name):
         magd_ngslimit = "\n<yellow>" + mag_device_ngs[LANG] + "<c>" if magdngs == True else "")
     else: 
         item["tr_explain"] = (layer_desc_formats[LANG]).format(
-            itype = sortedbydesc_types[item_type][LANG],
+            itype = cosmeticsorted_types[item_type][LANG],
             iname = item_name)
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0
 
-def translate_nsortedbydesc(item, file_name):
+def translate_ncosmeticsorted_desc(item, file_name):
     item_name = ""
 
     # Decide what name we're working with
@@ -1142,16 +1153,16 @@ def translate_nsortedbydesc(item, file_name):
         return -1
     else: 
         item["tr_explain"] = (ndesc_formats[LANG]).format(
-            itype = sortedbydesc_types[item_type][LANG],
+            itype = cosmeticsorted_types[item_type][LANG],
             # Ugly hack
             a = "" if item_type.endswith("s") else "a ",
             iname = item_name)
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0
 
-sortedbydesc_file_names = [
+cosmeticsorted_file_names = [
     "FacePattern",
     "NGS_Parts_Female",
     "NGS_Parts_Male",
@@ -1159,7 +1170,7 @@ sortedbydesc_file_names = [
     "Stack_Headparts"
     ]
 
-sortedbydesc_types = {
+cosmeticsorted_types = {
     "Head": ["head", "", "", "頭部"],
     "Facetype": ["face type", "", "", "面部類型"],
     "Headparts": ["head parts", "", "", "頭部部件"],
@@ -1168,7 +1179,7 @@ sortedbydesc_types = {
     "Legparts": ["leg parts", "", "", "腿部部件"]
     }
 
-for file_name in sortedbydesc_file_names:
+for file_name in cosmeticsorted_file_names:
     items_file_name = "Item_" + file_name + ".txt"
     
     try:
@@ -1186,7 +1197,7 @@ for file_name in sortedbydesc_file_names:
     newtranslations = False
     
     for item in items:
-        problem = translate_nsortedbydesc(item, file_name) if "選択可能になる。" in item["jp_explain"] or item["jp_explain"] == "" else translate_sortedbydesc(item, file_name)
+        problem = translate_ncosmeticsorted_desc(item, file_name) if "選択可能になる。" in item["jp_explain"] or item["jp_explain"] == "" else translate_cosmeticsorted_desc(item, file_name)
 
         if problem == 0:
             print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
