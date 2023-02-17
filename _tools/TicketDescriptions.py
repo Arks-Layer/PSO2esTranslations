@@ -126,7 +126,7 @@ mag_device_lv100 = [("※Must be used in PSO2 on a Mag\n"
                             (""),
                             (""),
                             ("※在『PSO2』中僅可對\n"
-                            " 　Lv.100或以上的瑪古使用")]
+                            "　Lv.100或以上的瑪古使用")]
 
 mag_device_ngs = ["※Only usable in NGS.",
                         "",
