@@ -368,7 +368,7 @@ cosmetic_types = {
     }
 
 # JP text: 
-    # ※使用すると、新しい{itype}の\n
+    # 使用すると、新しい{itype}の\n
     # {iname}が選択可能。
 # {sexlock} unavailable.
 cosmetic_desc_use_new_formats = [("Unlocks the {sexlock}{itype}\n"
@@ -384,7 +384,7 @@ cosmetic_desc_use_new_formats = [("Unlocks the {sexlock}{itype}\n"
                           "{iname}。")]
 
 # JP text: 
-    # ※チケットを使用すると、{itype}\n
+    # チケットを使用すると、{itype}\n
     # {iname}が選択可能。
 # {sexlock} unavailable.
 cosmetic_desc_ticket_formats = [("Unlocks the {sexlock}{itype}\n"
