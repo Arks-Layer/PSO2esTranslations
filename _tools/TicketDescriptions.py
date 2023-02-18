@@ -818,6 +818,68 @@ la_extras = {
                     ("適用功能：反應動作")]
             }
 
+# Just for accurary, I think it will be better if you guys can fill it out again. sorry:( 
+
+# la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
+#                                 "outfit limited/Can't use in [PSO2].<c>"),
+#                                ("<yellow>대응 기능: 버튼 파생/대응 복장\n"
+#                                 "손가락 가동/『PSO2』 블록 비지원<c>"),
+#                                ("<yellow>Есть действия/Движен. пальцев\n"
+#                                 "огранич./Недоступно в [PSO2].<c>"),
+#                                ("<yellow>※適用功能：按鍵衍生/適用服裝\n"
+#                                 "可動手指/不適用於『PSO2』線路<c>")],
+#              "fingersngs": [("<yellow>※Finger motion limited based on outfit.\n"
+#                              "Cannot perform in [PSO2] Blocks.<c>"),
+#                             ("<yellow>※지원 기능: 대응복 손가락 가동<c>\n"
+#                              "『PSO2』블록 비대응<c>"),
+#                             ("<yellow>※Одежда влияет на движ-е пальцев\n"
+#                              "※Нельзя использовать в блоке PSO2<c>"),
+#                             ("<yellow>※適用功能：適用服裝可動手指/\n"
+#                              "不適用於『PSO2』線路<c>")],
+#              "actrandom": ["Has button actions/randomness.",
+#                            "지원 기능: 버튼 파생/랜덤",
+#                            "Есть кнопка действия/рандом.",
+#                            "<yellow>※適用功能：按鍵衍生/隨機動作<c>"],
+#              "actweapons": [("Shows equipment, has extra actions.\n"
+#                              "<yellow>Doesn't show some weapons.<c>"),
+#                             ("지원 기능: 버튼 파생/무기 장비 반영\n"
+#                              "<yellow>일부 무기 반영 불가<c>"),
+#                             ("Отображ. оружие; доп действие.\n"
+#                              "<yellow>Не показывает некоторое оружие.<c>"),
+#                             ("<yellow>※適用功能：按鍵衍生/顯示裝備武器\n"
+#                              "無法顯示一部分武器<c>")],
+#              "action": ["Use action buttons for extra actions.",
+#                         "지원 기능: 버튼 파생",
+#                         "Доступно доп действие.",
+#                         "<yellow>※適用功能：按鍵衍生<c>"],
+#              "react": ["Reaction has extra actions.",
+#                        "지원 기능: 리액션",
+#                        "Есть доп действие реакцией.",
+#                        "<yellow>※適用功能：反應動作<c>"],
+#              "weapons": [("Shows equipped weapons.\n"
+#                           "<yellow>Doesn't show some weapons.<c>"),
+#                          ("지원 기능: 무기 장비 반영\n"
+#                           "<yellow>일부 무기 반영 불가<c>"),
+#                          ("Показывает экип-е оружие.\n"
+#                           "<yellow>Не показывает некоторое оружие.<c>"),
+#                          ("<yellow>※適用功能：顯示裝備武器\n"
+#                           "無法顯示一部分武器<c>")],
+#              "nclasspose": [("<yellow>※Finger motion outfit limited. Shows\n"
+#                              "equipment. Cannot perform in [PSO2].<c>"),
+#                             ("<yellow>※지원 기능: 대응복 손가락 가동/\n"
+#                              "무기 장비 반영/『PSO2』블록 비대응<c>"),
+#                             ("<yellow>Движ. завис-т от одежды| Отображ.\n"
+#                              "экип. оружие| Только для NGS.<c>"),
+#                             ("<yellow>※適用功能：適用服裝可動手指/\n"
+#                              "顯示裝備武器/不適用於『PSO2』線路<c>")]
+#              }
+# 
+# nla_fingers = ["\n<yellow>※Finger motion limited based on outfit.<c>",
+#                "\n<yellow>※지원 기능: 대응복 손가락 가동<c>",
+#                "\n<yellow>※Одежда влияет на движ-е пальцев<c>",
+#                "\n<yellow>※適用功能：適用服裝可動手指"]
+
+
 # JP text: 
     # 使用すると新しい手のポーズが\n全キャラクターで選択可能になる。\n
     # <yellow>※一部ロビーアクション非対応／\n
