@@ -891,6 +891,21 @@ la_extras = {
 #                "\n<yellow>※Одежда влияет на движ-е пальцев<c>",
 #                "\n<yellow>※適用功能：適用服裝可動手指"]
 
+extras_names = {
+    "ボタン派生/一部表示適用外\n対応服指可動/『PSO2』ブロック非対応<c>": "*actexceptfingersngs",
+    "ボタン派生／\n対応服指可動／『PSO2』ブロック非対応<c>": "*actfingersngs",
+    "ボタン派生／対応服指可動／\n『PSO2』ブロック非対応<c>": "*actfingersngs",
+    "ボタン派生／\n対応服指可動<c>": "*actfingers",
+    "ボタン派生／ランダム／\n対応服指可動<c>": "*actrandomfingers",
+    "対応服指可動／\n武器装備反映／『PSO2』ブロック非対応<c>": "*fingersweaponsngs",
+    "対応服指可動／\n『PSO2』ブロック非対応<c>": "*fingersngs",
+    "対応服指可動<c>": "*fingers",
+    "ボタン派生／武器装備反映\n<yellow>一部武器反映不可<c>": "actweapons",
+    "ボタン派生／ランダム": "actrandom",
+    "ボタン派生": "act",
+    "武器装備反映\n<yellow>一部武器反映不可<c>": "weapons",
+    "リアクション":"react"
+    }
 
 # JP text: 
     # 使用すると新しい手のポーズが\n全キャラクターで選択可能になる。\n
@@ -931,34 +946,10 @@ def translate_la_desc(item):
 
     # Figure out what extra stuff to put at the end of the description
     extras = "n"
-    # NGS
-    if "\n<yellow>※対応機能：ボタン派生/一部表示適用外\n対応服指可動/『PSO2』ブロック非対応<c>" in item["jp_explain"]:
-        extras = "*actexceptfingersngs"
-    elif "\n<yellow>※対応機能：ボタン派生／\n対応服指可動／『PSO2』ブロック非対応<c>" in item["jp_explain"]:
-        extras = "*actfingersngs" 
-    elif "\n<yellow>※対応機能：ボタン派生／対応服指可動／\n『PSO2』ブロック非対応<c>" in item["jp_explain"]:
-        extras = "*actfingersngs"
-    elif "\n<yellow>※対応機能：ボタン派生／ランダム／\n対応服指可動<c>" in item["jp_explain"]:
-        extras = "*actrandomfingers"
-    elif "\n<yellow>※対応機能：ボタン派生／\n対応服指可動<c>" in item["jp_explain"]:
-        extras = "*actfingers"
-    elif "\n<yellow>※対応機能：対応服指可動／\n武器装備反映／『PSO2』ブロック非対応<c>" in item["jp_explain"]:
-        extras = "*fingersweaponsngs"
-    elif "\n<yellow>※対応機能：対応服指可動／\n『PSO2』ブロック非対応<c>" in item["jp_explain"]:
-        extras = "*fingersngs"
-    elif "\n<yellow>※対応機能：対応服指可動<c>" in item["jp_explain"]:
-        extras = "*fingers"
-    # PSO2
-    elif "\n対応機能：ボタン派生／武器装備反映\n<yellow>一部武器反映不可<c>" in item["jp_explain"]:
-        extras = "actweapons"
-    elif "\n対応機能：ボタン派生／ランダム" in item["jp_explain"]:
-        extras = "actrandom"
-    elif "\n対応機能：ボタン派生" in item["jp_explain"]:
-        extras = "act"
-    elif "\n対応機能：武器装備反映\n<yellow>一部武器反映不可<c>" in item["jp_explain"]:
-        extras = "weapons"
-    elif "\n対応機能：リアクション" in item["jp_explain"]:
-        extras = "react"
+    # Split off the bit that changes and use it as the key to a dictionary of codenames    
+    if "対応機能：" in item["jp_explain"]:
+        extras_jp = item["jp_explain"].split("対応機能：")[1]
+        extras = extras_names[extras_jp]
 
     # Translate old LAs
     if "ロビアク『" in item["jp_explain"]:
