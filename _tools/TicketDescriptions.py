@@ -834,10 +834,11 @@ la_extras = {
             # JP text: 
                 # 対応機能：リアクション
             "react": [
-                    (""),
-                    (""),
-                    (""),
-                    ("適用功能：反應動作")]
+                ("Reaction has extra actions."),
+                ("지원 기능: 리액션"),
+                ("Есть доп действие реакцией."),
+                ("適用功能：反應動作")
+                ]
             }
 
 # Just for accurary, I think it will be better if you guys can fill it out again. sorry:( 
@@ -874,10 +875,6 @@ la_extras = {
 #                         "지원 기능: 버튼 파생",
 #                         "Доступно доп действие.",
 #                         "<yellow>※適用功能：按鍵衍生<c>"],
-#              "react": ["Reaction has extra actions.",
-#                        "지원 기능: 리액션",
-#                        "Есть доп действие реакцией.",
-#                        "<yellow>※適用功能：反應動作<c>"],
 #              "weapons": [("Shows equipped weapons.\n"
 #                           "<yellow>Doesn't show some weapons.<c>"),
 #                          ("지원 기능: 무기 장비 반영\n"
