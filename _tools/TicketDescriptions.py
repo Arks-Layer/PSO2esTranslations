@@ -481,7 +481,7 @@ def translate_cosmetic_desc(item, file_name):
     if "カラー変更非対応" in item["jp_explain"]:
         ncolorlocked = True
     
-    # Combine the function name.
+    # Combine the variable name.
     desc_format_name = "cosmetic_desc_" + desc_sort + "_formats"
 
     # Translate the description.
@@ -538,7 +538,7 @@ def translate_ncosmetic_desc(item, file_name):
     if "『PSO2』ブロック非対応" in item["jp_explain"]:
         ngsonly = True
     
-    # Combine the function name.
+    # Combine the variable name.
     ndesc_format_name = "ndesc_" + desc_sort + "_formats"
 
     # Translate the description.
@@ -1162,7 +1162,7 @@ def translate_cosmeticsorted_desc(item, file_name):
     elif "マグのレベルや支援機能をリセットし" in item["jp_explain"]:
         item_type = "MagDeviceReset"
     
-    # Combine the function name.
+    # Combine the variable name.
     desc_format_name = "cosmetic_desc_" + desc_sort + "_formats"
 
     # Translate the description.
