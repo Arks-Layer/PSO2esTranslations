@@ -112,14 +112,20 @@ ndesc_pattern_formats = ["Unlocks {a}new {itype} for use.",
                  "Разблок {itype}.",
                  "使用後可選用新的{itype}種類。"]
 
-# JP text unavailable.
+# JP text: 対応：
 ntype_statements = ["Type: ",
                     "대응: ",
                     "Тип: ",
                     "適用於："]
 
-# JP text unavailable.
-ntype_locks = {"a": ["All", "KO_All", "Все"],
+# JP text:
+    # ヒト型
+    # キャスト
+    # ヒト型/キャスト
+    # タイプ1
+    # タイプ2<c>
+# No longer used.
+ntype_locks = {"a": ["All", "KO_All", "Все", "CN_All"],
                 "a1": ["Human/Cast Type 1", "인간형/캐스트타입1", "Человек/CAST (тип1)", "人類/機器人 類型1"],
                 "a2": ["Human/Cast Type 2", "인간형/캐스트타입2", "Человек/CAST (тип2)", "人類/機器人 類型2"],
                 "h1": ["Human Type 1", "인간형 타입1", "Человек (тип1)", "人類 類型1"],
@@ -127,13 +133,17 @@ ntype_locks = {"a": ["All", "KO_All", "Все"],
                 "c1": ["Cast Type 1", "캐스트 타입1", "CAST (тип1)", "機器人 類型1"],
                 "c2": ["Cast Type 2", "캐스트 타입2", "CAST (тип2)", "機器人 類型2"]}
 
-# JP text unavailable.
+# JP text:
+    # 着用時はインナーが非表示になります。
+# No longer used.
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
                      "※При экипировке скрывает In.",
                      "※穿著時不會顯示內衣"]
 
-# JP text unavailable.
+# JP text:
+    # 一部[In]カラー同期
+# No longer used.
 layer_sync_inners = ["※Synchronizes with [In] color.",
                      "※일부 [In]컬러 동기화",
                      "※Цвета некоторых [In] синхр-ся.",
