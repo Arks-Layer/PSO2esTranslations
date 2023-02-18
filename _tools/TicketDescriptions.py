@@ -39,8 +39,19 @@ args = parser.parse_args()
 TRANS_ALL, LANG, REDO_ALL = args.all, args.lang, args.redo
 
 # Full width character transtable
-chartable = "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ　＝－＋／．＆（）：！",
-                         "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz =-+/.&():!")
+chartable = [
+    "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ　＝－＋／．＆（）：！",
+    "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz =-+/.&():!"),
+
+    "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ　＝－＋／．＆（）：！",
+    "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz =-+/.&():!"),
+
+    "".maketrans("０１２３４５６７８９ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ　＝－＋／．＆（）：！",
+    "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz =-+/.&():!"),
+
+    "".maketrans("",
+    "")]
+
 
 # Translate layered wear
 
@@ -59,7 +70,7 @@ layer_desc_formats = [("Unlocks the new {itype}\n"
                       ("Разблокирует новую\n"
                        "{itype}\n"
                        "\"{iname}\"."),
-                      ("使用後可選用新的{itype}\n"
+                      ("使用後，可選用新的{itype}\n"
                        "{iname}。")]
 
 layer_sex_locks = {"n": ["", "", "", ""],
@@ -73,15 +84,20 @@ layer_sex_locks = {"n": ["", "", "", ""],
                          "\n僅限女性使用。"]}
 
 # New cosmetics format. Must include itype variable.
-ndesc_formats = ["Unlocks {a}new {itype} for use.",
+ndesc_n_formats = ["Unlocks {a}new {itype} for use.",
                  "사용하면 새로운 {itype}\n선택이 가능해집니다.",
                  "Разблок {itype}.",
                  "使用後可選用新的{itype}。"]
 
-ndesc_formats_allcharacters = ["A {itype} that unlocks for all\ncharacters on your account.",
+ndesc_allcharacters_formats = ["A {itype} that unlocks for all\ncharacters on your account.",
                  "",
                  "",
                  "使用後所有角色均可選用新的{itype}。"]
+
+ndesc_pattern_formats = ["Unlocks {a}new {itype} for use.",
+                 "사용하면 새로운 {itype}\n선택이 가능해집니다.",
+                 "Разблок {itype}.",
+                 "使用後可選用新的{itype}種類。"]
 
 ntype_statements = ["Type: ",
                     "대응: ",
@@ -121,6 +137,18 @@ ngs_only = ["※Cannot perform in [PSO2] Blocks.",
              "※Нельзя использовать в блоке PSO2",
              "※不適用於『PSO2』線路"]
 
+mag_device_lv100 = [("※Must be used in PSO2 on a Mag\n"
+                            "which has reached Lv.100 or above."),
+                            (""),
+                            (""),
+                            ("※在『PSO2』中僅可對\n"
+                            "　Lv.100或以上的瑪古使用")]
+
+mag_device_ngs = ["※Only usable in NGS.",
+                        "",
+                        "",
+                        "※僅可在『NGS』中使用"]
+
 def translate_layer_desc(item, file_name):
     item_name = ""
 
@@ -159,7 +187,7 @@ def translate_layer_desc(item, file_name):
         sexlock = layer_sex_locks[sex][LANG] if sex != "n" else "",
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "")
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0
 
@@ -219,7 +247,7 @@ def translate_nlayer_desc(item, file_name):
         ncolorlocked = True
 
     # Translate the description.
-    item["tr_explain"] = (ndesc_formats[LANG] + "{syncpanties}" + "{typelock}" + "{hidepanties}" + "{noaccessories}" + "{ncolorlock}").format(
+    item["tr_explain"] = (ndesc_n_formats[LANG] + "{syncpanties}" + "{typelock}" + "{hidepanties}" + "{noaccessories}" + "{ncolorlock}").format(
         itype = layered_wear_types[item_name[-3:-1]][LANG] if item_name.endswith("]")
                 # Exception for default layered wear since it doesn't have [In], [Ba] etc
                 else layered_wear_types[file_name.split("_")[0][0:2]][LANG],
@@ -231,7 +259,7 @@ def translate_nlayer_desc(item, file_name):
         noaccessories = "\n<yellow>" + layer_hide_accessories[LANG] + "<c>" if hideaccess == True else "",
         ncolorlock = "\n<yellow>" + ncosmetic_color_locks[LANG] + "<c>" if ncolorlocked == True else "")
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0
 
@@ -303,7 +331,7 @@ cosmetic_types = {
     "NGS_Stamps": ["stamp", "", "", "表情圖"],
     "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
     "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
-    "Stack_Eye": ["eye pattern", "눈동자", "глаза", "眼瞳"],
+    "Stack_Eye": ["eye pattern", "눈동자", "глаза", "瞳孔"],
     "Stack_EyeBrow": ["eyebrow type", "눈썹", "брови", "眉毛"],
     "Stack_EyeLash": ["eyelash type", "속눈썹", "ресницы", "睫毛"],
     "Stack_FacePaint": ["makeup", "메이크업", "макияж", "妝容"],
@@ -311,7 +339,7 @@ cosmetic_types = {
     "Stack_Sticker": ["sticker", "스티커", "стикер", "貼紙"]
     }
 
-cosmetic_desc_formats = [("Unlocks the {sexlock}{itype}\n"
+cosmetic_desc_use_new_formats = [("Unlocks the {sexlock}{itype}\n"
                           "\"{iname}\"\n"
                           "for use in the Beauty Salon."),
                          ("사용하면 새로운 {sexlock}{itype}\n"
@@ -320,7 +348,44 @@ cosmetic_desc_formats = [("Unlocks the {sexlock}{itype}\n"
                          ("Разблок-т {itype} {sexlock}\n"
                           "\"{iname}\"\n"
                           "для использования в салоне."),
-                         ("使用後可選用新的{sexlock}{itype}\n"
+                         ("使用後，可選用新的{sexlock}{itype}\n"
+                          "{iname}。")]
+
+cosmetic_desc_ticket_formats = [("Unlocks the {sexlock}{itype}\n"
+                          "\"{iname}\"\n"
+                          "for use in the Beauty Salon."),
+                         ("사용하면 새로운 {sexlock}{itype}\n"
+                          "\"{iname}\"\n"
+                          "의 사용이 가능해진다."),
+                         ("Разблок-т {itype} {sexlock}\n"
+                          "\"{iname}\"\n"
+                          "для использования в салоне."),
+                         ("使用票券後，可選用{sexlock}{itype}\n"
+                          "{iname}。")]
+
+cosmetic_desc_ticket_new_formats = [("Unlocks the {sexlock}{itype}\n"
+                          "\"{iname}\"\n"
+                          "for use in the Beauty Salon."),
+                         ("사용하면 새로운 {sexlock}{itype}\n"
+                          "\"{iname}\"\n"
+                          "의 사용이 가능해진다."),
+                         ("Разблок-т {itype} {sexlock}\n"
+                          "\"{iname}\"\n"
+                          "для использования в салоне."),
+                         ("使用票券後，可選用新的{sexlock}{itype}\n"
+                          "{iname}。")]
+
+cosmetic_desc_sticker_use_new_formats = [("Unlocks the {sexlock}{itype}\n"
+                          "\"{iname}\"\n"
+                          "for use in the Beauty Salon."),
+                         ("사용하면 새로운 {sexlock}{itype}\n"
+                          "\"{iname}\"\n"
+                          "의 사용이 가능해진다."),
+                         ("Разблок-т {itype} {sexlock}\n"
+                          "\"{iname}\"\n"
+                          "для использования в салоне."),
+                         ("特定貼紙的著裝許可票券。\n"
+                          "使用後，可選用新的{sexlock}{itype}\n"
                           "{iname}。")]
 
 cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для М", "男性專用"],
@@ -381,6 +446,15 @@ def translate_cosmetic_desc(item, file_name):
         if (description_name != item["jp_text"]):
             item_name = item_name.replace(" Sticker", "")
             item_name = item_name.replace("ステッカー", "")
+
+    # Sort the description format
+    desc_sort = "use_new"
+    if item["jp_explain"].startswith("チケットを使用すると、新しい"):
+        desc_sort = "ticket_new"
+    elif item["jp_explain"].startswith("チケットを使用すると、"):
+        desc_sort = "ticket"
+    elif item["jp_explain"].startswith("特定ステッカーの装着許可チケット。"):
+        desc_sort = "sticker_use_new"
     
     # Some items are locked to one sex or the other.
     sex = "n"
@@ -407,8 +481,11 @@ def translate_cosmetic_desc(item, file_name):
     if "カラー変更非対応" in item["jp_explain"]:
         ncolorlocked = True
     
+    # Combine the variable name.
+    desc_format_name = "cosmetic_desc_" + desc_sort + "_formats"
+
     # Translate the description.
-    item["tr_explain"] = (cosmetic_desc_formats[LANG] + "{sizelock}" + "{colorlock}" + "{ncolorlock}").format(
+    item["tr_explain"] = (eval(desc_format_name)[LANG] + "{sizelock}" + "{colorlock}" + "{ncolorlock}").format(
         sexlock = cosmetic_sex_locks[sex][LANG] if sex != "n" else "",
         itype = item_type,
         iname = item_name,
@@ -420,7 +497,7 @@ def translate_cosmetic_desc(item, file_name):
     if item["jp_text"] == "ハローキティチェーン":
         item["tr_explain"] += "\nc'76,'15 SANRIO APPR.NO.S564996"
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0
 
@@ -441,11 +518,13 @@ def translate_ncosmetic_desc(item, file_name):
     if item["tr_explain"] != "" and REDO_ALL == False:
         return -2
     
-    # Some items can use for all characters.
-    allcharacters = False
+    # Sort the description format
+    desc_sort = "n"
     if "全キャラクターで選択可能になる。" in item["jp_explain"]:
-        allcharacters = True
-    
+        desc_sort = "allcharacters"
+    elif "パターンが\n選択可能になる。" in item["jp_explain"]:
+        desc_sort = "pattern"
+
     # Some items are locked to one race and/or type.
     types = get_type_restrictions(item)
 
@@ -458,17 +537,19 @@ def translate_ncosmetic_desc(item, file_name):
     ngsonly = False
     if "『PSO2』ブロック非対応" in item["jp_explain"]:
         ngsonly = True
+    
+    # Combine the variable name.
+    ndesc_format_name = "ndesc_" + desc_sort + "_formats"
 
     # Translate the description.
-    item["tr_explain"] = ("{desc_format}" + "{typelock}" + "{ngsonly}").format(
+    item["tr_explain"] = (eval(ndesc_format_name)[LANG] + "{typelock}" + "{ngsonly}").format(
         itype = item_type,
-        desc_format = (ndesc_formats_allcharacters[LANG] if allcharacters == True else ndesc_formats[LANG]).format(
-            itype = item_type, a = "a "),
+        a = "a ",
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
         ngsonly = "\n<yellow>" + ngs_only[LANG] + "<c>"  if ngsonly == True else "")
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0
 
@@ -668,7 +749,7 @@ def translate_la_desc(item):
             extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG],
             fingers = "" if extras in ["nclasspose", "actfingersngs", "fingersngs"] else nla_fingers[LANG])
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0    
 
@@ -897,7 +978,7 @@ name_fallbacks = {0: -1,
 voice_desc_formats = ["Allows a new voice to be selected.",
                       "사용하면 새로운 보이스 사용 가능.",
                       "Позволяет выбрать новый голос.",
-                      "使用後可以選用新的語音。"]
+                      "使用後，可選用新的語音。"]
 
 def translate_voice(item):
     item_name = ""
@@ -1003,7 +1084,7 @@ def translate_voice(item):
         restriction = restrictions[racensex][LANG],
         actorname = cv_name)
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
         
     return 0
 
@@ -1024,8 +1105,21 @@ json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
 items_file.write("\n")
 items_file.close()
 
+magd_evol_formats = ["A device that changes a Mag's form.",
+                            "",
+                            "",
+                            "變更瑪古外觀的裝置。"]
+
+magd_reset_formats = [("Resets a Mag's appearance, stats,\n"
+                                "and support functions back to its \n"
+                                "default state."),
+                                (""),
+                                (""),
+                                "重置瑪古的等級與支援功能\n"
+                                "並使瑪古變回初始狀態的裝置。"]
+
 # Translate the files that can be sorted by description or item name.
-def translate_sortedbydesc(item, file_name):
+def translate_cosmeticsorted_desc(item, file_name):
     item_name = ""
 
     # Decide what name we're working with
@@ -1042,26 +1136,54 @@ def translate_sortedbydesc(item, file_name):
     if item["tr_explain"] != "" and REDO_ALL == False:
         return -2
 
+    # Sort the description format
+    desc_sort = "use_new"
+    if item["jp_explain"].startswith("チケットを使用すると、新しい"):
+        desc_sort = "ticket_new"
+
+    # Some Mag devices can only be used for mags that are lv.100 or above in PSO2.
+    magdlv100 = False
+    if "『PSO2』ではLv.100以上の" in item["jp_explain"]:
+        magdlv100 = True
+
+    # Some Mag devices can only be used in NGS.
+    magdngs = False
+    if "『NGS』でのみ使用可能" in item["jp_explain"]:
+        magdngs = True
+
     # Sort the type.
     item_type = "n"
     if "新しい頭部" in item["jp_explain"]:
         item_type = "Head"
     elif "パートナーカード（ＰＣ）" in item["jp_explain"]:
         item_type = "Personalcard"
+    elif "マグの見た目を変更するデバイス" in item["jp_explain"]:
+        item_type = "MagDeviceEvol"
+    elif "マグのレベルや支援機能をリセットし" in item["jp_explain"]:
+        item_type = "MagDeviceReset"
     
+    # Combine the variable name.
+    desc_format_name = "cosmetic_desc_" + desc_sort + "_formats"
+
     # Translate the description.
     if item_type == "Personalcard":
         return -1
+    elif item_type.startswith("MagDevice"):
+        item["tr_explain"] = ("{magd_format}" + "{magd_lv100limit}" + "{magd_ngslimit}").format(
+        magd_format = (magd_evol_formats[LANG] if item_type == "MagDeviceEvol" else magd_reset_formats[LANG]),
+        magd_lv100limit = "\n<yellow>" + mag_device_lv100[LANG] + "<c>" if magdlv100 == True else "",
+        magd_ngslimit = "\n<yellow>" + mag_device_ngs[LANG] + "<c>" if magdngs == True else "")
     else: 
-        item["tr_explain"] = (layer_desc_formats[LANG]).format(
-            itype = sortedbydesc_types[item_type][LANG],
-            iname = item_name)
+        item["tr_explain"] = (eval(desc_format_name)[LANG]).format(
+            itype = cosmeticsorted_types[item_type][LANG],
+            iname = item_name,
+            sexlock = "")
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0
 
-def translate_nsortedbydesc(item, file_name):
+def translate_ncosmeticsorted_desc(item, file_name):
     item_name = ""
 
     # Decide what name we're working with
@@ -1097,24 +1219,25 @@ def translate_nsortedbydesc(item, file_name):
     if item_type == "Personalcard":
         return -1
     else: 
-        item["tr_explain"] = (ndesc_formats[LANG]).format(
-            itype = sortedbydesc_types[item_type][LANG],
+        item["tr_explain"] = (ndesc_n_formats[LANG]).format(
+            itype = cosmeticsorted_types[item_type][LANG],
             # Ugly hack
             a = "" if item_type.endswith("s") else "a ",
             iname = item_name)
 
-    item["tr_explain"] = item["tr_explain"].translate(chartable)
+    item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0
 
-sortedbydesc_file_names = [
+cosmeticsorted_file_names = [
     "FacePattern",
     "NGS_Parts_Female",
     "NGS_Parts_Male",
-    "Stack_Headparts",
+    "Stack_DeviceHT",
+    "Stack_Headparts"
     ]
 
-sortedbydesc_types = {
+cosmeticsorted_types = {
     "Head": ["head", "", "", "頭部"],
     "Facetype": ["face type", "", "", "面部類型"],
     "Headparts": ["head parts", "", "", "頭部部件"],
@@ -1123,7 +1246,7 @@ sortedbydesc_types = {
     "Legparts": ["leg parts", "", "", "腿部部件"]
     }
 
-for file_name in sortedbydesc_file_names:
+for file_name in cosmeticsorted_file_names:
     items_file_name = "Item_" + file_name + ".txt"
     
     try:
@@ -1141,7 +1264,7 @@ for file_name in sortedbydesc_file_names:
     newtranslations = False
     
     for item in items:
-        problem = translate_nsortedbydesc(item, file_name) if "選択可能になる。" in item["jp_explain"] or item["jp_explain"] == "" else translate_sortedbydesc(item, file_name)
+        problem = translate_ncosmeticsorted_desc(item, file_name) if "選択可能になる。" in item["jp_explain"] or item["jp_explain"] == "" else translate_cosmeticsorted_desc(item, file_name)
 
         if problem == 0:
             print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
