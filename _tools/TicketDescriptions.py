@@ -61,6 +61,9 @@ layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю 
                       "Ou": ["outerwear", "아우터 웨어", "внешнюю одежду (Ou)", "外套"]}
 
 # Old layered wear format. Must include itype and iname variables.
+# JP text: 
+    # 使用すると、新しい{itype}の\n
+    # {iname}が選択可能。
 layer_desc_formats = [("Unlocks the new {itype}\n"
                        "\"{iname}\"."),
                       ("사용하면 새로운 {itype}인\n"
@@ -72,6 +75,7 @@ layer_desc_formats = [("Unlocks the new {itype}\n"
                       ("使用後，可選用新的{itype}\n"
                        "{iname}。")]
 
+# JP text unavailable.
 layer_sex_locks = {"n": ["", "", "", ""],
                    "m": ["\nOnly usable on male characters.",
                          " 남성만 가능.",
@@ -83,27 +87,44 @@ layer_sex_locks = {"n": ["", "", "", ""],
                          "\n僅限女性使用。"]}
 
 # New cosmetics format. Must include itype variable.
+# JP text: 
+    # 使用すると新しい{itype}が\n
+    # 選択可能になる。
 ndesc_n_formats = ["Unlocks {a}new {itype} for use.",
                  "사용하면 새로운 {itype}\n선택이 가능해집니다.",
                  "Разблок {itype}.",
                  "使用後可選用新的{itype}。"]
 
+# JP text: 
+    # 使用すると新しい{itype}が\n
+    # 全キャラクターで選択可能になる。
 ndesc_allcharacters_formats = ["A {itype} that unlocks for all\ncharacters on your account.",
                  "",
                  "",
                  "使用後所有角色均可選用新的{itype}。"]
 
+# JP text: 
+    # 使用すると新しい{itype}パターンが\n
+    # 選択可能になる。
 ndesc_pattern_formats = ["Unlocks {a}new {itype} for use.",
                  "사용하면 새로운 {itype}\n선택이 가능해집니다.",
                  "Разблок {itype}.",
                  "使用後可選用新的{itype}種類。"]
 
+# JP text: 対応：
 ntype_statements = ["Type: ",
                     "대응: ",
                     "Тип: ",
                     "適用於："]
 
-ntype_locks = {"a": ["All", "KO_All", "Все"],
+# JP text:
+    # ヒト型
+    # キャスト
+    # ヒト型/キャスト
+    # タイプ1
+    # タイプ2<c>
+# No longer used.
+ntype_locks = {"a": ["All", "KO_All", "Все", "CN_All"],
                 "a1": ["Human/Cast Type 1", "인간형/캐스트타입1", "Человек/CAST (тип1)", "人類/機器人 類型1"],
                 "a2": ["Human/Cast Type 2", "인간형/캐스트타입2", "Человек/CAST (тип2)", "人類/機器人 類型2"],
                 "h1": ["Human Type 1", "인간형 타입1", "Человек (тип1)", "人類 類型1"],
@@ -111,31 +132,46 @@ ntype_locks = {"a": ["All", "KO_All", "Все"],
                 "c1": ["Cast Type 1", "캐스트 타입1", "CAST (тип1)", "機器人 類型1"],
                 "c2": ["Cast Type 2", "캐스트 타입2", "CAST (тип2)", "機器人 類型2"]}
 
+# JP text:
+    # 着用時はインナーが非表示になります。
+# No longer used.
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
                      "※При экипировке скрывает In.",
                      "※穿著時不會顯示內衣"]
 
+# JP text:
+    # 一部[In]カラー同期
+# No longer used.
 layer_sync_inners = ["※Synchronizes with [In] color.",
                      "※일부 [In]컬러 동기화",
                      "※Цвета некоторых [In] синхр-ся.",
                      "※與一部分[In]同步顏色"]
 
+# JP text: 
+    # ※アクセサリー表示非対応
 layer_hide_accessories = ["※Hides accessories when worn.",
                           "※악세서리 표시 불가",
                           "※Скрывает аксессуары.",
                           "※不適用於飾品的顯示"]
 
+# JP text: 
+    # ※カラー変更非対応
 ncosmetic_color_locks = ["※Color cannot be changed",
                         "",
                         "",
                         "※不適用於顏色的變更"]
 
-ngs_only = ["※Cannot perform in [PSO2] Blocks.",
+# JP text: 
+    # ※『PSO2』ブロック非対応
+ngs_only = ["※Not available in [PSO2] Blocks.",
              "※『PSO2』블록 비대응",
              "※Нельзя использовать в блоке PSO2",
              "※不適用於『PSO2』線路"]
 
+# JP text: 
+    # ※『PSO2』ではLv.100以上の\n
+    # 　マグにのみ使用可能
 mag_device_lv100 = [("※Must be used in PSO2 on a Mag\n"
                             "which has reached Lv.100 or above."),
                             (""),
@@ -143,6 +179,8 @@ mag_device_lv100 = [("※Must be used in PSO2 on a Mag\n"
                             ("※在『PSO2』中僅可對\n"
                             "　Lv.100或以上的瑪古使用")]
 
+# JP text: 
+    # ※『NGS』でのみ使用可能
 mag_device_ngs = ["※Only usable in NGS.",
                         "",
                         "",
@@ -338,6 +376,10 @@ cosmetic_types = {
     "Stack_Sticker": ["sticker", "스티커", "стикер", "貼紙"]
     }
 
+# JP text: 
+    # 使用すると、新しい{itype}の\n
+    # {iname}が選択可能。
+# {sexlock} unavailable.
 cosmetic_desc_use_new_formats = [("Unlocks the {sexlock}{itype}\n"
                           "\"{iname}\"\n"
                           "for use in the Beauty Salon."),
@@ -350,6 +392,10 @@ cosmetic_desc_use_new_formats = [("Unlocks the {sexlock}{itype}\n"
                          ("使用後，可選用新的{sexlock}{itype}\n"
                           "{iname}。")]
 
+# JP text: 
+    # チケットを使用すると、{itype}\n
+    # {iname}が選択可能。
+# {sexlock} unavailable.
 cosmetic_desc_ticket_formats = [("Unlocks the {sexlock}{itype}\n"
                           "\"{iname}\"\n"
                           "for use in the Beauty Salon."),
@@ -362,6 +408,10 @@ cosmetic_desc_ticket_formats = [("Unlocks the {sexlock}{itype}\n"
                          ("使用票券後，可選用{sexlock}{itype}\n"
                           "{iname}。")]
 
+# JP text: 
+    # チケットを使用すると、新しい{itype}の\n
+    # {iname}が選択可能。
+# {sexlock} unavailable.
 cosmetic_desc_ticket_new_formats = [("Unlocks the {sexlock}{itype}\n"
                           "\"{iname}\"\n"
                           "for use in the Beauty Salon."),
@@ -374,6 +424,11 @@ cosmetic_desc_ticket_new_formats = [("Unlocks the {sexlock}{itype}\n"
                          ("使用票券後，可選用新的{sexlock}{itype}\n"
                           "{iname}。")]
 
+# JP text: 
+    # 特定ステッカーの装着許可チケット。\n
+    # 使用すると、新しい{itype}の\n
+    # {iname}が選択可能。
+# {sexlock} unavailable.
 cosmetic_desc_sticker_use_new_formats = [("Unlocks the {sexlock}{itype}\n"
                           "\"{iname}\"\n"
                           "for use in the Beauty Salon."),
@@ -387,19 +442,27 @@ cosmetic_desc_sticker_use_new_formats = [("Unlocks the {sexlock}{itype}\n"
                           "使用後，可選用新的{sexlock}{itype}\n"
                           "{iname}。")]
 
+# JP text unavailable.
 cosmetic_sex_locks = {"m": ["male-only ", "남성 전용 ", "только для М", "男性專用"],
                       "f": ["female-only ", "여성 전용 ", "только для Ж", "女性專用"]}
 
+# JP text: 
+    # ※サイズ調整はできません。
 cosmetic_size_locks = ["※Size cannot be adjusted.",
                        "※사이즈 조정은 할 수 없습니다.",
                        "※Нельзя отрегулировать размер.",
-                       "※無法調整尺寸"]
+                       "※無法調整尺寸。"]
 
+# JP text: 
+    # ※カラーは変更できません
 cosmetic_color_locks = ["※Color cannot be changed",
                         "※색상은 변경할 수 없습니다",
                         "※Цвет нельзщя изменить.",
                         "※無法變更顏色"]
 
+# JP text: 
+    # 特定ステッカーの非表示許可チケット。\n
+    # 使用すると、ステッカーの\n非表示が選択可能。
 no_sticker_desc = [("Unlocks the ability to not display a\n"
                     "sticker in the Beauty Salon."),
                    ("특정 스티커 숨김 허가 티켓.\n"
@@ -600,15 +663,21 @@ print("Item_Stack_LobbyAction.txt loaded. {")
 
 items_file.close()
 
+# JP text: 
+    # ロビアク『{iname}』\n
+    # を全キャラクターで使用可能になる。
 la_formats = [("Unlocks the new Lobby Action\n"
                "\"{iname}\"."),
               ("『{iname}』 로비 액션을\n"
                "모든 캐릭터에 등록한다."),
               ("Разблокирует новый лобби-экшн:\n"
                "\"{iname}\"."),
-              ("使用後所有角色均可選用新的大廳動作\n"
+              ("所有角色均可選用大廳動作\n"
                "『{iname}』。")]
 
+# JP text: 
+    # 使用すると新しいロビーアクションが\n
+    # 全キャラクターで選択可能になる。
 nla_formats = [("Unlocks a new Lobby Action for use by\n"
                 "all characters on your account."),
                ("사용하면 새로운 로비 액션이\n"
@@ -617,65 +686,195 @@ nla_formats = [("Unlocks a new Lobby Action for use by\n"
                 "для всех персонажей вашего акка."),
                ("使用後所有角色均可選用新的大廳動作。")]
 
-la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
-                                "outfit limited/Can't use in [PSO2].<c>"),
-                               ("<yellow>대응 기능: 버튼 파생/대응 복장\n"
-                                "손가락 가동/『PSO2』 블록 비지원<c>"),
-                               ("<yellow>Есть действия/Движен. пальцев\n"
-                                "огранич./Недоступно в [PSO2].<c>"),
-                               ("<yellow>※適用功能：按鍵衍生/適用服裝\n"
-                                "可動手指/不適用於『PSO2』線路<c>")],
-             "fingersngs": [("<yellow>※Finger motion limited based on outfit.\n"
-                             "Cannot perform in [PSO2] Blocks.<c>"),
-                            ("<yellow>※지원 기능: 대응복 손가락 가동<c>\n"
-                             "『PSO2』블록 비대응<c>"),
-                            ("<yellow>※Одежда влияет на движ-е пальцев\n"
-                             "※Нельзя использовать в блоке PSO2<c>"),
-                            ("<yellow>※適用功能：適用服裝可動手指/\n"
-                             "不適用於『PSO2』線路<c>")],
-             "actrandom": ["Has button actions/randomness.",
-                           "지원 기능: 버튼 파생/랜덤",
-                           "Есть кнопка действия/рандом.",
-                           "<yellow>※適用功能：按鍵衍生/隨機動作<c>"],
-             "actweapons": [("Shows equipment, has extra actions.\n"
-                             "<yellow>Doesn't show some weapons.<c>"),
-                            ("지원 기능: 버튼 파생/무기 장비 반영\n"
-                             "<yellow>일부 무기 반영 불가<c>"),
-                            ("Отображ. оружие; доп действие.\n"
-                             "<yellow>Не показывает некоторое оружие.<c>"),
-                            ("<yellow>※適用功能：按鍵衍生/顯示裝備武器\n"
-                             "無法顯示一部分武器<c>")],
-             "action": ["Use action buttons for extra actions.",
-                        "지원 기능: 버튼 파생",
-                        "Доступно доп действие.",
-                        "<yellow>※適用功能：按鍵衍生<c>"],
-             "react": ["Reaction has extra actions.",
-                       "지원 기능: 리액션",
-                       "Есть доп действие реакцией.",
-                       "<yellow>※適用功能：反應動作<c>"],
-             "weapons": [("Shows equipped weapons.\n"
-                          "<yellow>Doesn't show some weapons.<c>"),
-                         ("지원 기능: 무기 장비 반영\n"
-                          "<yellow>일부 무기 반영 불가<c>"),
-                         ("Показывает экип-е оружие.\n"
-                          "<yellow>Не показывает некоторое оружие.<c>"),
-                         ("<yellow>※適用功能：顯示裝備武器\n"
-                          "無法顯示一部分武器<c>")],
-             "nclasspose": [("<yellow>※Finger motion outfit limited. Shows\n"
-                             "equipment. Cannot perform in [PSO2].<c>"),
-                            ("<yellow>※지원 기능: 대응복 손가락 가동/\n"
-                             "무기 장비 반영/『PSO2』블록 비대응<c>"),
-                            ("<yellow>Движ. завис-т от одежды| Отображ.\n"
-                             "экип. оружие| Только для NGS.<c>"),
-                            ("<yellow>※適用功能：適用服裝可動手指/\n"
-                             "顯示裝備武器/不適用於『PSO2』線路<c>")]
-             }
+la_extras = {
+            # JP text: 
+                # ※対応機能：ボタン派生/一部表示適用外\n
+                # 対応服指可動/『PSO2』ブロック非対応
+            "*actnopreviewfingersngs": [
+                ("※Extra actions (cannot preview).\n"
+                 "Finger motion by outfit. Not in [PSO2]."),
+                ("\n"
+                 ""),
+                ("\n"
+                 ""),
+                ("※適用功能：按鍵衍生/\n"
+                 "不適用一部分顯示/適用服裝可動手指/\n"
+                 "不適用於『PSO2』線路")
+                ],
+            
+            # JP text: 
+                # ※対応機能：ボタン派生／\n
+                # 対応服指可動／『PSO2』ブロック非対応
+            "*actfingersngs": [
+                ("Has button actions/Finger motion\n"
+                 "outfit-limited/Can't use in [PSO2].<c>"),
+                ("대응 기능: 버튼 파생/대응 복장\n"
+                 "손가락 가동/『PSO2』 블록 비지원<c>"),
+                ("Есть действия/Движен. пальцев\n"
+                 "огранич./Недоступно в [PSO2].<c>"),
+                ("※適用功能：按鍵衍生/\n"
+                 "適用服裝可動手指/\n"
+                 "不適用於『PSO2』線路")
+                ],
 
-nla_fingers = ["\n<yellow>※Finger motion limited based on outfit.<c>",
-               "\n<yellow>※지원 기능: 대응복 손가락 가동<c>",
-               "\n<yellow>※Одежда влияет на движ-е пальцев<c>",
-               "\n<yellow>※適用功能：適用服裝可動手指"]
+            # JP text: 
+                # ※対応機能：ボタン派生／ランダム／\n
+                # 対応服指可動
+            "*actrandomfingers": [
+                ("※Has button actions/randomness.\n"
+                 "Finger motion limited based on outfit."),
+                ("지원 기능: 버튼 파생/랜덤\n"
+                 "대응복 손가락 가동"),
+                ("Есть кнопка действия/рандом.\n"
+                 "Одежда влияет на движ-е пальцев"),
+                ("※適用功能：按鍵衍生/隨機動作/\n"
+                 "適用服裝可動手指")
+                ],
 
+            # JP text: 
+                # ※対応機能：ボタン派生／\n
+                # 対応服指可動
+            "*actfingers": [
+                ("※Use action buttons for extra actions.\n"
+                 "Finger motion limited based on outfit."),
+                ("지원 기능: 버튼 파생\n"
+                 "대응복 손가락 가동"),
+                ("Доступно доп действие.\n"
+                 "Одежда влияет на движ-е пальцев"),
+                ("※適用功能：按鍵衍生/\n"
+                 "適用服裝可動手指")
+                ],
+
+            # JP text: 
+                # ※対応機能：対応服指可動／\n
+                # 武器装備反映／『PSO2』ブロック非対応
+            "*fingersweaponsngs": [
+                ("※Finger motion outfit limited. Shows\n"
+                 "equipment. Cannot perform in [PSO2]."),
+                ("※지원 기능: 대응복 손가락 가동/\n"
+                 "무기 장비 반영/『PSO2』블록 비대응"),
+                ("※Движ. завис-т от одежды| Отображ.\n"
+                 "экип. оружие| Только для NGS."),
+                ("※適用功能：適用服裝可動手指/\n"
+                 "顯示裝備武器/\n"
+                 "不適用於『PSO2』線路")
+                ],
+
+            # JP text: 
+                # ※対応機能：対応服指可動／\n
+                # 『PSO2』ブロック非対応
+            "*fingersngs": [
+                ("※Finger motion limited based on outfit.\n"
+                 "Cannot perform in [PSO2] Blocks."),
+                ("※지원 기능: 대응복 손가락 가동<c>\n"
+                 "『PSO2』블록 비대응"),
+                ("※Одежда влияет на движ-е пальцев\n"
+                 "Нельзя использовать в блоке PSO2"),
+                ("※適用功能：適用服裝可動手指/\n"
+                 "不適用於『PSO2』線路")
+                ],
+
+            # JP text: 
+                # ※対応機能：対応服指可動
+            "*fingers": [
+                ("※Finger motion limited based on outfit."),
+                ("※지원 기능: 대응복 손가락 가동"),
+                ("※Одежда влияет на движ-е пальцев"),
+                ("※適用功能：適用服裝可動手指")
+                ],
+            
+            # JP text: 
+                # 対応機能：ボタン派生\n
+                # <yellow>対象服のみ指も可動<c>
+            # Only on a dummy LA but the script crashes when run with -a if not included
+            "actfingers": [
+                ("※Use action buttons for extra actions.\n"
+                 "Finger motion limited based on outfit."),
+                ("지원 기능: 버튼 파생\n"
+                 "대응복 손가락 가동"),
+                ("Доступно доп действие.\n"
+                 "Одежда влияет на движ-е пальцев"),
+                ("※適用功能：按鍵衍生/\n"
+                 "適用服裝可動手指")
+                ],
+
+            # JP text: 
+                # 対応機能：ボタン派生／武器装備反映\n
+                # <yellow>一部武器反映不可<c>
+            "actweapons": [
+                ("Shows equipment, has extra actions.\n"
+                 "<yellow>Doesn't show some weapons.<c>"),
+                ("지원 기능: 버튼 파생/무기 장비 반영\n"
+                 "<yellow>일부 무기 반영 불가<c>"),
+                ("Отображ. оружие; доп действие.\n"
+                 "<yellow>Не показывает некоторое оружие.<c>"),
+                ("適用功能：按鍵衍生/顯示裝備武器\n"
+                 "<yellow>無法顯示一部分武器<c>")
+                ],
+                     
+            # JP text: 
+                # 対応機能：ボタン派生／ランダム
+            "actrandom": [
+                ("Has button actions/randomness."),
+                ("지원 기능: 버튼 파생/랜덤"),
+                ("Есть кнопка действия/рандом."),
+                ("適用功能：按鍵衍生/隨機動作")
+                ],
+                     
+            # JP text: 
+                # 対応機能：ボタン派生
+            "act": [
+                ("Use action buttons for extra actions."),
+                ("지원 기능: 버튼 파생"),
+                ("Доступно доп действие."),
+                ("適用功能：按鍵衍生")
+                ],
+                     
+            # JP text: 
+                # 対応機能：武器装備反映\n
+                # <yellow>一部武器反映不可<c>
+            "weapons": [
+                ("Shows equipped weapons.\n"
+                 "<yellow>Doesn't show some weapons.<c>"),
+                ("지원 기능: 무기 장비 반영\n"
+                 "<yellow>일부 무기 반영 불가<c>"),
+                ("Показывает экип-е оружие.\n"
+                 "<yellow>Не показывает некоторое оружие.<c>"),
+                ("適用功能：按鍵衍生/顯示裝備武器\n"
+                 "<yellow>無法顯示一部分武器<c>")
+                ],
+
+            # JP text: 
+                # 対応機能：リアクション
+            "react": [
+                ("Reaction has extra actions."),
+                ("지원 기능: 리액션"),
+                ("Есть доп действие реакцией."),
+                ("適用功能：反應動作")
+                ]
+            }
+
+extras_names = {
+    "ボタン派生/一部表示適用外\n対応服指可動/『PSO2』ブロック非対応<c>": "*actnopreviewfingersngs",
+    "ボタン派生／\n対応服指可動／『PSO2』ブロック非対応<c>": "*actfingersngs",
+    "ボタン派生／対応服指可動／\n『PSO2』ブロック非対応<c>": "*actfingersngs",
+    "ボタン派生／ランダム／\n対応服指可動<c>": "*actrandomfingers",
+    "ボタン派生／\n対応服指可動<c>": "*actfingers",
+    "対応服指可動／\n武器装備反映／『PSO2』ブロック非対応<c>": "*fingersweaponsngs",
+    "対応服指可動／\n『PSO2』ブロック非対応<c>": "*fingersngs",
+    "対応服指可動<c>": "*fingers",
+    "ボタン派生\n<yellow>対象服のみ指も可動<c>": "actfingers",
+    "ボタン派生／武器装備反映\n<yellow>一部武器反映不可<c>": "actweapons",
+    "ボタン派生／ランダム": "actrandom",
+    "ボタン派生": "act",
+    "武器装備反映\n<yellow>一部武器反映不可<c>": "weapons",
+    "リアクション":"react"
+    }
+
+# JP text: 
+    # 使用すると新しい手のポーズが\n全キャラクターで選択可能になる。\n
+    # <yellow>※一部ロビーアクション非対応／\n
+    # 『PSO2』ブロック非対応<c>
 ha_formats = [("When used, allows you to select a\n"
                "new hand pose for all characters.\n"
                "<yellow>※Does not support all Lobby Actions.\n"
@@ -711,22 +910,12 @@ def translate_la_desc(item):
 
     # Figure out what extra stuff to put at the end of the description
     extras = "n"
-    if "対応機能：ボタン派生／対応服指可動／\n『PSO2』ブロック非対応" in item["jp_explain"]:
-        extras = "actfingersngs"
-    elif "対応機能：対応服指可動／\n『PSO2』ブロック非対応" in item["jp_explain"]:
-        extras = "fingersngs"
-    elif "対応機能：ボタン派生／ランダム" in item["jp_explain"]:
-        extras = "actrandom"
-    elif "対応機能：ボタン派生／武器装備反映" in item["jp_explain"]:
-        extras = "actweapons"
-    elif "対応機能：ボタン派生" in item["jp_explain"]:
-        extras = "action"
-    elif "対応機能：リアクション" in item["jp_explain"]:
-        extras = "react"
-    elif "対応機能：武器装備反映" in item["jp_explain"]:
-        extras = "weapons"
-    elif "対応機能：対応服指可動／\n武器装備反映／『PSO2』ブロック非対応" in item["jp_explain"]:
-        extras = "nclasspose"
+    # Split off the bit that changes and use it as the key to a dictionary of codenames    
+    if "対応機能：" in item["jp_explain"]:
+        extras_jp = item["jp_explain"].split("対応機能：")[1]
+        extras = extras_names[extras_jp]
+    elif "※『PSO2』ブロック非対応" in item["jp_explain"]:
+        extras = "ngs_only"
 
     # Translate old LAs
     if "ロビアク『" in item["jp_explain"]:
@@ -744,9 +933,12 @@ def translate_la_desc(item):
 
     # Translate new LAs
     else:
-        item["tr_explain"] = (nla_formats[LANG] + "{extrastuff}" + "{fingers}").format(
-            extrastuff = "" if extras == "n" else "\n" + la_extras[extras][LANG],
-            fingers = "" if extras in ["nclasspose", "actfingersngs", "fingersngs"] else nla_fingers[LANG])
+        item["tr_explain"] = (nla_formats[LANG] + "{extrastuff}").format(
+            extrastuff = ("" if extras == "n"
+                          else "\n" + "<yellow>" + ngs_only[LANG] + "<c>" if extras == "ngs_only"
+                          else "\n" + "<yellow>" + la_extras[extras][LANG] + "<c>"
+                          )
+                      )
 
     item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
@@ -974,6 +1166,8 @@ name_fallbacks = {0: -1,
                   2: 0,
                   3: -1}
 
+# JP text: 
+    # 使用すると、新しいボイスが選択可能。
 voice_desc_formats = ["Allows a new voice to be selected.",
                       "사용하면 새로운 보이스 사용 가능.",
                       "Позволяет выбрать новый голос.",
@@ -1003,6 +1197,7 @@ def translate_voice(item):
         return -2
 
     # Strings for race/sex combo restrictions
+    # JP text unavailable.
     restrictions = {
     "hm": ["\nNon-Cast male characters only.",
            "\n인간 남성만 사용 가능.",
@@ -1104,11 +1299,16 @@ json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
 items_file.write("\n")
 items_file.close()
 
+# JP text: 
+    # マグの見た目を変更するデバイス。
 magd_evol_formats = ["A device that changes a Mag's form.",
                             "",
                             "",
                             "變更瑪古外觀的裝置。"]
 
+# JP text: 
+    # マグのレベルや支援機能をリセットし\n
+    # マグを初期の状態に戻すデバイス。
 magd_reset_formats = [("Resets a Mag's appearance, stats,\n"
                                 "and support functions back to its \n"
                                 "default state."),
@@ -1166,6 +1366,7 @@ def translate_cosmeticsorted_desc(item, file_name):
 
     # Translate the description.
     if item_type == "Personalcard":
+        # Need to expand if needed
         return -1
     elif item_type.startswith("MagDevice"):
         item["tr_explain"] = ("{magd_format}" + "{magd_lv100limit}" + "{magd_ngslimit}").format(
@@ -1216,6 +1417,7 @@ def translate_ncosmeticsorted_desc(item, file_name):
     
     # Translate the description.
     if item_type == "Personalcard":
+        # Need to expand if needed
         return -1
     else: 
         item["tr_explain"] = (ndesc_n_formats[LANG]).format(
