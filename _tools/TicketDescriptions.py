@@ -773,10 +773,11 @@ la_extras = {
             # JP text: 
                 # ※対応機能：対応服指可動
             "*fingers": [
-                    (""),
-                    (""),
-                    (""),
-                    ("※適用功能：適用服裝可動手指")],
+                ("※Finger motion limited based on outfit."),
+                ("※지원 기능: 대응복 손가락 가동"),
+                ("※Одежда влияет на движ-е пальцев"),
+                ("※適用功能：適用服裝可動手指")
+                ],
 
             # JP text: 
                 # 対応機能：ボタン派生／武器装備反映\n
@@ -853,11 +854,6 @@ la_extras = {
 #                             ("<yellow>※適用功能：適用服裝可動手指/\n"
 #                              "顯示裝備武器/不適用於『PSO2』線路<c>")]
 #              }
-# 
-# nla_fingers = ["\n<yellow>※Finger motion limited based on outfit.<c>",
-#                "\n<yellow>※지원 기능: 대응복 손가락 가동<c>",
-#                "\n<yellow>※Одежда влияет на движ-е пальцев<c>",
-#                "\n<yellow>※適用功能：適用服裝可動手指"]
 
 extras_names = {
     "ボタン派生/一部表示適用外\n対応服指可動/『PSO2』ブロック非対応<c>": "*actexceptfingersngs",
