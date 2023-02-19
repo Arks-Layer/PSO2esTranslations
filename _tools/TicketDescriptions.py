@@ -134,15 +134,15 @@ ntype_locks = {"a": ["All", "KO_All", "Все", "CN_All"],
                 "c2": ["Cast Type 2", "캐스트 타입2", "CAST (тип2)", "機器人 類型2"]}
 
 # JP text:
-    # 着用時はインナーが非表示になります。
+    # ※着用時はインナーが非表示になります。
 # No longer used.
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
                      "※При экипировке скрывает In.",
-                     "※穿著時不會顯示內衣"]
+                     "※穿著時不會顯示內衣。"]
 
 # JP text:
-    # 一部[In]カラー同期
+    # ※一部[In]カラー同期
 # No longer used.
 layer_sync_inners = ["※Synchronizes with [In] color.",
                      "※일부 [In]컬러 동기화",
@@ -795,8 +795,8 @@ la_extras = {
                  "대응복 손가락 가동"),
                 ("Доступно доп действие.\n"
                  "Одежда влияет на движ-е пальцев"),
-                ("※適用功能：按鍵衍生/\n"
-                 "適用服裝可動手指")
+                ("適用功能：按鍵衍生/\n"
+                 " <yellow>適用服裝可動手指<c>")
                 ],
 
             # JP text: 
