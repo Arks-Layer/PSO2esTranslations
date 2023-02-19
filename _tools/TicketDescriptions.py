@@ -763,14 +763,15 @@ la_extras = {
                 # ※対応機能：対応服指可動／\n
                 # 『PSO2』ブロック非対応
             "*fingersngs": [
-                    ("\n"
-                     ""),
-                    ("\n"
-                     ""),
-                    ("\n"
-                     ""),
-                    ("※適用功能：適用服裝可動手指/\n"
-                     "不適用於『PSO2』線路")],
+                ("※Finger motion limited based on outfit.\n"
+                 "Cannot perform in [PSO2] Blocks."),
+                ("\n"
+                 ""),
+                ("\n"
+                 ""),
+                ("※適用功能：適用服裝可動手指/\n"
+                 "不適用於『PSO2』線路")
+                ],
 
             # JP text: 
                 # ※対応機能：対応服指可動
