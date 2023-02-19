@@ -749,15 +749,16 @@ la_extras = {
                 # ※対応機能：対応服指可動／\n
                 # 武器装備反映／『PSO2』ブロック非対応
             "*fingersweaponsngs": [
-                    ("\n"
-                     ""),
-                    ("\n"
-                     ""),
-                    ("\n"
-                     ""),
-                    ("※適用功能：適用服裝可動手指/\n"
-                     "顯示裝備武器/\n"
-                     "不適用於『PSO2』線路")],
+                ("※Finger motion outfit limited. Shows\n"
+                 "equipment. Cannot perform in [PSO2]."),
+                ("※지원 기능: 대응복 손가락 가동/\n"
+                 "무기 장비 반영/『PSO2』블록 비대응"),
+                ("※Движ. завис-т от одежды| Отображ.\n"
+                 "экип. оружие| Только для NGS."),
+                ("※適用功能：適用服裝可動手指/\n"
+                 "顯示裝備武器/\n"
+                 "不適用於『PSO2』線路")
+                ],
 
             # JP text: 
                 # ※対応機能：対応服指可動／\n
@@ -837,18 +838,6 @@ la_extras = {
                 ("適用功能：反應動作")
                 ]
             }
-
-# Just for accurary, I think it will be better if you guys can fill it out again. sorry:( 
-
-# la_extras = {"nclasspose": [("<yellow>※Finger motion outfit limited. Shows\n"
-#                              "equipment. Cannot perform in [PSO2].<c>"),
-#                             ("<yellow>※지원 기능: 대응복 손가락 가동/\n"
-#                              "무기 장비 반영/『PSO2』블록 비대응<c>"),
-#                             ("<yellow>Движ. завис-т от одежды| Отображ.\n"
-#                              "экип. оружие| Только для NGS.<c>"),
-#                             ("<yellow>※適用功能：適用服裝可動手指/\n"
-#                              "顯示裝備武器/不適用於『PSO2』線路<c>")]
-#              }
 
 extras_names = {
     "ボタン派生/一部表示適用外\n対応服指可動/『PSO2』ブロック非対応<c>": "*actexceptfingersngs",
