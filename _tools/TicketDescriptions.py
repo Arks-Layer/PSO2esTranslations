@@ -794,10 +794,11 @@ la_extras = {
             # JP text: 
                 # 対応機能：ボタン派生／ランダム
             "actrandom": [
-                    (""),
-                    (""),
-                    (""),
-                    ("適用功能：按鍵衍生/隨機動作")],
+                ("Has button actions/randomness."),
+                ("지원 기능: 버튼 파생/랜덤"),
+                ("Есть кнопка действия/рандом."),
+                ("適用功能：按鍵衍生/隨機動作")
+                ],
                      
             # JP text: 
                 # 対応機能：ボタン派生
@@ -841,10 +842,6 @@ la_extras = {
 #                              "※Нельзя использовать в блоке PSO2<c>"),
 #                             ("<yellow>※適用功能：適用服裝可動手指/\n"
 #                              "不適用於『PSO2』線路<c>")],
-#              "actrandom": ["Has button actions/randomness.",
-#                            "지원 기능: 버튼 파생/랜덤",
-#                            "Есть кнопка действия/рандом.",
-#                            "<yellow>※適用功能：按鍵衍生/隨機動作<c>"],
 #              "actweapons": [("Shows equipment, has extra actions.\n"
 #                              "<yellow>Doesn't show some weapons.<c>"),
 #                             ("지원 기능: 버튼 파생/무기 장비 반영\n"
