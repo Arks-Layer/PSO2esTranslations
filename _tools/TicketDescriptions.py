@@ -165,7 +165,7 @@ ncosmetic_color_locks = ["※Color cannot be changed",
 
 # JP text: 
     # ※『PSO2』ブロック非対応
-ngs_only = ["※Cannot perform in [PSO2] Blocks.",
+ngs_only = ["※Not available in [PSO2] Blocks.",
              "※『PSO2』블록 비대응",
              "※Нельзя использовать в блоке PSO2",
              "※不適用於『PSO2』線路"]
@@ -917,6 +917,8 @@ def translate_la_desc(item):
     if "対応機能：" in item["jp_explain"]:
         extras_jp = item["jp_explain"].split("対応機能：")[1]
         extras = extras_names[extras_jp]
+    elif "※『PSO2』ブロック非対応" in item["jp_explain"]:
+        extras = "ngs_only"
 
     # Translate old LAs
     if "ロビアク『" in item["jp_explain"]:
@@ -935,7 +937,11 @@ def translate_la_desc(item):
     # Translate new LAs
     else:
         item["tr_explain"] = (nla_formats[LANG] + "{extrastuff}").format(
-            extrastuff = "" if extras == "n" else "\n" + "<yellow>" + la_extras[extras][LANG] + "<c>")
+            extrastuff = ("" if extras == "n"
+                          else "\n" + "<yellow>" + ngs_only[LANG] + "<c>" if extras == "ngs_only"
+                          else "\n" + "<yellow>" + la_extras[extras][LANG] + "<c>"
+                          )
+                      )
 
     item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
