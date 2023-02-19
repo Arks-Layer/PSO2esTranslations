@@ -765,10 +765,10 @@ la_extras = {
             "*fingersngs": [
                 ("※Finger motion limited based on outfit.\n"
                  "Cannot perform in [PSO2] Blocks."),
-                ("\n"
-                 ""),
-                ("\n"
-                 ""),
+                ("※지원 기능: 대응복 손가락 가동<c>\n"
+                 "『PSO2』블록 비대응"),
+                ("※Одежда влияет на движ-е пальцев\n"
+                 "Нельзя использовать в блоке PSO2"),
                 ("※適用功能：適用服裝可動手指/\n"
                  "不適用於『PSO2』線路")
                 ],
@@ -840,15 +840,7 @@ la_extras = {
 
 # Just for accurary, I think it will be better if you guys can fill it out again. sorry:( 
 
-# la_extras = {"fingersngs": [("<yellow>※Finger motion limited based on outfit.\n"
-#                              "Cannot perform in [PSO2] Blocks.<c>"),
-#                             ("<yellow>※지원 기능: 대응복 손가락 가동<c>\n"
-#                              "『PSO2』블록 비대응<c>"),
-#                             ("<yellow>※Одежда влияет на движ-е пальцев\n"
-#                              "※Нельзя использовать в блоке PSO2<c>"),
-#                             ("<yellow>※適用功能：適用服裝可動手指/\n"
-#                              "不適用於『PSO2』線路<c>")],
-#              "nclasspose": [("<yellow>※Finger motion outfit limited. Shows\n"
+# la_extras = {"nclasspose": [("<yellow>※Finger motion outfit limited. Shows\n"
 #                              "equipment. Cannot perform in [PSO2].<c>"),
 #                             ("<yellow>※지원 기능: 대응복 손가락 가동/\n"
 #                              "무기 장비 반영/『PSO2』블록 비대응<c>"),
