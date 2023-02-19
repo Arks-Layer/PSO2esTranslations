@@ -782,14 +782,15 @@ la_extras = {
                 # 対応機能：ボタン派生／武器装備反映\n
                 # <yellow>一部武器反映不可<c>
             "actweapons": [
-                    ("\n"
-                     ""),
-                    ("\n"
-                     ""),
-                    ("\n"
-                     ""),
-                    ("適用功能：按鍵衍生/顯示裝備武器\n"
-                     "<yellow>無法顯示一部分武器<c>")],
+                ("Shows equipment, has extra actions.\n"
+                 "<yellow>Doesn't show some weapons.<c>"),
+                ("지원 기능: 버튼 파생/무기 장비 반영\n"
+                 "<yellow>일부 무기 반영 불가<c>"),
+                ("Отображ. оружие; доп действие.\n"
+                 "<yellow>Не показывает некоторое оружие.<c>"),
+                ("適用功能：按鍵衍生/顯示裝備武器\n"
+                 "<yellow>無法顯示一部分武器<c>")
+                ],
                      
             # JP text: 
                 # 対応機能：ボタン派生／ランダム
@@ -843,14 +844,6 @@ la_extras = {
 #                              "※Нельзя использовать в блоке PSO2<c>"),
 #                             ("<yellow>※適用功能：適用服裝可動手指/\n"
 #                              "不適用於『PSO2』線路<c>")],
-#              "actweapons": [("Shows equipment, has extra actions.\n"
-#                              "<yellow>Doesn't show some weapons.<c>"),
-#                             ("지원 기능: 버튼 파생/무기 장비 반영\n"
-#                              "<yellow>일부 무기 반영 불가<c>"),
-#                             ("Отображ. оружие; доп действие.\n"
-#                              "<yellow>Не показывает некоторое оружие.<c>"),
-#                             ("<yellow>※適用功能：按鍵衍生/顯示裝備武器\n"
-#                              "無法顯示一部分武器<c>")],
 #              "nclasspose": [("<yellow>※Finger motion outfit limited. Shows\n"
 #                              "equipment. Cannot perform in [PSO2].<c>"),
 #                             ("<yellow>※지원 기능: 대응복 손가락 가동/\n"
