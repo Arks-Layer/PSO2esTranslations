@@ -1472,7 +1472,7 @@
 	{
 		"assign": "130390",
 		"jp_text": "リンザーベルケ",
-		"tr_text": "Rinza Berke",
+		"tr_text": "린자 벨케",
 		"jp_explain": "流線美と機能性を備え持つ長槍。\nフォトンの力を余すところなく引き出し\n目覚ましい威力を発揮する。",
 		"tr_explain": ""
 	},
@@ -1542,7 +1542,7 @@
 	{
 		"assign": "130398",
 		"jp_text": "ソウルイーター-NT",
-		"tr_text": "Soul Eater-NT",
+		"tr_text": "소울 이터-NT",
 		"jp_explain": "切り裂いた魂のみならず、\n装者の魂をも喰らうと言われる長槍。\n全クラス装備可能な、特殊な武器。",
 		"tr_explain": ""
 	},
@@ -1598,49 +1598,56 @@
 	{
 		"assign": "13010022",
 		"jp_text": "サンクエイムスピア",
-		"tr_text": "Cinquem Spear",
+		"tr_text": "산퀘임 스피어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010024",
 		"jp_text": "ラゲードスピア",
-		"tr_text": "",
+		"tr_text": "라게이드 스피어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010019",
 		"jp_text": "オブスクラルスピア",
-		"tr_text": "Obscural Spear",
+		"tr_text": "오브스크럴 스피어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010025",
 		"jp_text": "カイゼラムスピア",
-		"tr_text": "",
+		"tr_text": "카이제람 스피어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010026",
 		"jp_text": "ゼクストルスピア",
-		"tr_text": "",
+		"tr_text": "젝스톨 스피어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010027",
 		"jp_text": "ロクス・クルーヴァスピア",
-		"tr_text": "",
+		"tr_text": "록스 크루바 스피어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010028",
 		"jp_text": "コルディークスピア",
-		"tr_text": "",
+		"tr_text": "코르디크 스피어",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010029",
+		"jp_text": "ネオス・アストリオンスピア",
+		"tr_text": "네오스 아스트리온 스피어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1659,6 +1666,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "13010033",
+		"jp_text": "プリムスピア・リブラ",
+		"tr_text": "프림 스피어 리브라",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "13010034",
 		"jp_text": "レリク・ウルティムリッター",
 		"tr_text": "렐릭 울티무리터",
@@ -1668,35 +1682,91 @@
 	{
 		"assign": "13010035",
 		"jp_text": "ククロゼアトスピア",
-		"tr_text": "Koukloziat Spear",
+		"tr_text": "크크로제아트 스피어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010036",
 		"jp_text": "エヴォルオーヴァスピア",
-		"tr_text": "",
+		"tr_text": "에볼 오버 스피어",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010037",
+		"jp_text": "クリスティアスピア",
+		"tr_text": "크리스티아 스피어",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010039",
+		"jp_text": "セイガヨウスピア",
+		"tr_text": "세이가요우 스피어",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010040",
+		"jp_text": "トランクールスピア",
+		"tr_text": "트렁클 스피어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010042",
 		"jp_text": "レネッサスピア",
-		"tr_text": "",
+		"tr_text": "레네사 스피어",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010043",
+		"jp_text": "ガンブレイズスピア",
+		"tr_text": "건블레이즈 스피어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010044",
 		"jp_text": "エヴォルイクリススピア",
-		"tr_text": "",
+		"tr_text": "에볼 이크리스 스피어",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010046",
+		"jp_text": "ククロフィススピア",
+		"tr_text": "크크로피스 스피어",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010050",
+		"jp_text": "オブゾディアスピア",
+		"tr_text": "오브조디아 스피어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "13010054",
 		"jp_text": "カイゼラムスピア試製壱型",
-		"tr_text": "",
+		"tr_text": "카이제람 스피어 시제일형",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010056",
+		"jp_text": "セイガインスピア",
+		"tr_text": "세이가인 스피어",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010057",
+		"jp_text": "ネオス・ユースティロンスピア",
+		"tr_text": "네오스 유스티론 스피어",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

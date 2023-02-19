@@ -1584,7 +1584,7 @@
 	{
 		"assign": "1130482",
 		"jp_text": "リンザーキューマ",
-		"tr_text": "Rinza Kyuma",
+		"tr_text": "린자 큐마",
 		"jp_explain": "流線美と機能性を備え持つ短杖。\nフォトンの活性化を促進する新構造が\n高い威力を引き出す。",
 		"tr_explain": ""
 	},
@@ -1627,6 +1627,13 @@
 		"assign": "113010014",
 		"jp_text": "グリッセンウォンド",
 		"tr_text": "그릿센 완드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010015",
+		"jp_text": "[NPC]クロフォードのウォンド",
+		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1703,7 +1710,7 @@
 	{
 		"assign": "113010025",
 		"jp_text": "サンクエイムウォンド",
-		"tr_text": "Cinquem Wand",
+		"tr_text": "산퀘임 완드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1717,42 +1724,56 @@
 	{
 		"assign": "113010027",
 		"jp_text": "ラゲードウォンド",
-		"tr_text": "",
+		"tr_text": "라게이드 완드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010028",
 		"jp_text": "カイゼラムウォンド",
-		"tr_text": "",
+		"tr_text": "카이제람 완드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010029",
 		"jp_text": "ゼクストルウォンド",
-		"tr_text": "",
+		"tr_text": "젝스톨 완드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010030",
 		"jp_text": "ロクス・ラグフェンウォンド",
-		"tr_text": "",
+		"tr_text": "록스 라그펜 완드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010031",
 		"jp_text": "コルディークウォンド",
-		"tr_text": "",
+		"tr_text": "코르디크 완드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010032",
+		"jp_text": "ネオス・アストリオンウォンド",
+		"tr_text": "네오스 아스트리온 완드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010037",
 		"jp_text": "オブスクラルウォンド",
-		"tr_text": "Obscural Wand",
+		"tr_text": "오브스크럴 완드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010038",
+		"jp_text": "プリムウォンド・リブラ",
+		"tr_text": "프림 완드 리브라",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1766,35 +1787,91 @@
 	{
 		"assign": "113010040",
 		"jp_text": "ククロゼアトウォンド",
-		"tr_text": "Koukloziat Wand",
+		"tr_text": "크크로제아트 완드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010041",
 		"jp_text": "エヴォルオーヴァウォンド",
-		"tr_text": "",
+		"tr_text": "에볼 오버 완드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010042",
+		"jp_text": "クリスティアウォンド",
+		"tr_text": "크리스티아 완드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010044",
+		"jp_text": "セイガヨウウォンド",
+		"tr_text": "세이가요우 완드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010045",
+		"jp_text": "トランクールウォンド",
+		"tr_text": "트렁클 완드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010047",
 		"jp_text": "レネッサウォンド",
-		"tr_text": "",
+		"tr_text": "레네사 완드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010048",
+		"jp_text": "ガンブレイズウォンド",
+		"tr_text": "건블레이즈 완드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010049",
 		"jp_text": "エヴォルイクリスウォンド",
-		"tr_text": "",
+		"tr_text": "에볼 이크리스 완드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010051",
+		"jp_text": "ククロフィスウォンド",
+		"tr_text": "크크로피스 완드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010055",
+		"jp_text": "オブゾディアウォンド",
+		"tr_text": "오브조디아 완드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010059",
 		"jp_text": "カイゼラムウォンド試製壱型",
-		"tr_text": "",
+		"tr_text": "카이제람 완드 시제일형",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010061",
+		"jp_text": "セイガインウォンド",
+		"tr_text": "세이가인 완드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010062",
+		"jp_text": "ネオス・ユースティロンウォンド",
+		"tr_text": "네오스 유스티론 완드",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

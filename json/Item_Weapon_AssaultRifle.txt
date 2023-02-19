@@ -387,7 +387,7 @@
 	{
 		"assign": "18062",
 		"jp_text": "インフィニットコランダム",
-		"tr_text": "인피니티 커런덤",
+		"tr_text": "인피니트 커런덤",
 		"jp_explain": "精密機械製造に適した鉱石を軸受に\n使用している長銃。その名が表す通り\n無限にも等しい射撃を可能とする。",
 		"tr_explain": ""
 	},
@@ -1150,7 +1150,7 @@
 	{
 		"assign": "180266",
 		"jp_text": "インフィニットコランダム-NT",
-		"tr_text": "인피니티 커런덤-NT",
+		"tr_text": "인피니트 커런덤-NT",
 		"jp_explain": "精密機械製造に適した鉱石を軸受に\n使用している長銃。その名が表す通り\n無限にも等しい射撃を可能とする。",
 		"tr_explain": ""
 	},
@@ -1619,7 +1619,7 @@
 	{
 		"assign": "180409",
 		"jp_text": "リンザーテンゲル",
-		"tr_text": "Rinza Tenger",
+		"tr_text": "린자 텐겔",
 		"jp_explain": "流線美と機能性を備え持つ長銃。\n高精度ＡＩがフォトン射出を補助し\n命中精度を底上げした。",
 		"tr_explain": ""
 	},
@@ -1633,7 +1633,7 @@
 	{
 		"assign": "180420",
 		"jp_text": "対アンドロイドライフル-NT",
-		"tr_text": "Anti Android Rifle-NT",
+		"tr_text": "안티 안드로이드 라이플-NT",
 		"jp_explain": "別系統のライフルを基に改良した長銃。\n一流の技術者、科学者の協力の下\n改良が施されたため、非常に高性能。",
 		"tr_explain": ""
 	},
@@ -1752,49 +1752,63 @@
 	{
 		"assign": "18010023",
 		"jp_text": "サンクエイムライフル",
-		"tr_text": "Cinquem Rifle",
+		"tr_text": "산퀘임 라이플",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "18010024",
 		"jp_text": "ルメイラーライフル",
-		"tr_text": "Lumeira Rifle",
+		"tr_text": "르메이라 라이플",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "18010025",
 		"jp_text": "ラゲードライフル",
-		"tr_text": "",
+		"tr_text": "라게이드 라이플",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "18010026",
 		"jp_text": "カイゼラムライフル",
-		"tr_text": "",
+		"tr_text": "카이제람 라이플",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "18010027",
 		"jp_text": "ゼクストルライフル",
-		"tr_text": "",
+		"tr_text": "젝스톨 라이플",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "18010028",
 		"jp_text": "ロクス・ラグフェンライフル",
-		"tr_text": "",
+		"tr_text": "록스 라그펜 라이플",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "18010029",
 		"jp_text": "コルディークライフル",
-		"tr_text": "",
+		"tr_text": "코르디크 라이플",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010030",
+		"jp_text": "ネオス・アストリオンライフル",
+		"tr_text": "네오스 아스트리온 라이플",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010036",
+		"jp_text": "プリムライフル・リブラ",
+		"tr_text": "프림 라이플 리브라",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1808,35 +1822,91 @@
 	{
 		"assign": "18010038",
 		"jp_text": "ククロゼアトライフル",
-		"tr_text": "Koukloziat Rifle",
+		"tr_text": "크크로제아트 라이플",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "18010039",
 		"jp_text": "エヴォルオーヴァライフル",
-		"tr_text": "",
+		"tr_text": "에볼 오버 라이플",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010040",
+		"jp_text": "クリスティアライフル",
+		"tr_text": "크리스티아 라이플",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010041",
+		"jp_text": "セイガヨウライフル",
+		"tr_text": "세이가요우 라이플",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010042",
+		"jp_text": "トランクールライフル",
+		"tr_text": "트렁클 라이플",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "18010043",
 		"jp_text": "レネッサライフル",
-		"tr_text": "",
+		"tr_text": "레네사 라이플",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010044",
+		"jp_text": "ガンブレイズライフル",
+		"tr_text": "건블레이즈 라이플",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "18010045",
 		"jp_text": "エヴォルイクリスライフル",
-		"tr_text": "",
+		"tr_text": "에볼 이크리스 라이플",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010046",
+		"jp_text": "ククロフィスライフル",
+		"tr_text": "크크로피스 라이플",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010047",
+		"jp_text": "オブゾディアライフル",
+		"tr_text": "오브조디아 라이플",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "18010051",
 		"jp_text": "カイゼラムライフル試製壱型",
-		"tr_text": "",
+		"tr_text": "카이제람 라이플 시제일형",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010053",
+		"jp_text": "セイガインライフル",
+		"tr_text": "세이가인 라이플",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010054",
+		"jp_text": "ネオス・ユースティロンライフル",
+		"tr_text": "네오스 유스티론 라이플",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

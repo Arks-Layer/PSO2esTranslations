@@ -46,7 +46,7 @@
 		"jp_text": "＊ユーキラー",
 		"tr_text": "＊You Killer",
 		"jp_explain": "食通が趣味と実益を兼ねて試作した\n双小剣型武器迷彩。湯の切れ味は\n抜群で麺の残り香で敵を翻弄する。",
-		"tr_explain": "Twin Dagger camo prototyped by\na foodie in order to profit from their\nhobby. Its water is outstandingly hot."
+		"tr_explain": "Twin Dagger camo 시제일형d by\na foodie in order to profit from their\nhobby. Its water is outstandingly hot."
 	},
 	{
 		"assign": "104010",
@@ -331,14 +331,28 @@
 	{
 		"assign": "104010004",
 		"jp_text": "＊トロワーデアルマティ",
-		"tr_text": "＊Troward Armati",
+		"tr_text": "＊Troward 아르마티",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ツインダガー／\nダブルセイバー　ほか<c>",
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Twin Daggers/Double Saber\nand others<c>"
 	},
 	{
+		"assign": "104010005",
+		"jp_text": "＊レリク・スコルハティ",
+		"tr_text": "",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ツインダガー<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "104010006",
+		"jp_text": "＊シノノメタヨウ",
+		"tr_text": "",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ツインダガー／\nダブルセイバー　ほか<c>",
+		"tr_explain": ""
+	},
+	{
 		"assign": "104010008",
 		"jp_text": "＊オリアレムアルマティ",
-		"tr_text": "＊Oriealem Armati",
+		"tr_text": "＊Oriealem 아르마티",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ツインダガー／\nウォンド　ほか<c>",
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Twin Daggers/Wand\nand others<c>"
 	},
@@ -361,6 +375,20 @@
 		"jp_text": "＊レリク・スコルハティCV",
 		"tr_text": "",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ツインダガー<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "104010012",
+		"jp_text": "＊グライエダガー",
+		"tr_text": "",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ツインダガー<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "104061",
+		"jp_text": "＊ガーディナスヴァリオ",
+		"tr_text": "",
+		"jp_explain": "伝説的なエージェントが愛用した\n品々を再現した武器迷彩。\n機能美を追求したデザインが特徴。",
 		"tr_explain": ""
 	}
 ]

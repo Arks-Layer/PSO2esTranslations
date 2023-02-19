@@ -1444,7 +1444,7 @@
 	{
 		"assign": "160334",
 		"jp_text": "リンザーヴォルナ",
-		"tr_text": "Rinza Vorona",
+		"tr_text": "린자 볼나",
 		"jp_explain": "流線美と機能性を備え持つ鋼拳。\n高いフォトン変換効率を誇り\n長時間の戦闘を可能にした。",
 		"tr_explain": ""
 	},
@@ -1458,7 +1458,7 @@
 	{
 		"assign": "160340",
 		"jp_text": "シロクロー-NT",
-		"tr_text": "Shiro Claw-NT",
+		"tr_text": "시로 클로-NT",
 		"jp_explain": "知る人ぞ知る高級鋼拳。かわいい外見に\n似合わず扱うにはかなりの腕を必要とし\n強力な威力を持つ。",
 		"tr_explain": ""
 	},
@@ -1563,56 +1563,63 @@
 	{
 		"assign": "16010021",
 		"jp_text": "サンクエイムナックル",
-		"tr_text": "Cinquem Knuckles",
+		"tr_text": "산퀘임 너클",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "16010022",
 		"jp_text": "ルメイラーナックル",
-		"tr_text": "Lumeira Knuckles",
+		"tr_text": "르메이라 너클",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "16010023",
 		"jp_text": "ラゲードナックル",
-		"tr_text": "",
+		"tr_text": "라게이드 너클",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "16010018",
 		"jp_text": "オブスクラルナックル",
-		"tr_text": "Obscural Knuckles",
+		"tr_text": "오브스크럴 너클",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "16010024",
 		"jp_text": "カイゼラムナックル",
-		"tr_text": "",
+		"tr_text": "카이제람 너클",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "16010025",
 		"jp_text": "ゼクストルナックル",
-		"tr_text": "",
+		"tr_text": "젝스톨 너클",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "16010026",
 		"jp_text": "ロクス・ラグフェンナックル",
-		"tr_text": "",
+		"tr_text": "록스 라그펜 너클",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "16010027",
 		"jp_text": "コルディークナックル",
-		"tr_text": "",
+		"tr_text": "코르디크 너클",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010028",
+		"jp_text": "ネオス・アストリオンナックル",
+		"tr_text": "네오스 아스트리온 너클",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1620,6 +1627,13 @@
 		"assign": "16010032",
 		"jp_text": "テンペスターナックル",
 		"tr_text": "템페스타 너클",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010033",
+		"jp_text": "プリムナックル・リブラ",
+		"tr_text": "프림 너클 리브라",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1633,35 +1647,91 @@
 	{
 		"assign": "16010035",
 		"jp_text": "ククロゼアトナックル",
-		"tr_text": "Koukloziat Knuckles",
+		"tr_text": "크크로제아트 너클",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "16010036",
 		"jp_text": "エヴォルオーヴァナックル",
-		"tr_text": "",
+		"tr_text": "에볼 오버 너클",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010037",
+		"jp_text": "クリスティアナックル",
+		"tr_text": "크리스티아 너클",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010038",
+		"jp_text": "セイガヨウナックル",
+		"tr_text": "세이가요우 너클",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010039",
+		"jp_text": "トランクールナックル",
+		"tr_text": "트렁클 너클",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "16010040",
 		"jp_text": "レネッサナックル",
-		"tr_text": "",
+		"tr_text": "레네사 너클",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010041",
+		"jp_text": "ガンブレイズナックル",
+		"tr_text": "건블레이즈 너클",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "16010042",
 		"jp_text": "エヴォルイクリスナックル",
-		"tr_text": "",
+		"tr_text": "에볼 이크리스 너클",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010043",
+		"jp_text": "ククロフィスナックル",
+		"tr_text": "크크로피스 너클",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010046",
+		"jp_text": "オブゾディアナックル",
+		"tr_text": "오브조디아 너클",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "16010050",
 		"jp_text": "カイゼラムナックル試製壱型",
-		"tr_text": "",
+		"tr_text": "카이제람 너클 시제일형",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010051",
+		"jp_text": "セイガインナックル",
+		"tr_text": "세이가인 너클",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010052",
+		"jp_text": "ネオス・ユースティロンナックル",
+		"tr_text": "네오스 유스티론 너클",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

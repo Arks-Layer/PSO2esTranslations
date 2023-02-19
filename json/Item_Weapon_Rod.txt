@@ -1738,7 +1738,7 @@
 	{
 		"assign": "1110472",
 		"jp_text": "リンザーガルラ",
-		"tr_text": "Rinza Garla",
+		"tr_text": "린자 갈라",
 		"jp_explain": "流線美と機能性を備え持つ長杖。\n激しい川の流れのようにフォトンを\n回流させ、法撃力を飛躍的に高めた。",
 		"tr_explain": ""
 	},
@@ -1850,56 +1850,63 @@
 	{
 		"assign": "111010025",
 		"jp_text": "サンクエイムロッド",
-		"tr_text": "Cinquem Rod",
+		"tr_text": "산퀘임 로드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010026",
 		"jp_text": "ルメイラーロッド",
-		"tr_text": "Lumeira Rod",
+		"tr_text": "르메이라 로드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010027",
 		"jp_text": "ラゲードロッド",
-		"tr_text": "",
+		"tr_text": "라게이드 로드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010022",
 		"jp_text": "オブスクラルロッド",
-		"tr_text": "",
+		"tr_text": "오브스크럴 로드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010028",
 		"jp_text": "カイゼラムロッド",
-		"tr_text": "",
+		"tr_text": "카이제람 로드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010030",
 		"jp_text": "ロクス・シージェムスロッド",
-		"tr_text": "",
+		"tr_text": "록스 시잼스 로드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010031",
 		"jp_text": "コルディークロッド",
-		"tr_text": "",
+		"tr_text": "코르디크 로드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010029",
 		"jp_text": "ゼクストルロッド",
-		"tr_text": "",
+		"tr_text": "젝스톨 로드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010032",
+		"jp_text": "ネオス・アストリオンロッド",
+		"tr_text": "네오스 아스트리온 로드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1907,6 +1914,13 @@
 		"assign": "111010036",
 		"jp_text": "フロステルロッド",
 		"tr_text": "프로스텔 로드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010039",
+		"jp_text": "プリムロッド・リブラ",
+		"tr_text": "프림 로드 리브라",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1920,35 +1934,91 @@
 	{
 		"assign": "111010041",
 		"jp_text": "ククロゼアトロッド",
-		"tr_text": "",
+		"tr_text": "크크로제아트 로드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010042",
 		"jp_text": "エヴォルオーヴァロッド",
-		"tr_text": "",
+		"tr_text": "에볼 오버 로드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010043",
+		"jp_text": "クリスティアロッド",
+		"tr_text": "크리스티아 로드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010045",
+		"jp_text": "セイガヨウロッド",
+		"tr_text": "세이가요우 로드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010046",
+		"jp_text": "トランクールロッド",
+		"tr_text": "트렁클 로드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010047",
 		"jp_text": "レネッサロッド",
-		"tr_text": "",
+		"tr_text": "레네사 로드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010048",
+		"jp_text": "ガンブレイズロッド",
+		"tr_text": "건블레이즈 로드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010049",
 		"jp_text": "エヴォルイクリスロッド",
-		"tr_text": "",
+		"tr_text": "에볼 이크리스 로드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010051",
+		"jp_text": "ククロフィスロッド",
+		"tr_text": "크크로피스 로드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010055",
+		"jp_text": "オブゾディアロッド",
+		"tr_text": "오브조디아 로드",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010059",
 		"jp_text": "カイゼラムロッド試製壱型",
-		"tr_text": "",
+		"tr_text": "카이제람 로드 시제일형",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010060",
+		"jp_text": "セイガインロッド",
+		"tr_text": "세이가인 로드",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010061",
+		"jp_text": "ネオス・ユースティロンロッド",
+		"tr_text": "네오스 유스티론 로드",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

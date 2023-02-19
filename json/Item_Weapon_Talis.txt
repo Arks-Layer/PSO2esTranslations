@@ -1584,7 +1584,7 @@
 	{
 		"assign": "1120379",
 		"jp_text": "リンザーハラン",
-		"tr_text": "Rinza Haran",
+		"tr_text": "린자 할란",
 		"jp_explain": "流線美と機能性を備え持つ導具。\nフォトン粒子活性化機構を搭載し\n低負荷で効果的な法撃が可能。",
 		"tr_explain": ""
 	},
@@ -1598,7 +1598,7 @@
 	{
 		"assign": "1120384",
 		"jp_text": "プリメラ・フィオーレ-NT",
-		"tr_text": "프림era Fiore-NT",
+		"tr_text": "프리메라 피오레-NT",
 		"jp_explain": "花を模した、超高級カスタムモデルの\n導具。その美しさから、装者の戦う姿は\nあたかも舞うかのごとく見えるという。",
 		"tr_explain": ""
 	},
@@ -1703,49 +1703,56 @@
 	{
 		"assign": "112010018",
 		"jp_text": "サンクエイムタリス",
-		"tr_text": "Cinquem Talis",
+		"tr_text": "산퀘임 탈리스",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "112010019",
 		"jp_text": "ルメイラータリス",
-		"tr_text": "Lumeira Talis",
+		"tr_text": "르메이라 탈리스",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "112010020",
 		"jp_text": "ラゲードタリス",
-		"tr_text": "Rugged Talis",
+		"tr_text": "라게이드 탈리스",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "112010021",
 		"jp_text": "カイゼラムタリス",
-		"tr_text": "Kaiseram Talis",
+		"tr_text": "카이제람 탈리스",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "112010022",
 		"jp_text": "ゼクストルタリス",
-		"tr_text": "Sechstyl Talis",
+		"tr_text": "젝스톨 탈리스",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "112010023",
 		"jp_text": "ロクス・クルーヴァタリス",
-		"tr_text": "Rox Cruva Talis",
+		"tr_text": "록스 크루바 탈리스",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "112010024",
 		"jp_text": "コルディークタリス",
-		"tr_text": "Coldic Talis",
+		"tr_text": "코르디크 탈리스",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010025",
+		"jp_text": "ネオス・アストリオンタリス",
+		"tr_text": "네오스 아스트리온 탈리스",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1753,6 +1760,13 @@
 		"assign": "112010028",
 		"jp_text": "テンペスタータリス",
 		"tr_text": "템페스타 탈리스",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010029",
+		"jp_text": "プリムタリス・リブラ",
+		"tr_text": "프림 탈리스 리브라",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1766,35 +1780,91 @@
 	{
 		"assign": "112010031",
 		"jp_text": "ククロゼアトタリス",
-		"tr_text": "Koukloziat Talis",
+		"tr_text": "크크로제아트 탈리스",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "112010032",
 		"jp_text": "エヴォルオーヴァタリス",
-		"tr_text": "Evolover Talis",
+		"tr_text": "에볼 오버 탈리스",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010033",
+		"jp_text": "クリスティアタリス",
+		"tr_text": "크리스티아 탈리스",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010034",
+		"jp_text": "セイガヨウタリス",
+		"tr_text": "세이가요우 탈리스",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010035",
+		"jp_text": "トランクールタリス",
+		"tr_text": "트렁클 탈리스",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "112010036",
 		"jp_text": "レネッサタリス",
-		"tr_text": "Renessa Talis",
+		"tr_text": "레네사 탈리스",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010037",
+		"jp_text": "ガンブレイズタリス",
+		"tr_text": "건블레이즈 탈리스",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "112010038",
 		"jp_text": "エヴォルイクリスタリス",
-		"tr_text": "Evoleclis Talis",
+		"tr_text": "에볼 이크리스 탈리스",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010039",
+		"jp_text": "ククロフィスタリス",
+		"tr_text": "크크로피스 탈리스",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010041",
+		"jp_text": "オブゾディアタリス",
+		"tr_text": "오브조디아 탈리스",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "112010045",
 		"jp_text": "カイゼラムタリス試製壱型",
-		"tr_text": "Kaiseram Talis Prototype",
+		"tr_text": "카이제람 Talis 시제일형",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010046",
+		"jp_text": "セイガインタリス",
+		"tr_text": "건블레이즈 탈리스",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010047",
+		"jp_text": "ネオス・ユースティロンタリス",
+		"tr_text": "네오스 유스티론 탈리스",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

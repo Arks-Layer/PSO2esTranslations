@@ -1472,7 +1472,7 @@
 	{
 		"assign": "140374",
 		"jp_text": "リンザーレギア",
-		"tr_text": "Rinza Regia",
+		"tr_text": "린자 레기아",
 		"jp_explain": "流線美と機能性を備え持つ双小剣。\n取り込んだフォトンを活性化させ\n抜群の性能を引き出す。",
 		"tr_explain": ""
 	},
@@ -1598,56 +1598,63 @@
 	{
 		"assign": "14010021",
 		"jp_text": "サンクエイムダガー",
-		"tr_text": "Cinquem Daggers",
+		"tr_text": "산퀘임 대거",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "14010022",
 		"jp_text": "ルメイラーダガー",
-		"tr_text": "Lumeira Daggers",
+		"tr_text": "르메이라 대거",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "14010023",
 		"jp_text": "ラゲードダガー",
-		"tr_text": "",
+		"tr_text": "라게이드 대거",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "14010018",
 		"jp_text": "オブスクラルダガー",
-		"tr_text": "Obscural Daggers",
+		"tr_text": "오브스크럴 대거",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "14010024",
 		"jp_text": "カイゼラムダガー",
-		"tr_text": "",
+		"tr_text": "카이제람 대거",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "14010026",
 		"jp_text": "ロクス・シージェムスダガー",
-		"tr_text": "",
+		"tr_text": "록스 시잼스 대거",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "14010027",
 		"jp_text": "コルディークダガー",
-		"tr_text": "",
+		"tr_text": "코르디크 대거",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "14010025",
 		"jp_text": "ゼクストルダガー",
-		"tr_text": "",
+		"tr_text": "젝스톨 대거",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010028",
+		"jp_text": "ネオス・アストリオンダガー",
+		"tr_text": "네오스 아스트리온 대거",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1655,6 +1662,13 @@
 		"assign": "14010033",
 		"jp_text": "フランメルダガー",
 		"tr_text": "프람멜 대거",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010034",
+		"jp_text": "プリムダガー・リブラ",
+		"tr_text": "프림 대거 리브라",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1668,35 +1682,98 @@
 	{
 		"assign": "14010036",
 		"jp_text": "ククロゼアトダガー",
-		"tr_text": "Koukloziat Daggers",
+		"tr_text": "크크로제아트 대거",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "14010037",
 		"jp_text": "エヴォルオーヴァダガー",
-		"tr_text": "",
+		"tr_text": "에볼 오버 대거",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010038",
+		"jp_text": "クリスティアダガー",
+		"tr_text": "크리스티아 대거",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010039",
+		"jp_text": "セイガヨウダガー",
+		"tr_text": "세이가요우 대거",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010040",
+		"jp_text": "トランクールダガー",
+		"tr_text": "트렁클 대거",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "14010043",
 		"jp_text": "レネッサダガー",
-		"tr_text": "",
+		"tr_text": "레네사 대거",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010044",
+		"jp_text": "ガンブレイズダガー",
+		"tr_text": "건블레이즈 대거",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "14010045",
 		"jp_text": "エヴォルイクリスダガー",
+		"tr_text": "에볼 이크리스 대거",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010046",
+		"jp_text": "￥グライエダガー",
 		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010047",
+		"jp_text": "ククロフィスダガー",
+		"tr_text": "크크로피스 대거",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010053",
+		"jp_text": "オブゾディアダガー",
+		"tr_text": "오브조디아 대거",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "14010056",
 		"jp_text": "カイゼラムダガー試製壱型",
-		"tr_text": "",
+		"tr_text": "카이제람 대거 시제일형",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010058",
+		"jp_text": "セイガインダガー",
+		"tr_text": "세이가인 대거",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010059",
+		"jp_text": "ネオス・ユースティロンダガー",
+		"tr_text": "네오스 유스티론 대거",
 		"jp_explain": "",
 		"tr_explain": ""
 	}
