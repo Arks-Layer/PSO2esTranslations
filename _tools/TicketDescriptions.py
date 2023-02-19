@@ -721,14 +721,15 @@ la_extras = {
                 # ※対応機能：ボタン派生／ランダム／\n
                 # 対応服指可動
             "*actrandomfingers": [
-                    ("\n"
-                     ""),
-                    ("\n"
-                     ""),
-                    ("\n"
-                     ""),
-                    ("※適用功能：按鍵衍生/隨機動作/\n"
-                     "適用服裝可動手指")],
+                ("※Has button actions/randomness.\n"
+                 "Finger motion limited based on outfit."),
+                ("\n"
+                 ""),
+                ("\n"
+                 ""),
+                ("※適用功能：按鍵衍生/隨機動作/\n"
+                 "適用服裝可動手指")
+                ],
 
             # JP text: 
                 # ※対応機能：ボタン派生／\n
