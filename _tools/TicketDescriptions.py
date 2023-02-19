@@ -783,6 +783,21 @@ la_extras = {
                 ("※Одежда влияет на движ-е пальцев"),
                 ("※適用功能：適用服裝可動手指")
                 ],
+            
+            # JP text: 
+                # 対応機能：ボタン派生\n
+                # <yellow>対象服のみ指も可動<c>
+            # Only on a dummy LA but the script crashes when run with -a if not included
+            "actfingers": [
+                ("※Use action buttons for extra actions.\n"
+                 "Finger motion limited based on outfit."),
+                ("지원 기능: 버튼 파생\n"
+                 "대응복 손가락 가동"),
+                ("Доступно доп действие.\n"
+                 "Одежда влияет на движ-е пальцев"),
+                ("※適用功能：按鍵衍生/\n"
+                 "適用服裝可動手指")
+                ],
 
             # JP text: 
                 # 対応機能：ボタン派生／武器装備反映\n
@@ -849,6 +864,7 @@ extras_names = {
     "対応服指可動／\n武器装備反映／『PSO2』ブロック非対応<c>": "*fingersweaponsngs",
     "対応服指可動／\n『PSO2』ブロック非対応<c>": "*fingersngs",
     "対応服指可動<c>": "*fingers",
+    "ボタン派生\n<yellow>対象服のみ指も可動<c>": "actfingers",
     "ボタン派生／武器装備反映\n<yellow>一部武器反映不可<c>": "actweapons",
     "ボタン派生／ランダム": "actrandom",
     "ボタン派生": "act",
