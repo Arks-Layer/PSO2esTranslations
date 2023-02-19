@@ -679,6 +679,69 @@
 		"tr_explain": "A special crystal given to those who\nseek strength. Can be traded for items\nat specific locations."
 	},
 	{
+		"assign": "37010007",
+		"jp_text": "N-Huエクスキューブ",
+		"tr_text": "",
+		"jp_explain": "ハンタークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010008",
+		"jp_text": "N-Raエクスキューブ",
+		"tr_text": "",
+		"jp_explain": "レンジャークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010009",
+		"jp_text": "N-Foエクスキューブ",
+		"tr_text": "",
+		"jp_explain": "フォースクラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010010",
+		"jp_text": "N-Fiエクスキューブ",
+		"tr_text": "",
+		"jp_explain": "ファイタークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010011",
+		"jp_text": "N-Guエクスキューブ",
+		"tr_text": "",
+		"jp_explain": "ガンナークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010012",
+		"jp_text": "N-Teエクスキューブ",
+		"tr_text": "",
+		"jp_explain": "テクタークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010013",
+		"jp_text": "N-Brエクスキューブ",
+		"tr_text": "",
+		"jp_explain": "ブレイバークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010014",
+		"jp_text": "N-Boエクスキューブ",
+		"tr_text": "",
+		"jp_explain": "バウンサークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010015",
+		"jp_text": "N-Waエクスキューブ",
+		"tr_text": "",
+		"jp_explain": "ウェイカークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "37010016",
 		"jp_text": "N-グラインダー",
 		"tr_text": "N-그라인더",
@@ -760,6 +823,216 @@
 		"jp_text": "ガンマリアクター",
 		"tr_text": "감마 리액터",
 		"jp_explain": "なんらかの機械の動力炉。\n高値で売却することができる。",
+		"tr_explain": "A power core from some kind of\nmachine. Can be sold for a high price."
+	},
+	{
+		"assign": "37010029",
+		"jp_text": "Bトリガー/スプリング'22",
+		"tr_text": "B. Trigger/Spring '22",
+		"jp_explain": "専用のポータルで使用するトリガー。\n“想定演習：\n戦変万花のエネミー掃討戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010030",
+		"jp_text": "ストラグメントＡ",
+		"tr_text": "Stragment A",
+		"jp_explain": "戦闘セクションなどで入手可能な\n複合装甲のかけら。精錬することで\nアームズリファイナーに加工される。",
+		"tr_explain": "A fragment of composite plating\nfound in Combat Areas. Can be\nrefined into an Arms Refiner."
+	},
+	{
+		"assign": "37010031",
+		"jp_text": "ストラグメントＢ",
+		"tr_text": "Stragment B",
+		"jp_explain": "戦闘セクションなどで入手可能な\n複合装甲のかけら。精錬することで\nアームズリファイナーに加工される。",
+		"tr_explain": "A fragment of composite plating\nfound in Combat Areas. Can be\nrefined into an Arms Refiner."
+	},
+	{
+		"assign": "37010032",
+		"jp_text": "ストラグメントＣ",
+		"tr_text": "Stragment C",
+		"jp_explain": "戦闘セクションなどで入手可能な\n複合装甲のかけら。精錬することで\nアームズリファイナーに加工される。",
+		"tr_explain": "A fragment of composite plating\nfound in Combat Areas. Can be\nrefined into an Arms Refiner."
+	},
+	{
+		"assign": "37010033",
+		"jp_text": "アームズリファイナー",
+		"tr_text": "Arms Refiner",
+		"jp_explain": "ストラグメントから精錬される素材。\nアイテムラボでの限界突破に用いる。",
+		"tr_explain": "A material created by refining\nStragments. Can be used to\nbreak item limits at the Item Lab."
+	},
+	{
+		"assign": "37010034",
+		"jp_text": "カプセルリムーバー",
+		"tr_text": "Capsule Remover",
+		"jp_explain": "カプタンなどから入手可能な加工具。\nアイテムラボでの\n特殊能力分離に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010036",
+		"jp_text": "『NGS』1周年記念交換券",
+		"tr_text": "",
+		"jp_explain": "対象イベントの期間中\nシトレーに提示することで\n様々なアイテムと交換できるチケット。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010037",
+		"jp_text": "『PSO2』マンガメモリ",
+		"tr_text": "",
+		"jp_explain": "表面に特徴的なイラストが描かれた\n謎の記憶媒体。\n特定の場所でアイテムと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010038",
+		"jp_text": "クヴァリス遠征準備特別票",
+		"tr_text": "Kvaris Expedition Special Ticket",
+		"jp_explain": "活躍したアークスに贈られる証。\nアイテムトレーダーの\n“遠征準備特別票交換”で\n★6武器などと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010040",
+		"jp_text": "チームバッヂ",
+		"tr_text": "",
+		"jp_explain": "チームへの貢献者に贈られるバッヂ。\n特定の場所でアイテムと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010041",
+		"jp_text": "Bトリガー/クヴァルイエロー",
+		"tr_text": "B. Trigger/Kvaris Yellow",
+		"jp_explain": "バトルディアで使用するトリガー。\n“クヴァリストルーパーズ”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010042",
+		"jp_text": "Bトリガー/クヴァルパープル",
+		"tr_text": "B. Trigger/Kvaris Purple",
+		"jp_explain": "バトルディアで使用するトリガー。\n“クヴァリスデバステーターズ”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010043",
+		"jp_text": "アイシクルキューブ",
+		"tr_text": "",
+		"jp_explain": "エンシェントエネミーなどから\n入手可能な謎めいたエネルギー物質。\nクヴァリスのレソに提示することで\n様々なアイテムと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010051",
+		"jp_text": "アイシクルオーブ",
+		"tr_text": "",
+		"jp_explain": "クヴァリスでのトライアルなどで\n入手可能な謎めいたエネルギー物質。\nクヴァリスのレソに提示することで\n様々なアイテムと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010059",
+		"jp_text": "Qトリガー/ダークファルス迎撃戦",
+		"tr_text": "",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nダークファルス迎撃戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010060",
+		"jp_text": "Qトリガー/ダークファルス迎撃戦R.2",
+		"tr_text": "",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nダークファルス迎撃戦R.2”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010061",
+		"jp_text": "『PSO2』10周年記念交換券",
+		"tr_text": "",
+		"jp_explain": "対象のイベント期間中\nアイテムトレーダーに提示することで\n様々なアイテムと交換できるチケット。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010062",
+		"jp_text": "スノークス",
+		"tr_text": "",
+		"jp_explain": "氷雪で磨かれたとされる石。\n高値で売却することができる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010063",
+		"jp_text": "Qトリガー/統制型ドールズ討伐戦",
+		"tr_text": "",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\n統制型ドールズ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010064",
+		"jp_text": "Qトリガー/ネクス・ヴェラ討伐戦",
+		"tr_text": "",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nネクス・ヴェラ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010065",
+		"jp_text": "Qトリガー/資源採掘リグ防衛戦：エアリオ",
+		"tr_text": "",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\n資源採掘リグ防衛戦：エアリオ”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010066",
+		"jp_text": "Qトリガー/レヌス・ヴェラ討伐戦",
+		"tr_text": "",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nレヌス・ヴェラ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010067",
+		"jp_text": "Qトリガー/スナイダル・ヴェラ討伐戦",
+		"tr_text": "",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nスナイダル・ヴェラ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010068",
+		"jp_text": "Qトリガー/資源採掘リグ防衛戦：リテム",
+		"tr_text": "",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\n資源採掘リグ防衛戦：リテム”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010069",
+		"jp_text": "Qトリガー/クロコダラス・ヴェラ討伐戦",
+		"tr_text": "",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nクロコダラス・ヴェラ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010070",
+		"jp_text": "Qトリガー/アムス・ヴェラ討伐戦",
+		"tr_text": "",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nアムス・ヴェラ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010071",
+		"jp_text": "Qトリガー/資源採掘リグ防衛戦：クヴァリス",
+		"tr_text": "",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\n資源採掘リグ防衛戦：クヴァリス”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010072",
+		"jp_text": "アークスレコードバッヂ",
+		"tr_text": "",
+		"jp_explain": "活躍したアークスに贈られるバッヂ。\nアイテムトレーダーの\n“アークスレコードバッヂ交換”で\nアイテムと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010073",
+		"jp_text": "Bトリガー/コモンイエロー",
+		"tr_text": "",
+		"jp_explain": "すべてのイエローポータルに\n対応するトリガー。\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010074",
+		"jp_text": "Bトリガー/コモンパープル",
+		"tr_text": "",
+		"jp_explain": "すべてのパープルポータルに\n対応するトリガー。\nクリア時に消費される。",
 		"tr_explain": ""
 	}
 ]

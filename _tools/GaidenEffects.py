@@ -39,7 +39,8 @@ effect_types = {
     "消費ＣＰダウン": "CP Usage Down",
     "効果適用拡大": "Effect Broadened",
     "効果時間延長": "Effect Extended",
-    "パラメータアップ": "Parameters Up"
+    "パラメータアップ": "Parameters Up",
+    "継続パラメータ回復": "Recovery Over Time"
     }
 
 effect_effects = { # dictionary of lambdas because there's no such thing as switch-case in python
@@ -78,6 +79,14 @@ effect_effects = { # dictionary of lambdas because there's no such thing as swit
                                                   " increases by ")
                                          .replace("上昇する。",
                                                   " when equipped."),
+    "Recovery Over Time":   lambda x:   x.replace("戦闘中、一定時間毎にHPが",
+                                                  "Recovers your HP by ")
+                                         .replace("％回復する。",
+                                                  "% at regular intervals during battle.")
+                                         .replace("戦闘中、一定時間毎にＣＰが",
+                                                  "Recovers your CP by ")
+                                         .replace("回復する。",
+                                                  " at regular intervals during battle.")
     }
 
 unknowns = []

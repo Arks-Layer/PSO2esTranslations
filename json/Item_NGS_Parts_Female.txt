@@ -1,147 +1,420 @@
 [
 	{
 		"jp_text": "ディアーレ・ボディ",
-		"tr_text": "Di Allez Body",
+		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "Unlocks new body parts for use.\n<yellow>※Type: Cast Type 2<c>",
+		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "ディアーレ・アーム",
-		"tr_text": "Di Allez Arms",
+		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "Unlocks new arn parts for use.\n<yellow>※Type: Cast Type 2<c>",
+		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "ディアーレ・レッグ",
-		"tr_text": "Di Allez Legs",
+		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.\n<yellow>※Type: Cast Type 2<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "コルセロ・ボディ",
-		"tr_text": "Corsero Body",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new body parts for use.\n<yellow>※Type: Cast Type 2<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "コルセロ・アーム",
-		"tr_text": "Corsero Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arn parts for use.\n<yellow>※Type: Cast Type 2<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "コルセロ・レッグ",
-		"tr_text": "Corsero Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.\n<yellow>※Type: Cast Type 2<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "シャノフ・ボディ",
-		"tr_text": "Schanorf Body",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new body parts for use.\n<yellow>※Type: Cast Type 2<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "シャノフ・アーム",
-		"tr_text": "Schanorf Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arn parts for use.\n<yellow>※Type: Cast Type 2<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "シャノフ・レッグ",
-		"tr_text": "Schanorf Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.\n<yellow>※Type: Cast Type 2<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "スヴェーラ・ボディ",
-		"tr_text": "Svera Body",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new body parts for use.\n<yellow>※Type: Cast Type 2<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "スヴェーラ・アーム",
-		"tr_text": "Svera Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arn parts for use.\n<yellow>※Type: Cast Type 2<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "スヴェーラ・レッグ",
-		"tr_text": "Svera Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.\n<yellow>※Type: Cast Type 2<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "ネヴァーン・ボディ",
-		"tr_text": "Nemain Body",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new body parts for use.\n<yellow>※Type: Cast Type 2<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "ネヴァーン・アーム",
-		"tr_text": "Nemain Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arn parts for use.\n<yellow>※Type: Cast Type 2<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "ネヴァーン・レッグ",
-		"tr_text": "Nemain Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.\n<yellow>※Type: Cast Type 2<c>",
+		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "ディアーレ・ボディ/2",
-		"tr_text": "Di Allez Body/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ディアーレ・アーム/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ディアーレ・レッグ/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "コルセロ・ボディ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "コルセロ・アーム",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "コルセロ・レッグ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "コルセロ・ボディ/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "コルセロ・アーム/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "コルセロ・レッグ/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "シャノフ・ボディ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "シャノフ・アーム",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "シャノフ・レッグ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "シャノフ・ボディ/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "シャノフ・アーム/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "シャノフ・レッグ/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "スヴェーラ・ボディ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "スヴェーラ・アーム",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "スヴェーラ・レッグ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ネヴァーン・ボディ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ネヴァーン・アーム",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ネヴァーン・レッグ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ネヴァーン・ボディ/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ネヴァーン・アーム/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ネヴァーン・レッグ/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ゲツエイ・ボディ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ゲツエイ・アーム",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ゲツエイ・レッグ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ゲツエイ・ボディ/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ゲツエイ・アーム/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ゲツエイ・レッグ/2",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "ゲツエイ・ボディ/B",
+		"tr_text": "Getsu-ei Body/B",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.\n<yellow>※Type: Cast Type 2<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "ディアーレ・アーム/2",
-		"tr_text": "Di Allez Arms/2",
+		"jp_text": "ゲツエイ・アーム/B",
+		"tr_text": "Getsu-ei Arms/B",
 		"jp_explain": "",
-		"tr_explain": "Unlocks new arn parts for use.\n<yellow>※Type: Cast Type 2<c>",
+		"tr_explain": "Unlocks new arm parts for use.\n<yellow>※Type: Cast Type 2<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "ディアーレ・レッグ/2",
-		"tr_text": "Di Allez Legs/2",
+		"jp_text": "ゲツエイ・レッグ/B",
+		"tr_text": "Getsu-ei Legs/B",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new leg parts for use.\n<yellow>※Type: Cast Type 2<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "コルセロ・ボディ/2",
-		"tr_text": "Corsero Body/2",
+		"jp_text": "ゲツエイ・ボディ/B2",
+		"tr_text": "Getsu-ei Body/B2",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.\n<yellow>※Type: Cast Type 2<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "コルセロ・アーム/2",
-		"tr_text": "Corsero Arms/2",
+		"jp_text": "ゲツエイ・アーム/B2",
+		"tr_text": "Getsu-ei Arms/B2",
 		"jp_explain": "",
-		"tr_explain": "Unlocks new arn parts for use.\n<yellow>※Type: Cast Type 2<c>",
+		"tr_explain": "Unlocks new arm parts for use.\n<yellow>※Type: Cast Type 2<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "コルセロ・レッグ/2",
-		"tr_text": "Corsero Legs/2",
+		"jp_text": "ゲツエイ・レッグ/B2",
+		"tr_text": "Getsu-ei Legs/B2",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.\n<yellow>※Type: Cast Type 2<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "スヴェラト・ボディ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "スヴェラト・アーム",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "スヴェラト・レッグ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "クロウリック・ボディ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "クロウリック・アーム",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "クロウリック・レッグ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "クロウリック・ボディ/B",
+		"tr_text": "Krolik Body/B",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new body parts for use.\n<yellow>※Type: Cast Type 2<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "クロウリック・アーム/B",
+		"tr_text": "Krolik Arms/B",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.\n<yellow>※Type: Cast Type 2<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "クロウリック・レッグ/B",
+		"tr_text": "Krolik Legs/B",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.\n<yellow>※Type: Cast Type 2<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "トイフェラン・ボディ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "トイフェラン・アーム",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "トイフェラン・レッグ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-ナイトメア・ボディ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-ナイトメア・アーム",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-ナイトメア・レッグ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-アリスリーパー・ボディ",
+		"tr_text": "N-Alice Reaper Body",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new body parts for use.\n<yellow>※Type: Cast Type 2<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-アリスリーパー・アーム",
+		"tr_text": "N-Alice Reaper Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.\n<yellow>※Type: Cast Type 2<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-アリスリーパー・レッグ",
+		"tr_text": "N-Alice Reaper Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.\n<yellow>※Type: Cast Type 2<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "ライディー・ボディ",
+		"tr_text": "Raiji Body",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new body parts for use.\n<yellow>※Type: Cast Type 2<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "ライディー・アーム",
+		"tr_text": "Raiji Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.\n<yellow>※Type: Cast Type 2<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "ライディー・レッグ",
+		"tr_text": "Raiji Legs",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new leg parts for use.\n<yellow>※Type: Cast Type 2<c>",
 		"assign": 0

@@ -160,6 +160,11 @@
 		"tr_text": "This will expand\nyour Chip Storage.\n\nChip Storage (<%current_pack_size>) → <color=red>(<%after_pack_size>)</color>\n※Can expand to a Maximum of <%max_pack_size>.\n\nRappy medals needed: <%consume_rappy_coin>\nRappy medals owned: <%current_rappy_coin>\n\nAC needed: <%consume_AC>\nAC owned: <%current_AC>"
 	},
 	{
+		"assign": "acshop_dialog_b_00_sega_id",
+		"jp_text": "ラッピーメダルか<%AC>を消費して\nチップパックを拡張しますか？\n\nパックサイズ（<%current_pack_size>）→<color=red>（<%after_pack_size>）</color>\n※チップパックは<%max_pack_size>まで拡張できます。\n\n必要ラッピーメダル：<%consume_rappy_coin>枚\n所持ラッピーメダル：<%current_rappy_coin>\n\n必要<%AC>      ：<%consume_AC>\n使用可能<%AC>：<%current_AC>",
+		"tr_text": ""
+	},
+	{
 		"assign": "acshop_dialog_t_01",
 		"jp_text": "-",
 		"tr_text": ""
@@ -198,6 +203,11 @@
 		"assign": "acshop_dialog_b_04",
 		"jp_text": "ラッピーメダルか<%AC>を消費して\n行動力を回復しますか？\n\n行動力（<%current_drive>）→<color=red>（<%after_drive>）</color>\n\n必要ラッピーメダル：<%consume_rappy_coin>枚\n所持ラッピーメダル：<%current_rappy_coin>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
 		"tr_text": "This will restore\nyour Drive points.\n\nDrive（<%current_drive>）→<color=red>（<%after_drive>）</color>\n\nRappy medals needed: <%consume_rappy_coin>\nRappy medals owned: <%current_rappy_coin>\n\nAC needed: <%consume_AC>\nAC owned: <%current_AC>"
+	},
+	{
+		"assign": "acshop_dialog_b_04_sega_id",
+		"jp_text": "ラッピーメダルか<%AC>を消費して\n行動力を回復しますか？\n\n行動力（<%current_drive>）→<color=red>（<%after_drive>）</color>\n\n必要ラッピーメダル：<%consume_rappy_coin>枚\n所持ラッピーメダル：<%current_rappy_coin>\n\n必要<%AC>      ：<%consume_AC>\n使用可能<%AC>：<%current_AC>",
+		"tr_text": ""
 	},
 	{
 		"assign": "acshop_dialog_t_05",
@@ -240,6 +250,11 @@
 		"tr_text": "Not enough <%AC>.\nDo you want to buy more AC?\n\n<%AC> needed: <%consume_AC>\n<%AC> owned: <%current_AC>"
 	},
 	{
+		"assign": "acshop_dialog_b_08_sega_id",
+		"jp_text": "使用可能<%AC>が不足しています。\n<%AC>をチャージしますか？\n\n必要<%AC>      ：<%consume_AC>\n使用可能<%AC>：<%current_AC>",
+		"tr_text": ""
+	},
+	{
 		"assign": "acshop_dialog_t_09",
 		"jp_text": "プレミアムセット使用確認",
 		"tr_text": "Confirm Premium Set"
@@ -278,6 +293,11 @@
 		"assign": "acshop_dialog_b_12",
 		"jp_text": "<%item_name>を1枚購入します。\nよろしいですか？\n\n所持数：<%item_name>×<%current_num>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
 		"tr_text": "Purchasing <%item_name>.\nConfirm?\n\nCurrently hold：<%item_name>×<%current_num>\n\nAC needed: <%consume_AC>\nAC owned: <%current_AC>"
+	},
+	{
+		"assign": "acshop_dialog_b_12_sega_id",
+		"jp_text": "<%item_name>を1枚購入します。\nよろしいですか？\n\n所持数：<%item_name>×<%current_num>\n\n必要<%AC>      ：<%consume_AC>\n使用可能<%AC>：<%current_AC>",
+		"tr_text": ""
 	},
 	{
 		"assign": "acshop_dialog_t_13",
@@ -440,9 +460,24 @@
 		"tr_text": "Item Purchase Confirmation"
 	},
 	{
+		"assign": "acshop_dialog_scc_button",
+		"jp_text": "特商法・資金決済法",
+		"tr_text": ""
+	},
+	{
+		"assign": "acshop_dialog_scc_article_button",
+		"jp_text": "特商法12条の6に基づく表示",
+		"tr_text": ""
+	},
+	{
 		"assign": "acshop_dialog_b_28",
 		"jp_text": "<%item_name>を購入します。\nよろしいですか？\n\n所持数：<%current_item_num>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
 		"tr_text": "You want to buy <%item_name>.\nIs that ok?\n\nOwned: <%current_item_num>\n\nNeeded <%AC>: <%consume_AC>\nHave: <%current_AC>"
+	},
+	{
+		"assign": "acshop_dialog_b_28_sega_id",
+		"jp_text": "<%item_name>を購入します。\nよろしいですか？\n\n所持数：<%current_item_num>\n\n必要<%AC>      ：<%consume_AC>\n使用可能<%AC>：<%current_AC>",
+		"tr_text": ""
 	},
 	{
 		"assign": "acshop_dialog_t_29",
@@ -505,6 +540,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "acshop_dialog_b_33_sega_id",
+		"jp_text": "<%item_name>を所持していません。\n<%AC>を消費してOP回復薬を購入し、OPを回復しますか？\n※OP回復薬は、OPを6回復します。\n\n必要<%AC>      ：<%consume_AC>\n使用可能<%AC>：<%current_AC>",
+		"tr_text": ""
+	},
+	{
 		"assign": "acshop_dialog_t_34",
 		"jp_text": "アイテム購入確認",
 		"tr_text": "Item Purchase Confirmation"
@@ -533,6 +573,11 @@
 		"assign": "acshop_dialog_b_36",
 		"jp_text": "<%item_name>を購入します。\nよろしいですか？\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
 		"tr_text": "Buy <%item_name>?\nAre you sure?\n\nRequired <%AC>: <%consume_AC>\nCurrent <%AC>: <%current_AC>"
+	},
+	{
+		"assign": "acshop_dialog_b_36_sega_id",
+		"jp_text": "<%item_name>を購入します。\nよろしいですか？\n\n必要<%AC>      ：<%consume_AC>\n使用可能<%AC>：<%current_AC>",
+		"tr_text": ""
 	},
 	{
 		"assign": "acshop_dialog_t_37",
@@ -1212,7 +1257,7 @@
 	{
 		"assign": "charamake_race_03",
 		"jp_text": "トップクラスの攻撃力を持つ種族。\n額の角と、オッドアイが特徴。",
-		"tr_text": "High offensive power, low defense.\nOdd eye features\nlinked to photon power."
+		"tr_text": "High offensive power, low defense.\nOdd eye features\nlinked to Photon power."
 	},
 	{
 		"assign": "charamake_class_00",
@@ -1227,7 +1272,7 @@
 	{
 		"assign": "charamake_class_02",
 		"jp_text": "フォトンを用いたテクニックの使用に長けた\n遠距離戦闘向きのクラス。\n多彩なテクニックを扱える。",
-		"tr_text": "A class geared towards long-range\ncombat using photonic Techniques as\npowerful as they are diverse."
+		"tr_text": "A class geared towards long-range\ncombat using Photonic Techniques as\npowerful as they are diverse."
 	},
 	{
 		"assign": "charamake_class_03",
@@ -2117,6 +2162,16 @@
 	{
 		"assign": "friend_list_item_receive_reply_btn",
 		"jp_text": "返答する",
+		"tr_text": ""
+	},
+	{
+		"assign": "friend_list_item_receive_aproval_btn",
+		"jp_text": "承認",
+		"tr_text": ""
+	},
+	{
+		"assign": "friend_list_item_receive_rejection_btn",
+		"jp_text": "拒否",
 		"tr_text": ""
 	},
 	{
@@ -6900,6 +6955,11 @@
 		"tr_text": "Scape Dolls not found,\nbuy with <%AC> instead?\n\n<%AC> Owned: <%current_AC>\n<%AC> Needed: <%consume_AC>"
 	},
 	{
+		"assign": "quest_dialog_b_04_sega_id",
+		"jp_text": "復活薬を所持していないため\n<%AC>で復活します。よろしいですか？\n\n必要<%AC>      ：<%consume_AC>\n使用可能<%AC>：<%current_AC>",
+		"tr_text": ""
+	},
+	{
 		"assign": "quest_line_01",
 		"jp_text": "行動力が全回復しました",
 		"tr_text": "Drive has been fully recovered."
@@ -8605,6 +8665,11 @@
 		"tr_text": "Mag"
 	},
 	{
+		"assign": "chip_type_name_19",
+		"jp_text": "交換用素材",
+		"tr_text": ""
+	},
+	{
 		"assign": "chip_type_name_weaponoid",
 		"jp_text": "ウェポノイド",
 		"tr_text": "Weaponoid"
@@ -8703,6 +8768,11 @@
 		"assign": "chip_window_release",
 		"jp_text": "解放チップ選択",
 		"tr_text": "Select Chip"
+	},
+	{
+		"assign": "chip_window_assist_chip",
+		"jp_text": "アシストチップ選択",
+		"tr_text": ""
 	},
 	{
 		"assign": "window_sort_favorite",
@@ -9033,6 +9103,11 @@
 		"assign": "barmoney_ac",
 		"jp_text": "<%AC>",
 		"tr_text": "<%AC>"
+	},
+	{
+		"assign": "barmoney_available_ac",
+		"jp_text": "使用可能<%AC>",
+		"tr_text": ""
 	},
 	{
 		"assign": "barmoney_rappycoin",
@@ -10125,6 +10200,21 @@
 		"tr_text": "<%AC>"
 	},
 	{
+		"assign": "menu_charainfo_label_non_ps_ac",
+		"jp_text": "<%AC>（PC,Switch用）",
+		"tr_text": ""
+	},
+	{
+		"assign": "menu_charainfo_label_ps_ac",
+		"jp_text": "<%AC>（PS用）",
+		"tr_text": ""
+	},
+	{
+		"assign": "menu_charainfo_label_common_ac",
+		"jp_text": "<%AC>（共用）",
+		"tr_text": ""
+	},
+	{
 		"assign": "menu_charainfo_label_fun",
 		"jp_text": "FUN",
 		"tr_text": "FUN"
@@ -10268,6 +10358,11 @@
 		"assign": "menu_main_button_recycle",
 		"jp_text": "交換ショップ",
 		"tr_text": "Exchange Shop"
+	},
+	{
+		"assign": "menu_main_button_assist_chip",
+		"jp_text": "アシストチップ設定",
+		"tr_text": ""
 	},
 	{
 		"assign": "menu_main_formation_info",
@@ -10438,6 +10533,11 @@
 		"assign": "menu_sub_button_system_take_over",
 		"jp_text": "端末引き継ぎ情報",
 		"tr_text": "Device Transfer"
+	},
+	{
+		"assign": "menu_sub_button_system_delete_account",
+		"jp_text": "アカウント削除",
+		"tr_text": ""
 	},
 	{
 		"assign": "menu_sub_button_community_friend",
@@ -10883,6 +10983,11 @@
 		"assign": "quest_counter_rappy_coin",
 		"jp_text": "行動力が不足しているためクエストに出発できません。\nラッピーメダルか<%AC>を消費して行動力を回復しますか？\n\n出発に必要な行動力：(<%consume_drive>)\n行動力（<%current_drive>）→<color=red>（<%after_drive>）</color>\n\n必要ラッピーメダル：<%consume_rappy_coin>枚\n所持ラッピーメダル：<%current_rappy_coin>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
 		"tr_text": "You don't have enough Drive for this stage.\nYou can refill with <%AC> or Rappy medals. Is that OK?\n\nNeeded Drive: (<%consume_drive>)→<color=red>（<%after_drive>）</color>\n\nRappy medals needed: <%consume_rappy_coin>\nRappy medals owned: <%current_rappy_coin>\n\n<%AC> needed: <%consume_AC>\n<%AC> owned: <%current_AC>"
+	},
+	{
+		"assign": "quest_counter_rappy_coin_sega_id",
+		"jp_text": "行動力が不足しているためクエストに出発できません。\nラッピーメダルか<%AC>を消費して行動力を回復しますか？\n\n出発に必要な行動力：(<%consume_drive>)\n行動力（<%current_drive>）→<color=red>（<%after_drive>）</color>\n\n必要ラッピーメダル：<%consume_rappy_coin>枚\n所持ラッピーメダル：<%current_rappy_coin>\n\n必要<%AC>      ：<%consume_AC>\n使用可能<%AC>：<%current_AC>",
+		"tr_text": ""
 	},
 	{
 		"assign": "quest_counter_drive_lack",
@@ -11566,8 +11671,8 @@
 	},
 	{
 		"assign": "ac_window_title",
-		"jp_text": "購入AC額選択",
-		"tr_text": "AC Selection"
+		"jp_text": "“PS4”では使えません",
+		"tr_text": ""
 	},
 	{
 		"assign": "ac_product_name",
@@ -11576,8 +11681,8 @@
 	},
 	{
 		"assign": "ac_window_title_i",
-		"jp_text": "購入iAC額選択",
-		"tr_text": "Purchase iAC"
+		"jp_text": "“PS4”では使えません",
+		"tr_text": ""
 	},
 	{
 		"assign": "ac_product_name_i",
@@ -11623,6 +11728,11 @@
 		"assign": "dialog_body_ac_shortage",
 		"jp_text": "所持<%AC>が不足しています。\n<%AC>をチャージしますか？\n\n必要<%AC>：{0}\n所持<%AC>：{1}",
 		"tr_text": "You do not have enough <%AC>.\nWould you like to purchase more?\n\nRequired <%AC>：{0}\nCurrent <%AC>：{1}"
+	},
+	{
+		"assign": "dialog_body_ac_shortage_sega_id",
+		"jp_text": "使用可能<%AC>が不足しています。\n<%AC>をチャージしますか？\n\n必要<%AC>      ：{0}\n使用可能<%AC>：{1}",
+		"tr_text": ""
 	},
 	{
 		"assign": "b_enemy",
@@ -13122,12 +13232,12 @@
 	{
 		"assign": "es_0003_n02_b",
 		"jp_text": "<color=black>たとえダーカーを倒しても\nフォトンの力を持たない生物や機械の場合\n消滅したダーカーの残滓に侵され凶暴化してしまい\nやがては自滅してしまうんです。</color>",
-		"tr_text": "<color=black>Even defeated Darkers,\nover time, will infect biological and\nmechanical organisms which do not\nhave photons, causing them to go berserk.</color>"
+		"tr_text": "<color=black>Even defeated Darkers,\nover time, will infect biological and\nmechanical organisms which do not\nhave Photons, causing them to go berserk.</color>"
 	},
 	{
 		"assign": "es_0003_n03_b",
 		"jp_text": "<color=black>ですから、ダーカーと戦うことができるのは\nフォトンの力を持っている\nあなたたち、「アークス」だけなのです。</color>",
-		"tr_text": "<color=black>Hence why, to fight Darkers,\nwe 「ARKS」 have the power\nof photons.</color>"
+		"tr_text": "<color=black>Hence why, to fight Darkers,\nwe 「ARKS」 have the power\nof Photons.</color>"
 	},
 	{
 		"assign": "es_0003_n04_b",
@@ -13272,7 +13382,7 @@
 	{
 		"assign": "es_0006_n04_b",
 		"jp_text": "<color=black>ちなみに「侵食エネミー」とは\nダーカーの残滓によって侵され\n凶暴化が進行したエネミーのことです。\n体が赤い色になっているのが特徴です。</color>",
-		"tr_text": "<color=black>\"Infected enemies,\" incase you did not\nknow, are enemies who were damaged by\nDarkers. They become infected by\ntheir negative photons, thus empowering\ntheir rage, glowing red.</color>"
+		"tr_text": "<color=black>\"Infected enemies,\" incase you did not\nknow, are enemies who were damaged by\nDarkers. They become infected by\ntheir negative Photons, thus empowering\ntheir rage, glowing red.</color>"
 	},
 	{
 		"assign": "es_0006_n05_b",
@@ -16007,7 +16117,7 @@
 	{
 		"assign": "RaidEvent_Achievement_Text_0-1-31",
 		"jp_text": "上級を{0}回プレイ",
-		"tr_text": "Play Hard difficulty {0} times"
+		"tr_text": "Play Very Hard difficulty {0} times"
 	},
 	{
 		"assign": "RaidEvent_Achievement_Text_0-2-28",
@@ -16670,6 +16780,11 @@
 		"tr_text": "<color=#ff0000>{0} <%AC></color> We'll perform a Quick Search.\nIs that ok?\nOwned <%AC>：<%current_AC>"
 	},
 	{
+		"assign": "dialog_body_arksexpedition_use_ac_sega_id",
+		"jp_text": "{0}<%AC>で{1}回クイック探索を行います。\nよろしいですか？\n使用可能<%AC>：<%current_AC>",
+		"tr_text": ""
+	},
+	{
 		"assign": "dialog_title_arksexpedition_use_free",
 		"jp_text": "クイック探索",
 		"tr_text": "Quick Search"
@@ -17280,6 +17395,11 @@
 		"tr_text": "By consuming {0}<%AC>\nYou can recover your synthesis uses.\nIs that ok?\n\nNeeded <%AC>: {1}\nHave: {2} <%AC>"
 	},
 	{
+		"assign": "pet_acgive_window_body_sega_id",
+		"jp_text": "ペットの合成可能数が不足しています。\n\n{0}<%AC>を消費して\n合成可能数を全回復させます。\nよろしいですか？\n\n<color=#f0df60>※合成可能数が回復するのは\n　現在選択中のペットのみです。</color>\n\r\n必要<%AC>      ：{1}\r\n使用可能<%AC>：{2}",
+		"tr_text": ""
+	},
+	{
 		"assign": "pet_recovery_time",
 		"jp_text": "全回復まであと{0}:{1}",
 		"tr_text": "Regen {0}:{1}"
@@ -17323,6 +17443,11 @@
 		"assign": "pet_chargeac_window_body",
 		"jp_text": "所持<%AC>が不足しています。\n<%AC>をチャージしますか？\n\n必要<%AC>：{0}\n所持<%AC>：{1}",
 		"tr_text": "You're missing <%AC>.\nCharge <%AC> now?\n\nNeeded <%AC>: {0}\nOwned <%AC>： {1}"
+	},
+	{
+		"assign": "pet_chargeac_window_body_sega_id",
+		"jp_text": "使用可能<%AC>が不足しています。\n<%AC>をチャージしますか？\n\n必要<%AC>      ：{0}\n使用可能<%AC>：{1}",
+		"tr_text": ""
 	},
 	{
 		"assign": "pet_recovery_dialog_yes",
@@ -18065,6 +18190,11 @@
 		"tr_text": "Purchasing <%item_name>.\nProceed with purchase?\n\nYou will need a My Shop ticket to buy\nitems out of the Premium duration.\n\nOwn: <%current_item_num>\n\nReq. <%AC>: <%consume_AC>\nYour <%AC>: <%current_AC>"
 	},
 	{
+		"assign": "acshop_dialog_b_42_sega_id",
+		"jp_text": "<%item_name>を購入します。\nよろしいですか？\n\n<color=yellow>※マイショップ利用券はプレミアム期間中でないとき\n マイショップでのアイテム購入に必要になります。</color>\n\n所持数：<%current_item_num>\n\n必要<%AC>      ：<%consume_AC>\n使用可能<%AC>：<%current_AC>",
+		"tr_text": ""
+	},
+	{
 		"assign": "lookback_scene_title",
 		"jp_text": "ストーリー閲覧室",
 		"tr_text": "Story Room"
@@ -18667,7 +18797,7 @@
 	{
 		"assign": "sort_gainorder",
 		"jp_text": "入手順",
-		"tr_text": "Order"
+		"tr_text": "Obtained"
 	},
 	{
 		"assign": "sort_rarity",
@@ -19750,6 +19880,11 @@
 		"tr_text": "NSpending {0}<%AC> to boost <%SHEET>.\nIs that OK?\n\nConsecutive search bonus: <color=#ffff00>Great Success Rate x {1}!</color>\nYour <%AC>: <%current_AC>"
 	},
 	{
+		"assign": "dialog_body_collect_search_use_ac_sega_id",
+		"jp_text": "{0}<%AC>で「<%SHEET>」の\nコレクトサーチを1回行います。よろしいですか？\n\n次回連続サーチボーナス:<color=#ffff00>大成功確率{1}倍!</color>\n使用可能<%AC>：<%current_AC>",
+		"tr_text": ""
+	},
+	{
 		"assign": "collect_search_one_time",
 		"jp_text": "1回実行",
 		"tr_text": "Again"
@@ -19898,6 +20033,11 @@
 		"assign": "chip_depot_dialog_b_00",
 		"jp_text": "<%AC>を消費して\nチップ倉庫を拡張しますか？\n\nチップ倉庫上限（<%current_pack_size>）→<color=red>（<%after_pack_size>）</color>\n※チップ倉庫は<%max_pack_size>まで拡張できます。\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
 		"tr_text": "This will increase your Chip\nStorage using <%AC>. Is this OK?\n\nCurrent Limit (<%current_pack_size>)→<color=red>（<%after_pack_size>）</color>\n※Chip Storage can be expanded to <%max_pack_size> slots.\n\nNeeded <%AC>： <%consume_AC>\nOwned <%AC>： <%current_AC>"
+	},
+	{
+		"assign": "chip_depot_dialog_b_00_sega_id",
+		"jp_text": "<%AC>を消費して\nチップ倉庫を拡張しますか？\n\nチップ倉庫上限（<%current_pack_size>）→<color=red>（<%after_pack_size>）</color>\n※チップ倉庫は<%max_pack_size>まで拡張できます。\n\n必要<%AC>      ：<%consume_AC>\n使用可能<%AC>：<%current_AC>",
+		"tr_text": ""
 	},
 	{
 		"assign": "chip_depot_dialog_t_01",
@@ -20906,7 +21046,7 @@
 	},
 	{
 		"assign": "equip_child_chip_total_num",
-		"jp_text": "{0}<color=\"#688ca7\">/</color> {1}",
+		"jp_text": " {0}<color=\"#688ca7\">/</color>{1}",
 		"tr_text": ""
 	},
 	{
@@ -22038,6 +22178,11 @@
 		"assign": "darkerblast_recovery_window_body",
 		"jp_text": "合成可能数が不足しています。\n\n{0}<%AC>を消費して\n合成可能数を全回復させます。\nよろしいですか？\n\n必要<%AC>：{1}<%AC>\n所持<%AC>：{2}",
 		"tr_text": "Available number of synthesis is insufficient.\n\nYou can recover available synthesis\ninstantly at the cost of {0}<%AC>.\nDo you wish to continue?\n\n<%AC> required: {1}<%AC>\n<%AC> possessed: {2}<%AC>"
+	},
+	{
+		"assign": "darkerblast_recovery_window_body_sega_id",
+		"jp_text": "合成可能数が不足しています。\n\n{0}<%AC>を消費して\n合成可能数を全回復させます。\nよろしいですか？\n\n必要<%AC>      ：{1}<%AC>\n使用可能<%AC>：{2}",
+		"tr_text": ""
 	},
 	{
 		"assign": "darkerblast_explimit_title",
@@ -23875,6 +24020,11 @@
 		"tr_text": "<%AC> owned: <color=#68a0a7>/</color>"
 	},
 	{
+		"assign": "scrach_have_availabl_ac",
+		"jp_text": "使用可能<%AC> <color=#68a0a7>/</color>",
+		"tr_text": ""
+	},
+	{
 		"assign": "scrach_have_ac_ticket",
 		"jp_text": "所持ＡＣスクラッチ券 <color=#68a0a7>/</color>",
 		"tr_text": "AC Scratch tickets owned: <color=#68a0a7>/</color>"
@@ -24005,6 +24155,11 @@
 		"tr_text": "<%AC> owned:"
 	},
 	{
+		"assign": "scratch_have_availabl_ac",
+		"jp_text": "使用可能<%AC>",
+		"tr_text": ""
+	},
+	{
 		"assign": "scratch_show_count",
 		"jp_text": "{0}枚 ⇒ {1}枚",
 		"tr_text": "{0} ⇒ {1}"
@@ -24033,6 +24188,11 @@
 		"assign": "scratch_bonus_next",
 		"jp_text": "NEXT>>",
 		"tr_text": "NEXT>>"
+	},
+	{
+		"assign": "scrach_dialog_limit_date",
+		"jp_text": "配信期間：{0}",
+		"tr_text": ""
 	},
 	{
 		"assign": "raid_scratch_dialog_new_b_01",
@@ -24921,7 +25081,7 @@
 	},
 	{
 		"assign": "accept_box_item_trade_short_dialog_message",
-		"jp_text": "交換に必要なアイテムが不足しています。",
+		"jp_text": "交換の対象となるアイテムを持っていません。",
 		"tr_text": ""
 	},
 	{
@@ -25071,22 +25231,207 @@
 	},
 	{
 		"assign": "acceptbpx_item_trade_over_dialog_title",
-		"jp_text": "所持数オーバー",
+		"jp_text": "交換不可",
 		"tr_text": ""
 	},
 	{
 		"assign": "acceptbpx_item_trade_over_dialog_chip_over",
-		"jp_text": "チップパックの空き容量または所持数を\r\nオーバーするため交換できません。\r\nチップパックを拡張するか\r\n強化／売却をしてチップを整理してください。",
+		"jp_text": "チップパックの空き容量または所持数を\nオーバーするため交換できません。\nチップパックを拡張するか\n強化／売却をしてチップを整理してください。",
 		"tr_text": ""
 	},
 	{
 		"assign": "acceptbpx_item_trade_over_dialog_item_over",
-		"jp_text": "アイテムパックの空き容量または所持数を\r\nオーバーするため交換できません。\r\n売却または交換をして\r\nアイテムを整理してください。",
+		"jp_text": "アイテムパックの空き容量または所持数を\nオーバーするため交換できません。\n売却または交換をして\nアイテムを整理してください。",
 		"tr_text": ""
 	},
 	{
 		"assign": "acceptbpx_item_trade_over_dialog_point_over",
-		"jp_text": "所持数をオーバーするため交換できません。\r\n消費をしてから受け取ってください。",
+		"jp_text": "所持数をオーバーするため交換できません。\n消費をしてから受け取ってください。",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_title",
+		"jp_text": "交換アイテム検索",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_message",
+		"jp_text": "検索するアイテムを選んでください。 \n※検索には時間がかかる場合があります。",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_search_button",
+		"jp_text": "検索する",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_close_button",
+		"jp_text": "やめる",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_weapon",
+		"jp_text": "武器",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_unit",
+		"jp_text": "ユニット",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_grind_release_chip",
+		"jp_text": "強化・解放チップ",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_awake_chip",
+		"jp_text": "特装素材チップ",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_weaponoid_chip",
+		"jp_text": "ウェポノイドチップ",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_chara_chip",
+		"jp_text": "キャラチップ",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_etc_chip",
+		"jp_text": "その他チップ",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_pso2_item",
+		"jp_text": "PSO2アイテム",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_dialog_etc_item",
+		"jp_text": "その他アイテム",
+		"tr_text": ""
+	},
+	{
+		"assign": "trade_item_search_result_dialog_title",
+		"jp_text": "検索結果",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_dialog_title",
+		"jp_text": "アカウント削除機能",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_dialog_message",
+		"jp_text": "実行すると端末からアカウントが削除されます。\n「端末引き継ぎ情報」を記録しておくと\nアカウントを復旧することが可能になります。\n端末引き継ぎ情報を必ずご確認ください。",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_dialog_execution_button",
+		"jp_text": "実行する",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_dialog_dissent_button",
+		"jp_text": "実行しない",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_dialog_check_toggle_button",
+		"jp_text": "<color=orange>端末引き継ぎ情報を確認した</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_check_dialog_title",
+		"jp_text": "アカウント削除機能",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_check_dialog_message",
+		"jp_text": "アカウントを削除します。\nよろしいですか？",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_check_dialog_execution_button",
+		"jp_text": "実行する",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_check_dialog_dissent_button",
+		"jp_text": "実行しない",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_finish_dialog_title",
+		"jp_text": "アカウント削除機能",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_finish_dialog_message",
+		"jp_text": "アカウント削除が完了しました。\nタイトルへ戻ります。",
+		"tr_text": ""
+	},
+	{
+		"assign": "delete_account_error_dialog_message",
+		"jp_text": "アカウント削除を実行できませんでした。\nしばらく経ってからお試しください。",
+		"tr_text": ""
+	},
+	{
+		"assign": "chip_pack_extend_dialog_title",
+		"jp_text": "容量拡張",
+		"tr_text": ""
+	},
+	{
+		"assign": "chip_pack_extend_dialog_extend_button",
+		"jp_text": "拡張",
+		"tr_text": ""
+	},
+	{
+		"assign": "chip_pack_extend_dialog_cancel_button",
+		"jp_text": "キャンセル",
+		"tr_text": ""
+	},
+	{
+		"assign": "chip_pack_extend_dialog_extend_num",
+		"jp_text": "拡張個数",
+		"tr_text": ""
+	},
+	{
+		"assign": "chip_pack_extend_dialog_arrow",
+		"jp_text": "⇒",
+		"tr_text": ""
+	},
+	{
+		"assign": "chip_pack_extend_dialog_pack",
+		"jp_text": "容量",
+		"tr_text": ""
+	},
+	{
+		"assign": "chip_pack_extend_dialog_rappy_coin",
+		"jp_text": "ラッピーメダル",
+		"tr_text": ""
+	},
+	{
+		"assign": "chip_pack_extend_dialog_ac",
+		"jp_text": "<%AC>",
+		"tr_text": ""
+	},
+	{
+		"assign": "assist_chip_window_title",
+		"jp_text": "アシストチップ設定",
+		"tr_text": ""
+	},
+	{
+		"assign": "assist_chip_guide_message",
+		"jp_text": "<color=#f0df60>フレンドを助けるアシストチップの設定を行うことができます。未設定の場合は、選択中の装備パレットのＳＰスロットに装備されたチップがアシストチップとして使用されます。</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "palette_equip_assist_chip_button",
+		"jp_text": "アシスト設定",
 		"tr_text": ""
 	}
 ]

@@ -1,15 +1,36 @@
 [
 	{
-		"jp_text": "Mo「待機：ラッピー」",
-		"tr_text": "Mo \"Idle: Rappy\"",
-		"jp_explain": "",
+		"jp_text": "Mo「待機：標準」",
+		"tr_text": "Mo \"Idle: Standard\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "Mo「グライド：ラッピー」",
-		"tr_text": "Mo \"Glide: Rappy\"",
-		"jp_explain": "",
+		"jp_text": "Mo「待機：シンプル」",
+		"tr_text": "Mo \"Idle: Simple\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：シンプル2」",
+		"tr_text": "Mo \"Idle: Simple 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：決めポーズ」",
+		"tr_text": "Mo \"Idle: Signature Pose\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：直立不動」",
+		"tr_text": "Mo \"Idle: At Attention\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
@@ -21,303 +42,1374 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "Mo「ダッシュ：ホバー」",
-		"tr_text": "Mo \"Dash: Hover\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：やれやれ」",
-		"tr_text": "Mo \"Idle: Yareyare\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「グライド：ダイブ」",
-		"tr_text": "Mo \"Glide: Dive\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：構え」",
-		"tr_text": "Mo \"Idle: Ready\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「移動：両手を広げる」",
-		"tr_text": "Mo \"Move: Arms Spread\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「ジャンプ：両手を広げる」",
-		"tr_text": "Mo \"Jump: Arms Spread\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「着地：両手で支える」",
-		"tr_text": "Mo \"Land: Hand Propped\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「泳ぐ：潜水」",
-		"tr_text": "Mo \"Swim: Diving\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「ジャンプ：上体を反らす」",
-		"tr_text": "Mo \"Jump: Arched Back\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「着地：ふんわり」",
-		"tr_text": "Mo \"Land: Gently\"",
-		"jp_explain": "",
+		"jp_text": "Mo「待機：腕を組む」",
+		"tr_text": "Mo \"Idle: Cross Arms\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
 		"jp_text": "Mo「待機：仁王立ち」",
 		"tr_text": "Mo \"Idle: Imposing Stance\"",
-		"jp_explain": "",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "Mo「ダッシュ：フェアリー」",
-		"tr_text": "Mo \"Dash: Fairy\"",
-		"jp_explain": "",
+		"jp_text": "Mo「待機：優美」",
+		"tr_text": "Mo \"Idle: Elegant Stance\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "Mo「待機：決めポーズ」",
-		"tr_text": "Mo \"Idle: Signature Pose\"",
-		"jp_explain": "",
+		"jp_text": "Mo「待機：浮遊」",
+		"tr_text": "Mo \"Idle: Floating\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "Mo「待機：腕を組む」",
-		"tr_text": "Mo \"Idle: Cross Arms\"",
-		"jp_explain": "",
+		"jp_text": "Mo「待機：やいやい」",
+		"tr_text": "Mo \"Idle: Brash\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "Mo「待機：アイスを食べる」",
-		"tr_text": "Mo \"Idle: Eat Ice Cream\"",
-		"jp_explain": "",
+		"jp_text": "Mo「待機：やれやれ」",
+		"tr_text": "Mo \"Idle: Yareyare\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "Mo「グライド：ヘリコプター」",
-		"tr_text": "Mo \"Glide: Helicopter\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：あおぐ」",
-		"tr_text": "Mo \"Idle: Fan Self\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「泳ぐ：バタフライ」",
-		"tr_text": "Mo \"Swim: Butterfly\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「泳ぐ：クロール」",
-		"tr_text": "Mo \"Swim: Crawl\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「グライド：テイルス」",
-		"tr_text": "Mo \"Glide: Tails\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「ダッシュ：ソニック」",
-		"tr_text": "Mo \"Dash: Sonic\"",
-		"jp_explain": "",
+		"jp_text": "Mo「待機：カンフー」",
+		"tr_text": "Mo \"Idle: Kung-Fu\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
 		"jp_text": "Mo「待機：ふんわり」",
 		"tr_text": "Mo \"Idle: Gentle\"",
-		"jp_explain": "",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "Mo「移動：るんるん」",
-		"tr_text": "Mo \"Move: Whimsical\"",
-		"jp_explain": "",
+		"jp_text": "Mo「待機：あおぐ」",
+		"tr_text": "Mo \"Idle: Fan Self\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "Mo「移動：ニンジャ」",
-		"tr_text": "Mo \"Move: Ninja\"",
-		"jp_explain": "",
+		"jp_text": "Mo「待機：無邪気」",
+		"tr_text": "Mo \"Idle: Simple Minded\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：思案」",
+		"tr_text": "Mo \"Idle: Ponder\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：構え」",
+		"tr_text": "Mo \"Idle: Ready\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：髪を整える」",
+		"tr_text": "Mo \"Idle: Fixing Hair\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：情報確認」",
+		"tr_text": "Mo \"Idle: Data Inquiry\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：ストレッチ」",
+		"tr_text": "Mo \"Idle: Stretch\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：ボクサーステップ」",
+		"tr_text": "Mo \"Idle: Boxer Step\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：仁王立ち2」",
+		"tr_text": "Mo \"Idle: Imposing Stance 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：執事」",
+		"tr_text": "Mo \"Idle: Butler\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：いじいじ」",
+		"tr_text": "Mo \"Idle: Timid\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：腰を曲げる」",
+		"tr_text": "Mo \"Idle: Bent Back\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：腰に手を当てる2」",
+		"tr_text": "Mo \"Idle: Hand on Hip 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：エステ」",
+		"tr_text": "Mo \"Idle: Salon\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：エステ2」",
+		"tr_text": "Mo \"Idle: Salon 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：イライラ」",
+		"tr_text": "Mo \"Idle: Impatient\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：後ろ手」",
+		"tr_text": "Mo \"Idle: Hands Behind Back\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：ラッピー」",
+		"tr_text": "Mo \"Idle: Rappy\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：アイスを食べる」",
+		"tr_text": "Mo \"Idle: Eat Ice Cream\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：胸を張る」",
+		"tr_text": "Mo \"Idle: Puffed Chest\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：決めポーズ2」",
+		"tr_text": "Mo \"Idle: Signature Pose 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：仁王立ち3」",
+		"tr_text": "Mo \"Idle: Imposing Stance 3\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：印を結ぶ」",
+		"tr_text": "Mo \"Idle: Hand Seals\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：片足バランス」",
+		"tr_text": "Mo \"Idle: One Leg Balance\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：印を結ぶ」",
+		"tr_text": "Mo \"Idle: Hand Seals\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：ラッピーぬいぐるみ」",
+		"tr_text": "Mo \"Idle: Rappy Plush\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：みたらしポーズ」",
+		"tr_text": "Mo \"Idle: Mitarashi Pose\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：§イチカ§ポーズ」",
+		"tr_text": "Mo \"Idle: §Ichika§ Pose\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：読書」",
+		"tr_text": "Mo \"Idle: Read\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：ウォームアップ」",
+		"tr_text": "Mo \"Idle: Warm Up\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：いか踊り」",
+		"tr_text": "Mo \"Idle: Squid Dance\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：腕を組む2」",
+		"tr_text": "Mo \"Idle: Cross Arms 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：傘をさす」",
+		"tr_text": "Mo \"Idle: Hold Umbrella\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：モデル立ち」",
+		"tr_text": "Mo \"Idle: Model Stance\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：モデル立ち2」",
+		"tr_text": "Mo \"Idle: Model Stance 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：後ろ手2」",
+		"tr_text": "Mo \"Idle: Hands Behind Back 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：アイスを食べる/B」",
+		"tr_text": "Mo \"Idle: Eat Ice Cream/B\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：箱に座る」",
+		"tr_text": "Mo \"Idle: Box Seat\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：腰に手を当てる3」",
+		"tr_text": "Mo \"Idle: Hand on Hip 3\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：ハトスケ」",
+		"tr_text": "Mo \"Idle: Hatosuke\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：腕組み浮遊」",
+		"tr_text": "Mo \"Idle: Crossed Arms Float\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：火炎」",
+		"tr_text": "Mo \"Idle: Blazing\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：アイスを食べる3」",
+		"tr_text": "Mo \"Idle: Eat Ice Cream 3\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：ファレグポーズ」",
+		"tr_text": "Mo \"Idle: Phaleg Pose\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：『PSO2』10周年」",
+		"tr_text": "Mo \"Idle: PSO2 10th Anniversary\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ジャンプ：標準」",
+		"tr_text": "Mo \"Jump: Standard\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ジャンプ：シンプル」",
+		"tr_text": "Mo \"Jump: Simple\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ジャンプ：シンプル2」",
+		"tr_text": "Mo \"Jump: Simple 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
 		"jp_text": "Mo「ジャンプ：空中前転」",
 		"tr_text": "Mo \"Jump: Frontflip\"",
-		"jp_explain": "",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "Mo「着地：三点着地」",
-		"tr_text": "Mo \"Land: Three-Point Landing\"",
-		"jp_explain": "",
+		"jp_text": "Mo「ジャンプ：上体を反らす」",
+		"tr_text": "Mo \"Jump: Arched Back\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "Mo「ダッシュ：ニンジャ」",
-		"tr_text": "Mo \"Dash: Ninja\"",
-		"jp_explain": "",
+		"jp_text": "Mo「ジャンプ：両手を広げる」",
+		"tr_text": "Mo \"Jump: Arms Spread\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
 		"jp_text": "Mo「ジャンプ：重量級」",
 		"tr_text": "Mo \"Jump: Heavyweight\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「着地：重量級」",
-		"tr_text": "Mo \"Land: Heavyweight\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「移動：重量級」",
-		"tr_text": "Mo \"Move: Heavyweight\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「グライド：ジェットフレイム」",
-		"tr_text": "Mo \"Glide: Jet Flame\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：優美」",
-		"tr_text": "Mo \"Idle: Graceful\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「グライド：パワフル」",
-		"tr_text": "Mo \"Glide: Powerful\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：無邪気」",
-		"tr_text": "Mo \"Idle: Innocent\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：髪を整える」",
-		"tr_text": "Mo \"Idle: Fix Hair\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「移動：無邪気」",
-		"tr_text": "Mo \"Move: Innocent\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「着地：内股」",
-		"tr_text": "Mo \"Land: Knock Knees\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「ジャンプ：内股」",
-		"tr_text": "Mo \"Jump: Knock Knees\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「グライド：内股」",
-		"tr_text": "Mo \"Glide: Knock Knees\"",
-		"jp_explain": "",
-		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「移動：スキップ」 ",
-		"tr_text": "Mo \"Move: Skip\"",
-		"jp_explain": "",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
 		"jp_text": "Mo「ジャンプ：宙を蹴る」",
 		"tr_text": "Mo \"Jump: Knee Up\"",
-		"jp_explain": "",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ジャンプ：内股」",
+		"tr_text": "Mo \"Jump: Knock Knees\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ジャンプ：Yの字」",
+		"tr_text": "Mo \"Jump: Letter Y\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ジャンプ：高速スピン」",
+		"tr_text": "Mo \"Jump: Rapid Spin\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ジャンプ：スタイリッシュ」",
+		"tr_text": "Mo \"Jump: Stylish\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ジャンプ：腕を上げる」",
+		"tr_text": "Mo \"Jump: Arms Raised\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ジャンプ：きゃぴーん」",
+		"tr_text": "Mo \"Jump: Cutesy\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ジャンプ：跳びかかる」",
+		"tr_text": "Mo \"Jump: Leap\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ジャンプ：体をひねる」",
+		"tr_text": "Mo \"Jump: Twist\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ジャンプ：軽やか」",
+		"tr_text": "Mo \"Jump: Light\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ジャンプ：腕組み浮遊」",
+		"tr_text": "Mo \"Jump: Crossed Arms Float\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「着地：標準」",
+		"tr_text": "Mo \"Land: Standard\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「着地：シンプル」",
+		"tr_text": "Mo \"Land: Simple\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「着地：シンプル2」",
+		"tr_text": "Mo \"Land: Simple 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「着地：三点着地」",
+		"tr_text": "Mo \"Land: Three-Point Landing\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「着地：両手で支える」",
+		"tr_text": "Mo \"Land: Hand Propped\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「着地：ふんわり」",
+		"tr_text": "Mo \"Land: Gently\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「着地：重量級2」",
+		"tr_text": "Mo \"Land: Heavyweight 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「着地：重量級」",
+		"tr_text": "Mo \"Land: Heavyweight\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
 		"jp_text": "Mo「着地：おっとっと」",
 		"tr_text": "Mo \"Land: Oops\"",
-		"jp_explain": "",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「着地：内股」",
+		"tr_text": "Mo \"Land: Knock Knees\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「着地：スタイリッシュ」",
+		"tr_text": "Mo \"Land: Stylish\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「着地：フローズン」",
+		"tr_text": "Mo \"Land: Frozen\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「着地：つむじ風」",
+		"tr_text": "Mo \"Land: Whirlwind\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「着地：腕組み浮遊」",
+		"tr_text": "Mo \"Land: Crossed Arms Float\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「着地：火炎」",
+		"tr_text": "Mo \"Land: Blazing\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：標準」",
+		"tr_text": "Mo \"Move: Standard\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：シンプル」",
+		"tr_text": "Mo \"Move: Simple\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：シンプル2」",
+		"tr_text": "Mo \"Move: Simple 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：ホバー」",
+		"tr_text": "Mo \"Move: Hover\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：るんるん」",
+		"tr_text": "Mo \"Move: Whimsical\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：ニンジャ2」",
+		"tr_text": "Mo \"Move: Ninja 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：スケート」",
+		"tr_text": "Mo \"Move: Skate\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：獣」",
+		"tr_text": "Mo \"Move: Animal\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：両手を広げる」",
+		"tr_text": "Mo \"Move: Arms Spread\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：無邪気」",
+		"tr_text": "Mo \"Move: Simple Minded\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：重量級」",
+		"tr_text": "Mo \"Move: Heavyweight\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：ホバー2」",
+		"tr_text": "Mo \"Move: Hover 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：スキップ」",
+		"tr_text": "Mo \"Move: Skip\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：ニンジャ」",
+		"tr_text": "Mo \"Move: Ninja\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：うきうき」",
+		"tr_text": "Mo \"Move: Cheerful\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：軽やか」",
+		"tr_text": "Mo \"Move: Light\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：傘をさす」",
+		"tr_text": "Mo \"Move: Hold Umbrella\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：腕組み浮遊」",
+		"tr_text": "Mo \"Move: Crossed Arms Float\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：標準」",
+		"tr_text": "Mo \"Dash: Standard\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：シンプル」",
+		"tr_text": "Mo \"Dash: Simple\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：シンプル2」",
+		"tr_text": "Mo \"Dash: Simple 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：ホバー」",
+		"tr_text": "Mo \"Dash: Hover\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：ニンジャ」",
+		"tr_text": "Mo \"Dash: Ninja\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：スケート」",
+		"tr_text": "Mo \"Dash: Skate\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：獣」",
+		"tr_text": "Mo \"Dash: Animal\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：風を切る」",
+		"tr_text": "Mo \"Dash: Zoom\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：フェアリー」",
+		"tr_text": "Mo \"Dash: Fairy\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：ホバーダッシュ:2」",
+		"tr_text": "Mo \"Dash: Hover Dash: 2\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	},
 	{
 		"jp_text": "Mo「ダッシュ：スキップ」",
 		"tr_text": "Mo \"Dash: Skip\"",
-		"jp_explain": "",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：エアボード」",
+		"tr_text": "Mo \"Dash: Airboard\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：ソニック」",
+		"tr_text": "Mo \"Dash: Sonic\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：雪煙」",
+		"tr_text": "Mo \"Dash: Snow Spray\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：火炎」",
+		"tr_text": "Mo \"Dash: Blazing\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：雪そり」",
+		"tr_text": "Mo \"Dash: Snow Sled\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：腕組み」",
+		"tr_text": "Mo \"Dash: Folded Arms\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：翼を広げる」",
+		"tr_text": "Mo \"Dash: Spread Wings\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：帯電」",
+		"tr_text": "Mo \"Dash: Electrified\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：ふわふわ」",
+		"tr_text": "Mo \"Dash: Buoyant\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：軽やか」",
+		"tr_text": "Mo \"Dash: Light\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：エアースライド」",
+		"tr_text": "Mo \"Dash: Air Slide\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：標準/B」",
+		"tr_text": "Mo \"Dash: Standard/B\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：フェアリー/B」",
+		"tr_text": "Mo \"Dash: Fairy/B\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：ショートスキー」",
+		"tr_text": "Mo \"Dash: Short Ski\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：傘をさす」",
+		"tr_text": "Mo \"Dash: Hold Umbrella\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：ワーキングロボット」",
+		"tr_text": "Mo \"Dash: Working Robot\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：ロングストライド」",
+		"tr_text": "Mo \"Dash: Long Stride\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：標準/C」",
+		"tr_text": "Mo \"Dash: Standard/C\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：ホバー/C」",
+		"tr_text": "Mo \"Dash: Hover/C\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：ホバー/B」",
+		"tr_text": "Mo \"Dash: Hover/B\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：チョッパー」",
+		"tr_text": "Mo \"Dash: Chopper\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：雲に乗る」",
+		"tr_text": "Mo \"Dash: Cloud Riding\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：ニンジャ/B」",
+		"tr_text": "Mo \"Dash: Ninja/B\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：フェアリー/Ｃ」",
+		"tr_text": "Mo \"Dash: Fairy/C\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：セイバーデストラクション」",
+		"tr_text": "Mo \"Dash: Saber Destruction\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：腕組み浮遊」",
+		"tr_text": "Mo \"Dash: Crossed Arms Float\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：カジキライダー」",
+		"tr_text": "Mo \"Dash: Marlin Rider\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：ニンジャ/C」",
+		"tr_text": "Mo \"Dash: Ninja/C\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：スキップ/B」",
+		"tr_text": "Mo \"Dash: Skip/B\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：スケート/B」",
+		"tr_text": "Mo \"Dash: Skate/B\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：カジキライダーEX」",
+		"tr_text": "Mo \"Dash: Marlin Rider EX\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：腕組み浮遊EX」",
+		"tr_text": "Mo \"Dash: Crossed Arms Float EX\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：火炎EX」",
+		"tr_text": "Mo \"Dash: Blazing EX\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：標準」",
+		"tr_text": "Mo \"Glide: Standard\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ミニグライダー」",
+		"tr_text": "Mo \"Glide: Mini Glider\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ジェットフレイム」",
+		"tr_text": "Mo \"Glide: Jet Flame\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：内股」",
+		"tr_text": "Mo \"Glide: Knock Knees\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ヘリコプター」",
+		"tr_text": "Mo \"Glide: Helicopter\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ダイブ」",
+		"tr_text": "Mo \"Glide: Dive\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：飛び蹴り」",
+		"tr_text": "Mo \"Glide: Flying Kick\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：防御姿勢」",
+		"tr_text": "Mo \"Glide: Defensive Stance\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：内股」",
+		"tr_text": "Mo \"Glide: Knock Knees\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：エアボード」",
+		"tr_text": "Mo \"Glide: Airboard\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ラッピー」",
+		"tr_text": "Mo \"Glide: Rappy\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：テイルス」",
+		"tr_text": "Mo \"Glide: Tails\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：空中歩行」",
+		"tr_text": "Mo \"Glide: Air Walk\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：雪煙」",
+		"tr_text": "Mo \"Glide: Snow Spray\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：火炎」",
+		"tr_text": "Mo \"Glide: Blazing\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：Rマグミニモ」",
+		"tr_text": "Mo \"Glide: R. Mag Minimo\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ダイブ/B」",
+		"tr_text": "Mo \"Glide: Dive/B\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：雲に乗る」",
+		"tr_text": "Mo \"Glide: Cloud Riding\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：パワフル」",
+		"tr_text": "Mo \"Glide: Powerful\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：翼を広げる」",
+		"tr_text": "Mo \"Glide: Spread Wings\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：カイト」",
+		"tr_text": "Mo \"Glide: Kite\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：帯電」",
+		"tr_text": "Mo \"Glide: Electrified\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ふわふわ」",
+		"tr_text": "Mo \"Glide: Buoyant\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：チョッパー」",
+		"tr_text": "Mo \"Glide: Chopper\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：標準/B」",
+		"tr_text": "Mo \"Glide: Standard/B\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ショートスキー」",
+		"tr_text": "Mo \"Glide: Short Ski\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：傘をさす」",
+		"tr_text": "Mo \"Glide: Hold Umbrella\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ワーキングロボット」",
+		"tr_text": "Mo \"Glide: Working Robot\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：標準/C」",
+		"tr_text": "Mo \"Glide: Standard/C\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ヘリコプター/B」",
+		"tr_text": "Mo \"Glide: Helicopter/B\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ダイブ/C」",
+		"tr_text": "Mo \"Glide: Dive/C\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ラッピー/B」",
+		"tr_text": "Mo \"Glide: Rappy/B\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ジェットフレイム/B」",
+		"tr_text": "Mo \"Glide: Jet Flame/B\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ハトスケ」",
+		"tr_text": "Mo \"Glide: Hatosuke\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：腕組み浮遊」",
+		"tr_text": "Mo \"Glide: Crossed Arms Float\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：カジキライダー」",
+		"tr_text": "Mo \"Glide: Marlin Rider\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ジェットフレイム/C」",
+		"tr_text": "Mo \"Glide: Jet Flame/C\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：パワフル/B」",
+		"tr_text": "Mo \"Glide: Powerful/B\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：カジキライダーEX」",
+		"tr_text": "Mo \"Glide: Marlin Rider EX\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：腕組み浮遊EX」",
+		"tr_text": "Mo \"Glide: Crossed Arms Float EX\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：火炎EX」",
+		"tr_text": "Mo \"Glide: Blazing EX\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「泳ぐ：標準」",
+		"tr_text": "Mo \"Swim: Standard\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「泳ぐ：クロール」",
+		"tr_text": "Mo \"Swim: Crawl\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「泳ぐ：潜水」",
+		"tr_text": "Mo \"Swim: Diving\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「泳ぐ：バタフライ」",
+		"tr_text": "Mo \"Swim: Butterfly\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「泳ぐ：サーフィン」",
+		"tr_text": "Mo \"Swim: Surfing\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「泳ぐ：腕組み浮遊」",
+		"tr_text": "Mo \"Swim: Crossed Arms Float\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「泳ぐ：カジキライダー」",
+		"tr_text": "Mo \"Swim: Marlin Rider\"",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Cannot perform in [PSO2] Blocks.<c>",
 		"assign": 0
 	}

@@ -1138,14 +1138,14 @@
 		"jp_text": "ゼイネシスランス",
 		"tr_text": "제이네시스 랜스",
 		"jp_explain": "幻創の主より生まれた大樹の自在槍。\n臆さず強き意志で未知と対峙した時\n多くの可能性と変幻自在な才を得る。",
-		"tr_explain": ""
+		"tr_explain": "Wired Lances of Yggdrasil. Those\nwho face the unknown with a strong\nwill are given unlimited potential."
 	},
 	{
 		"assign": "120252",
 		"jp_text": "クリファドランス",
 		"tr_text": "크리퍼드 랜스",
 		"jp_explain": "理から外れ虚無と化した大樹の自在槍。\n装者は己の欲に忠実となり、赴くがまま\n刃を振りかざして快楽を得る。",
-		"tr_explain": ""
+		"tr_explain": "Wired Lances of fallen Yggdrasil. Their\nwielder is loyal only to their desires,\nusing their blades for pleasure alone."
 	},
 	{
 		"assign": "120253",
@@ -1159,21 +1159,21 @@
 		"jp_text": "リュミエルクリス",
 		"tr_text": "류미엘 크리스",
 		"jp_explain": "古より伝わる陽光の自在槍。\n導きの光を持つ聖なる力は\n闇を突き崩し、平安な世を作る。",
-		"tr_explain": ""
+		"tr_explain": "Ancient Wired Lances of the Sun.\nThe holy power within breaks through\ndarkness to create a peaceful world."
 	},
 	{
 		"assign": "120255",
 		"jp_text": "ジュティスクリス",
 		"tr_text": "쥬티스 크리스",
 		"jp_explain": "古より伝わる陽光の自在槍。\n勇ましき戦士を護りし聖なる刃は\n世の悪を滅ぼさんと戦場に立つ。",
-		"tr_explain": ""
+		"tr_explain": "Ancient Wired Lances of the Sun.\nThese holy blades protect brave\nwarriors who fight to destroy evil."
 	},
 	{
 		"assign": "120256",
 		"jp_text": "アレティアクリス",
 		"tr_text": "아레티아 크리스",
 		"jp_explain": "古より伝わる陽光の自在槍。\n聖なる光に授かりし俊敏なる刃は\n生きし者を救いて、永久の静謐を築く。",
-		"tr_explain": ""
+		"tr_explain": "Ancient Wired Lances of the Sun.\nThe speed of their holy light will save\nthe living and create eternal peace."
 	},
 	{
 		"assign": "120257",
@@ -1271,14 +1271,14 @@
 		"jp_text": "フォボスサイカード",
 		"tr_text": "포보스 사이카드",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った自在槍。目標を一度定めれば\n必ず追い詰め、無数の傷と恐怖を刻む。",
-		"tr_explain": ""
+		"tr_explain": "Wired Lances with an ominous, bladed\nform. Their tenacity in pursuing their\nprey strikes terror into their target."
 	},
 	{
 		"assign": "120283",
 		"jp_text": "ニーケサイカード",
 		"tr_text": "니케 사이카드",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った自在槍。目標へ伸ばした刃が\n敵を掴み、勝利を引き寄せる。",
-		"tr_explain": ""
+		"tr_explain": "Wired Lances with an ominous, bladed\nform. Once the blades reach out and\nsnare their target, victory is certain."
 	},
 	{
 		"assign": "120284",
@@ -1348,14 +1348,14 @@
 		"jp_text": "星震鞭アルシオン",
 		"tr_text": "성진편 아르시온",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した自在槍。無垢な強き祈りは\n虚無を消し去り、刃に輝きを取り戻す。",
-		"tr_explain": "Wired Lances touched by a time\ntraveller's heart. The pure power of\nprayer has cleansed the blades of void."
+		"tr_explain": "Wired Lances touched by a time\ntraveler's heart. The pure power of\nprayer has cleansed the blades of void."
 	},
 	{
 		"assign": "120294",
 		"jp_text": "光跡鞭アルシオン",
 		"tr_text": "광적편 아르시온",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ自在槍。揺るぎない決意を\n宿した刃は、確固たる希望を約束する。",
-		"tr_explain": "Wired Lances that link the stars,\nbonded to a time traveller. The blades'\ndetermination is a promise of hope."
+		"tr_explain": "Wired Lances that link the stars,\nbonded to a time traveler. The blades'\ndetermination is a promise of hope."
 	},
 	{
 		"assign": "120295",
@@ -1561,9 +1561,93 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "12010017",
+		"jp_text": "サンクエイムワイヤー",
+		"tr_text": "Cinquem Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010019",
+		"jp_text": "ラゲードワイヤー",
+		"tr_text": "Rugged Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010020",
+		"jp_text": "カイゼラムワイヤー",
+		"tr_text": "Kaiseram Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010021",
+		"jp_text": "ゼクストルワイヤー",
+		"tr_text": "Sechstyl Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010022",
+		"jp_text": "ロクス・シージェムスワイヤー",
+		"tr_text": "Rox Siegems Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010023",
+		"jp_text": "コルディークワイヤー",
+		"tr_text": "Coldic Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010028",
+		"jp_text": "ルメイラーワイヤー",
+		"tr_text": "Lumeira Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "12010030",
 		"jp_text": "レリク・ヘルポレス",
 		"tr_text": "렐릭 헤르포레스",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010031",
+		"jp_text": "ククロゼアトワイヤー",
+		"tr_text": "Koukloziat Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010032",
+		"jp_text": "エヴォルオーヴァワイヤー",
+		"tr_text": "Evolover Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010036",
+		"jp_text": "レネッサワイヤー",
+		"tr_text": "Renessa Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010038",
+		"jp_text": "エヴォルイクリスワイヤー",
+		"tr_text": "Evoleclis Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010045",
+		"jp_text": "カイゼラムワイヤー試製壱型",
+		"tr_text": "Kaiseram Wire Prototype",
 		"jp_explain": "",
 		"tr_explain": ""
 	}
