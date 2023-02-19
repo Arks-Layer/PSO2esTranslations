@@ -723,10 +723,10 @@ la_extras = {
             "*actrandomfingers": [
                 ("※Has button actions/randomness.\n"
                  "Finger motion limited based on outfit."),
-                ("\n"
-                 ""),
-                ("\n"
-                 ""),
+                ("지원 기능: 버튼 파생/랜덤\n"
+                 "대응복 손가락 가동"),
+                ("Есть кнопка действия/рандом.\n"
+                 "Одежда влияет на движ-е пальцев"),
                 ("※適用功能：按鍵衍生/隨機動作/\n"
                  "適用服裝可動手指")
                 ],
@@ -737,10 +737,10 @@ la_extras = {
             "*actfingers": [
                 ("※Use action buttons for extra actions.\n"
                  "Finger motion limited based on outfit."),
-                ("\n"
-                 ""),
-                ("\n"
-                 ""),
+                ("지원 기능: 버튼 파생\n"
+                 "대응복 손가락 가동"),
+                ("Доступно доп действие.\n"
+                 "Одежда влияет на движ-е пальцев"),
                 ("※適用功能：按鍵衍生/\n"
                  "適用服裝可動手指")
                 ],
