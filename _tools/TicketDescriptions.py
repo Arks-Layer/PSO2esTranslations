@@ -706,15 +706,16 @@ la_extras = {
                 # ※対応機能：ボタン派生／\n
                 # 対応服指可動／『PSO2』ブロック非対応
             "*actfingersngs": [
-                    ("\n"
-                     ""),
-                    ("\n"
-                     ""),
-                    ("\n"
-                     ""),
-                    ("※適用功能：按鍵衍生/\n"
-                     "適用服裝可動手指/\n"
-                     "不適用於『PSO2』線路")],
+                ("<yellow>Has button actions/Finger motion\n"
+                 "outfit-limited/Can't use in [PSO2].<c>"),
+                ("<yellow>대응 기능: 버튼 파생/대응 복장\n"
+                 "손가락 가동/『PSO2』 블록 비지원<c>"),
+                ("<yellow>Есть действия/Движен. пальцев\n"
+                 "огранич./Недоступно в [PSO2].<c>"),
+                ("※適用功能：按鍵衍生/\n"
+                 "適用服裝可動手指/\n"
+                 "不適用於『PSO2』線路")
+                ],
 
             # JP text: 
                 # ※対応機能：ボタン派生／ランダム／\n
@@ -832,15 +833,7 @@ la_extras = {
 
 # Just for accurary, I think it will be better if you guys can fill it out again. sorry:( 
 
-# la_extras = {"actfingersngs": [("<yellow>Has button actions/Finger motion\n"
-#                                 "outfit limited/Can't use in [PSO2].<c>"),
-#                                ("<yellow>대응 기능: 버튼 파생/대응 복장\n"
-#                                 "손가락 가동/『PSO2』 블록 비지원<c>"),
-#                                ("<yellow>Есть действия/Движен. пальцев\n"
-#                                 "огранич./Недоступно в [PSO2].<c>"),
-#                                ("<yellow>※適用功能：按鍵衍生/適用服裝\n"
-#                                 "可動手指/不適用於『PSO2』線路<c>")],
-#              "fingersngs": [("<yellow>※Finger motion limited based on outfit.\n"
+# la_extras = {"fingersngs": [("<yellow>※Finger motion limited based on outfit.\n"
 #                              "Cannot perform in [PSO2] Blocks.<c>"),
 #                             ("<yellow>※지원 기능: 대응복 손가락 가동<c>\n"
 #                              "『PSO2』블록 비대응<c>"),
