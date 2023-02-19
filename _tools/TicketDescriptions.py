@@ -691,16 +691,17 @@ la_extras = {
             # JP text: 
                 # ※対応機能：ボタン派生/一部表示適用外\n
                 # 対応服指可動/『PSO2』ブロック非対応
-            "*actexceptfingersngs": [
-                    ("\n"
-                     ""),
-                    ("\n"
-                     ""),
-                    ("\n"
-                     ""),
-                    ("※適用功能：按鍵衍生/\n"
-                     "不適用一部分顯示/適用服裝可動手指/\n"
-                     "不適用於『PSO2』線路")],
+            "*actnopreviewfingersngs": [
+                ("※Extra actions (cannot preview).\n"
+                 "Finger motion by outfit. Not in [PSO2]."),
+                ("\n"
+                 ""),
+                ("\n"
+                 ""),
+                ("※適用功能：按鍵衍生/\n"
+                 "不適用一部分顯示/適用服裝可動手指/\n"
+                 "不適用於『PSO2』線路")
+                ],
             
             # JP text: 
                 # ※対応機能：ボタン派生／\n
@@ -840,7 +841,7 @@ la_extras = {
             }
 
 extras_names = {
-    "ボタン派生/一部表示適用外\n対応服指可動/『PSO2』ブロック非対応<c>": "*actexceptfingersngs",
+    "ボタン派生/一部表示適用外\n対応服指可動/『PSO2』ブロック非対応<c>": "*actnopreviewfingersngs",
     "ボタン派生／\n対応服指可動／『PSO2』ブロック非対応<c>": "*actfingersngs",
     "ボタン派生／対応服指可動／\n『PSO2』ブロック非対応<c>": "*actfingersngs",
     "ボタン派生／\n対応服指可動<c>": "*actfingers",
