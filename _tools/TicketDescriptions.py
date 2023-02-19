@@ -803,10 +803,11 @@ la_extras = {
             # JP text: 
                 # 対応機能：ボタン派生
             "act": [
-                    (""),
-                    (""),
-                    (""),
-                    ("適用功能：按鍵衍生")],
+                ("Use action buttons for extra actions."),
+                ("지원 기능: 버튼 파생"),
+                ("Доступно доп действие."),
+                ("適用功能：按鍵衍生")
+                ],
                      
             # JP text: 
                 # 対応機能：武器装備反映\n
@@ -850,10 +851,6 @@ la_extras = {
 #                              "<yellow>Не показывает некоторое оружие.<c>"),
 #                             ("<yellow>※適用功能：按鍵衍生/顯示裝備武器\n"
 #                              "無法顯示一部分武器<c>")],
-#              "action": ["Use action buttons for extra actions.",
-#                         "지원 기능: 버튼 파생",
-#                         "Доступно доп действие.",
-#                         "<yellow>※適用功能：按鍵衍生<c>"],
 #              "nclasspose": [("<yellow>※Finger motion outfit limited. Shows\n"
 #                              "equipment. Cannot perform in [PSO2].<c>"),
 #                             ("<yellow>※지원 기능: 대응복 손가락 가동/\n"
