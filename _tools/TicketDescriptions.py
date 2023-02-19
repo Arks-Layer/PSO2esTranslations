@@ -706,11 +706,11 @@ la_extras = {
                 # ※対応機能：ボタン派生／\n
                 # 対応服指可動／『PSO2』ブロック非対応
             "*actfingersngs": [
-                ("<yellow>Has button actions/Finger motion\n"
+                ("Has button actions/Finger motion\n"
                  "outfit-limited/Can't use in [PSO2].<c>"),
-                ("<yellow>대응 기능: 버튼 파생/대응 복장\n"
+                ("대응 기능: 버튼 파생/대응 복장\n"
                  "손가락 가동/『PSO2』 블록 비지원<c>"),
-                ("<yellow>Есть действия/Движен. пальцев\n"
+                ("Есть действия/Движен. пальцев\n"
                  "огранич./Недоступно в [PSO2].<c>"),
                 ("※適用功能：按鍵衍生/\n"
                  "適用服裝可動手指/\n"
