@@ -25,7 +25,7 @@ LANGS = {-1: "JP",
          3: "CN"}
 # Add more later.
 parser.add_argument("-l", type = int, dest = "lang", action = "store",
-                    choices = [0, 1, 2, 3], default = 1, metavar = "N",
+                    choices = [0, 1, 2, 3], default = 0, metavar = "N",
                     help = ("Set a language to translate into. "
                             "Available options are 0 (EN), 1 (KO), 2 (RU) and 3 (CN). "
                             "Defaults to KO."))
@@ -100,7 +100,7 @@ ndesc_n_formats = ["Unlocks {a}new {itype} for use.",
     # 使用すると新しい{itype}が\n
     # 全キャラクターで選択可能になる。
 ndesc_allcharacters_formats = ["A {itype} that unlocks for all\ncharacters on your account.",
-                 "",
+                 "사용하면 새로운 {itype} 아이템을\n모든 캐릭터에 선택할 수 있게 됩니다.",
                  "",
                  "使用後所有角色均可選用新的{itype}。"]
 
