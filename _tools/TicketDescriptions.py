@@ -100,7 +100,7 @@ ndesc_n_formats = ["Unlocks {a}new {itype} for use.",
     # 使用すると新しい{itype}が\n
     # 全キャラクターで選択可能になる。
 ndesc_allcharacters_formats = ["A {itype} that unlocks for all\ncharacters on your account.",
-                 "",
+                 "사용하면 새로운 {itype}\n모든 캐릭터에서 사용 가능해진다.",
                  "",
                  "使用後所有角色均可選用新的{itype}。"]
 
