@@ -1314,8 +1314,8 @@ magd_reset_formats = [("Resets a Mag's appearance, stats,\n"
                                 ("마그의 레벨과 지원 기능을 재설정 하고\n"
                                 "마그를 초기 상태로 되롤릴 수 있는 장치"),
                                 (""),
-                                "重置瑪古的等級與支援功能\n"
-                                "並使瑪古變回初始狀態的裝置。"]
+                                ("重置瑪古的等級與支援功能\n"
+                                "並使瑪古變回初始狀態的裝置。)"]
 
 # Translate the files that can be sorted by description or item name.
 def translate_cosmeticsorted_desc(item, file_name):
