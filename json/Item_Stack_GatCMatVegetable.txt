@@ -156,29 +156,141 @@
 	{
 		"assign": "353010002",
 		"jp_text": "ガッツ・エアルカブラナ",
-		"tr_text": "Healthy Aerio Turnip",
+		"tr_text": "Healthy Aelio Turnip",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\nHP回復量増加",
-		"tr_explain": "Vegetable Gathered in Aerio.\nBoosts damage resistance and\nboosts HP recovery."
+		"tr_explain": "Vegetable Gathered in Aelio.\nBoosts damage resistance and\nboosts HP recovery."
 	},
 	{
 		"assign": "353010003",
 		"jp_text": "マッタ・エアルハーヴ",
-		"tr_text": "Nourishing Aerio Herb",
+		"tr_text": "Nourishing Aelio Herb",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\nPP消費量軽減",
-		"tr_explain": "Vegetable Gathered in Aerio.\nBoosts damage resistance and\nreduces PP consumption."
+		"tr_explain": "Vegetable Gathered in Aelio.\nBoosts damage resistance and\nreduces PP consumption."
 	},
 	{
 		"assign": "353010004",
 		"jp_text": "シャッキ・エアルトマーテ",
-		"tr_text": "Sharp Aerio Tomato",
+		"tr_text": "Sharp Aelio Tomato",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\n弱点部位ダメージ増加",
-		"tr_explain": "Vegetable Gathered in Aerio.\nBoosts damage resistance and\nboosts weakness damage."
+		"tr_explain": "Vegetable Gathered in Aelio.\nBoosts damage resistance and\nboosts weakness damage."
 	},
 	{
 		"assign": "353010005",
 		"jp_text": "サッパ・エアルマシュル",
-		"tr_text": "Refreshing Aerio Mushroom",
+		"tr_text": "Refreshing Aelio Mushroom",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\nPP回復量増加",
-		"tr_explain": "Vegetable Gathered in Aerio.\nBoosts damage resistance and\nboosts PP recovery."
+		"tr_explain": "Vegetable Gathered in Aelio.\nBoosts damage resistance and\nboosts PP recovery."
+	},
+	{
+		"assign": "353010006",
+		"jp_text": "ガッツ・リテナキャリブラ",
+		"tr_text": "Healthy Retem Cauliflower",
+		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\nHP回復量増加",
+		"tr_explain": "Vegetable Gathered in Retem.\nBoosts damage resistance and\nboosts HP recovery."
+	},
+	{
+		"assign": "353010007",
+		"jp_text": "マッタ・リテナマルナース",
+		"tr_text": "Nourishing Retem Eggplant",
+		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\nPP消費量軽減",
+		"tr_explain": "Vegetable Gathered in Retem.\nBoosts damage resistance and\nreduces PP consumption."
+	},
+	{
+		"assign": "353010008",
+		"jp_text": "シャッキ・リテナマシュル",
+		"tr_text": "Sharp Retem Mushroom",
+		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\n弱点部位ダメージ増加",
+		"tr_explain": "Vegetable Gathered in Retem.\nBoosts damage resistance and\nboosts weakness damage."
+	},
+	{
+		"assign": "353010009",
+		"jp_text": "サッパ・リテナクランベ",
+		"tr_text": "Refreshing Retem Cranberries",
+		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\nPP回復量増加",
+		"tr_explain": "Vegetable Gathered in Retem.\nBoosts damage resistance and\nboosts PP recovery."
+	},
+	{
+		"assign": "353010010",
+		"jp_text": "マッタ・クヴァルキャロツ",
+		"tr_text": "Nourishing Kvaris Carrot",
+		"jp_explain": "クヴァリスで採取可能な野菜。\nダメージ耐性／PP消費量軽減／\n低温ダメージ耐性",
+		"tr_explain": "Vegetable Gathered in Kvaris.\nBoosts damage resistance, cuts PP\nconsumption and boosts cold resist."
+	},
+	{
+		"assign": "353010011",
+		"jp_text": "サッパ・クヴァルナッパー",
+		"tr_text": "Refreshing Kvaris Napa",
+		"jp_explain": "クヴァリスで採取可能な野菜。\nダメージ耐性／PP回復量増加／\n低温ダメージ耐性",
+		"tr_explain": "Vegetable Gathered in Kvaris.\nBoosts damage resistance, PP\nrecovery and cold resistance."
+	},
+	{
+		"assign": "353010012",
+		"jp_text": "シャッキ・クヴァルマシュル",
+		"tr_text": "Sharp Kvaris Mushroom",
+		"jp_explain": "クヴァリスで採取可能な野菜。\nダメージ耐性／弱点部位ダメージ増加／\n低温ダメージ耐性",
+		"tr_explain": "Vegetable Gathered in Kvaris.\nBoosts damage resistance, weakness\ndamage and cold resistance."
+	},
+	{
+		"assign": "353010013",
+		"jp_text": "ガッツ・クヴァルオニョン",
+		"tr_text": "Healthy Kvaris Onion",
+		"jp_explain": "クヴァリスで採取可能な野菜。\nダメージ耐性／HP回復量増加／\n低温ダメージ耐性",
+		"tr_explain": "Vegetable Gathered in Kvaris.\nBoosts damage resistance, HP\nrecovery and cold resistance."
+	},
+	{
+		"assign": "353010014",
+		"jp_text": "ガッツ・スティラナッパー",
+		"tr_text": "Healthy Stia Napa",
+		"jp_explain": "スティアで採取可能な野菜。\nダメージ耐性／\nHP回復量増加",
+		"tr_explain": "Vegetable Gathered in Stia.\nBoosts damage resistance and\nboosts HP recovery."
+	},
+	{
+		"assign": "353010015",
+		"jp_text": "マッタ・スティラハーヴ",
+		"tr_text": "Nourishing Stia Herb",
+		"jp_explain": "スティアで採取可能な野菜。\nダメージ耐性／\nPP消費量軽減",
+		"tr_explain": "Vegetable Gathered in Stia.\nBoosts damage resistance and\nreduces PP consumption."
+	},
+	{
+		"assign": "353010016",
+		"jp_text": "シャッキ・スティラキャリブラ",
+		"tr_text": "Sharp Stia Cauliflower",
+		"jp_explain": "スティアで採取可能な野菜。\nダメージ耐性／\n弱点部位ダメージ増加",
+		"tr_explain": "Vegetable Gathered in Stia.\nBoosts damage resistance and\nboosts weakness damage."
+	},
+	{
+		"assign": "353010017",
+		"jp_text": "サッパ・スティラトマーテ",
+		"tr_text": "Refreshing Stia Tomato",
+		"jp_explain": "スティアで採取可能な野菜。\nダメージ耐性／\nPP回復量増加",
+		"tr_explain": "Vegetable Gathered in Stia.\nBoosts damage resistance and\nboosts PP recovery."
+	},
+	{
+		"assign": "353010102",
+		"jp_text": "アウトゥムヴァンプキン",
+		"tr_text": "Autumn Vampkin",
+		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\n弱点部位ダメージ増加",
+		"tr_explain": "Vegetable Gathered in Aelio.\nBoosts damage resistance and\nboosts weakness damage."
+	},
+	{
+		"assign": "353010103",
+		"jp_text": "ヴィンターダムボッホ",
+		"tr_text": "Winter Dandelion",
+		"jp_explain": "エアリオやリテムで採取可能な野菜。\nダメージ耐性／\nPP消費量軽減",
+		"tr_explain": "Vegetable Gathered in Retem/Aelio.\nBoosts damage resistance and\nreduces PP consumption."
+	},
+	{
+		"assign": "353010104",
+		"jp_text": "アニバーティチョーク",
+		"tr_text": "Annivartichoke",
+		"jp_explain": "エアリオやリテムで採取可能な野菜。\nダメージ耐性／\nHP回復量増加",
+		"tr_explain": "Vegetable Gathered in Retem/Aelio.\nBoosts damage resistance and\nboosts HP recovery."
+	},
+	{
+		"assign": "353010105",
+		"jp_text": "フェイ・スティラマシュル",
+		"tr_text": "Famed Stia Mushroom",
+		"jp_explain": "スティアで採取可能な希少な野菜。\n特定の場所でアイテムと交換できる。\n<yellow>※クィックフード効果は\n　シャッキ・スティラキャリブラと同一<c>",
+		"tr_explain": "Rare Vegetable Gathered in Stia.\nCan be traded for items.\n<yellow>When used in Quick Food, has same\neffect as Sharp Stia Cauliflower<c>"
 	}
 ]

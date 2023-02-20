@@ -107,7 +107,7 @@
 	{
 		"assign": "103018",
 		"jp_text": "＊龍吼魔笛グラビネット",
-		"tr_text": "＊Magic Dragon Flute Grabinett",
+		"tr_text": "＊Magic Dragon Flute Gravinet",
 		"jp_explain": "ロンバルディア帝国の皇女が所持する\n伝説の楽器「竜刃器」のひとつを\n模した武器迷彩。",
 		"tr_explain": "Weapon camo based on the\nArmonium used by the Princess\nof the Lonbardia Empire."
 	},
@@ -276,7 +276,7 @@
 		"assign": "103010002",
 		"jp_text": "＊ブルッジスピア",
 		"tr_text": "＊Brudge Spear",
-		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>対応：パルチザン<c>",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：パルチザン<c>",
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Partizan<c>"
 	},
 	{
@@ -285,5 +285,110 @@
 		"tr_text": "＊Fuuga Naginata",
 		"jp_explain": "振るう姿が風雅な長槍型武器迷彩。\nきらびやかな装飾の施された柄と\n研ぎ澄まされた刀身が美しく輝く。",
 		"tr_explain": "Partizan camo with an elegant look to\nit. Its sharp blade and gilded ornaments\nshine beautifully as you swing it about."
+	},
+	{
+		"assign": "103010003",
+		"jp_text": "＊ヴィアルトアルマティ",
+		"tr_text": "＊Viert Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：パルチザン／\nダブルセイバー　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Partizan/Double Saber\nand others<c>"
+	},
+	{
+		"assign": "103010004",
+		"jp_text": "＊フランメルアルマティ",
+		"tr_text": "＊Franmel Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：パルチザン／\nツインダガー　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Partizan/Twin Daggers\nand others<c>"
+	},
+	{
+		"assign": "103010005",
+		"jp_text": "＊フィブラアルマティ",
+		"tr_text": "＊Fivra Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：パルチザン／\nダブルセイバー　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Partizan/Double Saber\nand others<c>"
+	},
+	{
+		"assign": "103010006",
+		"jp_text": "＊レリク・ウルティムリッター",
+		"tr_text": "＊Relic Ultimritter",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：パルチザン<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Partizan<c>"
+	},
+	{
+		"assign": "103010008",
+		"jp_text": "＊オブスクラルアルマティ",
+		"tr_text": "＊Obscural Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：パルチザン／ツインダガー　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Partizan/Twin Daggers\nand others<c>"
+	},
+	{
+		"assign": "103055",
+		"jp_text": "＊グランディア",
+		"tr_text": "＊Grandia",
+		"jp_explain": "槍の攻撃範囲の広さと斧の破壊力を\n併せ持つ長槍型武器迷彩。\n扱うためには相応の熟練が必要。",
+		"tr_explain": "Partizan camo which blends the range\nof a spear with the force of an axe.\nRequires skills with both to handle."
+	},
+	{
+		"assign": "103010012",
+		"jp_text": "＊ヴィアルトアルマティCV",
+		"tr_text": "＊Viert Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：パルチザン／\nダブルセイバー　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Partizan/Double Saber\nand others<c>"
+	},
+	{
+		"assign": "103010013",
+		"jp_text": "＊フランメルアルマティCV",
+		"tr_text": "＊Franmel Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：パルチザン／\nツインダガー　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Partizan/Twin Daggers\nand others<c>"
+	},
+	{
+		"assign": "103010014",
+		"jp_text": "＊フィブラアルマティCV",
+		"tr_text": "＊Fivra Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：パルチザン／\nダブルセイバー　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Partizan/Double Saber\nand others<c>"
+	},
+	{
+		"assign": "103010015",
+		"jp_text": "＊レリク・ウルティムリッターCV",
+		"tr_text": "＊Relic Ultimritter CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：パルチザン<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Partizan<c>"
+	},
+	{
+		"assign": "103010016",
+		"jp_text": "＊オブスクラルアルマティCV",
+		"tr_text": "＊Obscural Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：パルチザン／ツインダガー　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Partizan/Twin Daggers\nand others<c>"
+	},
+	{
+		"assign": "103056",
+		"jp_text": "＊バルディッシュ",
+		"tr_text": "＊Bardiche",
+		"jp_explain": "槍の柄に斧の刃を取り付けた長槍型\n武器迷彩。高い破壊力を誇るが\nその重量から軽量化を待つ声も多い。",
+		"tr_explain": "Partizan camo which marries an axe's\nblade to a spear's shaft. Destructive,\nbut many find its weight a hindrance."
+	},
+	{
+		"assign": "103057",
+		"jp_text": "＊血槍ヴラド・ブラム",
+		"tr_text": "＊Bloodspear Vlad Bram",
+		"jp_explain": "禍々しい気配を放つ長槍型武器迷彩。\nかつてヒトを襲った魔物が討伐された\n際に変化したものだと言われている。",
+		"tr_explain": "A sinister red Partizan camo. It's said\nthat it was once a demon who\nattacked humans in the night."
+	},
+	{
+		"assign": "103010018",
+		"jp_text": "＊トランシェンオーダー",
+		"tr_text": "＊Truncheon Order",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：パルチザン／\nアサルトライフル　ほか<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "103058",
+		"jp_text": "＊月閃槍ミツツキ",
+		"tr_text": "＊Luna Mitsutsuki",
+		"jp_explain": "満月をモチーフにした長槍型武器迷彩。\n伝承に出てきそうな三叉の刃を持つ。\n薄ぼんやりと光る満月型の球体が美しい。",
+		"tr_explain": ""
 	}
 ]

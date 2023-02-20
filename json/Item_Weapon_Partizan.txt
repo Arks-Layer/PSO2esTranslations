@@ -23,21 +23,21 @@
 	{
 		"assign": "1303",
 		"jp_text": "ハルベルト",
-		"tr_text": "Halbert",
+		"tr_text": "Halberd",
 		"jp_explain": "アークスで正式採用されている長槍。\n槍頭を三叉構造にして命中精度を\n向上させた中級モデル。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1304",
 		"jp_text": "アルバハルベルト",
-		"tr_text": "Alva Halbert",
+		"tr_text": "Alva Halberd",
 		"jp_explain": "アークスで使用される改良型長槍。\nハルベルト愛用者たちの要望にこたえ\n命中精度に加え攻撃力を向上させた。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "1305",
 		"jp_text": "ヴィタハルベルト",
-		"tr_text": "Vita Halbert",
+		"tr_text": "Vita Halberd",
 		"jp_explain": "基礎モデルに改良を加えた長槍。\nフォトン固着率の改良により、あらゆる\n性能が向上した次期主力モデル。",
 		"tr_explain": ""
 	},
@@ -228,7 +228,7 @@
 		"jp_text": "バルディッシュ",
 		"tr_text": "Bardiche",
 		"jp_explain": "槍の柄に斧の刃を取り付けた長槍。\n高い破壊力を誇るが重量がネックで\n軽量化を待つ声も多い。",
-		"tr_explain": ""
+		"tr_explain": "Partizan which marries an axe's blade\nto a spear's shaft. Highly destructive,\nbut many find its weight a hindrance."
 	},
 	{
 		"assign": "13033",
@@ -487,14 +487,14 @@
 		"jp_text": "血槍ヴラド・ブラム",
 		"tr_text": "Bloodspear Vlad Bram",
 		"jp_explain": "禍々しい気配を放つ長槍。かつて夜闇と\n共に現れヒトを襲った魔物が討伐された\n際に変化したものだと言われている。",
-		"tr_explain": "A Partizan with an ominous aura.\nIt's said that it was once a demon\nthat attacked humans in the night."
+		"tr_explain": "A sinister crimson Partizan. It's said\nthat it was once a demon who\nattacked humans in the night."
 	},
 	{
 		"assign": "13089",
 		"jp_text": "グランディア",
 		"tr_text": "Grandia",
 		"jp_explain": "槍の柄に斧の刃を取り付け、槍の\n攻撃範囲の広さと斧の破壊力を併せ持つ\n長槍。扱うためには相応の熟練が必要。",
-		"tr_explain": "A Partizan with the blade of an axe,\ngiving it an axe's power with a\nspear's range. Handling it takes skill."
+		"tr_explain": "A Partizan which blends the range of\na spear with the force of an axe.\nRequires skills with both to handle."
 	},
 	{
 		"assign": "13092",
@@ -865,14 +865,14 @@
 		"jp_text": "イヴリダランジア",
 		"tr_text": "Evleda Rangia",
 		"jp_explain": "古に封印されし冥夜の長槍。\n忌むべき闇の矛は汝の血肉で以って\n戒め突き破り、赤き道を作らん。",
-		"tr_explain": ""
+		"tr_explain": "An ancient, forbidden dark Partizan.\nThe vile dark spear unsealed by thy\nflesh paints the future in bloody red."
 	},
 	{
 		"assign": "130218",
 		"jp_text": "クリシスランジア",
 		"tr_text": "Cleasis Rangia",
 		"jp_explain": "古に封印されし冥夜の長槍。\n勇猛なる戦士を喰らいし邪なる矛は\n魂と係合せし時、全てを薙ぎ払う。",
-		"tr_explain": ""
+		"tr_explain": "An ancient, forbidden dark Partizan.\nWhen the spear's evil devours its\nwielder, all shall be cut down before it."
 	},
 	{
 		"assign": "130219",
@@ -1061,14 +1061,14 @@
 		"jp_text": "ゼイネシスバルディス",
 		"tr_text": "Zeinesis Valdis",
 		"jp_explain": "幻創の主より生まれた大樹の長槍。\n苦労を顧みず他者に尽くした者に\n転機と全てを解放する力を授ける。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan of Yggdrasil. Those who\ndevote themselves to others are\ngiven the power to liberate anything."
 	},
 	{
 		"assign": "130249",
 		"jp_text": "クリファドバルディス",
 		"tr_text": "Qliphad Valdis",
 		"jp_explain": "理から外れ虚無と化した大樹の長槍。\n装者は理想に縛られ、自我を亡くし\n絶望から全てを薙ぎ払う。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan of fallen Yggdrasil. Its\nwielder is consumed by their ideals,\nand in despair, seeks to destroy all."
 	},
 	{
 		"assign": "130253",
@@ -1117,21 +1117,21 @@
 		"jp_text": "リュミエルランサ",
 		"tr_text": "Lumiere Lancer",
 		"jp_explain": "古より伝わる陽光の長槍。\n導きの光を持つ聖なる矛は\n闇を突き破り、白き道を作らん。",
-		"tr_explain": ""
+		"tr_explain": "An ancient Partizan of the Sun. The\nholy power within breaks through\ndarkness to create a bright new path."
 	},
 	{
 		"assign": "130265",
 		"jp_text": "ジュティスランサ",
 		"tr_text": "Jutus Lancer",
 		"jp_explain": "古より伝わる陽光の長槍。\n勇猛なる戦士を護りし聖なる矛は\n世の悪を薙ぎ払わんと戦場に立つ。",
-		"tr_explain": ""
+		"tr_explain": "An ancient Partizan of the Sun. This\nholy spear protects valiant warriors\nwho fight to wipe out evil."
 	},
 	{
 		"assign": "130266",
 		"jp_text": "アレティアランサ",
 		"tr_text": "Aletheia Lancer",
 		"jp_explain": "古より伝わる陽光の長槍。\n聖なる光に授かりし慈愛の矛は\n悪者を薙ぎ払い、平穏な大地を作る。",
-		"tr_explain": ""
+		"tr_explain": "An ancient Partizan of the Sun. The\ncompassion of its holy light cuts down\nevil and brings peace to the land."
 	},
 	{
 		"assign": "130276",
@@ -1299,14 +1299,14 @@
 		"jp_text": "フォボスハルベルト",
 		"tr_text": "Phobos Halberd",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った長槍。触れれば突き刺さる\n鋭利さは、標的に恐怖を植え付ける。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan with an ominous, bladed\nform. The sharpness evident in a single\ntouch strikes terror into its target."
 	},
 	{
 		"assign": "130317",
 		"jp_text": "ニーケハルベルト",
 		"tr_text": "Nike Halberd",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った長槍。その鋭い尖端で\n標的を貫き、勝利を掴む。",
-		"tr_explain": ""
+		"tr_explain": "A Partizan with an ominous, bladed\nform. It impales the target with its\nsharp tip, leading to certain victory."
 	},
 	{
 		"assign": "130320",
@@ -1383,14 +1383,14 @@
 		"jp_text": "星震槍アドラシオン",
 		"tr_text": "Celestial Adoraxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した長槍。強い願いを宿した刃は\n希望の光となり、いかなる闇も滅す。",
-		"tr_explain": "A Partizan touched by a time\ntraveller's heart. Its wishes become a\nlight of hope to destroy the darkness."
+		"tr_explain": "A Partizan touched by a time\ntraveler's heart. Its wishes become a\nlight of hope to destroy the darkness."
 	},
 	{
 		"assign": "130337",
 		"jp_text": "光跡槍アドラシオン",
 		"tr_text": "Lightstream Adoraxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ長槍。暗黒を切り裂き、姿を\n現した刃は、光輝く未来を解き放つ。",
-		"tr_explain": "A Partizan that links the stars, bonded\nto a time traveller. It cuts through the\ndarkness, revealing a bright future."
+		"tr_explain": "A Partizan that links the stars, bonded\nto a time traveler. It cuts through the\ndarkness, revealing a bright future."
 	},
 	{
 		"assign": "130339",
@@ -1418,7 +1418,7 @@
 		"jp_text": "バルディッシュ-NT",
 		"tr_text": "Bardiche-NT",
 		"jp_explain": "槍の柄に斧の刃を取り付けた長槍。\n高い破壊力を誇るが重量がネックで\n軽量化を待つ声も多い。",
-		"tr_explain": ""
+		"tr_explain": "Partizan which marries an axe's blade\nto a spear's shaft. Highly destructive,\nbut many find its weight a hindrance."
 	},
 	{
 		"assign": "130352",
@@ -1493,7 +1493,7 @@
 	{
 		"assign": "13010007",
 		"jp_text": "ツヴィアスピア",
-		"tr_text": "Suvia Spear",
+		"tr_text": "Tsuvia Spear",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1521,7 +1521,7 @@
 	{
 		"assign": "13010011",
 		"jp_text": "ヴィアルトスピア",
-		"tr_text": "Vialt Spear",
+		"tr_text": "Viert Spear",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1578,6 +1578,195 @@
 		"assign": "13010031",
 		"jp_text": "ストラーガスピア",
 		"tr_text": "Stragga Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010020",
+		"jp_text": "グレティーガスピア",
+		"tr_text": "Gretigga Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010021",
+		"jp_text": "フィブラスピア",
+		"tr_text": "Fivra Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010022",
+		"jp_text": "サンクエイムスピア",
+		"tr_text": "Cinquem Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010024",
+		"jp_text": "ラゲードスピア",
+		"tr_text": "Rugged Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010019",
+		"jp_text": "オブスクラルスピア",
+		"tr_text": "Obscural Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010025",
+		"jp_text": "カイゼラムスピア",
+		"tr_text": "Kaiseram Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010026",
+		"jp_text": "ゼクストルスピア",
+		"tr_text": "Sechstyl Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010027",
+		"jp_text": "ロクス・クルーヴァスピア",
+		"tr_text": "Rox Cruva Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010028",
+		"jp_text": "コルディークスピア",
+		"tr_text": "Coldic Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010029",
+		"jp_text": "ネオス・アストリオンスピア",
+		"tr_text": "Neos Astreon Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010032",
+		"jp_text": "フランメルスピア",
+		"tr_text": "Franmel Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010017",
+		"jp_text": "テンペスタースピア",
+		"tr_text": "Tempestar Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010033",
+		"jp_text": "プリムスピア・リブラ",
+		"tr_text": "Prim Spear Libra",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010034",
+		"jp_text": "レリク・ウルティムリッター",
+		"tr_text": "Relic Ultimritter",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010035",
+		"jp_text": "ククロゼアトスピア",
+		"tr_text": "Koukloziat Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010036",
+		"jp_text": "エヴォルオーヴァスピア",
+		"tr_text": "Evolover Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010037",
+		"jp_text": "クリスティアスピア",
+		"tr_text": "Crystia Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010039",
+		"jp_text": "セイガヨウスピア",
+		"tr_text": "Seigayou Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010040",
+		"jp_text": "トランクールスピア",
+		"tr_text": "Tranquil Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010042",
+		"jp_text": "レネッサスピア",
+		"tr_text": "Renessa Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010043",
+		"jp_text": "ガンブレイズスピア",
+		"tr_text": "Gunblaze Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010044",
+		"jp_text": "エヴォルイクリススピア",
+		"tr_text": "Evoleclis Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010046",
+		"jp_text": "ククロフィススピア",
+		"tr_text": "Kouklophis Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010050",
+		"jp_text": "オブゾディアスピア",
+		"tr_text": "Obsidia Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010054",
+		"jp_text": "カイゼラムスピア試製壱型",
+		"tr_text": "Kaiseram Spear Prototype",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010056",
+		"jp_text": "セイガインスピア",
+		"tr_text": "Seigain Spear",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010057",
+		"jp_text": "ネオス・ユースティロンスピア",
+		"tr_text": "Neos Justilon Spear",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

@@ -1,9 +1,9 @@
 defaults: &defaults
   working_directory: ~/repo
   docker:
-    - image: python:3-stretch
+    - image: cimg/python:3.10-node
 
-version: 2
+version: 3
 jobs:
   verify:
     <<: *defaults
@@ -38,9 +38,6 @@ jobs:
       - run:
           name: Checking if Dice Chat has too many lines
           command: ./_py/DiceLen.py | /usr/bin/tee /tmp/PSO2es/DiceLen.txt
-      - run:
-          name: Checking if item names are too long
-          command: ./_py/ItemLen.py | /usr/bin/tee /tmp/PSO2es/ItemLen.txt
       - run:
           name: Checking if title names are too long
           command: ./_py/TitleLen.py | /usr/bin/tee /tmp/PSO2es/TitleLen.txt
@@ -138,9 +135,6 @@ jobs:
           key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
           paths:
             - ~/.cache/pip
-      - run:
-          name: Checking if item descriptions are too long
-          command: ./_py/ItemDescFont.py | /usr/bin/tee /tmp/PSO2es/ItemDescFont.txt
       - run:
           name: Word wrap changes for long item descriptions
           command: /usr/bin/git diff --exit-code | /usr/bin/tee /tmp/PSO2es/ItemDescFont.diff

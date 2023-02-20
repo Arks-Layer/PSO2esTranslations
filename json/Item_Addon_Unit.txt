@@ -548,7 +548,7 @@
 	{
 		"assign": "54010007",
 		"jp_text": "ツヴィアアーマ",
-		"tr_text": "Suvia Armor",
+		"tr_text": "Tsuvia Armor",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -576,7 +576,7 @@
 	{
 		"assign": "54010011",
 		"jp_text": "ヴィアルトアーマ",
-		"tr_text": "Vialt Armor",
+		"tr_text": "Viert Armor",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -611,21 +611,231 @@
 	{
 		"assign": "54010016",
 		"jp_text": "ヴィアルトアーマ・アルガ",
-		"tr_text": "Vialt Armor Alga",
+		"tr_text": "Viert Armor Alga",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "54010017",
 		"jp_text": "ヴィアルトアーマ・ベルタ",
-		"tr_text": "Vialt Armor Belta",
+		"tr_text": "Viert Armor Belta",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "54010018",
 		"jp_text": "ヴィアルトアーマ・ツェザ",
-		"tr_text": "Vialt Armor Tseza",
+		"tr_text": "Viert Armor Tseza",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010019",
+		"jp_text": "シルヴァプリムアーマ",
+		"tr_text": "Silver Prim Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010020",
+		"jp_text": "ゴルドプリムアーマ",
+		"tr_text": "Gold Prim Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010021",
+		"jp_text": "グライアスアーマ",
+		"tr_text": "Greias Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010022",
+		"jp_text": "ヴェフスアーマ",
+		"tr_text": "Viphs Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010023",
+		"jp_text": "ヴィダールアーマ",
+		"tr_text": "Vidael Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010024",
+		"jp_text": "ヴィオースアーマ",
+		"tr_text": "Viose Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010025",
+		"jp_text": "ヴィダーレンアーマ",
+		"tr_text": "Vidalen Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010026",
+		"jp_text": "ヴィオーセルアーマ",
+		"tr_text": "Viocell Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010027",
+		"jp_text": "ヴェフスアーマ・アルガ",
+		"tr_text": "Viphs Armor Alga",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010028",
+		"jp_text": "ヴェフスアーマ・ベルタ",
+		"tr_text": "Viphs Armor Belta",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010029",
+		"jp_text": "ヴェフスアーマ・ツェザ",
+		"tr_text": "Viphs Armor Tseza",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010031",
+		"jp_text": "シュヴァルゼストアーマ",
+		"tr_text": "Schwarzeste Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010032",
+		"jp_text": "シュヴァルガルデアーマ",
+		"tr_text": "Schwargarde Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010033",
+		"jp_text": "シュヴァルロッゾアーマ",
+		"tr_text": "Schwarosso Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010035",
+		"jp_text": "セスタトアーマ",
+		"tr_text": "Sestadt Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010036",
+		"jp_text": "ディフローザアーマ",
+		"tr_text": "Deflourza Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010037",
+		"jp_text": "ディフロージスアーマ",
+		"tr_text": "Deflourgis Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010041",
+		"jp_text": "ベルグリンアーマ",
+		"tr_text": "Berglin Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010045",
+		"jp_text": "セスタトアーマ・アルガ",
+		"tr_text": "Sestadt Armor Alga",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010046",
+		"jp_text": "セスタトアーマ・ベルタ",
+		"tr_text": "Sestadt Armor Belta",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010047",
+		"jp_text": "セスタトアーマ・ツェザ",
+		"tr_text": "Sestadt Armor Tseza",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010056",
+		"jp_text": "エイジャクスアーマ",
+		"tr_text": "Ajax Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010057",
+		"jp_text": "エンファタスアーマ・ヴィダ",
+		"tr_text": "Enphatus Armor Vida",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010058",
+		"jp_text": "エンファタスアーマ・ヴィオ",
+		"tr_text": "Enphatus Armor Vio",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010059",
+		"jp_text": "エフィタスアーマ・アルガ",
+		"tr_text": "Ephitus Armor Alga",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010060",
+		"jp_text": "エフィタスアーマ・ベルタ",
+		"tr_text": "Ephitus Armor Belta",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010061",
+		"jp_text": "エフィタスアーマ・ツェザ",
+		"tr_text": "Ephitus Armor Tseza",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010062",
+		"jp_text": "レクレールアーマ",
+		"tr_text": "Reclair Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010063",
+		"jp_text": "レネッサアーマ",
+		"tr_text": "Renessa Armor",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010064",
+		"jp_text": "N-EXPアーマ",
+		"tr_text": "N-EXP Armor",
 		"jp_explain": "",
 		"tr_explain": ""
 	}
