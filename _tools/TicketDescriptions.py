@@ -973,7 +973,7 @@ print("Item_Stack_Voice.txt loaded. {")
 items_file.close()
 
 cv_names = {
-    "ゆかな": ["Yukana Nogami", "", "Ногами Юкана", ""],
+    "ゆかな": ["Yukana Nogami", "노가미 유카나", "Ногами Юкана", ""],
     "チョー": ["Cho", "쵸", "Чо", ""],
     "ポポナ": ["Popona", "", "Попона", ""],
     "下野 紘": ["Hiro Shimono", "시모노 히로", "Хиро Симоно", ""],
@@ -981,14 +981,14 @@ cv_names = {
     "中尾 隆聖": ["Ryusei Nakao", "나카오 류세이", "Рюсэй Накао", ""],
     "中村 悠一": ["Yuichi Nakamura", "유이치 나카무라", "Юичи Накамура", ""],
     "中田 譲治": ["Joji Nakata", "나카타 조지", "Дзёдзи Наката", ""],
-    "中西 茂樹": ["Shigeki Nakanishi", "", "Сигэки Наканиши", ""],
-    "久野 美咲": ["Misaki Kuno", "", "Мисаки Куно", ""],
-    "井上 和彦": ["Kazuhiko Inoue", "", "Казухико Иноэ", ""],
-    "井上 喜久子": ["Kikuko Inoue", "", "Кикуко Иноуэ", ""],
-    "井上 麻里奈": ["Marina Inoue", "", "Марина Иноуэ", ""],
-    "井口 裕香": ["Yuka Iguchi", "", "Юка Игути", ""],
-    "今井 麻美": ["Asami Imai", "", "Асами Имаи", ""],
-    "伊瀬 茉莉也": ["Mariya Ise", "", "Мария Исэ", ""],
+    "中西 茂樹": ["Shigeki Nakanishi", "나카나시 시게키", "Сигэки Наканиши", ""],
+    "久野 美咲": ["Misaki Kuno", "쿠노 미사키", "Мисаки Куно", ""],
+    "井上 和彦": ["Kazuhiko Inoue", "이노우에 카즈히코", "Казухико Иноэ", ""],
+    "井上 喜久子": ["Kikuko Inoue", "이노우에 키쿠코", "Кикуко Иноуэ", ""],
+    "井上 麻里奈": ["Marina Inoue", "이노우네 마리나", "Марина Иноуэ", ""],
+    "井口 裕香": ["Yuka Iguchi", "이구치 유카", "Юка Игути", ""],
+    "今井 麻美": ["Asami Imai", "이마이 아사미", "Асами Имаи", ""],
+    "伊瀬 茉莉也": ["Mariya Ise", "이세 마리야", "Мария Исэ", ""],
     "伊藤 静": ["Shizuka Ito", "", "Сидзука Ито", ""],
     "会 一太郎": ["Ichitaro Ai", "", "Ичитаро Ай", ""],
     "住友 優子": ["Yuko Sumitomo", "", "Юко Сумитомо", ""],
@@ -1155,7 +1155,7 @@ cv_names = {
     "鬼頭 明里": ["Akari Kito", "", "", ""],
     "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O", "M・A・O", "M・A・O", ""],
     "？？？": ["???", "???", "???", "???"],
-    "": ["Unknown", "알 수 없는", "Неизвестно", ""]
+    "": ["Unknown", "알 수 없음", "Неизвестно", ""]
     }
 
 # What to fall back to if a name hasn't been translated into your language.
@@ -1314,8 +1314,8 @@ magd_reset_formats = [("Resets a Mag's appearance, stats,\n"
                                 ("마그의 레벨과 지원 기능을 재설정 하고\n"
                                 "마그를 초기 상태로 되롤릴 수 있는 장치"),
                                 (""),
-                                "重置瑪古的等級與支援功能\n"
-                                "並使瑪古變回初始狀態的裝置。"]
+                                ("重置瑪古的等級與支援功能\n"
+                                "並使瑪古變回初始狀態的裝置。")]
 
 # Translate the files that can be sorted by description or item name.
 def translate_cosmeticsorted_desc(item, file_name):
