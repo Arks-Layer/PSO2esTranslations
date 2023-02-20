@@ -921,14 +921,14 @@
 		"jp_text": "イヴリダハダート",
 		"tr_text": "이브리다 하다트",
 		"jp_explain": "古に封印されし冥夜の自在槍。\n忌むべき闇の刃は汝の血肉で以って\n戒め突き壊し、沈黙の世を作る。",
-		"tr_explain": ""
+		"tr_explain": "Ancient, forbidden dark Wired Lances.\nThe vile dark blades unsealed by thy\nflesh bring stillness to the world."
 	},
 	{
 		"assign": "120214",
 		"jp_text": "クリシスハダート",
 		"tr_text": "크리시스 하다트",
 		"jp_explain": "古に封印されし冥夜の自在槍。\n勇ましき戦士を喰らいし邪なる刃は\n魂と係合せし時、瞬時に無へとせん。",
-		"tr_explain": ""
+		"tr_explain": "Ancient, forbidden dark Wired Lances.\nWhen the blades' evil devours their\nwielder, all shall be rendered unto dust."
 	},
 	{
 		"assign": "120215",
@@ -1610,6 +1610,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "12010024",
+		"jp_text": "ネオス・アストリオンワイヤー",
+		"tr_text": "Neos Astreon Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "12010028",
 		"jp_text": "ルメイラーワイヤー",
 		"tr_text": "르메이라 와이어",
@@ -1620,6 +1627,13 @@
 		"assign": "12010029",
 		"jp_text": "プリムワイヤー・リブラ",
 		"tr_text": "프림 와이어 리브라",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010029",
+		"jp_text": "プリムワイヤー・リブラ",
+		"tr_text": "Prim Wire Libra",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1666,6 +1680,27 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "12010033",
+		"jp_text": "クリスティアワイヤー",
+		"tr_text": "Crystia Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010034",
+		"jp_text": "セイガヨウワイヤー",
+		"tr_text": "Seigayou Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010035",
+		"jp_text": "トランクールワイヤー",
+		"tr_text": "Tranquil Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "12010036",
 		"jp_text": "レネッサワイヤー",
 		"tr_text": "레네사 와이어",
@@ -1676,6 +1711,13 @@
 		"assign": "12010037",
 		"jp_text": "ガンブレイズワイヤー",
 		"tr_text": "건블레이즈 와이어",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010037",
+		"jp_text": "ガンブレイズワイヤー",
+		"tr_text": "Gunblaze Wire",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1701,6 +1743,20 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "12010039",
+		"jp_text": "ククロフィスワイヤー",
+		"tr_text": "Kouklophis Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010041",
+		"jp_text": "オブゾディアワイヤー",
+		"tr_text": "Obsidia Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "12010045",
 		"jp_text": "カイゼラムワイヤー試製壱型",
 		"tr_text": "카이제람 와이어 시제일형",
@@ -1718,6 +1774,20 @@
 		"assign": "12010047",
 		"jp_text": "ネオス・ユースティロンワイヤー",
 		"tr_text": "네오스 유스티론 와이어",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010046",
+		"jp_text": "セイガインワイヤー",
+		"tr_text": "Seigain Wire",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010047",
+		"jp_text": "ネオス・ユースティロンワイヤー",
+		"tr_text": "Neos Justilon Wire",
 		"jp_explain": "",
 		"tr_explain": ""
 	}
