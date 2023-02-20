@@ -99,7 +99,7 @@ ndesc_n_formats = ["Unlocks {a}new {itype} for use.",
     # 使用すると新しい{itype}が\n
     # 全キャラクターで選択可能になる。
 ndesc_allcharacters_formats = ["A {itype} that unlocks for all\ncharacters on your account.",
-                 "",
+                 "사용하면 새로운 {itype} 아이템을\n모든 캐릭터에 선택할 수 있게 됩니다.",
                  "",
                  "使用後所有角色均可選用新的{itype}。"]
 
@@ -133,15 +133,15 @@ ntype_locks = {"a": ["All", "KO_All", "Все", "CN_All"],
                 "c2": ["Cast Type 2", "캐스트 타입2", "CAST (тип2)", "機器人 類型2"]}
 
 # JP text:
-    # 着用時はインナーが非表示になります。
+    # ※着用時はインナーが非表示になります。
 # No longer used.
 layer_hide_inners = ["※Hides innerwear when worn.",
                      "※착용 시 이너웨어는 표시하지 않음.",
                      "※При экипировке скрывает In.",
-                     "※穿著時不會顯示內衣"]
+                     "※穿著時不會顯示內衣。"]
 
 # JP text:
-    # 一部[In]カラー同期
+    # ※一部[In]カラー同期
 # No longer used.
 layer_sync_inners = ["※Synchronizes with [In] color.",
                      "※일부 [In]컬러 동기화",
@@ -158,7 +158,7 @@ layer_hide_accessories = ["※Hides accessories when worn.",
 # JP text: 
     # ※カラー変更非対応
 ncosmetic_color_locks = ["※Color cannot be changed",
-                        "",
+                        "※컬러 변경 불가",
                         "",
                         "※不適用於顏色的變更"]
 
@@ -174,7 +174,8 @@ ngs_only = ["※Not available in [PSO2] Blocks.",
     # 　マグにのみ使用可能
 mag_device_lv100 = [("※Must be used in PSO2 on a Mag\n"
                             "which has reached Lv.100 or above."),
-                            (""),
+                            ("※『PSO2』에선 Lv.100이상의\n"
+                            "마그에서만 사용 가능"),
                             (""),
                             ("※在『PSO2』中僅可對\n"
                             "　Lv.100或以上的瑪古使用")]
@@ -182,7 +183,7 @@ mag_device_lv100 = [("※Must be used in PSO2 on a Mag\n"
 # JP text: 
     # ※『NGS』でのみ使用可能
 mag_device_ngs = ["※Only usable in NGS.",
-                        "",
+                        "※『NGS』에서만 사용 가능",
                         "",
                         "※僅可在『NGS』中使用"]
 
@@ -361,11 +362,11 @@ cosmetic_file_names = [
     ]
 
 cosmetic_types = {
-    "NGS_Ear": ["ear shape", "", "", "耳朵"],
-    "NGS_Horn": ["horn type", "", "", "角"],
-    "NGS_Motion": ["motion", "", "", "行動方式"],
-    "NGS_Mouth": ["teeth and tongue\nset", "", "", "牙齒、舌頭"],
-    "NGS_Stamps": ["stamp", "", "", "表情圖"],
+    "NGS_Ear": ["ear shape", "귀", "", "耳朵"],
+    "NGS_Horn": ["horn type", "뿔", "", "角"],
+    "NGS_Motion": ["motion", "모션", "", "行動方式"],
+    "NGS_Mouth": ["teeth and tongue\nset", "치아/혀", "", "牙齒、舌頭"],
+    "NGS_Stamps": ["stamp", "스탬프", "", "表情圖"],
     "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
     "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
     "Stack_Eye": ["eye pattern", "눈동자", "глаза", "瞳孔"],
@@ -693,13 +694,12 @@ la_extras = {
             "*actnopreviewfingersngs": [
                 ("※Extra actions (cannot preview).\n"
                  "Finger motion by outfit. Not in [PSO2]."),
+                ("※지원 기능: 버튼 파생/일부 표시 적용 제외\n"
+                 "대응 복장 손가락 움직임/『PSO2』 블록 미지원"),
                 ("\n"
                  ""),
-                ("\n"
-                 ""),
-                ("※適用功能：按鍵衍生/\n"
-                 "不適用一部分顯示/適用服裝可動手指/\n"
-                 "不適用於『PSO2』線路")
+                ("※適用功能：按鍵衍生/不適用一部分顯示/\n"
+                 "適用服裝可動手指/不適用於『PSO2』線路")
                 ],
             
             # JP text: 
@@ -713,8 +713,7 @@ la_extras = {
                 ("Есть действия/Движен. пальцев\n"
                  "огранич./Недоступно в [PSO2].<c>"),
                 ("※適用功能：按鍵衍生/\n"
-                 "適用服裝可動手指/\n"
-                 "不適用於『PSO2』線路")
+                 "適用服裝可動手指/不適用於『PSO2』線路")
                 ],
 
             # JP text: 
@@ -756,8 +755,7 @@ la_extras = {
                 ("※Движ. завис-т от одежды| Отображ.\n"
                  "экип. оружие| Только для NGS."),
                 ("※適用功能：適用服裝可動手指/\n"
-                 "顯示裝備武器/\n"
-                 "不適用於『PSO2』線路")
+                 "顯示裝備武器/不適用於『PSO2』線路")
                 ],
 
             # JP text: 
@@ -794,8 +792,8 @@ la_extras = {
                  "대응복 손가락 가동"),
                 ("Доступно доп действие.\n"
                  "Одежда влияет на движ-е пальцев"),
-                ("※適用功能：按鍵衍生/\n"
-                 "適用服裝可動手指")
+                ("適用功能：按鍵衍生/\n"
+                 "<yellow>適用服裝可動手指<c>")
                 ],
 
             # JP text: 
@@ -840,7 +838,7 @@ la_extras = {
                  "<yellow>일부 무기 반영 불가<c>"),
                 ("Показывает экип-е оружие.\n"
                  "<yellow>Не показывает некоторое оружие.<c>"),
-                ("適用功能：按鍵衍生/顯示裝備武器\n"
+                ("適用功能：顯示裝備武器\n"
                  "<yellow>無法顯示一部分武器<c>")
                 ],
 
@@ -1302,7 +1300,7 @@ items_file.close()
 # JP text: 
     # マグの見た目を変更するデバイス。
 magd_evol_formats = ["A device that changes a Mag's form.",
-                            "",
+                            "마그의 외형을 변경하는 디바이스.",
                             "",
                             "變更瑪古外觀的裝置。"]
 
@@ -1312,10 +1310,11 @@ magd_evol_formats = ["A device that changes a Mag's form.",
 magd_reset_formats = [("Resets a Mag's appearance, stats,\n"
                                 "and support functions back to its \n"
                                 "default state."),
+                                ("마그의 레벨과 지원 기능을 재설정 하고\n"
+                                "마그를 초기 상태로 되롤릴 수 있는 장치"),
                                 (""),
-                                (""),
-                                "重置瑪古的等級與支援功能\n"
-                                "並使瑪古變回初始狀態的裝置。"]
+                                ("重置瑪古的等級與支援功能\n"
+                                "並使瑪古變回初始狀態的裝置。)"]
 
 # Translate the files that can be sorted by description or item name.
 def translate_cosmeticsorted_desc(item, file_name):
@@ -1439,12 +1438,12 @@ cosmeticsorted_file_names = [
     ]
 
 cosmeticsorted_types = {
-    "Head": ["head", "", "", "頭部"],
-    "Facetype": ["face type", "", "", "面部類型"],
-    "Headparts": ["head parts", "", "", "頭部部件"],
-    "Bodyparts": ["body parts", "", "", "身體部件"],
-    "Armparts": ["arm parts", "", "", "手臂部件"],
-    "Legparts": ["leg parts", "", "", "腿部部件"]
+    "Head": ["head", "헤드 파츠", "", "頭部"],
+    "Facetype": ["face type", "얼굴 바리에이션", "", "面部類型"],
+    "Headparts": ["head parts", "헤드 파츠", "", "頭部部件"],
+    "Bodyparts": ["body parts", "바디 파츠", "", "身體部件"],
+    "Armparts": ["arm parts", "암 파츠", "", "手臂部件"],
+    "Legparts": ["leg parts", "레그 파츠", "", "腿部部件"]
     }
 
 for file_name in cosmeticsorted_file_names:
