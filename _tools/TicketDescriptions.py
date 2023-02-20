@@ -28,7 +28,7 @@ parser.add_argument("-l", type = int, dest = "lang", action = "store",
                     choices = [0, 1, 2, 3], default = 0, metavar = "N",
                     help = ("Set a language to translate into. "
                             "Available options are 0 (EN), 1 (KO), 2 (RU) and 3 (CN). "
-                            "Defaults to KO."))
+                            "Defaults to EN."))
 
 # Switch for retranslating all descriptions.
 parser.add_argument("-r", dest = "redo", action = "store_true",
