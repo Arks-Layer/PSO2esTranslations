@@ -651,6 +651,48 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "アクラオ・ボディUC",
+		"tr_text": "Akura-ou Body UC",
+		"jp_explain": "",
+		"tr_explain": "使用後可選用新的身體部件。",
+		"assign": 0
+	},
+	{
+		"jp_text": "アクラオ・アームUC",
+		"tr_text": "Akura-ou Arms UC",
+		"jp_explain": "",
+		"tr_explain": "使用後可選用新的手臂部件。",
+		"assign": 0
+	},
+	{
+		"jp_text": "アクラオ・レッグUC",
+		"tr_text": "Akura-ou Legs UC",
+		"jp_explain": "",
+		"tr_explain": "使用後可選用新的腿部部件。",
+		"assign": 0
+	},
+	{
+		"jp_text": "アクラオ・ボディMF",
+		"tr_text": "Akura-ou Body MF",
+		"jp_explain": "",
+		"tr_explain": "使用後可選用新的身體部件。",
+		"assign": 0
+	},
+	{
+		"jp_text": "アクラオ・アームMF",
+		"tr_text": "Akura-ou Arms MF",
+		"jp_explain": "",
+		"tr_explain": "使用後可選用新的手臂部件。",
+		"assign": 0
+	},
+	{
+		"jp_text": "アクラオ・レッグMF",
+		"tr_text": "Akura-ou Legs MF",
+		"jp_explain": "",
+		"tr_explain": "使用後可選用新的腿部部件。",
+		"assign": 0
+	},
+	{
 		"jp_text": "デザンナ・ボディ",
 		"tr_text": "デザンナ・ボディ",
 		"jp_explain": "",
@@ -981,9 +1023,30 @@
 	},
 	{
 		"jp_text": "ヴォルガルド・レッグ",
-		"tr_text": "ヴォルガルド・レッグ",
+		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": "使用後可選用新的腿部部件。",
+		"assign": 0
+	},
+	{
+		"jp_text": "シュディング・ボディ",
+		"tr_text": "Shting Body",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "シュディング・アーム",
+		"tr_text": "Shting Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "シュディング・レッグ",
+		"tr_text": "Shting Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	}
 ]
