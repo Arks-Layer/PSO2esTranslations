@@ -26,6 +26,7 @@ if args.file != "":
 else:
     file_names = fnmatch.filter(os.listdir(json_loc), 'Item_Stack_*.txt')
     file_names += fnmatch.filter(os.listdir(json_loc), 'Item_*Wear_*.txt')
+    file_names += fnmatch.filter(os.listdir(json_loc), 'Item_Facepattern.txt')
 
 for file_name in file_names:
     try:
