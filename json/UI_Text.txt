@@ -946,7 +946,7 @@
 	},
 	{
 		"assign": "rshop_dialog_b_02",
-		"jp_text": "{0}×{1}\nと、以下のアイテムを交換します。よろしいですか？",
+		"jp_text": "{0}×{1}\n上記アイテムを入手するために以下のアイテムが\n消費されます。よろしいですか？",
 		"tr_text": ""
 	},
 	{
@@ -25036,7 +25036,7 @@
 	},
 	{
 		"assign": "setting_ranking_ura_towerquest_max",
-		"jp_text": "（30F）",
+		"jp_text": "（{0}F）",
 		"tr_text": ""
 	},
 	{
