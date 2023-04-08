@@ -52,12 +52,13 @@ chartable = [
     "".maketrans("",
     "")]
 
+
 # Translate layered wear
 
 layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю одежду (In)", "內衣"],
                       "Ba": ["basewear", "베이스웨어", "верхнюю одежду (Ba)", "底衣"],
                       "Se": ["setwear", "세트 웨어", "комплектную одежду (Se)", "套服"],
-                      "Fu": ["full setwear", "풀세트 웨어", "полн.компл.одежду (Fu)", "全身服裝"],
+                      "Fu": ["full setwear", "풀세트 웨어", "полн.компл.одежду (Fu)", "全身套服"],
                       "Ou": ["outerwear", "아우터 웨어", "внешнюю одежду (Ou)", "外套"]}
 
 # Old layered wear format. Must include itype and iname variables.
@@ -792,7 +793,7 @@ la_extras = {
                  "대응복 손가락 가동"),
                 ("Доступно доп действие.\n"
                  "Одежда влияет на движ-е пальцев"),
-                ("適用功能：按鍵衍生/\n"
+                ("適用功能：按鍵衍生\n"
                  "<yellow>適用服裝可動手指<c>")
                 ],
 
