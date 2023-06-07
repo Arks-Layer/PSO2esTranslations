@@ -746,6 +746,15 @@ la_extras = {
                 ],
 
             # JP text: 
+                # ※対応機能：リアクション／\n対応服指可動／『PSO2』ブロック非対応
+            "*reactfingersngs": [
+                (""),
+                (""),
+                (""),
+                ("※適用功能：反應動作/\n適用服裝可動手指/不適用於『PSO2』")
+                ],
+
+            # JP text: 
                 # ※対応機能：対応服指可動／\n
                 # 武器装備反映／『PSO2』ブロック非対応
             "*fingersweaponsngs": [
@@ -781,7 +790,7 @@ la_extras = {
                 ("※Одежда влияет на движ-е пальцев"),
                 ("※適用功能：適用服裝可動手指")
                 ],
-            
+
             # JP text: 
                 # 対応機能：ボタン派生\n
                 # <yellow>対象服のみ指も可動<c>
@@ -859,6 +868,7 @@ extras_names = {
     "ボタン派生／対応服指可動／\n『PSO2』ブロック非対応<c>": "*actfingersngs",
     "ボタン派生／ランダム／\n対応服指可動<c>": "*actrandomfingers",
     "ボタン派生／\n対応服指可動<c>": "*actfingers",
+    "リアクション／\n対応服指可動／『PSO2』ブロック非対応<c>": "*reactfingersngs",
     "対応服指可動／\n武器装備反映／『PSO2』ブロック非対応<c>": "*fingersweaponsngs",
     "対応服指可動／\n『PSO2』ブロック非対応<c>": "*fingersngs",
     "対応服指可動<c>": "*fingers",
