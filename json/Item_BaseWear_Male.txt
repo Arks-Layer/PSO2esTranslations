@@ -16569,6 +16569,13 @@
 		"tr_explain": "使用後可選用新的底衣。"
 	},
 	{
+		"assign": "334010015",
+		"jp_text": "ゼネスティーフ[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "334010017",
 		"jp_text": "クーヴェルウィーズ[Se]",
 		"tr_text": "クーヴェルウィーズ[Se]",
@@ -18963,11 +18970,32 @@
 		"tr_explain": "使用後可選用新的底衣。"
 	},
 	{
+		"assign": "334010357",
+		"jp_text": "シュタッテリベラッテT1-V2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010358",
+		"jp_text": "シュタッテリベラッテT1-V2/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "334010359",
 		"jp_text": "スティアウォルダ[Ba]",
 		"tr_text": "スティアウォルダ[Ba]",
 		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
 		"tr_explain": "使用後可選用新的底衣。"
+	},
+	{
+		"assign": "334010360",
+		"jp_text": "RA-PEXストロングワーカー/B[Fu]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいフルセットウェアが\n選択可能になる。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "334010362",
@@ -19766,5 +19794,411 @@
 		"tr_text": "ベルゼーゲルT1/B2[Ba]",
 		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
 		"tr_explain": "使用後可選用新的底衣。"
+	},
+	{
+		"assign": "334010497",
+		"jp_text": "ソニック着ぐるみ[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。<yellow>※カラー変更非対応<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010498",
+		"jp_text": "スーパーソニック着ぐるみ[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。<yellow>※カラー変更非対応<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010499",
+		"jp_text": "スケイルファナティック[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010500",
+		"jp_text": "スケイルファナティック/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010501",
+		"jp_text": "スケイルファナティック/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010502",
+		"jp_text": "スケイルファナティック/B2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010503",
+		"jp_text": "スケイルファナティックV2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010504",
+		"jp_text": "スケイルファナティックV2/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010505",
+		"jp_text": "N-クローズクォーター/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010506",
+		"jp_text": "N-シークイェーガー/C[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010507",
+		"jp_text": "ナハーティゲルT1[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010508",
+		"jp_text": "ナハーティゲルT1/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010509",
+		"jp_text": "ナハーティゲルT1/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010510",
+		"jp_text": "ナハーティゲルT1/B2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010511",
+		"jp_text": "バトーのアサルトスーツ[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010512",
+		"jp_text": "バトーのアサルトスーツ/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010513",
+		"jp_text": "バトーのアサルトスーツ/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010514",
+		"jp_text": "バトーのアサルトスーツ/B2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010515",
+		"jp_text": "カスタムアニマルスーツ・ミニ[Fu]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいフルセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010516",
+		"jp_text": "カスタムアニマルスーツ・ミニ/B[Fu]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいフルセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010517",
+		"jp_text": "アクティブメイドT1[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010518",
+		"jp_text": "アクティブメイドT1/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010519",
+		"jp_text": "アクティブメイドT1/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010520",
+		"jp_text": "アクティブメイドT1/B2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010521",
+		"jp_text": "アクティブメイドT1-V2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010522",
+		"jp_text": "アクティブメイドT1-V2/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010523",
+		"jp_text": "N-リリーパスーツ[Fu]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいフルセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010524",
+		"jp_text": "N-リリーパスーツ/B[Fu]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいフルセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010525",
+		"jp_text": "N-リリーパスーツ・ミニ[Fu]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいフルセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010526",
+		"jp_text": "N-リリーパスーツ・ミニ/B[Fu]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいフルセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010527",
+		"jp_text": "N-ゾディアック・カモ[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010528",
+		"jp_text": "N-ゾディアック・カモ/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010529",
+		"jp_text": "N-ゾディアック・カモ/C[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010530",
+		"jp_text": "N-ゾディアック・カモ/D[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010531",
+		"jp_text": "ゼネスティーフ/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010532",
+		"jp_text": "ルシエリースT1[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010533",
+		"jp_text": "ルシエリースT1/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010534",
+		"jp_text": "エアリオナダール/D[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010535",
+		"jp_text": "エアリオナダールV2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010536",
+		"jp_text": "ハリーウィジン[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010537",
+		"jp_text": "ハリーウィジン/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010538",
+		"jp_text": "ヨカゼリョウカ[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010539",
+		"jp_text": "ヨカゼリョウカ/2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010540",
+		"jp_text": "ヨカゼリョウカ/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010541",
+		"jp_text": "ヨカゼリョウカ/B2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010544",
+		"jp_text": "ハリーウィジン/2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010545",
+		"jp_text": "ハリーウィジン/B2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010546",
+		"jp_text": "プリテールディーノ/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010547",
+		"jp_text": "プリテールディーノV2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010548",
+		"jp_text": "プリテールディーノ/C[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010549",
+		"jp_text": "プリテールディーノV2/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010550",
+		"jp_text": "マリューンタウハー/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010552",
+		"jp_text": "マリューンタウハーV2[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010553",
+		"jp_text": "サンティスマリーニオ/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010554",
+		"jp_text": "サンティスマリーニオV2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010555",
+		"jp_text": "カリギナフーシエ/B[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010556",
+		"jp_text": "カリギナフーシエV2[Se]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいセットウェアが\n選択可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "334010557",
+		"jp_text": "ＥＤＷＩＮシャツ＆パンツT1/B[Ba]",
+		"tr_text": "",
+		"jp_explain": "使用すると新しいベースウェアが\n選択可能になる。",
+		"tr_explain": ""
 	}
 ]
