@@ -28,7 +28,7 @@ parser.add_argument("-l", type = int, dest = "lang", action = "store",
                     choices = [0, 1, 2, 3], default = 3, metavar = "N",
                     help = ("Set a language to translate into. "
                             "Available options are 0 (EN), 1 (KO), 2 (RU) and 3 (CN). "
-                            "Defaults to CN."))
+                            "Defaults to EN."))
 
 # Switch for retranslating all descriptions.
 parser.add_argument("-r", dest = "redo", action = "store_true",
@@ -1164,6 +1164,9 @@ cv_names = {
     "津田 健次郎": ["Kenjiro Tsuda", "", "", "津田 健次郎"],
     "鬼頭 明里": ["Akari Kito", "", "", "鬼頭 明里"],
     "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O", "M・A・O", "M・A・O", "M·A·O"],
+    "山口 勝平": ["Kappei Yamaguchi", "", "", "", "山口 勝平"],
+    "楠 大典": ["Taiten Kusunoki", "", "", "", "楠 大典"],
+    "小澤 亜李": ["Ari Ozawa", "", "", "", "小澤 亞李"],
     "？？？": ["???", "???", "???", "？？？"],
     "": ["Unknown", "알 수 없는", "Неизвестно", ""]
     }
