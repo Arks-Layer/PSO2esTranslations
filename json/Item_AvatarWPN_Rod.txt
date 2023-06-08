@@ -613,7 +613,7 @@
 		"jp_text": "＊アインズの杖",
 		"tr_text": "＊Ainz's Cane",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ロッド／ウォンド<c>",
-		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Types: Rod/Wand<c>"
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Rod/Wand<c>"
 	},
 	{
 		"assign": "10110105",
@@ -633,6 +633,13 @@
 		"assign": "1011010007",
 		"jp_text": "＊ニャンハンドロッド",
 		"tr_text": "＊Nyan Hand Rod",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ロッド<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Rod<c>"
+	},
+	{
+		"assign": "1011010008",
+		"jp_text": "＊デンドラウロッド",
+		"tr_text": "",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ロッド<c>",
 		"tr_explain": ""
 	}

@@ -25468,5 +25468,20 @@
 		"assign": "sbattle_effect_auto_button_stop",
 		"jp_text": "効果オート停止",
 		"tr_text": ""
+	},
+	{
+		"assign": "sbattle_ranking_undercount_title",
+		"jp_text": "極討サバイバルランキングの集計中",
+		"tr_text": ""
+	},
+	{
+		"assign": "sbattle_ranking_undercount_body",
+		"jp_text": "ランキング報酬の受け取り期間\n\n　受け取り開始　<%StartTime>\n　受け取り終了　<%EndTime>",
+		"tr_text": ""
+	},
+	{
+		"assign": "sbattle_ranking_receive_reward_linetext",
+		"jp_text": "参加したイベントのランキング報酬が「受け取りボックス」へ配付されました",
+		"tr_text": ""
 	}
 ]
