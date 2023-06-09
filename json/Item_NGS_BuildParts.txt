@@ -374,14 +374,14 @@
 		"jp_text": "BP「エアル：チェアB」",
 		"tr_text": "BP \"Aelio: Chair B\"",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "This Build Part can be accessed\nto sit on it.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「エアル：ソファ」",
 		"tr_text": "BP \"Aelio: Sofa\"",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "This Build Part can be accessed\nto sit on it.",
 		"assign": 0
 	},
 	{
@@ -421,16 +421,16 @@
 	},
 	{
 		"jp_text": "BP「エアル：バスタブ」",
-		"tr_text": "",
+		"tr_text": "BP \"Aelio: Bathtub\"",
 		"jp_explain": "アクセスすると\n入浴できるビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "This Build Part can be accessed\nto take a bath.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「エアル：シャワー」",
-		"tr_text": "",
-		"jp_explain": "",
-		"tr_explain": "アクセスすると\nシャワーを浴びられるビルドパーツ。",
+		"tr_text": "BP \"Aelio: Bathtub\",
+		"jp_explain": "アクセスすると\nシャワーを浴びられるビルドパーツ。",
+		"tr_explain": "This Build Part can be accessed\nto take a shower.",
 		"assign": 0
 	},
 	{
@@ -477,114 +477,114 @@
 	},
 	{
 		"jp_text": "BP「スペース内テレポーター」",
-		"tr_text": "",
+		"tr_text": "BP \"Space Teleporter\"",
 		"jp_explain": "アクセスすると\n対応する番号のテレポーターに\n移動できるビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "This Build Part can be accessed\nto teleport to another teleporter\nwith a matching ID.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「メッセージパック」",
-		"tr_text": "",
+		"tr_text": "BP \"Message Pack\"",
 		"jp_explain": "アクセスすると\n設定したメッセージを表示する\nビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "This Build Part can be accessed\nto read the message it contains.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「アークスデコイ」",
-		"tr_text": "",
+		"tr_text": "BP \"ARKS Decoy\"",
 		"jp_explain": "アクセスすると\n自身のキャラクターを投影する\nビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "This Build Part can be accessed\nto display the image of a character.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「フットスイッチ」",
-		"tr_text": "",
+		"tr_text": "BP \"Foot Switch\"",
 		"jp_explain": "上に乗ると\nスイッチがオンになる\nビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "This Build Part acts as a switch\nthat turns on when stepped on.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「フットスイッチB」",
-		"tr_text": "",
+		"tr_text": "BP \"Foot Switch B\"",
 		"jp_explain": "上に乗っているあいだだけ\nスイッチがオンになる\nビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "This Build Part acts as a switch\nthat turns on only while stood on.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「タイマーキューブ」",
-		"tr_text": "",
+		"tr_text": "BP \"Timer Cube\"",
 		"jp_explain": "コネクトを受信すると\nタイマーのカウントアップを開始する\nビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "When this Build Part receives a signal,\nit starts a timer that counts up from 0.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「タイマーキューブB」",
-		"tr_text": "",
+		"tr_text": "BP \"Timer Cube B\"",
 		"jp_explain": "コネクトを受信すると\nタイマーのカウントダウンを開始する\nビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "When this Build Part receives a signal,\nit starts a timer that counts down to 0.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「テキスト演出キューブ」",
-		"tr_text": "",
+		"tr_text": "BP \"Text Display Cube\"",
 		"jp_explain": "コネクトを受信すると\n設定したテキスト演出を再生する\nビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "When this Build Part receives a signal,\nIt displays a set text string.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「サウンドキューブ」",
-		"tr_text": "",
+		"tr_text": "BP \"Sound Cube\"",
 		"jp_explain": "コネクトを受信すると\n設定したサウンドを再生する\nビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "When this Build Part receives a signal,\nIt plays a specific sound effect.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「サウンドキューブB」",
-		"tr_text": "",
+		"tr_text": "BP \"Sound Cube B\"",
 		"jp_explain": "コネクトを受信すると\n設定したサウンドを再生する\nビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "When this Build Part receives a signal,\nIt plays a specific sound effect.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「混合キューブ」",
-		"tr_text": "",
+		"tr_text": "BP \"AND Cube\"",
 		"jp_explain": "2つのコネクトを受信すると\n次のギミックパーツに\nコネクトを送信するビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "When this Build Part receives 2 signals,\nit sends a signal to its connected parts.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「カウントアップキューブ」",
-		"tr_text": "",
+		"tr_text": "BP \"Count-Up Cube\"",
 		"jp_explain": "コネクトを受信すると\nカウントを1つ増やす\nビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "When this Build Part receives a signal,\nit increases its internal counter by 1.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「ディレイキューブ」",
-		"tr_text": "",
+		"tr_text": "BP \"Delay Cube\"",
 		"jp_explain": "コネクトを受信してから\n一定時間後に次のギミックパーツに\nコネクトを送信するビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "When this Build Part receives a signal,\nit waits for a set amount of time, then\nsends a signal to its connected parts.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「ランダムキューブ」",
-		"tr_text": "",
+		"tr_text": "BP \"Random Cube\"",
 		"jp_explain": "コネクトを受信すると\n指定したギミックパーツのいずれかに\nコネクトを送信するビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "When this Build Part receives a signal,\nit sends a signal on to one of its\nconnected parts, chosen at random.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「接触判定エリア」",
-		"tr_text": "",
+		"tr_text": "BP \"Contact Detection Area\"",
 		"jp_explain": "エリア内に接触すると\n次のギミックパーツに\nコネクトを送信するビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "When this Build Part detects that a\nplayer has entered its assigned area,\nit sends a signal to its connected parts.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「アクション判定エリア」",
-		"tr_text": "",
+		"tr_text": "BP \"Action Detection Area\"",
 		"jp_explain": "エリア内で指定したアクションを行うと\n次のギミックパーツに\nコネクトを送信するビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "When this Build Part detects a specific\nplayer action within its assigned area,\nit sends a signal to its connected parts.",
 		"assign": 0
 	},
 	{
@@ -624,37 +624,37 @@
 	},
 	{
 		"jp_text": "BP「アップドラフター」",
-		"tr_text": "",
+		"tr_text": "BP \"Updrafter\"",
 		"jp_explain": "フォトングライド中に\n乗ると移動できる\nビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "This Build Part lets you ascend by\nriding it while Photon Gliding.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「アップドラフターB」",
-		"tr_text": "",
+		"tr_text": "BP \"Updrafter B\"",
 		"jp_explain": "フォトングライド中に\n乗ると移動できる\nビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "This Build Part lets you ascend by\nriding it while Photon Gliding.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「スコアシンボル」",
-		"tr_text": "",
+		"tr_text": "BP \"Score Symbol\"",
 		"jp_explain": "触れると\n取れるビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "This Build Part can be collected by\ntouching it.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「フローティングマイン」",
-		"tr_text": "",
+		"tr_text": "BP \"Floating Mine\"",
 		"jp_explain": "触れると\n爆発して吹き飛ばされる\nビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "This Build Part explodes on contact,\nblasting players away.",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「シャッキ・エアルクラーブ」",
-		"tr_text": "",
+		"tr_text": "BP \"Sharp Aelio Crab\"",
 		"jp_explain": "アクセスすると\n獲れるビルドパーツ。",
-		"tr_explain": "",
+		"tr_explain": "This Build Part can be accessed\nto collect it.",
 		"assign": 0
 	},
 	{
