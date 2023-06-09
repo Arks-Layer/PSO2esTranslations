@@ -373,14 +373,14 @@
 	{
 		"jp_text": "BP「エアル：チェアB」",
 		"tr_text": "BP \"Aelio: Chair B\"",
-		"jp_explain": "",
+		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「エアル：ソファ」",
 		"tr_text": "BP \"Aelio: Sofa\"",
-		"jp_explain": "",
+		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
@@ -422,7 +422,7 @@
 	{
 		"jp_text": "BP「エアル：バスタブ」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "アクセスすると\n入浴できるビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
@@ -430,7 +430,7 @@
 		"jp_text": "BP「エアル：シャワー」",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "アクセスすると\nシャワーを浴びられるビルドパーツ。",
 		"assign": 0
 	},
 	{
@@ -478,112 +478,112 @@
 	{
 		"jp_text": "BP「スペース内テレポーター」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "アクセスすると\n対応する番号のテレポーターに\n移動できるビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「メッセージパック」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "アクセスすると\n設定したメッセージを表示する\nビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「アークスデコイ」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "アクセスすると\n自身のキャラクターを投影する\nビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「フットスイッチ」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "上に乗ると\nスイッチがオンになる\nビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「フットスイッチB」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "上に乗っているあいだだけ\nスイッチがオンになる\nビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「タイマーキューブ」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "コネクトを受信すると\nタイマーのカウントアップを開始する\nビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「タイマーキューブB」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "コネクトを受信すると\nタイマーのカウントダウンを開始する\nビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「テキスト演出キューブ」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "コネクトを受信すると\n設定したテキスト演出を再生する\nビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「サウンドキューブ」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "コネクトを受信すると\n設定したサウンドを再生する\nビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「サウンドキューブB」",
 		"tr_text": "",
-		"jp_explain": "コネクトを受信すると<br>設定したサウンドを再生する<br>ビルドパーツ。",
+		"jp_explain": "コネクトを受信すると\n設定したサウンドを再生する\nビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「混合キューブ」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "2つのコネクトを受信すると\n次のギミックパーツに\nコネクトを送信するビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「カウントアップキューブ」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "コネクトを受信すると\nカウントを1つ増やす\nビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「ディレイキューブ」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "コネクトを受信してから\n一定時間後に次のギミックパーツに\nコネクトを送信するビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「ランダムキューブ」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "コネクトを受信すると\n指定したギミックパーツのいずれかに\nコネクトを送信するビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「接触判定エリア」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "エリア内に接触すると\n次のギミックパーツに\nコネクトを送信するビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「アクション判定エリア」",
 		"tr_text": "",
-		"jp_explain": "",
+		"jp_explain": "エリア内で指定したアクションを行うと\n次のギミックパーツに\nコネクトを送信するビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
@@ -625,35 +625,35 @@
 	{
 		"jp_text": "BP「アップドラフター」",
 		"tr_text": "",
-		"jp_explain": "フォトングライド中に<br>乗ると移動できる<br>ビルドパーツ。",
+		"jp_explain": "フォトングライド中に\n乗ると移動できる\nビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「アップドラフターB」",
 		"tr_text": "",
-		"jp_explain": "フォトングライド中に<br>乗ると移動できる<br>ビルドパーツ。",
+		"jp_explain": "フォトングライド中に\n乗ると移動できる\nビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「スコアシンボル」",
 		"tr_text": "",
-		"jp_explain": "触れると<br>取れるビルドパーツ。",
+		"jp_explain": "触れると\n取れるビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「フローティングマイン」",
 		"tr_text": "",
-		"jp_explain": "触れると<br>爆発して吹き飛ばされる<br>ビルドパーツ。",
+		"jp_explain": "触れると\n爆発して吹き飛ばされる\nビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「シャッキ・エアルクラーブ」",
 		"tr_text": "",
-		"jp_explain": "アクセスすると<br>獲れるビルドパーツ。",
+		"jp_explain": "アクセスすると\n獲れるビルドパーツ。",
 		"tr_explain": "",
 		"assign": 0
 	},
