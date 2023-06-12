@@ -749,7 +749,8 @@ la_extras = {
                 # ※対応機能：リアクション／\n
                 # 対応服指可動／『PSO2』ブロック非対応
             "*reactfingersngs": [
-                (""),
+                ("Has reactions/Finger motion\n"
+                 "outfit-limited/Can't use in [PSO2].<c>"),
                 (""),
                 (""),
                 ("※適用功能：反應動作/\n"
