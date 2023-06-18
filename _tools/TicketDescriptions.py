@@ -28,7 +28,7 @@ parser.add_argument("-l", type = int, dest = "lang", action = "store",
                     choices = [0, 1, 2, 3], default = 3, metavar = "N",
                     help = ("Set a language to translate into. "
                             "Available options are 0 (EN), 1 (KO), 2 (RU) and 3 (CN). "
-                            "Defaults to CN."))
+                            "Defaults to EN."))
 
 # Switch for retranslating all descriptions.
 parser.add_argument("-r", dest = "redo", action = "store_true",
@@ -746,6 +746,18 @@ la_extras = {
                 ],
 
             # JP text: 
+                # ※対応機能：リアクション／\n
+                # 対応服指可動／『PSO2』ブロック非対応
+            "*reactfingersngs": [
+                ("Has reactions/Finger motion\n"
+                 "outfit-limited/Can't use in [PSO2].<c>"),
+                (""),
+                (""),
+                ("※適用功能：反應動作/\n"
+                 "適用服裝可動手指/不適用於『PSO2』")
+                ],
+
+            # JP text: 
                 # ※対応機能：対応服指可動／\n
                 # 武器装備反映／『PSO2』ブロック非対応
             "*fingersweaponsngs": [
@@ -781,7 +793,7 @@ la_extras = {
                 ("※Одежда влияет на движ-е пальцев"),
                 ("※適用功能：適用服裝可動手指")
                 ],
-            
+
             # JP text: 
                 # 対応機能：ボタン派生\n
                 # <yellow>対象服のみ指も可動<c>
@@ -859,6 +871,7 @@ extras_names = {
     "ボタン派生／対応服指可動／\n『PSO2』ブロック非対応<c>": "*actfingersngs",
     "ボタン派生／ランダム／\n対応服指可動<c>": "*actrandomfingers",
     "ボタン派生／\n対応服指可動<c>": "*actfingers",
+    "リアクション／\n対応服指可動／『PSO2』ブロック非対応<c>": "*reactfingersngs",
     "対応服指可動／\n武器装備反映／『PSO2』ブロック非対応<c>": "*fingersweaponsngs",
     "対応服指可動／\n『PSO2』ブロック非対応<c>": "*fingersngs",
     "対応服指可動<c>": "*fingers",
@@ -1154,6 +1167,9 @@ cv_names = {
     "津田 健次郎": ["Kenjiro Tsuda", "", "", "津田 健次郎"],
     "鬼頭 明里": ["Akari Kito", "", "", "鬼頭 明里"],
     "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O", "M・A・O", "M・A・O", "M·A·O"],
+    "山口 勝平": ["Kappei Yamaguchi", "", "", "山口 勝平"],
+    "楠 大典": ["Taiten Kusunoki", "", "", "楠 大典"],
+    "小澤 亜李": ["Ari Ozawa", "", "", "小澤 亞李"],
     "？？？": ["???", "???", "???", "？？？"],
     "": ["Unknown", "알 수 없는", "Неизвестно", ""]
     }
