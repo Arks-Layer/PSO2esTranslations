@@ -1459,7 +1459,7 @@ cosmeticsorted_types = {
     "Facetype": ["face type", "얼굴 바리에이션", "", "面部類型"],
     "Headparts": ["head parts", "헤드 파츠", "", "頭部部件"],
     "Bodyparts": ["body parts", "바디 파츠", "", "身體部件"],
-    "Armparts": ["arm parts", "암 파츠", "", "手臂部件"],
+    "Armparts": ["arm parts", "암 파츠", "", "臂部部件"],
     "Legparts": ["leg parts", "레그 파츠", "", "腿部部件"]
     }
 
