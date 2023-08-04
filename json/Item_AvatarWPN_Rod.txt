@@ -639,8 +639,15 @@
 	{
 		"assign": "1011010008",
 		"jp_text": "＊デンドラウロッド",
-		"tr_text": "",
+		"tr_text": "＊デンドラウロッド",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ロッド<c>",
-		"tr_explain": ""
+		"tr_explain": "<green>“＊樹狀長杖”<c>\n變更裝備外觀的武器迷彩。\n<yellow>※適用於：長杖<c>"
+	},
+	{
+		"assign": "1011010009",
+		"jp_text": "＊ラッピージコミ",
+		"tr_text": "＊ラッピージコミ",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ロッド／カタナ　ほか<c><c>",
+		"tr_explain": "<green>“＊拉比滿當當”<c>\n變更裝備外觀的武器迷彩。\n<yellow>※適用於：長杖/拔劍　等<c>"
 	}
 ]
