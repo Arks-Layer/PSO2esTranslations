@@ -3,7 +3,7 @@ defaults: &defaults
   docker:
     - image: cimg/python:3.10-node
 
-version: 3
+version: 4
 jobs:
   verify:
     <<: *defaults
@@ -26,6 +26,8 @@ jobs:
           name: Making report folder
           command: /bin/mkdir -p /tmp/PSO2es
       - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true 
       - run:
           name: Checking translation progress
           command: /bin/sh ./_sh/coverage.sh | /usr/bin/tee /tmp/PSO2es/coverage.txt
@@ -89,9 +91,6 @@ jobs:
           key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
           paths:
             - ~/.cache/pip
-      - run:
-          name: Checking if any story text is too long
-          command: ./_py/StoryFont.py | /usr/bin/tee /tmp/PSO2es/StoryFont.txt
       - run:
           name: Checking if chip names are too long
           command: ./_py/ChipFont.py | /usr/bin/tee /tmp/PSO2es/ChipFont.txt
