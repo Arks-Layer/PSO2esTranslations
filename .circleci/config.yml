@@ -47,9 +47,6 @@ jobs:
           name: Checking if block names are too long
           command: ./_py/BlockLen.py | /usr/bin/tee /tmp/PSO2es/BlockLen.txt
       - run:
-          name: Checking if item descriptions have too many lines
-          command: ./_py/ItemDescLen.py | /usr/bin/tee /tmp/PSO2es/ItemDescLen.txt
-      - run:
           name: Checking if JSON files are tidy
           command: ./_py/tidy-json.py
       - run:
@@ -91,6 +88,12 @@ jobs:
           key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
           paths:
             - ~/.cache/pip
+      - run:
+          name: Checking if story buttons are too long
+          command: ./_py/StoryBTNFont.py | /usr/bin/tee /tmp/PSO2es/StoryBTNFont.txt
+      - run:
+          name: Checking if any story text is too long
+          command: ./_py/StoryFont.py | /usr/bin/tee /tmp/PSO2es/StoryFont.txt
       - run:
           name: Checking if chip names are too long
           command: ./_py/ChipFont.py | /usr/bin/tee /tmp/PSO2es/ChipFont.txt
