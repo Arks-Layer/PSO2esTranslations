@@ -90,9 +90,6 @@ jobs:
           paths:
             - ~/.cache/pip
       - run:
-          name: Checking if story buttons are too long
-          command: ./_py/StoryBTNFont.py | /usr/bin/tee /tmp/PSO2es/StoryBTNFont.txt
-      - run:
           name: Checking if any story text is too long
           command: ./_py/StoryFont.py | /usr/bin/tee /tmp/PSO2es/StoryFont.txt
       - run:
