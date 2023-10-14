@@ -79,6 +79,8 @@ jobs:
           name: Making report folder
           command: /bin/mkdir -p /tmp/PSO2es
       - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true 
       - restore_cache:
           key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
       - run:
@@ -88,6 +90,10 @@ jobs:
           key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
           paths:
             - ~/.cache/pip
+      - run:
+          name: Applying word wrap changes
+          command: /usr/bin/git add -u
+          when: on_fail
       - run:
           name: Checking if item names are too long
           command: ./_py/ItemFont.py | /usr/bin/tee /tmp/PSO2es/ItemFont.txt
@@ -102,6 +108,8 @@ jobs:
           name: Making report folder
           command: /bin/mkdir -p /tmp/PSO2es
       - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true 
       - restore_cache:
           key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
       - run:
@@ -135,6 +143,8 @@ jobs:
           name: Install git, wget, unzip, zip and ssh
           command: apt-get -qq -y --no-install-recommends install git wget unzip zip openssh-client
       - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true 
       - restore_cache:
           keys:
             # Find the most recent cache used from any branch
