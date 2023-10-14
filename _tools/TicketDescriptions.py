@@ -7,7 +7,7 @@ import regex
 import shutil
 import argparse
 
-json_loc = os.path.join("", "json")
+json_loc = os.path.join("..", "json")
 
 parser = argparse.ArgumentParser(
     description = "Translates ticket item descriptions.")
