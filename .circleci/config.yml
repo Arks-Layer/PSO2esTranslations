@@ -57,6 +57,17 @@ jobs:
           name: Applying Tidy changes
           command: /usr/bin/git add -u
           when: on_fail
+      - run:
+          name: Checking if any text needs to be normalized
+          command: ./_tools/normalize.py | /usr/bin/tee /tmp/PSO2es/normalize.txt
+      - run:
+          name: Normalize changes
+          command: /usr/bin/git diff --exit-code | /usr/bin/tee /tmp/PSO2es/normalize.diff
+          when: on_fail
+      - run:
+          name: Applying normalize changes
+          command: /usr/bin/git add -u
+          when: on_fail
       - store_artifacts:
           path: /tmp/PSO2es/
           destination: Reports
