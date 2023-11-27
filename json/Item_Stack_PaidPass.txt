@@ -45,42 +45,42 @@
 		"assign": "32108",
 		"jp_text": "強化成功率＋５％",
 		"tr_text": "Grind Success Rate +5%",
-		"jp_explain": "旧式武器、防具、キャンディー用の\n強化補助素材。強化時に使用することで\n成功率を５％上昇させる。",
+		"jp_explain": "防具、キャンディー用の\n強化補助素材。強化時に使用することで\n成功率を５％上昇させる。",
 		"tr_explain": "Increase the success rate\nby 5% when grinding equipment."
 	},
 	{
 		"assign": "32109",
 		"jp_text": "強化成功率＋１０％",
 		"tr_text": "Grind Success Rate +10%",
-		"jp_explain": "旧式武器、防具、キャンディー用の\n強化補助素材。強化時に使用することで\n成功率を１０％上昇させる。",
+		"jp_explain": "防具、キャンディー用の\n強化補助素材。強化時に使用することで\n成功率を１０％上昇させる。",
 		"tr_explain": "Increase the success rate\nby 10% when grinding equipment."
 	},
 	{
 		"assign": "321010",
 		"jp_text": "強化成功率＋２０％",
 		"tr_text": "Grind Success Rate +20%",
-		"jp_explain": "旧式武器、防具、キャンディー用の\n強化補助素材。強化時に使用することで\n成功率を２０％上昇させる。",
+		"jp_explain": "防具、キャンディー用の\n強化補助素材。強化時に使用することで\n成功率を２０％上昇させる。",
 		"tr_explain": "Increase the success rate\nby 20% when grinding equipment."
 	},
 	{
 		"assign": "321011",
 		"jp_text": "強化スキップ（→７）",
 		"tr_text": "Grind Skip (→7)",
-		"jp_explain": "旧式武器、ユニット用の強化補助素材。\n強化値が＋６以下の時に使用すると\n＋７まで一気に強化することができる。",
+		"jp_explain": "ユニット用の強化補助素材。\n強化値が＋６以下の時に使用すると\n＋７まで一気に強化することができる。",
 		"tr_explain": "Instantly grinds to +7 when the item\ngrinding is +6 or lower. Cannot be\ntraded or sold to other players."
 	},
 	{
 		"assign": "321012",
 		"jp_text": "強化リスク軽減（＋１）",
 		"tr_text": "Grind Risk Reduction (+1)",
-		"jp_explain": "旧式武器、ユニット用の原型保護素材。\n強化時に使用することで\n強化失敗時のリスクを１段階低減する。",
+		"jp_explain": "ユニット用の原型保護素材。\n強化時に使用することで\n強化失敗時のリスクを１段階低減する。",
 		"tr_explain": "Used when grinding equipment.\nDecreases grinding risk by 1."
 	},
 	{
 		"assign": "321013",
 		"jp_text": "強化リスク軽減（完全）",
 		"tr_text": "Grind Risk Reduction (Full)",
-		"jp_explain": "旧式武器、ユニット用の原型保護素材。\n強化時に使用することで\n強化失敗時のリスクを打ち消す。",
+		"jp_explain": "ユニット用の原型保護素材。\n強化時に使用することで\n強化失敗時のリスクを打ち消す。",
 		"tr_explain": "Used when grinding equipment.\nCompletely removes grinding risk."
 	},
 	{
@@ -192,7 +192,7 @@
 		"assign": "321030",
 		"jp_text": "強化成功率＋３０％",
 		"tr_text": "Grind Success Rate +30%",
-		"jp_explain": "旧式武器、防具、キャンディー用の\n強化補助素材。強化時に使用することで\n成功率を３０％上昇させる。",
+		"jp_explain": "防具、キャンディー用の\n強化補助素材。強化時に使用することで\n成功率を３０％上昇させる。",
 		"tr_explain": "Increase the success rate\nby 30% when grinding equipment."
 	},
 	{
@@ -248,14 +248,14 @@
 		"assign": "321047",
 		"jp_text": "強化成功（１００％）",
 		"tr_text": "Grind Success (100%)",
-		"jp_explain": "旧式武器、防具、キャンディー用の\n強化補助素材。強化時に使用することで\n確実に成功させる。",
+		"jp_explain": "防具、キャンディー用の\n強化補助素材。強化時に使用することで\n確実に成功させる。",
 		"tr_explain": "Support item for grinding equipment.\nGuarantees that one grind will be\nsuccessful."
 	},
 	{
 		"assign": "321048",
 		"jp_text": "強化リスク軽減（＋２）",
 		"tr_text": "Grind Risk Reduction (+2)",
-		"jp_explain": "旧式武器、ユニット用の原型保護素材。\n強化時に使用することで\n強化失敗時のリスクを２段階低減する。",
+		"jp_explain": "ユニット用の原型保護素材。\n強化時に使用することで\n強化失敗時のリスクを２段階低減する。",
 		"tr_explain": "Used when grinding equipment.\nDecreases grinding risk by 2."
 	},
 	{
@@ -633,7 +633,7 @@
 		"assign": "3210136",
 		"jp_text": "強化スキップ（→５）",
 		"tr_text": "Grind Skip (→5)",
-		"jp_explain": "旧式武器、ユニット用の強化補助素材。\n強化値が＋４以下の時に使用すると\n＋５まで一気に強化することができる。",
+		"jp_explain": "ユニット用の強化補助素材。\n強化値が＋４以下の時に使用すると\n＋５まで一気に強化することができる。",
 		"tr_explain": "Instantly grinds to +5 when the item\ngrinding is +4 or lower. Cannot be\ntraded or sold to other players."
 	},
 	{
