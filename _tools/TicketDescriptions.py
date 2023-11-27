@@ -440,7 +440,7 @@ cosmetic_desc_sticker_use_new_formats = [("Unlocks the {sexlock}{itype}\n"
                          ("Разблок-т {itype} {sexlock}\n"
                           "\"{iname}\"\n"
                           "для использования в салоне."),
-                         ("特定貼紙的著裝許可票券。\n"
+                         ("許可著裝特定貼紙的票券。\n"
                           "使用後，可選用新的{sexlock}{itype}\n"
                           "{iname}。")]
 
@@ -472,7 +472,7 @@ no_sticker_desc = [("Unlocks the ability to not display a\n"
                     "숨김이 선택 가능해집니다."),
                    ("Разблокирует возможность\n"
                     "не отображать стикер в салоне."),
-                   ("特定貼紙的不顯示許可票券。\n"
+                   ("許可不顯示特定貼紙的票券。\n"
                     "使用後可以選擇不顯示貼紙。")]
 
 # New cosmetic tickets use the formats we defined earlier for new layer wear
