@@ -5398,31 +5398,31 @@
 	},
 	{
 		"assign": "321010373",
-		"jp_text": "プリセット能力強化成功率＋100％/Lv.1",
-		"tr_text": "Preset Ability Success +100%/Lv.1",
+		"jp_text": "プリセット能力強化成功＆代用材/Lv.1",
+		"tr_text": "",
 		"jp_explain": "プリセット能力の強化を100％成功させ\n必要素材アイテムを不要にする。\nベースアイテムのプリセット能力レベルが\n表示レベル以下の場合のみ使用可能。",
-		"tr_explain": "Grants 100% success rate & removes\nthe need for materials. Can only be\nused if base item's Preset Ability\nlevel is below the displayed level."
+		"tr_explain": ""
 	},
 	{
 		"assign": "321010374",
-		"jp_text": "プリセット能力強化成功率＋100％/Lv.2",
-		"tr_text": "Preset Ability Success +100%/Lv.2",
+		"jp_text": "プリセット能力強化成功＆代用材/Lv.2",
+		"tr_text": "",
 		"jp_explain": "プリセット能力の強化を100％成功させ\n必要素材アイテムを不要にする。\nベースアイテムのプリセット能力レベルが\n表示レベル以下の場合のみ使用可能。",
-		"tr_explain": "Grants 100% success rate & removes\nthe need for materials. Can only be\nused if base item's Preset Ability\nlevel is below the displayed level."
+		"tr_explain": ""
 	},
 	{
 		"assign": "321010375",
-		"jp_text": "プリセット能力強化成功率＋100％/Lv.3",
-		"tr_text": "Preset Ability Success +100%/Lv.3",
+		"jp_text": "プリセット能力強化成功＆代用材/Lv.3",
+		"tr_text": "",
 		"jp_explain": "プリセット能力の強化を100％成功させ\n必要素材アイテムを不要にする。\nベースアイテムのプリセット能力レベルが\n表示レベル以下の場合のみ使用可能。",
-		"tr_explain": "Grants 100% success rate & removes\nthe need for materials. Can only be\nused if base item's Preset Ability\nlevel is below the displayed level."
+		"tr_explain": ""
 	},
 	{
 		"assign": "321010376",
-		"jp_text": "プリセット能力強化成功率＋100％/Lv.4",
-		"tr_text": "Preset Ability Success +100%/Lv.4",
+		"jp_text": "プリセット能力強化成功＆代用材/Lv.4",
+		"tr_text": "",
 		"jp_explain": "プリセット能力の強化を100％成功させ\n必要素材アイテムを不要にする。\nベースアイテムのプリセット能力レベルが\n表示レベル以下の場合のみ使用可能。",
-		"tr_explain": "Grants 100% success rate & removes\nthe need for materials. Can only be\nused if base item's Preset Ability\nlevel is below the displayed level."
+		"tr_explain": ""
 	},
 	{
 		"assign": "321015082",
@@ -5446,11 +5446,39 @@
 		"tr_explain": "Allows you one chance at\nthe <yellow>Halloween '23 SP Scratch<c>\njust by having it in your inventory."
 	},
 	{
+		"assign": "321015085",
+		"jp_text": "トレジャースクラッチ券Vol.2",
+		"tr_text": "",
+		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>トレジャースクラッチ2<c>に\n1回挑戦できるチケット。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321015086",
+		"jp_text": "冬'23-'24スペシャルスクラッチ券",
+		"tr_text": "",
+		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>冬'23-'24スペシャルスクラッチ<c>に\n1回挑戦できるチケット。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010377",
+		"jp_text": "リワードボックスメダルDec'23",
+		"tr_text": "",
+		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスDec'23<c>に\n1回挑戦できるメダル。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "321010378",
 		"jp_text": "N-潜在能力解放代用材/Lv.6",
 		"tr_text": "N-Potential Subsitution/Lv.6",
 		"jp_explain": "アイテムの潜在能力を\nLv.6にするための\n必要素材アイテムを不要にする。",
 		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.6 on a single item."
+	},
+	{
+		"assign": "321010379",
+		"jp_text": "プリセット能力強化成功率＋5％",
+		"tr_text": "",
+		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。",
+		"tr_explain": ""
 	},
 	{
 		"assign": "321010380",
@@ -5527,6 +5555,83 @@
 		"jp_text": "Slクラスレベル75化＆適正装備セット",
 		"tr_text": "Sl Class Lv.75 & Equipment Set",
 		"jp_explain": "Slクラスレベル75化＆適正装備セット",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010392",
+		"jp_text": "クラスレベル80化＆適正装備セット",
+		"tr_text": "",
+		"jp_explain": "クラスレベル80化＆適正装備セット",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010393",
+		"jp_text": "Huクラスレベル80化＆適正装備セット",
+		"tr_text": "",
+		"jp_explain": "Huクラスレベル80化＆適正装備セット",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010394",
+		"jp_text": "Raクラスレベル80化＆適正装備セット",
+		"tr_text": "",
+		"jp_explain": "Raクラスレベル80化＆適正装備セット",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010395",
+		"jp_text": "Foクラスレベル80化＆適正装備セット",
+		"tr_text": "",
+		"jp_explain": "Foクラスレベル80化＆適正装備セット",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010396",
+		"jp_text": "Fiクラスレベル80化＆適正装備セット",
+		"tr_text": "",
+		"jp_explain": "Fiクラスレベル80化＆適正装備セット",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010397",
+		"jp_text": "Guクラスレベル80化＆適正装備セット",
+		"tr_text": "",
+		"jp_explain": "Guクラスレベル80化＆適正装備セット",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010398",
+		"jp_text": "Teクラスレベル80化＆適正装備セット",
+		"tr_text": "",
+		"jp_explain": "Teクラスレベル80化＆適正装備セット",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010399",
+		"jp_text": "Brクラスレベル80化＆適正装備セット",
+		"tr_text": "",
+		"jp_explain": "Brクラスレベル80化＆適正装備セット",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010400",
+		"jp_text": "Boクラスレベル80化＆適正装備セット",
+		"tr_text": "",
+		"jp_explain": "Boクラスレベル80化＆適正装備セット",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010401",
+		"jp_text": "Waクラスレベル80化＆適正装備セット",
+		"tr_text": "",
+		"jp_explain": "Waクラスレベル80化＆適正装備セット",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010402",
+		"jp_text": "Slクラスレベル80化＆適正装備セット",
+		"tr_text": "",
+		"jp_explain": "Slクラスレベル80化＆適正装備セット",
 		"tr_explain": ""
 	}
 ]
