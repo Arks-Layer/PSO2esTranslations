@@ -126,12 +126,12 @@ ntype_statements = ["Type: ",
     # タイプ2<c>
 # No longer used.
 ntype_locks = {"a": ["All", "KO_All", "Все", "CN_All"],
-                "a1": ["Human/Cast Type 1", "인간형/캐스트타입1", "Человек/CAST (тип1)", "人類/機器人 類型1"],
-                "a2": ["Human/Cast Type 2", "인간형/캐스트타입2", "Человек/CAST (тип2)", "人類/機器人 類型2"],
+                "a1": ["Human/Cast Type 1", "인간형/캐스트타입1", "Человек/CAST (тип1)", "人類/機人 類型1"],
+                "a2": ["Human/Cast Type 2", "인간형/캐스트타입2", "Человек/CAST (тип2)", "人類/機人 類型2"],
                 "h1": ["Human Type 1", "인간형 타입1", "Человек (тип1)", "人類 類型1"],
                 "h2": ["Human Type 2", "인간형 타입2", "Человек (тип2)", "人類 類型2"],
-                "c1": ["Cast Type 1", "캐스트 타입1", "CAST (тип1)", "機器人 類型1"],
-                "c2": ["Cast Type 2", "캐스트 타입2", "CAST (тип2)", "機器人 類型2"]}
+                "c1": ["Cast Type 1", "캐스트 타입1", "CAST (тип1)", "機人 類型1"],
+                "c2": ["Cast Type 2", "캐스트 타입2", "CAST (тип2)", "機人 類型2"]}
 
 # JP text:
     # ※着用時はインナーが非表示になります。
@@ -165,10 +165,17 @@ ncosmetic_color_locks = ["※Color cannot be changed",
 
 # JP text: 
     # ※『PSO2』ブロック非対応
-ngs_only = ["※Not available in [PSO2] Blocks.",
+ngs_locks = ["※Not available in [PSO2] Blocks.",
              "※『PSO2』블록 비대응",
              "※Нельзя использовать в блоке PSO2",
              "※不適用於『PSO2』"]
+
+# JP text: 
+    # ※『PSO2』顔バリエーション非対応
+ngsface_locks = ["※Not compatible with PSO2 faces.",
+                                     "",
+                                     "",
+                                     "※不適用於『PSO2』面部類型"]
 
 # JP text: 
     # ※『PSO2』ではLv.100以上の\n
@@ -275,7 +282,7 @@ def translate_nlayer_desc(item, file_name):
     if "着用時はインナーが非表示になります。" in item["jp_explain"]:
         hideinner = True
 
-    # Some setwears are incompatible with accessories
+    # Some setwears are incompatible with accessories.
     hideaccess = False
     if "アクセサリー表示非対応" in item["jp_explain"]:
         hideaccess = True
@@ -440,7 +447,7 @@ cosmetic_desc_sticker_use_new_formats = [("Unlocks the {sexlock}{itype}\n"
                          ("Разблок-т {itype} {sexlock}\n"
                           "\"{iname}\"\n"
                           "для использования в салоне."),
-                         ("特定貼紙的著裝許可票券。\n"
+                         ("許可著裝特定貼紙的票券。\n"
                           "使用後，可選用新的{sexlock}{itype}\n"
                           "{iname}。")]
 
@@ -472,7 +479,7 @@ no_sticker_desc = [("Unlocks the ability to not display a\n"
                     "숨김이 선택 가능해집니다."),
                    ("Разблокирует возможность\n"
                     "не отображать стикер в салоне."),
-                   ("特定貼紙的不顯示許可票券。\n"
+                   ("許可不顯示特定貼紙的票券。\n"
                     "使用後可以選擇不顯示貼紙。")]
 
 # New cosmetic tickets use the formats we defined earlier for new layer wear
@@ -598,20 +605,26 @@ def translate_ncosmetic_desc(item, file_name):
         hideinner = True
     
     # Some items are not supported in the PSO2 blocks.
-    ngsonly = False
+    ngslocked = False
     if "『PSO2』ブロック非対応" in item["jp_explain"]:
-        ngsonly = True
+        ngslocked = True
+    
+    # Some ngs items cannot be used on PSO2 face patterns.
+    ngsfacelocked = False
+    if "『PSO2』顔バリエーション非対応" in item["jp_explain"]:
+        ngsfacelocked = True
     
     # Combine the variable name.
     ndesc_format_name = "ndesc_" + desc_sort + "_formats"
 
     # Translate the description.
-    item["tr_explain"] = (eval(ndesc_format_name)[LANG] + "{typelock}" + "{ngsonly}").format(
+    item["tr_explain"] = (eval(ndesc_format_name)[LANG] + "{typelock}" + "{ngslock}" + "{ngsfacelock}").format(
         itype = item_type,
         a = "a ",
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
-        ngsonly = "\n<yellow>" + ngs_only[LANG] + "<c>"  if ngsonly == True else "")
+        ngslock = "\n<yellow>" + ngs_locks[LANG] + "<c>"  if ngslocked == True else "",
+        ngsfacelock = "\n<yellow>" + ngsface_locks[LANG] + "<c>" if ngsfacelocked == True else "")
 
     item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
@@ -708,11 +721,11 @@ la_extras = {
                 # 対応服指可動／『PSO2』ブロック非対応
             "*actfingersngs": [
                 ("Has button actions/Finger motion\n"
-                 "outfit-limited/Can't use in [PSO2].<c>"),
+                 "outfit-limited/Can't use in [PSO2]."),
                 ("대응 기능: 버튼 파생/대응 복장\n"
-                 "손가락 가동/『PSO2』 블록 비지원<c>"),
+                 "손가락 가동/『PSO2』 블록 비지원"),
                 ("Есть действия/Движен. пальцев\n"
-                 "огранич./Недоступно в [PSO2].<c>"),
+                 "огранич./Недоступно в [PSO2]."),
                 ("※適用功能：按鍵衍生/\n"
                  "適用服裝可動手指/不適用於『PSO2』")
                 ],
@@ -750,7 +763,7 @@ la_extras = {
                 # 対応服指可動／『PSO2』ブロック非対応
             "*reactfingersngs": [
                 ("Has reactions/Finger motion\n"
-                 "outfit-limited/Can't use in [PSO2].<c>"),
+                 "outfit-limited/Can't use in [PSO2]."),
                 (""),
                 (""),
                 ("※適用功能：反應動作/\n"
@@ -927,7 +940,7 @@ def translate_la_desc(item):
         extras_jp = item["jp_explain"].split("対応機能：")[1]
         extras = extras_names[extras_jp]
     elif "※『PSO2』ブロック非対応" in item["jp_explain"]:
-        extras = "ngs_only"
+        extras = "ngs_locks"
 
     # Translate old LAs
     if "ロビアク『" in item["jp_explain"]:
@@ -947,7 +960,7 @@ def translate_la_desc(item):
     else:
         item["tr_explain"] = (nla_formats[LANG] + "{extrastuff}").format(
             extrastuff = ("" if extras == "n"
-                          else "\n" + "<yellow>" + ngs_only[LANG] + "<c>" if extras == "ngs_only"
+                          else "\n" + "<yellow>" + ngs_locks[LANG] + "<c>" if extras == "ngs_locks"
                           else "\n" + "<yellow>" + la_extras[extras][LANG] + "<c>"
                           )
                       )
@@ -1217,19 +1230,19 @@ def translate_voice(item):
     "hm": ["\nNon-Cast male characters only.",
            "\n인간 남성만 사용 가능.",
            "\nТолько для М не CAST'ов.",
-           "\n僅限非機器人男性使用。"],
+           "\n僅限非機人男性使用。"],
     "hf": ["\nNon-Cast female characters only.",
            "\n인간 여성만 사용 가능.",
            "\nТолько для Ж не CAST'ов.",
-           "\n僅限非機器人女性使用。"],
+           "\n僅限非機人女性使用。"],
     "cm": ["\nMale Casts only.",
            "\n캐스트 남성만 사용 가능.",
            "\nТолько для М CAST'ов.",
-           "\n僅限男性機器人使用。"],
+           "\n僅限男性機人使用。"],
     "cf": ["\nFemale Casts only.",
            "\n캐스트 여성만 사용 가능.",
            "\nТолько для Ж CAST'ов.",
-           "\n僅限女性機器人使用。"],
+           "\n僅限女性機人使用。"],
     "am": ["\nMale characters only (all races).",
            "\n남성만 사용 가능.",
            "\nТолько М персонажей (все расы).",
