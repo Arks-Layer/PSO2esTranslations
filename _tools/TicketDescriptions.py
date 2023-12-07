@@ -172,7 +172,7 @@ ngs_locks = ["※Not available in [PSO2] Blocks.",
 
 # JP text: 
     # ※『PSO2』顔バリエーション非対応
-ngsface_locks = ["",
+ngsface_locks = ["※Not compatible with PSO2 faces.",
                                      "",
                                      "",
                                      "※不適用於『PSO2』面部類型"]
