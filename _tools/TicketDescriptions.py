@@ -165,10 +165,17 @@ ncosmetic_color_locks = ["※Color cannot be changed",
 
 # JP text: 
     # ※『PSO2』ブロック非対応
-ngs_only = ["※Not available in [PSO2] Blocks.",
+ngs_locks = ["※Not available in [PSO2] Blocks.",
              "※『PSO2』블록 비대응",
              "※Нельзя использовать в блоке PSO2",
              "※不適用於『PSO2』"]
+
+# JP text: 
+    # ※『PSO2』顔バリエーション非対応
+ngsface_locks = ["",
+                                     "",
+                                     "",
+                                     "※不適用於『PSO2』面部類型"]
 
 # JP text: 
     # ※『PSO2』ではLv.100以上の\n
@@ -275,7 +282,7 @@ def translate_nlayer_desc(item, file_name):
     if "着用時はインナーが非表示になります。" in item["jp_explain"]:
         hideinner = True
 
-    # Some setwears are incompatible with accessories
+    # Some setwears are incompatible with accessories.
     hideaccess = False
     if "アクセサリー表示非対応" in item["jp_explain"]:
         hideaccess = True
@@ -598,20 +605,26 @@ def translate_ncosmetic_desc(item, file_name):
         hideinner = True
     
     # Some items are not supported in the PSO2 blocks.
-    ngsonly = False
+    ngslocked = False
     if "『PSO2』ブロック非対応" in item["jp_explain"]:
-        ngsonly = True
+        ngslocked = True
+    
+    # Some ngs items cannot be used on PSO2 face patterns.
+    ngsfacelocked = False
+    if "『PSO2』顔バリエーション非対応" in item["jp_explain"]:
+        ngsfacelocked = True
     
     # Combine the variable name.
     ndesc_format_name = "ndesc_" + desc_sort + "_formats"
 
     # Translate the description.
-    item["tr_explain"] = (eval(ndesc_format_name)[LANG] + "{typelock}" + "{ngsonly}").format(
+    item["tr_explain"] = (eval(ndesc_format_name)[LANG] + "{typelock}" + "{ngslock}" + "{ngsfacelock}").format(
         itype = item_type,
         a = "a ",
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
-        ngsonly = "\n<yellow>" + ngs_only[LANG] + "<c>"  if ngsonly == True else "")
+        ngslock = "\n<yellow>" + ngs_locks[LANG] + "<c>"  if ngslocked == True else "",
+        ngsfacelock = "\n<yellow>" + ngsface_locks[LANG] + "<c>" if ngsfacelocked == True else "")
 
     item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
@@ -927,7 +940,7 @@ def translate_la_desc(item):
         extras_jp = item["jp_explain"].split("対応機能：")[1]
         extras = extras_names[extras_jp]
     elif "※『PSO2』ブロック非対応" in item["jp_explain"]:
-        extras = "ngs_only"
+        extras = "ngs_locks"
 
     # Translate old LAs
     if "ロビアク『" in item["jp_explain"]:
@@ -947,7 +960,7 @@ def translate_la_desc(item):
     else:
         item["tr_explain"] = (nla_formats[LANG] + "{extrastuff}").format(
             extrastuff = ("" if extras == "n"
-                          else "\n" + "<yellow>" + ngs_only[LANG] + "<c>" if extras == "ngs_only"
+                          else "\n" + "<yellow>" + ngs_locks[LANG] + "<c>" if extras == "ngs_locks"
                           else "\n" + "<yellow>" + la_extras[extras][LANG] + "<c>"
                           )
                       )
