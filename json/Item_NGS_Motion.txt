@@ -763,6 +763,76 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "Mo「待機：火炎/B」",
+		"tr_text": "Mo「待機：火炎/B」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：膝立ち」",
+		"tr_text": "Mo「待機：膝立ち」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「待機：跪立」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：やっほー」",
+		"tr_text": "Mo「待機：やっほー」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「待機：呀吼」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：手を振る」",
+		"tr_text": "Mo「待機：手を振る」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「待機：揮手」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：マジェスティウィング」",
+		"tr_text": "Mo「待機：マジェスティウィング」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「待機：至尊之翼」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：マジェスティウィングEX」",
+		"tr_text": "Mo「待機：マジェスティウィングEX」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「待機：至尊之翼EX」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：サムライ」",
+		"tr_text": "Mo「待機：サムライ」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「待機：武士」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：サムライEX」",
+		"tr_text": "Mo「待機：サムライEX」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「待機：武士EX」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：おすわり」",
+		"tr_text": "Mo「待機：おすわり」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「待機：乖乖坐」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「待機：ホークに乗る」",
+		"tr_text": "Mo「待機：ホークに乗る」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「待機：騎霍克」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
 		"jp_text": "Mo「ジャンプ：標準」",
 		"tr_text": "Mo「ジャンプ：標準」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
@@ -1299,6 +1369,20 @@
 		"tr_text": "Mo「移動：キョンシー」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "<green>“Mo「移動：僵尸」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：獣2」",
+		"tr_text": "Mo「移動：獣2」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「移動：野獸2」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「移動：獣2EX」",
+		"tr_text": "Mo「移動：獣2EX」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「移動：野獸2EX」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	},
 	{
@@ -1883,6 +1967,13 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "Mo「ダッシュ：ショートスキー/B」",
+		"tr_text": "Mo「ダッシュ：ショートスキー/B」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「衝刺：短雪板/B」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
 		"jp_text": "Mo「ダッシュ：光翼」",
 		"tr_text": "Mo「ダッシュ：光翼」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
@@ -2104,6 +2195,48 @@
 		"tr_text": "Mo「ダッシュ：チョッパー/B」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "<green>“Mo「衝刺：斬波直升機/B」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：マジェスティウィング」",
+		"tr_text": "Mo「ダッシュ：マジェスティウィング」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「衝刺：至尊之翼」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：サムライ」",
+		"tr_text": "Mo「ダッシュ：サムライ」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「衝刺：武士」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：サムライEX」",
+		"tr_text": "Mo「ダッシュ：サムライEX」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「衝刺：武士EX」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：獣2」",
+		"tr_text": "Mo「ダッシュ：獣2」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「衝刺：野獸2」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：獣2EX」",
+		"tr_text": "Mo「ダッシュ：獣2EX」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「衝刺：野獸2EX」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：ホークに乗る」",
+		"tr_text": "Mo「ダッシュ：ホークに乗る」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「衝刺：騎霍克」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	},
 	{
@@ -2874,6 +3007,48 @@
 		"tr_text": "Mo「グライド：FAガールエアバイク」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "<green>“Mo「滑翔：FA GIRL空氣騎行」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：火炎/B」",
+		"tr_text": "Mo「グライド：火炎/B」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「滑翔：火炎/B」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：マジェスティウィング」",
+		"tr_text": "Mo「グライド：マジェスティウィング」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「滑翔：至尊之翼」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：マジェスティウィングEX」",
+		"tr_text": "Mo「グライド：マジェスティウィングEX」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「滑翔：至尊之翼EX」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：サムライ」",
+		"tr_text": "Mo「グライド：サムライ」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「滑翔：武士」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ショートスキー/B」",
+		"tr_text": "Mo「グライド：ショートスキー/B」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「滑翔：短雪板/B」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：ホークに乗る」",
+		"tr_text": "Mo「グライド：ホークに乗る」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「滑翔：騎霍克」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	},
 	{
