@@ -1173,7 +1173,7 @@ cv_names = {
     "一 伊那尓栖": ["Ninomae Ina'nis", "", "", "一 伊那爾棲"],
     "日野 聡": ["Satoshi Hino", "", "", "日野 聰"],
     "原 由実": ["Yumi Hara", "", "", "原 由實"],
-    "闇ノ シュウ": ["Shu Yamino", "", "", "暗之 咒"],
+    "闇ノ シュウ": ["Shu Yamino", "", "", "Shu Yamino"],
     "星川 サラ": ["Hoshikawa Sara", "", "", "星川 莎拉"],
     "葉加瀬 冬雪": ["Hakase Fuyuki", "", "", "葉加瀨 冬雪"],
     "甲斐田 晴": ["Haru Kaida", "", "", "甲斐田 晴"],
