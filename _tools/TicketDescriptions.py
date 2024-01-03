@@ -195,6 +195,13 @@ mag_device_ngs = ["※Only usable in NGS.",
                         "",
                         "※僅可在『NGS』中使用"]
 
+# JP text: 
+    # ※武器の構え位置自動調整
+weapon_posture = [(""),
+                         (""),
+                         (""),
+                         ("※自動調整武器架勢的位置")]
+
 def translate_layer_desc(item, file_name):
     item_name = ""
 
@@ -1444,16 +1451,22 @@ def translate_ncosmeticsorted_desc(item, file_name):
     elif "パートナーカード（ＰＣ）" in item["jp_explain"]:
         item_type = "Personalcard"
     
+    # Some parts will change the posture.
+    weaponposition = False
+    if "武器の構え位置自動調整" in item["jp_explain"]:
+        weaponposition = True
+    
     # Translate the description.
     if item_type == "Personalcard":
         # Need to expand if needed
         return -1
     else: 
-        item["tr_explain"] = (ndesc_n_formats[LANG]).format(
+        item["tr_explain"] = (ndesc_n_formats[LANG] + "{weaponposture}").format(
             itype = cosmeticsorted_types[item_type][LANG],
             # Ugly hack
             a = "" if item_type.endswith("s") else "a ",
-            iname = item_name)
+            iname = item_name,
+            weaponposture = "\n<yellow>" + weapon_posture[LANG] + "<c>" if weaponposition == True else "")
 
     item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
