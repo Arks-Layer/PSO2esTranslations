@@ -197,7 +197,7 @@ mag_device_ngs = ["※Only usable in NGS.",
 
 # JP text: 
     # ※武器の構え位置自動調整
-weapon_posture = [(""),
+weapon_posture = [("※Uses adjusted weapon positions."),
                          (""),
                          (""),
                          ("※自動調整武器架勢的位置")]
