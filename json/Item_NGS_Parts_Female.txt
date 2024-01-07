@@ -1,5 +1,12 @@
 [
 	{
+		"jp_text": "ディアーレ・ボディ",
+		"tr_text": "Di Allez Body",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "ディアーレ・アーム",
 		"tr_text": "Di Allez Arms",
 		"jp_explain": "",
@@ -7,388 +14,10 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "ディアーレ・アーム/2",
-		"tr_text": "Di Allez Arms/2",
+		"jp_text": "ディアーレ・レッグ",
+		"tr_text": "Di Allez Legs",
 		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "コルセロ・アーム",
-		"tr_text": "Corsero Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "コルセロ・アーム/2",
-		"tr_text": "Corsero Arms/2",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ネヴァーン・アーム",
-		"tr_text": "Nemain Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ネヴァーン・アーム/2",
-		"tr_text": "Nemain Arms/2",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "スヴェーラ・アーム",
-		"tr_text": "Svera Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ゲツエイ・アーム",
-		"tr_text": "Getsu-ei Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ゲツエイ・アーム/2",
-		"tr_text": "Getsu-ei Arms/2",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "シャノフ・アーム",
-		"tr_text": "Schanorf Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "シャノフ・アーム/2",
-		"tr_text": "Schanorf Arms/2",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "スヴェラト・アーム",
-		"tr_text": "Svert Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "クロウリック・アーム",
-		"tr_text": "Krolik Arms",
-		"jp_explain": "使用すると新しいアームパーツが\n選択可能になる。\n<yellow>※武器の構え位置自動調整<c>",
-		"tr_explain": "Unlocks new arm parts for use.\n<yellow>※Uses adjusted weapon positions.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "トイフェラン・アーム",
-		"tr_text": "Teufelan Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ライディー・アーム",
-		"tr_text": "Raiji Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-ナイトメア・アーム",
-		"tr_text": "N-Nightmare Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-アリスリーパー・アーム",
-		"tr_text": "N-Alice Reaper Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-サヤヒメ・アーム",
-		"tr_text": "N-Sayahime Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-サヤヒメ・アームV2",
-		"tr_text": "N-Sayahime Arms V2",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-ソルリス・アーム",
-		"tr_text": "N-Solis Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-アムアイラ・アーム",
-		"tr_text": "N-Amaira Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ヘリーファルーテ・アーム",
-		"tr_text": "Gerifalte Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ヴォルキーア・アーム",
-		"tr_text": "Volkia Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "フロリアーネ・アーム",
-		"tr_text": "Florianne Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "イフェスティー・アーム",
-		"tr_text": "Ifesti Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-ナイトメア・アーム/B",
-		"tr_text": "N-Nightmare Arms/B",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-アムアイラ・アームV2",
-		"tr_text": "N-Amaira Arms V2",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ベルタスレイ・アーム",
-		"tr_text": "Belta Slay Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "クロウリック・アーム/B",
-		"tr_text": "Krolik Arms/B",
-		"jp_explain": "使用すると新しいアームパーツが\n選択可能になる。\n<yellow>※武器の構え位置自動調整<c>",
-		"tr_explain": "Unlocks new arm parts for use.\n<yellow>※Uses adjusted weapon positions.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-ソルリス・アームAF",
-		"tr_text": "N-Solis Arms AF",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "エクラーナ・アーム",
-		"tr_text": "Eclarna Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ククールカウス・アーム",
-		"tr_text": "Kukulkos Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "コルセロ・アームUC",
-		"tr_text": "Corsero Arms UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "コルセロ・アームAF",
-		"tr_text": "Corsero Arms AF",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ディアーレ・アームUC",
-		"tr_text": "Di Allez Arms UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ディアーレ・アームAF",
-		"tr_text": "Di Allez Arms AF",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "オイレ・アティーネ・アーム",
-		"tr_text": "Owle Athenae Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ライカスポーティ・アーム",
-		"tr_text": "Raika Sporty Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "テアナーガ・アーム",
-		"tr_text": "Theanaga Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "スヴェーラ・アームUC",
-		"tr_text": "Svera Arms UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "スヴェーラ・アームAF",
-		"tr_text": "Svera Arms AF",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ネヴァーン・アームUC",
-		"tr_text": "Nemain Arms UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-アムアイラ・アーム/B",
-		"tr_text": "N-Amaira Arms/B",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-アムアイラ・アームV2/B",
-		"tr_text": "N-Amaira Arms V2/B",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ゲツエイ・アームUC",
-		"tr_text": "Getsu-ei Arms UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ゲツエイ・アームMF",
-		"tr_text": "Getsu-ei Arms MF",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "シャノフ・アームUC",
-		"tr_text": "Schanorf Arms UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "シャノフ・アームMF",
-		"tr_text": "Schanorf Arms MF",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "テアナーガ・アーム/B",
-		"tr_text": "Theanaga Arms/B",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "フレズヴェルク＝アーテルG・アーム",
-		"tr_text": "Hresvelgr=Ater G Arms",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "クロウリック・アームUC",
-		"tr_text": "Krolik Arms UC",
-		"jp_explain": "使用すると新しいアームパーツが\n選択可能になる。\n<yellow>※武器の構え位置自動調整<c>",
-		"tr_explain": "Unlocks new arm parts for use.\n<yellow>※Uses adjusted weapon positions.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "クロウリック・アームMF",
-		"tr_text": "Krolik Arms MF",
-		"jp_explain": "使用すると新しいアームパーツが\n選択可能になる。\n<yellow>※武器の構え位置自動調整<c>",
-		"tr_explain": "Unlocks new arm parts for use.\n<yellow>※Uses adjusted weapon positions.<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "トイフェラン・アームUC",
-		"tr_text": "Teufelan Arms UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-アリスリーパー・アーム/B",
-		"tr_text": "N-Alice Reaper Arms/B",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new arm parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ライディー・アーム/B",
-		"tr_text": "",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "ディアーレ・ボディ",
-		"tr_text": "Di Allez Body",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new body parts for use.",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -399,10 +28,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "ディアーレ・アーム/2",
+		"tr_text": "Di Allez Arms/2",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ディアーレ・レッグ/2",
+		"tr_text": "Di Allez Legs/2",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "コルセロ・ボディ",
 		"tr_text": "Corsero Body",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "コルセロ・アーム",
+		"tr_text": "Corsero Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "コルセロ・レッグ",
+		"tr_text": "Corsero Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -413,10 +70,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "コルセロ・アーム/2",
+		"tr_text": "Corsero Arms/2",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "コルセロ・レッグ/2",
+		"tr_text": "Corsero Legs/2",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "ネヴァーン・ボディ",
 		"tr_text": "Nemain Body",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ネヴァーン・アーム",
+		"tr_text": "Nemain Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ネヴァーン・レッグ",
+		"tr_text": "Nemain Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -427,10 +112,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "ネヴァーン・アーム/2",
+		"tr_text": "Nemain Arms/2",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ネヴァーン・レッグ/2",
+		"tr_text": "Nemain Legs/2",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "スヴェーラ・ボディ",
 		"tr_text": "Svera Body",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "スヴェーラ・アーム",
+		"tr_text": "Svera Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "スヴェーラ・レッグ",
+		"tr_text": "Svera Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -441,10 +154,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "ゲツエイ・アーム",
+		"tr_text": "Getsu-ei Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ゲツエイ・レッグ",
+		"tr_text": "Getsu-ei Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "ゲツエイ・ボディ/2",
 		"tr_text": "Getsu-ei Body/2",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ゲツエイ・アーム/2",
+		"tr_text": "Getsu-ei Arms/2",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ゲツエイ・レッグ/2",
+		"tr_text": "Getsu-ei Legs/2",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -455,10 +196,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "シャノフ・アーム",
+		"tr_text": "Schanorf Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "シャノフ・レッグ",
+		"tr_text": "Schanorf Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "シャノフ・ボディ/2",
 		"tr_text": "Schanorf Body/2",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "シャノフ・アーム/2",
+		"tr_text": "Schanorf Arms/2",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "シャノフ・レッグ/2",
+		"tr_text": "Schanorf Legs/2",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -469,10 +238,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "スヴェラト・アーム",
+		"tr_text": "Svert Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "スヴェラト・レッグ",
+		"tr_text": "Svert Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "クロウリック・ボディ",
 		"tr_text": "Krolik Body",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "クロウリック・アーム",
+		"tr_text": "Krolik Arms",
+		"jp_explain": "使用すると新しいアームパーツが\n選択可能になる。\n<yellow>※武器の構え位置自動調整<c>",
+		"tr_explain": "Unlocks new arm parts for use.\n<yellow>※Uses adjusted weapon positions.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "クロウリック・レッグ",
+		"tr_text": "Krolik Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -483,10 +280,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "トイフェラン・アーム",
+		"tr_text": "Teufelan Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "トイフェラン・レッグ",
+		"tr_text": "Teufelan Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "ライディー・ボディ",
 		"tr_text": "Raiji Body",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ライディー・アーム",
+		"tr_text": "Raiji Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ライディー・レッグ",
+		"tr_text": "Raiji Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -497,10 +322,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "N-ナイトメア・アーム",
+		"tr_text": "N-Nightmare Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-ナイトメア・レッグ",
+		"tr_text": "N-Nightmare Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "N-アリスリーパー・ボディ",
 		"tr_text": "N-Alice Reaper Body",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-アリスリーパー・アーム",
+		"tr_text": "N-Alice Reaper Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-アリスリーパー・レッグ",
+		"tr_text": "N-Alice Reaper Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -511,10 +364,45 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "N-サヤヒメ・アーム",
+		"tr_text": "N-Sayahime Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-サヤヒメ・レッグ",
+		"tr_text": "N-Sayahime Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-サヤヒメ・アームV2",
+		"tr_text": "N-Sayahime Arms V2",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "N-ソルリス・ボディ",
 		"tr_text": "N-Solis Body",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-ソルリス・アーム",
+		"tr_text": "N-Solis Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-ソルリス・レッグ",
+		"tr_text": "N-Solis Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -525,10 +413,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "N-アムアイラ・アーム",
+		"tr_text": "N-Amaira Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-アムアイラ・レッグ",
+		"tr_text": "N-Amaira Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "ヘリーファルーテ・ボディ",
 		"tr_text": "Gerifalte Body",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ヘリーファルーテ・アーム",
+		"tr_text": "Gerifalte Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ヘリーファルーテ・レッグ",
+		"tr_text": "Gerifalte Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -539,10 +455,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "ヴォルキーア・アーム",
+		"tr_text": "Volkia Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ヴォルキーア・レッグ",
+		"tr_text": "Volkia Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "フロリアーネ・ボディ",
 		"tr_text": "Florianne Body",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "フロリアーネ・アーム",
+		"tr_text": "Florianne Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "フロリアーネ・レッグ",
+		"tr_text": "Florianne Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -553,17 +497,17 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "ゲツエイ・ボディ/B",
-		"tr_text": "",
+		"jp_text": "イフェスティー・アーム",
+		"tr_text": "Ifesti Arms",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
 		"assign": 0
 	},
 	{
-		"jp_text": "ゲツエイ・ボディ/B2",
-		"tr_text": "",
+		"jp_text": "イフェスティー・レッグ",
+		"tr_text": "Ifesti Legs",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -574,10 +518,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "N-ナイトメア・アーム/B",
+		"tr_text": "N-Nightmare Arms/B",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-ナイトメア・レッグ/B",
+		"tr_text": "N-Nightmare Legs/B",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "N-アムアイラ・ボディV2",
 		"tr_text": "N-Amaira Body V2",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-アムアイラ・アームV2",
+		"tr_text": "N-Amaira Arms V2",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-アムアイラ・レッグV2",
+		"tr_text": "N-Amaira Legs V2",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -588,8 +560,36 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "ベルタスレイ・アーム",
+		"tr_text": "Belta Slay Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ベルタスレイ・レッグ",
+		"tr_text": "Belta Slay Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "クロウリック・ボディ/B",
 		"tr_text": "Krolik Body/B",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "クロウリック・アーム/B",
+		"tr_text": "Krolik Arms/B",
+		"jp_explain": "使用すると新しいアームパーツが\n選択可能になる。\n<yellow>※武器の構え位置自動調整<c>",
+		"tr_explain": "Unlocks new arm parts for use.\n<yellow>※Uses adjusted weapon positions.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "クロウリック・ボディUC",
+		"tr_text": "Krolik Body UC",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
 		"assign": 0
@@ -602,10 +602,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "N-ソルリス・アームAF",
+		"tr_text": "N-Solis Arms AF",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-ソルリス・レッグAF",
+		"tr_text": "N-Solis Legs AF",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "エクラーナ・ボディ",
 		"tr_text": "Eclarna Body",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "エクラーナ・アーム",
+		"tr_text": "Eclarna Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "エクラーナ・レッグ",
+		"tr_text": "Eclarna Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -616,10 +644,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "ククールカウス・アーム",
+		"tr_text": "Kukulkos Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ククールカウス・レッグ",
+		"tr_text": "Kukulkos Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "コルセロ・ボディUC",
 		"tr_text": "Corsero Body UC",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "コルセロ・アームUC",
+		"tr_text": "Corsero Arms UC",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "コルセロ・レッグUC",
+		"tr_text": "Corsero Legs UC",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -630,10 +686,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "コルセロ・アームAF",
+		"tr_text": "Corsero Arms AF",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "コルセロ・レッグAF",
+		"tr_text": "Corsero Legs AF",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "ディアーレ・ボディUC",
 		"tr_text": "Di Allez Body UC",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ディアーレ・アームUC",
+		"tr_text": "Di Allez Arms UC",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ディアーレ・レッグUC",
+		"tr_text": "Di Allez Legs UC",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -644,10 +728,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "ディアーレ・アームAF",
+		"tr_text": "Di Allez Arms AF",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ディアーレ・レッグAF",
+		"tr_text": "Di Allez Legs AF",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "オイレ・アティーネ・ボディ",
 		"tr_text": "Owle Athenae Body",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "オイレ・アティーネ・アーム",
+		"tr_text": "Owle Athenae Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "オイレ・アティーネ・レッグ",
+		"tr_text": "Owle Athenae Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -658,10 +770,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "ライカスポーティ・アーム",
+		"tr_text": "Raika Sporty Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ライカスポーティ・レッグ",
+		"tr_text": "Raika Sporty Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "テアナーガ・ボディ",
 		"tr_text": "Theanaga Body",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "テアナーガ・アーム",
+		"tr_text": "Theanaga Arms",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "テアナーガ・レッグ",
+		"tr_text": "Theanaga Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -672,10 +812,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "スヴェーラ・アームUC",
+		"tr_text": "Svera Arms UC",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "スヴェーラ・レッグUC",
+		"tr_text": "Svera Legs UC",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "スヴェーラ・ボディAF",
 		"tr_text": "Svera Body AF",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "スヴェーラ・アームAF",
+		"tr_text": "Svera Arms AF",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "スヴェーラ・レッグAF",
+		"tr_text": "Svera Legs AF",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -686,10 +854,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "ネヴァーン・アームUC",
+		"tr_text": "Nemain Arms UC",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ネヴァーン・レッグUC",
+		"tr_text": "Nemain Legs UC",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "N-アムアイラ・ボディ/B",
 		"tr_text": "N-Amaira Body/B",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-アムアイラ・アーム/B",
+		"tr_text": "N-Amaira Arms/B",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-アムアイラ・レッグ/B",
+		"tr_text": "N-Amaira Legs/B",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -700,10 +896,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "N-アムアイラ・アームV2/B",
+		"tr_text": "N-Amaira Arms V2/B",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-アムアイラ・レッグV2/B",
+		"tr_text": "N-Amaira Legs V2/B",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "ゲツエイ・ボディUC",
 		"tr_text": "Getsu-ei Body UC",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ゲツエイ・アームUC",
+		"tr_text": "Getsu-ei Arms UC",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ゲツエイ・レッグUC",
+		"tr_text": "Getsu-ei Legs UC",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -714,10 +938,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "ゲツエイ・アームMF",
+		"tr_text": "Getsu-ei Arms MF",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "ゲツエイ・レッグMF",
+		"tr_text": "Getsu-ei Legs MF",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "シャノフ・ボディUC",
 		"tr_text": "Schanorf Body UC",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "シャノフ・アームUC",
+		"tr_text": "Schanorf Arms UC",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "シャノフ・レッグUC",
+		"tr_text": "Schanorf Legs UC",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -728,10 +980,38 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "シャノフ・アームMF",
+		"tr_text": "Schanorf Arms MF",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "シャノフ・レッグMF",
+		"tr_text": "Schanorf Legs MF",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "テアナーガ・ボディ/B",
 		"tr_text": "Theanaga Body/B",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "テアナーガ・アーム/B",
+		"tr_text": "Theanaga Arms/B",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "テアナーガ・レッグ/B",
+		"tr_text": "Theanaga Legs/B",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -742,10 +1022,31 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "クロウリック・ボディUC",
-		"tr_text": "Krolik Body UC",
+		"jp_text": "フレズヴェルク＝アーテルG・アーム",
+		"tr_text": "Hresvelgr=Ater G Arms",
 		"jp_explain": "",
-		"tr_explain": "Unlocks new body parts for use.",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "フレズヴェルク＝アーテルG・レッグ",
+		"tr_text": "Hresvelgr=Ater G Legs",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "クロウリック・アームUC",
+		"tr_text": "Krolik Arms UC",
+		"jp_explain": "使用すると新しいアームパーツが\n選択可能になる。\n<yellow>※武器の構え位置自動調整<c>",
+		"tr_explain": "Unlocks new arm parts for use.\n<yellow>※Uses adjusted weapon positions.<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "クロウリック・レッグUC",
+		"tr_text": "Krolik Legs UC",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
 	},
 	{
@@ -756,211 +1057,15 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "トイフェラン・ボディUC",
-		"tr_text": "Teufelan Body UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new body parts for use.",
+		"jp_text": "クロウリック・アームMF",
+		"tr_text": "Krolik Arms MF",
+		"jp_explain": "使用すると新しいアームパーツが\n選択可能になる。\n<yellow>※武器の構え位置自動調整<c>",
+		"tr_explain": "Unlocks new arm parts for use.\n<yellow>※Uses adjusted weapon positions.<c>",
 		"assign": 0
 	},
 	{
-		"jp_text": "N-アリスリーパー・ボディ/B",
-		"tr_text": "N-Alice Reaper Body/B",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new body parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ライディー・ボディ/B",
-		"tr_text": "",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "ディアーレ・レッグ",
-		"tr_text": "Di Allez Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ディアーレ・レッグ/2",
-		"tr_text": "Di Allez Legs/2",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "コルセロ・レッグ",
-		"tr_text": "Corsero Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "コルセロ・レッグ/2",
-		"tr_text": "Corsero Legs/2",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ネヴァーン・レッグ",
-		"tr_text": "Nemain Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ネヴァーン・レッグ/2",
-		"tr_text": "Nemain Legs/2",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "スヴェーラ・レッグ",
-		"tr_text": "Svera Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ゲツエイ・レッグ",
-		"tr_text": "Getsu-ei Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ゲツエイ・レッグ/2",
-		"tr_text": "Getsu-ei Legs/2",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "シャノフ・レッグ",
-		"tr_text": "Schanorf Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "シャノフ・レッグ/2",
-		"tr_text": "Schanorf Legs/2",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "スヴェラト・レッグ",
-		"tr_text": "Svert Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "クロウリック・レッグ",
-		"tr_text": "Krolik Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "トイフェラン・レッグ",
-		"tr_text": "Teufelan Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ライディー・レッグ",
-		"tr_text": "Raiji Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-ナイトメア・レッグ",
-		"tr_text": "N-Nightmare Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-アリスリーパー・レッグ",
-		"tr_text": "N-Alice Reaper Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-サヤヒメ・レッグ",
-		"tr_text": "N-Sayahime Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-ソルリス・レッグ",
-		"tr_text": "N-Solis Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-アムアイラ・レッグ",
-		"tr_text": "N-Amaira Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ヘリーファルーテ・レッグ",
-		"tr_text": "Gerifalte Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ヴォルキーア・レッグ",
-		"tr_text": "Volkia Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "フロリアーネ・レッグ",
-		"tr_text": "Florianne Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "イフェスティー・レッグ",
-		"tr_text": "Ifesti Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-ナイトメア・レッグ/B",
-		"tr_text": "N-Nightmare Legs/B",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-アムアイラ・レッグV2",
-		"tr_text": "N-Amaira Legs V2",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ベルタスレイ・レッグ",
-		"tr_text": "Belta Slay Legs",
+		"jp_text": "クロウリック・レッグMF",
+		"tr_text": "Krolik Legs MF",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new leg parts for use.",
 		"assign": 0
@@ -973,171 +1078,17 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "N-ソルリス・レッグAF",
-		"tr_text": "N-Solis Legs AF",
+		"jp_text": "トイフェラン・ボディUC",
+		"tr_text": "Teufelan Body UC",
 		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
+		"tr_explain": "Unlocks new body parts for use.",
 		"assign": 0
 	},
 	{
-		"jp_text": "エクラーナ・レッグ",
-		"tr_text": "Eclarna Legs",
+		"jp_text": "トイフェラン・アームUC",
+		"tr_text": "Teufelan Arms UC",
 		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ククールカウス・レッグ",
-		"tr_text": "Kukulkos Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "コルセロ・レッグUC",
-		"tr_text": "Corsero Legs UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "コルセロ・レッグAF",
-		"tr_text": "Corsero Legs AF",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ディアーレ・レッグUC",
-		"tr_text": "Di Allez Legs UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ディアーレ・レッグAF",
-		"tr_text": "Di Allez Legs AF",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "オイレ・アティーネ・レッグ",
-		"tr_text": "Owle Athenae Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ライカスポーティ・レッグ",
-		"tr_text": "Raika Sporty Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "テアナーガ・レッグ",
-		"tr_text": "Theanaga Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "スヴェーラ・レッグUC",
-		"tr_text": "Svera Legs UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "スヴェーラ・レッグAF",
-		"tr_text": "Svera Legs AF",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ネヴァーン・レッグUC",
-		"tr_text": "Nemain Legs UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-アムアイラ・レッグ/B",
-		"tr_text": "N-Amaira Legs/B",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "N-アムアイラ・レッグV2/B",
-		"tr_text": "N-Amaira Legs V2/B",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ゲツエイ・レッグUC",
-		"tr_text": "Getsu-ei Legs UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ゲツエイ・レッグMF",
-		"tr_text": "Getsu-ei Legs MF",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "シャノフ・レッグUC",
-		"tr_text": "Schanorf Legs UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "シャノフ・レッグMF",
-		"tr_text": "Schanorf Legs MF",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "テアナーガ・レッグ/B",
-		"tr_text": "Theanaga Legs/B",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "フレズヴェルク＝アーテルG・レッグ",
-		"tr_text": "Hresvelgr=Ater G Legs",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "フレズヴェルク＝アーテルG・レッグV2",
-		"tr_text": "",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "クロウリック・レッグUC",
-		"tr_text": "Krolik Legs UC",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "クロウリック・レッグMF",
-		"tr_text": "Krolik Legs MF",
-		"jp_explain": "",
-		"tr_explain": "Unlocks new leg parts for use.",
+		"tr_explain": "Unlocks new arm parts for use.",
 		"assign": 0
 	},
 	{
@@ -1148,17 +1099,24 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "N-アリスリーパー・ボディ/B",
+		"tr_text": "N-Alice Reaper Body/B",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new body parts for use.",
+		"assign": 0
+	},
+	{
+		"jp_text": "N-アリスリーパー・アーム/B",
+		"tr_text": "N-Alice Reaper Arms/B",
+		"jp_explain": "",
+		"tr_explain": "Unlocks new arm parts for use.",
+		"assign": 0
+	},
+	{
 		"jp_text": "N-アリスリーパー・レッグ/B",
 		"tr_text": "N-Alice Reaper Legs/B",
 		"jp_explain": "",
 		"tr_explain": "Unlocks new leg parts for use.",
-		"assign": 0
-	},
-	{
-		"jp_text": "ライディー・レッグ/B",
-		"tr_text": "",
-		"jp_explain": "",
-		"tr_explain": "",
 		"assign": 0
 	}
 ]
