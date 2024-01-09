@@ -1219,6 +1219,8 @@ cv_names = {
     "": ["Unknown", "알 수 없는", "Неизвестно", ""]
     }
 
+cv_title = ["CV: ", "CV: ", "CV: ", "CV："]
+
 # What to fall back to if a name hasn't been translated into your language.
 # -1: Prefer falling back to JP over any other language
 name_fallbacks = {0: -1,
@@ -1339,8 +1341,9 @@ def translate_voice(item):
         cv_name = jp_cv_name
     
     # Translate the description
-    item["tr_explain"] = voice_desc_formats[LANG] + "{restriction}\nCV: {actorname}".format(
+    item["tr_explain"] = voice_desc_formats[LANG] + "{restriction}\n{cv}{actorname}".format(
         restriction = restrictions[racensex][LANG],
+        cv = cv_title[LANG],
         actorname = cv_name)
 
     item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
