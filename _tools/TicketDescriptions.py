@@ -210,8 +210,13 @@ def translate_layer_desc(item, file_name):
         item_name = item["tr_text"] or item["jp_text"]
     else:
         if item["tr_text"] == "":
-            # No translated name so skip this one
-            return -1
+            # No translated name so skip this one (except CN)
+            if LANG != 3:
+                return -1
+            # No translated name so copy the JP name (for CN)
+            else:
+                item["tr_text"] = item["jp_text"]
+                item_name = item["tr_text"]
         else:
             item_name = item["tr_text"]
     
@@ -267,8 +272,13 @@ def translate_nlayer_desc(item, file_name):
         item_name = item["tr_text"] or item["jp_text"]
     else:
         if item["tr_text"] == "":
-            # No translated name so skip this one
-            return -1
+            # No translated name so skip this one (except CN)
+            if LANG != 3:
+                return -1
+            # No translated name so copy the JP name (for CN)
+            else:
+                item["tr_text"] = item["jp_text"]
+                item_name = item["tr_text"]
         else:
             item_name = item["tr_text"]
 
@@ -499,8 +509,13 @@ def translate_cosmetic_desc(item, file_name):
         item_name = item["tr_text"] or item["jp_text"]
     else:
         if item["tr_text"] == "":
-            # No translated name so skip this one
-            return -1
+            # No translated name so skip this one (except CN)
+            if LANG != 3:
+                return -1
+            # No translated name so copy the JP name (for CN)
+            else:
+                item["tr_text"] = item["jp_text"]
+                item_name = item["tr_text"]
         else:
             item_name = item["tr_text"]
 
@@ -587,8 +602,13 @@ def translate_ncosmetic_desc(item, file_name):
         item_name = item["tr_text"] or item["jp_text"]
     else:
         if item["tr_text"] == "":
-            # No translated name so skip this one
-            return -1
+            # No translated name so skip this one (except CN)
+            if LANG != 3:
+                return -1
+            # No translated name so copy the JP name (for CN)
+            else:
+                item["tr_text"] = item["jp_text"]
+                item_name = item["tr_text"]
         else:
             item_name = item["tr_text"]
 
@@ -931,8 +951,13 @@ def translate_la_desc(item):
         item_name = item["tr_text"] or item["jp_text"]
     else:
         if item["tr_text"] == "":
-            # No translated name so skip this one
-            return -1
+            # No translated name so skip this one (except CN)
+            if LANG != 3:
+                return -1
+            # No translated name so copy the JP name (for CN)
+            else:
+                item["tr_text"] = item["jp_text"]
+                item_name = item["tr_text"]
         else:
             item_name = item["tr_text"]
 
@@ -1186,13 +1211,15 @@ cv_names = {
     "甲斐田 晴": ["Haru Kaida", "", "", "甲斐田 晴"],
     "津田 健次郎": ["Kenjiro Tsuda", "", "", "津田 健次郎"],
     "鬼頭 明里": ["Akari Kito", "", "", "鬼頭 明里"],
-    "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O", "M・A・O", "M・A・O", "M·A·O"],
+    "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O", "M・A・O", "M·A·O"],
     "山口 勝平": ["Kappei Yamaguchi", "", "", "山口 勝平"],
     "楠 大典": ["Taiten Kusunoki", "", "", "楠 大典"],
     "小澤 亜李": ["Ari Ozawa", "", "", "小澤 亞李"],
     "？？？": ["???", "???", "???", "？？？"],
     "": ["Unknown", "알 수 없는", "Неизвестно", ""]
     }
+
+cv_title = ["CV: ", "CV: ", "CV: ", "CV："]
 
 # What to fall back to if a name hasn't been translated into your language.
 # -1: Prefer falling back to JP over any other language
@@ -1216,8 +1243,13 @@ def translate_voice(item):
         item_name = item["tr_text"] or item["jp_text"]
     else:
         if item["tr_text"] == "":
-            # No translated name so skip this one
-            return -1
+            # No translated name so skip this one (except CN)
+            if LANG != 3:
+                return -1
+            # No translated name so copy the JP name (for CN)
+            else:
+                item["tr_text"] = item["jp_text"]
+                item_name = item["tr_text"]
         else:
             item_name = item["tr_text"]
 
@@ -1309,8 +1341,9 @@ def translate_voice(item):
         cv_name = jp_cv_name
     
     # Translate the description
-    item["tr_explain"] = voice_desc_formats[LANG] + "{restriction}\nCV: {actorname}".format(
+    item["tr_explain"] = voice_desc_formats[LANG] + "{restriction}\n{cv}{actorname}".format(
         restriction = restrictions[racensex][LANG],
+        cv = cv_title[LANG],
         actorname = cv_name)
 
     item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
@@ -1362,8 +1395,13 @@ def translate_cosmeticsorted_desc(item, file_name):
         item_name = item["tr_text"] or item["jp_text"]
     else:
         if item["tr_text"] == "":
-            # No translated name so skip this one
-            return -1
+            # No translated name so skip this one (except CN)
+            if LANG != 3:
+                return -1
+            # No translated name so copy the JP name (for CN)
+            else:
+                item["tr_text"] = item["jp_text"]
+                item_name = item["tr_text"]
         else:
             item_name = item["tr_text"]
     
@@ -1427,8 +1465,13 @@ def translate_ncosmeticsorted_desc(item, file_name):
         item_name = item["tr_text"] or item["jp_text"]
     else:
         if item["tr_text"] == "":
-            # No translated name so skip this one
-            return -1
+            # No translated name so skip this one (except CN)
+            if LANG != 3:
+                return -1
+            # No translated name so copy the JP name (for CN)
+            else:
+                item["tr_text"] = item["jp_text"]
+                item_name = item["tr_text"]
         else:
             item_name = item["tr_text"]
     
