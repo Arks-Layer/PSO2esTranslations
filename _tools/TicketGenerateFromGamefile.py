@@ -11,7 +11,7 @@ import unicodedata
 # This tool is used to generate "NGS_" json files
 # or to edit "Stack_" json files from the main game files.
 
-LANG = 1
+LANG = 2
 
 # [ 0 for Non-translation mode ]
 # Will only generate items, and retain the existing translation.
