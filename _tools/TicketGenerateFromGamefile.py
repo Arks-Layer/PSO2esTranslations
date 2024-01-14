@@ -308,22 +308,6 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
         for vo_tr_suff in vo_tr_suffix
         for vo_tr_suff2 in [vo_tr_suffix2]]
 
-    # jp_texts = [f"{vo_type}{vo_jp_cat}{vo_jp_name_prefix}{vo_jp_name}{vo_jp_suff}{vo_jp_suff2}"
-    #             for vo_type in [vo_type]
-    #             for vo_jp_cat in vo_jp_type
-    #             for vo_jp_name_pref in [vo_jp_name_prefix]
-    #             for vo_jp_name_comb in [vo_jp_name]
-    #             for vo_jp_suff in vo_jp_suffix
-    #             for vo_jp_suff2 in [vo_jp_suffix2]]
-
-    # tr_texts = [f"{vo_type}{vo_tr_cat}{vo_tr_name_prefix}{vo_tr_name}{vo_tr_suff}{vo_tr_suff2}"
-    #             for vo_type in [vo_type]
-    #             for vo_tr_cat in vo_tr_type
-    #             for vo_tr_name_pref in [vo_tr_name_prefix]
-    #             for vo_tr_name_comb in [vo_tr_name]
-    #             for vo_tr_suff in vo_tr_suffix
-    #             for vo_tr_suff2 in [vo_tr_suffix2]]
-    
     return jp_texts, tr_texts, cv_tr_name
 
 # [FUNCTION] Record descriptions
