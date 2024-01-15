@@ -176,7 +176,8 @@ def parse_data(file_path, file_type):
                         for n_line in n_lines:
                             if n_line.startswith(f"{headname}「"):
                                 jp_text = n_line[n_line.find(f"{headname}「") + 3:n_line.find('」')]
-                                if f'マイショップ出品不可' in n_line or f'初期' in n_line:
+                                if any(keyword in n_line for keyword in
+                                    ['マイショップ出品不可', '初期']):
                                     trade_infos[jp_text] = "Untradable"
 
                 # For items without "「」"
@@ -188,7 +189,8 @@ def parse_data(file_path, file_type):
                         for n_line in n_lines:
                             if n_line.startswith(f"{headname}"):
                                 jp_text = n_line[n_line.find(f"{headname}") :n_line.find('</td>')]
-                                if f'トレード不可' in n_line or f'SG.png' in n_line:
+                                if any(keyword in n_line for keyword in
+                                    ['マイショップ出品不可', 'トレード不可', 'SG.png']):
                                     trade_infos[jp_text] = "Untradable"
 
     return parsed_lines, trade_infos
