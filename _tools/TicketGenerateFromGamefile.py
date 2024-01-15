@@ -266,7 +266,10 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
 
     # Determine version and gender of the voice based on text id
     vo_ver = "ngs" if re.match(r'.*9\d{2}#0,', text_id) else "o2"
-    vo_gender = "T1" if (vo_ver == "ngs" and text_id.startswith(("11_vo_cman"))) else "T2" if vo_ver == "ngs" else "男性" if text_id.startswith(("11_vo_cman")) else "女性"
+    if vo_ver == "o2":
+        vo_gender = "男性" if text_id.startswith("11_voice_cman") else "女性"
+    elif vo_ver == "ngs":
+        vo_gender = "T1" if text_id.startswith("11_voice_cman") else "T2"
 
     # Initialize
     vo_jp_type = vo_tr_type = [""]
@@ -371,12 +374,11 @@ def form_itemdata(item_format, names, texts, ori_explains, rec_descs, trade_info
             else:
                 rec_descs_ex[i] = rec_descs[i]
     
-    # Get item format
     item = item_format
-
-    # For all modes
-    item["jp_text"] = texts[0]
-    item["jp_explain"] = f"{explains[0]}{rec_descs_ex[0]}"
+    # For "_NGS" generation
+    if item["assign"] == 0:
+        item["jp_text"] = texts[0]
+        item["jp_explain"] = f"{explains[0]}{rec_descs_ex[0]}"
     # For non-translation mode
     if LANG == 0:
         item["tr_text"] = rec_descs[2]
@@ -773,7 +775,13 @@ def main_edit_Stack(prefix):
 
             # Item formats
             items_format = []
-            alt_text0 = width_process_string(texts[0])
+            # Form the alter version of texts[0]
+            text_index = texts[0].index(names[0])
+            text0_left = texts[0][:text_index]
+            text0_right = texts[0][text_index + len(names[0]):]
+            alt_name0 = width_process_string(names[0])
+            alt_text0 = text0_left + alt_name0 + text0_right
+            # Get the item format
             for processed_item in processed_items:
                 if processed_item["jp_text"] in (texts[0], alt_text0):
                     items_format.append(processed_item)
