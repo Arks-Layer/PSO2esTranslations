@@ -316,26 +316,31 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
     return jp_texts, tr_texts, cv_tr_name
 
 # [FUNCTION] Record descriptions
-def record_desc(file_path, jp_text):
+def record_desc(path, jp_text):
     # Initialize
     desc_jp_explain = ""
     desc_tr_explain = ""
     desc_tr_text= ""
+    # To determine if item is newly added
+    desc_jp_text = ""
     # Open the file and read the data
-    with open(os.path.join(jsonfile_dir, file_path), "r", encoding='utf-8') as f:
+    with open(os.path.join(jsonfile_dir, path), "r", encoding='utf-8') as f:
         data = json.load(f)
         # Set search_condition
         for item in data:
             # Search and record the descriptions 
             if jp_text == item["jp_text"]:
+                desc_jp_text = item["jp_text"]
                 desc_jp_explain = item["jp_explain"]
                 if f"<green>“" not in item["tr_explain"]:
                     desc_tr_explain = item["tr_explain"]
                 elif f"<green>“" in item["tr_explain"]:
                     desc_tr_explain = item["tr_explain"][item["tr_explain"].find('”<c>\n') + 5:]
                 desc_tr_text = item["tr_text"]
-                
-    return desc_jp_explain, desc_tr_explain, desc_tr_text
+    # Print jp_text if item is newly added
+    if desc_jp_text == "" and "_NGS_" in path:
+        print(f'ADDED: {jp_text}.')
+    return desc_jp_explain, desc_tr_explain, desc_tr_text, desc_jp_text
 
 # [FUNCTION] Get translation from tr_lines
 def get_translation(jp_target_lines, tr_lines):
@@ -383,16 +388,29 @@ def form_itemdata(item_format, names, texts, ori_explains, rec_descs, trade_info
     if LANG == 0:
         item["tr_text"] = rec_descs[2]
         item["tr_explain"] = rec_descs[1]
-    # For tradable items (only for CN)
+    # For tradable items in CN mode
     elif LANG == 1 and (names[0] != names[LANG]) and trade_info != "Untradable": 
         item["tr_text"] = texts[0]
         item["tr_explain"] = f"<green>“{texts[LANG]}”<c>\n{explains[1]}{rec_descs_ex[1]}"
+    # For untranslated items in EN mode
+    elif LANG != 1 and (names[0] == names[LANG]) and re.search(r'[\u4e00-\u9fff\u3040-\u30ff]', names[LANG]):
+        item["tr_text"] = ""
+        item["tr_explain"] = explains[1] + rec_descs_ex[1]
     # For untradable items or EN mode
     else:
         item["tr_text"] = texts[LANG]
         item["tr_explain"] = explains[1] + rec_descs_ex[1]
     
     return item
+
+# [FUNCTION] Check if newly deleted
+def check_if_delete(rec_texts, path):
+    # Open the file and read the data
+    with open(os.path.join(jsonfile_dir, path), "r", encoding='utf-8') as f:
+        data = json.load(f)
+        for item in data:
+            if item["jp_text"] not in rec_texts:
+                print(f'DELETED: {item["jp_text"]}.')
 
 # [FUNCTION] Write to json file
 def write_to_json(processed_items, jsonfile_dir, path):
@@ -535,7 +553,7 @@ vo_explains = [
     "使用後，可選用新的語音。\nCV：{cv_tr_name}", 
     "Allows a new voice to be selected.\nUsable by all characters.\nCV: {cv_tr_name}"]
 
-# Conditions and explains of special items
+# [FUNCTION] Conditions and explains of special items
 def edit_sp_explains(prefix, jp_text, explains):
     if prefix == "aug" and any(keyword in jp_text for keyword in ("フュージア", "ソブリナ", "ファウンデーター")):
         explains = [
@@ -564,7 +582,7 @@ bg_jp_target_lines = [
     if re.match(r'^\d{1,2}#', text_id) and not jp_text.startswith(("￥", "text_"))]
 aug_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in element_name_jp_lines
-    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "ハイペリオ", "￥", "-"))]
+    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "￥", "-"))]
 ou_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
     if re.match(r'^No\d{6}#', text_id)
@@ -652,6 +670,7 @@ def main_generate_NGS(prefix):
 
     # Initialize the processed items
     processed_items = []
+    processed_item_texts = []
 
     # Start the loop to generate item
     for i, (text_id, jp_text) in enumerate(jp_target_lines):
@@ -714,8 +733,10 @@ def main_generate_NGS(prefix):
         item = form_itemdata(item_format, names, texts, explains, rec_descs, trade_info)
         # Form the processed data
         processed_items.append(item)
+        processed_item_texts.append(rec_descs[3])
 
     # Write to json file
+    check_if_delete(processed_item_texts, path)
     write_to_json(processed_items, jsonfile_dir, path)
     print(f'PROGRESS: processed {len(processed_items)} items in "{path}".')
 
