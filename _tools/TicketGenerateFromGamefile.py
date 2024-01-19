@@ -78,17 +78,17 @@ wiki_urls = {
 # URLs and trade_infos mapping of PSO2/PSO2NGS swiki pages (only for CN)
 suffix_mapping = {
     'ngs_mo': ('モーション', mo_trade_infos),
-    'ngs_bp1': ('クリエイティブスペース%2Fビルドパーツ%2F建材', bp_trade_infos),
-    'ngs_bp2': ('クリエイティブスペース%2Fビルドパーツ%2F建築物・道具・器具', bp_trade_infos),
-    'ngs_bp3': ('クリエイティブスペース%2Fビルドパーツ%2F自然物', bp_trade_infos),
-    'ngs_bp4': ('クリエイティブスペース%2Fビルドパーツ%2F家具', bp_trade_infos),
-    'ngs_bp5': ('クリエイティブスペース%2Fビルドパーツ%2Fギミックパーツ', bp_trade_infos),
-    'ngs_bp6': ('クリエイティブスペース%2Fビルドパーツ%2F立体図形', bp_trade_infos),
-    'ngs_bp7': ('クリエイティブスペース%2Fビルドパーツ%2Fコラボ', bp_trade_infos),
+    'ngs_bp1': ('クリエイティブスペース/ビルドパーツ/建材', bp_trade_infos),
+    'ngs_bp2': ('クリエイティブスペース/ビルドパーツ/建築物・道具・器具', bp_trade_infos),
+    'ngs_bp3': ('クリエイティブスペース/ビルドパーツ/自然物', bp_trade_infos),
+    'ngs_bp4': ('クリエイティブスペース/ビルドパーツ/家具', bp_trade_infos),
+    'ngs_bp5': ('クリエイティブスペース/ビルドパーツ/ギミックパーツ', bp_trade_infos),
+    'ngs_bp6': ('クリエイティブスペース/ビルドパーツ/立体図形', bp_trade_infos),
+    'ngs_bp7': ('クリエイティブスペース/ビルドパーツ/コラボ', bp_trade_infos),
     'ngs_ph': ('ポータブルホログラム', ph_trade_infos),
     'ngs_bg': ('アークスカード', bg_trade_infos),
-    'ngs_vo': ('エステ%2Fボイス', vo_trade_infos),
-    'o2_vo': ('エステ%2Fボイス', vo_trade_infos)}
+    'ngs_vo': ('エステ/ボイス', vo_trade_infos),
+    'o2_vo': ('エステ/ボイス', vo_trade_infos)}
 
 # Path of json folder
 jsonfile_dir = os.path.abspath(os.path.join(root_dir, os.pardir, "json"))
@@ -115,7 +115,7 @@ vo_path = "Item_Stack_Voice.txt"
 
 # [FUNCTION] Load and read the webpage from URL
 def get_web(url):
-    url_part = url.rsplit('/', 1)[-1]
+    url_part = url.rsplit('/', 1)[-1].split('?', 1)[-1]
     # Send the get request
     response = requests.get(url)
     # If successed, load the data
