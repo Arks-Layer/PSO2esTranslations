@@ -418,6 +418,7 @@ def write_to_json(processed_items, jsonfile_dir, path):
     with open(os.path.join(jsonfile_dir, path), "w", encoding='utf-8') as f:
         f.write(processed_lines)
     return
+
 # ——————————————————————————————
 # PRESET PROCESSES
 # ——————————————————————————————
@@ -634,7 +635,7 @@ def extra_condition(prefix, jp_text):
     if prefix == "mo":
        return jp_text.endswith(("EX"))
     elif prefix == "bp":
-        return jp_text.startswith(("エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "立体図形：", "ベーシック", "モダン", "クラシック", "ゴシック", "スイーツ", "チャイナ", "ウェスタン", "オリエント", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "ナイトクラブ", "学校の", "リゾート", "ビンテージ", "ミニ")) and not jp_text.startswith(("ミニミニ"))
+        return jp_text.startswith(("エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "立体図形：", "ベーシック", "モダン", "クラシック", "ゴシック", "スイーツ", "チャイナ", "ウェスタン", "オリエント", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ", "ミニ")) and not jp_text.startswith(("ミニミニ"))
     elif prefix == "ph":
         return jp_text == ""
     elif prefix == "bg":
