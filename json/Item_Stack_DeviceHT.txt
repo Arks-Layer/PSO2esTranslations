@@ -143,28 +143,28 @@
 		"assign": "312010",
 		"jp_text": "進化デバイス／トロ",
 		"tr_text": "Evo. Device/Toro",
-		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『PSO2』ではLv.100以上の\n　マグにのみ使用可能<c>",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『PSO2』ではLv.100以上の\n　マグにのみ使用可能<c>\n<yellow>※PS4表示可<c>",
 		"tr_explain": "Изменяет внешний вид Mag'а.\n※<yellow>Только для Mag'ов PSO2\n100ур. и выше.<c>"
 	},
 	{
 		"assign": "312020010",
 		"jp_text": "進化デバイス／トロ",
 		"tr_text": "Evo. Device/Toro",
-		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『PSO2』ではLv.100以上の\n　マグにのみ使用可能<c>",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『PSO2』ではLv.100以上の\n　マグにのみ使用可能<c>\n<yellow>※PS4表示可<c>",
 		"tr_explain": "Изменяет внешний вид Mag'а.\n※<yellow>Только для Mag'ов PSO2\n100ур. и выше.<c>"
 	},
 	{
 		"assign": "312011",
 		"jp_text": "進化デバイス／クロ",
 		"tr_text": "Evo. Device/Kuro",
-		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『PSO2』ではLv.100以上の\n　マグにのみ使用可能<c>",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『PSO2』ではLv.100以上の\n　マグにのみ使用可能<c>\n<yellow>※PS4表示可<c>",
 		"tr_explain": "Изменяет внешний вид Mag'а.\n※<yellow>Только для Mag'ов PSO2\n100ур. и выше.<c>"
 	},
 	{
 		"assign": "312020011",
 		"jp_text": "進化デバイス／クロ",
 		"tr_text": "Evo. Device/Kuro",
-		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『PSO2』ではLv.100以上の\n　マグにのみ使用可能<c>",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『PSO2』ではLv.100以上の\n　マグにのみ使用可能<c>\n<yellow>※PS4表示可<c>",
 		"tr_explain": "Изменяет внешний вид Mag'а.\n※<yellow>Только для Mag'ов PSO2\n100ур. и выше.<c>"
 	},
 	{
@@ -2692,28 +2692,28 @@
 		"jp_text": "マグフォルム／ナディリスマグ",
 		"tr_text": "Mag Form/Nadiris Mag",
 		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
-		"tr_explain": "Изменяет внешний вид Mag'а.\n※<yellow>Только для Mag'ов NGS.<c>"
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
 	},
 	{
 		"assign": "312010550",
 		"jp_text": "マグフォルム／Rマグミニモ",
-		"tr_text": "Mag Form/R Mag Minimo",
+		"tr_text": "Mag Form/R. Mag Minimo",
 		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
-		"tr_explain": "Изменяет внешний вид Mag'а.\n※<yellow>Только для Mag'ов NGS.<c>"
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
 	},
 	{
 		"assign": "312010551",
 		"jp_text": "マグフォルム／アウトゥムミニモ",
 		"tr_text": "Mag Form/Outumn Minimo",
 		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
-		"tr_explain": "Изменяет внешний вид Mag'а.\n※<yellow>Только для Mag'ов NGS.<c>"
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
 	},
 	{
 		"assign": "312010552",
 		"jp_text": "マグフォルム／ヴィンターミニモ",
 		"tr_text": "Mag Form/Vinter Minimo",
 		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
-		"tr_explain": "Изменяет внешний вид Mag'а.\n※<yellow>Только для Mag'ов NGS.<c>"
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
 	},
 	{
 		"assign": "312010553",
@@ -2737,39 +2737,60 @@
 		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
 	},
 	{
+		"assign": "312010556",
+		"jp_text": "マグフォルム／ラパントミニモ",
+		"tr_text": "Mag Form/La Pinte Minimo",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010557",
+		"jp_text": "マグフォルム／メイプロンミニモ",
+		"tr_text": "Mag Form/Mapron Minimo",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010558",
+		"jp_text": "マグフォルム／ノエーラミニモ",
+		"tr_text": "Mag Form/Noela Minimo",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
 		"assign": "312010602",
 		"jp_text": "マグフォルム／テイルス人形",
 		"tr_text": "Mag Form/Tails Doll",
 		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
-		"tr_explain": "Изменяет внешний вид Mag'а.\n※<yellow>Только для Mag'ов NGS.<c>"
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
 	},
 	{
 		"assign": "312010606",
 		"jp_text": "マグフォルム／カラマール",
-		"tr_text": "Mag Form/Calamarl",
+		"tr_text": "Mag Form/Calamar",
 		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
-		"tr_explain": "Изменяет внешний вид Mag'а.\n※<yellow>Только для Mag'ов NGS.<c>"
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
 	},
 	{
 		"assign": "312010607",
 		"jp_text": "マグフォルム／アリーチェ",
 		"tr_text": "Mag Form/Alice",
 		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
-		"tr_explain": "Изменяет внешний вид Mag'а.\n※<yellow>Только для Mag'ов NGS.<c>"
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
 	},
 	{
 		"assign": "312010608",
 		"jp_text": "マグフォルム／デモーグ",
 		"tr_text": "Mag Form/Demorg",
 		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
-		"tr_explain": "Изменяет внешний вид Mag'а.\n※<yellow>Только для Mag'ов NGS.<c>"
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
 	},
 	{
 		"assign": "312010609",
 		"jp_text": "マグフォルム／レラティ",
 		"tr_text": "Mag Form/Re:Rati",
 		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
-		"tr_explain": "Изменяет внешний вид Mag'а.\n※<yellow>Только для Mag'ов NGS.<c>"
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
 	},
 	{
 		"assign": "312010610",
@@ -2814,9 +2835,79 @@
 		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
 	},
 	{
+		"assign": "312010616",
+		"jp_text": "マグフォルム／ブランシュヴァル",
+		"tr_text": "Mag Form/Blanc Cheval",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010617",
+		"jp_text": "マグフォルム／ニャペット",
+		"tr_text": "Mag Form/Nyapet",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010618",
+		"jp_text": "マグフォルム／アルムズマキーナ",
+		"tr_text": "Mag Form/Arms Machina",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010619",
+		"jp_text": "マグフォルム／アリオンマキーナ",
+		"tr_text": "Mag Form/Arion Machina",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010620",
+		"jp_text": "マグフォルム／ジャック・オー",
+		"tr_text": "Mag Form/Jack-O",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010621",
+		"jp_text": "マグフォルム／クレナイノキミ",
+		"tr_text": "Mag Form/Kurenai-no-Kimi",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010622",
+		"jp_text": "マグフォルム／トナカイノヤツ",
+		"tr_text": "Mag Form/Reindeer Man",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010623",
+		"jp_text": "マグフォルム／エトラビィマキーナ",
+		"tr_text": "Mag Form/Etorabbi Machina",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010624",
+		"jp_text": "マグフォルム／スノウベル",
+		"tr_text": "Mag Form/Snowbel",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010625",
+		"jp_text": "マグフォルム／アウルーマキーナ",
+		"tr_text": "Mag Form/Aourou Machina",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
 		"assign": "312010626",
 		"jp_text": "マグフォルム／ラッピー（ハルファ）",
-		"tr_text": "Mag form/Rappy (Halpha)",
+		"tr_text": "Mag Form/Rappy (Halpha)",
 		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
 		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
 	},
@@ -2824,6 +2915,286 @@
 		"assign": "312010627",
 		"jp_text": "マグフォルム／アニバ・ラッピー",
 		"tr_text": "Mag Form/Annive Rappy",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010628",
+		"jp_text": "マグフォルム／ガルディアンティコ",
+		"tr_text": "Mag Form/Guardian Tycho",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010629",
+		"jp_text": "マグフォルム／ティブロン",
+		"tr_text": "Mag Form/Tibron",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010631",
+		"jp_text": "マグフォルム／ワンダ",
+		"tr_text": "Mag Form/Wanda",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010632",
+		"jp_text": "マグフォルム／ワンダＳ",
+		"tr_text": "Mag Form/Wanda S",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010633",
+		"jp_text": "マグフォルム／ジンガ",
+		"tr_text": "Mag Form/Jinga",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010634",
+		"jp_text": "マグフォルム／ジンガＳ",
+		"tr_text": "Mag Form/Jinga S",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010635",
+		"jp_text": "マグフォルム／トリム",
+		"tr_text": "Mag Form/Torim",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010636",
+		"jp_text": "マグフォルム／トリムＳ",
+		"tr_text": "Mag Form/Torim S",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010637",
+		"jp_text": "マグフォルム／エアロ",
+		"tr_text": "Mag Form/Aero",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010638",
+		"jp_text": "マグフォルム／エアロＳ",
+		"tr_text": "Mag Form/Aero S",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010639",
+		"jp_text": "マグフォルム／サリィ",
+		"tr_text": "Mag Form/Cery",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010640",
+		"jp_text": "マグフォルム／サリィＳ",
+		"tr_text": "Mag Form/Cery S",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010641",
+		"jp_text": "マグフォルム／ポップル",
+		"tr_text": "Mag Form/Popple",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010642",
+		"jp_text": "マグフォルム／ポップルＳ",
+		"tr_text": "Mag Form/Popple S",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010643",
+		"jp_text": "マグフォルム／マロン",
+		"tr_text": "Mag Form/Maron",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010644",
+		"jp_text": "マグフォルム／マロンＳ",
+		"tr_text": "Mag Form/Maron S",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010645",
+		"jp_text": "マグフォルム／メロン",
+		"tr_text": "Mag Form/Melon",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010646",
+		"jp_text": "マグフォルム／メロンＳ",
+		"tr_text": "Mag Form/Melon S",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010647",
+		"jp_text": "マグフォルム／ラッピー（ペット）",
+		"tr_text": "Mag Form/Rappy (Pet)",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010648",
+		"jp_text": "マグフォルム／ヴィオラ",
+		"tr_text": "Mag Form/Viola",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010649",
+		"jp_text": "マグフォルム／ヴィオラＳ",
+		"tr_text": "Mag Form/Viola S",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010650",
+		"jp_text": "マグフォルム／シンクロウ",
+		"tr_text": "Mag Form/Synchro",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010651",
+		"jp_text": "マグフォルム／シンクロウＳ",
+		"tr_text": "Mag Form/Synchro S",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010652",
+		"jp_text": "マグフォルム／バルカン",
+		"tr_text": "Mag Form/Vulcan",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010653",
+		"jp_text": "マグフォルム／レドラン",
+		"tr_text": "Mag Form/Redran",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010654",
+		"jp_text": "マグフォルム／レドランＳ",
+		"tr_text": "Mag Form/Redran S",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010655",
+		"jp_text": "マグフォルム／グラス",
+		"tr_text": "Mag Form/Glass",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010657",
+		"jp_text": "マグフォルム／鯖クロ",
+		"tr_text": "Mag Form/Sabakuro",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010658",
+		"jp_text": "マグフォルム／アインズ",
+		"tr_text": "Mag Form/Ainz",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010661",
+		"jp_text": "マグフォルム／バルカンＳ",
+		"tr_text": "Mag Form/Vulcan S",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010666",
+		"jp_text": "マグフォルム／ミャウ",
+		"tr_text": "Mag Form/Myau",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010664",
+		"jp_text": "マグフォルム／RAM-1000ミレニオン",
+		"tr_text": "Mag Form/RAM-1000 Millenion",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010663",
+		"jp_text": "マグフォルム／レガスティア",
+		"tr_text": "Mag Form/Legastya",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010662",
+		"jp_text": "マグフォルム／ディアレング",
+		"tr_text": "Mag Form/Diareng",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010667",
+		"jp_text": "マグフォルム／AQ-21ワッグテイル",
+		"tr_text": "Mag Form/AQ-21 Wagtail",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010668",
+		"jp_text": "マグフォルム／タチコマ",
+		"tr_text": "Mag Form/Tachikoma",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010669",
+		"jp_text": "マグフォルム／トルネード",
+		"tr_text": "Mag Form/Tornado",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010670",
+		"jp_text": "マグフォルム／フレズヴェルク＝アーテルG",
+		"tr_text": "Mag Form/Hresvelgr=Ater G",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010665",
+		"jp_text": "マグフォルム／モノノフガール",
+		"tr_text": "Mag Form/Mononov Girl",
+		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
+		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
+	},
+	{
+		"assign": "312010679",
+		"jp_text": "マグフォルム／ホーク",
+		"tr_text": "Mag Form/Hawk",
 		"jp_explain": "マグの見た目を変更するデバイス。\n<yellow>※『NGS』でのみ使用可能<c>",
 		"tr_explain": "Изменяет внешний вид Mag'а.\n<yellow>※Только для Mag'ов NGS.<c>"
 	}

@@ -5962,12 +5962,12 @@
 	{
 		"assign": "7569",
 		"jp_text": "ヘレティカーリー",
-		"tr_text": "Heretically"
+		"tr_text": "Heretic Curly"
 	},
 	{
 		"assign": "7570",
 		"jp_text": "永逝の荊棘 ヘレティカーリー",
-		"tr_text": "Cheater of Death Heretically"
+		"tr_text": "Cheater of Death Heretic Curly"
 	},
 	{
 		"assign": "7571",
@@ -8882,7 +8882,7 @@
 	{
 		"assign": "8164",
 		"jp_text": "仙才鬼才　Ｄ－Ａ．Ｉ．Ｓブラスター",
-		"tr_text": "仙才鬼才 D-A.I.S. Blaster"
+		"tr_text": "Recluse Genius D-A.I.S. Blaster"
 	},
 	{
 		"assign": "8165",
@@ -8922,91 +8922,621 @@
 	{
 		"assign": "8172",
 		"jp_text": "ビブラスボウ",
-		"tr_text": ""
+		"tr_text": "Vibrace Bow"
 	},
 	{
 		"assign": "8173",
 		"jp_text": "艶麗なる妖弓　ビブラスボウ",
-		"tr_text": ""
+		"tr_text": "Gorgeous Ghostbow Vibrace Bow"
 	},
 	{
 		"assign": "8174",
 		"jp_text": "祝祭のセラフィ[アニバーサリー]",
-		"tr_text": ""
+		"tr_text": "Celebrating Seraphy [Anniversary]"
 	},
 	{
 		"assign": "8175",
 		"jp_text": "祝祭のセラフィ[Ｓアニバーサリー]",
-		"tr_text": ""
+		"tr_text": "Celebrating Seraphy [S Anniversary]"
 	},
 	{
 		"assign": "8176",
 		"jp_text": "祝祭のセラフィ[ＳＳアニバーサリー]",
-		"tr_text": ""
+		"tr_text": "Celebrating Seraphy [SS Anniversary]"
 	},
 	{
 		"assign": "8177",
 		"jp_text": "エンジュリーミスティー",
-		"tr_text": ""
+		"tr_text": "Angely Misty"
 	},
 	{
 		"assign": "8178",
 		"jp_text": "魔法少年　エンジュリーミスティー",
-		"tr_text": ""
+		"tr_text": "Magical Boy Angely Misty"
 	},
 	{
 		"assign": "8179",
 		"jp_text": "真・魔法少年　エンジュリーミスティー",
-		"tr_text": ""
+		"tr_text": "The Magical Boy Angely Misty"
 	},
 	{
 		"assign": "8180",
 		"jp_text": "シロジラオバナ",
-		"tr_text": ""
+		"tr_text": "Shirojiraobana"
 	},
 	{
 		"assign": "8181",
 		"jp_text": "絢爛剛毅　シロジラオバナ",
-		"tr_text": ""
+		"tr_text": "Dazzling Fortitude Shirojiraobana"
 	},
 	{
 		"assign": "8182",
 		"jp_text": "パシフィート",
-		"tr_text": ""
+		"tr_text": "Pacifeat"
 	},
 	{
 		"assign": "8183",
 		"jp_text": "清澄なる海王　パシフィート",
-		"tr_text": ""
+		"tr_text": "Serene Sea King Pacifeat"
 	},
 	{
 		"assign": "8184",
 		"jp_text": "真・清澄なる海王　パシフィート",
-		"tr_text": ""
+		"tr_text": "The Serene Sea King Pacifeat"
 	},
 	{
 		"assign": "8185",
 		"jp_text": "キュイプラバ",
-		"tr_text": ""
+		"tr_text": "Cuiprava"
 	},
 	{
 		"assign": "8186",
 		"jp_text": "闇黒を揺蕩う魔女　キュイプラバ",
-		"tr_text": ""
+		"tr_text": "Dark-Drifting Witch Cuiprava"
 	},
 	{
 		"assign": "8187",
 		"jp_text": "真・闇黒を揺蕩う魔女　キュイプラバ",
-		"tr_text": ""
+		"tr_text": "The Dark-Drifting Witch Cuiprava"
 	},
 	{
 		"assign": "8188",
 		"jp_text": "バレヌコレト",
-		"tr_text": ""
+		"tr_text": "Baren Colette"
 	},
 	{
 		"assign": "8189",
 		"jp_text": "完全無欠の殲弓　バレヌコレト",
+		"tr_text": "Impeccable Bow Baren Colette"
+	},
+	{
+		"assign": "8190",
+		"jp_text": "ジラソーレ",
+		"tr_text": "Girasole"
+	},
+	{
+		"assign": "8191",
+		"jp_text": "かがやく笑顔　ジラソーレ",
+		"tr_text": "Shining Smile Girasole"
+	},
+	{
+		"assign": "8192",
+		"jp_text": "真・かがやく笑顔　ジラソーレ",
+		"tr_text": "The Shining Smile Girasole"
+	},
+	{
+		"assign": "8193",
+		"jp_text": "ズミウランの杖",
+		"tr_text": "Club of Zumiuran"
+	},
+	{
+		"assign": "8194",
+		"jp_text": "雷光の魔術師　ズミウランの杖",
+		"tr_text": "Lightning Mage Club of Zumiuran"
+	},
+	{
+		"assign": "8195",
+		"jp_text": "フローティングエッジズ",
+		"tr_text": "Floating Edges"
+	},
+	{
+		"assign": "8196",
+		"jp_text": "血の女王　フローティングエッジズ",
+		"tr_text": "Queen of Blood Floating Edges"
+	},
+	{
+		"assign": "8197",
+		"jp_text": "真・血の女王　フローティングエッジズ",
+		"tr_text": "The Queen of Blood Floating Edges"
+	},
+	{
+		"assign": "8198",
+		"jp_text": "フカリーキャノン",
+		"tr_text": "Sharkli Cannon"
+	},
+	{
+		"assign": "8199",
+		"jp_text": "絶体絶命　フカリーキャノン",
+		"tr_text": "Desperate Decision Sharkli Cannon"
+	},
+	{
+		"assign": "8200",
+		"jp_text": "アッシュ02",
+		"tr_text": ""
+	},
+	{
+		"assign": "8201",
+		"jp_text": "アッシュ02　解放",
+		"tr_text": ""
+	},
+	{
+		"assign": "8202",
+		"jp_text": "常夏のジェネ[サマーバケーション]",
+		"tr_text": "Endless Summer Gene [Summer Vacation]"
+	},
+	{
+		"assign": "8203",
+		"jp_text": "常夏のジェネ[Ｓサマーバケーション]",
+		"tr_text": "Endless Summer Gene [S Summer Vacation]"
+	},
+	{
+		"assign": "8204",
+		"jp_text": "潮騒のアネット[サマーバケーション]",
+		"tr_text": "Ocean's Roar Annette [Summer Vacation]"
+	},
+	{
+		"assign": "8205",
+		"jp_text": "潮騒のアネット[Ｓサマーバケーション]",
+		"tr_text": "Ocean's Roar Annette [S Summer Vacation]"
+	},
+	{
+		"assign": "8206",
+		"jp_text": "忌藤袴",
+		"tr_text": ""
+	},
+	{
+		"assign": "8207",
+		"jp_text": "紅き時雨　忌藤袴",
+		"tr_text": ""
+	},
+	{
+		"assign": "8208",
+		"jp_text": "真・紅き時雨　忌藤袴",
+		"tr_text": ""
+	},
+	{
+		"assign": "8209",
+		"jp_text": "スタークカッツェ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8210",
+		"jp_text": "妖精姫　スタークカッツェ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8211",
+		"jp_text": "ルテルテトメア",
+		"tr_text": ""
+	},
+	{
+		"assign": "8212",
+		"jp_text": "雨のち晴れ　ルテルテトメア",
+		"tr_text": ""
+	},
+	{
+		"assign": "8213",
+		"jp_text": "アリシアリビリス",
+		"tr_text": ""
+	},
+	{
+		"assign": "8214",
+		"jp_text": "聖なる微笑　アリシアリビリス",
+		"tr_text": ""
+	},
+	{
+		"assign": "8215",
+		"jp_text": "アフタル＆ホルシード[ハロウィン]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8216",
+		"jp_text": "アフタル＆ホルシード[Ｓハロウィン]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8217",
+		"jp_text": "ブリッツフェンダー",
+		"tr_text": ""
+	},
+	{
+		"assign": "8218",
+		"jp_text": "存在せぬ最強　ブリッツフェンダー",
+		"tr_text": ""
+	},
+	{
+		"assign": "8219",
+		"jp_text": "真・存在せぬ最強　ブリッツフェンダー",
+		"tr_text": ""
+	},
+	{
+		"assign": "8220",
+		"jp_text": "コールメイナー",
+		"tr_text": ""
+	},
+	{
+		"assign": "8221",
+		"jp_text": "銀河の海賊娘　コールメイナー",
+		"tr_text": ""
+	},
+	{
+		"assign": "8222",
+		"jp_text": "シノノメキザン",
+		"tr_text": ""
+	},
+	{
+		"assign": "8223",
+		"jp_text": "艶なる心眼　シノノメキザン",
+		"tr_text": ""
+	},
+	{
+		"assign": "8224",
+		"jp_text": "アネット＆モア[クリスマス]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8225",
+		"jp_text": "アネット＆モア[Ｓクリスマス]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8226",
+		"jp_text": "ジェネ＆アネット[ニューイヤー]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8227",
+		"jp_text": "ジェネ＆アネット[Ｓニューイヤー]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8228",
+		"jp_text": "ジグマティエール",
+		"tr_text": ""
+	},
+	{
+		"assign": "8229",
+		"jp_text": "彷徨える機龍　ジグマティエール",
+		"tr_text": ""
+	},
+	{
+		"assign": "8230",
+		"jp_text": "真・彷徨える機龍　ジグマティエール",
+		"tr_text": ""
+	},
+	{
+		"assign": "8231",
+		"jp_text": "アストラルブレイズ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8232",
+		"jp_text": "天翔ける光剣　アストラルブレイズ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8233",
+		"jp_text": "真・天翔ける光剣　アストラルブレイズ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8234",
+		"jp_text": "ベルトガバルタ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8235",
+		"jp_text": "機甲戦姫　ベルトガバルタ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8236",
+		"jp_text": "真・機甲戦姫　ベルトガバルタ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8237",
+		"jp_text": "トライ・ダンゴォ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8238",
+		"jp_text": "みつ色の看板娘　トライ・ダンゴォ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8239",
+		"jp_text": "ジェネ＆アネット[バレンタイン]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8240",
+		"jp_text": "ジェネ＆アネット[Ｓバレンタイン]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8241",
+		"jp_text": "想慕のモア[ホワイトデー]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8242",
+		"jp_text": "想慕のモア[Ｓホワイトデー]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8243",
+		"jp_text": "ジェネ＆セラフィ[アニバ]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8244",
+		"jp_text": "ジェネ＆セラフィ[Ｓアニバ]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8245",
+		"jp_text": "ジェネ＆セラフィ[ＳＳアニバ]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8246",
+		"jp_text": "マルスデルウォッグ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8247",
+		"jp_text": "異界因子　マルスデルウォッグ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8248",
+		"jp_text": "真・異界因子　マルスデルウォッグ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8249",
+		"jp_text": "オメガルフザイール",
+		"tr_text": ""
+	},
+	{
+		"assign": "8250",
+		"jp_text": "いっぴきオオカミ　オメガルフザイール",
+		"tr_text": ""
+	},
+	{
+		"assign": "8251",
+		"jp_text": "アクルドエスビア",
+		"tr_text": ""
+	},
+	{
+		"assign": "8252",
+		"jp_text": "氷閃雷射　アクルドエスビア",
+		"tr_text": ""
+	},
+	{
+		"assign": "8253",
+		"jp_text": "サインバーン",
+		"tr_text": ""
+	},
+	{
+		"assign": "8254",
+		"jp_text": "美しき毒華　サインバーン",
+		"tr_text": ""
+	},
+	{
+		"assign": "8255",
+		"jp_text": "真・美しき毒華　サインバーン",
+		"tr_text": ""
+	},
+	{
+		"assign": "8256",
+		"jp_text": "マリーネイルス",
+		"tr_text": ""
+	},
+	{
+		"assign": "8257",
+		"jp_text": "無垢なる凶器　マリーネイルス",
+		"tr_text": ""
+	},
+	{
+		"assign": "8258",
+		"jp_text": "ギクスザングルム",
+		"tr_text": ""
+	},
+	{
+		"assign": "8259",
+		"jp_text": "無我の龍騎士　ギクスザングルム",
+		"tr_text": ""
+	},
+	{
+		"assign": "8260",
+		"jp_text": "真・無我の龍騎士　ギクスザングルム",
+		"tr_text": ""
+	},
+	{
+		"assign": "8261",
+		"jp_text": "義士刀志閃",
+		"tr_text": ""
+	},
+	{
+		"assign": "8262",
+		"jp_text": "血花の戦鬼　義士刀志閃",
+		"tr_text": ""
+	},
+	{
+		"assign": "8263",
+		"jp_text": "清夏のジェネ[サマーバケーション]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8264",
+		"jp_text": "清夏のジェネ[Ｓサマーバケーション]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8265",
+		"jp_text": "夏潮のアネット[サマーバケーション]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8266",
+		"jp_text": "夏潮のアネット[Ｓサマーバケーション]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8267",
+		"jp_text": "ディアバシュト",
+		"tr_text": ""
+	},
+	{
+		"assign": "8268",
+		"jp_text": "孤高の刃　ディアバシュト",
+		"tr_text": ""
+	},
+	{
+		"assign": "8269",
+		"jp_text": "真・孤高の刃　ディアバシュト",
+		"tr_text": ""
+	},
+	{
+		"assign": "8270",
+		"jp_text": "グレンノヒノツチ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8271",
+		"jp_text": "奔る烈焔　グレンノヒノツチ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8272",
+		"jp_text": "真・奔る烈焔　グレンノヒノツチ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8273",
+		"jp_text": "ユニオンタリス",
+		"tr_text": ""
+	},
+	{
+		"assign": "8274",
+		"jp_text": "疾駆する雷翼　ユニオンタリス",
+		"tr_text": ""
+	},
+	{
+		"assign": "8275",
+		"jp_text": "ぎゅ～さん[ぎゅ。周年]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8276",
+		"jp_text": "ぎゅ～さんズ[ぎゅ。周年]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8277",
+		"jp_text": "ぎゅ～ＳＵＮズ[ぎゅ。周年]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8278",
+		"jp_text": "ラヴィス＝カノン",
+		"tr_text": ""
+	},
+	{
+		"assign": "8279",
+		"jp_text": "紫輝の魔剣　ラヴィス＝カノン",
+		"tr_text": ""
+	},
+	{
+		"assign": "8280",
+		"jp_text": "真・紫輝の魔剣　ラヴィス＝カノン",
+		"tr_text": ""
+	},
+	{
+		"assign": "8281",
+		"jp_text": "マーセナリスターロード",
+		"tr_text": ""
+	},
+	{
+		"assign": "8282",
+		"jp_text": "白い戦鬼　マーセナリスターロード",
+		"tr_text": ""
+	},
+	{
+		"assign": "8283",
+		"jp_text": "ガルドグランゾ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8284",
+		"jp_text": "一撃殲滅　ガルドグランゾ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8285",
+		"jp_text": "真・一撃殲滅　ガルドグランゾ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8286",
+		"jp_text": "クリーンブラシ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8287",
+		"jp_text": "必殺掃除人　クリーンブラシ",
+		"tr_text": ""
+	},
+	{
+		"assign": "8288",
+		"jp_text": "初春のジェネ[ニューイヤー]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8289",
+		"jp_text": "初春のジェネ[Ｓニューイヤー]",
+		"tr_text": ""
+	},
+	{
+		"assign": "8290",
+		"jp_text": "ソーサラーモルス",
+		"tr_text": ""
+	},
+	{
+		"assign": "8291",
+		"jp_text": "死の乙女　ソーサラーモルス",
+		"tr_text": ""
+	},
+	{
+		"assign": "8292",
+		"jp_text": "真・死の乙女　ソーサラーモルス",
+		"tr_text": ""
+	},
+	{
+		"assign": "8293",
+		"jp_text": "クヴェレネージュア",
+		"tr_text": ""
+	},
+	{
+		"assign": "8294",
+		"jp_text": "氷姫　クヴェレネージュア",
+		"tr_text": ""
+	},
+	{
+		"assign": "8295",
+		"jp_text": "真・氷姫　クヴェレネージュア",
 		"tr_text": ""
 	}
 ]

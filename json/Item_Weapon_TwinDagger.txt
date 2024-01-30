@@ -935,14 +935,14 @@
 		"jp_text": "イヴリダジャンビア",
 		"tr_text": "Evleda Janbiya",
 		"jp_explain": "古に封印されし冥夜の双小剣。\n忌むべき闇の双刃は汝の血肉で以って\n戒め壊し、静かな鮮血の海を築かん。",
-		"tr_explain": ""
+		"tr_explain": "Ancient, forbidden dark Daggers. The\nvile dark blades unsealed by thy flesh\nshall spill a vast, silent ocean of blood."
 	},
 	{
 		"assign": "140226",
 		"jp_text": "クリシスジャンビア",
 		"tr_text": "Cleasis Janbiya",
 		"jp_explain": "古に封印されし冥夜の双小剣。\n勇烈なる戦士を喰らいし邪なる双刃は\n魂と係合せし時、滅亡へと誘う。",
-		"tr_explain": ""
+		"tr_explain": "Ancient, forbidden dark Daggers. When\nthe blades' evil devours their wielder,\nthey shall invite destruction upon us all."
 	},
 	{
 		"assign": "140227",
@@ -1152,14 +1152,14 @@
 		"jp_text": "リュミエルシーカ",
 		"tr_text": "Lumiere Seeker",
 		"jp_explain": "古より伝わる陽光の双小剣。\n導きの光を持つ聖なる双刃は\n闇を戒め、静かな世を築かん。",
-		"tr_explain": ""
+		"tr_explain": "Ancient Twin Daggers of the Sun.\nThe guiding light within guards against\ndarkness and builds a tranquil world."
 	},
 	{
 		"assign": "140267",
 		"jp_text": "ジュティスシーカ",
 		"tr_text": "Jutus Seeker",
 		"jp_explain": "古より伝わる陽光の双小剣。\n勇烈なる戦士を護りし聖なる双刃は\n不浄を滅して、光の元へと導かん。",
-		"tr_explain": ""
+		"tr_explain": "Ancient Twin Daggers of the Sun.\nThese holy blades protect valiant\nwarriors who eliminate the impure."
 	},
 	{
 		"assign": "140268",
@@ -1292,14 +1292,14 @@
 		"jp_text": "フォボスディラブロニ",
 		"tr_text": "Phobos Dillabrony",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った双小剣。触れれば細断する\n無数の刃で、標的を恐怖に怯えさせる。",
-		"tr_explain": ""
+		"tr_explain": "Twin Daggers with an ominous, bladed\nform. The shredding power of their\nblades strikes terror into their target."
 	},
 	{
 		"assign": "140309",
 		"jp_text": "ニーケディラブロニ",
 		"tr_text": "Nike Dillabrony",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った双小剣。無数の刃は勝利に\n向け、標的を千々に切り刻む。",
-		"tr_explain": ""
+		"tr_explain": "Twin Daggers with an ominous, bladed\nform. Their blades chop the target into\ncountless pieces, until victory is certain."
 	},
 	{
 		"assign": "140310",
@@ -1362,14 +1362,14 @@
 		"jp_text": "星震刃オブセシオン",
 		"tr_text": "Celestial Obsessxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した双小剣。全てに勝る強き想いが\n闇を掻き消し、刃に光を取り戻す。",
-		"tr_explain": "Twin Daggers touched by a time\ntraveller's heart. Their obsession has\ndriven out darkness from their blades."
+		"tr_explain": "Twin Daggers touched by a time\ntraveler's heart. Their obsession has\ndriven out darkness from their blades."
 	},
 	{
 		"assign": "140321",
 		"jp_text": "光跡刃オブセシオン",
 		"tr_text": "Lightstream Obsessxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ双小剣。穢れなき想いを宿した\n刃は、無限に広がる未来を引き寄せる。",
-		"tr_explain": "Twin Daggers that link the stars,\nbonded to a time traveller. The blades'\nfeelings create a boundless future."
+		"tr_explain": "Twin Daggers that link the stars,\nbonded to a time traveler. The blades'\nfeelings create a boundless future."
 	},
 	{
 		"assign": "140323",
@@ -1638,6 +1638,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "14010027",
+		"jp_text": "コルディークダガー",
+		"tr_text": "Coldic Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "14010025",
 		"jp_text": "ゼクストルダガー",
 		"tr_text": "Sechstyl Daggers",
@@ -1645,9 +1652,23 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "14010028",
+		"jp_text": "ネオス・アストリオンダガー",
+		"tr_text": "Neos Astreon Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "14010033",
 		"jp_text": "フランメルダガー",
 		"tr_text": "Franmel Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010034",
+		"jp_text": "プリムダガー・リブラ",
+		"tr_text": "Prim Daggers Libra",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1673,6 +1694,27 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "14010038",
+		"jp_text": "クリスティアダガー",
+		"tr_text": "Crystia Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010039",
+		"jp_text": "セイガヨウダガー",
+		"tr_text": "Seigayou Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010040",
+		"jp_text": "トランクールダガー",
+		"tr_text": "Trunkle Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "14010043",
 		"jp_text": "レネッサダガー",
 		"tr_text": "Renessa Daggers",
@@ -1680,9 +1722,142 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "14010044",
+		"jp_text": "ガンブレイズダガー",
+		"tr_text": "Gunblaze Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "14010045",
 		"jp_text": "エヴォルイクリスダガー",
 		"tr_text": "Evoleclis Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010046",
+		"jp_text": "￥グライエダガー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010047",
+		"jp_text": "ククロフィスダガー",
+		"tr_text": "Kouklophis Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010053",
+		"jp_text": "オブゾディアダガー",
+		"tr_text": "Obsidia Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010056",
+		"jp_text": "カイゼラムダガー試製壱型",
+		"tr_text": "Kaiseram Daggers Prototypes",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010058",
+		"jp_text": "セイガインダガー",
+		"tr_text": "Seigain Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010059",
+		"jp_text": "ネオス・ユースティロンダガー",
+		"tr_text": "Neos Justilon Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010054",
+		"jp_text": "ファーシュメルダガー",
+		"tr_text": "Verschmel Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010055",
+		"jp_text": "テスア・リッセルダガー",
+		"tr_text": "Tesua Lissel Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010070",
+		"jp_text": "リヴィーターダガー",
+		"tr_text": "Revita Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010068",
+		"jp_text": "エクステルダガー",
+		"tr_text": "Exter Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010073",
+		"jp_text": "レヴォルコートダガー",
+		"tr_text": "Revolcoat Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010076",
+		"jp_text": "モノレクスダガー",
+		"tr_text": "Monorex Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010060",
+		"jp_text": "フリューガルドダガー",
+		"tr_text": "Fluegard Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010078",
+		"jp_text": "アルクエイムダガー",
+		"tr_text": "Arquem Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010080",
+		"jp_text": "ブロナーガダガー",
+		"tr_text": "Brawnaga Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010084",
+		"jp_text": "メレク・スコルハティ",
+		"tr_text": "Melekh Skollhati",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010086",
+		"jp_text": "バリオクールダガー",
+		"tr_text": "Variocool Daggers",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "14010094",
+		"jp_text": "ラジャンティエダガー",
+		"tr_text": "L'Argentier Daggers",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

@@ -280,6 +280,13 @@
 		"tr_explain": "Weapon camo designed to minimize\nwaste. A mechanical design has\nbeen engraved on its solid frame."
 	},
 	{
+		"assign": "1013010001",
+		"jp_text": "＊クロフィスウォンド",
+		"tr_text": "＊Clophis Wand",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ウォンド<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Wand<c>"
+	},
+	{
 		"assign": "1013054",
 		"jp_text": "＊スウィートキャンディ",
 		"tr_text": "＊Sweet Candy",
@@ -294,10 +301,45 @@
 		"tr_explain": "A Wand-type weapon camo tipped with\npyroxene. The stone shines brightly as\nif responding to its wielder's spirit."
 	},
 	{
-		"assign": "1013010004",
-		"jp_text": "＊フレーリアウォンド",
-		"tr_text": "＊Frerea Wand",
+		"assign": "1013010003",
+		"jp_text": "＊レリク・バルバトス",
+		"tr_text": "＊Relic Barbatos",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ウォンド<c>",
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Wand<c>"
+	},
+	{
+		"assign": "1013010004",
+		"jp_text": "＊フレーリアウォンド",
+		"tr_text": "＊Fleiri Wand",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ウォンド<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Wand<c>"
+	},
+	{
+		"assign": "1013056",
+		"jp_text": "＊エリュシオン",
+		"tr_text": "＊Elysion",
+		"jp_explain": "剣のような形をした短杖型武器迷彩。\n刀身の部分に刻まれた古代文字が\nフォトンを生みだし、力を授ける。",
+		"tr_explain": "Wand camo shaped like a sword.\nThe inscriptions on the blade produce\nPhotons that grant power."
+	},
+	{
+		"assign": "1013010006",
+		"jp_text": "＊レリク・バルバトスCV",
+		"tr_text": "＊Relic Barbatos CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ウォンド<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Wand<c>"
+	},
+	{
+		"assign": "1013057",
+		"jp_text": "＊宝剣バルムンク",
+		"tr_text": "＊Precious Sword Balmung",
+		"jp_explain": "全身を貴重な宝石のみで構成した\n短杖型武器迷彩。剣のような形姿で\n増幅された法力によって敵を両断する。",
+		"tr_explain": "Wand camo made out of precious\njewels. Able to split enemies in two\nwith its Tech-enhanced blade."
+	},
+	{
+		"assign": "1013058",
+		"jp_text": "＊アダマンの杖",
+		"tr_text": "＊Mace of Adaman",
+		"jp_explain": "魔石『アダマン』を用いた短杖型\n武器迷彩。含有フォトンが氷属性に\n偏っており、先端が冷気を帯びている。",
+		"tr_explain": "A Wand camo that uses Adaman\nSpellstones. Its spiked head is tinged\nwith cold due to its ice-based Photons."
 	}
 ]

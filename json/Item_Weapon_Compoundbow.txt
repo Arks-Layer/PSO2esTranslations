@@ -284,7 +284,7 @@
 		"jp_text": "ナスヨテリ",
 		"tr_text": "Nasuyoteri",
 		"jp_explain": "職人の手で作られた強弓。\n一撃で天災級の破壊をもたらすと\n言われている。",
-		"tr_explain": ""
+		"tr_explain": "A Bullet Bow that was hand-crafted by\nan artisan. It is said that a single shot\nholds the power of a natural disaster."
 	},
 	{
 		"assign": "115056",
@@ -865,7 +865,7 @@
 		"jp_text": "クリシスジェンダー",
 		"tr_text": "Cleasis Gender",
 		"jp_explain": "古に封印されし冥夜の強弓。\n忠実なる巧者を制する悪しき一矢は\n魂と重なる時、一切を貫き圧倒す。",
-		"tr_explain": ""
+		"tr_explain": "An ancient, forbidden dark Bullet Bow.\nWhen the arrows' evil overwhelms its\nwielder, nothing can impede their flight."
 	},
 	{
 		"assign": "1150213",
@@ -1068,14 +1068,14 @@
 		"jp_text": "リュミエルフレーシュ",
 		"tr_text": "Lumiere Fleche",
 		"jp_explain": "古より伝わる陽光の強弓。\n祓いの光を持つ聖なる矢は\n闇を封じ、光明もたらす弓となる。",
-		"tr_explain": ""
+		"tr_explain": "An ancient Bullet Bow of the Sun. The\npurifying light of its holy arrows seal\ndarkness and bring light to the world."
 	},
 	{
 		"assign": "1150247",
 		"jp_text": "ジュティスフレーシュ",
 		"tr_text": "Jutus Fleche",
 		"jp_explain": "古より伝わる陽光の強弓。\n忠実なる巧者より放たれし光の一矢は\n悪しきを貫き、圧倒する。",
-		"tr_explain": ""
+		"tr_explain": "An ancient Bullet Bow of the Sun.\nWhen fired by an honest master, these\narrows of light pierce through evil."
 	},
 	{
 		"assign": "1150248",
@@ -1103,14 +1103,14 @@
 		"jp_text": "フルフカーススカル",
 		"tr_text": "Vulfekurse Skull",
 		"jp_explain": "魔物種の骨格を再利用して作られた\n強弓。矢を射る度に\n何故か鉄のような匂いと悪寒がする。",
-		"tr_explain": ""
+		"tr_explain": "A Longbow made out of Demon\nbones. Firing an arrow somehow\ncauses a dreadful metallic odor."
 	},
 	{
 		"assign": "1150255",
 		"jp_text": "トリーストスカル",
 		"tr_text": "Trist Skull",
 		"jp_explain": "魔物種の骨格を再利用して作られた\n強弓。時折声が聞こえるなど\n不可思議な逸話を多く持つ。",
-		"tr_explain": ""
+		"tr_explain": "A Longbow made out of Demon\nbones. Owners have reportedly heard\nvoices & other mysterious phenomena."
 	},
 	{
 		"assign": "1150256",
@@ -1208,14 +1208,14 @@
 		"jp_text": "フォボスアルクス",
 		"tr_text": "Phobos Arcus",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った強弓。弓自身から造られる\nフォトンの矢は恐怖と共に標的を貫く。",
-		"tr_explain": ""
+		"tr_explain": "A Bullet Bow with an ominous, bladed\nform. The Photon arrows drawn from\nthe bow strike terror into its target."
 	},
 	{
 		"assign": "1150278",
 		"jp_text": "ニーケアルクス",
 		"tr_text": "Nike Arcus",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った強弓。美しく強靱な弦が放つ\nフォトンアローが勝利を射抜く。",
-		"tr_explain": ""
+		"tr_explain": "A Bullet Bow with an ominous, bladed\nform. The Photon arrows fired from its\nstring fly straight and true to victory."
 	},
 	{
 		"assign": "1150281",
@@ -1334,14 +1334,14 @@
 		"jp_text": "星震弓オブリガシオン",
 		"tr_text": "Celestial Obligaxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した強弓。願いの欠片を集めた時\n意志は蘇り、弓は精彩を取り戻す。",
-		"tr_explain": "A Bullet Bow touched by a time\ntraveller's heart. Its collected hopes\nhave restored its will and its vividness."
+		"tr_explain": "A Bullet Bow touched by a time\ntraveler's heart. Its collected hopes\nhave restored its will and its vividness."
 	},
 	{
 		"assign": "1150302",
 		"jp_text": "光跡弓オブリガシオン",
 		"tr_text": "Lightstream Obligaxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ強弓。希望に彩られた弓矢は\n輝き満ちる運命を描きだす。",
-		"tr_explain": "A Bullet Bow that links the stars,\nbonded to a time traveller. Its arrows\ndraw a shining future into being."
+		"tr_explain": "A Bullet Bow that links the stars,\nbonded to a time traveler. Its arrows\ndraw a shining future into being."
 	},
 	{
 		"assign": "1150304",
@@ -1540,6 +1540,27 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "115010025",
+		"jp_text": "コルディークボウ",
+		"tr_text": "Coldic Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010026",
+		"jp_text": "ネオス・アストリオンボウ",
+		"tr_text": "Neos Astreon Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010032",
+		"jp_text": "プリムボウ・リブラ",
+		"tr_text": "Prim Bow Libra",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "115010033",
 		"jp_text": "レリク・ベネディクト",
 		"tr_text": "Relic Benedict",
@@ -1561,6 +1582,27 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "115010037",
+		"jp_text": "クリスティアボウ",
+		"tr_text": "Crystia Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010039",
+		"jp_text": "セイガヨウボウ",
+		"tr_text": "Seigayou Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010040",
+		"jp_text": "トランクールボウ",
+		"tr_text": "Trunkle Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "115010041",
 		"jp_text": "レネッサボウ",
 		"tr_text": "Renessa Bow",
@@ -1568,9 +1610,135 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "115010042",
+		"jp_text": "ガンブレイズボウ",
+		"tr_text": "Gunblaze Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "115010043",
 		"jp_text": "エヴォルイクリスボウ",
 		"tr_text": "Evoleclis Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010044",
+		"jp_text": "ククロフィスボウ",
+		"tr_text": "Kouklophis Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010045",
+		"jp_text": "オブゾディアボウ",
+		"tr_text": "Obsidia Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010049",
+		"jp_text": "カイゼラムボウ試製壱型",
+		"tr_text": "Kaiseram Bow Prototype",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010050",
+		"jp_text": "セイガインボウ",
+		"tr_text": "Seigain Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010051",
+		"jp_text": "ネオス・ユースティロンボウ",
+		"tr_text": "Neos Justilon Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010046",
+		"jp_text": "ファーシュメルボウ",
+		"tr_text": "Verschmel Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010047",
+		"jp_text": "テスア・ハイロカルボウ",
+		"tr_text": "Tesua Hilokal Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010057",
+		"jp_text": "リヴィーターボウ",
+		"tr_text": "Revita Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010055",
+		"jp_text": "エクステルボウ",
+		"tr_text": "Exter Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010058",
+		"jp_text": "レヴォルコートボウ",
+		"tr_text": "Revolcoat Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010061",
+		"jp_text": "モノレクスボウ",
+		"tr_text": "Monorex Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010052",
+		"jp_text": "フリューガルドボウ",
+		"tr_text": "Fluegard Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010062",
+		"jp_text": "アルクエイムボウ",
+		"tr_text": "Arquem Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010063",
+		"jp_text": "ブロナーガボウ",
+		"tr_text": "Brawnaga Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010065",
+		"jp_text": "メレク・ベネディクト",
+		"tr_text": "Melekh Benedict",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010066",
+		"jp_text": "バリオクールボウ",
+		"tr_text": "Variocool Bow",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010072",
+		"jp_text": "ラジャンティエボウ",
+		"tr_text": "L'Argentier Bow",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

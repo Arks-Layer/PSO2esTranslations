@@ -277,7 +277,7 @@
 		"jp_text": "＊トリミンドライビット",
 		"tr_text": "＊Trimmind Ryvit",
 		"jp_explain": "民間技術局Ｌ．Ｔ．Ｃ．製の武器迷彩。\n右と左それぞれが意志を持っており\n心を合わせる事で第三の魂が宿る。",
-		"tr_explain": "Camo made by the LTC Tech Bureau.\nEach side has its own soul, and their\nhearts together give rise to a third."
+		"tr_explain": "Camo designed by 民間技術局L.T.C.\nEach side has its own soul, and their\nhearts together give rise to a third."
 	},
 	{
 		"assign": "1010041",
@@ -378,9 +378,16 @@
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Twin Machineguns/Wand<c>"
 	},
 	{
+		"assign": "1010010003",
+		"jp_text": "＊レリク・オブシディアン",
+		"tr_text": "＊Relic Obsidian",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ツインマシンガン<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Twin Machineguns<c>"
+	},
+	{
 		"assign": "1010010004",
 		"jp_text": "＊フレーリアマシンガン",
-		"tr_text": "＊Frerea Machineguns",
+		"tr_text": "＊Fleiri Machine Guns",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ツインマシンガン<c>",
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Twin Machineguns<c>"
 	},
@@ -397,5 +404,54 @@
 		"tr_text": "＊Noire Mirrors",
 		"jp_explain": "機械的な作りをしながらも神秘的な\n雰囲気を漂わせた双機銃型武器迷彩。\n漆黒の銃身から放たれる弾丸は鮮烈。",
 		"tr_explain": "Twin Machinegun camo of a\nmysterious make. Fires visually\nstriking bullets from jet black barrels."
+	},
+	{
+		"assign": "1010071",
+		"jp_text": "＊ガルド・ミラ",
+		"tr_text": "＊Guld Milla",
+		"jp_explain": "全てが謎に包まれた双機銃型武器迷彩。\n製作者などは一切不明で\n詳細な解析結果が待たれている。",
+		"tr_explain": "Weapon camo of a mysterious ultimate\nweapon. Even its creator is unknown,\npending further analysis."
+	},
+	{
+		"assign": "1010010006",
+		"jp_text": "＊レリク・オブシディアンCV",
+		"tr_text": "＊Relic Obsidian CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ツインマシンガン<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Twin Machineguns<c>"
+	},
+	{
+		"assign": "1010072",
+		"jp_text": "＊パンドラエクストリーム",
+		"tr_text": "＊Pandora Extreme",
+		"jp_explain": "ただ一つの希望を守るという双機銃型\n武器迷彩。死角のない攻撃を可能とし\n一切の災厄を寄せ付けない。",
+		"tr_explain": "Twin Machinegun camo that holds a\nsingle hope. Its attacks leave no blind\nspots for danger to approach from."
+	},
+	{
+		"assign": "1010073",
+		"jp_text": "＊ヤスミノコフ９０００Ｍ",
+		"tr_text": "＊Yasminkov 9000M",
+		"jp_explain": "絶大な人気を博した双機銃型武器迷彩。\n幾度となく改良が施され\n機能とともに信頼性も向上している。",
+		"tr_explain": "Twin Machinegun camo with a cult\nfollowing. It has been given countless\nimprovements to its performance."
+	},
+	{
+		"assign": "1010010007",
+		"jp_text": "＊ソフィスティスオブス",
+		"tr_text": "＊Sophistis Obs",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ツインマシンガン／\nカタナ　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Twin Machineguns/Katana\nand others<c>"
+	},
+	{
+		"assign": "1010074",
+		"jp_text": "＊ブリッツフェンダー",
+		"tr_text": "＊Blitz Fender",
+		"jp_explain": "伝説の銃工が設計した双機銃型\n武器迷彩。設計図の段階で\n威力の高さが保証されていた。",
+		"tr_explain": "Twin Machinegun camo designed by a\nlegendary engineer. Its power was\nobvious even at the blueprint stage."
+	},
+	{
+		"assign": "1010010008",
+		"jp_text": "＊ロベルタの二丁拳銃",
+		"tr_text": "＊Roberta's Dual Handguns",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ツインマシンガン<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Twin Machineguns<c>"
 	}
 ]

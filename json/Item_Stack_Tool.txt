@@ -679,6 +679,69 @@
 		"tr_explain": "Особый кристалл, который дают\nищущим силы.\nМожно обменивать на предметы\nв определённых местах."
 	},
 	{
+		"assign": "37010007",
+		"jp_text": "N-Huエクスキューブ",
+		"tr_text": "N-Hu Excube",
+		"jp_explain": "ハンタークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010008",
+		"jp_text": "N-Raエクスキューブ",
+		"tr_text": "N-Ra Excube",
+		"jp_explain": "レンジャークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010009",
+		"jp_text": "N-Foエクスキューブ",
+		"tr_text": "N-Fo Excube",
+		"jp_explain": "フォースクラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010010",
+		"jp_text": "N-Fiエクスキューブ",
+		"tr_text": "N-Fi Excube",
+		"jp_explain": "ファイタークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010011",
+		"jp_text": "N-Guエクスキューブ",
+		"tr_text": "N-Gu Excube",
+		"jp_explain": "ガンナークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010012",
+		"jp_text": "N-Teエクスキューブ",
+		"tr_text": "N-Te Excube",
+		"jp_explain": "テクタークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010013",
+		"jp_text": "N-Brエクスキューブ",
+		"tr_text": "N-Br Excube",
+		"jp_explain": "ブレイバークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010014",
+		"jp_text": "N-Boエクスキューブ",
+		"tr_text": "N-Bo Excube",
+		"jp_explain": "バウンサークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010015",
+		"jp_text": "N-Waエクスキューブ",
+		"tr_text": "N-Wa Excube",
+		"jp_explain": "ウェイカークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "37010016",
 		"jp_text": "N-グラインダー",
 		"tr_text": "N-Grinder",
@@ -703,15 +766,15 @@
 		"assign": "37010020",
 		"jp_text": "Bトリガー/エアルイエロー",
 		"tr_text": "ТБ: Эарио (Жёлтый)",
-		"jp_explain": "バトルディアで使用するトリガー。\n“エアリオトルーパーズ”の\nクリア時に消費される。",
-		"tr_explain": "Триггер используемый в Батлдии.\nРасходуется по завершении:\n\"Солдаты Эарио\"."
+		"jp_explain": "アイテムリサイクルで\n“Bトリガー/コモンイエロー“\nと交換できる。\n<yellow>※Bトリガーとしては使用不可<c>",
+		"tr_explain": ""
 	},
 	{
 		"assign": "37010021",
 		"jp_text": "Bトリガー/エアルパープル",
 		"tr_text": "ТБ: Эарио (Фиолетовый)",
-		"jp_explain": "バトルディアで使用するトリガー。\n“エアリオデバステーターズ”の\nクリア時に消費される。",
-		"tr_explain": "Триггер используемый в Батлдии.\nРасходуется по завершении:\n\"Опустошители Эарио\"."
+		"jp_explain": "アイテムリサイクルで\n“Bトリガー/コモンパープル“\nと交換できる。\n<yellow>※Bトリガーとしては使用不可<c>",
+		"tr_explain": ""
 	},
 	{
 		"assign": "37010022",
@@ -731,15 +794,15 @@
 		"assign": "37010024",
 		"jp_text": "Bトリガー/リテナイエロー",
 		"tr_text": "ТБ: Ритем (Жёлтый)",
-		"jp_explain": "バトルディアで使用するトリガー。\n“リテムトルーパーズ”の\nクリア時に消費される。",
-		"tr_explain": "Триггер используемый в Батлдии.\nРасходуется по завершении:\n\"Солдаты Ритем\"."
+		"jp_explain": "アイテムリサイクルで\n“Bトリガー/コモンイエロー“\nと交換できる。\n<yellow>※Bトリガーとしては使用不可<c>",
+		"tr_explain": ""
 	},
 	{
 		"assign": "37010025",
 		"jp_text": "Bトリガー/リテナパープル",
 		"tr_text": "ТБ: Ритем (Фиолетовый)",
-		"jp_explain": "バトルディアで使用するトリガー。\n“リテムデバステーターズ”の\nクリア時に消費される。",
-		"tr_explain": "Триггер используемый в Батлдии.\nРасходуется по завершении:\n\"Опустошители Ритем\"."
+		"jp_explain": "アイテムリサイクルで\n“Bトリガー/コモンパープル“\nと交換できる。\n<yellow>※Bトリガーとしては使用不可<c>",
+		"tr_explain": ""
 	},
 	{
 		"assign": "37010026",
@@ -826,6 +889,13 @@
 		"tr_explain": "Док-во активности ARKS.\nВ позднем обновлении можно\nбудет обменять на особые\nпредметы."
 	},
 	{
+		"assign": "37010039",
+		"jp_text": "スティア遠征準備特別票",
+		"tr_text": "",
+		"jp_explain": "活躍したアークスに贈られる証。\nアイテムトレーダーの\n“遠征準備特別票交換”で\n★8武器などと交換できる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "37010040",
 		"jp_text": "チームバッヂ",
 		"tr_text": "Значок команды",
@@ -836,15 +906,14 @@
 		"assign": "37010041",
 		"jp_text": "Bトリガー/クヴァルイエロー",
 		"tr_text": "ТБ: Кварис (Жёлтый)",
-		"jp_explain": "バトルディアで使用するトリガー。\n“クヴァリストルーパーズ”の\nクリア時に消費される。",
-		"tr_explain": "Триггер используемый в Батлдии.\nРасходуется по завершении:\n\"Солдаты Кварис\"."
+		"tr_explain": ""
 	},
 	{
 		"assign": "37010042",
 		"jp_text": "Bトリガー/クヴァルパープル",
 		"tr_text": "ТБ: Кварис (Фиолетовый)",
-		"jp_explain": "バトルディアで使用するトリガー。\n“クヴァリスデバステーターズ”の\nクリア時に消費される。",
-		"tr_explain": "Триггер используемый в Батлдии.\nРасходуется по завершении:\n\"Опустошители Кварис\"."
+		"jp_explain": "アイテムリサイクルで\n“Bトリガー/コモンパープル“\nと交換できる。\n<yellow>※Bトリガーとしては使用不可<c>",
+		"tr_explain": ""
 	},
 	{
 		"assign": "37010043",
@@ -887,5 +956,264 @@
 		"tr_text": "Сноукс",
 		"jp_explain": "氷雪で磨かれたとされる石。\n高値で売却することができる。",
 		"tr_explain": "Камень, отполированный льдом\nи снегом. Можно продать\nпо высокой цене."
+	},
+	{
+		"assign": "37010063",
+		"jp_text": "Qトリガー/統制型ドールズ討伐戦",
+		"tr_text": "Q. Trigger/Overseer-type Subjugation",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\n統制型ドールズ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010064",
+		"jp_text": "Qトリガー/ネクス・ヴェラ討伐戦",
+		"tr_text": "Q. Trigger/Nex Vera Subjugation",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nネクス・ヴェラ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010065",
+		"jp_text": "Qトリガー/採掘リグ防衛戦：エアリオ",
+		"tr_text": "Q. Trigger/Mining Rig Defense: Aelio",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\n採掘リグ防衛戦：エアリオ”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010066",
+		"jp_text": "Qトリガー/レヌス・ヴェラ討伐戦",
+		"tr_text": "Q. Trigger/Lenus Vera Subjugation",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nレヌス・ヴェラ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010067",
+		"jp_text": "Qトリガー/スナイダル・ヴェラ討伐戦",
+		"tr_text": "Q. Trigger/Snaedal Vera Subjugation",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nスナイダル・ヴェラ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010068",
+		"jp_text": "Qトリガー/採掘リグ防衛戦：リテム",
+		"tr_text": "Q. Trigger/Mining Rig Defense: Retem",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\n採掘リグ防衛戦：リテム”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010069",
+		"jp_text": "Qトリガー/クロコダラス・ヴェラ討伐戦",
+		"tr_text": "Q. Trigger/Crocodallus V. Subjugation",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nクロコダラス・ヴェラ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010070",
+		"jp_text": "Qトリガー/アムス・ヴェラ討伐戦",
+		"tr_text": "Q. Trigger/Ams Vera Subjugation",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nアムス・ヴェラ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010071",
+		"jp_text": "Qトリガー/採掘リグ防衛戦：クヴァリス",
+		"tr_text": "Q. Trigger/Mining Rig Defense: Kvaris",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\n採掘リグ防衛戦：クヴァリス”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010072",
+		"jp_text": "アークスレコードバッヂ",
+		"tr_text": "ARKS Record Badge",
+		"jp_explain": "活躍したアークスに贈られるバッヂ。\nアイテムトレーダーの\n“アークスレコードバッヂ交換”で\nアイテムと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010073",
+		"jp_text": "Bトリガー/コモンイエロー",
+		"tr_text": "B. Trigger/Common Yellow",
+		"jp_explain": "すべてのイエローポータルに\n対応するトリガー。\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010074",
+		"jp_text": "Bトリガー/コモンパープル",
+		"tr_text": "B. Trigger/Common Purple",
+		"jp_explain": "すべてのパープルポータルに\n対応するトリガー。\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010075",
+		"jp_text": "Qトリガー/ニルス・ヴェラ討伐戦",
+		"tr_text": "Q. Trigger/Nilus Vera Subjugation",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nニルス・ヴェラ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010076",
+		"jp_text": "Qトリガー/ドルドリス・ヴェラ討伐戦",
+		"tr_text": "Q. Trigger/Doldoris Vera Subjugation",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nドルドリス・ヴェラ討伐戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010077",
+		"jp_text": "Qトリガー/ハルフィリア湖の戦い",
+		"tr_text": "Q. Trigger/Battle of Lake Halphiria",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nハルフィリア湖の戦い”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010078",
+		"jp_text": "エイジスインテグラ",
+		"tr_text": "Aegis Integra",
+		"jp_explain": "ダークファルス・エイジスの基幹部品。\nアイテムトレーダーの\n“エイジスインテグラ交換”で\nアイテムと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010079",
+		"jp_text": "アームズリファイナーⅡ",
+		"tr_text": "Arms Refiner II",
+		"jp_explain": "戦闘セクションなどで\n入手可能な素材。アイテムラボでの\nより高度な限界突破に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010080",
+		"jp_text": "スレイヤー運用準備特別票",
+		"tr_text": "Slayer Preparation Special Emblem",
+		"jp_explain": "活躍したアークスに贈られる証。\nアイテムトレーダーの\n“スレイヤー運用準備特別票交換”で\n武器などと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010081",
+		"jp_text": "N-Slエクスキューブ",
+		"tr_text": "N-Sl Excube",
+		"jp_explain": "スレイヤークラスの求道者に\n与えられる特殊な結晶体。\nクラスカウンターで\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010082",
+		"jp_text": "クリエイティブスペース開発準備特別票",
+		"tr_text": "Creative Space Prep. Special Ticket",
+		"jp_explain": "活躍したアークスに贈られる証。\nアイテムトレーダーの\n“開発準備特別票交換”で\nアイテムと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010083",
+		"jp_text": "Qトリガー/天意無法のエネミー討伐'23",
+		"tr_text": "Q. Trigger/Chaotic Destiny '23",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\n天意無法のエネミー討伐'23”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010084",
+		"jp_text": "Qトリガー/湿原の迎撃戦",
+		"tr_text": "Q. Trigger/Wetland Counteroffensive",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\n湿原の迎撃戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010085",
+		"jp_text": "Qトリガー/荒野の迎撃戦",
+		"tr_text": "Q. Trigger/Wasteland Counteroffensive",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\n荒野の迎撃戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010086",
+		"jp_text": "Qトリガー/ハッピーラッピー大作戦",
+		"tr_text": "Q. Trigger/Happy Rappy Operation",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nハッピーラッピー大作戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010087",
+		"jp_text": "Qトリガー/野望の残滓",
+		"tr_text": "Q. Trigger/Remnants of Ambition",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\n野望の残滓”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010088",
+		"jp_text": "ギガストラグメント",
+		"tr_text": "Gigas Stragment",
+		"jp_explain": "ギガンティクスなどの複合装甲の一部。\nアイテムトレーダーの\n“ギガストラグメント交換”で\nアイテムと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010089",
+		"jp_text": "SGレガシーコーデバッヂ（ヘアー）",
+		"tr_text": "SG Legacy Fashion Badge (Hair)",
+		"jp_explain": "アイテムトレーダーの\n“SGレガシーコーデ交換”で\nアイテムと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010090",
+		"jp_text": "SGレガシーコーデバッヂ（ポーズ）",
+		"tr_text": "SG Legacy Fashion Badge (Pose)",
+		"jp_explain": "アイテムトレーダーの\n“SGレガシーコーデ交換”で\nアイテムと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010091",
+		"jp_text": "グロウスメント",
+		"tr_text": "Growthment",
+		"jp_explain": "ルシエル内部で入手可能な複合素材の一部。\nアイテムトレーダーの\n“グロウスメント交換”で\nアイテムと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010092",
+		"jp_text": "N-マスターキューブ",
+		"tr_text": "N-Master Cube",
+		"jp_explain": "各クラスのさらなる求道者に\n与えられる特殊な結晶体。\nクラスカウンターで、強力な\nアドオンスキルの取得に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010094",
+		"jp_text": "TAカスタマイズディスクＡ／打撃",
+		"tr_text": "TA Customized Disk A/Striking",
+		"jp_explain": "クラスカウンターで打撃武器の\nテックアーツカスタマイズに用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010095",
+		"jp_text": "TAカスタマイズディスクＢ／打撃",
+		"tr_text": "TA Customized Disk B/Striking",
+		"jp_explain": "クラスカウンターで打撃武器の\n高度なテックアーツカスタマイズに用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010096",
+		"jp_text": "TAカスタマイズディスクＡ／射撃",
+		"tr_text": "TA Customized Disk A/Ranged",
+		"jp_explain": "クラスカウンターで射撃武器の\nテックアーツカスタマイズに用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010097",
+		"jp_text": "TAカスタマイズディスクＢ／射撃",
+		"tr_text": "TA Customized Disk B/Ranged",
+		"jp_explain": "クラスカウンターで射撃武器の\n高度なテックアーツカスタマイズに用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010098",
+		"jp_text": "TAカスタマイズディスクＡ／法撃",
+		"tr_text": "TA Customized Disk A/Tech",
+		"jp_explain": "クラスカウンターで法撃武器の\nテックアーツカスタマイズに用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010099",
+		"jp_text": "TAカスタマイズディスクＢ／法撃",
+		"tr_text": "TA Customized Disk B/Tech",
+		"jp_explain": "クラスカウンターで法撃武器の\n高度なテックアーツカスタマイズに用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010100",
+		"jp_text": "TAカスタマイズディスクＸ／統合",
+		"tr_text": "TA Customized Disk X/Unified",
+		"jp_explain": "クラスカウンターですべての武器の\nさらに高度なテックアーツカスタマイズに\n用いる。",
+		"tr_explain": ""
 	}
 ]

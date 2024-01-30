@@ -3185,6 +3185,34 @@
 		"tr_explain": "Ув-т опыт/N-месету/редкие предметы\nна +100% на 24ч с начала исп-я.\n<yellow>※Время будет уменьшаться даже\nпока вы вне игры.<c>"
 	},
 	{
+		"assign": "32010296",
+		"jp_text": "お月見'22Ｓポイント＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>50%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※お月見'22イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010297",
+		"jp_text": "お月見'22Ｓポイント＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>100%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※お月見'22イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010298",
+		"jp_text": "お月見'22Ｓポイント＋200%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>200%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※お月見'22イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010299",
+		"jp_text": "オツキミダンゴ",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>120分間<c>、エネミー撃破時の\n獲得シーズナルポイントが\n<yellow>50%アップ<c>する。\n<yellow>※お月見'22イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
 		"assign": "32010300",
 		"jp_text": "N-獲得経験値[15m]＋5%",
 		"tr_text": "N-Experience Gained [15m] +5%",
@@ -3435,5 +3463,243 @@
 		"tr_text": "N-Rare Drop Rate [15m] +200%",
 		"jp_explain": "使用してから<yellow>15分間<c>\nレアドロップ倍率が<yellow>200%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
 		"tr_explain": "Увел-т выпад-е редких предметов\n<yellow>на 200% на 15мин<c> с начала исп-я.\n<yellow>※Время будет уменьшаться даже\nпока вы вне игры.<c>"
+	},
+	{
+		"assign": "32010336",
+		"jp_text": "オータム'22Ｓポイント＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>50%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※オータム'22イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010337",
+		"jp_text": "オータム'22Ｓポイント＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>100%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※オータム'22イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010338",
+		"jp_text": "オータム'22Ｓポイント＋200%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>200%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※オータム'22イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010339",
+		"jp_text": "ダークファルスパフェ",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>10%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010342",
+		"jp_text": "N-EX獲得経験値[15m]＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>15分間<c>\n獲得経験値が<yellow>50%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010346",
+		"jp_text": "N-EXレアドロップ倍率[15m]＋25%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>15分間<c>\nレアドロップ倍率が<yellow>25%アップ<c>する。\n<yellow>※他ブーストアイテムと効果累積<c>\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010350",
+		"jp_text": "ウィンター'22-'23Ｓポイント＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>50%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※クリスマス'22～ウィンター'23限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010351",
+		"jp_text": "ウィンター'22-'23Ｓポイント＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>100%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※クリスマス'22～ウィンター'23限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010352",
+		"jp_text": "ウィンター'22-'23Ｓポイント＋200%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>200%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※クリスマス'22～ウィンター'23限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010353",
+		"jp_text": "スプリング'23Ｓポイント＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>50%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※スプリング'23イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010354",
+		"jp_text": "スプリング'23Ｓポイント＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>100%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※スプリング'23イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010355",
+		"jp_text": "スプリング'23Ｓポイント＋200%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>200%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※スプリング'23イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010356",
+		"jp_text": "『NGS』2周年記念Ｓポイント＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>50％アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※『NGS』2周年記念イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010357",
+		"jp_text": "『NGS』2周年記念Ｓポイント＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>100％アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※『NGS』2周年記念イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010358",
+		"jp_text": "『NGS』2周年記念Ｓポイント＋200%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>200％アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※『NGS』2周年記念イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010359",
+		"jp_text": "100時間カレー",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>10%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010360",
+		"jp_text": "N-レアドロップ倍率[15m]＋25%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>15分間<c>\nレアドロップ倍率が<yellow>25%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010361",
+		"jp_text": "『PSO2』11周年Ｓポイント＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>50%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※『PSO2』11周年イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010362",
+		"jp_text": "『PSO2』11周年Ｓポイント＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>100%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※『PSO2』11周年イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010363",
+		"jp_text": "『PSO2』11周年Ｓポイント＋200%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>200%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※『PSO2』11周年イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010364",
+		"jp_text": "獲得ジェネシスポイント＋50％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>７日間<c>\n獲得ジェネシスポイントが\n<yellow>50%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010365",
+		"jp_text": "獲得ジェネシスポイント＋100％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>７日間<c>\n獲得ジェネシスポイントが\n<yellow>100%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010366",
+		"jp_text": "獲得ジェネシスポイント＋200％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>７日間<c>\n獲得ジェネシスポイントが\n<yellow>200%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010367",
+		"jp_text": "オータム'23Ｓポイント＋50％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>50%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>オータム'23イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010368",
+		"jp_text": "オータム'23Ｓポイント＋100％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>100%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>オータム'23イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010369",
+		"jp_text": "オータム'23Ｓポイント＋200％",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>200%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>オータム'23イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010370",
+		"jp_text": "ハロウィン'23Ｓポイント＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>50%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※ハロウィン'23イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010371",
+		"jp_text": "ハロウィン'23Ｓポイント＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>100%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※ハロウィン'23イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010372",
+		"jp_text": "ハロウィン'23Ｓポイント＋200%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>200%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※ハロウィン'23イベント期間限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010373",
+		"jp_text": "FUJI-Qパフショコラアソート",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>10%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010374",
+		"jp_text": "ウィンター'23-'24Ｓポイント＋50%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>50%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※クリスマス'23～ウィンター'24限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010375",
+		"jp_text": "ウィンター'23-'24Ｓポイント＋100%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>100%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※クリスマス'23～ウィンター'24限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010376",
+		"jp_text": "ウィンター'23-'24Ｓポイント＋200%",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>200%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※クリスマス'23～ウィンター'24限定<c>",
+		"tr_explain": ""
+	},
+	{
+		"assign": "32010377",
+		"jp_text": "たっぷり魚介のパエリア",
+		"tr_text": "",
+		"jp_explain": "使用してから<yellow>24時間<c>\n獲得N-メセタ、獲得経験値、\nレアドロップ倍率が<yellow>10%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
+		"tr_explain": ""
 	}
 ]

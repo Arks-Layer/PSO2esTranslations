@@ -382,7 +382,7 @@
 		"jp_text": "＊ソロソウルレニックス",
 		"tr_text": "＊Solo Soulenix",
 		"jp_explain": "民間技術局Ｌ．Ｔ．Ｃ．製の武器迷彩。\n光り輝く穂先には意思が宿っており\n主に寄り添う唯一人の相棒となる。",
-		"tr_explain": "Weapon camo designed by 民間技術局L.T.C.\nShines with a will of its own, and\nwill answer only to its owner."
+		"tr_explain": "Camo designed by 民間技術局L.T.C.\nShines with a will of its own, and\nwill answer only to its owner."
 	},
 	{
 		"assign": "1011062",
@@ -567,9 +567,16 @@
 		"tr_explain": "A weapon camo that is augmented\nwith colorful jewels. Its star-shaped\ndecoration can win a maiden's heart."
 	},
 	{
+		"assign": "1011010001",
+		"jp_text": "＊レリク・バトルバージ",
+		"tr_text": "＊Relic Battle Verge",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ロッド<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Rod<c>"
+	},
+	{
 		"assign": "1011010003",
 		"jp_text": "＊クリオ・クラリッサⅢ",
-		"tr_text": "＊Curio Clarissa III",
+		"tr_text": "＊Clio Clarissa III",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ロッド<c>",
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Rod<c>"
 	},
@@ -586,5 +593,61 @@
 		"tr_text": "＊Rabbit Wand",
 		"jp_explain": "先端のマスコットがカワイイ\n長杖型武器迷彩。その見かけから\nアクセサリーとしても珍重される。",
 		"tr_explain": "Rod camo with a cute mascot on\nthe end. For that reason, it is highly\nvalued even just as an accessory."
+	},
+	{
+		"assign": "10110104",
+		"jp_text": "＊デモニックフォーク",
+		"tr_text": "＊Demonic Fork",
+		"jp_explain": "謎の力で装者に不幸を呼ぶとされた\n長杖型武器迷彩。返しのついたその刃は\n捕らえた獲物を決して離すことはない。",
+		"tr_explain": "Rod camo that visits misfortune\nonto its owner. Its bladed prongs\nhook into prey, and it never lets go."
+	},
+	{
+		"assign": "1011010005",
+		"jp_text": "＊レリク・バトルバージCV",
+		"tr_text": "＊Relic Battle Verge CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ロッド<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Rod<c>"
+	},
+	{
+		"assign": "1011010006",
+		"jp_text": "＊アインズの杖",
+		"tr_text": "＊Ainz's Cane",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ロッド／ウォンド<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Rod/Wand<c>"
+	},
+	{
+		"assign": "10110105",
+		"jp_text": "＊神杖アマテラス",
+		"tr_text": "＊Divine Amaterasu",
+		"jp_explain": "伝承上の長杖型武器迷彩。\nかつて巫女と呼ばれていた存在が抱き\n裁きの雷を操っていたという。",
+		"tr_explain": "A camo of a legendary rod owned\nby a shrine maiden. Allows its owner\nto call down divine bolts of judgment."
+	},
+	{
+		"assign": "10110106",
+		"jp_text": "＊アンブラステッキ",
+		"tr_text": "＊Umblla Stick",
+		"jp_explain": "異次元よりの来訪者が、気まぐれに\n置いていったとされる長杖型武器迷彩。\nもとより戦闘に使われていたかは不明。",
+		"tr_explain": "Rod camo left behind on the whims of\nan extradimensional visitor. Unclear if\nit was originally meant for combat."
+	},
+	{
+		"assign": "1011010007",
+		"jp_text": "＊ニャンハンドロッド",
+		"tr_text": "＊Nyan Hand Rod",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ロッド<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Rod<c>"
+	},
+	{
+		"assign": "1011010008",
+		"jp_text": "＊デンドラウロッド",
+		"tr_text": "＊Dendro Rod",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ロッド<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Rod<c>"
+	},
+	{
+		"assign": "1011010009",
+		"jp_text": "＊ラッピージコミ",
+		"tr_text": "＊Rappy Jikomi",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ロッド／カタナ　ほか<c><c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Rod/Katana<c>"
 	}
 ]

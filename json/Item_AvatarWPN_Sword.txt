@@ -774,14 +774,14 @@
 		"jp_text": "＊星震器プレアシオン",
 		"tr_text": "＊Celestial Pleaxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した武器迷彩。純粋な願いを込めた\n力を呼び覚まし、世界に光を届ける。",
-		"tr_explain": "A camo touched by a time traveller's\nheart. Pure wishes have awakened its\npower to bring light to the world."
+		"tr_explain": "A camo touched by a time traveler's\nheart. Pure wishes have awakened its\npower to bring light to the world."
 	},
 	{
 		"assign": "1010130",
 		"jp_text": "＊光跡器クリエシオン",
 		"tr_text": "＊Lightstream Creaxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ武器迷彩。輝く想いを宿し\n揺るぎない意志と共に未来へ歩み出す。",
-		"tr_explain": "A camo that links the stars, bonded to\na time traveller. Its shining feelings\ntake resolute steps toward the future."
+		"tr_explain": "A camo that links the stars, bonded to\na time traveler. Its shining feelings\ntake resolute steps toward the future."
 	},
 	{
 		"assign": "1010131",
@@ -1043,6 +1043,13 @@
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wand\nand others<c>"
 	},
 	{
+		"assign": "101010005",
+		"jp_text": "＊プリムアルマティ・リブラ",
+		"tr_text": "＊Prim Armati Libra",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
 		"assign": "101010006",
 		"jp_text": "＊プリムアルマティ",
 		"tr_text": "＊Prim Armati",
@@ -1110,7 +1117,7 @@
 		"jp_text": "＊テンペスターアルマティ",
 		"tr_text": "＊Tempestar Armati",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／パルチザン　ほか<c>",
-		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partisan\nand others<c>"
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partizan\nand others<c>"
 	},
 	{
 		"assign": "101010016",
@@ -1118,6 +1125,13 @@
 		"tr_text": "＊Gretigga Armati",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010017",
+		"jp_text": "＊レリク・エンドイフ",
+		"tr_text": "＊Relic Endoif",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword<c>"
 	},
 	{
 		"assign": "101010018",
@@ -1176,9 +1190,16 @@
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
 	},
 	{
+		"assign": "101010029",
+		"jp_text": "＊シッドレジッド",
+		"tr_text": "＊Sid Regid",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ツインダガー　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Twin Daggers\nand others<c>"
+	},
+	{
 		"assign": "101010030",
 		"jp_text": "＊フレーリアソード",
-		"tr_text": "＊Frerea Sword",
+		"tr_text": "＊Fleiri Sword",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード<c>",
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword<c>"
 	},
@@ -1190,11 +1211,32 @@
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
 	},
 	{
+		"assign": "101010032",
+		"jp_text": "＊カイゼラムアルマティ",
+		"tr_text": "＊Kaiseram Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
 		"assign": "101010033",
 		"jp_text": "＊アージェンテパラフェナ",
 		"tr_text": "＊Argente Parafena",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ランチャー　ほか<c>",
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Launcher\nand others<c>"
+	},
+	{
+		"assign": "101010034",
+		"jp_text": "＊ククロゼアトアルマティ",
+		"tr_text": "＊Koukloziat Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010035",
+		"jp_text": "＊ラゲードアルマティ",
+		"tr_text": "＊Rugged Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Twin Daggers\nand others<c>"
 	},
 	{
 		"assign": "101010036",
@@ -1215,19 +1257,40 @@
 		"jp_text": "＊オリアレッジアルマティ",
 		"tr_text": "＊Oriealedge Armati",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／パルチザン　ほか<c>",
-		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partisan\nand others<c>"
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partizan\nand others<c>"
 	},
 	{
 		"assign": "101010039",
 		"jp_text": "＊クリオ・コートウェポンD",
-		"tr_text": "＊Curio Coat Weapon D",
+		"tr_text": "＊Clio Coat Weapon D",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ダブルセイバー　ほか<c>",
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Double Saber\nand others<c>"
+	},
+	{
+		"assign": "101010040",
+		"jp_text": "＊ゼクストルアルマティ",
+		"tr_text": "＊Sechstyl Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010041",
+		"jp_text": "＊ロクス・ヴァッフェルアルマティ",
+		"tr_text": "＊Rox Waffle Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Twin Daggers\nand others<c>"
 	},
 	{
 		"assign": "101010042",
 		"jp_text": "＊エヴォルオーヴァアルマティ",
 		"tr_text": "＊Evolover Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010043",
+		"jp_text": "＊レネッサアルマティ",
+		"tr_text": "＊Renessa Armati",
 		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
 	},
@@ -1244,5 +1307,642 @@
 		"tr_text": "＊Dragon Slayer",
 		"jp_explain": "龍を倒した者が手にするとされている\n武器を模した大剣型武器迷彩。\n装者の力を源に恐るべき力を見せる。",
 		"tr_explain": "Sword camo of a weapon considered\nto be carried by those who have\ndefeated dragons."
+	},
+	{
+		"assign": "101010045",
+		"jp_text": "＊コルディークアルマティ",
+		"tr_text": "＊Coldic Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "1010169",
+		"jp_text": "＊マダムノアマガサ",
+		"tr_text": "＊Madam's Umbrella",
+		"jp_explain": "誰しもが求める気品漂う\n大剣型武器迷彩。\nマダムの証として広く知れ渡っている。",
+		"tr_explain": "A Sword weapon camo desired by all\nfor its airy elegance. Said to be proof\nthat one is a true lady."
+	},
+	{
+		"assign": "1010170",
+		"jp_text": "＊カダラインテーグル",
+		"tr_text": "＊Kadlin Teagle",
+		"jp_explain": "古い遺跡で発見された武器を模した\n武器迷彩。欠けた金属部分は\n激しい戦いの日々を感じさせる。",
+		"tr_explain": "Weapon camo found in ancient ruins.\nIts chipped metal tells the tale of how\nintense its daily battles were."
+	},
+	{
+		"assign": "101010046",
+		"jp_text": "＊クリスティアアルマティ",
+		"tr_text": "＊Crystia Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010048",
+		"jp_text": "＊プリムアルマティCV",
+		"tr_text": "＊Prim Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010049",
+		"jp_text": "＊ツヴィアアルマティCV",
+		"tr_text": "＊Tsuvia Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010050",
+		"jp_text": "＊テルセウスアルマティCV",
+		"tr_text": "＊Terseus Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010051",
+		"jp_text": "＊グリッセンアルマティCV",
+		"tr_text": "＊Greisen Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010052",
+		"jp_text": "＊リサージュアルマティCV",
+		"tr_text": "＊Resurge Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010053",
+		"jp_text": "＊キャトリアアルマティCV",
+		"tr_text": "＊Catoria Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ナックル　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Knuckles\nand others<c>"
+	},
+	{
+		"assign": "101010054",
+		"jp_text": "＊ストラーガアルマティCV",
+		"tr_text": "＊Stragga Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010055",
+		"jp_text": "＊エヴォルコートアルマティCV",
+		"tr_text": "＊Evolcoat Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010056",
+		"jp_text": "＊クィンテルアルマティCV",
+		"tr_text": "＊Quintel Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ナックル　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Knuckles\nand others<c>"
+	},
+	{
+		"assign": "101010057",
+		"jp_text": "＊テンペスターアルマティCV",
+		"tr_text": "＊Tempestar Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／パルチザン　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partizan\nand others<c>"
+	},
+	{
+		"assign": "101010058",
+		"jp_text": "＊グレティーガアルマティCV",
+		"tr_text": "＊Gretigga Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010059",
+		"jp_text": "＊レリク・エンドイフCV",
+		"tr_text": "＊Relic Endoif CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword<c>"
+	},
+	{
+		"assign": "101010060",
+		"jp_text": "＊ルメイラーアルマティCV",
+		"tr_text": "＊Lumeira Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010061",
+		"jp_text": "＊サンクエイムアルマティCV",
+		"tr_text": "＊Cinquem Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010062",
+		"jp_text": "＊カイゼラムアルマティCV",
+		"tr_text": "＊Kaiseram Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010064",
+		"jp_text": "＊ククロゼアトアルマティCV",
+		"tr_text": "＊Koukloziat Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010066",
+		"jp_text": "＊ゼクストルアルマティCV",
+		"tr_text": "＊Sechstyl Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010068",
+		"jp_text": "＊エヴォルオーヴァアルマティCV",
+		"tr_text": "＊Evolover Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010070",
+		"jp_text": "＊エヴォルイクリスアルマティCV",
+		"tr_text": "＊Evoleclis Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Twin Daggers\nand others<c>"
+	},
+	{
+		"assign": "101010071",
+		"jp_text": "＊コルディークアルマティCV",
+		"tr_text": "＊Coldic Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010072",
+		"jp_text": "＊クリスティアアルマティCV",
+		"tr_text": "＊Crystia Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010073",
+		"jp_text": "＊オブゾディアアルマティ",
+		"tr_text": "＊Obsidia Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010074",
+		"jp_text": "＊オブゾディアアルマティCV",
+		"tr_text": "＊Obsidia Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010075",
+		"jp_text": "＊アルベドのバルディッシュ",
+		"tr_text": "＊Albedo Bardiche",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／パルチザン　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partizan\nand others<c>"
+	},
+	{
+		"assign": "101010076",
+		"jp_text": "＊アインズ・マクラ",
+		"tr_text": "＊Ainz Pillow",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／パルチザン　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partizan\nand others<c>"
+	},
+	{
+		"assign": "101010077",
+		"jp_text": "＊ウーティルソード",
+		"tr_text": "＊Util Sword",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword<c>"
+	},
+	{
+		"assign": "101010079",
+		"jp_text": "＊ウーティルソードCV",
+		"tr_text": "＊Util Sword CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword<c>"
+	},
+	{
+		"assign": "101010078",
+		"jp_text": "＊セイガヨウアルマティ",
+		"tr_text": "＊Seigayou Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010080",
+		"jp_text": "＊セイガヨウアルマティCV",
+		"tr_text": "＊Seigayou Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "1010171",
+		"jp_text": "＊エリュシオーヌ",
+		"tr_text": "＊Ely-Sion",
+		"jp_explain": "数多の伝説を持つ大剣型武器迷彩。\n惑星さえも切り裂くほどの威力が\n秘められているという。",
+		"tr_explain": "Sword camo that appears in legends\nthroughout history. It is said to hold\nenough power to cut a planet in two."
+	},
+	{
+		"assign": "1010172",
+		"jp_text": "＊タルナーダ",
+		"tr_text": "＊Tarnada",
+		"jp_explain": "古典と最新鋭技術の合いの子の大剣型\n武器迷彩。巨大な見た目に反し携帯性に\n優れ非戦闘時はコンパクトに収まる。",
+		"tr_explain": "A Sword camo that combines old\nand new technology. Returns to\na portable form out of combat."
+	},
+	{
+		"assign": "101010082",
+		"jp_text": "＊ユニハノヒトフリ",
+		"tr_text": "＊Yuniha-no-Hitofuri",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ツインダガー　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Twin Daggers\nand others<c>"
+	},
+	{
+		"assign": "101010083",
+		"jp_text": "＊セイガインアルマティ",
+		"tr_text": "＊Seigain Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010084",
+		"jp_text": "＊セイガインアルマティCV",
+		"tr_text": "＊Seigain Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010085",
+		"jp_text": "＊ククロフィスアルマティ",
+		"tr_text": "＊Kouklophis Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010086",
+		"jp_text": "＊ククロフィスアルマティCV",
+		"tr_text": "＊Kouklophis Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010087",
+		"jp_text": "＊ガンブレイズアルマティ",
+		"tr_text": "＊Gunblaze Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010088",
+		"jp_text": "＊ガンブレイズアルマティCV",
+		"tr_text": "＊Gunblaze Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010089",
+		"jp_text": "＊ネオス・アストリオンアルマティ",
+		"tr_text": "＊Neos Astreon Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010090",
+		"jp_text": "＊ネオス・ユースティロンアルマティ",
+		"tr_text": "＊Neos Justilon Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010091",
+		"jp_text": "＊ネオス・アストリオンアルマティCV",
+		"tr_text": "＊Neos Astreon Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010092",
+		"jp_text": "＊ネオス・ユースティロンアルマティCV",
+		"tr_text": "＊Neos Justilon Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010093",
+		"jp_text": "＊トランクールアルマティ",
+		"tr_text": "＊Trunkle Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010094",
+		"jp_text": "＊トランクールアルマティCV",
+		"tr_text": "＊Trunkle Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010095",
+		"jp_text": "＊甲斐田晴・マクラ",
+		"tr_text": "＊Kaida Haru Pillow",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／パルチザン　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partizan\nand others<c>"
+	},
+	{
+		"assign": "101010096",
+		"jp_text": "＊星川サラ・マクラ",
+		"tr_text": "＊Hoshikawa Sara Pillow",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／パルチザン　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partizan\nand others<c>"
+	},
+	{
+		"assign": "101010097",
+		"jp_text": "＊葉加瀬冬雪・マクラ",
+		"tr_text": "＊Hakase Fuyuki Pillow",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／パルチザン　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partizan\nand others<c>"
+	},
+	{
+		"assign": "101010098",
+		"jp_text": "＊闇ノシュウ・マクラ",
+		"tr_text": "＊Shu Yamino Pillow",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／パルチザン　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partizan\nand others<c>"
+	},
+	{
+		"assign": "101010099",
+		"jp_text": "＊クリオ・ドラゴンスレイヤー",
+		"tr_text": "＊Clio Dragon Slayer",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／パルチザン　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partizan\nand others<c>"
+	},
+	{
+		"assign": "101010100",
+		"jp_text": "＊ホムラタヨウ",
+		"tr_text": "＊Homura Tayou",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010101",
+		"jp_text": "＊ノヴェルアルマティ",
+		"tr_text": "＊Novel Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010103",
+		"jp_text": "＊レイアルマティ",
+		"tr_text": "＊Ray Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010104",
+		"jp_text": "＊フォボスアルマティ",
+		"tr_text": "＊Phobos Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010105",
+		"jp_text": "＊ディムアルマティ",
+		"tr_text": "＊Dim Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010106",
+		"jp_text": "＊ジュティスアルマティ",
+		"tr_text": "＊Jutus Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010107",
+		"jp_text": "＊シエンタヨウ",
+		"tr_text": "＊Shien Tayou",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010112",
+		"jp_text": "＊リヴィーターアルマティ",
+		"tr_text": "＊Revita Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010113",
+		"jp_text": "＊リヴィーターアルマティCV",
+		"tr_text": "＊Revita Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010114",
+		"jp_text": "＊クリオ・ゼイネシスアンガジマ",
+		"tr_text": "＊Clio Zeinesis Angajima",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010115",
+		"jp_text": "＊クリオ・クリファドルサンチマン",
+		"tr_text": "＊Clio Qliphad Ressentiment",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010108",
+		"jp_text": "＊エルゴスタリオ",
+		"tr_text": "＊Ergostalio",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ガンスラッシュ　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Gunslash\nand others<c>"
+	},
+	{
+		"assign": "101010110",
+		"jp_text": "＊ラッピーチェーンソー",
+		"tr_text": "＊Rappy Chainsaw",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword<c>"
+	},
+	{
+		"assign": "101010111",
+		"jp_text": "＊ベリルスマッシャー",
+		"tr_text": "＊Beryl Smasher",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／パルチザン　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partizan\nand others<c>"
+	},
+	{
+		"assign": "101010116",
+		"jp_text": "＊エルフの古代魔導具",
+		"tr_text": "＊Elf's Ancient Magic Tool",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ガンスラッシュ　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Gunslash\nand others<c>"
+	},
+	{
+		"assign": "101010117",
+		"jp_text": "＊凍神剣",
+		"tr_text": "＊God-Freezing Sword",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／パルチザン　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partizan\nand others<c>"
+	},
+	{
+		"assign": "101010118",
+		"jp_text": "＊ルイン・エルダーペイン",
+		"tr_text": "＊Ruin Elder Pain",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／パルチザン　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Partizan\nand others<c>"
+	},
+	{
+		"assign": "101010119",
+		"jp_text": "＊レヴォルコートアルマティ",
+		"tr_text": "＊Revolcoat Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010120",
+		"jp_text": "＊レヴォルコートアルマティCV",
+		"tr_text": "＊Revolcoat Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010121",
+		"jp_text": "＊テスア・ヴァッフェルアルマティ",
+		"tr_text": "＊Tesua Waffle Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010123",
+		"jp_text": "＊ホリティックハーベスター",
+		"tr_text": "＊Horrific Harvester",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ダブルセイバー　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Double Saber\nand others<c>"
+	},
+	{
+		"assign": "101010128",
+		"jp_text": "＊ファーシュメルアルマティ",
+		"tr_text": "＊Verschmel Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010130",
+		"jp_text": "＊アルクエイムアルマティ",
+		"tr_text": "＊Arquem Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010124",
+		"jp_text": "＊ロクス・ラグフェンアルマティCV",
+		"tr_text": "＊Rox Ragphene Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ナックル　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Knuckles\nand others<c>"
+	},
+	{
+		"assign": "101010125",
+		"jp_text": "＊ディオシュタンダート",
+		"tr_text": "＊Dio Standart",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010126",
+		"jp_text": "＊スティームミレーニオ",
+		"tr_text": "＊Steam Millenio",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010127",
+		"jp_text": "＊ピュラスアルマティ",
+		"tr_text": "＊Puras Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010131",
+		"jp_text": "＊ブロナーガアルマティ",
+		"tr_text": "＊Brawnaga Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010133",
+		"jp_text": "＊聖剣エクスカリバー（複製）",
+		"tr_text": "＊Holy Sword Excalibur (Replica)",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ウォンド<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wand<c>"
+	},
+	{
+		"assign": "101010135",
+		"jp_text": "＊バリオクールアルマティ",
+		"tr_text": "＊Variocool Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010137",
+		"jp_text": "＊ラゲードアルマティCV-M1",
+		"tr_text": "＊Rugged Armati CV-M1",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ナックル　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Knuckles\nand others<c>"
+	},
+	{
+		"assign": "101010138",
+		"jp_text": "＊グレンタヨウ",
+		"tr_text": "＊Guren Tayou",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010139",
+		"jp_text": "＊リバレイトアルマティ",
+		"tr_text": "＊Liberate Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010140",
+		"jp_text": "＊バジリスアルマティ",
+		"tr_text": "＊Basilis Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010142",
+		"jp_text": "＊グラヴィルアルマティCV",
+		"tr_text": "＊Gravil Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ダブルセイバー　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Double Saber\nand others<c>"
+	},
+	{
+		"assign": "101010143",
+		"jp_text": "＊クリーサアルマティ",
+		"tr_text": "＊Krisa Armati",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ワイヤードランス　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Wired Lance\nand others<c>"
+	},
+	{
+		"assign": "101010144",
+		"jp_text": "＊呪刃風斬",
+		"tr_text": "＊Cursed Blade Windslash",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ツインダガー　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Twin Daggers\nand others<c>"
+	},
+	{
+		"assign": "101010160",
+		"jp_text": "＊アルクエイムアルマティCV",
+		"tr_text": "＊Arquem Armati CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ソード／ツインダガー　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Sword/Twin Daggers\nand others<c>"
 	}
 ]

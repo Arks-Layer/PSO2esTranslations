@@ -492,9 +492,9 @@
 	{
 		"assign": "3760596",
 		"jp_text": "ＳＧ支援アイテムＳ券",
-		"tr_text": "SG Support Item S Ticket",
+		"tr_text": "SG Support Item Select Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSG Support Item S"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSG Support Item Select"
 	},
 	{
 		"assign": "3760597",
@@ -690,7 +690,7 @@
 		"jp_text": "冬の訪れ！支援アイテムＳ券",
 		"tr_text": "Winter 2020! Support Item Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nWinter 2020! Support Item Selection"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nWinter 2020! Support Item Select"
 	},
 	{
 		"assign": "3760670",
@@ -1159,21 +1159,21 @@
 		"jp_text": "クウェイントＥ券",
 		"tr_text": "Quaint Ensemble Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nQuaint Ensemble Ticket"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nQuaint Ensemble"
 	},
 	{
 		"assign": "376010035",
 		"jp_text": "Ｒウォーリアー券",
 		"tr_text": "Resolute Warrior Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nResolute Warrior Ticket"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nResolute Warrior"
 	},
 	{
 		"assign": "376010037",
 		"jp_text": "Ｅアンダーワールド券",
 		"tr_text": "Edgy Underworld Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nEdgy Underworld Ticket"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nEdgy Underworld"
 	},
 	{
 		"assign": "376010038",
@@ -1185,23 +1185,23 @@
 	{
 		"assign": "376020000",
 		"jp_text": "ＡＣ支援アイテムＳ券",
-		"tr_text": "",
+		"tr_text": "AC Support Item Select Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAC支援アイテムS"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAC Support Item Select"
 	},
 	{
 		"assign": "376010041",
 		"jp_text": "新年！マグ・武器迷彩Ｍ券",
 		"tr_text": "New Year! Mag & Weapon Camo Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея: New Year!\nMag & Weapon Camo Ticket"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nNew Year! Mag & Camo Memory"
 	},
 	{
 		"assign": "376010042",
 		"jp_text": "新年！ＭボイスＭ券",
 		"tr_text": "New Year! M Voice Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nNew Year! M Voice Ticket"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nNew Year! M Voice Memory"
 	},
 	{
 		"assign": "376010043",
@@ -1262,218 +1262,1072 @@
 	{
 		"assign": "376010052",
 		"jp_text": "フラピークラン券",
-		"tr_text": "Floppy Clan Ticket",
+		"tr_text": "Flappy Clan Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nFloppy Clan"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nFlappy Clan"
 	},
 	{
 		"assign": "376010053",
 		"jp_text": "アクセサリーＭ２券",
 		"tr_text": "Accessory M2 Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAccessory M2 Ticket"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAccessory Memories 2"
 	},
 	{
 		"assign": "376010054",
 		"jp_text": "ロビアクメモリーズ券",
 		"tr_text": "Lobby Action Memories Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nLobby Action Memories Ticket"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nLobby Action Memories"
 	},
 	{
 		"assign": "376010055",
 		"jp_text": "ヘアスタイルメモリーズ券",
 		"tr_text": "Hairstyle Memories Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nHairstyle Memories Ticket"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nHairstyle Memories"
 	},
 	{
 		"assign": "376010056",
 		"jp_text": "キャストタイプ１Ｍ券",
-		"tr_text": "",
+		"tr_text": "Cast Type 1 M Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nキャストタイプ1M"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nCast Type 1 Memories"
 	},
 	{
 		"assign": "376010057",
 		"jp_text": "キャストタイプ２Ｍ券",
-		"tr_text": "",
+		"tr_text": "Cast Type 2 M Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nキャストタイプ2M"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nCast Type 2 Memories"
 	},
 	{
 		"assign": "376015061",
 		"jp_text": "『PSO2』10周年SPセレクト券",
-		"tr_text": "",
+		"tr_text": "PSO2 10th Anniversary SP Ticket",
 		"jp_explain": "",
-		"tr_explain": ""
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nPSO2 10th Anniversary SP"
 	},
 	{
 		"assign": "376010058",
 		"jp_text": "カジュアルコンフォート券",
-		"tr_text": "",
+		"tr_text": "Casual Comfort Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nカジュアルコンフォート"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nCasual Comfort"
 	},
 	{
 		"assign": "376010059",
 		"jp_text": "リファインドフォーム２券",
-		"tr_text": "",
+		"tr_text": "Refined Form 2 Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nリファインドフォーム2"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRefined Form 2"
 	},
 	{
 		"assign": "376010061",
 		"jp_text": "ギルディッドグラマー券",
-		"tr_text": "",
+		"tr_text": "Gilded Glamour Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nギルディッドグラマー"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nGilded Glamour"
 	},
 	{
 		"assign": "376020001",
 		"jp_text": "ＡＣ支援アイテムＳ２券",
-		"tr_text": "",
+		"tr_text": "AC Support Item Select 2 Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAC支援アイテムS2"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAC Support Item Select 2"
 	},
 	{
 		"assign": "376010062",
 		"jp_text": "レミニセンスＣ券",
-		"tr_text": "",
+		"tr_text": "Reminiscence Collection Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nレミニセンスC"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nReminiscence Collection"
 	},
 	{
 		"assign": "376010063",
 		"jp_text": "タイプ１ボイスＭ券",
-		"tr_text": "",
+		"tr_text": "Type 1 Voice M Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nタイプ1ボイスM"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nType 1 Voice Memories"
 	},
 	{
 		"assign": "376010064",
 		"jp_text": "タイプ２ボイスＭ券",
-		"tr_text": "",
+		"tr_text": "Type 2 Voice M Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nタイプ2ボイスM"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nType 2 Voice Memories"
 	},
 	{
 		"assign": "376010065",
 		"jp_text": "プレイフルグラップラー券",
-		"tr_text": "",
+		"tr_text": "Playful Grappler Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nプレイフルグラップラー"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nPlayful Grappler"
 	},
 	{
 		"assign": "376010066",
 		"jp_text": "リファインドフォーム３券",
-		"tr_text": "",
+		"tr_text": "Refined Form 3 Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nリファインドフォーム3"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRefined Form 3"
 	},
 	{
 		"assign": "376010068",
 		"jp_text": "オリジナルＣＡ券",
-		"tr_text": "",
+		"tr_text": "Original Creations A Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nオリジナルCA"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nOriginal Creations A"
 	},
 	{
 		"assign": "376010069",
 		"jp_text": "リワインドコレクション券",
-		"tr_text": "",
+		"tr_text": "Rewind Collection Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nリワインドコレクション"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection"
 	},
 	{
 		"assign": "376010070",
 		"jp_text": "ブライダルメモリーズ券",
-		"tr_text": "",
+		"tr_text": "Bridal Memories Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nブライダルメモリーズ"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nBridal Memories"
 	},
 	{
 		"assign": "376020002",
 		"jp_text": "Ｇディヴィニティ券",
-		"tr_text": "",
+		"tr_text": "Galactic Divinity Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nＧディヴィニティ"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nGalactic Divinity"
 	},
 	{
 		"assign": "376020003",
 		"jp_text": "リファインドフォーム４券",
-		"tr_text": "",
+		"tr_text": "Refined Form 4 Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nリファインドフォーム４"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRefined Form 4"
 	},
 	{
 		"assign": "376020005",
 		"jp_text": "オリジナルＣＢ券",
-		"tr_text": "",
+		"tr_text": "Original Creations B Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nオリジナルＣＢ"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nOriginal Creations B"
 	},
 	{
 		"assign": "376020006",
 		"jp_text": "オラクルリバイバル券",
-		"tr_text": "",
+		"tr_text": "Oracle Revival Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nオラクルリバイバル"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nOracle Revival"
 	},
 	{
 		"assign": "376020007",
 		"jp_text": "ペルグリンスタイル券",
-		"tr_text": "",
+		"tr_text": "Peregrine Style Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nペルグリンスタイル"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nPeregrine Style"
 	},
 	{
 		"assign": "376020008",
 		"jp_text": "ハルファアークスＲ券",
-		"tr_text": "",
+		"tr_text": "Halpha ARKS Revival Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nハルファアークスＲ"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nHalpha ARKS Revival"
 	},
 	{
 		"assign": "376020010",
 		"jp_text": "１０周年オラクルＭ券",
-		"tr_text": "",
+		"tr_text": "10th Anniversary Oracle M Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\n１０周年オラクルＭ"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\n10th Anniversary Oracle Memories"
 	},
 	{
 		"assign": "376020011",
 		"jp_text": "ポウラレイメント券",
-		"tr_text": "",
+		"tr_text": "Polar Raiment Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nポウラレイメント"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nPolar Raiment"
 	},
 	{
 		"assign": "376020013",
 		"jp_text": "オリジナルＣＣ券",
-		"tr_text": "",
+		"tr_text": "Original Creations C Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nオリジナルＣＣ"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nOriginal Creations C"
 	},
 	{
 		"assign": "376020014",
 		"jp_text": "リワインドＣ２券",
-		"tr_text": "",
+		"tr_text": "Rewind Collection 2 Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nリワインドＣ２"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection 2"
 	},
 	{
 		"assign": "376020015",
 		"jp_text": "メモリーズオブサマー券",
-		"tr_text": "",
+		"tr_text": "Memories of Summer Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nメモリーズオブサマー"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nMemories of Summer"
+	},
+	{
+		"assign": "376020016",
+		"jp_text": "Sマリンスターズ'22券",
+		"tr_text": "Sunshine Marine Stars '22 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSunshine Marine Stars '22"
 	},
 	{
 		"assign": "376020017",
 		"jp_text": "ウェイカーカパリンス券",
-		"tr_text": "",
+		"tr_text": "Waker Caparison Ticket",
 		"jp_explain": "",
-		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nウェイカーカパリンス"
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nWaker Caparison"
+	},
+	{
+		"assign": "376020019",
+		"jp_text": "リワインドC3券",
+		"tr_text": "Rewind Collection 3 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection 3"
+	},
+	{
+		"assign": "376020020",
+		"jp_text": "シーサイドメモリーズ券",
+		"tr_text": "Seaside Memories Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSeaside Memories"
+	},
+	{
+		"assign": "376020021",
+		"jp_text": "リファインドフォーム5券",
+		"tr_text": "Refined Form 5 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRefined Form 5"
+	},
+	{
+		"assign": "376020023",
+		"jp_text": "AC支援アイテムS3券",
+		"tr_text": "AC Support Item Select 3 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAC Support Item Select 3"
+	},
+	{
+		"assign": "376020024",
+		"jp_text": "Vストリーマーズ券",
+		"tr_text": "Virtual Streamers Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nVirtual Streamers"
+	},
+	{
+		"assign": "376020025",
+		"jp_text": "リワインドC4券",
+		"tr_text": "Rewind Collection 4 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection 4"
+	},
+	{
+		"assign": "376020026",
+		"jp_text": "フルムーンメモリーズ券",
+		"tr_text": "Full Moon Memories Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nFull Moon Memories"
+	},
+	{
+		"assign": "376020027",
+		"jp_text": "ムーンライトS'22券",
+		"tr_text": "Moonlight S '22 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nMoonlight S '22"
+	},
+	{
+		"assign": "376020028",
+		"jp_text": "レミニセンスC2券",
+		"tr_text": "Reminiscence Collection 2 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nReminiscence Collection 2"
+	},
+	{
+		"assign": "376020029",
+		"jp_text": "リファインドフォーム6券",
+		"tr_text": "Refined Form 6 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRefined Form 6"
+	},
+	{
+		"assign": "376020031",
+		"jp_text": "Aディフェンダーズ'22券",
+		"tr_text": "A Defenders '22 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nA Defenders '22"
+	},
+	{
+		"assign": "376020032",
+		"jp_text": "Pメモリーズ券",
+		"tr_text": "P Memories Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nP Memories"
+	},
+	{
+		"assign": "376015076",
+		"jp_text": "秋'22スペシャルセレクト券",
+		"tr_text": "Autumn '22 Select Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAutumn '22"
+	},
+	{
+		"assign": "376020033",
+		"jp_text": "メルティブラッドS券",
+		"tr_text": "Melty Blood Style Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nMelty Blood Style"
+	},
+	{
+		"assign": "376020034",
+		"jp_text": "リファインドフォーム7券",
+		"tr_text": "Refined Form 7 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRefined Form 7"
+	},
+	{
+		"assign": "376020036",
+		"jp_text": "モンスターM'22券",
+		"tr_text": "Monster Masquerade '22 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nMonster Masquerade '22"
+	},
+	{
+		"assign": "376020037",
+		"jp_text": "リワインドC5券",
+		"tr_text": "Rewind Collection 5 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection 5"
+	},
+	{
+		"assign": "376020038",
+		"jp_text": "ハロウィンメモリーズ券",
+		"tr_text": "Halloween Memories Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nHalloween Memories"
+	},
+	{
+		"assign": "376020039",
+		"jp_text": "AC支援アイテムS4券",
+		"tr_text": "AC Support Items Select 4 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAC Support Items Select 4"
+	},
+	{
+		"assign": "376020040",
+		"jp_text": "セレスティアルセイント券",
+		"tr_text": "Celestial Saint Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nCelestial Saint"
+	},
+	{
+		"assign": "376020041",
+		"jp_text": "リファインドフォーム8券",
+		"tr_text": "Refined Form 8 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRefined Form 8"
+	},
+	{
+		"assign": "376020043",
+		"jp_text": "オーバーロードスタイル券",
+		"tr_text": "Overlord Style Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nOverlord Style"
+	},
+	{
+		"assign": "376020044",
+		"jp_text": "スナッグスタイル券",
+		"tr_text": "Snug Style Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSnug Style"
+	},
+	{
+		"assign": "376020045",
+		"jp_text": "リワインドC6券",
+		"tr_text": "Rewind Collection 6 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection 6"
+	},
+	{
+		"assign": "376020046",
+		"jp_text": "ゴシックメモリーズ券",
+		"tr_text": "Gothic Memories Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nGothic Memories"
+	},
+	{
+		"assign": "376020047",
+		"jp_text": "クリスタラインC券",
+		"tr_text": "Crystalline Concepts Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nCrystalline Concepts"
+	},
+	{
+		"assign": "376020048",
+		"jp_text": "AC支援アイテムS5券",
+		"tr_text": "AC Support Items Select 5 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAC Support Items Select 5"
+	},
+	{
+		"assign": "376020049",
+		"jp_text": "リワインドC7券",
+		"tr_text": "Rewind Collection 7 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection 7"
+	},
+	{
+		"assign": "376020050",
+		"jp_text": "ホリデーメモリーズ券",
+		"tr_text": "Holiday Memories Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nHoliday Memories"
+	},
+	{
+		"assign": "376020051",
+		"jp_text": "リファインドフォーム9券",
+		"tr_text": "Refined Form 9 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRefined Form 9"
+	},
+	{
+		"assign": "376020053",
+		"jp_text": "フローズンW'22券",
+		"tr_text": "Frozen World '22 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nFrozen World '22"
+	},
+	{
+		"assign": "376020054",
+		"jp_text": "リワインドC8券",
+		"tr_text": "Rewind Collection 8 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection 8"
+	},
+	{
+		"assign": "376020055",
+		"jp_text": "ニューイヤーM券",
+		"tr_text": "New Year Memories Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nNew Year Memories"
+	},
+	{
+		"assign": "376020056",
+		"jp_text": "ハルファアークスR2券",
+		"tr_text": "Halpha ARKS Revival 2 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nHalpha ARKS Revival"
+	},
+	{
+		"assign": "376020058",
+		"jp_text": "リミックスライン券",
+		"tr_text": "Remix Line Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRemix Line"
+	},
+	{
+		"assign": "376020059",
+		"jp_text": "レミニセンスC3券",
+		"tr_text": "Reminiscent Collection 3 Ticket ",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nReminiscent Collection 3"
+	},
+	{
+		"assign": "376020060",
+		"jp_text": "クウェイントE'23券",
+		"tr_text": "Quaint Ensemble '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nQuaint Ensemble '23"
+	},
+	{
+		"assign": "376020061",
+		"jp_text": "リファインドフォーム10券",
+		"tr_text": "Refined Form 10 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRefined Form 10"
+	},
+	{
+		"assign": "376015077",
+		"jp_text": "春'23スペシャルセレクト券",
+		"tr_text": "Spring '23 Special Scratch Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSpring '23 Special Scratch"
+	},
+	{
+		"assign": "376020063",
+		"jp_text": "コズミックコンヴィクト券",
+		"tr_text": "Cosmic Convict Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nCosmic Convict"
+	},
+	{
+		"assign": "376020064",
+		"jp_text": "スイートメモリーズ券",
+		"tr_text": "Sweet Memories Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSweet Memories"
+	},
+	{
+		"assign": "376020065",
+		"jp_text": "Vライバースタイル券",
+		"tr_text": "Virtual Liver Style Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nVirtual Liver Style"
+	},
+	{
+		"assign": "376020066",
+		"jp_text": "Sワンダーランド券",
+		"tr_text": "Sweet Wonderland Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSweet Wonderland"
+	},
+	{
+		"assign": "376020067",
+		"jp_text": "AC支援アイテムS6券",
+		"tr_text": "AC Support Items Select 6 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAC Support Items Select 6"
+	},
+	{
+		"assign": "376020068",
+		"jp_text": "リワインドC9券",
+		"tr_text": "Rewind Collection 9 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection 9"
+	},
+	{
+		"assign": "376020069",
+		"jp_text": "ボルカニックハート券",
+		"tr_text": "Volcanic Heart Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nVolcanic Heart"
+	},
+	{
+		"assign": "376020071",
+		"jp_text": "モディッシュウィンター券",
+		"tr_text": "Modish Winter Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nModish Winter"
+	},
+	{
+		"assign": "376020072",
+		"jp_text": "リワインドC10券",
+		"tr_text": "Rewind Collection 10 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection 10"
+	},
+	{
+		"assign": "376020073",
+		"jp_text": "アーリースプリングM券",
+		"tr_text": "Early Spring Memories Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nEarly Spring Memories"
+	},
+	{
+		"assign": "376020074",
+		"jp_text": "Mエクスプローラー券",
+		"tr_text": "Mystic Explorer Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nMystic Explorer"
+	},
+	{
+		"assign": "376020075",
+		"jp_text": "リファインドフォームR券",
+		"tr_text": "Refined Form Revival Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRefind Form Revival"
+	},
+	{
+		"assign": "376020076",
+		"jp_text": "ヴィジラントリクルート券",
+		"tr_text": "Vigilant Recruit Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nVigilant Recruit"
+	},
+	{
+		"assign": "376015078",
+		"jp_text": "『NGS』2周年SPセレクト券",
+		"tr_text": "NGS 2nd Anniv. SP Select Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\n\"NGS\" 2nd Anniv. SP Scratch"
+	},
+	{
+		"assign": "376020077",
+		"jp_text": "コンバットクラシックス券",
+		"tr_text": "Combat Classics Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nCombat Classics"
+	},
+	{
+		"assign": "376020078",
+		"jp_text": "スラッシングスレイヤー券",
+		"tr_text": "Slashing Slayer Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSlashing Slayer"
+	},
+	{
+		"assign": "376020080",
+		"jp_text": "アーマーオブダークネス券",
+		"tr_text": "Armor of Darkness Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nArmor of Darkness"
+	},
+	{
+		"assign": "376020081",
+		"jp_text": "スクールデイメモリーズ券",
+		"tr_text": "School Day Memories Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSchool Day Memories"
+	},
+	{
+		"assign": "376020082",
+		"jp_text": "レミニセンスC May'23券",
+		"tr_text": "Reminiscence C May '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nReminiscence Collection May '23"
+	},
+	{
+		"assign": "376020083",
+		"jp_text": "武器迷彩C May'23券",
+		"tr_text": "Weapon Camouflage C May '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nWeapon Camouflage Collection May'23"
+	},
+	{
+		"assign": "376020084",
+		"jp_text": "デザイナーD May'23券",
+		"tr_text": "Designer D May '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nDesigner Dreams May '23"
+	},
+	{
+		"assign": "376020085",
+		"jp_text": "2周年サンクフル景品交換券",
+		"tr_text": "2nd Anniv. Thankful Select Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\n2nd Anniversary Thankful"
+	},
+	{
+		"assign": "376020087",
+		"jp_text": "リファインドF May'23券",
+		"tr_text": "Refined F May '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRefined Form May '23"
+	},
+	{
+		"assign": "376020089",
+		"jp_text": "ソウルオブザワイルド券",
+		"tr_text": "Soul of the Wild Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSoul of the Wild"
+	},
+	{
+		"assign": "376020090",
+		"jp_text": "リワインドC May'23券",
+		"tr_text": "Rewind C May '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection May '23"
+	},
+	{
+		"assign": "376015081",
+		"jp_text": "『PSO2』11周年SPセレクト券",
+		"tr_text": "PSO2 11th Anniv. SP Select Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nPSO2 11th Anniv. SP Select"
+	},
+	{
+		"assign": "376020091",
+		"jp_text": "デザイナードリームズJun'23券",
+		"tr_text": "Designer Dreams Jun '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nDesigner Dreams Jun '23"
+	},
+	{
+		"assign": "376020092",
+		"jp_text": "アクセサリーC Jun'23券",
+		"tr_text": "Accessory Collection Jun '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAccessory Collection Jun '23"
+	},
+	{
+		"assign": "376020093",
+		"jp_text": "AC支援アイテムS Jun'23券",
+		"tr_text": "AC Support Item Select Jun '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAC Support Item Select Jun '23"
+	},
+	{
+		"assign": "376020094",
+		"jp_text": "スピリチュアルC券",
+		"tr_text": "Spiritual Conflict Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSpiritual Conflict"
+	},
+	{
+		"assign": "376020095",
+		"jp_text": "攻殻機動隊 SAC_2045スタイル券",
+		"tr_text": "GitS SAC_2045 Style Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nGHOST IN THE SHELL: SAC_2045 Style"
+	},
+	{
+		"assign": "376020096",
+		"jp_text": "デザイナードリームズJul'23券",
+		"tr_text": "Designer Dreams Jul '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nDesigner Dreams Jul '23"
+	},
+	{
+		"assign": "376020097",
+		"jp_text": "ハルファR Jul'23券",
+		"tr_text": "Halpha Revival Jul '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nHalpha Revival Jul '23"
+	},
+	{
+		"assign": "376020099",
+		"jp_text": "リサージェントフォース券",
+		"tr_text": "Resurgent Force Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nResurgent Force"
+	},
+	{
+		"assign": "376020101",
+		"jp_text": "11周年メモリーズ景品交換券",
+		"tr_text": "11th Anniversary Memories Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nPSO2 11th Anniversary Memories"
+	},
+	{
+		"assign": "376020102",
+		"jp_text": "エキゾチックサマーN券",
+		"tr_text": "Exotic Summer Night Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nExotic Summer Night"
+	},
+	{
+		"assign": "376020103",
+		"jp_text": "リミックスラインJul'23券",
+		"tr_text": "Remix Line Jul '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRemix Line Jul '23"
+	},
+	{
+		"assign": "376020104",
+		"jp_text": "リワインドC Jul'23券",
+		"tr_text": "Rewind Collection Jul '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection Jul '23"
+	},
+	{
+		"assign": "376015082",
+		"jp_text": "秋'23スペシャルセレクト券",
+		"tr_text": "Autumn '23 Special Select Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAutumn '23 Special Scratch"
+	},
+	{
+		"assign": "376015083",
+		"jp_text": "トレジャーセレクト券Vol.1",
+		"tr_text": "Treasure Select Ticket Vol.1",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nTreasure Scratch Vol.1"
+	},
+	{
+		"assign": "376015084",
+		"jp_text": "ハロウィン'23SPセレクト券",
+		"tr_text": "Halloween '23 Special Select Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nHalloween '23 Special Scratch"
+	},
+	{
+		"assign": "376020105",
+		"jp_text": "デザイナードリームズAug'23券",
+		"tr_text": "Designer Dreams Aug '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nDesigner Dreams"
+	},
+	{
+		"assign": "376020106",
+		"jp_text": "異世界おじさんスタイル券",
+		"tr_text": "UfAW Style Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nUncle from Another World Style"
+	},
+	{
+		"assign": "376020107",
+		"jp_text": "AC支援アイテムS Aug'23券",
+		"tr_text": "AC Support Item Select Aug '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAC Support Item Select Aug '23"
+	},
+	{
+		"assign": "376020108",
+		"jp_text": "リワインドC Aug'23券",
+		"tr_text": "Rewind Collection Aug '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection Aug '23"
+	},
+	{
+		"assign": "376020109",
+		"jp_text": "スタイリッシュサマー券",
+		"tr_text": "Stylish Summer Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nStylish Summer"
+	},
+	{
+		"assign": "376020110",
+		"jp_text": "ロビアクC Aug'23券",
+		"tr_text": "Lobby Action C Aug '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nLobby Action Collection Aug '23"
+	},
+	{
+		"assign": "376020111",
+		"jp_text": "ムーンライトS'23券",
+		"tr_text": "Moonlight Sanctuary '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nMoonlight Sanctuary '23"
+	},
+	{
+		"assign": "376020112",
+		"jp_text": "【推しの子】スタイル券",
+		"tr_text": "\"Oshi no Ko\" Style Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\n\"Oshi no Ko\" Style"
+	},
+	{
+		"assign": "376020113",
+		"jp_text": "リファインドF Sep'23券",
+		"tr_text": "Refined Form Sep '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRefined Form Sep '23"
+	},
+	{
+		"assign": "376020115",
+		"jp_text": "サイバーコンフォート券",
+		"tr_text": "Cyber Comfort Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nCyber Comfort"
+	},
+	{
+		"assign": "376020116",
+		"jp_text": "SG支援アイテムS Sep'23券",
+		"tr_text": "SG Support Item Select Sep '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSG Support Item Select Sep '23"
+	},
+	{
+		"assign": "376020117",
+		"jp_text": "タイプ1ボイスC Oct'23券",
+		"tr_text": "Type 1 Voice C Oct '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nType 1 Voice Collection Oct '23"
+	},
+	{
+		"assign": "376020118",
+		"jp_text": "タイプ2ボイスC Oct'23券",
+		"tr_text": "Type 2 Voice C Oct '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nType 2 Voice Collection Oct '23"
+	},
+	{
+		"assign": "376020119",
+		"jp_text": "リワインドC Oct'23券",
+		"tr_text": "Rewind Collection Oct '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection Oct '23"
+	},
+	{
+		"assign": "376015085",
+		"jp_text": "トレジャーセレクト券Vol.2",
+		"tr_text": "Treasure Select Ticket Vol.2",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nTreasure Scratch Vol.2"
+	},
+	{
+		"assign": "376015086",
+		"jp_text": "冬'23-'24スペシャルセレクト券",
+		"tr_text": "Winter '23-24 Special Select Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nWinter '23-24 Special Select"
+	},
+	{
+		"assign": "376020120",
+		"jp_text": "『NGS』ヘアスタイルR券",
+		"tr_text": "NGS Hairstyle Revival Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nNGS Hairstyle Revival"
+	},
+	{
+		"assign": "376020121",
+		"jp_text": "ストリートビート券",
+		"tr_text": "Street Beat Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nStreet Beat"
+	},
+	{
+		"assign": "376020122",
+		"jp_text": "スプリガンスタイル券",
+		"tr_text": "Spriggan Style Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSpriggan Style"
+	},
+	{
+		"assign": "376020123",
+		"jp_text": "モンスターM'23券",
+		"tr_text": "Monster Masquerade '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nMonster Masquerade '23"
+	},
+	{
+		"assign": "376020124",
+		"jp_text": "リミックスラインNov'23券",
+		"tr_text": "Remix Line Nov '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRemix Line Nov '23"
+	},
+	{
+		"assign": "376020125",
+		"jp_text": "エレメンタルD券",
+		"tr_text": "Elemental Defender Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nElemental Defender"
+	},
+	{
+		"assign": "376020126",
+		"jp_text": "リファインドF Nov'23券",
+		"tr_text": "Refined Form Nov '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRefined Form Nov '23"
+	},
+	{
+		"assign": "376020128",
+		"jp_text": "AC支援アイテムS Nov'23券",
+		"tr_text": "AC Support Item Select Nov '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAC Support Item Select Nov '23"
+	},
+	{
+		"assign": "376020129",
+		"jp_text": "フレームアームズスタイル券",
+		"tr_text": "Frame Arms Style Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nFrame Arms Style"
+	},
+	{
+		"assign": "376020130",
+		"jp_text": "SG支援アイテムS Nov'23券",
+		"tr_text": "SG Support Item Select Nov '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSG Support Item Select Nov '23"
+	},
+	{
+		"assign": "376020131",
+		"jp_text": "アクセサリーC Nov'23券",
+		"tr_text": "Accessories Collection Nov '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nAccessories Collection Nov '23"
+	},
+	{
+		"assign": "376020132",
+		"jp_text": "ジョイフルホリデーズ券",
+		"tr_text": "Joyful Holidays Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nJoyful Holidays"
+	},
+	{
+		"assign": "376020133",
+		"jp_text": "モーションリバイバル券",
+		"tr_text": "Motion Revival Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nMotion Revival"
+	},
+	{
+		"assign": "376020134",
+		"jp_text": "リワインドC Dec'23券",
+		"tr_text": "Rewind Collection Dec '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRewind Collection Dec '23"
+	},
+	{
+		"assign": "376020135",
+		"jp_text": "ブラックラグーンスタイル券",
+		"tr_text": "Black Lagoon Style Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nBlack Lagoon Style"
+	},
+	{
+		"assign": "376020136",
+		"jp_text": "ニューイヤーズチャーム券",
+		"tr_text": "New Year's Charm Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nNew Year's Charm"
+	},
+	{
+		"assign": "376020137",
+		"jp_text": "ハルファR Dec'23券",
+		"tr_text": "Halpha Revival Dec '23 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nHalpha Revival Dec '23"
+	},
+	{
+		"assign": "376020139",
+		"jp_text": "新春『NGS』ロビアクR券",
+		"tr_text": "New Year NGS Lobby Action Revival Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nNY NGS Lobby Action Revival"
+	},
+	{
+		"assign": "376020140",
+		"jp_text": "新春リミックスライン券",
+		"tr_text": "New Year Remix Line Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nNew Year Remix Line"
+	},
+	{
+		"assign": "376020141",
+		"jp_text": "新春AC支援アイテムS券",
+		"tr_text": "New Year AC Support Item Select Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nNew Year AC Support Item Select"
+	},
+	{
+		"assign": "376020142",
+		"jp_text": "Mウィンター'24券",
+		"tr_text": "Modish Winter '24 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nModish Winter '24"
+	},
+	{
+		"assign": "376020143",
+		"jp_text": "リニュードリゾルブ券",
+		"tr_text": "Renew Resolve Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nRenew Resolve"
+	},
+	{
+		"assign": "376020145",
+		"jp_text": "『七つの大罪』スタイル券",
+		"tr_text": "The Seven Deadly Sins Style Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nThe Seven Deadly Sins Style"
+	},
+	{
+		"assign": "376020146",
+		"jp_text": "『NGS』アクセサリーR券",
+		"tr_text": "NGS Accessory Revival Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nNGS Accessory Revival"
+	},
+	{
+		"assign": "376020147",
+		"jp_text": "SG支援アイテムS Jan'24券",
+		"tr_text": "SG Support Item Select Jan '24 Ticket",
+		"jp_explain": "",
+		"tr_explain": "Во время действия лотереи можно\nвыбрать/обменять один подарок.\nЦелевая лотерея:\nSG Support Item Select Jan '24"
 	}
 ]

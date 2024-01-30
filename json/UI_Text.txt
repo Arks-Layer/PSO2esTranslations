@@ -465,6 +465,11 @@
 		"tr_text": ""
 	},
 	{
+		"assign": "acshop_dialog_scc_article_button",
+		"jp_text": "特商法12条の6に基づく表示",
+		"tr_text": ""
+	},
+	{
 		"assign": "acshop_dialog_b_28",
 		"jp_text": "<%item_name>を購入します。\nよろしいですか？\n\n所持数：<%current_item_num>\n\n必要<%AC>：<%consume_AC>\n所持<%AC>：<%current_AC>",
 		"tr_text": "You want to buy <%item_name>.\nIs that ok?\n\nOwned: <%current_item_num>\n\nNeeded <%AC>: <%consume_AC>\nHave: <%current_AC>"
@@ -941,8 +946,8 @@
 	},
 	{
 		"assign": "rshop_dialog_b_02",
-		"jp_text": "{0}×{1}\nと、以下のアイテムを交換します。よろしいですか？",
-		"tr_text": "The following items will be exchanged for\n{1} x {0}. Are you sure?"
+		"jp_text": "{0}×{1}\n上記アイテムを入手するために以下のアイテムが\n消費されます。よろしいですか？",
+		"tr_text": ""
 	},
 	{
 		"assign": "rshop_dialog_t_03",
@@ -20515,6 +20520,11 @@
 		"tr_text": "Sell Selected"
 	},
 	{
+		"assign": "acceptbox_all_select_button_title",
+		"jp_text": "一括選択(ページ内)",
+		"tr_text": ""
+	},
+	{
 		"assign": "acceptbox_sale_selected_count",
 		"jp_text": "売却数  <%num><color=#68a0a7>/</color><%max>",
 		"tr_text": "Selling: <%num><color=#68a0a7>/</color><%max>"
@@ -21041,7 +21051,7 @@
 	},
 	{
 		"assign": "equip_child_chip_total_num",
-		"jp_text": "{0}<color=\"#688ca7\">/</color> {1}",
+		"jp_text": " {0}<color=\"#688ca7\">/</color>{1}",
 		"tr_text": ""
 	},
 	{
@@ -24185,6 +24195,11 @@
 		"tr_text": "NEXT>>"
 	},
 	{
+		"assign": "scrach_dialog_limit_date",
+		"jp_text": "配信期間：{0}",
+		"tr_text": ""
+	},
+	{
 		"assign": "raid_scratch_dialog_new_b_01",
 		"jp_text": "ボーナスポイント <color=yellow>{0}</color>ptで\nボーナススクラッチ\n「{1}」を<color=yellow>{2}</color>回引きます。\nよろしいですか？\n",
 		"tr_text": "Now spending <color=yellow>{0}</color> Bonus Points\nto draw {2} times on the\n{1} Bonus Scratch.\nDo you wish to continue?"
@@ -25021,7 +25036,7 @@
 	},
 	{
 		"assign": "setting_ranking_ura_towerquest_max",
-		"jp_text": "（30F）",
+		"jp_text": "（{0}F）",
 		"tr_text": ""
 	},
 	{
@@ -25416,12 +25431,57 @@
 	},
 	{
 		"assign": "assist_chip_guide_message",
-		"jp_text": "<color=#f0df60>フレンドを助けるアシストチップの設定を行うことができます。未設定の場合は、選択中の装備パレットのＳＰスロットに装備されたチップがアシストチップとして使用されます。</color>",
+		"jp_text": "<color=#f0df60>フレンドを助けるアシストチップの設定を行うことができます。アシストチップが未設定の場合は、選択中の装備パレットの武器とＳＰスロットに装備されたチップがフレンドアシストとして使用されます。</color>",
 		"tr_text": ""
 	},
 	{
 		"assign": "palette_equip_assist_chip_button",
 		"jp_text": "アシスト設定",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_item_rate_dialog_title",
+		"jp_text": "アイテム排出確率",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_item_rate_dialog_message",
+		"jp_text": "※アイテムごとに個別に表示している提供割合は表示上小数点第4位以下を切り捨てているため、\n　　全て合算しても100%にならない場合がございます。\n※表示はアイテム投入全数時における提供割合となります。そのため提供割合1%のアイテムが100回中1回、\n　　必ず排出される仕組みではございません。\n※ACスクラッチから排出されるアイテムは、『NGS』で使用することができます。\n※各アイテムの詳細情報につきましては、『NGS』内でご確認いただけます。",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_item_rate_dialog_rate",
+		"jp_text": "{0}  {1}％",
+		"tr_text": ""
+	},
+	{
+		"assign": "scrach_item_rate_button",
+		"jp_text": "確率表示",
+		"tr_text": ""
+	},
+	{
+		"assign": "sbattle_effect_auto_button_start",
+		"jp_text": "効果オート開始",
+		"tr_text": ""
+	},
+	{
+		"assign": "sbattle_effect_auto_button_stop",
+		"jp_text": "効果オート停止",
+		"tr_text": ""
+	},
+	{
+		"assign": "sbattle_ranking_undercount_title",
+		"jp_text": "極討サバイバルランキングの集計中",
+		"tr_text": ""
+	},
+	{
+		"assign": "sbattle_ranking_undercount_body",
+		"jp_text": "ランキング報酬の受け取り期間\n\n　受け取り開始　<%StartTime>\n　受け取り終了　<%EndTime>",
+		"tr_text": ""
+	},
+	{
+		"assign": "sbattle_ranking_receive_reward_linetext",
+		"jp_text": "参加したイベントのランキング報酬が「受け取りボックス」へ配付されました",
 		"tr_text": ""
 	}
 ]

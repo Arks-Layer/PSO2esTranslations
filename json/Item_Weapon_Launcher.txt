@@ -193,7 +193,7 @@
 		"jp_text": "インフェルノバズーカ",
 		"tr_text": "Inferno Bazooka",
 		"jp_explain": "高い破壊力を誇る実弾を発射する大砲。\n周辺の万物を吹き飛ばすため\n扱いには十分な注意が必要。",
-		"tr_explain": "A Launcher which fires solid bullets\nthat boast high destructive power.\nCan blow away everything nearby."
+		"tr_explain": "A Launcher which boasts unparalleled\ndestructive force. Requires caution to\nnot get caught up in its blast."
 	},
 	{
 		"assign": "19029",
@@ -242,7 +242,7 @@
 		"jp_text": "ボマーノワール",
 		"tr_text": "Bomber Noir",
 		"jp_explain": "フォトンの出力が非常に高い大砲。\n漆黒の砲身から破壊の渦を巻き起こす。\n全クラス装備可能な、特殊な武器。",
-		"tr_explain": "A Launcher with high Photon output.\nThis jet-black gun creates a vortex\nof destruction. All classes can equip."
+		"tr_explain": "A Launcher with high Photon output.\nThis jet-black gun creates a vortex\nof destruction. All Classes can equip."
 	},
 	{
 		"assign": "19037",
@@ -312,7 +312,7 @@
 		"jp_text": "フリィバイパー",
 		"tr_text": "Frey Viper",
 		"jp_explain": "玩具の形から着想を得て作られた大砲。\n可愛らしい形をしているが性能は高い。\n全クラス装備可能な、特殊な武器。",
-		"tr_explain": "A Launcher whose shape was inspired\nby a toy. High performance with a\ncute look. All classes can equip."
+		"tr_explain": "A Launcher whose shape was inspired\nby a toy. High performance with a\ncute look. All Classes can equip."
 	},
 	{
 		"assign": "19049",
@@ -837,14 +837,14 @@
 		"jp_text": "ヤスミノコフ４０００Ｆ",
 		"tr_text": "Yasminkov 4000F",
 		"jp_explain": "自然発火する大口径ロケット弾を用いる\n四連装ヤスミノコフ型大砲。威力よりも\nインパクトの強いフォルムが有名。",
-		"tr_explain": ""
+		"tr_explain": "A Yasminkov quad-Launcher that fires\nheavy ordnance rockets. More famous\nfor its effect on morale than its power."
 	},
 	{
 		"assign": "190205",
 		"jp_text": "ヤスミノコフ４０００ＦＪ",
 		"tr_text": "Yasminkov 4000FJ",
 		"jp_explain": "自然発火する大口径ロケット弾を用いる\n四連装ヤスミノコフ型大砲。機動力を\n上げる為の調整がされている。",
-		"tr_explain": ""
+		"tr_explain": "A Yasminkov quad-Launcher that fires\nheavy ordnance rockets. Has been\nadjusted to improve its fire rate."
 	},
 	{
 		"assign": "190209",
@@ -998,7 +998,7 @@
 		"jp_text": "イヴリダカルバン",
 		"tr_text": "Evleda Calvin",
 		"jp_explain": "古に封印されし冥夜の大砲。\n禁じられし闇の爆砲は汝の血肉で以って\n解き放たれ、全てを壊し静寂つくらん。",
-		"tr_explain": "An ancient, forbidden dark Launcher.\nThe forbidden grenades unsealed by\nthy kin destroy all, and silence falls."
+		"tr_explain": "An ancient, forbidden dark Launcher.\nThe forbidden grenades unsealed by\nthy flesh destroy all, and silence falls."
 	},
 	{
 		"assign": "190246",
@@ -1131,7 +1131,7 @@
 		"jp_text": "インフェルノバズーカ-NT",
 		"tr_text": "Inferno Bazooka-NT",
 		"jp_explain": "高い破壊力を誇る実弾を発射する大砲。\n周辺の万物を吹き飛ばすため\n扱いには十分な注意が必要。",
-		"tr_explain": "A Launcher which fires solid bullets\nthat boast high destructive power.\nCan blow away everything nearby."
+		"tr_explain": "A Launcher which boasts unparalleled\ndestructive force. Requires caution to\nnot get caught up in its blast."
 	},
 	{
 		"assign": "190270",
@@ -1327,14 +1327,14 @@
 		"jp_text": "フォボスランチャー",
 		"tr_text": "Phobos Launcher",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った大砲。高出力の砲撃と\nそのフォルムで目標を恐怖に陥れる。",
-		"tr_explain": ""
+		"tr_explain": "A Launcher with an ominous, bladed\nform. Its shape and the power of its\nshells strike terror into its target."
 	},
 	{
 		"assign": "190319",
 		"jp_text": "ニーケランチャー",
 		"tr_text": "Nike Launcher",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った大砲。予備エネルギーを備え\n高出力の砲撃で勝利を射抜く。",
-		"tr_explain": ""
+		"tr_explain": "A Launcher with an ominous, bladed\nform. Its built-in energy reserve lets it\nshell the target until victory is certain."
 	},
 	{
 		"assign": "190325",
@@ -1418,14 +1418,14 @@
 		"jp_text": "星震砲バシラシオン",
 		"tr_text": "Celestial Vacillaxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した大砲。無垢なる想いを授かった\nその弾丸は、闇のささやきを撃ち砕く。",
-		"tr_explain": "A Launcher touched by a time\ntraveller's heart. Its shots' feelings\nblast away every whisper of darkness."
+		"tr_explain": "A Launcher touched by a time\ntraveler's heart. Its shots' feelings\nblast away every whisper of darkness."
 	},
 	{
 		"assign": "190348",
 		"jp_text": "光跡砲バシラシオン",
 		"tr_text": "Lightstream Vacillaxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ大砲。研ぎ澄まされた意思は\n弾丸に結晶し、信じる未来へと導く。",
-		"tr_explain": "A Launcher that links the stars, bonded\nto a time traveller. Its will-powered\nshots lead to the future you believe in."
+		"tr_explain": "A Launcher that links the stars, bonded\nto a time traveler. Its will-powered\nshots lead to the future you believe in."
 	},
 	{
 		"assign": "190350",
@@ -1680,6 +1680,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "19010025",
+		"jp_text": "コルディークランチャー",
+		"tr_text": "Coldic Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "19010023",
 		"jp_text": "ゼクストルランチャー",
 		"tr_text": "Sechstyl Launcher",
@@ -1687,9 +1694,23 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "19010026",
+		"jp_text": "ネオス・アストリオンランチャー",
+		"tr_text": "Neos Astreon Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "19010031",
 		"jp_text": "テンペスターランチャー",
 		"tr_text": "Tempestar Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010033",
+		"jp_text": "プリムランチャー・リブラ",
+		"tr_text": "Prim Launcher Libra",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1715,6 +1736,27 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "19010038",
+		"jp_text": "クリスティアランチャー",
+		"tr_text": "Crystia Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010040",
+		"jp_text": "セイガヨウランチャー",
+		"tr_text": "Seigayou Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010041",
+		"jp_text": "トランクールランチャー",
+		"tr_text": "Trunkle Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "19010042",
 		"jp_text": "レネッサランチャー",
 		"tr_text": "Renessa Launcher",
@@ -1722,9 +1764,135 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "19010043",
+		"jp_text": "ガンブレイズランチャー",
+		"tr_text": "Gunblaze Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "19010044",
 		"jp_text": "エヴォルイクリスランチャー",
 		"tr_text": "Evoleclis Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010045",
+		"jp_text": "ククロフィスランチャー",
+		"tr_text": "Kouklophis Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010046",
+		"jp_text": "オブゾディアランチャー",
+		"tr_text": "Obsidia Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010050",
+		"jp_text": "カイゼラムランチャー試製壱型",
+		"tr_text": "Kaiseram Launcher Prototype",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010051",
+		"jp_text": "セイガインランチャー",
+		"tr_text": "Seigain Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010052",
+		"jp_text": "ネオス・ユースティロンランチャー",
+		"tr_text": "Neos Justilon Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010047",
+		"jp_text": "ファーシュメルランチャー",
+		"tr_text": "Verschmel Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010048",
+		"jp_text": "テスア・フレクシールランチャー",
+		"tr_text": "Tesua Flexir Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010059",
+		"jp_text": "リヴィーターランチャー",
+		"tr_text": "Revita Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010057",
+		"jp_text": "エクステルランチャー",
+		"tr_text": "Exter Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010062",
+		"jp_text": "レヴォルコートランチャー",
+		"tr_text": "Revolcoat Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010065",
+		"jp_text": "モノレクスランチャー",
+		"tr_text": "Monorex Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010054",
+		"jp_text": "フリューガルドランチャー",
+		"tr_text": "Fluegard Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010066",
+		"jp_text": "アルクエイムランチャー",
+		"tr_text": "Arquem Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010067",
+		"jp_text": "ブロナーガランチャー",
+		"tr_text": "Brawnaga Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010071",
+		"jp_text": "メレク・タルタロス",
+		"tr_text": "Melekh Tartarus",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010072",
+		"jp_text": "バリオクールランチャー",
+		"tr_text": "Variocool Launcher",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010077",
+		"jp_text": "ラジャンティエランチャー",
+		"tr_text": "L'Argentier Launcher",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

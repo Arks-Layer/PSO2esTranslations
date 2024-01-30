@@ -315,6 +315,13 @@
 		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Double Saber/Rod\nand others<c>"
 	},
 	{
+		"assign": "105010004",
+		"jp_text": "＊レリク・シップウハトウ",
+		"tr_text": "＊Relic Shippu-hatou",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ダブルセイバー<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Double Saber<c>"
+	},
+	{
 		"assign": "105057",
 		"jp_text": "＊ニョイボウ",
 		"tr_text": "＊Monkey King Bar",
@@ -324,8 +331,50 @@
 	{
 		"assign": "105058",
 		"jp_text": "＊ナールクレセント",
-		"tr_text": "＊Gnarl Crescent",
+		"tr_text": "＊Narl Crescent",
 		"jp_explain": "欠けた天体をモチーフにした\n両剣型武器迷彩。死者の魂を吸い上げた\nフォトンによって作られているという。",
 		"tr_explain": "A Double Saber camo with a lunar motif.\nRumored to be made by siphoning the\nsouls of the dead."
+	},
+	{
+		"assign": "105059",
+		"jp_text": "＊流星棍",
+		"tr_text": "＊Meteor Cudgel",
+		"jp_explain": "両端に備え付けられた鉱石棍が相手に\nダメージを与える両剣型武器迷彩。\n繰り出される攻撃は流星群のよう。",
+		"tr_explain": "The crystals on both sides of this\ncamo can inflict a lot of damage.\nSwings resemble a meteor shower."
+	},
+	{
+		"assign": "105010006",
+		"jp_text": "＊レリク・シップウハトウCV",
+		"tr_text": "＊Relic Shippu-hatou CV",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ダブルセイバー<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Double Saber<c>"
+	},
+	{
+		"assign": "105010008",
+		"jp_text": "＊カムロイセイバー",
+		"tr_text": "＊Kamuroi Saber",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ダブルセイバー<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Double Saber<c>"
+	},
+	{
+		"assign": "105060",
+		"jp_text": "＊迅雷",
+		"tr_text": "＊Jinrai",
+		"jp_explain": "雷の如き攻撃速度で敵を切り裂く両剣型\n武器迷彩。操る者にも速さを求め\n不相応な者は手にすることもできない。",
+		"tr_explain": "Double Saber camo that rips targets\napart with lightning-quick attacks.\nOnly the very swift can wield it."
+	},
+	{
+		"assign": "105061",
+		"jp_text": "＊ジラソーレ",
+		"tr_text": "＊Girasole",
+		"jp_explain": "特殊な形をした両剣型武器迷彩。\n攻撃した際に描く円の軌跡から\n太陽を愛した花の名を冠する。",
+		"tr_explain": "Double Saber camo shaped to catch\nsunlight. Named after a sun-loving\nflower for the trails lt leaves in the air."
+	},
+	{
+		"assign": "105010009",
+		"jp_text": "＊コーディスフェルメ",
+		"tr_text": "＊Cordis Ferrame",
+		"jp_explain": "装備の見た目を変更する武器迷彩。\n<yellow>※対応：ダブルセイバー／ロッド　ほか<c>",
+		"tr_explain": "Weapon camouflage that changes the\nappearance of your equipment.\n<yellow>Type: Double Saber/Rod\nand others<c>"
 	}
 ]

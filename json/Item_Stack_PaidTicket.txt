@@ -1419,5 +1419,348 @@
 		"tr_text": "30д авто-продажи предметов",
 		"jp_explain": "ドロップアイテムなどの\n自動売却機能が\n30日間利用可能になるチケット。",
 		"tr_explain": "Позволяет использовать функцию\nавто-продажи 30 дней."
+	},
+	{
+		"assign": "320010013",
+		"jp_text": "『NGS』ストーリー進行チケット",
+		"tr_text": "[NGS] Story Skip Ticket",
+		"jp_explain": "使用したキャラクターの\nメインストーリーを\n<yellow>“最新の章”<c>の初めまで進める。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200294",
+		"jp_text": "拡張倉庫７利用１日",
+		"tr_text": "Expansion Storage 7: 1 Day",
+		"jp_explain": "拡張倉庫７の利用許可チケット。\n使用するとアイテム５００個を格納する\n拡張倉庫７が１日間利用可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200295",
+		"jp_text": "拡張倉庫７利用３０日",
+		"tr_text": "Expansion Storage 7: 30 Days",
+		"jp_explain": "拡張倉庫７の利用許可チケット。\n使用するとアイテム５００個を格納する\n拡張倉庫７が３０日間利用可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200296",
+		"jp_text": "拡張倉庫７利用９０日",
+		"tr_text": "Expansion Storage 7: 90 Days",
+		"jp_explain": "拡張倉庫７の利用許可チケット。\n使用するとアイテム５００個を格納する\n拡張倉庫７が９０日間利用可能になる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "3200297",
+		"jp_text": "レンタルＣスペース０１利用１日",
+		"tr_text": "Rental Creative Space 01: 1 Day",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０１が\n１日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 01 for\n1 day."
+	},
+	{
+		"assign": "3200298",
+		"jp_text": "レンタルＣスペース０１利用７日",
+		"tr_text": "Rental Creative Space 01: 7 Days",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０１が\n７日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 01 for\n7 days."
+	},
+	{
+		"assign": "3200299",
+		"jp_text": "レンタルＣスペース０１利用３０日",
+		"tr_text": "Rental Creative Space 01: 30 Days",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０１が\n３０日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 01 for\n30 days."
+	},
+	{
+		"assign": "3200300",
+		"jp_text": "レンタルＣスペース０１利用９０日",
+		"tr_text": "Rental Creative Space 01: 90 Days",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０１が\n９０日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 01 for\n90 days."
+	},
+	{
+		"assign": "3200301",
+		"jp_text": "レンタルＣスペース０２利用１日",
+		"tr_text": "Rental Creative Space 02: 1 Day",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０２が\n１日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 02 for\n1 day."
+	},
+	{
+		"assign": "3200302",
+		"jp_text": "レンタルＣスペース０２利用７日",
+		"tr_text": "Rental Creative Space 02: 7 Days",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０２が\n７日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 02 for\n7 days."
+	},
+	{
+		"assign": "3200303",
+		"jp_text": "レンタルＣスペース０２利用３０日",
+		"tr_text": "Rental Creative Space 02: 30 Days",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０２が\n３０日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 02 for\n30 days."
+	},
+	{
+		"assign": "3200304",
+		"jp_text": "レンタルＣスペース０２利用９０日",
+		"tr_text": "Rental Creative Space 02: 90 Days",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０２が\n９０日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 02 for\n90 days."
+	},
+	{
+		"assign": "3200305",
+		"jp_text": "レンタルＣスペース０３利用１日",
+		"tr_text": "Rental Creative Space 03: 1 Day",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０３が\n１日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 03 for\n1 day."
+	},
+	{
+		"assign": "3200306",
+		"jp_text": "レンタルＣスペース０３利用７日",
+		"tr_text": "Rental Creative Space 03: 7 Days",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０３が\n７日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 03 for\n7 days."
+	},
+	{
+		"assign": "3200307",
+		"jp_text": "レンタルＣスペース０３利用３０日",
+		"tr_text": "Rental Creative Space 03: 30 Days",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０３が\n３０日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 03 for\n30 days."
+	},
+	{
+		"assign": "3200308",
+		"jp_text": "レンタルＣスペース０３利用９０日",
+		"tr_text": "Rental Creative Space 03: 90 Days",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０３が\n９０日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 03 for\n90 days."
+	},
+	{
+		"assign": "3200309",
+		"jp_text": "レンタルＣスペース０４利用１日",
+		"tr_text": "Rental Creative Space 04: 1 Day",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０４が\n１日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 04 for\n1 day."
+	},
+	{
+		"assign": "3200310",
+		"jp_text": "レンタルＣスペース０４利用７日",
+		"tr_text": "Rental Creative Space 04: 7 Days",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０４が\n７日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 04 for\n7 days."
+	},
+	{
+		"assign": "3200311",
+		"jp_text": "レンタルＣスペース０４利用３０日",
+		"tr_text": "Rental Creative Space 04: 30 Days",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０４が\n３０日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 04 for\n30 days."
+	},
+	{
+		"assign": "3200312",
+		"jp_text": "レンタルＣスペース０４利用９０日",
+		"tr_text": "Rental Creative Space 04: 90 Days",
+		"jp_explain": "クリエイティブスペースの\nレンタルＣスペース０４が\n９０日間利用可能になるチケット。",
+		"tr_explain": "A ticket that enables the use of\nthe Creative Space 04 for\n90 days."
+	},
+	{
+		"assign": "320010014",
+		"jp_text": "1000ジェネシスポイント",
+		"tr_text": "Genesis Point: 1,000",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>1000<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>1,000<c> Genesis Points."
+	},
+	{
+		"assign": "320010015",
+		"jp_text": "2000ジェネシスポイント",
+		"tr_text": "Genesis Point: 2,000",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>2000<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>2,000<c> Genesis Points."
+	},
+	{
+		"assign": "320010016",
+		"jp_text": "3000ジェネシスポイント",
+		"tr_text": "Genesis Point: 3,000",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>3000<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>3,000<c> Genesis Points."
+	},
+	{
+		"assign": "320010017",
+		"jp_text": "4000ジェネシスポイント",
+		"tr_text": "Genesis Point: 4,000",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>4000<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>4,000<c> Genesis Points."
+	},
+	{
+		"assign": "320010018",
+		"jp_text": "5000ジェネシスポイント",
+		"tr_text": "Genesis Point: 5,000",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>5000<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>5,000<c> Genesis Points."
+	},
+	{
+		"assign": "320010019",
+		"jp_text": "6000ジェネシスポイント",
+		"tr_text": "Genesis Point: 6,000",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>6000<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>6,000<c> Genesis Points."
+	},
+	{
+		"assign": "320010020",
+		"jp_text": "7000ジェネシスポイント",
+		"tr_text": "Genesis Point: 7,000",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>7000<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>7,000<c> Genesis Points."
+	},
+	{
+		"assign": "320010021",
+		"jp_text": "8000ジェネシスポイント",
+		"tr_text": "Genesis Point: 8,000",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>8000<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>8,000<c> Genesis Points."
+	},
+	{
+		"assign": "320010022",
+		"jp_text": "9000ジェネシスポイント",
+		"tr_text": "Genesis Point: 9,000",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>9000<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>9,000<c> Genesis Points."
+	},
+	{
+		"assign": "320010023",
+		"jp_text": "10000ジェネシスポイント",
+		"tr_text": "Genesis Point: 10,000",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>10000<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>10,000<c> Genesis Points."
+	},
+	{
+		"assign": "320010024",
+		"jp_text": "100ジェネシスポイント",
+		"tr_text": "Genesis Point: 100",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>100<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>100<c> Genesis Points."
+	},
+	{
+		"assign": "320010025",
+		"jp_text": "200ジェネシスポイント",
+		"tr_text": "Genesis Point: 200",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>200<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>200<c> Genesis Points."
+	},
+	{
+		"assign": "320010026",
+		"jp_text": "300ジェネシスポイント",
+		"tr_text": "Genesis Point: 300",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>300<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>300<c> Genesis Points."
+	},
+	{
+		"assign": "320010027",
+		"jp_text": "400ジェネシスポイント",
+		"tr_text": "Genesis Point: 400",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>400<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>400<c> Genesis Points."
+	},
+	{
+		"assign": "320010028",
+		"jp_text": "500ジェネシスポイント",
+		"tr_text": "Genesis Point: 500",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>500<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>500<c> Genesis Points."
+	},
+	{
+		"assign": "320010029",
+		"jp_text": "600ジェネシスポイント",
+		"tr_text": "Genesis Point: 600",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>600<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>600<c> Genesis Points."
+	},
+	{
+		"assign": "320010030",
+		"jp_text": "700ジェネシスポイント",
+		"tr_text": "Genesis Point: 700",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>700<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>700<c> Genesis Points."
+	},
+	{
+		"assign": "320010031",
+		"jp_text": "800ジェネシスポイント",
+		"tr_text": "Genesis Point: 800",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>800<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>800<c> Genesis Points."
+	},
+	{
+		"assign": "320010032",
+		"jp_text": "900ジェネシスポイント",
+		"tr_text": "Genesis Point: 900",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>900<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>900<c> Genesis Points."
+	},
+	{
+		"assign": "320010033",
+		"jp_text": "1500ジェネシスポイント",
+		"tr_text": "Genesis Point: 1500",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>1500<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>1500<c> Genesis Points."
+	},
+	{
+		"assign": "320010034",
+		"jp_text": "10ジェネシスポイント",
+		"tr_text": "Genesis Point: 10",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>10<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>10<c> Genesis Points."
+	},
+	{
+		"assign": "320010035",
+		"jp_text": "20ジェネシスポイント",
+		"tr_text": "Genesis Point: 20",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>20<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>20<c> Genesis Points."
+	},
+	{
+		"assign": "320010036",
+		"jp_text": "30ジェネシスポイント",
+		"tr_text": "Genesis Point: 30",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>30<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>30<c> Genesis Points."
+	},
+	{
+		"assign": "320010037",
+		"jp_text": "40ジェネシスポイント",
+		"tr_text": "Genesis Point: 40",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>40<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>40<c> Genesis Points."
+	},
+	{
+		"assign": "320010038",
+		"jp_text": "50ジェネシスポイント",
+		"tr_text": "Genesis Point: 50",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>50<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>50<c> Genesis Points."
+	},
+	{
+		"assign": "320010039",
+		"jp_text": "60ジェネシスポイント",
+		"tr_text": "Genesis Point: 60",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>60<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>60<c> Genesis Points."
+	},
+	{
+		"assign": "320010040",
+		"jp_text": "70ジェネシスポイント",
+		"tr_text": "Genesis Point: 70",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>70<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>70<c> Genesis Points."
+	},
+	{
+		"assign": "320010041",
+		"jp_text": "80ジェネシスポイント",
+		"tr_text": "Genesis Point: 80",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>80<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>80<c> Genesis Points."
+	},
+	{
+		"assign": "320010042",
+		"jp_text": "90ジェネシスポイント",
+		"tr_text": "Genesis Point: 90",
+		"jp_explain": "使用することで\nジェネシスポイントを\n<yellow>90<c>得る。",
+		"tr_explain": "Use to immediately receive\n<yellow>90<c> Genesis Points."
 	}
 ]

@@ -221,7 +221,7 @@
 		"jp_text": "エリュシオン",
 		"tr_text": "Elysion",
 		"jp_explain": "剣のような形をした不思議な短杖。\n刀身の部分に刻まれた古代文字が\nフォトンを生みだし、力を授ける。",
-		"tr_explain": ""
+		"tr_explain": "A mysterious Wand shaped like a\nsword. The inscriptions on the blade\nproduce Photons that grant power."
 	},
 	{
 		"assign": "113032",
@@ -389,7 +389,7 @@
 		"jp_text": "宝剣バルムンク",
 		"tr_text": "Precious Sword Balmung",
 		"jp_explain": "全身を貴重な宝石のみで構成した短杖。\nその構造上、もはや杖ではなく剣であり\n増幅された法力によって敵を両断する。",
-		"tr_explain": "A Wand made entirely out of jewelry.\nAs a sword, it can split enemies in\ntwo with its amplified tech power."
+		"tr_explain": "A Wand made entirely out of precious\njewels. Able to split enemies in two\nwith its Tech-enhanced blade."
 	},
 	{
 		"assign": "113062",
@@ -809,7 +809,7 @@
 		"jp_text": "アハトクーア",
 		"tr_text": "Acht Coure",
 		"jp_explain": "伝承に登場する鳥獣の羽を模して\n作られた絢爛豪華な短杖。\n広げられた羽のようなフォルムが特徴。",
-		"tr_explain": ""
+		"tr_explain": "A gorgeous Wand based on the fur\nand features of mythical creatures.\nIts design resembles unfurled feathers."
 	},
 	{
 		"assign": "1130197",
@@ -1019,7 +1019,7 @@
 		"jp_text": "クリシスカリンザ",
 		"tr_text": "Cleasis Karinza",
 		"jp_explain": "古に封印されし冥夜の短杖。\n清廉なる術士を魅了せし禁忌の束縛は\n魂と繋がりし時、闇より力を授からん。",
-		"tr_explain": ""
+		"tr_explain": "An ancient, forbidden dark Wand.\nWhen forbidden shackles corrupt its\nwielder, dark power shall infuse it."
 	},
 	{
 		"assign": "1130265",
@@ -1271,14 +1271,14 @@
 		"jp_text": "リュミエルクレール",
 		"tr_text": "Lumiere Claire",
 		"jp_explain": "古より伝わる陽光の短杖。\n解き放たれし聖なる光の欠片は\n闇を絶ち、祝福に満ちた世を築く。",
-		"tr_explain": ""
+		"tr_explain": "An ancient Wand of the Sun. Its\nunleashed holy light cuts through the\ndark and builds a world of blessings."
 	},
 	{
 		"assign": "1130324",
 		"jp_text": "ジュティスクレール",
 		"tr_text": "Jutus Claire",
 		"jp_explain": "古より伝わる陽光の短杖。\n清廉なる術士に紡がれし光の祝福は\n生者に力を授け、闇を束縛せん。",
-		"tr_explain": ""
+		"tr_explain": "An ancient Wand of the Sun. Used by\nan honest conjurer, it empowers the\nliving and binds the darkness."
 	},
 	{
 		"assign": "1130325",
@@ -1390,14 +1390,14 @@
 		"jp_text": "フォボスコルセア",
 		"tr_text": "Phobos Corsair",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った短杖。肉を切り骨を断つ刃は\n相対する者を恐怖に染め、怯えさせる。",
-		"tr_explain": ""
+		"tr_explain": "A Wand with an ominous, bladed form.\nIts blades cut through flesh and bone\nalike, striking terror into its target."
 	},
 	{
 		"assign": "1130385",
 		"jp_text": "ニーケコルセア",
 		"tr_text": "Nike Corsair",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った短杖。敵に恐怖を与える刃は\n味方を鼓舞し、勝利という未来を繋ぐ。",
-		"tr_explain": ""
+		"tr_explain": "A Wand with an ominous, bladed form.\nIts blades inspire its allies but terrify\nits foes, leading to certain victory."
 	},
 	{
 		"assign": "1130386",
@@ -1453,14 +1453,14 @@
 		"jp_text": "星震棍アスピラシオン",
 		"tr_text": "Celestial Aspiraxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した短杖。希望の灯火は虚無を\n打ち消し、確固たる力をもたらす。",
-		"tr_explain": "A Wand touched by a time traveller's\nheart. The light of its hope provides\na bulwark against the darkness."
+		"tr_explain": "A Wand touched by a time traveler's\nheart. The light of its hope provides\na bulwark against the darkness."
 	},
 	{
 		"assign": "1130399",
 		"jp_text": "光跡棍アスピラシオン",
 		"tr_text": "Lightstream Aspiraxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ短杖。灯火を宿した希望は\n力となり、光輝ある明日へと導く。",
-		"tr_explain": "A Wand that links the stars, bonded to\na time traveller. The light of hope\nwithin will lead to a shining tomorrow."
+		"tr_explain": "A Wand that links the stars, bonded to\na time traveler. The light of hope\nwithin will lead to a shining tomorrow."
 	},
 	{
 		"assign": "1130403",
@@ -1631,6 +1631,13 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "113010015",
+		"jp_text": "[NPC]クロフォードのウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "113010016",
 		"jp_text": "キャトリアウォンド",
 		"tr_text": "Catoria Wand",
@@ -1738,7 +1745,21 @@
 	{
 		"assign": "113010030",
 		"jp_text": "ロクス・ラグフェンウォンド",
-		"tr_text": "Rox Ragphene Wand ",
+		"tr_text": "Rox Ragphene Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010031",
+		"jp_text": "コルディークウォンド",
+		"tr_text": "Coldic Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010032",
+		"jp_text": "ネオス・アストリオンウォンド",
+		"tr_text": "Neos Astreon Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1746,6 +1767,13 @@
 		"assign": "113010037",
 		"jp_text": "オブスクラルウォンド",
 		"tr_text": "Obscural Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010038",
+		"jp_text": "プリムウォンド・リブラ",
+		"tr_text": "Prim Wand Libra",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1771,6 +1799,27 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "113010042",
+		"jp_text": "クリスティアウォンド",
+		"tr_text": "Crystia Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010044",
+		"jp_text": "セイガヨウウォンド",
+		"tr_text": "Seigayou Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010045",
+		"jp_text": "トランクールウォンド",
+		"tr_text": "Trunkle Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "113010047",
 		"jp_text": "レネッサウォンド",
 		"tr_text": "Renessa Wand",
@@ -1778,9 +1827,135 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "113010048",
+		"jp_text": "ガンブレイズウォンド",
+		"tr_text": "Gunblaze Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "113010049",
 		"jp_text": "エヴォルイクリスウォンド",
 		"tr_text": "Evoleclis Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010051",
+		"jp_text": "ククロフィスウォンド",
+		"tr_text": "Kouklophis Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010055",
+		"jp_text": "オブゾディアウォンド",
+		"tr_text": "Obsidia Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010059",
+		"jp_text": "カイゼラムウォンド試製壱型",
+		"tr_text": "Kaiseram Wand Prototype",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010061",
+		"jp_text": "セイガインウォンド",
+		"tr_text": "Seigain Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010062",
+		"jp_text": "ネオス・ユースティロンウォンド",
+		"tr_text": "Neos Justilon Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010056",
+		"jp_text": "ファーシュメルウォンド",
+		"tr_text": "Verschmel Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010057",
+		"jp_text": "テスア・ハイロカルウォンド",
+		"tr_text": "Tesua Hilokal Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010074",
+		"jp_text": "リヴィーターウォンド",
+		"tr_text": "Revita Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010072",
+		"jp_text": "エクステルウォンド",
+		"tr_text": "Exter Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010077",
+		"jp_text": "レヴォルコートウォンド",
+		"tr_text": "Revolcoat Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010080",
+		"jp_text": "モノレクスウォンド",
+		"tr_text": "Monorex Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010068",
+		"jp_text": "フリューガルドウォンド",
+		"tr_text": "Fluegard Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010083",
+		"jp_text": "アルクエイムウォンド",
+		"tr_text": "Arquem Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010086",
+		"jp_text": "ブロナーガウォンド",
+		"tr_text": "Brawnaga Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010089",
+		"jp_text": "メレク・バルバトス",
+		"tr_text": "Melekh Barbatos",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010093",
+		"jp_text": "バリオクールウォンド",
+		"tr_text": "Variocool Wand",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010108",
+		"jp_text": "ラジャンティエウォンド",
+		"tr_text": "L'Argentier Wand",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

@@ -767,7 +767,7 @@
 		"jp_text": "クリシスセルベス",
 		"tr_text": "Cleasis Serbs",
 		"jp_explain": "古に封印されし冥夜の魔装脚。\n高潔なる解放者を魅了せし禁忌の舞は\n魂に触れし時、終局の道を解放せん。",
-		"tr_explain": ""
+		"tr_explain": "Ancient, forbidden dark Jet Boots.\nWhen forbidden dances corrupt their\nwielder, the end shall reveal itself."
 	},
 	{
 		"assign": "1160192",
@@ -977,14 +977,14 @@
 		"jp_text": "リュミエルゲトル",
 		"tr_text": "Lumiere Gettle",
 		"jp_explain": "古より伝わる陽光の魔装脚。\n導きの光を持つ聖なる流技は\n闇を閉ざし、静かなる世を導く。",
-		"tr_explain": ""
+		"tr_explain": "Ancient Jet Boots of the Sun. The light\nof their Techniques blocks darkness\nand leads to a world of tranquility."
 	},
 	{
 		"assign": "1160230",
 		"jp_text": "ジュティスゲトル",
 		"tr_text": "Jutus Gettle",
 		"jp_explain": "古より伝わる陽光の魔装脚。\n純潔なる解放者を導きし聖なる流技は\n希望の道を解放せんと戦場に立つ。",
-		"tr_explain": ""
+		"tr_explain": "Ancient Jet Boots of the Sun. Their\nholy Techniques guide emancipators\nwho fight to open the path to hope."
 	},
 	{
 		"assign": "1160231",
@@ -1040,14 +1040,14 @@
 		"jp_text": "オメガルフデファス",
 		"tr_text": "Omegalf Dephase",
 		"jp_explain": "オメガウルフの毛皮を使用した\n魔装脚。今にも襲いかからんと疾駆する\n姿は、本能的な恐怖を与える。",
-		"tr_explain": ""
+		"tr_explain": "Jet Boots made with the pelt of an\nOmegalf. Even now, they look like\nthey might try to bite your head off."
 	},
 	{
 		"assign": "1160243",
 		"jp_text": "ウルフォイエデファス",
 		"tr_text": "Wolfoie Dephase",
 		"jp_explain": "ウルフフォイエの毛皮を使用した\n魔装脚。装者の攻撃意志に応じて\n敵対する者を燃やし尽くす。",
-		"tr_explain": ""
+		"tr_explain": "Jet Boots made with the pelt of a\nWolfoie.Responds to the user's will\nto set their opponents ablaze."
 	},
 	{
 		"assign": "1160245",
@@ -1124,14 +1124,14 @@
 		"jp_text": "フォボスイグノール",
 		"tr_text": "Phobos Ignore",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った魔装脚。見たものを恐怖に\n陥れる形状で、敵を容赦なく蹂躙する。",
-		"tr_explain": ""
+		"tr_explain": "Jet Boots with an ominous, bladed\nform. Their shape strikes terror into\ntheir targets before trampling them."
 	},
 	{
 		"assign": "1160259",
 		"jp_text": "ニーケイグノール",
 		"tr_text": "Nike Ignore",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った魔装脚。立ちはだかる障害を\n踏みつけ、勝利への道を駆け抜ける。",
-		"tr_explain": ""
+		"tr_explain": "Jet Boots with an ominous, bladed\nform. They trample over all obstacles\nletting you follow the path to victory."
 	},
 	{
 		"assign": "1160261",
@@ -1243,14 +1243,14 @@
 		"jp_text": "星震脚ベンディシオン",
 		"tr_text": "Celestial Bendixion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した魔装脚。瞬く星のように\n意志は輝き、希望の光彩を呼び戻す。",
-		"tr_explain": "Jet Boots touched by a time traveller's\nheart. Their willpower shines like a\nstar, reviving the faint glow of hope."
+		"tr_explain": "Jet Boots touched by a time traveler's\nheart. Their willpower shines like a\nstar, reviving the faint glow of hope."
 	},
 	{
 		"assign": "1160279",
 		"jp_text": "光跡脚ベンディシオン",
 		"tr_text": "Lightstream Bendixion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ魔装脚。大いなる希望は\n光となり、未来への道を駆け昇る。",
-		"tr_explain": "Jet Boots that link the stars, bonded to\na time traveller. The light of their hope\nilluminates the path to the future."
+		"tr_explain": "Jet Boots that link the stars, bonded to\na time traveler. The light of their hope\nilluminates the path to the future."
 	},
 	{
 		"assign": "1160282",
@@ -1463,9 +1463,30 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "116010026",
+		"jp_text": "コルディークブーツ",
+		"tr_text": "Coldic Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010027",
+		"jp_text": "ネオス・アストリオンブーツ",
+		"tr_text": "Neos Astreon Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "116010030",
 		"jp_text": "ルメイラーブーツ",
 		"tr_text": "Lumeira Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010031",
+		"jp_text": "プリムブーツ・リブラ",
+		"tr_text": "Prim Boots Libra",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1491,6 +1512,27 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "116010035",
+		"jp_text": "クリスティアブーツ",
+		"tr_text": "Crystia Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010036",
+		"jp_text": "セイガヨウブーツ",
+		"tr_text": "Seigayou Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010037",
+		"jp_text": "トランクールブーツ",
+		"tr_text": "Trunkle Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "116010039",
 		"jp_text": "レネッサブーツ",
 		"tr_text": "Renessa Boots",
@@ -1498,9 +1540,135 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "116010040",
+		"jp_text": "ガンブレイズブーツ",
+		"tr_text": "Gunblaze Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "116010041",
 		"jp_text": "エヴォルイクリスブーツ",
 		"tr_text": "Evoleclis Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010042",
+		"jp_text": "ククロフィスブーツ",
+		"tr_text": "Kouklophis Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010044",
+		"jp_text": "オブゾディアブーツ",
+		"tr_text": "Obsidia Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010048",
+		"jp_text": "カイゼラムブーツ試製壱型",
+		"tr_text": "Kaiseram Boots Prototype",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010049",
+		"jp_text": "セイガインブーツ",
+		"tr_text": "Seigain Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010050",
+		"jp_text": "ネオス・ユースティロンブーツ",
+		"tr_text": "Neos Justilon Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010045",
+		"jp_text": "ファーシュメルブーツ",
+		"tr_text": "Verschmel Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010046",
+		"jp_text": "テスア・リッセルブーツ",
+		"tr_text": "Tesua Lissel Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010060",
+		"jp_text": "リヴィーターブーツ",
+		"tr_text": "Revita Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010058",
+		"jp_text": "エクステルブーツ",
+		"tr_text": "Exter Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010062",
+		"jp_text": "レヴォルコートブーツ",
+		"tr_text": "Revolcoat Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010065",
+		"jp_text": "モノレクスブーツ",
+		"tr_text": "Monorex Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010053",
+		"jp_text": "フリューガルドブーツ",
+		"tr_text": "Fluegard Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010066",
+		"jp_text": "アルクエイムブーツ",
+		"tr_text": "Arquem Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010068",
+		"jp_text": "ブロナーガブーツ",
+		"tr_text": "Brawnaga Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010070",
+		"jp_text": "メレク・レクセル",
+		"tr_text": "Melekh Lexcel",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010071",
+		"jp_text": "バリオクールブーツ",
+		"tr_text": "Variocool Boots",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010077",
+		"jp_text": "ラジャンティエブーツ",
+		"tr_text": "L'Argentier Boots",
 		"jp_explain": "",
 		"tr_explain": ""
 	}
