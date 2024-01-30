@@ -100,7 +100,7 @@ ndesc_n_formats = ["Unlocks {a}new {itype} for use.",
     # 全キャラクターで選択可能になる。
 ndesc_allcharacters_formats = ["A {itype} that unlocks for all\ncharacters on your account.",
                  "사용하면 새로운 {itype} 아이템을\n모든 캐릭터에 선택할 수 있게 됩니다.",
-                 "",
+                 "{itype}, разблок. для\nвсех персонажей аккаунта.",
                  "使用後所有角色均可選用新的{itype}。"]
 
 # JP text: 
@@ -159,7 +159,7 @@ layer_hide_accessories = ["※Hides accessories when worn.",
     # ※カラー変更非対応
 ncosmetic_color_locks = ["※Color cannot be changed",
                         "※컬러 변경 불가",
-                        "",
+                        "※Цвет нельзя изменить",
                         "※不適用於顏色的變更"]
 
 # JP text: 
@@ -173,7 +173,7 @@ ngs_locks = ["※Not available in [PSO2] Blocks.",
     # ※『PSO2』顔バリエーション非対応
 ngsface_locks = ["※Not compatible with PSO2 faces.",
                                      "",
-                                     "",
+                                     "※Не совместимо с PSO2 лицами.",
                                      "※不適用於『PSO2』面部類型"]
 
 # JP text: 
@@ -183,7 +183,8 @@ mag_device_lv100 = [("※Must be used in PSO2 on a Mag\n"
                             "which has reached Lv.100 or above."),
                             ("※『PSO2』에선 Lv.100이상의\n"
                             "마그에서만 사용 가능"),
-                            (""),
+                            ("※Только на MAG'e PSO2\n"
+                            "достигшем 100ур.+"),
                             ("※在『PSO2』中僅可對\n"
                             "　Lv.100或以上的瑪古使用")]
 
@@ -191,14 +192,14 @@ mag_device_lv100 = [("※Must be used in PSO2 on a Mag\n"
     # ※『NGS』でのみ使用可能
 mag_device_ngs = ["※Only usable in NGS.",
                         "※『NGS』에서만 사용 가능",
-                        "",
+                        "※Только для NGS.",
                         "※僅可在『NGS』中使用"]
 
 # JP text: 
     # ※武器の構え位置自動調整
 weapon_posture = [("※Uses adjusted weapon positions."),
                          (""),
-                         (""),
+                         ("※Исп. скоррект. положение."),
                          ("※自動調整武器架勢的位置")]
 
 def translate_layer_desc(item, file_name):
@@ -386,11 +387,11 @@ cosmetic_file_names = [
     ]
 
 cosmetic_types = {
-    "NGS_Ear": ["ear shape", "귀", "", "耳朵"],
-    "NGS_Horn": ["horn type", "뿔", "", "角"],
-    "NGS_Motion": ["motion", "모션", "", "行動方式"],
-    "NGS_Mouth": ["teeth and tongue\nset", "치아/혀", "", "牙齒、舌頭"],
-    "NGS_Stamps": ["stamp", "스탬프", "", "表情圖"],
+    "NGS_Ear": ["ear shape", "귀", "форма ушей", "耳朵"],
+    "NGS_Horn": ["horn type", "뿔", "тип рога", "角"],
+    "NGS_Motion": ["motion", "모션", "движение", "行動方式"],
+    "NGS_Mouth": ["teeth and tongue\nset", "치아/혀", "зубы и язык", "牙齒、舌頭"],
+    "NGS_Stamps": ["stamp", "스탬프", "штамп", "表情圖"],
     "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
     "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
     "Stack_Eye": ["eye pattern", "눈동자", "глаза", "瞳孔"],
@@ -736,8 +737,8 @@ la_extras = {
                  "Finger motion by outfit. Not in [PSO2]."),
                 ("※지원 기능: 버튼 파생/일부 표시 적용 제외\n"
                  "대응 복장 손가락 움직임/『PSO2』 블록 미지원"),
-                ("\n"
-                 ""),
+                ("※Доп. действие (нет превью).\n"
+                 "Движ. пальцев огранич. Не в [PSO2]."),
                 ("※適用功能：按鍵衍生/不適用一部分顯示\n"
                  "適用服裝可動手指/不適用於『PSO2』")
                 ],
@@ -791,7 +792,8 @@ la_extras = {
                 ("Has reactions/Finger motion\n"
                  "outfit-limited/Can't use in [PSO2]."),
                 (""),
-                (""),
+                ("С реакцией/Движ. пальц.\n"
+                 "огранич./Не для [PSO2]."),
                 ("※適用功能：反應動作/\n"
                  "適用服裝可動手指/不適用於『PSO2』")
                 ],
@@ -1198,22 +1200,22 @@ cv_names = {
     "入野 自由": ["Miyu Irino", "", "Ирино Мию", "入野 自由"],
     "梅原 裕一郎": ["Yuichiro Umehara", "", "Умэхара Юитиро", "梅原 裕一郎"],
     "逢坂 良太": ["Ryota Osaka", "", "Осака Рёта", "逢坂 良太"],
-    "小原 好美": ["Konomi Kohara", "", "", "小原 好美"],
-    "白上 フブキ": ["Shirakami Fubuki", "", "", "白上 吹雪"],
-    "影山 シエン": ["Kageyama Shien", "", "", "影山 紫炎"],
-    "一 伊那尓栖": ["Ninomae Ina'nis", "", "", "一 伊那爾棲"],
-    "日野 聡": ["Satoshi Hino", "", "", "日野 聰"],
-    "原 由実": ["Yumi Hara", "", "", "原 由實"],
-    "闇ノ シュウ": ["Shu Yamino", "", "", "Shu Yamino"],
-    "星川 サラ": ["Hoshikawa Sara", "", "", "星川 莎拉"],
-    "葉加瀬 冬雪": ["Hakase Fuyuki", "", "", "葉加瀨 冬雪"],
-    "甲斐田 晴": ["Haru Kaida", "", "", "甲斐田 晴"],
-    "津田 健次郎": ["Kenjiro Tsuda", "", "", "津田 健次郎"],
-    "鬼頭 明里": ["Akari Kito", "", "", "鬼頭 明里"],
+    "小原 好美": ["Konomi Kohara", "", "Кохара Кономи", "小原 好美"],
+    "白上 フブキ": ["Shirakami Fubuki", "", "Шираками Фубуки", "白上 吹雪"],
+    "影山 シエン": ["Kageyama Shien", "", "Шиэн Кагеяма", "影山 紫炎"],
+    "一 伊那尓栖": ["Ninomae Ina'nis", "", "Ина'нис Ниномае", "一 伊那爾棲"],
+    "日野 聡": ["Satoshi Hino", "", "Хино Сатоси", "日野 聰"],
+    "原 由実": ["Yumi Hara", "", "Хара Юми", "原 由實"],
+    "闇ノ シュウ": ["Shu Yamino", "", "Ямино Сю", "Shu Yamino"],
+    "星川 サラ": ["Hoshikawa Sara", "", "Сара Хошикава", "星川 莎拉"],
+    "葉加瀬 冬雪": ["Hakase Fuyuki", "", "Фуюки Хакасе", "葉加瀨 冬雪"],
+    "甲斐田 晴": ["Haru Kaida", "", "Каида Хару", "甲斐田 晴"],
+    "津田 健次郎": ["Kenjiro Tsuda", "", "Цуда Кенджо", "津田 健次郎"],
+    "鬼頭 明里": ["Akari Kito", "", "Кито Акари", "鬼頭 明里"],
     "Ｍ・Ａ・Ｏ": ["M・A・O", "M・A・O", "M・A・O", "M·A·O"],
-    "山口 勝平": ["Kappei Yamaguchi", "", "", "山口 勝平"],
-    "楠 大典": ["Taiten Kusunoki", "", "", "楠 大典"],
-    "小澤 亜李": ["Ari Ozawa", "", "", "小澤 亞李"],
+    "山口 勝平": ["Kappei Yamaguchi", "", "Каппэй Ямагути", "山口 勝平"],
+    "楠 大典": ["Taiten Kusunoki", "", "Таитэн Кусуноки", "楠 大典"],
+    "小澤 亜李": ["Ari Ozawa", "", "Ари Одзава", "小澤 亞李"],
     "？？？": ["???", "???", "???", "？？？"],
     "": ["Unknown", "알 수 없는", "Неизвестно", ""]
     }
@@ -1370,7 +1372,7 @@ items_file.close()
     # マグの見た目を変更するデバイス。
 magd_evol_formats = ["A device that changes a Mag's form.",
                             "마그의 외형을 변경하는 디바이스.",
-                            "",
+                            "Изменяет форму Mag'а.",
                             "變更瑪古外觀的裝置。"]
 
 # JP text: 
@@ -1381,7 +1383,9 @@ magd_reset_formats = [("Resets a Mag's appearance, stats,\n"
                                 "default state."),
                                 ("마그의 레벨과 지원 기능을 재설정 하고\n"
                                 "마그를 초기 상태로 되롤릴 수 있는 장치"),
-                                (""),
+                                ("Сбрасывает внещний вид, хар-ки,\n"
+                                "и функции поддержки Mag'а до\n"
+                                "состояния по умолчанию."),
                                 ("重置瑪古的等級與支援功能\n"
                                 "並使瑪古變回初始狀態的裝置。")]
 
@@ -1523,12 +1527,12 @@ cosmeticsorted_file_names = [
     ]
 
 cosmeticsorted_types = {
-    "Head": ["head", "헤드 파츠", "", "頭部"],
-    "Facetype": ["face type", "얼굴 바리에이션", "", "面部類型"],
-    "Headparts": ["head parts", "헤드 파츠", "", "頭部部件"],
-    "Bodyparts": ["body parts", "바디 파츠", "", "身體部件"],
-    "Armparts": ["arm parts", "암 파츠", "", "臂部部件"],
-    "Legparts": ["leg parts", "레그 파츠", "", "腿部部件"]
+    "Head": ["head", "헤드 파츠", "голова", "頭部"],
+    "Facetype": ["face type", "얼굴 바리에이션", "тип лица", "面部類型"],
+    "Headparts": ["head parts", "헤드 파츠", "части головы", "頭部部件"],
+    "Bodyparts": ["body parts", "바디 파츠", "части тела", "身體部件"],
+    "Armparts": ["arm parts", "암 파츠", "части рук", "臂部部件"],
+    "Legparts": ["leg parts", "레그 파츠", "части ног", "腿部部件"]
     }
 
 for file_name in cosmeticsorted_file_names:
