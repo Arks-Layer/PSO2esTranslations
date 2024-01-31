@@ -3192,6 +3192,13 @@
 		"tr_explain": "Increases the chance of successfully\nadding Special Abilities to an item."
 	},
 	{
+		"assign": "321010019",
+		"jp_text": "N-特殊能力追加成功率＋40%",
+		"tr_text": "",
+		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "321010039",
 		"jp_text": "N-特殊能力追加アイテム保護",
 		"tr_text": "N-Ability Protection",
@@ -5391,10 +5398,10 @@
 	},
 	{
 		"assign": "321010372",
-		"jp_text": "プリセット能力強化代用材",
-		"tr_text": "Preset Ability Material Subsitution",
-		"jp_explain": "プリセット能力の強化時に\n必要素材アイテムを不要にする。",
-		"tr_explain": "Removes the material requirement\nwhen enhancing Preset Abilities."
+		"jp_text": "プリセット能力強化素材不要",
+		"tr_text": "",
+		"jp_explain": "プリセット能力の強化時に\n必要素材アイテムを不要にする。\n<yellow>※強化成功率は上昇しない<c>",
+		"tr_explain": ""
 	},
 	{
 		"assign": "321010373",
@@ -5558,6 +5565,20 @@
 		"tr_explain": ""
 	},
 	{
+		"assign": "321010391",
+		"jp_text": "リワードボックスメダルFeb'24",
+		"tr_text": "",
+		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスFeb'24<c>に\n1回挑戦できるメダル。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321015087",
+		"jp_text": "春'24スペシャルスクラッチ券",
+		"tr_text": "",
+		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>春'24スペシャルスクラッチ<c>に\n1回挑戦できるチケット。",
+		"tr_explain": ""
+	},
+	{
 		"assign": "321010392",
 		"jp_text": "クラスレベル80化＆適正装備セット",
 		"tr_text": " Class Lv.80 & Equipment Set",
@@ -5632,6 +5653,20 @@
 		"jp_text": "Slクラスレベル80化＆適正装備セット",
 		"tr_text": "Sl Class Lv.80 & Equipment Set",
 		"jp_explain": "Slクラスレベル80化＆適正装備セット",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321015089",
+		"jp_text": "春'24スペシャルスクラッチ補助券",
+		"tr_text": "",
+		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>春'24スペシャルスクラッチ券<c>\nと交換できるチケット。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "321010404",
+		"jp_text": "プリセット能力Lv.1追加",
+		"tr_text": "",
+		"jp_explain": "Lv.1のプリセット能力の\nいずれかを装備に追加する。",
 		"tr_explain": ""
 	}
 ]
