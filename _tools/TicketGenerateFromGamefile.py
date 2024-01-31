@@ -280,6 +280,10 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
     # Generate all remaining parts of the final text
     if vo_ver == "ngs":
         vo_jp_suffix, vo_tr_suffix = ["ボイス"], ["語音"]
+        if (match_trans := re.search(r"^(.*[\u4e00-\u9fa5])([A-Z])$", vo_tr_name)): # (only compatible with CN)
+            match_jp = re.search(r"^(.*)([Ａ-Ｚ])$", vo_jp_name)
+            vo_jp_name, vo_jp_suffix2 = match_jp.group(1), match_jp.group(2)
+            vo_tr_name, vo_tr_suffix2 = match_trans.group(1), match_trans.group(2)
     elif vo_ver == "o2":
         vo_jp_type, vo_tr_type = ["", "Ｃ", "共通"], ["", "C", "共通"]
         if vo_jp_name.startswith(("追加ボイス", "［ＥＸ］ボイス")):
