@@ -280,19 +280,10 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
     # Generate all remaining parts of the final text
     if vo_ver == "ngs":
         vo_jp_suffix, vo_tr_suffix = ["ボイス"], ["語音"]
-        if (match_trans := re.search(r"^(.*[\u4e00-\u9fa5])([A-Z])$", vo_tr_name)): # (only compatible with CN)
-            match_jp = re.search(r"^(.*)([Ａ-Ｚ])$", vo_jp_name)
-            vo_jp_name, vo_jp_suffix2 = match_jp.group(1), match_jp.group(2)
-            vo_tr_name, vo_tr_suffix2 = match_trans.group(1), match_trans.group(2)
     elif vo_ver == "o2":
         vo_jp_type, vo_tr_type = ["", "Ｃ", "共通"], ["", "C", "共通"]
         if vo_jp_name.startswith(("追加ボイス", "［ＥＸ］ボイス")):
             vo_jp_suffix = vo_tr_suffix = [""]
-        elif (match_trans := re.search(r"^(.*[\u4e00-\u9fa5])([A-Z])$", vo_tr_name)): # (only compatible with CN)
-            match_jp = re.search(r"^(.*)([Ａ-Ｚ])$", vo_jp_name)
-            vo_jp_name, vo_jp_suffix2 = match_jp.group(1), match_jp.group(2)
-            vo_tr_name, vo_tr_suffix2 = match_trans.group(1), match_trans.group(2)
-            vo_jp_suffix, vo_tr_suffix = ["ボイス"], ["語音"]
         elif re.search(r'.{6,}', vo_jp_name):
             if re.search(r"[Ａ-Ｚ]$", vo_jp_name):
                 vo_jp_suffix, vo_tr_suffix = ["", "ボイス", "Ｖｏ", "　Ｖｏ"], ["", "語音", "語音", "語音"]
@@ -300,6 +291,12 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
                 vo_jp_suffix, vo_tr_suffix = ["", "ボイス","Ｖｏ"], ["", "語音","語音"]
         else:
             vo_jp_suffix, vo_tr_suffix = ["", "ボイス"], ["", "語音"]
+
+    # For the B/C/D... voices (only compatible with CN)
+    if (match_trans := re.search(r"^(.*[\u4e00-\u9fa5])([A-Z])$", vo_tr_name)): 
+        match_jp = re.search(r"^(.*)([Ａ-Ｚ])$", vo_jp_name)
+        vo_jp_name, vo_jp_suffix2 = match_jp.group(1), match_jp.group(2)
+        vo_tr_name, vo_tr_suffix2 = match_trans.group(1), match_trans.group(2)
 
     # Combine
     jp_texts = [f"{vo_gend}{vo_jp_typ}{vo_jp_name_pref}{vo_jp_nam}{vo_jp_suff}{vo_jp_suff2}"
@@ -364,7 +361,7 @@ def get_translation(jp_target_lines, tr_lines):
     return tr_target_texts
 
 # [FUNCTION] Form the item data
-def form_itemdata(item_format, names, texts, ori_explains, rec_descs, trade_info):
+def form_itemdata(item_format, names, texts, jp_text, tr_text, ori_explains, rec_descs, trade_info):
     # Record extra parts of explains
     rec_descs_ex = ["", ""]
 
@@ -397,7 +394,7 @@ def form_itemdata(item_format, names, texts, ori_explains, rec_descs, trade_info
         item["tr_text"] = texts[0]
         item["tr_explain"] = f"<green>“{texts[LANG]}”<c>\n{explains[1]}{rec_descs_ex[1]}"
     # For untranslated items in EN mode
-    elif LANG != 1 and (names[0] == names[LANG]) and re.search(r'[\u4e00-\u9fff\u3040-\u30ff]', names[LANG]):
+    elif LANG != 1 and (names[0] == names[LANG] or jp_text == tr_text) and re.search(r'[\u4e00-\u9fff\u3040-\u30ff]', names[LANG]):
         item["tr_text"] = ""
         item["tr_explain"] = explains[1] + rec_descs_ex[1]
     # For untradable items or EN mode
@@ -735,7 +732,7 @@ def main_generate_NGS(prefix):
             "assign": 0}
         
         # Generate item
-        item = form_itemdata(item_format, names, texts, explains, rec_descs, trade_info)
+        item = form_itemdata(item_format, names, texts, jp_text, tr_text, explains, rec_descs, trade_info)
         # Form the processed data
         processed_items.append(item)
         processed_item_texts.append(rec_descs[3])
@@ -814,7 +811,7 @@ def main_edit_Stack(prefix):
             for item_format in items_format:
                 assign = item_format["assign"]
                 # Generate item
-                item = form_itemdata(item_format, names, texts, explains, rec_descs, trade_info)
+                item = form_itemdata(item_format, names, texts, jp_text, tr_text, explains, rec_descs, trade_info)
                 for processed_item in processed_items:
                     # Find lines with existing descriptions
                     if processed_item["assign"] == assign:
