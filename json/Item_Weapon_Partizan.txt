@@ -1255,16 +1255,16 @@
 	{
 		"assign": "130308",
 		"jp_text": "ノヴェルパルチザン",
-		"tr_text": "",
+		"tr_text": "新銳長槍",
 		"jp_explain": "新技術により開発された長槍。\n次期主力を担う武器として作られた。\n硬い鞘のようなもので覆われている。",
-		"tr_explain": ""
+		"tr_explain": "以新技術開發的長槍。\n作為下代主力武器製作。\n覆蓋著堅硬刀鞘般的物體。"
 	},
 	{
 		"assign": "130309",
 		"jp_text": "リバレイトパルチザン",
-		"tr_text": "",
+		"tr_text": "解放長槍",
 		"jp_explain": "新技術により開発された長槍。\n次期主力を担う武器の真なる姿。\n優れた切断性能と安定力を誇る。",
-		"tr_explain": ""
+		"tr_explain": "以新技術開發的長槍。\n是下代主力武器真正姿態。\n以優異的切割性能與穩定性為傲。"
 	},
 	{
 		"assign": "130310",
@@ -1388,9 +1388,9 @@
 	{
 		"assign": "130337",
 		"jp_text": "光跡槍アドラシオン",
-		"tr_text": "",
+		"tr_text": "光跡槍·崇心之錫安",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ長槍。暗黒を切り裂き、姿を\n現した刃は、光輝く未来を解き放つ。",
-		"tr_explain": ""
+		"tr_explain": "連結了星球，由回溯時間之人結下的情誼\n所創造的長槍。劃破黑暗\n現出身姿之刃，將解放光輝璀璨的未來。"
 	},
 	{
 		"assign": "130339",
@@ -1437,9 +1437,9 @@
 	{
 		"assign": "130370",
 		"jp_text": "光纏槍クラースパイク",
-		"tr_text": "",
+		"tr_text": "光纏槍·明日槍矛",
 		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った長槍。\nその貫撃が、希望の道を拓く。",
-		"tr_explain": ""
+		"tr_explain": "被掃卻深遠之暗，並化作\n宇宙起源的光芒所纏繞的長槍。\n這貫擊，將開闢希望之路。"
 	},
 	{
 		"assign": "130371",
@@ -1479,9 +1479,9 @@
 	{
 		"assign": "130391",
 		"jp_text": "闇征槍アジェルパイク",
-		"tr_text": "",
+		"tr_text": "暗征槍·昨日槍矛",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた長槍。\n螺旋の命運が刻み込まれている。",
-		"tr_explain": ""
+		"tr_explain": "充滿著決心，不惜犧牲自己的一切，\n也誓要守護宇宙的長槍。\n烙刻著螺旋的命運。"
 	},
 	{
 		"assign": "13010006",
@@ -1565,7 +1565,7 @@
 		"jp_text": "エヴォルコートスピア",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化鍍層長槍”<c>\n"
+		"tr_explain": "<green>“進化能量層長槍”<c>\n"
 	},
 	{
 		"assign": "13010023",
@@ -1619,7 +1619,7 @@
 	{
 		"assign": "13010025",
 		"jp_text": "カイゼラムスピア",
-		"tr_text": "凱撒長槍",
+		"tr_text": "帝王長槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1677,7 +1677,7 @@
 		"jp_text": "レリク・ウルティムリッター",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“聖遺·終極騎士長槍”<c>\n"
+		"tr_explain": "<green>“聖遺·終極騎士”<c>\n"
 	},
 	{
 		"assign": "13010035",
@@ -1691,14 +1691,14 @@
 		"jp_text": "エヴォルオーヴァスピア",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化軌道長槍”<c>\n"
+		"tr_explain": "<green>“進化環軌長槍”<c>\n"
 	},
 	{
 		"assign": "13010037",
 		"jp_text": "クリスティアスピア",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“水晶石長槍”<c>\n"
+		"tr_explain": "<green>“水晶長槍”<c>\n"
 	},
 	{
 		"assign": "13010039",
@@ -1731,7 +1731,7 @@
 	{
 		"assign": "13010044",
 		"jp_text": "エヴォルイクリススピア",
-		"tr_text": "進化侵蝕長槍",
+		"tr_text": "進化環蝕長槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1747,12 +1747,12 @@
 		"jp_text": "オブゾディアスピア",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“黑曜石長槍”<c>\n"
+		"tr_explain": "<green>“黑曜長槍”<c>\n"
 	},
 	{
 		"assign": "13010054",
 		"jp_text": "カイゼラムスピア試製壱型",
-		"tr_text": "凱撒長槍試製壹型",
+		"tr_text": "帝王長槍試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1803,7 +1803,7 @@
 		"jp_text": "レヴォルコートスピア",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“變革鍍層長槍”<c>\n"
+		"tr_explain": "<green>“變革能量層長槍”<c>\n"
 	},
 	{
 		"assign": "13010076",
@@ -1838,7 +1838,7 @@
 		"jp_text": "メレク・ウルティムリッター",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“天遺·終極騎士長槍”<c>\n"
+		"tr_explain": "<green>“天遺·終極騎士”<c>\n"
 	},
 	{
 		"assign": "13010085",
@@ -1848,9 +1848,30 @@
 		"tr_explain": "<green>“變匣長槍”<c>\n"
 	},
 	{
+		"assign": "13010092",
+		"jp_text": "ロウゼラムスピア",
+		"tr_text": "尊王長槍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010093",
+		"jp_text": "ミレニアムラウンドスピア",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“千年之輪長槍”<c>"
+	},
+	{
 		"assign": "13010099",
 		"jp_text": "ラジャンティエスピア",
 		"tr_text": "銀式長槍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "13010106",
+		"jp_text": "ロウゼラムスピア試製壱型",
+		"tr_text": "尊王長槍試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

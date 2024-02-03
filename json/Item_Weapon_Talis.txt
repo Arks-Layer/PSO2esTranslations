@@ -1283,16 +1283,16 @@
 	{
 		"assign": "1120294",
 		"jp_text": "ノヴェルタリス",
-		"tr_text": "",
+		"tr_text": "新銳導具",
 		"jp_explain": "新技術により開発された導具。\n次期主力を担う武器として作られた。\n一部機能が制限されている。",
-		"tr_explain": ""
+		"tr_explain": "以新技術開發的導具。\n作為下代主力武器製作。\n一部分功能受到限制。"
 	},
 	{
 		"assign": "1120295",
 		"jp_text": "リバレイトタリス",
-		"tr_text": "",
+		"tr_text": "解放導具",
 		"jp_explain": "新技術により開発された導具。\n次期主力を担う武器の真なる姿。\n高いフォトン伝導率と安定性を誇る。",
-		"tr_explain": ""
+		"tr_explain": "以新技術開發的導具。\n是下代主力武器真正姿態。\n以高超的光子傳導率與穩定性為傲。"
 	},
 	{
 		"assign": "1120298",
@@ -1458,9 +1458,9 @@
 	{
 		"assign": "1120335",
 		"jp_text": "光跡符オラシオン",
-		"tr_text": "",
+		"tr_text": "光跡符·禱宣之錫安",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ導具。想いと祈りは力となり\n己が望む未来への道を築く。",
-		"tr_explain": ""
+		"tr_explain": "連結了星球，由回溯時間之人結下的情誼\n所創造的導具。心意與祈願\n將化作力量，築起道路前往期冀的未來。"
 	},
 	{
 		"assign": "1120341",
@@ -1542,9 +1542,9 @@
 	{
 		"assign": "1120364",
 		"jp_text": "光纏符クラースタリス",
-		"tr_text": "",
+		"tr_text": "光纏符·明日導具",
 		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った導具。\nその祈りが、新しい道を生む。",
-		"tr_explain": ""
+		"tr_explain": "被掃卻深遠之暗，並化作\n宇宙起源的光芒所纏繞的導具。\n這祈願，將拓出嶄新之路。"
 	},
 	{
 		"assign": "1120365",
@@ -1591,9 +1591,9 @@
 	{
 		"assign": "1120380",
 		"jp_text": "闇征符アジェルタリス",
-		"tr_text": "",
+		"tr_text": "暗征符·昨日導具",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた導具。\n届かぬ祈りが運命の環に寄り添う。",
-		"tr_explain": ""
+		"tr_explain": "充滿著決心，不惜犧牲自己的一切，\n也誓要守護宇宙的導具。\n傳達不出的祈願緊纏著命運之環。"
 	},
 	{
 		"assign": "1120384",
@@ -1670,7 +1670,7 @@
 		"jp_text": "エヴォルコートタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化鍍層導具”<c>\n"
+		"tr_explain": "<green>“進化能量層導具”<c>\n"
 	},
 	{
 		"assign": "112010027",
@@ -1724,7 +1724,7 @@
 	{
 		"assign": "112010021",
 		"jp_text": "カイゼラムタリス",
-		"tr_text": "凱撒導具",
+		"tr_text": "帝王導具",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1775,7 +1775,7 @@
 		"jp_text": "レリク・エクスペディシス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“聖遺·急迅導具”<c>\n"
+		"tr_explain": "<green>“聖遺·急迅標”<c>\n"
 	},
 	{
 		"assign": "112010031",
@@ -1789,14 +1789,14 @@
 		"jp_text": "エヴォルオーヴァタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化軌道導具”<c>\n"
+		"tr_explain": "<green>“進化環軌導具”<c>\n"
 	},
 	{
 		"assign": "112010033",
 		"jp_text": "クリスティアタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“水晶石導具”<c>\n"
+		"tr_explain": "<green>“水晶導具”<c>\n"
 	},
 	{
 		"assign": "112010034",
@@ -1829,7 +1829,7 @@
 	{
 		"assign": "112010038",
 		"jp_text": "エヴォルイクリスタリス",
-		"tr_text": "進化侵蝕導具",
+		"tr_text": "進化環蝕導具",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1845,12 +1845,12 @@
 		"jp_text": "オブゾディアタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“黑曜石導具”<c>\n"
+		"tr_explain": "<green>“黑曜導具”<c>\n"
 	},
 	{
 		"assign": "112010045",
 		"jp_text": "カイゼラムタリス試製壱型",
-		"tr_text": "凱撒導具試製壹型",
+		"tr_text": "帝王導具試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1901,7 +1901,7 @@
 		"jp_text": "レヴォルコートタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“變革鍍層導具”<c>\n"
+		"tr_explain": "<green>“變革能量層導具”<c>\n"
 	},
 	{
 		"assign": "112010061",
@@ -1936,7 +1936,7 @@
 		"jp_text": "メレク・エクスペディシス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“天遺·急迅導具”<c>\n"
+		"tr_explain": "<green>“天遺·急迅標”<c>\n"
 	},
 	{
 		"assign": "112010068",
@@ -1946,9 +1946,30 @@
 		"tr_explain": "<green>“變匣導具”<c>\n"
 	},
 	{
+		"assign": "112010072",
+		"jp_text": "ロウゼラムタリス",
+		"tr_text": "尊王導具",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010073",
+		"jp_text": "ミレニアムラウンドタリス",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“千年之輪導具”<c>"
+	},
+	{
 		"assign": "112010075",
 		"jp_text": "ラジャンティエタリス",
 		"tr_text": "銀式導具",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010078",
+		"jp_text": "ロウゼラムタリス試製壱型",
+		"tr_text": "尊王導具試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

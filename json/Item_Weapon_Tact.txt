@@ -240,9 +240,9 @@
 	{
 		"assign": "118081",
 		"jp_text": "光跡奏カンシオン",
-		"tr_text": "",
+		"tr_text": "光跡奏·歌弦之錫安",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ奏具。妙なる旋律は\n光をもたらし、未来への楽章を奏でる。",
-		"tr_explain": ""
+		"tr_explain": "連結了星球，由回溯時間之人結下的情誼\n所創造的奏具。美妙的旋律\n將帶來光明，奏響通往未來的樂章。"
 	},
 	{
 		"assign": "118085",
@@ -254,23 +254,23 @@
 	{
 		"assign": "118086",
 		"jp_text": "ノヴェルタクト",
-		"tr_text": "",
+		"tr_text": "新銳奏具",
 		"jp_explain": "新技術により開発された奏具。\n次期主力を担う武器として作られた。\n一部機能が制限されている。",
-		"tr_explain": ""
+		"tr_explain": "以新技術開發的奏具。\n作為下代主力武器製作。\n一部分功能受到限制。"
 	},
 	{
 		"assign": "118087",
 		"jp_text": "リバレイトタクト",
-		"tr_text": "",
+		"tr_text": "解放奏具",
 		"jp_explain": "新技術により開発された奏具。\n次期主力を担う武器の真なる姿。\n高い操作性と安定した出力を誇る。",
-		"tr_explain": ""
+		"tr_explain": "以新技術開發的奏具。\n是下代主力武器真正姿態。\n以高超的操作性與穩定的輸出為傲。"
 	},
 	{
 		"assign": "118091",
 		"jp_text": "光纏奏クラースリード",
-		"tr_text": "",
+		"tr_text": "光纏奏·明日引杖",
 		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った奏具。\nその指揮が、明日を紡ぎだす。",
-		"tr_explain": ""
+		"tr_explain": "被掃卻深遠之暗，並化作\n宇宙起源的光芒所纏繞的奏具。\n這指揮，將織就明日。"
 	},
 	{
 		"assign": "118095",
@@ -303,9 +303,9 @@
 	{
 		"assign": "1180103",
 		"jp_text": "闇征奏アジェルリード",
-		"tr_text": "",
+		"tr_text": "暗征奏·昨日引杖",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた奏具。\n無限に廻る運命を終点へと導く。",
-		"tr_explain": ""
+		"tr_explain": "充滿著決心，不惜犧牲自己的一切，\n也誓要守護宇宙的奏具。\n將把無盡輪迴的命運引向終點。"
 	},
 	{
 		"assign": "118010003",
@@ -361,7 +361,7 @@
 		"jp_text": "レリク・ノクスバティーラ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“聖遺·夜夢之舟奏具”<c>\n"
+		"tr_explain": "<green>“聖遺·夜夢之舟”<c>\n"
 	},
 	{
 		"assign": "118010013",
@@ -382,7 +382,7 @@
 		"jp_text": "エヴォルコートタクト",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化鍍層奏具”<c>\n"
+		"tr_explain": "<green>“進化能量層奏具”<c>\n"
 	},
 	{
 		"assign": "118010016",
@@ -417,12 +417,12 @@
 		"jp_text": "クリスティアタクト",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“水晶石奏具”<c>\n"
+		"tr_explain": "<green>“水晶奏具”<c>\n"
 	},
 	{
 		"assign": "118010022",
 		"jp_text": "カイゼラムタクト",
-		"tr_text": "凱撒奏具",
+		"tr_text": "帝王奏具",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -494,12 +494,12 @@
 		"jp_text": "オブゾディアタクト",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“黑曜石奏具”<c>\n"
+		"tr_explain": "<green>“黑曜奏具”<c>\n"
 	},
 	{
 		"assign": "118010039",
 		"jp_text": "カイゼラムタクト試製壱型",
-		"tr_text": "凱撒奏具試製壹型",
+		"tr_text": "帝王奏具試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -550,7 +550,7 @@
 		"jp_text": "レヴォルコートタクト",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“變革鍍層奏具”<c>\n"
+		"tr_explain": "<green>“變革能量層奏具”<c>\n"
 	},
 	{
 		"assign": "118010057",
@@ -585,7 +585,7 @@
 		"jp_text": "メレク・ノクスバティーラ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“天遺·夜夢之舟奏具”<c>\n"
+		"tr_explain": "<green>“天遺·夜夢之舟”<c>\n"
 	},
 	{
 		"assign": "118010063",
@@ -595,9 +595,30 @@
 		"tr_explain": "<green>“變匣奏具”<c>\n"
 	},
 	{
+		"assign": "118010067",
+		"jp_text": "ロウゼラムタクト",
+		"tr_text": "尊王奏具",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "118010068",
+		"jp_text": "ミレニアムラウンドタクト",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“千年之輪奏具”<c>"
+	},
+	{
 		"assign": "118010070",
 		"jp_text": "ラジャンティエタクト",
 		"tr_text": "銀式奏具",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "118010073",
+		"jp_text": "ロウゼラムタクト試製壱型",
+		"tr_text": "尊王奏具試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
 	}
