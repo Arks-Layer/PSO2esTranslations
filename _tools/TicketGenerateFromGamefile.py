@@ -583,7 +583,8 @@ ph_jp_target_lines = [
     if text_id.startswith("ob_7") and not jp_text.startswith(("￥", "text_"))]
 bg_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-    if re.match(r'^\d{1,2}#', text_id) and not jp_text.startswith(("￥", "text_"))]
+    if (re.match(r'^\d{1,2}#', text_id) or re.match(r'^1\d{1,2}#', text_id))
+    and not jp_text.startswith(("￥", "text_"))]
 aug_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in element_name_jp_lines
     if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "￥", "-"))]
