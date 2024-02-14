@@ -71,13 +71,15 @@ horn_trade_infos = {}
 ha_trade_infos = {}
 vo_trade_infos = {}
 
-# URLs of PSO2/PSO2NGS swiki (only for CN)
+# URLs of swiki/makapo (only for CN)
 wiki_urls = {
     'ngs': 'https://pso2ngs.swiki.jp/index.php?',
-    'o2': 'https://pso2.swiki.jp/index.php?'}
-# URLs and trade_infos mapping of PSO2/PSO2NGS swiki pages (only for CN)
+    'o2': 'https://pso2.swiki.jp/index.php?',
+    'makapo': 'https://ngs.pso2-makapo.com/'}
+# URLs and trade_infos mapping of swiki/makapo pages (only for CN)
 suffix_mapping = {
     'ngs_mo': ('モーション', mo_trade_infos),
+    'makapo_bp': ('build-parts-list', bp_trade_infos),
     'ngs_bp1': ('クリエイティブスペース/ビルドパーツ/建材', bp_trade_infos),
     'ngs_bp2': ('クリエイティブスペース/ビルドパーツ/建築物・道具・器具', bp_trade_infos),
     'ngs_bp3': ('クリエイティブスペース/ビルドパーツ/自然物', bp_trade_infos),
@@ -166,9 +168,9 @@ def parse_data(file_path, file_type):
 
         # Process .html files
         elif file_type == "html":
-            if line.startswith('<div class="ie5">'):
+            if line.startswith('<div class="ie5">') or line.startswith(' data-ad-slot='):
                 # For items with "「」"
-                if "pso2ngs" in file_path and not "エステ" in file_path:
+                if "ngs" in file_path and not "エステ" in file_path:
                     headnames = ['Mo', 'BP', 'PH', 'Bg']
                     for headname in headnames:
                         # Do regex replacement, to ensure each line starts with item names.
@@ -177,7 +179,7 @@ def parse_data(file_path, file_type):
                             if n_line.startswith(f"{headname}「"):
                                 jp_text = n_line[n_line.find(f"{headname}「") + 3:n_line.find('」')]
                                 if any(keyword in n_line for keyword in
-                                    ['マイショップ出品不可', '初期']):
+                                    ['マイショップ出品不可', '初期', 'alt="GP"', 'alt="SG"', "交換</td>", "季節イベント</td>","トレジャースクラッチ", "SPスクラッチ</td>", "開発準備特別票</td>", "クラス育成特別プログラム", "初期登録</td>"]):
                                     trade_infos[jp_text] = "Untradable"
 
                 # For items without "「」"
@@ -190,7 +192,7 @@ def parse_data(file_path, file_type):
                             if n_line.startswith(f"{headname}"):
                                 jp_text = n_line[n_line.find(f"{headname}") :n_line.find('</td>')]
                                 if any(keyword in n_line for keyword in
-                                    ['マイショップ出品不可', 'トレード不可', 'SG.png']):
+                                    ['マイショップ出品不可', 'SG.png']):
                                     trade_infos[jp_text] = "Untradable"
 
     return parsed_lines, trade_infos
@@ -447,7 +449,7 @@ elif LANG == 2:
     charamake_parts_tr_lines = parse_data(charamake_parts_en_url, "csv")[0]
     element_name_tr_lines = parse_data(element_name_en_url, "csv")[0]
 
-# Parse PSO2/PSO2NGS swiki webs to get tradable info (only for CN)
+# Parse swiki/makapo webs to get tradable info (only for CN)
 if LANG == 1:
     for key, (suffix_url, trade_infos) in suffix_mapping.items():
         # Form full_url to get tradable info
@@ -636,7 +638,7 @@ def extra_condition(prefix, jp_text):
     if prefix == "mo":
        return jp_text.endswith(("EX"))
     elif prefix == "bp":
-        return jp_text.startswith(("エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエト：", "立体図形：", "立体数字：", "ベーシック", "モダン", "クラシック", "ゴシック", "スイーツ", "チャイナ", "ウェスタン", "オリエント", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ", "ミニ")) and not jp_text.startswith(("ミニミニ"))
+        return jp_text.startswith(("エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "立体図形：", "立体数字：", "ベーシック", "モダン", "クラシック", "ゴシック", "スイーツ", "チャイナ", "ウェスタン", "オリエント", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ", "ミニ")) and not jp_text.startswith(("ミニミニ"))
     elif prefix == "ph":
         return jp_text == ""
     elif prefix == "bg":
