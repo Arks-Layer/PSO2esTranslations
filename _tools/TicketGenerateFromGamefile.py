@@ -217,48 +217,58 @@ def width_process_string(string):
             result_string += char
     return result_string
 
-# [FUNCTION] Get JP target lines of facial features
-def get_ff_jp_target_lines():
+# [FUNCTION] Get JP target lines from ordered lines
+def get_order_jp_target_lines(prefix):
     # Initialize
-    ff_jp_lines = []
-    # Get the lines of facial features
+    order_jp_lines = []
+    # Get the lines of ordered lines
     matching_started = False
     for text_id, jp_text in charamake_parts_jp_lines:
-        if matching_started or "MoveMotion_2" in text_id:
+        if prefix == "ff" and (matching_started or "MoveMotion_2" in text_id):
             matching_started = True
             match_result = re.match(r'^No1(\d{5})#', text_id)
             if match_result:
-                ff_jp_lines.append((text_id, jp_text))
+                order_jp_lines.append((text_id, jp_text))
+        elif prefix == "bg" and (matching_started or jp_text == "ベースボディT2"):
+            matching_started = True
+            match_result = re.match(r'^^\d{1,3}#', text_id)
+            if match_result:
+                order_jp_lines.append((text_id, jp_text))
 
     # Initialize
-    ff_jp_target_lines = [[], [], []]
     start_row = 0
-    # Find target lines of Mouths, Ears, Horns from each loop, from facial features lines
-    for i in range(3):
-        current_row = start_row
-        # Get text_ids of current line and next line
-        while current_row < len(ff_jp_lines) - 1:
-            current_id, next_id = ff_jp_lines[current_row][0], ff_jp_lines[current_row + 1][0]
-            # If both current line and next line matched
-            if re.match(r'^No1(\d{5})#', current_id) and re.match(r'^No1(\d{5})#', next_id):
-                # Get the numbers after "No" from text_id, and extend the target lines
-                current_num, next_num = [int(re.search(r'^No(\d+)#', num).group(1)) for num in [current_id, next_id]]
-                ff_jp_target_lines[i].append(ff_jp_lines[current_row])
-                # Compare, if current number < next number, then continue
-                if current_num < next_num:
-                    current_row += 1
-                # Compare, if current number >= next number, then break
-                else:     
-                    start_row, current_row = current_row + 1, current_row + 1
-                    break
-            # If only current line matched
-            elif re.match(r'^No1(\d{5})#', current_id):
-                ff_jp_target_lines[i].append(ff_jp_lines[current_row])
-                current_row += 1
-            else:
-                break
 
-    return ff_jp_target_lines
+    if prefix == "ff":
+        order_jp_target_lines = [[], [], []]
+        # Find target lines from each loop, from ordered lines
+        for i in range(len(order_jp_target_lines)):
+            current_row = start_row
+            # Get text_ids of current line and next line
+            while current_row < len(order_jp_lines) - 1:
+                current_id, next_id = order_jp_lines[current_row][0], order_jp_lines[current_row + 1][0]
+                # If both current line and next line matched
+                if re.match(r'^No1(\d{5})#', current_id) and re.match(r'^No1(\d{5})#', next_id):
+                    # Get the numbers after "No" from text_id, and extend the target lines
+                    current_num, next_num = [int(re.search(r'^No(\d+)#', num).group(1)) for num in [current_id, next_id]]
+                    order_jp_target_lines[i].append(order_jp_lines[current_row])
+                    # Compare, if current number < next number, then continue
+                    if current_num < next_num:
+                        current_row += 1
+                    # Compare, if current number >= next number, then break
+                    else:     
+                        start_row, current_row = current_row + 1, current_row + 1
+                        break
+                # If only current line matched
+                elif re.match(r'^No1(\d{5})#', current_id):
+                    order_jp_target_lines[i].append(order_jp_lines[current_row])
+                    current_row += 1
+                else:
+                    break
+                    
+    elif prefix == "bg":
+        order_jp_target_lines = order_jp_lines
+
+    return order_jp_target_lines
 
 # [FUNCTION] Form names of voice (only compatible with CN)
 def form_vo_names(text_id, jp_fulltext, tr_fulltext):
@@ -582,9 +592,8 @@ ph_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in accessories_jp_lines
     if text_id.startswith("ob_7") and not jp_text.startswith(("￥", "text_"))]
 bg_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-    if (re.match(r'^\d{1,2}#', text_id) or re.match(r'^1\d{1,2}#', text_id))
-    and not jp_text.startswith(("￥", "text_"))]
+    (text_id, jp_text) for text_id, jp_text in get_order_jp_target_lines("bg")
+    if not jp_text.startswith(("￥", "text_"))]
 aug_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in element_name_jp_lines
     if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "￥", "-"))]
@@ -610,7 +619,7 @@ cp_m_jp_target_lines = [
 cp_f_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in cp_jp_target_lines
     if re.match(r'^No4\d{5}#', text_id)]
-mou_jp_target_lines, ear_jp_target_lines, horn_jp_target_lines = get_ff_jp_target_lines()
+mou_jp_target_lines, ear_jp_target_lines, horn_jp_target_lines = get_order_jp_target_lines("ff")
 ha_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in common_jp_lines
     if text_id.startswith("LobbyAction_")]
