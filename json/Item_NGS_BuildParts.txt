@@ -806,7 +806,7 @@
 	},
 	{
 		"jp_text": "BP「ゴシックソファB」",
-		"tr_text": "",
+		"tr_text": "BP「哥特沙發B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
 		"tr_explain": "交互後\n即可坐下的建造部件。",
 		"assign": 0
@@ -820,14 +820,14 @@
 	},
 	{
 		"jp_text": "BP「ゴシックベッドB」",
-		"tr_text": "",
+		"tr_text": "BP「哥特床B」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
 		"tr_explain": "交互後\n即可躺下的建造部件。",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「ゴシックチェアB」",
-		"tr_text": "",
+		"tr_text": "BP「哥特椅B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
 		"tr_explain": "交互後\n即可坐下的建造部件。",
 		"assign": 0
@@ -1618,7 +1618,7 @@
 	},
 	{
 		"jp_text": "BP「ファンシーベッドB」",
-		"tr_text": "",
+		"tr_text": "BP「夢幻床B」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
 		"tr_explain": "交互後\n即可躺下的建造部件。",
 		"assign": 0
@@ -1632,7 +1632,7 @@
 	},
 	{
 		"jp_text": "BP「ファンシーチェアB」",
-		"tr_text": "",
+		"tr_text": "BP「夢幻椅B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
 		"tr_explain": "交互後\n即可坐下的建造部件。",
 		"assign": 0
@@ -1653,14 +1653,14 @@
 	},
 	{
 		"jp_text": "BP「ファンシーミニソファB」",
-		"tr_text": "",
+		"tr_text": "BP「夢幻迷你沙發B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
 		"tr_explain": "交互後\n即可坐下的建造部件。",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「ファンシーソファB」",
-		"tr_text": "",
+		"tr_text": "BP「夢幻沙發B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
 		"tr_explain": "交互後\n即可坐下的建造部件。",
 		"assign": 0
@@ -2752,9 +2752,9 @@
 	},
 	{
 		"jp_text": "BP「保健室のベッド」",
-		"tr_text": "",
+		"tr_text": "BP「保健室のベッド」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": "交互後\n即可躺下的建造部件。",
+		"tr_explain": "<green>“BP「保健室的床」”<c>\n交互後\n即可躺下的建造部件。",
 		"assign": 0
 	},
 	{
@@ -2766,7 +2766,7 @@
 	},
 	{
 		"jp_text": "BP「学校の椅子B」",
-		"tr_text": "",
+		"tr_text": "BP「學校的椅子B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
 		"tr_explain": "交互後\n即可坐下的建造部件。",
 		"assign": 0
@@ -2836,9 +2836,9 @@
 	},
 	{
 		"jp_text": "BP「パイプ椅子B」",
-		"tr_text": "",
+		"tr_text": "BP「パイプ椅子B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": "交互後\n即可坐下的建造部件。",
+		"tr_explain": "<green>“BP「鐵管椅子B」”<c>\n交互後\n即可坐下的建造部件。",
 		"assign": 0
 	},
 	{
@@ -3151,9 +3151,9 @@
 	},
 	{
 		"jp_text": "BP「露天風呂」",
-		"tr_text": "",
+		"tr_text": "BP「露天風呂」",
 		"jp_explain": "アクセスすると\n入浴できるビルドパーツ。",
-		"tr_explain": "交互後\n即可入浴的建造部件。",
+		"tr_explain": "<green>“BP「露天澡盆」”<c>\n交互後\n即可入浴的建造部件。",
 		"assign": 0
 	},
 	{
@@ -7575,7 +7575,7 @@
 	},
 	{
 		"jp_text": "BP「ピエド：チェア」",
-		"tr_text": "",
+		"tr_text": "BP「雜色：椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
 		"tr_explain": "交互後\n即可坐下的建造部件。",
 		"assign": 0
@@ -7589,7 +7589,7 @@
 	},
 	{
 		"jp_text": "BP「ピエド：アンティークチェア」",
-		"tr_text": "",
+		"tr_text": "BP「雜色：古董椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
 		"tr_explain": "交互後\n即可坐下的建造部件。",
 		"assign": 0
@@ -7617,14 +7617,14 @@
 	},
 	{
 		"jp_text": "BP「ピエド：ベッド」",
-		"tr_text": "",
+		"tr_text": "BP「雜色：床」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
 		"tr_explain": "交互後\n即可躺下的建造部件。",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「ピエド：ソファ」",
-		"tr_text": "",
+		"tr_text": "BP「雜色：沙發」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
 		"tr_explain": "交互後\n即可坐下的建造部件。",
 		"assign": 0
@@ -8282,7 +8282,7 @@
 	},
 	{
 		"jp_text": "BP「エアル：チェアC」",
-		"tr_text": "",
+		"tr_text": "BP「艾亞利奧式：椅C」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
 		"tr_explain": "交互後\n即可坐下的建造部件。",
 		"assign": 0
@@ -8457,7 +8457,7 @@
 	},
 	{
 		"jp_text": "BP「クヴァル：チェア」",
-		"tr_text": "",
+		"tr_text": "BP「克瓦利斯式：椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
 		"tr_explain": "交互後\n即可坐下的建造部件。",
 		"assign": 0
