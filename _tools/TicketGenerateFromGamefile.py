@@ -496,12 +496,12 @@ cp_itypes = {
     "Body": ("ボディパーツ", "身體部件", "body parts"),
     "Leg": ("レッグパーツ", "腿部部件", "leg parts")}
 igens = {
-    "a1": ["ヒト型/キャストタイプ1", "人類/機人 類型1", "Human/Cast Type 1"],
-    "a2": ["ヒト型/キャストタイプ2", "人類/機人 類型2", "Human/Cast Type 2"],
-    "h1": ["ヒト型タイプ1", "人類 類型1", "Human Type 1"],
-    "h2": ["ヒト型タイプ2", "人類 類型2", "Human Type 2"],
-    "c1": ["キャストタイプ1", "機人 類型1", "Cast Type 1"],
-    "c2": ["キャストタイプ2", "機人 類型2", "Cast Type 2"]}
+    "a1": ["ヒト型/キャストタイプ1", "人類/機人類型1", "Human/Cast Type 1"],
+    "a2": ["ヒト型/キャストタイプ2", "人類/機人類型2", "Human/Cast Type 2"],
+    "h1": ["ヒト型タイプ1", "人類類型1", "Human Type 1"],
+    "h2": ["ヒト型タイプ2", "人類類型2", "Human Type 2"],
+    "c1": ["キャストタイプ1", "機人類型1", "Cast Type 1"],
+    "c2": ["キャストタイプ2", "機人類型2", "Cast Type 2"]}
 
 # Names of items
 mo_names = ["{jp_itype}：{jp_text}", "{tr_itype}：{tr_text}", "{tr_itype}: {tr_text}"]
