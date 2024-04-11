@@ -24466,7 +24466,12 @@
 	},
 	{
 		"assign": "lobby_survival_score",
-		"jp_text": "サバイバルスコア",
+		"jp_text": "サバイバルスコア（総合）",
+		"tr_text": ""
+	},
+	{
+		"assign": "lobby_survival_score_max",
+		"jp_text": "サバイバルスコア（最大）",
 		"tr_text": ""
 	},
 	{
@@ -24546,12 +24551,32 @@
 	},
 	{
 		"assign": "survival_quest_name",
+		"jp_text": "極討サバイバル（総合）",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_quest_max_score_name",
+		"jp_text": "極討サバイバル（最大）",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_quest_name_not_type",
 		"jp_text": "極討サバイバル",
 		"tr_text": ""
 	},
 	{
 		"assign": "survival_quest_ranking_no_entry",
 		"jp_text": "<color=#e25f04>未参加</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_quest_total",
+		"jp_text": "【討】",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_quest_max",
+		"jp_text": "【極】",
 		"tr_text": ""
 	},
 	{
@@ -24577,6 +24602,11 @@
 	{
 		"assign": "sb_reward_dialog_reward_title_caption",
 		"jp_text": "報酬",
+		"tr_text": ""
+	},
+	{
+		"assign": "sb_reward_dialog_append_reward_title_caption",
+		"jp_text": "ボーナス報酬",
 		"tr_text": ""
 	},
 	{
@@ -24777,6 +24807,11 @@
 	{
 		"assign": "survival_ranking_exits_dialog_title",
 		"jp_text": "ランキング確定",
+		"tr_text": ""
+	},
+	{
+		"assign": "survival_max_score_ranking_exits_dialog_title",
+		"jp_text": "最大スコアランキング確定",
 		"tr_text": ""
 	},
 	{
@@ -25482,6 +25517,16 @@
 	{
 		"assign": "sbattle_ranking_receive_reward_linetext",
 		"jp_text": "参加したイベントのランキング報酬が「受け取りボックス」へ配付されました",
+		"tr_text": ""
+	},
+	{
+		"assign": "duplicate_recipt_dialog_title",
+		"jp_text": "エラー",
+		"tr_text": ""
+	},
+	{
+		"assign": "duplicate_recipt_dialog_message",
+		"jp_text": "課金でエラーが発生しました。\n正常に付与されない場合は\nサポート窓口にお問い合わせください。",
 		"tr_text": ""
 	}
 ]
