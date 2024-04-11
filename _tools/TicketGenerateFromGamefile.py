@@ -307,7 +307,7 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
 
     # For the B/C/D... voices (only compatible with CN)
     if (match_trans := re.search(r"^(.*[\u4e00-\u9fa5])([A-Z])$", vo_tr_name)): 
-        match_jp = re.search(r"^(.*)([Ａ-Ｚ])$", vo_jp_name)
+        match_jp = re.search(r"^(.*)([Ａ-Ｚ]|[A-Z])$", vo_jp_name)
         vo_jp_name, vo_jp_suffix2 = match_jp.group(1), match_jp.group(2)
         vo_tr_name, vo_tr_suffix2 = match_trans.group(1), match_trans.group(2)
 
@@ -496,12 +496,12 @@ cp_itypes = {
     "Body": ("ボディパーツ", "身體部件", "body parts"),
     "Leg": ("レッグパーツ", "腿部部件", "leg parts")}
 igens = {
-    "a1": ["ヒト型/キャストタイプ1", "人類/機人 類型1", "Human/Cast Type 1"],
-    "a2": ["ヒト型/キャストタイプ2", "人類/機人 類型2", "Human/Cast Type 2"],
-    "h1": ["ヒト型タイプ1", "人類 類型1", "Human Type 1"],
-    "h2": ["ヒト型タイプ2", "人類 類型2", "Human Type 2"],
-    "c1": ["キャストタイプ1", "機人 類型1", "Cast Type 1"],
-    "c2": ["キャストタイプ2", "機人 類型2", "Cast Type 2"]}
+    "a1": ["ヒト型/キャストタイプ1", "人類/機人類型1", "Human/Cast Type 1"],
+    "a2": ["ヒト型/キャストタイプ2", "人類/機人類型2", "Human/Cast Type 2"],
+    "h1": ["ヒト型タイプ1", "人類類型1", "Human Type 1"],
+    "h2": ["ヒト型タイプ2", "人類類型2", "Human Type 2"],
+    "c1": ["キャストタイプ1", "機人類型1", "Cast Type 1"],
+    "c2": ["キャストタイプ2", "機人類型2", "Cast Type 2"]}
 
 # Names of items
 mo_names = ["{jp_itype}：{jp_text}", "{tr_itype}：{tr_text}", "{tr_itype}: {tr_text}"]
@@ -581,7 +581,7 @@ vo_explains = [
 
 # [FUNCTION] Conditions and explains of special items
 def edit_sp_explains(prefix, jp_text, explains):
-    if prefix == "aug" and any(keyword in jp_text for keyword in ("フュージア", "ソブリナ", "ファウンデーター")):
+    if prefix == "aug" and any(keyword in jp_text for keyword in ("フュージア", "ソブリナ", "ファウンデーター", "ディロドライエ")):
         explains = [
             f"{explains[0]}\nアイテムラボの“強化素材交換”で\n特定のカプセルとの交換にも用いられる。",
             f"{explains[1]}\n也可在道具實驗室的“交換強化素材”處\n用於交換特定的膠囊。",
