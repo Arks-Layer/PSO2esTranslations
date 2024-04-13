@@ -68,16 +68,19 @@ cp_f_trade_infos = {}
 mou_trade_infos = {}
 ear_trade_infos = {}
 horn_trade_infos = {}
+body_trade_infos = {}
 ha_trade_infos = {}
 vo_trade_infos = {}
 
-# URLs of PSO2/PSO2NGS swiki (only for CN)
+# URLs of swiki/makapo (only for CN)
 wiki_urls = {
     'ngs': 'https://pso2ngs.swiki.jp/index.php?',
-    'o2': 'https://pso2.swiki.jp/index.php?'}
-# URLs and trade_infos mapping of PSO2/PSO2NGS swiki pages (only for CN)
+    'o2': 'https://pso2.swiki.jp/index.php?',
+    'makapo': 'https://ngs.pso2-makapo.com/'}
+# URLs and trade_infos mapping of swiki/makapo pages (only for CN)
 suffix_mapping = {
     'ngs_mo': ('モーション', mo_trade_infos),
+    'makapo_bp': ('build-parts-list', bp_trade_infos),
     'ngs_bp1': ('クリエイティブスペース/ビルドパーツ/建材', bp_trade_infos),
     'ngs_bp2': ('クリエイティブスペース/ビルドパーツ/建築物・道具・器具', bp_trade_infos),
     'ngs_bp3': ('クリエイティブスペース/ビルドパーツ/自然物', bp_trade_infos),
@@ -106,6 +109,7 @@ cp_f_path = "Item_NGS_Parts_Female.txt"
 mou_path = "Item_NGS_Mouth.txt"
 ear_path = "Item_NGS_Ear.txt"
 horn_path = "Item_NGS_Horn.txt"
+body_path = "Item_NGS_Body.txt"
 ha_path = "Item_Stack_LobbyAction.txt"
 vo_path = "Item_Stack_Voice.txt"
 
@@ -166,9 +170,9 @@ def parse_data(file_path, file_type):
 
         # Process .html files
         elif file_type == "html":
-            if line.startswith('<div class="ie5">'):
+            if line.startswith('<div class="ie5">') or line.startswith(' data-ad-slot='):
                 # For items with "「」"
-                if "pso2ngs" in file_path and not "エステ" in file_path:
+                if "ngs" in file_path and not "エステ" in file_path:
                     headnames = ['Mo', 'BP', 'PH', 'Bg']
                     for headname in headnames:
                         # Do regex replacement, to ensure each line starts with item names.
@@ -177,7 +181,7 @@ def parse_data(file_path, file_type):
                             if n_line.startswith(f"{headname}「"):
                                 jp_text = n_line[n_line.find(f"{headname}「") + 3:n_line.find('」')]
                                 if any(keyword in n_line for keyword in
-                                    ['マイショップ出品不可', '初期']):
+                                    ['マイショップ出品不可', '初期', 'alt="GP"', 'alt="SG"', "交換</td>", "季節イベント</td>","トレジャースクラッチ", "SPスクラッチ</td>", "開発準備特別票</td>", "クラス育成特別プログラム", "初期登録</td>"]):
                                     trade_infos[jp_text] = "Untradable"
 
                 # For items without "「」"
@@ -190,7 +194,7 @@ def parse_data(file_path, file_type):
                             if n_line.startswith(f"{headname}"):
                                 jp_text = n_line[n_line.find(f"{headname}") :n_line.find('</td>')]
                                 if any(keyword in n_line for keyword in
-                                    ['マイショップ出品不可', 'トレード不可', 'SG.png']):
+                                    ['マイショップ出品不可', 'SG.png']):
                                     trade_infos[jp_text] = "Untradable"
 
     return parsed_lines, trade_infos
@@ -215,48 +219,57 @@ def width_process_string(string):
             result_string += char
     return result_string
 
-# [FUNCTION] Get JP target lines of facial features
-def get_ff_jp_target_lines():
+# [FUNCTION] Get JP target lines from ordered lines
+def get_order_jp_target_lines(prefix):
     # Initialize
-    ff_jp_lines = []
-    # Get the lines of facial features
+    order_jp_lines = []
+    # Get the lines of ordered lines
     matching_started = False
     for text_id, jp_text in charamake_parts_jp_lines:
-        if matching_started or "MoveMotion_2" in text_id:
+        if prefix == "mou_to_body" and (matching_started or "MoveMotion_2" in text_id):
             matching_started = True
-            match_result = re.match(r'^No1(\d{5})#', text_id)
+            match_result = re.match(r'^No(1|2)(\d{5})#', text_id)
             if match_result:
-                ff_jp_lines.append((text_id, jp_text))
+                order_jp_lines.append((text_id, jp_text))
+        elif prefix == "bg" and (matching_started or jp_text == "ベースボディT2"):
+            matching_started = True
+            match_result = re.match(r'^^\d{1,3}#', text_id)
+            if match_result:
+                order_jp_lines.append((text_id, jp_text))
 
     # Initialize
-    ff_jp_target_lines = [[], [], []]
     start_row = 0
-    # Find target lines of Mouths, Ears, Horns from each loop, from facial features lines
-    for i in range(3):
-        current_row = start_row
-        # Get text_ids of current line and next line
-        while current_row < len(ff_jp_lines) - 1:
-            current_id, next_id = ff_jp_lines[current_row][0], ff_jp_lines[current_row + 1][0]
-            # If both current line and next line matched
-            if re.match(r'^No1(\d{5})#', current_id) and re.match(r'^No1(\d{5})#', next_id):
-                # Get the numbers after "No" from text_id, and extend the target lines
-                current_num, next_num = [int(re.search(r'^No(\d+)#', num).group(1)) for num in [current_id, next_id]]
-                ff_jp_target_lines[i].append(ff_jp_lines[current_row])
-                # Compare, if current number < next number, then continue
-                if current_num < next_num:
-                    current_row += 1
-                # Compare, if current number >= next number, then break
-                else:     
-                    start_row, current_row = current_row + 1, current_row + 1
-                    break
-            # If only current line matched
-            elif re.match(r'^No1(\d{5})#', current_id):
-                ff_jp_target_lines[i].append(ff_jp_lines[current_row])
-                current_row += 1
-            else:
-                break
 
-    return ff_jp_target_lines
+    if prefix == "mou_to_body":
+        order_jp_target_lines = [[], [], [], []]
+        # Find target lines from each loop, from ordered lines
+        for i in range(len(order_jp_target_lines)):
+            current_row = start_row
+            # Get text_ids of current line and next line
+            while current_row < len(order_jp_lines) - 1:
+                current_id, next_id = order_jp_lines[current_row][0], order_jp_lines[current_row + 1][0]
+                # If both current line and next line matched
+                if re.match(r'^No(\d{6})#', current_id) and re.match(r'^No(\d{6})#', next_id):
+                    # Get the numbers after "No" from text_id, and extend the target lines
+                    current_num, next_num = [int(re.search(r'^No(\d+)#', num).group(1)) for num in [current_id, next_id]]
+                    order_jp_target_lines[i].append(order_jp_lines[current_row])
+                    # Compare, if current number < next number, then continue
+                    if current_num < next_num:
+                        current_row += 1
+                    # Compare, if current number >= next number, then break
+                    else:     
+                        start_row, current_row = current_row + 1, current_row + 1
+                        break
+                else:
+                    break
+            # Append the last line if current_row reaches the end
+            if current_row == len(order_jp_lines) - 1:
+                order_jp_target_lines[i].append(order_jp_lines[current_row])
+                    
+    elif prefix == "bg":
+        order_jp_target_lines = order_jp_lines
+
+    return order_jp_target_lines
 
 # [FUNCTION] Form names of voice (only compatible with CN)
 def form_vo_names(text_id, jp_fulltext, tr_fulltext):
@@ -294,7 +307,7 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
 
     # For the B/C/D... voices (only compatible with CN)
     if (match_trans := re.search(r"^(.*[\u4e00-\u9fa5])([A-Z])$", vo_tr_name)): 
-        match_jp = re.search(r"^(.*)([Ａ-Ｚ])$", vo_jp_name)
+        match_jp = re.search(r"^(.*)([Ａ-Ｚ]|[A-Z])$", vo_jp_name)
         vo_jp_name, vo_jp_suffix2 = match_jp.group(1), match_jp.group(2)
         vo_tr_name, vo_tr_suffix2 = match_trans.group(1), match_trans.group(2)
 
@@ -447,7 +460,7 @@ elif LANG == 2:
     charamake_parts_tr_lines = parse_data(charamake_parts_en_url, "csv")[0]
     element_name_tr_lines = parse_data(element_name_en_url, "csv")[0]
 
-# Parse PSO2/PSO2NGS swiki webs to get tradable info (only for CN)
+# Parse swiki/makapo webs to get tradable info (only for CN)
 if LANG == 1:
     for key, (suffix_url, trade_infos) in suffix_mapping.items():
         # Form full_url to get tradable info
@@ -482,10 +495,17 @@ cp_itypes = {
     "Arm": ("アームパーツ", "臂部部件", "arm parts"),
     "Body": ("ボディパーツ", "身體部件", "body parts"),
     "Leg": ("レッグパーツ", "腿部部件", "leg parts")}
+igens = {
+    "a1": ["ヒト型/キャストタイプ1", "人類/機人類型1", "Human/Cast Type 1"],
+    "a2": ["ヒト型/キャストタイプ2", "人類/機人類型2", "Human/Cast Type 2"],
+    "h1": ["ヒト型タイプ1", "人類類型1", "Human Type 1"],
+    "h2": ["ヒト型タイプ2", "人類類型2", "Human Type 2"],
+    "c1": ["キャストタイプ1", "機人類型1", "Cast Type 1"],
+    "c2": ["キャストタイプ2", "機人類型2", "Cast Type 2"]}
 
 # Names of items
 mo_names = ["{jp_itype}：{jp_text}", "{tr_itype}：{tr_text}", "{tr_itype}: {tr_text}"]
-bp_names = ph_names = bg_names = aug_names = ou_m_names = ou_f_names = cp_m_names = cp_f_names = mou_names = ear_names = horn_names = ha_names = vo_names = ["{jp_text}", "{tr_text}", "{tr_text}"]
+bp_names = ph_names = bg_names = aug_names = ou_m_names = ou_f_names = cp_m_names = cp_f_names = mou_names = ear_names = horn_names = body_names = ha_names = vo_names = ["{jp_text}", "{tr_text}", "{tr_text}"]
 
 # Texts of items
 mo_texts = [
@@ -498,7 +518,7 @@ bg_texts = [
     "Bg「{jp_text}」",  "Bg「{tr_text}」", "Bg \"{tr_text}\""]
 aug_texts = [
     "C/{jp_text}", "C/{tr_text}", "C/{tr_text}"]
-ou_m_texts = ou_f_texts = cp_m_texts = cp_f_texts = mou_texts = ear_texts = horn_texts = [
+ou_m_texts = ou_f_texts = cp_m_texts = cp_f_texts = mou_texts = ear_texts = horn_texts = body_texts = [
     "{jp_text}", "{tr_text}", "{tr_text}"]
 ha_texts = [
     "Ha「{jp_text}」",  "Ha「{tr_text}」", "Ha \"{tr_text}\""]
@@ -546,6 +566,10 @@ horn_explains = [
     "使用すると新しい角が\n選択可能になる。",
     "使用後可選用新的角。",
     "Unlocks a new horn type for use."]
+body_explains = [
+    "使用すると新しい肌パターンが\n選択可能になる。\n<yellow>※対応：{jp_igen}<c>",
+    "使用後可選用新的皮膚種類。\n<yellow>※適用於：{tr_igen}<c>",
+    "Unlocks a new body type for use.\n<yellow>※Type: {tr_igen}<c>"]
 ha_explains = [
     "",
     "使用後所有角色均可選用新的手部姿勢。\n<yellow>※不適用於一部分大廳動作/\n不適用於『PSO2』<c>",
@@ -557,7 +581,7 @@ vo_explains = [
 
 # [FUNCTION] Conditions and explains of special items
 def edit_sp_explains(prefix, jp_text, explains):
-    if prefix == "aug" and any(keyword in jp_text for keyword in ("フュージア", "ソブリナ", "ファウンデーター")):
+    if prefix == "aug" and any(keyword in jp_text for keyword in ("フュージア", "ソブリナ", "ファウンデーター", "ディロドライエ")):
         explains = [
             f"{explains[0]}\nアイテムラボの“強化素材交換”で\n特定のカプセルとの交換にも用いられる。",
             f"{explains[1]}\n也可在道具實驗室的“交換強化素材”處\n用於交換特定的膠囊。",
@@ -580,8 +604,8 @@ ph_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in accessories_jp_lines
     if text_id.startswith("ob_7") and not jp_text.startswith(("￥", "text_"))]
 bg_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-    if re.match(r'^\d{1,2}#', text_id) and not jp_text.startswith(("￥", "text_"))]
+    (text_id, jp_text) for text_id, jp_text in get_order_jp_target_lines("bg")
+    if not jp_text.startswith(("￥", "text_"))]
 aug_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in element_name_jp_lines
     if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "￥", "-"))]
@@ -607,7 +631,10 @@ cp_m_jp_target_lines = [
 cp_f_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in cp_jp_target_lines
     if re.match(r'^No4\d{5}#', text_id)]
-mou_jp_target_lines, ear_jp_target_lines, horn_jp_target_lines = get_ff_jp_target_lines()
+mou_jp_target_lines, ear_jp_target_lines, horn_jp_target_lines, body_jp_target_lines = get_order_jp_target_lines("mou_to_body")
+body_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in body_jp_target_lines
+    if not jp_text.startswith(("￥", "text_")) and (("NPC")) not in jp_text]
 ha_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in common_jp_lines
     if text_id.startswith("LobbyAction_")]
@@ -628,6 +655,7 @@ cp_f_tr_target_texts = get_translation(cp_f_jp_target_lines, charamake_parts_tr_
 mou_tr_target_texts = get_translation(mou_jp_target_lines, charamake_parts_tr_lines)
 ear_tr_target_texts = get_translation(ear_jp_target_lines, charamake_parts_tr_lines)
 horn_tr_target_texts = get_translation(horn_jp_target_lines, charamake_parts_tr_lines)
+body_tr_target_texts = get_translation(body_jp_target_lines, charamake_parts_tr_lines)
 ha_tr_target_texts = get_translation(ha_jp_target_lines, common_tr_lines)
 vo_tr_target_texts = get_translation(vo_jp_target_lines, charamake_parts_tr_lines)
 
@@ -636,7 +664,7 @@ def extra_condition(prefix, jp_text):
     if prefix == "mo":
        return jp_text.endswith(("EX"))
     elif prefix == "bp":
-        return jp_text.startswith(("エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエト：", "立体図形：", "立体数字：", "ベーシック", "モダン", "クラシック", "ゴシック", "スイーツ", "チャイナ", "ウェスタン", "オリエント", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ", "ミニ")) and not jp_text.startswith(("ミニミニ"))
+        return jp_text.startswith(("エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "立体図形：", "立体数字：", "ベーシック", "モダン", "クラシック", "ゴシック", "スイーツ", "チャイナ", "ウェスタン", "オリエント", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ", "ミニ")) and not jp_text.startswith(("ミニミニ"))
     elif prefix == "ph":
         return jp_text == ""
     elif prefix == "bg":
@@ -697,15 +725,29 @@ def main_generate_NGS(prefix):
             tr_itype = cp_itypes[itype][LANG]
         else:
             jp_itype = tr_itype = ""
+        # Get gender and the gender name for certain prefixes
+        if prefix == "body":
+            if text_id.startswith("No1"):
+                igen = "a1"
+            elif text_id.startswith("No2"):
+                igen = "a2"
+            jp_igen = igens[igen][0]
+            tr_igen = igens[igen][LANG]
+        else:
+            jp_igen = tr_igen = ""
+        
         # Get names and texts from global variables
         names = [name.format(
-            jp_itype = jp_itype, tr_itype = tr_itype, jp_text = jp_text, tr_text = tr_text)
+            jp_itype = jp_itype, tr_itype = tr_itype,
+            jp_text = jp_text, tr_text = tr_text)
             for name in globals()[f"{prefix}_names"]]
         texts = [text.format(
-            jp_itype = jp_itype, tr_itype = tr_itype, jp_text = jp_text, tr_text = tr_text)
+            jp_itype = jp_itype, tr_itype = tr_itype,
+            jp_text = jp_text, tr_text = tr_text)
             for text in globals()[f"{prefix}_texts"]]
         explains = [explain.format(
-            jp_itype = jp_itype, tr_itype = tr_itype,)
+            jp_itype = jp_itype, tr_itype = tr_itype,
+            jp_igen = jp_igen, tr_igen = tr_igen)
             for explain in globals()[f"{prefix}_explains"]]
         # Edit the explains of special item
         explains = edit_sp_explains(prefix, jp_text, explains)
@@ -825,7 +867,7 @@ def main_edit_Stack(prefix):
     print(f'PROGRESS: processed {processed_count} items in "{path}".')
 
 # Generate "NGS_" json files
-process_prefixes = ["mo", "bp", "ph", "bg", "aug", "ou_m", "ou_f", "cp_m", "cp_f", "mou", "ear", "horn"]
+process_prefixes = ["mo", "bp", "ph", "bg", "aug", "ou_m", "ou_f", "cp_m", "cp_f", "mou", "ear", "horn", "body"]
 for prefix in process_prefixes:
      main_generate_NGS(prefix)
 
