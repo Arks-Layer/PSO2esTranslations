@@ -608,7 +608,7 @@ bg_jp_target_lines = [
     if not jp_text.startswith(("￥", "text_"))]
 aug_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in element_name_jp_lines
-    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "￥", "-"))]
+    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "￥", "-"))]
 ou_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
     if re.match(r'^No\d{6}#', text_id)
@@ -664,7 +664,7 @@ def extra_condition(prefix, jp_text):
     if prefix == "mo":
        return jp_text.endswith(("EX"))
     elif prefix == "bp":
-        return jp_text.startswith(("エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "立体図形：", "立体数字：", "ベーシック", "モダン", "クラシック", "ゴシック", "スイーツ", "チャイナ", "ウェスタン", "オリエント", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ", "ミニ")) and not jp_text.startswith(("ミニミニ"))
+        return jp_text.startswith(("エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：", "立体図形：", "立体数字：", "アクリル台座・", "ベーシック", "モダン", "クラシック", "ゴシック", "スイーツ", "チャイナ", "ウェスタン", "オリエント", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ", "ワノ", "ミニ")) and not jp_text.startswith(("ミニミニ"))
     elif prefix == "ph":
         return jp_text == ""
     elif prefix == "bg":
