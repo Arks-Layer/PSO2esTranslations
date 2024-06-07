@@ -58,7 +58,7 @@ common_en_url = f"{PSO2EN_url}{csv_reboot_en_url}common.csv"
 accessories_en_url = f"{PSO2EN_url}{csv_en_url}ui_accessories_text.csv"
 charamake_parts_en_url = f"{PSO2EN_url}{csv_en_url}ui_charamake_parts.csv"
 element_name_en_url = f"{PSO2EN_url}{csv_en_url}item_element_name_reb.csv"
-lineduel_text_en_path = f"{PSO2EN_url}{csv_reboot_en_url}lineduel_text.csv"
+lineduel_text_en_url = f"{PSO2EN_url}{csv_reboot_en_url}lineduel_text.csv"
 
 # Initialize tradable info
 mo_trade_infos = {}
