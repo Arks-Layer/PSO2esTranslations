@@ -31,15 +31,18 @@ LANG = 2
 root_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Path of main game file CN respository (Won't affect other modes)
-PSO2CN_path = os.path.abspath(os.path.join(root_dir, os.pardir, os.pardir, os.pardir, r"gitee\PSO2_CHN_Translation\UI"))
+PSO2CN_path = os.path.abspath(os.path.join(root_dir, os.pardir, os.pardir, os.pardir, r"gitee\PSO2_CHN_Translation"))
 # URL of main game file JP/EN respository
 PSO2EN_url = "https://raw.githubusercontent.com/Arks-Layer/PSO2ENPatchCSV/"
 
 # Paths of CN main game files
-common_cn_path = os.path.join(PSO2CN_path, "common.text.ini")
-accessories_cn_path = os.path.join(PSO2CN_path, "ui_accessories_text.text.ini")
-charamake_parts_cn_path = os.path.join(PSO2CN_path, "ui_charamake_parts.text.ini")
-element_name_cn_path = os.path.join(PSO2CN_path, "item_element_name_reb.text.ini")
+UI_path = r"UI"
+ngs_path = r"Unsorted\ngs"
+common_cn_path = os.path.join(PSO2CN_path, UI_path, "common.text.ini")
+accessories_cn_path = os.path.join(PSO2CN_path, UI_path, "ui_accessories_text.text.ini")
+charamake_parts_cn_path = os.path.join(PSO2CN_path, UI_path, "ui_charamake_parts.text.ini")
+element_name_cn_path = os.path.join(PSO2CN_path, UI_path, "item_element_name_reb.text.ini")
+lineduel_text_cn_path = os.path.join(PSO2CN_path, ngs_path,"lineduel_text.text.ini")
 # URLs of JP main game files
 csv_url = f"JP/Files/"
 csv_reboot_url = f"JP_Reboot/Files/"
@@ -47,6 +50,7 @@ common_jp_url = f"{PSO2EN_url}{csv_reboot_url}common.csv"
 accessories_jp_url = f"{PSO2EN_url}{csv_url}ui_accessories_text.csv"
 charamake_parts_jp_url = f"{PSO2EN_url}{csv_url}ui_charamake_parts.csv"
 element_name_jp_url = f"{PSO2EN_url}{csv_url}item_element_name_reb.csv"
+lineduel_text_jp_url = f"{PSO2EN_url}{csv_reboot_url}lineduel_text.csv"
 # URLs of EN main game files
 csv_en_url = f"EN/UI/"
 csv_reboot_en_url = f"EN_Reboot/Translated/UI/"
@@ -54,6 +58,7 @@ common_en_url = f"{PSO2EN_url}{csv_reboot_en_url}common.csv"
 accessories_en_url = f"{PSO2EN_url}{csv_en_url}ui_accessories_text.csv"
 charamake_parts_en_url = f"{PSO2EN_url}{csv_en_url}ui_charamake_parts.csv"
 element_name_en_url = f"{PSO2EN_url}{csv_en_url}item_element_name_reb.csv"
+lineduel_text_en_path = f"{PSO2EN_url}{csv_reboot_en_url}lineduel_text.csv"
 
 # Initialize tradable info
 mo_trade_infos = {}
@@ -69,6 +74,9 @@ mou_trade_infos = {}
 ear_trade_infos = {}
 horn_trade_infos = {}
 body_trade_infos = {}
+card_trade_infos = {}
+mat_trade_infos = {}
+sv_trade_infos = {}
 ha_trade_infos = {}
 vo_trade_infos = {}
 
@@ -110,6 +118,9 @@ mou_path = "Item_NGS_Mouth.txt"
 ear_path = "Item_NGS_Ear.txt"
 horn_path = "Item_NGS_Horn.txt"
 body_path = "Item_NGS_Body.txt"
+card_path = "Item_NGS_Card.txt"
+mat_path = "Item_NGS_Playmat.txt"
+sv_path = "Item_NGS_Sleeve.txt"
 ha_path = "Item_Stack_LobbyAction.txt"
 vo_path = "Item_Stack_Voice.txt"
 
@@ -219,57 +230,73 @@ def width_process_string(string):
             result_string += char
     return result_string
 
-# [FUNCTION] Get JP target lines from ordered lines
-def get_order_jp_target_lines(prefix):
+# [FUNCTION] Get JP target lines from the starting line
+def get_start_jp_target_lines(lines, start_line, id_pattern):
     # Initialize
-    order_jp_lines = []
-    # Get the lines of ordered lines
-    matching_started = False
-    for text_id, jp_text in charamake_parts_jp_lines:
-        if prefix == "mou_to_body" and (matching_started or "MoveMotion_2" in text_id):
-            matching_started = True
-            match_result = re.match(r'^No(1|2)(\d{5})#', text_id)
-            if match_result:
-                order_jp_lines.append((text_id, jp_text))
-        elif prefix == "bg" and (matching_started or jp_text == "ベースボディT2"):
-            matching_started = True
-            match_result = re.match(r'^^\d{1,3}#', text_id)
-            if match_result:
-                order_jp_lines.append((text_id, jp_text))
+    start_jp_lines = []
 
+    # Get the lines from the start line
+    matching_started = False
+    for text_id, jp_text in lines:
+        if matching_started or text_id.startswith(start_line):
+            matching_started = True
+            match_result = re.match(id_pattern, text_id)
+            if match_result:
+                start_jp_lines.append((text_id, jp_text))
+
+    return start_jp_lines
+
+# [FUNCTION] Get JP target lines from ordered lines
+def get_order_jp_target_lines(lines, start_line, id_pattern):
     # Initialize
     start_row = 0
+    order_jp_target_lines = []
+    
+    # Get the lines of ordered lines
+    order_jp_lines = get_start_jp_target_lines(lines, start_line, id_pattern)
+    current_row = start_row
 
-    if prefix == "mou_to_body":
-        order_jp_target_lines = [[], [], [], []]
-        # Find target lines from each loop, from ordered lines
-        for i in range(len(order_jp_target_lines)):
-            current_row = start_row
-            # Get text_ids of current line and next line
-            while current_row < len(order_jp_lines) - 1:
-                current_id, next_id = order_jp_lines[current_row][0], order_jp_lines[current_row + 1][0]
-                # If both current line and next line matched
-                if re.match(r'^No(\d{6})#', current_id) and re.match(r'^No(\d{6})#', next_id):
-                    # Get the numbers after "No" from text_id, and extend the target lines
-                    current_num, next_num = [int(re.search(r'^No(\d+)#', num).group(1)) for num in [current_id, next_id]]
-                    order_jp_target_lines[i].append(order_jp_lines[current_row])
-                    # Compare, if current number < next number, then continue
-                    if current_num < next_num:
-                        current_row += 1
-                    # Compare, if current number >= next number, then break
-                    else:     
-                        start_row, current_row = current_row + 1, current_row + 1
-                        break
-                else:
-                    break
-            # Append the last line if current_row reaches the end
-            if current_row == len(order_jp_lines) - 1:
-                order_jp_target_lines[i].append(order_jp_lines[current_row])
-                    
-    elif prefix == "bg":
-        order_jp_target_lines = order_jp_lines
+    # Get text_ids of current line and next line
+    while current_row < len(order_jp_lines) - 1:
+        current_id, next_id = order_jp_lines[current_row][0], order_jp_lines[current_row + 1][0]
+        # If both current line and next line matched
+        if re.match(id_pattern, current_id) and re.match(id_pattern, next_id):
+            # Get the numbers from text_id, and extend the target lines
+            current_num, next_num = [int(re.search(id_pattern, num).group(1)) for num in [current_id, next_id]]
+            order_jp_target_lines.append(order_jp_lines[current_row])
+            # Compare, if current number < next number, then continue
+            if current_num < next_num:
+                current_row += 1
+            # Compare, if current number >= next number, then break
+            else:     
+                start_row, current_row = current_row + 1, current_row + 1
+                break
+        else:
+            break
+
+    # Append the last line if current_row reaches the end
+    if current_row == len(order_jp_lines) - 1:
+        order_jp_target_lines.append(order_jp_lines[current_row])
 
     return order_jp_target_lines
+
+# [FUNCTION] Combine two names in lines into one names
+def combine_two_lines(lines1, lines2, id_pattern):
+    # Initialize
+    combined_texts = []
+    combined_lines = []
+
+    for text_id1, text1 in lines1:
+        id_num = [int(re.search(id_pattern, text_id1).group(1))]
+        combined_text = f"{text1}"
+        for text_id2, text2 in lines2:
+            if id_num == [int(re.search(id_pattern, text_id2).group(1))]:
+                combined_text = f"{text2} {text1}"
+                break
+        combined_texts.append(combined_text)
+        combined_lines.append((text_id1, combined_text))
+
+    return combined_texts, combined_lines
 
 # [FUNCTION] Form names of voice (only compatible with CN)
 def form_vo_names(text_id, jp_fulltext, tr_fulltext):
@@ -358,7 +385,10 @@ def record_desc(path, jp_text):
 
 # [FUNCTION] Get translation from tr_lines
 def get_translation(jp_target_lines, tr_lines):
+    # Initialize
     tr_target_texts = []
+    tr_target_lines = []
+
     for text_id, jp_text in jp_target_lines:
         if LANG == 1:
             tr_text = next((tr_text for ori_text, tr_text in tr_lines if ori_text == jp_text), None)
@@ -367,11 +397,12 @@ def get_translation(jp_target_lines, tr_lines):
 
         if tr_text:
             tr_target_texts.append(tr_text)
+            tr_target_lines.append((text_id, tr_text))
         elif LANG != 0:
             tr_target_texts.append(tr_text)
             print(f"CAUTION: Can't find the translation of {jp_text}.")
             continue
-    return tr_target_texts
+    return tr_target_texts, tr_target_lines
 
 # [FUNCTION] Form the item data
 def form_itemdata(item_format, names, texts, jp_text, tr_text, ori_explains, rec_descs, trade_info):
@@ -442,6 +473,7 @@ common_jp_lines = common_jp_lines = parse_data(common_jp_url, "csv")[0]
 accessories_jp_lines = parse_data(accessories_jp_url, "csv")[0]
 charamake_parts_jp_lines = parse_data(charamake_parts_jp_url, "csv")[0]
 element_name_jp_lines = parse_data(element_name_jp_url, "csv")[0]
+lineduel_text_jp_lines = parse_data(lineduel_text_jp_url, "csv")[0]
 
 # Parse CN/EN files or webs, to read the lines need to be considered
 if LANG == 0:
@@ -449,16 +481,19 @@ if LANG == 0:
     accessories_tr_lines =  []
     charamake_parts_tr_lines = []
     element_name_tr_lines = []
+    lineduel_text_tr_lines = []
 elif LANG == 1:
     common_tr_lines = parse_data(common_cn_path, "ini")[0]
     accessories_tr_lines = parse_data(accessories_cn_path, "ini")[0]
     charamake_parts_tr_lines = parse_data(charamake_parts_cn_path, "ini")[0]
     element_name_tr_lines, aug_trade_infos = parse_data(element_name_cn_path, "ini")
+    lineduel_text_tr_lines = parse_data(lineduel_text_cn_path, "ini")[0]
 elif LANG == 2:
     common_tr_lines = parse_data(common_en_url, "csv")[0]
     accessories_tr_lines = parse_data(accessories_en_url, "csv")[0]
     charamake_parts_tr_lines = parse_data(charamake_parts_en_url, "csv")[0]
     element_name_tr_lines = parse_data(element_name_en_url, "csv")[0]
+    lineduel_text_tr_lines = parse_data(lineduel_text_en_url, "csv")[0]
 
 # Parse swiki/makapo webs to get tradable info (only for CN)
 if LANG == 1:
@@ -505,7 +540,7 @@ igens = {
 
 # Names of items
 mo_names = ["{jp_itype}：{jp_text}", "{tr_itype}：{tr_text}", "{tr_itype}: {tr_text}"]
-bp_names = ph_names = bg_names = aug_names = ou_m_names = ou_f_names = cp_m_names = cp_f_names = mou_names = ear_names = horn_names = body_names = ha_names = vo_names = ["{jp_text}", "{tr_text}", "{tr_text}"]
+bp_names = ph_names = bg_names = aug_names = ou_m_names = ou_f_names = cp_m_names = cp_f_names = mou_names = ear_names = horn_names = body_names = card_names = mat_names = sv_names = ha_names = vo_names = ["{jp_text}", "{tr_text}", "{tr_text}"]
 
 # Texts of items
 mo_texts = [
@@ -520,6 +555,12 @@ aug_texts = [
     "C/{jp_text}", "C/{tr_text}", "C/{tr_text}"]
 ou_m_texts = ou_f_texts = cp_m_texts = cp_f_texts = mou_texts = ear_texts = horn_texts = body_texts = [
     "{jp_text}", "{tr_text}", "{tr_text}"]
+card_texts = [
+    "UNKNOWN「{jp_text}」", "UNKNOWN「{tr_text}」", "UNKNOWN \"{tr_text}\""]
+mat_texts = [
+    "UNKNOWN「{jp_text}」", "UNKNOWN「{tr_text}」", "UNKNOWN \"{tr_text}\""]
+sv_texts = [
+    "Sv「{jp_text}」", "Sv「{tr_text}」", "Sv \"{tr_text}\""]
 ha_texts = [
     "Ha「{jp_text}」",  "Ha「{tr_text}」", "Ha \"{tr_text}\""]
 vo_texts = [
@@ -570,6 +611,18 @@ body_explains = [
     "使用すると新しい肌パターンが\n選択可能になる。\n<yellow>※対応：{jp_igen}<c>",
     "使用後可選用新的皮膚種類。\n<yellow>※適用於：{tr_igen}<c>",
     "Unlocks a new body type for use.\n<yellow>※Type: {tr_igen}<c>"]
+card_explains = [
+    "",
+    "",
+    ""]
+mat_explains = [
+    "",
+    "",
+    ""]
+sv_explains = [
+    "",
+    "",
+    ""]
 ha_explains = [
     "",
     "使用後所有角色均可選用新的手部姿勢。\n<yellow>※不適用於一部分大廳動作/\n不適用於『PSO2』<c>",
@@ -604,7 +657,8 @@ ph_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in accessories_jp_lines
     if text_id.startswith("ob_7") and not jp_text.startswith(("￥", "text_"))]
 bg_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in get_order_jp_target_lines("bg")
+    (text_id, jp_text) for text_id, jp_text in
+    get_start_jp_target_lines(charamake_parts_jp_lines, "10#0", r'^(\d{1,3})#')
     if not jp_text.startswith(("￥", "text_"))]
 aug_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in element_name_jp_lines
@@ -631,10 +685,32 @@ cp_m_jp_target_lines = [
 cp_f_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in cp_jp_target_lines
     if re.match(r'^No4\d{5}#', text_id)]
-mou_jp_target_lines, ear_jp_target_lines, horn_jp_target_lines, body_jp_target_lines = get_order_jp_target_lines("mou_to_body")
+mou_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(charamake_parts_jp_lines, "No100010#10", r'^No(1\d{5})#')]
+ear_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#4", r'^No(1\d{5})#')]
+horn_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#5", r'^No(1\d{5})#')]
 body_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in body_jp_target_lines
-    if not jp_text.startswith(("￥", "text_")) and (("NPC")) not in jp_text]
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#6", r'^No(\d{6})#')
+    if not jp_text.startswith(("￥", "text_")) and "NPC" not in jp_text]
+card_name_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(lineduel_text_jp_lines, "10#0", r'^(\d+)#')]
+card_title_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(lineduel_text_jp_lines, "10#1", r'^(\d+)#')]
+card_jp_target_lines = combine_two_lines(card_name_jp_target_lines, card_title_jp_target_lines, r'^(\d+)#')[1]
+mat_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(lineduel_text_jp_lines, "0#2", r'^(\d+)#')]
+sv_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(lineduel_text_jp_lines, "0#3", r'^(\d+)#')]
 ha_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in common_jp_lines
     if text_id.startswith("LobbyAction_")]
@@ -643,21 +719,26 @@ vo_jp_target_lines = [
     if text_id.startswith("11_voice_c") and (("/")) in jp_text]
 
 # Find target translated texts
-mo_tr_target_texts = get_translation(mo_jp_target_lines, common_tr_lines)
-bp_tr_target_texts = get_translation(bp_jp_target_lines, accessories_tr_lines)
-ph_tr_target_texts = get_translation(ph_jp_target_lines, accessories_tr_lines)
-bg_tr_target_texts = get_translation(bg_jp_target_lines, charamake_parts_tr_lines)
-aug_tr_target_texts = get_translation(aug_jp_target_lines, element_name_tr_lines)
-ou_m_tr_target_texts = get_translation(ou_m_jp_target_lines, charamake_parts_tr_lines)
-ou_f_tr_target_texts = get_translation(ou_f_jp_target_lines, charamake_parts_tr_lines)
-cp_m_tr_target_texts = get_translation(cp_m_jp_target_lines, charamake_parts_tr_lines)
-cp_f_tr_target_texts = get_translation(cp_f_jp_target_lines, charamake_parts_tr_lines)
-mou_tr_target_texts = get_translation(mou_jp_target_lines, charamake_parts_tr_lines)
-ear_tr_target_texts = get_translation(ear_jp_target_lines, charamake_parts_tr_lines)
-horn_tr_target_texts = get_translation(horn_jp_target_lines, charamake_parts_tr_lines)
-body_tr_target_texts = get_translation(body_jp_target_lines, charamake_parts_tr_lines)
-ha_tr_target_texts = get_translation(ha_jp_target_lines, common_tr_lines)
-vo_tr_target_texts = get_translation(vo_jp_target_lines, charamake_parts_tr_lines)
+mo_tr_target_texts = get_translation(mo_jp_target_lines, common_tr_lines)[0]
+bp_tr_target_texts = get_translation(bp_jp_target_lines, accessories_tr_lines)[0]
+ph_tr_target_texts = get_translation(ph_jp_target_lines, accessories_tr_lines)[0]
+bg_tr_target_texts = get_translation(bg_jp_target_lines, charamake_parts_tr_lines)[0]
+aug_tr_target_texts = get_translation(aug_jp_target_lines, element_name_tr_lines)[0]
+ou_m_tr_target_texts = get_translation(ou_m_jp_target_lines, charamake_parts_tr_lines)[0]
+ou_f_tr_target_texts = get_translation(ou_f_jp_target_lines, charamake_parts_tr_lines)[0]
+cp_m_tr_target_texts = get_translation(cp_m_jp_target_lines, charamake_parts_tr_lines)[0]
+cp_f_tr_target_texts = get_translation(cp_f_jp_target_lines, charamake_parts_tr_lines)[0]
+mou_tr_target_texts = get_translation(mou_jp_target_lines, charamake_parts_tr_lines)[0]
+ear_tr_target_texts = get_translation(ear_jp_target_lines, charamake_parts_tr_lines)[0]
+horn_tr_target_texts = get_translation(horn_jp_target_lines, charamake_parts_tr_lines)[0]
+card_name_tr_target_lines = get_translation(card_name_jp_target_lines, lineduel_text_tr_lines)[1]
+card_title_tr_target_lines = get_translation(card_title_jp_target_lines, lineduel_text_tr_lines)[1]
+card_tr_target_texts = combine_two_lines(card_name_tr_target_lines, card_title_tr_target_lines, r'^(\d+)#')[0]
+mat_tr_target_texts = get_translation(mat_jp_target_lines, lineduel_text_tr_lines)[0]
+sv_tr_target_texts = get_translation(sv_jp_target_lines, lineduel_text_tr_lines)[0]
+body_tr_target_texts = get_translation(body_jp_target_lines, charamake_parts_tr_lines)[0]
+ha_tr_target_texts = get_translation(ha_jp_target_lines, common_tr_lines)[0]
+vo_tr_target_texts = get_translation(vo_jp_target_lines, charamake_parts_tr_lines)[0]
 
 # [FUNCTION] Conditions of force to change the tradable info (only for CN)
 def extra_condition(prefix, jp_text):
