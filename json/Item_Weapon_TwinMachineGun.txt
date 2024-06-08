@@ -1500,16 +1500,16 @@
 	{
 		"assign": "1100360",
 		"jp_text": "バイスティル",
-		"tr_text": "",
+		"tr_text": "堅實雙槍",
 		"jp_explain": "武器としての機能のみを追求した\n双機銃。素直な見た目とは裏腹に\n圧倒的な威力と操作性を誇る。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的雙機槍。\n與其單純的外觀相反，\n以壓倒性的威力與操作性為傲。"
 	},
 	{
 		"assign": "1100361",
 		"jp_text": "バイピュラス",
-		"tr_text": "",
+		"tr_text": "樸實雙槍",
 		"jp_explain": "武器としての機能のみを追求した\n双機銃。圧倒的な威力と扱いやすさで\n無情に標的を撃ち抜く。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的雙機槍。\n會憑藉壓倒性的威力與易操控性\n將目標無情地射穿。"
 	},
 	{
 		"assign": "1100365",
@@ -1936,7 +1936,7 @@
 		"jp_text": "レリク・オブシディアン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“聖遺·黑曜石”<c>\n"
+		"tr_explain": "<green>“聖遺·黑曜機槍”<c>\n"
 	},
 	{
 		"assign": "110010037",
@@ -1950,14 +1950,14 @@
 		"jp_text": "エヴォルオーヴァマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化環軌雙機槍”<c>\n"
+		"tr_explain": "<green>“進化軌道雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010043",
 		"jp_text": "クリスティアマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“水晶雙機槍”<c>\n"
+		"tr_explain": "<green>”水晶石雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010044",
@@ -1990,7 +1990,7 @@
 	{
 		"assign": "110010048",
 		"jp_text": "エヴォルイクリスマシンガン",
-		"tr_text": "進化環蝕雙機槍",
+		"tr_text": "進化侵蝕雙機槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -2006,7 +2006,7 @@
 		"jp_text": "オブゾディアマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“黑曜雙機槍”<c>\n"
+		"tr_explain": "<green>“黑曜石雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010054",
@@ -2076,7 +2076,7 @@
 		"jp_text": "フリューガルドマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翼衛雙機槍”<c>\n"
+		"tr_explain": "<green>“羽翼加護雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010072",
@@ -2097,7 +2097,7 @@
 		"jp_text": "メレク・オブシディアン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“天遺·黑曜石”<c>\n"
+		"tr_explain": "<green>“天遺·黑曜機槍”<c>\n"
 	},
 	{
 		"assign": "110010053",
@@ -2128,6 +2128,13 @@
 		"tr_explain": "<green>“千年槍彈雙機槍”<c>"
 	},
 	{
+		"assign": "110010086",
+		"jp_text": "エレディムマシンガン",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“繼承雙機槍”<c>"
+	},
+	{
 		"assign": "110010087",
 		"jp_text": "ラジャンティエマシンガン",
 		"tr_text": "銀式雙機槍",
@@ -2139,7 +2146,7 @@
 		"jp_text": "ウィンガルドマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翅衛雙機槍”<c>"
+		"tr_explain": "<green>“鋼翼加護雙機槍”<c>"
 	},
 	{
 		"assign": "110010089",
@@ -2154,5 +2161,19 @@
 		"tr_text": "尊王雙機槍試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "110010093",
+		"jp_text": "ラディアクールマシンガン",
+		"tr_text": "耀匣雙機槍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "110010094",
+		"jp_text": "リクスタルマシンガン",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“特六式雙機槍”<c>"
 	}
 ]

@@ -1150,16 +1150,16 @@
 	{
 		"assign": "1160263",
 		"jp_text": "ディノスティル",
-		"tr_text": "",
+		"tr_text": "堅實恐靴",
 		"jp_explain": "武器としての機能のみを追求した\n魔装脚。その全ては獲物を捉え\n蹂躙するためだけに存在する。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的魔裝腳。\n它的一切皆是為了捕獲獵物、\n將其蹂躪而存在。"
 	},
 	{
 		"assign": "1160264",
 		"jp_text": "ディノピュラス",
-		"tr_text": "",
+		"tr_text": "樸實恐靴",
 		"jp_explain": "武器としての機能のみを追求した\n魔装脚。分厚い刃は極めて高い威力と\n扱いやすさを備えている。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的魔裝腳。\n厚實的靴刃兼具極為高超的\n威力與易操控性。"
 	},
 	{
 		"assign": "1160265",
@@ -1509,14 +1509,14 @@
 		"jp_text": "エヴォルオーヴァブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化環軌魔裝腳”<c>\n"
+		"tr_explain": "<green>“進化軌道魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010035",
 		"jp_text": "クリスティアブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“水晶魔裝腳”<c>\n"
+		"tr_explain": "<green>”水晶石魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010036",
@@ -1549,7 +1549,7 @@
 	{
 		"assign": "116010041",
 		"jp_text": "エヴォルイクリスブーツ",
-		"tr_text": "進化環蝕魔裝腳",
+		"tr_text": "進化侵蝕魔裝腳",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1565,7 +1565,7 @@
 		"jp_text": "オブゾディアブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“黑曜魔裝腳”<c>\n"
+		"tr_explain": "<green>“黑曜石魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010048",
@@ -1635,7 +1635,7 @@
 		"jp_text": "フリューガルドブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翼衛魔裝腳”<c>\n"
+		"tr_explain": "<green>“羽翼加護魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010066",
@@ -1661,7 +1661,7 @@
 	{
 		"assign": "116010047",
 		"jp_text": "コルボ・エンヴァーサRe-Vブーツ",
-		"tr_text": "合縱·嫉恨Re-V魔裝腳",
+		"tr_text": "合縱·注魔Re-V魔裝腳",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1687,6 +1687,13 @@
 		"tr_explain": "<green>“千年槍彈魔裝腳”<c>"
 	},
 	{
+		"assign": "116010076",
+		"jp_text": "エレディムブーツ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“繼承魔裝腳”<c>"
+	},
+	{
 		"assign": "116010077",
 		"jp_text": "ラジャンティエブーツ",
 		"tr_text": "銀式魔裝腳",
@@ -1698,7 +1705,7 @@
 		"jp_text": "ウィンガルドブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翅衛魔裝腳”<c>"
+		"tr_explain": "<green>“鋼翼加護魔裝腳”<c>"
 	},
 	{
 		"assign": "116010079",
@@ -1713,5 +1720,19 @@
 		"tr_text": "尊王魔裝腳試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "116010082",
+		"jp_text": "ラディアクールブーツ",
+		"tr_text": "耀匣魔裝腳",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010083",
+		"jp_text": "リクスタルブーツ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“特六式魔裝腳”<c>"
 	}
 ]

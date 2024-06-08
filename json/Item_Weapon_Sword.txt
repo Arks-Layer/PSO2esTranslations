@@ -1416,16 +1416,16 @@
 	{
 		"assign": "110374",
 		"jp_text": "ジェンスティル",
-		"tr_text": "",
+		"tr_text": "堅實之劍",
 		"jp_explain": "武器としての機能のみを追求した大剣。\n攻撃力と強度を限界まで高めた刃厚と\n軽量さを愚直に突き詰めた一振り。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的大劍。\n這把劍在劍刃厚度與輕盈度上精益求精，\n將攻擊力與強度提高到了極致。"
 	},
 	{
 		"assign": "110375",
 		"jp_text": "ジェンピュラス",
-		"tr_text": "",
+		"tr_text": "樸實之劍",
 		"jp_explain": "武器としての機能のみを追求した大剣。\n中央の軽量孔に高感度バランサーを配し\n威力と機動性の両立を実現した。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的大劍。\n中央的減重孔內配有高靈敏度穩定器，\n兼具了威力與機動性。"
 	},
 	{
 		"assign": "110383",
@@ -1859,14 +1859,14 @@
 		"jp_text": "エヴォルオーヴァソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化環軌大劍”<c>\n"
+		"tr_explain": "<green>“進化軌道大劍”<c>\n"
 	},
 	{
 		"assign": "11010045",
 		"jp_text": "クリスティアソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“水晶大劍”<c>\n"
+		"tr_explain": "<green>”水晶石大劍”<c>\n"
 	},
 	{
 		"assign": "11010049",
@@ -1899,7 +1899,7 @@
 	{
 		"assign": "11010056",
 		"jp_text": "エヴォルイクリスソード",
-		"tr_text": "進化環蝕大劍",
+		"tr_text": "進化侵蝕大劍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1915,7 +1915,7 @@
 		"jp_text": "オブゾディアソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“黑曜大劍”<c>\n"
+		"tr_explain": "<green>“黑曜石大劍”<c>\n"
 	},
 	{
 		"assign": "11010064",
@@ -1985,7 +1985,7 @@
 		"jp_text": "フリューガルドソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翼衛大劍”<c>\n"
+		"tr_explain": "<green>“羽翼加護大劍”<c>\n"
 	},
 	{
 		"assign": "11010088",
@@ -2051,6 +2051,13 @@
 		"tr_explain": "<green>“千年槍彈大劍”<c>"
 	},
 	{
+		"assign": "11010113",
+		"jp_text": "エレディムソード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“繼承大劍”<c>"
+	},
+	{
 		"assign": "11010114",
 		"jp_text": "ラジャンティエソード",
 		"tr_text": "銀式大劍",
@@ -2062,7 +2069,7 @@
 		"jp_text": "ウィンガルドソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翅衛大劍”<c>"
+		"tr_explain": "<green>“鋼翼加護大劍”<c>"
 	},
 	{
 		"assign": "11010116",
@@ -2077,5 +2084,19 @@
 		"tr_text": "尊王大劍試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "11010122",
+		"jp_text": "ラディアクールソード",
+		"tr_text": "耀匣大劍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "11010123",
+		"jp_text": "リクスタルソード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“特六式大劍”<c>"
 	}
 ]

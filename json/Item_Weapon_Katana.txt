@@ -1227,16 +1227,16 @@
 	{
 		"assign": "1140316",
 		"jp_text": "ペトラスティル",
-		"tr_text": "",
+		"tr_text": "堅實岩刀",
 		"jp_explain": "武器としての機能のみを追求した抜剣。\n装飾を抑えた鋭利なデザインだが\n高い威力と操作性を誇る。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的拔劍。\n儘管銳利的設計克制了裝飾，\n但卻以高超的威力與操作性為傲。"
 	},
 	{
 		"assign": "1140317",
 		"jp_text": "ペトラピュラス",
-		"tr_text": "",
+		"tr_text": "樸實岩刀",
 		"jp_explain": "武器としての機能のみを追求した抜剣。\n飾り気のない質素な外見だが\n操作性と威力には、絶大な信頼がある。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的拔劍。\n儘管外觀樸實無華，\n操作性與威力卻極可信賴。"
 	},
 	{
 		"assign": "1140320",
@@ -1607,14 +1607,14 @@
 		"jp_text": "エヴォルオーヴァカタナ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化環軌拔劍”<c>\n"
+		"tr_explain": "<green>“進化軌道拔劍”<c>\n"
 	},
 	{
 		"assign": "114010039",
 		"jp_text": "クリスティアカタナ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“水晶拔劍”<c>\n"
+		"tr_explain": "<green>”水晶石拔劍”<c>\n"
 	},
 	{
 		"assign": "114010040",
@@ -1647,7 +1647,7 @@
 	{
 		"assign": "114010046",
 		"jp_text": "エヴォルイクリスカタナ",
-		"tr_text": "進化環蝕拔劍",
+		"tr_text": "進化侵蝕拔劍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1663,7 +1663,7 @@
 		"jp_text": "オブゾディアカタナ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“黑曜拔劍”<c>\n"
+		"tr_explain": "<green>“黑曜石拔劍”<c>\n"
 	},
 	{
 		"assign": "114010053",
@@ -1733,7 +1733,7 @@
 		"jp_text": "フリューガルドカタナ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翼衛拔劍”<c>\n"
+		"tr_explain": "<green>“羽翼加護拔劍”<c>\n"
 	},
 	{
 		"assign": "114010070",
@@ -1785,6 +1785,13 @@
 		"tr_explain": "<green>“千年槍彈拔劍”<c>"
 	},
 	{
+		"assign": "114010083",
+		"jp_text": "エレディムカタナ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“繼承拔劍”<c>"
+	},
+	{
 		"assign": "114010084",
 		"jp_text": "ラジャンティエカタナ",
 		"tr_text": "銀式拔劍",
@@ -1796,7 +1803,7 @@
 		"jp_text": "ウィンガルドカタナ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翅衛拔劍”<c>"
+		"tr_explain": "<green>“鋼翼加護拔劍”<c>"
 	},
 	{
 		"assign": "114010086",
@@ -1811,5 +1818,19 @@
 		"tr_text": "尊王拔劍試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "114010091",
+		"jp_text": "ラディアクールカタナ",
+		"tr_text": "耀匣拔劍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "114010092",
+		"jp_text": "リクスタルカタナ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“特六式拔劍”<c>"
 	}
 ]

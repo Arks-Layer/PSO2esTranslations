@@ -40,7 +40,8 @@ effect_types = {
     "効果適用拡大": "Effect Broadened",
     "効果時間延長": "Effect Extended",
     "パラメータアップ": "Parameters Up",
-    "継続パラメータ回復": "Recovery Over Time"
+    "継続パラメータ回復": "Recovery Over Time",
+    "特定状態異常付与": "Inflicts Status Effect",
     }
 
 effect_effects = { # dictionary of lambdas because there's no such thing as switch-case in python
@@ -86,7 +87,11 @@ effect_effects = { # dictionary of lambdas because there's no such thing as swit
                                          .replace("戦闘中、一定時間毎にＣＰが",
                                                   "Recovers your CP by ")
                                          .replace("回復する。",
-                                                  " at regular intervals during battle.")
+                                                  " at regular intervals during battle."),
+    "Inflicts Status Effect":   lambda x: x.replace("チップ発動時に一定確率で\n敵全体に",
+                                                  "This chip's activation has a chance\nto inflict ")
+                                         .replace("の状態異常を付与する。",
+                                                  " on enemies.")
     }
 
 unknowns = []
@@ -113,6 +118,7 @@ for effect in effect_names:
                     effect_text = effect_text.replace("光", "Light ")
                     effect_text = effect_text.replace("闇", "Dark ")
                     effect_text = effect_text.replace("属性", "Element")
+                    effect_text = effect_text.replace("パニック", "Panic")
                     # translation depends on effect type, so:
                     effect_text = effect_effects[effect["tr_text"]](effect_text)
                     description["tr_text"] = effect_text

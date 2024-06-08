@@ -1283,16 +1283,16 @@
 	{
 		"assign": "160282",
 		"jp_text": "フォルザスティル",
-		"tr_text": "",
+		"tr_text": "堅實力拳",
 		"jp_explain": "武器としての機能のみを追求した鋼拳。\n重々しい拳に備えられたブレードは\n目標を的確に捕え、無情に貫く。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的鋼拳。\n沉重的雙拳上佩有的劍刃會將目標\n確鑿無誤地捕獲、毫不留情地貫穿。"
 	},
 	{
 		"assign": "160283",
 		"jp_text": "フォルザピュラス",
-		"tr_text": "",
+		"tr_text": "樸實力拳",
 		"jp_explain": "武器としての機能のみを追求した鋼拳。\n近距離から打ち出されるブレードは\n確実に目標を仕留める。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的鋼拳。\n近距離射出的劍刃\n會確鑿無誤地解決目標。"
 	},
 	{
 		"assign": "160284",
@@ -1656,14 +1656,14 @@
 		"jp_text": "エヴォルオーヴァナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化環軌鋼拳”<c>\n"
+		"tr_explain": "<green>“進化軌道鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010037",
 		"jp_text": "クリスティアナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“水晶鋼拳”<c>\n"
+		"tr_explain": "<green>”水晶石鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010038",
@@ -1696,7 +1696,7 @@
 	{
 		"assign": "16010042",
 		"jp_text": "エヴォルイクリスナックル",
-		"tr_text": "進化環蝕鋼拳",
+		"tr_text": "進化侵蝕鋼拳",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1712,7 +1712,7 @@
 		"jp_text": "オブゾディアナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“黑曜鋼拳”<c>\n"
+		"tr_explain": "<green>“黑曜石鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010050",
@@ -1782,7 +1782,7 @@
 		"jp_text": "フリューガルドナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翼衛鋼拳”<c>\n"
+		"tr_explain": "<green>“羽翼加護鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010069",
@@ -1808,7 +1808,7 @@
 	{
 		"assign": "16010049",
 		"jp_text": "コルボ・エンヴァーサRe-Vナックル",
-		"tr_text": "合縱·嫉恨Re-V鋼拳",
+		"tr_text": "合縱·注魔Re-V鋼拳",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1834,6 +1834,13 @@
 		"tr_explain": "<green>“千年槍彈鋼拳”<c>"
 	},
 	{
+		"assign": "16010082",
+		"jp_text": "エレディムナックル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“繼承鋼拳”<c>"
+	},
+	{
 		"assign": "16010083",
 		"jp_text": "ラジャンティエナックル",
 		"tr_text": "銀式鋼拳",
@@ -1845,7 +1852,7 @@
 		"jp_text": "ウィンガルドナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翅衛鋼拳”<c>"
+		"tr_explain": "<green>“鋼翼加護鋼拳”<c>"
 	},
 	{
 		"assign": "16010085",
@@ -1860,5 +1867,19 @@
 		"tr_text": "尊王鋼拳試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "16010091",
+		"jp_text": "ラディアクールナックル",
+		"tr_text": "耀匣鋼拳",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010092",
+		"jp_text": "リクスタルナックル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“特六式鋼拳”<c>"
 	}
 ]

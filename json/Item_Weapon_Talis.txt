@@ -1388,16 +1388,16 @@
 	{
 		"assign": "1120324",
 		"jp_text": "メーヴェスティル",
-		"tr_text": "",
+		"tr_text": "堅實飛鷗",
 		"jp_explain": "武器としての機能のみを追求した導具。\n装飾を極力排除しつつも、その内で\n着実に力を蓄え、魂の一撃を放つ。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的導具。\n儘管極力去除了裝飾，卻也會在內部\n穩扎穩打地積蓄力量、施放出魂之一擊。"
 	},
 	{
 		"assign": "1120325",
 		"jp_text": "メーヴェピュラス",
-		"tr_text": "",
+		"tr_text": "樸實飛鷗",
 		"jp_explain": "武器としての機能のみを追求した導具。\n背筋が凍えるほど鋭利に磨かれた刃先は\n扱う者の心を映すという。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的導具。\n打磨銳利的刺尖令人背脊發涼，\n據說它會映照出使用者的心靈。"
 	},
 	{
 		"assign": "1120327",
@@ -1789,14 +1789,14 @@
 		"jp_text": "エヴォルオーヴァタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化環軌導具”<c>\n"
+		"tr_explain": "<green>“進化軌道導具”<c>\n"
 	},
 	{
 		"assign": "112010033",
 		"jp_text": "クリスティアタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“水晶導具”<c>\n"
+		"tr_explain": "<green>”水晶石導具”<c>\n"
 	},
 	{
 		"assign": "112010034",
@@ -1829,7 +1829,7 @@
 	{
 		"assign": "112010038",
 		"jp_text": "エヴォルイクリスタリス",
-		"tr_text": "進化環蝕導具",
+		"tr_text": "進化侵蝕導具",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1845,7 +1845,7 @@
 		"jp_text": "オブゾディアタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“黑曜導具”<c>\n"
+		"tr_explain": "<green>“黑曜石導具”<c>\n"
 	},
 	{
 		"assign": "112010045",
@@ -1915,7 +1915,7 @@
 		"jp_text": "フリューガルドタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翼衛導具”<c>\n"
+		"tr_explain": "<green>“羽翼加護導具”<c>\n"
 	},
 	{
 		"assign": "112010062",
@@ -1941,7 +1941,7 @@
 	{
 		"assign": "112010044",
 		"jp_text": "コルボ・メザーナRe-Mタリス",
-		"tr_text": "合縱·午夜Re-M導具",
+		"tr_text": "合縱·介質Re-M導具",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1967,6 +1967,13 @@
 		"tr_explain": "<green>“千年槍彈導具”<c>"
 	},
 	{
+		"assign": "112010074",
+		"jp_text": "エレディムタリス",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“繼承導具”<c>"
+	},
+	{
 		"assign": "112010075",
 		"jp_text": "ラジャンティエタリス",
 		"tr_text": "銀式導具",
@@ -1978,7 +1985,7 @@
 		"jp_text": "ウィンガルドタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翅衛導具”<c>"
+		"tr_explain": "<green>“鋼翼加護導具”<c>"
 	},
 	{
 		"assign": "112010077",
@@ -1993,5 +2000,19 @@
 		"tr_text": "尊王導具試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "112010079",
+		"jp_text": "ラディアクールタリス",
+		"tr_text": "耀匣導具",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010080",
+		"jp_text": "リクスタルタリス",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“特六式導具”<c>"
 	}
 ]

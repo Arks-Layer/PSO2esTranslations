@@ -1374,16 +1374,16 @@
 	{
 		"assign": "1130371",
 		"jp_text": "ヴァニアスティル",
-		"tr_text": "",
+		"tr_text": "堅實恕錘",
 		"jp_explain": "武器としての機能のみを追求した短杖。\n一見、工具のようなデザインながらも\n想像を超える威力で目標を叩き潰す。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的短杖。\n乍看之下設計像是一把工具，\n卻會以超乎想象的威力將目標擊潰。"
 	},
 	{
 		"assign": "1130372",
 		"jp_text": "ヴァニアピュラス",
-		"tr_text": "",
+		"tr_text": "樸實恕錘",
 		"jp_explain": "武器としての機能のみを追求した短杖。\n真摯に突き詰めた結果、快適な操作性と\n高威力の攻撃を実現した。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的短杖。\n由於一絲不苟的精益求精，因而實現了\n舒適的操作性與高威力的攻擊。"
 	},
 	{
 		"assign": "1130384",
@@ -1796,14 +1796,14 @@
 		"jp_text": "エヴォルオーヴァウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化環軌短杖”<c>\n"
+		"tr_explain": "<green>“進化軌道短杖”<c>\n"
 	},
 	{
 		"assign": "113010042",
 		"jp_text": "クリスティアウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“水晶短杖”<c>\n"
+		"tr_explain": "<green>”水晶石短杖”<c>\n"
 	},
 	{
 		"assign": "113010044",
@@ -1836,7 +1836,7 @@
 	{
 		"assign": "113010049",
 		"jp_text": "エヴォルイクリスウォンド",
-		"tr_text": "進化環蝕短杖",
+		"tr_text": "進化侵蝕短杖",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1852,7 +1852,7 @@
 		"jp_text": "オブゾディアウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“黑曜短杖”<c>\n"
+		"tr_explain": "<green>“黑曜石短杖”<c>\n"
 	},
 	{
 		"assign": "113010059",
@@ -1922,7 +1922,7 @@
 		"jp_text": "フリューガルドウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翼衛短杖”<c>\n"
+		"tr_explain": "<green>“羽翼加護短杖”<c>\n"
 	},
 	{
 		"assign": "113010083",
@@ -1948,7 +1948,7 @@
 	{
 		"assign": "113010058",
 		"jp_text": "コルボ・メザーナRe-Mウォンド",
-		"tr_text": "合縱·午夜Re-M短杖",
+		"tr_text": "合縱·介質Re-M短杖",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1974,6 +1974,13 @@
 		"tr_explain": "<green>“千年槍彈短杖”<c>"
 	},
 	{
+		"assign": "113010107",
+		"jp_text": "エレディムウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“繼承短杖”<c>"
+	},
+	{
 		"assign": "113010108",
 		"jp_text": "ラジャンティエウォンド",
 		"tr_text": "銀式短杖",
@@ -1985,7 +1992,7 @@
 		"jp_text": "ウィンガルドウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翅衛短杖”<c>"
+		"tr_explain": "<green>“鋼翼加護短杖”<c>"
 	},
 	{
 		"assign": "113010113",
@@ -2000,5 +2007,19 @@
 		"tr_text": "尊王短杖試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "113010119",
+		"jp_text": "ラディアクールウォンド",
+		"tr_text": "耀匣短杖",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010120",
+		"jp_text": "リクスタルウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“特六式短杖”<c>"
 	}
 ]

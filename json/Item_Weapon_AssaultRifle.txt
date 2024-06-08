@@ -1367,16 +1367,16 @@
 	{
 		"assign": "180320",
 		"jp_text": "カラビネスティル",
-		"tr_text": "",
+		"tr_text": "堅實卡賓槍",
 		"jp_explain": "武器としての機能のみを追求した長銃。\n洗練されたシンプルな見た目が特徴で\n威力と操作性も極めて高い。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的步槍。\n特點在於簡單利落的外觀，\n威力與操作性也極為高超。"
 	},
 	{
 		"assign": "180321",
 		"jp_text": "カラビネピュラス",
-		"tr_text": "",
+		"tr_text": "樸實卡賓槍",
 		"jp_explain": "武器としての機能のみを追求した長銃。\n一段上の威力と操作性を求めた結果\n簡素な外見に帰結した。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的步槍。\n由於致力於更高階的威力與操作性，\n因而呈現出了簡練的外觀。"
 	},
 	{
 		"assign": "180327",
@@ -1831,14 +1831,14 @@
 		"jp_text": "エヴォルオーヴァライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化環軌步槍”<c>\n"
+		"tr_explain": "<green>“進化軌道步槍”<c>\n"
 	},
 	{
 		"assign": "18010040",
 		"jp_text": "クリスティアライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“水晶步槍”<c>\n"
+		"tr_explain": "<green>”水晶石步槍”<c>\n"
 	},
 	{
 		"assign": "18010041",
@@ -1871,7 +1871,7 @@
 	{
 		"assign": "18010045",
 		"jp_text": "エヴォルイクリスライフル",
-		"tr_text": "進化環蝕步槍",
+		"tr_text": "進化侵蝕步槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1887,7 +1887,7 @@
 		"jp_text": "オブゾディアライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“黑曜步槍”<c>\n"
+		"tr_explain": "<green>“黑曜石步槍”<c>\n"
 	},
 	{
 		"assign": "18010051",
@@ -1964,7 +1964,7 @@
 		"jp_text": "フリューガルドライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翼衛步槍”<c>\n"
+		"tr_explain": "<green>“羽翼加護步槍”<c>\n"
 	},
 	{
 		"assign": "18010076",
@@ -2016,6 +2016,13 @@
 		"tr_explain": "<green>“千年槍彈步槍”<c>"
 	},
 	{
+		"assign": "18010091",
+		"jp_text": "エレディムライフル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“繼承步槍”<c>"
+	},
+	{
 		"assign": "18010092",
 		"jp_text": "ラジャンティエライフル",
 		"tr_text": "銀式步槍",
@@ -2027,7 +2034,7 @@
 		"jp_text": "ウィンガルドライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翅衛步槍”<c>"
+		"tr_explain": "<green>“鋼翼加護步槍”<c>"
 	},
 	{
 		"assign": "18010094",
@@ -2042,5 +2049,19 @@
 		"tr_text": "尊王步槍試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "18010099",
+		"jp_text": "ラディアクールライフル",
+		"tr_text": "耀匣步槍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010100",
+		"jp_text": "リクスタルライフル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“特六式步槍”<c>"
 	}
 ]

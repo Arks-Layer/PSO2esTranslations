@@ -1304,16 +1304,16 @@
 	{
 		"assign": "120287",
 		"jp_text": "クルヴァスティル",
-		"tr_text": "",
+		"tr_text": "堅實弧槍",
 		"jp_explain": "武器としての機能のみを追求した\n自在槍。高い威力と操作性だけでなく\n洗練された形状も特徴。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的自在槍。\n不僅有著高超的威力與操作性，\n乾脆利落的形狀也獨具特點。"
 	},
 	{
 		"assign": "120288",
 		"jp_text": "クルヴァピュラス",
-		"tr_text": "",
+		"tr_text": "樸實弧槍",
 		"jp_explain": "武器としての機能のみを追求した\n自在槍。極限までに高められた操作性で\n標的を追い詰め、確実に貫く。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的自在槍。\n會憑藉極致化的操作性追逼目標，\n並確鑿無誤地將其貫穿。"
 	},
 	{
 		"assign": "120289",
@@ -1642,14 +1642,14 @@
 		"jp_text": "エヴォルオーヴァワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化環軌自在槍”<c>\n"
+		"tr_explain": "<green>“進化軌道自在槍”<c>\n"
 	},
 	{
 		"assign": "12010033",
 		"jp_text": "クリスティアワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“水晶自在槍”<c>\n"
+		"tr_explain": "<green>”水晶石自在槍”<c>\n"
 	},
 	{
 		"assign": "12010034",
@@ -1682,7 +1682,7 @@
 	{
 		"assign": "12010038",
 		"jp_text": "エヴォルイクリスワイヤー",
-		"tr_text": "進化環蝕自在槍",
+		"tr_text": "進化侵蝕自在槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1698,7 +1698,7 @@
 		"jp_text": "オブゾディアワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“黑曜自在槍”<c>\n"
+		"tr_explain": "<green>“黑曜石自在槍”<c>\n"
 	},
 	{
 		"assign": "12010045",
@@ -1768,7 +1768,7 @@
 		"jp_text": "フリューガルドワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翼衛自在槍”<c>\n"
+		"tr_explain": "<green>“羽翼加護自在槍”<c>\n"
 	},
 	{
 		"assign": "12010060",
@@ -1794,7 +1794,7 @@
 	{
 		"assign": "12010044",
 		"jp_text": "コルボ・メザーナRe-Mワイヤー",
-		"tr_text": "合縱·午夜Re-M自在槍",
+		"tr_text": "合縱·介質Re-M自在槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1820,6 +1820,13 @@
 		"tr_explain": "<green>“千年槍彈自在槍”<c>"
 	},
 	{
+		"assign": "12010072",
+		"jp_text": "エレディムワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“繼承自在槍”<c>"
+	},
+	{
 		"assign": "12010073",
 		"jp_text": "ラジャンティエワイヤー",
 		"tr_text": "銀式自在槍",
@@ -1831,7 +1838,7 @@
 		"jp_text": "ウィンガルドワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翅衛自在槍”<c>"
+		"tr_explain": "<green>“鋼翼加護自在槍”<c>"
 	},
 	{
 		"assign": "12010075",
@@ -1846,5 +1853,19 @@
 		"tr_text": "尊王自在槍試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "12010079",
+		"jp_text": "ラディアクールワイヤー",
+		"tr_text": "耀匣自在槍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010080",
+		"jp_text": "リクスタルワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“特六式自在槍”<c>"
 	}
 ]

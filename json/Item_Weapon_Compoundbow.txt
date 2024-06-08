@@ -1241,16 +1241,16 @@
 	{
 		"assign": "1150285",
 		"jp_text": "アルコスティル",
-		"tr_text": "",
+		"tr_text": "堅實彎弓",
 		"jp_explain": "武器としての機能のみを追求した強弓。\n無機質な見た目ながら、威力と安定性に\n優れ、高い性能を発揮する。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的強弓。\n儘管外觀冰冷樸素，卻有著優異的\n威力與穩定性，並會發揮出高超的性能。"
 	},
 	{
 		"assign": "1150286",
 		"jp_text": "アルコピュラス",
-		"tr_text": "",
+		"tr_text": "樸實彎弓",
 		"jp_explain": "武器としての機能のみを追求した強弓。\n装飾を排除し、性能を実直に求めた結果\n信頼に足る威力と命中精度を実現した。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的強弓。\n由於去除了裝飾、忠實追求於了性能，\n因而實現了足以信賴的威力與命中精度。"
 	},
 	{
 		"assign": "1150287",
@@ -1579,14 +1579,14 @@
 		"jp_text": "エヴォルオーヴァボウ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化環軌強弓”<c>\n"
+		"tr_explain": "<green>“進化軌道強弓”<c>\n"
 	},
 	{
 		"assign": "115010037",
 		"jp_text": "クリスティアボウ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“水晶強弓”<c>\n"
+		"tr_explain": "<green>”水晶石強弓”<c>\n"
 	},
 	{
 		"assign": "115010039",
@@ -1619,7 +1619,7 @@
 	{
 		"assign": "115010043",
 		"jp_text": "エヴォルイクリスボウ",
-		"tr_text": "進化環蝕強弓",
+		"tr_text": "進化侵蝕強弓",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1635,7 +1635,7 @@
 		"jp_text": "オブゾディアボウ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“黑曜強弓”<c>\n"
+		"tr_explain": "<green>“黑曜石強弓”<c>\n"
 	},
 	{
 		"assign": "115010049",
@@ -1705,7 +1705,7 @@
 		"jp_text": "フリューガルドボウ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翼衛強弓”<c>\n"
+		"tr_explain": "<green>“羽翼加護強弓”<c>\n"
 	},
 	{
 		"assign": "115010062",
@@ -1731,7 +1731,7 @@
 	{
 		"assign": "115010048",
 		"jp_text": "コルボ・メザーナRe-Mボウ",
-		"tr_text": "合縱·午夜Re-M強弓",
+		"tr_text": "合縱·介質Re-M強弓",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1757,6 +1757,13 @@
 		"tr_explain": "<green>“千年槍彈強弓”<c>"
 	},
 	{
+		"assign": "115010071",
+		"jp_text": "エレディムボウ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“繼承強弓”<c>"
+	},
+	{
 		"assign": "115010072",
 		"jp_text": "ラジャンティエボウ",
 		"tr_text": "銀式強弓",
@@ -1768,7 +1775,7 @@
 		"jp_text": "ウィンガルドボウ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翅衛強弓”<c>"
+		"tr_explain": "<green>“鋼翼加護強弓”<c>"
 	},
 	{
 		"assign": "115010075",
@@ -1783,5 +1790,19 @@
 		"tr_text": "尊王強弓試製壹型",
 		"jp_explain": "",
 		"tr_explain": ""
+	},
+	{
+		"assign": "115010079",
+		"jp_text": "ラディアクールボウ",
+		"tr_text": "耀匣強弓",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "115010080",
+		"jp_text": "リクスタルボウ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“特六式強弓”<c>"
 	}
 ]

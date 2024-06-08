@@ -1353,16 +1353,16 @@
 	{
 		"assign": "190328",
 		"jp_text": "モールスティル",
-		"tr_text": "",
+		"tr_text": "堅實猛襲炮",
 		"jp_explain": "武器としての機能のみを追求した大砲。\n砲撃時の安定性と優れた出力のために\n全てが設計され、抜群の性能を実現。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的大炮。\n一切設計皆是為了炮擊時的穩定性\n與優異的輸出服務，實現了出眾的性能。"
 	},
 	{
 		"assign": "190329",
 		"jp_text": "モールピュラス",
-		"tr_text": "",
+		"tr_text": "樸實猛襲炮",
 		"jp_explain": "武器としての機能のみを追求した大砲。\n性能重視を徹底して作り上げられ\n標的を無差別に塵へと変える。",
-		"tr_explain": ""
+		"tr_explain": "純粹追求武器性能的大炮。\n在製作上徹徹底底地重視性能，\n會無差別地將目標夷為塵埃。"
 	},
 	{
 		"assign": "190330",
@@ -1507,7 +1507,7 @@
 	{
 		"assign": "190375",
 		"jp_text": "光纏砲クラースカノン",
-		"tr_text": "光纏炮·明日轟擊炮",
+		"tr_text": "光纏炮·明日加農炮",
 		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った大砲。\nその砲撃が、未来への壁を崩す。",
 		"tr_explain": "被掃卻深遠之暗，並化作\n宇宙起源的光芒所纏繞的大炮。\n這炮擊，將轟開通往未來的障壁。"
 	},
@@ -1535,7 +1535,7 @@
 	{
 		"assign": "190393",
 		"jp_text": "闇征砲アジェルカノン",
-		"tr_text": "暗征炮·昨日轟擊炮",
+		"tr_text": "暗征炮·昨日加農炮",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた大砲。\n幾重の闇の中でも光を見失わない。",
 		"tr_explain": "充滿著決心，不惜犧牲自己的一切，\n也誓要守護宇宙的大炮。\n縱是在幾重黑暗之中，也不會失去光明。"
 	},
@@ -1719,7 +1719,7 @@
 		"jp_text": "レリク・タルタロス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“聖遺·冥獄炮”<c>\n"
+		"tr_explain": "<green>“聖遺·塔耳塔羅斯”<c>\n"
 	},
 	{
 		"assign": "19010035",
@@ -1733,14 +1733,14 @@
 		"jp_text": "エヴォルオーヴァランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“進化環軌大炮”<c>\n"
+		"tr_explain": "<green>“進化軌道大炮”<c>\n"
 	},
 	{
 		"assign": "19010038",
 		"jp_text": "クリスティアランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“水晶大炮”<c>\n"
+		"tr_explain": "<green>”水晶石大炮”<c>\n"
 	},
 	{
 		"assign": "19010040",
@@ -1773,7 +1773,7 @@
 	{
 		"assign": "19010044",
 		"jp_text": "エヴォルイクリスランチャー",
-		"tr_text": "進化環蝕大炮",
+		"tr_text": "進化侵蝕大炮",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1789,7 +1789,7 @@
 		"jp_text": "オブゾディアランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“黑曜大炮”<c>\n"
+		"tr_explain": "<green>“黑曜石大炮”<c>\n"
 	},
 	{
 		"assign": "19010050",
@@ -1859,7 +1859,7 @@
 		"jp_text": "フリューガルドランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翼衛大炮”<c>\n"
+		"tr_explain": "<green>“羽翼加護大炮”<c>\n"
 	},
 	{
 		"assign": "19010066",
@@ -1880,7 +1880,7 @@
 		"jp_text": "メレク・タルタロス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“天遺·冥獄炮”<c>\n"
+		"tr_explain": "<green>“天遺·塔耳塔羅斯”<c>\n"
 	},
 	{
 		"assign": "19010049",
@@ -1911,6 +1911,13 @@
 		"tr_explain": "<green>“千年槍彈大炮”<c>"
 	},
 	{
+		"assign": "19010076",
+		"jp_text": "エレディムランチャー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“繼承大炮”<c>"
+	},
+	{
 		"assign": "19010077",
 		"jp_text": "ラジャンティエランチャー",
 		"tr_text": "銀式大炮",
@@ -1922,7 +1929,7 @@
 		"jp_text": "ウィンガルドランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“翅衛大炮”<c>"
+		"tr_explain": "<green>“鋼翼加護大炮”<c>"
 	},
 	{
 		"assign": "19010079",
@@ -1935,6 +1942,27 @@
 		"assign": "19010081",
 		"jp_text": "ロウゼラムランチャー試製壱型",
 		"tr_text": "尊王大炮試製壹型",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010083",
+		"jp_text": "ラディアクールランチャー",
+		"tr_text": "耀匣大炮",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010084",
+		"jp_text": "リクスタルランチャー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“特六式大炮”<c>"
+	},
+	{
+		"assign": "19010085",
+		"jp_text": "￥NPC武器・ファリア武器ランチャー",
+		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": ""
 	}
