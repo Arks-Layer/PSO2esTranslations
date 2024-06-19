@@ -281,7 +281,7 @@ def get_order_jp_target_lines(lines, start_line, id_pattern):
     return order_jp_target_lines
 
 # [FUNCTION] Combine two names in lines into one names
-def combine_two_lines(lines1, lines2, id_pattern):
+def cards_combine(lines1, lines2, id_pattern):
     # Initialize
     combined_texts = []
     combined_lines = []
@@ -704,7 +704,13 @@ card_name_jp_target_lines = [
 card_title_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in
     get_order_jp_target_lines(lineduel_text_jp_lines, "10#1", r'^(\d+)#')]
-card_jp_target_lines = combine_two_lines(card_name_jp_target_lines, card_title_jp_target_lines, r'^(\d+)#')[1]
+card_artist_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(lineduel_text_jp_lines, "10#6", r'^(\d+)#')]
+card_skill_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(lineduel_text_jp_lines, "10#7", r'^(\d+)#')]
+card_jp_target_lines = cards_combine(card_name_jp_target_lines, card_title_jp_target_lines, r'^(\d+)#')[1]
 mat_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in
     get_order_jp_target_lines(lineduel_text_jp_lines, "0#2", r'^(\d+)#')]
@@ -733,7 +739,7 @@ ear_tr_target_texts = get_translation(ear_jp_target_lines, charamake_parts_tr_li
 horn_tr_target_texts = get_translation(horn_jp_target_lines, charamake_parts_tr_lines)[0]
 card_name_tr_target_lines = get_translation(card_name_jp_target_lines, lineduel_text_tr_lines)[1]
 card_title_tr_target_lines = get_translation(card_title_jp_target_lines, lineduel_text_tr_lines)[1]
-card_tr_target_texts = combine_two_lines(card_name_tr_target_lines, card_title_tr_target_lines, r'^(\d+)#')[0]
+card_tr_target_texts = cards_combine(card_name_tr_target_lines, card_title_tr_target_lines, r'^(\d+)#')[0]
 mat_tr_target_texts = get_translation(mat_jp_target_lines, lineduel_text_tr_lines)[0]
 sv_tr_target_texts = get_translation(sv_jp_target_lines, lineduel_text_tr_lines)[0]
 body_tr_target_texts = get_translation(body_jp_target_lines, charamake_parts_tr_lines)[0]
@@ -745,7 +751,11 @@ def extra_condition(prefix, jp_text):
     if prefix == "mo":
        return jp_text.endswith(("EX"))
     elif prefix == "bp":
-        return jp_text.startswith(("エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：", "立体図形：", "立体数字：", "アクリル台座・", "ベーシック", "モダン", "クラシック", "ゴシック", "スイーツ", "チャイナ", "ウェスタン", "オリエント", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ", "ワノ", "ミニ")) and not jp_text.startswith(("ミニミニ"))
+        return jp_text.startswith((
+        "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：",
+        "『NGS", "『PSO2", "立体図形：", "立体数字：", "アクリル台座・",
+        "ベーシック", "モダン", "クラシック", "ゴシック", "スイーツ", "チャイナ", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
+        "ミニ")) and not jp_text.startswith(("ミニミニ"))
     elif prefix == "ph":
         return jp_text == ""
     elif prefix == "bg":
