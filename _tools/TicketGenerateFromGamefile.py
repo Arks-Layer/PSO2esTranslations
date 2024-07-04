@@ -280,24 +280,6 @@ def get_order_jp_target_lines(lines, start_line, id_pattern):
 
     return order_jp_target_lines
 
-# [FUNCTION] Combine two names in lines into one names
-def cards_combine(lines1, lines2, id_pattern):
-    # Initialize
-    combined_texts = []
-    combined_lines = []
-
-    for text_id1, text1 in lines1:
-        id_num = [int(re.search(id_pattern, text_id1).group(1))]
-        combined_text = f"{text1}"
-        for text_id2, text2 in lines2:
-            if id_num == [int(re.search(id_pattern, text_id2).group(1))]:
-                combined_text = f"{text2} {text1}"
-                break
-        combined_texts.append(combined_text)
-        combined_lines.append((text_id1, combined_text))
-
-    return combined_texts, combined_lines
-
 # [FUNCTION] Form names of voice (only compatible with CN)
 def form_vo_names(text_id, jp_fulltext, tr_fulltext):
     # Split the full text to get vo name and cv name
@@ -556,7 +538,7 @@ aug_texts = [
 ou_m_texts = ou_f_texts = cp_m_texts = cp_f_texts = mou_texts = ear_texts = horn_texts = body_texts = [
     "{jp_text}", "{tr_text}", "{tr_text}"]
 card_texts = [
-    "UNKNOWN「{jp_text}」", "UNKNOWN「{tr_text}」", "UNKNOWN \"{tr_text}\""]
+    "Ca「{jp_text}」", "Ca「{tr_text}」", "Ca \"{tr_text}\""]
 mat_texts = [
     "UNKNOWN「{jp_text}」", "UNKNOWN「{tr_text}」", "UNKNOWN \"{tr_text}\""]
 sv_texts = [
@@ -698,7 +680,7 @@ body_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in
     get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#6", r'^No(\d{6})#')
     if not jp_text.startswith(("￥", "text_")) and "NPC" not in jp_text]
-card_name_jp_target_lines = [
+card_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in
     get_order_jp_target_lines(lineduel_text_jp_lines, "10#0", r'^(\d+)#')]
 card_title_jp_target_lines = [
@@ -710,7 +692,6 @@ card_artist_jp_target_lines = [
 card_skill_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in
     get_order_jp_target_lines(lineduel_text_jp_lines, "10#7", r'^(\d+)#')]
-card_jp_target_lines = cards_combine(card_name_jp_target_lines, card_title_jp_target_lines, r'^(\d+)#')[1]
 mat_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in
     get_order_jp_target_lines(lineduel_text_jp_lines, "0#2", r'^(\d+)#')]
@@ -737,9 +718,8 @@ cp_f_tr_target_texts = get_translation(cp_f_jp_target_lines, charamake_parts_tr_
 mou_tr_target_texts = get_translation(mou_jp_target_lines, charamake_parts_tr_lines)[0]
 ear_tr_target_texts = get_translation(ear_jp_target_lines, charamake_parts_tr_lines)[0]
 horn_tr_target_texts = get_translation(horn_jp_target_lines, charamake_parts_tr_lines)[0]
-card_name_tr_target_lines = get_translation(card_name_jp_target_lines, lineduel_text_tr_lines)[1]
+card_tr_target_texts = get_translation(card_jp_target_lines, lineduel_text_tr_lines)[0]
 card_title_tr_target_lines = get_translation(card_title_jp_target_lines, lineduel_text_tr_lines)[1]
-card_tr_target_texts = cards_combine(card_name_tr_target_lines, card_title_tr_target_lines, r'^(\d+)#')[0]
 mat_tr_target_texts = get_translation(mat_jp_target_lines, lineduel_text_tr_lines)[0]
 sv_tr_target_texts = get_translation(sv_jp_target_lines, lineduel_text_tr_lines)[0]
 body_tr_target_texts = get_translation(body_jp_target_lines, charamake_parts_tr_lines)[0]
@@ -961,6 +941,10 @@ def main_edit_Stack(prefix):
 process_prefixes = ["mo", "bp", "ph", "bg", "aug", "ou_m", "ou_f", "cp_m", "cp_f", "mou", "ear", "horn", "body"]
 for prefix in process_prefixes:
      main_generate_NGS(prefix)
+
+# process_prefixes = ["card", "sv", "mat"]
+# for prefix in process_prefixes:
+#     main_generate_NGS(prefix)
 
 # Generate "Stack_" json files (only for CN)
 if LANG == 1:
