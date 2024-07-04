@@ -731,11 +731,13 @@ def extra_condition(prefix, jp_text):
     if prefix == "mo":
        return jp_text.endswith(("EX"))
     elif prefix == "bp":
-        return jp_text.startswith((
+        return (jp_text.startswith((
         "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：",
         "『NGS", "『PSO2", "超・", "立体図形：", "立体数字：", "アクリル台座・",
         "ベーシック", "モダン", "クラシック", "ゴシック", "スイーツ", "チャイナ", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
         "ミニ")) and not jp_text.startswith(("ミニミニ"))
+        or jp_text.endswith(
+        "アクスタ"))
     elif prefix == "ph":
         return jp_text == ""
     elif prefix == "bg":
