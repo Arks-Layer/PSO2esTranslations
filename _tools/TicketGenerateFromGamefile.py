@@ -540,7 +540,7 @@ ou_m_texts = ou_f_texts = cp_m_texts = cp_f_texts = mou_texts = ear_texts = horn
 card_texts = [
     "Ca「{jp_text}」", "Ca「{tr_text}」", "Ca \"{tr_text}\""]
 mat_texts = [
-    "UNKNOWN「{jp_text}」", "UNKNOWN「{tr_text}」", "UNKNOWN \"{tr_text}\""]
+    "Ma「{jp_text}」", "Ma「{tr_text}」", "Ma \"{tr_text}\""]
 sv_texts = [
     "Sv「{jp_text}」", "Sv「{tr_text}」", "Sv \"{tr_text}\""]
 ha_texts = [
@@ -594,17 +594,17 @@ body_explains = [
     "使用後可選用新的皮膚種類。\n<yellow>※適用於：{tr_igen}<c>",
     "Unlocks a new body type for use.\n<yellow>※Type: {tr_igen}<c>"]
 card_explains = [
-    "",
-    "",
-    ""]
+    "使用すると新しいカードが\n全キャラクターで選択可能になる。",
+    "使用後所有角色均可選用新的卡牌。",
+    "Unlocks a new card for\nall characters on your account."]
 mat_explains = [
-    "",
-    "",
-    ""]
+    "使用すると新しいプレイマットが\n全キャラクターで選択可能になる。",
+    "使用後所有角色均可選用新的牌桌墊。",
+    "Unlocks a new playmat for\nall characters on your account."]
 sv_explains = [
-    "",
-    "",
-    ""]
+    "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
+    "使用後所有角色均可選用新的牌背。",
+    "Unlocks a new card sleeve for\nall characters on your account."]
 ha_explains = [
     "",
     "使用後所有角色均可選用新的手部姿勢。\n<yellow>※不適用於一部分大廳動作/\n不適用於『PSO2』<c>",
@@ -752,8 +752,20 @@ def extra_condition(prefix, jp_text):
         return jp_text == ""
     elif prefix == "cp_f":
         return jp_text == ""
-    elif prefix == "fp":
+    elif prefix == "mou":
         return jp_text == ""
+    elif prefix == "ear":
+        return jp_text == ""
+    elif prefix == "horn":
+        return jp_text == ""
+    elif prefix == "body":
+        return jp_text == ""
+    elif prefix == "card":
+        return jp_text == jp_text
+    elif prefix == "mat":
+        return jp_text == jp_text
+    elif prefix == "sv":
+        return jp_text == jp_text
     elif prefix == "ha":
         return jp_text == jp_text
     elif prefix == "vo":
@@ -940,13 +952,13 @@ def main_edit_Stack(prefix):
     print(f'PROGRESS: processed {processed_count} items in "{path}".')
 
 # Generate "NGS_" json files
-process_prefixes = ["mo", "bp", "ph", "bg", "aug", "ou_m", "ou_f", "cp_m", "cp_f", "mou", "ear", "horn", "body"]
-for prefix in process_prefixes:
-     main_generate_NGS(prefix)
-
-# process_prefixes = ["card", "sv", "mat"]
+# process_prefixes = ["mo", "bp", "ph", "bg", "aug", "ou_m", "ou_f", "cp_m", "cp_f", "mou", "ear", "horn", "body"]
 # for prefix in process_prefixes:
-#     main_generate_NGS(prefix)
+#      main_generate_NGS(prefix)
+
+process_prefixes = ["card", "mat", "sv"]
+for prefix in process_prefixes:
+    main_generate_NGS(prefix)
 
 # Generate "Stack_" json files (only for CN)
 if LANG == 1:
