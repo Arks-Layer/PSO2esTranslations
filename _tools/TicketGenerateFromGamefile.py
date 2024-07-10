@@ -615,7 +615,7 @@ aug_texts = [
 ou_m_texts = ou_f_texts = cp_m_texts = cp_f_texts = mou_texts = ear_texts = horn_texts = body_texts = [
     "{jp_text}", "{tr_text}", "{tr_text}"]
 ca_texts = [
-    "Ca「{jp_itype}{icost}{irare}：{jp_text}」", "Ca「{tr_itype}{icost}{irare}：{tr_text}」", "Ca \"{tr_itype} {icost} {irare}: {tr_text}\""]
+    "Ca「{jp_itype}{icost}{irare}：{jp_text}」", "Ca「{tr_itype}{icost}{irare}：{tr_text}」", "Ca \"{tr_itype} {icost}{irare}: {tr_text}\""]
 ma_texts = [
     "Ma「{jp_text}」", "Ma「{tr_text}」", "Ma \"{tr_text}\""]
 sv_texts = [
