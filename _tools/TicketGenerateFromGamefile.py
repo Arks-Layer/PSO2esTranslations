@@ -190,14 +190,15 @@ def parse_data(file_path, file_type):
                 if "ngs" in file_path and not "エステ" in file_path:
                     headnames = ['Mo', 'BP', 'PH', 'Bg', 'Ca']
                     for headname in headnames:
-                        # Do regex replacement, to ensure each line starts with item names.
+                        # Do regex replacement, to ensure each line starts with item names
                         n_lines = re.sub(f"{headname}「", f"\n{headname}「", line).splitlines()
+                        makapo_started = False
                         for n_line in n_lines:
                             if n_line.startswith(f"{headname}「"):
                                 if headname != 'Ca':
                                     jp_text = n_line[n_line.find(f"{headname}「") + 3:n_line.find('」')]
-                                    if any(keyword in n_line for keyword in
-                                        ['マイショップ出品不可', '初期', 'alt="GP"', 'alt="SG"', "交換</td>", "季節イベント</td>","トレジャースクラッチ", "SPスクラッチ</td>", "開発準備特別票</td>", "クラス育成特別プログラム", "初期登録</td>"]):
+                                    if makapo_started == True or any(keyword in n_line for keyword in
+                                        ['マイショップ出品不可', '初期', 'alt="GP"', 'alt="SG"', '交換</td>', '季節イベント</td>','トレジャースクラッチ', 'SPスクラッチ</td>', '開発準備特別票</td>', 'クラス育成特別プログラム', '初期登録</td>']):
                                         trade_infos[jp_text] = "Untradable"
                                 else:
                                     match = re.match(r'Ca「(.*?)([0-9])：(.*?)」', n_line)
@@ -206,12 +207,16 @@ def parse_data(file_path, file_type):
                                         jp_itype = match.group(1)
                                         icost = match.group(2)
                                         cost_infos[(jp_text, jp_itype)] = icost
-
+                            # Force to change the makapo tradable info after specific line
+                            if any(keyword in n_line for keyword in
+                                ['<span id="GPNGS">']):
+                                makapo_started = True
+                            
                 # For items without "「」"
                 else: 
                     headnames = ['男性', '女性', 'T1', 'T2']
                     for headname in headnames:
-                        # Do regex replacement, to ensure each line starts with item names.
+                        # Do regex replacement, to ensure each line starts with item names
                         n_lines = re.sub(f"{headname}", f"\n{headname}", line).splitlines()
                         for n_line in n_lines:
                             if n_line.startswith(f"{headname}"):
@@ -525,7 +530,7 @@ if LANG == 1:
         # Form the final tradable info
         trade_infos.update(n_trade_infos)
 
-# Parse swiki/makapo webs to get card cost.
+# Parse swiki/makapo webs to get card cost
 ca_key = 'ngs_ca'
 ca_suffix_url, ca_cost_infos = suffix_mapping[ca_key]
 # Form full_url to get name info
