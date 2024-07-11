@@ -363,6 +363,7 @@ def record_desc(path, jp_text):
     desc_jp_explain = ""
     desc_tr_explain = ""
     desc_tr_text= ""
+
     # To determine if item is newly added
     desc_jp_text = ""
     # Open the file and read the data
@@ -388,6 +389,7 @@ def record_desc(path, jp_text):
 def record_name(path, jp_text, jp_itype):
     # Initialize
     desc_icost = ""
+
     # Open the file and read the data
     with open(os.path.join(jsonfile_dir, path), "r", encoding='utf-8') as f:
         data = json.load(f)
@@ -861,11 +863,16 @@ def main_generate_NGS(prefix):
 
     # Start the loop to generate item
     for i, (text_id, jp_text) in enumerate(jp_target_lines):
+        # Initialize
+        tr_text = ""
+        jp_itype = tr_itype = ""
+        jp_igen = tr_igen = ""
+        irare = ""
+        icost = ""
+
         # Get translated text from texts
         if LANG != 0:
             tr_text = tr_target_texts[i]
-        else:
-            tr_text = ""
         # Get category and the category name for certain prefixes
         if prefix == "mo":
             itype = text_id.split("_")[1]
@@ -887,8 +894,6 @@ def main_generate_NGS(prefix):
                     itype = ele_type
             jp_itype = ca_itypes[itype][0]
             tr_itype = ca_itypes[itype][LANG]
-        else:
-            jp_itype = tr_itype = ""
         # Get gender and the gender name for certain prefixes
         if prefix == "body":
             if text_id.startswith("No1"):
@@ -897,14 +902,9 @@ def main_generate_NGS(prefix):
                 igen = "a2"
             jp_igen = igens[igen][0]
             tr_igen = igens[igen][LANG]
-        else:
-            jp_igen = tr_igen = ""
         # Get rarity for certain prefixes
         if prefix == "ca" and text_id.endswith("1#0"):
             irare = "R"
-        else:
-            irare = ""
-
         # Get cost for certain prefixes
         if prefix == "ca":
             ca_cost_infos = globals()[f"ca_cost_infos"]
@@ -913,8 +913,7 @@ def main_generate_NGS(prefix):
                 icost = record_name(path, jp_text, jp_itype)
                 if icost == "":
                     icost = "?"
-        else:
-            icost = ""
+
         # Get names and texts from global variables
         names = [name.format(
             jp_itype = jp_itype, tr_itype = tr_itype,
@@ -980,24 +979,25 @@ def main_edit_Stack(prefix):
 
     # Start the loop to generate item
     for i, (text_id, jp_text) in enumerate(jp_target_lines):
+        # Initialize
+        tr_text = ""
+        jp_itype = tr_itype = ""
+        cv_tr_name = ""
+
         # Get translated text from texts
         if LANG != 0:
             tr_text = tr_target_texts[i]
-        else:
-            tr_text = ""
-        # Get category and the category name for certain prefixes
-        jp_itype = tr_itype = ""
+
+        # Initialize
+        jp_texts = [jp_text]
+        tr_texts = [tr_text]
+
         # Get special item names for vo
         if prefix == "vo":
             jp_texts, tr_texts, cv_tr_name = form_vo_names(text_id, jp_text, tr_text)
-        else:
-            jp_texts = [jp_text]
-            tr_texts = [tr_text]
-            cv_tr_name = ""
-        
+
         for i, jp_text in enumerate(jp_texts):
             tr_text = tr_texts[i]
-
             # Get names and texts from global variables
             names = [name.format(
                 jp_text = jp_text, tr_text = tr_text)
