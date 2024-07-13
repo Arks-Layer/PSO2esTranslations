@@ -101,6 +101,8 @@ suffix_mapping = {
     'ngs_ph': ('ポータブルホログラム', ph_trade_infos),
     'ngs_bg': ('アークスカード', bg_trade_infos),
     'ngs_ca': ('ラインストライク/カード', ca_cost_infos),
+    'ngs_ma': ('ラインストライク', (ma_trade_infos)),
+    'ngs_sv': ('ラインストライク', (sv_trade_infos)),
     'ngs_vo': ('エステ/ボイス', vo_trade_infos),
     'o2_vo': ('エステ/ボイス', vo_trade_infos)}
 
@@ -188,7 +190,7 @@ def parse_data(file_path, file_type):
             if line.startswith('<div class="ie5">') or line.startswith(' data-ad-slot='):
                 # For items with "「」"
                 if "ngs" in file_path and not "エステ" in file_path:
-                    headnames = ['Mo', 'BP', 'PH', 'Bg', 'Ca']
+                    headnames = ['Mo', 'BP', 'PH', 'Bg', 'Ca', 'Ma', 'Sv']
                     for headname in headnames:
                         # Do regex replacement, to ensure each line starts with item names
                         n_lines = re.sub(f"{headname}「", f"\n{headname}「", line).splitlines()
@@ -837,9 +839,9 @@ def extra_condition(prefix, jp_text):
     elif prefix == "ca":
         return jp_text == jp_text
     elif prefix == "ma":
-        return jp_text == jp_text
+        return jp_text == ""
     elif prefix == "sv":
-        return jp_text == jp_text
+        return jp_text == ""
     elif prefix == "ha":
         return jp_text == jp_text
     elif prefix == "vo":
