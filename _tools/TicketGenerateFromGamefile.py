@@ -82,29 +82,28 @@ sv_trade_infos = {}
 ha_trade_infos = {}
 vo_trade_infos = {}
 
-# URLs of swiki/makapo (only for CN)
+# URLs of swiki/makapo
 wiki_urls = {
     'ngs': 'https://pso2ngs.swiki.jp/index.php?',
     'o2': 'https://pso2.swiki.jp/index.php?',
     'makapo': 'https://ngs.pso2-makapo.com/'}
 # URLs and trade_infos mapping of swiki/makapo pages (only for CN)
 suffix_mapping = {
-    'ngs_mo': ('モーション', mo_trade_infos),
-    'makapo_bp': ('build-parts-list', bp_trade_infos),
-    'ngs_bp1': ('クリエイティブスペース/ビルドパーツ/建材', bp_trade_infos),
-    'ngs_bp2': ('クリエイティブスペース/ビルドパーツ/建築物・道具・器具', bp_trade_infos),
-    'ngs_bp3': ('クリエイティブスペース/ビルドパーツ/自然物', bp_trade_infos),
-    'ngs_bp4': ('クリエイティブスペース/ビルドパーツ/家具', bp_trade_infos),
-    'ngs_bp5': ('クリエイティブスペース/ビルドパーツ/ギミックパーツ', bp_trade_infos),
-    'ngs_bp6': ('クリエイティブスペース/ビルドパーツ/立体図形', bp_trade_infos),
-    'ngs_bp7': ('クリエイティブスペース/ビルドパーツ/コラボ', bp_trade_infos),
-    'ngs_ph': ('ポータブルホログラム', ph_trade_infos),
-    'ngs_bg': ('アークスカード', bg_trade_infos),
-    'ngs_ca': ('ラインストライク/カード', ca_cost_infos),
-    'ngs_ma': ('ラインストライク', (ma_trade_infos)),
-    'ngs_sv': ('ラインストライク', (sv_trade_infos)),
-    'ngs_vo': ('エステ/ボイス', vo_trade_infos),
-    'o2_vo': ('エステ/ボイス', vo_trade_infos)}
+    'ngs_mo': ('モーション', (mo_trade_infos, )),
+    'makapo_bp': ('build-parts-list', (bp_trade_infos, )),
+    'ngs_bp1': ('クリエイティブスペース/ビルドパーツ/建材', (bp_trade_infos, )),
+    'ngs_bp2': ('クリエイティブスペース/ビルドパーツ/建築物・道具・器具', (bp_trade_infos, )),
+    'ngs_bp3': ('クリエイティブスペース/ビルドパーツ/自然物', (bp_trade_infos, )),
+    'ngs_bp4': ('クリエイティブスペース/ビルドパーツ/家具', (bp_trade_infos, )),
+    'ngs_bp5': ('クリエイティブスペース/ビルドパーツ/ギミックパーツ', (bp_trade_infos, )),
+    'ngs_bp6': ('クリエイティブスペース/ビルドパーツ/立体図形', (bp_trade_infos, )),
+    'ngs_bp7': ('クリエイティブスペース/ビルドパーツ/コラボ', (bp_trade_infos, )),
+    'ngs_ph': ('ポータブルホログラム', (ph_trade_infos, )),
+    'ngs_bg': ('アークスカード', (bg_trade_infos, )),
+    'ngs_ca': ('ラインストライク/カード', (ca_cost_infos, )),
+    'ngs_ma': ('ラインストライク', (ma_trade_infos, sv_trade_infos, )),
+    'ngs_vo': ('エステ/ボイス', (vo_trade_infos, )),
+    'o2_vo': ('エステ/ボイス', (vo_trade_infos, ))}
 
 # Path of json folder
 jsonfile_dir = os.path.abspath(os.path.join(root_dir, os.pardir, "json"))
@@ -532,25 +531,27 @@ if LANG == 1:
             n_trade_infos[alt_jp_text] = info
 
         # Form the final tradable info
-        trade_infos.update(n_trade_infos)
+        for trade_info in trade_infos:
+            trade_info.update(n_trade_infos)
 
 # Parse swiki/makapo webs to get card cost
 ca_key = 'ngs_ca'
-ca_suffix_url, ca_cost_infos = suffix_mapping[ca_key]
+suffix_url, cost_infos = suffix_mapping[ca_key]
 # Form full_url to get name info
-ca_source = ca_key.split('_')[0]
-ca_full_url = f"{wiki_urls[f'{ca_source}']}{ca_suffix_url}"
-ca_n_cost_infos = parse_data(ca_full_url, "html")[2]
+source = ca_key.split('_')[0]
+full_url = f"{wiki_urls[f'{source}']}{suffix_url}"
+n_cost_infos = parse_data(full_url, "html")[2]
 
 # Make tradable info compatible
-original_ca_n_cost_infos = ca_n_cost_infos.copy()
-for (jp_text, jp_itype), info in original_ca_n_cost_infos.items():
+original_n_cost_infos = n_cost_infos.copy()
+for (jp_text, jp_itype), info in original_n_cost_infos.items():
     # Form the alternative version of jp_text
     alt_jp_text = width_process_string(jp_text)
-    ca_n_cost_infos[alt_jp_text, jp_itype] = info
+    n_cost_infos[alt_jp_text, jp_itype] = info
 
 # Form the final tradable info
-ca_cost_infos.update(ca_n_cost_infos)
+for cost_info in cost_infos:
+    cost_info.update(n_cost_infos)
 
 # ——————————————————————————————
 # MAPPINGS AND CONDITIONS
