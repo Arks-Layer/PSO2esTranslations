@@ -1225,6 +1225,13 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "Mo「待機：シャドウ」",
+		"tr_text": "Mo「待機：シャドウ」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「待機：暗影」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
 		"jp_text": "Mo「待機：たおやかRev」",
 		"tr_text": "Mo「待機：たおやかRev」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
@@ -1432,6 +1439,13 @@
 		"tr_text": "Mo「ジャンプ：シノビ」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "<green>“Mo「跳躍：忍士」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ジャンプ：シャドウ」",
+		"tr_text": "Mo「ジャンプ：シャドウ」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「跳躍：暗影」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	},
 	{
@@ -2955,9 +2969,9 @@
 	},
 	{
 		"jp_text": "Mo「ダッシュ：光翼/B」",
-		"tr_text": "Mo「ダッシュ：光翼/B」",
+		"tr_text": "Mo「衝刺：光翼/B」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「衝刺：光翼/B」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	},
 	{
@@ -2972,6 +2986,13 @@
 		"tr_text": "Mo「衝刺：鬼魂EX」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「ダッシュ：シャドウ」",
+		"tr_text": "Mo「ダッシュ：シャドウ」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「衝刺：暗影」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	},
 	{
@@ -3963,9 +3984,16 @@
 	},
 	{
 		"jp_text": "Mo「グライド：光翼/B」",
-		"tr_text": "Mo「グライド：光翼/B」",
+		"tr_text": "Mo「滑翔：光翼/B」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「滑翔：光翼/B」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"assign": 0
+	},
+	{
+		"jp_text": "Mo「グライド：シャドウ」",
+		"tr_text": "Mo「グライド：シャドウ」",
+		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+		"tr_explain": "<green>“Mo「滑翔：暗影」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	},
 	{
