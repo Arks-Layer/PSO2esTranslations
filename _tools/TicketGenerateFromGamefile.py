@@ -202,7 +202,7 @@ def parse_data(file_path, file_type):
                                     if makapo_started == True or any(keyword in n_line for keyword in
                                         ['マイショップ出品不可', '初期', 'alt="GP"', 'alt="SG"', '交換</td>', '季節イベント</td>','トレジャースクラッチ', 'SPスクラッチ</td>', '開発準備特別票</td>', 'クラス育成特別プログラム', '初期登録</td>']):
                                         trade_infos[jp_text] = "Untradable"
-                                else:
+                                elif headname == 'Ca':
                                     match = re.match(r'Ca「(.*?)([0-9])：(.*?)」', n_line)
                                     if match:
                                         jp_text = match.group(3)
@@ -210,7 +210,7 @@ def parse_data(file_path, file_type):
                                         icost = match.group(2)
                                         if (jp_text, jp_itype) not in cost_infos:
                                             cost_infos[(jp_text, jp_itype)] = []
-                                        cost_infos[(jp_text, jp_itype)].extend([icost] * 2)
+                                        cost_infos[(jp_text, jp_itype)].extend([icost] * 2) # For rare cards
                             # Force to change the makapo tradable info after specific line
                             if any(keyword in n_line for keyword in
                                 ['<span id="GPNGS">']):
