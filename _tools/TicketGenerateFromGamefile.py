@@ -924,13 +924,11 @@ def main_generate_NGS(prefix):
             irare = "R"
         # Get cost for certain prefixes
         if prefix == "ca":
-            icost = ca_cost_infos.get((jp_text, jp_itype), "")[0]
+            icost = ca_cost_infos.get((jp_text, jp_itype), [""])[0]
             if (jp_text, jp_itype) in ca_cost_infos and ca_cost_infos[(jp_text, jp_itype)]:
                 del ca_cost_infos[(jp_text, jp_itype)][0]
-            if icost == "":
-                icost = record_name(path, jp_text, jp_itype)
-                if icost == "":
-                    icost = "?"
+            if not icost:
+                icost = record_name(path, jp_text, jp_itype) or "?"
 
         # Get names and texts from global variables
         names = [name.format(
