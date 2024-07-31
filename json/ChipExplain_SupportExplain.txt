@@ -9296,57 +9296,106 @@
 		"tr_explainLong": ""
 	},
 	{
-		"assign": "2210",
+		"assign": "32771",
 		"jp_explainShort": "ＣＰ大回復",
+		"tr_explainShort": "",
+		"jp_explainLong": "① ジャストアタックの威力を超絶に増加する。\n② 発動率を上昇する。\n③ チップ発動時のアビリティ効果時間を延長する。\n[発動条件]戦闘開始もしくはジャストアタック成功時\n[効果時間]一定時間",
+		"tr_explainLong": ""
+	},
+	{
+		"assign": "32772",
+		"jp_explainShort": "攻撃力小増加＋カウンターダメージ",
+		"tr_explainShort": "",
+		"jp_explainLong": "① ジャストアタックの威力を極度に増加する。\n② 発動率を上昇する。\n③ チップ発動時のアビリティ効果時間を延長する。\n[発動条件]戦闘開始もしくはジャストアタック成功時\n[効果時間]長い時間",
+		"tr_explainLong": ""
+	},
+	{
+		"assign": "32773",
+		"jp_explainShort": "攻撃力小増加＋カウンターダメージ",
+		"tr_explainShort": "",
+		"jp_explainLong": "① 雷属性値に応じて属性攻撃力を極度に増加する。\n② 定期的に雷属性の属性値と上限値が上昇する。\n　　 （最大時：劇的）\n③ 必殺技・法術チップが発動するたびに\n　　 効果時間を延長する。\n④ ダウン・のけぞり無効となる効果を付与する。\n⑤ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
+		"tr_explainLong": ""
+	},
+	{
+		"assign": "32774",
+		"jp_explainShort": "攻撃力小増加＋ダメージ防御＋加速",
+		"tr_explainShort": "",
+		"jp_explainLong": "① 雷属性値に応じて属性攻撃力を極度に増加する。\n② 定期的に雷属性の属性値と上限値が上昇する。\n　　 （最大時：劇的）\n③ 必殺技・法術チップが発動するたびに\n　　 効果時間を延長する。\n④ ダウン・のけぞり無効となる効果を付与する。\n⑤ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
+		"tr_explainLong": ""
+	},
+	{
+		"assign": "32775",
+		"jp_explainShort": "攻撃力小増加＋ダメージ防御＋加速",
+		"tr_explainShort": "",
+		"jp_explainLong": "① 雷属性値に応じて属性攻撃力を極度に増加する。\n② 定期的に雷属性の属性値と上限値が上昇する。\n　　 （最大時：劇的）\n③ 必殺技・法術チップが発動するたびに\n　　 効果時間を延長する。\n④ ダウン・のけぞり無効となる効果を付与する。\n⑤ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
+		"tr_explainLong": ""
+	},
+	{
+		"assign": "32776",
+		"jp_explainShort": "必殺技・法術威力強化＋一定確率で回避",
+		"tr_explainShort": "",
+		"jp_explainLong": "① 攻撃ダメージを超絶に増加する。\n② ＣＰの回復速度を劇的に強化する。\n③ リンクスロットに装備したチップの種類が\n　　 キャラクターの場合、追加ダメージ威力を\n　　 それぞれわずかに増加する。\n　　 ウェポノイドの場合、通常攻撃・必殺技・法術が\n　　 全てジャストアタックとなる。\n　　 マグの場合、発動率を上昇する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
+		"tr_explainLong": ""
+	},
+	{
+		"assign": "32777",
+		"jp_explainShort": "必殺技・法術威力大強化＋一定確率で回避",
+		"tr_explainShort": "",
+		"jp_explainLong": "① 攻撃ダメージを超絶に増加する。\n② ＣＰの回復速度を劇的に強化する。\n③ リンクスロットに装備したチップの種類が\n　　 キャラクターの場合、追加ダメージ威力を\n　　 それぞれわずかに増加する。\n　　 ウェポノイドの場合、通常攻撃・必殺技・法術が\n　　 全てジャストアタックとなる。\n　　 マグの場合、発動率を上昇する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
+		"tr_explainLong": ""
+	},
+	{
+		"assign": "2210",
+		"jp_explainShort": "攻撃力小増加＋特定地形で攻撃力大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]短い時間",
 		"tr_explainLong": ""
 	},
 	{
 		"assign": "2220",
-		"jp_explainShort": "攻撃力小増加＋カウンターダメージ",
+		"jp_explainShort": "攻撃力小増加＋特定地形で攻撃力大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
 		"tr_explainLong": ""
 	},
 	{
 		"assign": "2310",
-		"jp_explainShort": "攻撃力小増加＋カウンターダメージ",
+		"jp_explainShort": "闇属性が大強化＋通常攻撃と移動が加速",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ＨＰを回復する。\n[発動条件]ジャストアタック成功時",
 		"tr_explainLong": ""
 	},
 	{
 		"assign": "2320",
-		"jp_explainShort": "攻撃力小増加＋ダメージ防御＋加速",
+		"jp_explainShort": "闇属性が大強化＋通常攻撃と移動が加速",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ＨＰを回復する。\n[発動条件]ジャストアタック成功時",
 		"tr_explainLong": ""
 	},
 	{
 		"assign": "80110",
-		"jp_explainShort": "攻撃力小増加＋ダメージ防御＋加速",
+		"jp_explainShort": "攻撃力小増加＋ダメージ軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ＨＰを大きく回復する。\n② ＣＰを大きく回復する。\n[発動条件]敵からの攻撃でＨＰが一定以下になった時",
 		"tr_explainLong": ""
 	},
 	{
 		"assign": "80120",
-		"jp_explainShort": "必殺技・法術威力強化＋一定確率で回避",
+		"jp_explainShort": "攻撃力小増加＋ダメージ軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ＨＰを劇的に回復する。\n② ＣＰを劇的に回復する。\n[発動条件]敵からの攻撃でＨＰが一定以下になった時",
 		"tr_explainLong": ""
 	},
 	{
 		"assign": "80310",
-		"jp_explainShort": "必殺技・法術威力大強化＋一定確率で回避",
+		"jp_explainShort": "黒の民にダメージ小増加＋闇属性強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
 		"tr_explainLong": ""
 	},
 	{
 		"assign": "80320",
-		"jp_explainShort": "攻撃力小増加＋特定地形で攻撃力大増加",
+		"jp_explainShort": "黒の民にダメージ増加＋闇属性強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
 		"tr_explainLong": ""
@@ -9360,56 +9409,56 @@
 	},
 	{
 		"assign": "80620",
-		"jp_explainShort": "闇属性が大強化＋通常攻撃と移動が加速",
+		"jp_explainShort": "攻撃力小増加＋特定地形で攻撃力大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 龍族に対して与えるダメージを絶大に増加する。\n[発動条件]龍族に攻撃がヒットした時\n[効果時間]一定時間",
 		"tr_explainLong": ""
 	},
 	{
 		"assign": "81310",
-		"jp_explainShort": "闇属性が大強化＋通常攻撃と移動が加速",
+		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ＣＰを回復する。\n[発動条件]ジャストアタック成功時",
 		"tr_explainLong": ""
 	},
 	{
 		"assign": "81320",
-		"jp_explainShort": "攻撃力小増加＋ダメージ軽減",
+		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ＣＰを回復する。\n[発動条件]ジャストアタック成功時",
 		"tr_explainLong": ""
 	},
 	{
 		"assign": "81410",
-		"jp_explainShort": "攻撃力小増加＋ダメージ軽減",
+		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 敵から受けるダメージを大きく軽減する。\n[発動条件]必殺技チップ発動時\n[効果時間]短い時間",
 		"tr_explainLong": ""
 	},
 	{
 		"assign": "81420",
-		"jp_explainShort": "黒の民にダメージ小増加＋闇属性強化",
+		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 敵から受けるダメージを大きく軽減する。\n[発動条件]必殺技チップ発動時\n[効果時間]短い時間",
 		"tr_explainLong": ""
 	},
 	{
 		"assign": "81510",
-		"jp_explainShort": "黒の民にダメージ増加＋闇属性強化",
+		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ＣＰを大きく回復する。\n[発動条件]敵からの攻撃でダウンした時",
 		"tr_explainLong": ""
 	},
 	{
 		"assign": "81520",
-		"jp_explainShort": "攻撃力小増加＋特定地形で攻撃力大増加",
+		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ＣＰを大きく回復する。\n[発動条件]敵からの攻撃でダウンした時",
 		"tr_explainLong": ""
 	},
 	{
 		"assign": "40001",
-		"jp_explainShort": "攻撃力小増加＋特定地形で攻撃力大増加",
+		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 大剣の必殺技の威力を強化する。\n② 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
 		"tr_explainLong": ""
