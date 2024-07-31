@@ -583,6 +583,7 @@ ca_itypes = {
     "Light": ("光", "光", "Light"),
     "Dark": ("闇", "暗", "Dark")}
 ca_itypes_order = {
+    # Update 0
     # Loop 1
     P.closedopen(10, 130): "Fire",
     P.closedopen(130, 240): "Ice",
@@ -601,7 +602,21 @@ ca_itypes_order = {
     P.closedopen(830, 880): "Wind",
     P.closedopen(880, 920): "Lightning",
     P.closedopen(920, 960): "Light",
-    P.closedopen(960, 99999): "Dark"
+    P.closedopen(960, 1010): "Dark",
+    # Loop 3
+    P.closedopen(750, 790): "Fire",
+    P.closedopen(790, 830): "Ice",
+    P.closedopen(830, 880): "Wind",
+    P.closedopen(880, 920): "Lightning",
+    P.closedopen(920, 960): "Light",
+    P.closedopen(960, 1010): "Dark",
+    # Update 1
+    P.closedopen(1010, 1040): "Fire",
+    P.closedopen(1040, 1090): "Ice",
+    P.closedopen(1090, 1110): "Wind",
+    P.closedopen(1110, 1130): "Lightning",
+    P.closedopen(1130, 1150): "Light",
+    P.closedopen(1150, 99999): "Dark",
     }
 
 # Names of items
