@@ -744,7 +744,7 @@ bg_jp_target_lines = [
     if not jp_text.startswith(("￥", "text_"))]
 aug_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in element_name_jp_lines
-    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "￥", "-"))]
+    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "ウェポンコネクタ", "￥", "-"))]
 ou_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
     if re.match(r'^No\d{6}#', text_id)
@@ -833,7 +833,7 @@ def extra_condition(prefix, jp_text):
     elif prefix == "bg":
         return jp_text == ""
     elif prefix == "aug":
-        return jp_text.endswith(("S", "LC", "ウェポンコネクタ"))
+        return jp_text.endswith(("S", "LC"))
     elif prefix == "ou_m":
         return jp_text == ""
     elif prefix == "ou_f":
