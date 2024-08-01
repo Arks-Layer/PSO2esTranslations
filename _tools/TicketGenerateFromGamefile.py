@@ -833,7 +833,7 @@ def extra_condition(prefix, jp_text):
     elif prefix == "bg":
         return jp_text == ""
     elif prefix == "aug":
-        return jp_text.endswith(("S", "LC"))
+        return jp_text.endswith(("S", "LC", "ウェポンコネクタ"))
     elif prefix == "ou_m":
         return jp_text == ""
     elif prefix == "ou_f":
