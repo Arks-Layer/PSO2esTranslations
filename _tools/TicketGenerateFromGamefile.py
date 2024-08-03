@@ -88,7 +88,7 @@ wiki_urls = {
     'o2': 'https://pso2.swiki.jp/index.php?',
     'makapo': 'https://ngs.pso2-makapo.com/'}
 # URLs and trade_infos mapping of swiki/makapo pages (only for CN)
-suffix_mapping = {
+trade_mapping = {
     'ngs_mo': ('モーション', (mo_trade_infos, )),
     'makapo_bp': ('build-parts-list', (bp_trade_infos, )),
     'ngs_bp1': ('クリエイティブスペース/ビルドパーツ/建材', (bp_trade_infos, )),
@@ -100,10 +100,11 @@ suffix_mapping = {
     'ngs_bp7': ('クリエイティブスペース/ビルドパーツ/コラボ', (bp_trade_infos, )),
     'ngs_ph': ('ポータブルホログラム', (ph_trade_infos, )),
     'ngs_bg': ('アークスカード', (bg_trade_infos, )),
-    'ngs_ca': ('ラインストライク/カード', (ca_cost_infos, )),
     'ngs_ma': ('ラインストライク', (ma_trade_infos, sv_trade_infos, )),
     'ngs_vo': ('エステ/ボイス', (vo_trade_infos, )),
     'o2_vo': ('エステ/ボイス', (vo_trade_infos, ))}
+cost_mapping = {
+    'ngs_ca': ('ラインストライク/カード', (ca_cost_infos, ))}
 
 # Path of json folder
 jsonfile_dir = os.path.abspath(os.path.join(root_dir, os.pardir, "json"))
@@ -201,13 +202,15 @@ def parse_data(file_path, file_type):
                                     if makapo_started == True or any(keyword in n_line for keyword in
                                         ['マイショップ出品不可', '初期', 'alt="GP"', 'alt="SG"', '交換</td>', '季節イベント</td>','トレジャースクラッチ', 'SPスクラッチ</td>', '開発準備特別票</td>', 'クラス育成特別プログラム', '初期登録</td>']):
                                         trade_infos[jp_text] = "Untradable"
-                                else:
+                                elif headname == 'Ca':
                                     match = re.match(r'Ca「(.*?)([0-9])：(.*?)」', n_line)
                                     if match:
                                         jp_text = match.group(3)
                                         jp_itype = match.group(1)
                                         icost = match.group(2)
-                                        cost_infos[(jp_text, jp_itype)] = icost
+                                        if (jp_text, jp_itype) not in cost_infos:
+                                            cost_infos[(jp_text, jp_itype)] = []
+                                        cost_infos[(jp_text, jp_itype)].extend([icost] * 2) # For rare cards
                             # Force to change the makapo tradable info after specific line
                             if any(keyword in n_line for keyword in
                                 ['<span id="GPNGS">']):
@@ -247,6 +250,31 @@ def width_process_string(string):
             # If character encoding exceeds the Unicode range
             result_string += char
     return result_string
+
+# [FUNCTION] Parse the web or file to get trade/cost info
+def parse_info(key, mapping, info_type):
+    suffix_url, infos = mapping[key]
+    source = key.split('_')[0]
+    full_url = f"{wiki_urls[f'{source}']}{suffix_url}"
+    
+    if info_type == "trade":
+        n_infos = parse_data(full_url, "html")[1]
+    elif info_type == "cost":
+        n_infos = parse_data(full_url, "html")[2]
+    original_n_infos = n_infos.copy()
+
+    for key in list(original_n_infos.keys()):
+        if info_type == "trade":
+            jp_text = key
+        elif info_type == "cost":
+            jp_text, jp_itype = key
+        alt_jp_text = width_process_string(jp_text)
+        if info_type == "trade":
+            n_infos[alt_jp_text] = original_n_infos[jp_text]
+        elif info_type == "cost":
+            n_infos[alt_jp_text, jp_itype] = original_n_infos[(jp_text, jp_itype)]  
+    for info in infos:
+        info.update(n_infos)
 
 # [FUNCTION] Get JP target lines from the starting line
 def get_start_jp_target_lines(lines, start_id, end_id, id_pattern):
@@ -517,41 +545,11 @@ elif LANG == 2:
 
 # Parse swiki/makapo webs to get tradable info (only for CN)
 if LANG == 1:
-    for key, (suffix_url, trade_infos) in suffix_mapping.items():
-        # Form full_url to get tradable info
-        source = key.split('_')[0]
-        full_url = f"{wiki_urls[f'{source}']}{suffix_url}"
-        n_trade_infos = parse_data(full_url, "html")[1]
-
-        # Make tradable info compatible
-        original_n_trade_infos = n_trade_infos.copy()
-        for jp_text, info in original_n_trade_infos.items():
-            # Form the alternative version of jp_text
-            alt_jp_text = width_process_string(jp_text)
-            n_trade_infos[alt_jp_text] = info
-
-        # Form the final tradable info
-        for trade_info in trade_infos:
-            trade_info.update(n_trade_infos)
+    for key in trade_mapping:
+        parse_info(key, trade_mapping, "trade")
 
 # Parse swiki/makapo webs to get card cost
-ca_key = 'ngs_ca'
-suffix_url, cost_infos = suffix_mapping[ca_key]
-# Form full_url to get name info
-source = ca_key.split('_')[0]
-full_url = f"{wiki_urls[f'{source}']}{suffix_url}"
-n_cost_infos = parse_data(full_url, "html")[2]
-
-# Make tradable info compatible
-original_n_cost_infos = n_cost_infos.copy()
-for (jp_text, jp_itype), info in original_n_cost_infos.items():
-    # Form the alternative version of jp_text
-    alt_jp_text = width_process_string(jp_text)
-    n_cost_infos[alt_jp_text, jp_itype] = info
-
-# Form the final tradable info
-for cost_info in cost_infos:
-    cost_info.update(n_cost_infos)
+parse_info("ngs_ca", cost_mapping, "cost")
 
 # ——————————————————————————————
 # MAPPINGS AND CONDITIONS
@@ -585,6 +583,7 @@ ca_itypes = {
     "Light": ("光", "光", "Light"),
     "Dark": ("闇", "暗", "Dark")}
 ca_itypes_order = {
+    # Update 0
     # Loop 1
     P.closedopen(10, 130): "Fire",
     P.closedopen(130, 240): "Ice",
@@ -603,7 +602,21 @@ ca_itypes_order = {
     P.closedopen(830, 880): "Wind",
     P.closedopen(880, 920): "Lightning",
     P.closedopen(920, 960): "Light",
-    P.closedopen(960, 99999): "Dark"
+    P.closedopen(960, 1010): "Dark",
+    # Loop 3
+    P.closedopen(750, 790): "Fire",
+    P.closedopen(790, 830): "Ice",
+    P.closedopen(830, 880): "Wind",
+    P.closedopen(880, 920): "Lightning",
+    P.closedopen(920, 960): "Light",
+    P.closedopen(960, 1010): "Dark",
+    # Update 1
+    P.closedopen(1010, 1040): "Fire",
+    P.closedopen(1040, 1090): "Ice",
+    P.closedopen(1090, 1110): "Wind",
+    P.closedopen(1110, 1130): "Lightning",
+    P.closedopen(1130, 1150): "Light",
+    P.closedopen(1150, 99999): "Dark",
     }
 
 # Names of items
@@ -731,7 +744,7 @@ bg_jp_target_lines = [
     if not jp_text.startswith(("￥", "text_"))]
 aug_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in element_name_jp_lines
-    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "￥", "-"))]
+    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "ウェポンコネクタ", "￥", "-"))]
 ou_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
     if re.match(r'^No\d{6}#', text_id)
@@ -811,7 +824,7 @@ def extra_condition(prefix, jp_text):
         return (jp_text.startswith((
         "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：",
         "『NGS", "『PSO2", "超・", "立体図形：", "立体数字：", "アクリル台座・", "ラインストライク",
-        "ベーシック", "モダン", "クラシック", "ゴシック", "スイーツ", "チャイナ", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
+        "ベーシック", "モダン", "クラシック", "ゴシック", "スイート", "エキゾチックトラッド", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
         "ミニ")) and not jp_text.startswith(("ミニミニ"))
         or jp_text.endswith(
         "アクスタ"))
@@ -859,6 +872,7 @@ def main_generate_NGS(prefix):
     jp_target_lines = globals()[f"{prefix}_jp_target_lines"]
     tr_target_texts = globals()[f"{prefix}_tr_target_texts"]
     trade_infos = globals()[f"{prefix}_trade_infos"]
+    ca_cost_infos = globals()[f"ca_cost_infos"]
 
     # Initialize the processed items
     processed_items = []
@@ -910,12 +924,11 @@ def main_generate_NGS(prefix):
             irare = "R"
         # Get cost for certain prefixes
         if prefix == "ca":
-            ca_cost_infos = globals()[f"ca_cost_infos"]
-            icost = ca_cost_infos.get((jp_text, jp_itype), "")
-            if icost == "":
-                icost = record_name(path, jp_text, jp_itype)
-                if icost == "":
-                    icost = "?"
+            icost = ca_cost_infos.get((jp_text, jp_itype), [""])[0]
+            if (jp_text, jp_itype) in ca_cost_infos and ca_cost_infos[(jp_text, jp_itype)]:
+                del ca_cost_infos[(jp_text, jp_itype)][0]
+            if not icost:
+                icost = record_name(path, jp_text, jp_itype) or "?"
 
         # Get names and texts from global variables
         names = [name.format(
