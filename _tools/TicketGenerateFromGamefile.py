@@ -82,27 +82,29 @@ sv_trade_infos = {}
 ha_trade_infos = {}
 vo_trade_infos = {}
 
-# URLs of swiki/makapo (only for CN)
+# URLs of swiki/makapo
 wiki_urls = {
     'ngs': 'https://pso2ngs.swiki.jp/index.php?',
     'o2': 'https://pso2.swiki.jp/index.php?',
     'makapo': 'https://ngs.pso2-makapo.com/'}
 # URLs and trade_infos mapping of swiki/makapo pages (only for CN)
-suffix_mapping = {
-    'ngs_mo': ('モーション', mo_trade_infos),
-    'makapo_bp': ('build-parts-list', bp_trade_infos),
-    'ngs_bp1': ('クリエイティブスペース/ビルドパーツ/建材', bp_trade_infos),
-    'ngs_bp2': ('クリエイティブスペース/ビルドパーツ/建築物・道具・器具', bp_trade_infos),
-    'ngs_bp3': ('クリエイティブスペース/ビルドパーツ/自然物', bp_trade_infos),
-    'ngs_bp4': ('クリエイティブスペース/ビルドパーツ/家具', bp_trade_infos),
-    'ngs_bp5': ('クリエイティブスペース/ビルドパーツ/ギミックパーツ', bp_trade_infos),
-    'ngs_bp6': ('クリエイティブスペース/ビルドパーツ/立体図形', bp_trade_infos),
-    'ngs_bp7': ('クリエイティブスペース/ビルドパーツ/コラボ', bp_trade_infos),
-    'ngs_ph': ('ポータブルホログラム', ph_trade_infos),
-    'ngs_bg': ('アークスカード', bg_trade_infos),
-    'ngs_ca': ('ラインストライク/カード', ca_cost_infos),
-    'ngs_vo': ('エステ/ボイス', vo_trade_infos),
-    'o2_vo': ('エステ/ボイス', vo_trade_infos)}
+trade_mapping = {
+    'ngs_mo': ('モーション', (mo_trade_infos, )),
+    'makapo_bp': ('build-parts-list', (bp_trade_infos, )),
+    'ngs_bp1': ('クリエイティブスペース/ビルドパーツ/建材', (bp_trade_infos, )),
+    'ngs_bp2': ('クリエイティブスペース/ビルドパーツ/建築物・道具・器具', (bp_trade_infos, )),
+    'ngs_bp3': ('クリエイティブスペース/ビルドパーツ/自然物', (bp_trade_infos, )),
+    'ngs_bp4': ('クリエイティブスペース/ビルドパーツ/家具', (bp_trade_infos, )),
+    'ngs_bp5': ('クリエイティブスペース/ビルドパーツ/ギミックパーツ', (bp_trade_infos, )),
+    'ngs_bp6': ('クリエイティブスペース/ビルドパーツ/立体図形', (bp_trade_infos, )),
+    'ngs_bp7': ('クリエイティブスペース/ビルドパーツ/コラボ', (bp_trade_infos, )),
+    'ngs_ph': ('ポータブルホログラム', (ph_trade_infos, )),
+    'ngs_bg': ('アークスカード', (bg_trade_infos, )),
+    'ngs_ma': ('ラインストライク', (ma_trade_infos, sv_trade_infos, )),
+    'ngs_vo': ('エステ/ボイス', (vo_trade_infos, )),
+    'o2_vo': ('エステ/ボイス', (vo_trade_infos, ))}
+cost_mapping = {
+    'ngs_ca': ('ラインストライク/カード', (ca_cost_infos, ))}
 
 # Path of json folder
 jsonfile_dir = os.path.abspath(os.path.join(root_dir, os.pardir, "json"))
@@ -188,30 +190,37 @@ def parse_data(file_path, file_type):
             if line.startswith('<div class="ie5">') or line.startswith(' data-ad-slot='):
                 # For items with "「」"
                 if "ngs" in file_path and not "エステ" in file_path:
-                    headnames = ['Mo', 'BP', 'PH', 'Bg', 'Ca']
+                    headnames = ['Mo', 'BP', 'PH', 'Bg', 'Ca', 'Ma', 'Sv']
                     for headname in headnames:
-                        # Do regex replacement, to ensure each line starts with item names.
+                        # Do regex replacement, to ensure each line starts with item names
                         n_lines = re.sub(f"{headname}「", f"\n{headname}「", line).splitlines()
+                        makapo_started = False
                         for n_line in n_lines:
                             if n_line.startswith(f"{headname}「"):
                                 if headname != 'Ca':
                                     jp_text = n_line[n_line.find(f"{headname}「") + 3:n_line.find('」')]
-                                    if any(keyword in n_line for keyword in
-                                        ['マイショップ出品不可', '初期', 'alt="GP"', 'alt="SG"', "交換</td>", "季節イベント</td>","トレジャースクラッチ", "SPスクラッチ</td>", "開発準備特別票</td>", "クラス育成特別プログラム", "初期登録</td>"]):
+                                    if makapo_started == True or any(keyword in n_line for keyword in
+                                        ['マイショップ出品不可', '初期', 'alt="GP"', 'alt="SG"', '交換</td>', '季節イベント</td>','トレジャースクラッチ', 'SPスクラッチ</td>', '開発準備特別票</td>', 'クラス育成特別プログラム', '初期登録</td>']):
                                         trade_infos[jp_text] = "Untradable"
-                                else:
+                                elif headname == 'Ca':
                                     match = re.match(r'Ca「(.*?)([0-9])：(.*?)」', n_line)
                                     if match:
                                         jp_text = match.group(3)
                                         jp_itype = match.group(1)
                                         icost = match.group(2)
-                                        cost_infos[(jp_text, jp_itype)] = icost
-
+                                        if (jp_text, jp_itype) not in cost_infos:
+                                            cost_infos[(jp_text, jp_itype)] = []
+                                        cost_infos[(jp_text, jp_itype)].extend([icost] * 2) # For rare cards
+                            # Force to change the makapo tradable info after specific line
+                            if any(keyword in n_line for keyword in
+                                ['<span id="GPNGS">']):
+                                makapo_started = True
+                            
                 # For items without "「」"
                 else: 
                     headnames = ['男性', '女性', 'T1', 'T2']
                     for headname in headnames:
-                        # Do regex replacement, to ensure each line starts with item names.
+                        # Do regex replacement, to ensure each line starts with item names
                         n_lines = re.sub(f"{headname}", f"\n{headname}", line).splitlines()
                         for n_line in n_lines:
                             if n_line.startswith(f"{headname}"):
@@ -241,6 +250,31 @@ def width_process_string(string):
             # If character encoding exceeds the Unicode range
             result_string += char
     return result_string
+
+# [FUNCTION] Parse the web or file to get trade/cost info
+def parse_info(key, mapping, info_type):
+    suffix_url, infos = mapping[key]
+    source = key.split('_')[0]
+    full_url = f"{wiki_urls[f'{source}']}{suffix_url}"
+    
+    if info_type == "trade":
+        n_infos = parse_data(full_url, "html")[1]
+    elif info_type == "cost":
+        n_infos = parse_data(full_url, "html")[2]
+    original_n_infos = n_infos.copy()
+
+    for key in list(original_n_infos.keys()):
+        if info_type == "trade":
+            jp_text = key
+        elif info_type == "cost":
+            jp_text, jp_itype = key
+        alt_jp_text = width_process_string(jp_text)
+        if info_type == "trade":
+            n_infos[alt_jp_text] = original_n_infos[jp_text]
+        elif info_type == "cost":
+            n_infos[alt_jp_text, jp_itype] = original_n_infos[(jp_text, jp_itype)]  
+    for info in infos:
+        info.update(n_infos)
 
 # [FUNCTION] Get JP target lines from the starting line
 def get_start_jp_target_lines(lines, start_id, end_id, id_pattern):
@@ -358,6 +392,7 @@ def record_desc(path, jp_text):
     desc_jp_explain = ""
     desc_tr_explain = ""
     desc_tr_text= ""
+
     # To determine if item is newly added
     desc_jp_text = ""
     # Open the file and read the data
@@ -383,6 +418,7 @@ def record_desc(path, jp_text):
 def record_name(path, jp_text, jp_itype):
     # Initialize
     desc_icost = ""
+
     # Open the file and read the data
     with open(os.path.join(jsonfile_dir, path), "r", encoding='utf-8') as f:
         data = json.load(f)
@@ -509,39 +545,11 @@ elif LANG == 2:
 
 # Parse swiki/makapo webs to get tradable info (only for CN)
 if LANG == 1:
-    for key, (suffix_url, trade_infos) in suffix_mapping.items():
-        # Form full_url to get tradable info
-        source = key.split('_')[0]
-        full_url = f"{wiki_urls[f'{source}']}{suffix_url}"
-        n_trade_infos = parse_data(full_url, "html")[1]
+    for key in trade_mapping:
+        parse_info(key, trade_mapping, "trade")
 
-        # Make tradable info compatible
-        original_n_trade_infos = n_trade_infos.copy()
-        for jp_text, info in original_n_trade_infos.items():
-            # Form the alternative version of jp_text
-            alt_jp_text = width_process_string(jp_text)
-            n_trade_infos[alt_jp_text] = info
-
-        # Form the final tradable info
-        trade_infos.update(n_trade_infos)
-
-# Parse swiki/makapo webs to get card cost.
-ca_key = 'ngs_ca'
-ca_suffix_url, ca_cost_infos = suffix_mapping[ca_key]
-# Form full_url to get name info
-ca_source = ca_key.split('_')[0]
-ca_full_url = f"{wiki_urls[f'{ca_source}']}{ca_suffix_url}"
-ca_n_cost_infos = parse_data(ca_full_url, "html")[2]
-
-# Make tradable info compatible
-original_ca_n_cost_infos = ca_n_cost_infos.copy()
-for (jp_text, jp_itype), info in original_ca_n_cost_infos.items():
-    # Form the alternative version of jp_text
-    alt_jp_text = width_process_string(jp_text)
-    ca_n_cost_infos[alt_jp_text, jp_itype] = info
-
-# Form the final tradable info
-ca_cost_infos.update(ca_n_cost_infos)
+# Parse swiki/makapo webs to get card cost
+parse_info("ngs_ca", cost_mapping, "cost")
 
 # ——————————————————————————————
 # MAPPINGS AND CONDITIONS
@@ -575,6 +583,7 @@ ca_itypes = {
     "Light": ("光", "光", "Light"),
     "Dark": ("闇", "暗", "Dark")}
 ca_itypes_order = {
+    # Update 0
     # Loop 1
     P.closedopen(10, 130): "Fire",
     P.closedopen(130, 240): "Ice",
@@ -593,7 +602,21 @@ ca_itypes_order = {
     P.closedopen(830, 880): "Wind",
     P.closedopen(880, 920): "Lightning",
     P.closedopen(920, 960): "Light",
-    P.closedopen(960, 99999): "Dark"
+    P.closedopen(960, 1010): "Dark",
+    # Loop 3
+    P.closedopen(750, 790): "Fire",
+    P.closedopen(790, 830): "Ice",
+    P.closedopen(830, 880): "Wind",
+    P.closedopen(880, 920): "Lightning",
+    P.closedopen(920, 960): "Light",
+    P.closedopen(960, 1010): "Dark",
+    # Update 1
+    P.closedopen(1010, 1040): "Fire",
+    P.closedopen(1040, 1090): "Ice",
+    P.closedopen(1090, 1110): "Wind",
+    P.closedopen(1110, 1130): "Lightning",
+    P.closedopen(1130, 1150): "Light",
+    P.closedopen(1150, 99999): "Dark",
     }
 
 # Names of items
@@ -721,7 +744,7 @@ bg_jp_target_lines = [
     if not jp_text.startswith(("￥", "text_"))]
 aug_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in element_name_jp_lines
-    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "￥", "-"))]
+    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "ウェポンコネクタ", "￥", "-"))]
 ou_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
     if re.match(r'^No\d{6}#', text_id)
@@ -801,7 +824,7 @@ def extra_condition(prefix, jp_text):
         return (jp_text.startswith((
         "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：",
         "『NGS", "『PSO2", "超・", "立体図形：", "立体数字：", "アクリル台座・", "ラインストライク",
-        "ベーシック", "モダン", "クラシック", "ゴシック", "スイーツ", "チャイナ", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
+        "ベーシック", "モダン", "クラシック", "ゴシック", "スイート", "エキゾチックトラッド", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
         "ミニ")) and not jp_text.startswith(("ミニミニ"))
         or jp_text.endswith(
         "アクスタ"))
@@ -830,9 +853,9 @@ def extra_condition(prefix, jp_text):
     elif prefix == "ca":
         return jp_text == jp_text
     elif prefix == "ma":
-        return jp_text == jp_text
+        return jp_text == ""
     elif prefix == "sv":
-        return jp_text == jp_text
+        return jp_text == ""
     elif prefix == "ha":
         return jp_text == jp_text
     elif prefix == "vo":
@@ -849,6 +872,7 @@ def main_generate_NGS(prefix):
     jp_target_lines = globals()[f"{prefix}_jp_target_lines"]
     tr_target_texts = globals()[f"{prefix}_tr_target_texts"]
     trade_infos = globals()[f"{prefix}_trade_infos"]
+    ca_cost_infos = globals()[f"ca_cost_infos"]
 
     # Initialize the processed items
     processed_items = []
@@ -856,11 +880,16 @@ def main_generate_NGS(prefix):
 
     # Start the loop to generate item
     for i, (text_id, jp_text) in enumerate(jp_target_lines):
+        # Initialize
+        tr_text = ""
+        jp_itype = tr_itype = ""
+        jp_igen = tr_igen = ""
+        irare = ""
+        icost = ""
+
         # Get translated text from texts
         if LANG != 0:
             tr_text = tr_target_texts[i]
-        else:
-            tr_text = ""
         # Get category and the category name for certain prefixes
         if prefix == "mo":
             itype = text_id.split("_")[1]
@@ -882,8 +911,6 @@ def main_generate_NGS(prefix):
                     itype = ele_type
             jp_itype = ca_itypes[itype][0]
             tr_itype = ca_itypes[itype][LANG]
-        else:
-            jp_itype = tr_itype = ""
         # Get gender and the gender name for certain prefixes
         if prefix == "body":
             if text_id.startswith("No1"):
@@ -892,24 +919,17 @@ def main_generate_NGS(prefix):
                 igen = "a2"
             jp_igen = igens[igen][0]
             tr_igen = igens[igen][LANG]
-        else:
-            jp_igen = tr_igen = ""
         # Get rarity for certain prefixes
         if prefix == "ca" and text_id.endswith("1#0"):
             irare = "R"
-        else:
-            irare = ""
-
         # Get cost for certain prefixes
         if prefix == "ca":
-            ca_cost_infos = globals()[f"ca_cost_infos"]
-            icost = ca_cost_infos.get((jp_text, jp_itype), "")
-            if icost == "":
-                icost = record_name(path, jp_text, jp_itype)
-                if icost == "":
-                    icost = "?"
-        else:
-            icost = ""
+            icost = ca_cost_infos.get((jp_text, jp_itype), [""])[0]
+            if (jp_text, jp_itype) in ca_cost_infos and ca_cost_infos[(jp_text, jp_itype)]:
+                del ca_cost_infos[(jp_text, jp_itype)][0]
+            if not icost:
+                icost = record_name(path, jp_text, jp_itype) or "?"
+
         # Get names and texts from global variables
         names = [name.format(
             jp_itype = jp_itype, tr_itype = tr_itype,
@@ -975,24 +995,25 @@ def main_edit_Stack(prefix):
 
     # Start the loop to generate item
     for i, (text_id, jp_text) in enumerate(jp_target_lines):
+        # Initialize
+        tr_text = ""
+        jp_itype = tr_itype = ""
+        cv_tr_name = ""
+
         # Get translated text from texts
         if LANG != 0:
             tr_text = tr_target_texts[i]
-        else:
-            tr_text = ""
-        # Get category and the category name for certain prefixes
-        jp_itype = tr_itype = ""
+
+        # Initialize
+        jp_texts = [jp_text]
+        tr_texts = [tr_text]
+
         # Get special item names for vo
         if prefix == "vo":
             jp_texts, tr_texts, cv_tr_name = form_vo_names(text_id, jp_text, tr_text)
-        else:
-            jp_texts = [jp_text]
-            tr_texts = [tr_text]
-            cv_tr_name = ""
-        
+
         for i, jp_text in enumerate(jp_texts):
             tr_text = tr_texts[i]
-
             # Get names and texts from global variables
             names = [name.format(
                 jp_text = jp_text, tr_text = tr_text)

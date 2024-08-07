@@ -758,6 +758,20 @@ la_extras = {
                 ],
 
             # JP text: 
+                # ※対応機能：ボタン派生／\n
+                # 『PSO2』ブロック非対応<c>",
+            "*actngs": [
+                ("Has button actions/\n"
+                 "Can't use in [PSO2]."),
+                ("대응 기능: 버튼 파생/\n"
+                 "『PSO2』 블록 비지원"),
+                ("\n"
+                 ""),
+                ("※適用功能：按鍵衍生/\n"
+                 "不適用於『PSO2』")
+                ],
+
+            # JP text: 
                 # ※対応機能：ボタン派生／ランダム／\n
                 # 対応服指可動
             "*actrandomfingers": [
@@ -910,6 +924,7 @@ extras_names = {
     "ボタン派生/一部表示適用外\n対応服指可動/『PSO2』ブロック非対応<c>": "*actnopreviewfingersngs",
     "ボタン派生／\n対応服指可動／『PSO2』ブロック非対応<c>": "*actfingersngs",
     "ボタン派生／対応服指可動／\n『PSO2』ブロック非対応<c>": "*actfingersngs",
+    "ボタン派生／\n『PSO2』ブロック非対応<c>": "*actngs",
     "ボタン派生／ランダム／\n対応服指可動<c>": "*actrandomfingers",
     "ボタン派生／\n対応服指可動<c>": "*actfingers",
     "リアクション／\n対応服指可動／『PSO2』ブロック非対応<c>": "*reactfingersngs",
