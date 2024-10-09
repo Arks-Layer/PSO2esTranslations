@@ -211,7 +211,7 @@
 	},
 	{
 		"jp_text": "BP「イースターエッグオブジェ」",
-		"tr_text": "BP「彩蛋擺件」",
+		"tr_text": "BP「彩蛋藝術品」",
 		"jp_explain": "",
 		"tr_explain": "",
 		"assign": 0
@@ -263,6 +263,13 @@
 		"tr_text": "BP「傑克燈籠」",
 		"jp_explain": "",
 		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「モミジー」",
+		"tr_text": "BP「モミジー」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「紅葉模型」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -672,6 +679,13 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "BP「ダンベル」",
+		"tr_text": "BP「ダンベル」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「啞鈴」”<c>\n",
+		"assign": 0
+	},
+	{
 		"jp_text": "BP「SEGAロゴ」",
 		"tr_text": "BP「SEGAロゴ」",
 		"jp_explain": "",
@@ -879,6 +893,27 @@
 		"tr_text": "BP「壓花」",
 		"jp_explain": "",
 		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ウォールペイント」",
+		"tr_text": "BP「ウォールペイント」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「墻壁塗繪」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ラッピーピンクマグカップ」",
+		"tr_text": "BP「ラッピーピンクマグカップ」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「拉比粉色馬克杯」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ラッピーブルーマグカップ」",
+		"tr_text": "BP「ラッピーブルーマグカップ」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「拉比藍色馬克杯」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -1282,9 +1317,9 @@
 	},
 	{
 		"jp_text": "BP「ストーンレプリカ」",
-		"tr_text": "BP「ストーンレプリカ」",
+		"tr_text": "BP「岩石複製品」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「岩石複製品」”<c>\n",
+		"tr_explain": "",
 		"assign": 0
 	},
 	{
@@ -1380,9 +1415,9 @@
 	},
 	{
 		"jp_text": "BP「ラピスレプリカ」",
-		"tr_text": "BP「ラピスレプリカ」",
+		"tr_text": "BP「青金石複製品」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「青金石複製品」”<c>\n",
+		"tr_explain": "",
 		"assign": 0
 	},
 	{
@@ -1425,6 +1460,13 @@
 		"tr_text": "BP「冰花朵」",
 		"jp_explain": "",
 		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「タンス」",
+		"tr_text": "BP「タンス」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「櫥櫃」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -1631,6 +1673,41 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "BP「ウェスタンベッドC」",
+		"tr_text": "BP「西式床C」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ウェスタンソファC」",
+		"tr_text": "BP「西式沙發C」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ウェスタンローテーブルC」",
+		"tr_text": "BP「西式矮桌C」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ウェスタンラグマットC」",
+		"tr_text": "BP「西式小地墊C」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ウェスタンシェルフC」",
+		"tr_text": "BP「西式置物架C」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
 		"jp_text": "BP「ウェスタンシャンデリア」",
 		"tr_text": "BP「西式吊燈」",
 		"jp_explain": "",
@@ -1638,31 +1715,80 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "BP「ダークフラワー」",
-		"tr_text": "BP「ダークフラワー」",
+		"jp_text": "BP「フトンB」",
+		"tr_text": "BP「フトンB」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「黑暗花朵」”<c>\n",
+		"tr_explain": "<green>“BP「被褥B」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ワノローテーブルB」",
+		"tr_text": "BP「和式矮桌B」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ワノマットB」",
+		"tr_text": "BP「和式地墊B」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「タンスB」",
+		"tr_text": "BP「タンスB」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「櫥櫃B」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ダークフラワー」",
+		"tr_text": "BP「黑暗花朵」",
+		"jp_explain": "",
+		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「ダークツリー」",
-		"tr_text": "BP「ダークツリー」",
+		"tr_text": "BP「黑暗樹」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「黑暗樹」”<c>\n",
+		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「ジェイドバス」",
-		"tr_text": "BP「ジェイドバス」",
+		"tr_text": "BP「翡翠浴缸」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「翡翠浴缸」”<c>\n",
+		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「スケイルプラント」",
-		"tr_text": "BP「スケイルプラント」",
+		"tr_text": "BP「鱗片綠植」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「鱗片綠植」”<c>\n",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スペースシップチェア」",
+		"tr_text": "BP「スペースシップチェア」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「宇宙飛船椅」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スペースシップベッド」",
+		"tr_text": "BP「スペースシップベッド」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「宇宙飛船床」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スペースシップバスタブ」",
+		"tr_text": "BP「スペースシップバスタブ」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「宇宙飛船浴缸」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -1863,7 +1989,7 @@
 	},
 	{
 		"jp_text": "BP「レトロオブジェ」",
-		"tr_text": "BP「懷舊擺件」",
+		"tr_text": "BP「懷舊藝術品」",
 		"jp_explain": "",
 		"tr_explain": "",
 		"assign": 0
@@ -1933,7 +2059,7 @@
 	},
 	{
 		"jp_text": "BP「レトロオブジェB」",
-		"tr_text": "BP「懷舊擺件B」",
+		"tr_text": "BP「懷舊藝術品B」",
 		"jp_explain": "",
 		"tr_explain": "",
 		"assign": 0
@@ -2123,6 +2249,76 @@
 	{
 		"jp_text": "BP「ファンシードレッサーB」",
 		"tr_text": "BP「夢幻梳妝檯B」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ファンシーベッドC」",
+		"tr_text": "BP「夢幻床C」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ファンシーローテーブルC」",
+		"tr_text": "BP「夢幻矮桌C」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ファンシーチェアC」",
+		"tr_text": "BP「夢幻椅C」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ファンシーキャビネットC」",
+		"tr_text": "BP「夢幻櫃C」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ファンシーシャンデリアC」",
+		"tr_text": "BP「夢幻吊燈C」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ファンシーミニソファC」",
+		"tr_text": "BP「夢幻迷你沙發C」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ファンシーソファC」",
+		"tr_text": "BP「夢幻沙發C」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ファンシーラビットC」",
+		"tr_text": "BP「夢幻兔子C」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ファンシースタンドC」",
+		"tr_text": "BP「夢幻立燈C」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ファンシードレッサーC」",
+		"tr_text": "BP「夢幻梳妝檯C」",
 		"jp_explain": "",
 		"tr_explain": "",
 		"assign": 0
@@ -3122,6 +3318,34 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "BP「ウッディキッチンB」",
+		"tr_text": "BP「木製廚檯B」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「キャンプチェアB」",
+		"tr_text": "BP「キャンプチェアB」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「露營椅B」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「キャンプテーブルB」",
+		"tr_text": "BP「キャンプテーブルB」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「露營桌B」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ウッディハンモックB」",
+		"tr_text": "BP「木製吊床B」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
 		"jp_text": "BP「ウッディバスタブ」",
 		"tr_text": "BP「木製浴缸」",
 		"jp_explain": "アクセスすると\n入浴できるビルドパーツ。",
@@ -3399,6 +3623,13 @@
 		"tr_text": "BP「景觀模型基座瓷磚」",
 		"jp_explain": "",
 		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ビクトリースタンド」",
+		"tr_text": "BP「ビクトリースタンド」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「領獎台」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -4074,6 +4305,20 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "BP「スモッグメーカー」",
+		"tr_text": "BP「スモッグメーカー」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「生煙器」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「マツタケ」",
+		"tr_text": "BP「マツタケ」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「松茸」”<c>\n",
+		"assign": 0
+	},
+	{
 		"jp_text": "BP「壁かラッピー」",
 		"tr_text": "BP「壁かラッピー」",
 		"jp_explain": "",
@@ -4099,6 +4344,20 @@
 		"tr_text": "BP「階梯&閣樓」",
 		"jp_explain": "",
 		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「虹箱ルームライト」",
+		"tr_text": "BP「虹箱ルームライト」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「虹箱房間燈」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「あやしい実験カプセル」",
+		"tr_text": "BP「あやしい実験カプセル」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「可疑實驗膠囊」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -4137,10 +4396,31 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "BP「ユー・フォー」",
+		"tr_text": "BP「ユー・フォー」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「U.F.O.」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ユー・エムエー」",
+		"tr_text": "BP「ユー・エムエー」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「U.M.A.」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ルーレットウィール」",
+		"tr_text": "BP「ルーレットウィール」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「輪盤賭輪」”<c>\n",
+		"assign": 0
+	},
+	{
 		"jp_text": "BP「クリスタルオブジェ」",
 		"tr_text": "BP「クリスタルオブジェ」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「水晶擺件」”<c>\n",
+		"tr_explain": "<green>“BP「水晶藝術品」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -4341,16 +4621,16 @@
 	},
 	{
 		"jp_text": "BP「オメガコウモリ」",
-		"tr_text": "BP「オメガコウモリ」",
+		"tr_text": "BP「歐米茄蝙蝠」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「歐米茄蝙蝠」”<c>\n",
+		"tr_explain": "",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「オメガモノリス」",
-		"tr_text": "BP「オメガモノリス」",
+		"tr_text": "BP「歐米茄石碑」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「歐米茄石碑」”<c>\n",
+		"tr_explain": "",
 		"assign": 0
 	},
 	{
@@ -9283,7 +9563,7 @@
 	},
 	{
 		"jp_text": "BP「カボチャの馬車風オブジェ」",
-		"tr_text": "BP「南瓜馬車風擺件」",
+		"tr_text": "BP「南瓜馬車風藝術品」",
 		"jp_explain": "",
 		"tr_explain": "",
 		"assign": 0
@@ -10018,7 +10298,7 @@
 	},
 	{
 		"jp_text": "BP「クヴァル：システムキッチン」",
-		"tr_text": "BP「克瓦利斯式：組合式櫥檯」",
+		"tr_text": "BP「克瓦利斯式：組合式廚檯」",
 		"jp_explain": "",
 		"tr_explain": "",
 		"assign": 0
@@ -10738,31 +11018,108 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "BP「MH-753サポートアーム」",
-		"tr_text": "BP「MH-753輔助手臂」",
+		"jp_text": "BP「怪獣８号：ポスター」",
+		"tr_text": "BP「怪獣８号：ポスター」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「怪獸8號：海報」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「怪獣８号アクスタ」",
+		"tr_text": "BP「怪獸8號亞克力牌」",
 		"jp_explain": "",
 		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「日比野カフカアクスタ」",
+		"tr_text": "BP「日比野卡夫卡亞克力牌」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「市川レノアクスタ」",
+		"tr_text": "BP「市川萊諾亞克力牌」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「四ノ宮キコルアクスタ」",
+		"tr_text": "BP「四之宮奇可露亞克力牌」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「亜白ミナアクスタ」",
+		"tr_text": "BP「亞白米娜亞克力牌」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「保科宗四郎アクスタ」",
+		"tr_text": "BP「保科宗四郎亞克力牌」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「防衛隊基本銃」",
+		"tr_text": "BP「防衛隊基本銃」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「防衛隊基本槍」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「亜白ミナ専用武器」",
+		"tr_text": "BP「亜白ミナ専用武器」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「亞白米娜專用武器」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「保科宗四郎専用武器」",
+		"tr_text": "BP「保科宗四郎専用武器」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「保科宗四郎專用武器」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「四ノ宮キコル専用武器」",
+		"tr_text": "BP「四ノ宮キコル専用武器」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「四之宮奇可露專用武器」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「MH-753サポートアーム」",
+		"tr_text": "BP「MH-753サポートアーム」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「MH-753輔助手臂」”<c>\n",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「MH-753サポートアーム/B」",
-		"tr_text": "BP「MH-753輔助手臂/B」",
+		"tr_text": "BP「MH-753サポートアーム/B」",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "<green>“BP「MH-753輔助手臂/B」”<c>\n",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「ラッピーパンケーキ」",
-		"tr_text": "BP「拉比鬆餅」",
+		"tr_text": "BP「ラッピーパンケーキ」",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "<green>“BP「拉比鬆餅」”<c>\n",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「エッグトースト」",
-		"tr_text": "BP「煎蛋吐司」",
+		"tr_text": "BP「エッグトースト」",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "<green>“BP「煎蛋吐司」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -10809,9 +11166,9 @@
 	},
 	{
 		"jp_text": "BP「ビーチチェア」",
-		"tr_text": "BP「沙灘椅」",
+		"tr_text": "BP「ビーチチェア」",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "<green>“BP「沙灘椅」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -10844,9 +11201,9 @@
 	},
 	{
 		"jp_text": "BP「M.A.R.S.フライングラム」",
-		"tr_text": "BP「M.A.R.S.フライングラム」",
+		"tr_text": "BP「M.A.R.S.飛行撞角」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「M.A.R.S.飛行撞角」”<c>\n",
+		"tr_explain": "",
 		"assign": 0
 	},
 	{
@@ -10861,6 +11218,104 @@
 		"tr_text": "BP「シャングリラ・フロンティアB-GL」",
 		"jp_explain": "",
 		"tr_explain": "<green>“BP「香格里拉邊境B-GL」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ティーカッププードルぬいぐるみ」",
+		"tr_text": "BP「ティーカッププードルぬいぐるみ」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「茶杯貴賓犬布娃娃」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「インコの置物」",
+		"tr_text": "BP「インコの置物」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「鸚哥擺件」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「シリンディカルホロケージ」",
+		"tr_text": "BP「シリンディカルホロケージ」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「プレーンドーナツ」",
+		"tr_text": "BP「プレーンドーナツ」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「原味甜甜圈」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「チョコドーナツ」",
+		"tr_text": "BP「チョコドーナツ」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「巧克力甜甜圈」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「いちごドーナツ」",
+		"tr_text": "BP「いちごドーナツ」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「草莓甜甜圈」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「パンプキンキャット」",
+		"tr_text": "BP「パンプキンキャット」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「南瓜貓」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「エヴォルコートソード」",
+		"tr_text": "BP「エヴォルコートソード」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「進化能量層大劍」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「エヴォルコートライフル」",
+		"tr_text": "BP「エヴォルコートライフル」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「進化能量層步槍」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「エヴォルコートランチャー」",
+		"tr_text": "BP「エヴォルコートランチャー」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「進化能量層大炮」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「エヴォルコートロッド」",
+		"tr_text": "BP「エヴォルコートロッド」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「進化能量層長杖」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「エヴォルコートスピア」",
+		"tr_text": "BP「エヴォルコートスピア」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「進化能量層長槍」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「エヴォルコートボウ」",
+		"tr_text": "BP「エヴォルコートボウ」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「進化能量層強弓」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「こなもん」",
+		"tr_text": "BP「こなもん」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「章魚燒」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -10885,10 +11340,164 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "BP「ドゥルガーⅠアクスタ」",
+		"tr_text": "BP「突伽Ⅰ亞克力牌」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ドゥルガーⅠGアクスタ」",
+		"tr_text": "BP「突伽ⅠG亞克力牌」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ドゥルガーⅠG-DQVアクスタ」",
+		"tr_text": "BP「突伽ⅠG-DQV亞克力牌」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「メカニカル・チェーンベース」",
+		"tr_text": "BP「メカニカル・チェーンベース」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「機械鏈基地」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「メカニカル・チェーンベースB」",
+		"tr_text": "BP「メカニカル・チェーンベースB」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「機械鏈基地B」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「メカニカル・チェーンベースC」",
+		"tr_text": "BP「メカニカル・チェーンベースC」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「機械鏈基地C」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「メカニカル・チェーンベースD」",
+		"tr_text": "BP「メカニカル・チェーンベースD」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「機械鏈基地D」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ウォータースペース：立方体」",
+		"tr_text": "BP「水域空間：立方體」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ウォータースペース：円柱」",
+		"tr_text": "BP「水域空間：圓柱」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
 		"jp_text": "BP「兎月【上弦】【下弦】」",
 		"tr_text": "BP「兎月【上弦】【下弦】」",
 		"jp_explain": "",
 		"tr_explain": "<green>“BP「兔月【上弦】【下弦】」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「イドラ：ポスターE」",
+		"tr_text": "BP「イドラ：ポスターE」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「伊多拉：海報E」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「イドラ：ポスターF」",
+		"tr_text": "BP「イドラ：ポスターF」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「伊多拉：海報F」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「イドラ：ポスターG」",
+		"tr_text": "BP「イドラ：ポスターG」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「伊多拉：海報G」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「イドラ：ポスターH」",
+		"tr_text": "BP「イドラ：ポスターH」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「伊多拉：海報H」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ジャスパーＬの剣」",
+		"tr_text": "BP「ジャスパーＬの剣」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「賈斯帕秩序之劍」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「爆斬砲アルシャト」",
+		"tr_text": "BP「爆斬砲アルシャト」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「爆斬炮牛宿增七」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ローゼンシュトゥルム」",
+		"tr_text": "BP「ローゼンシュトゥルム」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「玫瑰風暴」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「［新たなる力］ユリィアクスタ」",
+		"tr_text": "BP「［嶄新的力量］尤里亞克力牌」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「［新たな決意］ステラアクスタ」",
+		"tr_text": "BP「［嶄新的決心］史黛拉亞克力牌」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ジゼルアクスタ」",
+		"tr_text": "BP「吉澤爾亞克力牌」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ジャスパーＬアクスタ」",
+		"tr_text": "BP「賈斯帕秩序亞克力牌」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「リンジーアクスタ」",
+		"tr_text": "BP「琳賽亞克力牌」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「オデットアクスタ」",
+		"tr_text": "BP「奧黛特亞克力牌」",
+		"jp_explain": "",
+		"tr_explain": "",
 		"assign": 0
 	}
 ]
