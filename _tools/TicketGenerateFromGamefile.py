@@ -32,7 +32,7 @@ LANG = 1
 root_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Path of main game file CN respository (Won't affect other modes)
-PSO2CN_path = os.path.abspath(os.path.join(root_dir, os.pardir, os.pardir, os.pardir, r"gitee\PSO2_CHN_Translation"))
+PSO2CN_path = os.path.abspath(os.path.join(root_dir, os.pardir, os.pardir, r"PSO2_CHN_Translation"))
 # URL of main game file JP/EN respository
 PSO2EN_url = "https://raw.githubusercontent.com/Arks-Layer/PSO2ENPatchCSV/"
 
