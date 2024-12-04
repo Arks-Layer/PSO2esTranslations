@@ -6,7 +6,7 @@ import os
 import regex
 import argparse
 
-json_loc = os.path.join("..", "json")
+json_loc = os.path.join("", "json")
 
 parser = argparse.ArgumentParser(
     description = "Translates ticket item descriptions.")
@@ -24,7 +24,7 @@ LANGS = {-1: "JP",
          3: "CN"}
 # Add more later.
 parser.add_argument("-l", type = int, dest = "lang", action = "store",
-                    choices = [0, 1, 2, 3], default = 0, metavar = "N",
+                    choices = [0, 1, 2, 3], default = 3, metavar = "N",
                     help = ("Set a language to translate into. "
                             "Available options are 0 (EN), 1 (KO), 2 (RU) and 3 (CN). "
                             "Defaults to EN."))
@@ -1241,11 +1241,11 @@ cv_names = {
     "内田 雄馬": ["Yuma Uchida", "", "", "內田 雄馬"],
     "和氣 あず未": ["Azumi Waki", "", "", "和氣 杏未"],
     "小市 眞琴": ["Makoto Koichi", "", "", "小市 真琴"],
-    "福西 勝也": ["Masaya Fukunishi", "", "", ""],
-    "加藤 渉": ["Wataru Kato", "", "", ""],
-    "河西 健吾": ["Kengo Kawanishi", "", "", ""],
-    "福原 綾香": ["Ayaka Fukuhara", "", "", ""],
-    "ファイルーズ あい": ["Fairouz Ai", "", "", ""],
+    "福西 勝也": ["Masaya Fukunishi", "", "", "福西 勝也"],
+    "加藤 渉": ["Wataru Kato", "", "", "加藤 涉"],
+    "河西 健吾": ["Kengo Kawanishi", "", "", "河西 健吾"],
+    "福原 綾香": ["Ayaka Fukuhara", "", "", "福原 綾香"],
+    "ファイルーズ あい": ["Fairouz Ai", "", "", "菲魯茲·藍"],
     "？？？": ["???", "???", "???", "？？？"],
     "": ["Unknown", "알 수 없는", "Неизвестно", ""]
     }
