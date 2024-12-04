@@ -610,13 +610,22 @@ ca_itypes_order = {
     P.closedopen(880, 920): "Lightning",
     P.closedopen(920, 960): "Light",
     P.closedopen(960, 1010): "Dark",
-    # Update 1
+    # Update 1 (NGS Chars)
     P.closedopen(1010, 1040): "Fire",
     P.closedopen(1040, 1090): "Ice",
     P.closedopen(1090, 1110): "Wind",
     P.closedopen(1110, 1130): "Lightning",
     P.closedopen(1130, 1150): "Light",
-    P.closedopen(1150, 99999): "Dark",
+    P.closedopen(1150, 1170): "Dark",
+    # Update 2 (es Chars, MELTY BLOOD Collab)
+    P.closedopen(1170, 1190): "Fire",
+    P.closedopen(1190, 1210): "Ice",
+    P.closedopen(1210, 1240): "Lightning",
+    P.closedopen(1240, 1260): "Wind",
+    P.closedopen(1260, 1300): "Light",
+    P.closedopen(1300, 1321): "Dark",
+    P.closedopen(1321, 1331): "Ice",
+    P.closedopen(1331, 9999): "Dark",
     }
 
 # Names of items
@@ -716,7 +725,7 @@ vo_explains = [
 
 # [FUNCTION] Conditions and explains of special items
 def edit_sp_explains(prefix, jp_text, explains):
-    if prefix == "aug" and jp_text.endswith(("フュージア", "ソブリナ", "ファウンデーター", "ドライエ")):
+    if prefix == "aug" and jp_text.endswith(("フュージア", "ソブリナ", "ファウンデーター", "ドライエ", "アセプター")):
         explains = [
             f"{explains[0]}\nアイテムラボの“強化素材交換”で\n特定のカプセルとの交換にも用いられる。",
             f"{explains[1]}\n也可在道具實驗室的“交換強化素材”處\n用於交換特定的膠囊。",
