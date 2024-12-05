@@ -587,7 +587,6 @@ ca_itypes_order = [
     (10, "Fire"), (130, "Ice"), (240, "Wind"), (350, "Lightning"), (470, "Light"), (580, "Dark"),
     (710, "Ice"), (720, "Lightning"), (730, "Light"), (740, "Dark"),
     (750, "Fire"), (790, "Ice"), (830, "Wind"), (880, "Lightning"), (920, "Light"), (960, "Dark"),
-    (750, "Fire"), (790, "Ice"), (830, "Wind"), (880, "Lightning"), (920, "Light"), (960, "Dark"),
     # Update 1 (NGS Chars)
     (1010, "Fire"), (1040, "Ice"), (1090, "Wind"), (1110, "Lightning"), (1130, "Light"), (1150, "Dark"),
     # Update 2 (PSO2es Chars, MELTY BLOOD Collab)
