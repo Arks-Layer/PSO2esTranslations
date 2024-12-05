@@ -855,6 +855,7 @@ def extra_condition(prefix, jp_text, text_id):
 # ——————————————————————————————
 # MAIN PROCESS
 # ——————————————————————————————
+
 # [FUNCTION] Generate "NGS_" json files
 def main_generate_NGS(prefix):
     # Get jp target lines and tr target texts from global variables
@@ -960,7 +961,7 @@ def main_generate_NGS(prefix):
             "jp_explain": "",
             "tr_explain": "",
             "assign": 0}
-
+        
         # Generate item
         item = form_itemdata(item_format, names, texts, jp_text, tr_text, explains, rec_descs, trade_info)
         # Form the processed data
