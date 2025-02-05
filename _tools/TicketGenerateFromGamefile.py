@@ -592,6 +592,8 @@ ca_itypes_order = [
     # Update 2 (PSO2es Chars, MELTY BLOOD Collab)
     (1170, "Fire"), (1190, "Ice"), (1210, "Lightning"), (1240, "Wind"), (1260, "Light"), (1300, "Dark"),
     (1321, "Ice"), (1331, "Dark"),
+    # Update 3 (Index Collab)
+    (1701, "Light"),
     # Future updates
     (99999, None)
 ]
