@@ -91,13 +91,13 @@ wiki_urls = {
 trade_mapping = {
     'ngs_mo': ('モーション', (mo_trade_infos, )),
     'makapo_bp': ('build-parts-list', (bp_trade_infos, )),
-    'ngs_bp1': ('クリエイティブスペース/ビルドパーツ/建材', (bp_trade_infos, )),
-    'ngs_bp2': ('クリエイティブスペース/ビルドパーツ/建築物・道具・器具', (bp_trade_infos, )),
-    'ngs_bp3': ('クリエイティブスペース/ビルドパーツ/自然物', (bp_trade_infos, )),
-    'ngs_bp4': ('クリエイティブスペース/ビルドパーツ/家具', (bp_trade_infos, )),
-    'ngs_bp5': ('クリエイティブスペース/ビルドパーツ/ギミックパーツ', (bp_trade_infos, )),
-    'ngs_bp6': ('クリエイティブスペース/ビルドパーツ/立体図形', (bp_trade_infos, )),
-    'ngs_bp7': ('クリエイティブスペース/ビルドパーツ/コラボ', (bp_trade_infos, )),
+    'ngs_bp1': ('ビルドパーツ/建材', (bp_trade_infos, )),
+    'ngs_bp2': ('ビルドパーツ/建築物・道具・器具', (bp_trade_infos, )),
+    'ngs_bp3': ('ビルドパーツ/自然物', (bp_trade_infos, )),
+    'ngs_bp4': ('ビルドパーツ/家具', (bp_trade_infos, )),
+    'ngs_bp5': ('ビルドパーツ/ギミックパーツ', (bp_trade_infos, )),
+    'ngs_bp6': ('ビルドパーツ/立体図形', (bp_trade_infos, )),
+    'ngs_bp7': ('ビルドパーツ/コラボ', (bp_trade_infos, )),
     'ngs_ph': ('ポータブルホログラム', (ph_trade_infos, )),
     'ngs_bg': ('アークスカード', (bg_trade_infos, )),
     'ngs_ma': ('ラインストライク', (ma_trade_infos, sv_trade_infos, )),
@@ -592,6 +592,8 @@ ca_itypes_order = [
     # Update 2 (PSO2es Chars, MELTY BLOOD Collab)
     (1170, "Fire"), (1190, "Ice"), (1210, "Lightning"), (1240, "Wind"), (1260, "Light"), (1300, "Dark"),
     (1321, "Ice"), (1331, "Dark"),
+    # Update 3 (Index Collab)
+    (1701, "Light"), (1711, "Lightning"), (1721, "Wind"),
     # Future updates
     (99999, None)
 ]
