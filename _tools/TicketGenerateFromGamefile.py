@@ -343,13 +343,18 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
 
     # Initialize
     vo_jp_type = vo_tr_type = [""]
-    vo_jp_name_prefix = vo_tr_name_prefix = ""
+    vo_jp_number = vo_tr_number = ""
     vo_jp_suffix = vo_tr_suffix = [""]
     vo_jp_suffix2 = vo_tr_suffix2 = ""
 
     # Generate all remaining parts of the final text
     if vo_ver == "ngs":
         vo_jp_suffix, vo_tr_suffix = ["ボイス"], ["語音"]
+        if re.match(r'^T\d.*\d{3}$', vo_jp_name):
+            vo_jp_number = vo_jp_name[-3:]
+            vo_tr_number = vo_tr_name[-3:]
+            vo_jp_name = vo_jp_name[2:-3]
+            vo_tr_name = vo_tr_name[2:-3]
     elif vo_ver == "o2":
         vo_jp_type, vo_tr_type = ["", "Ｃ", "共通"], ["", "C", "共通"]
         if vo_jp_name.startswith(("追加ボイス", "［ＥＸ］ボイス")):
@@ -369,18 +374,19 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
         vo_tr_name, vo_tr_suffix2 = match_trans.group(1), match_trans.group(2)
 
     # Combine
-    jp_texts = [f"{vo_gend}{vo_jp_typ}{vo_jp_name_pref}{vo_jp_nam}{vo_jp_suff}{vo_jp_suff2}"
+    # 男性/女性/T1/T2/ + Ｃ/共通 + name + ボイス/Ｖｏ/　Ｖｏ + number + /B/C/D...
+    jp_texts = [f"{vo_gend}{vo_jp_typ}{vo_jp_nam}{vo_jp_suff}{vo_jp_num}{vo_jp_suff2}"
         for vo_gend in [vo_gender]
         for vo_jp_typ in vo_jp_type
-        for vo_jp_name_pref in [vo_jp_name_prefix]
         for vo_jp_nam in [vo_jp_name]
+        for vo_jp_num in [vo_jp_number]
         for vo_jp_suff in vo_jp_suffix
         for vo_jp_suff2 in [vo_jp_suffix2]]
-    tr_texts = [f"{vo_gend}{vo_tr_typ}{' ' if re.match(r'^[a-zA-Z]', vo_tr_name) and (vo_ver == 'ngs' or vo_tr_typ == 'C') else ''}{vo_tr_nam}{vo_tr_suff}{vo_tr_suff2}"
+    tr_texts = [f"{vo_gend}{vo_tr_typ}{' ' if re.match(r'^[a-zA-Z]', vo_tr_name) and (vo_ver == 'ngs' or vo_tr_typ == 'C') else ''}{vo_tr_nam}{vo_tr_suff}{vo_tr_num}{vo_tr_suff2}"
         for vo_gend in [vo_gender]
         for vo_tr_typ in vo_tr_type
-        for vo_tr_name_prefix in [' ' if re.match(r'^[a-zA-Z]', vo_tr_name) and (vo_ver == 'ngs' or vo_tr_typ == 'C') else '']
         for vo_tr_nam in [vo_tr_name]
+        for vo_tr_num in [vo_tr_number]
         for vo_tr_suff in vo_tr_suffix
         for vo_tr_suff2 in [vo_tr_suffix2]]
 
