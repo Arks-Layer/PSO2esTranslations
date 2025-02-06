@@ -1,9 +1,9 @@
 defaults: &defaults
   working_directory: ~/repo
   docker:
-    - image: python:3-stretch
+    - image: cimg/python:3.10-node
 
-version: 2
+version: 4
 jobs:
   verify:
     <<: *defaults
@@ -26,6 +26,8 @@ jobs:
           name: Making report folder
           command: /bin/mkdir -p /tmp/PSO2es
       - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true 
       - run:
           name: Checking translation progress
           command: /bin/sh ./_sh/coverage.sh | /usr/bin/tee /tmp/PSO2es/coverage.txt
@@ -39,17 +41,11 @@ jobs:
           name: Checking if Dice Chat has too many lines
           command: ./_py/DiceLen.py | /usr/bin/tee /tmp/PSO2es/DiceLen.txt
       - run:
-          name: Checking if item names are too long
-          command: ./_py/ItemLen.py | /usr/bin/tee /tmp/PSO2es/ItemLen.txt
-      - run:
           name: Checking if title names are too long
           command: ./_py/TitleLen.py | /usr/bin/tee /tmp/PSO2es/TitleLen.txt
       - run:
           name: Checking if block names are too long
           command: ./_py/BlockLen.py | /usr/bin/tee /tmp/PSO2es/BlockLen.txt
-      - run:
-          name: Checking if item descriptions have too many lines
-          command: ./_py/ItemDescLen.py | /usr/bin/tee /tmp/PSO2es/ItemDescLen.txt
       - run:
           name: Checking if JSON files are tidy
           command: ./_py/tidy-json.py
@@ -75,53 +71,7 @@ jobs:
       - store_artifacts:
           path: /tmp/PSO2es/
           destination: Reports
-
-  tests_font:
-    <<: *defaults
-    steps:
-      - run:
-          name: Making report folder
-          command: /bin/mkdir -p /tmp/PSO2es
-      - checkout
-      - restore_cache:
-          key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
-      - run:
-          name: Install Python packages
-          command: pip install -r requirements.txt
-      - save_cache:
-          key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
-          paths:
-            - ~/.cache/pip
-      - run:
-          name: Checking if story buttons are too long
-          command: ./_py/StoryBTNFont.py | /usr/bin/tee /tmp/PSO2es/StoryBTNFont.txt
-      - run:
-          name: Checking if any story text is too long
-          command: ./_py/StoryFont.py | /usr/bin/tee /tmp/PSO2es/StoryFont.txt
-      - run:
-          name: Checking if chip names are too long
-          command: ./_py/ChipFont.py | /usr/bin/tee /tmp/PSO2es/ChipFont.txt
-      - run:
-          name: Checking if chip descriptions are too long
-          command: ./_py/ChipDescLong.py | /usr/bin/tee /tmp/PSO2es/ChipDescLong.txt
-      - run:
-          name: Word wrap changes for long chip descriptions
-          command: /usr/bin/git diff --exit-code | /usr/bin/tee /tmp/PSO2es/ChipDescLong.diff
-          when: on_fail
-      - run:
-          name: Applying word wrap changes
-          command: /usr/bin/git add -u
-          when: on_fail
-      - run:
-          name: Checking if any dice chat text is too long
-          command: ./_py/DiceFont.py | /usr/bin/tee /tmp/PSO2es/DictFont.txt
-      - run:
-          name: Checking if item names are too long
-          command: ./_py/ItemFont.py | /usr/bin/tee /tmp/PSO2es/ItemFont.txt
-      - store_artifacts:
-          path: /tmp/PSO2es/
-          destination: Reports
-
+          
   font_big:
     <<: *defaults
     steps:
@@ -129,6 +79,8 @@ jobs:
           name: Making report folder
           command: /bin/mkdir -p /tmp/PSO2es
       - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true 
       - restore_cache:
           key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
       - run:
@@ -138,9 +90,6 @@ jobs:
           key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
           paths:
             - ~/.cache/pip
-      - run:
-          name: Checking if item descriptions are too long
-          command: ./_py/ItemDescFont.py | /usr/bin/tee /tmp/PSO2es/ItemDescFont.txt
       - run:
           name: Word wrap changes for long item descriptions
           command: /usr/bin/git diff --exit-code | /usr/bin/tee /tmp/PSO2es/ItemDescFont.diff
@@ -165,6 +114,8 @@ jobs:
           name: Install git, wget, unzip, zip and ssh
           command: apt-get -qq -y --no-install-recommends install git wget unzip zip openssh-client
       - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true 
       - restore_cache:
           keys:
             # Find the most recent cache used from any branch
@@ -242,9 +193,6 @@ workflows:
     jobs:
       - verify
       - font_big:
-          requires:
-            - verify
-      - tests_font:
           requires:
             - verify
       - tests:

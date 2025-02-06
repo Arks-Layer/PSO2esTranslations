@@ -71,6 +71,12 @@ explain4_files += [
 explain4_files += [
     os.path.join(dirpath, f)
     for dirpath, dirnames, files in os.walk(dir)
+    for f in fnmatch.filter(files, 'Item_Stack_GachaTradePass.txt')
+]
+
+explain4_files += [
+    os.path.join(dirpath, f)
+    for dirpath, dirnames, files in os.walk(dir)
     for f in fnmatch.filter(files, 'Item_Stack_Gat*.txt')
 ]
 
@@ -151,7 +157,7 @@ for files in explain3_files:
             ft = u"{}:{}".format(f, t)
             if ft in FS3:
                 print(ft)
-            FS3[ft] = len(entry["tr_explain"].rstrip().split('\n'))
+            FS3[ft] = len(entry["tr_explain"].rstrip().split('\n<yellow>')[0].split('\n'))
 
 FS3k = OrderedDict(sorted(FS3.items(), key=lambda t: t[0]))
 FS3s = OrderedDict(sorted(FS3k.items(), key=lambda t: t[1]))
@@ -164,6 +170,7 @@ for files in explain4_files:
         for entry in djson:
             if (entry["tr_text"] != ""):
                 t = entry["tr_text"]
+                
             else:
                 t = entry["jp_text"]
             ft = u"{}:{}".format(f, t)

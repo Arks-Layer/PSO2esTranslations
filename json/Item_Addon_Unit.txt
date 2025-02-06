@@ -537,5 +537,488 @@
 		"tr_text": "",
 		"jp_explain": "汎用装備可能なユニット。\n全ての属性への耐性を持ち\n最大ＨＰを大幅に上昇させる。",
 		"tr_explain": ""
+	},
+	{
+		"assign": "54010006",
+		"jp_text": "プリムアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010007",
+		"jp_text": "ツヴィアアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010008",
+		"jp_text": "テルセウスアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010009",
+		"jp_text": "クアルデアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010010",
+		"jp_text": "キャトリアアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010011",
+		"jp_text": "ヴィアルトアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010012",
+		"jp_text": "クアルデアーマ・アルガ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010013",
+		"jp_text": "クアルデアーマ・ベルタ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010014",
+		"jp_text": "クアルデアーマ・ツェザ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010015",
+		"jp_text": "ジオントアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010016",
+		"jp_text": "ヴィアルトアーマ・アルガ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010017",
+		"jp_text": "ヴィアルトアーマ・ベルタ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010018",
+		"jp_text": "ヴィアルトアーマ・ツェザ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010019",
+		"jp_text": "シルヴァプリムアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010020",
+		"jp_text": "ゴルドプリムアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010021",
+		"jp_text": "グライアスアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010022",
+		"jp_text": "ヴェフスアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010023",
+		"jp_text": "ヴィダールアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010024",
+		"jp_text": "ヴィオースアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010025",
+		"jp_text": "ヴィダーレンアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010026",
+		"jp_text": "ヴィオーセルアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010027",
+		"jp_text": "ヴェフスアーマ・アルガ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010028",
+		"jp_text": "ヴェフスアーマ・ベルタ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010029",
+		"jp_text": "ヴェフスアーマ・ツェザ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010031",
+		"jp_text": "シュヴァルゼストアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010032",
+		"jp_text": "シュヴァルガルデアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010033",
+		"jp_text": "シュヴァルロッゾアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010035",
+		"jp_text": "セスタトアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010036",
+		"jp_text": "ディフローザアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010037",
+		"jp_text": "ディフロージスアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010041",
+		"jp_text": "ベルグリンアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010045",
+		"jp_text": "セスタトアーマ・アルガ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010046",
+		"jp_text": "セスタトアーマ・ベルタ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010047",
+		"jp_text": "セスタトアーマ・ツェザ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010049",
+		"jp_text": "オクトスアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010051",
+		"jp_text": "オクトスアーマ・ヴィオ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010052",
+		"jp_text": "オクトスアーマ・アルガ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010053",
+		"jp_text": "オクトスアーマ・ベルタ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010054",
+		"jp_text": "オクトスアーマ・ツェザ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010056",
+		"jp_text": "エイジャクスアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010057",
+		"jp_text": "エンファタスアーマ・ヴィダ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010058",
+		"jp_text": "エンファタスアーマ・ヴィオ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010059",
+		"jp_text": "エフィタスアーマ・アルガ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010060",
+		"jp_text": "エフィタスアーマ・ベルタ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010061",
+		"jp_text": "エフィタスアーマ・ツェザ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010062",
+		"jp_text": "レクレールアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010063",
+		"jp_text": "レネッサアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010064",
+		"jp_text": "N-EXPアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010065",
+		"jp_text": "イグゼトアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010066",
+		"jp_text": "ゴルドプリムアーマⅡ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010067",
+		"jp_text": "N-EXPアーマⅡ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010068",
+		"jp_text": "エイネアアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010069",
+		"jp_text": "エイネアアーマ・ヴィダ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010070",
+		"jp_text": "エイネアアーマ・ヴィオ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010071",
+		"jp_text": "エイネアアーマ・アルガ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010072",
+		"jp_text": "エイネアアーマ・ベルタ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010073",
+		"jp_text": "エイネアアーマ・ツェザ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010075",
+		"jp_text": "エフィスタントアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010076",
+		"jp_text": "エクタシスアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010077",
+		"jp_text": "ドースタシスアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010078",
+		"jp_text": "ドースタシスアーマ・ヴィダ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010079",
+		"jp_text": "ドースタシスアーマ・ヴィオ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010080",
+		"jp_text": "トレスタシスアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010081",
+		"jp_text": "トレスタシスアーマ・ヴィダ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010082",
+		"jp_text": "トレスタシスアーマ・ヴィオ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010083",
+		"jp_text": "アコルタシスアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010084",
+		"jp_text": "アコルタシスアーマ・ヴィダ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010085",
+		"jp_text": "アコルタシスアーマ・ヴィオ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "54010086",
+		"jp_text": "ディケイムアーマ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
 	}
 ]
