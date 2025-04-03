@@ -1091,9 +1091,9 @@ def main_edit_Stack(prefix):
     print(f'PROGRESS: processed {processed_count} items in "{path}".')
 
 # Generate "NGS_" json files
-# process_prefixes = ["mo", "bp", "ph", "bg", "aug", "ou_m", "ou_f", "cp_m", "cp_f", "mou", "ear", "horn", "body", "ca", "ma", "sv"]
-# for prefix in process_prefixes:
-#      main_generate_NGS(prefix)
+process_prefixes = ["mo", "bp", "ph", "bg", "aug", "ou_m", "ou_f", "cp_m", "cp_f", "mou", "ear", "horn", "body", "ca", "ma", "sv"]
+for prefix in process_prefixes:
+     main_generate_NGS(prefix)
 
 # Generate "Stack_" json files (only for CN)
 if LANG == 1:
