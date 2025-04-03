@@ -161,11 +161,10 @@ def parse_data(file_path, file_type):
     cost_infos = {}
 
     for i, line in enumerate(lines):
+        line = line.rstrip('\n')
+        
         # Process .text.ini files
         if file_type == "ini":
-            # 移除右侧换行符
-            line = line.rstrip("\n")
-            
             # Get ori_text and tr_text besides the "="
             if "=" in line:
                 equals_count = line.count("=")
@@ -182,7 +181,7 @@ def parse_data(file_path, file_type):
             if line.startswith(";"):
                 if line.startswith(";不可交易") and i > 0:
                     prev_line = lines[i - 1]
-                    prev_line = prev_line.rstrip("\n")
+                    prev_line = prev_line.rstrip('\n')
                     equals_count = prev_line.count("=")
                     if equals_count % 2 == 1:  # Odd number =
                         middle_index = equals_count // 2
@@ -1092,9 +1091,9 @@ def main_edit_Stack(prefix):
     print(f'PROGRESS: processed {processed_count} items in "{path}".')
 
 # Generate "NGS_" json files
-process_prefixes = ["mo", "bp", "ph", "bg", "aug", "ou_m", "ou_f", "cp_m", "cp_f", "mou", "ear", "horn", "body", "ca", "ma", "sv"]
-for prefix in process_prefixes:
-     main_generate_NGS(prefix)
+# process_prefixes = ["mo", "bp", "ph", "bg", "aug", "ou_m", "ou_f", "cp_m", "cp_f", "mou", "ear", "horn", "body", "ca", "ma", "sv"]
+# for prefix in process_prefixes:
+#      main_generate_NGS(prefix)
 
 # Generate "Stack_" json files (only for CN)
 if LANG == 1:
