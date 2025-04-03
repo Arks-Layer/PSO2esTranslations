@@ -161,6 +161,8 @@ def parse_data(file_path, file_type):
     cost_infos = {}
 
     for i, line in enumerate(lines):
+        line = line.rstrip('\n')
+        
         # Process .text.ini files
         if file_type == "ini":
             # Get ori_text and tr_text besides the "="
@@ -169,24 +171,25 @@ def parse_data(file_path, file_type):
                 if equals_count % 2 == 1:  # Odd number =
                     middle_index = equals_count // 2
                     split_pos = line.index("=", line.index("=") * middle_index + middle_index)
-                    ori_text, tr_text = line[:split_pos].strip(), line[split_pos + 1:].strip()
+                    ori_text, tr_text = line[:split_pos], line[split_pos + 1:]
                 else:  # Even number =
                     split_pos = line.rindex("=")
-                    ori_text, tr_text = line[:split_pos].strip(), line[split_pos + 1:].strip()
+                    ori_text, tr_text = line[:split_pos], line[split_pos + 1:]
                 trade_infos[ori_text] = ""
                 parsed_lines.append((ori_text, tr_text))
             # Get the trade_infos from comments (mainly for augments)
             if line.startswith(";"):
                 if line.startswith(";不可交易") and i > 0:
                     prev_line = lines[i - 1]
+                    prev_line = prev_line.rstrip('\n')
                     equals_count = prev_line.count("=")
                     if equals_count % 2 == 1:  # Odd number =
                         middle_index = equals_count // 2
                         split_pos = prev_line.index("=", prev_line.index("=") * middle_index + middle_index)
-                        ori_text = prev_line[:split_pos].strip()
+                        ori_text = prev_line[:split_pos]
                     else:  # Even number =
                         split_pos = prev_line.rindex("=")
-                        ori_text = prev_line[:split_pos].strip()
+                        ori_text = prev_line[:split_pos]
                     trade_infos[ori_text] = "Untradable"
 
         # Process .csv files
