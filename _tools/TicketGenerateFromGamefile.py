@@ -165,13 +165,28 @@ def parse_data(file_path, file_type):
         if file_type == "ini":
             # Get ori_text and tr_text besides the "="
             if "=" in line:
-                ori_text, tr_text = line.strip().split("=", 1)
+                equals_count = line.count("=")
+                if equals_count % 2 == 1:  # Odd number =
+                    middle_index = equals_count // 2
+                    split_pos = line.index("=", line.index("=") * middle_index + middle_index)
+                    ori_text, tr_text = line[:split_pos].strip(), line[split_pos + 1:].strip()
+                else:  # Even number =
+                    split_pos = line.rindex("=")
+                    ori_text, tr_text = line[:split_pos].strip(), line[split_pos + 1:].strip()
                 trade_infos[ori_text] = ""
                 parsed_lines.append((ori_text, tr_text))
             # Get the trade_infos from comments (mainly for augments)
             if line.startswith(";"):
                 if line.startswith(";不可交易") and i > 0:
-                    ori_text = lines[i - 1].strip().split("=", 1)[0]
+                    prev_line = lines[i - 1]
+                    equals_count = prev_line.count("=")
+                    if equals_count % 2 == 1:  # Odd number =
+                        middle_index = equals_count // 2
+                        split_pos = prev_line.index("=", prev_line.index("=") * middle_index + middle_index)
+                        ori_text = prev_line[:split_pos].strip()
+                    else:  # Even number =
+                        split_pos = prev_line.rindex("=")
+                        ori_text = prev_line[:split_pos].strip()
                     trade_infos[ori_text] = "Untradable"
 
         # Process .csv files
@@ -598,8 +613,12 @@ ca_itypes_order = [
     # Update 2 (PSO2es Chars, MELTY BLOOD Collab)
     (1170, "Fire"), (1190, "Ice"), (1210, "Lightning"), (1240, "Wind"), (1260, "Light"), (1300, "Dark"),
     (1321, "Ice"), (1331, "Dark"),
+    # Update 4 (PS2, PS4, PSO, PSZ Chars)
+    (1340, "Fire"), (1370, "Ice"), (1400, "Lightning"), (1430, "Wind"), (1460, "Light"), (1490, "Dark"),
     # Update 3 (Index Collab)
     (1701, "Light"), (1711, "Lightning"), (1721, "Wind"),
+    # Update 4 (TenSura Collab)
+    (1891, "Dark"), (1901, "Fire"),
     # Future updates
     (99999, None)
 ]
