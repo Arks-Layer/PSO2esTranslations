@@ -346,7 +346,7 @@
 		"jp_text": "BP「エミー」",
 		"tr_text": "BP「エミー」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「艾咪」”<c>\n",
+		"tr_explain": "<green>“BP「艾米」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -749,20 +749,6 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "BP「ファンクションテーブル」",
-		"tr_text": "BP「ファンクションテーブル」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「功能桌」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ファンクションチェア」",
-		"tr_text": "BP「ファンクションチェア」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「功能椅」”<c>\n",
-		"assign": 0
-	},
-	{
 		"jp_text": "BP「ダンベル」",
 		"tr_text": "BP「ダンベル」",
 		"jp_explain": "",
@@ -897,9 +883,9 @@
 	},
 	{
 		"jp_text": "BP「ミステリーエッグ」",
-		"tr_text": "BP「神秘蛋」",
+		"tr_text": "BP「ミステリーエッグ」",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "<green>“BP「神秘蛋」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -1967,13 +1953,6 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "BP「カミノカサ」",
-		"tr_text": "BP「カミノカサ」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「紙傘」”<c>\n",
-		"assign": 0
-	},
-	{
 		"jp_text": "BP「ジャックモビール」",
 		"tr_text": "BP「傑克動態掛飾」",
 		"jp_explain": "",
@@ -2268,69 +2247,6 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "BP「レトロベッドC」",
-		"tr_text": "BP「懷舊床C」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「レトロテーブルC」",
-		"tr_text": "BP「懷舊桌C」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「レトロチェアC」",
-		"tr_text": "BP「懷舊椅C」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「レトロキャビネットC」",
-		"tr_text": "BP「懷舊櫃C」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「レトロシャンデリアC」",
-		"tr_text": "BP「懷舊吊燈C」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「レトロソファC」",
-		"tr_text": "BP「懷舊沙發C」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「レトロテレビC」",
-		"tr_text": "BP「懷舊電視C」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「レトロキッチンC」",
-		"tr_text": "BP「懷舊廚檯C」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「レトロオブジェC」",
-		"tr_text": "BP「懷舊藝術品C」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
 		"jp_text": "BP「レトロランプ」",
 		"tr_text": "BP「懷舊照燈」",
 		"jp_explain": "",
@@ -2373,29 +2289,8 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "BP「レトロトースター」",
-		"tr_text": "BP「懷舊烤麵包機」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「レトロコンパス」",
-		"tr_text": "BP「懷舊羅盤」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
 		"jp_text": "BP「レトロセンプーキ」",
 		"tr_text": "BP「懷舊電風扇」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「レトロサンプル」",
-		"tr_text": "BP「懷舊標本」",
 		"jp_explain": "",
 		"tr_explain": "",
 		"assign": 0
@@ -3049,20 +2944,6 @@
 		"tr_text": "BP「賞花立體藝術畫」",
 		"jp_explain": "",
 		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ドラゴンボートソファ」",
-		"tr_text": "BP「ドラゴンボートソファ」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「龍舟沙發」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「チマキクッション」",
-		"tr_text": "BP「チマキクッション」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「粽子靠枕」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -3850,27 +3731,6 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "BP「バーバーズミラー」",
-		"tr_text": "BP「バーバーズミラー」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「理髮店鏡子」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「バーバーズチェア」",
-		"tr_text": "BP「バーバーズチェア」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「理髮店椅」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「バーバーズポール」",
-		"tr_text": "BP「バーバーズポール」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「理髮店立桿」”<c>\n",
-		"assign": 0
-	},
-	{
 		"jp_text": "BP「学校の机」",
 		"tr_text": "BP「學校的書桌」",
 		"jp_explain": "",
@@ -4348,16 +4208,16 @@
 	},
 	{
 		"jp_text": "BP「赤ランドセル」",
-		"tr_text": "BP「紅書包」",
+		"tr_text": "BP「赤ランドセル」",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "<green>“BP「紅書包」”<c>\n",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「スクールバッグB」",
-		"tr_text": "BP「學生包B」",
+		"tr_text": "BP「スクールバッグB」",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "<green>“BP「學生包B」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -4964,16 +4824,16 @@
 	},
 	{
 		"jp_text": "BP「ノダテ」",
-		"tr_text": "BP「露天茶筵」",
+		"tr_text": "BP「ノダテ」",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "<green>“BP「露天茶筵」”<c>\n",
 		"assign": 0
 	},
 	{
 		"jp_text": "BP「柏餅セット」",
-		"tr_text": "BP「柏餅套裝」",
+		"tr_text": "BP「柏餅セット」",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "<green>“BP「柏餅套裝」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -5062,9 +4922,9 @@
 	},
 	{
 		"jp_text": "BP「キンカイ」",
-		"tr_text": "BP「金塊」",
+		"tr_text": "BP「キンカイ」",
 		"jp_explain": "",
-		"tr_explain": "",
+		"tr_explain": "<green>“BP「金塊」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -5324,13 +5184,6 @@
 		"tr_text": "BP「『PSO2』設定資料集封面海報C」",
 		"jp_explain": "",
 		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「マザーズチェアー」",
-		"tr_text": "BP「マザーズチェアー」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「聖母之椅」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -5632,34 +5485,6 @@
 		"tr_text": "BP「イドラ：マットD」",
 		"jp_explain": "",
 		"tr_explain": "<green>“BP「伊多拉：地墊D」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ジャイアントパイ」",
-		"tr_text": "BP「ジャイアントパイ」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「巨型派」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「打ち上げ花火」",
-		"tr_text": "BP「打ち上げ花火」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「升空煙花」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「リバティーベル」",
-		"tr_text": "BP「リバティーベル」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「自由鐘」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ジャイアントターキー」",
-		"tr_text": "BP「ジャイアントターキー」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「巨型烤雞」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -8690,7 +8515,7 @@
 		"jp_text": "BP「ソニック：エミースタチュー」",
 		"tr_text": "BP「ソニック：エミースタチュー」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「索尼克：艾咪雕像」”<c>\n",
+		"tr_explain": "<green>“BP「索尼克：艾米雕像」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -11858,13 +11683,6 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "BP「ソニック：シャドウスタチュー」",
-		"tr_text": "BP「ソニック：シャドウスタチュー」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「索尼克：夏特雕像」”<c>\n",
-		"assign": 0
-	},
-	{
 		"jp_text": "BP「ラインストライク対戦台/2」",
 		"tr_text": "BP「戰線牌鬥對戰台/2」",
 		"jp_explain": "",
@@ -12995,7 +12813,7 @@
 		"jp_text": "BP「転スラ：ポスターB」",
 		"tr_text": "BP「転スラ：ポスターB」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「轉生史萊姆：海報B」”<c>\n",
+		"tr_explain": "<green>“BP「轉生史萊姆：B」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -13024,258 +12842,6 @@
 		"tr_text": "BP「とある魔術の禁書目録：ポスター」",
 		"jp_explain": "",
 		"tr_explain": "<green>“BP「魔法禁術目錄：海報」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ソニック：ソニックアクスタ」",
-		"tr_text": "BP「索尼克：索尼克亞克力牌」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ソニック：テイルスアクスタ」",
-		"tr_text": "BP「索尼克：塔爾斯亞克力牌」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ソニック：Dr.エッグマンアクスタ」",
-		"tr_text": "BP「索尼克：蛋頭博士亞克力牌」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ソニック：ナックルズアクスタ」",
-		"tr_text": "BP「索尼克：納克魯斯亞克力牌」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ソニック：エミーアクスタ」",
-		"tr_text": "BP「索尼克：艾咪亞克力牌」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ソニック：シャドウアクスタ」",
-		"tr_text": "BP「索尼克：夏特亞克力牌」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ソニック×シャドウＧ：ポスター」",
-		"tr_text": "BP「ソニック×シャドウＧ：ポスター」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「索尼克×夏特世代重啓：海報」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ソニック：ロゴ」",
-		"tr_text": "BP「ソニック：ロゴ」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「索尼克：標誌」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ルミティアアクスタ」",
-		"tr_text": "BP「露蜜提雅亞克力牌」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ヴェルルッタアクスタ」",
-		"tr_text": "BP「薇爾蕾特亞克力牌」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ユクモアクスタ」",
-		"tr_text": "BP「結雲亞克力牌」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ソフィエラアクスタ」",
-		"tr_text": "BP「索菲亞亞克力牌」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ルミティアWMアクスタ」",
-		"tr_text": "BP「露蜜提雅WM亞克力牌」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ヴェルルッタWMアクスタ」",
-		"tr_text": "BP「薇爾蕾特WM亞克力牌」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ユクモWMアクスタ」",
-		"tr_text": "BP「結雲WM亞克力牌」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ソフィエラWMアクスタ」",
-		"tr_text": "BP「索菲亞WM亞克力牌」",
-		"jp_explain": "",
-		"tr_explain": "",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ルミティアパッケージ」",
-		"tr_text": "BP「ルミティアパッケージ」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「露蜜提雅包裝」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ヴェルルッタパッケージ」",
-		"tr_text": "BP「ヴェルルッタパッケージ」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「薇爾蕾特包裝」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ユクモパッケージ」",
-		"tr_text": "BP「ユクモパッケージ」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「結雲包裝」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ソフィエラパッケージ」",
-		"tr_text": "BP「ソフィエラパッケージ」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「索菲亞包裝」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ルミティアWMポスター」",
-		"tr_text": "BP「ルミティアWMポスター」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「露蜜提雅WM海報」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ヴェルルッタWMポスター」",
-		"tr_text": "BP「ヴェルルッタWMポスター」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「薇爾蕾特WM海報」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ユクモWMポスター」",
-		"tr_text": "BP「ユクモWMポスター」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「結雲WM海報」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ソフィエラWMポスター」",
-		"tr_text": "BP「ソフィエラWMポスター」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「索菲亞WM海報」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「カレーライス」",
-		"tr_text": "BP「カレーライス」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「咖喱飯」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「シルバートレイ」",
-		"tr_text": "BP「シルバートレイ」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「銀托盤」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「クロネコ」",
-		"tr_text": "BP「クロネコ」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「黑貓」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「ステレオ」",
-		"tr_text": "BP「ステレオ」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「立體聲音響」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「スケートボード」",
-		"tr_text": "BP「スケートボード」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「滑板」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「灯籠」",
-		"tr_text": "BP「灯籠」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「燈幢」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「アウラデルウォッグ」",
-		"tr_text": "BP「アウラデルウォッグ」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「奧拉德沃格之刃」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「アウラザンショウ」",
-		"tr_text": "BP「アウラザンショウ」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「奧拉殘照之劍」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「アウラレガルス」",
-		"tr_text": "BP「アウラレガルス」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「奧拉雷迦路斯步槍」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「アウラディアズス」",
-		"tr_text": "BP「アウラディアズス」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「奧拉狄亞宙斯機槍」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「アウラエストゥール」",
-		"tr_text": "BP「アウラエストゥール」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「奧拉艾斯圖之杖」”<c>\n",
-		"assign": 0
-	},
-	{
-		"jp_text": "BP「アウラヴェルハール」",
-		"tr_text": "BP「アウラヴェルハール」",
-		"jp_explain": "",
-		"tr_explain": "<green>“BP「奧拉維爾哈爾之斧」”<c>\n",
 		"assign": 0
 	},
 	{

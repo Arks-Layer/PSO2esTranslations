@@ -1583,9 +1583,9 @@
 	},
 	{
 		"jp_text": "Mo「待機：浮遊読書/B」",
-		"tr_text": "Mo「待機：浮游讀書/B」",
+		"tr_text": "Mo「待機：浮遊読書/B」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"tr_explain": "<green>“Mo「待機：浮游讀書/B」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	},
 	{
@@ -1646,79 +1646,16 @@
 	},
 	{
 		"jp_text": "Mo「待機：リムルを抱える」",
-		"tr_text": "Mo「待機：抱著利姆魯」",
+		"tr_text": "Mo「待機：リムルを抱える」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"tr_explain": "<green>“Mo「待機：抱著利姆魯」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	},
 	{
 		"jp_text": "Mo「待機：ラッピーオムライス」",
-		"tr_text": "Mo「待機：拉比蛋包飯」",
+		"tr_text": "Mo「待機：ラッピーオムライス」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：ソニック」",
-		"tr_text": "Mo「待機：ソニック」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「待機：索尼克」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：ドゥームウィング」",
-		"tr_text": "Mo「待機：ドゥームウィング」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「待機：末日之翼」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：思案2」",
-		"tr_text": "Mo「待機：思案2」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：シノビ2」",
-		"tr_text": "Mo「待機：シノビ2」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「待機：忍士2」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：シノビ2EX」",
-		"tr_text": "Mo「待機：忍士2EX」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：手を振る2」",
-		"tr_text": "Mo「待機：手を振る2」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「待機：揮手2」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：直線飛行」",
-		"tr_text": "Mo「待機：直線飛行」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：サーフィン」",
-		"tr_text": "Mo「待機：サーフィン」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「待機：衝浪」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「待機：ラッピーうきわに乗る」",
-		"tr_text": "Mo「待機：ラッピーうきわに乗る」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「待機：乘著拉比泳圈」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"tr_explain": "<green>“Mo「待機：拉比蛋包飯」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	},
 	{
@@ -1939,27 +1876,6 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "Mo「ジャンプ：ドゥームウィング」",
-		"tr_text": "Mo「ジャンプ：ドゥームウィング」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「跳躍：末日之翼」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「ジャンプ：シノビ2」",
-		"tr_text": "Mo「ジャンプ：シノビ2」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「跳躍：忍士2」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「ジャンプ：ラッピーうきわに乗る」",
-		"tr_text": "Mo「ジャンプ：ラッピーうきわに乗る」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「跳躍：乘著拉比泳圈」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
 		"jp_text": "Mo「着地：標準」",
 		"tr_text": "Mo「着地：標準」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
@@ -2160,13 +2076,6 @@
 		"tr_text": "Mo「着地：火炎/B」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "<green>“Mo「落地：火炎/B」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「着地：ドゥームウィング」",
-		"tr_text": "Mo「着地：ドゥームウィング」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「落地：末日之翼」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	},
 	{
@@ -2615,34 +2524,6 @@
 		"tr_text": "Mo「移動：リフェルの長杖」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "<green>“Mo「移動：流的長杖」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「移動：ドゥームウィング」",
-		"tr_text": "Mo「移動：ドゥームウィング」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「移動：末日之翼」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「移動：シノビ2」",
-		"tr_text": "Mo「移動：シノビ2」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「移動：忍士2」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「移動：直線飛行」",
-		"tr_text": "Mo「移動：直線飛行」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「移動：ラッピーうきわに乗る」",
-		"tr_text": "Mo「移動：ラッピーうきわに乗る」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「移動：乘著拉比泳圈」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	},
 	{
@@ -3976,62 +3857,6 @@
 		"assign": 0
 	},
 	{
-		"jp_text": "Mo「ダッシュ：ドローンに乗る/B」",
-		"tr_text": "Mo「ダッシュ：ドローンに乗る/B」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「衝刺：乘著無人機/B」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「ダッシュ：ドゥームウィング」",
-		"tr_text": "Mo「ダッシュ：ドゥームウィング」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「衝刺：末日之翼」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「ダッシュ：シノビ2」",
-		"tr_text": "Mo「ダッシュ：シノビ2」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「衝刺：忍士2」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「ダッシュ：シノビ2EX」",
-		"tr_text": "Mo「衝刺：忍士2EX」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「ダッシュ：直線飛行」",
-		"tr_text": "Mo「ダッシュ：直線飛行」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「衝刺：直線飛行」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「ダッシュ：直線飛行EX」",
-		"tr_text": "Mo「衝刺：直線飛行EX」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「ダッシュ：ラッピーうきわに乗る」",
-		"tr_text": "Mo「ダッシュ：ラッピーうきわに乗る」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「衝刺：乘著拉比泳圈」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「ダッシュ：ラッピーうきわに乗るEX」",
-		"tr_text": "Mo「衝刺：乘著拉比泳圈EX」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
 		"jp_text": "Mo「グライド：標準」",
 		"tr_text": "Mo「グライド：標準」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
@@ -5237,9 +5062,9 @@
 	},
 	{
 		"jp_text": "Mo「グライド：彗星/B」",
-		"tr_text": "Mo「滑翔：彗星/B」",
+		"tr_text": "Mo「グライド：彗星/B」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+		"tr_explain": "<green>“Mo「滑翔：彗星/B」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	},
 	{
@@ -5289,55 +5114,6 @@
 		"tr_text": "Mo「グライド：リムル=テンペストの翼」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "<green>“Mo「滑翔：利姆魯·特恩佩斯特的翅膀」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「グライド：ドローンに乗る/B」",
-		"tr_text": "Mo「グライド：ドローンに乗る/B」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「滑翔：乘著無人機/B」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「グライド：ドゥームウィング」",
-		"tr_text": "Mo「グライド：ドゥームウィング」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「滑翔：末日之翼」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「グライド：シノビ2」",
-		"tr_text": "Mo「グライド：シノビ2」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「滑翔：忍士2」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「グライド：直線飛行」",
-		"tr_text": "Mo「グライド：直線飛行」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「滑翔：直線飛行」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「グライド：直線飛行EX」",
-		"tr_text": "Mo「滑翔：直線飛行EX」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「グライド：ラッピーうきわに乗る」",
-		"tr_text": "Mo「グライド：ラッピーうきわに乗る」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「滑翔：乘著拉比泳圈」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「グライド：ラッピーうきわに乗るEX」",
-		"tr_text": "Mo「滑翔：乘著拉比泳圈EX」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	},
 	{
@@ -5457,27 +5233,6 @@
 		"tr_text": "Mo「泳ぐ：トロッコ」",
 		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
 		"tr_explain": "<green>“Mo「游泳：礦車」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「泳ぐ：ドゥームウィング」",
-		"tr_text": "Mo「泳ぐ：ドゥームウィング」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「游泳：末日之翼」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「泳ぐ：直線飛行」",
-		"tr_text": "Mo「泳ぐ：直線飛行」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「游泳：直線飛行」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-		"assign": 0
-	},
-	{
-		"jp_text": "Mo「泳ぐ：ラッピーうきわに乗る」",
-		"tr_text": "Mo「泳ぐ：ラッピーうきわに乗る」",
-		"jp_explain": "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-		"tr_explain": "<green>“Mo「游泳：乘著拉比泳圈」”<c>\n使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
 		"assign": 0
 	}
 ]
