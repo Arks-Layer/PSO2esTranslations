@@ -218,23 +218,23 @@
 	},
 	{
 		"jp_text": "Sv「PSO EP3：ジャケット」",
-		"tr_text": "Sv「PSO EP3：ジャケット」",
+		"tr_text": "Sv「PSO EP3：封面」",
 		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
-		"tr_explain": "<green>“Sv「PSO EP3：封面」”<c>\n使用後所有角色均可選用新的牌背。",
+		"tr_explain": "使用後所有角色均可選用新的牌背。",
 		"assign": 0
 	},
 	{
 		"jp_text": "Sv「ファンタシースター 千年紀の終りに」",
-		"tr_text": "Sv「ファンタシースター 千年紀の終りに」",
+		"tr_text": "Sv「夢幻之星 千年紀的終結」",
 		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
-		"tr_explain": "<green>“Sv「夢幻之星 千年紀的終結」”<c>\n使用後所有角色均可選用新的牌背。",
+		"tr_explain": "使用後所有角色均可選用新的牌背。",
 		"assign": 0
 	},
 	{
 		"jp_text": "Sv「PSO：ドリームキャストビジュアル」",
-		"tr_text": "Sv「PSO：ドリームキャストビジュアル」",
+		"tr_text": "Sv「PSO：Dreamcast視覺圖」",
 		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
-		"tr_explain": "<green>“Sv「PSO：Dreamcast視覺圖」”<c>\n使用後所有角色均可選用新的牌背。",
+		"tr_explain": "使用後所有角色均可選用新的牌背。",
 		"assign": 0
 	},
 	{
@@ -246,16 +246,16 @@
 	},
 	{
 		"jp_text": "Sv「PSO：ゲームキューブビジュアル」",
-		"tr_text": "Sv「PSO：ゲームキューブビジュアル」",
+		"tr_text": "Sv「PSO：GameCube視覺圖」",
 		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
-		"tr_explain": "<green>“Sv「PSO：GameCube視覺圖」”<c>\n使用後所有角色均可選用新的牌背。",
+		"tr_explain": "使用後所有角色均可選用新的牌背。",
 		"assign": 0
 	},
 	{
 		"jp_text": "Sv「PSOBB：メインビジュアル」",
-		"tr_text": "Sv「PSOBB：メインビジュアル」",
+		"tr_text": "Sv「PSOBB：主視覺圖」",
 		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
-		"tr_explain": "<green>“Sv「PSOBB：主視覺圖」”<c>\n使用後所有角色均可選用新的牌背。",
+		"tr_explain": "使用後所有角色均可選用新的牌背。",
 		"assign": 0
 	},
 	{
@@ -274,9 +274,79 @@
 	},
 	{
 		"jp_text": "Sv「にじさんじ×ＮＧＳ」",
-		"tr_text": "Sv「にじさんじ×ＮＧＳ」",
+		"tr_text": "Sv「NIJISANJI×NGS」",
 		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
-		"tr_explain": "<green>“Sv「NIJISANJI×NGS」”<c>\n使用後所有角色均可選用新的牌背。",
+		"tr_explain": "使用後所有角色均可選用新的牌背。",
+		"assign": 0
+	},
+	{
+		"jp_text": "Sv「PSU：ジャケット」",
+		"tr_text": "Sv「PSU：ジャケット」",
+		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
+		"tr_explain": "<green>“Sv「PSU：封面」”<c>\n使用後所有角色均可選用新的牌背。",
+		"assign": 0
+	},
+	{
+		"jp_text": "Sv「PSU イルミナスの野望：ジャケット」",
+		"tr_text": "Sv「PSU イルミナスの野望：ジャケット」",
+		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
+		"tr_explain": "<green>“Sv「PSU 伊爾米那斯的野心：封面」”<c>\n使用後所有角色均可選用新的牌背。",
+		"assign": 0
+	},
+	{
+		"jp_text": "Sv「PSPo1：ジャケット」",
+		"tr_text": "Sv「PSPo1：ジャケット」",
+		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
+		"tr_explain": "<green>“Sv「PSPo1：封面」”<c>\n使用後所有角色均可選用新的牌背。",
+		"assign": 0
+	},
+	{
+		"jp_text": "Sv「PSPo2：ジャケット」",
+		"tr_text": "Sv「PSPo2：ジャケット」",
+		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
+		"tr_explain": "<green>“Sv「PSPo2：封面」”<c>\n使用後所有角色均可選用新的牌背。",
+		"assign": 0
+	},
+	{
+		"jp_text": "Sv「PSPo2i：ジャケット」",
+		"tr_text": "Sv「PSPo2i：ジャケット」",
+		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
+		"tr_explain": "<green>“Sv「PSPo2i：封面」”<c>\n使用後所有角色均可選用新的牌背。",
+		"assign": 0
+	},
+	{
+		"jp_text": "Sv「ルミア＆エミリア」",
+		"tr_text": "Sv「ルミア＆エミリア」",
+		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
+		"tr_explain": "<green>“Sv「露米婭&艾米莉婭」”<c>\n使用後所有角色均可選用新的牌背。",
+		"assign": 0
+	},
+	{
+		"jp_text": "Sv「エミリア＆ナギサ」",
+		"tr_text": "Sv「エミリア＆ナギサ」",
+		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
+		"tr_explain": "<green>“Sv「艾米莉婭&渚」”<c>\n使用後所有角色均可選用新的牌背。",
+		"assign": 0
+	},
+	{
+		"jp_text": "Sv「PSPo2i：サントラビジュアル」",
+		"tr_text": "Sv「PSPo2i：サントラビジュアル」",
+		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
+		"tr_explain": "<green>“Sv「PSPo2i：原聲帶視覺圖」”<c>\n使用後所有角色均可選用新的牌背。",
+		"assign": 0
+	},
+	{
+		"jp_text": "Sv「ソニック×シャドウＧ」",
+		"tr_text": "Sv「ソニック×シャドウＧ」",
+		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
+		"tr_explain": "<green>“Sv「索尼克×夏特世代重啓」”<c>\n使用後所有角色均可選用新的牌背。",
+		"assign": 0
+	},
+	{
+		"jp_text": "Sv「ルミティア」",
+		"tr_text": "Sv「ルミティア」",
+		"jp_explain": "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
+		"tr_explain": "<green>“Sv「露蜜提雅」”<c>\n使用後所有角色均可選用新的牌背。",
 		"assign": 0
 	}
 ]
