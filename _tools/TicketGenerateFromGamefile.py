@@ -618,12 +618,16 @@ ca_itypes_order = [
     (1321, "Ice"), (1331, "Dark"),
     # Update 4 (PS2, PS4, PSO, PSZ Chars)
     (1340, "Fire"), (1370, "Ice"), (1400, "Lightning"), (1430, "Wind"), (1460, "Light"), (1490, "Dark"),
+    # Update 5 (PSU, PSPo Chars)
+    (1520, "Fire"), (1540, "Ice"), (1550, "Dark"), (1560, "Lightning"), (1570, "Wind"), (1590, "Light"), (1600, "Lightning"), (1610, "Light"), (1620, "Ice"), (1630, "Dark"),
     # Update 3 (Index Collab)
     (1701, "Light"), (1711, "Lightning"), (1721, "Wind"),
     # Update 4 (TenSura Collab)
     (1891, "Dark"), (1901, "Fire"),
+    # Update 5 (Sonic Collab)
+    (1911, "Wind"), (1921, "Dark"), (1931, "Lightning"),
     # Future updates
-    (99999, None)
+    (90000, None)
 ]
 ca_itypes_interval = {
     P.closedopen(start, end): ele_type
@@ -726,7 +730,7 @@ vo_explains = [
 
 # [FUNCTION] Conditions and explains of special items
 def edit_sp_explains(prefix, jp_text, explains):
-    if prefix == "aug" and jp_text.endswith(("フュージア", "ソブリナ", "ファウンデーター", "ドライエ", "セプター")):
+    if prefix == "aug" and jp_text.endswith(("フュージア", "ソブリナ", "データー", "ドライエ", "セプター")):
         explains = [
             f"{explains[0]}\nアイテムラボの“強化素材交換”で\n特定のカプセルとの交換にも用いられる。",
             f"{explains[1]}\n也可在道具實驗室的“交換強化素材”處\n用於交換特定的膠囊。",
@@ -814,7 +818,7 @@ ha_jp_target_lines = [
     if text_id.startswith("LobbyAction_")]
 vo_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-    if text_id.startswith("11_voice_c") and (("/")) in jp_text]
+    if text_id.startswith("11_voice_c") and ("/") in jp_text]
 
 # Find target translated texts
 mo_tr_target_texts = get_translation(mo_jp_target_lines, common_tr_lines)[0]
@@ -933,6 +937,9 @@ def main_generate_NGS(prefix):
             tr_itype = cp_itypes[itype][LANG]
         elif prefix == "ca":
             int_id = int(text_id.split("#")[0])
+            skip_id = min(t[0] for t in ca_itypes_order if t[1] is None)
+            if int_id >= skip_id:
+                continue
             for interval, ele_type in ca_itypes_interval.items():
                 if int_id in interval:
                     itype = ele_type
