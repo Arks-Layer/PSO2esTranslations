@@ -1318,7 +1318,7 @@
 	{
 		"assign": "170311",
 		"jp_text": "光跡刻インテンシオン",
-		"tr_text": "光跡刻·意向之錫安",
+		"tr_text": "光跡刻 意向之錫安",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ銃剣。強き想いの刃は\n自らの意思を貫き、光ある未来を築く。",
 		"tr_explain": "連結了星球，由回溯時間之人結下的情誼\n所創造的槍刃。心意強烈的劍刃\n將貫徹己身堅意，築起光輝的未來。"
 	},
@@ -1395,7 +1395,7 @@
 	{
 		"assign": "170335",
 		"jp_text": "光纏刻クラースティア",
-		"tr_text": "光纏刻·明日裂刃",
+		"tr_text": "光纏刻 明日裂刃",
 		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った銃剣。\nその銃撃が、明日を照らし出す。",
 		"tr_explain": "被掃卻深遠之暗，並化作\n宇宙起源的光芒所纏繞的槍刃。\n這槍擊，將照亮明日。"
 	},
@@ -1444,7 +1444,7 @@
 	{
 		"assign": "170358",
 		"jp_text": "闇征刻アジェルティア",
-		"tr_text": "暗征刻·昨日裂刃",
+		"tr_text": "暗征刻 昨日裂刃",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた銃剣。\n循環する世界でも折れない心を持つ。",
 		"tr_explain": "充滿著決心，不惜犧牲自己的一切，\n也誓要守護宇宙的槍刃。\n擁有著在循環的世界中依舊不屈的心靈。"
 	},
@@ -1705,7 +1705,7 @@
 		"jp_text": "ブロナーガスラッシュ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“壯巨槍刃”<c>\n"
+		"tr_explain": "<green>“強壯之巨槍刃”<c>\n"
 	},
 	{
 		"assign": "17010065",
@@ -1768,7 +1768,7 @@
 		"jp_text": "エオニ・ディケリオンスラッシュ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永元·丟卡利翁槍刃”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁槍刃”<c>"
 	},
 	{
 		"assign": "17010076",
@@ -1799,9 +1799,79 @@
 		"tr_explain": "<green>“擴升槍刃”<c>"
 	},
 	{
+		"assign": "17010084",
+		"jp_text": "デュオセリオスラッシュ",
+		"tr_text": "二階擴升槍刃",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "17010085",
+		"jp_text": "トライセリオスラッシュ",
+		"tr_text": "三階擴升槍刃",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "17010086",
+		"jp_text": "アクロセリオスラッシュ",
+		"tr_text": "極階擴升槍刃",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "17010088",
 		"jp_text": "マルチウェポン代用材（スラッシュ）",
 		"tr_text": "複合武器代用材（槍刃）",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "17010093",
+		"jp_text": "エピス・イリニオンスラッシュ",
+		"tr_text": "飾語·厄瑞涅槍刃",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "17010055",
+		"jp_text": "トワル・レルガントスラッシュ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“十二式·磁道炮槍刃”<c>\n"
+	},
+	{
+		"assign": "17010096",
+		"jp_text": "クローディムスラッシュ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳承槍刃”<c>"
+	},
+	{
+		"assign": "17010097",
+		"jp_text": "レジェススラッシュ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳奇槍刃”<c>"
+	},
+	{
+		"assign": "17010068",
+		"jp_text": "クレス・デイブルスラッシュ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "17010042",
+		"jp_text": "ユヴェールスラッシュ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“寶珠槍刃”<c>"
+	},
+	{
+		"assign": "17010101",
+		"jp_text": "エピス・イリニオンスラッシュⅡ",
+		"tr_text": "飾語·厄瑞涅槍刃2",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

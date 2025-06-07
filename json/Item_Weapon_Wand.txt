@@ -1458,7 +1458,7 @@
 	{
 		"assign": "1130399",
 		"jp_text": "光跡棍アスピラシオン",
-		"tr_text": "光跡棍·志向之錫安",
+		"tr_text": "光跡棍 志向之錫安",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ短杖。灯火を宿した希望は\n力となり、光輝ある明日へと導く。",
 		"tr_explain": "連結了星球，由回溯時間之人結下的情誼\n所創造的短杖。宿有燈火的希望\n將化作力量，引人走向光輝的明日。"
 	},
@@ -1528,7 +1528,7 @@
 	{
 		"assign": "1130451",
 		"jp_text": "光纏棍クラースヴァージ",
-		"tr_text": "光纏棍·明日魔杖",
+		"tr_text": "光纏棍 明日魔杖",
 		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った短杖。\nその信念が、未来を引き寄せる。",
 		"tr_explain": "被掃卻深遠之暗，並化作\n宇宙起源的光芒所纏繞的短杖。\n這信念，將拉近未來。"
 	},
@@ -1591,7 +1591,7 @@
 	{
 		"assign": "1130483",
 		"jp_text": "闇征棍アジェルヴァージ",
-		"tr_text": "暗征棍·昨日魔杖",
+		"tr_text": "暗征棍 昨日魔杖",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた短杖。\n流転の運命をやがて光へと導く。",
 		"tr_explain": "充滿著決心，不惜犧牲自己的一切，\n也誓要守護宇宙的短杖。\n終將把流轉的命運引向光明。"
 	},
@@ -1936,7 +1936,7 @@
 		"jp_text": "ブロナーガウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“壯巨短杖”<c>\n"
+		"tr_explain": "<green>“強壯之巨短杖”<c>\n"
 	},
 	{
 		"assign": "113010089",
@@ -1999,7 +1999,7 @@
 		"jp_text": "エオニ・ディケリオンウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永元·丟卡利翁短杖”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁短杖”<c>"
 	},
 	{
 		"assign": "113010116",
@@ -2030,9 +2030,79 @@
 		"tr_explain": "<green>“擴升短杖”<c>"
 	},
 	{
+		"assign": "113010126",
+		"jp_text": "デュオセリオウォンド",
+		"tr_text": "二階擴升短杖",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010127",
+		"jp_text": "トライセリオウォンド",
+		"tr_text": "三階擴升短杖",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010128",
+		"jp_text": "アクロセリオウォンド",
+		"tr_text": "極階擴升短杖",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "113010131",
 		"jp_text": "マルチウェポン代用材（ウォンド）",
 		"tr_text": "複合武器代用材（短杖）",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010137",
+		"jp_text": "エピス・イリニオンウォンド",
+		"tr_text": "飾語·厄瑞涅短杖",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010078",
+		"jp_text": "トワル・プラネターウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“十二式·行星短杖”<c>\n"
+	},
+	{
+		"assign": "113010147",
+		"jp_text": "クローディムウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳承短杖”<c>"
+	},
+	{
+		"assign": "113010148",
+		"jp_text": "レジェスウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳奇短杖”<c>"
+	},
+	{
+		"assign": "113010095",
+		"jp_text": "クレス・フレッドウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010070",
+		"jp_text": "ユヴェールウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“寶珠短杖”<c>"
+	},
+	{
+		"assign": "113010151",
+		"jp_text": "エピス・イリニオンウォンドⅡ",
+		"tr_text": "飾語·厄瑞涅短杖2",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

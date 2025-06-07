@@ -1325,7 +1325,7 @@
 	{
 		"assign": "1140336",
 		"jp_text": "光跡刀フロラシオン",
-		"tr_text": "光跡刀·綻現之錫安",
+		"tr_text": "光跡刀 綻現之錫安",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ抜剣。冴え渡った刃の閃光に\n一片の迷いはなく、希望の道を示す。",
 		"tr_explain": "連結了星球，由回溯時間之人結下的情誼\n所創造的拔劍。冷冽鋒利的劍刃閃光中\n不帶絲毫迷茫，將指引希望的前路。"
 	},
@@ -1353,7 +1353,7 @@
 	{
 		"assign": "1140360",
 		"jp_text": "光纏刀クラースサーベル",
-		"tr_text": "光纏刀·明日軍刀",
+		"tr_text": "光纏刀 明日軍刀",
 		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った抜剣。\nその剣閃が、明日を勝ち取る。",
 		"tr_explain": "被掃卻深遠之暗，並化作\n宇宙起源的光芒所纏繞的拔劍。\n這劍閃，將奪取明日之勝。"
 	},
@@ -1416,7 +1416,7 @@
 	{
 		"assign": "1140387",
 		"jp_text": "闇征刀アジェルサーベル",
-		"tr_text": "暗征刀·昨日軍刀",
+		"tr_text": "暗征刀 昨日軍刀",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた抜剣。\n輪廻を断ち切る願いに満ちている。",
 		"tr_explain": "充滿著決心，不惜犧牲自己的一切，\n也誓要守護宇宙的拔劍。\n滿懷著欲將輪迴一刀兩斷的心願。"
 	},
@@ -1747,7 +1747,7 @@
 		"jp_text": "ブロナーガカタナ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“壯巨拔劍”<c>\n"
+		"tr_explain": "<green>“強壯之巨拔劍”<c>\n"
 	},
 	{
 		"assign": "114010074",
@@ -1755,6 +1755,13 @@
 		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": "<green>“天遺·依存者”<c>\n"
+	},
+	{
+		"assign": "114010073",
+		"jp_text": "トワル・ブラウリーヒカタナ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“十二式·熾藍拔劍”<c>\n"
 	},
 	{
 		"assign": "114010058",
@@ -1810,7 +1817,7 @@
 		"jp_text": "エオニ・ディケリオンカタナ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永元·丟卡利翁拔劍”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁拔劍”<c>"
 	},
 	{
 		"assign": "114010088",
@@ -1841,9 +1848,72 @@
 		"tr_explain": "<green>“擴升拔劍”<c>"
 	},
 	{
+		"assign": "114010098",
+		"jp_text": "デュオセリオカタナ",
+		"tr_text": "二階擴升拔劍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "114010099",
+		"jp_text": "トライセリオカタナ",
+		"tr_text": "三階擴升拔劍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "114010100",
+		"jp_text": "アクロセリオカタナ",
+		"tr_text": "極階擴升拔劍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "114010101",
 		"jp_text": "マルチウェポン代用材（カタナ）",
 		"tr_text": "複合武器代用材（拔劍）",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "114010102",
+		"jp_text": "エピス・イリニオンカタナ",
+		"tr_text": "飾語·厄瑞涅拔劍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "114010105",
+		"jp_text": "クローディムカタナ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳承拔劍”<c>"
+	},
+	{
+		"assign": "114010106",
+		"jp_text": "レジェスカタナ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳奇拔劍”<c>"
+	},
+	{
+		"assign": "114010078",
+		"jp_text": "クレス・デイブルカタナ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "114010059",
+		"jp_text": "ユヴェールカタナ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“寶珠拔劍”<c>"
+	},
+	{
+		"assign": "114010111",
+		"jp_text": "エピス・イリニオンカタナⅡ",
+		"tr_text": "飾語·厄瑞涅拔劍2",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

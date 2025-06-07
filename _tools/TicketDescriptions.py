@@ -58,7 +58,8 @@ layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю 
                       "Ba": ["basewear", "베이스웨어", "верхнюю одежду (Ba)", "底衣"],
                       "Se": ["setwear", "세트 웨어", "комплектную одежду (Se)", "套服"],
                       "Fu": ["full setwear", "풀세트 웨어", "полн.компл.одежду (Fu)", "全身套服"],
-                      "Ou": ["outerwear", "아우터 웨어", "внешнюю одежду (Ou)", "外套"]}
+                      "Ou": ["outerwear", "아우터 웨어", "внешнюю одежду (Ou)", "外套"],
+                      "To": ["totalwear", "", "", "完整裝扮"]}
 
 # Old layered wear format. Must include itype and iname variables.
 # JP text: 
@@ -1241,6 +1242,14 @@ cv_names = {
     "内田 雄馬": ["Yuma Uchida", "", "", "內田 雄馬"],
     "和氣 あず未": ["Azumi Waki", "", "", "和氣 杏未"],
     "小市 眞琴": ["Makoto Koichi", "", "", "小市 真琴"],
+    "福西 勝也": ["Masaya Fukunishi", "", "", "福西 勝也"],
+    "加藤 渉": ["Wataru Kato", "", "", "加藤 涉"],
+    "河西 健吾": ["Kengo Kawanishi", "", "", "河西 健吾"],
+    "福原 綾香": ["Ayaka Fukuhara", "", "", "福原 綾香"],
+    "ファイルーズ あい": ["Fairouz Ai", "", "", "菲魯茲·藍"],
+    "種﨑 敦美": ["Atsumi Tanezaki", "", "", "種崎 敦美"],
+    "市ノ瀬 加那": ["Kana Ichinose", "", "", "市之瀨 加那"],
+    "小林 千晃": ["Chiaki Kobayashi", "", "", "小林 千晃"],
     "？？？": ["???", "???", "???", "？？？"],
     "": ["Unknown", "알 수 없는", "Неизвестно", ""]
     }

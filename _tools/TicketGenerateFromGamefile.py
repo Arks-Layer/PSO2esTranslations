@@ -32,7 +32,7 @@ LANG = 1
 root_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Path of main game file CN respository (Won't affect other modes)
-PSO2CN_path = os.path.abspath(os.path.join(root_dir, os.pardir, os.pardir, os.pardir, r"gitee\PSO2_CHN_Translation"))
+PSO2CN_path = os.path.abspath(os.path.join(root_dir, os.pardir, os.pardir, r"PSO2_CHN_Translation"))
 # URL of main game file JP/EN respository
 PSO2EN_url = "https://raw.githubusercontent.com/Arks-Layer/PSO2ENPatchCSV/"
 
@@ -91,13 +91,13 @@ wiki_urls = {
 trade_mapping = {
     'ngs_mo': ('モーション', (mo_trade_infos, )),
     'makapo_bp': ('build-parts-list', (bp_trade_infos, )),
-    'ngs_bp1': ('クリエイティブスペース/ビルドパーツ/建材', (bp_trade_infos, )),
-    'ngs_bp2': ('クリエイティブスペース/ビルドパーツ/建築物・道具・器具', (bp_trade_infos, )),
-    'ngs_bp3': ('クリエイティブスペース/ビルドパーツ/自然物', (bp_trade_infos, )),
-    'ngs_bp4': ('クリエイティブスペース/ビルドパーツ/家具', (bp_trade_infos, )),
-    'ngs_bp5': ('クリエイティブスペース/ビルドパーツ/ギミックパーツ', (bp_trade_infos, )),
-    'ngs_bp6': ('クリエイティブスペース/ビルドパーツ/立体図形', (bp_trade_infos, )),
-    'ngs_bp7': ('クリエイティブスペース/ビルドパーツ/コラボ', (bp_trade_infos, )),
+    'ngs_bp1': ('ビルドパーツ/建材', (bp_trade_infos, )),
+    'ngs_bp2': ('ビルドパーツ/建築物・道具・器具', (bp_trade_infos, )),
+    'ngs_bp3': ('ビルドパーツ/自然物', (bp_trade_infos, )),
+    'ngs_bp4': ('ビルドパーツ/家具', (bp_trade_infos, )),
+    'ngs_bp5': ('ビルドパーツ/ギミックパーツ', (bp_trade_infos, )),
+    'ngs_bp6': ('ビルドパーツ/立体図形', (bp_trade_infos, )),
+    'ngs_bp7': ('ビルドパーツ/コラボ', (bp_trade_infos, )),
     'ngs_ph': ('ポータブルホログラム', (ph_trade_infos, )),
     'ngs_bg': ('アークスカード', (bg_trade_infos, )),
     'ngs_ma': ('ラインストライク', (ma_trade_infos, sv_trade_infos, )),
@@ -161,17 +161,35 @@ def parse_data(file_path, file_type):
     cost_infos = {}
 
     for i, line in enumerate(lines):
+        line = line.rstrip('\n')
+        
         # Process .text.ini files
         if file_type == "ini":
             # Get ori_text and tr_text besides the "="
             if "=" in line:
-                ori_text, tr_text = line.strip().split("=", 1)
+                equals_count = line.count("=")
+                if equals_count % 2 == 1:  # Odd number =
+                    middle_index = equals_count // 2
+                    split_pos = line.index("=", line.index("=") * middle_index + middle_index)
+                    ori_text, tr_text = line[:split_pos], line[split_pos + 1:]
+                else:  # Even number =
+                    split_pos = line.rindex("=")
+                    ori_text, tr_text = line[:split_pos], line[split_pos + 1:]
                 trade_infos[ori_text] = ""
                 parsed_lines.append((ori_text, tr_text))
             # Get the trade_infos from comments (mainly for augments)
             if line.startswith(";"):
                 if line.startswith(";不可交易") and i > 0:
-                    ori_text = lines[i - 1].strip().split("=", 1)[0]
+                    prev_line = lines[i - 1]
+                    prev_line = prev_line.rstrip('\n')
+                    equals_count = prev_line.count("=")
+                    if equals_count % 2 == 1:  # Odd number =
+                        middle_index = equals_count // 2
+                        split_pos = prev_line.index("=", prev_line.index("=") * middle_index + middle_index)
+                        ori_text = prev_line[:split_pos]
+                    else:  # Even number =
+                        split_pos = prev_line.rindex("=")
+                        ori_text = prev_line[:split_pos]
                     trade_infos[ori_text] = "Untradable"
 
         # Process .csv files
@@ -203,7 +221,7 @@ def parse_data(file_path, file_type):
                                         ['マイショップ出品不可', '初期', 'alt="GP"', 'alt="SG"', '交換</td>', '季節イベント</td>','トレジャースクラッチ', 'SPスクラッチ</td>', '開発準備特別票</td>', 'クラス育成特別プログラム', '初期登録</td>']):
                                         trade_infos[jp_text] = "Untradable"
                                 elif headname == 'Ca':
-                                    match = re.match(r'Ca「(.*?)([0-9])：(.*?)」', n_line)
+                                    match = re.match(r'Ca「(.*?)([0-9])R?：(.*?)」', n_line)
                                     if match:
                                         jp_text = match.group(3)
                                         jp_itype = match.group(1)
@@ -343,13 +361,18 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
 
     # Initialize
     vo_jp_type = vo_tr_type = [""]
-    vo_jp_name_prefix = vo_tr_name_prefix = ""
+    vo_jp_number = vo_tr_number = ""
     vo_jp_suffix = vo_tr_suffix = [""]
     vo_jp_suffix2 = vo_tr_suffix2 = ""
 
     # Generate all remaining parts of the final text
     if vo_ver == "ngs":
         vo_jp_suffix, vo_tr_suffix = ["ボイス"], ["語音"]
+        if re.match(r'^T\d.*\d{3}$', vo_jp_name):
+            vo_jp_number = vo_jp_name[-3:]
+            vo_tr_number = vo_tr_name[-3:]
+            vo_jp_name = vo_jp_name[2:-3]
+            vo_tr_name = vo_tr_name[2:-3]
     elif vo_ver == "o2":
         vo_jp_type, vo_tr_type = ["", "Ｃ", "共通"], ["", "C", "共通"]
         if vo_jp_name.startswith(("追加ボイス", "［ＥＸ］ボイス")):
@@ -369,18 +392,19 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
         vo_tr_name, vo_tr_suffix2 = match_trans.group(1), match_trans.group(2)
 
     # Combine
-    jp_texts = [f"{vo_gend}{vo_jp_typ}{vo_jp_name_pref}{vo_jp_nam}{vo_jp_suff}{vo_jp_suff2}"
+    # 男性/女性/T1/T2/ + Ｃ/共通 + name + ボイス/Ｖｏ/　Ｖｏ + number + /B/C/D...
+    jp_texts = [f"{vo_gend}{vo_jp_typ}{vo_jp_nam}{vo_jp_suff}{vo_jp_num}{vo_jp_suff2}"
         for vo_gend in [vo_gender]
         for vo_jp_typ in vo_jp_type
-        for vo_jp_name_pref in [vo_jp_name_prefix]
         for vo_jp_nam in [vo_jp_name]
+        for vo_jp_num in [vo_jp_number]
         for vo_jp_suff in vo_jp_suffix
         for vo_jp_suff2 in [vo_jp_suffix2]]
-    tr_texts = [f"{vo_gend}{vo_tr_typ}{' ' if re.match(r'^[a-zA-Z]', vo_tr_name) and (vo_ver == 'ngs' or vo_tr_typ == 'C') else ''}{vo_tr_nam}{vo_tr_suff}{vo_tr_suff2}"
+    tr_texts = [f"{vo_gend}{vo_tr_typ}{' ' if re.match(r'^[a-zA-Z]', vo_tr_name) and (vo_ver == 'ngs' or vo_tr_typ == 'C') else ''}{vo_tr_nam}{vo_tr_suff}{vo_tr_num}{vo_tr_suff2}"
         for vo_gend in [vo_gender]
         for vo_tr_typ in vo_tr_type
-        for vo_tr_name_prefix in [' ' if re.match(r'^[a-zA-Z]', vo_tr_name) and (vo_ver == 'ngs' or vo_tr_typ == 'C') else '']
         for vo_tr_nam in [vo_tr_name]
+        for vo_tr_num in [vo_tr_number]
         for vo_tr_suff in vo_tr_suffix
         for vo_tr_suff2 in [vo_tr_suffix2]]
 
@@ -582,43 +606,33 @@ ca_itypes = {
     "Lightning": ("雷", "雷", "Lightning"),
     "Light": ("光", "光", "Light"),
     "Dark": ("闇", "暗", "Dark")}
-ca_itypes_order = {
+ca_itypes_order = [
     # Update 0
-    # Loop 1
-    P.closedopen(10, 130): "Fire",
-    P.closedopen(130, 240): "Ice",
-    P.closedopen(240, 350): "Wind",
-    P.closedopen(350, 470): "Lightning",
-    P.closedopen(470, 580): "Light",
-    P.closedopen(580, 710): "Dark",
-    # Loop 2
-    P.closedopen(710, 720): "Ice",
-    P.closedopen(720, 730): "Lightning",
-    P.closedopen(730, 740): "Light",
-    P.closedopen(740, 750): "Dark",
-    # Loop 3
-    P.closedopen(750, 790): "Fire",
-    P.closedopen(790, 830): "Ice",
-    P.closedopen(830, 880): "Wind",
-    P.closedopen(880, 920): "Lightning",
-    P.closedopen(920, 960): "Light",
-    P.closedopen(960, 1010): "Dark",
-    # Loop 3
-    P.closedopen(750, 790): "Fire",
-    P.closedopen(790, 830): "Ice",
-    P.closedopen(830, 880): "Wind",
-    P.closedopen(880, 920): "Lightning",
-    P.closedopen(920, 960): "Light",
-    P.closedopen(960, 1010): "Dark",
-    # Update 1
-    P.closedopen(1010, 1040): "Fire",
-    P.closedopen(1040, 1090): "Ice",
-    P.closedopen(1090, 1110): "Wind",
-    P.closedopen(1110, 1130): "Lightning",
-    P.closedopen(1130, 1150): "Light",
-    P.closedopen(1150, 99999): "Dark",
-    }
-
+    (10, "Fire"), (130, "Ice"), (240, "Wind"), (350, "Lightning"), (470, "Light"), (580, "Dark"),
+    (710, "Ice"), (720, "Lightning"), (730, "Light"), (740, "Dark"),
+    (750, "Fire"), (790, "Ice"), (830, "Wind"), (880, "Lightning"), (920, "Light"), (960, "Dark"),
+    # Update 1 (NGS Chars)
+    (1010, "Fire"), (1040, "Ice"), (1090, "Wind"), (1110, "Lightning"), (1130, "Light"), (1150, "Dark"),
+    # Update 2 (PSO2es Chars, MELTY BLOOD Collab)
+    (1170, "Fire"), (1190, "Ice"), (1210, "Lightning"), (1240, "Wind"), (1260, "Light"), (1300, "Dark"),
+    (1321, "Ice"), (1331, "Dark"),
+    # Update 4 (PS2, PS4, PSO, PSZ Chars)
+    (1340, "Fire"), (1370, "Ice"), (1400, "Lightning"), (1430, "Wind"), (1460, "Light"), (1490, "Dark"),
+    # Update 5 (PSU, PSPo Chars)
+    (1520, "Fire"), (1540, "Ice"), (1550, "Dark"), (1560, "Lightning"), (1570, "Wind"), (1590, "Light"), (1600, "Lightning"), (1610, "Light"), (1620, "Ice"), (1630, "Dark"),
+    # Update 3 (Index Collab)
+    (1701, "Light"), (1711, "Lightning"), (1721, "Wind"),
+    # Update 4 (TenSura Collab)
+    (1891, "Dark"), (1901, "Fire"),
+    # Update 5 (Sonic Collab)
+    (1911, "Wind"), (1921, "Dark"), (1931, "Lightning"),
+    # Future updates
+    (90000, None)
+]
+ca_itypes_interval = {
+    P.closedopen(start, end): ele_type
+    for (start, ele_type), (end, _) in zip(ca_itypes_order, ca_itypes_order[1:])
+}
 # Names of items
 mo_names = ["{jp_itype}：{jp_text}", "{tr_itype}：{tr_text}", "{tr_itype}: {tr_text}"]
 bp_names = ph_names = bg_names = aug_names = ou_m_names = ou_f_names = cp_m_names = cp_f_names = mou_names = ear_names = horn_names = body_names = ma_names = sv_names = ha_names = vo_names = ["{jp_text}", "{tr_text}", "{tr_text}"]
@@ -716,7 +730,7 @@ vo_explains = [
 
 # [FUNCTION] Conditions and explains of special items
 def edit_sp_explains(prefix, jp_text, explains):
-    if prefix == "aug" and jp_text.endswith(("フュージア", "ソブリナ", "ファウンデーター", "ドライエ")):
+    if prefix == "aug" and jp_text.endswith(("フュージア", "ソブリナ", "データー", "ドライエ", "セプター")):
         explains = [
             f"{explains[0]}\nアイテムラボの“強化素材交換”で\n特定のカプセルとの交換にも用いられる。",
             f"{explains[1]}\n也可在道具實驗室的“交換強化素材”處\n用於交換特定的膠囊。",
@@ -727,6 +741,16 @@ def edit_sp_explains(prefix, jp_text, explains):
             f"{explains[1]}\n<yellow>※自動調整武器架勢的位置<c>",
             f"{explains[2]}\n<yellow>※Uses adjusted weapon positions.<c>"]
     return explains
+
+# [FUNCTION] Special item texts of special items
+def edit_sp_texts(prefix, jp_text, tr_text):
+    if prefix == "ca" and jp_text == "アルクェイド・ブリュンスタッド":
+        sp_texts = ["アルクェイド", "愛爾奎特", "Arcueid"]
+    else: 
+        sp_texts = [jp_text, tr_text, tr_text]
+    jp_text = sp_texts[0]
+    tr_text = sp_texts[LANG]
+    return jp_text, tr_text
 
 # Find target JP lines
 mo_jp_target_lines = [
@@ -794,7 +818,7 @@ ha_jp_target_lines = [
     if text_id.startswith("LobbyAction_")]
 vo_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-    if text_id.startswith("11_voice_c") and (("/")) in jp_text]
+    if text_id.startswith("11_voice_c") and ("/") in jp_text]
 
 # Find target translated texts
 mo_tr_target_texts = get_translation(mo_jp_target_lines, common_tr_lines)[0]
@@ -817,14 +841,19 @@ ha_tr_target_texts = get_translation(ha_jp_target_lines, common_tr_lines)[0]
 vo_tr_target_texts = get_translation(vo_jp_target_lines, charamake_parts_tr_lines)[0]
 
 # [FUNCTION] Conditions of force to change the tradable info (only for CN)
-def extra_condition(prefix, jp_text):
+def extra_condition(prefix, jp_text, text_id):
     if prefix == "mo":
-       return jp_text.endswith(("EX"))
+        return jp_text.endswith(("EX"))
     elif prefix == "bp":
         return (jp_text.startswith((
+        # NGS
         "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：",
         "『NGS", "『PSO2", "超・", "立体図形：", "立体数字：", "アクリル台座・", "ラインストライク",
-        "ベーシック", "モダン", "クラシック", "ゴシック", "スイート", "エキゾチックトラッド", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
+        # PSO2 Theme
+        "ベーシック", "モダン", "ゴシック", "クラシック", "スイート", "エキゾチックトラッド", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
+        # PSO2 Others
+        "スペースシップ", "オッソリア",
+        # Mini
         "ミニ")) and not jp_text.startswith(("ミニミニ"))
         or jp_text.endswith(
         "アクスタ"))
@@ -851,7 +880,7 @@ def extra_condition(prefix, jp_text):
     elif prefix == "body":
         return jp_text == ""
     elif prefix == "ca":
-        return jp_text == jp_text
+        return text_id.endswith("0#0")
     elif prefix == "ma":
         return jp_text == ""
     elif prefix == "sv":
@@ -890,6 +919,8 @@ def main_generate_NGS(prefix):
         # Get translated text from texts
         if LANG != 0:
             tr_text = tr_target_texts[i]
+        # Edit special texts of special item
+        jp_text, tr_text = edit_sp_texts(prefix, jp_text, tr_text)
         # Get category and the category name for certain prefixes
         if prefix == "mo":
             itype = text_id.split("_")[1]
@@ -906,7 +937,10 @@ def main_generate_NGS(prefix):
             tr_itype = cp_itypes[itype][LANG]
         elif prefix == "ca":
             int_id = int(text_id.split("#")[0])
-            for interval, ele_type in ca_itypes_order.items():
+            skip_id = min(t[0] for t in ca_itypes_order if t[1] is None)
+            if int_id >= skip_id:
+                continue
+            for interval, ele_type in ca_itypes_interval.items():
                 if int_id in interval:
                     itype = ele_type
             jp_itype = ca_itypes[itype][0]
@@ -956,9 +990,9 @@ def main_generate_NGS(prefix):
         if repeated == True:
             continue 
         # Get tradable info from global variable
+        if extra_condition(prefix, jp_text, text_id):
+            trade_infos[names[0]] = "Untradable"
         trade_info = trade_infos.get(names[0], "")
-        if extra_condition(prefix, jp_text):
-            trade_info = "Untradable"
         # Record descriptions
         rec_descs = record_desc(path, texts[0])
         # Item format
@@ -1029,9 +1063,9 @@ def main_edit_Stack(prefix):
             explains = edit_sp_explains(prefix, jp_text, explains)
 
             # Get tradable info from global variable
+            if extra_condition(prefix, jp_text, text_id):
+                trade_infos[names[0]] = "Untradable"
             trade_info = trade_infos.get(names[0], "")
-            if extra_condition(prefix, jp_text):
-                trade_info = "Untradable"
             # Record descriptions
             rec_descs = record_desc(path, texts[0])
 

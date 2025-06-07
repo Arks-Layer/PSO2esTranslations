@@ -6388,14 +6388,14 @@
 		"jp_text": "PSO2 イベント「イス=アルス」",
 		"tr_text": "PSO2 イベント「イス=アルス」",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃１７８\n『CUELCIO』",
-		"tr_explain": "<green>“PSO2 事件「伊斯·阿魯斯」”<c>\n點唱機專用的音樂播放光盤。\nPSO2 #178\n『華美都市』"
+		"tr_explain": "<green>“PSO2 事件「伊斯-阿魯斯」”<c>\n點唱機專用的音樂播放光盤。\nPSO2 #178\n『華美都市』"
 	},
 	{
 		"assign": "319020483",
 		"jp_text": "PSO2 イベント「イス=アルス」",
 		"tr_text": "PSO2 イベント「イス=アルス」",
 		"jp_explain": "ジュークボックス用音楽再生ディスク。\nＰＳＯ２ ＃１７８\n『CUELCIO』",
-		"tr_explain": "<green>“PSO2 事件「伊斯·阿魯斯」”<c>\n點唱機專用的音樂播放光盤。\nPSO2 #178\n『華美都市』"
+		"tr_explain": "<green>“PSO2 事件「伊斯-阿魯斯」”<c>\n點唱機專用的音樂播放光盤。\nPSO2 #178\n『華美都市』"
 	},
 	{
 		"assign": "3190484",
@@ -12262,5 +12262,201 @@
 		"tr_text": "Dreisen Plant",
 		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Dreisen Plant』",
 		"tr_explain": "<green>“十三號製造廠”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『十三號製造廠』"
+	},
+	{
+		"assign": "319010130",
+		"jp_text": "Dark Falz - Final Battle",
+		"tr_text": "Dark Falz - Final Battle",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Dark Falz - Final Battle』",
+		"tr_explain": "<green>“黑暗法爾斯 - 最終決戰”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『黑暗法爾斯 - 最終決戰』"
+	},
+	{
+		"assign": "319010131",
+		"jp_text": "Retem City - Where the Sound Vanished",
+		"tr_text": "Retem City - Where the Sound Vanished",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。\n『Retem City\n - Where the Sound Vanished』",
+		"tr_explain": "<green>“瑞泰姆都市 - 音逝之地”<c>\n使用後可以播放新音樂的光盤。\n『瑞泰姆都市 - 音逝之地』"
+	},
+	{
+		"assign": "319010132",
+		"jp_text": "Solitude within the Blizzard - Day",
+		"tr_text": "Solitude within the Blizzard - Day",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Solitude within the Blizzard - Day』",
+		"tr_explain": "<green>“暴雪中的孤寂 - 晝”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『暴雪中的孤寂 - 晝』"
+	},
+	{
+		"assign": "319010133",
+		"jp_text": "Solitude within the Blizzard - Night",
+		"tr_text": "Solitude within the Blizzard - Night",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Solitude within the Blizzard - Night』",
+		"tr_explain": "<green>“暴雪中的孤寂 - 夜”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『暴雪中的孤寂 - 夜』"
+	},
+	{
+		"assign": "319010134",
+		"jp_text": "Silence in the Snowfield - Day",
+		"tr_text": "Silence in the Snowfield - Day",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Silence in the Snowfield - Day』",
+		"tr_explain": "<green>“雪原中的寂靜 - 晝”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『雪原中的寂靜 - 晝』"
+	},
+	{
+		"assign": "319010135",
+		"jp_text": "Silence in the Snowfield - Night",
+		"tr_text": "Silence in the Snowfield - Night",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Silence in the Snowfield - Night』",
+		"tr_explain": "<green>“雪原中的寂靜 - 夜”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『雪原中的寂靜 - 夜』"
+	},
+	{
+		"assign": "319010136",
+		"jp_text": "Belugana Ruins",
+		"tr_text": "Belugana Ruins",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Belugana Ruins』",
+		"tr_explain": "<green>“貝魯加納遺跡”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『貝魯加納遺跡』"
+	},
+	{
+		"assign": "319010137",
+		"jp_text": "Lost Central",
+		"tr_text": "Lost Central",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Lost Central』",
+		"tr_explain": "<green>“失落的中央”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『失落的中央』"
+	},
+	{
+		"assign": "319010138",
+		"jp_text": "Rayjord Gorge",
+		"tr_text": "Rayjord Gorge",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。\n『Rayjord Gorge』",
+		"tr_explain": "<green>“雷約爾德峽江”<c>\n使用後可以播放新音樂的光盤。\n『雷約爾德峽江』"
+	},
+	{
+		"assign": "319010139",
+		"jp_text": "Stia Camp",
+		"tr_text": "Stia Camp",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Stia Camp』",
+		"tr_explain": "<green>“史蒂亞營地”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『史蒂亞營地』"
+	},
+	{
+		"assign": "319010140",
+		"jp_text": "Stia Outskirts - Day",
+		"tr_text": "Stia Outskirts - Day",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Stia Outskirts - Day』",
+		"tr_explain": "<green>“史蒂亞外沿部 - 晝”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『史蒂亞外沿部 - 晝』"
+	},
+	{
+		"assign": "319010141",
+		"jp_text": "Stia Outskirts - Night",
+		"tr_text": "Stia Outskirts - Night",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Stia Outskirts - Night』",
+		"tr_explain": "<green>“史蒂亞外沿部 - 夜”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『史蒂亞外沿部 - 夜』"
+	},
+	{
+		"assign": "319010142",
+		"jp_text": "Infernal Realm - Day",
+		"tr_text": "Infernal Realm - Day",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Infernal Realm - Day』",
+		"tr_explain": "<green>“炎獄之境 - 晝”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『炎獄之境 - 晝』"
+	},
+	{
+		"assign": "319010143",
+		"jp_text": "Infernal Realm - Night",
+		"tr_text": "Infernal Realm - Night",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Infernal Realm - Night』",
+		"tr_explain": "<green>“炎獄之境 - 夜”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『炎獄之境 - 夜』"
+	},
+	{
+		"assign": "319010144",
+		"jp_text": "Vulcanus",
+		"tr_text": "Vulcanus",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。\n『Vulcanus』",
+		"tr_explain": "<green>“鍛火神將”<c>\n使用後可以播放新音樂的光盤。\n『鍛火神將』"
+	},
+	{
+		"assign": "319010145",
+		"jp_text": "Neusen Plant",
+		"tr_text": "Neusen Plant",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Neusen Plant』",
+		"tr_explain": "<green>“十九號製造廠”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『十九號製造廠』"
+	},
+	{
+		"assign": "319010146",
+		"jp_text": "Great Cat's Village R",
+		"tr_text": "Great Cat's Village R",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。\n『Great Cat's Village R』",
+		"tr_explain": "使用後可以播放新音樂的光盤。\n『Great Cat's Village R』"
+	},
+	{
+		"assign": "319010147",
+		"jp_text": "Leciel Exploration - Stand-by",
+		"tr_text": "Leciel Exploration - Stand-by",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。\n『Leciel Exploration - Stand-by』",
+		"tr_explain": "<green>“天堡探索 - 待命”<c>\n使用後可以播放新音樂的光盤。\n『天堡探索 - 待命』"
+	},
+	{
+		"assign": "319010148",
+		"jp_text": "Our Life, Our Scars",
+		"tr_text": "Our Life, Our Scars",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Our Life, Our Scars』",
+		"tr_explain": "<green>“此生與傷痕”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『此生與傷痕』"
+	},
+	{
+		"assign": "319010149",
+		"jp_text": "Vael",
+		"tr_text": "Vael",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。\n『Vael』",
+		"tr_explain": "<green>“巴耶爾”<c>\n使用後可以播放新音樂的光盤。\n『巴耶爾』"
+	},
+	{
+		"assign": "319010150",
+		"jp_text": "Crawford's Theme",
+		"tr_text": "Crawford's Theme",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。\n『Crawford's Theme』",
+		"tr_explain": "<green>“克羅福德的主題曲”<c>\n使用後可以播放新音樂的光盤。\n『克羅福德的主題曲』"
+	},
+	{
+		"assign": "319010151",
+		"jp_text": "Remnants of Ambition - Venogia Vera",
+		"tr_text": "Remnants of Ambition - Venogia Vera",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。<yellow>※曲調変更可<c>\n『Remnants of Ambition\n - Venogia Vera』",
+		"tr_explain": "<green>“野心的殘燼 - 真之傀脈戰甲”<c>\n使用後可以播放新音樂的光盤。\n<yellow>※可變更曲調<c>\n『野心的殘燼 - 真之傀脈戰甲』"
+	},
+	{
+		"assign": "319010152",
+		"jp_text": "あくまのうたげ",
+		"tr_text": "あくまのうたげ",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。\n『あくまのうたげ』",
+		"tr_explain": "<green>“惡魔之宴”<c>\n使用後可以播放新音樂的光盤。\n『惡魔之宴』"
+	},
+	{
+		"assign": "319010153",
+		"jp_text": "常夜鬼譚",
+		"tr_text": "常夜鬼譚",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。\n『常夜鬼譚』",
+		"tr_explain": "使用後可以播放新音樂的光盤。\n『常夜鬼譚』"
+	},
+	{
+		"assign": "319010154",
+		"jp_text": "All Hail Shadow",
+		"tr_text": "All Hail Shadow",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。\n『All Hail Shadow』",
+		"tr_explain": "使用後可以播放新音樂的光盤。\n『All Hail Shadow』"
+	},
+	{
+		"assign": "319010155",
+		"jp_text": "Throw It All Away",
+		"tr_text": "Throw It All Away",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。\n『Throw It All Away』",
+		"tr_explain": "使用後可以播放新音樂的光盤。\n『Throw It All Away』"
+	},
+	{
+		"assign": "319010156",
+		"jp_text": "Space Colony ARK: Act1",
+		"tr_text": "Space Colony ARK: Act1",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。\n『Space Colony ARK: Act1』",
+		"tr_explain": "使用後可以播放新音樂的光盤。\n『Space Colony ARK: Act1』"
+	},
+	{
+		"assign": "319010157",
+		"jp_text": "Kingdom Valley: Act1",
+		"tr_text": "Kingdom Valley: Act1",
+		"jp_explain": "使用すると新しいミュージックが\n再生可能になるディスク。\n『Kingdom Valley: Act1』",
+		"tr_explain": "使用後可以播放新音樂的光盤。\n『Kingdom Valley: Act1』"
 	}
 ]

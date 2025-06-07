@@ -1353,7 +1353,7 @@
 	{
 		"assign": "120294",
 		"jp_text": "光跡鞭アルシオン",
-		"tr_text": "光跡鞭·典獻之錫安",
+		"tr_text": "光跡鞭 典獻之錫安",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ自在槍。揺るぎない決意を\n宿した刃は、確固たる希望を約束する。",
 		"tr_explain": "連結了星球，由回溯時間之人結下的情誼\n所創造的自在槍。宿有堅定決意之刃，\n將承諾下堅不可摧的希望。"
 	},
@@ -1437,7 +1437,7 @@
 	{
 		"assign": "120316",
 		"jp_text": "光纏鞭クラースアンカー",
-		"tr_text": "光纏鞭·明日錨槍",
+		"tr_text": "光纏鞭 明日錨槍",
 		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った自在槍。\nその痛撃が、未来をたぐり寄せる。",
 		"tr_explain": "被掃卻深遠之暗，並化作\n宇宙起源的光芒所纏繞的自在槍。\n這痛擊，將拉近未來。"
 	},
@@ -1458,7 +1458,7 @@
 	{
 		"assign": "120332",
 		"jp_text": "闇征鞭アジェルアンカー",
-		"tr_text": "暗征鞭·昨日錨槍",
+		"tr_text": "暗征鞭 昨日錨槍",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた自在槍。\n輪廻の運命に魅入られている。",
 		"tr_explain": "充滿著決心，不惜犧牲自己的一切，\n也誓要守護宇宙的自在槍。\n被輪迴的命運所纏身。"
 	},
@@ -1782,7 +1782,7 @@
 		"jp_text": "ブロナーガワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“壯巨自在槍”<c>\n"
+		"tr_explain": "<green>“強壯之巨自在槍”<c>\n"
 	},
 	{
 		"assign": "12010065",
@@ -1845,7 +1845,7 @@
 		"jp_text": "エオニ・ディケリオンワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永元·丟卡利翁自在槍”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁自在槍”<c>"
 	},
 	{
 		"assign": "12010077",
@@ -1876,9 +1876,79 @@
 		"tr_explain": "<green>“擴升自在槍”<c>"
 	},
 	{
+		"assign": "12010086",
+		"jp_text": "デュオセリオワイヤー",
+		"tr_text": "二階擴升自在槍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010087",
+		"jp_text": "トライセリオワイヤー",
+		"tr_text": "三階擴升自在槍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010088",
+		"jp_text": "アクロセリオワイヤー",
+		"tr_text": "極階擴升自在槍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "12010089",
 		"jp_text": "マルチウェポン代用材（ワイヤー）",
 		"tr_text": "複合武器代用材（自在槍）",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010093",
+		"jp_text": "エピス・イリニオンワイヤー",
+		"tr_text": "飾語·厄瑞涅自在槍",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010056",
+		"jp_text": "トワル・トレファルワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“十二式·三葉刃自在槍”<c>\n"
+	},
+	{
+		"assign": "12010094",
+		"jp_text": "クローディムワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳承自在槍”<c>"
+	},
+	{
+		"assign": "12010095",
+		"jp_text": "レジェスワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳奇自在槍”<c>"
+	},
+	{
+		"assign": "12010068",
+		"jp_text": "クレス・フレッドワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010050",
+		"jp_text": "ユヴェールワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“寶珠自在槍”<c>"
+	},
+	{
+		"assign": "12010097",
+		"jp_text": "エピス・イリニオンワイヤーⅡ",
+		"tr_text": "飾語·厄瑞涅自在槍2",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

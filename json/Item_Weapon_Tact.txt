@@ -240,7 +240,7 @@
 	{
 		"assign": "118081",
 		"jp_text": "光跡奏カンシオン",
-		"tr_text": "光跡奏·歌弦之錫安",
+		"tr_text": "光跡奏 歌弦之錫安",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ奏具。妙なる旋律は\n光をもたらし、未来への楽章を奏でる。",
 		"tr_explain": "連結了星球，由回溯時間之人結下的情誼\n所創造的奏具。美妙的旋律\n將帶來光明，奏響通往未來的樂章。"
 	},
@@ -268,7 +268,7 @@
 	{
 		"assign": "118091",
 		"jp_text": "光纏奏クラースリード",
-		"tr_text": "光纏奏·明日引棒",
+		"tr_text": "光纏奏 明日引棒",
 		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った奏具。\nその指揮が、明日を紡ぎだす。",
 		"tr_explain": "被掃卻深遠之暗，並化作\n宇宙起源的光芒所纏繞的奏具。\n這指揮，將織就明日。"
 	},
@@ -303,7 +303,7 @@
 	{
 		"assign": "1180103",
 		"jp_text": "闇征奏アジェルリード",
-		"tr_text": "暗征奏·昨日引棒",
+		"tr_text": "暗征奏 昨日引棒",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた奏具。\n無限に廻る運命を終点へと導く。",
 		"tr_explain": "充滿著決心，不惜犧牲自己的一切，\n也誓要守護宇宙的奏具。\n將把無盡輪迴的命運引向終點。"
 	},
@@ -585,7 +585,7 @@
 		"jp_text": "ブロナーガタクト",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“壯巨奏具”<c>\n"
+		"tr_explain": "<green>“強壯之巨奏具”<c>\n"
 	},
 	{
 		"assign": "118010062",
@@ -593,6 +593,13 @@
 		"tr_text": "",
 		"jp_explain": "",
 		"tr_explain": "<green>“天遺·夜夢之舟”<c>\n"
+	},
+	{
+		"assign": "118010061",
+		"jp_text": "トワル・ブラウリーヒタクト",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“十二式·熾藍奏具”<c>\n"
 	},
 	{
 		"assign": "118010038",
@@ -648,7 +655,7 @@
 		"jp_text": "エオニ・ディケリオンタクト",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永元·丟卡利翁奏具”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁奏具”<c>"
 	},
 	{
 		"assign": "118010073",
@@ -679,9 +686,72 @@
 		"tr_explain": "<green>“擴升奏具”<c>"
 	},
 	{
+		"assign": "118010078",
+		"jp_text": "デュオセリオタクト",
+		"tr_text": "二階擴升奏具",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "118010079",
+		"jp_text": "トライセリオタクト",
+		"tr_text": "三階擴升奏具",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "118010080",
+		"jp_text": "アクロセリオタクト",
+		"tr_text": "極階擴升奏具",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "118010082",
 		"jp_text": "マルチウェポン代用材（タクト）",
 		"tr_text": "複合武器代用材（奏具）",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "118010083",
+		"jp_text": "エピス・イリニオンタクト",
+		"tr_text": "飾語·厄瑞涅奏具",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "118010086",
+		"jp_text": "クローディムタクト",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳承奏具”<c>"
+	},
+	{
+		"assign": "118010087",
+		"jp_text": "レジェスタクト",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳奇奏具”<c>"
+	},
+	{
+		"assign": "118010065",
+		"jp_text": "クレス・フレッドタクト",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "118010048",
+		"jp_text": "ユヴェールタクト",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“寶珠奏具”<c>"
+	},
+	{
+		"assign": "118010089",
+		"jp_text": "エピス・イリニオンタクトⅡ",
+		"tr_text": "飾語·厄瑞涅奏具2",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

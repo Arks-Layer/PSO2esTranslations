@@ -1423,7 +1423,7 @@
 	{
 		"assign": "190348",
 		"jp_text": "光跡砲バシラシオン",
-		"tr_text": "光跡炮·猶懸之錫安",
+		"tr_text": "光跡炮 猶懸之錫安",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ大砲。研ぎ澄まされた意思は\n弾丸に結晶し、信じる未来へと導く。",
 		"tr_explain": "連結了星球，由回溯時間之人結下的情誼\n所創造的大炮。澄澈至潔的意志\n將結晶為炮彈，引人走向堅信的未來。"
 	},
@@ -1507,7 +1507,7 @@
 	{
 		"assign": "190375",
 		"jp_text": "光纏砲クラースカノン",
-		"tr_text": "光纏炮·明日加農炮",
+		"tr_text": "光纏炮 明日加農炮",
 		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った大砲。\nその砲撃が、未来への壁を崩す。",
 		"tr_explain": "被掃卻深遠之暗，並化作\n宇宙起源的光芒所纏繞的大炮。\n這炮擊，將轟開通往未來的障壁。"
 	},
@@ -1535,7 +1535,7 @@
 	{
 		"assign": "190393",
 		"jp_text": "闇征砲アジェルカノン",
-		"tr_text": "暗征炮·昨日加農炮",
+		"tr_text": "暗征炮 昨日加農炮",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた大砲。\n幾重の闇の中でも光を見失わない。",
 		"tr_explain": "充滿著決心，不惜犧牲自己的一切，\n也誓要守護宇宙的大炮。\n縱是在幾重黑暗之中，也不會失去光明。"
 	},
@@ -1873,7 +1873,7 @@
 		"jp_text": "ブロナーガランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“壯巨大炮”<c>\n"
+		"tr_explain": "<green>“強壯之巨大炮”<c>\n"
 	},
 	{
 		"assign": "19010071",
@@ -1936,7 +1936,7 @@
 		"jp_text": "エオニ・ディケリオンランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永元·丟卡利翁大炮”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁大炮”<c>"
 	},
 	{
 		"assign": "19010081",
@@ -1974,9 +1974,79 @@
 		"tr_explain": "<green>“擴升大炮”<c>"
 	},
 	{
+		"assign": "19010095",
+		"jp_text": "デュオセリオランチャー",
+		"tr_text": "二階擴升大炮",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010096",
+		"jp_text": "トライセリオランチャー",
+		"tr_text": "三階擴升大炮",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010097",
+		"jp_text": "アクロセリオランチャー",
+		"tr_text": "極階擴升大炮",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
 		"assign": "19010099",
 		"jp_text": "マルチウェポン代用材（ランチャー）",
 		"tr_text": "複合武器代用材（大炮）",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010101",
+		"jp_text": "エピス・イリニオンランチャー",
+		"tr_text": "飾語·厄瑞涅大炮",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010063",
+		"jp_text": "トワル・プラネターランチャー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“十二式·行星大炮”<c>\n"
+	},
+	{
+		"assign": "19010102",
+		"jp_text": "クローディムランチャー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳承大炮”<c>"
+	},
+	{
+		"assign": "19010103",
+		"jp_text": "レジェスランチャー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳奇大炮”<c>"
+	},
+	{
+		"assign": "19010094",
+		"jp_text": "クレス・フレッドランチャー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010055",
+		"jp_text": "ユヴェールランチャー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“寶珠大炮”<c>"
+	},
+	{
+		"assign": "19010105",
+		"jp_text": "エピス・イリニオンランチャーⅡ",
+		"tr_text": "飾語·厄瑞涅大炮2",
 		"jp_explain": "",
 		"tr_explain": ""
 	}
