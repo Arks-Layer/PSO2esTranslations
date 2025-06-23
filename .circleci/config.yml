@@ -84,8 +84,11 @@ jobs:
       - restore_cache:
           key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
       - run:
+          name: Create virtual environment for python
+          command: python3 -m venv myenv
+      - run:
           name: Install Python packages
-          command: pip install -r requirements.txt
+          command: . myenv/bin/activate && pip install -r requirements.txt
       - save_cache:
           key: pip1-{{ .Branch }}-{{ checksum "requirements.txt" }}
           paths:
