@@ -1,7 +1,7 @@
 defaults: &defaults
   working_directory: ~/repo
   docker:
-    - image: cimg/python:3.10-node
+    - image: ghcr.io/synthsy/arks-layer-buildimages:main
 
 version: 4
 jobs:
