@@ -108,14 +108,8 @@ jobs:
   build:
     working_directory: ~/repo
     docker:
-      - image: mono:latest
+      - image: ghcr.io/synthsy/arks-layer-buildimages:debian
     steps:
-      - run:
-          name: Update APT listing
-          command: apt-get -qq update
-      - run:
-          name: Install git, wget, unzip, zip and ssh
-          command: apt-get -qq -y --no-install-recommends install git wget unzip zip openssh-client
       - checkout
       - setup_remote_docker:
           docker_layer_caching: true 
