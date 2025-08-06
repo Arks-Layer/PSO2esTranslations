@@ -717,7 +717,7 @@ ma_explains = [
     "Unlocks a new playmat for\nall characters on your account."]
 sv_explains = [
     "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
-    "使用後所有角色均可選用新的牌背。",
+    "使用後所有角色均可選用新的牌套。",
     "Unlocks a new card sleeve for\nall characters on your account."]
 ha_explains = [
     "",
