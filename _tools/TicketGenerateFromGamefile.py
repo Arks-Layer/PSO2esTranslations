@@ -763,10 +763,8 @@ def edit_sp_texts(prefix, jp_text, tr_text, text_id):
 
     elif prefix == "ca" and jp_title == "サマーバケーション":
         sp_texts = ["（サマー）", "（盛夏）", " (Summer)"]
-        print(tr_text)
         jp_text += sp_texts[0]
         tr_text += sp_texts[LANG]
-        print(tr_text)
     
     return jp_text, tr_text
 
