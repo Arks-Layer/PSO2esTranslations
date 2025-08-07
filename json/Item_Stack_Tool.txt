@@ -1144,14 +1144,14 @@
 		"assign": "37010089",
 		"jp_text": "SGレガシーコーデバッヂ（ヘアー）",
 		"tr_text": "SG Legacy Fashion Badge (Hair)",
-		"jp_explain": "アイテムトレーダーの\n“SGレガシーコーデ交換”で\nアイテムと交換できる。",
+		"jp_explain": "アイテムトレーダーの\n“レガシーアイテム交換”で\nアイテムと交換できる。",
 		"tr_explain": "Can be traded for items at the\nLegacy SG Fashion Exchange."
 	},
 	{
 		"assign": "37010090",
 		"jp_text": "SGレガシーコーデバッヂ（ポーズ）",
 		"tr_text": "SG Legacy Fashion Badge (Pose)",
-		"jp_explain": "アイテムトレーダーの\n“SGレガシーコーデ交換”で\nアイテムと交換できる。",
+		"jp_explain": "アイテムトレーダーの\n“レガシーアイテム交換”で\nアイテムと交換できる。",
 		"tr_explain": "Can be traded for items at the\nLegacy SG Fashion Exchange."
 	},
 	{
@@ -1348,6 +1348,41 @@
 		"jp_text": "プラグルヴァンス",
 		"tr_text": "Progrevance",
 		"jp_explain": "特定の防具の強化に必要な素材。\nアイテムトレーダーの\n“装備アップグレードⅡ”で\n防具の交換に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010123",
+		"jp_text": "Qトリガー/ルイノ・D・ヒューナル戦",
+		"tr_text": "",
+		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\nルイノ・D・ヒューナル戦”の\nクリア時に消費される。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010124",
+		"jp_text": "レガシーアイテムバッヂ",
+		"tr_text": "",
+		"jp_explain": "アイテムトレーダーの\n“レガシーアイテム交換”で\nアイテムと交換できる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010125",
+		"jp_text": "クレスキューブ",
+		"tr_text": "",
+		"jp_explain": "特定の武器の入手と強化に必要な素材。\nアイテムトレーダーの\n“装備アップグレードⅡ”で\n武器の交換に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010126",
+		"jp_text": "ユヴェールヴォルトⅠ",
+		"tr_text": "",
+		"jp_explain": "特定の武器の強化に必要な素材。\nアイテムトレーダーの\n“装備アップグレードⅡ”で\n武器の交換に用いる。",
+		"tr_explain": ""
+	},
+	{
+		"assign": "37010127",
+		"jp_text": "ユヴェールヴォルトⅡ",
+		"tr_text": "",
+		"jp_explain": "特定の武器の強化に必要な素材。\nアイテムトレーダーの\n“装備アップグレードⅡ”で\n武器の交換に用いる。",
 		"tr_explain": ""
 	}
 ]
