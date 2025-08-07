@@ -161,17 +161,35 @@ def parse_data(file_path, file_type):
     cost_infos = {}
 
     for i, line in enumerate(lines):
+        line = line.rstrip('\n')
+        
         # Process .text.ini files
         if file_type == "ini":
             # Get ori_text and tr_text besides the "="
             if "=" in line:
-                ori_text, tr_text = line.strip().split("=", 1)
+                equals_count = line.count("=")
+                if equals_count % 2 == 1:  # Odd number =
+                    middle_index = equals_count // 2
+                    split_pos = line.index("=", line.index("=") * middle_index + middle_index)
+                    ori_text, tr_text = line[:split_pos], line[split_pos + 1:]
+                else:  # Even number =
+                    split_pos = line.rindex("=")
+                    ori_text, tr_text = line[:split_pos], line[split_pos + 1:]
                 trade_infos[ori_text] = ""
                 parsed_lines.append((ori_text, tr_text))
             # Get the trade_infos from comments (mainly for augments)
             if line.startswith(";"):
                 if line.startswith(";不可交易") and i > 0:
-                    ori_text = lines[i - 1].strip().split("=", 1)[0]
+                    prev_line = lines[i - 1]
+                    prev_line = prev_line.rstrip('\n')
+                    equals_count = prev_line.count("=")
+                    if equals_count % 2 == 1:  # Odd number =
+                        middle_index = equals_count // 2
+                        split_pos = prev_line.index("=", prev_line.index("=") * middle_index + middle_index)
+                        ori_text = prev_line[:split_pos]
+                    else:  # Even number =
+                        split_pos = prev_line.rindex("=")
+                        ori_text = prev_line[:split_pos]
                     trade_infos[ori_text] = "Untradable"
 
         # Process .csv files
@@ -342,31 +360,30 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
         vo_gender = "T1" if text_id.startswith("11_voice_cman") else "T2"
 
     # Initialize
-    vo_jp_type = vo_tr_type = ""
-    vo_jp_name_prefix = vo_tr_name_prefix = ""
+    vo_jp_type = vo_tr_type = [""]
     vo_jp_number = vo_tr_number = ""
-    vo_jp_suffix = vo_tr_suffix = ""
+    vo_jp_suffix = vo_tr_suffix = [""]
     vo_jp_suffix2 = vo_tr_suffix2 = ""
 
     # Generate all remaining parts of the final text
     if vo_ver == "ngs":
-        vo_jp_suffix, vo_tr_suffix = "ボイス", "语音"
+        vo_jp_suffix, vo_tr_suffix = ["ボイス"], ["語音"]
         if re.match(r'^T\d.*\d{3}$', vo_jp_name):
-            vo_jp_name = vo_jp_name[2:-3]
-            vo_tr_name = vo_tr_name[2:-3]
             vo_jp_number = vo_jp_name[-3:]
             vo_tr_number = vo_tr_name[-3:]
+            vo_jp_name = vo_jp_name[2:-3]
+            vo_tr_name = vo_tr_name[2:-3]
     elif vo_ver == "o2":
-        vo_jp_type, vo_tr_type = "Ｃ", "C"
+        vo_jp_type, vo_tr_type = ["", "Ｃ", "共通"], ["", "C", "共通"]
         if vo_jp_name.startswith(("追加ボイス", "［ＥＸ］ボイス")):
-            vo_jp_suffix = vo_tr_suffix = ""
+            vo_jp_suffix = vo_tr_suffix = [""]
         elif re.search(r'.{6,}', vo_jp_name):
             if re.search(r"[Ａ-Ｚ]$", vo_jp_name):
-                vo_jp_suffix, vo_tr_suffix = "Ｖｏ", "语音"
+                vo_jp_suffix, vo_tr_suffix = ["", "ボイス", "Ｖｏ", "　Ｖｏ"], ["", "語音", "語音", "語音"]
             else:
-                vo_jp_suffix, vo_tr_suffix = "ボイス", "语音"
+                vo_jp_suffix, vo_tr_suffix = ["", "ボイス","Ｖｏ"], ["", "語音","語音"]
         else:
-            vo_jp_suffix, vo_tr_suffix = "ボイス", "语音"
+            vo_jp_suffix, vo_tr_suffix = ["", "ボイス"], ["", "語音"]
 
     # For the B/C/D... voices (only compatible with CN)
     if (match_trans := re.search(r"^(.*[\u4e00-\u9fa5])([A-Z])$", vo_tr_name)): 
@@ -375,8 +392,21 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
         vo_tr_name, vo_tr_suffix2 = match_trans.group(1), match_trans.group(2)
 
     # Combine
-    jp_texts = [f"{vo_gender}{vo_jp_type}{vo_jp_name_prefix}{vo_jp_name}{vo_jp_number}{vo_jp_suffix}{vo_jp_suffix2}"]
-    tr_texts = [f"{vo_gender}{vo_tr_type}{' ' if re.match(r'^[a-zA-Z]', vo_tr_name) and (vo_ver == 'ngs' or vo_tr_type == 'C') else ''}{vo_tr_name}{vo_tr_number}{vo_tr_suffix}{vo_tr_suffix2}"]
+    # 男性/女性/T1/T2/ + Ｃ/共通 + name + ボイス/Ｖｏ/　Ｖｏ + number + /B/C/D...
+    jp_texts = [f"{vo_gend}{vo_jp_typ}{vo_jp_nam}{vo_jp_suff}{vo_jp_num}{vo_jp_suff2}"
+        for vo_gend in [vo_gender]
+        for vo_jp_typ in vo_jp_type
+        for vo_jp_nam in [vo_jp_name]
+        for vo_jp_num in [vo_jp_number]
+        for vo_jp_suff in vo_jp_suffix
+        for vo_jp_suff2 in [vo_jp_suffix2]]
+    tr_texts = [f"{vo_gend}{vo_tr_typ}{' ' if re.match(r'^[a-zA-Z]', vo_tr_name) and (vo_ver == 'ngs' or vo_tr_typ == 'C') else ''}{vo_tr_nam}{vo_tr_suff}{vo_tr_num}{vo_tr_suff2}"
+        for vo_gend in [vo_gender]
+        for vo_tr_typ in vo_tr_type
+        for vo_tr_nam in [vo_tr_name]
+        for vo_tr_num in [vo_tr_number]
+        for vo_tr_suff in vo_tr_suffix
+        for vo_tr_suff2 in [vo_tr_suffix2]]
 
     return jp_texts, tr_texts, cv_tr_name
 
@@ -586,10 +616,18 @@ ca_itypes_order = [
     # Update 2 (PSO2es Chars, MELTY BLOOD Collab)
     (1170, "Fire"), (1190, "Ice"), (1210, "Lightning"), (1240, "Wind"), (1260, "Light"), (1300, "Dark"),
     (1321, "Ice"), (1331, "Dark"),
+    # Update 4 (PS2, PS4, PSO, PSZ Chars)
+    (1340, "Fire"), (1370, "Ice"), (1400, "Lightning"), (1430, "Wind"), (1460, "Light"), (1490, "Dark"),
+    # Update 5 (PSU, PSPo Chars)
+    (1520, "Fire"), (1540, "Ice"), (1550, "Dark"), (1560, "Lightning"), (1570, "Wind"), (1590, "Light"), (1600, "Lightning"), (1610, "Light"), (1620, "Ice"), (1630, "Dark"),
     # Update 3 (Index Collab)
     (1701, "Light"), (1711, "Lightning"), (1721, "Wind"),
+    # Update 4 (TenSura Collab)
+    (1891, "Dark"), (1901, "Fire"),
+    # Update 5 (Sonic Collab)
+    (1911, "Wind"), (1921, "Dark"), (1931, "Lightning"),
     # Future updates
-    (99999, None)
+    (90000, None)
 ]
 ca_itypes_interval = {
     P.closedopen(start, end): ele_type
@@ -692,7 +730,7 @@ vo_explains = [
 
 # [FUNCTION] Conditions and explains of special items
 def edit_sp_explains(prefix, jp_text, explains):
-    if prefix == "aug" and jp_text.endswith(("フュージア", "ソブリナ", "ファウンデーター", "ドライエ", "セプター")):
+    if prefix == "aug" and jp_text.endswith(("フュージア", "ソブリナ", "データー", "ドライエ", "セプター")):
         explains = [
             f"{explains[0]}\nアイテムラボの“強化素材交換”で\n特定のカプセルとの交換にも用いられる。",
             f"{explains[1]}\n也可在道具實驗室的“交換強化素材”處\n用於交換特定的膠囊。",
@@ -780,7 +818,7 @@ ha_jp_target_lines = [
     if text_id.startswith("LobbyAction_")]
 vo_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-    if text_id.startswith("11_voice_c") and (("/")) in jp_text]
+    if text_id.startswith("11_voice_c") and ("/") in jp_text]
 
 # Find target translated texts
 mo_tr_target_texts = get_translation(mo_jp_target_lines, common_tr_lines)[0]
@@ -899,6 +937,9 @@ def main_generate_NGS(prefix):
             tr_itype = cp_itypes[itype][LANG]
         elif prefix == "ca":
             int_id = int(text_id.split("#")[0])
+            skip_id = min(t[0] for t in ca_itypes_order if t[1] is None)
+            if int_id >= skip_id:
+                continue
             for interval, ele_type in ca_itypes_interval.items():
                 if int_id in interval:
                     itype = ele_type
@@ -1058,8 +1099,8 @@ def main_edit_Stack(prefix):
 
 # Generate "NGS_" json files
 process_prefixes = ["mo", "bp", "ph", "bg", "aug", "ou_m", "ou_f", "cp_m", "cp_f", "mou", "ear", "horn", "body", "ca", "ma", "sv"]
-# for prefix in process_prefixes:
-#      main_generate_NGS(prefix)
+for prefix in process_prefixes:
+     main_generate_NGS(prefix)
 
 # Generate "Stack_" json files (only for CN)
 if LANG == 1:
