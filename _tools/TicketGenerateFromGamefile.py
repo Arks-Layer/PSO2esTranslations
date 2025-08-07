@@ -618,12 +618,24 @@ ca_itypes_order = [
     (1321, "Ice"), (1331, "Dark"),
     # Update 4 (PS2, PS4, PSO, PSZ Chars)
     (1340, "Fire"), (1370, "Ice"), (1400, "Lightning"), (1430, "Wind"), (1460, "Light"), (1490, "Dark"),
+    # Update 5 (PSU, PSPo Chars)
+    (1520, "Fire"), (1540, "Ice"), (1550, "Dark"), (1560, "Lightning"), (1570, "Wind"), (1590, "Light"), (1600, "Lightning"), (1610, "Light"), (1620, "Ice"), (1630, "Dark"),
+    # Update 6 (IDOLA Chars Pt.1)
+    (1640, "Fire"), (1650, "Light"), (1660, "Ice"), (1670, "Wind"), (1680, "Lightning"), (1690, "Dark"),
     # Update 3 (Index Collab)
     (1701, "Light"), (1711, "Lightning"), (1721, "Wind"),
+    # Update 6 (Crawford)
+    (1770, "Light"),
     # Update 4 (TenSura Collab)
     (1891, "Dark"), (1901, "Fire"),
+    # Update 5 (Sonic Collab)
+    (1911, "Wind"), (1921, "Dark"), (1931, "Lightning"),
+    # Update 6 (IDOLA Chars Pt.2, Touhou Collab, Yumia Collab, Summer Skins)
+    (1940, "Fire"), (1950, "Ice"), (1960, "Lightning"), (1970, "Wind"), (1980, "Light"), (1990, "Dark"),
+    (2001, "Light"), (2011, "Lightning"), (2021, "Fire"), (2031, "Dark"), (2041, "Wind"), (2051, "Ice"), 
+    (2071, "Light"), (2091, "Ice"), (2101, "Wind"),
     # Future updates
-    (99999, None)
+    (90000, None)
 ]
 ca_itypes_interval = {
     P.closedopen(start, end): ele_type
@@ -713,7 +725,7 @@ ma_explains = [
     "Unlocks a new playmat for\nall characters on your account."]
 sv_explains = [
     "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
-    "使用後所有角色均可選用新的牌背。",
+    "使用後所有角色均可選用新的牌套。",
     "Unlocks a new card sleeve for\nall characters on your account."]
 ha_explains = [
     "",
@@ -726,7 +738,7 @@ vo_explains = [
 
 # [FUNCTION] Conditions and explains of special items
 def edit_sp_explains(prefix, jp_text, explains):
-    if prefix == "aug" and jp_text.endswith(("フュージア", "ソブリナ", "ファウンデーター", "ドライエ", "セプター")):
+    if prefix == "aug" and jp_text.endswith(("フュージア", "ソブリナ", "データー", "ドライエ", "セプター")):
         explains = [
             f"{explains[0]}\nアイテムラボの“強化素材交換”で\n特定のカプセルとの交換にも用いられる。",
             f"{explains[1]}\n也可在道具實驗室的“交換強化素材”處\n用於交換特定的膠囊。",
@@ -739,13 +751,21 @@ def edit_sp_explains(prefix, jp_text, explains):
     return explains
 
 # [FUNCTION] Special item texts of special items
-def edit_sp_texts(prefix, jp_text, tr_text):
+def edit_sp_texts(prefix, jp_text, tr_text, text_id):
+    # Get jp_title
+    text_id = text_id.split("#")[0] + "#1"
+    jp_title = next((jp_title for title_id, jp_title in ca_title_jp_target_lines if text_id == title_id), None)
+
     if prefix == "ca" and jp_text == "アルクェイド・ブリュンスタッド":
         sp_texts = ["アルクェイド", "愛爾奎特", "Arcueid"]
-    else: 
-        sp_texts = [jp_text, tr_text, tr_text]
-    jp_text = sp_texts[0]
-    tr_text = sp_texts[LANG]
+        jp_text = sp_texts[0]
+        tr_text = sp_texts[LANG]
+
+    elif prefix == "ca" and jp_title == "サマーバケーション":
+        sp_texts = ["（サマー）", "（盛夏）", " (Summer)"]
+        jp_text += sp_texts[0]
+        tr_text += sp_texts[LANG]
+    
     return jp_text, tr_text
 
 # Find target JP lines
@@ -803,6 +823,9 @@ body_jp_target_lines = [
 ca_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in
     get_order_jp_target_lines(lineduel_text_jp_lines, "10#0", "", r'^(\d+)#')]
+ca_title_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(lineduel_text_jp_lines, "10#1", "", r'^(\d+)#')]
 ma_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in
     get_order_jp_target_lines(lineduel_text_jp_lines, "0#2", "", r'^(\d+)#')]
@@ -814,7 +837,7 @@ ha_jp_target_lines = [
     if text_id.startswith("LobbyAction_")]
 vo_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-    if text_id.startswith("11_voice_c") and (("/")) in jp_text]
+    if text_id.startswith("11_voice_c") and ("/") in jp_text]
 
 # Find target translated texts
 mo_tr_target_texts = get_translation(mo_jp_target_lines, common_tr_lines)[0]
@@ -916,7 +939,7 @@ def main_generate_NGS(prefix):
         if LANG != 0:
             tr_text = tr_target_texts[i]
         # Edit special texts of special item
-        jp_text, tr_text = edit_sp_texts(prefix, jp_text, tr_text)
+        jp_text, tr_text = edit_sp_texts(prefix, jp_text, tr_text, text_id)
         # Get category and the category name for certain prefixes
         if prefix == "mo":
             itype = text_id.split("_")[1]
@@ -933,6 +956,9 @@ def main_generate_NGS(prefix):
             tr_itype = cp_itypes[itype][LANG]
         elif prefix == "ca":
             int_id = int(text_id.split("#")[0])
+            skip_id = min(t[0] for t in ca_itypes_order if t[1] is None)
+            if int_id >= skip_id:
+                continue
             for interval, ele_type in ca_itypes_interval.items():
                 if int_id in interval:
                     itype = ele_type
