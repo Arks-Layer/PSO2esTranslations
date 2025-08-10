@@ -752,17 +752,17 @@ def edit_sp_explains(prefix, jp_text, explains):
 
 # [FUNCTION] Special item texts of special items
 def edit_sp_texts(prefix, jp_text, tr_text, text_id):
-    # Get jp_title
+    # Get jp_refer
     text_id = text_id.split("#")[0] + "#1"
-    jp_title = next((jp_title for title_id, jp_title in ca_title_jp_target_lines if text_id == title_id), None)
+    jp_refer = next((jp_refer for refer_id, jp_refer in ca_jp_refer_lines if text_id == refer_id), None)
 
     if prefix == "ca" and jp_text == "アルクェイド・ブリュンスタッド":
         sp_texts = ["アルクェイド", "愛爾奎特", "Arcueid"]
         jp_text = sp_texts[0]
         tr_text = sp_texts[LANG]
 
-    elif prefix == "ca" and jp_title == "サマーバケーション":
-        sp_texts = ["（サマー）", "（盛夏）", " (Summer)"]
+    elif prefix == "ca" and jp_refer == "サマーバケーション":
+        sp_texts = ["（サマー）", "（夏季）", " (Summer)"]
         jp_text += sp_texts[0]
         tr_text += sp_texts[LANG]
     
@@ -823,7 +823,7 @@ body_jp_target_lines = [
 ca_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in
     get_order_jp_target_lines(lineduel_text_jp_lines, "10#0", "", r'^(\d+)#')]
-ca_title_jp_target_lines = [
+ca_jp_refer_lines = [
     (text_id, jp_text) for text_id, jp_text in
     get_order_jp_target_lines(lineduel_text_jp_lines, "10#1", "", r'^(\d+)#')]
 ma_jp_target_lines = [
