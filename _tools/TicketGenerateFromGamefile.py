@@ -349,8 +349,8 @@ def get_order_jp_target_lines(lines, start_id, end_id, id_pattern):
 # [FUNCTION] Form names of voice (only compatible with CN)
 def form_vo_names(text_id, jp_fulltext, tr_fulltext):
     # Split the full text to get vo name and cv name
-    vo_jp_name, cv_jp_name = jp_fulltext.split("/")
-    vo_tr_name, cv_tr_name = tr_fulltext.split("/")
+    vo_jp_name, cv_jp_name = jp_fulltext.split("/") if "/" in jp_fulltext else (jp_fulltext, jp_fulltext)
+    vo_tr_name, cv_tr_name = tr_fulltext.split("/") if "/" in tr_fulltext else (tr_fulltext, tr_fulltext)
 
     # Determine version and gender of the voice based on text id
     vo_ver = "ngs" if re.match(r'.*9\d{2}#0', text_id) else "o2"
@@ -837,7 +837,7 @@ ha_jp_target_lines = [
     if text_id.startswith("LobbyAction_")]
 vo_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-    if text_id.startswith("11_voice_c") and ("/") in jp_text]
+    if text_id.startswith("11_voice_c")]
 
 # Find target translated texts
 mo_tr_target_texts = get_translation(mo_jp_target_lines, common_tr_lines)[0]
