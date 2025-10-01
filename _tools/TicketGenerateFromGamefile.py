@@ -624,8 +624,16 @@ ca_itypes_order = [
     (1640, "Fire"), (1650, "Light"), (1660, "Ice"), (1670, "Wind"), (1680, "Lightning"), (1690, "Dark"),
     # Update 3 (Index Collab)
     (1701, "Light"), (1711, "Lightning"), (1721, "Wind"),
-    # Update 6 (Crawford)
+    # Update 7 (NGS Zephetto)
+    (1730, "Lightning"),
+    # Update 7 (NGS M.A.R.S.)
+    (1750, "Fire"),
+    # Update 6 (NGS Crawford)
     (1770, "Light"),
+    # Update 7 (PSO2 EP4-6 Chars Pt.1)
+    (1790, "Ice"), (1800, "Dark"),
+    # Update 7 (PSO2 EP4-6 Chars Pt.2)
+    (1840, "Light"), (1860, "Dark"), (1870, "Wind"), (1880, "Fire"),
     # Update 4 (TenSura Collab)
     (1891, "Dark"), (1901, "Fire"),
     # Update 5 (Sonic Collab)
@@ -634,6 +642,10 @@ ca_itypes_order = [
     (1940, "Fire"), (1950, "Ice"), (1960, "Lightning"), (1970, "Wind"), (1980, "Light"), (1990, "Dark"),
     (2001, "Light"), (2011, "Lightning"), (2021, "Fire"), (2031, "Dark"), (2041, "Wind"), (2051, "Ice"), 
     (2071, "Light"), (2091, "Ice"), (2101, "Wind"),
+    # Update 7 (NGS Great Rappy)
+    (2110, "Lightning"),
+    # Update 7 (NGS Captan, Maid Skins, GiruPuri Collab)
+    (2160, "Wind"), (2170, "Fire"), (2180, "Ice"), (2191, "Light"), (2201, "Fire"),
     # Future updates
     (90000, None)
 ]
