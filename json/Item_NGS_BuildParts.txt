@@ -203,10 +203,115 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "BP「グランドピアノ」",
+		"tr_text": "BP「グランドピアノ」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「大鋼琴」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「リズムギター」",
+		"tr_text": "BP「リズムギター」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「節奏吉他」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「サイドギター」",
+		"tr_text": "BP「サイドギター」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「伴奏吉他」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ベース」",
+		"tr_text": "BP「ベース」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「貝斯」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ドラムセット」",
+		"tr_text": "BP「ドラムセット」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「架子鼓」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ヴォーカルマイク」",
+		"tr_text": "BP「ヴォーカルマイク」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「主唱麥克風」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ヴァイオリン」",
+		"tr_text": "BP「ヴァイオリン」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「小提琴」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「コントラバス」",
+		"tr_text": "BP「コントラバス」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「低音提琴」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「フルート」",
+		"tr_text": "BP「フルート」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「長笛」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「トランペット」",
+		"tr_text": "BP「トランペット」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「小號」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ティンパニ」",
+		"tr_text": "BP「ティンパニ」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「定音鼓」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「トライアングル」",
+		"tr_text": "BP「トライアングル」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「三角鐵」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「指揮台」",
+		"tr_text": "BP「指揮台」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
 		"jp_text": "BP「ウォールシェルフ」",
 		"tr_text": "BP「壁掛置物架」",
 		"jp_explain": "",
 		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ミニガーデン」",
+		"tr_text": "BP「迷你庭園」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「イントルーダーアラーム」",
+		"tr_text": "BP「イントルーダーアラーム」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「入侵警報」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -753,6 +858,13 @@
 		"tr_text": "BP「蜂蜜黃椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
 		"tr_explain": "交互後\n即可坐下的建造部件。",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ＰＲＥボックス」",
+		"tr_text": "BP「ＰＲＥボックス」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「PRE箱」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -3087,6 +3199,13 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "BP「オッソリアバスタブ」",
+		"tr_text": "BP「同款浴缸」",
+		"jp_explain": "",
+		"tr_explain": "",
+		"assign": 0
+	},
+	{
 		"jp_text": "BP「スイートショコラ」",
 		"tr_text": "BP「甜點巧克力」",
 		"jp_explain": "",
@@ -4130,6 +4249,13 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "BP「レコードプレイヤー」",
+		"tr_text": "BP「レコードプレイヤー」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「唱片播放器」”<c>\n",
+		"assign": 0
+	},
+	{
 		"jp_text": "BP「パイレーツキャノン」",
 		"tr_text": "BP「海盜加農炮」",
 		"jp_explain": "",
@@ -4242,6 +4368,13 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "BP「ツキノウサギ」",
+		"tr_text": "BP「ツキノウサギ」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「月兔」”<c>\n",
+		"assign": 0
+	},
+	{
 		"jp_text": "BP「トンネルライト」",
 		"tr_text": "BP「隧道燈」",
 		"jp_explain": "",
@@ -4271,7 +4404,7 @@
 	},
 	{
 		"jp_text": "BP「ジオラマベースタイル」",
-		"tr_text": "BP「景觀模型基座瓷磚」",
+		"tr_text": "BP「景觀模型基座地磚」",
 		"jp_explain": "",
 		"tr_explain": "",
 		"assign": 0
@@ -4344,6 +4477,34 @@
 		"tr_text": "BP「瑪托依（理念）海報」",
 		"jp_explain": "",
 		"tr_explain": "",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「レコーディングマイク」",
+		"tr_text": "BP「レコーディングマイク」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「錄音麥克風」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「クーナステージ」",
+		"tr_text": "BP「クーナステージ」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「庫娜舞台」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「クーナステージB」",
+		"tr_text": "BP「クーナステージB」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「庫娜舞台B」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「電子ドラムセット」",
+		"tr_text": "BP「電子ドラムセット」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「電子架子鼓」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -5194,6 +5355,13 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "BP「コウヨウツリー」",
+		"tr_text": "BP「コウヨウツリー」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「紅葉樹」”<c>\n",
+		"assign": 0
+	},
+	{
 		"jp_text": "BP「マツタケ」",
 		"tr_text": "BP「松茸」",
 		"jp_explain": "",
@@ -5863,6 +6031,20 @@
 		"tr_text": "BP「ジャイアントターキー」",
 		"jp_explain": "",
 		"tr_explain": "<green>“BP「巨型烤雞」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「オータムリース」",
+		"tr_text": "BP「オータムリース」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「秋季花環」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「オータムスワッグ」",
+		"tr_text": "BP「オータムスワッグ」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「秋季垂飾」”<c>\n",
 		"assign": 0
 	},
 	{
@@ -8569,7 +8751,7 @@
 	},
 	{
 		"jp_text": "BP「リテナ：メモリアル」",
-		"tr_text": "BP「瑞泰姆式：紀念碑」",
+		"tr_text": "BP「瑞泰姆式：緬懷碑」",
 		"jp_explain": "",
 		"tr_explain": "",
 		"assign": 0
@@ -13762,6 +13944,111 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "BP「ギルプリ：ミャオポスター」",
+		"tr_text": "BP「ギルプリ：ミャオポスター」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「罪姬：喵海報」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ギルプリ：アリスポスター」",
+		"tr_text": "BP「ギルプリ：アリスポスター」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「罪姬：愛麗絲海報」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ギルプリ：クロエポスター」",
+		"tr_text": "BP「ギルプリ：クロエポスター」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「罪姬：克洛伊海報」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ギルプリ：クオンポスター」",
+		"tr_text": "BP「ギルプリ：クオンポスター」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「罪姬：庫恩海報」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「ギルプリ：エルフィーナポスター」",
+		"tr_text": "BP「ギルプリ：エルフィーナポスター」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「罪姬：Elfina海報」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「機動砲器ブルームストライカー」",
+		"tr_text": "BP「機動砲器ブルームストライカー」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「機動炮掃帚散彈槍」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「秘鍵ヴォーパルソード」",
+		"tr_text": "BP「秘鍵ヴォーパルソード」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「密鑰Vorpal Sword」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「合体重電子砲サイクロンキャノン」",
+		"tr_text": "BP「合体重電子砲サイクロンキャノン」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「合體重電子炮Cyclone Cannon」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「鎌威断薙・零式」",
+		"tr_text": "BP「鎌威断薙・零式」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「鐮威斷薙·零式」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「指揮剣ゼファーバトン」",
+		"tr_text": "BP「指揮剣ゼファーバトン」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「指揮劍Zephyr Baton」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：キャンプモニュメント」",
+		"tr_text": "BP「スティラ：キャンプモニュメント」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：營地紀念碑」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：樹木B」",
+		"tr_text": "BP「スティラ：樹木B」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：樹木B」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：樹木」",
+		"tr_text": "BP「スティラ：樹木」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：樹木」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：照明」",
+		"tr_text": "BP「スティラ：照明」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：照明」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：照明B」",
+		"tr_text": "BP「スティラ：照明B」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：樹木B」”<c>\n",
+		"assign": 0
+	},
+	{
 		"jp_text": "BP「カトリアクスタ」",
 		"tr_text": "BP「香取亞克力牌」",
 		"jp_explain": "",
@@ -13818,10 +14105,94 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "BP「スティラ：ヘキサブロック」",
+		"tr_text": "BP「スティラ：ヘキサブロック」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：六邊形地塊」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：ヘキサブロックB」",
+		"tr_text": "BP「スティラ：ヘキサブロックB」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：六邊形地塊」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：ヘキサピラー」",
+		"tr_text": "BP「スティラ：ヘキサピラー」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：六邊形立柱」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：ヘキサタイル」",
+		"tr_text": "BP「スティラ：ヘキサタイル」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：六邊形地磚」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：柱」",
+		"tr_text": "BP「スティラ：柱」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：柱」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：巨岩」",
+		"tr_text": "BP「スティラ：巨岩」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：巨岩石」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：巨岩B」",
+		"tr_text": "BP「スティラ：巨岩B」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：巨岩石B」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：円錐岩」",
+		"tr_text": "BP「スティラ：円錐岩」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：圓錐岩石」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：硫黄岩」",
+		"tr_text": "BP「スティラ：硫黄岩」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：硫磺岩石」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：硫黄池」",
+		"tr_text": "BP「スティラ：硫黄池」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：硫磺池」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「スティラ：硫黄つらら」",
+		"tr_text": "BP「スティラ：硫黄つらら」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「史蒂亞式：硫磺冰柱」”<c>\n",
+		"assign": 0
+	},
+	{
 		"jp_text": "BP「伝想器」",
 		"tr_text": "BP「伝想器」",
 		"jp_explain": "",
 		"tr_explain": "<green>“BP「傳憶器」”<c>\n",
+		"assign": 0
+	},
+	{
+		"jp_text": "BP「オルタレルムブロック」",
+		"tr_text": "BP「オルタレルムブロック」",
+		"jp_explain": "",
+		"tr_explain": "<green>“BP「異界地塊」”<c>\n",
 		"assign": 0
 	}
 ]
