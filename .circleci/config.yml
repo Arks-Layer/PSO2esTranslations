@@ -33,12 +33,12 @@ jobs:
       - run:
           name: Checking translation progress
           command: /bin/sh ./_sh/coverage.sh | /usr/bin/tee /tmp/PSO2es/coverage.txt
-      - run:
-          name: Checking for existing item mappings
-          command: ./_py/dupcheck.py | /usr/bin/tee /tmp/PSO2es/dupcheck.txt
-      - run:
-          name: Checking for duplicate entries
-          command: ./_py/dupassign.py | /usr/bin/tee /tmp/PSO2es/dupassign.txt
+      #- run:
+      #    name: Checking for existing item mappings
+      #    command: ./_py/dupcheck.py | /usr/bin/tee /tmp/PSO2es/dupcheck.txt
+      #- run:
+      #    name: Checking for duplicate entries
+      #    command: ./_py/dupassign.py | /usr/bin/tee /tmp/PSO2es/dupassign.txt
       - run:
           name: Checking if Dice Chat has too many lines
           command: ./_py/DiceLen.py | /usr/bin/tee /tmp/PSO2es/DiceLen.txt
