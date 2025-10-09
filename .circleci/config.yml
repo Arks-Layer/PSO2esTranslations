@@ -8,7 +8,8 @@ jobs:
   verify:
     <<: *defaults
     steps:
-      - checkout
+      - checkout:
+          method: blobless
       - run:
           name: Making report folder
           command: /bin/mkdir -p /tmp/PSO2es
@@ -25,7 +26,8 @@ jobs:
       - run:
           name: Making report folder
           command: /bin/mkdir -p /tmp/PSO2es
-      - checkout
+      - checkout:
+          method: blobless
       - setup_remote_docker:
           docker_layer_caching: true 
       - run:
@@ -78,7 +80,8 @@ jobs:
       - run:
           name: Making report folder
           command: /bin/mkdir -p /tmp/PSO2es
-      - checkout
+      - checkout:
+          method: blobless
       - setup_remote_docker:
           docker_layer_caching: true 
       - restore_cache:
@@ -110,7 +113,8 @@ jobs:
     docker:
       - image: synthsy/debian-mono-git:latest
     steps:
-      - checkout
+      - checkout:
+          method: blobless
       - setup_remote_docker:
           docker_layer_caching: true 
       - restore_cache:
