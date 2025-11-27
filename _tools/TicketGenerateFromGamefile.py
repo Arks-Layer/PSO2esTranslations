@@ -772,9 +772,12 @@ def edit_sp_texts(prefix, jp_text, tr_text, text_id):
         sp_texts = ["アルクェイド", "愛爾奎特", "Arcueid"]
         jp_text = sp_texts[0]
         tr_text = sp_texts[LANG]
-
     elif prefix == "ca" and jp_refer == "サマーバケーション":
         sp_texts = ["（サマー）", "（夏季）", " (Summer)"]
+        jp_text += sp_texts[0]
+        tr_text += sp_texts[LANG]
+    elif prefix == "ca" and jp_refer == "ハッピーホリデイ":
+        sp_texts = ["（ホリデイ）", "（假日）", " (Holiday)"]
         jp_text += sp_texts[0]
         tr_text += sp_texts[LANG]
     
@@ -878,7 +881,7 @@ def extra_condition(prefix, jp_text, text_id):
     elif prefix == "bp":
         return (jp_text.startswith((
         # NGS
-        "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：",
+        "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：", "スティラ：",
         "『NGS", "『PSO2", "超・", "立体図形：", "立体数字：", "アクリル台座・", "ラインストライク",
         # PSO2 Theme
         "ベーシック", "モダン", "ゴシック", "クラシック", "スイート", "エキゾチックトラッド", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
