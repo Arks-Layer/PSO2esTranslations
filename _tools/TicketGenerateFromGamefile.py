@@ -646,6 +646,8 @@ ca_itypes_order = [
     (2110, "Lightning"),
     # Update 7 (NGS Captan, Maid Skins, GiruPuri Collab)
     (2160, "Wind"), (2170, "Fire"), (2180, "Ice"), (2191, "Light"), (2201, "Fire"),
+    # Update 8 (Holiday Skins)
+    (2321, "Wind"), (2331, "Light"), (2341, "Ice"), (2351, "Wind"), 
     # Future updates
     (90000, None)
 ]
