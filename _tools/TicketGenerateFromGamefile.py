@@ -19,10 +19,11 @@ LANG = 1
 
 # [ 1 for CN mode ]
 # Will generate "NGS_" items and edit "Stack_" items in Chinese.
-# (Local repository required)
+# (Translations will be retrieved from the LOCAL "PSO2_CHN_Translation" repository)
 
 # [ 2 for EN mode ]
 # Will generate "NGS_" items in English.
+# (Translations will be retrieved from the "PSO2ENPatchCSV" repository)
 
 # ——————————————————————————————
 # PATH & URL SETTING
