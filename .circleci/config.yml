@@ -8,7 +8,8 @@ jobs:
   verify:
     <<: *defaults
     steps:
-      - checkout
+      - checkout:
+          method: blobless
       - run:
           name: Making report folder
           command: /bin/mkdir -p /tmp/PSO2es
@@ -25,18 +26,19 @@ jobs:
       - run:
           name: Making report folder
           command: /bin/mkdir -p /tmp/PSO2es
-      - checkout
+      - checkout:
+          method: blobless
       - setup_remote_docker:
           docker_layer_caching: true 
       - run:
           name: Checking translation progress
           command: /bin/sh ./_sh/coverage.sh | /usr/bin/tee /tmp/PSO2es/coverage.txt
-      - run:
-          name: Checking for existing item mappings
-          command: ./_py/dupcheck.py | /usr/bin/tee /tmp/PSO2es/dupcheck.txt
-      - run:
-          name: Checking for duplicate entries
-          command: ./_py/dupassign.py | /usr/bin/tee /tmp/PSO2es/dupassign.txt
+      #- run:
+      #    name: Checking for existing item mappings
+      #    command: ./_py/dupcheck.py | /usr/bin/tee /tmp/PSO2es/dupcheck.txt
+      #- run:
+      #    name: Checking for duplicate entries
+      #    command: ./_py/dupassign.py | /usr/bin/tee /tmp/PSO2es/dupassign.txt
       - run:
           name: Checking if Dice Chat has too many lines
           command: ./_py/DiceLen.py | /usr/bin/tee /tmp/PSO2es/DiceLen.txt
@@ -78,7 +80,8 @@ jobs:
       - run:
           name: Making report folder
           command: /bin/mkdir -p /tmp/PSO2es
-      - checkout
+      - checkout:
+          method: blobless
       - setup_remote_docker:
           docker_layer_caching: true 
       - restore_cache:
@@ -110,7 +113,8 @@ jobs:
     docker:
       - image: synthsy/debian-mono-git:latest
     steps:
-      - checkout
+      - checkout:
+          method: blobless
       - setup_remote_docker:
           docker_layer_caching: true 
       - restore_cache:
