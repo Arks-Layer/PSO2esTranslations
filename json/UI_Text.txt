@@ -25558,5 +25558,20 @@
 		"assign": "window_puchase_lock_dialog_message",
 		"jp_text": "ACチャージ機能が制限されています。",
 		"tr_text": ""
+	},
+	{
+		"assign": "title_chara_linked_pso2_ship_transfer",
+		"jp_text": "<color=#ffff00>シップ移動中</color>",
+		"tr_text": ""
+	},
+	{
+		"assign": "title_chara_linked_pso2_ship_transfer_dialog_title",
+		"jp_text": "シップ移動中",
+		"tr_text": ""
+	},
+	{
+		"assign": "title_chara_linked_pso2_ship_transfer_dialog_message",
+		"jp_text": "日次シップ移動申請中のキャラクターは\nログインできません。\nシップ移動後、またはシップ移動申請を\n取り下げることでログインできるようになります。\n\nシップ移動は、毎日5時に開始され、\n移動が完了したキャラクターから\nログイン可能となります。",
+		"tr_text": ""
 	}
 ]
