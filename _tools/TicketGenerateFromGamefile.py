@@ -19,10 +19,11 @@ LANG = 2
 
 # [ 1 for CN mode ]
 # Will generate "NGS_" items and edit "Stack_" items in Chinese.
-# (Local repository required)
+# (Translations will be retrieved from the LOCAL "PSO2_CHN_Translation" repository)
 
 # [ 2 for EN mode ]
 # Will generate "NGS_" items in English.
+# (Translations will be retrieved from the "PSO2ENPatchCSV" repository)
 
 # ——————————————————————————————
 # PATH & URL SETTING
@@ -646,6 +647,8 @@ ca_itypes_order = [
     (2110, "Lightning"),
     # Update 7 (NGS Captan, Maid Skins, GiruPuri Collab)
     (2160, "Wind"), (2170, "Fire"), (2180, "Ice"), (2191, "Light"), (2201, "Fire"),
+    # Update 8 (Holiday Skins)
+    (2321, "Wind"), (2331, "Light"), (2341, "Ice"), (2351, "Wind"), 
     # Future updates
     (90000, None)
 ]
@@ -772,9 +775,12 @@ def edit_sp_texts(prefix, jp_text, tr_text, text_id):
         sp_texts = ["アルクェイド", "愛爾奎特", "Arcueid"]
         jp_text = sp_texts[0]
         tr_text = sp_texts[LANG]
-
     elif prefix == "ca" and jp_refer == "サマーバケーション":
         sp_texts = ["（サマー）", "（夏季）", " (Summer)"]
+        jp_text += sp_texts[0]
+        tr_text += sp_texts[LANG]
+    elif prefix == "ca" and jp_refer == "ハッピーホリデイ":
+        sp_texts = ["（ホリデイ）", "（假日）", " (Holiday)"]
         jp_text += sp_texts[0]
         tr_text += sp_texts[LANG]
     
@@ -796,7 +802,8 @@ bg_jp_target_lines = [
     if not jp_text.startswith(("￥", "text_"))]
 aug_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in element_name_jp_lines
-    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "ウェポンコネクタ", "￥", "-"))]
+    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "ウェポンコネクタ", "￥", "-"))
+    or re.search(r"(EX.*A$)", jp_text)]
 ou_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
     if re.match(r'^No\d{6}#', text_id)
@@ -878,7 +885,7 @@ def extra_condition(prefix, jp_text, text_id):
     elif prefix == "bp":
         return (jp_text.startswith((
         # NGS
-        "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：",
+        "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：", "スティラ：",
         "『NGS", "『PSO2", "超・", "立体図形：", "立体数字：", "アクリル台座・", "ラインストライク",
         # PSO2 Theme
         "ベーシック", "モダン", "ゴシック", "クラシック", "スイート", "エキゾチックトラッド", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
