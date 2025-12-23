@@ -19,10 +19,11 @@ LANG = 2
 
 # [ 1 for CN mode ]
 # Will generate "NGS_" items and edit "Stack_" items in Chinese.
-# (Local repository required)
+# (Translations will be retrieved from the LOCAL "PSO2_CHN_Translation" repository)
 
 # [ 2 for EN mode ]
 # Will generate "NGS_" items in English.
+# (Translations will be retrieved from the "PSO2ENPatchCSV" repository)
 
 # ——————————————————————————————
 # PATH & URL SETTING
@@ -349,8 +350,8 @@ def get_order_jp_target_lines(lines, start_id, end_id, id_pattern):
 # [FUNCTION] Form names of voice (only compatible with CN)
 def form_vo_names(text_id, jp_fulltext, tr_fulltext):
     # Split the full text to get vo name and cv name
-    vo_jp_name, cv_jp_name = jp_fulltext.split("/")
-    vo_tr_name, cv_tr_name = tr_fulltext.split("/")
+    vo_jp_name, cv_jp_name = jp_fulltext.split("/") if "/" in jp_fulltext else (jp_fulltext, jp_fulltext)
+    vo_tr_name, cv_tr_name = tr_fulltext.split("/") if "/" in tr_fulltext else (tr_fulltext, tr_fulltext)
 
     # Determine version and gender of the voice based on text id
     vo_ver = "ngs" if re.match(r'.*9\d{2}#0', text_id) else "o2"
@@ -624,8 +625,16 @@ ca_itypes_order = [
     (1640, "Fire"), (1650, "Light"), (1660, "Ice"), (1670, "Wind"), (1680, "Lightning"), (1690, "Dark"),
     # Update 3 (Index Collab)
     (1701, "Light"), (1711, "Lightning"), (1721, "Wind"),
-    # Update 6 (Crawford)
+    # Update 7 (NGS Zephetto)
+    (1730, "Lightning"),
+    # Update 7 (NGS M.A.R.S.)
+    (1750, "Fire"),
+    # Update 6 (NGS Crawford)
     (1770, "Light"),
+    # Update 7 (PSO2 EP4-6 Chars Pt.1)
+    (1790, "Ice"), (1800, "Dark"),
+    # Update 7 (PSO2 EP4-6 Chars Pt.2)
+    (1840, "Light"), (1860, "Dark"), (1870, "Wind"), (1880, "Fire"),
     # Update 4 (TenSura Collab)
     (1891, "Dark"), (1901, "Fire"),
     # Update 5 (Sonic Collab)
@@ -634,6 +643,12 @@ ca_itypes_order = [
     (1940, "Fire"), (1950, "Ice"), (1960, "Lightning"), (1970, "Wind"), (1980, "Light"), (1990, "Dark"),
     (2001, "Light"), (2011, "Lightning"), (2021, "Fire"), (2031, "Dark"), (2041, "Wind"), (2051, "Ice"), 
     (2071, "Light"), (2091, "Ice"), (2101, "Wind"),
+    # Update 7 (NGS Great Rappy)
+    (2110, "Lightning"),
+    # Update 7 (NGS Captan, Maid Skins, GiruPuri Collab)
+    (2160, "Wind"), (2170, "Fire"), (2180, "Ice"), (2191, "Light"), (2201, "Fire"),
+    # Update 8 (Holiday Skins)
+    (2321, "Wind"), (2331, "Light"), (2341, "Ice"), (2351, "Wind"), 
     # Future updates
     (90000, None)
 ]
@@ -752,17 +767,20 @@ def edit_sp_explains(prefix, jp_text, explains):
 
 # [FUNCTION] Special item texts of special items
 def edit_sp_texts(prefix, jp_text, tr_text, text_id):
-    # Get jp_title
+    # Get jp_refer
     text_id = text_id.split("#")[0] + "#1"
-    jp_title = next((jp_title for title_id, jp_title in ca_title_jp_target_lines if text_id == title_id), None)
+    jp_refer = next((jp_refer for refer_id, jp_refer in ca_jp_refer_lines if text_id == refer_id), None)
 
     if prefix == "ca" and jp_text == "アルクェイド・ブリュンスタッド":
         sp_texts = ["アルクェイド", "愛爾奎特", "Arcueid"]
         jp_text = sp_texts[0]
         tr_text = sp_texts[LANG]
-
-    elif prefix == "ca" and jp_title == "サマーバケーション":
-        sp_texts = ["（サマー）", "（盛夏）", " (Summer)"]
+    elif prefix == "ca" and jp_refer == "サマーバケーション":
+        sp_texts = ["（サマー）", "（夏季）", " (Summer)"]
+        jp_text += sp_texts[0]
+        tr_text += sp_texts[LANG]
+    elif prefix == "ca" and jp_refer == "ハッピーホリデイ":
+        sp_texts = ["（ホリデイ）", "（假日）", " (Holiday)"]
         jp_text += sp_texts[0]
         tr_text += sp_texts[LANG]
     
@@ -784,7 +802,8 @@ bg_jp_target_lines = [
     if not jp_text.startswith(("￥", "text_"))]
 aug_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in element_name_jp_lines
-    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "ウェポンコネクタ", "￥", "-"))]
+    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "ウェポンコネクタ", "￥", "-"))
+    or re.search(r"(EX.*A$)", jp_text)]
 ou_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
     if re.match(r'^No\d{6}#', text_id)
@@ -823,7 +842,7 @@ body_jp_target_lines = [
 ca_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in
     get_order_jp_target_lines(lineduel_text_jp_lines, "10#0", "", r'^(\d+)#')]
-ca_title_jp_target_lines = [
+ca_jp_refer_lines = [
     (text_id, jp_text) for text_id, jp_text in
     get_order_jp_target_lines(lineduel_text_jp_lines, "10#1", "", r'^(\d+)#')]
 ma_jp_target_lines = [
@@ -837,7 +856,7 @@ ha_jp_target_lines = [
     if text_id.startswith("LobbyAction_")]
 vo_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-    if text_id.startswith("11_voice_c") and ("/") in jp_text]
+    if text_id.startswith("11_voice_c")]
 
 # Find target translated texts
 mo_tr_target_texts = get_translation(mo_jp_target_lines, common_tr_lines)[0]
@@ -866,7 +885,7 @@ def extra_condition(prefix, jp_text, text_id):
     elif prefix == "bp":
         return (jp_text.startswith((
         # NGS
-        "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：",
+        "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：", "スティラ：",
         "『NGS", "『PSO2", "超・", "立体図形：", "立体数字：", "アクリル台座・", "ラインストライク",
         # PSO2 Theme
         "ベーシック", "モダン", "ゴシック", "クラシック", "スイート", "エキゾチックトラッド", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
