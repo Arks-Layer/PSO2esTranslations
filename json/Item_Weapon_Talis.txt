@@ -1677,7 +1677,7 @@
 		"jp_text": "ストラーガタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鬥爭之巨導具”<c>\n"
+		"tr_explain": "<green>“屠戮之巨導具”<c>\n"
 	},
 	{
 		"assign": "112010015",
@@ -1964,14 +1964,14 @@
 		"jp_text": "ミレニアムラウンドタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“千年槍彈導具”<c>"
+		"tr_explain": "<green>“千年槍彈導具”<c>\n"
 	},
 	{
 		"assign": "112010074",
 		"jp_text": "エレディムタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“繼承導具”<c>"
+		"tr_explain": "<green>“繼承導具”<c>\n"
 	},
 	{
 		"assign": "112010075",
@@ -1985,14 +1985,14 @@
 		"jp_text": "ウィンガルドタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鋼翼加護導具”<c>"
+		"tr_explain": "<green>“鋼翼加護導具”<c>\n"
 	},
 	{
 		"assign": "112010077",
 		"jp_text": "エオニ・ディケリオンタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永世·丟卡利翁導具”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁導具”<c>\n"
 	},
 	{
 		"assign": "112010078",
@@ -2013,33 +2013,33 @@
 		"jp_text": "リクスタルタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“特六式導具”<c>"
+		"tr_explain": "<green>“特六式導具”<c>\n"
 	},
 	{
 		"assign": "112010081",
 		"jp_text": "エクセリオタリス",
 		"tr_text": "エクセリオタリス",
 		"jp_explain": "",
-		"tr_explain": "<green>“擴升導具”<c>"
+		"tr_explain": "<green>“躍升導具”<c>\n"
 	},
 	{
 		"assign": "112010084",
 		"jp_text": "デュオセリオタリス",
-		"tr_text": "二階擴升導具",
+		"tr_text": "二階躍升導具",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "112010085",
 		"jp_text": "トライセリオタリス",
-		"tr_text": "三階擴升導具",
+		"tr_text": "三階躍升導具",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "112010086",
 		"jp_text": "アクロセリオタリス",
-		"tr_text": "極階擴升導具",
+		"tr_text": "極階躍升導具",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -2069,33 +2069,110 @@
 		"jp_text": "クローディムタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳承導具”<c>"
+		"tr_explain": "<green>“傳承導具”<c>\n"
 	},
 	{
 		"assign": "112010091",
 		"jp_text": "レジェスタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳奇導具”<c>"
+		"tr_explain": "<green>“傳奇導具”<c>\n"
 	},
 	{
 		"assign": "112010071",
 		"jp_text": "クレス・ローザタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": ""
+		"tr_explain": "<green>“盈煌·玫瑰導具”<c>\n"
 	},
 	{
 		"assign": "112010050",
 		"jp_text": "ユヴェールタリス",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“寶珠導具”<c>"
+		"tr_explain": "<green>“寶珠導具”<c>\n"
 	},
 	{
 		"assign": "112010093",
 		"jp_text": "エピス・イリニオンタリスⅡ",
 		"tr_text": "飾語·厄瑞涅導具2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010096",
+		"jp_text": "ゼネス・ローザタリス",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“極煌·薔薇導具”<c>\n"
+	},
+	{
+		"assign": "112010097",
+		"jp_text": "ヴォルヘールタリス",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“淬琢寶珠導具”<c>\n"
+	},
+	{
+		"assign": "112010098",
+		"jp_text": "アインデールタリス",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“完璧寶珠導具”<c>\n"
+	},
+	{
+		"assign": "112010100",
+		"jp_text": "クレス・ローザタリスAT",
+		"tr_text": "盈煌·玫瑰導具AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010102",
+		"jp_text": "レイティータリス",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳世導具”<c>\n"
+	},
+	{
+		"assign": "112010107",
+		"jp_text": "エピス・イリニオンタリスⅢ",
+		"tr_text": "飾語·厄瑞涅導具3",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010094",
+		"jp_text": "アルセ・モタブプロフェシー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“本原·魔法預言書”<c>\n"
+	},
+	{
+		"assign": "112010108",
+		"jp_text": "トワル・トレファルタリスⅡ",
+		"tr_text": "十二式·三葉刃導具2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010109",
+		"jp_text": "レジェスタリスⅡ",
+		"tr_text": "傳奇導具2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010110",
+		"jp_text": "レイティータリスⅡ",
+		"tr_text": "傳世導具2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "112010112",
+		"jp_text": "トワル・トレファルタリスAT",
+		"tr_text": "十二式·三葉刃導具AT",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

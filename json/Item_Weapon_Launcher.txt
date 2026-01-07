@@ -1607,7 +1607,7 @@
 		"jp_text": "ストラーガランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鬥爭之巨大炮”<c>\n"
+		"tr_explain": "<green>“屠戮之巨大炮”<c>\n"
 	},
 	{
 		"assign": "19010015",
@@ -1908,14 +1908,14 @@
 		"jp_text": "ミレニアムラウンドランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“千年槍彈大炮”<c>"
+		"tr_explain": "<green>“千年槍彈大炮”<c>\n"
 	},
 	{
 		"assign": "19010076",
 		"jp_text": "エレディムランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“繼承大炮”<c>"
+		"tr_explain": "<green>“繼承大炮”<c>\n"
 	},
 	{
 		"assign": "19010077",
@@ -1929,14 +1929,14 @@
 		"jp_text": "ウィンガルドランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鋼翼加護大炮”<c>"
+		"tr_explain": "<green>“鋼翼加護大炮”<c>\n"
 	},
 	{
 		"assign": "19010079",
 		"jp_text": "エオニ・ディケリオンランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永世·丟卡利翁大炮”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁大炮”<c>\n"
 	},
 	{
 		"assign": "19010081",
@@ -1957,7 +1957,7 @@
 		"jp_text": "リクスタルランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“特六式大炮”<c>"
+		"tr_explain": "<green>“特六式大炮”<c>\n"
 	},
 	{
 		"assign": "19010085",
@@ -1971,26 +1971,26 @@
 		"jp_text": "エクセリオランチャー",
 		"tr_text": "エクセリオランチャー",
 		"jp_explain": "",
-		"tr_explain": "<green>“擴升大炮”<c>"
+		"tr_explain": "<green>“躍升大炮”<c>\n"
 	},
 	{
 		"assign": "19010095",
 		"jp_text": "デュオセリオランチャー",
-		"tr_text": "二階擴升大炮",
+		"tr_text": "二階躍升大炮",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "19010096",
 		"jp_text": "トライセリオランチャー",
-		"tr_text": "三階擴升大炮",
+		"tr_text": "三階躍升大炮",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "19010097",
 		"jp_text": "アクロセリオランチャー",
-		"tr_text": "極階擴升大炮",
+		"tr_text": "極階躍升大炮",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -2020,33 +2020,110 @@
 		"jp_text": "クローディムランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳承大炮”<c>"
+		"tr_explain": "<green>“傳承大炮”<c>\n"
 	},
 	{
 		"assign": "19010103",
 		"jp_text": "レジェスランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳奇大炮”<c>"
+		"tr_explain": "<green>“傳奇大炮”<c>\n"
 	},
 	{
 		"assign": "19010094",
 		"jp_text": "クレス・フレッドランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": ""
+		"tr_explain": "<green>“盈煌·冰晶大炮”<c>\n"
 	},
 	{
 		"assign": "19010055",
 		"jp_text": "ユヴェールランチャー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“寶珠大炮”<c>"
+		"tr_explain": "<green>“寶珠大炮”<c>\n"
 	},
 	{
 		"assign": "19010105",
 		"jp_text": "エピス・イリニオンランチャーⅡ",
 		"tr_text": "飾語·厄瑞涅大炮2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010107",
+		"jp_text": "ゼネス・フレッドランチャー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“極煌·冰晶大炮”<c>\n"
+	},
+	{
+		"assign": "19010108",
+		"jp_text": "ヴォルヘールランチャー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“淬琢寶珠大炮”<c>\n"
+	},
+	{
+		"assign": "19010109",
+		"jp_text": "アインデールランチャー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“完璧寶珠大炮”<c>\n"
+	},
+	{
+		"assign": "19010111",
+		"jp_text": "クレス・フレッドランチャーAT",
+		"tr_text": "盈煌·冰晶大炮AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010113",
+		"jp_text": "レイティーランチャー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳世大炮”<c>\n"
+	},
+	{
+		"assign": "19010119",
+		"jp_text": "エピス・イリニオンランチャーⅢ",
+		"tr_text": "飾語·厄瑞涅大炮3",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010106",
+		"jp_text": "アルセ・バーニングビジット",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“本原·強化火焰噴射器”<c>\n"
+	},
+	{
+		"assign": "19010120",
+		"jp_text": "トワル・プラネターランチャーⅡ",
+		"tr_text": "十二式·行星大炮2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010121",
+		"jp_text": "レジェスランチャーⅡ",
+		"tr_text": "傳奇大炮2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010122",
+		"jp_text": "レイティーランチャーⅡ",
+		"tr_text": "傳世大炮2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "19010125",
+		"jp_text": "トワル・プラネターランチャーAT",
+		"tr_text": "十二式·行星大炮AT",
 		"jp_explain": "",
 		"tr_explain": ""
 	}
