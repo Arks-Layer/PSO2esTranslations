@@ -1719,7 +1719,7 @@
 		"jp_text": "ストラーガライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鬥爭之巨步槍”<c>\n"
+		"tr_explain": "<green>“屠戮之巨步槍”<c>\n"
 	},
 	{
 		"assign": "18010020",
@@ -2013,14 +2013,14 @@
 		"jp_text": "ミレニアムラウンドライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“千年槍彈步槍”<c>"
+		"tr_explain": "<green>“千年槍彈步槍”<c>\n"
 	},
 	{
 		"assign": "18010091",
 		"jp_text": "エレディムライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“繼承步槍”<c>"
+		"tr_explain": "<green>“繼承步槍”<c>\n"
 	},
 	{
 		"assign": "18010092",
@@ -2034,14 +2034,14 @@
 		"jp_text": "ウィンガルドライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鋼翼加護步槍”<c>"
+		"tr_explain": "<green>“鋼翼加護步槍”<c>\n"
 	},
 	{
 		"assign": "18010094",
 		"jp_text": "エオニ・ディケリオンライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永世·丟卡利翁步槍”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁步槍”<c>\n"
 	},
 	{
 		"assign": "18010096",
@@ -2062,33 +2062,33 @@
 		"jp_text": "リクスタルライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“特六式步槍”<c>"
+		"tr_explain": "<green>“特六式步槍”<c>\n"
 	},
 	{
 		"assign": "18010104",
 		"jp_text": "エクセリオライフル",
 		"tr_text": "エクセリオライフル",
 		"jp_explain": "",
-		"tr_explain": "<green>“擴升步槍”<c>"
+		"tr_explain": "<green>“躍升步槍”<c>\n"
 	},
 	{
 		"assign": "18010109",
 		"jp_text": "デュオセリオライフル",
-		"tr_text": "二階擴升步槍",
+		"tr_text": "二階躍升步槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "18010110",
 		"jp_text": "トライセリオライフル",
-		"tr_text": "三階擴升步槍",
+		"tr_text": "三階躍升步槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "18010111",
 		"jp_text": "アクロセリオライフル",
-		"tr_text": "極階擴升步槍",
+		"tr_text": "極階躍升步槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -2118,33 +2118,110 @@
 		"jp_text": "クローディムライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳承步槍”<c>"
+		"tr_explain": "<green>“傳承步槍”<c>\n"
 	},
 	{
 		"assign": "18010119",
 		"jp_text": "レジェスライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳奇步槍”<c>"
+		"tr_explain": "<green>“傳奇步槍”<c>\n"
 	},
 	{
 		"assign": "18010087",
 		"jp_text": "クレス・ローザライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": ""
+		"tr_explain": "<green>“盈煌·玫瑰步槍”<c>\n"
 	},
 	{
 		"assign": "18010058",
 		"jp_text": "ユヴェールライフル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“寶珠步槍”<c>"
+		"tr_explain": "<green>“寶珠步槍”<c>\n"
 	},
 	{
 		"assign": "18010121",
 		"jp_text": "エピス・イリニオンライフルⅡ",
 		"tr_text": "飾語·厄瑞涅步槍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010125",
+		"jp_text": "ゼネス・ローザライフル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“極煌·薔薇步槍”<c>\n"
+	},
+	{
+		"assign": "18010126",
+		"jp_text": "ヴォルヘールライフル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“淬琢寶珠步槍”<c>\n"
+	},
+	{
+		"assign": "18010127",
+		"jp_text": "アインデールライフル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“完璧寶珠步槍”<c>\n"
+	},
+	{
+		"assign": "18010129",
+		"jp_text": "クレス・ローザライフルAT",
+		"tr_text": "盈煌·玫瑰步槍AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010130",
+		"jp_text": "レイティーライフル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳世步槍”<c>\n"
+	},
+	{
+		"assign": "18010140",
+		"jp_text": "エピス・イリニオンライフルⅢ",
+		"tr_text": "飾語·厄瑞涅步槍3",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010122",
+		"jp_text": "アルセ・ヘブンストライカー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“本原·天堂衝擊”<c>\n"
+	},
+	{
+		"assign": "18010141",
+		"jp_text": "トワル・レルガントライフルⅡ",
+		"tr_text": "十二式·磁道炮步槍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010142",
+		"jp_text": "レジェスライフルⅡ",
+		"tr_text": "傳奇步槍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010143",
+		"jp_text": "レイティーライフルⅡ",
+		"tr_text": "傳世步槍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "18010147",
+		"jp_text": "トワル・レルガントライフルAT",
+		"tr_text": "十二式·磁道炮步槍AT",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

@@ -1397,7 +1397,7 @@
 		"jp_text": "ストラーガブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鬥爭之巨魔裝腳”<c>\n"
+		"tr_explain": "<green>“屠戮之巨魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010016",
@@ -1684,14 +1684,14 @@
 		"jp_text": "ミレニアムラウンドブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“千年槍彈魔裝腳”<c>"
+		"tr_explain": "<green>“千年槍彈魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010076",
 		"jp_text": "エレディムブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“繼承魔裝腳”<c>"
+		"tr_explain": "<green>“繼承魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010077",
@@ -1705,14 +1705,14 @@
 		"jp_text": "ウィンガルドブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鋼翼加護魔裝腳”<c>"
+		"tr_explain": "<green>“鋼翼加護魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010079",
 		"jp_text": "エオニ・ディケリオンブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永世·丟卡利翁魔裝腳”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010081",
@@ -1733,33 +1733,33 @@
 		"jp_text": "リクスタルブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“特六式魔裝腳”<c>"
+		"tr_explain": "<green>“特六式魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010084",
 		"jp_text": "エクセリオブーツ",
 		"tr_text": "エクセリオブーツ",
 		"jp_explain": "",
-		"tr_explain": "<green>“擴升魔裝腳”<c>"
+		"tr_explain": "<green>“躍升魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010089",
 		"jp_text": "デュオセリオブーツ",
-		"tr_text": "二階擴升魔裝腳",
+		"tr_text": "二階躍升魔裝腳",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "116010090",
 		"jp_text": "トライセリオブーツ",
-		"tr_text": "三階擴升魔裝腳",
+		"tr_text": "三階躍升魔裝腳",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "116010091",
 		"jp_text": "アクロセリオブーツ",
-		"tr_text": "極階擴升魔裝腳",
+		"tr_text": "極階躍升魔裝腳",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1789,33 +1789,110 @@
 		"jp_text": "クローディムブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳承魔裝腳”<c>"
+		"tr_explain": "<green>“傳承魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010096",
 		"jp_text": "レジェスブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳奇魔裝腳”<c>"
+		"tr_explain": "<green>“傳奇魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010087",
 		"jp_text": "クレス・ローザブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": ""
+		"tr_explain": "<green>“盈煌·玫瑰魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010055",
 		"jp_text": "ユヴェールブーツ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“寶珠魔裝腳”<c>"
+		"tr_explain": "<green>“寶珠魔裝腳”<c>\n"
 	},
 	{
 		"assign": "116010098",
 		"jp_text": "エピス・イリニオンブーツⅡ",
 		"tr_text": "飾語·厄瑞涅魔裝腳2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010100",
+		"jp_text": "ゼネス・ローザブーツ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“極煌·薔薇魔裝腳”<c>\n"
+	},
+	{
+		"assign": "116010101",
+		"jp_text": "ヴォルヘールブーツ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“淬琢寶珠魔裝腳”<c>\n"
+	},
+	{
+		"assign": "116010102",
+		"jp_text": "アインデールブーツ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“完璧寶珠魔裝腳”<c>\n"
+	},
+	{
+		"assign": "116010104",
+		"jp_text": "クレス・ローザブーツAT",
+		"tr_text": "盈煌·玫瑰魔裝腳AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010105",
+		"jp_text": "レイティーブーツ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳世魔裝腳”<c>\n"
+	},
+	{
+		"assign": "116010107",
+		"jp_text": "エピス・イリニオンブーツⅢ",
+		"tr_text": "飾語·厄瑞涅魔裝腳3",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010099",
+		"jp_text": "アルセ・ハート・オブ・ポウム",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“本原·波姆之心”<c>\n"
+	},
+	{
+		"assign": "116010108",
+		"jp_text": "トワル・アルクタブーツⅡ",
+		"tr_text": "十二式·拳劍魔裝腳2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010109",
+		"jp_text": "レジェスブーツⅡ",
+		"tr_text": "傳奇魔裝腳2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010110",
+		"jp_text": "レイティーブーツⅡ",
+		"tr_text": "傳世魔裝腳2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "116010111",
+		"jp_text": "トワル・アルクタブーツAT",
+		"tr_text": "十二式·拳劍魔裝腳AT",
 		"jp_explain": "",
 		"tr_explain": ""
 	}
