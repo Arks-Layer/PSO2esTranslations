@@ -97,19 +97,24 @@ jsonfile_dir = os.path.abspath(os.path.join(root_dir, os.pardir, "json"))
 # CORE FUNCTIONS
 # ——————————————————————————————
 
-# [FUNCTION] Load and read the webpage from URL
-def get_web(url):
-    url_part = url.rsplit('/', 1)[-1].split('?', 1)[-1]
-    # Send the get request
-    response = requests.get(url)
-    # If successed, load the data
-    if response.status_code == 200:
-        lines = response.text
-        print(f'LOADED: {url_part}')
-        return lines
-    # If failed, print the status code
-    else:
-        print(f'FAILED TO LOAD: {url}.\nStatus Code: {response.status_code}')
+# [FUNCTION] Load source data with proper language mode
+def load_source_lines(source_key):
+    jp_url = SOURCE_PATHS[source_key]["jp"]
+    jp_lines = parse_data(jp_url, "csv")[0]
+    
+    if LANG == 0:
+        tr_lines = []
+    elif LANG == 1:
+        cn_path = SOURCE_PATHS[source_key]["cn"]
+        if source_key == "element_name":
+            tr_lines, TRADE_INFOS["aug"] = parse_data(cn_path, "ini")[:2]
+        else:
+            tr_lines = parse_data(cn_path, "ini")[0]
+    else:  # LANG == 2
+        en_url = SOURCE_PATHS[source_key]["en"]
+        tr_lines = parse_data(en_url, "csv")[0]
+    
+    return jp_lines, tr_lines
 
 # [FUNCTION] Parse the web or file
 def parse_data(file_path, file_type):
@@ -213,26 +218,7 @@ def parse_data(file_path, file_type):
 
     return parsed_lines, trade_infos, cost_infos
 
-# [FUNCTION] Generate string with a different width
-def width_process_string(string):
-    result_string = ""
-    for char in string:
-        try:
-            # Determine if a character is full-width or half-width
-            if unicodedata.east_asian_width(char) in ('F', 'W'):
-                # If character is full-width, convert it to half-width
-                result_string += chr(ord(char) - 0xfee0)
-            elif unicodedata.east_asian_width(char) in ('H', 'Na'):
-                # If character is half-width, convert it to full-width
-                result_string += chr(ord(char) + 0xfee0)
-            else:
-                # Keep the other charactesr the same
-                result_string += char
-        except ValueError:
-            # If character encoding exceeds the Unicode range
-            result_string += char
-    return result_string
-
+# [FUNCTION] Parse the tradable/cost info
 def parse_info(key, mapping, info_type):
     suffix_url, target_prefixes = mapping[key]
     source = key.split('_')[0]
@@ -261,6 +247,39 @@ def parse_info(key, mapping, info_type):
             TRADE_INFOS[prefix].update(n_infos)
     elif info_type == "cost":
         ca_cost_infos.update(n_infos)
+# [FUNCTION] Load and read the webpage from URL
+def get_web(url):
+    url_part = url.rsplit('/', 1)[-1].split('?', 1)[-1]
+    # Send the get request
+    response = requests.get(url)
+    # If successed, load the data
+    if response.status_code == 200:
+        lines = response.text
+        print(f'LOADED: {url_part}')
+        return lines
+    # If failed, print the status code
+    else:
+        print(f'FAILED TO LOAD: {url}.\nStatus Code: {response.status_code}')
+
+# [FUNCTION] Generate string with a different width
+def width_process_string(string):
+    result_string = ""
+    for char in string:
+        try:
+            # Determine if a character is full-width or half-width
+            if unicodedata.east_asian_width(char) in ('F', 'W'):
+                # If character is full-width, convert it to half-width
+                result_string += chr(ord(char) - 0xfee0)
+            elif unicodedata.east_asian_width(char) in ('H', 'Na'):
+                # If character is half-width, convert it to full-width
+                result_string += chr(ord(char) + 0xfee0)
+            else:
+                # Keep the other charactesr the same
+                result_string += char
+        except ValueError:
+            # If character encoding exceeds the Unicode range
+            result_string += char
+    return result_string
 
 # [FUNCTION] Get JP target lines from the starting line
 def get_start_jp_target_lines(lines, start_id, end_id, id_pattern):
@@ -585,37 +604,6 @@ ca_itypes_interval = {
     for (start, ele_type), (end, _) in zip(ca_itypes_order, ca_itypes_order[1:])
 }
 
-def load_source_lines(source_key):
-
-    jp_url = SOURCE_PATHS[source_key]["jp"]
-    jp_lines = parse_data(jp_url, "csv")[0]
-    
-    if LANG == 0:
-        tr_lines = []
-    elif LANG == 1:
-        cn_path = SOURCE_PATHS[source_key]["cn"]
-        if source_key == "element_name":
-            tr_lines, TRADE_INFOS["aug"] = parse_data(cn_path, "ini")[:2]
-        else:
-            tr_lines = parse_data(cn_path, "ini")[0]
-    else:  # LANG == 2
-        en_url = SOURCE_PATHS[source_key]["en"]
-        tr_lines = parse_data(en_url, "csv")[0]
-    
-    return jp_lines, tr_lines
-
-# Parse all required source files
-common_jp_lines, common_tr_lines = load_source_lines("common")
-accessories_jp_lines, accessories_tr_lines = load_source_lines("accessories")
-charamake_parts_jp_lines, charamake_parts_tr_lines = load_source_lines("charamake_parts")
-element_name_jp_lines, element_name_tr_lines = load_source_lines("element_name")
-lineduel_text_jp_lines, lineduel_text_tr_lines = load_source_lines("lineduel_text")
-
-# Parse swiki/makapo webs to get tradable info (only for CN)
-if LANG == 1:
-    for key in trade_mapping:
-        parse_info(key, trade_mapping, "trade")
-
 # ——————————————————————————————
 # ITEM CONFIGURATION
 # ——————————————————————————————
@@ -839,6 +827,41 @@ def edit_sp_texts(prefix, jp_text, tr_text, text_id):
     
     return jp_text, tr_text
 
+# [FUNCTION] Conditions of force to change the tradable info (only for CN)
+def extra_condition(prefix, jp_text, text_id):
+    conditions = {
+        "mo": lambda: jp_text.endswith("EX"),
+        "bp": lambda: (jp_text.startswith((
+            "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：", "スティラ：",
+            "『NGS", "『PSO2", "超・", "立体図形：", "立体数字：", "アクリル台座・", "ラインストライク",
+            "ベーシック", "モダン", "ゴシック", "クラシック", "スイート", "エキゾチックトラッド", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
+            "スペースシップ", "オッソリア", "ミニ")) and not jp_text.startswith("ミニミニ")),
+        "aug": lambda: jp_text.endswith(("S", "LC")),
+        "ca": lambda: text_id.endswith("0#0"),
+        "ha": lambda: True,
+        "default": lambda: False
+    }
+    return conditions.get(prefix, conditions["default"])()
+
+# ——————————————————————————————
+# MAIN PROCESS
+# ——————————————————————————————
+
+# Parse all required source files
+common_jp_lines, common_tr_lines = load_source_lines("common")
+accessories_jp_lines, accessories_tr_lines = load_source_lines("accessories")
+charamake_parts_jp_lines, charamake_parts_tr_lines = load_source_lines("charamake_parts")
+element_name_jp_lines, element_name_tr_lines = load_source_lines("element_name")
+lineduel_text_jp_lines, lineduel_text_tr_lines = load_source_lines("lineduel_text")
+
+# Parse swiki/makapo webs to get card cost
+parse_info("ngs_ca", cost_mapping, "cost")
+
+# Parse swiki/makapo webs to get tradable info (only for CN)
+if LANG == 1:
+    for key in trade_mapping:
+        parse_info(key, trade_mapping, "trade")
+
 # Define target line extraction rules
 TARGET_LINE_EXTRACTORS = {
     "mo": lambda: [(text_id, jp_text) for text_id, jp_text in common_jp_lines
@@ -912,62 +935,6 @@ for prefix in ITEM_CONFIG:
         # Get translations
         tr_texts = get_translation(jp_lines, source_lines)[0]
         TARGET_TEXTS[prefix] = tr_texts
-
-# [FUNCTION] Conditions of force to change the tradable info (only for CN)
-def extra_condition(prefix, jp_text, text_id):
-    conditions = {
-        "mo": lambda: jp_text.endswith("EX"),
-        "bp": lambda: (jp_text.startswith((
-            "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：", "スティラ：",
-            "『NGS", "『PSO2", "超・", "立体図形：", "立体数字：", "アクリル台座・", "ラインストライク",
-            "ベーシック", "モダン", "ゴシック", "クラシック", "スイート", "エキゾチックトラッド", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
-            "スペースシップ", "オッソリア", "ミニ")) and not jp_text.startswith("ミニミニ")),
-        "aug": lambda: jp_text.endswith(("S", "LC")),
-        "ca": lambda: text_id.endswith("0#0"),
-        "ha": lambda: True,
-        "default": lambda: False
-    }
-    return conditions.get(prefix, conditions["default"])()
-
-# ——————————————————————————————
-# MAIN PROCESS
-# ——————————————————————————————
-
-# [FUNCTION] Load source data with proper language mode
-def load_source_lines(source_key):
-    jp_url = SOURCE_PATHS[source_key]["jp"]
-    jp_lines = parse_data(jp_url, "csv")[0]
-    
-    if LANG == 0:
-        tr_lines = []
-    elif LANG == 1:
-        cn_path = SOURCE_PATHS[source_key]["cn"]
-        if source_key == "element_name":
-            tr_lines, TRADE_INFOS["aug"] = parse_data(cn_path, "ini")[:2]
-        else:
-            tr_lines = parse_data(cn_path, "ini")[0]
-    else:  # LANG == 2
-        en_url = SOURCE_PATHS[source_key]["en"]
-        tr_lines = parse_data(en_url, "csv")[0]
-    
-    return jp_lines, tr_lines
-
-# Parse all required source files
-common_jp_lines, common_tr_lines = load_source_lines("common")
-accessories_jp_lines, accessories_tr_lines = load_source_lines("accessories")
-charamake_parts_jp_lines, charamake_parts_tr_lines = load_source_lines("charamake_parts")
-element_name_jp_lines, element_name_tr_lines = load_source_lines("element_name")
-lineduel_text_jp_lines, lineduel_text_tr_lines = load_source_lines("lineduel_text")
-
-# Parse swiki/makapo webs to get tradable info (only for CN)
-if LANG == 1:
-    for key in trade_mapping:
-        parse_info(key, trade_mapping, "trade")
-
-# Parse swiki/makapo webs to get card cost
-parse_info("ngs_ca", cost_mapping, "cost")
-
-# [FUNCTION] Generate "NGS_" or edit "Stack_" json files
 def main_process_items(prefix, is_stack=False):
     config = ITEM_CONFIG.get(prefix)
     if not config:
