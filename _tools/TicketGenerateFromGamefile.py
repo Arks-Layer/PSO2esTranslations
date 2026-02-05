@@ -37,84 +37,116 @@ PSO2CN_path = os.path.abspath(os.path.join(root_dir, os.pardir, os.pardir, r"PSO
 # URL of main game file JP/EN respository
 PSO2EN_url = "https://raw.githubusercontent.com/Arks-Layer/PSO2ENPatchCSV/"
 
-# Paths and URLs of CN/JP/EN main game files
+# Paths of CN main game files
 UI_path = r"UI"
 ngs_path = r"Unsorted\ngs"
-SOURCE_PATHS = {
-    "common": {"cn": os.path.join(PSO2CN_path, UI_path, "common.text.ini"),
-               "jp": f"{PSO2EN_url}JP_Reboot/Files/common.csv",
-               "en": f"{PSO2EN_url}EN_Reboot/Translated/UI/common.csv"},
-    "accessories": {"cn": os.path.join(PSO2CN_path, UI_path, "ui_accessories_text.text.ini"),
-                    "jp": f"{PSO2EN_url}JP/Files/ui_accessories_text.csv",
-                    "en": f"{PSO2EN_url}EN/UI/ui_accessories_text.csv"},
-    "charamake_parts": {"cn": os.path.join(PSO2CN_path, UI_path, "ui_charamake_parts.text.ini"),
-                        "jp": f"{PSO2EN_url}JP/Files/ui_charamake_parts.csv",
-                        "en": f"{PSO2EN_url}EN/UI/ui_charamake_parts.csv"},
-    "element_name": {"cn": os.path.join(PSO2CN_path, UI_path, "item_element_name_reb.text.ini"),
-                     "jp": f"{PSO2EN_url}JP/Files/item_element_name_reb.csv",
-                     "en": f"{PSO2EN_url}EN/UI/item_element_name_reb.csv"},
-    "lineduel_text": {"cn": os.path.join(PSO2CN_path, ngs_path, "lineduel_text.text.ini"),
-                      "jp": f"{PSO2EN_url}JP_Reboot/Files/lineduel_text.csv",
-                      "en": f"{PSO2EN_url}EN_Reboot/Translated/UI/lineduel_text.csv"}
-}
+common_cn_path = os.path.join(PSO2CN_path, UI_path, "common.text.ini")
+accessories_cn_path = os.path.join(PSO2CN_path, UI_path, "ui_accessories_text.text.ini")
+charamake_parts_cn_path = os.path.join(PSO2CN_path, UI_path, "ui_charamake_parts.text.ini")
+element_name_cn_path = os.path.join(PSO2CN_path, UI_path, "item_element_name_reb.text.ini")
+lineduel_text_cn_path = os.path.join(PSO2CN_path, ngs_path,"lineduel_text.text.ini")
+# URLs of JP main game files
+csv_url = f"JP/Files/"
+csv_reboot_url = f"JP_Reboot/Files/"
+common_jp_url = f"{PSO2EN_url}{csv_reboot_url}common.csv"
+accessories_jp_url = f"{PSO2EN_url}{csv_url}ui_accessories_text.csv"
+charamake_parts_jp_url = f"{PSO2EN_url}{csv_url}ui_charamake_parts.csv"
+element_name_jp_url = f"{PSO2EN_url}{csv_url}item_element_name_reb.csv"
+lineduel_text_jp_url = f"{PSO2EN_url}{csv_reboot_url}lineduel_text.csv"
+# URLs of EN main game files
+csv_en_url = f"EN/UI/"
+csv_reboot_en_url = f"EN_Reboot/Translated/UI/"
+common_en_url = f"{PSO2EN_url}{csv_reboot_en_url}common.csv"
+accessories_en_url = f"{PSO2EN_url}{csv_en_url}ui_accessories_text.csv"
+charamake_parts_en_url = f"{PSO2EN_url}{csv_en_url}ui_charamake_parts.csv"
+element_name_en_url = f"{PSO2EN_url}{csv_en_url}item_element_name_reb.csv"
+lineduel_text_en_url = f"{PSO2EN_url}{csv_reboot_en_url}lineduel_text.csv"
 
-# Initialize tradable info and cost infos
+# Initialize tradable info
+mo_trade_infos = {}
+bp_trade_infos = {}
+ph_trade_infos = {}
+bg_trade_infos = {}
+aug_trade_infos = {}
+ou_m_trade_infos = {}
+ou_f_trade_infos = {}
+cp_m_trade_infos = {}
+cp_f_trade_infos = {}
+mou_trade_infos = {}
+ear_trade_infos = {}
+horn_trade_infos = {}
+body_trade_infos = {}
+ca_trade_infos = {}
 ca_cost_infos = {}
-TRADE_INFOS = {prefix: {} for prefix in ["mo", "bp", "ph", "bg", "aug", "ou_m", "ou_f", 
-                                          "cp_m", "cp_f", "mou", "ear", "horn", "body", "ca", "ma", "sv", "ha", "vo"]}
+ma_trade_infos = {}
+sv_trade_infos = {}
+ha_trade_infos = {}
+vo_trade_infos = {}
 
 # URLs of swiki/makapo
 wiki_urls = {
     'ngs': 'https://pso2ngs.swiki.jp/index.php?',
     'o2': 'https://pso2.swiki.jp/index.php?',
     'makapo': 'https://ngs.pso2-makapo.com/'}
-
-# Trade mapping with reference to TRADE_INFOS dict
+# URLs and trade_infos mapping of swiki/makapo pages (only for CN)
 trade_mapping = {
-    'ngs_mo': ('モーション', ['mo']),
-    'makapo_bp': ('build-parts-list', ['bp']),
-    'ngs_bp1': ('ビルドパーツ/建材', ['bp']),
-    'ngs_bp2': ('ビルドパーツ/建築物・道具・器具', ['bp']),
-    'ngs_bp3': ('ビルドパーツ/自然物', ['bp']),
-    'ngs_bp4': ('ビルドパーツ/家具', ['bp']),
-    'ngs_bp5': ('ビルドパーツ/ギミックパーツ', ['bp']),
-    'ngs_bp6': ('ビルドパーツ/立体図形', ['bp']),
-    'ngs_bp7': ('ビルドパーツ/コラボ', ['bp']),
-    'ngs_ph': ('ポータブルホログラム', ['ph']),
-    'ngs_bg': ('アークスカード', ['bg']),
-    'ngs_ma': ('ラインストライク', ['ma', 'sv']),
-    #'ngs_la': ('ロビーアクション', ['ha']),
-    'ngs_vo': ('エステ/ボイス', ['vo']),
-    'o2_vo': ('エステ/ボイス', ['vo'])}
-
+    'ngs_mo': ('モーション', (mo_trade_infos, )),
+    'makapo_bp': ('build-parts-list', (bp_trade_infos, )),
+    'ngs_bp1': ('ビルドパーツ/建材', (bp_trade_infos, )),
+    'ngs_bp2': ('ビルドパーツ/建築物・道具・器具', (bp_trade_infos, )),
+    'ngs_bp3': ('ビルドパーツ/自然物', (bp_trade_infos, )),
+    'ngs_bp4': ('ビルドパーツ/家具', (bp_trade_infos, )),
+    'ngs_bp5': ('ビルドパーツ/ギミックパーツ', (bp_trade_infos, )),
+    'ngs_bp6': ('ビルドパーツ/立体図形', (bp_trade_infos, )),
+    'ngs_bp7': ('ビルドパーツ/コラボ', (bp_trade_infos, )),
+    'ngs_ph': ('ポータブルホログラム', (ph_trade_infos, )),
+    'ngs_bg': ('アークスカード', (bg_trade_infos, )),
+    'ngs_ma': ('ラインストライク', (ma_trade_infos, sv_trade_infos, )),
+    'ngs_vo': ('エステ/ボイス', (vo_trade_infos, )),
+    'o2_vo': ('エステ/ボイス', (vo_trade_infos, ))}
 cost_mapping = {
-    'ngs_ca': ('ラインストライク/カード', ['ca'])}
+    'ngs_ca': ('ラインストライク/カード', (ca_cost_infos, ))}
 
 # Path of json folder
 jsonfile_dir = os.path.abspath(os.path.join(root_dir, os.pardir, "json"))
 
+# Paths of .txt files
+mo_path = "Item_NGS_Motion.txt"
+bp_path = "Item_NGS_BuildParts.txt"
+ph_path = "Item_NGS_Portableholograms.txt"
+bg_path = "Item_NGS_Backgrounds.txt"
+aug_path = "Item_NGS_CapsuleAbilities.txt"
+ou_m_path = "Item_NGS_Outer_Male.txt"
+ou_f_path = "Item_NGS_Outer_Female.txt"
+cp_m_path = "Item_NGS_Parts_Male.txt"
+cp_f_path = "Item_NGS_Parts_Female.txt"
+mou_path = "Item_NGS_Mouth.txt"
+ear_path = "Item_NGS_Ear.txt"
+horn_path = "Item_NGS_Horn.txt"
+body_path = "Item_NGS_Body.txt"
+ca_path = "Item_NGS_Card.txt"
+ma_path = "Item_NGS_Playmat.txt"
+sv_path = "Item_NGS_Sleeve.txt"
+ha_path = "Item_Stack_LobbyAction.txt"
+vo_path = "Item_Stack_Voice.txt"
+
 # ——————————————————————————————
-# CORE FUNCTIONS
+# FUNCTION
 # ——————————————————————————————
 
-# [FUNCTION] Load source data with proper language mode
-def load_source_lines(source_key):
-    jp_url = SOURCE_PATHS[source_key]["jp"]
-    jp_lines = parse_data(jp_url, "csv")[0]
-    
-    if LANG == 0:
-        tr_lines = []
-    elif LANG == 1:
-        cn_path = SOURCE_PATHS[source_key]["cn"]
-        if source_key == "element_name":
-            tr_lines, TRADE_INFOS["aug"] = parse_data(cn_path, "ini")[:2]
-        else:
-            tr_lines = parse_data(cn_path, "ini")[0]
-    else:  # LANG == 2
-        en_url = SOURCE_PATHS[source_key]["en"]
-        tr_lines = parse_data(en_url, "csv")[0]
-    
-    return jp_lines, tr_lines
+# [FUNCTION] Load and read the webpage from URL
+def get_web(url):
+    url_part = url.rsplit('/', 1)[-1].split('?', 1)[-1]
+    # Send the get request
+    response = requests.get(url)
+    # If successed, load the data
+    if response.status_code == 200:
+        lines = response.text
+        print(f'LOADED: {url_part}')
+        return lines
+    # If failed, print the status code
+    else:
+        print(f'FAILED TO LOAD: {url}.\nStatus Code: {response.status_code}')
 
 # [FUNCTION] Parse the web or file
 def parse_data(file_path, file_type):
@@ -177,7 +209,7 @@ def parse_data(file_path, file_type):
             if line.startswith('<div class="ie5">') or line.startswith(' data-ad-slot='):
                 # For items with "「」"
                 if "ngs" in file_path and not "エステ" in file_path:
-                    headnames = ['Mo', 'BP', 'PH', 'Bg', 'Ca', 'Ma', 'Sv', 'Ha']
+                    headnames = ['Mo', 'BP', 'PH', 'Bg', 'Ca', 'Ma', 'Sv']
                     for headname in headnames:
                         # Do regex replacement, to ensure each line starts with item names
                         n_lines = re.sub(f"{headname}「", f"\n{headname}「", line).splitlines()
@@ -218,49 +250,6 @@ def parse_data(file_path, file_type):
 
     return parsed_lines, trade_infos, cost_infos
 
-# [FUNCTION] Parse the tradable/cost info
-def parse_info(key, mapping, info_type):
-    suffix_url, target_prefixes = mapping[key]
-    source = key.split('_')[0]
-    full_url = f"{wiki_urls[f'{source}']}{suffix_url}"
-    
-    if info_type == "trade":
-        n_infos = parse_data(full_url, "html")[1]
-    elif info_type == "cost":
-        n_infos = parse_data(full_url, "html")[2]
-    original_n_infos = n_infos.copy()
-
-    for key in list(original_n_infos.keys()):
-        if info_type == "trade":
-            jp_text = key
-        elif info_type == "cost":
-            jp_text, jp_itype = key
-        alt_jp_text = width_process_string(jp_text)
-        if info_type == "trade":
-            n_infos[alt_jp_text] = original_n_infos[jp_text]
-        elif info_type == "cost":
-            n_infos[alt_jp_text, jp_itype] = original_n_infos[(jp_text, jp_itype)]  
-    
-    # Update corresponding data structure based on info_type
-    if info_type == "trade":
-        for prefix in target_prefixes:
-            TRADE_INFOS[prefix].update(n_infos)
-    elif info_type == "cost":
-        ca_cost_infos.update(n_infos)
-# [FUNCTION] Load and read the webpage from URL
-def get_web(url):
-    url_part = url.rsplit('/', 1)[-1].split('?', 1)[-1]
-    # Send the get request
-    response = requests.get(url)
-    # If successed, load the data
-    if response.status_code == 200:
-        lines = response.text
-        print(f'LOADED: {url_part}')
-        return lines
-    # If failed, print the status code
-    else:
-        print(f'FAILED TO LOAD: {url}.\nStatus Code: {response.status_code}')
-
 # [FUNCTION] Generate string with a different width
 def width_process_string(string):
     result_string = ""
@@ -280,6 +269,31 @@ def width_process_string(string):
             # If character encoding exceeds the Unicode range
             result_string += char
     return result_string
+
+# [FUNCTION] Parse the web or file to get trade/cost info
+def parse_info(key, mapping, info_type):
+    suffix_url, infos = mapping[key]
+    source = key.split('_')[0]
+    full_url = f"{wiki_urls[f'{source}']}{suffix_url}"
+    
+    if info_type == "trade":
+        n_infos = parse_data(full_url, "html")[1]
+    elif info_type == "cost":
+        n_infos = parse_data(full_url, "html")[2]
+    original_n_infos = n_infos.copy()
+
+    for key in list(original_n_infos.keys()):
+        if info_type == "trade":
+            jp_text = key
+        elif info_type == "cost":
+            jp_text, jp_itype = key
+        alt_jp_text = width_process_string(jp_text)
+        if info_type == "trade":
+            n_infos[alt_jp_text] = original_n_infos[jp_text]
+        elif info_type == "cost":
+            n_infos[alt_jp_text, jp_itype] = original_n_infos[(jp_text, jp_itype)]  
+    for info in infos:
+        info.update(n_infos)
 
 # [FUNCTION] Get JP target lines from the starting line
 def get_start_jp_target_lines(lines, start_id, end_id, id_pattern):
@@ -524,6 +538,45 @@ def write_to_json(processed_items, jsonfile_dir, path):
     return
 
 # ——————————————————————————————
+# PRESET PROCESSES
+# ——————————————————————————————
+
+# Parse JP webs, to read the lines need to be considered
+common_jp_lines = common_jp_lines = parse_data(common_jp_url, "csv")[0]
+accessories_jp_lines = parse_data(accessories_jp_url, "csv")[0]
+charamake_parts_jp_lines = parse_data(charamake_parts_jp_url, "csv")[0]
+element_name_jp_lines = parse_data(element_name_jp_url, "csv")[0]
+lineduel_text_jp_lines = parse_data(lineduel_text_jp_url, "csv")[0]
+
+# Parse CN/EN files or webs, to read the lines need to be considered
+if LANG == 0:
+    common_tr_lines =  []
+    accessories_tr_lines =  []
+    charamake_parts_tr_lines = []
+    element_name_tr_lines = []
+    lineduel_text_tr_lines = []
+elif LANG == 1:
+    common_tr_lines = parse_data(common_cn_path, "ini")[0]
+    accessories_tr_lines = parse_data(accessories_cn_path, "ini")[0]
+    charamake_parts_tr_lines = parse_data(charamake_parts_cn_path, "ini")[0]
+    element_name_tr_lines, aug_trade_infos = parse_data(element_name_cn_path, "ini")[:2]
+    lineduel_text_tr_lines = parse_data(lineduel_text_cn_path, "ini")[0]
+elif LANG == 2:
+    common_tr_lines = parse_data(common_en_url, "csv")[0]
+    accessories_tr_lines = parse_data(accessories_en_url, "csv")[0]
+    charamake_parts_tr_lines = parse_data(charamake_parts_en_url, "csv")[0]
+    element_name_tr_lines = parse_data(element_name_en_url, "csv")[0]
+    lineduel_text_tr_lines = parse_data(lineduel_text_en_url, "csv")[0]
+
+# Parse swiki/makapo webs to get tradable info (only for CN)
+if LANG == 1:
+    for key in trade_mapping:
+        parse_info(key, trade_mapping, "trade")
+
+# Parse swiki/makapo webs to get card cost
+parse_info("ngs_ca", cost_mapping, "cost")
+
+# ——————————————————————————————
 # MAPPINGS AND CONDITIONS
 # ——————————————————————————————
 
@@ -578,8 +631,12 @@ ca_itypes_order = [
     (1750, "Fire"),
     # Update 6 (NGS Crawford)
     (1770, "Light"),
+    # Update 9 (NGS Ran)
+    (1780, "Wind"),
     # Update 7 (PSO2 EP4-6 Chars Pt.1)
     (1790, "Ice"), (1800, "Dark"),
+    # Update 9 (PSO2 Chars Pt.1)
+    (1810, "Light"), (1820, "Fire"), (1830, "Lightning"),
     # Update 7 (PSO2 EP4-6 Chars Pt.2)
     (1840, "Light"), (1860, "Dark"), (1870, "Wind"), (1880, "Fire"),
     # Update 4 (TenSura Collab)
@@ -592,10 +649,18 @@ ca_itypes_order = [
     (2071, "Light"), (2091, "Ice"), (2101, "Wind"),
     # Update 7 (NGS Great Rappy)
     (2110, "Lightning"),
+    # Update 9 (NGS Chars)
+    (2120, "Dark"), (2130, "Light"), (2140, "Lightning"), (2150, "Ice"),
     # Update 7 (NGS Captan, Maid Skins, GiruPuri Collab)
     (2160, "Wind"), (2170, "Fire"), (2180, "Ice"), (2191, "Light"), (2201, "Fire"),
+    # Update 9 (PSO2 Chars Pt.2)
+    (2210, "Fire"), (2230, "Ice"), (2250, "Wind"), (2270, "Light"), (2280, "Darkness"),
+    # Update 9 (Central! Chars)
+    (2290, "Light"), (2300, "Wind"), (2310, "Lightning"),
     # Update 8 (Holiday Skins)
     (2321, "Wind"), (2331, "Light"), (2341, "Ice"), (2351, "Wind"), 
+    # Update 9 (PSO2 Chars Unique)
+    (2361, "Fire"), (2371, "Ice"),
     # Future updates
     (90000, None)
 ]
@@ -603,189 +668,100 @@ ca_itypes_interval = {
     P.closedopen(start, end): ele_type
     for (start, ele_type), (end, _) in zip(ca_itypes_order, ca_itypes_order[1:])
 }
+# Names of items
+mo_names = ["{jp_itype}：{jp_text}", "{tr_itype}：{tr_text}", "{tr_itype}: {tr_text}"]
+bp_names = ph_names = bg_names = aug_names = ou_m_names = ou_f_names = cp_m_names = cp_f_names = mou_names = ear_names = horn_names = body_names = ma_names = sv_names = ha_names = vo_names = ["{jp_text}", "{tr_text}", "{tr_text}"]
+ca_names = ["{jp_itype}{icost}：{jp_text}", "{tr_itype}{icost}：{tr_text}", "{tr_itype}{icost}: {tr_text}"]
 
-# ——————————————————————————————
-# ITEM CONFIGURATION
-# ——————————————————————————————
+# Texts of items
+mo_texts = [
+    "Mo「{jp_itype}：{jp_text}」", "Mo「{tr_itype}：{tr_text}」", "Mo \"{tr_itype}: {tr_text}\""]
+bp_texts = [
+    "BP「{jp_text}」",  "BP「{tr_text}」", "BP \"{tr_text}\""]
+ph_texts = [
+    "PH「{jp_text}」",  "PH「{tr_text}」", "PH \"{tr_text}\""]
+bg_texts = [
+    "Bg「{jp_text}」",  "Bg「{tr_text}」", "Bg \"{tr_text}\""]
+aug_texts = [
+    "C/{jp_text}", "C/{tr_text}", "C/{tr_text}"]
+ou_m_texts = ou_f_texts = cp_m_texts = cp_f_texts = mou_texts = ear_texts = horn_texts = body_texts = [
+    "{jp_text}", "{tr_text}", "{tr_text}"]
+ca_texts = [
+    "Ca「{jp_itype}{icost}{irare}：{jp_text}」", "Ca「{tr_itype}{icost}{irare}：{tr_text}」", "Ca \"{tr_itype} {icost}{irare}: {tr_text}\""]
+ma_texts = [
+    "Ma「{jp_text}」", "Ma「{tr_text}」", "Ma \"{tr_text}\""]
+sv_texts = [
+    "Sv「{jp_text}」", "Sv「{tr_text}」", "Sv \"{tr_text}\""]
+ha_texts = [
+    "Ha「{jp_text}」",  "Ha「{tr_text}」", "Ha \"{tr_text}\""]
+vo_texts = [
+    "{jp_text}", "{tr_text}", "{tr_text}"]
 
-ITEM_CONFIG = {
-    "mo": {
-        "file": "Item_NGS_Motion.txt",
-        "names": ["{jp_itype}：{jp_text}", "{tr_itype}：{tr_text}", "{tr_itype}: {tr_text}"],
-        "texts": ["Mo「{jp_itype}：{jp_text}」", "Mo「{tr_itype}：{tr_text}」", "Mo \"{tr_itype}: {tr_text}\""],
-        "explains": [
-            "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-            "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-            "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Not available in [PSO2] Blocks.<c>"
-        ]
-    },
-    "bp": {
-        "file": "Item_NGS_BuildParts.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["BP「{jp_text}」", "BP「{tr_text}」", "BP \"{tr_text}\""],
-        "explains": ["", "", ""]
-    },
-    "ph": {
-        "file": "Item_NGS_Portableholograms.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["PH「{jp_text}」", "PH「{tr_text}」", "PH \"{tr_text}\""],
-        "explains": [
-            "使用すると新しいポータブルホログラムが\n全キャラクターで選択可能になる。",
-            "使用後所有角色均可選用\n新的便攜全息投影。",
-            "Unlocks a new Portable Hologram for\nall characters on your account."
-        ]
-    },
-    "bg": {
-        "file": "Item_NGS_Backgrounds.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["Bg「{jp_text}」", "Bg「{tr_text}」", "Bg \"{tr_text}\""],
-        "explains": [
-            "使用すると新しいアークスカードの背景が\n全キャラクターで選択可能になる。",
-            "使用後所有角色均可選用\n新的ARKS名片背景。",
-            "Unlocks a new ARKS Card background\nfor all characters on your account."
-        ]
-    },
-    "aug": {
-        "file": "Item_NGS_CapsuleAbilities.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["C/{jp_text}", "C/{tr_text}", "C/{tr_text}"],
-        "explains": [
-            "特殊能力を\n武器、防具に追加するカプセル。",
-            "為武器、防具追加特殊能力的膠囊。",
-            "A capsule that adds a Special Ability\nto a weapon or piece of armor."
-        ]
-    },
-    "ou_m": {
-        "file": "Item_NGS_Outer_Male.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "explains": [
-            "使用すると新しいアウターウェアが\n選択可能になる。",
-            "使用後可選用新的外套。",
-            "Unlocks a new outerwear for use."
-        ]
-    },
-    "ou_f": {
-        "file": "Item_NGS_Outer_Female.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "explains": [
-            "使用すると新しいアウターウェアが\n選択可能になる。",
-            "使用後可選用新的外套。",
-            "Unlocks a new outerwear for use."
-        ]
-    },
-    "cp_m": {
-        "file": "Item_NGS_Parts_Male.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "explains": [
-            "使用すると新しい{jp_itype}が\n選択可能になる。",
-            "使用後可選用新的{tr_itype}。",
-            "Unlocks new {tr_itype} for use."
-        ]
-    },
-    "cp_f": {
-        "file": "Item_NGS_Parts_Female.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "explains": [
-            "使用すると新しい{jp_itype}が\n選択可能になる。",
-            "使用後可選用新的{tr_itype}。",
-            "Unlocks new {tr_itype} for use."
-        ]
-    },
-    "mou": {
-        "file": "Item_NGS_Mouth.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "explains": [
-            "使用すると新しい歯・舌が\n選択可能になる。",
-            "使用後可選用新的牙齒、舌頭。",
-            "Unlocks a new teeth and tongue\nset for use."
-        ]
-    },
-    "ear": {
-        "file": "Item_NGS_Ear.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "explains": [
-            "使用すると新しい耳が\n選択可能になる。",
-            "使用後可選用新的耳朵。",
-            "Unlocks a new ear shape for use."
-        ]
-    },
-    "horn": {
-        "file": "Item_NGS_Horn.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "explains": [
-            "使用すると新しい角が\n選択可能になる。",
-            "使用後可選用新的角。",
-            "Unlocks a new horn type for use."
-        ]
-    },
-    "body": {
-        "file": "Item_NGS_Body.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "explains": [
-            "使用すると新しい肌パターンが\n選択可能になる。\n<yellow>※対応：{jp_igen}<c>",
-            "使用後可選用新的皮膚種類。\n<yellow>※適用於：{tr_igen}<c>",
-            "Unlocks a new body type for use.\n<yellow>※Type: {tr_igen}<c>"
-        ]
-    },
-    "ca": {
-        "file": "Item_NGS_Card.txt",
-        "names": ["{jp_itype}{icost}：{jp_text}", "{tr_itype}{icost}：{tr_text}", "{tr_itype}{icost}: {tr_text}"],
-        "texts": ["Ca「{jp_itype}{icost}{irare}：{jp_text}」", "Ca「{tr_itype}{icost}{irare}：{tr_text}」", "Ca \"{tr_itype} {icost}{irare}: {tr_text}\""],
-        "explains": [
-            "使用すると新しいカードが\n全キャラクターで選択可能になる。",
-            "使用後所有角色均可選用新的卡牌。",
-            "Unlocks a new card for\nall characters on your account."
-        ]
-    },
-    "ma": {
-        "file": "Item_NGS_Playmat.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["Ma「{jp_text}」", "Ma「{tr_text}」", "Ma \"{tr_text}\""],
-        "explains": [
-            "使用すると新しいプレイマットが\n全キャラクターで選択可能になる。",
-            "使用後所有角色均可選用新的牌桌墊。",
-            "Unlocks a new playmat for\nall characters on your account."
-        ]
-    },
-    "sv": {
-        "file": "Item_NGS_Sleeve.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["Sv「{jp_text}」", "Sv「{tr_text}」", "Sv \"{tr_text}\""],
-        "explains": [
-            "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
-            "使用後所有角色均可選用新的牌套。",
-            "Unlocks a new card sleeve for\nall characters on your account."
-        ]
-    },
-    "ha": {
-        "file": "Item_Stack_LobbyAction.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["Ha「{jp_text}」", "Ha「{tr_text}」", "Ha \"{tr_text}\""],
-        "explains": [
-            "",
-            "使用後所有角色均可選用新的手部姿勢。\n<yellow>※不適用於一部分大廳動作/\n不適用於『PSO2』<c>",
-            "When used, allows you to select a\nnew hand pose for all characters.\n<yellow>※Does not support all Lobby Actions.\n※Cannot perform in [PSO2] Blocks.<c>"
-        ]
-    },
-    "vo": {
-        "file": "Item_Stack_Voice.txt",
-        "names": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "texts": ["{jp_text}", "{tr_text}", "{tr_text}"],
-        "explains": [
-            "",
-            "使用後，可選用新的語音。\nCV：{cv_tr_name}",
-            "Allows a new voice to be selected.\nUsable by all characters.\nCV: {cv_tr_name}"
-        ]
-    }
-}
+# Common explains of items
+mo_explains = [
+    "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
+    "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
+    "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Not available in [PSO2] Blocks.<c>"]
+bp_explains = [
+    "",
+    "",
+    ""]
+ph_explains = [
+    "使用すると新しいポータブルホログラムが\n全キャラクターで選択可能になる。",
+    "使用後所有角色均可選用\n新的便攜全息投影。",
+    "Unlocks a new Portable Hologram for\nall characters on your account."]
+bg_explains = [
+    "使用すると新しいアークスカードの背景が\n全キャラクターで選択可能になる。",
+    "使用後所有角色均可選用\n新的ARKS名片背景。",
+    "Unlocks a new ARKS Card background\nfor all characters on your account."]
+aug_explains = [
+    "特殊能力を\n武器、防具に追加するカプセル。",
+    "為武器、防具追加特殊能力的膠囊。",
+    "A capsule that adds a Special Ability\nto a weapon or piece of armor."]
+ou_m_explains = ou_f_explains = [
+    "使用すると新しいアウターウェアが\n選択可能になる。",
+    "使用後可選用新的外套。",
+    "Unlocks a new outerwear for use."]
+cp_m_explains = cp_f_explains = [
+    "使用すると新しい{jp_itype}が\n選択可能になる。",
+    "使用後可選用新的{tr_itype}。",
+    "Unlocks new {tr_itype} for use."]
+mou_explains = [
+    "使用すると新しい歯・舌が\n選択可能になる。",
+    "使用後可選用新的牙齒、舌頭。",
+    "Unlocks a new teeth and tongue\nset for use."]
+ear_explains = [
+    "使用すると新しい耳が\n選択可能になる。",
+    "使用後可選用新的耳朵。",
+    "Unlocks a new ear shape for use."]
+horn_explains = [
+    "使用すると新しい角が\n選択可能になる。",
+    "使用後可選用新的角。",
+    "Unlocks a new horn type for use."]
+body_explains = [
+    "使用すると新しい肌パターンが\n選択可能になる。\n<yellow>※対応：{jp_igen}<c>",
+    "使用後可選用新的皮膚種類。\n<yellow>※適用於：{tr_igen}<c>",
+    "Unlocks a new body type for use.\n<yellow>※Type: {tr_igen}<c>"]
+ca_explains = [
+    "使用すると新しいカードが\n全キャラクターで選択可能になる。",
+    "使用後所有角色均可選用新的卡牌。",
+    "Unlocks a new card for\nall characters on your account."]
+ma_explains = [
+    "使用すると新しいプレイマットが\n全キャラクターで選択可能になる。",
+    "使用後所有角色均可選用新的牌桌墊。",
+    "Unlocks a new playmat for\nall characters on your account."]
+sv_explains = [
+    "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
+    "使用後所有角色均可選用新的牌套。",
+    "Unlocks a new card sleeve for\nall characters on your account."]
+ha_explains = [
+    "",
+    "使用後所有角色均可選用新的手部姿勢。\n<yellow>※不適用於一部分大廳動作/\n不適用於『PSO2』<c>",
+    "When used, allows you to select a\nnew hand pose for all characters.\n<yellow>※Does not support all Lobby Actions.\n※Cannot perform in [PSO2] Blocks.<c>"]
+vo_explains = [
+    "",
+    "使用後，可選用新的語音。\nCV：{cv_tr_name}", 
+    "Allows a new voice to be selected.\nUsable by all characters.\nCV: {cv_tr_name}"]
 
 # [FUNCTION] Conditions and explains of special items
 def edit_sp_explains(prefix, jp_text, explains):
@@ -794,12 +770,7 @@ def edit_sp_explains(prefix, jp_text, explains):
             f"{explains[0]}\nアイテムラボの“強化素材交換”で\n特定のカプセルとの交換にも用いられる。",
             f"{explains[1]}\n也可在道具實驗室的“交換強化素材”處\n用於交換特定的膠囊。",
             f"{explains[2]}\nCan also be exchanged for specific\ncapsules at the Item Lab."]
-    elif prefix == "aug" and re.search(r"(EX.*A$)", jp_text):
-        explains = [
-            f"{explains[0]}\n<yellow>★７以上のEX特殊能力は１つのみ追加可能<c>",
-            f"{explains[1]}\n<yellow>僅可追加1個★7或以上的EX特殊能力<c>",
-            f"{explains[2]}\n<yellow>Only 1 EX Special Ability of\n7★ or above can be added<c>"]
-    elif prefix == "cp_f" and "クロウリック・アーム" in jp_text:
+    if prefix == "cp_f" and "クロウリック・アーム" in jp_text:
         explains = [
             f"{explains[0]}\n<yellow>※武器の構え位置自動調整<c>",
             f"{explains[1]}\n<yellow>※自動調整武器架勢的位置<c>",
@@ -827,152 +798,180 @@ def edit_sp_texts(prefix, jp_text, tr_text, text_id):
     
     return jp_text, tr_text
 
+# Find target JP lines
+mo_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in common_jp_lines
+    if text_id.startswith("Substitute_") and not jp_text.startswith(("￥"))]
+bp_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in accessories_jp_lines
+    if text_id.startswith(("ob_1", "ob_6")) and not jp_text.startswith(("￥", "text_"))]
+ph_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in accessories_jp_lines
+    if text_id.startswith("ob_7") and not jp_text.startswith(("￥", "text_"))]
+bg_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_start_jp_target_lines(charamake_parts_jp_lines, "10#0", "", r'^(\d{1,3})#')
+    if not jp_text.startswith(("￥", "text_"))]
+aug_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in element_name_jp_lines
+    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "ウェポンコネクタ", "￥", "-"))
+    or re.search(r"(EX.*A$)", jp_text)]
+ou_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
+    if re.match(r'^No\d{6}#', text_id)
+    and jp_text.endswith("[Ou]")
+    and not jp_text.startswith(("￥", "text_")) and (("NPC")) not in jp_text]
+ou_m_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in ou_jp_target_lines
+    if re.match(r'^No1\d{5}#', text_id)]
+ou_f_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in ou_jp_target_lines
+    if re.match(r'^No2\d{5}#', text_id)]
+cp_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
+    if re.match(r'^No\d{6}#', text_id)
+    and any(keyword in jp_text for keyword in ("・アーム", "・ボディ", "・レッグ"))
+    and not jp_text.startswith(("￥", "text_")) and (("NPC")) not in jp_text]
+cp_m_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in cp_jp_target_lines
+    if re.match(r'^No3\d{5}#', text_id)]
+cp_f_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in cp_jp_target_lines
+    if re.match(r'^No4\d{5}#', text_id)]
+mou_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(charamake_parts_jp_lines, "No100010#10", "", r'^No(1\d{5})#')]
+ear_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#4", "", r'^No(1\d{5})#')]
+horn_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#5", "", r'^No(1\d{5})#')]
+body_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#6", "", r'^No(\d{6})#')
+    if not jp_text.startswith(("￥", "text_")) and "NPC" not in jp_text]
+ca_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(lineduel_text_jp_lines, "10#0", "", r'^(\d+)#')]
+ca_jp_refer_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(lineduel_text_jp_lines, "10#1", "", r'^(\d+)#')]
+ma_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(lineduel_text_jp_lines, "0#2", "", r'^(\d+)#')]
+sv_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in
+    get_order_jp_target_lines(lineduel_text_jp_lines, "0#3", "", r'^(\d+)#')]
+ha_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in common_jp_lines
+    if text_id.startswith("LobbyAction_")]
+vo_jp_target_lines = [
+    (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
+    if text_id.startswith("11_voice_c")]
+
+# Find target translated texts
+mo_tr_target_texts = get_translation(mo_jp_target_lines, common_tr_lines)[0]
+bp_tr_target_texts = get_translation(bp_jp_target_lines, accessories_tr_lines)[0]
+ph_tr_target_texts = get_translation(ph_jp_target_lines, accessories_tr_lines)[0]
+bg_tr_target_texts = get_translation(bg_jp_target_lines, charamake_parts_tr_lines)[0]
+aug_tr_target_texts = get_translation(aug_jp_target_lines, element_name_tr_lines)[0]
+ou_m_tr_target_texts = get_translation(ou_m_jp_target_lines, charamake_parts_tr_lines)[0]
+ou_f_tr_target_texts = get_translation(ou_f_jp_target_lines, charamake_parts_tr_lines)[0]
+cp_m_tr_target_texts = get_translation(cp_m_jp_target_lines, charamake_parts_tr_lines)[0]
+cp_f_tr_target_texts = get_translation(cp_f_jp_target_lines, charamake_parts_tr_lines)[0]
+mou_tr_target_texts = get_translation(mou_jp_target_lines, charamake_parts_tr_lines)[0]
+ear_tr_target_texts = get_translation(ear_jp_target_lines, charamake_parts_tr_lines)[0]
+horn_tr_target_texts = get_translation(horn_jp_target_lines, charamake_parts_tr_lines)[0]
+ca_tr_target_texts = get_translation(ca_jp_target_lines, lineduel_text_tr_lines)[0]
+ma_tr_target_texts = get_translation(ma_jp_target_lines, lineduel_text_tr_lines)[0]
+sv_tr_target_texts = get_translation(sv_jp_target_lines, lineduel_text_tr_lines)[0]
+body_tr_target_texts = get_translation(body_jp_target_lines, charamake_parts_tr_lines)[0]
+ha_tr_target_texts = get_translation(ha_jp_target_lines, common_tr_lines)[0]
+vo_tr_target_texts = get_translation(vo_jp_target_lines, charamake_parts_tr_lines)[0]
+
 # [FUNCTION] Conditions of force to change the tradable info (only for CN)
 def extra_condition(prefix, jp_text, text_id):
-    conditions = {
-        "mo": lambda: jp_text.endswith("EX"),
-        "bp": lambda: (jp_text.startswith((
-            "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：", "スティラ：",
-            "『NGS", "『PSO2", "超・", "立体図形：", "立体数字：", "アクリル台座・", "ラインストライク",
-            "ベーシック", "モダン", "ゴシック", "クラシック", "スイート", "エキゾチックトラッド", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
-            "スペースシップ", "オッソリア", "ミニ")) and not jp_text.startswith("ミニミニ")),
-        "aug": lambda: jp_text.endswith(("S", "LC")),
-        "ca": lambda: text_id.endswith("0#0"),
-        "ha": lambda: True,
-        "default": lambda: False
-    }
-    return conditions.get(prefix, conditions["default"])()
+    if prefix == "mo":
+        return jp_text.endswith(("EX"))
+    elif prefix == "bp":
+        return (jp_text.startswith((
+        # NGS
+        "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：", "スティラ：",
+        "『NGS", "『PSO2", "超・", "立体図形：", "立体数字：", "アクリル台座・", "ラインストライク",
+        # PSO2 Theme
+        "ベーシック", "モダン", "ゴシック", "クラシック", "スイート", "エキゾチックトラッド", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
+        # PSO2 Others
+        "スペースシップ", "オッソリア",
+        # Mini
+        "ミニ")) and not jp_text.startswith(("ミニミニ"))
+        or jp_text.endswith(
+        "アクスタ"))
+    elif prefix == "ph":
+        return jp_text == ""
+    elif prefix == "bg":
+        return jp_text == ""
+    elif prefix == "aug":
+        return jp_text.endswith(("S", "LC"))
+    elif prefix == "ou_m":
+        return jp_text == ""
+    elif prefix == "ou_f":
+        return jp_text == ""
+    elif prefix == "cp_m":
+        return jp_text == ""
+    elif prefix == "cp_f":
+        return jp_text == ""
+    elif prefix == "mou":
+        return jp_text == ""
+    elif prefix == "ear":
+        return jp_text == ""
+    elif prefix == "horn":
+        return jp_text == ""
+    elif prefix == "body":
+        return jp_text == ""
+    elif prefix == "ca":
+        return text_id.endswith("0#0")
+    elif prefix == "ma":
+        return jp_text == ""
+    elif prefix == "sv":
+        return jp_text == ""
+    elif prefix == "ha":
+        return jp_text == jp_text
+    elif prefix == "vo":
+        return jp_text == ""
 
 # ——————————————————————————————
 # MAIN PROCESS
 # ——————————————————————————————
 
-# Parse all required source files
-common_jp_lines, common_tr_lines = load_source_lines("common")
-accessories_jp_lines, accessories_tr_lines = load_source_lines("accessories")
-charamake_parts_jp_lines, charamake_parts_tr_lines = load_source_lines("charamake_parts")
-element_name_jp_lines, element_name_tr_lines = load_source_lines("element_name")
-lineduel_text_jp_lines, lineduel_text_tr_lines = load_source_lines("lineduel_text")
+# [FUNCTION] Generate "NGS_" json files
+def main_generate_NGS(prefix):
+    # Get jp target lines and tr target texts from global variables
+    path = globals()[f"{prefix}_path"]
+    jp_target_lines = globals()[f"{prefix}_jp_target_lines"]
+    tr_target_texts = globals()[f"{prefix}_tr_target_texts"]
+    trade_infos = globals()[f"{prefix}_trade_infos"]
+    ca_cost_infos = globals()[f"ca_cost_infos"]
 
-# Parse swiki/makapo webs to get card cost
-parse_info("ngs_ca", cost_mapping, "cost")
+    # Initialize the processed items
+    processed_items = []
+    processed_item_texts = []
 
-# Parse swiki/makapo webs to get tradable info (only for CN)
-if LANG == 1:
-    for key in trade_mapping:
-        parse_info(key, trade_mapping, "trade")
-
-# Define target line extraction rules
-TARGET_LINE_EXTRACTORS = {
-    "mo": lambda: [(text_id, jp_text) for text_id, jp_text in common_jp_lines
-                   if text_id.startswith("Substitute_") and not jp_text.startswith(("￥"))],
-    "bp": lambda: [(text_id, jp_text) for text_id, jp_text in accessories_jp_lines
-                   if text_id.startswith(("ob_1", "ob_6")) and not jp_text.startswith(("￥", "text_"))],
-    "ph": lambda: [(text_id, jp_text) for text_id, jp_text in accessories_jp_lines
-                   if text_id.startswith("ob_7") and not jp_text.startswith(("￥", "text_"))],
-    "bg": lambda: [(text_id, jp_text) for text_id, jp_text in
-                   get_start_jp_target_lines(charamake_parts_jp_lines, "10#0", "", r'^(\d{1,3})#')
-                   if not jp_text.startswith(("￥", "text_"))],
-    "aug": lambda: [(text_id, jp_text) for text_id, jp_text in element_name_jp_lines
-                    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "ウェポンコネクタ", "￥", "-"))
-                    or re.search(r"(EX.*A$)", jp_text)],
-    "ou_m": lambda: [(text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-                     if re.match(r'^No1\d{5}#', text_id) and jp_text.endswith("[Ou]")
-                     and not jp_text.startswith(("￥", "text_")) and "NPC" not in jp_text],
-    "ou_f": lambda: [(text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-                     if re.match(r'^No2\d{5}#', text_id) and jp_text.endswith("[Ou]")
-                     and not jp_text.startswith(("￥", "text_")) and "NPC" not in jp_text],
-    "cp_m": lambda: [(text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-                     if re.match(r'^No3\d{5}#', text_id)
-                     and any(keyword in jp_text for keyword in ("・アーム", "・ボディ", "・レッグ"))
-                     and not jp_text.startswith(("￥", "text_")) and "NPC" not in jp_text],
-    "cp_f": lambda: [(text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-                     if re.match(r'^No4\d{5}#', text_id)
-                     and any(keyword in jp_text for keyword in ("・アーム", "・ボディ", "・レッグ"))
-                     and not jp_text.startswith(("￥", "text_")) and "NPC" not in jp_text],
-    "mou": lambda: get_order_jp_target_lines(charamake_parts_jp_lines, "No100010#10", "", r'^No(1\d{5})#'),
-    "ear": lambda: get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#4", "", r'^No(1\d{5})#'),
-    "horn": lambda: get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#5", "", r'^No(1\d{5})#'),
-    "body": lambda: [(text_id, jp_text) for text_id, jp_text in
-                     get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#6", "", r'^No(\d{6})#')
-                     if not jp_text.startswith(("￥", "text_")) and "NPC" not in jp_text],
-    "ca": lambda: get_order_jp_target_lines(lineduel_text_jp_lines, "10#0", "", r'^(\d+)#'),
-    "ma": lambda: get_order_jp_target_lines(lineduel_text_jp_lines, "0#2", "", r'^(\d+)#'),
-    "sv": lambda: get_order_jp_target_lines(lineduel_text_jp_lines, "0#3", "", r'^(\d+)#'),
-    "ha": lambda: [(text_id, jp_text) for text_id, jp_text in common_jp_lines
-                   if text_id.startswith("LobbyAction_")],
-    "vo": lambda: [(text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-                   if text_id.startswith("11_voice_c")]
-}
-
-# ca_jp_refer_lines for special text editing
-ca_jp_refer_lines = get_order_jp_target_lines(lineduel_text_jp_lines, "10#1", "", r'^(\d+)#')
-
-# Storage for target lines and translations
-TARGET_LINES = {}
-TARGET_TEXTS = {}
-
-# Find target JP lines and translations
-for prefix in ITEM_CONFIG:
-    if prefix in TARGET_LINE_EXTRACTORS:
-        jp_lines = TARGET_LINE_EXTRACTORS[prefix]()
-        TARGET_LINES[prefix] = jp_lines
-        
-        # Determine which source lines to use for translation
-        if prefix in ["mo", "ha"]:
-            source_lines = common_tr_lines
-        elif prefix in ["bp", "ph"]:
-            source_lines = accessories_tr_lines
-        elif prefix in ["bg", "ou_m", "ou_f", "cp_m", "cp_f", "mou", "ear", "horn", "body", "vo"]:
-            source_lines = charamake_parts_tr_lines
-        elif prefix == "aug":
-            source_lines = element_name_tr_lines
-        elif prefix in ["ca", "ma", "sv"]:
-            source_lines = lineduel_text_tr_lines
-        else:
-            source_lines = []
-        
-        # Get translations
-        tr_texts = get_translation(jp_lines, source_lines)[0]
-        TARGET_TEXTS[prefix] = tr_texts
-def main_process_items(prefix, is_stack=False):
-    config = ITEM_CONFIG.get(prefix)
-    if not config:
-        return
-    
-    # Get jp target lines and tr target texts from dictionaries
-    path = config["file"]
-    jp_target_lines = TARGET_LINES.get(prefix, [])
-    tr_target_texts = TARGET_TEXTS.get(prefix, [])
-    trade_infos = TRADE_INFOS[prefix]
-
-    # Load existing items for Stack_ mode
-    if is_stack:
-        with open(os.path.join(jsonfile_dir, path), "r", encoding='utf-8') as f:
-            processed_items = json.load(f)
-        processed_count = 0
-    else:
-        processed_items = []
-        processed_item_texts = []
-
-    # Start the loop to process items
+    # Start the loop to generate item
     for i, (text_id, jp_text) in enumerate(jp_target_lines):
-        # Initialize variables
+        # Initialize
         tr_text = ""
         jp_itype = tr_itype = ""
         jp_igen = tr_igen = ""
         irare = ""
         icost = ""
-        cv_tr_name = ""
 
-        # Get translated text
-        if LANG != 0 and i < len(tr_target_texts):
+        # Get translated text from texts
+        if LANG != 0:
             tr_text = tr_target_texts[i]
-        
-        # Edit special texts of special items
+        # Edit special texts of special item
         jp_text, tr_text = edit_sp_texts(prefix, jp_text, tr_text, text_id)
-        
-        # Get category/type information based on prefix
+        # Get category and the category name for certain prefixes
         if prefix == "mo":
             itype = text_id.split("_")[1]
             jp_itype = mo_itypes[itype][0]
@@ -996,104 +995,168 @@ def main_process_items(prefix, is_stack=False):
                     itype = ele_type
             jp_itype = ca_itypes[itype][0]
             tr_itype = ca_itypes[itype][LANG]
-        
-        # Get gender/generation information for certain prefixes
+        # Get gender and the gender name for certain prefixes
         if prefix == "body":
-            igen = "a1" if text_id.startswith("No1") else "a2"
+            if text_id.startswith("No1"):
+                igen = "a1"
+            elif text_id.startswith("No2"):
+                igen = "a2"
             jp_igen = igens[igen][0]
             tr_igen = igens[igen][LANG]
-        
-        # Get rarity and cost for certain prefixes
+        # Get rarity for certain prefixes
+        if prefix == "ca" and text_id.endswith("1#0"):
+            irare = "R"
+        # Get cost for certain prefixes
         if prefix == "ca":
-            if text_id.endswith("1#0"):
-                irare = "R"
             icost = ca_cost_infos.get((jp_text, jp_itype), [""])[0]
             if (jp_text, jp_itype) in ca_cost_infos and ca_cost_infos[(jp_text, jp_itype)]:
                 del ca_cost_infos[(jp_text, jp_itype)][0]
             if not icost:
                 icost = record_name(path, jp_text, jp_itype) or "?"
+
+        # Get names and texts from global variables
+        names = [name.format(
+            jp_itype = jp_itype, tr_itype = tr_itype,
+            icost = icost,
+            jp_text = jp_text, tr_text = tr_text)
+            for name in globals()[f"{prefix}_names"]]
+        texts = [text.format(
+            jp_itype = jp_itype, tr_itype = tr_itype,
+            icost = icost, irare = irare,
+            jp_text = jp_text, tr_text = tr_text)
+            for text in globals()[f"{prefix}_texts"]]
+        explains = [explain.format(
+            jp_itype = jp_itype, tr_itype = tr_itype,
+            jp_igen = jp_igen, tr_igen = tr_igen)
+            for explain in globals()[f"{prefix}_explains"]]
+        # Edit the explains of special item
+        explains = edit_sp_explains(prefix, jp_text, explains)
+
+        # Determine if generating the same item
+        repeated = False
+        for item in processed_items:
+            if texts[0] == item["jp_text"]:
+                repeated = True
+        if repeated == True:
+            continue 
+        # Get tradable info from global variable
+        if extra_condition(prefix, jp_text, text_id):
+            trade_infos[names[0]] = "Untradable"
+        trade_info = trade_infos.get(names[0], "")
+        # Record descriptions
+        rec_descs = record_desc(path, texts[0])
+        # Item format
+        item_format = {
+            "jp_text": "",
+            "tr_text": "",
+            "jp_explain": "",
+            "tr_explain": "",
+            "assign": 0}
         
-        # Get special voice name combinations
-        if prefix == "vo" and is_stack:
+        # Generate item
+        item = form_itemdata(item_format, names, texts, jp_text, tr_text, explains, rec_descs, trade_info)
+        # Form the processed data
+        processed_items.append(item)
+        processed_item_texts.append(rec_descs[3])
+
+    # Write to json file
+    check_if_delete(processed_item_texts, path)
+    write_to_json(processed_items, jsonfile_dir, path)
+    print(f'PROGRESS: processed {len(processed_items)} items in "{path}".')
+
+# [FUNCTION] Generate "Stack_" json files
+def main_edit_Stack(prefix):
+    # Get jp target lines and tr target texts from global variables
+    path = globals()[f"{prefix}_path"]
+    jp_target_lines = globals()[f"{prefix}_jp_target_lines"]
+    tr_target_texts = globals()[f"{prefix}_tr_target_texts"]
+    trade_infos = globals()[f"{prefix}_trade_infos"]
+
+     # Initialize the processed items
+    with open(os.path.join(jsonfile_dir, path), "r", encoding='utf-8') as f:
+        processed_items = json.load(f)
+    processed_count = 0
+
+    # Start the loop to generate item
+    for i, (text_id, jp_text) in enumerate(jp_target_lines):
+        # Initialize
+        tr_text = ""
+        jp_itype = tr_itype = ""
+        cv_tr_name = ""
+
+        # Get translated text from texts
+        if LANG != 0:
+            tr_text = tr_target_texts[i]
+
+        # Initialize
+        jp_texts = [jp_text]
+        tr_texts = [tr_text]
+
+        # Get special item names for vo
+        if prefix == "vo":
             jp_texts, tr_texts, cv_tr_name = form_vo_names(text_id, jp_text, tr_text)
-        else:
-            jp_texts, tr_texts = [jp_text], [tr_text]
-        
-        # Process each text variant
-        for j, jp_text in enumerate(jp_texts):
-            tr_text = tr_texts[j]
-            
-            # Format names, texts, and explains
-            format_vars = {
-                "jp_itype": jp_itype, "tr_itype": tr_itype,
-                "icost": icost, "irare": irare,
-                "jp_text": jp_text, "tr_text": tr_text,
-                "jp_igen": jp_igen, "tr_igen": tr_igen,
-                "cv_tr_name": cv_tr_name
-            }
-            
-            names = [name.format(**format_vars) for name in config["names"]]
-            texts = [text.format(**format_vars) for text in config["texts"]]
-            explains = [exp.format(**format_vars) for exp in config["explains"]]
+
+        for i, jp_text in enumerate(jp_texts):
+            tr_text = tr_texts[i]
+            # Get names and texts from global variables
+            names = [name.format(
+                jp_text = jp_text, tr_text = tr_text)
+                for name in globals()[f"{prefix}_names"]]
+            texts = [text.format(
+                jp_text = jp_text, tr_text = tr_text)
+                for text in globals()[f"{prefix}_texts"]]
+            explains = [explain.format(
+                jp_itype = jp_itype, tr_itype = tr_itype,
+                cv_tr_name = cv_tr_name if prefix == "vo" else None)
+                for explain in globals()[f"{prefix}_explains"]]
+            # Edit the explains of special item
             explains = edit_sp_explains(prefix, jp_text, explains)
-            
-            # Check for duplicates (generation mode only)
-            if not is_stack:
-                if any(texts[0] == item["jp_text"] for item in processed_items):
-                    continue
-            
-            # Set tradability
+
+            # Get tradable info from global variable
             if extra_condition(prefix, jp_text, text_id):
                 trade_infos[names[0]] = "Untradable"
             trade_info = trade_infos.get(names[0], "")
-            
             # Record descriptions
             rec_descs = record_desc(path, texts[0])
-            
-            # Create or update item
-            if is_stack:
-                # For Stack_ mode: update existing item
-                alt_name0 = width_process_string(names[0])
-                alt_text0 = texts[0].replace(names[0], alt_name0)
-                
+
+            # Item formats
+            items_format = []
+            # Form the alter version of texts[0]
+            text_index = texts[0].index(names[0])
+            text0_left = texts[0][:text_index]
+            text0_right = texts[0][text_index + len(names[0]):]
+            alt_name0 = width_process_string(names[0])
+            alt_text0 = text0_left + alt_name0 + text0_right
+            # Get the item format
+            for processed_item in processed_items:
+                if processed_item["jp_text"] in (texts[0], alt_text0):
+                    items_format.append(processed_item)
+            for item_format in items_format:
+                assign = item_format["assign"]
+                # Generate item
+                item = form_itemdata(item_format, names, texts, jp_text, tr_text, explains, rec_descs, trade_info)
                 for processed_item in processed_items:
-                    if processed_item["jp_text"] in (texts[0], alt_text0):
-                        item_format = processed_item.copy()
-                        item = form_itemdata(item_format, names, texts, jp_text, tr_text, explains, rec_descs, trade_info)
+                    # Find lines with existing descriptions
+                    if processed_item["assign"] == assign:
                         for key in processed_item:
                             processed_item[key] = item.get(key, processed_item[key])
-                        processed_count += 1
-            else:
-                # For NGS_ mode: generate new item
-                item_format = {
-                    "jp_text": "",
-                    "tr_text": "",
-                    "jp_explain": "",
-                    "tr_explain": "",
-                    "assign": 0
-                }
-                item = form_itemdata(item_format, names, texts, jp_text, tr_text, explains, rec_descs, trade_info)
-                processed_items.append(item)
-                processed_item_texts.append(rec_descs[3])
-    
-    # Save results
+                # Add the count
+                processed_count = processed_count + 1
+
+    # Write to json file
     write_to_json(processed_items, jsonfile_dir, path)
-    if is_stack:
-        print(f'PROGRESS: processed {processed_count} items in "{path}".')
-    else:
-        check_if_delete(processed_item_texts, path)
-        print(f'PROGRESS: processed {len(processed_items)} items in "{path}".')
+    print(f'PROGRESS: processed {processed_count} items in "{path}".')
 
 # Generate "NGS_" json files
 process_prefixes = ["mo", "bp", "ph", "bg", "aug", "ou_m", "ou_f", "cp_m", "cp_f", "mou", "ear", "horn", "body", "ca", "ma", "sv"]
 for prefix in process_prefixes:
-    main_process_items(prefix, is_stack=False)
+     main_generate_NGS(prefix)
 
 # Generate "Stack_" json files (only for CN)
 if LANG == 1:
     process_prefixes = ["ha", "vo"]
     for prefix in process_prefixes:
-        main_process_items(prefix, is_stack=True)
+        main_edit_Stack(prefix)
 
 # ——————————————————————————————
 
