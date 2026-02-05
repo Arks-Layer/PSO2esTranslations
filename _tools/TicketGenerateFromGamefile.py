@@ -905,8 +905,7 @@ def extra_condition(prefix, jp_text, text_id):
         "スペースシップ", "オッソリア",
         # Mini
         "ミニ")) and not jp_text.startswith(("ミニミニ"))
-        or jp_text.endswith(
-        "アクスタ"))
+        )
     elif prefix == "ph":
         return jp_text == ""
     elif prefix == "bg":
