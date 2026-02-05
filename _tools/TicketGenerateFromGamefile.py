@@ -654,7 +654,7 @@ ca_itypes_order = [
     # Update 7 (NGS Captan, Maid Skins, GiruPuri Collab)
     (2160, "Wind"), (2170, "Fire"), (2180, "Ice"), (2191, "Light"), (2201, "Fire"),
     # Update 9 (PSO2 Chars Pt.2)
-    (2210, "Fire"), (2230, "Ice"), (2250, "Wind"), (2270, "Light"), (2280, "Darkness"),
+    (2210, "Fire"), (2230, "Ice"), (2250, "Wind"), (2270, "Light"), (2280, "Dark"),
     # Update 9 (Central! Chars)
     (2290, "Light"), (2300, "Wind"), (2310, "Lightning"),
     # Update 8 (Holiday Skins)
@@ -787,7 +787,7 @@ def edit_sp_texts(prefix, jp_text, tr_text, text_id):
         sp_texts = ["アルクェイド", "愛爾奎特", "Arcueid"]
         jp_text = sp_texts[0]
         tr_text = sp_texts[LANG]
-    elif prefix == "ca" and jp_refer == "サマーバケーション":
+    elif prefix == "ca" and jp_refer == "サマーバケーション"and "せんとらるっ！" not in jp_text:
         sp_texts = ["（サマー）", "（夏季）", " (Summer)"]
         jp_text += sp_texts[0]
         tr_text += sp_texts[LANG]
@@ -1007,7 +1007,7 @@ def main_generate_NGS(prefix):
             irare = "R"
         # Get cost for certain prefixes
         if prefix == "ca":
-            icost = ca_cost_infos.get((jp_text, jp_itype), [""])[0]
+            icost = ca_cost_infos[(jp_text, jp_itype)][0]
             if (jp_text, jp_itype) in ca_cost_infos and ca_cost_infos[(jp_text, jp_itype)]:
                 del ca_cost_infos[(jp_text, jp_itype)][0]
             if not icost:
