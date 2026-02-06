@@ -9,7 +9,7 @@ import portion as P
 # LANGUAGE SETTING
 # ——————————————————————————————
 
-# This tool is used to generate "NGS_" json files
+# This tool is for generating "NGS_" json files
 # or to edit "Stack_" json files from the main game files.
 
 LANG = 1
@@ -103,9 +103,11 @@ trade_mapping = {
     'ngs_bg': ('アークスカード', (bg_trade_infos, )),
     'ngs_ma': ('ラインストライク', (ma_trade_infos, sv_trade_infos, )),
     'ngs_vo': ('エステ/ボイス', (vo_trade_infos, )),
-    'o2_vo': ('エステ/ボイス', (vo_trade_infos, ))}
+    'o2_vo': ('エステ/ボイス', (vo_trade_infos, ))
+    }
 cost_mapping = {
-    'ngs_ca': ('ラインストライク/カード', (ca_cost_infos, ))}
+    'ngs_ca': ('ラインストライク/カード', (ca_cost_infos, ))
+    }
 
 # Path of json folder
 jsonfile_dir = os.path.abspath(os.path.join(root_dir, os.pardir, "json"))
@@ -315,6 +317,28 @@ def get_start_jp_target_lines(lines, start_id, end_id, id_pattern):
 
 # [FUNCTION] Get JP target lines from ordered lines
 def get_order_jp_target_lines(lines, start_id, end_id, id_pattern):
+    # Check if start_id is a single string or a tuple/list
+    if isinstance(start_id, (list, tuple)):
+        # If it is a combination, separate start_id and start_refer_id
+        s_id = start_id[0]
+        s_refer_id = start_id[1]
+        
+        # Fetch target lines for both main text and reference text
+        text_list = get_order_jp_target_lines(lines, s_id, end_id, id_pattern)
+        refer_list = get_order_jp_target_lines(lines, s_refer_id, end_id, id_pattern)
+        
+        # Create a lookup dictionary from refer_list
+        refer_lookup = {item[0].split('#')[0]: item[1] for item in refer_list}
+        
+        # Merge lists based on the prefix of text_id
+        merged_lines = []
+        for t_id, t_content in text_list:
+            match_key = t_id.split('#')[0]
+            r_content = refer_lookup.get(match_key, "")
+            merged_lines.append((t_id, t_content, r_content))
+            
+        return merged_lines
+
     # Initialize
     start_row = 0
     order_jp_target_lines = []
@@ -462,7 +486,7 @@ def get_translation(jp_target_lines, tr_lines):
     tr_target_texts = []
     tr_target_lines = []
 
-    for text_id, jp_text in jp_target_lines:
+    for text_id, jp_text, *jp_refer in jp_target_lines:
         if LANG == 1:
             tr_text = next((tr_text for ori_text, tr_text in tr_lines if ori_text == jp_text), None)
         else:
@@ -778,11 +802,9 @@ def edit_sp_explains(prefix, jp_text, explains):
     return explains
 
 # [FUNCTION] Special item texts of special items
-def edit_sp_texts(prefix, jp_text, tr_text, text_id):
-    # Get jp_refer
-    text_id = text_id.split("#")[0] + "#1"
-    jp_refer = next((jp_refer for refer_id, jp_refer in ca_jp_refer_lines if text_id == refer_id), None)
-
+def edit_sp_texts(prefix, jp_text, tr_text, jp_refer):
+    jp_refer = jp_refer[0] if jp_refer else ""
+    
     if prefix == "ca" and jp_text == "アルクェイド・ブリュンスタッド":
         sp_texts = ["アルクェイド", "愛爾奎特", "Arcueid"]
         jp_text = sp_texts[0]
@@ -852,11 +874,8 @@ body_jp_target_lines = [
     get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#6", "", r'^No(\d{6})#')
     if not jp_text.startswith(("￥", "text_")) and "NPC" not in jp_text]
 ca_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in
-    get_order_jp_target_lines(lineduel_text_jp_lines, "10#0", "", r'^(\d+)#')]
-ca_jp_refer_lines = [
-    (text_id, jp_text) for text_id, jp_text in
-    get_order_jp_target_lines(lineduel_text_jp_lines, "10#1", "", r'^(\d+)#')]
+    (text_id, jp_text, jp_refer) for text_id, jp_text, jp_refer in
+    get_order_jp_target_lines(lineduel_text_jp_lines, ("10#0", "10#1"), "", r'^(\d+)#')]
 ma_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in
     get_order_jp_target_lines(lineduel_text_jp_lines, "0#2", "", r'^(\d+)#')]
@@ -956,20 +975,25 @@ def main_generate_NGS(prefix):
     processed_items = []
     processed_item_texts = []
 
+    # Initialize the card records
+    if prefix == "ca":
+        ca_jp_combis_records = set()
+
     # Start the loop to generate item
-    for i, (text_id, jp_text) in enumerate(jp_target_lines):
+    for i, (text_id, jp_text, *jp_refer) in enumerate(jp_target_lines):
         # Initialize
         tr_text = ""
         jp_itype = tr_itype = ""
         jp_igen = tr_igen = ""
         irare = ""
         icost = ""
+        jp_refer = jp_refer[0] if jp_refer else ""
 
         # Get translated text from texts
         if LANG != 0:
             tr_text = tr_target_texts[i]
         # Edit special texts of special item
-        jp_text, tr_text = edit_sp_texts(prefix, jp_text, tr_text, text_id)
+        jp_text, tr_text = edit_sp_texts(prefix, jp_text, tr_text, jp_refer)
         # Get category and the category name for certain prefixes
         if prefix == "mo":
             itype = text_id.split("_")[1]
@@ -1002,15 +1026,18 @@ def main_generate_NGS(prefix):
                 igen = "a2"
             jp_igen = igens[igen][0]
             tr_igen = igens[igen][LANG]
-        # Get rarity for certain prefixes
-        if prefix == "ca" and text_id.endswith("1#0"):
-            irare = "R"
-        # Get cost for certain prefixes
+        # Get rarity & cost for certain prefixes
         if prefix == "ca":
-            icost = ca_cost_infos[(jp_text, jp_itype)][0]
-            if (jp_text, jp_itype) in ca_cost_infos and ca_cost_infos[(jp_text, jp_itype)]:
-                del ca_cost_infos[(jp_text, jp_itype)][0]
-            if not icost:
+            ca_jp_combi = (jp_text, jp_refer, itype)
+            if text_id.endswith("1#0"):
+                if ca_jp_combi in ca_jp_combis_records:
+                    irare = "U"
+                else:
+                    irare = "R"
+                ca_jp_combis_records.add(ca_jp_combi)
+            if ca_cost_infos.get((jp_text, jp_itype)):
+                icost = ca_cost_infos[(jp_text, jp_itype)].pop(0)
+            else:
                 icost = record_name(path, jp_text, jp_itype) or "?"
 
         # Get names and texts from global variables
