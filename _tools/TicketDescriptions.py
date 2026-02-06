@@ -6,7 +6,7 @@ import os
 import regex
 import argparse
 
-json_loc = os.path.join("..", "json")
+json_loc = os.path.join("", "json")
 
 parser = argparse.ArgumentParser(
     description = "Translates ticket item descriptions.")
@@ -175,7 +175,7 @@ ngs_locks = ["※Not available in [PSO2] Blocks.",
 ngsface_locks = ["※Not compatible with PSO2 faces.",
                                      "",
                                      "※Не совместимо с PSO2 лицами.",
-                                     "※不適用於『PSO2』面部類型"]
+                                     "※不適用於『PSO2』臉部類型"]
 
 # JP text: 
     # ※『PSO2』ではLv.100以上の\n
@@ -1562,7 +1562,7 @@ cosmeticsorted_file_names = [
 
 cosmeticsorted_types = {
     "Head": ["head", "헤드 파츠", "голова", "頭部"],
-    "Facetype": ["face type", "얼굴 바리에이션", "тип лица", "面部類型"],
+    "Facetype": ["face type", "얼굴 바리에이션", "тип лица", "臉部類型"],
     "Headparts": ["head parts", "헤드 파츠", "части головы", "頭部部件"],
     "Bodyparts": ["body parts", "바디 파츠", "части тела", "身體部件"],
     "Armparts": ["arm parts", "암 파츠", "части рук", "臂部部件"],
