@@ -794,7 +794,12 @@ def edit_sp_explains(prefix, jp_text, explains):
             f"{explains[0]}\nアイテムラボの“強化素材交換”で\n特定のカプセルとの交換にも用いられる。",
             f"{explains[1]}\n也可在道具實驗室的“交換強化素材”處\n用於交換特定的膠囊。",
             f"{explains[2]}\nCan also be exchanged for specific\ncapsules at the Item Lab."]
-    if prefix == "cp_f" and "クロウリック・アーム" in jp_text:
+    elif prefix == "aug" and re.search(r"(EX.*A$)", jp_text):
+        explains = [
+            f"{explains[0]}\n<yellow>★７以上のEX特殊能力は１つのみ追加可能<c>",
+            f"{explains[1]}\n<yellow>僅可追加1個★7或以上的EX特殊能力<c>",
+            f"{explains[2]}\n<yellow>Only 1 EX Special Ability of\n7★ or above can be added<c>"]
+    elif prefix == "cp_f" and "クロウリック・アーム" in jp_text:
         explains = [
             f"{explains[0]}\n<yellow>※武器の構え位置自動調整<c>",
             f"{explains[1]}\n<yellow>※自動調整武器架勢的位置<c>",
