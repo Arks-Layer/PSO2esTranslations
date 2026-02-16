@@ -224,7 +224,7 @@ def parse_data(file_path, file_type):
                                         ['マイショップ出品不可', '初期', 'alt="GP"', 'alt="SG"', '交換</td>', '季節イベント</td>','トレジャースクラッチ', 'SPスクラッチ</td>', '開発準備特別票</td>', 'クラス育成特別プログラム', '初期登録</td>']):
                                         trade_infos[jp_text] = "Untradable"
                                 elif headname == 'Ca':
-                                    match = re.match(r'Ca「(.*?)([0-9])R?：(.*?)」', n_line)
+                                    match = re.match(r'Ca「(.*?)([0-9])[RU]?：(.*?)」', n_line)
                                     if match:
                                         jp_text = match.group(3)
                                         jp_itype = match.group(1)
