@@ -822,6 +822,9 @@ def edit_sp_texts(prefix, jp_text, tr_text, jp_refer):
         sp_texts = ["（ホリデイ）", "（假日）", " (Holiday)"]
         jp_text += sp_texts[0]
         tr_text += sp_texts[LANG]
+    elif prefix == "ca" and "せんとらるっ！　" in jp_text:
+        sp_char = "！"
+        jp_text = jp_text.replace(sp_char + "　", sp_char)
     
     return jp_text, tr_text
 
