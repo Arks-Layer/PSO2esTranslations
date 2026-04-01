@@ -19666,8 +19666,8 @@
 	},
 	{
 		"assign": "acceptbox_point_over_message",
-		"jp_text": "<%item_name>が所持数をオーバーしているので\n受け取ることができません。\n",
-		"tr_text": "You do not have enough\nspace to accept <%item_name>.\n"
+		"jp_text": "<%item_name>が所持数をオーバーしている\nので受け取ることができません。\n",
+		"tr_text": ""
 	},
 	{
 		"assign": "acceptbox_materialchip_over_message",
