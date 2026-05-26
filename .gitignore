@@ -31,6 +31,8 @@ ExportedObj/
 Icon?
 ehthumbs.db
 Thumbs.db
+..gitignore.kate-swp
+..gitignore.swp
 
 # ====== #
 # Python #
@@ -58,3 +60,10 @@ __pycache__
 # CircleCI #
 # ======== #
 /patchJP.zip
+
+# ====================== #
+# Custom files & folders #
+# ====================== #
+importer.py
+whitelist_files.txt
+import.json
