@@ -4,6 +4,7 @@ import json
 import requests
 import unicodedata
 import portion as P
+import urllib3
 
 # ——————————————————————————————
 # LANGUAGE SETTING
@@ -140,7 +141,8 @@ vo_path = "Item_Stack_Voice.txt"
 def get_web(url):
     url_part = url.rsplit('/', 1)[-1].split('?', 1)[-1]
     # Send the get request
-    response = requests.get(url)
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    response = requests.get(url, verify=False)
     # If successed, load the data
     if response.status_code == 200:
         lines = response.text
