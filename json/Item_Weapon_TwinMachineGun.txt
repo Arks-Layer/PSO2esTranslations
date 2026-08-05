@@ -1817,7 +1817,7 @@
 		"jp_text": "ストラーガマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鬥爭之巨雙機槍”<c>\n"
+		"tr_explain": "<green>“屠戮之巨雙機槍”<c>\n"
 	},
 	{
 		"assign": "1100447",
@@ -2125,14 +2125,14 @@
 		"jp_text": "ミレニアムラウンドマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“千年槍彈雙機槍”<c>"
+		"tr_explain": "<green>“千年槍彈雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010086",
 		"jp_text": "エレディムマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“繼承雙機槍”<c>"
+		"tr_explain": "<green>“繼承雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010087",
@@ -2146,14 +2146,14 @@
 		"jp_text": "ウィンガルドマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鋼翼加護雙機槍”<c>"
+		"tr_explain": "<green>“鋼翼加護雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010089",
 		"jp_text": "エオニ・ディケリオンマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永世·丟卡利翁雙機槍”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010090",
@@ -2174,33 +2174,33 @@
 		"jp_text": "リクスタルマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“特六式雙機槍”<c>"
+		"tr_explain": "<green>“特六式雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010095",
 		"jp_text": "エクセリオマシンガン",
 		"tr_text": "エクセリオマシンガン",
 		"jp_explain": "",
-		"tr_explain": "<green>“擴升雙機槍”<c>"
+		"tr_explain": "<green>“躍升雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010101",
 		"jp_text": "デュオセリオマシンガン",
-		"tr_text": "二階擴升雙機槍",
+		"tr_text": "二階躍升雙機槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "110010102",
 		"jp_text": "トライセリオマシンガン",
-		"tr_text": "三階擴升雙機槍",
+		"tr_text": "三階躍升雙機槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "110010103",
 		"jp_text": "アクロセリオマシンガン",
-		"tr_text": "極階擴升雙機槍",
+		"tr_text": "極階躍升雙機槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -2230,33 +2230,124 @@
 		"jp_text": "クローディムマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳承雙機槍”<c>"
+		"tr_explain": "<green>“遺承雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010107",
 		"jp_text": "レジェスマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳奇雙機槍”<c>"
+		"tr_explain": "<green>“傳奇雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010083",
 		"jp_text": "クレス・ローザマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": ""
+		"tr_explain": "<green>“盈煌·玫瑰雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010060",
 		"jp_text": "ユヴェールマシンガン",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“寶珠雙機槍”<c>"
+		"tr_explain": "<green>“寶珠雙機槍”<c>\n"
 	},
 	{
 		"assign": "110010110",
 		"jp_text": "エピス・イリニオンマシンガンⅡ",
 		"tr_text": "飾語·厄瑞涅雙機槍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "110010113",
+		"jp_text": "ゼネス・ローザマシンガン",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“極煌·薔薇雙機槍”<c>\n"
+	},
+	{
+		"assign": "110010114",
+		"jp_text": "ヴォルヘールマシンガン",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“琢珠雙機槍”<c>\n"
+	},
+	{
+		"assign": "110010115",
+		"jp_text": "アインデールマシンガン",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“璧珠雙機槍”<c>\n"
+	},
+	{
+		"assign": "110010117",
+		"jp_text": "クレス・ローザマシンガンAT",
+		"tr_text": "盈煌·玫瑰雙機槍AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "110010118",
+		"jp_text": "レイティーマシンガン",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳奇樸實雙機槍”<c>\n"
+	},
+	{
+		"assign": "110010126",
+		"jp_text": "エピス・イリニオンマシンガンⅢ",
+		"tr_text": "飾語·厄瑞涅雙機槍3",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "110010111",
+		"jp_text": "アルセ・デュアルバード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“本原·雙鳥”<c>\n"
+	},
+	{
+		"assign": "110010127",
+		"jp_text": "トワル・レルヒマシンガンⅡ",
+		"tr_text": "十二式·雲雀雙機槍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "110010128",
+		"jp_text": "レジェスマシンガンⅡ",
+		"tr_text": "傳奇雙機槍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "110010129",
+		"jp_text": "レイティーマシンガンⅡ",
+		"tr_text": "傳奇樸實雙機槍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "110010130",
+		"jp_text": "トワル・レルヒマシンガンAT",
+		"tr_text": "十二式·雲雀雙機槍AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "110010098",
+		"jp_text": "スプラディオマシンガン",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“秘芽雙機槍”<c>\n"
+	},
+	{
+		"assign": "110010131",
+		"jp_text": "リフラディオマシンガン",
+		"tr_text": "秘葉雙機槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

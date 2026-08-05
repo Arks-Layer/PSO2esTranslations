@@ -1544,7 +1544,7 @@
 		"jp_text": "ストラーガワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鬥爭之巨自在槍”<c>\n"
+		"tr_explain": "<green>“屠戮之巨自在槍”<c>\n"
 	},
 	{
 		"assign": "12010015",
@@ -1817,14 +1817,14 @@
 		"jp_text": "ミレニアムラウンドワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“千年槍彈自在槍”<c>"
+		"tr_explain": "<green>“千年槍彈自在槍”<c>\n"
 	},
 	{
 		"assign": "12010072",
 		"jp_text": "エレディムワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“繼承自在槍”<c>"
+		"tr_explain": "<green>“繼承自在槍”<c>\n"
 	},
 	{
 		"assign": "12010073",
@@ -1838,14 +1838,14 @@
 		"jp_text": "ウィンガルドワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鋼翼加護自在槍”<c>"
+		"tr_explain": "<green>“鋼翼加護自在槍”<c>\n"
 	},
 	{
 		"assign": "12010075",
 		"jp_text": "エオニ・ディケリオンワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永世·丟卡利翁自在槍”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁自在槍”<c>\n"
 	},
 	{
 		"assign": "12010077",
@@ -1866,33 +1866,33 @@
 		"jp_text": "リクスタルワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“特六式自在槍”<c>"
+		"tr_explain": "<green>“特六式自在槍”<c>\n"
 	},
 	{
 		"assign": "12010081",
 		"jp_text": "エクセリオワイヤー",
 		"tr_text": "エクセリオワイヤー",
 		"jp_explain": "",
-		"tr_explain": "<green>“擴升自在槍”<c>"
+		"tr_explain": "<green>“躍升自在槍”<c>\n"
 	},
 	{
 		"assign": "12010086",
 		"jp_text": "デュオセリオワイヤー",
-		"tr_text": "二階擴升自在槍",
+		"tr_text": "二階躍升自在槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "12010087",
 		"jp_text": "トライセリオワイヤー",
-		"tr_text": "三階擴升自在槍",
+		"tr_text": "三階躍升自在槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "12010088",
 		"jp_text": "アクロセリオワイヤー",
-		"tr_text": "極階擴升自在槍",
+		"tr_text": "極階躍升自在槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1922,33 +1922,124 @@
 		"jp_text": "クローディムワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳承自在槍”<c>"
+		"tr_explain": "<green>“遺承自在槍”<c>\n"
 	},
 	{
 		"assign": "12010095",
 		"jp_text": "レジェスワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳奇自在槍”<c>"
+		"tr_explain": "<green>“傳奇自在槍”<c>\n"
 	},
 	{
 		"assign": "12010068",
 		"jp_text": "クレス・フレッドワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": ""
+		"tr_explain": "<green>“盈煌·冰晶自在槍”<c>\n"
 	},
 	{
 		"assign": "12010050",
 		"jp_text": "ユヴェールワイヤー",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“寶珠自在槍”<c>"
+		"tr_explain": "<green>“寶珠自在槍”<c>\n"
 	},
 	{
 		"assign": "12010097",
 		"jp_text": "エピス・イリニオンワイヤーⅡ",
 		"tr_text": "飾語·厄瑞涅自在槍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010099",
+		"jp_text": "ゼネス・フレッドワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“極煌·冰晶自在槍”<c>\n"
+	},
+	{
+		"assign": "12010100",
+		"jp_text": "ヴォルヘールワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“琢珠自在槍”<c>\n"
+	},
+	{
+		"assign": "12010101",
+		"jp_text": "アインデールワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“璧珠自在槍”<c>\n"
+	},
+	{
+		"assign": "12010103",
+		"jp_text": "クレス・フレッドワイヤーAT",
+		"tr_text": "盈煌·冰晶自在槍AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010105",
+		"jp_text": "レイティーワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳奇樸實自在槍”<c>\n"
+	},
+	{
+		"assign": "12010107",
+		"jp_text": "エピス・イリニオンワイヤーⅢ",
+		"tr_text": "飾語·厄瑞涅自在槍3",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010098",
+		"jp_text": "アルセ・ネイクロー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“本原·妮之爪”<c>\n"
+	},
+	{
+		"assign": "12010108",
+		"jp_text": "トワル・トレファルワイヤーⅡ",
+		"tr_text": "十二式·三葉刃自在槍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010109",
+		"jp_text": "レジェスワイヤーⅡ",
+		"tr_text": "傳奇自在槍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010110",
+		"jp_text": "レイティーワイヤーⅡ",
+		"tr_text": "傳奇樸實自在槍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010111",
+		"jp_text": "トワル・トレファルワイヤーAT",
+		"tr_text": "十二式·三葉刃自在槍AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "12010083",
+		"jp_text": "スプラディオワイヤー",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“秘芽自在槍”<c>\n"
+	},
+	{
+		"assign": "12010113",
+		"jp_text": "リフラディオワイヤー",
+		"tr_text": "秘葉自在槍",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

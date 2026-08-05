@@ -1521,9 +1521,9 @@
 	{
 		"assign": "1130443",
 		"jp_text": "アークサーペント",
-		"tr_text": "",
+		"tr_text": "高階巨蛇",
 		"jp_explain": "遥か神話の時代に高名な術師が\n所持していたとされる短杖。神聖な光に\n満ち、迷える者に正しき道を示す。",
-		"tr_explain": ""
+		"tr_explain": "被認為是遙遠神話時代的著名術師\n所擁有的短杖。充滿著神聖的光芒，\n會為迷途之人指點正道。"
 	},
 	{
 		"assign": "1130451",
@@ -1670,7 +1670,7 @@
 		"jp_text": "ストラーガウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鬥爭之巨短杖”<c>\n"
+		"tr_explain": "<green>“屠戮之巨短杖”<c>\n"
 	},
 	{
 		"assign": "113010021",
@@ -1971,14 +1971,14 @@
 		"jp_text": "ミレニアムラウンドウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“千年槍彈短杖”<c>"
+		"tr_explain": "<green>“千年槍彈短杖”<c>\n"
 	},
 	{
 		"assign": "113010107",
 		"jp_text": "エレディムウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“繼承短杖”<c>"
+		"tr_explain": "<green>“繼承短杖”<c>\n"
 	},
 	{
 		"assign": "113010108",
@@ -1992,14 +1992,14 @@
 		"jp_text": "ウィンガルドウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鋼翼加護短杖”<c>"
+		"tr_explain": "<green>“鋼翼加護短杖”<c>\n"
 	},
 	{
 		"assign": "113010113",
 		"jp_text": "エオニ・ディケリオンウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永世·丟卡利翁短杖”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁短杖”<c>\n"
 	},
 	{
 		"assign": "113010116",
@@ -2020,33 +2020,33 @@
 		"jp_text": "リクスタルウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“特六式短杖”<c>"
+		"tr_explain": "<green>“特六式短杖”<c>\n"
 	},
 	{
 		"assign": "113010121",
 		"jp_text": "エクセリオウォンド",
 		"tr_text": "エクセリオウォンド",
 		"jp_explain": "",
-		"tr_explain": "<green>“擴升短杖”<c>"
+		"tr_explain": "<green>“躍升短杖”<c>\n"
 	},
 	{
 		"assign": "113010126",
 		"jp_text": "デュオセリオウォンド",
-		"tr_text": "二階擴升短杖",
+		"tr_text": "二階躍升短杖",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010127",
 		"jp_text": "トライセリオウォンド",
-		"tr_text": "三階擴升短杖",
+		"tr_text": "三階躍升短杖",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "113010128",
 		"jp_text": "アクロセリオウォンド",
-		"tr_text": "極階擴升短杖",
+		"tr_text": "極階躍升短杖",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -2076,33 +2076,124 @@
 		"jp_text": "クローディムウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳承短杖”<c>"
+		"tr_explain": "<green>“遺承短杖”<c>\n"
 	},
 	{
 		"assign": "113010148",
 		"jp_text": "レジェスウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳奇短杖”<c>"
+		"tr_explain": "<green>“傳奇短杖”<c>\n"
 	},
 	{
 		"assign": "113010095",
 		"jp_text": "クレス・フレッドウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": ""
+		"tr_explain": "<green>“盈煌·冰晶短杖”<c>\n"
 	},
 	{
 		"assign": "113010070",
 		"jp_text": "ユヴェールウォンド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“寶珠短杖”<c>"
+		"tr_explain": "<green>“寶珠短杖”<c>\n"
 	},
 	{
 		"assign": "113010151",
 		"jp_text": "エピス・イリニオンウォンドⅡ",
 		"tr_text": "飾語·厄瑞涅短杖2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010155",
+		"jp_text": "ゼネス・フレッドウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“極煌·冰晶短杖”<c>\n"
+	},
+	{
+		"assign": "113010156",
+		"jp_text": "ヴォルヘールウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“琢珠短杖”<c>\n"
+	},
+	{
+		"assign": "113010157",
+		"jp_text": "アインデールウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“璧珠短杖”<c>\n"
+	},
+	{
+		"assign": "113010160",
+		"jp_text": "クレス・フレッドウォンドAT",
+		"tr_text": "盈煌·冰晶短杖AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010164",
+		"jp_text": "レイティーウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳奇樸實短杖”<c>\n"
+	},
+	{
+		"assign": "113010178",
+		"jp_text": "エピス・イリニオンウォンドⅢ",
+		"tr_text": "飾語·厄瑞涅短杖3",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010152",
+		"jp_text": "アルセ・ダークブリッジ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“本原·暗黑之橋”<c>\n"
+	},
+	{
+		"assign": "113010179",
+		"jp_text": "トワル・プラネターウォンドⅡ",
+		"tr_text": "十二式·行星短杖2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010180",
+		"jp_text": "レジェスウォンドⅡ",
+		"tr_text": "傳奇短杖2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010181",
+		"jp_text": "レイティーウォンドⅡ",
+		"tr_text": "傳奇樸實短杖2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010184",
+		"jp_text": "トワル・プラネターウォンドAT",
+		"tr_text": "十二式·行星短杖AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "113010123",
+		"jp_text": "スプラディオウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“秘芽短杖”<c>\n"
+	},
+	{
+		"assign": "113010187",
+		"jp_text": "リフラディオウォンド",
+		"tr_text": "秘葉短杖",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

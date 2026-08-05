@@ -1733,7 +1733,7 @@
 		"jp_text": "ストラーガソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鬥爭之巨大劍”<c>\n"
+		"tr_explain": "<green>“屠戮之巨大劍”<c>\n"
 	},
 	{
 		"assign": "11010022",
@@ -2048,14 +2048,14 @@
 		"jp_text": "ミレニアムラウンドソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“千年槍彈大劍”<c>"
+		"tr_explain": "<green>“千年槍彈大劍”<c>\n"
 	},
 	{
 		"assign": "11010113",
 		"jp_text": "エレディムソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“繼承大劍”<c>"
+		"tr_explain": "<green>“繼承大劍”<c>\n"
 	},
 	{
 		"assign": "11010114",
@@ -2069,14 +2069,14 @@
 		"jp_text": "ウィンガルドソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鋼翼加護大劍”<c>"
+		"tr_explain": "<green>“鋼翼加護大劍”<c>\n"
 	},
 	{
 		"assign": "11010116",
 		"jp_text": "エオニ・ディケリオンソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永世·丟卡利翁大劍”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁大劍”<c>\n"
 	},
 	{
 		"assign": "11010118",
@@ -2097,33 +2097,33 @@
 		"jp_text": "リクスタルソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“特六式大劍”<c>"
+		"tr_explain": "<green>“特六式大劍”<c>\n"
 	},
 	{
 		"assign": "11010125",
 		"jp_text": "エクセリオソード",
 		"tr_text": "エクセリオソード",
 		"jp_explain": "",
-		"tr_explain": "<green>“擴升大劍”<c>"
+		"tr_explain": "<green>“躍升大劍”<c>\n"
 	},
 	{
 		"assign": "11010131",
 		"jp_text": "デュオセリオソード",
-		"tr_text": "二階擴升大劍",
+		"tr_text": "二階躍升大劍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "11010132",
 		"jp_text": "トライセリオソード",
-		"tr_text": "三階擴升大劍",
+		"tr_text": "三階躍升大劍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "11010133",
 		"jp_text": "アクロセリオソード",
-		"tr_text": "極階擴升大劍",
+		"tr_text": "極階躍升大劍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -2153,33 +2153,124 @@
 		"jp_text": "クローディムソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳承大劍”<c>"
+		"tr_explain": "<green>“遺承大劍”<c>\n"
 	},
 	{
 		"assign": "11010153",
 		"jp_text": "レジェスソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳奇大劍”<c>"
+		"tr_explain": "<green>“傳奇大劍”<c>\n"
 	},
 	{
 		"assign": "11010101",
 		"jp_text": "クレス・デイブルソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": ""
+		"tr_explain": "<green>“盈煌·戰慄大劍”<c>\n"
 	},
 	{
 		"assign": "11010078",
 		"jp_text": "ユヴェールソード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“寶珠大劍”<c>"
+		"tr_explain": "<green>“寶珠大劍”<c>\n"
 	},
 	{
 		"assign": "11010158",
 		"jp_text": "エピス・イリニオンソードⅡ",
 		"tr_text": "飾語·厄瑞涅大劍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "11010162",
+		"jp_text": "ゼネス・デイブルソード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“極煌·戰慄大劍”<c>\n"
+	},
+	{
+		"assign": "11010163",
+		"jp_text": "ヴォルヘールソード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“琢珠大劍”<c>\n"
+	},
+	{
+		"assign": "11010164",
+		"jp_text": "アインデールソード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“璧珠大劍”<c>\n"
+	},
+	{
+		"assign": "11010166",
+		"jp_text": "クレス・デイブルソードAT",
+		"tr_text": "盈煌·戰慄大劍AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "11010171",
+		"jp_text": "レイティーソード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳奇樸實大劍”<c>\n"
+	},
+	{
+		"assign": "11010185",
+		"jp_text": "エピス・イリニオンソードⅢ",
+		"tr_text": "飾語·厄瑞涅大劍3",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "11010159",
+		"jp_text": "アルセ・ダークフロウ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“本原·暗黑弗羅文”<c>\n"
+	},
+	{
+		"assign": "11010186",
+		"jp_text": "トワル・シュメッターソードⅡ",
+		"tr_text": "十二式·猛襲大劍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "11010187",
+		"jp_text": "レジェスソードⅡ",
+		"tr_text": "傳奇大劍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "11010188",
+		"jp_text": "レイティーソードⅡ",
+		"tr_text": "傳奇樸實大劍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "11010189",
+		"jp_text": "トワル・シュメッターソードAT",
+		"tr_text": "十二式·猛襲大劍AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "11010128",
+		"jp_text": "スプラディオソード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“秘芽大劍”<c>\n"
+	},
+	{
+		"assign": "11010192",
+		"jp_text": "リフラディオソード",
+		"tr_text": "秘葉大劍",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

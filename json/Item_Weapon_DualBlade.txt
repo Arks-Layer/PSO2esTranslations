@@ -1411,7 +1411,7 @@
 		"jp_text": "ストラーガブレード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鬥爭之巨飛翔劍”<c>\n"
+		"tr_explain": "<green>“屠戮之巨飛翔劍”<c>\n"
 	},
 	{
 		"assign": "117010016",
@@ -1698,14 +1698,14 @@
 		"jp_text": "ミレニアムラウンドブレード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“千年槍彈飛翔劍”<c>"
+		"tr_explain": "<green>“千年槍彈飛翔劍”<c>\n"
 	},
 	{
 		"assign": "117010087",
 		"jp_text": "エレディムブレード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“繼承飛翔劍”<c>"
+		"tr_explain": "<green>“繼承飛翔劍”<c>\n"
 	},
 	{
 		"assign": "117010088",
@@ -1719,14 +1719,14 @@
 		"jp_text": "ウィンガルドブレード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鋼翼加護飛翔劍”<c>"
+		"tr_explain": "<green>“鋼翼加護飛翔劍”<c>\n"
 	},
 	{
 		"assign": "117010091",
 		"jp_text": "エオニ・ディケリオンブレード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永世·丟卡利翁飛翔劍”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁飛翔劍”<c>\n"
 	},
 	{
 		"assign": "117010095",
@@ -1747,33 +1747,33 @@
 		"jp_text": "リクスタルブレード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“特六式飛翔劍”<c>"
+		"tr_explain": "<green>“特六式飛翔劍”<c>\n"
 	},
 	{
 		"assign": "117010102",
 		"jp_text": "エクセリオブレード",
 		"tr_text": "エクセリオブレード",
 		"jp_explain": "",
-		"tr_explain": "<green>“擴升飛翔劍”<c>"
+		"tr_explain": "<green>“躍升飛翔劍”<c>\n"
 	},
 	{
 		"assign": "117010107",
 		"jp_text": "デュオセリオブレード",
-		"tr_text": "二階擴升飛翔劍",
+		"tr_text": "二階躍升飛翔劍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "117010108",
 		"jp_text": "トライセリオブレード",
-		"tr_text": "三階擴升飛翔劍",
+		"tr_text": "三階躍升飛翔劍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "117010109",
 		"jp_text": "アクロセリオブレード",
-		"tr_text": "極階擴升飛翔劍",
+		"tr_text": "極階躍升飛翔劍",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1803,33 +1803,124 @@
 		"jp_text": "クローディムブレード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳承飛翔劍”<c>"
+		"tr_explain": "<green>“遺承飛翔劍”<c>\n"
 	},
 	{
 		"assign": "117010121",
 		"jp_text": "レジェスブレード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳奇飛翔劍”<c>"
+		"tr_explain": "<green>“傳奇飛翔劍”<c>\n"
 	},
 	{
 		"assign": "117010081",
 		"jp_text": "クレス・デイブルブレード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": ""
+		"tr_explain": "<green>“盈煌·戰慄飛翔劍”<c>\n"
 	},
 	{
 		"assign": "117010059",
 		"jp_text": "ユヴェールブレード",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“寶珠飛翔劍”<c>"
+		"tr_explain": "<green>“寶珠飛翔劍”<c>\n"
 	},
 	{
 		"assign": "117010125",
 		"jp_text": "エピス・イリニオンブレードⅡ",
 		"tr_text": "飾語·厄瑞涅飛翔劍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "117010127",
+		"jp_text": "ゼネス・デイブルブレード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“極煌·戰慄飛翔劍”<c>\n"
+	},
+	{
+		"assign": "117010128",
+		"jp_text": "ヴォルヘールブレード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“琢珠飛翔劍”<c>\n"
+	},
+	{
+		"assign": "117010129",
+		"jp_text": "アインデールブレード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“璧珠飛翔劍”<c>\n"
+	},
+	{
+		"assign": "117010131",
+		"jp_text": "クレス・デイブルブレードAT",
+		"tr_text": "盈煌·戰慄飛翔劍AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "117010133",
+		"jp_text": "レイティーブレード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳奇樸實飛翔劍”<c>\n"
+	},
+	{
+		"assign": "117010139",
+		"jp_text": "エピス・イリニオンブレードⅢ",
+		"tr_text": "飾語·厄瑞涅飛翔劍3",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "117010126",
+		"jp_text": "アルセ・サンゲヤシャ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“本原·散華夜叉”<c>\n"
+	},
+	{
+		"assign": "117010140",
+		"jp_text": "トワル・シュメッターブレードⅡ",
+		"tr_text": "十二式·猛襲飛翔劍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "117010141",
+		"jp_text": "レジェスブレードⅡ",
+		"tr_text": "傳奇飛翔劍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "117010142",
+		"jp_text": "レイティーブレードⅡ",
+		"tr_text": "傳奇樸實飛翔劍2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "117010145",
+		"jp_text": "トワル・シュメッターブレードAT",
+		"tr_text": "十二式·猛襲飛翔劍AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "117010105",
+		"jp_text": "スプラディオブレード",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“秘芽飛翔劍”<c>\n"
+	},
+	{
+		"assign": "117010149",
+		"jp_text": "リフラディオブレード",
+		"tr_text": "秘葉飛翔劍",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

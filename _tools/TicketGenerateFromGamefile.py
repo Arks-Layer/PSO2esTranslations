@@ -4,12 +4,13 @@ import json
 import requests
 import unicodedata
 import portion as P
+import urllib3
 
 # ——————————————————————————————
 # LANGUAGE SETTING
 # ——————————————————————————————
 
-# This tool is used to generate "NGS_" json files
+# This tool is for generating "NGS_" json files
 # or to edit "Stack_" json files from the main game files.
 
 LANG = 1
@@ -19,10 +20,11 @@ LANG = 1
 
 # [ 1 for CN mode ]
 # Will generate "NGS_" items and edit "Stack_" items in Chinese.
-# (Local repository required)
+# (Translations will be retrieved from the LOCAL "PSO2_CHN_Translation" repository)
 
 # [ 2 for EN mode ]
 # Will generate "NGS_" items in English.
+# (Translations will be retrieved from the "PSO2ENPatchCSV" repository)
 
 # ——————————————————————————————
 # PATH & URL SETTING
@@ -102,9 +104,11 @@ trade_mapping = {
     'ngs_bg': ('アークスカード', (bg_trade_infos, )),
     'ngs_ma': ('ラインストライク', (ma_trade_infos, sv_trade_infos, )),
     'ngs_vo': ('エステ/ボイス', (vo_trade_infos, )),
-    'o2_vo': ('エステ/ボイス', (vo_trade_infos, ))}
+    'o2_vo': ('エステ/ボイス', (vo_trade_infos, ))
+    }
 cost_mapping = {
-    'ngs_ca': ('ラインストライク/カード', (ca_cost_infos, ))}
+    'ngs_ca': ('ラインストライク/カード', (ca_cost_infos, ))
+    }
 
 # Path of json folder
 jsonfile_dir = os.path.abspath(os.path.join(root_dir, os.pardir, "json"))
@@ -137,7 +141,8 @@ vo_path = "Item_Stack_Voice.txt"
 def get_web(url):
     url_part = url.rsplit('/', 1)[-1].split('?', 1)[-1]
     # Send the get request
-    response = requests.get(url)
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    response = requests.get(url, verify=False)
     # If successed, load the data
     if response.status_code == 200:
         lines = response.text
@@ -221,7 +226,7 @@ def parse_data(file_path, file_type):
                                         ['マイショップ出品不可', '初期', 'alt="GP"', 'alt="SG"', '交換</td>', '季節イベント</td>','トレジャースクラッチ', 'SPスクラッチ</td>', '開発準備特別票</td>', 'クラス育成特別プログラム', '初期登録</td>']):
                                         trade_infos[jp_text] = "Untradable"
                                 elif headname == 'Ca':
-                                    match = re.match(r'Ca「(.*?)([0-9])R?：(.*?)」', n_line)
+                                    match = re.match(r'Ca「(.*?)([0-9])[RU]?：(.*?)」', n_line)
                                     if match:
                                         jp_text = match.group(3)
                                         jp_itype = match.group(1)
@@ -314,6 +319,28 @@ def get_start_jp_target_lines(lines, start_id, end_id, id_pattern):
 
 # [FUNCTION] Get JP target lines from ordered lines
 def get_order_jp_target_lines(lines, start_id, end_id, id_pattern):
+    # Check if start_id is a single string or a tuple/list
+    if isinstance(start_id, (list, tuple)):
+        # If it is a combination, separate start_id and start_refer_id
+        s_id = start_id[0]
+        s_refer_id = start_id[1]
+        
+        # Fetch target lines for both main text and reference text
+        text_list = get_order_jp_target_lines(lines, s_id, end_id, id_pattern)
+        refer_list = get_order_jp_target_lines(lines, s_refer_id, end_id, id_pattern)
+        
+        # Create a lookup dictionary from refer_list
+        refer_lookup = {item[0].split('#')[0]: item[1] for item in refer_list}
+        
+        # Merge lists based on the prefix of text_id
+        merged_lines = []
+        for t_id, t_content in text_list:
+            match_key = t_id.split('#')[0]
+            r_content = refer_lookup.get(match_key, "")
+            merged_lines.append((t_id, t_content, r_content))
+            
+        return merged_lines
+
     # Initialize
     start_row = 0
     order_jp_target_lines = []
@@ -349,8 +376,8 @@ def get_order_jp_target_lines(lines, start_id, end_id, id_pattern):
 # [FUNCTION] Form names of voice (only compatible with CN)
 def form_vo_names(text_id, jp_fulltext, tr_fulltext):
     # Split the full text to get vo name and cv name
-    vo_jp_name, cv_jp_name = jp_fulltext.split("/")
-    vo_tr_name, cv_tr_name = tr_fulltext.split("/")
+    vo_jp_name, cv_jp_name = jp_fulltext.split("/") if "/" in jp_fulltext else (jp_fulltext, jp_fulltext)
+    vo_tr_name, cv_tr_name = tr_fulltext.split("/") if "/" in tr_fulltext else (tr_fulltext, tr_fulltext)
 
     # Determine version and gender of the voice based on text id
     vo_ver = "ngs" if re.match(r'.*9\d{2}#0', text_id) else "o2"
@@ -461,7 +488,7 @@ def get_translation(jp_target_lines, tr_lines):
     tr_target_texts = []
     tr_target_lines = []
 
-    for text_id, jp_text in jp_target_lines:
+    for text_id, jp_text, *jp_refer in jp_target_lines:
         if LANG == 1:
             tr_text = next((tr_text for ori_text, tr_text in tr_lines if ori_text == jp_text), None)
         else:
@@ -620,12 +647,46 @@ ca_itypes_order = [
     (1340, "Fire"), (1370, "Ice"), (1400, "Lightning"), (1430, "Wind"), (1460, "Light"), (1490, "Dark"),
     # Update 5 (PSU, PSPo Chars)
     (1520, "Fire"), (1540, "Ice"), (1550, "Dark"), (1560, "Lightning"), (1570, "Wind"), (1590, "Light"), (1600, "Lightning"), (1610, "Light"), (1620, "Ice"), (1630, "Dark"),
+    # Update 6 (IDOLA Chars Pt.1)
+    (1640, "Fire"), (1650, "Light"), (1660, "Ice"), (1670, "Wind"), (1680, "Lightning"), (1690, "Dark"),
     # Update 3 (Index Collab)
     (1701, "Light"), (1711, "Lightning"), (1721, "Wind"),
+    # Update 7 (NGS Zephetto)
+    (1730, "Lightning"),
+    # Update 7 (NGS M.A.R.S.)
+    (1750, "Fire"),
+    # Update 6 (NGS Crawford)
+    (1770, "Light"),
+    # Update 9 (NGS Ran)
+    (1780, "Wind"),
+    # Update 7 (PSO2 EP4-6 Chars Pt.1)
+    (1790, "Ice"), (1800, "Dark"),
+    # Update 9 (PSO2 Chars Pt.1)
+    (1810, "Light"), (1820, "Fire"), (1830, "Lightning"),
+    # Update 7 (PSO2 EP4-6 Chars Pt.2)
+    (1840, "Light"), (1860, "Dark"), (1870, "Wind"), (1880, "Fire"),
     # Update 4 (TenSura Collab)
     (1891, "Dark"), (1901, "Fire"),
     # Update 5 (Sonic Collab)
     (1911, "Wind"), (1921, "Dark"), (1931, "Lightning"),
+    # Update 6 (IDOLA Chars Pt.2, Touhou Collab, Yumia Collab, Summer Skins)
+    (1940, "Fire"), (1950, "Ice"), (1960, "Lightning"), (1970, "Wind"), (1980, "Light"), (1990, "Dark"),
+    (2001, "Light"), (2011, "Lightning"), (2021, "Fire"), (2031, "Dark"), (2041, "Wind"), (2051, "Ice"), 
+    (2071, "Light"), (2091, "Ice"), (2101, "Wind"),
+    # Update 7 (NGS Great Rappy)
+    (2110, "Lightning"),
+    # Update 9 (NGS Chars)
+    (2120, "Dark"), (2130, "Light"), (2140, "Lightning"), (2150, "Ice"),
+    # Update 7 (NGS Captan, Maid Skins, GiruPuri Collab)
+    (2160, "Wind"), (2170, "Fire"), (2180, "Ice"), (2191, "Light"), (2201, "Fire"),
+    # Update 9 (PSO2 Chars Pt.2)
+    (2210, "Fire"), (2230, "Ice"), (2250, "Wind"), (2270, "Light"), (2280, "Dark"),
+    # Update 9 (Central! Chars)
+    (2290, "Light"), (2300, "Wind"), (2310, "Lightning"),
+    # Update 8 (Holiday Skins)
+    (2321, "Wind"), (2331, "Light"), (2341, "Ice"), (2351, "Wind"), 
+    # Update 9 (PSO2 Chars Unique)
+    (2361, "Fire"), (2371, "Ice"),
     # Future updates
     (90000, None)
 ]
@@ -717,7 +778,7 @@ ma_explains = [
     "Unlocks a new playmat for\nall characters on your account."]
 sv_explains = [
     "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
-    "使用後所有角色均可選用新的牌背。",
+    "使用後所有角色均可選用新的牌套。",
     "Unlocks a new card sleeve for\nall characters on your account."]
 ha_explains = [
     "",
@@ -735,7 +796,12 @@ def edit_sp_explains(prefix, jp_text, explains):
             f"{explains[0]}\nアイテムラボの“強化素材交換”で\n特定のカプセルとの交換にも用いられる。",
             f"{explains[1]}\n也可在道具實驗室的“交換強化素材”處\n用於交換特定的膠囊。",
             f"{explains[2]}\nCan also be exchanged for specific\ncapsules at the Item Lab."]
-    if prefix == "cp_f" and "クロウリック・アーム" in jp_text:
+    elif prefix == "aug" and re.search(r"(EX.*A$)", jp_text):
+        explains = [
+            f"{explains[0]}\n<yellow>★７以上のEX特殊能力は１つのみ追加可能<c>",
+            f"{explains[1]}\n<yellow>僅可追加1個★7或以上的EX特殊能力<c>",
+            f"{explains[2]}\n<yellow>Only 1 EX Special Ability of\n7★ or above can be added<c>"]
+    elif prefix == "cp_f" and "クロウリック・アーム" in jp_text:
         explains = [
             f"{explains[0]}\n<yellow>※武器の構え位置自動調整<c>",
             f"{explains[1]}\n<yellow>※自動調整武器架勢的位置<c>",
@@ -743,13 +809,25 @@ def edit_sp_explains(prefix, jp_text, explains):
     return explains
 
 # [FUNCTION] Special item texts of special items
-def edit_sp_texts(prefix, jp_text, tr_text):
+def edit_sp_texts(prefix, jp_text, tr_text, jp_refer):
+    jp_refer = jp_refer[0] if jp_refer else ""
+    
     if prefix == "ca" and jp_text == "アルクェイド・ブリュンスタッド":
         sp_texts = ["アルクェイド", "愛爾奎特", "Arcueid"]
-    else: 
-        sp_texts = [jp_text, tr_text, tr_text]
-    jp_text = sp_texts[0]
-    tr_text = sp_texts[LANG]
+        jp_text = sp_texts[0]
+        tr_text = sp_texts[LANG]
+    elif prefix == "ca" and jp_refer == "サマーバケーション"and "せんとらるっ！" not in jp_text:
+        sp_texts = ["（サマー）", "（夏季）", " (Summer)"]
+        jp_text += sp_texts[0]
+        tr_text += sp_texts[LANG]
+    elif prefix == "ca" and jp_refer == "ハッピーホリデイ":
+        sp_texts = ["（ホリデイ）", "（假日）", " (Holiday)"]
+        jp_text += sp_texts[0]
+        tr_text += sp_texts[LANG]
+    elif prefix == "ca" and "せんとらるっ！　" in jp_text:
+        sp_char = "！"
+        jp_text = jp_text.replace(sp_char + "　", sp_char)
+    
     return jp_text, tr_text
 
 # Find target JP lines
@@ -768,7 +846,8 @@ bg_jp_target_lines = [
     if not jp_text.startswith(("￥", "text_"))]
 aug_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in element_name_jp_lines
-    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "ウェポンコネクタ", "￥", "-"))]
+    if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "エスペリオ", "EX", "ウェポンコネクタ", "￥", "-"))
+    or re.search(r"(EX.*A$)", jp_text)]
 ou_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
     if re.match(r'^No\d{6}#', text_id)
@@ -805,8 +884,8 @@ body_jp_target_lines = [
     get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#6", "", r'^No(\d{6})#')
     if not jp_text.startswith(("￥", "text_")) and "NPC" not in jp_text]
 ca_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in
-    get_order_jp_target_lines(lineduel_text_jp_lines, "10#0", "", r'^(\d+)#')]
+    (text_id, jp_text, jp_refer) for text_id, jp_text, jp_refer in
+    get_order_jp_target_lines(lineduel_text_jp_lines, ("10#0", "10#1"), "", r'^(\d+)#')]
 ma_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in
     get_order_jp_target_lines(lineduel_text_jp_lines, "0#2", "", r'^(\d+)#')]
@@ -818,7 +897,7 @@ ha_jp_target_lines = [
     if text_id.startswith("LobbyAction_")]
 vo_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-    if text_id.startswith("11_voice_c") and ("/") in jp_text]
+    if text_id.startswith("11_voice_c")]
 
 # Find target translated texts
 mo_tr_target_texts = get_translation(mo_jp_target_lines, common_tr_lines)[0]
@@ -847,7 +926,7 @@ def extra_condition(prefix, jp_text, text_id):
     elif prefix == "bp":
         return (jp_text.startswith((
         # NGS
-        "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：",
+        "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：", "スティラ：",
         "『NGS", "『PSO2", "超・", "立体図形：", "立体数字：", "アクリル台座・", "ラインストライク",
         # PSO2 Theme
         "ベーシック", "モダン", "ゴシック", "クラシック", "スイート", "エキゾチックトラッド", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
@@ -855,8 +934,7 @@ def extra_condition(prefix, jp_text, text_id):
         "スペースシップ", "オッソリア",
         # Mini
         "ミニ")) and not jp_text.startswith(("ミニミニ"))
-        or jp_text.endswith(
-        "アクスタ"))
+        )
     elif prefix == "ph":
         return jp_text == ""
     elif prefix == "bg":
@@ -907,20 +985,25 @@ def main_generate_NGS(prefix):
     processed_items = []
     processed_item_texts = []
 
+    # Initialize the card records
+    if prefix == "ca":
+        ca_jp_combis_records = set()
+
     # Start the loop to generate item
-    for i, (text_id, jp_text) in enumerate(jp_target_lines):
+    for i, (text_id, jp_text, *jp_refer) in enumerate(jp_target_lines):
         # Initialize
         tr_text = ""
         jp_itype = tr_itype = ""
         jp_igen = tr_igen = ""
         irare = ""
         icost = ""
+        jp_refer = jp_refer[0] if jp_refer else ""
 
         # Get translated text from texts
         if LANG != 0:
             tr_text = tr_target_texts[i]
         # Edit special texts of special item
-        jp_text, tr_text = edit_sp_texts(prefix, jp_text, tr_text)
+        jp_text, tr_text = edit_sp_texts(prefix, jp_text, tr_text, jp_refer)
         # Get category and the category name for certain prefixes
         if prefix == "mo":
             itype = text_id.split("_")[1]
@@ -953,15 +1036,18 @@ def main_generate_NGS(prefix):
                 igen = "a2"
             jp_igen = igens[igen][0]
             tr_igen = igens[igen][LANG]
-        # Get rarity for certain prefixes
-        if prefix == "ca" and text_id.endswith("1#0"):
-            irare = "R"
-        # Get cost for certain prefixes
+        # Get rarity & cost for certain prefixes
         if prefix == "ca":
-            icost = ca_cost_infos.get((jp_text, jp_itype), [""])[0]
-            if (jp_text, jp_itype) in ca_cost_infos and ca_cost_infos[(jp_text, jp_itype)]:
-                del ca_cost_infos[(jp_text, jp_itype)][0]
-            if not icost:
+            ca_jp_combi = (jp_text, jp_refer, itype)
+            if text_id.endswith("1#0"):
+                if ca_jp_combi in ca_jp_combis_records:
+                    irare = "U"
+                else:
+                    irare = "R"
+                ca_jp_combis_records.add(ca_jp_combi)
+            if ca_cost_infos.get((jp_text, jp_itype)):
+                icost = ca_cost_infos[(jp_text, jp_itype)].pop(0)
+            else:
                 icost = record_name(path, jp_text, jp_itype) or "?"
 
         # Get names and texts from global variables

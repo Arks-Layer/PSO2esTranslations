@@ -1537,7 +1537,7 @@
 		"jp_text": "ストラーガナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鬥爭之巨鋼拳”<c>\n"
+		"tr_explain": "<green>“屠戮之巨鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010019",
@@ -1831,14 +1831,14 @@
 		"jp_text": "ミレニアムラウンドナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“千年槍彈鋼拳”<c>"
+		"tr_explain": "<green>“千年槍彈鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010082",
 		"jp_text": "エレディムナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“繼承鋼拳”<c>"
+		"tr_explain": "<green>“繼承鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010083",
@@ -1852,14 +1852,14 @@
 		"jp_text": "ウィンガルドナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鋼翼加護鋼拳”<c>"
+		"tr_explain": "<green>“鋼翼加護鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010085",
 		"jp_text": "エオニ・ディケリオンナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永世·丟卡利翁鋼拳”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010088",
@@ -1880,33 +1880,33 @@
 		"jp_text": "リクスタルナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“特六式鋼拳”<c>"
+		"tr_explain": "<green>“特六式鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010094",
 		"jp_text": "エクセリオナックル",
 		"tr_text": "エクセリオナックル",
 		"jp_explain": "",
-		"tr_explain": "<green>“擴升鋼拳”<c>"
+		"tr_explain": "<green>“躍升鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010096",
 		"jp_text": "デュオセリオナックル",
-		"tr_text": "二階擴升鋼拳",
+		"tr_text": "二階躍升鋼拳",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "16010097",
 		"jp_text": "トライセリオナックル",
-		"tr_text": "三階擴升鋼拳",
+		"tr_text": "三階躍升鋼拳",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "16010098",
 		"jp_text": "アクロセリオナックル",
-		"tr_text": "極階擴升鋼拳",
+		"tr_text": "極階躍升鋼拳",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1936,33 +1936,124 @@
 		"jp_text": "クローディムナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳承鋼拳”<c>"
+		"tr_explain": "<green>“遺承鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010104",
 		"jp_text": "レジェスナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳奇鋼拳”<c>"
+		"tr_explain": "<green>“傳奇鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010078",
 		"jp_text": "クレス・フレッドナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": ""
+		"tr_explain": "<green>“盈煌·冰晶鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010057",
 		"jp_text": "ユヴェールナックル",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“寶珠鋼拳”<c>"
+		"tr_explain": "<green>“寶珠鋼拳”<c>\n"
 	},
 	{
 		"assign": "16010106",
 		"jp_text": "エピス・イリニオンナックルⅡ",
 		"tr_text": "飾語·厄瑞涅鋼拳2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010108",
+		"jp_text": "ゼネス・フレッドナックル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“極煌·冰晶鋼拳”<c>\n"
+	},
+	{
+		"assign": "16010109",
+		"jp_text": "ヴォルヘールナックル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“琢珠鋼拳”<c>\n"
+	},
+	{
+		"assign": "16010110",
+		"jp_text": "アインデールナックル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“璧珠鋼拳”<c>\n"
+	},
+	{
+		"assign": "16010112",
+		"jp_text": "クレス・フレッドナックルAT",
+		"tr_text": "盈煌·冰晶鋼拳AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010113",
+		"jp_text": "レイティーナックル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳奇樸實鋼拳”<c>\n"
+	},
+	{
+		"assign": "16010121",
+		"jp_text": "エピス・イリニオンナックルⅢ",
+		"tr_text": "飾語·厄瑞涅鋼拳3",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010107",
+		"jp_text": "アルセ・ゼロディバイド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“本原·零度切刃”<c>\n"
+	},
+	{
+		"assign": "16010122",
+		"jp_text": "トワル・アルクタナックルⅡ",
+		"tr_text": "十二式·拳劍鋼拳2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010123",
+		"jp_text": "レジェスナックルⅡ",
+		"tr_text": "傳奇鋼拳2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010124",
+		"jp_text": "レイティーナックルⅡ",
+		"tr_text": "傳奇樸實鋼拳2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010125",
+		"jp_text": "トワル・アルクタナックルAT",
+		"tr_text": "十二式·拳劍鋼拳AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "16010095",
+		"jp_text": "スプラディオナックル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“秘芽鋼拳”<c>\n"
+	},
+	{
+		"assign": "16010126",
+		"jp_text": "リフラディオナックル",
+		"tr_text": "秘葉鋼拳",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

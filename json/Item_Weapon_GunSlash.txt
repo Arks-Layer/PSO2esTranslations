@@ -1423,9 +1423,9 @@
 	{
 		"assign": "170354",
 		"jp_text": "タロンシュナイデル",
-		"tr_text": "",
+		"tr_text": "銳爪裁手",
 		"jp_explain": "鋼機を意識した鋭い鉤爪のフォルムが\n特徴的な銃剣。軽量ながら頑丈さに優れ\n襲いかかる敵をたやすく破壊する。",
-		"tr_explain": ""
+		"tr_explain": "以受鋼鐵機械風格影響的銳利鉤爪外形\n為特點的槍刃。它輕巧卻堅固，\n會輕而易舉地破壞掉來襲的敵人。"
 	},
 	{
 		"assign": "170356",
@@ -1740,14 +1740,14 @@
 		"jp_text": "ミレニアムラウンドスラッシュ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“千年槍彈槍刃”<c>"
+		"tr_explain": "<green>“千年槍彈槍刃”<c>\n"
 	},
 	{
 		"assign": "17010072",
 		"jp_text": "エレディムスラッシュ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“繼承槍刃”<c>"
+		"tr_explain": "<green>“繼承槍刃”<c>\n"
 	},
 	{
 		"assign": "17010073",
@@ -1761,14 +1761,14 @@
 		"jp_text": "ウィンガルドスラッシュ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鋼翼加護槍刃”<c>"
+		"tr_explain": "<green>“鋼翼加護槍刃”<c>\n"
 	},
 	{
 		"assign": "17010075",
 		"jp_text": "エオニ・ディケリオンスラッシュ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永世·丟卡利翁槍刃”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁槍刃”<c>\n"
 	},
 	{
 		"assign": "17010076",
@@ -1789,33 +1789,33 @@
 		"jp_text": "リクスタルスラッシュ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“特六式槍刃”<c>"
+		"tr_explain": "<green>“特六式槍刃”<c>\n"
 	},
 	{
 		"assign": "17010081",
 		"jp_text": "エクセリオスラッシュ",
 		"tr_text": "エクセリオスラッシュ",
 		"jp_explain": "",
-		"tr_explain": "<green>“擴升槍刃”<c>"
+		"tr_explain": "<green>“躍升槍刃”<c>\n"
 	},
 	{
 		"assign": "17010084",
 		"jp_text": "デュオセリオスラッシュ",
-		"tr_text": "二階擴升槍刃",
+		"tr_text": "二階躍升槍刃",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "17010085",
 		"jp_text": "トライセリオスラッシュ",
-		"tr_text": "三階擴升槍刃",
+		"tr_text": "三階躍升槍刃",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "17010086",
 		"jp_text": "アクロセリオスラッシュ",
-		"tr_text": "極階擴升槍刃",
+		"tr_text": "極階躍升槍刃",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1845,33 +1845,124 @@
 		"jp_text": "クローディムスラッシュ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳承槍刃”<c>"
+		"tr_explain": "<green>“遺承槍刃”<c>\n"
 	},
 	{
 		"assign": "17010097",
 		"jp_text": "レジェススラッシュ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳奇槍刃”<c>"
+		"tr_explain": "<green>“傳奇槍刃”<c>\n"
 	},
 	{
 		"assign": "17010068",
 		"jp_text": "クレス・デイブルスラッシュ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": ""
+		"tr_explain": "<green>“盈煌·戰慄槍刃”<c>\n"
 	},
 	{
 		"assign": "17010042",
 		"jp_text": "ユヴェールスラッシュ",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“寶珠槍刃”<c>"
+		"tr_explain": "<green>“寶珠槍刃”<c>\n"
 	},
 	{
 		"assign": "17010101",
 		"jp_text": "エピス・イリニオンスラッシュⅡ",
 		"tr_text": "飾語·厄瑞涅槍刃2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "17010104",
+		"jp_text": "ゼネス・デイブルスラッシュ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“極煌·戰慄槍刃”<c>\n"
+	},
+	{
+		"assign": "17010105",
+		"jp_text": "ヴォルヘールスラッシュ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“琢珠槍刃”<c>\n"
+	},
+	{
+		"assign": "17010106",
+		"jp_text": "アインデールスラッシュ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“璧珠槍刃”<c>\n"
+	},
+	{
+		"assign": "17010109",
+		"jp_text": "クレス・デイブルスラッシュAT",
+		"tr_text": "盈煌·戰慄槍刃AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "17010110",
+		"jp_text": "レイティースラッシュ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳奇樸實槍刃”<c>\n"
+	},
+	{
+		"assign": "17010118",
+		"jp_text": "エピス・イリニオンスラッシュⅢ",
+		"tr_text": "飾語·厄瑞涅槍刃3",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "17010102",
+		"jp_text": "アルセ・ブリンガーライフル",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“本原·混沌騎士槍”<c>\n"
+	},
+	{
+		"assign": "17010119",
+		"jp_text": "トワル・レルガントスラッシュⅡ",
+		"tr_text": "十二式·磁道炮槍刃2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "17010120",
+		"jp_text": "レジェススラッシュⅡ",
+		"tr_text": "傳奇槍刃2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "17010121",
+		"jp_text": "レイティースラッシュⅡ",
+		"tr_text": "傳奇樸實槍刃2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "17010123",
+		"jp_text": "トワル・レルガントスラッシュAT",
+		"tr_text": "十二式·磁道炮槍刃AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "17010083",
+		"jp_text": "スプラディオスラッシュ",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“秘芽槍刃”<c>\n"
+	},
+	{
+		"assign": "17010124",
+		"jp_text": "リフラディオスラッシュ",
+		"tr_text": "秘葉槍刃",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

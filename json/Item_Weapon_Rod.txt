@@ -1817,7 +1817,7 @@
 		"jp_text": "ストラーガロッド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鬥爭之巨長杖”<c>\n"
+		"tr_explain": "<green>“屠戮之巨長杖”<c>\n"
 	},
 	{
 		"assign": "111010021",
@@ -2118,14 +2118,14 @@
 		"jp_text": "ミレニアムラウンドロッド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“千年槍彈長杖”<c>"
+		"tr_explain": "<green>“千年槍彈長杖”<c>\n"
 	},
 	{
 		"assign": "111010103",
 		"jp_text": "エレディムロッド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“繼承長杖”<c>"
+		"tr_explain": "<green>“繼承長杖”<c>\n"
 	},
 	{
 		"assign": "111010104",
@@ -2139,14 +2139,14 @@
 		"jp_text": "ウィンガルドロッド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“鋼翼加護長杖”<c>"
+		"tr_explain": "<green>“鋼翼加護長杖”<c>\n"
 	},
 	{
 		"assign": "111010108",
 		"jp_text": "エオニ・ディケリオンロッド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“永世·丟卡利翁長杖”<c>"
+		"tr_explain": "<green>“永世·丟卡利翁長杖”<c>\n"
 	},
 	{
 		"assign": "111010110",
@@ -2167,33 +2167,33 @@
 		"jp_text": "リクスタルロッド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“特六式長杖”<c>"
+		"tr_explain": "<green>“特六式長杖”<c>\n"
 	},
 	{
 		"assign": "111010116",
 		"jp_text": "エクセリオロッド",
 		"tr_text": "エクセリオロッド",
 		"jp_explain": "",
-		"tr_explain": "<green>“擴升長杖”<c>"
+		"tr_explain": "<green>“躍升長杖”<c>\n"
 	},
 	{
 		"assign": "111010121",
 		"jp_text": "デュオセリオロッド",
-		"tr_text": "二階擴升長杖",
+		"tr_text": "二階躍升長杖",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010122",
 		"jp_text": "トライセリオロッド",
-		"tr_text": "三階擴升長杖",
+		"tr_text": "三階躍升長杖",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "111010123",
 		"jp_text": "アクロセリオロッド",
-		"tr_text": "極階擴升長杖",
+		"tr_text": "極階躍升長杖",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -2223,33 +2223,124 @@
 		"jp_text": "クローディムロッド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳承長杖”<c>"
+		"tr_explain": "<green>“遺承長杖”<c>\n"
 	},
 	{
 		"assign": "111010139",
 		"jp_text": "レジェスロッド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“傳奇長杖”<c>"
+		"tr_explain": "<green>“傳奇長杖”<c>\n"
 	},
 	{
 		"assign": "111010120",
 		"jp_text": "クレス・フレッドロッド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": ""
+		"tr_explain": "<green>“盈煌·冰晶長杖”<c>\n"
 	},
 	{
 		"assign": "111010071",
 		"jp_text": "ユヴェールロッド",
 		"tr_text": "",
 		"jp_explain": "",
-		"tr_explain": "<green>“寶珠長杖”<c>"
+		"tr_explain": "<green>“寶珠長杖”<c>\n"
 	},
 	{
 		"assign": "111010144",
 		"jp_text": "エピス・イリニオンロッドⅡ",
 		"tr_text": "飾語·厄瑞涅長杖2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010151",
+		"jp_text": "ゼネス・フレッドロッド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“極煌·冰晶長杖”<c>\n"
+	},
+	{
+		"assign": "111010152",
+		"jp_text": "ヴォルヘールロッド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“琢珠長杖”<c>\n"
+	},
+	{
+		"assign": "111010153",
+		"jp_text": "アインデールロッド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“璧珠長杖”<c>\n"
+	},
+	{
+		"assign": "111010155",
+		"jp_text": "クレス・フレッドロッドAT",
+		"tr_text": "盈煌·冰晶長杖AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010158",
+		"jp_text": "レイティーロッド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“傳奇樸實長杖”<c>\n"
+	},
+	{
+		"assign": "111010173",
+		"jp_text": "エピス・イリニオンロッドⅢ",
+		"tr_text": "飾語·厄瑞涅長杖3",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010145",
+		"jp_text": "アルセ・サイコウォンド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“本原·意念之杖”<c>\n"
+	},
+	{
+		"assign": "111010174",
+		"jp_text": "トワル・グレーヴァロッドⅡ",
+		"tr_text": "十二式·長柄刀長杖2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010175",
+		"jp_text": "レジェスロッドⅡ",
+		"tr_text": "傳奇長杖2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010176",
+		"jp_text": "レイティーロッドⅡ",
+		"tr_text": "傳奇樸實長杖2",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010178",
+		"jp_text": "トワル・グレーヴァロッドAT",
+		"tr_text": "十二式·長柄刀長杖AT",
+		"jp_explain": "",
+		"tr_explain": ""
+	},
+	{
+		"assign": "111010119",
+		"jp_text": "スプラディオロッド",
+		"tr_text": "",
+		"jp_explain": "",
+		"tr_explain": "<green>“秘芽長杖”<c>\n"
+	},
+	{
+		"assign": "111010183",
+		"jp_text": "リフラディオロッド",
+		"tr_text": "秘葉長杖",
 		"jp_explain": "",
 		"tr_explain": ""
 	}

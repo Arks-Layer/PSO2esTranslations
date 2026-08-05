@@ -374,7 +374,7 @@
 		"jp_text": "ＥＤＷＩＮデニムジャケットT1[Ou]",
 		"tr_text": "ＥＤＷＩＮデニムジャケットT1[Ou]",
 		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
-		"tr_explain": "使用後可選用新的外套。",
+		"tr_explain": "<green>“EDWIN牛仔外套T1[Ou]”<c>\n使用後可選用新的外套。",
 		"assign": 0
 	},
 	{
@@ -507,7 +507,7 @@
 		"jp_text": "ドンキ×ＮＧＳシャツT1[Ou]",
 		"tr_text": "ドンキ×ＮＧＳシャツT1[Ou]",
 		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
-		"tr_explain": "使用後可選用新的外套。",
+		"tr_explain": "<green>“DONKI×NGS襯衫T1[Ou]”<c>\n使用後可選用新的外套。",
 		"assign": 0
 	},
 	{
@@ -591,7 +591,7 @@
 		"jp_text": "Expo2022TシャツT1[Ou]",
 		"tr_text": "Expo2022TシャツT1[Ou]",
 		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
-		"tr_explain": "使用後可選用新的外套。",
+		"tr_explain": "<green>“Expo2022T恤衫T1[Ou]”<c>\n使用後可選用新的外套。",
 		"assign": 0
 	},
 	{
@@ -611,6 +611,20 @@
 	{
 		"jp_text": "ヒハヤノヒヌガ/B[Ou]",
 		"tr_text": "ヒハヤノヒヌガ/B[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ヒハヤノヒヌガV2[Ou]",
+		"tr_text": "ヒハヤノヒヌガV2[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ヒハヤノヒヌガV2/B[Ou]",
+		"tr_text": "ヒハヤノヒヌガV2/B[Ou]",
 		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
 		"tr_explain": "使用後可選用新的外套。",
 		"assign": 0
@@ -1855,6 +1869,34 @@
 		"assign": 0
 	},
 	{
+		"jp_text": "メルファンケープT1[Ou]",
+		"tr_text": "メルファンケープT1[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "メルファンケープT1/2[Ou]",
+		"tr_text": "メルファンケープT1/2[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "メルファンケープT1/3[Ou]",
+		"tr_text": "メルファンケープT1/3[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "メルファンケープT1/4[Ou]",
+		"tr_text": "メルファンケープT1/4[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
 		"jp_text": "モードヴァンカT1/B[Ou]",
 		"tr_text": "モードヴァンカT1/B[Ou]",
 		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
@@ -1864,6 +1906,146 @@
 	{
 		"jp_text": "モードヴァンカT1/B2[Ou]",
 		"tr_text": "モードヴァンカT1/B2[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ショートファーコートT1[Ou]",
+		"tr_text": "ショートファーコートT1[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ショートファーコートT1/2[Ou]",
+		"tr_text": "ショートファーコートT1/2[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ショートファーコートT1/3[Ou]",
+		"tr_text": "ショートファーコートT1/3[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ショートファーコートT1/4[Ou]",
+		"tr_text": "ショートファーコートT1/4[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ブルーノ水着T1[Ou]",
+		"tr_text": "ブルーノ水着T1[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "<green>“布魯諾泳裝T1[Ou]”<c>\n使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ブルーノ水着T1/2[Ou]",
+		"tr_text": "ブルーノ水着T1/2[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "<green>“布魯諾泳裝T1/2[Ou]”<c>\n使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ショートダウンジャケットT1[Ou]",
+		"tr_text": "ショートダウンジャケットT1[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ショートダウンジャケットT1/2[Ou]",
+		"tr_text": "ショートダウンジャケットT1/2[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ショートダウンジャケットT1/3[Ou]",
+		"tr_text": "ショートダウンジャケットT1/3[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ショートダウンジャケットT1/4[Ou]",
+		"tr_text": "ショートダウンジャケットT1/4[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "グリメレヴィーヌT1[Ou]",
+		"tr_text": "グリメレヴィーヌT1[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "グリメレヴィーヌT1/2[Ou]",
+		"tr_text": "グリメレヴィーヌT1/2[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ラパンシクロンデT1[Ou]",
+		"tr_text": "ラパンシクロンデT1[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ラパンシクロンデT1/2[Ou]",
+		"tr_text": "ラパンシクロンデT1/2[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ブルーノ水着T1/B[Ou]",
+		"tr_text": "ブルーノ水着T1/B[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "<green>“布魯諾泳裝T1/B[Ou]”<c>\n使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ブルーノ水着T1/B2[Ou]",
+		"tr_text": "ブルーノ水着T1/B2[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "<green>“布魯諾泳裝T1/B2[Ou]”<c>\n使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "グリメレヴィーヌT1/B[Ou]",
+		"tr_text": "グリメレヴィーヌT1/B[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "グリメレヴィーヌT1/B2[Ou]",
+		"tr_text": "グリメレヴィーヌT1/B2[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ラパンシクロンデT1/B[Ou]",
+		"tr_text": "ラパンシクロンデT1/B[Ou]",
+		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
+		"tr_explain": "使用後可選用新的外套。",
+		"assign": 0
+	},
+	{
+		"jp_text": "ラパンシクロンデT1/B2[Ou]",
+		"tr_text": "ラパンシクロンデT1/B2[Ou]",
 		"jp_explain": "使用すると新しいアウターウェアが\n選択可能になる。",
 		"tr_explain": "使用後可選用新的外套。",
 		"assign": 0
