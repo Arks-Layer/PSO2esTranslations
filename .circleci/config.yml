@@ -3,7 +3,7 @@ defaults: &defaults
   docker:
     - image: synthsy/alpine-rsync-python-nodejs:alpine-3.19
 
-version: 4
+version: 2.1
 jobs:
   verify:
     <<: *defaults
@@ -189,7 +189,7 @@ jobs:
           destination: Reports
 
 workflows:
-  version: 2
+  version: 2.1
   verify-test&build:
     jobs:
       - verify
