@@ -326,8 +326,8 @@
 	},
 	{
 		"assign": "acshop_dialog_b_15",
-		"jp_text": "購入前に年齢確認を実施いたします。\n\n【年齢確認】\nあなたは20歳以上ですか？",
-		"tr_text": "Age verification required before purchase.\n\n【Age Verification】\nAre you 20 or older?"
+		"jp_text": "購入前に年齢確認を実施いたします。\n\n【年齢確認】\nあなたは18歳以上ですか？",
+		"tr_text": ""
 	},
 	{
 		"assign": "acshop_dialog_t_16",
@@ -336,8 +336,8 @@
 	},
 	{
 		"assign": "acshop_dialog_b_16",
-		"jp_text": "20歳未満の方は、必ず保護者の許可を得てから\n購入手続きを行ってください。\n\n【許可の確認】\n保護者の許可は得ていますか？",
-		"tr_text": "If you are under 20 years of age, please\nacquire permission before purchase.\n\n【Proof of Permission】\nDo you have permission to purchase?"
+		"jp_text": "18歳未満の方は、必ず保護者の許可を得てから\n購入手続きを行ってください。\n\n【許可の確認】\n保護者の許可は得ていますか？",
+		"tr_text": ""
 	},
 	{
 		"assign": "acshop_dialog_t_17",
@@ -401,8 +401,8 @@
 	},
 	{
 		"assign": "acshop_dialog_b_22",
-		"jp_text": "購入するには年齢認証が必要となります。\n年齢別の1ヶ月当たりの限度額は以下の通りです。\n\n・13歳未満　5,000円\n・20歳未満　20,000円\n\n<color=#ff0000>※この登録は一度のみで次回以降は不要です。\n※登録情報は年齢認証以外には使用しません。</color>",
-		"tr_text": "Age must be verified before purchase.\nThe limits of transactions per month are:\n\n・13 Years　5,000円\n・20 Years　20,000円\n\n<color=#ff0000>※This is a one-time verification.\n※Age info is not used for anything else.</color>"
+		"jp_text": "購入するには年齢認証が必要となります。\n年齢別の1ヶ月当たりの限度額は以下の通りです。\n\n・13歳未満　5,000円\n・18歳未満　20,000円\n\n<color=#ff0000>※この登録は一度のみで次回以降は不要です。\n※登録情報は年齢認証以外には使用しません。</color>",
+		"tr_text": ""
 	},
 	{
 		"assign": "acshop_dialog_t_23",
@@ -20891,13 +20891,13 @@
 	},
 	{
 		"assign": "photondice_result_lose_dialog_b_con_02_lp",
-		"jp_text": "<color=yellow>残りプレイ回数</color>を1回消費して再戦しますか？\n再戦しない場合、獲得LCがすべて失われます。\n\n<color=yellow>残りプレイ回数:<%value>回</color>",
-		"tr_text": "Do you want to play a <color=yellow>rematch</color> at\nthe cost of 1 Play?\nIf you don't play a rematch, all LC\nyou earned so far will be lost.\n<color=yellow>Remaining Plays: <%value></color>"
+		"jp_text": "<color=yellow>残りプレイ回数</color>を{0}回消費して再戦しますか？\n再戦しない場合、獲得LCがすべて失われます。\n\n<color=yellow>残りプレイ回数:<%value>回</color>",
+		"tr_text": ""
 	},
 	{
 		"assign": "photondice_result_lose_dialog_b_con_02_sc",
-		"jp_text": "<color=yellow>スペシャルプレイチケット</color>を1枚消費して再戦しますか？\n再戦しない場合、獲得LCがすべて失われます。\n\n<color=yellow>所持スペシャルプレイチケット：<%value>枚</color>",
-		"tr_text": "Do you want to play a <color=yellow>rematch</color> at\nthe cost of 1 special ticket?\nIf you don't play a rematch, all LC\nyou earned so far will be lost.\n<color=yellow>Remaining tickets: <%value></color>"
+		"jp_text": "<color=yellow>スペシャルプレイチケット</color>を{0}枚消費して再戦しますか？\n再戦しない場合、獲得LCがすべて失われます。\n\n<color=yellow>所持スペシャルプレイチケット：<%value>枚</color>",
+		"tr_text": ""
 	},
 	{
 		"assign": "photondice_result_lose_dialog_b_con_02_rc",
@@ -23021,8 +23021,8 @@
 	},
 	{
 		"assign": "raid_dps_title_ranking_top",
-		"jp_text": "ランキング",
-		"tr_text": "Ranking"
+		"jp_text": "ランキング（ノーマル）",
+		"tr_text": ""
 	},
 	{
 		"assign": "raid_dps_title_update_time",
@@ -25577,6 +25577,81 @@
 	{
 		"assign": "sort_limit_effect",
 		"jp_text": "期間限定効果",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_dps_my_best_normal",
+		"jp_text": "自己ベスト\n（ノーマル）",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_dps_my_best_another",
+		"jp_text": "自己ベスト\n（アナザー）",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_dps_ranking_normal",
+		"jp_text": "ノーマル",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_dps_ranking_another",
+		"jp_text": "アナザー",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_dps_result_new_record",
+		"jp_text": "アナザーランキングの自己ベストを更新",
+		"tr_text": ""
+	},
+	{
+		"assign": "photondice_boostdialog_title",
+		"jp_text": "設定する",
+		"tr_text": ""
+	},
+	{
+		"assign": "photondice_boostdialog_message",
+		"jp_text": "挑戦回数を消費してブーストをかけることができます。\n挑戦回数が0のときはスペシャルプレイチケットを\n消費します。\nスペシャルプレイチケットは一度に１０枚まで\n使用可能です。",
+		"tr_text": ""
+	},
+	{
+		"assign": "photondice_boostdialog_setting",
+		"jp_text": "設定する",
+		"tr_text": ""
+	},
+	{
+		"assign": "photondice_boostdialog_boostnum",
+		"jp_text": "ブースト数",
+		"tr_text": ""
+	},
+	{
+		"assign": "photondice_boostdialog_max",
+		"jp_text": "最大",
+		"tr_text": ""
+	},
+	{
+		"assign": "photondice_boostdialog_min",
+		"jp_text": "最小",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_dps_title_ranking_top_another",
+		"jp_text": "ランキング（アナザー）",
+		"tr_text": ""
+	},
+	{
+		"assign": "raid_dps_title_ranking_top_normal",
+		"jp_text": "ランキング",
+		"tr_text": "Ranking"
+	},
+	{
+		"assign": "photondice_result_boost",
+		"jp_text": "挑戦回数・スペシャルプレイチケットブースト ＋<%value>％",
+		"tr_text": ""
+	},
+	{
+		"assign": "quest_counter_header_dps_another",
+		"jp_text": "限界チャレンジ（アナザー）",
 		"tr_text": ""
 	}
 ]
