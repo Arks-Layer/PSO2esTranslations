@@ -19647,12 +19647,12 @@
 	{
 		"assign": "acceptbox_dialog_t_6",
 		"jp_text": "受取完了",
-		"tr_text": ""
+		"tr_text": "Confirmed"
 	},
 	{
 		"assign": "acceptbox_dialog_b_6",
 		"jp_text": "以下の、NGS専用アイテムを\nPSO2es倉庫へ送りました。",
-		"tr_text": ""
+		"tr_text": "Sent NGS-only items to your\nPSO2es Storage."
 	},
 	{
 		"assign": "acceptbox_chip_over_message",
@@ -19667,7 +19667,7 @@
 	{
 		"assign": "acceptbox_point_over_message",
 		"jp_text": "<%item_name>が所持数をオーバーしている\nので受け取ることができません。\n",
-		"tr_text": ""
+		"tr_text": "Max <%item_name> limit reached,\ncannot accept more of this item.\n"
 	},
 	{
 		"assign": "acceptbox_materialchip_over_message",
