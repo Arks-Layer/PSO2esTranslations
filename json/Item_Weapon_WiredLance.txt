@@ -128,21 +128,21 @@
 	{
 		"assign": "12018",
 		"jp_text": "ラムダジャグリアス",
-		"tr_text": "람다 쟈그리아스",
+		"tr_text": "람다 자그리아스",
 		"jp_explain": "大型自在槍の量産用試作品。\n従来品の課題だった扱いにくさを克服し\n投擲が容易になった。",
 		"tr_explain": "Mass-produced model of oversized\nWired Lances. Improved handling\nmakes them easier to throw."
 	},
 	{
 		"assign": "12019",
 		"jp_text": "ディオジャグリアス",
-		"tr_text": "디오 쟈그리아스",
+		"tr_text": "디오 자그리아스",
 		"jp_explain": "大型自在槍の高機能バージョン。\n扱いやすさよりも破壊力を重視し\n攻撃性能の向上を追求した。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "12020",
 		"jp_text": "ジャグリアス",
-		"tr_text": "쟈그리아스",
+		"tr_text": "자그리아스",
 		"jp_explain": "従来の概念を覆した大型の自在槍。\n近距離攻撃用に開発された装着武器を\n投擲武器として転用している。",
 		"tr_explain": "Wired Lances that defy convention.\nOriginally designed as a close-range\nweapon, but are now thrown."
 	},
@@ -291,7 +291,7 @@
 		"jp_text": "ダルマルファング",
 		"tr_text": "달 마르 팽",
 		"jp_explain": "ダル・マルリの牙を自在槍の穂先に\n転用した特異な武器。\n振るう姿は原生種を彷彿とさせる。",
-		"tr_explain": "Unique Wired Lances that use the\nfangs of a Dal Malri as blades. Their\nmotion is somewhat 프림al."
+		"tr_explain": "달 마르리의 송곳니를 자재창의 창끝으로\n활용한 특이한 무기.\n휘두르는 모습은 원생종을 떠올리게 한다."
 	},
 	{
 		"assign": "12043",
@@ -338,7 +338,7 @@
 	{
 		"assign": "12051",
 		"jp_text": "ロッソヴァルガー",
-		"tr_text": "롯소 베르카",
+		"tr_text": "롯소 발가",
 		"jp_explain": "地下坑道の機械部品を選別加工して\n作られた自在槍。フォトンの伝導率も\n飛躍的に上昇しており、高性能。",
 		"tr_explain": "Wired Lances made from equipment\nfound in the Tunnels. Their Photon\nconductivity has been increased."
 	},
@@ -401,7 +401,7 @@
 	{
 		"assign": "12062",
 		"jp_text": "グワナーダランス",
-		"tr_text": "구와나 랜스",
+		"tr_text": "구와나다 랜스",
 		"jp_explain": "グワナーダの触手で作られた自在槍。\n柔軟性と強度に優れ、外見以上の\n性能を発揮する。",
 		"tr_explain": "Wired Lances made from Gwanahda\ntentacles. Excellent flexibility and\nstrength, despite their appearance."
 	},
@@ -520,21 +520,21 @@
 	{
 		"assign": "120103",
 		"jp_text": "シェルオプス",
-		"tr_text": "쉘 오푸스",
+		"tr_text": "셸 오푸스",
 		"jp_explain": "惑星ウォパルで調達可能な物資のみで\n製造された自在槍。天然の硬質素材の\n特性と優位性を最大限に引き出した。",
 		"tr_explain": "Wired Lances that take advantage of\nthe natural toughness of materials\nfrom planet Wopal."
 	},
 	{
 		"assign": "120104",
 		"jp_text": "シェルガイア",
-		"tr_text": "쉘 가이아",
+		"tr_text": "셸 가이아",
 		"jp_explain": "惑星ウォパルで調達可能な物資のみで\n製造された自在槍。フォトンに反応する\n発光物質を配合し独特な色合いを再現。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "120105",
 		"jp_text": "シェルクロノス",
-		"tr_text": "쉘 크로노스",
+		"tr_text": "셸 크로노스",
 		"jp_explain": "惑星ウォパルで調達可能な物資のみで\n製造された自在槍。硬度の高い赤色種を\n採用し、全体の強度を増した。",
 		"tr_explain": ""
 	},
@@ -625,7 +625,7 @@
 	{
 		"assign": "120125",
 		"jp_text": "ラミアスレイダー",
-		"tr_text": "라미아 슬라이더",
+		"tr_text": "라미아 슬레이더",
 		"jp_explain": "鋭角的な装飾が特徴の自在槍。\n可動ブレードの改良により\n携行しやすくなっている。",
 		"tr_explain": ""
 	},
@@ -674,7 +674,7 @@
 	{
 		"assign": "120141",
 		"jp_text": "アンジャクゥーリ",
-		"tr_text": "안쟈쿠우리",
+		"tr_text": "안자쿠우리",
 		"jp_explain": "黒の民アンジャドゥリリの輪を加工した\n自在槍。巨大な輪は鬼火を灯しながら\n回転し、対象を追跡する。",
 		"tr_explain": ""
 	},
@@ -842,14 +842,14 @@
 	{
 		"assign": "120188",
 		"jp_text": "セイガーシールド",
-		"tr_text": "세이가 쉴드",
+		"tr_text": "세이가 실드",
 		"jp_explain": "世界征服を企む悪の組織と戦うために\n作られた自在槍。盾の先端部を飛ばす\nセイガーシュートは非常に強力！",
 		"tr_explain": ""
 	},
 	{
 		"assign": "120189",
 		"jp_text": "セイカイザーシールド",
-		"tr_text": "세이카이저 쉴드",
+		"tr_text": "세이카이저 실드",
 		"jp_explain": "戦力を増強した悪の組織に対抗するため\n新たに開発された自在槍。紅の流星\nカイザーシュートは空間を穿つ！",
 		"tr_explain": ""
 	},
@@ -884,21 +884,21 @@
 	{
 		"assign": "120202",
 		"jp_text": "ジグマガイラー",
-		"tr_text": "시그마 가이라",
+		"tr_text": "지그마 가이라",
 		"jp_explain": "伝説の生物を機械的に再現した自在槍。\n鍛えられた牙はかすめるだけでも傷を\n負ってしまうほどの鋭さを誇る。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "120203",
 		"jp_text": "アウラデルウォッグ",
-		"tr_text": "아우라 델보그",
+		"tr_text": "아우라 델워그",
 		"jp_explain": "異界の因子を触媒に生み出された\n漆黒の自在槍。装者の生命力に比例して\n二刀の鞭刃は蒼き輝きを増すという。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "120205",
 		"jp_text": "マルスデルウォッグ",
-		"tr_text": "마르스 델보그",
+		"tr_text": "마르스 델워그",
 		"jp_explain": "異界の因子を触媒に生み出された\n混沌の自在槍。溢れ出す力は心を狂わせ\n二刀の鞭刃により破滅へ導くという。",
 		"tr_explain": ""
 	},
@@ -975,7 +975,7 @@
 	{
 		"assign": "120225",
 		"jp_text": "レイニールミラージュ",
-		"tr_text": "레이닐 미라쥬",
+		"tr_text": "레이닐 미라주",
 		"jp_explain": "新開発のフォトンリング機構を搭載した\n自在槍。部品が共鳴し発生するリングが\n装者の索敵能力を補助する。",
 		"tr_explain": ""
 	},
@@ -1059,14 +1059,14 @@
 	{
 		"assign": "120237",
 		"jp_text": "ジャグリアス-NT",
-		"tr_text": "쟈그리아스-NT",
+		"tr_text": "자그리아스-NT",
 		"jp_explain": "従来の概念を覆した大型の自在槍。\n近距離攻撃用に開発された装着武器を\n投擲武器として転用している。",
 		"tr_explain": "Wired Lances that defy convention.\nOriginally designed as a close-range\nweapon, but are now thrown."
 	},
 	{
 		"assign": "120238",
 		"jp_text": "ディオジャグリアス-NT",
-		"tr_text": "디오 쟈그리아스-NT",
+		"tr_text": "디오 자그리아스-NT",
 		"jp_explain": "大型自在槍の高機能バージョン。\n扱いやすさよりも破壊力を重視し\n攻撃性能の向上を追求した。",
 		"tr_explain": ""
 	},
@@ -1115,7 +1115,7 @@
 	{
 		"assign": "120245",
 		"jp_text": "ボクスドビュール",
-		"tr_text": "복스 더뷰르",
+		"tr_text": "복스 도뷰르",
 		"jp_explain": "ボクス・ドゥバルスの鋭爪を加工し\n作られた自在槍。素材の結晶は硬質で\n決して刃こぼれしないといわれるほど。",
 		"tr_explain": ""
 	},
@@ -1143,7 +1143,7 @@
 	{
 		"assign": "120252",
 		"jp_text": "クリファドランス",
-		"tr_text": "크리퍼드 랜스",
+		"tr_text": "크리파드 랜스",
 		"jp_explain": "理から外れ虚無と化した大樹の自在槍。\n装者は己の欲に忠実となり、赴くがまま\n刃を振りかざして快楽を得る。",
 		"tr_explain": "Wired Lances of fallen Yggdrasil. Their\nwielder is loyal only to their desires,\nusing their blades for pleasure alone."
 	},
@@ -1164,7 +1164,7 @@
 	{
 		"assign": "120255",
 		"jp_text": "ジュティスクリス",
-		"tr_text": "쥬티스 크리스",
+		"tr_text": "주티스 크리스",
 		"jp_explain": "古より伝わる陽光の自在槍。\n勇ましき戦士を護りし聖なる刃は\n世の悪を滅ぼさんと戦場に立つ。",
 		"tr_explain": "Ancient Wired Lances of the Sun.\nThese holy blades protect brave\nwarriors who fight to destroy evil."
 	},
@@ -1199,14 +1199,14 @@
 	{
 		"assign": "120262",
 		"jp_text": "ボンバゴレムバルン",
-		"tr_text": "봄버 골렘 바른",
+		"tr_text": "봄버 골렘 바룬",
 		"jp_explain": "ボンバゴーレムの残骸を再利用し\n作られた自在槍。放射状の突起は\n高熱で、標的の身体を焼き貫く。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "120263",
 		"jp_text": "ボンバゴレムスデッド",
-		"tr_text": "봄버 골렘 스뎃드",
+		"tr_text": "봄버 골렘 스데드",
 		"jp_explain": "ボンバゴーレムの残骸を再利用し\n作られた自在槍。黄金に輝く突起が\n標的の身体を抉り、切り刻む。",
 		"tr_explain": ""
 	},
@@ -1262,7 +1262,7 @@
 	{
 		"assign": "120277",
 		"jp_text": "アトラヴェイス・イクス",
-		"tr_text": "아트라 베이스・익스",
+		"tr_text": "아트라 베이스 익스",
 		"jp_explain": "過去に戦場となった地域から発掘された\n自在槍。真なる力に目覚めた宝玉は\n天色に煌めき、絶望すら貫く力を持つ。",
 		"tr_explain": "Wired Lances excavated from an old\nbattlefield. The heavenly shine of their\njewels can pierce through despair."
 	},
@@ -1388,14 +1388,14 @@
 	{
 		"assign": "120301",
 		"jp_text": "セレアグラトル",
-		"tr_text": "셀레 아그라이토르",
+		"tr_text": "셀레 아그라토르",
 		"jp_explain": "太古の時代を思い起こさせる自在槍。\n自然物由来と解析されるも\n不壊の強度には謎が多く残っている。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "120302",
 		"jp_text": "セレアグラトル・ザラ",
-		"tr_text": "셀레 아그라이토르 자라",
+		"tr_text": "셀레 아그라토르 자라",
 		"jp_explain": "太古の時代を思わせる自在槍。\n永遠に等しき眠りより目覚めた刃からは\n底知れぬ生命の躍動を感じる。",
 		"tr_explain": ""
 	},
@@ -1444,7 +1444,7 @@
 	{
 		"assign": "120330",
 		"jp_text": "フルクシオウェイヴ",
-		"tr_text": "프룩시오 웨이브",
+		"tr_text": "플룩시오 웨이브",
 		"jp_explain": "流線美と機能性を備え持つ自在槍。\n空を羽ばたく翼のようなデザインと\n最上位の基本スペックを備えた一品。",
 		"tr_explain": "Beautifully sleek Wired Lances whose\nultra-high-spec wing-like design soars\ngracefully through the air as if flying."
 	},
@@ -1472,14 +1472,14 @@
 	{
 		"assign": "12010004",
 		"jp_text": "ツヴィアワイヤー",
-		"tr_text": "츠비어 와이어",
+		"tr_text": "츠비아 와이어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
 	{
 		"assign": "12010005",
 		"jp_text": "リサージュワイヤー",
-		"tr_text": "리사쥬 와이어",
+		"tr_text": "리사주 와이어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1563,7 +1563,7 @@
 	{
 		"assign": "12010017",
 		"jp_text": "サンクエイムワイヤー",
-		"tr_text": "산퀘임 와이어",
+		"tr_text": "산크에임 와이어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
@@ -1591,7 +1591,7 @@
 	{
 		"assign": "12010022",
 		"jp_text": "ロクス・シージェムスワイヤー",
-		"tr_text": "록스 시잼스 와이어",
+		"tr_text": "록스 시젬스 와이어",
 		"jp_explain": "",
 		"tr_explain": ""
 	},
