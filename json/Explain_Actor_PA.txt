@@ -51,7 +51,7 @@
 	{
 		"assign": "SwordPA08",
 		"jp_text": "クルーエルスロー",
-		"tr_text": "크루엘 쓰로우",
+		"tr_text": "크루엘 스로",
 		"jp_explain": "『大剣』用のフォトンアーツ。\n目標を刃で突き刺し、そのまま\n任意の方向へと投げつける。",
 		"tr_explain": "Sword Photon Art.\nPierce a target with your blade, then throw it in any direction."
 	},
@@ -79,7 +79,7 @@
 	{
 		"assign": "WlancePA01",
 		"jp_text": "バインドスルー",
-		"tr_text": "바인드 쓰루",
+		"tr_text": "바인드 스루",
 		"jp_explain": "『自在槍』用のフォトンアーツ。\n目標を持ち上げ、地面へ向かって\n思い切り叩きつける。",
 		"tr_explain": "Wired Lance Photon Art.\nLift the target and slam it into the ground with all your strength."
 	},
@@ -177,7 +177,7 @@
 	{
 		"assign": "PartisanPA04",
 		"jp_text": "ピークアップスロー",
-		"tr_text": "픽 업 쓰로우",
+		"tr_text": "피크 업 스로",
 		"jp_explain": "『長槍』用のフォトンアーツ。\n連続突きの後、穂先で相手を捕縛し\nそのまま任意の方向に投げつける。",
 		"tr_explain": "Partizan Photon Art.\nStab the target several times, then impale and fling them in any direction."
 	},
@@ -219,7 +219,7 @@
 	{
 		"assign": "PartisanPA10",
 		"jp_text": "ヴォルグラプター",
-		"tr_text": "볼 그랩터",
+		"tr_text": "볼그 랩터",
 		"jp_explain": "『長槍』用のフォトンアーツ。\n追加衝撃により炸裂する槍を放つ。\nチャージすることで威力上昇。",
 		"tr_explain": "Partizan Photon Art.\nThrow a spear which further attacks detonate. Charge to increase power."
 	},
@@ -380,7 +380,7 @@
 	{
 		"assign": "DsaberPA11",
 		"jp_text": "ハリケーンセンダー",
-		"tr_text": "허리케인 샌더",
+		"tr_text": "허리케인 센더",
 		"jp_explain": "『両剣』用のフォトンアーツ。\n敵を集める竜巻を放つ。放った竜巻は\n武器アクションに応じて勢いを増す。",
 		"tr_explain": "Double Saber Photon Art.\nFire a tornado that draws in enemies. Kamaitachi strengthens the tornado."
 	},
@@ -408,7 +408,7 @@
 	{
 		"assign": "KnucklePA03",
 		"jp_text": "ペンデュラムロール",
-		"tr_text": "팬듈럼 롤",
+		"tr_text": "펜듈럼 롤",
 		"jp_explain": "『鋼拳』用のフォトンアーツ。\n８の字を描くように身体を振り回し\n腰の入った攻撃を連続で繰り出す。",
 		"tr_explain": "Knuckle Photon Art.\nA series of punches that lead from the waist, drawing a figure-eight."
 	},
@@ -443,14 +443,14 @@
 	{
 		"assign": "KnucklePA08",
 		"jp_text": "フラッシュサウザンド",
-		"tr_text": "플래쉬 사우전드",
+		"tr_text": "플래시 사우전드",
 		"jp_explain": "『鋼拳』用のフォトンアーツ。\n目標を打ち上げ、空中にいる対象に\n容赦のない連打を浴びせる。",
 		"tr_explain": "Knuckle Photon Art.\nLaunch the target with an uppercut, then unleash a flurry of punches."
 	},
 	{
 		"assign": "KnucklePA09",
 		"jp_text": "バックハンドスマッシュ",
-		"tr_text": "백핸드 스매쉬",
+		"tr_text": "백핸드 스매시",
 		"jp_explain": "『鋼拳』用のフォトンアーツ。\n全身の力を込め、一撃必倒の\n裏拳を対象に叩き込む。",
 		"tr_explain": "Knuckle Photon Art.\nSend the target flying with a backhand strike."
 	},
@@ -520,7 +520,7 @@
 	{
 		"assign": "GunslashPA08",
 		"jp_text": "アディションバレット",
-		"tr_text": "어디션 불릿",
+		"tr_text": "애디션 불릿",
 		"jp_explain": "『銃剣』用のフォトンアーツ。\n蹴撃で目標を吹き飛ばした後\n追い打ちの銃弾を、三発放つ。",
 		"tr_explain": "Gunslash Photon Art.\nKick the target away, then follow up with three gunshots."
 	},
@@ -548,14 +548,14 @@
 	{
 		"assign": "RiflePA01",
 		"jp_text": "ピアッシングシェル",
-		"tr_text": "피어싱 쉘",
+		"tr_text": "피어싱 셸",
 		"jp_explain": "『長銃』用のフォトンアーツ。\n貫通性能のある弾丸を装填、発射する。\n集束された一撃の威力は高い。",
 		"tr_explain": "Rifle Photon Art.\nLoad and fire a piercing shot. Slow firing rate, but high power."
 	},
 	{
 		"assign": "RiflePA02",
 		"jp_text": "グレネードシェル",
-		"tr_text": "그레네이드 쉘",
+		"tr_text": "그레네이드 셸",
 		"jp_explain": "『長銃』用のフォトンアーツ。\n着弾炸裂する弾丸を装填、発射する。\n爆発に多くの目標を巻き込む事が可能。",
 		"tr_explain": "Rifle Photon Art.\nLoad and fire an explosive shot. The explosion can hit multiple targets."
 	},
@@ -569,7 +569,7 @@
 	{
 		"assign": "RiflePA04",
 		"jp_text": "ディフューズシェル",
-		"tr_text": "디퓨즈 쉘",
+		"tr_text": "디퓨즈 셸",
 		"jp_explain": "『長銃』用のフォトンアーツ。\n弾倉を変更し、拡散銃弾を放つ。\n多くの目標を巻き込むことが可能。",
 		"tr_explain": "Rifle Photon Art.\nLoad and fire a diffuse shot, capable of hitting multiple targets."
 	},
@@ -667,7 +667,7 @@
 	{
 		"assign": "LauncherPA07",
 		"jp_text": "クレイジースマッシュ",
-		"tr_text": "크레이지 스매쉬",
+		"tr_text": "크레이지 스매시",
 		"jp_explain": "『大砲』用のフォトンアーツ。\n武器自身の圧倒的な重量を活かし\n全力で殴りつける。",
 		"tr_explain": "Launcher Photon Art.\nStrike the enemy with the full overwhelming weight of the weapon."
 	},
@@ -681,7 +681,7 @@
 	{
 		"assign": "LauncherPA09",
 		"jp_text": "フレイムバレット",
-		"tr_text": "프레임 불릿",
+		"tr_text": "플레임 불릿",
 		"jp_explain": "『大砲』用のフォトンアーツ。\n特殊な弾丸で激しい火炎を放つ。\nボタンホールドで攻撃回数が増加。",
 		"tr_explain": "Launcher Photon Art.\nLoad a special bullet to attack with an intense stream of flames."
 	},
@@ -758,7 +758,7 @@
 	{
 		"assign": "MachinegunPA09",
 		"jp_text": "ヒールスタッブ",
-		"tr_text": "힐 스탭",
+		"tr_text": "힐 스태브",
 		"jp_explain": "『双機銃』用のフォトンアーツ。\n意表をつき、渾身の踵落としを放つ。\nチャージすることで追撃を行う。",
 		"tr_explain": "Twin Machinegun Photon Art.\nLunge forward and unleash an axe kick. Charge for a follow-up attack."
 	},
@@ -828,7 +828,7 @@
 	{
 		"assign": "KatanaPA08",
 		"jp_text": "シュンカシュンラン",
-		"tr_text": "슌칸슌란",
+		"tr_text": "슌카 슌란",
 		"jp_explain": "『抜剣』用のフォトンアーツ。\n方向入力で怒涛の連続攻撃を放つ。\nチャージで威力が上昇する。",
 		"tr_explain": "Katana Photon Art.\nDash in with a thrust, then clear the area with a series of surging attacks."
 	},
@@ -912,7 +912,7 @@
 	{
 		"assign": "CompoundBowPA09",
 		"jp_text": "バニッシュアロウ",
-		"tr_text": "배니쉬 애로우",
+		"tr_text": "배니시 애로우",
 		"jp_explain": "『強弓』用のフォトンアーツ。\n追加衝撃により炸裂する矢を放つ。\nチャージすることで攻撃範囲拡大。",
 		"tr_explain": "Bullet Bow Photon Art.\nFire an arrow which further attacks detonate. Charge for bigger blast."
 	},
@@ -996,7 +996,7 @@
 	{
 		"assign": "DbladePA06",
 		"jp_text": "ケストレルランページ",
-		"tr_text": "게스트럴 램페이지",
+		"tr_text": "케스트럴 램페이지",
 		"jp_explain": "『飛翔剣』用のフォトンアーツ。\nフォトンの刃と共に乱舞を繰り出し\n数多の刃で目標を微塵に斬り刻む。",
 		"tr_explain": "Dual Blades Photon Art.\nDance with your Photon Blades, then use them to pulverize the target."
 	},
@@ -1619,7 +1619,7 @@
 	{
 		"assign": "MultiIL01",
 		"jp_text": "バーランツィオン",
-		"tr_text": "바란티온",
+		"tr_text": "바란치온",
 		"jp_explain": "氷と光の複合属性テクニック。\n氷と光で作られた刃で突撃を行い\n標的に華麗なる剣舞を見舞う。",
 		"tr_explain": "Technique combining Ice and Light.\nAttack the target in a brilliant swords dance with blades of ice and light."
 	},
@@ -1836,35 +1836,35 @@
 	{
 		"assign": "PetFPA01",
 		"jp_text": "ラッピーメロディー",
-		"tr_text": "랍피 Melody",
+		"tr_text": "랍피 멜로디",
 		"jp_explain": "『ラッピー』用のフォトンアーツ。\n心地よい旋律で敵にダメージを与え\n味方を回復する領域を作り出す。",
 		"tr_explain": "Photon Art used by Rappy.\nSings a pleasant melody, healing nearby allies and damaging nearby enemies."
 	},
 	{
 		"assign": "PetFPA02",
 		"jp_text": "ラッピードロップ",
-		"tr_text": "랍피 Drop",
+		"tr_text": "랍피 드롭",
 		"jp_explain": "『ラッピー』用のフォトンアーツ。\n一生懸命に羽ばたき、落下することで\n衝撃波を発生させる。",
 		"tr_explain": "Photon Art used by Rappy.\nFlapping its wings as hard as it can, it drops out of the air, landing with a shockwave."
 	},
 	{
 		"assign": "PetFPA03",
 		"jp_text": "ラッピーキャノン",
-		"tr_text": "랍피 Cannon",
+		"tr_text": "랍피 캐논",
 		"jp_explain": "『ラッピー』用のフォトンアーツ。\nタルから炸裂ラッピー弾を発射する。\nその後、プレイヤーの元へと戻る。",
 		"tr_explain": "Photon Art used by Rappy.\nFires an exploding Rappy bullet from a barrel, then returns to its master."
 	},
 	{
 		"assign": "PetFPA04",
 		"jp_text": "ラッピーソニック",
-		"tr_text": "랍피 Sonic",
+		"tr_text": "랍피 소닉",
 		"jp_explain": "『ラッピー』用のフォトンアーツ。\nかつてないほどに本気なラッピーが\n目標を高速で切り刻む。",
 		"tr_explain": "Photon Art used by Rappy.\nReveals the true power of the Rappy, pulverizing the target with high-speed strikes."
 	},
 	{
 		"assign": "PetFPA05",
 		"jp_text": "ラッピーエンド",
-		"tr_text": "랍피 End",
+		"tr_text": "랍피 엔드",
 		"jp_explain": "『ラッピー』用のフォトンアーツ。\nフォトンによって具現化させた\n極大のラッピーを目標に叩きつける。",
 		"tr_explain": "Photon Art used by Rappy.\nStrikes the target with the biggest Rappy that Photons can create."
 	},
