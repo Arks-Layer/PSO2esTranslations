@@ -275,21 +275,21 @@
 	{
 		"assign": "52048",
 		"jp_text": "アーム／バーチェスタａ",
-		"tr_text": "암/바쳬스타 a",
+		"tr_text": "암/바체스타 a",
 		"jp_explain": "腕部ユニット。軽量の防御刃を搭載。\n炎および風属性への耐性と\n射撃防御を上昇させる。",
 		"tr_explain": "Arm unit equipped with lightweight\nprotective blades. Increases R-DEF &\nFire and Wind resistance."
 	},
 	{
 		"assign": "52049",
 		"jp_text": "アーム／バーチェスタｂ",
-		"tr_text": "암/바쳬스타 b",
+		"tr_text": "암/바체스타 b",
 		"jp_explain": "腕部ユニット。軽量の防御刃を搭載。\n炎および風属性への耐性と\n射撃防御を上昇させる。",
 		"tr_explain": "Arm unit equipped with lightweight\nprotective blades. Increases R-DEF &\nFire and Wind resistance."
 	},
 	{
 		"assign": "52050",
 		"jp_text": "アーム／バーチェスタｃ",
-		"tr_text": "암/바쳬스타 c",
+		"tr_text": "암/바체스타 c",
 		"jp_explain": "腕部ユニット。軽量の防御刃を搭載。\n炎および風属性への耐性と\n射撃防御を上昇させる。",
 		"tr_explain": "Arm unit equipped with lightweight\nprotective blades. Increases R-DEF &\nFire and Wind resistance."
 	},
@@ -569,7 +569,7 @@
 	{
 		"assign": "520100",
 		"jp_text": "アーム／エレギラック",
-		"tr_text": "암/엘레기 랏쿠",
+		"tr_text": "암/엘레기 락",
 		"jp_explain": "腕部ユニット。黄雷甲が特徴的な型。\n雷属性への耐性と\n最大ＨＰ、打撃防御を上昇させる。",
 		"tr_explain": "Arm unit with a distinctive yellow\nlightning coating. Increases HP, S-DEF\n& Lightning resistance."
 	},
@@ -653,7 +653,7 @@
 	{
 		"assign": "520112",
 		"jp_text": "アーム／アグラネアンカ",
-		"tr_text": "암/아그라니 앙커",
+		"tr_text": "암/아그라네 앙커",
 		"jp_explain": "腕部ユニット。真紅の皮膜を再利用。\n闇属性への耐性と射撃防御を\n上昇させる。",
 		"tr_explain": "Arm unit that repurposes a crimson\nmembrane. Increases R-DEF & Dark\nresistance."
 	},
@@ -737,7 +737,7 @@
 	{
 		"assign": "520124",
 		"jp_text": "アーム／エクエスシリル",
-		"tr_text": "암/에크에스 시릴",
+		"tr_text": "암/에쿠에스 시릴",
 		"jp_explain": "腕部ユニット。衝撃緩衝用防護パーツ。\n打撃、氷属性の耐性と\n射撃防御を上げる。",
 		"tr_explain": "Arm unit with impact-cushioning\nprotective parts. Increases R-DEF\n& striking and Ice resistance."
 	},
@@ -1094,14 +1094,14 @@
 	{
 		"assign": "520256",
 		"jp_text": "アーム／雷剛タガシキ",
-		"tr_text": "암/뇌광 타가시키",
+		"tr_text": "암/뇌강 타가시키",
 		"jp_explain": "腕部ユニット。雷玉の力で保護する。\n打撃、法撃、雷、光属性の耐性と\nＨＰ、ＰＰ、各種防御を上昇させる。",
 		"tr_explain": "Arm unit protected by thunderballs.\nIncreases HP, PP, DEF & strike, shoot,\nLightning and Light resistance."
 	},
 	{
 		"assign": "520257",
 		"jp_text": "アーム／雷閃イザネシキ",
-		"tr_text": "암/니섬 이자네시키",
+		"tr_text": "암/뇌섬 이자네시키",
 		"jp_explain": "腕部ユニット。雷玉の力で保護する。\n打射法撃、雷、光属性の耐性と\n最大ＨＰ、各種防御を上昇させる。",
 		"tr_explain": "Arm unit protected by thunderballs.\nIncreases HP, DEF & striking, shooting,\nTechnique, Lightning and Light resist."
 	},
@@ -1241,7 +1241,7 @@
 	{
 		"assign": "520298",
 		"jp_text": "アーム／星震装ルシオン",
-		"tr_text": "암/성전장 루시온",
+		"tr_text": "암/성진장 루시온",
 		"jp_explain": "腕部ユニット。世界を想う心を宿す。\n打射法撃、闇属性の耐性と\n各種攻撃、防御を上昇させる。",
 		"tr_explain": "Arm unit that holds the world in its\nheart. Increases ATK, DEF & strike,\nshoot, Tech and Dark resistance."
 	},
@@ -1264,7 +1264,7 @@
 		"jp_text": "アーム／クラースヌーム",
 		"tr_text": "암/크라스 눔",
 		"jp_explain": "腕部ユニット。輝く未来を創り出す。\n打射法撃、炎、氷、雷、風属性の耐性と\n各種攻撃、防御を上昇させる。",
-		"tr_explain": "팔 부위 유닛. 빛나는 미래를 만든다.\n타사법격, 염, 빙, 뇌, 풍속성의 내성과\n\n각종 공격, 방어력을 상승시킨다."
+		"tr_explain": "팔 부위 유닛. 빛나는 미래를 만든다.\n타격, 사격, 법격 및 염, 빙, 뇌, 풍속성 내성과\n\n각종 공격력과 방어력을 높인다."
 	},
 	{
 		"assign": "520303",
