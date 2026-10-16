@@ -23,7 +23,7 @@
 	{
 		"assign": "32105",
 		"jp_text": "追加ツリー振り替えパス",
-		"tr_text": "추가 트리 대체 패스",
+		"tr_text": "추가 트리 이동 패스",
 		"jp_explain": "クラスカウンターで使われるパス。\n「スキルツリー追加パス」で追加した\nツリーを初期化しSPを振り直せる。",
 		"tr_explain": "Allows you to reassign one Skill Tree\nadded with an \"Add. Skill Tree\nPass\". resetting its distributed SP."
 	},
@@ -156,37 +156,37 @@
 	{
 		"assign": "321024",
 		"jp_text": "特殊能力追加（打撃）",
-		"tr_text": "특수능력 (타격)",
+		"tr_text": "특수 능력 추가 (타격)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【打撃】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"파워 부스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【타격】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "321025",
 		"jp_text": "特殊能力追加（射撃）",
-		"tr_text": "특수능력 (사격)",
+		"tr_text": "특수 능력 추가 (사격)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【射撃】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"슛 부스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【사격】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "321026",
 		"jp_text": "特殊能力追加（法撃）",
-		"tr_text": "특수능력 (법격)",
+		"tr_text": "특수 능력 추가 (법격)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【法撃】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"테크닉 부스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【법격】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "321027",
 		"jp_text": "特殊能力追加（ＨＰ）",
-		"tr_text": "특수능력 (HP)",
+		"tr_text": "특수 능력 추가 (HP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ＨＰ】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"스태미너 부스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【HP】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "321028",
 		"jp_text": "特殊能力追加（ＰＰ）",
-		"tr_text": "특수능력 (PP)",
+		"tr_text": "특수 능력 추가 (PP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ＰＰ】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"스피리타 부스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【PP】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "321030",
@@ -282,7 +282,7 @@
 	{
 		"assign": "321056",
 		"jp_text": "能力追加成功（１００％）",
-		"tr_text": "능력 추가 성공률 +100%",
+		"tr_text": "능력 추가 성공 (100%)",
 		"jp_explain": "特殊能力追加用の補助素材。\n特殊能力追加時に使用することで\n確実に成功させる。",
 		"tr_explain": "Used when adding Special Abilities\non your equipment.\nBoosts success rate by 100%."
 	},
@@ -340,35 +340,35 @@
 		"jp_text": "クラス追加（ハンター）",
 		"tr_text": "클래스 추가 (헌터)",
 		"jp_explain": "武装エクステンド実行時に\nハンターのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"헌터\"\nto equipment when extended."
+		"tr_explain": "무장 익스텐드 시 반드시\n헌터 클래스를 추가한다."
 	},
 	{
 		"assign": "321068",
 		"jp_text": "クラス追加（レンジャー）",
 		"tr_text": "클래스 추가 (레인저)",
 		"jp_explain": "武装エクステンド実行時に\nレンジャーのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"레인저\"\nto equipment when extended."
+		"tr_explain": "무장 익스텐드 시 반드시\n레인저 클래스를 추가한다."
 	},
 	{
 		"assign": "321069",
 		"jp_text": "クラス追加（フォース）",
 		"tr_text": "클래스 추가 (포스)",
 		"jp_explain": "武装エクステンド実行時に\nフォースのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"포스\"\nto equipment when extended."
+		"tr_explain": "무장 익스텐드 시 반드시\n포스 클래스를 추가한다."
 	},
 	{
 		"assign": "321070",
 		"jp_text": "クラス追加（ファイター）",
 		"tr_text": "클래스 추가 (파이터)",
 		"jp_explain": "武装エクステンド実行時に\nファイターのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"파이터\"\nto equipment when extended."
+		"tr_explain": "무장 익스텐드 시 반드시\n파이터 클래스를 추가한다."
 	},
 	{
 		"assign": "321071",
 		"jp_text": "クラス追加（ガンナー）",
 		"tr_text": "클래스 추가 (거너)",
 		"jp_explain": "武装エクステンド実行時に\nガンナーのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"거너\"\nto equipment when extended."
+		"tr_explain": "무장 익스텐드 시 반드시\n거너 클래스를 추가한다."
 	},
 	{
 		"assign": "321072",
@@ -382,7 +382,7 @@
 		"jp_text": "クラス追加（ブレイバー）",
 		"tr_text": "클래스 추가 (브레이버)",
 		"jp_explain": "武装エクステンド実行時に\nブレイバーのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"브레이버\"\nto equipment when extended."
+		"tr_explain": "무장 익스텐드 시 반드시\n브레이버 클래스를 추가한다."
 	},
 	{
 		"assign": "321074",
@@ -410,28 +410,28 @@
 		"jp_text": "装備条件変更（技量）",
 		"tr_text": "장비 조건 변경 (기량)",
 		"jp_explain": "武装エクステンド実行時に\n装備条件を技量に\n変更する。",
-		"tr_explain": "Swaps the equipment requirement\nwhen used during equipment\nextension with 기량."
+		"tr_explain": "무장 익스텐드 시\n장비 조건을 기량으로\n변경한다."
 	},
 	{
 		"assign": "321078",
 		"jp_text": "装備条件変更（打撃防御）",
 		"tr_text": "장비 조건 변경 (타격 방어)",
 		"jp_explain": "武装エクステンド実行時に\n装備条件を打撃防御に\n変更する。",
-		"tr_explain": "Swaps the equipment requirement\nwhen used during equipment\nextension with 타격 방어."
+		"tr_explain": "무장 익스텐드 시\n장비 조건을 타격 방어로\n변경한다."
 	},
 	{
 		"assign": "321079",
 		"jp_text": "装備条件変更（射撃防御）",
 		"tr_text": "장비 조건 변경 (사격 방어)",
 		"jp_explain": "武装エクステンド実行時に\n装備条件を射撃防御に\n変更する。",
-		"tr_explain": "Swaps the equipment requirement\nwhen used during equipment\nextension with 사격 방어."
+		"tr_explain": "무장 익스텐드 시\n장비 조건을 사격 방어로\n변경한다."
 	},
 	{
 		"assign": "321080",
 		"jp_text": "装備条件変更（法撃防御）",
 		"tr_text": "장비 조건 변경 (법격 방어)",
 		"jp_explain": "武装エクステンド実行時に\n装備条件を法撃防御に\n変更する。",
-		"tr_explain": "Swaps the equipment requirement\nwhen used during equipment\nextension with 법격 방어."
+		"tr_explain": "무장 익스텐드 시\n장비 조건을 법격 방어로\n변경한다."
 	},
 	{
 		"assign": "321081",
@@ -536,84 +536,84 @@
 		"jp_text": "効果時間延長＋７日",
 		"tr_text": "효과 시간 연장 +7일",
 		"jp_explain": "時限能力インストール実行時に\nデータの効果時間を７日\n延長させる。",
-		"tr_explain": "Extends the expiration of\na Timed Ability by 7일."
+		"tr_explain": "기간 한정 능력 설치 시\n데이터의 효과 시간을 7일 연장한다."
 	},
 	{
 		"assign": "3210114",
 		"jp_text": "クラス追加（バウンサー）",
 		"tr_text": "클래스 추가 (바운서)",
 		"jp_explain": "武装エクステンド実行時に\nバウンサーのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"바운서\"\nto equipment when extended."
+		"tr_explain": "무장 익스텐드 시 반드시\n바운서 클래스를 추가한다."
 	},
 	{
 		"assign": "3210115",
 		"jp_text": "特殊能力追加（打撃＆ＰＰ）",
-		"tr_text": "특수능력 (타격&PP)",
+		"tr_text": "특수 능력 추가 (타격&PP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【打撃＆ＰＰ】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"노블 파워\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【타격&PP】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210116",
 		"jp_text": "特殊能力追加（射撃＆ＰＰ）",
-		"tr_text": "특수능력 (사격&PP)",
+		"tr_text": "특수 능력 추가 (사격&PP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【射撃＆ＰＰ】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"노블 슛\" when\nused in Special Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【사격&PP】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210117",
 		"jp_text": "特殊能力追加（法撃＆ＰＰ）",
-		"tr_text": "특수능력 (법격&PP)",
+		"tr_text": "특수 능력 추가 (법격&PP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【法撃＆ＰＰ】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"노블 테크닉\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【법격&PP】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210118",
 		"jp_text": "特殊能力追加（ＨＰ＆ＰＰ）",
-		"tr_text": "특수능력 (HP&PP)",
+		"tr_text": "특수 능력 추가 (HP&PP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ＨＰ＆ＰＰ】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"노블 스태미너\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【HP&PP】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210119",
 		"jp_text": "カスタムタイプ１＋１０％",
 		"tr_text": "커스텀 타입 1 +10%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ１の効果値を\n１０％向上させる。",
-		"tr_explain": "Used during customization crafts.\n커스텀 타입 1 effect boosted\nby 10%."
+		"tr_explain": "커스터마이즈 시\n커스텀 타입 1의 효과 수치를\n10% 높인다."
 	},
 	{
 		"assign": "3210120",
 		"jp_text": "カスタムタイプ１＋２０％",
 		"tr_text": "커스텀 타입 1 +20%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ１の効果値を\n２０％向上させる。",
-		"tr_explain": "Used during customization crafts.\n커스텀 타입 1 effect boosted\nby 20%."
+		"tr_explain": "커스터마이즈 시\n커스텀 타입 1의 효과 수치를\n20% 높인다."
 	},
 	{
 		"assign": "3210121",
 		"jp_text": "カスタムタイプ１＋３０％",
 		"tr_text": "커스텀 타입 1 +30%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ１の効果値を\n３０％向上させる。",
-		"tr_explain": "Used during customization crafts.\n커스텀 타입 1 effect boosted\nby 30%."
+		"tr_explain": "커스터마이즈 시\n커스텀 타입 1의 효과 수치를\n30% 높인다."
 	},
 	{
 		"assign": "3210124",
 		"jp_text": "カスタムタイプ２＋１０％",
 		"tr_text": "커스텀 타입 2 +10%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ２の効果値を\n１０％向上させる。",
-		"tr_explain": "Used during customization crafts.\n커스텀 타입 2 effect boosted\nby 10%."
+		"tr_explain": "커스터마이즈 시\n커스텀 타입 2의 효과 수치를\n10% 높인다."
 	},
 	{
 		"assign": "3210125",
 		"jp_text": "カスタムタイプ２＋２０％",
 		"tr_text": "커스텀 타입 2 +20%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ２の効果値を\n２０％向上させる。",
-		"tr_explain": "Used during customization crafts.\n커스텀 타입 2 effect boosted\nby 20%."
+		"tr_explain": "커스터마이즈 시\n커스텀 타입 2의 효과 수치를\n20% 높인다."
 	},
 	{
 		"assign": "3210126",
 		"jp_text": "カスタムタイプ２＋３０％",
 		"tr_text": "커스텀 타입 2 +30%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ２の効果値を\n３０％向上させる。",
-		"tr_explain": "Used during customization crafts.\n커스텀 타입 2 effect boosted\nby 30%."
+		"tr_explain": "커스터마이즈 시\n커스텀 타입 2의 효과 수치를\n30% 높인다."
 	},
 	{
 		"assign": "3210129",
@@ -641,7 +641,7 @@
 		"jp_text": "クラス追加（サモナー）",
 		"tr_text": "클래스 추가 (서모너)",
 		"jp_explain": "武装エクステンド実行時に\nサモナーのクラス追加が\n必ず発生するようになる。",
-		"tr_explain": "Adds the class \"서모너\"\nto equipment when extended."
+		"tr_explain": "무장 익스텐드 시 반드시\n서모너 클래스를 추가한다."
 	},
 	{
 		"assign": "3210140",
@@ -779,105 +779,105 @@
 	{
 		"assign": "3210159",
 		"jp_text": "よい釣り竿",
-		"tr_text": "좋은 낚시대",
+		"tr_text": "좋은 낚싯대",
 		"jp_explain": "ギャザリングで釣りを行える。\nレア釣り発生率＋５％",
 		"tr_explain": "A tool for Fishing.\nRare Fishing Rate +5%"
 	},
 	{
 		"assign": "3210160",
 		"jp_text": "電撃釣り竿",
-		"tr_text": "전격 낚시대",
+		"tr_text": "전격 낚싯대",
 		"jp_explain": "ギャザリングで\nボーナス付き釣りを行える。\nレア釣り発生率＋８０％\n<yellow>有効期限／２０１７年１２月６日１１時００分<c>",
 		"tr_explain": "A tool for Fishing.\nRare Fishing Rate +80%\n<yellow>Expires Dec 6, 11:00 JST<c>"
 	},
 	{
 		"assign": "3210161",
 		"jp_text": "ファミ通釣り竿",
-		"tr_text": "패미통 낚시대",
+		"tr_text": "패미통 낚싯대",
 		"jp_explain": "ギャザリングで\nボーナス付き釣りを行える。\nレア釣り発生率＋８０％\n<yellow>有効期限／２０１６年１２月７日１１時００分<c>",
 		"tr_explain": "A tool for Fishing.\nRare Fishing Rate +80%\n<yellow>Expires Dec 7, 2016 11:00 JST<c>"
 	},
 	{
 		"assign": "3210162",
 		"jp_text": "【極み】釣り竿",
-		"tr_text": "【극】 낚시대",
+		"tr_text": "【극】 낚싯대",
 		"jp_explain": "ギャザリングで釣りを行える。\nレア釣り発生率＋１００％",
 		"tr_explain": "A tool for Fishing.\nRare Fishing Rate +100%"
 	},
 	{
 		"assign": "3210163",
 		"jp_text": "採取スタミナドリンク",
-		"tr_text": "채집 스태미너 드링크",
+		"tr_text": "채집 스태미나 드링크",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
 		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
 	},
 	{
 		"assign": "3210164",
 		"jp_text": "採取スタドリ０１",
-		"tr_text": "채집 스태미너 드링크 01",
+		"tr_text": "채집 스태미나 드링크 01",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
 		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
 	},
 	{
 		"assign": "3210165",
 		"jp_text": "採取スタドリ０２",
-		"tr_text": "채집 스태미너 드링크 02",
+		"tr_text": "채집 스태미나 드링크 02",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
 		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
 	},
 	{
 		"assign": "3210166",
 		"jp_text": "採取スタドリ０３",
-		"tr_text": "채집 스태미너 드링크 03",
+		"tr_text": "채집 스태미나 드링크 03",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
 		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
 	},
 	{
 		"assign": "3210167",
 		"jp_text": "採取スタドリ０４",
-		"tr_text": "채집 스태미너 드링크 04",
+		"tr_text": "채집 스태미나 드링크 04",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
 		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
 	},
 	{
 		"assign": "3210168",
 		"jp_text": "採取スタドリ０５",
-		"tr_text": "채집 스태미너 드링크 05",
+		"tr_text": "채집 스태미나 드링크 05",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
 		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
 	},
 	{
 		"assign": "3210169",
 		"jp_text": "採取スタドリ０６",
-		"tr_text": "채집 스태미너 드링크 06",
+		"tr_text": "채집 스태미나 드링크 06",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
 		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
 	},
 	{
 		"assign": "3210170",
 		"jp_text": "採取スタドリ０７",
-		"tr_text": "채집 스태미너 드링크 07",
+		"tr_text": "채집 스태미나 드링크 07",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
 		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
 	},
 	{
 		"assign": "3210171",
 		"jp_text": "採取スタドリ０８",
-		"tr_text": "채집 스태미너 드링크 08",
+		"tr_text": "채집 스태미나 드링크 08",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
 		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
 	},
 	{
 		"assign": "3210172",
 		"jp_text": "採取スタドリ０９",
-		"tr_text": "채집 스태미너 드링크 09",
+		"tr_text": "채집 스태미나 드링크 09",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
 		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
 	},
 	{
 		"assign": "3210173",
 		"jp_text": "採取スタドリ１０",
-		"tr_text": "채집 스태미너 드링크 10",
+		"tr_text": "채집 스태미나 드링크 10",
 		"jp_explain": "ギャザラー用に開発された栄養剤。\n採取スタミナが１００回復する。",
 		"tr_explain": "Nutritional Supplement that\nwas developed for Gathering.\nRecovers 100 Stamina."
 	},
@@ -982,14 +982,14 @@
 	{
 		"assign": "3210193",
 		"jp_text": "強化大成功（１００％）",
-		"tr_text": "강화 대성공 확률 (100%)",
+		"tr_text": "강화 대성공 (100%)",
 		"jp_explain": "新世武器用の強化補助素材。\n強化時に使用することで\n確実に大成功を発生させる。",
 		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, success\nprobability rate boosted by 100%."
 	},
 	{
 		"assign": "3210194",
 		"jp_text": "コレクトシート再受注パス",
-		"tr_text": "콜렉트 시트 재수주 패스",
+		"tr_text": "컬렉트 시트 재수주 패스",
 		"jp_explain": "コレクトシートの再受注申請パス。\n対象の課題に発生しているクール\nタイムをリセットし受注可能とする。",
 		"tr_explain": "Resets the cooldown time on a Collect\nFile sheet, allowing you to take it\nagain right away."
 	},
@@ -1066,156 +1066,156 @@
 	{
 		"assign": "3210205",
 		"jp_text": "特殊能力追加（攻撃総合）",
-		"tr_text": "특수능력 (공격 종합)",
+		"tr_text": "특수 능력 추가 (공격 종합)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【攻撃総合】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"오펜스 부스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【공격 종합】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210206",
 		"jp_text": "特殊能力追加（防御総合）",
-		"tr_text": "특수능력 (방어 종합)",
+		"tr_text": "특수 능력 추가 (방어 종합)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【防御総合】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"디펜스 부스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【방어 종합】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210207",
 		"jp_text": "特殊能力追加（攻撃継承）",
-		"tr_text": "특수능력 (공격 계승)",
+		"tr_text": "특수 능력 추가 (공격 계승)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【攻撃継承】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"공격 계승\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【공격 계승】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210208",
 		"jp_text": "特殊能力追加（防御継承）",
-		"tr_text": "특수능력 (방어 계승)",
+		"tr_text": "특수 능력 추가 (방어 계승)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【防御継承】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"방어 계승\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【방어 계승】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210209",
 		"jp_text": "特殊能力追加（心身継承）",
-		"tr_text": "특수능력 (심신 계승)",
+		"tr_text": "특수 능력 추가 (심신 계승)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【心身継承】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"심신 계승\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【심신 계승】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210210",
 		"jp_text": "メセタトレジャー更新１",
-		"tr_text": "메세타 트래저 갱신 1",
+		"tr_text": "메세타 트레저 갱신 1",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
 		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210211",
 		"jp_text": "メセタトレジャー更新２",
-		"tr_text": "메세타 트래저 갱신 2",
+		"tr_text": "메세타 트레저 갱신 2",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
 		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210212",
 		"jp_text": "メセタトレジャー更新３",
-		"tr_text": "메세타 트래저 갱신 3",
+		"tr_text": "메세타 트레저 갱신 3",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
 		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210213",
 		"jp_text": "メセタトレジャー更新４",
-		"tr_text": "메세타 트래저 갱신 4",
+		"tr_text": "메세타 트레저 갱신 4",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
 		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210214",
 		"jp_text": "メセタトレジャー更新５",
-		"tr_text": "메세타 트래저 갱신 5",
+		"tr_text": "메세타 트레저 갱신 5",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
 		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210215",
 		"jp_text": "メセタトレジャー更新６",
-		"tr_text": "메세타 트래저 갱신 6",
+		"tr_text": "메세타 트레저 갱신 6",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
 		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210216",
 		"jp_text": "メセタトレジャー更新７",
-		"tr_text": "메세타 트래저 갱신 7",
+		"tr_text": "메세타 트레저 갱신 7",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
 		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210217",
 		"jp_text": "メセタトレジャー更新８",
-		"tr_text": "메세타 트래저 갱신 8",
+		"tr_text": "메세타 트레저 갱신 8",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
 		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210218",
 		"jp_text": "メセタトレジャー更新９",
-		"tr_text": "메세타 트래저 갱신 9",
+		"tr_text": "메세타 트레저 갱신 9",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
 		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210219",
 		"jp_text": "メセタトレジャー更新１０",
-		"tr_text": "메세타 트래저 갱신 10",
+		"tr_text": "메세타 트레저 갱신 10",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nメセタで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
 		"tr_explain": "Chooses a new selection of items for\nthe Meseta Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "3210220",
 		"jp_text": "特殊能力追加（ＧＲＭ）",
-		"tr_text": "특수능력 (GRM)",
+		"tr_text": "특수 능력 추가 (GRM)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ＧＲＭ】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"GRM 부스트\" when\nused in Special Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【GRM】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210221",
 		"jp_text": "特殊能力追加（テノラ）",
-		"tr_text": "특수능력 (테노라)",
+		"tr_text": "특수 능력 추가 (테노라)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【テノラ】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"테노라 부스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【테노라】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210222",
 		"jp_text": "特殊能力追加（ヨウメイ）",
-		"tr_text": "특수능력 (요우메이)",
+		"tr_text": "특수 능력 추가 (요우메이)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ヨウメイ】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"요우메이 부스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【요우메이】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210223",
 		"jp_text": "特殊能力（打撃＆ＰＰ/２）",
-		"tr_text": "특수능력 (타격&PP/2)",
+		"tr_text": "특수 능력 (타격&PP/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【打撃＆ＰＰ/２】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"엘레강트 파워\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【타격&PP/2】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210224",
 		"jp_text": "特殊能力（射撃＆ＰＰ/２）",
-		"tr_text": "특수능력 (사격&PP/2)",
+		"tr_text": "특수 능력 (사격&PP/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【射撃＆ＰＰ/２】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"엘레강트 슛\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【사격&PP/2】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210225",
 		"jp_text": "特殊能力（法撃＆ＰＰ/２）",
-		"tr_text": "특수능력 (법격&PP/2)",
+		"tr_text": "특수 능력 (법격&PP/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【法撃＆ＰＰ/２】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"엘레강트 테크닉\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【법격&PP/2】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210226",
 		"jp_text": "特殊能力（ＨＰ＆ＰＰ/２）",
-		"tr_text": "특수능력 (HP&PP/2)",
+		"tr_text": "특수 능력 (HP&PP/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ＨＰ＆ＰＰ/２】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"엘레강트 스태미너\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【HP&PP/2】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210227",
@@ -1236,14 +1236,14 @@
 		"jp_text": "クエスト報酬獲得１",
 		"tr_text": "퀘스트 보상 획득 1",
 		"jp_explain": "追加のクエスト報酬を得られる。",
-		"tr_explain": "Additional 퀘스트 보상 획득s can be\nobtained."
+		"tr_explain": "추가 퀘스트 보상을\n얻을 수 있다."
 	},
 	{
 		"assign": "3210230",
 		"jp_text": "クエスト報酬獲得２",
 		"tr_text": "퀘스트 보상 획득 2",
 		"jp_explain": "追加のクエスト報酬を得られる。",
-		"tr_explain": "Additional 퀘스트 보상 획득s can be\nobtained."
+		"tr_explain": "추가 퀘스트 보상을\n얻을 수 있다."
 	},
 	{
 		"assign": "3210231",
@@ -1257,147 +1257,147 @@
 		"jp_text": "強化値上限＋１",
 		"tr_text": "강화치 상한 +1",
 		"jp_explain": "新世武器用の強化補助素材。\n強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, the 강화치 상한 is\nboosted by +1."
+		"tr_explain": "신세 무기용 강화 보조 소재.\n강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210233",
 		"jp_text": "強化値上限＋１／大剣",
 		"tr_text": "강화치 상한 +1/대검",
 		"jp_explain": "新世武器用の強化補助素材。\n『大剣』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, 대검 강화치 상한 is\nboosted by +1."
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「대검」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210234",
 		"jp_text": "強化値上限＋１／自在槍",
-		"tr_text": "강화치 상한 +1/와이어드 랜스",
+		"tr_text": "강화치 상한 +1/자재창",
 		"jp_explain": "新世武器用の強化補助素材。\n『自在槍』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, 자재창\n강화치 상한 is boosted by +1."
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「자재창」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210235",
 		"jp_text": "強化値上限＋１／長槍",
-		"tr_text": "강화치 상한 +1/파르티잔",
+		"tr_text": "강화치 상한 +1/장창",
 		"jp_explain": "新世武器用の強化補助素材。\n『長槍』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, 장창 강화치 상한\nis boosted by +1."
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「장창」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210236",
 		"jp_text": "強化値上限＋１／双小剣",
-		"tr_text": "강화치 상한 +1/트윈 대거",
+		"tr_text": "강화치 상한 +1/쌍소검",
 		"jp_explain": "新世武器用の強化補助素材。\n『双小剣』の強化時に使用することで\n強化値の上限を１上昇させる。",
 		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, Twin Dagger grind\ncap is boosted by +1."
 	},
 	{
 		"assign": "3210237",
 		"jp_text": "強化値上限＋１／両剣",
-		"tr_text": "강화치 상한 +1/더블 세이버",
+		"tr_text": "강화치 상한 +1/양검",
 		"jp_explain": "新世武器用の強化補助素材。\n『両剣』の強化時に使用することで\n強化値の上限を１上昇させる。",
 		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, Double Saber grind\ncap is boosted by +1."
 	},
 	{
 		"assign": "3210238",
 		"jp_text": "強化値上限＋１／鋼拳",
-		"tr_text": "강화치 상한 +1/너클",
+		"tr_text": "강화치 상한 +1/강권",
 		"jp_explain": "新世武器用の強化補助素材。\n『鋼拳』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, Knuckles 강화치 상한\nis boosted by +1."
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「강권」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210239",
 		"jp_text": "強化値上限＋１／銃剣",
-		"tr_text": "강화치 상한 +1/건 슬래쉬",
+		"tr_text": "강화치 상한 +1/총검",
 		"jp_explain": "新世武器用の強化補助素材。\n『銃剣』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, Gunslash 강화치 상한\nis boosted by +1."
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「총검」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210240",
 		"jp_text": "強化値上限＋１／長銃",
-		"tr_text": "강화치 상한 +1/어설트 라이플",
+		"tr_text": "강화치 상한 +1/장총",
 		"jp_explain": "新世武器用の強化補助素材。\n『長銃』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Assault Rifle\n강화치 상한 is boosted by +1."
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「장총」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210241",
 		"jp_text": "強化値上限＋１／大砲",
-		"tr_text": "강화치 상한 +1/런처",
+		"tr_text": "강화치 상한 +1/대포",
 		"jp_explain": "新世武器用の強化補助素材。\n『大砲』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, 런쳐 강화치 상한\nis boosted by +1."
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「대포」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210242",
 		"jp_text": "強化値上限＋１／双機銃",
-		"tr_text": "강화치 상한 +1/트윈 머신건",
+		"tr_text": "강화치 상한 +1/쌍기총",
 		"jp_explain": "新世武器用の強化補助素材。\n『双機銃』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons. During\nweapon grinding, Twin Machinegun\n강화치 상한 is boosted by +1."
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「쌍기총」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210243",
 		"jp_text": "強化値上限＋１／長杖",
-		"tr_text": "강화치 상한 +1/로드",
+		"tr_text": "강화치 상한 +1/장장",
 		"jp_explain": "新世武器用の強化補助素材。\n『長杖』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Rod\n강화치 상한 is boosted by +1"
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「장장」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210244",
 		"jp_text": "強化値上限＋１／導具",
-		"tr_text": "강화치 상한 +1/탈리스",
+		"tr_text": "강화치 상한 +1/도구",
 		"jp_explain": "新世武器用の強化補助素材。\n『導具』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Talis\n강화치 상한 is boosted by +1"
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「도구」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210245",
 		"jp_text": "強化値上限＋１／短杖",
-		"tr_text": "강화치 상한 +1/완드",
+		"tr_text": "강화치 상한 +1/단장",
 		"jp_explain": "新世武器用の強化補助素材。\n『短杖』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Wand\n강화치 상한 is boosted by +1"
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「단장」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210246",
 		"jp_text": "強化値上限＋１／抜剣",
-		"tr_text": "강화치 상한 +1/카타나",
+		"tr_text": "강화치 상한 +1/발검",
 		"jp_explain": "新世武器用の強化補助素材。\n『抜剣』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Katana\n강화치 상한 is boosted by +1"
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「발검」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210247",
 		"jp_text": "強化値上限＋１／強弓",
-		"tr_text": "강화치 상한 +1/불릿 보우",
+		"tr_text": "강화치 상한 +1/강궁",
 		"jp_explain": "新世武器用の強化補助素材。\n『強弓』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Bow\n강화치 상한 is boosted by +1"
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「강궁」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210248",
 		"jp_text": "強化値上限＋１／魔装脚",
-		"tr_text": "강화치 상한 +1/제트 부츠",
+		"tr_text": "강화치 상한 +1/마장각",
 		"jp_explain": "新世武器用の強化補助素材。\n『魔装脚』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Jet Boots\n강화치 상한 is boosted by +1"
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「마장각」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210249",
 		"jp_text": "強化値上限＋１／飛翔剣",
-		"tr_text": "강화치 상한 +1/듀얼 블레이드",
+		"tr_text": "강화치 상한 +1/비상검",
 		"jp_explain": "新世武器用の強化補助素材。\n『飛翔剣』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, D. Blades\n강화치 상한 is boosted by +1"
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「비상검」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210250",
 		"jp_text": "強化値上限＋１／奏具",
 		"tr_text": "강화치 상한 +1/택트",
 		"jp_explain": "新世武器用の強化補助素材。\n『奏具』の強化時に使用することで\n強化値の上限を１上昇させる。",
-		"tr_explain": "Material used on NT Weapons.\nDuring weapon grinding, Takt\n강화치 상한 is boosted by +1"
+		"tr_explain": "신세 무기용 강화 보조 소재.\n「택트」 강화 시 사용하면\n강화치 상한이 1 증가한다."
 	},
 	{
 		"assign": "3210270",
 		"jp_text": "カスタムタイプ１＋６０％",
 		"tr_text": "커스텀 타입 1 +60%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ１の効果値を\n６０％向上させる。",
-		"tr_explain": "Used during customization crafts.\n커스텀 타입 1 effect boosted by\n60%."
+		"tr_explain": "커스터마이즈 시\n커스텀 타입 1의 효과 수치를\n60% 높인다."
 	},
 	{
 		"assign": "3210271",
 		"jp_text": "カスタムタイプ２＋６０％",
 		"tr_text": "커스텀 타입 2 +60%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ２の効果値を\n６０％向上させる。",
-		"tr_explain": "Used during customization crafts.\n커스텀 타입 2 effect boosted\nby 60%."
+		"tr_explain": "커스터마이즈 시\n커스텀 타입 2의 효과 수치를\n60% 높인다."
 	},
 	{
 		"assign": "3210272",
@@ -1418,14 +1418,14 @@
 		"jp_text": "カスタムタイプ１＋７０％",
 		"tr_text": "커스텀 타입 1 +70%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ１の効果値を\n７０％向上させる。",
-		"tr_explain": "Used during customization crafts.\n커스텀 타입 1 effect boosted\nby 70%."
+		"tr_explain": "커스터마이즈 시\n커스텀 타입 1의 효과 수치를\n70% 높인다."
 	},
 	{
 		"assign": "3210275",
 		"jp_text": "カスタムタイプ２＋７０％",
 		"tr_text": "커스텀 타입 2 +70%",
 		"jp_explain": "カスタマイズ実行時に\nカスタムタイプ２の効果値を\n７０％向上させる。",
-		"tr_explain": "Used during customization crafts.\n커스텀 타입 2 effect boosted\nby 70%."
+		"tr_explain": "커스터마이즈 시\n커스텀 타입 2의 효과 수치를\n70% 높인다."
 	},
 	{
 		"assign": "3210276",
@@ -1458,499 +1458,499 @@
 	{
 		"assign": "3210283",
 		"jp_text": "特殊能力保護（４枠以下）",
-		"tr_text": "특수능력 보호 (4슬롯 이하)",
+		"tr_text": "특수 능력 보호 (4슬롯 이하)",
 		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが４スロット以下<c>",
-		"tr_explain": "Returns the Special Abilities that\nwere lost from synthesis.\n<yellow>Only works on 4 slot슬롯 이하.<c>"
+		"tr_explain": "특수 능력 추가에 실패하면 소재 아이템과\n특수 능력 추가 아이템이 반환된다.\n<yellow>대상: 추가 예정 목록이 4슬롯 이하<c>"
 	},
 	{
 		"assign": "3210284",
 		"jp_text": "特殊能力保護（５枠以下）",
-		"tr_text": "특수능력 보호 (5슬롯 이하)",
+		"tr_text": "특수 능력 보호 (5슬롯 이하)",
 		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが５スロット以下<c>",
-		"tr_explain": "Returns the Special Abilities that\nwere lost from synthesis.\n<yellow>Only works on 5 slot슬롯 이하.<c>"
+		"tr_explain": "특수 능력 추가에 실패하면 소재 아이템과\n특수 능력 추가 아이템이 반환된다.\n<yellow>대상: 추가 예정 목록이 5슬롯 이하<c>"
 	},
 	{
 		"assign": "3210285",
 		"jp_text": "特殊能力保護（６枠以下）",
-		"tr_text": "특수능력 보호 (6슬롯 이하)",
+		"tr_text": "특수 능력 보호 (6슬롯 이하)",
 		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが６スロット以下<c>",
-		"tr_explain": "Returns the Special Abilities that\nwere lost from synthesis.\n<yellow>Only works on 6 slot슬롯 이하.<c>"
+		"tr_explain": "특수 능력 추가에 실패하면 소재 아이템과\n특수 능력 추가 아이템이 반환된다.\n<yellow>대상: 추가 예정 목록이 6슬롯 이하<c>"
 	},
 	{
 		"assign": "3210286",
 		"jp_text": "特殊能力保護（７枠以下）",
-		"tr_text": "특수능력 보호 (7슬롯 이하)",
+		"tr_text": "특수 능력 보호 (7슬롯 이하)",
 		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが７スロット以下<c>",
-		"tr_explain": "Returns the Special Abilities that\nwere lost from synthesis.\n<yellow>Only works on 7 slot슬롯 이하.<c>"
+		"tr_explain": "특수 능력 추가에 실패하면 소재 아이템과\n특수 능력 추가 아이템이 반환된다.\n<yellow>대상: 추가 예정 목록이 7슬롯 이하<c>"
 	},
 	{
 		"assign": "3210287",
 		"jp_text": "特殊能力保護（８枠以下）",
-		"tr_text": "특수능력 보호 (8슬롯 이하)",
+		"tr_text": "특수 능력 보호 (8슬롯 이하)",
 		"jp_explain": "特殊能力追加に失敗時、素材アイテムと\n特殊能力追加アイテムが返却される。\n<yellow>対象：追加予定リストが８スロット以下<c>",
 		"tr_explain": "Returns the Special Abilities that\nwere lost from synthesis.\n<yellow>Only works on 8 slots or lower.<c>"
 	},
 	{
 		"assign": "3210288",
 		"jp_text": "特殊能力（打撃＆ＰＰ/３）",
-		"tr_text": "특수능력 (타격&PP/3)",
+		"tr_text": "특수 능력 (타격&PP/3)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【打撃＆ＰＰ/３】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"그레이스 파워\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【타격&PP/3】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210289",
 		"jp_text": "特殊能力（射撃＆ＰＰ/３）",
-		"tr_text": "특수능력 (사격&PP/3)",
+		"tr_text": "특수 능력 (사격&PP/3)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【射撃＆ＰＰ/３】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"그레이스 슛\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【사격&PP/3】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210290",
 		"jp_text": "特殊能力（法撃＆ＰＰ/３）",
-		"tr_text": "특수능력 (법격&PP/3)",
+		"tr_text": "특수 능력 (법격&PP/3)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【法撃＆ＰＰ/３】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"그레이스 테크닉\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【법격&PP/3】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210291",
 		"jp_text": "特殊能力（ＨＰ＆ＰＰ/３）",
-		"tr_text": "특수능력 (HP&PP/3)",
+		"tr_text": "특수 능력 (HP&PP/3)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ＨＰ＆ＰＰ/３】の特殊能力を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"그레이스 스태미너\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【HP&PP/3】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210296",
 		"jp_text": "Ｓ１追加：光子縮減２",
-		"tr_text": "S1 추가:광자축감 2",
+		"tr_text": "S1 추가: 광자축감 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：光子縮減２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:광자축감 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 광자축감 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210297",
 		"jp_text": "Ｓ１追加：滅域輝与２",
-		"tr_text": "S1 추가:멸역휘여 2",
+		"tr_text": "S1 추가: 멸역휘여 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：滅域輝与２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:멸역휘여 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 멸역휘여 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210298",
 		"jp_text": "Ｓ１追加：時流の志",
-		"tr_text": "S1 추가:시류의 지",
+		"tr_text": "S1 추가: 시류의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：時流の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:시류의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 시류의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210299",
 		"jp_text": "Ｓ１追加：死中の志",
-		"tr_text": "S1 추가:사중의 지",
+		"tr_text": "S1 추가: 사중의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：死中の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:사중의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 사중의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210300",
 		"jp_text": "Ｓ１追加：賭死の撃",
-		"tr_text": "S1 추가:도사의 격",
+		"tr_text": "S1 추가: 도사의 일격",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：賭死の撃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:도사의 격\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 도사의 일격」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210301",
 		"jp_text": "Ｓ１追加：錬成の志",
-		"tr_text": "S1 추가:연성의 지",
+		"tr_text": "S1 추가: 연성의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：錬成の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:연성의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 연성의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210302",
 		"jp_text": "Ｓ１追加：失力の蝕",
-		"tr_text": "S1 추가:실력의 식",
+		"tr_text": "S1 추가: 실력의 식",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：失力の蝕を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:실력의 식\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 실력의 식」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210303",
 		"jp_text": "Ｓ１追加：気輝応変",
-		"tr_text": "S1 추가:기휘응변",
+		"tr_text": "S1 추가: 기휘응변",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：気輝応変を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:기휘응변\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 기휘응변」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210304",
 		"jp_text": "Ｓ１追加：輝充の志",
-		"tr_text": "S1 추가:휘충의 지",
+		"tr_text": "S1 추가: 휘충의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：輝充の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:휘충의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 휘충의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210305",
 		"jp_text": "Ｓ１追加：輝剰の撃",
-		"tr_text": "S1 추가:휘잉의 격",
+		"tr_text": "S1 추가: 휘잉의 일격",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：輝剰の撃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:휘잉의 격\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 휘잉의 일격」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210306",
 		"jp_text": "Ｓ１追加：輝勢の恵",
-		"tr_text": "S1 추가:휘세의 혜",
+		"tr_text": "S1 추가: 휘세의 은혜",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：輝勢の恵を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:휘세의 혜\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 휘세의 은혜」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210307",
 		"jp_text": "Ｓ１追加：時流活与",
-		"tr_text": "S1 추가:시류활여",
+		"tr_text": "S1 추가: 시류활여",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：時流活与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:시류활여\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 시류활여」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210308",
 		"jp_text": "Ｓ１追加：守護の備",
-		"tr_text": "S1 추가:수호의 비",
+		"tr_text": "S1 추가: 수호의 비",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：守護の備を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:수호의 비\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 수호의 비」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210309",
 		"jp_text": "Ｓ１追加：諸刃の撃",
-		"tr_text": "S1 추가:제인의 격",
+		"tr_text": "S1 추가: 양날의 일격",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：諸刃の撃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:제인의 격\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 양날의 일격」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210310",
 		"jp_text": "Ｓ１追加：妙撃の志",
-		"tr_text": "S1 추가:묘격의 지",
+		"tr_text": "S1 추가: 묘격의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：妙撃の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:묘격의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 묘격의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210311",
 		"jp_text": "Ｓ１追加：裂砕の剰",
-		"tr_text": "S1 추가:열쇄의 잉",
+		"tr_text": "S1 추가: 열쇄의 잉",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：裂砕の剰を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:열쇄의 잉\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 열쇄의 잉」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210312",
 		"jp_text": "Ｓ１追加：花ノ赤閃",
-		"tr_text": "S1 추가:화의 적섬",
+		"tr_text": "S1 추가: 화의 적섬",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：花ノ赤閃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:화의 적섬\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 화의 적섬」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210313",
 		"jp_text": "Ｓ１追加：海ノ青閃",
-		"tr_text": "S1 추가:해의 청섬",
+		"tr_text": "S1 추가: 해의 청섬",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：海ノ青閃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:해의 청섬\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 해의 청섬」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210314",
 		"jp_text": "Ｓ１追加：葉ノ緑閃",
-		"tr_text": "S1 추가:엽의 녹섬",
+		"tr_text": "S1 추가: 엽의 녹섬",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：葉ノ緑閃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:엽의 녹섬\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 엽의 녹섬」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210315",
 		"jp_text": "Ｓ１追加：月ノ黄閃",
-		"tr_text": "S1 추가:월의 황섬",
+		"tr_text": "S1 추가: 월의 황섬",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：月ノ黄閃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:월의 황섬\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 월의 황섬」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210316",
 		"jp_text": "Ｓ２追加：月葉影の歌",
-		"tr_text": "S2 추가:월엽영의 가",
+		"tr_text": "S2 추가: 월엽영의 노래",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：月葉影の歌を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:월엽영의 가\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 월엽영의 노래」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210317",
 		"jp_text": "Ｓ２追加：花海雪の縮減２",
-		"tr_text": "S2 추가:화해설의 축감 2",
+		"tr_text": "S2 추가: 화해설의 축감 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：花海雪の縮減２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:화해설의 축감 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 화해설의 축감 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210318",
 		"jp_text": "Ｓ２追加：月葉影の輝剰２",
-		"tr_text": "S2 추가:월엽영의 휘잉 2",
+		"tr_text": "S2 추가: 월엽영의 휘잉 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：月葉影の輝剰２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:월엽영의 휘잉 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 월엽영의 휘잉 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210319",
 		"jp_text": "Ｓ２追加：妙技の巧２",
-		"tr_text": "S2 추가:묘기의 교 2",
+		"tr_text": "S2 추가: 묘기의 교 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：妙技の巧２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:묘기의 교 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 묘기의 교 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210320",
 		"jp_text": "Ｓ２追加：妙撃の志２",
-		"tr_text": "S2 추가:묘격의 지 2",
+		"tr_text": "S2 추가: 묘격의 의지 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：妙撃の志２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:묘격의 지 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 묘격의 의지 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210321",
 		"jp_text": "Ｓ２追加：輝剰の撃２",
-		"tr_text": "S2 추가:휘잉의 격 2",
+		"tr_text": "S2 추가: 휘잉의 일격 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：輝剰の撃２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:휘잉의 격 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 휘잉의 일격 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210323",
 		"jp_text": "Ｓ２追加：走者高揚",
-		"tr_text": "S2 추가:주자고양",
+		"tr_text": "S2 추가: 주자고양",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：走者高揚を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:주자고양\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 주자고양」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210324",
 		"jp_text": "Ｓ２追加：技巧縮減",
-		"tr_text": "S2 추가:기교축감",
+		"tr_text": "S2 추가: 기교축감",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：技巧縮減を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:기교축감\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 기교축감」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210330",
 		"jp_text": "Ｓ２追加：光子縮減",
-		"tr_text": "S2 추가:광자축감",
+		"tr_text": "S2 추가: 광자축감",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：光子縮減を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:광자축감\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 광자축감」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210331",
 		"jp_text": "Ｓ２追加：剛乱活与",
-		"tr_text": "S2 추가:강란활여",
+		"tr_text": "S2 추가: 강란활여",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：剛乱活与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:강란활여\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 강란활여」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210332",
 		"jp_text": "Ｓ２追加：災転輝与",
-		"tr_text": "S2 추가:재전휘여",
+		"tr_text": "S2 추가: 재전휘여",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：災転輝与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:재전휘여\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 재전휘여」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210333",
 		"jp_text": "Ｓ２追加：時流の恵",
-		"tr_text": "S2 추가:시류의 혜",
+		"tr_text": "S2 추가: 시류의 은혜",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：時流の恵を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:시류의 혜\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 시류의 은혜」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210334",
 		"jp_text": "Ｓ２追加：時流の護",
-		"tr_text": "S2 추가:시류의 호",
+		"tr_text": "S2 추가: 시류의 호",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：時流の護を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:시류의 호\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 시류의 호」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210335",
 		"jp_text": "Ｓ２追加：保天輝地",
-		"tr_text": "S2 추가:보천휘지",
+		"tr_text": "S2 추가: 보천휘지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：保天輝地を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:보천휘지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 보천휘지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210336",
 		"jp_text": "Ｓ３追加：花海雪の歌",
-		"tr_text": "S3 추가:화해설의 가",
+		"tr_text": "S3 추가: 화해설의 노래",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：花海雪の歌を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:화해설의 가\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 화해설의 노래」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210337",
 		"jp_text": "Ｓ３追加：花海雪の輝勢２",
-		"tr_text": "S3 추가:화해설의 휘세 2",
+		"tr_text": "S3 추가: 화해설의 휘세 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：花海雪の輝勢２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:화해설의 휘세 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 화해설의 휘세 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210338",
 		"jp_text": "Ｓ３追加：時流の恵",
-		"tr_text": "S3 추가:시류의 혜",
+		"tr_text": "S3 추가: 시류의 은혜",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：時流の恵を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:시류의 혜\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 시류의 은혜」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210339",
 		"jp_text": "Ｓ３追加：時流活与２",
-		"tr_text": "S3 추가:시류활여 2",
+		"tr_text": "S3 추가: 시류활여 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：時流活与２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:시류활여 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 시류활여 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210340",
 		"jp_text": "Ｓ３追加：輝勢の恵２",
-		"tr_text": "S3 추가:휘세의 혜 2",
+		"tr_text": "S3 추가: 휘세의 은혜 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：輝勢の恵２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:휘세의 혜 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 휘세의 은혜 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210341",
 		"jp_text": "Ｓ３追加：静心活与",
-		"tr_text": "S3 추가:정심활여",
+		"tr_text": "S3 추가: 정심활여",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：静心活与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:정심활여\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 정심활여」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210342",
 		"jp_text": "Ｓ３追加：撃流の備",
-		"tr_text": "S3 추가:격류의 비",
+		"tr_text": "S3 추가: 격류의 비",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流の備を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:격류의 비\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 격류의 비」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210343",
 		"jp_text": "Ｓ３追加：撃流縮減",
-		"tr_text": "S3 추가:격류축감",
+		"tr_text": "S3 추가: 격류축감",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流縮減を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:격류축감\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 격류축감」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210344",
 		"jp_text": "Ｓ３追加：撃流の巧",
-		"tr_text": "S3 추가:격류의 교",
+		"tr_text": "S3 추가: 격류의 교",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流の巧を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:격류의 교\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 격류의 교」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210347",
 		"jp_text": "Ｓ３追加：活実の志",
-		"tr_text": "S3 추가:활실의 지",
+		"tr_text": "S3 추가: 활실의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：活実の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:활실의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 활실의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210348",
 		"jp_text": "Ｓ３追加：輝剰の撃",
-		"tr_text": "S3 추가:휘잉의 격",
+		"tr_text": "S3 추가: 휘잉의 일격",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：輝剰の撃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:휘잉의 격\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 휘잉의 일격」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210351",
 		"jp_text": "Ｓ３追加：剛撃の志",
-		"tr_text": "S3 추가:강격의 지",
+		"tr_text": "S3 추가: 강격의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：剛撃の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:강격의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 강격의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210352",
 		"jp_text": "Ｓ３追加：妙技の巧",
-		"tr_text": "S3 추가:묘기의 교",
+		"tr_text": "S3 추가: 묘기의 교",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：妙技の巧を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:묘기의 교\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 묘기의 교」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210353",
 		"jp_text": "Ｓ３追加：妙撃の志",
-		"tr_text": "S3 추가:묘격의 지",
+		"tr_text": "S3 추가: 묘격의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：妙撃の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:묘격의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 묘격의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210354",
 		"jp_text": "Ｓ３追加：裂砕の志",
-		"tr_text": "S3 추가:열쇄의 지",
+		"tr_text": "S3 추가: 열쇄의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：裂砕の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:열쇄의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 열쇄의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210355",
 		"jp_text": "Ｓ３追加：時流の勇",
-		"tr_text": "S3 추가:시류의 용",
+		"tr_text": "S3 추가: 시류의 용기",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：時流の勇を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:시류의 용\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 시류의 용기」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210356",
 		"jp_text": "Ｓ４追加：天輝の守護",
-		"tr_text": "S4 추가:천휘의 수호",
+		"tr_text": "S4 추가: 천휘의 수호",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：天輝の守護を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:시류의 용천휘의 수호\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 천휘의 수호」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210358",
 		"jp_text": "Ｓ４追加：静心の志",
-		"tr_text": "S4 추가:정심의 지",
+		"tr_text": "S4 추가: 정심의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：静心の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:정심의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 정심의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210359",
 		"jp_text": "Ｓ４追加：妙撃の秤",
-		"tr_text": "S4 추가:묘격의 칭",
+		"tr_text": "S4 추가: 묘격의 저울",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：妙撃の秤を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:묘격의 칭\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 묘격의 저울」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210360",
 		"jp_text": "Ｓ４追加：聖者の盾",
-		"tr_text": "S4 추가:성자의 순",
+		"tr_text": "S4 추가: 성자의 방패",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：聖者の盾を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:성자의 순\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 성자의 방패」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210362",
 		"jp_text": "Ｓ４追加：六色の輝秤",
-		"tr_text": "S4 추가:육색의 휘칭",
+		"tr_text": "S4 추가: 육색의 휘칭",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：六色の輝秤を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:육색의 휘칭\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 육색의 휘칭」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210363",
 		"jp_text": "Ｓ１追加：戦友の加護",
-		"tr_text": "S1 추가:전우의 가호",
+		"tr_text": "S1 추가: 전우의 가호",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：戦友の加護を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:전우의 가호\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 전우의 가호」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210364",
 		"jp_text": "Ｓ４追加：累加追撃",
-		"tr_text": "S4 추가:누가추격",
+		"tr_text": "S4 추가: 누가추격",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：累加追撃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:누가추격\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 누가추격」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210365",
 		"jp_text": "Ｓ４追加：追蝕の巧",
-		"tr_text": "S4 추가:추식의 교",
+		"tr_text": "S4 추가: 추식의 교",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：追蝕の巧を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:추식의 교\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 추식의 교」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210366",
 		"jp_text": "Ｓ４追加：六色の災転",
-		"tr_text": "S4 추가:육색의 재전",
+		"tr_text": "S4 추가: 육색의 재전",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：六色の災転を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:육색의 재전\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 육색의 재전」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210367",
 		"jp_text": "Ｓ４追加：強闘輝与",
-		"tr_text": "S4 추가:강투휘여",
+		"tr_text": "S4 추가: 강투휘여",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：強闘輝与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:강투휘여\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 강투휘여」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210368",
 		"jp_text": "Ｓ４追加：回避訓練",
-		"tr_text": "S4 추가:회피훈련",
+		"tr_text": "S4 추가: 회피훈련",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：回避訓練を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:회피훈련\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 회피훈련」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210369",
 		"jp_text": "Ｓ４追加：追蝕輝剰",
-		"tr_text": "S4 추가:추식휘잉",
+		"tr_text": "S4 추가: 추식휘잉",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：追蝕輝剰を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:추식휘잉\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 추식휘잉」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210370",
@@ -1962,163 +1962,163 @@
 	{
 		"assign": "3210382",
 		"jp_text": "Ｓ５追加：錬成萌花",
-		"tr_text": "S5 추가:연성맹화",
+		"tr_text": "S5 추가: 연성맹화",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：錬成萌花を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:연성맹화\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S5: 연성맹화」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210394",
 		"jp_text": "Ｓ５追加：瞬術略唱",
-		"tr_text": "S5 추가:순술약창",
+		"tr_text": "S5 추가: 순술약창",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：瞬術略唱を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:순술약창\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S5: 순술약창」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210395",
 		"jp_text": "Ｓ５追加：活器応変",
-		"tr_text": "S5 추가:활기응변",
+		"tr_text": "S5 추가: 활기응변",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：活器応変を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:활기응변\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S5: 활기응변」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210396",
 		"jp_text": "Ｓ６追加：守護の備",
-		"tr_text": "S6 추가:수호의 비",
+		"tr_text": "S6 추가: 수호의 비",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：守護の備を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:수호의 비\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S6: 수호의 비」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210397",
 		"jp_text": "Ｓ６追加：英雄咆哮",
-		"tr_text": "S6 추가:영웅포효",
+		"tr_text": "S6 추가: 영웅포효",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：英雄咆哮を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:영웅포효\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S6: 영웅포효」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210398",
 		"jp_text": "Ｓ６追加：翔機天舞",
-		"tr_text": "S6 추가:상기천무",
+		"tr_text": "S6 추가: 상기천무",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：翔機天舞を付与。",
 		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:Soaring Ballet\"\nwhen used in Ability Synthesis."
 	},
 	{
 		"assign": "3210399",
 		"jp_text": "Ｓ６追加：機魂の守護",
-		"tr_text": "S6 추가:기호의 수호",
+		"tr_text": "S6 추가: 기혼의 수호",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：機魂の守護を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:기호의 수호\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S6: 기혼의 수호」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210400",
 		"jp_text": "Ｓ６追加：癒蝕頑強",
-		"tr_text": "S6 추가:유식완강",
+		"tr_text": "S6 추가: 유식완강",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：癒蝕頑強を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:유식완강\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S6: 유식완강」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210426",
 		"jp_text": "Ｓ７追加：打撃上昇",
-		"tr_text": "S7 추가:타격상승",
+		"tr_text": "S7 추가: 타격상승",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：打撃上昇を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:타격상승\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S7: 타격상승」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210427",
 		"jp_text": "Ｓ７追加：射撃上昇",
-		"tr_text": "S7 추가:사격상승",
+		"tr_text": "S7 추가: 사격상승",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：射撃上昇を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:사격상승\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S7: 사격상승」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210428",
 		"jp_text": "Ｓ７追加：法撃上昇",
-		"tr_text": "S7 추가:법격상승",
+		"tr_text": "S7 추가: 법격상승",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：法撃上昇を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:법격상승\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S7: 법격상승」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210437",
 		"jp_text": "Ｓ７追加：輝静の恵",
-		"tr_text": "S7 추가:휘정의 혜",
+		"tr_text": "S7 추가: 휘정의 은혜",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：輝静の恵を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:휘정의 혜\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S7: 휘정의 은혜」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210438",
 		"jp_text": "Ｓ８追加：舞空の援",
-		"tr_text": "S8 추가:무공의 원",
+		"tr_text": "S8 추가: 무공의 지원",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ８：舞空の援を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S8:무공의 혜\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S8: 무공의 지원」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210442",
 		"jp_text": "Ｓ８追加：服薬強身",
-		"tr_text": "S8 추가:복약강신",
+		"tr_text": "S8 추가: 복약강신",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ８：服薬強身を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S8:복약강신\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S8: 복약강신」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210450",
 		"jp_text": "Ｓ８追加：活器上昇",
-		"tr_text": "S8 추가:활기상승",
+		"tr_text": "S8 추가: 활기상승",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ８：活器上昇を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S8:활기상승\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S8: 활기상승」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210451",
 		"jp_text": "Ｓ８追加：輝器上昇",
-		"tr_text": "S8 추가:휘기상승",
+		"tr_text": "S8 추가: 휘기상승",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ８：輝器上昇を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S8:휘기상승\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S8: 휘기상승」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210456",
 		"jp_text": "特殊能力（マーク継承）",
-		"tr_text": "특수능력 (마크 계승)",
+		"tr_text": "특수 능력 (마크 계승)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【マークレセプター】を追加する。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"마크 계승\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【마크 리셉터】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210458",
 		"jp_text": "特殊能力（カタリスト継承）",
-		"tr_text": "특수능력 (카탈리스트 계승)",
+		"tr_text": "특수 능력 (카탈리스트 계승)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【カタリストレセプター】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"카탈리스트 계승\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【카탈리스트 리셉터】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210459",
 		"jp_text": "Ｓ１追加：雪ノ白閃",
-		"tr_text": "S1 추가:설의 백섬",
+		"tr_text": "S1 추가: 설의 백섬",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：雪ノ白閃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:설의 백섬\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 설의 백섬」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210460",
 		"jp_text": "Ｓ１追加：影ノ黒閃",
-		"tr_text": "S1 추가:영의 흑섬",
+		"tr_text": "S1 추가: 영의 흑섬",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：影ノ黒閃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:영의 흑섬\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 영의 흑섬」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210461",
 		"jp_text": "Ｓ１追加：光子の秤",
-		"tr_text": "S1 추가:광자의 칭",
+		"tr_text": "S1 추가: 광자의 저울",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：光子の秤を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:광자의 칭\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 광자의 저울」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210462",
 		"jp_text": "Ｓ１追加：妙技の巧",
-		"tr_text": "S1 추가:묘기의 교",
+		"tr_text": "S1 추가: 묘기의 교",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：妙技の巧を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:묘기의 교\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 묘기의 교」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210463",
 		"jp_text": "Ｓ１追加：裂砕の志",
-		"tr_text": "S1 추가:열쇄의 지",
+		"tr_text": "S1 추가: 열쇄의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：裂砕の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:열쇄의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 열쇄의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210465",
@@ -2137,191 +2137,191 @@
 	{
 		"assign": "3210469",
 		"jp_text": "Ｓ２追加：諸刃の撃",
-		"tr_text": "S2 추가:제인의 격",
+		"tr_text": "S2 추가: 양날의 일격",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：諸刃の撃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:제인의 격\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 양날의 일격」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210470",
 		"jp_text": "Ｓ２追加：時流活与",
-		"tr_text": "S2 추가:시류활여",
+		"tr_text": "S2 추가: 시류활여",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：時流活与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:시류활여\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 시류활여」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210471",
 		"jp_text": "Ｓ２追加：裂砕の剰",
-		"tr_text": "S2 추가:열쇄의 잉",
+		"tr_text": "S2 추가: 열쇄의 잉",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：裂砕の剰を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:열쇄의 잉\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 열쇄의 잉」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210472",
 		"jp_text": "Ｓ２追加：輝充の志",
-		"tr_text": "S2 추가:휘충의 지",
+		"tr_text": "S2 추가: 휘충의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：輝充の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:휘충의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 휘충의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210479",
 		"jp_text": "Ｓ３追加：災転輝与",
-		"tr_text": "S3 추가:재전휘여",
+		"tr_text": "S3 추가: 재전휘여",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：災転輝与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:재전휘여\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 재전휘여」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210480",
 		"jp_text": "Ｓ３追加：滅域輝与",
-		"tr_text": "S3 추가:멸역휘여",
+		"tr_text": "S3 추가: 멸역휘여",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：滅域輝与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:멸역휘여\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 멸역휘여」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210481",
 		"jp_text": "Ｓ３追加：諸刃の撃",
-		"tr_text": "S3 추가:제인의 격",
+		"tr_text": "S3 추가: 양날의 일격",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：諸刃の撃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:제인의 격\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 양날의 일격」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210482",
 		"jp_text": "Ｓ３追加：強闘の志",
-		"tr_text": "S3 추가:강투의 지",
+		"tr_text": "S3 추가: 강투의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：強闘の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:강투의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 강투의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210489",
 		"jp_text": "特殊能力（アストラルＳ）",
-		"tr_text": "특수능력 (아스트랄 S)",
+		"tr_text": "특수 능력 (아스트랄 S)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【アストラル・ソール】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"아스트랄 소울\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【아스트랄 소울】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210490",
 		"jp_text": "特殊能力（エーテルＦ）",
-		"tr_text": "특수능력 (에테르 F)",
+		"tr_text": "특수 능력 (에테르 F)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【エーテル・ファクター】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"에테르 팩터\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【에테르 팩터】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210491",
 		"jp_text": "特殊能力（マナレヴリー）",
-		"tr_text": "특수능력 (마나 레브리)",
+		"tr_text": "특수 능력 (마나 레브리)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【マナ・レヴリー】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"마나 레브리\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【마나 레브리】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210492",
 		"jp_text": "特殊能力（センテンスＰ）",
-		"tr_text": "특수능력 (센텐스 P)",
+		"tr_text": "특수 능력 (센텐스 P)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・パワー】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"센텐스 파워\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【센텐스 파워】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210493",
 		"jp_text": "特殊能力（センテンスＳ）",
-		"tr_text": "특수능력 (센텐스 S)",
+		"tr_text": "특수 능력 (센텐스 S)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・シュート】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"센텐스 슛\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【센텐스 슛】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210494",
 		"jp_text": "特殊能力（センテンスＴ）",
-		"tr_text": "특수능력 (센텐스 T)",
+		"tr_text": "특수 능력 (센텐스 T)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・テクニック】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"센텐스 테크닉\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【센텐스 테크닉】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210496",
 		"jp_text": "特殊能力（エーテルＳ）",
-		"tr_text": "특수능력 (에테르 S)",
+		"tr_text": "특수 능력 (에테르 S)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【エーテル・ソール】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"에테르 소울\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【에테르 소울】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210497",
 		"jp_text": "特殊能力（ファクターＣ）",
-		"tr_text": "특수능력 (팩터 C)",
+		"tr_text": "특수 능력 (팩터 C)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ファクター・カタリスト】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"팩터 카탈리스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【팩터 카탈리스트】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210498",
 		"jp_text": "特殊能力（オメガＭ）",
-		"tr_text": "특수능력 (오메가 M)",
+		"tr_text": "특수 능력 (오메가 M)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【オメガ・メモリア】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"오메가 메모리아\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【오메가 메모리아】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210499",
 		"jp_text": "特殊能力（レヴリーＣ）",
-		"tr_text": "특수능력 (레브리 C)",
+		"tr_text": "특수 능력 (레브리 C)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【レヴリー・カタリスト】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"레브리 카탈리스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【레브리 카탈리스트】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210500",
 		"jp_text": "特殊能力（グランドＰ）",
-		"tr_text": "특수능력 (그랜드 P)",
+		"tr_text": "특수 능력 (그랜드 P)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【グランド・パワー】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"그랜드 파워\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【그랜드 파워】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210501",
 		"jp_text": "特殊能力（グランドＳ）",
-		"tr_text": "특수능력 (그랜드 S)",
+		"tr_text": "특수 능력 (그랜드 S)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【グランド・シュート】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"그랜드 슛\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【그랜드 슛】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210502",
 		"jp_text": "特殊能力（グランドＴ）",
-		"tr_text": "특수능력 (그랜드 T)",
+		"tr_text": "특수 능력 (그랜드 T)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【グランド・テクニック】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"그랜드 테크닉\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【그랜드 테크닉】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210503",
 		"jp_text": "特殊能力（グランドＨＰ）",
-		"tr_text": "특수능력 (그랜드 HP)",
+		"tr_text": "특수 능력 (그랜드 HP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【グランド・スタミナ】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"그랜드 스태미너\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【그랜드 스태미나】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210504",
 		"jp_text": "特殊能力（グランドＰＰ）",
-		"tr_text": "특수능력 (그랜드 PP)",
+		"tr_text": "특수 능력 (그랜드 PP)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【グランド・スピリタ】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"그랜드 스피리타\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【그랜드 스피리타】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210511",
 		"jp_text": "Ｓ６追加：回避の口笛",
-		"tr_text": "S6 추가:회피의 구적",
+		"tr_text": "S6 추가: 회피의 휘파람",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：回避の口笛を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:회피의 구적\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S6: 회피의 휘파람」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210520",
 		"jp_text": "Ｓ７追加：瞬撃の極",
-		"tr_text": "S7 추가:순격의 극",
+		"tr_text": "S7 추가: 순격의 극",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：瞬撃の極を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:순격의 극\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S7: 순격의 극」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210521",
 		"jp_text": "Ｓ７追加：以心伝心",
-		"tr_text": "S7 추가:이심전심",
+		"tr_text": "S7 추가: 이심전심",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：以心伝心を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:이심전심\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S7: 이심전심」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210522",
 		"jp_text": "Ｓ７追加：薬効増大",
-		"tr_text": "S7 추가:약효 증가",
+		"tr_text": "S7 추가: 약효 증가",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：薬効増大を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:약효 증가\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S7: 약효 증가」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210523",
@@ -2333,149 +2333,149 @@
 	{
 		"assign": "3210529",
 		"jp_text": "Ｓ８追加：一念滞空",
-		"tr_text": "S8 추가:일념체공",
+		"tr_text": "S8 추가: 일념체공",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ８：一念滞空を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S8:일념체공\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S8: 일념체공」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210534",
 		"jp_text": "特殊能力（攻撃総合/２）",
-		"tr_text": "특수능력 (공격 종합/2)",
+		"tr_text": "특수 능력 (공격 종합/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【攻撃総合/２】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"공격 부스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【공격 종합/2】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210535",
 		"jp_text": "特殊能力（防御総合/２）",
-		"tr_text": "특수능력 (방어 종합/2)",
+		"tr_text": "특수 능력 (방어 종합/2)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【防御総合/２】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"방어 부스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【방어 종합/2】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210536",
 		"jp_text": "Ｓ６追加：長夜の明星",
-		"tr_text": "S6 추가:장야의 명성",
+		"tr_text": "S6 추가: 장야의 명성",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：長夜の明星を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:장야의 명성\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S6: 장야의 명성」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210537",
 		"jp_text": "Ｓ６追加：超限活器",
-		"tr_text": "S6 추가:초한활기",
+		"tr_text": "S6 추가: 초한활기",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：超限活器を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:초한활기\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S6: 초한활기」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210538",
 		"jp_text": "コレクトゲージ増加（極大）",
-		"tr_text": "콜렉트 게이지 증가 (극대)",
+		"tr_text": "컬렉트 게이지 증가 (극대)",
 		"jp_explain": "コレクトゲージの授与申請チケット。\n使用したコレクトシートのゲージを\n【１００％】獲得可能。",
-		"tr_explain": "Increases the 콜렉트 게이지 증가.\nRaises the CF gauge by 100%."
+		"tr_explain": "컬렉트 게이지를 받기 위한 신청 티켓.\n사용한 컬렉트 시트의 게이지를【100%】획득한다."
 	},
 	{
 		"assign": "3210539",
 		"jp_text": "コレクトゲージ増加（大）",
-		"tr_text": "콜렉트 게이지 증가 (대)",
+		"tr_text": "컬렉트 게이지 증가 (대)",
 		"jp_explain": "コレクトゲージの授与申請チケット。\n使用したコレクトシートのゲージを\n【５０％】獲得可能。",
-		"tr_explain": "Increases the 콜렉트 게이지 증가.\nRaises the CF gauge by 50%."
+		"tr_explain": "컬렉트 게이지를 받기 위한 신청 티켓.\n사용한 컬렉트 시트의 게이지를【50%】획득한다."
 	},
 	{
 		"assign": "3210540",
 		"jp_text": "コレクトゲージ増加（中）",
-		"tr_text": "콜렉트 게이지 증가 (중)",
+		"tr_text": "컬렉트 게이지 증가 (중)",
 		"jp_explain": "コレクトゲージの授与申請チケット。\n使用したコレクトシートのゲージを\n【２５％】獲得可能。",
-		"tr_explain": "Increases the 콜렉트 게이지 증가.\nRaises the CF gauge by 25%."
+		"tr_explain": "컬렉트 게이지를 받기 위한 신청 티켓.\n사용한 컬렉트 시트의 게이지를【25%】획득한다."
 	},
 	{
 		"assign": "3210541",
 		"jp_text": "コレクトゲージ増加（小）",
-		"tr_text": "콜렉트 게이지 증가 (소)",
+		"tr_text": "컬렉트 게이지 증가 (소)",
 		"jp_explain": "コレクトゲージの授与申請チケット。\n使用したコレクトシートのゲージを\n【１０％】獲得可能。",
-		"tr_explain": "Increases the 콜렉트 게이지 증가.\nRaises the CF gauge by 10%."
+		"tr_explain": "컬렉트 게이지를 받기 위한 신청 티켓.\n사용한 컬렉트 시트의 게이지를【10%】획득한다."
 	},
 	{
 		"assign": "3210542",
 		"jp_text": "コレクトゲージ増加（極小）",
-		"tr_text": "콜렉트 게이지 증가 (극소)",
+		"tr_text": "컬렉트 게이지 증가 (극소)",
 		"jp_explain": "コレクトゲージの授与申請チケット。\n使用したコレクトシートのゲージを\n【５％】獲得可能。",
-		"tr_explain": "Increases the 콜렉트 게이지 증가.\nRaises the CF gauge by 5%."
+		"tr_explain": "컬렉트 게이지를 받기 위한 신청 티켓.\n사용한 컬렉트 시트의 게이지를【5%】획득한다."
 	},
 	{
 		"assign": "3210543",
 		"jp_text": "特殊能力（ディバイン継承）",
-		"tr_text": "특수능력 (디바인 계승)",
+		"tr_text": "특수 능력 (디바인 계승)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ディバインレセプター】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"디바인 계승\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【디바인 리셉터】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210544",
 		"jp_text": "特殊能力（イクシード継承）",
-		"tr_text": "특수능력 (익시드 계승)",
+		"tr_text": "특수 능력 (익시드 계승)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【イクシードレセプター】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"익시드 계승\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【익시드 리셉터】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210545",
 		"jp_text": "特殊能力（スピリタⅥ）",
-		"tr_text": "특수능력 (스피리타 VI)",
+		"tr_text": "특수 능력 (스피리타 VI)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【スピリタⅥ】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"스피리타 VI\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【스피리타 VI】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210546",
 		"jp_text": "特殊能力（パワーⅥ）",
-		"tr_text": "특수능력 (파워 VI)",
+		"tr_text": "특수 능력 (파워 VI)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【パワーⅥ】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"파워 VI\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【파워 VI】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210547",
 		"jp_text": "特殊能力（シュートⅥ）",
-		"tr_text": "특수능력 (슛 VI)",
+		"tr_text": "특수 능력 (슛 VI)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【シュートⅥ】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"슛 VI\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【슛 VI】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210548",
 		"jp_text": "特殊能力（テクニックⅥ）",
-		"tr_text": "특수능력 (테크닉 VI)",
+		"tr_text": "특수 능력 (테크닉 VI)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【テクニックⅥ】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"테크닉 VI\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【테크닉 VI】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210549",
 		"jp_text": "特殊能力（アビリティⅣ）",
-		"tr_text": "특수능력 (어빌리티 IV)",
+		"tr_text": "특수 능력 (어빌리티 IV)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【アビリティⅣ】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"어빌리티 IV\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【어빌리티 IV】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210550",
 		"jp_text": "特殊能力（Ｍジョイオ）",
-		"tr_text": "특수능력 (M 죠이오)",
+		"tr_text": "특수 능력 (M 죠이오)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【マーク・ジョイオ】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"마크 죠이오\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【마크 죠이오】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210551",
 		"jp_text": "特殊能力（Ｍカレジナ）",
-		"tr_text": "특수능력 (M 카레지나)",
+		"tr_text": "특수 능력 (M 카레지나)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【マーク・カレジナ】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"마크 카레지나\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【마크 카레지나】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210552",
 		"jp_text": "特殊能力（Ｍアンガル）",
-		"tr_text": "특수능력 (M 앙갈)",
+		"tr_text": "특수 능력 (M 앙갈)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【マーク・アンガル】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"마크 앙갈\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【마크 앙갈】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210553",
 		"jp_text": "特殊能力（Ｍグリフ）",
-		"tr_text": "특수능력 (M 그리프)",
+		"tr_text": "특수 능력 (M 그리프)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【マーク・グリフ】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"마크 그리프\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【마크 그리프】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210554",
@@ -2494,317 +2494,317 @@
 	{
 		"assign": "3210556",
 		"jp_text": "Ｓ６追加：奇跡再演",
-		"tr_text": "S6 추가:기적재연",
+		"tr_text": "S6 추가: 기적재연",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：奇跡再演を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:기적재연\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S6: 기적재연」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210559",
 		"jp_text": "Ｓ４追加：滅域分与",
-		"tr_text": "S4 추가:멸역분여",
+		"tr_text": "S4 추가: 멸역분여",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：滅域分与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:멸역분여\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 멸역분여」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210560",
 		"jp_text": "Ｓ５追加：追蝕の縛",
-		"tr_text": "S5 추가:추식의 박",
+		"tr_text": "S5 추가: 추식의 박",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：追蝕の縛を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:추식의 박\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S5: 추식의 박」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210562",
 		"jp_text": "Ｓ７追加：法護の与",
-		"tr_text": "S7 추가:법호의 여",
+		"tr_text": "S7 추가: 법호의 여",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：法護の与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:법호의 여\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S7: 법호의 여」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210563",
 		"jp_text": "Ｓ２追加：六色の志",
-		"tr_text": "S2 추가:육색의 지",
+		"tr_text": "S2 추가: 육색의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：六色の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:육색의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 육색의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210564",
 		"jp_text": "Ｓ２追加：六色の活与",
-		"tr_text": "S2 추가:육색의 활여",
+		"tr_text": "S2 추가: 육색의 활여",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：六色の活与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:육색의 활여\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 육색의 활여」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210565",
 		"jp_text": "Ｓ２追加：月葉影の歌２",
-		"tr_text": "S2 추가:월엽영의 가 2",
+		"tr_text": "S2 추가: 월엽영의 노래 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：月葉影の歌２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:월엽영의 가 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 월엽영의 노래 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210566",
 		"jp_text": "Ｓ３追加：花海雪の歌２",
-		"tr_text": "S3 추가:화해설의 가 2",
+		"tr_text": "S3 추가: 화해설의 노래 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：花海雪の歌２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:화해설의 가 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 화해설의 노래 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210567",
 		"jp_text": "Ｓ３追加：六色の縮減",
-		"tr_text": "S3 추가:육색의 감축",
+		"tr_text": "S3 추가: 육색의 감축",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：六色の縮減を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:육색의 감축\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 육색의 감축」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210568",
 		"jp_text": "Ｓ３追加：六色の輝剰",
-		"tr_text": "S3 추가:육색의 휘잉",
+		"tr_text": "S3 추가: 육색의 휘잉",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：六色の輝剰を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:육색의 휘잉\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 육색의 휘잉」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210569",
 		"jp_text": "Ｓ３追加：六色の輝勢",
-		"tr_text": "S3 추가:육색의 휘세",
+		"tr_text": "S3 추가: 육색의 휘세",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：六色の輝勢を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:육색의 휘세\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 육색의 휘세」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210570",
 		"jp_text": "Ｓ５追加：槍機天悠",
-		"tr_text": "S5 추가:창기천유",
+		"tr_text": "S5 추가: 창기천유",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：槍機天悠を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:창기천유\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S5: 창기천유」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210571",
 		"jp_text": "Ｓ５追加：連鎖輝与",
-		"tr_text": "S5 추가:연쇄휘여",
+		"tr_text": "S5 추가: 연쇄휘여",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：連鎖輝与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:연쇄휘여\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S5: 연쇄휘여」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210572",
 		"jp_text": "Ｓ５追加：静心四連",
-		"tr_text": "S5 추가:정심사연",
+		"tr_text": "S5 추가: 정심사연",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：静心四連を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:정심사연\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S5: 정심사연」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210573",
 		"jp_text": "Ｓ５追加：静心拡域",
-		"tr_text": "S5 추가:정심확역",
+		"tr_text": "S5 추가: 정심확역",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：静心拡域を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:정심확역\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S5: 정심확역」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210574",
 		"jp_text": "Ｓ５追加：領域加勢",
-		"tr_text": "S5 추가:영역가세",
+		"tr_text": "S5 추가: 영역가세",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：領域加勢を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:영역가세\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S5: 영역가세」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210575",
 		"jp_text": "Ｓ５追加：回避輝与",
-		"tr_text": "S5 추가:회피휘여",
+		"tr_text": "S5 추가: 회피휘여",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：回避輝与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:회피휘여\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S5: 회피휘여」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210576",
 		"jp_text": "Ｓ７追加：視敵無双",
-		"tr_text": "S7 추가:시적무쌍",
+		"tr_text": "S7 추가: 시적무쌍",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：視敵無双を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:시적무쌍\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S7: 시적무쌍」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210577",
 		"jp_text": "Ｓ５追加：堅守の秤",
-		"tr_text": "S5 추가:견수의 칭",
+		"tr_text": "S5 추가: 견수의 저울",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：堅守の秤を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:견수의 칭\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S5: 견수의 저울」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210578",
 		"jp_text": "Ｓ４追加：追蝕の志",
-		"tr_text": "S4 추가:추식의 지",
+		"tr_text": "S4 추가: 추식의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：追蝕の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:추식의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 추식의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210579",
 		"jp_text": "Ｓ２追加：瞬乱巧志",
-		"tr_text": "S2 추가:순란교지",
+		"tr_text": "S2 추가: 순란교지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：瞬乱巧志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:순란교지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 순란교지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210581",
 		"jp_text": "Ｓ１追加：剛撃の志２",
-		"tr_text": "S1 추가:강격의 지 2",
+		"tr_text": "S1 추가: 강격의 의지 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：剛撃の志２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:강격의 지 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 강격의 의지 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210582",
 		"jp_text": "Ｓ２追加：光子縮減３",
-		"tr_text": "S2 추가:광자축감 3",
+		"tr_text": "S2 추가: 광자축감 3",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：光子縮減３を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:광자축감 3\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 광자축감 3」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210583",
 		"jp_text": "Ｓ３追加：活実の志２",
-		"tr_text": "S3 추가:활실의 지 2",
+		"tr_text": "S3 추가: 활실의 의지 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：活実の志２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:활실의 지 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 활실의 의지 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210584",
 		"jp_text": "Ｓ３追加：輝剰の撃３",
-		"tr_text": "S3 추가:휘잉의 격 3",
+		"tr_text": "S3 추가: 휘잉의 일격 3",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：輝剰の撃３を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:휘잉의 격 3\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 휘잉의 일격 3」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210585",
 		"jp_text": "Ｓ２追加：守護の備２",
-		"tr_text": "S2 추가:수호의 비 2",
+		"tr_text": "S2 추가: 수호의 비 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：守護の備２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:수호의 비 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 수호의 비 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210586",
 		"jp_text": "Ｓ１追加：輝充の志２",
-		"tr_text": "S1 추가:휘충의 지 2",
+		"tr_text": "S1 추가: 휘충의 의지 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：輝充の志２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:휘충의 지 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 휘충의 의지 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210587",
 		"jp_text": "Ｓ３追加：輝勢の恵３",
-		"tr_text": "S3 추가:휘세의 혜 3",
+		"tr_text": "S3 추가: 휘세의 은혜 3",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：輝勢の恵３を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:휘충의 지 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 휘세의 은혜 3」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210589",
 		"jp_text": "Ｓ２追加：瞬乱縮減２",
-		"tr_text": "S2 추가:순란축감 3",
+		"tr_text": "S2 추가: 순란축감 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：瞬乱縮減２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:순란축감 3\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 순란축감 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210590",
 		"jp_text": "Ｓ２追加：服薬の恵２",
-		"tr_text": "S2 추가:복약의 혜 2",
+		"tr_text": "S2 추가: 복약의 은혜 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：服薬の恵２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:복약의 혜 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 복약의 은혜 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210591",
 		"jp_text": "Ｓ１追加：錬成の志２",
-		"tr_text": "S1 추가:연성의 지 2",
+		"tr_text": "S1 추가: 연성의 의지 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：錬成の志２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:연성의 지 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 연성의 의지 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210592",
 		"jp_text": "Ｓ２追加：保天輝地２",
-		"tr_text": "S2 추가:보천휘지 2",
+		"tr_text": "S2 추가: 보천휘지 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：保天輝地２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:보천휘지 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 보천휘지 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210593",
 		"jp_text": "Ｓ１追加：光子の秤２",
-		"tr_text": "S1 추가:광자의 칭 2",
+		"tr_text": "S1 추가: 광자의 저울 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：光子の秤２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:광자의 칭 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 광자의 저울 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210594",
 		"jp_text": "Ｓ１追加：戦友の加護２",
-		"tr_text": "S1 추가:전우의 가호 2",
+		"tr_text": "S1 추가: 전우의 가호 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：戦友の加護２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:전우의 가호 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 전우의 가호 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210596",
 		"jp_text": "Ｓ１追加：強闘の志",
-		"tr_text": "S1 추가:강투의 지",
+		"tr_text": "S1 추가: 강투의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：強闘の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:강투의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 강투의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210599",
 		"jp_text": "Ｓ２追加：気輝応変",
-		"tr_text": "S2 추가:기휘응변",
+		"tr_text": "S2 추가: 기휘응변",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：気輝応変を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:기휘응변\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 기휘응변」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210600",
 		"jp_text": "Ｓ２追加：火炎の備志",
-		"tr_text": "S2 추가:화염의 비지",
+		"tr_text": "S2 추가: 화염의 비지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：火炎の備志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:화염의 비지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 화염의 비지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210601",
 		"jp_text": "Ｓ２追加：氷雪の備志",
-		"tr_text": "S2 추가:설빙의 비지",
+		"tr_text": "S2 추가: 빙설의 비지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：氷雪の備志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:설빙의 비지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 빙설의 비지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210602",
 		"jp_text": "Ｓ２追加：轟雷の備志",
-		"tr_text": "S2 추가:굉뢰의 비지",
+		"tr_text": "S2 추가: 굉뢰의 비지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：轟雷の備志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:굉뢰의 비지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 굉뢰의 비지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210603",
 		"jp_text": "Ｓ２追加：暴風の備志",
-		"tr_text": "S2 추가:폭풍의 비지",
+		"tr_text": "S2 추가: 폭풍의 비지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：暴風の備志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:폭풍의 비지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 폭풍의 비지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210604",
 		"jp_text": "Ｓ２追加：光明の備志",
-		"tr_text": "S2 추가:광명의 비지",
+		"tr_text": "S2 추가: 광명의 비지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：光明の備志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:광명의 비지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 광명의 비지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210605",
 		"jp_text": "Ｓ２追加：暗闇の備志",
-		"tr_text": "S2 추가:암흑의 비지",
+		"tr_text": "S2 추가: 암흑의 비지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：暗闇の備志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:암흑의 비지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 암흑의 비지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210606",
 		"jp_text": "Ｓ３追加：光子縮減",
-		"tr_text": "S3 추가:광자축감",
+		"tr_text": "S3 추가: 광자축감",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：光子縮減を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:광자축감\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 광자축감」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210607",
 		"jp_text": "Ｓ３追加：瞬連の輝",
-		"tr_text": "S3 추가:순연의 휘",
+		"tr_text": "S3 추가: 순연의 휘",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：瞬連の輝を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:순연의 휘\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 순연의 휘」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210608",
 		"jp_text": "Ｓ３追加：裂砕妙撃の志",
-		"tr_text": "S3 추가:열쇄묘격의 지",
+		"tr_text": "S3 추가: 열쇄묘격의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：裂砕妙撃の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:열쇄묘격의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 열쇄묘격의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210609",
@@ -2823,37 +2823,37 @@
 	{
 		"assign": "3210611",
 		"jp_text": "Ｓ１追加Ｒ：失力の蝕",
-		"tr_text": "S1 추가 R:실력의 식",
+		"tr_text": "S1 추가 R: 실력의 식",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：失力の蝕を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:실력의 식\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 실력의 식」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210612",
 		"jp_text": "Ｓ１追加Ｒ：死中の志",
-		"tr_text": "S1 추가 R:사중의 지",
+		"tr_text": "S1 추가 R: 사중의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：死中の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:사중의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 사중의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210613",
 		"jp_text": "Ｓ１追加Ｒ：時流の志",
-		"tr_text": "S1 추가 R:시류의 지",
+		"tr_text": "S1 추가 R: 시류의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：時流の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:시류의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 시류의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210614",
 		"jp_text": "Ｓ１追加：時流の恵",
-		"tr_text": "S1 추가:시류의 혜",
+		"tr_text": "S1 추가: 시류의 은혜",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：時流の恵を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:시류의 혜\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 시류의 은혜」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210615",
 		"jp_text": "Ｓ１追加Ｒ：剛撃の志２",
-		"tr_text": "S1 추가 R:강격의 지2",
+		"tr_text": "S1 추가 R: 강격의 의지 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ１：剛撃の志２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S1:강격의 지2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S1: 강격의 의지 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210616",
@@ -2865,23 +2865,23 @@
 	{
 		"assign": "3210626",
 		"jp_text": "Ｓ２追加Ｒ：技巧縮減",
-		"tr_text": "S2 추가 R:기교축감",
+		"tr_text": "S2 추가 R: 기교축감",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：技巧縮減を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:기교축감\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 기교축감」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210627",
 		"jp_text": "Ｓ２追加Ｒ：妙撃の志２",
-		"tr_text": "S2 추가 R:묘격의 지 2",
+		"tr_text": "S2 추가 R: 묘격의 의지 2",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：妙撃の志２を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:묘격의 지 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 묘격의 의지 2」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210628",
 		"jp_text": "Ｓ２追加Ｒ：瞬乱巧志",
-		"tr_text": "S2 추가 R:순란교지 2",
+		"tr_text": "S2 추가 R: 순란교지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ２：瞬乱巧志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S2:순란교지 2\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S2: 순란교지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210629",
@@ -2900,44 +2900,44 @@
 	{
 		"assign": "3210643",
 		"jp_text": "Ｓ３追加Ｒ：撃流の備",
-		"tr_text": "S3 추가 R:격류의 비",
+		"tr_text": "S3 추가 R: 격류의 비",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流の備を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:격류의 비\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 격류의 비」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210644",
 		"jp_text": "Ｓ３追加Ｒ：撃流縮減",
-		"tr_text": "S3 추가 R:격류축감",
+		"tr_text": "S3 추가 R: 격류축감",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流縮減を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:격류축감\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 격류축감」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210645",
 		"jp_text": "Ｓ３追加Ｒ：撃流の巧",
-		"tr_text": "S3 추가 R:격류의 교",
+		"tr_text": "S3 추가 R: 격류의 교",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：撃流の巧を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:격류의 교\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 격류의 교」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210646",
 		"jp_text": "Ｓ３追加Ｒ：時流の恵",
-		"tr_text": "S3 추가 R:시류의 혜",
+		"tr_text": "S3 추가 R: 시류의 은혜",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：時流の恵を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:시류의 혜\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 시류의 은혜」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210647",
 		"jp_text": "Ｓ３追加Ｒ：花海雪の歌",
-		"tr_text": "S3 추가 R:화해설의 가",
+		"tr_text": "S3 추가 R: 화해설의 노래",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：花海雪の歌を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:화해설의 가\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 화해설의 노래」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210648",
 		"jp_text": "Ｓ３追加Ｒ：妙撃の志",
-		"tr_text": "S3 추가 R:묘격의 지",
+		"tr_text": "S3 추가 R: 묘격의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ３：妙撃の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S3:묘격의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S3: 묘격의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210649",
@@ -2949,16 +2949,16 @@
 	{
 		"assign": "3210662",
 		"jp_text": "Ｓ４追加Ｒ：静心の志",
-		"tr_text": "S4 추가 R:정심의 지",
+		"tr_text": "S4 추가 R: 정심의 의지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：静心の志を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:정심의 지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 정심의 의지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210663",
 		"jp_text": "Ｓ４追加Ｒ：累加追撃",
-		"tr_text": "S4 추가 R:누가추격",
+		"tr_text": "S4 추가 R: 누가추격",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ４：累加追撃を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S4:누가추격\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S4: 누가추격」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210664",
@@ -2970,16 +2970,16 @@
 	{
 		"assign": "3210672",
 		"jp_text": "Ｓ５追加：終撃応与",
-		"tr_text": "S5 추가:종격응여",
+		"tr_text": "S5 추가: 종격응여",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：終撃応与を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:종격응여\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S5: 종격응여」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210673",
 		"jp_text": "Ｓ５追加Ｒ：錬成萌花",
-		"tr_text": "S5 추가 R:연성맹화",
+		"tr_text": "S5 추가 R: 연성맹화",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ５：錬成萌花を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S5:연성맹화\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S5: 연성맹화」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210674",
@@ -2998,23 +2998,23 @@
 	{
 		"assign": "3210679",
 		"jp_text": "Ｓ６追加Ｒ：癒蝕頑強",
-		"tr_text": "S6 추가R:유식완강",
+		"tr_text": "S6 추가 R: 유식완강",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：癒蝕頑強を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:유식완강\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S6: 유식완강」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210680",
 		"jp_text": "Ｓ６追加：六色の盾",
-		"tr_text": "S6 추가:육색의 순",
+		"tr_text": "S6 추가: 육색의 방패",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：六色の盾を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:육색의 순\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S6: 육색의 방패」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210681",
 		"jp_text": "Ｓ６追加：累加拡域",
-		"tr_text": "S6 추가:누가확역",
+		"tr_text": "S6 추가: 누가확역",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ６：累加拡域を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S6:누가확역\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S6: 누가확역」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210682",
@@ -3026,23 +3026,23 @@
 	{
 		"assign": "3210689",
 		"jp_text": "Ｓ７追加Ｒ：輝静の恵",
-		"tr_text": "S7 추가R:휘정의 혜",
+		"tr_text": "S7 추가 R: 휘정의 은혜",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：輝静の恵を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:휘정의 혜\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S7: 휘정의 은혜」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210690",
 		"jp_text": "Ｓ７追加：六色の巧",
-		"tr_text": "S7 추가:육색의 교",
+		"tr_text": "S7 추가: 육색의 교",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：六色の巧を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:육색의 교\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S7: 육색의 교」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210691",
 		"jp_text": "Ｓ７追加：注技縮地",
-		"tr_text": "S7 추가:주기축지",
+		"tr_text": "S7 추가: 주기축지",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ７：注技縮地を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S7:주기축지\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S7: 주기축지」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210692",
@@ -3061,65 +3061,65 @@
 	{
 		"assign": "3210699",
 		"jp_text": "Ｓ８追加Ｒ：舞空の援",
-		"tr_text": "S8 추가R:무공의 원",
+		"tr_text": "S8 추가 R: 무공의 지원",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ８：舞空の援を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S8:무공의 원\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S8: 무공의 지원」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210700",
 		"jp_text": "Ｓ８追加：六色の蝕",
-		"tr_text": "S8 추가:육색의 식",
+		"tr_text": "S8 추가: 육색의 식",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\nＳ８：六色の蝕を付与。",
-		"tr_explain": "Material used in SSA Synthesis.\nGrants \"S8:육색의 식\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n「S8: 육색의 식」 특수 능력을 부여한다."
 	},
 	{
 		"assign": "3210709",
 		"jp_text": "特殊能力Ｒ（センテンスＰ）",
-		"tr_text": "특수능력 R (센텐스 P)",
+		"tr_text": "특수 능력 R (센텐스 P)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・パワー】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"센텐스 파워\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【센텐스 파워】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210710",
 		"jp_text": "特殊能力Ｒ（センテンスＳ）",
-		"tr_text": "특수능력 R (센텐스 R)",
+		"tr_text": "특수 능력 R (센텐스 S)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・シュート】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"센텐스 슛\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【센텐스 슛】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210711",
 		"jp_text": "特殊能力Ｒ（センテンスＴ）",
-		"tr_text": "특수능력 R (센텐스 T)",
+		"tr_text": "특수 능력 R (센텐스 T)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【センテンス・テクニック】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"센텐스 테크닉\"\nwhen used in  Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【센텐스 테크닉】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210712",
 		"jp_text": "特殊能力Ｒ（エーテルＳ）",
-		"tr_text": "특수능력 R (에테르 S)",
+		"tr_text": "특수 능력 R (에테르 S)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【エーテル・ソール】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"에테르 소울\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【에테르 소울】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210713",
 		"jp_text": "特殊能力Ｒ（ファクターＣ）",
-		"tr_text": "특수능력 R (팩터 C)",
+		"tr_text": "특수 능력 R (팩터 C)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【ファクター・カタリスト】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"팩터 카탈리스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【팩터 카탈리스트】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210714",
 		"jp_text": "特殊能力Ｒ（オメガＭ）",
-		"tr_text": "특수능력 R (오메가 M)",
+		"tr_text": "특수 능력 R (오메가 M)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【オメガ・メモリア】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"오메가 메모리아\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【오메가 메모리아】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "3210715",
 		"jp_text": "特殊能力Ｒ（レヴリーＣ）",
-		"tr_text": "특수능력 R (레브리 C)",
+		"tr_text": "특수 능력 R (레브리 C)",
 		"jp_explain": "特殊能力合成用の能力付与素材。\n特殊能力合成時に使用することで\n【レヴリー・カタリスト】を追加。",
-		"tr_explain": "Material for Special Ability Synthesis.\nGrants \"레브리 카탈리스트\"\nwhen used in Ability Synthesis."
+		"tr_explain": "특수 능력 합성에 쓰는 능력 부여 소재.\n특수 능력 합성 시 사용하면\n【레브리 카탈리스트】 특수 능력을 추가한다."
 	},
 	{
 		"assign": "321010002",
@@ -3159,35 +3159,35 @@
 	{
 		"assign": "321010012",
 		"jp_text": "N-特殊能力追加成功率＋5%",
-		"tr_text": "N-특수능력 추가 성공률 +5%",
+		"tr_text": "N-특수 능력 추가 성공률 +5%",
 		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
 		"tr_explain": "Increases the chance of successfully\nadding Special Abilities to an item."
 	},
 	{
 		"assign": "321010013",
 		"jp_text": "N-特殊能力追加成功率＋10%",
-		"tr_text": "N-특수능력 추가 성공률 +10%",
+		"tr_text": "N-특수 능력 추가 성공률 +10%",
 		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
 		"tr_explain": "Increases the chance of successfully\nadding Special Abilities to an item."
 	},
 	{
 		"assign": "321010014",
 		"jp_text": "N-特殊能力追加成功率＋15%",
-		"tr_text": "N-특수능력 추가 성공률 +15%",
+		"tr_text": "N-특수 능력 추가 성공률 +15%",
 		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
 		"tr_explain": "Increases the chance of successfully\nadding Special Abilities to an item."
 	},
 	{
 		"assign": "321010015",
 		"jp_text": "N-特殊能力追加成功率＋20%",
-		"tr_text": "N-특수능력 추가 성공률 +20%",
+		"tr_text": "N-특수 능력 추가 성공률 +20%",
 		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
 		"tr_explain": "Increases the chance of successfully\nadding Special Abilities to an item."
 	},
 	{
 		"assign": "321010017",
 		"jp_text": "N-特殊能力追加成功率＋30%",
-		"tr_text": "N-특수능력 추가 성공률 +30%",
+		"tr_text": "N-특수 능력 추가 성공률 +30%",
 		"jp_explain": "アイテムの特殊能力追加時に\n追加が成功する確率を\n上昇させる。",
 		"tr_explain": "Increases the chance of successfully\nadding Special Abilities to an item."
 	},
