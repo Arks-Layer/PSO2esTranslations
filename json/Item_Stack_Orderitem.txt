@@ -58,7 +58,7 @@
 	{
 		"assign": "3308",
 		"jp_text": "ロックベアの腕肉",
-		"tr_text": "록 베어 완육",
+		"tr_text": "록 베어 팔고기",
 		"jp_explain": "ロックベアから採れた腕肉。\n他の部位よりも柔らかく美味。\n依頼者：<c a1ff6d>フランカ<c>　再受注可能",
 		"tr_explain": "Arm meat taken from a Rockbear.\nSofter and tastier than other parts.\nClient: <c a1ff6d>Franca<c> (repeatable)"
 	},
@@ -86,7 +86,7 @@
 	{
 		"assign": "33012",
 		"jp_text": "グワナーダの大ばさみ",
-		"tr_text": "구와나다의 큰 가위",
+		"tr_text": "구와나다의 큰 집게",
 		"jp_explain": "撃退後、拡散せずに形となって残った\n状態の良いグワナーダの大ばさみ。\n依頼者：<c a1ff6d>フランカ<c>　再受注可能",
 		"tr_explain": "Gwanahda mandibles that remained\nintact after the defeat of their\nowner. Client: <c a1ff6d>Franca<c> (repeatable)"
 	},
@@ -100,7 +100,7 @@
 	{
 		"assign": "33014",
 		"jp_text": "フォンガルフの牙",
-		"tr_text": "본 갈프의 어금니",
+		"tr_text": "폰 갈프의 송곳니",
 		"jp_explain": "フォンガルフから採れた牙。\n\n依頼者：<c a1ff6d>ローラ<c>　再受注不可",
 		"tr_explain": "Fangs from a Fangulf.\n\nClient: <c a1ff6d>Lola<c> (non-repeatable)"
 	},
@@ -149,7 +149,7 @@
 	{
 		"assign": "33021",
 		"jp_text": "フォードランの上質角",
-		"tr_text": "포도란의 상질각",
+		"tr_text": "포도란의 고급 뿔",
 		"jp_explain": "フォードランから採れた上質な角。\n\n依頼者：<c a1ff6d>ローラ<c>　再受注不可",
 		"tr_explain": "High-quality horns from a Fordoran.\n\nClient: <c a1ff6d>Lola<c> (non-repeatable)"
 	},
@@ -219,7 +219,7 @@
 	{
 		"assign": "33031",
 		"jp_text": "アギニスの羽根",
-		"tr_text": "아기니스의 날개",
+		"tr_text": "아기니스의 깃털",
 		"jp_explain": "アギニスから採れた美しい羽根。\n\n依頼者：<c a1ff6d>ローラ<c>　再受注不可",
 		"tr_explain": "Beautiful feathers from an Aginis.\n\nClient: <c a1ff6d>Lola<c> (non-repeatable)"
 	},
@@ -282,7 +282,7 @@
 	{
 		"assign": "33040",
 		"jp_text": "ディーニアンの剣の破片",
-		"tr_text": "디니안의 검의 파편",
+		"tr_text": "디니안의 검 파편",
 		"jp_explain": "シル・ディーニアンの\n所持していた剣の破片。\n依頼者：<c a1ff6d>ローラ<c>　再受注不可",
 		"tr_explain": "A fragment of a sword belonging to\na Sil Dinian.\nClient: <c a1ff6d>Lola<c> (non-repeatable)"
 	},
@@ -338,21 +338,21 @@
 	{
 		"assign": "33048",
 		"jp_text": "橙色の小さな花",
-		"tr_text": "주황색의 작은 꽃",
+		"tr_text": "주황색 작은 꽃",
 		"jp_explain": "ナベリウスで採取された花。\nマトイが気にしていたらしい……\n依頼者：<c a1ff6d>フィリア<c>　再受注不可",
 		"tr_explain": "A small flower from Naberius. Seems\nthat Matoi was interested in these...\nClient: <c a1ff6d>Philia<c> (non-repeatable)"
 	},
 	{
 		"assign": "33049",
 		"jp_text": "桃色の小さな花",
-		"tr_text": "분홍색의 작은 꽃",
+		"tr_text": "분홍색 작은 꽃",
 		"jp_explain": "ナベリウスで採取された花。\nマトイが興味深く見ていたらしい……\n依頼者：<c a1ff6d>フィリア<c>　再受注不可",
 		"tr_explain": "A small flower from Naberius. Seems\nthat Matoi was interested in these...\nClient: <c a1ff6d>Philia<c> (non-repeatable)"
 	},
 	{
 		"assign": "33050",
 		"jp_text": "黄色の小さな花",
-		"tr_text": "노란색의 작은 꽃",
+		"tr_text": "노란색 작은 꽃",
 		"jp_explain": "ラッピーが愛すると言われる\n希少種な花。\n依頼者：<c a1ff6d>フィリア<c>　再受注不可",
 		"tr_explain": "A rare flower beloved by Rappies.\nClient: <c a1ff6d>Philia<c> (non-repeatable)"
 	},
@@ -366,14 +366,14 @@
 	{
 		"assign": "33052",
 		"jp_text": "黒い小さな実",
-		"tr_text": "검은 작은 열매",
+		"tr_text": "작고 검은 열매",
 		"jp_explain": "リリーパで採取された実。\n黒い表皮は硬く、割りにくい。\n依頼者：<c a1ff6d>フランカ<c>　再受注可能",
 		"tr_explain": "A fruit collected on Lillipa. Its black\nskin is tough and difficult to split.\nClient: <c a1ff6d>Franca<c> (repeatable)"
 	},
 	{
 		"assign": "33053",
 		"jp_text": "白い小さな実",
-		"tr_text": "하얀 작은 열매",
+		"tr_text": "작고 하얀 열매",
 		"jp_explain": "リリーパで採取された実。\n白い表皮は硬く、食べにくい。\n依頼者：<c a1ff6d>フランカ<c>　再受注可能",
 		"tr_explain": "A fruit collected on Lillipa. Its white\nskin is tough and difficult to eat.\nClient: <c a1ff6d>Franca<c> (repeatable)"
 	},
@@ -401,14 +401,14 @@
 	{
 		"assign": "33057",
 		"jp_text": "メカニカル・フライパン",
-		"tr_text": "메카니컬 후라이팬",
+		"tr_text": "메커니컬 프라이팬",
 		"jp_explain": "機甲種のパーツで構成された調理器具。\n熱エネルギーの伝導率が高い。",
 		"tr_explain": "A cooking utensil made from Mech\nparts. Has high thermal conductivity."
 	},
 	{
 		"assign": "33058",
 		"jp_text": "大肉切包丁",
-		"tr_text": "큰 고기 정육도",
+		"tr_text": "커다란 정육칼",
 		"jp_explain": "グワナーダのあごで作った調理器具。\n大型の肉を切るのに最適。",
 		"tr_explain": "Cooking utensil made from Gwanahda's\njaw. Great for large pieces of meat."
 	},
@@ -3635,7 +3635,7 @@
 	{
 		"assign": "330569",
 		"jp_text": "ディアルド",
-		"tr_text": "디아드",
+		"tr_text": "디알드",
 		"jp_explain": "クラフトレシピで必要とされる\n希少な武器用素材。",
 		"tr_explain": "Required for Crafting Recipes.\nMaterial for rare weapons."
 	},
@@ -4958,7 +4958,7 @@
 	{
 		"assign": "330798",
 		"jp_text": "時還石クロノス",
-		"tr_text": "시공석 크로노스",
+		"tr_text": "시환석 크로노스",
 		"jp_explain": "オメガで発見された未知の物質。\n破損した武器を過去のあるべき姿へと\n修復するエネルギーを持つ。",
 		"tr_explain": "An unknown substance found\nin Omega. It can restore damaged\nweapons to their former glory."
 	},
@@ -5002,14 +5002,14 @@
 		"jp_text": "原闇石デイモス",
 		"tr_text": "원암석 데이모스",
 		"jp_explain": "全てを破滅に呑み込む闇の残滓から\n生まれた、恐怖が結晶化した生体石。\n光を纏う武器へと進化させる素材。",
-		"tr_explain": "모든 것을 파멸로 몰아넣는 어둠의 잔재\n로 부터 태어난 공포가 결정화된\n생체석. 빛을 감싸는 무기로 진화시키는\n소재."
+		"tr_explain": "모든 것을 파멸 속으로 집어삼키는 어둠의\n잔재에서 태어난, 공포가 결정화된\n생체석. 빛을 두른 무기로 진화시키는\n소재."
 	},
 	{
 		"assign": "330809",
 		"jp_text": "神眼石グライアイ",
 		"tr_text": "신안석 그라이아이",
 		"jp_explain": "終焉をもたらす大いなる闇を祓い\n宇宙の起源を見つめる不思議な石。\n光を纏う武器へと進化させる素材。",
-		"tr_explain": "종언을 부르는 거대한 어둠을 물리치고\n우주의 기원을 응시하는 불가사의한 돌.\n빛을 감싸는 무기로 진화시키는 소재."
+		"tr_explain": "종언을 부르는 거대한 어둠을 물리치고\n우주의 기원을 응시하는 불가사의한 돌.\n빛을 두른 무기로 진화시키는 소재."
 	},
 	{
 		"assign": "330810",
@@ -5086,55 +5086,55 @@
 		"jp_text": "創望石アンフィトリテ",
 		"tr_text": "창망석 암피트리테",
 		"jp_explain": "無限の知を宿した光輝く海が\n流体のまま形作っている、不思議な石。\n光の跡を知る武器へと進化させる素材。",
-		"tr_explain": "무한한 지식을 간직한 빛나는 바다가\n유체 그대로 형성된 불가사의한 돌.\n빛의 흔적을 아는 무기로 진화하는\n소재."
+		"tr_explain": "무한한 지식을 품은 빛나는 바다가\n유체 상태로 형태를 이룬 불가사의한 돌.\n빛의 흔적을 아는 무기로 진화시키는\n소재."
 	},
 	{
 		"assign": "330856",
 		"jp_text": "解鍵リバレイト",
 		"tr_text": "해건 리버레이트",
 		"jp_explain": "ノヴェルシリーズの封鎖機能を解除する\n秘密鍵。暗号化されている機能を復号し\nすべての能力を発揮させることが可能。",
-		"tr_explain": "노벨 시리즈의 봉쇄 기능을 해제하는\n비밀 키. 암호화된 기능을 복호화해\n모든 능력을 발휘할 수 있다."
+		"tr_explain": "노벨 시리즈의 봉쇄 기능을 해제하는\n비밀 열쇠. 암호화된 기능을 복호화해\n모든 능력을 끌어낼 수 있다."
 	},
 	{
 		"assign": "330857",
 		"jp_text": "閃機片エメル",
 		"tr_text": "섬기편 에멜",
 		"jp_explain": "閃機種との交戦データ解析の際に\n生成される小容量データ。\n特定の希少武器を作成する際に必要。",
-		"tr_explain": "섬기종과의 교전 데이터 분석 시\n생성 되는 저용량의 데이터.\n특정 희귀 무기를 작성할 때 필요."
+		"tr_explain": "섬기종과의 교전 데이터를 분석할 때\n생성되는 소용량 데이터.\n특정 희귀 무기를 제작할 때 필요하다."
 	},
 	{
 		"assign": "330858",
 		"jp_text": "閃機晶グラーニア",
 		"tr_text": "섬기정 그라니아",
 		"jp_explain": "閃機種との交戦データ解析の際に\n生成される大容量データ。\n特定の希少武器を作成する際に必要。",
-		"tr_explain": "섬기종과의 교전 데이터 분석 시\n생성 되는 대용량의 데이터.\n특정 희귀 무기를 작성할 때 필요."
+		"tr_explain": "섬기종과의 교전 데이터를 분석할 때\n생성되는 대용량 데이터.\n특정 희귀 무기를 제작할 때 필요하다."
 	},
 	{
 		"assign": "330859",
 		"jp_text": "モジュール／シバ",
 		"tr_text": "모듈/시바",
 		"jp_explain": "ＶＲ訓練で再現された\n終の女神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
-		"tr_explain": "VR 훈련에서 재현된 종말의\n여신과의 전투에서 입수 가능한 소재.\n특정 희귀무기를 작성할 때 필요."
+		"tr_explain": "VR 훈련에서 재현된\n종말의 여신과의 전투로 얻을 수 있는 소재.\n특정 희귀 무기를 제작할 때 필요하다."
 	},
 	{
 		"assign": "330860",
 		"jp_text": "モジュール／ヴァルナ",
 		"tr_text": "모듈/바루나",
 		"jp_explain": "ＶＲ訓練で再現された\n義の男神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
-		"tr_explain": "VR 훈련에서 재현된 정의의\n남신과의 전투에서 입수 가능한 소재.\n특정 희귀무기를 작성할 때 필요."
+		"tr_explain": "VR 훈련에서 재현된\n정의의 남신과의 전투로 얻을 수 있는 소재.\n특정 희귀 무기를 제작할 때 필요하다."
 	},
 	{
 		"assign": "330861",
 		"jp_text": "モジュール／ミトラ",
 		"tr_text": "모듈/미트라",
 		"jp_explain": "ＶＲ訓練で再現された\n偽の女神との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
-		"tr_explain": "VR 훈련에서 재현된 거짓의\n여신과의 전투에서 입수 가능한 소재.\n특정 희귀무기를 작성할 때 필요."
+		"tr_explain": "VR 훈련에서 재현된\n거짓의 여신과의 전투로 얻을 수 있는 소재.\n특정 희귀 무기를 제작할 때 필요하다."
 	},
 	{
 		"assign": "330862",
 		"jp_text": "モジュール／エクゼクル",
 		"tr_text": "모듈/엑제클",
 		"jp_explain": "ＶＲ訓練で再現された\n大型閃機種との戦闘で入手できる素材。\n特定の希少武器を作成する際に必要。",
-		"tr_explain": "VR 훈련에서 재현된 대형\n섬기종과의 전투에서 입수 가능한 소재.\n특정 희귀무기를 작성할 때 필요."
+		"tr_explain": "VR 훈련에서 재현된\n대형 섬기종과의 전투로 얻을 수 있는 소재.\n특정 희귀 무기를 제작할 때 필요하다."
 	}
 ]
