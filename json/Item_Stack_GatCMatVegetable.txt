@@ -23,7 +23,7 @@
 	{
 		"assign": "35303",
 		"jp_text": "ナベルダケ",
-		"tr_text": "나베리우스 버섯",
+		"tr_text": "나벨 버섯",
 		"jp_explain": "<c f0df60>惑星ナベリウス全域<c>で<c 99ff97>採れる<c>中型野菜。\n生で食すと身体に悪影響を及ぼすため\n煎じてから、医薬品として利用される。",
 		"tr_explain": "<c 99ff97>Medium vegetable<c> from <c f0df60>Naberius<c>.\nPoisonous if eaten raw, but can be\nboiled to make a useful medicine."
 	},
@@ -44,7 +44,7 @@
 	{
 		"assign": "35306",
 		"jp_text": "採掘場跡コショウ",
-		"tr_text": "옛 채굴장 고추",
+		"tr_text": "옛 채굴장 후추",
 		"jp_explain": "<c f0df60>採掘場跡エリア<c>で<c 99ff97>採れる<c>小型野菜。\n香辛料の一つで、独特の辛味を持つ。\n多くの料理に利用される。",
 		"tr_explain": "<c 99ff97>Small vegetable<c> from <c f0df60>the Quarry<c>.\nA spice with a uniquely pungent\ntaste. Used in many dishes."
 	},
@@ -158,56 +158,56 @@
 		"jp_text": "ガッツ・エアルカブラナ",
 		"tr_text": "갓츠 에알카브라나",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\nHP回復量増加",
-		"tr_explain": "에아리오에서 채취 가능한 야채.\n데미지 내성/ \nHP회복량 증가"
+		"tr_explain": "에아리오에서 채취 가능한 채소.\n데미지 내성/\nHP 회복량 증가"
 	},
 	{
 		"assign": "353010003",
 		"jp_text": "マッタ・エアルハーヴ",
 		"tr_text": "맛타 에알하브",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\nPP消費量軽減",
-		"tr_explain": "에아리오에서 채취 가능한 야채.\n데미지 내성/ \nPP소비량 감소"
+		"tr_explain": "에아리오에서 채취 가능한 채소.\n데미지 내성/\nPP 소비량 감소"
 	},
 	{
 		"assign": "353010004",
 		"jp_text": "シャッキ・エアルトマーテ",
 		"tr_text": "샷키 에알토마테",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\n弱点部位ダメージ増加",
-		"tr_explain": "에아리오에서 채취 가능한 야채.\n데미지 내성/ \n약점 부위 데미지 증가"
+		"tr_explain": "에아리오에서 채취 가능한 채소.\n데미지 내성/\n약점 부위 데미지 증가"
 	},
 	{
 		"assign": "353010005",
 		"jp_text": "サッパ・エアルマシュル",
 		"tr_text": "삿파 에알마슐",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\nPP回復量増加",
-		"tr_explain": "에아리오에서 채취 가능한 야채.\n데미지 내성/ \nPP회복량 증가"
+		"tr_explain": "에아리오에서 채취 가능한 채소.\n데미지 내성/\nPP 회복량 증가"
 	},
 	{
 		"assign": "353010006",
 		"jp_text": "ガッツ・リテナキャリブラ",
 		"tr_text": "갓츠 리테나캬리브라",
 		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\nHP回復量増加",
-		"tr_explain": "리템에서 채취 가능한 야채.\n데미지 내성/\nHP 회복량 증가"
+		"tr_explain": "리템에서 채취 가능한 채소.\n데미지 내성/\nHP 회복량 증가"
 	},
 	{
 		"assign": "353010007",
 		"jp_text": "マッタ・リテナマルナース",
 		"tr_text": "맛타 리테나마르나스",
 		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\nPP消費量軽減",
-		"tr_explain": "리템에서 채취 가능한 야채.\n데미지 내성/\nPP 소비량 감소"
+		"tr_explain": "리템에서 채취 가능한 채소.\n데미지 내성/\nPP 소비량 감소"
 	},
 	{
 		"assign": "353010008",
 		"jp_text": "シャッキ・リテナマシュル",
-		"tr_text": "샷키 리테나마슈르",
+		"tr_text": "샷키 리테나마슐",
 		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\n弱点部位ダメージ増加",
-		"tr_explain": "리템에서 채취 가능한 야채.\n데미지 내성/\n약점 부위 데미지 증가"
+		"tr_explain": "리템에서 채취 가능한 채소.\n데미지 내성/\n약점 부위 데미지 증가"
 	},
 	{
 		"assign": "353010009",
 		"jp_text": "サッパ・リテナクランベ",
 		"tr_text": "삿파 리테나크란베",
 		"jp_explain": "リテムで採取可能な野菜。\nダメージ耐性／\nPP回復量増加",
-		"tr_explain": "리템에서 채취 가능한 야채.\n데미지 내성/\nPP 회복량 증가"
+		"tr_explain": "리템에서 채취 가능한 채소.\n데미지 내성/\nPP 회복량 증가"
 	},
 	{
 		"assign": "353010010",
@@ -268,16 +268,16 @@
 	{
 		"assign": "353010102",
 		"jp_text": "アウトゥムヴァンプキン",
-		"tr_text": "아툼 범프킨",
+		"tr_text": "아우툼 밤프킨",
 		"jp_explain": "エアリオで採取可能な野菜。\nダメージ耐性／\n弱点部位ダメージ増加",
-		"tr_explain": "에아리오에서 채취 가능한 야채.\n데미지 내성/\n약점 부위 데미지 증가"
+		"tr_explain": "에아리오에서 채취 가능한 채소.\n데미지 내성/\n약점 부위 데미지 증가"
 	},
 	{
 		"assign": "353010103",
 		"jp_text": "ヴィンターダムボッホ",
 		"tr_text": "뷘터 다무봇호",
 		"jp_explain": "エアリオやリテムで採取可能な野菜。\nダメージ耐性／\nPP消費量軽減",
-		"tr_explain": "리템/에아리오에서 채취 가능한 야채.\n데미지 내성/\nPP 소비량 감소"
+		"tr_explain": "에아리오와 리템에서 채취 가능한 채소.\n데미지 내성/\nPP 소비량 감소"
 	},
 	{
 		"assign": "353010104",
