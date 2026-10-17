@@ -5,55 +5,55 @@
 	},
 	{
 		"jp_text": "<color=red>▼</color>５秒毎にＨＰが <%parameter1%>％減少",
-		"tr_text": "<color=red>▼</color>Lose <%parameter1%>% HP every 5 seconds"
+		"tr_text": "<color=red>▼</color>5초마다 HP가 <%parameter1%>% 감소"
 	},
 	{
 		"jp_text": "<color=red>▼</color>通常攻撃のダメージが <%parameter1%>％に",
-		"tr_text": "<color=red>▼</color>Normal Attack damage -<%parameter1%>%"
+		"tr_text": "<color=red>▼</color>통상 공격 데미지가 원래의 <%parameter1%>%로 변경"
 	},
 	{
 		"jp_text": "<color=red>▼</color>ダメージ上限が <%parameter1%>に",
-		"tr_text": "<color=red>▼</color>Damage per hit limited to <%parameter1%>"
+		"tr_text": "<color=red>▼</color>데미지 상한이 <%parameter1%>로 변경"
 	},
 	{
 		"jp_text": "<color=red>▼</color><%parameter1%>ダメージ以下は <%parameter2%>％に",
-		"tr_text": "<color=red>▼</color>Damage less than <%parameter1%> reduced to <%parameter2%>%"
+		"tr_text": "<color=red>▼</color><%parameter1%> 이하의 데미지가 <%parameter2%>%로 변경"
 	},
 	{
 		"jp_text": "<color=red>▼</color>ダメージボムのみ有効",
-		"tr_text": "<color=red>▼</color>Damage Bombs only"
+		"tr_text": "<color=red>▼</color>데미지 봄만 유효"
 	},
 	{
 		"jp_text": "<color=red>▼</color>バトル中ＨＰ回復無効",
-		"tr_text": "<color=red>▼</color>Can't recover HP during battle"
+		"tr_text": "<color=red>▼</color>전투 중 HP 회복 무효"
 	},
 	{
 		"jp_text": "<color=red>▼</color>属性値 <%parameter1%>減少",
-		"tr_text": "<color=red>▼</color>Element values decreased by <%parameter1%>"
+		"tr_text": "<color=red>▼</color>속성값 <%parameter1%> 감소"
 	},
 	{
 		"jp_text": "<color=red>▼</color>アクティブチップ発動不可",
-		"tr_text": "<color=red>▼</color>Can't activate Active Chips"
+		"tr_text": "<color=red>▼</color>액티브 칩 발동 불가"
 	},
 	{
 		"jp_text": "<color=red>▼</color>サポートチップ発動不可",
-		"tr_text": "<color=red>▼</color>Support Chips don't activate"
+		"tr_text": "<color=red>▼</color>서포트 칩 발동 불가"
 	},
 	{
 		"jp_text": "[<%parameter1%>]（30秒毎発動）",
-		"tr_text": "<%parameter1%> (Activates every 30 seconds)"
+		"tr_text": "[<%parameter1%>]（30초마다 발동）"
 	},
 	{
 		"jp_text": "<color=#00ffff>▲</color>状態異常の敵に与えるダメージが <%parameter1%>％に",
-		"tr_text": "<color=#00ffff>▲</color>+<%parameter1%>% damage vs statused enemies"
+		"tr_text": "<color=#00ffff>▲</color>상태 이상인 적에게 주는 데미지가 <%parameter1%>%로 변경"
 	},
 	{
 		"jp_text": "<color=#00ffff>▲</color>消費ＣＰが <%parameter1%> に",
-		"tr_text": "<color=#00ffff>▲</color>Active chips only consume <%parameter1%> CP"
+		"tr_text": "<color=#00ffff>▲</color>소비 CP가 <%parameter1%>로 변경"
 	},
 	{
 		"jp_text": "<color=#00ffff>▲</color>ダメージボムで追加ダメージが発生",
-		"tr_text": "<color=#00ffff>▲</color>Damage bombs get bonus damage"
+		"tr_text": "<color=#00ffff>▲</color>데미지 봄으로 추가 데미지 발생"
 	},
 	{
 		"jp_text": "-1",
