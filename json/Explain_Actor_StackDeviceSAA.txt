@@ -2,36 +2,36 @@
 	{
 		"assign": "None",
 		"jp_text": "なし",
-		"tr_text": "None",
+		"tr_text": "없음",
 		"jp_explain": "なし",
-		"tr_explain": "None"
+		"tr_explain": "없음"
 	},
 	{
 		"assign": "mag_Basher",
 		"jp_text": "SP打撃/乱舞",
-		"tr_text": "SP Striking/Dance",
+		"tr_text": "SP 타격/난무",
 		"jp_explain": "プレイヤーの周囲を攻撃する。\nヒットごとにPPを回復し\n攻撃力アップ効果を得る。",
-		"tr_explain": "Performs slash attacks around\nthe player. Hits recover PP and\nincrease attack power."
+		"tr_explain": "플레이어 주변을 공격한다.\n명중할 때마다 PP를 회복하고\n공격력 상승 효과를 얻는다."
 	},
 	{
 		"assign": "mag_VulcanCannon",
 		"jp_text": "SP射撃/速射",
-		"tr_text": "SP Ranged/Rapid Fire",
+		"tr_text": "SP 사격/속사",
 		"jp_explain": "敵単体に高速射撃を行い\nヒットごとにPPを回復する。",
-		"tr_explain": "Fires multiple single target\nburst attacks that recover PP."
+		"tr_explain": "적 하나에게 고속 사격을 가하며\n명중할 때마다 PP를 회복한다."
 	},
 	{
 		"assign": "mag_TechCharger",
 		"jp_text": "SP法撃/集束",
-		"tr_text": "SP Technique/Convergence",
+		"tr_text": "SP 법격/집속",
 		"jp_explain": "効果時間中、法撃の\nチャージ時間を短縮する。",
-		"tr_explain": "Reduces the charge time\nof Techniques."
+		"tr_explain": "효과 시간 동안 법격의\n차지 시간을 단축한다."
 	},
 	{
 		"assign": "mag_Reflector",
 		"jp_text": "SP技量/鉄壁",
-		"tr_text": "SP Dexterity/Iron Wall",
+		"tr_text": "SP 기량/철벽",
 		"jp_explain": "攻撃を受けたときに発動。\n効果時間中、ダメージを減少させ\n打ち上げや吹き飛ばしも防ぐ。",
-		"tr_explain": "Activates when being attacked.\nReduces the damage and prevents\nknock-back and launch attacks."
+		"tr_explain": "공격을 받으면 발동한다.\n효과 시간 동안 받는 데미지를 줄이고\n공중에 뜨거나 날려지는 것도 막는다."
 	}
 ]
