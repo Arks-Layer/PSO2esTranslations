@@ -2,120 +2,120 @@
 	{
 		"assign": "TypeNon",
 		"jp_text": "なし",
-		"tr_text": "None",
+		"tr_text": "없음",
 		"jp_explain": "なし",
-		"tr_explain": "None"
+		"tr_explain": "없음"
 	},
 	{
 		"assign": "TypeNoUse",
 		"jp_text": "フォトンブラスト発動",
-		"tr_text": "Activate Photon Blast",
+		"tr_text": "포톤 블래스트 발동",
 		"jp_explain": "現在、フォトンブラストを使用出来ません。\nフォトンブラストを覚えたマグを\n装備してください。",
-		"tr_explain": "This Mag cannot use a Photon Blast.\nPlease equip a Mag that has learned\none."
+		"tr_explain": "현재 포톤 블래스트를 사용할 수 없다.\n포톤 블래스트를 익힌 마그를\n장비해 주세요."
 	},
 	{
 		"assign": "Type1_1",
 		"jp_text": "ヘリクス・プロイ",
-		"tr_text": "Helix Proi",
+		"tr_text": "헬릭스 프로이",
 		"jp_explain": "貫く力、ヘリクスタイプの具現。\nフォトンをまとい、目標に向かって\n突進攻撃を行う。",
-		"tr_explain": "A Helix-type avatar with piercing\nstrength. Gathers Photons to charge\nat its target."
+		"tr_explain": "꿰뚫는 힘, 헬릭스 타입의 구현체.\n포톤을 두르고 목표를 향해\n돌진 공격한다."
 	},
 	{
 		"assign": "Type1_2",
 		"jp_text": "ヘリクス・イメラ",
-		"tr_text": "Helix Imera",
+		"tr_text": "헬릭스 이메라",
 		"jp_explain": "貫く力、ヘリクスタイプの具現。\n目標へ向けて一足のもと接近し\n強力な電撃を周囲に発生させる。",
-		"tr_explain": "A Helix-type avatar with piercing\nstrength. Approaches its target and\nreleases a powerful shock."
+		"tr_explain": "꿰뚫는 힘, 헬릭스 타입의 구현체.\n목표에게 단숨에 접근하여\n주변에 강력한 전격을 일으킨다."
 	},
 	{
 		"assign": "Type1_3",
 		"jp_text": "ヘリクス・ニフタ",
-		"tr_text": "Helix Nykta",
+		"tr_text": "헬릭스 니프타",
 		"jp_explain": "貫く力、ヘリクスタイプの具現。\n目標に向かい、衝角での連撃ののち\n体躯を活かした踏みつけ攻撃を行う。",
-		"tr_explain": "A Helix-type avatar with piercing\nstrength. Unleashes a barrage of\nhorn attacks, then tramples its\ntarget."
+		"tr_explain": "꿰뚫는 힘, 헬릭스 타입의 구현체.\n목표를 향해\n뿔로 연속 공격한 뒤,\n거구로 짓밟는다."
 	},
 	{
 		"assign": "Type2_1",
 		"jp_text": "アイアス・プロイ",
-		"tr_text": "Ajax Proi",
+		"tr_text": "아이아스 프로이",
 		"jp_explain": "譲らぬ力、アイアスタイプの具現。\n前方広範囲に向けて、炸裂砲弾を\n次々に発射し、殲滅を行う。",
-		"tr_explain": "An Ajax-type avatar with unyielding\nstrength. Launches a bombardment\nof bullets, annihilating targets."
+		"tr_explain": "물러서지 않는 힘, 아이아스 타입의 구현체.\n전방의 넓은 범위에 작렬 포탄을\n잇달아 발사하여 섬멸한다."
 	},
 	{
 		"assign": "Type2_2",
 		"jp_text": "アイアス・イメラ",
-		"tr_text": "Ajax Imera",
+		"tr_text": "아이아스 이메라",
 		"jp_explain": "譲らぬ力、アイアスタイプの具現。\n頭部より発射したフォトンメーザーを\n目標周囲へ雨霰のように降らせる。",
-		"tr_explain": "An Ajax-type avatar with unyielding\nstrength. Fires a Photon Maser that\ndescends on targets like hail."
+		"tr_explain": "물러서지 않는 힘, 아이아스 타입의 구현체.\n머리에서 발사한 포톤 메이저를\n목표 주변에 비 오듯 쏟아붓는다."
 	},
 	{
 		"assign": "Type2_3",
 		"jp_text": "アイアス・ニフタ",
-		"tr_text": "Ajax Nykta",
+		"tr_text": "아이아스 니프타",
 		"jp_explain": "譲らぬ力、アイアスタイプの具現。\n飛散させた鵬翼はそれぞれが意志を\n持ち、目標を撃ち抜く弾丸となる。",
-		"tr_explain": "An Ajax-type avatar with unyielding\nstrength. Scatters homing feathers\nthat pierce their targets."
+		"tr_explain": "물러서지 않는 힘, 아이아스 타입의 구현체.\n흩뿌린 거대한 날개는 각각 의지를 품어\n목표를 꿰뚫는 탄환이 된다."
 	},
 	{
 		"assign": "Type3_1",
 		"jp_text": "ケートス・プロイ",
-		"tr_text": "Ketos Proi",
+		"tr_text": "케토스 프로이",
 		"jp_explain": "惑わぬ力、ケートスタイプの具現。\n周囲の大気中フォトンへ働きかけ\nＰＰの自己回復量を増大させる。",
-		"tr_explain": "A Ketos-type avatar with perplexing\nstrength. Resonates nearby Photons,\nboosting PP regeneration."
+		"tr_explain": "현혹되지 않는 힘, 케토스 타입의 구현체.\n주변 대기 중의 포톤에 작용하여\nPP 자연 회복량을 늘린다."
 	},
 	{
 		"assign": "Type3_2",
 		"jp_text": "ケートス・イメラ",
-		"tr_text": "Ketos Imera",
+		"tr_text": "케토스 이메라",
 		"jp_explain": "惑わぬ力、ケートスタイプの具現。\n前方に向けて、フォトンを凝縮した\nレーザーで集束砲撃を行う。",
-		"tr_explain": "A Ketos-type avatar with perplexing\nstrength. Fires a forward laser of\ncondensed Photons."
+		"tr_explain": "현혹되지 않는 힘, 케토스 타입의 구현체.\n포톤을 응축한 레이저로\n전방에 집중 포격을 가한다."
 	},
 	{
 		"assign": "Type3_3",
 		"jp_text": "ケートス・ニフタ",
-		"tr_text": "Ketos Nykta",
+		"tr_text": "케토스 니프타",
 		"jp_explain": "惑わぬ力、ケートスタイプの具現。\n空間を遊泳し、フォトンを励起させ\n数多の落雷を発生させる。",
-		"tr_explain": "A Ketos-type avatar with perplexing\nstrength. Swims in circles, dropping\nbolts of Photon lightning."
+		"tr_explain": "현혹되지 않는 힘, 케토스 타입의 구현체.\n공간을 헤엄치며 포톤을 들뜨게 하여\n수많은 번개를 떨어뜨린다."
 	},
 	{
 		"assign": "Type4_1",
 		"jp_text": "ユリウス・プロイ",
-		"tr_text": "Julius Proi",
+		"tr_text": "유리우스 프로이",
 		"jp_explain": "揺るがぬ力、ユリウスタイプの具現。\n目標に対し、ワープして近付き\n複数の腕による連続攻撃を行う。",
-		"tr_explain": "A Julius-type avatar with\nunwavering strength. Warps near to\nits target and attacks with a\nbarrage of punches."
+		"tr_explain": "흔들리지 않는 힘, 유리우스 타입의 구현체.\n목표 근처로\n순간 이동하여\n여러 팔로 연속 공격한다."
 	},
 	{
 		"assign": "Type4_2",
 		"jp_text": "ユリウス・イメラ",
-		"tr_text": "Julius Imera",
+		"tr_text": "유리우스 이메라",
 		"jp_explain": "揺るがぬ力、ユリウスタイプの具現。\n目標へ向けて、確実に仕留める\n刺突尖角を撃ち下ろす。",
-		"tr_explain": "A Julius-type avatar with\nunwavering strength. Slams down its\nhorn, slaying targets without fail."
+		"tr_explain": "흔들리지 않는 힘, 유리우스 타입의 구현체.\n목표를 확실히 처치할 날카로운 뿔을\n위에서 쏘아 내린다."
 	},
 	{
 		"assign": "Type4_3",
 		"jp_text": "ユリウス・ニフタ",
-		"tr_text": "Julius Nykta",
+		"tr_text": "유리우스 니프타",
 		"jp_explain": "揺るがぬ力、ユリウスタイプの具現。\n目標周囲に、限定的な超重力場を\n発生させ集束、収縮崩壊を行う。",
-		"tr_explain": "A Julius-type avatar with\nunwavering strength. Produces a\ngravitational field on target, then\nimplodes it."
+		"tr_explain": "흔들리지 않는 힘, 유리우스 타입의 구현체.\n목표 주변에 국소적인 초중력장을\n발생시켜 한곳에 모은 뒤,\n수축 붕괴를 일으킨다."
 	},
 	{
 		"assign": "Type5_1",
 		"jp_text": "イリオス・プロイ",
-		"tr_text": "Ilios Proi",
+		"tr_text": "이리오스 프로이",
 		"jp_explain": "挫けぬ力、イリオスタイプの具現。\n主の定めた目標に対し、主と連携して\n追加攻撃を行う。",
-		"tr_explain": "An Ilios-type avatar with resolute\nstrength. Attacks target enemies\ntogether with you."
+		"tr_explain": "꺾이지 않는 힘, 이리오스 타입의 구현체.\n주인이 정한 목표를 상대로 주인과 연계하여\n추가 공격을 가한다."
 	},
 	{
 		"assign": "Type5_2",
 		"jp_text": "イリオス・イメラ",
-		"tr_text": "Ilios Imera",
+		"tr_text": "이리오스 이메라",
 		"jp_explain": "挫けぬ力、イリオスタイプの具現。\n主の定めた目標に対し、巨大な剣から\n両断の波動を撃ち出す。",
-		"tr_explain": "An Ilios-type avatar with resolute\nstrength. Slices target enemies with\nshockwaves from its sword."
+		"tr_explain": "꺾이지 않는 힘, 이리오스 타입의 구현체.\n주인이 정한 목표를 향해 거대한 검에서\n양단의 파동을 쏘아 보낸다."
 	},
 	{
 		"assign": "Type5_3",
 		"jp_text": "イリオス・ニフタ",
-		"tr_text": "Ilios Nykta",
+		"tr_text": "이리오스 니프타",
 		"jp_explain": "挫けぬ力、イリオスタイプの具現。\n主の定めた目標に対し、虚空の彼方\nより無慈悲な罰を降らせる。",
-		"tr_explain": "An Ilios-type avatar with resolute\nstrength. Punishes target enemies\nfrom beyond the void."
+		"tr_explain": "꺾이지 않는 힘, 이리오스 타입의 구현체.\n주인이 정한 목표에게 허공 저편에서\n무자비한 벌을 내린다."
 	}
 ]
