@@ -115,6 +115,7 @@
 		"tr_text": "게임 버전 확인"
 	},
 	{
+		"__key": "UI:string:221_t:occurrence:0",
 		"assign": "221_t",
 		"jp_text": "エラー",
 		"tr_text": "오류"
@@ -155,6 +156,7 @@
 		"tr_text": "오류"
 	},
 	{
+		"__key": "UI:string:313_t:occurrence:0",
 		"assign": "313_t",
 		"jp_text": "クエストカウンター",
 		"tr_text": "퀘스트 카운터"
@@ -195,6 +197,7 @@
 		"tr_text": "오류"
 	},
 	{
+		"__key": "UI:string:313_t:occurrence:1",
 		"assign": "313_t",
 		"jp_text": "クエストカウンター",
 		"tr_text": "퀘스트 카운터"
@@ -365,6 +368,7 @@
 		"tr_text": "오류"
 	},
 	{
+		"__key": "UI:string:400_t:occurrence:0",
 		"assign": "400_t",
 		"jp_text": "エラー",
 		"tr_text": "오류"
@@ -410,6 +414,7 @@
 		"tr_text": "프렌드 신청"
 	},
 	{
+		"__key": "UI:string:400_t:occurrence:1",
 		"assign": "400_t",
 		"jp_text": "エラー",
 		"tr_text": "오류"
@@ -420,6 +425,7 @@
 		"tr_text": "오류"
 	},
 	{
+		"__key": "UI:string:221_t:occurrence:1",
 		"assign": "221_t",
 		"jp_text": "エラー",
 		"tr_text": "오류"
@@ -690,6 +696,7 @@
 		"tr_text": "오류가 발생했습니다.\r\n이 오류가 자주 발생하면\r\n『PSO2es』를 삭제한 후\r\n다시 다운로드해 주세요."
 	},
 	{
+		"__key": "UI:string:221_b:occurrence:0",
 		"assign": "221_b",
 		"jp_text": "サーバーエラーが発生しました。\r\nタイトル画面に戻ります。",
 		"tr_text": "서버 오류가 발생했습니다.\n타이틀 화면으로 돌아갑니다."
@@ -730,6 +737,7 @@
 		"tr_text": "서버 오류가 발생했습니다.\n타이틀 화면으로 돌아갑니다."
 	},
 	{
+		"__key": "UI:string:313_b:occurrence:0",
 		"assign": "313_b",
 		"jp_text": "既にボスが討伐されています。",
 		"tr_text": "이미 보스를 토벌했습니다."
@@ -770,6 +778,7 @@
 		"tr_text": "서버 오류가 발생했습니다.\n타이틀 화면으로 돌아갑니다."
 	},
 	{
+		"__key": "UI:string:313_b:occurrence:1",
 		"assign": "313_b",
 		"jp_text": "既にボスが討伐されています。",
 		"tr_text": "이미 보스를 토벌했습니다."
@@ -940,6 +949,7 @@
 		"tr_text": "서버 오류가 발생했습니다.\n타이틀 화면으로 돌아갑니다."
 	},
 	{
+		"__key": "UI:string:400_b:occurrence:0",
 		"assign": "400_b",
 		"jp_text": "サーバーエラーが発生しました。\r\nタイトル画面に戻ります。",
 		"tr_text": "서버 오류가 발생했습니다.\n타이틀 화면으로 돌아갑니다."
@@ -985,6 +995,7 @@
 		"tr_text": "프렌드 수가 상한에 도달했습니다."
 	},
 	{
+		"__key": "UI:string:400_b:occurrence:1",
 		"assign": "400_b",
 		"jp_text": "サーバーエラーが発生しました。\r\nタイトル画面に戻ります。",
 		"tr_text": "서버 오류가 발생했습니다.\n타이틀 화면으로 돌아갑니다."
@@ -995,6 +1006,7 @@
 		"tr_text": "서버 오류가 발생했습니다.\n타이틀 화면으로 돌아갑니다."
 	},
 	{
+		"__key": "UI:string:221_b:occurrence:1",
 		"assign": "221_b",
 		"jp_text": "サーバーエラーが発生しました。\r\nタイトル画面に戻ります。",
 		"tr_text": "서버 오류가 발생했습니다.\n타이틀 화면으로 돌아갑니다."
