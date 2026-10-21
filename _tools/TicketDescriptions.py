@@ -51,6 +51,7 @@ chartable = [
     "".maketrans("",
     "")]
 
+####################################################################################################
 
 # Translate layered wear
 
@@ -369,6 +370,8 @@ for name in layered_file_names:
     items_file.write("\n")
     items_file.close()
 
+####################################################################################################
+
 # Translate other cosmetics
 
 cosmetic_file_names = [
@@ -681,7 +684,7 @@ for file_name in cosmetic_file_names:
     
     items = json.load(items_file)
     print("{0} loaded.".format(items_file_name) + " {")
-    
+
     items_file.close()
 
     newtranslations = False
