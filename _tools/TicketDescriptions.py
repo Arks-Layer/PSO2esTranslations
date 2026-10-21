@@ -372,35 +372,35 @@ for name in layered_file_names:
 # Translate other cosmetics
 
 cosmetic_file_names = [
-    "NGS_Ear",
-    "NGS_Horn",
-    "NGS_Motion",
-    "NGS_Mouth",
-    "NGS_Stamps",
     "Stack_Accessory",
     "Stack_BodyPaint",
+    "Stack_Ear",
     "Stack_Eye",
     "Stack_EyeBrow",
     "Stack_EyeLash",
     "Stack_FacePaint",
     "Stack_Hairstyle",
-    "Stack_Sticker"
+    "Stack_Horn",
+    "Stack_MotionChange",
+    "Stack_Stamp",
+    "Stack_Sticker",
+    "Stack_Tooth"
     ]
 
 cosmetic_types = {
-    "NGS_Ear": ["ear shape", "귀", "форма ушей", "耳朵"],
-    "NGS_Horn": ["horn type", "뿔", "тип рога", "角"],
-    "NGS_Motion": ["motion", "모션", "движение", "行動方式"],
-    "NGS_Mouth": ["teeth and tongue\nset", "치아/혀", "зубы и язык", "牙齒、舌頭"],
-    "NGS_Stamps": ["stamp", "스탬프", "штамп", "表情圖"],
     "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
     "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
+    "Stack_Ear": ["ear shape", "귀", "форма ушей", "耳朵"],
     "Stack_Eye": ["eye pattern", "눈동자", "глаза", "瞳孔"],
     "Stack_EyeBrow": ["eyebrow type", "눈썹", "брови", "眉毛"],
     "Stack_EyeLash": ["eyelash type", "속눈썹", "ресницы", "睫毛"],
     "Stack_FacePaint": ["makeup", "메이크업", "макияж", "妝容"],
     "Stack_Hairstyle": ["hairstyle", "헤어스타일", "причёску", "髪型"],
-    "Stack_Sticker": ["sticker", "스티커", "стикер", "貼紙"]
+    "Stack_Horn": ["horn type", "뿔", "тип рога", "角"],
+    "Stack_MotionChange": ["motion", "모션", "движение", "行動方式"],
+    "Stack_Stamp": ["stamp", "스탬프", "штамп", "表情圖"],
+    "Stack_Sticker": ["sticker", "스티커", "стикер", "貼紙"],
+    "Stack_Tooth": ["teeth and tongue\nset", "치아/혀", "зубы и язык", "牙齒、舌頭"]
     }
 
 # JP text: 
@@ -1554,8 +1554,12 @@ def translate_ncosmeticsorted_desc(item, file_name):
 
 cosmeticsorted_file_names = [
     "FacePattern",
-    "NGS_Parts_Female",
-    "NGS_Parts_Male",
+    "Stack_ArmPartsF",
+    "Stack_BodyPartsF",
+    "Stack_LegPartsF",
+    "Stack_ArmPartsM",
+    "Stack_BodyPartsM",
+    "Stack_LegPartsM",s
     "Stack_DeviceHT",
     "Stack_Headparts"
     ]
