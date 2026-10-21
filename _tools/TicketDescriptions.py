@@ -173,35 +173,35 @@ ngs_locks = ["※Not available in [PSO2] Blocks.",
 # JP text: 
     # ※『PSO2』顔バリエーション非対応
 ngsface_locks = ["※Not compatible with PSO2 faces.",
-                                     "",
-                                     "※Не совместимо с PSO2 лицами.",
-                                     "※不適用於『PSO2』臉部類型"]
+                 "",
+                 "※Не совместимо с PSO2 лицами.",
+                 "※不適用於『PSO2』臉部類型"]
 
 # JP text: 
     # ※『PSO2』ではLv.100以上の\n
     # 　マグにのみ使用可能
 mag_device_lv100 = [("※Must be used in PSO2 on a Mag\n"
-                            "which has reached Lv.100 or above."),
-                            ("※『PSO2』에선 Lv.100이상의\n"
-                            "마그에서만 사용 가능"),
-                            ("※Только на MAG'e PSO2\n"
-                            "достигшем 100ур.+"),
-                            ("※在『PSO2』中僅可對\n"
-                            "　Lv.100或以上的瑪古使用")]
+                     "which has reached Lv.100 or above."),
+                    ("※『PSO2』에선 Lv.100이상의\n"
+                    "마그에서만 사용 가능"),
+                    ("※Только на MAG'e PSO2\n"
+                    "достигшем 100ур.+"),
+                    ("※在『PSO2』中僅可對\n"
+                    "　Lv.100或以上的瑪古使用")]
 
 # JP text: 
     # ※『NGS』でのみ使用可能
 mag_device_ngs = ["※Only usable in NGS.",
-                        "※『NGS』에서만 사용 가능",
-                        "※Только для NGS.",
-                        "※僅可在『NGS』中使用"]
+                  "※『NGS』에서만 사용 가능",
+                  "※Только для NGS.",
+                  "※僅可在『NGS』中使用"]
 
 # JP text: 
     # ※武器の構え位置自動調整
 weapon_posture = [("※Uses adjusted weapon positions."),
-                         (""),
-                         ("※Исп. скоррект. положение."),
-                         ("※自動調整武器架勢的位置")]
+                  (""),
+                  ("※Исп. скоррект. положение."),
+                  ("※自動調整武器架勢的位置")]
 
 def translate_layer_desc(item, file_name):
     item_name = ""
