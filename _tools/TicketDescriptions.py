@@ -609,22 +609,9 @@ def translate_cosmetic_desc(item, file_name):
     return 0
 
 def translate_ncosmetic_desc(item, file_name):
-    item_name = ""
-
-    # Decide what name we're working with
-    if TRANS_ALL:
-        item_name = item["tr_text"] or item["jp_text"]
-    else:
-        if item["tr_text"] == "":
-            # No translated name so skip this one (except CN)
-            if LANG != 3:
-                return -1
-            # No translated name so copy the JP name (for CN)
-            else:
-                item["tr_text"] = item["jp_text"]
-                item_name = item["tr_text"]
-        else:
-            item_name = item["tr_text"]
+    # Name isn't translated and we're not working in CN, skip this one
+    if TRANS_ALL == False and item["tr_text"] == "" and LANG != 3:
+        return -1
 
     # Description already present, leave it alone
     if item["tr_explain"] != "" and REDO_ALL == False:
