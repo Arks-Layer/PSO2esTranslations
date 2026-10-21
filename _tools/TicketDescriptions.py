@@ -1559,7 +1559,7 @@ cosmeticsorted_file_names = [
     "Stack_LegPartsF",
     "Stack_ArmPartsM",
     "Stack_BodyPartsM",
-    "Stack_LegPartsM",s
+    "Stack_LegPartsM",
     "Stack_DeviceHT",
     "Stack_Headparts"
     ]
