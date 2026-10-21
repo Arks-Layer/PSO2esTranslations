@@ -171,11 +171,11 @@ ngs_locks = ["※Not available in [PSO2] Blocks.",
              "※不適用於『PSO2』"]
 
 # JP text: 
-    # ※『PSO2』顔バリエーション非対応
-ngsface_locks = ["※Not compatible with PSO2 faces.",
+    # ※一部の顔、ヘッドパーツ非対応
+ngsface_locks = ["※Not compatible with some heads/faces.",
                  "",
-                 "※Не совместимо с PSO2 лицами.",
-                 "※不適用於『PSO2』臉部類型"]
+                 "※",
+                 "※"]
 
 # JP text: 
     # ※『PSO2』ではLv.100以上の\n
@@ -641,7 +641,7 @@ def translate_ncosmetic_desc(item, file_name):
     
     # Some ngs items cannot be used on PSO2 face patterns.
     ngsfacelocked = False
-    if "『PSO2』顔バリエーション非対応" in item["jp_explain"]:
+    if "一部の顔、ヘッドパーツ非対応" in item["jp_explain"]:
         ngsfacelocked = True
     
     # Combine the variable name.
