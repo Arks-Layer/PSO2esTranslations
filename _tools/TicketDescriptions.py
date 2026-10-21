@@ -171,11 +171,11 @@ ngs_locks = ["※Not available in [PSO2] Blocks.",
              "※不適用於『PSO2』"]
 
 # JP text: 
-    # ※『PSO2』顔バリエーション非対応
-ngsface_locks = ["※Not compatible with PSO2 faces.",
+    # ※一部の顔、ヘッドパーツ非対応
+ngsface_locks = ["※Not compatible with some heads/faces.",
                  "",
-                 "※Не совместимо с PSO2 лицами.",
-                 "※不適用於『PSO2』臉部類型"]
+                 "※",
+                 "※"]
 
 # JP text: 
     # ※『PSO2』ではLv.100以上の\n
@@ -375,6 +375,7 @@ cosmetic_file_names = [
     "Stack_Accessory",
     "Stack_Arkscard_BG",
     "Stack_BodyPaint",
+    "Stack_CS_Effect",
     "Stack_Ear",
     "Stack_Eye",
     "Stack_EyeBrow",
@@ -385,13 +386,15 @@ cosmetic_file_names = [
     "Stack_MotionChange",
     "Stack_Stamp",
     "Stack_Sticker",
-    "Stack_Tooth"
+    "Stack_Tooth",
+    "Stack_Vital_Gauge"
     ]
 
 cosmetic_types = {
     "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
     "Stack_Arkscard_BG": ["background for your ARKS\nCard", "", "", ""],
     "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
+    "Stack_CS_Effect": ["Portable Hologram", "", "", ""],
     "Stack_Ear": ["ear shape", "귀", "форма ушей", "耳朵"],
     "Stack_Eye": ["eye pattern", "눈동자", "глаза", "瞳孔"],
     "Stack_EyeBrow": ["eyebrow type", "눈썹", "брови", "眉毛"],
@@ -402,7 +405,8 @@ cosmetic_types = {
     "Stack_MotionChange": ["motion", "모션", "движение", "行動方式"],
     "Stack_Stamp": ["stamp", "스탬프", "штамп", "表情圖"],
     "Stack_Sticker": ["sticker", "스티커", "стикер", "貼紙"],
-    "Stack_Tooth": ["teeth and tongue\nset", "치아/혀", "зубы и язык", "牙齒、舌頭"]
+    "Stack_Tooth": ["teeth and tongue\nset", "치아/혀", "зубы и язык", "牙齒、舌頭"],
+    "Stack_Vital_Gauge": ["Vital Gauge BG", "", "", ""]
     }
 
 # JP text: 
@@ -641,7 +645,7 @@ def translate_ncosmetic_desc(item, file_name):
     
     # Some ngs items cannot be used on PSO2 face patterns.
     ngsfacelocked = False
-    if "『PSO2』顔バリエーション非対応" in item["jp_explain"]:
+    if "一部の顔、ヘッドパーツ非対応" in item["jp_explain"]:
         ngsfacelocked = True
     
     # Combine the variable name.
