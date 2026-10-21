@@ -173,35 +173,35 @@ ngs_locks = ["※Not available in [PSO2] Blocks.",
 # JP text: 
     # ※『PSO2』顔バリエーション非対応
 ngsface_locks = ["※Not compatible with PSO2 faces.",
-                                     "",
-                                     "※Не совместимо с PSO2 лицами.",
-                                     "※不適用於『PSO2』臉部類型"]
+                 "",
+                 "※Не совместимо с PSO2 лицами.",
+                 "※不適用於『PSO2』臉部類型"]
 
 # JP text: 
     # ※『PSO2』ではLv.100以上の\n
     # 　マグにのみ使用可能
 mag_device_lv100 = [("※Must be used in PSO2 on a Mag\n"
-                            "which has reached Lv.100 or above."),
-                            ("※『PSO2』에선 Lv.100이상의\n"
-                            "마그에서만 사용 가능"),
-                            ("※Только на MAG'e PSO2\n"
-                            "достигшем 100ур.+"),
-                            ("※在『PSO2』中僅可對\n"
-                            "　Lv.100或以上的瑪古使用")]
+                     "which has reached Lv.100 or above."),
+                    ("※『PSO2』에선 Lv.100이상의\n"
+                    "마그에서만 사용 가능"),
+                    ("※Только на MAG'e PSO2\n"
+                    "достигшем 100ур.+"),
+                    ("※在『PSO2』中僅可對\n"
+                    "　Lv.100或以上的瑪古使用")]
 
 # JP text: 
     # ※『NGS』でのみ使用可能
 mag_device_ngs = ["※Only usable in NGS.",
-                        "※『NGS』에서만 사용 가능",
-                        "※Только для NGS.",
-                        "※僅可在『NGS』中使用"]
+                  "※『NGS』에서만 사용 가능",
+                  "※Только для NGS.",
+                  "※僅可在『NGS』中使用"]
 
 # JP text: 
     # ※武器の構え位置自動調整
 weapon_posture = [("※Uses adjusted weapon positions."),
-                         (""),
-                         ("※Исп. скоррект. положение."),
-                         ("※自動調整武器架勢的位置")]
+                  (""),
+                  ("※Исп. скоррект. положение."),
+                  ("※自動調整武器架勢的位置")]
 
 def translate_layer_desc(item, file_name):
     item_name = ""
@@ -372,35 +372,37 @@ for name in layered_file_names:
 # Translate other cosmetics
 
 cosmetic_file_names = [
-    "NGS_Ear",
-    "NGS_Horn",
-    "NGS_Motion",
-    "NGS_Mouth",
-    "NGS_Stamps",
     "Stack_Accessory",
+    "Stack_Arkscard_BG",
     "Stack_BodyPaint",
+    "Stack_Ear",
     "Stack_Eye",
     "Stack_EyeBrow",
     "Stack_EyeLash",
     "Stack_FacePaint",
     "Stack_Hairstyle",
-    "Stack_Sticker"
+    "Stack_Horn",
+    "Stack_MotionChange",
+    "Stack_Stamp",
+    "Stack_Sticker",
+    "Stack_Tooth"
     ]
 
 cosmetic_types = {
-    "NGS_Ear": ["ear shape", "귀", "форма ушей", "耳朵"],
-    "NGS_Horn": ["horn type", "뿔", "тип рога", "角"],
-    "NGS_Motion": ["motion", "모션", "движение", "行動方式"],
-    "NGS_Mouth": ["teeth and tongue\nset", "치아/혀", "зубы и язык", "牙齒、舌頭"],
-    "NGS_Stamps": ["stamp", "스탬프", "штамп", "表情圖"],
     "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
+    "Stack_Arkscard_BG": ["background for your ARKS\nCard", "", "", ""],
     "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
+    "Stack_Ear": ["ear shape", "귀", "форма ушей", "耳朵"],
     "Stack_Eye": ["eye pattern", "눈동자", "глаза", "瞳孔"],
     "Stack_EyeBrow": ["eyebrow type", "눈썹", "брови", "眉毛"],
     "Stack_EyeLash": ["eyelash type", "속눈썹", "ресницы", "睫毛"],
     "Stack_FacePaint": ["makeup", "메이크업", "макияж", "妝容"],
     "Stack_Hairstyle": ["hairstyle", "헤어스타일", "причёску", "髪型"],
-    "Stack_Sticker": ["sticker", "스티커", "стикер", "貼紙"]
+    "Stack_Horn": ["horn type", "뿔", "тип рога", "角"],
+    "Stack_MotionChange": ["motion", "모션", "движение", "行動方式"],
+    "Stack_Stamp": ["stamp", "스탬프", "штамп", "表情圖"],
+    "Stack_Sticker": ["sticker", "스티커", "стикер", "貼紙"],
+    "Stack_Tooth": ["teeth and tongue\nset", "치아/혀", "зубы и язык", "牙齒、舌頭"]
     }
 
 # JP text: 
@@ -1250,6 +1252,21 @@ cv_names = {
     "種﨑 敦美": ["Atsumi Tanezaki", "", "", "種崎 敦美"],
     "市ノ瀬 加那": ["Kana Ichinose", "", "", "市之瀨 加那"],
     "小林 千晃": ["Chiaki Kobayashi", "", "", "小林 千晃"],
+    "阿部 敦": ["Atsushi Abe", "", "", "阿部 敦"],
+    "ささき のぞみ": ["Nozomi Sasaki", "", "", ""],
+    "でびでび・でびる": ["Debidebi Debiru", "", "", ""],
+    "アルス・アルマル": ["Ars Almal", "", "", ""],
+    "ニュイ・ソシエール": ["Nui Sociere", "", "", ""],
+    "竜胆 尊": ["Mikoto Rindou", "", "", "竜胆 尊"],
+    "岡咲 美保": ["Miho Okasaki", "", "", "岡咲 美保"],
+    "日高 里菜": ["Rina Hidaka", "", "", "日高 里菜"],
+    "永瀬 アンナ": ["Anna Nagase", "", "", ""],
+    "五十嵐 梨花": ["Rika Igarashi", "", "", "五十嵐 梨花"],
+    "倉持 めると": ["Meruto Kuramochi", "", "", ""],
+    "ソフィア・ヴァレンタイン": ["Sophia Valentine", "", "", ""],
+    "狂蘭 メロコ": ["Meloco Kyoran", "", "", ""],
+    "伊藤 ゆいな": ["Yuina Ito", "", "", ""],
+    "花守 ゆみり": ["Yumiri Hanamori", "", "", ""],
     "？？？": ["???", "???", "???", "？？？"],
     "": ["Unknown", "알 수 없는", "Неизвестно", ""]
     }
@@ -1554,8 +1571,12 @@ def translate_ncosmeticsorted_desc(item, file_name):
 
 cosmeticsorted_file_names = [
     "FacePattern",
-    "NGS_Parts_Female",
-    "NGS_Parts_Male",
+    "Stack_ArmPartsF",
+    "Stack_BodyPartsF",
+    "Stack_LegPartsF",
+    "Stack_ArmPartsM",
+    "Stack_BodyPartsM",
+    "Stack_LegPartsM",
     "Stack_DeviceHT",
     "Stack_Headparts"
     ]
