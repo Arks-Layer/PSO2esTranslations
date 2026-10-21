@@ -25387,47 +25387,47 @@
 	{
 		"assign": "delete_account_dialog_execution_button",
 		"jp_text": "実行する",
-		"tr_text": ""
+		"tr_text": "DELETE"
 	},
 	{
 		"assign": "delete_account_dialog_dissent_button",
 		"jp_text": "実行しない",
-		"tr_text": ""
+		"tr_text": "DECLINE"
 	},
 	{
 		"assign": "delete_account_dialog_check_toggle_button",
 		"jp_text": "<color=orange>端末引き継ぎ情報を確認した</color>",
-		"tr_text": ""
+		"tr_text": "<color=orange>I double-checked the account transfer info</color>"
 	},
 	{
 		"assign": "delete_account_check_dialog_title",
 		"jp_text": "アカウント削除機能",
-		"tr_text": ""
+		"tr_text": "Account Deletion"
 	},
 	{
 		"assign": "delete_account_check_dialog_message",
 		"jp_text": "アカウントを削除します。\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "Are you sure you want\nto delete your account?"
 	},
 	{
 		"assign": "delete_account_check_dialog_execution_button",
 		"jp_text": "実行する",
-		"tr_text": ""
+		"tr_text": "DELETE"
 	},
 	{
 		"assign": "delete_account_check_dialog_dissent_button",
 		"jp_text": "実行しない",
-		"tr_text": ""
+		"tr_text": "DECLINE"
 	},
 	{
 		"assign": "delete_account_finish_dialog_title",
 		"jp_text": "アカウント削除機能",
-		"tr_text": ""
+		"tr_text": "Account Deletion"
 	},
 	{
 		"assign": "delete_account_finish_dialog_message",
 		"jp_text": "アカウント削除が完了しました。\nタイトルへ戻ります。",
-		"tr_text": ""
+		"tr_text": "Your account has been deleted.\nReturning to the title screen."
 	},
 	{
 		"assign": "delete_account_error_dialog_message",
@@ -25437,22 +25437,22 @@
 	{
 		"assign": "chip_pack_extend_dialog_title",
 		"jp_text": "容量拡張",
-		"tr_text": ""
+		"tr_text": "Expand Capacity"
 	},
 	{
 		"assign": "chip_pack_extend_dialog_extend_button",
 		"jp_text": "拡張",
-		"tr_text": ""
+		"tr_text": "Expand"
 	},
 	{
 		"assign": "chip_pack_extend_dialog_cancel_button",
 		"jp_text": "キャンセル",
-		"tr_text": ""
+		"tr_text": "Cancel"
 	},
 	{
 		"assign": "chip_pack_extend_dialog_extend_num",
 		"jp_text": "拡張個数",
-		"tr_text": ""
+		"tr_text": "Expansions"
 	},
 	{
 		"assign": "chip_pack_extend_dialog_arrow",
@@ -25462,12 +25462,12 @@
 	{
 		"assign": "chip_pack_extend_dialog_pack",
 		"jp_text": "容量",
-		"tr_text": ""
+		"tr_text": "Capacity"
 	},
 	{
 		"assign": "chip_pack_extend_dialog_rappy_coin",
 		"jp_text": "ラッピーメダル",
-		"tr_text": ""
+		"tr_text": "Rappy Medals"
 	},
 	{
 		"assign": "chip_pack_extend_dialog_ac",
@@ -25477,7 +25477,7 @@
 	{
 		"assign": "assist_chip_window_title",
 		"jp_text": "アシストチップ設定",
-		"tr_text": ""
+		"tr_text": "Assist Chip Settings"
 	},
 	{
 		"assign": "assist_chip_guide_message",
@@ -25487,12 +25487,12 @@
 	{
 		"assign": "palette_equip_assist_chip_button",
 		"jp_text": "アシスト設定",
-		"tr_text": ""
+		"tr_text": "Assist Settings"
 	},
 	{
 		"assign": "scrach_item_rate_dialog_title",
 		"jp_text": "アイテム排出確率",
-		"tr_text": ""
+		"tr_text": "Drop Rates"
 	},
 	{
 		"assign": "scrach_item_rate_dialog_message",
@@ -25507,22 +25507,22 @@
 	{
 		"assign": "scrach_item_rate_button",
 		"jp_text": "確率表示",
-		"tr_text": ""
+		"tr_text": "Chance"
 	},
 	{
 		"assign": "sbattle_effect_auto_button_start",
 		"jp_text": "効果オート開始",
-		"tr_text": ""
+		"tr_text": "Autostart Feature"
 	},
 	{
 		"assign": "sbattle_effect_auto_button_stop",
 		"jp_text": "効果オート停止",
-		"tr_text": ""
+		"tr_text": "Autostop Feature"
 	},
 	{
 		"assign": "sbattle_ranking_undercount_title",
 		"jp_text": "極討サバイバルランキングの集計中",
-		"tr_text": ""
+		"tr_text": "Tallying Survival Rankings"
 	},
 	{
 		"assign": "sbattle_ranking_undercount_body",
