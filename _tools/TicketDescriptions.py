@@ -55,6 +55,13 @@ chartable = [
 
 # Translate layered wear
 
+layered_file_names = ["Basewear_Female",
+                      "Basewear_Male",
+                      "Innerwear_Female",
+                      "Innerwear_Male",
+                      "Stack_OuterWearF",
+                      "Stack_OuterWearM"]
+
 layered_wear_types = {"In": ["innerwear", "이너웨어", "внутреннюю одежду (In)", "內衣"],
                       "Ba": ["basewear", "베이스웨어", "верхнюю одежду (Ba)", "底衣"],
                       "Se": ["setwear", "세트 웨어", "комплектную одежду (Se)", "套服"],
@@ -327,13 +334,6 @@ def translate_nlayer_desc(item, file_name):
     item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
     
     return 0
-
-layered_file_names = ["Basewear_Female",
-                      "Basewear_Male",
-                      "Innerwear_Female",
-                      "Innerwear_Male",
-                      "NGS_Outer_Female",
-                      "NGS_Outer_Male"]
 
 for name in layered_file_names:
     items_file_name = "Item_" + name + ".txt"
