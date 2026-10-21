@@ -1034,6 +1034,8 @@ json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
 items_file.write("\n")
 items_file.close()
 
+####################################################################################################
+
 # Translate voices
 
 try:
@@ -1416,6 +1418,10 @@ items_file = codecs.open(os.path.join(json_loc, "Item_Stack_Voice.txt"),
 json.dump(items, items_file, ensure_ascii=False, indent="\t", sort_keys=False)
 items_file.write("\n")
 items_file.close()
+
+####################################################################################################
+
+# Translate other things
 
 # JP text: 
     # マグの見た目を変更するデバイス。
