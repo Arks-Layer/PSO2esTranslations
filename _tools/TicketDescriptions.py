@@ -385,7 +385,8 @@ cosmetic_file_names = [
     "Stack_MotionChange",
     "Stack_Stamp",
     "Stack_Sticker",
-    "Stack_Tooth"
+    "Stack_Tooth",
+    "Stack_Vital_Gauge"
     ]
 
 cosmetic_types = {
@@ -402,7 +403,8 @@ cosmetic_types = {
     "Stack_MotionChange": ["motion", "모션", "движение", "行動方式"],
     "Stack_Stamp": ["stamp", "스탬프", "штамп", "表情圖"],
     "Stack_Sticker": ["sticker", "스티커", "стикер", "貼紙"],
-    "Stack_Tooth": ["teeth and tongue\nset", "치아/혀", "зубы и язык", "牙齒、舌頭"]
+    "Stack_Tooth": ["teeth and tongue\nset", "치아/혀", "зубы и язык", "牙齒、舌頭"],
+    "Stack_Vital_Gauge": ["Vital Gauge BG", "", "", ""]
     }
 
 # JP text: 
