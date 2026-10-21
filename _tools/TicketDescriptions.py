@@ -230,7 +230,7 @@ def translate_layer_desc(item, file_name):
             item_name = item["tr_text"]
     
     # Description already present, leave it alone
-    if item["tr_explain"] != "" and REDO_ALL == False:
+    if REDO_ALL == False and item["tr_explain"] != "":
         return -2
 
     # Some items are locked to one sex or the other.
@@ -292,7 +292,7 @@ def translate_nlayer_desc(item, file_name):
             item_name = item["tr_text"]
 
     # Description already present, leave it alone
-    if item["tr_explain"] != "" and REDO_ALL == False:
+    if REDO_ALL == False and item["tr_explain"] != "":
         return -2
 
     # Some basewears partially synchronise their colour with your innerwear
@@ -534,7 +534,7 @@ def translate_cosmetic_desc(item, file_name):
             item_name = item["tr_text"]
 
     # Description already present, leave it alone
-    if item["tr_explain"] != "" and REDO_ALL == False:
+    if REDO_ALL == False and item["tr_explain"] != "":
         return -2
 
     # Exception for "no sticker" sticker
@@ -614,7 +614,7 @@ def translate_ncosmetic_desc(item, file_name):
         return -1
 
     # Description already present, leave it alone
-    if item["tr_explain"] != "" and REDO_ALL == False:
+    if REDO_ALL == False and item["tr_explain"] != "":
         return -2
     
     # Sort the description format
@@ -979,7 +979,7 @@ def translate_la_desc(item):
             item_name = item["tr_text"]
 
     # Description already present, leave it alone
-    if item["tr_explain"] != "" and REDO_ALL == False:
+    if REDO_ALL == False and item["tr_explain"] != "":
         return -2
 
     # Figure out what extra stuff to put at the end of the description
@@ -1308,7 +1308,7 @@ def translate_voice(item):
             return -1
     
     # Description already present, leave it alone
-    if (item["tr_explain"] != "" and REDO_ALL == False
+    if (REDO_ALL == False and item["tr_explain"] != ""
           # Catch old format descriptions that keep creeping in somehow.
           and "Salon" not in item["tr_explain"]): 
         return -2
@@ -1458,7 +1458,7 @@ def translate_cosmeticsorted_desc(item, file_name):
             item_name = item["tr_text"]
     
     # Description already present, leave it alone
-    if item["tr_explain"] != "" and REDO_ALL == False:
+    if REDO_ALL == False and item["tr_explain"] != "":
         return -2
 
     # Sort the description format
@@ -1528,7 +1528,7 @@ def translate_ncosmeticsorted_desc(item, file_name):
             item_name = item["tr_text"]
     
     # Description already present, leave it alone
-    if item["tr_explain"] != "" and REDO_ALL == False:
+    if REDO_ALL == False and item["tr_explain"] != "":
         return -2
 
     # Sort the type.
