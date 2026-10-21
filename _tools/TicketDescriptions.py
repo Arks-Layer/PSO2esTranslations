@@ -373,6 +373,7 @@ for name in layered_file_names:
 
 cosmetic_file_names = [
     "Stack_Accessory",
+    "Stack_Arkscard_BG",
     "Stack_BodyPaint",
     "Stack_Ear",
     "Stack_Eye",
@@ -389,6 +390,7 @@ cosmetic_file_names = [
 
 cosmetic_types = {
     "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
+    "Stack_Arkscard_BG": ["background for your ARKS\nCard", "", "", ""],
     "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
     "Stack_Ear": ["ear shape", "귀", "форма ушей", "耳朵"],
     "Stack_Eye": ["eye pattern", "눈동자", "глаза", "瞳孔"],
