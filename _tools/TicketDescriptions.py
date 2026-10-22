@@ -178,6 +178,19 @@ ngs_locks = ["※Not available in [PSO2] Blocks.",
              "※Нельзя использовать в блоке PSO2",
              "※不適用於『PSO2』"]
 
+# JP text:
+    # 武器装備反映／\n
+    # 『PSO2』ブロック非対応
+weapon_ngs_locks = ["※Shows equipped weapons.\n"
+                    "Not available in [PSO2] Blocks.",
+                    "※지원 기능: 무기 장비 반영\n"
+                    "『PSO2』블록 비대응",
+                    "※Показывает экип-е оружие.\n"
+                    "Нельзя использовать в блоке PSO2",
+                    "※適用功能：顯示裝備武器\n"
+                    "不適用於『PSO2』"
+                    ]
+
 # JP text: 
     # ※一部の顔、ヘッドパーツ非対応
 ngsface_locks = ["※Not compatible with some heads/faces.",
@@ -631,10 +644,14 @@ def translate_ncosmetic_desc(item, file_name):
     hideinner = False
     if "着用時はインナーが非表示になります。" in item["jp_explain"]:
         hideinner = True
-    
-    # Some items are not supported in the PSO2 blocks.
+
+    # Some items show weapons and can't be used in PSO2 blocks.
+    # Others don't but still can't be used in PSO2 blocks.
+    ngslockedweapon = False
     ngslocked = False
-    if "『PSO2』ブロック非対応" in item["jp_explain"]:
+    if "武器装備反映／\n『PSO2』ブロック非対応" in item["jp_explain"]:
+        ngslockedweapon = True
+    elif "『PSO2』ブロック非対応" in item["jp_explain"]:
         ngslocked = True
     
     # Some ngs items cannot be used on PSO2 face patterns.
@@ -651,7 +668,7 @@ def translate_ncosmetic_desc(item, file_name):
         a = "a ",
         typelock = "" if types == "a" else "\n<yellow>※{0}{1}<c>".format(ntype_statements[LANG], ntype_locks[types][LANG]),
         hidepanties = "\n<yellow>" + layer_hide_inners[LANG] + "<c>" if hideinner == True else "",
-        ngslock = "\n<yellow>" + ngs_locks[LANG] + "<c>"  if ngslocked == True else "",
+        ngslock = "\n<yellow>" + weapon_ngs_locks[LANG] + "<c>" if ngslockedweapon == True else "\n<yellow>" + ngs_locks[LANG] + "<c>" if ngslocked == True else "",
         ngsfacelock = "\n<yellow>" + ngsface_locks[LANG] + "<c>" if ngsfacelocked == True else "")
 
     item["tr_explain"] = item["tr_explain"].translate(chartable[LANG])
