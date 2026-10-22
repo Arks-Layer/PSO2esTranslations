@@ -445,7 +445,7 @@
 		"jp_text": "BP「スペース内テレポーター」",
 		"tr_text": "BP \"Space Teleporter\"",
 		"jp_explain": "アクセスすると\n対応する番号のテレポーターに\n移動できるビルドパーツ。",
-		"tr_explain": "This Build Part can be accessed\nto teleport to another teleporter\nwith a matching ID."
+		"tr_explain": "This Build Part can be accessed\nto teleport to another Teleporter\nwith a matching ID."
 	},
 	{
 		"assign": "397010083",
@@ -480,14 +480,14 @@
 		"jp_text": "BP「テキスト演出キューブ」",
 		"tr_text": "BP \"Text Display Cube\"",
 		"jp_explain": "コネクトを受信すると\n設定したテキスト演出を再生する\nビルドパーツ。",
-		"tr_explain": "When this Build Part receives a signal,\nIt displays a set text string."
+		"tr_explain": "When this Build Part receives a signal,\nit displays a set text string."
 	},
 	{
 		"assign": "397010088",
 		"jp_text": "BP「サウンドキューブ」",
 		"tr_text": "BP \"Sound Cube\"",
 		"jp_explain": "コネクトを受信すると\n設定したサウンドを再生する\nビルドパーツ。",
-		"tr_explain": "When this Build Part receives a signal,\nIt plays a specific sound effect."
+		"tr_explain": "When this Build Part receives a signal,\nit plays a specified sound effect."
 	},
 	{
 		"assign": "397010089",
@@ -522,7 +522,7 @@
 		"jp_text": "BP「サウンドキューブB」",
 		"tr_text": "BP \"Sound Cube B\"",
 		"jp_explain": "コネクトを受信すると\n設定したサウンドを再生する\nビルドパーツ。",
-		"tr_explain": "When this Build Part receives a signal,\nIt plays a specific sound effect."
+		"tr_explain": "When this Build Part receives a signal,\nit plays a specified sound effect."
 	},
 	{
 		"assign": "397010097",
@@ -1005,14 +1005,14 @@
 		"jp_text": "BP「クヴァル：チェアB」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397010185",
 		"jp_text": "BP「クヴァル：チェアC」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397010186",
@@ -1054,14 +1054,14 @@
 		"jp_text": "BP「クヴァル：ベッド」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto lie down on it."
 	},
 	{
 		"assign": "397010192",
 		"jp_text": "BP「クヴァル：ソファ」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397010193",
@@ -1159,7 +1159,7 @@
 		"jp_text": "BP「アイテムコンテナ[金]」",
 		"tr_text": "BP \"Item Container [Gold]\"",
 		"jp_explain": "攻撃すると\n破壊できるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be destroyed\nby attacking it."
 	},
 	{
 		"assign": "397010213",
@@ -1516,21 +1516,21 @@
 		"jp_text": "BP「チームコマンド端末」",
 		"tr_text": "BP \"Team Command Terminal\"",
 		"jp_explain": "アクセスすると\nチームコマンドを操作できる\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto open the Team Commands Menu."
 	},
 	{
 		"assign": "397010300",
 		"jp_text": "BP「チーム掲示板」",
 		"tr_text": "BP \"Team Bulletin Board\"",
 		"jp_explain": "アクセスすると\nチーム掲示板を操作できる\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto open the Team Bulletin Board."
 	},
 	{
 		"assign": "397010301",
 		"jp_text": "BP「チームスペース端末」",
 		"tr_text": "BP \"Team Space Terminal\"",
 		"jp_explain": "アクセスすると\nチームスペースメニューを操作できる\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto open the Team Space Menu."
 	},
 	{
 		"assign": "397010302",
@@ -1824,7 +1824,7 @@
 		"jp_text": "BP「ワフウ：布団」",
 		"tr_text": "BP \"Japanese: Futon\"",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto lie down on it."
 	},
 	{
 		"assign": "397010344",
@@ -2629,7 +2629,7 @@
 		"jp_text": "BP「チームマグ」",
 		"tr_text": "BP \"Team Mag\"",
 		"jp_explain": "アクセスしてジェネシスポイントを\n使用すると、ブーストを発生させられる\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto spend Genesis Points to\ntrigger various boost effects."
 	},
 	{
 		"assign": "397010460",
@@ -2972,7 +2972,7 @@
 		"jp_text": "BP「エアFUJIYAMA」",
 		"tr_text": "BP \"Air FUJIYAMA\"",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397010512",
@@ -3875,7 +3875,7 @@
 		"jp_text": "BP「たっぷり魚介のパエリア」",
 		"tr_text": "BP \"Seafood Paella\"",
 		"jp_explain": "アクセスすると\n開閉できるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto open and close it."
 	},
 	{
 		"assign": "397010644",
@@ -4099,7 +4099,7 @@
 		"jp_text": "BP「ラインストライク対戦台」",
 		"tr_text": "BP \"Line Strike Battle Station\"",
 		"jp_explain": "アクセスすると\nラインストライクで\n対戦できるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto engage in a Line Strike Duel."
 	},
 	{
 		"assign": "397010676",
@@ -4148,7 +4148,7 @@
 		"jp_text": "BP「転移門」",
 		"tr_text": "BP \"Transition Gate\"",
 		"jp_explain": "アクセスすると\n対応する番号の転移門に\n移動できるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto teleport to another Transition\nGate with a matching ID."
 	},
 	{
 		"assign": "397010683",
@@ -4302,7 +4302,7 @@
 		"jp_text": "BP「リンクテレポーター」",
 		"tr_text": "BP \"Link Teleporter\"",
 		"jp_explain": "アクセスすると\n登録したクリエイティブスペースに\n移動できるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto teleport to another specified\nCreative Space."
 	},
 	{
 		"assign": "397010707",
@@ -4344,7 +4344,7 @@
 		"jp_text": "BP「テレポートゲート」",
 		"tr_text": "BP \"Teleport Gate\"",
 		"jp_explain": "アクセスすると\n開閉できるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto open and close it."
 	},
 	{
 		"assign": "397010713",
@@ -4512,7 +4512,7 @@
 		"jp_text": "BP「ラインストライク対戦台/2」",
 		"tr_text": "BP \"Line Strike Battle Station/2\"",
 		"jp_explain": "アクセスすると\nラインストライクで\n対戦できるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto engage in a Line Strike Duel."
 	},
 	{
 		"assign": "397010737",
@@ -4666,7 +4666,7 @@
 		"jp_text": "BP「ビーチチェア」",
 		"tr_text": "BP \"Beach Chair\"",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": "This Build Part can be accessed\nto sit on it."
+		"tr_explain": "This Build Part can be accessed\nto lie down on it."
 	},
 	{
 		"assign": "397010759",
@@ -4897,14 +4897,14 @@
 		"jp_text": "BP「ウォータースペース：立方体」",
 		"tr_text": "BP \"Water Space: Cube\"",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be swum in\nif entered through its top face."
 	},
 	{
 		"assign": "397010794",
 		"jp_text": "BP「ウォータースペース：円柱」",
 		"tr_text": "BP \"Water Space: Cylinder\"",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be swum in\nif entered through its top face."
 	},
 	{
 		"assign": "397010795",
@@ -6080,14 +6080,14 @@
 		"jp_text": "BP「ウォータースペース：立方体B」",
 		"tr_text": "",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be swum in\nif entered through its top face."
 	},
 	{
 		"assign": "397010964",
 		"jp_text": "BP「ウォータースペース：円柱B」",
 		"tr_text": "",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be swum in\nif entered through its top face."
 	},
 	{
 		"assign": "397010965",
@@ -6584,7 +6584,7 @@
 		"jp_text": "BP「ネムレス：ベンチ」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397011036",
@@ -6654,7 +6654,7 @@
 		"jp_text": "BP「ブロックベース：クレーン」",
 		"tr_text": "BP \"Block Base: Crane\"",
 		"jp_explain": "コネクトを受信すると\nクレーンを操作できる\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "When this Build Part receives a signal,\nits crane arm moves around."
 	},
 	{
 		"assign": "397011046",
@@ -6710,14 +6710,14 @@
 		"jp_text": "BP「ウォータースペース：立方体C」",
 		"tr_text": "",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be swum in\nif entered through its top face."
 	},
 	{
 		"assign": "397011054",
 		"jp_text": "BP「ウォータースペース：円柱C」",
 		"tr_text": "",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be swum in\nif entered through its top face."
 	},
 	{
 		"assign": "397011055",
@@ -6843,7 +6843,7 @@
 		"jp_text": "BP「エレガントチェアC」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397011073",
@@ -6864,14 +6864,14 @@
 		"jp_text": "BP「エレガントベッドC」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto lie down on it."
 	},
 	{
 		"assign": "397011076",
 		"jp_text": "BP「エレガントベンチC」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397011077",
@@ -6913,7 +6913,7 @@
 		"jp_text": "BP「ノダテB」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397011083",
@@ -7081,14 +7081,14 @@
 		"jp_text": "BP「ウォータースペース：立方体D」",
 		"tr_text": "",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be swum in\nif entered through its top face."
 	},
 	{
 		"assign": "397011110",
 		"jp_text": "BP「ウォータースペース：円柱D」",
 		"tr_text": "",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be swum in\nif entered through its top face."
 	},
 	{
 		"assign": "397011111",
@@ -7270,7 +7270,7 @@
 		"jp_text": "BP「リゾートベッドB」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto lie down on it."
 	},
 	{
 		"assign": "397011137",
@@ -7284,7 +7284,7 @@
 		"jp_text": "BP「リゾートチェアB」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397011139",
@@ -7298,7 +7298,7 @@
 		"jp_text": "BP「リゾートソファB」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397011141",
@@ -7326,7 +7326,7 @@
 		"jp_text": "BP「リゾートロングチェアB」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto lie down on it."
 	},
 	{
 		"assign": "397011145",
@@ -7795,14 +7795,14 @@
 		"jp_text": "BP「ウォータースペース：立方体E」",
 		"tr_text": "",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be swum in\nif entered through its top face."
 	},
 	{
 		"assign": "397011212",
 		"jp_text": "BP「ウォータースペース：円柱E」",
 		"tr_text": "",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be swum in\nif entered through its top face."
 	},
 	{
 		"assign": "397011213",
@@ -8012,7 +8012,7 @@
 		"jp_text": "BP「ビンテージベッドB」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto lie down on it."
 	},
 	{
 		"assign": "397011243",
@@ -8026,14 +8026,14 @@
 		"jp_text": "BP「ビンテージチェアB」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397011245",
 		"jp_text": "BP「ビンテージソファB」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397011246",
@@ -8341,7 +8341,7 @@
 		"jp_text": "BP「ナイトクラブチェアC」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397011291",
@@ -8355,14 +8355,14 @@
 		"jp_text": "BP「ナイトクラブベッドC」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto lie down on it."
 	},
 	{
 		"assign": "397011293",
 		"jp_text": "BP「ナイトクラブソファC」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397011294",
@@ -8404,7 +8404,7 @@
 		"jp_text": "BP「コフィンベッドB」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto lie down on it."
 	},
 	{
 		"assign": "397011300",
@@ -8677,7 +8677,7 @@
 		"jp_text": "BP「ネオネム：ベンチ」",
 		"tr_text": "",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "This Build Part can be accessed\nto sit on it."
 	},
 	{
 		"assign": "397011342",
