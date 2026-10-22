@@ -15247,7 +15247,7 @@
 	{
 		"assign": "sns_dialog_10_b",
 		"jp_text": "Twitter連動出来ませんでした",
-		"tr_text": "Twitter linking failed."
+		"tr_text": "Twitter/X linking failed."
 	},
 	{
 		"assign": "sns_post_message",
@@ -24567,12 +24567,12 @@
 	{
 		"assign": "survival_quest_name",
 		"jp_text": "極討サバイバル（総合）",
-		"tr_text": ""
+		"tr_text": "Extreme Survival (Combined)"
 	},
 	{
 		"assign": "survival_quest_max_score_name",
 		"jp_text": "極討サバイバル（最大）",
-		"tr_text": ""
+		"tr_text": "Extreme Survival (Max)"
 	},
 	{
 		"assign": "survival_quest_name_not_type",
@@ -24587,12 +24587,12 @@
 	{
 		"assign": "survival_quest_total",
 		"jp_text": "【討】",
-		"tr_text": ""
+		"tr_text": "[Battle]"
 	},
 	{
 		"assign": "survival_quest_max",
 		"jp_text": "【極】",
-		"tr_text": ""
+		"tr_text": "[Extreme]"
 	},
 	{
 		"assign": "sb_reward_dialog_t",
@@ -24817,7 +24817,7 @@
 	{
 		"assign": "survival_end_time",
 		"jp_text": "{0} メンテまで",
-		"tr_text": ""
+		"tr_text": "Maintenance: {0}"
 	},
 	{
 		"assign": "survival_ranking_exits_dialog_title",
@@ -24827,22 +24827,22 @@
 	{
 		"assign": "survival_max_score_ranking_exits_dialog_title",
 		"jp_text": "最大スコアランキング確定",
-		"tr_text": ""
+		"tr_text": "Finalized Maximum Ranking Scores"
 	},
 	{
 		"assign": "auto_rematch_setting_button_on",
 		"jp_text": "自動再戦：ON",
-		"tr_text": ""
+		"tr_text": "Auto-Rematch: ON"
 	},
 	{
 		"assign": "auto_rematch_setting_button_off",
 		"jp_text": "自動再戦：OFF",
-		"tr_text": ""
+		"tr_text": "Auto-Rematch: OFF"
 	},
 	{
 		"assign": "auto_rematch_setting_window_title",
 		"jp_text": "自動再戦設定",
-		"tr_text": ""
+		"tr_text": "Auto-Rematch Settings"
 	},
 	{
 		"assign": "auto_rematch_setting_window_detail",
@@ -24852,17 +24852,17 @@
 	{
 		"assign": "auto_rematch_setting_window_on_off_title",
 		"jp_text": "自動で再戦",
-		"tr_text": ""
+		"tr_text": "Automatic Rematch"
 	},
 	{
 		"assign": "auto_rematch_setting_window_on",
 		"jp_text": "ON",
-		"tr_text": ""
+		"tr_text": "Enable"
 	},
 	{
 		"assign": "auto_rematch_setting_window_off",
 		"jp_text": "OFF",
-		"tr_text": ""
+		"tr_text": "Disable"
 	},
 	{
 		"assign": "auto_rematch_setting_window_type_title",
@@ -24877,47 +24877,47 @@
 	{
 		"assign": "auto_rematch_setting_window_one",
 		"jp_text": "１人",
-		"tr_text": ""
+		"tr_text": "1P"
 	},
 	{
 		"assign": "auto_rematch_setting_window_rematch_count",
 		"jp_text": "最大再戦回数",
-		"tr_text": ""
+		"tr_text": "Number of Rematches"
 	},
 	{
 		"assign": "auto_rematch_setting_window_max",
 		"jp_text": "最大",
-		"tr_text": ""
+		"tr_text": "Max"
 	},
 	{
 		"assign": "auto_rematch_setting_window_count",
 		"jp_text": "回",
-		"tr_text": ""
+		"tr_text": "x"
 	},
 	{
 		"assign": "auto_rematch_setting_window_save",
 		"jp_text": "保存する",
-		"tr_text": ""
+		"tr_text": "Save"
 	},
 	{
 		"assign": "auto_rematch_setting_window_check_title",
 		"jp_text": "自動再戦開始確認",
-		"tr_text": ""
+		"tr_text": "Confirm Auto-Rematch"
 	},
 	{
 		"assign": "auto_rematch_setting_window_check_detail",
 		"jp_text": "変更した設定は保存されません。\nよろしいですか？",
-		"tr_text": ""
+		"tr_text": "Changes will not be saved.\nProceed?"
 	},
 	{
 		"assign": "auto_rematch_setting_window_check_detail_save",
 		"jp_text": "自動再戦を開始します。\nよろしいですか？\n\n※中断したい場合は「自動再戦：ON」の\n　　ボタンを押してください。",
-		"tr_text": ""
+		"tr_text": "Auto-Rematch will begin.\nProceed?\n\n※To pause, press the \"Auto-Rematch: ON\" button."
 	},
 	{
 		"assign": "auto_rematch_not_clear_quest_dialog_title",
 		"jp_text": "自動再戦設定",
-		"tr_text": ""
+		"tr_text": "Auto-Rematch Settings"
 	},
 	{
 		"assign": "auto_rematch_not_clear_quest_dialog_message",
@@ -24927,87 +24927,87 @@
 	{
 		"assign": "auto_rematch_result_wait_time",
 		"jp_text": "自動再戦まで <color=#ffff00>{0}秒</color>",
-		"tr_text": ""
+		"tr_text": "Auto-Rematch: in <color=#ffff00>{0}(s)</color>"
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_title",
 		"jp_text": "自動再戦終了",
-		"tr_text": ""
+		"tr_text": "Auto-Rematch Complete"
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_acceptbox_button",
 		"jp_text": "受け取りボックスへ",
-		"tr_text": ""
+		"tr_text": "Send to Inbox"
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_close_button",
 		"jp_text": "閉じる",
-		"tr_text": ""
+		"tr_text": "Close"
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_message",
 		"jp_text": "以下の条件を満たしたため、自動再戦を終了しました。",
-		"tr_text": ""
+		"tr_text": "Conditions satisfied: Auto-Rematch ended."
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_short_drive_message",
 		"jp_text": "・行動力不足",
-		"tr_text": ""
+		"tr_text": "- Insufficient Drive"
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_short_ex_drive_message",
 		"jp_text": "・OP不足",
-		"tr_text": ""
+		"tr_text": "- Insufficient OP"
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_acceptbox_message",
 		"jp_text": "・受け取りボックス上限",
-		"tr_text": ""
+		"tr_text": "- Inbox Full"
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_rematch_count_message",
 		"jp_text": "・最大再戦回数（{0}回）到達",
-		"tr_text": ""
+		"tr_text": "- Reached Max Rematches:  {0} matches"
 	},
 	{
 		"assign": "auto_rematch_result_finish_dialog_friendship_message",
 		"jp_text": "・{0}枚のチップが\r外伝解放・絆ゲージMAX",
-		"tr_text": ""
+		"tr_text": "- Unlock: Side Story/Bond Gauge MAX of {0} Chips"
 	},
 	{
 		"assign": "auto_rematch_dialog_t_01",
 		"jp_text": "自動再戦終了確認",
-		"tr_text": ""
+		"tr_text": "Auto-Rematch Completed"
 	},
 	{
 		"assign": "auto_rematch_dialog_b_01",
 		"jp_text": "自動再戦を終了しますか？\n",
-		"tr_text": ""
+		"tr_text": "Halt Auto-Rematch?\n"
 	},
 	{
 		"assign": "fieldoption_category_auto_rematch",
 		"jp_text": "自動再戦設定",
-		"tr_text": ""
+		"tr_text": "Auto-Rematch Settings"
 	},
 	{
 		"assign": "btl_menu_btn_auto_rematch",
 		"jp_text": "自動再戦設定",
-		"tr_text": ""
+		"tr_text": "Auto-Rematch Settings"
 	},
 	{
 		"assign": "loginbonus_pudding",
 		"jp_text": "ジェネの手作りプリン<%puding>個",
-		"tr_text": ""
+		"tr_text": "<%puding>x Gene's Homemade Pudding"
 	},
 	{
 		"assign": "acshop_oprecovery_pass_buff_06",
 		"jp_text": "・<color=#ffa500>所持サポートポイント</color>が<% point>ptアップ！\n※所持サポートポイントは\n   発生している効果１つにつき200ptアップします。",
-		"tr_text": ""
+		"tr_text": "・Your <color=#ffa500>Support Points</color> increased by <% point>pts!\n※With each active effect,\nyour Support Points will increase by 200pts."
 	},
 	{
 		"assign": "acshop_oprecovery_pass_buff_update_06",
 		"jp_text": "・<color=#ffa500>所持サポートポイント</color>が200ptアップ！\n※所持サポートポイントは\n   発生している効果１つにつき200ptアップします。",
-		"tr_text": ""
+		"tr_text": "・Your <color=#ffa500>Support Points</color> increased by 200pts!\n※With each active effect,\nyour Support Points will increase by 200pts."
 	},
 	{
 		"assign": "scratch_bonus_window_stage_one",
@@ -25032,7 +25032,7 @@
 	{
 		"assign": "player_info_window_ranking_title",
 		"jp_text": "ランキング称号",
-		"tr_text": ""
+		"tr_text": "Ranking Titles"
 	},
 	{
 		"assign": "player_info_window_goto_ranking_btn",
@@ -25232,27 +25232,27 @@
 	{
 		"assign": "accept_box_item_trade_exclusion_check_dialog_message_requestnum",
 		"jp_text": "対象:{0}個",
-		"tr_text": ""
+		"tr_text": "Quantity: x{0}"
 	},
 	{
 		"assign": "accept_box_item_trade_exclusion_check_dialog_message_trade_button",
 		"jp_text": "交換する",
-		"tr_text": ""
+		"tr_text": "Recycle"
 	},
 	{
 		"assign": "accept_box_item_trade_exclusion_check_dialog_message_close_button",
 		"jp_text": "閉じる",
-		"tr_text": ""
+		"tr_text": "Close"
 	},
 	{
 		"assign": "accept_box_item_trade_exclusion_check_dialog_message_setting_button",
 		"jp_text": "保護設定",
-		"tr_text": ""
+		"tr_text": "Exclusions"
 	},
 	{
 		"assign": "accept_box_item_trade_check_dialog_title",
 		"jp_text": "一括交換確認",
-		"tr_text": ""
+		"tr_text": "Batch Exchange"
 	},
 	{
 		"assign": "accept_box_item_trade_check_dialog_message",
@@ -25262,7 +25262,7 @@
 	{
 		"assign": "accept_box_item_trade_finish_dialog_title",
 		"jp_text": "一括交換完了",
-		"tr_text": ""
+		"tr_text": "Completed"
 	},
 	{
 		"assign": "accept_box_item_trade_finish_dialog_message",
@@ -25272,22 +25272,22 @@
 	{
 		"assign": "accept_box_item_trade_exclusion_button",
 		"jp_text": "保護設定",
-		"tr_text": ""
+		"tr_text": "Exclusions"
 	},
 	{
 		"assign": "accept_box_item_trade_button",
 		"jp_text": "一括交換",
-		"tr_text": ""
+		"tr_text": "Batch Exchange"
 	},
 	{
 		"assign": "accept_box_item_trade_recycle_button",
 		"jp_text": "交換する",
-		"tr_text": ""
+		"tr_text": "Exchange"
 	},
 	{
 		"assign": "acceptbpx_item_trade_over_dialog_title",
 		"jp_text": "交換不可",
-		"tr_text": ""
+		"tr_text": "Not Tradable"
 	},
 	{
 		"assign": "acceptbpx_item_trade_over_dialog_chip_over",
@@ -25307,7 +25307,7 @@
 	{
 		"assign": "trade_item_search_dialog_title",
 		"jp_text": "交換アイテム検索",
-		"tr_text": ""
+		"tr_text": "Search for Trade Items"
 	},
 	{
 		"assign": "trade_item_search_dialog_message",
@@ -25317,67 +25317,67 @@
 	{
 		"assign": "trade_item_search_dialog_search_button",
 		"jp_text": "検索する",
-		"tr_text": ""
+		"tr_text": "Search"
 	},
 	{
 		"assign": "trade_item_search_dialog_close_button",
 		"jp_text": "やめる",
-		"tr_text": ""
+		"tr_text": "Close"
 	},
 	{
 		"assign": "trade_item_search_dialog_weapon",
 		"jp_text": "武器",
-		"tr_text": ""
+		"tr_text": "Weapons"
 	},
 	{
 		"assign": "trade_item_search_dialog_unit",
 		"jp_text": "ユニット",
-		"tr_text": ""
+		"tr_text": "Units"
 	},
 	{
 		"assign": "trade_item_search_dialog_grind_release_chip",
 		"jp_text": "強化・解放チップ",
-		"tr_text": ""
+		"tr_text": "Enhance/Unlock Chips"
 	},
 	{
 		"assign": "trade_item_search_dialog_awake_chip",
 		"jp_text": "特装素材チップ",
-		"tr_text": ""
+		"tr_text": "Special Material Chips"
 	},
 	{
 		"assign": "trade_item_search_dialog_weaponoid_chip",
 		"jp_text": "ウェポノイドチップ",
-		"tr_text": ""
+		"tr_text": "Weaponoid Chips"
 	},
 	{
 		"assign": "trade_item_search_dialog_chara_chip",
 		"jp_text": "キャラチップ",
-		"tr_text": ""
+		"tr_text": "Character Chips"
 	},
 	{
 		"assign": "trade_item_search_dialog_etc_chip",
 		"jp_text": "その他チップ",
-		"tr_text": ""
+		"tr_text": "Other Chips"
 	},
 	{
 		"assign": "trade_item_search_dialog_pso2_item",
 		"jp_text": "PSO2アイテム",
-		"tr_text": ""
+		"tr_text": "PSO2 Items"
 	},
 	{
 		"assign": "trade_item_search_dialog_etc_item",
 		"jp_text": "その他アイテム",
-		"tr_text": ""
+		"tr_text": "Other Items"
 	},
 	{
 		"assign": "trade_item_search_result_dialog_title",
 		"jp_text": "検索結果",
-		"tr_text": ""
+		"tr_text": "Search Results"
 	},
 	{
 		"assign": "delete_account_dialog_title",
 		"jp_text": "アカウント削除機能",
-		"tr_text": ""
+		"tr_text": "Delete Account"
 	},
 	{
 		"assign": "delete_account_dialog_message",
@@ -25527,17 +25527,17 @@
 	{
 		"assign": "sbattle_ranking_undercount_body",
 		"jp_text": "ランキング報酬の受け取り期間\n\n　受け取り開始　<%StartTime>\n　受け取り終了　<%EndTime>",
-		"tr_text": ""
+		"tr_text": "Ranking Reward Claim Period:\n\nStart Period: <%StartTime>\nEnd Period: <%EndTime>"
 	},
 	{
 		"assign": "sbattle_ranking_receive_reward_linetext",
 		"jp_text": "参加したイベントのランキング報酬が「受け取りボックス」へ配付されました",
-		"tr_text": ""
+		"tr_text": "Rewards have been sent to your \"Inbox\"."
 	},
 	{
 		"assign": "duplicate_recipt_dialog_title",
 		"jp_text": "エラー",
-		"tr_text": ""
+		"tr_text": "Error"
 	},
 	{
 		"assign": "duplicate_recipt_dialog_message",
@@ -25547,27 +25547,27 @@
 	{
 		"assign": "window_privacy_policy_show_button",
 		"jp_text": "プライバシーポリシーを確認",
-		"tr_text": ""
+		"tr_text": "Review Privacy Policy"
 	},
 	{
 		"assign": "window_puchase_lock_dialog_title",
 		"jp_text": "エラー",
-		"tr_text": ""
+		"tr_text": "Error"
 	},
 	{
 		"assign": "window_puchase_lock_dialog_message",
 		"jp_text": "ACチャージ機能が制限されています。",
-		"tr_text": ""
+		"tr_text": "AC Purchasing is now locked."
 	},
 	{
 		"assign": "title_chara_linked_pso2_ship_transfer",
 		"jp_text": "<color=#ffff00>シップ移動中</color>",
-		"tr_text": ""
+		"tr_text": "<color=#ffff00>Ship Transfer</color>"
 	},
 	{
 		"assign": "title_chara_linked_pso2_ship_transfer_dialog_title",
 		"jp_text": "シップ移動中",
-		"tr_text": ""
+		"tr_text": "Ship Transfer"
 	},
 	{
 		"assign": "title_chara_linked_pso2_ship_transfer_dialog_message",
@@ -25577,37 +25577,37 @@
 	{
 		"assign": "sort_limit_effect",
 		"jp_text": "期間限定効果",
-		"tr_text": ""
+		"tr_text": "Limited-Time Effect"
 	},
 	{
 		"assign": "raid_dps_my_best_normal",
 		"jp_text": "自己ベスト\n（ノーマル）",
-		"tr_text": ""
+		"tr_text": "Personal Best\n(Normal)"
 	},
 	{
 		"assign": "raid_dps_my_best_another",
 		"jp_text": "自己ベスト\n（アナザー）",
-		"tr_text": ""
+		"tr_text": "Personal Best\n(Another)"
 	},
 	{
 		"assign": "raid_dps_ranking_normal",
 		"jp_text": "ノーマル",
-		"tr_text": ""
+		"tr_text": "Normal"
 	},
 	{
 		"assign": "raid_dps_ranking_another",
 		"jp_text": "アナザー",
-		"tr_text": ""
+		"tr_text": "Another"
 	},
 	{
 		"assign": "raid_dps_result_new_record",
 		"jp_text": "アナザーランキングの自己ベストを更新",
-		"tr_text": ""
+		"tr_text": "Set a new PB in the Another Ranking"
 	},
 	{
 		"assign": "photondice_boostdialog_title",
 		"jp_text": "設定する",
-		"tr_text": ""
+		"tr_text": "Settings"
 	},
 	{
 		"assign": "photondice_boostdialog_message",
@@ -25617,27 +25617,27 @@
 	{
 		"assign": "photondice_boostdialog_setting",
 		"jp_text": "設定する",
-		"tr_text": ""
+		"tr_text": "Settings"
 	},
 	{
 		"assign": "photondice_boostdialog_boostnum",
 		"jp_text": "ブースト数",
-		"tr_text": ""
+		"tr_text": "Boosts"
 	},
 	{
 		"assign": "photondice_boostdialog_max",
 		"jp_text": "最大",
-		"tr_text": ""
+		"tr_text": "Max"
 	},
 	{
 		"assign": "photondice_boostdialog_min",
 		"jp_text": "最小",
-		"tr_text": ""
+		"tr_text": "Min"
 	},
 	{
 		"assign": "raid_dps_title_ranking_top_another",
 		"jp_text": "ランキング（アナザー）",
-		"tr_text": ""
+		"tr_text": "Ranking (Another)"
 	},
 	{
 		"assign": "raid_dps_title_ranking_top_normal",
@@ -25647,7 +25647,7 @@
 	{
 		"assign": "photondice_result_boost",
 		"jp_text": "挑戦回数・スペシャルプレイチケットブースト ＋<%value>％",
-		"tr_text": ""
+		"tr_text": "Attempts: Special Play Ticket Boost +<%value>%"
 	},
 	{
 		"assign": "quest_counter_header_dps_another",
