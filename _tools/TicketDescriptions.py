@@ -865,6 +865,15 @@ build_parts_motiondetector = [("When this Build Part detects a specific\n"
                               ("")]
 # JP text:
     # コネクトを受信すると\n
+    # 設定したテキスト演出を再生する\n
+    # ビルドパーツ。
+build_parts_displaytext = [("When this Build Part receives a signal,\n"
+                            "it displays a set text string."),
+                            (""),
+                            (""),
+                            ("")]
+# JP text:
+    # コネクトを受信すると\n
     # 設定したサウンドを再生する\n
     # ビルドパーツ。
 build_parts_soundbox = [("When this Build Part receives a signal,\n"
