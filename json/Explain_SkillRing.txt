@@ -2,611 +2,611 @@
 	{
 		"assign": "1",
 		"jp_text": "マッシブハンター",
-		"tr_text": "Massive Hunter",
+		"tr_text": "매시브 헌터",
 		"jp_explain": "マッシブハンター／リング\nダメージを減少させ、\nさらに打ち上げや吹き飛ばしも防ぐ。",
-		"tr_explain": "Massive Hunter/Ring\nReduces damage taken and\nprevents flinching and knockback."
+		"tr_explain": "매시브 헌터/링\n받는 데미지가 감소하고\n띄우기와 날려버리기도 막는다."
 	},
 	{
 		"assign": "5",
 		"jp_text": "キリングボーナス",
 		"tr_text": "킬링 보너스",
 		"jp_explain": "キリングボーナス／リング\n一定範囲内でエネミーが死亡すると\nＰＰが回復する。",
-		"tr_explain": "Killing Bonus/Ring\nRecovers PP when enemies\ndie within close range."
+		"tr_explain": "킬링 보너스/링\n일정 범위 안에서 적이 죽으면\nPP를 회복한다."
 	},
 	{
 		"assign": "6",
 		"jp_text": "Ｐキーパー打撃",
-		"tr_text": "P Keeper Striking",
+		"tr_text": "P 키퍼 타격",
 		"jp_explain": "パーフェクトキーパー打撃\nＨＰが一定の割合以上のとき\nエネミーへの打撃攻撃のダメージが増加する。",
-		"tr_explain": "Perfect Keeper - Striking\nIncreases striking attack damage\nwhen HP is above a certain level."
+		"tr_explain": "퍼펙트 키퍼 타격\nHP가 일정 비율 이상일 때\n적에게 주는 타격 공격 데미지가 증가한다."
 	},
 	{
 		"assign": "7",
 		"jp_text": "Ｐキーパー射撃",
-		"tr_text": "P Keeper Ranged",
+		"tr_text": "P 키퍼 사격",
 		"jp_explain": "パーフェクトキーパー射撃\nＨＰが一定の割合以上のとき\nエネミーへの射撃攻撃のダメージが増加する。",
-		"tr_explain": "Perfect Keeper - Ranged\nIncreases ranged attack damage\nwhen HP is above a certain level."
+		"tr_explain": "퍼펙트 키퍼 사격\nHP가 일정 비율 이상일 때\n적에게 주는 사격 공격 데미지가 증가한다."
 	},
 	{
 		"assign": "8",
 		"jp_text": "Ｐキーパー法撃",
-		"tr_text": "P Keeper Technique",
+		"tr_text": "P 키퍼 법격",
 		"jp_explain": "パーフェクトキーパー法撃\nＨＰが一定の割合以上のとき\nエネミーへの法撃攻撃のダメージが増加する。",
-		"tr_explain": "Perfect Keeper - Technique\nIncreases Technique attack damage\nwhen HP is above a certain level."
+		"tr_explain": "퍼펙트 키퍼 법격\nHP가 일정 비율 이상일 때\n적에게 주는 법격 공격 데미지가 증가한다."
 	},
 	{
 		"assign": "104",
 		"jp_text": "Ｐキーパー",
-		"tr_text": "P Keeper",
+		"tr_text": "P 키퍼",
 		"jp_explain": "パーフェクトキーパー\nＨＰが一定の割合以上のとき\nエネミーへのダメージが増加する。",
-		"tr_explain": "Perfect Keeper\nIncreases all attack damage\nwhen HP is above a certain level."
+		"tr_explain": "퍼펙트 키퍼\nHP가 일정 비율 이상일 때\n적에게 주는 데미지가 증가한다."
 	},
 	{
 		"assign": "9",
 		"jp_text": "フォトンフレア",
-		"tr_text": "Photon Flare",
+		"tr_text": "포톤 플레어",
 		"jp_explain": "フォトンフレア／リング\n一時的に法撃力を上昇させる。",
-		"tr_explain": "Photon Flare/Ring\nTemporarily increases T-ATK."
+		"tr_explain": "포톤 플레어/링\n일시적으로 법격력을 높인다."
 	},
 	{
 		"assign": "10",
 		"jp_text": "ＰＰコンバート",
-		"tr_text": "PP Convert",
+		"tr_text": "PP 컨버트",
 		"jp_explain": "ＰＰコンバート／リング\n一定時間、ＰＰ自動回復量が上昇し\nＨＰ最大値が減少する。",
-		"tr_explain": "PP Convert/Ring Temporarily\nincreases PP Auto-recovery while\ndecreasing max HP."
+		"tr_explain": "PP 컨버트/링\n일정 시간 PP 자동 회복량이 상승하고\n최대 HP가 감소한다."
 	},
 	{
 		"assign": "11",
 		"jp_text": "アタックアドバンス",
-		"tr_text": "Attack Advance",
+		"tr_text": "어택 어드밴스",
 		"jp_explain": "アタックアドバンス／リング\n通常攻撃の威力が上昇する。",
-		"tr_explain": "Attack Advance/Ring\nIncreases Normal Attack power."
+		"tr_explain": "어택 어드밴스/링\n일반 공격의 위력이 상승한다."
 	},
 	{
 		"assign": "12",
 		"jp_text": "ＥＰＰＲフィールド",
-		"tr_text": "EPPR Field",
+		"tr_text": "EPPR 필드",
 		"jp_explain": "エレメンタルＰＰリストレイトＦ／リング\n自分の周囲に、エネミーの弱点属性で攻撃を当てた\n場合ＰＰ回復量が上昇するフィールドを発生させる。",
-		"tr_explain": "Elemental PP Restore Field/Ring\nCreates a field that boosts PP regen\nwhen you attack matching the\nelemental weakness."
+		"tr_explain": "엘리멘탈 PP 리스토레이트 F/링\n자신의 주변에 적의 약점 속성으로\n공격을 명중시키면 PP 회복량이 상승하는\n필드를 생성한다."
 	},
 	{
 		"assign": "13",
 		"jp_text": "ブーストスレイヤー",
-		"tr_text": "Boost Slayer",
+		"tr_text": "부스트 슬레이어",
 		"jp_explain": "ブーストスレイヤー\nブーストエネミーに対して与える威力がアップし\n受けるダメージが軽減される。",
-		"tr_explain": "Boost Slayer Increases damage\ntowards boosted enemies, and\ndecreases damage from them."
+		"tr_explain": "부스트 슬레이어\n부스트 에너미를 공격할 때 위력이 상승하고\n그 적에게서 받는 데미지가 감소한다."
 	},
 	{
 		"assign": "14",
 		"jp_text": "ＪＧソニックアロウ",
-		"tr_text": "JG Sonic Arrow",
+		"tr_text": "JG 소닉 애로우",
 		"jp_explain": "ＪＧソニックアロウ\nソードでジャストガードを成功させると\nソニックアロウが発動する。",
-		"tr_explain": "Just Guard Sonic Arrow Sonic Arrow\nactivates after a Just Guard when\nusing Sword-type weapons."
+		"tr_explain": "JG 소닉 애로우\n소드로 저스트 가드에 성공하면\n소닉 애로우가 발동한다."
 	},
 	{
 		"assign": "15",
 		"jp_text": "ＪＧヘブンリーＦ",
-		"tr_text": "JG Heavenly F",
+		"tr_text": "JG 헤븐리 F",
 		"jp_explain": "ＪＧヘブンリーフォール\nワイヤードランスでジャストガードを成功させると\nヘブンリーフォールが発動する。",
-		"tr_explain": "Just Guard Heavenly Fall Heavenly\nFall activates after a Just Guard\nwhen using Wired Lance-type\nweapons."
+		"tr_explain": "JG 헤븐리 폴\n와이어드 랜스로\n저스트 가드에 성공하면\n헤븐리 폴이 발동한다."
 	},
 	{
 		"assign": "16",
 		"jp_text": "ＪＧライジングＦ",
-		"tr_text": "JG Rising F",
+		"tr_text": "JG 라이징 F",
 		"jp_explain": "ＪＧライジングフラッグ\nパルチザンでジャストガードを成功させると\nライジングフラッグが発動する。",
-		"tr_explain": "Just Guard Rising Flag Rising Flag\nactivates after a Just Guard when\nusing Partizan-type weapons."
+		"tr_explain": "JG 라이징 플래그\n파르티잔으로 저스트 가드에 성공하면\n라이징 플래그가 발동한다."
 	},
 	{
 		"assign": "17",
 		"jp_text": "ＤＳカマイタチ",
-		"tr_text": "DS Kamaitachi",
+		"tr_text": "DS 카마이타치",
 		"jp_explain": "ダブルセイバーカマイタチ\nダブルセイバーで特定のＰＡを使用すると\n確率で現在のギアに応じたかまいたちが発生する。",
-		"tr_explain": "Double Saber Kamaitachi\nSpecific PA's activate whirlwinds\nwithout using Double Saber Gear."
+		"tr_explain": "더블 세이버 카마이타치\n더블 세이버로 특정 PA를 사용하면\n일정 확률로 현재 기어에 따른 바람 칼날이 발생한다."
 	},
 	{
 		"assign": "18",
 		"jp_text": "ＴＤエアチェイス",
-		"tr_text": "TD Air Chase",
+		"tr_text": "TD 에어 체이스",
 		"jp_explain": "ツインダガーエアチェイス\nツインダガーの空中での通常攻撃と一部のＰＡに\nロックした敵へ近づく挙動が追加される。",
-		"tr_explain": "Twin Dagger Air Chase Normal\nAttacks and certain PAs in the air will\nchase a locked on target."
+		"tr_explain": "트윈 대거 에어 체이스\n트윈 대거의 공중 일반 공격과 일부 PA에\n록온한 적에게 접근하는 동작이 추가된다."
 	},
 	{
 		"assign": "19",
 		"jp_text": "ナックルチェイス",
-		"tr_text": "Knuckle Chase",
+		"tr_text": "너클 체이스",
 		"jp_explain": "ナックルチェイス\nナックルの地上での通常攻撃と一部のＰＡに\nロックした敵へ近づく挙動が追加される。",
-		"tr_explain": "Knuckle Chase Normal Attacks and\ncertain PA's on the ground will chase\nlocked-on enemies."
+		"tr_explain": "너클 체이스\n너클의 지상 일반 공격과 일부 PA에\n록온한 적에게 접근하는 동작이 추가된다."
 	},
 	{
 		"assign": "20",
 		"jp_text": "フロントＳロール",
-		"tr_text": "Front S-Roll",
+		"tr_text": "프론트 S 롤",
 		"jp_explain": "フロントスタイリッシュロール\nツインマシンガンのＳロールが\n前方にも移動可能になる。",
-		"tr_explain": "Front Stylish Roll\nAllows Twin Machineguns to perform\na Stylish Roll forwards."
+		"tr_explain": "프론트 스타일리시 롤\n트윈 머신건의 S 롤로\n앞으로도 이동할 수 있게 된다."
 	},
 	{
 		"assign": "21",
 		"jp_text": "カタナギアガードＲ",
-		"tr_text": "Katana Gear Guard R",
+		"tr_text": "카타나 기어 가드 R",
 		"jp_explain": "カタナギアガードリリース\nカタナでガード状態を維持するとギアが解放される。\nレベルが上がるとギア解放中のギア増加量が上昇。",
-		"tr_explain": "Katana Gear Guard Release Hold\nGuard to force a Gear release.\nDuring this release, Gear empties\nfaster."
+		"tr_explain": "카타나 기어 가드 릴리스\n카타나로 가드 상태를 유지하면 기어가 해방된다.\n레벨이 오르면 기어 해방 중\n기어 증가량이 상승한다."
 	},
 	{
 		"assign": "22",
 		"jp_text": "ＤＢスナッチ",
-		"tr_text": "DB Snatch",
+		"tr_text": "DB 스내치",
 		"jp_explain": "デュアルブレードスナッチ\nデュアルブレードの武器アクションで移動した時\n敵に打撃ダメージを与える挙動が追加される。",
-		"tr_explain": "Dual Blade Snatch Inflicts striking\ndamage to enemies while moving\nusing the Dual Blade Weapon Action."
+		"tr_explain": "듀얼 블레이드 스내치\n듀얼 블레이드의 무기 액션으로 이동할 때\n적에게 타격 데미지를 주는 동작이 추가된다."
 	},
 	{
 		"assign": "23",
 		"jp_text": "テックＣパリング",
-		"tr_text": "Tech Parry Ring",
+		"tr_text": "테크 C 패링",
 		"jp_explain": "テックチャージパリング\nテクニック用武器のテクニックチャージ開始時に\nジャストガードが可能になる。",
-		"tr_explain": "Tech Charge Parry While using a\nteching weapon, you can Just Guard\nby starting to charge a Technique."
+		"tr_explain": "테크 차지 패링\n테크닉용 무기로 테크닉의\n차지를 시작할 때 저스트 가드가 가능해진다."
 	},
 	{
 		"assign": "24",
 		"jp_text": "ＲＲフィールド",
-		"tr_text": "RR Field",
+		"tr_text": "RR 필드",
 		"jp_explain": "リキャストリバーサーフィールド\nリバーサーフィールドのリキャスト時間が軽減される。",
-		"tr_explain": "Recast Reverser Field Reduces\nrecast time of Reverser Field."
+		"tr_explain": "리캐스트 리버서 필드\n리버서 필드의 재사용 대기 시간이 줄어든다."
 	},
 	{
 		"assign": "25",
 		"jp_text": "ハンターギアセイブ",
-		"tr_text": "Hunter Gear Save",
+		"tr_text": "헌터 기어 세이브",
 		"jp_explain": "ハンターギアセイブ\nハンターギアブーストが有効な時\nハンター武器のギア消費量と減少量が軽減される。",
-		"tr_explain": "Hunter Gear Save While Hunter Gear\nBoost is in effect, decreases the rate\nthat Gear empties and is consumed."
+		"tr_explain": "헌터 기어 세이브\n헌터 기어 부스트 효과가 적용 중일 때\n헌터 무기의 기어 소비량과 감소량이 줄어든다."
 	},
 	{
 		"assign": "26",
 		"jp_text": "ハイタイムキープ",
-		"tr_text": "High Time Keep",
+		"tr_text": "하이 타임 킵",
 		"jp_explain": "ハイタイムキープ\nハイタイムが解除されるまでの\nダメージ許容量が増加する。",
-		"tr_explain": "High Time Keep Grants a chance to\nmaintain High Time when you get hit\nonce during Showtime."
+		"tr_explain": "하이 타임 킵\n하이 타임이 해제될 때까지\n견딜 수 있는 데미지 양이 늘어난다."
 	},
 	{
 		"assign": "27",
 		"jp_text": "ショートコンバット",
-		"tr_text": "Short Combat",
+		"tr_text": "숏 컴뱃",
 		"jp_explain": "ショートコンバット\nカタナコンバット使用時\n通常攻撃で敵を追尾する挙動が削除される。",
-		"tr_explain": "Short Combat When using Katana\nCombat, basic attacks no longer\ntrack enemies."
+		"tr_explain": "숏 컴뱃\n카타나 컴뱃 사용 시\n일반 공격으로 적을 추적하는 동작이 사라진다."
 	},
 	{
 		"assign": "31",
 		"jp_text": "ワイドエリアヒール",
-		"tr_text": "Wide Area Heal",
+		"tr_text": "와이드 에어리어 힐",
 		"jp_explain": "ワイドエリアヒール\nＡ．Ｉ．Ｓスキル「エリアヒール」の\n効果範囲が拡大される。",
-		"tr_explain": "Wide Area Heal\nIncreases the range of\nthe A.I.S. skill \"Area Heal\"."
+		"tr_explain": "와이드 에어리어 힐\nA.I.S 스킬 [에어리어 힐]의\n효과 범위가 넓어진다."
 	},
 	{
 		"assign": "32",
 		"jp_text": "クイックブラスター",
-		"tr_text": "Quick Blaster",
+		"tr_text": "퀵 블래스터",
 		"jp_explain": "クイックブラスター\nＡ．Ｉ．Ｓスキル「フォトンブラスター」の\n発動が早くなる代わりに旋回性能が下がる。",
-		"tr_explain": "Quick Blaster The A.I.S. skill \"Photon\nBlaster\" activates faster, but its\nturning speed is reduced."
+		"tr_explain": "퀵 블래스터\nA.I.S 스킬 [포톤 블래스터]가 빨리 발동하는 대신\n선회 성능이 낮아진다."
 	},
 	{
 		"assign": "33",
 		"jp_text": "アーリィライズ",
-		"tr_text": "Early Rise",
+		"tr_text": "얼리 라이즈",
 		"jp_explain": "アーリィライズ\nＡ．Ｉ．Ｓで戦闘不能になってから\n復活するまでの時間を軽減する。",
-		"tr_explain": "Early Rise\nReduces the time that an A.I.S.\nmust wait to be resurrected."
+		"tr_explain": "얼리 라이즈\nA.I.S가 전투 불능이 된 뒤\n부활하기까지의 시간이 짧아진다."
 	},
 	{
 		"assign": "34",
 		"jp_text": "ライトアーマー",
-		"tr_text": "Light Armor",
+		"tr_text": "라이트 아머",
 		"jp_explain": "ライトアーマー\nＡ．Ｉ．Ｓの「ブースト」の消費ＰＰが減少するが\n代わりに被ダメージが上昇する。",
-		"tr_explain": "Light Armor Reduces the PP cost of\nthe A.I.S. Boost, but increases\ndamage taken."
+		"tr_explain": "라이트 아머\nA.I.S의 [부스트] PP 소비량이 감소하지만\n그 대신 받는 데미지가 증가한다."
 	},
 	{
 		"assign": "35",
 		"jp_text": "バーンガード",
-		"tr_text": "Burn Guard",
+		"tr_text": "번 가드",
 		"jp_explain": "バーンガード\n状態異常「バーン」に対する\n耐性を得る。",
-		"tr_explain": "Burn Guard Gives resistance to the\n\"Burn\" status effect."
+		"tr_explain": "번 가드\n상태 이상 [번]에 대한 내성을 얻는다."
 	},
 	{
 		"assign": "36",
 		"jp_text": "フリーズガード",
-		"tr_text": "Freeze Guard",
+		"tr_text": "프리즈 가드",
 		"jp_explain": "フリーズガード\n状態異常「フリーズ」に対する\n耐性を得る。",
-		"tr_explain": "Freeze Guard Gives resistance to the\n\"Freeze\" status effect."
+		"tr_explain": "프리즈 가드\n상태 이상 [프리즈]에 대한 내성을 얻는다."
 	},
 	{
 		"assign": "37",
 		"jp_text": "ショックガード",
-		"tr_text": "Shock Guard",
+		"tr_text": "쇼크 가드",
 		"jp_explain": "ショックガード\n状態異常「ショック」に対する\n耐性を得る。",
-		"tr_explain": "Shock Guard Gives resistance to the\n\"Shock\" status effect."
+		"tr_explain": "쇼크 가드\n상태 이상 [쇼크]에 대한 내성을 얻는다."
 	},
 	{
 		"assign": "38",
 		"jp_text": "ミラージュガード",
-		"tr_text": "Mirage Guard",
+		"tr_text": "미라주 가드",
 		"jp_explain": "ミラージュガード\n状態異常「ミラージュ」に対する\n耐性を得る。",
-		"tr_explain": "Mirage Guard Gives resistance to the\n\"Mirage\" status effect."
+		"tr_explain": "미라주 가드\n상태 이상 [미라주]에 대한 내성을 얻는다."
 	},
 	{
 		"assign": "39",
 		"jp_text": "ポイズンガード",
-		"tr_text": "Poison Guard",
+		"tr_text": "포이즌 가드",
 		"jp_explain": "ポイズンガード\n状態異常「ポイズン」に対する\n耐性を得る。",
-		"tr_explain": "Poison Guard Gives resistance to the\n\"Poison\" status effect."
+		"tr_explain": "포이즌 가드\n상태 이상 [포이즌]에 대한 내성을 얻는다."
 	},
 	{
 		"assign": "40",
 		"jp_text": "パニックガード",
-		"tr_text": "Panic Guard",
+		"tr_text": "패닉 가드",
 		"jp_explain": "パニックガード\n状態異常「パニック」に対する\n耐性を得る。",
-		"tr_explain": "Panic Guard Gives resistance to the\n\"Panic\" status effect."
+		"tr_explain": "패닉 가드\n상태 이상 [패닉]에 대한 내성을 얻는다."
 	},
 	{
 		"assign": "41",
 		"jp_text": "バレットボウホーミング",
-		"tr_text": "Bullet Bow Homing",
+		"tr_text": "불릿 보우 호밍",
 		"jp_explain": "バレットボウホーミング\nバレットボウのチャージ通常攻撃に\n誘導性能が追加される。",
-		"tr_explain": "Bullet Bow Homing\nAdds a homing ability to a\nBullet Bow's charged Normal Attack."
+		"tr_explain": "불릿 보우 호밍\n불릿 보우의 차지 일반 공격에\n유도 성능이 추가된다."
 	},
 	{
 		"assign": "42",
 		"jp_text": "ＪＢエレメンタルキープ",
-		"tr_text": "JB Elemental Keep",
+		"tr_text": "JB 엘리멘탈 킵",
 		"jp_explain": "ジェットブーツエレメンタルキープ\n武器アクションを行っても、属性が破棄されず\n「エレメンタルバースト」も発動しなくなる。",
-		"tr_explain": "Jet Boots Elemental Keep Element is\nkept upon performing a weapon\naction. Elemental Burst is no longer\nactivated."
+		"tr_explain": "제트 부츠 엘리멘탈 킵\n무기 액션을 사용해도\n속성이 사라지지 않고\n엘리멘탈 버스트도 발동하지 않게 된다."
 	},
 	{
 		"assign": "43",
 		"jp_text": "スタンディングサイン",
-		"tr_text": "Standing Sign",
+		"tr_text": "스탠딩 사인",
 		"jp_explain": "スタンディングサイン\n静止した状態の時\n足元にエフェクトが表示される。",
-		"tr_explain": "Standing Sign\nDisplay a visual effect when\nin the \"stationary\" status."
+		"tr_explain": "스탠딩 사인\n정지한 상태일 때\n발밑에 효과가 표시된다."
 	},
 	{
 		"assign": "44",
 		"jp_text": "Ａランチャーモード",
-		"tr_text": "A. Launcher Mode",
+		"tr_text": "A 런처 모드",
 		"jp_explain": "アナザーランチャーモード\nランチャーの通常攻撃の弾道が変化し\n威力が上昇。攻撃範囲も広がる。",
-		"tr_explain": "Another Launcher Mode Changes the\ntrajectory and boosts the power of a\nLauncher's Normal Attack. Attack\nrange is also increased."
+		"tr_explain": "어나더 런처 모드\n런처 일반 공격의 탄도가 바뀌고\n위력이 상승한다.\n공격 범위도 넓어진다."
 	},
 	{
 		"assign": "45",
 		"jp_text": "ショートミラージュ",
-		"tr_text": "Short Mirage",
+		"tr_text": "숏 미라주",
 		"jp_explain": "ショートミラージュ\nミラージュエスケープが短くなる。",
-		"tr_explain": "Short Mirage\nReduces Mirage Escape's duration."
+		"tr_explain": "숏 미라주\n미라주 이스케이프의 지속 시간이 짧아진다."
 	},
 	{
 		"assign": "46",
 		"jp_text": "ウォンドEチェンジ",
-		"tr_text": "Wand E Charge",
+		"tr_text": "완드 E 체인지",
 		"jp_explain": "ウォンドエレメントチェンジ\nウォンドギアが溜まっている時、ウォンドの属性が\n一部のチャージしたテクニックと同じ属性に変化。",
-		"tr_explain": "Wand Element Change\nDuring Wand Gear, change element\nbased on charged techs used."
+		"tr_explain": "완드 엘리먼트 체인지\n완드 기어가 차 있을 때, 완드 속성이\n차지한 일부 테크닉과 같은 속성으로 바뀐다."
 	},
 	{
 		"assign": "47",
 		"jp_text": "メイトラバーズ",
-		"tr_text": "Mate Lovers",
+		"tr_text": "메이트 러버즈",
 		"jp_explain": "メイトラバーズ\nメイト系アイテムを素早く使用できるようになり\n回復量も上昇する。",
-		"tr_explain": "Mate Lovers\nIncreases usage speed and healing\namount for Mate-type items."
+		"tr_explain": "메이트 러버즈\n메이트 계열 아이템을 더 빨리 사용할 수 있고\n회복량도 상승한다."
 	},
 	{
 		"assign": "48",
 		"jp_text": "Jリバーサルカバー",
-		"tr_text": "J Reversal Cover",
+		"tr_text": "J 리버설 커버",
 		"jp_explain": "Jリバーサルカバー／リング\nジャストリバーサル発動時に\nHPが回復するようになる。",
-		"tr_explain": "J Reversal Cover/Ring\nRestores HP upon activating\nJust Reversal."
+		"tr_explain": "J 리버설 커버/링\n저스트 리버설 발동 시\nHP를 회복하게 된다."
 	},
 	{
 		"assign": "49",
 		"jp_text": "ヒールシェア",
 		"tr_text": "힐 셰어",
 		"jp_explain": "ヒールシェア／リング\nHPを回復した際、回復した値の一定割合分\n周囲のキャラクターを回復する。",
-		"tr_explain": "Heal Share/Ring Heals surrounding\ncharacters by a certain amount upon\nrecovering HP."
+		"tr_explain": "힐 셰어/링\n자신의 HP를 회복하면 그 회복량의 일정 비율만큼\n주변 캐릭터도 회복한다."
 	},
 	{
 		"assign": "50",
 		"jp_text": "アドレナリン",
-		"tr_text": "Adrenaline",
+		"tr_text": "아드레날린",
 		"jp_explain": "アドレナリン／リング\n自分が受けるシフタ・デバンド1回あたりの\n効果時間を増加する。",
-		"tr_explain": "Adrenaline/Ring\nIncreases duration of received\nShifta and Deband effects."
+		"tr_explain": "아드레날린/링\n자신이 받는 시프타와 데반드의\n1회당 효과 지속 시간이 늘어난다."
 	},
 	{
 		"assign": "51",
 		"jp_text": "ＪＢテックアーツＳＣ",
-		"tr_text": "JB Tech Arts SC",
+		"tr_text": "JB 테크 아츠 SC",
 		"jp_explain": "ＪＢテックアーツショートチャージ\nジェットブーツＰＡからテクニックへ繋いだ時に\nチャージ時間が短縮される。",
-		"tr_explain": "JB Tech Arts Short Charge\nTechnique charge time is shortened\nwhen following a Jet Boots PA."
+		"tr_explain": "JB 테크 아츠 숏 차지\n제트 부츠 PA에서 테크닉으로 연계하면\n차지 시간이 짧아진다."
 	},
 	{
 		"assign": "52",
 		"jp_text": "スローダイブロール",
-		"tr_text": "Slow Dive Roll",
+		"tr_text": "슬로 다이브 롤",
 		"jp_explain": "スローダイブロール\nダイブロールの速度を遅くすることで\nダイブロール継続時間を延長する。",
-		"tr_explain": "Slow Dive Roll\nIncreases the duration of Dive Roll\nby reducing its speed."
+		"tr_explain": "슬로 다이브 롤\n다이브 롤 속도를 늦춰\n지속 시간을 늘린다."
 	},
 	{
 		"assign": "53",
 		"jp_text": "Ｌノンウィークボーナス",
-		"tr_text": "L Non-Weak Bonus",
+		"tr_text": "L 논 위크 보너스",
 		"jp_explain": "ランチャーノンウィークボーナス\nランチャー装備時、スキル「ウィークヒットアドバンス」の\n効果が弱点部位以外にも有効になる。",
-		"tr_explain": "Launcher Non-Weak Bonus While\nusing Launchers, Weak Hit Advance\napplies even if not hitting a weak\npoint."
+		"tr_explain": "런처 논 위크 보너스\n런처 장비 시 스킬 [위크 히트 어드밴스]의\n효과가 약점 부위 이외에도\n적용된다."
 	},
 	{
 		"assign": "54",
 		"jp_text": "ステップジャンプ",
-		"tr_text": "Step Jump",
+		"tr_text": "스텝 점프",
 		"jp_explain": "ステップジャンプ\n回避アクション中にジャンプを行うことで\nダッシュ状態へ移行する。",
-		"tr_explain": "Step Jump\nYou can begin dashing by jumping\nafter an evasive action."
+		"tr_explain": "스텝 점프\n회피 액션 중에 점프하면\n대시 상태로 전환한다."
 	},
 	{
 		"assign": "55",
 		"jp_text": "ＪリバーサルＪＡコンボ",
-		"tr_text": "J Reversal JA Combo",
+		"tr_text": "J 리버설 JA 콤보",
 		"jp_explain": "ジャストリバーサルジャストアタックコンボ\nジャストリバーサル後に\nジャストアタックタイミングが発生。",
-		"tr_explain": "Just Reversal JA Combo You can\nperform a Just Attack following a\nJust Reversal."
+		"tr_explain": "저스트 리버설 저스트 어택 콤보\n저스트 리버설 후\n저스트 어택 타이밍이 발생한다."
 	},
 	{
 		"assign": "56",
 		"jp_text": "エアリバーサル",
-		"tr_text": "Air Reversal",
+		"tr_text": "에어 리버설",
 		"jp_explain": "エアリバーサル\n空中で受け身がとれるようになる。",
-		"tr_explain": "Air Reversal\nEnables the use of Just Reversal\nwhile still in the air."
+		"tr_explain": "에어 리버설\n공중에서 낙법을\n할 수 있게 된다."
 	},
 	{
 		"assign": "57",
 		"jp_text": "ワイドサポート",
-		"tr_text": "Wide Support",
+		"tr_text": "와이드 서포트",
 		"jp_explain": "ワイドサポート／リング\n「レスタ」「アンティ」「シフタ」「デバンド」の\n効果範囲が上昇する。",
-		"tr_explain": "Wide Support/Ring\nIncreases range for Resta,\nAnti, Shifta, and Deband."
+		"tr_explain": "와이드 서포트/링\n레스타, 안티, 시프타, 데반드의\n효과 범위가 넓어진다."
 	},
 	{
 		"assign": "58",
 		"jp_text": "JリバーサルPPゲイン",
-		"tr_text": "J Reversal PP Gain",
+		"tr_text": "J 리버설 PP 게인",
 		"jp_explain": "JリバーサルPPゲイン／リング\nジャストリバーサル発動時に\nＰＰが回復するようになる。",
-		"tr_explain": "J Reversal PP Gain/Ring\nRestores PP upon activating\nJust Reversal."
+		"tr_explain": "J 리버설 PP 게인/링\n저스트 리버설 발동 시\nPP를 회복하게 된다."
 	},
 	{
 		"assign": "59",
 		"jp_text": "ヒーリングガード",
 		"tr_text": "힐링 가드",
 		"jp_explain": "ヒーリングガード／リング\nジャストガード成功時\n自分と周囲にいるキャラクターのＨＰを回復する。",
-		"tr_explain": "Healing Guard/Ring Upon performing\na Just Guard, restore HP for yourself\nand surrounding characters."
+		"tr_explain": "힐링 가드/링\n저스트 가드에 성공하면\n자신과 주변 캐릭터의 HP를 회복한다."
 	},
 	{
 		"assign": "60",
 		"jp_text": "JAボーナス",
 		"tr_text": "JA 보너스",
 		"jp_explain": "JAボーナス\nテクニック以外のジャストアタックに\nダメージボーナスを得る。",
-		"tr_explain": "JA Bonus\nIncreases the damage of Just Attacks,\nexcept for Techniques."
+		"tr_explain": "JA 보너스\n테크닉 이외의 저스트 어택에\n데미지 보너스를 얻는다."
 	},
 	{
 		"assign": "61",
 		"jp_text": "エフォートシンボルHu",
-		"tr_text": "Effort Symbol Hu",
+		"tr_text": "에포트 심볼 Hu",
 		"jp_explain": "エフォートシンボルハンター\n努力の末に得た堅牢な戦士の証",
-		"tr_explain": "Effort Symbol Hunter\nProof of one's efforts as a steadfast\nwarrior."
+		"tr_explain": "에포트 심볼 헌터\n노력 끝에 얻은 굳건한\n전사의 증표."
 	},
 	{
 		"assign": "62",
 		"jp_text": "エフォートシンボルRa",
-		"tr_text": "Effort Symbol Ra",
+		"tr_text": "에포트 심볼 Ra",
 		"jp_explain": "エフォートシンボルレンジャー\n努力の末に得た歴戦の射手の証",
-		"tr_explain": "Effort Symbol Ranger\nProof of one's efforts as a veteran\nmarksman."
+		"tr_explain": "에포트 심볼 레인저\n노력 끝에 얻은 역전의\n사수의 증표."
 	},
 	{
 		"assign": "63",
 		"jp_text": "エフォートシンボルFo",
-		"tr_text": "Effort Symbol Fo",
+		"tr_text": "에포트 심볼 Fo",
 		"jp_explain": "エフォートシンボルフォース\n努力の末に得た聡明な導士の証",
-		"tr_explain": "Effort Symbol Force\nProof of one's efforts as a wise sage."
+		"tr_explain": "에포트 심볼 포스\n노력 끝에 얻은 총명한 도사의 증표."
 	},
 	{
 		"assign": "64",
 		"jp_text": "エフォートシンボルFi",
-		"tr_text": "Effort Symbol Fi",
+		"tr_text": "에포트 심볼 Fi",
 		"jp_explain": "エフォートシンボルファイター\n努力の末に得た屈強な闘士の証",
-		"tr_explain": "Effort Symbol Fighter\nProof of one's efforts as a powerful\nchampion."
+		"tr_explain": "에포트 심볼 파이터\n노력 끝에 얻은 강인한\n투사의 증표."
 	},
 	{
 		"assign": "65",
 		"jp_text": "エフォートシンボルGu",
-		"tr_text": "Effort Symbol Gu",
+		"tr_text": "에포트 심볼 Gu",
 		"jp_explain": "エフォートシンボルガンナー\n努力の末に得た鮮烈な銃士の証",
-		"tr_explain": "Effort Symbol Gunner\nProof of one's efforts as a brilliant\ngunslinger."
+		"tr_explain": "에포트 심볼 거너\n노력 끝에 얻은 강렬한 존재감을 지닌\n총사의 증표."
 	},
 	{
 		"assign": "66",
 		"jp_text": "エフォートシンボルTe",
-		"tr_text": "Effort Symbol Te",
+		"tr_text": "에포트 심볼 Te",
 		"jp_explain": "エフォートシンボルテクター\n努力の末に得た博識な術士の証",
-		"tr_explain": "Effort Symbol Techter\nProof of one's efforts as a\nknowledgeable magician."
+		"tr_explain": "에포트 심볼 텍터\n노력 끝에 얻은 박식한\n술사의 증표."
 	},
 	{
 		"assign": "67",
 		"jp_text": "エフォートシンボルBr",
-		"tr_text": "Effort Symbol Br",
+		"tr_text": "에포트 심볼 Br",
 		"jp_explain": "エフォートシンボルブレイバー\n努力の末に得た鋭敏な達人の証",
-		"tr_explain": "Effort Symbol Braver\nProof of one's efforts as a keen\nmaster."
+		"tr_explain": "에포트 심볼 브레이버\n노력 끝에 얻은 예리한 감각을 지닌\n달인의 증표."
 	},
 	{
 		"assign": "68",
 		"jp_text": "エフォートシンボルBo",
-		"tr_text": "Effort Symbol Bo",
+		"tr_text": "에포트 심볼 Bo",
 		"jp_explain": "エフォートシンボルバウンサー\n努力の末に得た瞬迅な跳躍者の証",
-		"tr_explain": "Effort Symbol Bouncer\nProof of one's efforts as a swift\nhigh-flier."
+		"tr_explain": "에포트 심볼 바운서\n노력 끝에 얻은 눈부르게 빠른\n도약자의 증표."
 	},
 	{
 		"assign": "69",
 		"jp_text": "エフォートシンボルSu",
-		"tr_text": "Effort Symbol Su",
+		"tr_text": "에포트 심볼 Su",
 		"jp_explain": "エフォートシンボルサモナー\n努力の末に得た秀麗な導き手の証",
-		"tr_explain": "Effort Symbol Summoner\nProof of one's efforts as a graceful\nleader."
+		"tr_explain": "에포트 심볼 서머너\n노력 끝에 얻은 수려한\n인도자의 증표."
 	},
 	{
 		"assign": "90",
 		"jp_text": "エフォートシンボルHr",
-		"tr_text": "Effort Symbol Hr",
+		"tr_text": "에포트 심볼 Hr",
 		"jp_explain": "エフォートシンボルヒーロー\n努力の末に得た勇敢な英雄の証",
-		"tr_explain": "Effort Symbol Hero\nProof of one's efforts as a valiant\nhero."
+		"tr_explain": "에포트 심볼 히어로\n노력 끝에 얻은 용감한\n영웅의 증표."
 	},
 	{
 		"assign": "101",
 		"jp_text": "エフォートシンボルPh",
-		"tr_text": "Effort Symbol Ph",
+		"tr_text": "에포트 심볼 Ph",
 		"jp_explain": "エフォートシンボルファントム\n努力の末に得た不死の亡霊の証",
-		"tr_explain": "Effort Symbol Phantom\nProof of one's efforts as an immortal\nghost."
+		"tr_explain": "에포트 심볼 팬텀\n노력 끝에 얻은 불사의\n망령의 증표."
 	},
 	{
 		"assign": "105",
 		"jp_text": "エフォートシンボルEt",
-		"tr_text": "Effort Symbol Et",
+		"tr_text": "에포트 심볼 Et",
 		"jp_explain": "エフォートシンボルエトワール\n努力の末に得た明星の戦巧者の証",
-		"tr_explain": "Effort Symbol Etoile\nProof of one's efforts as a starlit\nwarrior."
+		"tr_explain": "에포트 심볼 에트왈\n노력 끝에 얻은 샛별의\n노련한 전사의 증표."
 	},
 	{
 		"assign": "112",
 		"jp_text": "エフォートシンボルLu",
-		"tr_text": "Effort Symbol Lu",
+		"tr_text": "에포트 심볼 Lu",
 		"jp_explain": "エフォートシンボルラスター\n努力の末に得た栄冠の輝手の証",
-		"tr_explain": "Effort Symbol Luster\nProof of one's efforts as a shining\nmaster."
+		"tr_explain": "에포트 심볼 러스터\n노력 끝에 얻은 영광의 관을 쓴\n빛나는 자의 증표."
 	},
 	{
 		"assign": "88",
 		"jp_text": "フレンズプロテクション",
-		"tr_text": "Friends Protection",
+		"tr_text": "프렌즈 프로텍션",
 		"jp_explain": "フレンズプロテクション\nイツキやRINA達との友情のリング\n被ダメージが減少する。",
-		"tr_explain": "Friends Protection\nRing of friendship for Itsuki and RINA.\nReduces damage."
+		"tr_explain": "프렌즈 프로텍션\n이츠키와 RINA 일행과의 우정을 담은 링.\n받는 데미지가 감소한다."
 	},
 	{
 		"assign": "70",
 		"jp_text": "テックアーツJAPPセイブ",
-		"tr_text": "Tech Arts JAPP Save",
+		"tr_text": "테크 아츠 JA PP 세이브",
 		"jp_explain": "テックアーツJAPPセイブ／リング\n同武器で異なるPAやテクニックを\n連続でジャストアタックするとPP消費が軽減される。",
-		"tr_explain": "Tech Arts JA PP Save/Ring Reduces\nPP costs when performing\nconsecutive Just Attacks of\nPAs/Techniques."
+		"tr_explain": "테크 아츠 JA PP 세이브/링\n같은 무기로 서로 다른 PA나\n테크닉을 연속으로 저스트 어택하면\nPP 소비량이 감소한다."
 	},
 	{
 		"assign": "71",
 		"jp_text": "ジャンピングドッジ",
-		"tr_text": "Jumping Dodge",
+		"tr_text": "점핑 닷지",
 		"jp_explain": "ジャンピングドッジ\nサブパレットに登録して使用すると\n高速で上昇し、敵の攻撃を回避する。",
-		"tr_explain": "Jumping Dodge\nWhen used from the subpalette, uses\na high jump to avoid enemy attacks."
+		"tr_explain": "점핑 닷지\n서브 팔레트에 등록하여 사용하면\n빠르게 상승하여 적의 공격을 피한다."
 	},
 	{
 		"assign": "72",
 		"jp_text": "ニアオートターゲット",
-		"tr_text": "Near Auto Target",
+		"tr_text": "니어 오토 타깃",
 		"jp_explain": "ニアオートターゲット\nタクトを一度振る事でペットが自動で\nプレイヤーが狙ったエネミーを攻撃する状態になる。",
-		"tr_explain": "Near Auto Target Pet will attack the\nnearest enemy to the player with\none wave of the tact."
+		"tr_explain": "니어 오토 타깃\n택트를 한 번 휘두르면 펫이 자동으로\n플레이어가 조준한 적을 공격하는 상태가 된다."
 	},
 	{
 		"assign": "73",
 		"jp_text": "ＰＢホーミング",
-		"tr_text": "PB Homing",
+		"tr_text": "PB 호밍",
 		"jp_explain": "フォトンブレードホーミング\n移動を伴うフォトンブレードの攻撃に\n誘導性能を追加する。",
-		"tr_explain": "Photon Blade Homing\nAdds a homing ability to\nPhoton Blade attacks."
+		"tr_explain": "포톤 블레이드 호밍\n이동을 동반하는 포톤 블레이드 공격에\n유도 성능이 추가된다."
 	},
 	{
 		"assign": "74",
 		"jp_text": "ピースゾンディール",
-		"tr_text": "Peace Zondeel",
+		"tr_text": "피스 존딜",
 		"jp_explain": "ピースゾンディール\nゾンディールを起爆しないようにする。",
-		"tr_explain": "Peace Zondeel\nDisables Zondeel's explosion."
+		"tr_explain": "피스 존딜\n존딜이 기폭되지 않게 한다."
 	},
 	{
 		"assign": "75",
 		"jp_text": "スローＦｉアクション",
-		"tr_text": "Slow Fi Action",
+		"tr_text": "슬로 Fi 액션",
 		"jp_explain": "スローファイターアクション\nファイター武器で行う武器アクションの速度を落とし\n継続時間を延長する。",
-		"tr_explain": "Slow Fighter Action\nExtends the duration and reduces\nthe speed of Fighter Weapon Actions."
+		"tr_explain": "슬로 파이터 액션\n파이터 무기의 무기 액션 속도를 늦추고\n지속 시간을 늘린다."
 	},
 	{
 		"assign": "76",
 		"jp_text": "Ａロッドシュートモード",
-		"tr_text": "A. Rod Shoot Mode",
+		"tr_text": "A 로드 슛 모드",
 		"jp_explain": "アナザーロッドシュートモード\nロッドシュートの法撃弾が着弾した時\n爆発し、周囲の敵を巻き込むようになる。",
-		"tr_explain": "Another Rod Shoot Mode Rod Shoot's\nprojectile explodes on impact,\naffecting enemies within range."
+		"tr_explain": "어나더 로드 슛 모드\n로드 슛의 법격탄이 명중하면 폭발하여\n주변 적도 함께 공격한다."
 	},
 	{
 		"assign": "77",
 		"jp_text": "ジャストリバーサルＢ",
-		"tr_text": "Just Reversal B",
+		"tr_text": "저스트 리버설 B",
 		"jp_explain": "ジャストリバーサルブラスト\nジャストリバーサルで着地した際に\n周囲の敵にダメージを与える。",
-		"tr_explain": "Just Reversal Blast\nInflicts damage to nearby enemies\nupon landing from a Just Reversal"
+		"tr_explain": "저스트 리버설 블래스트\n저스트 리버설로 착지하면\n주변 적에게 데미지를 준다."
 	},
 	{
 		"assign": "79",
 		"jp_text": "マグエキサイト",
-		"tr_text": "Mag Excite",
+		"tr_text": "마그 익사이트",
 		"jp_explain": "マグエキサイト\nマグのＳＰオートアクション以外の\nオートアクションの頻度と威力が上昇する。",
-		"tr_explain": "Mag Excite Boosts the frequency and\npower of your Mag's auto action.\nExcludes SP auto actions."
+		"tr_explain": "마그 익사이트\nSP 오토 액션을 제외한\n마그 오토 액션의 빈도와 위력이 상승한다."
 	},
 	{
 		"assign": "80",
 		"jp_text": "ステップJAコンボ",
-		"tr_text": "스탭 JA 콤보",
+		"tr_text": "스텝 JA 콤보",
 		"jp_explain": "ステップジャストアタックコンボ\nステップ時にＪＡタイミングが発生するようになる。",
-		"tr_explain": "Step Just Attack Combo\nCreates a JA timing window\nwhen executing Step."
+		"tr_explain": "스텝 저스트 어택 콤보\n스텝 시 저스트 어택 타이밍이\n발생하게 된다."
 	},
 	{
 		"assign": "81",
 		"jp_text": "クイックメイト",
-		"tr_text": "Quick Mate",
+		"tr_text": "퀵 메이트",
 		"jp_explain": "クイックメイト／リング\nメイト系アイテムが素早く使用出来る。",
-		"tr_explain": "Quick Mate/Ring\nSpeeds up usage of Mate-type items."
+		"tr_explain": "퀵 메이트/링\n메이트 계열 아이템을 더 빨리 사용할 수 있다."
 	},
 	{
 		"assign": "82",
 		"jp_text": "クリティカルフィールド",
-		"tr_text": "Critical Field",
+		"tr_text": "크리티컬 필드",
 		"jp_explain": "クリティカルフィールド／リング\n自分の周囲にクリティカル率が\n上昇するフィールドを発生させる。",
-		"tr_explain": "Critical Field/Ring\nGenerates a field around yourself\nthat increases critical hit rate."
+		"tr_explain": "크리티컬 필드/링\n자신의 주변에 크리티컬 확률이\n상승하는 필드를 생성한다."
 	},
 	{
 		"assign": "83",
 		"jp_text": "Ｐウィークバレット",
-		"tr_text": "P Weak Bullet",
+		"tr_text": "P 위크 불릿",
 		"jp_explain": "ポイントウィークバレット\n遮蔽物に遮られてもロックオンした部位へ\nウィークバレットが当たるようになる。",
-		"tr_explain": "Point Weak Bullet\nDespite any obstructions, Weak Bullet\nwill hit targets it is locked on to."
+		"tr_explain": "포인트 위크 불릿\n장애물에 가로막혀도 록온한 부위에\n위크 불릿이 명중하게 된다."
 	},
 	{
 		"assign": "84",
 		"jp_text": "カタナＣカウントアップ",
-		"tr_text": "Katana C Count Up",
+		"tr_text": "카타나 C 카운트 업",
 		"jp_explain": "カタナコンバットカウントアップ\nカタナコンバットのヒットカウント数が増加する。",
-		"tr_explain": "Katana Combat Count Up\nIncreases Katana Combat's hit count."
+		"tr_explain": "카타나 컴뱃 카운트 업\n카타나 컴뱃의 명중 횟수 집계치가 증가한다."
 	},
 	{
 		"assign": "85",
 		"jp_text": "アトマイザーラバーズ",
-		"tr_text": "Atomizer Lovers",
+		"tr_text": "아토마이저 러버즈",
 		"jp_explain": "アトマイザーラバーズ\nアトマイザー系アイテムを素早く使用できるようになり\n回復量も上昇する。",
-		"tr_explain": "Atomizer Lovers Allows quick usage\nof Atomizer-type items as well as\nincreases their recovery effect."
+		"tr_explain": "아토마이저 러버즈\n아토마이저 계열 아이템을 더 빨리 사용할 수 있고\n회복량도 상승한다."
 	},
 	{
 		"assign": "86",
 		"jp_text": "フレイムＴＳチャージ",
-		"tr_text": "Flame TS Charge",
+		"tr_text": "플레임 TS 차지",
 		"jp_explain": "フレイムテックＳチャージ／リング\n炎系テクニックのチャージ時間を短縮する。",
-		"tr_explain": "Flame Tech S-Charge/Ring Reduces\nthe charge time of fire Techniques."
+		"tr_explain": "플레임 테크 S 차지/링\n염계 테크닉의 차지 시간이 짧아진다."
 	},
 	{
 		"assign": "87",
 		"jp_text": "ＨＰリストレイト",
-		"tr_text": "HP Restorate",
+		"tr_text": "HP 리스토레이트",
 		"jp_explain": "ＨＰリストレイト／リング\nプレイヤーのＨＰが一定以下になると\nＨＰが徐々に回復するようになる。",
-		"tr_explain": "HP Restorate/Ring\nGradually restores HP once your\nHP falls below a particular threshold."
+		"tr_explain": "HP 리스토레이트/링\n플레이어의 HP가 일정 수치 이하로 떨어지면\nHP가 서서히 회복된다."
 	},
 	{
 		"assign": "89",
 		"jp_text": "TマシンガンＳアップ",
-		"tr_text": "T. Machinegun S-Up",
+		"tr_text": "T 머신건 S 업",
 		"jp_explain": "ツインマシンガンスタンスアップ\nツインマシンガンを装備している間\nスタンススキルの効果に打撃・射撃威力上昇を追加。",
-		"tr_explain": "Twin Machinegun Stance Up\nAdds increased S-ATK and R-ATK\nto stance skill effects while\nTwin Machineguns are equipped."
+		"tr_explain": "트윈 머신건 스탠스 업\n트윈 머신건을 장비한 동안\n스탠스 스킬 효과에\n타격과 사격 위력 상승이 추가된다."
 	},
 	{
 		"assign": "91",
@@ -618,141 +618,141 @@
 	{
 		"assign": "92",
 		"jp_text": "パーティーオブタフネス",
-		"tr_text": "",
+		"tr_text": "파티 오브 터프네스",
 		"jp_explain": "パーティーオブタフネス\nパーティー人数が２人以上の場合、人数に応じて\nエネミーからの被ダメージ量を軽減する。",
-		"tr_explain": ""
+		"tr_explain": "파티 오브 터프네스\n파티원이 2명 이상이면 인원수에 따라\n적에게서 받는 데미지가 감소한다."
 	},
 	{
 		"assign": "93",
 		"jp_text": "ウィークヒットＰＰゲイン",
-		"tr_text": "",
+		"tr_text": "위크 히트 PP 게인",
 		"jp_explain": "ウィークヒットＰＰゲイン\n弱点部位に通常攻撃を当てた時に\nＰＰ回復量が上昇する。",
-		"tr_explain": ""
+		"tr_explain": "위크 히트 PP 게인\n약점 부위에 일반 공격을 명중시키면\nPP 회복량이 상승한다."
 	},
 	{
 		"assign": "94",
 		"jp_text": "ＪＧカウンター",
-		"tr_text": "",
+		"tr_text": "JG 카운터",
 		"jp_explain": "ジャストガードカウンター\n「ＪＧヘブンリーＦ」「ＪＧライジングＦ」\n「ＪＧソニックアロウ」リングスキルＬｖ．２０の効果を得る。",
-		"tr_explain": ""
+		"tr_explain": "저스트 가드 카운터\n[JG 헤븐리 F], [JG 라이징 F],\n[JG 소닉 애로우] 링 스킬 Lv.20의 효과를 얻는다."
 	},
 	{
 		"assign": "95",
 		"jp_text": "チェイスＷサポート",
-		"tr_text": "",
+		"tr_text": "체이스 W 서포트",
 		"jp_explain": "チェイスウィンドサポート\n「ＤＳカマイタチ」「ＴＤエアチェイス」\n「ナックルチェイス」リングスキルＬｖ．２０の効果を得る。",
-		"tr_explain": ""
+		"tr_explain": "체이스 윈드 서포트\n[DS 카마이타치], [TD 에어 체이스],\n[너클 체이스] 링 스킬 Lv.20의 효과를 얻는다."
 	},
 	{
 		"assign": "96",
 		"jp_text": "タイムエンロール",
-		"tr_text": "",
+		"tr_text": "타임 앤 롤",
 		"jp_explain": "タイムエンロール\n「フロントＳロール」「ハイタイムキープ」\nリングスキルＬｖ．２０の効果を得る。",
-		"tr_explain": ""
+		"tr_explain": "타임 앤 롤\n[프론트 S 롤], [하이 타임 킵]\n링 스킬 Lv.20의 효과를 얻는다."
 	},
 	{
 		"assign": "97",
 		"jp_text": "ディフェンステック",
-		"tr_text": "",
+		"tr_text": "디펜스 테크",
 		"jp_explain": "ディフェンステック\n「テックＣパリング」「ショートミラージュ」\nリングスキルＬｖ．２０の効果を得る。",
-		"tr_explain": ""
+		"tr_explain": "디펜스 테크\n[테크 C 패링], [숏 미라주]\n링 스킬 Lv.20의 효과를 얻는다."
 	},
 	{
 		"assign": "98",
 		"jp_text": "ブレイブパワー",
-		"tr_text": "",
+		"tr_text": "브레이브 파워",
 		"jp_explain": "ブレイブパワー\n「カタナＣカウントアップ」「バレットボウホーミング」\nリングスキルＬｖ．２０の効果を得る。",
-		"tr_explain": ""
+		"tr_explain": "브레이브 파워\n[카타나 C 카운트 업], [불릿 보우 호밍]\n링 스킬 Lv.20의 효과를 얻는다."
 	},
 	{
 		"assign": "99",
 		"jp_text": "キックエンスナッチ",
-		"tr_text": "",
+		"tr_text": "킥 앤 스내치",
 		"jp_explain": "キックエンスナッチ\n「ＤＢスナッチ」「ＪＢテックアーツＳＣ」\nリングスキルＬｖ．２０の効果を得る。",
-		"tr_explain": ""
+		"tr_explain": "킥 앤 스내치\n[DB 스내치], [JB 테크 아츠 SC]\n링 스킬 Lv.20의 효과를 얻는다."
 	},
 	{
 		"assign": "100",
 		"jp_text": "ＡウォンドＥチェンジ",
-		"tr_text": "",
+		"tr_text": "A 완드 E 체인지",
 		"jp_explain": "アナザーウォンドエレメントチェンジ\nウォンドギアが溜まっている時、ウォンドの属性が\nチャージしたテクニックの属性（補助除く）に変化。",
-		"tr_explain": ""
+		"tr_explain": "어나더 완드 엘리먼트 체인지\n완드 기어가 차 있을 때, 완드 속성이\n차지한 테크닉의 속성으로 바뀐다. 보조 테크닉은 제외."
 	},
 	{
 		"assign": "102",
 		"jp_text": "Ａワイヤーモード",
-		"tr_text": "",
+		"tr_text": "A 와이어 모드",
 		"jp_explain": "アナザーワイヤーモード\nワイヤードランスのホールドＰＡにおいて\nエネミーを捕獲・捕縛せず攻撃するようになる。",
-		"tr_explain": ""
+		"tr_explain": "어나더 와이어 모드\n와이어드 랜스의 홀드 PA로\n적을 붙잡거나 묶지 않고 공격하게 된다."
 	},
 	{
 		"assign": "2",
 		"jp_text": "Ｃストライク打撃",
-		"tr_text": "C Strike Striking",
+		"tr_text": "C 스트라이크 타격",
 		"jp_explain": "クリティカルストライク打撃\nクリティカル率が上昇し、打撃攻撃の\nクリティカル時にダメージボーナスを得る。",
-		"tr_explain": "Critical Strike - Striking\nIncreases critical hit rate\nand boosts damage of Striking crits."
+		"tr_explain": "크리티컬 스트라이크 타격\n크리티컬 확률이 상승하고 타격 공격이\n크리티컬로 적중하면 데미지 보너스를 얻는다."
 	},
 	{
 		"assign": "3",
 		"jp_text": "Ｃストライク射撃",
-		"tr_text": "C Strike Ranged",
+		"tr_text": "C 스트라이크 사격",
 		"jp_explain": "クリティカルストライク射撃\nクリティカル率が上昇し、射撃攻撃の\nクリティカル時にダメージボーナスを得る。",
-		"tr_explain": "Critical Strike - Ranged\nIncreases critical hit rate\nand boosts damage of Ranged crits."
+		"tr_explain": "크리티컬 스트라이크 사격\n크리티컬 확률이 상승하고 사격 공격이\n크리티컬로 적중하면 데미지 보너스를 얻는다."
 	},
 	{
 		"assign": "4",
 		"jp_text": "Ｃストライク法撃",
-		"tr_text": "C Strike Technique",
+		"tr_text": "C 스트라이크 법격",
 		"jp_explain": "クリティカルストライク法撃\nクリティカル率が上昇し、法撃攻撃の\nクリティカル時にダメージボーナスを得る。",
-		"tr_explain": "Critical Strike - Technique\nIncreases critical hit rate\nand boosts damage of Technique crits."
+		"tr_explain": "크리티컬 스트라이크 법격\n크리티컬 확률이 상승하고 법격 공격이\n크리티컬로 적중하면 데미지 보너스를 얻는다."
 	},
 	{
 		"assign": "103",
 		"jp_text": "Ｃストライク",
-		"tr_text": "C Strike",
+		"tr_text": "C 스트라이크",
 		"jp_explain": "クリティカルストライク\nクリティカル率が上昇し\nクリティカル時にダメージボーナスを得る。",
-		"tr_explain": "Critical Strike\nIncreases critical hit rate\nand boosts damage of crits."
+		"tr_explain": "크리티컬 스트라이크\n크리티컬 확률이 상승하고\n크리티컬 적중 시 데미지 보너스를 얻는다."
 	},
 	{
 		"assign": "106",
 		"jp_text": "Ｐｈマーカーボム",
-		"tr_text": "",
+		"tr_text": "Ph 마커 봄",
 		"jp_explain": "ファントムマーカーボム\nファントムマーカーの起爆攻撃が\nマーカーが付与された場所に発生する。",
-		"tr_explain": ""
+		"tr_explain": "팬텀 마커 봄\n팬텀 마커의 기폭 공격이\n마커가 부여된 위치에서 발생한다."
 	},
 	{
 		"assign": "107",
 		"jp_text": "Ｐｈステップシフト",
-		"tr_text": "",
+		"tr_text": "Ph 스텝 시프트",
 		"jp_explain": "ファントムステップシフト\nファントムステップ中に\nＰＡを使用するとシフトＰＡになる。",
-		"tr_explain": ""
+		"tr_explain": "팬텀 스텝 시프트\n팬텀 스텝 중에\nPA를 사용하면 시프트 PA가 된다."
 	},
 	{
 		"assign": "108",
 		"jp_text": "タリスキープロング",
-		"tr_text": "",
+		"tr_text": "탈리스 킵 롱",
 		"jp_explain": "タリスキープロング\n投げたタリスが消滅するまでの時間を延長する。",
-		"tr_explain": ""
+		"tr_explain": "탈리스 킵 롱\n던진 탈리스가 사라지기까지의 시간을 늘린다."
 	},
 	{
 		"assign": "109",
 		"jp_text": "ステルスアタック",
-		"tr_text": "",
+		"tr_text": "스텔스 어택",
 		"jp_explain": "ステルスアタック\nエネミーに対するヘイト上昇率を減少させる。",
-		"tr_explain": ""
+		"tr_explain": "스텔스 어택\n적에 대한 헤이트 증가율을 낮춘다."
 	},
 	{
 		"assign": "110",
 		"jp_text": "Ｐｈロックオンボム",
-		"tr_text": "",
+		"tr_text": "Ph 록온 봄",
 		"jp_explain": "ファントムロックオンボム\nファントムマーカーの起爆攻撃が\nロックオン箇所に発生する。",
-		"tr_explain": ""
+		"tr_explain": "팬텀 록온 봄\n팬텀 마커의 기폭 공격이\n록온한 위치에서 발생한다."
 	},
 	{
 		"assign": "111",
 		"jp_text": "イージーフルコネクト",
-		"tr_text": "",
+		"tr_text": "이지 풀 커넥트",
 		"jp_explain": "イージーフルコネクト\nステップエッジ後、武器アクションの長押しで\nギアゲージを半分消費し、直接フルコネクトが発動。",
-		"tr_explain": ""
+		"tr_explain": "이지 풀 커넥트\n스텝 엣지 후 무기 액션을 길게 누르면\n기어 게이지를 절반 소비하고 바로 풀 커넥트가 발동한다."
 	}
 ]

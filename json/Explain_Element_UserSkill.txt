@@ -702,58 +702,58 @@
 	{
 		"assign": "100",
 		"jp_text": "アルティメットバスター",
-		"tr_text": "Ultimate Buster",
+		"tr_text": "얼티밋 버스터",
 		"jp_explain": "世壊種に与える\nダメージが10％\n上昇する。\n★13～武器では無効。",
-		"tr_explain": "Boosts damage against\nAberrations by 10%.\nHas no effect on ★13\nweapons or higher rarity."
+		"tr_explain": "세괴종에게 주는 데미지가\n10% 상승한다.\n★13 이상 무기에서는\n효과가 없다."
 	},
 	{
 		"assign": "101",
 		"jp_text": "フレイズ・ウィーク",
-		"tr_text": "Phrase Weak",
+		"tr_text": "프레이즈 위크",
 		"jp_explain": "弱点属性で攻撃した時\n与ダメージが2%上昇。",
-		"tr_explain": "Boosts damage dealt\nby 2% when attacking\nwith the target's\nweakness attribute."
+		"tr_explain": "약점 속성으로\n공격하면\n주는 데미지가\n2% 상승한다."
 	},
 	{
 		"assign": "102",
 		"jp_text": "フレイズ・レスポンス",
-		"tr_text": "Phrase Response",
+		"tr_text": "프레이즈 리스폰스",
 		"jp_explain": "通常攻撃のPP回復量が\n5%上昇。",
-		"tr_explain": "Boosts attack PP\nrecovery by 5%."
+		"tr_explain": "일반 공격의 PP 회복량이\n5% 상승한다."
 	},
 	{
 		"assign": "103",
 		"jp_text": "フレイズ・リカバリー",
-		"tr_text": "Phrase Recovery",
+		"tr_text": "프레이즈 리커버리",
 		"jp_explain": "PPの自然回復速度が\n5%上昇。",
-		"tr_explain": "Boosts PP regeneration\nspeed by 5%."
+		"tr_explain": "PP 자연 회복 속도가\n5% 상승한다."
 	},
 	{
 		"assign": "104",
 		"jp_text": "フレイズ・チェイス",
-		"tr_text": "Phrase Chase",
+		"tr_text": "프레이즈 체이스",
 		"jp_explain": "状態異常のエネミーへの\n与ダメージが5％上昇。",
-		"tr_explain": "Boosts damage dealt to\nenemies affected by a\nstatus effect by 5%."
+		"tr_explain": "상태 이상에 걸린\n적에게 주는 데미지가\n5% 상승한다."
 	},
 	{
 		"assign": "105",
 		"jp_text": "フレイズ・リデュース",
-		"tr_text": "Phrase Reduce",
+		"tr_text": "프레이즈 리듀스",
 		"jp_explain": "PPの消費量が\n4％減少する。",
-		"tr_explain": "Reduces PP\nconsumption by 4%."
+		"tr_explain": "PP 소비량이\n4% 감소한다."
 	},
 	{
 		"assign": "106",
 		"jp_text": "オメガバスター",
-		"tr_text": "Omega Buster",
+		"tr_text": "오메가 버스터",
 		"jp_explain": "魔物種に与える\nダメージが3％\n上昇する。",
-		"tr_explain": "Boosts damage against\nDemons by 3%."
+		"tr_explain": "마물종에게 주는 데미지가\n3% 상승한다."
 	},
 	{
 		"assign": "107",
 		"jp_text": "フレイズ・ディケイ",
-		"tr_text": "Phrase Decay",
+		"tr_text": "프레이즈 디케이",
 		"jp_explain": "ジェルン状態の\nエネミーへの\n与ダメージが5％上昇。",
-		"tr_explain": "Boosts damage against\nenemies affected by\nJellen by 5%."
+		"tr_explain": "젤른 상태인\n적에게 주는 데미지가\n5% 상승한다."
 	},
 	{
 		"assign": "108",
@@ -765,9 +765,9 @@
 	{
 		"assign": "109",
 		"jp_text": "錬成の導き",
-		"tr_text": "Guidance Trainer",
+		"tr_text": "연성의 인도",
 		"jp_explain": "この装備品への\n特殊能力追加成功率が\n5％上昇する。",
-		"tr_explain": "Boosts Special Ability\ntransfer success rate\nby 5%."
+		"tr_explain": "이 장비에 특수 능력을\n추가하는 성공률이\n5% 상승한다."
 	},
 	{
 		"assign": "110",
@@ -779,100 +779,100 @@
 	{
 		"assign": "111",
 		"jp_text": "リーパー／雷弱点",
-		"tr_text": "Ripper/Ltn. Weak",
+		"tr_text": "리퍼／뇌속성 약점",
 		"jp_explain": "雷弱点のエネミーを攻撃時\n威力が上昇。ただし武器の\nレアリティが高くなるほど\n威力の上昇量は減少。",
-		"tr_explain": "Increases the power\nof attacks against\nenemies weak to\nLightning. Effect\nis reduced as the\nWeapon Rarity\nincreases."
+		"tr_explain": "뇌속성이\n약점인 적을\n공격하면\n위력이 상승한다.\n단, 무기의 레어리티가\n높을수록\n위력 상승량이 줄어든다."
 	},
 	{
 		"assign": "112",
 		"jp_text": "スレイヤー／機甲種",
-		"tr_text": "Slayer/Armor-type",
+		"tr_text": "슬레이어／기갑종",
 		"jp_explain": "機甲種のエネミーを攻撃時\n威力が上昇。ただし武器の\nレアリティが高くなるほど\n威力の上昇量は減少。",
-		"tr_explain": "Increases the power\nof attacks against\nLillipa Mechs.\nEffect is reduced\nas the Weapon\nRarity increases."
+		"tr_explain": "기갑종 적을\n공격하면\n위력이 상승한다.\n단, 무기의\n레어리티가 높을수록\n위력 상승량이 줄어든다."
 	},
 	{
 		"assign": "113",
 		"jp_text": "リーパー／炎弱点",
-		"tr_text": "Ripper/Fire Weak",
+		"tr_text": "리퍼／염속성 약점",
 		"jp_explain": "炎弱点のエネミーを攻撃時\n威力が上昇。ただし武器の\nレアリティが高くなるほど\n威力の上昇量は減少。",
-		"tr_explain": "Increases the power\nof attacks against\nenemies weak to\nFire. Effect\nis reduced as the\nWeapon Rarity\nincreases."
+		"tr_explain": "염속성이\n약점인 적을\n공격하면\n위력이 상승한다.\n단, 무기의 레어리티가\n높을수록\n위력 상승량이 줄어든다."
 	},
 	{
 		"assign": "114",
 		"jp_text": "スレイヤー／原生種",
-		"tr_text": "Slayer/Beast-type",
+		"tr_text": "슬레이어／원생종",
 		"jp_explain": "原生種のエネミーを攻撃時\n威力が上昇。ただし武器の\nレアリティが高くなるほど\n威力の上昇量は減少。",
-		"tr_explain": "Increases the power\nof attacks against\nNaberius Natives.\nEffect is reduced\nas the Weapon\nRarity increases."
+		"tr_explain": "원생종 적을\n공격하면\n위력이 상승한다.\n단, 무기의\n레어리티가 높을수록\n위력 상승량이 줄어든다."
 	},
 	{
 		"assign": "115",
 		"jp_text": "リーパー／氷弱点",
-		"tr_text": "Ripper/Ice Weak",
+		"tr_text": "리퍼／빙속성 약점",
 		"jp_explain": "氷弱点のエネミーを攻撃時\n威力が上昇。ただし武器の\nレアリティが高くなるほど\n威力の上昇量は減少。",
-		"tr_explain": "Increases the power\nof attacks against\nenemies weak to\nIce. Effect\nis reduced as the\nWeapon Rarity\nincreases."
+		"tr_explain": "빙속성이\n약점인 적을\n공격하면\n위력이 상승한다.\n단, 무기의 레어리티가\n높을수록\n위력 상승량이 줄어든다."
 	},
 	{
 		"assign": "116",
 		"jp_text": "スレイヤー／海王種",
-		"tr_text": "Slayer/Oceanid-type",
+		"tr_text": "슬레이어／해왕종",
 		"jp_explain": "海王種のエネミーを攻撃時\n威力が上昇。ただし武器の\nレアリティが高くなるほど\n威力の上昇量は減少。",
-		"tr_explain": "Increases the power\nof attacks against\nWopal Oceanids.\nEffect is reduced\nas the Weapon\nRarity increases."
+		"tr_explain": "해왕종 적을\n공격하면\n위력이 상승한다.\n단, 무기의\n레어리티가 높을수록\n위력 상승량이 줄어든다."
 	},
 	{
 		"assign": "117",
 		"jp_text": "リーパー／闇弱点",
-		"tr_text": "Ripper/Dark Weak",
+		"tr_text": "리퍼／암속성 약점",
 		"jp_explain": "闇弱点のエネミーを攻撃時\n威力が上昇。ただし武器の\nレアリティが高くなるほど\n威力の上昇量は減少。",
-		"tr_explain": "Increases the power\nof attacks against\nenemies weak to\nDark. Effect\nis reduced as the\nWeapon Rarity\nincreases."
+		"tr_explain": "암속성이\n약점인 적을\n공격하면\n위력이 상승한다.\n단, 무기의 레어리티가\n높을수록\n위력 상승량이 줄어든다."
 	},
 	{
 		"assign": "118",
 		"jp_text": "スレイヤー／黒の民",
-		"tr_text": "Slayer/Kuronite-type",
+		"tr_text": "슬레이어／흑의 주민",
 		"jp_explain": "黒の民のエネミーを攻撃時\n威力が上昇。ただし武器の\nレアリティが高くなるほど\n威力の上昇量は減少。",
-		"tr_explain": "Increases the power\nof attacks against\nKuronites. Effect is\nreduced as the\nWeapon Rarity increases."
+		"tr_explain": "흑의 주민 적을\n공격하면 위력이 상승한다.\n단, 무기의\n레어리티가 높을수록\n위력 상승량이 줄어든다."
 	},
 	{
 		"assign": "119",
 		"jp_text": "リーパー／風弱点",
-		"tr_text": "Ripper/Wind Weak",
+		"tr_text": "리퍼／풍속성 약점",
 		"jp_explain": "風弱点のエネミーを攻撃時\n威力が上昇。ただし武器の\nレアリティが高くなるほど\n威力の上昇量は減少。",
-		"tr_explain": "Increases the power\nof attacks against\nenemies weak to\nWind. Effect\nis reduced as the\nWeapon Rarity\nincreases."
+		"tr_explain": "풍속성이\n약점인 적을\n공격하면\n위력이 상승한다.\n단, 무기의 레어리티가\n높을수록\n위력 상승량이 줄어든다."
 	},
 	{
 		"assign": "120",
 		"jp_text": "スレイヤー／幻創種",
-		"tr_text": "Slayer/Phantom-type",
+		"tr_text": "슬레이어／환창종",
 		"jp_explain": "幻創種のエネミーを攻撃時\n威力が上昇。ただし武器の\nレアリティが高くなるほど\n威力の上昇量は減少。",
-		"tr_explain": "Increases the power\nof attacks against\nPhantoms. Effect is\nreduced as the\nWeapon Rarity increases."
+		"tr_explain": "환창종 적을\n공격하면 위력이 상승한다.\n단, 무기의\n레어리티가 높을수록\n위력 상승량이 줄어든다."
 	},
 	{
 		"assign": "121",
 		"jp_text": "リーパー／光弱点",
-		"tr_text": "Ripper/Light Weak",
+		"tr_text": "리퍼／광속성 약점",
 		"jp_explain": "光弱点のエネミーを攻撃時\n威力が上昇。ただし武器の\nレアリティが高くなるほど\n威力の上昇量は減少。",
-		"tr_explain": "Increases the power\nof attacks against\nenemies weak to\nLight. Effect\nis reduced as the\nWeapon Rarity\nincreases."
+		"tr_explain": "광속성이\n약점인 적을\n공격하면\n위력이 상승한다.\n단, 무기의 레어리티가\n높을수록\n위력 상승량이 줄어든다."
 	},
 	{
 		"assign": "122",
 		"jp_text": "スレイヤー／ダーカー",
-		"tr_text": "Slayer/Darker-type",
+		"tr_text": "슬레이어／다커",
 		"jp_explain": "ダーカーのエネミーを\n攻撃時、威力が上昇。\nただし武器の\nレアリティが高くなるほど\n威力の上昇量は減少。",
-		"tr_explain": "Increases the power\nof attacks against\nDarkers. Effect is\nreduced as the\nWeapon Rarity increases."
+		"tr_explain": "다커 적을\n공격하면 위력이 상승한다.\n단, 무기의\n레어리티가 높을수록\n위력 상승량이 줄어든다."
 	},
 	{
 		"assign": "123",
 		"jp_text": "スレイヤー／龍族",
-		"tr_text": "Slayer/Dragonkin-type",
+		"tr_text": "슬레이어／용족",
 		"jp_explain": "龍族のエネミーを攻撃時\n威力が上昇。ただし武器の\nレアリティが高くなるほど\n威力の上昇量は減少。",
-		"tr_explain": "Increases the power\nof attacks against\nDragonkin. Effect is\nreduced as the\nWeapon Rarity increases."
+		"tr_explain": "용족 적을\n공격하면 위력이 상승한다.\n단, 무기의\n레어리티가 높을수록\n위력 상승량이 줄어든다."
 	},
 	{
 		"assign": "124",
 		"jp_text": "スレイヤー／閃機種",
-		"tr_text": "Slayer/Luminmech-type",
+		"tr_text": "슬레이어／섬기종",
 		"jp_explain": "閃機種のエネミーを攻撃時\n威力が上昇。ただし武器の\nレアリティが高くなるほど\n威力の上昇量は減少。",
-		"tr_explain": "Increases the power\nof attacks against\nLuminmechs. Effect is\nreduced as the\nWeapon Rarity increases."
+		"tr_explain": "섬기종 적을\n공격하면 위력이 상승한다.\n단, 무기의\n레어리티가 높을수록\n위력 상승량이 줄어든다."
 	},
 	{
 		"assign": "125",
@@ -919,58 +919,58 @@
 	{
 		"assign": "131",
 		"jp_text": "Ｓ２：剛乱活与",
-		"tr_text": "S2:Sturdy Recovery",
+		"tr_text": "S2: 강란활여",
 		"jp_explain": "10％の確率で\n与ダメージの１％を\nＨＰとして吸収。\n（上限300）",
-		"tr_explain": "Gives a fixed chance of\nrestoring HP equal to 1%\nof damage dealt. (Max: 300)"
+		"tr_explain": "10% 확률로 준 데미지의\n1%를 HP로 흡수한다.\n(상한 300)"
 	},
 	{
 		"assign": "132",
 		"jp_text": "-",
 		"tr_text": "",
 		"jp_explain": "与ダメージが2％上昇。",
-		"tr_explain": "Boosts damage by 2%."
+		"tr_explain": "주는 데미지가 2% 상승한다."
 	},
 	{
 		"assign": "133",
 		"jp_text": "Ｓ１：剛撃の志",
-		"tr_text": "S1:Offensive Intent",
+		"tr_text": "S1: 강격의 의지",
 		"jp_explain": "与ダメージが2％上昇。",
-		"tr_explain": "Boosts damage by 2%."
+		"tr_explain": "주는 데미지가 2% 상승한다."
 	},
 	{
 		"assign": "134",
 		"jp_text": "Ｓ２：剛撃の志",
-		"tr_text": "S2:Offensive Intent",
+		"tr_text": "S2: 강격의 의지",
 		"jp_explain": "与ダメージが2％上昇。",
-		"tr_explain": "Boosts damage by 2%."
+		"tr_explain": "주는 데미지가 2% 상승한다."
 	},
 	{
 		"assign": "135",
 		"jp_text": "Ｓ３：剛撃の志",
-		"tr_text": "S3:Offensive Intent",
+		"tr_text": "S3: 강격의 의지",
 		"jp_explain": "与ダメージが2％上昇。",
-		"tr_explain": "Boosts damage by 2%."
+		"tr_explain": "주는 데미지가 2% 상승한다."
 	},
 	{
 		"assign": "136",
 		"jp_text": "Ｓ１：光子縮減",
-		"tr_text": "S1:Photon Reduction",
+		"tr_text": "S1: 광자 경감",
 		"jp_explain": "ＰＰ消費量を7％軽減。",
-		"tr_explain": "Reduces PP\nconsumption by 7%."
+		"tr_explain": "PP 소비량이\n7% 감소한다."
 	},
 	{
 		"assign": "137",
 		"jp_text": "Ｓ２：光子縮減",
-		"tr_text": "S2:Photon Reduction",
+		"tr_text": "S2: 광자 경감",
 		"jp_explain": "ＰＰ消費量を10％軽減。",
-		"tr_explain": "Reduces PP\nconsumption by 10%."
+		"tr_explain": "PP 소비량이\n10% 감소한다."
 	},
 	{
 		"assign": "138",
 		"jp_text": "Ｓ３：光子縮減",
-		"tr_text": "S3:Photon Reduction",
+		"tr_text": "S3: 광자 경감",
 		"jp_explain": "ＰＰ消費量を7％軽減。",
-		"tr_explain": "Reduces PP\nconsumption by 7%."
+		"tr_explain": "PP 소비량이\n7% 감소한다."
 	},
 	{
 		"assign": "139",
@@ -989,9 +989,9 @@
 	{
 		"assign": "141",
 		"jp_text": "Ｓ３：活実の志",
-		"tr_text": "S3:Vital Intent",
+		"tr_text": "S3: 활실의 의지",
 		"jp_explain": "ＨＰが80％以上の時\n与ダメージが3％上昇。",
-		"tr_explain": "Boosts damage by 3%\nwhile HP is 80% or more."
+		"tr_explain": "HP가 80% 이상일 때\n주는 데미지가 3% 상승한다."
 	},
 	{
 		"assign": "142",
@@ -1003,114 +1003,114 @@
 	{
 		"assign": "143",
 		"jp_text": "Ｓ２：災転輝与",
-		"tr_text": "S2:Cursed Radiance",
+		"tr_text": "S2: 재전휘여",
 		"jp_explain": "ダメージを受けた際に\nＰＰを15％回復する。",
-		"tr_explain": "Recovers PP by 15%\nwhen taking damage."
+		"tr_explain": "데미지를 받으면\nPP를 15% 회복한다."
 	},
 	{
 		"assign": "144",
 		"jp_text": "Ｓ３：災転輝与",
-		"tr_text": "S3:Cursed Radiance",
+		"tr_text": "S3: 재전휘여",
 		"jp_explain": "ダメージを受けた際に\nＰＰを15％回復する。",
-		"tr_explain": "Recovers PP by 15%\nwhen taking damage."
+		"tr_explain": "데미지를 받으면\nPP를 15% 회복한다."
 	},
 	{
 		"assign": "145",
 		"jp_text": "Ｓ１：妙技の巧",
-		"tr_text": "S1:Wise Skill",
+		"tr_text": "S1: 묘기의 기교",
 		"jp_explain": "クリティカル率が\n15％上昇する。",
-		"tr_explain": "Increases critical\nrate by 15%."
+		"tr_explain": "크리티컬 확률이\n15% 상승한다."
 	},
 	{
 		"assign": "146",
 		"jp_text": "Ｓ２：妙技の巧",
-		"tr_text": "S2:Wise Skill",
+		"tr_text": "S2: 묘기의 기교",
 		"jp_explain": "クリティカル率が\n12％上昇する。",
-		"tr_explain": "Increases critical\nrate by 12%."
+		"tr_explain": "크리티컬 확률이\n12% 상승한다."
 	},
 	{
 		"assign": "147",
 		"jp_text": "Ｓ３：妙技の巧",
-		"tr_text": "S3:Wise Skill",
+		"tr_text": "S3: 묘기의 기교",
 		"jp_explain": "クリティカル率が\n12％上昇する。",
-		"tr_explain": "Increases critical\nrate by 12%."
+		"tr_explain": "크리티컬 확률이\n12% 상승한다."
 	},
 	{
 		"assign": "148",
 		"jp_text": "Ｓ１：輝剰の撃",
-		"tr_text": "S1:Radiant Strike",
+		"tr_text": "S1: 넘치는 빛의 일격",
 		"jp_explain": "攻撃時のＰＰ回復量が\n17％上昇する。",
-		"tr_explain": "Boosts attack PP\nrecovery by 17%."
+		"tr_explain": "공격 시 PP 회복량이\n17% 상승한다."
 	},
 	{
 		"assign": "149",
 		"jp_text": "Ｓ２：輝剰の撃",
-		"tr_text": "S2:Radiant Strike",
+		"tr_text": "S2: 넘치는 빛의 일격",
 		"jp_explain": "攻撃時のＰＰ回復量が\n17％上昇する。",
-		"tr_explain": "Boosts attack PP\nrecovery by 17%."
+		"tr_explain": "공격 시 PP 회복량이\n17% 상승한다."
 	},
 	{
 		"assign": "150",
 		"jp_text": "Ｓ３：輝剰の撃",
-		"tr_text": "S3:Radiant Strike",
+		"tr_text": "S3: 넘치는 빛의 일격",
 		"jp_explain": "攻撃時のＰＰ回復量が\n20％上昇する。",
-		"tr_explain": "Boosts attack PP\nrecovery by 20%."
+		"tr_explain": "공격 시 PP 회복량이\n20% 상승한다."
 	},
 	{
 		"assign": "151",
 		"jp_text": "Ｓ１：守護の備",
-		"tr_text": "S1:Guardian Armor",
+		"tr_text": "S1: 수호의 대비",
 		"jp_explain": "被ダメージを7％軽減。",
-		"tr_explain": "Reduces damage taken\nby 7%."
+		"tr_explain": "받는 데미지가\n7% 감소한다."
 	},
 	{
 		"assign": "152",
 		"jp_text": "Ｓ２：守護の備",
-		"tr_text": "S2:Guardian Armor",
+		"tr_text": "S2: 수호의 대비",
 		"jp_explain": "被ダメージを7％軽減。",
-		"tr_explain": "Reduces damage taken\nby 7%."
+		"tr_explain": "받는 데미지가\n7% 감소한다."
 	},
 	{
 		"assign": "153",
 		"jp_text": "Ｓ３：守護の備",
-		"tr_text": "S2:Guardian Armor",
+		"tr_text": "S3: 수호의 대비",
 		"jp_explain": "被ダメージを7％軽減。",
-		"tr_explain": "Reduces damage taken\nby 7%."
+		"tr_explain": "받는 데미지가\n7% 감소한다."
 	},
 	{
 		"assign": "154",
 		"jp_text": "Ｓ１：妙撃の志",
-		"tr_text": "S1:Skilled Intent",
+		"tr_text": "S1: 묘격의 의지",
 		"jp_explain": "クリティカル時の\n与ダメージが3％上昇。",
-		"tr_explain": "Boosts critical hit\ndamage by 3%."
+		"tr_explain": "크리티컬 시\n주는 데미지가 3% 상승한다."
 	},
 	{
 		"assign": "155",
 		"jp_text": "Ｓ２：妙撃の志",
-		"tr_text": "S2:Skilled Intent",
+		"tr_text": "S2: 묘격의 의지",
 		"jp_explain": "クリティカル時の\n与ダメージが3％上昇。",
-		"tr_explain": "Boosts critical hit\ndamage by 3%."
+		"tr_explain": "크리티컬 시\n주는 데미지가 3% 상승한다."
 	},
 	{
 		"assign": "156",
 		"jp_text": "Ｓ３：妙撃の志",
-		"tr_text": "S3:Skilled Intent",
+		"tr_text": "S3: 묘격의 의지",
 		"jp_explain": "クリティカル時の\n与ダメージが4％上昇。",
-		"tr_explain": "Boosts critical hit\ndamage by 4%."
+		"tr_explain": "크리티컬 시\n주는 데미지가 4% 상승한다."
 	},
 	{
 		"assign": "157",
 		"jp_text": "Ｓ１：輝充の志",
-		"tr_text": "S1:Brilliant Intent",
+		"tr_text": "S1: 충만한 빛의 의지",
 		"jp_explain": "ＰＰが40％以上の時\n与ダメージが3％上昇。",
-		"tr_explain": "Boosts damage by 3%\nwhile PP is at 40%\nor above."
+		"tr_explain": "PP가 40% 이상일 때\n주는 데미지가\n3% 상승한다."
 	},
 	{
 		"assign": "158",
 		"jp_text": "Ｓ２：輝充の志",
-		"tr_text": "S2:Brilliant Intent",
+		"tr_text": "S2: 충만한 빛의 의지",
 		"jp_explain": "ＰＰが40％以上の時\n与ダメージが3％上昇。",
-		"tr_explain": "Boosts damage by 3%\nwhile PP is at 40%\nor above."
+		"tr_explain": "PP가 40% 이상일 때\n주는 데미지가\n3% 상승한다."
 	},
 	{
 		"assign": "159",
@@ -1122,184 +1122,184 @@
 	{
 		"assign": "160",
 		"jp_text": "Ｓ１：諸刃の撃",
-		"tr_text": "S1:Double-Edged Sword",
+		"tr_text": "S1: 양날의 일격",
 		"jp_explain": "与ダメージが4％上昇し\n抜刀時のみ被ダメージが\n8％増える。",
-		"tr_explain": "Boosts damage by 4%,\nbut you take 8% more\ndamage when your\nweapon is unsheathed."
+		"tr_explain": "주는 데미지가\n4% 상승하지만,\n무기를 꺼낸 동안에만\n받는 데미지가 8% 증가한다."
 	},
 	{
 		"assign": "161",
 		"jp_text": "Ｓ２：諸刃の撃",
-		"tr_text": "S2:Double-Edged Sword",
+		"tr_text": "S2: 양날의 일격",
 		"jp_explain": "与ダメージが3％上昇し\n抜刀時のみ被ダメージが\n6％増える。",
-		"tr_explain": "Boosts damage by 3%,\nbut you take 6% more\ndamage when your\nweapon is unsheathed."
+		"tr_explain": "주는 데미지가\n3% 상승하지만,\n무기를 꺼낸 동안에만\n받는 데미지가 6% 증가한다."
 	},
 	{
 		"assign": "162",
 		"jp_text": "Ｓ３：諸刃の撃",
-		"tr_text": "S3:Double-Edged Sword",
+		"tr_text": "S3: 양날의 일격",
 		"jp_explain": "与ダメージが4％上昇し\n抜刀時のみ被ダメージが\n8％増える。",
-		"tr_explain": "Boosts damage by 4%,\nbut you take 8% more\ndamage when your\nweapon is unsheathed."
+		"tr_explain": "주는 데미지가\n4% 상승하지만,\n무기를 꺼낸 동안에만\n받는 데미지가 8% 증가한다."
 	},
 	{
 		"assign": "163",
 		"jp_text": "Ｓ１：輝勢の恵",
-		"tr_text": "S1:Radiating Grace",
+		"tr_text": "S1: 빛나는 기세의 은혜",
 		"jp_explain": "ＰＰの自然回復速度が\n20％上昇する。",
-		"tr_explain": "Boosts PP regeneration\nby 20%."
+		"tr_explain": "PP 자연 회복 속도가\n20% 상승한다."
 	},
 	{
 		"assign": "164",
 		"jp_text": "Ｓ２：輝勢の恵",
-		"tr_text": "S2:Radiating Grace",
+		"tr_text": "S2: 빛나는 기세의 은혜",
 		"jp_explain": "ＰＰの自然回復速度が\n17％上昇する。",
-		"tr_explain": "Boosts PP regeneration\nby 17%."
+		"tr_explain": "PP 자연 회복 속도가\n17% 상승한다."
 	},
 	{
 		"assign": "165",
 		"jp_text": "Ｓ３：輝勢の恵",
-		"tr_text": "S3:Radiating Grace",
+		"tr_text": "S3: 빛나는 기세의 은혜",
 		"jp_explain": "ＰＰの自然回復速度が\n17％上昇する。",
-		"tr_explain": "Boosts PP regeneration\nby 17%."
+		"tr_explain": "PP 자연 회복 속도가\n17% 상승한다."
 	},
 	{
 		"assign": "166",
 		"jp_text": "Ｓ１：時流活与",
-		"tr_text": "S1:Flowing Exhilaration",
+		"tr_text": "S1: 시류활여",
 		"jp_explain": "40秒ごとに\nＨＰを40％回復する。",
-		"tr_explain": "Recovers 40% of your\nHP every 40 seconds."
+		"tr_explain": "40초마다\nHP를 40% 회복한다."
 	},
 	{
 		"assign": "167",
 		"jp_text": "Ｓ２：時流活与",
-		"tr_text": "S2:Flowing Exhilaration",
+		"tr_text": "S2: 시류활여",
 		"jp_explain": "40秒ごとに\nＨＰを60％回復する。",
-		"tr_explain": "Recovers 60% of your\nHP every 40 seconds."
+		"tr_explain": "40초마다\nHP를 60% 회복한다."
 	},
 	{
 		"assign": "168",
 		"jp_text": "Ｓ３：時流活与",
-		"tr_text": "S3:Flowing Exhilaration",
+		"tr_text": "S3: 시류활여",
 		"jp_explain": "40秒ごとに\nＨＰを40％回復する。",
-		"tr_explain": "Recovers 40% of your\nHP every 40 seconds."
+		"tr_explain": "40초마다\nHP를 40% 회복한다."
 	},
 	{
 		"assign": "169",
 		"jp_text": "Ｓ４：瞬護輝与",
-		"tr_text": "S4:Marvelous Aegis",
+		"tr_text": "S4: 순호휘여",
 		"jp_explain": "ジャストガード成功時\nＰＰを10回復する。",
-		"tr_explain": "Recovers 10 PP on a\nsuccessful Just Guard."
+		"tr_explain": "저스트 가드에 성공하면\nPP를 10 회복한다."
 	},
 	{
 		"assign": "170",
 		"jp_text": "Ｓ４：鋼の決意",
-		"tr_text": "S4:Steel Resolve",
+		"tr_text": "S4: 강철의 결의",
 		"jp_explain": "致命傷を受けても\n一度限りだが必ず\nＨＰが1残る。",
-		"tr_explain": "Survive one fatal hit\nwith 1 HP remaining."
+		"tr_explain": "치명상을 입어도\n한 번은 반드시 HP가 1 남는다."
 	},
 	{
 		"assign": "171",
 		"jp_text": "Ｓ４：輝器応変",
-		"tr_text": "S4:Radiant Response",
+		"tr_text": "S4: 휘기응변",
 		"jp_explain": "最大ＰＰに応じて\n攻撃時ＰＰ回復量、\nＰＰ自然回復量、\nＰＰ消費軽減効果が\n最大で30％上昇。",
-		"tr_explain": "Boosts attack PP\nrecovery and PP\nregeneration and\nreduces PP consumption\nby up to 30%, based\non your maximum PP."
+		"tr_explain": "최대 PP에 따라\n공격 시 PP 회복량,\nPP 자연 회복량,\nPP 소비량 경감 효과가\n최대 30%까지\n상승한다."
 	},
 	{
 		"assign": "172",
 		"jp_text": "Ｓ４：正対の巧",
-		"tr_text": "S4:Opposing Skill",
+		"tr_text": "S4: 정면의 기교",
 		"jp_explain": "ブレイブスタンス中\n正面へのクリティカル率が\n30％上昇。",
-		"tr_explain": "During Brave Stance,\nraises frontal critical\nrate by 30%."
+		"tr_explain": "브레이브 스탠스 중\n정면 공격의 크리티컬 확률이\n30% 상승한다."
 	},
 	{
 		"assign": "173",
 		"jp_text": "Ｓ４：鎌風重吹",
-		"tr_text": "S4:Scything Wind",
+		"tr_text": "S4: 겹쳐 부는 바람 칼날",
 		"jp_explain": "カマイタチの持続時間が\n4秒延長される。",
-		"tr_explain": "Extends Kamaitachi\nduration by 4 seconds."
+		"tr_explain": "바람 칼날의 지속 시간이\n4초 늘어난다."
 	},
 	{
 		"assign": "174",
 		"jp_text": "Ｓ４：賢勇両撃",
-		"tr_text": "S4:Cunning Strike",
+		"tr_text": "S4: 현용양격",
 		"jp_explain": "ワイズスタンス中\n正面からの与ダメージが\n15％上昇。",
-		"tr_explain": "During Wise Stance, boosts\nfrontal damage by 15%."
+		"tr_explain": "와이즈 스탠스 중 정면에서\n주는 데미지가 15% 상승한다."
 	},
 	{
 		"assign": "175",
 		"jp_text": "Ｓ４：奪命の撃",
-		"tr_text": "S4:Vampiric Strike",
+		"tr_text": "S4: 탈명의 일격",
 		"jp_explain": "攻撃時に与ダメージの\n1％をＨＰとして吸収。\n（上限30）",
-		"tr_explain": "Recovers HP equal to\n1% of damage dealt.\n(Max: 30)"
+		"tr_explain": "공격 시 준 데미지의\n1%를 HP로 흡수한다.\n(상한 30)"
 	},
 	{
 		"assign": "176",
 		"jp_text": "Ｓ４：静の胆力",
-		"tr_text": "S4:Steadfast Courage",
+		"tr_text": "S4: 고요한 담력",
 		"jp_explain": "1秒間、静止状態が\n続いた時、打ち上げや\n吹き飛ばしを防ぐ。",
-		"tr_explain": "Become immune to\nknockback when\nstanding still for longer\nthan 1 second."
+		"tr_explain": "1초 동안\n정지 상태를 유지하면\n공중에 뜨거나\n날아가는 것을 막는다."
 	},
 	{
 		"assign": "177",
 		"jp_text": "Ｓ４：輝剰の罠",
-		"tr_text": "S4:Lustrous Trap",
+		"tr_text": "S4: 넘치는 빛의 덫",
 		"jp_explain": "タクティクストラップの\nＰＰ回復量が20％上昇。",
-		"tr_explain": "Boosts PP recovery\nfrom Tactics Trap\nby 20%."
+		"tr_explain": "택틱스 트랩의\nPP 회복량이\n20% 상승한다."
 	},
 	{
 		"assign": "178",
 		"jp_text": "Ｓ４：鎖動強身",
-		"tr_text": "S4:Dynamic Chain",
+		"tr_text": "S4: 쇄동강신",
 		"jp_explain": "チェイントリガー発動時\n5秒間、無敵になる。",
-		"tr_explain": "Become invincible for 5\nseconds when you\nactivate Chain Trigger."
+		"tr_explain": "체인 트리거 발동 시\n5초 동안\n무적 상태가 된다."
 	},
 	{
 		"assign": "179",
 		"jp_text": "Ｓ４：摂理洗練",
-		"tr_text": "S4:Refined Providence",
+		"tr_text": "S4: 섭리 세련",
 		"jp_explain": "エレメント\nコンバージョンが\n強化される。",
-		"tr_explain": "Enhances Element\nConversion."
+		"tr_explain": "엘리먼트 컨버전이\n강화된다."
 	},
 	{
 		"assign": "180",
 		"jp_text": "Ｓ４：回路輪転",
-		"tr_text": "S4:Circuit Rotation",
+		"tr_text": "S4: 회로 윤전",
 		"jp_explain": "フォトンフレアの\nリキャスト時間を\n20％軽減する。",
-		"tr_explain": "Reduces Photon Flare\ncooldown by 20%."
+		"tr_explain": "포톤 플레어의\n재사용 대기 시간이 20% 감소한다."
 	},
 	{
 		"assign": "181",
 		"jp_text": "Ｓ４：短杖強打",
-		"tr_text": "S4:Wand Clobber",
+		"tr_text": "S4: 단장 강타",
 		"jp_explain": "ウォンドの通常攻撃\n性能が強化される。",
-		"tr_explain": "Enhances Wand's\nNormal Attacks."
+		"tr_explain": "완드의 일반 공격\n성능이 강화된다."
 	},
 	{
 		"assign": "182",
 		"jp_text": "Ｓ４：刃機放縮",
-		"tr_text": "S4:Gear Reduction",
+		"tr_text": "S4: 인기방축",
 		"jp_explain": "カタナギア解放中\nギアゲージの減少速度が\n低下する。",
-		"tr_explain": "Decreases rate that\nGear Gauge empties\nwhile Katana Gear is\nactive."
+		"tr_explain": "카타나 기어 해방 중\n기어 게이지가\n감소하는 속도가\n느려진다."
 	},
 	{
 		"assign": "183",
 		"jp_text": "Ｓ４：迅弓の撃",
-		"tr_text": "S4: Rapid-fire Arrow",
+		"tr_text": "S4: 신궁의 일격",
 		"jp_explain": "ラピッドシュート中\nバレットボウ装備時に\n与ダメージが3％上昇。",
-		"tr_explain": "Boosts Bullet Bow\ndamage by 3% during\nRapid Shot."
+		"tr_explain": "래피드 슛 중\n불릿 보우를 장비하면\n주는 데미지가 3% 상승한다."
 	},
 	{
 		"assign": "184",
 		"jp_text": "Ｓ４：支援限長",
-		"tr_text": "S4:Support Extension",
+		"tr_text": "S4: 지원 한계 연장",
 		"jp_explain": "シフタ、デバンドの\n効果時間上限を\n120秒に延長する。",
-		"tr_explain": "Extends the effect of\nShifta and Deband to\nlast 120 seconds."
+		"tr_explain": "시프타와 데반드의\n효과 시간 상한을\n120초로 늘린다."
 	},
 	{
 		"assign": "185",
 		"jp_text": "Ｓ４：変素応輪",
-		"tr_text": "S4:Genesis Ring",
+		"tr_text": "S4: 변소응륜",
 		"jp_explain": "装備している\nガード系リングに応じて\n武器属性が変化する。",
-		"tr_explain": "Changes the weapon's\nattribute to match an\nequipped Guard ring."
+		"tr_explain": "장비한\n가드 계열 링에 따라\n무기 속성이 바뀐다."
 	},
 	{
 		"assign": "186",
@@ -1311,23 +1311,23 @@
 	{
 		"assign": "187",
 		"jp_text": "Ｓ２：瞬撃繚乱",
-		"tr_text": "S2:Immediate Profusion",
+		"tr_text": "S2: 순격요란",
 		"jp_explain": "別のＰＡやテクニックを\nジャストアタックすると\n与ダメージが3％上昇。",
-		"tr_explain": "Boosts damage by 3%\nwhen Just Attacking\ndifferent PAs or Techs."
+		"tr_explain": "다른 PA나 테크닉으로\n저스트 어택을 하면\n주는 데미지가 3% 상승한다."
 	},
 	{
 		"assign": "188",
 		"jp_text": "Ｓ３：瞬撃繚乱",
-		"tr_text": "S3:Immediate Profusion",
+		"tr_text": "S3: 순격요란",
 		"jp_explain": "別のＰＡやテクニックを\nジャストアタックすると\n与ダメージが3％上昇。",
-		"tr_explain": "Boosts damage by 3%\nwhen Just Attacking\ndifferent PAs or Techs."
+		"tr_explain": "다른 PA나 테크닉으로\n저스트 어택을 하면\n주는 데미지가 3% 상승한다."
 	},
 	{
 		"assign": "189",
 		"jp_text": "Ｓ１：瞬連の志",
-		"tr_text": "S1:Immediate Intent",
+		"tr_text": "S1: 순련의 의지",
 		"jp_explain": "連続でジャストアタックに\n成功すると、最大3％まで\n与ダメージが上昇。",
-		"tr_explain": "Boosts damage by 2%\nfor each Just Attack in\na row. Max boost: 3%."
+		"tr_explain": "연속으로 저스트 어택에\n성공하면 주는 데미지가\n최대 3% 상승한다."
 	},
 	{
 		"assign": "190",
@@ -1346,16 +1346,16 @@
 	{
 		"assign": "192",
 		"jp_text": "Ｓ１：気輝応変",
-		"tr_text": "S1:Spirited Response",
+		"tr_text": "S1: 기휘응변",
 		"jp_explain": "ＰＰの自然回復速度が\n納刀時80％上昇\n抜刀時100％低下。",
-		"tr_explain": "Boosts PP regeneration\nby 80% while sheathed.\nHalts PP regeneration\nwhile unsheathed."
+		"tr_explain": "PP 자연 회복 속도가\n무기를 넣은 동안 80% 상승하고\n무기를 꺼낸 동안에는\n100% 감소한다."
 	},
 	{
 		"assign": "193",
 		"jp_text": "Ｓ２：気輝応変",
-		"tr_text": "S2:Spirited Response",
+		"tr_text": "S2: 기휘응변",
 		"jp_explain": "ＰＰの自然回復速度が\n納刀時100％上昇\n抜刀時100％低下。",
-		"tr_explain": "Boosts PP regeneration\nby 100% while sheathed.\nHalts PP regeneration\nwhile unsheathed."
+		"tr_explain": "PP 자연 회복 속도가\n무기를 넣은 동안 100% 상승하고\n무기를 꺼낸 동안에는\n100% 감소한다."
 	},
 	{
 		"assign": "194",
@@ -1367,23 +1367,23 @@
 	{
 		"assign": "195",
 		"jp_text": "Ｓ１：滅域輝与",
-		"tr_text": "S1:Brilliant Ruin",
+		"tr_text": "S1: 멸역휘여",
 		"jp_explain": "一定の範囲内で\nエネミーが死亡した時\nＰＰが3回復する。",
-		"tr_explain": "Recovers 3 PP each\ntime a nearby enemy\nis defeated."
+		"tr_explain": "일정 범위 안에서\n적이 죽으면\nPP를 3 회복한다."
 	},
 	{
 		"assign": "196",
 		"jp_text": "Ｓ２：滅域輝与",
-		"tr_text": "S2:Brilliant Ruin",
+		"tr_text": "S2: 멸역휘여",
 		"jp_explain": "一定の範囲内で\nエネミーが死亡した時\nＰＰが3回復する。",
-		"tr_explain": "Recovers 3 PP each\ntime a nearby enemy\nis defeated."
+		"tr_explain": "일정 범위 안에서\n적이 죽으면\nPP를 3 회복한다."
 	},
 	{
 		"assign": "197",
 		"jp_text": "Ｓ３：滅域輝与",
-		"tr_text": "S3:Brilliant Ruin",
+		"tr_text": "S3: 멸역휘여",
 		"jp_explain": "一定の範囲内で\nエネミーが死亡した時\nＰＰが3回復する。",
-		"tr_explain": "Recovers 3 PP each\ntime a nearby enemy\nis defeated."
+		"tr_explain": "일정 범위 안에서\n적이 죽으면\nPP를 3 회복한다."
 	},
 	{
 		"assign": "198",
@@ -1402,686 +1402,686 @@
 	{
 		"assign": "200",
 		"jp_text": "隣闘連陣",
-		"tr_text": "",
+		"tr_text": "인접 전투 진형",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "201",
 		"jp_text": "負滅牙",
-		"tr_text": "",
+		"tr_text": "부멸아",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "202",
 		"jp_text": "原生滅牙",
-		"tr_text": "",
+		"tr_text": "원생멸아",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "203",
 		"jp_text": "機甲滅牙",
-		"tr_text": "",
+		"tr_text": "기갑멸아",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "204",
 		"jp_text": "龍滅牙",
-		"tr_text": "Dragon Fang",
+		"tr_text": "용멸아",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "205",
 		"jp_text": "海王滅牙",
-		"tr_text": "God Fang",
+		"tr_text": "해왕멸아",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "206",
 		"jp_text": "妖滅牙",
-		"tr_text": "",
+		"tr_text": "요멸아",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "207",
 		"jp_text": "壊世滅牙",
-		"tr_text": "",
+		"tr_text": "괴세멸아",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "208",
 		"jp_text": "属性値強化",
-		"tr_text": "",
+		"tr_text": "속성치 강화",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "209",
 		"jp_text": "背水陣",
-		"tr_text": "",
+		"tr_text": "배수진",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "210",
 		"jp_text": "常昂気功",
-		"tr_text": "",
+		"tr_text": "상시 고양 기공",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "211",
 		"jp_text": "必撃衝打",
-		"tr_text": "",
+		"tr_text": "필격충타",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "212",
 		"jp_text": "古の誓い",
-		"tr_text": "",
+		"tr_text": "태고의 맹세",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "213",
 		"jp_text": "追の衝撃",
-		"tr_text": "",
+		"tr_text": "추격의 충격",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "214",
 		"jp_text": "強闘心",
-		"tr_text": "",
+		"tr_text": "강적 투지",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "215",
 		"jp_text": "瞬闇の翼",
-		"tr_text": "",
+		"tr_text": "찰나의 어둠 날개",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "216",
 		"jp_text": "心血万全の剛力",
-		"tr_text": "",
+		"tr_text": "온전한 생명의 힘",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "217",
 		"jp_text": "限界駆動",
-		"tr_text": "",
+		"tr_text": "한계 구동",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "218",
 		"jp_text": "幻精天恵",
-		"tr_text": "",
+		"tr_text": "환정의 천혜",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "219",
 		"jp_text": "青息の施し",
-		"tr_text": "",
+		"tr_text": "한숨의 은혜",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "220",
 		"jp_text": "止息の施し",
-		"tr_text": "",
+		"tr_text": "휴식의 은혜",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "221",
 		"jp_text": "安息の施し",
-		"tr_text": "",
+		"tr_text": "안식의 은혜",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "222",
 		"jp_text": "慈愛の風",
-		"tr_text": "",
+		"tr_text": "자애의 바람",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "223",
 		"jp_text": "修羅の構え",
-		"tr_text": "",
+		"tr_text": "수라의 자세",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "224",
 		"jp_text": "絶強印",
-		"tr_text": "",
+		"tr_text": "절강인",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "225",
 		"jp_text": "絶対障壁",
-		"tr_text": "",
+		"tr_text": "절대 장벽",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "226",
 		"jp_text": "集気光",
-		"tr_text": "",
+		"tr_text": "집기광",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "227",
 		"jp_text": "調甲変換",
-		"tr_text": "",
+		"tr_text": "갑주 변환",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "228",
 		"jp_text": "共闘の調べ",
-		"tr_text": "",
+		"tr_text": "공투의 선율",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "229",
 		"jp_text": "共奏の輝き",
-		"tr_text": "",
+		"tr_text": "합주의 빛",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "230",
 		"jp_text": "一心同体の功",
-		"tr_text": "",
+		"tr_text": "일심동체의 공",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "231",
 		"jp_text": "再起の旋風",
-		"tr_text": "",
+		"tr_text": "재기의 선풍",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "232",
 		"jp_text": "属性変化（炎）",
-		"tr_text": "",
+		"tr_text": "속성 변화(염)",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "233",
 		"jp_text": "属性変化（氷）",
-		"tr_text": "",
+		"tr_text": "속성 변화(빙)",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "234",
 		"jp_text": "属性変化（雷）",
-		"tr_text": "",
+		"tr_text": "속성 변화(뇌)",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "235",
 		"jp_text": "属性変化（風）",
-		"tr_text": "",
+		"tr_text": "속성 변화(풍)",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "236",
 		"jp_text": "属性変化（光）",
-		"tr_text": "",
+		"tr_text": "속성 변화(광)",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "237",
 		"jp_text": "属性変化（闇）",
-		"tr_text": "",
+		"tr_text": "속성 변화(암)",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "238",
 		"jp_text": "幻創滅牙",
-		"tr_text": "",
+		"tr_text": "환창멸아",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "239",
 		"jp_text": "クリティカルⅠ",
-		"tr_text": "",
+		"tr_text": "크리티컬Ⅰ",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "240",
 		"jp_text": "PPスレイヤー",
-		"tr_text": "",
+		"tr_text": "PP 슬레이어",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "241",
 		"jp_text": "PPマルチ効果",
-		"tr_text": "",
+		"tr_text": "PP 복합 효과",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "242",
 		"jp_text": "遠距離支援",
-		"tr_text": "",
+		"tr_text": "원거리 지원",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "243",
 		"jp_text": "ＰＰオーバースレイヤー",
-		"tr_text": "",
+		"tr_text": "PP 오버 슬레이어",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "244",
 		"jp_text": "アルターエゴ強化",
-		"tr_text": "",
+		"tr_text": "알터 에고 강화",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "245",
 		"jp_text": "魔物滅牙",
-		"tr_text": "",
+		"tr_text": "마물멸아",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "246",
 		"jp_text": "障壁強化",
-		"tr_text": "",
+		"tr_text": "장벽 강화",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "247",
 		"jp_text": "部位破壊ボーナス",
-		"tr_text": "",
+		"tr_text": "부위 파괴 보너스",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "248",
 		"jp_text": "周囲エネミー数ボーナス",
-		"tr_text": "",
+		"tr_text": "주변 적 수 보너스",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "249",
 		"jp_text": "キルカウント",
-		"tr_text": "",
+		"tr_text": "킬 카운트",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "250",
 		"jp_text": "心血万全の剛力２",
-		"tr_text": "",
+		"tr_text": "온전한 생명의 힘 2",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "251",
 		"jp_text": "強闘心２",
-		"tr_text": "",
+		"tr_text": "강적 투지 2",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "252",
 		"jp_text": "ＰＰスレイヤー２",
-		"tr_text": "",
+		"tr_text": "PP 슬레이어 2",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "253",
 		"jp_text": "遠距離支援２",
-		"tr_text": "",
+		"tr_text": "원거리 지원 2",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "254",
 		"jp_text": "複合パーフェクトキーパー",
-		"tr_text": "",
+		"tr_text": "복합 퍼펙트 키퍼",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "255",
 		"jp_text": "複合アルターエゴ強化",
-		"tr_text": "",
+		"tr_text": "복합 알터 에고 강화",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "256",
 		"jp_text": "複合デッドラインスレイヤー",
-		"tr_text": "",
+		"tr_text": "복합 데드라인 슬레이어",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "257",
 		"jp_text": "限界駆動２",
-		"tr_text": "",
+		"tr_text": "한계 구동 2",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "258",
 		"jp_text": "PPマルチ効果２",
-		"tr_text": "",
+		"tr_text": "PP 복합 효과 2",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "259",
 		"jp_text": "複合PBGダメージボーナス",
-		"tr_text": "",
+		"tr_text": "복합 PBG 데미지 보너스",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "260",
 		"jp_text": "複合ジャイアントキリング",
-		"tr_text": "",
+		"tr_text": "복합 자이언트 킬링",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "261",
 		"jp_text": "複合キルカウントボーナス",
-		"tr_text": "",
+		"tr_text": "복합 킬 카운트 보너스",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "262",
 		"jp_text": "複合オーバーPPスレイヤー",
-		"tr_text": "",
+		"tr_text": "복합 오버 PP 슬레이어",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "263",
 		"jp_text": "複合クリティカルストライク",
-		"tr_text": "",
+		"tr_text": "복합 크리티컬 스트라이크",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "264",
 		"jp_text": "複合PPオーバードライブ",
-		"tr_text": "",
+		"tr_text": "복합 PP 오버드라이브",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "265",
 		"jp_text": "タイムカウントシンパシー",
-		"tr_text": "",
+		"tr_text": "타임 카운트 심퍼시",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "266",
 		"jp_text": "エレメントウェポンペット",
-		"tr_text": "",
+		"tr_text": "엘리먼트 웨폰 펫",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "267",
 		"jp_text": "エレメントウェポンペット2",
-		"tr_text": "",
+		"tr_text": "엘리먼트 웨폰 펫 2",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "268",
 		"jp_text": "エレメントウェポンペット3",
-		"tr_text": "",
+		"tr_text": "엘리먼트 웨폰 펫 3",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "269",
 		"jp_text": "リスクダメージペット",
-		"tr_text": "",
+		"tr_text": "리스크 데미지 펫",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "270",
 		"jp_text": "ダークブラストボーナス",
-		"tr_text": "",
+		"tr_text": "다크 블래스트 보너스",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "271",
 		"jp_text": "隣闘連陣2",
-		"tr_text": "",
+		"tr_text": "인접 전투 진형 2",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "272",
 		"jp_text": "てきちゅうパフェ",
-		"tr_text": "",
+		"tr_text": "적중 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "273",
 		"jp_text": "超てきちゅうパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 적중 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "274",
 		"jp_text": "ちゅうもくロール",
-		"tr_text": "",
+		"tr_text": "주목 롤",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "275",
 		"jp_text": "めろめろロール",
-		"tr_text": "",
+		"tr_text": "헤롱헤롱 롤",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "276",
 		"jp_text": "どきどきパフェ",
-		"tr_text": "",
+		"tr_text": "두근두근 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "277",
 		"jp_text": "超どきどきパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 두근두근 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "278",
 		"jp_text": "ふんわりロール",
-		"tr_text": "",
+		"tr_text": "폭신폭신 롤",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "279",
 		"jp_text": "超ぴったりパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 꼭 맞는 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "280",
 		"jp_text": "超ひっさつパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 필살 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "281",
 		"jp_text": "超ぎゃくてんパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 역전 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "282",
 		"jp_text": "超げきからパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 매운맛 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "283",
 		"jp_text": "超ブラストパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 블래스트 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "284",
 		"jp_text": "超ぐんぐんパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 쑥쑥 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "285",
 		"jp_text": "超はりきりパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 의욕만만 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "286",
 		"jp_text": "超かけひきパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 밀고 당기기 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "287",
 		"jp_text": "超アルティメットパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 얼티밋 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "288",
 		"jp_text": "超まんぷくパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 배부른 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "289",
 		"jp_text": "超ぶいぶいパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 기세등등 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "290",
 		"jp_text": "超どたばたパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 우당탕 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "291",
 		"jp_text": "絶品どきどきパフェ",
-		"tr_text": "",
+		"tr_text": "일품 두근두근 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "292",
 		"jp_text": "絶品てきちゅうパフェ",
-		"tr_text": "",
+		"tr_text": "일품 적중 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "293",
 		"jp_text": "どっしりパフェ",
-		"tr_text": "",
+		"tr_text": "묵직한 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "294",
 		"jp_text": "超どっしりパフェ",
-		"tr_text": "",
+		"tr_text": "슈퍼 묵직한 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "295",
 		"jp_text": "絶品きあいパフェ",
-		"tr_text": "",
+		"tr_text": "일품 기합 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "296",
 		"jp_text": "絶品ぜいたくパフェ",
-		"tr_text": "",
+		"tr_text": "일품 호화 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "297",
 		"jp_text": "絶品かけひきパフェ",
-		"tr_text": "",
+		"tr_text": "일품 밀고 당기기 파르페",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
@@ -2459,65 +2459,65 @@
 	{
 		"assign": "351",
 		"jp_text": "Ｓ１：時流の恵",
-		"tr_text": "S1:Flowing Grace",
+		"tr_text": "S1: 시류의 은혜",
 		"jp_explain": "4秒ごとに\nＰＰを10回復する。",
-		"tr_explain": "Recovers 10 PP every\n4 seconds."
+		"tr_explain": "4초마다\nPP를 10 회복한다."
 	},
 	{
 		"assign": "352",
 		"jp_text": "Ｓ２：時流の恵",
-		"tr_text": "S2:Flowing Grace",
+		"tr_text": "S2: 시류의 은혜",
 		"jp_explain": "4秒ごとに\nＰＰを10回復する。",
-		"tr_explain": "Recovers 10 PP every\n4 seconds."
+		"tr_explain": "4초마다\nPP를 10 회복한다."
 	},
 	{
 		"assign": "353",
 		"jp_text": "Ｓ３：時流の恵",
-		"tr_text": "S2:Flowing Grace",
+		"tr_text": "S3: 시류의 은혜",
 		"jp_explain": "4秒ごとに\nＰＰを7回復する。",
-		"tr_explain": "Recovers 7 PP every\n4 seconds."
+		"tr_explain": "4초마다\nPP를 7 회복한다."
 	},
 	{
 		"assign": "354",
 		"jp_text": "Ｓ１：花ノ赤閃",
-		"tr_text": "S1:Red Petal Flash",
+		"tr_text": "S1: 꽃의 붉은 섬광",
 		"jp_explain": "与ダメージ450,000毎に\n30秒間\n3％威力上昇。",
-		"tr_explain": "Boosts damage by 3%\nfor 30 seconds each\ntime you deal a total\nof 450,000 damage."
+		"tr_explain": "주는 데미지가\n450,000에 이를 때마다\n30초 동안\n위력이 3% 상승한다."
 	},
 	{
 		"assign": "355",
 		"jp_text": "Ｓ１：海ノ青閃",
-		"tr_text": "S1:Blue Ocean Flash",
+		"tr_text": "S1: 바다의 푸른 섬광",
 		"jp_explain": "被ダメージ600毎に\n30秒間\n毎秒ＨＰが4％回復。",
-		"tr_explain": "Recovers 4% of your\nHP every second for\n30 seconds each time\nyou take a total of 600\ndamage."
+		"tr_explain": "받은 데미지가\n600에 이를 때마다\n30초 동안\n매초 HP를\n4% 회복한다."
 	},
 	{
 		"assign": "356",
 		"jp_text": "Ｓ１：葉ノ緑閃",
-		"tr_text": "S1:Green Leaf Flash",
+		"tr_text": "S1: 잎의 초록 섬광",
 		"jp_explain": "被ダメージを8％軽減し\n怯まなくなるバリアが\n20秒間隔で発生・消滅。",
-		"tr_explain": "Grants a barrier that\ncuts damage you take\nby 8% and prevents\nflinching or being\nknocked down. The\nbarrier toggles on/off\nevery 20 seconds."
+		"tr_explain": "받는 데미지를\n8% 줄이고\n경직을 막는\n배리어가\n20초 간격으로\n생성되었다가\n사라진다."
 	},
 	{
 		"assign": "357",
 		"jp_text": "Ｓ１：月ノ黄閃",
-		"tr_text": "S1:Yellow Moon Flash",
+		"tr_text": "S1: 달의 노란 섬광",
 		"jp_explain": "ジャストガード成功時に\n20秒間\nＰＰ消費量を8％軽減。",
-		"tr_explain": "Reduces your PP\nconsumption by 8% for\n20 seconds each time\nyou successfully\nperform a Just Guard."
+		"tr_explain": "저스트 가드에\n성공하면\n20초 동안\nPP 소비량이\n8% 감소한다."
 	},
 	{
 		"assign": "358",
 		"jp_text": "Ｓ１：雪ノ白閃",
-		"tr_text": "S1:White Snow Flash",
+		"tr_text": "S1: 눈의 흰 섬광",
 		"jp_explain": "発動時PP消費量150毎に\n30秒間、攻撃時の\nＰＰ回復量が20％上昇。",
-		"tr_explain": "Boosts attack PP\nrecovery by 20% for\n30 seconds each time\nyou use a total of\n150 PP."
+		"tr_explain": "발동 시 소비한 PP가\n150에 이를 때마다\n30초 동안\n공격 시 PP 회복량이\n20% 상승한다."
 	},
 	{
 		"assign": "359",
 		"jp_text": "Ｓ１：影ノ黒閃",
-		"tr_text": "S1:Black Shadow Flash",
+		"tr_text": "S1: 그림자의 검은 섬광",
 		"jp_explain": "5秒間静止する毎に\n20秒間、ＰＰの\n自然回復量が20％上昇。",
-		"tr_explain": "Boosts PP regeneration\nby 20% for 20 seconds\neach time you stand\nstill for 5 seconds."
+		"tr_explain": "5초간 정지할 때마다\n20초 동안\nPP 자연 회복량이\n20% 상승한다."
 	},
 	{
 		"assign": "360",
@@ -2529,16 +2529,16 @@
 	{
 		"assign": "361",
 		"jp_text": "Ｓ２：花海雪の志",
-		"tr_text": "S2:Nature's Intent",
+		"tr_text": "S2: 꽃, 바다, 눈의 의지",
 		"jp_explain": "花ノ赤閃、海ノ青閃または\n雪ノ白閃が発動中\n与ダメージが3％上昇。",
-		"tr_explain": "While Red Petal Flash,\nBlue Ocean Flash or\nWhite Snow Flash is\nactive:\nBoosts damage by 3%."
+		"tr_explain": "꽃의 붉은 섬광,\n바다의 푸른 섬광 또는\n눈의 흰 섬광이\n발동 중이면\n주는 데미지가 3% 상승한다."
 	},
 	{
 		"assign": "362",
 		"jp_text": "Ｓ３：月葉影の志",
-		"tr_text": "S3:Umbrageous Intent",
+		"tr_text": "S3: 달, 잎, 그림자의 의지",
 		"jp_explain": "月ノ黄閃、葉ノ緑閃または\n影ノ黒閃が発動中\n与ダメージが3％上昇。",
-		"tr_explain": "While Green Leaf Flash,\nYellow Moon Flash or\nBlack Shadow Flash is\nactive:\nBoosts damage by 3%."
+		"tr_explain": "달의 노란 섬광,\n잎의 초록 섬광 또는\n그림자의 검은 섬광이\n발동 중이면\n주는 데미지가 3% 상승한다."
 	},
 	{
 		"assign": "363",
@@ -2550,16 +2550,16 @@
 	{
 		"assign": "364",
 		"jp_text": "Ｓ２：月葉影の備",
-		"tr_text": "S2:Umbrageous Guardian",
+		"tr_text": "S2: 달, 잎, 그림자의 대비",
 		"jp_explain": "月ノ黄閃、葉ノ緑閃または\n影ノ黒閃が発動中\n被ダメージを12％軽減。",
-		"tr_explain": "While Green Leaf Flash,\nYellow Moon Flash or\nBlack Shadow Flash is\nactive:\nReduces damage taken\nfrom enemies by 12%."
+		"tr_explain": "달의 노란 섬광,\n잎의 초록 섬광 또는\n그림자의 검은 섬광이\n발동 중이면\n받는 데미지가\n12% 감소한다."
 	},
 	{
 		"assign": "365",
 		"jp_text": "Ｓ３：花海雪の備",
-		"tr_text": "S3:Nature's Guardian",
+		"tr_text": "S3: 꽃, 바다, 눈의 대비",
 		"jp_explain": "花ノ赤閃、海ノ青閃または\n雪ノ白閃が発動中\n被ダメージを10％軽減。",
-		"tr_explain": "While Red Petal Flash,\nBlue Ocean Flash or\nWhite Snow Flash is\nactive:\nReduces damage taken\nfrom enemies by 10%."
+		"tr_explain": "꽃의 붉은 섬광,\n바다의 푸른 섬광 또는\n눈의 흰 섬광이\n발동 중이면\n받는 데미지가\n10% 감소한다."
 	},
 	{
 		"assign": "366",
@@ -2571,16 +2571,16 @@
 	{
 		"assign": "367",
 		"jp_text": "Ｓ２：花海雪の縮減",
-		"tr_text": "S2:Nature's Reduction",
+		"tr_text": "S2: 꽃, 바다, 눈의 경감",
 		"jp_explain": "花ノ赤閃、海ノ青閃または\n雪ノ白閃が発動中\nＰＰ消費量を12％軽減。",
-		"tr_explain": "While Red Petal Flash,\nBlue Ocean Flash or\nWhite Snow Flash is\nactive:\nReduces your PP\nconsumption by 12%."
+		"tr_explain": "꽃의 붉은 섬광,\n바다의 푸른 섬광 또는\n눈의 흰 섬광이\n발동 중이면\nPP 소비량이\n12% 감소한다."
 	},
 	{
 		"assign": "368",
 		"jp_text": "Ｓ３：月葉影の縮減",
-		"tr_text": "S3:Umbrageous Reduction",
+		"tr_text": "S3: 달, 잎, 그림자의 경감",
 		"jp_explain": "月ノ黄閃、葉ノ緑閃または\n影ノ黒閃が発動中\nＰＰ消費量を14％軽減。",
-		"tr_explain": "While Green Leaf Flash,\nYellow Moon Flash or\nBlack Shadow Flash is\nactive:\nReduces your PP\nconsumption by 14%."
+		"tr_explain": "달의 노란 섬광,\n잎의 초록 섬광 또는\n그림자의 검은 섬광이\n발동 중이면\nPP 소비량이\n14% 감소한다."
 	},
 	{
 		"assign": "369",
@@ -2592,16 +2592,16 @@
 	{
 		"assign": "370",
 		"jp_text": "Ｓ２：花海雪の活与",
-		"tr_text": "S2:Nature's Exhilaration",
+		"tr_text": "S2: 꽃, 바다, 눈의 생명 회복",
 		"jp_explain": "花ノ赤閃、海ノ青閃または\n雪ノ白閃が発動中\n毎秒ＨＰが2％回復。",
-		"tr_explain": "While Red Petal Flash,\nBlue Ocean Flash or\nWhite Snow Flash is\nactive:\nRecovers 2% of your\nHP every second."
+		"tr_explain": "꽃의 붉은 섬광,\n바다의 푸른 섬광 또는\n눈의 흰 섬광이\n발동 중이면\n매초 HP를\n2% 회복한다."
 	},
 	{
 		"assign": "371",
 		"jp_text": "Ｓ３：月葉影の活与",
-		"tr_text": "S3:Umbrageous Exhilaration",
+		"tr_text": "S3: 달, 잎, 그림자의 생명 회복",
 		"jp_explain": "月ノ黄閃、葉ノ緑閃または\n影ノ黒閃が発動中\n毎秒ＨＰが2％回復。",
-		"tr_explain": "While Green Leaf Flash,\nYellow Moon Flash or\nBlack Shadow Flash is\nactive:\nRecovers 2% of your\nHP every second."
+		"tr_explain": "달의 노란 섬광,\n잎의 초록 섬광 또는\n그림자의 검은 섬광이\n발동 중이면\n매초 HP를\n2% 회복한다."
 	},
 	{
 		"assign": "372",
@@ -2613,16 +2613,16 @@
 	{
 		"assign": "373",
 		"jp_text": "Ｓ２：花海雪の巧",
-		"tr_text": "S2:Nature's Skill",
+		"tr_text": "S2: 꽃, 바다, 눈의 기교",
 		"jp_explain": "花ノ赤閃、海ノ青閃または\n雪ノ白閃が発動中\nクリティカル率20％上昇。",
-		"tr_explain": "While Red Petal Flash,\nBlue Ocean Flash or\nWhite Snow Flash is\nactive:\nIncreases your critical\nhit rate by 20%."
+		"tr_explain": "꽃의 붉은 섬광,\n바다의 푸른 섬광 또는\n눈의 흰 섬광이\n발동 중이면\n크리티컬 확률이\n20% 상승한다."
 	},
 	{
 		"assign": "374",
 		"jp_text": "Ｓ３：月葉影の巧",
-		"tr_text": "S3:Umbrageous Skill",
+		"tr_text": "S3: 달, 잎, 그림자의 기교",
 		"jp_explain": "月ノ黄閃、葉ノ緑閃または\n影ノ黒閃が発動中\nクリティカル率20％上昇。",
-		"tr_explain": "While Green Leaf Flash,\nYellow Moon Flash or\nBlack Shadow Flash is\nactive:\nIncreases your critical\nhit rate by 20%."
+		"tr_explain": "달의 노란 섬광,\n잎의 초록 섬광 또는\n그림자의 검은 섬광이\n발동 중이면\n크리티컬 확률이\n20% 상승한다."
 	},
 	{
 		"assign": "375",
@@ -2634,16 +2634,16 @@
 	{
 		"assign": "376",
 		"jp_text": "Ｓ２：月葉影の輝剰",
-		"tr_text": "S2:Umbrageous Radiance",
+		"tr_text": "S2: 달, 잎, 그림자의 넘치는 빛",
 		"jp_explain": "月ノ黄閃、葉ノ緑閃または\n影ノ黒閃が発動中、攻撃時\nＰＰ回復量が25％上昇。",
-		"tr_explain": "While Green Leaf Flash,\nYellow Moon Flash or\nBlack Shadow Flash is\nactive:\nBoosts attack PP\nrecovery by 25%."
+		"tr_explain": "달의 노란 섬광,\n잎의 초록 섬광 또는\n그림자의 검은 섬광이\n발동 중이면\n공격 시 PP 회복량이\n25% 상승한다."
 	},
 	{
 		"assign": "377",
 		"jp_text": "Ｓ３：花海雪の輝剰",
-		"tr_text": "S3:Nature's Radiance",
+		"tr_text": "S3: 꽃, 바다, 눈의 넘치는 빛",
 		"jp_explain": "花ノ赤閃、海ノ青閃または\n雪ノ白閃が発動中、攻撃時\nＰＰ回復量が28％上昇。",
-		"tr_explain": "While Red Petal Flash,\nBlue Ocean Flash or\nWhite Snow Flash is\nactive:\nBoosts attack PP\nrecovery by 28%."
+		"tr_explain": "꽃의 붉은 섬광,\n바다의 푸른 섬광 또는\n눈의 흰 섬광이\n발동 중이면\n공격 시 PP 회복량이\n28% 상승한다."
 	},
 	{
 		"assign": "378",
@@ -2655,58 +2655,58 @@
 	{
 		"assign": "379",
 		"jp_text": "Ｓ２：月葉影の輝勢",
-		"tr_text": "S2:Umbrageous Gleam",
+		"tr_text": "S2: 달, 잎, 그림자의 빛나는 기세",
 		"jp_explain": "月ノ黄閃、葉ノ緑閃または\n影ノ黒閃が発動中\nＰＰ自然回復量25％上昇。",
-		"tr_explain": "While Green Leaf Flash,\nYellow Moon Flash or\nBlack Shadow Flash is\nactive:\nBoosts PP regeneration\nby 25%."
+		"tr_explain": "달의 노란 섬광,\n잎의 초록 섬광 또는\n그림자의 검은 섬광이\n발동 중이면\nPP 자연 회복량이\n25% 상승한다."
 	},
 	{
 		"assign": "380",
 		"jp_text": "Ｓ３：花海雪の輝勢",
-		"tr_text": "S3:Nature's Gleam",
+		"tr_text": "S3: 꽃, 바다, 눈의 빛나는 기세",
 		"jp_explain": "花ノ赤閃、海ノ青閃または\n雪ノ白閃が発動中\nＰＰ自然回復量23％上昇。",
-		"tr_explain": "While Red Petal Flash,\nBlue Ocean Flash or\nWhite Snow Flash is\nactive:\nBoosts PP regeneration\nby 23%."
+		"tr_explain": "꽃의 붉은 섬광,\n바다의 푸른 섬광 또는\n눈의 흰 섬광이\n발동 중이면\nPP 자연 회복량이\n23% 상승한다."
 	},
 	{
 		"assign": "381",
 		"jp_text": "Ｓ１：死中の志",
-		"tr_text": "S1:Lethal Intent",
+		"tr_text": "S1: 죽음 속의 의지",
 		"jp_explain": "20秒毎に最大ＨＰの5％\nダメージを負う代わりに\n威力が4％上昇する。",
-		"tr_explain": "Boosts damage by 4%\nat the cost of taking\n5% of your HP as\ndamage every 20\nseconds."
+		"tr_explain": "20초마다\n최대 HP의\n5%만큼 데미지를\n받는 대신\n위력이 4% 상승한다."
 	},
 	{
 		"assign": "382",
 		"jp_text": "Ｓ２：死中の志",
-		"tr_text": "S2:Lethal Intent",
+		"tr_text": "S2: 죽음 속의 의지",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "383",
 		"jp_text": "Ｓ３：死中の志",
-		"tr_text": "S3:Lethal Intent",
+		"tr_text": "S3: 죽음 속의 의지",
 		"jp_explain": "-",
 		"tr_explain": ""
 	},
 	{
 		"assign": "384",
 		"jp_text": "Ｓ１：猛威の奮激",
-		"tr_text": "S1:Furious Inspiration",
+		"tr_text": "S1: 맹위의 분격",
 		"jp_explain": "威力とクリティカル率が\n上昇。ＰＰ効率が向上。\n被ダメージで消失。\n一定時間で効果が復活。",
-		"tr_explain": "Boosts power and\ncritical hit rate.\nImproves PP efficiency.\nThis effect disappears\non taking damage, then\nis restored after a set\ntime."
+		"tr_explain": "위력과\n크리티컬 확률이 상승하고\nPP 효율이 좋아진다.\n데미지를 받으면\n효과가 사라지며,\n일정 시간이 지나면\n다시 발동한다."
 	},
 	{
 		"assign": "385",
 		"jp_text": "Ｓ２：猛威の奮激",
-		"tr_text": "S2:Furious Inspiration",
+		"tr_text": "S2: 맹위의 분격",
 		"jp_explain": "威力とクリティカル率が\n上昇。ＰＰ効率が向上。\n被ダメージで消失。\n一定時間で効果が復活。",
-		"tr_explain": "Boosts power and\ncritical hit rate.\nImproves PP efficiency.\nThis effect disappears\non taking damage, then\nis restored after a set\ntime."
+		"tr_explain": "위력과\n크리티컬 확률이 상승하고\nPP 효율이 좋아진다.\n데미지를 받으면\n효과가 사라지며,\n일정 시간이 지나면\n다시 발동한다."
 	},
 	{
 		"assign": "386",
 		"jp_text": "Ｓ３：猛威の奮激",
-		"tr_text": "S3:Furious Inspiration",
+		"tr_text": "S3: 맹위의 분격",
 		"jp_explain": "威力とクリティカル率が\n上昇。ＰＰ効率が向上。\n被ダメージで消失。\n一定時間で効果が復活。",
-		"tr_explain": "Boosts power and\ncritical hit rate.\nImproves PP efficiency.\nThis effect disappears\non taking damage, then\nis restored after a set\ntime."
+		"tr_explain": "위력과\n크리티컬 확률이 상승하고\nPP 효율이 좋아진다.\n데미지를 받으면\n효과가 사라지며,\n일정 시간이 지나면\n다시 발동한다."
 	},
 	{
 		"assign": "387",
@@ -2718,184 +2718,184 @@
 	{
 		"assign": "388",
 		"jp_text": "Ｓ２：月葉影の歌",
-		"tr_text": "S2:Umbrageous Melody",
+		"tr_text": "S2: 달, 잎, 그림자의 노래",
 		"jp_explain": "月ノ黄閃、葉ノ緑閃または\n影ノ黒閃が発動中、毎秒\n威力が上昇、最大で5％。",
-		"tr_explain": "While Green Leaf Flash,\nYellow Moon Flash or\nBlack Shadow Flash is\nactive:\nBoosts damage by up\nto 5% over time."
+		"tr_explain": "달의 노란 섬광,\n잎의 초록 섬광 또는\n그림자의 검은 섬광이\n발동 중이면\n위력이 매초 상승한다.\n최대 5%까지 상승한다."
 	},
 	{
 		"assign": "389",
 		"jp_text": "Ｓ３：花海雪の歌",
-		"tr_text": "S3:Nature's Melody",
+		"tr_text": "S3: 꽃, 바다, 눈의 노래",
 		"jp_explain": "花ノ赤閃、海ノ青閃または\n雪ノ白閃が発動中、毎秒\n威力が上昇、最大で5％。",
-		"tr_explain": "While Red Petal Flash,\nBlue Ocean Flash or\nWhite Snow Flash is\nactive:\nBoosts damage by up\nto 5% over time."
+		"tr_explain": "꽃의 붉은 섬광,\n바다의 푸른 섬광 또는\n눈의 흰 섬광이\n발동 중이면\n위력이 매초 상승한다.\n최대 5%까지 상승한다."
 	},
 	{
 		"assign": "390",
 		"jp_text": "Ｓ１：裂砕の志",
-		"tr_text": "S1:Rupturing Intent",
+		"tr_text": "S1: 열쇄의 의지",
 		"jp_explain": "破壊可能な部位を\n攻撃した際、威力が4％\n上昇する。",
-		"tr_explain": "Boosts damage by 4%\nwhen attacking\nbreakable enemy parts."
+		"tr_explain": "파괴할 수 있는 부위를\n공격하면 위력이\n4% 상승한다."
 	},
 	{
 		"assign": "391",
 		"jp_text": "Ｓ２：裂砕の志",
-		"tr_text": "S2:Rupturing Intent",
+		"tr_text": "S2: 열쇄의 의지",
 		"jp_explain": "破壊可能な部位を\n攻撃した際、威力が3％\n上昇する。",
-		"tr_explain": "Boosts damage by 3%\nwhen attacking\nbreakable enemy parts."
+		"tr_explain": "파괴할 수 있는 부위를\n공격하면 위력이\n3% 상승한다."
 	},
 	{
 		"assign": "392",
 		"jp_text": "Ｓ３：裂砕の志",
-		"tr_text": "S3:Rupturing Intent",
+		"tr_text": "S3: 열쇄의 의지",
 		"jp_explain": "破壊可能な部位を\n攻撃した際、威力が4％\n上昇する。",
-		"tr_explain": "Boosts damage by 4%\nwhen attacking\nbreakable enemy parts."
+		"tr_explain": "파괴할 수 있는 부위를\n공격하면 위력이\n4% 상승한다."
 	},
 	{
 		"assign": "393",
 		"jp_text": "Ｓ１：裂砕の剰",
-		"tr_text": "S1:Rupturing Excess",
+		"tr_text": "S1: 열쇄의 여력",
 		"jp_explain": "破壊可能な部位を\n攻撃した際、攻撃時\nＰＰ回復量が40％上昇。",
-		"tr_explain": "Boosts attack PP\nrecovery by 40% when\nattacking breakable\nenemy parts."
+		"tr_explain": "파괴할 수 있는\n부위를 공격하면\n공격 시 PP 회복량이\n40% 상승한다."
 	},
 	{
 		"assign": "394",
 		"jp_text": "Ｓ２：裂砕の剰",
-		"tr_text": "S2:Rupturing Excess",
+		"tr_text": "S2: 열쇄의 여력",
 		"jp_explain": "破壊可能な部位を\n攻撃した際、攻撃時\nＰＰ回復量が35％上昇。",
-		"tr_explain": "Boosts attack PP\nrecovery by 35% when\nattacking breakable\nenemy parts."
+		"tr_explain": "파괴할 수 있는\n부위를 공격하면\n공격 시 PP 회복량이\n35% 상승한다."
 	},
 	{
 		"assign": "395",
 		"jp_text": "Ｓ３：裂砕の剰",
-		"tr_text": "S3:Rupturing Excess",
+		"tr_text": "S3: 열쇄의 여력",
 		"jp_explain": "破壊可能な部位を\n攻撃した際、攻撃時\nＰＰ回復量が35％上昇。",
-		"tr_explain": "Boosts attack PP\nrecovery by 35% when\nattacking breakable\nenemy parts."
+		"tr_explain": "파괴할 수 있는\n부위를 공격하면\n공격 시 PP 회복량이\n35% 상승한다."
 	},
 	{
 		"assign": "396",
 		"jp_text": "Ｓ１：強闘の志",
-		"tr_text": "S1:Powering Intent",
+		"tr_text": "S1: 강적에 맞서는 의지",
 		"jp_explain": "強敵への与ダメージが\n4％上昇する。",
-		"tr_explain": "Boosts damage against\nbosses by 4%."
+		"tr_explain": "강적에게 주는 데미지가\n4% 상승한다."
 	},
 	{
 		"assign": "397",
 		"jp_text": "Ｓ２：強闘の志",
-		"tr_text": "S2:Powering Intent",
+		"tr_text": "S2: 강적에 맞서는 의지",
 		"jp_explain": "強敵への与ダメージが\n3％上昇する。",
-		"tr_explain": "Boosts damage against\nbosses by 3%."
+		"tr_explain": "강적에게 주는 데미지가\n3% 상승한다."
 	},
 	{
 		"assign": "398",
 		"jp_text": "Ｓ３：強闘の志",
-		"tr_text": "S3:Powering Intent",
+		"tr_text": "S3: 강적에 맞서는 의지",
 		"jp_explain": "強敵への与ダメージが\n4％上昇する。",
-		"tr_explain": "Boosts damage against\nbosses by 3%."
+		"tr_explain": "강적에게 주는 데미지가\n4% 상승한다."
 	},
 	{
 		"assign": "399",
 		"jp_text": "Ｓ１：狂幻の利",
-		"tr_text": "S1:Phanatical Advantage",
+		"tr_text": "S1: 광환의 이점",
 		"jp_explain": "「狂想と幻創」にて\n威力が5％上昇し\n被ダメージが12％減少。",
-		"tr_explain": "Boosts damage by 5%\nand Reduces damage taken\nby 12% in the\nquest \"Phanatical\nPhantoms\"."
+		"tr_explain": "「광상과 환창」에서\n위력이\n5% 상승하고\n받는 데미지가\n12% 감소한다."
 	},
 	{
 		"assign": "400",
 		"jp_text": "Ｓ２：狂幻の利",
-		"tr_text": "S2:Phanatical Advantage",
+		"tr_text": "S2: 광환의 이점",
 		"jp_explain": "「狂想と幻創」にて\n威力が5％上昇し\n被ダメージが12％減少。",
-		"tr_explain": "Boosts damage by 5%\nand Reduces damage taken\nby 12% in the\nquest \"Phanatical\nPhantoms\"."
+		"tr_explain": "「광상과 환창」에서\n위력이\n5% 상승하고\n받는 데미지가\n12% 감소한다."
 	},
 	{
 		"assign": "401",
 		"jp_text": "Ｓ３：狂幻の利",
-		"tr_text": "S3:Phanatical Advantage",
+		"tr_text": "S3: 광환의 이점",
 		"jp_explain": "「狂想と幻創」にて\n威力が5％上昇し\n被ダメージが12％減少。",
-		"tr_explain": "Boosts damage by 5%\nand Reduces damage taken\nby 12% in the\nquest \"Phanatical\nPhantoms\"."
+		"tr_explain": "「광상과 환창」에서\n위력이\n5% 상승하고\n받는 데미지가\n12% 감소한다."
 	},
 	{
 		"assign": "402",
 		"jp_text": "Ｓ１：光子縮減２",
-		"tr_text": "S1:Photon Reduction 2",
+		"tr_text": "S1: 광자 경감 2",
 		"jp_explain": "ＰＰ消費量を10％軽減。",
-		"tr_explain": "Reduces PP\nconsumption by 10%."
+		"tr_explain": "PP 소비량이\n10% 감소한다."
 	},
 	{
 		"assign": "403",
 		"jp_text": "Ｓ１：滅域輝与２",
-		"tr_text": "S1:Brilliant Ruin 2",
+		"tr_text": "S1: 멸역휘여 2",
 		"jp_explain": "一定の範囲内で\nエネミーが死亡した時\nＰＰが4回復する。",
-		"tr_explain": "Recovers 4 PP each\ntime a nearby enemy\nis defeated."
+		"tr_explain": "일정 범위 안에서\n적이 죽으면\nPP를 4 회복한다."
 	},
 	{
 		"assign": "404",
 		"jp_text": "Ｓ２：花海雪の縮減２",
-		"tr_text": "S2:Nature's Reduction 2",
+		"tr_text": "S2: 꽃, 바다, 눈의 경감 2",
 		"jp_explain": "花ノ赤閃、海ノ青閃または\n雪ノ白閃が発動中\nＰＰ消費量を14％軽減。",
-		"tr_explain": "While Red Petal Flash,\nBlue Ocean Flash or\nWhite Snow Flash is\nactive:\nReduces your PP\nconsumption by 14%."
+		"tr_explain": "꽃의 붉은 섬광,\n바다의 푸른 섬광 또는\n눈의 흰 섬광이\n발동 중이면\nPP 소비량이\n14% 감소한다."
 	},
 	{
 		"assign": "405",
 		"jp_text": "Ｓ２：月葉影の輝剰２",
-		"tr_text": "S2:Umbrageous Radiance 2",
+		"tr_text": "S2: 달, 잎, 그림자의 넘치는 빛 2",
 		"jp_explain": "月ノ黄閃、葉ノ緑閃または\n影ノ黒閃が発動中、攻撃時\nＰＰ回復量が28％上昇。",
-		"tr_explain": "While Green Leaf Flash,\nYellow Moon Flash or\nBlack Shadow Flash is\nactive:\nBoosts attack PP\nrecovery by 28%."
+		"tr_explain": "달의 노란 섬광,\n잎의 초록 섬광 또는\n그림자의 검은 섬광이\n발동 중이면\n공격 시 PP 회복량이\n28% 상승한다."
 	},
 	{
 		"assign": "406",
 		"jp_text": "Ｓ２：妙技の巧２",
-		"tr_text": "S2:Wise Skill 2",
+		"tr_text": "S2: 묘기의 기교 2",
 		"jp_explain": "クリティカル率が\n15％上昇する。",
-		"tr_explain": "Increases critical\nrate by 15%."
+		"tr_explain": "크리티컬 확률이\n15% 상승한다."
 	},
 	{
 		"assign": "407",
 		"jp_text": "Ｓ２：妙撃の志２",
-		"tr_text": "S2:Skilled Intent 2",
+		"tr_text": "S2: 묘격의 의지 2",
 		"jp_explain": "クリティカル時の\n与ダメージが4％上昇。",
-		"tr_explain": "Boosts critical hit\ndamage by 4%."
+		"tr_explain": "크리티컬 시\n주는 데미지가 4% 상승한다."
 	},
 	{
 		"assign": "408",
 		"jp_text": "Ｓ２：輝剰の撃２",
-		"tr_text": "S2:Radiant Strike 2",
+		"tr_text": "S2: 넘치는 빛의 일격 2",
 		"jp_explain": "攻撃時のＰＰ回復量が\n20％上昇する。",
-		"tr_explain": "Boosts attack PP\nrecovery by 20%."
+		"tr_explain": "공격 시 PP 회복량이\n20% 상승한다."
 	},
 	{
 		"assign": "409",
 		"jp_text": "Ｓ３：花海雪の輝勢２",
-		"tr_text": "S3:Nature's Gleam 2",
+		"tr_text": "S3: 꽃, 바다, 눈의 빛나는 기세 2",
 		"jp_explain": "花ノ赤閃、海ノ青閃または\n雪ノ白閃が発動中\nＰＰ自然回復量25％上昇。",
-		"tr_explain": "While Red Petal Flash,\nBlue Ocean Flash or\nWhite Snow Flash is\nactive:\nBoosts PP regeneration\nby 25%."
+		"tr_explain": "꽃의 붉은 섬광,\n바다의 푸른 섬광 또는\n눈의 흰 섬광이\n발동 중이면\nPP 자연 회복량이\n25% 상승한다."
 	},
 	{
 		"assign": "410",
 		"jp_text": "Ｓ３：時流活与２",
-		"tr_text": "S3:Flowing Exhilaration 2",
+		"tr_text": "S3: 시류활여 2",
 		"jp_explain": "40秒ごとに\nＨＰを60％回復する。",
-		"tr_explain": "Recover HP by 60% at\nregular intervals."
+		"tr_explain": "40초마다\nHP를 60% 회복한다."
 	},
 	{
 		"assign": "411",
 		"jp_text": "Ｓ３：輝勢の恵２",
-		"tr_text": "S3:Radiating Grace 2",
+		"tr_text": "S3: 빛나는 기세의 은혜 2",
 		"jp_explain": "ＰＰの自然回復速度が\n20％上昇する。",
-		"tr_explain": "Boosts PP regeneration\nby 20%."
+		"tr_explain": "PP 자연 회복 속도가\n20% 상승한다."
 	},
 	{
 		"assign": "412",
 		"jp_text": "Ｓ１：時流の志",
-		"tr_text": "S1:Flowing Intent",
+		"tr_text": "S1: 시류의 의지",
 		"jp_explain": "1秒毎に与ダメージが\n上昇、最大で4％。",
-		"tr_explain": "Boosts damage by up\nto 4% over time."
+		"tr_explain": "매초 주는 데미지가 상승하며,\n최대 4%까지 상승한다."
 	},
 	{
 		"assign": "413",
 		"jp_text": "Ｓ４：天輝の守護",
-		"tr_text": "S4:Heavenly Protection",
+		"tr_text": "S4: 천휘의 수호",
 		"jp_explain": "ガード中\nＰＰが自然回復し\nＰＰ回復速度が\n300％上昇。",
-		"tr_explain": "Enables and boosts PP\nregeneration by 300%\nwhile Guarding."
+		"tr_explain": "가드 중 PP가 자연 회복되며,\nPP 회복 속도가\n300% 상승한다."
 	},
 	{
 		"assign": "414",
@@ -2907,30 +2907,30 @@
 	{
 		"assign": "415",
 		"jp_text": "Ｓ４：静心の志",
-		"tr_text": "S4:Calming Intent",
+		"tr_text": "S4: 고요한 마음의 의지",
 		"jp_explain": "通常攻撃の威力が\n13％上昇。",
-		"tr_explain": "Boosts Normal Attack\ndamage by 13%."
+		"tr_explain": "일반 공격의 위력이\n13% 상승한다."
 	},
 	{
 		"assign": "416",
 		"jp_text": "Ｓ４：妙撃の秤",
-		"tr_text": "S4:Skilled Balance",
+		"tr_text": "S4: 묘격의 저울",
 		"jp_explain": "クリティカル率が50％\n低下し、クリティカル\nの威力が6％上昇。",
-		"tr_explain": "Halves your critical hit\nrate, but boosts critical\nhit damage by 6%."
+		"tr_explain": "크리티컬 확률이 50%\n감소하는 대신 크리티컬의\n위력이 6% 상승한다."
 	},
 	{
 		"assign": "417",
 		"jp_text": "Ｓ１：依属の志",
-		"tr_text": "S1:Sturdy Intent",
+		"tr_text": "S1: 속성을 따르는 의지",
 		"jp_explain": "ガード系リングまたは\n武器属性が弱点属性と\n一致時、4％威力上昇。",
-		"tr_explain": "Boosts damage by 4%\nwhen an equipped\nGuard-type ring or the\nequipped weapon's\nattribute matches the\nenemy's weakness\nattribute."
+		"tr_explain": "가드 계열 링\n또는 무기의\n속성이\n적의 약점\n속성과\n일치하면\n위력이 4% 상승한다."
 	},
 	{
 		"assign": "418",
 		"jp_text": "Ｓ４：聖者の盾",
-		"tr_text": "S4:Saint Shield",
+		"tr_text": "S4: 성자의 방패",
 		"jp_explain": "45秒ごとに\n被ダメージを\n60％軽減する\nバリアを展開。",
-		"tr_explain": "Creates a barrier that\nreduces damage by\n60% every 45 seconds."
+		"tr_explain": "45초마다 받는 데미지를\n60% 줄이는\n배리어를 펼친다."
 	},
 	{
 		"assign": "419",
@@ -2942,16 +2942,16 @@
 	{
 		"assign": "420",
 		"jp_text": "Ｓ２：瞬乱縮減",
-		"tr_text": "S2:Instant Reduction",
+		"tr_text": "S2: 순란 경감",
 		"jp_explain": "別のＰＡやテクニックを\nジャストアタックすると\nＰＰ消費量を12％軽減。",
-		"tr_explain": "Reduces your PP\nconsumption by 12%\nwhen Just Attacking\ndifferent PAs or Techs."
+		"tr_explain": "다른 PA나 테크닉으로\n저스트 어택을 하면\nPP 소비량이\n12% 감소한다."
 	},
 	{
 		"assign": "421",
 		"jp_text": "Ｓ１：幻精の志",
-		"tr_text": "S1:Phantasmal Intent",
+		"tr_text": "S1: 환정의 의지",
 		"jp_explain": "フォトンブラストゲージに\n応じて威力上昇。\n最大で3％。",
-		"tr_explain": "Boosts damage based\non the Photon Blast\ngauge. Max: 3%."
+		"tr_explain": "포톤 블래스트 게이지에\n따라 위력이 상승한다.\n최대 3%까지 상승한다."
 	},
 	{
 		"assign": "422",
@@ -2977,9 +2977,9 @@
 	{
 		"assign": "425",
 		"jp_text": "Ｓ２：幻精輝剰",
-		"tr_text": "S2:Phantasmal Radiance",
+		"tr_text": "S2: 환정의 넘치는 빛",
 		"jp_explain": "フォトンブラストゲージに\n応じて攻撃時ＰＰ回復量が\n最大25％上昇する。",
-		"tr_explain": "Boosts attack PP\nrecovery based on the\nPhoton Blast gauge.\nMax: 25%."
+		"tr_explain": "포톤 블래스트 게이지에\n따라 공격 시\nPP 회복량이\n최대 25% 상승한다."
 	},
 	{
 		"assign": "426",
@@ -2998,9 +2998,9 @@
 	{
 		"assign": "428",
 		"jp_text": "Ｓ２：幻精輝勢",
-		"tr_text": "S2:Phantasmal Gleam",
+		"tr_text": "S2: 환정의 빛나는 기세",
 		"jp_explain": "フォトンブラストゲージに\n応じてＰＰ自然回復量が\n最大23％上昇する。",
-		"tr_explain": "Boosts PP regeneration\nbased on the Photon\nBlast gauge.\nMax: 23%."
+		"tr_explain": "포톤 블래스트 게이지에\n따라 PP\n자연 회복량이\n최대 23% 상승한다."
 	},
 	{
 		"assign": "429",
@@ -3019,9 +3019,9 @@
 	{
 		"assign": "431",
 		"jp_text": "Ｓ２：幻精の備",
-		"tr_text": "S2:Phantasmal Guardian",
+		"tr_text": "S2: 환정의 대비",
 		"jp_explain": "フォトンブラストゲージに\n応じて被ダメージ量が\n最大9％減少する。",
-		"tr_explain": "Reduces damage taken\nbased on the Photon\nBlast gauge.\nMax: 9%."
+		"tr_explain": "포톤 블래스트 게이지에\n따라 받는\n데미지가\n최대 9% 감소한다."
 	},
 	{
 		"assign": "432",
@@ -3047,9 +3047,9 @@
 	{
 		"assign": "435",
 		"jp_text": "Ｓ３：幻精縮減",
-		"tr_text": "S3:Phantasmal Reduction",
+		"tr_text": "S3: 환정 경감",
 		"jp_explain": "フォトンブラストゲージに\n応じてＰＰ消費量が\n最大12％減少する。",
-		"tr_explain": "Reduces PP consumption\nbased on the Photon\nBlast gauge.\nMax: 12%."
+		"tr_explain": "포톤 블래스트 게이지에\n따라 PP\n소비량이\n최대 12% 감소한다."
 	},
 	{
 		"assign": "436",
@@ -3068,9 +3068,9 @@
 	{
 		"assign": "438",
 		"jp_text": "Ｓ２：服薬の恵",
-		"tr_text": "S2:Medicinal Wisdom",
+		"tr_text": "S2: 복약의 은혜",
 		"jp_explain": "メイト系アイテム使用時\nさらにＰＰが回復する。\n効果量は種類で変わる。",
-		"tr_explain": "Recovers PP when\na -mate item is used.\nPP recovered depends\non type of mate."
+		"tr_explain": "메이트 계열 아이템을\n사용하면 PP도 회복한다.\n아이템 종류에 따라\n회복량이 달라진다."
 	},
 	{
 		"assign": "439",
@@ -3082,9 +3082,9 @@
 	{
 		"assign": "440",
 		"jp_text": "Ｓ１：活剰増進",
-		"tr_text": "S1:Vigor Enhancement",
+		"tr_text": "S1: 생명 회복 증진",
 		"jp_explain": "自身のHP回復量が\n40％上昇する。",
-		"tr_explain": "Boosts self HP Recovery\nby 40%."
+		"tr_explain": "자신의 HP 회복량이\n40% 상승한다."
 	},
 	{
 		"assign": "441",
@@ -3103,16 +3103,16 @@
 	{
 		"assign": "443",
 		"jp_text": "Ｓ４：六色の輝秤",
-		"tr_text": "S4:Colored Spectrum",
+		"tr_text": "S4: 여섯 빛깔의 빛나는 저울",
 		"jp_explain": "花・海・葉・月・雪・影の\nいずれかが発動中\nＰＰ消費量を30％軽減。\nＰＰ自然回復量は\n30％低下。",
-		"tr_explain": "While Petal, Ocean,\nLeaf, Moon, Snow or\nShadow Flash is active:\nReduces your PP\nconsumption by 30%,\nbut also reduces\nnatural PP regen by\n30%."
+		"tr_explain": "꽃, 바다, 잎, 달, 눈,\n그림자의 섬광 중\n하나라도\n발동 중이면\nPP 소비량이\n30% 감소한다.\nPP 자연 회복량도\n30% 감소한다."
 	},
 	{
 		"assign": "444",
 		"jp_text": "Ｓ２：走者高揚",
-		"tr_text": "S2:Runner's High",
+		"tr_text": "S2: 주자의 고양",
 		"jp_explain": "ダッシュ状態時\nＰＰ自然回復量が\n100％上昇し\nＨＰが5秒ごとに回復。",
-		"tr_explain": "While dashing, boosts\nPP regeneration by\n100% and recovers\nHP every 5 seconds."
+		"tr_explain": "대시 상태에서\nPP 자연 회복량이\n100% 상승하고\n5초마다 HP를 회복한다."
 	},
 	{
 		"assign": "445",
@@ -3124,9 +3124,9 @@
 	{
 		"assign": "446",
 		"jp_text": "Ｓ１：賭死の撃",
-		"tr_text": "S1:Reckless Strike",
+		"tr_text": "S1: 목숨을 건 일격",
 		"jp_explain": "被ダメージ回数に応じて\n3段階の威力上昇。\n最大段階の被ダメージ時\n周囲ダメージが発生し\n自身のＨＰが1になる。",
-		"tr_explain": "Boosts power each\ntime you take damage,\nup to three levels. If\nyou take damage at\nmaximum boost,\ndamages everything\naround you and\nreduces your HP to 1."
+		"tr_explain": "데미지를 받은\n횟수에 따라\n위력이\n3단계로 상승한다.\n최대 단계에서\n데미지를 받으면\n주변에 데미지를 주고\n자신의 HP가 1이 된다."
 	},
 	{
 		"assign": "447",
@@ -3138,9 +3138,9 @@
 	{
 		"assign": "448",
 		"jp_text": "Ｓ２：火炎の備志",
-		"tr_text": "S2:Flaming Guard",
+		"tr_text": "S2: 화염의 방비와 의지",
 		"jp_explain": "炎耐性、バーン耐性が\n上昇。敵の弱点属性が\n炎属性の時、威力上昇。",
-		"tr_explain": "Increases your Fire\nattribute and Burn\nresistance. Boosts\ndamage against\nenemies weak to Fire."
+		"tr_explain": "염속성 내성과\n번 내성이 상승한다.\n적의 약점 속성이\n염속성일 때\n위력이 상승한다."
 	},
 	{
 		"assign": "449",
@@ -3159,9 +3159,9 @@
 	{
 		"assign": "451",
 		"jp_text": "Ｓ２：氷雪の備志",
-		"tr_text": "S2:Freezing Guard",
+		"tr_text": "S2: 빙설의 방비와 의지",
 		"jp_explain": "氷耐性、フリーズ耐性が\n上昇。敵の弱点属性が\n氷属性の時、威力上昇。",
-		"tr_explain": "Increases your Ice\nattribute and Freeze\nresistance. Boosts\ndamage against\nenemies weak to Ice."
+		"tr_explain": "빙속성 내성과\n프리즈 내성이 상승한다.\n적의 약점 속성이\n빙속성일 때\n위력이 상승한다."
 	},
 	{
 		"assign": "452",
@@ -3180,9 +3180,9 @@
 	{
 		"assign": "454",
 		"jp_text": "Ｓ２：轟雷の備志",
-		"tr_text": "S2:Lightning Guard",
+		"tr_text": "S2: 굉뢰의 방비와 의지",
 		"jp_explain": "雷耐性、ショック耐性が\n上昇。敵の弱点属性が\n雷属性の時、威力上昇。",
-		"tr_explain": "Increases your\nLightning attribute\nand Shock\nresistance. Boosts\ndamage against\nenemies weak to\nLightning."
+		"tr_explain": "뇌속성 내성과\n쇼크 내성이\n상승한다.\n적의\n약점 속성이\n뇌속성일 때\n위력이 상승한다."
 	},
 	{
 		"assign": "455",
@@ -3201,9 +3201,9 @@
 	{
 		"assign": "457",
 		"jp_text": "Ｓ２：暴風の備志",
-		"tr_text": "S2:Storm Guard",
+		"tr_text": "S2: 폭풍의 방비와 의지",
 		"jp_explain": "風耐性、ミラージュ耐性が\n上昇。敵の弱点属性が\n風属性の時、威力上昇。",
-		"tr_explain": "Increases your Wind\nattribute and Mirage\nresistance. Boosts\ndamage against\nenemies weak to Wind."
+		"tr_explain": "풍속성 내성과\n미라주 내성이 상승한다.\n적의 약점 속성이\n풍속성일 때\n위력이 상승한다."
 	},
 	{
 		"assign": "458",
@@ -3222,9 +3222,9 @@
 	{
 		"assign": "460",
 		"jp_text": "Ｓ２：光明の備志",
-		"tr_text": "S2:Shining Guard",
+		"tr_text": "S2: 광명의 방비와 의지",
 		"jp_explain": "光耐性、パニック耐性が\n上昇。敵の弱点属性が\n光属性の時、威力上昇。",
-		"tr_explain": "Increases your Light\nattribute and Panic\nresistance. Boosts\ndamage against\nenemies weak to Light."
+		"tr_explain": "광속성 내성과\n패닉 내성이 상승한다.\n적의 약점 속성이\n광속성일 때\n위력이 상승한다."
 	},
 	{
 		"assign": "461",
@@ -3243,9 +3243,9 @@
 	{
 		"assign": "463",
 		"jp_text": "Ｓ２：暗闇の備志",
-		"tr_text": "S2:Darkness Guard",
+		"tr_text": "S2: 암흑의 방비와 의지",
 		"jp_explain": "闇耐性、ポイズン耐性が\n上昇。敵の弱点属性が\n闇属性の時、威力上昇。",
-		"tr_explain": "Increases your Dark\nattribute and Poison\nresistance. Boosts\ndamage against\nenemies weak to Dark."
+		"tr_explain": "암속성 내성과\n포이즌 내성이 상승한다.\n적의 약점 속성이\n암속성일 때\n위력이 상승한다."
 	},
 	{
 		"assign": "464",
@@ -3257,9 +3257,9 @@
 	{
 		"assign": "465",
 		"jp_text": "Ｓ１：打撃増幅",
-		"tr_text": "S1:Strike Boost",
+		"tr_text": "S1: 타격 증폭",
 		"jp_explain": "特殊能力の追加打撃力\n60毎に、威力1％上昇し\n200以上で更に2％上昇。",
-		"tr_explain": "Boosts power by 1% for every\n60 S-ATK\nof Special Abilities\nadded to the item,\nand boosts by a further 2% at 200+."
+		"tr_explain": "특수 능력으로\n추가된 타격력이\n60 늘 때마다\n위력이 1% 상승하며,\n200 이상이면 추가로 2% 상승한다."
 	},
 	{
 		"assign": "466",
@@ -3278,9 +3278,9 @@
 	{
 		"assign": "468",
 		"jp_text": "Ｓ１：射撃増幅",
-		"tr_text": "S1:Shoot Boost",
+		"tr_text": "S1: 사격 증폭",
 		"jp_explain": "特殊能力の追加射撃力\n60毎に、威力1％上昇し\n200以上で更に2％上昇。",
-		"tr_explain": "Boosts power by 1%\nfor every 60 R-ATK\nof Special Abilities\nadded to the item,\nand boosts by a\nfurther 2% at 200+."
+		"tr_explain": "특수 능력으로\n추가된 사격력이\n60 늘 때마다\n위력이\n1% 상승하며,\n200 이상이면 추가로 2% 상승한다."
 	},
 	{
 		"assign": "469",
@@ -3299,9 +3299,9 @@
 	{
 		"assign": "471",
 		"jp_text": "Ｓ１：法撃増幅",
-		"tr_text": "S1:Tech Boost",
+		"tr_text": "S1: 법격 증폭",
 		"jp_explain": "特殊能力の追加法撃力\n60毎に、威力1％上昇し\n200以上で更に2％上昇。",
-		"tr_explain": "Boosts power by 1%\nfor every 60 T-ATK\nof Special Abilities\nadded to the item,\nand boosts by a\nfurther 2% at 200+."
+		"tr_explain": "특수 능력으로\n추가된 법격력이\n60 늘 때마다\n위력이\n1% 상승하며,\n200 이상이면 추가로 2% 상승한다."
 	},
 	{
 		"assign": "472",
@@ -3320,9 +3320,9 @@
 	{
 		"assign": "474",
 		"jp_text": "Ｓ１：錬成の志",
-		"tr_text": "S1:Augment Intent",
+		"tr_text": "S1: 연성의 의지",
 		"jp_explain": "特殊能力の付与数に\n応じて威力上昇。\n最大で4％。",
-		"tr_explain": "Boosts power by 0.5%\nfor each Special Ability\nadded to the item."
+		"tr_explain": "부여된 특수 능력 수에\n따라 위력이 상승한다.\n최대 4%까지 상승한다."
 	},
 	{
 		"assign": "475",
@@ -3355,114 +3355,114 @@
 	{
 		"assign": "479",
 		"jp_text": "Ｓ３：静心活与",
-		"tr_text": "S3:Calming Exhilaration",
+		"tr_text": "S3: 고요한 마음의 생명 회복",
 		"jp_explain": "通常攻撃が命中した時\nＨＰが70回復。\n発動後リキャスト発生。",
-		"tr_explain": "Recovers 70 HP when\nyou hit with a Normal\nAttack. Has a cooldown\nbetween activations."
+		"tr_explain": "일반 공격이\n명중하면 HP를 70 회복한다.\n발동 후\n재사용 대기 시간이 발생한다."
 	},
 	{
 		"assign": "480",
 		"jp_text": "Ｓ３：撃流の備",
-		"tr_text": "S3:Fortifying Strike",
+		"tr_text": "S3: 격류의 대비",
 		"jp_explain": "与ダメージ300000毎に\n被ダメージが1％軽減。\n最大で15％。",
-		"tr_explain": "Reduces damage taken\nby 1% for every 300,000\ndamage you deal.\nMax: 15%."
+		"tr_explain": "주는 데미지가\n300000에 이를 때마다\n받는 데미지가 1% 감소한다.\n최대 15%까지 감소한다."
 	},
 	{
 		"assign": "481",
 		"jp_text": "Ｓ３：撃流縮減",
-		"tr_text": "S3:Curtailed Strike",
+		"tr_text": "S3: 격류 경감",
 		"jp_explain": "与ダメージ300000毎に\nＰＰ消費量が1％軽減。\n最大で15％。",
-		"tr_explain": "Reduces PP consumption\nby 1% for every 300,000\ndamage you deal.\nMax: 15%."
+		"tr_explain": "주는 데미지가\n300000에 이를 때마다\nPP 소비량이 1% 감소한다.\n최대 15%까지 감소한다."
 	},
 	{
 		"assign": "482",
 		"jp_text": "Ｓ３：撃流の巧",
-		"tr_text": "S3:Wise Strike",
+		"tr_text": "S3: 격류의 기교",
 		"jp_explain": "与ダメージ300000毎に\nクリティカル率2％上昇。\n最大で30％。",
-		"tr_explain": "Boosts critical hit rate by\n2% for every 300,000\ndamage you deal.\nMax: 30%."
+		"tr_explain": "주는 데미지가\n300000에 이를 때마다\n크리티컬 확률이 2% 상승한다.\n최대 30%까지 상승한다."
 	},
 	{
 		"assign": "483",
 		"jp_text": "Ｓ１：失力の蝕",
-		"tr_text": "S1:Eclipsing Decay",
+		"tr_text": "S1: 힘을 빼앗는 침식",
 		"jp_explain": "命中時に25％の確率で\nジェルンを付与する。",
-		"tr_explain": "Grants a 25% chance\nof applying Jellen to\neach enemy you hit."
+		"tr_explain": "명중 시\n25% 확률로\n젤른을 부여한다."
 	},
 	{
 		"assign": "484",
 		"jp_text": "Ｓ２：技巧縮減",
-		"tr_text": "S2:Skill Reduction",
+		"tr_text": "S2: 기교 경감",
 		"jp_explain": "ＰＡ・テクニック命中後\n30秒間\nＰＰ消費量を5％軽減。\n稀に30％軽減する。\n発動後リキャスト発生。",
-		"tr_explain": "Reduces PP consumption\nby 5% for 30 seconds\nafter hitting with a PA\nor Tech. Occasionally\nreduces consumption\nby 30%. Has a cooldown."
+		"tr_explain": "PA나 테크닉이\n명중한 뒤 30초 동안\nPP 소비량이 5% 감소한다.\n드물게\n30% 감소한다.\n발동 후 재사용 대기 시간이 발생한다."
 	},
 	{
 		"assign": "485",
 		"jp_text": "Ｓ４：累加追撃",
-		"tr_text": "S4:Raising Pursuit",
+		"tr_text": "S4: 누적 추격",
 		"jp_explain": "ＰＡ・テクニック命中後\n４秒間の与ダメージ量に\n応じて、次に命中した\nＰＡ・テクニックに\n追加ダメージが発生。",
-		"tr_explain": "When you hit with a\nPA/Tech, boosts damage\nof the next PA/Tech\nbased on the damage you\ndeal in the next 4 seconds."
+		"tr_explain": "PA나 테크닉이 명중한 뒤\n4초 동안 준 데미지에\n따라 다음으로 명중한\nPA나 테크닉에\n추가 데미지가 발생한다."
 	},
 	{
 		"assign": "486",
 		"jp_text": "Ｓ３：瞬連の輝",
-		"tr_text": "S3:Immediate Brilliance",
+		"tr_text": "S3: 순련의 빛",
 		"jp_explain": "ＪＡ攻撃が命中する度\nＰＰ回復性能が3％上昇。\n最大で45％まで上昇。\nＪＡ失敗時に消失しない。",
-		"tr_explain": "Successful JA hits\nboosts your PP\nrecovery amount by\n3%. Cannot exceed\n30%. Non-JA hits\nare excluded."
+		"tr_explain": "저스트 어택이\n명중할 때마다\nPP 회복 성능이 3% 상승한다.\n최대 45%까지 상승한다.\n저스트 어택에 실패해도\n효과는 사라지지 않는다."
 	},
 	{
 		"assign": "487",
 		"jp_text": "Ｓ１：瞬連の巧",
-		"tr_text": "S1:Immediate Skill",
+		"tr_text": "S1: 순련의 기교",
 		"jp_explain": "ＪＡ攻撃が命中する度\nクリティカル率2％上昇。\n最大で30％まで上昇。\nＪＡ失敗時に消失しない。",
-		"tr_explain": "Successful JA hits\nboosts your\nCritical Rate by\n2%. Cannot exceed\n30%. Non-JA hits\nare excluded."
+		"tr_explain": "저스트 어택이\n명중할 때마다\n크리티컬 확률이 2% 상승한다.\n최대 30%까지 상승한다.\n저스트 어택에 실패해도\n효과는 사라지지 않는다."
 	},
 	{
 		"assign": "488",
 		"jp_text": "Ｓ３：裂砕妙撃の志",
-		"tr_text": "S3:Puncturing Intent",
+		"tr_text": "S3: 열쇄묘격의 의지",
 		"jp_explain": "破壊可能部位への攻撃で\nクリティカル発動時に\n威力が9％上昇。",
-		"tr_explain": "Upon landing a\ncritical hit on a\nbreakable part,\nyour power is\nboosted by 9%."
+		"tr_explain": "파괴할 수 있는\n부위를\n공격할 때\n크리티컬이 발생하면\n위력이 9% 상승한다."
 	},
 	{
 		"assign": "489",
 		"jp_text": "Ｓ２：瞬護の与",
-		"tr_text": "S2:Aegis Gift",
+		"tr_text": "S2: 순호의 은혜",
 		"jp_explain": "ＨＰが25％以下で\nジャストガード成功時\nＨＰが50％\nＰＰが30％回復。",
-		"tr_explain": "When you Just Guard\nat less than 25% HP,\nrecovers HP by 50%\nand PP by 30%."
+		"tr_explain": "HP가 25% 이하일 때\n저스트 가드에 성공하면\nHP를 50%,\nPP를 30% 회복한다."
 	},
 	{
 		"assign": "490",
 		"jp_text": "Ｓ２：保天輝地",
-		"tr_text": "S2:Heavenly Keeper",
+		"tr_text": "S2: 보천휘지",
 		"jp_explain": "空中時では、ＰＰ消費量が\n8％軽減。地上時では\n自然ＰＰ回復量が20％\nかつ地上での攻撃時では\nＰＰ回復量が20％上昇。",
-		"tr_explain": "In the air, reduces PP\nconsumption by 8%.\nOn the ground, boosts\nPP regeneration and\nattack PP recovery\nby 20%."
+		"tr_explain": "공중에서는\nPP 소비량이 8% 감소한다.\n지상에서는\nPP 자연 회복량과\n공격 시 PP 회복량이\n각각 20% 상승한다."
 	},
 	{
 		"assign": "491",
 		"jp_text": "Ｓ３：時流の勇",
-		"tr_text": "S3:Flowing Courage",
+		"tr_text": "S3: 시류의 용기",
 		"jp_explain": "14秒ごとに、自身に\nシフタを発動する。",
-		"tr_explain": "Automatically casts\nShifta every 14\nseconds."
+		"tr_explain": "14초마다\n자신에게\n시프타를 발동한다."
 	},
 	{
 		"assign": "492",
 		"jp_text": "Ｓ２：時流の護",
-		"tr_text": "S2:Flowing Armor",
+		"tr_text": "S2: 시류의 수호",
 		"jp_explain": "14秒ごとに、自身に\nデバンドを発動する。",
-		"tr_explain": "Automatically casts\nDeband every 14\nseconds."
+		"tr_explain": "14초마다\n자신에게\n데반드를 발동한다."
 	},
 	{
 		"assign": "493",
 		"jp_text": "Ｓ１：光子の秤",
-		"tr_text": "S1:Photon Balance",
+		"tr_text": "S1: 광자의 저울",
 		"jp_explain": "ＰＰ消費量が\n8％増加する代わりに\nＰＡとテクニックの威力が\n4%上昇する。",
-		"tr_explain": "Raises PP\nconsumption by 8%,\nbut boosts PA and\nTech damage by 4%."
+		"tr_explain": "PP 소비량이\n8% 증가하는 대신\nPA와 테크닉의 위력이\n4% 상승한다."
 	},
 	{
 		"assign": "494",
 		"jp_text": "Ｓ１：戦友の加護",
-		"tr_text": "S1:Collaborator Liberator",
+		"tr_text": "S1: 전우의 가호",
 		"jp_explain": "パーティー人数が２人\n以上の場合、人数に\n応じて、PP消費軽減\nクリティカル率上昇\n威力上昇効果が発動。 ",
-		"tr_explain": "Reduces PP consumption,\nboosts critical rate and\nboosts power based on\nthe number of people in\nyour party (min. 2)."
+		"tr_explain": "파티 인원이 2명 이상이면\n인원수에 따라\nPP 소비량 경감,\n크리티컬 확률 상승,\n위력 상승 효과가 발동한다. "
 	},
 	{
 		"assign": "495",

@@ -45,48 +45,47 @@ effect_types = {
 
 effect_effects = { # dictionary of lambdas because there's no such thing as switch-case in python
     "Activation Rate Up":   lambda x:   x.replace("このチップのアビリティの発動率が",
-                                                  "This chip's activation rate is increased by ")
+                                                  "이 칩의 어빌리티 발동률이 ")
                                          .replace("％上昇する。",
-                                                  "%."),
-    "Bonus Element":        lambda x:   x.replace("このチップを装備した時のElement値上昇を\n",
-                                                  "This chip's element value is also added\nto the ")
+                                                  "％ 상승한다."),
+    "Bonus Element":        lambda x:   x.replace("このチップを装備した時の속성値上昇を\n",
+                                                  "이 칩을 장착했을 때의 속성값의 상승을\n")
                                          .replace("に対しても適用する。",
-                                                  " when equipped."),
+                                                  "에도 적용한다."),
     "Change Trigger":       lambda x:   x.replace("このチップの効果の発動を攻撃ヒット時に変更する。",
-                                                  "This chip's activation condition changes to\n"
-                                                  "'when you successfully hit with an attack'."),
+                                                  "이 칩의 효과 발동을 적중 시로 변경한다."),
     "Chip Cost Down":       lambda x:   x.replace("このチップのコストが",
-                                                  "This chip's equip cost is reduced by ")
+                                                  "이 칩의 코스트가 ")
                                          .replace("減少する。",
-                                                  "."),
+                                                  "씩 감소한다."),
     "CP Usage Down":        lambda x:   x.replace("このチップのアビリティの消費ＣＰが",
-                                                  "This chip's CP consumption is reduced by ")
+                                                  "이 칩의 어빌리티 소비 CP가 ")
                                          .replace("減少する。",
-                                                  "."),
+                                                  "씩 감소한다."),
     "Effect Broadened":     lambda x:   x.replace("このチップのアビリティの効果の対象に\n",
-                                                  "This chip's ability now also covers\nthe ")
+                                                  "이 칩의 어빌리티 효과 대상에\n")
                                          .replace("このチップのアビリティ①の効果の対象に\n",
-                                                  "This chip's 1st ability now also covers\nthe ")
+                                                  "이 칩의 어빌리티 ①의 효과 대상에\n")
                                          .replace("このチップのアビリティ②の効果の対象に\n",
-                                                  "This chip's 2nd ability now also covers\nthe ")
+                                                  "이 칩의 어빌리티 ①의 효과 대상에\n")
                                          .replace("を追加する。",
-                                                  "."),
+                                                  "추가를 한다."),
     "Effect Extended":      lambda x:   x.replace("このチップのアビリティの効果時間を",
-                                                  "Ability's Effect Duration is extended by ")
+                                                  "이 칩의 어빌리티 효과 시간을 ")
                                          .replace("秒延長する。",
-                                                  " seconds."),
+                                                  "초 연장한다."),
     "Parameters Up":        lambda x:   x.replace("が＋",
-                                                  " increases by ")
+                                                  "이 ")
                                          .replace("上昇する。",
-                                                  " when equipped."),
+                                                  "씩 상승한다."),
     "Recovery Over Time":   lambda x:   x.replace("戦闘中、一定時間毎にHPが",
-                                                  "Recovers your HP by ")
+                                                  "전투 중 일정 시간마다 HP가")
                                          .replace("％回復する。",
-                                                  "% at regular intervals during battle.")
+                                                  "%씩 회복된다.")
                                          .replace("戦闘中、一定時間毎にＣＰが",
-                                                  "Recovers your CP by ")
+                                                  "전투 중 일정 시간마다 CP가")
                                          .replace("回復する。",
-                                                  " at regular intervals during battle.")
+                                                  " 씩 회복된다.")
     }
 
 unknowns = []
@@ -105,14 +104,14 @@ for effect in effect_names:
             
                     # some things are used in multiple effect types
                     effect_text = effect_text.replace("ＨＰ", "HP")
-                    effect_text = effect_text.replace("法術", "Techs")
-                    effect_text = effect_text.replace("炎", "Fire ")
-                    effect_text = effect_text.replace("氷", "Ice ")
-                    effect_text = effect_text.replace("雷", "Lightning ")
-                    effect_text = effect_text.replace("風", "Wind ")
-                    effect_text = effect_text.replace("光", "Light ")
-                    effect_text = effect_text.replace("闇", "Dark ")
-                    effect_text = effect_text.replace("属性", "Element")
+                    effect_text = effect_text.replace("法術", "테크닉")
+                    effect_text = effect_text.replace("炎", "염")
+                    effect_text = effect_text.replace("氷", "빙")
+                    effect_text = effect_text.replace("雷", "뇌")
+                    effect_text = effect_text.replace("風", "풍")
+                    effect_text = effect_text.replace("光", "명")
+                    effect_text = effect_text.replace("闇", "암")
+                    effect_text = effect_text.replace("属性", "속성")
                     # translation depends on effect type, so:
                     effect_text = effect_effects[effect["tr_text"]](effect_text)
                     description["tr_text"] = effect_text

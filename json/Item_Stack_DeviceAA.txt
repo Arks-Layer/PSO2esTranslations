@@ -2,190 +2,190 @@
 	{
 		"assign": "31001",
 		"jp_text": "打撃デバイス／アタック",
-		"tr_text": "S-ATK/Attack",
+		"tr_text": "타격 디바이스／어택",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。通常打撃による支援行動\nが登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"S-ATK/Attack\".\nTackles enemies"
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n일반 타격으로 지원하는 행동을\n등록한다."
 	},
 	{
 		"assign": "31002",
 		"jp_text": "打撃デバイス／アッパー",
-		"tr_text": "S-ATK/Upper",
+		"tr_text": "타격 디바이스／어퍼",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。打ち上げ打撃による支援行動\nが登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"S-ATK/Upper\".\nTackles and launches enemies."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n적을 띄우는 타격으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "31003",
 		"jp_text": "打撃デバイス／ブロー",
-		"tr_text": "S-ATK/Blow",
+		"tr_text": "타격 디바이스／블로",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。敵を攻撃し転倒させる\n支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"S-ATK/Blow\".\nTackles and knocks down enemies."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n적을 공격해 넘어뜨리는\n지원 행동을 등록한다."
 	},
 	{
 		"assign": "31004",
 		"jp_text": "射撃デバイス／炎通常弾",
-		"tr_text": "R-ATK/Flame Bullet",
+		"tr_text": "사격 디바이스／화염 일반탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。炎属性弾による支援行動が\n登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Flame Bullet\".\nShoots fire bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n화염 속성 탄환으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "31005",
 		"jp_text": "射撃デバイス／氷通常弾",
-		"tr_text": "R-ATK/Ice Bullet",
+		"tr_text": "사격 디바이스／얼음 일반탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。氷属性弾による支援行動が\n登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Ice Bullet\".\nShoots ice bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n얼음 속성 탄환으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "31006",
 		"jp_text": "射撃デバイス／雷通常弾",
-		"tr_text": "R-ATK/Lightning Bullet",
+		"tr_text": "사격 디바이스／번개 일반탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。雷属性弾による支援行動が\n登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Lightning Bullet\".\nShoots lightning bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n번개 속성 탄환으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "31007",
 		"jp_text": "射撃デバイス／風通常弾",
-		"tr_text": "R-ATK/Wind Bullets",
+		"tr_text": "사격 디바이스／바람 일반탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。風属性弾による支援行動が\n登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Wind Bullet\".\nShoots wind bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n바람 속성 탄환으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "31008",
 		"jp_text": "射撃デバイス／光通常弾",
-		"tr_text": "R-ATK/Light Bullet",
+		"tr_text": "사격 디바이스／빛 일반탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。光属性弾による支援行動が\n登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Light Bullet\".\nShoots light bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n빛 속성 탄환으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "31009",
 		"jp_text": "射撃デバイス／闇通常弾",
-		"tr_text": "R-ATK/Dark Bullet",
+		"tr_text": "사격 디바이스／어둠 일반탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。闇属性弾による支援行動が\n登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Dark Bullet\".\nShoots dark bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n어둠 속성 탄환으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "310010",
 		"jp_text": "射撃デバイス／炎貫通弾",
-		"tr_text": "R-ATK/Piercing Flame Bullet",
+		"tr_text": "사격 디바이스／화염 관통탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。炎属性貫通弾による\n支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Piercing Flame Bullet\".\nShoots piercing fire bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n화염 속성 관통탄으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "310011",
 		"jp_text": "射撃デバイス／氷貫通弾",
-		"tr_text": "R-ATK/Piercing Ice Bullet",
+		"tr_text": "사격 디바이스／얼음 관통탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。氷属性貫通弾による\n支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Piercing Ice Bullet\".\nShoots ice piercing bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n얼음 속성 관통탄으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "310012",
 		"jp_text": "射撃デバイス／雷貫通弾",
-		"tr_text": "R-ATK/Piercing Lightning Bullet",
+		"tr_text": "사격 디바이스／번개 관통탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。雷属性貫通弾による\n支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Piercing Lightning Bullet\".\nShoots piercing lightning bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n번개 속성 관통탄으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "310013",
 		"jp_text": "射撃デバイス／風貫通弾",
-		"tr_text": "R-ATK/Piercing Wind Bullet",
+		"tr_text": "사격 디바이스／바람 관통탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。風属性貫通弾による\n支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Piercing Wind Bullet\".\nShoots piercing wind bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n바람 속성 관통탄으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "310014",
 		"jp_text": "射撃デバイス／光貫通弾",
-		"tr_text": "R-ATK/Piercing Light Bullet",
+		"tr_text": "사격 디바이스／빛 관통탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。光属性貫通弾による\n支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Piercing Light Bullet\".\nShoots piercing light bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n빛 속성 관통탄으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "310015",
 		"jp_text": "射撃デバイス／闇貫通弾",
-		"tr_text": "R-ATK/Piercing Dark Bullet",
+		"tr_text": "사격 디바이스／어둠 관통탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。闇属性貫通弾による\n支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Piercing Dark Bullet\".\nShoots piercing dark bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n어둠 속성 관통탄으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "310016",
 		"jp_text": "射撃デバイス／炎炸裂弾",
-		"tr_text": "R-ATK/Exploding Flame Bullet",
+		"tr_text": "사격 디바이스／화염 작렬탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。炎属性炸裂弾による\n支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Exploding Flame Bullet\".\nShoots exploding fire bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n화염 속성 작렬탄으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "310017",
 		"jp_text": "射撃デバイス／氷炸裂弾",
-		"tr_text": "R-ATK/Exploding Ice Bullet",
+		"tr_text": "사격 디바이스／얼음 작렬탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。氷属性炸裂弾による\n支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Exploding Ice Bullet\".\nShoots exploding ice bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n얼음 속성 작렬탄으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "310018",
 		"jp_text": "射撃デバイス／雷炸裂弾",
-		"tr_text": "R-ATK/Exploding Ltng Bullet",
+		"tr_text": "사격 디바이스／번개 작렬탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。雷属性炸裂弾による\n支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Exploding Lightning Bullet\".\nShoots exploding lightning bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n번개 속성 작렬탄으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "310019",
 		"jp_text": "射撃デバイス／風炸裂弾",
-		"tr_text": "R-ATK/Exploding Wind Bullet",
+		"tr_text": "사격 디바이스／바람 작렬탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。風属性炸裂弾による\n支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Exploding Wind Bullet\".\nShoots exploding wind bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n바람 속성 작렬탄으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "310020",
 		"jp_text": "射撃デバイス／光炸裂弾",
-		"tr_text": "R-ATK/Exploding Light Bullet",
+		"tr_text": "사격 디바이스／빛 작렬탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。光属性炸裂弾による\n支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Exploding Light Bullet\".\nShoots exploding light bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n빛 속성 작렬탄으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "310021",
 		"jp_text": "射撃デバイス／闇炸裂弾",
-		"tr_text": "R-ATK/Exploding Dark Bullet",
+		"tr_text": "사격 디바이스／어둠 작렬탄",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。闇属性炸裂弾による\n支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"R-ATK/Exploding Dark Bullet\".\nShoots exploding dark bullets."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는 디바이스.\n어둠 속성 작렬탄으로 지원하는\n행동을 등록한다."
 	},
 	{
 		"assign": "310022",
 		"jp_text": "法撃デバイス／フォイエ",
-		"tr_text": "T-ATK/Foie",
+		"tr_text": "법격 디바이스／포이에",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。\nフォイエによる支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"T-ATK/Foie.\"\nShoots Foie."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는\n디바이스.\n포이에로 지원하는 행동을 등록한다."
 	},
 	{
 		"assign": "310023",
 		"jp_text": "法撃デバイス／バータ",
-		"tr_text": "T-ATK/Barta",
+		"tr_text": "법격 디바이스／바타",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。\nバータによる支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"T-ATK/Barta.\"\nShoots Barta."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는\n디바이스.\n바타로 지원하는 행동을 등록한다."
 	},
 	{
 		"assign": "310024",
 		"jp_text": "法撃デバイス／ゾンデ",
-		"tr_text": "T-ATK/Zonde",
+		"tr_text": "법격 디바이스／존데",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。\nゾンデによる支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"T-ATK/Zonde.\"\nShoots Zonde."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는\n디바이스.\n존데로 지원하는 행동을 등록한다."
 	},
 	{
 		"assign": "310025",
 		"jp_text": "法撃デバイス／ザン",
-		"tr_text": "T-ATK/Zan",
+		"tr_text": "법격 디바이스／잔",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。\nザンによる支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"T-ATK/Zan.\"\nShoots Zan."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는\n디바이스.\n잔으로 지원하는 행동을 등록한다."
 	},
 	{
 		"assign": "310026",
 		"jp_text": "法撃デバイス／グランツ",
-		"tr_text": "T-ATK/Grants",
+		"tr_text": "법격 디바이스／그란츠",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。\nグランツによる支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"T-ATK/Grants.\"\nShoots Grants."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는\n디바이스.\n그란츠로 지원하는 행동을 등록한다."
 	},
 	{
 		"assign": "310027",
 		"jp_text": "法撃デバイス／メギド",
-		"tr_text": "T-ATK/Megid",
+		"tr_text": "법격 디바이스／메기도",
 		"jp_explain": "マグのオートアクションを上書きする\nデバイス。\nメギドによる支援行動が登録される。",
-		"tr_explain": "Mag auto action is replaced with\n\"T-ATK/Megid.\"\nShoots Megid."
+		"tr_explain": "마그의 오토 액션을 덮어쓰는\n디바이스.\n메기도로 지원하는 행동을 등록한다."
 	}
 ]
