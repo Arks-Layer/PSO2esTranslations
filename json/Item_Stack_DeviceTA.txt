@@ -4,118 +4,118 @@
 		"jp_text": "支援デバイス／ＨＰ回復Ａ",
 		"tr_text": "Support Device/HP Restore A",
 		"jp_explain": "マグの支援機能を設定するデバイス。\n主人の体力低下時に回復支援を行う。\n発動率は高く、回復量が低い。",
-		"tr_explain": "A Mag support function device.\nRestores HP when health is low.\nHigh probability,\nbut low recovery."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nจะฟื้นฟูพลังเมื่อค่า HP ของเจ้านายลดต่ำลง\nมีโอกาสติดสูง แต่ฟื้นฟูได้น้อย"
 	},
 	{
 		"assign": "31101",
 		"jp_text": "支援デバイス／ＨＰ回復Ｂ",
 		"tr_text": "Support Device/HP Restore B",
 		"jp_explain": "マグの支援機能を設定するデバイス。\n主人の体力低下時に回復支援を行う。\n発動率は普通で、回復量も普通。",
-		"tr_explain": "A Mag support function device.\nRestores HP when health is low.\nAverage probability,\naverage recovery."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nจะฟื้นฟูพลังเมื่อค่า HP ของเจ้านายลดต่ำลง\nมีโอกาสติดระดับปานกลาง และฟื้นฟูปานกลาง"
 	},
 	{
 		"assign": "31103",
 		"jp_text": "支援デバイス／能力上昇Ａ",
 		"tr_text": "Support Device/Stat Boost A",
 		"jp_explain": "マグの支援機能を設定するデバイス。\nエリア変更時に能力上昇支援を行う。\n発動率は低く、インターバルは短い。",
-		"tr_explain": "A Mag support function device.\nBuffs stats on area change.\nLow probability,\nshort duration."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nช่วยเพิ่มค่าสถานะเมื่อเปลี่ยนพื้นที่ Area\nมีโอกาสติดต่ำ แต่มีช่วงคูลดาวน์สั้น"
 	},
 	{
 		"assign": "31104",
 		"jp_text": "支援デバイス／能力上昇Ｂ",
 		"tr_text": "Support Device/Stat Boost B",
 		"jp_explain": "マグの支援機能を設定するデバイス。\nエリア変更時に能力上昇支援を行う。\n発動率は普通、インターバルも普通。",
-		"tr_explain": "A Mag support function device.\nBuffs stats on area change.\nAverage probability,\naverage duration."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nช่วยเพิ่มค่าสถานะเมื่อเปลี่ยนพื้นที่ Area\nมีโอกาสติดระดับปานกลาง และคูลดาวน์ปานกลาง"
 	},
 	{
 		"assign": "31106",
 		"jp_text": "支援デバイス／ＰＰ回復Ａ",
 		"tr_text": "Support Device/PP Restore A",
 		"jp_explain": "マグの支援機能を設定するデバイス。\nエリア変更時にＰＰ回復支援を行う。\n発動率が高く、効果時間が短い。",
-		"tr_explain": "A Mag support function device.\nBoosts PP regeneration on area \nchange. High probability,\nbut short duration."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nช่วยฟื้นฟู PP เมื่อเปลี่ยนพื้นที่ Area\nมีโอกาสติดสูง แต่ระยะเวลาแสดงผลสั้น"
 	},
 	{
 		"assign": "31107",
 		"jp_text": "支援デバイス／ＰＰ回復Ｂ",
 		"tr_text": "Support Device/PP Restore B",
 		"jp_explain": "マグの支援機能を設定するデバイス。\nエリア変更時にＰＰ回復支援を行う。\n発動率が普通、効果時間も普通。",
-		"tr_explain": "A Mag support function device.\nBoosts PP regeneration on area \nchange. Average probability,\naverage duration."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nช่วยฟื้นฟู PP เมื่อเปลี่ยนพื้นที่ Area\nมีโอกาสติดระดับปานกลาง และระยะเวลาแสดงผลปานกลาง"
 	},
 	{
 		"assign": "31109",
 		"jp_text": "支援デバイス／状態異常Ａ",
 		"tr_text": "Support Device/Status Heal A",
 		"jp_explain": "マグの支援機能を設定するデバイス。\n状態異常時に異常回復支援を行う。\n発動率は低く、インターバルは短い。",
-		"tr_explain": "A Mag support function device.\nCures status ailments.\nLow probability,\nbut short cooldown."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nช่วยรักษาเมื่อติดอาการผิดปกติทางสถานะ\nมีโอกาสติดต่ำ แต่มีช่วงคูลดาวน์สั้น"
 	},
 	{
 		"assign": "311010",
 		"jp_text": "支援デバイス／状態異常Ｂ",
 		"tr_text": "Support Device/Status Heal B",
 		"jp_explain": "マグの支援機能を設定するデバイス。\n状態異常時に異常回復支援を行う。\n発動率が普通で、インターバルも普通。",
-		"tr_explain": "A Mag support function device.\nCures status ailments.\nAverage probability,\naverage cooldown."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nช่วยรักษาเมื่อติดอาการผิดปกติทางสถานะ\nมีโอกาสติดระดับปานกลาง และคูลดาวน์ปานกลาง"
 	},
 	{
 		"assign": "311012",
 		"jp_text": "支援デバイス／無敵Ａ",
 		"tr_text": "Support Device/Invincibility A",
 		"jp_explain": "マグの支援機能を設定するデバイス。\nＰＢゲージ満タン時に無敵支援を行う。\n効果時間が短い。",
-		"tr_explain": "A Mag support function device.\nProvides invincibility\nwhen PB gauge fills.\nShort duration."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nมอบสถานะอมตะชั่วขณะเมื่อเกจ PB เต็ม\nมีระยะเวลาแสดงผลสั้น"
 	},
 	{
 		"assign": "311016",
 		"jp_text": "支援デバイス／能力上昇Ｅ",
 		"tr_text": "Support Device/Stat Boost E",
 		"jp_explain": "マグの支援機能を設定するデバイス。\nＰＢゲージ満タン時に能力上昇支援を\n行う。インターバルが普通。",
-		"tr_explain": "A Mag support function device.\nBuffs stats when PB gauge fills.\nAverage duration."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nช่วยเพิ่มค่าสถานะเมื่อเกจ PB เต็ม\nมีช่วงคูลดาวน์ระดับปานกลาง"
 	},
 	{
 		"assign": "311021",
 		"jp_text": "支援デバイス／能力上昇Ｇ",
 		"tr_text": "Support Device/Stat Boost G",
 		"jp_explain": "マグの支援機能を設定するデバイス。\nＥトライアル時に能力上昇支援を行う。\n発動率は低く、インターバルは短い。",
-		"tr_explain": "A Mag support function device.\nBuffs stats when starting\nan Emergency Trial.\nLow probability and short cooldown."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nช่วยเพิ่มค่าสถานะเมื่อเกิด Emergency Trial\nมีโอกาสติดต่ำ แต่มีช่วงคูลดาวน์สั้น"
 	},
 	{
 		"assign": "311022",
 		"jp_text": "支援デバイス／能力上昇Ｈ",
 		"tr_text": "Support Device/Stat Boost H",
 		"jp_explain": "マグの支援機能を設定するデバイス。\nＥトライアル時に能力上昇支援を行う。\n発動率は普通、インターバルも普通。",
-		"tr_explain": "A Mag support function device.\nBuffs stats when starting\nan Emergency Trial.\nAverage probability and cooldown."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nช่วยเพิ่มค่าสถานะเมื่อเกิด Emergency Trial\nมีโอกาสติดระดับปานกลาง และคูลดาวน์ปานกลาง"
 	},
 	{
 		"assign": "311027",
 		"jp_text": "支援デバイス／復活Ａ",
 		"tr_text": "Support Device/Revival A",
 		"jp_explain": "マグの支援機能を設定するデバイス。\n戦闘不能時に復活支援を行う。\n発動は非常に稀。",
-		"tr_explain": "A Mag support function device.\nRevives owner upon incapacitation.\nVery low probability."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nช่วยชุบชีวิตเมื่อผู้ใช้เข้าสู่สถานะหมดสติ\nโอกาสเกิดผลนั้นพบน้อยมาก"
 	},
 	{
 		"assign": "311030",
 		"jp_text": "支援デバイス／ＨＰ回復Ｋ",
 		"tr_text": "Support Device/HP Restore K",
 		"jp_explain": "マグの支援機能を設定するデバイス。\n一定間隔でＨＰ回復支援を行う。\n間隔が普通で、回復量も普通。",
-		"tr_explain": "A Mag support function device.\nRecovers HP at fixed intervals.\nAverage intervals and recovery."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nช่วยฟื้นฟูค่า HP ตามช่วงเวลาที่กำหนดอย่างสม่ำเสมอ\nมีช่วงระยะเวลาและความถี่ในการฟื้นฟูปานกลาง"
 	},
 	{
 		"assign": "311033",
 		"jp_text": "支援デバイス／能力上昇Ｋ",
 		"tr_text": "Support Device/Stat Boost K",
 		"jp_explain": "マグの支援機能を設定するデバイス。\n一定間隔で能力上昇支援を行う。\n間隔が普通。",
-		"tr_explain": "A Mag support function device.\nBuffs stats at fixed intervals.\nAverage intervals."
+		"tr_explain": "Device สำหรับตั้งค่าระบบสนับสนุนของ Mag\nช่วยเพิ่มค่าสถานะตามช่วงเวลาที่กำหนดอย่างสม่ำเสมอ\nมีช่วงระยะเวลาแสดงผลระดับปานกลาง"
 	},
 	{
 		"assign": "311038",
 		"jp_text": "生産デバイス／ＨＰ回復系",
 		"tr_text": "Production Device/Mates",
 		"jp_explain": "マグの生産機能を設定するデバイス。\n一定時間経過でモノメイトなどの\n消費系アイテムを生産する。",
-		"tr_explain": "A Mag production function device.\nProduces healing items such as \nMonomates at fixed intervals."
+		"tr_explain": "Device สำหรับตั้งค่าระบบผลิตไอเทมของ Mag\nจะสร้างไอเทมฟื้นฟูเช่น Monomate\nเมื่อเวลาผ่านไปตามที่กำหนด"
 	},
 	{
 		"assign": "311039",
 		"jp_text": "生産デバイス／範囲系",
 		"tr_text": "Production Device/Atomizers",
 		"jp_explain": "マグの生産機能を設定するデバイス。\n一定時間経過でソルアトマイザーなどの\n消費系アイテムを生産する。",
-		"tr_explain": "A Mag production function device.\nProduces healing items such as \nSol Atomizers at fixed intervals."
+		"tr_explain": "Device สำหรับตั้งค่าระบบผลิตไอเทมของ Mag\nจะสร้างไอเทมฟื้นฟูเช่น Sol Atomizer\nเมื่อเวลาผ่านไปตามที่กำหนด"
 	}
 ]
