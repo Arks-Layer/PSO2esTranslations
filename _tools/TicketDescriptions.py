@@ -1807,7 +1807,7 @@ cv_names = {
     "加藤 渉": ["Wataru Kato", "", "", "加藤 涉"],
     "河西 健吾": ["Kengo Kawanishi", "", "", "河西 健吾"],
     "福原 綾香": ["Ayaka Fukuhara", "", "", "福原 綾香"],
-    "ファイルーズ あい": ["Fairouz Ai", "", "", "菲魯茲·藍"],
+    "ファイルーズ あい": ["Ai Fairouz", "", "", "菲魯茲·藍"],
     "種﨑 敦美": ["Atsumi Tanezaki", "", "", "種崎 敦美"],
     "市ノ瀬 加那": ["Kana Ichinose", "", "", "市之瀨 加那"],
     "小林 千晃": ["Chiaki Kobayashi", "", "", "小林 千晃"],
