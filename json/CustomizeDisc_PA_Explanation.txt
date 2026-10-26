@@ -1,0 +1,2396 @@
+[
+	{
+		"row": 0,
+		"Sub": "1",
+		"Index": "0",
+		"ChangeID": "1",
+		"__key": "disc:1:0:1",
+		"jp_explain": "ソードPA1・カスタム1説明文",
+		"tr_explain": "소드 PA1 커스텀1 설명문"
+	},
+	{
+		"row": 1,
+		"Sub": "1",
+		"Index": "1",
+		"ChangeID": "1",
+		"__key": "disc:1:1:1",
+		"jp_explain": "回転攻撃時の方向入力で移動可能。\n回転攻撃中にボタンを長押しすることで\n一定時間、攻撃時間が延長する。",
+		"tr_explain": "회전 공격 중 방향을 입력해 이동할 수 있다.\n회전 공격 중 버튼을 길게 누르면\n공격 시간이 일정 시간 연장된다."
+	},
+	{
+		"row": 2,
+		"Sub": "1",
+		"Index": "2",
+		"ChangeID": "1",
+		"__key": "disc:1:2:1",
+		"jp_explain": "ソードPA3・カスタム1説明文",
+		"tr_explain": "소드 PA3 커스텀1 설명문"
+	},
+	{
+		"row": 3,
+		"Sub": "1",
+		"Index": "3",
+		"ChangeID": "1",
+		"__key": "disc:1:3:1",
+		"jp_explain": "ソードPA4・カスタム1説明文",
+		"tr_explain": "소드 PA4 커스텀1 설명문"
+	},
+	{
+		"row": 4,
+		"Sub": "1",
+		"Index": "4",
+		"ChangeID": "1",
+		"__key": "disc:1:4:1",
+		"jp_explain": "ソードPA5・カスタム1説明文",
+		"tr_explain": "소드 PA5 커스텀1 설명문"
+	},
+	{
+		"row": 5,
+		"Sub": "1",
+		"Index": "5",
+		"ChangeID": "1",
+		"__key": "disc:1:5:1",
+		"jp_explain": "ソードPA6・カスタム1説明文",
+		"tr_explain": "소드 PA6 커스텀1 설명문"
+	},
+	{
+		"row": 6,
+		"Sub": "1",
+		"Index": "6",
+		"ChangeID": "1",
+		"__key": "disc:1:6:1",
+		"jp_explain": "ソードPA7・カスタム1説明文",
+		"tr_explain": "소드 PA7 커스텀1 설명문"
+	},
+	{
+		"row": 7,
+		"Sub": "1",
+		"Index": "7",
+		"ChangeID": "1",
+		"__key": "disc:1:7:1",
+		"jp_explain": "ソードPA8・カスタム1説明文",
+		"tr_explain": "소드 PA8 커스텀1 설명문"
+	},
+	{
+		"row": 8,
+		"Sub": "1",
+		"Index": "8",
+		"ChangeID": "1",
+		"__key": "disc:1:8:1",
+		"jp_explain": "ソードPA9・カスタム1説明文",
+		"tr_explain": "소드 PA9 커스텀1 설명문"
+	},
+	{
+		"row": 9,
+		"Sub": "1",
+		"Index": "9",
+		"ChangeID": "1",
+		"__key": "disc:1:9:1",
+		"jp_explain": "鋭く踏み込んで獲物のフォトンを奪い\nＰＰを回復。更にＰＰ自動回復量が\n上昇し、通常攻撃のリーチが拡大。",
+		"tr_explain": "날카롭게 파고들어 사냥감의 포톤을 빼앗아\nＰＰ를 회복한다. 또한 ＰＰ 자동 회복량이\n증가하고 일반 공격이 닿는 거리가 늘어난다."
+	},
+	{
+		"row": 10,
+		"Sub": "1",
+		"Index": "10",
+		"ChangeID": "1",
+		"__key": "disc:1:10:1",
+		"jp_explain": "ソードPA11・カスタム1説明文",
+		"tr_explain": "소드 PA11 커스텀1 설명문"
+	},
+	{
+		"row": 11,
+		"Sub": "2",
+		"Index": "0",
+		"ChangeID": "1",
+		"__key": "disc:2:0:1",
+		"jp_explain": "ワイヤードランスPA1・カスタム1説明文",
+		"tr_explain": "와이어드 랜스 PA1 커스텀1 설명문"
+	},
+	{
+		"row": 12,
+		"Sub": "2",
+		"Index": "1",
+		"ChangeID": "1",
+		"__key": "disc:2:1:1",
+		"jp_explain": "ワイヤードランスPA2・カスタム1説明文",
+		"tr_explain": "와이어드 랜스 PA2 커스텀1 설명문"
+	},
+	{
+		"row": 13,
+		"Sub": "2",
+		"Index": "2",
+		"ChangeID": "1",
+		"__key": "disc:2:2:1",
+		"jp_explain": "ワイヤードランスPA3・カスタム1説明文",
+		"tr_explain": "와이어드 랜스 PA3 커스텀1 설명문"
+	},
+	{
+		"row": 14,
+		"Sub": "2",
+		"Index": "3",
+		"ChangeID": "1",
+		"__key": "disc:2:3:1",
+		"jp_explain": "目標を捕獲し、そのまま振り回す。\nボタン長押しで攻撃時間が延長し\n回転速度が上昇する。",
+		"tr_explain": "목표를 붙잡아 그대로 휘두른다.\n버튼을 길게 누르면 공격 시간이 연장되고\n회전 속도가 증가한다."
+	},
+	{
+		"row": 15,
+		"Sub": "2",
+		"Index": "4",
+		"ChangeID": "1",
+		"__key": "disc:2:4:1",
+		"jp_explain": "ワイヤードランスPA4・カスタム1説明文",
+		"tr_explain": "와이어드 랜스 PA4 커스텀1 설명문"
+	},
+	{
+		"row": 16,
+		"Sub": "2",
+		"Index": "5",
+		"ChangeID": "1",
+		"__key": "disc:2:5:1",
+		"jp_explain": "ワイヤードランスPA6・カスタム1説明文",
+		"tr_explain": "와이어드 랜스 PA6 커스텀1 설명문"
+	},
+	{
+		"row": 17,
+		"Sub": "2",
+		"Index": "6",
+		"ChangeID": "1",
+		"__key": "disc:2:6:1",
+		"jp_explain": "ワイヤードランスPA7・カスタム1説明文",
+		"tr_explain": "와이어드 랜스 PA7 커스텀1 설명문"
+	},
+	{
+		"row": 18,
+		"Sub": "2",
+		"Index": "7",
+		"ChangeID": "1",
+		"__key": "disc:2:7:1",
+		"jp_explain": "自在槍のワイヤーを敢えて使わずに\n連続攻撃を繰り出す。俊敏かつ\n無慈悲な乱舞は目標を瞬時に切り刻む。",
+		"tr_explain": "와이어드 랜스의 와이어를 일부러 쓰지 않고\n연속 공격을 펼친다. 재빠르고\n무자비한 난무로 목표를 순식간에 난도질한다."
+	},
+	{
+		"row": 19,
+		"Sub": "2",
+		"Index": "8",
+		"ChangeID": "1",
+		"__key": "disc:2:8:1",
+		"jp_explain": "ワイヤードランスPA9・カスタム1説明文",
+		"tr_explain": "와이어드 랜스 PA9 커스텀1 설명문"
+	},
+	{
+		"row": 20,
+		"Sub": "2",
+		"Index": "9",
+		"ChangeID": "1",
+		"__key": "disc:2:9:1",
+		"jp_explain": "ワイヤードランスPA10・カスタム1説明文",
+		"tr_explain": "와이어드 랜스 PA10 커스텀1 설명문"
+	},
+	{
+		"row": 21,
+		"Sub": "2",
+		"Index": "10",
+		"ChangeID": "1",
+		"__key": "disc:2:10:1",
+		"jp_explain": "ワイヤードランスPA11・カスタム1説明文",
+		"tr_explain": "와이어드 랜스 PA11 커스텀1 설명문"
+	},
+	{
+		"row": 22,
+		"Sub": "3",
+		"Index": "0",
+		"ChangeID": "1",
+		"__key": "disc:3:0:1",
+		"jp_explain": "パルチザンPA1・カスタム1説明文",
+		"tr_explain": "파르티잔 PA1 커스텀1 설명문"
+	},
+	{
+		"row": 23,
+		"Sub": "3",
+		"Index": "1",
+		"ChangeID": "1",
+		"__key": "disc:3:1:1",
+		"jp_explain": "パルチザンPA2・カスタム1説明文",
+		"tr_explain": "파르티잔 PA2 커스텀1 설명문"
+	},
+	{
+		"row": 24,
+		"Sub": "3",
+		"Index": "2",
+		"ChangeID": "1",
+		"__key": "disc:3:2:1",
+		"jp_explain": "瞬速で間合いを詰め、柄で目標を殴る。\n目標が怯んだ隙に斬り上げて\n天高く打ち上げる。",
+		"tr_explain": "순식간에 거리를 좁혀 자루로 목표를 때린다.\n목표가 움찔한 틈에 올려 베어\n하늘 높이 띄운다."
+	},
+	{
+		"row": 25,
+		"Sub": "3",
+		"Index": "3",
+		"ChangeID": "1",
+		"__key": "disc:3:3:1",
+		"jp_explain": "パルチザンPA4・カスタム1説明文",
+		"tr_explain": "파르티잔 PA4 커스텀1 설명문"
+	},
+	{
+		"row": 26,
+		"Sub": "3",
+		"Index": "4",
+		"ChangeID": "1",
+		"__key": "disc:3:4:1",
+		"jp_explain": "パルチザンPA5・カスタム1説明文",
+		"tr_explain": "파르티잔 PA5 커스텀1 설명문"
+	},
+	{
+		"row": 27,
+		"Sub": "3",
+		"Index": "5",
+		"ChangeID": "1",
+		"__key": "disc:3:5:1",
+		"jp_explain": "パルチザンPA6・カスタム1説明文",
+		"tr_explain": "파르티잔 PA6 커스텀1 설명문"
+	},
+	{
+		"row": 28,
+		"Sub": "3",
+		"Index": "6",
+		"ChangeID": "1",
+		"__key": "disc:3:6:1",
+		"jp_explain": "パルチザンPA7・カスタム1説明文",
+		"tr_explain": "파르티잔 PA7 커스텀1 설명문"
+	},
+	{
+		"row": 29,
+		"Sub": "3",
+		"Index": "7",
+		"ChangeID": "1",
+		"__key": "disc:3:7:1",
+		"jp_explain": "パルチザンPA8・カスタム1説明文",
+		"tr_explain": "파르티잔 PA8 커스텀1 설명문"
+	},
+	{
+		"row": 30,
+		"Sub": "3",
+		"Index": "8",
+		"ChangeID": "1",
+		"__key": "disc:3:8:1",
+		"jp_explain": "水平に槍を飛ばし、目標を\nフォトンの槍で貫く。\nチャージで威力と射程を強化する。",
+		"tr_explain": "창을 수평으로 날려 목표를\n포톤의 창으로 꿰뚫는다.\n차지하면 위력과 사정거리가 강화된다."
+	},
+	{
+		"row": 31,
+		"Sub": "3",
+		"Index": "9",
+		"ChangeID": "1",
+		"__key": "disc:3:9:1",
+		"jp_explain": "パルチザンPA10・カスタム1説明文",
+		"tr_explain": "파르티잔 PA10 커스텀1 설명문"
+	},
+	{
+		"row": 32,
+		"Sub": "3",
+		"Index": "10",
+		"ChangeID": "1",
+		"__key": "disc:3:10:1",
+		"jp_explain": "パルチザンPA11・カスタム1説明文",
+		"tr_explain": "파르티잔 PA11 커스텀1 설명문"
+	},
+	{
+		"row": 33,
+		"Sub": "4",
+		"Index": "0",
+		"ChangeID": "1",
+		"__key": "disc:4:0:1",
+		"jp_explain": "目標を追いかけるように跳躍し\n強力な横なぎの斬撃を繰り出す。\n接敵後、方向入力で移動可能。",
+		"tr_explain": "목표를 뒤쫓듯이 도약하여\n강력한 가로 베기를 펼친다.\n적에게 접근한 뒤 방향 입력으로 이동할 수 있다."
+	},
+	{
+		"row": 34,
+		"Sub": "4",
+		"Index": "1",
+		"ChangeID": "1",
+		"__key": "disc:4:1:1",
+		"jp_explain": "ツインダガーPA2・カスタム1説明文",
+		"tr_explain": "트윈 대거 PA2 커스텀1 설명문"
+	},
+	{
+		"row": 35,
+		"Sub": "4",
+		"Index": "2",
+		"ChangeID": "1",
+		"__key": "disc:4:2:1",
+		"jp_explain": "ツインダガーPA3・カスタム1説明文",
+		"tr_explain": "트윈 대거 PA3 커스텀1 설명문"
+	},
+	{
+		"row": 36,
+		"Sub": "4",
+		"Index": "3",
+		"ChangeID": "1",
+		"__key": "disc:4:3:1",
+		"jp_explain": "素早さと範囲が向上した\n華麗なる回転攻撃。周囲の敵を\n蹴撃と斬撃で蹴散らす。",
+		"tr_explain": "속도와 범위가 향상된\n화려한 회전 공격. 주위의 적을\n발차기와 베기로 쓸어버린다."
+	},
+	{
+		"row": 37,
+		"Sub": "4",
+		"Index": "4",
+		"ChangeID": "1",
+		"__key": "disc:4:4:1",
+		"jp_explain": "ツインダガーPA5・カスタム1説明文",
+		"tr_explain": "트윈 대거 PA5 커스텀1 설명문"
+	},
+	{
+		"row": 38,
+		"Sub": "4",
+		"Index": "5",
+		"ChangeID": "1",
+		"__key": "disc:4:5:1",
+		"jp_explain": "ツインダガーPA6・カスタム1説明文",
+		"tr_explain": "트윈 대거 PA6 커스텀1 설명문"
+	},
+	{
+		"row": 39,
+		"Sub": "4",
+		"Index": "6",
+		"ChangeID": "1",
+		"__key": "disc:4:6:1",
+		"jp_explain": "ツインダガーPA7・カスタム1説明文",
+		"tr_explain": "트윈 대거 PA7 커스텀1 설명문"
+	},
+	{
+		"row": 40,
+		"Sub": "4",
+		"Index": "7",
+		"ChangeID": "1",
+		"__key": "disc:4:7:1",
+		"jp_explain": "ツインダガーPA8・カスタム1説明文",
+		"tr_explain": "트윈 대거 PA8 커스텀1 설명문"
+	},
+	{
+		"row": 41,
+		"Sub": "4",
+		"Index": "8",
+		"ChangeID": "1",
+		"__key": "disc:4:8:1",
+		"jp_explain": "ツインダガーPA9・カスタム1説明文",
+		"tr_explain": "트윈 대거 PA9 커스텀1 설명문"
+	},
+	{
+		"row": 42,
+		"Sub": "4",
+		"Index": "9",
+		"ChangeID": "1",
+		"__key": "disc:4:9:1",
+		"jp_explain": "ツインダガーPA10・カスタム1説明文",
+		"tr_explain": "트윈 대거 PA10 커스텀1 설명문"
+	},
+	{
+		"row": 43,
+		"Sub": "4",
+		"Index": "10",
+		"ChangeID": "1",
+		"__key": "disc:4:10:1",
+		"jp_explain": "ツインダガーPA11・カスタム1説明文",
+		"tr_explain": "트윈 대거 PA11 커스텀1 설명문"
+	},
+	{
+		"row": 44,
+		"Sub": "5",
+		"Index": "0",
+		"ChangeID": "1",
+		"__key": "disc:5:0:1",
+		"jp_explain": "渦を巻くように身体を回転させ\n目標へと向かって突撃する。\nチャージで速度と移動距離が増加する。",
+		"tr_explain": "소용돌이치듯 몸을 회전시켜\n목표를 향해 돌진한다.\n차지하면 속도와 이동 거리가 증가한다."
+	},
+	{
+		"row": 52,
+		"Sub": "5",
+		"Index": "8",
+		"ChangeID": "1",
+		"__key": "disc:5:8:1",
+		"jp_explain": "両剣を投擲し、周囲を旋回させることで\n攻撃を防ぐ、攻守一体の技。\nチャージすることで攻撃範囲拡大。",
+		"tr_explain": "더블 세이버를 던져 주위를 돌게 하여\n공격을 막는 공방일체의 기술.\n차지하면 공격 범위가 확대된다."
+	},
+	{
+		"row": 55,
+		"Sub": "6",
+		"Index": "0",
+		"ChangeID": "1",
+		"__key": "disc:6:0:1",
+		"jp_explain": "ナックルPA1・カスタム1説明文",
+		"tr_explain": "너클 PA1 커스텀1 설명문"
+	},
+	{
+		"row": 56,
+		"Sub": "6",
+		"Index": "1",
+		"ChangeID": "1",
+		"__key": "disc:6:1:1",
+		"jp_explain": "ナックルPA2・カスタム1説明文",
+		"tr_explain": "너클 PA2 커스텀1 설명문"
+	},
+	{
+		"row": 57,
+		"Sub": "6",
+		"Index": "2",
+		"ChangeID": "1",
+		"__key": "disc:6:2:1",
+		"jp_explain": "ナックルPA3・カスタム1説明文",
+		"tr_explain": "너클PA3・커스텀1 설명문"
+	},
+	{
+		"row": 58,
+		"Sub": "6",
+		"Index": "3",
+		"ChangeID": "1",
+		"__key": "disc:6:3:1",
+		"jp_explain": "身体をねじ込むように回転させ\nその勢いと共にアッパーを放つ。\nチャージで渾身の一撃を繰り出す。",
+		"tr_explain": "몸을 비틀듯 회전시켜\n그 기세로 어퍼컷을 날린다.\n차지하면 온 힘을 실은 일격을 날린다."
+	},
+	{
+		"row": 59,
+		"Sub": "6",
+		"Index": "4",
+		"ChangeID": "1",
+		"__key": "disc:6:4:1",
+		"jp_explain": "力を溜めた拳で、突進攻撃を行う。\nボタンの長押しにより攻撃は延長され\n敵を貫き続けることで威力が上昇する。",
+		"tr_explain": "힘을 모은 주먹으로 돌진 공격을 한다.\n버튼을 길게 누르면 공격이 연장되며\n적을 계속 관통하면 위력이 상승한다."
+	},
+	{
+		"row": 60,
+		"Sub": "6",
+		"Index": "5",
+		"ChangeID": "1",
+		"__key": "disc:6:5:1",
+		"jp_explain": "ナックルPA6・カスタム1説明文",
+		"tr_explain": "너클PA6・커스텀1 설명문"
+	},
+	{
+		"row": 61,
+		"Sub": "6",
+		"Index": "6",
+		"ChangeID": "1",
+		"__key": "disc:6:6:1",
+		"jp_explain": "ナックルPA7・カスタム1説明文",
+		"tr_explain": "너클PA7・커스텀1 설명문"
+	},
+	{
+		"row": 62,
+		"Sub": "6",
+		"Index": "7",
+		"ChangeID": "1",
+		"__key": "disc:6:7:1",
+		"jp_explain": "ナックルPA8・カスタム1説明文",
+		"tr_explain": "너클PA8・커스텀1 설명문"
+	},
+	{
+		"row": 63,
+		"Sub": "6",
+		"Index": "8",
+		"ChangeID": "1",
+		"__key": "disc:6:8:1",
+		"jp_explain": "ナックルPA9・カスタム1説明文",
+		"tr_explain": "너클PA9・커스텀1 설명문"
+	},
+	{
+		"row": 64,
+		"Sub": "6",
+		"Index": "9",
+		"ChangeID": "1",
+		"__key": "disc:6:9:1",
+		"jp_explain": "ナックルPA10・カスタム1説明文",
+		"tr_explain": "너클PA10・커스텀1 설명문"
+	},
+	{
+		"row": 65,
+		"Sub": "6",
+		"Index": "10",
+		"ChangeID": "1",
+		"__key": "disc:6:10:1",
+		"jp_explain": "ナックルPA11・カスタム1説明文",
+		"tr_explain": "너클PA11・커스텀1 설명문"
+	},
+	{
+		"row": 66,
+		"Sub": "7",
+		"Index": "0",
+		"ChangeID": "1",
+		"__key": "disc:7:0:1",
+		"jp_explain": "片刃剣で、素早く前方を切りつけ\n更に斬撃を飛ばす遠近両用の技。\n短い挙動ながらも攻撃可能範囲が広い。",
+		"tr_explain": "외날검으로 재빠르게 전방을 베고\n이어 참격을 날리는 원근거리 겸용 기술.\n동작은 짧지만 공격 범위가 넓다."
+	},
+	{
+		"row": 67,
+		"Sub": "7",
+		"Index": "1",
+		"ChangeID": "1",
+		"__key": "disc:7:1:1",
+		"jp_explain": "ガンスラッシュPA2・カスタム1説明文",
+		"tr_explain": "건슬래시PA2・커스텀1 설명문"
+	},
+	{
+		"row": 68,
+		"Sub": "7",
+		"Index": "2",
+		"ChangeID": "1",
+		"__key": "disc:7:2:1",
+		"jp_explain": "低速のフォトンの刃をともなう\n斬撃を繰り出す。追加の射撃によって\nフォトンの刃が加速する。",
+		"tr_explain": "느리게 움직이는 포톤 칼날과 함께\n참격을 날린다. 추가 사격으로\n포톤 칼날이 가속한다."
+	},
+	{
+		"row": 69,
+		"Sub": "7",
+		"Index": "3",
+		"ChangeID": "1",
+		"__key": "disc:7:3:1",
+		"jp_explain": "ガンスラッシュPA4・カスタム1説明文",
+		"tr_explain": "건슬래시PA4・커스텀1 설명문"
+	},
+	{
+		"row": 70,
+		"Sub": "7",
+		"Index": "4",
+		"ChangeID": "1",
+		"__key": "disc:7:4:1",
+		"jp_explain": "ガンスラッシュPA5・カスタム1説明文",
+		"tr_explain": "건슬래시PA5・커스텀1 설명문"
+	},
+	{
+		"row": 71,
+		"Sub": "7",
+		"Index": "5",
+		"ChangeID": "1",
+		"__key": "disc:7:5:1",
+		"jp_explain": "ガンスラッシュPA6・カスタム1説明文",
+		"tr_explain": "건슬래시PA6・커스텀1 설명문"
+	},
+	{
+		"row": 72,
+		"Sub": "7",
+		"Index": "6",
+		"ChangeID": "1",
+		"__key": "disc:7:6:1",
+		"jp_explain": "ガンスラッシュPA7・カスタム1説明文",
+		"tr_explain": "건슬래시PA7・커스텀1 설명문"
+	},
+	{
+		"row": 73,
+		"Sub": "7",
+		"Index": "7",
+		"ChangeID": "1",
+		"__key": "disc:7:7:1",
+		"jp_explain": "ガンスラッシュPA8・カスタム1説明文",
+		"tr_explain": "건슬래시PA8・커스텀1 설명문"
+	},
+	{
+		"row": 74,
+		"Sub": "7",
+		"Index": "8",
+		"ChangeID": "1",
+		"__key": "disc:7:8:1",
+		"jp_explain": "ガンスラッシュPA9・カスタム1説明文",
+		"tr_explain": "건슬래시PA9・커스텀1 설명문"
+	},
+	{
+		"row": 75,
+		"Sub": "7",
+		"Index": "9",
+		"ChangeID": "1",
+		"__key": "disc:7:9:1",
+		"jp_explain": "ガンスラッシュPA10・カスタム1説明文",
+		"tr_explain": "건슬래시PA10・커스텀1 설명문"
+	},
+	{
+		"row": 76,
+		"Sub": "7",
+		"Index": "10",
+		"ChangeID": "1",
+		"__key": "disc:7:10:1",
+		"jp_explain": "ガンスラッシュPA11・カスタム1説明文",
+		"tr_explain": "건슬래시PA11・커스텀1 설명문"
+	},
+	{
+		"row": 77,
+		"Sub": "8",
+		"Index": "0",
+		"ChangeID": "1",
+		"__key": "disc:8:0:1",
+		"jp_explain": "アサルトライフルPA1・カスタム1説明文",
+		"tr_explain": "어설트 라이플PA1・커스텀1 설명문"
+	},
+	{
+		"row": 78,
+		"Sub": "8",
+		"Index": "1",
+		"ChangeID": "1",
+		"__key": "disc:8:1:1",
+		"jp_explain": "アサルトライフルPA2・カスタム1説明文",
+		"tr_explain": "어설트 라이플PA2・커스텀1 설명문"
+	},
+	{
+		"row": 79,
+		"Sub": "8",
+		"Index": "2",
+		"ChangeID": "1",
+		"__key": "disc:8:2:1",
+		"jp_explain": "アサルトライフルPA3・カスタム1説明文",
+		"tr_explain": "어설트 라이플PA3・커스텀1 설명문"
+	},
+	{
+		"row": 80,
+		"Sub": "8",
+		"Index": "3",
+		"ChangeID": "1",
+		"__key": "disc:8:3:1",
+		"jp_explain": "アサルトライフルPA4・カスタム1説明文",
+		"tr_explain": "어설트 라이플PA4・커스텀1 설명문"
+	},
+	{
+		"row": 81,
+		"Sub": "8",
+		"Index": "4",
+		"ChangeID": "1",
+		"__key": "disc:8:4:1",
+		"jp_explain": "複数目標へのロック機能を撤廃し\n全追尾弾を単体目標へ放つ。\n遠距離での取り回しが向上している。",
+		"tr_explain": "복수 목표에 대한 록온 기능을 없애고\n모든 유도탄을 단일 목표에 발사한다.\n원거리에서 다루기 쉬워졌다."
+	},
+	{
+		"row": 82,
+		"Sub": "8",
+		"Index": "5",
+		"ChangeID": "1",
+		"__key": "disc:8:5:1",
+		"jp_explain": "アサルトライフルPA6・カスタム1説明文",
+		"tr_explain": "어설트 라이플PA6・커스텀1 설명문"
+	},
+	{
+		"row": 83,
+		"Sub": "8",
+		"Index": "6",
+		"ChangeID": "1",
+		"__key": "disc:8:6:1",
+		"jp_explain": "アサルトライフルPA7・カスタム1説明文",
+		"tr_explain": "어설트 라이플PA7・커스텀1 설명문"
+	},
+	{
+		"row": 84,
+		"Sub": "8",
+		"Index": "7",
+		"ChangeID": "1",
+		"__key": "disc:8:7:1",
+		"jp_explain": "アサルトライフルPA8・カスタム1説明文",
+		"tr_explain": "어설트 라이플PA8・커스텀1 설명문"
+	},
+	{
+		"row": 85,
+		"Sub": "8",
+		"Index": "8",
+		"ChangeID": "1",
+		"__key": "disc:8:8:1",
+		"jp_explain": "対象を捕捉したまま、移動射撃を行う。\nボタンの長押しにより、射撃しながら\n任意の方向へ移動可能。",
+		"tr_explain": "대상을 포착한 채 이동 사격을 한다.\n버튼을 길게 누르면 사격하면서\n원하는 방향으로 이동할 수 있다."
+	},
+	{
+		"row": 86,
+		"Sub": "8",
+		"Index": "9",
+		"ChangeID": "1",
+		"__key": "disc:8:9:1",
+		"jp_explain": "アサルトライフルPA10・カスタム1説明文",
+		"tr_explain": "어설트 라이플PA10・커스텀1 설명문"
+	},
+	{
+		"row": 87,
+		"Sub": "8",
+		"Index": "10",
+		"ChangeID": "1",
+		"__key": "disc:8:10:1",
+		"jp_explain": "アサルトライフルPA11・カスタム1説明文",
+		"tr_explain": "어설트 라이플PA11・커스텀1 설명문"
+	},
+	{
+		"row": 88,
+		"Sub": "9",
+		"Index": "0",
+		"ChangeID": "1",
+		"__key": "disc:9:0:1",
+		"jp_explain": "説明不要の超強力なグレネード弾を\n装填、発射する。チャージすることで\nより破壊的な一撃を放つことが可能。",
+		"tr_explain": "설명이 필요 없는 초강력 유탄을\n장전해 발사한다. 차지하면\n더욱 파괴적인 일격을 날릴 수 있다."
+	},
+	{
+		"row": 89,
+		"Sub": "9",
+		"Index": "1",
+		"ChangeID": "1",
+		"__key": "disc:9:1:1",
+		"jp_explain": "グレネードランチャーPA2・カスタム1説明文",
+		"tr_explain": "그레네이드 런처PA2・커스텀1 설명문"
+	},
+	{
+		"row": 90,
+		"Sub": "9",
+		"Index": "2",
+		"ChangeID": "1",
+		"__key": "disc:9:2:1",
+		"jp_explain": "グレネードランチャーPA3・カスタム1説明文",
+		"tr_explain": "그레네이드 런처PA3・커스텀1 설명문"
+	},
+	{
+		"row": 91,
+		"Sub": "9",
+		"Index": "3",
+		"ChangeID": "1",
+		"__key": "disc:9:3:1",
+		"jp_explain": "グレネードランチャーPA4・カスタム1説明文",
+		"tr_explain": "그레네이드 런처PA4・커스텀1 설명문"
+	},
+	{
+		"row": 92,
+		"Sub": "9",
+		"Index": "4",
+		"ChangeID": "1",
+		"__key": "disc:9:4:1",
+		"jp_explain": "グレネードランチャーPA5・カスタム1説明文",
+		"tr_explain": "그레네이드 런처PA5・커스텀1 설명문"
+	},
+	{
+		"row": 93,
+		"Sub": "9",
+		"Index": "5",
+		"ChangeID": "1",
+		"__key": "disc:9:5:1",
+		"jp_explain": "ボタンの長押しにより、任意の方向へ\n移動しながら突進攻撃を行う。\n一定時間の連続入力で威力が上昇する。",
+		"tr_explain": "버튼을 길게 누르면 원하는 방향으로\n이동하면서 돌진 공격을 한다.\n일정 시간 동안 계속 입력하면 위력이 상승한다."
+	},
+	{
+		"row": 94,
+		"Sub": "9",
+		"Index": "6",
+		"ChangeID": "1",
+		"__key": "disc:9:6:1",
+		"jp_explain": "グレネードランチャーPA7・カスタム1説明文",
+		"tr_explain": "그레네이드 런처PA7・커스텀1 설명문"
+	},
+	{
+		"row": 95,
+		"Sub": "9",
+		"Index": "7",
+		"ChangeID": "1",
+		"__key": "disc:9:7:1",
+		"jp_explain": "グレネードランチャーPA8・カスタム1説明文",
+		"tr_explain": "그레네이드 런처PA8・커스텀1 설명문"
+	},
+	{
+		"row": 96,
+		"Sub": "9",
+		"Index": "8",
+		"ChangeID": "1",
+		"__key": "disc:9:8:1",
+		"jp_explain": "グレネードランチャーPA9・カスタム1説明文",
+		"tr_explain": "그레네이드 런처PA9・커스텀1 설명문"
+	},
+	{
+		"row": 97,
+		"Sub": "9",
+		"Index": "9",
+		"ChangeID": "1",
+		"__key": "disc:9:9:1",
+		"jp_explain": "グレネードランチャーPA10・カスタム1説明文",
+		"tr_explain": "그레네이드 런처PA10・커스텀1 설명문"
+	},
+	{
+		"row": 98,
+		"Sub": "9",
+		"Index": "10",
+		"ChangeID": "1",
+		"__key": "disc:9:10:1",
+		"jp_explain": "グレネードランチャーPA11・カスタム1説明文",
+		"tr_explain": "그레네이드 런처PA11・커스텀1 설명문"
+	},
+	{
+		"row": 99,
+		"Sub": "10",
+		"Index": "0",
+		"ChangeID": "1",
+		"__key": "disc:10:0:1",
+		"jp_explain": "ツインマシンガンPA1・カスタム1説明文",
+		"tr_explain": "트윈 머신건PA1・커스텀1 설명문"
+	},
+	{
+		"row": 100,
+		"Sub": "10",
+		"Index": "1",
+		"ChangeID": "1",
+		"__key": "disc:10:1:1",
+		"jp_explain": "目標を地に叩き伏せ、弾丸の雨を\n降らす。任意の方向入力で移動が可能。\nボタン連打で攻撃回数が増加。",
+		"tr_explain": "목표를 땅에 때려눕히고 탄환의 비를\n퍼붓는다. 원하는 방향을 입력해 이동할 수 있다.\n버튼을 연타하면 공격 횟수가 증가한다."
+	},
+	{
+		"row": 101,
+		"Sub": "10",
+		"Index": "2",
+		"ChangeID": "1",
+		"__key": "disc:10:2:1",
+		"jp_explain": "ツインマシンガンPA3・カスタム1説明文",
+		"tr_explain": "트윈 머신건PA3・커스텀1 설명문"
+	},
+	{
+		"row": 102,
+		"Sub": "10",
+		"Index": "3",
+		"ChangeID": "1",
+		"__key": "disc:10:3:1",
+		"jp_explain": "ツインマシンガンPA4・カスタム1説明文",
+		"tr_explain": "트윈 머신건PA4・커스텀1 설명문"
+	},
+	{
+		"row": 103,
+		"Sub": "10",
+		"Index": "4",
+		"ChangeID": "1",
+		"__key": "disc:10:4:1",
+		"jp_explain": "ボタン長押しで銃弾を乱射する。\n最後は乱射中に溜めたフォトンを\n集約して、前方に撃ち放つ。",
+		"tr_explain": "버튼을 길게 누르면 탄환을 난사한다.\n마지막에는 난사 중에 축적한 포톤을\n한데 모아 전방으로 발사한다."
+	},
+	{
+		"row": 104,
+		"Sub": "10",
+		"Index": "5",
+		"ChangeID": "1",
+		"__key": "disc:10:5:1",
+		"jp_explain": "ツインマシンガンPA6・カスタム1説明文",
+		"tr_explain": "트윈 머신건PA6・커스텀1 설명문"
+	},
+	{
+		"row": 105,
+		"Sub": "10",
+		"Index": "6",
+		"ChangeID": "1",
+		"__key": "disc:10:6:1",
+		"jp_explain": "ツインマシンガンPA7・カスタム1説明文",
+		"tr_explain": "트윈 머신건 PA7・커스텀1 설명문"
+	},
+	{
+		"row": 106,
+		"Sub": "10",
+		"Index": "7",
+		"ChangeID": "1",
+		"__key": "disc:10:7:1",
+		"jp_explain": "ツインマシンガンPA8・カスタム1説明文",
+		"tr_explain": "트윈 머신건 PA8・커스텀1 설명문"
+	},
+	{
+		"row": 107,
+		"Sub": "10",
+		"Index": "8",
+		"ChangeID": "1",
+		"__key": "disc:10:8:1",
+		"jp_explain": "ツインマシンガンPA9・カスタム1説明文",
+		"tr_explain": "트윈 머신건 PA9・커스텀1 설명문"
+	},
+	{
+		"row": 108,
+		"Sub": "10",
+		"Index": "9",
+		"ChangeID": "1",
+		"__key": "disc:10:9:1",
+		"jp_explain": "ツインマシンガンPA10・カスタム1説明文",
+		"tr_explain": "트윈 머신건 PA10・커스텀1 설명문"
+	},
+	{
+		"row": 109,
+		"Sub": "10",
+		"Index": "10",
+		"ChangeID": "1",
+		"__key": "disc:10:10:1",
+		"jp_explain": "ツインマシンガンPA11・カスタム1説明文",
+		"tr_explain": "트윈 머신건 PA11・커스텀1 설명문"
+	},
+	{
+		"row": 110,
+		"Sub": "14",
+		"Index": "0",
+		"ChangeID": "1",
+		"__key": "disc:14:0:1",
+		"jp_explain": "カタナPA1・カスタム1説明文",
+		"tr_explain": "카타나 PA1・커스텀1 설명문"
+	},
+	{
+		"row": 111,
+		"Sub": "14",
+		"Index": "1",
+		"ChangeID": "1",
+		"__key": "disc:14:1:1",
+		"jp_explain": "カタナPA2・カスタム1説明文",
+		"tr_explain": "카타나 PA2・커스텀1 설명문"
+	},
+	{
+		"row": 112,
+		"Sub": "14",
+		"Index": "2",
+		"ChangeID": "1",
+		"__key": "disc:14:2:1",
+		"jp_explain": "カタナPA3・カスタム1説明文",
+		"tr_explain": "카타나 PA3・커스텀1 설명문"
+	},
+	{
+		"row": 113,
+		"Sub": "14",
+		"Index": "3",
+		"ChangeID": "1",
+		"__key": "disc:14:3:1",
+		"jp_explain": "構え状態から、視認不可能な神速の\n抜剣攻撃を行う。タイミングに合わせて\n発動することで追撃を行える。",
+		"tr_explain": "자세를 잡은 상태에서 눈에 보이지 않을 만큼 빠른\n발도 공격을 한다. 타이밍에 맞춰\n발동하면 추가 공격을 할 수 있다."
+	},
+	{
+		"row": 114,
+		"Sub": "14",
+		"Index": "4",
+		"ChangeID": "1",
+		"__key": "disc:14:4:1",
+		"jp_explain": "カタナPA5・カスタム1説明文",
+		"tr_explain": "카타나 PA5・커스텀1 설명문"
+	},
+	{
+		"row": 115,
+		"Sub": "14",
+		"Index": "5",
+		"ChangeID": "1",
+		"__key": "disc:14:5:1",
+		"jp_explain": "カタナPA6・カスタム1説明文",
+		"tr_explain": "카타나 PA6・커스텀1 설명문"
+	},
+	{
+		"row": 116,
+		"Sub": "14",
+		"Index": "6",
+		"ChangeID": "1",
+		"__key": "disc:14:6:1",
+		"jp_explain": "カタナPA7・カスタム1説明文",
+		"tr_explain": "카타나 PA7・커스텀1 설명문"
+	},
+	{
+		"row": 117,
+		"Sub": "14",
+		"Index": "7",
+		"ChangeID": "1",
+		"__key": "disc:14:7:1",
+		"jp_explain": "カタナPA8・カスタム1説明文",
+		"tr_explain": "카타나 PA8・커스텀1 설명문"
+	},
+	{
+		"row": 118,
+		"Sub": "14",
+		"Index": "8",
+		"ChangeID": "1",
+		"__key": "disc:14:8:1",
+		"jp_explain": "一瞬の閃きの後、無慈悲な一撃を放つ。\nチャージすることで本来の力を発揮し\n最大限の力を叩き出すことが出来る。",
+		"tr_explain": "찰나의 섬광 뒤에 무자비한 일격을 날린다.\n차지하면 본래의 힘을 발휘해\n최대의 위력을 낼 수 있다."
+	},
+	{
+		"row": 119,
+		"Sub": "14",
+		"Index": "9",
+		"ChangeID": "1",
+		"__key": "disc:14:9:1",
+		"jp_explain": "カタナPA10・カスタム1説明文",
+		"tr_explain": "카타나 PA10・커스텀1 설명문"
+	},
+	{
+		"row": 120,
+		"Sub": "14",
+		"Index": "10",
+		"ChangeID": "1",
+		"__key": "disc:14:10:1",
+		"jp_explain": "カタナPA11・カスタム1説明文",
+		"tr_explain": "카타나 PA11・커스텀1 설명문"
+	},
+	{
+		"row": 121,
+		"Sub": "15",
+		"Index": "0",
+		"ChangeID": "1",
+		"__key": "disc:15:0:1",
+		"jp_explain": "バレットボウPA1・カスタム1説明文",
+		"tr_explain": "불릿 보우 PA1・커스텀1 설명문"
+	},
+	{
+		"row": 122,
+		"Sub": "15",
+		"Index": "1",
+		"ChangeID": "1",
+		"__key": "disc:15:1:1",
+		"jp_explain": "バレットボウPA2・カスタム1説明文",
+		"tr_explain": "불릿 보우 PA2・커스텀1 설명문"
+	},
+	{
+		"row": 123,
+		"Sub": "15",
+		"Index": "2",
+		"ChangeID": "1",
+		"__key": "disc:15:2:1",
+		"jp_explain": "バレットボウPA3・カスタム1説明文",
+		"tr_explain": "불릿 보우 PA3・커스텀1 설명문"
+	},
+	{
+		"row": 124,
+		"Sub": "15",
+		"Index": "3",
+		"ChangeID": "1",
+		"__key": "disc:15:3:1",
+		"jp_explain": "バレットボウPA4・カスタム1説明文",
+		"tr_explain": "불릿 보우 PA4・커스텀1 설명문"
+	},
+	{
+		"row": 125,
+		"Sub": "15",
+		"Index": "4",
+		"ChangeID": "1",
+		"__key": "disc:15:4:1",
+		"jp_explain": "バレットボウPA5・カスタム1説明文",
+		"tr_explain": "불릿 보우 PA5・커스텀1 설명문"
+	},
+	{
+		"row": 126,
+		"Sub": "15",
+		"Index": "5",
+		"ChangeID": "1",
+		"__key": "disc:15:5:1",
+		"jp_explain": "空中から特殊な矢を放ち、爆発させる。\nチャージすることで威力範囲が拡大。\n前方向入力で前方宙返りから矢を放つ。",
+		"tr_explain": "공중에서 특수한 화살을 쏘아 폭발시킨다.\n차지하면 위력이 미치는 범위가 확대된다.\n앞 방향을 입력하면 앞으로 공중제비를 돌며 화살을 쏜다."
+	},
+	{
+		"row": 127,
+		"Sub": "15",
+		"Index": "6",
+		"ChangeID": "1",
+		"__key": "disc:15:6:1",
+		"jp_explain": "バレットPA7・カスタム1説明文",
+		"tr_explain": "불릿 PA7・커스텀1 설명문"
+	},
+	{
+		"row": 128,
+		"Sub": "15",
+		"Index": "7",
+		"ChangeID": "1",
+		"__key": "disc:15:7:1",
+		"jp_explain": "前進せずに連続蹴撃後、複数の矢を放つ\n多段攻撃。チャージすることで攻撃\n回数が増加する。方向入力で移動可能。",
+		"tr_explain": "전진하지 않고 연속으로 발차기를 한 뒤 여러 발의 화살을 쏘는\n다단 공격이다. 차지하면 공격\n횟수가 증가한다. 방향 입력으로 이동할 수 있다."
+	},
+	{
+		"row": 129,
+		"Sub": "15",
+		"Index": "8",
+		"ChangeID": "1",
+		"__key": "disc:15:8:1",
+		"jp_explain": "バレットボウPA9・カスタム1説明文",
+		"tr_explain": "불릿 보우 PA9・커스텀1 설명문"
+	},
+	{
+		"row": 130,
+		"Sub": "15",
+		"Index": "9",
+		"ChangeID": "1",
+		"__key": "disc:15:9:1",
+		"jp_explain": "バレットボウPA10・カスタム1説明文",
+		"tr_explain": "불릿 보우 PA10・커스텀1 설명문"
+	},
+	{
+		"row": 131,
+		"Sub": "15",
+		"Index": "10",
+		"ChangeID": "1",
+		"__key": "disc:15:10:1",
+		"jp_explain": "バレットボウPA11・カスタム1説明文",
+		"tr_explain": "불릿 보우 PA11・커스텀1 설명문"
+	},
+	{
+		"row": 132,
+		"Sub": "16",
+		"Index": "0",
+		"ChangeID": "1",
+		"__key": "disc:16:0:1",
+		"jp_explain": "ボタン長押しで攻撃が延長し、強力な\n派生が使用可能になる回し蹴りを放つ。\n攻撃の延長をすることで威力が上昇。",
+		"tr_explain": "돌려차기를 날린다. 버튼을 길게 누르면 공격이 연장되고\n강력한 파생 공격을 사용할 수 있다.\n공격을 연장하면 위력이 상승한다."
+	},
+	{
+		"row": 133,
+		"Sub": "16",
+		"Index": "1",
+		"ChangeID": "1",
+		"__key": "disc:16:1:1",
+		"jp_explain": "ジェットブーツPA2・カスタム1説明文",
+		"tr_explain": "제트 부츠 PA2・커스텀1 설명문"
+	},
+	{
+		"row": 134,
+		"Sub": "16",
+		"Index": "2",
+		"ChangeID": "1",
+		"__key": "disc:16:2:1",
+		"jp_explain": "ジェットブーツPA3・カスタム1説明文",
+		"tr_explain": "제트 부츠 PA3・커스텀1 설명문"
+	},
+	{
+		"row": 135,
+		"Sub": "16",
+		"Index": "3",
+		"ChangeID": "1",
+		"__key": "disc:16:3:1",
+		"jp_explain": "ジェットブーツPA4・カスタム1説明文",
+		"tr_explain": "제트 부츠 PA4・커스텀1 설명문"
+	},
+	{
+		"row": 136,
+		"Sub": "17",
+		"Index": "0",
+		"ChangeID": "1",
+		"__key": "disc:17:0:1",
+		"jp_explain": "デュアルブレードPA1・カスタム1説明文",
+		"tr_explain": "듀얼 블레이드 PA1・커스텀1 설명문"
+	},
+	{
+		"row": 137,
+		"Sub": "17",
+		"Index": "1",
+		"ChangeID": "1",
+		"__key": "disc:17:1:1",
+		"jp_explain": "デュアルブレードPA2・カスタム1説明文",
+		"tr_explain": "듀얼 블레이드 PA2・커스텀1 설명문"
+	},
+	{
+		"row": 138,
+		"Sub": "17",
+		"Index": "2",
+		"ChangeID": "1",
+		"__key": "disc:17:2:1",
+		"jp_explain": "デュアルブレードPA3・カスタム1説明文",
+		"tr_explain": "듀얼 블레이드 PA3・커스텀1 설명문"
+	},
+	{
+		"row": 139,
+		"Sub": "17",
+		"Index": "3",
+		"ChangeID": "1",
+		"__key": "disc:17:3:1",
+		"jp_explain": "デュアルブレードPA4・カスタム1説明文",
+		"tr_explain": "듀얼 블레이드 PA4・커스텀1 설명문"
+	},
+	{
+		"row": 140,
+		"Sub": "17",
+		"Index": "4",
+		"ChangeID": "1",
+		"__key": "disc:17:4:1",
+		"jp_explain": "デュアルブレードPA5・カスタム1説明文",
+		"tr_explain": "듀얼 블레이드 PA5・커스텀1 설명문"
+	},
+	{
+		"row": 141,
+		"Sub": "17",
+		"Index": "5",
+		"ChangeID": "1",
+		"__key": "disc:17:5:1",
+		"jp_explain": "ギアを全て消費して閃光剣を形成。\nフォトンの刃と共に乱舞を繰り出し\n数多の刃で目標を微塵に斬り刻む。",
+		"tr_explain": "기어를 모두 소비해 섬광검을 형성한다.\n포톤의 칼날과 함께 난무를 펼쳐\n수많은 칼날로 목표를 갈기갈기 베어 버린다."
+	},
+	{
+		"row": 142,
+		"Sub": "17",
+		"Index": "6",
+		"ChangeID": "1",
+		"__key": "disc:17:6:1",
+		"jp_explain": "デュアルブレードPA7・カスタム1説明文",
+		"tr_explain": "듀얼 블레이드 PA7・커스텀1 설명문"
+	},
+	{
+		"row": 143,
+		"Sub": "1",
+		"Index": "0",
+		"ChangeID": "2",
+		"__key": "disc:1:0:2",
+		"jp_explain": "ソードPA1・カスタム2説明文",
+		"tr_explain": "소드 PA1・커스텀2 설명문"
+	},
+	{
+		"row": 144,
+		"Sub": "1",
+		"Index": "1",
+		"ChangeID": "2",
+		"__key": "disc:1:1:2",
+		"jp_explain": "ソードPA2・カスタム2説明文",
+		"tr_explain": "소드 PA2・커스텀2 설명문"
+	},
+	{
+		"row": 145,
+		"Sub": "1",
+		"Index": "2",
+		"ChangeID": "2",
+		"__key": "disc:1:2:2",
+		"jp_explain": "ソードPA3・カスタム2説明文",
+		"tr_explain": "소드 PA3・커스텀2 설명문"
+	},
+	{
+		"row": 146,
+		"Sub": "1",
+		"Index": "3",
+		"ChangeID": "2",
+		"__key": "disc:1:3:2",
+		"jp_explain": "ソードPA4・カスタム2説明文",
+		"tr_explain": "소드 PA4・커스텀2 설명문"
+	},
+	{
+		"row": 147,
+		"Sub": "1",
+		"Index": "4",
+		"ChangeID": "2",
+		"__key": "disc:1:4:2",
+		"jp_explain": "ソードPA5・カスタム2説明文",
+		"tr_explain": "소드 PA5・커스텀2 설명문"
+	},
+	{
+		"row": 148,
+		"Sub": "1",
+		"Index": "5",
+		"ChangeID": "2",
+		"__key": "disc:1:5:2",
+		"jp_explain": "ソードPA6・カスタム2説明文",
+		"tr_explain": "소드 PA6・커스텀2 설명문"
+	},
+	{
+		"row": 149,
+		"Sub": "1",
+		"Index": "6",
+		"ChangeID": "2",
+		"__key": "disc:1:6:2",
+		"jp_explain": "ソードPA7・カスタム2説明文",
+		"tr_explain": "소드 PA7・커스텀2 설명문"
+	},
+	{
+		"row": 150,
+		"Sub": "1",
+		"Index": "7",
+		"ChangeID": "2",
+		"__key": "disc:1:7:2",
+		"jp_explain": "ソードPA8・カスタム2説明文",
+		"tr_explain": "소드 PA8・커스텀2 설명문"
+	},
+	{
+		"row": 151,
+		"Sub": "1",
+		"Index": "8",
+		"ChangeID": "2",
+		"__key": "disc:1:8:2",
+		"jp_explain": "ソードPA9・カスタム2説明文",
+		"tr_explain": "소드 PA9・커스텀2 설명문"
+	},
+	{
+		"row": 152,
+		"Sub": "1",
+		"Index": "9",
+		"ChangeID": "2",
+		"__key": "disc:1:9:2",
+		"jp_explain": "ソードPA10・カスタム2説明文",
+		"tr_explain": "소드 PA10・커스텀2 설명문"
+	},
+	{
+		"row": 153,
+		"Sub": "1",
+		"Index": "10",
+		"ChangeID": "2",
+		"__key": "disc:1:10:2",
+		"jp_explain": "ソードPA11・カスタム2説明文",
+		"tr_explain": "소드 PA11・커스텀2 설명문"
+	},
+	{
+		"row": 154,
+		"Sub": "2",
+		"Index": "0",
+		"ChangeID": "2",
+		"__key": "disc:2:0:2",
+		"jp_explain": "ワイヤードランスPA1・カスタム2説明文",
+		"tr_explain": "와이어드 랜스 PA1・커스텀2 설명문"
+	},
+	{
+		"row": 155,
+		"Sub": "2",
+		"Index": "1",
+		"ChangeID": "2",
+		"__key": "disc:2:1:2",
+		"jp_explain": "ワイヤードランスPA2・カスタム2説明文",
+		"tr_explain": "와이어드 랜스 PA2・커스텀2 설명문"
+	},
+	{
+		"row": 156,
+		"Sub": "2",
+		"Index": "2",
+		"ChangeID": "2",
+		"__key": "disc:2:2:2",
+		"jp_explain": "ワイヤードランスPA3・カスタム2説明文",
+		"tr_explain": "와이어드 랜스 PA3・커스텀2 설명문"
+	},
+	{
+		"row": 157,
+		"Sub": "2",
+		"Index": "3",
+		"ChangeID": "2",
+		"__key": "disc:2:3:2",
+		"jp_explain": "ワイヤードランスPA4・カスタム2説明文",
+		"tr_explain": "와이어드 랜스 PA4・커스텀2 설명문"
+	},
+	{
+		"row": 158,
+		"Sub": "2",
+		"Index": "4",
+		"ChangeID": "2",
+		"__key": "disc:2:4:2",
+		"jp_explain": "ワイヤードランスPA5・カスタム2説明文",
+		"tr_explain": "와이어드 랜스 PA5・커스텀2 설명문"
+	},
+	{
+		"row": 159,
+		"Sub": "2",
+		"Index": "5",
+		"ChangeID": "2",
+		"__key": "disc:2:5:2",
+		"jp_explain": "ワイヤードランスPA6・カスタム2説明文",
+		"tr_explain": "와이어드 랜스 PA6・커스텀2 설명문"
+	},
+	{
+		"row": 160,
+		"Sub": "2",
+		"Index": "6",
+		"ChangeID": "2",
+		"__key": "disc:2:6:2",
+		"jp_explain": "ワイヤードランスPA7・カスタム2説明文",
+		"tr_explain": "와이어드 랜스 PA7・커스텀2 설명문"
+	},
+	{
+		"row": 161,
+		"Sub": "2",
+		"Index": "7",
+		"ChangeID": "2",
+		"__key": "disc:2:7:2",
+		"jp_explain": "ワイヤードランスPA8・カスタム2説明文",
+		"tr_explain": "와이어드 랜스 PA8・커스텀2 설명문"
+	},
+	{
+		"row": 162,
+		"Sub": "2",
+		"Index": "8",
+		"ChangeID": "2",
+		"__key": "disc:2:8:2",
+		"jp_explain": "ワイヤードランスPA9・カスタム2説明文",
+		"tr_explain": "와이어드 랜스 PA9・커스텀2 설명문"
+	},
+	{
+		"row": 163,
+		"Sub": "2",
+		"Index": "9",
+		"ChangeID": "2",
+		"__key": "disc:2:9:2",
+		"jp_explain": "ワイヤードランスPA10・カスタム2説明文",
+		"tr_explain": "와이어드 랜스 PA10・커스텀2 설명문"
+	},
+	{
+		"row": 164,
+		"Sub": "2",
+		"Index": "10",
+		"ChangeID": "2",
+		"__key": "disc:2:10:2",
+		"jp_explain": "ワイヤードランスPA11・カスタム2説明文",
+		"tr_explain": "와이어드 랜스 PA11・커스텀2 설명문"
+	},
+	{
+		"row": 165,
+		"Sub": "3",
+		"Index": "0",
+		"ChangeID": "2",
+		"__key": "disc:3:0:2",
+		"jp_explain": "パルチザンPA1・カスタム2説明文",
+		"tr_explain": "파르티잔 PA1・커스텀2 설명문"
+	},
+	{
+		"row": 166,
+		"Sub": "3",
+		"Index": "1",
+		"ChangeID": "2",
+		"__key": "disc:3:1:2",
+		"jp_explain": "パルチザンPA2・カスタム2説明文",
+		"tr_explain": "파르티잔 PA2・커스텀2 설명문"
+	},
+	{
+		"row": 167,
+		"Sub": "3",
+		"Index": "2",
+		"ChangeID": "2",
+		"__key": "disc:3:2:2",
+		"jp_explain": "パルチザンPA3・カスタム2説明文",
+		"tr_explain": "파르티잔 PA3・커스텀2 설명문"
+	},
+	{
+		"row": 168,
+		"Sub": "3",
+		"Index": "3",
+		"ChangeID": "2",
+		"__key": "disc:3:3:2",
+		"jp_explain": "パルチザンPA4・カスタム2説明文",
+		"tr_explain": "파르티잔 PA4・커스텀2 설명문"
+	},
+	{
+		"row": 169,
+		"Sub": "3",
+		"Index": "4",
+		"ChangeID": "2",
+		"__key": "disc:3:4:2",
+		"jp_explain": "パルチザンPA5・カスタム2説明文",
+		"tr_explain": "파르티잔 PA5・커스텀2 설명문"
+	},
+	{
+		"row": 170,
+		"Sub": "3",
+		"Index": "5",
+		"ChangeID": "2",
+		"__key": "disc:3:5:2",
+		"jp_explain": "パルチザンPA6・カスタム2説明文",
+		"tr_explain": "파르티잔 PA6・커스텀2 설명문"
+	},
+	{
+		"row": 171,
+		"Sub": "3",
+		"Index": "6",
+		"ChangeID": "2",
+		"__key": "disc:3:6:2",
+		"jp_explain": "パルチザンPA7・カスタム2説明文",
+		"tr_explain": "파르티잔 PA7・커스텀2 설명문"
+	},
+	{
+		"row": 172,
+		"Sub": "3",
+		"Index": "7",
+		"ChangeID": "2",
+		"__key": "disc:3:7:2",
+		"jp_explain": "パルチザンPA8・カスタム2説明文",
+		"tr_explain": "파르티잔 PA8・커스텀2 설명문"
+	},
+	{
+		"row": 173,
+		"Sub": "3",
+		"Index": "8",
+		"ChangeID": "2",
+		"__key": "disc:3:8:2",
+		"jp_explain": "パルチザンPA9・カスタム2説明文",
+		"tr_explain": "파르티잔 PA9・커스텀2 설명문"
+	},
+	{
+		"row": 174,
+		"Sub": "3",
+		"Index": "9",
+		"ChangeID": "2",
+		"__key": "disc:3:9:2",
+		"jp_explain": "パルチザンPA10・カスタム2説明文",
+		"tr_explain": "파르티잔 PA10・커스텀2 설명문"
+	},
+	{
+		"row": 175,
+		"Sub": "3",
+		"Index": "10",
+		"ChangeID": "2",
+		"__key": "disc:3:10:2",
+		"jp_explain": "パルチザンPA11・カスタム2説明文",
+		"tr_explain": "파르티잔 PA11・커스텀2 설명문"
+	},
+	{
+		"row": 176,
+		"Sub": "4",
+		"Index": "0",
+		"ChangeID": "2",
+		"__key": "disc:4:0:2",
+		"jp_explain": "ツインダガーPA1・カスタム2説明文",
+		"tr_explain": "트윈 대거 PA1・커스텀2 설명문"
+	},
+	{
+		"row": 177,
+		"Sub": "4",
+		"Index": "1",
+		"ChangeID": "2",
+		"__key": "disc:4:1:2",
+		"jp_explain": "ツインダガーPA2・カスタム2説明文",
+		"tr_explain": "트윈 대거 PA2・커스텀2 설명문"
+	},
+	{
+		"row": 178,
+		"Sub": "4",
+		"Index": "2",
+		"ChangeID": "2",
+		"__key": "disc:4:2:2",
+		"jp_explain": "ツインダガーPA3・カスタム2説明文",
+		"tr_explain": "트윈 대거 PA3・커스텀2 설명문"
+	},
+	{
+		"row": 179,
+		"Sub": "4",
+		"Index": "3",
+		"ChangeID": "2",
+		"__key": "disc:4:3:2",
+		"jp_explain": "ツインダガーPA4・カスタム2説明文",
+		"tr_explain": "트윈 대거 PA4・커스텀2 설명문"
+	},
+	{
+		"row": 180,
+		"Sub": "4",
+		"Index": "4",
+		"ChangeID": "2",
+		"__key": "disc:4:4:2",
+		"jp_explain": "ツインダガーPA5・カスタム2説明文",
+		"tr_explain": "트윈 대거 PA5・커스텀2 설명문"
+	},
+	{
+		"row": 181,
+		"Sub": "4",
+		"Index": "5",
+		"ChangeID": "2",
+		"__key": "disc:4:5:2",
+		"jp_explain": "ツインダガーPA6・カスタム2説明文",
+		"tr_explain": "트윈 대거 PA6・커스텀2 설명문"
+	},
+	{
+		"row": 182,
+		"Sub": "4",
+		"Index": "6",
+		"ChangeID": "2",
+		"__key": "disc:4:6:2",
+		"jp_explain": "ツインダガーPA7・カスタム2説明文",
+		"tr_explain": "트윈 대거 PA7・커스텀2 설명문"
+	},
+	{
+		"row": 183,
+		"Sub": "4",
+		"Index": "7",
+		"ChangeID": "2",
+		"__key": "disc:4:7:2",
+		"jp_explain": "ツインダガーPA8・カスタム2説明文",
+		"tr_explain": "트윈 대거 PA8・커스텀2 설명문"
+	},
+	{
+		"row": 184,
+		"Sub": "4",
+		"Index": "8",
+		"ChangeID": "2",
+		"__key": "disc:4:8:2",
+		"jp_explain": "ツインダガーPA9・カスタム2説明文",
+		"tr_explain": "트윈 대거 PA9・커스텀2 설명문"
+	},
+	{
+		"row": 185,
+		"Sub": "4",
+		"Index": "9",
+		"ChangeID": "2",
+		"__key": "disc:4:9:2",
+		"jp_explain": "ツインダガーPA10・カスタム2説明文",
+		"tr_explain": "트윈 대거 PA10・커스텀2 설명문"
+	},
+	{
+		"row": 186,
+		"Sub": "4",
+		"Index": "10",
+		"ChangeID": "2",
+		"__key": "disc:4:10:2",
+		"jp_explain": "ツインダガーPA11・カスタム2説明文",
+		"tr_explain": "트윈 대거 PA11・커스텀2 설명문"
+	},
+	{
+		"row": 198,
+		"Sub": "6",
+		"Index": "0",
+		"ChangeID": "2",
+		"__key": "disc:6:0:2",
+		"jp_explain": "ナックルPA1・カスタム2説明文",
+		"tr_explain": "너클 PA1・커스텀2 설명문"
+	},
+	{
+		"row": 199,
+		"Sub": "6",
+		"Index": "1",
+		"ChangeID": "2",
+		"__key": "disc:6:1:2",
+		"jp_explain": "ナックルPA2・カスタム2説明文",
+		"tr_explain": "너클 PA2・커스텀2 설명문"
+	},
+	{
+		"row": 200,
+		"Sub": "6",
+		"Index": "2",
+		"ChangeID": "2",
+		"__key": "disc:6:2:2",
+		"jp_explain": "ナックルPA3・カスタム2説明文",
+		"tr_explain": "너클 PA3・커스텀2 설명문"
+	},
+	{
+		"row": 201,
+		"Sub": "6",
+		"Index": "3",
+		"ChangeID": "2",
+		"__key": "disc:6:3:2",
+		"jp_explain": "ナックルPA4・カスタム2説明文",
+		"tr_explain": "너클 PA4・커스텀2 설명문"
+	},
+	{
+		"row": 202,
+		"Sub": "6",
+		"Index": "4",
+		"ChangeID": "2",
+		"__key": "disc:6:4:2",
+		"jp_explain": "ナックルPA5・カスタム2説明文",
+		"tr_explain": "너클 PA5・커스텀2 설명문"
+	},
+	{
+		"row": 203,
+		"Sub": "6",
+		"Index": "5",
+		"ChangeID": "2",
+		"__key": "disc:6:5:2",
+		"jp_explain": "ナックルPA6・カスタム2説明文",
+		"tr_explain": "너클 PA6・커스텀2 설명문"
+	},
+	{
+		"row": 204,
+		"Sub": "6",
+		"Index": "6",
+		"ChangeID": "2",
+		"__key": "disc:6:6:2",
+		"jp_explain": "ナックルPA7・カスタム2説明文",
+		"tr_explain": "너클 PA7・커스텀2 설명문"
+	},
+	{
+		"row": 205,
+		"Sub": "6",
+		"Index": "7",
+		"ChangeID": "2",
+		"__key": "disc:6:7:2",
+		"jp_explain": "ナックルPA8・カスタム2説明文",
+		"tr_explain": "너클 PA8・커스텀2 설명문"
+	},
+	{
+		"row": 206,
+		"Sub": "6",
+		"Index": "8",
+		"ChangeID": "2",
+		"__key": "disc:6:8:2",
+		"jp_explain": "ナックルPA9・カスタム2説明文",
+		"tr_explain": "너클 PA9・커스텀2 설명문"
+	},
+	{
+		"row": 207,
+		"Sub": "6",
+		"Index": "9",
+		"ChangeID": "2",
+		"__key": "disc:6:9:2",
+		"jp_explain": "ナックルPA10・カスタム2説明文",
+		"tr_explain": "너클 PA10・커스텀2 설명문"
+	},
+	{
+		"row": 208,
+		"Sub": "6",
+		"Index": "10",
+		"ChangeID": "2",
+		"__key": "disc:6:10:2",
+		"jp_explain": "ナックルPA11・カスタム2説明文",
+		"tr_explain": "너클 PA11・커스텀2 설명문"
+	},
+	{
+		"row": 209,
+		"Sub": "7",
+		"Index": "0",
+		"ChangeID": "2",
+		"__key": "disc:7:0:2",
+		"jp_explain": "ガンスラッシュPA1・カスタム2説明文",
+		"tr_explain": "건슬래시 PA1・커스텀2 설명문"
+	},
+	{
+		"row": 210,
+		"Sub": "7",
+		"Index": "1",
+		"ChangeID": "2",
+		"__key": "disc:7:1:2",
+		"jp_explain": "ガンスラッシュPA2・カスタム2説明文",
+		"tr_explain": "건슬래시 PA2・커스텀2 설명문"
+	},
+	{
+		"row": 211,
+		"Sub": "7",
+		"Index": "2",
+		"ChangeID": "2",
+		"__key": "disc:7:2:2",
+		"jp_explain": "ガンスラッシュPA3・カスタム2説明文",
+		"tr_explain": "건슬래시 PA3・커스텀2 설명문"
+	},
+	{
+		"row": 212,
+		"Sub": "7",
+		"Index": "3",
+		"ChangeID": "2",
+		"__key": "disc:7:3:2",
+		"jp_explain": "ガンスラッシュPA4・カスタム2説明文",
+		"tr_explain": "건슬래시 PA4・커스텀2 설명문"
+	},
+	{
+		"row": 213,
+		"Sub": "7",
+		"Index": "4",
+		"ChangeID": "2",
+		"__key": "disc:7:4:2",
+		"jp_explain": "ガンスラッシュPA5・カスタム2説明文",
+		"tr_explain": "건슬래시 PA5・커스텀2 설명문"
+	},
+	{
+		"row": 214,
+		"Sub": "7",
+		"Index": "5",
+		"ChangeID": "2",
+		"__key": "disc:7:5:2",
+		"jp_explain": "ガンスラッシュPA6・カスタム2説明文",
+		"tr_explain": "건슬래시 PA6・커스텀2 설명문"
+	},
+	{
+		"row": 215,
+		"Sub": "7",
+		"Index": "6",
+		"ChangeID": "2",
+		"__key": "disc:7:6:2",
+		"jp_explain": "ガンスラッシュPA7・カスタム2説明文",
+		"tr_explain": "건슬래시 PA7・커스텀2 설명문"
+	},
+	{
+		"row": 216,
+		"Sub": "7",
+		"Index": "7",
+		"ChangeID": "2",
+		"__key": "disc:7:7:2",
+		"jp_explain": "ガンスラッシュPA8・カスタム2説明文",
+		"tr_explain": "건슬래시 PA8・커스텀2 설명문"
+	},
+	{
+		"row": 217,
+		"Sub": "7",
+		"Index": "8",
+		"ChangeID": "2",
+		"__key": "disc:7:8:2",
+		"jp_explain": "ガンスラッシュPA9・カスタム2説明文",
+		"tr_explain": "건슬래시 PA9・커스텀2 설명문"
+	},
+	{
+		"row": 218,
+		"Sub": "7",
+		"Index": "9",
+		"ChangeID": "2",
+		"__key": "disc:7:9:2",
+		"jp_explain": "ガンスラッシュPA10・カスタム2説明文",
+		"tr_explain": "건슬래시 PA10・커스텀2 설명문"
+	},
+	{
+		"row": 219,
+		"Sub": "7",
+		"Index": "10",
+		"ChangeID": "2",
+		"__key": "disc:7:10:2",
+		"jp_explain": "ガンスラッシュPA11・カスタム2説明文",
+		"tr_explain": "건슬래시 PA11・커스텀2 설명문"
+	},
+	{
+		"row": 220,
+		"Sub": "8",
+		"Index": "0",
+		"ChangeID": "2",
+		"__key": "disc:8:0:2",
+		"jp_explain": "アサルトライフルPA1・カスタム2説明文",
+		"tr_explain": "어설트 라이플 PA1・커스텀2 설명문"
+	},
+	{
+		"row": 221,
+		"Sub": "8",
+		"Index": "1",
+		"ChangeID": "2",
+		"__key": "disc:8:1:2",
+		"jp_explain": "アサルトライフルPA2・カスタム2説明文",
+		"tr_explain": "어설트 라이플 PA2・커스텀2 설명문"
+	},
+	{
+		"row": 222,
+		"Sub": "8",
+		"Index": "2",
+		"ChangeID": "2",
+		"__key": "disc:8:2:2",
+		"jp_explain": "アサルトライフルPA3・カスタム2説明文",
+		"tr_explain": "어설트 라이플 PA3・커스텀2 설명문"
+	},
+	{
+		"row": 223,
+		"Sub": "8",
+		"Index": "3",
+		"ChangeID": "2",
+		"__key": "disc:8:3:2",
+		"jp_explain": "アサルトライフルPA4・カスタム2説明文",
+		"tr_explain": "어설트 라이플 PA4・커스텀2 설명문"
+	},
+	{
+		"row": 224,
+		"Sub": "8",
+		"Index": "4",
+		"ChangeID": "2",
+		"__key": "disc:8:4:2",
+		"jp_explain": "アサルトライフルPA5・カスタム2説明文",
+		"tr_explain": "어설트 라이플 PA5・커스텀2 설명문"
+	},
+	{
+		"row": 225,
+		"Sub": "8",
+		"Index": "5",
+		"ChangeID": "2",
+		"__key": "disc:8:5:2",
+		"jp_explain": "アサルトライフルPA6・カスタム2説明文",
+		"tr_explain": "어설트 라이플 PA6・커스텀2 설명문"
+	},
+	{
+		"row": 226,
+		"Sub": "8",
+		"Index": "6",
+		"ChangeID": "2",
+		"__key": "disc:8:6:2",
+		"jp_explain": "アサルトライフルPA7・カスタム2説明文",
+		"tr_explain": "어설트 라이플 PA7・커스텀2 설명문"
+	},
+	{
+		"row": 227,
+		"Sub": "8",
+		"Index": "7",
+		"ChangeID": "2",
+		"__key": "disc:8:7:2",
+		"jp_explain": "アサルトライフルPA8・カスタム2説明文",
+		"tr_explain": "어설트 라이플 PA8・커스텀2 설명문"
+	},
+	{
+		"row": 228,
+		"Sub": "8",
+		"Index": "8",
+		"ChangeID": "2",
+		"__key": "disc:8:8:2",
+		"jp_explain": "アサルトライフルPA9・カスタム2説明文",
+		"tr_explain": "어설트 라이플 PA9・커스텀2 설명문"
+	},
+	{
+		"row": 229,
+		"Sub": "8",
+		"Index": "9",
+		"ChangeID": "2",
+		"__key": "disc:8:9:2",
+		"jp_explain": "アサルトライフルPA10・カスタム2説明文",
+		"tr_explain": "어설트 라이플 PA10・커스텀2 설명문"
+	},
+	{
+		"row": 230,
+		"Sub": "8",
+		"Index": "10",
+		"ChangeID": "2",
+		"__key": "disc:8:10:2",
+		"jp_explain": "アサルトライフルPA11・カスタム2説明文",
+		"tr_explain": "어설트 라이플 PA11・커스텀2 설명문"
+	},
+	{
+		"row": 231,
+		"Sub": "9",
+		"Index": "0",
+		"ChangeID": "2",
+		"__key": "disc:9:0:2",
+		"jp_explain": "グレネードランチャーPA1・カスタム2説明文",
+		"tr_explain": "그레네이드 런처 PA1・커스텀2 설명문"
+	},
+	{
+		"row": 232,
+		"Sub": "9",
+		"Index": "1",
+		"ChangeID": "2",
+		"__key": "disc:9:1:2",
+		"jp_explain": "グレネードランチャーPA2・カスタム2説明文",
+		"tr_explain": "그레네이드 런처 PA2・커스텀2 설명문"
+	},
+	{
+		"row": 233,
+		"Sub": "9",
+		"Index": "2",
+		"ChangeID": "2",
+		"__key": "disc:9:2:2",
+		"jp_explain": "グレネードランチャーPA3・カスタム2説明文",
+		"tr_explain": "그레네이드 런처 PA3・커스텀2 설명문"
+	},
+	{
+		"row": 234,
+		"Sub": "9",
+		"Index": "3",
+		"ChangeID": "2",
+		"__key": "disc:9:3:2",
+		"jp_explain": "グレネードランチャーPA4・カスタム2説明文",
+		"tr_explain": "그레네이드 런처 PA4・커스텀2 설명문"
+	},
+	{
+		"row": 235,
+		"Sub": "9",
+		"Index": "4",
+		"ChangeID": "2",
+		"__key": "disc:9:4:2",
+		"jp_explain": "グレネードランチャーPA5・カスタム2説明文",
+		"tr_explain": "그레네이드 런처 PA5・커스텀2 설명문"
+	},
+	{
+		"row": 236,
+		"Sub": "9",
+		"Index": "5",
+		"ChangeID": "2",
+		"__key": "disc:9:5:2",
+		"jp_explain": "グレネードランチャーPA6・カスタム2説明文",
+		"tr_explain": "그레네이드 런처 PA6・커스텀2 설명문"
+	},
+	{
+		"row": 237,
+		"Sub": "9",
+		"Index": "6",
+		"ChangeID": "2",
+		"__key": "disc:9:6:2",
+		"jp_explain": "グレネードランチャーPA7・カスタム2説明文",
+		"tr_explain": "그레네이드 런처 PA7・커스텀2 설명문"
+	},
+	{
+		"row": 238,
+		"Sub": "9",
+		"Index": "7",
+		"ChangeID": "2",
+		"__key": "disc:9:7:2",
+		"jp_explain": "グレネードランチャーPA8・カスタム2説明文",
+		"tr_explain": "그레네이드 런처 PA8・커스텀2 설명문"
+	},
+	{
+		"row": 239,
+		"Sub": "9",
+		"Index": "8",
+		"ChangeID": "2",
+		"__key": "disc:9:8:2",
+		"jp_explain": "グレネードランチャーPA9・カスタム2説明文",
+		"tr_explain": "그레네이드 런처 PA9・커스텀2 설명문"
+	},
+	{
+		"row": 240,
+		"Sub": "9",
+		"Index": "9",
+		"ChangeID": "2",
+		"__key": "disc:9:9:2",
+		"jp_explain": "グレネードランチャーPA10・カスタム2説明文",
+		"tr_explain": "그레네이드 런처 PA10・커스텀2 설명문"
+	},
+	{
+		"row": 241,
+		"Sub": "9",
+		"Index": "10",
+		"ChangeID": "2",
+		"__key": "disc:9:10:2",
+		"jp_explain": "グレネードランチャーPA11・カスタム2説明文",
+		"tr_explain": "그레네이드 런처 PA11・커스텀2 설명문"
+	},
+	{
+		"row": 242,
+		"Sub": "10",
+		"Index": "0",
+		"ChangeID": "2",
+		"__key": "disc:10:0:2",
+		"jp_explain": "ツインマシンガンPA1・カスタム2説明文",
+		"tr_explain": "트윈 머신건 PA1・커스텀2 설명문"
+	},
+	{
+		"row": 243,
+		"Sub": "10",
+		"Index": "1",
+		"ChangeID": "2",
+		"__key": "disc:10:1:2",
+		"jp_explain": "ツインマシンガンPA2・カスタム2説明文",
+		"tr_explain": "트윈 머신건 PA2・커스텀2 설명문"
+	},
+	{
+		"row": 244,
+		"Sub": "10",
+		"Index": "2",
+		"ChangeID": "2",
+		"__key": "disc:10:2:2",
+		"jp_explain": "ツインマシンガンPA3・カスタム2説明文",
+		"tr_explain": "트윈 머신건 PA3・커스텀2 설명문"
+	},
+	{
+		"row": 245,
+		"Sub": "10",
+		"Index": "3",
+		"ChangeID": "2",
+		"__key": "disc:10:3:2",
+		"jp_explain": "ツインマシンガンPA4・カスタム2説明文",
+		"tr_explain": "트윈 머신건 PA4・커스텀2 설명문"
+	},
+	{
+		"row": 246,
+		"Sub": "10",
+		"Index": "4",
+		"ChangeID": "2",
+		"__key": "disc:10:4:2",
+		"jp_explain": "ツインマシンガンPA5・カスタム2説明文",
+		"tr_explain": "트윈 머신건 PA5・커스텀2 설명문"
+	},
+	{
+		"row": 247,
+		"Sub": "10",
+		"Index": "5",
+		"ChangeID": "2",
+		"__key": "disc:10:5:2",
+		"jp_explain": "ツインマシンガンPA6・カスタム2説明文",
+		"tr_explain": "트윈 머신건 PA6・커스텀2 설명문"
+	},
+	{
+		"row": 248,
+		"Sub": "10",
+		"Index": "6",
+		"ChangeID": "2",
+		"__key": "disc:10:6:2",
+		"jp_explain": "ツインマシンガンPA7・カスタム2説明文",
+		"tr_explain": "트윈 머신건 PA7・커스텀2 설명문"
+	},
+	{
+		"row": 249,
+		"Sub": "10",
+		"Index": "7",
+		"ChangeID": "2",
+		"__key": "disc:10:7:2",
+		"jp_explain": "ツインマシンガンPA8・カスタム2説明文",
+		"tr_explain": "트윈 머신건 PA8・커스텀2 설명문"
+	},
+	{
+		"row": 250,
+		"Sub": "10",
+		"Index": "8",
+		"ChangeID": "2",
+		"__key": "disc:10:8:2",
+		"jp_explain": "ツインマシンガンPA9・カスタム2説明文",
+		"tr_explain": "트윈 머신건 PA9・커스텀2 설명문"
+	},
+	{
+		"row": 251,
+		"Sub": "10",
+		"Index": "9",
+		"ChangeID": "2",
+		"__key": "disc:10:9:2",
+		"jp_explain": "ツインマシンガンPA10・カスタム2説明文",
+		"tr_explain": "트윈 머신건 PA10・커스텀2 설명문"
+	},
+	{
+		"row": 252,
+		"Sub": "10",
+		"Index": "10",
+		"ChangeID": "2",
+		"__key": "disc:10:10:2",
+		"jp_explain": "ツインマシンガンPA11・カスタム2説明文",
+		"tr_explain": "트윈 머신건 PA11・커스텀2 설명문"
+	},
+	{
+		"row": 253,
+		"Sub": "14",
+		"Index": "0",
+		"ChangeID": "2",
+		"__key": "disc:14:0:2",
+		"jp_explain": "カタナPA1・カスタム2説明文",
+		"tr_explain": "카타나 PA1・커스텀2 설명문"
+	},
+	{
+		"row": 254,
+		"Sub": "14",
+		"Index": "1",
+		"ChangeID": "2",
+		"__key": "disc:14:1:2",
+		"jp_explain": "カタナPA2・カスタム2説明文",
+		"tr_explain": "카타나 PA2・커스텀2 설명문"
+	},
+	{
+		"row": 255,
+		"Sub": "14",
+		"Index": "2",
+		"ChangeID": "2",
+		"__key": "disc:14:2:2",
+		"jp_explain": "カタナPA3・カスタム2説明文",
+		"tr_explain": "카타나 PA3・커스텀2 설명문"
+	},
+	{
+		"row": 256,
+		"Sub": "14",
+		"Index": "3",
+		"ChangeID": "2",
+		"__key": "disc:14:3:2",
+		"jp_explain": "カタナPA4・カスタム2説明文",
+		"tr_explain": "카타나 PA4・커스텀2 설명문"
+	},
+	{
+		"row": 257,
+		"Sub": "14",
+		"Index": "4",
+		"ChangeID": "2",
+		"__key": "disc:14:4:2",
+		"jp_explain": "カタナPA5・カスタム2説明文",
+		"tr_explain": "카타나 PA5・커스텀2 설명문"
+	},
+	{
+		"row": 258,
+		"Sub": "14",
+		"Index": "5",
+		"ChangeID": "2",
+		"__key": "disc:14:5:2",
+		"jp_explain": "カタナPA6・カスタム2説明文",
+		"tr_explain": "카타나 PA6・커스텀2 설명문"
+	},
+	{
+		"row": 259,
+		"Sub": "14",
+		"Index": "6",
+		"ChangeID": "2",
+		"__key": "disc:14:6:2",
+		"jp_explain": "カタナPA7・カスタム2説明文",
+		"tr_explain": "카타나 PA7・커스텀2 설명문"
+	},
+	{
+		"row": 260,
+		"Sub": "14",
+		"Index": "7",
+		"ChangeID": "2",
+		"__key": "disc:14:7:2",
+		"jp_explain": "カタナPA8・カスタム2説明文",
+		"tr_explain": "카타나 PA8・커스텀2 설명문"
+	},
+	{
+		"row": 261,
+		"Sub": "14",
+		"Index": "8",
+		"ChangeID": "2",
+		"__key": "disc:14:8:2",
+		"jp_explain": "カタナPA9・カスタム2説明文",
+		"tr_explain": "카타나 PA9・커스텀2 설명문"
+	},
+	{
+		"row": 262,
+		"Sub": "14",
+		"Index": "9",
+		"ChangeID": "2",
+		"__key": "disc:14:9:2",
+		"jp_explain": "カタナPA10・カスタム2説明文",
+		"tr_explain": "카타나 PA10・커스텀2 설명문"
+	},
+	{
+		"row": 263,
+		"Sub": "14",
+		"Index": "10",
+		"ChangeID": "2",
+		"__key": "disc:14:10:2",
+		"jp_explain": "カタナPA11・カスタム2説明文",
+		"tr_explain": "카타나 PA11・커스텀2 설명문"
+	},
+	{
+		"row": 264,
+		"Sub": "15",
+		"Index": "0",
+		"ChangeID": "2",
+		"__key": "disc:15:0:2",
+		"jp_explain": "バレットボウPA1・カスタム2説明文",
+		"tr_explain": "불릿 보우 PA1・커스텀2 설명문"
+	},
+	{
+		"row": 265,
+		"Sub": "15",
+		"Index": "1",
+		"ChangeID": "2",
+		"__key": "disc:15:1:2",
+		"jp_explain": "バレットボウPA2・カスタム2説明文",
+		"tr_explain": "불릿 보우 PA2・커스텀2 설명문"
+	},
+	{
+		"row": 266,
+		"Sub": "15",
+		"Index": "2",
+		"ChangeID": "2",
+		"__key": "disc:15:2:2",
+		"jp_explain": "バレットボウPA3・カスタム2説明文",
+		"tr_explain": "불릿 보우 PA3・커스텀2 설명문"
+	},
+	{
+		"row": 267,
+		"Sub": "15",
+		"Index": "3",
+		"ChangeID": "2",
+		"__key": "disc:15:3:2",
+		"jp_explain": "バレットボウPA4・カスタム2説明文",
+		"tr_explain": "불릿 보우 PA4・커스텀2 설명문"
+	},
+	{
+		"row": 268,
+		"Sub": "15",
+		"Index": "4",
+		"ChangeID": "2",
+		"__key": "disc:15:4:2",
+		"jp_explain": "バレットボウPA5・カスタム2説明文",
+		"tr_explain": "불릿 보우 PA5・커스텀2 설명문"
+	},
+	{
+		"row": 269,
+		"Sub": "15",
+		"Index": "5",
+		"ChangeID": "2",
+		"__key": "disc:15:5:2",
+		"jp_explain": "バレットボウPA6・カスタム2説明文",
+		"tr_explain": "불릿 보우 PA6・커스텀2 설명문"
+	},
+	{
+		"row": 270,
+		"Sub": "15",
+		"Index": "6",
+		"ChangeID": "2",
+		"__key": "disc:15:6:2",
+		"jp_explain": "バレットPA7・カスタム2説明文",
+		"tr_explain": "불릿 PA7・커스텀2 설명문"
+	},
+	{
+		"row": 271,
+		"Sub": "15",
+		"Index": "7",
+		"ChangeID": "2",
+		"__key": "disc:15:7:2",
+		"jp_explain": "バレットボウPA8・カスタム2説明文",
+		"tr_explain": "불릿 보우 PA8・커스텀2 설명문"
+	},
+	{
+		"row": 272,
+		"Sub": "15",
+		"Index": "8",
+		"ChangeID": "2",
+		"__key": "disc:15:8:2",
+		"jp_explain": "バレットボウPA9・カスタム2説明文",
+		"tr_explain": "불릿 보우 PA9・커스텀2 설명문"
+	},
+	{
+		"row": 273,
+		"Sub": "15",
+		"Index": "9",
+		"ChangeID": "2",
+		"__key": "disc:15:9:2",
+		"jp_explain": "バレットボウPA10・カスタム2説明文",
+		"tr_explain": "불릿 보우 PA10・커스텀2 설명문"
+	},
+	{
+		"row": 274,
+		"Sub": "15",
+		"Index": "10",
+		"ChangeID": "2",
+		"__key": "disc:15:10:2",
+		"jp_explain": "バレットボウPA11・カスタム2説明文",
+		"tr_explain": "불릿 보우 PA11・커스텀2 설명문"
+	},
+	{
+		"row": 275,
+		"Sub": "16",
+		"Index": "0",
+		"ChangeID": "2",
+		"__key": "disc:16:0:2",
+		"jp_explain": "ジェットブーツPA1・カスタム2説明文",
+		"tr_explain": "제트 부츠 PA1・커스텀2 설명문"
+	},
+	{
+		"row": 276,
+		"Sub": "16",
+		"Index": "1",
+		"ChangeID": "2",
+		"__key": "disc:16:1:2",
+		"jp_explain": "ジェットブーツPA2・カスタム2説明文",
+		"tr_explain": "제트 부츠 PA2・커스텀2 설명문"
+	},
+	{
+		"row": 277,
+		"Sub": "16",
+		"Index": "2",
+		"ChangeID": "2",
+		"__key": "disc:16:2:2",
+		"jp_explain": "ジェットブーツPA3・カスタム2説明文",
+		"tr_explain": "제트 부츠 PA3・커스텀2 설명문"
+	},
+	{
+		"row": 278,
+		"Sub": "16",
+		"Index": "3",
+		"ChangeID": "2",
+		"__key": "disc:16:3:2",
+		"jp_explain": "ジェットブーツPA4・カスタム2説明文",
+		"tr_explain": "제트 부츠 PA4・커스텀2 설명문"
+	},
+	{
+		"row": 279,
+		"Sub": "17",
+		"Index": "0",
+		"ChangeID": "2",
+		"__key": "disc:17:0:2",
+		"jp_explain": "デュアルブレードPA1・カスタム2説明文",
+		"tr_explain": "듀얼 블레이드 PA1・커스텀2 설명문"
+	},
+	{
+		"row": 280,
+		"Sub": "17",
+		"Index": "1",
+		"ChangeID": "2",
+		"__key": "disc:17:1:2",
+		"jp_explain": "デュアルブレードPA2・カスタム2説明文",
+		"tr_explain": "듀얼 블레이드 PA2・커스텀2 설명문"
+	},
+	{
+		"row": 281,
+		"Sub": "17",
+		"Index": "2",
+		"ChangeID": "2",
+		"__key": "disc:17:2:2",
+		"jp_explain": "デュアルブレードPA3・カスタム2説明文",
+		"tr_explain": "듀얼 블레이드 PA3・커스텀2 설명문"
+	},
+	{
+		"row": 282,
+		"Sub": "17",
+		"Index": "3",
+		"ChangeID": "2",
+		"__key": "disc:17:3:2",
+		"jp_explain": "デュアルブレードPA4・カスタム2説明文",
+		"tr_explain": "듀얼 블레이드 PA4・커스텀2 설명문"
+	},
+	{
+		"row": 283,
+		"Sub": "17",
+		"Index": "4",
+		"ChangeID": "2",
+		"__key": "disc:17:4:2",
+		"jp_explain": "デュアルブレードPA5・カスタム2説明文",
+		"tr_explain": "듀얼 블레이드 PA5・커스텀2 설명문"
+	},
+	{
+		"row": 284,
+		"Sub": "17",
+		"Index": "5",
+		"ChangeID": "2",
+		"__key": "disc:17:5:2",
+		"jp_explain": "デュアルブレードPA6・カスタム2説明文",
+		"tr_explain": "듀얼 블레이드 PA6・커스텀2 설명문"
+	},
+	{
+		"row": 285,
+		"Sub": "17",
+		"Index": "6",
+		"ChangeID": "2",
+		"__key": "disc:17:6:2",
+		"jp_explain": "デュアルブレードPA7・カスタム2説明文",
+		"tr_explain": "듀얼 블레이드 PA7・커스텀2 설명문"
+	}
+]
