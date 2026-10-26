@@ -1339,14 +1339,14 @@
 	{
 		"assign": "37010119",
 		"jp_text": "N-ウェポンズバッヂＤ",
-		"tr_text": "",
+		"tr_text": "N-Weapons Badge D",
 		"jp_explain": "表面に特徴的な紋章が刻印されたバッヂ。\nアイテムトレーダーの\n“N-ウェポンズバッヂ交換”で\nアイテムと交換できる。",
 		"tr_explain": ""
 	},
 	{
 		"assign": "37010121",
 		"jp_text": "Qトリガー/星蝕の奔流",
-		"tr_text": "",
+		"tr_text": "Q. Trigger/Torrential Torment Subjugation",
 		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\n星蝕の奔流”の\nクリア時に消費される。",
 		"tr_explain": ""
 	},
@@ -1369,7 +1369,7 @@
 		"jp_text": "レガシーアイテムバッヂ",
 		"tr_text": "Legacy Item Badge",
 		"jp_explain": "アイテムトレーダーの\n“レガシーアイテム交換”で\nアイテムと交換できる。",
-		"tr_explain": ""
+		"tr_explain": "You can exchange this item for\nother items with the \"Legacy Item Exchange\"\nat the Item Lab."
 	},
 	{
 		"assign": "37010125",
@@ -1397,19 +1397,19 @@
 		"jp_text": "インプルーヴキューブ",
 		"tr_text": "Improve Cube",
 		"jp_explain": "特定の武器の強化に必要な素材。\nアイテムトレーダーの\n“レジェンダリー３武器へ強化”で\n武器の交換に用いる。",
-		"tr_explain": "Material for upgrading specific weapons.\nUsed when exchanging items at\nthe Item Lab with \"Enhance Legendary 3 Weapon\"."
+		"tr_explain": "Material for upgrading specific weapons.\nUsed when exchanging items at\nthe Item Lab with \"Legendary 3 Weapon Upgrade\"."
 	},
 	{
 		"assign": "37010129",
 		"jp_text": "フォルタスヴァンス",
 		"tr_text": "Fortasvance",
 		"jp_explain": "特定の防具の強化に必要な素材。\nアイテムトレーダーの\n“フォルタス防具強化”で\n防具の交換に用いる。",
-		"tr_explain": "Material for upgrading specific weapons.\nUsed when exchanging items at\nthe Item Lab with \"Enhance Fortas Armor\"."
+		"tr_explain": "Material for upgrading specific weapons.\nUsed when exchanging items at\nthe Item Lab with \"Fortas Armor Upgrade\"."
 	},
 	{
 		"assign": "37010130",
 		"jp_text": "Qトリガー/現れる創られし覇者【敗者】",
-		"tr_text": "",
+		"tr_text": "Q. Trigger/Paragon of Creation: [Loser]",
 		"jp_explain": "クエストカウンターで用いるトリガー。\n“想定演習：\n現れる創られし覇者【敗者】”の\nクリア時に消費される。",
 		"tr_explain": ""
 	},
@@ -1423,57 +1423,57 @@
 	{
 		"assign": "37010132",
 		"jp_text": "スプラディオヴォルトⅠ",
-		"tr_text": "",
+		"tr_text": "Sproudiovolt I",
 		"jp_explain": "特定の武器の強化に必要な素材。\nアイテムトレーダーの\n“スプラディオ武器強化”で\n武器の交換に用いる。",
-		"tr_explain": ""
+		"tr_explain": "Material for upgrading specific weapons.\nUsed when exchanging items at\nthe Item Lab with \"Sproudio Weapon Upgrade\"."
 	},
 	{
 		"assign": "37010133",
 		"jp_text": "スプラディオヴォルトⅡ",
-		"tr_text": "",
+		"tr_text": "Sproudiovolt II",
 		"jp_explain": "特定の武器の強化に必要な素材。\nアイテムトレーダーの\n“スプラディオ武器強化”で\n武器の交換に用いる。",
-		"tr_explain": ""
+		"tr_explain": "Material for upgrading specific weapons.\nUsed when exchanging items at\nthe Item Lab with \"Sproudio Weapon Upgrade\"."
 	},
 	{
 		"assign": "37010134",
 		"jp_text": "エヴァルトヴァンス",
-		"tr_text": "",
+		"tr_text": "Evaltavance",
 		"jp_explain": "特定の防具の強化に必要な素材。\nアイテムトレーダーの\n“エヴァルト防具強化”で\n防具の交換に用いる。",
-		"tr_explain": ""
+		"tr_explain": "Material for upgrading specific weapons.\nUsed when exchanging items at\nthe Item Lab with \"Exalt Armor Upgrade\"."
 	},
 	{
 		"assign": "37010135",
 		"jp_text": "コウゲンセイヴォルトⅠ",
-		"tr_text": "",
+		"tr_text": "Kougenseivolt I",
 		"jp_explain": "特定の武器の強化に必要な素材。\nアイテムトレーダーの\n“コウゲンセイ武器強化”で\n武器の交換に用いる。",
-		"tr_explain": ""
+		"tr_explain": "Material for upgrading specific weapons.\nUsed when exchanging items at\nthe Item Lab with \"Kougensei Weapon Upgrade\"."
 	},
 	{
 		"assign": "37010136",
 		"jp_text": "コウゲンセイヴォルトⅡ",
-		"tr_text": "",
+		"tr_text": "Kougenseivolt II",
 		"jp_explain": "特定の武器の強化に必要な素材。\nアイテムトレーダーの\n“コウゲンセイ武器強化”で\n武器の交換に用いる。",
-		"tr_explain": ""
+		"tr_explain": "Material for upgrading specific weapons.\nUsed when exchanging items at\nthe Item Lab with \"Kougensei Weapon Upgrade\"."
 	},
 	{
 		"assign": "37010137",
 		"jp_text": "レアレンスインテグラ",
-		"tr_text": "",
+		"tr_text": "Learenz Integra",
 		"jp_explain": "特定の武器の入手に必要な素材。\nアイテムトレーダーの\n“レアレンス武器交換”で\n武器の交換に用いる。",
-		"tr_explain": ""
+		"tr_explain": "Material for upgrading specific weapons.\nUsed when exchanging items at\nthe Item Lab with \"Learenz Weapon Exchange\"."
 	},
 	{
 		"assign": "37010138",
 		"jp_text": "カイズキューブ",
-		"tr_text": "",
+		"tr_text": "Kyz Cube",
 		"jp_explain": "特定の武器の強化に必要な素材。\nアイテムトレーダーの\n“カイズ武器強化”で\n武器の交換に用いる。",
-		"tr_explain": ""
+		"tr_explain": "Material for upgrading specific weapons.\nUsed when exchanging items at\nthe Item Lab with \"Kyz Weapon Upgrade\"."
 	},
 	{
 		"assign": "37010139",
 		"jp_text": "レアレンスヴォルト",
-		"tr_text": "",
+		"tr_text": "Learenzvolt",
 		"jp_explain": "特定の武器の強化に必要な素材。\nアイテムトレーダーの\n“レアレンス武器強化”で\n武器の交換に用いる。",
-		"tr_explain": ""
+		"tr_explain": "Material for upgrading specific weapons.\nUsed when exchanging items at\nthe Item Lab with \"Learenz Weapon Upgrade\"."
 	}
 ]
