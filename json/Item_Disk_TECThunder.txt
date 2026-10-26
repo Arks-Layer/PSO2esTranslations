@@ -4,48 +4,48 @@
 		"jp_text": "ゾンデ",
 		"tr_text": "Zonde",
 		"jp_explain": "初級の雷属性テクニック。\nフォトンを励起させ、放電現象を作り\n任意の場所に落雷を落とす。",
-		"tr_explain": "Basic Lightning Technique.\nCharges Photons to strike the\ntarget location with lightning."
+		"tr_explain": "Technique ขั้นต้นธาตุ 『สายฟ้า』\nกระตุ้น Photon ให้เกิดปรากฏการณ์คายประจุ\nเรียกสายฟ้าฟาดลงมา ณ ตำแหน่งที่ต้องการ"
 	},
 	{
 		"assign": "9231",
 		"jp_text": "ギ・ゾンデ",
 		"tr_text": "Gizonde",
 		"jp_explain": "中級の雷属性テクニック。\nフォトンを励起させ、電撃を放つ。\n電撃は目標から目標へと広がってゆく。",
-		"tr_explain": "Intermediate Lightning Technique.\nFires an electric shock that\nleaps between enemies.\nHas a limited range."
+		"tr_explain": "Technique ขั้นกลางธาตุ 『สายฟ้า』\nกระตุ้น Photon ปล่อยกระแสไฟฟ้าออกไป\nสายฟ้าจะช็อตกระโดดจากเป้าหมายหนึ่งไปสู่อีกเป้าหมายหนึ่ง"
 	},
 	{
 		"assign": "9232",
 		"jp_text": "ラ・ゾンデ",
 		"tr_text": "Razonde",
 		"jp_explain": "中級の雷属性テクニック。\nフォトンを励起させ、放電球体を生成。\n発動させる高さによって範囲が変化。",
-		"tr_explain": "Intermediate Lightning Technique.\nCalls lightning down in a\ncone around the caster.\nRange increases with height."
+		"tr_explain": "Technique ขั้นกลางธาตุ 『สายฟ้า』\nกระตุ้น Photon สร้างทรงกลมปล่อยประจุไฟฟ้า\nโดยระยะครอบคลุมจะเปลี่ยนไปตามระดับความสูงที่ใช้งาน"
 	},
 	{
 		"assign": "9233",
 		"jp_text": "サ・ゾンデ",
 		"tr_text": "Sazonde",
 		"jp_explain": "中級の雷属性テクニック。\nフォトンを励起し、他の電撃で攻撃を\n誘発させる雷の球を目標に植え付ける。",
-		"tr_explain": "Intermediate Lightning Technique.\nPlants a sphere of static\ncharge upon the target.\nA Zonde tech will detonate it."
+		"tr_explain": "Technique ขั้นกลางธาตุ 『สายฟ้า』\nกระตุ้น Photon ฝังลูกบอลประจุไฟฟ้าไว้บนเป้าหมาย\nซึ่งจะระเบิดออกเมื่อถูกกระตุ้นด้วยสายฟ้าอื่น"
 	},
 	{
 		"assign": "9234",
 		"jp_text": "ゾンディール",
 		"tr_text": "Zondeel",
 		"jp_explain": "雷属性の補助テクニック。\n周囲の敵を吸い寄せる電磁場を発生させ\nその場に電撃を放つと雷が発生する。",
-		"tr_explain": "Lightning Support Technique.\nGenerates a magnetic field\nto pull enemies to the caster.\nA Zonde tech will detonate it."
+		"tr_explain": "Technique สนับสนุนธาตุ 『สายฟ้า』\nสร้างสนามแม่เหล็กดูดศัตรูรอบข้างเข้ามาหาผู้ใช้\nและหากปล่อยกระแสไฟฟ้าใส่จะระเบิดสายฟ้าฟาดขึ้น"
 	},
 	{
 		"assign": "9235",
 		"jp_text": "ナ・ゾンデ",
 		"tr_text": "Nazonde",
 		"jp_explain": "上級の雷属性テクニック。\n自らを帯電させ、周囲に強力な電場を\n作る。ボタン連打で攻撃回数が増加。",
-		"tr_explain": "Advanced Lightning Technique.\nSurrounds the caster with\na lightning storm. Mash the\ncast button to keep it going."
+		"tr_explain": "Technique ขั้นสูงธาตุ 『สายฟ้า』\nปล่อยกระแสไฟฟ้าชาร์จตนเอง สร้างสนามไฟฟ้าพลังสูงรอบตัว\nการกดปุ่มรัว ๆ จะช่วยเพิ่มจำนวนครั้งในการโจมตี"
 	},
 	{
 		"assign": "9236",
 		"jp_text": "イル・ゾンデ",
 		"tr_text": "Ilzonde",
 		"jp_explain": "上級の雷属性テクニック。\nフォトンを励起し、自ら帯電した\n鳥と化し、前方に素早く突撃する。",
-		"tr_explain": "Advanced Lightning Technique.\nPhotons electrify the caster,\nsurging them forward in the\nform of an electric bird."
+		"tr_explain": "Technique ขั้นสูงธาตุ 『สายฟ้า』\nกระตุ้น Photon แล้วแปลงร่างเป็นวิหคสายฟ้า\nพุ่งทะยานไปข้างหน้าอย่างรวดเร็ว"
 	}
 ]

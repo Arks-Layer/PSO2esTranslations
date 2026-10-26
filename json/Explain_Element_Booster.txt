@@ -501,7 +501,7 @@
 		"jp_text": "ミューテーションⅠ",
 		"tr_text": "Mutation I",
 		"jp_explain": "特定の合成確率が上昇\n打撃+10 射撃+10\n法撃+10　HP+10",
-		"tr_explain": "Boosts certain abilities\nsuccess rates.\nATK+10 HP +10"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสังเคราะห์ความสามารถเฉพาะ\nS-ATK +10 R-ATK +10 T-ATK +10 HP +10"
 	},
 	{
 		"assign": "72",
@@ -522,14 +522,14 @@
 		"jp_text": "スティグマ",
 		"tr_text": "Stigma",
 		"jp_explain": "PP+5　技量+20",
-		"tr_explain": "DEX +20 PP +5"
+		"tr_explain": "PP +5 DEX +20"
 	},
 	{
 		"assign": "75",
 		"jp_text": "フォトンコレクト",
 		"tr_text": "Photon Collect",
 		"jp_explain": "状態異常と属性耐性の\n合成確率を上昇させる\nステータス上昇なし",
-		"tr_explain": "Boost synthesis transfer\nrate of status effect\nabilities."
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสังเคราะห์สถานะผิดปกติและความต้านทานธาตุ\nไม่มีการเพิ่มค่าสเตตัส"
 	},
 	{
 		"assign": "76",
@@ -564,42 +564,42 @@
 		"jp_text": "アルター・アルマ",
 		"tr_text": "Alter Arma",
 		"jp_explain": "HP+30 打撃+20",
-		"tr_explain": "S-ATK +20 HP +30"
+		"tr_explain": "HP +30 S-ATK +20"
 	},
 	{
 		"assign": "81",
 		"jp_text": "アルター・ティロ",
 		"tr_text": "Alter Tiro",
 		"jp_explain": "HP+30 射撃+20",
-		"tr_explain": "R-ATK +20 HP +30"
+		"tr_explain": "HP +30 R-ATK +20"
 	},
 	{
 		"assign": "82",
 		"jp_text": "アルター・マギア",
 		"tr_text": "Alter Magia",
 		"jp_explain": "HP+30 法撃+20",
-		"tr_explain": "T-ATK +20 HP +30"
+		"tr_explain": "HP +30 T-ATK +20"
 	},
 	{
 		"assign": "83",
 		"jp_text": "フリクト・アルマ",
 		"tr_text": "Flict Arma",
 		"jp_explain": "PP+3 打撃+20",
-		"tr_explain": "S-ATK +20 PP +3"
+		"tr_explain": "PP +3 S-ATK +20"
 	},
 	{
 		"assign": "84",
 		"jp_text": "フリクト・ティロ",
 		"tr_text": "Flict Tiro",
 		"jp_explain": "PP+3 射撃+20",
-		"tr_explain": "R-ATK +20 PP +3"
+		"tr_explain": "PP +3 R-ATK +20"
 	},
 	{
 		"assign": "85",
 		"jp_text": "フリクト・マギア",
 		"tr_text": "Flict Magia",
 		"jp_explain": "PP+3 法撃+20",
-		"tr_explain": "T-ATK +20 PP +3"
+		"tr_explain": "PP +3 T-ATK +20"
 	},
 	{
 		"assign": "86",
@@ -739,7 +739,7 @@
 		"jp_text": "リターナーⅠ",
 		"tr_text": "Returner I",
 		"jp_explain": "全+3 HP+3 PP+1",
-		"tr_explain": "All +5 HP +3 PP +1"
+		"tr_explain": "All +3 HP +3 PP +1"
 	},
 	{
 		"assign": "106",
@@ -788,7 +788,7 @@
 		"jp_text": "ソールレセプター",
 		"tr_text": "Soul Receptor",
 		"jp_explain": "ソール系特殊能力の\n継承成功率を大幅に上昇\n全+10",
-		"tr_explain": "Boosts Soul-type\nability transfer rates.\nAll +10"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสืบทอด Special Ability สาย Soul อย่างมาก\nAll +10"
 	},
 	{
 		"assign": "113",
@@ -809,7 +809,7 @@
 		"jp_text": "マーク・アンガル",
 		"tr_text": "Mark Angar",
 		"jp_explain": "打撃+50 射撃+50\n法撃+50 技量+40",
-		"tr_explain": "S-ATK +40 R-ATK +40\nT-ATK +40 DEX +40"
+		"tr_explain": "S-ATK +50 R-ATK +50\nT-ATK +50 DEX +40"
 	},
 	{
 		"assign": "116",
@@ -823,7 +823,7 @@
 		"jp_text": "ナイトギア・ソール",
 		"tr_text": "Knight Gear Soul",
 		"jp_explain": "打撃+15 射撃+15\n法撃+15 技量+15 PP+4",
-		"tr_explain": "S-ATK +15 R-ATK +15\nT-ATK +15 PP +4"
+		"tr_explain": "S-ATK +15 R-ATK +15\nT-ATK +15 DEX +15 PP +4"
 	},
 	{
 		"assign": "118",
@@ -844,7 +844,7 @@
 		"jp_text": "ジャドゥ・ソール",
 		"tr_text": "Jhadu Soul",
 		"jp_explain": "法撃+15 HP+45",
-		"tr_explain": "T-DEF +15 HP +45"
+		"tr_explain": "T-ATK +15 HP +45"
 	},
 	{
 		"assign": "121",
@@ -886,7 +886,7 @@
 		"jp_text": "ギフトレセプター",
 		"tr_text": "Gift Receptor",
 		"jp_explain": "ギフト系特殊能力の\n引き継ぎが可能になる\n全+10",
-		"tr_explain": "Allows transfer of gift-type\nSpecial Abilities.\nAll +10"
+		"tr_explain": "ทำให้สามารถสืบทอด Special Ability สาย Gift ได้\nAll +10"
 	},
 	{
 		"assign": "127",
@@ -935,14 +935,14 @@
 		"jp_text": "サンサン・フィーバー",
 		"tr_text": "Sun Sun Fever",
 		"jp_explain": "打撃+5 射撃+5\n法撃+5 HP+5 PP+1",
-		"tr_explain": "ATK+5 HP +5 PP +1"
+		"tr_explain": "ATK +5 HP +5 PP +1"
 	},
 	{
 		"assign": "134",
 		"jp_text": "アクス・フィーバー",
 		"tr_text": "ARKS Fever",
 		"jp_explain": "打撃+5 射撃+5\n法撃+5 技量+5\nPP+5",
-		"tr_explain": "ATK+5 DEX +5 PP +5"
+		"tr_explain": "ATK +5 DEX +5 PP +5"
 	},
 	{
 		"assign": "135",
@@ -963,14 +963,14 @@
 		"jp_text": "デッドリオン・ソール",
 		"tr_text": "Deadlion Soul",
 		"jp_explain": "打撃+35 技量+5\nHP+30",
-		"tr_explain": "S-ATK +35 DEX +5\nHP +20"
+		"tr_explain": "S-ATK +35 DEX +5\nHP +30"
 	},
 	{
 		"assign": "138",
 		"jp_text": "レオパード・ソール",
 		"tr_text": "Leopard Soul",
 		"jp_explain": "射撃+35 技量+5\nHP+30",
-		"tr_explain": "R-ATK +35 DEX +5\nHP30"
+		"tr_explain": "R-ATK +35 DEX +5\nHP +30"
 	},
 	{
 		"assign": "139",
@@ -1033,21 +1033,21 @@
 		"jp_text": "ノーブル・パワー",
 		"tr_text": "Noble Power",
 		"jp_explain": "PP+3 打撃+30",
-		"tr_explain": "S-ATK +30 PP +3"
+		"tr_explain": "PP +3 S-ATK +30"
 	},
 	{
 		"assign": "148",
 		"jp_text": "ノーブル・シュート",
 		"tr_text": "Noble Shot",
 		"jp_explain": "PP+3 射撃+30",
-		"tr_explain": "R-ATK +30 PP +3"
+		"tr_explain": "PP +3 R-ATK +30"
 	},
 	{
 		"assign": "149",
 		"jp_text": "ノーブル・テクニック",
 		"tr_text": "Noble Tech",
 		"jp_explain": "PP+3 法撃+30",
-		"tr_explain": "T-ATK +30 PP +3"
+		"tr_explain": "PP +3 T-ATK +30"
 	},
 	{
 		"assign": "150",
@@ -1250,7 +1250,7 @@
 		"jp_text": "ソール・カタリスト",
 		"tr_text": "Soul Catalyst",
 		"jp_explain": "4つ集めると\n特定のソールと合成可能\nHP+10 PP+1",
-		"tr_explain": "Can be combined with\na certain soul when you\ncollect four.\nHP +10 PP +1"
+		"tr_explain": "เมื่อสะสมครบ 4 ชิ้น จะสามารถสังเคราะห์ร่วมกับ Soul เฉพาะได้\nHP +10 PP +1"
 	},
 	{
 		"assign": "179",
@@ -1411,7 +1411,7 @@
 		"jp_text": "トウオウ・ソール",
 		"tr_text": "Toh'oh Soul",
 		"jp_explain": "特定のソールと合成可能\n全+10",
-		"tr_explain": "Can be combined with\ncertain abilities.\nAll +10"
+		"tr_explain": "สามารถใช้สังเคราะห์ร่วมกับ Soul เฉพาะได้\nAll +10"
 	},
 	{
 		"assign": "202",
@@ -1439,7 +1439,7 @@
 		"jp_text": "ミューテーションⅡ",
 		"tr_text": "Mutation II",
 		"jp_explain": "特定の合成確率が上昇\n打撃+15 射撃+15\n法撃+15　HP+15",
-		"tr_explain": "Boosts certain abilities\nsuccess rates.\nS-ATK +15 R-ATK +15\nT-ATK +15 HP +15"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสังเคราะห์ความสามารถเฉพาะ\nS-ATK +15 R-ATK +15 T-ATK +15 HP +15"
 	},
 	{
 		"assign": "206",
@@ -1544,28 +1544,28 @@
 		"jp_text": "ディフェンス・ブースト",
 		"tr_text": "Defense Boost",
 		"jp_explain": "打防+25 射防+25\n法防+25 HP+55 PP+1",
-		"tr_explain": "S-DEF +25 R-DEF +25\nT-DEX +25 HP +55 PP +1"
+		"tr_explain": "S-DEF +25 R-DEF +25\nT-DEF +25 HP +55 PP +1"
 	},
 	{
 		"assign": "221",
 		"jp_text": "アタックレセプター",
 		"tr_text": "Attack Receptor",
 		"jp_explain": "攻撃上昇特殊能力3種と\nアームの継承成功率を\n大幅に上昇　　　全+5",
-		"tr_explain": "Greatly increases the\naffix rate of 3 ATK abilities.\nAll +5"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสืบทอด Special Ability เพิ่มพลังโจมตี 3 ชนิดและ Arm อย่างมาก\nAll +5"
 	},
 	{
 		"assign": "222",
 		"jp_text": "ガードレセプター",
 		"tr_text": "Guard Receptor",
 		"jp_explain": "特殊能力ボディ、リアクト\nマインドの継承成功率を\n大幅に上昇　　　全+5",
-		"tr_explain": "Greatly increases the\naffix rate of 3 DEF abilities.\nAll +5"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสืบทอด Special Ability 『Body』, 『React』, 『Mind』 อย่างมาก\nAll +5"
 	},
 	{
 		"assign": "223",
 		"jp_text": "フォトンレセプター",
 		"tr_text": "Photon Receptor",
 		"jp_explain": "特殊能力スタミナと\nスピリタの継承成功率を\n大幅に上昇　　　全+5",
-		"tr_explain": "Greatly increases the\naffix rate of Stamina and Spirita.\nAll +5"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสืบทอด Special Ability 『Stamina』 และ 『Spirita』 อย่างมาก\nAll +5"
 	},
 	{
 		"assign": "224",
@@ -1600,14 +1600,14 @@
 		"jp_text": "フルベガス・ソール",
 		"tr_text": "Full Vegas Soul",
 		"jp_explain": "特定のソールと合成可能\n打撃+15 射撃+15\n法撃+15",
-		"tr_explain": "Can be combined with\ncertain abilities.\nS-ATK +15 R-ATK +15 T-ATK +15"
+		"tr_explain": "สามารถใช้สังเคราะห์ร่วมกับ Soul เฉพาะได้\nS-ATK +15 R-ATK +15 T-ATK +15"
 	},
 	{
 		"assign": "229",
 		"jp_text": "エクストレセプター",
 		"tr_text": "Extreceptor",
 		"jp_explain": "アルター、フリクト系と\n特定の特殊能力継承率を\n大幅に上昇　全+10",
-		"tr_explain": "Boosts Flict, Alter and\ncertain other special\nability transfer rates.\nAll +10"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสืบทอด Special Ability สาย 『Alter』, 『Flict』 และความสามารถเฉพาะอย่างมาก\nAll +10"
 	},
 	{
 		"assign": "230",
@@ -1670,7 +1670,7 @@
 		"jp_text": "エスカード・ソール",
 		"tr_text": "Escarde Soul",
 		"jp_explain": "特定のソールと合成可能\n打撃+10 射撃+10\n法撃+10 技量+20",
-		"tr_explain": "S-ATK +10 R-ATK +10\nT-ATK +10 DEX +20"
+		"tr_explain": "สามารถใช้สังเคราะห์ร่วมกับ Soul เฉพาะได้\nS-ATK +10 R-ATK +10 T-ATK +10 DEX +20"
 	},
 	{
 		"assign": "239",
@@ -1831,21 +1831,21 @@
 		"jp_text": "マークレセプター",
 		"tr_text": "Mark Receptor",
 		"jp_explain": "マーク系特殊能力の\n継承成功率を大幅に上昇\n全+10",
-		"tr_explain": "Allows transfer of Mark-type\nSpecial Abilities.\nAll +10"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสืบทอด Special Ability สาย Mark อย่างมาก\nAll +10"
 	},
 	{
 		"assign": "262",
 		"jp_text": "フレイズレセプター",
 		"tr_text": "Phrase Receptor",
 		"jp_explain": "フレイズ系特殊能力の\n継承成功率を大幅に上昇\n全+10",
-		"tr_explain": "Boosts Phrase-type\nability transfer rates.\nAll +10"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสืบทอด Special Ability สาย Phrase อย่างมาก\nAll +10"
 	},
 	{
 		"assign": "263",
 		"jp_text": "センテンスレセプター",
 		"tr_text": "Sentence Receptor",
 		"jp_explain": "センテンス系特殊能力の\n継承成功率を大幅に上昇\n全+10",
-		"tr_explain": "Boosts Sentence-type\nability transfer rates.\nAll +10"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสืบทอด Special Ability สาย Sentence อย่างมาก\nAll +10"
 	},
 	{
 		"assign": "264",
@@ -1866,7 +1866,7 @@
 		"jp_text": "ファクター・カタリスト",
 		"tr_text": "Factor Catalyst",
 		"jp_explain": "4つ集めると\n特定のソールと合成可能\nHP+10 PP+1",
-		"tr_explain": "Can be combined with\na certain soul when you\ncollect four.\nHP +10 PP +1"
+		"tr_explain": "เมื่อสะสมครบ 4 ชิ้น จะสามารถสังเคราะห์ร่วมกับ Soul เฉพาะได้\nHP +10 PP +1"
 	},
 	{
 		"assign": "267",
@@ -1908,21 +1908,21 @@
 		"jp_text": "オメガ・レヴリー",
 		"tr_text": "Omega Reverie",
 		"jp_explain": "打撃+15 射撃+15\n法撃+15 HP+20 PP+1",
-		"tr_explain": "ATK+15 HP +20 PP +1"
+		"tr_explain": "ATK +15 HP +20 PP +1"
 	},
 	{
 		"assign": "273",
 		"jp_text": "ファーブラ・ソール",
 		"tr_text": "Fabula Soul",
 		"jp_explain": "打撃+10 射撃+10\n法撃+10 HP+20",
-		"tr_explain": "ATK+10 HP +20"
+		"tr_explain": "ATK +10 HP +20"
 	},
 	{
 		"assign": "274",
 		"jp_text": "アレス・ジ・ソール",
 		"tr_text": "Ares The Soul",
 		"jp_explain": "打撃+25 射撃+25\n法撃+25 HP+35 PP+3",
-		"tr_explain": "ATK+25 HP +35 PP +3"
+		"tr_explain": "ATK +25 HP +35 PP +3"
 	},
 	{
 		"assign": "275",
@@ -1957,7 +1957,7 @@
 		"jp_text": "アクス・ＭＡＸ",
 		"tr_text": "ARKS MAX",
 		"jp_explain": "打撃+25 射撃+25\n法撃+25",
-		"tr_explain": "ATK+25"
+		"tr_explain": "ATK +25"
 	},
 	{
 		"assign": "280",
@@ -1971,7 +1971,7 @@
 		"jp_text": "ファクターレセプター",
 		"tr_text": "Factor Receptor",
 		"jp_explain": "ファクター系特殊能力の\n継承成功率を大幅に上昇\n全+10",
-		"tr_explain": "Boosts Factor-type\nability transfer rates.\nAll +10"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสืบทอด Special Ability สาย Factor อย่างมาก\nAll +10"
 	},
 	{
 		"assign": "282",
@@ -2083,7 +2083,7 @@
 		"jp_text": "アプレジナ・レヴリー",
 		"tr_text": "Appregina Reverie",
 		"jp_explain": "打撃+20 射撃+40\n法撃+20 HP-10 PP-1",
-		"tr_explain": "S-ATK +20 R-ATK +40\nT-ATK +20 HP -10\nPP -1"
+		"tr_explain": "S-ATK +20 R-ATK +40\nT-ATK +20 HP -10 PP -1"
 	},
 	{
 		"assign": "298",
@@ -2349,7 +2349,7 @@
 		"jp_text": "レヴリー・カタリスト",
 		"tr_text": "Reverie Catalyst",
 		"jp_explain": "4つ集めると\nオメガ・メモリアと合成可能\nHP+10 PP+1",
-		"tr_explain": "Can be combined with\nOmega Memoria when you\ncollect four.\nHP +10 PP +1"
+		"tr_explain": "เมื่อสะสมครบ 4 ชิ้น จะสามารถสังเคราะห์เป็น 『Omega Memoria』 ได้\nHP +10 PP +1"
 	},
 	{
 		"assign": "336",
@@ -2426,42 +2426,42 @@
 		"jp_text": "ディバイン・オーダー",
 		"tr_text": "Divine Order",
 		"jp_explain": "打撃+50 射撃+50\n法撃+50 HP+20 PP+10",
-		"tr_explain": "S-DEF +50 R-ATK +50\nT-DEF +50 HP +20 PP +10"
+		"tr_explain": "S-ATK +50 R-ATK +50\nT-ATK +50 HP +20 PP +10"
 	},
 	{
 		"assign": "347",
 		"jp_text": "クラックⅠ",
 		"tr_text": "Crack I",
 		"jp_explain": "打撃+3 射撃+3\n法撃+3 打防+5\n射防+5 法防+5\nHP+5 PP+1",
-		"tr_explain": "S-ATK +3 R-ATK +3\nT-ATK +3 S-DEF +5\nR-DEF +5\nT-DEF +5\nHP +5 PP +1"
+		"tr_explain": "S-ATK +3 R-ATK +3\nT-ATK +3 S-DEF +5\nR-DEF +5 T-DEF +5\nHP +5 PP +1"
 	},
 	{
 		"assign": "348",
 		"jp_text": "クラックⅡ",
 		"tr_text": "Crack II",
 		"jp_explain": "打撃+5 射撃+5\n法撃+5 打防+10\n射防+10 法防+10\nHP+10 PP+1",
-		"tr_explain": "S-ATK +5 R-ATK +5\nT-ATK +5 S-DEF +10\nR-DEF +10\nT-DEF +10\nHP +10 PP +1"
+		"tr_explain": "S-ATK +5 R-ATK +5\nT-ATK +5 S-DEF +10\nR-DEF +10 T-DEF +10\nHP +10 PP +1"
 	},
 	{
 		"assign": "349",
 		"jp_text": "クラックⅢ",
 		"tr_text": "Crack III",
 		"jp_explain": "打撃+10 射撃+10\n法撃+10 打防+15\n射防+15 法防+15\nHP+15 PP+1",
-		"tr_explain": "S-ATK +10 R-ATK +10\nT-ATK +10 S-DEF +15\nR-DEF +15\nT-DEF +15\nHP +15 PP +1"
+		"tr_explain": "S-ATK +10 R-ATK +10\nT-ATK +10 S-DEF +15\nR-DEF +15 T-DEF +15\nHP +15 PP +1"
 	},
 	{
 		"assign": "350",
 		"jp_text": "クラックⅣ",
 		"tr_text": "Crack IV",
 		"jp_explain": "打撃+15 射撃+15\n法撃+15 打防+30\n射防+30 法防+30\nHP+30 PP+2",
-		"tr_explain": "S-ATK +15 R-ATK +15\nT-ATK +15 S-DEF +30\nR-DEF +30\nT-DEF +30\nHP +30 PP +2"
+		"tr_explain": "S-ATK +15 R-ATK +15\nT-ATK +15 S-DEF +30\nR-DEF +30 T-DEF +30\nHP +30 PP +2"
 	},
 	{
 		"assign": "351",
 		"jp_text": "クラックⅤ",
 		"tr_text": "Crack V",
 		"jp_explain": "打撃+30 射撃+30\n法撃+30 打防+50\n射防+50 法防+50\nHP+50 PP+2",
-		"tr_explain": "S-ATK +30 R-ATK +30\nT-ATK +30 S-DEF +50\nR-DEF +50\nT-DEF +50\nHP +50 PP +2"
+		"tr_explain": "S-ATK +30 R-ATK +30\nT-ATK +30 S-DEF +50\nR-DEF +50 T-DEF +50\nHP +50 PP +2"
 	},
 	{
 		"assign": "352",
@@ -2503,14 +2503,14 @@
 		"jp_text": "カタリストレセプター",
 		"tr_text": "Catalyst Receptor",
 		"jp_explain": "カタリスト系特殊能力の\n継承成功率を大幅に上昇\n全+10",
-		"tr_explain": "Boosts Catalyst-type\nability transfer rates.\nAll +10"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสืบทอด Special Ability สาย Catalyst อย่างมาก\nAll +10"
 	},
 	{
 		"assign": "358",
 		"jp_text": "アンジュール・グレア",
 		"tr_text": "Ange Gaze",
 		"jp_explain": "打撃+30 打防+40\n射防+20 法防+20",
-		"tr_explain": "S-ATK +30 S-DEF +40\nR-DEF +20 T-DEF +2-"
+		"tr_explain": "S-ATK +30 S-DEF +40\nR-DEF +20 T-DEF +20"
 	},
 	{
 		"assign": "359",
@@ -2524,7 +2524,7 @@
 		"jp_text": "ドゥミヌス・グレア",
 		"tr_text": "Dominus Gaze",
 		"jp_explain": "法撃+30 打防+20\n射防+20 法防+40",
-		"tr_explain": "T-ATK +20 S-DEF +20\nR-DEF +20 T-DEF +40"
+		"tr_explain": "T-ATK +30 S-DEF +20\nR-DEF +20 T-DEF +40"
 	},
 	{
 		"assign": "361",
@@ -2545,21 +2545,21 @@
 		"jp_text": "ドゥームブレイクⅢ",
 		"tr_text": "Doom Break III",
 		"jp_explain": "打撃+30 射撃+30\n法撃+30 PP+4",
-		"tr_explain": "S-ATK +30 R-ATK +30\nT-ATK +30 PP+4"
+		"tr_explain": "S-ATK +30 R-ATK +30\nT-ATK +30 PP +4"
 	},
 	{
 		"assign": "364",
 		"jp_text": "ディバインレセプター",
 		"tr_text": "Divine Receptor",
 		"jp_explain": "ディバイン系特殊能力の\n継承成功率を大幅に上昇\n全+10",
-		"tr_explain": "Boosts Divine-type\nability transfer rates.\nAll +10"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสืบทอด Special Ability สาย Divine อย่างมาก\nAll +10"
 	},
 	{
 		"assign": "365",
 		"jp_text": "イクシードレセプター",
 		"tr_text": "Exceed Receptor",
 		"jp_explain": "イクシード系特殊能力の\n継承成功率を大幅に上昇\n全+10",
-		"tr_explain": "Boosts Exceed-type\nability transfer rates.\nAll +10"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสืบทอด Special Ability สาย Exceed อย่างมาก\nAll +10"
 	},
 	{
 		"assign": "366",
@@ -2629,28 +2629,28 @@
 		"jp_text": "グレア・カタリスト",
 		"tr_text": "Glare Catalyst",
 		"jp_explain": "4つ集めると\nフォトナー・グレアと\n合成可能\nHP+10 PP+1",
-		"tr_explain": "Can be combined with\nPhotoner Glare when you\ncollect four.\nHP +10 PP +1"
+		"tr_explain": "เมื่อสะสมครบ 4 ชิ้น จะสามารถสังเคราะห์เป็น 『Photoner Glare』 ได้\nHP +10 PP +1"
 	},
 	{
 		"assign": "376",
 		"jp_text": "アブソリュート・グレア",
 		"tr_text": "Absolute Glare",
 		"jp_explain": "全+40 HP+30 PP+3",
-		"tr_explain": "All +40 HP +30\nPP+3"
+		"tr_explain": "All +40 HP +30\nPP +3"
 	},
 	{
 		"assign": "377",
 		"jp_text": "ガーディアン・ソール",
 		"tr_text": "Guardian Soul",
 		"jp_explain": "全+70 HP+70 PP+7",
-		"tr_explain": "All +70 HP +70\nPP+7"
+		"tr_explain": "All +70 HP +70\nPP +7"
 	},
 	{
 		"assign": "378",
 		"jp_text": "グレアレセプター",
 		"tr_text": "Glare Receptor",
 		"jp_explain": "グレア系特殊能力の\n継承成功率を大幅に上昇\n全+10",
-		"tr_explain": "Boosts Glare-type\nability transfer rates.\nAll +10"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสืบทอด Special Ability สาย Glare อย่างมาก\nAll +10"
 	},
 	{
 		"assign": "379",
@@ -2678,6 +2678,6 @@
 		"jp_text": "レヴリーレセプター",
 		"tr_text": "Reverie Receptor",
 		"jp_explain": "レヴリー系特殊能力の\n継承成功率を大幅に上昇\n全+10",
-		"tr_explain": "Boosts Reverie-type\nability transfer rates.\nAll +10"
+		"tr_explain": "เพิ่มอัตราความสำเร็จในการสืบทอด Special Ability สาย Reverie อย่างมาก\nAll +10"
 	}
 ]

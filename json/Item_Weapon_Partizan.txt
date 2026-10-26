@@ -151,7 +151,7 @@
 		"jp_text": "バシレイオン",
 		"tr_text": "Basilleon",
 		"jp_explain": "巨大な刃を威圧的に見せつける長槍。\n研ぎ澄まされたフォトンの刃は\n触れるものを難なく切り裂くという。",
-		"tr_explain": "An intimidating Partizan with a\ngigantic blade. The honed Photons\nare said to shred anything with ease."
+		"tr_explain": "『Partizan』 ที่อวดคมดาบขนาดยักษ์อันน่าเกรงขาม\nกล่าวกันว่าคมดาบ Photon ที่ลับคมมาอย่างประณีต\nจะฉีกกระชากทุกสรรพสิ่งที่สัมผัสได้อย่างง่ายดาย"
 	},
 	{
 		"assign": "13022",
@@ -221,14 +221,14 @@
 		"jp_text": "インペリアルピック",
 		"tr_text": "Imperial Pick",
 		"jp_explain": "高密度のフォトンで刃を覆った長槍。\n両端に伸びたフォトンの刃が\n敵を一刀のもとに斬り伏せる。",
-		"tr_explain": "A Partizan whose blades are coated in\nhigh-density Photons. Each blade cuts\ndown any enemy with a single strike."
+		"tr_explain": "『Partizan』 ที่เคลือบใบมีดด้วย Photon ความหนาแน่นสูง\nคมดาบ Photon ที่ยื่นยาวออกไปทั้งสองด้าน\nจะฟันสะบั้นศัตรูให้ล้มลงในดาบเดียว"
 	},
 	{
 		"assign": "13032",
 		"jp_text": "バルディッシュ",
 		"tr_text": "Bardiche",
 		"jp_explain": "槍の柄に斧の刃を取り付けた長槍。\n高い破壊力を誇るが重量がネックで\n軽量化を待つ声も多い。",
-		"tr_explain": "Partizan which marries an axe's blade\nto a spear's shaft. Highly destructive,\nbut many find its weight a hindrance."
+		"tr_explain": "『Partizan』 ที่ติดตั้งคมขวานเข้ากับด้ามหอก\nภาคภูมิใจในพลังทำลายล้างอันมหาศาล แต่น้ำหนักถือเป็นจุดบกพร่อง\nทำให้มีเสียงเรียกร้องมากมายที่เฝ้ารอรุ่นลดน้ำหนัก"
 	},
 	{
 		"assign": "13033",
@@ -242,7 +242,7 @@
 		"jp_text": "ゲキツナアタ",
 		"tr_text": "Gekitsnata",
 		"jp_explain": "突撃戦闘用に開発された長槍。\nフォトン効率が良く、アークス内の\n愛用者が多いため、稀少化している。",
-		"tr_explain": "A Partizan designed for close-range\ncombat. Its high usage rate among\nARKS has made it difficult to acquire."
+		"tr_explain": "『Partizan』 ที่พัฒนาขึ้นสำหรับการต่อสู้แบบจู่โจมประชิด\nมีประสิทธิภาพการใช้ Photon ที่ยอดเยี่ยม จนกลายเป็นไอเทมหายาก\nเนื่องจากมีผู้ชื่นชอบใช้งานภายใน ARKS เป็นจำนวนมาก"
 	},
 	{
 		"assign": "13035",
@@ -319,14 +319,14 @@
 		"jp_text": "クリーンブラシ",
 		"tr_text": "Clean Brush",
 		"jp_explain": "元は清掃用具だったものが\n紆余曲折を経て長槍になった。\n全クラス装備可能な、特殊な武器。",
-		"tr_explain": "Originally a broom, but with a bit of\nelbow grease, it became a Partizan.\nAll Classes can equip."
+		"tr_explain": "เดิมทีเป็นอุปกรณ์ทำความสะอาด\nแต่หลังผ่านการดัดแปลงอย่างซับซ้อนก็กลายมาเป็น 『Partizan』\nเป็นอาวุธพิเศษที่ทุกคลาสสามารถสวมใส่ได้"
 	},
 	{
 		"assign": "13047",
 		"jp_text": "ガエボルグ／ナハト",
 		"tr_text": "Gae Bolg/Nacht",
 		"jp_explain": "闇夜の色を抱く長槍。\n出自の仔細は不明だが、性能は高く\n所有者に大きな力を抱かせる。",
-		"tr_explain": "A Partizan painted black as night. Its\norigins are unknown, but it inspires\ngreatness in its owner."
+		"tr_explain": "『Partizan』 ที่โอบอุ้มสีสันแห่งรัตติกาลอันมืดมิด\nแม้ต้นกำเนิดโดยละเอียดจะยังไม่แน่ชัด ทว่าเปี่ยมด้วยประสิทธิภาพสูง\nและมอบพลังอันยิ่งใหญ่แก่ผู้ครอบครอง"
 	},
 	{
 		"assign": "13048",
@@ -340,7 +340,7 @@
 		"jp_text": "アーレスパルチザン",
 		"tr_text": "Ares Partizan",
 		"jp_explain": "一角獣の幻獣の力を宿した長槍。装者に\nフォトンブラストの効果で貫く力を\n与え、敵を無慈悲に一刀両断する。",
-		"tr_explain": "A Partizan harboring the power of a\nPhoton Blast. It bisects the enemy\nwith piercing strength."
+		"tr_explain": "『Partizan』 ที่สถิตพลังของสัตว์มายายูนิคอร์น\nมอบพลังแทงทะลวงแก่ผู้สวมใส่ด้วยผลของ Photon Blast\nทำให้สามารถฟันผ่าศัตรูออกเป็นสองท่อนได้อย่างไร้ความปรานี"
 	},
 	{
 		"assign": "13051",
@@ -389,7 +389,7 @@
 		"jp_text": "トライデントクラッシャー",
 		"tr_text": "Trident Crusher",
 		"jp_explain": "白き輝石と呼ばれる、珍しい鉱石を\n原料としている長槍。無機的でありながら\n造形的なその装飾が話題を呼んでいる。",
-		"tr_explain": "A Partizan made from white pyroxene\nore. Its inorganic, sculpted design\nmakes it the talk of the town."
+		"tr_explain": "『Partizan』 ที่ใช้แร่หายากซึ่งเรียกว่าหินผลึกขาวเป็นวัตถุดิบ\nลวดลายประดับที่มีศิลปะรูปทรงประติมากรรมแต่ยังคงความไร้ชีวิตชีวา\nกำลังเป็นที่กล่าวขวัญและดึงดูดความสนใจอย่างมาก"
 	},
 	{
 		"assign": "13067",
@@ -403,21 +403,21 @@
 		"jp_text": "ステルスウェポン：ＰＲ",
 		"tr_text": "Stealth Weapon: PR",
 		"jp_explain": "認識不能な武器。\n形状はパルチザン型。",
-		"tr_explain": "Unknown Weapon.\nSeems to be in the shape of\na Partizan."
+		"tr_explain": "อาวุธที่ไม่สามารถระบุได้\nมีรูปร่างอยู่ในรูปแบบ 『Partizan』"
 	},
 	{
 		"assign": "13069",
 		"jp_text": "赤のパルチザン",
 		"tr_text": "Red Partizan",
 		"jp_explain": "試験的にカラーリングを\nシンボリックにした長槍。\n目映い赤色は必然的に目を引く。",
-		"tr_explain": "A Partizan whose experimental\ncoloring has become iconic. The\ndazzling red catches the eye."
+		"tr_explain": "『Partizan』 ที่ทดลองใช้การลงสีอันเป็นเอกลักษณ์\nสีแดงเจิดจรัสสะดุดตาทุกผู้ที่พบเห็นอย่างหลีกเลี่ยงไม่ได้"
 	},
 	{
 		"assign": "13070",
 		"jp_text": "青のパルチザン",
 		"tr_text": "Blue Partizan",
 		"jp_explain": "試験的にカラーリングを\nシンボリックにした長槍。\n目映い青色は必然的に目を引く。",
-		"tr_explain": "A Partizan whose experimental\ncoloring has become iconic. The\ndazzling blue catches the eye."
+		"tr_explain": "『Partizan』 ที่ทดลองใช้การลงสีอันเป็นเอกลักษณ์\nสีน้ำเงินเจิดจรัสสะดุดตาทุกผู้ที่พบเห็นอย่างหลีกเลี่ยงไม่ได้"
 	},
 	{
 		"assign": "13071",
@@ -487,21 +487,21 @@
 		"jp_text": "血槍ヴラド・ブラム",
 		"tr_text": "Bloodspear Vlad Bram",
 		"jp_explain": "禍々しい気配を放つ長槍。かつて夜闇と\n共に現れヒトを襲った魔物が討伐された\n際に変化したものだと言われている。",
-		"tr_explain": "A sinister crimson Partizan. It's said\nthat it was once a demon who\nattacked humans in the night."
+		"tr_explain": "『Partizan』 ที่แผ่กลิ่นอายอันชั่วร้ายน่าสะพรึงกลัว กล่าวกันว่า\nแปรสภาพมาจากอสูรปีศาจที่เคยปรากฏตัวพร้อมกับรัตติกาล\nเพื่อทำร้ายมนุษย์ในอดีตยามที่มันถูกปราบลง"
 	},
 	{
 		"assign": "13089",
 		"jp_text": "グランディア",
 		"tr_text": "Grandia",
 		"jp_explain": "槍の柄に斧の刃を取り付け、槍の\n攻撃範囲の広さと斧の破壊力を併せ持つ\n長槍。扱うためには相応の熟練が必要。",
-		"tr_explain": "A Partizan which blends the range of\na spear with the force of an axe.\nRequires skills with both to handle."
+		"tr_explain": "หอกยาว 『Partizan』 ที่นำคมขวานมาติดบนด้ามหอก\nผสานทั้งระยะโจมตีที่กว้างของหอกและพลังทำลายของขวานเข้าด้วยกัน\nจำเป็นต้องมีความชำนาญในระดับที่เหมาะสมจึงจะใช้งานได้"
 	},
 	{
 		"assign": "13092",
 		"jp_text": "フウガナギナタ",
 		"tr_text": "Fuuga Naginata",
 		"jp_explain": "振るう姿が風雅に映える特別製の長槍。\nきらびやかな装飾の施された柄と\n研ぎ澄まされた刀身が共に美しく輝く。",
-		"tr_explain": "A Partizan with an elegant look to it.\nIts sharp blade and gilded ornaments\nshine beautifully as you swing it about."
+		"tr_explain": "หอกยาว 『Partizan』 รุ่นพิเศษที่ดูสง่างามยามกวัดแกว่ง\nทั้งด้ามจับที่ประดับตกแต่งอย่างวิจิตรตระการตา\nและคมหอกอันเฉียบคมต่างเปล่งประกายงดงามร่วมกัน"
 	},
 	{
 		"assign": "13095",
@@ -543,7 +543,7 @@
 		"jp_text": "ライブステイド",
 		"tr_text": "Live Staid",
 		"jp_explain": "最先端の生体工学を応用し開発された\n長槍。グリップから手首を包む高純度\n培養液が安定した装着感を与える。",
-		"tr_explain": "A Partizan made with state-of-the-art\nbioengineering. Enhanced with a\nhigh-purity culture solution."
+		"tr_explain": "หอกยาว 『Partizan』 ที่พัฒนาขึ้นโดยประยุกต์ใช้เทคโนโลยีชีวภาพล้ำสมัย\nของเหลวเพาะเลี้ยงความบริสุทธิ์สูงที่โอบล้อมจากกริปถึงข้อมือ\nช่วยมอบความรู้สึกกระชับมั่นคงยามสวมใส่"
 	},
 	{
 		"assign": "130105",
@@ -620,14 +620,14 @@
 		"jp_text": "ロザハインド",
 		"tr_text": "Rosahind",
 		"jp_explain": "宇宙という海原を駆け巡るにふさわしい\n長槍。鋭く尖った鋭利な金属質の刃と\n石突の短い刃が威圧的な印象を与える。",
-		"tr_explain": "A Partizan fit to sail the sea of stars.\nIts long, sharp blade and razor-tipped\nhandle give it an intimidating presence."
+		"tr_explain": "หอกยาว 『Partizan』 ที่คู่ควรแก่การโลดแล่นข้ามมหาสมุทรแห่งดวงดาว\nคมหอกโลหะแหลมคมพร้อมด้วยใบมีดสั้นบริเวณปลายด้ามจับ\nสร้างความรู้สึกน่าเกรงขามและกดดันอย่างยิ่ง"
 	},
 	{
 		"assign": "130130",
 		"jp_text": "メランハインド",
 		"tr_text": "Melanhind",
 		"jp_explain": "宇宙という海原を駆け巡るにふさわしい\n長槍。一撃目が外れても反転すれば\n石突についた鋭い刃で攻撃が可能。",
-		"tr_explain": "A Partizan fit to sail the sea of stars.\nHas a sharp blade on the handle, letting\nyou easily turn a near miss into a hit."
+		"tr_explain": "หอกยาว 『Partizan』 ที่คู่ควรแก่การโลดแล่นข้ามมหาสมุทรแห่งดวงดาว\nแม้การโจมตีครั้งแรกจะพลาดเป้า แต่หากหมุนกลับด้าน\nก็สามารถโจมตีต่อเนื่องด้วยคมมีดที่ปลายด้ามจับได้"
 	},
 	{
 		"assign": "130132",
@@ -655,14 +655,14 @@
 		"jp_text": "ネメシスランス",
 		"tr_text": "Nemesis Lance",
 		"jp_explain": "古の時代に封印された聖なる長槍。\n装者の精神と同調することで\n秘められた浄化の力を発揮する。",
-		"tr_explain": "A sealed holy weapon from an early\nera. It releases its hidden purifying\npower in tandem with the user's will."
+		"tr_explain": "หอกยาว 『Partizan』 ศักดิ์สิทธิ์ที่ถูกผนึกไว้ตั้งแต่ยุคโบราณ\nจะปลดปล่อยพลังแห่งการชำระล้างที่ซ่อนเร้นออกมา\nเมื่อประสานจิตใจเข้ากับผู้สวมใส่"
 	},
 	{
 		"assign": "130151",
 		"jp_text": "スレイヴランス",
 		"tr_text": "Slave Lance",
 		"jp_explain": "古の時代に封印された邪なる長槍。\n装者の闘争本能に呼応して\n封じられた破壊の力を発揮する。",
-		"tr_explain": "A sealed devil weapon from an early\nera. The user's hardships will call the\npower of destruction sealed within."
+		"tr_explain": "หอกยาว 『Partizan』 นอกรีตชั่วร้ายที่ถูกผนึกไว้ตั้งแต่ยุคโบราณ\nจะตอบสนองต่อสัญชาตญาณการต่อสู้ของผู้สวมใส่\nเพื่อปลดปล่อยพลังแห่งการทำลายล้างที่ถูกกักขังไว้"
 	},
 	{
 		"assign": "130154",
@@ -697,7 +697,7 @@
 		"jp_text": "イデアルストレイダ",
 		"tr_text": "Ideal Strader",
 		"jp_explain": "新開発のフォトンジェネレーターを\n搭載した長槍。発せられる\nフォトンの輝きは次代の証とされる。",
-		"tr_explain": "A weapon powered by a Photon\ngenerator. Its shining Photons are\nsaid to be the sign of the next era."
+		"tr_explain": "หอกยาว 『Partizan』 ที่ติดตั้งเครื่องกำเนิด Photon รุ่นพัฒนาใหม่\nประกายแสงของ Photon ที่เปล่งออกมานั้น\nได้รับการกล่าวขานว่าเป็นข้อพิสูจน์แห่งยุคสมัยถัดไป"
 	},
 	{
 		"assign": "130166",
@@ -739,7 +739,7 @@
 		"jp_text": "ノクスロザン",
 		"tr_text": "Nox Rozan",
 		"jp_explain": "外法にも近い特別な儀式によって\n生み出された黒き長槍。装者も\n恐怖するほどの力で、敵を葬り去る。",
-		"tr_explain": "A black Partizan produced in an illicit\nritual. Its power to utterly vanquish\nenemies terrifies even its wielder."
+		"tr_explain": "หอกยาว 『Partizan』 ทมิฬที่สร้างขึ้นจากพิธีกรรมนอกรีต\nสามารถกำจัดศัตรูให้ดับสูญ\nด้วยอานุภาพอันน่าสะพรึงกลัวจนแม้แต่ผู้ใช้ยังต้องหวาดหวั่น"
 	},
 	{
 		"assign": "130184",
@@ -809,42 +809,42 @@
 		"jp_text": "セイガージャベリン",
 		"tr_text": "Seiga Javelin",
 		"jp_explain": "世界征服を企む悪の組織と戦うために\n作られた長槍。悪しき心を感知すれば\nそれが宇宙の果てであろうと刺し貫く！",
-		"tr_explain": "A Partizan made to fight an evil\norganization. It can sense evil minded\nindividuals throughout the universe!"
+		"tr_explain": "หอกยาว 『Partizan』 ที่สร้างขึ้นเพื่อต่อสู้กับองค์กรชั่วร้ายที่หวังครองโลก\nหากสัมผัสได้ถึงจิตใจที่ชั่วร้าย\nก็จะพุ่งทะลวงเป้าหมายแม้จะอยู่สุดขอบจักรวาลก็ตาม!"
 	},
 	{
 		"assign": "130197",
 		"jp_text": "セイカイザージャベリン",
 		"tr_text": "Seikaiser Javelin",
 		"jp_explain": "戦力を増強した悪の組織に対抗するため\n新たに開発された長槍。正義に燃える\n紅蓮の刃は悪を決して許さない！",
-		"tr_explain": "A Partizan made to fight an evil\norganization. Burning with justice, its\ncrimson blade shall never forgive evil!"
+		"tr_explain": "หอกยาว 『Partizan』 ที่พัฒนาขึ้นใหม่เพื่อรับมือกับองค์กรชั่วร้ายที่เสริมกำลังรบ\nคมหอกเพลิงกัลป์อันลุกโชนด้วยความยุติธรรม\nจะไม่มีวันยอมอภัยให้แก่ความชั่วร้ายเป็นอันขาด!"
 	},
 	{
 		"assign": "130202",
 		"jp_text": "スピアレボルシオ",
 		"tr_text": "Spear Revolucio",
 		"jp_explain": "新開発の演算装置を搭載した長槍。\n装者の思考や戦況を分析することで\n出力を最適に保ち、負荷を軽減する。",
-		"tr_explain": "A Partizan with a newly developed\ncomputing device. It scans tactical\ndata for optimal user efficiency."
+		"tr_explain": "หอกยาว 『Partizan』 ที่ติดตั้งอุปกรณ์ประมวลผลรุ่นพัฒนาใหม่\nช่วยวิเคราะห์ความคิดของผู้ใช้และสถานการณ์รบ\nเพื่อรักษาพลังขับให้เหมาะสมที่สุดและลดภาระของผู้ใช้"
 	},
 	{
 		"assign": "130203",
 		"jp_text": "スピアドミナシオ",
 		"tr_text": "Spear Dominacio",
 		"jp_explain": "新開発の演算装置を搭載した長槍。\n優れた最高出力を誇る反面、戦闘中は\n脳にかなりの負荷がかかる。",
-		"tr_explain": "A Partizan with a newly developed\ncomputing device. Powerful, but puts\nstrain on the user's mind in battle."
+		"tr_explain": "หอกยาว 『Partizan』 ที่ติดตั้งอุปกรณ์ประมวลผลรุ่นพัฒนาใหม่\nแม้จะภาคภูมิใจในพลังขับสูงสุดอันยอดเยี่ยม\nแต่ระหว่างการต่อสู้จะสร้างภาระให้กับสมองอย่างหนัก"
 	},
 	{
 		"assign": "130204",
 		"jp_text": "スピアインクルシオ",
 		"tr_text": "Spear Inclusio",
 		"jp_explain": "新開発の演算装置を搭載した長槍。\n常識を遙かに上回る処理能力を持ち\n使用者が思う通り扱うことができる。",
-		"tr_explain": "A Partizan with a newly developed\ncomputing device. Its processor lets its\nuser use it any way they can imagine."
+		"tr_explain": "หอกยาว 『Partizan』 ที่ติดตั้งอุปกรณ์ประมวลผลรุ่นพัฒนาใหม่\nมีขีดความสามารถในการประมวลผลเหนือกว่ามาตรฐานทั่วไปอย่างก้าวกระโดด\nทำให้ผู้ใช้งานสามารถควบคุมสั่งการได้ดั่งใจนึก"
 	},
 	{
 		"assign": "130208",
 		"jp_text": "タイタンスティンガー",
 		"tr_text": "Titan Stinger",
 		"jp_explain": "古典的技術が用いられた超重量長槍。\nフォトンが解き放たれる力に耐える為\n非常に硬質なフレームを採用した。",
-		"tr_explain": "An ultra-heavy Partizan made from\nolder technology. Built sturdy in order\nto withstand unbound Photon power."
+		"tr_explain": "หอกยาว 『Partizan』 น้ำหนักมหาศาลที่สร้างด้วยเทคโนโลยีโบราณ\nใช้โครงสร้างที่แข็งแกร่งเป็นพิเศษ\nเพื่อให้สามารถทนทานต่อพลังมหาศาลยามที่ Photon ถูกปลดปล่อยออกมา"
 	},
 	{
 		"assign": "130209",
@@ -858,21 +858,21 @@
 		"jp_text": "月閃槍ミツツキ",
 		"tr_text": "Luna Mitsutsuki",
 		"jp_explain": "満月をモチーフにした長槍。\n伝承に出てきそうな三叉の刃を持つ。\n薄ぼんやりと光る満月が美しい。",
-		"tr_explain": "A Partizan with a full moon motif.\nA legendary three-pronged blade and\nfull moon fixture with a lovely glow."
+		"tr_explain": "หอกยาว 『Partizan』 ในธีมพระจันทร์เต็มดวง\nมีคมหอกสามง่ามอันชวนให้นึกถึงตำนานปรัมปรา\nแสงจันทร์นวลตาที่ส่องสว่างเรืองรองนั้นดูงดงามจับใจ"
 	},
 	{
 		"assign": "130217",
 		"jp_text": "イヴリダランジア",
 		"tr_text": "Evleda Rangia",
 		"jp_explain": "古に封印されし冥夜の長槍。\n忌むべき闇の矛は汝の血肉で以って\n戒め突き破り、赤き道を作らん。",
-		"tr_explain": "An ancient, forbidden dark Partizan.\nThe vile dark spear unsealed by thy\nflesh paints the future in bloody red."
+		"tr_explain": "หอกยาว 『Partizan』 แห่งราตรีมืดมิดที่ถูกสะกดไว้ในอดีตกาล\nหอกแห่งความมืดอันน่ารังเกียจจะฉีกทลายพันธนาการด้วยเลือดเนื้อของเจ้า\nและเบิกทางสายโลหิตสีชาดเบื้องหน้า"
 	},
 	{
 		"assign": "130218",
 		"jp_text": "クリシスランジア",
 		"tr_text": "Cleasis Rangia",
 		"jp_explain": "古に封印されし冥夜の長槍。\n勇猛なる戦士を喰らいし邪なる矛は\n魂と係合せし時、全てを薙ぎ払う。",
-		"tr_explain": "An ancient, forbidden dark Partizan.\nWhen the spear's evil devours its\nwielder, all shall be cut down before it."
+		"tr_explain": "หอกยาว 『Partizan』 แห่งราตรีมืดมิดที่ถูกสะกดไว้ในอดีตกาล\nหอกชั่วร้ายที่กลืนกินเหล่านักรบผู้กล้าหาญ\nยามเมื่อเชื่อมผสานเข้ากับดวงวิญญาณ จักกวาดล้างทุกสิ่งให้สิ้นซาก"
 	},
 	{
 		"assign": "130219",
@@ -886,7 +886,7 @@
 		"jp_text": "サグーズオービット",
 		"tr_text": "Saguz Orbit",
 		"jp_explain": "新開発のフォトンリング機構を搭載した\n長槍。展開された部品が合体し\n闇を刺し穿つ閃光の一撃を放つ。",
-		"tr_explain": "A Partizan with a Photon Ring\nDevice. Its expanded parts can strike\nand release a jolt through darkness."
+		"tr_explain": "หอกยาว 『Partizan』 ที่ติดตั้งกลไก Photon Ring รุ่นพัฒนาใหม่\nชิ้นส่วนที่กางออกจะรวมตัวประสานกัน\nเพื่อปลดปล่อยการแทงอันเปล่งประกายเจิดจ้าทะลวงความมืดมิด"
 	},
 	{
 		"assign": "130221",
@@ -907,21 +907,21 @@
 		"jp_text": "レイパルチザン",
 		"tr_text": "Ray Partizan",
 		"jp_explain": "次世代の主力として開発された長槍。\n基礎モデルの直系の後継機であり\n出力、安定性共に高いスペックを誇る。",
-		"tr_explain": "A Partizan developed as the latest\nmodel, boasting high Photon stability\nwith next-gen specifications."
+		"tr_explain": "หอกยาว 『Partizan』 ที่พัฒนาขึ้นเพื่อเป็นกำลังรบหลักแห่งยุคถัดไป\nเป็นรุ่นสืบทอดสายตรงจากโมเดลพื้นฐาน\nโดดเด่นด้วยสเปกประสิทธิภาพสูงทั้งด้านพลังขับและความเสถียร"
 	},
 	{
 		"assign": "130224",
 		"jp_text": "ユニオンパルチザン",
 		"tr_text": "Union Partizan",
 		"jp_explain": "次世代の主力として開発された長槍。\n専用ブーストパーツが装着されたことで\n限界を超えた性能を発揮する。",
-		"tr_explain": "A Partizan developed as the latest\nmodel. Augmented with boost parts,\nits performance exceeds its limits."
+		"tr_explain": "หอกยาว 『Partizan』 ที่พัฒนาขึ้นเพื่อเป็นกำลังรบหลักแห่งยุคถัดไป\nการติดตั้งชิ้นส่วน Boost Parts เฉพาะทาง\nช่วยให้ปลดปล่อยสมรรถนะที่ก้าวข้ามขีดจำกัดออกมาได้"
 	},
 	{
 		"assign": "130228",
 		"jp_text": "フォルニスグナス",
 		"tr_text": "Fornis Gunath",
 		"jp_explain": "異なる力を宿した恐るべき長槍。\n扱いこそ難しいが、絶大ともいえる\n凄まじい斬れ味は容易く標的を断つ。",
-		"tr_explain": "A fearsome Partizan bearing twin\npowers. Difficult to handle, but sharp\nenough to slay any target with ease."
+		"tr_explain": "หอกยาว 『Partizan』 อันน่าสะพรึงกลัวที่สถิตไว้ด้วยพลังต่างขั้ว\nแม้จะควบคุมได้ยากยิ่ง แต่ด้วยความคมกริบอันทรงอานุภาพมหาศาล\nจึงสามารถตัดสะบั้นเป้าหมายให้ขาดสะบั้นได้อย่างง่ายดาย"
 	},
 	{
 		"assign": "130229",
@@ -1005,7 +1005,7 @@
 		"jp_text": "バシレイオン-NT",
 		"tr_text": "Basilleon-NT",
 		"jp_explain": "巨大な刃を威圧的に見せつける長槍。\n研ぎ澄まされたフォトンの刃は\n触れるものを難なく切り裂くという。",
-		"tr_explain": "An intimidating Partizan with a\ngigantic blade. The honed Photons\nare said to shred anything with ease."
+		"tr_explain": "『Partizan』 ที่อวดคมดาบขนาดยักษ์อันน่าเกรงขาม\nกล่าวกันว่าคมดาบ Photon ที่ลับคมมาอย่างประณีต\nจะฉีกกระชากทุกสรรพสิ่งที่สัมผัสได้อย่างง่ายดาย"
 	},
 	{
 		"assign": "130241",
@@ -1026,7 +1026,7 @@
 		"jp_text": "ゲキツナアタ-NT",
 		"tr_text": "Gekitsnata-NT",
 		"jp_explain": "突撃戦闘用に開発された長槍。\nフォトン効率が良く、アークス内の\n愛用者が多いため、稀少化している。",
-		"tr_explain": "A Partizan designed for close-range\ncombat. Its high usage rate among\nARKS has made it difficult to acquire."
+		"tr_explain": "『Partizan』 ที่พัฒนาขึ้นสำหรับการต่อสู้แบบจู่โจมประชิด\nมีประสิทธิภาพการใช้ Photon ที่ยอดเยี่ยม จนกลายเป็นไอเทมหายาก\nเนื่องจากมีผู้ชื่นชอบใช้งานภายใน ARKS เป็นจำนวนมาก"
 	},
 	{
 		"assign": "130244",
@@ -1040,14 +1040,14 @@
 		"jp_text": "トライデントクラッシャー-NT",
 		"tr_text": "Trident Crusher-NT",
 		"jp_explain": "白き輝石と呼ばれる、珍しい鉱石を\n原料としている長槍。無機的でありながら\n造形的なその装飾が話題を呼んでいる。",
-		"tr_explain": "A Partizan made from white pyroxene\nore. Its inorganic, sculpted design\nmakes it the talk of the town."
+		"tr_explain": "『Partizan』 ที่ใช้แร่หายากซึ่งเรียกว่าหินผลึกขาวเป็นวัตถุดิบ\nลวดลายประดับที่มีศิลปะรูปทรงประติมากรรมแต่ยังคงความไร้ชีวิตชีวา\nกำลังเป็นที่กล่าวขวัญและดึงดูดความสนใจอย่างมาก"
 	},
 	{
 		"assign": "130246",
 		"jp_text": "ノクスロザン-NT",
 		"tr_text": "Nox Rozan-NT",
 		"jp_explain": "外法にも近い特別な儀式によって\n生み出された黒き長槍。装者も\n恐怖するほどの力で、敵を葬り去る。",
-		"tr_explain": "A black Partizan produced in an illicit\nritual. Its power to utterly vanquish\nenemies terrifies even its wielder."
+		"tr_explain": "หอกยาว 『Partizan』 ทมิฬที่สร้างขึ้นจากพิธีกรรมนอกรีต\nสามารถกำจัดศัตรูให้ดับสูญ\nด้วยอานุภาพอันน่าสะพรึงกลัวจนแม้แต่ผู้ใช้ยังต้องหวาดหวั่น"
 	},
 	{
 		"assign": "130247",
@@ -1061,28 +1061,28 @@
 		"jp_text": "ゼイネシスバルディス",
 		"tr_text": "Zeinesis Valdis",
 		"jp_explain": "幻創の主より生まれた大樹の長槍。\n苦労を顧みず他者に尽くした者に\n転機と全てを解放する力を授ける。",
-		"tr_explain": "A Partizan of Yggdrasil. Those who\ndevote themselves to others are\ngiven the power to liberate anything."
+		"tr_explain": "หอกยาว 『Partizan』 แห่งพฤกษาใหญ่ที่ถือกำเนิดจากจอมมายา Phantom\nจะมอบจุดเปลี่ยนและพลังในการปลดปล่อยทุกสิ่ง\nให้แก่ผู้ที่อุทิศตนเพื่อผู้อื่นโดยไม่คำนึงถึงความยากลำบาก"
 	},
 	{
 		"assign": "130249",
 		"jp_text": "クリファドバルディス",
 		"tr_text": "Qliphad Valdis",
 		"jp_explain": "理から外れ虚無と化した大樹の長槍。\n装者は理想に縛られ、自我を亡くし\n絶望から全てを薙ぎ払う。",
-		"tr_explain": "A Partizan of fallen Yggdrasil. Its\nwielder is consumed by their ideals,\nand in despair, seeks to destroy all."
+		"tr_explain": "หอกยาว 『Partizan』 แห่งพฤกษาใหญ่ที่หลุดพ้นจากครรลองจนกลายเป็นความว่างเปล่า\nผู้สวมใส่จะถูกพันธนาการด้วยอุดมคติจนสูญเสียตัวตน\nและกวาดล้างทุกสรรพสิ่งจากก้นบึ้งแห่งความสิ้นหวัง"
 	},
 	{
 		"assign": "130253",
 		"jp_text": "氷柱華",
 		"tr_text": "Tsuraraka",
 		"jp_explain": "刃に冷気を放つ鉱石を用いた長槍。\n美しい刃に見惚れ、触れようとした者は\n皆冷気によって氷漬けとなる。",
-		"tr_explain": "A Partizan with a crystalline blade.\nEmitting an aura of cold, it freezes\nfoes solid with its mere touch."
+		"tr_explain": "หอกยาว 『Partizan』 ที่ใช้แร่ปล่อยไอเย็นมาทำเป็นคมหอก\nผู้ใดที่หลงใหลในความงดงามและพยายามจะเอื้อมมือแตะต้อง\nต่างจะถูกไอเย็นเยือกแข็งจนกลายเป็นน้ำแข็งในพริบตา"
 	},
 	{
 		"assign": "130255",
 		"jp_text": "マスターネズミＩピック",
 		"tr_text": "Master Nezumi's Pick-NT",
 		"jp_explain": "マスターネズミＩピック",
-		"tr_explain": "Master Nezumi's Pick-NT"
+		"tr_explain": "『Master Nezumi s Pick-NT』"
 	},
 	{
 		"assign": "130256",
@@ -1110,28 +1110,28 @@
 		"jp_text": "アストラゴージ",
 		"tr_text": "Astra Gorge",
 		"jp_explain": "マザーの残滓たる、幻創の長槍。\n対象を形作る秩序に傷を穿ち\nその存在を否定すると言われている。",
-		"tr_explain": "A Phantom Partizan imbued with\nMother's power. With a mere scratch,\nit negates everything you are."
+		"tr_explain": "หอกยาว 『Partizan』 ภาพลวงตาที่ถือกำเนิดจากเศษเสี้ยวของ Mother\nกล่าวกันว่าสามารถเจาะทำลายระเบียบที่ก่อร่างเป้าหมาย\nและลบล้างการมีอยู่ของสิ่งนั้นให้สูญสิ้น"
 	},
 	{
 		"assign": "130264",
 		"jp_text": "リュミエルランサ",
 		"tr_text": "Lumiere Lancer",
 		"jp_explain": "古より伝わる陽光の長槍。\n導きの光を持つ聖なる矛は\n闇を突き破り、白き道を作らん。",
-		"tr_explain": "An ancient Partizan of the Sun. The\nholy power within breaks through\ndarkness to create a bright new path."
+		"tr_explain": "หอกยาว 『Partizan』 แห่งแสงตะวันที่สืบทอดมาแต่โบราณ\nหอกศักดิ์สิทธิ์ที่เปี่ยมด้วยแสงสว่างนำทาง\nจะพุ่งทะลวงความมืดมิดและถากถางเปิดเส้นทางสีขาวบริสุทธิ์"
 	},
 	{
 		"assign": "130265",
 		"jp_text": "ジュティスランサ",
 		"tr_text": "Jutus Lancer",
 		"jp_explain": "古より伝わる陽光の長槍。\n勇猛なる戦士を護りし聖なる矛は\n世の悪を薙ぎ払わんと戦場に立つ。",
-		"tr_explain": "An ancient Partizan of the Sun. This\nholy spear protects valiant warriors\nwho fight to wipe out evil."
+		"tr_explain": "หอกยาว 『Partizan』 แห่งแสงตะวันที่สืบทอดมาแต่โบราณ\nหอกศักดิ์สิทธิ์ที่คอยปกป้องนักรบผู้กล้าหาญ\nยืนหยัดในสนามรบเพื่อกวาดล้างความชั่วร้ายในใต้หล้า"
 	},
 	{
 		"assign": "130266",
 		"jp_text": "アレティアランサ",
 		"tr_text": "Aletheia Lancer",
 		"jp_explain": "古より伝わる陽光の長槍。\n聖なる光に授かりし慈愛の矛は\n悪者を薙ぎ払い、平穏な大地を作る。",
-		"tr_explain": "An ancient Partizan of the Sun. The\ncompassion of its holy light cuts down\nevil and brings peace to the land."
+		"tr_explain": "หอกยาว 『Partizan』 แห่งแสงตะวันที่สืบทอดมาแต่โบราณ\nหอกแห่งความเมตตาการุณย์ที่ได้รับพรจากแสงศักดิ์สิทธิ์\nจะปราบปรามเหล่าคนชั่วและสรรค์สร้างผืนแผ่นดินอันสงบสุข"
 	},
 	{
 		"assign": "130276",
@@ -1236,35 +1236,35 @@
 		"jp_text": "バルヴィクト",
 		"tr_text": "Val Vict",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長槍。原型を留めているが、刃は無く\n装飾の殆どを失ってしまっている。",
-		"tr_explain": "A Partizan excavated from an old\nbattlefield. It has lost its blade\nalong with most of its decoration."
+		"tr_explain": "หอกยาว 『Partizan』 ที่ขุดพบจากพื้นที่ซึ่งเคยเป็นสมรภูมิในอดีต\nแม้ยังคงเค้าโครงเดิมไว้ได้ แต่คมหอกกลับสูญหายไป\nและลวดลายประดับประดาส่วนใหญ่ก็หลุดลอกไปจนหมด"
 	},
 	{
 		"assign": "130305",
 		"jp_text": "アトラヴィクト",
 		"tr_text": "Atlas Vict",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長槍。丹念な修復の末、現代に蘇った。\n光沢のある金属の装飾は美しく見事。",
-		"tr_explain": "A Partizan excavated from an old\nbattlefield. Its carefully restored\ndecorations are utterly beautiful."
+		"tr_explain": "หอกยาว 『Partizan』 ที่ขุดพบจากพื้นที่ซึ่งเคยเป็นสมรภูมิในอดีต\nหวนคืนสู่ยุคปัจจุบันหลังผ่านการบูรณะอย่างประณีตบรรจง\nลวดลายประดับโลหะเงางามนั้นแลดูวิจิตรงดงามยิ่งนัก"
 	},
 	{
 		"assign": "130306",
 		"jp_text": "アトラヴィクト・イクス",
 		"tr_text": "Atlas Vict Ex",
 		"jp_explain": "過去に戦場となった地域から発掘された\n長槍。眠れる力が目覚めた、真の姿。\n輝く一閃は、勝利の道を切り開く。",
-		"tr_explain": "A Partizan excavated from an old\nbattlefield. Its hidden power has\nawakened, revealing its true form."
+		"tr_explain": "หอกยาว 『Partizan』 ที่ขุดพบจากพื้นที่ซึ่งเคยเป็นสมรภูมิในอดีต\nร่างที่แท้จริงซึ่งพลังที่หลับใหลได้ตื่นขึ้นมาแล้ว\nประกายการแทงอันเจิดจรัสจะเบิกทางสู่ชัยชนะ"
 	},
 	{
 		"assign": "130308",
 		"jp_text": "ノヴェルパルチザン",
 		"tr_text": "Novel Partizan",
 		"jp_explain": "新技術により開発された長槍。\n次期主力を担う武器として作られた。\n硬い鞘のようなもので覆われている。",
-		"tr_explain": "A Partizan made with new tech\nto be the next-gen main weapon.\nIt seems to have a hard cover."
+		"tr_explain": "หอกยาว 『Partizan』 ที่พัฒนาขึ้นด้วยเทคโนโลยีใหม่\nสร้างขึ้นเป็นอาวุธสำหรับรับหน้าที่กำลังรบหลักยุคถัดไป\nถูกปกคลุมไว้ด้วยบางสิ่งที่คล้ายฝักอันแข็งแกร่ง"
 	},
 	{
 		"assign": "130309",
 		"jp_text": "リバレイトパルチザン",
 		"tr_text": "Liberate Partizan",
 		"jp_explain": "新技術により開発された長槍。\n次期主力を担う武器の真なる姿。\n優れた切断性能と安定力を誇る。",
-		"tr_explain": "A Partizan made with new tech.\nThe true form of the next-gen\nweapon, high in power and stability."
+		"tr_explain": "หอกยาว 『Partizan』 ที่พัฒนาขึ้นด้วยเทคโนโลยีใหม่\nร่างที่แท้จริงของอาวุธหลักแห่งยุคถัดไป\nโดดเด่นด้วยประสิทธิภาพการตัดฟันอันยอดเยี่ยมและความเสถียรสูง"
 	},
 	{
 		"assign": "130310",
@@ -1299,28 +1299,28 @@
 		"jp_text": "フォボスハルベルト",
 		"tr_text": "Phobos Halberd",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った長槍。触れれば突き刺さる\n鋭利さは、標的に恐怖を植え付ける。",
-		"tr_explain": "A Partizan with an ominous, bladed\nform. The sharpness evident in a single\ntouch strikes terror into its target."
+		"tr_explain": "หอกยาว 『Partizan』 รูปลักษณ์ชั่วร้ายที่มีใบมีดซ้อนทับกันหลายชั้น\nความแหลมคมที่พร้อมทิ่มแทงเพียงสัมผัสโดน\nจะฝังลึกความหวาดกลัวลงในใจของเป้าหมาย"
 	},
 	{
 		"assign": "130317",
 		"jp_text": "ニーケハルベルト",
 		"tr_text": "Nike Halberd",
 		"jp_explain": "禍々しいフォルムと幾重ものブレードを\n併せ持った長槍。その鋭い尖端で\n標的を貫き、勝利を掴む。",
-		"tr_explain": "A Partizan with an ominous, bladed\nform. It impales the target with its\nsharp tip, leading to certain victory."
+		"tr_explain": "หอกยาว 『Partizan』 รูปลักษณ์ชั่วร้ายที่มีใบมีดซ้อนทับกันหลายชั้น\nใช้ปลายแหลมอันเฉียบคมทะลวงเป้าหมาย\nเพื่อคว้าชัยชนะมาไว้ในครอบครอง"
 	},
 	{
 		"assign": "130320",
 		"jp_text": "ネメシスランス-NT",
 		"tr_text": "Nemesis Lance-NT",
 		"jp_explain": "古の時代に封印された聖なる長槍。\n装者の精神と同調することで\n秘められた浄化の力を発揮する。",
-		"tr_explain": "A sealed holy weapon from an early\nera. It releases its hidden purifying\npower in tandem with the user's will."
+		"tr_explain": "หอกยาว 『Partizan』 ศักดิ์สิทธิ์ที่ถูกผนึกไว้ตั้งแต่ยุคโบราณ\nจะปลดปล่อยพลังแห่งการชำระล้างที่ซ่อนเร้นออกมา\nเมื่อประสานจิตใจเข้ากับผู้สวมใส่"
 	},
 	{
 		"assign": "130321",
 		"jp_text": "スレイヴランス-NT",
 		"tr_text": "Slave Lance-NT",
 		"jp_explain": "古の時代に封印された邪なる長槍。\n装者の闘争本能に呼応して\n封じられた破壊の力を発揮する。",
-		"tr_explain": "A sealed devil weapon from an early\nera. The user's hardships will call the\npower of destruction sealed within."
+		"tr_explain": "หอกยาว 『Partizan』 นอกรีตชั่วร้ายที่ถูกผนึกไว้ตั้งแต่ยุคโบราณ\nจะตอบสนองต่อสัญชาตญาณการต่อสู้ของผู้สวมใส่\nเพื่อปลดปล่อยพลังแห่งการทำลายล้างที่ถูกกักขังไว้"
 	},
 	{
 		"assign": "130323",
@@ -1334,7 +1334,7 @@
 		"jp_text": "ホムラノオニトオシ",
 		"tr_text": "Homura no Onitoshi",
 		"jp_explain": "とある地方の伝統意匠を取り入れた\n長槍。刃にまとう灼熱とともに\n放たれる斬撃は、硬い岩をも断つ。",
-		"tr_explain": "A Partizan based on a traditional\ndesign. A slash from its burning blade\ncan cut through stone."
+		"tr_explain": "หอกยาว 『Partizan』 ที่ประยุกต์ลวดลายดั้งเดิมของท้องถิ่นแห่งหนึ่ง\nการฟาดฟันที่ปลดปล่อยออกมาพร้อมไอร้อนระอุบนคมหอก\nสามารถตัดผ่าได้แม้กระทั่งหินผาอันแข็งแกร่ง"
 	},
 	{
 		"assign": "130325",
@@ -1362,42 +1362,42 @@
 		"jp_text": "グレンノオニトオシ",
 		"tr_text": "Guren no Onitoshi",
 		"jp_explain": "とある地方の伝統意匠を取り入れた\n紅蓮の長槍。刃にまとう灼熱とともに\n放たれる斬撃は、硬い岩をも断つ。",
-		"tr_explain": "A crimson-flamed Partizan based on\na traditional design. A slash from its\nburning blade can cut through stone."
+		"tr_explain": "หอกยาว 『Partizan』 เพลิงกัลป์ที่ประยุกต์ลวดลายดั้งเดิมของท้องถิ่นแห่งหนึ่ง\nการฟาดฟันที่ปลดปล่อยออกมาพร้อมไอร้อนระอุบนคมหอก\nสามารถตัดผ่าได้แม้กระทั่งหินผาอันแข็งแกร่ง"
 	},
 	{
 		"assign": "130334",
 		"jp_text": "シエンノオニトオシ",
 		"tr_text": "Shien no Onitoshi",
 		"jp_explain": "とある地方の伝統意匠を取り入れた\n紫炎の長槍。刃にまとう灼熱とともに\n放たれる斬撃は、硬い岩をも断つ。",
-		"tr_explain": "A violet-flamed Partizan based on\na traditional design. A slash from its\nburning blade can cut through stone."
+		"tr_explain": "หอกยาว 『Partizan』 เปลวเพลิงสีม่วงที่ประยุกต์ลวดลายดั้งเดิมของท้องถิ่นแห่งหนึ่ง\nการฟาดฟันที่ปลดปล่อยออกมาพร้อมไอร้อนระอุบนคมหอก\nสามารถตัดผ่าได้แม้กระทั่งหินผาอันแข็งแกร่ง"
 	},
 	{
 		"assign": "130335",
 		"jp_text": "深遠槍アドラシオン",
 		"tr_text": "Profound Adoraxion",
 		"jp_explain": "終わりなき物語を辿る者の絶望により\n生み出された長槍。望む未来を得られぬ\n怨嗟の闇は、一切の希望を斬り捨てる。",
-		"tr_explain": "A Partizan born of endless despair.\nIt bears a dark grudge over the\nloss of the future it once sought."
+		"tr_explain": "หอกยาว 『Partizan』 ที่ถือกำเนิดจากความสิ้นหวังของผู้ท่องไปในเรื่องราวไม่รู้จบ\nความมืดมิดแห่งความเคียดแค้นที่ไม่สมหวังในอนาคตที่ปรารถนา\nจะตัดสะบั้นความหวังทั้งปวงให้สิ้นซาก"
 	},
 	{
 		"assign": "130336",
 		"jp_text": "星震槍アドラシオン",
 		"tr_text": "Celestial Adoraxion",
 		"jp_explain": "時を遡る者の世界を想う心によって\n覚醒した長槍。強い願いを宿した刃は\n希望の光となり、いかなる闇も滅す。",
-		"tr_explain": "A Partizan touched by a time\ntraveler's heart. Its wishes become a\nlight of hope to destroy the darkness."
+		"tr_explain": "หอกยาว 『Partizan』 ที่ตื่นขึ้นด้วยจิตใจห่วงใยโลกของผู้ย้อนเวลา\nคมหอกที่สถิตความปรารถนาอันแรงกล้าจะกลายเป็นแสงแห่งความหวัง\nเพื่อทำลายล้างความมืดมิดทั้งมวลให้หมดสิ้น"
 	},
 	{
 		"assign": "130337",
 		"jp_text": "光跡槍アドラシオン",
 		"tr_text": "Lightstream Adoraxion",
 		"jp_explain": "時を遡りし者の結んだ絆が創り出した\n星を繋ぐ長槍。暗黒を切り裂き、姿を\n現した刃は、光輝く未来を解き放つ。",
-		"tr_explain": "A Partizan that links the stars, bonded\nto a time traveler. It cuts through the\ndarkness, revealing a bright future."
+		"tr_explain": "หอกยาว 『Partizan』 เชื่อมดวงดาราที่ถือกำเนิดจากสายสัมพันธ์ของผู้ย้อนเวลา\nคมหอกที่ฉีกกระชากความมืดมิดและปรากฏกายออกมา\nจะปลดปล่อยอนาคตอันเจิดจ้าให้ส่องประกาย"
 	},
 	{
 		"assign": "130339",
 		"jp_text": "アーレスパルチザン-NT",
 		"tr_text": "Ares Partizan-NT",
 		"jp_explain": "一角獣の幻獣の力を宿した長槍。装者に\nフォトンブラストの効果で貫く力を\n与え、敵を無慈悲に一刀両断する。",
-		"tr_explain": "A Partizan harboring the power of a\nPhoton Blast. It bisects the enemy\nwith piercing strength."
+		"tr_explain": "『Partizan』 ที่สถิตพลังของสัตว์มายายูนิคอร์น\nมอบพลังแทงทะลวงแก่ผู้สวมใส่ด้วยผลของ Photon Blast\nทำให้สามารถฟันผ่าศัตรูออกเป็นสองท่อนได้อย่างไร้ความปรานี"
 	},
 	{
 		"assign": "130340",
@@ -1418,7 +1418,7 @@
 		"jp_text": "バルディッシュ-NT",
 		"tr_text": "Bardiche-NT",
 		"jp_explain": "槍の柄に斧の刃を取り付けた長槍。\n高い破壊力を誇るが重量がネックで\n軽量化を待つ声も多い。",
-		"tr_explain": "Partizan which marries an axe's blade\nto a spear's shaft. Highly destructive,\nbut many find its weight a hindrance."
+		"tr_explain": "『Partizan』 ที่ติดตั้งคมขวานเข้ากับด้ามหอก\nภาคภูมิใจในพลังทำลายล้างอันมหาศาล แต่น้ำหนักถือเป็นจุดบกพร่อง\nทำให้มีเสียงเรียกร้องมากมายที่เฝ้ารอรุ่นลดน้ำหนัก"
 	},
 	{
 		"assign": "130352",
@@ -1439,7 +1439,7 @@
 		"jp_text": "光纏槍クラースパイク",
 		"tr_text": "Lightweaver Cras Pike",
 		"jp_explain": "深遠なる闇を討ち払った\n宇宙の起源となる光を纏った長槍。\nその貫撃が、希望の道を拓く。",
-		"tr_explain": "A Partizan that wove the light that\nvanquished darkness. By its thrusting,\nthe path to hope is paved."
+		"tr_explain": "หอกยาว 『Partizan』 ที่ห้อมล้อมด้วยแสงแห่งจุดกำเนิดจักรวาลซึ่งปราบความมืดอันล้ำลึก\nการแทงทะลวงนั้น\nจะเบิกทางเปิดเส้นทางแห่งความหวัง"
 	},
 	{
 		"assign": "130371",
@@ -1467,7 +1467,7 @@
 		"jp_text": "フルクシオベルケ",
 		"tr_text": "Fluxio Berke",
 		"jp_explain": "流線美と機能性を備え持つ長槍。\n精緻なカーブを描くスリムな刀身は\n極めて高い耐久度と切れ味を持つ。",
-		"tr_explain": "A beautifully sleek Partizan whose slim,\ndelicately curved blade has extremely\nhigh sharpness and durability."
+		"tr_explain": "หอกยาว 『Partizan』 ที่เปี่ยมด้วยเส้นสายอันอ่อนช้อยและประโยชน์ใช้สอย\nใบหอกเพรียวบางที่โค้งมนอย่างประณีต\nมีความทนทานและคมกริบในระดับที่สูงเป็นพิเศษ"
 	},
 	{
 		"assign": "130390",
@@ -1481,7 +1481,7 @@
 		"jp_text": "闇征槍アジェルパイク",
 		"tr_text": "Darkbanisher Ayer Pike",
 		"jp_explain": "自らの全てと引き換えにしても\n宇宙を護る決意が込められた長槍。\n螺旋の命運が刻み込まれている。",
-		"tr_explain": "A Partizan that will give up anything\nto protect the universe. The spiral\nof destiny is engraved upon it."
+		"tr_explain": "หอกยาว 『Partizan』 ที่เปี่ยมด้วยปณิธานในการปกป้องจักรวาลแม้ต้องแลกด้วยทุกสิ่ง\nสลักไว้ด้วยชะตากรรมแห่งเกลียววนอันไม่สิ้นสุด"
 	},
 	{
 		"assign": "13010006",
