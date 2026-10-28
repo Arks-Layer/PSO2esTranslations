@@ -3,27 +3,25 @@ import re
 import json
 import requests
 import unicodedata
-import portion as P
 import urllib3
 
 # ——————————————————————————————
 # LANGUAGE SETTING
 # ——————————————————————————————
 
-# This tool is for generating "NGS_" json files
-# or to edit "Stack_" json files from the main game files.
+# This tool updates existing "Stack_" json files from the main game files.
 
 LANG = 1
 
 # [ 0 for Non-translation mode ]
-# Will only generate items, and retain the existing translation.
+# Will update matched items and retain the existing translation.
 
 # [ 1 for CN mode ]
-# Will generate "NGS_" items and edit "Stack_" items in Chinese.
+# Will update "Stack_" items in Chinese.
 # (Translations will be retrieved from the LOCAL "PSO2_CHN_Translation" repository)
 
 # [ 2 for EN mode ]
-# Will generate "NGS_" items in English.
+# Will update "Stack_" items in English.
 # (Translations will be retrieved from the "PSO2ENPatchCSV" repository)
 
 # ——————————————————————————————
@@ -78,7 +76,6 @@ ear_trade_infos = {}
 horn_trade_infos = {}
 body_trade_infos = {}
 ca_trade_infos = {}
-ca_cost_infos = {}
 ma_trade_infos = {}
 sv_trade_infos = {}
 ha_trade_infos = {}
@@ -106,32 +103,30 @@ trade_mapping = {
     'ngs_vo': ('エステ/ボイス', (vo_trade_infos, )),
     'o2_vo': ('エステ/ボイス', (vo_trade_infos, ))
     }
-cost_mapping = {
-    'ngs_ca': ('ラインストライク/カード', (ca_cost_infos, ))
-    }
-
 # Path of json folder
 jsonfile_dir = os.path.abspath(os.path.join(root_dir, os.pardir, "json"))
 
-# Paths of .txt files
-mo_path = "Item_NGS_Motion.txt"
-bp_path = "Item_NGS_BuildParts.txt"
-ph_path = "Item_NGS_Portableholograms.txt"
-bg_path = "Item_NGS_Backgrounds.txt"
-aug_path = "Item_NGS_CapsuleAbilities.txt"
-ou_m_path = "Item_NGS_Outer_Male.txt"
-ou_f_path = "Item_NGS_Outer_Female.txt"
-cp_m_path = "Item_NGS_Parts_Male.txt"
-cp_f_path = "Item_NGS_Parts_Female.txt"
-mou_path = "Item_NGS_Mouth.txt"
-ear_path = "Item_NGS_Ear.txt"
-horn_path = "Item_NGS_Horn.txt"
-body_path = "Item_NGS_Body.txt"
-ca_path = "Item_NGS_Card.txt"
-ma_path = "Item_NGS_Playmat.txt"
-sv_path = "Item_NGS_Sleeve.txt"
-ha_path = "Item_Stack_LobbyAction.txt"
-vo_path = "Item_Stack_Voice.txt"
+# Stack files to update for each game-file item category
+stack_paths = {
+    "mo": ["Item_Stack_MotionChange.txt"],
+    "bp": ["Item_Stack_CS_Material_Ticket1.txt", "Item_Stack_CS_Material_Ticket2.txt", "Item_Stack_CS_Material_Ticket3.txt"],
+    "ph": ["Item_Stack_CS_Effect.txt", "Item_Stack_CS_Room_Goods.txt", "Item_Stack_CS_Stickers.txt"],
+    "bg": ["Item_Stack_Arkscard_BG.txt"],
+    "aug": ["Item_Stack_ElementCapsule.txt"],
+    "ou_m": ["Item_Stack_OuterWearM.txt"],
+    "ou_f": ["Item_Stack_OuterWearF.txt"],
+    "cp_m": ["Item_Stack_ArmPartsM.txt", "Item_Stack_BodyPartsM.txt", "Item_Stack_LegPartsM.txt"],
+    "cp_f": ["Item_Stack_ArmPartsF.txt", "Item_Stack_BodyPartsF.txt", "Item_Stack_LegPartsF.txt"],
+    "mou": ["Item_Stack_Tooth.txt"],
+    "ear": ["Item_Stack_Ear.txt"],
+    "horn": ["Item_Stack_Horn.txt"],
+    "body": ["Item_Stack_Skin.txt"],
+    "ca": ["Item_Stack_Duel_Card_Ticket.txt"],
+    "ma": ["Item_Stack_Duel_Card_Play_Mat.txt"],
+    "sv": ["Item_Stack_Duel_Card_Sleeve.txt"],
+    "ha": ["Item_Stack_LobbyAction.txt"],
+    "vo": ["Item_Stack_Voice.txt"]
+}
 
 # ——————————————————————————————
 # FUNCTION
@@ -163,7 +158,6 @@ def parse_data(file_path, file_type):
 
     parsed_lines = []
     trade_infos = {}
-    cost_infos = {}
 
     for i, line in enumerate(lines):
         line = line.rstrip('\n')
@@ -213,27 +207,17 @@ def parse_data(file_path, file_type):
             if line.startswith('<div class="ie5">') or line.startswith(' data-ad-slot='):
                 # For items with "「」"
                 if "ngs" in file_path and not "エステ" in file_path:
-                    headnames = ['Mo', 'BP', 'PH', 'Bg', 'Ca', 'Ma', 'Sv']
+                    headnames = ['Mo', 'BP', 'PH', 'Bg', 'Ma', 'Sv']
                     for headname in headnames:
                         # Do regex replacement, to ensure each line starts with item names
                         n_lines = re.sub(f"{headname}「", f"\n{headname}「", line).splitlines()
                         makapo_started = False
                         for n_line in n_lines:
                             if n_line.startswith(f"{headname}「"):
-                                if headname != 'Ca':
-                                    jp_text = n_line[n_line.find(f"{headname}「") + 3:n_line.find('」')]
-                                    if makapo_started == True or any(keyword in n_line for keyword in
-                                        ['マイショップ出品不可', '初期', 'alt="GP"', 'alt="SG"', '交換</td>', '季節イベント</td>','トレジャースクラッチ', 'SPスクラッチ</td>', '開発準備特別票</td>', 'クラス育成特別プログラム', '初期登録</td>']):
-                                        trade_infos[jp_text] = "Untradable"
-                                elif headname == 'Ca':
-                                    match = re.match(r'Ca「(.*?)([0-9])[RU]?：(.*?)」', n_line)
-                                    if match:
-                                        jp_text = match.group(3)
-                                        jp_itype = match.group(1)
-                                        icost = match.group(2)
-                                        if (jp_text, jp_itype) not in cost_infos:
-                                            cost_infos[(jp_text, jp_itype)] = []
-                                        cost_infos[(jp_text, jp_itype)].extend([icost] * 2) # For rare cards
+                                jp_text = n_line[n_line.find(f"{headname}「") + 3:n_line.find('」')]
+                                if makapo_started == True or any(keyword in n_line for keyword in
+                                    ['マイショップ出品不可', '初期', 'alt="GP"', 'alt="SG"', '交換</td>', '季節イベント</td>','トレジャースクラッチ', 'SPスクラッチ</td>', '開発準備特別票</td>', 'クラス育成特別プログラム', '初期登録</td>']):
+                                    trade_infos[jp_text] = "Untradable"
                             # Force to change the makapo tradable info after specific line
                             if any(keyword in n_line for keyword in
                                 ['<span id="GPNGS">']):
@@ -252,7 +236,7 @@ def parse_data(file_path, file_type):
                                     ['マイショップ出品不可', 'SG.png']):
                                     trade_infos[jp_text] = "Untradable"
 
-    return parsed_lines, trade_infos, cost_infos
+    return parsed_lines, trade_infos
 
 # [FUNCTION] Generate string with a different width
 def width_process_string(string):
@@ -274,28 +258,19 @@ def width_process_string(string):
             result_string += char
     return result_string
 
-# [FUNCTION] Parse the web or file to get trade/cost info
-def parse_info(key, mapping, info_type):
+# [FUNCTION] Parse the web to get trade info
+def parse_info(key, mapping):
     suffix_url, infos = mapping[key]
     source = key.split('_')[0]
     full_url = f"{wiki_urls[f'{source}']}{suffix_url}"
     
-    if info_type == "trade":
-        n_infos = parse_data(full_url, "html")[1]
-    elif info_type == "cost":
-        n_infos = parse_data(full_url, "html")[2]
+    n_infos = parse_data(full_url, "html")[1]
     original_n_infos = n_infos.copy()
 
     for key in list(original_n_infos.keys()):
-        if info_type == "trade":
-            jp_text = key
-        elif info_type == "cost":
-            jp_text, jp_itype = key
+        jp_text = key
         alt_jp_text = width_process_string(jp_text)
-        if info_type == "trade":
-            n_infos[alt_jp_text] = original_n_infos[jp_text]
-        elif info_type == "cost":
-            n_infos[alt_jp_text, jp_itype] = original_n_infos[(jp_text, jp_itype)]  
+        n_infos[alt_jp_text] = original_n_infos[jp_text]
     for info in infos:
         info.update(n_infos)
 
@@ -444,8 +419,6 @@ def record_desc(path, jp_text):
     desc_tr_explain = ""
     desc_tr_text= ""
 
-    # To determine if item is newly added
-    desc_jp_text = ""
     # Open the file and read the data
     with open(os.path.join(jsonfile_dir, path), "r", encoding='utf-8') as f:
         data = json.load(f)
@@ -453,34 +426,13 @@ def record_desc(path, jp_text):
         for item in data:
             # Search and record the descriptions 
             if jp_text == item["jp_text"]:
-                desc_jp_text = item["jp_text"]
                 desc_jp_explain = item["jp_explain"]
                 if f"<green>“" not in item["tr_explain"]:
                     desc_tr_explain = item["tr_explain"]
                 elif f"<green>“" in item["tr_explain"]:
                     desc_tr_explain = item["tr_explain"][item["tr_explain"].find('”<c>\n') + 5:]
                 desc_tr_text = item["tr_text"]
-    # Print jp_text if item is newly added
-    if desc_jp_text == "" and "_NGS_" in path:
-        print(f'ADDED: {jp_text}.')
-    return desc_jp_explain, desc_tr_explain, desc_tr_text, desc_jp_text
-
-# [FUNCTION] Record names
-def record_name(path, jp_text, jp_itype):
-    # Initialize
-    desc_icost = ""
-
-    # Open the file and read the data
-    with open(os.path.join(jsonfile_dir, path), "r", encoding='utf-8') as f:
-        data = json.load(f)
-        # Set search_condition
-        for item in data:
-            # Search and record the descriptions 
-            if re.search(rf'Ca「{re.escape(jp_itype)}.*：{re.escape(jp_text)}」', item["jp_text"]):
-                match = re.match(r'Ca「(.*?)([0-9])：(.*?)」', item["jp_text"])
-                if match:
-                    desc_icost = match.group(2)
-    return desc_icost
+    return desc_jp_explain, desc_tr_explain, desc_tr_text, jp_text
 
 # [FUNCTION] Get translation from tr_lines
 def get_translation(jp_target_lines, tr_lines):
@@ -524,7 +476,7 @@ def form_itemdata(item_format, names, texts, jp_text, tr_text, ori_explains, rec
                 rec_descs_ex[i] = rec_descs[i]
     
     item = item_format
-    # For "_NGS" generation
+    # For unassigned item formats
     if item["assign"] == 0:
         item["jp_text"] = texts[0]
         item["jp_explain"] = f"{explains[0]}{rec_descs_ex[0]}"
@@ -547,21 +499,38 @@ def form_itemdata(item_format, names, texts, jp_text, tr_text, ori_explains, rec
     
     return item
 
-# [FUNCTION] Check if newly deleted
-def check_if_delete(rec_texts, path):
-    # Open the file and read the data
-    with open(os.path.join(jsonfile_dir, path), "r", encoding='utf-8') as f:
-        data = json.load(f)
-        for item in data:
-            if item["jp_text"] not in rec_texts:
-                print(f'DELETED: {item["jp_text"]}.')
-
 # [FUNCTION] Write to json file
 def write_to_json(processed_items, jsonfile_dir, path):
     processed_lines = json.dumps(list(processed_items), ensure_ascii=False, indent="\t") + "\n"
     with open(os.path.join(jsonfile_dir, path), "w", encoding='utf-8') as f:
         f.write(processed_lines)
     return
+
+def update_stack_translation(stack_item, generated_item):
+    stack_item["tr_text"] = generated_item["tr_text"]
+    stack_item["tr_explain"] = generated_item["tr_explain"]
+
+def parse_card_stack_text(stack_text):
+    if not stack_text.startswith("Ca「") or not stack_text.endswith("」"):
+        return None
+    separator = stack_text.find("：", 3)
+    if separator < 0:
+        return None
+    type_and_cost = stack_text[3:separator]
+    element = next((key for key in ca_itype_translations if type_and_cost.startswith(key)), None)
+    if element is None:
+        return None
+    return stack_text[separator + 1:-1], stack_text[:separator + 1], element, type_and_cost[len(element):]
+
+def form_card_texts(stack_text, translated_name):
+    parsed_text = parse_card_stack_text(stack_text)
+    if parsed_text is None:
+        return [stack_text, stack_text, stack_text]
+    _, jp_prefix, element, cost_and_rarity = parsed_text
+    translated_element = ca_itype_translations[element]
+    cn_prefix = jp_prefix.replace(element, translated_element[1], 1)
+    en_prefix = f"Ca \"{translated_element[2]} {cost_and_rarity}: "
+    return [stack_text, f"{cn_prefix}{translated_name}」", f"{en_prefix}{translated_name}\""]
 
 # ——————————————————————————————
 # PRESET PROCESSES
@@ -597,10 +566,7 @@ elif LANG == 2:
 # Parse swiki/makapo webs to get tradable info (only for CN)
 if LANG == 1:
     for key in trade_mapping:
-        parse_info(key, trade_mapping, "trade")
-
-# Parse swiki/makapo webs to get card cost
-parse_info("ngs_ca", cost_mapping, "cost")
+        parse_info(key, trade_mapping)
 
 # ——————————————————————————————
 # MAPPINGS AND CONDITIONS
@@ -626,78 +592,17 @@ igens = {
     "h2": ["ヒト型タイプ2", "人類類型2", "Human Type 2"],
     "c1": ["キャストタイプ1", "機人類型1", "Cast Type 1"],
     "c2": ["キャストタイプ2", "機人類型2", "Cast Type 2"]}
-ca_itypes = {
-    "Fire": ("炎", "炎", "Fire"),
-    "Ice": ("氷", "冰", "Ice"),
-    "Wind": ("風", "風", "Wind"),
-    "Lightning": ("雷", "雷", "Lightning"),
-    "Light": ("光", "光", "Light"),
-    "Dark": ("闇", "暗", "Dark")}
-ca_itypes_order = [
-    # Update 0
-    (10, "Fire"), (130, "Ice"), (240, "Wind"), (350, "Lightning"), (470, "Light"), (580, "Dark"),
-    (710, "Ice"), (720, "Lightning"), (730, "Light"), (740, "Dark"),
-    (750, "Fire"), (790, "Ice"), (830, "Wind"), (880, "Lightning"), (920, "Light"), (960, "Dark"),
-    # Update 1 (NGS Chars)
-    (1010, "Fire"), (1040, "Ice"), (1090, "Wind"), (1110, "Lightning"), (1130, "Light"), (1150, "Dark"),
-    # Update 2 (PSO2es Chars, MELTY BLOOD Collab)
-    (1170, "Fire"), (1190, "Ice"), (1210, "Lightning"), (1240, "Wind"), (1260, "Light"), (1300, "Dark"),
-    (1321, "Ice"), (1331, "Dark"),
-    # Update 4 (PS2, PS4, PSO, PSZ Chars)
-    (1340, "Fire"), (1370, "Ice"), (1400, "Lightning"), (1430, "Wind"), (1460, "Light"), (1490, "Dark"),
-    # Update 5 (PSU, PSPo Chars)
-    (1520, "Fire"), (1540, "Ice"), (1550, "Dark"), (1560, "Lightning"), (1570, "Wind"), (1590, "Light"), (1600, "Lightning"), (1610, "Light"), (1620, "Ice"), (1630, "Dark"),
-    # Update 6 (IDOLA Chars Pt.1)
-    (1640, "Fire"), (1650, "Light"), (1660, "Ice"), (1670, "Wind"), (1680, "Lightning"), (1690, "Dark"),
-    # Update 3 (Index Collab)
-    (1701, "Light"), (1711, "Lightning"), (1721, "Wind"),
-    # Update 7 (NGS Zephetto)
-    (1730, "Lightning"),
-    # Update 7 (NGS M.A.R.S.)
-    (1750, "Fire"),
-    # Update 6 (NGS Crawford)
-    (1770, "Light"),
-    # Update 9 (NGS Ran)
-    (1780, "Wind"),
-    # Update 7 (PSO2 EP4-6 Chars Pt.1)
-    (1790, "Ice"), (1800, "Dark"),
-    # Update 9 (PSO2 Chars Pt.1)
-    (1810, "Light"), (1820, "Fire"), (1830, "Lightning"),
-    # Update 7 (PSO2 EP4-6 Chars Pt.2)
-    (1840, "Light"), (1860, "Dark"), (1870, "Wind"), (1880, "Fire"),
-    # Update 4 (TenSura Collab)
-    (1891, "Dark"), (1901, "Fire"),
-    # Update 5 (Sonic Collab)
-    (1911, "Wind"), (1921, "Dark"), (1931, "Lightning"),
-    # Update 6 (IDOLA Chars Pt.2, Touhou Collab, Yumia Collab, Summer Skins)
-    (1940, "Fire"), (1950, "Ice"), (1960, "Lightning"), (1970, "Wind"), (1980, "Light"), (1990, "Dark"),
-    (2001, "Light"), (2011, "Lightning"), (2021, "Fire"), (2031, "Dark"), (2041, "Wind"), (2051, "Ice"), 
-    (2071, "Light"), (2091, "Ice"), (2101, "Wind"),
-    # Update 7 (NGS Great Rappy)
-    (2110, "Lightning"),
-    # Update 9 (NGS Chars)
-    (2120, "Dark"), (2130, "Light"), (2140, "Lightning"), (2150, "Ice"),
-    # Update 7 (NGS Captan, Maid Skins, GiruPuri Collab)
-    (2160, "Wind"), (2170, "Fire"), (2180, "Ice"), (2191, "Light"), (2201, "Fire"),
-    # Update 9 (PSO2 Chars Pt.2)
-    (2210, "Fire"), (2230, "Ice"), (2250, "Wind"), (2270, "Light"), (2280, "Dark"),
-    # Update 9 (Central! Chars)
-    (2290, "Light"), (2300, "Wind"), (2310, "Lightning"),
-    # Update 8 (Holiday Skins)
-    (2321, "Wind"), (2331, "Light"), (2341, "Ice"), (2351, "Wind"), 
-    # Update 9 (PSO2 Chars Unique)
-    (2361, "Fire"), (2371, "Ice"),
-    # Future updates
-    (90000, None)
-]
-ca_itypes_interval = {
-    P.closedopen(start, end): ele_type
-    for (start, ele_type), (end, _) in zip(ca_itypes_order, ca_itypes_order[1:])
-}
+# Card element translations; costs and rarity markers are retained from Stack text.
+ca_itype_translations = {
+    "炎": ("炎", "炎", "Fire"),
+    "氷": ("氷", "冰", "Ice"),
+    "風": ("風", "風", "Wind"),
+    "雷": ("雷", "雷", "Lightning"),
+    "光": ("光", "光", "Light"),
+    "闇": ("闇", "暗", "Dark")}
 # Names of items
 mo_names = ["{jp_itype}：{jp_text}", "{tr_itype}：{tr_text}", "{tr_itype}: {tr_text}"]
 bp_names = ph_names = bg_names = aug_names = ou_m_names = ou_f_names = cp_m_names = cp_f_names = mou_names = ear_names = horn_names = body_names = ma_names = sv_names = ha_names = vo_names = ["{jp_text}", "{tr_text}", "{tr_text}"]
-ca_names = ["{jp_itype}{icost}：{jp_text}", "{tr_itype}{icost}：{tr_text}", "{tr_itype}{icost}: {tr_text}"]
 
 # Texts of items
 mo_texts = [
@@ -712,8 +617,6 @@ aug_texts = [
     "C/{jp_text}", "C/{tr_text}", "C/{tr_text}"]
 ou_m_texts = ou_f_texts = cp_m_texts = cp_f_texts = mou_texts = ear_texts = horn_texts = body_texts = [
     "{jp_text}", "{tr_text}", "{tr_text}"]
-ca_texts = [
-    "Ca「{jp_itype}{icost}{irare}：{jp_text}」", "Ca「{tr_itype}{icost}{irare}：{tr_text}」", "Ca \"{tr_itype} {icost}{irare}: {tr_text}\""]
 ma_texts = [
     "Ma「{jp_text}」", "Ma「{tr_text}」", "Ma \"{tr_text}\""]
 sv_texts = [
@@ -972,22 +875,37 @@ def extra_condition(prefix, jp_text, text_id):
 # MAIN PROCESS
 # ——————————————————————————————
 
-# [FUNCTION] Generate "NGS_" json files
-def main_generate_NGS(prefix):
+# [FUNCTION] Update existing "Stack_" json files from game files
+def main_update_Stack(prefix):
     # Get jp target lines and tr target texts from global variables
-    path = globals()[f"{prefix}_path"]
+    paths = stack_paths[prefix]
     jp_target_lines = globals()[f"{prefix}_jp_target_lines"]
     tr_target_texts = globals()[f"{prefix}_tr_target_texts"]
     trade_infos = globals()[f"{prefix}_trade_infos"]
-    ca_cost_infos = globals()[f"ca_cost_infos"]
 
-    # Initialize the processed items
-    processed_items = []
-    processed_item_texts = []
+    stack_items = {}
+    stack_items_by_text = {}
+    stack_items_by_card_name = {}
+    for path in paths:
+        with open(os.path.join(jsonfile_dir, path), "r", encoding='utf-8') as f:
+            stack_items[path] = json.load(f)
+        for item in stack_items[path]:
+            stack_items_by_text.setdefault(item["jp_text"], []).append((path, item))
+            if prefix == "ca":
+                card_text = parse_card_stack_text(item["jp_text"])
+                if card_text is not None:
+                    stack_items_by_card_name.setdefault(card_text[0], []).append((path, item))
 
-    # Initialize the card records
+    processed_item_texts = set()
+    processed_count = 0
+    unmatched_count = 0
+    missing_translation_count = 0
+    untradable_card_names = set()
     if prefix == "ca":
-        ca_jp_combis_records = set()
+        for text_id, card_name, *jp_refer in jp_target_lines:
+            card_name, _ = edit_sp_texts(prefix, card_name, "", jp_refer[0] if jp_refer else "")
+            if extra_condition(prefix, card_name, text_id):
+                untradable_card_names.add(card_name)
 
     # Start the loop to generate item
     for i, (text_id, jp_text, *jp_refer) in enumerate(jp_target_lines):
@@ -995,13 +913,15 @@ def main_generate_NGS(prefix):
         tr_text = ""
         jp_itype = tr_itype = ""
         jp_igen = tr_igen = ""
-        irare = ""
-        icost = ""
         jp_refer = jp_refer[0] if jp_refer else ""
+        missing_translation = False
 
         # Get translated text from texts
         if LANG != 0:
             tr_text = tr_target_texts[i]
+            missing_translation = tr_text is None
+            if missing_translation:
+                tr_text = ""
         # Edit special texts of special item
         jp_text, tr_text = edit_sp_texts(prefix, jp_text, tr_text, jp_refer)
         # Get category and the category name for certain prefixes
@@ -1018,16 +938,6 @@ def main_generate_NGS(prefix):
                 itype = "Leg"
             jp_itype = cp_itypes[itype][0]
             tr_itype = cp_itypes[itype][LANG]
-        elif prefix == "ca":
-            int_id = int(text_id.split("#")[0])
-            skip_id = min(t[0] for t in ca_itypes_order if t[1] is None)
-            if int_id >= skip_id:
-                continue
-            for interval, ele_type in ca_itypes_interval.items():
-                if int_id in interval:
-                    itype = ele_type
-            jp_itype = ca_itypes[itype][0]
-            tr_itype = ca_itypes[itype][LANG]
         # Get gender and the gender name for certain prefixes
         if prefix == "body":
             if text_id.startswith("No1"):
@@ -1036,29 +946,36 @@ def main_generate_NGS(prefix):
                 igen = "a2"
             jp_igen = igens[igen][0]
             tr_igen = igens[igen][LANG]
-        # Get rarity & cost for certain prefixes
         if prefix == "ca":
-            ca_jp_combi = (jp_text, jp_refer, itype)
-            if text_id.endswith("1#0"):
-                if ca_jp_combi in ca_jp_combis_records:
-                    irare = "U"
-                else:
-                    irare = "R"
-                ca_jp_combis_records.add(ca_jp_combi)
-            if ca_cost_infos.get((jp_text, jp_itype)):
-                icost = ca_cost_infos[(jp_text, jp_itype)].pop(0)
-            else:
-                icost = record_name(path, jp_text, jp_itype) or "?"
+            if jp_text in processed_item_texts:
+                continue
+            if missing_translation:
+                missing_translation_count += 1
+                continue
+            processed_item_texts.add(jp_text)
+            matches = stack_items_by_card_name.get(jp_text, [])
+            if not matches:
+                unmatched_count += 1
+                continue
+            trade_info = "Untradable" if jp_text in untradable_card_names else trade_infos.get(jp_text, "")
+            for path, stack_item in matches:
+                names = [jp_text, tr_text, tr_text]
+                texts = form_card_texts(stack_item["jp_text"], tr_text)
+                rec_descs = record_desc(path, stack_item["jp_text"])
+                generated_item = form_itemdata(
+                    stack_item.copy(), names, texts, jp_text, tr_text,
+                    ca_explains, rec_descs, trade_info)
+                update_stack_translation(stack_item, generated_item)
+                processed_count += 1
+            continue
 
         # Get names and texts from global variables
         names = [name.format(
             jp_itype = jp_itype, tr_itype = tr_itype,
-            icost = icost,
             jp_text = jp_text, tr_text = tr_text)
             for name in globals()[f"{prefix}_names"]]
         texts = [text.format(
             jp_itype = jp_itype, tr_itype = tr_itype,
-            icost = icost, irare = irare,
             jp_text = jp_text, tr_text = tr_text)
             for text in globals()[f"{prefix}_texts"]]
         explains = [explain.format(
@@ -1068,42 +985,50 @@ def main_generate_NGS(prefix):
         # Edit the explains of special item
         explains = edit_sp_explains(prefix, jp_text, explains)
 
-        # Determine if generating the same item
-        repeated = False
-        for item in processed_items:
-            if texts[0] == item["jp_text"]:
-                repeated = True
-        if repeated == True:
-            continue 
+        if texts[0] in processed_item_texts:
+            continue
+        if missing_translation:
+            missing_translation_count += 1
+            continue
+        processed_item_texts.add(texts[0])
+
         # Get tradable info from global variable
         if extra_condition(prefix, jp_text, text_id):
             trade_infos[names[0]] = "Untradable"
         trade_info = trade_infos.get(names[0], "")
-        # Record descriptions
-        rec_descs = record_desc(path, texts[0])
-        # Item format
-        item_format = {
-            "jp_text": "",
-            "tr_text": "",
-            "jp_explain": "",
-            "tr_explain": "",
-            "assign": 0}
-        
-        # Generate item
-        item = form_itemdata(item_format, names, texts, jp_text, tr_text, explains, rec_descs, trade_info)
-        # Form the processed data
-        processed_items.append(item)
-        processed_item_texts.append(rec_descs[3])
+        alt_text0 = texts[0].replace(names[0], width_process_string(names[0]), 1)
+        matches = []
+        matched_item_ids = set()
+        for candidate_text in (texts[0], alt_text0):
+            for path, item in stack_items_by_text.get(candidate_text, []):
+                if id(item) not in matched_item_ids:
+                    matches.append((path, item))
+                    matched_item_ids.add(id(item))
 
-    # Write to json file
-    check_if_delete(processed_item_texts, path)
-    write_to_json(processed_items, jsonfile_dir, path)
-    print(f'PROGRESS: processed {len(processed_items)} items in "{path}".')
+        if not matches:
+            unmatched_count += 1
+            continue
 
-# [FUNCTION] Generate "Stack_" json files
+        for path, stack_item in matches:
+            rec_descs = record_desc(path, stack_item["jp_text"])
+            generated_item = form_itemdata(
+                stack_item.copy(), names, texts, jp_text, tr_text,
+                explains, rec_descs, trade_info)
+            update_stack_translation(stack_item, generated_item)
+            processed_count += 1
+
+    for path in paths:
+        write_to_json(stack_items[path], jsonfile_dir, path)
+    print(f'PROGRESS: updated {processed_count} items in Stack files for "{prefix}".')
+    if unmatched_count:
+        print(f'CAUTION: {unmatched_count} game items were not found in Stack files and were not added.')
+    if missing_translation_count:
+        print(f'CAUTION: {missing_translation_count} items without translations were left unchanged.')
+
+# [FUNCTION] Update existing "Stack_" json files with names from game files
 def main_edit_Stack(prefix):
     # Get jp target lines and tr target texts from global variables
-    path = globals()[f"{prefix}_path"]
+    path = stack_paths[prefix][0]
     jp_target_lines = globals()[f"{prefix}_jp_target_lines"]
     tr_target_texts = globals()[f"{prefix}_tr_target_texts"]
     trade_infos = globals()[f"{prefix}_trade_infos"]
@@ -1123,6 +1048,8 @@ def main_edit_Stack(prefix):
         # Get translated text from texts
         if LANG != 0:
             tr_text = tr_target_texts[i]
+            if tr_text is None:
+                continue
 
         # Initialize
         jp_texts = [jp_text]
@@ -1152,30 +1079,23 @@ def main_edit_Stack(prefix):
             if extra_condition(prefix, jp_text, text_id):
                 trade_infos[names[0]] = "Untradable"
             trade_info = trade_infos.get(names[0], "")
-            # Record descriptions
-            rec_descs = record_desc(path, texts[0])
-
             # Item formats
             items_format = []
             # Form the alter version of texts[0]
-            text_index = texts[0].index(names[0])
-            text0_left = texts[0][:text_index]
-            text0_right = texts[0][text_index + len(names[0]):]
-            alt_name0 = width_process_string(names[0])
-            alt_text0 = text0_left + alt_name0 + text0_right
+            alt_text0 = texts[0].replace(names[0], width_process_string(names[0]), 1)
             # Get the item format
             for processed_item in processed_items:
                 if processed_item["jp_text"] in (texts[0], alt_text0):
                     items_format.append(processed_item)
             for item_format in items_format:
                 assign = item_format["assign"]
+                rec_descs = record_desc(path, item_format["jp_text"])
                 # Generate item
-                item = form_itemdata(item_format, names, texts, jp_text, tr_text, explains, rec_descs, trade_info)
+                item = form_itemdata(item_format.copy(), names, texts, jp_text, tr_text, explains, rec_descs, trade_info)
                 for processed_item in processed_items:
                     # Find lines with existing descriptions
                     if processed_item["assign"] == assign:
-                        for key in processed_item:
-                            processed_item[key] = item.get(key, processed_item[key])
+                        update_stack_translation(processed_item, item)
                 # Add the count
                 processed_count = processed_count + 1
 
@@ -1183,10 +1103,10 @@ def main_edit_Stack(prefix):
     write_to_json(processed_items, jsonfile_dir, path)
     print(f'PROGRESS: processed {processed_count} items in "{path}".')
 
-# Generate "NGS_" json files
+# Update "Stack_" json files from game files
 process_prefixes = ["mo", "bp", "ph", "bg", "aug", "ou_m", "ou_f", "cp_m", "cp_f", "mou", "ear", "horn", "body", "ca", "ma", "sv"]
 for prefix in process_prefixes:
-     main_generate_NGS(prefix)
+    main_update_Stack(prefix)
 
 # Generate "Stack_" json files (only for CN)
 if LANG == 1:
