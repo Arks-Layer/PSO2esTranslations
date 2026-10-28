@@ -200,14 +200,14 @@
 		"jp_explainShort": "攻撃力増加＋ダメージの一部ＨＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "11060",
 		"jp_explainShort": "攻撃力大増加＋ダメージの一部ＨＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "1610",
@@ -606,14 +606,14 @@
 		"jp_explainShort": "ダメージ増加＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② 自身を状態異常にならなくする。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② 自身を状態異常にならなくする。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身を状態異常にならなくする。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31068",
 		"jp_explainShort": "ダメージ大増加＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 自身を状態異常にならなくする。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 自身を状態異常にならなくする。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身を状態異常にならなくする。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31071",
@@ -676,14 +676,14 @@
 		"jp_explainShort": "ダメージ大増加＋抜剣で増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 抜剣を装備している場合はさらに攻撃力を増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 抜剣を装備している場合はさらに攻撃力を増加する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 抜剣を装備している場合はさらに攻撃力を増加する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31098",
 		"jp_explainShort": "ダメージ劇的増加＋抜剣で増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 抜剣を装備している場合はさらに攻撃力を増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 抜剣を装備している場合はさらに攻撃力を増加する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 抜剣を装備している場合はさらに攻撃力を増加する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31099",
@@ -788,28 +788,28 @@
 		"jp_explainShort": "全アクティブチップ発動＋攻撃力劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31176",
 		"jp_explainShort": "全アクティブチップ発動＋攻撃力劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31185",
 		"jp_explainShort": "攻撃力が劇的増加＋定期的にＣＰが回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 定期的にＣＰをslightly 回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰをslightly 回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31186",
 		"jp_explainShort": "攻撃力が劇的増加＋定期的にＣＰが回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 定期的にＣＰをslightly 回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰをslightly 回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31189",
@@ -844,56 +844,56 @@
 		"jp_explainShort": "攻撃力増加＋チップ発動時に効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② アクティブチップが発動するたびに\n　　 さらに攻撃力をわずかに増加する。\n③ アクティブチップが発動するたびに\n　　 効果時間を延長する。\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② アクティブチップが発動するたびに\n　　 さらに攻撃力をslightly 増加する。\n③ アクティブチップが発動するたびに\n　　 効果時間を延長する。\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② アクティブチップが発動するたびに\n　　 さらに攻撃力をslightly 増加する。\n③ アクティブチップが発動するたびに\n　　 効果時間を延長する。\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31202",
 		"jp_explainShort": "攻撃力大増加＋チップ発動時に効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② アクティブチップが発動するたびに\n　　 さらに攻撃力をわずかに増加する。\n③ アクティブチップが発動するたびに\n　　 効果時間を延長する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② アクティブチップが発動するたびに\n　　 さらに攻撃力をslightly 増加する。\n③ アクティブチップが発動するたびに\n　　 効果時間を延長する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② アクティブチップが発動するたびに\n　　 さらに攻撃力をslightly 増加する。\n③ アクティブチップが発動するたびに\n　　 効果時間を延長する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31203",
 		"jp_explainShort": "攻撃力微増加＋チップ発動時に効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② アクティブチップが発動するたびに\n　　 さらに攻撃力を増加する。\n③ アクティブチップが発動するたびに\n　　 効果時間を延長する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② アクティブチップが発動するたびに\n　　 さらに攻撃力を増加する。\n③ アクティブチップが発動するたびに\n　　 効果時間を延長する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② アクティブチップが発動するたびに\n　　 さらに攻撃力を増加する。\n③ アクティブチップが発動するたびに\n　　 効果時間を延長する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31204",
 		"jp_explainShort": "攻撃力増加＋チップ発動時に効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② アクティブチップが発動するたびに\n　　 さらに攻撃力を増加する。\n③ アクティブチップが発動するたびに\n　　 効果時間を延長する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② アクティブチップが発動するたびに\n　　 さらに攻撃力を増加する。\n③ アクティブチップが発動するたびに\n　　 効果時間を延長する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② アクティブチップが発動するたびに\n　　 さらに攻撃力を増加する。\n③ アクティブチップが発動するたびに\n　　 効果時間を延長する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31211",
 		"jp_explainShort": "攻撃力劇的増加＋ダメージの一部をＨＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31212",
 		"jp_explainShort": "攻撃力劇的増加＋ダメージの一部をＨＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31215",
 		"jp_explainShort": "攻撃力劇的増加＋特定条件で戦闘不能回避",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 装備中の雷属性チップが２枚以下の時\n　　 効果中一度だけ戦闘不能にならない。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 装備中の雷属性チップが２枚以下の時\n　　 効果中一度だけ戦闘不能にならない。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の雷属性チップが２枚以下の時\n　　 効果中一度だけ戦闘不能にならない。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31216",
 		"jp_explainShort": "攻撃力劇的増加＋特定条件で戦闘不能回避",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 装備中の雷属性チップが２枚以下の時\n　　 効果中一度だけ戦闘不能にならない。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 装備中の雷属性チップが２枚以下の時\n　　 効果中一度だけ戦闘不能にならない。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の雷属性チップが２枚以下の時\n　　 効果中一度だけ戦闘不能にならない。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31227",
@@ -914,42 +914,42 @@
 		"jp_explainShort": "チップのＣＰ消費量が減少＋攻撃力劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31242",
 		"jp_explainShort": "チップのＣＰ消費量が減少＋攻撃力劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31243",
 		"jp_explainShort": "攻撃力絶大増加＋法術が小強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 法術の威力をわずかに強化する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 法術の威力をslightly 強化する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 法術の威力をslightly 強化する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31244",
 		"jp_explainShort": "攻撃力絶大増加＋法術が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 法術の威力を大きく強化する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 法術の威力をgreatly 強化する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 法術の威力をgreatly 強化する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31245",
 		"jp_explainShort": "攻撃力絶大増加＋定期的にＣＰが微回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 定期的にＣＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 定期的にＣＰをslightly 回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰをslightly 回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31246",
 		"jp_explainShort": "攻撃力絶大増加＋定期的にＣＰが回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 定期的にＣＰを回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 定期的にＣＰを回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰを回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31249",
@@ -998,14 +998,14 @@
 		"jp_explainShort": "全属性値を大強化+攻撃力を劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 全属性の属性値を大きく強化する。\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 全属性の属性値をgreatly 強化する。\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 全属性の属性値をgreatly 強化する。\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31270",
 		"jp_explainShort": "全属性値を大強化+攻撃力を劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 全属性の属性値を大きく強化する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 全属性の属性値をgreatly 強化する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 全属性の属性値をgreatly 強化する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31277",
@@ -1096,98 +1096,98 @@
 		"jp_explainShort": "攻撃力劇的増加＋光チップ数ＨＰ自動小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 装備中の光属性チップの枚数に応じて\n　　 定期的にＨＰをわずかに回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 装備中の光属性チップの枚数に応じて\n　　 定期的にＨＰをslightly 回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の光属性チップの枚数に応じて\n　　 定期的にＨＰをslightly 回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31336",
 		"jp_explainShort": "攻撃力劇的増加＋光チップ数ＨＰ自動回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 装備中の光属性チップの枚数に応じて\n　　 定期的にＨＰを回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 装備中の光属性チップの枚数に応じて\n　　 定期的にＨＰを回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の光属性チップの枚数に応じて\n　　 定期的にＨＰを回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31339",
 		"jp_explainShort": "攻撃力絶大増加＋風属性武器で攻撃力増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中の武器の属性が風属性の場合\n　　 攻撃力をわずかに増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中の武器の属性が風属性の場合\n　　 攻撃力をslightly 増加する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の武器の属性が風属性の場合\n　　 攻撃力をslightly 増加する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31340",
 		"jp_explainShort": "攻撃力絶大増加＋風属性武器で攻撃力増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中の武器の属性が風属性の場合\n　　 攻撃力をわずかに増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中の武器の属性が風属性の場合\n　　 攻撃力をslightly 増加する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の武器の属性が風属性の場合\n　　 攻撃力をslightly 増加する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31345",
 		"jp_explainShort": "攻撃力小増加＋特定地形で攻撃力大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 砂漠か地下坑道か採掘場での戦闘で\n　　 さらに攻撃力を大きく増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 砂漠か地下坑道か採掘場での戦闘で\n　　 さらに攻撃力をgreatly 増加する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 砂漠か地下坑道か採掘場での戦闘で\n　　 さらに攻撃力をgreatly 増加する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31346",
 		"jp_explainShort": "攻撃力大増加＋特定地形で攻撃力大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 砂漠か地下坑道か採掘場での戦闘で\n　　 さらに攻撃力を大きく増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 砂漠か地下坑道か採掘場での戦闘で\n　　 さらに攻撃力をgreatly 増加する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 砂漠か地下坑道か採掘場での戦闘で\n　　 さらに攻撃力をgreatly 増加する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31355",
 		"jp_explainShort": "攻撃力超絶増加＋定期的にＣＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 定期的にＣＰを回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 定期的にＣＰを回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰを回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31356",
 		"jp_explainShort": "攻撃力超絶増加＋定期的にＣＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 定期的にＣＰを回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 定期的にＣＰを回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰを回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31379",
 		"jp_explainShort": "攻撃力絶大増加＋氷属性武器で攻撃力増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中の武器の属性が氷属性の場合\n　　 攻撃力をわずかに増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中の武器の属性が氷属性の場合\n　　 攻撃力をslightly 増加する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の武器の属性が氷属性の場合\n　　 攻撃力をslightly 増加する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31380",
 		"jp_explainShort": "攻撃力絶大増加＋氷属性武器で攻撃力増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中の武器の属性が氷属性の場合\n　　 攻撃力をわずかに増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中の武器の属性が氷属性の場合\n　　 攻撃力をslightly 増加する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の武器の属性が氷属性の場合\n　　 攻撃力をslightly 増加する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31389",
 		"jp_explainShort": "攻撃増＋加速＋ボス時氷チップ数で攻撃増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 自身の通常攻撃と移動のスピードを加速する。\n③ ボス戦時は装備中の氷属性チップの枚数に応じて\n　　 さらに攻撃力を大きく増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 自身の通常攻撃と移動のスピードを加速する。\n③ ボス戦時は装備中の氷属性チップの枚数に応じて\n　　 さらに攻撃力をgreatly 増加する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身の通常攻撃と移動のスピードを加速する。\n③ ボス戦時は装備中の氷属性チップの枚数に応じて\n　　 さらに攻撃力をgreatly 増加する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31390",
 		"jp_explainShort": "攻撃増＋加速＋ボス時氷チップ数で攻撃増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 自身の通常攻撃と移動のスピードを加速する。\n③ ボス戦時は装備中の氷属性チップの枚数に応じて\n　　 さらに攻撃力を大きく増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 自身の通常攻撃と移動のスピードを加速する。\n③ ボス戦時は装備中の氷属性チップの枚数に応じて\n　　 さらに攻撃力をgreatly 増加する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身の通常攻撃と移動のスピードを加速する。\n③ ボス戦時は装備中の氷属性チップの枚数に応じて\n　　 さらに攻撃力をgreatly 増加する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31405",
 		"jp_explainShort": "消費ＣＰ減少＋攻撃力大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31406",
 		"jp_explainShort": "消費ＣＰ減少＋攻撃力劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31409",
@@ -1250,14 +1250,14 @@
 		"jp_explainShort": "攻撃力超絶増加＋覇滅種にダメージ増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 覇滅種に対して与えるダメージを増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 覇滅種に対して与えるダメージを増加する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 覇滅種に対して与えるダメージを増加する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31428",
 		"jp_explainShort": "攻撃力超絶増加＋覇滅種にダメージ増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 覇滅種に対して与えるダメージを増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 覇滅種に対して与えるダメージを増加する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 覇滅種に対して与えるダメージを増加する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31437",
@@ -1306,14 +1306,14 @@
 		"jp_explainShort": "属性種類数攻撃力劇的増加＋追加大ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 装備中チップの属性種類数に応じて\n　　 さらに攻撃力を増加する。\n③ 敵に追加で特大ダメージを与える。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 装備中チップの属性種類数に応じて\n　　 さらに攻撃力を増加する。\n③ 敵に追加で特大ダメージを与える。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中チップの属性種類数に応じて\n　　 さらに攻撃力を増加する。\n③ 敵に追加で特大ダメージを与える。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31458",
 		"jp_explainShort": "属性種類数攻撃力絶大増加＋追加大ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中チップの属性種類数に応じて\n　　 さらに攻撃力を増加する。\n③ 敵に追加で特大ダメージを与える。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中チップの属性種類数に応じて\n　　 さらに攻撃力を増加する。\n③ 敵に追加で特大ダメージを与える。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中チップの属性種類数に応じて\n　　 さらに攻撃力を増加する。\n③ 敵に追加で特大ダメージを与える。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31475",
@@ -1376,14 +1376,14 @@
 		"jp_explainShort": "攻撃力絶大増加＋ダメージ軽減＋ダウン無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中の炎属性チップの枚数に応じて\n　　 敵から受けるダメージを軽減する。\n③ ダウンしなくなる。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中の炎属性チップの枚数に応じて\n　　 敵から受けるダメージを軽減する。\n③ ダウンしなくなる。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の炎属性チップの枚数に応じて\n　　 敵から受けるダメージを軽減する。\n③ ダウンしなくなる。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31508",
 		"jp_explainShort": "攻撃力絶大増加＋ダメージ軽減＋ダウン無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中の炎属性チップの枚数に応じて\n　　 敵から受けるダメージを軽減する。\n③ ダウンしなくなる。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中の炎属性チップの枚数に応じて\n　　 敵から受けるダメージを軽減する。\n③ ダウンしなくなる。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の炎属性チップの枚数に応じて\n　　 敵から受けるダメージを軽減する。\n③ ダウンしなくなる。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31509",
@@ -1404,14 +1404,14 @@
 		"jp_explainShort": "攻撃力絶大増＋必殺技・法術使用毎に小増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 必殺技・法術を使用するごとに\n　　 威力をわずかに増加する。（最大時：劇的）\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 必殺技・法術を使用するごとに\n　　 威力をslightly 増加する。（最大時：劇的）\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術を使用するごとに\n　　 威力をslightly 増加する。（最大時：劇的）\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31518",
 		"jp_explainShort": "攻撃力絶大増＋必殺技・法術使用毎に小増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 必殺技・法術を使用するごとに\n　　 威力をわずかに増加する。（最大時：劇的）\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 必殺技・法術を使用するごとに\n　　 威力をslightly 増加する。（最大時：劇的）\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術を使用するごとに\n　　 威力をslightly 増加する。（最大時：劇的）\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31519",
@@ -1474,14 +1474,14 @@
 		"jp_explainShort": "攻撃力超絶増＋ダメージ減＋指定技威力強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 「オーバーエンド」の威力を絶大に強化する。\n③ 敵から受けるダメージを大きく軽減する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 「オーバーエンド」の威力をimmensely 強化する。\n③ 敵から受けるダメージをgreatly 軽減する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 「オーバーエンド」の威力をimmensely 強化する。\n③ 敵から受けるダメージをgreatly 軽減する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31544",
 		"jp_explainShort": "攻撃力超絶増＋ダメージ減＋指定技威力強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 「オーバーエンド」の威力を絶大に強化する。\n③ 敵から受けるダメージを大きく軽減する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 「オーバーエンド」の威力をimmensely 強化する。\n③ 敵から受けるダメージをgreatly 軽減する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 「オーバーエンド」の威力をimmensely 強化する。\n③ 敵から受けるダメージをgreatly 軽減する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31555",
@@ -1516,35 +1516,35 @@
 		"jp_explainShort": "ダメージ極度増加＋効果終了時に被ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 効果時間終了時に最大ＨＰの９０％の\n　　 ダメージを受ける。（ＨＰは最低でも１残る）\n　　 ただし、ＨＰが９０％未満の場合\n　　 このチップを発動できない。\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 効果時間終了時に最大ＨＰの９０％の\n　　 ダメージを受ける。（ＨＰは最低でも１残る）\n　　 ただし、ＨＰが９０％未満の場合\n　　 このチップを発動できない。\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 効果時間終了時に最大ＨＰの９０％の\n　　 ダメージを受ける。（ＨＰは最低でも１残る）\n　　 ただし、ＨＰが９０％未満の場合\n　　 このチップを発動できない。\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31571",
 		"jp_explainShort": "ダメージ極度増加＋効果終了時に被ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 効果時間終了時に最大ＨＰの９０％の\n　　 ダメージを受ける。（ＨＰは最低でも１残る）\n　　 ただし、ＨＰが９０％未満の場合\n　　 このチップを発動できない。\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 効果時間終了時に最大ＨＰの９０％の\n　　 ダメージを受ける。（ＨＰは最低でも１残る）\n　　 ただし、ＨＰが９０％未満の場合\n　　 このチップを発動できない。\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 効果時間終了時に最大ＨＰの９０％の\n　　 ダメージを受ける。（ＨＰは最低でも１残る）\n　　 ただし、ＨＰが９０％未満の場合\n　　 このチップを発動できない。\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31576",
 		"jp_explainShort": "攻撃力超絶増＋消費ＣＰ減＋特定条件時追撃",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ファイターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は氷属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ファイターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は氷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ファイターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は氷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31577",
 		"jp_explainShort": "攻撃力超絶増＋消費ＣＰ減＋特定条件時追撃",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ファイターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は氷属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ファイターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は氷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ファイターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は氷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31578",
 		"jp_explainShort": "攻撃力超絶増＋消費ＣＰ減＋特定条件時追撃",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ファイターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ファイターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ファイターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31581",
@@ -1579,14 +1579,14 @@
 		"jp_explainShort": "攻撃力増加＋特定条件で戦闘不能回避",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② 装備中の雷属性チップが２枚以下の時\n　　 効果中一度だけ戦闘不能にならない。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② 装備中の雷属性チップが２枚以下の時\n　　 効果中一度だけ戦闘不能にならない。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の雷属性チップが２枚以下の時\n　　 効果中一度だけ戦闘不能にならない。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31600",
 		"jp_explainShort": "攻撃力大増加＋特定条件で戦闘不能回避",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 装備中の雷属性チップが２枚以下の時\n　　 効果中一度だけ戦闘不能にならない。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 装備中の雷属性チップが２枚以下の時\n　　 効果中一度だけ戦闘不能にならない。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の雷属性チップが２枚以下の時\n　　 効果中一度だけ戦闘不能にならない。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31605",
@@ -1635,21 +1635,21 @@
 		"jp_explainShort": "攻撃力超絶増＋ダメージ大軽減＋攻撃威力増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 敵から受けるダメージを大きく軽減する。\n③ 全てのリンクスロットに装備した\n　　 闇属性チップの枚数に応じて攻撃の威力を増加する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 敵から受けるダメージをgreatly 軽減する。\n③ 全てのリンクスロットに装備した\n　　 闇属性チップの枚数に応じて攻撃の威力を増加する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージをgreatly 軽減する。\n③ 全てのリンクスロットに装備した\n　　 闇属性チップの枚数に応じて攻撃の威力を増加する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31634",
 		"jp_explainShort": "攻撃力超絶増＋ダメージ大軽減＋攻撃威力増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 敵から受けるダメージを大きく軽減する。\n③ 全てのリンクスロットに装備した\n　　 闇属性チップの枚数に応じて攻撃の威力を増加する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 敵から受けるダメージをgreatly 軽減する。\n③ 全てのリンクスロットに装備した\n　　 闇属性チップの枚数に応じて攻撃の威力を増加する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージをgreatly 軽減する。\n③ 全てのリンクスロットに装備した\n　　 闇属性チップの枚数に応じて攻撃の威力を増加する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31635",
 		"jp_explainShort": "攻撃力極度増＋ダメージ大軽減＋攻撃威力増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 敵から受けるダメージを大きく軽減する。\n③ 全てのリンクスロットに装備した\n　　 闇属性チップの枚数に応じて攻撃の威力を増加する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 敵から受けるダメージをgreatly 軽減する。\n③ 全てのリンクスロットに装備した\n　　 闇属性チップの枚数に応じて攻撃の威力を増加する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージをgreatly 軽減する。\n③ 全てのリンクスロットに装備した\n　　 闇属性チップの枚数に応じて攻撃の威力を増加する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31644",
@@ -1726,21 +1726,21 @@
 		"jp_explainShort": "攻撃力超絶増＋定期ＣＰ回復＋攻撃威力強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31667",
 		"jp_explainShort": "攻撃力超絶増＋定期ＣＰ回復＋攻撃威力強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31668",
 		"jp_explainShort": "攻撃力超絶増＋定期ＣＰ回復＋攻撃威力強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31673",
@@ -1789,21 +1789,21 @@
 		"jp_explainShort": "攻撃力増＋ＣＰ回復量増＋属性一致攻撃力増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 通常攻撃によるＣＰの回復量を大きく増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31703",
 		"jp_explainShort": "攻撃力増＋ＣＰ回復量増＋属性一致攻撃力増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 通常攻撃によるＣＰの回復量を大きく増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31704",
 		"jp_explainShort": "攻撃力増＋ＣＰ回復量増＋属性一致攻撃力増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 通常攻撃によるＣＰの回復量を大きく増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31711",
@@ -1838,21 +1838,21 @@
 		"jp_explainShort": "攻撃力極度増＋定期ＨＰ小回復＋効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 定期的にＨＰをわずかに回復する。\n③ リンクスロットに装備したチップの属性が光属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が光属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が光属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31734",
 		"jp_explainShort": "攻撃力極度増＋定期ＨＰ小回復＋効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 定期的にＨＰをわずかに回復する。\n③ リンクスロットに装備したチップの属性が光属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が光属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が光属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31735",
 		"jp_explainShort": "攻撃力極度増＋定期ＨＰ小回復＋効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 定期的にＨＰをわずかに回復する。\n③ リンクスロットに装備したチップの属性が光属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が光属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が光属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31742",
@@ -1901,21 +1901,21 @@
 		"jp_explainShort": "攻撃力増＋ダメージ防御＋風弱点ダメージ増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵が風属性弱点の場合に\n　　 全てのリンクスロットに装備した\n　　 風属性チップの枚数に応じダメージを大きく増加する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵が風属性弱点の場合に\n　　 全てのリンクスロットに装備した\n　　 風属性チップの枚数に応じダメージをgreatly 増加する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵が風属性弱点の場合に\n　　 全てのリンクスロットに装備した\n　　 風属性チップの枚数に応じダメージをgreatly 増加する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31753",
 		"jp_explainShort": "攻撃力増＋ダメージ防御＋風弱点ダメージ増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵が風属性弱点の場合に\n　　 全てのリンクスロットに装備した\n　　 風属性チップの枚数に応じダメージを大きく増加する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵が風属性弱点の場合に\n　　 全てのリンクスロットに装備した\n　　 風属性チップの枚数に応じダメージをgreatly 増加する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵が風属性弱点の場合に\n　　 全てのリンクスロットに装備した\n　　 風属性チップの枚数に応じダメージをgreatly 増加する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31754",
 		"jp_explainShort": "攻撃力増＋ダメージ防御＋風弱点ダメージ増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵が風属性弱点の場合に\n　　 全てのリンクスロットに装備した\n　　 風属性チップの枚数に応じダメージを大きく増加する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵が風属性弱点の場合に\n　　 全てのリンクスロットに装備した\n　　 風属性チップの枚数に応じダメージをgreatly 増加する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 攻撃対象の敵が風属性弱点の場合に\n　　 全てのリンクスロットに装備した\n　　 風属性チップの枚数に応じダメージをgreatly 増加する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31757",
@@ -1978,14 +1978,14 @@
 		"jp_explainShort": "攻撃力劇的増加＋消費ＣＰ減少＋発動率上昇",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 発動率を上昇する。\n③ 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 発動率を上昇する。\n③ 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 発動率を上昇する。\n③ 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31781",
 		"jp_explainShort": "攻撃力劇的増加＋消費ＣＰ減少＋発動率上昇",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 発動率を上昇する。\n③ 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 発動率を上昇する。\n③ 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 発動率を上昇する。\n③ 消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31788",
@@ -2090,21 +2090,21 @@
 		"jp_explainShort": "攻撃力が極度に増加＋炎属性上限上昇",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性の上限値が上昇する。\n③ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性の上限値が上昇する。\n③ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性の上限値が上昇する。\n③ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31843",
 		"jp_explainShort": "攻撃力が極度に増加＋炎属性上限上昇",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性の上限値が上昇する。\n③ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性の上限値が上昇する。\n③ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性の上限値が上昇する。\n③ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31844",
 		"jp_explainShort": "攻撃力が極度に増加＋炎属性上限上昇",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性の上限値が上昇する。\n③ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性の上限値が上昇する。\n③ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性の上限値が上昇する。\n③ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31845",
@@ -2139,21 +2139,21 @@
 		"jp_explainShort": "攻撃力増＋特定クエストダメージ＋消費ＣＰ減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 闇属性の場合、闇属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 闇属性の場合、闇属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 闇属性の場合、闇属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31850",
 		"jp_explainShort": "攻撃力増＋特定クエストダメージ＋消費ＣＰ減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 闇属性の場合、闇属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 闇属性の場合、闇属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 闇属性の場合、闇属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31851",
 		"jp_explainShort": "攻撃力増＋特定クエストダメージ＋消費ＣＰ減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 闇属性の場合、闇属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 闇属性の場合、闇属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 闇属性の場合、闇属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31852",
@@ -2286,21 +2286,21 @@
 		"jp_explainShort": "攻撃力超絶増＋技法威力大強化＋ＣＰ消費増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 必殺技・法術の威力を大きく強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 光属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 必殺技・法術の威力をgreatly 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 光属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術の威力をgreatly 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 光属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31908",
 		"jp_explainShort": "攻撃力超絶増＋技法威力大強化＋ＣＰ消費増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 必殺技・法術の威力を大きく強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 光属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 必殺技・法術の威力をgreatly 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 光属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術の威力をgreatly 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 光属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31909",
 		"jp_explainShort": "攻撃力超絶増＋技法威力大強化＋ＣＰ消費増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 必殺技・法術の威力を大きく強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 光属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 必殺技・法術の威力をgreatly 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 光属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術の威力をgreatly 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 光属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31922",
@@ -2552,21 +2552,21 @@
 		"jp_explainShort": "ターンヘッド",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 風属性の場合、風属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 風属性の場合、風属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 風属性の場合、風属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32015",
 		"jp_explainShort": "ターンヘッド（解放後）",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 風属性の場合、風属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 風属性の場合、風属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 風属性の場合、風属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32016",
 		"jp_explainShort": "ターンヘッド（真解放後）",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 風属性の場合、風属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 風属性の場合、風属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 風属性の場合、風属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32023",
@@ -2958,21 +2958,21 @@
 		"jp_explainShort": "対象を高速回転させる自在槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 氷属性の場合、氷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は氷属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 氷属性の場合、氷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は氷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 氷属性の場合、氷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は氷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32171",
 		"jp_explainShort": "対象を高速回転させる自在槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 氷属性の場合、氷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は氷属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 氷属性の場合、氷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は氷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 氷属性の場合、氷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は氷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32172",
 		"jp_explainShort": "対象を高速回転させる自在槍用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 氷属性の場合、氷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 氷属性の場合、氷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 氷属性の場合、氷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32186",
@@ -3329,21 +3329,21 @@
 		"jp_explainShort": "身体を振り連続攻撃する鋼拳用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32371",
 		"jp_explainShort": "身体を振り連続攻撃する鋼拳用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32372",
 		"jp_explainShort": "身体を振り連続攻撃する鋼拳用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 炎属性の場合、炎属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32381",
@@ -3511,21 +3511,21 @@
 		"jp_explainShort": "投げた弾倉を爆発させる銃剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32471",
 		"jp_explainShort": "投げた弾倉を爆発させる銃剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32472",
 		"jp_explainShort": "投げた弾倉を爆発させる銃剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32473",
@@ -3665,21 +3665,21 @@
 		"jp_explainShort": "一点集中の射撃を行う長銃用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 雷属性の場合、雷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 雷属性の場合、雷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 雷属性の場合、雷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32574",
 		"jp_explainShort": "一点集中の射撃を行う長銃用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 雷属性の場合、雷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 雷属性の場合、雷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 雷属性の場合、雷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32575",
 		"jp_explainShort": "前進し零距離砲撃を行う大砲用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じて極度に増加する。\n③ リンクスロットに装備したチップの属性が\n　　 雷属性の場合、雷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 雷属性の場合、雷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② タワークエストで敵に与えるダメージを\n　　 アビリティレベルに応じてmaximally 増加する。\n③ リンクスロットに装備したチップの属性が\n　　 雷属性の場合、雷属性チップの消費ＣＰを減少する。\n　　 このチップ発動時にも、この効果が適用される。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32599",
@@ -3959,14 +3959,14 @@
 		"jp_explainShort": "剣を投げ敵を切り刻む抜剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中チップの追加ダメージ威力を\n　　 それぞれ増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中チップの追加ダメージ威力を\n　　 それぞれ増加する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中チップの追加ダメージ威力を\n　　 それぞれ増加する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32812",
 		"jp_explainShort": "剣を投げ敵を切り刻む抜剣用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 装備中チップの追加ダメージ威力を\n　　 それぞれ増加する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 装備中チップの追加ダメージ威力を\n　　 それぞれ増加する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中チップの追加ダメージ威力を\n　　 それぞれ増加する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32828",
@@ -4470,42 +4470,42 @@
 		"jp_explainShort": "フォトン粒子砲を発射する大砲用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 敵から受けるダメージを大きく軽減する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 敵から受けるダメージをgreatly 軽減する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージをgreatly 軽減する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "80220",
 		"jp_explainShort": "フォトン粒子砲を発射する大砲用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 敵から受けるダメージを大きく軽減する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 敵から受けるダメージをgreatly 軽減する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージをgreatly 軽減する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "80410",
 		"jp_explainShort": "フォトン粒子砲を発射する大砲用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "80420",
 		"jp_explainShort": "フォトン粒子砲を発射する大砲用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "80510",
 		"jp_explainShort": "フォトン粒子砲を発射する大砲用の必殺技",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 自身を状態異常にならなくする。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 自身を状態異常にならなくする。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身を状態異常にならなくする。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "80520",
 		"jp_explainShort": "周囲にかまいたちを呼ぶ風属性中級の法術",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 自身を状態異常にならなくする。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 自身を状態異常にならなくする。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身を状態異常にならなくする。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "80710",
@@ -10560,14 +10560,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "9424",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "9421",
@@ -10959,14 +10959,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② 敵から受けるダメージをわずかに軽減する。\n③ ダウンしなくなる。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② 敵から受けるダメージをslightly 軽減する。\n③ ダウンしなくなる。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージをslightly 軽減する。\n③ ダウンしなくなる。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "20054",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 敵から受けるダメージをわずかに軽減する。\n③ ダウンしなくなる。\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 敵から受けるダメージをslightly 軽減する。\n③ ダウンしなくなる。\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージをslightly 軽減する。\n③ ダウンしなくなる。\n[Effect Duration] Long"
 	},
 	{
 		"assign": "20071",

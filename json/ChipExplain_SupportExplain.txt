@@ -606,14 +606,14 @@
 		"jp_explainShort": "全アクティブチップ発動＋攻撃力劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[発動条件]ジャストアタック成功もしくはスライド操作時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31008",
 		"jp_explainShort": "全アクティブチップ発動＋攻撃力劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[発動条件]ジャストアタック成功もしくはスライド操作時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31013",
@@ -746,14 +746,14 @@
 		"jp_explainShort": "ダメージが大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31036",
 		"jp_explainShort": "ダメージが劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31037",
@@ -858,28 +858,28 @@
 		"jp_explainShort": "ダメージ絶大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n[発動条件]ジャストアタック成功もしくはスライド操作時\n[効果時間]短い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Short"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Short"
 	},
 	{
 		"assign": "31060",
 		"jp_explainShort": "ダメージ絶大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n[発動条件]ジャストアタック成功もしくはスライド操作時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31065",
 		"jp_explainShort": "ダメージ増加＋定期的にＨＰが小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31066",
 		"jp_explainShort": "ダメージ大増加＋定期的にＨＰが小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31069",
@@ -928,14 +928,14 @@
 		"jp_explainShort": "ダメージ大増加＋鋼拳・自在槍で大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 鋼拳か自在槍を装備している場合は\n　　 さらに攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 鋼拳か自在槍を装備している場合は\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 鋼拳か自在槍を装備している場合は\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31078",
 		"jp_explainShort": "ダメージ劇的増加＋鋼拳・自在槍で大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 鋼拳か自在槍を装備している場合は\n　　 さらに攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 鋼拳か自在槍を装備している場合は\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 鋼拳か自在槍を装備している場合は\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31079",
@@ -956,28 +956,28 @@
 		"jp_explainShort": "ダメージ大増加＋ＣＰ最大値増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② ＣＰの最大値を増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② ＣＰの最大値を増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② ＣＰの最大値を増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31082",
 		"jp_explainShort": "ダメージ劇的増加＋ＣＰ最大値増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② ＣＰの最大値を増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② ＣＰの最大値を増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② ＣＰの最大値を増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31083",
 		"jp_explainShort": "ダメージ絶大増加＋ダメージの一部ＨＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31084",
 		"jp_explainShort": "ダメージ絶大増加＋ダメージの一部ＨＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31089",
@@ -1026,28 +1026,28 @@
 		"jp_explainShort": "ダメージが大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n[Activation Trigger] Successful Just Attack"
 	},
 	{
 		"assign": "31102",
 		"jp_explainShort": "ダメージが劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n[発動条件]ジャストアタック成功時",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n[Activation Trigger] Successful Just Attack"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n[Activation Trigger] Successful Just Attack"
 	},
 	{
 		"assign": "31103",
 		"jp_explainShort": "ダメージが増加＋一定確率で回避",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② 敵からの攻撃を一定確率で回避する。\n[発動条件]スライド操作時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② 敵からの攻撃を一定確率で回避する。\n[Activation Trigger] Slide Action\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵からの攻撃を一定確率で回避する。\n[Activation Trigger] Slide Action\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31104",
 		"jp_explainShort": "ダメージが大増加＋一定確率で回避",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 敵からの攻撃を一定確率で回避する。\n[発動条件]スライド操作時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 敵からの攻撃を一定確率で回避する。\n[Activation Trigger] Slide Action\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵からの攻撃を一定確率で回避する。\n[Activation Trigger] Slide Action\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31105",
@@ -1166,28 +1166,28 @@
 		"jp_explainShort": "ダメージ増加＋定期的にＨＰが小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31124",
 		"jp_explainShort": "ダメージ大増加＋定期的にＨＰが小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31125",
 		"jp_explainShort": "ダメージ大増加＋長槍で大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 長槍を装備している場合は\n　　 さらに攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 長槍を装備している場合は\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 長槍を装備している場合は\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31126",
 		"jp_explainShort": "ダメージ劇的増加＋長槍で大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 長槍を装備している場合は\n　　 さらに攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 長槍を装備している場合は\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 長槍を装備している場合は\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31127",
@@ -1278,28 +1278,28 @@
 		"jp_explainShort": "ダメージ大増加＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 自身を状態異常にならなくする。\n[発動条件]スライド操作時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 自身を状態異常にならなくする。\n[Activation Trigger] Slide Action\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身を状態異常にならなくする。\n[Activation Trigger] Slide Action\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31148",
 		"jp_explainShort": "ダメージ大増加＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 自身を状態異常にならなくする。\n[発動条件]スライド操作時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 自身を状態異常にならなくする。\n[Activation Trigger] Slide Action\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身を状態異常にならなくする。\n[Activation Trigger] Slide Action\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31155",
 		"jp_explainShort": "ダメージ劇的増加＋ＣＰ最大値増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② ＣＰの最大値を増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]スライド操作を行うまでの長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② ＣＰの最大値を増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long, or until next Slide Action"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② ＣＰの最大値を増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long, or until next Slide Action"
 	},
 	{
 		"assign": "31156",
 		"jp_explainShort": "ダメージ劇的増加＋ＣＰ最大値増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② ＣＰの最大値を増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]スライド操作を行うまでの長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② ＣＰの最大値を増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long, or until next Slide Action"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② ＣＰの最大値を増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long, or until next Slide Action"
 	},
 	{
 		"assign": "31157",
@@ -1418,14 +1418,14 @@
 		"jp_explainShort": "攻撃力劇的増加＋ダメージ軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 敵から受けるダメージを軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 敵から受けるダメージを軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージを軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31180",
 		"jp_explainShort": "攻撃力劇的増加＋ダメージ軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 敵から受けるダメージを軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 敵から受けるダメージを軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージを軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31181",
@@ -1446,14 +1446,14 @@
 		"jp_explainShort": "攻撃力絶大増加＋弱点属性大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 攻撃対象の敵の弱点属性を大きく強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 攻撃対象の敵の弱点属性をgreatly 強化する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 攻撃対象の敵の弱点属性をgreatly 強化する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31184",
 		"jp_explainShort": "攻撃力絶大増加＋弱点属性劇的強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 攻撃対象の敵の弱点属性を劇的に強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 攻撃対象の敵の弱点属性をdramatically 強化する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 攻撃対象の敵の弱点属性をdramatically 強化する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31187",
@@ -1474,14 +1474,14 @@
 		"jp_explainShort": "攻撃力大増加＋ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31192",
 		"jp_explainShort": "攻撃力劇的増加＋ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31193",
@@ -1502,42 +1502,42 @@
 		"jp_explainShort": "攻撃力大増加＋大剣・銃剣でさらに増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 大剣か銃剣を装備している場合は\n　　 さらに攻撃力を増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 大剣か銃剣を装備している場合は\n　　 さらに攻撃力を増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 大剣か銃剣を装備している場合は\n　　 さらに攻撃力を増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31196",
 		"jp_explainShort": "攻撃力劇的増加＋大剣・銃剣でさらに増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 大剣か銃剣を装備している場合は\n　　 さらに攻撃力を増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 大剣か銃剣を装備している場合は\n　　 さらに攻撃力を増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 大剣か銃剣を装備している場合は\n　　 さらに攻撃力を増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31199",
 		"jp_explainShort": "攻撃力大増加＋定期的にＣＰが微回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 定期的にＣＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 定期的にＣＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31200",
 		"jp_explainShort": "攻撃力劇的増加＋定期的にＣＰが回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 定期的にＣＰを回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 定期的にＣＰを回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰを回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31205",
 		"jp_explainShort": "攻撃力劇的増加＋ダメージ無で攻撃力大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 一定時間ダメージを受けなければ\n　　 さらに攻撃力を大きく増加する。（最大時：絶大）\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 一定時間ダメージを受けなければ\n　　 さらに攻撃力をgreatly 増加する。（最大時：絶大）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定時間ダメージを受けなければ\n　　 さらに攻撃力をgreatly 増加する。（最大時：絶大）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31206",
 		"jp_explainShort": "攻撃力絶大増加＋ダメージ無で攻撃力大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 一定時間ダメージを受けなければ\n　　 さらに攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 一定時間ダメージを受けなければ\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定時間ダメージを受けなければ\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31207",
@@ -1586,14 +1586,14 @@
 		"jp_explainShort": "通常攻撃と移動が加速＋攻撃力絶大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31218",
 		"jp_explainShort": "通常攻撃と移動が加速＋攻撃力絶大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n②  自身の通常攻撃と移動のスピードを加速する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n②  自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n②  自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31219",
@@ -1656,14 +1656,14 @@
 		"jp_explainShort": "攻撃力絶大増加＋ダメージ軽減＋ダウン無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 敵から受けるダメージを軽減する。\n③ ダウンしなくなる。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 敵から受けるダメージを軽減する。\n③ ダウンしなくなる。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージを軽減する。\n③ ダウンしなくなる。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31230",
 		"jp_explainShort": "攻撃力絶大増加＋ダメージ軽減＋ダウン無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 敵から受けるダメージを軽減する。\n③ ダウンしなくなる。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 敵から受けるダメージを軽減する。\n③ ダウンしなくなる。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージを軽減する。\n③ ダウンしなくなる。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31231",
@@ -1684,14 +1684,14 @@
 		"jp_explainShort": "通常攻撃にバーン付与＋攻撃力劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 通常攻撃に「バーン」効果を付加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 通常攻撃に「バーン」効果を付加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 通常攻撃に「バーン」効果を付加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31234",
 		"jp_explainShort": "通常攻撃にバーン付与＋攻撃力劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 通常攻撃に「バーン」効果を付加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 通常攻撃に「バーン」効果を付加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 通常攻撃に「バーン」効果を付加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31235",
@@ -1712,42 +1712,42 @@
 		"jp_explainShort": "攻撃力劇的増加＋通常攻撃で攻撃力微増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 通常攻撃を行うたびに\n　　 さらに攻撃力をわずかに増加する。（最大時：劇的）\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 通常攻撃を行うたびに\n　　 さらに攻撃力をslightly 増加する。（最大時：劇的）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 通常攻撃を行うたびに\n　　 さらに攻撃力をslightly 増加する。（最大時：劇的）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31238",
 		"jp_explainShort": "攻撃力劇的増加＋通常攻撃で攻撃力微増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 通常攻撃を行うたびに\n　　 さらに攻撃力をわずかに増加する。（最大時：絶大）\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 通常攻撃を行うたびに\n　　 さらに攻撃力をslightly 増加する。（最大時：絶大）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 通常攻撃を行うたびに\n　　 さらに攻撃力をslightly 増加する。（最大時：絶大）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31239",
 		"jp_explainShort": "攻撃力絶大増加＋定期的にＨＰが微回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31240",
 		"jp_explainShort": "攻撃力絶大増加＋定期的にＨＰが微回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 定期的にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31247",
 		"jp_explainShort": "攻撃力絶大増加＋ダメージ防御",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31248",
 		"jp_explainShort": "攻撃力絶大増加＋ダメージ防御",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31251",
@@ -1768,14 +1768,14 @@
 		"jp_explainShort": "攻撃力絶大増＋ＣＰ一定以上時攻撃力大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② ＣＰが一定以上の場合はさらに攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② ＣＰが一定以上の場合はさらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② ＣＰが一定以上の場合はさらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31258",
 		"jp_explainShort": "攻撃力絶大増＋ＣＰ一定以上時攻撃力大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② ＣＰが一定以上の場合はさらに攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② ＣＰが一定以上の場合はさらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② ＣＰが一定以上の場合はさらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31261",
@@ -1796,14 +1796,14 @@
 		"jp_explainShort": "攻撃力大増加＋飛翔剣で大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 飛翔剣を装備している場合は\n　　 さらに攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 飛翔剣を装備している場合は\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 飛翔剣を装備している場合は\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31264",
 		"jp_explainShort": "攻撃力劇的増加＋飛翔剣で大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 飛翔剣を装備している場合は\n　　 さらに攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 飛翔剣を装備している場合は\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 飛翔剣を装備している場合は\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31265",
@@ -1824,14 +1824,14 @@
 		"jp_explainShort": "攻撃力絶大増加＋追加ダメージ効果小増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中チップの追加ダメージ威力を\n　　 それぞれわずかに増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中チップの追加ダメージ威力を\n　　 それぞれslightly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中チップの追加ダメージ威力を\n　　 それぞれslightly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31274",
 		"jp_explainShort": "攻撃力超絶増加＋追加ダメージ効果増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 装備中チップの追加ダメージ威力を\n　　 それぞれ増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 装備中チップの追加ダメージ威力を\n　　 それぞれ増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中チップの追加ダメージ威力を\n　　 それぞれ増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31275",
@@ -1852,14 +1852,14 @@
 		"jp_explainShort": "ダメージ軽減＋攻撃力劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 敵から受けるダメージを軽減する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 敵から受けるダメージを軽減する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージを軽減する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31280",
 		"jp_explainShort": "ダメージ軽減＋攻撃力劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 敵から受けるダメージを軽減する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 敵から受けるダメージを軽減する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージを軽減する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31281",
@@ -1894,70 +1894,70 @@
 		"jp_explainShort": "攻撃力劇的増加＋カウンターダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 そのダメージに応じたカウンターを与える。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 そのダメージに応じたカウンターを与える。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 攻撃対象の敵からダメージを受けた時\n　　 そのダメージに応じたカウンターを与える。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31286",
 		"jp_explainShort": "攻撃力劇的増加＋カウンターダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 そのダメージに応じたカウンターを与える。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 そのダメージに応じたカウンターを与える。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 攻撃対象の敵からダメージを受けた時\n　　 そのダメージに応じたカウンターを与える。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31289",
 		"jp_explainShort": "攻撃力大増加＋JA毎に攻撃力小増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② ジャストアタックごとに\n　　 さらに攻撃力をわずかに増加する。（最大時：絶大）\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② ジャストアタックごとに\n　　 さらに攻撃力をslightly 増加する。（最大時：絶大）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② ジャストアタックごとに\n　　 さらに攻撃力をslightly 増加する。（最大時：絶大）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31290",
 		"jp_explainShort": "攻撃力劇的増加＋JA毎に攻撃力小増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② ジャストアタックごとに\n　　 さらに攻撃力をわずかに増加する。（最大時：絶大）\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② ジャストアタックごとに\n　　 さらに攻撃力をslightly 増加する。（最大時：絶大）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② ジャストアタックごとに\n　　 さらに攻撃力をslightly 増加する。（最大時：絶大）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31293",
 		"jp_explainShort": "攻撃力絶大増＋ダメージ無で攻撃力劇的増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 一定時間ダメージを受けなければ\n　　 さらに攻撃力を増加する。（最大時：超絶）\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 一定時間ダメージを受けなければ\n　　 さらに攻撃力を増加する。（最大時：超絶）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定時間ダメージを受けなければ\n　　 さらに攻撃力を増加する。（最大時：超絶）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31294",
 		"jp_explainShort": "攻撃力絶大増＋ダメージ無で攻撃力劇的増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 一定時間ダメージを受けなければ\n　　 さらに攻撃力を増加する。（最大時：超絶）\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 一定時間ダメージを受けなければ\n　　 さらに攻撃力を増加する。（最大時：超絶）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定時間ダメージを受けなければ\n　　 さらに攻撃力を増加する。（最大時：超絶）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31295",
 		"jp_explainShort": "攻撃力劇的増加＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 自身を状態異常にならなくする。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31296",
 		"jp_explainShort": "攻撃力劇的増加＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 自身を状態異常にならなくする。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31299",
 		"jp_explainShort": "攻撃力劇的増加＋弱点属性大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 攻撃対象の敵の弱点属性を大きく強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 攻撃対象の敵の弱点属性をgreatly 強化する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 攻撃対象の敵の弱点属性をgreatly 強化する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31300",
 		"jp_explainShort": "攻撃力劇的増加＋弱点属性大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 攻撃対象の敵の弱点属性を大きく強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 攻撃対象の敵の弱点属性をgreatly 強化する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 攻撃対象の敵の弱点属性をgreatly 強化する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31301",
@@ -2006,14 +2006,14 @@
 		"jp_explainShort": "攻撃力劇的増加＋ＣＰ最大値増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② ＣＰの最大値を増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② ＣＰの最大値を増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② ＣＰの最大値を増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31310",
 		"jp_explainShort": "攻撃力劇的増加＋ＣＰ最大値増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② ＣＰの最大値を増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② ＣＰの最大値を増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② ＣＰの最大値を増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31313",
@@ -2034,28 +2034,28 @@
 		"jp_explainShort": "攻撃力劇的増加＋一回だけ戦闘不能回避",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 効果中一度だけ戦闘不能にならない。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 効果中一度だけ戦闘不能にならない。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 効果中一度だけ戦闘不能にならない。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31318",
 		"jp_explainShort": "攻撃力絶大増加＋一回だけ戦闘不能回避",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 効果中一度だけ戦闘不能にならない。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 効果中一度だけ戦闘不能にならない。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 効果中一度だけ戦闘不能にならない。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31321",
 		"jp_explainShort": "攻撃力大増加＋ＨＰ一定以上時攻撃力大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② ＨＰが一定以上の場合はさらに攻撃力を大きく増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② ＨＰが一定以上の場合はさらに攻撃力をgreatly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② ＨＰが一定以上の場合はさらに攻撃力をgreatly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31322",
 		"jp_explainShort": "攻撃力大増加＋ＨＰ一定以上時攻撃力大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② ＨＰが一定以上の場合はさらに攻撃力を大きく増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② ＨＰが一定以上の場合はさらに攻撃力をgreatly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② ＨＰが一定以上の場合はさらに攻撃力をgreatly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31323",
@@ -2076,14 +2076,14 @@
 		"jp_explainShort": "攻撃力絶大増加＋光属性武器で攻撃力増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中の武器の属性が光属性の場合\n　　 攻撃力をわずかに増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中の武器の属性が光属性の場合\n　　 攻撃力をslightly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の武器の属性が光属性の場合\n　　 攻撃力をslightly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31326",
 		"jp_explainShort": "攻撃力絶大増加＋光属性武器で攻撃力増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中の武器の属性が光属性の場合\n　　 攻撃力をわずかに増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中の武器の属性が光属性の場合\n　　 攻撃力をslightly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の武器の属性が光属性の場合\n　　 攻撃力をslightly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31329",
@@ -2132,42 +2132,42 @@
 		"jp_explainShort": "攻撃力超絶増加＋チップ効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② チップ発動時のアビリティ効果時間を延長する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② チップ発動時のアビリティ効果時間を延長する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② チップ発動時のアビリティ効果時間を延長する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31338",
 		"jp_explainShort": "攻撃力超絶増加＋チップ効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② チップ発動時のアビリティ効果時間を延長する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② チップ発動時のアビリティ効果時間を延長する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② チップ発動時のアビリティ効果時間を延長する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31341",
 		"jp_explainShort": "攻撃力劇的増加＋一定確率で回避",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 敵からの攻撃を一定確率で回避する。\n[発動条件]スライド操作時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 敵からの攻撃を一定確率で回避する。\n[Activation Trigger] Slide Action\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵からの攻撃を一定確率で回避する。\n[Activation Trigger] Slide Action\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31342",
 		"jp_explainShort": "攻撃力劇的増加＋一定確率で回避",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 敵からの攻撃を一定確率で回避する。\n[発動条件]スライド操作時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 敵からの攻撃を一定確率で回避する。\n[Activation Trigger] Slide Action\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵からの攻撃を一定確率で回避する。\n[Activation Trigger] Slide Action\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31343",
 		"jp_explainShort": "攻撃力劇的増加＋ダメージの一部ＨＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31344",
 		"jp_explainShort": "攻撃力劇的増加＋ダメージの一部ＨＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31347",
@@ -2230,56 +2230,56 @@
 		"jp_explainShort": "攻撃力超絶増加＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 自身を状態異常にならなくする。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31358",
 		"jp_explainShort": "攻撃力超絶増加＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 自身を状態異常にならなくする。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31359",
 		"jp_explainShort": "攻撃力増加＋追加絶大ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② 敵に追加で絶大ダメージを与える。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② 敵に追加で絶大ダメージを与える。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵に追加で絶大ダメージを与える。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31360",
 		"jp_explainShort": "攻撃力大増加＋追加絶大ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 敵に追加で絶大ダメージを与える。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 敵に追加で絶大ダメージを与える。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵に追加で絶大ダメージを与える。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31361",
 		"jp_explainShort": "攻撃力劇的増＋ＨＰ一定以下時ダメージ大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② ＨＰが一定以下の場合はさらに攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② ＨＰが一定以下の場合はさらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② ＨＰが一定以下の場合はさらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31362",
 		"jp_explainShort": "攻撃力劇的増＋ＨＰ一定以下時ダメージ大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② ＨＰが一定以下の場合はさらに攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② ＨＰが一定以下の場合はさらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② ＨＰが一定以下の場合はさらに攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31363",
 		"jp_explainShort": "攻撃力増加＋必殺技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② 必殺技の威力を大きく強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② 必殺技の威力をgreatly 強化する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技の威力をgreatly 強化する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31364",
 		"jp_explainShort": "攻撃力大増加＋必殺技が大強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 必殺技の威力を大きく強化する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 必殺技の威力をgreatly 強化する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技の威力をgreatly 強化する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31365",
@@ -2314,14 +2314,14 @@
 		"jp_explainShort": "攻撃絶大増＋ボス時に炎チップ数で能力上昇",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② ボス戦時は装備中の炎属性チップの枚数に応じて\n　　 さらに攻撃力を大きく増加する。\n③ ボス戦時は装備中の炎属性チップの枚数に応じて\n　　 敵から受けるダメージを軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② ボス戦時は装備中の炎属性チップの枚数に応じて\n　　 さらに攻撃力をgreatly 増加する。\n③ ボス戦時は装備中の炎属性チップの枚数に応じて\n　　 敵から受けるダメージを軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② ボス戦時は装備中の炎属性チップの枚数に応じて\n　　 さらに攻撃力をgreatly 増加する。\n③ ボス戦時は装備中の炎属性チップの枚数に応じて\n　　 敵から受けるダメージを軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31370",
 		"jp_explainShort": "攻撃超絶増＋ボス時に炎チップ数で能力上昇",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② ボス戦時は装備中の炎属性チップの枚数に応じて\n　　 さらに攻撃力を大きく増加する。\n③ ボス戦時は装備中の炎属性チップの枚数に応じて\n　　 敵から受けるダメージを軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② ボス戦時は装備中の炎属性チップの枚数に応じて\n　　 さらに攻撃力をgreatly 増加する。\n③ ボス戦時は装備中の炎属性チップの枚数に応じて\n　　 敵から受けるダメージを軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② ボス戦時は装備中の炎属性チップの枚数に応じて\n　　 さらに攻撃力をgreatly 増加する。\n③ ボス戦時は装備中の炎属性チップの枚数に応じて\n　　 敵から受けるダメージを軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31371",
@@ -2370,14 +2370,14 @@
 		"jp_explainShort": "攻撃力絶大増加＋炎属性武器で攻撃力増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中の武器の属性が炎属性の場合\n　　 攻撃力をわずかに増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中の武器の属性が炎属性の場合\n　　 攻撃力をslightly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の武器の属性が炎属性の場合\n　　 攻撃力をslightly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31378",
 		"jp_explainShort": "攻撃力絶大増加＋炎属性武器で攻撃力増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中の武器の属性が炎属性の場合\n　　 攻撃力をわずかに増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中の武器の属性が炎属性の場合\n　　 攻撃力をslightly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の武器の属性が炎属性の場合\n　　 攻撃力をslightly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31381",
@@ -2440,28 +2440,28 @@
 		"jp_explainShort": "攻撃小増＋必殺技のＣＰ消費増加と劇的強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 必殺技・法術の威力を劇的に強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 必殺技・法術の威力をdramatically 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術の威力をdramatically 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31392",
 		"jp_explainShort": "攻撃小増＋必殺技のＣＰ消費増加と劇的強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 必殺技・法術の威力を劇的に強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 必殺技・法術の威力をdramatically 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術の威力をdramatically 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31393",
 		"jp_explainShort": "攻撃力絶大増＋ＣＰ一定以上時攻撃力劇的増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② ＣＰが一定以上の場合はさらに攻撃力を劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② ＣＰが一定以上の場合はさらに攻撃力をdramatically 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② ＣＰが一定以上の場合はさらに攻撃力をdramatically 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31394",
 		"jp_explainShort": "攻撃力絶大増＋ＣＰ一定以上時攻撃力劇的増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② ＣＰが一定以上の場合はさらに攻撃力を劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② ＣＰが一定以上の場合はさらに攻撃力をdramatically 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② ＣＰが一定以上の場合はさらに攻撃力をdramatically 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31395",
@@ -2510,28 +2510,28 @@
 		"jp_explainShort": "攻撃力劇的増加＋チップ発動率上昇",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 発動率を上昇する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 発動率を上昇する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 発動率を上昇する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31402",
 		"jp_explainShort": "攻撃力劇的増加＋チップ発動率上昇",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 発動率を上昇する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 発動率を上昇する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 発動率を上昇する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31403",
 		"jp_explainShort": "攻撃力劇的増加＋被ダメ―ジ時ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 敵からダメージを受けた際にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 敵からダメージを受けた際にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵からダメージを受けた際にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31404",
 		"jp_explainShort": "攻撃力劇的増加＋被ダメ―ジ時ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 敵からダメージを受けた際にＨＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 敵からダメージを受けた際にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵からダメージを受けた際にＨＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31407",
@@ -2566,14 +2566,14 @@
 		"jp_explainShort": "攻撃力超絶増加＋ＣＰ最大値増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② ＣＰの最大値を増加する。\n[発動条件]ジャストアタック成功もしくはスライド操作時\n[効果時間]短い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② ＣＰの最大値を増加する。\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Short"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② ＣＰの最大値を増加する。\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Short"
 	},
 	{
 		"assign": "31414",
 		"jp_explainShort": "攻撃力超絶増加＋ＣＰ最大値増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② ＣＰの最大値を増加する。\n[発動条件]ジャストアタック成功もしくはスライド操作時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② ＣＰの最大値を増加する。\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② ＣＰの最大値を増加する。\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31415",
@@ -2594,14 +2594,14 @@
 		"jp_explainShort": "攻撃力超絶増＋ダメージの一部ＨＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② ジャストアタックで与えたダメージの一部を\n　　 自身のＨＰとして回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② ジャストアタックで与えたダメージの一部を\n　　 自身のＨＰとして回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② ジャストアタックで与えたダメージの一部を\n　　 自身のＨＰとして回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31422",
 		"jp_explainShort": "攻撃力超絶増＋ダメージの一部ＨＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② ジャストアタックで与えたダメージの一部を\n　　 自身のＨＰとして回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② ジャストアタックで与えたダメージの一部を\n　　 自身のＨＰとして回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② ジャストアタックで与えたダメージの一部を\n　　 自身のＨＰとして回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31423",
@@ -2622,14 +2622,14 @@
 		"jp_explainShort": "攻撃力大増加＋ダメージ防御",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31430",
 		"jp_explainShort": "攻撃力劇的増加＋ダメージ防御",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31431",
@@ -2706,14 +2706,14 @@
 		"jp_explainShort": "攻撃力大増加＋氷風闇の技・法の威力大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 必殺技・法術チップが氷・風・闇属性の場合は\n　　 威力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 必殺技・法術チップが氷・風・闇属性の場合は\n　　 威力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術チップが氷・風・闇属性の場合は\n　　 威力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31446",
 		"jp_explainShort": "攻撃力大増加＋氷風闇の技・法の威力大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 必殺技・法術チップが氷・風・闇属性の場合は\n　　 威力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 必殺技・法術チップが氷・風・闇属性の場合は\n　　 威力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術チップが氷・風・闇属性の場合は\n　　 威力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31447",
@@ -2762,14 +2762,14 @@
 		"jp_explainShort": "攻撃力劇的増加＋追加ダメージ効果小増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 装備中チップの追加ダメージ威力を\n　　 それぞれわずかに増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 装備中チップの追加ダメージ威力を\n　　 それぞれslightly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中チップの追加ダメージ威力を\n　　 それぞれslightly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31456",
 		"jp_explainShort": "攻撃力絶大増加＋追加ダメージ効果増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 装備中チップの追加ダメージ威力を\n　　 それぞれ増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 装備中チップの追加ダメージ威力を\n　　 それぞれ増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中チップの追加ダメージ威力を\n　　 それぞれ増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31459",
@@ -2832,28 +2832,28 @@
 		"jp_explainShort": "攻撃力絶大増＋チップ発動時効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② チップが発動するたびに、装備中の\n　　 氷属性の枚数に応じてわずかに攻撃力を増加する。\n③ チップが発動するたびに、効果時間を延長する。\n[発動条件]ジャストアタック成功時\n[効果時間]短い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② チップが発動するたびに、装備中の\n　　 氷属性の枚数に応じてslightly 攻撃力を増加する。\n③ チップが発動するたびに、効果時間を延長する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Short"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② チップが発動するたびに、装備中の\n　　 氷属性の枚数に応じてslightly 攻撃力を増加する。\n③ チップが発動するたびに、効果時間を延長する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Short"
 	},
 	{
 		"assign": "31468",
 		"jp_explainShort": "攻撃力絶大増＋チップ発動時効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② チップが発動するたびに、装備中の\n　　 氷属性の枚数に応じてわずかに攻撃力を増加する。\n③ チップが発動するたびに、効果時間を延長する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② チップが発動するたびに、装備中の\n　　 氷属性の枚数に応じてslightly 攻撃力を増加する。\n③ チップが発動するたびに、効果時間を延長する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② チップが発動するたびに、装備中の\n　　 氷属性の枚数に応じてslightly 攻撃力を増加する。\n③ チップが発動するたびに、効果時間を延長する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31469",
 		"jp_explainShort": "攻撃劇的増加＋常時ジャストアタック",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 通常攻撃・必殺技・法術が全てジャストアタックとなる。\n[発動条件]攻撃がヒットした時\n[効果時間]短い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 通常攻撃・必殺技・法術が全てジャストアタックとなる。\n[Activation Trigger] Landing an attack\n[Effect Duration] Short"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 通常攻撃・必殺技・法術が全てジャストアタックとなる。\n[Activation Trigger] Landing an attack\n[Effect Duration] Short"
 	},
 	{
 		"assign": "31470",
 		"jp_explainShort": "攻撃劇的増加＋常時ジャストアタック",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 通常攻撃・必殺技・法術が全てジャストアタックとなる。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 通常攻撃・必殺技・法術が全てジャストアタックとなる。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 通常攻撃・必殺技・法術が全てジャストアタックとなる。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31471",
@@ -2902,14 +2902,14 @@
 		"jp_explainShort": "攻撃力大増加＋炎雷光の技・法の威力大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 必殺技・法術チップが炎・雷・光属性の場合は\n　　 威力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 必殺技・法術チップが炎・雷・光属性の場合は\n　　 威力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術チップが炎・雷・光属性の場合は\n　　 威力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31480",
 		"jp_explainShort": "攻撃力大増加＋炎雷光の技・法の威力大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 必殺技・法術チップが炎・雷・光属性の場合は\n　　 威力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 必殺技・法術チップが炎・雷・光属性の場合は\n　　 威力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術チップが炎・雷・光属性の場合は\n　　 威力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31481",
@@ -3112,14 +3112,14 @@
 		"jp_explainShort": "攻撃力劇的増加＋消費ＣＰ減少＋発動率上昇",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 発動率を上昇する。\n③ 消費ＣＰを減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 発動率を上昇する。\n③ 消費ＣＰを減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 発動率を上昇する。\n③ 消費ＣＰを減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31526",
 		"jp_explainShort": "攻撃力劇的増加＋消費ＣＰ減少＋発動率上昇",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 発動率を上昇する。\n③ 消費ＣＰを減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 発動率を上昇する。\n③ 消費ＣＰを減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 発動率を上昇する。\n③ 消費ＣＰを減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31527",
@@ -3154,14 +3154,14 @@
 		"jp_explainShort": "攻撃力劇的増＋炎氷風の技・法威力絶大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 必殺技・法術チップが炎・氷・風属性の場合は\n　　 威力を絶大に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 必殺技・法術チップが炎・氷・風属性の場合は\n　　 威力をimmensely 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術チップが炎・氷・風属性の場合は\n　　 威力をimmensely 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31532",
 		"jp_explainShort": "攻撃力劇的増＋炎氷風の技・法威力絶大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 必殺技・法術チップが炎・氷・風属性の場合は\n　　 威力を絶大に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 必殺技・法術チップが炎・氷・風属性の場合は\n　　 威力をimmensely 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術チップが炎・氷・風属性の場合は\n　　 威力をimmensely 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31535",
@@ -3196,14 +3196,14 @@
 		"jp_explainShort": "消費ＣＰ減少＋攻撃力絶大増＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 消費ＣＰを減少する。\n③ 大剣を装備している場合\n　　 自身を状態異常にならなくする。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 消費ＣＰを減少する。\n③ 大剣を装備している場合\n　　 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n③ 大剣を装備している場合\n　　 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31542",
 		"jp_explainShort": "消費ＣＰ減少＋攻撃力絶大増＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 消費ＣＰを減少する。\n③ 大剣を装備している場合\n　　 自身を状態異常にならなくする。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 消費ＣＰを減少する。\n③ 大剣を装備している場合\n　　 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n③ 大剣を装備している場合\n　　 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31545",
@@ -3266,14 +3266,14 @@
 		"jp_explainShort": "攻撃力劇的増＋必殺技・法術使用毎に小増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 必殺技・法術を使用するごとに\n　　 威力をわずかに増加する。（最大時：劇的）\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 必殺技・法術を使用するごとに\n　　 威力をslightly 増加する。（最大時：劇的）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術を使用するごとに\n　　 威力をslightly 増加する。（最大時：劇的）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31554",
 		"jp_explainShort": "攻撃力劇的増＋必殺技・法術使用毎に小増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 必殺技・法術を使用するごとに\n　　 威力をわずかに増加する。（最大時：絶大）\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 必殺技・法術を使用するごとに\n　　 威力をslightly 増加する。（最大時：絶大）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術を使用するごとに\n　　 威力をslightly 増加する。（最大時：絶大）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31557",
@@ -3294,49 +3294,49 @@
 		"jp_explainShort": "攻撃力が極度に増加＋光属性上限上昇",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性の上限値が上昇する。\n③ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性の上限値が上昇する。\n③ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性の上限値が上昇する。\n③ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31560",
 		"jp_explainShort": "攻撃力が極度に増加＋光属性上限上昇",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性の上限値が上昇する。\n③ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性の上限値が上昇する。\n③ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性の上限値が上昇する。\n③ このチップを装備中は光属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31561",
 		"jp_explainShort": "攻撃力が極度に増加＋光属性上限上昇",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性の上限値が上昇する。\n③ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性の上限値が上昇する。\n③ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② リンクスロットに装備したチップの属性が\n　　 光属性の場合、光属性の上限値が上昇する。\n③ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31562",
 		"jp_explainShort": "攻撃力超絶増＋定期ＨＰ小回復＋ダウン無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 定期的にＨＰをわずかに回復する。\n③ ダウンしなくなる。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 定期的にＨＰをslightly 回復する。\n③ ダウンしなくなる。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n③ ダウンしなくなる。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31563",
 		"jp_explainShort": "攻撃力超絶増＋定期ＨＰ小回復＋ダウン無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 定期的にＨＰをわずかに回復する。\n③ ダウンしなくなる。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 定期的にＨＰをslightly 回復する。\n③ ダウンしなくなる。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n③ ダウンしなくなる。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31564",
 		"jp_explainShort": "攻撃力大増加＋ダメージ防御＋加速",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 装備中の属性種類数に応じて\n　　 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]ジャストアタック成功もしくはスライド操作時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 装備中の属性種類数に応じて\n　　 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の属性種類数に応じて\n　　 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31565",
 		"jp_explainShort": "攻撃力大増加＋ダメージ防御＋加速",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 装備中の属性種類数に応じて\n　　 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]ジャストアタック成功もしくはスライド操作時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 装備中の属性種類数に応じて\n　　 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の属性種類数に応じて\n　　 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Successful JA or Slide Action\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31568",
@@ -3357,14 +3357,14 @@
 		"jp_explainShort": "攻撃力絶大増＋消費ＣＰ減少＋ダメージ軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 消費ＣＰを減少する。\n③ 敵から受けるダメージを大きく軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 消費ＣＰを減少する。\n③ 敵から受けるダメージをgreatly 軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n③ 敵から受けるダメージをgreatly 軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31573",
 		"jp_explainShort": "攻撃力超絶増＋消費ＣＰ減少＋ダメージ軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 消費ＣＰを減少する。\n③ 敵から受けるダメージを大きく軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 消費ＣＰを減少する。\n③ 敵から受けるダメージをgreatly 軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n③ 敵から受けるダメージをgreatly 軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31574",
@@ -3469,14 +3469,14 @@
 		"jp_explainShort": "攻撃力絶大増＋被状態異常時攻撃力劇的増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 自身が状態異常の場合に攻撃力を劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 自身が状態異常の場合に攻撃力をdramatically 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身が状態異常の場合に攻撃力をdramatically 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31596",
 		"jp_explainShort": "攻撃力絶大増＋被状態異常時攻撃力劇的増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 自身が状態異常の場合に攻撃力を劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 自身が状態異常の場合に攻撃力をdramatically 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身が状態異常の場合に攻撃力をdramatically 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31597",
@@ -3539,14 +3539,14 @@
 		"jp_explainShort": "攻撃大増＋属性追加ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 雷属性値に応じて敵に追加で特大ダメージを与える。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 雷属性値に応じて敵に追加で特大ダメージを与える。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 雷属性値に応じて敵に追加で特大ダメージを与える。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31612",
 		"jp_explainShort": "攻撃劇的増＋属性追加ダメージ",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 雷属性値に応じて敵に追加で特大ダメージを与える。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 雷属性値に応じて敵に追加で特大ダメージを与える。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 雷属性値に応じて敵に追加で特大ダメージを与える。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31613",
@@ -3567,14 +3567,14 @@
 		"jp_explainShort": "消費ＣＰ減少＋攻撃力絶大増＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 消費ＣＰを減少する。\n③ 抜剣を装備している場合\n　　 自身を状態異常にならなくする。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 消費ＣＰを減少する。\n③ 抜剣を装備している場合\n　　 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n③ 抜剣を装備している場合\n　　 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31616",
 		"jp_explainShort": "消費ＣＰ減少＋攻撃力絶大増＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 消費ＣＰを減少する。\n③ 抜剣を装備している場合\n　　 自身を状態異常にならなくする。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 消費ＣＰを減少する。\n③ 抜剣を装備している場合\n　　 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n③ 抜剣を装備している場合\n　　 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31617",
@@ -3595,35 +3595,35 @@
 		"jp_explainShort": "攻撃力絶大増＋チップ発動時効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② チップが発動するたびに、攻撃力をわずかに増加する。\n③ チップが発動するたびに、効果時間を延長する。\n[発動条件]ジャストアタック成功時\n[効果時間]短い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② チップが発動するたびに、攻撃力をslightly 増加する。\n③ チップが発動するたびに、効果時間を延長する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Short"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② チップが発動するたびに、攻撃力をslightly 増加する。\n③ チップが発動するたびに、効果時間を延長する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Short"
 	},
 	{
 		"assign": "31620",
 		"jp_explainShort": "攻撃力超絶増＋チップ発動時効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② チップが発動するたびに、攻撃力をわずかに増加する。\n③ チップが発動するたびに、効果時間を延長する。\n[発動条件]ジャストアタック成功時\n[効果時間]短い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② チップが発動するたびに、攻撃力をslightly 増加する。\n③ チップが発動するたびに、効果時間を延長する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Short"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② チップが発動するたびに、攻撃力をslightly 増加する。\n③ チップが発動するたびに、効果時間を延長する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Short"
 	},
 	{
 		"assign": "31621",
 		"jp_explainShort": "攻撃力超絶増＋技法威力大強化＋ＣＰ消費増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 必殺技・法術の威力を大きく強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 雷属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 必殺技・法術の威力をgreatly 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 雷属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術の威力をgreatly 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 雷属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31622",
 		"jp_explainShort": "攻撃力超絶増＋技法威力大強化＋ＣＰ消費増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 必殺技・法術の威力を大きく強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 雷属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 必殺技・法術の威力をgreatly 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 雷属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術の威力をgreatly 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 雷属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31623",
 		"jp_explainShort": "攻撃力超絶増＋技法威力大強化＋ＣＰ消費増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 必殺技・法術の威力を大きく強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 雷属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 必殺技・法術の威力をgreatly 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 雷属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術の威力をgreatly 強化する。\n③ 必殺技・法術のＣＰ消費量を増加する。\n④ リンクスロットに装備したチップの属性が\n　　 雷属性の場合に③の効果を無効にする。\n⑤ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31626",
@@ -3658,35 +3658,35 @@
 		"jp_explainShort": "攻撃力極度増＋定期ＨＰ小回復＋効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 定期的にＨＰをわずかに回復する。\n③ リンクスロットに装備したチップの属性が炎属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が炎属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が炎属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31631",
 		"jp_explainShort": "攻撃力極度増＋定期ＨＰ小回復＋効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 定期的にＨＰをわずかに回復する。\n③ リンクスロットに装備したチップの属性が炎属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が炎属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が炎属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は炎属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31632",
 		"jp_explainShort": "攻撃力極度増＋定期ＨＰ小回復＋効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 定期的にＨＰをわずかに回復する。\n③ リンクスロットに装備したチップの属性が炎属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が炎属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が炎属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31636",
 		"jp_explainShort": "攻撃力絶大増加＋ＨＰ小回復＋ＣＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② ＨＰをわずかに回復する。\n③ ＣＰを回復する。\n[発動条件]ジャストアタック成功時\n[効果時間]短い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n②  Your HP slightly recovers.\n③ ＣＰを回復する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Short"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n②  Your HP slightly recovers.\n③ ＣＰを回復する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Short"
 	},
 	{
 		"assign": "31637",
 		"jp_explainShort": "攻撃力絶大増加＋ＨＰ小回復＋ＣＰ回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② ＨＰをわずかに回復する。\n③ ＣＰを回復する。\n[発動条件]ジャストアタック成功時\n[効果時間]短い時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n②  Your HP slightly recovers.\n③ ＣＰを回復する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Short"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n②  Your HP slightly recovers.\n③ ＣＰを回復する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Short"
 	},
 	{
 		"assign": "31638",
@@ -3875,14 +3875,14 @@
 		"jp_explainShort": "攻撃力劇的増加＋覇滅種にダメージ劇的増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 覇滅種に対して与えるダメージを劇的に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力を劇的に増加する。\n② 覇滅種に対して与えるダメージをdramatically 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is 劇的にboosted.\n     <color=yellow>[E-Frame]</color>\n② 覇滅種に対して与えるダメージをdramatically 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31682",
 		"jp_explainShort": "攻撃力劇的増加＋覇滅種にダメージ絶大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 覇滅種に対して与えるダメージを絶大に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 覇滅種に対して与えるダメージをimmensely 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 覇滅種に対して与えるダメージをimmensely 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31683",
@@ -3952,42 +3952,42 @@
 		"jp_explainShort": "消費ＣＰ減少＋攻撃力絶大増＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 消費ＣＰを減少する。\n③ 鋼拳を装備している場合\n　　 自身を状態異常にならなくする。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 消費ＣＰを減少する。\n③ 鋼拳を装備している場合\n　　 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n③ 鋼拳を装備している場合\n　　 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31693",
 		"jp_explainShort": "消費ＣＰ減少＋攻撃力絶大増＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 消費ＣＰを減少する。\n③ 鋼拳を装備している場合\n　　 自身を状態異常にならなくする。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 消費ＣＰを減少する。\n③ 鋼拳を装備している場合\n　　 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n③ 鋼拳を装備している場合\n　　 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31694",
 		"jp_explainShort": "攻撃力絶大増＋闇光属性武器で攻撃力大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中の武器の属性が光・闇の場合\n　　 攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中の武器の属性が光・闇の場合\n　　 攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の武器の属性が光・闇の場合\n　　 攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31695",
 		"jp_explainShort": "攻撃力絶大増＋闇光属性武器で攻撃力大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中の武器の属性が光・闇の場合\n　　 攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中の武器の属性が光・闇の場合\n　　 攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の武器の属性が光・闇の場合\n　　 攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31696",
 		"jp_explainShort": "攻撃力絶大増加＋全アクティブチップ発動",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31697",
 		"jp_explainShort": "攻撃力絶大増加＋全アクティブチップ発動",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術以外の全てのアクティブチップを発動する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31698",
@@ -4190,14 +4190,14 @@
 		"jp_explainShort": "攻撃力大増加＋属性種類ダメージ軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 装備中チップの属性種類数に応じて\n　　 敵から受けるダメージを軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 装備中チップの属性種類数に応じて\n　　 敵から受けるダメージを軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中チップの属性種類数に応じて\n　　 敵から受けるダメージを軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31741",
 		"jp_explainShort": "攻撃力大増加＋属性種類ダメージ軽減",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を大きく増加する。\n② 装備中チップの属性種類数に応じて\n　　 敵から受けるダメージを軽減する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をgreatly 増加する。\n② 装備中チップの属性種類数に応じて\n　　 敵から受けるダメージを軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is greatly boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中チップの属性種類数に応じて\n　　 敵から受けるダメージを軽減する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31744",
@@ -4274,21 +4274,21 @@
 		"jp_explainShort": "攻撃力超絶増＋定期ＣＰ回復＋攻撃威力強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31766",
 		"jp_explainShort": "攻撃力超絶増＋定期ＣＰ回復＋攻撃威力強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31767",
 		"jp_explainShort": "攻撃力超絶増＋定期ＣＰ回復＋攻撃威力強化",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰを回復する。\n③ 全てのリンクスロットに装備した\n　　 ウェポノイドチップの枚数に応じ攻撃の威力を強化する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31768",
@@ -4309,14 +4309,14 @@
 		"jp_explainShort": "攻撃力増加＋必殺技・法術使用毎に大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② 必殺技・法術を使用するごとに\n　　 威力を大きく増加する。（最大時：超絶）\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② 必殺技・法術を使用するごとに\n　　 威力をgreatly 増加する。（最大時：超絶）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術を使用するごとに\n　　 威力をgreatly 増加する。（最大時：超絶）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31771",
 		"jp_explainShort": "攻撃力増加＋必殺技・法術使用毎に大増加",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② 必殺技・法術を使用するごとに\n　　 威力を大きく増加する。（最大時：超絶）\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② 必殺技・法術を使用するごとに\n　　 威力をgreatly 増加する。（最大時：超絶）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術を使用するごとに\n　　 威力をgreatly 増加する。（最大時：超絶）\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "31774",
@@ -4463,21 +4463,21 @@
 		"jp_explainShort": "攻撃力増＋ＣＰ回復量増＋属性一致攻撃力増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 通常攻撃によるＣＰの回復量を大きく増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31805",
 		"jp_explainShort": "攻撃力増＋ＣＰ回復量増＋属性一致攻撃力増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 通常攻撃によるＣＰの回復量を大きく増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は風属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31806",
 		"jp_explainShort": "攻撃力増＋ＣＰ回復量増＋属性一致攻撃力増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 通常攻撃によるＣＰの回復量を大きく増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n③ 装備中の武器の属性がリンクスロットに装備した\n　　 チップの属性と一致する場合、攻撃力を増加する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31807",
@@ -4526,14 +4526,14 @@
 		"jp_explainShort": "攻撃力絶大増加＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 自身を状態異常にならなくする。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31814",
 		"jp_explainShort": "攻撃力絶大増加＋状態異常無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 自身を状態異常にならなくする。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 自身を状態異常にならなくする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31815",
@@ -4582,14 +4582,14 @@
 		"jp_explainShort": "攻撃力劇的増加＋雷風闇の技法威力絶大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 必殺技・法術チップが雷・風・闇属性の場合は\n　　 威力を絶大に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 必殺技・法術チップが雷・風・闇属性の場合は\n　　 威力をimmensely 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術チップが雷・風・闇属性の場合は\n　　 威力をimmensely 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31822",
 		"jp_explainShort": "攻撃力劇的増加＋雷風闇の技法威力絶大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を劇的に増加する。\n② 必殺技・法術チップが雷・風・闇属性の場合は\n　　 威力を絶大に増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をdramatically 増加する。\n② 必殺技・法術チップが雷・風・闇属性の場合は\n　　 威力をimmensely 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is dramatically boosted.\n     <color=yellow>[E-Frame]</color>\n② 必殺技・法術チップが雷・風・闇属性の場合は\n　　 威力をimmensely 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31825",
@@ -4610,21 +4610,21 @@
 		"jp_explainShort": "攻撃力超絶増＋消費ＣＰ減＋特定条件時追撃",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ハンターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ハンターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ハンターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31828",
 		"jp_explainShort": "攻撃力超絶増＋消費ＣＰ減＋特定条件時追撃",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ハンターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ハンターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ハンターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31829",
 		"jp_explainShort": "攻撃力超絶増＋消費ＣＰ減＋特定条件時追撃",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ハンターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ハンターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 ハンターかブレイバーの場合、\n　　 敵に追加でダメージを与える。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31832",
@@ -4729,14 +4729,14 @@
 		"jp_explainShort": "攻撃力絶大増＋炎氷属性武器で攻撃力大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中の武器の属性が炎・氷の場合\n　　 攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中の武器の属性が炎・氷の場合\n　　 攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の武器の属性が炎・氷の場合\n　　 攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31867",
 		"jp_explainShort": "攻撃力絶大増＋炎氷属性武器で攻撃力大増",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を絶大に増加する。\n② 装備中の武器の属性が炎・氷の場合\n　　 攻撃力を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をimmensely 増加する。\n② 装備中の武器の属性が炎・氷の場合\n　　 攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is immensely boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の武器の属性が炎・氷の場合\n　　 攻撃力をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31868",
@@ -4799,21 +4799,21 @@
 		"jp_explainShort": "攻撃力極度増＋定期ＨＰ小回復＋効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 定期的にＨＰをわずかに回復する。\n③ リンクスロットに装備したチップの属性が闇属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が闇属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が闇属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31877",
 		"jp_explainShort": "攻撃力極度増＋定期ＨＰ小回復＋効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 定期的にＨＰをわずかに回復する。\n③ リンクスロットに装備したチップの属性が闇属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が闇属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が闇属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31878",
 		"jp_explainShort": "攻撃力極度増＋定期ＨＰ小回復＋効果時間延長",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 定期的にＨＰをわずかに回復する。\n③ リンクスロットに装備したチップの属性が闇属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が闇属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＨＰをslightly 回復する。\n③ リンクスロットに装備したチップの属性が闇属性の場合\n　　 チップ発動時のアビリティ効果時間を延長する。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "31879",
@@ -8544,14 +8544,14 @@
 		"jp_explainShort": "風属性時増＋短杖時増＋定期ＨＰ小回復",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 通常攻撃によるＣＰの回復量を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "32641",
 		"jp_explainShort": "-",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 通常攻撃によるＣＰの回復量を大きく増加する。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 通常攻撃によるＣＰの回復量をgreatly 増加する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "32642",
@@ -9643,21 +9643,21 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 フォースかブレイバーの場合、\n　　 敵に追加で小ダメージを与える。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 フォースかブレイバーの場合、\n　　 敵に追加で小ダメージを与える。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 フォースかブレイバーの場合、\n　　 敵に追加で小ダメージを与える。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "32835",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 フォースかブレイバーの場合、\n　　 敵に追加で小ダメージを与える。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 フォースかブレイバーの場合、\n　　 敵に追加で小ダメージを与える。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 フォースかブレイバーの場合、\n　　 敵に追加で小ダメージを与える。\n④ このチップを装備中は雷属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "32836",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 フォースかブレイバーの場合、\n　　 敵に追加で小ダメージを与える。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 フォースかブレイバーの場合、\n　　 敵に追加で小ダメージを与える。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n③ リンクスロットに装備したチップのクラスボーナスが\n　　 フォースかブレイバーの場合、\n　　 敵に追加で小ダメージを与える。\n④ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "32837",
@@ -9881,14 +9881,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 装備中の炎属性チップの枚数に応じて\n　　 さらにわずかに攻撃力を増加する。\n③ ＨＰをわずかに回復する。\n[発動条件]ジャストアタック成功時",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 装備中の炎属性チップの枚数に応じて\n　　 さらにslightly 攻撃力を増加する。\n③  Your HP slightly recovers.\n[Activation Trigger] Successful Just Attack"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の炎属性チップの枚数に応じて\n　　 さらにslightly 攻撃力を増加する。\n③  Your HP slightly recovers.\n[Activation Trigger] Successful Just Attack"
 	},
 	{
 		"assign": "32872",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を超絶に増加する。\n② 装備中の炎属性チップの枚数に応じて\n　　 さらにわずかに攻撃力を増加する。\n③ ＨＰをわずかに回復する。\n[発動条件]ジャストアタック成功時",
-		"tr_explainLong": "① 攻撃力をoverwhelmingly 増加する。\n② 装備中の炎属性チップの枚数に応じて\n　　 さらにslightly 攻撃力を増加する。\n③  Your HP slightly recovers.\n[Activation Trigger] Successful Just Attack"
+		"tr_explainLong": "①  Your damage is overwhelmingly boosted.\n     <color=yellow>[E-Frame]</color>\n② 装備中の炎属性チップの枚数に応じて\n　　 さらにslightly 攻撃力を増加する。\n③  Your HP slightly recovers.\n[Activation Trigger] Successful Just Attack"
 	},
 	{
 		"assign": "32876",
@@ -9965,14 +9965,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 定期的にＣＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 定期的にＣＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "32893",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を増加する。\n② 定期的にＣＰをわずかに回復する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力を増加する。\n② 定期的にＣＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is boosted.\n     <color=yellow>[E-Frame]</color>\n② 定期的にＣＰをslightly 回復する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "32894",
@@ -10063,21 +10063,21 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 発動率を上昇する。\n③ 極討サバイバルで\n　　 敵を５０体撃破するたびに、効果時間を延長する。\n　　 敵を２５０体撃破するたびに、ＨＰとＨＰの最大値を\n　　 わずかに上昇する。（最大時：大きく）\n④ 数多くの攻撃をヒットさせると真の力を解放する。\n⑤ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 発動率を上昇する。\n③ 極討サバイバルで\n　　 敵を５０体撃破するたびに、効果時間を延長する。\n　　 敵を２５０体撃破するたびに、ＨＰとＨＰの最大値を\n　　 slightly 上昇する。（最大時：greatly ）\n④ 数多くの攻撃をヒットさせると真の力を解放する。\n⑤ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 発動率を上昇する。\n③ 極討サバイバルで\n　　 敵を５０体撃破するたびに、効果時間を延長する。\n　　 敵を２５０体撃破するたびに、ＨＰとＨＰの最大値を\n　　 slightly 上昇する。（最大時：greatly ）\n④ 数多くの攻撃をヒットさせると真の力を解放する。\n⑤ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "32907",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 発動率を上昇する。\n③ 極討サバイバルで\n　　 敵を５０体撃破するたびに、効果時間を延長する。\n　　 敵を２５０体撃破するたびに、ＨＰとＨＰの最大値を\n　　 わずかに上昇する。（最大時：大きく）\n④ 数多くの攻撃をヒットさせると真の力を解放する。\n⑤ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 発動率を上昇する。\n③ 極討サバイバルで\n　　 敵を５０体撃破するたびに、効果時間を延長する。\n　　 敵を２５０体撃破するたびに、ＨＰとＨＰの最大値を\n　　 slightly 上昇する。（最大時：greatly ）\n④ 数多くの攻撃をヒットさせると真の力を解放する。\n⑤ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 発動率を上昇する。\n③ 極討サバイバルで\n　　 敵を５０体撃破するたびに、効果時間を延長する。\n　　 敵を２５０体撃破するたびに、ＨＰとＨＰの最大値を\n　　 slightly 上昇する。（最大時：greatly ）\n④ 数多くの攻撃をヒットさせると真の力を解放する。\n⑤ このチップを装備中は闇属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "32908",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力を極度に増加する。\n② 発動率を上昇する。\n③ 極討サバイバルで\n　　 敵を５０体撃破するたびに、効果時間を延長する。\n　　 敵を２５０体撃破するたびに、ＨＰとＨＰの最大値を\n　　 わずかに上昇する。（最大時：大きく）\n④ 数多くの攻撃をヒットさせると真の力を解放する。\n⑤ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をmaximally 増加する。\n② 発動率を上昇する。\n③ 極討サバイバルで\n　　 敵を５０体撃破するたびに、効果時間を延長する。\n　　 敵を２５０体撃破するたびに、ＨＰとＨＰの最大値を\n　　 slightly 上昇する。（最大時：greatly ）\n④ 数多くの攻撃をヒットさせると真の力を解放する。\n⑤ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is maximally boosted.\n     <color=yellow>[E-Frame]</color>\n② 発動率を上昇する。\n③ 極討サバイバルで\n　　 敵を５０体撃破するたびに、効果時間を延長する。\n　　 敵を２５０体撃破するたびに、ＨＰとＨＰの最大値を\n　　 slightly 上昇する。（最大時：greatly ）\n④ 数多くの攻撃をヒットさせると真の力を解放する。\n⑤ このチップを装備中は全属性の必殺技・法術の\n　　 チップコストが減少する。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "32909",
@@ -13724,14 +13724,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 敵からの攻撃を一定確率で回避する。\n[発動条件]攻撃がヒットした時\n[効果時間]短い時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 敵からの攻撃を一定確率で回避する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Short"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵からの攻撃を一定確率で回避する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Short"
 	},
 	{
 		"assign": "20014",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 敵からの攻撃を一定確率で回避する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 敵からの攻撃を一定確率で回避する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵からの攻撃を一定確率で回避する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20075",
@@ -13752,42 +13752,42 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[発動条件]バトル開始時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Activation Trigger] Start of battle\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Activation Trigger] Start of battle\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20016",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[発動条件]バトル開始時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Activation Trigger] Start of battle\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 与えたダメージの一部を自身のＨＰとして回復する。\n[Activation Trigger] Start of battle\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20041",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 消費ＣＰを減少する。\n[発動条件]攻撃がヒットした時\n[効果時間]短い時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 消費ＣＰを減少する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Short"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Short"
 	},
 	{
 		"assign": "20042",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 消費ＣＰを減少する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 消費ＣＰを減少する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 消費ＣＰを減少する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20047",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 敵に追加で小ダメージを与える。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]攻撃ヒット時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 敵に追加で小ダメージを与える。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵に追加で小ダメージを与える。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20048",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 敵に追加で小ダメージを与える。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]攻撃ヒット時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 敵に追加で小ダメージを与える。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵に追加で小ダメージを与える。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "5610",
@@ -14088,14 +14088,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[発動条件]ジャストアタック成功時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20024",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[発動条件]ジャストアタック成功時\n[効果時間]長い時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n[Activation Trigger] Successful Just Attack\n[Effect Duration] Long"
 	},
 	{
 		"assign": "20029",
@@ -14186,14 +14186,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 敵から受けるダメージを大きく軽減する。\n③ ダウンしなくなる。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 敵から受けるダメージをgreatly 軽減する。\n③ ダウンしなくなる。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージをgreatly 軽減する。\n③ ダウンしなくなる。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20040",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 敵から受けるダメージを大きく軽減する。\n③ ダウンしなくなる。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 敵から受けるダメージをgreatly 軽減する。\n③ ダウンしなくなる。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージをgreatly 軽減する。\n③ ダウンしなくなる。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "25310",
@@ -14242,28 +14242,28 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 そのダメージに応じたカウンターを与える。\n[発動条件]攻撃がヒットした時\n[効果時間]短い時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 そのダメージに応じたカウンターを与える。\n[Activation Trigger] Landing an attack\n[Effect Duration] Short"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 攻撃対象の敵からダメージを受けた時\n　　 そのダメージに応じたカウンターを与える。\n[Activation Trigger] Landing an attack\n[Effect Duration] Short"
 	},
 	{
 		"assign": "20046",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 そのダメージに応じたカウンターを与える。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 攻撃対象の敵からダメージを受けた時\n　　 そのダメージに応じたカウンターを与える。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 攻撃対象の敵からダメージを受けた時\n　　 そのダメージに応じたカウンターを与える。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20051",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20052",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 一定ダメージを防ぐ効果をＨＰに上乗せする。\n③ 自身の通常攻撃と移動のスピードを加速する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20055",
@@ -14298,14 +14298,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 海岸か海底での戦闘で\n　　 さらに攻撃力を大きく増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 海岸か海底での戦闘で\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 海岸か海底での戦闘で\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20058",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 海岸か海底での戦闘で\n　　 さらに攻撃力を大きく増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 海岸か海底での戦闘で\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 海岸か海底での戦闘で\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20061",
@@ -14326,14 +14326,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 敵から受けるダメージを軽減する。\n[発動条件]敵からダメージを受けた時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 敵から受けるダメージを軽減する。\n[Activation Trigger] Taking damage from enemies\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージを軽減する。\n[Activation Trigger] Taking damage from enemies\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20064",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 敵から受けるダメージを軽減する。\n[発動条件]敵からダメージを受けた時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 敵から受けるダメージを軽減する。\n[Activation Trigger] Taking damage from enemies\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 敵から受けるダメージを軽減する。\n[Activation Trigger] Taking damage from enemies\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20067",
@@ -14354,13 +14354,13 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 黒ノ領域での戦闘で\n　　 さらに攻撃力を大きく増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 黒ノ領域での戦闘で\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 黒ノ領域での戦闘で\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	},
 	{
 		"assign": "20070",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 攻撃力をわずかに増加する。\n② 黒ノ領域での戦闘で\n　　 さらに攻撃力を大きく増加する。\n[発動条件]攻撃がヒットした時\n[効果時間]一定時間",
-		"tr_explainLong": "① 攻撃力をslightly 増加する。\n② 黒ノ領域での戦闘で\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
+		"tr_explainLong": "①  Your damage is slightly boosted.\n     <color=yellow>[E-Frame]</color>\n② 黒ノ領域での戦闘で\n　　 さらに攻撃力をgreatly 増加する。\n[Activation Trigger] Landing an attack\n[Effect Duration] Medium"
 	}
 ]
