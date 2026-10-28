@@ -6,7 +6,7 @@ import os
 import regex
 import argparse
 
-json_loc = os.path.join("..", "json")
+json_loc = os.path.join("", "json")
 
 parser = argparse.ArgumentParser(
     description = "Translates ticket item descriptions.")
@@ -24,7 +24,7 @@ LANGS = {-1: "JP",
          3: "CN"}
 # Add more later.
 parser.add_argument("-l", type = int, dest = "lang", action = "store",
-                    choices = [0, 1, 2, 3], default = 0, metavar = "N",
+                    choices = [0, 1, 2, 3], default = 3, metavar = "N",
                     help = ("Set a language to translate into. "
                             "Available options are 0 (EN), 1 (KO), 2 (RU) and 3 (CN). "
                             "Defaults to EN."))
@@ -1812,20 +1812,20 @@ cv_names = {
     "市ノ瀬 加那": ["Kana Ichinose", "", "", "市之瀨 加那"],
     "小林 千晃": ["Chiaki Kobayashi", "", "", "小林 千晃"],
     "阿部 敦": ["Atsushi Abe", "", "", "阿部 敦"],
-    "ささき のぞみ": ["Nozomi Sasaki", "", "", ""],
-    "でびでび・でびる": ["Debidebi Debiru", "", "", ""],
-    "アルス・アルマル": ["Ars Almal", "", "", ""],
-    "ニュイ・ソシエール": ["Nui Sociere", "", "", ""],
+    "ささき のぞみ": ["Nozomi Sasaki", "", "", "佐佐木 望"],
+    "でびでび・でびる": ["Debidebi Debiru", "", "", "德比德比·德比魯"],
+    "アルス・アルマル": ["Ars Almal", "", "", "阿露絲·阿爾瑪"],
+    "ニュイ・ソシエール": ["Nui Sociere", "", "", "紐伊·索西艾瑞"],
     "竜胆 尊": ["Mikoto Rindou", "", "", "竜胆 尊"],
     "岡咲 美保": ["Miho Okasaki", "", "", "岡咲 美保"],
     "日高 里菜": ["Rina Hidaka", "", "", "日高 里菜"],
-    "永瀬 アンナ": ["Anna Nagase", "", "", ""],
+    "永瀬 アンナ": ["Anna Nagase", "", "", "永瀨 安奈"],
     "五十嵐 梨花": ["Rika Igarashi", "", "", "五十嵐 梨花"],
-    "倉持 めると": ["Meruto Kuramochi", "", "", ""],
-    "ソフィア・ヴァレンタイン": ["Sophia Valentine", "", "", ""],
-    "狂蘭 メロコ": ["Meloco Kyoran", "", "", ""],
-    "伊藤 ゆいな": ["Yuina Ito", "", "", ""],
-    "花守 ゆみり": ["Yumiri Hanamori", "", "", ""],
+    "倉持 めると": ["Meruto Kuramochi", "", "", "倉持 妹路特"],
+    "ソフィア・ヴァレンタイン": ["Sophia Valentine", "", "", "蘇菲婭·瓦綸玎"],
+    "狂蘭 メロコ": ["Meloco Kyoran", "", "", "Meloco Kyoran"],
+    "伊藤 ゆいな": ["Yuina Ito", "", "", "伊藤 結衣奈"],
+    "花守 ゆみり": ["Yumiri Hanamori", "", "", "花守 由美里"],
     "？？？": ["???", "???", "???", "？？？"],
     "": ["Unknown", "알 수 없는", "Неизвестно", ""]
     }
