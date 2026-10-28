@@ -312,14 +312,14 @@
 		"jp_explainShort": "定期的にＨＰが小回復＋ダウン無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 定期的にＨＰをわずかに回復する。\n② ダウンしなくなる。\n[発動条件]敵からの攻撃でＨＰが一定以下になった時\n[効果時間]一定時間",
-		"tr_explainLong": "① 定期的にＨＰをslightly回復する。\n② ダウンしなくなる。\n[Activation Trigger]敵からの攻撃でＨＰが一定以下になった時\n[Effect Duration]一定時間"
+		"tr_explainLong": "① 定期的にＨＰをslightly回復する。\n② ダウンしなくなる。\n[Activation Trigger] Damaged by enemy to low enough HP\n[Effect Duration]一定時間"
 	},
 	{
 		"assign": "30052",
 		"jp_explainShort": "定期的にＨＰが小回復＋ダウン無効",
 		"tr_explainShort": "",
 		"jp_explainLong": "① 定期的にＨＰをわずかに回復する。\n② ダウンしなくなる。\n[発動条件]敵からの攻撃でＨＰが一定以下になった時\n[効果時間]一定時間",
-		"tr_explainLong": "① 定期的にＨＰをslightly回復する。\n② ダウンしなくなる。\n[Activation Trigger]敵からの攻撃でＨＰが一定以下になった時\n[Effect Duration]一定時間"
+		"tr_explainLong": "① 定期的にＨＰをslightly回復する。\n② ダウンしなくなる。\n[Activation Trigger] Damaged by enemy to low enough HP\n[Effect Duration]一定時間"
 	},
 	{
 		"assign": "30055",
@@ -10406,14 +10406,14 @@
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ＨＰを大きく回復する。\n② ＣＰを大きく回復する。\n[発動条件]敵からの攻撃でＨＰが一定以下になった時",
-		"tr_explainLong": "① ＨＰをgreatly回復する。\n② ＣＰをgreatly回復する。\n[Activation Trigger]敵からの攻撃でＨＰが一定以下になった時"
+		"tr_explainLong": "① ＨＰをgreatly回復する。\n② ＣＰをgreatly回復する。\n[Activation Trigger] Damaged by enemy to low enough HP"
 	},
 	{
 		"assign": "80120",
 		"jp_explainShort": "",
 		"tr_explainShort": "",
 		"jp_explainLong": "① ＨＰを劇的に回復する。\n② ＣＰを劇的に回復する。\n[発動条件]敵からの攻撃でＨＰが一定以下になった時",
-		"tr_explainLong": "① ＨＰを劇的に回復する。\n② ＣＰをdramatically回復する。\n[Activation Trigger]敵からの攻撃でＨＰが一定以下になった時"
+		"tr_explainLong": "① ＨＰを劇的に回復する。\n② ＣＰをdramatically回復する。\n[Activation Trigger] Damaged by enemy to low enough HP"
 	},
 	{
 		"assign": "80310",
