@@ -6,7 +6,7 @@ import os
 import regex
 import argparse
 
-json_loc = os.path.join("..", "json")
+json_loc = os.path.join("", "json")
 
 parser = argparse.ArgumentParser(
     description = "Translates ticket item descriptions.")
@@ -32,10 +32,15 @@ parser.add_argument("-l", type = int, dest = "lang", action = "store",
 # Switch for retranslating all descriptions.
 parser.add_argument("-r", dest = "redo", action = "store_true",
                     help = ("Force all ticket descriptions to be processed, "
-                            "even if already translated."))
+                            "even if already translated. "
+                            "Always on for CN."))
 
 args = parser.parse_args()
 TRANS_ALL, LANG, REDO_ALL = args.all, args.lang, args.redo
+
+# Always retranslate all descriptions for CN.
+if LANG == 3:
+    REDO_ALL = True
 
 # Full width character transtable
 chartable = [
@@ -50,6 +55,13 @@ chartable = [
 
     "".maketrans("",
     "")]
+
+# Split the name ("<green>“...”<c>\n") added by TicketGenerateFromGamefile from the description
+def split_name_prefix(item):
+    name_prefix = regex.match(r'<green>“[^\n]*”<c>\n', item["tr_explain"])
+    name_prefix = name_prefix.group(0) if name_prefix else ""
+    item["tr_explain"] = item["tr_explain"][len(name_prefix):]
+    return name_prefix
 
 ####################################################################################################
 
@@ -110,7 +122,7 @@ ndesc_n_formats = ["Unlocks {a}new {itype} for use.",
 ndesc_allcharacters_formats = ["A {itype} that unlocks for all\ncharacters on your account.",
                  "사용하면 새로운 {itype} 아이템을\n모든 캐릭터에 선택할 수 있게 됩니다.",
                  "{itype}, разблок. для\nвсех персонажей аккаунта.",
-                 "使用後所有角色均可選用新的{itype}。"]
+                 "使用後所有角色均可選用\n新的{itype}。"]
 
 # JP text: 
     # 使用すると新しい{itype}パターンが\n
@@ -196,7 +208,7 @@ weapon_ngs_locks = ["※Shows equipped weapons.\n"
 ngsface_locks = ["※Not compatible with some heads/faces.",
                  "",
                  "※",
-                 "※"]
+                 "※不適用於部分面部、頭部部件"]
 
 # JP text: 
     # ※『PSO2』ではLv.100以上の\n
@@ -223,6 +235,24 @@ weapon_posture = [("※Uses adjusted weapon positions."),
                   (""),
                   ("※Исп. скоррект. положение."),
                   ("※自動調整武器架勢的位置")]
+
+# JP text:
+    # アイテムラボの“強化素材交換”で\n
+    # 特定のカプセルとの交換にも用いられる。
+capsule_exchange = [("Can also be exchanged for specific\n"
+                     "capsules at the Item Lab."),
+                    (""),
+                    (""),
+                    ("也可在道具實驗室的“交換強化素材”處\n"
+                     "用於交換特定的膠囊。")]
+
+# JP text:
+    # ★７以上のEX特殊能力は１つのみ追加可能
+capsule_ex_limit = [("Only 1 EX Special Ability of\n"
+                     "7★ or above can be added"),
+                    (""),
+                    (""),
+                    ("僅可追加1個★7或以上的EX特殊能力")]
 
 def translate_layer_desc(item, file_name):
     item_name = ""
@@ -366,7 +396,9 @@ for name in layered_file_names:
     newtranslations = False
     
     for item in items:
+        name_prefix = split_name_prefix(item)
         problem = translate_nlayer_desc(item, name) if "選択可能になる。" in item["jp_explain"] else translate_layer_desc(item, name)
+        item["tr_explain"] = name_prefix + item["tr_explain"]
 
         if problem == 0:
             print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
@@ -413,14 +445,14 @@ cosmetic_file_names = [
 
 cosmetic_types = {
     "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
-    "Stack_Arkscard_BG": ["background for your ARKS\nCard", "", "", ""],
+    "Stack_Arkscard_BG": ["background for your ARKS\nCard", "", "", "ARKS名片背景"],
     "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
-    "Stack_CS_Effect": ["Portable Hologram", "", "", ""],
-    "Stack_CS_Room_Goods": ["Portable Hologram", "", "", ""],
-    "Stack_CS_Stickers": ["Portable Hologram", "", "", ""],
-    "Stack_Duel_Card_Play_Mat": ["playmat", "", "", ""],
-    "Stack_Duel_Card_Sleeve": ["card sleeve", "", "", ""],
-    "Stack_Duel_Card_Ticket": ["card", "", "", ""],
+    "Stack_CS_Effect": ["Portable Hologram", "", "", "便攜全息投影"],
+    "Stack_CS_Room_Goods": ["Portable Hologram", "", "", "便攜全息投影"],
+    "Stack_CS_Stickers": ["Portable Hologram", "", "", "便攜全息投影"],
+    "Stack_Duel_Card_Play_Mat": ["playmat", "", "", "牌桌墊"],
+    "Stack_Duel_Card_Sleeve": ["card sleeve", "", "", "牌套"],
+    "Stack_Duel_Card_Ticket": ["card", "", "", "卡牌"],
     "Stack_Ear": ["ear shape", "귀", "форма ушей", "耳朵"],
     "Stack_Eye": ["eye pattern", "눈동자", "глаза", "瞳孔"],
     "Stack_EyeBrow": ["eyebrow type", "눈썹", "брови", "眉毛"],
@@ -432,7 +464,7 @@ cosmetic_types = {
     "Stack_Stamp": ["stamp", "스탬프", "штамп", "表情圖"],
     "Stack_Sticker": ["sticker", "스티커", "стикер", "貼紙"],
     "Stack_Tooth": ["teeth and tongue\nset", "치아/혀", "зубы и язык", "牙齒、舌頭"],
-    "Stack_Vital_Gauge": ["Vital Gauge BG", "", "", ""]
+    "Stack_Vital_Gauge": ["Vital Gauge BG", "", "", "體征槽背景"]
     }
 
 # JP text: 
@@ -700,7 +732,9 @@ for file_name in cosmetic_file_names:
     newtranslations = False
     
     for item in items:
+        name_prefix = split_name_prefix(item)
         problem = translate_ncosmetic_desc(item, file_name) if "選択可能になる。" in item["jp_explain"] else translate_cosmetic_desc(item, file_name)
+        item["tr_explain"] = name_prefix + item["tr_explain"]
 
         if problem == 0:
             print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
@@ -728,7 +762,7 @@ build_parts_sittable = [("This Build Part can be accessed\n"
                          "to sit on it."),
                         (""),
                         (""),
-                        ("")]
+                        ("交互後\n即可坐下的建造部件。")]
 # JP text:
     # アクセスすると\n
     # 座れるビルドパーツだが……。
@@ -736,7 +770,7 @@ build_parts_sittable_unwise = [("This Build Part can be accessed\n"
                                 "to sit on it, but..."),
                                (""),
                                (""),
-                               ("")]
+                               ("交互後\n即可坐下的建造部件，但……")]
 # JP text:
     # アクセスすると\n
     # 横になれるビルドパーツ。
@@ -744,7 +778,7 @@ build_parts_layable = [("This Build Part can be accessed\n"
                          "to lie down on it."),
                         (""),
                         (""),
-                        ("")]
+                        ("交互後\n即可躺下的建造部件。")]
 # JP text:
     # アクセスすると\n
     # 入浴できるビルドパーツ。
@@ -752,7 +786,7 @@ build_parts_bathable = [("This Build Part can be accessed\n"
                          "to take a bath."),
                         (""),
                         (""),
-                        ("")]
+                        ("交互後\n即可入浴的建造部件。")]
 # JP text:
     # アクセスすると\n
     # シャワーを浴びられるビルドパーツ。
@@ -760,7 +794,7 @@ build_parts_showerable = [("This Build Part can be accessed\n"
                            "to take a shower."),
                           (""),
                           (""),
-                          ("")]
+                          ("交互後\n即可淋浴的建造部件。")]
 # JP text:
     # アクセスすると\n
     # 開閉できるビルドパーツ。
@@ -768,7 +802,7 @@ build_parts_isadoor = [("This Build Part can be accessed\n"
                         "to open and close it."),
                        (""),
                        (""),
-                       ("")]
+                       ("交互後\n即可開閉的建造部件。")]
 # JP text:
     # 攻撃すると\n
     # 破壊できるビルドパーツ。
@@ -776,7 +810,7 @@ build_parts_smashable = [("This Build Part can be destroyed\n"
                           "by attacking it."),
                          (""),
                          (""),
-                         ("")]
+                         ("攻擊後\n即可破壞的建造部件。")]
 # JP text:
     # アクセスすると\n
     # 獲れるビルドパーツ。
@@ -784,7 +818,7 @@ build_parts_grabbable = [("This Build Part can be accessed\n"
                           "to collect it."),
                          (""),
                          (""),
-                         ("")]
+                         ("交互後\n即可捕獲的建造部件。")]
 # JP text:
     # 触れると\n
     # 取れるビルドパーツ。
@@ -792,7 +826,7 @@ build_parts_collectable = [("This Build Part can be collected by\n"
                             "touching it."),
                            (""),
                            (""),
-                           ("")]
+                           ("觸碰後\n即可拿取的建造部件。")]
 # JP text:
     # アクセスすると\n
     # 設定したメッセージを表示する\n
@@ -801,7 +835,7 @@ build_parts_messagepack = [("This Build Part can be accessed\n"
                             "to read the message it contains."),
                            (""),
                            (""),
-                           ("")]
+                           ("交互後\n就會顯示設置好的訊息的\n建造部件。")]
 # JP text:
     # アクセスすると\n
     # オンオフが切り替わる\n
@@ -810,7 +844,7 @@ build_parts_usebutton = [("This Build Part acts as a switch\n"
                           "that toggles on/off when accessed."),
                          (""),
                          (""),
-                         ("")]
+                         ("交互後\n就會切換開關的建造部件。")]
 # JP text:
     # 上に乗ると\n
     # スイッチがオンになる\n
@@ -819,7 +853,7 @@ build_parts_stepbutton = [("This Build Part acts as a switch\n"
                            "that turns on when stepped on."),
                           (""),
                           (""),
-                          ("")]
+                          ("踩在上面後\n開關就會設為開的建造部件。")]
 # JP text:
     # 触れると\n
     # 爆発して吹き飛ばされる\n
@@ -828,7 +862,7 @@ build_parts_touchbomb = [("This Build Part explodes on contact,\n"
                           "blasting players away."),
                          (""),
                          (""),
-                         ("")]
+                         ("觸碰後\n就會爆炸把人炸飛的建造部件。")]
 # JP text:
     # フォトングライド中に\n
     # 乗ると移動できる\n
@@ -837,7 +871,7 @@ build_parts_updrafter = [("This Build Part lets you ascend by\n"
                           "riding it while Photon Gliding."),
                          (""),
                          (""),
-                         ("")]
+                         ("在光子滑翔中乘上後\n即可進行移動的建造部件。")]
 # JP text:
     # アクセスすると\n
     # 対応する番号のテレポーターに\n
@@ -847,7 +881,7 @@ build_parts_teleporter = [("This Build Part can be accessed\n"
                            "with a matching ID."),
                           (""),
                           (""),
-                          ("")]
+                          ("交互後\n即可移動到相應號碼傳送器的\n建造部件。")]
 # JP text:
     # エリア内に接触すると\n
     # 次のギミックパーツに\n
@@ -857,7 +891,7 @@ build_parts_persondetector = [("When this Build Part detects that a\n"
                                "it sends a signal to its connected parts."),
                               (""),
                               (""),
-                              ("")]
+                              ("碰撞到區域內後\n就會向下一個機關部件\n發送智聯信號的建造部件。")]
 # JP text:
     # コネクトを受信すると\n
     # タイマーのカウントアップを開始する\n
@@ -866,7 +900,7 @@ build_parts_timerup = [("When this Build Part receives a signal,\n"
                         "it starts a timer that counts up from 0."),
                        (""),
                        (""),
-                       ("")]
+                       ("接收智聯信號後\n就會開始計時器正數的建造部件。")]
 # JP text:
     # コネクトを受信すると\n
     # タイマーのカウントダウンを開始する\n
@@ -875,7 +909,7 @@ build_parts_timerdown = [("When this Build Part receives a signal,\n"
                           "it starts a timer that counts down to 0."),
                          (""),
                          (""),
-                         ("")]
+                         ("接收智聯信號後\n就會開始計時器倒數的建造部件。")]
 # JP text:
     # エリア内で指定したアクションを行うと\n
     # 次のギミックパーツに\n
@@ -885,7 +919,7 @@ build_parts_motiondetector = [("When this Build Part detects a specific\n"
                                "it sends a signal to its connected parts."),
                               (""),
                               (""),
-                              ("")]
+                              ("在區域內執行指定動作後\n就會向下一個機關部件\n發送智聯信號的建造部件。")]
 # JP text:
     # コネクトを受信すると\n
     # 設定したテキスト演出を再生する\n
@@ -894,7 +928,7 @@ build_parts_displaytext = [("When this Build Part receives a signal,\n"
                             "it displays a set text string."),
                             (""),
                             (""),
-                            ("")]
+                            ("接收智聯信號後\n就會播放設置好的文字演出的\n建造部件。")]
 # JP text:
     # コネクトを受信すると\n
     # 設定したサウンドを再生する\n
@@ -903,7 +937,7 @@ build_parts_soundbox = [("When this Build Part receives a signal,\n"
                          "it plays a specified sound effect."),
                         (""),
                         (""),
-                        ("")]
+                        ("接收智聯信號後\n就會播放設置好的聲音的\n建造部件。")]
 # JP text:
     # 2つのコネクトを受信すると\n
     # 次のギミックパーツに\n
@@ -912,7 +946,7 @@ build_parts_logicalandy = [("When this Build Part receives 2 signals,\n"
                            "it sends a signal to its connected parts."),
                            (""),
                            (""),
-                           ("")]
+                           ("接收2個智聯信號後\n就會向下一個機關部件\n發送智聯信號的建造部件。")]
 # JP text:
     # コネクトを受信すると\n
     # カウントを1つ増やす\n
@@ -921,7 +955,7 @@ build_parts_countup = [("When this Build Part receives a signal,\n"
                         "it increases its internal counter by 1."),
                        (""),
                        (""),
-                       ("")]
+                       ("接收智聯信號後\n計數就會增加1的建造部件。")]
 # JP text:
     # コネクトを受信してから\n
     # 一定時間後に次のギミックパーツに\n
@@ -931,7 +965,7 @@ build_parts_delayer = [("When this Build Part receives a signal,\n"
                         "sends a signal to its connected parts."),
                        (""),
                        (""),
-                       ("")]
+                       ("接收智聯信號一定時間後\n就會向下一個機關部件\n發送智聯信號的建造部件。")]
 # JP text:
     # コネクトを受信すると\n
     # 指定したギミックパーツのいずれかに\n
@@ -941,7 +975,7 @@ build_parts_randomiser = [("When this Build Part receives a signal,\n"
                            "connected parts, chosen at random."),
                           (""),
                           (""),
-                          ("")]
+                          ("接收智聯信號後\n就會向任意的指定機關部件\n發送智聯信號的建造部件。")]
 # JP text:
     # アクセスするとアークス拠点に\n
     # 移動できるビルドパーツ。\n
@@ -951,7 +985,7 @@ build_parts_startpoint = [("This Build Part can be accessed to\n"
                            "where you first arrive in C. Space."),
                           (""),
                           (""),
-                          ("")]
+                          ("交互後即可移動到\nARKS據點的建造部件。\n也會成為創造空間內的初始位置。")]
 # JP text:
     # アクセスすると\n
     # 自身のキャラクターを投影する\n
@@ -960,7 +994,7 @@ build_parts_mannequin = [("This Build Part can be accessed\n"
                           "to display the image of a character."),
                          (""),
                          (""),
-                         ("")]
+                         ("交互後\n就會投影出自己角色的建造部件。")]
 # JP text:
     # 上に乗っているあいだだけ\n
     # スイッチがオンになる\nビルドパーツ。
@@ -968,7 +1002,7 @@ build_parts_pressureplate = [("This Build Part acts as a switch\n"
                               "that turns on only while stood on."),
                              (""),
                              (""),
-                             ("")]
+                             ("僅在踩在上面的時間裡\n開關會設為開的建造部件。")]
 # JP text:
     # アクセスすると\n
     # 設計図の登録、取得ができる\n
@@ -977,7 +1011,7 @@ build_parts_blueprinter = [("This Build Part can be accessed\n"
                             "to create and download Blueprints."),
                            (""),
                            (""),
-                           ("")]
+                           ("交互後\n即可登錄、獲取設計圖的建造部件。")]
 # JP text:
     # アクセスすると\n
     # ジェネシスポイントが獲得できる\n
@@ -986,7 +1020,7 @@ build_parts_gptree = [("This Build Part can be accessed\n"
                        "to obtain Genesis Points."),
                       (""),
                       (""),
-                      ("")]
+                      ("交互後\n即可獲得創世點數的建造部件。")]
 # JP text:
     # くぐると\n
     # 加速するビルドパーツ。
@@ -994,7 +1028,7 @@ build_parts_dashring = [("This Build Part makes you accelerate\n"
                          "when you pass through it."),
                         (""),
                         (""),
-                        ("")]
+                        ("穿過後\n就會加速的建造部件。")]
 # JP text:
     # 触れると\n
     # 大きくジャンプするビルドパーツ。
@@ -1002,7 +1036,7 @@ build_parts_spring = [("This Build Part launches you a great\n"
                        "distance when you touch it."),
                       (""),
                       (""),
-                      ("")]
+                      ("觸碰後\n就會大幅跳躍的建造部件。")]
 # JP text:
     # アクセスすると\n
     # Ｃスペースメニューを操作できる\n
@@ -1011,7 +1045,7 @@ build_parts_csterminal = [("This Build Part can be accessed\n"
                            "to open the Creative Space Menu."),
                           (""),
                           (""),
-                          ("")]
+                          ("交互後\n即可操作創造空間菜單的\n建造部件。")]
 # JP text:
     # アクセスすると\n
     # チームコマンドを操作できる\n
@@ -1020,7 +1054,7 @@ build_parts_teamterminal = [("This Build Part can be accessed\n"
                              "to open the Team Commands Menu."),
                             (""),
                             (""),
-                            ("")]
+                            ("交互後\n即可操作公會指令的\n建造部件。")]
 # JP text:
     # アクセスすると\n
     # チーム掲示板を操作できる\n
@@ -1029,7 +1063,7 @@ build_parts_teambb = [("This Build Part can be accessed\n"
                        "to open the Team Bulletin Board."),
                       (""),
                       (""),
-                      ("")]
+                      ("交互後\n即可操作公會佈告欄的\n建造部件。")]
 # JP text:
     # アクセスすると\n
     # チームスペースメニューを操作できる\n
@@ -1038,7 +1072,7 @@ build_parts_tsterminal = [("This Build Part can be accessed\n"
                            "to open the Team Space Menu."),
                           (""),
                           (""),
-                          ("")]
+                          ("交互後\n即可操作公會空間菜單的\n建造部件。")]
 # JP text:
     # アクセスしてジェネシスポイントを\n
     # 使用すると、ブーストを発生させられる\n
@@ -1048,7 +1082,7 @@ build_parts_teammag = [("This Build Part can be accessed\n"
                         "trigger various boost effects."),
                        (""),
                        (""),
-                       ("")]
+                       ("交互並使用創世點數後\n即可發動各種增益的\n建造部件。")]
 # JP text:
     # アクセスすると\n
     # ラインストライクで\n
@@ -1057,7 +1091,7 @@ build_parts_linestrike = [("This Build Part can be accessed\n"
                            "to engage in a Line Strike Duel."),
                           (""),
                           (""),
-                          ("")]
+                          ("交互後\n即可在戰線牌鬥中對戰的\n建造部件。")]
 # JP text:
     # アクセスすると\n
     # 対応する番号の転移門に\n
@@ -1067,7 +1101,7 @@ build_parts_transition = [("This Build Part can be accessed\n"
                            "Gate with a matching ID."),
                           (""),
                           (""),
-                          ("")]
+                          ("交互後\n即可移動到相應號碼傳送門的\n建造部件。")]
 # JP text:
     # アクセスすると\n
     # 登録したクリエイティブスペースに\n
@@ -1077,7 +1111,7 @@ build_parts_cswarp = [("This Build Part can be accessed\n"
                        "Creative Space."),
                       (""),
                       (""),
-                      ("")]
+                      ("交互後\n即可移動到已登錄創造空間的\n建造部件。")]
 # JP text:
     # コネクトを受信すると\n
     # クレーンを操作できる\n
@@ -1086,7 +1120,7 @@ build_parts_crane = [("When this Build Part receives a signal,\n"
                       "its crane arm moves around."),
                      (""),
                      (""),
-                     ("")]
+                     ("接收智聯信號後\n即可操作勾爪的建造部件。")]
 # JP text:
     # 上から入ると\n
     # 泳げるビルドパーツ。
@@ -1094,7 +1128,7 @@ build_parts_swimmable = [("This Build Part can be swum in\n"
                          "if entered through its top face."),
                         (""),
                         (""),
-                        ("")]
+                         ("從上方進入後\n即可游泳的建造部件。")]
 
 def translate_part_desc(part):
     # Name isn't translated and we're not working in CN, skip this one
@@ -1232,7 +1266,9 @@ for file_name in build_parts_file_names:
     newtranslations = False
 
     for part in parts:
+        name_prefix = split_name_prefix(part)
         problem = translate_part_desc(part)
+        part["tr_explain"] = name_prefix + part["tr_explain"]
 
         if problem == 0:
             print("\tTranslated description for {0}".format(part["tr_text"] or part["jp_text"]))
@@ -1578,7 +1614,11 @@ def translate_la_desc(item):
     return 0    
 
 for item in items:
-    if translate_la_desc(item) == 0:
+    name_prefix = split_name_prefix(item)
+    problem = translate_la_desc(item)
+    item["tr_explain"] = name_prefix + item["tr_explain"]
+
+    if problem == 0:
         print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
         newtranslations = True
 
@@ -1812,20 +1852,20 @@ cv_names = {
     "市ノ瀬 加那": ["Kana Ichinose", "", "", "市之瀨 加那"],
     "小林 千晃": ["Chiaki Kobayashi", "", "", "小林 千晃"],
     "阿部 敦": ["Atsushi Abe", "", "", "阿部 敦"],
-    "ささき のぞみ": ["Nozomi Sasaki", "", "", ""],
-    "でびでび・でびる": ["Debidebi Debiru", "", "", ""],
-    "アルス・アルマル": ["Ars Almal", "", "", ""],
-    "ニュイ・ソシエール": ["Nui Sociere", "", "", ""],
+    "ささき のぞみ": ["Nozomi Sasaki", "", "", "佐佐木 望"],
+    "でびでび・でびる": ["Debidebi Debiru", "", "", "德比德比·德比魯"],
+    "アルス・アルマル": ["Ars Almal", "", "", "阿露絲·阿爾瑪"],
+    "ニュイ・ソシエール": ["Nui Sociere", "", "", "紐伊·索西艾瑞"],
     "竜胆 尊": ["Mikoto Rindou", "", "", "竜胆 尊"],
     "岡咲 美保": ["Miho Okasaki", "", "", "岡咲 美保"],
     "日高 里菜": ["Rina Hidaka", "", "", "日高 里菜"],
-    "永瀬 アンナ": ["Anna Nagase", "", "", ""],
+    "永瀬 アンナ": ["Anna Nagase", "", "", "永瀨 安奈"],
     "五十嵐 梨花": ["Rika Igarashi", "", "", "五十嵐 梨花"],
-    "倉持 めると": ["Meruto Kuramochi", "", "", ""],
-    "ソフィア・ヴァレンタイン": ["Sophia Valentine", "", "", ""],
-    "狂蘭 メロコ": ["Meloco Kyoran", "", "", ""],
-    "伊藤 ゆいな": ["Yuina Ito", "", "", ""],
-    "花守 ゆみり": ["Yumiri Hanamori", "", "", ""],
+    "倉持 めると": ["Meruto Kuramochi", "", "", "倉持 妹路特"],
+    "ソフィア・ヴァレンタイン": ["Sophia Valentine", "", "", "蘇菲婭·瓦綸玎"],
+    "狂蘭 メロコ": ["Meloco Kyoran", "", "", "Meloco Kyoran"],
+    "伊藤 ゆいな": ["Yuina Ito", "", "", "伊藤 結衣奈"],
+    "花守 ゆみり": ["Yumiri Hanamori", "", "", "花守 由美里"],
     "？？？": ["???", "???", "???", "？？？"],
     "": ["Unknown", "알 수 없는", "Неизвестно", ""]
     }
@@ -1963,7 +2003,11 @@ def translate_voice(item):
 
 for item in items:
     
-    if translate_voice(item) == 0:
+    name_prefix = split_name_prefix(item)
+    problem = translate_voice(item)
+    item["tr_explain"] = name_prefix + item["tr_explain"]
+
+    if problem == 0:
         print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
         newtranslations = True
 
@@ -2003,6 +2047,24 @@ magd_reset_formats = [("Resets a Mag's appearance, stats,\n"
                                 ("重置瑪古的等級與支援功能\n"
                                 "並使瑪古變回初始狀態的裝置。")]
 
+# JP text:
+    # 特殊能力を\n
+    # 武器、防具に追加するカプセル。
+capsule_formats = [("A capsule that adds a Special Ability\n"
+                    "to a weapon or piece of armor."),
+                   (""),
+                   (""),
+                   ("為武器、防具追加特殊能力的膠囊。")]
+
+# JP text:
+    # EX特殊能力を\n
+    # 武器に追加するカプセル。
+capsule_ex_formats = [("A capsule that adds an EX Special\n"
+                       "Ability to a weapon."),
+                      (""),
+                      (""),
+                      ("為武器追加EX特殊能力的膠囊。")]
+
 # Translate the files that can be sorted by description or item name.
 def translate_cosmeticsorted_desc(item, file_name):
     item_name = ""
@@ -2041,6 +2103,11 @@ def translate_cosmeticsorted_desc(item, file_name):
     if "『NGS』でのみ使用可能" in item["jp_explain"]:
         magdngs = True
 
+    # Some capsules can be exchanged at the Item Lab.
+    capsuleexchange = False
+    if "“強化素材交換”" in item["jp_explain"]:
+        capsuleexchange = True
+
     # Sort the type.
     item_type = "n"
     if "新しい頭部" in item["jp_explain"]:
@@ -2051,7 +2118,11 @@ def translate_cosmeticsorted_desc(item, file_name):
         item_type = "MagDeviceEvol"
     elif "マグのレベルや支援機能をリセットし" in item["jp_explain"]:
         item_type = "MagDeviceReset"
-    
+    elif item["jp_explain"].startswith("EX特殊能力を"):
+        item_type = "CapsuleEX"
+    elif item["jp_explain"].startswith("特殊能力を"):
+        item_type = "Capsule"
+
     # Combine the variable name.
     desc_format_name = "cosmetic_desc_" + desc_sort + "_formats"
 
@@ -2064,7 +2135,12 @@ def translate_cosmeticsorted_desc(item, file_name):
         magd_format = (magd_evol_formats[LANG] if item_type == "MagDeviceEvol" else magd_reset_formats[LANG]),
         magd_lv100limit = "\n<yellow>" + mag_device_lv100[LANG] + "<c>" if magdlv100 == True else "",
         magd_ngslimit = "\n<yellow>" + mag_device_ngs[LANG] + "<c>" if magdngs == True else "")
-    else: 
+    elif item_type.startswith("Capsule"):
+        item["tr_explain"] = ("{capsule_format}" + "{exchange}" + "{exlimit}").format(
+        capsule_format = (capsule_ex_formats[LANG] if item_type == "CapsuleEX" else capsule_formats[LANG]),
+        exchange = "\n" + capsule_exchange[LANG] if capsuleexchange == True else "",
+        exlimit = "\n<yellow>" + capsule_ex_limit[LANG] + "<c>" if item_type == "CapsuleEX" else "")
+    else:
         item["tr_explain"] = (eval(desc_format_name)[LANG]).format(
             itype = cosmeticsorted_types[item_type][LANG],
             iname = item_name,
@@ -2141,6 +2217,7 @@ cosmeticsorted_file_names = [
     "Stack_BodyPartsM",
     "Stack_LegPartsM",
     "Stack_DeviceHT",
+    "Stack_ElementCapsule",
     "Stack_Headparts"
     ]
 
@@ -2171,7 +2248,9 @@ for file_name in cosmeticsorted_file_names:
     newtranslations = False
     
     for item in items:
+        name_prefix = split_name_prefix(item)
         problem = translate_ncosmeticsorted_desc(item, file_name) if "選択可能になる。" in item["jp_explain"] or item["jp_explain"] == "" else translate_cosmeticsorted_desc(item, file_name)
+        item["tr_explain"] = name_prefix + item["tr_explain"]
 
         if problem == 0:
             print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
