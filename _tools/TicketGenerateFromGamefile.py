@@ -840,10 +840,6 @@ mo_itypes = {
     "Sprint": ("ダッシュ", "衝刺", "Dash"),
     "Glide": ("グライド", "滑翔", "Glide"),
     "Swim": ("泳ぐ", "游泳", "Swim")}
-cp_itypes = {
-    "Arm": ("アームパーツ", "臂部部件", "arm parts"),
-    "Body": ("ボディパーツ", "身體部件", "body parts"),
-    "Leg": ("レッグパーツ", "腿部部件", "leg parts")}
 # Types of weapons and units (keyed by json file)
 equipment_types = {
     "Item_Weapon_AssaultRifle.txt": ("ライフル", "步槍", "Rifle"),
@@ -853,12 +849,12 @@ equipment_types = {
     "Item_Weapon_GunSlash.txt": ("スラッシュ", "槍刃", "Slash"),
     "Item_Weapon_JetBoots.txt": ("ブーツ", "魔裝腳", "Boots"),
     "Item_Weapon_Katana.txt": ("カタナ", "拔劍", "Katana"),
-    "Item_Weapon_Knuckle.txt": ("ナックル", "鋼拳", "Knuckle"),
+    "Item_Weapon_Knuckle.txt": ("ナックル", "鋼拳", "Knuckles"),
     "Item_Weapon_Launcher.txt": ("ランチャー", "大炮", "Launcher"),
     "Item_Weapon_Partizan.txt": ("スピア", "長槍", "Spear"),
     "Item_Weapon_Rod.txt": ("ロッド", "長杖", "Rod"),
     "Item_Weapon_Sword.txt": ("ソード", "大劍", "Sword"),
-    "Item_Weapon_Tact.txt": ("タクト", "奏具", "Tact"),
+    "Item_Weapon_Tact.txt": ("タクト", "奏具", "Takt"),
     "Item_Weapon_Talis.txt": ("タリス", "導具", "Talis"),
     "Item_Weapon_TwinDagger.txt": ("ダガー", "雙小劍", "Daggers"),
     "Item_Weapon_TwinMachineGun.txt": ("マシンガン", "雙機槍", "Machineguns"),
@@ -874,8 +870,8 @@ equipment_space_translations = ("", "", " ")
 equipment_parentheses_translations = (("（", "）"), ("（", "）"), ("(", ")"))
 # Types and separators of rings
 ring_type_translations = {
-    "タイプ1": ("タイプ1", "類型1", ""),
-    "タイプ2": ("タイプ2", "類型2", "")}
+    "タイプ1": ("タイプ1", "類型1", "Type 1"),
+    "タイプ2": ("タイプ2", "類型2", "Type 2")}
 ring_slash_translations = ("／", "/", "/")
 igens = {
     "a1": ["ヒト型/キャストタイプ1", "人類/機人類型1", "Human/Cast Type 1"],
@@ -918,90 +914,17 @@ ha_texts = [
 vo_texts = [
     "{jp_text}", "{tr_text}", "{tr_text}"]
 
-# Common explains of items
-mo_explains = [
-    "使用すると新しいモーションが\n全キャラクターで選択可能になる。\n<yellow>※『PSO2』ブロック非対応<c>",
-    "使用後所有角色均可選用新的行動方式。\n<yellow>※不適用於『PSO2』<c>",
-    "A motion that unlocks for all\ncharacters on your account.\n<yellow>※Not available in [PSO2] Blocks.<c>"]
-bp_explains = [
-    "",
-    "",
-    ""]
-ph_explains = [
-    "使用すると新しいポータブルホログラムが\n全キャラクターで選択可能になる。",
-    "使用後所有角色均可選用\n新的便攜全息投影。",
-    "Unlocks a new Portable Hologram for\nall characters on your account."]
-bg_explains = [
-    "使用すると新しいアークスカードの背景が\n全キャラクターで選択可能になる。",
-    "使用後所有角色均可選用\n新的ARKS名片背景。",
-    "Unlocks a new ARKS Card background\nfor all characters on your account."]
-aug_explains = [
-    "特殊能力を\n武器、防具に追加するカプセル。",
-    "為武器、防具追加特殊能力的膠囊。",
-    "A capsule that adds a Special Ability\nto a weapon or piece of armor."]
-ou_m_explains = ou_f_explains = [
-    "使用すると新しいアウターウェアが\n選択可能になる。",
-    "使用後可選用新的外套。",
-    "Unlocks a new outerwear for use."]
-cp_m_explains = cp_f_explains = [
-    "使用すると新しい{jp_itype}が\n選択可能になる。",
-    "使用後可選用新的{tr_itype}。",
-    "Unlocks new {tr_itype} for use."]
-mou_explains = [
-    "使用すると新しい歯・舌が\n選択可能になる。",
-    "使用後可選用新的牙齒、舌頭。",
-    "Unlocks a new teeth and tongue\nset for use."]
-ear_explains = [
-    "使用すると新しい耳が\n選択可能になる。",
-    "使用後可選用新的耳朵。",
-    "Unlocks a new ear shape for use."]
-horn_explains = [
-    "使用すると新しい角が\n選択可能になる。",
-    "使用後可選用新的角。",
-    "Unlocks a new horn type for use."]
+# Explains of items, only for information from game files
+# (other explains are translated by TicketDescriptions.py, existing ones are retained)
+no_explains = ["", "", ""]
 body_explains = [
     "使用すると新しい肌パターンが\n選択可能になる。\n<yellow>※対応：{jp_igen}<c>",
     "使用後可選用新的皮膚種類。\n<yellow>※適用於：{tr_igen}<c>",
     "Unlocks a new body type for use.\n<yellow>※Type: {tr_igen}<c>"]
-ca_explains = [
-    "使用すると新しいカードが\n全キャラクターで選択可能になる。",
-    "使用後所有角色均可選用新的卡牌。",
-    "Unlocks a new card for\nall characters on your account."]
-ma_explains = [
-    "使用すると新しいプレイマットが\n全キャラクターで選択可能になる。",
-    "使用後所有角色均可選用新的牌桌墊。",
-    "Unlocks a new playmat for\nall characters on your account."]
-sv_explains = [
-    "使用すると新しいカードスリーブが\n全キャラクターで選択可能になる。",
-    "使用後所有角色均可選用新的牌套。",
-    "Unlocks a new card sleeve for\nall characters on your account."]
-ha_explains = [
-    "",
-    "使用後所有角色均可選用新的手部姿勢。\n<yellow>※不適用於一部分大廳動作/\n不適用於『PSO2』<c>",
-    "When used, allows you to select a\nnew hand pose for all characters.\n<yellow>※Does not support all Lobby Actions.\n※Cannot perform in [PSO2] Blocks.<c>"]
 vo_explains = [
     "",
     "使用後，可選用新的語音。\nCV：{cv_tr_name}", 
     "Allows a new voice to be selected.\nUsable by all characters.\nCV: {cv_tr_name}"]
-
-# [FUNCTION] Conditions and explains of special items
-def edit_sp_explains(prefix, jp_text, explains):
-    if prefix == "aug" and jp_text.endswith(("フュージア", "ソブリナ", "データー", "ドライエ", "セプター")):
-        explains = [
-            f"{explains[0]}\nアイテムラボの“強化素材交換”で\n特定のカプセルとの交換にも用いられる。",
-            f"{explains[1]}\n也可在道具實驗室的“交換強化素材”處\n用於交換特定的膠囊。",
-            f"{explains[2]}\nCan also be exchanged for specific\ncapsules at the Item Lab."]
-    elif prefix == "aug" and re.search(r"(EX.*A$)", jp_text):
-        explains = [
-            f"{explains[0]}\n<yellow>★７以上のEX特殊能力は１つのみ追加可能<c>",
-            f"{explains[1]}\n<yellow>僅可追加1個★7或以上的EX特殊能力<c>",
-            f"{explains[2]}\n<yellow>Only 1 EX Special Ability of\n7★ or above can be added<c>"]
-    elif prefix == "cp_f" and "クロウリック・アーム" in jp_text:
-        explains = [
-            f"{explains[0]}\n<yellow>※武器の構え位置自動調整<c>",
-            f"{explains[1]}\n<yellow>※自動調整武器架勢的位置<c>",
-            f"{explains[2]}\n<yellow>※Uses adjusted weapon positions.<c>"]
-    return explains
 
 # [FUNCTION] Special item texts of special items
 def edit_sp_texts(prefix, jp_text, tr_text, jp_refer):
@@ -1231,15 +1154,6 @@ def main_update_Stack(prefix):
             itype = text_id.split("_")[1]
             jp_itype = mo_itypes[itype][0]
             tr_itype = mo_itypes[itype][LANG]
-        elif prefix.startswith("cp_"):
-            if "・アーム" in jp_text:
-                itype = "Arm"
-            elif "・ボディ" in jp_text:
-                itype = "Body"
-            elif "・レッグ" in jp_text:
-                itype = "Leg"
-            jp_itype = cp_itypes[itype][0]
-            tr_itype = cp_itypes[itype][LANG]
         # Get gender and the gender name for certain prefixes
         if prefix == "body":
             if text_id.startswith("No1"):
@@ -1266,7 +1180,7 @@ def main_update_Stack(prefix):
                 rec_descs = record_desc(path, stack_item["jp_text"])
                 generated_item = form_itemdata(
                     stack_item.copy(), names, texts, jp_text, tr_text,
-                    ca_explains, rec_descs, trade_info)
+                    no_explains, rec_descs, trade_info)
                 update_stack_translation(stack_item, generated_item)
                 processed_count += 1
             continue
@@ -1283,9 +1197,7 @@ def main_update_Stack(prefix):
         explains = [explain.format(
             jp_itype = jp_itype, tr_itype = tr_itype,
             jp_igen = jp_igen, tr_igen = tr_igen)
-            for explain in globals()[f"{prefix}_explains"]]
-        # Edit the explains of special item
-        explains = edit_sp_explains(prefix, jp_text, explains)
+            for explain in globals().get(f"{prefix}_explains", no_explains)]
 
         if texts[0] in processed_item_texts:
             continue
@@ -1373,9 +1285,7 @@ def main_edit_Stack(prefix):
             explains = [explain.format(
                 jp_itype = jp_itype, tr_itype = tr_itype,
                 cv_tr_name = cv_tr_name if prefix == "vo" else None)
-                for explain in globals()[f"{prefix}_explains"]]
-            # Edit the explains of special item
-            explains = edit_sp_explains(prefix, jp_text, explains)
+                for explain in globals().get(f"{prefix}_explains", no_explains)]
 
             # Get tradable info from global variable
             if extra_condition(prefix, jp_text, text_id):

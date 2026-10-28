@@ -32,10 +32,15 @@ parser.add_argument("-l", type = int, dest = "lang", action = "store",
 # Switch for retranslating all descriptions.
 parser.add_argument("-r", dest = "redo", action = "store_true",
                     help = ("Force all ticket descriptions to be processed, "
-                            "even if already translated."))
+                            "even if already translated. "
+                            "Always on for CN."))
 
 args = parser.parse_args()
 TRANS_ALL, LANG, REDO_ALL = args.all, args.lang, args.redo
+
+# Always retranslate all descriptions for CN.
+if LANG == 3:
+    REDO_ALL = True
 
 # Full width character transtable
 chartable = [
@@ -50,6 +55,13 @@ chartable = [
 
     "".maketrans("",
     "")]
+
+# Split the name ("<green>“...”<c>\n") added by TicketGenerateFromGamefile from the description
+def split_name_prefix(item):
+    name_prefix = regex.match(r'<green>“[^\n]*”<c>\n', item["tr_explain"])
+    name_prefix = name_prefix.group(0) if name_prefix else ""
+    item["tr_explain"] = item["tr_explain"][len(name_prefix):]
+    return name_prefix
 
 ####################################################################################################
 
@@ -110,7 +122,7 @@ ndesc_n_formats = ["Unlocks {a}new {itype} for use.",
 ndesc_allcharacters_formats = ["A {itype} that unlocks for all\ncharacters on your account.",
                  "사용하면 새로운 {itype} 아이템을\n모든 캐릭터에 선택할 수 있게 됩니다.",
                  "{itype}, разблок. для\nвсех персонажей аккаунта.",
-                 "使用後所有角色均可選用新的{itype}。"]
+                 "使用後所有角色均可選用\n新的{itype}。"]
 
 # JP text: 
     # 使用すると新しい{itype}パターンが\n
@@ -223,6 +235,24 @@ weapon_posture = [("※Uses adjusted weapon positions."),
                   (""),
                   ("※Исп. скоррект. положение."),
                   ("※自動調整武器架勢的位置")]
+
+# JP text:
+    # アイテムラボの“強化素材交換”で\n
+    # 特定のカプセルとの交換にも用いられる。
+capsule_exchange = [("Can also be exchanged for specific\n"
+                     "capsules at the Item Lab."),
+                    (""),
+                    (""),
+                    ("也可在道具實驗室的“交換強化素材”處\n"
+                     "用於交換特定的膠囊。")]
+
+# JP text:
+    # ★７以上のEX特殊能力は１つのみ追加可能
+capsule_ex_limit = [("Only 1 EX Special Ability of\n"
+                     "7★ or above can be added"),
+                    (""),
+                    (""),
+                    ("僅可追加1個★7或以上的EX特殊能力")]
 
 def translate_layer_desc(item, file_name):
     item_name = ""
@@ -366,7 +396,9 @@ for name in layered_file_names:
     newtranslations = False
     
     for item in items:
+        name_prefix = split_name_prefix(item)
         problem = translate_nlayer_desc(item, name) if "選択可能になる。" in item["jp_explain"] else translate_layer_desc(item, name)
+        item["tr_explain"] = name_prefix + item["tr_explain"]
 
         if problem == 0:
             print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
@@ -700,7 +732,9 @@ for file_name in cosmetic_file_names:
     newtranslations = False
     
     for item in items:
+        name_prefix = split_name_prefix(item)
         problem = translate_ncosmetic_desc(item, file_name) if "選択可能になる。" in item["jp_explain"] else translate_cosmetic_desc(item, file_name)
+        item["tr_explain"] = name_prefix + item["tr_explain"]
 
         if problem == 0:
             print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
@@ -1232,7 +1266,9 @@ for file_name in build_parts_file_names:
     newtranslations = False
 
     for part in parts:
+        name_prefix = split_name_prefix(part)
         problem = translate_part_desc(part)
+        part["tr_explain"] = name_prefix + part["tr_explain"]
 
         if problem == 0:
             print("\tTranslated description for {0}".format(part["tr_text"] or part["jp_text"]))
@@ -1578,7 +1614,11 @@ def translate_la_desc(item):
     return 0    
 
 for item in items:
-    if translate_la_desc(item) == 0:
+    name_prefix = split_name_prefix(item)
+    problem = translate_la_desc(item)
+    item["tr_explain"] = name_prefix + item["tr_explain"]
+
+    if problem == 0:
         print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
         newtranslations = True
 
@@ -1963,7 +2003,11 @@ def translate_voice(item):
 
 for item in items:
     
-    if translate_voice(item) == 0:
+    name_prefix = split_name_prefix(item)
+    problem = translate_voice(item)
+    item["tr_explain"] = name_prefix + item["tr_explain"]
+
+    if problem == 0:
         print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
         newtranslations = True
 
@@ -2003,6 +2047,24 @@ magd_reset_formats = [("Resets a Mag's appearance, stats,\n"
                                 ("重置瑪古的等級與支援功能\n"
                                 "並使瑪古變回初始狀態的裝置。")]
 
+# JP text:
+    # 特殊能力を\n
+    # 武器、防具に追加するカプセル。
+capsule_formats = [("A capsule that adds a Special Ability\n"
+                    "to a weapon or piece of armor."),
+                   (""),
+                   (""),
+                   ("為武器、防具追加特殊能力的膠囊。")]
+
+# JP text:
+    # EX特殊能力を\n
+    # 武器に追加するカプセル。
+capsule_ex_formats = [("A capsule that adds an EX Special\n"
+                       "Ability to a weapon."),
+                      (""),
+                      (""),
+                      ("為武器追加EX特殊能力的膠囊。")]
+
 # Translate the files that can be sorted by description or item name.
 def translate_cosmeticsorted_desc(item, file_name):
     item_name = ""
@@ -2041,6 +2103,11 @@ def translate_cosmeticsorted_desc(item, file_name):
     if "『NGS』でのみ使用可能" in item["jp_explain"]:
         magdngs = True
 
+    # Some capsules can be exchanged at the Item Lab.
+    capsuleexchange = False
+    if "“強化素材交換”" in item["jp_explain"]:
+        capsuleexchange = True
+
     # Sort the type.
     item_type = "n"
     if "新しい頭部" in item["jp_explain"]:
@@ -2051,7 +2118,11 @@ def translate_cosmeticsorted_desc(item, file_name):
         item_type = "MagDeviceEvol"
     elif "マグのレベルや支援機能をリセットし" in item["jp_explain"]:
         item_type = "MagDeviceReset"
-    
+    elif item["jp_explain"].startswith("EX特殊能力を"):
+        item_type = "CapsuleEX"
+    elif item["jp_explain"].startswith("特殊能力を"):
+        item_type = "Capsule"
+
     # Combine the variable name.
     desc_format_name = "cosmetic_desc_" + desc_sort + "_formats"
 
@@ -2064,7 +2135,12 @@ def translate_cosmeticsorted_desc(item, file_name):
         magd_format = (magd_evol_formats[LANG] if item_type == "MagDeviceEvol" else magd_reset_formats[LANG]),
         magd_lv100limit = "\n<yellow>" + mag_device_lv100[LANG] + "<c>" if magdlv100 == True else "",
         magd_ngslimit = "\n<yellow>" + mag_device_ngs[LANG] + "<c>" if magdngs == True else "")
-    else: 
+    elif item_type.startswith("Capsule"):
+        item["tr_explain"] = ("{capsule_format}" + "{exchange}" + "{exlimit}").format(
+        capsule_format = (capsule_ex_formats[LANG] if item_type == "CapsuleEX" else capsule_formats[LANG]),
+        exchange = "\n" + capsule_exchange[LANG] if capsuleexchange == True else "",
+        exlimit = "\n<yellow>" + capsule_ex_limit[LANG] + "<c>" if item_type == "CapsuleEX" else "")
+    else:
         item["tr_explain"] = (eval(desc_format_name)[LANG]).format(
             itype = cosmeticsorted_types[item_type][LANG],
             iname = item_name,
@@ -2141,6 +2217,7 @@ cosmeticsorted_file_names = [
     "Stack_BodyPartsM",
     "Stack_LegPartsM",
     "Stack_DeviceHT",
+    "Stack_ElementCapsule",
     "Stack_Headparts"
     ]
 
@@ -2171,7 +2248,9 @@ for file_name in cosmeticsorted_file_names:
     newtranslations = False
     
     for item in items:
+        name_prefix = split_name_prefix(item)
         problem = translate_ncosmeticsorted_desc(item, file_name) if "選択可能になる。" in item["jp_explain"] or item["jp_explain"] == "" else translate_cosmeticsorted_desc(item, file_name)
+        item["tr_explain"] = name_prefix + item["tr_explain"]
 
         if problem == 0:
             print("\tTranslated description for {0}".format(item["tr_text"] or item["jp_text"]))
