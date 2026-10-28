@@ -6024,35 +6024,35 @@
 		"jp_text": "スキルリング強化代用材/＋1",
 		"tr_text": "Ring Material Subsitution/+1",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan be used on base items lower\nthan or equal to of the display value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
 	},
 	{
 		"assign": "321010428",
 		"jp_text": "スキルリング強化代用材/＋2",
 		"tr_text": "Ring Material Subsitution/+2",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan be used on base items lower\nthan or equal to of the display value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
 	},
 	{
 		"assign": "321010429",
 		"jp_text": "スキルリング強化代用材/＋3",
 		"tr_text": "Ring Material Subsitution/+3",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan be used on base items lower\nthan or equal to of the display value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
 	},
 	{
 		"assign": "321010430",
 		"jp_text": "スキルリング強化代用材/＋4",
 		"tr_text": "Ring Material Subsitution/+4",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan be used on base items lower\nthan or equal to of the display value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
 	},
 	{
 		"assign": "321010431",
 		"jp_text": "スキルリング強化代用材/＋5",
 		"tr_text": "Ring Material Subsitution/+5",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan be used on base items lower\nthan or equal to of the display value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
 	},
 	{
 		"assign": "321010432",
@@ -6162,9 +6162,9 @@
 	{
 		"assign": "321010437",
 		"jp_text": "スキルリング強化代用材/＋0",
-		"tr_text": "Skill Ring Enhancement Subsitution/+0",
+		"tr_text": "Ring Material Subsitution/+0",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": ""
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
 	},
 	{
 		"assign": "321015132",
