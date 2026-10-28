@@ -6,7 +6,7 @@ import os
 import regex
 import argparse
 
-json_loc = os.path.join("", "json")
+json_loc = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, "json")
 
 parser = argparse.ArgumentParser(
     description = "Translates ticket item descriptions.")
