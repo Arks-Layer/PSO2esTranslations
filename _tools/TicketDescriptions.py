@@ -196,7 +196,7 @@ weapon_ngs_locks = ["※Shows equipped weapons.\n"
 ngsface_locks = ["※Not compatible with some heads/faces.",
                  "",
                  "※",
-                 "※"]
+                 "※不適用於部分面部、頭部部件"]
 
 # JP text: 
     # ※『PSO2』ではLv.100以上の\n
@@ -413,14 +413,14 @@ cosmetic_file_names = [
 
 cosmetic_types = {
     "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
-    "Stack_Arkscard_BG": ["background for your ARKS\nCard", "", "", ""],
+    "Stack_Arkscard_BG": ["background for your ARKS\nCard", "", "", "ARKS名片背景"],
     "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
-    "Stack_CS_Effect": ["Portable Hologram", "", "", ""],
-    "Stack_CS_Room_Goods": ["Portable Hologram", "", "", ""],
-    "Stack_CS_Stickers": ["Portable Hologram", "", "", ""],
-    "Stack_Duel_Card_Play_Mat": ["playmat", "", "", ""],
-    "Stack_Duel_Card_Sleeve": ["card sleeve", "", "", ""],
-    "Stack_Duel_Card_Ticket": ["card", "", "", ""],
+    "Stack_CS_Effect": ["Portable Hologram", "", "", "便攜全息投影"],
+    "Stack_CS_Room_Goods": ["Portable Hologram", "", "", "便攜全息投影"],
+    "Stack_CS_Stickers": ["Portable Hologram", "", "", "便攜全息投影"],
+    "Stack_Duel_Card_Play_Mat": ["playmat", "", "", "牌桌墊"],
+    "Stack_Duel_Card_Sleeve": ["card sleeve", "", "", "牌套"],
+    "Stack_Duel_Card_Ticket": ["card", "", "", "卡牌"],
     "Stack_Ear": ["ear shape", "귀", "форма ушей", "耳朵"],
     "Stack_Eye": ["eye pattern", "눈동자", "глаза", "瞳孔"],
     "Stack_EyeBrow": ["eyebrow type", "눈썹", "брови", "眉毛"],
@@ -432,7 +432,7 @@ cosmetic_types = {
     "Stack_Stamp": ["stamp", "스탬프", "штамп", "表情圖"],
     "Stack_Sticker": ["sticker", "스티커", "стикер", "貼紙"],
     "Stack_Tooth": ["teeth and tongue\nset", "치아/혀", "зубы и язык", "牙齒、舌頭"],
-    "Stack_Vital_Gauge": ["Vital Gauge BG", "", "", ""]
+    "Stack_Vital_Gauge": ["Vital Gauge BG", "", "", "體征槽背景"]
     }
 
 # JP text: 
@@ -728,7 +728,7 @@ build_parts_sittable = [("This Build Part can be accessed\n"
                          "to sit on it."),
                         (""),
                         (""),
-                        ("")]
+                        ("交互後\n即可坐下的建造部件。")]
 # JP text:
     # アクセスすると\n
     # 座れるビルドパーツだが……。
@@ -736,7 +736,7 @@ build_parts_sittable_unwise = [("This Build Part can be accessed\n"
                                 "to sit on it, but..."),
                                (""),
                                (""),
-                               ("")]
+                               ("交互後\n即可坐下的建造部件，但……")]
 # JP text:
     # アクセスすると\n
     # 横になれるビルドパーツ。
@@ -744,7 +744,7 @@ build_parts_layable = [("This Build Part can be accessed\n"
                          "to lie down on it."),
                         (""),
                         (""),
-                        ("")]
+                        ("交互後\n即可躺下的建造部件。")]
 # JP text:
     # アクセスすると\n
     # 入浴できるビルドパーツ。
@@ -752,7 +752,7 @@ build_parts_bathable = [("This Build Part can be accessed\n"
                          "to take a bath."),
                         (""),
                         (""),
-                        ("")]
+                        ("交互後\n即可入浴的建造部件。")]
 # JP text:
     # アクセスすると\n
     # シャワーを浴びられるビルドパーツ。
@@ -760,7 +760,7 @@ build_parts_showerable = [("This Build Part can be accessed\n"
                            "to take a shower."),
                           (""),
                           (""),
-                          ("")]
+                          ("交互後\n即可淋浴的建造部件。")]
 # JP text:
     # アクセスすると\n
     # 開閉できるビルドパーツ。
@@ -768,7 +768,7 @@ build_parts_isadoor = [("This Build Part can be accessed\n"
                         "to open and close it."),
                        (""),
                        (""),
-                       ("")]
+                       ("交互後\n即可開閉的建造部件。")]
 # JP text:
     # 攻撃すると\n
     # 破壊できるビルドパーツ。
@@ -776,7 +776,7 @@ build_parts_smashable = [("This Build Part can be destroyed\n"
                           "by attacking it."),
                          (""),
                          (""),
-                         ("")]
+                         ("攻擊後\n即可破壞的建造部件。")]
 # JP text:
     # アクセスすると\n
     # 獲れるビルドパーツ。
@@ -784,7 +784,7 @@ build_parts_grabbable = [("This Build Part can be accessed\n"
                           "to collect it."),
                          (""),
                          (""),
-                         ("")]
+                         ("交互後\n即可捕獲的建造部件。")]
 # JP text:
     # 触れると\n
     # 取れるビルドパーツ。
@@ -792,7 +792,7 @@ build_parts_collectable = [("This Build Part can be collected by\n"
                             "touching it."),
                            (""),
                            (""),
-                           ("")]
+                           ("觸碰後\n即可拿取的建造部件。")]
 # JP text:
     # アクセスすると\n
     # 設定したメッセージを表示する\n
@@ -801,7 +801,7 @@ build_parts_messagepack = [("This Build Part can be accessed\n"
                             "to read the message it contains."),
                            (""),
                            (""),
-                           ("")]
+                           ("交互後\n就會顯示設置好的訊息的\n建造部件。")]
 # JP text:
     # アクセスすると\n
     # オンオフが切り替わる\n
@@ -810,7 +810,7 @@ build_parts_usebutton = [("This Build Part acts as a switch\n"
                           "that toggles on/off when accessed."),
                          (""),
                          (""),
-                         ("")]
+                         ("交互後\n就會切換開關的建造部件。")]
 # JP text:
     # 上に乗ると\n
     # スイッチがオンになる\n
@@ -819,7 +819,7 @@ build_parts_stepbutton = [("This Build Part acts as a switch\n"
                            "that turns on when stepped on."),
                           (""),
                           (""),
-                          ("")]
+                          ("踩在上面後\n開關就會設為開的建造部件。")]
 # JP text:
     # 触れると\n
     # 爆発して吹き飛ばされる\n
@@ -828,7 +828,7 @@ build_parts_touchbomb = [("This Build Part explodes on contact,\n"
                           "blasting players away."),
                          (""),
                          (""),
-                         ("")]
+                         ("觸碰後\n就會爆炸把人炸飛的建造部件。")]
 # JP text:
     # フォトングライド中に\n
     # 乗ると移動できる\n
@@ -837,7 +837,7 @@ build_parts_updrafter = [("This Build Part lets you ascend by\n"
                           "riding it while Photon Gliding."),
                          (""),
                          (""),
-                         ("")]
+                         ("在光子滑翔中乘上後\n即可進行移動的建造部件。")]
 # JP text:
     # アクセスすると\n
     # 対応する番号のテレポーターに\n
@@ -847,7 +847,7 @@ build_parts_teleporter = [("This Build Part can be accessed\n"
                            "with a matching ID."),
                           (""),
                           (""),
-                          ("")]
+                          ("交互後\n即可移動到相應號碼傳送器的\n建造部件。")]
 # JP text:
     # エリア内に接触すると\n
     # 次のギミックパーツに\n
@@ -857,7 +857,7 @@ build_parts_persondetector = [("When this Build Part detects that a\n"
                                "it sends a signal to its connected parts."),
                               (""),
                               (""),
-                              ("")]
+                              ("碰撞到區域內後\n就會向下一個機關部件\n發送智聯信號的建造部件。")]
 # JP text:
     # コネクトを受信すると\n
     # タイマーのカウントアップを開始する\n
@@ -866,7 +866,7 @@ build_parts_timerup = [("When this Build Part receives a signal,\n"
                         "it starts a timer that counts up from 0."),
                        (""),
                        (""),
-                       ("")]
+                       ("接收智聯信號後\n就會開始計時器正數的建造部件。")]
 # JP text:
     # コネクトを受信すると\n
     # タイマーのカウントダウンを開始する\n
@@ -875,7 +875,7 @@ build_parts_timerdown = [("When this Build Part receives a signal,\n"
                           "it starts a timer that counts down to 0."),
                          (""),
                          (""),
-                         ("")]
+                         ("接收智聯信號後\n就會開始計時器倒數的建造部件。")]
 # JP text:
     # エリア内で指定したアクションを行うと\n
     # 次のギミックパーツに\n
@@ -885,7 +885,7 @@ build_parts_motiondetector = [("When this Build Part detects a specific\n"
                                "it sends a signal to its connected parts."),
                               (""),
                               (""),
-                              ("")]
+                              ("在區域內執行指定動作後\n就會向下一個機關部件\n發送智聯信號的建造部件。")]
 # JP text:
     # コネクトを受信すると\n
     # 設定したテキスト演出を再生する\n
@@ -894,7 +894,7 @@ build_parts_displaytext = [("When this Build Part receives a signal,\n"
                             "it displays a set text string."),
                             (""),
                             (""),
-                            ("")]
+                            ("接收智聯信號後\n就會播放設置好的文字演出的\n建造部件。")]
 # JP text:
     # コネクトを受信すると\n
     # 設定したサウンドを再生する\n
@@ -903,7 +903,7 @@ build_parts_soundbox = [("When this Build Part receives a signal,\n"
                          "it plays a specified sound effect."),
                         (""),
                         (""),
-                        ("")]
+                        ("接收智聯信號後\n就會播放設置好的聲音的\n建造部件。")]
 # JP text:
     # 2つのコネクトを受信すると\n
     # 次のギミックパーツに\n
@@ -912,7 +912,7 @@ build_parts_logicalandy = [("When this Build Part receives 2 signals,\n"
                            "it sends a signal to its connected parts."),
                            (""),
                            (""),
-                           ("")]
+                           ("接收2個智聯信號後\n就會向下一個機關部件\n發送智聯信號的建造部件。")]
 # JP text:
     # コネクトを受信すると\n
     # カウントを1つ増やす\n
@@ -921,7 +921,7 @@ build_parts_countup = [("When this Build Part receives a signal,\n"
                         "it increases its internal counter by 1."),
                        (""),
                        (""),
-                       ("")]
+                       ("接收智聯信號後\n計數就會增加1的建造部件。")]
 # JP text:
     # コネクトを受信してから\n
     # 一定時間後に次のギミックパーツに\n
@@ -931,7 +931,7 @@ build_parts_delayer = [("When this Build Part receives a signal,\n"
                         "sends a signal to its connected parts."),
                        (""),
                        (""),
-                       ("")]
+                       ("接收智聯信號一定時間後\n就會向下一個機關部件\n發送智聯信號的建造部件。")]
 # JP text:
     # コネクトを受信すると\n
     # 指定したギミックパーツのいずれかに\n
@@ -941,7 +941,7 @@ build_parts_randomiser = [("When this Build Part receives a signal,\n"
                            "connected parts, chosen at random."),
                           (""),
                           (""),
-                          ("")]
+                          ("接收智聯信號後\n就會向任意的指定機關部件\n發送智聯信號的建造部件。")]
 # JP text:
     # アクセスするとアークス拠点に\n
     # 移動できるビルドパーツ。\n
@@ -951,7 +951,7 @@ build_parts_startpoint = [("This Build Part can be accessed to\n"
                            "where you first arrive in C. Space."),
                           (""),
                           (""),
-                          ("")]
+                          ("交互後即可移動到\nARKS據點的建造部件。\n也會成為創造空間內的初始位置。")]
 # JP text:
     # アクセスすると\n
     # 自身のキャラクターを投影する\n
@@ -960,7 +960,7 @@ build_parts_mannequin = [("This Build Part can be accessed\n"
                           "to display the image of a character."),
                          (""),
                          (""),
-                         ("")]
+                         ("交互後\n就會投影出自己角色的建造部件。")]
 # JP text:
     # 上に乗っているあいだだけ\n
     # スイッチがオンになる\nビルドパーツ。
@@ -968,7 +968,7 @@ build_parts_pressureplate = [("This Build Part acts as a switch\n"
                               "that turns on only while stood on."),
                              (""),
                              (""),
-                             ("")]
+                             ("僅在踩在上面的時間裡\n開關會設為開的建造部件。")]
 # JP text:
     # アクセスすると\n
     # 設計図の登録、取得ができる\n
@@ -977,7 +977,7 @@ build_parts_blueprinter = [("This Build Part can be accessed\n"
                             "to create and download Blueprints."),
                            (""),
                            (""),
-                           ("")]
+                           ("交互後\n即可登錄、獲取設計圖的建造部件。")]
 # JP text:
     # アクセスすると\n
     # ジェネシスポイントが獲得できる\n
@@ -986,7 +986,7 @@ build_parts_gptree = [("This Build Part can be accessed\n"
                        "to obtain Genesis Points."),
                       (""),
                       (""),
-                      ("")]
+                      ("交互後\n即可獲得創世點數的建造部件。")]
 # JP text:
     # くぐると\n
     # 加速するビルドパーツ。
@@ -994,7 +994,7 @@ build_parts_dashring = [("This Build Part makes you accelerate\n"
                          "when you pass through it."),
                         (""),
                         (""),
-                        ("")]
+                        ("穿過後\n就會加速的建造部件。")]
 # JP text:
     # 触れると\n
     # 大きくジャンプするビルドパーツ。
@@ -1002,7 +1002,7 @@ build_parts_spring = [("This Build Part launches you a great\n"
                        "distance when you touch it."),
                       (""),
                       (""),
-                      ("")]
+                      ("觸碰後\n就會大幅跳躍的建造部件。")]
 # JP text:
     # アクセスすると\n
     # Ｃスペースメニューを操作できる\n
@@ -1011,7 +1011,7 @@ build_parts_csterminal = [("This Build Part can be accessed\n"
                            "to open the Creative Space Menu."),
                           (""),
                           (""),
-                          ("")]
+                          ("交互後\n即可操作創造空間菜單的\n建造部件。")]
 # JP text:
     # アクセスすると\n
     # チームコマンドを操作できる\n
@@ -1020,7 +1020,7 @@ build_parts_teamterminal = [("This Build Part can be accessed\n"
                              "to open the Team Commands Menu."),
                             (""),
                             (""),
-                            ("")]
+                            ("交互後\n即可操作公會指令的\n建造部件。")]
 # JP text:
     # アクセスすると\n
     # チーム掲示板を操作できる\n
@@ -1029,7 +1029,7 @@ build_parts_teambb = [("This Build Part can be accessed\n"
                        "to open the Team Bulletin Board."),
                       (""),
                       (""),
-                      ("")]
+                      ("交互後\n即可操作公會佈告欄的\n建造部件。")]
 # JP text:
     # アクセスすると\n
     # チームスペースメニューを操作できる\n
@@ -1038,7 +1038,7 @@ build_parts_tsterminal = [("This Build Part can be accessed\n"
                            "to open the Team Space Menu."),
                           (""),
                           (""),
-                          ("")]
+                          ("交互後\n即可操作公會空間菜單的\n建造部件。")]
 # JP text:
     # アクセスしてジェネシスポイントを\n
     # 使用すると、ブーストを発生させられる\n
@@ -1048,7 +1048,7 @@ build_parts_teammag = [("This Build Part can be accessed\n"
                         "trigger various boost effects."),
                        (""),
                        (""),
-                       ("")]
+                       ("交互並使用創世點數後\n即可發動各種增益的\n建造部件。")]
 # JP text:
     # アクセスすると\n
     # ラインストライクで\n
@@ -1057,7 +1057,7 @@ build_parts_linestrike = [("This Build Part can be accessed\n"
                            "to engage in a Line Strike Duel."),
                           (""),
                           (""),
-                          ("")]
+                          ("交互後\n即可在戰線牌鬥中對戰的\n建造部件。")]
 # JP text:
     # アクセスすると\n
     # 対応する番号の転移門に\n
@@ -1067,7 +1067,7 @@ build_parts_transition = [("This Build Part can be accessed\n"
                            "Gate with a matching ID."),
                           (""),
                           (""),
-                          ("")]
+                          ("交互後\n即可移動到相應號碼傳送門的\n建造部件。")]
 # JP text:
     # アクセスすると\n
     # 登録したクリエイティブスペースに\n
@@ -1077,7 +1077,7 @@ build_parts_cswarp = [("This Build Part can be accessed\n"
                        "Creative Space."),
                       (""),
                       (""),
-                      ("")]
+                      ("交互後\n即可移動到已登錄創造空間的\n建造部件。")]
 # JP text:
     # コネクトを受信すると\n
     # クレーンを操作できる\n
@@ -1086,7 +1086,7 @@ build_parts_crane = [("When this Build Part receives a signal,\n"
                       "its crane arm moves around."),
                      (""),
                      (""),
-                     ("")]
+                     ("接收智聯信號後\n即可操作勾爪的建造部件。")]
 # JP text:
     # 上から入ると\n
     # 泳げるビルドパーツ。
@@ -1094,7 +1094,7 @@ build_parts_swimmable = [("This Build Part can be swum in\n"
                          "if entered through its top face."),
                         (""),
                         (""),
-                        ("")]
+                         ("從上方進入後\n即可游泳的建造部件。")]
 
 def translate_part_desc(part):
     # Name isn't translated and we're not working in CN, skip this one
