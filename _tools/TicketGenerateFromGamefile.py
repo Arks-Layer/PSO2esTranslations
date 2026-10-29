@@ -92,8 +92,8 @@ trade_mapping = {
     'ngs_ma': ('ラインストライク', ("ma", "sv", )),
     'ngs_vo': ('エステ/ボイス', ("vo", )),
     'o2_vo': ('エステ/ボイス', ("vo", )),
-    'ngs_unit': ('防具', ("unit", )),
-    'ngs_weapon': ('ソード', ("weapon", ))
+    'ngs_un': ('防具', ("un", )),
+    'ngs_wp': ('ソード', ("wp", ))
     }
 # swiki pages of equipment (one item per table row; weapons of other types are found by sword series)
 equipment_wiki_pages = ('防具', 'ソード')
@@ -101,27 +101,38 @@ equipment_wiki_pages = ('防具', 'ソード')
 jsonfile_dir = os.path.abspath(os.path.join(root_dir, os.pardir, "json"))
 
 # Json files to update for each item category
-# (files of "equipment" are the keys of equipment_types)
+# (files of "eq" are the keys of equipment_types)
 json_paths = {
     "mo": ["Item_Stack_MotionChange.txt"],
     "bp": ["Item_Stack_CS_Material_Ticket1.txt", "Item_Stack_CS_Material_Ticket2.txt", "Item_Stack_CS_Material_Ticket3.txt"],
     "ph": ["Item_Stack_CS_Effect.txt", "Item_Stack_CS_Room_Goods.txt", "Item_Stack_CS_Stickers.txt"],
     "bg": ["Item_Stack_Arkscard_BG.txt"],
     "aug": ["Item_Stack_ElementCapsule.txt"],
-    "ou_m": ["Item_Stack_OuterWearM.txt"],
-    "ou_f": ["Item_Stack_OuterWearF.txt"],
-    "cp_m": ["Item_Stack_ArmPartsM.txt", "Item_Stack_BodyPartsM.txt", "Item_Stack_LegPartsM.txt"],
-    "cp_f": ["Item_Stack_ArmPartsF.txt", "Item_Stack_BodyPartsF.txt", "Item_Stack_LegPartsF.txt"],
+    "ou": ["Item_Stack_OuterWearM.txt", "Item_Stack_OuterWearF.txt"],
+    "cp": ["Item_Stack_ArmPartsM.txt", "Item_Stack_BodyPartsM.txt", "Item_Stack_LegPartsM.txt",
+           "Item_Stack_ArmPartsF.txt", "Item_Stack_BodyPartsF.txt", "Item_Stack_LegPartsF.txt"],
     "mou": ["Item_Stack_Tooth.txt"],
     "ear": ["Item_Stack_Ear.txt"],
     "horn": ["Item_Stack_Horn.txt"],
     "body": ["Item_Stack_Skin.txt"],
+    "ba": ["Item_BaseWear_Male.txt", "Item_BaseWear_Female.txt"],
+    "in": ["Item_InnerWear_Male.txt", "Item_InnerWear_Female.txt"],
+    "bpa": ["Item_Stack_BodyPaint.txt"],
+    "stk": ["Item_Stack_Sticker.txt"],
+    "eye": ["Item_Stack_Eye.txt"],
+    "brow": ["Item_Stack_EyeBrow.txt"],
+    "lash": ["Item_Stack_EyeLash.txt"],
+    "fpa": ["Item_Stack_FacePaint.txt"],
+    "hair": ["Item_Stack_Hairstyle.txt"],
+    "head": ["Item_Stack_Headparts.txt"],
+    "face": ["Item_FacePattern.txt"],
+    "ac": ["Item_Stack_Accessory.txt"],
     "ca": ["Item_Stack_Duel_Card_Ticket.txt"],
     "ma": ["Item_Stack_Duel_Card_Play_Mat.txt"],
     "sv": ["Item_Stack_Duel_Card_Sleeve.txt"],
     "ha": ["Item_Stack_LobbyAction.txt"],
     "vo": ["Item_Stack_Voice.txt"],
-    "ring": ["Item_NGSRing1.txt", "Item_NGSRing2.txt"]
+    "rg": ["Item_NGSRing1.txt", "Item_NGSRing2.txt"]
 }
 
 # ——————————————————————————————
@@ -294,7 +305,7 @@ def numeric_order(base_id):
 # [FUNCTION] Get JP target lines of the table from the starting line
 # Game files consist of tables ordered by ids (by string if order_key is str), a table ends where the order resets
 # If start_id is (start_id, start_refer_id), the referred texts of the same ids are added to lines
-def get_table_jp_target_lines(lines, start_id, id_pattern, order_key=str):
+def get_table_jp_target_lines(lines, start_id, id_pattern="", order_key=str):
     if isinstance(start_id, (list, tuple)):
         text_lines = get_table_jp_target_lines(lines, start_id[0], id_pattern, order_key)
         refer_lines = get_table_jp_target_lines(lines, start_id[1], id_pattern, order_key)
@@ -312,18 +323,26 @@ def get_table_jp_target_lines(lines, start_id, id_pattern, order_key=str):
             prev_order = order
     return [(text_id, jp_text) for text_id, jp_text in table_lines if re.match(id_pattern, text_id)]
 
+# [FUNCTION] Remove the lines of dummy texts
+def remove_dummy_lines(lines):
+    return [line for line in lines if not line[1].startswith(("￥", "text_"))]
+
 # [FUNCTION] Form names of voice (only compatible with CN)
 def form_vo_names(text_id, jp_fulltext, tr_fulltext):
     # Split the full text to get vo name and cv name
-    vo_jp_name, cv_jp_name = jp_fulltext.split("/") if "/" in jp_fulltext else (jp_fulltext, jp_fulltext)
+    # (voices without cv name are voiced by the characters themselves, e.g. "でびでび・でびる")
+    vo_jp_name = jp_fulltext.split("/")[0]
     vo_tr_name, cv_tr_name = tr_fulltext.split("/") if "/" in tr_fulltext else (tr_fulltext, tr_fulltext)
 
     # Determine version and gender of the voice based on text id
-    vo_ver = "ngs" if re.match(r'.*9\d{2}#0', text_id) else "o2"
+    # NGS voices: "11_voice_cman9xx"/"11_voice_cwoman9xx", then "11_voice_3xxxxx"/"11_voice_4xxxxx"
+    new_id = re.match(r'11_voice_([34])\d{5}#', text_id)
+    vo_ver = "ngs" if new_id or re.match(r'.*9\d{2}#0', text_id) else "o2"
+    is_male = new_id.group(1) == "3" if new_id else text_id.startswith("11_voice_cman")
     if vo_ver == "o2":
-        vo_gender = "男性" if text_id.startswith("11_voice_cman") else "女性"
+        vo_gender = "男性" if is_male else "女性"
     elif vo_ver == "ngs":
-        vo_gender = "T1" if text_id.startswith("11_voice_cman") else "T2"
+        vo_gender = "T1" if is_male else "T2"
 
     # Initialize
     vo_jp_type = vo_tr_type = [""]
@@ -693,7 +712,7 @@ elif LANG == 1:
     lineduel_text_tr_lines = parse_data(lineduel_text_cn_path, "ini")[0]
     item_series_name_tr_lines = parse_data(item_series_name_cn_path, "ini")[0]
     item_series_name_comment_tr = parse_ini_comment_translations(item_series_name_cn_path)
-    ui_item_tr_lines, trade_infos["ring"] = parse_data(ui_item_cn_path, "ini")
+    ui_item_tr_lines, trade_infos["rg"] = parse_data(ui_item_cn_path, "ini")
 elif LANG == 2:
     common_tr_lines = parse_data(common_en_url, "csv")[0]
     accessories_tr_lines = parse_data(accessories_en_url, "csv")[0]
@@ -743,7 +762,7 @@ equipment_types = {
     "Item_Weapon_Wand.txt": ("ウォンド", "短杖", "Wand"),
     "Item_Weapon_WiredLance.txt": ("ワイヤー", "自在槍", "Wire"),
     "Item_Addon_Unit.txt": ("アーマ", "防具", "Armor")}
-json_paths["equipment"] = list(equipment_types)
+json_paths["eq"] = list(equipment_types)
 # Common suffixes of equipment names except roman numerals (e.g. "トワル・シュメッターソードAT")
 equipment_common_suffixes = {
     "AT": ("AT", "AT", "AT")}
@@ -823,7 +842,16 @@ def edit_sp_texts(prefix, jp_text, tr_text, jp_refer):
     elif prefix == "ca" and "せんとらるっ！　" in jp_text:
         sp_char = "！"
         jp_text = jp_text.replace(sp_char + "　", sp_char)
-    
+    # Voices voiced by the characters themselves, whose cv names are written differently
+    elif prefix == "vo" and jp_text == "五十嵐梨花":
+        sp_texts = ["/五十嵐 梨花", "/五十嵐 梨花", "/Rika Igarashi"]
+        jp_text += sp_texts[0]
+        tr_text += sp_texts[LANG]
+    elif prefix == "vo" and jp_text == "倉持めると":
+        sp_texts = ["/倉持 めると", "/倉持 妹路特", "/Meruto Kuramochi"]
+        jp_text += sp_texts[0]
+        tr_text += sp_texts[LANG]
+
     return jp_text, tr_text
 
 # Find target JP lines
@@ -836,10 +864,8 @@ bp_jp_target_lines = [
 ph_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in accessories_jp_lines
     if text_id.startswith("ob_7") and not jp_text.startswith(("￥", "text_"))]
-bg_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in
-    get_start_jp_target_lines(charamake_parts_jp_lines, "10#0", "", r'^(\d{1,3})#')
-    if not jp_text.startswith(("￥", "text_"))]
+bg_jp_target_lines = remove_dummy_lines(
+    get_table_jp_target_lines(charamake_parts_jp_lines, "10#0", r'^\d{1,3}#'))
 aug_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in element_name_jp_lines
     if not jp_text.startswith(("ダミー", "レガロ・", "セズン・", "EX", "ウェポンコネクタ", "￥", "-"))
@@ -849,51 +875,46 @@ ou_jp_target_lines = [
     if re.match(r'^No\d{6}#', text_id)
     and jp_text.endswith("[Ou]")
     and not jp_text.startswith(("￥", "text_")) and (("NPC")) not in jp_text]
-ou_m_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in ou_jp_target_lines
-    if re.match(r'^No1\d{5}#', text_id)]
-ou_f_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in ou_jp_target_lines
-    if re.match(r'^No2\d{5}#', text_id)]
 cp_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-    if re.match(r'^No\d{6}#', text_id)
+    if re.match(r'^No[34]\d{5}#', text_id)
     and any(keyword in jp_text for keyword in ("・アーム", "・ボディ", "・レッグ"))
     and not jp_text.startswith(("￥", "text_")) and (("NPC")) not in jp_text]
-cp_m_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in cp_jp_target_lines
-    if re.match(r'^No3\d{5}#', text_id)]
-cp_f_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in cp_jp_target_lines
-    if re.match(r'^No4\d{5}#', text_id)]
-mou_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in
-    get_order_jp_target_lines(charamake_parts_jp_lines, "No100010#10", "", r'^No(1\d{5})#')]
-ear_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in
-    get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#4", "", r'^No(1\d{5})#')]
-horn_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in
-    get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#5", "", r'^No(1\d{5})#')]
+mou_jp_target_lines = get_table_jp_target_lines(charamake_parts_jp_lines, "No100010#10", r'^No1\d{5}#')
+ear_jp_target_lines = get_table_jp_target_lines(charamake_parts_jp_lines, "No100000#4", r'^No1\d{5}#')
+horn_jp_target_lines = get_table_jp_target_lines(charamake_parts_jp_lines, "No100000#5", r'^No1\d{5}#')
 body_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in
-    get_order_jp_target_lines(charamake_parts_jp_lines, "No100000#6", "", r'^No(\d{6})#')
+    get_table_jp_target_lines(charamake_parts_jp_lines, "No100000#6", r'^No\d{6}#')
     if not jp_text.startswith(("￥", "text_")) and "NPC" not in jp_text]
-ca_jp_target_lines = [
-    (text_id, jp_text, jp_refer) for text_id, jp_text, jp_refer in
-    get_order_jp_target_lines(lineduel_text_jp_lines, ("10#0", "10#1"), "", r'^(\d+)#')]
-ma_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in
-    get_order_jp_target_lines(lineduel_text_jp_lines, "0#2", "", r'^(\d+)#')]
-sv_jp_target_lines = [
-    (text_id, jp_text) for text_id, jp_text in
-    get_order_jp_target_lines(lineduel_text_jp_lines, "0#3", "", r'^(\d+)#')]
+ba_jp_target_lines = remove_dummy_lines(get_table_jp_target_lines(charamake_parts_jp_lines, "No100010#0"))
+in_jp_target_lines = remove_dummy_lines(get_table_jp_target_lines(charamake_parts_jp_lines, "No100010#8"))
+bpa_jp_target_lines = remove_dummy_lines(get_table_jp_target_lines(charamake_parts_jp_lines, "1250#0"))
+stk_jp_target_lines = remove_dummy_lines(get_table_jp_target_lines(charamake_parts_jp_lines, "No00000#2"))
+eye_jp_target_lines = remove_dummy_lines(get_table_jp_target_lines(charamake_parts_jp_lines, "243#0"))
+brow_jp_target_lines = remove_dummy_lines(get_table_jp_target_lines(charamake_parts_jp_lines, "10780#0"))
+lash_jp_target_lines = remove_dummy_lines(get_table_jp_target_lines(charamake_parts_jp_lines, "10750#0"))
+fpa_jp_target_lines = remove_dummy_lines(get_table_jp_target_lines(charamake_parts_jp_lines, "No00000#5"))
+# Hairstyles and head parts share a table; cast head parts are also in the table of cast parts
+hair_jp_target_lines = remove_dummy_lines(
+    get_table_jp_target_lines(charamake_parts_jp_lines, "50670#0", r'^No([01]\d{4}|1\d{5})#'))
+head_jp_target_lines = remove_dummy_lines(
+    get_table_jp_target_lines(charamake_parts_jp_lines, "50670#0", r'^No(5\d{4}|3\d{5})#')
+    + get_table_jp_target_lines(charamake_parts_jp_lines, "-#0", r'^cast_'))
+# Face variations are in the table of face variations and the table of voices
+face_jp_target_lines = remove_dummy_lines(
+    get_table_jp_target_lines(charamake_parts_jp_lines, "No100000#2", r'^No[12]\d{5}#')
+    + get_table_jp_target_lines(charamake_parts_jp_lines, "11_voice_201000#0", r'^No\d{6}#'))
+ac_jp_target_lines = remove_dummy_lines(get_table_jp_target_lines(accessories_jp_lines, "No00000#0"))
+ca_jp_target_lines = get_table_jp_target_lines(lineduel_text_jp_lines, ("10#0", "10#1"), order_key=numeric_order)
+ma_jp_target_lines = get_table_jp_target_lines(lineduel_text_jp_lines, "0#2", order_key=numeric_order)
+sv_jp_target_lines = get_table_jp_target_lines(lineduel_text_jp_lines, "0#3", order_key=numeric_order)
 ha_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in common_jp_lines
     if text_id.startswith("LobbyAction_")]
 vo_jp_target_lines = [
     (text_id, jp_text) for text_id, jp_text in charamake_parts_jp_lines
-    if text_id.startswith("11_voice_c")]
+    if re.match(r'11_voice_(c|[34]\d{5}#)', text_id)]
 
 # JP target lines and translated lines of game items
 game_target_lines = {
@@ -902,14 +923,24 @@ game_target_lines = {
     "ph": (ph_jp_target_lines, accessories_tr_lines),
     "bg": (bg_jp_target_lines, charamake_parts_tr_lines),
     "aug": (aug_jp_target_lines, element_name_tr_lines),
-    "ou_m": (ou_m_jp_target_lines, charamake_parts_tr_lines),
-    "ou_f": (ou_f_jp_target_lines, charamake_parts_tr_lines),
-    "cp_m": (cp_m_jp_target_lines, charamake_parts_tr_lines),
-    "cp_f": (cp_f_jp_target_lines, charamake_parts_tr_lines),
+    "ou": (ou_jp_target_lines, charamake_parts_tr_lines),
+    "cp": (cp_jp_target_lines, charamake_parts_tr_lines),
     "mou": (mou_jp_target_lines, charamake_parts_tr_lines),
     "ear": (ear_jp_target_lines, charamake_parts_tr_lines),
     "horn": (horn_jp_target_lines, charamake_parts_tr_lines),
     "body": (body_jp_target_lines, charamake_parts_tr_lines),
+    "ba": (ba_jp_target_lines, charamake_parts_tr_lines),
+    "in": (in_jp_target_lines, charamake_parts_tr_lines),
+    "bpa": (bpa_jp_target_lines, charamake_parts_tr_lines),
+    "stk": (stk_jp_target_lines, charamake_parts_tr_lines),
+    "eye": (eye_jp_target_lines, charamake_parts_tr_lines),
+    "brow": (brow_jp_target_lines, charamake_parts_tr_lines),
+    "lash": (lash_jp_target_lines, charamake_parts_tr_lines),
+    "fpa": (fpa_jp_target_lines, charamake_parts_tr_lines),
+    "hair": (hair_jp_target_lines, charamake_parts_tr_lines),
+    "head": (head_jp_target_lines, charamake_parts_tr_lines),
+    "face": (face_jp_target_lines, charamake_parts_tr_lines),
+    "ac": (ac_jp_target_lines, accessories_tr_lines),
     "ca": (ca_jp_target_lines, lineduel_text_tr_lines),
     "ma": (ma_jp_target_lines, lineduel_text_tr_lines),
     "sv": (sv_jp_target_lines, lineduel_text_tr_lines),
@@ -941,7 +972,7 @@ def extra_condition(prefix, jp_text, text_id):
         return text_id.endswith("0#0")
     elif prefix == "ha":
         return True
-    elif prefix in ("unit", "weapon"):
+    elif prefix in ("un", "wp"):
         return jp_text.endswith(("AT"))
     return False
 
@@ -1040,7 +1071,7 @@ def report_untranslated(prefix, untranslated_texts):
 def build_equipment_entries(prefix):
     # Weapons of other types are also untradable if the swords of the same series are untradable
     untradable_series_keys = get_untradable_series_keys(
-        trade_infos["weapon"], equipment_types["Item_Weapon_Sword.txt"],
+        trade_infos["wp"], equipment_types["Item_Weapon_Sword.txt"],
         equipment_series_records, equipment_series_by_base)
     untranslated_texts = []
 
@@ -1055,12 +1086,12 @@ def build_equipment_entries(prefix):
             untranslated_texts.append(jp_text)
             return None
         # Get tradable info from global variable
-        trade_prefix = "unit" if path.startswith("Item_Addon_") else "weapon"
+        trade_prefix = "un" if path.startswith("Item_Addon_") else "wp"
         if extra_condition(trade_prefix, jp_text, ""):
             trade_infos[trade_prefix][jp_text] = "Untradable"
         trade_info = get_equipment_trade_info(
             jp_text, structure, jp_suffix, trade_infos[trade_prefix],
-            untradable_series_keys if trade_prefix == "weapon" else set())
+            untradable_series_keys if trade_prefix == "wp" else set())
         return form_name_entry(jp_text, translated_name, trade_info)
 
     return get_entry, lambda: report_untranslated(prefix, untranslated_texts)
@@ -1093,8 +1124,8 @@ def build_ring_entries(prefix):
 
 # Entry builders of prefixes (build_game_entries if not defined)
 entry_builders = {
-    "equipment": build_equipment_entries,
-    "ring": build_ring_entries}
+    "eq": build_equipment_entries,
+    "rg": build_ring_entries}
 
 # [FUNCTION] Update existing json files of the prefix
 def main_update(prefix):
@@ -1113,7 +1144,9 @@ def main_update(prefix):
     report()
 
 # Update json files from game files
-process_prefixes = ["mo", "bp", "ph", "bg", "aug", "ou_m", "ou_f", "cp_m", "cp_f", "mou", "ear", "horn", "body", "ca", "ma", "sv", "equipment", "ring"]
+process_prefixes = [
+    "mo", "bp", "ph", "bg", "aug", "ou", "cp", "mou", "ear", "horn", "body", "ba", "in",
+    "bpa", "stk", "eye", "brow", "lash", "fpa", "hair", "head", "face", "ac", "ca", "ma", "sv", "eq", "rg"]
 # Update "Stack_" json files of lobby actions and voices (only for CN)
 if LANG == 1:
     process_prefixes += ["ha", "vo"]
