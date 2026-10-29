@@ -63,6 +63,11 @@ def split_name_prefix(item):
     item["tr_explain"] = item["tr_explain"][len(name_prefix):]
     return name_prefix
 
+# For CN, copy the JP name into any empty tr_text
+def fill_cn_name(item):
+    if LANG == 3 and item["tr_text"] == "":
+        item["tr_text"] = item["jp_text"]
+
 ####################################################################################################
 
 # Translate layered wear
@@ -122,7 +127,7 @@ ndesc_n_formats = ["Unlocks {a}new {itype} for use.",
 ndesc_allcharacters_formats = ["A {itype} that unlocks for all\ncharacters on your account.",
                  "사용하면 새로운 {itype} 아이템을\n모든 캐릭터에 선택할 수 있게 됩니다.",
                  "{itype}, разблок. для\nвсех персонажей аккаунта.",
-                 "使用後所有角色均可選用\n新的{itype}。"]
+                 "使用後所有角色均可選用新的{itype}。"]
 
 # JP text: 
     # 使用すると新しい{itype}パターンが\n
@@ -396,6 +401,7 @@ for name in layered_file_names:
     newtranslations = False
     
     for item in items:
+        fill_cn_name(item)
         name_prefix = split_name_prefix(item)
         problem = translate_nlayer_desc(item, name) if "選択可能になる。" in item["jp_explain"] else translate_layer_desc(item, name)
         item["tr_explain"] = name_prefix + item["tr_explain"]
@@ -445,11 +451,11 @@ cosmetic_file_names = [
 
 cosmetic_types = {
     "Stack_Accessory": ["accessory", "악세서리", "аксессуар", "飾品"],
-    "Stack_Arkscard_BG": ["background for your ARKS\nCard", "", "", "ARKS名片背景"],
+    "Stack_Arkscard_BG": ["background for your ARKS\nCard", "", "", "\nARKS名片背景"],
     "Stack_BodyPaint": ["body paint", "바디 페인트", "рис. тела", "身體彩繪"],
-    "Stack_CS_Effect": ["Portable Hologram", "", "", "便攜全息投影"],
-    "Stack_CS_Room_Goods": ["Portable Hologram", "", "", "便攜全息投影"],
-    "Stack_CS_Stickers": ["Portable Hologram", "", "", "便攜全息投影"],
+    "Stack_CS_Effect": ["Portable Hologram", "", "", "\n便攜全息投影"],
+    "Stack_CS_Room_Goods": ["Portable Hologram", "", "", "\n便攜全息投影"],
+    "Stack_CS_Stickers": ["Portable Hologram", "", "", "\n便攜全息投影"],
     "Stack_Duel_Card_Play_Mat": ["playmat", "", "", "牌桌墊"],
     "Stack_Duel_Card_Sleeve": ["card sleeve", "", "", "牌套"],
     "Stack_Duel_Card_Ticket": ["card", "", "", "卡牌"],
@@ -464,7 +470,7 @@ cosmetic_types = {
     "Stack_Stamp": ["stamp", "스탬프", "штамп", "表情圖"],
     "Stack_Sticker": ["sticker", "스티커", "стикер", "貼紙"],
     "Stack_Tooth": ["teeth and tongue\nset", "치아/혀", "зубы и язык", "牙齒、舌頭"],
-    "Stack_Vital_Gauge": ["Vital Gauge BG", "", "", "體征槽背景"]
+    "Stack_Vital_Gauge": ["Vital Gauge BG", "", "", "\n體征槽背景"]
     }
 
 # JP text: 
@@ -732,6 +738,7 @@ for file_name in cosmetic_file_names:
     newtranslations = False
     
     for item in items:
+        fill_cn_name(item)
         name_prefix = split_name_prefix(item)
         problem = translate_ncosmetic_desc(item, file_name) if "選択可能になる。" in item["jp_explain"] else translate_cosmetic_desc(item, file_name)
         item["tr_explain"] = name_prefix + item["tr_explain"]
@@ -1266,6 +1273,7 @@ for file_name in build_parts_file_names:
     newtranslations = False
 
     for part in parts:
+        fill_cn_name(part)
         name_prefix = split_name_prefix(part)
         problem = translate_part_desc(part)
         part["tr_explain"] = name_prefix + part["tr_explain"]
@@ -1614,6 +1622,7 @@ def translate_la_desc(item):
     return 0    
 
 for item in items:
+    fill_cn_name(item)
     name_prefix = split_name_prefix(item)
     problem = translate_la_desc(item)
     item["tr_explain"] = name_prefix + item["tr_explain"]
@@ -1856,7 +1865,7 @@ cv_names = {
     "でびでび・でびる": ["Debidebi Debiru", "", "", "德比德比·德比魯"],
     "アルス・アルマル": ["Ars Almal", "", "", "阿露絲·阿爾瑪"],
     "ニュイ・ソシエール": ["Nui Sociere", "", "", "紐伊·索西艾瑞"],
-    "竜胆 尊": ["Mikoto Rindou", "", "", "竜胆 尊"],
+    "竜胆 尊": ["Mikoto Rindou", "", "", "龍膽 尊"],
     "岡咲 美保": ["Miho Okasaki", "", "", "岡咲 美保"],
     "日高 里菜": ["Rina Hidaka", "", "", "日高 里菜"],
     "永瀬 アンナ": ["Anna Nagase", "", "", "永瀨 安奈"],
@@ -2003,6 +2012,7 @@ def translate_voice(item):
 
 for item in items:
     
+    fill_cn_name(item)
     name_prefix = split_name_prefix(item)
     problem = translate_voice(item)
     item["tr_explain"] = name_prefix + item["tr_explain"]
@@ -2248,6 +2258,7 @@ for file_name in cosmeticsorted_file_names:
     newtranslations = False
     
     for item in items:
+        fill_cn_name(item)
         name_prefix = split_name_prefix(item)
         problem = translate_ncosmeticsorted_desc(item, file_name) if "選択可能になる。" in item["jp_explain"] or item["jp_explain"] == "" else translate_cosmeticsorted_desc(item, file_name)
         item["tr_explain"] = name_prefix + item["tr_explain"]
@@ -2267,4 +2278,3 @@ for file_name in cosmeticsorted_file_names:
     items_file.write("\n")
     items_file.close()
 
-print ("Ticket translation complete.")
