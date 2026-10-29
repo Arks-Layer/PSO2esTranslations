@@ -5378,5 +5378,558 @@
 		"assign": "KingRappyQEx",
 		"jp_text": "クィーン・ラッピーＥｘ",
 		"tr_text": "퀸 랍피Ｅｘ"
+	},
+	{
+		"row": 758,
+		"assign": "PantherSnowARareATK0Ex",
+		"__key": "Name:string:PantherSnowARareATK0Ex",
+		"jp_text": "大型バンサ・オランＥｘ",
+		"tr_text": "대형 밴서 오란Ｅｘ"
+	},
+	{
+		"row": 765,
+		"assign": "PantherSnowARareMC1Ex",
+		"__key": "Name:string:PantherSnowARareMC1Ex",
+		"jp_text": "覇滅バンサ・オランＥｘ",
+		"tr_text": "패멸 밴서 오란Ｅｘ"
+	},
+	{
+		"row": 767,
+		"assign": "PantherSnowARareMC2Ex",
+		"__key": "Name:string:PantherSnowARareMC2Ex",
+		"jp_text": "覇滅バンサ・オランＥｘ",
+		"tr_text": "패멸 밴서 오란Ｅｘ"
+	},
+	{
+		"row": 771,
+		"assign": "PantherARareSPD0Ex",
+		"__key": "Name:string:PantherARareSPD0Ex",
+		"jp_text": "狂暴バンサ・オングＥｘ",
+		"tr_text": "광포 밴서 옹Ｅｘ"
+	},
+	{
+		"row": 773,
+		"assign": "PantherARareAN0Ex",
+		"__key": "Name:string:PantherARareAN0Ex",
+		"jp_text": "特異バンサ・オングＥｘ",
+		"tr_text": "특이 밴서 옹Ｅｘ"
+	},
+	{
+		"row": 775,
+		"assign": "PantherARareHC0Ex",
+		"__key": "Name:string:PantherARareHC0Ex",
+		"jp_text": "タイプＣバンサ・オングＥｘ",
+		"tr_text": "타입 Ｃ 밴서 옹Ｅｘ"
+	},
+	{
+		"row": 778,
+		"assign": "PantherARareMC0Ex",
+		"__key": "Name:string:PantherARareMC0Ex",
+		"jp_text": "覇滅バンサ・オングＥｘ",
+		"tr_text": "패멸 밴서 옹Ｅｘ"
+	},
+	{
+		"row": 780,
+		"assign": "PantherARareMC1Ex",
+		"__key": "Name:string:PantherARareMC1Ex",
+		"jp_text": "覇滅バンサ・オングＥｘ",
+		"tr_text": "패멸 밴서 옹Ｅｘ"
+	},
+	{
+		"row": 782,
+		"assign": "PantherARareMC2Ex",
+		"__key": "Name:string:PantherARareMC2Ex",
+		"jp_text": "覇滅バンサ・オングEx",
+		"tr_text": "패멸 밴서 옹Ex"
+	},
+	{
+		"row": 785,
+		"assign": "PantherBRareATK0Ex",
+		"__key": "Name:string:PantherBRareATK0Ex",
+		"jp_text": "大型バンサ・ドンナEx",
+		"tr_text": "대형 밴서 돈나Ex"
+	},
+	{
+		"row": 789,
+		"assign": "PantherBRareHC0Ex",
+		"__key": "Name:string:PantherBRareHC0Ex",
+		"jp_text": "タイプＣバンサ・ドンナＥｘ",
+		"tr_text": "타입 Ｃ 밴서 돈나Ｅｘ"
+	},
+	{
+		"row": 792,
+		"assign": "PantherBRareMC0Ex",
+		"__key": "Name:string:PantherBRareMC0Ex",
+		"jp_text": "覇滅バンサ・ドンナEx",
+		"tr_text": "패멸 밴서 돈나Ex"
+	},
+	{
+		"row": 794,
+		"assign": "PantherBRareMC1Ex",
+		"__key": "Name:string:PantherBRareMC1Ex",
+		"jp_text": "覇滅バンサ・ドンナEx",
+		"tr_text": "패멸 밴서 돈나Ex"
+	},
+	{
+		"row": 798,
+		"assign": "DragonMagmaRareATK0Ex",
+		"__key": "Name:string:DragonMagmaRareATK0Ex",
+		"jp_text": "大型バーン・ドラールＥｘ",
+		"tr_text": "대형 번 드랄Ｅｘ"
+	},
+	{
+		"row": 800,
+		"assign": "DragonMagmaRareSPD0Ex",
+		"__key": "Name:string:DragonMagmaRareSPD0Ex",
+		"jp_text": "狂暴バーン・ドラールＥｘ",
+		"tr_text": "광포 번 드랄Ｅｘ"
+	},
+	{
+		"row": 805,
+		"assign": "DragonMagmaRareMC0Ex",
+		"__key": "Name:string:DragonMagmaRareMC0Ex",
+		"jp_text": "覇滅バーン・ドラールＥｘ",
+		"tr_text": "패멸 번 드랄Ｅｘ"
+	},
+	{
+		"row": 807,
+		"assign": "DragonMagmaRareMC1Ex",
+		"__key": "Name:string:DragonMagmaRareMC1Ex",
+		"jp_text": "覇滅バーン・ドラールＥｘ",
+		"tr_text": "패멸 번 드랄Ｅｘ"
+	},
+	{
+		"row": 809,
+		"assign": "DragonMagmaRareMC2Ex",
+		"__key": "Name:string:DragonMagmaRareMC2Ex",
+		"jp_text": "覇滅バーン・ドラールEx",
+		"tr_text": "패멸 번 드랄Ex"
+	},
+	{
+		"row": 811,
+		"assign": "TransformMechaRareLD0Ex",
+		"__key": "Name:string:TransformMechaRareLD0Ex",
+		"jp_text": "小型トランゼクシアＥｘ",
+		"tr_text": "소형 트랜젝시아Ｅｘ"
+	},
+	{
+		"row": 813,
+		"assign": "TransformMechaRareATK0Ex",
+		"__key": "Name:string:TransformMechaRareATK0Ex",
+		"jp_text": "大型トランゼクシアEx",
+		"tr_text": "대형 트랜젝시아Ex"
+	},
+	{
+		"row": 816,
+		"assign": "TransformMechaRareAN0Ex",
+		"__key": "Name:string:TransformMechaRareAN0Ex",
+		"jp_text": "特異トランゼクシアＥｘ",
+		"tr_text": "특이 트랜젝시아Ｅｘ"
+	},
+	{
+		"row": 820,
+		"assign": "TransformMechaRareMC0Ex",
+		"__key": "Name:string:TransformMechaRareMC0Ex",
+		"jp_text": "覇滅トランゼクシアEx",
+		"tr_text": "패멸 트랜젝시아Ex"
+	},
+	{
+		"row": 822,
+		"assign": "TransformMechaRareMC1Ex",
+		"__key": "Name:string:TransformMechaRareMC1Ex",
+		"jp_text": "覇滅トランゼクシアＥｘ",
+		"tr_text": "패멸 트랜젝시아Ｅｘ"
+	},
+	{
+		"row": 824,
+		"assign": "TransformMechaRareMC2Ex",
+		"__key": "Name:string:TransformMechaRareMC2Ex",
+		"jp_text": "覇滅トランゼクシアEx",
+		"tr_text": "패멸 트랜젝시아Ex"
+	},
+	{
+		"row": 828,
+		"assign": "MachineLittleBossRareSPD0Ex",
+		"__key": "Name:string:MachineLittleBossRareSPD0Ex",
+		"jp_text": "狂暴エンブリオヴァーダーＥｘ",
+		"tr_text": "광포 엠브리오 버더Ｅｘ"
+	},
+	{
+		"row": 830,
+		"assign": "MachineLittleBossRareAN0Ex",
+		"__key": "Name:string:MachineLittleBossRareAN0Ex",
+		"jp_text": "特異エンブリオヴァーダーＥｘ",
+		"tr_text": "특이 엠브리오 버더Ｅｘ"
+	},
+	{
+		"row": 834,
+		"assign": "MachineLittleBossRareMC0Ex",
+		"__key": "Name:string:MachineLittleBossRareMC0Ex",
+		"jp_text": "覇滅エンブリオヴァーダーEx",
+		"tr_text": "패멸 엠브리오 버더Ex"
+	},
+	{
+		"row": 836,
+		"assign": "MachineLittleBossRareMC1Ex",
+		"__key": "Name:string:MachineLittleBossRareMC1Ex",
+		"jp_text": "覇滅エンブリオヴァーダーＥｘ",
+		"tr_text": "패멸 엠브리오 버더Ｅｘ"
+	},
+	{
+		"row": 838,
+		"assign": "MachineLittleBossRareMC2Ex",
+		"__key": "Name:string:MachineLittleBossRareMC2Ex",
+		"jp_text": "覇滅エンブリオヴァーダーEx",
+		"tr_text": "패멸 엠브리오 버더Ex"
+	},
+	{
+		"row": 840,
+		"assign": "UltMechaPanthBusterRareLD0Ex",
+		"__key": "Name:string:UltMechaPanthBusterRareLD0Ex",
+		"jp_text": "小型レオパード・ヴロッゾＥｘ",
+		"tr_text": "소형 레오파드 브롯조Ｅｘ"
+	},
+	{
+		"row": 843,
+		"assign": "UltMechaPanthBusterRareSPD1",
+		"__key": "Name:string:UltMechaPanthBusterRareSPD1",
+		"jp_text": "狂暴レオパード・ヴロッゾEx",
+		"tr_text": "광포 레오파드 브롯조Ex"
+	},
+	{
+		"row": 848,
+		"assign": "UltMechaPanthBusterRareMC0Ex",
+		"__key": "Name:string:UltMechaPanthBusterRareMC0Ex",
+		"jp_text": "覇滅レオパード・ヴロッゾEx",
+		"tr_text": "패멸 레오파드 브롯조Ex"
+	},
+	{
+		"row": 850,
+		"assign": "UltMechaPanthBusterRareMC1Ex",
+		"__key": "Name:string:UltMechaPanthBusterRareMC1Ex",
+		"jp_text": "覇滅レオパード・ヴロッゾＥｘ",
+		"tr_text": "패멸 레오파드 브롯조Ｅｘ"
+	},
+	{
+		"row": 852,
+		"assign": "UltMechaPanthBusterRareMC2Ex",
+		"__key": "Name:string:UltMechaPanthBusterRareMC2Ex",
+		"jp_text": "覇滅レオパード・ヴロッゾＥｘ",
+		"tr_text": "패멸 레오파드 브롯조Ｅｘ"
+	},
+	{
+		"row": 856,
+		"assign": "DragonCrystalRareSPD0Ex",
+		"__key": "Name:string:DragonCrystalRareSPD0Ex",
+		"jp_text": "狂暴クリス・ドラールＥｘ",
+		"tr_text": "광포 크리스 드랄Ｅｘ"
+	},
+	{
+		"row": 858,
+		"assign": "DragonCrystalRareAN0Ex",
+		"__key": "Name:string:DragonCrystalRareAN0Ex",
+		"jp_text": "特異クリス・ドラールＥｘ",
+		"tr_text": "특이 크리스 드랄Ｅｘ"
+	},
+	{
+		"row": 863,
+		"assign": "DragonCrystalRareMC1Ex",
+		"__key": "Name:string:DragonCrystalRareMC1Ex",
+		"jp_text": "覇滅クリス・ドラールＥｘ",
+		"tr_text": "패멸 크리스 드랄Ｅｘ"
+	},
+	{
+		"row": 865,
+		"assign": "DragonCrystalRareMC2Ex",
+		"__key": "Name:string:DragonCrystalRareMC2Ex",
+		"jp_text": "覇滅クリス・ドラールＥｘ",
+		"tr_text": "패멸 크리스 드랄Ｅｘ"
+	},
+	{
+		"row": 869,
+		"assign": "DragonGladiatorRareSPD0Ex",
+		"__key": "Name:string:DragonGladiatorRareSPD0Ex",
+		"jp_text": "狂暴ノワル・ドラールＥｘ",
+		"tr_text": "광포 누아르 드랄Ｅｘ"
+	},
+	{
+		"row": 871,
+		"assign": "DragonGladiatorRareAN0Ex",
+		"__key": "Name:string:DragonGladiatorRareAN0Ex",
+		"jp_text": "特異ノワル・ドラールＥｘ",
+		"tr_text": "특이 누아르 드랄Ｅｘ"
+	},
+	{
+		"row": 875,
+		"assign": "DragonGladiatorRareMC0Ex",
+		"__key": "Name:string:DragonGladiatorRareMC0Ex",
+		"jp_text": "覇滅ノワル・ドラールＥｘ",
+		"tr_text": "패멸 누아르 드랄Ｅｘ"
+	},
+	{
+		"row": 877,
+		"assign": "DragonGladiatorRareMC1Ex",
+		"__key": "Name:string:DragonGladiatorRareMC1Ex",
+		"jp_text": "覇滅ノワル・ドラールＥｘ",
+		"tr_text": "패멸 누아르 드랄Ｅｘ"
+	},
+	{
+		"row": 879,
+		"assign": "DragonGladiatorRareMC2Ex",
+		"__key": "Name:string:DragonGladiatorRareMC2Ex",
+		"jp_text": "覇滅ノワル・ドラールＥｘ",
+		"tr_text": "패멸 누아르 드랄Ｅｘ"
+	},
+	{
+		"row": 884,
+		"assign": "DragonBerserkARareAN0Ex",
+		"__key": "Name:string:DragonBerserkARareAN0Ex",
+		"jp_text": "特異ヘイズ・ドラールEx",
+		"tr_text": "특이 헤이즈 드랄Ex"
+	},
+	{
+		"row": 888,
+		"assign": "DragonBerserkARareMC0Ex",
+		"__key": "Name:string:DragonBerserkARareMC0Ex",
+		"jp_text": "覇滅ヘイズ・ドラールＥｘ",
+		"tr_text": "패멸 헤이즈 드랄Ｅｘ"
+	},
+	{
+		"row": 893,
+		"assign": "AlligatorSnapperRareATK0Ex",
+		"__key": "Name:string:AlligatorSnapperRareATK0Ex",
+		"jp_text": "大型リグシュレイダＥｘ",
+		"tr_text": "대형 릭슈 레이다Ｅｘ"
+	},
+	{
+		"row": 895,
+		"assign": "AlligatorSnapperRareSPD0Ex",
+		"__key": "Name:string:AlligatorSnapperRareSPD0Ex",
+		"jp_text": "狂暴リグシュレイダEx",
+		"tr_text": "광포 릭슈 레이다Ex"
+	},
+	{
+		"row": 899,
+		"assign": "AlligatorSnapperRareMC0Ex",
+		"__key": "Name:string:AlligatorSnapperRareMC0Ex",
+		"jp_text": "覇滅リグシュレイダＥｘ",
+		"tr_text": "패멸 릭슈 레이다Ｅｘ"
+	},
+	{
+		"row": 901,
+		"assign": "AlligatorSnapperRareMC1Ex",
+		"__key": "Name:string:AlligatorSnapperRareMC1Ex",
+		"jp_text": "覇滅リグシュレイダＥｘ",
+		"tr_text": "패멸 릭슈 레이다Ｅｘ"
+	},
+	{
+		"row": 903,
+		"assign": "AlligatorSnapperRareMC2Ex",
+		"__key": "Name:string:AlligatorSnapperRareMC2Ex",
+		"jp_text": "覇滅リグシュレイダEx",
+		"tr_text": "패멸 릭슈 레이다Ex"
+	},
+	{
+		"row": 905,
+		"assign": "SpiderRareLD0Ex",
+		"__key": "Name:string:SpiderRareLD0Ex",
+		"jp_text": "小型ダーク・アグラニＥｘ",
+		"tr_text": "소형 다크 아그라니Ｅｘ"
+	},
+	{
+		"row": 911,
+		"assign": "SpiderRareMC0Ex",
+		"__key": "Name:string:SpiderRareMC0Ex",
+		"jp_text": "覇滅ダーク・アグラニEx",
+		"tr_text": "패멸 다크 아그라니Ex"
+	},
+	{
+		"row": 913,
+		"assign": "SpiderRareMC1Ex",
+		"__key": "Name:string:SpiderRareMC1Ex",
+		"jp_text": "覇滅ダーク・アグラニＥｘ",
+		"tr_text": "패멸 다크 아그라니Ｅｘ"
+	},
+	{
+		"row": 915,
+		"assign": "SpiderRareMC2Ex",
+		"__key": "Name:string:SpiderRareMC2Ex",
+		"jp_text": "覇滅ダーク・アグラニＥｘ",
+		"tr_text": "패멸 다크 아그라니Ｅｘ"
+	},
+	{
+		"row": 918,
+		"assign": "BirdCentaurRareLD0Ex",
+		"__key": "Name:string:BirdCentaurRareLD0Ex",
+		"jp_text": "小型ノーヴ・リンガダールＥｘ",
+		"tr_text": "소형 노브 링가달Ｅｘ"
+	},
+	{
+		"row": 920,
+		"assign": "BirdCentaurRareATK0Ex",
+		"__key": "Name:string:BirdCentaurRareATK0Ex",
+		"jp_text": "大型ノーヴ・リンガダールEx",
+		"tr_text": "대형 노브 링가달Ex"
+	},
+	{
+		"row": 922,
+		"assign": "BirdCentaurRareSPD0Ex",
+		"__key": "Name:string:BirdCentaurRareSPD0Ex",
+		"jp_text": "狂暴ノーヴ・リンガダールＥｘ",
+		"tr_text": "광포 노브 링가달Ｅｘ"
+	},
+	{
+		"row": 924,
+		"assign": "BirdCentaurRareMU0Ex",
+		"__key": "Name:string:BirdCentaurRareMU0Ex",
+		"jp_text": "未知ノーヴ・リンガダールＥｘ",
+		"tr_text": "미지의 노브 링가달Ｅｘ"
+	},
+	{
+		"row": 927,
+		"assign": "BirdCentaurRareMC0Ex",
+		"__key": "Name:string:BirdCentaurRareMC0Ex",
+		"jp_text": "覇滅ノーヴ・リンガダールＥｘ",
+		"tr_text": "패멸 노브 링가달Ｅｘ"
+	},
+	{
+		"row": 929,
+		"assign": "BirdCentaurRareMC1Ex",
+		"__key": "Name:string:BirdCentaurRareMC1Ex",
+		"jp_text": "覇滅ノーヴ・リンガダールＥｘ",
+		"tr_text": "패멸 노브 링가달Ｅｘ"
+	},
+	{
+		"row": 931,
+		"assign": "BirdCentaurRareMC2Ex",
+		"__key": "Name:string:BirdCentaurRareMC2Ex",
+		"jp_text": "覇滅ノーヴ・リンガダールＥｘ",
+		"tr_text": "패멸 노브 링가달Ｅｘ"
+	},
+	{
+		"row": 935,
+		"assign": "MarineOrcaRareSPD0Ex",
+		"__key": "Name:string:MarineOrcaRareSPD0Ex",
+		"jp_text": "狂暴オルグケラトスEx",
+		"tr_text": "광포 오그 케라토스Ex"
+	},
+	{
+		"row": 937,
+		"assign": "MarineOrcaRareAN0Ex",
+		"__key": "Name:string:MarineOrcaRareAN0Ex",
+		"jp_text": "特異オルグケラトスＥｘ",
+		"tr_text": "특이 오그 케라토스Ｅｘ"
+	},
+	{
+		"row": 940,
+		"assign": "MarineOrcaRareHC0Ex",
+		"__key": "Name:string:MarineOrcaRareHC0Ex",
+		"jp_text": "タイプＣオルグケラトスEx",
+		"tr_text": "타입 Ｃ 오그 케라토스Ex"
+	},
+	{
+		"row": 942,
+		"assign": "MarineOrcaRareMC0Ex",
+		"__key": "Name:string:MarineOrcaRareMC0Ex",
+		"jp_text": "覇滅オルグケラトスEx",
+		"tr_text": "패멸 오그 케라토스Ex"
+	},
+	{
+		"row": 944,
+		"assign": "MarineOrcaRareMC1",
+		"__key": "Name:string:MarineOrcaRareMC1:occurrence:1",
+		"jp_text": "覇滅オルグケラトスＥｘ",
+		"tr_text": "패멸 오그 케라토스Ｅｘ"
+	},
+	{
+		"row": 946,
+		"assign": "MarineOrcaRareMC2Ex",
+		"__key": "Name:string:MarineOrcaRareMC2Ex",
+		"jp_text": "覇滅オルグケラトスＥｘ",
+		"tr_text": "패멸 오그 케라토스Ｅｘ"
+	},
+	{
+		"row": 948,
+		"assign": "AbyssFlowerRareLD0Ex",
+		"__key": "Name:string:AbyssFlowerRareLD0Ex",
+		"jp_text": "小型マギサ・メデューナＥｘ",
+		"tr_text": "소형 마기사 메듀나Ｅｘ"
+	},
+	{
+		"row": 951,
+		"assign": "AbyssFlowerRareSPD0Ex",
+		"__key": "Name:string:AbyssFlowerRareSPD0Ex",
+		"jp_text": "狂暴マギサ・メデューナＥｘ",
+		"tr_text": "광포 마기사 메듀나Ｅｘ"
+	},
+	{
+		"row": 953,
+		"assign": "AbyssFlowerRareAN0Ex",
+		"__key": "Name:string:AbyssFlowerRareAN0Ex",
+		"jp_text": "特異マギサ・メデューナＥｘ",
+		"tr_text": "특이 마기사 메듀나Ｅｘ"
+	},
+	{
+		"row": 957,
+		"assign": "AbyssFlowerRareMC0Ex",
+		"__key": "Name:string:AbyssFlowerRareMC0Ex",
+		"jp_text": "覇滅マギサ・メデューナＥｘ",
+		"tr_text": "패멸 마기사 메듀나Ｅｘ"
+	},
+	{
+		"row": 959,
+		"assign": "AbyssFlowerRareMC1Ex",
+		"__key": "Name:string:AbyssFlowerRareMC1Ex",
+		"jp_text": "覇滅マギサ・メデューナＥｘ",
+		"tr_text": "패멸 마기사 메듀나Ｅｘ"
+	},
+	{
+		"row": 961,
+		"assign": "AbyssFlowerRareMC2Ex",
+		"__key": "Name:string:AbyssFlowerRareMC2Ex",
+		"jp_text": "覇滅マギサ・メデューナＥｘ",
+		"tr_text": "패멸 마기사 메듀나Ｅｘ"
+	},
+	{
+		"row": 965,
+		"assign": "Mono2XcutionerRareSPD0Ex",
+		"__key": "Name:string:Mono2XcutionerRareSPD0Ex",
+		"jp_text": "狂暴アガタ・ジグモリンデEx",
+		"tr_text": "광포 아가타 지그모린데Ex"
+	},
+	{
+		"row": 967,
+		"assign": "Mono2XcutionerRareAN0Ex",
+		"__key": "Name:string:Mono2XcutionerRareAN0Ex",
+		"jp_text": "特異アガタ・ジグモリンデＥｘ",
+		"tr_text": "특이 아가타 지그모린데Ｅｘ"
+	},
+	{
+		"row": 971,
+		"assign": "Mono2XcutionerRareMC0Ex",
+		"__key": "Name:string:Mono2XcutionerRareMC0Ex",
+		"jp_text": "覇滅アガタ・ジグモリンデEx",
+		"tr_text": "패멸 아가타 지그모린데Ex"
+	},
+	{
+		"row": 973,
+		"assign": "Mono2XcutionerRareMC1Ex",
+		"__key": "Name:string:Mono2XcutionerRareMC1Ex",
+		"jp_text": "覇滅アガタ・ジグモリンデEx",
+		"tr_text": "패멸 아가타 지그모린데Ex"
+	},
+	{
+		"row": 975,
+		"assign": "Mono2XcutionerRareMC2Ex",
+		"__key": "Name:string:Mono2XcutionerRareMC2Ex",
+		"jp_text": "覇滅アガタ・ジグモリンデEx",
+		"tr_text": "패멸 아가타 지그모린데Ex"
+	},
+	{
+		"row": 981,
+		"assign": "FishBigBeastMU2",
+		"__key": "Name:string:FishBigBeastMU2",
+		"jp_text": "未知アロナガーダEx",
+		"tr_text": "미지의 아로나가다Ex"
 	}
 ]
