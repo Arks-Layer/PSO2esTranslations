@@ -62,5 +62,96 @@
 	{
 		"jp_text": "-1",
 		"tr_text": ""
+	},
+	{
+		"row": 1,
+		"assign": "1",
+		"__key": "TowerQuest:int:1",
+		"jp_text": "<color=red>▼</color>５秒毎にＨＰが <%parameter1%>％減少",
+		"tr_text": "<color=red>▼</color>5초마다 HP가 <%parameter1%>% 감소"
+	},
+	{
+		"row": 2,
+		"assign": "2",
+		"__key": "TowerQuest:int:2",
+		"jp_text": "<color=red>▼</color>通常攻撃のダメージが <%parameter1%>％に",
+		"tr_text": "<color=red>▼</color>통상 공격 데미지가 원래의 <%parameter1%>%로 변경"
+	},
+	{
+		"row": 3,
+		"assign": "3",
+		"__key": "TowerQuest:int:3",
+		"jp_text": "<color=red>▼</color>ダメージ上限が <%parameter1%>に",
+		"tr_text": "<color=red>▼</color>데미지 상한이 <%parameter1%>로 변경"
+	},
+	{
+		"row": 4,
+		"assign": "4",
+		"__key": "TowerQuest:int:4",
+		"jp_text": "<color=red>▼</color><%parameter1%>ダメージ以下は <%parameter2%>％に",
+		"tr_text": "<color=red>▼</color><%parameter1%> 이하의 데미지가 <%parameter2%>%로 변경"
+	},
+	{
+		"row": 5,
+		"assign": "5",
+		"__key": "TowerQuest:int:5",
+		"jp_text": "<color=red>▼</color>ダメージボムのみ有効",
+		"tr_text": "<color=red>▼</color>데미지 봄만 유효"
+	},
+	{
+		"row": 6,
+		"assign": "6",
+		"__key": "TowerQuest:int:6",
+		"jp_text": "<color=red>▼</color>バトル中ＨＰ回復無効",
+		"tr_text": "<color=red>▼</color>전투 중 HP 회복 무효"
+	},
+	{
+		"row": 7,
+		"assign": "7",
+		"__key": "TowerQuest:int:7",
+		"jp_text": "<color=red>▼</color>属性値 <%parameter1%>減少",
+		"tr_text": "<color=red>▼</color>속성값 <%parameter1%> 감소"
+	},
+	{
+		"row": 8,
+		"assign": "8",
+		"__key": "TowerQuest:int:8",
+		"jp_text": "<color=red>▼</color>アクティブチップ発動不可",
+		"tr_text": "<color=red>▼</color>액티브 칩 발동 불가"
+	},
+	{
+		"row": 9,
+		"assign": "9",
+		"__key": "TowerQuest:int:9",
+		"jp_text": "<color=red>▼</color>サポートチップ発動不可",
+		"tr_text": "<color=red>▼</color>서포트 칩 발동 불가"
+	},
+	{
+		"row": 10,
+		"assign": "10",
+		"__key": "TowerQuest:int:10",
+		"jp_text": "[<%parameter1%>]（30秒毎発動）",
+		"tr_text": "[<%parameter1%>]（30초마다 발동）"
+	},
+	{
+		"row": 11,
+		"assign": "11",
+		"__key": "TowerQuest:int:11",
+		"jp_text": "<color=#00ffff>▲</color>状態異常の敵に与えるダメージが <%parameter1%>％に",
+		"tr_text": "<color=#00ffff>▲</color>상태 이상인 적에게 주는 데미지가 <%parameter1%>%로 변경"
+	},
+	{
+		"row": 12,
+		"assign": "12",
+		"__key": "TowerQuest:int:12",
+		"jp_text": "<color=#00ffff>▲</color>消費ＣＰが <%parameter1%> に",
+		"tr_text": "<color=#00ffff>▲</color>소비 CP가 <%parameter1%>로 변경"
+	},
+	{
+		"row": 13,
+		"assign": "13",
+		"__key": "TowerQuest:int:13",
+		"jp_text": "<color=#00ffff>▲</color>ダメージボムで追加ダメージが発生",
+		"tr_text": "<color=#00ffff>▲</color>데미지 봄으로 추가 데미지 발생"
 	}
 ]
