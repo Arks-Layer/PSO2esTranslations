@@ -74,7 +74,7 @@
 		"jp_text": "BP「アイテムコンテナ[緑]」",
 		"tr_text": "BP「道具箱[綠]」",
 		"jp_explain": "攻撃すると\n破壊できるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "攻擊後\n即可破壞的建造部件。"
 	},
 	{
 		"assign": "397010019",
@@ -116,35 +116,35 @@
 		"jp_text": "BP「エアル：チェアB」",
 		"tr_text": "BP「艾亞利奧式：椅B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010028",
 		"jp_text": "BP「シャッキ・エアルクラーブ」",
 		"tr_text": "BP「酥脆的艾亞利奧螃蟹」",
 		"jp_explain": "アクセスすると\n獲れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可捕獲的建造部件。"
 	},
 	{
 		"assign": "397010029",
 		"jp_text": "BP「スコアシンボル」",
 		"tr_text": "BP「分數標誌」",
 		"jp_explain": "触れると\n取れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "觸碰後\n即可拿取的建造部件。"
 	},
 	{
 		"assign": "397010030",
 		"jp_text": "BP「メッセージパック」",
 		"tr_text": "BP「訊息包」",
 		"jp_explain": "アクセスすると\n設定したメッセージを表示する\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n就會顯示設置好的訊息的\n建造部件。"
 	},
 	{
 		"assign": "397010031",
 		"jp_text": "BP「エアル：チェア」",
 		"tr_text": "BP「艾亞利奧式：椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010032",
@@ -158,7 +158,7 @@
 		"jp_text": "BP「エアル：ベッド」",
 		"tr_text": "BP「艾亞利奧式：床」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397010034",
@@ -172,7 +172,7 @@
 		"jp_text": "BP「エアル：ソファ」",
 		"tr_text": "BP「艾亞利奧式：沙發」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010036",
@@ -235,14 +235,14 @@
 		"jp_text": "BP「エアル：バスタブ」",
 		"tr_text": "BP「艾亞利奧式：浴缸」",
 		"jp_explain": "アクセスすると\n入浴できるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可入浴的建造部件。"
 	},
 	{
 		"assign": "397010045",
 		"jp_text": "BP「エアル：シャワー」",
 		"tr_text": "BP「艾亞利奧式：花灑」",
 		"jp_explain": "アクセスすると\nシャワーを浴びられるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可淋浴的建造部件。"
 	},
 	{
 		"assign": "397010046",
@@ -354,7 +354,7 @@
 		"jp_text": "BP「エアル：ベンチ」",
 		"tr_text": "BP「艾亞利奧式：長椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010066",
@@ -375,21 +375,21 @@
 		"jp_text": "BP「アクセススイッチ」",
 		"tr_text": "BP「交互開關」",
 		"jp_explain": "アクセスすると\nオンオフが切り替わる\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n就會切換開關的建造部件。"
 	},
 	{
 		"assign": "397010069",
 		"jp_text": "BP「フットスイッチ」",
 		"tr_text": "BP「腳踏開關」",
 		"jp_explain": "上に乗ると\nスイッチがオンになる\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "踩在上面後\n開關就會設為開的建造部件。"
 	},
 	{
 		"assign": "397010070",
 		"jp_text": "BP「フローティングマイン」",
 		"tr_text": "BP「懸浮地雷」",
 		"jp_explain": "触れると\n爆発して吹き飛ばされる\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "觸碰後\n就會爆炸把人炸飛的建造部件。"
 	},
 	{
 		"assign": "397010071",
@@ -438,98 +438,98 @@
 		"jp_text": "BP「アップドラフター」",
 		"tr_text": "BP「上升器」",
 		"jp_explain": "フォトングライド中に\n乗ると移動できる\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "在光子滑翔中乘上後\n即可進行移動的建造部件。"
 	},
 	{
 		"assign": "397010080",
 		"jp_text": "BP「スペース内テレポーター」",
 		"tr_text": "BP「空間內傳送器」",
 		"jp_explain": "アクセスすると\n対応する番号のテレポーターに\n移動できるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可移動到相應號碼傳送器的\n建造部件。"
 	},
 	{
 		"assign": "397010083",
 		"jp_text": "BP「接触判定エリア」",
 		"tr_text": "BP「碰撞判定區域」",
 		"jp_explain": "エリア内に接触すると\n次のギミックパーツに\nコネクトを送信するビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "碰撞到區域內後\n就會向下一個機關部件\n發送智聯信號的建造部件。"
 	},
 	{
 		"assign": "397010084",
 		"jp_text": "BP「タイマーキューブ」",
 		"tr_text": "BP「計時方塊」",
 		"jp_explain": "コネクトを受信すると\nタイマーのカウントアップを開始する\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "接收智聯信號後\n就會開始計時器正數的建造部件。"
 	},
 	{
 		"assign": "397010085",
 		"jp_text": "BP「タイマーキューブB」",
 		"tr_text": "BP「計時方塊B」",
 		"jp_explain": "コネクトを受信すると\nタイマーのカウントダウンを開始する\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "接收智聯信號後\n就會開始計時器倒數的建造部件。"
 	},
 	{
 		"assign": "397010086",
 		"jp_text": "BP「アクション判定エリア」",
 		"tr_text": "BP「動作判定區域」",
 		"jp_explain": "エリア内で指定したアクションを行うと\n次のギミックパーツに\nコネクトを送信するビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "在區域內執行指定動作後\n就會向下一個機關部件\n發送智聯信號的建造部件。"
 	},
 	{
 		"assign": "397010087",
 		"jp_text": "BP「テキスト演出キューブ」",
 		"tr_text": "BP「文本演出方塊」",
 		"jp_explain": "コネクトを受信すると\n設定したテキスト演出を再生する\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "接收智聯信號後\n就會播放設置好的文字演出的\n建造部件。"
 	},
 	{
 		"assign": "397010088",
 		"jp_text": "BP「サウンドキューブ」",
 		"tr_text": "BP「聲音方塊」",
 		"jp_explain": "コネクトを受信すると\n設定したサウンドを再生する\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "接收智聯信號後\n就會播放設置好的聲音的\n建造部件。"
 	},
 	{
 		"assign": "397010089",
 		"jp_text": "BP「混合キューブ」",
 		"tr_text": "BP「混合方塊」",
 		"jp_explain": "2つのコネクトを受信すると\n次のギミックパーツに\nコネクトを送信するビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "接收2個智聯信號後\n就會向下一個機關部件\n發送智聯信號的建造部件。"
 	},
 	{
 		"assign": "397010090",
 		"jp_text": "BP「カウントアップキューブ」",
 		"tr_text": "BP「計數方塊」",
 		"jp_explain": "コネクトを受信すると\nカウントを1つ増やす\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "接收智聯信號後\n計數就會增加1的建造部件。"
 	},
 	{
 		"assign": "397010091",
 		"jp_text": "BP「ディレイキューブ」",
 		"tr_text": "BP「延遲方塊」",
 		"jp_explain": "コネクトを受信してから\n一定時間後に次のギミックパーツに\nコネクトを送信するビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "接收智聯信號一定時間後\n就會向下一個機關部件\n發送智聯信號的建造部件。"
 	},
 	{
 		"assign": "397010092",
 		"jp_text": "BP「ランダムキューブ」",
 		"tr_text": "BP「隨機方塊」",
 		"jp_explain": "コネクトを受信すると\n指定したギミックパーツのいずれかに\nコネクトを送信するビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "接收智聯信號後\n就會向任意的指定機關部件\n發送智聯信號的建造部件。"
 	},
 	{
 		"assign": "397010093",
 		"jp_text": "BP「サウンドキューブB」",
 		"tr_text": "BP「聲音方塊B」",
 		"jp_explain": "コネクトを受信すると\n設定したサウンドを再生する\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "接收智聯信號後\n就會播放設置好的聲音的\n建造部件。"
 	},
 	{
 		"assign": "397010097",
 		"jp_text": "BP「イニシャルテレポーター」",
 		"tr_text": "BP「初始傳送器」",
 		"jp_explain": "アクセスするとアークス拠点に\n移動できるビルドパーツ。\nＣスペース内の初期位置にもなる。",
-		"tr_explain": ""
+		"tr_explain": "交互後即可移動到\nARKS據點的建造部件。\n也會成為創造空間內的初始位置。"
 	},
 	{
 		"assign": "397010098",
@@ -613,14 +613,14 @@
 		"jp_text": "BP「ゴーカ：デッキチェア」",
 		"tr_text": "BP「ゴーカ：デッキチェア」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": "<green>“BP「豪華：折疊椅」”<c>\n"
+		"tr_explain": "<green>“BP「豪華：折疊椅」”<c>\n交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397010111",
 		"jp_text": "BP「ゴーカ：ハンギングチェア」",
 		"tr_text": "BP「ゴーカ：ハンギングチェア」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": "<green>“BP「豪華：吊椅」”<c>\n"
+		"tr_explain": "<green>“BP「豪華：吊椅」”<c>\n交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010112",
@@ -634,7 +634,7 @@
 		"jp_text": "BP「リテナ：チェア」",
 		"tr_text": "BP「瑞泰姆式：椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010114",
@@ -662,14 +662,14 @@
 		"jp_text": "BP「リテナ：ベッド」",
 		"tr_text": "BP「瑞泰姆式：床」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397010118",
 		"jp_text": "BP「リテナ：ソファ」",
 		"tr_text": "BP「瑞泰姆式：沙發」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010119",
@@ -704,7 +704,7 @@
 		"jp_text": "BP「アークスデコイ」",
 		"tr_text": "BP「ARKS假人」",
 		"jp_explain": "アクセスすると\n自身のキャラクターを投影する\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n就會投影出自己角色的建造部件。"
 	},
 	{
 		"assign": "397010124",
@@ -963,7 +963,7 @@
 		"jp_text": "BP「アウトドアチェア」",
 		"tr_text": "BP「室外椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010179",
@@ -1005,14 +1005,14 @@
 		"jp_text": "BP「クヴァル：チェアB」",
 		"tr_text": "BP「克瓦利斯式：椅B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010185",
 		"jp_text": "BP「クヴァル：チェアC」",
 		"tr_text": "BP「克瓦利斯式：椅C」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010186",
@@ -1054,14 +1054,14 @@
 		"jp_text": "BP「クヴァル：ベッド」",
 		"tr_text": "BP「克瓦利斯式：床」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397010192",
 		"jp_text": "BP「クヴァル：ソファ」",
 		"tr_text": "BP「克瓦利斯式：沙發」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010193",
@@ -1124,7 +1124,7 @@
 		"jp_text": "BP「アップドラフターB」",
 		"tr_text": "BP「上升器B」",
 		"jp_explain": "フォトングライド中に\n乗ると移動できる\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "在光子滑翔中乘上後\n即可進行移動的建造部件。"
 	},
 	{
 		"assign": "397010208",
@@ -1138,14 +1138,14 @@
 		"jp_text": "BP「フットスイッチB」",
 		"tr_text": "BP「腳踏開關B」",
 		"jp_explain": "上に乗っているあいだだけ\nスイッチがオンになる\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "僅在踩在上面的時間裡\n開關會設為開的建造部件。"
 	},
 	{
 		"assign": "397010210",
 		"jp_text": "BP「設計図端末」",
 		"tr_text": "BP「設計圖終端」",
 		"jp_explain": "アクセスすると\n設計図の登録、取得ができる\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可登錄、獲取設計圖的建造部件。"
 	},
 	{
 		"assign": "397010211",
@@ -1159,14 +1159,14 @@
 		"jp_text": "BP「アイテムコンテナ[金]」",
 		"tr_text": "BP「アイテムコンテナ[金]」",
 		"jp_explain": "攻撃すると\n破壊できるビルドパーツ。",
-		"tr_explain": "<green>“BP「道具箱[金]」”<c>\n"
+		"tr_explain": "<green>“BP「道具箱[金]」”<c>\n攻擊後\n即可破壞的建造部件。"
 	},
 	{
 		"assign": "397010213",
 		"jp_text": "BP「GPツリー」",
 		"tr_text": "BP「GP樹」",
 		"jp_explain": "アクセスすると\nジェネシスポイントが獲得できる\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可獲得創世點數的建造部件。"
 	},
 	{
 		"assign": "397010217",
@@ -1292,21 +1292,21 @@
 		"jp_text": "BP「ソニック：リング」",
 		"tr_text": "BP「ソニック：リング」",
 		"jp_explain": "触れると\n取れるビルドパーツ。",
-		"tr_explain": "<green>“BP「索尼克：金環」”<c>\n"
+		"tr_explain": "<green>“BP「索尼克：金環」”<c>\n觸碰後\n即可拿取的建造部件。"
 	},
 	{
 		"assign": "397010255",
 		"jp_text": "BP「ソニック：ダッシュリング」",
 		"tr_text": "BP「ソニック：ダッシュリング」",
 		"jp_explain": "くぐると\n加速するビルドパーツ。",
-		"tr_explain": "<green>“BP「索尼克：衝刺環」”<c>\n"
+		"tr_explain": "<green>“BP「索尼克：衝刺環」”<c>\n穿過後\n就會加速的建造部件。"
 	},
 	{
 		"assign": "397010256",
 		"jp_text": "BP「ソニック：スプリング」",
 		"tr_text": "BP「ソニック：スプリング」",
 		"jp_explain": "触れると\n大きくジャンプするビルドパーツ。",
-		"tr_explain": "<green>“BP「索尼克：彈簧」”<c>\n"
+		"tr_explain": "<green>“BP「索尼克：彈簧」”<c>\n觸碰後\n就會大幅跳躍的建造部件。"
 	},
 	{
 		"assign": "397010257",
@@ -1355,7 +1355,7 @@
 		"jp_text": "BP「ゴーカ：キノコチェア」",
 		"tr_text": "BP「ゴーカ：キノコチェア」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": "<green>“BP「豪華：蘑菇椅」”<c>\n"
+		"tr_explain": "<green>“BP「豪華：蘑菇椅」”<c>\n交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010275",
@@ -1369,14 +1369,14 @@
 		"jp_text": "BP「ゴーカ：キノコベッド」",
 		"tr_text": "BP「ゴーカ：キノコベッド」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": "<green>“BP「豪華：蘑菇床」”<c>\n"
+		"tr_explain": "<green>“BP「豪華：蘑菇床」”<c>\n交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397010277",
 		"jp_text": "BP「クリエイティブスペース端末」",
 		"tr_text": "BP「創造空間終端」",
 		"jp_explain": "アクセスすると\nＣスペースメニューを操作できる\nビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可操作創造空間菜單的\n建造部件。"
 	},
 	{
 		"assign": "397010278",
@@ -1390,7 +1390,7 @@
 		"jp_text": "BP「エウロ：チェア」",
 		"tr_text": "BP「歐式：椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010280",
@@ -1404,7 +1404,7 @@
 		"jp_text": "BP「エウロ：アンティークチェア」",
 		"tr_text": "BP「歐式：古董椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010282",
@@ -1432,14 +1432,14 @@
 		"jp_text": "BP「エウロ：ベッド」",
 		"tr_text": "BP「歐式：床」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397010286",
 		"jp_text": "BP「エウロ：ソファ」",
 		"tr_text": "BP「歐式：沙發」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010287",
@@ -1516,21 +1516,21 @@
 		"jp_text": "BP「チームコマンド端末」",
 		"tr_text": "BP「チームコマンド端末」",
 		"jp_explain": "アクセスすると\nチームコマンドを操作できる\nビルドパーツ。",
-		"tr_explain": "<green>“BP「公會指令終端」”<c>\n"
+		"tr_explain": "<green>“BP「公會指令終端」”<c>\n交互後\n即可操作公會指令的\n建造部件。"
 	},
 	{
 		"assign": "397010300",
 		"jp_text": "BP「チーム掲示板」",
 		"tr_text": "BP「チーム掲示板」",
 		"jp_explain": "アクセスすると\nチーム掲示板を操作できる\nビルドパーツ。",
-		"tr_explain": "<green>“BP「公會佈告欄」”<c>\n"
+		"tr_explain": "<green>“BP「公會佈告欄」”<c>\n交互後\n即可操作公會佈告欄的\n建造部件。"
 	},
 	{
 		"assign": "397010301",
 		"jp_text": "BP「チームスペース端末」",
 		"tr_text": "BP「チームスペース端末」",
 		"jp_explain": "アクセスすると\nチームスペースメニューを操作できる\nビルドパーツ。",
-		"tr_explain": "<green>“BP「公會空間終端」”<c>\n"
+		"tr_explain": "<green>“BP「公會空間終端」”<c>\n交互後\n即可操作公會空間菜單的\n建造部件。"
 	},
 	{
 		"assign": "397010302",
@@ -1796,7 +1796,7 @@
 		"jp_text": "BP「ワフウ：椅子」",
 		"tr_text": "BP「和風：椅子」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010340",
@@ -1824,7 +1824,7 @@
 		"jp_text": "BP「ワフウ：布団」",
 		"tr_text": "BP「和風：被褥」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397010344",
@@ -2118,28 +2118,28 @@
 		"jp_text": "BP「ノクト：チェア」",
 		"tr_text": "BP「夜魅：椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010387",
 		"jp_text": "BP「ノクト：チェアB」",
 		"tr_text": "BP「夜魅：椅B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010388",
 		"jp_text": "BP「ノクト：ベンチ」",
 		"tr_text": "BP「夜魅：長椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010389",
 		"jp_text": "BP「ノクト：ソファ」",
 		"tr_text": "BP「夜魅：沙發」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010390",
@@ -2174,7 +2174,7 @@
 		"jp_text": "BP「ノクト：ベッド」",
 		"tr_text": "BP「夜魅：床」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397010395",
@@ -2202,14 +2202,14 @@
 		"jp_text": "BP「ノクト：バスタブ」",
 		"tr_text": "BP「夜魅：浴缸」",
 		"jp_explain": "アクセスすると\n入浴できるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可入浴的建造部件。"
 	},
 	{
 		"assign": "397010399",
 		"jp_text": "BP「ノクト：シャワー」",
 		"tr_text": "BP「夜魅：花灑」",
 		"jp_explain": "アクセスすると\nシャワーを浴びられるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可淋浴的建造部件。"
 	},
 	{
 		"assign": "397010400",
@@ -2629,7 +2629,7 @@
 		"jp_text": "BP「チームマグ」",
 		"tr_text": "BP「チームマグ」",
 		"jp_explain": "アクセスしてジェネシスポイントを\n使用すると、ブーストを発生させられる\nビルドパーツ。",
-		"tr_explain": "<green>“BP「公會瑪古」”<c>\n"
+		"tr_explain": "<green>“BP「公會瑪古」”<c>\n交互並使用創世點數後\n即可發動各種增益的\n建造部件。"
 	},
 	{
 		"assign": "397010460",
@@ -2972,7 +2972,7 @@
 		"jp_text": "BP「エアFUJIYAMA」",
 		"tr_text": "BP「エアFUJIYAMA」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": "<green>“BP「AIR FUJIYAMA」”<c>\n"
+		"tr_explain": "<green>“BP「AIR FUJIYAMA」”<c>\n交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010512",
@@ -3301,14 +3301,14 @@
 		"jp_text": "BP「ピエド：チェア」",
 		"tr_text": "BP「雜色：椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010561",
 		"jp_text": "BP「ピエド：アンティークチェア」",
 		"tr_text": "BP「雜色：古董椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010562",
@@ -3343,14 +3343,14 @@
 		"jp_text": "BP「ピエド：ベッド」",
 		"tr_text": "BP「雜色：床」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397010567",
 		"jp_text": "BP「ピエド：ソファ」",
 		"tr_text": "BP「雜色：沙發」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010568",
@@ -3490,14 +3490,14 @@
 		"jp_text": "BP「エアル：チェアC」",
 		"tr_text": "BP「艾亞利奧式：椅C」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010588",
 		"jp_text": "BP「クヴァル：チェア」",
 		"tr_text": "BP「克瓦利斯式：椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397010589",
@@ -3875,7 +3875,7 @@
 		"jp_text": "BP「たっぷり魚介のパエリア」",
 		"tr_text": "BP「たっぷり魚介のパエリア」",
 		"jp_explain": "アクセスすると\n開閉できるビルドパーツ。",
-		"tr_explain": "<green>“BP「足量海鮮大鍋飯」”<c>\n"
+		"tr_explain": "<green>“BP「足量海鮮大鍋飯」”<c>\n交互後\n即可開閉的建造部件。"
 	},
 	{
 		"assign": "397010644",
@@ -4099,7 +4099,7 @@
 		"jp_text": "BP「ラインストライク対戦台」",
 		"tr_text": "BP「戰線牌鬥對戰台」",
 		"jp_explain": "アクセスすると\nラインストライクで\n対戦できるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可在戰線牌鬥中對戰的\n建造部件。"
 	},
 	{
 		"assign": "397010676",
@@ -4148,7 +4148,7 @@
 		"jp_text": "BP「転移門」",
 		"tr_text": "BP「転移門」",
 		"jp_explain": "アクセスすると\n対応する番号の転移門に\n移動できるビルドパーツ。",
-		"tr_explain": "<green>“BP「傳送門」”<c>\n"
+		"tr_explain": "<green>“BP「傳送門」”<c>\n交互後\n即可移動到相應號碼傳送門的\n建造部件。"
 	},
 	{
 		"assign": "397010683",
@@ -4302,7 +4302,7 @@
 		"jp_text": "BP「リンクテレポーター」",
 		"tr_text": "BP「連接傳送器」",
 		"jp_explain": "アクセスすると\n登録したクリエイティブスペースに\n移動できるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可移動到已登錄創造空間的\n建造部件。"
 	},
 	{
 		"assign": "397010707",
@@ -4344,7 +4344,7 @@
 		"jp_text": "BP「テレポートゲート」",
 		"tr_text": "BP「テレポートゲート」",
 		"jp_explain": "アクセスすると\n開閉できるビルドパーツ。",
-		"tr_explain": "<green>“BP「坐標移動門」”<c>\n"
+		"tr_explain": "<green>“BP「坐標移動門」”<c>\n交互後\n即可開閉的建造部件。"
 	},
 	{
 		"assign": "397010713",
@@ -4512,7 +4512,7 @@
 		"jp_text": "BP「ラインストライク対戦台/2」",
 		"tr_text": "BP「戰線牌鬥對戰台/2」",
 		"jp_explain": "アクセスすると\nラインストライクで\n対戦できるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可在戰線牌鬥中對戰的\n建造部件。"
 	},
 	{
 		"assign": "397010737",
@@ -4666,7 +4666,7 @@
 		"jp_text": "BP「ビーチチェア」",
 		"tr_text": "BP「ビーチチェア」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": "<green>“BP「沙灘椅」”<c>\n"
+		"tr_explain": "<green>“BP「沙灘椅」”<c>\n交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397010759",
@@ -4897,14 +4897,14 @@
 		"jp_text": "BP「ウォータースペース：立方体」",
 		"tr_text": "BP「水域空間：立方體」",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "從上方進入後\n即可游泳的建造部件。"
 	},
 	{
 		"assign": "397010794",
 		"jp_text": "BP「ウォータースペース：円柱」",
 		"tr_text": "BP「水域空間：圓柱」",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "從上方進入後\n即可游泳的建造部件。"
 	},
 	{
 		"assign": "397010795",
@@ -6080,14 +6080,14 @@
 		"jp_text": "BP「ウォータースペース：立方体B」",
 		"tr_text": "BP「水域空間：立方體B」",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "從上方進入後\n即可游泳的建造部件。"
 	},
 	{
 		"assign": "397010964",
 		"jp_text": "BP「ウォータースペース：円柱B」",
 		"tr_text": "BP「水域空間：圓柱B」",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "從上方進入後\n即可游泳的建造部件。"
 	},
 	{
 		"assign": "397010965",
@@ -6575,44 +6575,44 @@
 	{
 		"assign": "397011034",
 		"jp_text": "BP「ネムレス：自動車」",
-		"tr_text": "BP「ネムレス：自動車」",
+		"tr_text": "BP「無名都市式：機動車」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「無名都市式：機動車」”<c>\n"
+		"tr_explain": ""
 	},
 	{
 		"assign": "397011035",
 		"jp_text": "BP「ネムレス：ベンチ」",
-		"tr_text": "BP「ネムレス：ベンチ」",
+		"tr_text": "BP「無名都市式：長椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": "<green>“BP「無名都市式：長椅」”<c>\n"
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397011036",
 		"jp_text": "BP「ネムレス：鉄骨」",
-		"tr_text": "BP「ネムレス：鉄骨」",
+		"tr_text": "BP「無名都市式：鋼骨」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「無名都市式：鋼骨」”<c>\n"
+		"tr_explain": ""
 	},
 	{
 		"assign": "397011037",
 		"jp_text": "BP「ネムレス：標識」",
-		"tr_text": "BP「ネムレス：標識」",
+		"tr_text": "BP「無名都市式：標識」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「無名都市式：標識」”<c>\n"
+		"tr_explain": ""
 	},
 	{
 		"assign": "397011038",
 		"jp_text": "BP「ネムレス：街灯」",
-		"tr_text": "BP「ネムレス：街灯」",
+		"tr_text": "BP「無名都市式：路燈」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「無名都市式：路燈」”<c>\n"
+		"tr_explain": ""
 	},
 	{
 		"assign": "397011039",
 		"jp_text": "BP「ネムレス：掲示板」",
-		"tr_text": "BP「ネムレス：掲示板」",
+		"tr_text": "BP「無名都市式：佈告欄」",
 		"jp_explain": "",
-		"tr_explain": "<green>“BP「無名都市式：佈告欄」”<c>\n"
+		"tr_explain": ""
 	},
 	{
 		"assign": "397011040",
@@ -6654,7 +6654,7 @@
 		"jp_text": "BP「ブロックベース：クレーン」",
 		"tr_text": "BP「ブロックベース：クレーン」",
 		"jp_explain": "コネクトを受信すると\nクレーンを操作できる\nビルドパーツ。",
-		"tr_explain": "<green>“BP「Block Base：起重機」”<c>\n"
+		"tr_explain": "<green>“BP「Block Base：起重機」”<c>\n接收智聯信號後\n即可操作勾爪的建造部件。"
 	},
 	{
 		"assign": "397011046",
@@ -6710,14 +6710,14 @@
 		"jp_text": "BP「ウォータースペース：立方体C」",
 		"tr_text": "BP「ウォータースペース：立方体C」",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": "<green>“BP「水域空間：立方體C」”<c>\n"
+		"tr_explain": "<green>“BP「水域空間：立方體C」”<c>\n從上方進入後\n即可游泳的建造部件。"
 	},
 	{
 		"assign": "397011054",
 		"jp_text": "BP「ウォータースペース：円柱C」",
 		"tr_text": "BP「ウォータースペース：円柱C」",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": "<green>“BP「水域空間：圓柱C」”<c>\n"
+		"tr_explain": "<green>“BP「水域空間：圓柱C」”<c>\n從上方進入後\n即可游泳的建造部件。"
 	},
 	{
 		"assign": "397011055",
@@ -6843,7 +6843,7 @@
 		"jp_text": "BP「エレガントチェアC」",
 		"tr_text": "BP「高雅椅C」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397011073",
@@ -6864,14 +6864,14 @@
 		"jp_text": "BP「エレガントベッドC」",
 		"tr_text": "BP「高雅床C」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397011076",
 		"jp_text": "BP「エレガントベンチC」",
 		"tr_text": "BP「高雅長椅C」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397011077",
@@ -6913,7 +6913,7 @@
 		"jp_text": "BP「ノダテB」",
 		"tr_text": "BP「露天茶筵B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397011083",
@@ -7081,14 +7081,14 @@
 		"jp_text": "BP「ウォータースペース：立方体D」",
 		"tr_text": "BP「水域空間：立方體D」",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "從上方進入後\n即可游泳的建造部件。"
 	},
 	{
 		"assign": "397011110",
 		"jp_text": "BP「ウォータースペース：円柱D」",
 		"tr_text": "BP「水域空間：圓柱D」",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "從上方進入後\n即可游泳的建造部件。"
 	},
 	{
 		"assign": "397011111",
@@ -7270,7 +7270,7 @@
 		"jp_text": "BP「リゾートベッドB」",
 		"tr_text": "BP「度假床B」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397011137",
@@ -7284,7 +7284,7 @@
 		"jp_text": "BP「リゾートチェアB」",
 		"tr_text": "BP「度假椅B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397011139",
@@ -7298,7 +7298,7 @@
 		"jp_text": "BP「リゾートソファB」",
 		"tr_text": "BP「度假沙發B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397011141",
@@ -7326,7 +7326,7 @@
 		"jp_text": "BP「リゾートロングチェアB」",
 		"tr_text": "BP「度假長椅B」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397011145",
@@ -7795,14 +7795,14 @@
 		"jp_text": "BP「ウォータースペース：立方体E」",
 		"tr_text": "BP「水域空間：立方體E」",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "從上方進入後\n即可游泳的建造部件。"
 	},
 	{
 		"assign": "397011212",
 		"jp_text": "BP「ウォータースペース：円柱E」",
 		"tr_text": "BP「水域空間：圓柱E」",
 		"jp_explain": "上から入ると\n泳げるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "從上方進入後\n即可游泳的建造部件。"
 	},
 	{
 		"assign": "397011213",
@@ -8012,7 +8012,7 @@
 		"jp_text": "BP「ビンテージベッドB」",
 		"tr_text": "BP「經典床B」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397011243",
@@ -8026,14 +8026,14 @@
 		"jp_text": "BP「ビンテージチェアB」",
 		"tr_text": "BP「經典椅B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397011245",
 		"jp_text": "BP「ビンテージソファB」",
 		"tr_text": "BP「經典沙發B」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397011246",
@@ -8341,7 +8341,7 @@
 		"jp_text": "BP「ナイトクラブチェアC」",
 		"tr_text": "BP「夜店椅C」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397011291",
@@ -8355,14 +8355,14 @@
 		"jp_text": "BP「ナイトクラブベッドC」",
 		"tr_text": "BP「夜店床C」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397011293",
 		"jp_text": "BP「ナイトクラブソファC」",
 		"tr_text": "BP「夜店沙發C」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397011294",
@@ -8404,7 +8404,7 @@
 		"jp_text": "BP「コフィンベッドB」",
 		"tr_text": "BP「コフィンベッドB」",
 		"jp_explain": "アクセスすると\n横になれるビルドパーツ。",
-		"tr_explain": "<green>“BP「棺材床B」”<c>\n"
+		"tr_explain": "<green>“BP「棺材床B」”<c>\n交互後\n即可躺下的建造部件。"
 	},
 	{
 		"assign": "397011300",
@@ -8677,7 +8677,7 @@
 		"jp_text": "BP「ネオネム：ベンチ」",
 		"tr_text": "BP「霓虹都市式：長椅」",
 		"jp_explain": "アクセスすると\n座れるビルドパーツ。",
-		"tr_explain": ""
+		"tr_explain": "交互後\n即可坐下的建造部件。"
 	},
 	{
 		"assign": "397011342",
