@@ -41,7 +41,7 @@ PSO2EN_url = "https://raw.githubusercontent.com/Arks-Layer/PSO2ENPatchCSV/"
 
 # Paths of CN main game files
 UI_path = r"UI"
-ngs_path = r"Unsorted\ngs"
+ngs_path = os.path.join("Unsorted", "ngs")
 common_cn_path = os.path.join(PSO2CN_path, UI_path, "common.text.ini")
 accessories_cn_path = os.path.join(PSO2CN_path, UI_path, "ui_accessories_text.text.ini")
 charamake_parts_cn_path = os.path.join(PSO2CN_path, UI_path, "ui_charamake_parts.text.ini")
@@ -871,6 +871,18 @@ def edit_sp_texts(prefix, jp_text, tr_text, jp_refer):
         sp_texts = ["（ホリデイ）", "（假日）", " (Holiday)"]
         jp_text += sp_texts[0]
         tr_text += sp_texts[LANG]
+    elif prefix == "ca" and jp_refer == "超・夢幻祭":
+        sp_texts = ["（夢幻祭）", "（夢幻祭）", " (Super Phantasy Festival)"]
+        jp_text += sp_texts[0]
+        tr_text += sp_texts[LANG]
+    elif prefix == "ca" and jp_text == "先代ダークファルス【若人】":
+        sp_texts = ["先代DF【若人】", "前代DF【若人】", "Previous DF [Apprentice]"]
+        jp_text = sp_texts[0]
+        tr_text = sp_texts[LANG]
+    elif prefix == "ca" and jp_refer == "スクルル":
+        sp_texts = ["（スクルル）", "（學園風尚）", " (Schoolu)"]
+        jp_text += sp_texts[0]
+        tr_text += sp_texts[LANG]
     elif prefix == "ca" and "せんとらるっ！　" in jp_text:
         sp_char = "！"
         jp_text = jp_text.replace(sp_char + "　", sp_char)
@@ -990,13 +1002,13 @@ start_assigns = {
     "md": "319010000"}
 
 # [FUNCTION] Conditions of force to change the tradable info (only for CN)
-def extra_condition(prefix, jp_text, text_id):
+def extra_condition(prefix, jp_text, text_id, trade_info=""):
     if prefix == "mo":
         return jp_text.endswith("EX")
     elif prefix == "bp":
         return (jp_text.startswith((
         # NGS
-        "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：", "スティラ：",
+        "エアル：", "リテナ：", "ノクト：", "エウロ：", "クヴァル：", "ピエド：", "ワフウ：", "スティラ：", "ネムレス：", "ネオネム：",
         "『NGS", "『PSO2", "超・", "立体図形：", "立体数字：", "アクリル台座・", "ラインストライク",
         # PSO2 Theme
         "ベーシック", "モダン", "ゴシック", "クラシック", "スイート", "エキゾチックトラッド", "ウェスタン", "ワノ", "レトロ", "オールド", "ファンシー", "ラボラトリー", "エレガント", "ナイトクラブ", "ウッディ", "学校の", "リゾート", "ビンテージ",
@@ -1008,7 +1020,9 @@ def extra_condition(prefix, jp_text, text_id):
     elif prefix == "aug":
         return jp_text.endswith(("S", "LC"))
     elif prefix == "ca":
-        return text_id.endswith("0#0")
+        card_text = parse_card_stack_text(jp_text)
+        return (text_id.endswith("0#0") or trade_info == "Untradable") and not (
+            card_text and card_text[3].endswith(("G", "Ex")))
     elif prefix == "ha":
         return True
     elif prefix in ("un", "wp"):
@@ -1089,6 +1103,7 @@ def build_game_entries(prefix):
         entry = {**entry, "trade_info": prefix_trade_infos.get(entry["names"][0], "")}
         if prefix == "ca":
             entry["texts"] = form_card_texts(item["jp_text"], entry["names"][LANG])
+            entry["trade_info"] = "Untradable" if extra_condition(prefix, item["jp_text"], "", entry["trade_info"]) else ""
         return entry
 
     def report():
