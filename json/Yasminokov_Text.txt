@@ -1,0 +1,8438 @@
+[
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:0:1:0:0",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "現在、ヤスミノコフチームは、このエリアで<%br>訓練中との情報を入手しました。",
+		"tr_text": "현재 야스미노코프 팀이 이 구역에서<%br>훈련 중이라는 정보를 입수했어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:0:1:1:1",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "申し訳ありませんが、彼らと接触して<%br>任務の依頼をお願いします、リーダー！",
+		"tr_text": "죄송하지만 그들과 접촉해서<%br>임무를 의뢰해 주세요, 리더!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:0:1:2:2",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "あと、実戦を想定した訓練はけっこうですけど<%br>通信封鎖はしないよう言っておいてくださいね。",
+		"tr_text": "그리고 실전을 가정한 훈련은 좋지만<%br>통신을 차단하지는 말라고 전해 주세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:0:1:3:3",
+		"jp_name": "",
+		"tr_name": "",
+		"jp_text": "<size=65>ビクトリー　オブ　ヤスミノコフ<%br><%br>The Great Soldiers</size>",
+		"tr_text": "<size=65>야스미노코프의 승리<%br><%br>The Great Soldiers</size>",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:0:1:4:4",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "むむ、あやしい足跡発見であります！<%br>このあたりに侵入者がいる模様！",
+		"tr_text": "으음, 수상한 발자국을 발견했습니다!<%br>이 근처에 침입자가 있는 모양입니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:0:1:5:5",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "んー？　この足跡、俺らのものでも<%br>エネミーのものでもなさそうだけどなー……",
+		"tr_text": "으음? 이 발자국, 우리 것도<%br>에너미 것도 아닌 것 같은데……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:0:1:6:6",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "今、物音も聞こえたであります！<%br>こっちから回り込むでありますよ！",
+		"tr_text": "방금 소리도 들렸습니다!<%br>이쪽으로 돌아서 가겠습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:0:1:7:7",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "って、そんなに声出したら<%br>バレバレっ！",
+		"tr_text": "아니, 그렇게 큰 소리를 내면<%br>다 들키잖아!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:0:1:8:8",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "あわわ、そうでした！<%br>静かに、静かに……！",
+		"tr_text": "아차, 맞습니다!<%br>조용히, 조용히……!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:0:1:9:9",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "あわわ、そうでした！<%br>静かに、静かに……！",
+		"tr_text": "아차, 맞습니다!<%br>조용히, 조용히……!",
+		"jp_buttons": [
+			"ひさしぶりだね。",
+			"敵襲だ！"
+		],
+		"tr_buttons": [
+			"오랜만이야.",
+			"적의 습격이다!"
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:0:1:10:10",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "ひゃあっ！？<%br>だ、誰でありますか！？",
+		"tr_text": "으앗!?<%br>누, 누구십니까!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:0:1:11:11",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "て、敵襲！？<%br>ど、どこから来るであるますかっ！？",
+		"tr_text": "저, 적의 습격!?<%br>어, 어디서 오는 겁니까!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:0:1:12:12",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "落ち着きなっての。<%br>敵じゃなくて、リーダーだよ。",
+		"tr_text": "진정하라니까.<%br>적이 아니라 리더야.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:0:1:13:13",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "おお！　ひさしぶりであります、リーダー殿！<%br>……あれ、こんなところで何を？",
+		"tr_text": "오오! 오랜만입니다, 리더님!<%br>……어라, 이런 곳에서 뭘 하고 계십니까?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:0:1:14:14",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "なるほど、自分たちに任務の<%br>依頼でありますか。",
+		"tr_text": "그렇군요, 저희에게 임무를<%br>의뢰하시는 겁니까.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:0:1:15:15",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "んー……でも今俺ら、チーム合同で<%br>サバイバル訓練をしてんすよねー。",
+		"tr_text": "음…… 근데 지금 저희가 팀 합동으로<%br>서바이벌 훈련을 하고 있거든요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:0:1:16:16",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "どれだけ早く先輩方を見つけられるかという<%br>実戦を兼ねた訓練でありますよ。",
+		"tr_text": "선배님들을 얼마나 빨리 찾아낼 수 있는지 시험하는<%br>실전을 겸한 훈련입니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:0:1:17:17",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "そんなわけなんで、終わるまで<%br>詳しい話は待ってもらっていいっすか？",
+		"tr_text": "그런 사정이라, 훈련이 끝날 때까지<%br>자세한 얘기는 좀 미뤄 주실래요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:0:1:18:18",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "あ、そうだ！　リーダーも参加しましょー！<%br>そうすりゃ、こっちも楽……ああいや。",
+		"tr_text": "아, 맞다! 리더도 같이 참가해요!<%br>그러면 저희도 편해지…… 아, 아니.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:0:1:19:19",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "……より迅速に！<%br>任務の話をみんなにできるってもんでしょ？",
+		"tr_text": "……더욱 신속하게!<%br>모두에게 임무 얘기를 할 수 있잖아요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:0:1:20:20",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "見つけたものは何でも利用するべし……<%br>というルールなので……問題なしであります！",
+		"tr_text": "발견한 것은 무엇이든 이용할 것……<%br>이라는 규칙이므로…… 문제없습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:0:1:21:21",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "今は先輩方の痕跡を探しながら追跡中で……<%br>あ、また足跡を見つけましたよ！",
+		"tr_text": "지금은 선배님들의 흔적을 찾으며 추적 중인데……<%br>아, 또 발자국을 발견했습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:0:1:22:22",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "いや、この大きさ、形……<%br>これは明らかに……",
+		"tr_text": "아니, 이 크기와 모양……<%br>이건 분명히……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:0:1:23:23",
+		"jp_name": "？？？",
+		"tr_name": "",
+		"jp_text": "グルルルル……！",
+		"tr_text": "그르르르르……!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:0:1:24:24",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "わあ！<%br>エネミーの足跡でしたっ！",
+		"tr_text": "으아!<%br>에너미의 발자국이었습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:1:1:0:0",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "あー、びっくりしましたぁ……<%br>まさかエネミーの足跡だったなんて。",
+		"tr_text": "아, 깜짝 놀랐습니다……<%br>설마 에너미의 발자국이었다니.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:1:1:1:1",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "これも先輩方のトラップというわけですね。<%br>さすがであります！",
+		"tr_text": "이것도 선배님들의 함정이라는 거군요.<%br>역시 대단하십니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:1:1:2:2",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "え、トラップ？　ま、まあいいか……<%br>で、リーダーは何を見てるっすか？",
+		"tr_text": "어, 함정? 뭐, 뭐 어때……<%br>그런데 리더는 뭘 보고 있어요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:1:1:3:3",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "え、トラップ？　ま、まあいいか……<%br>で、リーダーは何を見てるっすか？",
+		"tr_text": "어, 함정? 뭐, 뭐 어때……<%br>그런데 리더는 뭘 보고 있어요?",
+		"jp_buttons": [
+			"何か見つけたよ。",
+			"まだ足跡があるね。"
+		],
+		"tr_buttons": [
+			"뭔가 찾았어.",
+			"아직 발자국이 남아 있네."
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:1:1:4:4",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "えっ？　あっ、エネミーの足跡に混ざって<%br>４０００Ｆ先輩と２０００Ｈ先輩のものが！",
+		"tr_text": "네? 아, 에너미의 발자국에 섞여서<%br>４０００Ｆ 선배님과 ２０００Ｈ 선배님의 발자국이!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:1:1:5:5",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "この足跡は……おぉ！　４０００Ｆ先輩と<%br>２０００Ｈ先輩のものでありますか！？",
+		"tr_text": "이 발자국은…… 오! ４０００Ｆ 선배님과<%br>２０００Ｈ 선배님의 발자국입니까!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:1:1:6:6",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "なるほど、エネミーの足跡で本物の痕跡を<%br>カモフラージュしていたわけでありますか！",
+		"tr_text": "그렇군요, 에너미의 발자국으로 진짜 흔적을<%br>위장하셨던 거군요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:1:1:7:7",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "ってことは、この足跡を追っていけば<%br>発見できるはずっすね。さぁ、行くっす！",
+		"tr_text": "그럼 이 발자국을 따라가면<%br>찾아낼 수 있겠네요. 자, 갑시다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:1:1:8:8",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 ４０００Ｆ",
+		"jp_text": "ほう、もう見つかるとは。<%br>成長したな、８０００Ｃ。",
+		"tr_text": "호오, 벌써 들키다니.<%br>성장했군, 8000C.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:1:1:9:9",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "そ、そんなことは……５０００ＳＤ先輩と<%br>リーダー殿のおかげであります！",
+		"tr_text": "아, 아닙니다…… ５０００ＳＤ 선배님과<%br>리더님 덕분입니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:1:1:10:10",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 ２０００H",
+		"jp_text": "謙遜するなって。予測よりも遥かに<%br>早いタイムだったことは確かだぜ。",
+		"tr_text": "겸손해하지 말라니까. 예상보다 훨씬<%br>빠른 기록이었다는 건 확실하다고.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:1:1:11:11",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 ４０００Ｆ",
+		"jp_text": "３０００Ｒ殿も、まだ哨戒中だ。<%br>……トレーニングでもして待つか。",
+		"tr_text": "３０００Ｒ 님도 아직 초계 중이다.<%br>……트레이닝이라도 하면서 기다릴까.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:1:1:12:12",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 ４０００Ｆ",
+		"jp_text": "設備を使う科学的なトレーニングも良いが<%br>大自然の中で鍛えるのも良いものだぞ。",
+		"tr_text": "시설을 이용한 과학적인 트레이닝도 좋지만<%br>대자연 속에서 단련하는 것도 좋은 법이지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:1:1:13:13",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "おお！　ひさしぶりに４０００Ｆ先輩に<%br>鍛えてもらえるのは嬉しいです！",
+		"tr_text": "오! 오랜만에 ４０００Ｆ 선배님께<%br>훈련받을 수 있다니 기쁩니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:1:1:14:14",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "８０００Ｃ、考え直して！<%br>その訓練は、あなたには危険なんだから！",
+		"tr_text": "8000C, 다시 생각해!<%br>그 훈련은 네게 위험하단 말이야!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:1:1:15:15",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "わっ、７０００Ｖ先輩！？<%br>危険とは、どういう意味ですか？",
+		"tr_text": "앗, ７０００Ｖ 선배님!?<%br>위험하다니 무슨 뜻인가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:1:1:16:16",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "筋力トレーニングなんて……<%br>８０００Ｃには、まだ早いってこと！",
+		"tr_text": "근력 트레이닝 같은 건……<%br>8000C에게는 아직 이르다는 뜻이야!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:1:1:17:17",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 ４０００Ｆ",
+		"jp_text": "まだ早い、だと？<%br>俺のトレーニング法に問題があるのか？",
+		"tr_text": "아직 이르다고?<%br>내 트레이닝 방식에 문제가 있나?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:1:1:18:18",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 ２０００H",
+		"jp_text": "４０００Ｆのトレーニングは効率もいいし<%br>安全性も悪くないと思うけどな。",
+		"tr_text": "４０００Ｆ의 트레이닝은 효율도 좋고<%br>안전성도 나쁘지 않다고 생각하는데.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:1:1:19:19",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "それよ！　４０００Ｆのトレーニングは<%br>あまりにも効率が良すぎるのよ……！",
+		"tr_text": "바로 그거야! ４０００Ｆ의 트레이닝은<%br>지나치게 효율이 좋단 말이야……!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:1:1:20:20",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "そのトレーニングを続けていると……<%br>８０００Ｃはどうなると思う？",
+		"tr_text": "그 트레이닝을 계속하면……<%br>8000C가 어떻게 될 것 같아?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:1:1:21:21",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 ２０００H",
+		"jp_text": "あー、なるほど。<%br>そういうことか。",
+		"tr_text": "아, 그렇군.<%br>그런 거였나.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:1:1:22:22",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "そう！　４０００Ｆのようなマッスルボディを<%br>得た８０００Ｃ……そんなの見たい！？",
+		"tr_text": "맞아! ４０００Ｆ 같은 근육질 몸을<%br>갖게 된 8000C…… 그런 모습이 보고 싶어!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:1:1:23:23",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 ４０００Ｆ",
+		"jp_text": "む、むう……",
+		"tr_text": "으, 으음……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:1:1:24:24",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "た、確かに、それは見たくねーっす……",
+		"tr_text": "하, 하긴 그건 보고 싶지 않네요……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "25",
+		"parameter_index": 25,
+		"__key": "event:1:1:25:25",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "な、何を言ってるでありますか？<%br>私はもっと訓練して強くなりたいであります！",
+		"tr_text": "무, 무슨 말씀입니까?<%br>저는 더 훈련해서 강해지고 싶습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "26",
+		"parameter_index": 26,
+		"__key": "event:1:1:26:26",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 ４０００Ｆ",
+		"jp_text": "筋肉こそ全てと思ってはいるが……<%br>例外もあるのかもしれんな……",
+		"tr_text": "근육이야말로 전부라고 생각하긴 하지만……<%br>예외도 있을지 모르겠군……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "27",
+		"parameter_index": 27,
+		"__key": "event:1:1:27:27",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "４０００Ｆ先輩まで！？<%br>わ、私を鍛えてくれるはずではー！？",
+		"tr_text": "４０００Ｆ 선배님까지!?<%br>저, 저를 단련시켜 주실 게 아니었습니까아!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "28",
+		"parameter_index": 28,
+		"__key": "event:1:1:28:28",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 ２０００H",
+		"jp_text": "はは、みんな悩みだしちまったな。<%br>こりゃトレーニングどころじゃないか。",
+		"tr_text": "하하, 다들 고민하기 시작했네.<%br>이래서는 트레이닝할 상황이 아니겠는데.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "29",
+		"parameter_index": 29,
+		"__key": "event:1:1:29:29",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "じゃ、休憩ね！　私は８０００Ｃの抱き心地を<%br>ひさしぶりに堪能させてもらおうっと！",
+		"tr_text": "",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "30",
+		"parameter_index": 30,
+		"__key": "event:1:1:30:30",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "うわーん、トレーニング～！",
+		"tr_text": "으아앙, 트레이닝～!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:2:1:0:0",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 ４０００Ｆ",
+		"jp_text": "ここをキャンプ地とするか。<%br>そろそろ３０００Ｒ殿も合流するはずだ。",
+		"tr_text": "이곳을 야영지로 삼을까.<%br>슬슬 ３０００Ｒ 님도 합류할 테지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:2:1:1:1",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "あー、疲れたぁ。汗かいちゃったし<%br>シャワーでも浴びたいわねぇ。",
+		"tr_text": "아, 피곤해. 땀도 흘렸으니<%br>샤워라도 하고 싶네.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:2:1:2:2",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 ４０００Ｆ",
+		"jp_text": "８０００Ｃ。<%br>筋肉をほぐしておくのも忘れるな。",
+		"tr_text": "8000C.<%br>근육을 풀어 두는 것도 잊지 마라.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:2:1:3:3",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "はっ、了解であります！",
+		"tr_text": "옛, 알겠습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:2:1:4:4",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "はっ、了解であります！",
+		"tr_text": "옛, 알겠습니다!",
+		"jp_buttons": [
+			"おつかれさま。",
+			"水分補給もしっかり。"
+		],
+		"tr_buttons": [
+			"수고했어.",
+			"수분도 충분히 보충해."
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:2:1:5:5",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "ありがとうございます。<%br>リーダー殿も、おつかれさまでした！",
+		"tr_text": "감사합니다.<%br>리더님도 수고하셨습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:2:1:6:6",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "確かに、水分補給も大事ですね！<%br>えへへ、リーダー殿は優しいであります。",
+		"tr_text": "확실히 수분 보충도 중요하군요!<%br>에헤헤, 리더님은 상냥하십니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:2:1:7:7",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "今日もなんだかんだで<%br>訓練三昧だったっすねえ。",
+		"tr_text": "오늘도 이래저래<%br>훈련만 잔뜩 했네요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:2:1:8:8",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "８０００Ｃも、ハードなトレーニングにも<%br>しっかりついてこれるようになったわよね。",
+		"tr_text": "8000C도 힘든 트레이닝까지<%br>잘 따라올 수 있게 됐네.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:2:1:9:9",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "確かに、先輩方のトレーニングは<%br>ハードであります……",
+		"tr_text": "확실히 선배님들의 트레이닝은<%br>힘듭니다……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:2:1:10:10",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "ですが、こんな素晴らしい先輩方に鍛えて<%br>もらえるなんて……私は幸せものです！",
+		"tr_text": "하지만 이렇게 훌륭한 선배님들께 단련을<%br>받을 수 있다니…… 저는 복 받은 사람입니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:2:1:11:11",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "くうっ、そういうところが可愛いのよねぇ！<%br>ごほうびにマッサージしてあげちゃう！",
+		"tr_text": "",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:2:1:12:12",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "くうっ、そういうところが可愛いのよねぇ！<%br>ごほうびにマッサージしてあげちゃう！",
+		"tr_text": "",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:2:1:13:13",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "あわわっ……！　装甲の薄いところを<%br>触ってはダメであります～！",
+		"tr_text": "",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:2:1:14:14",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "ふ……",
+		"tr_text": "훗……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:2:1:15:15",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "はぁ、はぁ……あ、そういえば……<%br>こうして私に先輩方がいるということは……",
+		"tr_text": "하아, 하아…… 아, 그러고 보니……<%br>이렇게 제게 선배님들이 계시다는 건……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:2:1:16:16",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "同じように、先輩方にも<%br>先輩がいたのでありますか？",
+		"tr_text": "마찬가지로 선배님들께도<%br>선배님이 계셨습니까?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:2:1:17:17",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "俺たちにとっての先輩か。<%br>ってぇと……",
+		"tr_text": "우리의 선배라.<%br>그렇다면……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:2:1:18:18",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "あの子……<%br>いや、あの人ってことになるわよねぇ。",
+		"tr_text": "그 아이……<%br>아니, 그분이라고 해야겠네.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:2:1:19:19",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "おぉ、やはりいるのでありますね！<%br>一体、どのような……？",
+		"tr_text": "오오, 역시 계시는군요!<%br>대체 어떤 분이……?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:2:1:20:20",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "そうか。まだ８０００Ｃには<%br>話していなかったな。",
+		"tr_text": "그렇군. 아직 8000C에게는<%br>이야기하지 않았지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:2:1:21:21",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "あ、３０００Ｒ殿！",
+		"tr_text": "아, 3000R 님!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:2:1:22:22",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "そろそろ話しても、いい頃かもしれん。<%br>……が、その前にひと仕事だな。",
+		"tr_text": "슬슬 이야기해도 될 때가 된 것 같군.<%br>……하지만 그전에 할 일이 하나 있지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:2:1:23:23",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "え、エネミーでありますか！？<%br>ええと、武器、武器をー！",
+		"tr_text": "에, 에너미입니까!?<%br>어, 무기, 무기를!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:2:1:24:24",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "落ち着け、それは俺のダンベルだ！",
+		"tr_text": "진정해, 그건 내 덤벨이다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:3:1:0:0",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "エネミー、掃討完了であります！",
+		"tr_text": "에너미 소탕 완료했습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:3:1:1:1",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "うむ。みんな、楽にしてくれ。<%br>リーダーもな。",
+		"tr_text": "음. 모두 편하게 있어라.<%br>리더도 말이야.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:3:1:2:2",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "そ、それで先輩方の更に先輩について<%br>聞かせてもらえるでありますか？",
+		"tr_text": "그, 그래서 선배님들의 선배님 이야기를<%br>들려주실 수 있습니까?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:3:1:3:3",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "いいだろう。８０００Ｃには<%br>初めて聞かせる話になるな。",
+		"tr_text": "좋다. 8000C에게는<%br>처음 들려주는 이야기가 되겠군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:3:1:4:4",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "もともと、俺たちヤスミノコフチームには<%br>９０００Ｍ殿という上官がいてな。",
+		"tr_text": "원래 우리 야스미노코프 팀에는<%br>9000M 님이라는 상관이 계셨지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:3:1:5:5",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "９０００Ｍ殿でありますか！<%br>みなさんの上官、ということは……？",
+		"tr_text": "9000M 님 말입니까!<%br>선배님들의 상관이라는 건……?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:3:1:6:6",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "ああ、歴戦の３０００Ｒよりも<%br>さらに古株の軍人ってわけだな。",
+		"tr_text": "그래, 산전수전 다 겪은 3000R보다도<%br>더 오래 복무한 군인이라는 거지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:3:1:7:7",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "９０００Ｍ殿にかかれば<%br>俺もまだまだヒヨッコよ。",
+		"tr_text": "9000M 님 앞에서는<%br>나도 아직 한참 풋내기지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:3:1:8:8",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "な、なんと……３０００Ｒ殿でさえも！？<%br>やはり、とても強いでありますか？",
+		"tr_text": "이, 이럴 수가…… 3000R 님마저도!?<%br>역시 굉장히 강하십니까?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:3:1:9:9",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "無論、圧倒的に強かった。ひとりで<%br>一個師団に匹敵する強さと言われるほどにな。",
+		"tr_text": "물론, 압도적으로 강하셨지. 혼자서<%br>1개 사단에 맞먹는다는 말을 들을 정도였어.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:3:1:10:10",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "すごいのは、戦闘力だけではない。<%br>指揮能力が優れていたのだ。",
+		"tr_text": "대단한 건 전투력뿐만이 아니다.<%br>지휘 능력도 뛰어나셨다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:3:1:11:11",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "それだけじゃないの、訓練モードに入ると<%br>そりゃもう厳しかったんだから。",
+		"tr_text": "그뿐만이 아니야. 훈련 모드에 들어가면<%br>정말 엄격하셨다니까.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:3:1:12:12",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "おぉぉ……聞けば聞くほど<%br>優秀な軍人のようであります！",
+		"tr_text": "오오오…… 들으면 들을수록<%br>뛰어난 군인이신 것 같습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:3:1:13:13",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "きっと４０００Ｆ先輩よりも、さらにさらに<%br>屈強なお方なのでしょうね……",
+		"tr_text": "분명 4000F 선배님보다도 훨씬 더<%br>건장한 분이시겠군요……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:3:1:14:14",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "ふ……そうだな。<%br>ある意味では、大きい存在だ。",
+		"tr_text": "훗…… 그렇지.<%br>어떤 의미에서는 큰 존재다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:3:1:15:15",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "そ、そんな９０００Ｍ殿は今<%br>何をされているのでありますか！？",
+		"tr_text": "그, 그런 9000M 님께서는 지금<%br>무엇을 하고 계십니까!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:3:1:16:16",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "はっ……ま、まさかもう<%br>どこかの戦場で……",
+		"tr_text": "앗…… 서, 설마 벌써<%br>어딘가의 전장에서……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:3:1:17:17",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "あはは、それはないわよぉ。<%br>簡単に野垂れ死ぬタマじゃないんだから。",
+		"tr_text": "아하하, 그럴 리 없지.<%br>그렇게 쉽게 객사할 사람이 아니거든.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:3:1:18:18",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "そうだな。言ったとおり９０００Ｍ殿は<%br>指揮官としても優れていたからな。",
+		"tr_text": "그렇지. 말했듯이 9000M 님은<%br>지휘관으로서도 뛰어나셨으니까.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:3:1:19:19",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "今は上層部との間に立ち<%br>数多の戦場を統率しているというわけだ。",
+		"tr_text": "지금은 상층부와의 가교 역할을 하며<%br>수많은 전장을 통솔하고 계신다는 거다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:3:1:20:20",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "そうでありましたか……<%br>安心しました！",
+		"tr_text": "그랬군요……<%br>안심했습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:3:1:21:21",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "そして、そんな素晴らしい方が先輩方の<%br>先輩というお話……感動しました！",
+		"tr_text": "그리고 그토록 훌륭한 분이 선배님들의<%br>선배님이라는 이야기에…… 감동했습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:3:1:22:22",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "私もいつか、９０００Ｍ殿に<%br>鍛えてもらいたいであります～！",
+		"tr_text": "저도 언젠가 9000M 님께<%br>훈련을 받고 싶습니다~!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:3:1:23:23",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "ふ、そのためにはもっと強くならないとな。<%br>でなければ、ついていけんぞ？",
+		"tr_text": "훗, 그러려면 더 강해져야지.<%br>안 그러면 따라가지 못할 텐데?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:3:1:24:24",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "な、なるほど。そうと分かれば<%br>さっそくトレーニングしたいであります！",
+		"tr_text": "그, 그렇군요. 그렇다면<%br>당장 훈련하고 싶습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "25",
+		"parameter_index": 25,
+		"__key": "event:3:1:25:25",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "ははっ、若者は元気でいいねぇ。<%br>じゃ、休憩は終わりとしますか！",
+		"tr_text": "하하, 젊은이는 기운이 넘쳐서 좋네.<%br>그럼 휴식은 여기까지 할까!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:4:1:0:0",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "よし。今日の訓練は<%br>これくらいにしておくか。",
+		"tr_text": "좋아. 오늘 훈련은<%br>이쯤에서 마칠까.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:4:1:1:1",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "リーダー殿も、おつかれさまであります！",
+		"tr_text": "리더님도 수고하셨습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:4:1:2:2",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "そう言えば、えらい自然に混ざっていたけど<%br>どうしてリーダーがここにいるのよ？",
+		"tr_text": "그러고 보니 정말 자연스럽게 끼어 있었는데<%br>리더는 왜 여기 있는 거야?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:4:1:3:3",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "そ、そうでありました。リーダー殿は<%br>私たちに用事があると……",
+		"tr_text": "그, 그랬습니다. 리더님은<%br>저희에게 볼일이 있으시다고……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:4:1:4:4",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "そ、そうでありました。リーダー殿は<%br>私たちに用事があると……",
+		"tr_text": "그, 그랬습니다. 리더님은<%br>저희에게 볼일이 있으시다고……",
+		"jp_buttons": [
+			"任務の相談だよ。",
+			"仕事をお願いしにきた。"
+		],
+		"tr_buttons": [
+			"임무에 관해 상의하러 왔어.",
+			"일을 부탁하러 왔어."
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:4:1:5:5",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "わざわざ隊長が出張ってきたんだ。<%br>そんな話だと思っていたぜ。",
+		"tr_text": "대장이 일부러 직접 찾아왔으니까.<%br>그런 얘기일 거라고 생각했지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:4:1:6:6",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "あら、もしかしてグラビア撮影とか！？<%br>……え、そういう仕事の話じゃない？",
+		"tr_text": "어머, 혹시 화보 촬영 같은 거!?<%br>……어, 그런 일 얘기가 아니라고?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:4:1:7:7",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "ほう、任務か。<%br>それもヤスミノコフ全員を招集とは……",
+		"tr_text": "호오, 임무인가.<%br>그것도 야스미노코프 전원을 소집하다니……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:4:1:8:8",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "おぉぉ！　先輩方と一緒の作戦！？<%br>私も、ご一緒できるでありますか？",
+		"tr_text": "오오오! 선배님들과 함께하는 작전입니까!?<%br>저도 함께할 수 있습니까?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:4:1:9:9",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "資料はこれか？<%br>確認させてもらおう。",
+		"tr_text": "자료는 이것인가?<%br>확인해 보겠다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:4:1:10:10",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "……少々妙だな。<%br>単なるはぐれダーカーの討伐任務とは。",
+		"tr_text": "……조금 이상하군.<%br>그저 무리에서 떨어진 다커를 토벌하는 임무라니.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:4:1:11:11",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "俺たち全員を駆り出すほどの<%br>任務とは、正直思えないがな……",
+		"tr_text": "우리 전원을 동원할 정도의<%br>임무라고는 솔직히 생각되지 않는데……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:4:1:12:12",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "これじゃ、すぐ終わっちゃうわよ。<%br>私たちも安く見られたものね～。",
+		"tr_text": "이러면 금방 끝나겠어.<%br>우릴 참 얕잡아 봤네～.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:4:1:13:13",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 5000SD",
+		"jp_text": "いいじゃないっすか、イージーオペレーション。<%br>楽な任務で報酬がもらえるなんて最高っしょ。",
+		"tr_text": "좋잖아요, 쉬운 작전이라니.<%br>편한 임무로 보수를 받을 수 있다니 최고죠.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:4:1:14:14",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "さすが先輩方……作戦を前にしても<%br>まったく緊張しないのでありますね！",
+		"tr_text": "역시 선배님들…… 작전을 앞두고도<%br>전혀 긴장하지 않으시는군요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:4:1:15:15",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "少しは緊張感を持ってほしいもんだが……<%br>まぁ、緊張で動けなくなるよりはマシだな。",
+		"tr_text": "조금은 긴장감을 가졌으면 좋겠지만……<%br>뭐, 긴장해서 움직이지 못하는 것보다는 낫군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:4:1:16:16",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "そ、そうですね。私も先輩方のように<%br>余裕を持てるようにならないと……！",
+		"tr_text": "그, 그렇군요. 저도 선배님들처럼<%br>여유를 가질 줄 알아야겠습니다……!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:4:1:17:17",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "さあて……目標の行動パターンを考えると<%br>今から探しに行くのがベストだろう。",
+		"tr_text": "자…… 목표의 행동 패턴을 고려하면<%br>지금부터 찾으러 가는 게 최선이겠군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:4:1:18:18",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "お前たち、それだけ余裕があるということは<%br>すぐに出撃は可能だろうな？　ん？",
+		"tr_text": "너희들, 그만큼 여유가 있다는 건<%br>바로 출격할 수 있다는 거겠지? 응?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:4:1:19:19",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "もちろんですとも。<%br>いつでも出撃できますよ。",
+		"tr_text": "물론입니다.<%br>언제든 출격할 수 있습니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:4:1:20:20",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "よし、任務開始だ！<%br>遅れるなよ！",
+		"tr_text": "좋아, 임무 시작이다!<%br>뒤처지지 마라!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:5:1:0:0",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "ターゲット、撃破したぜ！",
+		"tr_text": "목표를 격파했다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:5:1:1:1",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "これで任務完了ね。<%br>やっぱり、あっという間だったわ。",
+		"tr_text": "이걸로 임무 완료네.<%br>역시 순식간이었어.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:5:1:2:2",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "さすがは先輩方！<%br>あっという間に遂行してしまうとは！",
+		"tr_text": "역시 선배님들답습니다!<%br>순식간에 임무를 완수하시다니!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:5:1:3:3",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 5000SD",
+		"jp_text": "全員参加だと楽でいいっすねー。<%br>俺は毎回こーいうの希望～。",
+		"tr_text": "전원이 참가하니 편하고 좋네요～.<%br>전 매번 이런 임무였으면 좋겠어요～.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:5:1:4:4",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "一息つくには、まだ早いぞ。<%br>撤収準備をしておいてくれ。",
+		"tr_text": "한숨 돌리기엔 아직 이르다.<%br>철수 준비를 해 둬라.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:5:1:5:5",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "了解であります！<%br>後片付けはお任せください！",
+		"tr_text": "알겠습니다!<%br>뒷정리는 제게 맡겨 주십시오!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:5:1:7:7",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "……妙だな。",
+		"tr_text": "……이상하군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:5:1:8:8",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "何か気になることでも？<%br>簡単すぎる任務ではありましたが。",
+		"tr_text": "뭔가 마음에 걸리시는 일이라도?<%br>너무 쉬운 임무이기는 했습니다만.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:5:1:9:9",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "それもある、が……<%br>何か既視感を感じてな。",
+		"tr_text": "그것도 있지만……<%br>왠지 전에 겪은 것 같은 느낌이 들어서 말이다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:5:1:10:10",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "はぐれダーカーだと？　本当にそうか？<%br>どうもクサいと思わんか？",
+		"tr_text": "무리에서 떨어진 다커라고? 정말 그런가?<%br>아무래도 수상하지 않나?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:5:1:11:11",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "３０００Ｒ殿もやはり……<%br>実は、自分も同感であります。",
+		"tr_text": "3000R 님도 역시……<%br>사실 저도 같은 생각입니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:5:1:12:12",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "……そうだ。ずっと昔……俺たちがまだ若造<%br>だった頃、こんな任務に挑んだことがある。",
+		"tr_text": "……그래. 아주 오래전…… 우리가 아직 풋내기였던<%br>시절, 이런 임무에 나선 적이 있다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:5:1:13:13",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "あのときの上官は……<%br>ま、まさか！？",
+		"tr_text": "그때의 상관은……<%br>서, 설마!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:5:1:14:14",
+		"jp_name": "？？？",
+		"tr_name": "",
+		"jp_text": "おっと。<%br>気がつくのが、少し遅かったな。",
+		"tr_text": "이런.<%br>눈치채는 게 조금 늦었군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:5:1:15:15",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "……ハッ！",
+		"tr_text": "……예!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:5:1:16:16",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "後片付け終了しまし……え、ええ！？<%br>これはどういう状況でありますか！？",
+		"tr_text": "뒷정리 마쳤습니…… 어, 어어!?<%br>이게 무슨 상황입니까!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:5:1:17:17",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "さ、３０００Ｒ殿が何者かに……<%br>は、背後から制圧されているなど……！！",
+		"tr_text": "사, 3000R 님이 누군가에게……<%br>뒤, 뒤에서 제압당하고 계시다니……!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:5:1:18:18",
+		"jp_name": "？？？",
+		"tr_name": "",
+		"jp_text": "一流の軍人なら、背後に立った者は<%br>反射的に組み伏せねばならない。",
+		"tr_text": "일류 군인이라면 등 뒤에 선 자를<%br>반사적으로 쓰러뜨려 제압해야 한다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:5:1:19:19",
+		"jp_name": "？？？",
+		"tr_name": "",
+		"jp_text": "そう教わっていなかったかな？",
+		"tr_text": "그렇게 배우지 않았나?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:5:1:20:20",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "ふ……そう、でしたな。",
+		"tr_text": "후…… 그랬지요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:5:1:21:21",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "やはり、貴方でしたか……",
+		"tr_text": "역시 당신이셨군요……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:5:1:22:22",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "一体、何者でありますか！？<%br>まさか、新たな敵ですか！",
+		"tr_text": "대체 누구십니까!?<%br>설마 새로운 적입니까!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:6:1:0:0",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "３０００Ｒ殿の背後を取るなんて……！<%br>いったい何者でありますか、この幼女は！",
+		"tr_text": "3000R 님의 뒤를 잡다니……!<%br>이 어린 소녀는 대체 누구입니까!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:6:1:1:1",
+		"jp_name": "？？？",
+		"tr_name": "",
+		"jp_text": "確かに私は幼女だが、相手の能力を<%br>見た目で判断するのは素人だぞ。",
+		"tr_text": "내가 어린 소녀인 건 맞지만, 상대의 능력을<%br>겉모습으로 판단하는 건 초보나 하는 짓이다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:6:1:2:2",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "やはり、敵対勢力！<%br>ならば、遠慮は無用であります！",
+		"tr_text": "역시 적대 세력!<%br>그렇다면 봐줄 필요 없습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:6:1:3:3",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "ま、待て、８０００Ｃ……！",
+		"tr_text": "자, 잠깐만, 8000C……!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:6:1:4:4",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "３０００Ｒ殿を放すであります！<%br>先手必勝！　ファイアっ！",
+		"tr_text": "3000R 님을 놓아주십시오!<%br>선수필승!　발사!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:6:1:5:5",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "……ああっ！？<%br>この肝心な時にジャムるなんて！",
+		"tr_text": "……아앗!?<%br>이 중요한 순간에 탄이 걸리다니!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:6:1:6:6",
+		"jp_name": "？？？",
+		"tr_name": "",
+		"jp_text": "平時でも、武器の手入れは怠るな。<%br>それが常在戦場ということだ。",
+		"tr_text": "평상시에도 무기 손질을 게을리하지 마라.<%br>늘 전장에 있다고 생각하라는 뜻이다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:6:1:7:7",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "はわわ、いつの間に<%br>こんなに近くに！？",
+		"tr_text": "으아아, 어느새<%br>이렇게 가까이 오신 겁니까!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:6:1:8:8",
+		"jp_name": "？？？",
+		"tr_name": "",
+		"jp_text": "……てぇっ！",
+		"tr_text": "……얍!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:6:1:9:9",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "ふわぁぁぁっ！？<%br>あいたたたた！",
+		"tr_text": "으아아아!?<%br>아야야야야!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:6:1:10:10",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "い、一瞬で拘束しちまった……<%br>相変わらず、見事なＣＱＣだぜ。",
+		"tr_text": "순, 순식간에 꼼짝 못 하게 해 버렸어……<%br>여전히 대단한 ＣＱＣ 실력이야.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:6:1:11:11",
+		"jp_name": "？？？",
+		"tr_name": "",
+		"jp_text": "この身体では、ひと苦労だがな。",
+		"tr_text": "이 몸으로는 꽤 힘들지만 말이지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:6:1:12:12",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "こ、こんなに早く捕まってしまうとは<%br>我ながら情けないであります……",
+		"tr_text": "이, 이렇게 빨리 붙잡히다니<%br>제가 봐도 한심합니다……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:6:1:13:13",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "それも無理のないことだ。<%br>その方には、この場の誰も敵わん。",
+		"tr_text": "그럴 만도 하다.<%br>여기 있는 누구도 그분을 당해낼 수는 없다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:6:1:14:14",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "え、そ、それはどういう……？",
+		"tr_text": "네, 그, 그게 무슨……?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:6:1:15:15",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "８０００Ｃ！<%br>姿勢を正せ！　敬礼！！",
+		"tr_text": "8000C!<%br>자세를 바로 해라!　경례!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:6:1:16:16",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "そのお方こそ、９０００Ｍ殿……<%br>我らが上官にして、チームの指揮官だ！",
+		"tr_text": "그분이 바로 9000M 님……<%br>우리의 상관이자 팀의 지휘관이시다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:6:1:17:17",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "な、なんとぉっ！？<%br>そうでありましたか……",
+		"tr_text": "이, 이럴 수가!?<%br>그랬습니까……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:6:1:18:18",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "なんだ、まじまじと見て。<%br>この身体が珍しいか？",
+		"tr_text": "뭐냐, 왜 그렇게 빤히 쳐다보지?<%br>이 몸이 신기한가?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:6:1:19:19",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "あ、失礼しましたであります！<%br>ただ、屈強な軍人を想像していましたので……",
+		"tr_text": "아, 실례했습니다!<%br>다만 건장한 군인을 상상하고 있었기에……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:6:1:20:20",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "イメージに囚われると余計な先入観を生み<%br>敵の戦力を見誤る。以後、慎め。",
+		"tr_text": "이미지에 얽매이면 쓸데없는 선입견이 생겨<%br>적의 전력을 오판하게 된다. 앞으로는 삼가라.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:6:1:21:21",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "は、ハッ！　そのとおりであります……<%br>私はまだまだ未熟であります。",
+		"tr_text": "예, 예! 맞는 말씀입니다……<%br>저는 아직 한참 미숙합니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:6:1:22:22",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "未熟なのは、この新兵だけではないな。<%br>お前たち、全員……たるんでいる！",
+		"tr_text": "미숙한 건 이 신병뿐만이 아니군.<%br>너희 모두…… 기강이 해이해졌다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:6:1:23:23",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "……ハッ！",
+		"tr_text": "……예!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:6:1:24:24",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "今回は久々に<%br>お前たちの仕事ぶりを督戦したが……",
+		"tr_text": "이번에는 오랜만에<%br>너희의 임무 수행을 감독했다만……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "25",
+		"parameter_index": 25,
+		"__key": "event:6:1:25:25",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "まったく、ガッカリさせてくれたな。<%br>また鍛え直す必要がありそうだ。",
+		"tr_text": "정말이지, 실망시켰구나.<%br>다시 단련시킬 필요가 있겠군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "26",
+		"parameter_index": 26,
+		"__key": "event:6:1:26:26",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "むむ……お、お言葉ですが<%br>９０００Ｍ殿！",
+		"tr_text": "으음…… 외, 외람된 말씀입니다만<%br>9000M 님!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "27",
+		"parameter_index": 27,
+		"__key": "event:6:1:27:27",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "おい待て！<%br>口をはさむな、８０００Ｃ！",
+		"tr_text": "이봐, 잠깐!<%br>끼어들지 마, 8000C!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "28",
+		"parameter_index": 28,
+		"__key": "event:6:1:28:28",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "かまわん、言ってみろ。",
+		"tr_text": "상관없다, 말해 봐라.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "29",
+		"parameter_index": 29,
+		"__key": "event:6:1:29:29",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "先輩方の、一体どこに<%br>問題があるのでありますか！？",
+		"tr_text": "선배님들은 대체 어디가<%br>문제라는 말입니까!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "30",
+		"parameter_index": 30,
+		"__key": "event:6:1:30:30",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "どこが、だと？<%br>……では、後ろを見てみろ。",
+		"tr_text": "어디가 문제냐고?<%br>……그럼 뒤를 봐라.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "31",
+		"parameter_index": 31,
+		"__key": "event:6:1:31:31",
+		"jp_name": "？？？",
+		"tr_name": "",
+		"jp_text": "グオオオオーッ！",
+		"tr_text": "그오오오오!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "32",
+		"parameter_index": 32,
+		"__key": "event:6:1:32:32",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 5000SD",
+		"jp_text": "わ、エネミーっすか！？",
+		"tr_text": "으앗, 에너미인가요!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "33",
+		"parameter_index": 33,
+		"__key": "event:6:1:33:33",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "残敵がいたのね？<%br>みんな、散開して！",
+		"tr_text": "아직 적이 남아 있었구나?<%br>모두, 산개해!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:7:1:0:0",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "周囲に敵影なし……<%br>今度こそ、排除完了だ。",
+		"tr_text": "주변에 적은 보이지 않는다……<%br>이번에야말로 제거 완료다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:7:1:1:1",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "ずいぶん時間がかかったものだ。<%br>思わず仮眠を取ってしまったぞ。",
+		"tr_text": "시간이 꽤 오래 걸렸군.<%br>나도 모르게 잠깐 눈을 붙이고 말았다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:7:1:2:2",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "ハッ、申し訳ありません。",
+		"tr_text": "예, 죄송합니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:7:1:3:3",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "もはや説明は不要だな。<%br>お前たちの警戒レベル……素人以下だ。",
+		"tr_text": "이제 설명할 필요도 없겠군.<%br>너희의 경계 수준은…… 초보자 이하다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:7:1:4:4",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "その結果、隠れていた敵を見逃し<%br>私に背後も取られたというわけだ。",
+		"tr_text": "그 결과 숨어 있던 적을 발견하지 못하고<%br>내게 뒤까지 잡혔다는 말이다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:7:1:5:5",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "その油断が、戦場では命取りになる……<%br>そう教えたはずだが？",
+		"tr_text": "그 방심이 전장에서는 목숨을 앗아간다……<%br>그렇게 가르쳤을 텐데?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:7:1:6:6",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "（エネミーは確実に掃討していたはず……<%br>　ということは、仕組まれたな……これは）",
+		"tr_text": "（에너미는 확실히 소탕했을 텐데……<%br>　그렇다면 이건 누군가 꾸민 일이군……）",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:7:1:7:7",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "（だが……それをも事前に見抜けねば<%br>　合格点はもらえないということ……か）",
+		"tr_text": "（하지만…… 그것까지 미리 간파하지 못하면<%br>　합격점을 받을 수 없다는 뜻……인가）",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:7:1:8:8",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "確かに、どこかで油断しちゃってた……<%br>それは否定できないわね。",
+		"tr_text": "확실히 방심한 구석이 있었어……<%br>그건 부정할 수 없겠네.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:7:1:9:9",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "先の任務も目標撃破までに<%br>時間をかけすぎているな。",
+		"tr_text": "앞선 임무에서도 목표를 격파하기까지<%br>시간을 너무 많이 들였군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:7:1:10:10",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "お前たちの本来の能力であれば<%br>もっと時間が短縮できたはずだ。",
+		"tr_text": "너희의 본래 능력이라면<%br>시간을 더 줄일 수 있었을 것이다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:7:1:11:11",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "８割の力で挑むことと、手抜きは違う。<%br>後者には、どこかに隙が生まれるのだ。",
+		"tr_text": "8할의 힘으로 임하는 것과 대충 하는 것은 다르다.<%br>후자는 어딘가에 빈틈이 생기기 마련이다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:7:1:12:12",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "むむむ……",
+		"tr_text": "으으음……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:7:1:13:13",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "それから、そこのルーキー。<%br>隠しているようだが、負傷しているな。",
+		"tr_text": "그리고 거기 신참.<%br>숨기고 있는 모양이다만, 부상을 입었군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:7:1:14:14",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "は、はい！<%br>いえ！　しかし、かすり傷であります！",
+		"tr_text": "네, 넵!<%br>아닙니다! 하지만 찰과상일 뿐입니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:7:1:15:15",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "私が致命傷にならんよう加減しておいたのだ。<%br>それにも気付かんか？",
+		"tr_text": "치명상을 입히지 않도록 내가 힘을 조절해 둔 것이다.<%br>그것도 알아차리지 못했나?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:7:1:16:16",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "チームの仲間に負傷を隠してどうする気だ？<%br>そのせいで、指揮を執る者が判断を誤るのだぞ？",
+		"tr_text": "팀 동료들에게 부상을 숨겨서 어쩌려는 거냐?<%br>그 탓에 지휘를 맡은 사람이 판단을 그르치게 되지 않느냐?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:7:1:17:17",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "警戒心の緩み、つまらぬ自己保身、不要な遠慮。<%br>ひとつひとつは小さなミスかもしれんが……",
+		"tr_text": "느슨해진 경계심, 쓸데없는 자기 보신, 불필요하게 눈치를 보는 태도.<%br>하나하나는 작은 실수일지 모르지만……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:7:1:18:18",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "それが積み重なれば、戦線は簡単に崩壊する！<%br>お前は今、仲間を殺したも同然の過ちを犯した！",
+		"tr_text": "그런 실수가 쌓이면 전선은 쉽게 무너진다!<%br>너는 지금 동료를 죽인 것이나 다름없는 잘못을 저질렀다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:7:1:19:19",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "じ、自分が……仲間を……<%br>そ、そんな……",
+		"tr_text": "제, 제가…… 동료를……<%br>그, 그런……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:7:1:20:20",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "９０００Ｍ殿、もうその辺で……<%br>８０００Ｃも十分肝が冷えたかと。",
+		"tr_text": "9000M 님, 이제 그쯤에서……<%br>8000C도 충분히 겁을 먹었을 듯합니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:7:1:21:21",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "……甘い！<%br>現場を預かる貴様がそんなことでどうするか！",
+		"tr_text": "……무르다!<%br>현장을 책임지는 네가 그래서야 되겠느냐!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:7:1:22:22",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "……もう分かっていると思うが、今回の任務は<%br>お前たちの力量を確認するために用意した。",
+		"tr_text": "……이제 알고 있겠지만, 이번 임무는<%br>너희의 실력을 확인하기 위해 준비했다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:7:1:23:23",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "が……これでは合格点は与えられんな。<%br>まったく、失望させられたよ。",
+		"tr_text": "하지만…… 이래서는 합격점을 줄 수 없군.<%br>정말이지, 실망했다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "25",
+		"parameter_index": 25,
+		"__key": "event:7:1:25:25",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "たるんでいる、か……",
+		"tr_text": "해이해졌다는 건가……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "26",
+		"parameter_index": 26,
+		"__key": "event:7:1:26:26",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 5000SD",
+		"jp_text": "ま、まぁそう言われたら<%br>そうかもしれねーっすね……",
+		"tr_text": "뭐, 뭐 그렇게 말씀하시면<%br>그럴지도 모르겠네요……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "27",
+		"parameter_index": 27,
+		"__key": "event:7:1:27:27",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "せ、先輩方がこんなに落ち込むなんて……",
+		"tr_text": "서, 선배님들이 이렇게 풀이 죽으시다니……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "28",
+		"parameter_index": 28,
+		"__key": "event:7:1:28:28",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "けど、ここまで言われて<%br>黙ってられるわけないわよね？",
+		"tr_text": "하지만 이런 말까지 듣고서<%br>가만히 있을 수는 없잖아?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "29",
+		"parameter_index": 29,
+		"__key": "event:7:1:29:29",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "当然だぜ、俺たち全員同じ気持ちだ！",
+		"tr_text": "당연하지, 우리 모두 같은 마음이야!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "30",
+		"parameter_index": 30,
+		"__key": "event:7:1:30:30",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "おお、先輩方！<%br>そうです、これで終われませんよね！",
+		"tr_text": "오오, 선배님들!<%br>맞습니다, 이대로 끝낼 수는 없지 않습니까!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:8:1:0:0",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "なんだ、お前たち。何か気の利いた<%br>言い訳でも考えてきたのか？",
+		"tr_text": "뭐냐, 너희들. 뭔가 그럴듯한<%br>변명이라도 생각해 왔나?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:8:1:1:1",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "いえ、そうではありません。<%br>ですが……",
+		"tr_text": "아니요, 그런 게 아닙니다.<%br>하지만……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:8:1:2:2",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "上官殿！　俺たちをもう一度<%br>鍛え直してくださいよ！",
+		"tr_text": "상관님! 저희를 다시 한번<%br>단련해 주세요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:8:1:3:3",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "……いや。トレーニングはあくまで<%br>実戦のための準備に過ぎない。",
+		"tr_text": "……아니. 훈련은 어디까지나<%br>실전을 위한 준비에 불과하다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:8:1:4:4",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "９０００Ｍ殿、俺たちに任務を！<%br>それも最高に極上で刺激的なヤツを！",
+		"tr_text": "9000M 님, 저희에게 임무를 주십시오!<%br>그것도 최고로 멋지고 짜릿한 임무를!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:8:1:5:5",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "そうね！　私たちがやれるってことを<%br>証明するチャンスをちょうだい！",
+		"tr_text": "맞아! 우리가 해낼 수 있다는 걸<%br>증명할 기회를 줘!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:8:1:6:6",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "ほう……まぁ、私としても手塩に掛けた<%br>お前たちがあの程度となれば、沽券に関わる。",
+		"tr_text": "호오…… 뭐, 내가 정성껏 키운<%br>너희가 그 정도라면 내 체면도 서지 않지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:8:1:7:7",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "ならば、ひとつ任務を達成してもらおうか。<%br>お望みどおり、ＳＳ難度のやつをな。",
+		"tr_text": "그렇다면 임무 하나를 완수해 주겠나.<%br>바라던 대로 SS 난도의 임무를 말이다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:8:1:8:8",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "オーケー！<%br>どんな任務でもクリアしてみせるさ！",
+		"tr_text": "좋아!<%br>어떤 임무든 완수해 보이겠어!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:8:1:9:9",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "近々ダーカーバスターズとかいう<%br>連中を試すのに使おうかとおもっていたが……",
+		"tr_text": "조만간 다커 버스터즈라는<%br>녀석들을 시험하는 데 써 볼까 했는데……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:8:1:10:10",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 5000SD",
+		"jp_text": "待った！<%br>何かが急速接近してくるっす！",
+		"tr_text": "잠깐!<%br>뭔가가 빠르게 접근하고 있어요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:8:1:11:11",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "……敵襲か！？<%br>全員、散開！",
+		"tr_text": "……적의 습격인가!?<%br>전원, 산개!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:8:1:12:12",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "え？　え？　え！？<%br>戦闘でありますか？",
+		"tr_text": "네? 네? 네!?<%br>전투입니까?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:8:1:13:13",
+		"jp_name": "？？？",
+		"tr_name": "",
+		"jp_text": "グオオオオ！",
+		"tr_text": "그오오오오!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:8:1:14:14",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "ばかな、原生種だと！？<%br>どこから湧き出てきた？",
+		"tr_text": "말도 안 돼, 원생종이라고!?<%br>어디서 튀어나온 거지?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:8:1:15:15",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "よう、上官殿！<%br>これもあんたの仕込みのひとつかい？",
+		"tr_text": "저기, 상관님!<%br>이것도 미리 준비해 두신 건가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:8:1:16:16",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "……いいや。<%br>まったく預かり知らんな。",
+		"tr_text": "……아니.<%br>전혀 모르는 일이다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:8:1:17:17",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "ちょっとぉ、９０００Ｍでも知らないの？<%br>こいつら、なんなのよ！？",
+		"tr_text": "잠깐, 9000M도 모르는 거야?<%br>이 녀석들, 대체 뭐야!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:8:1:18:18",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "分からん……だが、確実なことは<%br>俺たちは襲撃を受けているということだ！",
+		"tr_text": "모르겠다…… 하지만 확실한 건<%br>우리가 습격당하고 있다는 거다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:8:1:19:19",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "ということは、敵ということですね？<%br>お、応戦するでありますー！",
+		"tr_text": "그렇다면 적이라는 거군요?<%br>으, 응전하겠습니다아!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:9:1:0:0",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "はぁ、はぁ……<%br>今ので最後か？",
+		"tr_text": "하아, 하아……<%br>방금 그 녀석이 마지막인가?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:9:1:1:1",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "……はっ。<%br>掃討完了。",
+		"tr_text": "……예.<%br>소탕 완료.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:9:1:2:2",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "冗談じゃないわよ。どこから<%br>あんなに大量に沸いてきたってのよ？",
+		"tr_text": "기가 막히네. 어디서<%br>그렇게 많이 튀어나온 거야?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:9:1:3:3",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "分からん……ともかく<%br>８０００Ｃ、状況を確認せよ。",
+		"tr_text": "모르겠다…… 아무튼<%br>8000C, 상황을 확인하라.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:9:1:4:4",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "りょ、了解であります！",
+		"tr_text": "아, 알겠습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:9:1:5:5",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "隊長も無事か？<%br>すまねぇな、巻き込んじまって。",
+		"tr_text": "대장도 무사한가?<%br>휘말리게 해서 미안하군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:9:1:6:6",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "隊長も無事か？<%br>すまねぇな、巻き込んじまって。",
+		"tr_text": "대장도 무사한가?<%br>휘말리게 해서 미안하군.",
+		"jp_buttons": [
+			"９０００Mの姿が見えない。",
+			"ひとり足らない。"
+		],
+		"tr_buttons": [
+			"9000M의 모습이 보이지 않아.",
+			"한 명이 없어."
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:9:1:7:7",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 5000SD",
+		"jp_text": "リーダーってば、冗談きついっすよー。<%br>……って、まじっすか！？",
+		"tr_text": "리더도 참, 농담도 심하시네요.<%br>……어, 진짜예요!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:9:1:8:8",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "いや、チームは全員……<%br>はっ、まさか？",
+		"tr_text": "아니, 팀원들은 모두……<%br>앗, 설마?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:9:1:9:9",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "３０００Ｒ殿！<%br>９０００Ｍ殿の姿が見えないであります！",
+		"tr_text": "3000R 님!<%br>9000M 님의 모습이 보이지 않습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:9:1:10:10",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "なんだと？　想定外とは言え、あの程度の<%br>戦闘で負傷するとは思えんが……",
+		"tr_text": "뭐라고? 예상 밖이었다고는 해도, 그 정도<%br>전투로 부상을 입으셨을 것 같지는 않은데……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:9:1:11:11",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "戦闘中に行方不明になっちゃうような<%br>状況でもないわよね……",
+		"tr_text": "전투 중에 행방불명될 만한<%br>상황도 아니었잖아……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:9:1:12:12",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "みなさん！<%br>ご無事ですか？",
+		"tr_text": "여러분!<%br>무사하신가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:9:1:13:13",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "セラフィ殿！<%br>どうしたでありますか？",
+		"tr_text": "세라피 님!<%br>무슨 일입니까?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:9:1:14:14",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "そ、それが……先ほどアークス上層部から<%br>連絡がありまして……",
+		"tr_text": "그, 그게…… 조금 전 아크스 상층부에서<%br>연락이 왔는데요……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:9:1:15:15",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "そちらにいる９０００Mさんを<%br>一時拘束すると……",
+		"tr_text": "그쪽에 계신 9000M 씨를<%br>일시적으로 구속한다고……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:9:1:16:16",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "ど、どういうことだ？<%br>詳しく説明してくれ！",
+		"tr_text": "무, 무슨 말이지?<%br>자세히 설명해 줘!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:9:1:17:17",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "私にもなにがなんだか……９０００Mさんはもう<%br>アークスシップに戻っているようなんですが。",
+		"tr_text": "저도 무슨 일인지 모르겠어요…… 9000M 씨는 이미<%br>아크스 쉽으로 돌아오신 것 같은데요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:9:1:18:18",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "……なるほど、読めたぞ。<%br>おそらく、探ったところで無駄だろう。",
+		"tr_text": "……그렇군, 무슨 일인지 알겠다.<%br>아마 알아봐야 소용없을 거다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:9:1:19:19",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 5000SD",
+		"jp_text": "ど、どういうことっすか？",
+		"tr_text": "무, 무슨 말씀이세요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:9:1:20:20",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "９０００Ｍ殿よりも更に悪辣な連中が<%br>裏で動いた可能性が高い……ということだ。",
+		"tr_text": "9000M 님보다도 더 악랄한 자들이<%br>뒤에서 움직였을 가능성이 높다는…… 뜻이다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:9:1:21:21",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "あ、悪辣って……どこのどいつよ？",
+		"tr_text": "아, 악랄하다니…… 대체 어떤 놈들이야?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:9:1:22:22",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "９０００Ｍ殿が俺たちを試験することを事前に<%br>知っており、その裏をかくことができる者……",
+		"tr_text": "9000M 님이 우리를 시험한다는 걸 미리<%br>알고 있으며, 그분의 허를 찌를 수 있는 자들……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:9:1:23:23",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "それって……軍……じゃねぇ、アークスの<%br>上層部ってことじゃないのか？",
+		"tr_text": "그건…… 군…… 아니, 아크스의<%br>상층부라는 뜻 아닌가?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:9:1:24:24",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "９０００Ｍ殿は厳しいお方だ。だが、それは<%br>部下を大切にしていることの裏返しでもある。",
+		"tr_text": "9000M 님은 엄격한 분이다. 하지만 그건<%br>부하들을 아끼는 마음의 다른 표현이기도 하다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "25",
+		"parameter_index": 25,
+		"__key": "event:9:1:25:25",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "その証拠に、上からの理不尽な命令に<%br>何度も噛みついてくれているからな。",
+		"tr_text": "그 증거로, 위에서 내려오는 부당한 명령에<%br>몇 번이고 맞서 주셨으니까.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "26",
+		"parameter_index": 26,
+		"__key": "event:9:1:26:26",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "厳しいが、それは全て部下のためだ。<%br>そして、俺たちもそれを理解している。",
+		"tr_text": "엄격하지만, 그건 모두 부하들을 위해서다.<%br>그리고 우리도 그걸 이해하고 있다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "27",
+		"parameter_index": 27,
+		"__key": "event:9:1:27:27",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "ま、愛されてるのよねぇ。<%br>結局のところ。",
+		"tr_text": "뭐, 사랑받고 있다는 거지.<%br>결국은 말이야.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "28",
+		"parameter_index": 28,
+		"__key": "event:9:1:28:28",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "現場の兵士に慕われ、上層部には反抗的……<%br>快く思わんヤツも多かろうな。",
+		"tr_text": "일선 병사들에게 존경받고, 상층부에는 반항적이라……<%br>못마땅해하는 자들도 많겠군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "29",
+		"parameter_index": 29,
+		"__key": "event:9:1:29:29",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "では、９０００Ｍ殿を拉致したのは……<%br>そういう連中ということでありますか！？",
+		"tr_text": "그렇다면 ９０００Ｍ 님을 납치한 건……<%br>그런 자들이라는 말입니까!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "30",
+		"parameter_index": 30,
+		"__key": "event:9:1:30:30",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "仮にも味方なんすけどねぇ……<%br>そこまでしますかね？",
+		"tr_text": "명색이 아군인데 말이죠……<%br>설마 그렇게까지 하겠어요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "31",
+		"parameter_index": 31,
+		"__key": "event:9:1:31:31",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 ３０００Ｒ",
+		"jp_text": "それこそ小さなミスを声高に責め立て<%br>発言力を削ぐための茶番ということはあり得る。",
+		"tr_text": "그야말로 사소한 실수를 요란하게 문제 삼아<%br>발언력을 약화시키려는 촌극일 수도 있다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "32",
+		"parameter_index": 32,
+		"__key": "event:9:1:32:32",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "その茶番のダシに、私たちまで<%br>利用されちゃったってわけ？　は、腹立つー！",
+		"tr_text": "그 촌극에 우리까지<%br>이용당했다는 거야? 여, 열받아!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "33",
+		"parameter_index": 33,
+		"__key": "event:9:1:33:33",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "そんなの……<%br>納得できないであります！",
+		"tr_text": "그런 건……<%br>납득할 수 없습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "34",
+		"parameter_index": 34,
+		"__key": "event:9:1:34:34",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "部下のことを考えてくれている上官の<%br>どこに問題があるのですかッ！",
+		"tr_text": "부하를 생각해 주시는 상관에게<%br>무슨 문제가 있다는 겁니까!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "35",
+		"parameter_index": 35,
+		"__key": "event:9:1:35:35",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 ３０００Ｒ",
+		"jp_text": "ふっ……<%br>よく言ったぞ、８０００Ｃ。",
+		"tr_text": "훗……<%br>잘 말했다, 8000C.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "36",
+		"parameter_index": 36,
+		"__key": "event:9:1:36:36",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 ４０００Ｆ",
+		"jp_text": "我々も同じ思いだ。<%br>となれば、やることはひとつ。",
+		"tr_text": "우리도 같은 마음이다.<%br>그렇다면 할 일은 하나뿐이다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "37",
+		"parameter_index": 37,
+		"__key": "event:9:1:37:37",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "黒幕をとっ捕まえて、９０００Ｍを取り返す！<%br>……盛り上がってきたわねぇ！",
+		"tr_text": "흑막을 붙잡아서 ９０００Ｍ을 되찾는 거야!<%br>……점점 신나는데!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "38",
+		"parameter_index": 38,
+		"__key": "event:9:1:38:38",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 ２０００H",
+		"jp_text": "隊長はどうする？　……おっと<%br>その顔は、聞くまでもないって感じか！",
+		"tr_text": "대장은 어떻게 할 거야? ……어이쿠,<%br>그 표정을 보니 물어볼 필요도 없겠군!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "39",
+		"parameter_index": 39,
+		"__key": "event:9:1:39:39",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 ３０００Ｒ",
+		"jp_text": "俺たちが、９０００Ｍ殿から任務を受けて<%br>力を示し直さなくてはならん。",
+		"tr_text": "우리가 ９０００Ｍ 님에게 임무를 받아<%br>실력을 다시 보여 줘야 한다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "40",
+		"parameter_index": 40,
+		"__key": "event:9:1:40:40",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 ３０００Ｒ",
+		"jp_text": "こいつは、その前のウォーミングアップだ！<%br>ヤスミノコフチーム、出撃！",
+		"tr_text": "이건 그 전에 하는 몸풀기다!<%br>야스미노코프 팀, 출격!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:10:1:0:0",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "……で、実際のところどうするんすか？<%br>司令部に殴り込みでもします？",
+		"tr_text": "……그래서 실제로는 어떻게 하죠?<%br>사령부에 쳐들어가기라도 할까요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:10:1:1:1",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 ２０００H",
+		"jp_text": "いやいや、さすがにそれは無謀ってもんだろ。<%br>だいたいそんなことしちゃ、反逆罪だ。",
+		"tr_text": "아니, 아니, 그건 아무리 그래도 무모하지.<%br>애초에 그런 짓을 하면 반역죄야.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:10:1:2:2",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 ３０００Ｒ",
+		"jp_text": "「向こう」はそれを期待しているかも<%br>しれないがな……",
+		"tr_text": "「저쪽」은 그걸 기대하고 있을지도<%br>모르지만 말이다……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:10:1:3:3",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 ４０００Ｆ",
+		"jp_text": "９０００Ｍ殿を処断したがっている連中に<%br>格好の口実をくれてやることはない。",
+		"tr_text": "９０００Ｍ 님을 처벌하고 싶어 하는 자들에게<%br>딱 좋은 구실을 줄 필요는 없다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:10:1:4:4",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "けど、こうしてキャンプシップに<%br>引きこもったままってのも……",
+		"tr_text": "하지만 이렇게 캠프십에<%br>계속 틀어박혀 있는 것도……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:10:1:5:5",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 ２０００H",
+		"jp_text": "まずは情報収集。<%br>７０００Ｖの姿がないのはそういうことだろう？",
+		"tr_text": "우선은 정보 수집이지.<%br>７０００Ｖ가 안 보이는 건 그래서겠지?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:10:1:6:6",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "なるほど……うう、今はなにもできない自分が<%br>歯がゆいであります。",
+		"tr_text": "그렇군요…… 으으, 지금은 아무것도 못 하는 제가<%br>답답합니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:10:1:7:7",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 ３０００Ｒ",
+		"jp_text": "その気持ちは、いざという時のために<%br>しっかり溜め込んでおけ……ん？　来たか。",
+		"tr_text": "그 마음은 정작 필요할 때를 위해<%br>꾹 눌러 담아 둬라…… 음? 왔군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:10:1:8:8",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "ハァイ、戻ったわよ。",
+		"tr_text": "안녕, 돌아왔어.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:10:1:9:9",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 ４０００Ｆ",
+		"jp_text": "早かったな。<%br>９０００Ｍ殿のこと、なにかわかったか？",
+		"tr_text": "빨리 왔군.<%br>９０００Ｍ 님에 대해 뭔가 알아냈나?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:10:1:10:10",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "あまり、ゆっくりしてられないわねぇ……<%br>軍法会議にかけられているようなの。",
+		"tr_text": "그리 느긋하게 있을 수는 없겠어……<%br>군법회의에 회부된 모양이야.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:10:1:11:11",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 ３０００Ｒ",
+		"jp_text": "やはりな……大方、俺たちの試験を独断で<%br>行ったことを大げさにあげつらったのだろう。",
+		"tr_text": "역시…… 아마 우리를 시험하는 일을 독단으로<%br>진행한 걸 과장해서 문제 삼았겠지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:10:1:12:12",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 ２０００H",
+		"jp_text": "けど、９０００Ｍが俺たちに用意していた<%br>任務のほうはどうなってるんだ？",
+		"tr_text": "그런데 ９０００Ｍ이 우리를 위해 준비해 둔<%br>임무는 어떻게 되고 있지?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:10:1:13:13",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "そっちは今、別のチームを作って<%br>当たらせてるみたいね。",
+		"tr_text": "그 임무는 지금 다른 팀을 꾸려서<%br>맡기고 있는 모양이야.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:10:1:14:14",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 ２０００H",
+		"jp_text": "ＳＳ難度の任務に急造チームをぶつける、か。<%br>９０００Ｍが聞いたら、なんと仰るか……",
+		"tr_text": "ＳＳ 난도 임무에 급조한 팀을 투입하다니.<%br>９０００Ｍ이 들으시면 뭐라고 하실지……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:10:1:15:15",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "それにしても、すごいです７０００Ｖ先輩！<%br>そんな機密情報を盗んでくるなんて。",
+		"tr_text": "그나저나, 대단하십니다, ７０００Ｖ 선배님!<%br>그런 기밀 정보를 훔쳐 오시다니.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:10:1:16:16",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "ふふ、蛇の道は蛇って言うでしょう？<%br>お姉さん、これでもとっても顔が広いの♪",
+		"tr_text": "후후, 뱀은 뱀의 길을 안다고 하잖아?<%br>이 언니가 이래 봬도 발이 아주 넓거든♪",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:10:1:17:17",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 ３０００Ｒ",
+		"jp_text": "さて、９０００Ｍ殿の状況次第では<%br>俺たちもますます動きにくくなる。",
+		"tr_text": "자, ９０００Ｍ 님의 상황에 따라서는<%br>우리도 더욱 움직이기 어려워진다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:10:1:18:18",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 ４０００Ｆ",
+		"jp_text": "動くなら今しかありませんな。",
+		"tr_text": "움직이려면 지금밖에 없겠군요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:10:1:19:19",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "え、な、何をするでありますか？<%br>この状況でどんな作戦が……！",
+		"tr_text": "네, 무, 무엇을 하시려는 겁니까?<%br>이 상황에서 무슨 작전이……!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:10:1:20:20",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 ４０００Ｆ",
+		"jp_text": "この状況で取れる作戦などひとつだけ。<%br>実にシンプルな答えだな。",
+		"tr_text": "이 상황에서 취할 수 있는 작전은 하나뿐.<%br>답은 아주 간단하지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:10:1:21:21",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "さ、さっぱりわかりません！<%br>解説を希望します！",
+		"tr_text": "전, 전혀 모르겠습니다!<%br>설명을 요청합니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:10:1:22:22",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 ２０００H",
+		"jp_text": "９０００Ｍへの当てつけで組んだチームが<%br>ＳＳ難度の任務を担当中……これはわかるな？",
+		"tr_text": "９０００Ｍ을 약 올리려고 꾸린 팀이<%br>ＳＳ 난도 임무를 맡고 있다…… 여기까지는 알겠지?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:10:1:23:23",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 ７０００Ｖ",
+		"jp_text": "あの９０００Ｍが、私たちに用意した任務よ？<%br>一筋縄でいくはずがないわ。",
+		"tr_text": "그 ９０００Ｍ이 우리를 위해 준비한 임무잖아?<%br>쉽게 해결될 리가 없어.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:10:1:24:24",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "では、任務は失敗すると？<%br>失敗せずとも、苦戦は免れない……",
+		"tr_text": "그럼 임무에 실패한다는 말씀입니까?<%br>실패하지 않더라도 고전은 피할 수 없겠군요……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "25",
+		"parameter_index": 25,
+		"__key": "event:10:1:25:25",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "じゃ、そうなった時にその尻ぬぐいは<%br>誰がするのかって話になるでしょー。",
+		"tr_text": "그럼 그렇게 됐을 때 그 뒤처리는<%br>누가 하느냐는 얘기가 되잖아.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "26",
+		"parameter_index": 26,
+		"__key": "event:10:1:26:26",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 ３０００Ｒ",
+		"jp_text": "そこで俺たちが、完璧にその任務を遂行する。<%br>その上で……穏便に「交渉」するのさ。",
+		"tr_text": "그때 우리가 그 임무를 완벽하게 수행한다.<%br>그런 다음…… 원만하게 「협상」하는 거지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "27",
+		"parameter_index": 27,
+		"__key": "event:10:1:27:27",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 ２０００H",
+		"jp_text": "おとなしく９０００Ｍを解放すれば、あんたらの<%br>不始末も世間に黙っておいてやるよ……ってね。",
+		"tr_text": "얌전히 ９０００Ｍ을 풀어 주면 너희의<%br>실책도 세상에 알리진 않겠다……는 거지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "28",
+		"parameter_index": 28,
+		"__key": "event:10:1:28:28",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "お、おお！　おおお～！！<%br>なるほど！　さすが先輩方であります！",
+		"tr_text": "오, 오오! 오오오～!!<%br>그렇군요! 역시 선배님들이십니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "29",
+		"parameter_index": 29,
+		"__key": "event:10:1:29:29",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "問題はその、「任務を完璧に遂行する」<%br>っていう前提が、えらい厳しいことっすけどね！",
+		"tr_text": "문제는 그 「임무를 완벽하게 수행한다」<%br>라는 전제를 충족하기가 엄청 어렵다는 거지만요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "30",
+		"parameter_index": 30,
+		"__key": "event:10:1:30:30",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 ３０００Ｒ",
+		"jp_text": "どのみち、やり遂げられなければ俺たち全員<%br>「地獄の基礎キャンプ」に逆戻りだぞ？",
+		"tr_text": "어차피 해내지 못하면 우리 모두<%br>「지옥의 기초 캠프」로 되돌아가야 하잖나?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "31",
+		"parameter_index": 31,
+		"__key": "event:10:1:31:31",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 ５０００ＳＤ",
+		"jp_text": "……あ、ダメ。それだけは、ダメ！<%br>ガチのマジの本気で！",
+		"tr_text": "……아, 안 돼. 그것만은 안 돼!<%br>진짜로, 정말로, 진심으로!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "32",
+		"parameter_index": 32,
+		"__key": "event:10:1:32:32",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 ４０００Ｆ",
+		"jp_text": "だったら、今すぐ任務地に向かって<%br>手柄を横取りするしかないな。",
+		"tr_text": "그렇다면 지금 당장 임무 현장으로 가서<%br>공적을 가로채는 수밖에 없겠군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 10,
+		"fileID": 1,
+		"eventNo": "33",
+		"parameter_index": 33,
+		"__key": "event:10:1:33:33",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 ２０００H",
+		"jp_text": "横取りか……オーケー！　行こう！<%br>面白くなってきたぜ！",
+		"tr_text": "가로채기라…… 좋아! 가자!<%br>재미있어지는데!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:11:1:0:0",
+		"jp_name": "上層部",
+		"tr_name": "상층부",
+		"jp_text": "さて、ヤスミノコフ９０００Ｍ。<%br>ここに呼ばれた理由は分かっているな？",
+		"tr_text": "자, 야스미노코프 ９０００Ｍ.<%br>여기에 불려 온 이유는 알고 있겠지?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:11:1:1:1",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "ふふ……日頃の成果を称え、老兵を<%br>いたわる会……というわけではなさそうだ。",
+		"tr_text": "후후…… 그동안의 성과를 치하하며 노병을<%br>위로하는 자리……는 아닌 모양이군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:11:1:2:2",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "ヤスミノコフチームの戦績は確かに優秀だ。<%br>だが、命令違反の多さも群を抜いている。",
+		"tr_text": "야스미노코프 팀의 전적은 확실히 우수하다.<%br>하지만 명령 위반 횟수도 압도적으로 많다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:11:1:3:3",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "加えて、なんでもかんでも爆破するために<%br>余計な出費もかさみやすい……",
+		"tr_text": "게다가 뭐든 죄다 폭파하는 탓에<%br>불필요한 지출도 늘어나기 쉽다……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:11:1:4:4",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "これらの責任は全て、上官である９０００Ｍの<%br>教育方法に問題があるのではないか？",
+		"tr_text": "이 모든 일의 책임은 상관인 ９０００Ｍ의<%br>잘못된 교육 방식에 있는 것 아닌가?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:11:1:5:5",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "よって、９０００Ｍの責任を問う……<%br>言いたいことは、そんなところか？",
+		"tr_text": "따라서 ９０００Ｍ에게 책임을 묻겠다……<%br>하고 싶은 말은 그런 건가?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:11:1:6:6",
+		"jp_name": "上層部",
+		"tr_name": "상층부",
+		"jp_text": "……まぁ、そんなところだ。加えて、上層部の<%br>許諾を得ない勝手な演習の数々……",
+		"tr_text": "……뭐, 그런 셈이다. 게다가 상층부의<%br>허가도 없이 멋대로 벌인 수많은 훈련……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:11:1:7:7",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "みなまで言うな。<%br>まったく、回りくどいやり方が好きな連中だ。",
+		"tr_text": "더 말할 필요 없다.<%br>정말이지, 일을 에둘러 처리하길 좋아하는 자들이군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:11:1:8:8",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "確かに、我が軍において<%br>あいつらは問題児の集まりかもしれん。",
+		"tr_text": "확실히 우리 군에서<%br>녀석들은 문제아들만 모인 집단일지도 모르지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:11:1:9:9",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "だが、その問題児たちをなんとかしてくれと<%br>最初に泣きついてきたのは、どなただったかな？",
+		"tr_text": "하지만 그 문제아들을 어떻게든 해 달라며<%br>처음에 매달려 오신 분은 누구셨더라?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:11:1:10:10",
+		"jp_name": "上層部",
+		"tr_name": "상층부",
+		"jp_text": "…………",
+		"tr_text": "",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:11:1:11:11",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "ひと癖もふた癖もある連中だが……<%br>部下をうまく扱うのが上官の仕事だ。",
+		"tr_text": "저마다 까다로운 구석이 있는 녀석들이지만……<%br>부하를 잘 다루는 게 상관의 일이다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:11:1:12:12",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "そして、私はあいつらをヤスミノコフという<%br>ひとつのチームとして鍛え上げた。",
+		"tr_text": "그리고 나는 녀석들을 야스미노코프라는<%br>하나의 팀으로 단련해 냈다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:11:1:13:13",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "その成果は、数々の戦果が証明している。<%br>こればかりは、否定できないはずだ。",
+		"tr_text": "그 성과는 수많은 전과가 증명하고 있다.<%br>이것만큼은 부정할 수 없을 테지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:11:1:14:14",
+		"jp_name": "上層部",
+		"tr_name": "상층부",
+		"jp_text": "…………",
+		"tr_text": "",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:11:1:15:15",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "部下を使いこなし、戦いを勝利に導く。<%br>上に立つ者の仕事とは、そういうことだ。",
+		"tr_text": "부하를 잘 다뤄 전투를 승리로 이끈다.<%br>윗자리에 선 자의 일이란 그런 것이다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:11:1:16:16",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "個々の能力のみを数値化し、数値だけで<%br>判断して戦場に送り込む……",
+		"tr_text": "개개인의 능력만 수치화하고, 그 수치만으로<%br>판단해 전장에 투입한다……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:11:1:17:17",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "そんなやり方では、部下の命を無駄に<%br>するだけなのだ。なぜ、それが分からん？",
+		"tr_text": "그런 방식으로는 부하의 목숨을 헛되이<%br>희생시킬 뿐이다. 왜 그걸 모르는가?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:11:1:18:18",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "ひとりひとりの兵士たちを生で見て<%br>理解し、育てあげる……",
+		"tr_text": "병사 한 사람 한 사람을 직접 보고<%br>이해하며 길러 낸다……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:11:1:19:19",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "それが、指揮官の在り方ではないのか。<%br>貴様らは、どうなのだ！",
+		"tr_text": "그것이 지휘관이 갖춰야 할 자세 아닌가.<%br>너희는 어떠냐!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:11:1:20:20",
+		"jp_name": "上層部",
+		"tr_name": "상층부",
+		"jp_text": "むう……！",
+		"tr_text": "으음……!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:11:1:21:21",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "私は、あいつらをよく理解しているぞ。<%br>今頃、あいつらがどう動いているのかもな。",
+		"tr_text": "나는 녀석들을 잘 이해하고 있다.<%br>지금쯤 녀석들이 어떻게 움직이고 있는지도 말이지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:11:1:22:22",
+		"jp_name": "上層部",
+		"tr_name": "상층부",
+		"jp_text": "……なに？　ヤスミノコフチーム全員の<%br>所在を見失っただと！？　なにをしている！",
+		"tr_text": "……뭐라고? 야스미노코프 팀 전원의<%br>행방을 알 수 없게 됐다고!? 뭘 하고 있는 거냐!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 11,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:11:1:23:23",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 ９０００Ｍ",
+		"jp_text": "ふふ、もう追っても無駄だぞ。<%br>向かったのだよ、例のミッションにな。",
+		"tr_text": "후후, 이제 쫓아가 봐야 소용없다.<%br>그 임무를 수행하러 떠났으니 말이지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:12:1:0:0",
+		"jp_name": "",
+		"tr_name": "",
+		"jp_text": "ダダダダ！",
+		"tr_text": "두두두두!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:12:1:1:1",
+		"jp_name": "ニレンカムイ",
+		"tr_name": "니렌 카무이",
+		"jp_text": "敵、圧倒的多数……<%br>被害拡大……戦況、不利……",
+		"tr_text": "적, 압도적 다수……<%br>피해 확대…… 전황, 불리……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:12:1:2:2",
+		"jp_name": "クオツリトス",
+		"tr_name": "쿼츠 리토스",
+		"jp_text": "ちょっとワケも分からず呼び出されて<%br>何よ、これ！　そこのアンタ、手を貸して！",
+		"tr_text": "아니, 영문도 모른 채 불려 왔더니<%br>이게 뭐야! 거기 너, 좀 도와줘!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:12:1:3:3",
+		"jp_name": "ファニーブーケライフル",
+		"tr_name": "퍼니 부케 라이플",
+		"jp_text": "えぇー、私、医療係で呼ばれたのに！？",
+		"tr_text": "네에? 저는 의료 담당으로 불려 왔는데요!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:12:1:4:4",
+		"jp_name": "ブルーノ",
+		"tr_name": "브루노",
+		"jp_text": "こりゃまずいねぇ……<%br>大混乱だ。",
+		"tr_text": "이거 큰일인데……<%br>대혼란이야.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:12:1:5:5",
+		"jp_name": "アネット",
+		"tr_name": "아네트",
+		"jp_text": "無理もないわ。<%br>エネミーの数が多すぎる……",
+		"tr_text": "그럴 만도 해.<%br>에너미의 수가 너무 많아……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:12:1:6:6",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "わたし達も急に呼ばれて<%br>何がなんだかですし……",
+		"tr_text": "저희도 갑자기 불려 와서<%br>뭐가 뭔지 모르겠고요……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:12:1:7:7",
+		"jp_name": "アネット",
+		"tr_name": "아네트",
+		"jp_text": "こんなとき、リーダーがいれば……<%br>いえ、さすがのリーダーでも無理があるわ。",
+		"tr_text": "이럴 때 리더가 있다면……<%br>아니, 아무리 리더라도 버겁겠어.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:12:1:8:8",
+		"jp_name": "ブルーノ",
+		"tr_name": "브루노",
+		"jp_text": "もっと戦場慣れした……そうだ。<%br>アイツらなら、やってくれるんだろうな。",
+		"tr_text": "전장에 더 익숙한…… 그래.<%br>그 녀석들이라면 해내 주겠지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:12:1:9:9",
+		"jp_name": "モア",
+		"tr_name": "모어",
+		"jp_text": "ヤスミノコフだ！<%br>アイツらなら、きっとやれるはずだってば！",
+		"tr_text": "야스미노코프야!<%br>그 녀석들이라면 분명 해낼 수 있다니까!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:12:1:10:10",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "セラフィさん！　ヤスミノコフさん達を<%br>呼ぶことはできないんですか？",
+		"tr_text": "세라피 씨! 야스미노코프 씨 일행을<%br>부를 수는 없나요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:12:1:11:11",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "そ、それがその……ヤスミノコフチームは<%br>リーダーもろとも所在不明でして……",
+		"tr_text": "그, 그게…… 야스미노코프 팀은<%br>리더와 함께 행방이 묘연해서요……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:12:1:12:12",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "……え？　秘匿通信！？<%br>こ、このチャンネルは……！！",
+		"tr_text": "……네? 비밀 통신!?<%br>이, 이 채널은……!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:12:1:13:13",
+		"jp_name": "",
+		"tr_name": "",
+		"jp_text": "ドカーン！！",
+		"tr_text": "콰앙!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:12:1:14:14",
+		"jp_name": "モア",
+		"tr_name": "모어",
+		"jp_text": "な、なんだぁ！？　エネミーが吹っ飛んだぞ！<%br>すげー大爆発だ！",
+		"tr_text": "뭐, 뭐야!? 에너미가 날아갔어!<%br>엄청난 대폭발이야!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:12:1:15:15",
+		"jp_name": "ブルーノ",
+		"tr_name": "브루노",
+		"jp_text": "おいおい、ずいぶんかっこよく<%br>登場するじゃないの。",
+		"tr_text": "이야, 아주 멋지게<%br>등장하는걸.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:12:1:16:16",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "待たせたな！　俺たちが来たからには<%br>もうノープロブレムだ！",
+		"tr_text": "기다리게 했군! 우리가 온 이상<%br>이제 아무 문제 없다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:12:1:17:17",
+		"jp_name": "モア",
+		"tr_name": "모어",
+		"jp_text": "うおー、ヤスミノコフたちか！<%br>本当に来てくれたんだな！",
+		"tr_text": "우와, 야스미노코프 일행이구나!<%br>정말 와 줬구나!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:12:1:18:18",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000Ｒ",
+		"jp_text": "ここは戦場だ！<%br>戦場なら、俺たちに任せてもらおう！",
+		"tr_text": "여기는 전장이다!<%br>전장이라면 우리에게 맡겨라!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 12,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:12:1:19:19",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "リーダーも来てくれたんですね！<%br>これなら百人力です！！",
+		"tr_text": "리더도 와 주셨군요!<%br>이러면 백 명이 함께하는 것처럼 든든해요!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:13:1:0:0",
+		"jp_name": "",
+		"tr_name": "",
+		"jp_text": "ダダダダダ！",
+		"tr_text": "두두두두두!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:13:1:1:1",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "先輩方！　右からも増援です！",
+		"tr_text": "선배님들! 오른쪽에서도 적의 증원군이 옵니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:13:1:2:2",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000Ｖ",
+		"jp_text": "左にも注目！<%br>どっと押し寄せてくるわよ！",
+		"tr_text": "왼쪽도 주시해!<%br>한꺼번에 밀려오고 있어!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:13:1:3:3",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000Ｒ",
+		"jp_text": "敵戦力が予想より多いな。<%br>やはり俺たちだけでは切り崩せんか。",
+		"tr_text": "적 병력이 예상보다 많군.<%br>역시 우리만으로는 무너뜨릴 수 없나.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:13:1:4:4",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "ど、どうするでありますか？",
+		"tr_text": "어, 어떻게 해야 합니까?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:13:1:5:5",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "あるものはなんでも使って戦うのが<%br>戦場での鉄則だぜ。",
+		"tr_text": "있는 건 뭐든 써서 싸우는 게<%br>전장의 철칙이지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:13:1:6:6",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000Ｆ",
+		"jp_text": "そして、この戦場にいる戦士は<%br>俺たちだけではない。",
+		"tr_text": "그리고 이 전장에 있는 전사는<%br>우리뿐이 아니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:13:1:7:7",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000Ｒ",
+		"jp_text": "まだ戦える者は、前へ出ろ！<%br>力を合わせて、戦局を打破するぞ！",
+		"tr_text": "아직 싸울 수 있는 자는 앞으로 나와라!<%br>힘을 합쳐 전황을 타개하자!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:13:1:8:8",
+		"jp_name": "ニレンカムイ",
+		"tr_name": "니렌 카무이",
+		"jp_text": "いける……<%br>わたしは、まだ戦える。",
+		"tr_text": "할 수 있어……<%br>나는 아직 싸울 수 있어.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:13:1:9:9",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "パワーに自信がある者はついてこい！<%br>道を切り開く！",
+		"tr_text": "힘에 자신 있는 자는 따라와라!<%br>길을 뚫겠다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:13:1:10:10",
+		"jp_name": "エルデトロス",
+		"tr_name": "엘데트로스",
+		"jp_text": "血が滾ってきたな！<%br>我も力を貸そう！",
+		"tr_text": "피가 끓어오르는군!<%br>나도 힘을 보태겠다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:13:1:11:11",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "後方支援が得意なヤツは俺についてきな！<%br>正確無比な射撃で援護するぜ！",
+		"tr_text": "후방 지원에 능한 녀석들은 날 따라와!<%br>한 치의 오차도 없는 사격으로 엄호해 주지!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:13:1:12:12",
+		"jp_name": "シューティングドライブ",
+		"tr_name": "슈팅 드라이브",
+		"jp_text": "はっ。どのような目標も、この大砲で<%br>仕留めてご覧に入れます。",
+		"tr_text": "예. 어떤 표적이든 이 런처로<%br>처치해 보이겠습니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:13:1:13:13",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 5000SD",
+		"jp_text": "ケガ人はついてくるっす！　生き延びる道を<%br>見つけることにかけては、負けないっすよ！",
+		"tr_text": "부상자는 따라오세요! 살아남을 길을<%br>찾는 데는 누구에게도 안 진다고요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:13:1:14:14",
+		"jp_name": "ファニーブーケライフル",
+		"tr_name": "퍼니 부케 라이플",
+		"jp_text": "救護班はこちらですー。<%br>焦らず、一列に並んでください！",
+		"tr_text": "구호반은 이쪽이에요.<%br>서두르지 말고 한 줄로 서 주세요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:13:1:15:15",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "おおお……先輩方のおかげで<%br>バラバラだった部隊がひとつに！",
+		"tr_text": "오오오…… 선배님들 덕분에<%br>제각각이던 부대가 하나로!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:13:1:16:16",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "当然よ！　私たちは<%br>戦いのエキスパートなんだから！",
+		"tr_text": "당연하지! 우리는<%br>전투 전문가니까!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:13:1:17:17",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "当然よ！　私たちは<%br>戦いのエキスパートなんだから！",
+		"tr_text": "당연하지! 우리는<%br>전투 전문가니까!",
+		"jp_buttons": [
+			"この戦い、勝てるぞ！",
+			"ヤスミノコフに続け！"
+		],
+		"tr_buttons": [
+			"이 싸움, 이길 수 있어!",
+			"야스미노코프를 따라라!"
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:13:1:18:18",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "そうです、きっと勝てます！<%br>リーダーも一緒ですものね！",
+		"tr_text": "맞아요, 분명 이길 수 있어요!<%br>리더도 함께 계시니까요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:13:1:19:19",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "よーし、私たちについてきなさーい！",
+		"tr_text": "좋아, 우리를 따라와!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 13,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:13:1:20:20",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "目の前の敵を蹴散らし、道を切り開く！<%br>力の限り、撃ちまくれぇッ！",
+		"tr_text": "눈앞의 적을 쓸어버리고 길을 뚫는다!<%br>있는 힘껏 쏴 대라!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:14:1:0:0",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "はぁ、はぁ……<%br>エネミーはまだ残ってるの？",
+		"tr_text": "하아, 하아……<%br>에너미는 아직 남아 있어?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:14:1:1:1",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "味方の士気は落ちていない。<%br>だが消耗は大きく、弾薬も残り少ない。",
+		"tr_text": "아군의 사기는 떨어지지 않았다.<%br>하지만 전력 소모가 크고 탄약도 얼마 남지 않았다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:14:1:2:2",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "ここまで大量のエネミーを相手にするのは<%br>さすがの俺たちも初めてだからな……",
+		"tr_text": "이렇게 많은 에너미를 상대하는 건<%br>아무리 우리라도 처음이니까……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:14:1:3:3",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "指揮を執っていたヤスミノコフさんたちも<%br>疲労が隠せないようですね……",
+		"tr_text": "지휘를 맡고 있던 야스미노코프 씨들도<%br>피로를 감추지 못하시는 것 같네요……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:14:1:4:4",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "歴戦の彼らでさえカバーできないほど<%br>戦線が広がってしまったわけですね。",
+		"tr_text": "숱한 전투를 치른 그들조차 감당할 수 없을 만큼<%br>전선이 넓어져 버린 거군요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:14:1:5:5",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "こんなときこそ、９０００Ｍ殿……<%br>そう、あの上官殿がいれば！",
+		"tr_text": "이럴 때야말로 9000M 님……<%br>그래요, 그 상관님이 계신다면!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:14:1:6:6",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "呼んだか？",
+		"tr_text": "불렀나?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:14:1:7:7",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "ふわっ、９０００Ｍ殿ぉ！？",
+		"tr_text": "으앗, 9000M 님!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:14:1:8:8",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "なんだ、小さくて見えなかったとでも<%br>言うのではあるまいな。",
+		"tr_text": "뭐냐, 작아서 안 보였다는 말이라도<%br>하려는 건 아니겠지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:14:1:9:9",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "ここでご登場ですか？<%br>想定とはだいぶ状況が違いますが。",
+		"tr_text": "여기서 등장하시는 겁니까?<%br>예상했던 것과 상황이 꽤 다릅니다만.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:14:1:10:10",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000Ｍ",
+		"jp_text": "ふふ……急造チームの窮地を救って横取りした<%br>手柄を餌に、上と交渉する気だったか？",
+		"tr_text": "후후…… 급조된 팀을 위기에서 구해 공적을 가로챈 뒤<%br>그걸 미끼로 상층부와 협상할 생각이었나?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:14:1:11:11",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000Ｒ",
+		"jp_text": "お見通しですか……ですが、上は我々が<%br>想像した以上に弱腰だったようですな。",
+		"tr_text": "다 꿰뚫어 보셨군요…… 하지만 상층부는 우리가<%br>생각했던 것 이상으로 몸을 사렸던 모양입니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:14:1:12:12",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000Ｍ",
+		"jp_text": "お前たちが派手にやり過ぎて、戦線が際限なく<%br>広がっていくのを目の当たりにしてな……",
+		"tr_text": "너희가 너무 요란하게 일을 벌여 전선이 끝없이<%br>넓어지는 걸 상층부가 직접 보고는……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:14:1:13:13",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000Ｍ",
+		"jp_text": "これでは成功しようが失敗しようが<%br>隠蔽など不可能と悟ったようだ。",
+		"tr_text": "이래서는 성공하든 실패하든<%br>은폐는 불가능하다고 깨달은 모양이다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:14:1:14:14",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000Ｍ",
+		"jp_text": "そうなれば……あとは早かったぞ？　ヤツら<%br>自己保身のための判断だけは一級品だからな。",
+		"tr_text": "그렇게 되자…… 그다음은 빨랐지? 녀석들은<%br>제 몸 사리는 판단만큼은 일류니까.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:14:1:15:15",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000Ｖ",
+		"jp_text": "さぞ居丈高に、「事態を収拾すれば今回の罪は<%br>不問にする」……とか言ってきたんでしょうね。",
+		"tr_text": "분명 고압적인 태도로 「사태를 수습하면 이번 죄는<%br>묻지 않겠다」…… 같은 말을 해 왔겠군요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:14:1:16:16",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "と、ということは！",
+		"tr_text": "그, 그렇다는 건!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:14:1:17:17",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000Ｍ",
+		"jp_text": "ああ、これより、この戦場全ての兵士は<%br>私の指揮下に入る！",
+		"tr_text": "그래, 지금부터 이 전장의 모든 병사는<%br>내 지휘하에 들어간다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:14:1:18:18",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000Ｒ",
+		"jp_text": "イエス・マァム！<%br>なんなりと、ご命令を！",
+		"tr_text": "예스, 맴!<%br>무엇이든 명령을 내려 주십시오!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:14:1:19:19",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000Ｍ",
+		"jp_text": "よし。<%br>早速だが、データを寄越せ。",
+		"tr_text": "좋아.<%br>그럼 바로 데이터를 넘겨라.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:14:1:20:20",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 5000ＳＤ",
+		"jp_text": "これがこのあたりのマップっす。俺があちこち<%br>逃げ回りながら調べたものっすよ！",
+		"tr_text": "이게 이 근처 지도예요. 제가 이곳저곳<%br>도망 다니면서 조사한 거라고요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:14:1:21:21",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "これが敵戦力を分析したもの。<%br>こっちは味方の戦力データだぜ。",
+		"tr_text": "이건 적 전력을 분석한 자료야.<%br>이쪽은 아군의 전력 데이터고.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:14:1:22:22",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000Ｍ",
+		"jp_text": "ふむ、なるほどな……<%br>よし、大まかには把握できた。",
+		"tr_text": "흠, 그렇군……<%br>좋아, 대략 파악했다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:14:1:23:23",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000Ｍ",
+		"jp_text": "この小隊は、大型のエネミーに対して<%br>相性が悪い。南の小隊と交代だ。",
+		"tr_text": "이 소대는 대형 에너미와<%br>상성이 나쁘다. 남쪽 소대와 교대해라.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:14:1:24:24",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000Ｍ",
+		"jp_text": "こいつらは守りが固いな……<%br>このまま待機させて、高台を死守させろ。",
+		"tr_text": "이 녀석들은 수비가 탄탄하군……<%br>그대로 대기시키고 고지를 사수하게 해라.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "25",
+		"parameter_index": 25,
+		"__key": "event:14:1:25:25",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000Ｆ",
+		"jp_text": "ハッ！",
+		"tr_text": "예!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "26",
+		"parameter_index": 26,
+		"__key": "event:14:1:26:26",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "さすがですね……<%br>一瞬で戦局を把握するなんて。",
+		"tr_text": "역시 대단하시네요……<%br>순식간에 전황을 파악하시다니.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "27",
+		"parameter_index": 27,
+		"__key": "event:14:1:27:27",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000Ｍ",
+		"jp_text": "お前たちにも、もうひと働きしてもらうぞ。<%br>かまわんな？",
+		"tr_text": "너희도 한 번 더 힘써 줘야겠다.<%br>괜찮겠지?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "28",
+		"parameter_index": 28,
+		"__key": "event:14:1:28:28",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "もちろんよ。ひさしぶりだな<%br>あんたの指揮で戦うのも！",
+		"tr_text": "물론이지. 오랜만이군.<%br>당신 지휘 아래서 싸우는 것도!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "29",
+		"parameter_index": 29,
+		"__key": "event:14:1:29:29",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000Ｍ",
+		"jp_text": "作戦どおりにいけば、間もなく<%br>味方が活路を開いてくれるだろう。",
+		"tr_text": "작전대로 된다면 머지않아<%br>아군이 활로를 열어 줄 것이다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "30",
+		"parameter_index": 30,
+		"__key": "event:14:1:30:30",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000Ｍ",
+		"jp_text": "そのルートを抜け、エネミーの巣へ向かい<%br>リーダーと共に中核を叩け！",
+		"tr_text": "그 경로를 통과해 에너미의 소굴로 가서<%br>리더와 함께 핵심부를 공격해라!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 14,
+		"fileID": 1,
+		"eventNo": "31",
+		"parameter_index": 31,
+		"__key": "event:14:1:31:31",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "一気に勝負を決めるんですね！<%br>作戦、了解であります！",
+		"tr_text": "단숨에 승부를 결정짓는 거군요!<%br>작전, 알겠습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:15:1:0:0",
+		"jp_name": "フレイムビジット",
+		"tr_name": "플레임 비지트",
+		"jp_text": "終わった……<%br>終わったのか？",
+		"tr_text": "끝났다……<%br>끝난 건가?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:15:1:1:1",
+		"jp_name": "クオツリトス",
+		"tr_name": "쿼츠 리토스",
+		"jp_text": "アタシたち、勝ったのね！",
+		"tr_text": "우리가 이겼구나!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:15:1:2:2",
+		"jp_name": "エルデトロス",
+		"tr_name": "엘데트로스",
+		"jp_text": "我らの勝利だ！<%br>うおおおおーっ！",
+		"tr_text": "우리의 승리다!<%br>우오오오오!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:15:1:3:3",
+		"jp_name": "ニレンカムイ",
+		"tr_name": "니렌 카무이",
+		"jp_text": "ヤスミノコフ……万歳。",
+		"tr_text": "야스미노코프…… 만세.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:15:1:4:4",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "ふー……終わったか。<%br>老兵にはこたえるよ。",
+		"tr_text": "후우…… 끝났나.<%br>노병에겐 힘에 부치는군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:15:1:5:5",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "みなさん、おつかれさまでした。<%br>作戦は無事終了しました！",
+		"tr_text": "여러분, 수고하셨어요.<%br>작전은 무사히 종료됐습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:15:1:6:6",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "厳しい戦いでしたが、負傷者は最小限に<%br>抑えられています……さすがですね。",
+		"tr_text": "힘든 전투였지만 부상자는 최소한에<%br>그쳤습니다…… 역시 대단하시네요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:15:1:7:7",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "９０００Ｍが指揮をしたんだもの、当然よね！",
+		"tr_text": "9000M이 지휘했으니 당연하지!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:15:1:8:8",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "それから、先ほど９０００Ｍさんあてに<%br>連絡がありまして……",
+		"tr_text": "그리고 조금 전에 9000M 씨 앞으로<%br>연락이 왔는데요……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:15:1:9:9",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「本任務での功績を考慮して、今回の件に<%br>　ついては不問とする」……と。",
+		"tr_text": "「본 임무에서 세운 공적을 고려하여 이번 건에<%br>　대해서는 불문에 부친다」……라고 합니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:15:1:10:10",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "不問と言われても……<%br>なんのことやらなのですが……",
+		"tr_text": "불문에 부친다니……<%br>무슨 일인지 모르겠지만요……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:15:1:11:11",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "それはこちらの話だ。気にせずとも良い。<%br>ともかく、管理官殿もご苦労だったな。",
+		"tr_text": "그건 우리 쪽 사정이다. 신경 쓰지 않아도 되네.<%br>아무튼 관리관님도 수고 많았네.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:15:1:12:12",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "それはこちらの話だ。気にせずとも良い。<%br>ともかく、管理官殿もご苦労だったな。",
+		"tr_text": "그건 우리 쪽 사정이다. 신경 쓰지 않아도 되네.<%br>아무튼 관리관님도 수고 많았네.",
+		"jp_buttons": [
+			"良かった。",
+			"最高の報酬だ。"
+		],
+		"tr_buttons": [
+			"다행이다.",
+			"최고의 보상이다."
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:15:1:13:13",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 5000SD",
+		"jp_text": "結果オーライ……ってことっすかねぇ。<%br>ま、良しとしときましょー。",
+		"tr_text": "결과가 좋으니 됐다……는 건가요.<%br>뭐, 잘된 걸로 치죠.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:15:1:14:14",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "本当ですね！<%br>頑張った甲斐があったであります！",
+		"tr_text": "정말입니다!<%br>열심히 한 보람이 있었습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:15:1:15:15",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "まぁ、今回はお前たちに<%br>助けられた形になったか。",
+		"tr_text": "뭐, 이번에는 너희에게<%br>도움을 받은 셈이군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:15:1:16:16",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "たるんではいるものの、まだ錆びついた<%br>わけではない……といったところかな。",
+		"tr_text": "해이하긴 해도 아직 녹슬지는<%br>않았다……고 해야겠군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:15:1:17:17",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "あれぇ？　それだけ？<%br>めずらしく褒めてもらえると思ったのにぃ。",
+		"tr_text": "어라? 그게 다야?<%br>모처럼 칭찬받을 줄 알았는데에.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:15:1:18:18",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "ふ……だが、お前たち。<%br>命令違反は論外だぞ。",
+		"tr_text": "훗…… 하지만 너희들.<%br>명령 위반은 결코 용납할 수 없다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:15:1:19:19",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "命令違反とは心外な。我々は、上官から受けた<%br>任務を予定どおり遂行したまでのこと。",
+		"tr_text": "명령 위반이라니 억울하군요. 저희는 상관에게 받은<%br>임무를 예정대로 수행했을 뿐입니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:15:1:20:20",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "こいつめ……あと、戦い方にまだ無駄がある。<%br>弾薬も、もう６％は消費を抑えられるはずだ。",
+		"tr_text": "이 녀석…… 그리고 전투 방식에 아직 낭비가 있다.<%br>탄약 소모도 6%는 더 줄일 수 있을 거다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:15:1:21:21",
+		"jp_name": "ヤスミノコフ５０００ＳＤ",
+		"tr_name": "야스미노코프 5000SD",
+		"jp_text": "褒められると思ったらこれっす……<%br>相変わらず厳しいっすね。",
+		"tr_text": "칭찬받을 줄 알았더니 이러시네요……<%br>여전히 엄격하시네요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:15:1:22:22",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "はっはっは……<%br>だが、こうでなくてはな。",
+		"tr_text": "하하하……<%br>그래도 이래야지.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:15:1:23:23",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "９０００Ｍ殿は本当に厳しいんですね。<%br>でも慕われる理由が分かった気もします。",
+		"tr_text": "9000M 님은 정말 엄격하시군요.<%br>하지만 사람들이 따르는 이유도 알 것 같습니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:15:1:24:24",
+		"jp_name": "ヤスミノコフ８０００Ｃ",
+		"tr_name": "야스미노코프 8000C",
+		"jp_text": "私も早く、９０００Ｍ殿に鍛えて<%br>もらいたいであります！",
+		"tr_text": "저도 어서 9000M 님께 훈련을<%br>받고 싶습니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "25",
+		"parameter_index": 25,
+		"__key": "event:15:1:25:25",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "そうだな、今回の礼代わりに<%br>お前たちを鍛え直してやってもいい。",
+		"tr_text": "그래, 이번 일에 대한 답례로<%br>너희를 다시 단련시켜 줘도 좋겠군.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "26",
+		"parameter_index": 26,
+		"__key": "event:15:1:26:26",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "だがその前に、本部に戻って<%br>後処理をしなくてはならん。",
+		"tr_text": "하지만 그전에 본부로 돌아가<%br>뒷정리를 해야 한다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "27",
+		"parameter_index": 27,
+		"__key": "event:15:1:27:27",
+		"jp_name": "ヤスミノコフ４０００Ｆ",
+		"tr_name": "야스미노코프 4000F",
+		"jp_text": "はっ。後はお任せください。",
+		"tr_text": "예. 나머지는 맡겨 주십시오.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "28",
+		"parameter_index": 28,
+		"__key": "event:15:1:28:28",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "さて戻るか……休む暇もないな。<%br>ん？　どうした、リーダー？",
+		"tr_text": "자, 돌아갈까…… 쉴 틈도 없군.<%br>응? 왜 그러나, 리더?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "29",
+		"parameter_index": 29,
+		"__key": "event:15:1:29:29",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "さて戻るか……休む暇もないな。<%br>ん？　どうした、リーダー？",
+		"tr_text": "자, 돌아갈까…… 쉴 틈도 없군.<%br>응? 왜 그러나, 리더?",
+		"jp_buttons": [
+			"いい作戦だった。いろんな意味で。",
+			"もしかして、全部計算ずくだった？"
+		],
+		"tr_buttons": [
+			"좋은 작전이었어. 여러모로.",
+			"혹시 전부 계산해 둔 거였어?"
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "30",
+		"parameter_index": 30,
+		"__key": "event:15:1:30:30",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "いい作戦？　ふ、どういう意味だかな。<%br>が、お褒めの言葉はありがたく受け取っておく。",
+		"tr_text": "좋은 작전? 훗, 무슨 뜻이려나.<%br>하지만 칭찬은 고맙게 받아 두겠다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "31",
+		"parameter_index": 31,
+		"__key": "event:15:1:31:31",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "計算ずく？　なんのことだ？<%br>言っている意味がわからんな、ふふ。",
+		"tr_text": "계산해 뒀다고? 무슨 말이지?<%br>무슨 뜻인지 모르겠군, 후후.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "32",
+		"parameter_index": 32,
+		"__key": "event:15:1:32:32",
+		"jp_name": "ヤスミノコフ３０００Ｒ",
+		"tr_name": "야스미노코프 3000R",
+		"jp_text": "（もしや……９０００Ｍ殿は、自分が上層部に<%br>　拘束されることすら織り込み済みで……）",
+		"tr_text": "（설마…… 9000M 님은 자신이 상층부에<%br>　구속되는 것조차 미리 계산해 두고……）",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "33",
+		"parameter_index": 33,
+		"__key": "event:15:1:33:33",
+		"jp_name": "ヤスミノコフ７０００Ｖ",
+		"tr_name": "야스미노코프 7000V",
+		"jp_text": "（任務が失敗しかけることも、そこに私たちが<%br>　駆けつけることも……ま、まさかね……）",
+		"tr_text": "（임무가 실패할 뻔한 것도, 거기에 우리가<%br>　달려온 것도…… 서, 설마 아니겠지……）",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "34",
+		"parameter_index": 34,
+		"__key": "event:15:1:34:34",
+		"jp_name": "Tヤスミノコフ２０００H",
+		"tr_name": "T 야스미노코프 2000H",
+		"jp_text": "（最後に自分が指揮を執って事態を収めれば<%br>　上へもたっぷり貸しを作れる……いやいや！）",
+		"tr_text": "（마지막에 자신이 지휘를 맡아 사태를 수습하면<%br>　상층부에도 큰 빚을 지울 수 있겠지…… 아니, 아니！）",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "35",
+		"parameter_index": 35,
+		"__key": "event:15:1:35:35",
+		"jp_name": "ヤスミノコフ９０００Ｍ",
+		"tr_name": "야스미노코프 9000M",
+		"jp_text": "貴様ら！　なにをぼけっとしているか！<%br>撤収こそ速やかに、だ！　止まるな！　動け！",
+		"tr_text": "너희들！ 왜 멍하니 있는 거냐！<%br>철수야말로 신속하게 해야 한다！ 멈추지 마라！ 움직여라！",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "36",
+		"parameter_index": 36,
+		"__key": "event:15:1:36:36",
+		"jp_name": "ヤスミノコフたち",
+		"tr_name": "야스미노코프 일행",
+		"jp_text": "……！！<%br>イエス・マム！！",
+		"tr_text": "……！！<%br>예스, 맴！！",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 15,
+		"fileID": 1,
+		"eventNo": "37",
+		"parameter_index": 37,
+		"__key": "event:15:1:37:37",
+		"jp_name": "",
+		"tr_name": "",
+		"jp_text": "<size=65>ビクトリー　オブ　ヤスミノコフ<%br>The End</size>",
+		"tr_text": "<size=65>야스미노코프의 승리<%br>끝</size>",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	}
+]
