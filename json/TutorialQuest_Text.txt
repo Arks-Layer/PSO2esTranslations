@@ -1,0 +1,5018 @@
+[
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:0:1:0:0",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "今日の「教えて！　セラフィさん」は装備についてです。<%br>チップの見方や、装備パレットの編成を解説しますよ！",
+		"tr_text": "오늘의 「알려 주세요! 세라피 씨」는 장비에 관한 내용이에요.<%br>칩을 보는 법과 장비 팔레트 편성을 설명해 드릴게요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:0:1:1:1",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "リーダー、ジェネちゃん。<%br>おふたりとも、チップは使いこなせていますか？",
+		"tr_text": "리더, 제네 양.<%br>두 분 모두 칩을 잘 활용하고 계신가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:0:1:2:2",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "もちろんです！<%br>こんな感じに組み合わせて、使ってますよ。",
+		"tr_text": "물론이죠!<%br>이런 식으로 조합해서 쓰고 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:0:1:3:3",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "炎とか雷とか、いろんな属性が入るようにしました。<%br>えへへ……カラフルでお気に入りです！",
+		"tr_text": "불이나 번개 같은 여러 속성이 들어가도록 했어요.<%br>에헤헤…… 알록달록해서 마음에 들어요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:0:1:4:4",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "うーん……どうやら<%br>パレット編成のレクチャーが必要なようですね。",
+		"tr_text": "음…… 아무래도<%br>팔레트 편성에 대한 설명이 필요하겠네요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:0:1:5:5",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "チップを効果的に組み合わせれば<%br>もっともーっと強くなれると思いますよ。",
+		"tr_text": "칩을 효과적으로 조합하면<%br>훨씬 더 강해질 수 있을 거예요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:0:1:6:6",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "強くなれるパレット編成……<%br>教えてください、セラフィさん！",
+		"tr_text": "강해질 수 있는 팔레트 편성……<%br>알려 주세요, 세라피 씨!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:0:1:7:7",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "おまかせください！　では、先ほどの<%br>ジェネちゃんのパレット編成を見てみましょう。",
+		"tr_text": "맡겨 주세요! 그럼 아까 보여 준<%br>제네 양의 팔레트 편성을 살펴볼까요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:0:1:8:8",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "パレット編成で大事なのは<%br>《必殺技チップ》と《チップ属性のバランス》です。",
+		"tr_text": "팔레트 편성에서 중요한 것은<%br>《필살기 칩》과 《칩 속성의 균형》이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:0:1:9:9",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "まず、絶対に入れておきたいのは<%br>《必殺技チップ》です。",
+		"tr_text": "먼저 반드시 넣어야 할 것은<%br>《필살기 칩》이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:0:1:10:10",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ジェネちゃんは「イリュージョンレイヴ」の<%br>《必殺技チップ》を入れていましたね。",
+		"tr_text": "제네 양은 「일루전 레이브」의<%br>《필살기 칩》을 넣었죠.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:0:1:11:11",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "はい！　わたしの武器は両剣ですから。<%br>両剣の《必殺技チップ》を入れてます。",
+		"tr_text": "네! 제 무기는 더블 세이버니까요.<%br>더블 세이버용 《필살기 칩》을 넣어 뒀어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:0:1:12:12",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "入れて正解です！　必殺技チップがないと<%br>通常攻撃だけで戦うことになってしまいます。",
+		"tr_text": "넣길 잘했어요! 필살기 칩이 없으면<%br>일반 공격만으로 싸워야 하니까요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:0:1:13:13",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "えへへ、ほめられちゃいました。<%br>じゃあ……ほかのチップがダメなんです？",
+		"tr_text": "에헤헤, 칭찬받았어요.<%br>그럼…… 다른 칩이 문제인 건가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:0:1:14:14",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ダメというわけではありませんが……<%br>強いチップを見分ける方法はわかりますか？",
+		"tr_text": "문제라는 건 아니지만……<%br>강한 칩을 구별하는 방법은 아시나요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:0:1:15:15",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ダメというわけではありませんが……<%br>強いチップを見分ける方法はわかりますか？",
+		"tr_text": "문제라는 건 아니지만……<%br>강한 칩을 구별하는 방법은 아시나요?",
+		"jp_buttons": [
+			"★の数が多いと強い。",
+			"キラキラしてると強い。"
+		],
+		"tr_buttons": [
+			"★의 수가 많으면 강하다.",
+			"반짝반짝하면 강하다."
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:0:1:16:16",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "正解です。★１１より★１２、さらに★１３……<%br>★の数が多いほど、チップの性能が高いんです。",
+		"tr_text": "정답이에요. ★11보다는 ★12, 그보다는 ★13……<%br>★의 수가 많을수록 칩의 성능이 높아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:0:1:17:17",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "キラキラより★です。★１１より★１２、★１３……<%br>★の数が多いほど、チップの性能が高いんです。",
+		"tr_text": "반짝임보다는 ★이 중요해요. ★11보다 ★12, ★13……<%br>★의 수가 많을수록 칩의 성능이 높아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:0:1:18:18",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ジェネちゃんのパレットは<%br>★１１以下のチップしか、入れてないようですね。",
+		"tr_text": "제네 양의 팔레트에는<%br>★11 이하의 칩만 들어 있는 것 같네요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:0:1:19:19",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "持っているチップの中で<%br>できるだけ★の数が多いものを使いましょう。",
+		"tr_text": "가지고 있는 칩 중에서<%br>가능한 한 ★의 수가 많은 것을 사용하세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:0:1:20:20",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "★の数が多いチップは、クエストやランキングなどでも<%br>入手できるので、がんばって手に入れましょうね。",
+		"tr_text": "★의 수가 많은 칩은 퀘스트나 랭킹 등에서도<%br>얻을 수 있으니 힘내서 구해 보세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:0:1:21:21",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "では、私が用意したチップを使って編成してみましょう。<%br>★の数が多いチップを１枚、メインに選びます。",
+		"tr_text": "그럼 제가 준비한 칩으로 편성해 볼까요?<%br>★의 수가 많은 칩 1장을 메인으로 선택해요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:0:1:22:22",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "★１３のウェポノイドチップ「オフスティアガラン」。<%br>こちらをメインに組み立てていきますよ。",
+		"tr_text": "★13 웨포노이드 칩 「옵스티어 가란」.<%br>이 칩을 메인으로 삼아 편성해 나갈게요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:0:1:23:23",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "このチップのアビリティを見てみましょう。<%br>赤枠に注目です！",
+		"tr_text": "이 칩의 어빌리티를 살펴볼까요?<%br>빨간 테두리에 주목해 주세요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:0:1:24:24",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "①攻撃力を超絶に増加する……<%br>なんだかとっても強そうです！",
+		"tr_text": "①공격력을 초월적으로 증가시킨다……<%br>왠지 엄청 강해 보여요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "25",
+		"parameter_index": 25,
+		"__key": "event:0:1:25:25",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "威力は「極度＞超絶＞絶大＞劇的＞大きく」の順に<%br>なっています。超絶は２番目ですね。",
+		"tr_text": "위력은 「극도로＞초월적으로＞막대하게＞극적으로＞크게」 순이에요.<%br>「초월적으로」는 2번째네요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "26",
+		"parameter_index": 26,
+		"__key": "event:0:1:26:26",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "そして、これが私のおすすめパレット編成です。<%br>武器は大砲にしました！",
+		"tr_text": "그리고 이게 제가 추천하는 팔레트 편성이에요.<%br>무기는 런처로 골랐어요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "27",
+		"parameter_index": 27,
+		"__key": "event:0:1:27:27",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "百聞は一見にしかず、ＶＲ訓練で<%br>おすすめのパレット編成を試してみましょう！",
+		"tr_text": "백문이 불여일견! ＶＲ 훈련에서<%br>추천 팔레트 편성을 시험해 봐요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "28",
+		"parameter_index": 28,
+		"__key": "event:0:1:28:28",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "……あ！　大事なことを忘れていました。<%br>チップは《発動》させないと、効果が発揮されません。",
+		"tr_text": "……아! 중요한 걸 잊고 있었네요.<%br>칩은 《발동》시키지 않으면 효과가 발휘되지 않아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "29",
+		"parameter_index": 29,
+		"__key": "event:0:1:29:29",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《必殺技チップ》は、チップをタッチして発動させます。",
+		"tr_text": "《필살기 칩》은 칩을 터치해서 발동시켜요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "30",
+		"parameter_index": 30,
+		"__key": "event:0:1:30:30",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "はい！　タッチで必殺技を発動させます！！",
+		"tr_text": "네! 터치해서 필살기를 발동시킬게요!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "31",
+		"parameter_index": 31,
+		"__key": "event:0:1:31:31",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《必殺技チップ》は「スフィアイレイザー」です。<%br>極太レーザーでエネミーを一掃してください！",
+		"tr_text": "《필살기 칩》은 「스피어 이레이저」예요.<%br>아주 굵은 레이저로 에너미를 쓸어버리세요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 0,
+		"fileID": 1,
+		"eventNo": "32",
+		"parameter_index": 32,
+		"__key": "event:0:1:32:32",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "それではリーダー、準備はいいですか？<%br>ＶＲ訓練、開始します！　がんばってください！",
+		"tr_text": "그럼 리더, 준비되셨나요?<%br>ＶＲ 훈련을 시작합니다! 힘내세요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:1:1:0:0",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "お疲れさまでした！　どうでしたか？<%br>では、今回使ったチップを簡単に解説しますね。",
+		"tr_text": "수고하셨어요! 어땠나요?<%br>그럼 이번에 사용한 칩을 간단히 설명할게요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:1:1:1:1",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「オフスティアガラン」のチップは<%br>ＣＰを定期的に回復させる効果もあるんです。",
+		"tr_text": "「옵스티어 가란」 칩에는<%br>ＣＰ를 주기적으로 회복시키는 효과도 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:1:1:2:2",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ただし、「オフスティアガラン」の<%br>発動条件はジャストアタックですから……",
+		"tr_text": "다만 「옵스티어 가란」의<%br>발동 조건은 저스트 어택이니까요……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:1:1:3:3",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ジャストアタックを成功させないと<%br>効果は発揮されませんよ。",
+		"tr_text": "저스트 어택에 성공하지 않으면<%br>효과가 발휘되지 않아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:1:1:4:4",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "ジャストアタック、難しいですよね。<%br>わたし、なかなか出せなくて……",
+		"tr_text": "저스트 어택은 어렵죠.<%br>저는 좀처럼 성공하지 못해서……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:1:1:5:5",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "通常攻撃の後に赤い円が出ますから<%br>赤い円にあわせて、タイミングよくタッチです！",
+		"tr_text": "일반 공격 뒤에 빨간 원이 나타나니까<%br>빨간 원에 타이밍을 맞춰 터치하세요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:1:1:6:6",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "それから、必殺技と法術チップの<%br>コストを減少させる効果もあるんですよ。",
+		"tr_text": "그리고 필살기 칩과 테크닉 칩의<%br>코스트를 줄여 주는 효과도 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:1:1:7:7",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "必殺技と法術チップのコストが減少するんですか！<%br>減った分、ほかの強いチップが入れられますね。",
+		"tr_text": "필살기 칩과 테크닉 칩의 코스트가 줄어든다고요!<%br>줄어든 만큼 다른 강한 칩을 넣을 수 있겠네요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:1:1:8:8",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "さらに、ウェポノイドのチップ枚数が多いほど<%br>攻撃が強力になるんです。さすがは★１３ですね。",
+		"tr_text": "게다가 웨포노이드 칩의 수가 많을수록<%br>공격이 강력해져요. 역시 ★13이네요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:1:1:9:9",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "ほかのチップはどんなのだったんです？",
+		"tr_text": "다른 칩은 어떤 것들이었나요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:1:1:10:10",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「スレイヴバレット」は、雷属性のチップが多いほど<%br>攻撃が強力になります。",
+		"tr_text": "「슬레이브 불릿」은 뇌속성 칩이 많을수록<%br>공격이 강력해져요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:1:1:11:11",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "それに、今回のエネミーである「機甲種」に与える<%br>ダメージが大きくなる効果もあるんです。",
+		"tr_text": "또 이번 에너미인 「기갑종」에게 주는<%br>데미지가 증가하는 효과도 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:1:1:12:12",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「新光兜槍」は、エネミーに追加ダメージを与えます。<%br>エネミーの弱点属性が雷属性だと、効果が増します！",
+		"tr_text": "「신광투창」은 에너미에게 추가 데미지를 줘요.<%br>에너미의 약점 속성이 뇌속성이면 효과가 더 커져요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:1:1:13:13",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「アーレスランス」は、必殺技と法術の威力を<%br>強化する効果があります。",
+		"tr_text": "「아레스 랜스」는 필살기와 테크닉의 위력을<%br>강화하는 효과가 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:1:1:14:14",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「スフィアイレイザー」は必殺技チップです。<%br>武器が大砲なので、大砲用の必殺技チップですね。",
+		"tr_text": "「스피어 이레이저」는 필살기 칩이에요.<%br>무기가 런처이니 런처용 필살기 칩이죠.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:1:1:15:15",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "なるほど……★１３チップの「オフスティアガラン」<%br>それと「スレイヴバレット」で攻撃力を上げて……",
+		"tr_text": "그렇군요…… ★13 칩인 「옵스티어 가란」<%br>그리고 「슬레이브 불릿」으로 공격력을 올리고……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:1:1:16:16",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "そのほかのチップで必殺技を強化したりして<%br>《必殺技チップ》で大ダメージを与える！　ですね。",
+		"tr_text": "그 밖의 칩으로 필살기를 강화해서<%br>《필살기 칩》으로 큰 데미지를 주는 거군요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:1:1:17:17",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "その通り！！　よくできました！<%br>これが、パレット編成の基本的な考え方です。",
+		"tr_text": "맞아요!! 잘했어요!<%br>이것이 팔레트 편성의 기본 개념이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:1:1:18:18",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ただし、パレット編成にはコスト上限があります。<%br>コスト上限内に収まるように編成しましょう。",
+		"tr_text": "다만 팔레트 편성에는 코스트 상한이 있어요.<%br>코스트 상한을 넘지 않도록 편성하세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:1:1:19:19",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "はい、わかりました！　★の数とコスト<%br>そしてチップの効果に注意して編成します！",
+		"tr_text": "네, 알겠어요! ★의 개수와 코스트<%br>그리고 칩의 효과에 주의해서 편성할게요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:1:1:20:20",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "チップの詳しい効果を確認したい時は<%br>チップを長押しすると詳細画面が開きますよ。",
+		"tr_text": "칩의 자세한 효과를 확인하고 싶을 때는<%br>칩을 길게 누르면 상세 화면이 열려요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:1:1:21:21",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "そういえば……ぜんぶ雷属性のチップですね。<%br>どうしてです？",
+		"tr_text": "그러고 보니…… 전부 뇌속성 칩이네요.<%br>왜 그런가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:1:1:22:22",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "いいところに気がつきましたね。それは……<%br>パレット編成には《属性》が重要だからです！",
+		"tr_text": "잘 짚었네요. 그건……<%br>팔레트 편성에는 《속성》이 중요하기 때문이에요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:1:1:23:23",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "《属性》！？",
+		"tr_text": "《속성》이요!?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:1:1:24:24",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《属性》とチップの関係は、次回、説明します！",
+		"tr_text": "《속성》과 칩의 관계는 다음 시간에 설명할게요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "25",
+		"parameter_index": 25,
+		"__key": "event:1:1:25:25",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "ええっ！？　そんなぁ……今、聞きたいです。",
+		"tr_text": "네에!? 그럴 수가…… 지금 듣고 싶어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "26",
+		"parameter_index": 26,
+		"__key": "event:1:1:26:26",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "続きはまた次回。お待ちしていますね！",
+		"tr_text": "다음 시간에 이어서 할게요. 기다리고 있을게요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 1,
+		"fileID": 1,
+		"eventNo": "27",
+		"parameter_index": 27,
+		"__key": "event:1:1:27:27",
+		"jp_name": "ポイント",
+		"tr_name": "포인트",
+		"jp_text": "★の数が多いほど、性能が高いチップです。<%br>アビリティ説明の「威力表記」にも注目しましょう。",
+		"tr_text": "★의 개수가 많을수록 성능이 높은 칩이에요.<%br>어빌리티 설명의 「위력 표기」에도 주목하세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:2:1:0:0",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "セラフィさん！　前回の続き、お願いします！<%br>パレット編成にはどうして《属性》が重要なんですか？",
+		"tr_text": "세라피 씨! 지난번에 이어서 알려 주세요!<%br>팔레트 편성에는 왜 《속성》이 중요한가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:2:1:1:1",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "いきなり質問なんて熱心ですね。<%br>それではさっそく、始めましょう！",
+		"tr_text": "시작부터 질문이라니 열의가 대단하네요.<%br>그럼 바로 시작해 봐요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:2:1:2:2",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "まず、６種類の《属性》は知っていますか？",
+		"tr_text": "먼저 6종류의 《속성》을 알고 있나요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:2:1:3:3",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "えっと……<%br>《炎》、《氷》、《雷》、《風》、《光》、《闇》ですよね。",
+		"tr_text": "어……<%br>《불》, 《얼음》, 《번개》, 《바람》, 《빛》, 《어둠》이죠.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:2:1:4:4",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "その通りです！<%br>ジェネちゃん、よく勉強していますね。",
+		"tr_text": "맞아요!<%br>제네 양, 열심히 공부했네요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:2:1:5:5",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "属性はいつも見てたんです！　弱点属性で攻撃すると<%br>大きいダメージを与えられるんですよね！",
+		"tr_text": "속성은 항상 확인했어요! 약점 속성으로 공격하면<%br>큰 데미지를 줄 수 있죠!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:2:1:6:6",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "そう、エネミーの《弱点属性》を狙う！<%br>これはパレット編成でも同じです。",
+		"tr_text": "맞아요, 에너미의 《약점 속성》을 노리는 거예요!<%br>이건 팔레트 편성에서도 마찬가지죠.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:2:1:7:7",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "戦闘中にエネミーをターゲットすると<%br>上に《弱点属性》が表示されますよ。",
+		"tr_text": "전투 중에 에너미를 타깃으로 지정하면<%br>위에 《약점 속성》이 표시돼요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:2:1:8:8",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "出発前はクエスト情報や出発確認でわかりますよね。<%br>「有効属性予想」が、エネミーの《弱点属性》です。",
+		"tr_text": "출발 전에는 퀘스트 정보나 출발 확인 화면에서 알 수 있죠.<%br>「예상 유효 속성」이 에너미의 《약점 속성》이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:2:1:9:9",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "弱点となる属性を確認したら、その数値が<%br>高くなるように、武器やチップを選ぶんです！",
+		"tr_text": "약점 속성을 확인했다면 그 수치가<%br>높아지도록 무기나 칩을 고르는 거예요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:2:1:10:10",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "今回は、炎属性が弱点のエネミーで考えてみますよ。<%br>こちらが炎属性向けの編成です！",
+		"tr_text": "이번에는 염속성이 약점인 에너미를 예로 들어 볼게요.<%br>이것이 염속성에 맞춘 편성이에요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:2:1:11:11",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "装備パレットは６パターンまで登録できるので<%br>属性ごとにパレットを編成しておくと便利ですよ！",
+		"tr_text": "장비 팔레트는 최대 6개까지 등록할 수 있으니<%br>속성별로 팔레트를 편성해 두면 편리해요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:2:1:12:12",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "あれ……？　チップの左上、色が違いますね？<%br>黒と白でなにか違うんですか？",
+		"tr_text": "어라……? 칩의 왼쪽 위 색이 다르네요?<%br>검은색과 흰색은 무슨 차이가 있나요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:2:1:13:13",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ジェネちゃん……《アクティブチップ》と<%br>《サポートチップ》を知らずに使ってたんですか？",
+		"tr_text": "제네 양…… 《액티브 칩》과<%br>《서포트 칩》을 모르고 쓰고 있었던 건가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:2:1:14:14",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "すみません……えっと<%br>《アクティブ》と《サポート》ってなんですか？",
+		"tr_text": "죄송해요…… 저기<%br>《액티브》와 《서포트》가 뭔가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:2:1:15:15",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《アクティブチップ》は、戦闘中に<%br>自分でタッチして発動させるチップです。",
+		"tr_text": "《액티브 칩》은 전투 중에<%br>직접 터치해서 발동시키는 칩이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:2:1:16:16",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《サポートチップ》は、戦闘中に発動条件を満たすと<%br>自動的に発動するチップのことです。",
+		"tr_text": "《서포트 칩》은 전투 중에 발동 조건을 충족하면<%br>자동으로 발동하는 칩이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:2:1:17:17",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "チップの左上の三角形が白なら《アクティブチップ》。<%br>黒なら《サポートチップ》となります。",
+		"tr_text": "칩 왼쪽 위의 삼각형이 흰색이면 《액티브 칩》,<%br>검은색이면 《서포트 칩》이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:2:1:18:18",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "チップの種類は、チップの詳細情報でわかりますが<%br>左上の三角形の色を覚えたほうが楽ですよ。",
+		"tr_text": "칩의 종류는 칩 상세 정보에서 확인할 수 있지만<%br>왼쪽 위 삼각형의 색을 기억해 두면 더 편해요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:2:1:19:19",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "じゃあ、さっきのおすすめ編成だと……",
+		"tr_text": "그럼 아까의 추천 편성에서는……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:2:1:20:20",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「熟練の闘士　ゼノ」は、《アクティブチップ》です。<%br>戦闘中にチップをタッチして、発動させます。",
+		"tr_text": "「숙련된 투사 제노」는 《액티브 칩》이에요.<%br>전투 중에 칩을 터치해서 발동시켜요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:2:1:21:21",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "必殺技チップの「オーバーエンド」も<%br>白だから、《アクティブチップ》ですね！",
+		"tr_text": "필살기 칩 「오버엔드」도<%br>흰색이니까 《액티브 칩》이군요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:2:1:22:22",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "よくわかりましたね。必殺技・法術チップは<%br>自分で発動させるアクティブチップなんです。",
+		"tr_text": "잘 이해했네요. 필살기와 테크닉 칩은<%br>직접 발동시키는 액티브 칩이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:2:1:23:23",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《アクティブチップ》は発動に必要なＣＰが<%br>足りないと発動できませんので、注意してください。",
+		"tr_text": "《액티브 칩》은 발동에 필요한 ＣＰ가<%br>부족하면 발동할 수 없으니 주의해 주세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:2:1:24:24",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「フレイムビジット」は左上が黒の《サポートチップ》。<%br>通常攻撃がヒットした時に、自動で発動します。",
+		"tr_text": "「플레임 비지트」는 왼쪽 위가 검은색인 《서포트 칩》이에요.<%br>일반 공격이 명중했을 때 자동으로 발동해요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "25",
+		"parameter_index": 25,
+		"__key": "event:2:1:25:25",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「グッバイファイア」も《サポートチップ》ですが<%br>発動条件は「ジャストアタック成功時」です。",
+		"tr_text": "「굿바이 파이어」도 《서포트 칩》이지만<%br>발동 조건은 「저스트 어택 성공 시」예요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "26",
+		"parameter_index": 26,
+		"__key": "event:2:1:26:26",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "《サポートチップ》は<%br>発動条件がいろいろあるんですか？",
+		"tr_text": "《서포트 칩》은<%br>발동 조건이 여러 가지인가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "27",
+		"parameter_index": 27,
+		"__key": "event:2:1:27:27",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ええ。スライド操作で発動するものや<%br>ダメージを受けると発動するものもあります。",
+		"tr_text": "네. 슬라이드 조작으로 발동하는 칩이나<%br>데미지를 받으면 발동하는 칩도 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "28",
+		"parameter_index": 28,
+		"__key": "event:2:1:28:28",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "それではリーダー、実地訓練です！",
+		"tr_text": "그럼 리더, 실전 훈련이에요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "29",
+		"parameter_index": 29,
+		"__key": "event:2:1:29:29",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "炎属性向けのパレット編成で<%br>弱点が炎属性のエネミーと戦ってみましょう！",
+		"tr_text": "염속성에 맞춘 팔레트 편성으로<%br>염속성이 약점인 에너미와 싸워 봅시다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "30",
+		"parameter_index": 30,
+		"__key": "event:2:1:30:30",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "エネミーの《弱点属性》と<%br>パレットの《属性》の関係を知ってください。",
+		"tr_text": "에너미의 《약점 속성》과<%br>팔레트의 《속성》이 어떤 관계인지 알아보세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 2,
+		"fileID": 1,
+		"eventNo": "31",
+		"parameter_index": 31,
+		"__key": "event:2:1:31:31",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《アクティブチップ》と《サポートチップ》の<%br>発動条件にも注意してくださいね！",
+		"tr_text": "《액티브 칩》과 《서포트 칩》의<%br>발동 조건에도 주의해 주세요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:3:1:0:0",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "リーダー、おかえりなさい！<%br>どうでした？",
+		"tr_text": "리더, 돌아오셨군요!<%br>어땠나요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:3:1:1:1",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "リーダー、おかえりなさい！<%br>どうでした？",
+		"tr_text": "리더, 어서 오세요!<%br>어땠나요?",
+		"jp_buttons": [
+			"いつもよりＣＰに余裕があった。",
+			"サポートチップがよく発動した。"
+		],
+		"tr_buttons": [
+			"평소보다 CP에 여유가 있었다.",
+			"서포트 칩이 자주 발동했다."
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:3:1:2:2",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "ＣＰ、余裕でした？<%br>わたしはすぐに足りなくなっちゃいますけど……",
+		"tr_text": "CP에 여유가 있었나요?<%br>저는 금방 부족해지는데……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:3:1:3:3",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "わたしはなかなか発動できなくて……<%br>下手なんでしょうか？",
+		"tr_text": "저는 좀처럼 발동시키지 못해서……<%br>제가 서툰 걸까요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:3:1:4:4",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "あ、それはチップの《アビリティＬｖ》を<%br>最大まで上げているからですね！",
+		"tr_text": "아, 그건 칩의 《어빌리티 Lv》을<%br>최대로 올려 두었기 때문이에요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:3:1:5:5",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《アクティブチップ》は《アビリティＬｖ》が上がるほど<%br>消費ＣＰが少なくなります。",
+		"tr_text": "《액티브 칩》은 《어빌리티 Lv》이 올라갈수록<%br>소비 CP가 줄어들어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:3:1:6:6",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《サポートチップ》は《アビリティＬｖ》が上がると<%br>発動率が上昇します。",
+		"tr_text": "《서포트 칩》은 《어빌리티 Lv》이 올라가면<%br>발동률이 상승해요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:3:1:7:7",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《アビリティＬｖ》は、同じチップで<%br>強化すると上げることができますよ。",
+		"tr_text": "《어빌리티 Lv》은 같은 칩으로<%br>강화하면 올릴 수 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:3:1:8:8",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "《チップ強化》で、同じチップを<%br>素材として選べばいいんですね。",
+		"tr_text": "《칩 강화》에서 같은 칩을<%br>재료로 선택하면 되는 거군요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:3:1:9:9",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "また、すべてのチップが発動中になると<%br>より高い効果が期待できます！",
+		"tr_text": "또 모든 칩이 발동 중이면<%br>더 높은 효과를 기대할 수 있어요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:3:1:10:10",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "チップの発動条件にも注意して<%br>編成してみてくださいね。",
+		"tr_text": "칩의 발동 조건에도 주의해서<%br>편성해 보세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:3:1:11:11",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "はい、わかりました！",
+		"tr_text": "네, 알겠어요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:3:1:12:12",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "セラフィさん、次回は<%br>なにを教えてくれるんです？",
+		"tr_text": "세라피 씨, 다음에는<%br>무엇을 알려 주시나요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:3:1:13:13",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "次は、《必殺技・法術チップ》について<%br>さらにくわしく解説しますね！",
+		"tr_text": "다음에는 《필살기와 테크닉 칩》에 대해<%br>더 자세히 설명할게요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:3:1:14:14",
+		"jp_name": "ポイント",
+		"tr_name": "포인트",
+		"jp_text": "事前にエネミーの《弱点属性》を調べて<%br>弱点の《属性値》を最大まで上げましょう。",
+		"tr_text": "미리 에너미의 《약점 속성》을 확인하고<%br>해당 속성의 《속성값》을 최대로 올리세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 3,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:3:1:15:15",
+		"jp_name": "ポイント",
+		"tr_name": "포인트",
+		"jp_text": "《アクティブチップ》はタッチすると発動します。<%br>《サポートチップ》の発動条件はチップごとに異なります。",
+		"tr_text": "《액티브 칩》은 터치하면 발동합니다.<%br>《서포트 칩》의 발동 조건은 칩마다 다릅니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:4:1:0:0",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "セラフィさん、よろしくお願いします！<%br>今回は、《必殺技と法術チップ》でしたよね？",
+		"tr_text": "세라피 씨, 잘 부탁드려요!<%br>이번에는 《필살기와 테크닉 칩》이었죠?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:4:1:1:1",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "はい。ジェネちゃんは最初から<%br>《必殺技チップ》を装備できていましたよね。",
+		"tr_text": "네. 제네 양은 처음부터<%br>《필살기 칩》을 제대로 장비하고 있었죠.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:4:1:2:2",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《必殺技チップ》《法術チップ》は、装備している武器と<%br>対応させる必要があるんです。",
+		"tr_text": "《필살기 칩》과 《테크닉 칩》은 장비한 무기와<%br>맞춰야 해요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:4:1:3:3",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《必殺技チップ》は、武器と対応していないと<%br>戦闘中に使用することができません。",
+		"tr_text": "《필살기 칩》은 무기와 맞지 않으면<%br>전투 중에 사용할 수 없어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:4:1:4:4",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ジェネちゃんは、ちゃんと装備武器と同じ<%br>両剣の《必殺技チップ》を入れていたので合格です。",
+		"tr_text": "제네 양은 장비한 무기에 맞춰<%br>더블 세이버용 《필살기 칩》을 제대로 넣었으니 합격이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:4:1:5:5",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "打撃力・射撃力が上がる武器を装備しているなら<%br>《必殺技チップ》を入れたほうがいいですね。",
+		"tr_text": "타격력이나 사격력이 올라가는 무기를 장비하고 있다면<%br>《필살기 칩》을 넣는 게 좋아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:4:1:6:6",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "《法術チップ》も装備してみたかったんですけど<%br>わたしはあまり法撃力が高くないので……",
+		"tr_text": "《테크닉 칩》도 장비해 보고 싶었는데<%br>저는 법격력이 그다지 높지 않아서……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:4:1:7:7",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《法術チップ》は法撃力が上がる武器を<%br>装備していないと、威力が出ないですからね。",
+		"tr_text": "《테크닉 칩》은 법격력이 올라가는 무기를<%br>장비하지 않으면 제대로 된 위력을 내지 못하니까요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:4:1:8:8",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "それから、《法術チップ》はエネミーの弱点属性と<%br>同じ属性のチップを選ぶ必要があります。",
+		"tr_text": "그리고 《테크닉 칩》은 에너미의 약점 속성과<%br>같은 속성의 칩을 골라야 해요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:4:1:9:9",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "法術は《法術チップ》の属性の攻撃になるので<%br>エネミーの弱点属性に合わせないと、効果が低いです。",
+		"tr_text": "테크닉은 《테크닉 칩》의 속성으로 공격하므로<%br>에너미의 약점 속성에 맞추지 않으면 효과가 낮아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:4:1:10:10",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "装備している武器や、自分の戦い方を考えながら<%br>《必殺技》か《法術》かを選ぶといいですね。",
+		"tr_text": "장비한 무기와 자신의 전투 방식을 생각하면서<%br>《필살기》와 《테크닉》 중에서 선택하면 좋아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:4:1:11:11",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "必殺技と法術にも、いろんなタイプがあります。<%br>この編成でリーダーに合う戦い方を試してみましょう！",
+		"tr_text": "필살기와 테크닉에도 여러 종류가 있어요.<%br>이 편성으로 리더에게 맞는 전투 방식을 시험해 봐요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:4:1:12:12",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "氷属性のパレット編成ですね。<%br>あ！　法術チップが２枚入ってますよ！！",
+		"tr_text": "빙속성 팔레트 편성이군요.<%br>아! 테크닉 칩이 2장 들어 있어요!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:4:1:13:13",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「バータ」は一撃の威力が大きいチップです。<%br>威力が高いかわりに、攻撃範囲は広くありません。",
+		"tr_text": "「바타」는 한 방의 위력이 큰 칩이에요.<%br>위력이 높은 대신 공격 범위는 넓지 않아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:4:1:14:14",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「ナ・バータ」は、攻撃範囲は広いですが<%br>威力はそれほど高くありません。",
+		"tr_text": "「나 바타」는 공격 범위가 넓지만<%br>위력은 그다지 높지 않아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:4:1:15:15",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "エネミーがいっぱいいる時は「ナ・バータ」<%br>ボスには「バータ」が有効ってことです？",
+		"tr_text": "에너미가 많을 때는 「나 바타」,<%br>보스에게는 「바타」가 효과적이라는 건가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:4:1:16:16",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "そうですね。必殺技や法術の種類も<%br>エネミーによって使い分けるといいですよ。",
+		"tr_text": "맞아요. 필살기나 테크닉의 종류도<%br>에너미에 맞춰 골라 쓰면 좋아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:4:1:17:17",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "今回の訓練では、エネミーの種類に応じて<%br>２種類のチップを使い分けて戦ってください。",
+		"tr_text": "이번 훈련에서는 에너미의 종류에 따라<%br>2종류의 칩을 알맞게 골라 쓰며 싸워 주세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 4,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:4:1:18:18",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "すこし難しそうですが、リーダーなら大丈夫です。<%br>がんばってください！",
+		"tr_text": "조금 어려울 것 같지만 리더라면 괜찮아요.<%br>힘내세요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:5:1:0:0",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "リーダー、どうでした？<%br>チップの使い分けはできましたか？",
+		"tr_text": "리더, 어땠나요?<%br>칩을 상황에 맞게 사용할 수 있었나요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:5:1:1:1",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "今回は訓練なので、必殺技チップや<%br>法術チップを２枚入れましたが……",
+		"tr_text": "이번에는 훈련이라 필살기 칩이나<%br>테크닉 칩을 총 2장 넣었지만……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:5:1:2:2",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "本来は１枚だけに絞ったほうがいいんです。<%br>なぜか……わかりますか？",
+		"tr_text": "원래는 1장만 넣는 편이 좋아요.<%br>왜 그런지…… 아시겠어요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:5:1:3:3",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "本来は１枚だけに絞ったほうがいいんです。<%br>なぜか……わかりますか？",
+		"tr_text": "원래는 1장만 넣는 편이 좋아요.<%br>왜 그런지…… 아시겠어요?",
+		"jp_buttons": [
+			"ＣＰが足りなくなるから。",
+			"ほかのチップを入れるべき。"
+		],
+		"tr_buttons": [
+			"ＣＰ가 부족해지니까.",
+			"다른 칩을 넣어야 하니까."
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:5:1:4:4",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "ＣＰは必殺技を使う回数で調整できますよね。<%br>入れられるチップが少なくなるからじゃないです？",
+		"tr_text": "ＣＰ는 필살기를 쓰는 횟수로 조절할 수 있죠.<%br>넣을 수 있는 다른 칩이 줄어들기 때문이 아닌가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:5:1:5:5",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "あっ、必殺技を２枚入れると、ほかのチップが<%br>３枚しか入らなくなっちゃうんですね……",
+		"tr_text": "아, 필살기 칩을 2장 넣으면 다른 칩은<%br>3장밖에 못 넣게 되는군요……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:5:1:6:6",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "そうですね。必殺技チップや<%br>法術チップは１枚にしておいて……",
+		"tr_text": "맞아요. 필살기 칩이나<%br>테크닉 칩은 1장만 넣고……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:5:1:7:7",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "残りの４枠は《ウェポノイドチップ》などで<%br>攻撃力や威力を上げたほうが効果的です。",
+		"tr_text": "남은 4칸에는 《웨포노이드 칩》 등을 넣어<%br>공격력이나 위력을 올리는 편이 더 효과적이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:5:1:8:8",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "それから、さっきの編成には<%br>少し特殊な条件つきのチップを入れていました。",
+		"tr_text": "그리고 아까의 편성에는<%br>조금 특수한 조건이 붙은 칩을 넣어 두었어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:5:1:9:9",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「アーレスブーツ」は、氷か光属性の武器を<%br>装備していないと、攻撃力が上がりません。",
+		"tr_text": "「아레스 부츠」는 빙속성이나 광속성 무기를<%br>장비하지 않으면 공격력이 올라가지 않아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:5:1:10:10",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "必殺技・法術の威力を上げる「セイガーシールド」は<%br>サポートチップなので……",
+		"tr_text": "필살기와 테크닉의 위력을 올리는 「세이가 실드」는<%br>서포트 칩이라서……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:5:1:11:11",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "必殺技や法術チップを使う前にチップを<%br>発動させておかないと、意味がありません。",
+		"tr_text": "필살기 칩이나 테크닉 칩을 쓰기 전에 이 칩을<%br>발동해 두지 않으면 의미가 없어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:5:1:12:12",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "そういうところも注意して<%br>編成しなきゃいけないんですね……",
+		"tr_text": "그런 점도 신경 써서<%br>편성해야 하는군요……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:5:1:13:13",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "難しいかもしれませんが、使い方を学べば<%br>より効率よくエネミーを撃破できますよ。",
+		"tr_text": "어려울지도 모르지만, 사용법을 익히면<%br>더 효율적으로 에너미를 격파할 수 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:5:1:14:14",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "それから、今回のおすすめ編成は<%br>武器違いで３タイプ用意していたんです。",
+		"tr_text": "그리고 이번 추천 편성은<%br>무기가 다른 3가지 유형으로 준비해 두었어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:5:1:15:15",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "クエスト出発前のパレット選択で<%br>《導具》、《双小剣》、《双機銃》を選択できます。",
+		"tr_text": "퀘스트 출발 전 팔레트 선택에서<%br>《탈리스》, 《트윈 대거》, 《트윈 머신 건》을 선택할 수 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:5:1:16:16",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "なるほど！　武器が変わると<%br>効果的な必殺技や法術が変わるからですね。",
+		"tr_text": "그렇군요! 무기가 바뀌면<%br>효과적인 필살기나 테크닉도 달라지기 때문이네요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:5:1:17:17",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ほかの武器のおすすめ編成は、もう一度<%br>このクエストにチャレンジすれば試せますよ。",
+		"tr_text": "다른 무기의 추천 편성은 다시 한번<%br>이 퀘스트에 도전하면 시험해 볼 수 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:5:1:18:18",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "リーダー、ほかの武器も使ってみてください。<%br>復習もできて一石二鳥ですよ！",
+		"tr_text": "리더, 다른 무기도 사용해 보세요.<%br>복습도 할 수 있으니 일석이조예요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 5,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:5:1:19:19",
+		"jp_name": "ポイント",
+		"tr_name": "포인트",
+		"jp_text": "武器に対応した必殺技や法術を選びましょう。<%br>《必殺技や法術のチップ》は、１枚だけが基本です。",
+		"tr_text": "무기에 맞는 필살기나 테크닉을 선택하세요.<%br>《필살기나 테크닉 칩》은 1장만 편성하는 것이 기본입니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:6:1:0:0",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "セラフィさん！　パレット編成を変えたら<%br>前より強いエネミーを倒せるようになりました！",
+		"tr_text": "세라피 씨! 팔레트 편성을 바꿨더니<%br>전보다 강한 에너미를 쓰러뜨릴 수 있게 됐어요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:6:1:1:1",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "それはなによりです。では、おふたりとも<%br>もう一段階ステップアップしたいですか？",
+		"tr_text": "그거 잘됐네요. 그럼 두 분 모두<%br>한 단계 더 성장하고 싶으신가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:6:1:2:2",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "それはなによりです。では、おふたりとも<%br>もう一段階ステップアップしたいですか？",
+		"tr_text": "그거 잘됐네요. 그럼 두 분 모두<%br>한 단계 더 성장하고 싶으신가요?",
+		"jp_buttons": [
+			"もっと強くなりたい。",
+			"もう十分強いよ。"
+		],
+		"tr_buttons": [
+			"더 강해지고 싶어.",
+			"이미 충분히 강해."
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:6:1:3:3",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "わたしももっと強くなりたいです。<%br>セラフィさん、レクチャーをお願いします！",
+		"tr_text": "저도 더 강해지고 싶어요.<%br>세라피 씨, 가르쳐 주세요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:6:1:4:4",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "わたし、もっともっと強いリーダーが見たいです。<%br>セラフィさん、レクチャーをお願いします！",
+		"tr_text": "저는 리더가 훨씬 더 강해진 모습을 보고 싶어요.<%br>세라피 씨, 가르쳐 주세요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:6:1:5:5",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "いい心がけですね。<%br>今回はチップの《アビリティ》について学びますよ。",
+		"tr_text": "좋은 마음가짐이네요.<%br>이번에는 칩의 《어빌리티》에 대해 배울 거예요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:6:1:6:6",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《アビリティ》とは、それぞれのチップが持つ<%br>特殊な効果のことです。",
+		"tr_text": "《어빌리티》란 각각의 칩이 가진<%br>특수한 효과를 말해요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:6:1:7:7",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "特殊な効果ですか……攻撃力や威力を上げる以外に<%br>どんな《アビリティ》があるんです？",
+		"tr_text": "특수한 효과요…… 공격력이나 위력을 올리는 것 말고<%br>어떤 《어빌리티》가 있나요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:6:1:8:8",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "チップによってさまざまですが……<%br>いくつか紹介しましょうね。",
+		"tr_text": "칩마다 다르지만……<%br>몇 가지 소개해 드릴게요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:6:1:9:9",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「スレイヴセイバー」の《アビリティ》は、ダーカー以外の<%br>エネミーに与えるダメージが増加します。",
+		"tr_text": "「슬레이브 세이버」의 《어빌리티》는 다커 이외의<%br>에너미에게 주는 데미지를 증가시켜요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:6:1:10:10",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "エネミーの種族によって<%br>効果が発揮されるかどうかが変わるんですね。",
+		"tr_text": "에너미의 종족에 따라<%br>효과가 발휘되는지가 달라지는 거죠.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:6:1:11:11",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "ダーカー以外って……いっぱいいますね！",
+		"tr_text": "다커가 아닌 에너미는…… 정말 많네요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:6:1:12:12",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "はい。多くのエネミーに対して有効な<%br>汎用性が高いチップといえます。",
+		"tr_text": "네. 많은 에너미에게 효과가 있는<%br>범용성이 높은 칩이라고 할 수 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:6:1:13:13",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「パオジェイド」の《アビリティ》は、闇属性が弱点の<%br>エネミーに対してダメージが増加します。",
+		"tr_text": "「파오 제이드」의 《어빌리티》는 암속성이 약점인<%br>에너미에게 주는 데미지를 증가시켜요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:6:1:14:14",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「ヤシャ」の《アビリティ》は、ポイズン状態の<%br>エネミーに対してダメージが増加します。",
+		"tr_text": "「야샤」의 《어빌리티》는 포이즌 상태인<%br>에너미에게 주는 데미지를 증가시켜요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:6:1:15:15",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《状態異常》に効果を発揮するチップは、その<%br>《状態異常》を付与する効果もあることが多いですね。",
+		"tr_text": "《상태 이상》에 걸린 에너미에게 효과적인 칩은 그<%br>《상태 이상》을 부여하는 효과도 있는 경우가 많아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:6:1:16:16",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "ホントです！　「ヤシャ」の《アビリティ》には<%br>ポイズンを付与する効果もあるんですね。",
+		"tr_text": "정말이네요! 「야샤」의 《어빌리티》에는<%br>포이즌을 부여하는 효과도 있군요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:6:1:17:17",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "ふたつも《アビリティ》があるなんて<%br>お得なチップですね。",
+		"tr_text": "《어빌리티》가 두 개나 있다니<%br>실속 있는 칩이네요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:6:1:18:18",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "チップによっては複数の《アビリティ》がありますから<%br>詳細画面で確認してくださいね。",
+		"tr_text": "칩에 따라 《어빌리티》가 여러 개 있을 수 있으니<%br>상세 화면에서 확인해 주세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:6:1:19:19",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "はい！　しっかり見て、確認します！！",
+		"tr_text": "네! 꼼꼼히 살펴보고 확인할게요!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:6:1:20:20",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "先ほどの３枚のチップを入れてパレットを編成しました。<%br>どれも今回のエネミーに有効なチップですよ。",
+		"tr_text": "앞서 설명한 칩 3장을 넣어 팔레트를 편성했어요.<%br>모두 이번 에너미에게 효과적인 칩이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:6:1:21:21",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "闇属性とポイズン……どのくらいの効果があるか<%br>ＶＲ訓練で試してみてください。",
+		"tr_text": "암속성과 포이즌…… 어느 정도 효과가 있는지<%br>ＶＲ 훈련에서 시험해 보세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 6,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:6:1:22:22",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "それでは、訓練開始です！",
+		"tr_text": "그럼 훈련 시작입니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:7:1:0:0",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "リーダー、お疲れさまでした。<%br>教えてもらったチップはうまく使えました？",
+		"tr_text": "리더, 수고하셨어요.<%br>설명 들은 칩은 잘 활용하셨나요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:7:1:1:1",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "グアル・ジグモルデは、《弱点属性》が闇で<%br>《状態異常》がよく効くエネミーでした。",
+		"tr_text": "구아르 지그모르데는 《약점 속성》이 암속성이고<%br>《상태 이상》이 잘 통하는 에너미였어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:7:1:2:2",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "なので、闇属性が弱点のエネミーに与える<%br>ダメージを増加させる「パオジェイド」と……",
+		"tr_text": "그래서 암속성이 약점인 에너미에게 주는<%br>데미지를 증가시키는 「파오 제이드」와……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:7:1:3:3",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ポイズンを付与し、ポイズン状態のエネミーの<%br>ダメージを増加させる「ヤシャ」……",
+		"tr_text": "포이즌을 부여하고 포이즌 상태인 에너미에게<%br>주는 데미지를 증가시키는 「야샤」……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:7:1:4:4",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "この２枚が、グアル・ジグモルデに対して<%br>特に有効なチップとなっています。",
+		"tr_text": "이 2장의 칩이 구아르 지그모르데에게<%br>특히 효과적이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:7:1:5:5",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "なるほど！　そう言われると<%br>エネミーとチップの関係がよくわかります。",
+		"tr_text": "그렇군요! 그렇게 설명해 주시니<%br>에너미와 칩의 관계가 잘 이해돼요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:7:1:6:6",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "エネミーの特性に合ったチップを<%br>いろいろと試してみてください。",
+		"tr_text": "에너미의 특성에 맞는 칩을<%br>다양하게 시험해 보세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:7:1:7:7",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "どの組み合わせが効果的か……<%br>いろんなパターンがあって難しそうですね。",
+		"tr_text": "어떤 조합이 효과적일지……<%br>여러 가지 경우가 있어서 어려울 것 같네요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:7:1:8:8",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ふふっ、そうですね。《アビリティ》や<%br>《★の数》、《属性》、《エネミーの弱点》……",
+		"tr_text": "후훗, 그렇죠. 《어빌리티》와<%br>《★의 개수》, 《속성》, 《에너미의 약점》……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:7:1:9:9",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "これらを考えて、自分のチップの中から<%br>最強のパレットを編成してみてください。",
+		"tr_text": "이런 요소를 고려해 보유한 칩을 골라<%br>최강의 팔레트를 편성해 보세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:7:1:10:10",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "あ、そういえば……パレットの上のほうに表示される<%br>数字とアルファベットはなんですか？",
+		"tr_text": "아, 그러고 보니…… 팔레트 위쪽에 표시되는<%br>숫자와 알파벳은 무엇인가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:7:1:11:11",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "それは、《パレット評価》ですね。",
+		"tr_text": "그건 《팔레트 평가》예요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:7:1:12:12",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "武器とユニット、そしてチップから割り出される<%br>装備パレットの総合力の評価が表示されています。",
+		"tr_text": "무기와 유닛, 그리고 칩을 바탕으로 산출한<%br>장비 팔레트의 종합력 평가가 표시돼요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:7:1:13:13",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "装備パレット全体の攻撃力やＨＰなどを<%br>総合的に計算して、評価した値となります。",
+		"tr_text": "장비 팔레트 전체의 공격력과 ＨＰ 등을<%br>종합적으로 계산해 평가한 값이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:7:1:14:14",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "この《パレット評価》の値を参考にするのも<%br>いいと思いますよ。",
+		"tr_text": "이 《팔레트 평가》 수치를 참고하는 것도<%br>좋을 것 같아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:7:1:15:15",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "《パレット評価》を見ればいいんですか。<%br>それは便利ですね。",
+		"tr_text": "《팔레트 평가》를 보면 되는 건가요?<%br>편리하네요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:7:1:16:16",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "この評価は、最大攻撃力などで判定しているので<%br>エネミーの弱点属性には、自分で合わせてくださいね。",
+		"tr_text": "이 평가는 최대 공격력 등을 기준으로 하므로<%br>에너미의 약점 속성에 맞게 직접 조정해 주세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:7:1:17:17",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "装備パレットは６つまで登録できますから<%br>属性や、武器種ごとのパレットを作るといいですよ。",
+		"tr_text": "장비 팔레트는 6개까지 등록할 수 있으니<%br>속성이나 무기 종류별로 팔레트를 만들면 좋아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:7:1:18:18",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "たしかに！　それならエネミーに合わせて<%br>ワンタッチでパレットを変更できますね！！",
+		"tr_text": "그렇네요! 그러면 에너미에 맞춰<%br>터치 한 번으로 팔레트를 바꿀 수 있겠어요!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:7:1:19:19",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "では、次回はこれまでの総まとめをしましょう！",
+		"tr_text": "그럼 다음 시간에는 지금까지 배운 내용을 총정리해 봐요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:7:1:20:20",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "まとめですか……<%br>リーダーはこれまでの内容、身につきました？",
+		"tr_text": "총정리요……<%br>리더는 지금까지 배운 내용을 익히셨나요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:7:1:21:21",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "まとめですか……<%br>リーダーはこれまでの内容、身につきました？",
+		"tr_text": "총정리요……<%br>리더는 지금까지 배운 내용을 익히셨나요?",
+		"jp_buttons": [
+			"バッチリ。",
+			"自信がない……"
+		],
+		"tr_buttons": [
+			"완벽해.",
+			"자신 없어……"
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:7:1:22:22",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "わぁ、すごいです！　あの……わたし、わからない<%br>ところがあって……教えてもらえませんか？",
+		"tr_text": "와, 대단해요! 저기…… 제가 모르는<%br>부분이 있어서…… 알려 주실 수 있나요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:7:1:23:23",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "わたしも、ちょっとあやしいです……<%br>一緒に復習しませんか？",
+		"tr_text": "저도 조금 자신이 없어요……<%br>같이 복습하지 않을래요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:7:1:24:24",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "うんうん、いいですねぇ。助け合い。<%br>それでは次回もお待ちしていますね！",
+		"tr_text": "네, 네. 서로 돕는 모습이 보기 좋네요.<%br>그럼 다음 시간에도 기다리고 있을게요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 7,
+		"fileID": 1,
+		"eventNo": "25",
+		"parameter_index": 25,
+		"__key": "event:7:1:25:25",
+		"jp_name": "ポイント",
+		"tr_name": "포인트",
+		"jp_text": "エネミーの特性に合わせて<%br>チップの効果的な組み合わせを探しましょう。",
+		"tr_text": "에너미의 특성에 맞춰<%br>효과적인 칩 조합을 찾아보세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:8:1:0:0",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "リーダー、ジェネちゃん。パレット編成の<%br>レクチャーも、今回が最終回となりました。",
+		"tr_text": "리더, 제네 양. 팔레트 편성<%br>강의도 이번이 마지막 시간이네요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:8:1:1:1",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "これまでの内容が身についているか……<%br>確認をさせていただきます。",
+		"tr_text": "지금까지 배운 내용을 익혔는지……<%br>확인해 보겠습니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:8:1:2:2",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "第１問！　強いチップの基準はなんでしたか？<%br>リーダー、お答えください。",
+		"tr_text": "1번 문제! 강한 칩의 기준은 무엇이었죠?<%br>리더, 대답해 주세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:8:1:3:3",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "第１問！　強いチップの基準はなんでしたか？<%br>リーダー、お答えください。",
+		"tr_text": "1번 문제! 강한 칩의 기준은 무엇이었죠?<%br>리더, 대답해 주세요.",
+		"jp_buttons": [
+			"★の数",
+			"かっこよさ"
+		],
+		"tr_buttons": [
+			"★의 수",
+			"멋진 정도"
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:8:1:4:4",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "正解です。★の数が多いほど強くなります。<%br>ただし、コストも高くなるので注意してください。",
+		"tr_text": "정답이에요. ★의 수가 많을수록 강해져요.<%br>다만 코스트도 높아지니 주의해 주세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:8:1:5:5",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "違います。正解は《★の数》です。<%br>★の数が多いほど強くなるんですよ。",
+		"tr_text": "아니에요. 정답은 《★의 수》예요.<%br>★의 수가 많을수록 강해진답니다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:8:1:6:6",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "では、第２問はジェネちゃん。チップの<%br>アビリティ説明の威力表記で一番強いのは？",
+		"tr_text": "그럼 2번 문제는 제네 양 차례예요. 칩의<%br>어빌리티 설명에서 가장 강한 위력 표기는 무엇이죠?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:8:1:7:7",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "「極度＞超絶＞絶大＞劇的＞大きい」<%br>だから……",
+		"tr_text": "「극도로＞초월적으로＞막대하게＞극적으로＞크게」<%br>그러니까……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:8:1:8:8",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "「極度」です！！",
+		"tr_text": "「극도로」예요!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:8:1:9:9",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "正解。《極度》、《超絶》、《絶大》、《劇的》、《大きい》<%br>この順番で強いんでしたね。",
+		"tr_text": "정답이에요. 《극도로》, 《초월적으로》, 《막대하게》, 《극적으로》, 《크게》<%br>앞에 있는 표현일수록 더 강한 거였죠.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:8:1:10:10",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "第３問、ジェネちゃん。武器やチップを編成する際<%br>どの属性値を上げるのが効果的ですか？",
+		"tr_text": "3번 문제예요, 제네 양. 무기나 칩을 편성할 때<%br>어떤 속성값을 올리는 게 효과적인가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:8:1:11:11",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "エネミーの《弱点属性》です。<%br>弱点属性の属性値を上げられるだけ上げます。",
+		"tr_text": "에너미의 《약점 속성》이에요.<%br>약점 속성의 속성값을 올릴 수 있는 만큼 올려요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:8:1:12:12",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "そうですね。ではリーダー、第４問です。<%br>攻撃をヒットさせると発動するチップが含まれるのは？",
+		"tr_text": "맞아요. 그럼 리더, 4번 문제예요.<%br>공격을 명중시키면 발동하는 칩은 어느 쪽에 포함될까요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:8:1:13:13",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "そうですね。ではリーダー、第４問です。<%br>攻撃をヒットさせると発動するチップが含まれるのは？",
+		"tr_text": "맞아요. 그럼 리더, 4번 문제예요.<%br>공격을 명중시키면 발동하는 칩은 어느 쪽에 포함될까요?",
+		"jp_buttons": [
+			"アクティブチップ",
+			"サポートチップ"
+		],
+		"tr_buttons": [
+			"액티브 칩",
+			"서포트 칩"
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:8:1:14:14",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "逆ですよ。<%br>《アクティブチップ》は、タッチで発動するほうです。",
+		"tr_text": "반대예요.<%br>《액티브 칩》은 터치하면 발동하는 쪽이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:8:1:15:15",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "正解です。《サポートチップ》の発動条件は<%br>ジャストアタックなど、さまざまでしたね。",
+		"tr_text": "정답이에요. 《서포트 칩》의 발동 조건은<%br>저스트 어택 등 다양했죠.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:8:1:16:16",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ジェネちゃんに最後の質問。《必殺技チップ》<%br>《法術チップ》はどう編成するのが効果的でしょうか？",
+		"tr_text": "제네 양에게 마지막 질문이에요. 《필살기 칩》과<%br>《테크닉 칩》은 어떻게 편성하는 게 효과적일까요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:8:1:17:17",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "えっと……１枚だけ入れて、ほかのチップで<%br>攻撃力や威力を上げる……です？",
+		"tr_text": "음…… 1장만 넣고 다른 칩으로<%br>공격력이나 위력을 올리는…… 건가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:8:1:18:18",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ええ、そうです。《必殺技チップ》か《法術チップ》を<%br>必ず１枚は入れておくといいですよ。",
+		"tr_text": "네, 맞아요. 《필살기 칩》이나 《테크닉 칩》을<%br>반드시 1장은 넣어 두는 게 좋아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:8:1:19:19",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "お疲れさまでした。ぜんぶ正解できましたか？<%br>間違えたところは後で見直してくださいね。",
+		"tr_text": "수고하셨어요. 전부 맞히셨나요?<%br>틀린 부분은 나중에 다시 확인해 주세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:8:1:20:20",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "それでは最後の総仕上げです！<%br>実際に装備パレットを編成してみましょう。",
+		"tr_text": "그럼 마지막 종합 실습이에요!<%br>직접 장비 팔레트를 편성해 봅시다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:8:1:21:21",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ジェネちゃん、編成してみてください。<%br>武器は両剣、エネミーの弱点属性は炎属性です。",
+		"tr_text": "제네 양, 편성해 보세요.<%br>무기는 더블 세이버, 에너미의 약점 속성은 염속성이에요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:8:1:22:22",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "は、はい！　やってみます。",
+		"tr_text": "네, 네! 해 볼게요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:8:1:23:23",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "炎属性用の編成、できました！<%br>どうです？",
+		"tr_text": "염속성용 편성, 완성했어요!<%br>어때요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:8:1:24:24",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "どれどれ……ふむ、なるほど。<%br>ジェネちゃん、解説してくれますか？",
+		"tr_text": "어디 보자…… 흠, 그렇군요.<%br>제네 양, 설명해 주겠어요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "25",
+		"parameter_index": 25,
+		"__key": "event:8:1:25:25",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "「セイガーソード」は、攻撃力が極度に増加します。<%br>定期的にＨＰを回復する効果も魅力的でした。",
+		"tr_text": "「세이가 소드」는 공격력이 극도로 증가해요.<%br>주기적으로 ＨＰ를 회복하는 효과도 매력적이었어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "26",
+		"parameter_index": 26,
+		"__key": "event:8:1:26:26",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "「ラヴィス＝ブレイド」は、炎属性が弱点の<%br>エネミーへのダメージが増加し……",
+		"tr_text": "「라비스=블레이드」는 염속성이 약점인<%br>에너미에게 주는 데미지가 증가하고……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "27",
+		"parameter_index": 27,
+		"__key": "event:8:1:27:27",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "炎の属性値上限もアップします。",
+		"tr_text": "염속성값의 상한도 올라가요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "28",
+		"parameter_index": 28,
+		"__key": "event:8:1:28:28",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "「バイオレードル」は、ジャストアタックが<%br>成功するたびに、攻撃力が上がります。",
+		"tr_text": "「바이오 레들」은 저스트 어택에<%br>성공할 때마다 공격력이 올라가요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "29",
+		"parameter_index": 29,
+		"__key": "event:8:1:29:29",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "「インフェルノバズーカ」は、攻撃力を強化し<%br>さらにＣＰの回復速度もアップします。",
+		"tr_text": "「인페르노 바주카」는 공격력을 강화하고<%br>추가로 ＣＰ 회복 속도도 높여 줘요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "30",
+		"parameter_index": 30,
+		"__key": "event:8:1:30:30",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "《必殺技チップ》は両剣の「サプライズダンク」です。<%br>近距離一発型の必殺技です！",
+		"tr_text": "《필살기 칩》은 더블 세이버용 「서프라이즈 덩크」예요.<%br>근거리 단발형 필살기예요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "31",
+		"parameter_index": 31,
+		"__key": "event:8:1:31:31",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "おおっ！！　なかなかいい編成ですね！<%br>ではリーダー、この編成で戦ってみましょう。",
+		"tr_text": "오오!! 꽤 좋은 편성이네요!<%br>그럼 리더, 이 편성으로 싸워 봅시다.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "32",
+		"parameter_index": 32,
+		"__key": "event:8:1:32:32",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "サポートチップの発動条件がすべて<%br>ジャストアタックなので、狙ってくださいね。",
+		"tr_text": "편성한 서포트 칩의 발동 조건이 모두<%br>저스트 어택이니 노려 보세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "33",
+		"parameter_index": 33,
+		"__key": "event:8:1:33:33",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "「インフェルノバズーカ」はアクティブチップなので<%br>タッチして、自分で発動させるのを忘れずに。",
+		"tr_text": "「인페르노 바주카」는 액티브 칩이니<%br>터치해서 직접 발동시키는 걸 잊지 마세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "34",
+		"parameter_index": 34,
+		"__key": "event:8:1:34:34",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "では……さっそく、いってみましょう！<%br>ＶＲ訓練、開始です！！",
+		"tr_text": "그럼…… 바로 해 봅시다!<%br>ＶＲ 훈련, 시작이에요!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 8,
+		"fileID": 1,
+		"eventNo": "35",
+		"parameter_index": 35,
+		"__key": "event:8:1:35:35",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "リーダー、後で感想を聞かせてくださいね。<%br>いってらっしゃいです！",
+		"tr_text": "리더, 나중에 감상을 들려주세요.<%br>다녀오세요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "0",
+		"parameter_index": 0,
+		"__key": "event:9:1:0:0",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "おかえりなさい！<%br>リーダー、わたしのパレット編成、どうでした？",
+		"tr_text": "다녀오셨어요!<%br>리더, 제 팔레트 편성은 어땠나요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "1",
+		"parameter_index": 1,
+		"__key": "event:9:1:1:1",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "おかえりなさい！<%br>リーダー、わたしのパレット編成、どうでした？",
+		"tr_text": "다녀오셨어요!<%br>리더, 제 팔레트 편성은 어땠나요?",
+		"jp_buttons": [
+			"戦いやすかった。",
+			"もっと大ダメージを出したい。"
+		],
+		"tr_buttons": [
+			"싸우기 편했어.",
+			"더 큰 데미지를 주고 싶어."
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "2",
+		"parameter_index": 2,
+		"__key": "event:9:1:2:2",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "よかったです！<%br>がんばって考えてみました！　えへへ……",
+		"tr_text": "다행이에요!<%br>열심히 생각해 봤어요!　에헤헤……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "3",
+		"parameter_index": 3,
+		"__key": "event:9:1:3:3",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "あくなき探究心……さすが、リーダーですね！",
+		"tr_text": "끝없는 탐구심…… 역시 리더시네요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "4",
+		"parameter_index": 4,
+		"__key": "event:9:1:4:4",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "今回学んだことを生かして、リーダーも<%br>最強のパレット編成を考えてくださいね。",
+		"tr_text": "이번에 배운 내용을 살려서 리더도<%br>최강의 팔레트 편성을 생각해 보세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "5",
+		"parameter_index": 5,
+		"__key": "event:9:1:5:5",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "持っているチップの数が少なくても<%br>うまく組み合わせれば、強い装備パレットが作れますよ。",
+		"tr_text": "가지고 있는 칩이 적더라도<%br>잘 조합하면 강한 장비 팔레트를 만들 수 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "6",
+		"parameter_index": 6,
+		"__key": "event:9:1:6:6",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "リーダー、わたしももっとがんばりますから<%br>一緒に勉強していきましょうね！！",
+		"tr_text": "리더, 저도 더 열심히 할 테니까<%br>함께 공부해 나가요!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "7",
+		"parameter_index": 7,
+		"__key": "event:9:1:7:7",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "基本のパレット編成ができたら……<%br>リンクスロット装備も設定してみてください。",
+		"tr_text": "기본 팔레트 편성을 마쳤다면……<%br>링크 슬롯 장비도 설정해 보세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "8",
+		"parameter_index": 8,
+		"__key": "event:9:1:8:8",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "リンクスロット装備……です？",
+		"tr_text": "링크 슬롯 장비…… 말인가요?",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "9",
+		"parameter_index": 9,
+		"__key": "event:9:1:9:9",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "装備パレットでリンクスロット装備をタッチすると<%br>装備画面が開いて、設定できますよ。",
+		"tr_text": "장비 팔레트에서 링크 슬롯 장비를 터치하면<%br>장비 화면이 열려 설정할 수 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "10",
+		"parameter_index": 10,
+		"__key": "event:9:1:10:10",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "編成したチップごとに、チップを装備できるんです。<%br>特定の条件を満たすと、追加効果が発揮されます！",
+		"tr_text": "편성한 칩마다 칩을 장비할 수 있어요.<%br>특정 조건을 충족하면 추가 효과가 발휘됩니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "11",
+		"parameter_index": 11,
+		"__key": "event:9:1:11:11",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "同じ属性のチップを装備すると<%br>リンクスキルが発動します。",
+		"tr_text": "같은 속성의 칩을 장비하면<%br>링크 스킬이 발동해요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "12",
+		"parameter_index": 12,
+		"__key": "event:9:1:12:12",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "パラメータの増加など<%br>さまざまな追加効果が得られます。",
+		"tr_text": "능력치 증가 등<%br>다양한 추가 효과를 얻을 수 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "13",
+		"parameter_index": 13,
+		"__key": "event:9:1:13:13",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "《必殺技チップ》は同じ武器種の《必殺技チップ》を<%br>《法術チップ》は同属性の《法術チップ》をつけると……",
+		"tr_text": "《필살기 칩》에는 같은 무기 종류의 《필살기 칩》을<%br>《테크닉 칩》에는 같은 속성의 《테크닉 칩》을 장비하면……",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "14",
+		"parameter_index": 14,
+		"__key": "event:9:1:14:14",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ダブル必殺技となる<%br>ラッシュアーツが発動します！！",
+		"tr_text": "더블 필살기인<%br>러시 아츠가 발동합니다!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "15",
+		"parameter_index": 15,
+		"__key": "event:9:1:15:15",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "分身「ラッシュ」が出現して<%br>必殺技や法術が追加で発動するんですよ。",
+		"tr_text": "분신 「러시」가 나타나서<%br>필살기나 테크닉이 추가로 발동해요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "16",
+		"parameter_index": 16,
+		"__key": "event:9:1:16:16",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "１回で２発撃てるんですね！<%br>それはお得です！",
+		"tr_text": "1번에 2발을 쏠 수 있군요!<%br>그건 이득이에요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "17",
+		"parameter_index": 17,
+		"__key": "event:9:1:17:17",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "リンクスキルとラッシュアーツの効果は<%br>チップの詳細情報で確認できますよ。",
+		"tr_text": "링크 스킬과 러시 아츠의 효과는<%br>칩의 상세 정보에서 확인할 수 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "18",
+		"parameter_index": 18,
+		"__key": "event:9:1:18:18",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "ただし、リンクスロット装備にもコスト上限があります。<%br>よく考えて編成してくださいね。",
+		"tr_text": "다만 링크 슬롯 장비에도 코스트 상한이 있어요.<%br>잘 생각해서 편성해 주세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "19",
+		"parameter_index": 19,
+		"__key": "event:9:1:19:19",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "わかりました！",
+		"tr_text": "알겠어요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "20",
+		"parameter_index": 20,
+		"__key": "event:9:1:20:20",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "パレット編成を評価する<%br>《パレット評価》の結果も参考にしてくださいね。",
+		"tr_text": "팔레트 편성을 평가하는<%br>《팔레트 평가》 결과도 참고해 주세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "21",
+		"parameter_index": 21,
+		"__key": "event:9:1:21:21",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "編成の総合力が数値で表示されるので<%br>数値が高い編成を使うといいですよ！",
+		"tr_text": "편성의 종합력이 수치로 표시되니<%br>수치가 높은 편성을 사용하면 좋아요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "22",
+		"parameter_index": 22,
+		"__key": "event:9:1:22:22",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "あとは……自分のチップが弱い時は<%br>フレンドのチップを利用するのもいいですね。",
+		"tr_text": "그리고…… 자신의 칩이 약할 때는<%br>프렌드의 칩을 이용하는 것도 좋아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "23",
+		"parameter_index": 23,
+		"__key": "event:9:1:23:23",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "出撃時に、同行するフレンドを選ぶと<%br>フレンドが設定しているチップを利用できます。",
+		"tr_text": "출격할 때 동행할 프렌드를 고르면<%br>프렌드가 설정한 칩을 이용할 수 있어요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "24",
+		"parameter_index": 24,
+		"__key": "event:9:1:24:24",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "コストの高い★１３チップが使えたりするので<%br>自分に足りないアビリティを借りるといいですよ。",
+		"tr_text": "코스트가 높은 ★13 칩도 사용할 수 있으니<%br>자신에게 부족한 어빌리티를 빌리면 좋아요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "25",
+		"parameter_index": 25,
+		"__key": "event:9:1:25:25",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "たしかに！　フレンドと協力して戦う……<%br>アークスの基本ですね！！",
+		"tr_text": "맞아요! 프렌드와 협력해서 싸우는 건……<%br>아크스의 기본이죠!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "26",
+		"parameter_index": 26,
+		"__key": "event:9:1:26:26",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "リーダー、いろんなパレット編成を試して<%br>評価を比べてみましょう！",
+		"tr_text": "리더, 팔레트를 다양하게 편성해 보고<%br>평가를 비교해 봐요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "27",
+		"parameter_index": 27,
+		"__key": "event:9:1:27:27",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "パレット編成は１日にしてならず。<%br>最強編成を目指してがんばってください。",
+		"tr_text": "팔레트 편성은 1일 만에 완성되지 않아요.<%br>최강의 편성을 목표로 힘내세요.",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "28",
+		"parameter_index": 28,
+		"__key": "event:9:1:28:28",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "それでは、パレット編成のレクチャーは<%br>これにて終了です。お疲れさまでした！",
+		"tr_text": "그럼 팔레트 편성 강의는<%br>이것으로 마칠게요. 수고하셨어요!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "29",
+		"parameter_index": 29,
+		"__key": "event:9:1:29:29",
+		"jp_name": "ジェネ",
+		"tr_name": "제네",
+		"jp_text": "セラフィさん、ありがとうございました！",
+		"tr_text": "세라피 씨, 감사합니다!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	},
+	{
+		"uniqueNo": 9,
+		"fileID": 1,
+		"eventNo": "30",
+		"parameter_index": 30,
+		"__key": "event:9:1:30:30",
+		"jp_name": "セラフィ",
+		"tr_name": "세라피",
+		"jp_text": "たくさんチップを集めて、自分だけの<%br>最強装備パレットを作ってみてくださいね！！",
+		"tr_text": "칩을 많이 모아서 자신만의<%br>최강 장비 팔레트를 만들어 보세요!!",
+		"jp_buttons": [
+			"",
+			""
+		],
+		"tr_buttons": [
+			"",
+			""
+		]
+	}
+]
