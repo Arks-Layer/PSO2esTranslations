@@ -1,0 +1,132 @@
+わずかに = "slightly" = 0-25%
+ = no adjective = 30-35%
+大きく = "greatly"= 40-60%
+劇的に = "dramatically " = 65-120%
+絶大に = "immensely" = 125-185%
+超絶に = "overwhelmingly" = 190-295%
+極度に = "maximally" = 300%+
+中 = "moderately"
+全 = "fully"
+
+Duration]短い時間
+Duration] Short
+
+Duration]一定時間
+Duration] Medium
+
+Duration]長い時間
+Duration] Long
+
+Duration]スライド操作を行うまでの長い時間
+Duration] Long, or until next Slide Action
+
+Duration]戦闘終了時まで
+Duration] Until end of battle
+
+("tr_explainLong": ".*)炎属性
+$1 Fire Element
+
+("tr_explainLong": ".*)氷属性
+$1 Ice Element
+
+[Activation Trigger]バトル終了時
+[Activation Trigger] End of battle
+
+[Activation Trigger]ジャストアタック成功時
+[Activation Trigger] Successful Just Attack
+
+[Activation Trigger]攻撃がヒットした時
+[Activation Trigger] Landing an attack
+
+[Activation Trigger]アクティブチップ発動時
+[Activation Trigger] Activating an Active Chip
+
+[Activation Trigger]戦闘不能になるダメージを受けた時
+[Activation Trigger] When defeated in battle
+
+[Activation Trigger]ダーカーに攻撃がヒットした時
+[Activation Trigger] Landing attacks on Darkers
+
+[Activation Trigger]機甲種に攻撃がヒットした時
+[Activation Trigger] Landing attacks on Mechs
+
+[Activation Trigger]龍族に攻撃がヒットした時
+[Activation Trigger] Landing attacks on Dragonkin
+
+[Activation Trigger]原生種に攻撃がヒットした時
+[Activation Trigger] Landing attacks on Natives
+
+[Activation Trigger]スライド操作時
+[Activation Trigger] Slide Action
+
+[Activation Trigger]ＨＰが最大で攻撃がヒットした時
+[Activation Trigger] Hit enemy while your HP is full
+
+[Activation Trigger]敵からの攻撃でＨＰが一定以下になった時
+[Activation Trigger] Damaged by enemy to low enough HP
+
+[Activation Trigger]必殺技チップ発動時
+[Activation Trigger] Activating a PA chip
+
+[Activation Trigger]法術チップ発動時
+[Activation Trigger] Activating a Tech chip
+
+[Activation Trigger]ジャストアタック成功もしくはスライド操作時
+[Activation Trigger] Successful JA or Slide Action
+
+[Activation Trigger]攻撃ヒット時
+[Activation Trigger] Landing an attack
+
+[Activation Trigger]戦闘開始もしくはジャストアタック成功時
+[Activation Trigger] Start of battle or successful JA
+
+[Activation Trigger]敵からの攻撃でダウンした時
+[Activation Trigger] Knocked down by an enemy
+
+[Activation Trigger]必殺技チップもしくは法術チップ使用時
+[Activation Trigger] Activating a PA or Tech chip
+
+[Activation Trigger]バトル開始時
+[Activation Trigger] Start of battle
+
+[Activation Trigger]敵からダメージを受けた時
+[Activation Trigger] Taking damage from enemies
+
+[Activation Trigger]ダーカーからダメージを受けた時
+[Activation Trigger] Taking damage from Darkers
+
+[Activation Trigger]原生種からダメージを受けた時
+[Activation Trigger] Taking damage from Natives
+
+[Activation Trigger]黒の民に攻撃がヒットした時
+[Activation Trigger] Landing attacks on Kuronites
+
+[Activation Trigger]龍族からダメージを受けた時
+[Activation Trigger] Taking damage from Dragonkin
+
+[Activation Trigger]機甲種からダメージを受けた時
+[Activation Trigger] Taking damage from Mechs
+
+"tr_explainLong": "(.*?[①②③④⑤⑥⑦⑧⑨⑩⑩] )攻撃力を(.*?)強化する。\\n([\[②③④⑤⑥⑦⑧⑨⑩])
+"tr_explainLong": "$1 Your ATK $2increases.\\n$3
+
+"tr_explainLong": "(.*?[①②③④⑤⑥⑦⑧⑨⑩⑩] )(.)属性を(.*?)強化する。\\n([\[②③④⑤⑥⑦⑧⑨⑩])
+"tr_explainLong": "$1 Your $2 Element $3increases.\\n$4
+
+"tr_explainLong": "(.*?[①②③④⑤⑥⑦⑧⑨⑩⑩] )攻撃力を(.*?)増加する。\\n([\[②③④⑤⑥⑦⑧⑨⑩])
+"tr_explainLong": "$1 Your damage is $2boosted.\\n     <color=yellow>[E-Frame]</color>\\n$3
+
+"tr_explainLong": "(.*?[①②③④⑤⑥⑦⑧⑨⑩⑩] )ＨＰを(.*?)回復する。\\n([\[②③④⑤⑥⑦⑧⑨⑩])
+"tr_explainLong": "$1 Your HP $2recovers.\\n$3
+
+"tr_explainLong": "(.*?[①②③④⑤⑥⑦⑧⑨⑩⑩] )敵全体に(.*?)ダメージを与える。\\n([\[②③④⑤⑥⑦⑧⑨⑩])
+"tr_explainLong": "$1 Deals $2damage to all enemies.\\n$3
+
+"tr_explainLong": "(.*?[①②③④⑤⑥⑦⑧⑨⑩⑩] )現在のクラスレベルに応じて\\n　　 攻撃力を(.*)増加する。\\n([\[②③④⑤⑥⑦⑧⑨⑩])
+"tr_explainLong": "$1 Your damage is $2boosted\\n    based on your Class Level.\\n     <color=yellow>[2D-Frame]</color>\\n$3
+
+"tr_explainLong": "(.*?[①②③④⑤⑥⑦⑧⑨⑩⑩] )このチップを装備中は(.)属性の必殺技・法術の\\n　　 チップコストが減少する。\\n([\[②③④⑤⑥⑦⑧⑨⑩])
+"tr_explainLong": "$1 While this chip is equipped, the equip costs of\\n     $2 PAs and Techs are reduced.\\n$3
+
+"tr_explainLong": "(.*?[①②③④⑤⑥⑦⑧⑨⑩⑩] )与えたダメージの一部を自身のＨＰとして回復する。\\n([\[②③④⑤⑥⑦⑧⑨⑩])
+"tr_explainLong": "$1 Recovers some of damage dealt as HP.\\n£$2
