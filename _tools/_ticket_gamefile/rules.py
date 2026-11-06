@@ -1,6 +1,6 @@
 """Internal category and naming rules; not an entry point.
 
-Shared by TicketGenerateFromGamefile.py and TicketGenerateToGamefile.py.
+Shared by TicketFromGamefile.py and TicketToGamefile.py.
 """
 
 import re
@@ -10,6 +10,9 @@ import unicodedata
 
 # JP is the source column, not a selectable translation mode.
 lang_names = ("JP", "CN", "EN", "KO", "RU", "TH")
+
+# Normalize ASCII width only; do not merge unrelated Japanese names via NFKC.
+WIDTH_TABLE = str.maketrans({**{chr(n): chr(n - 0xfee0) for n in range(0xff01, 0xff5f)}, '　': ' '})
 
 
 # Json files to update for each item category
@@ -39,7 +42,7 @@ json_paths = {
     "head": ["Item_Stack_Headparts.txt"],
     "face": ["Item_FacePattern.txt"],
     "ac": ["Item_Stack_Accessory.txt"],
-    "md": ["Item_Stack_Music.txt"],
+    # "md": ["Item_Stack_Music.txt"],
     "ca": ["Item_Stack_Duel_Card_Ticket.txt"],
     "ma": ["Item_Stack_Duel_Card_Play_Mat.txt"],
     "sv": ["Item_Stack_Duel_Card_Sleeve.txt"],
@@ -47,6 +50,32 @@ json_paths = {
     "vo": ["Item_Stack_Voice.txt"],
     "un": ["Item_Addon_Unit.txt"],
     "rg": ["Item_NGSRing1.txt", "Item_NGSRing2.txt"],
+    "rl": ["Item_RingL.txt"],
+    "rr": ["Item_RingR.txt"],
+    "pa": ["Item_Disk_PAAssaultRifle.txt", "Item_Disk_PACompoundbow.txt", "Item_Disk_PADoubleSaber.txt",
+           "Item_Disk_PADualBlade.txt", "Item_Disk_PAGunSlash.txt", "Item_Disk_PAJetBoots.txt",
+           "Item_Disk_PAKatana.txt", "Item_Disk_PAKnuckle.txt", "Item_Disk_PALauncher.txt",
+           "Item_Disk_PAPartizan.txt", "Item_Disk_PASword.txt", "Item_Disk_PATwinDagger.txt",
+           "Item_Disk_PATwinMachineGun.txt", "Item_Disk_PAWiredLance.txt"],
+    "pac": ["Item_Disk_PACustAssaultRifle.txt", "Item_Disk_PACustCompoundbow.txt", "Item_Disk_PACustDoubleSaber.txt",
+            "Item_Disk_PACustDualBlade.txt", "Item_Disk_PACustGunSlash.txt", "Item_Disk_PACustJetBoots.txt",
+            "Item_Disk_PACustKatana.txt", "Item_Disk_PACustKnuckle.txt", "Item_Disk_PACustLauncher.txt",
+            "Item_Disk_PACustPartizan.txt", "Item_Disk_PACustSword.txt", "Item_Disk_PACustTwinDagger.txt",
+            "Item_Disk_PACustTwinMachineGun.txt", "Item_Disk_PACustWiredLance.txt"],
+    "tec": ["Item_Disk_TECDark.txt", "Item_Disk_TECFire.txt", "Item_Disk_TECIce.txt", "Item_Disk_TECLight.txt",
+            "Item_Disk_TECThunder.txt", "Item_Disk_TECWind.txt", "Item_Disk_TECMultiple.txt"],
+    "tecc": ["Item_Disk_TECCustDark.txt", "Item_Disk_TECCustFire.txt", "Item_Disk_TECCustIce.txt",
+             "Item_Disk_TECCustLight.txt", "Item_Disk_TECCustThunder.txt", "Item_Disk_TECCustWind.txt"],
+    "co_m": ["Item_Costume_Male.txt"],
+    "co_f": ["Item_Costume_Female.txt"],
+    "ou_m": ["Item_Outer_Male.txt"],
+    "ou_f": ["Item_Outer_Female.txt"],
+    "arm_m": ["Item_Parts_ArmMale.txt"],
+    "arm_f": ["Item_Parts_ArmFemale.txt"],
+    "bod_m": ["Item_Parts_BodyMale.txt"],
+    "bod_f": ["Item_Parts_BodyFemale.txt"],
+    "leg_m": ["Item_Parts_LegMale.txt"],
+    "leg_f": ["Item_Parts_LegFemale.txt"],
     "um": ["Item_Stack_Tool.txt"]
 }
 
@@ -112,6 +141,10 @@ ring_type_translations = {
 
 ring_slash_translations = ("／", "/", "/", "／", None, "/")
 
+ring_hand_translations = {
+    "rl": ("左", "左", "Left", "왼손", "левую", "มือซ้าย"),
+    "rr": ("右", "右", "Right", "오른손", "правую", "มือขวา")}
+
 # Types of equipment upgrade materials (series names come from item_series_name)
 upgrade_material_types = {
     "ヴォルト": ("ヴォルト", "變轉零件", "volt", "볼트", None, "volt"),
@@ -143,9 +176,14 @@ min_assign_digits = {
 start_assigns = {
     "md": "319010000"}
 
+# Classic clothing is excluded from both tools in CN mode.
+cn_excluded_prefixes = ("co_m", "co_f", "ou_m", "ou_f", "arm_m", "arm_f",
+                        "bod_m", "bod_f", "leg_m", "leg_f")
+
 # Reboot selector and path relative to the CN repository root.
 source_files = {
     "common": (True, "UI/common.text.ini"),
+    "actor_name": (False, "UI/actor_name.text.ini"),
     "ui_accessories_text": (False, "UI/ui_accessories_text.text.ini"),
     "ui_charamake_parts": (False, "UI/ui_charamake_parts.text.ini"),
     "item_element_name_reb": (False, "UI/item_element_name_reb.text.ini"),
@@ -162,7 +200,12 @@ csv_directories = {
     "RU": ("translated files/UI", "Reboot/UI"),
     "TH": ("UI", "Translated/UI"),
 }
-csv_directory_overrides = {("KO", "lineduel_text"): "Linestrike"}
+csv_directory_overrides = {
+    ("KO", "lineduel_text"): "Linestrike",
+    ("EN", "actor_name"): "Misc",
+    ("KO", "actor_name"): "Misc",
+    ("RU", "actor_name"): "translated files/Misc",
+    ("TH", "actor_name"): "Misc"}
 
 source_for_prefix = {'mo': 'common',
  'bp': 'ui_accessories_text',
@@ -192,7 +235,45 @@ source_for_prefix = {'mo': 'common',
  'ma': 'lineduel_text',
  'sv': 'lineduel_text',
  'ha': 'common',
- 'vo': 'ui_charamake_parts'}
+ 'vo': 'ui_charamake_parts',
+ 'pa': 'actor_name',
+ 'pac': 'actor_name',
+ 'tec': 'actor_name',
+ 'tecc': 'actor_name',
+ 'rl': 'ui_item',
+ 'rr': 'ui_item',
+ 'co_m': 'ui_charamake_parts',
+ 'co_f': 'ui_charamake_parts',
+ 'ou_m': 'ui_charamake_parts',
+ 'ou_f': 'ui_charamake_parts',
+ 'arm_m': 'ui_charamake_parts',
+ 'arm_f': 'ui_charamake_parts',
+ 'bod_m': 'ui_charamake_parts',
+ 'bod_f': 'ui_charamake_parts',
+ 'leg_m': 'ui_charamake_parts',
+ 'leg_f': 'ui_charamake_parts'}
+
+# Classic PA/TEC actor ID families; ordinary and custom disks share #0 names.
+disk_actor_prefixes = {
+    "PAAssaultRifle": "RiflePA", "PACompoundbow": "CompoundBowPA",
+    "PADoubleSaber": "DsaberPA", "PADualBlade": "DbladePA",
+    "PAGunSlash": "GunslashPA", "PAJetBoots": "JetBootsPA",
+    "PAKatana": "KatanaPA", "PAKnuckle": "KnucklePA",
+    "PALauncher": "LauncherPA", "PAPartizan": "PartisanPA",
+    "PASword": "SwordPA", "PATwinDagger": "TdaggerPA",
+    "PATwinMachineGun": "MachinegunPA", "PAWiredLance": "WlancePA",
+    "TECDark": "Dark", "TECFire": "Fire", "TECIce": "Ice",
+    "TECLight": "Light", "TECThunder": "Thunder", "TECWind": "Wind",
+    "TECMultiple": "Multi(?:WT|FD|IL)"}
+
+disk_prefixes = ("pa", "pac", "tec", "tecc")
+
+# Normalize JP lookup keys without changing the stored item names.
+classic_prefixes = disk_prefixes + ("rl", "rr", "co_m", "co_f", "ou_m", "ou_f",
+                                    "arm_m", "arm_f", "bod_m", "bod_f", "leg_m", "leg_f")
+
+# These categories read independent description data from the matching #1 field.
+explain_prefixes = ("pa", "tec", "rl", "rr")
 
 # Names and texts of items (plain_formats if not defined; texts of cards are formed by form_card_texts)
 plain_formats = ["{jp_text}"] + ["{tr_text}"] * 5
@@ -236,6 +317,15 @@ ha_texts = [
     "Ha「{jp_text}」",  "Ha「{tr_text}」", "Ha \"{tr_text}\"",
     "Ha「{tr_text}」", None, "Ha \"{tr_text}\""]
 
+rl_texts = ["Ｌ／{jp_text}"] + ["L/{tr_text}"] * 5
+
+rr_texts = ["Ｒ／{jp_text}"] + ["R/{tr_text}"] * 5
+
+pac_texts = ["{jp_text}／Ｃ"] + ["{tr_text}/C"] * 5
+
+tecc_texts = ["{jp_text}／カスタム", "{tr_text}/自定義", "{tr_text}/Custom",
+              "{tr_text}/커스텀", "{tr_text}/Custom", "{tr_text}/Custom"]
+
 # Explains of items, only for information from game files
 # (other explains are translated by TicketDescriptions.py, existing ones are retained)
 no_explains = [""] * 6
@@ -244,7 +334,19 @@ vo_explains = [
     "",
     "使用後，可選用新的語音。\nCV：{cv_tr_name}",
     "Allows a new voice to be selected.\nUsable by all characters.\nCV: {cv_tr_name}",
-    None, None, None]
+    "사용하면 새로운 보이스를\n선택할 수 있다.\nCV: {cv_tr_name}",
+    "Позволяет выбрать новый голос.\nДоступно всем персонажам.\nCV: {cv_tr_name}",
+    "เมื่อใช้งาน จะสามารถเลือก Voice ใหม่ได้กับทุกตัวละครในไอดี\nCV: {cv_tr_name}"]
+
+rl_explains = rr_explains = [
+    "{jp_itype}手用。装備中は以下のスキルが有効。\n「{jp_explain}」\n<yellow>※装備中に敵撃破でリングＥＸＰ獲得<c>",
+    "{tr_itype}手用。裝備中會生效以下技能。\n「{tr_explain}」\n<yellow>※裝備中擊敗敵人獲得戒指EXP<c>",
+    'Equipment for the {tr_itype} Hand.\n"{tr_explain}"\n<yellow>※Equipped rings gain EXP as you do.<c>',
+    "{tr_itype}용. 장비 중에는 다음 스킬이 활성화된다.\n「{tr_explain}」\n<yellow>※장비 중 적을 격파하면 링 EXP 획득<c>",
+    'Экипируется на {tr_itype} руку.\n"{tr_explain}"\n<yellow>※Надетые кольца получают EXP\nкак и вы.<c>',
+    'อุปกรณ์สําหรับ{tr_itype} ขณะสวมใส่จะมีผลของสกิลต่อไปนี้:\n"{tr_explain}"\n<yellow>※ได้รับ Ring EXP จากการกําจัดศัตรูขณะสวมใส่<c>']
+
+pa_explains = tec_explains = ["{jp_explain}"] + ["{tr_explain}"] * 5
 
 # Stack_Voice: 31800, 318012, 318026, 3180148, 3180132 in KO/TH.
 # These are name decorations only; actor names always come from JSON.
@@ -283,6 +385,32 @@ def csv_path(name, language):
     if directory is None:
         directory = csv_directories[language][source_files[name][0]]
     return f'{directory}/{name}.csv'
+
+
+# [FUNCTION] Select the same JSON scope for dispatch, loading and candidate collection.
+def get_json_paths(language, forward):
+    # TicketFromGamefile.py generates HA/VO only in CN; TicketToGamefile.py also supports CSV voice recovery.
+    return {prefix: paths for prefix, paths in json_paths.items()
+            if not (language == "CN" and prefix in cn_excluded_prefixes)
+            and not (forward and language != "CN" and prefix in ("ha", "vo"))}
+
+
+# [FUNCTION] Normalize ASCII width for matching without rewriting the name.
+def width_key(text):
+    return text.translate(WIDTH_TABLE)
+
+
+# [FUNCTION] Read the effective translation, including the green name prefix used by CN.
+def effective_name(item, lang):
+    # Tradable CN items retain JP in tr_text; their translation lives in this prefix.
+    name = item['tr_text']
+    if lang == 'CN':
+        match = re.match(r'^<green>“([^\n]*)”<c>\n', item['tr_explain'])
+        if match:
+            if name and width_key(name) != width_key(item['jp_text']) and name != match[1]:
+                raise ValueError('green_note_conflicts_with_name')
+            name = match[1]
+    return name
 
 
 # [FUNCTION] Generate string with a different width
@@ -344,6 +472,7 @@ def form_vo_names(text_id, jp_fulltext, tr_fulltext):
     # (voices without cv name are voiced by the characters themselves, e.g. "でびでび・でびる")
     vo_jp_name = jp_fulltext.split("/")[0]
     vo_tr_name, cv_tr_name = tr_fulltext.split("/") if "/" in tr_fulltext else (tr_fulltext, tr_fulltext)
+    vo_tr_name, cv_tr_name = vo_tr_name.strip(), cv_tr_name.strip()
 
     # Determine version and gender of the voice based on text id
     # NGS voices: "11_voice_cman9xx"/"11_voice_cwoman9xx", then "11_voice_3xxxxx"/"11_voice_4xxxxx"
@@ -481,7 +610,9 @@ def iter_equipment_structures(jp_text, jp_type, series_records, records_by_base)
 def edit_special_text(prefix, jp_text, tr_text, jp_refer, lang):
     jp_refer = jp_refer[0] if jp_refer else ""
 
-    if prefix == "ca" and jp_text == "アルクェイド・ブリュンスタッド":
+    if prefix == "rr" and jp_text == "テックアーツJAPPセイブ":
+        jp_text = "テックアーツＪＡＰＰＳ"
+    elif prefix == "ca" and jp_text == "アルクェイド・ブリュンスタッド":
         sp_texts = ["アルクェイド", "愛爾奎特", "Arcueid", "알퀘이드", None, "Arcueid"]
         jp_text = sp_texts[0]
         tr_text = sp_texts[lang]
@@ -499,7 +630,7 @@ def edit_special_text(prefix, jp_text, tr_text, jp_refer, lang):
         sp_texts = ["（夢幻祭）", "（夢幻祭）", " (Super Phantasy Festival)", "（몽환제）", None, None]
         jp_text += sp_texts[0]
         tr_text = tr_text + sp_texts[lang] if sp_texts[lang] is not None else None
-    elif prefix == "ca" and jp_text == "先代ダークファルス【若人】":
+    elif prefix == "ca" and jp_text == "先代ダークファルス 【若人】":
         sp_texts = ["先代DF【若人】", "前代DF【若人】", "Previous DF [Apprentice]", "선대 DF【약인】", None, None]
         jp_text = sp_texts[0]
         tr_text = sp_texts[lang]
@@ -535,6 +666,33 @@ def format_common_suffix(jp_suffix, lang):
 
 def contains_japanese(text):
     return bool(re.search(r'[\u3040-\u30ff\u4e00-\u9fff]', text))
+
+
+# [FUNCTION] Read the independent body or skill-name component from a gamefile description.
+def get_explain_text(prefix, text):
+    if prefix in ("pa", "tec"):
+        return text.replace("<br>", "\n").strip()
+    return text.split("<br>", 1)[0].strip()
+
+
+# [FUNCTION] Match description data first, then a ring's own name when the quote uses it.
+def get_explain_source(prefix, explain, jp_name, jp_reference):
+    sources = [(1, get_explain_text(prefix, jp_reference))]
+    hand = ""
+    if prefix in ring_hand_translations:
+        hand = ring_hand_translations[prefix][0]
+        sources.append((0, jp_name))
+    for field, text in sources:
+        expected = globals()[prefix + "_explains"][0].format(jp_itype=hand, jp_explain=text)
+        if width_key(explain.strip()) == width_key(expected):
+            return field
+    return None
+
+
+# [FUNCTION] Limit a disk file to its own weapon/technique actor family.
+def disk_matches_file(path, text_id):
+    family = path[len("Item_Disk_"):-len(".txt")].replace("Cust", "", 1)
+    return re.fullmatch(disk_actor_prefixes[family] + r"\d+#0", text_id) is not None
 
 
 def get_target_lines(sources):
@@ -601,6 +759,43 @@ def get_target_lines(sources):
         (text_id, jp_text) for text_id, jp_text in sources["ui_charamake_parts"]
         if re.match(r'11_voice_(c|[34]\d{5}#)', text_id)]
 
+    pa_pattern = "(?:" + "|".join(value for family, value in disk_actor_prefixes.items()
+                                  if family.startswith("PA")) + r")\d+#0"
+    tec_pattern = "(?:" + "|".join(value for family, value in disk_actor_prefixes.items()
+                                   if family.startswith("TEC")) + r")\d+#0"
+    actor_explains = dict(sources["actor_name"])
+    pa_jp_target_lines = remove_dummy_lines([
+        (text_id, jp_text, actor_explains.get(text_id[:-1] + "1", "")) for text_id, jp_text in sources["actor_name"]
+        if re.fullmatch(pa_pattern, text_id)])
+    tec_jp_target_lines = remove_dummy_lines([
+        (text_id, jp_text, actor_explains.get(text_id[:-1] + "1", "")) for text_id, jp_text in sources["actor_name"]
+        if re.fullmatch(tec_pattern, text_id)])
+    ring_explains = dict(sources["ui_item"])
+    old_ring_jp_target_lines = remove_dummy_lines([
+        (text_id, jp_text, ring_explains.get(text_id[:-1] + "1", "")) for text_id, jp_text in sources["ui_item"]
+        if text_id.startswith("ring_") and text_id.endswith("#0")])
+    # Classic costumes include CAST looks; the leg table contains both #2 and #3 IDs.
+    co_m_jp_target_lines = remove_dummy_lines(
+        get_table_jp_target_lines(sources["ui_charamake_parts"], "No00003#1", r'^No[04]\d{4}#'))
+    co_f_jp_target_lines = remove_dummy_lines(
+        get_table_jp_target_lines(sources["ui_charamake_parts"], "No10002#1", r'^No[15]\d{4}#'))
+    ou_m_jp_target_lines = remove_dummy_lines(
+        get_table_jp_target_lines(sources["ui_charamake_parts"], "No20021#1", r'^No2\d{4}#'))
+    ou_f_jp_target_lines = remove_dummy_lines(
+        get_table_jp_target_lines(sources["ui_charamake_parts"], "No30020#1", r'^No3\d{4}#'))
+    arm_m_jp_target_lines = remove_dummy_lines(
+        get_table_jp_target_lines(sources["ui_charamake_parts"], "No40001#0", r'^No4\d{4}#'))
+    arm_f_jp_target_lines = remove_dummy_lines(
+        get_table_jp_target_lines(sources["ui_charamake_parts"], "No50001#0", r'^No5\d{4}#'))
+    bod_m_jp_target_lines = remove_dummy_lines(
+        get_table_jp_target_lines(sources["ui_charamake_parts"], "No40001#1", r'^No4\d{4}#'))
+    bod_f_jp_target_lines = remove_dummy_lines(
+        get_table_jp_target_lines(sources["ui_charamake_parts"], "No50001#1", r'^No5\d{4}#'))
+    leg_m_jp_target_lines = remove_dummy_lines(
+        get_table_jp_target_lines(sources["ui_charamake_parts"], "No40001#3", r'^No4\d{4}#'))
+    leg_f_jp_target_lines = remove_dummy_lines(
+        get_table_jp_target_lines(sources["ui_charamake_parts"], "No50001#3", r'^No5\d{4}#'))
+
     return {
         "mo": mo_jp_target_lines,
         "bp": bp_jp_target_lines,
@@ -631,4 +826,20 @@ def get_target_lines(sources):
         "sv": sv_jp_target_lines,
         "ha": ha_jp_target_lines,
         "vo": vo_jp_target_lines,
+        "pa": pa_jp_target_lines,
+        "pac": pa_jp_target_lines,
+        "tec": tec_jp_target_lines,
+        "tecc": tec_jp_target_lines,
+        "rl": old_ring_jp_target_lines,
+        "rr": old_ring_jp_target_lines,
+        "co_m": co_m_jp_target_lines,
+        "co_f": co_f_jp_target_lines,
+        "ou_m": ou_m_jp_target_lines,
+        "ou_f": ou_f_jp_target_lines,
+        "arm_m": arm_m_jp_target_lines,
+        "arm_f": arm_f_jp_target_lines,
+        "bod_m": bod_m_jp_target_lines,
+        "bod_f": bod_f_jp_target_lines,
+        "leg_m": leg_m_jp_target_lines,
+        "leg_f": leg_f_jp_target_lines,
     }

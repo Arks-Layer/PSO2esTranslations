@@ -16,8 +16,9 @@ from urllib.error import HTTPError
 from urllib.request import urlopen
 
 from _ticket_gamefile import rules
-from _ticket_gamefile.io import (GameFile, replace_ring_name, replace_series_name,
-                              strip_ring_name)
+from _ticket_gamefile.rules import effective_name, width_key
+from _ticket_gamefile.io import (GameFile, preserve_padding, replace_ring_name, replace_series_name,
+                              strip_ring_name, web_pages)
 
 
 # ——————————————————————————————
@@ -48,7 +49,7 @@ jsonfile_dir = project_dir / 'json'
 # --json-dir overrides both this directory and the revision.
 json_ref = None
 
-# JP source URLs match TicketGenerateFromGamefile.py. These downloads only provide
+# JP source URLs match TicketFromGamefile.py. These downloads only provide
 # the original names and text IDs; no local JP checkout is required or modified.
 PSO2CSV_url = 'https://raw.githubusercontent.com/Arks-Layer/PSO2ENPatchCSV/'
 csv_jp_url = 'JP/Files/'
@@ -67,15 +68,13 @@ PSO2CSV_reboot_path = repositories_dir / 'PSO2ENPatchCSV(EN_win32reboot)'
 
 # A placeholder separates translated name components from ticket decorations.
 MARKER = '譯名佔位符'
-# Normalize ASCII width only; do not merge unrelated Japanese names via NFKC.
-WIDTH_TABLE = str.maketrans({**{chr(n): chr(n - 0xfee0) for n in range(0xff01, 0xff5f)}, '　': ' '})
 
 
 # ——————————————————————————————
 # FUNCTION
 # ——————————————————————————————
 
-# [FUNCTION] Print the title of a stage, following the forward tool's output style.
+# [FUNCTION] Print the title of a stage, following TicketFromGamefile.py's output style.
 def print_stage(title):
     print(f"\n{'=' * 64}\n  {title}\n{'=' * 64}")
 
@@ -83,24 +82,6 @@ def print_stage(title):
 # [FUNCTION] Print a status line and its associated path or result.
 def print_status(status, message):
     print(f'  {status:<9}{message}')
-
-
-# [FUNCTION] Normalize ASCII width for matching without rewriting the name.
-def width_key(text):
-    return text.translate(WIDTH_TABLE)
-
-
-# [FUNCTION] Read the effective translation, including the green name prefix used by CN.
-def effective_name(item, lang):
-    # Tradable CN items retain JP in tr_text; their translation lives in this prefix.
-    name = item['tr_text']
-    if lang == 'CN':
-        match = re.match(r'^<green>“([^\n]*)”<c>\n', item['tr_explain'])
-        if match:
-            if name and width_key(name) != width_key(item['jp_text']) and name != match[1]:
-                raise ValueError('green_note_conflicts_with_name')
-            name = match[1]
-    return name
 
 
 @dataclass(frozen=True)
@@ -138,7 +119,8 @@ def extract_name(tokens, text, known=None):
     visit(0, 0, {})
     if len(solutions) != 1:
         return None
-    return {token: known[token] for token in tokens if isinstance(token, Field) and token in known} | solutions[0]
+    values = {token: known[token] for token in tokens if isinstance(token, Field) and token in known} | solutions[0]
+    return {token: value.strip() for token, value in values.items()}
 
 
 # [FUNCTION] Turn a ticket format into literal decorations and one translated-name field.
@@ -165,21 +147,21 @@ def csv_voice_name(entry, item_name, japanese_item, language):
         match = re.fullmatch(re.escape(prefix) + r' (.+?) ' + voice_pattern + r'\s*' + re.escape(suffix), item_name)
         # KO keeps its number attached; EN/TH retain their existing spaces.
         number_separator = '' if language == 3 else ' '
-        return f'{prefix} {match[1]}{number_separator}{suffix}' if match else None
+        return f'{prefix} {match[1].strip()}{number_separator}{suffix}' if match else None
     if japanese_item.startswith(('T1', 'T2')):
         match = re.fullmatch(re.escape(japanese_item[:2]) + r' (.+) ' + voice_pattern, item_name)
         if not match:
             return None
-        return f'{japanese_item[:2]} {match[1]}' if source_name.startswith(('T1', 'T2')) else match[1]
+        return f'{japanese_item[:2]} {match[1].strip()}' if source_name.startswith(('T1', 'T2')) else match[1].strip()
     gender = parts['male'] if japanese_item.startswith('男性') else parts['female'] if japanese_item.startswith('女性') else None
     if gender is None:
         return None
     match = re.fullmatch('(' + parts['all'] + ')?' + gender + r'\s*(.+)', item_name)
     if not match:
         return None
-    label = match[2]
+    label = match[2].strip()
     if '共通' in japanese_item or 'Ｃ' in japanese_item:
-        label = re.sub('^' + parts['common'], '', label, count=1)
+        label = re.sub('^' + parts['common'], '', label, count=1).strip()
     elif match[1]:
         return None
     for jp_prefix, translated_prefix in [('追加ボイス', parts['extra']), ('［ＥＸ］ボイス', parts['ex'])]:
@@ -192,7 +174,7 @@ def csv_voice_name(entry, item_name, japanese_item, language):
     if source_name.endswith(('ボイス', 'Ｖｏ')):
         return label if re.search(' ' + voice_pattern + '$', label) else None
     match = re.fullmatch(r'(.+) ' + voice_pattern, label)
-    return match[1] if match else None
+    return match[1].strip() if match else None
 
 
 @dataclass
@@ -210,6 +192,7 @@ class ReverseGenerator:
     def __init__(self, lang, japanese, targets):
         self.lang = lang
         self.language = rules.lang_names.index(lang)
+        self.json_paths = rules.get_json_paths(lang, forward=False)
         self.japanese = japanese
         self.targets = targets
         self.jp_pairs = {name: japanese[name].pairs if name in japanese else [] for name in rules.source_files}
@@ -223,7 +206,7 @@ class ReverseGenerator:
             if base and not base.startswith('￥'):
                 self.series_records.append({'jp_base': base})
                 self.series_keys[base].append(self.target_key('item_series_name', text_id, name))
-        # These commented CN aliases are read as data by the forward tool too.
+        # These commented CN aliases are read as data by TicketFromGamefile.py too.
         if lang == 'CN' and 'item_series_name' in targets:
             for key, value in targets['item_series_name'].pairs:
                 if key.startswith(';') and value:
@@ -232,8 +215,14 @@ class ReverseGenerator:
                     self.series_records.append({'jp_base': base})
         self.series_records.sort(key=lambda row: len(row['jp_base']), reverse=True)
         self.series_by_base = {record['jp_base']: record for record in self.series_records}
+        self.ring_skills = defaultdict(list)
+        for text_id, text in self.jp_pairs['ui_item']:
+            if text_id.startswith('ring_') and text_id.endswith('#1'):
+                self.ring_skills[strip_ring_name(text)].append(text_id)
         self.direct = defaultdict(list)
         for category, entries in rules.get_target_lines(self.jp_pairs).items():
+            if category not in self.json_paths:
+                continue
             for text_id, name, *refer in entries:
                 source = rules.source_for_prefix[category]
                 if category == 'vo':
@@ -250,12 +239,15 @@ class ReverseGenerator:
                     if motion_type[self.language] is None:
                         continue
                     fields.update(jp_itype=motion_type[0], tr_itype=motion_type[self.language])
+                elif category in rules.ring_hand_translations:
+                    hand = rules.ring_hand_translations[category]
+                    fields.update(jp_itype=hand[0], tr_itype=hand[self.language])
                 templates = getattr(rules, category + '_texts', rules.plain_formats)
                 if templates[self.language] is None:
                     continue
                 lookup = jp_name if category == 'ca' else templates[0].format(jp_text=jp_name, **fields)
                 self.direct[category, width_key(lookup)].append({
-                    'source': source, 'id': text_id, 'jp': name, 'refer': refer,
+                    'source': source, 'id': text_id, 'jp': name, 'jp_name': jp_name, 'refer': refer,
                     'translation': translated, 'template': templates[self.language], 'fields': fields,
                 })
 
@@ -288,7 +280,7 @@ class ReverseGenerator:
     # [FUNCTION] Check JSON fields and the existing category scope, then collect all candidates.
     def add_items(self, files):
         self.filenames = set(files)
-        for category, filenames in rules.json_paths.items():
+        for category, filenames in self.json_paths.items():
             for filename in filenames:
                 if filename not in files:
                     continue
@@ -301,6 +293,8 @@ class ReverseGenerator:
                 started = not start_assign
                 for index, item in enumerate(rows):
                     required = ('assign', 'jp_text', 'tr_text', 'tr_explain')
+                    if category in rules.explain_prefixes:
+                        required += ('jp_explain',)
                     if (not isinstance(item, dict) or any(key not in item for key in required)
                             or any(not isinstance(item[key], str) for key in required[1:])
                             or not isinstance(item['assign'], (str, int)) or isinstance(item['assign'], bool)):
@@ -338,14 +332,14 @@ class ReverseGenerator:
                         elif category == 'vo':
                             self.reverse_voice(record, item)
                         else:
-                            self.reverse_direct(record)
+                            self.reverse_direct(record, item)
                     except ValueError as error:
                         record.update(status='skipped', reason=str(error))
         self.reverse_equipment()
         return self.finish()
 
     # [FUNCTION] Recover simple names and ticket contents, including card variant references.
-    def reverse_direct(self, record):
+    def reverse_direct(self, record, item):
         category = record['category']
         lookup = record['jp_text']
         if category == 'ca':
@@ -354,13 +348,10 @@ class ReverseGenerator:
                 raise ValueError('invalid_card_structure')
             lookup = match[2]
         sources = self.direct.get((category, width_key(lookup)), [])
+        if category in rules.disk_prefixes:
+            sources = [entry for entry in sources if rules.disk_matches_file(record['file'], entry['id'])]
         if not sources:
             raise ValueError('japanese_source_missing')
-        # Card IDs in the same tens group are variants of the same named card.
-        if self.lang != 'CN' and len({entry['id'] for entry in sources}) > 1:
-            groups = {int(entry['id'].split('#')[0]) // 10 for entry in sources} if category == 'ca' else set()
-            if category != 'ca' or len(groups) != 1:
-                raise ValueError('ambiguous_japanese_sources')
         pending = []
         for entry in sources:
             translated = entry['translation']
@@ -374,17 +365,37 @@ class ReverseGenerator:
                 cost = match[1][len(element):]
                 translated_element = rules.ca_itype_translations[element][self.language]
                 tokens = format_tokens(rules.ca_texts[self.language], tr_itype=translated_element, cost=cost)
-                tokens[0] += inner_prefix
-                tokens[-1] = inner_suffix + tokens[-1]
             else:
                 tokens = format_tokens(entry['template'], **entry['fields'])
-                tokens[0] += inner_prefix
-                tokens[-1] = inner_suffix + tokens[-1]
+            tokens[0] += inner_prefix
+            tokens[-1] = inner_suffix + tokens[-1]
             values = extract_name(tokens, record['name'])
             if values is None:
                 raise ValueError('translated_name_does_not_fit_template')
             key = self.target_key(entry['source'], entry['id'], entry['jp'])
             pending.append((entry['source'], key, values[Field(('name',))]))
+            if category in rules.explain_prefixes:
+                templates = getattr(rules, category + '_explains')
+                field = rules.get_explain_source(category, item['jp_explain'], entry['jp_name'], entry['refer'][0])
+                if field is None:
+                    continue
+                body = item['tr_explain']
+                if self.lang == 'CN':
+                    body = re.sub(r'^<green>“[^\n]*”<c>\n', '', body, count=1)
+                body = body.split('\n<yellow>', 1)[0]
+                template = templates[self.language].split('\n<yellow>', 1)[0]
+                values = extract_name(format_tokens(template, tr_explain=MARKER, **entry['fields']), body)
+                if values is None:
+                    continue
+                value = values[Field(('name',))]
+                if category in ('pa', 'tec'):
+                    value = value.replace('\n', '<br>')
+                japanese = entry['refer'][0] if field == 1 else entry['jp']
+                key = self.target_key(entry['source'], entry['id'][:-1] + str(field), japanese)
+                target = self.targets[entry['source']].entries.get(key)
+                if category in rules.ring_hand_translations and field == 1 and target is not None:
+                    value = replace_ring_name(target.text, value, preserve_suffix=False)
+                pending.append((entry['source'], key, value))
         self._commit_candidates(record, pending, 'direct_name')
 
     # [FUNCTION] Validate every field of an item before contributing it to shared targets.
@@ -394,9 +405,10 @@ class ReverseGenerator:
             target = self.targets[source]
             if key not in target.entries or key in target.ambiguous:
                 raise ValueError('target_key_missing_or_ambiguous')
-            if not value or value == '-' or value.startswith(('￥', 'text_')) or any(char in value for char in '\r\n\x00'):
-                raise ValueError('invalid_translation_value')
+            if not value:
+                raise ValueError('empty_translation_value')
         for source, key, value in candidates:
+            value = preserve_padding(self.targets[source].entries[key].text, value)
             self.proposals[source, key][value].add(record['id'])
             proposal = {'source': source, 'key': key, 'value': value, 'rule': rule}
             if proposal not in record['targets']:
@@ -411,18 +423,19 @@ class ReverseGenerator:
         if translated_type is None:
             raise ValueError('missing_language_dictionary')
         prefix = translated_type + rules.ring_slash_translations[self.language]
-        if not record['name'].startswith(prefix) or not record['name'][len(prefix):]:
+        values = extract_name([prefix, Field(('name',))], record['name'])
+        if values is None or not values[Field(('name',))]:
             raise ValueError('translated_name_does_not_fit_template')
-        matches = [(key, text) for key, text in self.jp_pairs['ui_item']
-                   if key.startswith('ring_') and key.endswith('#1') and strip_ring_name(text) == skill]
+        translated_skill = values[Field(('name',))]
+        matches = self.ring_skills.get(skill, [])
         if len(matches) != 1:
             raise ValueError('ring_skill_source_not_unique')
-        text_id, _ = matches[0]
+        text_id = matches[0]
         key = self.target_key('ui_item', text_id, skill)
         target = self.targets['ui_item']
         if key not in target.entries or key in target.ambiguous:
             raise ValueError('target_key_missing_or_ambiguous')
-        value = replace_ring_name(target.entries[key].text, record['name'][len(prefix):])
+        value = replace_ring_name(target.entries[key].text, translated_skill)
         self._commit_candidates(record, [('ui_item', key, value)], 'ring_name_only')
 
     # [FUNCTION] Recover a voice name and its explicit CV without copying the full description.
@@ -439,7 +452,8 @@ class ReverseGenerator:
             if self.lang == 'CN':
                 marker = entry['marker']
                 prefix, suffix = entry['pattern'].split(marker, 1)
-                values = extract_name([prefix, Field(('name',)), suffix], record['name'])
+                tokens = [prefix, Field(('name',)), suffix]
+                values = extract_name(tokens, record['name'])
                 if values is None:
                     continue
                 voice = values[Field(('name',))]
@@ -453,15 +467,20 @@ class ReverseGenerator:
                 if re.search(r'[\u4e00-\u9fa5][A-Z]$', voice) and not re.search(r'[A-ZＡ-Ｚ]$', raw_voice):
                     continue
                 jp_names, tr_names, _ = rules.form_vo_names(entry['id'], entry['effective_jp'], voice + '/' + cv)
-                if not any(width_key(jp) == width_key(record['jp_text']) and tr == record['name']
+                if not any(width_key(jp) == width_key(record['jp_text']) and tr == render_tokens(tokens, values)
                            for jp, tr in zip(jp_names, tr_names)):
                     continue
             else:
                 voice = csv_voice_name(entry, record['name'], record['jp_text'], self.language)
                 if voice is None:
                     continue
+            key = self.target_key('ui_charamake_parts', entry['id'], entry['jp'])
             if '/' in entry['jp']:
                 value = voice + '/' + cv
+                original = self.targets['ui_charamake_parts'].entries.get(key)
+                if original is not None and '/' in original.text:
+                    original_voice, original_cv = original.text.split('/', 1)
+                    value = preserve_padding(original_voice, voice) + '/' + preserve_padding(original_cv, cv)
             else:
                 _, expected = rules.edit_special_text('vo', entry['jp'], voice, [], self.language)
                 if expected is None:
@@ -470,7 +489,7 @@ class ReverseGenerator:
                 if expected_cv != cv:
                     continue
                 value = voice
-            candidates.add(('ui_charamake_parts', self.target_key('ui_charamake_parts', entry['id'], entry['jp']), value))
+            candidates.add(('ui_charamake_parts', key, value))
         if len({(key, value) for _, key, value in candidates}) != 1:
             raise ValueError('voice_translation_not_uniquely_recoverable')
         self._commit_candidates(record, candidates, 'voice_name_and_cv')
@@ -648,8 +667,8 @@ class ReverseGenerator:
                 'items': self.items, 'targets': changes}
 
 
-# [FUNCTION] Load a JP CSV from the same URL layout as the forward tool.
-def get_web(url):
+# [FUNCTION] Load a JP CSV from the same URL layout as TicketFromGamefile.py.
+def get_web(url, report=print_status):
     # Retry transient connection failures, keeping TLS verification enabled.
     # A missing/forbidden source or a third failure must stop the run.
     for attempt in range(3):
@@ -659,14 +678,14 @@ def get_web(url):
         except (OSError, IncompleteRead) as error:
             if isinstance(error, HTTPError) and error.code == 404:
                 error.close()
-                print_status('FAILED', f'File does not exist: {url} (skipped)')
+                report('FAILED', f'File does not exist: {url} (skipped)')
                 return None
             if attempt == 2 or (isinstance(error, HTTPError) and error.code < 500):
                 raise OSError(f'{url}: {error}') from error
-            print_status('RETRY', f"{url.rsplit('/', 1)[-1]} (attempt {attempt + 2}/3; {error})")
+            report('RETRY', f"{url.rsplit('/', 1)[-1]} (attempt {attempt + 2}/3; {error})")
             sleep(attempt + 1)
         else:
-            print_status('LOADED', url.rsplit('/', 1)[-1])
+            report('LOADED', url.rsplit('/', 1)[-1])
             return content
 
 
@@ -675,38 +694,40 @@ def load_gamefiles(args):
     # JP stays in memory; only existing local targets can be written.
     japanese, targets = {}, {}
     print_stage('Loading JP game files from the network')
-    for name, (reboot, cn_path) in rules.source_files.items():
-        directory = csv_reboot_jp_url if reboot else csv_jp_url
-        url = PSO2CSV_url + directory + name + '.csv'
-        content = get_web(url)
-        japanese[name] = GameFile.from_bytes(content or b'', url)
-        if content is None:
-            continue
-        if japanese[name].ambiguous:
-            raise ValueError(f'{url}: duplicate JP text IDs')
-        if not japanese[name].pairs:
-            raise ValueError(f'{url}: JP gamefile contains no entries')
-        if args.lang == 'CN':
-            known = [text for _, text in japanese[name].pairs]
-            if name == 'ui_item':
-                known += [strip_ring_name(text) for key, text in japanese[name].pairs
-                          if key.startswith('ring_') and key.endswith('#1')]
-            path = args.cn_root / cn_path
-            kind = 'ini'
-        else:
-            csv_root = args.csv_ngs if reboot else args.csv_classic
-            path = csv_root / rules.csv_path(name, args.lang)
-            kind, known = 'csv', ()
-        try:
-            targets[name] = GameFile(path, kind, known, name == 'item_series_name' and kind == 'ini')
-        except FileNotFoundError:
-            print_status('FAILED', f'File does not exist: {path} (skipped)')
+    urls = {name: PSO2CSV_url + (csv_reboot_jp_url if reboot else csv_jp_url) + name + '.csv'
+            for name, (reboot, _) in rules.source_files.items()}
+    with web_pages(urls.values(), get_web, print_status) as pages:
+        for name, (reboot, cn_path) in rules.source_files.items():
+            url = urls[name]
+            content = pages[url]()
+            japanese[name] = GameFile.from_bytes(content or b'', url)
+            if content is None:
+                continue
+            if japanese[name].ambiguous:
+                raise ValueError(f'{url}: duplicate JP text IDs')
+            if not japanese[name].pairs:
+                raise ValueError(f'{url}: JP gamefile contains no entries')
+            if args.lang == 'CN':
+                known = [text for _, text in japanese[name].pairs]
+                if name == 'ui_item':
+                    known += [strip_ring_name(text) for key, text in japanese[name].pairs
+                              if key.startswith('ring_') and key.endswith('#1')]
+                path = args.cn_root / cn_path
+                kind = 'ini'
+            else:
+                csv_root = args.csv_ngs if reboot else args.csv_classic
+                path = csv_root / rules.csv_path(name, args.lang)
+                kind, known = 'csv', ()
+            try:
+                targets[name] = GameFile(path, kind, known, name == 'item_series_name' and kind == 'ini')
+            except FileNotFoundError:
+                print_status('FAILED', f'File does not exist: {path} (skipped)')
     return japanese, targets
 
 
 # [FUNCTION] Load working JSON or an explicitly configured local Git revision.
 def load_json(args):
-    filenames = sorted({name for names in rules.json_paths.values() for name in names})
+    filenames = sorted({name for names in rules.get_json_paths(args.lang, forward=False).values() for name in names})
     if args.json_ref:
         repository = args.json_dir.parent
         try:
@@ -771,10 +792,9 @@ def report_skipped(summary):
         'invalid_card_structure': 'invalid card name format',
         'invalid_card_element': 'unknown card element',
         'japanese_source_missing': 'JP text not found',
-        'ambiguous_japanese_sources': 'multiple JP matches',
         'translated_name_does_not_fit_template': 'translated name does not match the expected format',
         'target_key_missing_or_ambiguous': 'local gamefile key missing or duplicated',
-        'invalid_translation_value': 'translation contains a line break or NUL',
+        'empty_translation_value': 'translated component is empty',
         'invalid_ring_structure': 'invalid ring name format',
         'ring_skill_source_not_unique': 'ring skill does not have a unique JP match',
         'japanese_voice_source_missing': 'JP voice not found',
@@ -856,7 +876,7 @@ def parse_arguments(argv=None):
 # [FUNCTION] Run the selected language and print file-grouped changes and completion counts.
 def main():
     args = parse_arguments()
-    print_stage(f'Reverse backfill ({args.lang}; online JP, local gamefiles)')
+    print_stage(f'TicketToGamefile ({args.lang}; online JP, local gamefiles)')
     if args.lang != 'CN':
         print_status('GAMEFILE', args.csv_classic)
         print_status('GAMEFILE', args.csv_ngs)
@@ -866,7 +886,7 @@ def main():
         result = run(args)
     except (OSError, ValueError) as error:
         raise SystemExit(f'FAILED: {error}') from error
-    print_stage('Backfill results')
+    print_stage('TicketToGamefile results')
     summary = result['summary']
     print_status('DONE', f"{summary['targets'].get('changed', 0)} values changed; "
                  f"{summary['targets'].get('conflict', 0)} targets skipped due to conflicts")

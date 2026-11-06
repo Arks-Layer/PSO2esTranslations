@@ -1,4 +1,4 @@
-"""Internal library shared by the TicketGenerate tools; not an entry point.
+"""Internal library shared by the ticket gamefile tools; not an entry point.
 
-Run TicketGenerateFromGamefile.py or TicketGenerateToGamefile.py instead.
+Run TicketFromGamefile.py or TicketToGamefile.py instead.
 """

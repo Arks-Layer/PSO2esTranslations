@@ -1,10 +1,12 @@
 """Internal gamefile I/O helpers; not an entry point.
 
-Used by TicketGenerateToGamefile.py. JP downloads stay in memory; replacements
+Shared by the F/T tools. JP downloads stay in memory; replacements
 preserve the untouched lines of local text.ini/CSV files byte-for-byte.
 """
 
 import csv
+from concurrent.futures import ThreadPoolExecutor
+from contextlib import contextmanager
 from dataclasses import dataclass
 import io
 import os
@@ -14,6 +16,27 @@ import stat
 import tempfile
 
 from .rules import strip_series_suffix
+
+
+@contextmanager
+def web_pages(urls, get_web, report):
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        pages = {}
+        for url in dict.fromkeys(urls):
+            messages = []
+            future = executor.submit(get_web, url, lambda status, message, log=messages: log.append((status, message)))
+
+            # Resolve on the caller thread to preserve log order and error handling.
+            def read(future=future, messages=messages):
+                try:
+                    return future.result()
+                finally:
+                    for status, message in messages:
+                        report(status, message)
+                    messages.clear()
+
+            pages[url] = read
+        yield pages
 
 
 def decode_text(value):
@@ -143,14 +166,21 @@ class GameFile:
         return True
 
 
+def preserve_padding(text, value):
+    start = len(text) - len(text.lstrip())
+    end = max(start, len(text.rstrip()))
+    return text[:start] + value.strip() + text[end:]
+
+
 def strip_ring_name(text):
     return text.split('<br>', 1)[0].replace('／リング', '').replace('/リング', '').strip()
 
 
-def replace_ring_name(text, name):
+def replace_ring_name(text, name, preserve_suffix=True):
     first, separator, rest = text.partition('<br>')
-    suffix = re.search(r'(?:／リング|/リング)\s*$', first)
-    return name + (suffix.group() if suffix else '') + separator + rest
+    suffix = re.search(r'(?:／リング|/リング)\s*$', first) if preserve_suffix else None
+    base = first[:suffix.start()] if suffix else first
+    return preserve_padding(base, name) + (suffix.group() if suffix else '') + separator + rest
 
 
 def replace_series_name(text, name, lang):
