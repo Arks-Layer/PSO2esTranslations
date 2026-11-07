@@ -282,7 +282,10 @@ def merge_trade_infos(current, incoming):
 
 # [FUNCTION] Expand table cells once, keeping shared cells inside their own table.
 def iter_html_tables(data):
-    for before, table in re.findall(r'(.*?)<table\b[^>]*>(.*?)</table>', data, re.S):
+    start = 0
+    for match in re.finditer(r'<table\b[^>]*>(.*?)</table>', data, re.S):
+        before, table = data[start:match.start()], match[1]
+        start = match.end()
         rows = []
         spans = {}
         for row in re.findall(r'<tr\b[^>]*>(.*?)</tr>', table, re.S):
