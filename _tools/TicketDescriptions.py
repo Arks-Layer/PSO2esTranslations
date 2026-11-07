@@ -5466,7 +5466,7 @@ def translate_tool_desc(item, file_name, name_prefix):
     return set_description(item, desc_format.format(**values), normalize=False)
 
 # ——————————————————————————————
-# GACHA-EXCHANGE (NGS Part) RULES & TRANSLATION
+# GACHA-EXCHANGE RULES & TRANSLATION
 # ——————————————————————————————
 
 gacha_source_formats = {
@@ -5479,13 +5479,14 @@ gacha_source_name_formats = {
     "sp": r"(?P<title>.+?)(?P<date>'[0-9]+)?SPセレクト券(?P<suffix_date>'[0-9]+)?",
     "treasure": r"(?:超・)?トレジャーセレクト券Vol\.(?P<number>[0-9]+)",
     "prize": r"[0-9]+周年(?:サンクフル[A-Za-z]*|メモリーズ)景品交換券",
+    "ticket": r".+?券\s*",
 }
 
-# Select/Exchange suffixes identify translated ticket names, never Scratch tickets.
+# JP names distinguish select/exchange tickets from ordinary ticket titles.
 gacha_item_name_formats = {
     # JP text: {title}スペシャルセレクト券
     "special": [
-        r"(?P<title>.*?)(?:Special )?Select Ticket",
+        r"(?P<title>.*?)(?:Special )?(?:Select|Scratch) Ticket",
         r"(?P<title>.*?)(?:스페셜 )?셀렉트권",
         "",
         r"(?P<title>.*?)(?:特殊)?自選券",
@@ -5493,7 +5494,7 @@ gacha_item_name_formats = {
     ],
     # JP text: {title}{date}SPセレクト券 / {title}SPセレクト券{date}
     "sp": [
-        r"(?P<title>.+?)(?: (?P<date>'[0-9]+))?(?: (?:SP|Special))? Select Ticket",
+        r"(?P<title>.+?)(?: (?P<date>'[0-9]+))?(?: (?:SP|Special))? (?:Select )?Ticket",
         r"(?P<title>.+?)(?P<date>'[0-9]+)? SP 셀렉트권",
         "",
         r"(?P<title>.+?)(?P<date>'[0-9]+)?SP自選券",
@@ -5514,6 +5515,14 @@ gacha_item_name_formats = {
         "",
         r"(?P<title>.+?)獎品交換券",
         "(?P<title>.+?) Exchange Ticket",
+    ],
+    # JP text: {title}券
+    "ticket": [
+        r"(?P<title>.+?)(?: Ticket)?\s*",
+        r"(?P<title>.+?)권\s*",
+        "",
+        r"(?P<title>.+?)券\s*",
+        "(?P<title>.+?)(?: Ticket)?\\s*",
     ],
 }
 
@@ -5536,17 +5545,17 @@ gacha_date_formats = [" {date}", "{date}", "", "{date}", " {date}"]
 gacha_desc_formats = [
     ("During the target scratch, one gift\n"
      "can be selected and exchanged.\n"
-     "<yellow>Target Scratch:\n"
-     "{target}<c>"),
-    ("대상 스크래치 판매 기간 중\n"
-     "경품 1개를 선택해 교환할 수 있는 티켓.\n"
-     "<yellow>※대상 스크래치:\n"
-     "{target}<c>"),
+     "{yellow}Target Scratch:\n"
+     "{target}{c}"),
+    ("대상 스크래치 판매 기간 중 경품\n"
+     "1개를 선택해 교환할 수 있는 티켓.\n"
+     "{yellow}※대상 스크래치:\n"
+     "{target}{c}"),
     (""),
     ("可在對象轉蛋的販賣期間\n"
      "自選交換1件獎品的票券。\n"
-     "<yellow>※對象轉蛋：\n"
-     "　{target}<c>"),
+     "{yellow}※對象轉蛋：\n"
+     "　{target}{c}"),
     ("สามารถเลือกแลกของรางวัลได้ 1 ชิ้นในระหว่างช่วงเวลาของตั๋วสแครชเป้าหมาย\n"
      "ตั๋วสแครชเป้าหมาย:\n"
      "\"{target}\""),
@@ -5562,45 +5571,59 @@ def translate_gacha_desc(item, file_name, name_prefix):
         return -1
     if match_description(item, gacha_source_formats, {}) is None:
         return -4
+    item_name = get_item_name(item, name_prefix)
     problem = get_translation_problem(item)
     if problem:
         return problem
     parts = get_item_name_parts(item, name_prefix, gacha_item_name_formats[target_type])
-    if parts is None:
-        return -5
+    desc_sort = "o2" if len(item["assign"]) == 7 else "ngs"
+    yellow, c = ("<yellow>", "<c>") if desc_sort == "ngs" else ("", "")
     template = gacha_desc_formats[LANG]
     if not template:
         return -5
 
-    values = {key: value.strip() for key, value in parts.items()}
     source = match.groupdict(default="")
+    date = ""
     if target_type == "sp":
         if source["date"] and source["suffix_date"]:
             return -5
         date = source["date"] or source["suffix_date"]
-        if date != values["date"]:
-            return -5
-        values["date"] = gacha_date_formats[LANG].format(date=date) if date else ""
         if "コラボ" in source["title"]:
             target_type = "collaboration"
-    elif target_type == "treasure" and source["number"] != values["number"]:
-        return -5
-    target = values["title"] if target_type == "prize" else gacha_title_formats[target_type][LANG].format(**values).strip()
+    if parts is None:
+        if LANG != 3 or (item_name and item_name != item["jp_text"]):
+            return -5
+        if target_type in ("special", "sp", "collaboration", "treasure"):
+            target = regex.sub(r"セレクト券(?:Vol\.)?", "スクラッチ", item["jp_text"])
+        else:
+            target = item["jp_text"].strip().removesuffix("景品交換券" if target_type == "prize" else "券")
+    else:
+        values = {key: value.strip() for key, value in parts.items()}
+        if target_type in ("sp", "collaboration"):
+            if date != values["date"]:
+                return -5
+            values["date"] = gacha_date_formats[LANG].format(date=date) if date else ""
+        elif target_type == "treasure" and source["number"] != values["number"]:
+            return -5
+        target = (values["title"] if target_type in ("prize", "ticket") else
+                  gacha_title_formats[target_type][LANG].format(**values).strip())
     if LANG == 0:
-        native_target = get_existing_description_field(item, template, "target")
-        if (target_type == "collaboration" and values["date"] and native_target
-                and not native_target.endswith(values["date"])):
+        native_template = template.format(target="{target}", yellow="<yellow>", c="<c>")
+        native_target = (get_existing_description_field(item, native_template, "target") or
+                         get_existing_description_field(item, native_template.replace("<yellow>", "").replace("<c>", ""), "target"))
+        if (target_type == "collaboration" and date and native_target
+                and not native_target.endswith(date)):
             native_target = None
         # These baseline captions name the exchange ticket instead of its scratch.
         if native_target and not regex.search(r"\b(?:Select|Prize Exchange)\b", native_target):
             if target_type in ("sp", "collaboration"):
                 native_target = regex.sub(r"\bSpecial Scratch\b", "SP Scratch", native_target)
             target = native_target
-        elif target_type == "prize":
+        elif target_type == "prize" and parts is not None:
             target = get_ticket_target_name(item, name_prefix, item["jp_text"].removesuffix("景品交換券"))
             if target is None:
                 return -5
-    return set_description(item, template.format(target=target))
+    return set_description(item, template.format(target=target, yellow=yellow, c=c))
 
 # ——————————————————————————————
 # MAPPINGS AND CONDITIONS
@@ -5631,7 +5654,6 @@ description_assign_lengths = {
     "Stack_Boost": 8,
     "Stack_PaidPass": 9,
     "Stack_Tool": 8,
-    "Stack_GachaTradePass": 9,
 }
 
 # ——————————————————————————————
