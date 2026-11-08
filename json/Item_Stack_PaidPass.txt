@@ -3203,42 +3203,41 @@
 		"jp_text": "N-特殊能力追加アイテム保護",
 		"tr_text": "N-Ability Protection",
 		"jp_explain": "アイテムの特殊能力追加失敗時に\n素材アイテムが\n消費されるのを防止する。",
-		"tr_explain": "Returns the Material Items that\nwere lost from synthesis when\nadding an Ability fails."
+		"tr_explain": "Prevents material item consumption\nif adding an Ability fails."
 	},
 	{
 		"assign": "321010041",
 		"jp_text": "N-限界突破代用材/限界値30",
 		"tr_text": "N-Limit Break Substitution/30",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を20から30にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +20 on a single item."
+		"tr_explain": "Removes the material requirement\nto raise the Grind Limit of a single item\nfrom 20 to 30."
 	},
 	{
 		"assign": "321010042",
 		"jp_text": "N-限界突破代用材/限界値40",
 		"tr_text": "N-Limit Break Substitution/40",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を30から40にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +30 on a single item."
+		"tr_explain": "Removes the material requirement\nto raise the Grind Limit of a single item\nfrom 30 to 40."
 	},
 	{
 		"assign": "321010043",
 		"jp_text": "N-限界突破代用材/限界値50",
 		"tr_text": "N-Limit Break Substitution/50",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を40から50にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +40 on a single item."
+		"tr_explain": "Removes the material requirement\nto raise the Grind Limit of a single item\nfrom 40 to 50."
 	},
 	{
 		"assign": "321010044",
 		"jp_text": "N-限界突破代用材/限界値60",
 		"tr_text": "N-Limit Break Substitution/60",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を50から60にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +50 on a single item."
 	},
 	{
 		"assign": "321010045",
 		"jp_text": "N-限界突破代用材/限界値70",
 		"tr_text": "N-Limit Break Substitution/70",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を60から70にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +60 on a single item."
+		"tr_explain": "Removes the material requirement\nto raise the Grind Limit of a single item\nfrom 60 to 70."
 	},
 	{
 		"assign": "321010054",
@@ -3273,35 +3272,35 @@
 		"jp_text": "N-潜在能力解放代用材/Lv.1",
 		"tr_text": "N-Potential Subsitution/Lv.1",
 		"jp_explain": "アイテムの潜在能力を\nLv.1にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.1 on a single item."
+		"tr_explain": "Removes the material requirement\nto unlock Potential Ability Lv.1 on a\nsingle item."
 	},
 	{
 		"assign": "321010064",
 		"jp_text": "N-潜在能力解放代用材/Lv.2",
 		"tr_text": "N-Potential Subsitution/Lv.2",
 		"jp_explain": "アイテムの潜在能力を\nLv.2にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.2 on a single item."
+		"tr_explain": "Removes the material requirement\nto unlock Potential Ability Lv.2 on a\nsingle item."
 	},
 	{
 		"assign": "321010065",
 		"jp_text": "N-潜在能力解放代用材/Lv.3",
 		"tr_text": "N-Potential Subsitution/Lv.3",
 		"jp_explain": "アイテムの潜在能力を\nLv.3にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.3 on a single item."
+		"tr_explain": "Removes the material requirement\nto unlock Potential Ability Lv.3 on a\nsingle item."
 	},
 	{
 		"assign": "321010066",
 		"jp_text": "N-潜在能力解放代用材/Lv.4",
 		"tr_text": "N-Potential Subsitution/Lv.4",
 		"jp_explain": "アイテムの潜在能力を\nLv.4にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.4 on a single item."
+		"tr_explain": "Removes the material requirement\nto unlock Potential Ability Lv.4 on a\nsingle item."
 	},
 	{
 		"assign": "321010067",
 		"jp_text": "N-潜在能力解放代用材/Lv.5",
 		"tr_text": "N-Potential Subsitution/Lv.5",
 		"jp_explain": "アイテムの潜在能力を\nLv.5にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.5 on a single item."
+		"tr_explain": "Removes the material requirement\nto unlock Potential Ability Lv.5 on a\nsingle item."
 	},
 	{
 		"assign": "321015032",
@@ -4890,7 +4889,7 @@
 		"jp_text": "『NGS』Ver.1全トレイニア踏破",
 		"tr_text": "[NGS] All Ver. 1 Trainia Unlocker",
 		"jp_explain": "『NGS』Ver.1全トレイニア踏破",
-		"tr_explain": "A pass that automatically unlocks &\nclears all [NGS] Ver.1 Trainia.\n<yellow>※Excludes Advanced Trainia.<c>"
+		"tr_explain": "Clears all [NGS] Ver.1 Trainia."
 	},
 	{
 		"assign": "321010304",
@@ -4911,21 +4910,21 @@
 		"jp_text": "★８武器強化スキップ＋30",
 		"tr_text": "★8 Weapon Grind Skip +30",
 		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★８以下の武器の\n強化値を最大30にする。",
-		"tr_explain": "Allows you to skip grinding a ★7 or\nlower weapon to up to +30, subject\nto its current Grind Limit."
+		"tr_explain": "Allows you to skip grinding a ★8 or\nlower weapon to up to +30, subject\nto its current Grind Limit."
 	},
 	{
 		"assign": "321010305",
 		"jp_text": "★８武器強化スキップ＋40",
 		"tr_text": "★8 Weapon Grind Skip +40",
 		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★８以下の武器の\n強化値を最大40にする。",
-		"tr_explain": "Allows you to skip grinding a ★7 or\nlower weapon to up to +40, subject\nto its current Grind Limit."
+		"tr_explain": "Allows you to skip grinding a ★8 or\nlower weapon to up to +40, subject\nto its current Grind Limit."
 	},
 	{
 		"assign": "321010306",
 		"jp_text": "★８武器強化スキップ＋50",
 		"tr_text": "★8 Weapon Grind Skip +50",
 		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★８以下の武器の\n強化値を最大50にする。",
-		"tr_explain": "Allows you to skip grinding a ★7 or\nlower weapon to up to +50, subject\nto its current Grind Limit."
+		"tr_explain": "Allows you to skip grinding a ★8 or\nlower weapon to up to +50, subject\nto its current Grind Limit."
 	},
 	{
 		"assign": "321010307",
@@ -5268,133 +5267,133 @@
 		"jp_text": "プリセット能力強化成功率＋10％",
 		"tr_text": "Preset Ability Success +10%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010354",
 		"jp_text": "プリセット能力強化成功率＋15％",
 		"tr_text": "Preset Ability Success +15%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010355",
 		"jp_text": "プリセット能力強化成功率＋20％",
 		"tr_text": "Preset Ability Success +20%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010356",
 		"jp_text": "プリセット能力強化成功率＋25％",
 		"tr_text": "Preset Ability Success +25%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010357",
 		"jp_text": "プリセット能力強化成功率＋30％",
 		"tr_text": "Preset Ability Success +30%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010358",
 		"jp_text": "プリセット能力強化成功率＋35％",
 		"tr_text": "Preset Ability Success +35%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010359",
 		"jp_text": "プリセット能力強化成功率＋40％",
 		"tr_text": "Preset Ability Success +40%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010360",
 		"jp_text": "プリセット能力強化成功率＋45％",
 		"tr_text": "Preset Ability Success +45%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010361",
 		"jp_text": "プリセット能力強化成功率＋50％",
 		"tr_text": "Preset Ability Success +50%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010362",
 		"jp_text": "プリセット能力強化成功率＋55％",
 		"tr_text": "Preset Ability Success +55%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010363",
 		"jp_text": "プリセット能力強化成功率＋60％",
 		"tr_text": "Preset Ability Success +60%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010364",
 		"jp_text": "プリセット能力強化成功率＋65％",
 		"tr_text": "Preset Ability Success +65%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010365",
 		"jp_text": "プリセット能力強化成功率＋70％",
 		"tr_text": "Preset Ability Success +70%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010366",
 		"jp_text": "プリセット能力強化成功率＋75％",
 		"tr_text": "Preset Ability Success +75%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010367",
 		"jp_text": "プリセット能力強化成功率＋80％",
 		"tr_text": "Preset Ability Success +80%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010368",
 		"jp_text": "プリセット能力強化成功率＋85％",
 		"tr_text": "Preset Ability Success +85%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010369",
 		"jp_text": "プリセット能力強化成功率＋90％",
 		"tr_text": "Preset Ability Success +90%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010370",
 		"jp_text": "プリセット能力強化成功率＋95％",
 		"tr_text": "Preset Ability Success +95%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010371",
 		"jp_text": "プリセット能力強化成功率＋100％",
 		"tr_text": "Preset Ability Success +100%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010372",
@@ -5408,28 +5407,28 @@
 		"jp_text": "プリセット能力強化成功＆代用材/Lv.1",
 		"tr_text": "Preset Ability & Material Cost Substitution/Lv.1",
 		"jp_explain": "プリセット能力の強化を100％成功させ\n必要素材アイテムを不要にする。\nベースアイテムのプリセット能力レベルが\n表示レベル以下の場合のみ使用可能。",
-		"tr_explain": "Success Rate 100% & material\nrequirement removed for Enhancing\nPreset Abilities. Only works if the\nitem's level is equal or lower."
+		"tr_explain": "Success Rate 100% & material requirement\nremoved for Enhancing Preset Abilities. Only\nusable if base item's Preset Ability\nlevel is at or below the displayed level."
 	},
 	{
 		"assign": "321010374",
 		"jp_text": "プリセット能力強化成功＆代用材/Lv.2",
 		"tr_text": "Preset Ability & Material Cost Substitution/Lv.2",
 		"jp_explain": "プリセット能力の強化を100％成功させ\n必要素材アイテムを不要にする。\nベースアイテムのプリセット能力レベルが\n表示レベル以下の場合のみ使用可能。",
-		"tr_explain": "Success Rate 100% & material\nrequirement removed for Enhancing\nPreset Abilities. Only works if the\nitem's level is equal or lower."
+		"tr_explain": "Success Rate 100% & material requirement\nremoved for Enhancing Preset Abilities. Only\nusable if base item's Preset Ability\nlevel is at or below the displayed level."
 	},
 	{
 		"assign": "321010375",
 		"jp_text": "プリセット能力強化成功＆代用材/Lv.3",
 		"tr_text": "Preset Ability & Material Cost Substitution/Lv.3",
 		"jp_explain": "プリセット能力の強化を100％成功させ\n必要素材アイテムを不要にする。\nベースアイテムのプリセット能力レベルが\n表示レベル以下の場合のみ使用可能。",
-		"tr_explain": "Success Rate 100% & material\nrequirement removed for Enhancing\nPreset Abilities. Only works if the\nitem's level is equal or lower."
+		"tr_explain": "Success Rate 100% & material requirement\nremoved for Enhancing Preset Abilities. Only\nusable if base item's Preset Ability\nlevel is at or below the displayed level."
 	},
 	{
 		"assign": "321010376",
 		"jp_text": "プリセット能力強化成功＆代用材/Lv.4",
 		"tr_text": "Preset Ability & Material Cost Substitution/Lv.4",
 		"jp_explain": "プリセット能力の強化を100％成功させ\n必要素材アイテムを不要にする。\nベースアイテムのプリセット能力レベルが\n表示レベル以下の場合のみ使用可能。",
-		"tr_explain": "Success Rate 100% & material\nrequirement removed for Enhancing\nPreset Abilities. Only works if the\nitem's level is equal or lower."
+		"tr_explain": "Success Rate 100% & material requirement\nremoved for Enhancing Preset Abilities. Only\nusable if base item's Preset Ability\nlevel is at or below the displayed level."
 	},
 	{
 		"assign": "321015082",
@@ -5457,7 +5456,7 @@
 		"jp_text": "トレジャースクラッチ券Vol.2",
 		"tr_text": "Treasure Scratch Ticket Vol.2",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>トレジャースクラッチ2<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Treasure Scratch 2<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Treasure Scratch Vol.2<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015086",
@@ -5478,14 +5477,13 @@
 		"jp_text": "N-潜在能力解放代用材/Lv.6",
 		"tr_text": "N-Potential Subsitution/Lv.6",
 		"jp_explain": "アイテムの潜在能力を\nLv.6にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.6 on a single item."
+		"tr_explain": "Removes the material requirement\nto unlock Potential Ability Lv.6 on a\nsingle item."
 	},
 	{
 		"assign": "321010379",
 		"jp_text": "プリセット能力強化成功率＋5％",
 		"tr_text": "Preset Ability Success +5%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
 	},
 	{
 		"assign": "321010380",
@@ -5695,7 +5693,7 @@
 		"jp_text": "プリセット能力Lv.1追加",
 		"tr_text": "Add Preset Ability Lv.1",
 		"jp_explain": "Lv.1のプリセット能力の\nいずれかを装備に追加する。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Adds a Lv.1 Preset Ability to\na piece of equipment."
+		"tr_explain": "Adds a Lv.1 Preset Ability to\na piece of equipment.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321015092",
@@ -5723,7 +5721,7 @@
 		"jp_text": "N-特殊能力移植パス補助券",
 		"tr_text": "N-Ability Transfer Pass Ticket",
 		"jp_explain": "一定枚数集めることで\nアイテムリサイクルで\n<yellow>N-特殊能力移植パス<c>\nと交換できるチケット。",
-		"tr_explain": "By collecting a certain amount\nof tickets, you can recycle\nthem for a <yellow>N-Ability Transfer Pass<c>."
+		"tr_explain": "A ticket which can be recycled in\nbatches to obtain\n<yellow>N-Ability Transfer Pass<c>."
 	},
 	{
 		"assign": "321010407",
@@ -5863,7 +5861,7 @@
 		"jp_text": "リワードボックスメダルOct'24",
 		"tr_text": "Reward Box Medal Oct '24",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスOct'24<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Oct'24 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Oct '24 Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015102",
@@ -5877,7 +5875,7 @@
 		"jp_text": "超・創世祭'24SPスクラッチ補助券",
 		"tr_text": "Super Genesis '24 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>超・創世祭'24SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Genesis '24 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Genesis '24 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321015104",
@@ -5912,14 +5910,14 @@
 		"jp_text": "ビッグバンスクラッチ・シルバー券",
 		"tr_text": "Big Bang Scratch Silver Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>ビッグバンスクラッチ・シルバー<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "A ticket that allows you to play\nthe <yellow>Big Bang Scratch Silver<c>\nonce when kept in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Big Bang Scratch Silver<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015107",
 		"jp_text": "ビッグバンスクラッチ・ゴールド券",
 		"tr_text": "Big Bang Scratch Gold Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>ビッグバンスクラッチ・ゴールド<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "A ticket that allows you to play\nthe <yellow>Big Bang Scratch Gold<c>\nonce when kept in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Big Bang Scratch Gold<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015108",
@@ -5975,7 +5973,7 @@
 		"jp_text": "超・星譚祭'25SPスクラッチ補助券",
 		"tr_text": "Super Star '25 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>超・星譚祭'25SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Star '25 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Star '25 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321015114",
@@ -6024,42 +6022,42 @@
 		"jp_text": "スキルリング強化代用材/＋1",
 		"tr_text": "Ring Material Subsitution/+1",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level. Only\nusable if base item's grind\nlevel is at or below the displayed value."
 	},
 	{
 		"assign": "321010428",
 		"jp_text": "スキルリング強化代用材/＋2",
 		"tr_text": "Ring Material Subsitution/+2",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level. Only\nusable if base item's grind\nlevel is at or below the displayed value."
 	},
 	{
 		"assign": "321010429",
 		"jp_text": "スキルリング強化代用材/＋3",
 		"tr_text": "Ring Material Subsitution/+3",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level. Only\nusable if base item's grind\nlevel is at or below the displayed value."
 	},
 	{
 		"assign": "321010430",
 		"jp_text": "スキルリング強化代用材/＋4",
 		"tr_text": "Ring Material Subsitution/+4",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level. Only\nusable if base item's grind\nlevel is at or below the displayed value."
 	},
 	{
 		"assign": "321010431",
 		"jp_text": "スキルリング強化代用材/＋5",
 		"tr_text": "Ring Material Subsitution/+5",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level. Only\nusable if base item's grind\nlevel is at or below the displayed value."
 	},
 	{
 		"assign": "321010432",
 		"jp_text": "スキルリング強化代用材",
 		"tr_text": "Ring Material Subsitution",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値に\n関係なく使用可能。",
-		"tr_explain": "Removes the material requirement\ntoGrind a Skill Ring by 1 level.\nCan be used regardless of\nthe base item's grind level."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan be used regardless of\nthe base item's grind level."
 	},
 	{
 		"assign": "321010433",
@@ -6101,7 +6099,7 @@
 		"jp_text": "ハロウィン'25SPスクラッチ補助券",
 		"tr_text": "Halloween '25 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>ハロウィン'25SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Halloween '25 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Halloween '25 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321015125",
@@ -6409,7 +6407,7 @@
 		"jp_text": "超・夢幻祭'26SPスクラッチ補助券",
 		"tr_text": "Super Phantasy '26 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>超・夢幻祭'26SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Phantasy '26 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Phantasy '26 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321010454",
@@ -6423,21 +6421,21 @@
 		"jp_text": "5周年サンクフルスクラッチ券Aug",
 		"tr_text": "5th Anniv. Thankful Scratch Aug Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルAug<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Aug<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Aug<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015153",
 		"jp_text": "5周年サンクフルスクラッチ券Sep",
 		"tr_text": "5th Anniv. Thankful Scratch Sep Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルSep<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Sep<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Sep<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015154",
 		"jp_text": "トレジャースクラッチ券Vol.16",
 		"tr_text": "Treasure Scratch Ticket Vol.16",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>超・トレジャースクラッチ16<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>超・Treasure Scratch Vol.16<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Super Treasure Scratch Vol.16<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015155",
@@ -6458,7 +6456,7 @@
 		"jp_text": "ハロウィン'26SPスクラッチ補助券",
 		"tr_text": "Halloween '26 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>ハロウィン'26SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Halloween '26 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Halloween '26 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321015158",
@@ -6479,14 +6477,14 @@
 		"jp_text": "5周年サンクフルスクラッチ券Oct",
 		"tr_text": "5th Anniv. Thankful Scratch Oct Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルOct<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Oct<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Oct<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015161",
 		"jp_text": "5周年サンクフルスクラッチ券Nov",
 		"tr_text": "5th Anniv. Thankful Scratch Nov Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルNov<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Nov<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Nov<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015164",
@@ -6500,7 +6498,7 @@
 		"jp_text": "スペシャルスクラッチ補助券",
 		"tr_text": "Special Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>スペシャルスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Special Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Special Scratch Tickets<c>."
 	},
 	{
 		"assign": "321010457",

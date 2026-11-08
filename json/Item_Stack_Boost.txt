@@ -3273,14 +3273,14 @@
 		"jp_text": "N-獲得経験値[15m]＋45%",
 		"tr_text": "N-Experience Gained [15m] +45%",
 		"jp_explain": "使用してから<yellow>15分間<c>\n獲得経験値が<yellow>45%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
-		"tr_explain": "Boosts EXP gained by <yellow>45%<c>\nfor <yellow>minutes<c> after use.\n<yellow>※Timer counts down while logged out<c>"
+		"tr_explain": "Boosts EXP gained by <yellow>45%<c>\nfor <yellow>15 minutes<c> after use.\n<yellow>※Timer counts down while logged out<c>"
 	},
 	{
 		"assign": "32010309",
 		"jp_text": "N-獲得経験値[15m]＋50%",
 		"tr_text": "N-Experience Gained [15m] +50%",
 		"jp_explain": "使用してから<yellow>15分間<c>\n獲得経験値が<yellow>50%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
-		"tr_explain": "Boosts EXP gained by <yellow>50<c>\nfor <yellow>24 hours<c> after use.\n<yellow>※Timer counts down while logged out<c>"
+		"tr_explain": "Boosts EXP gained by <yellow>50%<c>\nfor <yellow>15 minutes<c> after use.\n<yellow>※Timer counts down while logged out<c>"
 	},
 	{
 		"assign": "32010310",
@@ -3609,21 +3609,21 @@
 		"jp_text": "獲得ジェネシスポイント＋50％",
 		"tr_text": "Genesis Points Earned +50%",
 		"jp_explain": "使用してから<yellow>７日間<c>\n獲得ジェネシスポイントが\n<yellow>50%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
-		"tr_explain": "Boosts Genesis Points earned by\n<yellow>50%<c> for <yellow>7 days<c>.\n<yellow>※Timer counts down while logged out<c>"
+		"tr_explain": "Boosts Genesis Points earned by <yellow>50%<c>\nfor <yellow>7 days<c> after use.\n<yellow>※Timer counts down while logged out<c>"
 	},
 	{
 		"assign": "32010365",
 		"jp_text": "獲得ジェネシスポイント＋100％",
 		"tr_text": "Genesis Points Earned +100%",
 		"jp_explain": "使用してから<yellow>７日間<c>\n獲得ジェネシスポイントが\n<yellow>100%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
-		"tr_explain": "Boosts Genesis Points earned by\n<yellow>100%<c> for <yellow>7 days<c>.\n<yellow>※Timer counts down while logged out<c>"
+		"tr_explain": "Boosts Genesis Points earned by <yellow>100%<c>\nfor <yellow>7 days<c> after use.\n<yellow>※Timer counts down while logged out<c>"
 	},
 	{
 		"assign": "32010366",
 		"jp_text": "獲得ジェネシスポイント＋200％",
 		"tr_text": "Genesis Points Earned +200%",
 		"jp_explain": "使用してから<yellow>７日間<c>\n獲得ジェネシスポイントが\n<yellow>200%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
-		"tr_explain": "Boosts Genesis Points earned by\n<yellow>200%<c> for <yellow>7 days<c>.\n<yellow>※Timer counts down while logged out<c>"
+		"tr_explain": "Boosts Genesis Points earned by <yellow>200%<c>\nfor <yellow>7 days<c> after use.\n<yellow>※Timer counts down while logged out<c>"
 	},
 	{
 		"assign": "32010367",
@@ -3861,7 +3861,7 @@
 		"jp_text": "N-ジェネの手作りプリン",
 		"tr_text": "N-Gene's Homemade Pudding",
 		"jp_explain": "使用してから<yellow>10分間<c>\n獲得経験値、\nレアドロップ倍率が<yellow>30%アップ<c>する。\n<yellow>※ログアウト中も効果時間減少<c>",
-		"tr_explain": "Boost EXP and Rare Drop Rate by <yellow>30%<c>\nfor <yellow>10 minutes<c>.\n<yellow>※Timer counts down while logged out<c>"
+		"tr_explain": "Boosts EXP and Rare Drop Rate by <yellow>30%<c>\nfor <yellow>10 minutes<c> after use.\n<yellow>※Timer counts down while logged out<c>"
 	},
 	{
 		"assign": "32010405",
@@ -3994,7 +3994,7 @@
 		"jp_text": "超・夢幻祭'26Ｓポイント＋100%",
 		"tr_text": "Super Phantasy Festival '26 SP +100%",
 		"jp_explain": "使用してから<yellow>60分間<c>、エネミー撃破時の\n獲得シーズナルポイントが<yellow>100%アップ<c>。\n<yellow>※ログアウト中も効果時間減少<c>\n<yellow>※超・夢幻祭'26イベント期間限定<c>",
-		"tr_explain": "Boosts Seasonal Points from killing\nenemies by <yellow>100%<c> for <yellow>60 minutes<c>.\n<yellow>※Timer counts down while logged out<c>\n<yellow>※Only applies during 超・夢幻祭'26イベント<c>"
+		"tr_explain": "Boosts Seasonal Points from killing\nenemies by <yellow>100%<c> for <yellow>60 minutes<c>.\n<yellow>※Timer counts down while logged out<c>\n<yellow>※Only applies during Super Phantasy Festival '26<c>"
 	},
 	{
 		"assign": "32010424",
