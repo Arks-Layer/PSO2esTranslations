@@ -3336,7 +3336,7 @@
 		"jp_text": "トレジャーショップ（SG）更新",
 		"tr_text": "Treasure Shop (SG) Update",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nＳＧで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": "Chooses a new selection of items for\nthe SG Treasure Shop and resets any\npurchase limits for those items."
+		"tr_explain": "Chooses a new selection of items for\nthe SG Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "321010084",
@@ -4932,14 +4932,14 @@
 		"jp_text": "★８武器強化スキップ＋60",
 		"tr_text": "★8 Weapon Grind Skip +60",
 		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★８以下の武器の\n強化値を最大60にする。",
-		"tr_explain": "Allows you to skip grinding a ★7 or\nlower weapon to up to +60, subject\nto its current Grind Limit."
+		"tr_explain": "Allows you to skip grinding a ★8 or\nlower weapon to up to +60, subject\nto its current Grind Limit."
 	},
 	{
 		"assign": "321010308",
 		"jp_text": "★８武器強化スキップ＋70",
 		"tr_text": "★8 Weapon Grind Skip +70",
 		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★８以下の武器の\n強化値を最大70にする。",
-		"tr_explain": "Allows you to skip grinding a ★7 or\nlower weapon to up to +70, subject\nto its current Grind Limit."
+		"tr_explain": "Allows you to skip grinding a ★8 or\nlower weapon to up to +70, subject\nto its current Grind Limit."
 	},
 	{
 		"assign": "321010309",
@@ -5149,14 +5149,14 @@
 		"jp_text": "2周年サンクフルチケット",
 		"tr_text": "2nd Anniv. Thankful Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】2周年サンクフル<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>2nd Anniv. Thankful Scratch<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 2nd Anniv. Thankful Scratch<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015080",
 		"jp_text": "11周年メモリーズチケット",
 		"tr_text": "11th Anniv. Memories Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】11周年メモリーズ<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>11th Anniv. Memories Scratch<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 11th Anniv. Memories Scratch<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015081",
@@ -5443,7 +5443,7 @@
 		"jp_text": "トレジャースクラッチ券Vol.1",
 		"tr_text": "Treasure Scratch Ticket Vol.1",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>トレジャースクラッチ1<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Treasure Scratch 1<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Treasure Scratch Vol.1<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015084",
@@ -5471,7 +5471,7 @@
 		"jp_text": "リワードボックスメダルDec'23",
 		"tr_text": "Reward Box Medal Dec '23",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスDec'23<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one draw from the\n<yellow>Dec '23 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Dec '23 Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321010378",
@@ -5485,6 +5485,7 @@
 		"jp_text": "プリセット能力強化成功率＋5％",
 		"tr_text": "Preset Ability Success +5%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010380",
@@ -5568,7 +5569,7 @@
 		"jp_text": "リワードボックスメダルFeb'24",
 		"tr_text": "Reward Box Medal Feb '24",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスFeb'24<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one draw from the\n<yellow>Feb '24 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Feb '24 Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015087",
@@ -5582,14 +5583,14 @@
 		"jp_text": "カードスクラッチ補助券",
 		"tr_text": "Card Scratch Voucher",
 		"jp_explain": "アイテムパックに所持しておくことで\n10枚で1回、<yellow>カードスクラッチ<c>に\n挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the<br><yellow>Card Scratch<c> just by having<br>10 of these in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Card Scratch<c> just by having\n10 of these in your inventory."
 	},
 	{
 		"assign": "321010392",
 		"jp_text": "クラスレベル80化＆適正装備セット",
 		"tr_text": " Class Lv.80 & Equipment Set",
 		"jp_explain": "クラスレベル80化＆適正装備セット",
-		"tr_explain": " Class Lv.80 & Equipment Set"
+		"tr_explain": "Class Lv. 80 & Equipment Set"
 	},
 	{
 		"assign": "321010393",
@@ -5687,7 +5688,7 @@
 		"jp_text": "リワードボックスメダルApr'24",
 		"tr_text": "Reward Box Medal Apr '24",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスApr'24<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one draw from the\n<yellow>Apr '24 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Apr '24 Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321010404",
@@ -5729,7 +5730,7 @@
 		"jp_text": "リワードボックスメダルJul'24",
 		"tr_text": "Reward Box Medal July '24",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスJul'24<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one draw from the\n<yellow>July '24 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>July '24 Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015094",
@@ -5834,7 +5835,7 @@
 		"jp_text": "リワードボックスメダルAug'24",
 		"tr_text": "Reward Box Medal Aug '24",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスAug'24<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one draw from the\n<yellow>Aug '24 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Aug '24 Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015097",
@@ -5932,7 +5933,7 @@
 		"jp_text": "春'25スペシャルスクラッチ補助券",
 		"tr_text": "Spring '25 Special Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>春'25スペシャルスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Spring '25 Special Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Spring '25 Special Scratch Tickets<c>."
 	},
 	{
 		"assign": "321015110",
@@ -6016,7 +6017,7 @@
 		"jp_text": "超・夢幻祭'25SPスクラッチ補助券",
 		"tr_text": "Super Phantasy '25 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>超・夢幻祭'25SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Phantasy '25 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Phantasy '25 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321010427",
@@ -6142,7 +6143,7 @@
 		"jp_text": "超・創世祭'25SPスクラッチ補助券",
 		"tr_text": "Super Genesis '25 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>超・創世祭'25SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Genesis '25 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Genesis '25 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321010435",
@@ -6212,14 +6213,14 @@
 		"jp_text": "5周年サンクフルスクラッチ券Feb",
 		"tr_text": "5th Anniv. Thankful Scratch Feb Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルFeb<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Feb<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Feb<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015138",
 		"jp_text": "5周年サンクフルスクラッチ券Mar",
 		"tr_text": "5th Anniv. Thankful Scratch Mar Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルMar<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Mar<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Mar<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015139",
@@ -6233,7 +6234,7 @@
 		"jp_text": "超・星譚祭'26SPスクラッチ補助券",
 		"tr_text": "Super Star '26 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>超・星譚祭'26SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Star '26 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Star '26 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321015141",
@@ -6247,14 +6248,14 @@
 		"jp_text": "5周年サンクフルスクラッチ券Apr",
 		"tr_text": "5th Anniv. Thankful Scratch Apr Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルApr<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Apr<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Apr<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015143",
 		"jp_text": "5周年サンクフルスクラッチ券May",
 		"tr_text": "5th Anniv. Thankful Scratch May Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルMay<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch May<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch May<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321010439",
@@ -6366,21 +6367,21 @@
 		"jp_text": "真・超星譚祭'26SPスクラッチ補助券",
 		"tr_text": "Shin Super Star '26 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>真・超星譚祭'26SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Shin Super Star '26 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Shin Super Star '26 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321015147",
 		"jp_text": "5周年サンクフルスクラッチ券Jun",
 		"tr_text": "5th Anniv. Thankful Scratch Jun Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルJun<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Jun<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Jun<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015148",
 		"jp_text": "5周年サンクフルスクラッチ券Jul",
 		"tr_text": "5th Anniv. Thankful Scratch Jul Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルJul<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Jul<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Jul<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015149",
