@@ -6164,7 +6164,7 @@
 		"jp_text": "スキルリング強化代用材/＋0",
 		"tr_text": "Ring Material Subsitution/+0",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level. Only\nusable if base item's grind\nlevel is at or below the displayed value."
 	},
 	{
 		"assign": "321015132",
@@ -6185,7 +6185,7 @@
 		"jp_text": "春'26スペシャルスクラッチ補助券",
 		"tr_text": "Spring '26 Special Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>春'26スペシャルスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Spring '26 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Spring '26 Special Scratch Tickets<c>."
 	},
 	{
 		"assign": "321010438",
@@ -6470,7 +6470,7 @@
 	{
 		"assign": "321010455",
 		"jp_text": "リワードボックスメダルOct'26",
-		"tr_text": "Reward Box Medal Oct'26",
+		"tr_text": "Reward Box Medal Oct '26",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスOct'26<c>に\n1回挑戦できるメダル。",
 		"tr_explain": "Allows you one chance at the\n<yellow>Oct '26 Reward Box<c>\njust by having it in your inventory."
 	},
