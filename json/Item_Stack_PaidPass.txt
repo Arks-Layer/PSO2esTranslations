@@ -3203,42 +3203,42 @@
 		"jp_text": "N-特殊能力追加アイテム保護",
 		"tr_text": "N-Ability Protection",
 		"jp_explain": "アイテムの特殊能力追加失敗時に\n素材アイテムが\n消費されるのを防止する。",
-		"tr_explain": "Returns the Material Items that\nwere lost from synthesis when\nadding an Ability fails."
+		"tr_explain": "Prevents material item consumption\nif adding an Ability fails."
 	},
 	{
 		"assign": "321010041",
 		"jp_text": "N-限界突破代用材/限界値30",
 		"tr_text": "N-Limit Break Substitution/30",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を20から30にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +20 on a single item."
+		"tr_explain": "Removes the material requirement\nto raise the Grind Limit of a single item\nfrom 20 to 30."
 	},
 	{
 		"assign": "321010042",
 		"jp_text": "N-限界突破代用材/限界値40",
 		"tr_text": "N-Limit Break Substitution/40",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を30から40にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +30 on a single item."
+		"tr_explain": "Removes the material requirement\nto raise the Grind Limit of a single item\nfrom 30 to 40."
 	},
 	{
 		"assign": "321010043",
 		"jp_text": "N-限界突破代用材/限界値50",
 		"tr_text": "N-Limit Break Substitution/50",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を40から50にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +40 on a single item."
+		"tr_explain": "Removes the material requirement\nto raise the Grind Limit of a single item\nfrom 40 to 50."
 	},
 	{
 		"assign": "321010044",
 		"jp_text": "N-限界突破代用材/限界値60",
 		"tr_text": "N-Limit Break Substitution/60",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を50から60にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +50 on a single item."
+		"tr_explain": "Removes the material requirement\nto raise the Grind Limit of a single item\nfrom 50 to 60."
 	},
 	{
 		"assign": "321010045",
 		"jp_text": "N-限界突破代用材/限界値70",
 		"tr_text": "N-Limit Break Substitution/70",
 		"jp_explain": "アイテムの限界突破時に\n強化限界値を60から70にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to break the limit\npast +60 on a single item."
+		"tr_explain": "Removes the material requirement\nto raise the Grind Limit of a single item\nfrom 60 to 70."
 	},
 	{
 		"assign": "321010054",
@@ -3273,35 +3273,35 @@
 		"jp_text": "N-潜在能力解放代用材/Lv.1",
 		"tr_text": "N-Potential Subsitution/Lv.1",
 		"jp_explain": "アイテムの潜在能力を\nLv.1にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.1 on a single item."
+		"tr_explain": "Removes the material requirement\nto unlock Potential Ability Lv.1 on a\nsingle item."
 	},
 	{
 		"assign": "321010064",
 		"jp_text": "N-潜在能力解放代用材/Lv.2",
 		"tr_text": "N-Potential Subsitution/Lv.2",
 		"jp_explain": "アイテムの潜在能力を\nLv.2にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.2 on a single item."
+		"tr_explain": "Removes the material requirement\nto unlock Potential Ability Lv.2 on a\nsingle item."
 	},
 	{
 		"assign": "321010065",
 		"jp_text": "N-潜在能力解放代用材/Lv.3",
 		"tr_text": "N-Potential Subsitution/Lv.3",
 		"jp_explain": "アイテムの潜在能力を\nLv.3にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.3 on a single item."
+		"tr_explain": "Removes the material requirement\nto unlock Potential Ability Lv.3 on a\nsingle item."
 	},
 	{
 		"assign": "321010066",
 		"jp_text": "N-潜在能力解放代用材/Lv.4",
 		"tr_text": "N-Potential Subsitution/Lv.4",
 		"jp_explain": "アイテムの潜在能力を\nLv.4にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.4 on a single item."
+		"tr_explain": "Removes the material requirement\nto unlock Potential Ability Lv.4 on a\nsingle item."
 	},
 	{
 		"assign": "321010067",
 		"jp_text": "N-潜在能力解放代用材/Lv.5",
 		"tr_text": "N-Potential Subsitution/Lv.5",
 		"jp_explain": "アイテムの潜在能力を\nLv.5にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.5 on a single item."
+		"tr_explain": "Removes the material requirement\nto unlock Potential Ability Lv.5 on a\nsingle item."
 	},
 	{
 		"assign": "321015032",
@@ -3336,7 +3336,7 @@
 		"jp_text": "トレジャーショップ（SG）更新",
 		"tr_text": "Treasure Shop (SG) Update",
 		"jp_explain": "トレジャーショップの陳列更新パス。\nＳＧで購入するトレジャーショップの\n陳列を変更し購入上限をリセットする。",
-		"tr_explain": "Chooses a new selection of items for\nthe SG Treasure Shop and resets any\npurchase limits for those items."
+		"tr_explain": "Chooses a new selection of items for\nthe SG Treasure Shop and resets\nany purchase limits for those items."
 	},
 	{
 		"assign": "321010084",
@@ -4890,14 +4890,14 @@
 		"jp_text": "『NGS』Ver.1全トレイニア踏破",
 		"tr_text": "[NGS] All Ver. 1 Trainia Unlocker",
 		"jp_explain": "『NGS』Ver.1全トレイニア踏破",
-		"tr_explain": "A pass that automatically unlocks &\nclears all [NGS] Ver.1 Trainia.\n<yellow>※Excludes Advanced Trainia.<c>"
+		"tr_explain": "Clears all [NGS] Ver.1 Trainia."
 	},
 	{
 		"assign": "321010304",
 		"jp_text": "Huクラスレベル70化＆適正装備セット",
-		"tr_text": "Hu Class Lv.70 & Equipment Set",
+		"tr_text": "Hu Class Lv. 70 & Equipment Set",
 		"jp_explain": "Huクラスレベル70化＆適正装備セット",
-		"tr_explain": "Hu Class Lv.70 & Equipment Set"
+		"tr_explain": "Hu Class Lv. 70 & Equipment Set"
 	},
 	{
 		"assign": "321015078",
@@ -4911,35 +4911,35 @@
 		"jp_text": "★８武器強化スキップ＋30",
 		"tr_text": "★8 Weapon Grind Skip +30",
 		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★８以下の武器の\n強化値を最大30にする。",
-		"tr_explain": "Allows you to skip grinding a ★7 or\nlower weapon to up to +30, subject\nto its current Grind Limit."
+		"tr_explain": "Allows you to skip grinding a ★8 or\nlower weapon to up to +30, subject\nto its current Grind Limit."
 	},
 	{
 		"assign": "321010305",
 		"jp_text": "★８武器強化スキップ＋40",
 		"tr_text": "★8 Weapon Grind Skip +40",
 		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★８以下の武器の\n強化値を最大40にする。",
-		"tr_explain": "Allows you to skip grinding a ★7 or\nlower weapon to up to +40, subject\nto its current Grind Limit."
+		"tr_explain": "Allows you to skip grinding a ★8 or\nlower weapon to up to +40, subject\nto its current Grind Limit."
 	},
 	{
 		"assign": "321010306",
 		"jp_text": "★８武器強化スキップ＋50",
 		"tr_text": "★8 Weapon Grind Skip +50",
 		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★８以下の武器の\n強化値を最大50にする。",
-		"tr_explain": "Allows you to skip grinding a ★7 or\nlower weapon to up to +50, subject\nto its current Grind Limit."
+		"tr_explain": "Allows you to skip grinding a ★8 or\nlower weapon to up to +50, subject\nto its current Grind Limit."
 	},
 	{
 		"assign": "321010307",
 		"jp_text": "★８武器強化スキップ＋60",
 		"tr_text": "★8 Weapon Grind Skip +60",
 		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★８以下の武器の\n強化値を最大60にする。",
-		"tr_explain": "Allows you to skip grinding a ★7 or\nlower weapon to up to +60, subject\nto its current Grind Limit."
+		"tr_explain": "Allows you to skip grinding a ★8 or\nlower weapon to up to +60, subject\nto its current Grind Limit."
 	},
 	{
 		"assign": "321010308",
 		"jp_text": "★８武器強化スキップ＋70",
 		"tr_text": "★8 Weapon Grind Skip +70",
 		"jp_explain": "アイテム強化スキップで\n限界突破の上限値を基準として\nレアリティ★８以下の武器の\n強化値を最大70にする。",
-		"tr_explain": "Allows you to skip grinding a ★7 or\nlower weapon to up to +70, subject\nto its current Grind Limit."
+		"tr_explain": "Allows you to skip grinding a ★8 or\nlower weapon to up to +70, subject\nto its current Grind Limit."
 	},
 	{
 		"assign": "321010309",
@@ -5149,14 +5149,14 @@
 		"jp_text": "2周年サンクフルチケット",
 		"tr_text": "2nd Anniv. Thankful Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】2周年サンクフル<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>2nd Anniv. Thankful Scratch<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 2nd Anniv. Thankful Scratch<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015080",
 		"jp_text": "11周年メモリーズチケット",
 		"tr_text": "11th Anniv. Memories Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】11周年メモリーズ<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>11th Anniv. Memories Scratch<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 11th Anniv. Memories Scratch<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015081",
@@ -5168,72 +5168,72 @@
 	{
 		"assign": "321010339",
 		"jp_text": "Raクラスレベル70化＆適正装備セット",
-		"tr_text": "Ra Class Lv.70 & Equipment Set",
+		"tr_text": "Ra Class Lv. 70 & Equipment Set",
 		"jp_explain": "Raクラスレベル70化＆適正装備セット",
-		"tr_explain": "Ra Class Lv.70 & Equipment Set"
+		"tr_explain": "Ra Class Lv. 70 & Equipment Set"
 	},
 	{
 		"assign": "321010340",
 		"jp_text": "Foクラスレベル70化＆適正装備セット",
-		"tr_text": "Fo Class Lv.70 & Equipment Set",
+		"tr_text": "Fo Class Lv. 70 & Equipment Set",
 		"jp_explain": "Foクラスレベル70化＆適正装備セット",
-		"tr_explain": "Fo Class Lv.70 & Equipment Set"
+		"tr_explain": "Fo Class Lv. 70 & Equipment Set"
 	},
 	{
 		"assign": "321010341",
 		"jp_text": "Fiクラスレベル70化＆適正装備セット",
-		"tr_text": "Fi Class Lv.70 & Equipment Set",
+		"tr_text": "Fi Class Lv. 70 & Equipment Set",
 		"jp_explain": "Fiクラスレベル70化＆適正装備セット",
-		"tr_explain": "Fi Class Lv.70 & Equipment Set"
+		"tr_explain": "Fi Class Lv. 70 & Equipment Set"
 	},
 	{
 		"assign": "321010342",
 		"jp_text": "Guクラスレベル70化＆適正装備セット",
-		"tr_text": "Gu Class Lv.70 & Equipment Set",
+		"tr_text": "Gu Class Lv. 70 & Equipment Set",
 		"jp_explain": "Guクラスレベル70化＆適正装備セット",
-		"tr_explain": "Gu Class Lv.70 & Equipment Set"
+		"tr_explain": "Gu Class Lv. 70 & Equipment Set"
 	},
 	{
 		"assign": "321010343",
 		"jp_text": "Teクラスレベル70化＆適正装備セット",
-		"tr_text": "Te Class Lv.70 & Equipment Set",
+		"tr_text": "Te Class Lv. 70 & Equipment Set",
 		"jp_explain": "Teクラスレベル70化＆適正装備セット",
-		"tr_explain": "Te Class Lv.70 & Equipment Set"
+		"tr_explain": "Te Class Lv. 70 & Equipment Set"
 	},
 	{
 		"assign": "321010344",
 		"jp_text": "Brクラスレベル70化＆適正装備セット",
-		"tr_text": "Br Class Lv.70 & Equipment Set",
+		"tr_text": "Br Class Lv. 70 & Equipment Set",
 		"jp_explain": "Brクラスレベル70化＆適正装備セット",
-		"tr_explain": "Br Class Lv.70 & Equipment Set"
+		"tr_explain": "Br Class Lv. 70 & Equipment Set"
 	},
 	{
 		"assign": "321010345",
 		"jp_text": "Boクラスレベル70化＆適正装備セット",
-		"tr_text": "Bo Class Lv.70 & Equipment Set",
+		"tr_text": "Bo Class Lv. 70 & Equipment Set",
 		"jp_explain": "Boクラスレベル70化＆適正装備セット",
-		"tr_explain": "Bo Class Lv.70 & Equipment Set"
+		"tr_explain": "Bo Class Lv. 70 & Equipment Set"
 	},
 	{
 		"assign": "321010346",
 		"jp_text": "Waクラスレベル70化＆適正装備セット",
-		"tr_text": "Wa Class Lv.70 & Equipment Set",
+		"tr_text": "Wa Class Lv. 70 & Equipment Set",
 		"jp_explain": "Waクラスレベル70化＆適正装備セット",
-		"tr_explain": "Wa Class Lv.70 & Equipment Set"
+		"tr_explain": "Wa Class Lv. 70 & Equipment Set"
 	},
 	{
 		"assign": "321010347",
 		"jp_text": "Slクラスレベル70化＆適正装備セット",
-		"tr_text": "Sl Class Lv.70 & Equipment Set",
+		"tr_text": "Sl Class Lv. 70 & Equipment Set",
 		"jp_explain": "Slクラスレベル70化＆適正装備セット",
-		"tr_explain": "Sl Class Lv.70 & Equipment Set"
+		"tr_explain": "Sl Class Lv. 70 & Equipment Set"
 	},
 	{
 		"assign": "321010348",
 		"jp_text": "クラスレベル70化＆適正装備セット",
-		"tr_text": "Class Level 70 & Equipment Set",
+		"tr_text": "Class Lv. 70 & Equipment Set",
 		"jp_explain": "クラスレベル70化＆適正装備セット",
-		"tr_explain": "Class Lv.70 & Equipment Set"
+		"tr_explain": "Class Lv. 70 & Equipment Set"
 	},
 	{
 		"assign": "321010349",
@@ -5268,133 +5268,133 @@
 		"jp_text": "プリセット能力強化成功率＋10％",
 		"tr_text": "Preset Ability Success +10%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010354",
 		"jp_text": "プリセット能力強化成功率＋15％",
 		"tr_text": "Preset Ability Success +15%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010355",
 		"jp_text": "プリセット能力強化成功率＋20％",
 		"tr_text": "Preset Ability Success +20%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010356",
 		"jp_text": "プリセット能力強化成功率＋25％",
 		"tr_text": "Preset Ability Success +25%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010357",
 		"jp_text": "プリセット能力強化成功率＋30％",
 		"tr_text": "Preset Ability Success +30%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010358",
 		"jp_text": "プリセット能力強化成功率＋35％",
 		"tr_text": "Preset Ability Success +35%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010359",
 		"jp_text": "プリセット能力強化成功率＋40％",
 		"tr_text": "Preset Ability Success +40%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010360",
 		"jp_text": "プリセット能力強化成功率＋45％",
 		"tr_text": "Preset Ability Success +45%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010361",
 		"jp_text": "プリセット能力強化成功率＋50％",
 		"tr_text": "Preset Ability Success +50%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010362",
 		"jp_text": "プリセット能力強化成功率＋55％",
 		"tr_text": "Preset Ability Success +55%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010363",
 		"jp_text": "プリセット能力強化成功率＋60％",
 		"tr_text": "Preset Ability Success +60%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010364",
 		"jp_text": "プリセット能力強化成功率＋65％",
 		"tr_text": "Preset Ability Success +65%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010365",
 		"jp_text": "プリセット能力強化成功率＋70％",
 		"tr_text": "Preset Ability Success +70%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010366",
 		"jp_text": "プリセット能力強化成功率＋75％",
 		"tr_text": "Preset Ability Success +75%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010367",
 		"jp_text": "プリセット能力強化成功率＋80％",
 		"tr_text": "Preset Ability Success +80%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010368",
 		"jp_text": "プリセット能力強化成功率＋85％",
 		"tr_text": "Preset Ability Success +85%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010369",
 		"jp_text": "プリセット能力強化成功率＋90％",
 		"tr_text": "Preset Ability Success +90%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010370",
 		"jp_text": "プリセット能力強化成功率＋95％",
 		"tr_text": "Preset Ability Success +95%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010371",
 		"jp_text": "プリセット能力強化成功率＋100％",
 		"tr_text": "Preset Ability Success +100%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010372",
@@ -5408,28 +5408,28 @@
 		"jp_text": "プリセット能力強化成功＆代用材/Lv.1",
 		"tr_text": "Preset Ability & Material Cost Substitution/Lv.1",
 		"jp_explain": "プリセット能力の強化を100％成功させ\n必要素材アイテムを不要にする。\nベースアイテムのプリセット能力レベルが\n表示レベル以下の場合のみ使用可能。",
-		"tr_explain": "Success Rate 100% & material\nrequirement removed for Enhancing\nPreset Abilities. Only works if the\nitem's level is equal or lower."
+		"tr_explain": "Success Rate 100% & material requirement\nremoved for Enhancing Preset Abilities. Only\nusable if base item's Preset Ability\nlevel is at or below the displayed level."
 	},
 	{
 		"assign": "321010374",
 		"jp_text": "プリセット能力強化成功＆代用材/Lv.2",
 		"tr_text": "Preset Ability & Material Cost Substitution/Lv.2",
 		"jp_explain": "プリセット能力の強化を100％成功させ\n必要素材アイテムを不要にする。\nベースアイテムのプリセット能力レベルが\n表示レベル以下の場合のみ使用可能。",
-		"tr_explain": "Success Rate 100% & material\nrequirement removed for Enhancing\nPreset Abilities. Only works if the\nitem's level is equal or lower."
+		"tr_explain": "Success Rate 100% & material requirement\nremoved for Enhancing Preset Abilities. Only\nusable if base item's Preset Ability\nlevel is at or below the displayed level."
 	},
 	{
 		"assign": "321010375",
 		"jp_text": "プリセット能力強化成功＆代用材/Lv.3",
 		"tr_text": "Preset Ability & Material Cost Substitution/Lv.3",
 		"jp_explain": "プリセット能力の強化を100％成功させ\n必要素材アイテムを不要にする。\nベースアイテムのプリセット能力レベルが\n表示レベル以下の場合のみ使用可能。",
-		"tr_explain": "Success Rate 100% & material\nrequirement removed for Enhancing\nPreset Abilities. Only works if the\nitem's level is equal or lower."
+		"tr_explain": "Success Rate 100% & material requirement\nremoved for Enhancing Preset Abilities. Only\nusable if base item's Preset Ability\nlevel is at or below the displayed level."
 	},
 	{
 		"assign": "321010376",
 		"jp_text": "プリセット能力強化成功＆代用材/Lv.4",
 		"tr_text": "Preset Ability & Material Cost Substitution/Lv.4",
 		"jp_explain": "プリセット能力の強化を100％成功させ\n必要素材アイテムを不要にする。\nベースアイテムのプリセット能力レベルが\n表示レベル以下の場合のみ使用可能。",
-		"tr_explain": "Success Rate 100% & material\nrequirement removed for Enhancing\nPreset Abilities. Only works if the\nitem's level is equal or lower."
+		"tr_explain": "Success Rate 100% & material requirement\nremoved for Enhancing Preset Abilities. Only\nusable if base item's Preset Ability\nlevel is at or below the displayed level."
 	},
 	{
 		"assign": "321015082",
@@ -5443,7 +5443,7 @@
 		"jp_text": "トレジャースクラッチ券Vol.1",
 		"tr_text": "Treasure Scratch Ticket Vol.1",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>トレジャースクラッチ1<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Treasure Scratch 1<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Treasure Scratch Vol.1<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015084",
@@ -5457,7 +5457,7 @@
 		"jp_text": "トレジャースクラッチ券Vol.2",
 		"tr_text": "Treasure Scratch Ticket Vol.2",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>トレジャースクラッチ2<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Treasure Scratch 2<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Treasure Scratch Vol.2<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015086",
@@ -5471,105 +5471,105 @@
 		"jp_text": "リワードボックスメダルDec'23",
 		"tr_text": "Reward Box Medal Dec '23",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスDec'23<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one draw from the\n<yellow>Dec '23 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Dec '23 Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321010378",
 		"jp_text": "N-潜在能力解放代用材/Lv.6",
 		"tr_text": "N-Potential Subsitution/Lv.6",
 		"jp_explain": "アイテムの潜在能力を\nLv.6にするための\n必要素材アイテムを不要にする。",
-		"tr_explain": "Substitutes the material\nrequirements to unlock the\nPotential Ability Lv.6 on a single item."
+		"tr_explain": "Removes the material requirement\nto unlock Potential Ability Lv.6 on a\nsingle item."
 	},
 	{
 		"assign": "321010379",
 		"jp_text": "プリセット能力強化成功率＋5％",
 		"tr_text": "Preset Ability Success +5%",
 		"jp_explain": "プリセット能力の\n強化成功率を上昇させる。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade."
+		"tr_explain": "Increases the success rate of\nPreset Ability Upgrade.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321010380",
 		"jp_text": "クラスレベル75化＆適正装備セット",
-		"tr_text": "Class Lv.75 & Equipment Set",
+		"tr_text": "Class Lv. 75 & Equipment Set",
 		"jp_explain": "クラスレベル75化＆適正装備セット",
-		"tr_explain": "Class Lv.75 & Equipment Set"
+		"tr_explain": "Class Lv. 75 & Equipment Set"
 	},
 	{
 		"assign": "321010381",
 		"jp_text": "Huクラスレベル75化＆適正装備セット",
-		"tr_text": "Hu Class Lv.75 & Equipment Set",
+		"tr_text": "Hu Class Lv. 75 & Equipment Set",
 		"jp_explain": "Huクラスレベル75化＆適正装備セット",
-		"tr_explain": "Hu Class Lv.75 & Equipment Set"
+		"tr_explain": "Hu Class Lv. 75 & Equipment Set"
 	},
 	{
 		"assign": "321010382",
 		"jp_text": "Raクラスレベル75化＆適正装備セット",
-		"tr_text": "Ra Class Lv.75 & Equipment Set",
+		"tr_text": "Ra Class Lv. 75 & Equipment Set",
 		"jp_explain": "Raクラスレベル75化＆適正装備セット",
-		"tr_explain": "Ra Class Lv.75 & Equipment Set"
+		"tr_explain": "Ra Class Lv. 75 & Equipment Set"
 	},
 	{
 		"assign": "321010383",
 		"jp_text": "Foクラスレベル75化＆適正装備セット",
-		"tr_text": "Fo Class Lv.75 & Equipment Set",
+		"tr_text": "Fo Class Lv. 75 & Equipment Set",
 		"jp_explain": "Foクラスレベル75化＆適正装備セット",
-		"tr_explain": "Fo Class Lv.75 & Equipment Set"
+		"tr_explain": "Fo Class Lv. 75 & Equipment Set"
 	},
 	{
 		"assign": "321010384",
 		"jp_text": "Fiクラスレベル75化＆適正装備セット",
-		"tr_text": "Fi Class Lv.75 & Equipment Set",
+		"tr_text": "Fi Class Lv. 75 & Equipment Set",
 		"jp_explain": "Fiクラスレベル75化＆適正装備セット",
-		"tr_explain": "Fi Class Lv.75 & Equipment Set"
+		"tr_explain": "Fi Class Lv. 75 & Equipment Set"
 	},
 	{
 		"assign": "321010385",
 		"jp_text": "Guクラスレベル75化＆適正装備セット",
-		"tr_text": "Gu Class Lv.75 & Equipment Set",
+		"tr_text": "Gu Class Lv. 75 & Equipment Set",
 		"jp_explain": "Guクラスレベル75化＆適正装備セット",
-		"tr_explain": "Gu Class Lv.75 & Equipment Set"
+		"tr_explain": "Gu Class Lv. 75 & Equipment Set"
 	},
 	{
 		"assign": "321010386",
 		"jp_text": "Teクラスレベル75化＆適正装備セット",
-		"tr_text": "Te Class Lv.75 & Equipment Set",
+		"tr_text": "Te Class Lv. 75 & Equipment Set",
 		"jp_explain": "Teクラスレベル75化＆適正装備セット",
-		"tr_explain": "Te Class Lv.75 & Equipment Set"
+		"tr_explain": "Te Class Lv. 75 & Equipment Set"
 	},
 	{
 		"assign": "321010387",
 		"jp_text": "Brクラスレベル75化＆適正装備セット",
-		"tr_text": "Br Class Lv.75 & Equipment Set",
+		"tr_text": "Br Class Lv. 75 & Equipment Set",
 		"jp_explain": "Brクラスレベル75化＆適正装備セット",
-		"tr_explain": "Br Class Lv.75 & Equipment Set"
+		"tr_explain": "Br Class Lv. 75 & Equipment Set"
 	},
 	{
 		"assign": "321010388",
 		"jp_text": "Boクラスレベル75化＆適正装備セット",
-		"tr_text": "Bo Class Lv.75 & Equipment Set",
+		"tr_text": "Bo Class Lv. 75 & Equipment Set",
 		"jp_explain": "Boクラスレベル75化＆適正装備セット",
-		"tr_explain": "Bo Class Lv.75 & Equipment Set"
+		"tr_explain": "Bo Class Lv. 75 & Equipment Set"
 	},
 	{
 		"assign": "321010389",
 		"jp_text": "Waクラスレベル75化＆適正装備セット",
-		"tr_text": "Wa Class Lv.75 & Equipment Set",
+		"tr_text": "Wa Class Lv. 75 & Equipment Set",
 		"jp_explain": "Waクラスレベル75化＆適正装備セット",
-		"tr_explain": "Wa Class Lv.75 & Equipment Set"
+		"tr_explain": "Wa Class Lv. 75 & Equipment Set"
 	},
 	{
 		"assign": "321010390",
 		"jp_text": "Slクラスレベル75化＆適正装備セット",
-		"tr_text": "Sl Class Lv.75 & Equipment Set",
+		"tr_text": "Sl Class Lv. 75 & Equipment Set",
 		"jp_explain": "Slクラスレベル75化＆適正装備セット",
-		"tr_explain": "Sl Class Lv.75 & Equipment Set"
+		"tr_explain": "Sl Class Lv. 75 & Equipment Set"
 	},
 	{
 		"assign": "321010391",
 		"jp_text": "リワードボックスメダルFeb'24",
 		"tr_text": "Reward Box Medal Feb '24",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスFeb'24<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one draw from the\n<yellow>Feb '24 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Feb '24 Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015087",
@@ -5583,84 +5583,84 @@
 		"jp_text": "カードスクラッチ補助券",
 		"tr_text": "Card Scratch Voucher",
 		"jp_explain": "アイテムパックに所持しておくことで\n10枚で1回、<yellow>カードスクラッチ<c>に\n挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the<br><yellow>Card Scratch<c> just by having<br>10 of these in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Card Scratch<c> just by having\n10 of these in your inventory."
 	},
 	{
 		"assign": "321010392",
 		"jp_text": "クラスレベル80化＆適正装備セット",
-		"tr_text": " Class Lv.80 & Equipment Set",
+		"tr_text": " Class Lv. 80 & Equipment Set",
 		"jp_explain": "クラスレベル80化＆適正装備セット",
-		"tr_explain": " Class Lv.80 & Equipment Set"
+		"tr_explain": "Class Lv. 80 & Equipment Set"
 	},
 	{
 		"assign": "321010393",
 		"jp_text": "Huクラスレベル80化＆適正装備セット",
-		"tr_text": "Hu Class Lv.80 & Equipment Set",
+		"tr_text": "Hu Class Lv. 80 & Equipment Set",
 		"jp_explain": "Huクラスレベル80化＆適正装備セット",
-		"tr_explain": "Hu Class Lv.80 & Equipment Set"
+		"tr_explain": "Hu Class Lv. 80 & Equipment Set"
 	},
 	{
 		"assign": "321010394",
 		"jp_text": "Raクラスレベル80化＆適正装備セット",
-		"tr_text": "Ra Class Lv.80 & Equipment Set",
+		"tr_text": "Ra Class Lv. 80 & Equipment Set",
 		"jp_explain": "Raクラスレベル80化＆適正装備セット",
-		"tr_explain": "Ra Class Lv.80 & Equipment Set"
+		"tr_explain": "Ra Class Lv. 80 & Equipment Set"
 	},
 	{
 		"assign": "321010395",
 		"jp_text": "Foクラスレベル80化＆適正装備セット",
-		"tr_text": "Fo Class Lv.80 & Equipment Set",
+		"tr_text": "Fo Class Lv. 80 & Equipment Set",
 		"jp_explain": "Foクラスレベル80化＆適正装備セット",
-		"tr_explain": "Fo Class Lv.80 & Equipment Set"
+		"tr_explain": "Fo Class Lv. 80 & Equipment Set"
 	},
 	{
 		"assign": "321010396",
 		"jp_text": "Fiクラスレベル80化＆適正装備セット",
-		"tr_text": "Fi Class Lv.80 & Equipment Set",
+		"tr_text": "Fi Class Lv. 80 & Equipment Set",
 		"jp_explain": "Fiクラスレベル80化＆適正装備セット",
-		"tr_explain": "Fi Class Lv.80 & Equipment Set"
+		"tr_explain": "Fi Class Lv. 80 & Equipment Set"
 	},
 	{
 		"assign": "321010397",
 		"jp_text": "Guクラスレベル80化＆適正装備セット",
-		"tr_text": "Gu Class Lv.80 & Equipment Set",
+		"tr_text": "Gu Class Lv. 80 & Equipment Set",
 		"jp_explain": "Guクラスレベル80化＆適正装備セット",
-		"tr_explain": "Gu Class Lv.80 & Equipment Set"
+		"tr_explain": "Gu Class Lv. 80 & Equipment Set"
 	},
 	{
 		"assign": "321010398",
 		"jp_text": "Teクラスレベル80化＆適正装備セット",
-		"tr_text": "Te Class Lv.80 & Equipment Set",
+		"tr_text": "Te Class Lv. 80 & Equipment Set",
 		"jp_explain": "Teクラスレベル80化＆適正装備セット",
-		"tr_explain": "Te Class Lv.80 & Equipment Set"
+		"tr_explain": "Te Class Lv. 80 & Equipment Set"
 	},
 	{
 		"assign": "321010399",
 		"jp_text": "Brクラスレベル80化＆適正装備セット",
-		"tr_text": "Br Class Lv.80 & Equipment Set",
+		"tr_text": "Br Class Lv. 80 & Equipment Set",
 		"jp_explain": "Brクラスレベル80化＆適正装備セット",
-		"tr_explain": "Br Class Lv.80 & Equipment Set"
+		"tr_explain": "Br Class Lv. 80 & Equipment Set"
 	},
 	{
 		"assign": "321010400",
 		"jp_text": "Boクラスレベル80化＆適正装備セット",
-		"tr_text": "Bo Class Lv.80 & Equipment Set",
+		"tr_text": "Bo Class Lv. 80 & Equipment Set",
 		"jp_explain": "Boクラスレベル80化＆適正装備セット",
-		"tr_explain": "Bo Class Lv.80 & Equipment Set"
+		"tr_explain": "Bo Class Lv. 80 & Equipment Set"
 	},
 	{
 		"assign": "321010401",
 		"jp_text": "Waクラスレベル80化＆適正装備セット",
-		"tr_text": "Wa Class Lv.80 & Equipment Set",
+		"tr_text": "Wa Class Lv. 80 & Equipment Set",
 		"jp_explain": "Waクラスレベル80化＆適正装備セット",
-		"tr_explain": "Wa Class Lv.80 & Equipment Set"
+		"tr_explain": "Wa Class Lv. 80 & Equipment Set"
 	},
 	{
 		"assign": "321010402",
 		"jp_text": "Slクラスレベル80化＆適正装備セット",
-		"tr_text": "Sl Class Lv.80 & Equipment Set",
+		"tr_text": "Sl Class Lv. 80 & Equipment Set",
 		"jp_explain": "Slクラスレベル80化＆適正装備セット",
-		"tr_explain": "Sl Class Lv.80 & Equipment Set"
+		"tr_explain": "Sl Class Lv. 80 & Equipment Set"
 	},
 	{
 		"assign": "321015089",
@@ -5688,14 +5688,14 @@
 		"jp_text": "リワードボックスメダルApr'24",
 		"tr_text": "Reward Box Medal Apr '24",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスApr'24<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one draw from the\n<yellow>Apr '24 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Apr '24 Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321010404",
 		"jp_text": "プリセット能力Lv.1追加",
 		"tr_text": "Add Preset Ability Lv.1",
 		"jp_explain": "Lv.1のプリセット能力の\nいずれかを装備に追加する。\n<yellow>※プリセット能力の追加でも使用可能<c>",
-		"tr_explain": "Adds a Lv.1 Preset Ability to\na piece of equipment."
+		"tr_explain": "Adds a Lv.1 Preset Ability to\na piece of equipment.\n<yellow>※Can also be used to add\nPreset Abilities.<c>"
 	},
 	{
 		"assign": "321015092",
@@ -5723,14 +5723,14 @@
 		"jp_text": "N-特殊能力移植パス補助券",
 		"tr_text": "N-Ability Transfer Pass Ticket",
 		"jp_explain": "一定枚数集めることで\nアイテムリサイクルで\n<yellow>N-特殊能力移植パス<c>\nと交換できるチケット。",
-		"tr_explain": "By collecting a certain amount\nof tickets, you can recycle\nthem for a <yellow>N-Ability Transfer Pass<c>."
+		"tr_explain": "A ticket which can be recycled in\nbatches to obtain\n<yellow>N-Ability Transfer Pass<c>."
 	},
 	{
 		"assign": "321010407",
 		"jp_text": "リワードボックスメダルJul'24",
 		"tr_text": "Reward Box Medal July '24",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスJul'24<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one draw from the\n<yellow>July '24 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>July '24 Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015094",
@@ -5835,7 +5835,7 @@
 		"jp_text": "リワードボックスメダルAug'24",
 		"tr_text": "Reward Box Medal Aug '24",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスAug'24<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one draw from the\n<yellow>Aug '24 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Aug '24 Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015097",
@@ -5863,7 +5863,7 @@
 		"jp_text": "リワードボックスメダルOct'24",
 		"tr_text": "Reward Box Medal Oct '24",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスOct'24<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Oct'24 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Oct '24 Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015102",
@@ -5877,7 +5877,7 @@
 		"jp_text": "超・創世祭'24SPスクラッチ補助券",
 		"tr_text": "Super Genesis '24 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>超・創世祭'24SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Genesis '24 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Genesis '24 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321015104",
@@ -5912,14 +5912,14 @@
 		"jp_text": "ビッグバンスクラッチ・シルバー券",
 		"tr_text": "Big Bang Scratch Silver Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>ビッグバンスクラッチ・シルバー<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "A ticket that allows you to play\nthe <yellow>Big Bang Scratch Silver<c>\nonce when kept in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Big Bang Scratch Silver<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015107",
 		"jp_text": "ビッグバンスクラッチ・ゴールド券",
 		"tr_text": "Big Bang Scratch Gold Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>ビッグバンスクラッチ・ゴールド<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "A ticket that allows you to play\nthe <yellow>Big Bang Scratch Gold<c>\nonce when kept in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Big Bang Scratch Gold<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015108",
@@ -5933,7 +5933,7 @@
 		"jp_text": "春'25スペシャルスクラッチ補助券",
 		"tr_text": "Spring '25 Special Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>春'25スペシャルスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Spring '25 Special Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Spring '25 Special Scratch Tickets<c>."
 	},
 	{
 		"assign": "321015110",
@@ -5947,21 +5947,21 @@
 		"jp_text": "リワードボックスメダル・エイジス",
 		"tr_text": "Reward Box Medal Aegis",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>超リワードボックス・エイジス<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Aegis Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Aegis Super Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321010424",
 		"jp_text": "リワードボックスメダル・ソウラス",
 		"tr_text": "Reward Box Medal Solus",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>超リワードボックス・ソウラス<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Solus Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Solus Super Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321010425",
 		"jp_text": "リワードボックスメダル・ダリオン",
 		"tr_text": "Reward Box Medal Dalion",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>超リワードボックス・ダリオン<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Dalion Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Dalion Super Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015112",
@@ -5975,7 +5975,7 @@
 		"jp_text": "超・星譚祭'25SPスクラッチ補助券",
 		"tr_text": "Super Star '25 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>超・星譚祭'25SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Star '25 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Star '25 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321015114",
@@ -6017,56 +6017,56 @@
 		"jp_text": "超・夢幻祭'25SPスクラッチ補助券",
 		"tr_text": "Super Phantasy '25 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>超・夢幻祭'25SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Phantasy '25 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Phantasy '25 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321010427",
 		"jp_text": "スキルリング強化代用材/＋1",
 		"tr_text": "Ring Material Subsitution/+1",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level. Only\nusable if base item's grind\nlevel is at or below the displayed value."
 	},
 	{
 		"assign": "321010428",
 		"jp_text": "スキルリング強化代用材/＋2",
 		"tr_text": "Ring Material Subsitution/+2",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level. Only\nusable if base item's grind\nlevel is at or below the displayed value."
 	},
 	{
 		"assign": "321010429",
 		"jp_text": "スキルリング強化代用材/＋3",
 		"tr_text": "Ring Material Subsitution/+3",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level. Only\nusable if base item's grind\nlevel is at or below the displayed value."
 	},
 	{
 		"assign": "321010430",
 		"jp_text": "スキルリング強化代用材/＋4",
 		"tr_text": "Ring Material Subsitution/+4",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level. Only\nusable if base item's grind\nlevel is at or below the displayed value."
 	},
 	{
 		"assign": "321010431",
 		"jp_text": "スキルリング強化代用材/＋5",
 		"tr_text": "Ring Material Subsitution/+5",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level. Only\nusable if base item's grind\nlevel is at or below the displayed value."
 	},
 	{
 		"assign": "321010432",
 		"jp_text": "スキルリング強化代用材",
 		"tr_text": "Ring Material Subsitution",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値に\n関係なく使用可能。",
-		"tr_explain": "Removes the material requirement\ntoGrind a Skill Ring by 1 level.\nCan be used regardless of\nthe base item's grind level."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan be used regardless of\nthe base item's grind level."
 	},
 	{
 		"assign": "321010433",
 		"jp_text": "リワードボックスメダル・ヴァエル",
 		"tr_text": "Reward Box Medal Vael",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>超リワードボックス・ヴァエル<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Vael Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Vael Super Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015121",
@@ -6101,7 +6101,7 @@
 		"jp_text": "ハロウィン'25SPスクラッチ補助券",
 		"tr_text": "Halloween '25 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>ハロウィン'25SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Halloween '25 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Halloween '25 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321015125",
@@ -6143,28 +6143,28 @@
 		"jp_text": "超・創世祭'25SPスクラッチ補助券",
 		"tr_text": "Super Genesis '25 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>超・創世祭'25SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Genesis '25 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Genesis '25 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321010435",
 		"jp_text": "リワードボックスメダル・ルーサー",
 		"tr_text": "Reward Box Medal Loser",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>超リワードボックス・ルーサー<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Loser Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Loser Super Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321010436",
 		"jp_text": "リワードボックスメダルJan'26",
 		"tr_text": "Reward Box Medal Jan '26",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>超リワードボックスJan'26<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Jan '26 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Jan '26 Super Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321010437",
 		"jp_text": "スキルリング強化代用材/＋0",
 		"tr_text": "Ring Material Subsitution/+0",
 		"jp_explain": "スキルリングを１段階強化するための\n必要素材アイテムを不要にする。\nベースアイテムの強化値が\n表示値以下の場合のみ使用可能。",
-		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level.\nCan only be used on items whose level\nis at or below the displayed value."
+		"tr_explain": "Removes the material requirement\nto grind a Skill Ring by 1 level. Only\nusable if base item's grind\nlevel is at or below the displayed value."
 	},
 	{
 		"assign": "321015132",
@@ -6185,7 +6185,7 @@
 		"jp_text": "春'26スペシャルスクラッチ補助券",
 		"tr_text": "Spring '26 Special Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>春'26スペシャルスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Spring '26 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Spring '26 Special Scratch Tickets<c>."
 	},
 	{
 		"assign": "321010438",
@@ -6213,14 +6213,14 @@
 		"jp_text": "5周年サンクフルスクラッチ券Feb",
 		"tr_text": "5th Anniv. Thankful Scratch Feb Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルFeb<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Feb<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Feb<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015138",
 		"jp_text": "5周年サンクフルスクラッチ券Mar",
 		"tr_text": "5th Anniv. Thankful Scratch Mar Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルMar<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Mar<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Mar<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015139",
@@ -6234,7 +6234,7 @@
 		"jp_text": "超・星譚祭'26SPスクラッチ補助券",
 		"tr_text": "Super Star '26 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>超・星譚祭'26SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Star '26 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Star '26 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321015141",
@@ -6248,112 +6248,112 @@
 		"jp_text": "5周年サンクフルスクラッチ券Apr",
 		"tr_text": "5th Anniv. Thankful Scratch Apr Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルApr<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Apr<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Apr<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015143",
 		"jp_text": "5周年サンクフルスクラッチ券May",
 		"tr_text": "5th Anniv. Thankful Scratch May Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルMay<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch May<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch May<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321010439",
 		"jp_text": "クラスレベル110化",
-		"tr_text": "Class Level 110",
+		"tr_text": "Class Lv. 110",
 		"jp_explain": "クラスレベル110化",
-		"tr_explain": "Class Level 110"
+		"tr_explain": "Class Lv. 110"
 	},
 	{
 		"assign": "321010440",
 		"jp_text": "Huクラスレベル110化",
-		"tr_text": "Hu Class Level 110",
+		"tr_text": "Hu Class Lv. 110",
 		"jp_explain": "Huクラスレベル110化",
-		"tr_explain": "Hu Class Level 110"
+		"tr_explain": "Hu Class Lv. 110"
 	},
 	{
 		"assign": "321010441",
 		"jp_text": "Raクラスレベル110化",
-		"tr_text": "Ra Class Level 110",
+		"tr_text": "Ra Class Lv. 110",
 		"jp_explain": "Raクラスレベル110化",
-		"tr_explain": "Ra Class Level 110"
+		"tr_explain": "Ra Class Lv. 110"
 	},
 	{
 		"assign": "321010442",
 		"jp_text": "Foクラスレベル110化",
-		"tr_text": "Fo Class Level 110",
+		"tr_text": "Fo Class Lv. 110",
 		"jp_explain": "Foクラスレベル110化",
-		"tr_explain": "Fo Class Level 110"
+		"tr_explain": "Fo Class Lv. 110"
 	},
 	{
 		"assign": "321010443",
 		"jp_text": "Fiクラスレベル110化",
-		"tr_text": "Fi Class Level 110",
+		"tr_text": "Fi Class Lv. 110",
 		"jp_explain": "Fiクラスレベル110化",
-		"tr_explain": "Fi Class Level 110"
+		"tr_explain": "Fi Class Lv. 110"
 	},
 	{
 		"assign": "321010444",
 		"jp_text": "Guクラスレベル110化",
-		"tr_text": "Gu Class Level 110",
+		"tr_text": "Gu Class Lv. 110",
 		"jp_explain": "Guクラスレベル110化",
-		"tr_explain": "Gu Class Level 110"
+		"tr_explain": "Gu Class Lv. 110"
 	},
 	{
 		"assign": "321010445",
 		"jp_text": "Teクラスレベル110化",
-		"tr_text": "Te Class Level 110",
+		"tr_text": "Te Class Lv. 110",
 		"jp_explain": "Teクラスレベル110化",
-		"tr_explain": "Te Class Level 110"
+		"tr_explain": "Te Class Lv. 110"
 	},
 	{
 		"assign": "321010446",
 		"jp_text": "Brクラスレベル110化",
-		"tr_text": "Br Class Level 110",
+		"tr_text": "Br Class Lv. 110",
 		"jp_explain": "Brクラスレベル110化",
-		"tr_explain": "Br Class Level 110"
+		"tr_explain": "Br Class Lv. 110"
 	},
 	{
 		"assign": "321010447",
 		"jp_text": "Boクラスレベル110化",
-		"tr_text": "Bo Class Level 110",
+		"tr_text": "Bo Class Lv. 110",
 		"jp_explain": "Boクラスレベル110化",
-		"tr_explain": "Bo Class Level 110"
+		"tr_explain": "Bo Class Lv. 110"
 	},
 	{
 		"assign": "321010448",
 		"jp_text": "Waクラスレベル110化",
-		"tr_text": "Wa Class Level 110",
+		"tr_text": "Wa Class Lv. 110",
 		"jp_explain": "Waクラスレベル110化",
-		"tr_explain": "Wa Class Level 110"
+		"tr_explain": "Wa Class Lv. 110"
 	},
 	{
 		"assign": "321010449",
 		"jp_text": "Slクラスレベル110化",
-		"tr_text": "Sl Class Level 110",
+		"tr_text": "Sl Class Lv. 110",
 		"jp_explain": "Slクラスレベル110化",
-		"tr_explain": "Sl Class Level 110"
+		"tr_explain": "Sl Class Lv. 110"
 	},
 	{
 		"assign": "321010450",
 		"jp_text": "リワードボックスメダル・ソウラス'26",
 		"tr_text": "Reward Box Medal Solus '26",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>超リワードボックス・ソウラス'26<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Solus '26 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Solus '26 Super Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321010451",
 		"jp_text": "リワードボックスメダル・ダリオン'26",
 		"tr_text": "Reward Box Medal Dalion '26",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>超リワードボックス・ダリオン'26<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Dalion '26 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Dalion '26 Super Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321010452",
 		"jp_text": "リワードボックスメダル・ヴァエル'26",
 		"tr_text": "Reward Box Medal Vael '26",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>超リワードボックス・ヴァエル'26<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Vael '26 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Vael '26 Super Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015145",
@@ -6367,21 +6367,21 @@
 		"jp_text": "真・超星譚祭'26SPスクラッチ補助券",
 		"tr_text": "Shin Super Star '26 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>真・超星譚祭'26SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Shin Super Star '26 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Shin Super Star '26 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321015147",
 		"jp_text": "5周年サンクフルスクラッチ券Jun",
 		"tr_text": "5th Anniv. Thankful Scratch Jun Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルJun<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Jun<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Jun<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015148",
 		"jp_text": "5周年サンクフルスクラッチ券Jul",
 		"tr_text": "5th Anniv. Thankful Scratch Jul Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルJul<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Jul<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Jul<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015149",
@@ -6395,7 +6395,7 @@
 		"jp_text": "リワードボックスメダルJun'26",
 		"tr_text": "Reward Box Medal Jun '26",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>超リワードボックスJun'26<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Jun '26 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Jun '26 Super Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015150",
@@ -6409,35 +6409,35 @@
 		"jp_text": "超・夢幻祭'26SPスクラッチ補助券",
 		"tr_text": "Super Phantasy '26 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>超・夢幻祭'26SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Phantasy '26 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Super Phantasy '26 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321010454",
 		"jp_text": "リワードボックスメダルAug'26",
 		"tr_text": "Reward Box Medal Aug '26",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>超リワードボックスAug'26<c>に\n1回挑戦できるメダル。",
-		"tr_explain": "Allows you one chance at the\n<yellow>Aug '26 Reward Box<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Aug '26 Super Reward Box<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015152",
 		"jp_text": "5周年サンクフルスクラッチ券Aug",
 		"tr_text": "5th Anniv. Thankful Scratch Aug Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルAug<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Aug<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Aug<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015153",
 		"jp_text": "5周年サンクフルスクラッチ券Sep",
 		"tr_text": "5th Anniv. Thankful Scratch Sep Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルSep<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Sep<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Sep<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015154",
 		"jp_text": "トレジャースクラッチ券Vol.16",
 		"tr_text": "Treasure Scratch Ticket Vol.16",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>超・トレジャースクラッチ16<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>超・Treasure Scratch Vol.16<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>Super Treasure Scratch Vol.16<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015155",
@@ -6458,7 +6458,7 @@
 		"jp_text": "ハロウィン'26SPスクラッチ補助券",
 		"tr_text": "Halloween '26 SP Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>ハロウィン'26SPスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Halloween '26 SP Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Halloween '26 SP Scratch Tickets<c>."
 	},
 	{
 		"assign": "321015158",
@@ -6470,7 +6470,7 @@
 	{
 		"assign": "321010455",
 		"jp_text": "リワードボックスメダルOct'26",
-		"tr_text": "Reward Box Medal Oct'26",
+		"tr_text": "Reward Box Medal Oct '26",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>リワードボックスOct'26<c>に\n1回挑戦できるメダル。",
 		"tr_explain": "Allows you one chance at the\n<yellow>Oct '26 Reward Box<c>\njust by having it in your inventory."
 	},
@@ -6479,14 +6479,14 @@
 		"jp_text": "5周年サンクフルスクラッチ券Oct",
 		"tr_text": "5th Anniv. Thankful Scratch Oct Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルOct<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Oct<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Oct<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015161",
 		"jp_text": "5周年サンクフルスクラッチ券Nov",
 		"tr_text": "5th Anniv. Thankful Scratch Nov Ticket",
 		"jp_explain": "アイテムパックに所持しておくことで\n<yellow>【チケット版】5周年サンクフルNov<c>に\n1回挑戦できるチケット。",
-		"tr_explain": "Allows you one chance at the\n<yellow>5th Anniv. Thankful Scratch Nov<c>\njust by having it in your inventory."
+		"tr_explain": "Allows you one chance at the\n<yellow>[Ticket] 5th Anniv. Thankful Scratch Nov<c>\njust by having it in your inventory."
 	},
 	{
 		"assign": "321015164",
@@ -6500,7 +6500,7 @@
 		"jp_text": "スペシャルスクラッチ補助券",
 		"tr_text": "Special Scratch Voucher",
 		"jp_explain": "10枚集めることで\nアイテムリサイクルで\n<yellow>スペシャルスクラッチ券<c>\nと交換できるチケット。",
-		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Special Scratch Tickets<c>"
+		"tr_explain": "A ticket which can be recycled in\nbatches of 10 to obtain\n<yellow>Special Scratch Tickets<c>."
 	},
 	{
 		"assign": "321010457",
