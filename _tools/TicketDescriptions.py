@@ -964,7 +964,7 @@ cosmetic_types = {
     # JP text: メイク
     "Stack_FacePaint": ["makeup", "메이크업", "макияж", "妝容", "ลวดลาย Face Paint "],
     # JP text: 髪型 / ヘアスタイル
-    "Stack_Hairstyle": ["hairstyle", "헤어스타일", "причёску", "髪型", " Hairstyle "],
+    "Stack_Hairstyle": ["hairstyle", "헤어스타일", "причёску", "髮型", " Hairstyle "],
     # JP text: 角
     "Stack_Horn": ["horn type", "뿔", "тип рога", "角", "รูปทรงเขา"],
     # JP text: モーション
