@@ -1061,7 +1061,7 @@ cosmetic_types = {
     # JP text: メイク
     "Stack_FacePaint": ["makeup", "메이크업", "макияж", "妝容", "ลวดลาย Face Paint "],
     # JP text: 髪型 / ヘアスタイル
-    "Stack_Hairstyle": ["hairstyle", "헤어스타일", "причёску", "髪型", " Hairstyle "],
+    "Stack_Hairstyle": ["hairstyle", "헤어스타일", "причёску", "髮型", " Hairstyle "],
     # JP text: 角
     "Stack_Horn": ["horn type", "뿔", "тип рога", "角", "รูปทรงเขา"],
     # JP text: モーション
@@ -4874,14 +4874,13 @@ tool_event_npc_names = {
     # JP text: シトレー
     "xitrae": ["Xitrae", "시트레", "", "希特蕾", "Xitrae"],
     # JP text: アークス特異現象研究員
-    "phenomena_researcher": ["ARKS Researcher of Strange Phenomena", "아크스 특이 현상 연구원", "", "ARKS特異現象研究員", "นักวิจัยปรากฏการณ์พิเศษ ARKS"],
+    "phenomena_researcher": ["the Researcher of Strange Phenomena", "아크스 특이 현상 연구원", "", "ARKS特異現象研究員", "นักวิจัยปรากฏการณ์พิเศษ ARKS"],
 }
 
 tool_sale_intro_names = {
     # JP text: なんらかの機械の動力炉。
     "reactor": [
-        ("A power core from some kind of\n"
-         "machine."),
+        ("A power core from some kind of machine."),
         ("어떤 기계의 동력로."),
         (""),
         ("某種機械的動力爐。"),
@@ -5252,9 +5251,9 @@ tool_desc_formats = {
     # {event_npc}に提示することで
     # 様々なアイテムと交換できるチケット。
     "event": [
-        ("During the corresponding event,\n"
-         "this ticket can be given to {event_npc}\n"
-         "in exchange for various items."),
+        ("Can be traded for items during\n"
+         "the corresponding event by\n"
+         "talking to {event_npc}."),
         ("해당 이벤트 기간 중에\n"
          "{event_npc}에게 제시하면\n"
          "다양한 아이템과 교환할 수 있는 티켓."),
@@ -5269,8 +5268,8 @@ tool_desc_formats = {
     # <yellow>{price}<c>N-メセタで
     # 売却することができる。
     "sale": [
-        ("{sale_intro} Can be sold for\n"
-         "<yellow>{price}<c> N-Meseta."),
+        ("{sale_intro} \n"
+         "Can be sold for <yellow>{price}<c> N-Meseta."),
         ("{sale_intro}\n"
          "<yellow>{price}<c>N-메세타에\n"
          "판매할 수 있다."),
