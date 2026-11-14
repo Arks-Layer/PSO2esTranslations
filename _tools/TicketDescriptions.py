@@ -97,14 +97,44 @@ def source_note_pattern(pattern):
     return r"(?:<yellow>)?" + pattern + r"(?:<c>)?"
 
 # [FUNCTION] Read a native title between the fixed parts of an existing template.
-def get_existing_description_field(item, template, field):
+def get_existing_description_field(item, template, field, source=None):
     before, after = template.split("{" + field + "}")
-    match = regex.search(regex.escape(before) + r"(?P<value>[^\r\n<>]+)" + regex.escape(after),
-                         item["tr_explain"])
-    if (match is None
-            or LANG in (0, 1) and regex.search(r"[\p{Hiragana}\p{Katakana}\p{Han}]", match["value"])):
+    if source is None:
+        before, after = regex.escape(before), regex.escape(after)
+        value_pattern = r"(?P<value>[^\r\n<>]+)"
+    else:
+        before, after = (r"\s+".join(regex.escape(part) for part in regex.split(r"\s+", text))
+                         for text in (before, after))
+        value_pattern = r"(?P<value>[^\r\n<>]+(?:\n[^\r\n<>]+)?)"
+    match = regex.search(before + value_pattern + after, item["tr_explain"])
+    if match is None:
         return None
-    return match["value"]
+    value = " ".join(match["value"].splitlines()) if source is not None else match["value"]
+    if (LANG in (0, 1) and regex.search(r"[\p{Hiragana}\p{Katakana}\p{Han}]", value)
+            or LANG == 3 and source is not None and value.strip() == source.strip()):
+        return None
+    if source is not None:
+        source = source.translate(chartable[0])
+        native_value = value.translate(chartable[0])
+        date_pattern = r"(?:(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) ?)?'([0-9]+)"
+        dates = regex.findall(date_pattern, source)
+        if dates and regex.findall(date_pattern, native_value) != dates:
+            return None
+        month_pattern = r"(?<![A-Za-z])(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)(?![A-Za-z])"
+        months = regex.findall(month_pattern, source)
+        if months and regex.findall(month_pattern, native_value) != months:
+            return None
+        support_number = regex.search(r"支援アイテムS([0-9]+)券?$", source)
+        if support_number is not None and ticket_target_select_number_patterns[LANG]:
+            native_number = regex.search(ticket_target_select_number_patterns[LANG], native_value)
+            if native_number is None or native_number[1] != support_number[1]:
+                return None
+        volume = regex.search(r"トレジャースクラッチ(?:券Vol\.)?([0-9]+)$", source)
+        if volume is not None and ticket_target_volume_patterns[LANG]:
+            native_volume = regex.search(ticket_target_volume_patterns[LANG], native_value)
+            if native_volume is None or native_volume[1] != volume[1]:
+                return None
+    return value
 
 # [FUNCTION] Select a Korean particle from the final consonant of the translated word.
 def get_korean_particle(word, consonant, vowel):
@@ -253,6 +283,8 @@ ticket_target_formats = {
     "treasure": ["{target} Vol.{number}", "{target}{number}", "", "{target}{number}", "{target} Vol.{number}"],
     # JP text: {target}{month}
     "anniversary": ["{target} Scratch{month}", "{target}{month}", "", "{target}{month}", "{target} Scratch{month}"],
+    # JP text: {target}{month} (景品交換券の対象).
+    "prize": ["{target}{month}", "{target}{month}", "", "{target}{month}", "{target}{month}"],
     # JP text: {target}{suffix}
     "reward": ["{suffix} {target}", "{target}{suffix}", "", "{target}{suffix}", "{suffix} {target}"],
     # JP text: {target}{suffix}
@@ -268,6 +300,52 @@ ticket_target_formats = {
     # JP text: 【チケット版】{target}
     "version": ["[Ticket] {target}", "【티켓판】{target}", "", "【票券版】{target}", ""],
 }
+
+# Expand only semantic fragments identified by this ticket's JP mechanism.
+ticket_target_semantic_sources = {
+    "select": r"支援(?:アイテム|I)(?:S|セレクト)(?:[0-9]+|[ A-Za-z]*'[0-9]+)?券?$",
+    "special": r"スペシャル(?:スクラッチ券?|セレクト券)(?:'[0-9]+)?$",
+    "sp": r"SP(?:スクラッチ券?|セレクト券)(?:'[0-9]+)?$",
+    "anniversary": r"[0-9]+周年",
+    "prize": r"[0-9]+周年(?:サンクフル[A-Za-z]*|メモリーズ)景品交換券$",
+    "festival": r"祭(?:'[0-9]+)?(?:SP|スペシャル)スクラッチ(?:'[0-9]+)?券?$",
+}
+
+ticket_target_semantic_patterns = {
+    "select": [r"(\bSupport Items? )S(?=$|[ 0-9])", r"(지원 아이템) ?[ＳS](?=$|[ 0-9０-９])", "", "", r"(\bSupport Items? )S(?=$|[ 0-9])"],
+    "special": [r"(?<![A-Za-z])(?:(?:SP|Special) ?)?(?:Scratch|Select)(?=(?: '[0-9]+)?(?: Tickets?)?$)", r"(?:(?:스페셜|SP) )?(?:스크래치|셀렉트)(?=권?$)|SP(?=권?$)", "", r"(?:特殊|SP)?(?:自選|轉蛋)(?=券?$)", r"(?<![A-Za-z])(?:(?:SP|Special) ?)?(?:Scratch|Select)(?=(?: '[0-9]+)?(?: Tickets?)?$)"],
+    "sp": [r"(?<![A-Za-z])(?:(?:SP|Special)(?: (?:Scratch|Select))?|Scratch)(?=(?: '[0-9]+)?(?: Tickets?)?$)", r"(?:(?:스페셜|SP) )?(?:스크래치|셀렉트)(?=권?$)|SP(?=권?$)", "", r"(?:特殊|SP)?(?:自選|轉蛋)(?=券?$)", r"(?<![A-Za-z])(?:(?:SP|Special)(?: (?:Scratch|Select))?|Scratch)(?=(?: '[0-9]+)?(?: Tickets?)?$)"],
+    "anniversary": [r"\bAnniv\.", "", "", "", r"\bAnniv\."],
+    "prize": [r"\A(?P<title>.+?)(?: (?:Prize )?Exchange)?\Z", r"\A(?P<title>.+?)(?: 경품 교환)?\Z", "", r"\A(?P<title>.+?)(?:獎品交換|景品交換)?\Z", r"\A(?P<title>.+?)(?: (?:Prize )?Exchange)?\Z"],
+    "festival": [
+        r"\A(?P<title>.+?)(?: Festival)?(?P<suffix>(?: '[0-9]+)? (?:SP|Special) Scratch(?: '[0-9]+)?(?: Tickets?)?)\Z",
+        r"\A(?P<title>.+?)(?:제)?(?P<suffix>(?:'[0-9]+)? (?:SP|스페셜) 스크래치(?:'[0-9]+)?권?)\Z",
+        "",
+        r"\A(?P<title>.+?)(?:祭)?(?P<suffix>(?:'[0-9]+)?(?:SP|特殊)轉蛋(?:'[0-9]+)?券?)\Z",
+        r"\A(?P<title>.+?)(?: Festival)?(?P<suffix>(?: '[0-9]+)? (?:SP|Special) Scratch(?: '[0-9]+)?(?: Tickets?)?)\Z",
+    ],
+}
+
+ticket_target_semantic_words = {
+    # JP text: セレクト (S in the support-item series).
+    "select": [r"\g<1>Select", r"\g<1> 셀렉트", "", r"\g<1>自選", r"\g<1>Select"],
+    # JP text: スペシャルスクラッチ.
+    "special": ["Special Scratch", "스페셜 스크래치", "", "特殊轉蛋", "Special Scratch"],
+    # JP text: SPスクラッチ (keep the literal SP).
+    "sp": ["SP Scratch", "SP 스크래치", "", "SP轉蛋", "SP Scratch"],
+    # JP text: 周年.
+    "anniversary": ["Anniversary", "", "", "週年", "Anniversary"],
+    # JP text: {title}景品交換券; the exchange mechanism is not part of the target's title.
+    "prize": [r"\g<title>", r"\g<title>", "", r"\g<title>", r"\g<title>"],
+    # JP text: {title}祭{suffix}; retain the native title, dates and scratch type.
+    "festival": [r"\g<title> Festival\g<suffix>", r"\g<title>제\g<suffix>", "", r"\g<title>祭\g<suffix>", r"\g<title> Festival\g<suffix>"],
+}
+
+ticket_target_select_number_patterns = [r"\bSupport Items? (?:Select|S) ?([0-9]+)$", r"지원 아이템 ?(?:셀렉트|S) ?([0-9]+)$", "", "", r"\bSupport Items? (?:Select|S) ?([0-9]+)$"]
+ticket_target_volume_patterns = [r"\bVol\. ?([0-9]+)$", r"스크래치 ?([0-9]+)$", "", r"轉蛋([0-9]+)$", r"\bVol\. ?([0-9]+)$"]
+
+# JP text: {festival}'{year}SPスクラッチ券; keep the complete scratch-ticket phrase together.
+ticket_festival_ticket_breaks = [r" (?=(?:SP|Special) Scratch Tickets$)", "", "", "", ""]
 
 
 cosmetic_desc_formats = {
@@ -614,6 +692,22 @@ def get_type_restrictions(extras):
         return "a"
     return {"ヒト型/キャスト": "a", "ヒト型": "h", "キャスト": "c"}[restriction["race"]] + restriction["number"]
 
+# [FUNCTION] Restore JP-proven semantic words without replacing unrelated activity titles.
+def expand_ticket_target_name(item, target, source):
+    source = source.translate(chartable[0])
+    item_name = item["jp_text"].translate(chartable[0])
+    for kind, source_pattern in ticket_target_semantic_sources.items():
+        if not regex.search(source_pattern, source):
+            if kind in ("special", "sp", "festival") or not regex.search(source_pattern, item_name):
+                continue
+        pattern = ticket_target_semantic_patterns[kind][LANG]
+        word = ticket_target_semantic_words[kind][LANG]
+        if pattern and word:
+            target = regex.sub(pattern, word, target, count=1)
+    if regex.search(r"祭'[0-9]+SPスクラッチ券$", source) and ticket_festival_ticket_breaks[LANG]:
+        target = regex.sub(ticket_festival_ticket_breaks[LANG], "\n", target, count=1)
+    return target
+
 # [FUNCTION] Derive a related ticket target from this item's native name and JP-only qualifiers.
 def get_ticket_target_name(item, name_prefix, source):
     for target_type, pattern in ticket_target_source_formats.items():
@@ -655,14 +749,17 @@ def get_ticket_target_name(item, name_prefix, source):
         if target_type == "anniversary" and month and LANG in (0, 1):
             parts["month"] = " " + month
         parts["target"] = parts["target"].strip()
-        if target_type == "scratch" and LANG == 0:
-            kind = ("Special" if "スペシャルスクラッチ" in fields["target"] else
-                    "SP" if "SPスクラッチ" in fields["target"] else "")
-            if kind and not regex.search(r"\b(?:Special|SP) Scratch\b", parts["target"]):
-                parts["target"] = parts["target"].replace("Scratch", kind + " Scratch", 1)
+        if target_type == "anniversary" and item["jp_text"].endswith("景品交換券"):
+            target_type = "prize"
         template = ticket_target_formats[target_type][LANG]
         if not template:
             return None
+        if qualifier == "super_reward":
+            qualifier_format = ticket_target_formats[qualifier][LANG]
+            if not qualifier_format:
+                return None
+            parts["target"] = qualifier_format.format(target=parts["target"])
+            qualifier = ""
         target = template.format(**parts).strip()
         if qualifier:
             template = ticket_target_formats[qualifier][LANG]
@@ -964,7 +1061,7 @@ cosmetic_types = {
     # JP text: メイク
     "Stack_FacePaint": ["makeup", "메이크업", "макияж", "妝容", "ลวดลาย Face Paint "],
     # JP text: 髪型 / ヘアスタイル
-    "Stack_Hairstyle": ["hairstyle", "헤어스타일", "причёску", "髪型", " Hairstyle "],
+    "Stack_Hairstyle": ["hairstyle", "헤어스타일", "причёску", "髮型", " Hairstyle "],
     # JP text: 角
     "Stack_Horn": ["horn type", "뿔", "тип рога", "角", "รูปทรงเขา"],
     # JP text: モーション
@@ -4397,6 +4494,20 @@ def translate_paidpass_desc(item, file_name, name_prefix):
     desc_format = paidpass_desc_formats[desc_sort][LANG]
     if not desc_format:
         return -5
+    if "target" in values:
+        native_values = dict(values, target="{target}")
+        native_target = get_existing_description_field(
+            item, desc_format.format(**native_values), "target", fields["target"])
+        if native_target is None and LANG == 1 and desc_sort == "recycle":
+            native_values["particle"] = "으로" if values["particle"] == "로" else "로"
+            native_target = get_existing_description_field(
+                item, desc_format.format(**native_values), "target", fields["target"])
+        if native_target is not None and not fields["target"].startswith("超リワードボックス"):
+            values["target"] = native_target
+        values["target"] = expand_ticket_target_name(item, values["target"], fields["target"])
+        if LANG == 1 and desc_sort == "recycle":
+            final = (ord(values["target"][-1]) - 0xAC00) % 28
+            values["particle"] = "로" if final in (0, 8) else "으로"
     body = desc_format.format(**values)
     for extra in source_extras:
         if extra in ("preset_level", "ring_level"):
@@ -4728,8 +4839,7 @@ tool_leso_origin_names = {
 tool_local_intro_names = {
     # JP text: エアリオの紋章が刻印されたバッヂ。
     "aelio_badge": [
-        ("A badge engraved with the emblem\n"
-         "of Aelio. "),
+        ("A badge engraved with the emblem of Aelio."),
         ("에아리오의 문양이 새겨진 뱃지.\n"),
         (""),
         ("銘刻著艾亞利奧紋章的徽章。\n"),
@@ -4738,7 +4848,7 @@ tool_local_intro_names = {
     # JP text: チームへの貢献者に贈られるバッヂ。
     "team_badge": [
         ("A badge awarded to those who\n"
-         "contribute to their Team. "),
+         "contribute to their Team."),
         ("팀에 공헌한 사람에게 주는 배지.\n"),
         (""),
         ("贈予為公會做出貢獻之人的徽章。\n"),
@@ -4748,7 +4858,7 @@ tool_local_intro_names = {
     # 謎の記憶媒体。
     "manga_memory": [
         ("Strange data storage device that\n"
-         "displays distinct illustrations. "),
+         "displays distinct illustrations."),
         ("앞면에 특징적인 일러스트가 그려진\n"
          "수수께끼의 기억 매체.\n"),
         (""),
@@ -4764,14 +4874,13 @@ tool_event_npc_names = {
     # JP text: シトレー
     "xitrae": ["Xitrae", "시트레", "", "希特蕾", "Xitrae"],
     # JP text: アークス特異現象研究員
-    "phenomena_researcher": ["ARKS Researcher of Strange Phenomena", "아크스 특이 현상 연구원", "", "ARKS特異現象研究員", "นักวิจัยปรากฏการณ์พิเศษ ARKS"],
+    "phenomena_researcher": ["the Researcher of Strange Phenomena", "아크스 특이 현상 연구원", "", "ARKS特異現象研究員", "นักวิจัยปรากฏการณ์พิเศษ ARKS"],
 }
 
 tool_sale_intro_names = {
     # JP text: なんらかの機械の動力炉。
     "reactor": [
-        ("A power core from some kind of\n"
-         "machine. "),
+        ("A power core from some kind of machine."),
         ("어떤 기계의 동력로."),
         (""),
         ("某種機械的動力爐。"),
@@ -4780,7 +4889,7 @@ tool_sale_intro_names = {
     # JP text: 氷雪で磨かれたとされる石。
     "snow": [
         ("A stone that has been polished\n"
-         "by ice and snow. "),
+         "by ice and snow."),
         ("얼음과 눈에 의해 연마되었다고 하는 돌."),
         (""),
         ("據說是被冰雪磨礪過的石頭。"),
@@ -4789,7 +4898,7 @@ tool_sale_intro_names = {
     # JP text: 流星雨のときに降り注いだとされる石。
     "meteor": [
         ("A stone said to have appeared\n"
-         "during a meteor shower.\n"),
+         "during a meteor shower."),
         ("유성우가 내릴 때 쏟아졌다고 전해지는 돌."),
         (""),
         ("據說是流星雨時落下的石頭。"),
@@ -4798,7 +4907,7 @@ tool_sale_intro_names = {
     # JP text: 破損したなんらかの機械の動力炉。
     "broken_reactor": [
         ("A power core from some kind of\n"
-         "a broken machine.\n"),
+         "a broken machine."),
         ("손상된 어떤 기계의 동력로."),
         (""),
         ("破損了的某種機械的動力爐。"),
@@ -4868,7 +4977,7 @@ tool_purpose_names = {
     # JP text: 強化
     "upgrade": ["upgrading", "강화", "", "強化", "การอัปเกรด"],
     # JP text: 入手と強化
-    "obtain_upgrade": ["obtaining and upgrading", "얻고 강화", "", "獲得與強化", "การรับและอัปเกรด"],
+    "obtain_upgrade": ["obtaining and\nupgrading", "얻고 강화", "", "獲得與強化", "การรับและอัปเกรด"],
     # JP text: 入手
     "obtain": ["obtaining", "획득", "", "獲得", "การรับ"],
 }
@@ -4918,15 +5027,15 @@ tool_lab_intro_names = {
 
 tool_lab_use_names = {
     # JP text: 潜在能力解放などに用いる。
-    "potential": ["used to unlock Potentials and more", "잠재 능력 해방 등에 사용한다.", "", "用於解放潛在能力等。", "ใช้สําหรับการปลดปล่อย Potential ของอาวุธ\nและอื่น ๆ ที่ Item Lab"],
+    "potential": ["used to\nunlock Potentials and more\n", "잠재 능력 해방 등에 사용한다.", "", "用於解放潛在能力等。", "ใช้สําหรับการปลดปล่อย Potential ของอาวุธ\nและอื่น ๆ ที่ Item Lab"],
     # JP text: 限界突破に用いる。
-    "limit": ["used to break item limits", "한계 돌파에 사용한다.", "", "用於界限突破。", "ใช้สําหรับการทะลวงขีดจํากัด (Limit Break) อุปกรณ์ที่ Item Lab"],
+    "limit": ["used to\nbreak item limits ", "한계 돌파에 사용한다.", "", "用於界限突破。", "ใช้สําหรับการทะลวงขีดจํากัด (Limit Break) อุปกรณ์ที่ Item Lab"],
     # JP text: より高度な限界突破に用いる。
-    "advanced_limit": ["used for advanced limit breaking", "더 높은 수준의 한계 돌파에 사용한다.", "", "用於更為高階的界限突破。", "ใช้สําหรับการทะลวงขีดจํากัด (Limit Break) อุปกรณ์ขั้นสูง\nที่ Item Lab"],
+    "advanced_limit": ["used for advanced limit\nbreaking ", "더 높은 수준의 한계 돌파에 사용한다.", "", "用於更為高階的界限突破。", "ใช้สําหรับการทะลวงขีดจํากัด (Limit Break) อุปกรณ์ขั้นสูง\nที่ Item Lab"],
     # JP text: 特殊能力分離に用いる。
     "detach": [
-        ("used to detach\n"
-         "Special Abilities from equipment"),
+        ("used to detach Special Abilities\n"
+         "from equipment "),
         ("특수 능력 분리에 사용한다."),
         (""),
         ("用於分離特殊能力。"),
@@ -5029,8 +5138,7 @@ tool_desc_formats = {
     "quest_trigger": [
         ("{venue}\n"
          "Consumed upon clearing the Quest\n"
-         "\"Simulation:\n"
-         "{quest}\"."),
+         "\"Simulation: {quest}\"."),
         ("{venue}\n"
          "“모의 훈련：\n"
          "{quest}”\n"
@@ -5132,8 +5240,8 @@ tool_desc_formats = {
     ],
     # JP text: {local_intro}特定の場所でアイテムと交換できる。
     "local_trade": [
-        ("{local_intro}Can be traded for items at\n"
-         "specific locations."),
+        ("{local_intro}\n"
+         "Can be traded for items at specific locations."),
         ("{local_intro}특정 장소에서 아이템과 교환할 수 있다."),
         (""),
         ("{local_intro}可在特定地點交換道具。"),
@@ -5143,9 +5251,9 @@ tool_desc_formats = {
     # {event_npc}に提示することで
     # 様々なアイテムと交換できるチケット。
     "event": [
-        ("During the corresponding event,\n"
-         "this ticket can be given to {event_npc}\n"
-         "in exchange for various items."),
+        ("Can be traded for items during\n"
+         "the corresponding event by\n"
+         "talking to {event_npc}."),
         ("해당 이벤트 기간 중에\n"
          "{event_npc}에게 제시하면\n"
          "다양한 아이템과 교환할 수 있는 티켓."),
@@ -5160,8 +5268,8 @@ tool_desc_formats = {
     # <yellow>{price}<c>N-メセタで
     # 売却することができる。
     "sale": [
-        ("{sale_intro}Can be sold for\n"
-         "<yellow>{price}<c> N-Meseta."),
+        ("{sale_intro} \n"
+         "Can be sold for <yellow>{price}<c> N-Meseta."),
         ("{sale_intro}\n"
          "<yellow>{price}<c>N-메세타에\n"
          "판매할 수 있다."),
@@ -5176,8 +5284,8 @@ tool_desc_formats = {
     # {ta_level}テックアーツカスタマイズに用いる。
     "ta": [
         ("Used at the Class Counter to perform\n"
-         "{ta_level}Tech Arts Customization for {ta_type}\n"
-         "weapons."),
+         "{ta_level}Tech Arts Customization\n"
+         "for {ta_type} weapons."),
         ("클래스 카운터에서 {ta_type} 무기의\n"
          "{ta_level}테크 아츠 커스터마이즈에 사용한다."),
         (""),
@@ -5193,8 +5301,8 @@ tool_desc_formats = {
     # {goods}の交換に用いる。
     "upgrade": [
         ("Material for {purpose} specific {goods}.\n"
-         "Used when exchanging {goods} at\n"
-         "the Item Trader with \"{menu}\"."),
+         "Used when exchanging {goods} at the\n"
+         "Item Trader with \"{menu}\"."),
         ("특정 {goods}를 {purpose}하는 데 필요한 소재.\n"
          "아이템 트레이더의\n"
          "“{menu}”에서\n"
@@ -5211,8 +5319,7 @@ tool_desc_formats = {
     # アイテムラボでの
     # {lab_use}
     "lab_use": [
-        ("{lab_intro}Can be {lab_use}\n"
-         "at the Item Lab."),
+        ("{lab_intro}Can be {lab_use}at the Item Lab."),
         ("{lab_intro}아이템 랩에서\n"
          "{lab_use}"),
         (""),
@@ -5590,14 +5697,7 @@ def translate_gacha_desc(item, file_name, name_prefix):
         date = source["date"] or source["suffix_date"]
         if "コラボ" in source["title"]:
             target_type = "collaboration"
-    if parts is None:
-        if LANG != 3 or (item_name and item_name != item["jp_text"]):
-            return -5
-        if target_type in ("special", "sp", "collaboration", "treasure"):
-            target = regex.sub(r"セレクト券(?:Vol\.)?", "スクラッチ", item["jp_text"])
-        else:
-            target = item["jp_text"].strip().removesuffix("景品交換券" if target_type == "prize" else "券")
-    else:
+    if parts is not None:
         values = {key: value.strip() for key, value in parts.items()}
         if target_type in ("sp", "collaboration"):
             if date != values["date"]:
@@ -5605,24 +5705,31 @@ def translate_gacha_desc(item, file_name, name_prefix):
             values["date"] = gacha_date_formats[LANG].format(date=date) if date else ""
         elif target_type == "treasure" and source["number"] != values["number"]:
             return -5
+
+    if target_type in ("special", "sp", "collaboration", "treasure"):
+        source_target = regex.sub(r"セレクト券(?:Vol\.)?", "スクラッチ", item["jp_text"])
+    else:
+        source_target = item["jp_text"].strip().removesuffix("景品交換券" if target_type == "prize" else "券")
+    native_template = template.format(target="{target}", yellow="<yellow>", c="<c>")
+    native_target = (get_existing_description_field(item, native_template, "target", source_target) or
+                     get_existing_description_field(item, native_template.replace("<yellow>", "").replace("<c>", ""), "target", source_target))
+    if (target_type == "collaboration" and date and native_target
+            and not native_target.endswith(date)):
+        native_target = None
+    if native_target is not None:
+        target = native_target
+    elif parts is None:
+        if LANG != 3 or (item_name and item_name != item["jp_text"]):
+            return -5
+        target = source_target
+    else:
         target = (values["title"] if target_type in ("prize", "ticket") else
                   gacha_title_formats[target_type][LANG].format(**values).strip())
-    if LANG == 0:
-        native_template = template.format(target="{target}", yellow="<yellow>", c="<c>")
-        native_target = (get_existing_description_field(item, native_template, "target") or
-                         get_existing_description_field(item, native_template.replace("<yellow>", "").replace("<c>", ""), "target"))
-        if (target_type == "collaboration" and date and native_target
-                and not native_target.endswith(date)):
-            native_target = None
-        # These baseline captions name the exchange ticket instead of its scratch.
-        if native_target and not regex.search(r"\b(?:Select|Prize Exchange)\b", native_target):
-            if target_type in ("sp", "collaboration"):
-                native_target = regex.sub(r"\bSpecial Scratch\b", "SP Scratch", native_target)
-            target = native_target
-        elif target_type == "prize" and parts is not None:
-            target = get_ticket_target_name(item, name_prefix, item["jp_text"].removesuffix("景品交換券"))
-            if target is None:
-                return -5
+    if native_target is None and target_type == "prize" and parts is not None:
+        target = get_ticket_target_name(item, name_prefix, item["jp_text"].removesuffix("景品交換券"))
+        if target is None:
+            return -5
+    target = expand_ticket_target_name(item, target, source_target)
     return set_description(item, template.format(target=target, yellow=yellow, c=c))
 
 # ——————————————————————————————
