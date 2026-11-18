@@ -60,6 +60,8 @@ blacklist_files += [
 
 bl = {"!", "＊", "†", "-", "士", "1", "2", "3", "4", "5"}
 
+wl = {"Ⓒ"}
+
 
 def pairr(j=None, t=None):
     if t is None:
@@ -96,7 +98,15 @@ def pairr(j=None, t=None):
 def normalizet(nk='NFKC', w=None):
     g = list()
     for t in w:
-        tn = unicodedata.normalize(nk, t)
+        tn = ""
+        s = ""
+        for c in t:
+            if c in wl:
+                tn += unicodedata.normalize(nk, s) + c
+                s = ""
+            else:
+                s += c
+        tn += unicodedata.normalize(nk, s)
         trans = tn.maketrans(quick)
         g.append(tn.translate(trans))
     return g
